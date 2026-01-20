@@ -1,10 +1,21 @@
 import { duffel } from './client';
 import type { HotelSearchParams, NormalizedHotel } from '@/types/hotel';
 import { geocodeCity } from '@/lib/geocoding/mapbox';
+import { getMockHotels, isMockMode } from './mock-data';
 
 export async function searchHotels(
   params: HotelSearchParams
 ): Promise<NormalizedHotel[]> {
+  // Use mock data if Duffel Stays API is not available
+  if (isMockMode()) {
+    console.log('Using mock hotel data (Duffel Stays API not available)');
+    return getMockHotels(
+      params.location.city || 'default',
+      params.checkIn,
+      params.checkOut,
+      params.budget
+    );
+  }
   // Get coordinates for the location
   let coordinates: { latitude: number; longitude: number };
 

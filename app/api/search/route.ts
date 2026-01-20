@@ -51,13 +51,13 @@ export async function POST(request: NextRequest) {
     // Log search for analytics
     if (conversationId) {
       const supabase = createServiceRoleClient();
-      await supabase.from('search_logs').insert({
-        conversationId,
-        searchParams,
-        resultsCount: hotels.length,
-        minPrice: hotels.length > 0 ? Math.min(...hotels.map((h) => h.pricing.nightlyRate)) : null,
-        maxPrice: hotels.length > 0 ? Math.max(...hotels.map((h) => h.pricing.nightlyRate)) : null,
-        responseTimeMs,
+      await (supabase.from('search_logs') as any).insert({
+        conversation_id: conversationId,
+        search_params: searchParams,
+        results_count: hotels.length,
+        min_price: hotels.length > 0 ? Math.min(...hotels.map((h) => h.pricing.nightlyRate)) : null,
+        max_price: hotels.length > 0 ? Math.max(...hotels.map((h) => h.pricing.nightlyRate)) : null,
+        response_time_ms: responseTimeMs,
       });
     }
 

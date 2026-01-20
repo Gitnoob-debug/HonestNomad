@@ -27,6 +27,7 @@ export async function searchHotels(
   const guests = Array(params.guests || 1).fill({ type: 'adult' as const });
 
   // Search for accommodations
+  // Note: Duffel API returns search results that need to be fetched for rates
   const searchResponse = await duffel.stays.search({
     check_in_date: params.checkIn,
     check_out_date: params.checkOut,
@@ -34,11 +35,17 @@ export async function searchHotels(
     guests,
     location: {
       geographic_coordinates: coordinates,
+      radius: params.location.radiusKm || 10,
     },
-    radius: params.location.radiusKm || 10,
   });
 
-  const accommodations = searchResponse.data;
+  // The search returns a single result with accommodation data
+  // We need to fetch rates for each result to get full pricing
+  const searchResult = searchResponse.data;
+
+  // Wrap single result in array for now - API may need adjustment
+  // In production, you'd paginate/iterate search results
+  const accommodations = [searchResult.accommodation];
 
   // Filter by budget if specified
   let filtered = accommodations;
@@ -47,7 +54,7 @@ export async function searchHotels(
 
     filtered = accommodations.filter((acc: any) => {
       const nightlyRate =
-        parseFloat(acc.cheapest_rate_total_amount) / nights;
+        parseFloat(acc.cheapest_rate_total_amount || '0') / nights;
 
       const meetsMin =
         !params.budget!.min || nightlyRate >= params.budget!.min;

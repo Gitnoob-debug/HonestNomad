@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getBooking } from '@/lib/supabase/bookings';
+import { getBooking, updateBookingStatus } from '@/lib/supabase/bookings';
 import { cancelBooking } from '@/lib/duffel/book';
-import { createServerSupabaseClient } from '@/lib/supabase/server';
 
 export async function GET(
   request: NextRequest,
@@ -45,11 +44,7 @@ export async function DELETE(
     await cancelBooking(booking.duffelBookingId);
 
     // Update status in database
-    const supabase = createServerSupabaseClient();
-    await supabase
-      .from('bookings')
-      .update({ status: 'cancelled' })
-      .eq('id', params.id);
+    await updateBookingStatus(booking.duffelBookingId, 'cancelled');
 
     return NextResponse.json({ success: true });
   } catch (error: any) {

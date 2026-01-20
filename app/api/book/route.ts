@@ -57,8 +57,9 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({
       booking: {
-        id: dbBooking.id,
         ...booking,
+        id: dbBooking.id,
+        duffelBookingId: booking.id,
       },
     });
   } catch (error: any) {

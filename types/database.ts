@@ -1,3 +1,5 @@
+import type { BookingStatus } from './booking';
+
 export interface Database {
   public: {
     Tables: {
@@ -63,14 +65,14 @@ export interface Conversation {
   updatedAt: string;
   sessionId: string;
   userId?: string;
-  state: ConversationState;
+  state: DbConversationState;
   preferences: ConversationPreferences;
   lastSearchResults: any[];
   userAgent?: string;
   ipCountry?: string;
 }
 
-export interface ConversationState {
+export interface DbConversationState {
   stage: 'gathering_info' | 'showing_results' | 'booking' | 'complete';
   selectedHotelId?: string;
   guestDetails?: {

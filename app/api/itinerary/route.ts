@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { generateItinerary } from '@/lib/claude/itinerary';
 import { createServiceRoleClient } from '@/lib/supabase/server';
+import { attachItineraryToBooking } from '@/lib/supabase/bookings';
 import type { ItineraryGenerateParams } from '@/types/itinerary';
 
 export async function POST(request: NextRequest) {
@@ -52,22 +53,19 @@ export async function POST(request: NextRequest) {
 
     if (bookingId) {
       // Update booking with itinerary
-      await supabase
-        .from('bookings')
-        .update({ itinerary })
-        .eq('id', bookingId);
+      await attachItineraryToBooking(bookingId, itinerary);
     }
 
     // Store as standalone itinerary
-    await supabase.from('itineraries').insert({
-      conversationId,
-      bookingId,
+    await (supabase.from('itineraries') as any).insert({
+      conversation_id: conversationId,
+      booking_id: bookingId,
       destination: itinerary.destination,
-      startDate: checkIn,
-      endDate: checkOut,
+      start_date: checkIn,
+      end_date: checkOut,
       content: itinerary,
-      preferencesUsed: { travelerType, interests, pace, budgetLevel },
-      generationModel: 'claude-sonnet-4-20250514',
+      preferences_used: { travelerType, interests, pace, budgetLevel },
+      generation_model: 'claude-sonnet-4-20250514',
     });
 
     return NextResponse.json({ itinerary });

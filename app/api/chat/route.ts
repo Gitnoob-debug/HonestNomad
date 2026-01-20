@@ -122,7 +122,7 @@ export async function POST(request: NextRequest) {
           await updateConversation(conversation.id, {
             state: {
               ...conversation.state,
-              stage: 'collecting_info',
+              stage: 'booking',
               selectedHotelId: selectedHotel.id,
             },
             preferences: updatedPreferences,
@@ -175,8 +175,8 @@ export async function POST(request: NextRequest) {
             duffelBookingId: booking.id,
             hotelName: hotelToBook.name,
             hotelId: hotelToBook.id,
-            checkIn: updatedPreferences.checkIn,
-            checkOut: updatedPreferences.checkOut,
+            checkIn: updatedPreferences.checkIn || '',
+            checkOut: updatedPreferences.checkOut || '',
             guestName: `${guestDetails.givenName} ${guestDetails.familyName}`,
             guestEmail: guestDetails.email,
             guestPhone: guestDetails.phone,

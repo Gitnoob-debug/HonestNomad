@@ -1,29 +1,23 @@
-import { createServerClient, type CookieOptions } from '@supabase/auth-helpers-nextjs';
+import { createServerClient } from '@supabase/ssr';
 import { cookies } from 'next/headers';
-import type { Database } from '@/types/database';
 
 export function createServerSupabaseClient() {
   const cookieStore = cookies();
 
-  return createServerClient<Database>(
+  return createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {
       cookies: {
-        get(name: string) {
-          return cookieStore.get(name)?.value;
+        getAll() {
+          return cookieStore.getAll();
         },
-        set(name: string, value: string, options: CookieOptions) {
+        setAll(cookiesToSet: Array<{ name: string; value: string; options?: any }>) {
           try {
-            cookieStore.set({ name, value, ...options });
-          } catch (error) {
-            // Handle cookies in Server Components
-          }
-        },
-        remove(name: string, options: CookieOptions) {
-          try {
-            cookieStore.set({ name, value: '', ...options });
-          } catch (error) {
+            cookiesToSet.forEach(({ name, value, options }) =>
+              cookieStore.set(name, value, options)
+            );
+          } catch {
             // Handle cookies in Server Components
           }
         },
@@ -33,14 +27,13 @@ export function createServerSupabaseClient() {
 }
 
 export function createServiceRoleClient() {
-  return createServerClient<Database>(
+  return createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.SUPABASE_SERVICE_ROLE_KEY!,
     {
       cookies: {
-        get() { return undefined; },
-        set() {},
-        remove() {},
+        getAll() { return []; },
+        setAll() {},
       },
       auth: {
         autoRefreshToken: false,

@@ -4,49 +4,53 @@ import type { BookingParams, BookingResult } from '@/types/hotel';
 export async function createBooking(
   params: BookingParams
 ): Promise<BookingResult> {
+  // Lead guest info
+  const leadGuest = params.guests[0];
+
+  // Build guests array for Duffel API
   const guests = params.guests.map((g) => ({
     given_name: g.givenName,
     family_name: g.familyName,
-    email: g.email,
-    phone_number: g.phone,
   }));
 
-  // Build payment object
-  const payments: any[] = [];
-  if (params.payment.type === 'balance') {
-    payments.push({ type: 'balance' });
-  } else if (params.payment.cardToken) {
-    payments.push({
-      type: 'card',
-      token: params.payment.cardToken,
-    });
+  // Build booking payload per Duffel API spec
+  const bookingPayload: {
+    quote_id: string;
+    guests: Array<{ given_name: string; family_name: string }>;
+    email: string;
+    phone_number: string;
+    payment?: { card_id: string };
+  } = {
+    quote_id: params.rateId, // rateId is actually the quote_id from search
+    guests,
+    email: leadGuest.email,
+    phone_number: leadGuest.phone || '',
+  };
+
+  // Add payment if card token provided
+  if (params.payment.cardToken) {
+    bookingPayload.payment = {
+      card_id: params.payment.cardToken,
+    };
   }
 
-  const order = await duffel.stays.bookings.create({
-    rate_id: params.rateId,
-    guests,
-    payments,
-    metadata: {
-      source: 'honest-nomad',
-      timestamp: new Date().toISOString(),
-    },
-  });
+  const order = await duffel.stays.bookings.create(bookingPayload);
 
   const booking = order.data;
 
   return {
     id: booking.id,
-    bookingReference: booking.booking_reference || booking.id,
+    bookingReference: booking.reference || booking.id,
     status: mapStatus(booking.status),
     hotel: {
       name: booking.accommodation?.name || 'Hotel',
-      address: booking.accommodation?.location?.address?.line_1 || '',
+      address: booking.accommodation?.location?.address?.line_one || '',
     },
     checkIn: booking.check_in_date,
     checkOut: booking.check_out_date,
     guests: params.guests,
-    totalAmount: booking.total_amount || '0',
-    currency: booking.total_currency || 'USD',
+    totalAmount: '0', // Will be set from quote data
+    currency: 'USD',
     cancellationPolicy: {
       refundable: false,
     },

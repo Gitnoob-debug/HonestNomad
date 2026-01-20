@@ -1,20 +1,19 @@
 import { createServiceRoleClient } from './server';
-import type { Conversation, ConversationState, ConversationPreferences, DbMessage } from '@/types/database';
 
 export async function createConversation(
   sessionId: string,
   userId?: string
-): Promise<Conversation> {
+): Promise<any> {
   const supabase = createServiceRoleClient();
 
   const { data, error } = await supabase
     .from('conversations')
     .insert({
-      sessionId,
-      userId,
-      state: { stage: 'gathering_info' } as ConversationState,
-      preferences: {} as ConversationPreferences,
-      lastSearchResults: [],
+      session_id: sessionId,
+      user_id: userId,
+      state: { stage: 'gathering_info' },
+      preferences: {},
+      last_search_results: [],
     })
     .select()
     .single();
@@ -23,10 +22,10 @@ export async function createConversation(
     throw new Error(`Failed to create conversation: ${error.message}`);
   }
 
-  return data as Conversation;
+  return data;
 }
 
-export async function getConversation(id: string): Promise<Conversation | null> {
+export async function getConversation(id: string): Promise<any | null> {
   const supabase = createServiceRoleClient();
 
   const { data, error } = await supabase
@@ -42,17 +41,17 @@ export async function getConversation(id: string): Promise<Conversation | null> 
     throw new Error(`Failed to get conversation: ${error.message}`);
   }
 
-  return data as Conversation;
+  return data;
 }
 
-export async function getConversationBySession(sessionId: string): Promise<Conversation | null> {
+export async function getConversationBySession(sessionId: string): Promise<any | null> {
   const supabase = createServiceRoleClient();
 
   const { data, error } = await supabase
     .from('conversations')
     .select('*')
-    .eq('sessionId', sessionId)
-    .order('createdAt', { ascending: false })
+    .eq('session_id', sessionId)
+    .order('created_at', { ascending: false })
     .limit(1)
     .single();
 
@@ -63,17 +62,17 @@ export async function getConversationBySession(sessionId: string): Promise<Conve
     throw new Error(`Failed to get conversation: ${error.message}`);
   }
 
-  return data as Conversation;
+  return data;
 }
 
 export async function updateConversation(
   id: string,
   updates: {
-    state?: Partial<ConversationState>;
-    preferences?: Partial<ConversationPreferences>;
+    state?: any;
+    preferences?: any;
     lastSearchResults?: any[];
   }
-): Promise<Conversation> {
+): Promise<any> {
   const supabase = createServiceRoleClient();
 
   // Get current conversation
@@ -83,7 +82,7 @@ export async function updateConversation(
   }
 
   const updateData: any = {
-    updatedAt: new Date().toISOString(),
+    updated_at: new Date().toISOString(),
   };
 
   if (updates.state) {
@@ -95,7 +94,7 @@ export async function updateConversation(
   }
 
   if (updates.lastSearchResults) {
-    updateData.lastSearchResults = updates.lastSearchResults;
+    updateData.last_search_results = updates.lastSearchResults;
   }
 
   const { data, error } = await supabase
@@ -109,7 +108,7 @@ export async function updateConversation(
     throw new Error(`Failed to update conversation: ${error.message}`);
   }
 
-  return data as Conversation;
+  return data;
 }
 
 export async function addMessage(
@@ -118,18 +117,18 @@ export async function addMessage(
   content: string,
   metadata: Record<string, any> = {},
   tokens?: { input?: number; output?: number }
-): Promise<DbMessage> {
+): Promise<any> {
   const supabase = createServiceRoleClient();
 
   const { data, error } = await supabase
     .from('messages')
     .insert({
-      conversationId,
+      conversation_id: conversationId,
       role,
       content,
       metadata,
-      inputTokens: tokens?.input,
-      outputTokens: tokens?.output,
+      input_tokens: tokens?.input,
+      output_tokens: tokens?.output,
     })
     .select()
     .single();
@@ -138,23 +137,23 @@ export async function addMessage(
     throw new Error(`Failed to add message: ${error.message}`);
   }
 
-  return data as DbMessage;
+  return data;
 }
 
-export async function getMessages(conversationId: string): Promise<DbMessage[]> {
+export async function getMessages(conversationId: string): Promise<any[]> {
   const supabase = createServiceRoleClient();
 
   const { data, error } = await supabase
     .from('messages')
     .select('*')
-    .eq('conversationId', conversationId)
-    .order('createdAt', { ascending: true });
+    .eq('conversation_id', conversationId)
+    .order('created_at', { ascending: true });
 
   if (error) {
     throw new Error(`Failed to get messages: ${error.message}`);
   }
 
-  return data as DbMessage[];
+  return data || [];
 }
 
 export async function linkConversationToUser(
@@ -165,7 +164,7 @@ export async function linkConversationToUser(
 
   const { error } = await supabase
     .from('conversations')
-    .update({ userId })
+    .update({ user_id: userId })
     .eq('id', conversationId);
 
   if (error) {

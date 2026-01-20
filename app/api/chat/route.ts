@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { parseIntent, buildConversationHistory } from '@/lib/claude/intent';
-import { generateResultsResponse, generateNoResultsResponse } from '@/lib/claude/response';
+import { generateResultsResponse, generateNoResultsResponse, generateFlightResultsResponse } from '@/lib/claude/response';
 import { generateItinerary, createItineraryFromHotel } from '@/lib/claude/itinerary';
 import { searchHotels } from '@/lib/duffel/search';
+import { searchFlights } from '@/lib/duffel/flights';
 import { createBooking } from '@/lib/duffel/book';
 import {
   getConversation,
@@ -13,6 +14,7 @@ import {
 } from '@/lib/supabase/conversations';
 import { createBookingRecord } from '@/lib/supabase/bookings';
 import type { HotelSearchParams } from '@/types/hotel';
+import type { FlightSearchParams } from '@/types/flight';
 
 export async function POST(request: NextRequest) {
   try {
@@ -70,9 +72,10 @@ export async function POST(request: NextRequest) {
 
     // Handle based on intent action
     switch (intent.action) {
-      case 'search': {
+      case 'search':
+      case 'search_hotels': {
         // Execute hotel search
-        const searchParams = buildSearchParams(updatedPreferences);
+        const searchParams = buildHotelSearchParams(updatedPreferences);
 
         try {
           const hotels = await searchHotels(searchParams);
@@ -108,6 +111,106 @@ export async function POST(request: NextRequest) {
           console.error('Search error:', error);
           const errorMessage = error.message || error.errors?.[0]?.message || JSON.stringify(error);
           response.message = `I had trouble searching for hotels: ${errorMessage}. Could you try again or provide more details about your destination?`;
+          response.action = 'ask_clarification';
+        }
+        break;
+      }
+
+      case 'search_flights': {
+        // Execute flight search
+        const flightParams = buildFlightSearchParams(updatedPreferences);
+
+        try {
+          const flights = await searchFlights(flightParams);
+
+          if (flights.length === 0) {
+            response.message = `I couldn't find any flights from ${updatedPreferences.origin} to ${updatedPreferences.destination} for those dates. Would you like to try different dates or airports?`;
+            response.action = 'ask_clarification';
+          } else {
+            // Generate conversational response for flights
+            const resultsMessage = await generateFlightResultsResponse(
+              flights,
+              updatedPreferences,
+              message
+            );
+
+            // Update conversation state
+            await updateConversation(conversation.id, {
+              state: {
+                ...conversation.state,
+                stage: 'showing_results',
+              },
+              preferences: updatedPreferences,
+              lastSearchResults: flights,
+            });
+
+            response.message = resultsMessage;
+            response.flights = flights.slice(0, 5);
+            response.action = 'show_flights';
+          }
+        } catch (error: any) {
+          console.error('Flight search error:', error);
+          const errorMessage = error.message || error.errors?.[0]?.message || JSON.stringify(error);
+          response.message = `I had trouble searching for flights: ${errorMessage}. Could you try again or provide more details?`;
+          response.action = 'ask_clarification';
+        }
+        break;
+      }
+
+      case 'search_trip': {
+        // Execute combined flight + hotel search
+        try {
+          const flightParams = buildFlightSearchParams(updatedPreferences);
+          const hotelParams = buildHotelSearchParams(updatedPreferences);
+
+          const [flights, hotels] = await Promise.all([
+            searchFlights(flightParams),
+            searchHotels(hotelParams),
+          ]);
+
+          // Update conversation state with both results
+          // Store flights and hotels together in lastSearchResults array
+          const combinedResults = [
+            ...flights.map((f: any) => ({ ...f, _type: 'flight' })),
+            ...hotels.map((h: any) => ({ ...h, _type: 'hotel' })),
+          ];
+
+          await updateConversation(conversation.id, {
+            state: {
+              ...conversation.state,
+              stage: 'showing_results',
+            },
+            preferences: updatedPreferences,
+            lastSearchResults: combinedResults,
+          });
+
+          // Generate combined response
+          let resultsMessage = '';
+          if (flights.length > 0 && hotels.length > 0) {
+            resultsMessage = `Great news! I found ${flights.length} flight options and ${hotels.length} hotels for your trip to ${updatedPreferences.destination}.\n\n`;
+            resultsMessage += `**Flights from ${updatedPreferences.origin}:**\n`;
+            flights.slice(0, 3).forEach((f, i) => {
+              const slice = f.slices[0];
+              resultsMessage += `${i + 1}. ${f.airlines[0]?.name || 'Airline'} - $${f.pricing.perPassenger}/person, ${slice.stops === 0 ? 'Direct' : `${slice.stops} stop(s)`}, ${slice.duration}\n`;
+            });
+            resultsMessage += `\n**Hotels:**\n`;
+            hotels.slice(0, 3).forEach((h, i) => {
+              resultsMessage += `${i + 1}. ${h.name} - $${h.pricing.nightlyRate}/night, ${h.rating.stars || '?'}★\n`;
+            });
+            resultsMessage += `\nWhich flights and hotels interest you?`;
+          } else if (flights.length === 0) {
+            resultsMessage = `I found ${hotels.length} hotels but couldn't find flights for those dates. Would you like to adjust your travel dates?`;
+          } else {
+            resultsMessage = `I found ${flights.length} flights but no hotels matched your criteria. Would you like to adjust your preferences?`;
+          }
+
+          response.message = resultsMessage;
+          response.flights = flights.slice(0, 5);
+          response.hotels = hotels.slice(0, 5);
+          response.action = 'show_results';
+        } catch (error: any) {
+          console.error('Trip search error:', error);
+          response.message = `I had trouble searching for your trip. ${error.message}. Let me know if you'd like to try again.`;
           response.action = 'ask_clarification';
         }
         break;
@@ -261,7 +364,7 @@ export async function POST(request: NextRequest) {
   }
 }
 
-function buildSearchParams(preferences: any): HotelSearchParams {
+function buildHotelSearchParams(preferences: any): HotelSearchParams {
   if (!preferences.destination) {
     throw new Error('Destination is required');
   }
@@ -286,5 +389,39 @@ function buildSearchParams(preferences: any): HotelSearchParams {
             currency: preferences.currency || 'USD',
           }
         : undefined,
+  };
+}
+
+function buildFlightSearchParams(preferences: any): FlightSearchParams {
+  if (!preferences.origin) {
+    throw new Error('Origin is required for flight search');
+  }
+  if (!preferences.destination) {
+    throw new Error('Destination is required for flight search');
+  }
+
+  // Use departureDate if specified, otherwise fall back to checkIn
+  const departureDate = preferences.departureDate || preferences.checkIn;
+  if (!departureDate) {
+    throw new Error('Departure date is required for flight search');
+  }
+
+  // Build passengers array
+  const passengerCount = preferences.passengers || 1;
+  const passengers = Array(passengerCount).fill({ type: 'adult' as const });
+
+  return {
+    origin: preferences.origin,
+    destination: preferences.destination,
+    departureDate,
+    returnDate: preferences.returnDate || preferences.checkOut,
+    passengers,
+    cabinClass: preferences.cabinClass || 'economy',
+    budget: preferences.flightBudgetMax
+      ? {
+          max: preferences.flightBudgetMax,
+          currency: preferences.currency || 'USD',
+        }
+      : undefined,
   };
 }

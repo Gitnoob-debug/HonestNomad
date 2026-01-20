@@ -1,6 +1,7 @@
 import { openrouter, MODEL } from './client';
-import { RESULTS_PROMPT, BOOKING_CONFIRMATION_PROMPT } from './prompts';
+import { RESULTS_PROMPT, BOOKING_CONFIRMATION_PROMPT, FLIGHT_RESULTS_PROMPT } from './prompts';
 import type { NormalizedHotel } from '@/types/hotel';
+import type { NormalizedFlight } from '@/types/flight';
 
 export async function generateResultsResponse(
   hotels: NormalizedHotel[],
@@ -84,4 +85,64 @@ Keep it conversational and helpful. Format: Respond ONLY with the message text.`
 
   const textContent = response.choices[0]?.message?.content;
   return textContent || "I couldn't find any hotels matching your criteria. Would you like to adjust your search?";
+}
+
+export async function generateFlightResultsResponse(
+  flights: NormalizedFlight[],
+  userPreferences: Record<string, any>,
+  originalQuery: string
+): Promise<string> {
+  const flightSummaries = flights
+    .slice(0, 5)
+    .map((f, i) => {
+      const outbound = f.slices[0];
+      const returnFlight = f.slices[1];
+      const departTime = new Date(outbound.departureTime).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+      const arriveTime = new Date(outbound.arrivalTime).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+
+      let summary = `
+Flight ${i + 1}: ${f.airlines.map(a => a.name).join(' + ')}
+- Route: ${outbound.origin} → ${outbound.destination}
+- Departs: ${departTime}, Arrives: ${arriveTime}
+- Duration: ${formatDuration(outbound.duration)}
+- Stops: ${outbound.stops === 0 ? 'Direct' : `${outbound.stops} stop(s)`}
+- Price: $${f.pricing.perPassenger}/person ($${f.pricing.totalAmount} total)
+- Cabin: ${f.cabinClass}
+- Baggage: ${f.baggageAllowance?.checkedBags ? `${f.baggageAllowance.checkedBags} checked bag(s) included` : 'Carry-on only'}
+- ID: ${f.id}`;
+
+      if (returnFlight) {
+        const returnDepart = new Date(returnFlight.departureTime).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+        summary += `\n- Return: ${returnFlight.origin} → ${returnFlight.destination} at ${returnDepart}`;
+      }
+
+      return summary;
+    })
+    .join('\n');
+
+  const prompt = FLIGHT_RESULTS_PROMPT.replace('{query}', originalQuery)
+    .replace('{preferences}', JSON.stringify(userPreferences))
+    .replace('{flightSummaries}', flightSummaries);
+
+  const response = await openrouter.chat.completions.create({
+    model: MODEL,
+    max_tokens: 1024,
+    messages: [{ role: 'user', content: prompt }],
+  });
+
+  const textContent = response.choices[0]?.message?.content;
+  return textContent || 'I found some flight options but had trouble formatting them. Please try again.';
+}
+
+function formatDuration(duration: string): string {
+  // Parse ISO 8601 duration like PT2H30M
+  const match = duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?/);
+  if (match) {
+    const hours = match[1] ? parseInt(match[1]) : 0;
+    const minutes = match[2] ? parseInt(match[2]) : 0;
+    if (hours && minutes) return `${hours}h ${minutes}m`;
+    if (hours) return `${hours}h`;
+    if (minutes) return `${minutes}m`;
+  }
+  return duration;
 }

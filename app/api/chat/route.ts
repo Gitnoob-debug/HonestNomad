@@ -106,7 +106,8 @@ export async function POST(request: NextRequest) {
           }
         } catch (error: any) {
           console.error('Search error:', error);
-          response.message = `I had trouble searching for hotels: ${error.message}. Could you try again or provide more details about your destination?`;
+          const errorMessage = error.message || error.errors?.[0]?.message || JSON.stringify(error);
+          response.message = `I had trouble searching for hotels: ${errorMessage}. Could you try again or provide more details about your destination?`;
           response.action = 'ask_clarification';
         }
         break;

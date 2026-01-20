@@ -1,11 +1,25 @@
 import { Duffel } from '@duffel/api';
 
-if (!process.env.DUFFEL_ACCESS_TOKEN) {
-  throw new Error('DUFFEL_ACCESS_TOKEN is required');
+// Lazy-load the Duffel client to avoid build-time errors
+let _duffel: Duffel | null = null;
+
+export function getDuffelClient(): Duffel {
+  if (!_duffel) {
+    if (!process.env.DUFFEL_ACCESS_TOKEN) {
+      throw new Error('DUFFEL_ACCESS_TOKEN is required');
+    }
+    _duffel = new Duffel({
+      token: process.env.DUFFEL_ACCESS_TOKEN,
+    });
+  }
+  return _duffel;
 }
 
-export const duffel = new Duffel({
-  token: process.env.DUFFEL_ACCESS_TOKEN,
+// For backwards compatibility - getter that lazy-loads
+export const duffel = new Proxy({} as Duffel, {
+  get(_, prop) {
+    return (getDuffelClient() as any)[prop];
+  },
 });
 
 // Duffel Stays API is used for hotel bookings

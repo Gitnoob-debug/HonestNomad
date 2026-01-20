@@ -10,7 +10,8 @@
       "Bash(npm install:*)",
       "Bash(npm run build:*)",
       "Bash(dir /s /b node_modules@duffelapidistStays*.*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npm show:*)"
     ]
   }
 }

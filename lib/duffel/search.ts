@@ -39,13 +39,16 @@ export async function searchHotels(
     },
   });
 
-  // The search returns a single result with accommodation data
-  // We need to fetch rates for each result to get full pricing
-  const searchResult = searchResponse.data;
+  // The search returns an array of results
+  const searchResults = searchResponse.data.results || [];
 
-  // Wrap single result in array for now - API may need adjustment
-  // In production, you'd paginate/iterate search results
-  const accommodations = [searchResult.accommodation];
+  // Map search results to include accommodation and pricing
+  const accommodations = searchResults.map((result: any) => ({
+    ...result.accommodation,
+    cheapest_rate_total_amount: result.cheapest_rate_total_amount,
+    cheapest_rate_currency: result.cheapest_rate_currency,
+    search_result_id: result.id,
+  }));
 
   // Filter by budget if specified
   let filtered = accommodations;

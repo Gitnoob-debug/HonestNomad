@@ -165,6 +165,10 @@ CREATE POLICY "Users can update own profile"
     ON profiles FOR UPDATE
     USING (auth.uid() = user_id);
 
+CREATE POLICY "Enable insert for service role and triggers"
+    ON profiles FOR INSERT
+    WITH CHECK (true);
+
 -- Conversations policies
 CREATE POLICY "Users can view own conversations"
     ON conversations FOR SELECT

@@ -11,8 +11,8 @@ export async function createProfile(
   const { data: profile, error } = await supabase
     .from('profiles')
     .insert({
-      userId,
-      fullName: data?.fullName,
+      user_id: userId,
+      full_name: data?.fullName,
       email: data?.email,
       phone: data?.phone,
       preferences: data?.preferences || {},
@@ -33,7 +33,7 @@ export async function getProfile(userId: string): Promise<Profile | null> {
   const { data, error } = await supabase
     .from('profiles')
     .select('*')
-    .eq('userId', userId)
+    .eq('user_id', userId)
     .single();
 
   if (error) {
@@ -52,13 +52,19 @@ export async function updateProfile(
 ): Promise<Profile> {
   const supabase = createServiceRoleClient();
 
+  // Convert camelCase to snake_case for database
+  const dbUpdates: Record<string, any> = {
+    updated_at: new Date().toISOString(),
+  };
+  if (updates.fullName !== undefined) dbUpdates.full_name = updates.fullName;
+  if (updates.email !== undefined) dbUpdates.email = updates.email;
+  if (updates.phone !== undefined) dbUpdates.phone = updates.phone;
+  if (updates.preferences !== undefined) dbUpdates.preferences = updates.preferences;
+
   const { data, error } = await supabase
     .from('profiles')
-    .update({
-      ...updates,
-      updatedAt: new Date().toISOString(),
-    })
-    .eq('userId', userId)
+    .update(dbUpdates)
+    .eq('user_id', userId)
     .select()
     .single();
 
@@ -90,9 +96,9 @@ export async function updatePreferences(
     .from('profiles')
     .update({
       preferences: updatedPreferences,
-      updatedAt: new Date().toISOString(),
+      updated_at: new Date().toISOString(),
     })
-    .eq('userId', userId)
+    .eq('user_id', userId)
     .select()
     .single();
 

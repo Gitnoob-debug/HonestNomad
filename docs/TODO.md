@@ -11,14 +11,37 @@
 
 ---
 
+## Completed ✅
+
+### Infrastructure
+- ✅ **Duffel Flights API** - Real flight search working with live data
+- ✅ **Duffel Stays API Code** - Integration code complete, awaiting API access
+- ✅ **Supabase Setup** - Database and auth configured
+- ✅ **Mapbox Geocoding** - Location search working
+- ✅ **OpenRouter/Claude AI** - Natural language trip planning
+- ✅ **Vercel Deployment** - Live at honest-nomad-ud6y.vercel.app
+
+### Core Features
+- ✅ **Chat Interface** - Conversational trip planning
+- ✅ **TripCard Component** - Beautiful trip display with flights, hotels, itinerary
+- ✅ **Flight Search** - Real Duffel data with airline logos
+- ✅ **Hotel Search** - Mock data (pending Stays API access)
+- ✅ **Alternatives Modal** - Swap flights/hotels
+- ✅ **Day-by-Day Itinerary** - AI-generated activity plans
+
+### Environment
+- ✅ **DUFFEL_STAYS_ENABLED** - Environment variable added to Vercel
+
+---
+
 ## Phase 1: Get to Bookable (MVP)
 
 ### API & Infrastructure
 
-- [ ] 🔴 **Duffel Stays API Approval**
-  - Current: Using mock hotel data
-  - Action: Follow up on Duffel developer access request
-  - If rejected: Evaluate Booking.com Affiliate API as backup
+- [ ] 🔄 **Duffel Stays API Approval**
+  - Status: Request submitted to Duffel
+  - Code: Already integrated, ready to use
+  - Fallback: Mock data working for demos
 
 - [ ] 🔴 **Stripe Integration**
   - [ ] Create Stripe account
@@ -31,7 +54,7 @@
 - [ ] 🔴 **Booking API**
   - [ ] Create `/api/book` endpoint
   - [ ] Implement flight booking via Duffel
-  - [ ] Implement hotel booking via Duffel
+  - [ ] Implement hotel booking via Duffel Stays
   - [ ] Handle partial failures (rollback logic)
   - [ ] Store booking in Supabase
   - [ ] Return booking confirmation
@@ -285,28 +308,6 @@
 
 ---
 
-## This Week's Focus
-
-### Monday-Tuesday
-1. [ ] Apply for Duffel Stays production access (if not done)
-2. [ ] Set up Stripe account and API keys
-3. [ ] Create basic `/api/create-payment-intent`
-4. [ ] Build PaymentForm component
-
-### Wednesday-Thursday
-5. [ ] Create `/trip/[id]/book` page
-6. [ ] Build GuestDetailsForm component
-7. [ ] Wire up booking flow end-to-end
-8. [ ] Test with Stripe test cards
-
-### Friday
-9. [ ] Set up Resend for emails
-10. [ ] Create booking confirmation email template
-11. [ ] Add error handling and Sentry
-12. [ ] Deploy and test on production
-
----
-
 ## Quick Wins (< 2 hours each)
 
 - [ ] Add loading spinner while searching
@@ -319,14 +320,32 @@
 
 ---
 
-## Blocked Items
+## Current Blockers
 
-| Item | Blocker | Action Needed |
-|------|---------|---------------|
-| Hotel booking | Duffel Stays approval | Follow up with Duffel |
-| Payment testing | Stripe account | Create and verify account |
-| Real itineraries | Google Places API | Set up GCP project |
+| Item | Status | Action Needed |
+|------|--------|---------------|
+| Duffel Stays API | 🔄 Requested | Awaiting Duffel approval |
+| Payment processing | ⏸️ Not started | Set up Stripe account |
+| Real itineraries | ⏸️ Not started | Set up Google Places API |
 
 ---
 
-*Last Updated: January 2026*
+## Next Session Priorities
+
+1. **Once Duffel Stays is approved:**
+   - Test real hotel search on production
+   - Verify hotel booking flow works end-to-end
+
+2. **Stripe Integration:**
+   - Create Stripe account
+   - Build payment form component
+   - Test with sandbox cards
+
+3. **Booking Flow:**
+   - Create `/trip/[id]/book` page
+   - Build guest details form
+   - Wire up complete booking
+
+---
+
+*Last Updated: January 20, 2026*

@@ -39,10 +39,16 @@ export default function FlashPlanPage() {
 
   const handleGenerate = async (params: FlashGenerateParams) => {
     try {
-      await generateTrips(params);
-    } catch (err) {
-      // Error is already in state
+      console.log('Starting trip generation with params:', params);
+      const result = await generateTrips(params);
+      console.log('Generation result:', result);
+    } catch (err: any) {
+      // Error is already in state, but log it
       console.error('Generation failed:', err);
+      // Check if it's a profile incomplete error
+      if (err.message?.includes('profile incomplete')) {
+        console.log('Profile incomplete - should show wizard prompt');
+      }
     }
   };
 
@@ -174,7 +180,23 @@ export default function FlashPlanPage() {
         {/* Error message */}
         {error && (
           <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
-            <p className="text-sm text-red-700">{error}</p>
+            <div className="flex items-start gap-3">
+              <svg className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <div>
+                <p className="font-medium text-red-800">Trip generation failed</p>
+                <p className="text-sm text-red-700 mt-1">{error}</p>
+                {error.toLowerCase().includes('profile') && (
+                  <button
+                    onClick={() => router.push('/flash/wizard')}
+                    className="mt-3 text-sm font-medium text-red-700 hover:text-red-800 underline"
+                  >
+                    Complete your profile to continue
+                  </button>
+                )}
+              </div>
+            </div>
           </div>
         )}
 

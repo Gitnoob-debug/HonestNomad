@@ -3,7 +3,13 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
-import { Card, Button, Input } from '@/components/ui';
+import { Card, Button, Input, Spinner } from '@/components/ui';
+
+interface FlashProfileStatus {
+  profileComplete: boolean;
+  missingSteps: string[];
+  preferences: any | null;
+}
 
 export default function SettingsPage() {
   const router = useRouter();
@@ -14,6 +20,8 @@ export default function SettingsPage() {
     budgetMin: '',
     budgetMax: '',
   });
+  const [flashProfile, setFlashProfile] = useState<FlashProfileStatus | null>(null);
+  const [flashLoading, setFlashLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [message, setMessage] = useState('');
 
@@ -39,6 +47,20 @@ export default function SettingsPage() {
           }
         })
         .catch(console.error);
+
+      // Fetch flash profile status
+      setFlashLoading(true);
+      fetch('/api/flash/preferences')
+        .then((res) => res.json())
+        .then((data) => {
+          setFlashProfile({
+            profileComplete: data.profileComplete || false,
+            missingSteps: data.missingSteps || [],
+            preferences: data.preferences,
+          });
+        })
+        .catch(console.error)
+        .finally(() => setFlashLoading(false));
     }
   }, [user]);
 
@@ -173,6 +195,106 @@ export default function SettingsPage() {
             Save Preferences
           </Button>
         </div>
+      </Card>
+
+      {/* Flash Vacation Profile */}
+      <Card className="mt-6">
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center">
+            <svg className="w-5 h-5 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <div>
+            <h2 className="text-lg font-semibold">Flash Vacation Profile</h2>
+            <p className="text-sm text-gray-500">
+              Your preferences for instant trip generation
+            </p>
+          </div>
+        </div>
+
+        {flashLoading ? (
+          <div className="flex items-center justify-center py-8">
+            <Spinner size="md" />
+          </div>
+        ) : flashProfile?.profileComplete ? (
+          <div className="space-y-4">
+            <div className="flex items-center gap-2 text-green-600 bg-green-50 px-4 py-3 rounded-lg">
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              <span className="font-medium">Profile Complete</span>
+            </div>
+
+            {flashProfile.preferences && (
+              <div className="grid grid-cols-2 gap-4 text-sm">
+                <div>
+                  <span className="text-gray-500">Travelers:</span>{' '}
+                  <span className="font-medium">
+                    {flashProfile.preferences.travelers?.adults || 0} adult
+                    {(flashProfile.preferences.travelers?.adults || 0) !== 1 ? 's' : ''}
+                    {flashProfile.preferences.travelers?.children?.length > 0 &&
+                      `, ${flashProfile.preferences.travelers.children.length} child${flashProfile.preferences.travelers.children.length !== 1 ? 'ren' : ''}`}
+                  </span>
+                </div>
+                <div>
+                  <span className="text-gray-500">Home Base:</span>{' '}
+                  <span className="font-medium">{flashProfile.preferences.homeBase?.airportCode || 'Not set'}</span>
+                </div>
+                <div>
+                  <span className="text-gray-500">Budget:</span>{' '}
+                  <span className="font-medium">
+                    {flashProfile.preferences.budget?.currency || 'USD'}{' '}
+                    {flashProfile.preferences.budget?.perTripMax?.toLocaleString() || 'Not set'}/trip
+                  </span>
+                </div>
+                <div>
+                  <span className="text-gray-500">Min Hotel Rating:</span>{' '}
+                  <span className="font-medium">{flashProfile.preferences.accommodation?.minStars || 3}+ stars</span>
+                </div>
+              </div>
+            )}
+
+            <Button
+              variant="secondary"
+              onClick={() => router.push('/flash/wizard')}
+              className="w-full"
+            >
+              Edit Flash Profile
+            </Button>
+          </div>
+        ) : (
+          <div className="space-y-4">
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+              <p className="text-amber-800 text-sm">
+                Complete your Flash profile to unlock instant trip generation.
+              </p>
+              {flashProfile?.missingSteps && flashProfile.missingSteps.length > 0 && (
+                <div className="mt-3">
+                  <p className="text-xs text-amber-600 mb-2">Missing information:</p>
+                  <div className="flex flex-wrap gap-1">
+                    {flashProfile.missingSteps.map((step) => (
+                      <span
+                        key={step}
+                        className="px-2 py-0.5 bg-amber-100 text-amber-700 rounded text-xs"
+                      >
+                        {step.replace(/([A-Z])/g, ' $1').trim()}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <Button
+              variant="primary"
+              onClick={() => router.push('/flash/wizard')}
+              className="w-full"
+            >
+              Complete Flash Profile
+            </Button>
+          </div>
+        )}
       </Card>
 
       <Card className="mt-6">

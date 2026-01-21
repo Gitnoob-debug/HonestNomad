@@ -17,6 +17,13 @@ export async function GET(request: NextRequest) {
 
     const result = await getFlashPreferences(user.id);
 
+    console.log('Flash preferences result:', {
+      userId: user.id,
+      profileComplete: result.profileComplete,
+      missingSteps: result.missingSteps,
+      hasPreferences: !!result.preferences,
+    });
+
     return NextResponse.json(result);
   } catch (error: any) {
     console.error('Get flash preferences error:', error);

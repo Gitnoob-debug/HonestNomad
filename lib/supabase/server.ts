@@ -1,12 +1,33 @@
 import { createServerClient } from '@supabase/ssr';
 import { cookies } from 'next/headers';
 
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+// Check if Supabase is configured for server-side use
+export function isServerSupabaseConfigured(): boolean {
+  return Boolean(supabaseUrl && supabaseAnonKey);
+}
+
+// Check if service role is configured
+export function isServiceRoleConfigured(): boolean {
+  return Boolean(supabaseUrl && supabaseServiceKey);
+}
+
 export function createServerSupabaseClient() {
+  if (!supabaseUrl || !supabaseAnonKey) {
+    throw new Error(
+      'Supabase server environment variables are not configured. ' +
+      'Please set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY.'
+    );
+  }
+
   const cookieStore = cookies();
 
   return createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    supabaseUrl,
+    supabaseAnonKey,
     {
       cookies: {
         getAll() {
@@ -27,9 +48,16 @@ export function createServerSupabaseClient() {
 }
 
 export function createServiceRoleClient() {
+  if (!supabaseUrl || !supabaseServiceKey) {
+    throw new Error(
+      'Supabase service role is not configured. ' +
+      'Please set NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY.'
+    );
+  }
+
   return createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!,
+    supabaseUrl,
+    supabaseServiceKey,
     {
       cookies: {
         getAll() { return []; },

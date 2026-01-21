@@ -32,6 +32,7 @@ export interface NormalizedHotel {
   };
 
   cheapestRateId: string;
+  searchResultId?: string; // Duffel search result ID for fetching rates
 
   rooms: Room[];
 }

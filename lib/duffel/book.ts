@@ -1,11 +1,28 @@
-import { duffel } from './client';
+import { duffel, getDuffelClient } from './client';
 import type { BookingParams, BookingResult } from '@/types/hotel';
+import { createHotelQuote } from './search';
 
-export async function createBooking(
-  params: BookingParams
+export interface HotelBookingParams extends BookingParams {
+  quoteId?: string; // If provided, use directly. Otherwise create from rateId
+}
+
+export async function createHotelBooking(
+  params: HotelBookingParams
 ): Promise<BookingResult> {
   // Lead guest info
   const leadGuest = params.guests[0];
+
+  // Step 1: Get or create quote
+  let quoteId = params.quoteId;
+  if (!quoteId) {
+    console.log('Creating quote for rate:', params.rateId);
+    const quote = await createHotelQuote(params.rateId);
+    if (!quote) {
+      throw new Error('Failed to create hotel booking quote');
+    }
+    quoteId = quote.quoteId;
+    console.log('Quote created:', quoteId);
+  }
 
   // Build guests array for Duffel API
   const guests = params.guests.map((g) => ({
@@ -21,7 +38,7 @@ export async function createBooking(
     phone_number: string;
     payment?: { card_id: string };
   } = {
-    quote_id: params.rateId, // rateId is actually the quote_id from search
+    quote_id: quoteId,
     guests,
     email: leadGuest.email,
     phone_number: leadGuest.phone || '',
@@ -34,9 +51,10 @@ export async function createBooking(
     };
   }
 
-  const order = await duffel.stays.bookings.create(bookingPayload);
+  console.log('Creating hotel booking with quote:', quoteId);
+  const order = await getDuffelClient().stays.bookings.create(bookingPayload);
 
-  const booking = order.data;
+  const booking = order.data as any;
 
   return {
     id: booking.id,
@@ -49,13 +67,16 @@ export async function createBooking(
     checkIn: booking.check_in_date,
     checkOut: booking.check_out_date,
     guests: params.guests,
-    totalAmount: '0', // Will be set from quote data
-    currency: 'USD',
+    totalAmount: booking.total_amount || '0',
+    currency: booking.total_currency || 'USD',
     cancellationPolicy: {
-      refundable: false,
+      refundable: booking.cancellation_policy?.refundable || false,
     },
   };
 }
+
+// Legacy function name for backwards compatibility
+export const createBooking = createHotelBooking;
 
 export async function getBooking(bookingId: string): Promise<any> {
   const booking = await duffel.stays.bookings.get(bookingId);

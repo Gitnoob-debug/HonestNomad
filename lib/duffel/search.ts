@@ -1,5 +1,5 @@
-import { duffel } from './client';
-import type { HotelSearchParams, NormalizedHotel } from '@/types/hotel';
+import { duffel, getDuffelClient } from './client';
+import type { HotelSearchParams, NormalizedHotel, Room, Rate } from '@/types/hotel';
 import { geocodeCity } from '@/lib/geocoding/mapbox';
 import { getMockHotels, isMockMode } from './mock-data';
 
@@ -16,6 +16,7 @@ export async function searchHotels(
       params.budget
     );
   }
+
   // Get coordinates for the location
   let coordinates: { latitude: number; longitude: number };
 
@@ -37,8 +38,9 @@ export async function searchHotels(
   // Build guest array
   const guests = Array(params.guests || 1).fill({ type: 'adult' as const });
 
-  // Search for accommodations
-  // Note: Duffel API returns search results that need to be fetched for rates
+  console.log('Searching Duffel Stays API for accommodations...');
+
+  // Step 1: Search for accommodations
   const searchResponse = await duffel.stays.search({
     check_in_date: params.checkIn,
     check_out_date: params.checkOut,
@@ -52,37 +54,87 @@ export async function searchHotels(
 
   // The search returns an array of results
   const searchResults = searchResponse.data.results || [];
+  console.log(`Found ${searchResults.length} accommodations`);
 
-  // Map search results to include accommodation and pricing
-  const accommodations = searchResults.map((result: any) => ({
-    ...result.accommodation,
-    cheapest_rate_total_amount: result.cheapest_rate_total_amount,
-    cheapest_rate_currency: result.cheapest_rate_currency,
-    search_result_id: result.id,
-  }));
+  if (searchResults.length === 0) {
+    return [];
+  }
 
-  // Filter by budget if specified
-  let filtered = accommodations;
+  // Filter by budget early if specified (using cheapest_rate from search)
+  let filteredResults = searchResults;
   if (params.budget) {
     const nights = getNights(params.checkIn, params.checkOut);
-
-    filtered = accommodations.filter((acc: any) => {
+    filteredResults = searchResults.filter((result: any) => {
       const nightlyRate =
-        parseFloat(acc.cheapest_rate_total_amount || '0') / nights;
-
-      const meetsMin =
-        !params.budget!.min || nightlyRate >= params.budget!.min;
-      const meetsMax =
-        !params.budget!.max || nightlyRate <= params.budget!.max;
-
+        parseFloat(result.cheapest_rate_total_amount || '0') / nights;
+      const meetsMin = !params.budget!.min || nightlyRate >= params.budget!.min;
+      const meetsMax = !params.budget!.max || nightlyRate <= params.budget!.max;
       return meetsMin && meetsMax;
     });
   }
 
+  // Limit to top 10 results to avoid rate limiting
+  const topResults = filteredResults.slice(0, 10);
+
+  // Step 2: Fetch rates for each search result (in parallel for speed)
+  const accommodationsWithRates = await Promise.all(
+    topResults.map(async (result: any) => {
+      try {
+        const ratesResponse = await fetchRatesForSearchResult(result.id);
+        return {
+          ...result.accommodation,
+          cheapest_rate_total_amount: result.cheapest_rate_total_amount,
+          cheapest_rate_currency: result.cheapest_rate_currency,
+          search_result_id: result.id,
+          rooms: ratesResponse?.rooms || [],
+        };
+      } catch (error) {
+        console.error(`Error fetching rates for ${result.id}:`, error);
+        // Return accommodation without detailed rates
+        return {
+          ...result.accommodation,
+          cheapest_rate_total_amount: result.cheapest_rate_total_amount,
+          cheapest_rate_currency: result.cheapest_rate_currency,
+          search_result_id: result.id,
+          rooms: [],
+        };
+      }
+    })
+  );
+
   // Normalize to our format
-  return filtered.map((acc: any) =>
+  return accommodationsWithRates.map((acc: any) =>
     normalizeAccommodation(acc, params.checkIn, params.checkOut)
   );
+}
+
+// Step 2: Fetch all rates for a search result
+async function fetchRatesForSearchResult(searchResultId: string): Promise<any> {
+  try {
+    const response = await getDuffelClient().stays.searchResults.fetchAllRates(
+      searchResultId
+    );
+    return response.data;
+  } catch (error) {
+    console.error(`Failed to fetch rates for search result ${searchResultId}:`, error);
+    return null;
+  }
+}
+
+// Step 3: Create a quote for a specific rate
+export async function createHotelQuote(rateId: string): Promise<{ quoteId: string; expiresAt: string } | null> {
+  try {
+    // Duffel SDK expects rate_id as the first parameter
+    const response = await getDuffelClient().stays.quotes.create(rateId);
+    const quote = response.data as any;
+    return {
+      quoteId: quote.id,
+      expiresAt: quote.expires_at || new Date(Date.now() + 15 * 60 * 1000).toISOString(), // Default 15 min expiry
+    };
+  } catch (error) {
+    console.error('Failed to create hotel quote:', error);
+    return null;
+  }
 }
 
 function normalizeAccommodation(
@@ -92,6 +144,23 @@ function normalizeAccommodation(
 ): NormalizedHotel {
   const nights = getNights(checkIn, checkOut);
   const totalAmount = parseFloat(acc.cheapest_rate_total_amount || '0');
+
+  // Get cheapest rate ID from rooms if available
+  let cheapestRateId = acc.cheapest_rate_id || '';
+  if (!cheapestRateId && acc.rooms?.length > 0) {
+    // Find the cheapest rate from all rooms
+    let cheapestRate: any = null;
+    for (const room of acc.rooms) {
+      for (const rate of room.rates || []) {
+        if (!cheapestRate || parseFloat(rate.total_amount || '0') < parseFloat(cheapestRate.total_amount || '0')) {
+          cheapestRate = rate;
+        }
+      }
+    }
+    if (cheapestRate) {
+      cheapestRateId = cheapestRate.id;
+    }
+  }
 
   return {
     id: acc.id,
@@ -126,7 +195,8 @@ function normalizeAccommodation(
       nightlyRate: totalAmount / nights,
     },
 
-    cheapestRateId: acc.cheapest_rate_id || '',
+    cheapestRateId,
+    searchResultId: acc.search_result_id,
 
     rooms: (acc.rooms || []).map((room: any) => ({
       id: room.id,

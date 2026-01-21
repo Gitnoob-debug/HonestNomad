@@ -6,9 +6,9 @@ import { getMockHotels, isMockMode } from './mock-data';
 export async function searchHotels(
   params: HotelSearchParams
 ): Promise<NormalizedHotel[]> {
-  // Use mock data if Duffel Stays API is not available
+  // Use mock data if Duffel Stays API is not available or not enabled
   if (isMockMode()) {
-    console.log('Using mock hotel data (Duffel Stays API not available)');
+    console.log('Using mock hotel data (Duffel Stays API not enabled)');
     return getMockHotels(
       params.location.city || 'default',
       params.checkIn,
@@ -16,6 +16,24 @@ export async function searchHotels(
       params.budget
     );
   }
+
+  // Try real API with fallback to mock data on error
+  try {
+    return await searchHotelsReal(params);
+  } catch (error) {
+    console.error('Duffel Stays API error, falling back to mock data:', error);
+    return getMockHotels(
+      params.location.city || 'default',
+      params.checkIn,
+      params.checkOut,
+      params.budget
+    );
+  }
+}
+
+async function searchHotelsReal(
+  params: HotelSearchParams
+): Promise<NormalizedHotel[]> {
 
   // Get coordinates for the location
   let coordinates: { latitude: number; longitude: number };

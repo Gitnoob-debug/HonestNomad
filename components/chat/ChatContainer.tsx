@@ -1,32 +1,90 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { MessageList } from './MessageList';
 import { InputBar } from './InputBar';
 import { HotelList } from '@/components/hotels/HotelList';
 import FlightList from '@/components/flights/FlightList';
-import { TripSummary, TripItinerary } from '@/components/trip';
+import { TripCard, AlternativesModal } from '@/components/trip';
 import { GuestForm } from '@/components/booking/GuestForm';
 import { ItineraryView } from '@/components/itinerary/ItineraryView';
 import { useChat } from '@/hooks/useChat';
 import { Spinner } from '@/components/ui';
+import type { NormalizedFlight } from '@/types/flight';
+import type { NormalizedHotel } from '@/types/hotel';
 
-export function ChatContainer() {
+interface ChatContainerProps {
+  initialMessage?: string;
+}
+
+export function ChatContainer({ initialMessage }: ChatContainerProps) {
+  const router = useRouter();
   const {
     messages,
     isLoading,
     hotels,
     flights,
     tripPlan,
+    tripAlternatives,
     currentAction,
     selectedHotel,
     itinerary,
     sendMessage,
     selectHotel,
     submitGuestDetails,
+    swapTripHotel,
+    swapTripFlight,
   } = useChat();
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const [showAlternatives, setShowAlternatives] = useState<'flight' | 'hotel' | null>(null);
+  const [hasInitialized, setHasInitialized] = useState(false);
+
+  // Send initial message if provided
+  useEffect(() => {
+    if (initialMessage && !hasInitialized && messages.length > 0) {
+      setHasInitialized(true);
+      sendMessage(initialMessage);
+    }
+  }, [initialMessage, hasInitialized, messages.length, sendMessage]);
+
+  const handleViewTrip = () => {
+    if (tripPlan) {
+      router.push(`/trip/${tripPlan.id}`);
+    }
+  };
+
+  const handleBookTrip = () => {
+    if (tripPlan) {
+      router.push(`/trip/${tripPlan.id}/book`);
+    }
+  };
+
+  const handleSwapHotel = () => {
+    if (tripAlternatives?.hotels && tripAlternatives.hotels.length > 0) {
+      setShowAlternatives('hotel');
+    } else {
+      sendMessage("Show me different hotel options");
+    }
+  };
+
+  const handleSwapFlight = () => {
+    if (tripAlternatives?.flights && tripAlternatives.flights.length > 0) {
+      setShowAlternatives('flight');
+    } else {
+      sendMessage("Show me different flight options");
+    }
+  };
+
+  const handleSelectAlternative = (item: NormalizedFlight | NormalizedHotel) => {
+    if (showAlternatives === 'flight') {
+      swapTripFlight(item as NormalizedFlight);
+    } else if (showAlternatives === 'hotel') {
+      swapTripHotel(item as NormalizedHotel);
+    }
+    setShowAlternatives(null);
+  };
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -38,20 +96,37 @@ export function ChatContainer() {
       <div className="flex-1 overflow-y-auto px-4 py-6 space-y-4 scrollbar-thin">
         <MessageList messages={messages} />
 
-        {/* Show complete trip plan */}
+        {/* Show complete trip plan as a card */}
         {tripPlan && currentAction === 'show_trip' && (
-          <div className="mt-4 space-y-6">
-            <TripSummary
+          <div className="mt-4">
+            <TripCard
               trip={tripPlan}
-              onConfirmTrip={() => sendMessage('Book this trip')}
+              onSwapHotel={handleSwapHotel}
+              onSwapFlight={handleSwapFlight}
+              onCheaperOption={() => sendMessage("Find me a cheaper option")}
+              onMoreLuxury={() => sendMessage("Show me more luxury options")}
+              onBook={handleBookTrip}
             />
-            {tripPlan.itinerary && tripPlan.itinerary.length > 0 && (
-              <TripItinerary
-                itinerary={tripPlan.itinerary}
-                destination={tripPlan.destinations[0]?.city || ''}
-              />
-            )}
+            <div className="mt-4 text-center">
+              <button
+                onClick={handleViewTrip}
+                className="text-blue-600 hover:text-blue-800 font-medium underline"
+              >
+                Open full trip view →
+              </button>
+            </div>
           </div>
+        )}
+
+        {/* Alternatives Modal */}
+        {showAlternatives && tripAlternatives && (
+          <AlternativesModal
+            type={showAlternatives}
+            alternatives={showAlternatives === 'flight' ? tripAlternatives.flights : tripAlternatives.hotels}
+            currentId={showAlternatives === 'flight' ? tripPlan?.outboundFlight?.id : tripPlan?.accommodation?.id}
+            onSelect={handleSelectAlternative}
+            onClose={() => setShowAlternatives(null)}
+          />
         )}
 
         {/* Show flights when searching for flights only */}

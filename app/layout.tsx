@@ -7,12 +7,12 @@ import { Header } from '@/components/layout/Header';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'HonestNomad - AI Hotel Booking Assistant',
-  description: 'Tell us where you want to go. We\'ll handle the rest. AI-powered hotel booking with personalized itineraries.',
-  keywords: ['hotel booking', 'AI travel', 'trip planner', 'hotel search'],
+  title: 'HonestNomad - AI Trip Planner',
+  description: 'One sentence. One complete trip. Flights, hotels, and a personalized itinerary - all planned for you by AI.',
+  keywords: ['trip planner', 'AI travel', 'flight booking', 'hotel booking', 'travel itinerary'],
   openGraph: {
-    title: 'HonestNomad - AI Hotel Booking Assistant',
-    description: 'Tell us where you want to go. We\'ll handle the rest.',
+    title: 'HonestNomad - AI Trip Planner',
+    description: 'One sentence. One complete trip. Tell us where you want to go.',
     type: 'website',
   },
 };

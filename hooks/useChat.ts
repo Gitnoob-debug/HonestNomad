@@ -6,12 +6,18 @@ import type { Message, ChatAction, NormalizedHotel, Itinerary, GuestDetails } fr
 import type { TripPlan } from '@/types/trip';
 import type { NormalizedFlight } from '@/types/flight';
 
+interface TripAlternatives {
+  flights: NormalizedFlight[];
+  hotels: NormalizedHotel[];
+}
+
 export function useChat() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [hotels, setHotels] = useState<NormalizedHotel[] | null>(null);
   const [flights, setFlights] = useState<NormalizedFlight[] | null>(null);
   const [tripPlan, setTripPlan] = useState<TripPlan | null>(null);
+  const [tripAlternatives, setTripAlternatives] = useState<TripAlternatives | null>(null);
   const [currentAction, setCurrentAction] = useState<ChatAction | null>(null);
   const [selectedHotel, setSelectedHotel] = useState<NormalizedHotel | null>(null);
   const [selectedFlight, setSelectedFlight] = useState<NormalizedFlight | null>(null);
@@ -101,6 +107,18 @@ export function useChat() {
           // Clear individual lists since we have a complete plan
           setHotels(null);
           setFlights(null);
+          // Store trip in sessionStorage for the trip page
+          if (typeof window !== 'undefined') {
+            sessionStorage.setItem(`trip_${data.tripPlan.id}`, JSON.stringify(data.tripPlan));
+            // Also store alternatives if available
+            if (data.alternatives) {
+              sessionStorage.setItem(`trip_${data.tripPlan.id}_alternatives`, JSON.stringify(data.alternatives));
+            }
+          }
+        }
+
+        if (data.alternatives) {
+          setTripAlternatives(data.alternatives);
         }
 
         if (data.selectedHotel) {
@@ -121,6 +139,7 @@ export function useChat() {
           setSelectedHotel(null);
           setSelectedFlight(null);
           setTripPlan(null);
+          setTripAlternatives(null);
         }
       } catch (error: any) {
         console.error('Chat error:', error);
@@ -202,12 +221,76 @@ export function useChat() {
     [sessionId, conversationId]
   );
 
+  // Function to swap the selected hotel in the trip plan
+  const swapTripHotel = useCallback((hotel: NormalizedHotel) => {
+    if (!tripPlan) return;
+
+    const updatedTrip = {
+      ...tripPlan,
+      accommodation: hotel,
+      pricing: {
+        ...tripPlan.pricing,
+        accommodation: {
+          amount: hotel.pricing.nightlyRate * tripPlan.totalNights,
+          currency: hotel.pricing.currency,
+          perNight: hotel.pricing.nightlyRate,
+        },
+        total: {
+          ...tripPlan.pricing.total,
+          amount: tripPlan.pricing.flights.amount +
+                  (hotel.pricing.nightlyRate * tripPlan.totalNights) +
+                  tripPlan.pricing.estimated.activities +
+                  tripPlan.pricing.estimated.food +
+                  tripPlan.pricing.estimated.transport,
+        },
+      },
+    };
+
+    setTripPlan(updatedTrip);
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem(`trip_${updatedTrip.id}`, JSON.stringify(updatedTrip));
+    }
+  }, [tripPlan]);
+
+  // Function to swap the selected flight in the trip plan
+  const swapTripFlight = useCallback((flight: NormalizedFlight) => {
+    if (!tripPlan) return;
+
+    const updatedTrip = {
+      ...tripPlan,
+      outboundFlight: flight,
+      returnFlight: flight.slices.length > 1 ? flight : undefined,
+      pricing: {
+        ...tripPlan.pricing,
+        flights: {
+          amount: flight.pricing.totalAmount,
+          currency: flight.pricing.currency,
+          perPerson: flight.pricing.perPassenger,
+        },
+        total: {
+          ...tripPlan.pricing.total,
+          amount: flight.pricing.totalAmount +
+                  tripPlan.pricing.accommodation.amount +
+                  tripPlan.pricing.estimated.activities +
+                  tripPlan.pricing.estimated.food +
+                  tripPlan.pricing.estimated.transport,
+        },
+      },
+    };
+
+    setTripPlan(updatedTrip);
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem(`trip_${updatedTrip.id}`, JSON.stringify(updatedTrip));
+    }
+  }, [tripPlan]);
+
   return {
     messages,
     isLoading,
     hotels,
     flights,
     tripPlan,
+    tripAlternatives,
     currentAction,
     selectedHotel,
     selectedFlight,
@@ -215,5 +298,7 @@ export function useChat() {
     sendMessage,
     selectHotel,
     submitGuestDetails,
+    swapTripHotel,
+    swapTripFlight,
   };
 }

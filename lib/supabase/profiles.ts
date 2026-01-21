@@ -24,7 +24,17 @@ export async function createProfile(
     throw new Error(`Failed to create profile: ${error.message}`);
   }
 
-  return profile as Profile;
+  // Transform snake_case to camelCase
+  return {
+    id: profile.id,
+    userId: profile.user_id,
+    createdAt: profile.created_at,
+    updatedAt: profile.updated_at,
+    fullName: profile.full_name,
+    email: profile.email,
+    phone: profile.phone,
+    preferences: profile.preferences || {},
+  };
 }
 
 export async function getProfile(userId: string): Promise<Profile | null> {
@@ -43,7 +53,17 @@ export async function getProfile(userId: string): Promise<Profile | null> {
     throw new Error(`Failed to get profile: ${error.message}`);
   }
 
-  return data as Profile;
+  // Transform snake_case to camelCase
+  return {
+    id: data.id,
+    userId: data.user_id,
+    createdAt: data.created_at,
+    updatedAt: data.updated_at,
+    fullName: data.full_name,
+    email: data.email,
+    phone: data.phone,
+    preferences: data.preferences || {},
+  };
 }
 
 export async function updateProfile(
@@ -72,7 +92,17 @@ export async function updateProfile(
     throw new Error(`Failed to update profile: ${error.message}`);
   }
 
-  return data as Profile;
+  // Transform snake_case to camelCase
+  return {
+    id: data.id,
+    userId: data.user_id,
+    createdAt: data.created_at,
+    updatedAt: data.updated_at,
+    fullName: data.full_name,
+    email: data.email,
+    phone: data.phone,
+    preferences: data.preferences || {},
+  };
 }
 
 export async function updatePreferences(
@@ -106,7 +136,17 @@ export async function updatePreferences(
     throw new Error(`Failed to update preferences: ${error.message}`);
   }
 
-  return data as Profile;
+  // Transform snake_case to camelCase
+  return {
+    id: data.id,
+    userId: data.user_id,
+    createdAt: data.created_at,
+    updatedAt: data.updated_at,
+    fullName: data.full_name,
+    email: data.email,
+    phone: data.phone,
+    preferences: data.preferences || {},
+  };
 }
 
 export async function getOrCreateProfile(

@@ -5,6 +5,7 @@ import { generateItinerary, createItineraryFromHotel } from '@/lib/claude/itiner
 import { searchHotels } from '@/lib/duffel/search';
 import { searchFlights } from '@/lib/duffel/flights';
 import { createBooking } from '@/lib/duffel/book';
+import { planTrip } from '@/lib/trip/planner';
 import {
   getConversation,
   createConversation,
@@ -15,6 +16,7 @@ import {
 import { createBookingRecord } from '@/lib/supabase/bookings';
 import type { HotelSearchParams } from '@/types/hotel';
 import type { FlightSearchParams } from '@/types/flight';
+import type { TripSearchParams } from '@/types/trip';
 
 export async function POST(request: NextRequest) {
   try {
@@ -157,60 +159,84 @@ export async function POST(request: NextRequest) {
         break;
       }
 
-      case 'search_trip': {
-        // Execute combined flight + hotel search
+      case 'search_trip':
+      case 'plan_trip': {
+        // Execute full trip planning with flights, hotel, and itinerary
         try {
-          const flightParams = buildFlightSearchParams(updatedPreferences);
-          const hotelParams = buildHotelSearchParams(updatedPreferences);
+          const tripParams = buildTripSearchParams(updatedPreferences);
+          const result = await planTrip(tripParams);
 
-          const [flights, hotels] = await Promise.all([
-            searchFlights(flightParams),
-            searchHotels(hotelParams),
-          ]);
-
-          // Update conversation state with both results
-          // Store flights and hotels together in lastSearchResults array
-          const combinedResults = [
-            ...flights.map((f: any) => ({ ...f, _type: 'flight' })),
-            ...hotels.map((h: any) => ({ ...h, _type: 'hotel' })),
-          ];
-
+          // Update conversation state with trip plan
           await updateConversation(conversation.id, {
             state: {
               ...conversation.state,
-              stage: 'showing_results',
+              stage: 'showing_trip',
+              tripPlanId: result.tripPlan.id,
             },
             preferences: updatedPreferences,
-            lastSearchResults: combinedResults,
+            lastSearchResults: [
+              ...(result.alternatives?.flights || []).map((f: any) => ({ ...f, _type: 'flight' })),
+              ...(result.alternatives?.hotels || []).map((h: any) => ({ ...h, _type: 'hotel' })),
+            ],
           });
 
-          // Generate combined response
+          // Build response message
           let resultsMessage = '';
-          if (flights.length > 0 && hotels.length > 0) {
-            resultsMessage = `Great news! I found ${flights.length} flight options and ${hotels.length} hotels for your trip to ${updatedPreferences.destination}.\n\n`;
-            resultsMessage += `**Flights from ${updatedPreferences.origin}:**\n`;
-            flights.slice(0, 3).forEach((f, i) => {
-              const slice = f.slices[0];
-              resultsMessage += `${i + 1}. ${f.airlines[0]?.name || 'Airline'} - $${f.pricing.perPassenger}/person, ${slice.stops === 0 ? 'Direct' : `${slice.stops} stop(s)`}, ${slice.duration}\n`;
-            });
-            resultsMessage += `\n**Hotels:**\n`;
-            hotels.slice(0, 3).forEach((h, i) => {
-              resultsMessage += `${i + 1}. ${h.name} - $${h.pricing.nightlyRate}/night, ${h.rating.stars || '?'}★\n`;
-            });
-            resultsMessage += `\nWhich flights and hotels interest you?`;
-          } else if (flights.length === 0) {
-            resultsMessage = `I found ${hotels.length} hotels but couldn't find flights for those dates. Would you like to adjust your travel dates?`;
+          const trip = result.tripPlan;
+
+          if (trip.outboundFlight && trip.accommodation) {
+            resultsMessage = `I've put together a complete ${trip.totalNights}-night trip to ${trip.destinations[0]?.city} for you!\n\n`;
+
+            // Flight info
+            const outbound = trip.outboundFlight.slices[0];
+            resultsMessage += `**Flights:** ${trip.outboundFlight.airlines[0]?.name || 'Airline'}\n`;
+            resultsMessage += `- Outbound: ${outbound.origin} → ${outbound.destination}, ${outbound.stops === 0 ? 'direct' : outbound.stops + ' stop(s)'}\n`;
+            if (trip.outboundFlight.slices[1]) {
+              const returnSlice = trip.outboundFlight.slices[1];
+              resultsMessage += `- Return: ${returnSlice.origin} → ${returnSlice.destination}, ${returnSlice.stops === 0 ? 'direct' : returnSlice.stops + ' stop(s)'}\n`;
+            }
+            resultsMessage += `- **$${trip.pricing.flights.perPerson}** per person\n\n`;
+
+            // Hotel info
+            resultsMessage += `**Stay:** ${trip.accommodation.name}`;
+            if (trip.accommodation.rating.stars) {
+              resultsMessage += ` (${trip.accommodation.rating.stars}★)`;
+            }
+            resultsMessage += `\n`;
+            resultsMessage += `- ${trip.totalNights} nights @ **$${trip.pricing.accommodation.perNight}**/night\n\n`;
+
+            // Total
+            resultsMessage += `**Estimated Total:** $${trip.pricing.total.amount.toLocaleString()}\n\n`;
+
+            // Highlights
+            if (trip.highlights && trip.highlights.length > 0) {
+              resultsMessage += `**Trip Highlights:**\n`;
+              trip.highlights.slice(0, 3).forEach((h) => {
+                resultsMessage += `- ${h}\n`;
+              });
+              resultsMessage += `\n`;
+            }
+
+            resultsMessage += `I've also created a day-by-day itinerary for your trip. Would you like to see the full itinerary, change the flight or hotel selection, or book this trip?`;
           } else {
-            resultsMessage = `I found ${flights.length} flights but no hotels matched your criteria. Would you like to adjust your preferences?`;
+            // Partial results
+            resultsMessage = result.messages.join(' ');
+            if (!trip.outboundFlight) {
+              resultsMessage += `\n\nI couldn't find flights for your dates. `;
+            }
+            if (!trip.accommodation) {
+              resultsMessage += `I couldn't find hotels matching your criteria. `;
+            }
+            resultsMessage += `Would you like to adjust your search?`;
           }
 
           response.message = resultsMessage;
-          response.flights = flights.slice(0, 5);
-          response.hotels = hotels.slice(0, 5);
-          response.action = 'show_results';
+          response.tripPlan = result.tripPlan;
+          response.alternatives = result.alternatives;
+          response.action = 'show_trip';
         } catch (error: any) {
-          console.error('Trip search error:', error);
-          response.message = `I had trouble searching for your trip. ${error.message}. Let me know if you'd like to try again.`;
+          console.error('Trip planning error:', error);
+          response.message = `I had trouble planning your trip: ${error.message}. Could you provide more details about where you'd like to go and when?`;
           response.action = 'ask_clarification';
         }
         break;
@@ -423,5 +449,47 @@ function buildFlightSearchParams(preferences: any): FlightSearchParams {
           currency: preferences.currency || 'USD',
         }
       : undefined,
+  };
+}
+
+function buildTripSearchParams(preferences: any): TripSearchParams {
+  if (!preferences.origin) {
+    throw new Error('Origin city is required for trip planning');
+  }
+  if (!preferences.destination) {
+    throw new Error('Destination is required for trip planning');
+  }
+
+  const departureDate = preferences.departureDate || preferences.checkIn;
+  const returnDate = preferences.returnDate || preferences.checkOut;
+
+  if (!departureDate) {
+    throw new Error('Departure date is required for trip planning');
+  }
+  if (!returnDate) {
+    throw new Error('Return date is required for trip planning');
+  }
+
+  return {
+    origin: preferences.origin,
+    destination: preferences.destination,
+    departureDate,
+    returnDate,
+    travelers: {
+      adults: preferences.passengers || preferences.guests || 1,
+      children: preferences.children || 0,
+      infants: preferences.infants || 0,
+    },
+    preferences: {
+      cabinClass: preferences.cabinClass || 'economy',
+      hotelStars: preferences.hotelStars,
+      budget: preferences.budgetMax || preferences.flightBudgetMax
+        ? {
+            max: preferences.budgetMax || preferences.flightBudgetMax,
+            currency: preferences.currency || 'USD',
+          }
+        : undefined,
+      interests: preferences.interests || preferences.preferences,
+    },
   };
 }

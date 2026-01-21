@@ -123,20 +123,4 @@ export interface FlightBookingResult {
   ticketedAt?: string;
 }
 
-// Helper type for combined trip planning
-export interface TripSearchParams {
-  destination: string;
-  origin?: string; // For flights
-  checkIn: string;
-  checkOut: string;
-  passengers?: Passenger[];
-  guests?: number;
-  rooms?: number;
-  cabinClass?: CabinClass;
-  budget?: {
-    hotel?: { min?: number; max?: number };
-    flight?: { max?: number };
-    total?: { max?: number };
-    currency?: string;
-  };
-}
+// TripSearchParams is now defined in @/types/trip

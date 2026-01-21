@@ -5,3 +5,5 @@ export * from './itinerary';
 export * from './intent';
 export * from './booking';
 export * from './database';
+export * from './flight';
+export * from './trip';

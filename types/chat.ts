@@ -16,11 +16,15 @@ export interface MessageMetadata {
 export type ChatAction =
   | 'search'
   | 'show_results'
+  | 'show_flights'
+  | 'show_trip'
   | 'ask_clarification'
   | 'collect_guest_info'
+  | 'collect_passenger_info'
   | 'confirm_booking'
   | 'booking_complete'
   | 'generate_itinerary'
+  | 'plan_trip'
   | 'continue';
 
 export interface ConversationState {

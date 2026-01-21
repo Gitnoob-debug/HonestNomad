@@ -3,13 +3,18 @@
 import { useState, useCallback, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import type { Message, ChatAction, NormalizedHotel, Itinerary, GuestDetails } from '@/types';
+import type { TripPlan } from '@/types/trip';
+import type { NormalizedFlight } from '@/types/flight';
 
 export function useChat() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [hotels, setHotels] = useState<NormalizedHotel[] | null>(null);
+  const [flights, setFlights] = useState<NormalizedFlight[] | null>(null);
+  const [tripPlan, setTripPlan] = useState<TripPlan | null>(null);
   const [currentAction, setCurrentAction] = useState<ChatAction | null>(null);
   const [selectedHotel, setSelectedHotel] = useState<NormalizedHotel | null>(null);
+  const [selectedFlight, setSelectedFlight] = useState<NormalizedFlight | null>(null);
   const [itinerary, setItinerary] = useState<Itinerary | null>(null);
   const [conversationId, setConversationId] = useState<string | null>(null);
   const [sessionId] = useState(() => {
@@ -31,7 +36,7 @@ export function useChat() {
         id: uuidv4(),
         role: 'assistant',
         content:
-          "Hi! I'm here to help you find the perfect hotel. Where are you thinking of traveling to?",
+          "Hi! I'm here to help you plan your perfect trip. Tell me where you want to go and when, and I'll find flights, hotels, and create a personalized itinerary for you.",
         timestamp: new Date(),
       },
     ]);
@@ -87,8 +92,23 @@ export function useChat() {
           setHotels(data.hotels);
         }
 
+        if (data.flights) {
+          setFlights(data.flights);
+        }
+
+        if (data.tripPlan) {
+          setTripPlan(data.tripPlan);
+          // Clear individual lists since we have a complete plan
+          setHotels(null);
+          setFlights(null);
+        }
+
         if (data.selectedHotel) {
           setSelectedHotel(data.selectedHotel);
+        }
+
+        if (data.selectedFlight) {
+          setSelectedFlight(data.selectedFlight);
         }
 
         if (data.itinerary) {
@@ -97,7 +117,10 @@ export function useChat() {
 
         if (data.action === 'booking_complete' && data.booking) {
           setHotels(null);
+          setFlights(null);
           setSelectedHotel(null);
+          setSelectedFlight(null);
+          setTripPlan(null);
         }
       } catch (error: any) {
         console.error('Chat error:', error);
@@ -183,8 +206,11 @@ export function useChat() {
     messages,
     isLoading,
     hotels,
+    flights,
+    tripPlan,
     currentAction,
     selectedHotel,
+    selectedFlight,
     itinerary,
     sendMessage,
     selectHotel,

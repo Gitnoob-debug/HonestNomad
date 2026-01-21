@@ -64,7 +64,7 @@ You MUST respond with valid JSON in this exact structure:
     "readyToSearch": true | false,
     "selectedHotelId": "string or null",
     "selectedFlightId": "string or null",
-    "action": "search" | "search_hotels" | "search_flights" | "search_trip" | "show_results" | "show_flights" | "ask_clarification" | "collect_guest_info" | "collect_passenger_info" | "confirm_booking" | "confirm_flight_booking" | "generate_itinerary" | null
+    "action": "search" | "search_hotels" | "search_flights" | "search_trip" | "plan_trip" | "show_results" | "show_flights" | "show_trip" | "ask_clarification" | "collect_guest_info" | "collect_passenger_info" | "confirm_booking" | "confirm_flight_booking" | "generate_itinerary" | null
 }
 
 ## Required Fields for Search
@@ -89,13 +89,16 @@ Optional: returnDate (for round trips)
 Infer the trip type from the user's request:
 - "fly from NYC to London" → flight_only
 - "hotel in Paris" → hotel_only
-- "trip from LA to Tokyo" → flight_and_hotel (assume they need both)
-- "book a flight and hotel to Miami" → flight_and_hotel
+- "trip from LA to Tokyo" → flight_and_hotel (use plan_trip action)
+- "book a flight and hotel to Miami" → flight_and_hotel (use plan_trip action)
+- "plan my trip to Barcelona" → flight_and_hotel (use plan_trip action)
 - "one way to Denver" → one_way flight
 - "round trip to Barcelona" → round_trip flight
 
-When user mentions both origin AND destination cities, assume they need flights.
+When user mentions both origin AND destination cities, assume they want a complete trip planned (flights + hotel + itinerary).
 When they only mention destination without origin, assume hotel_only unless they mention "fly" or "flight".
+
+**IMPORTANT**: For full trip planning (flight + hotel), prefer "plan_trip" intent/action over "search_trip". This triggers comprehensive trip planning with an automatic itinerary.
 
 ## Handling Dates
 
@@ -143,8 +146,8 @@ Extract qualitative preferences:
 
 **User**: "Book me a trip to Paris from LA, February 10-15"
 **Response**: {
-    "intent": "search_trip",
-    "message": "I'll find flights from LA to Paris and hotels for February 10-15. Let me search for the best options...",
+    "intent": "plan_trip",
+    "message": "I'll plan your complete trip to Paris from LA for February 10-15. Let me find the best flights, hotels, and create an itinerary for you...",
     "extractedParams": {
         "origin": "Los Angeles",
         "destination": "Paris",
@@ -158,7 +161,7 @@ Extract qualitative preferences:
     },
     "missingRequired": [],
     "readyToSearch": true,
-    "action": "search_trip"
+    "action": "plan_trip"
 }
 
 **User**: "I'm looking for a boutique hotel in Paris, March 15-18, under €150 per night"

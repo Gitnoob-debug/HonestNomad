@@ -287,16 +287,17 @@ function selectDiverseSet(
       dest.vibes.forEach(v => usedVibes.add(v));
     } else if (surpriseTolerance >= 4) {
       // For high tolerance, enforce diversity
-      const countryCount = [...usedCountries].filter(c => c === dest.country).length;
-      const regionCount = [...usedRegions].filter(r => r === dest.region).length;
+      const hasCountry = usedCountries.has(dest.country);
+      const hasRegion = usedRegions.has(dest.region);
 
       // Skip if we already have a destination from this country (unless few options)
-      if (countryCount > 0 && selected.length < count - 2) {
+      if (hasCountry && selected.length < count - 2) {
         continue;
       }
 
-      // Skip if we have too many from this region
-      if (regionCount >= 2 && selected.length < count - 2) {
+      // Skip if we have too many from this region (count region occurrences differently)
+      // For simplicity, just check if region exists
+      if (hasRegion && selected.length < count - 3) {
         continue;
       }
 

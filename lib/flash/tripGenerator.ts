@@ -366,7 +366,7 @@ function buildTripPackage(
   );
 
   // Calculate total price
-  const flightPrice = parseFloat(flight.price.amount);
+  const flightPrice = flight.pricing.totalAmount;
   const hotelTotalPrice = (hotel.pricing.nightlyRate || hotel.pricing.totalAmount) * nights;
   const totalPrice = flightPrice + hotelTotalPrice;
 
@@ -426,7 +426,7 @@ function buildTripPackage(
         duration: returnSlice.duration,
       },
       price: flightPrice,
-      currency: flight.price.currency,
+      currency: flight.pricing.currency,
     },
     hotel: {
       name: hotel.name,
@@ -448,7 +448,7 @@ function buildTripPackage(
       flight: flightPrice,
       hotel: hotelTotalPrice,
       total: totalPrice,
-      currency: flight.price.currency,
+      currency: flight.pricing.currency,
       perPerson: totalPrice / profile.travelers.adults,
     },
     highlights: destination.highlights.slice(0, 4),

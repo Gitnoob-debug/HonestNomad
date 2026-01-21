@@ -323,8 +323,8 @@ function selectBestHotel(
     }
 
     // Guest rating
-    if (hotel.rating.score) {
-      score += hotel.rating.score; // 0-10
+    if (hotel.rating.reviewScore) {
+      score += hotel.rating.reviewScore; // 0-10
     }
 
     // Amenity matching
@@ -367,7 +367,7 @@ function buildTripPackage(
 
   // Calculate total price
   const flightPrice = parseFloat(flight.price.amount);
-  const hotelTotalPrice = (hotel.price.perNight || hotel.price.amount) * nights;
+  const hotelTotalPrice = (hotel.pricing.nightlyRate || hotel.pricing.totalAmount) * nights;
   const totalPrice = flightPrice + hotelTotalPrice;
 
   // Calculate match score (simplified from diversity engine)
@@ -431,13 +431,13 @@ function buildTripPackage(
     hotel: {
       name: hotel.name,
       stars: hotel.rating.stars || 3,
-      rating: hotel.rating.score || 8,
+      rating: hotel.rating.reviewScore || 8,
       reviewCount: hotel.rating.reviewCount || 0,
       amenities: (hotel.amenities || []).slice(0, 5),
-      pricePerNight: hotel.price.perNight || hotel.price.amount,
+      pricePerNight: hotel.pricing.nightlyRate || hotel.pricing.totalAmount,
       totalPrice: hotelTotalPrice,
-      currency: hotel.price.currency,
-      imageUrl: hotel.images[0] || destination.imageUrl,
+      currency: hotel.pricing.currency,
+      imageUrl: hotel.photos[0]?.url || destination.imageUrl,
     },
     itinerary: {
       days: nights,

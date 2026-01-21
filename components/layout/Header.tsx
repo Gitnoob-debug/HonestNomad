@@ -30,6 +30,15 @@ export function Header() {
                 {user ? (
                   <>
                     <Link
+                      href="/flash"
+                      className="flex items-center gap-1.5 px-3 py-1.5 bg-primary-50 text-primary-700 rounded-full font-medium hover:bg-primary-100 transition-colors"
+                    >
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                      Flash
+                    </Link>
+                    <Link
                       href="/bookings"
                       className="text-gray-600 hover:text-gray-900 transition-colors"
                     >
@@ -123,6 +132,16 @@ export function Header() {
               <div className="space-y-2">
                 {user ? (
                   <>
+                    <Link
+                      href="/flash"
+                      className="flex items-center gap-2 px-4 py-2 text-primary-700 bg-primary-50 hover:bg-primary-100 rounded-lg font-medium"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                      Flash Vacation
+                    </Link>
                     <Link
                       href="/bookings"
                       className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"

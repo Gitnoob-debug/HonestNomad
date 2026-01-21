@@ -1,4 +1,5 @@
 import type { BookingStatus } from './booking';
+import type { FlashVacationPreferences } from './flash';
 
 export interface Database {
   public: {
@@ -57,6 +58,8 @@ export interface UserPreferences {
   preferredAmenities?: string[];
   travelerType?: string;
   dietaryRestrictions?: string[];
+  // Flash Vacation preferences
+  flashVacation?: FlashVacationPreferences;
 }
 
 export interface Conversation {

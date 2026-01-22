@@ -16,7 +16,8 @@
       "Bash(timeout 30 bash:*)",
       "Bash(git -C \"C:\\\\HonestNomad\" log --oneline -20)",
       "Bash(git -C \"C:\\\\HonestNomad\" log --all --oneline --graph)",
-      "Bash(xargs ls:*)"
+      "Bash(xargs ls:*)",
+      "Bash(comm:*)"
     ]
   }
 }

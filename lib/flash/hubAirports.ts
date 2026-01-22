@@ -225,7 +225,7 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
   // ===================
 
   // Italy
-  'amalfi-coast': {
+  'amalfi': {
     hubAirportCode: 'NAP',
     hubCity: 'Naples',
     groundTransferMinutes: 90, // 1.5 hours
@@ -244,13 +244,6 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
     hubCity: 'Milan',
     groundTransferMinutes: 75, // 1.25 hours
     transferType: 'drive',
-  },
-  'tuscany': {
-    hubAirportCode: 'FLR',
-    hubCity: 'Florence',
-    groundTransferMinutes: 90, // 1.5 hours to Siena/countryside
-    transferType: 'drive',
-    transferNote: 'Rolling hills of Chianti wine country'
   },
 
   // France

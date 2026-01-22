@@ -79,6 +79,47 @@ const PATH_CONFIG: Record<SimplePathChoice, {
 
 const ALL_PATHS: SimplePathChoice[] = ['classic', 'foodie', 'adventure', 'cultural', 'relaxation', 'nightlife', 'trendy'];
 
+// Calculate distance between two coordinates in meters using Haversine formula
+function getDistanceMeters(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const R = 6371000; // Earth's radius in meters
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a =
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+}
+
+// Format distance for display
+function formatDistance(meters: number): string {
+  if (meters < 1000) {
+    return `${Math.round(meters)}m`;
+  }
+  return `${(meters / 1000).toFixed(1)}km`;
+}
+
+// Get nearby stops within a radius (default 800m ~10 min walk)
+function getNearbyStops(
+  currentStop: ItineraryStop,
+  allStops: ItineraryStop[],
+  maxDistance: number = 800
+): Array<{ stop: ItineraryStop; distance: number }> {
+  return allStops
+    .filter(stop => stop.id !== currentStop.id)
+    .map(stop => ({
+      stop,
+      distance: getDistanceMeters(
+        currentStop.latitude, currentStop.longitude,
+        stop.latitude, stop.longitude
+      )
+    }))
+    .filter(item => item.distance <= maxDistance)
+    .sort((a, b) => a.distance - b.distance)
+    .slice(0, 4); // Max 4 nearby spots
+}
+
 interface ItineraryStop {
   id: string;
   name: string;
@@ -540,6 +581,50 @@ export default function FlashExplorePage() {
                   <span>Best time: {activeStop.bestTimeOfDay}</span>
                 </p>
               )}
+
+              {/* Nearby places */}
+              {(() => {
+                const nearbyStops = getNearbyStops(activeStop, allStops);
+                if (nearbyStops.length === 0) return null;
+                return (
+                  <div className="mb-4">
+                    <p className="text-white/50 text-sm mb-2 flex items-center gap-2">
+                      <span>📍</span>
+                      <span>Also nearby (walkable)</span>
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {nearbyStops.map(({ stop, distance }) => (
+                        <button
+                          key={stop.id}
+                          onClick={() => {
+                            setActiveStopId(stop.id);
+                          }}
+                          className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+                            favorites.has(stop.id)
+                              ? 'bg-pink-500/20 border border-pink-500/30'
+                              : 'bg-white/10 hover:bg-white/20'
+                          }`}
+                        >
+                          <span className="text-base">
+                            {stop.type === 'landmark' && '🏛️'}
+                            {stop.type === 'restaurant' && '🍽️'}
+                            {stop.type === 'activity' && '🎯'}
+                            {stop.type === 'accommodation' && '🏨'}
+                            {stop.type === 'transport' && '✈️'}
+                          </span>
+                          <span className="text-white/80 truncate max-w-[120px]">{stop.name}</span>
+                          <span className="text-white/40 text-xs">{formatDistance(distance)}</span>
+                          {favorites.has(stop.id) && (
+                            <svg className="w-3 h-3 text-pink-500 fill-pink-500 flex-shrink-0" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                          )}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })()}
 
               {/* Action buttons */}
               <div className="flex gap-3 mb-4">

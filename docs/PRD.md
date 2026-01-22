@@ -29,26 +29,34 @@ HonestNomad provides **opinionated curation** - we pick FOR the user based on th
 
 ---
 
-## Current State (v0.1)
+## Current State (v0.2 - Flash Mode)
 
 ### What Works
 - [x] Natural language intent parsing via Claude
-- [x] Flight search via Duffel API
+- [x] Flight search via Duffel API (real data)
 - [x] Hotel search via Duffel API (mock data, pending approval)
 - [x] Trip planning orchestration (parallel search)
-- [x] Basic itinerary generation with destination-specific activities
+- [x] **NEW: Flash Mode** - TikTok/Tinder-style swipe experience
+- [x] **NEW: 410+ Destinations** - Comprehensive global coverage (95%+ Europe/North America)
+- [x] **NEW: Immersive swipe cards** - Full-screen destination cards with gesture support
+- [x] **NEW: 5-step booking flow** - Dates → Travelers → Flights → Hotels → Confirmation
+- [x] **NEW: 7 itinerary path types** - Classic, foodie, adventure, cultural, relaxation, nightlife, trendy
+- [x] **NEW: Hand-curated POIs** - 6 major cities with trendy/local spots (Paris, Rome, Barcelona, Tokyo, London, Amsterdam)
+- [x] **NEW: Google Places integration** - Ready for POI migration (pending API key)
 - [x] TripCard UI with hero images
 - [x] Flight/hotel swap via alternatives modal
 - [x] Conversation persistence in Supabase
 - [x] Responsive landing page
 
+### In Progress
+- [ ] **POI Migration** - Google Places API integration built, awaiting API key to run migration on 410 destinations
+- [ ] **Foursquare blocked** - New accounts can't access v3 API (deprecated), switched to Google Places
+
 ### What's Broken/Missing
 - [ ] Duffel Stays API pending approval (using mocks)
 - [ ] No actual booking flow (payment integration)
-- [ ] Itinerary is static/templated, not truly AI-generated
 - [ ] No user accounts or saved trips
 - [ ] No email confirmations
-- [ ] No mobile optimization
 - [ ] No real destination images (using Unsplash placeholders)
 
 ---
@@ -336,13 +344,38 @@ HonestNomad provides **opinionated curation** - we pick FOR the user based on th
 
 ## Next Steps (This Week)
 
-1. [ ] Apply for Duffel Stays production access
-2. [ ] Set up Stripe account and test payment flow
-3. [ ] Design mobile-responsive TripCard
-4. [ ] Add proper error handling throughout
-5. [ ] Set up Sentry for error monitoring
-6. [ ] Create email templates for booking confirmation
+### POI System (In Progress)
+1. [ ] Get Google Places API key from https://console.cloud.google.com/apis/credentials
+2. [ ] Enable "Places API (New)" in Google Cloud Console
+3. [ ] Run test migration: `npx tsx scripts/poi-migration/migrate-pois-google.ts --test`
+4. [ ] Run full migration on all 410 destinations
+5. [ ] Update itinerary generator to use cached POIs from `data/pois/`
+
+### Core Platform
+6. [ ] Apply for Duffel Stays production access
+7. [ ] Set up Stripe account and test payment flow
+8. [ ] Add proper error handling throughout
+9. [ ] Set up Sentry for error monitoring
+10. [ ] Create email templates for booking confirmation
 
 ---
 
-*Last Updated: January 2026*
+## Files Created This Session
+
+### POI/Places Integration
+- `types/poi.ts` - POI type definitions (Google + Foursquare support)
+- `lib/google-places/client.ts` - Google Places API client with path-type search
+- `lib/google-places/index.ts` - Exports
+- `lib/foursquare/client.ts` - Foursquare client (deprecated, v3 blocked for new accounts)
+- `lib/foursquare/index.ts` - Exports
+- `scripts/poi-migration/migrate-pois-google.ts` - Migration script for Google Places
+- `scripts/poi-migration/migrate-pois.ts` - Legacy Foursquare migration script
+
+### Updated Files
+- `.env.local` - Added GOOGLE_PLACES_API_KEY placeholder
+- `.env.local.example` - Added Google Places key documentation
+- `lib/flash/itinerary-generator.ts` - Added TRENDY_POIS for 6 cities + generateTrendyItinerary()
+
+---
+
+*Last Updated: January 22, 2026*

@@ -17,7 +17,22 @@
       "Bash(git -C \"C:\\\\HonestNomad\" log --oneline -20)",
       "Bash(git -C \"C:\\\\HonestNomad\" log --all --oneline --graph)",
       "Bash(xargs ls:*)",
-      "Bash(comm:*)"
+      "Bash(comm:*)",
+      "Bash(node -e:*)",
+      "Bash(npx tsx:*)",
+      "Bash(npm ls:*)",
+      "Bash(UNSPLASH_ACCESS_KEY=GEBxQG4xYmbsaFPRsehGMfnBxSuU2R23ikBzLyUnQuk npx tsx:*)",
+      "Bash(echo \"Rate limit resets at 10:32 AM. Run: cd C:/HonestNomad && rm scripts/image-migration/progress.json scripts/image-migration/manifest.json 2>/dev/null; UNSPLASH_ACCESS_KEY=GEBxQG4xYmbsaFPRsehGMfnBxSuU2R23ikBzLyUnQuk npx tsx scripts/image-migration/migrate-images.ts --init\")",
+      "Bash(grep:*)",
+      "Bash(timeout 15 bash:*)",
+      "Bash(curl:*)",
+      "Bash(npx ts-node:*)",
+      "Bash(dir scriptsimage-migrationdownloaded-images)",
+      "Bash(npx:*)",
+      "Bash(done)",
+      "Bash(ls:*)",
+      "Bash(tasklist:*)",
+      "Bash(findstr:*)"
     ]
   }
 }

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Migration Review</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a2e;
+      color: #eee;
+      padding: 20px;
+    }
+    h1 { text-align: center; margin-bottom: 10px; }
+    .stats { text-align: center; color: #888; margin-bottom: 30px; }
+    .controls {
+      position: sticky;
+      top: 0;
+      background: #1a1a2e;
+      padding: 15px;
+      border-bottom: 1px solid #333;
+      margin-bottom: 20px;
+      z-index: 100;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .btn-approve { background: #22c55e; color: white; }
+    .btn-reject { background: #ef4444; color: white; }
+    .btn-export { background: #3b82f6; color: white; }
+    .btn-skip { background: #666; color: white; }
+
+    .destination {
+      background: #16213e;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .destination-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #333;
+    }
+    .destination-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    .destination-title .popular { color: #fbbf24; }
+    .destination-status {
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .status-pending { background: #f59e0b; color: #000; }
+    .status-approved { background: #22c55e; color: #fff; }
+    .status-rejected { background: #ef4444; color: #fff; }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+    }
+    .image-card {
+      position: relative;
+      aspect-ratio: 3/4;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      border: 3px solid transparent;
+      transition: all 0.2s;
+    }
+    .image-card:hover { transform: scale(1.02); }
+    .image-card.approved { border-color: #22c55e; }
+    .image-card.rejected { border-color: #ef4444; opacity: 0.5; }
+    .image-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .image-card .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 50%);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .image-card:hover .overlay { opacity: 1; }
+    .image-card .credit {
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      right: 5px;
+      font-size: 10px;
+      color: #fff;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .image-card:hover .credit { opacity: 1; }
+    .image-card .badge {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+    }
+    .badge-approved { background: #22c55e; }
+    .badge-rejected { background: #ef4444; }
+
+    .actions {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .summary {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #16213e;
+      padding: 15px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+
+    @media (max-width: 768px) {
+      .image-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <h1>📸 Image Migration Review</h1>
+  <p class="stats">2 destinations pending review | 45 total images</p>
+
+  <div class="controls">
+    <button class="btn-approve" onclick="approveAllVisible()">✓ Approve All Visible</button>
+    <button class="btn-reject" onclick="rejectAllVisible()">✗ Reject All Visible</button>
+    <button class="btn-export" onclick="exportDecisions()">💾 Export Decisions</button>
+  </div>
+
+  <div id="destinations">
+    
+      <div class="destination" data-id="paris">
+        <div class="destination-header">
+          <h2 class="destination-title">
+            Paris, France
+            <span class="popular">⭐</span>
+          </h2>
+          <span class="destination-status status-pending" data-status="pending">
+            Pending Review
+          </span>
+        </div>
+
+        <div class="image-grid">
+          
+            <div class="image-card" data-dest="paris" data-img="paris-001.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-001.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Fabien Maurin on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-002.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-002.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Andri Wyss on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-003.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-003.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Fabien Maurin on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-004.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-004.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Luca Saunders on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-005.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-005.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by John Lord Vicente on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-006.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-006.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Andri Wyss on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-007.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-007.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Ashley Whitlatch on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-008.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-008.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Louis Morel on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-009.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-009.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Youssef D on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-010.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-010.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Liam McGarry on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-011.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-011.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by David Emrich on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-012.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-012.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Zalfa Imani on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-013.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-013.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by DAVID TAPIA SAN MARTIN on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-014.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-014.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Bastien Nvs on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-015.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-015.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Bastien Nvs on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-016.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-016.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Bastien Nvs on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-017.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-017.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Bastien Nvs on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-018.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-018.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Evan THOMAS on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-019.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-019.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Martti Salmi on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-020.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-020.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Andiko Baskoro on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-021.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-021.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Patrick Lalonde on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-022.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-022.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Brijesh Masrani on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-023.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-023.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Hsingyun Chao on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-024.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-024.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Reshma Shrestha on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-025.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-025.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Big Dodzy on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-026.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-026.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Big Dodzy on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-027.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-027.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Nuno Alves on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-028.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-028.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Megan Bucknall on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-029.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-029.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Dustin Bowdige on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="paris" data-img="paris-030.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/paris/paris-030.jpg" alt="Paris" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Hong Zhao on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+        </div>
+
+        <div class="actions">
+          <button class="btn-approve" onclick="approveDestination('paris')">✓ Approve All</button>
+          <button class="btn-reject" onclick="rejectDestination('paris')">✗ Reject All</button>
+          <button class="btn-skip" onclick="skipDestination('paris')">Skip</button>
+        </div>
+      </div>
+    
+      <div class="destination" data-id="dubrovnik">
+        <div class="destination-header">
+          <h2 class="destination-title">
+            Dubrovnik, Croatia
+            
+          </h2>
+          <span class="destination-status status-pending" data-status="pending">
+            Pending Review
+          </span>
+        </div>
+
+        <div class="image-grid">
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-001.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-001.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Janey Aron on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-002.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-002.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Kellie Benz on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-003.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-003.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Todor Dimov on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-004.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-004.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Todor Dimov on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-005.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-005.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Todor Dimov on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-006.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-006.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Satvik on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-007.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-007.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by A R on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-008.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-008.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Morgane Le Breton on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-009.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-009.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Lidija Jakovljevic on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-010.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-010.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Xhiliana on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-011.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-011.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Alena Saltykova on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-012.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-012.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Yana Marudova on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-013.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-013.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by B Yando on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-014.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-014.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Vivek Kuppa on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+            <div class="image-card" data-dest="dubrovnik" data-img="dubrovnik-015.jpg" onclick="toggleImage(this)">
+              <img src="downloaded-images/dubrovnik/dubrovnik-015.jpg" alt="Dubrovnik" loading="lazy">
+              <div class="overlay"></div>
+              <div class="credit">Photo by Maximilian on Unsplash</div>
+              <div class="badge" style="display:none;"></div>
+            </div>
+          
+        </div>
+
+        <div class="actions">
+          <button class="btn-approve" onclick="approveDestination('dubrovnik')">✓ Approve All</button>
+          <button class="btn-reject" onclick="rejectDestination('dubrovnik')">✗ Reject All</button>
+          <button class="btn-skip" onclick="skipDestination('dubrovnik')">Skip</button>
+        </div>
+      </div>
+    
+  </div>
+
+  <div class="summary">
+    <div>Approved: <span id="approvedCount">0</span></div>
+    <div>Rejected: <span id="rejectedCount">0</span></div>
+  </div>
+
+  <script>
+    const decisions = {};
+
+    function toggleImage(el) {
+      const dest = el.dataset.dest;
+      const img = el.dataset.img;
+      const key = dest + '/' + img;
+
+      if (el.classList.contains('approved')) {
+        el.classList.remove('approved');
+        el.classList.add('rejected');
+        decisions[key] = 'rejected';
+        el.querySelector('.badge').innerHTML = '✗';
+        el.querySelector('.badge').className = 'badge badge-rejected';
+      } else if (el.classList.contains('rejected')) {
+        el.classList.remove('rejected');
+        delete decisions[key];
+        el.querySelector('.badge').style.display = 'none';
+      } else {
+        el.classList.add('approved');
+        decisions[key] = 'approved';
+        el.querySelector('.badge').innerHTML = '✓';
+        el.querySelector('.badge').className = 'badge badge-approved';
+        el.querySelector('.badge').style.display = 'flex';
+      }
+
+      updateCounts();
+      updateDestinationStatus(dest);
+    }
+
+    function approveDestination(destId) {
+      document.querySelectorAll('.image-card[data-dest="' + destId + '"]').forEach(el => {
+        el.classList.remove('rejected');
+        el.classList.add('approved');
+        const key = destId + '/' + el.dataset.img;
+        decisions[key] = 'approved';
+        el.querySelector('.badge').innerHTML = '✓';
+        el.querySelector('.badge').className = 'badge badge-approved';
+        el.querySelector('.badge').style.display = 'flex';
+      });
+      updateCounts();
+      updateDestinationStatus(destId);
+    }
+
+    function rejectDestination(destId) {
+      document.querySelectorAll('.image-card[data-dest="' + destId + '"]').forEach(el => {
+        el.classList.remove('approved');
+        el.classList.add('rejected');
+        const key = destId + '/' + el.dataset.img;
+        decisions[key] = 'rejected';
+        el.querySelector('.badge').innerHTML = '✗';
+        el.querySelector('.badge').className = 'badge badge-rejected';
+        el.querySelector('.badge').style.display = 'flex';
+      });
+      updateCounts();
+      updateDestinationStatus(destId);
+    }
+
+    function skipDestination(destId) {
+      document.querySelectorAll('.image-card[data-dest="' + destId + '"]').forEach(el => {
+        el.classList.remove('approved', 'rejected');
+        const key = destId + '/' + el.dataset.img;
+        delete decisions[key];
+        el.querySelector('.badge').style.display = 'none';
+      });
+      updateCounts();
+      updateDestinationStatus(destId);
+    }
+
+    function approveAllVisible() {
+      document.querySelectorAll('.destination').forEach(dest => {
+        approveDestination(dest.dataset.id);
+      });
+    }
+
+    function rejectAllVisible() {
+      document.querySelectorAll('.destination').forEach(dest => {
+        rejectDestination(dest.dataset.id);
+      });
+    }
+
+    function updateCounts() {
+      const approved = Object.values(decisions).filter(v => v === 'approved').length;
+      const rejected = Object.values(decisions).filter(v => v === 'rejected').length;
+      document.getElementById('approvedCount').textContent = approved;
+      document.getElementById('rejectedCount').textContent = rejected;
+    }
+
+    function updateDestinationStatus(destId) {
+      const dest = document.querySelector('.destination[data-id="' + destId + '"]');
+      const cards = dest.querySelectorAll('.image-card');
+      const approved = dest.querySelectorAll('.image-card.approved').length;
+      const rejected = dest.querySelectorAll('.image-card.rejected').length;
+      const statusEl = dest.querySelector('.destination-status');
+
+      if (approved === cards.length) {
+        statusEl.textContent = 'Approved';
+        statusEl.className = 'destination-status status-approved';
+      } else if (rejected === cards.length) {
+        statusEl.textContent = 'Rejected';
+        statusEl.className = 'destination-status status-rejected';
+      } else if (approved > 0 || rejected > 0) {
+        statusEl.textContent = 'Partial (' + approved + '/' + cards.length + ')';
+        statusEl.className = 'destination-status status-pending';
+      } else {
+        statusEl.textContent = 'Pending Review';
+        statusEl.className = 'destination-status status-pending';
+      }
+    }
+
+    function exportDecisions() {
+      const blob = new Blob([JSON.stringify(decisions, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'validation-decisions.json';
+      a.click();
+      URL.revokeObjectURL(url);
+      alert('Decisions exported! Save the file to scripts/image-migration/ and run:\nnpx tsx scripts/image-migration/apply-validation.ts');
+    }
+  </script>
+</body>
+</html>

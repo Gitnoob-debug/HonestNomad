@@ -1,63 +1,87 @@
-# Image Migration Script
+# Image Migration Workflow
 
-Batch downloads images from Unsplash for all 410 destinations, respecting rate limits.
+Downloads images from Unsplash for all 410 destinations with manual validation.
 
 ## Setup
 
 1. Get an Unsplash API key at https://unsplash.com/developers (free)
-2. Set the environment variable:
-   ```bash
-   export UNSPLASH_ACCESS_KEY=your_key_here
-   ```
+2. Set environment variable: `export UNSPLASH_ACCESS_KEY=your_key`
 
-## Usage
+## Workflow
 
-### Check current status
+### Step 1: Initialize Queue
 ```bash
-npx tsx scripts/image-migration/check-status.ts
+npx tsx scripts/image-migration/migrate-images.ts --init
+```
+This creates an alternating queue: popular (30 imgs) + regular (20 imgs) = 50 requests per batch.
+
+### Step 2: Run a Batch
+```bash
+UNSPLASH_ACCESS_KEY=xxx npx tsx scripts/image-migration/migrate-images.ts
+```
+Downloads 2 destinations (1 popular + 1 regular) using exactly 50 API calls.
+
+### Step 3: Wait for Rate Limit
+The script tells you when the next batch is available (~70 minutes).
+Check status anytime:
+```bash
+npx tsx scripts/image-migration/migrate-images.ts --status
 ```
 
-### Run migration (50 destinations per session)
+### Step 4: Review Images (Manual Validation)
 ```bash
-UNSPLASH_ACCESS_KEY=your_key npx tsx scripts/image-migration/migrate-images.ts
+npx tsx scripts/image-migration/generate-preview.ts
 ```
+Then open `scripts/image-migration/preview.html` in your browser.
 
-### Dry run (preview without making requests)
+- Click individual images to approve/reject
+- Use "Approve All" / "Reject All" for entire destinations
+- Click "Export Decisions" when done
+
+### Step 5: Apply Validation
+Save the exported `validation-decisions.json` to `scripts/image-migration/`, then:
 ```bash
-npx tsx scripts/image-migration/migrate-images.ts --dry-run
+npx tsx scripts/image-migration/apply-validation.ts
 ```
+This removes rejected images and updates the manifest.
 
-### Continuous mode (runs forever with automatic delays)
+### Step 6: Repeat
+Go back to Step 2 until all destinations are done.
+
+## Continuous Mode (Overnight)
 ```bash
-npx tsx scripts/image-migration/migrate-images.ts --continuous
+UNSPLASH_ACCESS_KEY=xxx npx tsx scripts/image-migration/migrate-images.ts --continuous
 ```
-
-### Reset progress and start fresh
-```bash
-npx tsx scripts/image-migration/migrate-images.ts --reset
-```
-
-## How it works
-
-1. **Rate limit aware**: 50 requests/hour (Unsplash free tier)
-2. **Resumable**: Progress saved to `progress.json` after each destination
-3. **Prioritized**: Popular destinations processed first
-4. **Smart search**: Combines city + country + vibe for better results
-
-## Image counts
-
-- **Popular destinations** (Paris, Tokyo, etc.): 30 images each
-- **Regular destinations**: 20 images each
-
-## Time estimate
-
-- 410 destinations ÷ 50/hour = ~9 sessions
-- At 1hr 15min each = ~11-12 hours total
-- Can run 1 session per day or use `--continuous` to run overnight
+Runs batches automatically with 70-minute waits. ~14 hours to complete all 410 destinations.
 
 ## Files
 
-- `config.ts` - Settings and popular destination list
-- `migrate-images.ts` - Main migration script
-- `check-status.ts` - View progress
-- `progress.json` - Auto-generated progress tracker
+| File | Purpose |
+|------|---------|
+| `config.ts` | Settings, popular destinations list |
+| `migrate-images.ts` | Main download script |
+| `generate-preview.ts` | Creates HTML review page |
+| `apply-validation.ts` | Applies approve/reject decisions |
+| `progress.json` | Tracks queue and completion |
+| `manifest.json` | Image metadata + credits |
+| `downloaded-images/` | Downloaded images by destination |
+| `preview.html` | Generated review page |
+
+## Image Credits
+
+Each image stores:
+- `credit`: Display text ("Photo by Name on Unsplash")
+- `photographerName`: For linking
+- `photographerUrl`: Profile link
+- `unsplashUrl`: Original image link
+
+Use these in your UI to comply with Unsplash terms.
+
+## Stats
+
+- **410 destinations** total
+- **~45 popular** (30 images each = 1,350 images)
+- **~365 regular** (20 images each = 7,300 images)
+- **~8,650 total images**
+- **~205 batches** needed
+- **~14 hours** if run continuously

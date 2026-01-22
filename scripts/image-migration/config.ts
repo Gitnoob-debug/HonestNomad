@@ -3,26 +3,25 @@
 export const CONFIG = {
   // Unsplash rate limits
   REQUESTS_PER_HOUR: 50,
-  DELAY_BETWEEN_REQUESTS_MS: 1500, // 1.5 seconds between requests (safe buffer)
-  SESSION_DURATION_MS: 75 * 60 * 1000, // 1hr 15min per session
+  BATCH_COOLDOWN_MS: 70 * 60 * 1000, // 1hr 10min between batches
 
-  // Image counts
+  // Image counts per destination
   POPULAR_DESTINATION_IMAGES: 30,
   REGULAR_DESTINATION_IMAGES: 20,
 
-  // Storage paths
+  // Local storage paths
   PROGRESS_FILE: 'scripts/image-migration/progress.json',
-  OUTPUT_DIR: 'public/images/destinations', // For local testing, later Supabase
+  MANIFEST_FILE: 'scripts/image-migration/manifest.json',
+  IMAGES_DIR: 'scripts/image-migration/downloaded-images',
+  PREVIEW_FILE: 'scripts/image-migration/preview.html',
 
-  // Image specs
-  IMAGE_WIDTH: 600,
-  IMAGE_HEIGHT: 800,
-  IMAGE_QUALITY: 80,
+  // Image specs for download
+  IMAGE_SIZE: 'regular', // Unsplash size: small, regular, full
 };
 
-// Popular destinations get more images (high-traffic cities)
+// Popular destinations get 30 images (high-traffic cities)
 export const POPULAR_DESTINATIONS = new Set([
-  // Major cities
+  // Major world cities
   'paris', 'london', 'rome', 'barcelona', 'amsterdam', 'new-york', 'tokyo',
   'los-angeles', 'miami', 'las-vegas', 'san-francisco', 'chicago', 'boston',
   'dubai', 'singapore', 'hong-kong', 'bangkok', 'bali', 'sydney', 'melbourne',
@@ -36,34 +35,77 @@ export const POPULAR_DESTINATIONS = new Set([
   'vienna', 'dublin', 'edinburgh', 'swiss-alps', 'ibiza', 'nice',
 
   // Adventure/nature
-  'iceland', 'costa-rica', 'new-zealand', 'patagonia', 'cape-town',
+  'reykjavik', 'costa-rica', 'new-zealand', 'patagonia', 'cape-town',
 ]);
 
-export interface MigrationProgress {
-  lastUpdated: string;
-  completedDestinations: string[];
-  failedDestinations: { id: string; error: string; attempts: number }[];
-  currentSession: {
-    startedAt: string;
-    requestCount: number;
-  } | null;
-  stats: {
-    totalDestinations: number;
-    completed: number;
-    failed: number;
-    imagesDownloaded: number;
-  };
+// Types
+export interface ImageRecord {
+  filename: string;
+  credit: string;
+  photographerName: string;
+  photographerUrl: string;
+  unsplashId: string;
+  unsplashUrl: string;
+  downloadedAt: string;
+  validated: boolean;
+  validationStatus: 'pending' | 'approved' | 'rejected' | null;
 }
 
-export const INITIAL_PROGRESS: MigrationProgress = {
-  lastUpdated: new Date().toISOString(),
-  completedDestinations: [],
-  failedDestinations: [],
-  currentSession: null,
+export interface DestinationImages {
+  destinationId: string;
+  city: string;
+  country: string;
+  isPopular: boolean;
+  imageCount: number;
+  images: ImageRecord[];
+  completedAt: string | null;
+  status: 'pending' | 'downloading' | 'review' | 'approved' | 'rejected';
+}
+
+export interface Manifest {
+  lastUpdated: string;
+  destinations: Record<string, DestinationImages>;
+}
+
+export interface Progress {
+  lastUpdated: string;
+  currentBatch: number;
+  totalBatches: number;
+  queue: { destId: string; isPopular: boolean }[];
+  completed: string[];
+  pendingReview: string[];
+  approved: string[];
+  rejected: string[];
   stats: {
-    totalDestinations: 410,
-    completed: 0,
-    failed: 0,
-    imagesDownloaded: 0,
+    totalDestinations: number;
+    totalImagesDownloaded: number;
+    totalApproved: number;
+    totalRejected: number;
+  };
+  lastBatchCompletedAt: string | null;
+  nextBatchAvailableAt: string | null;
+}
+
+export const INITIAL_PROGRESS: Progress = {
+  lastUpdated: new Date().toISOString(),
+  currentBatch: 0,
+  totalBatches: 0,
+  queue: [],
+  completed: [],
+  pendingReview: [],
+  approved: [],
+  rejected: [],
+  stats: {
+    totalDestinations: 0,
+    totalImagesDownloaded: 0,
+    totalApproved: 0,
+    totalRejected: 0,
   },
+  lastBatchCompletedAt: null,
+  nextBatchAvailableAt: null,
+};
+
+export const INITIAL_MANIFEST: Manifest = {
+  lastUpdated: new Date().toISOString(),
+  destinations: {},
 };

@@ -1,4 +1,6 @@
 import type { FlashTripPackage } from '@/types/flash';
+import type { CachedPOI, DestinationPOICache, ItineraryPathType } from '@/types/poi';
+import type { POICategory } from '@/types/poi';
 import { DESTINATIONS } from './destinations';
 
 export interface ItineraryStop {
@@ -11,6 +13,15 @@ export interface ItineraryStop {
   duration?: string;
   imageUrl?: string;
   day: number;
+  // Extended data from Google Places
+  googleRating?: number;
+  googleReviewCount?: number;
+  googlePrice?: number;
+  address?: string;
+  websiteUrl?: string;
+  googleMapsUrl?: string;
+  bestTimeOfDay?: 'morning' | 'afternoon' | 'evening' | 'night' | 'any';
+  category?: POICategory;
 }
 
 export interface ItineraryDay {
@@ -93,6 +104,83 @@ const DESTINATION_POIS: Record<string, Omit<ItineraryStop, 'day' | 'id'>[]> = {
     { name: 'Albert Cuyp Market', description: 'Bustling street market with Dutch treats, stroopwafels, and herring', type: 'activity', latitude: 52.3554, longitude: 4.8939, duration: '1.5 hours' },
     { name: 'Heineken Experience', description: 'Interactive brewery tour with beer tasting and canal boat ride', type: 'activity', latitude: 52.3577, longitude: 4.8914, duration: '2 hours' },
     { name: 'A\'DAM Lookout', description: 'Rooftop observation deck with swing over the edge and city views', type: 'landmark', latitude: 52.3843, longitude: 4.9018, duration: '1 hour' },
+  ],
+};
+
+// Trendy/Local hidden gem POIs for popular destinations
+// These are off-the-beaten-path spots that locals love
+const TRENDY_POIS: Record<string, Omit<ItineraryStop, 'day' | 'id'>[]> = {
+  paris: [
+    { name: 'Canal Saint-Martin', description: 'Hip neighborhood with indie boutiques, cool cafés, and iron footbridges', type: 'activity', latitude: 48.8720, longitude: 2.3655, duration: '3 hours' },
+    { name: 'Le Comptoir Général', description: 'Hidden Afro-Caribbean bar in a colonial-style warehouse, feels like another world', type: 'restaurant', latitude: 48.8715, longitude: 2.3660, duration: '2-3 hours' },
+    { name: 'Belleville', description: 'Multicultural neighborhood with street art, authentic Asian food, and artist studios', type: 'activity', latitude: 48.8722, longitude: 2.3847, duration: '3 hours' },
+    { name: 'Le Perchoir Rooftop', description: 'Secret rooftop bar with panoramic views, popular with creative locals', type: 'restaurant', latitude: 48.8663, longitude: 2.3814, duration: '2 hours' },
+    { name: 'Marché d\'Aligre', description: 'Authentic neighborhood market where Parisians actually shop, not tourists', type: 'activity', latitude: 48.8489, longitude: 2.3787, duration: '1.5 hours' },
+    { name: 'La REcyclerie', description: 'Urban farm and café in a converted train station, sustainability meets cool', type: 'restaurant', latitude: 48.8917, longitude: 2.3447, duration: '2 hours' },
+    { name: 'Parc des Buttes-Chaumont', description: 'Dramatic cliffs, waterfalls, and temple in this lesser-known romantic park', type: 'activity', latitude: 48.8809, longitude: 2.3828, duration: '2 hours' },
+    { name: 'Musée de la Chasse', description: 'Quirky hunting museum with contemporary art installations, surprisingly cool', type: 'landmark', latitude: 48.8612, longitude: 2.3582, duration: '1.5 hours' },
+    { name: 'Broken Arm Café', description: 'Fashion-forward concept store with minimalist café, local designer hangout', type: 'restaurant', latitude: 48.8659, longitude: 2.3607, duration: '1.5 hours' },
+    { name: 'Petite Ceinture', description: 'Abandoned railway line turned urban hiking trail through secret Paris', type: 'activity', latitude: 48.8430, longitude: 2.3820, duration: '2 hours' },
+  ],
+  rome: [
+    { name: 'Testaccio', description: 'Working-class neighborhood with Rome\'s best trattorias and nightlife', type: 'activity', latitude: 41.8758, longitude: 12.4756, duration: '3 hours' },
+    { name: 'Da Enzo al 29', description: 'Tiny trattoria with legendary cacio e pepe, locals queue for hours', type: 'restaurant', latitude: 41.8875, longitude: 12.4685, duration: '2 hours' },
+    { name: 'Ostiense Street Art District', description: 'Industrial zone transformed into open-air street art gallery', type: 'activity', latitude: 41.8683, longitude: 12.4819, duration: '2 hours' },
+    { name: 'Garbatella', description: 'Garden city neighborhood with 1920s architecture and authentic Roman life', type: 'activity', latitude: 41.8614, longitude: 12.4883, duration: '2 hours' },
+    { name: 'Mercato di Testaccio', description: 'Covered market where Romans shop, fantastic for lunch', type: 'restaurant', latitude: 41.8750, longitude: 12.4750, duration: '1.5 hours' },
+    { name: 'Aventine Keyhole', description: 'Peer through a keyhole for a perfectly framed view of St. Peter\'s dome', type: 'landmark', latitude: 41.8833, longitude: 12.4789, duration: '30 min' },
+    { name: 'Ponte Milvio at Sunset', description: 'Local lovers\' bridge with aperitivo bars, where Romans gather at golden hour', type: 'activity', latitude: 41.9372, longitude: 12.4672, duration: '2 hours' },
+    { name: 'Pigneto', description: 'Pasolini\'s old neighborhood, now Rome\'s hippest bar and café scene', type: 'activity', latitude: 41.8897, longitude: 12.5300, duration: '3 hours' },
+    { name: 'Trapizzino', description: 'Roman street food revolution - pizza pockets with traditional fillings', type: 'restaurant', latitude: 41.8755, longitude: 12.4758, duration: '45 min' },
+    { name: 'Non-Catholic Cemetery', description: 'Serene resting place of Keats and Shelley, unexpectedly beautiful', type: 'landmark', latitude: 41.8761, longitude: 12.4797, duration: '1 hour' },
+  ],
+  barcelona: [
+    { name: 'Gràcia', description: 'Village-like neighborhood with local plazas, indie shops, and vermouth bars', type: 'activity', latitude: 41.4028, longitude: 2.1567, duration: '3 hours' },
+    { name: 'Bar Brutal', description: 'Natural wine bar with exposed stone and eclectic tapas, local favorite', type: 'restaurant', latitude: 41.3847, longitude: 2.1789, duration: '2 hours' },
+    { name: 'Bunkers del Carmel', description: 'Civil war bunkers with the best panoramic views of Barcelona, sunset essential', type: 'landmark', latitude: 41.4189, longitude: 2.1611, duration: '2 hours' },
+    { name: 'Poblenou', description: 'Former industrial zone now tech hub with cool coffee shops and design studios', type: 'activity', latitude: 41.4028, longitude: 2.2006, duration: '3 hours' },
+    { name: 'Els Quatre Gats', description: 'Art Nouveau café where Picasso had his first exhibition', type: 'restaurant', latitude: 41.3856, longitude: 2.1742, duration: '1.5 hours' },
+    { name: 'Sant Antoni Market', description: 'Renovated modernist market with trendy food stalls and Sunday book fair', type: 'activity', latitude: 41.3783, longitude: 2.1611, duration: '2 hours' },
+    { name: 'Parc del Laberint d\'Horta', description: 'Hidden neoclassical garden with a hedge maze, Barcelona\'s secret park', type: 'activity', latitude: 41.4397, longitude: 2.1461, duration: '1.5 hours' },
+    { name: 'La Xampanyeria', description: 'Standing-room-only cava bar, dirt cheap bubbles and incredible vibes', type: 'restaurant', latitude: 41.3844, longitude: 2.1847, duration: '1 hour' },
+    { name: 'Hospital de Sant Pau', description: 'Stunning modernist complex, less crowded than Sagrada Familia', type: 'landmark', latitude: 41.4139, longitude: 2.1750, duration: '1.5 hours' },
+    { name: 'Mercat de Sant Antoni Vermouth', description: 'Sunday vermouth tradition at the market\'s outdoor bars', type: 'restaurant', latitude: 41.3781, longitude: 2.1614, duration: '2 hours' },
+  ],
+  tokyo: [
+    { name: 'Shimokitazawa', description: 'Bohemian neighborhood with vintage shops, live houses, and indie cafés', type: 'activity', latitude: 35.6617, longitude: 139.6694, duration: '3 hours' },
+    { name: 'Yanaka', description: 'Old Tokyo atmosphere with traditional shops, temples, and cat-themed cafés', type: 'activity', latitude: 35.7256, longitude: 139.7667, duration: '3 hours' },
+    { name: 'Fuunji', description: 'Legendary tsukemen shop, locals brave the queue for these dipping noodles', type: 'restaurant', latitude: 35.6892, longitude: 139.6978, duration: '1 hour' },
+    { name: 'Nakameguro', description: 'Stylish canal-side area with design stores and specialty coffee', type: 'activity', latitude: 35.6436, longitude: 139.6983, duration: '3 hours' },
+    { name: 'Koenji', description: 'Alternative culture hub with vintage stores, punk bars, and street art', type: 'activity', latitude: 35.7056, longitude: 139.6497, duration: '3 hours' },
+    { name: 'Onibus Coffee', description: 'Third-wave coffee pioneer in a converted garage, local roasters', type: 'restaurant', latitude: 35.6450, longitude: 139.6942, duration: '1 hour' },
+    { name: 'Todoroki Valley', description: 'Hidden ravine with walking trail and shrine in the middle of the city', type: 'activity', latitude: 35.6086, longitude: 139.6444, duration: '1.5 hours' },
+    { name: 'Standing Sushi Bar Uogashi', description: 'Counter-only sushi at Tsukiji, no seats but phenomenal fish', type: 'restaurant', latitude: 35.6656, longitude: 139.7697, duration: '45 min' },
+    { name: 'Tokyo Jazz Kissaten', description: 'Vinyl jazz café culture - sit in silence and listen to rare records', type: 'activity', latitude: 35.6592, longitude: 139.7006, duration: '2 hours' },
+    { name: 'Daikanyama T-Site', description: 'Architectural marvel bookstore, design lovers\' paradise', type: 'landmark', latitude: 35.6492, longitude: 139.7036, duration: '1.5 hours' },
+  ],
+  london: [
+    { name: 'Peckham', description: 'South London\'s coolest neighborhood with rooftop bars and diverse food scene', type: 'activity', latitude: 51.4733, longitude: -0.0672, duration: '3 hours' },
+    { name: 'Dishoom King\'s Cross', description: 'Best bacon naan in London, worth the queue at this Bombay café', type: 'restaurant', latitude: 51.5361, longitude: -0.1247, duration: '1.5 hours' },
+    { name: 'Maltby Street Market', description: 'Small artisan market under railway arches, the locals\' Borough', type: 'activity', latitude: 51.4994, longitude: -0.0781, duration: '2 hours' },
+    { name: 'Hackney Wick', description: 'Industrial canalside with breweries, art studios, and warehouse parties', type: 'activity', latitude: 51.5456, longitude: -0.0244, duration: '3 hours' },
+    { name: 'Coal Drops Yard', description: 'Victorian coal drops transformed into design destination', type: 'activity', latitude: 51.5397, longitude: -0.1256, duration: '2 hours' },
+    { name: 'Bermondsey Beer Mile', description: 'Railway arch breweries and taprooms, craft beer pilgrimage', type: 'activity', latitude: 51.4978, longitude: -0.0700, duration: '3 hours' },
+    { name: 'Barbican Conservatory', description: 'Hidden tropical oasis inside brutalist architecture', type: 'landmark', latitude: 51.5200, longitude: -0.0936, duration: '1 hour' },
+    { name: 'Columbia Road Flower Market', description: 'Sunday flower market with East End atmosphere and coffee', type: 'activity', latitude: 51.5303, longitude: -0.0736, duration: '2 hours' },
+    { name: 'Brixton Village', description: 'Covered market with global food stalls and late-night bars', type: 'restaurant', latitude: 51.4614, longitude: -0.1131, duration: '2.5 hours' },
+    { name: 'Leake Street Graffiti Tunnel', description: 'Legal graffiti tunnel near Waterloo, constantly changing street art', type: 'landmark', latitude: 51.5022, longitude: -0.1139, duration: '45 min' },
+  ],
+  amsterdam: [
+    { name: 'De Pijp', description: 'Amsterdam\'s Latin Quarter with diverse restaurants and Albert Cuyp market', type: 'activity', latitude: 52.3553, longitude: 4.8925, duration: '3 hours' },
+    { name: 'Pllek', description: 'Beach bar made from shipping containers on NDSM wharf', type: 'restaurant', latitude: 52.4017, longitude: 4.8939, duration: '2 hours' },
+    { name: 'NDSM Wharf', description: 'Post-industrial creative hub with street art, festivals, and alternative culture', type: 'activity', latitude: 52.4008, longitude: 4.8917, duration: '3 hours' },
+    { name: 'De Ceuvel', description: 'Sustainable urban village on former shipyard with eco-café', type: 'activity', latitude: 52.3944, longitude: 4.9286, duration: '2 hours' },
+    { name: 'Oost', description: 'Multicultural neighborhood with Tropical Museum and Dappermarkt', type: 'activity', latitude: 52.3631, longitude: 4.9256, duration: '3 hours' },
+    { name: 'Café de Koe', description: 'Local brown café with board games and unpretentious vibes', type: 'restaurant', latitude: 52.3647, longitude: 4.8606, duration: '2 hours' },
+    { name: 'Begijnhof', description: 'Secret medieval courtyard in the city center, peaceful oasis', type: 'landmark', latitude: 52.3689, longitude: 4.8889, duration: '45 min' },
+    { name: 'EYE Film Museum', description: 'Striking architecture and free exhibitions across the IJ', type: 'landmark', latitude: 52.3844, longitude: 4.9003, duration: '2 hours' },
+    { name: 'De School', description: 'Former technical school turned club, restaurant, and gym', type: 'activity', latitude: 52.3636, longitude: 4.8483, duration: '3 hours' },
+    { name: 'Westerpark Sunday Market', description: 'Monthly market in the park with food, vintage, and music', type: 'activity', latitude: 52.3878, longitude: 4.8703, duration: '2 hours' },
   ],
 };
 
@@ -197,4 +285,416 @@ export function generateSampleItinerary(trip: FlashTripPackage): ItineraryDay[] 
   }
 
   return days;
+}
+
+// Generic trendy POIs for destinations without specific trendy data
+function generateGenericTrendyPOIs(trip: FlashTripPackage): Omit<ItineraryStop, 'day' | 'id'>[] {
+  const destination = DESTINATIONS.find(d => d.id === trip.destination.city.toLowerCase().replace(/\s+/g, '-'));
+  const baseLat = destination?.latitude || 0;
+  const baseLng = destination?.longitude || 0;
+
+  return [
+    {
+      name: `${trip.destination.city} Coffee Culture`,
+      description: 'Specialty coffee shops where locals start their day',
+      type: 'restaurant',
+      latitude: baseLat + (Math.random() - 0.5) * 0.02,
+      longitude: baseLng + (Math.random() - 0.5) * 0.02,
+      duration: '1 hour',
+    },
+    {
+      name: 'Local Street Art Walk',
+      description: 'Discover hidden murals and creative neighborhoods',
+      type: 'activity',
+      latitude: baseLat + (Math.random() - 0.5) * 0.03,
+      longitude: baseLng + (Math.random() - 0.5) * 0.03,
+      duration: '2 hours',
+    },
+    {
+      name: 'Neighborhood Market',
+      description: 'Where locals actually shop and eat, not tourists',
+      type: 'activity',
+      latitude: baseLat + (Math.random() - 0.5) * 0.02,
+      longitude: baseLng + (Math.random() - 0.5) * 0.02,
+      duration: '1.5 hours',
+    },
+    {
+      name: 'Sunset Cocktail Spot',
+      description: 'Rooftop or terrace bar popular with young locals',
+      type: 'restaurant',
+      latitude: baseLat + (Math.random() - 0.5) * 0.025,
+      longitude: baseLng + (Math.random() - 0.5) * 0.025,
+      duration: '2 hours',
+    },
+    {
+      name: 'Up-and-Coming Neighborhood',
+      description: 'The area that\'s becoming the next big thing',
+      type: 'activity',
+      latitude: baseLat + (Math.random() - 0.5) * 0.04,
+      longitude: baseLng + (Math.random() - 0.5) * 0.04,
+      duration: '3 hours',
+    },
+    {
+      name: 'Hidden Garden or Park',
+      description: 'Secret green space away from the crowds',
+      type: 'activity',
+      latitude: baseLat + (Math.random() - 0.5) * 0.03,
+      longitude: baseLng + (Math.random() - 0.5) * 0.03,
+      duration: '1.5 hours',
+    },
+    {
+      name: 'Local Foodie Spot',
+      description: 'The restaurant locals recommend to their friends',
+      type: 'restaurant',
+      latitude: baseLat + (Math.random() - 0.5) * 0.02,
+      longitude: baseLng + (Math.random() - 0.5) * 0.02,
+      duration: '2 hours',
+    },
+    {
+      name: 'Alternative Cultural Space',
+      description: 'Gallery, music venue, or creative hub off the beaten path',
+      type: 'activity',
+      latitude: baseLat + (Math.random() - 0.5) * 0.03,
+      longitude: baseLng + (Math.random() - 0.5) * 0.03,
+      duration: '2 hours',
+    },
+  ];
+}
+
+export function generateTrendyItinerary(trip: FlashTripPackage): ItineraryDay[] {
+  const cityKey = trip.destination.city.toLowerCase().replace(/\s+/g, '');
+  let pois = TRENDY_POIS[cityKey];
+
+  // If no specific trendy POIs, generate generic ones
+  if (!pois || pois.length === 0) {
+    pois = generateGenericTrendyPOIs(trip);
+  }
+
+  const days: ItineraryDay[] = [];
+  const numDays = trip.itinerary.days;
+  const stopsPerDay = Math.ceil(pois.length / numDays);
+
+  // Trendy day themes
+  const trendyThemes = [
+    'Neighborhood Discovery',
+    'Local Foodie Trail',
+    'Hidden Gems & Street Art',
+    'Coffee & Creative Spaces',
+    'Off the Beaten Path',
+    'Sunset Spots & Nightlife',
+    'Markets & Local Life',
+  ];
+
+  for (let day = 1; day <= numDays; day++) {
+    const startIdx = (day - 1) * stopsPerDay;
+    const endIdx = Math.min(startIdx + stopsPerDay, pois.length);
+    const dayPois = pois.slice(startIdx, endIdx);
+
+    // If we run out of POIs, cycle back
+    if (dayPois.length === 0 && pois.length > 0) {
+      const cycleIdx = (day - 1) % pois.length;
+      dayPois.push(pois[cycleIdx]);
+    }
+
+    const stops: ItineraryStop[] = dayPois.map((poi, idx) => ({
+      ...poi,
+      id: `day${day}-stop${idx + 1}`,
+      day,
+    }));
+
+    days.push({
+      day,
+      title: trendyThemes[(day - 1) % trendyThemes.length],
+      stops,
+    });
+  }
+
+  return days;
+}
+
+// ============================================
+// NEW: Generate itinerary from real POI cache
+// ============================================
+
+export type SimplePathChoice = 'classic' | 'trendy' | 'foodie' | 'adventure' | 'cultural' | 'relaxation' | 'nightlife';
+
+// Map our simplified path choices to detailed path types
+function getPathTypesForChoice(choice: SimplePathChoice): ItineraryPathType[] {
+  switch (choice) {
+    case 'classic':
+      return ['classic', 'cultural'];
+    case 'trendy':
+      return ['trendy', 'nightlife', 'foodie'];
+    case 'foodie':
+      return ['foodie', 'trendy'];
+    case 'adventure':
+      return ['adventure', 'classic'];
+    case 'cultural':
+      return ['cultural', 'classic'];
+    case 'relaxation':
+      return ['relaxation', 'cultural'];
+    case 'nightlife':
+      return ['nightlife', 'trendy', 'foodie'];
+    default:
+      return ['classic', 'cultural'];
+  }
+}
+
+// Convert CachedPOI to ItineraryStop format
+function poiToItineraryStop(poi: CachedPOI, day: number, stopIndex: number): ItineraryStop {
+  const typeMap: Record<string, ItineraryStop['type']> = {
+    landmark: 'landmark',
+    restaurant: 'restaurant',
+    cafe: 'restaurant',
+    bar: 'restaurant',
+    museum: 'landmark',
+    park: 'activity',
+    market: 'activity',
+    activity: 'activity',
+    nightclub: 'activity',
+    viewpoint: 'landmark',
+    neighborhood: 'activity',
+  };
+
+  return {
+    id: `day${day}-stop${stopIndex + 1}`,
+    name: poi.name,
+    description: poi.description,
+    type: typeMap[poi.category] || 'activity',
+    latitude: poi.latitude,
+    longitude: poi.longitude,
+    duration: poi.suggestedDuration,
+    imageUrl: poi.imageUrl,
+    day,
+    googleRating: poi.googleRating,
+    googleReviewCount: poi.googleReviewCount,
+    googlePrice: poi.googlePrice,
+    address: poi.address,
+    websiteUrl: poi.websiteUrl,
+    googleMapsUrl: poi.googleMapsUrl,
+    bestTimeOfDay: poi.bestTimeOfDay,
+    category: poi.category,
+  };
+}
+
+// Get balanced POI selection from cache
+function getBalancedPOISelection(
+  cache: DestinationPOICache,
+  pathChoice: SimplePathChoice,
+  totalStops: number
+): CachedPOI[] {
+  const pathTypes = getPathTypesForChoice(pathChoice);
+  const primaryPath = pathTypes[0];
+  const secondaryPaths = pathTypes.slice(1);
+
+  const selected: CachedPOI[] = [];
+  const seenIds = new Set<string>();
+
+  // Get ~70% from primary path
+  const primaryPOIs = cache.paths[primaryPath] || [];
+  const primaryCount = Math.ceil(totalStops * 0.7);
+
+  for (const poi of primaryPOIs.slice(0, primaryCount)) {
+    if (!seenIds.has(poi.id)) {
+      seenIds.add(poi.id);
+      selected.push(poi);
+    }
+  }
+
+  // Get remaining from secondary paths
+  for (const pathType of secondaryPaths) {
+    if (selected.length >= totalStops) break;
+
+    const pathPOIs = cache.paths[pathType] || [];
+    for (const poi of pathPOIs) {
+      if (selected.length >= totalStops) break;
+      if (!seenIds.has(poi.id)) {
+        seenIds.add(poi.id);
+        selected.push(poi);
+      }
+    }
+  }
+
+  // If still not enough, grab from any path
+  if (selected.length < totalStops) {
+    const allPathTypes: ItineraryPathType[] = ['classic', 'foodie', 'adventure', 'cultural', 'relaxation', 'nightlife', 'trendy'];
+    for (const pathType of allPathTypes) {
+      if (selected.length >= totalStops) break;
+
+      const pathPOIs = cache.paths[pathType] || [];
+      for (const poi of pathPOIs) {
+        if (selected.length >= totalStops) break;
+        if (!seenIds.has(poi.id)) {
+          seenIds.add(poi.id);
+          selected.push(poi);
+        }
+      }
+    }
+  }
+
+  return selected;
+}
+
+// Organize stops by time of day for better itinerary flow
+function organizeByTimeOfDay(pois: CachedPOI[]): CachedPOI[] {
+  const timeOrder = ['morning', 'afternoon', 'evening', 'night', 'any'];
+  return [...pois].sort((a, b) => {
+    const aTime = a.bestTimeOfDay || 'any';
+    const bTime = b.bestTimeOfDay || 'any';
+    return timeOrder.indexOf(aTime) - timeOrder.indexOf(bTime);
+  });
+}
+
+// Day themes based on path choice
+const PATH_DAY_THEMES: Record<SimplePathChoice, string[]> = {
+  classic: [
+    'Arrival & Iconic Landmarks',
+    'Must-See Monuments',
+    'Historic Treasures',
+    'Cultural Highlights',
+    'Farewell Tour',
+    'Hidden Classics',
+    'Panoramic Views',
+  ],
+  trendy: [
+    'Neighborhood Discovery',
+    'Local Foodie Trail',
+    'Hidden Gems & Street Art',
+    'Coffee & Creative Spaces',
+    'Off the Beaten Path',
+    'Sunset Spots & Nightlife',
+    'Markets & Local Life',
+  ],
+  foodie: [
+    'Culinary Welcome',
+    'Market Adventures',
+    'Local Favorites',
+    'Fine Dining & Wine',
+    'Street Food Safari',
+    'Sweet Treats & Coffee',
+    'Farewell Feast',
+  ],
+  adventure: [
+    'Arrival & Orientation',
+    'Outdoor Exploration',
+    'Active Adventures',
+    'Nature & Views',
+    'Adrenaline Day',
+    'Scenic Routes',
+    'Final Adventure',
+  ],
+  cultural: [
+    'Museum Morning',
+    'Art & Architecture',
+    'Historic Sites',
+    'Gallery Hopping',
+    'Cultural Deep Dive',
+    'Living History',
+    'Artistic Farewell',
+  ],
+  relaxation: [
+    'Peaceful Arrival',
+    'Garden & Parks',
+    'Spa & Wellness',
+    'Scenic Strolls',
+    'Quiet Corners',
+    'Nature Retreat',
+    'Serene Goodbye',
+  ],
+  nightlife: [
+    'Evening Arrival',
+    'Bar Hopping',
+    'Live Music Night',
+    'Rooftop Views',
+    'Club Scene',
+    'Late Night Eats',
+    'Final Night Out',
+  ],
+};
+
+/**
+ * Generate an itinerary from real Google Places POI data
+ * This is the main function to use when we have cached POI data
+ */
+export function generateItineraryFromCache(
+  cache: DestinationPOICache,
+  numDays: number,
+  pathChoice: SimplePathChoice,
+  stopsPerDay: number = 4
+): ItineraryDay[] {
+  const totalStops = numDays * stopsPerDay;
+
+  // Get balanced selection of POIs
+  let selectedPOIs = getBalancedPOISelection(cache, pathChoice, totalStops);
+
+  const days: ItineraryDay[] = [];
+  const themes = PATH_DAY_THEMES[pathChoice] || PATH_DAY_THEMES.classic;
+
+  for (let day = 1; day <= numDays; day++) {
+    const startIdx = (day - 1) * stopsPerDay;
+    const endIdx = Math.min(startIdx + stopsPerDay, selectedPOIs.length);
+    let dayPOIs = selectedPOIs.slice(startIdx, endIdx);
+
+    // If we run out of POIs, cycle back
+    if (dayPOIs.length === 0 && selectedPOIs.length > 0) {
+      const cycleIdx = (day - 1) % selectedPOIs.length;
+      dayPOIs = [selectedPOIs[cycleIdx]];
+    }
+
+    // Organize by time of day within the day
+    dayPOIs = organizeByTimeOfDay(dayPOIs);
+
+    const stops: ItineraryStop[] = dayPOIs.map((poi, idx) =>
+      poiToItineraryStop(poi, day, idx)
+    );
+
+    days.push({
+      day,
+      title: themes[(day - 1) % themes.length],
+      stops,
+    });
+  }
+
+  return days;
+}
+
+/**
+ * Generate itinerary - automatically uses cached POI data if available
+ * Falls back to hardcoded data for destinations without cache
+ */
+export async function generateItineraryAuto(
+  trip: FlashTripPackage,
+  pathChoice: SimplePathChoice
+): Promise<ItineraryDay[]> {
+  const cityKey = trip.destination.city.toLowerCase().replace(/\s+/g, '-');
+
+  // Try to load cached POI data
+  try {
+    const cacheModule = await import(`@/data/pois/${cityKey}.json`);
+    const cache = cacheModule.default as DestinationPOICache;
+
+    if (cache && cache.totalPOIs > 0) {
+      console.log(`Using cached POI data for ${cityKey} (${cache.totalPOIs} POIs)`);
+      return generateItineraryFromCache(cache, trip.itinerary.days, pathChoice);
+    }
+  } catch (error) {
+    console.log(`No cached POI data for ${cityKey}, using fallback`);
+  }
+
+  // Fall back to hardcoded data
+  if (pathChoice === 'trendy' || pathChoice === 'nightlife') {
+    return generateTrendyItinerary(trip);
+  }
+  return generateSampleItinerary(trip);
+}
+
+// List of destinations with real POI data
+export const DESTINATIONS_WITH_POI_DATA = [
+  'paris', 'rome', 'milan', 'dubrovnik', 'lisbon',
+  'barcelona', 'madrid', 'amsterdam', 'vienna', 'munich',
+  'prague', 'budapest', 'florence', 'venice', 'athens'
+];
+
+export function hasRealPOIData(destinationId: string): boolean {
+  return DESTINATIONS_WITH_POI_DATA.includes(destinationId.toLowerCase().replace(/\s+/g, '-'));
 }

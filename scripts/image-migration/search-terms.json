@@ -1,0 +1,4922 @@
+{
+  "paris": {
+    "city": "Paris",
+    "country": "France",
+    "terms": [
+      "Paris Eiffel Tower sunset",
+      "Paris Louvre pyramid",
+      "Montmartre Sacre Coeur",
+      "Seine River bridges Paris",
+      "Parisian cafe terrace",
+      "Champs Elysees Arc de Triomphe"
+    ]
+  },
+  "rome": {
+    "city": "Rome",
+    "country": "Italy",
+    "terms": [
+      "Rome Colosseum amphitheater",
+      "Vatican St Peters Basilica",
+      "Rome Trevi Fountain",
+      "Pantheon Rome columns",
+      "Roman Forum ruins",
+      "Spanish Steps Rome"
+    ]
+  },
+  "barcelona": {
+    "city": "Barcelona",
+    "country": "Spain",
+    "terms": [
+      "Barcelona Sagrada Familia",
+      "Barceloneta Beach coastline",
+      "Gothic Quarter Barcelona",
+      "Park Guell mosaic",
+      "Las Ramblas Barcelona",
+      "Casa Batllo facade"
+    ]
+  },
+  "amsterdam": {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "terms": [
+      "Amsterdam canals houseboats",
+      "Amsterdam tulip market",
+      "Amsterdam bicycles canal",
+      "Vondelpark Amsterdam",
+      "Amsterdam red brick buildings",
+      "Rijksmuseum Amsterdam"
+    ]
+  },
+  "lisbon": {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "terms": [
+      "Lisbon Tram 28 yellow",
+      "Alfama district Lisbon",
+      "Belem Tower Lisbon",
+      "Lisbon azulejo tiles",
+      "Miradouro viewpoint Lisbon",
+      "Pasteis de Belem"
+    ]
+  },
+  "london": {
+    "city": "London",
+    "country": "United Kingdom",
+    "terms": [
+      "Big Ben Westminster London",
+      "Tower Bridge London",
+      "London red telephone booth",
+      "Buckingham Palace London",
+      "Camden Market London",
+      "St Pauls Cathedral London"
+    ]
+  },
+  "santorini": {
+    "city": "Santorini",
+    "country": "Greece",
+    "terms": [
+      "Santorini Oia sunset",
+      "Santorini blue dome church",
+      "Santorini caldera cliff",
+      "Fira Santorini whitewashed",
+      "Santorini windmill",
+      "Santorini volcanic beach"
+    ]
+  },
+  "prague": {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "terms": [
+      "Prague Charles Bridge",
+      "Prague Castle spires",
+      "Old Town Square Prague",
+      "Prague Astronomical Clock",
+      "Prague red rooftops",
+      "St Vitus Cathedral Prague"
+    ]
+  },
+  "dubrovnik": {
+    "city": "Dubrovnik",
+    "country": "Croatia",
+    "terms": [
+      "Dubrovnik city walls",
+      "Dubrovnik Old Town",
+      "Dubrovnik cable car view",
+      "Stradun street Dubrovnik",
+      "Fort Lovrijenac Dubrovnik",
+      "Dubrovnik orange rooftops"
+    ]
+  },
+  "reykjavik": {
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "terms": [
+      "Hallgrimskirkja church Reykjavik",
+      "Reykjavik harbor colorful",
+      "Blue Lagoon Iceland",
+      "Northern Lights Iceland",
+      "Harpa concert hall Reykjavik",
+      "Iceland geysir eruption"
+    ]
+  },
+  "vienna": {
+    "city": "Vienna",
+    "country": "Austria",
+    "terms": [
+      "Schonbrunn Palace Vienna",
+      "Vienna State Opera",
+      "Vienna coffee house",
+      "Belvedere Palace Vienna",
+      "St Stephens Cathedral Vienna",
+      "Vienna Christmas market"
+    ]
+  },
+  "swiss-alps": {
+    "city": "Interlaken",
+    "country": "Switzerland",
+    "terms": [
+      "Jungfrau mountain peak",
+      "Interlaken paragliding",
+      "Swiss Alps village",
+      "Matterhorn Switzerland",
+      "Swiss mountain railway",
+      "Lake Brienz Interlaken"
+    ]
+  },
+  "amalfi": {
+    "city": "Amalfi Coast",
+    "country": "Italy",
+    "terms": [
+      "Positano cliffside houses",
+      "Amalfi Coast lemon grove",
+      "Ravello gardens villa",
+      "Amalfi Cathedral steps",
+      "Capri Blue Grotto",
+      "Amalfi Coast coastal road"
+    ]
+  },
+  "florence": {
+    "city": "Florence",
+    "country": "Italy",
+    "terms": [
+      "Florence Duomo dome",
+      "Ponte Vecchio Florence",
+      "Uffizi Gallery Florence",
+      "Piazzale Michelangelo view",
+      "Florence Palazzo Pitti",
+      "Santa Croce Florence"
+    ]
+  },
+  "venice": {
+    "city": "Venice",
+    "country": "Italy",
+    "terms": [
+      "Venice Grand Canal gondola",
+      "St Marks Square Venice",
+      "Doge Palace Venice",
+      "Rialto Bridge Venice",
+      "Venice carnival masks",
+      "Murano glass Venice"
+    ]
+  },
+  "milan": {
+    "city": "Milan",
+    "country": "Italy",
+    "terms": [
+      "Milan Cathedral Duomo",
+      "La Scala opera Milan",
+      "Galleria Vittorio Emanuele Milan",
+      "Milan fashion district",
+      "Navigli canals Milan",
+      "Castello Sforzesco Milan"
+    ]
+  },
+  "madrid": {
+    "city": "Madrid",
+    "country": "Spain",
+    "terms": [
+      "Prado Museum Madrid",
+      "Retiro Park Madrid",
+      "Plaza Mayor Madrid",
+      "Puerta del Sol Madrid",
+      "Royal Palace Madrid",
+      "Gran Via Madrid"
+    ]
+  },
+  "seville": {
+    "city": "Seville",
+    "country": "Spain",
+    "terms": [
+      "Seville Cathedral Giralda",
+      "Alcazar Seville gardens",
+      "Plaza de Espana Seville",
+      "Seville flamenco dancer",
+      "Barrio Santa Cruz Seville",
+      "Metropol Parasol Seville"
+    ]
+  },
+  "munich": {
+    "city": "Munich",
+    "country": "Germany",
+    "terms": [
+      "Marienplatz Munich glockenspiel",
+      "Munich beer garden",
+      "Neuschwanstein Castle Munich",
+      "Munich Oktoberfest",
+      "English Garden Munich",
+      "BMW Welt Munich"
+    ]
+  },
+  "berlin": {
+    "city": "Berlin",
+    "country": "Germany",
+    "terms": [
+      "Brandenburg Gate Berlin",
+      "Berlin Wall graffiti",
+      "Museum Island Berlin",
+      "Berlin TV Tower",
+      "Reichstag building Berlin",
+      "East Side Gallery Berlin"
+    ]
+  },
+  "brussels": {
+    "city": "Brussels",
+    "country": "Belgium",
+    "terms": [
+      "Grand Place Brussels",
+      "Atomium Brussels",
+      "Brussels chocolate shop",
+      "Manneken Pis Brussels",
+      "Brussels waffle street",
+      "Royal Galleries Brussels"
+    ]
+  },
+  "copenhagen": {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "terms": [
+      "Nyhavn Copenhagen colorful",
+      "Little Mermaid Copenhagen",
+      "Tivoli Gardens Copenhagen",
+      "Christiansborg Palace Copenhagen",
+      "Copenhagen harbor bath",
+      "Round Tower Copenhagen"
+    ]
+  },
+  "stockholm": {
+    "city": "Stockholm",
+    "country": "Sweden",
+    "terms": [
+      "Gamla Stan Stockholm",
+      "Stockholm City Hall",
+      "Vasa Museum Stockholm",
+      "Stockholm archipelago",
+      "Royal Palace Stockholm",
+      "Stockholm subway art"
+    ]
+  },
+  "oslo": {
+    "city": "Oslo",
+    "country": "Norway",
+    "terms": [
+      "Oslo Opera House",
+      "Vigeland Park sculptures",
+      "Oslo fjord view",
+      "Akershus Fortress Oslo",
+      "Oslo Viking Ship Museum",
+      "Holmenkollen ski jump Oslo"
+    ]
+  },
+  "helsinki": {
+    "city": "Helsinki",
+    "country": "Finland",
+    "terms": [
+      "Helsinki Cathedral white",
+      "Suomenlinna fortress Helsinki",
+      "Market Square Helsinki",
+      "Temppeliaukio Church Helsinki",
+      "Helsinki harbor wheel",
+      "Uspenski Cathedral Helsinki"
+    ]
+  },
+  "edinburgh": {
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "terms": [
+      "Edinburgh Castle skyline",
+      "Royal Mile cobblestones",
+      "Arthur's Seat panorama Edinburgh",
+      "Princes Street Edinburgh",
+      "Edinburgh Old Town architecture",
+      "Calton Hill Edinburgh monuments"
+    ]
+  },
+  "dublin": {
+    "city": "Dublin",
+    "country": "Ireland",
+    "terms": [
+      "Temple Bar Dublin colorful facades",
+      "Trinity College Dublin library",
+      "Guinness Storehouse Dublin",
+      "Dublin Ha'penny Bridge",
+      "St. Patrick's Cathedral Dublin",
+      "Grafton Street Dublin"
+    ]
+  },
+  "budapest": {
+    "city": "Budapest",
+    "country": "Hungary",
+    "terms": [
+      "Budapest Parliament Danube view",
+      "Szechenyi Thermal Baths Budapest",
+      "Chain Bridge Budapest night",
+      "Fisherman's Bastion Budapest",
+      "Budapest ruin bars",
+      "Buda Castle Budapest"
+    ]
+  },
+  "krakow": {
+    "city": "Krakow",
+    "country": "Poland",
+    "terms": [
+      "Wawel Castle Krakow",
+      "Main Market Square Krakow",
+      "Kazimierz Jewish Quarter Krakow",
+      "St. Mary's Basilica Krakow",
+      "Cloth Hall Krakow",
+      "Krakow Old Town square"
+    ]
+  },
+  "athens": {
+    "city": "Athens",
+    "country": "Greece",
+    "terms": [
+      "Acropolis Parthenon Athens",
+      "Plaka neighborhood Athens",
+      "Ancient Agora Athens",
+      "Monastiraki flea market Athens",
+      "Mount Lycabettus Athens view",
+      "Temple of Olympian Zeus Athens"
+    ]
+  },
+  "mykonos": {
+    "city": "Mykonos",
+    "country": "Greece",
+    "terms": [
+      "Mykonos windmills sunset",
+      "Little Venice Mykonos",
+      "Mykonos white houses blue doors",
+      "Paradise Beach Mykonos",
+      "Mykonos Town harbor",
+      "Panagia Paraportiani Mykonos"
+    ]
+  },
+  "crete": {
+    "city": "Heraklion",
+    "country": "Greece",
+    "terms": [
+      "Knossos Palace Crete",
+      "Balos Lagoon Crete",
+      "Samaria Gorge Crete",
+      "Chania harbor Crete",
+      "Elafonisi Beach Crete",
+      "Heraklion fortress Crete"
+    ]
+  },
+  "porto": {
+    "city": "Porto",
+    "country": "Portugal",
+    "terms": [
+      "Ribeira colorful houses Porto",
+      "Livraria Lello bookstore Porto",
+      "Dom Luis Bridge Porto",
+      "Porto wine cellars",
+      "Clerigos Tower Porto",
+      "Sao Bento Station tiles Porto"
+    ]
+  },
+  "nice": {
+    "city": "Nice",
+    "country": "France",
+    "terms": [
+      "Promenade des Anglais Nice",
+      "Nice Old Town market",
+      "Castle Hill Nice view",
+      "Nice beach Mediterranean",
+      "Villa Ephrussi Nice",
+      "Place Massena Nice"
+    ]
+  },
+  "lyon": {
+    "city": "Lyon",
+    "country": "France",
+    "terms": [
+      "Basilique Notre-Dame Lyon",
+      "Vieux Lyon Renaissance",
+      "Presqu'ile Lyon architecture",
+      "Lyon traboules passages",
+      "Place Bellecour Lyon",
+      "Confluence Museum Lyon"
+    ]
+  },
+  "zurich": {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "terms": [
+      "Lake Zurich mountains",
+      "Zurich Old Town Limmat",
+      "Grossmunster Zurich towers",
+      "Zurich Bahnhofstrasse",
+      "Uetliberg Zurich panorama",
+      "Fraumunster Chagall windows Zurich"
+    ]
+  },
+  "geneva": {
+    "city": "Geneva",
+    "country": "Switzerland",
+    "terms": [
+      "Jet d'Eau Geneva fountain",
+      "Lake Geneva Alps view",
+      "Geneva Old Town cathedral",
+      "Flower Clock Geneva",
+      "Mont Blanc bridge Geneva",
+      "United Nations Geneva"
+    ]
+  },
+  "split": {
+    "city": "Split",
+    "country": "Croatia",
+    "terms": [
+      "Diocletian's Palace Split",
+      "Split Riva waterfront",
+      "Marjan Hill Split view",
+      "Split beaches Adriatic",
+      "Peristyle Split columns",
+      "Split harbor islands"
+    ]
+  },
+  "tallinn": {
+    "city": "Tallinn",
+    "country": "Estonia",
+    "terms": [
+      "Tallinn Old Town medieval",
+      "Toompea Castle Tallinn",
+      "Town Hall Square Tallinn",
+      "Tallinn city walls towers",
+      "Alexander Nevsky Cathedral Tallinn",
+      "Tallinn harbor Baltic"
+    ]
+  },
+  "riga": {
+    "city": "Riga",
+    "country": "Latvia",
+    "terms": [
+      "Riga Old Town square",
+      "Art Nouveau buildings Riga",
+      "Riga Central Market",
+      "House of Blackheads Riga",
+      "Daugava River Riga",
+      "St. Peter's Church Riga spire"
+    ]
+  },
+  "malta": {
+    "city": "Valletta",
+    "country": "Malta",
+    "terms": [
+      "Valletta Grand Harbor",
+      "Blue Lagoon Comino Malta",
+      "Mdina silent city Malta",
+      "Upper Barrakka Gardens Valletta",
+      "Hagar Qim temples Malta",
+      "Marsaxlokk fishing boats Malta"
+    ]
+  },
+  "corsica": {
+    "city": "Ajaccio",
+    "country": "France",
+    "terms": [
+      "Bonifacio cliffs Corsica",
+      "Scandola Reserve Corsica",
+      "Ajaccio harbor Corsica",
+      "Calanques Piana Corsica",
+      "Bastia old port Corsica",
+      "Corsica mountain villages"
+    ]
+  },
+  "sardinia": {
+    "city": "Cagliari",
+    "country": "Italy",
+    "terms": [
+      "Costa Smeralda beaches Sardinia",
+      "Cagliari Castello district",
+      "La Pelosa beach Sardinia",
+      "Alghero old town Sardinia",
+      "Nuraghe towers Sardinia",
+      "Cala Goloritzé Sardinia"
+    ]
+  },
+  "ibiza": {
+    "city": "Ibiza",
+    "country": "Spain",
+    "terms": [
+      "Ibiza Old Town Dalt Vila",
+      "Es Vedra sunset Ibiza",
+      "Cala Comte beach Ibiza",
+      "Ibiza port marina",
+      "San Antonio sunset Ibiza",
+      "Formentera beaches Ibiza"
+    ]
+  },
+  "sicily": {
+    "city": "Palermo",
+    "country": "Italy",
+    "terms": [
+      "Mount Etna volcano Sicily",
+      "Valley of Temples Agrigento Sicily",
+      "Taormina Greek theater Sicily",
+      "Palermo cathedral Sicily",
+      "Cefalù cathedral beach Sicily",
+      "Scala dei Turchi Sicily cliffs"
+    ]
+  },
+  "canary-islands": {
+    "city": "Tenerife",
+    "country": "Spain",
+    "terms": [
+      "Mount Teide volcano Tenerife",
+      "Los Gigantes cliffs Tenerife",
+      "La Laguna Tenerife colonial",
+      "Anaga mountains Tenerife",
+      "Playa de las Americas Tenerife",
+      "Masca village Tenerife"
+    ]
+  },
+  "scottish-highlands": {
+    "city": "Inverness",
+    "country": "United Kingdom",
+    "terms": [
+      "Loch Ness castle Scotland",
+      "Glen Coe mountains Scotland",
+      "Eilean Donan Castle Highlands",
+      "Isle of Skye cliffs Scotland",
+      "Ben Nevis Highlands Scotland",
+      "Inverness River Ness"
+    ]
+  },
+  "lapland": {
+    "city": "Rovaniemi",
+    "country": "Finland",
+    "terms": [
+      "Northern Lights Lapland",
+      "Rovaniemi Santa Claus Village",
+      "Lapland reindeer snow",
+      "Arctic Circle Lapland",
+      "Lapland husky sledding",
+      "Lapland winter forest"
+    ]
+  },
+  "cinque-terre": {
+    "city": "La Spezia",
+    "country": "Italy",
+    "terms": [
+      "Vernazza harbor Cinque Terre",
+      "Manarola vineyard terraces",
+      "Monterosso beach Cinque Terre",
+      "Riomaggiore colorful houses",
+      "Corniglia clifftop village",
+      "Cinque Terre coastal trail"
+    ]
+  },
+  "marseille": {
+    "city": "Marseille",
+    "country": "France",
+    "terms": [
+      "Vieux-Port Marseille boats",
+      "Notre-Dame de la Garde Marseille",
+      "Calanques Marseille turquoise",
+      "Le Panier district Marseille",
+      "Château d'If Marseille",
+      "MuCEM museum Marseille"
+    ]
+  },
+  "bordeaux": {
+    "city": "Bordeaux",
+    "country": "France",
+    "terms": [
+      "Bordeaux Place de la Bourse reflection",
+      "Bordeaux vineyard châteaux",
+      "Bordeaux Cité du Vin museum",
+      "Saint-Émilion medieval village Bordeaux",
+      "Bordeaux stone architecture Place des Quinconces",
+      "Bordeaux tram modern city"
+    ]
+  },
+  "strasbourg": {
+    "city": "Strasbourg",
+    "country": "France",
+    "terms": [
+      "Strasbourg Petite France canals",
+      "Strasbourg Cathedral Notre-Dame",
+      "Strasbourg Christmas market lights",
+      "Strasbourg half-timbered houses",
+      "Strasbourg European Parliament",
+      "Strasbourg Barrage Vauban towers"
+    ]
+  },
+  "toulouse": {
+    "city": "Toulouse",
+    "country": "France",
+    "terms": [
+      "Toulouse pink brick buildings",
+      "Toulouse Capitole square",
+      "Toulouse Basilique Saint-Sernin",
+      "Toulouse Garonne river banks",
+      "Toulouse Cité de l'espace",
+      "Toulouse Place du Capitole facade"
+    ]
+  },
+  "monaco": {
+    "city": "Monaco",
+    "country": "Monaco",
+    "terms": [
+      "Monaco Monte Carlo Casino",
+      "Monaco yacht harbor Port Hercules",
+      "Monaco Grand Prix circuit",
+      "Monaco Oceanographic Museum",
+      "Monaco Prince's Palace",
+      "Monaco Monte Carlo skyline"
+    ]
+  },
+  "bruges": {
+    "city": "Bruges",
+    "country": "Belgium",
+    "terms": [
+      "Bruges medieval canals boats",
+      "Bruges Belfry tower market square",
+      "Bruges Markt square colorful houses",
+      "Bruges Rozenhoedkaai canal view",
+      "Bruges Church of Our Lady",
+      "Bruges cobblestone streets morning"
+    ]
+  },
+  "ghent": {
+    "city": "Ghent",
+    "country": "Belgium",
+    "terms": [
+      "Ghent Gravensteen Castle",
+      "Ghent Graslei canal medieval",
+      "Ghent Saint Bavo Cathedral",
+      "Ghent Ghent Altarpiece",
+      "Ghent Korenlei waterfront",
+      "Ghent Saint Nicholas Church"
+    ]
+  },
+  "antwerp": {
+    "city": "Antwerp",
+    "country": "Belgium",
+    "terms": [
+      "Antwerp Central Station architecture",
+      "Antwerp Cathedral Our Lady",
+      "Antwerp Rubens House museum",
+      "Antwerp Grote Markt guild houses",
+      "Antwerp diamond district shops",
+      "Antwerp Scheldt river port"
+    ]
+  },
+  "rotterdam": {
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "terms": [
+      "Rotterdam Cube Houses Kubuswoningen",
+      "Rotterdam Markthal colorful ceiling",
+      "Rotterdam Erasmus Bridge",
+      "Rotterdam modern skyline",
+      "Rotterdam Euromast tower",
+      "Rotterdam Kinderdijk windmills"
+    ]
+  },
+  "the-hague": {
+    "city": "The Hague",
+    "country": "Netherlands",
+    "terms": [
+      "The Hague Mauritshuis museum",
+      "The Hague Peace Palace",
+      "The Hague Binnenhof parliament",
+      "The Hague Scheveningen beach pier",
+      "The Hague Noordeinde Palace",
+      "The Hague Escher Museum"
+    ]
+  },
+  "frankfurt": {
+    "city": "Frankfurt",
+    "country": "Germany",
+    "terms": [
+      "Frankfurt Römerberg medieval square",
+      "Frankfurt Main Tower skyline",
+      "Frankfurt skyscrapers financial district",
+      "Frankfurt Cathedral Saint Bartholomew",
+      "Frankfurt Main river bridges",
+      "Frankfurt Museum Embankment"
+    ]
+  },
+  "hamburg": {
+    "city": "Hamburg",
+    "country": "Germany",
+    "terms": [
+      "Hamburg Speicherstadt warehouses",
+      "Hamburg Elbphilharmonie concert hall",
+      "Hamburg harbor port cranes",
+      "Hamburg Reeperbahn neon lights",
+      "Hamburg Alster lake swans",
+      "Hamburg Town Hall Rathaus"
+    ]
+  },
+  "cologne": {
+    "city": "Cologne",
+    "country": "Germany",
+    "terms": [
+      "Cologne Cathedral twin spires",
+      "Cologne Rhine river cathedral",
+      "Cologne Old Town colorful houses",
+      "Cologne Hohenzollern Bridge locks",
+      "Cologne Museum Ludwig",
+      "Cologne Christmas market cathedral"
+    ]
+  },
+  "dusseldorf": {
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "terms": [
+      "Düsseldorf Altstadt Rhine",
+      "Düsseldorf Media Harbor architecture",
+      "Düsseldorf Rhine Tower",
+      "Düsseldorf Königsallee shopping",
+      "Düsseldorf Japanese Garden",
+      "Düsseldorf Gehry buildings"
+    ]
+  },
+  "dresden": {
+    "city": "Dresden",
+    "country": "Germany",
+    "terms": [
+      "Dresden Frauenkirche baroque",
+      "Dresden Zwinger Palace courtyard",
+      "Dresden Semper Opera House",
+      "Dresden Elbe river terrace",
+      "Dresden Augustus Bridge",
+      "Dresden Old Masters Gallery"
+    ]
+  },
+  "leipzig": {
+    "city": "Leipzig",
+    "country": "Germany",
+    "terms": [
+      "Leipzig Nikolaikirche church",
+      "Leipzig Bach Museum",
+      "Leipzig Market Square",
+      "Leipzig Monument to the Battle",
+      "Leipzig Spinnerei art galleries",
+      "Leipzig New Town Hall"
+    ]
+  },
+  "nuremberg": {
+    "city": "Nuremberg",
+    "country": "Germany",
+    "terms": [
+      "Nuremberg Imperial Castle Kaiserburg",
+      "Nuremberg Old Town medieval",
+      "Nuremberg Christmas market Hauptmarkt",
+      "Nuremberg Beautiful Fountain",
+      "Nuremberg St. Lorenz Church",
+      "Nuremberg city walls towers"
+    ]
+  },
+  "salzburg": {
+    "city": "Salzburg",
+    "country": "Austria",
+    "terms": [
+      "Salzburg Hohensalzburg Fortress",
+      "Salzburg Mozart birthplace",
+      "Salzburg Old Town UNESCO",
+      "Salzburg Mirabell Gardens",
+      "Salzburg Cathedral dome",
+      "Salzburg Salzach river Alps"
+    ]
+  },
+  "innsbruck": {
+    "city": "Innsbruck",
+    "country": "Austria",
+    "terms": [
+      "Innsbruck Golden Roof Goldenes Dachl",
+      "Innsbruck Nordkette mountains cable car",
+      "Innsbruck Tyrol Alps backdrop",
+      "Innsbruck Old Town colorful houses",
+      "Innsbruck Ambras Castle",
+      "Innsbruck ski jump Bergisel"
+    ]
+  },
+  "graz": {
+    "city": "Graz",
+    "country": "Austria",
+    "terms": [
+      "Graz Schlossberg clock tower",
+      "Graz Kunsthaus modern architecture",
+      "Graz Old Town red roofs",
+      "Graz Murinsel island",
+      "Graz Eggenberg Palace",
+      "Graz Herrengasse main square"
+    ]
+  },
+  "lucerne": {
+    "city": "Lucerne",
+    "country": "Switzerland",
+    "terms": [
+      "Lucerne Chapel Bridge Kapellbrücke",
+      "Lucerne Lake Lucerne mountains",
+      "Lucerne Mount Pilatus",
+      "Lucerne Water Tower medieval",
+      "Lucerne Old Town Swiss Alps",
+      "Lucerne Lion Monument"
+    ]
+  },
+  "basel": {
+    "city": "Basel",
+    "country": "Switzerland",
+    "terms": [
+      "Basel Rhine river cathedral",
+      "Basel Kunstmuseum art museum",
+      "Basel Old Town Marktplatz",
+      "Basel Mittlere Brücke bridge",
+      "Basel Cathedral red sandstone",
+      "Basel Tinguely Fountain"
+    ]
+  },
+  "zermatt": {
+    "city": "Zermatt",
+    "country": "Switzerland",
+    "terms": [
+      "Zermatt Matterhorn peak",
+      "Zermatt Gornergrat railway",
+      "Zermatt village Alps",
+      "Zermatt ski slopes Matterhorn",
+      "Zermatt Stellisee lake reflection",
+      "Zermatt church Matterhorn view"
+    ]
+  },
+  "valencia": {
+    "city": "Valencia",
+    "country": "Spain",
+    "terms": [
+      "Valencia City of Arts Sciences",
+      "Valencia Central Market Mercado Central",
+      "Valencia Cathedral Holy Grail",
+      "Valencia Oceanografic aquarium",
+      "Valencia La Lonja UNESCO",
+      "Valencia Malvarosa beach"
+    ]
+  },
+  "granada": {
+    "city": "Granada",
+    "country": "Spain",
+    "terms": [
+      "Granada Alhambra palace",
+      "Granada Albaicín white houses",
+      "Granada Sierra Nevada mountains",
+      "Granada Generalife gardens",
+      "Granada Cathedral Renaissance",
+      "Granada Mirador San Nicolas view"
+    ]
+  },
+  "bilbao": {
+    "city": "Bilbao",
+    "country": "Spain",
+    "terms": [
+      "Bilbao Guggenheim Museum titanium",
+      "Bilbao Old Town Casco Viejo",
+      "Bilbao Nervión river estuary",
+      "Bilbao La Salve Bridge",
+      "Bilbao Santiago Cathedral",
+      "Bilbao pintxos bars street"
+    ]
+  },
+  "san-sebastian": {
+    "city": "San Sebastián",
+    "country": "Spain",
+    "terms": [
+      "San Sebastian La Concha beach",
+      "San Sebastian pintxos bars",
+      "San Sebastian old town Donostia",
+      "San Sebastian Monte Urgull",
+      "San Sebastian Kursaal cubes",
+      "San Sebastian Zurriola beach"
+    ]
+  },
+  "malaga": {
+    "city": "Málaga",
+    "country": "Spain",
+    "terms": [
+      "Malaga Alcazaba fortress",
+      "Malaga cathedral plaza",
+      "Malaga Picasso museum",
+      "Malaga Gibralfaro castle",
+      "Malaga Muelle Uno port",
+      "Malaga Playa de la Malagueta"
+    ]
+  },
+  "majorca": {
+    "city": "Palma de Mallorca",
+    "country": "Spain",
+    "terms": [
+      "Palma de Mallorca cathedral",
+      "Serra de Tramuntana mountains",
+      "Mallorca Cala Mondragó beach",
+      "Palma old town courtyards",
+      "Mallorca Es Vedra sunset",
+      "Palma marina port"
+    ]
+  },
+  "menorca": {
+    "city": "Mahón",
+    "country": "Spain",
+    "terms": [
+      "Menorca Cala Macarella beach",
+      "Mahon harbor Menorca",
+      "Menorca Naveta des Tudons",
+      "Menorca Cala Turqueta",
+      "Monte Toro Menorca",
+      "Ciutadella Menorca cathedral"
+    ]
+  },
+  "corfu": {
+    "city": "Corfu",
+    "country": "Greece",
+    "terms": [
+      "Corfu old town venetian",
+      "Paleokastritsa beach Corfu",
+      "Corfu Spianada square",
+      "Corfu Achilleion palace",
+      "Corfu Pontikonisi island",
+      "Corfu fortress walls"
+    ]
+  },
+  "rhodes": {
+    "city": "Rhodes",
+    "country": "Greece",
+    "terms": [
+      "Rhodes medieval old town",
+      "Lindos acropolis Rhodes",
+      "Rhodes Palace Grand Masters",
+      "Rhodes Colossus harbor",
+      "Anthony Quinn bay Rhodes",
+      "Rhodes Street of Knights"
+    ]
+  },
+  "thessaloniki": {
+    "city": "Thessaloniki",
+    "country": "Greece",
+    "terms": [
+      "Thessaloniki White Tower",
+      "Thessaloniki Rotunda church",
+      "Thessaloniki waterfront promenade",
+      "Thessaloniki Ano Poli",
+      "Thessaloniki Aristotelous square",
+      "Thessaloniki Hagia Sophia"
+    ]
+  },
+  "zakynthos": {
+    "city": "Zakynthos",
+    "country": "Greece",
+    "terms": [
+      "Navagio beach shipwreck Zakynthos",
+      "Zakynthos Blue Caves",
+      "Zakynthos town venetian",
+      "Porto Limnionas Zakynthos",
+      "Gerakas beach turtles Zakynthos",
+      "Zakynthos cliffs viewpoint"
+    ]
+  },
+  "paros": {
+    "city": "Paros",
+    "country": "Greece",
+    "terms": [
+      "Naoussa harbor Paros",
+      "Paros Golden beach",
+      "Parikia windmill Paros",
+      "Paros whitewashed villages",
+      "Antiparos cave",
+      "Paros Panagia Ekatontapiliani"
+    ]
+  },
+  "warsaw": {
+    "city": "Warsaw",
+    "country": "Poland",
+    "terms": [
+      "Warsaw old town square",
+      "Warsaw Royal Castle",
+      "Warsaw Palace Culture Science",
+      "Warsaw POLIN Museum",
+      "Warsaw Lazienki Palace",
+      "Warsaw uprising monument"
+    ]
+  },
+  "gdansk": {
+    "city": "Gdańsk",
+    "country": "Poland",
+    "terms": [
+      "Gdansk Long Market",
+      "Gdansk Neptune fountain",
+      "Gdansk crane harbor",
+      "Gdansk St Mary church",
+      "Gdansk Motlawa river",
+      "Gdansk European Centre"
+    ]
+  },
+  "wroclaw": {
+    "city": "Wrocław",
+    "country": "Poland",
+    "terms": [
+      "Wroclaw market square",
+      "Wroclaw dwarf statues",
+      "Wroclaw cathedral island",
+      "Wroclaw Centennial Hall",
+      "Wroclaw town hall",
+      "Wroclaw Tumski bridge"
+    ]
+  },
+  "vilnius": {
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "terms": [
+      "Vilnius old town",
+      "Gediminas Tower Vilnius",
+      "Vilnius cathedral square",
+      "Uzupis republic Vilnius",
+      "Vilnius St Anne church",
+      "Vilnius Three Crosses"
+    ]
+  },
+  "ljubljana": {
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "terms": [
+      "Ljubljana Dragon Bridge",
+      "Ljubljana castle hill",
+      "Ljubljana Tivoli Park",
+      "Ljubljana Preseren square",
+      "Ljubljana triple bridge",
+      "Ljubljana Central Market"
+    ]
+  },
+  "lake-bled": {
+    "city": "Bled",
+    "country": "Slovenia",
+    "terms": [
+      "Lake Bled island church",
+      "Bled castle cliff",
+      "Lake Bled sunrise",
+      "Vintgar Gorge Bled",
+      "Bled cream cake",
+      "Lake Bled rowing boats"
+    ]
+  },
+  "zagreb": {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "terms": [
+      "Zagreb cathedral spires",
+      "Zagreb St Mark church",
+      "Zagreb Dolac market",
+      "Zagreb funicular",
+      "Zagreb Stone Gate",
+      "Zagreb Ban Jelacic square"
+    ]
+  },
+  "bratislava": {
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "terms": [
+      "Bratislava castle Danube",
+      "Bratislava old town",
+      "Bratislava UFO bridge",
+      "Bratislava St Martin cathedral",
+      "Bratislava Cumil statue",
+      "Bratislava Michael Gate"
+    ]
+  },
+  "sofia": {
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "terms": [
+      "Sofia Alexander Nevsky cathedral",
+      "Sofia Vitosha mountain",
+      "Sofia St Sofia church",
+      "Sofia National Theatre",
+      "Rila Monastery Bulgaria",
+      "Sofia Roman ruins"
+    ]
+  },
+  "bucharest": {
+    "city": "Bucharest",
+    "country": "Romania",
+    "terms": [
+      "Bucharest Palace Parliament",
+      "Bucharest old town",
+      "Bucharest Herastrau Park",
+      "Bucharest Romanian Athenaeum",
+      "Bucharest Revolution Square",
+      "Bucharest Village Museum"
+    ]
+  },
+  "kotor": {
+    "city": "Kotor",
+    "country": "Montenegro",
+    "terms": [
+      "Kotor bay mountains",
+      "Kotor old town walls",
+      "Kotor fortress hike",
+      "Kotor St Tryphon cathedral",
+      "Kotor marina boats",
+      "Perast Kotor bay"
+    ]
+  },
+  "madeira": {
+    "city": "Funchal",
+    "country": "Portugal",
+    "terms": [
+      "Funchal Monte Palace",
+      "Madeira levada walks",
+      "Funchal cable car",
+      "Madeira Pico Ruivo",
+      "Funchal harbor",
+      "Madeira Laurisilva forest"
+    ]
+  },
+  "azores": {
+    "city": "Ponta Delgada",
+    "country": "Portugal",
+    "terms": [
+      "Sete Cidades crater lakes",
+      "Azores hot springs",
+      "Ponta Delgada marina",
+      "Azores volcanic landscape",
+      "Lagoa do Fogo Azores",
+      "Azores whale watching"
+    ]
+  },
+  "manchester": {
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "terms": [
+      "Manchester Town Hall",
+      "Manchester Northern Quarter",
+      "Manchester Old Trafford",
+      "Manchester Beetham Tower",
+      "Manchester Castlefield canals",
+      "Manchester John Rylands Library"
+    ]
+  },
+  "liverpool": {
+    "city": "Liverpool",
+    "country": "United Kingdom",
+    "terms": [
+      "Liverpool Albert Dock",
+      "Liverpool Cavern Club",
+      "Liverpool waterfront",
+      "Liverpool Anglican Cathedral",
+      "Liverpool Liver Building",
+      "Liverpool Matthew Street"
+    ]
+  },
+  "bath": {
+    "city": "Bath",
+    "country": "United Kingdom",
+    "terms": [
+      "Bath Roman Baths",
+      "Bath Royal Crescent",
+      "Bath Abbey church",
+      "Bath Pulteney Bridge",
+      "Bath Georgian architecture",
+      "Bath Circus buildings"
+    ]
+  },
+  "york": {
+    "city": "York",
+    "country": "United Kingdom",
+    "terms": [
+      "York Minster cathedral Gothic",
+      "Shambles medieval street York",
+      "York city walls ancient stone",
+      "Clifford's Tower York castle",
+      "River Ouse York bridges",
+      "York railway station Victorian"
+    ]
+  },
+  "cambridge": {
+    "city": "Cambridge",
+    "country": "United Kingdom",
+    "terms": [
+      "King's College Chapel Cambridge",
+      "Cambridge punting River Cam",
+      "Trinity College Cambridge courtyard",
+      "Cambridge university spires",
+      "Mathematical Bridge Cambridge",
+      "Fitzwilliam Museum Cambridge"
+    ]
+  },
+  "oxford": {
+    "city": "Oxford",
+    "country": "United Kingdom",
+    "terms": [
+      "Bodleian Library Oxford reading",
+      "Christ Church Oxford dining hall",
+      "Radcliffe Camera Oxford dome",
+      "Oxford university dreaming spires",
+      "Ashmolean Museum Oxford",
+      "Covered Market Oxford Victorian"
+    ]
+  },
+  "glasgow": {
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "terms": [
+      "Kelvingrove Museum Glasgow red",
+      "Glasgow Cathedral medieval stone",
+      "West End Glasgow tenements",
+      "Glasgow School of Art",
+      "River Clyde Glasgow bridges",
+      "Glasgow Victorian architecture"
+    ]
+  },
+  "belfast": {
+    "city": "Belfast",
+    "country": "United Kingdom",
+    "terms": [
+      "Titanic Belfast museum angular",
+      "Belfast Cathedral Quarter cobbles",
+      "Belfast peace walls murals",
+      "Belfast City Hall dome",
+      "Giant's Causeway Belfast tour",
+      "Belfast Harland Wolff cranes"
+    ]
+  },
+  "galway": {
+    "city": "Galway",
+    "country": "Ireland",
+    "terms": [
+      "Galway Latin Quarter colorful",
+      "Cliffs of Moher Galway day",
+      "Galway Bay sunset pier",
+      "Spanish Arch Galway stone",
+      "Galway street musicians traditional",
+      "Connemara Galway wild landscape"
+    ]
+  },
+  "cork": {
+    "city": "Cork",
+    "country": "Ireland",
+    "terms": [
+      "English Market Cork Victorian",
+      "Blarney Castle Cork tower",
+      "Cork City Hall limestone",
+      "Ring of Kerry Cork scenic",
+      "Cork Shandon Bells tower",
+      "Cork River Lee bridges"
+    ]
+  },
+  "gothenburg": {
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "terms": [
+      "Gothenburg archipelago islands",
+      "Liseberg Gothenburg amusement park",
+      "Gothenburg Fish Church market",
+      "Gothenburg tram blue white",
+      "Poseidon statue Gothenburg",
+      "Gothenburg Älvsborg Bridge"
+    ]
+  },
+  "malmö": {
+    "city": "Malmö",
+    "country": "Sweden",
+    "terms": [
+      "Turning Torso Malmö twisted",
+      "Malmö Old Town squares",
+      "Malmöhus Castle fortress",
+      "Öresund Bridge Malmö Copenhagen",
+      "Malmö modern waterfront",
+      "Sankt Petri Church Malmö"
+    ]
+  },
+  "bergen": {
+    "city": "Bergen",
+    "country": "Norway",
+    "terms": [
+      "Bryggen Bergen colorful wooden",
+      "Bergen fjords mountain views",
+      "Fløibanen Bergen funicular railway",
+      "Bergen fish market harbor",
+      "Bergen seven mountains panorama",
+      "Håkonshallen Bergen medieval"
+    ]
+  },
+  "tromso": {
+    "city": "Tromsø",
+    "country": "Norway",
+    "terms": [
+      "Northern Lights Tromsø aurora",
+      "Arctic Cathedral Tromsø triangular",
+      "Tromsø midnight sun landscape",
+      "Tromsø cable car mountain",
+      "Tromsø whale watching boats",
+      "Tromsø wooden houses colorful"
+    ]
+  },
+  "luxembourg": {
+    "city": "Luxembourg City",
+    "country": "Luxembourg",
+    "terms": [
+      "Luxembourg Old Town UNESCO",
+      "Casemates Luxembourg fortress tunnels",
+      "Grund Luxembourg valley medieval",
+      "Luxembourg Palace Grand Ducal",
+      "Pont Adolphe Luxembourg bridge",
+      "MUDAM Luxembourg modern art"
+    ]
+  },
+  "naples": {
+    "city": "Naples",
+    "country": "Italy",
+    "terms": [
+      "Naples Vesuvius volcano view",
+      "Pompeii Naples ancient ruins",
+      "Naples pizza margherita authentic",
+      "Naples underground tunnels",
+      "Castel dell'Ovo Naples sea",
+      "Spaccanapoli Naples street narrow"
+    ]
+  },
+  "bologna": {
+    "city": "Bologna",
+    "country": "Italy",
+    "terms": [
+      "Two Towers Bologna Asinelli",
+      "Bologna porticos UNESCO covered",
+      "Bologna Piazza Maggiore red",
+      "Bologna tortellini pasta making",
+      "San Petronio Bologna basilica",
+      "Bologna university oldest Europe"
+    ]
+  },
+  "verona": {
+    "city": "Verona",
+    "country": "Italy",
+    "terms": [
+      "Juliet balcony Verona Romeo",
+      "Verona Arena Roman amphitheater",
+      "Piazza delle Erbe Verona",
+      "Verona Adige River bridges",
+      "Castel San Pietro Verona view",
+      "Verona opera festival performance"
+    ]
+  },
+  "turin": {
+    "city": "Turin",
+    "country": "Italy",
+    "terms": [
+      "Mole Antonelliana Turin tower",
+      "Turin Egyptian Museum sarcophagi",
+      "Turin Shroud cathedral",
+      "Po River Turin Alps",
+      "Palazzo Reale Turin royal",
+      "Turin chocolate gianduiotto"
+    ]
+  },
+  "lake-como": {
+    "city": "Lake Como",
+    "country": "Italy",
+    "terms": [
+      "Villa Balbianello Lake Como",
+      "Bellagio Lake Como gardens",
+      "Lake Como villas waterfront",
+      "Como cathedral marble facade",
+      "Lake Como boats luxury",
+      "Varenna Lake Como colorful"
+    ]
+  },
+  "puglia": {
+    "city": "Bari",
+    "country": "Italy",
+    "terms": [
+      "Alberobello trulli houses conical",
+      "Polignano a Mare Puglia cliffs",
+      "Lecce baroque churches Puglia",
+      "Puglia olive groves ancient",
+      "Ostuni white city Puglia",
+      "Matera sassi caves Puglia"
+    ]
+  },
+  "mont-saint-michel": {
+    "city": "Mont Saint-Michel",
+    "country": "France",
+    "terms": [
+      "Mont Saint-Michel abbey Gothic",
+      "Mont Saint-Michel tidal island",
+      "Mont Saint-Michel bay sunset",
+      "Mont Saint-Michel medieval ramparts",
+      "Mont Saint-Michel causeway low",
+      "Mont Saint-Michel spire golden"
+    ]
+  },
+  "provence": {
+    "city": "Avignon",
+    "country": "France",
+    "terms": [
+      "Palais des Papes Avignon",
+      "Pont Saint-Bénézet Avignon bridge",
+      "Provence lavender fields purple",
+      "Pont du Gard Roman aqueduct",
+      "Avignon ramparts medieval walls",
+      "Provence sunflower fields golden"
+    ]
+  },
+  "nantes": {
+    "city": "Nantes",
+    "country": "France",
+    "terms": [
+      "Machines of Nantes elephant",
+      "Château des ducs Nantes",
+      "Nantes cathedral Saint-Pierre",
+      "Loire River Nantes bridges",
+      "Passage Pommeraye Nantes glass",
+      "Nantes tram modern yellow"
+    ]
+  },
+  "lille": {
+    "city": "Lille",
+    "country": "France",
+    "terms": [
+      "Grand Place Lille Flemish",
+      "Lille Old Stock Exchange",
+      "Palais des Beaux-Arts Lille",
+      "Lille Citadelle star fortress",
+      "Lille beffroi bell tower",
+      "Lille Christmas market squares"
+    ]
+  },
+  "chamonix": {
+    "city": "Chamonix",
+    "country": "France",
+    "terms": [
+      "Mont Blanc Chamonix summit",
+      "Aiguille du Midi Chamonix cable",
+      "Chamonix alpine village church",
+      "Mer de Glace Chamonix glacier",
+      "Chamonix skiing slopes white",
+      "Chamonix valley mountain peaks"
+    ]
+  },
+  "cordoba": {
+    "city": "Córdoba",
+    "country": "Spain",
+    "terms": [
+      "Mezquita Córdoba mosque cathedral",
+      "Córdoba Jewish Quarter narrow",
+      "Córdoba patios flowers courtyards",
+      "Roman Bridge Córdoba Guadalquivir",
+      "Alcázar de los Reyes Córdoba",
+      "Córdoba orange trees streets"
+    ]
+  },
+  "toledo": {
+    "city": "Toledo",
+    "country": "Spain",
+    "terms": [
+      "Toledo cathedral Gothic spires",
+      "Toledo medieval walls hilltop",
+      "Alcázar of Toledo fortress",
+      "Toledo Tagus River bend",
+      "El Greco Toledo paintings",
+      "Toledo synagogue Santa María"
+    ]
+  },
+  "marbella": {
+    "city": "Marbella",
+    "country": "Spain",
+    "terms": [
+      "Marbella Old Town plaza",
+      "Puerto Banus marina yachts",
+      "Marbella Golden Mile beach",
+      "Marbella beach clubs sunset",
+      "Marbella whitewashed buildings",
+      "Costa del Sol Marbella coastline"
+    ]
+  },
+  "gran-canaria": {
+    "city": "Las Palmas",
+    "country": "Spain",
+    "terms": [
+      "Maspalomas sand dunes Gran Canaria",
+      "Las Canteras beach Las Palmas",
+      "Gran Canaria volcanic landscape",
+      "Las Palmas colorful houses",
+      "Roque Nublo Gran Canaria",
+      "Bandama crater Gran Canaria"
+    ]
+  },
+  "lanzarote": {
+    "city": "Arrecife",
+    "country": "Spain",
+    "terms": [
+      "Timanfaya volcanic park Lanzarote",
+      "Jameos del Agua Lanzarote",
+      "Lanzarote wine vineyards La Geria",
+      "Mirador del Rio Lanzarote",
+      "Cueva de los Verdes Lanzarote",
+      "Lanzarote black sand beaches"
+    ]
+  },
+  "bristol": {
+    "city": "Bristol",
+    "country": "United Kingdom",
+    "terms": [
+      "Clifton Suspension Bridge Bristol",
+      "Bristol harbourside waterfront",
+      "Bristol street art Banksy",
+      "SS Great Britain Bristol",
+      "Bristol Cathedral",
+      "Clifton Observatory Bristol"
+    ]
+  },
+  "cardiff": {
+    "city": "Cardiff",
+    "country": "United Kingdom",
+    "terms": [
+      "Cardiff Castle towers",
+      "Cardiff Bay waterfront",
+      "Millennium Stadium Cardiff",
+      "Cardiff Bay Barrage",
+      "Pierhead Building Cardiff",
+      "Norwegian Church Cardiff Bay"
+    ]
+  },
+  "brighton": {
+    "city": "Brighton",
+    "country": "United Kingdom",
+    "terms": [
+      "Brighton Pavilion architecture",
+      "Brighton Pier seaside",
+      "Brighton beach huts",
+      "Brighton Lanes narrow streets",
+      "Brighton Marina",
+      "West Pier ruins Brighton"
+    ]
+  },
+  "cotswolds": {
+    "city": "Cotswolds",
+    "country": "United Kingdom",
+    "terms": [
+      "Bibury Arlington Row cottages",
+      "Cotswolds honey stone villages",
+      "Bourton-on-the-Water Cotswolds",
+      "Cotswolds rolling green hills",
+      "Chipping Campden market hall",
+      "Cotswolds thatched roof houses"
+    ]
+  },
+  "lake-district": {
+    "city": "Lake District",
+    "country": "United Kingdom",
+    "terms": [
+      "Lake Windermere reflection mountains",
+      "Helvellyn summit Lake District",
+      "Grasmere village Lake District",
+      "Catbells fell Lake District",
+      "Buttermere lake mountains",
+      "Keswick market square"
+    ]
+  },
+  "heidelberg": {
+    "city": "Heidelberg",
+    "country": "Germany",
+    "terms": [
+      "Heidelberg Castle ruins hilltop",
+      "Old Bridge Heidelberg Neckar",
+      "Heidelberg Old Town square",
+      "Philosopher's Walk Heidelberg",
+      "Heidelberg University library",
+      "Neckar River Heidelberg panorama"
+    ]
+  },
+  "stuttgart": {
+    "city": "Stuttgart",
+    "country": "Germany",
+    "terms": [
+      "Mercedes Museum Stuttgart architecture",
+      "Porsche Museum Stuttgart",
+      "Stuttgart Palace Square fountain",
+      "Stuttgart State Opera house",
+      "Stuttgart TV Tower panorama",
+      "Stuttgart vineyards hillside"
+    ]
+  },
+  "black-forest": {
+    "city": "Freiburg",
+    "country": "Germany",
+    "terms": [
+      "Black Forest dense pine trees",
+      "Freiburg Minster cathedral",
+      "Black Forest waterfall Triberg",
+      "Freiburg Old Town squares",
+      "Black Forest half-timbered houses",
+      "Baden-Baden thermal baths"
+    ]
+  },
+  "chania": {
+    "city": "Chania",
+    "country": "Greece",
+    "terms": [
+      "Chania Venetian harbor lighthouse",
+      "Chania Old Town narrow streets",
+      "Balos Lagoon Crete turquoise",
+      "Chania market hall",
+      "Samaria Gorge Chania",
+      "Chania waterfront tavernas"
+    ]
+  },
+  "naxos": {
+    "city": "Naxos",
+    "country": "Greece",
+    "terms": [
+      "Portara gate Naxos sunset",
+      "Naxos Plaka beach golden",
+      "Apiranthos village Naxos marble",
+      "Naxos Old Town kastro",
+      "Mount Zas Naxos peak",
+      "Naxos windmills Chora"
+    ]
+  },
+  "kefalonia": {
+    "city": "Kefalonia",
+    "country": "Greece",
+    "terms": [
+      "Myrtos Beach Kefalonia turquoise",
+      "Melissani Cave Kefalonia underground",
+      "Assos village Kefalonia colorful",
+      "Kefalonia Robola vineyards",
+      "Fiscardo harbor Kefalonia",
+      "Drogarati Cave Kefalonia stalactites"
+    ]
+  },
+  "aarhus": {
+    "city": "Aarhus",
+    "country": "Denmark",
+    "terms": [
+      "ARoS Museum Aarhus rainbow",
+      "Aarhus Old Town cobblestones",
+      "Aarhus Cathedral brick gothic",
+      "Den Gamle By Aarhus",
+      "Aarhus harbor modern architecture",
+      "Marselisborg Palace Aarhus"
+    ]
+  },
+  "lofoten": {
+    "city": "Lofoten",
+    "country": "Norway",
+    "terms": [
+      "Lofoten fishing villages rorbuer",
+      "Lofoten dramatic peaks fjords",
+      "Reine village Lofoten reflection",
+      "Lofoten midnight sun",
+      "Henningsvaer Lofoten football pitch",
+      "Lofoten Northern Lights aurora"
+    ]
+  },
+  "belgrade": {
+    "city": "Belgrade",
+    "country": "Serbia",
+    "terms": [
+      "Kalemegdan Fortress Belgrade Danube",
+      "Belgrade Skadarlija cobblestone street",
+      "Belgrade Temple Saint Sava",
+      "Danube Sava confluence Belgrade",
+      "Belgrade Ada Ciganlija beach",
+      "Belgrade Knez Mihailova pedestrian"
+    ]
+  },
+  "sarajevo": {
+    "city": "Sarajevo",
+    "country": "Bosnia and Herzegovina",
+    "terms": [
+      "Sarajevo Bascarsija bazaar Ottoman",
+      "Latin Bridge Sarajevo historic",
+      "Sarajevo Yellow Fortress panorama",
+      "Gazi Husrev-beg Mosque Sarajevo",
+      "Sarajevo War Tunnel museum",
+      "Miljacka River Sarajevo bridges"
+    ]
+  },
+  "mostar": {
+    "city": "Mostar",
+    "country": "Bosnia and Herzegovina",
+    "terms": [
+      "Stari Most bridge Mostar stone",
+      "Mostar Old Bazaar Kujundziluk",
+      "Neretva River Mostar emerald",
+      "Mostar Old Town minarets",
+      "Koski Mehmed Pasha Mosque Mostar",
+      "Mostar bridge diving Neretva"
+    ]
+  },
+  "tirana": {
+    "city": "Tirana",
+    "country": "Albania",
+    "terms": [
+      "Skanderbeg Square Tirana colorful",
+      "Tirana Pyramid concrete brutalist",
+      "Et'hem Bey Mosque Tirana",
+      "Tirana colorful apartment buildings",
+      "Mount Dajti Tirana cable car",
+      "Blloku district Tirana modern"
+    ]
+  },
+  "plovdiv": {
+    "city": "Plovdiv",
+    "country": "Bulgaria",
+    "terms": [
+      "Plovdiv Roman Theatre ancient",
+      "Plovdiv Old Town revival architecture",
+      "Kapana district Plovdiv street art",
+      "Plovdiv Nebet Tepe hill",
+      "Plovdiv ethnographic museum",
+      "Plovdiv colorful houses cobblestone"
+    ]
+  },
+  "paphos": {
+    "city": "Paphos",
+    "country": "Cyprus",
+    "terms": [
+      "Tombs of Kings Paphos archaeological",
+      "Aphrodite Rock Paphos waves",
+      "Paphos mosaics House Dionysus",
+      "Paphos harbor castle medieval",
+      "Coral Bay Paphos turquoise",
+      "Paphos Archaeological Park ruins"
+    ]
+  },
+  "limassol": {
+    "city": "Limassol",
+    "country": "Cyprus",
+    "terms": [
+      "Limassol Marina yachts modern",
+      "Limassol Castle medieval stone",
+      "Limassol Old Town narrow streets",
+      "Troodos Mountains Limassol vineyards",
+      "Limassol seafront promenade",
+      "Kolossi Castle Limassol Crusader"
+    ]
+  },
+  "tokyo": {
+    "city": "Tokyo",
+    "country": "Japan",
+    "terms": [
+      "Shibuya Crossing Tokyo neon",
+      "Senso-ji Temple Tokyo red pagoda",
+      "Tokyo cherry blossoms sakura",
+      "Tokyo Skytree tower",
+      "Meiji Shrine Tokyo torii",
+      "Tokyo neon signs night"
+    ]
+  },
+  "bali": {
+    "city": "Bali",
+    "country": "Indonesia",
+    "terms": [
+      "Ubud rice terraces Bali green",
+      "Uluwatu Temple Bali clifftop",
+      "Tanah Lot temple Bali sunset",
+      "Bali beach clubs infinity pools",
+      "Mount Batur Bali sunrise",
+      "Bali Hindu temple gates"
+    ]
+  },
+  "bangkok": {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "terms": [
+      "Bangkok Grand Palace golden temple",
+      "Bangkok floating market boats",
+      "Bangkok street food vendors",
+      "Bangkok rooftop bar skyline",
+      "Bangkok Wat Pho temple",
+      "Bangkok Chao Phraya river longboat"
+    ]
+  },
+  "singapore": {
+    "city": "Singapore",
+    "country": "Singapore",
+    "terms": [
+      "Singapore Marina Bay Sands infinity pool",
+      "Singapore Gardens by Bay supertrees",
+      "Singapore hawker center food court",
+      "Singapore Merlion fountain",
+      "Singapore Sentosa beach resort",
+      "Singapore Clarke Quay riverside"
+    ]
+  },
+  "kyoto": {
+    "city": "Kyoto",
+    "country": "Japan",
+    "terms": [
+      "Kyoto Fushimi Inari torii gates",
+      "Kyoto Arashiyama bamboo grove",
+      "Kyoto Gion geisha district",
+      "Kyoto Kinkaku-ji golden pavilion",
+      "Kyoto tea ceremony matcha",
+      "Kyoto temple gardens zen"
+    ]
+  },
+  "vietnam": {
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "terms": [
+      "Ho Chi Minh City motorbike traffic",
+      "Ho Chi Minh City street food pho",
+      "Ho Chi Minh City Notre Dame cathedral",
+      "Cu Chi tunnels Vietnam",
+      "Mekong Delta boats Vietnam",
+      "Ho Chi Minh City Ben Thanh market"
+    ]
+  },
+  "maldives": {
+    "city": "Maldives",
+    "country": "Maldives",
+    "terms": [
+      "Maldives overwater bungalows turquoise",
+      "Maldives coral reef snorkeling",
+      "Maldives sunset beach palms",
+      "Maldives private island resort",
+      "Maldives seaplane aerial view",
+      "Maldives beach villa crystal water"
+    ]
+  },
+  "hong-kong": {
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "terms": [
+      "Hong Kong Victoria Peak skyline",
+      "Hong Kong Star Ferry harbor",
+      "Hong Kong dim sum restaurant",
+      "Hong Kong Temple Street night market",
+      "Hong Kong neon signs Tsim Sha Tsui",
+      "Hong Kong skyscrapers symphony lights"
+    ]
+  },
+  "sri-lanka": {
+    "city": "Colombo",
+    "country": "Sri Lanka",
+    "terms": [
+      "Sri Lanka Sigiriya Lion Rock",
+      "Sri Lanka tea plantation hills",
+      "Sri Lanka elephant safari",
+      "Sri Lanka Temple of Tooth Kandy",
+      "Colombo Gangaramaya temple",
+      "Sri Lanka train tea country"
+    ]
+  },
+  "seoul": {
+    "city": "Seoul",
+    "country": "South Korea",
+    "terms": [
+      "Seoul Gyeongbokgung Palace guards",
+      "Seoul Myeongdong shopping street",
+      "Seoul Korean BBQ restaurant",
+      "Seoul Bukchon hanok village",
+      "Seoul N Seoul Tower night",
+      "Seoul Dongdaemun design plaza"
+    ]
+  },
+  "busan": {
+    "city": "Busan",
+    "country": "South Korea",
+    "terms": [
+      "Busan Haeundae Beach skyline",
+      "Busan Gamcheon Culture Village colorful",
+      "Busan Jagalchi fish market",
+      "Busan Haedong Yonggungsa temple ocean",
+      "Busan Gwangan Bridge night",
+      "Busan Beomeosa temple mountains"
+    ]
+  },
+  "osaka": {
+    "city": "Osaka",
+    "country": "Japan",
+    "terms": [
+      "Osaka Dotonbori neon lights",
+      "Osaka Castle cherry blossoms",
+      "Osaka takoyaki street food",
+      "Osaka Kuromon Ichiba market",
+      "Osaka Sumiyoshi Taisha shrine",
+      "Osaka Shinsekai tower kushikatsu"
+    ]
+  },
+  "hanoi": {
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "terms": [
+      "Hanoi Old Quarter streets motorbikes",
+      "Hanoi Hoan Kiem Lake temple",
+      "Hanoi pho street vendors",
+      "Hanoi Temple of Literature courtyard",
+      "Hanoi Long Bien Bridge",
+      "Halong Bay limestone karsts Vietnam"
+    ]
+  },
+  "phuket": {
+    "city": "Phuket",
+    "country": "Thailand",
+    "terms": [
+      "Phuket Patong Beach sunset",
+      "Phuket Phi Phi Islands boats",
+      "Phuket Big Buddha statue",
+      "Phuket Kata Beach palm trees",
+      "Phuket Bangla Road nightlife",
+      "Phuket longtail boats Phang Nga"
+    ]
+  },
+  "chiang-mai": {
+    "city": "Chiang Mai",
+    "country": "Thailand",
+    "terms": [
+      "Chiang Mai Wat Phra That Doi Suthep",
+      "Chiang Mai Sunday Night Market",
+      "Chiang Mai elephant sanctuary",
+      "Chiang Mai lantern festival",
+      "Chiang Mai Wat Chedi Luang",
+      "Chiang Mai cooking class Thai"
+    ]
+  },
+  "kuala-lumpur": {
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "terms": [
+      "Kuala Lumpur Petronas Towers night",
+      "Kuala Lumpur Batu Caves steps",
+      "Kuala Lumpur street food Jalan Alor",
+      "Kuala Lumpur KL Tower skyline",
+      "Kuala Lumpur Central Market",
+      "Kuala Lumpur Islamic Arts Museum"
+    ]
+  },
+  "langkawi": {
+    "city": "Langkawi",
+    "country": "Malaysia",
+    "terms": [
+      "Langkawi Sky Bridge cable car",
+      "Langkawi Pantai Cenang Beach",
+      "Langkawi mangrove tour boats",
+      "Langkawi Eagle Square sculpture",
+      "Langkawi sunset cruise",
+      "Langkawi Temurun Waterfall"
+    ]
+  },
+  "taipei": {
+    "city": "Taipei",
+    "country": "Taiwan",
+    "terms": [
+      "Taipei 101 skyscraper night",
+      "Taipei Shilin Night Market food",
+      "Taipei Jiufen old street lanterns",
+      "Taipei Longshan Temple incense",
+      "Taipei hot springs Beitou",
+      "Taipei Chiang Kai-shek Memorial"
+    ]
+  },
+  "manila": {
+    "city": "Manila",
+    "country": "Philippines",
+    "terms": [
+      "Manila Intramuros Spanish colonial",
+      "Manila Rizal Park monument",
+      "Manila jeepney colorful transport",
+      "Manila Manila Bay sunset",
+      "Manila San Agustin Church",
+      "Manila Binondo Chinatown"
+    ]
+  },
+  "palawan": {
+    "city": "Puerto Princesa",
+    "country": "Philippines",
+    "terms": [
+      "Palawan El Nido lagoons",
+      "Palawan Underground River cave",
+      "Palawan island hopping boats",
+      "Puerto Princesa beach resort",
+      "Palawan Coron Lake Kayangan",
+      "Palawan diving coral reef"
+    ]
+  },
+  "boracay": {
+    "city": "Boracay",
+    "country": "Philippines",
+    "terms": [
+      "Boracay White Beach powdery sand",
+      "Boracay sunset sailing paraw",
+      "Boracay kitesurfing Bulabog Beach",
+      "Boracay beach bars night",
+      "Boracay crystal cove island",
+      "Boracay Mount Luho viewpoint"
+    ]
+  },
+  "siem-reap": {
+    "city": "Siem Reap",
+    "country": "Cambodia",
+    "terms": [
+      "Siem Reap Angkor Wat sunrise",
+      "Siem Reap Bayon Temple faces",
+      "Siem Reap Ta Prohm tree roots",
+      "Siem Reap floating village Tonle Sap",
+      "Siem Reap Night Market street",
+      "Siem Reap Angkor Thom gate"
+    ]
+  },
+  "luang-prabang": {
+    "city": "Luang Prabang",
+    "country": "Laos",
+    "terms": [
+      "Luang Prabang monks alms ceremony",
+      "Luang Prabang Kuang Si waterfall",
+      "Luang Prabang French colonial architecture",
+      "Luang Prabang Mekong River sunset",
+      "Luang Prabang Mount Phousi temple",
+      "Luang Prabang night market handicrafts"
+    ]
+  },
+  "yangon": {
+    "city": "Yangon",
+    "country": "Myanmar",
+    "terms": [
+      "Yangon Shwedagon Pagoda golden",
+      "Yangon colonial buildings downtown",
+      "Yangon Bogyoke Aung San Market",
+      "Yangon street food tea shop",
+      "Yangon Sule Pagoda traffic",
+      "Yangon Kandawgyi Lake palace"
+    ]
+  },
+  "kathmandu": {
+    "city": "Kathmandu",
+    "country": "Nepal",
+    "terms": [
+      "Kathmandu Durbar Square temples",
+      "Kathmandu Boudhanath Stupa prayer flags",
+      "Kathmandu Pashupatinath Temple Ganges",
+      "Kathmandu Thamel street vendors",
+      "Kathmandu Himalayas mountain view",
+      "Kathmandu Swayambhunath monkey temple"
+    ]
+  },
+  "bhutan": {
+    "city": "Paro",
+    "country": "Bhutan",
+    "terms": [
+      "Bhutan Tiger's Nest monastery cliff",
+      "Paro Dzong fortress architecture",
+      "Bhutan prayer flags Himalayas",
+      "Bhutan monks red robes",
+      "Paro valley rice terraces",
+      "Bhutan traditional houses mountains"
+    ]
+  },
+  "beijing": {
+    "city": "Beijing",
+    "country": "China",
+    "terms": [
+      "Beijing Great Wall Badaling",
+      "Beijing Forbidden City throne hall",
+      "Beijing hutong traditional alleyways",
+      "Beijing Temple of Heaven circular",
+      "Beijing Peking duck restaurant",
+      "Beijing Tiananmen Square gate"
+    ]
+  },
+  "shanghai": {
+    "city": "Shanghai",
+    "country": "China",
+    "terms": [
+      "Shanghai Bund skyline night",
+      "Yu Garden Shanghai pagoda",
+      "Shanghai French Concession architecture",
+      "Pudong skyscrapers Shanghai",
+      "Shanghai Oriental Pearl Tower",
+      "Nanjing Road Shanghai neon lights"
+    ]
+  },
+  "xian": {
+    "city": "Xi'an",
+    "country": "China",
+    "terms": [
+      "Xian Terracotta Warriors army",
+      "Xian ancient city wall",
+      "Xian Muslim Quarter mosque",
+      "Bell Tower Xian night",
+      "Xian Great Wild Goose Pagoda",
+      "Xian city gate fortification"
+    ]
+  },
+  "guilin": {
+    "city": "Guilin",
+    "country": "China",
+    "terms": [
+      "Guilin Li River karst mountains",
+      "Yangshuo rice terraces Guilin",
+      "Guilin limestone peaks reflection",
+      "Reed Flute Cave Guilin",
+      "Guilin cormorant fisherman boat",
+      "Elephant Trunk Hill Guilin"
+    ]
+  },
+  "hoi-an": {
+    "city": "Hoi An",
+    "country": "Vietnam",
+    "terms": [
+      "Hoi An ancient town lanterns",
+      "Japanese Covered Bridge Hoi An",
+      "Hoi An yellow buildings river",
+      "Thu Bon River Hoi An boats",
+      "Hoi An night market lanterns",
+      "Hoi An tailor shop colorful"
+    ]
+  },
+  "da-nang": {
+    "city": "Da Nang",
+    "country": "Vietnam",
+    "terms": [
+      "Golden Bridge Da Nang hands",
+      "My Khe Beach Da Nang",
+      "Marble Mountains Da Nang caves",
+      "Ba Na Hills Da Nang cable car",
+      "Dragon Bridge Da Nang fire",
+      "Lady Buddha statue Da Nang"
+    ]
+  },
+  "kochi": {
+    "city": "Kochi",
+    "country": "India",
+    "terms": [
+      "Kochi Chinese fishing nets sunset",
+      "Fort Kochi colonial architecture",
+      "Kerala backwaters Kochi boats",
+      "Kochi spice market colorful",
+      "Kathakali dancer Kochi performance",
+      "Mattancherry Palace Kochi murals"
+    ]
+  },
+  "goa": {
+    "city": "Goa",
+    "country": "India",
+    "terms": [
+      "Goa beaches palm trees",
+      "Basilica Bom Jesus Goa",
+      "Goa Portuguese churches architecture",
+      "Anjuna Beach Goa sunset",
+      "Old Goa cathedral",
+      "Goa colorful houses Fontainhas"
+    ]
+  },
+  "jaipur": {
+    "city": "Jaipur",
+    "country": "India",
+    "terms": [
+      "Amber Fort Jaipur palace",
+      "Hawa Mahal Jaipur pink facade",
+      "Jaipur City Palace courtyard",
+      "Jaipur pink city architecture",
+      "Jal Mahal Jaipur water palace",
+      "Jaipur bazaar colorful textiles"
+    ]
+  },
+  "delhi": {
+    "city": "New Delhi",
+    "country": "India",
+    "terms": [
+      "Red Fort Delhi Mughal architecture",
+      "Qutub Minar Delhi tower",
+      "India Gate Delhi monument",
+      "Lotus Temple Delhi architecture",
+      "Chandni Chowk Delhi market",
+      "Humayun Tomb Delhi gardens"
+    ]
+  },
+  "agra": {
+    "city": "Agra",
+    "country": "India",
+    "terms": [
+      "Taj Mahal Agra sunrise",
+      "Agra Fort red sandstone",
+      "Taj Mahal Agra reflection pool",
+      "Fatehpur Sikri Agra ruins",
+      "Taj Mahal Agra sunset golden",
+      "Mehtab Bagh Agra Taj view"
+    ]
+  },
+  "mumbai": {
+    "city": "Mumbai",
+    "country": "India",
+    "terms": [
+      "Gateway of India Mumbai",
+      "Mumbai Marine Drive skyline",
+      "Chhatrapati Shivaji Terminus Mumbai",
+      "Mumbai Dhobi Ghat laundry",
+      "Bandra Worli Sea Link Mumbai",
+      "Mumbai Crawford Market architecture"
+    ]
+  },
+  "lombok": {
+    "city": "Lombok",
+    "country": "Indonesia",
+    "terms": [
+      "Gili Islands Lombok crystal water",
+      "Mount Rinjani Lombok crater lake",
+      "Lombok pink beach sand",
+      "Senggigi Beach Lombok sunset",
+      "Lombok traditional Sasak village",
+      "Gili Trawangan Lombok snorkeling"
+    ]
+  },
+  "yogyakarta": {
+    "city": "Yogyakarta",
+    "country": "Indonesia",
+    "terms": [
+      "Borobudur temple Yogyakarta sunrise",
+      "Prambanan temple Yogyakarta Hindu",
+      "Yogyakarta Sultan Palace Kraton",
+      "Taman Sari Yogyakarta water castle",
+      "Malioboro Street Yogyakarta",
+      "Yogyakarta batik making process"
+    ]
+  },
+  "nha-trang": {
+    "city": "Nha Trang",
+    "country": "Vietnam",
+    "terms": [
+      "Nha Trang beach turquoise water",
+      "Po Nagar Towers Nha Trang",
+      "Vinpearl Cable Car Nha Trang",
+      "Hon Mun Island Nha Trang diving",
+      "Long Son Pagoda Nha Trang Buddha",
+      "Nha Trang bay islands aerial"
+    ]
+  },
+  "new-york": {
+    "city": "New York",
+    "country": "United States",
+    "terms": [
+      "Times Square New York neon lights",
+      "Central Park New York autumn",
+      "Brooklyn Bridge New York skyline",
+      "Statue of Liberty New York harbor",
+      "Empire State Building New York",
+      "High Line Park New York cityscape"
+    ]
+  },
+  "cancun": {
+    "city": "Cancun",
+    "country": "Mexico",
+    "terms": [
+      "Cancun Hotel Zone beaches aerial",
+      "Chichen Itza pyramid Cancun",
+      "Cenote crystal water Cancun",
+      "Cancun underwater museum sculptures",
+      "Isla Mujeres Cancun turquoise",
+      "Tulum ruins Cancun coastline"
+    ]
+  },
+  "costa-rica": {
+    "city": "San Jose",
+    "country": "Costa Rica",
+    "terms": [
+      "Monteverde Cloud Forest Costa Rica",
+      "Arenal Volcano Costa Rica eruption",
+      "Costa Rica zip line canopy",
+      "Manuel Antonio beaches Costa Rica",
+      "Costa Rica sloth rainforest wildlife",
+      "Tortuguero Costa Rica sea turtles"
+    ]
+  },
+  "miami": {
+    "city": "Miami",
+    "country": "United States",
+    "terms": [
+      "South Beach Miami Art Deco",
+      "Miami skyline Biscayne Bay",
+      "Wynwood Walls Miami street art",
+      "Little Havana Miami colorful",
+      "Miami Beach lifeguard towers",
+      "Everglades Miami airboat alligators"
+    ]
+  },
+  "peru": {
+    "city": "Cusco",
+    "country": "Peru",
+    "terms": [
+      "Machu Picchu Peru sunrise mountains",
+      "Rainbow Mountain Peru colorful",
+      "Sacred Valley Peru terraces",
+      "Cusco Peru Inca stone walls",
+      "Sacsayhuaman Cusco Peru ruins",
+      "Ollantaytambo Peru fortress valley"
+    ]
+  },
+  "rio": {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "terms": [
+      "Christ the Redeemer Rio statue",
+      "Copacabana Beach Rio aerial",
+      "Sugarloaf Mountain Rio cable car",
+      "Rio de Janeiro favela colorful",
+      "Ipanema Beach Rio sunset",
+      "Santa Teresa Rio tram colorful"
+    ]
+  },
+  "buenos-aires": {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "terms": [
+      "La Boca Buenos Aires colorful houses",
+      "Recoleta Cemetery Buenos Aires tombs",
+      "Puerto Madero Buenos Aires modern",
+      "Buenos Aires tango dancers street",
+      "Casa Rosada Buenos Aires pink palace",
+      "San Telmo Buenos Aires cobblestone"
+    ]
+  },
+  "hawaii": {
+    "city": "Honolulu",
+    "country": "United States",
+    "terms": [
+      "Waikiki Beach Honolulu Diamond Head",
+      "Pearl Harbor Honolulu memorial",
+      "Honolulu Chinatown colorful",
+      "Iolani Palace Honolulu royal",
+      "Hanauma Bay Honolulu snorkeling",
+      "Honolulu downtown skyline palm trees"
+    ]
+  },
+  "maui": {
+    "city": "Maui",
+    "country": "United States",
+    "terms": [
+      "Road to Hana Maui waterfalls",
+      "Haleakala Crater Maui sunrise",
+      "Maui whale watching humpback",
+      "Wailea Beach Maui golden sand",
+      "Iao Valley Maui needle rock",
+      "Maui lavender farm upcountry"
+    ]
+  },
+  "los-angeles": {
+    "city": "Los Angeles",
+    "country": "United States",
+    "terms": [
+      "Hollywood Sign Los Angeles hills",
+      "Santa Monica Pier Los Angeles",
+      "Venice Beach Los Angeles boardwalk",
+      "Griffith Observatory Los Angeles",
+      "Downtown Los Angeles skyline",
+      "Beverly Hills Los Angeles palm trees"
+    ]
+  },
+  "san-francisco": {
+    "city": "San Francisco",
+    "country": "United States",
+    "terms": [
+      "Golden Gate Bridge San Francisco fog",
+      "Alcatraz Island San Francisco bay",
+      "San Francisco cable car hills",
+      "Lombard Street San Francisco winding",
+      "Fishermans Wharf San Francisco",
+      "Painted Ladies San Francisco Victorian"
+    ]
+  },
+  "las-vegas": {
+    "city": "Las Vegas",
+    "country": "United States",
+    "terms": [
+      "Las Vegas Strip neon lights",
+      "Bellagio fountains Las Vegas",
+      "Fremont Street Las Vegas",
+      "Las Vegas casino floor",
+      "Red Rock Canyon Las Vegas",
+      "Las Vegas skyline night"
+    ]
+  },
+  "chicago": {
+    "city": "Chicago",
+    "country": "United States",
+    "terms": [
+      "Chicago Bean Cloud Gate",
+      "Chicago skyline Willis Tower",
+      "Millennium Park Chicago",
+      "Chicago riverwalk architecture",
+      "Navy Pier Chicago ferris wheel",
+      "Chicago L train elevated"
+    ]
+  },
+  "boston": {
+    "city": "Boston",
+    "country": "United States",
+    "terms": [
+      "Boston Freedom Trail red brick",
+      "Harvard University Cambridge",
+      "Boston Harbor waterfront",
+      "Beacon Hill Boston brownstones",
+      "Boston Common autumn foliage",
+      "Fenway Park Boston"
+    ]
+  },
+  "washington-dc": {
+    "city": "Washington D.C.",
+    "country": "United States",
+    "terms": [
+      "Washington Monument DC",
+      "Lincoln Memorial Washington DC",
+      "US Capitol building Washington",
+      "Cherry blossoms Tidal Basin DC",
+      "Smithsonian Castle Washington",
+      "White House Washington DC"
+    ]
+  },
+  "seattle": {
+    "city": "Seattle",
+    "country": "United States",
+    "terms": [
+      "Space Needle Seattle skyline",
+      "Pike Place Market Seattle",
+      "Mount Rainier Seattle view",
+      "Seattle waterfront pier",
+      "Kerry Park Seattle view",
+      "Chihuly Garden Glass Seattle"
+    ]
+  },
+  "new-orleans": {
+    "city": "New Orleans",
+    "country": "United States",
+    "terms": [
+      "French Quarter balconies New Orleans",
+      "Jackson Square New Orleans",
+      "Magazine Street New Orleans",
+      "New Orleans streetcar",
+      "Bourbon Street New Orleans night",
+      "Garden District New Orleans mansions"
+    ]
+  },
+  "austin": {
+    "city": "Austin",
+    "country": "United States",
+    "terms": [
+      "Austin skyline Lady Bird Lake",
+      "South by Southwest Austin",
+      "Austin food trucks",
+      "Sixth Street Austin nightlife",
+      "Keep Austin Weird mural",
+      "Zilker Park Austin"
+    ]
+  },
+  "nashville": {
+    "city": "Nashville",
+    "country": "United States",
+    "terms": [
+      "Grand Ole Opry Nashville",
+      "Nashville Broadway honky tonks",
+      "Country Music Hall Fame Nashville",
+      "Ryman Auditorium Nashville",
+      "Music Row Nashville",
+      "Nashville skyline Cumberland River"
+    ]
+  },
+  "san-diego": {
+    "city": "San Diego",
+    "country": "United States",
+    "terms": [
+      "Balboa Park San Diego",
+      "La Jolla Cove San Diego",
+      "Sunset Cliffs San Diego",
+      "Gaslamp Quarter San Diego",
+      "San Diego Zoo",
+      "Coronado Beach San Diego"
+    ]
+  },
+  "toronto": {
+    "city": "Toronto",
+    "country": "Canada",
+    "terms": [
+      "CN Tower Toronto skyline",
+      "Casa Loma Toronto castle",
+      "Toronto Islands ferry",
+      "St Lawrence Market Toronto",
+      "Distillery District Toronto",
+      "Toronto Harbourfront"
+    ]
+  },
+  "vancouver": {
+    "city": "Vancouver",
+    "country": "Canada",
+    "terms": [
+      "Stanley Park Vancouver seawall",
+      "Vancouver skyline mountains",
+      "Granville Island Vancouver",
+      "Capilano Suspension Bridge Vancouver",
+      "English Bay Vancouver sunset",
+      "Vancouver Chinatown gate"
+    ]
+  },
+  "montreal": {
+    "city": "Montreal",
+    "country": "Canada",
+    "terms": [
+      "Old Montreal cobblestone streets",
+      "Notre Dame Basilica Montreal",
+      "Mount Royal Park Montreal",
+      "Montreal bagel shops",
+      "Olympic Stadium Montreal",
+      "Place Jacques Cartier Montreal"
+    ]
+  },
+  "banff": {
+    "city": "Banff",
+    "country": "Canada",
+    "terms": [
+      "Lake Louise Banff turquoise",
+      "Moraine Lake Banff",
+      "Banff Avenue mountain view",
+      "Lake Minnewanka Banff",
+      "Bow River Banff",
+      "Banff Hot Springs mountains"
+    ]
+  },
+  "mexico-city": {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "terms": [
+      "Zocalo Mexico City cathedral",
+      "Teotihuacan pyramids Mexico City",
+      "Xochimilco trajineras Mexico City",
+      "Frida Kahlo Museum Mexico City",
+      "Palacio Bellas Artes Mexico City",
+      "Roma Norte Mexico City streets"
+    ]
+  },
+  "oaxaca": {
+    "city": "Oaxaca",
+    "country": "Mexico",
+    "terms": [
+      "Monte Alban ruins Oaxaca",
+      "Oaxaca cathedral zocalo",
+      "Hierve el Agua Oaxaca",
+      "Santo Domingo Church Oaxaca",
+      "Oaxaca markets textiles",
+      "Mitla archaeological site Oaxaca"
+    ]
+  },
+  "tulum": {
+    "city": "Tulum",
+    "country": "Mexico",
+    "terms": [
+      "Tulum ruins Caribbean sea",
+      "Gran Cenote Tulum",
+      "Tulum beach cabanas",
+      "El Castillo Tulum pyramid",
+      "Tulum jungle cenotes",
+      "Sian Kaan Tulum biosphere"
+    ]
+  },
+  "playa-del-carmen": {
+    "city": "Playa del Carmen",
+    "country": "Mexico",
+    "terms": [
+      "Fifth Avenue Playa del Carmen",
+      "Playa del Carmen beach",
+      "Xcaret Playa del Carmen",
+      "Cenote Dos Ojos Playa Carmen",
+      "Cozumel ferry Playa Carmen",
+      "Playa Carmen beach clubs"
+    ]
+  },
+  "puerto-vallarta": {
+    "city": "Puerto Vallarta",
+    "country": "Mexico",
+    "terms": [
+      "Puerto Vallarta Malecon boardwalk",
+      "Los Arcos Puerto Vallarta",
+      "Puerto Vallarta cathedral",
+      "Zona Romantica Puerto Vallarta",
+      "Puerto Vallarta sunset pier",
+      "Puerto Vallarta mountains bay"
+    ]
+  },
+  "cartagena": {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "terms": [
+      "Cartagena walled city colorful",
+      "Plaza Santo Domingo Cartagena",
+      "Cartagena colonial balconies",
+      "Castillo San Felipe Cartagena",
+      "Cartagena sunset walls",
+      "Getsemani Cartagena street art"
+    ]
+  },
+  "medellin": {
+    "city": "Medellin",
+    "country": "Colombia",
+    "terms": [
+      "Guatape rock Medellin day trip",
+      "Comuna 13 Medellin graffiti",
+      "Medellin cable cars city",
+      "Plaza Botero Medellin sculptures",
+      "Medellin flower festival",
+      "El Poblado Medellin skyline"
+    ]
+  },
+  "bogota": {
+    "city": "Bogota",
+    "country": "Colombia",
+    "terms": [
+      "La Candelaria Bogota colonial",
+      "Monserrate Bogota mountain view",
+      "Plaza Bolivar Bogota cathedral",
+      "Bogota street art walls",
+      "Gold Museum Bogota",
+      "Zona Rosa Bogota nightlife"
+    ]
+  },
+  "quito": {
+    "city": "Quito",
+    "country": "Ecuador",
+    "terms": [
+      "Quito historic center basilica",
+      "Middle World Monument Quito",
+      "La Compania Church Quito",
+      "Quito TeleferiQo cable car",
+      "Virgin Panecillo Quito",
+      "Plaza Grande Quito colonial"
+    ]
+  },
+  "galapagos": {
+    "city": "Galapagos Islands",
+    "country": "Ecuador",
+    "terms": [
+      "Galapagos giant tortoises",
+      "Galapagos blue footed boobies",
+      "Galapagos marine iguanas",
+      "Galapagos volcanic landscape",
+      "Galapagos sea lions beach",
+      "Galapagos Darwin finches"
+    ]
+  },
+  "lima": {
+    "city": "Lima",
+    "country": "Peru",
+    "terms": [
+      "Miraflores Lima Pacific cliffs",
+      "Lima historic center plaza",
+      "Barranco Lima colonial district",
+      "Lima ceviche restaurants",
+      "Huacas Lima ancient ruins",
+      "Lima sunset Pacific coast"
+    ]
+  },
+  "santiago": {
+    "city": "Santiago",
+    "country": "Chile",
+    "terms": [
+      "Santiago skyline Andes mountains",
+      "La Moneda Palace Santiago",
+      "Cerro San Cristobal Santiago",
+      "Bellavista Santiago colorful houses",
+      "Santiago Central Market",
+      "Valle Nevado Santiago skiing"
+    ]
+  },
+  "patagonia": {
+    "city": "Punta Arenas",
+    "country": "Chile",
+    "terms": [
+      "Torres del Paine granite towers",
+      "Punta Arenas glacial ice",
+      "Patagonia guanaco wildlife",
+      "Chilean fjords Punta Arenas",
+      "Patagonia windswept grasslands",
+      "Strait of Magellan Punta Arenas"
+    ]
+  },
+  "montevideo": {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "terms": [
+      "Montevideo Ciudad Vieja colonial",
+      "Pocitos Beach Montevideo",
+      "Mercado del Puerto Montevideo",
+      "Montevideo Rambla waterfront",
+      "Plaza Independencia Montevideo",
+      "Montevideo lighthouse Cerro"
+    ]
+  },
+  "punta-del-este": {
+    "city": "Punta del Este",
+    "country": "Uruguay",
+    "terms": [
+      "La Mano sculpture Punta del Este",
+      "Playa Brava Punta del Este",
+      "Punta del Este lighthouse",
+      "Casapueblo Punta del Este",
+      "Punta del Este marina yachts",
+      "Playa Mansa sunset Punta del Este"
+    ]
+  },
+  "la-paz": {
+    "city": "La Paz",
+    "country": "Bolivia",
+    "terms": [
+      "La Paz cable car system",
+      "Witches Market La Paz",
+      "Valle de la Luna La Paz",
+      "La Paz colonial architecture",
+      "Illimani mountain La Paz",
+      "San Francisco Church La Paz"
+    ]
+  },
+  "salar-de-uyuni": {
+    "city": "Uyuni",
+    "country": "Bolivia",
+    "terms": [
+      "Salar de Uyuni mirror reflection",
+      "Uyuni salt flats hexagonal patterns",
+      "Flamingos Salar de Uyuni",
+      "Uyuni salt pyramids",
+      "Incahuasi Island cacti Uyuni",
+      "Salar de Uyuni sunset colors"
+    ]
+  },
+  "belize": {
+    "city": "Belize City",
+    "country": "Belize",
+    "terms": [
+      "Great Blue Hole Belize",
+      "Belize barrier reef coral",
+      "Caracol Mayan ruins Belize",
+      "Belize jungle canopy",
+      "Ambergris Caye Belize",
+      "Belize City colonial buildings"
+    ]
+  },
+  "panama": {
+    "city": "Panama City",
+    "country": "Panama",
+    "terms": [
+      "Panama Canal locks ships",
+      "Casco Viejo Panama City",
+      "San Blas Islands Panama",
+      "Panama City modern skyline",
+      "Biomuseo Panama colorful",
+      "Ancon Hill Panama City view"
+    ]
+  },
+  "denver": {
+    "city": "Denver",
+    "country": "United States",
+    "terms": [
+      "Denver Rocky Mountain backdrop",
+      "Red Rocks Amphitheatre Denver",
+      "Denver Union Station architecture",
+      "Denver brewery district",
+      "LoDo historic Denver",
+      "Denver Art Museum angular building"
+    ]
+  },
+  "phoenix": {
+    "city": "Phoenix",
+    "country": "United States",
+    "terms": [
+      "Phoenix Sonoran Desert saguaro",
+      "Camelback Mountain Phoenix",
+      "Phoenix downtown skyline desert",
+      "Papago Park red rocks Phoenix",
+      "South Mountain Phoenix hiking",
+      "Desert Botanical Garden Phoenix"
+    ]
+  },
+  "scottsdale": {
+    "city": "Scottsdale",
+    "country": "United States",
+    "terms": [
+      "Scottsdale desert golf course",
+      "Old Town Scottsdale Western",
+      "Scottsdale luxury resort pools",
+      "McDowell Mountains Scottsdale",
+      "Scottsdale Art District galleries",
+      "Pinnacle Peak Scottsdale hiking"
+    ]
+  },
+  "portland": {
+    "city": "Portland",
+    "country": "United States",
+    "terms": [
+      "Portland food truck pods",
+      "Powell's Books Portland shelves",
+      "Portland Multnomah Falls",
+      "Portland craft brewery taps",
+      "St. Johns Bridge Portland",
+      "Portland Japanese Garden"
+    ]
+  },
+  "philadelphia": {
+    "city": "Philadelphia",
+    "country": "United States",
+    "terms": [
+      "Liberty Bell Philadelphia",
+      "Philadelphia Art Museum steps",
+      "Independence Hall Philadelphia",
+      "Philadelphia cheesesteak sandwich",
+      "Boathouse Row Philadelphia",
+      "Reading Terminal Market Philadelphia"
+    ]
+  },
+  "minneapolis": {
+    "city": "Minneapolis",
+    "country": "United States",
+    "terms": [
+      "Minneapolis Chain of Lakes",
+      "Stone Arch Bridge Minneapolis",
+      "Walker Art Center Minneapolis",
+      "Minneapolis Mill District",
+      "Guthrie Theater Minneapolis",
+      "Nicollet Mall Minneapolis"
+    ]
+  },
+  "atlanta": {
+    "city": "Atlanta",
+    "country": "United States",
+    "terms": [
+      "Georgia Aquarium Atlanta whale sharks",
+      "Atlanta skyline Piedmont Park",
+      "Martin Luther King memorial Atlanta",
+      "World of Coca Cola Atlanta",
+      "Atlanta BeltLine art",
+      "Fox Theatre Atlanta marquee"
+    ]
+  },
+  "dallas": {
+    "city": "Dallas",
+    "country": "United States",
+    "terms": [
+      "Dallas Arts District architecture",
+      "Deep Ellum Dallas murals",
+      "Dallas skyline Reunion Tower",
+      "AT&T Stadium Dallas Cowboys",
+      "Bishop Arts District Dallas",
+      "Dallas BBQ brisket"
+    ]
+  },
+  "houston": {
+    "city": "Houston",
+    "country": "United States",
+    "terms": [
+      "NASA Space Center Houston",
+      "Houston Museum District",
+      "Houston downtown skyline",
+      "Buffalo Bayou Park Houston",
+      "Houston Food truck tacos",
+      "Discovery Green Houston"
+    ]
+  },
+  "detroit": {
+    "city": "Detroit",
+    "country": "United States",
+    "terms": [
+      "Motown Museum Detroit",
+      "Detroit Institute Arts Rivera",
+      "Guardian Building Detroit lobby",
+      "Eastern Market Detroit",
+      "Detroit Renaissance Center",
+      "Heidelberg Project Detroit art"
+    ]
+  },
+  "charlotte": {
+    "city": "Charlotte",
+    "country": "United States",
+    "terms": [
+      "NASCAR Hall of Fame Charlotte",
+      "Charlotte Uptown skyline",
+      "Charlotte craft brewery",
+      "Freedom Park Charlotte",
+      "Charlotte motor speedway",
+      "South End Charlotte light rail"
+    ]
+  },
+  "orlando": {
+    "city": "Orlando",
+    "country": "United States",
+    "terms": [
+      "Walt Disney World Castle Orlando",
+      "Universal Studios Orlando",
+      "Orlando theme park fireworks",
+      "ICON Park Orlando wheel",
+      "Lake Eola Orlando fountain",
+      "Orlando International Drive"
+    ]
+  },
+  "tampa": {
+    "city": "Tampa",
+    "country": "United States",
+    "terms": [
+      "Clearwater Beach Tampa white sand",
+      "Ybor City Tampa historic",
+      "Tampa Riverwalk downtown",
+      "Busch Gardens Tampa rides",
+      "Tampa Bay waterfront",
+      "Gasparilla Pirate Ship Tampa"
+    ]
+  },
+  "savannah": {
+    "city": "Savannah",
+    "country": "United States",
+    "terms": [
+      "Savannah Spanish moss squares",
+      "Forsyth Park Savannah fountain",
+      "Savannah River Street cobblestones",
+      "Savannah Victorian architecture",
+      "Bonaventure Cemetery Savannah",
+      "Savannah trolley historic district"
+    ]
+  },
+  "charleston": {
+    "city": "Charleston",
+    "country": "United States",
+    "terms": [
+      "Charleston Rainbow Row houses",
+      "Magnolia Plantation Charleston",
+      "Charleston horse carriage tours",
+      "Charleston Battery waterfront",
+      "Holy City Church steeples Charleston",
+      "Charleston shrimp and grits"
+    ]
+  },
+  "aspen": {
+    "city": "Aspen",
+    "country": "United States",
+    "terms": [
+      "Aspen golden aspens fall",
+      "Maroon Bells Aspen reflection",
+      "Aspen ski slopes winter",
+      "Aspen downtown Victorian houses",
+      "Aspen luxury ski lodge",
+      "Independence Pass Aspen mountains"
+    ]
+  },
+  "park-city": {
+    "city": "Park City",
+    "country": "United States",
+    "terms": [
+      "Park City Main Street historic",
+      "Park City ski resort slopes",
+      "Sundance Film Festival Park City",
+      "Park City mountain chairlift",
+      "Utah Olympic Park City",
+      "Deer Valley Park City skiing"
+    ]
+  },
+  "lake-tahoe": {
+    "city": "Lake Tahoe",
+    "country": "United States",
+    "terms": [
+      "Lake Tahoe crystal clear water",
+      "Emerald Bay Lake Tahoe",
+      "Lake Tahoe alpine skiing",
+      "Tahoe Rim Trail hiking",
+      "Lake Tahoe sunset mountains",
+      "Sand Harbor Lake Tahoe beach"
+    ]
+  },
+  "napa-valley": {
+    "city": "Napa Valley",
+    "country": "United States",
+    "terms": [
+      "Napa Valley vineyard rows",
+      "hot air balloons Napa Valley",
+      "Napa Valley wine tasting room",
+      "Napa Valley sunset vineyards",
+      "Napa Valley winery architecture",
+      "Napa Valley golden hills"
+    ]
+  },
+  "palm-springs": {
+    "city": "Palm Springs",
+    "country": "United States",
+    "terms": [
+      "Palm Springs mid-century modern architecture",
+      "Palm Springs palm trees desert",
+      "Palm Springs pool villa",
+      "Palm Springs windmills",
+      "Joshua Tree Palm Springs",
+      "Palm Springs mountains backdrop"
+    ]
+  },
+  "key-west": {
+    "city": "Key West",
+    "country": "United States",
+    "terms": [
+      "Key West Duval Street",
+      "Key West sunset pier",
+      "Hemingway House Key West",
+      "Key West conch house",
+      "Mallory Square Key West",
+      "Key West lighthouse"
+    ]
+  },
+  "san-antonio": {
+    "city": "San Antonio",
+    "country": "United States",
+    "terms": [
+      "San Antonio River Walk",
+      "The Alamo San Antonio",
+      "San Antonio Mission church",
+      "San Antonio riverwalk boats",
+      "Market Square San Antonio",
+      "Pearl District San Antonio"
+    ]
+  },
+  "santa-fe": {
+    "city": "Santa Fe",
+    "country": "United States",
+    "terms": [
+      "Santa Fe adobe architecture",
+      "Santa Fe Plaza portal",
+      "Loretto Chapel Santa Fe",
+      "Santa Fe Canyon Road",
+      "Santa Fe pueblo style",
+      "Sangre de Cristo mountains Santa Fe"
+    ]
+  },
+  "salt-lake-city": {
+    "city": "Salt Lake City",
+    "country": "United States",
+    "terms": [
+      "Salt Lake Temple square",
+      "Great Salt Lake Utah",
+      "Wasatch Mountains Salt Lake",
+      "Salt Lake City downtown skyline",
+      "Utah State Capitol building",
+      "Antelope Island Salt Lake"
+    ]
+  },
+  "anchorage": {
+    "city": "Anchorage",
+    "country": "United States",
+    "terms": [
+      "Anchorage Chugach Mountains",
+      "Northern Lights Anchorage",
+      "Anchorage glaciers",
+      "moose Anchorage Alaska",
+      "Cook Inlet Anchorage",
+      "midnight sun Anchorage"
+    ]
+  },
+  "quebec-city": {
+    "city": "Quebec City",
+    "country": "Canada",
+    "terms": [
+      "Chateau Frontenac Quebec City",
+      "Old Quebec cobblestone",
+      "Quebec City winter carnival",
+      "Plains of Abraham Quebec",
+      "Petit Champlain Quebec City",
+      "Montmorency Falls Quebec"
+    ]
+  },
+  "calgary": {
+    "city": "Calgary",
+    "country": "Canada",
+    "terms": [
+      "Calgary Tower skyline",
+      "Calgary Stampede rodeo",
+      "Rocky Mountains Calgary",
+      "Calgary Olympic Park",
+      "Bow River Calgary",
+      "Prince's Island Park Calgary"
+    ]
+  },
+  "whistler": {
+    "city": "Whistler",
+    "country": "Canada",
+    "terms": [
+      "Whistler Village pedestrian",
+      "Whistler gondola mountains",
+      "Whistler Blackcomb skiing",
+      "Sea to Sky Highway Whistler",
+      "Lost Lake Whistler",
+      "Peak 2 Peak gondola Whistler"
+    ]
+  },
+  "ottawa": {
+    "city": "Ottawa",
+    "country": "Canada",
+    "terms": [
+      "Parliament Hill Ottawa",
+      "Rideau Canal Ottawa",
+      "Tulip Festival Ottawa",
+      "ByWard Market Ottawa",
+      "National Gallery Ottawa",
+      "Winterlude Ottawa skating"
+    ]
+  },
+  "halifax": {
+    "city": "Halifax",
+    "country": "Canada",
+    "terms": [
+      "Halifax harbour waterfront",
+      "Peggy's Cove lighthouse",
+      "Halifax Citadel Hill",
+      "Halifax boardwalk",
+      "Theodore Tugboat Halifax",
+      "Point Pleasant Park Halifax"
+    ]
+  },
+  "victoria-bc": {
+    "city": "Victoria",
+    "country": "Canada",
+    "terms": [
+      "Butchart Gardens Victoria",
+      "Victoria Inner Harbour",
+      "Parliament Buildings Victoria BC",
+      "Empress Hotel Victoria",
+      "Craigdarroch Castle Victoria",
+      "Fisherman's Wharf Victoria"
+    ]
+  },
+  "cabo": {
+    "city": "Cabo San Lucas",
+    "country": "Mexico",
+    "terms": [
+      "El Arco Cabo San Lucas",
+      "Cabo San Lucas beach resort",
+      "Medano Beach Cabo",
+      "Cabo Marina sunset",
+      "Land's End Cabo",
+      "Lover's Beach Cabo"
+    ]
+  },
+  "guadalajara": {
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "terms": [
+      "Guadalajara Cathedral",
+      "Teatro Degollado Guadalajara",
+      "Hospicio Cabañas Guadalajara",
+      "Tlaquepaque Guadalajara",
+      "tequila fields Guadalajara",
+      "mariachi Guadalajara plaza"
+    ]
+  },
+  "san-miguel": {
+    "city": "San Miguel de Allende",
+    "country": "Mexico",
+    "terms": [
+      "Parroquia San Miguel Allende",
+      "San Miguel Allende colonial streets",
+      "San Miguel Allende rooftop view",
+      "El Jardin San Miguel",
+      "San Miguel Allende pink church",
+      "cobblestone San Miguel Allende"
+    ]
+  },
+  "merida": {
+    "city": "Mérida",
+    "country": "Mexico",
+    "terms": [
+      "Merida Cathedral Yucatan",
+      "Plaza Grande Merida",
+      "Paseo Montejo Merida",
+      "cenotes near Merida",
+      "Chichen Itza Merida",
+      "Merida colonial architecture"
+    ]
+  },
+  "antigua-guatemala": {
+    "city": "Antigua",
+    "country": "Guatemala",
+    "terms": [
+      "Antigua Guatemala volcanoes",
+      "Santa Catalina Arch Antigua",
+      "Antigua Guatemala ruins",
+      "Central Park Antigua Guatemala",
+      "Agua volcano Antigua",
+      "coffee plantation Antigua"
+    ]
+  },
+  "roatan": {
+    "city": "Roatán",
+    "country": "Honduras",
+    "terms": [
+      "West Bay Beach Roatan",
+      "Roatan coral reef",
+      "Roatan diving",
+      "Gumbalimba Park Roatan",
+      "Half Moon Bay Roatan",
+      "Roatan Caribbean water"
+    ]
+  },
+  "caye-caulker": {
+    "city": "Caye Caulker",
+    "country": "Belize",
+    "terms": [
+      "Caye Caulker dock",
+      "Split Caye Caulker",
+      "Caye Caulker beach bar",
+      "Barrier reef Caye Caulker",
+      "snorkeling Caye Caulker",
+      "Caye Caulker fishing boats"
+    ]
+  },
+  "manuel-antonio": {
+    "city": "Manuel Antonio",
+    "country": "Costa Rica",
+    "terms": [
+      "Manuel Antonio beach",
+      "Manuel Antonio National Park",
+      "sloths Manuel Antonio",
+      "Manuel Antonio sunset",
+      "Playa Espadilla Manuel Antonio",
+      "monkeys Manuel Antonio"
+    ]
+  },
+  "arenal": {
+    "city": "Arenal",
+    "country": "Costa Rica",
+    "terms": [
+      "Arenal Volcano Costa Rica",
+      "Arenal hot springs",
+      "Tabacon Arenal",
+      "Arenal Observatory Lodge",
+      "hanging bridges Arenal",
+      "La Fortuna waterfall"
+    ]
+  },
+  "sao-paulo": {
+    "city": "São Paulo",
+    "country": "Brazil",
+    "terms": [
+      "Sao Paulo skyline",
+      "MASP Sao Paulo",
+      "Vila Madalena street art",
+      "Ibirapuera Park Sao Paulo",
+      "Copan Building Sao Paulo",
+      "Municipal Market Sao Paulo"
+    ]
+  },
+  "florianopolis": {
+    "city": "Florianópolis",
+    "country": "Brazil",
+    "terms": [
+      "Lagoa da Conceicao Florianopolis",
+      "Joaquina Beach Florianopolis",
+      "Hercilio Luz Bridge",
+      "Florianopolis dunes",
+      "surfing Florianopolis",
+      "Santa Catarina Island"
+    ]
+  },
+  "salvador": {
+    "city": "Salvador",
+    "country": "Brazil",
+    "terms": [
+      "Pelourinho Salvador",
+      "Salvador Bahia colorful houses",
+      "Elevador Lacerda Salvador",
+      "Farol da Barra Salvador",
+      "Salvador beach",
+      "Igreja do Bonfim Salvador"
+    ]
+  },
+  "iguazu-falls": {
+    "city": "Foz do Iguaçu",
+    "country": "Brazil",
+    "terms": [
+      "Iguazu Falls waterfall rainbow",
+      "Devil's Throat Iguazu",
+      "Iguazu Falls boat spray",
+      "Argentina Brazil border falls",
+      "Iguazu rainforest walkway",
+      "Foz do Iguaçu national park"
+    ]
+  },
+  "mendoza": {
+    "city": "Mendoza",
+    "country": "Argentina",
+    "terms": [
+      "Mendoza vineyard Andes mountains",
+      "Malbec grapes Mendoza",
+      "Aconcagua peak Mendoza",
+      "Mendoza wine cellar",
+      "Andes foothills vineyard rows",
+      "Mendoza sunset mountains"
+    ]
+  },
+  "bariloche": {
+    "city": "Bariloche",
+    "country": "Argentina",
+    "terms": [
+      "Nahuel Huapi lake Bariloche",
+      "Bariloche chocolate shop street",
+      "Cerro Catedral ski slopes",
+      "Bariloche alpine architecture",
+      "Lake District Patagonia Bariloche",
+      "Centro Civico Bariloche stone"
+    ]
+  },
+  "valparaiso": {
+    "city": "Valparaíso",
+    "country": "Chile",
+    "terms": [
+      "Valparaiso street art murals",
+      "Valparaiso funicular railway",
+      "Valparaiso colorful houses hills",
+      "Cerro Concepcion Valparaiso",
+      "Valparaiso port harbor view",
+      "Pablo Neruda house Valparaiso"
+    ]
+  },
+  "sacred-valley": {
+    "city": "Sacred Valley",
+    "country": "Peru",
+    "terms": [
+      "Sacred Valley Inca terraces",
+      "Ollantaytambo ruins Peru",
+      "Pisac market Sacred Valley",
+      "Urubamba river valley",
+      "Machu Picchu train Sacred Valley",
+      "Chinchero weaving village"
+    ]
+  },
+  "atacama": {
+    "city": "San Pedro de Atacama",
+    "country": "Chile",
+    "terms": [
+      "Atacama desert salt flats",
+      "Valle de la Luna Atacama",
+      "El Tatio geysers Atacama",
+      "Atacama desert starry night",
+      "Flamingo Atacama lagoon",
+      "San Pedro de Atacama adobe"
+    ]
+  },
+  "tayrona": {
+    "city": "Tayrona",
+    "country": "Colombia",
+    "terms": [
+      "Tayrona beach palm trees",
+      "Cabo San Juan Tayrona",
+      "Tayrona jungle trail",
+      "Pueblito Tayrona ruins",
+      "Tayrona hammock beach",
+      "Caribbean coast Tayrona"
+    ]
+  },
+  "sedona": {
+    "city": "Sedona",
+    "country": "United States",
+    "terms": [
+      "Sedona red rock formations",
+      "Cathedral Rock Sedona",
+      "Bell Rock Sedona sunset",
+      "Sedona Chapel Holy Cross",
+      "Devil's Bridge Sedona",
+      "Oak Creek Sedona canyon"
+    ]
+  },
+  "jackson-hole": {
+    "city": "Jackson Hole",
+    "country": "United States",
+    "terms": [
+      "Grand Teton mountains Jackson",
+      "Jackson Hole elk antler arch",
+      "Jackson Hole ski resort",
+      "Snake River Grand Teton",
+      "Jackson town square Wyoming",
+      "Teton Range reflection lake"
+    ]
+  },
+  "vail": {
+    "city": "Vail",
+    "country": "United States",
+    "terms": [
+      "Vail village Bavarian architecture",
+      "Vail ski slopes mountains",
+      "Vail gondola summer",
+      "Blue Sky Basin Vail",
+      "Vail Pass Colorado",
+      "Lionshead Village Vail"
+    ]
+  },
+  "santa-barbara": {
+    "city": "Santa Barbara",
+    "country": "United States",
+    "terms": [
+      "Santa Barbara Mission bell tower",
+      "State Street Santa Barbara",
+      "Santa Barbara harbor marina",
+      "Stearns Wharf Santa Barbara",
+      "Santa Ynez mountains Santa Barbara",
+      "Santa Barbara courthouse tower"
+    ]
+  },
+  "sonoma": {
+    "city": "Sonoma",
+    "country": "United States",
+    "terms": [
+      "Sonoma vineyard golden hour",
+      "Sonoma Plaza town square",
+      "Russian River Sonoma",
+      "Sonoma County wine tasting",
+      "Armstrong Redwoods Sonoma",
+      "Healdsburg Sonoma vineyards"
+    ]
+  },
+  "carmel": {
+    "city": "Carmel-by-the-Sea",
+    "country": "United States",
+    "terms": [
+      "Carmel fairytale cottages",
+      "Carmel Beach white sand",
+      "Point Lobos Carmel",
+      "Carmel Mission tower",
+      "Scenic Drive Carmel",
+      "Carmel village storybook houses"
+    ]
+  },
+  "big-sur": {
+    "city": "Big Sur",
+    "country": "United States",
+    "terms": [
+      "Bixby Bridge Big Sur",
+      "McWay Falls Big Sur",
+      "Big Sur coastline highway",
+      "Julia Pfeiffer Burns Big Sur",
+      "Big Sur redwood forest",
+      "Hearst Castle Big Sur"
+    ]
+  },
+  "martha-vineyard": {
+    "city": "Martha's Vineyard",
+    "country": "United States",
+    "terms": [
+      "Oak Bluffs gingerbread cottages",
+      "Martha's Vineyard lighthouse",
+      "Edgartown Martha's Vineyard harbor",
+      "Martha's Vineyard beach dunes",
+      "Vineyard Haven ferry",
+      "Gay Head Cliffs Martha's Vineyard"
+    ]
+  },
+  "nantucket": {
+    "city": "Nantucket",
+    "country": "United States",
+    "terms": [
+      "Nantucket cobblestone streets",
+      "Brant Point Lighthouse Nantucket",
+      "Nantucket wharf harbor",
+      "Sconset Nantucket cottages",
+      "Nantucket beach roses",
+      "Main Street Nantucket brick"
+    ]
+  },
+  "cape-cod": {
+    "city": "Cape Cod",
+    "country": "United States",
+    "terms": [
+      "Cape Cod National Seashore",
+      "Provincetown Cape Cod dunes",
+      "Chatham lighthouse Cape Cod",
+      "Cape Cod cranberry bog",
+      "Nauset Beach Cape Cod",
+      "Cape Cod Bay sunset"
+    ]
+  },
+  "yellowstone": {
+    "city": "Yellowstone",
+    "country": "United States",
+    "terms": [
+      "Old Faithful geyser Yellowstone",
+      "Grand Prismatic Spring Yellowstone",
+      "Yellowstone bison wildlife",
+      "Grand Canyon Yellowstone",
+      "Morning Glory Pool Yellowstone",
+      "Mammoth Hot Springs Yellowstone"
+    ]
+  },
+  "grand-canyon": {
+    "city": "Grand Canyon",
+    "country": "United States",
+    "terms": [
+      "Grand Canyon South Rim",
+      "Grand Canyon sunrise point",
+      "Grand Canyon Colorado River",
+      "Bright Angel Trail Grand Canyon",
+      "Grand Canyon desert view",
+      "Grand Canyon layers rock"
+    ]
+  },
+  "moab": {
+    "city": "Moab",
+    "country": "United States",
+    "terms": [
+      "Delicate Arch Moab Utah",
+      "Mesa Arch Moab sunrise",
+      "Canyonlands Moab overlook",
+      "Moab red rock formations",
+      "Corona Arch Moab",
+      "Fiery Furnace Moab"
+    ]
+  },
+  "zion": {
+    "city": "Zion National Park",
+    "country": "United States",
+    "terms": [
+      "Angels Landing Zion chains",
+      "Zion Narrows slot canyon",
+      "Zion red cliffs canyon",
+      "Emerald Pools Zion",
+      "Zion Canyon scenic drive",
+      "Court of Patriarchs Zion"
+    ]
+  },
+  "tucson": {
+    "city": "Tucson",
+    "country": "United States",
+    "terms": [
+      "Saguaro cactus Tucson sunset",
+      "Tucson desert mountain view",
+      "Mission San Xavier Tucson",
+      "Sabino Canyon Tucson",
+      "Tucson saguaro national park",
+      "Catalina Mountains Tucson"
+    ]
+  },
+  "albuquerque": {
+    "city": "Albuquerque",
+    "country": "United States",
+    "terms": [
+      "Albuquerque Balloon Fiesta sky",
+      "Old Town Albuquerque plaza",
+      "Sandia Peak Albuquerque tramway",
+      "Albuquerque adobe architecture",
+      "Rio Grande Albuquerque",
+      "Petroglyph National Monument Albuquerque"
+    ]
+  },
+  "st-louis": {
+    "city": "St. Louis",
+    "country": "United States",
+    "terms": [
+      "Gateway Arch St Louis",
+      "St Louis Cathedral Basilica",
+      "Forest Park St Louis",
+      "Anheuser Busch brewery St Louis",
+      "St Louis City Museum",
+      "Eads Bridge St Louis"
+    ]
+  },
+  "kansas-city": {
+    "city": "Kansas City",
+    "country": "United States",
+    "terms": [
+      "Kansas City fountains plaza",
+      "Union Station Kansas City",
+      "Kansas City Power Light District",
+      "Nelson Atkins Museum Kansas City",
+      "Kansas City barbecue restaurant",
+      "Kauffman Stadium Kansas City"
+    ]
+  },
+  "pittsburgh": {
+    "city": "Pittsburgh",
+    "country": "United States",
+    "terms": [
+      "Pittsburgh Three Rivers confluence",
+      "Pittsburgh Duquesne Incline skyline",
+      "Pittsburgh Heinz Field stadium",
+      "Pittsburgh Andy Warhol Museum",
+      "Pittsburgh Point State Park fountain",
+      "Pittsburgh Strip District market"
+    ]
+  },
+  "cleveland": {
+    "city": "Cleveland",
+    "country": "United States",
+    "terms": [
+      "Cleveland Rock and Roll Hall of Fame",
+      "Cleveland Art Museum galleries",
+      "Cleveland West Side Market vendors",
+      "Cleveland lakefront downtown",
+      "Cleveland Terminal Tower",
+      "Cleveland Playhouse Square theaters"
+    ]
+  },
+  "portland-maine": {
+    "city": "Portland",
+    "country": "United States",
+    "terms": [
+      "Portland Maine Head Light lighthouse",
+      "Portland Maine Old Port cobblestone",
+      "Portland Maine lobster boats harbor",
+      "Portland Maine Eastern Promenade",
+      "Portland Maine Holy Donut",
+      "Portland Maine Casco Bay islands"
+    ]
+  },
+  "asheville": {
+    "city": "Asheville",
+    "country": "United States",
+    "terms": [
+      "Asheville Biltmore Estate gardens",
+      "Asheville Blue Ridge Parkway mountains",
+      "Asheville downtown brewery district",
+      "Asheville River Arts District",
+      "Asheville Grove Park Inn",
+      "Asheville French Broad River"
+    ]
+  },
+  "memphis": {
+    "city": "Memphis",
+    "country": "United States",
+    "terms": [
+      "Memphis Graceland mansion gates",
+      "Memphis Beale Street neon signs",
+      "Memphis Sun Studio recording",
+      "Memphis National Civil Rights Museum",
+      "Memphis Mississippi River sunset",
+      "Memphis BBQ restaurant scene"
+    ]
+  },
+  "indianapolis": {
+    "city": "Indianapolis",
+    "country": "United States",
+    "terms": [
+      "Indianapolis Motor Speedway track",
+      "Indianapolis Monument Circle soldier",
+      "Indianapolis Children's Museum dinosaurs",
+      "Indianapolis Mass Ave cultural district",
+      "Indianapolis White River State Park",
+      "Indianapolis State Capitol building"
+    ]
+  },
+  "milwaukee": {
+    "city": "Milwaukee",
+    "country": "United States",
+    "terms": [
+      "Milwaukee Art Museum wings sculpture",
+      "Milwaukee Harley Davidson Museum",
+      "Milwaukee lakefront brewery district",
+      "Milwaukee Historic Third Ward",
+      "Milwaukee Riverwalk bridges",
+      "Milwaukee Summerfest grounds"
+    ]
+  },
+  "raleigh": {
+    "city": "Raleigh-Durham",
+    "country": "United States",
+    "terms": [
+      "Durham Duke Chapel Gothic tower",
+      "Raleigh State Capitol building",
+      "Raleigh Pullen Park carousel",
+      "Durham Research Triangle Park",
+      "Raleigh barbecue restaurant",
+      "Raleigh North Carolina Museum"
+    ]
+  },
+  "niagara-falls": {
+    "city": "Niagara Falls",
+    "country": "Canada",
+    "terms": [
+      "Niagara Falls horseshoe waterfall mist",
+      "Niagara Falls Maid of the Mist boat",
+      "Niagara Falls rainbow observation deck",
+      "Niagara Falls illumination night",
+      "Niagara wine country vineyards",
+      "Niagara Falls Journey Behind"
+    ]
+  },
+  "jasper": {
+    "city": "Jasper",
+    "country": "Canada",
+    "terms": [
+      "Jasper Maligne Lake canoe",
+      "Jasper Athabasca Glacier ice",
+      "Jasper dark sky Milky Way",
+      "Jasper Medicine Lake mountains",
+      "Jasper wildlife elk bears",
+      "Jasper Columbia Icefield"
+    ]
+  },
+  "kelowna": {
+    "city": "Kelowna",
+    "country": "Canada",
+    "terms": [
+      "Kelowna Okanagan Lake vineyards",
+      "Kelowna Big White ski resort",
+      "Kelowna downtown waterfront beach",
+      "Kelowna wine tasting room",
+      "Kelowna fruit orchards harvest",
+      "Kelowna Knox Mountain hiking"
+    ]
+  },
+  "edmonton": {
+    "city": "Edmonton",
+    "country": "Canada",
+    "terms": [
+      "Edmonton West Edmonton Mall waterpark",
+      "Edmonton River Valley parkland",
+      "Edmonton Alberta Legislature building",
+      "Edmonton northern lights aurora",
+      "Edmonton Art Gallery modern",
+      "Edmonton Whyte Avenue shops"
+    ]
+  },
+  "st-johns": {
+    "city": "St. John's",
+    "country": "Canada",
+    "terms": [
+      "St Johns colorful row houses",
+      "St Johns Signal Hill tower",
+      "St Johns icebergs harbor",
+      "St Johns Cape Spear lighthouse",
+      "St Johns Quidi Vidi village",
+      "St Johns George House pub"
+    ]
+  },
+  "prince-edward-island": {
+    "city": "Charlottetown",
+    "country": "Canada",
+    "terms": [
+      "Prince Edward Island red sand beaches",
+      "Charlottetown Anne of Green Gables",
+      "Prince Edward Island lobster dinner",
+      "Charlottetown Confederation Centre",
+      "Prince Edward Island lighthouse coast",
+      "Prince Edward Island golf course ocean"
+    ]
+  },
+  "cozumel": {
+    "city": "Cozumel",
+    "country": "Mexico",
+    "terms": [
+      "Cozumel coral reef diving",
+      "Cozumel San Gervasio Mayan ruins",
+      "Cozumel cruise ship port",
+      "Cozumel Palancar Beach snorkeling",
+      "Cozumel downtown plaza fountain",
+      "Cozumel Chankanaab Park lagoon"
+    ]
+  },
+  "guanajuato": {
+    "city": "Guanajuato",
+    "country": "Mexico",
+    "terms": [
+      "Guanajuato colorful hillside houses",
+      "Guanajuato Callejon del Beso alley",
+      "Guanajuato underground tunnel streets",
+      "Guanajuato Teatro Juarez theater",
+      "Guanajuato University steps yellow",
+      "Guanajuato Pipila monument viewpoint"
+    ]
+  },
+  "todos-santos": {
+    "city": "Todos Santos",
+    "country": "Mexico",
+    "terms": [
+      "Todos Santos Hotel California building",
+      "Todos Santos artist galleries shops",
+      "Todos Santos La Poza beach surfing",
+      "Todos Santos mission church",
+      "Todos Santos boutique hotel courtyard",
+      "Todos Santos desert cactus landscape"
+    ]
+  },
+  "puebla": {
+    "city": "Puebla",
+    "country": "Mexico",
+    "terms": [
+      "Puebla Cathedral baroque facade",
+      "Puebla Talavera pottery tiles",
+      "Puebla Cholula pyramid church",
+      "Puebla mole poblano dish",
+      "Puebla Rosary Chapel gold",
+      "Puebla colonial architecture balconies"
+    ]
+  },
+  "lake-atitlan": {
+    "city": "Lake Atitlán",
+    "country": "Guatemala",
+    "terms": [
+      "Lake Atitlan volcanic peaks reflection",
+      "Lake Atitlan Panajachel village boats",
+      "Lake Atitlan Santiago Atitlan market",
+      "Lake Atitlan kayaking sunrise",
+      "Lake Atitlan Mayan women weaving",
+      "Lake Atitlan San Pedro volcano"
+    ]
+  },
+  "monteverde": {
+    "city": "Monteverde",
+    "country": "Costa Rica",
+    "terms": [
+      "Monteverde cloud forest canopy",
+      "Monteverde zip line adventure",
+      "Monteverde hanging bridges trees",
+      "Monteverde quetzal bird wildlife",
+      "Monteverde coffee plantation tour",
+      "Monteverde misty forest trails"
+    ]
+  },
+  "tamarindo": {
+    "city": "Tamarindo",
+    "country": "Costa Rica",
+    "terms": [
+      "Tamarindo beach surfing waves",
+      "Tamarindo sea turtle nesting",
+      "Tamarindo sunset beach volleyball",
+      "Tamarindo mangrove kayaking",
+      "Tamarindo beach town restaurants",
+      "Tamarindo Pacific coast palm trees"
+    ]
+  },
+  "ushuaia": {
+    "city": "Ushuaia",
+    "country": "Argentina",
+    "terms": [
+      "Ushuaia Beagle Channel mountains",
+      "Ushuaia end of world sign",
+      "Ushuaia Tierra del Fuego glaciers",
+      "Ushuaia harbor Antarctic cruise",
+      "Ushuaia Martial Glacier hiking",
+      "Ushuaia colorful houses bay"
+    ]
+  },
+  "salta": {
+    "city": "Salta",
+    "country": "Argentina",
+    "terms": [
+      "Salta colonial cathedral plaza",
+      "Salta Train to Clouds viaduct",
+      "Salta Cafayate wine vineyards",
+      "Salta Cabildo historic building",
+      "Salta Quebrada de Humahuaca colors",
+      "Salta northwestern desert landscape"
+    ]
+  },
+  "puerto-madryn": {
+    "city": "Puerto Madryn",
+    "country": "Argentina",
+    "terms": [
+      "Puerto Madryn whale watching Peninsula Valdes",
+      "Puerto Madryn sea lion colony",
+      "Puerto Madryn penguin rookery Punta Tombo",
+      "Puerto Madryn diving sea mammals",
+      "Puerto Madryn Golfo Nuevo bay",
+      "Puerto Madryn elephant seal beach"
+    ]
+  },
+  "torres-del-paine": {
+    "city": "Torres del Paine",
+    "country": "Chile",
+    "terms": [
+      "Torres del Paine granite towers",
+      "Torres del Paine W trek hiking",
+      "Torres del Paine Grey Glacier",
+      "Torres del Paine guanaco wildlife",
+      "Torres del Paine Cuernos del Paine",
+      "Torres del Paine Patagonia steppe"
+    ]
+  },
+  "easter-island": {
+    "city": "Easter Island",
+    "country": "Chile",
+    "terms": [
+      "Easter Island Moai statues sunset",
+      "Rano Raraku Easter Island moai",
+      "Orongo Easter Island petroglyphs",
+      "Rano Kau crater Easter Island",
+      "Anakena beach Easter Island palm",
+      "Ahu Tongariki Easter Island moai"
+    ]
+  },
+  "vina-del-mar": {
+    "city": "Viña del Mar",
+    "country": "Chile",
+    "terms": [
+      "Viña del Mar flower clock",
+      "Reñaca beach Viña del Mar",
+      "Viña del Mar casino coastline",
+      "Quinta Vergara amphitheater Viña",
+      "Viña del Mar pier sunset",
+      "Palace Rioja Viña del Mar"
+    ]
+  },
+  "arequipa": {
+    "city": "Arequipa",
+    "country": "Peru",
+    "terms": [
+      "Arequipa white sillar cathedral",
+      "Santa Catalina monastery Arequipa",
+      "El Misti volcano Arequipa view",
+      "Arequipa plaza de armas architecture",
+      "Colca Canyon condors Arequipa",
+      "Arequipa colonial white stone buildings"
+    ]
+  },
+  "puno": {
+    "city": "Puno",
+    "country": "Peru",
+    "terms": [
+      "Lake Titicaca Uros floating islands",
+      "Puno Lake Titicaca totora reeds",
+      "Taquile Island Lake Titicaca",
+      "Puno cathedral main square",
+      "Lake Titicaca sunset Puno",
+      "Sillustani towers Puno altiplano"
+    ]
+  },
+  "cuenca": {
+    "city": "Cuenca",
+    "country": "Ecuador",
+    "terms": [
+      "Cuenca cathedral blue domes",
+      "Cuenca colonial balconies cobblestone",
+      "Tomebamba River Cuenca",
+      "Cuenca New Cathedral spires",
+      "Cuenca flower market plaza",
+      "Mirador de Turi Cuenca panoramic"
+    ]
+  },
+  "banos": {
+    "city": "Baños",
+    "country": "Ecuador",
+    "terms": [
+      "Swing End of World Baños",
+      "Pailón del Diablo waterfall Baños",
+      "Casa del Arbol swing Baños",
+      "Baños hot springs thermal",
+      "Ruta de las Cascadas Baños",
+      "Baños church Tungurahua volcano"
+    ]
+  },
+  "santa-marta": {
+    "city": "Santa Marta",
+    "country": "Colombia",
+    "terms": [
+      "Santa Marta cathedral historic center",
+      "Taganga beach Santa Marta",
+      "Santa Marta Sierra Nevada mountains",
+      "Quinta de San Pedro Alejandrino",
+      "Santa Marta Caribbean colonial architecture",
+      "Bahía de Santa Marta sunset"
+    ]
+  },
+  "colonia": {
+    "city": "Colonia del Sacramento",
+    "country": "Uruguay",
+    "terms": [
+      "Colonia del Sacramento cobblestone streets",
+      "Colonia lighthouse Rio de la Plata",
+      "Colonia del Sacramento colonial quarter",
+      "Portón de Campo Colonia walls",
+      "Colonia del Sacramento sunset pier",
+      "Calle de los Suspiros Colonia"
+    ]
+  },
+  "jamaica": {
+    "city": "Montego Bay",
+    "country": "Jamaica",
+    "terms": [
+      "Doctor's Cave Beach Montego Bay",
+      "Dunn's River Falls Jamaica cascades",
+      "Rose Hall Great House Jamaica",
+      "Montego Bay Hip Strip sunset",
+      "Seven Mile Beach Negril Jamaica",
+      "Blue Hole Jamaica turquoise water"
+    ]
+  },
+  "bahamas": {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "terms": [
+      "Atlantis Resort Nassau paradise",
+      "Swimming pigs Bahamas Exumas",
+      "Nassau Paradise Island bridge",
+      "Cable Beach Nassau sunset",
+      "Queen's Staircase Nassau waterfalls",
+      "Nassau straw market colonial"
+    ]
+  },
+  "aruba": {
+    "city": "Oranjestad",
+    "country": "Aruba",
+    "terms": [
+      "Eagle Beach Aruba divi trees",
+      "Natural Bridge Aruba limestone",
+      "Flamingo Beach Aruba pink birds",
+      "Oranjestad colorful Dutch architecture",
+      "California Lighthouse Aruba sunset",
+      "Alto Vista Chapel Aruba"
+    ]
+  },
+  "st-lucia": {
+    "city": "Castries",
+    "country": "Saint Lucia",
+    "terms": [
+      "Pitons Saint Lucia twin peaks",
+      "Soufrière Pitons Saint Lucia",
+      "Diamond Falls Saint Lucia botanical",
+      "Marigot Bay Saint Lucia palm",
+      "Castries market Saint Lucia colorful",
+      "Sulphur Springs Saint Lucia drive-in volcano"
+    ]
+  },
+  "barbados": {
+    "city": "Bridgetown",
+    "country": "Barbados",
+    "terms": [
+      "Bridgetown Barbados parliament colonial",
+      "Crane Beach Barbados pink sand",
+      "Mount Gay Rum Distillery Barbados",
+      "Harrison's Cave Barbados stalactites",
+      "Animal Flower Cave Barbados cliffs",
+      "Bathsheba Beach Barbados rock formations"
+    ]
+  },
+  "turks-caicos": {
+    "city": "Providenciales",
+    "country": "Turks and Caicos",
+    "terms": [
+      "Grace Bay Beach Turks Caicos",
+      "Conch Cay Turks Caicos turquoise",
+      "Chalk Sound Providenciales lagoon",
+      "Long Bay Beach Providenciales kitesurfing",
+      "Mudjin Harbor Middle Caicos cliffs",
+      "Thursday Fish Fry Turks Caicos"
+    ]
+  },
+  "curacao": {
+    "city": "Willemstad",
+    "country": "Curacao",
+    "terms": [
+      "Willemstad colorful waterfront Curacao",
+      "Queen Emma Bridge Curacao floating",
+      "Handelskade Willemstad rainbow houses",
+      "Klein Curacao lighthouse beach",
+      "Christoffel National Park Curacao",
+      "Mambo Beach Curacao resort"
+    ]
+  },
+  "dominican-republic": {
+    "city": "Punta Cana",
+    "country": "Dominican Republic",
+    "terms": [
+      "Punta Cana beach palm trees",
+      "Bavaro Beach Punta Cana resort",
+      "Hoyo Azul cenote Punta Cana",
+      "Saona Island Dominican Republic",
+      "Cap Cana marina Dominican Republic",
+      "Indigenous Eyes Ecological Park Punta Cana"
+    ]
+  },
+  "puerto-rico": {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "terms": [
+      "Old San Juan colorful houses",
+      "El Morro fortress San Juan",
+      "El Yunque rainforest Puerto Rico",
+      "Mosquito Bay bioluminescent Vieques",
+      "Camuy Caves Puerto Rico limestone",
+      "Flamenco Beach Culebra Puerto Rico"
+    ]
+  },
+  "virgin-islands": {
+    "city": "St. Thomas",
+    "country": "US Virgin Islands",
+    "terms": [
+      "Magens Bay Beach St Thomas",
+      "Paradise Point Skyride St Thomas",
+      "Coral World Ocean Park St Thomas",
+      "Blackbeard's Castle St Thomas",
+      "Coki Beach St Thomas snorkeling",
+      "Charlotte Amalie harbor St Thomas"
+    ]
+  },
+  "cayman-islands": {
+    "city": "George Town",
+    "country": "Cayman Islands",
+    "terms": [
+      "Seven Mile Beach Grand Cayman",
+      "Stingray City Cayman Islands sandbar",
+      "Hell Grand Cayman rock formations",
+      "George Town Cayman waterfront",
+      "Blowholes East End Cayman",
+      "Queen Elizabeth II Botanic Park"
+    ]
+  },
+  "antigua": {
+    "city": "St. John's",
+    "country": "Antigua and Barbuda",
+    "terms": [
+      "Nelson's Dockyard Antigua harbor",
+      "Shirley Heights Antigua sunset",
+      "Dickenson Bay Antigua beach",
+      "St John's Cathedral Antigua twin towers",
+      "Devil's Bridge Antigua limestone",
+      "Half Moon Bay Antigua crescent"
+    ]
+  },
+  "grenada": {
+    "city": "St. George's",
+    "country": "Grenada",
+    "terms": [
+      "Grand Anse Beach Grenada horseshoe",
+      "St George's harbor Grenada colorful",
+      "Annandale Falls Grenada tropical",
+      "Nutmeg plantation Grenada spice",
+      "Underwater sculpture park Grenada",
+      "Fort George Grenada panoramic"
+    ]
+  },
+  "st-barts": {
+    "city": "Gustavia",
+    "country": "Saint Barthelemy",
+    "terms": [
+      "Gustavia harbor St Barts yachts",
+      "Shell Beach St Barts shells",
+      "Flamands Beach St Barts luxury",
+      "Fort Oscar Gustavia St Barts",
+      "Saline Beach St Barts naturist",
+      "Lorient Beach St Barts surfing"
+    ]
+  },
+  "st-kitts": {
+    "city": "Basseterre",
+    "country": "Saint Kitts and Nevis",
+    "terms": [
+      "Brimstone Hill Fortress St Kitts",
+      "St Kitts Scenic Railway sugar",
+      "South Friars Beach St Kitts",
+      "Independence Square Basseterre St Kitts",
+      "Mount Liamuiga St Kitts volcano",
+      "Romney Manor St Kitts plantation"
+    ]
+  },
+  "bonaire": {
+    "city": "Kralendijk",
+    "country": "Bonaire",
+    "terms": [
+      "Kralendijk waterfront Bonaire colorful",
+      "Washington Slagbaai National Park Bonaire",
+      "Pink Beach Bonaire flamingos",
+      "Lac Bay Bonaire windsurfing",
+      "Salt pyramids Bonaire white",
+      "Thousand Steps dive site Bonaire"
+    ]
+  },
+  "martinique": {
+    "city": "Fort-de-France",
+    "country": "Martinique",
+    "terms": [
+      "Mount Pelée volcano Martinique",
+      "Les Salines Beach Martinique palm",
+      "Fort-de-France Schoelcher Library",
+      "Jardin de Balata Martinique botanical",
+      "Diamond Rock Martinique volcanic",
+      "Saint-Pierre ruins Martinique historic"
+    ]
+  },
+  "guadeloupe": {
+    "city": "Pointe-a-Pitre",
+    "country": "Guadeloupe",
+    "terms": [
+      "Guadeloupe Carbet Falls waterfall",
+      "Pointe-a-Pitre colorful market",
+      "Guadeloupe butterfly island aerial",
+      "Deshaies botanical garden Guadeloupe",
+      "Guadeloupe beaches Grande Anse",
+      "Creole houses Guadeloupe architecture"
+    ]
+  },
+  "dubai": {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "terms": [
+      "Dubai Burj Khalifa skyline",
+      "Palm Jumeirah aerial view Dubai",
+      "Dubai Marina towers waterfront",
+      "Dubai Mall aquarium fountain",
+      "Dubai desert safari dunes",
+      "Burj Al Arab sail hotel Dubai"
+    ]
+  },
+  "jordan": {
+    "city": "Amman",
+    "country": "Jordan",
+    "terms": [
+      "Petra Treasury Jordan facade",
+      "Wadi Rum desert formations Jordan",
+      "Dead Sea floating Jordan",
+      "Amman Roman amphitheater",
+      "Jordan Mount Nebo monastery",
+      "Jerash Roman ruins Jordan"
+    ]
+  },
+  "israel": {
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "terms": [
+      "Tel Aviv beaches Mediterranean",
+      "Jaffa old port Tel Aviv",
+      "Tel Aviv Bauhaus white city",
+      "Carmel Market Tel Aviv colorful",
+      "Tel Aviv skyline sunset",
+      "Jerusalem Western Wall stones"
+    ]
+  },
+  "oman": {
+    "city": "Muscat",
+    "country": "Oman",
+    "terms": [
+      "Sultan Qaboos Grand Mosque Muscat",
+      "Wadi Shab pools Oman",
+      "Muscat corniche mountains",
+      "Nizwa Fort Oman",
+      "Wahiba Sands desert Oman",
+      "Musandam fjords Oman"
+    ]
+  },
+  "abu-dhabi": {
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "terms": [
+      "Sheikh Zayed Mosque Abu Dhabi",
+      "Louvre Abu Dhabi dome museum",
+      "Yas Marina Circuit Abu Dhabi",
+      "Emirates Palace Abu Dhabi",
+      "Abu Dhabi corniche skyline",
+      "Qasr Al Sarab desert resort"
+    ]
+  },
+  "doha": {
+    "city": "Doha",
+    "country": "Qatar",
+    "terms": [
+      "Museum Islamic Art Doha",
+      "Souq Waqif traditional Qatar",
+      "Pearl Qatar artificial island",
+      "Doha corniche skyline",
+      "Katara Cultural Village Doha",
+      "National Museum Qatar desert rose"
+    ]
+  },
+  "bahrain": {
+    "city": "Manama",
+    "country": "Bahrain",
+    "terms": [
+      "Bahrain Fort Qal'at al-Bahrain",
+      "Manama souq traditional market",
+      "Bahrain World Trade Center",
+      "Al Fateh Grand Mosque Bahrain",
+      "Manama skyline Financial Harbour",
+      "Bahrain International Circuit"
+    ]
+  },
+  "kuwait": {
+    "city": "Kuwait City",
+    "country": "Kuwait",
+    "terms": [
+      "Kuwait Towers iconic blue",
+      "Grand Mosque Kuwait City",
+      "Kuwait National Assembly building",
+      "Souk Al Mubarakiya Kuwait",
+      "Liberation Tower Kuwait skyline",
+      "Al Shaheed Park Kuwait"
+    ]
+  },
+  "jerusalem": {
+    "city": "Jerusalem",
+    "country": "Israel",
+    "terms": [
+      "Jerusalem Western Wall prayers",
+      "Dome of the Rock Jerusalem",
+      "Church Holy Sepulchre Jerusalem",
+      "Jerusalem Old City walls",
+      "Mount of Olives Jerusalem view",
+      "Via Dolorosa Jerusalem stones"
+    ]
+  },
+  "dead-sea": {
+    "city": "Dead Sea",
+    "country": "Jordan",
+    "terms": [
+      "Dead Sea floating person",
+      "Dead Sea salt crystals",
+      "Masada fortress Dead Sea",
+      "Dead Sea mud bath",
+      "Dead Sea resort pools",
+      "Ein Gedi oasis Dead Sea"
+    ]
+  },
+  "beirut": {
+    "city": "Beirut",
+    "country": "Lebanon",
+    "terms": [
+      "Beirut corniche Mediterranean",
+      "Pigeon Rocks Beirut coast",
+      "Beirut downtown Roman ruins",
+      "Hamra Street Beirut cafes",
+      "Beirut rooftops old buildings",
+      "Mohammad Al Amin Mosque Beirut"
+    ]
+  },
+  "riyadh": {
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "terms": [
+      "Edge of the World Riyadh cliff",
+      "Kingdom Centre Tower Riyadh",
+      "Diriyah mud brick architecture",
+      "Masmak Fortress Riyadh",
+      "King Fahd Stadium Riyadh",
+      "Riyadh desert landscape"
+    ]
+  },
+  "jeddah": {
+    "city": "Jeddah",
+    "country": "Saudi Arabia",
+    "terms": [
+      "Al Balad historic Jeddah",
+      "Jeddah corniche Red Sea",
+      "King Fahd Fountain Jeddah",
+      "Jeddah old town balconies",
+      "Floating Mosque Jeddah",
+      "Jeddah fish market traditional"
+    ]
+  },
+  "alula": {
+    "city": "AlUla",
+    "country": "Saudi Arabia",
+    "terms": [
+      "Hegra tombs AlUla Nabataean",
+      "Elephant Rock AlUla formation",
+      "AlUla old town mud brick",
+      "Rainbow Rock AlUla colorful",
+      "AlUla desert landscape rocks",
+      "Maraya concert hall AlUla mirror"
+    ]
+  },
+  "cape-town": {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "terms": [
+      "Table Mountain Cape Town cable",
+      "Cape Point lighthouse cliffs",
+      "Boulders Beach penguins Cape Town",
+      "Cape Town waterfront harbor",
+      "Bo Kaap colorful houses",
+      "Stellenbosch vineyards Cape Town"
+    ]
+  },
+  "morocco": {
+    "city": "Marrakech",
+    "country": "Morocco",
+    "terms": [
+      "Marrakech Jemaa el Fnaa",
+      "Bahia Palace Marrakech gardens",
+      "Marrakech souks spices colorful",
+      "Koutoubia Mosque Marrakech",
+      "Majorelle Garden Marrakech blue",
+      "Atlas Mountains Marrakech view"
+    ]
+  },
+  "tanzania": {
+    "city": "Arusha",
+    "country": "Tanzania",
+    "terms": [
+      "Serengeti wildebeest migration Tanzania",
+      "Ngorongoro Crater Tanzania wildlife",
+      "Mount Kilimanjaro snow peak",
+      "Arusha National Park giraffes",
+      "Tarangire baobab trees Tanzania",
+      "Lake Manyara flamingos Tanzania"
+    ]
+  },
+  "egypt": {
+    "city": "Cairo",
+    "country": "Egypt",
+    "terms": [
+      "Pyramids Giza sphinx Cairo",
+      "Cairo Islamic architecture mosque",
+      "Nile River felucca boats",
+      "Valley Kings tombs Luxor",
+      "Abu Simbel temple facade",
+      "Khan el Khalili bazaar Cairo"
+    ]
+  },
+  "mauritius": {
+    "city": "Port Louis",
+    "country": "Mauritius",
+    "terms": [
+      "Mauritius underwater waterfall illusion",
+      "Seven Colored Earths Mauritius",
+      "Le Morne mountain Mauritius",
+      "Mauritius beaches turquoise water",
+      "Port Louis market Mauritius",
+      "Mauritius sugar cane fields"
+    ]
+  },
+  "zanzibar": {
+    "city": "Stone Town",
+    "country": "Tanzania",
+    "terms": [
+      "Stone Town doors carved",
+      "Zanzibar spice market colorful",
+      "Zanzibar beaches white sand",
+      "Stone Town architecture balconies",
+      "Zanzibar dhow sunset sailing",
+      "Forodhani Gardens Stone Town"
+    ]
+  },
+  "kenya": {
+    "city": "Nairobi",
+    "country": "Kenya",
+    "terms": [
+      "Masai Mara lions Kenya",
+      "Kenya elephants Amboseli Kilimanjaro",
+      "Giraffe Centre Nairobi feeding",
+      "Great Migration Kenya crossing",
+      "Samburu National Reserve Kenya",
+      "Lake Nakuru flamingos Kenya"
+    ]
+  },
+  "seychelles": {
+    "city": "Mahe",
+    "country": "Seychelles",
+    "terms": [
+      "Anse Source Argent granite boulders",
+      "Seychelles beaches turquoise water",
+      "Aldabra giant tortoise Seychelles",
+      "Vallee de Mai coco de mer",
+      "Seychelles coral reefs diving",
+      "Mahe mountains tropical forest"
+    ]
+  },
+  "victoria-falls": {
+    "city": "Victoria Falls",
+    "country": "Zimbabwe",
+    "terms": [
+      "Victoria Falls waterfall rainbow",
+      "Devil's Pool Victoria Falls edge",
+      "Victoria Falls bridge bungee",
+      "Zambezi River rapids Victoria Falls",
+      "Victoria Falls helicopter view",
+      "Baobab trees Victoria Falls sunset"
+    ]
+  },
+  "johannesburg": {
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "terms": [
+      "Apartheid Museum Johannesburg exhibits",
+      "Soweto township Johannesburg colorful",
+      "Maboneng precinct Johannesburg street art",
+      "Carlton Centre Johannesburg skyline",
+      "Constitution Hill Johannesburg",
+      "Gold Reef City Johannesburg mine"
+    ]
+  },
+  "kruger": {
+    "city": "Kruger Park",
+    "country": "South Africa",
+    "terms": [
+      "Kruger National Park elephants",
+      "Kruger lions safari",
+      "Kruger leopard tree",
+      "Kruger rhino close up",
+      "Kruger buffalo herd",
+      "Kruger safari lodge sunset"
+    ]
+  },
+  "fes": {
+    "city": "Fes",
+    "country": "Morocco",
+    "terms": [
+      "Fes medina maze",
+      "Fes tanneries colorful",
+      "Fes Bou Inania madrasa",
+      "Fes leather workshop",
+      "Fes pottery artisan",
+      "Fes Chouara tannery aerial"
+    ]
+  },
+  "chefchaouen": {
+    "city": "Chefchaouen",
+    "country": "Morocco",
+    "terms": [
+      "Chefchaouen blue streets",
+      "Chefchaouen blue doors",
+      "Chefchaouen Rif Mountains",
+      "Chefchaouen blue medina",
+      "Chefchaouen pottery blue",
+      "Chefchaouen blue stairways"
+    ]
+  },
+  "essaouira": {
+    "city": "Essaouira",
+    "country": "Morocco",
+    "terms": [
+      "Essaouira medina walls",
+      "Essaouira fishing boats",
+      "Essaouira windsurfing",
+      "Essaouira ramparts ocean",
+      "Essaouira Skala fortress",
+      "Essaouira beach sunset"
+    ]
+  },
+  "luxor": {
+    "city": "Luxor",
+    "country": "Egypt",
+    "terms": [
+      "Luxor Valley of Kings",
+      "Luxor Karnak Temple",
+      "Luxor hot air balloons",
+      "Luxor Nile felucca",
+      "Luxor Hatshepsut Temple",
+      "Luxor sphinx avenue"
+    ]
+  },
+  "hurghada": {
+    "city": "Hurghada",
+    "country": "Egypt",
+    "terms": [
+      "Hurghada Red Sea diving",
+      "Hurghada coral reef",
+      "Hurghada resort beach",
+      "Hurghada desert quad",
+      "Hurghada marina sunset",
+      "Hurghada snorkeling fish"
+    ]
+  },
+  "rwanda": {
+    "city": "Kigali",
+    "country": "Rwanda",
+    "terms": [
+      "Rwanda mountain gorillas",
+      "Kigali city hills",
+      "Rwanda coffee plantation",
+      "Kigali genocide memorial",
+      "Rwanda Volcanoes National Park",
+      "Rwanda gorilla trekking"
+    ]
+  },
+  "uganda": {
+    "city": "Kampala",
+    "country": "Uganda",
+    "terms": [
+      "Uganda mountain gorillas",
+      "Uganda Nile source",
+      "Uganda chimpanzee forest",
+      "Kampala hills cityscape",
+      "Uganda Queen Elizabeth safari",
+      "Uganda Bwindi forest"
+    ]
+  },
+  "namibia": {
+    "city": "Windhoek",
+    "country": "Namibia",
+    "terms": [
+      "Namibia Sossusvlei dunes",
+      "Namibia Etosha elephants",
+      "Namibia Skeleton Coast",
+      "Namibia red sand dunes",
+      "Namibia Deadvlei trees",
+      "Namibia desert starry night"
+    ]
+  },
+  "botswana": {
+    "city": "Maun",
+    "country": "Botswana",
+    "terms": [
+      "Botswana Okavango Delta",
+      "Botswana safari lodge",
+      "Botswana Chobe elephants",
+      "Botswana mokoro boat",
+      "Botswana delta aerial",
+      "Botswana lions pride"
+    ]
+  },
+  "tunis": {
+    "city": "Tunis",
+    "country": "Tunisia",
+    "terms": [
+      "Tunis medina mosque",
+      "Sidi Bou Said blue white",
+      "Carthage ancient ruins",
+      "Tunis Zitouna mosque",
+      "Tunis bardo museum",
+      "Sidi Bou Said terrace"
+    ]
+  },
+  "addis-ababa": {
+    "city": "Addis Ababa",
+    "country": "Ethiopia",
+    "terms": [
+      "Addis Ababa Holy Trinity Cathedral",
+      "Ethiopia coffee ceremony",
+      "Addis Ababa National Museum",
+      "Ethiopia injera traditional food",
+      "Addis Ababa Mercato market",
+      "Ethiopia rock churches Lalibela"
+    ]
+  },
+  "ghana": {
+    "city": "Accra",
+    "country": "Ghana",
+    "terms": [
+      "Ghana Cape Coast Castle",
+      "Accra Labadi Beach",
+      "Ghana Kakum canopy walk",
+      "Accra Independence Square",
+      "Ghana kente cloth",
+      "Ghana fishing boats colorful"
+    ]
+  },
+  "senegal": {
+    "city": "Dakar",
+    "country": "Senegal",
+    "terms": [
+      "Senegal Goree Island",
+      "Senegal Pink Lake",
+      "Dakar Grand Mosque",
+      "Senegal baobab tree",
+      "Dakar African Renaissance Monument",
+      "Senegal fishing pirogues"
+    ]
+  },
+  "reunion": {
+    "city": "Saint-Denis",
+    "country": "Reunion",
+    "terms": [
+      "Reunion Piton de la Fournaise",
+      "Reunion Cirque de Mafate",
+      "Reunion volcanic crater",
+      "Reunion waterfalls",
+      "Reunion tropical beach",
+      "Reunion mountain hiking"
+    ]
+  },
+  "sydney": {
+    "city": "Sydney",
+    "country": "Australia",
+    "terms": [
+      "Sydney Opera House harbour",
+      "Sydney Harbour Bridge",
+      "Sydney Bondi Beach",
+      "Sydney Circular Quay",
+      "Sydney Blue Mountains",
+      "Sydney Darling Harbour"
+    ]
+  },
+  "new-zealand": {
+    "city": "Queenstown",
+    "country": "New Zealand",
+    "terms": [
+      "Queenstown Lake Wakatipu",
+      "Queenstown Remarkables mountains",
+      "New Zealand Milford Sound",
+      "Queenstown bungee jump",
+      "New Zealand Franz Josef Glacier",
+      "Queenstown vineyard landscape"
+    ]
+  },
+  "fiji": {
+    "city": "Nadi",
+    "country": "Fiji",
+    "terms": [
+      "Fiji overwater bungalows",
+      "Fiji coral reef snorkeling",
+      "Fiji traditional village",
+      "Fiji turquoise lagoon",
+      "Fiji tropical beach palm",
+      "Fiji island resort aerial"
+    ]
+  },
+  "tahiti": {
+    "city": "Papeete",
+    "country": "French Polynesia",
+    "terms": [
+      "Tahiti overwater bungalows",
+      "Tahiti tropical lagoon",
+      "Papeete market flowers",
+      "Tahiti volcanic mountains",
+      "Tahiti pearl farm",
+      "Tahiti sunset beach"
+    ]
+  },
+  "bora-bora": {
+    "city": "Bora Bora",
+    "country": "French Polynesia",
+    "terms": [
+      "Bora Bora overwater bungalows",
+      "Bora Bora Mount Otemanu",
+      "Bora Bora lagoon aerial",
+      "Bora Bora coral garden",
+      "Bora Bora luxury resort",
+      "Bora Bora turquoise water"
+    ]
+  },
+  "melbourne": {
+    "city": "Melbourne",
+    "country": "Australia",
+    "terms": [
+      "Melbourne street art laneways",
+      "Melbourne coffee culture",
+      "Melbourne Great Ocean Road",
+      "Melbourne Federation Square",
+      "Melbourne Flinders Street Station",
+      "Melbourne rooftop bars"
+    ]
+  },
+  "great-barrier-reef": {
+    "city": "Cairns",
+    "country": "Australia",
+    "terms": [
+      "Great Barrier Reef coral",
+      "Cairns Daintree Rainforest",
+      "Great Barrier Reef snorkeling",
+      "Cairns tropical fish",
+      "Great Barrier Reef diving",
+      "Cairns rainforest canopy"
+    ]
+  },
+  "perth": {
+    "city": "Perth",
+    "country": "Australia",
+    "terms": [
+      "Perth Rottnest Island quokka",
+      "Perth Cottesloe Beach",
+      "Perth Swan Valley vineyard",
+      "Perth Kings Park city",
+      "Perth Fremantle markets",
+      "Perth Pinnacles desert"
+    ]
+  },
+  "gold-coast": {
+    "city": "Gold Coast",
+    "country": "Australia",
+    "terms": [
+      "Gold Coast Surfers Paradise",
+      "Gold Coast surfing waves",
+      "Gold Coast hinterland rainforest",
+      "Gold Coast skyline beach",
+      "Gold Coast theme parks",
+      "Gold Coast Burleigh Heads"
+    ]
+  },
+  "tasmania": {
+    "city": "Hobart",
+    "country": "Australia",
+    "terms": [
+      "Tasmania Cradle Mountain",
+      "Hobart MONA museum",
+      "Tasmania wilderness lodge",
+      "Hobart Salamanca Market",
+      "Tasmania devil wildlife",
+      "Tasmania Bay of Fires"
+    ]
+  },
+  "auckland": {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "terms": [
+      "Auckland Sky Tower harbor view",
+      "Waiheke Island vineyards Auckland",
+      "Auckland volcanic cones Rangitoto",
+      "Auckland harbor bridge sailboats",
+      "Queen Street Auckland downtown",
+      "Auckland waterfront viaduct"
+    ]
+  },
+  "rotorua": {
+    "city": "Rotorua",
+    "country": "New Zealand",
+    "terms": [
+      "Rotorua geothermal steam pools",
+      "Te Puia geysers Rotorua",
+      "Rotorua redwood forest canopy",
+      "Rotorua hot springs mineral pools",
+      "Maori cultural village Rotorua",
+      "Wai-O-Tapu colorful springs Rotorua"
+    ]
+  },
+  "wellington": {
+    "city": "Wellington",
+    "country": "New Zealand",
+    "terms": [
+      "Wellington cable car red",
+      "Te Papa museum Wellington waterfront",
+      "Wellington harbor hills houses",
+      "Cuba Street Wellington colorful",
+      "Wellington wind sculpture harbor",
+      "Parliament buildings Wellington Beehive"
+    ]
+  },
+  "milford-sound": {
+    "city": "Milford Sound",
+    "country": "New Zealand",
+    "terms": [
+      "Milford Sound fjord waterfalls",
+      "Mitre Peak Milford Sound reflection",
+      "Milford Sound cruise boats",
+      "Stirling Falls Milford Sound",
+      "Milford Sound misty mountains",
+      "Milford Sound rainforest cliffs"
+    ]
+  },
+  "cook-islands": {
+    "city": "Rarotonga",
+    "country": "Cook Islands",
+    "terms": [
+      "Rarotonga turquoise lagoon palm",
+      "Aitutaki lagoon Cook Islands",
+      "Rarotonga volcanic peaks green",
+      "Cook Islands traditional dancers",
+      "Muri Beach Rarotonga crystal water",
+      "Cook Islands outrigger canoe sunset"
+    ]
+  },
+  "samoa": {
+    "city": "Apia",
+    "country": "Samoa",
+    "terms": [
+      "To Sua Ocean Trench Samoa swimming",
+      "Samoa white sand beaches palms",
+      "Samoa traditional fale architecture",
+      "Lalomanu Beach Samoa turquoise",
+      "Samoa waterfall tropical rainforest",
+      "Apia colorful market Samoa"
+    ]
+  },
+  "vanuatu": {
+    "city": "Port Vila",
+    "country": "Vanuatu",
+    "terms": [
+      "Port Vila blue lagoon Vanuatu",
+      "Mount Yasur volcano Vanuatu lava",
+      "Vanuatu tribal mask traditional",
+      "Champagne Beach Vanuatu white sand",
+      "Port Vila harbor sunset",
+      "Vanuatu coral reef underwater"
+    ]
+  },
+  "new-caledonia": {
+    "city": "Noumea",
+    "country": "New Caledonia",
+    "terms": [
+      "Noumea lagoon turquoise New Caledonia",
+      "Isle of Pines New Caledonia",
+      "Noumea French colonial architecture",
+      "New Caledonia heart reef aerial",
+      "Noumea Anse Vata beach",
+      "New Caledonia pine trees beach"
+    ]
+  },
+  "palau": {
+    "city": "Koror",
+    "country": "Palau",
+    "terms": [
+      "Palau Jellyfish Lake golden",
+      "Palau Rock Islands aerial mushroom",
+      "Palau blue holes diving",
+      "Koror Palau limestone islands",
+      "Palau coral reef underwater",
+      "Palau traditional bai meeting house"
+    ]
+  },
+  "guam": {
+    "city": "Tamuning",
+    "country": "Guam",
+    "terms": [
+      "Tumon Bay Guam beach resort",
+      "Two Lovers Point Guam cliff",
+      "Guam Chamorro village cultural",
+      "Guam War in the Pacific monuments",
+      "Tamuning Guam shopping district",
+      "Guam Gun Beach palm trees"
+    ]
+  }
+}

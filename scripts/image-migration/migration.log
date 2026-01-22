@@ -1,0 +1,99 @@
+[dotenv@17.2.3] injecting env (10) from .env.local -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+📋 Loaded curated search terms for 410 destinations
+
+
+📸 UNSPLASH IMAGE MIGRATION
+
+🔄 Running in continuous mode (will auto-wait between batches)
+
+
+⏳ Rate limit cooldown. Next batch available in 55 minutes.
+   Available at: 3:13:18 p.m.
+   Waiting...
+
+
+============================================================
+📦 BATCH 2/205
+============================================================
+
+📍 Rome, Italy ⭐ (30 images)
+   🔍 Running 5 varied searches for diversity...
+      "Rome Colosseum amphitheater" (6 images)
+      ✅ 6 downloaded
+      "Vatican St Peters Basilica" (6 images)
+      ✅ 6 downloaded
+      "Rome Trevi Fountain" (6 images)
+      ✅ 6 downloaded
+      "Pantheon Rome columns" (6 images)
+      ✅ 6 downloaded
+      "Roman Forum ruins" (6 images)
+      ✅ 6 downloaded
+   📸 Total: 30 images downloaded
+
+📍 Milan, Italy  (20 images)
+   🔍 Running 4 varied searches for diversity...
+      "Milan Cathedral Duomo" (5 images)
+      ✅ 5 downloaded
+      "La Scala opera Milan" (5 images)
+      ✅ 5 downloaded
+      "Galleria Vittorio Emanuele Milan" (5 images)
+      ✅ 5 downloaded
+      "Milan fashion district" (5 images)
+      ❌ Error: expected JSON response from server.
+   📸 Total: 15 images downloaded
+
+------------------------------------------------------------
+✅ Batch complete! Downloaded 45 images
+   Progress: 4/410 destinations
+   Remaining: 406 destinations in queue
+   Next batch available: 4:23:38 p.m.
+------------------------------------------------------------
+
+
+⏳ Rate limit cooldown. Next batch available in 70 minutes.
+   Available at: 4:23:38 p.m.
+   Waiting...
+
+
+============================================================
+📦 BATCH 3/205
+============================================================
+
+📍 Barcelona, Spain ⭐ (30 images)
+   🔍 Running 5 varied searches for diversity...
+      "Barcelona Sagrada Familia" (6 images)
+      ✅ 6 downloaded
+      "Barceloneta Beach coastline" (6 images)
+      ✅ 4 downloaded
+      "Gothic Quarter Barcelona" (6 images)
+      ✅ 6 downloaded
+      "Park Guell mosaic" (6 images)
+      ✅ 6 downloaded
+      "Las Ramblas Barcelona" (6 images)
+      ✅ 1 downloaded
+   📸 Total: 23 images downloaded
+
+📍 Madrid, Spain  (20 images)
+   🔍 Running 4 varied searches for diversity...
+      "Prado Museum Madrid" (5 images)
+      ✅ 1 downloaded
+      "Retiro Park Madrid" (5 images)
+      ✅ 5 downloaded
+      "Plaza Mayor Madrid" (5 images)
+      ✅ 5 downloaded
+      "Puerta del Sol Madrid" (5 images)
+      ✅ 5 downloaded
+   📸 Total: 16 images downloaded
+
+------------------------------------------------------------
+✅ Batch complete! Downloaded 39 images
+   Progress: 6/410 destinations
+   Remaining: 404 destinations in queue
+   Next batch available: 5:33:55 p.m.
+------------------------------------------------------------
+
+
+⏳ Rate limit cooldown. Next batch available in 70 minutes.
+   Available at: 5:33:55 p.m.
+   Waiting...
+

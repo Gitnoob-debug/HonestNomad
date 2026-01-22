@@ -1,0 +1,1649 @@
+{
+  "lastUpdated": "2026-01-22T21:23:55.556Z",
+  "currentBatch": 3,
+  "totalBatches": 205,
+  "queue": [
+    {
+      "destId": "amsterdam",
+      "isPopular": true
+    },
+    {
+      "destId": "seville",
+      "isPopular": false
+    },
+    {
+      "destId": "lisbon",
+      "isPopular": true
+    },
+    {
+      "destId": "munich",
+      "isPopular": false
+    },
+    {
+      "destId": "london",
+      "isPopular": true
+    },
+    {
+      "destId": "berlin",
+      "isPopular": false
+    },
+    {
+      "destId": "santorini",
+      "isPopular": true
+    },
+    {
+      "destId": "brussels",
+      "isPopular": false
+    },
+    {
+      "destId": "prague",
+      "isPopular": true
+    },
+    {
+      "destId": "copenhagen",
+      "isPopular": false
+    },
+    {
+      "destId": "reykjavik",
+      "isPopular": true
+    },
+    {
+      "destId": "stockholm",
+      "isPopular": false
+    },
+    {
+      "destId": "vienna",
+      "isPopular": true
+    },
+    {
+      "destId": "oslo",
+      "isPopular": false
+    },
+    {
+      "destId": "swiss-alps",
+      "isPopular": true
+    },
+    {
+      "destId": "helsinki",
+      "isPopular": false
+    },
+    {
+      "destId": "amalfi",
+      "isPopular": true
+    },
+    {
+      "destId": "budapest",
+      "isPopular": false
+    },
+    {
+      "destId": "florence",
+      "isPopular": true
+    },
+    {
+      "destId": "krakow",
+      "isPopular": false
+    },
+    {
+      "destId": "venice",
+      "isPopular": true
+    },
+    {
+      "destId": "athens",
+      "isPopular": false
+    },
+    {
+      "destId": "edinburgh",
+      "isPopular": true
+    },
+    {
+      "destId": "crete",
+      "isPopular": false
+    },
+    {
+      "destId": "dublin",
+      "isPopular": true
+    },
+    {
+      "destId": "porto",
+      "isPopular": false
+    },
+    {
+      "destId": "mykonos",
+      "isPopular": true
+    },
+    {
+      "destId": "lyon",
+      "isPopular": false
+    },
+    {
+      "destId": "nice",
+      "isPopular": true
+    },
+    {
+      "destId": "zurich",
+      "isPopular": false
+    },
+    {
+      "destId": "ibiza",
+      "isPopular": true
+    },
+    {
+      "destId": "geneva",
+      "isPopular": false
+    },
+    {
+      "destId": "cinque-terre",
+      "isPopular": true
+    },
+    {
+      "destId": "split",
+      "isPopular": false
+    },
+    {
+      "destId": "tokyo",
+      "isPopular": true
+    },
+    {
+      "destId": "tallinn",
+      "isPopular": false
+    },
+    {
+      "destId": "bali",
+      "isPopular": true
+    },
+    {
+      "destId": "riga",
+      "isPopular": false
+    },
+    {
+      "destId": "bangkok",
+      "isPopular": true
+    },
+    {
+      "destId": "malta",
+      "isPopular": false
+    },
+    {
+      "destId": "singapore",
+      "isPopular": true
+    },
+    {
+      "destId": "corsica",
+      "isPopular": false
+    },
+    {
+      "destId": "maldives",
+      "isPopular": true
+    },
+    {
+      "destId": "sardinia",
+      "isPopular": false
+    },
+    {
+      "destId": "hong-kong",
+      "isPopular": true
+    },
+    {
+      "destId": "sicily",
+      "isPopular": false
+    },
+    {
+      "destId": "new-york",
+      "isPopular": true
+    },
+    {
+      "destId": "canary-islands",
+      "isPopular": false
+    },
+    {
+      "destId": "cancun",
+      "isPopular": true
+    },
+    {
+      "destId": "scottish-highlands",
+      "isPopular": false
+    },
+    {
+      "destId": "costa-rica",
+      "isPopular": true
+    },
+    {
+      "destId": "lapland",
+      "isPopular": false
+    },
+    {
+      "destId": "miami",
+      "isPopular": true
+    },
+    {
+      "destId": "marseille",
+      "isPopular": false
+    },
+    {
+      "destId": "hawaii",
+      "isPopular": true
+    },
+    {
+      "destId": "bordeaux",
+      "isPopular": false
+    },
+    {
+      "destId": "maui",
+      "isPopular": true
+    },
+    {
+      "destId": "strasbourg",
+      "isPopular": false
+    },
+    {
+      "destId": "los-angeles",
+      "isPopular": true
+    },
+    {
+      "destId": "toulouse",
+      "isPopular": false
+    },
+    {
+      "destId": "san-francisco",
+      "isPopular": true
+    },
+    {
+      "destId": "monaco",
+      "isPopular": false
+    },
+    {
+      "destId": "las-vegas",
+      "isPopular": true
+    },
+    {
+      "destId": "bruges",
+      "isPopular": false
+    },
+    {
+      "destId": "chicago",
+      "isPopular": true
+    },
+    {
+      "destId": "ghent",
+      "isPopular": false
+    },
+    {
+      "destId": "boston",
+      "isPopular": true
+    },
+    {
+      "destId": "antwerp",
+      "isPopular": false
+    },
+    {
+      "destId": "patagonia",
+      "isPopular": true
+    },
+    {
+      "destId": "rotterdam",
+      "isPopular": false
+    },
+    {
+      "destId": "jamaica",
+      "isPopular": true
+    },
+    {
+      "destId": "the-hague",
+      "isPopular": false
+    },
+    {
+      "destId": "bahamas",
+      "isPopular": true
+    },
+    {
+      "destId": "frankfurt",
+      "isPopular": false
+    },
+    {
+      "destId": "aruba",
+      "isPopular": true
+    },
+    {
+      "destId": "hamburg",
+      "isPopular": false
+    },
+    {
+      "destId": "st-lucia",
+      "isPopular": true
+    },
+    {
+      "destId": "cologne",
+      "isPopular": false
+    },
+    {
+      "destId": "turks-caicos",
+      "isPopular": true
+    },
+    {
+      "destId": "dusseldorf",
+      "isPopular": false
+    },
+    {
+      "destId": "dubai",
+      "isPopular": true
+    },
+    {
+      "destId": "dresden",
+      "isPopular": false
+    },
+    {
+      "destId": "cape-town",
+      "isPopular": true
+    },
+    {
+      "destId": "leipzig",
+      "isPopular": false
+    },
+    {
+      "destId": "sydney",
+      "isPopular": true
+    },
+    {
+      "destId": "nuremberg",
+      "isPopular": false
+    },
+    {
+      "destId": "new-zealand",
+      "isPopular": true
+    },
+    {
+      "destId": "salzburg",
+      "isPopular": false
+    },
+    {
+      "destId": "fiji",
+      "isPopular": true
+    },
+    {
+      "destId": "innsbruck",
+      "isPopular": false
+    },
+    {
+      "destId": "bora-bora",
+      "isPopular": true
+    },
+    {
+      "destId": "graz",
+      "isPopular": false
+    },
+    {
+      "destId": "melbourne",
+      "isPopular": true
+    },
+    {
+      "destId": "lucerne",
+      "isPopular": false
+    },
+    {
+      "destId": "basel",
+      "isPopular": false
+    },
+    {
+      "destId": "zermatt",
+      "isPopular": false
+    },
+    {
+      "destId": "valencia",
+      "isPopular": false
+    },
+    {
+      "destId": "granada",
+      "isPopular": false
+    },
+    {
+      "destId": "bilbao",
+      "isPopular": false
+    },
+    {
+      "destId": "san-sebastian",
+      "isPopular": false
+    },
+    {
+      "destId": "malaga",
+      "isPopular": false
+    },
+    {
+      "destId": "majorca",
+      "isPopular": false
+    },
+    {
+      "destId": "menorca",
+      "isPopular": false
+    },
+    {
+      "destId": "corfu",
+      "isPopular": false
+    },
+    {
+      "destId": "rhodes",
+      "isPopular": false
+    },
+    {
+      "destId": "thessaloniki",
+      "isPopular": false
+    },
+    {
+      "destId": "zakynthos",
+      "isPopular": false
+    },
+    {
+      "destId": "paros",
+      "isPopular": false
+    },
+    {
+      "destId": "warsaw",
+      "isPopular": false
+    },
+    {
+      "destId": "gdansk",
+      "isPopular": false
+    },
+    {
+      "destId": "wroclaw",
+      "isPopular": false
+    },
+    {
+      "destId": "vilnius",
+      "isPopular": false
+    },
+    {
+      "destId": "ljubljana",
+      "isPopular": false
+    },
+    {
+      "destId": "lake-bled",
+      "isPopular": false
+    },
+    {
+      "destId": "zagreb",
+      "isPopular": false
+    },
+    {
+      "destId": "bratislava",
+      "isPopular": false
+    },
+    {
+      "destId": "sofia",
+      "isPopular": false
+    },
+    {
+      "destId": "bucharest",
+      "isPopular": false
+    },
+    {
+      "destId": "kotor",
+      "isPopular": false
+    },
+    {
+      "destId": "madeira",
+      "isPopular": false
+    },
+    {
+      "destId": "azores",
+      "isPopular": false
+    },
+    {
+      "destId": "manchester",
+      "isPopular": false
+    },
+    {
+      "destId": "liverpool",
+      "isPopular": false
+    },
+    {
+      "destId": "bath",
+      "isPopular": false
+    },
+    {
+      "destId": "york",
+      "isPopular": false
+    },
+    {
+      "destId": "cambridge",
+      "isPopular": false
+    },
+    {
+      "destId": "oxford",
+      "isPopular": false
+    },
+    {
+      "destId": "glasgow",
+      "isPopular": false
+    },
+    {
+      "destId": "belfast",
+      "isPopular": false
+    },
+    {
+      "destId": "galway",
+      "isPopular": false
+    },
+    {
+      "destId": "cork",
+      "isPopular": false
+    },
+    {
+      "destId": "gothenburg",
+      "isPopular": false
+    },
+    {
+      "destId": "malmö",
+      "isPopular": false
+    },
+    {
+      "destId": "bergen",
+      "isPopular": false
+    },
+    {
+      "destId": "tromso",
+      "isPopular": false
+    },
+    {
+      "destId": "luxembourg",
+      "isPopular": false
+    },
+    {
+      "destId": "naples",
+      "isPopular": false
+    },
+    {
+      "destId": "bologna",
+      "isPopular": false
+    },
+    {
+      "destId": "verona",
+      "isPopular": false
+    },
+    {
+      "destId": "turin",
+      "isPopular": false
+    },
+    {
+      "destId": "lake-como",
+      "isPopular": false
+    },
+    {
+      "destId": "puglia",
+      "isPopular": false
+    },
+    {
+      "destId": "mont-saint-michel",
+      "isPopular": false
+    },
+    {
+      "destId": "provence",
+      "isPopular": false
+    },
+    {
+      "destId": "nantes",
+      "isPopular": false
+    },
+    {
+      "destId": "lille",
+      "isPopular": false
+    },
+    {
+      "destId": "chamonix",
+      "isPopular": false
+    },
+    {
+      "destId": "cordoba",
+      "isPopular": false
+    },
+    {
+      "destId": "toledo",
+      "isPopular": false
+    },
+    {
+      "destId": "marbella",
+      "isPopular": false
+    },
+    {
+      "destId": "gran-canaria",
+      "isPopular": false
+    },
+    {
+      "destId": "lanzarote",
+      "isPopular": false
+    },
+    {
+      "destId": "bristol",
+      "isPopular": false
+    },
+    {
+      "destId": "cardiff",
+      "isPopular": false
+    },
+    {
+      "destId": "brighton",
+      "isPopular": false
+    },
+    {
+      "destId": "cotswolds",
+      "isPopular": false
+    },
+    {
+      "destId": "lake-district",
+      "isPopular": false
+    },
+    {
+      "destId": "heidelberg",
+      "isPopular": false
+    },
+    {
+      "destId": "stuttgart",
+      "isPopular": false
+    },
+    {
+      "destId": "black-forest",
+      "isPopular": false
+    },
+    {
+      "destId": "chania",
+      "isPopular": false
+    },
+    {
+      "destId": "naxos",
+      "isPopular": false
+    },
+    {
+      "destId": "kefalonia",
+      "isPopular": false
+    },
+    {
+      "destId": "aarhus",
+      "isPopular": false
+    },
+    {
+      "destId": "lofoten",
+      "isPopular": false
+    },
+    {
+      "destId": "belgrade",
+      "isPopular": false
+    },
+    {
+      "destId": "sarajevo",
+      "isPopular": false
+    },
+    {
+      "destId": "mostar",
+      "isPopular": false
+    },
+    {
+      "destId": "tirana",
+      "isPopular": false
+    },
+    {
+      "destId": "plovdiv",
+      "isPopular": false
+    },
+    {
+      "destId": "paphos",
+      "isPopular": false
+    },
+    {
+      "destId": "limassol",
+      "isPopular": false
+    },
+    {
+      "destId": "kyoto",
+      "isPopular": false
+    },
+    {
+      "destId": "vietnam",
+      "isPopular": false
+    },
+    {
+      "destId": "sri-lanka",
+      "isPopular": false
+    },
+    {
+      "destId": "seoul",
+      "isPopular": false
+    },
+    {
+      "destId": "busan",
+      "isPopular": false
+    },
+    {
+      "destId": "osaka",
+      "isPopular": false
+    },
+    {
+      "destId": "hanoi",
+      "isPopular": false
+    },
+    {
+      "destId": "phuket",
+      "isPopular": false
+    },
+    {
+      "destId": "chiang-mai",
+      "isPopular": false
+    },
+    {
+      "destId": "kuala-lumpur",
+      "isPopular": false
+    },
+    {
+      "destId": "langkawi",
+      "isPopular": false
+    },
+    {
+      "destId": "taipei",
+      "isPopular": false
+    },
+    {
+      "destId": "manila",
+      "isPopular": false
+    },
+    {
+      "destId": "palawan",
+      "isPopular": false
+    },
+    {
+      "destId": "boracay",
+      "isPopular": false
+    },
+    {
+      "destId": "siem-reap",
+      "isPopular": false
+    },
+    {
+      "destId": "luang-prabang",
+      "isPopular": false
+    },
+    {
+      "destId": "yangon",
+      "isPopular": false
+    },
+    {
+      "destId": "kathmandu",
+      "isPopular": false
+    },
+    {
+      "destId": "bhutan",
+      "isPopular": false
+    },
+    {
+      "destId": "beijing",
+      "isPopular": false
+    },
+    {
+      "destId": "shanghai",
+      "isPopular": false
+    },
+    {
+      "destId": "xian",
+      "isPopular": false
+    },
+    {
+      "destId": "guilin",
+      "isPopular": false
+    },
+    {
+      "destId": "hoi-an",
+      "isPopular": false
+    },
+    {
+      "destId": "da-nang",
+      "isPopular": false
+    },
+    {
+      "destId": "kochi",
+      "isPopular": false
+    },
+    {
+      "destId": "goa",
+      "isPopular": false
+    },
+    {
+      "destId": "jaipur",
+      "isPopular": false
+    },
+    {
+      "destId": "delhi",
+      "isPopular": false
+    },
+    {
+      "destId": "agra",
+      "isPopular": false
+    },
+    {
+      "destId": "mumbai",
+      "isPopular": false
+    },
+    {
+      "destId": "lombok",
+      "isPopular": false
+    },
+    {
+      "destId": "yogyakarta",
+      "isPopular": false
+    },
+    {
+      "destId": "nha-trang",
+      "isPopular": false
+    },
+    {
+      "destId": "peru",
+      "isPopular": false
+    },
+    {
+      "destId": "rio",
+      "isPopular": false
+    },
+    {
+      "destId": "buenos-aires",
+      "isPopular": false
+    },
+    {
+      "destId": "washington-dc",
+      "isPopular": false
+    },
+    {
+      "destId": "seattle",
+      "isPopular": false
+    },
+    {
+      "destId": "new-orleans",
+      "isPopular": false
+    },
+    {
+      "destId": "austin",
+      "isPopular": false
+    },
+    {
+      "destId": "nashville",
+      "isPopular": false
+    },
+    {
+      "destId": "san-diego",
+      "isPopular": false
+    },
+    {
+      "destId": "toronto",
+      "isPopular": false
+    },
+    {
+      "destId": "vancouver",
+      "isPopular": false
+    },
+    {
+      "destId": "montreal",
+      "isPopular": false
+    },
+    {
+      "destId": "banff",
+      "isPopular": false
+    },
+    {
+      "destId": "mexico-city",
+      "isPopular": false
+    },
+    {
+      "destId": "oaxaca",
+      "isPopular": false
+    },
+    {
+      "destId": "tulum",
+      "isPopular": false
+    },
+    {
+      "destId": "playa-del-carmen",
+      "isPopular": false
+    },
+    {
+      "destId": "puerto-vallarta",
+      "isPopular": false
+    },
+    {
+      "destId": "cartagena",
+      "isPopular": false
+    },
+    {
+      "destId": "medellin",
+      "isPopular": false
+    },
+    {
+      "destId": "bogota",
+      "isPopular": false
+    },
+    {
+      "destId": "quito",
+      "isPopular": false
+    },
+    {
+      "destId": "galapagos",
+      "isPopular": false
+    },
+    {
+      "destId": "lima",
+      "isPopular": false
+    },
+    {
+      "destId": "santiago",
+      "isPopular": false
+    },
+    {
+      "destId": "montevideo",
+      "isPopular": false
+    },
+    {
+      "destId": "punta-del-este",
+      "isPopular": false
+    },
+    {
+      "destId": "la-paz",
+      "isPopular": false
+    },
+    {
+      "destId": "salar-de-uyuni",
+      "isPopular": false
+    },
+    {
+      "destId": "belize",
+      "isPopular": false
+    },
+    {
+      "destId": "panama",
+      "isPopular": false
+    },
+    {
+      "destId": "denver",
+      "isPopular": false
+    },
+    {
+      "destId": "phoenix",
+      "isPopular": false
+    },
+    {
+      "destId": "scottsdale",
+      "isPopular": false
+    },
+    {
+      "destId": "portland",
+      "isPopular": false
+    },
+    {
+      "destId": "philadelphia",
+      "isPopular": false
+    },
+    {
+      "destId": "minneapolis",
+      "isPopular": false
+    },
+    {
+      "destId": "atlanta",
+      "isPopular": false
+    },
+    {
+      "destId": "dallas",
+      "isPopular": false
+    },
+    {
+      "destId": "houston",
+      "isPopular": false
+    },
+    {
+      "destId": "detroit",
+      "isPopular": false
+    },
+    {
+      "destId": "charlotte",
+      "isPopular": false
+    },
+    {
+      "destId": "orlando",
+      "isPopular": false
+    },
+    {
+      "destId": "tampa",
+      "isPopular": false
+    },
+    {
+      "destId": "savannah",
+      "isPopular": false
+    },
+    {
+      "destId": "charleston",
+      "isPopular": false
+    },
+    {
+      "destId": "aspen",
+      "isPopular": false
+    },
+    {
+      "destId": "park-city",
+      "isPopular": false
+    },
+    {
+      "destId": "lake-tahoe",
+      "isPopular": false
+    },
+    {
+      "destId": "napa-valley",
+      "isPopular": false
+    },
+    {
+      "destId": "palm-springs",
+      "isPopular": false
+    },
+    {
+      "destId": "key-west",
+      "isPopular": false
+    },
+    {
+      "destId": "san-antonio",
+      "isPopular": false
+    },
+    {
+      "destId": "santa-fe",
+      "isPopular": false
+    },
+    {
+      "destId": "salt-lake-city",
+      "isPopular": false
+    },
+    {
+      "destId": "anchorage",
+      "isPopular": false
+    },
+    {
+      "destId": "quebec-city",
+      "isPopular": false
+    },
+    {
+      "destId": "calgary",
+      "isPopular": false
+    },
+    {
+      "destId": "whistler",
+      "isPopular": false
+    },
+    {
+      "destId": "ottawa",
+      "isPopular": false
+    },
+    {
+      "destId": "halifax",
+      "isPopular": false
+    },
+    {
+      "destId": "victoria-bc",
+      "isPopular": false
+    },
+    {
+      "destId": "cabo",
+      "isPopular": false
+    },
+    {
+      "destId": "guadalajara",
+      "isPopular": false
+    },
+    {
+      "destId": "san-miguel",
+      "isPopular": false
+    },
+    {
+      "destId": "merida",
+      "isPopular": false
+    },
+    {
+      "destId": "antigua-guatemala",
+      "isPopular": false
+    },
+    {
+      "destId": "roatan",
+      "isPopular": false
+    },
+    {
+      "destId": "caye-caulker",
+      "isPopular": false
+    },
+    {
+      "destId": "manuel-antonio",
+      "isPopular": false
+    },
+    {
+      "destId": "arenal",
+      "isPopular": false
+    },
+    {
+      "destId": "sao-paulo",
+      "isPopular": false
+    },
+    {
+      "destId": "florianopolis",
+      "isPopular": false
+    },
+    {
+      "destId": "salvador",
+      "isPopular": false
+    },
+    {
+      "destId": "iguazu-falls",
+      "isPopular": false
+    },
+    {
+      "destId": "mendoza",
+      "isPopular": false
+    },
+    {
+      "destId": "bariloche",
+      "isPopular": false
+    },
+    {
+      "destId": "valparaiso",
+      "isPopular": false
+    },
+    {
+      "destId": "sacred-valley",
+      "isPopular": false
+    },
+    {
+      "destId": "atacama",
+      "isPopular": false
+    },
+    {
+      "destId": "tayrona",
+      "isPopular": false
+    },
+    {
+      "destId": "sedona",
+      "isPopular": false
+    },
+    {
+      "destId": "jackson-hole",
+      "isPopular": false
+    },
+    {
+      "destId": "vail",
+      "isPopular": false
+    },
+    {
+      "destId": "santa-barbara",
+      "isPopular": false
+    },
+    {
+      "destId": "sonoma",
+      "isPopular": false
+    },
+    {
+      "destId": "carmel",
+      "isPopular": false
+    },
+    {
+      "destId": "big-sur",
+      "isPopular": false
+    },
+    {
+      "destId": "martha-vineyard",
+      "isPopular": false
+    },
+    {
+      "destId": "nantucket",
+      "isPopular": false
+    },
+    {
+      "destId": "cape-cod",
+      "isPopular": false
+    },
+    {
+      "destId": "yellowstone",
+      "isPopular": false
+    },
+    {
+      "destId": "grand-canyon",
+      "isPopular": false
+    },
+    {
+      "destId": "moab",
+      "isPopular": false
+    },
+    {
+      "destId": "zion",
+      "isPopular": false
+    },
+    {
+      "destId": "tucson",
+      "isPopular": false
+    },
+    {
+      "destId": "albuquerque",
+      "isPopular": false
+    },
+    {
+      "destId": "st-louis",
+      "isPopular": false
+    },
+    {
+      "destId": "kansas-city",
+      "isPopular": false
+    },
+    {
+      "destId": "pittsburgh",
+      "isPopular": false
+    },
+    {
+      "destId": "cleveland",
+      "isPopular": false
+    },
+    {
+      "destId": "portland-maine",
+      "isPopular": false
+    },
+    {
+      "destId": "asheville",
+      "isPopular": false
+    },
+    {
+      "destId": "memphis",
+      "isPopular": false
+    },
+    {
+      "destId": "indianapolis",
+      "isPopular": false
+    },
+    {
+      "destId": "milwaukee",
+      "isPopular": false
+    },
+    {
+      "destId": "raleigh",
+      "isPopular": false
+    },
+    {
+      "destId": "niagara-falls",
+      "isPopular": false
+    },
+    {
+      "destId": "jasper",
+      "isPopular": false
+    },
+    {
+      "destId": "kelowna",
+      "isPopular": false
+    },
+    {
+      "destId": "edmonton",
+      "isPopular": false
+    },
+    {
+      "destId": "st-johns",
+      "isPopular": false
+    },
+    {
+      "destId": "prince-edward-island",
+      "isPopular": false
+    },
+    {
+      "destId": "cozumel",
+      "isPopular": false
+    },
+    {
+      "destId": "guanajuato",
+      "isPopular": false
+    },
+    {
+      "destId": "todos-santos",
+      "isPopular": false
+    },
+    {
+      "destId": "puebla",
+      "isPopular": false
+    },
+    {
+      "destId": "lake-atitlan",
+      "isPopular": false
+    },
+    {
+      "destId": "monteverde",
+      "isPopular": false
+    },
+    {
+      "destId": "tamarindo",
+      "isPopular": false
+    },
+    {
+      "destId": "ushuaia",
+      "isPopular": false
+    },
+    {
+      "destId": "salta",
+      "isPopular": false
+    },
+    {
+      "destId": "puerto-madryn",
+      "isPopular": false
+    },
+    {
+      "destId": "torres-del-paine",
+      "isPopular": false
+    },
+    {
+      "destId": "easter-island",
+      "isPopular": false
+    },
+    {
+      "destId": "vina-del-mar",
+      "isPopular": false
+    },
+    {
+      "destId": "arequipa",
+      "isPopular": false
+    },
+    {
+      "destId": "puno",
+      "isPopular": false
+    },
+    {
+      "destId": "cuenca",
+      "isPopular": false
+    },
+    {
+      "destId": "banos",
+      "isPopular": false
+    },
+    {
+      "destId": "santa-marta",
+      "isPopular": false
+    },
+    {
+      "destId": "colonia",
+      "isPopular": false
+    },
+    {
+      "destId": "barbados",
+      "isPopular": false
+    },
+    {
+      "destId": "curacao",
+      "isPopular": false
+    },
+    {
+      "destId": "dominican-republic",
+      "isPopular": false
+    },
+    {
+      "destId": "puerto-rico",
+      "isPopular": false
+    },
+    {
+      "destId": "virgin-islands",
+      "isPopular": false
+    },
+    {
+      "destId": "cayman-islands",
+      "isPopular": false
+    },
+    {
+      "destId": "antigua",
+      "isPopular": false
+    },
+    {
+      "destId": "grenada",
+      "isPopular": false
+    },
+    {
+      "destId": "st-barts",
+      "isPopular": false
+    },
+    {
+      "destId": "st-kitts",
+      "isPopular": false
+    },
+    {
+      "destId": "bonaire",
+      "isPopular": false
+    },
+    {
+      "destId": "martinique",
+      "isPopular": false
+    },
+    {
+      "destId": "guadeloupe",
+      "isPopular": false
+    },
+    {
+      "destId": "jordan",
+      "isPopular": false
+    },
+    {
+      "destId": "israel",
+      "isPopular": false
+    },
+    {
+      "destId": "oman",
+      "isPopular": false
+    },
+    {
+      "destId": "abu-dhabi",
+      "isPopular": false
+    },
+    {
+      "destId": "doha",
+      "isPopular": false
+    },
+    {
+      "destId": "bahrain",
+      "isPopular": false
+    },
+    {
+      "destId": "kuwait",
+      "isPopular": false
+    },
+    {
+      "destId": "jerusalem",
+      "isPopular": false
+    },
+    {
+      "destId": "dead-sea",
+      "isPopular": false
+    },
+    {
+      "destId": "beirut",
+      "isPopular": false
+    },
+    {
+      "destId": "riyadh",
+      "isPopular": false
+    },
+    {
+      "destId": "jeddah",
+      "isPopular": false
+    },
+    {
+      "destId": "alula",
+      "isPopular": false
+    },
+    {
+      "destId": "morocco",
+      "isPopular": false
+    },
+    {
+      "destId": "tanzania",
+      "isPopular": false
+    },
+    {
+      "destId": "egypt",
+      "isPopular": false
+    },
+    {
+      "destId": "mauritius",
+      "isPopular": false
+    },
+    {
+      "destId": "zanzibar",
+      "isPopular": false
+    },
+    {
+      "destId": "kenya",
+      "isPopular": false
+    },
+    {
+      "destId": "seychelles",
+      "isPopular": false
+    },
+    {
+      "destId": "victoria-falls",
+      "isPopular": false
+    },
+    {
+      "destId": "johannesburg",
+      "isPopular": false
+    },
+    {
+      "destId": "kruger",
+      "isPopular": false
+    },
+    {
+      "destId": "fes",
+      "isPopular": false
+    },
+    {
+      "destId": "chefchaouen",
+      "isPopular": false
+    },
+    {
+      "destId": "essaouira",
+      "isPopular": false
+    },
+    {
+      "destId": "luxor",
+      "isPopular": false
+    },
+    {
+      "destId": "hurghada",
+      "isPopular": false
+    },
+    {
+      "destId": "rwanda",
+      "isPopular": false
+    },
+    {
+      "destId": "uganda",
+      "isPopular": false
+    },
+    {
+      "destId": "namibia",
+      "isPopular": false
+    },
+    {
+      "destId": "botswana",
+      "isPopular": false
+    },
+    {
+      "destId": "tunis",
+      "isPopular": false
+    },
+    {
+      "destId": "addis-ababa",
+      "isPopular": false
+    },
+    {
+      "destId": "ghana",
+      "isPopular": false
+    },
+    {
+      "destId": "senegal",
+      "isPopular": false
+    },
+    {
+      "destId": "reunion",
+      "isPopular": false
+    },
+    {
+      "destId": "tahiti",
+      "isPopular": false
+    },
+    {
+      "destId": "great-barrier-reef",
+      "isPopular": false
+    },
+    {
+      "destId": "perth",
+      "isPopular": false
+    },
+    {
+      "destId": "gold-coast",
+      "isPopular": false
+    },
+    {
+      "destId": "tasmania",
+      "isPopular": false
+    },
+    {
+      "destId": "auckland",
+      "isPopular": false
+    },
+    {
+      "destId": "rotorua",
+      "isPopular": false
+    },
+    {
+      "destId": "wellington",
+      "isPopular": false
+    },
+    {
+      "destId": "milford-sound",
+      "isPopular": false
+    },
+    {
+      "destId": "cook-islands",
+      "isPopular": false
+    },
+    {
+      "destId": "samoa",
+      "isPopular": false
+    },
+    {
+      "destId": "vanuatu",
+      "isPopular": false
+    },
+    {
+      "destId": "new-caledonia",
+      "isPopular": false
+    },
+    {
+      "destId": "palau",
+      "isPopular": false
+    },
+    {
+      "destId": "guam",
+      "isPopular": false
+    }
+  ],
+  "completed": [
+    "paris",
+    "dubrovnik",
+    "rome",
+    "milan",
+    "barcelona",
+    "madrid"
+  ],
+  "pendingReview": [
+    "paris",
+    "dubrovnik",
+    "rome",
+    "milan",
+    "barcelona",
+    "madrid"
+  ],
+  "approved": [],
+  "rejected": [],
+  "stats": {
+    "totalDestinations": 410,
+    "totalImagesDownloaded": 129,
+    "totalApproved": 0,
+    "totalRejected": 0
+  },
+  "lastBatchCompletedAt": "2026-01-22T21:23:55.556Z",
+  "nextBatchAvailableAt": "2026-01-22T22:33:55.556Z"
+}

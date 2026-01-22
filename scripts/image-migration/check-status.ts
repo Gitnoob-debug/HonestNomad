@@ -1,14 +1,16 @@
 /**
  * Check migration status
  * Run with: npx tsx scripts/image-migration/check-status.ts
+ *
+ * Alternative: npx tsx scripts/image-migration/migrate-images.ts --status
  */
 
 import * as fs from 'fs';
 import * as path from 'path';
 import { DESTINATIONS } from '../../lib/flash/destinations';
-import { CONFIG, POPULAR_DESTINATIONS, MigrationProgress } from './config';
+import { CONFIG, POPULAR_DESTINATIONS, Progress } from './config';
 
-function loadProgress(): MigrationProgress | null {
+function loadProgress(): Progress | null {
   const progressPath = path.join(process.cwd(), CONFIG.PROGRESS_FILE);
 
   try {
@@ -32,14 +34,16 @@ function checkStatus(): void {
 
   if (!progress) {
     console.log('\n❌ No migration started yet.');
-    console.log('   Run: npx tsx scripts/image-migration/migrate-images.ts');
+    console.log('   Run: npx tsx scripts/image-migration/migrate-images.ts --init');
     return;
   }
 
-  const completed = progress.completedDestinations.length;
-  const failed = progress.failedDestinations.length;
-  const total = DESTINATIONS.length;
-  const pending = total - completed - failed;
+  const completed = progress.completed.length;
+  const rejected = progress.rejected.length;
+  const approved = progress.approved.length;
+  const pendingReview = progress.pendingReview.length;
+  const total = progress.stats.totalDestinations || DESTINATIONS.length;
+  const queued = progress.queue.length;
   const percentComplete = ((completed / total) * 100).toFixed(1);
 
   console.log(`\n📈 Progress: ${completed}/${total} (${percentComplete}%)`);
@@ -53,45 +57,44 @@ function checkStatus(): void {
   console.log(`   [${bar}]`);
   console.log('');
 
-  console.log(`   ✅ Completed: ${completed}`);
-  console.log(`   ❌ Failed: ${failed}`);
-  console.log(`   ⏳ Pending: ${pending}`);
-  console.log(`   📸 Images downloaded: ${progress.stats.imagesDownloaded}`);
+  console.log(`   📦 Batches: ${progress.currentBatch}/${progress.totalBatches}`);
+  console.log(`   📸 Images downloaded: ${progress.stats.totalImagesDownloaded}`);
+  console.log(`   ⏳ Pending review: ${pendingReview}`);
+  console.log(`   ✅ Approved: ${approved}`);
+  console.log(`   ❌ Rejected: ${rejected}`);
+  console.log(`   📋 Queue: ${queued} remaining`);
   console.log('');
 
   // Time estimate
-  if (pending > 0) {
-    const sessionsNeeded = Math.ceil(pending / CONFIG.REQUESTS_PER_HOUR);
-    const hoursNeeded = sessionsNeeded * 1.25; // 1hr 15min per session
-    console.log(`⏰ Estimated time remaining: ~${hoursNeeded.toFixed(1)} hours (${sessionsNeeded} sessions)`);
+  if (queued > 0) {
+    const batchesLeft = Math.ceil(queued / 2);
+    const hoursNeeded = batchesLeft * (CONFIG.BATCH_COOLDOWN_MS / 3600000);
+    console.log(`⏰ Estimated time remaining: ~${hoursNeeded.toFixed(1)} hours (${batchesLeft} batches)`);
+  }
+
+  // Next batch availability
+  if (progress.nextBatchAvailableAt) {
+    const nextTime = new Date(progress.nextBatchAvailableAt);
+    const now = new Date();
+    if (nextTime > now) {
+      const minsLeft = Math.ceil((nextTime.getTime() - now.getTime()) / 60000);
+      console.log(`\n⏰ Next batch available in ${minsLeft} minutes (${nextTime.toLocaleTimeString()})`);
+    } else {
+      console.log(`\n✅ Ready to run next batch!`);
+    }
   }
 
   // Last updated
   console.log(`\n🕐 Last updated: ${new Date(progress.lastUpdated).toLocaleString()}`);
 
-  // Show failed destinations if any
-  if (failed > 0) {
-    console.log('\n❌ Failed destinations:');
-    progress.failedDestinations.slice(0, 10).forEach(f => {
-      console.log(`   - ${f.id}: ${f.error}`);
-    });
-    if (failed > 10) {
-      console.log(`   ... and ${failed - 10} more`);
-    }
-  }
-
-  // Show next up
-  const completedSet = new Set(progress.completedDestinations);
-  const failedSet = new Set(progress.failedDestinations.map(f => f.id));
-  const nextUp = DESTINATIONS
-    .filter(d => !completedSet.has(d.id) && !failedSet.has(d.id))
-    .slice(0, 5);
-
-  if (nextUp.length > 0) {
+  // Show next up from queue
+  if (progress.queue.length > 0) {
     console.log('\n📋 Next up:');
-    nextUp.forEach((d, i) => {
-      const isPopular = POPULAR_DESTINATIONS.has(d.id);
-      console.log(`   ${i + 1}. ${d.city}, ${d.country} ${isPopular ? '⭐' : ''}`);
+    progress.queue.slice(0, 5).forEach((item, i) => {
+      const dest = DESTINATIONS.find(d => d.id === item.destId);
+      if (dest) {
+        console.log(`   ${i + 1}. ${dest.city}, ${dest.country} ${item.isPopular ? '⭐' : ''}`);
+      }
     });
   }
 

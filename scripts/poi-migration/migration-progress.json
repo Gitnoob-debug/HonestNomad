@@ -1,0 +1,12 @@
+{
+  "startedAt": "2026-01-22T20:19:50.947Z",
+  "lastUpdatedAt": "2026-01-22T20:19:51.800Z",
+  "totalDestinations": 3,
+  "completedDestinations": [
+    "paris",
+    "lisbon",
+    "dubrovnik"
+  ],
+  "failedDestinations": [],
+  "currentDestination": "dubrovnik"
+}

@@ -86,7 +86,7 @@ export function ItineraryMap({
       console.log('Initializing Mapbox map with center:', latestCoordsRef.current);
       map.current = new mapboxgl.Map({
         container: mapContainer.current,
-        style: 'mapbox://styles/mapbox/satellite-v9',
+        style: 'mapbox://styles/mapbox/satellite-streets-v12',
         center: [latestCoordsRef.current.lng, latestCoordsRef.current.lat],
         zoom: 12,
         pitch: 45,

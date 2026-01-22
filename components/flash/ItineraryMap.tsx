@@ -269,7 +269,7 @@ export function ItineraryMap({
       map.current.flyTo({
         center: [activeStop.longitude, activeStop.latitude],
         zoom: 15,
-        pitch: 60,
+        pitch: 0, // Keep top-down view
         duration: 1500,
       });
     }

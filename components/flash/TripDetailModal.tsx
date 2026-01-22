@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { FlashTripPackage } from '@/types/flash';
+import { FlashTripPackage, FlightSliceSummary, FlightSegmentSummary } from '@/types/flash';
 
 interface TripDetailModalProps {
   trip: FlashTripPackage | null;
@@ -62,6 +62,188 @@ export function TripDetailModal({ trip, onClose, onBook }: TripDetailModalProps)
   const returnFlight = formatDateTime(trip.flight.return.departure);
   const returnArrival = formatDateTime(trip.flight.return.arrival);
 
+  // Render a flight slice with full segment details
+  const renderFlightSlice = (
+    slice: FlightSliceSummary,
+    label: string,
+    dateStr: string,
+    destAirport: string,
+    isReturn = false
+  ) => {
+    const hasSegments = slice.segments && slice.segments.length > 0;
+
+    if (!hasSegments) {
+      // Fallback to simple display
+      const dep = formatDateTime(slice.departure);
+      const arr = formatDateTime(slice.arrival);
+      return (
+        <div className="p-4 bg-gray-50 rounded-lg">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-xs font-medium text-gray-500 uppercase">{label}</span>
+            <span className="text-xs text-gray-500">{dateStr}</span>
+          </div>
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-lg font-semibold">{dep.time}</p>
+              <p className="text-sm text-gray-500">{isReturn ? destAirport : 'Home'}</p>
+            </div>
+            <div className="flex-1 px-4 text-center">
+              <span className="text-xs text-gray-500">
+                {formatDuration(slice.duration)}
+                {slice.stops > 0 && ` • ${slice.stops} stop${slice.stops > 1 ? 's' : ''}`}
+              </span>
+            </div>
+            <div className="text-right">
+              <p className="text-lg font-semibold">{arr.time}</p>
+              <p className="text-sm text-gray-500">{isReturn ? 'Home' : destAirport}</p>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // Full segment display
+    return (
+      <div className="bg-gray-50 rounded-lg overflow-hidden">
+        <div className="flex items-center justify-between px-4 py-2 bg-gray-100">
+          <span className="text-xs font-medium text-gray-700 uppercase">{label}</span>
+          <div className="flex items-center gap-2">
+            <span className="text-xs text-gray-500">{dateStr}</span>
+            <span className="text-xs text-gray-500">•</span>
+            <span className="text-xs text-gray-500">{formatDuration(slice.duration)} total</span>
+            {slice.stops === 0 ? (
+              <span className="text-xs px-2 py-0.5 bg-green-100 text-green-700 rounded-full">Direct</span>
+            ) : (
+              <span className="text-xs px-2 py-0.5 bg-orange-100 text-orange-700 rounded-full">
+                {slice.stops} stop{slice.stops > 1 ? 's' : ''}
+              </span>
+            )}
+          </div>
+        </div>
+
+        <div className="p-4 space-y-4">
+          {slice.segments.map((segment, idx) => (
+            <div key={idx}>
+              {/* Segment */}
+              <div className="flex items-start gap-4">
+                {/* Airline logo */}
+                <div className="flex-shrink-0">
+                  {segment.airline.logoUrl ? (
+                    <img src={segment.airline.logoUrl} alt={segment.airline.name} className="w-10 h-10 object-contain" />
+                  ) : (
+                    <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                      <span className="text-xs font-bold text-blue-600">{segment.airline.code}</span>
+                    </div>
+                  )}
+                </div>
+
+                {/* Flight info */}
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="font-medium text-gray-900">{segment.flightNumber}</span>
+                    {segment.marketingCarrier && (
+                      <span className="text-xs text-gray-500">
+                        (sold as {segment.marketingCarrier.flightNumber})
+                      </span>
+                    )}
+                    {segment.aircraft && (
+                      <span className="text-xs text-gray-400">• {segment.aircraft}</span>
+                    )}
+                  </div>
+
+                  {/* Times and airports */}
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <p className="font-semibold text-gray-900">
+                        {formatDateTime(segment.departure.time).time}
+                      </p>
+                      <p className="text-sm text-gray-700">{segment.departure.airport.code}</p>
+                      <p className="text-xs text-gray-500">{segment.departure.airport.city}</p>
+                      {segment.departure.terminal && (
+                        <p className="text-xs text-gray-400">Terminal {segment.departure.terminal}</p>
+                      )}
+                    </div>
+
+                    <div className="flex-1 px-4">
+                      <div className="flex flex-col items-center">
+                        <span className="text-xs text-gray-500">{formatDuration(segment.duration)}</span>
+                        <div className="w-full h-px bg-gray-300 my-1 relative">
+                          <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                          <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
+                        </div>
+                        {segment.cabinClassMarketingName && (
+                          <span className="text-xs text-blue-600">{segment.cabinClassMarketingName}</span>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="text-right">
+                      <p className="font-semibold text-gray-900">
+                        {formatDateTime(segment.arrival.time).time}
+                      </p>
+                      <p className="text-sm text-gray-700">{segment.arrival.airport.code}</p>
+                      <p className="text-xs text-gray-500">{segment.arrival.airport.city}</p>
+                      {segment.arrival.terminal && (
+                        <p className="text-xs text-gray-400">Terminal {segment.arrival.terminal}</p>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Amenities row */}
+                  {(segment.wifi?.available || segment.power?.available || segment.seatPitch) && (
+                    <div className="flex gap-3 mt-2 text-xs text-gray-500">
+                      {segment.wifi?.available && (
+                        <span className="flex items-center gap-1">
+                          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.14 0" />
+                          </svg>
+                          WiFi
+                        </span>
+                      )}
+                      {segment.power?.available && (
+                        <span className="flex items-center gap-1">
+                          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                          </svg>
+                          Power
+                        </span>
+                      )}
+                      {segment.seatPitch && (
+                        <span>{segment.seatPitch} seat pitch</span>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* Layover indicator */}
+              {idx < slice.segments.length - 1 && (
+                <div className="flex items-center gap-2 my-3 pl-14">
+                  <div className="w-px h-6 bg-orange-300"></div>
+                  <span className="text-xs text-orange-600 bg-orange-50 px-2 py-1 rounded">
+                    {calculateLayoverDuration(segment.arrival.time, slice.segments[idx + 1].departure.time)} layover in {segment.arrival.airport.city}
+                  </span>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  };
+
+  // Calculate layover duration between two times
+  const calculateLayoverDuration = (arrival: string, departure: string) => {
+    const arrTime = new Date(arrival).getTime();
+    const depTime = new Date(departure).getTime();
+    const diffMs = depTime - arrTime;
+    const hours = Math.floor(diffMs / (1000 * 60 * 60));
+    const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+    if (hours > 0 && minutes > 0) return `${hours}h ${minutes}m`;
+    if (hours > 0) return `${hours}h`;
+    return `${minutes}m`;
+  };
+
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto">
       {/* Backdrop */}
@@ -119,65 +301,118 @@ export function TripDetailModal({ trip, onClose, onBook }: TripDetailModalProps)
 
             {/* Flight details */}
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
-                <span className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                  <svg className="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                  </svg>
-                </span>
-                Flights with {trip.flight.airline}
-              </h3>
-
-              {/* Outbound */}
-              <div className="p-4 bg-gray-50 rounded-lg mb-2">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-xs font-medium text-gray-500 uppercase">Outbound</span>
-                  <span className="text-xs text-gray-500">{outbound.date}</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-lg font-semibold">{outbound.time}</p>
-                    <p className="text-sm text-gray-500">{trip.destination.airportCode}</p>
-                  </div>
-                  <div className="flex-1 px-4">
-                    <div className="border-t border-dashed border-gray-300 relative">
-                      <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-50 px-2 text-xs text-gray-500">
-                        {formatDuration(trip.flight.outbound.duration)}
-                        {trip.flight.outbound.stops > 0 && ` • ${trip.flight.outbound.stops} stop`}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="text-right">
-                    <p className="text-lg font-semibold">{outboundArrival.time}</p>
-                    <p className="text-sm text-gray-500">{trip.destination.airportCode}</p>
-                  </div>
+              {/* Header with airlines */}
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
+                  <span className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    </svg>
+                  </span>
+                  Flights
+                </h3>
+                {/* Fare conditions badges */}
+                <div className="flex gap-2">
+                  {trip.flight.conditions?.refundable && (
+                    <span className="text-xs px-2 py-1 bg-green-100 text-green-700 rounded-full">Refundable</span>
+                  )}
+                  {trip.flight.conditions?.changeable && (
+                    <span className="text-xs px-2 py-1 bg-blue-100 text-blue-700 rounded-full">Changeable</span>
+                  )}
                 </div>
               </div>
 
-              {/* Return */}
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-xs font-medium text-gray-500 uppercase">Return</span>
-                  <span className="text-xs text-gray-500">{returnFlight.date}</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-lg font-semibold">{returnFlight.time}</p>
-                    <p className="text-sm text-gray-500">{trip.destination.airportCode}</p>
+              {/* Airlines row */}
+              <div className="flex items-center gap-3 mb-4 p-3 bg-gray-50 rounded-lg">
+                {(trip.flight.airlines || [{ name: trip.flight.airline }]).map((airline, i) => (
+                  <div key={i} className="flex items-center gap-2">
+                    {airline.logoUrl && (
+                      <img src={airline.logoUrl} alt={airline.name} className="w-8 h-8 object-contain" />
+                    )}
+                    <span className="text-sm font-medium text-gray-700">{airline.name}</span>
+                    {i < (trip.flight.airlines?.length || 1) - 1 && <span className="text-gray-400">+</span>}
                   </div>
-                  <div className="flex-1 px-4">
-                    <div className="border-t border-dashed border-gray-300 relative">
-                      <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-50 px-2 text-xs text-gray-500">
-                        {formatDuration(trip.flight.return.duration)}
-                        {trip.flight.return.stops > 0 && ` • ${trip.flight.return.stops} stop`}
-                      </span>
+                ))}
+                <div className="ml-auto flex items-center gap-2">
+                  {trip.flight.cabinClass && (
+                    <span className="text-xs px-2 py-1 bg-white rounded text-gray-600 capitalize">
+                      {trip.flight.cabinClass.replace('_', ' ')}
+                    </span>
+                  )}
+                  {trip.flight.outbound?.fareBrandName && (
+                    <span className="text-xs px-2 py-1 bg-blue-50 text-blue-700 rounded font-medium">
+                      {trip.flight.outbound.fareBrandName}
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              {/* Outbound Flight */}
+              {renderFlightSlice(trip.flight.outbound, 'Outbound', outbound.date, trip.destination.airportCode)}
+
+              {/* Return Flight */}
+              <div className="mt-3">
+                {renderFlightSlice(trip.flight.return, 'Return', returnFlight.date, trip.destination.airportCode, true)}
+              </div>
+
+              {/* Baggage & Amenities */}
+              <div className="mt-4 p-3 bg-gray-50 rounded-lg">
+                <div className="flex flex-wrap gap-4 text-sm">
+                  {/* Baggage */}
+                  <div className="flex items-center gap-2 text-gray-600">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                    </svg>
+                    <span>
+                      {trip.flight.baggage?.carryOn && '1 carry-on'}
+                      {trip.flight.baggage?.checkedBags > 0 && ` + ${trip.flight.baggage.checkedBags} checked`}
+                      {trip.flight.baggage?.checkedBagWeightKg && ` (${trip.flight.baggage.checkedBagWeightKg}kg)`}
+                      {!trip.flight.baggage?.carryOn && trip.flight.baggage?.checkedBags === 0 && 'No bags included'}
+                    </span>
+                  </div>
+
+                  {/* Check for WiFi in segments */}
+                  {trip.flight.outbound?.segments?.some(s => s.wifi?.available) && (
+                    <div className="flex items-center gap-2 text-green-600">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.14 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
+                      </svg>
+                      <span>WiFi available</span>
                     </div>
-                  </div>
-                  <div className="text-right">
-                    <p className="text-lg font-semibold">{returnArrival.time}</p>
-                    <p className="text-sm text-gray-500">Home</p>
-                  </div>
+                  )}
+
+                  {/* Check for power in segments */}
+                  {trip.flight.outbound?.segments?.some(s => s.power?.available) && (
+                    <div className="flex items-center gap-2 text-green-600">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                      <span>Power outlets</span>
+                    </div>
+                  )}
+
+                  {/* CO2 emissions */}
+                  {trip.flight.co2EmissionsKg && (
+                    <div className="flex items-center gap-2 text-gray-500">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span>{trip.flight.co2EmissionsKg} kg CO₂</span>
+                    </div>
+                  )}
                 </div>
+
+                {/* Change/cancel fees if applicable */}
+                {(trip.flight.conditions?.changesFee || trip.flight.conditions?.cancellationFee) && (
+                  <div className="mt-3 pt-3 border-t border-gray-200 text-xs text-gray-500">
+                    {trip.flight.conditions.changesFee && (
+                      <span className="mr-4">Change fee: ${trip.flight.conditions.changesFee}</span>
+                    )}
+                    {trip.flight.conditions.cancellationFee && (
+                      <span>Cancel fee: ${trip.flight.conditions.cancellationFee}</span>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
 

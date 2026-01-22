@@ -114,23 +114,61 @@ export function SwipeCard({
           <span>{trip.itinerary.days} nights</span>
         </div>
 
-        {/* Flight info */}
-        <div className="flex items-center gap-3 p-3 bg-blue-50 rounded-lg mb-3">
-          <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-            <svg className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-            </svg>
+        {/* Flight info - enhanced */}
+        <div className="p-3 bg-blue-50 rounded-lg mb-3">
+          <div className="flex items-center gap-3 mb-2">
+            {trip.flight.airlines?.[0]?.logoUrl ? (
+              <img src={trip.flight.airlines[0].logoUrl} alt={trip.flight.airline} className="w-8 h-8 object-contain" />
+            ) : (
+              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                <svg className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                </svg>
+              </div>
+            )}
+            <div className="flex-1">
+              <p className="font-medium text-gray-900 text-sm">{trip.flight.airline}</p>
+              <div className="flex items-center gap-2 text-xs text-gray-500">
+                {trip.flight.outbound.stops === 0 ? (
+                  <span className="text-green-600">Direct</span>
+                ) : (
+                  <span className="text-orange-600">{trip.flight.outbound.stops} stop</span>
+                )}
+                <span>•</span>
+                <span>{formatDuration(trip.flight.outbound.duration)}</span>
+                {trip.flight.cabinClass && trip.flight.cabinClass !== 'economy' && (
+                  <>
+                    <span>•</span>
+                    <span className="capitalize">{trip.flight.cabinClass.replace('_', ' ')}</span>
+                  </>
+                )}
+              </div>
+            </div>
+            <span className="text-sm font-medium text-gray-700">
+              {formatPrice(trip.flight.price, trip.flight.currency)}
+            </span>
           </div>
-          <div className="flex-1">
-            <p className="font-medium text-gray-900 text-sm">{trip.flight.airline}</p>
-            <p className="text-xs text-gray-500">
-              {trip.flight.outbound.stops === 0 ? 'Direct' : `${trip.flight.outbound.stops} stop`}
-              {' • '}{formatDuration(trip.flight.outbound.duration)}
-            </p>
+          {/* Quick flight details */}
+          <div className="flex items-center justify-between text-xs text-gray-500 pt-2 border-t border-blue-100">
+            <div className="flex items-center gap-3">
+              {trip.flight.baggage?.checkedBags > 0 ? (
+                <span className="flex items-center gap-1">
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                  </svg>
+                  {trip.flight.baggage.checkedBags} bag
+                </span>
+              ) : (
+                <span>Carry-on only</span>
+              )}
+              {trip.flight.conditions?.refundable && (
+                <span className="text-green-600">Refundable</span>
+              )}
+            </div>
+            {trip.flight.outbound?.fareBrandName && (
+              <span className="text-blue-600">{trip.flight.outbound.fareBrandName}</span>
+            )}
           </div>
-          <span className="text-sm font-medium text-gray-700">
-            {formatPrice(trip.flight.price, trip.flight.currency)}
-          </span>
         </div>
 
         {/* Hotel info (if included) */}

@@ -11,7 +11,11 @@
       "Bash(npm run build:*)",
       "Bash(dir /s /b node_modules@duffelapidistStays*.*)",
       "Bash(git push:*)",
-      "Bash(npm show:*)"
+      "Bash(npm show:*)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 30 bash:*)",
+      "Bash(git -C \"C:\\\\HonestNomad\" log --oneline -20)",
+      "Bash(git -C \"C:\\\\HonestNomad\" log --all --oneline --graph)"
     ]
   }
 }

@@ -175,6 +175,7 @@ function normalizeOffer(offer: any): NormalizedFlight {
     duration: slice.duration,
     segments: (slice.segments || []).map(normalizeSegment),
     stops: (slice.segments?.length || 1) - 1,
+    fareBrandName: slice.fare_brand_name,
   }));
 
   // Collect unique airlines
@@ -227,12 +228,19 @@ function normalizeOffer(offer: any): NormalizedFlight {
       checkedBags: offer.passengers?.[0]?.baggages?.filter(
         (b: any) => b.type === 'checked'
       ).length || 0,
+      checkedBagWeightKg: offer.passengers?.[0]?.baggages?.find(
+        (b: any) => b.type === 'checked'
+      )?.metadata?.maximum_weight_kg,
     },
+    totalEmissionsKg: offer.total_emissions_kg ? parseFloat(offer.total_emissions_kg) : undefined,
     expiresAt: offer.expires_at,
   };
 }
 
 function normalizeSegment(segment: any): FlightSegment {
+  const passengerInfo = segment.passengers?.[0];
+  const cabin = passengerInfo?.cabin;
+
   return {
     id: segment.id,
     departureAirport: {
@@ -245,6 +253,8 @@ function normalizeSegment(segment: any): FlightSegment {
       name: segment.destination?.name || '',
       city: segment.destination?.city_name || segment.destination?.city?.name || '',
     },
+    departureTerminal: segment.origin_terminal,
+    arrivalTerminal: segment.destination_terminal,
     departureTime: segment.departing_at,
     arrivalTime: segment.arriving_at,
     duration: segment.duration,
@@ -254,8 +264,23 @@ function normalizeSegment(segment: any): FlightSegment {
       name: segment.operating_carrier?.name || segment.marketing_carrier?.name || '',
       logoUrl: segment.operating_carrier?.logo_symbol_url || segment.marketing_carrier?.logo_symbol_url,
     },
+    marketingCarrier: segment.marketing_carrier && segment.operating_carrier?.iata_code !== segment.marketing_carrier?.iata_code ? {
+      code: segment.marketing_carrier.iata_code,
+      name: segment.marketing_carrier.name,
+      flightNumber: `${segment.marketing_carrier.iata_code}${segment.marketing_carrier_flight_number || ''}`,
+    } : undefined,
     aircraft: segment.aircraft?.name,
-    cabinClass: segment.passengers?.[0]?.cabin_class || 'economy',
+    cabinClass: passengerInfo?.cabin_class || 'economy',
+    cabinClassMarketingName: passengerInfo?.cabin_class_marketing_name,
+    wifi: cabin?.amenities?.wifi ? {
+      available: cabin.amenities.wifi.available,
+      cost: cabin.amenities.wifi.cost,
+    } : undefined,
+    power: cabin?.amenities?.power ? {
+      available: cabin.amenities.power.available,
+      types: [cabin.amenities.power.type].filter(Boolean),
+    } : undefined,
+    seatPitch: cabin?.amenities?.seat?.pitch,
   };
 }
 

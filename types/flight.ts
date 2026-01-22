@@ -34,6 +34,8 @@ export interface FlightSegment {
     name: string;
     city: string;
   };
+  departureTerminal?: string;
+  arrivalTerminal?: string;
   departureTime: string; // ISO 8601
   arrivalTime: string; // ISO 8601
   duration: string; // ISO 8601 duration (e.g., PT2H30M)
@@ -43,8 +45,24 @@ export interface FlightSegment {
     name: string;
     logoUrl?: string;
   };
+  marketingCarrier?: {
+    code: string;
+    name: string;
+    flightNumber: string;
+  };
   aircraft?: string;
   cabinClass: CabinClass;
+  cabinClassMarketingName?: string;
+  // Amenities
+  wifi?: {
+    available: boolean;
+    cost?: string;
+  };
+  power?: {
+    available: boolean;
+    types?: string[];
+  };
+  seatPitch?: string;
 }
 
 export interface FlightSlice {
@@ -56,6 +74,7 @@ export interface FlightSlice {
   duration: string;
   segments: FlightSegment[];
   stops: number;
+  fareBrandName?: string;
 }
 
 export interface NormalizedFlight {
@@ -86,7 +105,9 @@ export interface NormalizedFlight {
   baggageAllowance?: {
     carryOn: boolean;
     checkedBags: number;
+    checkedBagWeightKg?: number;
   };
+  totalEmissionsKg?: number;
   expiresAt?: string;
 }
 

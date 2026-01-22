@@ -268,9 +268,40 @@ function buildTripPackage(
   // Cap at 1.0
   matchScore = Math.min(1.0, matchScore);
 
-  // Format flight slices
+  // Format flight slices with full details
   const outboundSlice = flight.slices[0];
   const returnSlice = flight.slices[1] || flight.slices[0];
+
+  // Build detailed segment info for each slice
+  const buildSliceSummary = (slice: typeof outboundSlice) => ({
+    departure: slice.departureTime,
+    arrival: slice.arrivalTime,
+    duration: slice.duration,
+    stops: slice.stops,
+    segments: slice.segments.map(seg => ({
+      flightNumber: seg.flightNumber,
+      airline: seg.airline,
+      marketingCarrier: seg.marketingCarrier,
+      aircraft: seg.aircraft,
+      departure: {
+        time: seg.departureTime,
+        airport: seg.departureAirport,
+        terminal: seg.departureTerminal,
+      },
+      arrival: {
+        time: seg.arrivalTime,
+        airport: seg.arrivalAirport,
+        terminal: seg.arrivalTerminal,
+      },
+      duration: seg.duration,
+      cabinClass: seg.cabinClass,
+      cabinClassMarketingName: seg.cabinClassMarketingName,
+      wifi: seg.wifi,
+      power: seg.power,
+      seatPitch: seg.seatPitch,
+    })),
+    fareBrandName: (slice as any).fareBrandName,
+  });
 
   return {
     id: uuidv4(),
@@ -282,21 +313,27 @@ function buildTripPackage(
       vibes: destination.vibes,
     },
     flight: {
+      offerId: flight.duffelOfferId,
       airline: flight.airlines[0]?.name || 'Airline',
-      outbound: {
-        departure: outboundSlice.departureTime,
-        arrival: outboundSlice.arrivalTime,
-        stops: outboundSlice.stops,
-        duration: outboundSlice.duration,
-      },
-      return: {
-        departure: returnSlice.departureTime,
-        arrival: returnSlice.arrivalTime,
-        stops: returnSlice.stops,
-        duration: returnSlice.duration,
-      },
+      airlines: flight.airlines,
+      outbound: buildSliceSummary(outboundSlice),
+      return: buildSliceSummary(returnSlice),
       price: flightPrice,
       currency: flight.pricing.currency,
+      cabinClass: flight.cabinClass,
+      baggage: {
+        carryOn: flight.baggageAllowance?.carryOn ?? true,
+        checkedBags: flight.baggageAllowance?.checkedBags ?? 0,
+        checkedBagWeightKg: (flight.baggageAllowance as any)?.checkedBagWeightKg,
+      },
+      conditions: {
+        changeable: flight.restrictions.changeable,
+        refundable: flight.restrictions.refundable,
+        changesFee: flight.restrictions.changesFee,
+        cancellationFee: flight.restrictions.cancellationFee,
+      },
+      co2EmissionsKg: (flight as any).totalEmissionsKg,
+      expiresAt: flight.expiresAt,
     },
     // No hotel in flights-only mode
     itinerary: {

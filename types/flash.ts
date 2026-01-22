@@ -149,22 +149,89 @@ export interface DestinationInfo {
   vibes: string[];
 }
 
+export interface FlightSegmentSummary {
+  flightNumber: string;
+  airline: {
+    code: string;
+    name: string;
+    logoUrl?: string;
+  };
+  marketingCarrier?: {
+    code: string;
+    name: string;
+    flightNumber: string;
+  };
+  aircraft?: string;
+  departure: {
+    time: string;
+    airport: {
+      code: string;
+      name: string;
+      city: string;
+    };
+    terminal?: string;
+  };
+  arrival: {
+    time: string;
+    airport: {
+      code: string;
+      name: string;
+      city: string;
+    };
+    terminal?: string;
+  };
+  duration: string;
+  cabinClass: string;
+  cabinClassMarketingName?: string;
+  wifi?: {
+    available: boolean;
+    cost?: string;
+  };
+  power?: {
+    available: boolean;
+    types?: string[];
+  };
+  seatPitch?: string;
+}
+
+export interface FlightSliceSummary {
+  departure: string;
+  arrival: string;
+  duration: string;
+  stops: number;
+  segments: FlightSegmentSummary[];
+  fareBrandName?: string;
+}
+
 export interface FlightSummary {
+  offerId: string;
   airline: string;
-  outbound: {
-    departure: string;
-    arrival: string;
-    stops: number;
-    duration: string;
-  };
-  return: {
-    departure: string;
-    arrival: string;
-    stops: number;
-    duration: string;
-  };
+  airlines: {
+    code: string;
+    name: string;
+    logoUrl?: string;
+  }[];
+  outbound: FlightSliceSummary;
+  return: FlightSliceSummary;
   price: number;
   currency: string;
+  cabinClass: string;
+  // Baggage info
+  baggage: {
+    carryOn: boolean;
+    checkedBags: number;
+    checkedBagWeightKg?: number;
+  };
+  // Fare conditions
+  conditions: {
+    changeable: boolean;
+    refundable: boolean;
+    changesFee?: number;
+    cancellationFee?: number;
+  };
+  // Optional extras
+  co2EmissionsKg?: number;
+  expiresAt?: string;
 }
 
 export interface HotelSummary {

@@ -47,33 +47,15 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
     transferType: 'drive',
     transferNote: 'Scenic Highway 1 coastal drive'
   },
-  'joshua-tree': {
-    hubAirportCode: 'LAX',
-    hubCity: 'Los Angeles',
-    groundTransferMinutes: 150, // 2.5 hours
-    transferType: 'drive',
-    transferNote: 'Desert highway through Palm Springs area'
-  },
+  // joshua-tree: Removed - destination doesn't exist in database (referenced in palm-springs highlights)
   'palm-springs': {
     hubAirportCode: 'LAX',
     hubCity: 'Los Angeles',
     groundTransferMinutes: 120, // 2 hours
     transferType: 'drive',
   },
-  'napa-valley': {
-    hubAirportCode: 'SFO',
-    hubCity: 'San Francisco',
-    groundTransferMinutes: 90, // 1.5 hours (note: under 2hr but useful to show)
-    transferType: 'drive',
-    transferNote: 'Wine country drive through scenic valleys'
-  },
-  'yosemite': {
-    hubAirportCode: 'SFO',
-    hubCity: 'San Francisco',
-    groundTransferMinutes: 210, // 3.5 hours
-    transferType: 'drive',
-    transferNote: 'Mountain road through Sierra Nevada foothills'
-  },
+  // napa-valley: Removed - 90min drive under 2hr threshold
+  // yosemite: Removed - destination doesn't exist in database
   'lake-tahoe': {
     hubAirportCode: 'SFO',
     hubCity: 'San Francisco',
@@ -110,13 +92,7 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
     transferType: 'drive',
     transferNote: 'High desert drive to South Rim'
   },
-  'page': {
-    hubAirportCode: 'PHX',
-    hubCity: 'Phoenix',
-    groundTransferMinutes: 270, // 4.5 hours
-    transferType: 'drive',
-    transferNote: 'Gateway to Antelope Canyon and Horseshoe Bend'
-  },
+  // page: Removed - destination doesn't exist in database (Antelope Canyon area)
 
   // Utah
   'moab': {
@@ -133,12 +109,7 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
     transferType: 'drive',
     transferNote: 'Desert drive to Zion National Park'
   },
-  'bryce-canyon': {
-    hubAirportCode: 'LAS',
-    hubCity: 'Las Vegas',
-    groundTransferMinutes: 255, // 4.25 hours
-    transferType: 'drive',
-  },
+  // bryce-canyon: Removed - destination doesn't exist in database
 
   // Colorado
   'aspen': {
@@ -155,13 +126,7 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
     transferType: 'drive',
     transferNote: 'Interstate 70 through mountains'
   },
-  'telluride': {
-    hubAirportCode: 'DEN',
-    hubCity: 'Denver',
-    groundTransferMinutes: 330, // 5.5 hours
-    transferType: 'drive',
-    transferNote: 'Scenic mountain drive or 45-min connecting flight'
-  },
+  // telluride: Removed - destination doesn't exist in database
 
   // Montana/Wyoming
   'jackson-hole': {
@@ -180,22 +145,10 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
   },
 
   // Pacific Northwest
-  'olympic-national-park': {
-    hubAirportCode: 'SEA',
-    hubCity: 'Seattle',
-    groundTransferMinutes: 150, // 2.5 hours
-    transferType: 'drive',
-    transferNote: 'Ferry crossing may be required'
-  },
+  // olympic-national-park: Removed - destination doesn't exist in database
 
   // New England
-  'acadia': {
-    hubAirportCode: 'BOS',
-    hubCity: 'Boston',
-    groundTransferMinutes: 270, // 4.5 hours
-    transferType: 'drive',
-    transferNote: 'Coastal New England drive to Bar Harbor'
-  },
+  // acadia: Removed - destination doesn't exist in database
   'nantucket': {
     hubAirportCode: 'BOS',
     hubCity: 'Boston',
@@ -225,41 +178,13 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
   // ===================
 
   // Italy
-  'amalfi': {
-    hubAirportCode: 'NAP',
-    hubCity: 'Naples',
-    groundTransferMinutes: 90, // 1.5 hours
-    transferType: 'drive',
-    transferNote: 'Winding coastal road with stunning views'
-  },
-  'cinque-terre': {
-    hubAirportCode: 'GOA',
-    hubCity: 'Genoa',
-    groundTransferMinutes: 90, // 1.5 hours (or train)
-    transferType: 'train',
-    transferNote: 'Scenic train along the coast'
-  },
-  'lake-como': {
-    hubAirportCode: 'MXP',
-    hubCity: 'Milan',
-    groundTransferMinutes: 75, // 1.25 hours
-    transferType: 'drive',
-  },
+  // amalfi: Removed - 90min drive under 2hr threshold
+  // cinque-terre: Removed - 90min train under 2hr threshold
+  // lake-como: Removed - 75min drive under 2hr threshold
 
   // France
-  'provence': {
-    hubAirportCode: 'MRS',
-    hubCity: 'Marseille',
-    groundTransferMinutes: 75, // 1.25 hours
-    transferType: 'drive',
-    transferNote: 'Lavender fields and hilltop villages'
-  },
-  'french-riviera': {
-    hubAirportCode: 'NCE',
-    hubCity: 'Nice',
-    groundTransferMinutes: 30, // Close to airport
-    transferType: 'drive',
-  },
+  // provence: Removed - 75min drive under 2hr threshold
+  // french-riviera: Removed - use 'nice' instead (same area)
   'mont-saint-michel': {
     hubAirportCode: 'CDG',
     hubCity: 'Paris',
@@ -276,19 +201,8 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
     transferType: 'drive',
     transferNote: 'Dramatic Highland scenery'
   },
-  'lake-district': {
-    hubAirportCode: 'MAN',
-    hubCity: 'Manchester',
-    groundTransferMinutes: 105, // 1.75 hours
-    transferType: 'drive',
-  },
-  'cotswolds': {
-    hubAirportCode: 'LHR',
-    hubCity: 'London',
-    groundTransferMinutes: 105, // 1.75 hours
-    transferType: 'drive',
-    transferNote: 'Quintessential English countryside'
-  },
+  // lake-district: Removed - 105min drive under 2hr threshold
+  // cotswolds: Removed - 105min drive under 2hr threshold
 
   // Spain
   'ibiza': {
@@ -297,13 +211,7 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
     groundTransferMinutes: 50, // Short flight
     transferType: 'connecting_flight',
   },
-  'san-sebastian': {
-    hubAirportCode: 'BIO',
-    hubCity: 'Bilbao',
-    groundTransferMinutes: 75, // 1.25 hours
-    transferType: 'drive',
-    transferNote: 'Basque Country coastal drive'
-  },
+  // san-sebastian: Removed - 75min drive under 2hr threshold
 
   // Greece
   'mykonos': {
@@ -328,21 +236,10 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
   },
 
   // Croatia
-  'hvar': {
-    hubAirportCode: 'SPU',
-    hubCity: 'Split',
-    groundTransferMinutes: 75, // 1+ hour ferry
-    transferType: 'ferry',
-  },
+  // hvar: Removed - destination doesn't exist in database (Croatian island)
 
   // Portugal
-  'algarve': {
-    hubAirportCode: 'FAO',
-    hubCity: 'Faro',
-    groundTransferMinutes: 60, // Within region
-    transferType: 'drive',
-    transferNote: 'Southern Portugal beach coast'
-  },
+  // algarve: Removed - destination doesn't exist in database (Portugal coast)
   'madeira': {
     hubAirportCode: 'LIS',
     hubCity: 'Lisbon',
@@ -354,7 +251,7 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
   // CARIBBEAN / CENTRAL AMERICA
   // ===================
 
-  'turks-and-caicos': {
+  'turks-caicos': {
     hubAirportCode: 'MIA',
     hubCity: 'Miami',
     groundTransferMinutes: 75, // Flight time
@@ -373,19 +270,8 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
   // ===================
 
   // Thailand
-  'koh-samui': {
-    hubAirportCode: 'BKK',
-    hubCity: 'Bangkok',
-    groundTransferMinutes: 70, // 1+ hour flight
-    transferType: 'connecting_flight',
-  },
-  'krabi': {
-    hubAirportCode: 'BKK',
-    hubCity: 'Bangkok',
-    groundTransferMinutes: 80, // 1.25 hour flight
-    transferType: 'connecting_flight',
-    transferNote: 'Gateway to Phi Phi Islands and Railay Beach'
-  },
+  // koh-samui: Removed - destination doesn't exist in database (Thai island)
+  // krabi: Removed - destination doesn't exist in database (Thai coast)
   'chiang-mai': {
     hubAirportCode: 'BKK',
     hubCity: 'Bangkok',
@@ -394,50 +280,16 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
   },
 
   // Indonesia
-  'gili-islands': {
-    hubAirportCode: 'DPS',
-    hubCity: 'Bali (Denpasar)',
-    groundTransferMinutes: 120, // Fast boat
-    transferType: 'ferry',
-    transferNote: 'Fast boat from Bali'
-  },
-  'komodo': {
-    hubAirportCode: 'DPS',
-    hubCity: 'Bali (Denpasar)',
-    groundTransferMinutes: 90, // Flight to Labuan Bajo
-    transferType: 'connecting_flight',
-  },
+  // gili-islands: Removed - destination doesn't exist in database (Indonesian islands)
+  // komodo: Removed - destination doesn't exist in database
 
   // Vietnam
-  'ha-long-bay': {
-    hubAirportCode: 'HAN',
-    hubCity: 'Hanoi',
-    groundTransferMinutes: 150, // 2.5 hours
-    transferType: 'drive',
-    transferNote: 'Most visitors stay overnight on boats'
-  },
-  'hoi-an': {
-    hubAirportCode: 'DAD',
-    hubCity: 'Da Nang',
-    groundTransferMinutes: 40,
-    transferType: 'drive',
-  },
+  // ha-long-bay: Removed - destination doesn't exist (day trip from hanoi)
+  // hoi-an: Removed - 40min drive under 2hr threshold
 
   // Japan
-  'hakone': {
-    hubAirportCode: 'NRT',
-    hubCity: 'Tokyo',
-    groundTransferMinutes: 120, // 2 hours by train
-    transferType: 'train',
-    transferNote: 'Mt. Fuji views and hot springs'
-  },
-  'nara': {
-    hubAirportCode: 'KIX',
-    hubCity: 'Osaka',
-    groundTransferMinutes: 60,
-    transferType: 'train',
-    transferNote: 'Famous for friendly deer in parks'
-  },
+  // hakone: Removed - destination doesn't exist (day trip from tokyo)
+  // nara: Removed - destination doesn't exist (day trip from osaka/kyoto)
 
   // Australia
   'great-barrier-reef': {
@@ -447,16 +299,10 @@ export const REMOTE_DESTINATION_TRANSFERS: Record<string, TransferInfo> = {
     transferType: 'connecting_flight',
     transferNote: 'Fly to Cairns for reef access'
   },
-  'uluru': {
-    hubAirportCode: 'SYD',
-    hubCity: 'Sydney',
-    groundTransferMinutes: 200, // Flight to Ayers Rock
-    transferType: 'connecting_flight',
-    transferNote: 'Direct flights from Sydney/Melbourne'
-  },
+  // uluru: Removed - destination doesn't exist in database
 
   // New Zealand
-  'queenstown': {
+  'new-zealand': {
     hubAirportCode: 'AKL',
     hubCity: 'Auckland',
     groundTransferMinutes: 110, // 2 hour flight

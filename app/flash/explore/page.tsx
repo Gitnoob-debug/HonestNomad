@@ -432,9 +432,6 @@ export default function FlashExplorePage() {
                             ★ {stop.googleRating.toFixed(1)}
                           </span>
                         )}
-                        {stop.duration && (
-                          <span className="text-white/40 text-xs">• {stop.duration}</span>
-                        )}
                       </div>
                       <h3 className="text-white font-medium truncate">{stop.name}</h3>
                       <p className="text-white/60 text-sm line-clamp-2">{stop.description}</p>
@@ -521,7 +518,6 @@ export default function FlashExplorePage() {
                   {activeStop.type === 'transport' && '✈️'}
                 </div>
                 <div className="flex-1">
-                  <p className="text-white/50 text-sm">Day {activeStop.day} • {activeStop.duration}</p>
                   <h2 className="text-white text-xl font-bold">{activeStop.name}</h2>
 
                   {/* Rating and reviews */}

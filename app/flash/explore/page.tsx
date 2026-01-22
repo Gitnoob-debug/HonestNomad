@@ -16,7 +16,68 @@ import {
 } from '@/lib/flash/itinerary-generator';
 
 type BookingStep = 'choice' | 'itinerary' | 'flights' | 'hotels' | 'checkout';
-type ItineraryType = 'classic' | 'trendy' | null;
+type ItineraryType = SimplePathChoice | null;
+
+// Path configuration with metadata
+const PATH_CONFIG: Record<SimplePathChoice, {
+  emoji: string;
+  name: string;
+  description: string;
+  color: string;
+  hoverColor: string;
+}> = {
+  classic: {
+    emoji: '🏛️',
+    name: 'Classic Must-See',
+    description: 'Hit all the iconic landmarks and famous spots. The full experience every traveler needs.',
+    color: 'bg-amber-500/20',
+    hoverColor: 'group-hover:text-amber-300',
+  },
+  foodie: {
+    emoji: '🍽️',
+    name: 'Foodie Paradise',
+    description: 'Best restaurants, markets, and local cuisine. Eat your way through the city.',
+    color: 'bg-orange-500/20',
+    hoverColor: 'group-hover:text-orange-300',
+  },
+  adventure: {
+    emoji: '🏔️',
+    name: 'Adventure Seeker',
+    description: 'Outdoor activities, day trips, and exciting experiences for the thrill-seeker.',
+    color: 'bg-emerald-500/20',
+    hoverColor: 'group-hover:text-emerald-300',
+  },
+  cultural: {
+    emoji: '🎭',
+    name: 'Culture & Arts',
+    description: 'Museums, galleries, theaters, and historical sites. Immerse in local culture.',
+    color: 'bg-purple-500/20',
+    hoverColor: 'group-hover:text-purple-300',
+  },
+  relaxation: {
+    emoji: '🌿',
+    name: 'Chill & Relaxed',
+    description: 'Parks, gardens, spas, and peaceful spots. Take it slow and unwind.',
+    color: 'bg-teal-500/20',
+    hoverColor: 'group-hover:text-teal-300',
+  },
+  nightlife: {
+    emoji: '🌙',
+    name: 'Night Owl',
+    description: 'Best bars, clubs, and late-night spots. Experience the city after dark.',
+    color: 'bg-indigo-500/20',
+    hoverColor: 'group-hover:text-indigo-300',
+  },
+  trendy: {
+    emoji: '✨',
+    name: 'Trendy Local Guide',
+    description: 'Hidden gems, local favorites, and off-the-beaten-path spots tourists miss.',
+    color: 'bg-pink-500/20',
+    hoverColor: 'group-hover:text-pink-300',
+  },
+};
+
+const ALL_PATHS: SimplePathChoice[] = ['classic', 'foodie', 'adventure', 'cultural', 'relaxation', 'nightlife', 'trendy'];
 
 interface ItineraryStop {
   id: string;
@@ -81,20 +142,20 @@ export default function FlashExplorePage() {
 
   const [isLoadingItinerary, setIsLoadingItinerary] = useState(false);
 
-  const handleChooseItinerary = async (type: 'classic' | 'trendy') => {
+  const handleChooseItinerary = async (pathType: SimplePathChoice) => {
     if (!trip) return;
-    setItineraryType(type);
+    setItineraryType(pathType);
     setIsLoadingItinerary(true);
 
     try {
       // Use the new async generator that loads real POI data
-      const generated = await generateItineraryAuto(trip, type as SimplePathChoice);
+      const generated = await generateItineraryAuto(trip, pathType);
       setItinerary(generated);
       setStep('itinerary');
     } catch (error) {
       console.error('Failed to generate itinerary:', error);
       // Fall back to hardcoded data
-      const generated = type === 'classic'
+      const generated = pathType === 'classic' || pathType === 'cultural' || pathType === 'adventure'
         ? generateSampleItinerary(trip)
         : generateTrendyItinerary(trip);
       setItinerary(generated);
@@ -102,6 +163,15 @@ export default function FlashExplorePage() {
     } finally {
       setIsLoadingItinerary(false);
     }
+  };
+
+  const handleRemix = () => {
+    // Pick a random path that's different from the current one
+    const availablePaths = itineraryType
+      ? ALL_PATHS.filter(p => p !== itineraryType)
+      : ALL_PATHS;
+    const randomPath = availablePaths[Math.floor(Math.random() * availablePaths.length)];
+    handleChooseItinerary(randomPath);
   };
 
   const handleStopClick = useCallback((stop: ItineraryStop) => {
@@ -210,67 +280,54 @@ export default function FlashExplorePage() {
             </div>
 
             {/* Choice heading */}
-            <h2 className="text-xl font-semibold text-white mb-4">
-              How do you want to explore?
-            </h2>
-
-            {/* Choice cards */}
-            <div className="space-y-4">
-              {/* Loading state */}
-              {isLoadingItinerary && (
-                <div className="w-full bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 text-center">
-                  <Spinner size="lg" className="text-white mx-auto mb-3" />
-                  <p className="text-white/80">Loading your personalized itinerary...</p>
-                </div>
-              )}
-
-              {/* Classic Must-See */}
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-xl font-semibold text-white">
+                How do you want to explore?
+              </h2>
+              {/* Remix button */}
               <button
-                onClick={() => handleChooseItinerary('classic')}
+                onClick={handleRemix}
                 disabled={isLoadingItinerary}
-                className="w-full bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 text-left hover:bg-white/20 transition-all group disabled:opacity-50 disabled:cursor-not-allowed"
+                className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white/80 hover:bg-white/20 hover:text-white transition-all disabled:opacity-50"
               >
-                <div className="flex items-start gap-4">
-                  <div className="w-14 h-14 bg-amber-500/20 rounded-xl flex items-center justify-center text-3xl flex-shrink-0">
-                    🏛️
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-white font-bold text-lg mb-1 group-hover:text-amber-300 transition-colors">
-                      Classic Must-See
-                    </h3>
-                    <p className="text-white/60 text-sm">
-                      Hit all the iconic landmarks and famous spots. Eiffel Tower, Louvre, Notre-Dame — the full experience.
-                    </p>
-                  </div>
-                  <svg className="w-5 h-5 text-white/40 group-hover:text-white transition-colors flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+                <span className="text-sm font-medium">Surprise me</span>
               </button>
+            </div>
 
-              {/* Trendy Local Guide */}
-              <button
-                onClick={() => handleChooseItinerary('trendy')}
-                disabled={isLoadingItinerary}
-                className="w-full bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 text-left hover:bg-white/20 transition-all group disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="w-14 h-14 bg-pink-500/20 rounded-xl flex items-center justify-center text-3xl flex-shrink-0">
-                    ✨
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-white font-bold text-lg mb-1 group-hover:text-pink-300 transition-colors">
-                      Trendy Local Guide
+            {/* Loading state */}
+            {isLoadingItinerary && (
+              <div className="w-full bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 text-center mb-4">
+                <Spinner size="lg" className="text-white mx-auto mb-3" />
+                <p className="text-white/80">Loading your personalized itinerary...</p>
+              </div>
+            )}
+
+            {/* Path choice grid */}
+            <div className="grid grid-cols-2 gap-3 max-h-[50vh] overflow-y-auto pb-4 scrollbar-hide">
+              {ALL_PATHS.map((pathType) => {
+                const config = PATH_CONFIG[pathType];
+                return (
+                  <button
+                    key={pathType}
+                    onClick={() => handleChooseItinerary(pathType)}
+                    disabled={isLoadingItinerary}
+                    className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 text-left hover:bg-white/20 transition-all group disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    <div className={`w-12 h-12 ${config.color} rounded-xl flex items-center justify-center text-2xl mb-3`}>
+                      {config.emoji}
+                    </div>
+                    <h3 className={`text-white font-bold text-sm mb-1 ${config.hoverColor} transition-colors`}>
+                      {config.name}
                     </h3>
-                    <p className="text-white/60 text-sm">
-                      Hidden gems, local favorites, and off-the-beaten-path spots the tourists don't know about.
+                    <p className="text-white/50 text-xs line-clamp-2">
+                      {config.description}
                     </p>
-                  </div>
-                  <svg className="w-5 h-5 text-white/40 group-hover:text-white transition-colors flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
-              </button>
+                  </button>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -317,7 +374,7 @@ export default function FlashExplorePage() {
 
             <div className="text-center">
               <h1 className="text-white font-bold text-lg">
-                {itineraryType === 'classic' ? '🏛️ Classic' : '✨ Trendy'} {trip.itinerary.days}-Day Plan
+                {itineraryType && PATH_CONFIG[itineraryType]?.emoji} {itineraryType && PATH_CONFIG[itineraryType]?.name} {trip.itinerary.days}-Day Plan
               </h1>
               <p className="text-white/60 text-xs">{trip.destination.city}, {trip.destination.country}</p>
             </div>
@@ -815,7 +872,7 @@ export default function FlashExplorePage() {
                   <div>
                     <h3 className="text-white font-bold text-lg">{trip.destination.city}</h3>
                     <p className="text-white/60">{trip.destination.country}</p>
-                    <p className="text-white/50 text-sm">{trip.itinerary.days} days • {itineraryType === 'classic' ? 'Classic' : 'Trendy'} itinerary</p>
+                    <p className="text-white/50 text-sm">{trip.itinerary.days} days • {itineraryType && PATH_CONFIG[itineraryType]?.name} itinerary</p>
                   </div>
                 </div>
 
@@ -879,7 +936,7 @@ export default function FlashExplorePage() {
               {!hasAnythingToBook && (
                 <div className="bg-green-500/10 border border-green-500/30 rounded-xl p-4 mb-4">
                   <p className="text-green-400 text-sm">
-                    You'll receive your personalized {trip.destination.city} itinerary with all the {itineraryType === 'classic' ? 'must-see landmarks' : 'trendy local spots'} to explore!
+                    You'll receive your personalized {trip.destination.city} itinerary with the {itineraryType && PATH_CONFIG[itineraryType]?.name.toLowerCase()} experience!
                   </p>
                 </div>
               )}

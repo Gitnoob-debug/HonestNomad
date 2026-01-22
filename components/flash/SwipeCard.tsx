@@ -1,6 +1,7 @@
 'use client';
 
 import { FlashTripPackage } from '@/types/flash';
+import { ImageCarousel } from './ImageCarousel';
 
 interface SwipeCardProps {
   trip: FlashTripPackage;
@@ -67,17 +68,18 @@ export function SwipeCard({
         </div>
       )}
 
-      {/* Hero image */}
+      {/* Hero image carousel */}
       <div className="relative h-56 sm:h-64">
-        <img
-          src={trip.imageUrl}
+        <ImageCarousel
+          images={trip.images || []}
+          primaryImage={trip.imageUrl}
           alt={trip.destination.city}
-          className="w-full h-full object-cover"
+          className="w-full h-full"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent pointer-events-none" />
 
         {/* Destination name */}
-        <div className="absolute bottom-4 left-4 right-4">
+        <div className="absolute bottom-4 left-4 right-4 pointer-events-none">
           <h2 className="text-2xl sm:text-3xl font-bold text-white">
             {trip.destination.city}
           </h2>
@@ -85,7 +87,7 @@ export function SwipeCard({
         </div>
 
         {/* Price badge */}
-        <div className="absolute top-4 right-4 bg-white px-3 py-1.5 rounded-full shadow-lg">
+        <div className="absolute top-4 right-4 bg-white px-3 py-1.5 rounded-full shadow-lg pointer-events-none">
           <span className="font-bold text-gray-900">
             {formatPrice(trip.pricing.total, trip.pricing.currency)}
           </span>
@@ -94,8 +96,18 @@ export function SwipeCard({
 
         {/* Match score */}
         {trip.matchScore >= 0.7 && (
-          <div className="absolute top-4 left-4 bg-primary-600 text-white px-2 py-1 rounded-full text-xs font-semibold">
+          <div className="absolute top-4 left-14 bg-primary-600 text-white px-2 py-1 rounded-full text-xs font-semibold pointer-events-none">
             {Math.round(trip.matchScore * 100)}% match
+          </div>
+        )}
+
+        {/* Transfer info badge for remote destinations */}
+        {trip.transferInfo && (
+          <div className="absolute bottom-16 left-4 bg-amber-500 text-white px-2 py-1 rounded-full text-xs font-medium flex items-center gap-1 pointer-events-none">
+            <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+            </svg>
+            {Math.round(trip.transferInfo.groundTransferMinutes / 60 * 10) / 10}hr {trip.transferInfo.transferType} from {trip.transferInfo.hubCity}
           </div>
         )}
       </div>

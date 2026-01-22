@@ -139,6 +139,8 @@ export interface FlashTripPackage {
   highlights: string[];
   matchScore: number;
   imageUrl: string;
+  images?: DestinationImage[];      // Multiple images for carousel
+  transferInfo?: TransferInfo;       // For remote destinations
 }
 
 export interface DestinationInfo {
@@ -147,6 +149,7 @@ export interface DestinationInfo {
   airportCode: string;
   region: string;
   vibes: string[];
+  transferInfo?: TransferInfo;       // Transfer info at destination level too
 }
 
 export interface FlightSegmentSummary {
@@ -260,6 +263,22 @@ export interface TripPricing {
   perPerson?: number;
 }
 
+// Destination image for carousel
+export interface DestinationImage {
+  url: string;
+  caption?: string;      // e.g., "Eiffel Tower", "Champs-Élysées"
+  credit?: string;       // Photo attribution
+}
+
+// Transfer info for remote destinations (>2hr from airport)
+export interface TransferInfo {
+  hubAirportCode: string;           // Major hub IATA code (e.g., "LAX")
+  hubCity: string;                  // "Los Angeles"
+  groundTransferMinutes: number;    // Minutes from destination's airport to actual destination
+  transferType: 'drive' | 'connecting_flight' | 'ferry' | 'train';
+  transferNote?: string;            // Optional note like "Scenic coastal drive"
+}
+
 // Destination database types
 export interface Destination {
   id: string;
@@ -271,9 +290,11 @@ export interface Destination {
   bestMonths: number[]; // 1-12
   averageCost: number; // USD estimate for 1 week, 2 adults
   highlights: string[];
-  imageUrl: string;
+  imageUrl: string;     // Primary image (backward compatible)
+  images?: DestinationImage[];  // Multiple images for carousel (5-10)
   latitude: number;
   longitude: number;
+  transferInfo?: TransferInfo;  // Only for remote destinations >2hr from airport
 }
 
 export type DestinationVibe =

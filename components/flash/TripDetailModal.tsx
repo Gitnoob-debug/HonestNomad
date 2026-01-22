@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import { FlashTripPackage, FlightSliceSummary, FlightSegmentSummary } from '@/types/flash';
+import { ImageCarousel } from './ImageCarousel';
 
 interface TripDetailModalProps {
   trip: FlashTripPackage | null;
@@ -265,15 +266,17 @@ export function TripDetailModal({ trip, onClose, onBook }: TripDetailModalProps)
             </svg>
           </button>
 
-          {/* Hero image */}
-          <div className="relative h-48 sm:h-64">
-            <img
-              src={trip.imageUrl}
+          {/* Hero image carousel */}
+          <div className="relative h-48 sm:h-72">
+            <ImageCarousel
+              images={trip.images || []}
+              primaryImage={trip.imageUrl}
               alt={trip.destination.city}
-              className="w-full h-full object-cover"
+              className="w-full h-full"
+              showCaptions={true}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-            <div className="absolute bottom-4 left-4">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
+            <div className="absolute bottom-4 left-4 pointer-events-none">
               <h2 className="text-2xl sm:text-3xl font-bold text-white">
                 {trip.destination.city}
               </h2>
@@ -298,6 +301,98 @@ export function TripDetailModal({ trip, onClose, onBook }: TripDetailModalProps)
                 <p className="text-sm text-gray-500">{trip.itinerary.days} nights</p>
               </div>
             </div>
+
+            {/* Getting There - Transfer info for remote destinations */}
+            {trip.transferInfo && (
+              <div className="mb-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                  <span className="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                    </svg>
+                  </span>
+                  Getting There
+                </h3>
+
+                <div className="p-4 bg-amber-50 rounded-lg border border-amber-100">
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">
+                      {trip.transferInfo.transferType === 'drive' && (
+                        <svg className="w-5 h-5 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                        </svg>
+                      )}
+                      {trip.transferInfo.transferType === 'train' && (
+                        <svg className="w-5 h-5 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                        </svg>
+                      )}
+                      {trip.transferInfo.transferType === 'ferry' && (
+                        <svg className="w-5 h-5 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                      )}
+                      {trip.transferInfo.transferType === 'connecting_flight' && (
+                        <svg className="w-5 h-5 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                        </svg>
+                      )}
+                    </div>
+                    <div className="flex-1">
+                      <p className="font-medium text-amber-800">
+                        {trip.destination.city} is {Math.round(trip.transferInfo.groundTransferMinutes / 60 * 10) / 10} hours from the nearest major airport
+                      </p>
+                      <p className="text-sm text-amber-700 mt-1">
+                        Your flight lands at <span className="font-semibold">{trip.transferInfo.hubCity} ({trip.transferInfo.hubAirportCode})</span>.
+                        {trip.transferInfo.transferType === 'drive' && (
+                          <> You'll need to arrange ground transportation (rental car or shuttle) for the {Math.round(trip.transferInfo.groundTransferMinutes / 60 * 10) / 10}-hour drive.</>
+                        )}
+                        {trip.transferInfo.transferType === 'train' && (
+                          <> Take a {Math.round(trip.transferInfo.groundTransferMinutes / 60 * 10) / 10}-hour train ride to reach {trip.destination.city}.</>
+                        )}
+                        {trip.transferInfo.transferType === 'ferry' && (
+                          <> Take a {Math.round(trip.transferInfo.groundTransferMinutes / 60 * 10) / 10}-hour ferry ride to reach {trip.destination.city}.</>
+                        )}
+                        {trip.transferInfo.transferType === 'connecting_flight' && (
+                          <> A short connecting flight ({Math.round(trip.transferInfo.groundTransferMinutes)} min) takes you to {trip.destination.city}.</>
+                        )}
+                      </p>
+                      {trip.transferInfo.transferNote && (
+                        <p className="text-xs text-amber-600 mt-2 italic">{trip.transferInfo.transferNote}</p>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Visual timeline */}
+                  <div className="flex items-center mt-4 pt-3 border-t border-amber-200">
+                    <div className="text-center">
+                      <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-sm">
+                        <svg className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                        </svg>
+                      </div>
+                      <p className="text-xs text-amber-700 mt-1 font-medium">{trip.transferInfo.hubAirportCode}</p>
+                    </div>
+                    <div className="flex-1 px-2">
+                      <div className="h-0.5 bg-amber-300 relative">
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-amber-50 px-2 text-xs text-amber-600">
+                          {Math.round(trip.transferInfo.groundTransferMinutes / 60 * 10) / 10}hr {trip.transferInfo.transferType}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="text-center">
+                      <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-sm">
+                        <svg className="w-5 h-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                      </div>
+                      <p className="text-xs text-amber-700 mt-1 font-medium">{trip.destination.city}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
 
             {/* Flight details */}
             <div className="mb-6">

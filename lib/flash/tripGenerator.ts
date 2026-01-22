@@ -9,6 +9,8 @@ import type {
 import { selectDestinations, calculateDiversityScore } from './diversityEngine';
 import { searchFlights } from '@/lib/duffel/flights';
 import type { NormalizedFlight } from '@/types/flight';
+import { getDestinationImages } from './destinationImages';
+import { getTransferInfo } from './hubAirports';
 
 export interface GenerationProgress {
   stage: 'finding_destinations' | 'searching_flights' | 'building_trips' | 'complete';
@@ -303,6 +305,10 @@ function buildTripPackage(
     fareBrandName: (slice as any).fareBrandName,
   });
 
+  // Get images and transfer info for this destination
+  const destinationImages = getDestinationImages(destination.id);
+  const transferInfo = getTransferInfo(destination.id);
+
   return {
     id: uuidv4(),
     destination: {
@@ -311,6 +317,7 @@ function buildTripPackage(
       airportCode: destination.airportCode,
       region: destination.region,
       vibes: destination.vibes,
+      transferInfo,
     },
     flight: {
       offerId: flight.duffelOfferId,
@@ -351,6 +358,8 @@ function buildTripPackage(
     highlights: destination.highlights.slice(0, 4),
     matchScore,
     imageUrl: destination.imageUrl,
+    images: destinationImages.length > 0 ? destinationImages : undefined,
+    transferInfo,
   };
 }
 

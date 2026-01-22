@@ -6,3 +6,4 @@ export { SwipeContainer } from './SwipeContainer';
 export { TripDetailModal } from './TripDetailModal';
 export { ImmersiveSwipeCard } from './ImmersiveSwipeCard';
 export { ImmersiveSwipeContainer } from './ImmersiveSwipeContainer';
+export { ItineraryMap } from './ItineraryMap';

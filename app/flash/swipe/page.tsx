@@ -49,12 +49,12 @@ export default function FlashSwipePage() {
     }
   }, [trips, preferencesLoading, router]);
 
-  // Handle booking when trip is selected
+  // Handle when trip is selected - go to explore/itinerary view
   useEffect(() => {
     if (selectedTrip) {
-      // Store selected trip and redirect to booking
+      // Store selected trip and redirect to explore/itinerary
       sessionStorage.setItem('flash_selected_trip', JSON.stringify(selectedTrip));
-      router.push('/flash/confirm');
+      router.push('/flash/explore');
     }
   }, [selectedTrip, router]);
 

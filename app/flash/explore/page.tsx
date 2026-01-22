@@ -104,12 +104,13 @@ export default function FlashExplorePage() {
   const { user, loading: authLoading } = useAuth();
   const router = useRouter();
   const [trip, setTrip] = useState<FlashTripPackage | null>(null);
-  const [step, setStep] = useState<BookingStep>('choice');
-  const [itineraryType, setItineraryType] = useState<ItineraryType>(null);
+  const [step, setStep] = useState<BookingStep>('itinerary'); // Start directly on itinerary
+  const [itineraryType, setItineraryType] = useState<ItineraryType>('classic'); // Default to classic
   const [itinerary, setItinerary] = useState<ItineraryDay[]>([]);
   const [activeDay, setActiveDay] = useState(1);
   const [activeStopId, setActiveStopId] = useState<string | null>(null);
   const [showDetails, setShowDetails] = useState(false);
+  const [isLoadingItinerary, setIsLoadingItinerary] = useState(false);
 
   // Booking selections
   const [skipFlights, setSkipFlights] = useState(false);
@@ -133,6 +134,14 @@ export default function FlashExplorePage() {
     }
   }, [router]);
 
+  // Auto-load classic itinerary when trip is loaded
+  useEffect(() => {
+    if (trip && itinerary.length === 0 && !isLoadingItinerary) {
+      loadItinerary('classic');
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [trip]);
+
   // Auth check
   useEffect(() => {
     if (!authLoading && !user) {
@@ -140,18 +149,18 @@ export default function FlashExplorePage() {
     }
   }, [user, authLoading, router]);
 
-  const [isLoadingItinerary, setIsLoadingItinerary] = useState(false);
-
-  const handleChooseItinerary = async (pathType: SimplePathChoice) => {
+  const loadItinerary = async (pathType: SimplePathChoice) => {
     if (!trip) return;
     setItineraryType(pathType);
     setIsLoadingItinerary(true);
+    setActiveDay(1);
+    setActiveStopId(null);
+    setShowDetails(false);
 
     try {
       // Use the new async generator that loads real POI data
       const generated = await generateItineraryAuto(trip, pathType);
       setItinerary(generated);
-      setStep('itinerary');
     } catch (error) {
       console.error('Failed to generate itinerary:', error);
       // Fall back to hardcoded data
@@ -159,19 +168,18 @@ export default function FlashExplorePage() {
         ? generateSampleItinerary(trip)
         : generateTrendyItinerary(trip);
       setItinerary(generated);
-      setStep('itinerary');
     } finally {
       setIsLoadingItinerary(false);
     }
   };
 
-  const handleRemix = () => {
+  const handleShuffle = () => {
     // Pick a random path that's different from the current one
     const availablePaths = itineraryType
       ? ALL_PATHS.filter(p => p !== itineraryType)
       : ALL_PATHS;
     const randomPath = availablePaths[Math.floor(Math.random() * availablePaths.length)];
-    handleChooseItinerary(randomPath);
+    loadItinerary(randomPath);
   };
 
   const handleStopClick = useCallback((stop: ItineraryStop) => {
@@ -180,12 +188,9 @@ export default function FlashExplorePage() {
   }, []);
 
   const handleGoBack = () => {
-    if (step === 'choice') {
+    if (step === 'itinerary') {
+      // Go back to swipe to pick a different destination
       router.push('/flash/swipe');
-    } else if (step === 'itinerary') {
-      setStep('choice');
-      setItinerary([]);
-      setItineraryType(null);
     } else if (step === 'flights') {
       setStep('itinerary');
     } else if (step === 'hotels') {
@@ -238,104 +243,7 @@ export default function FlashExplorePage() {
     );
   }
 
-  // Step 1: Choose itinerary type
-  if (step === 'choice') {
-    return (
-      <div className="fixed inset-0 bg-black">
-        {/* Background image */}
-        <div className="absolute inset-0">
-          <img
-            src={trip.imageUrl}
-            alt={trip.destination.city}
-            className="w-full h-full object-cover opacity-40"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
-        </div>
-
-        {/* Content */}
-        <div className="relative z-10 h-full flex flex-col">
-          {/* Header */}
-          <div className="p-4 pt-safe">
-            <button
-              onClick={handleGoBack}
-              className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
-            >
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
-              <span className="text-sm font-medium">Back to browsing</span>
-            </button>
-          </div>
-
-          {/* Main content */}
-          <div className="flex-1 flex flex-col justify-end p-6 pb-safe">
-            {/* Destination info */}
-            <div className="mb-8">
-              <h1 className="text-4xl sm:text-5xl font-bold text-white mb-2">
-                {trip.destination.city}
-              </h1>
-              <p className="text-white/70 text-lg">
-                {trip.itinerary.days} days in {trip.destination.country}
-              </p>
-            </div>
-
-            {/* Choice heading */}
-            <div className="flex items-center justify-between mb-4">
-              <h2 className="text-xl font-semibold text-white">
-                How do you want to explore?
-              </h2>
-              {/* Remix button */}
-              <button
-                onClick={handleRemix}
-                disabled={isLoadingItinerary}
-                className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white/80 hover:bg-white/20 hover:text-white transition-all disabled:opacity-50"
-              >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                </svg>
-                <span className="text-sm font-medium">Surprise me</span>
-              </button>
-            </div>
-
-            {/* Loading state */}
-            {isLoadingItinerary && (
-              <div className="w-full bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 text-center mb-4">
-                <Spinner size="lg" className="text-white mx-auto mb-3" />
-                <p className="text-white/80">Loading your personalized itinerary...</p>
-              </div>
-            )}
-
-            {/* Path choice grid */}
-            <div className="grid grid-cols-2 gap-3 max-h-[50vh] overflow-y-auto pb-4 scrollbar-hide">
-              {ALL_PATHS.map((pathType) => {
-                const config = PATH_CONFIG[pathType];
-                return (
-                  <button
-                    key={pathType}
-                    onClick={() => handleChooseItinerary(pathType)}
-                    disabled={isLoadingItinerary}
-                    className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 text-left hover:bg-white/20 transition-all group disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    <div className={`w-12 h-12 ${config.color} rounded-xl flex items-center justify-center text-2xl mb-3`}>
-                      {config.emoji}
-                    </div>
-                    <h3 className={`text-white font-bold text-sm mb-1 ${config.hoverColor} transition-colors`}>
-                      {config.name}
-                    </h3>
-                    <p className="text-white/50 text-xs line-clamp-2">
-                      {config.description}
-                    </p>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  // Step 2: View itinerary with map
+  // Itinerary view with map (main step)
   if (step === 'itinerary') {
     const activeDayData = itinerary.find((d) => d.day === activeDay);
     const allStops = itinerary.flatMap((day) => day.stops);
@@ -427,7 +335,12 @@ export default function FlashExplorePage() {
 
             {/* Stops carousel */}
             <div className="flex gap-3 overflow-x-auto py-4 scrollbar-hide">
-              {dayStops.map((stop, index) => (
+              {isLoadingItinerary ? (
+                <div className="flex-1 flex items-center justify-center py-8">
+                  <Spinner size="md" className="text-white" />
+                  <span className="text-white/60 ml-3">Loading {itineraryType && PATH_CONFIG[itineraryType]?.name}...</span>
+                </div>
+              ) : dayStops.map((stop, index) => (
                 <button
                   key={stop.id}
                   onClick={() => handleStopClick(stop)}
@@ -465,13 +378,29 @@ export default function FlashExplorePage() {
               ))}
             </div>
 
-            {/* Continue button */}
-            <button
-              onClick={handleContinueFromItinerary}
-              className="w-full py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors mb-4"
-            >
-              Continue to Flights
-            </button>
+            {/* Action buttons: Shuffle + Continue */}
+            <div className="flex gap-3 mb-4">
+              {/* Shuffle button */}
+              <button
+                onClick={handleShuffle}
+                disabled={isLoadingItinerary}
+                className="flex items-center justify-center gap-2 px-5 py-4 bg-white/10 border border-white/20 text-white font-medium rounded-xl hover:bg-white/20 transition-colors disabled:opacity-50"
+              >
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                </svg>
+                <span>Shuffle</span>
+              </button>
+
+              {/* Continue button */}
+              <button
+                onClick={handleContinueFromItinerary}
+                disabled={isLoadingItinerary}
+                className="flex-1 py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
+              >
+                Continue to Flights
+              </button>
+            </div>
           </div>
         </div>
 

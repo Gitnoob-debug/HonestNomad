@@ -89,8 +89,8 @@ export function ItineraryMap({
         style: 'mapbox://styles/mapbox/satellite-streets-v12',
         center: [latestCoordsRef.current.lng, latestCoordsRef.current.lat],
         zoom: 12,
-        pitch: 45,
-        bearing: -10,
+        pitch: 0,
+        bearing: 0,
         antialias: true,
       });
       initialCenterSet.current = true;

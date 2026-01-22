@@ -4,75 +4,70 @@
 
 ---
 
-## Immediate Next Steps
+## Current Focus: Flash Vacation Feature
 
-### 1. Install & Run
-```bash
-cd C:\HonestNomad
-npm install
-npm run dev
-```
+### Completed (Phase 1-5)
+- [x] Type definitions (`types/flash.ts`)
+- [x] API routes for preferences (`app/api/flash/preferences/route.ts`)
+- [x] API routes for trip generation (`app/api/flash/generate/route.ts`)
+- [x] Profile wizard - 8 steps (travelers, homeBase, budget, accommodation, travelStyle, interests, restrictions, surpriseTolerance)
+- [x] Destination database with 50+ curated destinations (`lib/flash/destinations.ts`)
+- [x] Diversity engine for destination selection (`lib/flash/diversityEngine.ts`)
+- [x] Trip generator - **flights-only mode** (`lib/flash/tripGenerator.ts`)
+- [x] Flash plan input page (`app/flash/page.tsx`)
+- [x] Swipe interface with card stack (`app/flash/swipe/page.tsx`)
+- [x] SwipeCard and TripDetailModal components
+- [x] Confirm/booking page (`app/flash/confirm/page.tsx`)
+- [x] Flash profile section in Settings page
+- [x] Snake_case to camelCase database transformation fix
 
-### 2. Create `.env.local`
-```bash
-cp .env.local.example .env.local
-```
+### In Progress
+- [ ] **Test flight search end-to-end** - Verify trips generate and display in swipe UI
 
-Then fill in:
-```
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-SUPABASE_SERVICE_ROLE_KEY=
-ANTHROPIC_API_KEY=
-DUFFEL_ACCESS_TOKEN=
-MAPBOX_ACCESS_TOKEN=
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-```
+### Next Up
+- [ ] Streamline wizard from 8 steps to ~4 essential steps
+- [ ] Implement "revealed preference" learning from swipe behavior
+- [ ] Re-enable hotel search once Duffel Stays API access is granted
+- [ ] Connect swipe "accept" to actual booking flow
 
-### 3. Supabase Database
-1. Create project at supabase.com
-2. Go to SQL Editor
-3. Paste contents of `lib/supabase/migrations.sql`
-4. Run
-
-### 4. Supabase Auth (OAuth)
-1. Authentication > Providers
-2. Enable Google (need Google Cloud OAuth credentials)
-3. Enable Facebook (need Facebook Developer App)
-
-### 5. Add Assets
-- `/public/logo.svg`
-- `/public/favicon.ico`
-- `/public/markers/hotel.png` (32x32)
-- `/public/markers/attraction.png` (24x24)
+### Known Issues
+- Hotel search disabled (Duffel Stays API not enabled on account)
+- Flights-only mode active - hotels show as "not included" in trip cards
 
 ---
 
-## Build Status
+## Original MVP Features (Complete)
 
-### Complete
+### Build Status
 - [x] Project setup (Next.js 14, TypeScript, Tailwind)
 - [x] Database schema & Supabase integration
 - [x] Authentication (email + Google + Facebook OAuth)
 - [x] Claude AI integration (conversation + itinerary)
-- [x] Duffel API integration (search + booking)
+- [x] Duffel API integration (flights search + booking)
 - [x] Mapbox geocoding
 - [x] Chat interface
-- [x] Hotel search & display
+- [x] Hotel search & display (mock data mode)
 - [x] Booking flow with payment form
 - [x] Map components (Leaflet)
 - [x] Itinerary generation & display
 - [x] User pages (bookings, settings)
 - [x] All API routes
 
-### Not Yet Done
-- [ ] npm install
-- [ ] Supabase project setup
-- [ ] API keys configured
-- [ ] OAuth providers configured
-- [ ] Asset files added
-- [ ] End-to-end testing
-- [ ] Production deployment
+### Setup Tasks
+- [x] npm install
+- [x] Supabase project setup
+- [x] API keys configured
+- [x] Deployed to Vercel
+
+---
+
+## Install & Run
+
+```bash
+cd C:\HonestNomad
+npm install
+npm run dev
+```
 
 ---
 
@@ -87,31 +82,14 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 
 ---
 
-## Test Flow
+## Test Flow - Flash Vacation
 
-1. **Open app** → Chat loads
-2. **Type** "I need a hotel in Paris March 15-18 under €150" → AI searches
-3. **Click "Book This"** on a hotel → Guest form appears
-4. **Fill form** with test data → Use card 4242 4242 4242 4242
-5. **Submit** → Booking confirmed
-6. **Request itinerary** → Day-by-day plan generated
-
----
-
-## Deploy to Vercel
-
-```bash
-# Push to GitHub first
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin <your-repo-url>
-git push -u origin main
-
-# Then import in Vercel dashboard
-# Add all env vars
-# Deploy
-```
+1. **Open app** → Navigate to `/flash`
+2. **Complete wizard** (if profile incomplete) → 8 steps of preferences
+3. **Select dates** and optional vibe filters → Click "Generate Flash Trips"
+4. **Swipe interface** loads with trip cards (flights-only mode)
+5. **Swipe right** to like, **left** to pass, or **tap** for details
+6. **Confirm trip** → Proceed to booking
 
 ---
 
@@ -120,11 +98,13 @@ git push -u origin main
 | Need to... | Look in... |
 |------------|------------|
 | Change AI prompts | `lib/claude/prompts.ts` |
-| Modify search logic | `lib/duffel/search.ts` |
+| Modify flight search | `lib/duffel/flights.ts` |
 | Edit chat UI | `components/chat/` |
 | Update database schema | `lib/supabase/migrations.sql` |
-| Add new API route | `app/api/` |
-| Change styling | `app/globals.css` or component files |
+| **Flash wizard steps** | `components/flash/ProfileWizard/` |
+| **Trip generation** | `lib/flash/tripGenerator.ts` |
+| **Swipe UI** | `components/flash/SwipeCard.tsx`, `SwipeContainer.tsx` |
+| **Destination data** | `lib/flash/destinations.ts` |
 
 ---
 

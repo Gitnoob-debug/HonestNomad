@@ -8,361 +8,238 @@
 
 | Area | Status | Notes |
 |------|--------|-------|
-| Codebase | **Complete** | All features built |
-| Dependencies | **Not Installed** | Run `npm install` |
-| Database | **Not Set Up** | Need Supabase project |
-| API Keys | **Not Configured** | Need all provider keys |
-| Assets | **Placeholders Only** | Need logo, icons |
-| Testing | **Not Started** | Need to test all flows |
-| Deployment | **Not Started** | Ready for Vercel |
+| Original MVP | **Complete** | Chat-first booking flow works |
+| Flash Vacation | **In Progress** | Flights-only mode, ready to test |
+| Database | **Set Up** | Supabase configured |
+| API Keys | **Configured** | All providers connected |
+| Deployment | **Live** | Vercel deployment active |
+
+---
+
+## Current State: Flash Vacation Feature
+
+### What's Built
+The Flash Vacation feature is fully built and deployed in **flights-only mode**:
+
+1. **Profile Wizard** (`/flash/wizard`) - 8-step onboarding:
+   - Travelers (solo/couple/family/group)
+   - Home Base (departure airport)
+   - Budget (per-trip min/max)
+   - Accommodation preferences
+   - Travel style sliders
+   - Interests
+   - Restrictions (dietary, accessibility)
+   - Surprise tolerance
+
+2. **Flash Plan** (`/flash`) - Trip generation:
+   - Date picker
+   - Optional vibe filters (beach, adventure, culture, etc.)
+   - Optional region filter
+   - Generate button triggers batch trip generation
+
+3. **Swipe UI** (`/flash/swipe`) - Tinder-style interface:
+   - Card stack with gesture support
+   - Swipe right = like, left = pass
+   - Tap card = view full details modal
+   - Keyboard shortcuts (arrows, Enter, Escape)
+
+4. **Confirmation** (`/flash/confirm`) - Selected trip summary:
+   - Flight details
+   - Hotel section (shows "not included" in flights-only mode)
+   - Trip highlights
+   - Proceed to booking button
+
+### What's Working
+- Profile wizard saves to Supabase correctly
+- Snake_case to camelCase transformation fixed
+- Trip generation API calls Duffel for real flight data
+- Swipe UI renders and gestures work
+- Settings page shows Flash profile status
+
+### What's Disabled
+- **Hotel search** - Duffel Stays API not enabled on account
+- Hotels show as "not included" in all trip cards
+- Pricing only includes flight costs
+
+### What's Next
+1. Test flight search end-to-end (deploy just went live)
+2. Streamline wizard from 8 to ~4 steps
+3. Add "revealed preference" learning from swipe behavior
+4. Re-enable hotels when API access is granted
+5. Connect booking flow to actual payment
 
 ---
 
 ## Session Log
+
+### Session 4 - January 2025 (Flights-Only Mode)
+
+**What We Did:**
+- Fixed snake_case to camelCase transformation in `lib/supabase/profiles.ts`
+- Added Flash Vacation Profile section to Settings page
+- Debugged why Flash page wasn't showing wizard prompt (data transformation issue)
+- Discovered hotel search failing for all destinations (Duffel Stays API not enabled)
+- **Switched to flights-only mode per user decision**
+- Removed hotel search from trip generator
+- Made `hotel` property optional in `FlashTripPackage` type
+- Updated all UI components to handle missing hotel gracefully
+- Deployed flights-only changes
+
+**Files Modified:**
+- `lib/supabase/profiles.ts` - snake_case to camelCase transformation
+- `app/settings/page.tsx` - Flash profile section
+- `lib/duffel/search.ts` - Mock data fallback (then disabled entirely)
+- `types/flash.ts` - Made hotel optional
+- `lib/flash/tripGenerator.ts` - Removed hotel search
+- `components/flash/SwipeCard.tsx` - Flights-only display
+- `components/flash/TripDetailModal.tsx` - Flights-only display
+- `app/flash/confirm/page.tsx` - Flights-only display
+
+**User Decisions:**
+- "lets disable hotels for now and nail down the flight experience for the time being"
+- Future: streamline wizard from 8 to ~4 steps
+- Future: implement revealed preference learning
+
+---
+
+### Session 3 - January 2025 (Flash Vacation Implementation)
+
+**What We Did:**
+- Implemented complete Flash Vacation feature:
+  - 8-step profile wizard
+  - Destination database (50+ cities)
+  - Diversity engine for varied trip suggestions
+  - Trip generator with Duffel flight API
+  - Swipe interface with gestures
+  - Detail modal and confirm page
+- Created all types in `types/flash.ts`
+- Created all API routes for preferences and generation
+- Created all wizard step components
+- Created swipe UI components
+
+**Files Created:**
+- `types/flash.ts`
+- `app/flash/page.tsx`
+- `app/flash/wizard/page.tsx`
+- `app/flash/wizard/layout.tsx`
+- `app/flash/swipe/page.tsx`
+- `app/flash/confirm/page.tsx`
+- `app/api/flash/preferences/route.ts`
+- `app/api/flash/generate/route.ts`
+- `components/flash/ProfileWizard/WizardContainer.tsx`
+- `components/flash/ProfileWizard/StepIndicator.tsx`
+- All 8 wizard step components
+- `components/flash/FlashPlanInput.tsx`
+- `components/flash/VibeSelector.tsx`
+- `components/flash/SwipeCard.tsx`
+- `components/flash/SwipeContainer.tsx`
+- `components/flash/TripDetailModal.tsx`
+- `hooks/useFlashVacation.ts`
+- `hooks/useSwipeGestures.ts`
+- `hooks/useProfileWizard.ts`
+- `lib/flash/destinations.ts`
+- `lib/flash/tripGenerator.ts`
+- `lib/flash/diversityEngine.ts`
+
+---
+
+### Session 2 - January 2025 (Fixes & Deployment)
+
+**What We Did:**
+- Fixed flight search integration with Duffel API
+- Fixed hotel type property names (rating.reviewScore, pricing, photos)
+- Fixed Set iteration error in diversityEngine
+- Fixed signup database error - added INSERT policy for profiles
+- Deployed to Vercel
+
+---
 
 ### Session 1 - January 2025 (Initial Build)
 
 **What We Did:**
 - Reviewed technical specification document
 - Created PRD.md with full product requirements
-- Created TODO.md with detailed task breakdown
-- Built entire application from scratch:
-  - Project configuration (Next.js 14, TypeScript, Tailwind)
-  - Database schema and Supabase integration
-  - Authentication with Google + Facebook OAuth
-  - Claude AI integration for conversation and itineraries
-  - Duffel API integration for hotel search and booking
-  - Mapbox geocoding integration
-  - All UI components (chat, hotels, booking, map, itinerary)
-  - All API routes
-  - All pages
-
-**Decisions Made:**
-- Using Mapbox for geocoding (100k free requests/month)
-- Using Claude for restaurant/attraction recommendations (no extra API)
-- Duffel Pay for payments
-- Leaflet + OpenStreetMap for maps (free)
-- Google + Facebook OAuth for social login
-
-**Files Created:** ~60 files (see full list below)
+- Built entire base application from scratch
+- Authentication, chat, hotel search, booking, itinerary
 
 ---
 
-## Setup Checklist
+## Files Structure - Flash Vacation
 
-### 1. Install Dependencies
-```bash
-cd C:\HonestNomad
-npm install
 ```
-- [ ] Dependencies installed successfully
-- [ ] No npm errors
+app/
+├── flash/
+│   ├── page.tsx              # Main flash plan page
+│   ├── wizard/
+│   │   ├── page.tsx          # Wizard page
+│   │   └── layout.tsx        # Wizard layout
+│   ├── swipe/
+│   │   └── page.tsx          # Swipe interface
+│   └── confirm/
+│       └── page.tsx          # Booking confirmation
+├── api/
+│   └── flash/
+│       ├── preferences/
+│       │   └── route.ts      # GET/PUT preferences
+│       └── generate/
+│           └── route.ts      # POST generate trips
 
-### 2. Supabase Setup
-- [ ] Create Supabase project at https://supabase.com
-- [ ] Copy project URL to `.env.local`
-- [ ] Copy anon key to `.env.local`
-- [ ] Copy service role key to `.env.local`
-- [ ] Run migrations in SQL Editor:
-  - Open `lib/supabase/migrations.sql`
-  - Paste into Supabase SQL Editor
-  - Execute
-- [ ] Verify tables created:
-  - [ ] profiles
-  - [ ] conversations
-  - [ ] messages
-  - [ ] bookings
-  - [ ] itineraries
-  - [ ] search_logs
-- [ ] Enable Row Level Security (should be automatic from migration)
+components/
+└── flash/
+    ├── ProfileWizard/
+    │   ├── WizardContainer.tsx
+    │   ├── StepIndicator.tsx
+    │   ├── TravelersStep.tsx
+    │   ├── HomeBaseStep.tsx
+    │   ├── BudgetStep.tsx
+    │   ├── AccommodationStep.tsx
+    │   ├── TravelStyleStep.tsx
+    │   ├── InterestsStep.tsx
+    │   ├── RestrictionsStep.tsx
+    │   └── SurpriseToleranceStep.tsx
+    ├── FlashPlanInput.tsx
+    ├── VibeSelector.tsx
+    ├── SwipeCard.tsx
+    ├── SwipeContainer.tsx
+    └── TripDetailModal.tsx
 
-### 3. Supabase Authentication
-- [ ] Go to Authentication > Providers
-- [ ] Enable Email provider
-- [ ] Enable Google provider:
-  - [ ] Create Google OAuth credentials at console.cloud.google.com
-  - [ ] Add client ID and secret to Supabase
-  - [ ] Add redirect URL to Google Console
-- [ ] Enable Facebook provider:
-  - [ ] Create Facebook App at developers.facebook.com
-  - [ ] Add app ID and secret to Supabase
-  - [ ] Add redirect URL to Facebook App
+hooks/
+├── useFlashVacation.ts       # Flash state management
+├── useSwipeGestures.ts       # Touch/mouse swipe detection
+└── useProfileWizard.ts       # Wizard state
 
-### 4. API Keys Configuration
+lib/
+└── flash/
+    ├── destinations.ts       # 50+ curated destinations
+    ├── tripGenerator.ts      # Batch trip generation (flights-only)
+    └── diversityEngine.ts    # Destination selection algorithm
 
-Create `.env.local` from `.env.local.example`:
-
-```bash
-cp .env.local.example .env.local
-```
-
-Fill in each key:
-
-- [ ] **NEXT_PUBLIC_SUPABASE_URL** - From Supabase project settings
-- [ ] **NEXT_PUBLIC_SUPABASE_ANON_KEY** - From Supabase project settings
-- [ ] **SUPABASE_SERVICE_ROLE_KEY** - From Supabase project settings (keep secret!)
-- [ ] **ANTHROPIC_API_KEY** - From console.anthropic.com
-- [ ] **DUFFEL_ACCESS_TOKEN** - From dashboard.duffel.com
-- [ ] **DUFFEL_WEBHOOK_SECRET** - From Duffel webhook settings
-- [ ] **MAPBOX_ACCESS_TOKEN** - From account.mapbox.com
-- [ ] **NEXT_PUBLIC_APP_URL** - `http://localhost:3000` for dev
-
-### 5. Asset Files
-
-Create/add these files:
-
-- [ ] `/public/logo.svg` - Main logo (512x512 recommended)
-- [ ] `/public/favicon.ico` - Browser tab icon
-- [ ] `/public/og-image.png` - Social share image (1200x630)
-- [ ] `/public/markers/hotel.png` - Map marker (32x32)
-- [ ] `/public/markers/attraction.png` - Map marker (24x24)
-- [ ] `/public/images/hotel-placeholder.jpg` - Default hotel image
-
-### 6. First Run
-```bash
-npm run dev
-```
-- [ ] App starts without errors
-- [ ] Can access http://localhost:3000
-- [ ] Chat interface loads
-- [ ] No console errors
-
----
-
-## Testing Checklist
-
-### Authentication Flow
-- [ ] Can sign up with email/password
-- [ ] Receives confirmation email (if enabled)
-- [ ] Can log in with email/password
-- [ ] Can sign in with Google
-- [ ] Can sign in with Facebook
-- [ ] Can log out
-- [ ] Session persists on refresh
-
-### Chat Flow
-- [ ] Initial greeting displays
-- [ ] Can type and send messages
-- [ ] AI responds appropriately
-- [ ] Asks for missing info (dates, destination)
-- [ ] Understands natural language dates ("next weekend")
-- [ ] Understands budget ("under $150")
-
-### Hotel Search
-- [ ] Search triggers with complete info
-- [ ] Results display as cards
-- [ ] Photos load correctly
-- [ ] Prices show correctly
-- [ ] Amenities display
-- [ ] "Book This" button works
-
-### Booking Flow
-- [ ] Guest form appears after selection
-- [ ] Form validation works
-- [ ] Test card (4242...) accepted
-- [ ] Booking confirmation shows
-- [ ] Booking saved to database
-
-### Itinerary
-- [ ] Can request itinerary after booking
-- [ ] Itinerary generates with activities
-- [ ] Days are expandable/collapsible
-- [ ] Map shows locations
-- [ ] Export to text works
-- [ ] Print works
-
-### User Features
-- [ ] Bookings page shows history
-- [ ] Settings page loads
-- [ ] Can save preferences
-- [ ] Preferences persist
-
-### Edge Cases
-- [ ] Unknown city shows helpful error
-- [ ] Past dates handled gracefully
-- [ ] No results suggests alternatives
-- [ ] Network errors show friendly message
-
----
-
-## Deployment Checklist
-
-### Pre-Deployment
-- [ ] All tests pass
-- [ ] No TypeScript errors (`npm run build`)
-- [ ] Environment variables documented
-- [ ] Duffel production access approved
-
-### Vercel Deployment
-- [ ] Push code to GitHub
-- [ ] Import project in Vercel
-- [ ] Add all environment variables
-- [ ] Set function timeout to 30s for AI routes
-- [ ] Deploy
-- [ ] Verify production URL works
-
-### Post-Deployment
-- [ ] Test complete flow in production
-- [ ] Verify webhooks work (configure Duffel webhook URL)
-- [ ] Monitor error rates
-- [ ] Set up Sentry for error tracking (optional)
-
----
-
-## Files Created (Complete List)
-
-### Configuration
-```
-package.json
-tsconfig.json
-next.config.js
-tailwind.config.js
-postcss.config.js
-.gitignore
-.env.local.example
-```
-
-### App Pages
-```
-app/layout.tsx
-app/page.tsx
-app/globals.css
-app/auth/login/page.tsx
-app/auth/signup/page.tsx
-app/auth/callback/route.ts
-app/booking/[id]/page.tsx
-app/bookings/page.tsx
-app/settings/page.tsx
-```
-
-### API Routes
-```
-app/api/chat/route.ts
-app/api/search/route.ts
-app/api/book/route.ts
-app/api/booking/[id]/route.ts
-app/api/itinerary/route.ts
-app/api/geocode/route.ts
-app/api/user/preferences/route.ts
-app/api/user/bookings/route.ts
-app/api/webhooks/duffel/route.ts
-```
-
-### Components
-```
-components/providers/index.tsx
-components/providers/AuthProvider.tsx
-components/layout/Header.tsx
-components/ui/Button.tsx
-components/ui/Input.tsx
-components/ui/Card.tsx
-components/ui/Loading.tsx
-components/ui/Modal.tsx
-components/ui/Toast.tsx
-components/ui/index.ts
-components/chat/ChatContainer.tsx
-components/chat/MessageList.tsx
-components/chat/MessageBubble.tsx
-components/chat/InputBar.tsx
-components/chat/TypingIndicator.tsx
-components/hotels/HotelCard.tsx
-components/hotels/HotelList.tsx
-components/hotels/HotelDetails.tsx
-components/booking/GuestForm.tsx
-components/booking/Confirmation.tsx
-components/map/HotelMap.tsx
-components/map/index.tsx
-components/itinerary/ItineraryView.tsx
-components/itinerary/DaySection.tsx
-components/itinerary/ItineraryItem.tsx
-components/itinerary/ItineraryExport.tsx
-```
-
-### Library Files
-```
-lib/supabase/client.ts
-lib/supabase/server.ts
-lib/supabase/auth.ts
-lib/supabase/conversations.ts
-lib/supabase/bookings.ts
-lib/supabase/profiles.ts
-lib/supabase/migrations.sql
-lib/claude/client.ts
-lib/claude/prompts.ts
-lib/claude/intent.ts
-lib/claude/response.ts
-lib/claude/itinerary.ts
-lib/duffel/client.ts
-lib/duffel/search.ts
-lib/duffel/book.ts
-lib/geocoding/mapbox.ts
-```
-
-### Types
-```
-types/index.ts
-types/chat.ts
-types/hotel.ts
-types/itinerary.ts
-types/intent.ts
-types/booking.ts
-types/database.ts
-```
-
-### Hooks
-```
-hooks/useChat.ts
-```
-
-### Documentation
-```
-README.md
-PRD.md
-TODO.md
-PROJECT-STATUS.md (this file)
-```
-
-### Asset Placeholders
-```
-public/markers/.gitkeep
-public/images/.gitkeep
+types/
+└── flash.ts                  # All flash vacation types
 ```
 
 ---
 
-## Known Issues / Future Improvements
+## Known Issues
 
-### To Fix
-- [ ] Add proper Duffel Pay integration (currently using placeholder tokenization)
-- [ ] Add streaming responses for better UX
-- [ ] Add loading skeletons for hotel search
-- [ ] Handle rate limiting gracefully
-
-### Nice to Have
-- [ ] Add price alerts
-- [ ] Add booking modification
-- [ ] Add multi-room booking
-- [ ] Add flight bundling
-- [ ] Add PWA support
-- [ ] Add email notifications from our domain
+1. **Hotel search disabled** - Duffel Stays API requires separate access approval
+2. **Flights-only mode** - All trip cards show "Hotel not included"
+3. **Booking flow incomplete** - "Proceed to Payment" shows alert placeholder
 
 ---
 
 ## Notes for Next Session
 
 **Where we left off:**
-Complete build finished. Ready for setup and testing.
+Flights-only mode deployed. Ready for testing.
 
-**Next steps:**
-1. Run `npm install`
-2. Set up Supabase project
-3. Configure API keys
-4. Add logo/assets
-5. Test complete flow
-6. Deploy to Vercel
+**Immediate next step:**
+Test the Flash trip generation at `/flash` with a completed profile.
 
 **Questions to resolve:**
-- None currently
+- Request Duffel Stays API access?
+- Streamline wizard: which 4 steps to keep?
+- How to implement revealed preference learning?
 
 ---
 

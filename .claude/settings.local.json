@@ -32,7 +32,8 @@
       "Bash(done)",
       "Bash(ls:*)",
       "Bash(tasklist:*)",
-      "Bash(findstr:*)"
+      "Bash(findstr:*)",
+      "Bash(python -c:*)"
     ]
   }
 }

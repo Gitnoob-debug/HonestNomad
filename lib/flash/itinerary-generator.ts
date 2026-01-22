@@ -615,6 +615,10 @@ const PATH_DAY_THEMES: Record<SimplePathChoice, string[]> = {
 /**
  * Generate an itinerary from real Google Places POI data
  * This is the main function to use when we have cached POI data
+ *
+ * Note: We cap the total POIs to 10-12 for a curated experience,
+ * regardless of trip length. This keeps the explore view manageable
+ * and focuses on highlights rather than filling every day.
  */
 export function generateItineraryFromCache(
   cache: DestinationPOICache,
@@ -622,38 +626,32 @@ export function generateItineraryFromCache(
   pathChoice: SimplePathChoice,
   stopsPerDay: number = 4
 ): ItineraryDay[] {
-  const totalStops = numDays * stopsPerDay;
+  // Cap total stops to keep the itinerary curated and manageable
+  // 10-12 POIs is ideal for exploration, not 56 for a 14-day trip
+  const maxTotalStops = 12;
+  const totalStops = Math.min(numDays * stopsPerDay, maxTotalStops);
 
   // Get balanced selection of POIs
   let selectedPOIs = getBalancedPOISelection(cache, pathChoice, totalStops);
 
+  // Organize all POIs by time of day for a logical flow
+  selectedPOIs = organizeByTimeOfDay(selectedPOIs);
+
+  // Create a single "day" that contains all the curated stops
+  // The explore view shows all POIs at once anyway, not day-by-day
   const days: ItineraryDay[] = [];
   const themes = PATH_DAY_THEMES[pathChoice] || PATH_DAY_THEMES.classic;
 
-  for (let day = 1; day <= numDays; day++) {
-    const startIdx = (day - 1) * stopsPerDay;
-    const endIdx = Math.min(startIdx + stopsPerDay, selectedPOIs.length);
-    let dayPOIs = selectedPOIs.slice(startIdx, endIdx);
+  // Put all stops in day 1 since explore view shows them all together
+  const stops: ItineraryStop[] = selectedPOIs.map((poi, idx) =>
+    poiToItineraryStop(poi, 1, idx)
+  );
 
-    // If we run out of POIs, cycle back
-    if (dayPOIs.length === 0 && selectedPOIs.length > 0) {
-      const cycleIdx = (day - 1) % selectedPOIs.length;
-      dayPOIs = [selectedPOIs[cycleIdx]];
-    }
-
-    // Organize by time of day within the day
-    dayPOIs = organizeByTimeOfDay(dayPOIs);
-
-    const stops: ItineraryStop[] = dayPOIs.map((poi, idx) =>
-      poiToItineraryStop(poi, day, idx)
-    );
-
-    days.push({
-      day,
-      title: themes[(day - 1) % themes.length],
-      stops,
-    });
-  }
+  days.push({
+    day: 1,
+    title: themes[0],
+    stops,
+  });
 
   return days;
 }

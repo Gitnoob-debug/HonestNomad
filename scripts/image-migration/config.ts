@@ -3,7 +3,7 @@
 export const CONFIG = {
   // Unsplash rate limits
   REQUESTS_PER_HOUR: 50,
-  BATCH_COOLDOWN_MS: 70 * 60 * 1000, // 1hr 10min between batches
+  BATCH_COOLDOWN_MS: 63 * 60 * 1000, // 1hr 3min between batches
 
   // Image counts per destination
   POPULAR_DESTINATION_IMAGES: 30,

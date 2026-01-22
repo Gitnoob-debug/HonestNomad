@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-22T22:34:19.765Z",
+  "lastUpdated": "2026-01-22T23:44:30.540Z",
   "destinations": {
     "paris": {
       "destinationId": "paris",
@@ -2001,6 +2001,281 @@
         }
       ],
       "completedAt": "2026-01-22T22:34:19.760Z",
+      "status": "review"
+    },
+    "lisbon": {
+      "destinationId": "lisbon",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "isPopular": true,
+      "imageCount": 24,
+      "images": [
+        {
+          "filename": "lisbon-001.jpg",
+          "credit": "Photo by imren tutuncu on Unsplash",
+          "photographerName": "imren tutuncu",
+          "photographerUrl": "https://unsplash.com/@irmikten",
+          "unsplashId": "sLMFVTqosVc",
+          "unsplashUrl": "https://unsplash.com/photos/a-yellow-trolley-car-with-people-riding-on-it-sLMFVTqosVc",
+          "downloadedAt": "2026-01-22T23:44:21.060Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-002.jpg",
+          "credit": "Photo by Beth Chobanova on Unsplash",
+          "photographerName": "Beth Chobanova",
+          "photographerUrl": "https://unsplash.com/@bethchobanova",
+          "unsplashId": "gcs8pq_CkK8",
+          "unsplashUrl": "https://unsplash.com/photos/a-trolley-car-traveling-down-a-street-next-to-tall-buildings-gcs8pq_CkK8",
+          "downloadedAt": "2026-01-22T23:44:21.654Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-003.jpg",
+          "credit": "Photo by Tim Wildsmith on Unsplash",
+          "photographerName": "Tim Wildsmith",
+          "photographerUrl": "https://unsplash.com/@timwildsmith",
+          "unsplashId": "A7ZXWeVwCRg",
+          "unsplashUrl": "https://unsplash.com/photos/yellow-and-white-tram-on-road-during-daytime-A7ZXWeVwCRg",
+          "downloadedAt": "2026-01-22T23:44:21.957Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-004.jpg",
+          "credit": "Photo by Jeet Sandhu on Unsplash",
+          "photographerName": "Jeet Sandhu",
+          "photographerUrl": "https://unsplash.com/@jeetss",
+          "unsplashId": "Je5oyb_256A",
+          "unsplashUrl": "https://unsplash.com/photos/yellow-tram-on-cobblestone-street-in-lisbon-Je5oyb_256A",
+          "downloadedAt": "2026-01-22T23:44:22.452Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-005.jpg",
+          "credit": "Photo by Stevo on Unsplash",
+          "photographerName": "Stevo",
+          "photographerUrl": "https://unsplash.com/@stevopsd",
+          "unsplashId": "SP3GhEmDhWM",
+          "unsplashUrl": "https://unsplash.com/photos/a-yellow-trolley-car-traveling-down-a-street-next-to-tall-buildings-SP3GhEmDhWM",
+          "downloadedAt": "2026-01-22T23:44:22.878Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-006.jpg",
+          "credit": "Photo by Stevo on Unsplash",
+          "photographerName": "Stevo",
+          "photographerUrl": "https://unsplash.com/@stevopsd",
+          "unsplashId": "MUJpA7YejQw",
+          "unsplashUrl": "https://unsplash.com/photos/a-yellow-and-red-trolley-car-on-a-city-street-MUJpA7YejQw",
+          "downloadedAt": "2026-01-22T23:44:23.799Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-007.jpg",
+          "credit": "Photo by Farnaz Kohankhaki on Unsplash",
+          "photographerName": "Farnaz Kohankhaki",
+          "photographerUrl": "https://unsplash.com/@farnaz________",
+          "unsplashId": "awUC4MueEsI",
+          "unsplashUrl": "https://unsplash.com/photos/cars-and-motorcycle-on-a-cobblestone-street-in-lisbon-awUC4MueEsI",
+          "downloadedAt": "2026-01-22T23:44:24.245Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-008.jpg",
+          "credit": "Photo by Farnaz Kohankhaki on Unsplash",
+          "photographerName": "Farnaz Kohankhaki",
+          "photographerUrl": "https://unsplash.com/@farnaz________",
+          "unsplashId": "LnpA7O7d-tQ",
+          "unsplashUrl": "https://unsplash.com/photos/view-of-a-coastal-city-with-terracotta-roofs-and-water-LnpA7O7d-tQ",
+          "downloadedAt": "2026-01-22T23:44:24.518Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-009.jpg",
+          "credit": "Photo by Farnaz Kohankhaki on Unsplash",
+          "photographerName": "Farnaz Kohankhaki",
+          "photographerUrl": "https://unsplash.com/@farnaz________",
+          "unsplashId": "DVxFjx-m780",
+          "unsplashUrl": "https://unsplash.com/photos/view-down-a-street-towards-the-ocean-at-sunset-DVxFjx-m780",
+          "downloadedAt": "2026-01-22T23:44:24.713Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-010.jpg",
+          "credit": "Photo by Farnaz Kohankhaki on Unsplash",
+          "photographerName": "Farnaz Kohankhaki",
+          "photographerUrl": "https://unsplash.com/@farnaz________",
+          "unsplashId": "K9YC2oLpXrQ",
+          "unsplashUrl": "https://unsplash.com/photos/view-of-historic-buildings-and-cathedral-in-lisbon-portugal-K9YC2oLpXrQ",
+          "downloadedAt": "2026-01-22T23:44:24.946Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-011.jpg",
+          "credit": "Photo by Farnaz Kohankhaki on Unsplash",
+          "photographerName": "Farnaz Kohankhaki",
+          "photographerUrl": "https://unsplash.com/@farnaz________",
+          "unsplashId": "25RjtoSDO6s",
+          "unsplashUrl": "https://unsplash.com/photos/view-of-lisbons-historic-buildings-and-river-25RjtoSDO6s",
+          "downloadedAt": "2026-01-22T23:44:25.206Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-012.jpg",
+          "credit": "Photo by Miguel Ferreira on Unsplash",
+          "photographerName": "Miguel Ferreira",
+          "photographerUrl": "https://unsplash.com/@mpferreira",
+          "unsplashId": "6x9C-Tc8FFQ",
+          "unsplashUrl": "https://unsplash.com/photos/a-group-of-people-standing-around-a-tall-building-6x9C-Tc8FFQ",
+          "downloadedAt": "2026-01-22T23:44:25.861Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-013.jpg",
+          "credit": "Photo by Fausto Ribeiro on Unsplash",
+          "photographerName": "Fausto Ribeiro",
+          "photographerUrl": "https://unsplash.com/@shoku_shoku",
+          "unsplashId": "R6HjgjXb9RE",
+          "unsplashUrl": "https://unsplash.com/photos/belem-tower-stands-proudly-on-a-green-lawn-R6HjgjXb9RE",
+          "downloadedAt": "2026-01-22T23:44:26.187Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-014.jpg",
+          "credit": "Photo by Nikola Đuza on Unsplash",
+          "photographerName": "Nikola Đuza",
+          "photographerUrl": "https://unsplash.com/@nikolalsvk",
+          "unsplashId": "lS_aQcDW4X8",
+          "unsplashUrl": "https://unsplash.com/photos/gray-concrete-building-near-body-of-water-during-daytime-lS_aQcDW4X8",
+          "downloadedAt": "2026-01-22T23:44:26.413Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-015.jpg",
+          "credit": "Photo by Alvin David on Unsplash",
+          "photographerName": "Alvin David",
+          "photographerUrl": "https://unsplash.com/@alvinbcd",
+          "unsplashId": "VOcZz7HEYJ4",
+          "unsplashUrl": "https://unsplash.com/photos/a-black-and-white-photo-of-a-clock-tower-VOcZz7HEYJ4",
+          "downloadedAt": "2026-01-22T23:44:26.865Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-016.jpg",
+          "credit": "Photo by Alvin David on Unsplash",
+          "photographerName": "Alvin David",
+          "photographerUrl": "https://unsplash.com/@alvinbcd",
+          "unsplashId": "9xIcGCQb3DI",
+          "unsplashUrl": "https://unsplash.com/photos/a-black-and-white-photo-of-a-clock-tower-9xIcGCQb3DI",
+          "downloadedAt": "2026-01-22T23:44:27.162Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-017.jpg",
+          "credit": "Photo by Tânia Mousinho on Unsplash",
+          "photographerName": "Tânia Mousinho",
+          "photographerUrl": "https://unsplash.com/@shotsbytania",
+          "unsplashId": "VvxW61Ilqow",
+          "unsplashUrl": "https://unsplash.com/photos/beige-building-VvxW61Ilqow",
+          "downloadedAt": "2026-01-22T23:44:28.005Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-018.jpg",
+          "credit": "Photo by Arina Kutasheva on Unsplash",
+          "photographerName": "Arina Kutasheva",
+          "photographerUrl": "https://unsplash.com/@arinakutasheva",
+          "unsplashId": "g-Ge82I7bpA",
+          "unsplashUrl": "https://unsplash.com/photos/a-person-standing-next-to-a-tiled-wall-g-Ge82I7bpA",
+          "downloadedAt": "2026-01-22T23:44:28.566Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-019.jpg",
+          "credit": "Photo by Kristijan Arsov on Unsplash",
+          "photographerName": "Kristijan Arsov",
+          "photographerUrl": "https://unsplash.com/@aarsoph",
+          "unsplashId": "IDvDDyVUbZ0",
+          "unsplashUrl": "https://unsplash.com/photos/colorful-tiles-adorn-a-buildings-exterior-IDvDDyVUbZ0",
+          "downloadedAt": "2026-01-22T23:44:28.853Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-020.jpg",
+          "credit": "Photo by Evgeniy Beloshytskiy on Unsplash",
+          "photographerName": "Evgeniy Beloshytskiy",
+          "photographerUrl": "https://unsplash.com/@eugeniqa",
+          "unsplashId": "EE3k9CGR08w",
+          "unsplashUrl": "https://unsplash.com/photos/an-artist-paints-a-mural-on-a-large-white-board-EE3k9CGR08w",
+          "downloadedAt": "2026-01-22T23:44:29.051Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-021.jpg",
+          "credit": "Photo by Dmitrii E. on Unsplash",
+          "photographerName": "Dmitrii E.",
+          "photographerUrl": "https://unsplash.com/@dmitriielj",
+          "unsplashId": "QDQ5LXwJ0Rs",
+          "unsplashUrl": "https://unsplash.com/photos/shadow-of-a-lamppost-on-a-tiled-wall-QDQ5LXwJ0Rs",
+          "downloadedAt": "2026-01-22T23:44:29.269Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-022.jpg",
+          "credit": "Photo by Portuguese Gravity on Unsplash",
+          "photographerName": "Portuguese Gravity",
+          "photographerUrl": "https://unsplash.com/@portuguesegravity",
+          "unsplashId": "XXq2UiCBrrY",
+          "unsplashUrl": "https://unsplash.com/photos/blue-and-white-floral-textile-XXq2UiCBrrY",
+          "downloadedAt": "2026-01-22T23:44:29.521Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-023.jpg",
+          "credit": "Photo by Gerda on Unsplash",
+          "photographerName": "Gerda",
+          "photographerUrl": "https://unsplash.com/@gerdadesign",
+          "unsplashId": "FuSseJwlcB8",
+          "unsplashUrl": "https://unsplash.com/photos/a-cobblestone-street-in-a-european-city-FuSseJwlcB8",
+          "downloadedAt": "2026-01-22T23:44:29.775Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "lisbon-024.jpg",
+          "credit": "Photo by Lisha Riabinina on Unsplash",
+          "photographerName": "Lisha Riabinina",
+          "photographerUrl": "https://unsplash.com/@weekendtripcreator",
+          "unsplashId": "I7HKbpZM8kk",
+          "unsplashUrl": "https://unsplash.com/photos/a-view-of-the-roofs-of-a-city-I7HKbpZM8kk",
+          "downloadedAt": "2026-01-22T23:44:30.179Z",
+          "validated": false,
+          "validationStatus": "pending"
+        }
+      ],
+      "completedAt": "2026-01-22T23:44:30.280Z",
       "status": "review"
     }
   }

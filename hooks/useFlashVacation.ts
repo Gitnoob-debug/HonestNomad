@@ -206,6 +206,27 @@ export function useFlashVacation() {
     });
   }, []);
 
+  const goBack = useCallback(() => {
+    setState(prev => {
+      if (prev.currentTripIndex <= 0) {
+        return prev; // Already at first trip
+      }
+
+      const newIndex = prev.currentTripIndex - 1;
+
+      // Update session storage
+      if (prev.sessionId) {
+        saveTripsToSession(prev.sessionId, prev.trips, newIndex);
+      }
+
+      return {
+        ...prev,
+        currentTripIndex: newIndex,
+        selectedTrip: null,
+      };
+    });
+  }, []);
+
   const swipeRight = useCallback(() => {
     setState(prev => ({
       ...prev,
@@ -238,6 +259,7 @@ export function useFlashVacation() {
   const hasMoreTrips = state.currentTripIndex < state.trips.length - 1;
   const isLastTrip = state.currentTripIndex === state.trips.length - 1;
   const tripsExhausted = state.trips.length > 0 && state.currentTripIndex >= state.trips.length;
+  const canGoBack = state.currentTripIndex > 0;
 
   return {
     // State
@@ -246,12 +268,14 @@ export function useFlashVacation() {
     hasMoreTrips,
     isLastTrip,
     tripsExhausted,
+    canGoBack,
 
     // Actions
     loadPreferences,
     generateTrips,
     swipeLeft,
     swipeRight,
+    goBack,
     clearSelection,
     regenerate,
   };

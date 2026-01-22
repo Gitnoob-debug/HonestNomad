@@ -16,6 +16,8 @@ export default function FlashSwipePage() {
     selectedTrip,
     swipeLeft,
     swipeRight,
+    goBack,
+    canGoBack,
     regenerate,
     preferencesLoading,
   } = useFlashVacation();
@@ -108,6 +110,8 @@ export default function FlashSwipePage() {
           currentIndex={currentTripIndex}
           onSwipeLeft={swipeLeft}
           onSwipeRight={swipeRight}
+          onGoBack={goBack}
+          canGoBack={canGoBack}
           onRegenerate={handleRegenerate}
         />
       </div>

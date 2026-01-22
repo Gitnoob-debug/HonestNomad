@@ -2942,7 +2942,7 @@ export const DESTINATIONS: Destination[] = [
     bestMonths: [2, 3, 10, 11, 12],
     averageCost: 2800,
     highlights: ['French Quarter', 'Jazz', 'Cajun food', 'Mardi Gras'],
-    imageUrl: 'https://images.unsplash.com/photo-1568402102990-bc541580b59f?w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1571893544028-06b07af6dade?w=800',
     latitude: 29.9511,
     longitude: -90.0715,
   },

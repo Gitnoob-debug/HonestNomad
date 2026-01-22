@@ -11,6 +11,8 @@ interface SwipeContainerProps {
   currentIndex: number;
   onSwipeLeft: () => void;
   onSwipeRight: () => void;
+  onGoBack?: () => void;
+  canGoBack?: boolean;
   onRegenerate?: () => void;
 }
 
@@ -19,6 +21,8 @@ export function SwipeContainer({
   currentIndex,
   onSwipeLeft,
   onSwipeRight,
+  onGoBack,
+  canGoBack = false,
   onRegenerate,
 }: SwipeContainerProps) {
   const [expandedTrip, setExpandedTrip] = useState<FlashTripPackage | null>(null);
@@ -95,7 +99,23 @@ export function SwipeContainer({
         </div>
 
         {/* Action buttons */}
-        <div className="flex items-center justify-center gap-8 mt-6">
+        <div className="flex items-center justify-center gap-4 mt-6">
+          {/* Go back button */}
+          <button
+            onClick={onGoBack}
+            disabled={!canGoBack}
+            className={`w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center border-2 transition-colors ${
+              canGoBack
+                ? 'border-gray-200 hover:border-gray-400 hover:bg-gray-50'
+                : 'border-gray-100 opacity-40 cursor-not-allowed'
+            }`}
+            title="Go back to previous trip"
+          >
+            <svg className="w-6 h-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
+            </svg>
+          </button>
+
           {/* Reject button */}
           <button
             onClick={onSwipeLeft}

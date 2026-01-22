@@ -692,7 +692,7 @@ export async function generateItineraryAuto(
 export const DESTINATIONS_WITH_POI_DATA = [
   'paris', 'rome', 'milan', 'dubrovnik', 'lisbon',
   'barcelona', 'madrid', 'amsterdam', 'vienna', 'munich',
-  'prague', 'budapest', 'florence', 'venice', 'athens'
+  'prague', 'budapest', 'florence', 'venice', 'athens', 'london'
 ];
 
 export function hasRealPOIData(destinationId: string): boolean {

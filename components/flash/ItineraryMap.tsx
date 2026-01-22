@@ -258,45 +258,6 @@ export function ItineraryMap({
       markersRef.current.push(marker);
     });
 
-    // Draw route line between stops
-    if (stops.length > 1 && map.current.getSource('route')) {
-      map.current.removeLayer('route-line');
-      map.current.removeSource('route');
-    }
-
-    if (stops.length > 1) {
-      const coordinates = stops.map((stop) => [stop.longitude, stop.latitude]);
-
-      if (!map.current.getSource('route')) {
-        map.current.addSource('route', {
-          type: 'geojson',
-          data: {
-            type: 'Feature',
-            properties: {},
-            geometry: {
-              type: 'LineString',
-              coordinates,
-            },
-          },
-        });
-
-        map.current.addLayer({
-          id: 'route-line',
-          type: 'line',
-          source: 'route',
-          layout: {
-            'line-join': 'round',
-            'line-cap': 'round',
-          },
-          paint: {
-            'line-color': '#ffffff',
-            'line-width': 3,
-            'line-opacity': 0.6,
-            'line-dasharray': [2, 2],
-          },
-        });
-      }
-    }
   }, [stops, mapLoaded, activeStopId, onStopClick]);
 
   // Fly to active stop

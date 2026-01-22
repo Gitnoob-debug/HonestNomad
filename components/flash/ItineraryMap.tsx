@@ -54,10 +54,16 @@ export function ItineraryMap({
   const markersRef = useRef<mapboxgl.Marker[]>([]);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
+  const initialCenterSet = useRef(false);
+
+  // Check if we have valid coordinates
+  const hasValidCoords = centerLatitude !== 0 || centerLongitude !== 0;
 
   // Initialize map
   useEffect(() => {
     if (!mapContainer.current || map.current) return;
+    // Don't initialize until we have valid coordinates
+    if (!hasValidCoords) return;
 
     const accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
     if (!accessToken) {
@@ -77,6 +83,7 @@ export function ItineraryMap({
         bearing: -10,
         antialias: true,
       });
+      initialCenterSet.current = true;
 
       map.current.on('load', () => {
         setMapLoaded(true);
@@ -122,8 +129,38 @@ export function ItineraryMap({
       markersRef.current.forEach((marker) => marker.remove());
       map.current?.remove();
       map.current = null;
+      initialCenterSet.current = false;
     };
-  }, [centerLatitude, centerLongitude]);
+  }, [hasValidCoords]); // Only re-run when valid coords become available
+
+  // Fly to center when coordinates change (after initial load)
+  useEffect(() => {
+    if (!map.current || !mapLoaded || !hasValidCoords) return;
+    // Skip if this is the initial center (already set during map creation)
+    if (!initialCenterSet.current) {
+      initialCenterSet.current = true;
+      return;
+    }
+
+    // Fit bounds to show all stops if we have multiple
+    if (stops.length > 1) {
+      const bounds = new mapboxgl.LngLatBounds();
+      stops.forEach(stop => {
+        bounds.extend([stop.longitude, stop.latitude]);
+      });
+      map.current.fitBounds(bounds, {
+        padding: { top: 50, bottom: 200, left: 50, right: 50 },
+        maxZoom: 14,
+        duration: 1000,
+      });
+    } else if (stops.length === 1) {
+      map.current.flyTo({
+        center: [centerLongitude, centerLatitude],
+        zoom: 14,
+        duration: 1000,
+      });
+    }
+  }, [centerLatitude, centerLongitude, stops.length, mapLoaded, hasValidCoords]);
 
   // Add markers when map is loaded
   useEffect(() => {
@@ -266,6 +303,18 @@ export function ItineraryMap({
         <div className="text-center p-6">
           <p className="text-white/60 mb-2">Map unavailable</p>
           <p className="text-white/40 text-sm">{mapError}</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Show loading state while waiting for valid coordinates
+  if (!hasValidCoords) {
+    return (
+      <div className={`bg-gray-900 flex items-center justify-center ${className}`}>
+        <div className="text-center p-6">
+          <div className="w-8 h-8 border-2 border-white/20 border-t-white rounded-full animate-spin mx-auto mb-3" />
+          <p className="text-white/60 text-sm">Loading map...</p>
         </div>
       </div>
     );

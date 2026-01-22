@@ -245,18 +245,18 @@ export default function FlashExplorePage() {
 
   // Itinerary view with map (main step)
   if (step === 'itinerary') {
-    const activeDayData = itinerary.find((d) => d.day === activeDay);
+    // Get ALL stops from all days for the map
     const allStops = itinerary.flatMap((day) => day.stops);
-    const dayStops = activeDayData?.stops || [];
     const activeStop = activeStopId ? allStops.find((s) => s.id === activeStopId) : null;
-    const centerLat = dayStops[0]?.latitude || 0;
-    const centerLng = dayStops[0]?.longitude || 0;
+    // Center on first stop
+    const centerLat = allStops[0]?.latitude || 0;
+    const centerLng = allStops[0]?.longitude || 0;
 
     return (
       <div className="fixed inset-0 bg-black">
-        {/* Map background */}
+        {/* Map background - show ALL stops */}
         <ItineraryMap
-          stops={dayStops}
+          stops={allStops}
           centerLatitude={centerLat}
           centerLongitude={centerLng}
           activeStopId={activeStopId || undefined}
@@ -265,7 +265,7 @@ export default function FlashExplorePage() {
         />
 
         {/* Top gradient overlay */}
-        <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/80 to-transparent pointer-events-none z-10" />
+        <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-black/80 to-transparent pointer-events-none z-10" />
 
         {/* Header */}
         <div className="absolute top-0 left-0 right-0 z-20 p-4 pt-safe">
@@ -282,7 +282,7 @@ export default function FlashExplorePage() {
 
             <div className="text-center">
               <h1 className="text-white font-bold text-lg">
-                {itineraryType && PATH_CONFIG[itineraryType]?.emoji} {itineraryType && PATH_CONFIG[itineraryType]?.name} {trip.itinerary.days}-Day Plan
+                {itineraryType && PATH_CONFIG[itineraryType]?.emoji} {itineraryType && PATH_CONFIG[itineraryType]?.name}
               </h1>
               <p className="text-white/60 text-xs">{trip.destination.city}, {trip.destination.country}</p>
             </div>
@@ -291,41 +291,16 @@ export default function FlashExplorePage() {
           </div>
         </div>
 
-        {/* Day selector pills */}
-        <div className="absolute top-20 left-0 right-0 z-20 px-4">
-          <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
-            {itinerary.map((day) => (
-              <button
-                key={day.day}
-                onClick={() => {
-                  setActiveDay(day.day);
-                  setActiveStopId(null);
-                  setShowDetails(false);
-                }}
-                className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                  activeDay === day.day
-                    ? 'bg-white text-gray-900'
-                    : 'bg-white/20 text-white backdrop-blur-sm hover:bg-white/30'
-                }`}
-              >
-                Day {day.day}
-              </button>
-            ))}
-          </div>
-        </div>
-
         {/* Bottom panel */}
         <div className="absolute bottom-0 left-0 right-0 z-20">
           <div className="h-20 bg-gradient-to-t from-black/90 to-transparent pointer-events-none" />
 
           <div className="bg-black/90 backdrop-blur-md px-4 pb-safe">
-            {/* Day title */}
+            {/* Route info */}
             <div className="flex items-center justify-between py-3 border-b border-white/10">
               <div>
-                <h2 className="text-white font-semibold">
-                  {activeDayData?.title || `Day ${activeDay}`}
-                </h2>
-                <p className="text-white/50 text-sm">{dayStops.length} stops planned</p>
+                <h2 className="text-white font-semibold">Your Route</h2>
+                <p className="text-white/50 text-sm">{allStops.length} places to explore</p>
               </div>
               <div className="text-right">
                 <p className="text-white/50 text-xs">Step 1 of 4</p>
@@ -333,14 +308,14 @@ export default function FlashExplorePage() {
               </div>
             </div>
 
-            {/* Stops carousel */}
+            {/* Stops carousel - ALL stops */}
             <div className="flex gap-3 overflow-x-auto py-4 scrollbar-hide">
               {isLoadingItinerary ? (
                 <div className="flex-1 flex items-center justify-center py-8">
                   <Spinner size="md" className="text-white" />
                   <span className="text-white/60 ml-3">Loading {itineraryType && PATH_CONFIG[itineraryType]?.name}...</span>
                 </div>
-              ) : dayStops.map((stop, index) => (
+              ) : allStops.map((stop, index) => (
                 <button
                   key={stop.id}
                   onClick={() => handleStopClick(stop)}

@@ -132,34 +132,39 @@ export function ImmersiveSwipeContainer({
 
   return (
     <>
-      {/* Full-screen card stack */}
-      <div className="fixed inset-0 bg-black">
-        {/* Background card (next trip preview) - subtle */}
-        {hasMoreTrips && nextTrip && (
-          <div className="absolute inset-0 scale-[0.92] opacity-40">
-            <ImmersiveSwipeCard trip={nextTrip} isActive={false} />
-          </div>
-        )}
+      {/* Card stack - full-screen on mobile, centered "storybook" style on desktop */}
+      <div className="fixed inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+        {/* Desktop: centered container with max-width */}
+        <div className="h-full w-full flex items-center justify-center p-0 sm:p-6 lg:p-12">
+          <div className="relative w-full h-full sm:max-w-2xl sm:h-[85vh] sm:max-h-[900px] sm:rounded-3xl sm:overflow-hidden sm:shadow-2xl sm:shadow-black/50">
+            {/* Background card (next trip preview) - subtle */}
+            {hasMoreTrips && nextTrip && (
+              <div className="absolute inset-0 scale-[0.92] opacity-40">
+                <ImmersiveSwipeCard trip={nextTrip} isActive={false} />
+              </div>
+            )}
 
-        {/* Current card */}
-        {currentTrip && (
-          <div
-            ref={ref}
-            className="absolute inset-0"
-            style={{
-              ...getTransformStyle(),
-              transition: swipeState.isSwiping ? 'none' : 'transform 0.3s ease-out',
-            }}
-          >
-            <ImmersiveSwipeCard
-              trip={currentTrip}
-              onTap={() => setExpandedTrip(currentTrip)}
-              swipeDirection={swipeState.direction === 'left' || swipeState.direction === 'right' ? swipeState.direction : null}
-              swipeProgress={swipeState.progress}
-              isActive={true}
-            />
+            {/* Current card */}
+            {currentTrip && (
+              <div
+                ref={ref}
+                className="absolute inset-0"
+                style={{
+                  ...getTransformStyle(),
+                  transition: swipeState.isSwiping ? 'none' : 'transform 0.3s ease-out',
+                }}
+              >
+                <ImmersiveSwipeCard
+                  trip={currentTrip}
+                  onTap={() => setExpandedTrip(currentTrip)}
+                  swipeDirection={swipeState.direction === 'left' || swipeState.direction === 'right' ? swipeState.direction : null}
+                  swipeProgress={swipeState.progress}
+                  isActive={true}
+                />
+              </div>
+            )}
           </div>
-        )}
+        </div>
       </div>
 
       {/* Floating controls - appear on tap/interaction */}
@@ -168,10 +173,10 @@ export function ImmersiveSwipeContainer({
           showControls ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
         }`}
       >
-        {/* Gradient background for controls */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
+        {/* Gradient background for controls - only on mobile */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent pointer-events-none sm:hidden" />
 
-        <div className="relative px-6 pb-8 pt-16">
+        <div className="relative px-6 pb-8 pt-16 sm:pb-6 sm:pt-4">
           {/* Action buttons */}
           <div className="flex items-center justify-center gap-6">
             {/* Go back button */}
@@ -240,7 +245,7 @@ export function ImmersiveSwipeContainer({
           showControls ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
         }`}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-transparent pointer-events-none sm:hidden" />
 
         <div className="relative flex items-center justify-between px-4 py-4 pt-safe">
           {/* Back to search */}

@@ -539,7 +539,7 @@ export const DESTINATIONS: Destination[] = [
     bestMonths: [10, 11, 12, 1, 2, 3],
     averageCost: 3000,
     highlights: ['Grand Mosque', 'Wadis', 'Desert camping', 'Coastal fjords'],
-    imageUrl: 'https://images.unsplash.com/photo-1559183618-0bb2f62d7c51?w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1597466599360-3b9775841aec?w=800',
     latitude: 23.5880,
     longitude: 58.3829,
   },

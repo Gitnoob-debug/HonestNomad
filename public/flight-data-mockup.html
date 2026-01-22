@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duffel Flight API - Complete Data Visualization</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .data-badge { @apply text-xs px-2 py-0.5 rounded-full font-medium; }
+    .section-card { @apply bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden; }
+    .field-row { @apply flex items-start gap-3 py-2 border-b border-gray-50 last:border-0; }
+    .field-name { @apply text-xs font-mono text-gray-500 w-48 shrink-0; }
+    .field-value { @apply text-sm text-gray-900; }
+    .api-tag { @apply text-[10px] px-1.5 py-0.5 bg-purple-100 text-purple-700 rounded font-mono; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen p-6">
+  <div class="max-w-6xl mx-auto">
+    <!-- Header -->
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">Duffel Flight API - Complete Data Structure</h1>
+      <p class="text-gray-600">All available fields from a flight offer response</p>
+    </div>
+
+    <!-- Sample Flight Display -->
+    <div class="section-card mb-8">
+      <div class="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-4">
+        <h2 class="text-white font-semibold text-lg">Sample Flight Card (Enhanced)</h2>
+        <p class="text-blue-100 text-sm">How all this data could look in your UI</p>
+      </div>
+
+      <div class="p-6">
+        <!-- Main Flight Display -->
+        <div class="flex items-start gap-6 mb-6">
+          <!-- Airline -->
+          <div class="flex items-center gap-3">
+            <img src="https://www.gstatic.com/flights/airline_logos/70px/DL.png" alt="Delta" class="w-12 h-12">
+            <div>
+              <div class="font-semibold text-gray-900">Delta Air Lines</div>
+              <div class="text-xs text-gray-500">Main Cabin</div>
+              <div class="text-xs text-blue-600">DL 401</div>
+            </div>
+          </div>
+
+          <!-- Flight Path -->
+          <div class="flex-1">
+            <div class="flex items-center gap-4">
+              <!-- Departure -->
+              <div class="text-center">
+                <div class="text-2xl font-bold text-gray-900">6:30 AM</div>
+                <div class="text-sm font-medium text-gray-700">JFK</div>
+                <div class="text-xs text-gray-500">Terminal 4</div>
+                <div class="text-xs text-gray-400">New York</div>
+              </div>
+
+              <!-- Journey Line -->
+              <div class="flex-1 px-4">
+                <div class="text-center text-xs text-gray-500 mb-1">7h 45m</div>
+                <div class="relative">
+                  <div class="h-0.5 bg-gray-300 w-full"></div>
+                  <div class="absolute left-1/2 -translate-x-1/2 -top-1 flex flex-col items-center">
+                    <div class="w-2 h-2 rounded-full bg-orange-400"></div>
+                    <div class="text-[10px] text-orange-600 mt-1">1 stop</div>
+                    <div class="text-[10px] text-gray-500">ATL (1h 20m)</div>
+                  </div>
+                </div>
+                <div class="text-center text-xs text-green-600 mt-2">
+                  <span class="inline-flex items-center gap-1">
+                    <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/></svg>
+                    On-time 94%
+                  </span>
+                </div>
+              </div>
+
+              <!-- Arrival -->
+              <div class="text-center">
+                <div class="text-2xl font-bold text-gray-900">11:15 AM</div>
+                <div class="text-sm font-medium text-gray-700">LHR</div>
+                <div class="text-xs text-gray-500">Terminal 3</div>
+                <div class="text-xs text-gray-400">London</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price -->
+          <div class="text-right">
+            <div class="text-2xl font-bold text-gray-900">$487</div>
+            <div class="text-xs text-gray-500">per person</div>
+            <div class="text-xs text-gray-400">$412 + $75 tax</div>
+            <div class="mt-2">
+              <span class="text-xs px-2 py-1 bg-green-100 text-green-700 rounded-full">Refundable</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Details Row -->
+        <div class="flex flex-wrap gap-4 pt-4 border-t border-gray-100">
+          <!-- Aircraft -->
+          <div class="flex items-center gap-2 text-sm text-gray-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+            <span>Boeing 767-400ER</span>
+          </div>
+
+          <!-- Baggage -->
+          <div class="flex items-center gap-2 text-sm text-gray-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+            <span>1 carry-on + 1 checked (23kg)</span>
+          </div>
+
+          <!-- Seat -->
+          <div class="flex items-center gap-2 text-sm text-gray-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+            <span>32" pitch • Standard</span>
+          </div>
+
+          <!-- WiFi -->
+          <div class="flex items-center gap-2 text-sm text-green-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.14 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"/></svg>
+            <span>WiFi Available</span>
+          </div>
+
+          <!-- Power -->
+          <div class="flex items-center gap-2 text-sm text-green-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            <span>Power outlet</span>
+          </div>
+
+          <!-- CO2 -->
+          <div class="flex items-center gap-2 text-sm text-gray-500">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>458 kg CO₂</span>
+          </div>
+
+          <!-- Loyalty -->
+          <div class="flex items-center gap-2 text-sm text-purple-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+            <span>SkyMiles eligible</span>
+          </div>
+        </div>
+
+        <!-- Expandable fare rules -->
+        <details class="mt-4">
+          <summary class="text-sm text-blue-600 cursor-pointer hover:text-blue-700">View fare rules & conditions</summary>
+          <div class="mt-3 p-4 bg-gray-50 rounded-lg text-sm">
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <div class="font-medium text-gray-900 mb-1">Changes</div>
+                <div class="text-gray-600">Allowed • $150 fee</div>
+              </div>
+              <div>
+                <div class="font-medium text-gray-900 mb-1">Cancellation</div>
+                <div class="text-gray-600">Refundable • $200 fee</div>
+              </div>
+              <div>
+                <div class="font-medium text-gray-900 mb-1">Fare Basis</div>
+                <div class="text-gray-600 font-mono">TAVNR7BS</div>
+              </div>
+              <div>
+                <div class="font-medium text-gray-900 mb-1">Offer Expires</div>
+                <div class="text-gray-600">Jan 22, 2026 at 3:45 PM</div>
+              </div>
+            </div>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <!-- API Data Structure -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+      <!-- OFFER LEVEL -->
+      <div class="section-card">
+        <div class="bg-blue-600 px-4 py-3">
+          <h3 class="text-white font-semibold flex items-center gap-2">
+            <span class="w-6 h-6 bg-white/20 rounded flex items-center justify-center text-xs">1</span>
+            Offer Level
+          </h3>
+          <p class="text-blue-100 text-xs mt-1">Top-level offer data</p>
+        </div>
+        <div class="p-4 space-y-1 text-sm">
+          <div class="field-row">
+            <span class="field-name">id</span>
+            <span class="field-value font-mono text-xs">off_00009htYpSCXrwaB9DnUm0</span>
+          </div>
+          <div class="field-row">
+            <span class="field-name">total_amount</span>
+            <span class="field-value"><span class="text-green-600 font-semibold">$487.00</span></span>
+          </div>
+          <div class="field-row">
+            <span class="field-name">base_amount</span>
+            <span class="field-value">$412.00 <span class="text-gray-400">(before tax)</span></span>
+          </div>
+          <div class="field-row">
+            <span class="field-name">tax_amount</span>
+            <span class="field-value">$75.00</span>
+          </div>
+          <div class="field-row">
+            <span class="field-name">total_currency</span>
+            <span class="field-value">USD</span>
+          </div>
+          <div class="field-row bg-green-50 -mx-4 px-4">
+            <span class="field-name">total_emissions_kg</span>
+            <span class="field-value">458 <span class="text-gray-400">kg CO₂</span></span>
+          </div>
+          <div class="field-row">
+            <span class="field-name">expires_at</span>
+            <span class="field-value">2026-01-22T15:45:00Z</span>
+          </div>
+          <div class="field-row">
+            <span class="field-name">live_mode</span>
+            <span class="field-value"><span class="data-badge bg-green-100 text-green-700">true</span></span>
+          </div>
+          <div class="field-row">
+            <span class="field-name">cabin_class</span>
+            <span class="field-value">economy</span>
+          </div>
+
+          <!-- Owner (airline) -->
+          <div class="mt-4 pt-3 border-t border-gray-200">
+            <div class="text-xs font-semibold text-gray-700 mb-2 flex items-center gap-2">
+              owner <span class="api-tag">object</span>
+            </div>
+            <div class="pl-3 border-l-2 border-blue-200 space-y-1">
+              <div class="field-row">
+                <span class="field-name">name</span>
+                <span class="field-value">Delta Air Lines</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">iata_code</span>
+                <span class="field-value font-mono">DL</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">logo_symbol_url</span>
+                <span class="field-value flex items-center gap-2">
+                  <img src="https://www.gstatic.com/flights/airline_logos/70px/DL.png" class="w-6 h-6">
+                  <span class="text-xs text-gray-400 truncate">https://...</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conditions -->
+          <div class="mt-4 pt-3 border-t border-gray-200">
+            <div class="text-xs font-semibold text-gray-700 mb-2 flex items-center gap-2">
+              conditions <span class="api-tag">object</span>
+            </div>
+            <div class="pl-3 border-l-2 border-blue-200 space-y-1">
+              <div class="field-row">
+                <span class="field-name">change_before_departure.allowed</span>
+                <span class="field-value"><span class="data-badge bg-green-100 text-green-700">true</span></span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">change_before_departure.penalty_amount</span>
+                <span class="field-value">150.00 USD</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">refund_before_departure.allowed</span>
+                <span class="field-value"><span class="data-badge bg-green-100 text-green-700">true</span></span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">refund_before_departure.penalty_amount</span>
+                <span class="field-value">200.00 USD</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Payment Requirements -->
+          <div class="mt-4 pt-3 border-t border-gray-200">
+            <div class="text-xs font-semibold text-gray-700 mb-2 flex items-center gap-2">
+              payment_requirements <span class="api-tag">object</span>
+            </div>
+            <div class="pl-3 border-l-2 border-blue-200 space-y-1">
+              <div class="field-row">
+                <span class="field-name">requires_instant_payment</span>
+                <span class="field-value"><span class="data-badge bg-yellow-100 text-yellow-700">false</span></span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">price_guarantee_expires_at</span>
+                <span class="field-value text-xs">2026-01-22T15:45:00Z</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">payment_required_by</span>
+                <span class="field-value text-xs">2026-01-23T23:59:00Z</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Loyalty -->
+          <div class="mt-4 pt-3 border-t border-gray-200">
+            <div class="text-xs font-semibold text-gray-700 mb-2 flex items-center gap-2">
+              supported_loyalty_programmes <span class="api-tag">array</span>
+            </div>
+            <div class="pl-3 border-l-2 border-blue-200">
+              <span class="data-badge bg-purple-100 text-purple-700">DL</span>
+              <span class="data-badge bg-purple-100 text-purple-700 ml-1">AF</span>
+              <span class="data-badge bg-purple-100 text-purple-700 ml-1">KL</span>
+              <span class="text-xs text-gray-500 ml-2">(SkyTeam partners)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLICE LEVEL -->
+      <div class="section-card">
+        <div class="bg-indigo-600 px-4 py-3">
+          <h3 class="text-white font-semibold flex items-center gap-2">
+            <span class="w-6 h-6 bg-white/20 rounded flex items-center justify-center text-xs">2</span>
+            Slice Level
+          </h3>
+          <p class="text-indigo-100 text-xs mt-1">Each journey leg (outbound/return)</p>
+        </div>
+        <div class="p-4">
+          <!-- Outbound Slice -->
+          <div class="mb-4 p-3 bg-indigo-50 rounded-lg">
+            <div class="text-xs font-semibold text-indigo-700 mb-2">slices[0] - Outbound</div>
+            <div class="space-y-1">
+              <div class="field-row">
+                <span class="field-name">id</span>
+                <span class="field-value font-mono text-xs">sli_00009htYpSCXrwaB9Dn123</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">origin.iata_code</span>
+                <span class="field-value font-semibold">JFK</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">origin.name</span>
+                <span class="field-value">John F. Kennedy International</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">origin.city_name</span>
+                <span class="field-value">New York</span>
+              </div>
+              <div class="field-row bg-yellow-50 -mx-3 px-3">
+                <span class="field-name">origin.time_zone</span>
+                <span class="field-value">America/New_York</span>
+              </div>
+              <div class="field-row bg-yellow-50 -mx-3 px-3">
+                <span class="field-name">origin.latitude</span>
+                <span class="field-value">40.6413</span>
+              </div>
+              <div class="field-row bg-yellow-50 -mx-3 px-3">
+                <span class="field-name">origin.longitude</span>
+                <span class="field-value">-73.7781</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">destination.iata_code</span>
+                <span class="field-value font-semibold">LHR</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">destination.name</span>
+                <span class="field-value">Heathrow Airport</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">duration</span>
+                <span class="field-value">PT7H45M <span class="text-gray-400">(7h 45m)</span></span>
+              </div>
+              <div class="field-row bg-green-50 -mx-3 px-3">
+                <span class="field-name">fare_brand_name</span>
+                <span class="field-value font-semibold text-green-700">Main Cabin</span>
+              </div>
+              <div class="field-row bg-green-50 -mx-3 px-3">
+                <span class="field-name">ngs_shelf</span>
+                <span class="field-value">3 <span class="text-gray-400">(1-5 tier, higher = better)</span></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Return Slice -->
+          <div class="p-3 bg-purple-50 rounded-lg">
+            <div class="text-xs font-semibold text-purple-700 mb-2">slices[1] - Return</div>
+            <div class="space-y-1">
+              <div class="field-row">
+                <span class="field-name">origin.iata_code</span>
+                <span class="field-value font-semibold">LHR</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">destination.iata_code</span>
+                <span class="field-value font-semibold">JFK</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">duration</span>
+                <span class="field-value">PT8H30M <span class="text-gray-400">(8h 30m)</span></span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">fare_brand_name</span>
+                <span class="field-value font-semibold text-purple-700">Main Cabin</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEGMENT LEVEL -->
+      <div class="section-card">
+        <div class="bg-emerald-600 px-4 py-3">
+          <h3 class="text-white font-semibold flex items-center gap-2">
+            <span class="w-6 h-6 bg-white/20 rounded flex items-center justify-center text-xs">3</span>
+            Segment Level
+          </h3>
+          <p class="text-emerald-100 text-xs mt-1">Each individual flight</p>
+        </div>
+        <div class="p-4">
+          <!-- Segment 1 -->
+          <div class="mb-4 p-3 bg-emerald-50 rounded-lg">
+            <div class="text-xs font-semibold text-emerald-700 mb-2">segments[0] - JFK → ATL</div>
+            <div class="space-y-1">
+              <div class="field-row">
+                <span class="field-name">id</span>
+                <span class="field-value font-mono text-xs">seg_00009htYpSCXrwaB9Dn456</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">departing_at</span>
+                <span class="field-value">2026-01-25T06:30:00</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">arriving_at</span>
+                <span class="field-value">2026-01-25T09:15:00</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">duration</span>
+                <span class="field-value">PT2H45M</span>
+              </div>
+              <div class="field-row bg-yellow-50 -mx-3 px-3">
+                <span class="field-name">origin_terminal</span>
+                <span class="field-value font-semibold">4</span>
+              </div>
+              <div class="field-row bg-yellow-50 -mx-3 px-3">
+                <span class="field-name">destination_terminal</span>
+                <span class="field-value font-semibold">S</span>
+              </div>
+              <div class="field-row bg-yellow-50 -mx-3 px-3">
+                <span class="field-name">distance</span>
+                <span class="field-value">1,217 km</span>
+              </div>
+
+              <!-- Operating Carrier -->
+              <div class="mt-2 pt-2 border-t border-emerald-200">
+                <div class="text-xs text-emerald-600 mb-1">operating_carrier</div>
+                <div class="field-row">
+                  <span class="field-name">name</span>
+                  <span class="field-value">Delta Air Lines</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">iata_code</span>
+                  <span class="field-value font-mono">DL</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">flight_number</span>
+                  <span class="field-value font-mono">401</span>
+                </div>
+              </div>
+
+              <!-- Marketing Carrier (if different) -->
+              <div class="mt-2 pt-2 border-t border-emerald-200">
+                <div class="text-xs text-emerald-600 mb-1">marketing_carrier <span class="text-gray-400">(codeshare)</span></div>
+                <div class="field-row">
+                  <span class="field-name">name</span>
+                  <span class="field-value">Air France</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">flight_number</span>
+                  <span class="field-value font-mono">AF 3604</span>
+                </div>
+              </div>
+
+              <!-- Aircraft -->
+              <div class="mt-2 pt-2 border-t border-emerald-200">
+                <div class="text-xs text-emerald-600 mb-1">aircraft</div>
+                <div class="field-row">
+                  <span class="field-name">name</span>
+                  <span class="field-value">Boeing 767-400ER</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">iata_code</span>
+                  <span class="field-value font-mono">764</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Segment 2 -->
+          <div class="p-3 bg-teal-50 rounded-lg">
+            <div class="text-xs font-semibold text-teal-700 mb-2">segments[1] - ATL → LHR</div>
+            <div class="space-y-1">
+              <div class="field-row">
+                <span class="field-name">departing_at</span>
+                <span class="field-value">2026-01-25T10:35:00</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">arriving_at</span>
+                <span class="field-value">2026-01-25T23:15:00</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">duration</span>
+                <span class="field-value">PT7H40M</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">origin_terminal</span>
+                <span class="field-value font-semibold">S</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">destination_terminal</span>
+                <span class="field-value font-semibold">3</span>
+              </div>
+
+              <!-- Stops (technical stops) -->
+              <div class="mt-2 pt-2 border-t border-teal-200">
+                <div class="text-xs text-teal-600 mb-1">stops <span class="api-tag">array</span> <span class="text-gray-400">(technical stops during flight)</span></div>
+                <div class="field-row bg-orange-50 -mx-3 px-3">
+                  <span class="field-name">stops[0].airport.iata_code</span>
+                  <span class="field-value font-mono">KEF</span>
+                </div>
+                <div class="field-row bg-orange-50 -mx-3 px-3">
+                  <span class="field-name">stops[0].duration</span>
+                  <span class="field-value">PT45M <span class="text-gray-400">(refueling)</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASSENGER & BAGGAGE -->
+      <div class="section-card">
+        <div class="bg-amber-600 px-4 py-3">
+          <h3 class="text-white font-semibold flex items-center gap-2">
+            <span class="w-6 h-6 bg-white/20 rounded flex items-center justify-center text-xs">4</span>
+            Passenger & Baggage
+          </h3>
+          <p class="text-amber-100 text-xs mt-1">Per-passenger segment details</p>
+        </div>
+        <div class="p-4">
+          <div class="p-3 bg-amber-50 rounded-lg mb-4">
+            <div class="text-xs font-semibold text-amber-700 mb-2">segment.passengers[0]</div>
+            <div class="space-y-1">
+              <div class="field-row">
+                <span class="field-name">passenger_id</span>
+                <span class="field-value font-mono text-xs">pas_00009htYpSCXrwaB9Dn789</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">cabin_class</span>
+                <span class="field-value">economy</span>
+              </div>
+              <div class="field-row bg-green-50 -mx-3 px-3">
+                <span class="field-name">cabin_class_marketing_name</span>
+                <span class="field-value font-semibold text-green-700">Main Cabin</span>
+              </div>
+              <div class="field-row">
+                <span class="field-name">fare_basis_code</span>
+                <span class="field-value font-mono">TAVNR7BS</span>
+              </div>
+
+              <!-- Cabin amenities -->
+              <div class="mt-3 pt-2 border-t border-amber-200">
+                <div class="text-xs text-amber-600 mb-2">cabin.amenities</div>
+                <div class="field-row">
+                  <span class="field-name">wifi.available</span>
+                  <span class="field-value"><span class="data-badge bg-green-100 text-green-700">true</span></span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">wifi.cost</span>
+                  <span class="field-value">paid</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">seat.pitch</span>
+                  <span class="field-value">32 inches</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">seat.type</span>
+                  <span class="field-value">standard</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">power.available</span>
+                  <span class="field-value"><span class="data-badge bg-green-100 text-green-700">true</span></span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">power.type</span>
+                  <span class="field-value">usb_port, ac_power</span>
+                </div>
+              </div>
+
+              <!-- Baggages -->
+              <div class="mt-3 pt-2 border-t border-amber-200">
+                <div class="text-xs text-amber-600 mb-2">baggages <span class="api-tag">array</span></div>
+
+                <div class="bg-white p-2 rounded mb-2">
+                  <div class="text-xs font-medium text-gray-700 mb-1">Carry-on</div>
+                  <div class="field-row">
+                    <span class="field-name">type</span>
+                    <span class="field-value">carry_on</span>
+                  </div>
+                  <div class="field-row">
+                    <span class="field-name">quantity</span>
+                    <span class="field-value">1</span>
+                  </div>
+                </div>
+
+                <div class="bg-white p-2 rounded">
+                  <div class="text-xs font-medium text-gray-700 mb-1">Checked Bag</div>
+                  <div class="field-row">
+                    <span class="field-name">type</span>
+                    <span class="field-value">checked</span>
+                  </div>
+                  <div class="field-row">
+                    <span class="field-name">quantity</span>
+                    <span class="field-value">1</span>
+                  </div>
+                  <div class="field-row bg-green-50 -mx-2 px-2">
+                    <span class="field-name">metadata.maximum_weight_kg</span>
+                    <span class="field-value font-semibold">23 kg</span>
+                  </div>
+                  <div class="field-row bg-green-50 -mx-2 px-2">
+                    <span class="field-name">metadata.maximum_dimensions_cm</span>
+                    <span class="field-value">158 cm (L+W+H)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AVAILABLE SERVICES -->
+      <div class="section-card lg:col-span-2">
+        <div class="bg-pink-600 px-4 py-3">
+          <h3 class="text-white font-semibold flex items-center gap-2">
+            <span class="w-6 h-6 bg-white/20 rounded flex items-center justify-center text-xs">5</span>
+            Available Services (Purchasable Add-ons)
+          </h3>
+          <p class="text-pink-100 text-xs mt-1">Extra baggage, seats, meals, cancellation protection</p>
+        </div>
+        <div class="p-4">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <!-- Extra Baggage -->
+            <div class="p-3 bg-pink-50 rounded-lg">
+              <div class="flex items-center gap-2 mb-2">
+                <svg class="w-5 h-5 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                <span class="font-semibold text-pink-700">Extra Bag</span>
+              </div>
+              <div class="space-y-1 text-sm">
+                <div class="field-row">
+                  <span class="field-name">type</span>
+                  <span class="field-value">baggage</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">total_amount</span>
+                  <span class="field-value font-semibold text-pink-600">$75.00</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">maximum_weight_kg</span>
+                  <span class="field-value">23 kg</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">maximum_quantity</span>
+                  <span class="field-value">2</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Seat Selection -->
+            <div class="p-3 bg-blue-50 rounded-lg">
+              <div class="flex items-center gap-2 mb-2">
+                <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+                <span class="font-semibold text-blue-700">Seat Selection</span>
+              </div>
+              <div class="space-y-1 text-sm">
+                <div class="field-row">
+                  <span class="field-name">type</span>
+                  <span class="field-value">seat</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">total_amount</span>
+                  <span class="field-value font-semibold text-blue-600">$35.00</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">designator</span>
+                  <span class="field-value">12A (Window)</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">disclosures</span>
+                  <span class="field-value text-xs">Extra legroom</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Meal -->
+            <div class="p-3 bg-orange-50 rounded-lg">
+              <div class="flex items-center gap-2 mb-2">
+                <svg class="w-5 h-5 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                <span class="font-semibold text-orange-700">Meal</span>
+              </div>
+              <div class="space-y-1 text-sm">
+                <div class="field-row">
+                  <span class="field-name">type</span>
+                  <span class="field-value">meal</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">total_amount</span>
+                  <span class="field-value font-semibold text-orange-600">$18.00</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">meal_type</span>
+                  <span class="field-value">VGML (Vegetarian)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cancel for Any Reason -->
+            <div class="p-3 bg-green-50 rounded-lg">
+              <div class="flex items-center gap-2 mb-2">
+                <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                <span class="font-semibold text-green-700">Flex Cancel</span>
+              </div>
+              <div class="space-y-1 text-sm">
+                <div class="field-row">
+                  <span class="field-name">type</span>
+                  <span class="field-value">cancel_for_any_reason</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">total_amount</span>
+                  <span class="field-value font-semibold text-green-600">$49.00</span>
+                </div>
+                <div class="field-row">
+                  <span class="field-name">refund_amount</span>
+                  <span class="field-value">80% of fare</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Legend -->
+    <div class="mt-8 p-4 bg-white rounded-xl shadow-sm border border-gray-100">
+      <h3 class="font-semibold text-gray-900 mb-3">Legend</h3>
+      <div class="flex flex-wrap gap-4 text-sm">
+        <div class="flex items-center gap-2">
+          <div class="w-4 h-4 bg-yellow-50 border border-yellow-200 rounded"></div>
+          <span class="text-gray-600">Currently NOT captured in your types</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <div class="w-4 h-4 bg-green-50 border border-green-200 rounded"></div>
+          <span class="text-gray-600">High-value fields to add</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="api-tag">object</span>
+          <span class="text-gray-600">Nested object type</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Summary -->
+    <div class="mt-6 p-6 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl text-white">
+      <h3 class="font-bold text-xl mb-4">Key Missing Fields to Consider</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div>
+          <h4 class="font-semibold mb-2 text-blue-100">User Experience</h4>
+          <ul class="text-sm space-y-1 text-blue-50">
+            <li>• <strong>fare_brand_name</strong> - "Basic Economy" vs "Main Cabin"</li>
+            <li>• <strong>origin/destination_terminal</strong> - Critical for airports</li>
+            <li>• <strong>cabin_class_marketing_name</strong> - Airline's cabin name</li>
+            <li>• <strong>seat.pitch</strong> - Legroom in inches</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-2 text-blue-100">Practical Info</h4>
+          <ul class="text-sm space-y-1 text-blue-50">
+            <li>• <strong>wifi.available</strong> - WiFi on flight</li>
+            <li>• <strong>power.available/type</strong> - Charging options</li>
+            <li>• <strong>baggage weight/dimensions</strong> - Exact limits</li>
+            <li>• <strong>technical stops</strong> - Hidden layovers</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-2 text-blue-100">Transparency</h4>
+          <ul class="text-sm space-y-1 text-blue-50">
+            <li>• <strong>base_amount + tax_amount</strong> - Price breakdown</li>
+            <li>• <strong>total_emissions_kg</strong> - Carbon footprint</li>
+            <li>• <strong>available_services</strong> - Upsell options</li>
+            <li>• <strong>loyalty programmes</strong> - FF eligibility</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -59,14 +59,23 @@ export function ItineraryMap({
   // Check if we have valid coordinates
   const hasValidCoords = centerLatitude !== 0 || centerLongitude !== 0;
 
-  // Initialize map
+  // Store the latest valid coordinates
+  const latestCoordsRef = useRef({ lat: centerLatitude, lng: centerLongitude });
+  if (hasValidCoords) {
+    latestCoordsRef.current = { lat: centerLatitude, lng: centerLongitude };
+  }
+
+  // Initialize map once when valid coordinates are available
   useEffect(() => {
-    if (!mapContainer.current || map.current) return;
     // Don't initialize until we have valid coordinates
     if (!hasValidCoords) return;
+    if (!mapContainer.current) return;
+    // Already initialized
+    if (map.current) return;
 
     const accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
     if (!accessToken) {
+      console.error('Mapbox access token not configured');
       setMapError('Mapbox access token not configured');
       return;
     }
@@ -74,10 +83,11 @@ export function ItineraryMap({
     mapboxgl.accessToken = accessToken;
 
     try {
+      console.log('Initializing Mapbox map with center:', latestCoordsRef.current);
       map.current = new mapboxgl.Map({
         container: mapContainer.current,
         style: 'mapbox://styles/mapbox/dark-v11',
-        center: [centerLongitude, centerLatitude],
+        center: [latestCoordsRef.current.lng, latestCoordsRef.current.lat],
         zoom: 12,
         pitch: 45,
         bearing: -10,
@@ -86,6 +96,7 @@ export function ItineraryMap({
       initialCenterSet.current = true;
 
       map.current.on('load', () => {
+        console.log('Mapbox map loaded successfully');
         setMapLoaded(true);
 
         // Add 3D building layer for immersion
@@ -117,6 +128,10 @@ export function ItineraryMap({
         }
       });
 
+      map.current.on('error', (e) => {
+        console.error('Mapbox error:', e);
+      });
+
       // Add navigation controls
       map.current.addControl(new mapboxgl.NavigationControl({ visualizePitch: true }), 'top-right');
 
@@ -126,12 +141,14 @@ export function ItineraryMap({
     }
 
     return () => {
+      console.log('Cleaning up Mapbox map');
       markersRef.current.forEach((marker) => marker.remove());
       map.current?.remove();
       map.current = null;
       initialCenterSet.current = false;
+      setMapLoaded(false);
     };
-  }, [hasValidCoords]); // Only re-run when valid coords become available
+  }, [hasValidCoords]); // Only re-run when hasValidCoords changes (false -> true)
 
   // Fly to center when coordinates change (after initial load)
   useEffect(() => {
@@ -321,6 +338,6 @@ export function ItineraryMap({
   }
 
   return (
-    <div ref={mapContainer} className={`${className}`} />
+    <div ref={mapContainer} className={`${className}`} style={{ width: '100%', height: '100%' }} />
   );
 }

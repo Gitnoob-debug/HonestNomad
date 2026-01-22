@@ -112,6 +112,10 @@ export default function FlashExplorePage() {
   const [showDetails, setShowDetails] = useState(false);
   const [isLoadingItinerary, setIsLoadingItinerary] = useState(false);
 
+  // Favorites - persists across shuffles
+  const [favorites, setFavorites] = useState<Set<string>>(new Set());
+  const [favoriteStops, setFavoriteStops] = useState<ItineraryStop[]>([]);
+
   // Booking selections
   const [skipFlights, setSkipFlights] = useState(false);
   const [skipHotels, setSkipHotels] = useState(false);
@@ -187,6 +191,25 @@ export default function FlashExplorePage() {
     setShowDetails(true);
   }, []);
 
+  const toggleFavorite = useCallback((stop: ItineraryStop, e?: React.MouseEvent) => {
+    if (e) {
+      e.stopPropagation();
+    }
+    setFavorites(prev => {
+      const newFavorites = new Set(prev);
+      if (newFavorites.has(stop.id)) {
+        newFavorites.delete(stop.id);
+        // Remove from favoriteStops
+        setFavoriteStops(current => current.filter(s => s.id !== stop.id));
+      } else {
+        newFavorites.add(stop.id);
+        // Add to favoriteStops (keep full stop data)
+        setFavoriteStops(current => [...current, stop]);
+      }
+      return newFavorites;
+    });
+  }, []);
+
   const handleGoBack = () => {
     if (step === 'itinerary') {
       // Go back to swipe to pick a different destination
@@ -222,6 +245,7 @@ export default function FlashExplorePage() {
       skipHotels,
       selectedFlight: skipFlights ? null : (selectedFlight || trip?.flight),
       selectedHotel: skipHotels ? null : (selectedHotel || trip?.hotel),
+      favoriteStops, // Include saved favorites
     };
     sessionStorage.setItem('flash_booking_data', JSON.stringify(bookingData));
     router.push('/flash/confirm');
@@ -302,9 +326,20 @@ export default function FlashExplorePage() {
                 <h2 className="text-white font-semibold">Your Route</h2>
                 <p className="text-white/50 text-sm">{allStops.length} places to explore</p>
               </div>
-              <div className="text-right">
-                <p className="text-white/50 text-xs">Step 1 of 4</p>
-                <p className="text-white/70 text-sm font-medium">Itinerary</p>
+              <div className="flex items-center gap-4">
+                {/* Favorites indicator */}
+                {favorites.size > 0 && (
+                  <div className="flex items-center gap-1.5 px-3 py-1.5 bg-pink-500/20 rounded-full">
+                    <svg className="w-4 h-4 text-pink-500 fill-pink-500" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                    <span className="text-pink-400 text-sm font-medium">{favorites.size}</span>
+                  </div>
+                )}
+                <div className="text-right">
+                  <p className="text-white/50 text-xs">Step 1 of 4</p>
+                  <p className="text-white/70 text-sm font-medium">Itinerary</p>
+                </div>
               </div>
             </div>
 
@@ -316,16 +351,31 @@ export default function FlashExplorePage() {
                   <span className="text-white/60 ml-3">Loading {itineraryType && PATH_CONFIG[itineraryType]?.name}...</span>
                 </div>
               ) : allStops.map((stop, index) => (
-                <button
+                <div
                   key={stop.id}
                   onClick={() => handleStopClick(stop)}
-                  className={`flex-shrink-0 w-72 bg-white/10 rounded-xl p-3 text-left transition-all ${
+                  className={`flex-shrink-0 w-72 bg-white/10 rounded-xl p-3 text-left transition-all cursor-pointer relative ${
                     activeStopId === stop.id
                       ? 'ring-2 ring-white bg-white/20'
                       : 'hover:bg-white/15'
-                  }`}
+                  } ${favorites.has(stop.id) ? 'ring-1 ring-pink-500/50' : ''}`}
                 >
-                  <div className="flex items-start gap-3">
+                  {/* Favorite heart button */}
+                  <button
+                    onClick={(e) => toggleFavorite(stop, e)}
+                    className="absolute top-2 right-2 w-8 h-8 flex items-center justify-center rounded-full bg-black/30 hover:bg-black/50 transition-colors z-10"
+                  >
+                    <svg
+                      className={`w-5 h-5 transition-colors ${favorites.has(stop.id) ? 'text-pink-500 fill-pink-500' : 'text-white/60'}`}
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                      fill={favorites.has(stop.id) ? 'currentColor' : 'none'}
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                  </button>
+                  <div className="flex items-start gap-3 pr-8">
                     <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-lg flex-shrink-0">
                       {stop.type === 'landmark' && '🏛️'}
                       {stop.type === 'restaurant' && '🍽️'}
@@ -349,7 +399,7 @@ export default function FlashExplorePage() {
                       <p className="text-white/60 text-sm line-clamp-2">{stop.description}</p>
                     </div>
                   </div>
-                </button>
+                </div>
               ))}
             </div>
 
@@ -394,13 +444,30 @@ export default function FlashExplorePage() {
 
               {/* Image if available */}
               {activeStop.imageUrl && (
-                <div className="w-full h-40 rounded-xl overflow-hidden mb-4 bg-gray-800">
+                <div className="relative w-full h-40 rounded-xl overflow-hidden mb-4 bg-gray-800">
                   <img
                     src={activeStop.imageUrl}
                     alt={activeStop.name}
                     className="w-full h-full object-cover"
                     onError={(e) => { e.currentTarget.style.display = 'none'; }}
                   />
+                  {/* Favorite button on image */}
+                  <button
+                    onClick={() => toggleFavorite(activeStop)}
+                    className={`absolute top-3 right-3 w-10 h-10 flex items-center justify-center rounded-full transition-colors ${
+                      favorites.has(activeStop.id) ? 'bg-pink-500' : 'bg-black/50 hover:bg-black/70'
+                    }`}
+                  >
+                    <svg
+                      className={`w-6 h-6 ${favorites.has(activeStop.id) ? 'text-white fill-white' : 'text-white'}`}
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                      fill={favorites.has(activeStop.id) ? 'currentColor' : 'none'}
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                  </button>
                 </div>
               )}
 
@@ -435,6 +502,25 @@ export default function FlashExplorePage() {
                     </div>
                   )}
                 </div>
+                {/* Favorite button when no image */}
+                {!activeStop.imageUrl && (
+                  <button
+                    onClick={() => toggleFavorite(activeStop)}
+                    className={`w-10 h-10 flex items-center justify-center rounded-full transition-colors flex-shrink-0 ${
+                      favorites.has(activeStop.id) ? 'bg-pink-500' : 'bg-white/10 hover:bg-white/20'
+                    }`}
+                  >
+                    <svg
+                      className={`w-6 h-6 ${favorites.has(activeStop.id) ? 'text-white fill-white' : 'text-white/60'}`}
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                      fill={favorites.has(activeStop.id) ? 'currentColor' : 'none'}
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                  </button>
+                )}
               </div>
 
               <p className="text-white/80 mb-4">{activeStop.description}</p>

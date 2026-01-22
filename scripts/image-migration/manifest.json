@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-22T21:23:55.556Z",
+  "lastUpdated": "2026-01-22T22:34:19.765Z",
   "destinations": {
     "paris": {
       "destinationId": "paris",
@@ -1484,6 +1484,523 @@
         }
       ],
       "completedAt": "2026-01-22T21:23:55.555Z",
+      "status": "review"
+    },
+    "amsterdam": {
+      "destinationId": "amsterdam",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "isPopular": true,
+      "imageCount": 27,
+      "images": [
+        {
+          "filename": "amsterdam-001.jpg",
+          "credit": "Photo by János Szüdi on Unsplash",
+          "photographerName": "János Szüdi",
+          "photographerUrl": "https://unsplash.com/@szudi",
+          "unsplashId": "I0IhH7SplRg",
+          "unsplashUrl": "https://unsplash.com/photos/a-house-boat-is-docked-at-a-dock-I0IhH7SplRg",
+          "downloadedAt": "2026-01-22T22:33:57.809Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-002.jpg",
+          "credit": "Photo by Peyman Shojaei on Unsplash",
+          "photographerName": "Peyman Shojaei",
+          "photographerUrl": "https://unsplash.com/@withpeyman",
+          "unsplashId": "wKGPrNbL91k",
+          "unsplashUrl": "https://unsplash.com/photos/a-tall-clock-tower-towering-over-a-city-at-night-wKGPrNbL91k",
+          "downloadedAt": "2026-01-22T22:33:58.020Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-003.jpg",
+          "credit": "Photo by Anya Chernykh on Unsplash",
+          "photographerName": "Anya Chernykh",
+          "photographerUrl": "https://unsplash.com/@anyachernykh",
+          "unsplashId": "Y3qdmmmzbkI",
+          "unsplashUrl": "https://unsplash.com/photos/a-boat-is-parked-on-the-side-of-a-river-Y3qdmmmzbkI",
+          "downloadedAt": "2026-01-22T22:33:59.741Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-004.jpg",
+          "credit": "Photo by Kevin Fitzgerald on Unsplash",
+          "photographerName": "Kevin Fitzgerald",
+          "photographerUrl": "https://unsplash.com/@lespaulster11",
+          "unsplashId": "f3XEVijbhg0",
+          "unsplashUrl": "https://unsplash.com/photos/people-walking-on-sidewalk-near-brown-concrete-tower-during-daytime-f3XEVijbhg0",
+          "downloadedAt": "2026-01-22T22:33:59.963Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-005.jpg",
+          "credit": "Photo by Jacques Dillies on Unsplash",
+          "photographerName": "Jacques Dillies",
+          "photographerUrl": "https://unsplash.com/@jacques_dillies",
+          "unsplashId": "1hzvRGwKGxI",
+          "unsplashUrl": "https://unsplash.com/photos/a-couple-of-bikes-parked-next-to-each-other-1hzvRGwKGxI",
+          "downloadedAt": "2026-01-22T22:34:00.546Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-006.jpg",
+          "credit": "Photo by Jacques Dillies on Unsplash",
+          "photographerName": "Jacques Dillies",
+          "photographerUrl": "https://unsplash.com/@jacques_dillies",
+          "unsplashId": "JIAhdeVzAYw",
+          "unsplashUrl": "https://unsplash.com/photos/a-bridge-over-a-canal-with-bicycles-on-it-JIAhdeVzAYw",
+          "downloadedAt": "2026-01-22T22:34:00.824Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-007.jpg",
+          "credit": "Photo by Ariane Frei on Unsplash",
+          "photographerName": "Ariane Frei",
+          "photographerUrl": "https://unsplash.com/@ariane_977",
+          "unsplashId": "0W7LPsB_Byk",
+          "unsplashUrl": "https://unsplash.com/photos/a-bunch-of-sunflowers-and-other-flowers-in-a-store-0W7LPsB_Byk",
+          "downloadedAt": "2026-01-22T22:34:01.336Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-008.jpg",
+          "credit": "Photo by Meizhi Lang on Unsplash",
+          "photographerName": "Meizhi Lang",
+          "photographerUrl": "https://unsplash.com/@meizhilang",
+          "unsplashId": "rHBdVqrTl3g",
+          "unsplashUrl": "https://unsplash.com/photos/a-group-of-flowers-rHBdVqrTl3g",
+          "downloadedAt": "2026-01-22T22:34:01.609Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-009.jpg",
+          "credit": "Photo by Juho S on Unsplash",
+          "photographerName": "Juho S",
+          "photographerUrl": "https://unsplash.com/@jhshelsinki",
+          "unsplashId": "gdINlgPUio8",
+          "unsplashUrl": "https://unsplash.com/photos/a-group-of-colorful-flowers-gdINlgPUio8",
+          "downloadedAt": "2026-01-22T22:34:01.838Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-010.jpg",
+          "credit": "Photo by Martti Salmi on Unsplash",
+          "photographerName": "Martti Salmi",
+          "photographerUrl": "https://unsplash.com/@marttisalmi",
+          "unsplashId": "l0W2Qu7OP-w",
+          "unsplashUrl": "https://unsplash.com/photos/a-bicycle-made-out-of-grass-with-a-yellow-bow-l0W2Qu7OP-w",
+          "downloadedAt": "2026-01-22T22:34:03.368Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-011.jpg",
+          "credit": "Photo by Oliver Wade on Unsplash",
+          "photographerName": "Oliver Wade",
+          "photographerUrl": "https://unsplash.com/@oliwade",
+          "unsplashId": "qPnzdT6Ry7c",
+          "unsplashUrl": "https://unsplash.com/photos/white-and-black-concrete-building-near-green-trees-during-daytime-qPnzdT6Ry7c",
+          "downloadedAt": "2026-01-22T22:34:03.593Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-012.jpg",
+          "credit": "Photo by Oliver Wade on Unsplash",
+          "photographerName": "Oliver Wade",
+          "photographerUrl": "https://unsplash.com/@oliwade",
+          "unsplashId": "Wi8Vii0l-bE",
+          "unsplashUrl": "https://unsplash.com/photos/brown-and-black-concrete-building-near-green-trees-during-daytime-Wi8Vii0l-bE",
+          "downloadedAt": "2026-01-22T22:34:03.817Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-013.jpg",
+          "credit": "Photo by Martti Salmi on Unsplash",
+          "photographerName": "Martti Salmi",
+          "photographerUrl": "https://unsplash.com/@marttisalmi",
+          "unsplashId": "lL0JN5b7yuY",
+          "unsplashUrl": "https://unsplash.com/photos/a-bridge-that-has-a-bunch-of-flowers-on-it-lL0JN5b7yuY",
+          "downloadedAt": "2026-01-22T22:34:04.053Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-014.jpg",
+          "credit": "Photo by Dustin Bowdige on Unsplash",
+          "photographerName": "Dustin Bowdige",
+          "photographerUrl": "https://unsplash.com/@dustinbowdige",
+          "unsplashId": "KcvCbrrY7l0",
+          "unsplashUrl": "https://unsplash.com/photos/a-row-of-bicycles-parked-next-to-each-other-KcvCbrrY7l0",
+          "downloadedAt": "2026-01-22T22:34:04.855Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-015.jpg",
+          "credit": "Photo by Martti Salmi on Unsplash",
+          "photographerName": "Martti Salmi",
+          "photographerUrl": "https://unsplash.com/@marttisalmi",
+          "unsplashId": "JjTJ4C073GY",
+          "unsplashUrl": "https://unsplash.com/photos/a-bicycle-with-a-bunch-of-flowers-on-the-back-of-it-JjTJ4C073GY",
+          "downloadedAt": "2026-01-22T22:34:05.685Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-016.jpg",
+          "credit": "Photo by Ellen Melin on Unsplash",
+          "photographerName": "Ellen Melin",
+          "photographerUrl": "https://unsplash.com/@ellenmelin_",
+          "unsplashId": "gB1zRGVTQNQ",
+          "unsplashUrl": "https://unsplash.com/photos/black-metal-fence-near-green-trees-during-daytime-gB1zRGVTQNQ",
+          "downloadedAt": "2026-01-22T22:34:06.502Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-017.jpg",
+          "credit": "Photo by Yoann Laheurte on Unsplash",
+          "photographerName": "Yoann Laheurte",
+          "photographerUrl": "https://unsplash.com/@yoannlaheurte",
+          "unsplashId": "aUlxnyxTc5g",
+          "unsplashUrl": "https://unsplash.com/photos/wooden-bridge-near-trees-aUlxnyxTc5g",
+          "downloadedAt": "2026-01-22T22:34:06.746Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-018.jpg",
+          "credit": "Photo by Martti Salmi on Unsplash",
+          "photographerName": "Martti Salmi",
+          "photographerUrl": "https://unsplash.com/@marttisalmi",
+          "unsplashId": "rYIixh_OyDI",
+          "unsplashUrl": "https://unsplash.com/photos/a-pond-with-a-fountain-in-the-middle-of-it-rYIixh_OyDI",
+          "downloadedAt": "2026-01-22T22:34:06.984Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-019.jpg",
+          "credit": "Photo by Sten Rademaker on Unsplash",
+          "photographerName": "Sten Rademaker",
+          "photographerUrl": "https://unsplash.com/@stenrademaker",
+          "unsplashId": "PK1zlrwpKAY",
+          "unsplashUrl": "https://unsplash.com/photos/sun-setting-over-green-trees-PK1zlrwpKAY",
+          "downloadedAt": "2026-01-22T22:34:07.817Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-020.jpg",
+          "credit": "Photo by Peyman Shojaei on Unsplash",
+          "photographerName": "Peyman Shojaei",
+          "photographerUrl": "https://unsplash.com/@withpeyman",
+          "unsplashId": "CTUErIyZIDw",
+          "unsplashUrl": "https://unsplash.com/photos/a-clock-on-a-pole-with-trees-in-the-background-CTUErIyZIDw",
+          "downloadedAt": "2026-01-22T22:34:08.105Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-021.jpg",
+          "credit": "Photo by Jacques Dillies on Unsplash",
+          "photographerName": "Jacques Dillies",
+          "photographerUrl": "https://unsplash.com/@jacques_dillies",
+          "unsplashId": "UCui6vgH8l4",
+          "unsplashUrl": "https://unsplash.com/photos/a-church-with-a-plane-flying-over-it-UCui6vgH8l4",
+          "downloadedAt": "2026-01-22T22:34:08.367Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-022.jpg",
+          "credit": "Photo by Luigi Ritchie on Unsplash",
+          "photographerName": "Luigi Ritchie",
+          "photographerUrl": "https://unsplash.com/@luigir",
+          "unsplashId": "5qdyFVg1Eek",
+          "unsplashUrl": "https://unsplash.com/photos/a-person-standing-on-a-brick-sidewalk-next-to-a-building-5qdyFVg1Eek",
+          "downloadedAt": "2026-01-22T22:34:09.540Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-023.jpg",
+          "credit": "Photo by 𝕡𝕒𝕨𝕤 𝕒𝕟𝕕 𝕡𝕣𝕚𝕟𝕥𝕤 on Unsplash",
+          "photographerName": "𝕡𝕒𝕨𝕤 𝕒𝕟𝕕 𝕡𝕣𝕚𝕟𝕥𝕤",
+          "photographerUrl": "https://unsplash.com/@paws_and_prints",
+          "unsplashId": "fmOvO0xcFa8",
+          "unsplashUrl": "https://unsplash.com/photos/red-brick-wall-with-white-horizontal-bands-fmOvO0xcFa8",
+          "downloadedAt": "2026-01-22T22:34:09.764Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-024.jpg",
+          "credit": "Photo by Haberdoedas on Unsplash",
+          "photographerName": "Haberdoedas",
+          "photographerUrl": "https://unsplash.com/@haberdoedas",
+          "unsplashId": "HWlF011-2Ig",
+          "unsplashUrl": "https://unsplash.com/photos/brick-column-and-dark-doorway-of-a-building-HWlF011-2Ig",
+          "downloadedAt": "2026-01-22T22:34:10.031Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-025.jpg",
+          "credit": "Photo by Leo Bayard on Unsplash",
+          "photographerName": "Leo Bayard",
+          "photographerUrl": "https://unsplash.com/@leob_photography",
+          "unsplashId": "-0E5OsKxd-A",
+          "unsplashUrl": "https://unsplash.com/photos/a-tall-brick-building-with-lots-of-windows--0E5OsKxd-A",
+          "downloadedAt": "2026-01-22T22:34:10.286Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-026.jpg",
+          "credit": "Photo by Bruce Barrow on Unsplash",
+          "photographerName": "Bruce Barrow",
+          "photographerUrl": "https://unsplash.com/@bruceb_uk",
+          "unsplashId": "N5RP3zO9Yes",
+          "unsplashUrl": "https://unsplash.com/photos/street-view-with-buildings-cars-and-people-under-sky-N5RP3zO9Yes",
+          "downloadedAt": "2026-01-22T22:34:10.870Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "amsterdam-027.jpg",
+          "credit": "Photo by Robert | Visual Diary on Unsplash",
+          "photographerName": "Robert | Visual Diary",
+          "photographerUrl": "https://unsplash.com/@robert_lens",
+          "unsplashId": "dxqDnpR2LI4",
+          "unsplashUrl": "https://unsplash.com/photos/double-doors-with-red-curtains-and-neon-lights-dxqDnpR2LI4",
+          "downloadedAt": "2026-01-22T22:34:11.080Z",
+          "validated": false,
+          "validationStatus": "pending"
+        }
+      ],
+      "completedAt": "2026-01-22T22:34:11.186Z",
+      "status": "review"
+    },
+    "seville": {
+      "destinationId": "seville",
+      "city": "Seville",
+      "country": "Spain",
+      "isPopular": false,
+      "imageCount": 18,
+      "images": [
+        {
+          "filename": "seville-001.jpg",
+          "credit": "Photo by Aleksandra on Unsplash",
+          "photographerName": "Aleksandra",
+          "photographerUrl": "https://unsplash.com/@lksndrmk",
+          "unsplashId": "OdaS9nZSdc8",
+          "unsplashUrl": "https://unsplash.com/photos/laundry-drying-on-clothesline-with-tower-in-background-OdaS9nZSdc8",
+          "downloadedAt": "2026-01-22T22:34:11.723Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-002.jpg",
+          "credit": "Photo by Romain Malaunay on Unsplash",
+          "photographerName": "Romain Malaunay",
+          "photographerUrl": "https://unsplash.com/@romainwaay",
+          "unsplashId": "3Fl93r5tZgY",
+          "unsplashUrl": "https://unsplash.com/photos/a-tall-clock-tower-towering-over-a-city-3Fl93r5tZgY",
+          "downloadedAt": "2026-01-22T22:34:11.940Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-003.jpg",
+          "credit": "Photo by Lianhao Qu on Unsplash",
+          "photographerName": "Lianhao Qu",
+          "photographerUrl": "https://unsplash.com/@lianhao",
+          "unsplashId": "_1Zm9ac-d_o",
+          "unsplashUrl": "https://unsplash.com/photos/a-view-of-a-cathedral-through-an-archway-_1Zm9ac-d_o",
+          "downloadedAt": "2026-01-22T22:34:12.882Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-004.jpg",
+          "credit": "Photo by Megumi SUGIYAMA on Unsplash",
+          "photographerName": "Megumi SUGIYAMA",
+          "photographerUrl": "https://unsplash.com/@meg_tripfoto",
+          "unsplashId": "TWxbI75PMl0",
+          "unsplashUrl": "https://unsplash.com/photos/giralda-tower-and-seville-cathedral-under-clear-blue-sky-TWxbI75PMl0",
+          "downloadedAt": "2026-01-22T22:34:13.406Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-005.jpg",
+          "credit": "Photo by Aleksandra on Unsplash",
+          "photographerName": "Aleksandra",
+          "photographerUrl": "https://unsplash.com/@lksndrmk",
+          "unsplashId": "qOODb1F5boo",
+          "unsplashUrl": "https://unsplash.com/photos/ornate-bell-tower-against-a-blue-sky-qOODb1F5boo",
+          "downloadedAt": "2026-01-22T22:34:13.742Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-006.jpg",
+          "credit": "Photo by Elliot Voilmy on Unsplash",
+          "photographerName": "Elliot Voilmy",
+          "photographerUrl": "https://unsplash.com/@itsaroadmap",
+          "unsplashId": "dTi21t_qzGo",
+          "unsplashUrl": "https://unsplash.com/photos/ornate-garden-path-with-palm-trees-and-manicured-hedges-dTi21t_qzGo",
+          "downloadedAt": "2026-01-22T22:34:14.614Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-007.jpg",
+          "credit": "Photo by Elliot Voilmy on Unsplash",
+          "photographerName": "Elliot Voilmy",
+          "photographerUrl": "https://unsplash.com/@itsaroadmap",
+          "unsplashId": "JynzsDSM4Yg",
+          "unsplashUrl": "https://unsplash.com/photos/a-rock-formation-with-a-small-cave-in-a-garden-JynzsDSM4Yg",
+          "downloadedAt": "2026-01-22T22:34:15.442Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-008.jpg",
+          "credit": "Photo by Elliot Voilmy on Unsplash",
+          "photographerName": "Elliot Voilmy",
+          "photographerUrl": "https://unsplash.com/@itsaroadmap",
+          "unsplashId": "A_0lSRuatn8",
+          "unsplashUrl": "https://unsplash.com/photos/courtyard-with-trees-greenery-and-arched-walkways-A_0lSRuatn8",
+          "downloadedAt": "2026-01-22T22:34:15.666Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-009.jpg",
+          "credit": "Photo by Klaudia Piaskowska on Unsplash",
+          "photographerName": "Klaudia Piaskowska",
+          "photographerUrl": "https://unsplash.com/@cloudyaaa",
+          "unsplashId": "vpgx4xHLtE4",
+          "unsplashUrl": "https://unsplash.com/photos/people-standing-near-chuch-vpgx4xHLtE4",
+          "downloadedAt": "2026-01-22T22:34:16.234Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-010.jpg",
+          "credit": "Photo by Ángel Sarria on Unsplash",
+          "photographerName": "Ángel Sarria",
+          "photographerUrl": "https://unsplash.com/@adsp",
+          "unsplashId": "j2NlBPQOm1o",
+          "unsplashUrl": "https://unsplash.com/photos/a-black-and-white-photo-of-a-clock-tower-j2NlBPQOm1o",
+          "downloadedAt": "2026-01-22T22:34:16.622Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-011.jpg",
+          "credit": "Photo by Ignacio Correia on Unsplash",
+          "photographerName": "Ignacio Correia",
+          "photographerUrl": "https://unsplash.com/@igcorreia",
+          "unsplashId": "ZvC50vqFXSI",
+          "unsplashUrl": "https://unsplash.com/photos/a-large-building-with-a-bridge-in-front-of-it-ZvC50vqFXSI",
+          "downloadedAt": "2026-01-22T22:34:17.100Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-012.jpg",
+          "credit": "Photo by Joan Oger on Unsplash",
+          "photographerName": "Joan Oger",
+          "photographerUrl": "https://unsplash.com/@joanoger",
+          "unsplashId": "duL8ZKR4QD4",
+          "unsplashUrl": "https://unsplash.com/photos/silhouette-of-people-near-door-duL8ZKR4QD4",
+          "downloadedAt": "2026-01-22T22:34:17.720Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-013.jpg",
+          "credit": "Photo by V2F on Unsplash",
+          "photographerName": "V2F",
+          "photographerUrl": "https://unsplash.com/@iv2fi",
+          "unsplashId": "zsgZDg_OwLk",
+          "unsplashUrl": "https://unsplash.com/photos/a-view-of-a-large-building-with-a-bridge-in-front-of-it-zsgZDg_OwLk",
+          "downloadedAt": "2026-01-22T22:34:17.929Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-014.jpg",
+          "credit": "Photo by Edgar Serrano on Unsplash",
+          "photographerName": "Edgar Serrano",
+          "photographerUrl": "https://unsplash.com/@eserrano13",
+          "unsplashId": "BaKGkYppPP0",
+          "unsplashUrl": "https://unsplash.com/photos/a-black-and-white-photo-of-a-woman-wearing-a-shirt-and-tie-BaKGkYppPP0",
+          "downloadedAt": "2026-01-22T22:34:18.804Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-015.jpg",
+          "credit": "Photo by VENUS MAJOR on Unsplash",
+          "photographerName": "VENUS MAJOR",
+          "photographerUrl": "https://unsplash.com/@venusmajor",
+          "unsplashId": "f5sI9Aa6BXk",
+          "unsplashUrl": "https://unsplash.com/photos/people-walking-on-sidewalk-near-building-during-daytime-f5sI9Aa6BXk",
+          "downloadedAt": "2026-01-22T22:34:19.035Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-016.jpg",
+          "credit": "Photo by JP Files on Unsplash",
+          "photographerName": "JP Files",
+          "photographerUrl": "https://unsplash.com/@jpfiles_av",
+          "unsplashId": "8KhL4DAM6rk",
+          "unsplashUrl": "https://unsplash.com/photos/people-gathering-near-outdoor-during-daytime-8KhL4DAM6rk",
+          "downloadedAt": "2026-01-22T22:34:19.212Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-017.jpg",
+          "credit": "Photo by Zuoranyi on Unsplash",
+          "photographerName": "Zuoranyi",
+          "photographerUrl": "https://unsplash.com/@zuoranyi",
+          "unsplashId": "Z57-RifaLdc",
+          "unsplashUrl": "https://unsplash.com/photos/man-dancing-flamenco-with-guitarist-in-background-Z57-RifaLdc",
+          "downloadedAt": "2026-01-22T22:34:19.417Z",
+          "validated": false,
+          "validationStatus": "pending"
+        },
+        {
+          "filename": "seville-018.jpg",
+          "credit": "Photo by Matthew Waring on Unsplash",
+          "photographerName": "Matthew Waring",
+          "photographerUrl": "https://unsplash.com/@matthewwaring",
+          "unsplashId": "NEtZyNL6oKA",
+          "unsplashUrl": "https://unsplash.com/photos/a-group-of-people-sitting-and-standing-around-a-building-NEtZyNL6oKA",
+          "downloadedAt": "2026-01-22T22:34:19.646Z",
+          "validated": false,
+          "validationStatus": "pending"
+        }
+      ],
+      "completedAt": "2026-01-22T22:34:19.760Z",
       "status": "review"
     }
   }

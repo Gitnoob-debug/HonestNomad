@@ -1,16 +1,8 @@
 {
-  "lastUpdated": "2026-01-22T21:23:55.556Z",
-  "currentBatch": 3,
+  "lastUpdated": "2026-01-22T22:34:19.766Z",
+  "currentBatch": 4,
   "totalBatches": 205,
   "queue": [
-    {
-      "destId": "amsterdam",
-      "isPopular": true
-    },
-    {
-      "destId": "seville",
-      "isPopular": false
-    },
     {
       "destId": "lisbon",
       "isPopular": true
@@ -1626,7 +1618,9 @@
     "rome",
     "milan",
     "barcelona",
-    "madrid"
+    "madrid",
+    "amsterdam",
+    "seville"
   ],
   "pendingReview": [
     "paris",
@@ -1634,16 +1628,18 @@
     "rome",
     "milan",
     "barcelona",
-    "madrid"
+    "madrid",
+    "amsterdam",
+    "seville"
   ],
   "approved": [],
   "rejected": [],
   "stats": {
     "totalDestinations": 410,
-    "totalImagesDownloaded": 129,
+    "totalImagesDownloaded": 174,
     "totalApproved": 0,
     "totalRejected": 0
   },
-  "lastBatchCompletedAt": "2026-01-22T21:23:55.556Z",
-  "nextBatchAvailableAt": "2026-01-22T22:33:55.556Z"
+  "lastBatchCompletedAt": "2026-01-22T22:34:19.766Z",
+  "nextBatchAvailableAt": "2026-01-22T23:44:19.766Z"
 }

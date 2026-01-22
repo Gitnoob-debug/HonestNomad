@@ -133,7 +133,7 @@ export interface FlashTripPackage {
   id: string;
   destination: DestinationInfo;
   flight: FlightSummary;
-  hotel: HotelSummary;
+  hotel?: HotelSummary; // Optional - flights-only mode
   itinerary: ItinerarySummary;
   pricing: TripPricing;
   highlights: string[];

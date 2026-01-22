@@ -181,46 +181,66 @@ export function TripDetailModal({ trip, onClose, onBook }: TripDetailModalProps)
               </div>
             </div>
 
-            {/* Hotel details */}
-            <div className="mb-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
-                <span className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
-                  <svg className="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                  </svg>
-                </span>
-                Accommodation
-              </h3>
+            {/* Hotel details (if included) */}
+            {trip.hotel ? (
+              <div className="mb-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                  <span className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                  </span>
+                  Accommodation
+                </h3>
 
-              <div className="flex gap-4 p-4 bg-gray-50 rounded-lg">
-                <img
-                  src={trip.hotel.imageUrl}
-                  alt={trip.hotel.name}
-                  className="w-24 h-24 rounded-lg object-cover"
-                />
-                <div className="flex-1">
-                  <h4 className="font-semibold text-gray-900">{trip.hotel.name}</h4>
-                  <div className="flex items-center gap-2 mt-1">
-                    <span className="text-yellow-400">{'★'.repeat(trip.hotel.stars)}</span>
-                    <span className="text-sm text-gray-600">{trip.hotel.rating}/10</span>
-                    <span className="text-sm text-gray-400">({trip.hotel.reviewCount} reviews)</span>
+                <div className="flex gap-4 p-4 bg-gray-50 rounded-lg">
+                  <img
+                    src={trip.hotel.imageUrl}
+                    alt={trip.hotel.name}
+                    className="w-24 h-24 rounded-lg object-cover"
+                  />
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-gray-900">{trip.hotel.name}</h4>
+                    <div className="flex items-center gap-2 mt-1">
+                      <span className="text-yellow-400">{'★'.repeat(trip.hotel.stars)}</span>
+                      <span className="text-sm text-gray-600">{trip.hotel.rating}/10</span>
+                      <span className="text-sm text-gray-400">({trip.hotel.reviewCount} reviews)</span>
+                    </div>
+                    <div className="flex flex-wrap gap-1 mt-2">
+                      {trip.hotel.amenities.slice(0, 4).map((amenity, i) => (
+                        <span key={i} className="text-xs px-2 py-0.5 bg-white rounded text-gray-600">
+                          {amenity}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                  <div className="flex flex-wrap gap-1 mt-2">
-                    {trip.hotel.amenities.slice(0, 4).map((amenity, i) => (
-                      <span key={i} className="text-xs px-2 py-0.5 bg-white rounded text-gray-600">
-                        {amenity}
-                      </span>
-                    ))}
+                  <div className="text-right">
+                    <p className="text-sm text-gray-500">per night</p>
+                    <p className="font-semibold text-gray-900">
+                      {formatPrice(trip.hotel.pricePerNight, trip.hotel.currency)}
+                    </p>
                   </div>
                 </div>
-                <div className="text-right">
-                  <p className="text-sm text-gray-500">per night</p>
-                  <p className="font-semibold text-gray-900">
-                    {formatPrice(trip.hotel.pricePerNight, trip.hotel.currency)}
+              </div>
+            ) : (
+              <div className="mb-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                  <span className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                  </span>
+                  Accommodation
+                </h3>
+
+                <div className="p-4 bg-gray-50 rounded-lg border-2 border-dashed border-gray-200">
+                  <p className="text-gray-600 font-medium">Hotel not included</p>
+                  <p className="text-sm text-gray-500 mt-1">
+                    This package includes flights only. You'll need to book your own accommodation in {trip.destination.city}.
                   </p>
                 </div>
               </div>
-            </div>
+            )}
 
             {/* Highlights */}
             <div className="mb-6">

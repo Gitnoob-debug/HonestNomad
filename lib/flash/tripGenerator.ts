@@ -1,4 +1,4 @@
-// Flash Trip Generator - Batch generates diverse trip packages
+// Flash Trip Generator - Batch generates diverse trip packages (Flights-only mode)
 import { v4 as uuidv4 } from 'uuid';
 import type {
   FlashVacationPreferences,
@@ -8,12 +8,10 @@ import type {
 } from '@/types/flash';
 import { selectDestinations, calculateDiversityScore } from './diversityEngine';
 import { searchFlights } from '@/lib/duffel/flights';
-import { searchHotels } from '@/lib/duffel/search';
 import type { NormalizedFlight } from '@/types/flight';
-import type { NormalizedHotel } from '@/types/hotel';
 
 export interface GenerationProgress {
-  stage: 'finding_destinations' | 'searching_flights' | 'searching_hotels' | 'building_trips' | 'complete';
+  stage: 'finding_destinations' | 'searching_flights' | 'building_trips' | 'complete';
   progress: number; // 0-100
   message: string;
 }
@@ -60,48 +58,33 @@ export async function generateTripBatch(
     destinations,
     profile,
     params,
-    (progress) => report('searching_flights', 20 + progress * 0.3, `Searching flights... ${Math.round(progress * 100)}%`)
-  );
-
-  report('searching_hotels', 50, 'Finding best hotels...');
-
-  // Step 3: Search hotels for destinations with valid flights
-  const validDestinations = destinations.filter((_, i) => flightResults[i] && flightResults[i].length > 0);
-  const hotelResults = await searchHotelsForDestinations(
-    validDestinations,
-    profile,
-    params,
-    (progress) => report('searching_hotels', 50 + progress * 0.3, `Searching hotels... ${Math.round(progress * 100)}%`)
+    (progress) => report('searching_flights', 20 + progress * 0.6, `Searching flights... ${Math.round(progress * 100)}%`)
   );
 
   report('building_trips', 80, 'Building your trip packages...');
 
-  // Step 4: Assemble complete trip packages
+  // Step 3: Assemble trip packages (flights-only mode - no hotel search)
   const trips: FlashTripPackage[] = [];
 
-  for (let i = 0; i < validDestinations.length && trips.length < count; i++) {
-    const dest = validDestinations[i];
-    const destIndex = destinations.indexOf(dest);
-    const flights = flightResults[destIndex];
-    const hotels = hotelResults[i];
+  for (let i = 0; i < destinations.length && trips.length < count; i++) {
+    const dest = destinations[i];
+    const flights = flightResults[i];
 
-    if (!flights || flights.length === 0 || !hotels || hotels.length === 0) {
+    if (!flights || flights.length === 0) {
       continue;
     }
 
-    // Select best flight and hotel
+    // Select best flight
     const bestFlight = selectBestFlight(flights, profile);
-    const bestHotel = selectBestHotel(hotels, profile);
 
-    if (!bestFlight || !bestHotel) {
+    if (!bestFlight) {
       continue;
     }
 
-    // Build trip package
+    // Build trip package (flights-only)
     const tripPackage = buildTripPackage(
       dest,
       bestFlight,
-      bestHotel,
       params,
       profile
     );
@@ -187,66 +170,6 @@ async function searchFlightsForDestinations(
 }
 
 /**
- * Search hotels for multiple destinations with controlled concurrency
- */
-async function searchHotelsForDestinations(
-  destinations: Destination[],
-  profile: FlashVacationPreferences,
-  params: FlashGenerateParams,
-  onProgress?: (progress: number) => void
-): Promise<(NormalizedHotel[] | null)[]> {
-  const results: (NormalizedHotel[] | null)[] = new Array(destinations.length).fill(null);
-  const concurrency = 3;
-  let completed = 0;
-
-  // Calculate number of nights
-  const nights = Math.ceil(
-    (new Date(params.returnDate).getTime() - new Date(params.departureDate).getTime()) / (1000 * 60 * 60 * 24)
-  );
-
-  for (let i = 0; i < destinations.length; i += concurrency) {
-    const batch = destinations.slice(i, i + concurrency);
-    const batchPromises = batch.map(async (dest, batchIndex) => {
-      const globalIndex = i + batchIndex;
-      try {
-        const totalGuests = profile.travelers.adults +
-          (profile.travelers.children?.length || 0) +
-          (profile.travelers.infants || 0);
-
-        const hotels = await searchHotels({
-          location: { city: dest.city },
-          checkIn: params.departureDate,
-          checkOut: params.returnDate,
-          guests: totalGuests,
-          rooms: Math.ceil(totalGuests / 2),
-          budget: {
-            min: profile.accommodation.minStars * 50,
-            max: profile.budget.perTripMax * 0.6, // ~60% budget for hotel
-            currency: profile.budget.currency,
-          },
-        });
-
-        // Filter by star rating
-        const filteredHotels = hotels.filter(
-          h => !profile.accommodation.minStars || (h.rating.stars && h.rating.stars >= profile.accommodation.minStars)
-        );
-
-        results[globalIndex] = filteredHotels.length > 0 ? filteredHotels : hotels.slice(0, 5);
-      } catch (error) {
-        console.error(`Hotel search failed for ${dest.city}:`, error);
-        results[globalIndex] = null;
-      }
-      completed++;
-      onProgress?.(completed / destinations.length);
-    });
-
-    await Promise.all(batchPromises);
-  }
-
-  return results;
-}
-
-/**
  * Build passenger list from traveler config
  */
 function buildPassengerList(travelers: FlashVacationPreferences['travelers']) {
@@ -300,63 +223,11 @@ function selectBestFlight(
 }
 
 /**
- * Select best hotel based on profile preferences
- */
-function selectBestHotel(
-  hotels: NormalizedHotel[],
-  profile: FlashVacationPreferences
-): NormalizedHotel | null {
-  if (hotels.length === 0) return null;
-
-  // Score hotels based on preferences
-  const scoredHotels = hotels.map(hotel => {
-    let score = 0;
-
-    // Star rating match
-    if (hotel.rating.stars) {
-      if (hotel.rating.stars >= profile.accommodation.minStars) {
-        score += 10;
-      }
-      if (hotel.rating.stars >= 4) {
-        score += 5;
-      }
-    }
-
-    // Guest rating
-    if (hotel.rating.reviewScore) {
-      score += hotel.rating.reviewScore; // 0-10
-    }
-
-    // Amenity matching
-    const mustHave = profile.accommodation.mustHaveAmenities || [];
-    const hotelAmenities = (hotel.amenities || []).map(a => a.toLowerCase());
-
-    const amenityMatch = mustHave.filter(a =>
-      hotelAmenities.some(ha => ha.includes(a) || a.includes(ha))
-    ).length;
-    score += amenityMatch * 5;
-
-    // Review count (popularity)
-    if (hotel.rating.reviewCount && hotel.rating.reviewCount > 100) {
-      score += 3;
-    }
-
-    return { hotel, score };
-  });
-
-  // Sort by score
-  scoredHotels.sort((a, b) => b.score - a.score);
-
-  return scoredHotels[0].hotel;
-}
-
-/**
- * Build a complete trip package from components
+ * Build a trip package from flight data (flights-only mode)
  */
 function buildTripPackage(
   destination: Destination,
   flight: NormalizedFlight,
-  hotel: NormalizedHotel,
   params: FlashGenerateParams,
   profile: FlashVacationPreferences
 ): FlashTripPackage {
@@ -365,10 +236,9 @@ function buildTripPackage(
     (new Date(params.returnDate).getTime() - new Date(params.departureDate).getTime()) / (1000 * 60 * 60 * 24)
   );
 
-  // Calculate total price
+  // Calculate total price (flights only)
   const flightPrice = flight.pricing.totalAmount;
-  const hotelTotalPrice = (hotel.pricing.nightlyRate || hotel.pricing.totalAmount) * nights;
-  const totalPrice = flightPrice + hotelTotalPrice;
+  const totalPrice = flightPrice;
 
   // Calculate match score (simplified from diversity engine)
   let matchScore = 0.5;
@@ -428,17 +298,7 @@ function buildTripPackage(
       price: flightPrice,
       currency: flight.pricing.currency,
     },
-    hotel: {
-      name: hotel.name,
-      stars: hotel.rating.stars || 3,
-      rating: hotel.rating.reviewScore || 8,
-      reviewCount: hotel.rating.reviewCount || 0,
-      amenities: (hotel.amenities || []).slice(0, 5),
-      pricePerNight: hotel.pricing.nightlyRate || hotel.pricing.totalAmount,
-      totalPrice: hotelTotalPrice,
-      currency: hotel.pricing.currency,
-      imageUrl: hotel.photos[0]?.url || destination.imageUrl,
-    },
+    // No hotel in flights-only mode
     itinerary: {
       days: nights,
       highlights: destination.highlights.slice(0, 4),
@@ -446,7 +306,7 @@ function buildTripPackage(
     },
     pricing: {
       flight: flightPrice,
-      hotel: hotelTotalPrice,
+      hotel: 0, // No hotel
       total: totalPrice,
       currency: flight.pricing.currency,
       perPerson: totalPrice / profile.travelers.adults,

@@ -135,7 +135,7 @@ interface ItineraryStop {
   id: string;
   name: string;
   description: string;
-  type: 'landmark' | 'restaurant' | 'activity' | 'accommodation' | 'transport';
+  type: 'landmark' | 'restaurant' | 'activity' | 'accommodation' | 'transport' | 'museum' | 'park' | 'cafe' | 'bar' | 'market' | 'nightclub' | 'viewpoint' | 'neighborhood';
   latitude: number;
   longitude: number;
   duration?: string;
@@ -521,41 +521,42 @@ function FlashExploreContent() {
                     </svg>
                   </button>
                   <div className="flex items-start gap-3 pr-8">
-                    {stop.imageUrl ? (
-                      <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 ring-2 ring-white/20">
-                        <img
-                          src={getProxiedImageUrl(stop.imageUrl)}
-                          alt={stop.name}
-                          className="w-full h-full object-cover"
-                          onError={(e) => {
-                            // Fallback to emoji on image error
-                            const parent = e.currentTarget.parentElement;
-                            if (parent) {
-                              parent.innerHTML = `<div class="w-full h-full bg-white/20 flex items-center justify-center text-lg">${
-                                stop.type === 'landmark' ? '🏛️' :
-                                stop.type === 'restaurant' ? '🍽️' :
-                                stop.type === 'activity' ? '🎯' :
-                                stop.type === 'accommodation' ? '🏨' : '✈️'
-                              }</div>`;
-                            }
-                          }}
-                        />
-                      </div>
-                    ) : (
-                      <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-lg flex-shrink-0">
-                        {stop.type === 'landmark' && '🏛️'}
-                        {stop.type === 'restaurant' && '🍽️'}
-                        {stop.type === 'activity' && '🎯'}
-                        {stop.type === 'accommodation' && '🏨'}
-                        {stop.type === 'transport' && '✈️'}
-                      </div>
-                    )}
+                    <div className={`w-10 h-10 rounded-full flex items-center justify-center text-lg flex-shrink-0 ${
+                      {
+                        landmark: 'bg-amber-500/20',
+                        restaurant: 'bg-red-500/20',
+                        activity: 'bg-blue-500/20',
+                        museum: 'bg-purple-500/20',
+                        park: 'bg-green-500/20',
+                        cafe: 'bg-orange-500/20',
+                        bar: 'bg-pink-500/20',
+                      }[stop.type as string] || 'bg-white/20'
+                    }`}>
+                      {{
+                        landmark: '🏛️',
+                        restaurant: '🍽️',
+                        activity: '🎯',
+                        museum: '🏛️',
+                        park: '🌳',
+                        accommodation: '🏨',
+                        transport: '✈️',
+                        cafe: '☕',
+                        bar: '🍸',
+                        market: '🛒',
+                        viewpoint: '🌄',
+                      }[stop.type as string] || '📍'}
+                    </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="text-white/50 text-xs">#{index + 1}</span>
                         {stop.googleRating && (
                           <span className="text-amber-400 text-xs flex items-center gap-0.5">
                             ★ {stop.googleRating.toFixed(1)}
+                          </span>
+                        )}
+                        {stop.duration && (
+                          <span className="text-white/40 text-xs">
+                            · {stop.duration}
                           </span>
                         )}
                       </div>
@@ -618,64 +619,69 @@ function FlashExploreContent() {
             >
               <div className="w-12 h-1 bg-white/30 rounded-full mx-auto mb-6" />
 
-              {/* Image if available */}
-              {activeStop.imageUrl && (
-                <div className="relative w-full h-40 rounded-xl overflow-hidden mb-4 bg-gray-800">
-                  <img
-                    src={getProxiedImageUrl(activeStop.imageUrl)}
-                    alt={activeStop.name}
-                    className="w-full h-full object-cover"
-                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                  />
-                  {/* Favorite button on image */}
-                  <button
-                    onClick={() => toggleFavorite(activeStop)}
-                    className={`absolute top-3 right-3 w-10 h-10 flex items-center justify-center rounded-full transition-colors ${
-                      favorites.has(activeStop.id) ? 'bg-pink-500' : 'bg-black/50 hover:bg-black/70'
-                    }`}
-                  >
-                    <svg
-                      className={`w-6 h-6 ${favorites.has(activeStop.id) ? 'text-white fill-white' : 'text-white'}`}
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                      fill={favorites.has(activeStop.id) ? 'currentColor' : 'none'}
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                    </svg>
-                  </button>
+              {/* Header banner - always show */}
+              <div className={`relative w-full h-24 rounded-xl overflow-hidden mb-4 ${
+                {
+                  landmark: 'bg-gradient-to-br from-amber-600/30 to-orange-800/30',
+                  restaurant: 'bg-gradient-to-br from-red-600/30 to-pink-800/30',
+                  activity: 'bg-gradient-to-br from-blue-600/30 to-cyan-800/30',
+                  museum: 'bg-gradient-to-br from-purple-600/30 to-indigo-800/30',
+                  park: 'bg-gradient-to-br from-green-600/30 to-emerald-800/30',
+                  cafe: 'bg-gradient-to-br from-orange-600/30 to-amber-800/30',
+                  bar: 'bg-gradient-to-br from-pink-600/30 to-rose-800/30',
+                }[activeStop.type as string] || 'bg-gradient-to-br from-gray-600/30 to-gray-800/30'
+              }`}>
+                {/* Large category emoji */}
+                <div className="absolute inset-0 flex items-center justify-center text-6xl opacity-30">
+                  {{
+                    landmark: '🏛️',
+                    restaurant: '🍽️',
+                    activity: '🎯',
+                    museum: '🏛️',
+                    park: '🌳',
+                    accommodation: '🏨',
+                    transport: '✈️',
+                    cafe: '☕',
+                    bar: '🍸',
+                    market: '🛒',
+                    viewpoint: '🌄',
+                  }[activeStop.type as string] || '📍'}
                 </div>
-              )}
+                {/* Favorite button */}
+                <button
+                  onClick={() => toggleFavorite(activeStop)}
+                  className={`absolute top-3 right-3 w-10 h-10 flex items-center justify-center rounded-full transition-colors ${
+                    favorites.has(activeStop.id) ? 'bg-pink-500' : 'bg-black/50 hover:bg-black/70'
+                  }`}
+                >
+                  <svg
+                    className={`w-6 h-6 ${favorites.has(activeStop.id) ? 'text-white fill-white' : 'text-white'}`}
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    fill={favorites.has(activeStop.id) ? 'currentColor' : 'none'}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                </button>
+              </div>
 
               <div className="flex items-start gap-4 mb-4">
-                {activeStop.imageUrl ? (
-                  <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 ring-2 ring-white/20">
-                    <img
-                      src={getProxiedImageUrl(activeStop.imageUrl)}
-                      alt={activeStop.name}
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        const parent = e.currentTarget.parentElement;
-                        if (parent) {
-                          parent.innerHTML = `<div class="w-full h-full bg-white/10 flex items-center justify-center text-2xl">${
-                            activeStop.type === 'landmark' ? '🏛️' :
-                            activeStop.type === 'restaurant' ? '🍽️' :
-                            activeStop.type === 'activity' ? '🎯' :
-                            activeStop.type === 'accommodation' ? '🏨' : '✈️'
-                          }</div>`;
-                        }
-                      }}
-                    />
-                  </div>
-                ) : (
-                  <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-2xl flex-shrink-0">
-                    {activeStop.type === 'landmark' && '🏛️'}
-                    {activeStop.type === 'restaurant' && '🍽️'}
-                    {activeStop.type === 'activity' && '🎯'}
-                    {activeStop.type === 'accommodation' && '🏨'}
-                    {activeStop.type === 'transport' && '✈️'}
-                  </div>
-                )}
+                <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-2xl flex-shrink-0">
+                  {{
+                    landmark: '🏛️',
+                    restaurant: '🍽️',
+                    activity: '🎯',
+                    museum: '🏛️',
+                    park: '🌳',
+                    accommodation: '🏨',
+                    transport: '✈️',
+                    cafe: '☕',
+                    bar: '🍸',
+                    market: '🛒',
+                    viewpoint: '🌄',
+                  }[activeStop.type as string] || '📍'}
+                </div>
                 <div className="flex-1">
                   <h2 className="text-white text-xl font-bold">{activeStop.name}</h2>
 
@@ -698,25 +704,6 @@ function FlashExploreContent() {
                     </div>
                   )}
                 </div>
-                {/* Favorite button when no image */}
-                {!activeStop.imageUrl && (
-                  <button
-                    onClick={() => toggleFavorite(activeStop)}
-                    className={`w-10 h-10 flex items-center justify-center rounded-full transition-colors flex-shrink-0 ${
-                      favorites.has(activeStop.id) ? 'bg-pink-500' : 'bg-white/10 hover:bg-white/20'
-                    }`}
-                  >
-                    <svg
-                      className={`w-6 h-6 ${favorites.has(activeStop.id) ? 'text-white fill-white' : 'text-white/60'}`}
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                      fill={favorites.has(activeStop.id) ? 'currentColor' : 'none'}
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                    </svg>
-                  </button>
-                )}
               </div>
 
               <p className="text-white/80 mb-4">{activeStop.description}</p>
@@ -729,13 +716,21 @@ function FlashExploreContent() {
                 </p>
               )}
 
-              {/* Best time to visit */}
-              {activeStop.bestTimeOfDay && activeStop.bestTimeOfDay !== 'any' && (
-                <p className="text-white/50 text-sm mb-4 flex items-center gap-2">
-                  <span>🕐</span>
-                  <span>Best time: {activeStop.bestTimeOfDay}</span>
-                </p>
-              )}
+              {/* Duration and best time */}
+              <div className="flex flex-wrap gap-3 mb-4">
+                {activeStop.duration && (
+                  <span className="text-white/60 text-sm flex items-center gap-1.5 bg-white/5 px-3 py-1.5 rounded-full">
+                    <span>⏱️</span>
+                    <span>{activeStop.duration}</span>
+                  </span>
+                )}
+                {activeStop.bestTimeOfDay && activeStop.bestTimeOfDay !== 'any' && (
+                  <span className="text-white/60 text-sm flex items-center gap-1.5 bg-white/5 px-3 py-1.5 rounded-full">
+                    <span>🕐</span>
+                    <span>Best: {activeStop.bestTimeOfDay}</span>
+                  </span>
+                )}
+              </div>
 
               {/* Nearby places */}
               {(() => {

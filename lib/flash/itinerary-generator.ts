@@ -7,7 +7,7 @@ export interface ItineraryStop {
   id: string;
   name: string;
   description: string;
-  type: 'landmark' | 'restaurant' | 'activity' | 'accommodation' | 'transport';
+  type: 'landmark' | 'restaurant' | 'activity' | 'accommodation' | 'transport' | 'museum' | 'park' | 'cafe' | 'bar' | 'market' | 'nightclub' | 'viewpoint' | 'neighborhood';
   latitude: number;
   longitude: number;
   duration?: string;
@@ -22,6 +22,7 @@ export interface ItineraryStop {
   googleMapsUrl?: string;
   bestTimeOfDay?: 'morning' | 'afternoon' | 'evening' | 'night' | 'any';
   category?: POICategory;
+  suggestedDuration?: string;
 }
 
 export interface ItineraryDay {

@@ -8,12 +8,15 @@ interface ItineraryStop {
   id: string;
   name: string;
   description: string;
-  type: 'landmark' | 'restaurant' | 'activity' | 'accommodation' | 'transport';
+  type: 'landmark' | 'restaurant' | 'activity' | 'accommodation' | 'transport' | 'museum' | 'park' | 'cafe' | 'bar' | 'market' | 'nightclub' | 'viewpoint' | 'neighborhood';
   latitude: number;
   longitude: number;
   duration?: string;
   imageUrl?: string;
   day: number;
+  suggestedDuration?: string;
+  googleRating?: number;
+  googleReviewCount?: number;
 }
 
 interface ItineraryMapProps {
@@ -31,6 +34,14 @@ const MARKER_COLORS: Record<ItineraryStop['type'], string> = {
   activity: '#22c55e',    // green
   accommodation: '#8b5cf6', // purple
   transport: '#3b82f6',   // blue
+  museum: '#a855f7',      // purple
+  park: '#22c55e',        // green
+  cafe: '#f59e0b',        // amber
+  bar: '#ec4899',         // pink
+  market: '#14b8a6',      // teal
+  nightclub: '#f43f5e',   // rose
+  viewpoint: '#0ea5e9',   // sky
+  neighborhood: '#6366f1', // indigo
 };
 
 const MARKER_ICONS: Record<ItineraryStop['type'], string> = {
@@ -39,16 +50,15 @@ const MARKER_ICONS: Record<ItineraryStop['type'], string> = {
   activity: '🎯',
   accommodation: '🏨',
   transport: '✈️',
+  museum: '🎨',
+  park: '🌳',
+  cafe: '☕',
+  bar: '🍸',
+  market: '🛒',
+  nightclub: '🎉',
+  viewpoint: '🌄',
+  neighborhood: '🏘️',
 };
-
-// Proxy Google Places image URLs through our API to keep the key secure
-function getProxiedImageUrl(imageUrl: string | undefined): string | undefined {
-  if (!imageUrl) return undefined;
-  if (imageUrl.startsWith('https://places.googleapis.com/')) {
-    return `/api/image-proxy?url=${encodeURIComponent(imageUrl)}`;
-  }
-  return imageUrl;
-}
 
 export function ItineraryMap({
   stops,
@@ -206,24 +216,14 @@ export function ItineraryMap({
       const borderWidth = isActive ? 3 : 2;
 
       // Use image if available, otherwise fall back to emoji
-      const proxiedImageUrl = getProxiedImageUrl(stop.imageUrl);
       const markerColor = MARKER_COLORS[stop.type];
 
-      // For image markers, we use a dark background that shows through loading state
-      // On image error, we change the background to the type color and show emoji
-      const markerContent = proxiedImageUrl
-        ? `<img src="${proxiedImageUrl}" alt="${stop.name}" style="
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 50%;
-          " onerror="this.style.display='none'; this.nextSibling.style.display='flex'; this.parentElement.style.background='${markerColor}';" />
-          <span style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center; font-size: ${isActive ? 22 : 18}px;">${MARKER_ICONS[stop.type]}</span>`
-        : `<span style="font-size: ${isActive ? 22 : 18}px;">${MARKER_ICONS[stop.type]}</span>`;
+      // Always use emoji markers since images are disabled to avoid API costs
+      const markerContent = `<span style="font-size: ${isActive ? 22 : 18}px;">${MARKER_ICONS[stop.type]}</span>`;
 
       el.innerHTML = `
         <div class="marker-content" style="
-          background: ${proxiedImageUrl ? '#1a1a2e' : markerColor};
+          background: ${markerColor};
           width: ${size}px;
           height: ${size}px;
           border-radius: 50%;

@@ -686,28 +686,70 @@ export async function generateItineraryAuto(
   return generateSampleItinerary(trip);
 }
 
-// List of destinations with real POI data (63 cities)
+// List of destinations with real POI data (410 cities - all destinations)
 export const DESTINATIONS_WITH_POI_DATA = [
-  // Europe - Western
-  'paris', 'london', 'amsterdam', 'brussels', 'dublin', 'edinburgh',
-  // Europe - Southern
-  'rome', 'milan', 'florence', 'venice', 'naples', 'amalfi', 'cinque-terre',
-  'barcelona', 'madrid', 'seville', 'valencia', 'granada', 'malaga', 'ibiza',
-  'lisbon', 'porto', 'athens', 'santorini', 'mykonos',
-  // Europe - Central
-  'berlin', 'munich', 'vienna', 'zurich', 'salzburg', 'prague', 'budapest',
-  'krakow', 'warsaw',
-  // Europe - Nordic & Baltic
-  'copenhagen', 'stockholm', 'oslo', 'helsinki', 'reykjavik',
-  'tallinn', 'riga', 'vilnius',
-  // Europe - Other
-  'dubrovnik', 'split', 'nice', 'lyon', 'marseille',
-  // North America - USA
-  'new-york', 'los-angeles', 'san-francisco', 'chicago', 'miami',
-  'boston', 'seattle', 'las-vegas', 'austin', 'denver',
-  'nashville', 'new-orleans', 'washington-dc',
-  // North America - Canada
-  'toronto', 'montreal', 'vancouver'
+  // All destinations have cached POI data from Google Places
+  'aarhus', 'abu-dhabi', 'addis-ababa', 'agra', 'albuquerque', 'alula', 'amalfi',
+  'amsterdam', 'anchorage', 'antigua', 'antigua-guatemala', 'antwerp', 'arenal',
+  'arequipa', 'aruba', 'asheville', 'aspen', 'atacama', 'athens', 'atlanta',
+  'auckland', 'austin', 'azores', 'bahamas', 'bahrain', 'bali', 'banff', 'bangkok',
+  'banos', 'barbados', 'barcelona', 'bariloche', 'basel', 'bath', 'beijing',
+  'beirut', 'belfast', 'belgrade', 'belize', 'bergen', 'berlin', 'bhutan',
+  'big-sur', 'bilbao', 'black-forest', 'bogota', 'bologna', 'bonaire', 'bora-bora',
+  'boracay', 'bordeaux', 'boston', 'botswana', 'bratislava', 'brighton', 'bristol',
+  'bruges', 'brussels', 'bucharest', 'budapest', 'buenos-aires', 'busan', 'cabo',
+  'calgary', 'cambridge', 'canary-islands', 'cancun', 'cape-cod', 'cape-town',
+  'cardiff', 'carmel', 'cartagena', 'caye-caulker', 'cayman-islands', 'chamonix',
+  'chania', 'charleston', 'charlotte', 'chefchaouen', 'chiang-mai', 'chicago',
+  'cinque-terre', 'cleveland', 'cologne', 'colonia', 'cook-islands', 'copenhagen',
+  'cordoba', 'corfu', 'cork', 'corsica', 'costa-rica', 'cotswolds', 'cozumel',
+  'crete', 'cuenca', 'curacao', 'da-nang', 'dallas', 'dead-sea', 'delhi', 'denver',
+  'detroit', 'doha', 'dominican-republic', 'dresden', 'dubai', 'dublin', 'dubrovnik',
+  'dusseldorf', 'easter-island', 'edinburgh', 'edmonton', 'egypt', 'essaouira',
+  'fes', 'fiji', 'florence', 'florianopolis', 'frankfurt', 'galapagos', 'galway',
+  'gdansk', 'geneva', 'ghana', 'ghent', 'glasgow', 'goa', 'gold-coast', 'gothenburg',
+  'gran-canaria', 'granada', 'grand-canyon', 'graz', 'great-barrier-reef', 'grenada',
+  'guadalajara', 'guadeloupe', 'guam', 'guanajuato', 'guilin', 'halifax', 'hamburg',
+  'hanoi', 'hawaii', 'heidelberg', 'helsinki', 'hoi-an', 'hong-kong', 'houston',
+  'hurghada', 'ibiza', 'iguazu-falls', 'indianapolis', 'innsbruck', 'israel',
+  'jackson-hole', 'jaipur', 'jamaica', 'jasper', 'jeddah', 'jerusalem', 'johannesburg',
+  'jordan', 'kansas-city', 'kathmandu', 'kefalonia', 'kelowna', 'kenya', 'key-west',
+  'kochi', 'kotor', 'krakow', 'kruger', 'kuala-lumpur', 'kuwait', 'kyoto',
+  'la-paz', 'lake-atitlan', 'lake-bled', 'lake-como', 'lake-district', 'lake-tahoe',
+  'langkawi', 'lanzarote', 'lapland', 'las-vegas', 'leipzig', 'lille', 'lima',
+  'limassol', 'lisbon', 'liverpool', 'ljubljana', 'lofoten', 'lombok', 'london',
+  'los-angeles', 'luang-prabang', 'lucerne', 'luxembourg', 'luxor', 'lyon', 'madeira',
+  'madrid', 'majorca', 'malaga', 'maldives', 'malmö', 'malta', 'manchester', 'manila',
+  'manuel-antonio', 'marbella', 'marseille', 'martha-vineyard', 'martinique', 'maui',
+  'mauritius', 'medellin', 'melbourne', 'memphis', 'mendoza', 'menorca', 'merida',
+  'mexico-city', 'miami', 'milan', 'milford-sound', 'milwaukee', 'minneapolis',
+  'moab', 'monaco', 'mont-saint-michel', 'monteverde', 'montevideo', 'montreal',
+  'morocco', 'mostar', 'mumbai', 'munich', 'mykonos', 'namibia', 'nantes', 'nantucket',
+  'napa-valley', 'naples', 'nashville', 'naxos', 'new-caledonia', 'new-orleans',
+  'new-york', 'new-zealand', 'nha-trang', 'niagara-falls', 'nice', 'nuremberg',
+  'oaxaca', 'oman', 'orlando', 'osaka', 'oslo', 'ottawa', 'oxford', 'palau', 'palawan',
+  'palm-springs', 'panama', 'paphos', 'paris', 'park-city', 'paros', 'patagonia',
+  'perth', 'peru', 'philadelphia', 'phoenix', 'phuket', 'pittsburgh', 'playa-del-carmen',
+  'plovdiv', 'portland', 'portland-maine', 'porto', 'prague', 'prince-edward-island',
+  'provence', 'puebla', 'puerto-madryn', 'puerto-rico', 'puerto-vallarta', 'puglia',
+  'puno', 'punta-del-este', 'quebec-city', 'quito', 'raleigh', 'reunion', 'reykjavik',
+  'rhodes', 'riga', 'rio', 'riyadh', 'roatan', 'rome', 'rotorua', 'rotterdam',
+  'rwanda', 'sacred-valley', 'salar-de-uyuni', 'salt-lake-city', 'salta', 'salvador',
+  'salzburg', 'samoa', 'san-antonio', 'san-diego', 'san-francisco', 'san-miguel',
+  'san-sebastian', 'santa-barbara', 'santa-fe', 'santa-marta', 'santiago', 'santorini',
+  'sao-paulo', 'sarajevo', 'sardinia', 'savannah', 'scottish-highlands', 'scottsdale',
+  'seattle', 'sedona', 'senegal', 'seoul', 'seville', 'seychelles', 'shanghai',
+  'sicily', 'siem-reap', 'singapore', 'sofia', 'sonoma', 'split', 'sri-lanka',
+  'st-barts', 'st-johns', 'st-kitts', 'st-louis', 'st-lucia', 'stockholm', 'strasbourg',
+  'stuttgart', 'swiss-alps', 'sydney', 'tahiti', 'taipei', 'tallinn', 'tamarindo',
+  'tampa', 'tanzania', 'tasmania', 'tayrona', 'the-hague', 'thessaloniki', 'tirana',
+  'todos-santos', 'tokyo', 'toledo', 'toronto', 'torres-del-paine', 'toulouse',
+  'tromso', 'tucson', 'tulum', 'tunis', 'turin', 'turks-caicos', 'uganda', 'ushuaia',
+  'vail', 'valencia', 'valparaiso', 'vancouver', 'vanuatu', 'venice', 'verona',
+  'victoria-bc', 'victoria-falls', 'vienna', 'vietnam', 'vilnius', 'vina-del-mar',
+  'virgin-islands', 'warsaw', 'washington-dc', 'wellington', 'whistler', 'wroclaw',
+  'xian', 'yangon', 'yellowstone', 'yogyakarta', 'york', 'zagreb', 'zakynthos',
+  'zanzibar', 'zermatt', 'zion', 'zurich',
 ];
 
 export function hasRealPOIData(destinationId: string): boolean {

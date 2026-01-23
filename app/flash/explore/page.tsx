@@ -100,6 +100,16 @@ function formatDistance(meters: number): string {
   return `${(meters / 1000).toFixed(1)}km`;
 }
 
+// Proxy Google Places image URLs through our API to keep the key secure
+function getProxiedImageUrl(imageUrl: string | undefined): string | undefined {
+  if (!imageUrl) return undefined;
+  // Only proxy Google Places URLs
+  if (imageUrl.startsWith('https://places.googleapis.com/')) {
+    return `/api/image-proxy?url=${encodeURIComponent(imageUrl)}`;
+  }
+  return imageUrl;
+}
+
 // Get nearby stops within a radius (default 800m ~10 min walk)
 function getNearbyStops(
   currentStop: ItineraryStop,
@@ -420,7 +430,7 @@ export default function FlashExplorePage() {
                     {stop.imageUrl ? (
                       <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 ring-2 ring-white/20">
                         <img
-                          src={stop.imageUrl}
+                          src={getProxiedImageUrl(stop.imageUrl)}
                           alt={stop.name}
                           className="w-full h-full object-cover"
                           onError={(e) => {
@@ -506,7 +516,7 @@ export default function FlashExplorePage() {
               {activeStop.imageUrl && (
                 <div className="relative w-full h-40 rounded-xl overflow-hidden mb-4 bg-gray-800">
                   <img
-                    src={activeStop.imageUrl}
+                    src={getProxiedImageUrl(activeStop.imageUrl)}
                     alt={activeStop.name}
                     className="w-full h-full object-cover"
                     onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -535,7 +545,7 @@ export default function FlashExplorePage() {
                 {activeStop.imageUrl ? (
                   <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 ring-2 ring-white/20">
                     <img
-                      src={activeStop.imageUrl}
+                      src={getProxiedImageUrl(activeStop.imageUrl)}
                       alt={activeStop.name}
                       className="w-full h-full object-cover"
                       onError={(e) => {
@@ -647,7 +657,7 @@ export default function FlashExplorePage() {
                           {stop.imageUrl ? (
                             <div className="w-6 h-6 rounded-full overflow-hidden flex-shrink-0">
                               <img
-                                src={stop.imageUrl}
+                                src={getProxiedImageUrl(stop.imageUrl)}
                                 alt={stop.name}
                                 className="w-full h-full object-cover"
                               />

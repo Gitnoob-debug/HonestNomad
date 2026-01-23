@@ -686,11 +686,16 @@ export async function generateItineraryAuto(
   return generateSampleItinerary(trip);
 }
 
-// List of destinations with real POI data
+// List of destinations with real POI data (30 cities)
 export const DESTINATIONS_WITH_POI_DATA = [
+  // Original 16
   'paris', 'rome', 'milan', 'dubrovnik', 'lisbon',
   'barcelona', 'madrid', 'amsterdam', 'vienna', 'munich',
-  'prague', 'budapest', 'florence', 'venice', 'athens', 'london'
+  'prague', 'budapest', 'florence', 'venice', 'athens', 'london',
+  // Added batch
+  'berlin', 'santorini', 'edinburgh', 'copenhagen', 'dublin',
+  'mykonos', 'seville', 'nice', 'stockholm', 'oslo',
+  'brussels', 'zurich', 'porto', 'split'
 ];
 
 export function hasRealPOIData(destinationId: string): boolean {

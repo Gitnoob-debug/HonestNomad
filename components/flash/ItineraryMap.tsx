@@ -41,6 +41,15 @@ const MARKER_ICONS: Record<ItineraryStop['type'], string> = {
   transport: '✈️',
 };
 
+// Proxy Google Places image URLs through our API to keep the key secure
+function getProxiedImageUrl(imageUrl: string | undefined): string | undefined {
+  if (!imageUrl) return undefined;
+  if (imageUrl.startsWith('https://places.googleapis.com/')) {
+    return `/api/image-proxy?url=${encodeURIComponent(imageUrl)}`;
+  }
+  return imageUrl;
+}
+
 export function ItineraryMap({
   stops,
   centerLatitude,
@@ -197,8 +206,9 @@ export function ItineraryMap({
       const borderWidth = isActive ? 3 : 2;
 
       // Use image if available, otherwise fall back to emoji
-      const markerContent = stop.imageUrl
-        ? `<img src="${stop.imageUrl}" alt="${stop.name}" style="
+      const proxiedImageUrl = getProxiedImageUrl(stop.imageUrl);
+      const markerContent = proxiedImageUrl
+        ? `<img src="${proxiedImageUrl}" alt="${stop.name}" style="
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -209,7 +219,7 @@ export function ItineraryMap({
 
       el.innerHTML = `
         <div class="marker-content" style="
-          background: ${stop.imageUrl ? '#1a1a2e' : MARKER_COLORS[stop.type]};
+          background: ${proxiedImageUrl ? '#1a1a2e' : MARKER_COLORS[stop.type]};
           width: ${size}px;
           height: ${size}px;
           border-radius: 50%;

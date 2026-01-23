@@ -686,16 +686,28 @@ export async function generateItineraryAuto(
   return generateSampleItinerary(trip);
 }
 
-// List of destinations with real POI data (30 cities)
+// List of destinations with real POI data (63 cities)
 export const DESTINATIONS_WITH_POI_DATA = [
-  // Original 16
-  'paris', 'rome', 'milan', 'dubrovnik', 'lisbon',
-  'barcelona', 'madrid', 'amsterdam', 'vienna', 'munich',
-  'prague', 'budapest', 'florence', 'venice', 'athens', 'london',
-  // Added batch
-  'berlin', 'santorini', 'edinburgh', 'copenhagen', 'dublin',
-  'mykonos', 'seville', 'nice', 'stockholm', 'oslo',
-  'brussels', 'zurich', 'porto', 'split'
+  // Europe - Western
+  'paris', 'london', 'amsterdam', 'brussels', 'dublin', 'edinburgh',
+  // Europe - Southern
+  'rome', 'milan', 'florence', 'venice', 'naples', 'amalfi', 'cinque-terre',
+  'barcelona', 'madrid', 'seville', 'valencia', 'granada', 'malaga', 'ibiza',
+  'lisbon', 'porto', 'athens', 'santorini', 'mykonos',
+  // Europe - Central
+  'berlin', 'munich', 'vienna', 'zurich', 'salzburg', 'prague', 'budapest',
+  'krakow', 'warsaw',
+  // Europe - Nordic & Baltic
+  'copenhagen', 'stockholm', 'oslo', 'helsinki', 'reykjavik',
+  'tallinn', 'riga', 'vilnius',
+  // Europe - Other
+  'dubrovnik', 'split', 'nice', 'lyon', 'marseille',
+  // North America - USA
+  'new-york', 'los-angeles', 'san-francisco', 'chicago', 'miami',
+  'boston', 'seattle', 'las-vegas', 'austin', 'denver',
+  'nashville', 'new-orleans', 'washington-dc',
+  // North America - Canada
+  'toronto', 'montreal', 'vancouver'
 ];
 
 export function hasRealPOIData(destinationId: string): boolean {

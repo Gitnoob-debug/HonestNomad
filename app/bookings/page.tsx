@@ -4,6 +4,7 @@ import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { getUserBookings } from '@/lib/supabase/bookings';
 import { Card, Button } from '@/components/ui';
 import { format } from 'date-fns';
+import DraftTripsSection from '@/components/bookings/DraftTripsSection';
 
 export default async function BookingsPage() {
   const supabase = createServerSupabaseClient();
@@ -18,6 +19,9 @@ export default async function BookingsPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-2xl font-bold text-gray-900 mb-6">My Bookings</h1>
+
+      {/* Unfinished Flash Trips (client-side from localStorage) */}
+      <DraftTripsSection />
 
       {bookings.length === 0 ? (
         <Card className="text-center py-12">

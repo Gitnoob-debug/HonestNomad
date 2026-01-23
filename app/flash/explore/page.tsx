@@ -1,7 +1,7 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
-import { useRouter } from 'next/navigation';
+import { Suspense, useEffect, useState, useCallback } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import { ItineraryMap } from '@/components/flash/ItineraryMap';
 import { Spinner } from '@/components/ui';
@@ -152,10 +152,13 @@ interface ItineraryStop {
   category?: string;
 }
 
-export default function FlashExplorePage() {
+function FlashExploreContent() {
   const { user, loading: authLoading } = useAuth();
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const draftId = searchParams.get('draft');
   const [trip, setTrip] = useState<FlashTripPackage | null>(null);
+  const [loadedFromDraft, setLoadedFromDraft] = useState(false);
   const [step, setStep] = useState<BookingStep>('itinerary'); // Start directly on itinerary
   const [itineraryType, setItineraryType] = useState<ItineraryType>('classic'); // Default to classic
   const [itinerary, setItinerary] = useState<ItineraryDay[]>([]);
@@ -177,29 +180,49 @@ export default function FlashExplorePage() {
   const [selectedFlight, setSelectedFlight] = useState<any>(null);
   const [selectedHotel, setSelectedHotel] = useState<any>(null);
 
-  // Load trip from session storage
+  // Load trip from draft (if resuming) or session storage
   useEffect(() => {
-    const stored = sessionStorage.getItem('flash_selected_trip');
-    if (stored) {
-      try {
-        const tripData = JSON.parse(stored) as FlashTripPackage;
-        setTrip(tripData);
-      } catch (e) {
-        console.error('Failed to parse trip:', e);
+    async function loadTrip() {
+      // If resuming from a draft, load the draft data
+      if (draftId) {
+        const draft = await getDraftTrip(draftId);
+        if (draft) {
+          setTrip(draft.trip);
+          setItinerary(draft.itinerary);
+          setItineraryType(draft.itineraryType as SimplePathChoice);
+          setFavorites(new Set(draft.favorites));
+          setFavoriteStops(draft.favoriteStops);
+          setLoadedFromDraft(true);
+          // Also store in session for consistency
+          sessionStorage.setItem('flash_selected_trip', JSON.stringify(draft.trip));
+          return;
+        }
+      }
+
+      // Otherwise load from session storage (normal flow)
+      const stored = sessionStorage.getItem('flash_selected_trip');
+      if (stored) {
+        try {
+          const tripData = JSON.parse(stored) as FlashTripPackage;
+          setTrip(tripData);
+        } catch (e) {
+          console.error('Failed to parse trip:', e);
+          router.push('/flash');
+        }
+      } else {
         router.push('/flash');
       }
-    } else {
-      router.push('/flash');
     }
-  }, [router]);
+    loadTrip();
+  }, [router, draftId]);
 
-  // Auto-load classic itinerary when trip is loaded
+  // Auto-load classic itinerary when trip is loaded (skip if resuming from draft)
   useEffect(() => {
-    if (trip && itinerary.length === 0 && !isLoadingItinerary) {
+    if (trip && itinerary.length === 0 && !isLoadingItinerary && !loadedFromDraft) {
       loadItinerary('classic');
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [trip]);
+  }, [trip, loadedFromDraft]);
 
   // Auth check
   useEffect(() => {
@@ -210,7 +233,7 @@ export default function FlashExplorePage() {
 
   // Auto-save draft when user makes changes (debounced)
   useEffect(() => {
-    if (!trip?.destination?.city || !trip?.dates?.departure || !itinerary.length || !itineraryType) return;
+    if (!trip?.destination?.city || !trip?.flight?.outbound?.departure || !itinerary.length || !itineraryType) return;
 
     // Debounce the save to avoid too frequent writes
     const saveTimeout = setTimeout(() => {
@@ -227,21 +250,8 @@ export default function FlashExplorePage() {
     return () => clearTimeout(saveTimeout);
   }, [trip, itinerary, itineraryType, favorites, favoriteStops, step]);
 
-  // Load draft on mount if trip matches
-  useEffect(() => {
-    if (!trip?.destination?.city || !trip?.dates?.departure || !trip?.dates?.return) return;
-
-    const destId = trip.destination.city.toLowerCase().replace(/\s+/g, '-');
-    const dateKey = `${trip.dates.departure}-${trip.dates.return}`;
-    const draftId = `${destId}-${dateKey}`;
-
-    const draft = getDraftTrip(draftId);
-    if (draft && draft.favorites.length > 0) {
-      // Restore favorites from draft
-      setFavorites(new Set(draft.favorites));
-      setFavoriteStops(draft.favoriteStops);
-    }
-  }, [trip]);
+  // Note: Draft loading now happens via draftId URL param in the first useEffect
+  // The Supabase-backed draft system uses UUID IDs, so we don't need to match by trip data
 
   const loadItinerary = async (pathType: SimplePathChoice) => {
     if (!trip) return;
@@ -1181,4 +1191,17 @@ export default function FlashExplorePage() {
   }
 
   return null;
+}
+
+// Wrap with Suspense for useSearchParams
+export default function FlashExplorePage() {
+  return (
+    <Suspense fallback={
+      <div className="fixed inset-0 bg-black flex items-center justify-center">
+        <Spinner size="lg" className="text-white" />
+      </div>
+    }>
+      <FlashExploreContent />
+    </Suspense>
+  );
 }

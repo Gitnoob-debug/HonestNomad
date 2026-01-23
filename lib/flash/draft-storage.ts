@@ -1,6 +1,7 @@
 /**
- * Draft Trip Storage - Persists unfinished trip data to localStorage
- * Allows users to continue where they left off, shows as "unfinished trip" in My Bookings
+ * Draft Trip Storage - Persists unfinished trip data to Supabase
+ * Allows users to continue where they left off across devices
+ * Shows as "unfinished trip" in My Bookings
  */
 
 import type { FlashTripPackage } from '@/types/flash';
@@ -11,35 +12,33 @@ export interface DraftTrip {
   trip: FlashTripPackage;
   itinerary: ItineraryDay[];
   itineraryType: string;
-  favorites: string[]; // Array of stop IDs
+  favorites: string[]; // Array of POI IDs
   favoriteStops: any[]; // Full stop data for favorites
   step: string;
   createdAt: string;
   updatedAt: string;
 }
 
-const DRAFT_STORAGE_KEY = 'flash_draft_trips';
-const MAX_DRAFTS = 5; // Keep only the 5 most recent drafts
-
 /**
- * Generate a unique ID for a draft based on trip data
+ * Get all draft trips for the current user
  */
-function generateDraftId(trip: FlashTripPackage): string {
-  const destId = trip.destination.city.toLowerCase().replace(/\s+/g, '-');
-  const dateKey = `${trip.dates.departure}-${trip.dates.return}`;
-  return `${destId}-${dateKey}`;
-}
-
-/**
- * Get all draft trips from localStorage
- */
-export function getDraftTrips(): DraftTrip[] {
-  if (typeof window === 'undefined') return [];
-
+export async function getDraftTrips(): Promise<DraftTrip[]> {
   try {
-    const stored = localStorage.getItem(DRAFT_STORAGE_KEY);
-    if (!stored) return [];
-    return JSON.parse(stored);
+    const response = await fetch('/api/drafts', {
+      method: 'GET',
+      credentials: 'include',
+    });
+
+    if (!response.ok) {
+      if (response.status === 401) {
+        // Not logged in - return empty
+        return [];
+      }
+      throw new Error('Failed to fetch drafts');
+    }
+
+    const data = await response.json();
+    return data.drafts || [];
   } catch (e) {
     console.error('Failed to load draft trips:', e);
     return [];
@@ -49,100 +48,84 @@ export function getDraftTrips(): DraftTrip[] {
 /**
  * Save or update a draft trip
  */
-export function saveDraftTrip(data: {
+export async function saveDraftTrip(data: {
   trip: FlashTripPackage;
   itinerary: ItineraryDay[];
   itineraryType: string;
   favorites: Set<string>;
   favoriteStops: any[];
   step: string;
-}): DraftTrip {
-  const drafts = getDraftTrips();
-  const draftId = generateDraftId(data.trip);
-  const now = new Date().toISOString();
-
-  // Find existing draft or create new
-  const existingIndex = drafts.findIndex(d => d.id === draftId);
-
-  const draft: DraftTrip = {
-    id: draftId,
-    trip: data.trip,
-    itinerary: data.itinerary,
-    itineraryType: data.itineraryType,
-    favorites: Array.from(data.favorites),
-    favoriteStops: data.favoriteStops,
-    step: data.step,
-    createdAt: existingIndex >= 0 ? drafts[existingIndex].createdAt : now,
-    updatedAt: now,
-  };
-
-  if (existingIndex >= 0) {
-    // Update existing
-    drafts[existingIndex] = draft;
-  } else {
-    // Add new draft at beginning
-    drafts.unshift(draft);
-  }
-
-  // Keep only MAX_DRAFTS most recent
-  const trimmed = drafts.slice(0, MAX_DRAFTS);
-
+}): Promise<DraftTrip | null> {
   try {
-    localStorage.setItem(DRAFT_STORAGE_KEY, JSON.stringify(trimmed));
+    const response = await fetch('/api/drafts', {
+      method: 'POST',
+      credentials: 'include',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        trip: data.trip,
+        itinerary: data.itinerary,
+        itineraryType: data.itineraryType,
+        favorites: Array.from(data.favorites),
+        favoriteStops: data.favoriteStops,
+        step: data.step,
+      }),
+    });
+
+    if (!response.ok) {
+      if (response.status === 401) {
+        // Not logged in - silently fail
+        return null;
+      }
+      throw new Error('Failed to save draft');
+    }
+
+    const result = await response.json();
+    return result.draft;
   } catch (e) {
     console.error('Failed to save draft trip:', e);
+    return null;
   }
-
-  return draft;
 }
 
 /**
  * Get a specific draft by ID
  */
-export function getDraftTrip(draftId: string): DraftTrip | null {
-  const drafts = getDraftTrips();
-  return drafts.find(d => d.id === draftId) || null;
-}
+export async function getDraftTrip(draftId: string): Promise<DraftTrip | null> {
+  try {
+    const response = await fetch(`/api/drafts/${draftId}`, {
+      method: 'GET',
+      credentials: 'include',
+    });
 
-/**
- * Get the most recent draft (if any)
- */
-export function getMostRecentDraft(): DraftTrip | null {
-  const drafts = getDraftTrips();
-  return drafts[0] || null;
+    if (!response.ok) {
+      return null;
+    }
+
+    const data = await response.json();
+    return data.draft || null;
+  } catch (e) {
+    console.error('Failed to load draft trip:', e);
+    return null;
+  }
 }
 
 /**
  * Delete a draft trip
  */
-export function deleteDraftTrip(draftId: string): void {
-  const drafts = getDraftTrips();
-  const filtered = drafts.filter(d => d.id !== draftId);
-
+export async function deleteDraftTrip(draftId: string): Promise<boolean> {
   try {
-    localStorage.setItem(DRAFT_STORAGE_KEY, JSON.stringify(filtered));
+    const response = await fetch(`/api/drafts/${draftId}`, {
+      method: 'DELETE',
+      credentials: 'include',
+    });
+
+    return response.ok;
   } catch (e) {
     console.error('Failed to delete draft trip:', e);
+    return false;
   }
-}
-
-/**
- * Delete all draft trips
- */
-export function clearAllDrafts(): void {
-  try {
-    localStorage.removeItem(DRAFT_STORAGE_KEY);
-  } catch (e) {
-    console.error('Failed to clear drafts:', e);
-  }
-}
-
-/**
- * Check if a trip has an existing draft
- */
-export function hasDraft(trip: FlashTripPackage): boolean {
-  const draftId = generateDraftId(trip);
-  return getDraftTrip(draftId) !== null;
 }
 
 /**

@@ -192,29 +192,47 @@ export function ItineraryMap({
       // Create custom marker element
       const el = document.createElement('div');
       el.className = 'itinerary-marker';
+      const isActive = stop.id === activeStopId;
+      const size = isActive ? 44 : 36;
+      const borderWidth = isActive ? 3 : 2;
+
+      // Use image if available, otherwise fall back to emoji
+      const markerContent = stop.imageUrl
+        ? `<img src="${stop.imageUrl}" alt="${stop.name}" style="
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+          " onerror="this.style.display='none'; this.nextSibling.style.display='flex';" />
+          <span style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center; font-size: ${isActive ? 22 : 18}px;">${MARKER_ICONS[stop.type]}</span>`
+        : `<span style="font-size: ${isActive ? 22 : 18}px;">${MARKER_ICONS[stop.type]}</span>`;
+
       el.innerHTML = `
         <div class="marker-content" style="
-          background: ${MARKER_COLORS[stop.type]};
-          width: 36px;
-          height: 36px;
+          background: ${stop.imageUrl ? '#1a1a2e' : MARKER_COLORS[stop.type]};
+          width: ${size}px;
+          height: ${size}px;
           border-radius: 50%;
           display: flex;
           align-items: center;
           justify-content: center;
-          font-size: 18px;
-          box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-          border: 2px solid white;
+          overflow: hidden;
+          box-shadow: ${isActive
+            ? `0 0 20px ${MARKER_COLORS[stop.type]}, 0 4px 12px rgba(0,0,0,0.4)`
+            : '0 4px 12px rgba(0,0,0,0.4)'};
+          border: ${borderWidth}px solid ${MARKER_COLORS[stop.type]};
           cursor: pointer;
           transition: transform 0.2s, box-shadow 0.2s;
+          ${isActive ? 'transform: scale(1.1);' : ''}
         ">
-          ${MARKER_ICONS[stop.type]}
+          ${markerContent}
         </div>
         <div class="marker-label" style="
           position: absolute;
           top: -8px;
           left: -8px;
-          background: white;
-          color: ${MARKER_COLORS[stop.type]};
+          background: ${MARKER_COLORS[stop.type]};
+          color: white;
           width: 20px;
           height: 20px;
           border-radius: 50%;
@@ -228,24 +246,6 @@ export function ItineraryMap({
           ${index + 1}
         </div>
       `;
-
-      // Highlight active marker
-      if (stop.id === activeStopId) {
-        el.querySelector('.marker-content')?.setAttribute('style', `
-          background: ${MARKER_COLORS[stop.type]};
-          width: 44px;
-          height: 44px;
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 22px;
-          box-shadow: 0 0 20px ${MARKER_COLORS[stop.type]}, 0 4px 12px rgba(0,0,0,0.4);
-          border: 3px solid white;
-          cursor: pointer;
-          transform: scale(1.1);
-        `);
-      }
 
       el.addEventListener('click', () => {
         onStopClick?.(stop);

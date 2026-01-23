@@ -417,13 +417,35 @@ export default function FlashExplorePage() {
                     </svg>
                   </button>
                   <div className="flex items-start gap-3 pr-8">
-                    <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-lg flex-shrink-0">
-                      {stop.type === 'landmark' && '🏛️'}
-                      {stop.type === 'restaurant' && '🍽️'}
-                      {stop.type === 'activity' && '🎯'}
-                      {stop.type === 'accommodation' && '🏨'}
-                      {stop.type === 'transport' && '✈️'}
-                    </div>
+                    {stop.imageUrl ? (
+                      <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 ring-2 ring-white/20">
+                        <img
+                          src={stop.imageUrl}
+                          alt={stop.name}
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            // Fallback to emoji on image error
+                            const parent = e.currentTarget.parentElement;
+                            if (parent) {
+                              parent.innerHTML = `<div class="w-full h-full bg-white/20 flex items-center justify-center text-lg">${
+                                stop.type === 'landmark' ? '🏛️' :
+                                stop.type === 'restaurant' ? '🍽️' :
+                                stop.type === 'activity' ? '🎯' :
+                                stop.type === 'accommodation' ? '🏨' : '✈️'
+                              }</div>`;
+                            }
+                          }}
+                        />
+                      </div>
+                    ) : (
+                      <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-lg flex-shrink-0">
+                        {stop.type === 'landmark' && '🏛️'}
+                        {stop.type === 'restaurant' && '🍽️'}
+                        {stop.type === 'activity' && '🎯'}
+                        {stop.type === 'accommodation' && '🏨'}
+                        {stop.type === 'transport' && '✈️'}
+                      </div>
+                    )}
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="text-white/50 text-xs">#{index + 1}</span>
@@ -510,13 +532,34 @@ export default function FlashExplorePage() {
               )}
 
               <div className="flex items-start gap-4 mb-4">
-                <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-2xl flex-shrink-0">
-                  {activeStop.type === 'landmark' && '🏛️'}
-                  {activeStop.type === 'restaurant' && '🍽️'}
-                  {activeStop.type === 'activity' && '🎯'}
-                  {activeStop.type === 'accommodation' && '🏨'}
-                  {activeStop.type === 'transport' && '✈️'}
-                </div>
+                {activeStop.imageUrl ? (
+                  <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 ring-2 ring-white/20">
+                    <img
+                      src={activeStop.imageUrl}
+                      alt={activeStop.name}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        const parent = e.currentTarget.parentElement;
+                        if (parent) {
+                          parent.innerHTML = `<div class="w-full h-full bg-white/10 flex items-center justify-center text-2xl">${
+                            activeStop.type === 'landmark' ? '🏛️' :
+                            activeStop.type === 'restaurant' ? '🍽️' :
+                            activeStop.type === 'activity' ? '🎯' :
+                            activeStop.type === 'accommodation' ? '🏨' : '✈️'
+                          }</div>`;
+                        }
+                      }}
+                    />
+                  </div>
+                ) : (
+                  <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-2xl flex-shrink-0">
+                    {activeStop.type === 'landmark' && '🏛️'}
+                    {activeStop.type === 'restaurant' && '🍽️'}
+                    {activeStop.type === 'activity' && '🎯'}
+                    {activeStop.type === 'accommodation' && '🏨'}
+                    {activeStop.type === 'transport' && '✈️'}
+                  </div>
+                )}
                 <div className="flex-1">
                   <h2 className="text-white text-xl font-bold">{activeStop.name}</h2>
 
@@ -601,13 +644,23 @@ export default function FlashExplorePage() {
                               : 'bg-white/10 hover:bg-white/20'
                           }`}
                         >
-                          <span className="text-base">
-                            {stop.type === 'landmark' && '🏛️'}
-                            {stop.type === 'restaurant' && '🍽️'}
-                            {stop.type === 'activity' && '🎯'}
-                            {stop.type === 'accommodation' && '🏨'}
-                            {stop.type === 'transport' && '✈️'}
-                          </span>
+                          {stop.imageUrl ? (
+                            <div className="w-6 h-6 rounded-full overflow-hidden flex-shrink-0">
+                              <img
+                                src={stop.imageUrl}
+                                alt={stop.name}
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
+                          ) : (
+                            <span className="text-base">
+                              {stop.type === 'landmark' && '🏛️'}
+                              {stop.type === 'restaurant' && '🍽️'}
+                              {stop.type === 'activity' && '🎯'}
+                              {stop.type === 'accommodation' && '🏨'}
+                              {stop.type === 'transport' && '✈️'}
+                            </span>
+                          )}
                           <span className="text-white/80 truncate max-w-[120px]">{stop.name}</span>
                           <span className="text-white/40 text-xs">{formatDistance(distance)}</span>
                           {favorites.has(stop.id) && (

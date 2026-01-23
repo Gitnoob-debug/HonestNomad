@@ -90,6 +90,12 @@ export function useFlashVacation() {
       const stored = sessionStorage.getItem(TRIPS_STORAGE_KEY);
       if (stored) {
         const data = JSON.parse(stored);
+        console.log('[LazyLoad] Loaded from session:', {
+          tripsCount: data.trips?.length,
+          currentIndex: data.currentTripIndex,
+          hasParams: !!data.lastGenerateParams,
+          hasLoadedMore: data.hasLoadedMore
+        });
         setState(prev => ({
           ...prev,
           sessionId: data.sessionId,
@@ -302,6 +308,20 @@ export function useFlashVacation() {
     const LOAD_MORE_THRESHOLD = 3; // When at card 4 (0-indexed as 3)
     const INITIAL_BATCH_SIZE = 8;
 
+    // Debug logging for lazy load
+    console.log('[LazyLoad] Check:', {
+      currentIndex: state.currentTripIndex,
+      tripsLength: state.trips.length,
+      isLoadingMore: state.isLoadingMore,
+      hasLoadedMore: state.hasLoadedMore,
+      hasParams: !!state.lastGenerateParams,
+      shouldTrigger: state.currentTripIndex >= LOAD_MORE_THRESHOLD &&
+        state.trips.length === INITIAL_BATCH_SIZE &&
+        !state.isLoadingMore &&
+        !state.hasLoadedMore &&
+        !!state.lastGenerateParams
+    });
+
     // Only trigger if:
     // 1. User has reached the threshold
     // 2. We have exactly the initial batch (haven't loaded more yet)
@@ -314,6 +334,7 @@ export function useFlashVacation() {
       !state.hasLoadedMore &&
       state.lastGenerateParams
     ) {
+      console.log('[LazyLoad] Triggering loadMoreTrips!');
       loadMoreTrips();
     }
   }, [state.currentTripIndex, state.trips.length, state.isLoadingMore, state.hasLoadedMore, state.lastGenerateParams, loadMoreTrips]);

@@ -1,13 +1,16 @@
 /**
- * Unsplash Image Migration Script - Batch Downloader
+ * Unsplash Image Migration Script - High Quality Batch Downloader
  *
- * Downloads images locally for review before uploading to Supabase.
- * Alternates between popular (30 imgs) and regular (20 imgs) destinations.
+ * Downloads FULL RESOLUTION images with maximum variety per destination.
+ * - 50 images per destination (uses full hourly API quota)
+ * - Full resolution downloads (~2-3MB each)
+ * - 10 different query categories for variety (landmarks, food, nightlife, etc.)
+ * - One destination per hour = ~17 days for 410 destinations
  *
- * Run with: UNSPLASH_ACCESS_KEY=xxx npx tsx scripts/image-migration/migrate-images.ts
+ * Run with: npx tsx scripts/image-migration/migrate-images.ts --continuous
  *
  * Commands:
- *   (default)    Run one batch (50 API calls = 1 popular + 1 regular destination)
+ *   (default)    Run one batch (1 destination = 50 images)
  *   --init       Initialize the queue (run first time only)
  *   --status     Show current progress
  *   --continuous Run continuously with auto-wait between batches
@@ -22,9 +25,10 @@ import { DESTINATIONS } from '../../lib/flash/destinations';
 
 // Load environment variables from .env.local
 dotenv.config({ path: path.join(process.cwd(), '.env.local') });
+
 import {
   CONFIG,
-  POPULAR_DESTINATIONS,
+  QUERY_CATEGORIES,
   Progress,
   Manifest,
   DestinationImages,
@@ -43,21 +47,6 @@ const CONTINUOUS = args.includes('--continuous');
 const PROGRESS_PATH = path.join(process.cwd(), CONFIG.PROGRESS_FILE);
 const MANIFEST_PATH = path.join(process.cwd(), CONFIG.MANIFEST_FILE);
 const IMAGES_DIR = path.join(process.cwd(), CONFIG.IMAGES_DIR);
-const SEARCH_TERMS_PATH = path.join(process.cwd(), 'scripts/image-migration/search-terms.json');
-
-// Load curated search terms
-interface SearchTermsData {
-  [id: string]: { city: string; country: string; terms: string[] };
-}
-let SEARCH_TERMS: SearchTermsData = {};
-try {
-  if (fs.existsSync(SEARCH_TERMS_PATH)) {
-    SEARCH_TERMS = JSON.parse(fs.readFileSync(SEARCH_TERMS_PATH, 'utf-8'));
-    console.log(`📋 Loaded curated search terms for ${Object.keys(SEARCH_TERMS).length} destinations\n`);
-  }
-} catch (e) {
-  console.warn('⚠️ Could not load search-terms.json, using fallback queries\n');
-}
 
 // Initialize Unsplash client
 const unsplash = createApi({
@@ -75,7 +64,7 @@ function loadProgress(): Progress {
       return JSON.parse(fs.readFileSync(PROGRESS_PATH, 'utf-8'));
     }
   } catch (e) {
-    console.warn('⚠️ Could not load progress, starting fresh');
+    console.warn('Could not load progress, starting fresh');
   }
   return { ...INITIAL_PROGRESS };
 }
@@ -92,7 +81,7 @@ function loadManifest(): Manifest {
       return JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf-8'));
     }
   } catch (e) {
-    console.warn('⚠️ Could not load manifest, starting fresh');
+    console.warn('Could not load manifest, starting fresh');
   }
   return { ...INITIAL_MANIFEST };
 }
@@ -107,42 +96,15 @@ function saveManifest(manifest: Manifest): void {
 // ============================================
 
 function initializeQueue(): Progress {
-  console.log('📋 Initializing queue with alternating popular/regular pattern...\n');
+  console.log('\n📋 Initializing queue...\n');
 
-  const popular: string[] = [];
-  const regular: string[] = [];
-
-  // Sort destinations into popular and regular
-  for (const dest of DESTINATIONS) {
-    if (POPULAR_DESTINATIONS.has(dest.id)) {
-      popular.push(dest.id);
-    } else {
-      regular.push(dest.id);
-    }
-  }
-
-  console.log(`   Popular destinations: ${popular.length}`);
-  console.log(`   Regular destinations: ${regular.length}`);
-
-  // Build alternating queue: 1 popular (30 imgs) + 1 regular (20 imgs) = 50 requests
-  const queue: { destId: string; isPopular: boolean }[] = [];
-  const maxPairs = Math.max(popular.length, regular.length);
-
-  for (let i = 0; i < maxPairs; i++) {
-    // Add popular first (if available)
-    if (i < popular.length) {
-      queue.push({ destId: popular[i], isPopular: true });
-    }
-    // Then regular
-    if (i < regular.length) {
-      queue.push({ destId: regular[i], isPopular: false });
-    }
-  }
+  // Simple queue: all destinations, one per batch
+  const queue: string[] = DESTINATIONS.map(d => d.id);
 
   const progress: Progress = {
     ...INITIAL_PROGRESS,
     queue,
-    totalBatches: Math.ceil(queue.length / 2), // 2 destinations per batch
+    totalBatches: queue.length, // One destination per batch
     stats: {
       ...INITIAL_PROGRESS.stats,
       totalDestinations: DESTINATIONS.length,
@@ -151,56 +113,37 @@ function initializeQueue(): Progress {
 
   saveProgress(progress);
 
-  console.log(`\n✅ Queue initialized with ${queue.length} destinations`);
-  console.log(`   Total batches needed: ${progress.totalBatches}`);
-  console.log(`   Estimated time: ~${(progress.totalBatches * 70 / 60).toFixed(1)} hours\n`);
+  const estimatedHours = queue.length * 1.05; // ~1 hour per destination + buffer
+  const estimatedDays = (estimatedHours / 24).toFixed(1);
+
+  console.log(`✅ Queue initialized with ${queue.length} destinations`);
+  console.log(`   Images per destination: ${CONFIG.IMAGES_PER_DESTINATION}`);
+  console.log(`   Total images to download: ~${queue.length * CONFIG.IMAGES_PER_DESTINATION}`);
+  console.log(`   Estimated storage: ~${((queue.length * CONFIG.IMAGES_PER_DESTINATION * 2) / 1024).toFixed(1)} GB`);
+  console.log(`   Estimated time: ~${estimatedDays} days\n`);
 
   return progress;
 }
 
 // ============================================
-// Search query builder - uses CURATED search terms
+// Search query builder - VARIETY focused
 // ============================================
 
-// Max queries per destination to stay within rate limits
-// Popular: 30 imgs / 5 queries = 6 per query
-// Regular: 20 imgs / 4 queries = 5 per query
-const MAX_QUERIES_POPULAR = 5;
-const MAX_QUERIES_REGULAR = 4;
-
-function buildSearchQueries(dest: typeof DESTINATIONS[0], totalImages: number, isPopular: boolean): { query: string; count: number }[] {
+function buildSearchQueries(dest: typeof DESTINATIONS[0]): { query: string; count: number }[] {
   const queries: { query: string; count: number }[] = [];
+  const baseLocation = `${dest.city} ${dest.country}`;
 
-  // Use curated search terms if available
-  const curated = SEARCH_TERMS[dest.id];
-  let terms: string[] = [];
+  // Use 10 different query categories for maximum variety
+  // Each gets 5 images (10 categories x 5 = 50 images = full hourly quota)
+  const imagesPerCategory = Math.floor(CONFIG.IMAGES_PER_DESTINATION / QUERY_CATEGORIES.length);
+  let remainder = CONFIG.IMAGES_PER_DESTINATION % QUERY_CATEGORIES.length;
 
-  if (curated && curated.terms && curated.terms.length > 0) {
-    terms = curated.terms;
-  } else {
-    // Fallback: use highlights + generic terms
-    const baseTerms = `${dest.city} ${dest.country}`;
-    if (dest.highlights && dest.highlights.length > 0) {
-      terms = dest.highlights.slice(0, 3).map(h => `${baseTerms} ${h}`);
-    }
-    terms.push(`${baseTerms} landmarks`);
-    terms.push(`${baseTerms} scenic`);
-  }
-
-  // Limit number of queries based on destination type
-  const maxQueries = isPopular ? MAX_QUERIES_POPULAR : MAX_QUERIES_REGULAR;
-  const numQueries = Math.min(terms.length, maxQueries);
-
-  // Distribute images across queries
-  const imagesPerQuery = Math.floor(totalImages / numQueries);
-  let remainder = totalImages % numQueries;
-
-  for (let i = 0; i < numQueries; i++) {
-    const count = imagesPerQuery + (remainder > 0 ? 1 : 0);
+  for (const category of QUERY_CATEGORIES) {
+    const count = imagesPerCategory + (remainder > 0 ? 1 : 0);
     if (remainder > 0) remainder--;
 
     queries.push({
-      query: terms[i],
+      query: `${baseLocation} ${category}`,
       count,
     });
   }
@@ -209,7 +152,7 @@ function buildSearchQueries(dest: typeof DESTINATIONS[0], totalImages: number, i
 }
 
 // ============================================
-// Image download
+// Image download - FULL RESOLUTION
 // ============================================
 
 async function downloadImage(url: string, filepath: string): Promise<boolean> {
@@ -222,45 +165,47 @@ async function downloadImage(url: string, filepath: string): Promise<boolean> {
     fs.writeFileSync(filepath, buffer);
     return true;
   } catch (error: any) {
-    console.error(`   ❌ Download failed: ${error.message}`);
+    console.error(`      Download failed: ${error.message}`);
     return false;
   }
 }
 
 async function fetchAndDownloadImages(
   dest: typeof DESTINATIONS[0],
-  imageCount: number,
-  isPopular: boolean,
   manifest: Manifest
 ): Promise<DestinationImages | null> {
   const destDir = path.join(IMAGES_DIR, dest.id);
-  const queries = buildSearchQueries(dest, imageCount, isPopular);
+  const queries = buildSearchQueries(dest);
   const seenIds = new Set<string>(); // Track to avoid duplicates across queries
 
-  console.log(`   🔍 Running ${queries.length} varied searches for diversity...`);
+  console.log(`\n   🔍 Running ${queries.length} varied searches for maximum diversity...`);
 
   const images: ImageRecord[] = [];
   let imageIndex = 0;
+  let apiCallsUsed = 0;
 
   for (const { query, count } of queries) {
-    console.log(`      "${query}" (${count} images)`);
+    // Extract category from query for logging
+    const category = query.replace(`${dest.city} ${dest.country} `, '');
+    console.log(`      [${category}] requesting ${count} images...`);
 
     try {
       const result = await unsplash.search.getPhotos({
         query,
         page: 1,
-        perPage: count + 5, // Request extra to account for duplicates
-        orientation: 'portrait',
+        perPage: count + 3, // Request extra to account for duplicates
+        orientation: 'landscape', // Better for cards and hero images
       });
+      apiCallsUsed++;
 
       if (result.errors) {
-        console.error(`      ❌ API Error: ${result.errors.join(', ')}`);
+        console.error(`         API Error: ${result.errors.join(', ')}`);
         continue;
       }
 
       const photos = result.response?.results || [];
       if (photos.length === 0) {
-        console.warn(`      ⚠️ No results`);
+        console.warn(`         No results`);
         continue;
       }
 
@@ -274,7 +219,8 @@ async function fetchAndDownloadImages(
         const filename = `${dest.id}-${String(imageIndex).padStart(3, '0')}.jpg`;
         const filepath = path.join(destDir, filename);
 
-        const success = await downloadImage(photo.urls.regular, filepath);
+        // Use FULL resolution for maximum quality
+        const success = await downloadImage(photo.urls.full, filepath);
 
         if (success) {
           // Trigger download event for Unsplash stats (required by API terms)
@@ -294,22 +240,27 @@ async function fetchAndDownloadImages(
             downloadedAt: new Date().toISOString(),
             validated: false,
             validationStatus: 'pending',
+            queryUsed: category,
           });
 
           downloaded++;
         }
 
-        // Small delay between downloads
-        await new Promise(r => setTimeout(r, 100));
+        // Small delay between downloads to be nice to Unsplash
+        await new Promise(r => setTimeout(r, 150));
       }
 
-      console.log(`      ✅ ${downloaded} downloaded`);
+      console.log(`         ✅ ${downloaded} downloaded`);
     } catch (error: any) {
-      console.error(`      ❌ Error: ${error.message}`);
+      console.error(`         Error: ${error.message}`);
     }
+
+    // Small delay between API calls
+    await new Promise(r => setTimeout(r, 200));
   }
 
-  console.log(`   📸 Total: ${images.length} images downloaded`);
+  console.log(`\n   📸 Total: ${images.length} full-resolution images downloaded`);
+  console.log(`   🔧 API calls used: ${apiCallsUsed}/${CONFIG.REQUESTS_PER_HOUR}`);
 
   if (images.length === 0) {
     return null;
@@ -319,7 +270,6 @@ async function fetchAndDownloadImages(
     destinationId: dest.id,
     city: dest.city,
     country: dest.country,
-    isPopular: POPULAR_DESTINATIONS.has(dest.id),
     imageCount: images.length,
     images,
     completedAt: new Date().toISOString(),
@@ -328,7 +278,7 @@ async function fetchAndDownloadImages(
 }
 
 // ============================================
-// Batch processing
+// Batch processing - ONE destination per batch
 // ============================================
 
 async function runBatch(progress: Progress, manifest: Manifest): Promise<void> {
@@ -352,61 +302,53 @@ async function runBatch(progress: Progress, manifest: Manifest): Promise<void> {
     }
   }
 
-  // Get next 2 destinations from queue (1 popular + 1 regular = 50 requests)
-  const batch = progress.queue.splice(0, 2);
+  // Get next destination from queue
+  const destId = progress.queue.shift();
 
-  if (batch.length === 0) {
-    console.log('\n✅ All destinations have been processed!');
+  if (!destId) {
+    console.log('\n🎉 ALL DESTINATIONS COMPLETE!');
     console.log('   Run: npx tsx scripts/image-migration/generate-preview.ts');
     console.log('   To generate the review page.\n');
     return;
   }
 
-  progress.currentBatch++;
-  console.log('\n' + '='.repeat(60));
-  console.log(`📦 BATCH ${progress.currentBatch}/${progress.totalBatches}`);
-  console.log('='.repeat(60));
-
-  let totalImagesThisBatch = 0;
-
-  for (const item of batch) {
-    const dest = DESTINATIONS.find(d => d.id === item.destId);
-    if (!dest) {
-      console.warn(`⚠️ Destination not found: ${item.destId}`);
-      continue;
-    }
-
-    const imageCount = item.isPopular
-      ? CONFIG.POPULAR_DESTINATION_IMAGES
-      : CONFIG.REGULAR_DESTINATION_IMAGES;
-
-    console.log(`\n📍 ${dest.city}, ${dest.country} ${item.isPopular ? '⭐' : ''} (${imageCount} images)`);
-
-    const result = await fetchAndDownloadImages(dest, imageCount, item.isPopular, manifest);
-
-    if (result) {
-      manifest.destinations[dest.id] = result;
-      progress.completed.push(dest.id);
-      progress.pendingReview.push(dest.id);
-      progress.stats.totalImagesDownloaded += result.imageCount;
-      totalImagesThisBatch += result.imageCount;
-    }
-
+  const dest = DESTINATIONS.find(d => d.id === destId);
+  if (!dest) {
+    console.warn(`⚠️ Destination not found: ${destId}`);
     saveProgress(progress);
-    saveManifest(manifest);
+    return;
+  }
+
+  progress.currentBatch++;
+  console.log('\n' + '='.repeat(70));
+  console.log(`📍 BATCH ${progress.currentBatch}/${progress.totalBatches}: ${dest.city}, ${dest.country}`);
+  console.log('='.repeat(70));
+  console.log(`   Target: ${CONFIG.IMAGES_PER_DESTINATION} full-resolution images`);
+
+  const result = await fetchAndDownloadImages(dest, manifest);
+
+  if (result) {
+    manifest.destinations[dest.id] = result;
+    progress.completed.push(dest.id);
+    progress.pendingReview.push(dest.id);
+    progress.stats.totalImagesDownloaded += result.imageCount;
   }
 
   // Set cooldown
   progress.lastBatchCompletedAt = new Date().toISOString();
   progress.nextBatchAvailableAt = new Date(Date.now() + CONFIG.BATCH_COOLDOWN_MS).toISOString();
-  saveProgress(progress);
 
-  console.log('\n' + '-'.repeat(60));
-  console.log(`✅ Batch complete! Downloaded ${totalImagesThisBatch} images`);
-  console.log(`   Progress: ${progress.completed.length}/${progress.stats.totalDestinations} destinations`);
-  console.log(`   Remaining: ${progress.queue.length} destinations in queue`);
-  console.log(`   Next batch available: ${new Date(progress.nextBatchAvailableAt).toLocaleTimeString()}`);
-  console.log('-'.repeat(60) + '\n');
+  saveProgress(progress);
+  saveManifest(manifest);
+
+  const pct = ((progress.completed.length / progress.stats.totalDestinations) * 100).toFixed(1);
+  console.log('\n' + '-'.repeat(70));
+  console.log(`✅ Batch complete!`);
+  console.log(`   Progress: ${progress.completed.length}/${progress.stats.totalDestinations} destinations (${pct}%)`);
+  console.log(`   Total images: ${progress.stats.totalImagesDownloaded}`);
+  console.log(`   Remaining: ${progress.queue.length} destinations`);
+  console.log(`   Next batch: ${new Date(progress.nextBatchAvailableAt).toLocaleTimeString()}`);
+  console.log('-'.repeat(70) + '\n');
 }
 
 // ============================================
@@ -414,24 +356,30 @@ async function runBatch(progress: Progress, manifest: Manifest): Promise<void> {
 // ============================================
 
 function showStatus(progress: Progress): void {
-  console.log('\n' + '='.repeat(60));
-  console.log('📊 IMAGE MIGRATION STATUS');
-  console.log('='.repeat(60));
+  console.log('\n' + '='.repeat(70));
+  console.log('📊 IMAGE MIGRATION STATUS - Full Resolution Mode');
+  console.log('='.repeat(70));
 
-  const pct = ((progress.completed.length / progress.stats.totalDestinations) * 100).toFixed(1);
-  console.log(`\n📈 Progress: ${progress.completed.length}/${progress.stats.totalDestinations} (${pct}%)`);
+  const pct = progress.stats.totalDestinations > 0
+    ? ((progress.completed.length / progress.stats.totalDestinations) * 100).toFixed(1)
+    : '0';
+
+  console.log(`\n📈 Progress: ${progress.completed.length}/${progress.stats.totalDestinations} destinations (${pct}%)`);
 
   // Progress bar
-  const barWidth = 40;
-  const filled = Math.round((progress.completed.length / progress.stats.totalDestinations) * barWidth);
+  const barWidth = 50;
+  const filled = progress.stats.totalDestinations > 0
+    ? Math.round((progress.completed.length / progress.stats.totalDestinations) * barWidth)
+    : 0;
   console.log(`   [${'█'.repeat(filled)}${'░'.repeat(barWidth - filled)}]`);
 
-  console.log(`\n   📦 Batches: ${progress.currentBatch}/${progress.totalBatches}`);
-  console.log(`   📸 Images downloaded: ${progress.stats.totalImagesDownloaded}`);
-  console.log(`   ⏳ Pending review: ${progress.pendingReview.length}`);
-  console.log(`   ✅ Approved: ${progress.approved.length}`);
-  console.log(`   ❌ Rejected: ${progress.rejected.length}`);
-  console.log(`   📋 Queue: ${progress.queue.length} remaining`);
+  console.log(`\n   📸 Total images: ${progress.stats.totalImagesDownloaded}`);
+  console.log(`   💾 Est. storage: ~${((progress.stats.totalImagesDownloaded * 2) / 1024).toFixed(2)} GB`);
+  console.log(`   📋 Queue remaining: ${progress.queue.length}`);
+
+  const estimatedHoursLeft = progress.queue.length * 1.05;
+  const estimatedDaysLeft = (estimatedHoursLeft / 24).toFixed(1);
+  console.log(`   ⏱️  Est. time remaining: ~${estimatedDaysLeft} days`);
 
   if (progress.nextBatchAvailableAt) {
     const nextTime = new Date(progress.nextBatchAvailableAt);
@@ -447,15 +395,29 @@ function showStatus(progress: Progress): void {
   // Show next up
   if (progress.queue.length > 0) {
     console.log('\n📋 Next up:');
-    progress.queue.slice(0, 4).forEach((item, i) => {
-      const dest = DESTINATIONS.find(d => d.id === item.destId);
+    progress.queue.slice(0, 5).forEach((destId, i) => {
+      const dest = DESTINATIONS.find(d => d.id === destId);
       if (dest) {
-        console.log(`   ${i + 1}. ${dest.city}, ${dest.country} ${item.isPopular ? '⭐' : ''}`);
+        console.log(`   ${i + 1}. ${dest.city}, ${dest.country}`);
+      }
+    });
+    if (progress.queue.length > 5) {
+      console.log(`   ... and ${progress.queue.length - 5} more`);
+    }
+  }
+
+  // Show recent completions
+  if (progress.completed.length > 0) {
+    console.log('\n✅ Recently completed:');
+    progress.completed.slice(-5).reverse().forEach((destId) => {
+      const dest = DESTINATIONS.find(d => d.id === destId);
+      if (dest) {
+        console.log(`   • ${dest.city}, ${dest.country}`);
       }
     });
   }
 
-  console.log('\n' + '='.repeat(60) + '\n');
+  console.log('\n' + '='.repeat(70) + '\n');
 }
 
 // ============================================
@@ -463,7 +425,11 @@ function showStatus(progress: Progress): void {
 // ============================================
 
 async function main(): Promise<void> {
-  console.log('\n📸 UNSPLASH IMAGE MIGRATION\n');
+  console.log('\n🖼️  UNSPLASH IMAGE MIGRATION - Full Resolution Mode\n');
+  console.log('   • 50 images per destination');
+  console.log('   • Full resolution (~2MB each)');
+  console.log('   • 10 query categories for variety');
+  console.log('   • One destination per hour\n');
 
   // Check API key
   if (!process.env.UNSPLASH_ACCESS_KEY && !STATUS && !INIT) {
@@ -475,8 +441,8 @@ async function main(): Promise<void> {
   let progress = loadProgress();
   const manifest = loadManifest();
 
-  // Initialize queue
-  if (INIT || progress.queue.length === 0 && progress.completed.length === 0) {
+  // Initialize queue if needed
+  if (INIT || (progress.queue.length === 0 && progress.completed.length === 0)) {
     progress = initializeQueue();
   }
 
@@ -493,6 +459,7 @@ async function main(): Promise<void> {
       await runBatch(progress, manifest);
       progress = loadProgress(); // Reload in case of changes
     }
+    console.log('\n🎉 Migration complete! All destinations processed.\n');
   } else {
     await runBatch(progress, manifest);
   }

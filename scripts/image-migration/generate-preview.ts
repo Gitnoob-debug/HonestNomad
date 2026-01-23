@@ -202,7 +202,6 @@ function generateHTML(manifest: Manifest, progress: Progress): string {
         <div class="destination-header">
           <h2 class="destination-title">
             ${dest.city}, ${dest.country}
-            ${dest.isPopular ? '<span class="popular">⭐</span>' : ''}
           </h2>
           <span class="destination-status status-pending" data-status="pending">
             Pending Review

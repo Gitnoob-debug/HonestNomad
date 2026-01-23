@@ -265,6 +265,13 @@ function FlashExploreContent() {
     try {
       // Use the new async generator that loads real POI data
       const generated = await generateItineraryAuto(trip, pathType);
+      // Debug: Log the first stop to see if imageUrl is present
+      console.log('[Explore] Generated itinerary:', {
+        days: generated.length,
+        totalStops: generated.reduce((sum, day) => sum + day.stops.length, 0),
+        firstStop: generated[0]?.stops[0],
+        hasImageUrl: generated[0]?.stops[0]?.imageUrl ? 'YES' : 'NO',
+      });
       setItinerary(generated);
     } catch (error) {
       console.error('Failed to generate itinerary:', error);

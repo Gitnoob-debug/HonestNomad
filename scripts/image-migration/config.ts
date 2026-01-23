@@ -1,13 +1,13 @@
 // Image migration configuration
+// UPDATED: Full resolution, 50 images per destination, one city per hour
 
 export const CONFIG = {
   // Unsplash rate limits
   REQUESTS_PER_HOUR: 50,
-  BATCH_COOLDOWN_MS: 63 * 60 * 1000, // 1hr 3min between batches
+  BATCH_COOLDOWN_MS: 63 * 60 * 1000, // 1hr 3min between batches (safety margin)
 
-  // Image counts per destination
-  POPULAR_DESTINATION_IMAGES: 30,
-  REGULAR_DESTINATION_IMAGES: 20,
+  // Image counts - ALL destinations get 50 images (full hourly quota)
+  IMAGES_PER_DESTINATION: 50,
 
   // Local storage paths
   PROGRESS_FILE: 'scripts/image-migration/progress.json',
@@ -15,28 +15,24 @@ export const CONFIG = {
   IMAGES_DIR: 'scripts/image-migration/downloaded-images',
   PREVIEW_FILE: 'scripts/image-migration/preview.html',
 
-  // Image specs for download
-  IMAGE_SIZE: 'regular', // Unsplash size: small, regular, full
+  // Image specs for download - FULL RESOLUTION for maximum quality
+  IMAGE_SIZE: 'full' as const, // Unsplash size: small, regular, full, raw
 };
 
-// Popular destinations get 30 images (high-traffic cities)
-export const POPULAR_DESTINATIONS = new Set([
-  // Major world cities
-  'paris', 'london', 'rome', 'barcelona', 'amsterdam', 'new-york', 'tokyo',
-  'los-angeles', 'miami', 'las-vegas', 'san-francisco', 'chicago', 'boston',
-  'dubai', 'singapore', 'hong-kong', 'bangkok', 'bali', 'sydney', 'melbourne',
-
-  // Top vacation spots
-  'cancun', 'hawaii', 'maui', 'santorini', 'mykonos', 'maldives', 'fiji',
-  'bora-bora', 'turks-caicos', 'bahamas', 'jamaica', 'aruba', 'st-lucia',
-
-  // European favorites
-  'florence', 'venice', 'amalfi', 'cinque-terre', 'lisbon', 'prague',
-  'vienna', 'dublin', 'edinburgh', 'swiss-alps', 'ibiza', 'nice',
-
-  // Adventure/nature
-  'reykjavik', 'costa-rica', 'new-zealand', 'patagonia', 'cape-town',
-]);
+// Search query categories for variety within each destination
+// Each destination will use multiple different query angles
+export const QUERY_CATEGORIES = [
+  'landmarks iconic',           // Famous landmarks
+  'architecture buildings',     // Architecture
+  'street life people',         // Street scenes
+  'nature landscape scenic',    // Nature/parks
+  'food restaurant cafe',       // Food & dining
+  'night lights evening',       // Nighttime shots
+  'aerial skyline view',        // Aerial/skyline
+  'historic old town',          // Historic areas
+  'modern contemporary',        // Modern architecture
+  'local culture authentic',    // Local culture
+];
 
 // Types
 export interface ImageRecord {
@@ -49,13 +45,13 @@ export interface ImageRecord {
   downloadedAt: string;
   validated: boolean;
   validationStatus: 'pending' | 'approved' | 'rejected' | null;
+  queryUsed: string; // Track which query found this image
 }
 
 export interface DestinationImages {
   destinationId: string;
   city: string;
   country: string;
-  isPopular: boolean;
   imageCount: number;
   images: ImageRecord[];
   completedAt: string | null;
@@ -71,7 +67,7 @@ export interface Progress {
   lastUpdated: string;
   currentBatch: number;
   totalBatches: number;
-  queue: { destId: string; isPopular: boolean }[];
+  queue: string[]; // Just destination IDs now (no popular/regular distinction)
   completed: string[];
   pendingReview: string[];
   approved: string[];

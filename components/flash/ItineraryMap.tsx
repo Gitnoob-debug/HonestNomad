@@ -207,19 +207,23 @@ export function ItineraryMap({
 
       // Use image if available, otherwise fall back to emoji
       const proxiedImageUrl = getProxiedImageUrl(stop.imageUrl);
+      const markerColor = MARKER_COLORS[stop.type];
+
+      // For image markers, we use a dark background that shows through loading state
+      // On image error, we change the background to the type color and show emoji
       const markerContent = proxiedImageUrl
         ? `<img src="${proxiedImageUrl}" alt="${stop.name}" style="
             width: 100%;
             height: 100%;
             object-fit: cover;
             border-radius: 50%;
-          " onerror="this.style.display='none'; this.nextSibling.style.display='flex';" />
+          " onerror="this.style.display='none'; this.nextSibling.style.display='flex'; this.parentElement.style.background='${markerColor}';" />
           <span style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center; font-size: ${isActive ? 22 : 18}px;">${MARKER_ICONS[stop.type]}</span>`
         : `<span style="font-size: ${isActive ? 22 : 18}px;">${MARKER_ICONS[stop.type]}</span>`;
 
       el.innerHTML = `
         <div class="marker-content" style="
-          background: ${proxiedImageUrl ? '#1a1a2e' : MARKER_COLORS[stop.type]};
+          background: ${proxiedImageUrl ? '#1a1a2e' : markerColor};
           width: ${size}px;
           height: ${size}px;
           border-radius: 50%;
@@ -228,9 +232,9 @@ export function ItineraryMap({
           justify-content: center;
           overflow: hidden;
           box-shadow: ${isActive
-            ? `0 0 20px ${MARKER_COLORS[stop.type]}, 0 4px 12px rgba(0,0,0,0.4)`
+            ? `0 0 20px ${markerColor}, 0 4px 12px rgba(0,0,0,0.4)`
             : '0 4px 12px rgba(0,0,0,0.4)'};
-          border: ${borderWidth}px solid ${MARKER_COLORS[stop.type]};
+          border: ${borderWidth}px solid ${markerColor};
           cursor: pointer;
           transition: transform 0.2s, box-shadow 0.2s;
           ${isActive ? 'transform: scale(1.1);' : ''}

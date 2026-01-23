@@ -8,7 +8,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { DESTINATIONS } from '../../lib/flash/destinations';
-import { CONFIG, POPULAR_DESTINATIONS, Progress } from './config';
+import { CONFIG, Progress } from './config';
 
 function loadProgress(): Progress | null {
   const progressPath = path.join(process.cwd(), CONFIG.PROGRESS_FILE);
@@ -90,10 +90,10 @@ function checkStatus(): void {
   // Show next up from queue
   if (progress.queue.length > 0) {
     console.log('\n📋 Next up:');
-    progress.queue.slice(0, 5).forEach((item, i) => {
-      const dest = DESTINATIONS.find(d => d.id === item.destId);
+    progress.queue.slice(0, 5).forEach((destId, i) => {
+      const dest = DESTINATIONS.find(d => d.id === destId);
       if (dest) {
-        console.log(`   ${i + 1}. ${dest.city}, ${dest.country} ${item.isPopular ? '⭐' : ''}`);
+        console.log(`   ${i + 1}. ${dest.city}, ${dest.country}`);
       }
     });
   }

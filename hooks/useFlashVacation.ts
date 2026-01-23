@@ -16,6 +16,7 @@ interface FlashVacationState {
 
   // Generation
   isGenerating: boolean;
+  isLoadingMore: boolean;
   generationProgress: number;
   generationStage: string;
 
@@ -24,6 +25,8 @@ interface FlashVacationState {
   trips: FlashTripPackage[];
   currentTripIndex: number;
   selectedTrip: FlashTripPackage | null;
+  lastGenerateParams: FlashGenerateParams | null;
+  hasLoadedMore: boolean;
 
   // Actions
   error: string | null;
@@ -35,12 +38,15 @@ const initialState: FlashVacationState = {
   profileComplete: false,
   missingSteps: [],
   isGenerating: false,
+  isLoadingMore: false,
   generationProgress: 0,
   generationStage: '',
   sessionId: null,
   trips: [],
   currentTripIndex: 0,
   selectedTrip: null,
+  lastGenerateParams: null,
+  hasLoadedMore: false,
   error: null,
 };
 
@@ -89,6 +95,8 @@ export function useFlashVacation() {
           sessionId: data.sessionId,
           trips: data.trips,
           currentTripIndex: data.currentTripIndex || 0,
+          lastGenerateParams: data.lastGenerateParams || null,
+          hasLoadedMore: data.hasLoadedMore || false,
         }));
       }
     } catch (error) {
@@ -96,12 +104,20 @@ export function useFlashVacation() {
     }
   };
 
-  const saveTripsToSession = (sessionId: string, trips: FlashTripPackage[], currentIndex: number = 0) => {
+  const saveTripsToSession = (
+    sessionId: string,
+    trips: FlashTripPackage[],
+    currentIndex: number = 0,
+    lastParams?: FlashGenerateParams | null,
+    hasLoadedMore: boolean = false
+  ) => {
     try {
       sessionStorage.setItem(TRIPS_STORAGE_KEY, JSON.stringify({
         sessionId,
         trips,
         currentTripIndex: currentIndex,
+        lastGenerateParams: lastParams,
+        hasLoadedMore,
         timestamp: Date.now(),
       }));
     } catch (error) {
@@ -166,10 +182,12 @@ export function useFlashVacation() {
         sessionId: data.sessionId,
         trips: data.trips,
         currentTripIndex: 0,
+        lastGenerateParams: params,
+        hasLoadedMore: false,
       }));
 
       // Save to session storage
-      saveTripsToSession(data.sessionId, data.trips, 0);
+      saveTripsToSession(data.sessionId, data.trips, 0, params, false);
 
       return data.trips;
     } catch (error: any) {
@@ -186,6 +204,58 @@ export function useFlashVacation() {
 
   const currentTrip = state.trips[state.currentTripIndex] || null;
 
+  // Load more trips in the background
+  const loadMoreTrips = useCallback(async () => {
+    // Don't load if already loading, no params, or already loaded more
+    if (state.isLoadingMore || !state.lastGenerateParams || state.hasLoadedMore) {
+      return;
+    }
+
+    setState(prev => ({ ...prev, isLoadingMore: true }));
+
+    try {
+      // Request 8 more trips, excluding destinations we already have
+      const existingCities = state.trips.map(t => t.destination.city.toLowerCase());
+      const response = await fetch('/api/flash/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...state.lastGenerateParams,
+          count: 8,
+          excludeDestinations: existingCities,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to load more trips');
+      }
+
+      const data = await response.json();
+
+      if (data.trips && data.trips.length > 0) {
+        setState(prev => {
+          const newTrips = [...prev.trips, ...data.trips];
+          // Save to session with updated trips
+          if (prev.sessionId) {
+            saveTripsToSession(prev.sessionId, newTrips, prev.currentTripIndex, prev.lastGenerateParams, true);
+          }
+          return {
+            ...prev,
+            trips: newTrips,
+            isLoadingMore: false,
+            hasLoadedMore: true,
+          };
+        });
+        console.log(`Loaded ${data.trips.length} more trips in background`);
+      } else {
+        setState(prev => ({ ...prev, isLoadingMore: false, hasLoadedMore: true }));
+      }
+    } catch (error) {
+      console.error('Failed to load more trips:', error);
+      setState(prev => ({ ...prev, isLoadingMore: false }));
+    }
+  }, [state.isLoadingMore, state.lastGenerateParams, state.hasLoadedMore, state.trips]);
+
   const swipeLeft = useCallback(() => {
     setState(prev => {
       const newIndex = prev.currentTripIndex + 1;
@@ -195,7 +265,7 @@ export function useFlashVacation() {
 
       // Update session storage
       if (prev.sessionId) {
-        saveTripsToSession(prev.sessionId, prev.trips, newIndex);
+        saveTripsToSession(prev.sessionId, prev.trips, newIndex, prev.lastGenerateParams, prev.hasLoadedMore);
       }
 
       return {
@@ -216,7 +286,7 @@ export function useFlashVacation() {
 
       // Update session storage
       if (prev.sessionId) {
-        saveTripsToSession(prev.sessionId, prev.trips, newIndex);
+        saveTripsToSession(prev.sessionId, prev.trips, newIndex, prev.lastGenerateParams, prev.hasLoadedMore);
       }
 
       return {
@@ -226,6 +296,27 @@ export function useFlashVacation() {
       };
     });
   }, []);
+
+  // Trigger loading more trips when user reaches card 4 (index 3)
+  useEffect(() => {
+    const LOAD_MORE_THRESHOLD = 3; // When at card 4 (0-indexed as 3)
+    const INITIAL_BATCH_SIZE = 8;
+
+    // Only trigger if:
+    // 1. User has reached the threshold
+    // 2. We have exactly the initial batch (haven't loaded more yet)
+    // 3. We're not already loading
+    // 4. We have params to use
+    if (
+      state.currentTripIndex >= LOAD_MORE_THRESHOLD &&
+      state.trips.length === INITIAL_BATCH_SIZE &&
+      !state.isLoadingMore &&
+      !state.hasLoadedMore &&
+      state.lastGenerateParams
+    ) {
+      loadMoreTrips();
+    }
+  }, [state.currentTripIndex, state.trips.length, state.isLoadingMore, state.hasLoadedMore, state.lastGenerateParams, loadMoreTrips]);
 
   const swipeRight = useCallback(() => {
     setState(prev => ({
@@ -273,6 +364,7 @@ export function useFlashVacation() {
     // Actions
     loadPreferences,
     generateTrips,
+    loadMoreTrips,
     swipeLeft,
     swipeRight,
     goBack,

@@ -43,15 +43,21 @@ export async function generateTripBatch(
   report('finding_destinations', 0, 'Finding perfect destinations...');
 
   // Step 1: Select diverse destinations
-  const destinations = selectDestinations({
+  let destinations = selectDestinations({
     profile,
     departureDate: params.departureDate,
     returnDate: params.returnDate,
     vibes: params.vibe,
     region: params.region,
-    count: count + 4, // Request extras in case some fail
+    count: count + 8, // Request extras in case some fail or are excluded
     originAirport: profile.homeBase.airportCode,
   });
+
+  // Filter out excluded destinations (for lazy loading)
+  if (params.excludeDestinations && params.excludeDestinations.length > 0) {
+    const excludeSet = new Set(params.excludeDestinations.map(d => d.toLowerCase()));
+    destinations = destinations.filter(d => !excludeSet.has(d.city.toLowerCase()));
+  }
 
   report('searching_flights', 20, `Searching flights to ${destinations.length} destinations...`);
 

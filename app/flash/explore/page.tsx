@@ -14,6 +14,7 @@ import {
   type ItineraryDay,
   type SimplePathChoice
 } from '@/lib/flash/itinerary-generator';
+import { saveDraftTrip, getDraftTrip } from '@/lib/flash/draft-storage';
 
 type BookingStep = 'choice' | 'itinerary' | 'flights' | 'hotels' | 'checkout';
 type ItineraryType = SimplePathChoice | null;
@@ -167,6 +168,9 @@ export default function FlashExplorePage() {
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [favoriteStops, setFavoriteStops] = useState<ItineraryStop[]>([]);
 
+  // Error handling for POI loading
+  const [loadingError, setLoadingError] = useState<string | null>(null);
+
   // Booking selections
   const [skipFlights, setSkipFlights] = useState(false);
   const [skipHotels, setSkipHotels] = useState(false);
@@ -204,10 +208,46 @@ export default function FlashExplorePage() {
     }
   }, [user, authLoading, router]);
 
+  // Auto-save draft when user makes changes (debounced)
+  useEffect(() => {
+    if (!trip?.destination?.city || !trip?.dates?.departure || !itinerary.length || !itineraryType) return;
+
+    // Debounce the save to avoid too frequent writes
+    const saveTimeout = setTimeout(() => {
+      saveDraftTrip({
+        trip,
+        itinerary,
+        itineraryType,
+        favorites,
+        favoriteStops,
+        step,
+      });
+    }, 1000); // Save 1 second after last change
+
+    return () => clearTimeout(saveTimeout);
+  }, [trip, itinerary, itineraryType, favorites, favoriteStops, step]);
+
+  // Load draft on mount if trip matches
+  useEffect(() => {
+    if (!trip?.destination?.city || !trip?.dates?.departure || !trip?.dates?.return) return;
+
+    const destId = trip.destination.city.toLowerCase().replace(/\s+/g, '-');
+    const dateKey = `${trip.dates.departure}-${trip.dates.return}`;
+    const draftId = `${destId}-${dateKey}`;
+
+    const draft = getDraftTrip(draftId);
+    if (draft && draft.favorites.length > 0) {
+      // Restore favorites from draft
+      setFavorites(new Set(draft.favorites));
+      setFavoriteStops(draft.favoriteStops);
+    }
+  }, [trip]);
+
   const loadItinerary = async (pathType: SimplePathChoice) => {
     if (!trip) return;
     setItineraryType(pathType);
     setIsLoadingItinerary(true);
+    setLoadingError(null);
     setActiveDay(1);
     setActiveStopId(null);
     setShowDetails(false);
@@ -218,7 +258,8 @@ export default function FlashExplorePage() {
       setItinerary(generated);
     } catch (error) {
       console.error('Failed to generate itinerary:', error);
-      // Fall back to hardcoded data
+      // Show error but also fall back to hardcoded data so user isn't stuck
+      setLoadingError('Some places may be unavailable. Showing alternative suggestions.');
       const generated = pathType === 'classic' || pathType === 'cultural' || pathType === 'adventure'
         ? generateSampleItinerary(trip)
         : generateTrendyItinerary(trip);
@@ -328,7 +369,7 @@ export default function FlashExplorePage() {
     const centerLng = allStops[0]?.longitude || 0;
 
     return (
-      <div className="fixed inset-0 bg-black">
+      <div className="fixed inset-0 bg-black z-50">
         {/* Map background - show ALL stops */}
         <ItineraryMap
           stops={allStops}
@@ -394,12 +435,48 @@ export default function FlashExplorePage() {
               </div>
             </div>
 
+            {/* Error message (dismissible) */}
+            {loadingError && (
+              <div className="flex items-center justify-between gap-3 py-2 px-3 mb-2 bg-amber-500/20 border border-amber-500/30 rounded-lg">
+                <div className="flex items-center gap-2">
+                  <svg className="w-4 h-4 text-amber-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                  </svg>
+                  <span className="text-amber-200 text-sm">{loadingError}</span>
+                </div>
+                <button
+                  onClick={() => setLoadingError(null)}
+                  className="text-amber-400 hover:text-amber-200 transition-colors p-1"
+                >
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            )}
+
             {/* Stops carousel - ALL stops */}
             <div className="flex gap-3 overflow-x-auto py-4 scrollbar-hide">
               {isLoadingItinerary ? (
                 <div className="flex-1 flex items-center justify-center py-8">
                   <Spinner size="md" className="text-white" />
                   <span className="text-white/60 ml-3">Loading {itineraryType && PATH_CONFIG[itineraryType]?.name}...</span>
+                </div>
+              ) : allStops.length === 0 ? (
+                <div className="flex-1 flex flex-col items-center justify-center py-8 text-center">
+                  <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4">
+                    <svg className="w-8 h-8 text-white/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <p className="text-white/60 mb-2">No places found for this itinerary</p>
+                  <button
+                    onClick={handleShuffle}
+                    className="text-white underline hover:text-white/80 text-sm"
+                  >
+                    Try a different style
+                  </button>
                 </div>
               ) : allStops.map((stop, index) => (
                 <div
@@ -473,18 +550,30 @@ export default function FlashExplorePage() {
               ))}
             </div>
 
-            {/* Action buttons: Shuffle + Continue */}
-            <div className="flex gap-3 mb-4">
+            {/* Action buttons: Shuffle, Skip, Continue */}
+            <div className="flex gap-2 mb-4">
               {/* Shuffle button */}
               <button
                 onClick={handleShuffle}
                 disabled={isLoadingItinerary}
-                className="flex items-center justify-center gap-2 px-5 py-4 bg-white/10 border border-white/20 text-white font-medium rounded-xl hover:bg-white/20 transition-colors disabled:opacity-50"
+                className="flex items-center justify-center gap-2 px-4 py-4 bg-white/10 border border-white/20 text-white font-medium rounded-xl hover:bg-white/20 transition-colors disabled:opacity-50"
               >
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                 </svg>
                 <span>Shuffle</span>
+              </button>
+
+              {/* Skip to Booking button - for users who already know what they want */}
+              <button
+                onClick={() => setStep('checkout')}
+                disabled={isLoadingItinerary}
+                className="flex items-center justify-center gap-2 px-4 py-4 bg-white/10 border border-white/20 text-white/80 font-medium rounded-xl hover:bg-white/20 hover:text-white transition-colors disabled:opacity-50"
+              >
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                </svg>
+                <span>Skip</span>
               </button>
 
               {/* Continue button */}

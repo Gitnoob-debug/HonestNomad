@@ -120,6 +120,7 @@ export interface FlashGenerateParams {
   vibe?: string[];
   region?: string;
   count?: number;
+  excludeDestinations?: string[]; // For lazy loading - don't repeat cities
 }
 
 export interface FlashGenerateResponse {

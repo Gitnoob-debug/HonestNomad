@@ -273,7 +273,8 @@ export function generateSampleItinerary(trip: FlashTripPackage): ItineraryDay[] 
 
     const stops: ItineraryStop[] = dayPois.map((poi, idx) => ({
       ...poi,
-      id: `day${day}-stop${idx + 1}`,
+      // Use a stable ID based on POI name so favorites persist across shuffles
+      id: poi.name.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-'),
       day,
     }));
 
@@ -398,7 +399,8 @@ export function generateTrendyItinerary(trip: FlashTripPackage): ItineraryDay[] 
 
     const stops: ItineraryStop[] = dayPois.map((poi, idx) => ({
       ...poi,
-      id: `day${day}-stop${idx + 1}`,
+      // Use a stable ID based on POI name so favorites persist across shuffles
+      id: poi.name.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-'),
       day,
     }));
 
@@ -457,7 +459,8 @@ function poiToItineraryStop(poi: CachedPOI, day: number, stopIndex: number): Iti
   };
 
   return {
-    id: `day${day}-stop${stopIndex + 1}`,
+    // Use the POI's unique place ID so favorites persist across shuffles
+    id: poi.id,
     name: poi.name,
     description: poi.description,
     type: typeMap[poi.category] || 'activity',

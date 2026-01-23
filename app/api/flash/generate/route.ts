@@ -67,6 +67,7 @@ export async function POST(request: NextRequest) {
         vibe: body.vibe,
         region: body.region,
         count: body.count || 8,
+        excludeDestinations: body.excludeDestinations,
       },
       preferences
     );

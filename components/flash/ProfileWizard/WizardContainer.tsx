@@ -5,12 +5,9 @@ import { useProfileWizard } from '@/hooks/useProfileWizard';
 import { StepIndicator } from './StepIndicator';
 import { TravelersStep } from './TravelersStep';
 import { HomeBaseStep } from './HomeBaseStep';
-import { BudgetStep } from './BudgetStep';
+import { BudgetFlightsStep } from './BudgetFlightsStep';
 import { AccommodationStep } from './AccommodationStep';
-import { TravelStyleStep } from './TravelStyleStep';
-import { InterestsStep } from './InterestsStep';
-import { RestrictionsStep } from './RestrictionsStep';
-import { SurpriseToleranceStep } from './SurpriseToleranceStep';
+import { WIZARD_STEP_TITLES } from '@/types/flash';
 import { Button, Spinner } from '@/components/ui';
 
 export function WizardContainer() {
@@ -30,10 +27,7 @@ export function WizardContainer() {
     updateHomeBase,
     updateBudget,
     updateAccommodation,
-    updateTravelStyle,
-    updateInterests,
-    updateRestrictions,
-    updateStepData,
+    updateFlightPreferences,
     nextStep,
     prevStep,
     goToStep,
@@ -78,11 +72,13 @@ export function WizardContainer() {
             onChange={updateHomeBase}
           />
         );
-      case 'budget':
+      case 'budgetFlights':
         return (
-          <BudgetStep
-            data={stepData.budget || {}}
-            onChange={updateBudget}
+          <BudgetFlightsStep
+            budgetData={stepData.budget || {}}
+            flightData={stepData.flightPreferences || {}}
+            onBudgetChange={updateBudget}
+            onFlightChange={updateFlightPreferences}
           />
         );
       case 'accommodation':
@@ -90,34 +86,6 @@ export function WizardContainer() {
           <AccommodationStep
             data={stepData.accommodation || {}}
             onChange={updateAccommodation}
-          />
-        );
-      case 'travelStyle':
-        return (
-          <TravelStyleStep
-            data={stepData.travelStyle || {}}
-            onChange={updateTravelStyle}
-          />
-        );
-      case 'interests':
-        return (
-          <InterestsStep
-            data={stepData.interests || {}}
-            onChange={updateInterests}
-          />
-        );
-      case 'restrictions':
-        return (
-          <RestrictionsStep
-            data={stepData.restrictions || {}}
-            onChange={updateRestrictions}
-          />
-        );
-      case 'surpriseTolerance':
-        return (
-          <SurpriseToleranceStep
-            value={stepData.surpriseTolerance}
-            onChange={(value) => updateStepData('surpriseTolerance', value)}
           />
         );
       default:
@@ -145,6 +113,9 @@ export function WizardContainer() {
 
       {/* Step content */}
       <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+        <h2 className="text-xl font-bold text-gray-900 mb-6">
+          {WIZARD_STEP_TITLES[currentStepName]}
+        </h2>
         {renderStep()}
       </div>
 
@@ -166,16 +137,6 @@ export function WizardContainer() {
         </div>
 
         <div className="flex items-center gap-3">
-          {currentStepName === 'restrictions' && (
-            <Button
-              variant="ghost"
-              onClick={nextStep}
-              disabled={isSaving}
-            >
-              Skip
-            </Button>
-          )}
-
           {isLastStep ? (
             <Button
               variant="primary"

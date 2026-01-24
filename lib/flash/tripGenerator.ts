@@ -214,7 +214,7 @@ function selectBestFlight(
 
   if (directFlights.length > 0) {
     // For adventure seekers, might prefer interesting layovers
-    if (profile.travelStyle.adventureRelaxation >= 4) {
+    if (profile.travelStyle?.adventureRelaxation && profile.travelStyle.adventureRelaxation >= 4) {
       // Still return direct but could add logic for interesting connections
     }
     return directFlights[0];

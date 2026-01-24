@@ -1,6 +1,5 @@
 export * from './ProfileWizard';
 export { FlashPlanInput } from './FlashPlanInput';
-export { VibeSelector } from './VibeSelector';
 export { SwipeCard } from './SwipeCard';
 export { SwipeContainer } from './SwipeContainer';
 export { TripDetailModal } from './TripDetailModal';

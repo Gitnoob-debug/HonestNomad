@@ -7,23 +7,19 @@ export interface FlashVacationPreferences {
   // Step 2: Home Base
   homeBase: HomeBase;
 
-  // Step 3: Budget
+  // Step 3: Budget & Flight Preferences
   budget: BudgetConfig;
+  flightPreferences: FlightPreferences;
 
   // Step 4: Accommodation
   accommodation: AccommodationPreferences;
 
-  // Step 5: Travel Style
-  travelStyle: TravelStyleConfig;
-
-  // Step 6: Interests
-  interests: InterestConfig;
-
-  // Step 7: Restrictions
-  restrictions: RestrictionConfig;
-
-  // Step 8: Surprise Tolerance (1-5)
-  surpriseTolerance: number;
+  // Legacy fields - kept for backwards compatibility but no longer in wizard
+  // These can be set via settings or inferred from behavior
+  travelStyle?: TravelStyleConfig;
+  interests?: InterestConfig;
+  restrictions?: RestrictionConfig;
+  surpriseTolerance?: number;
 
   // Profile completion status
   profileCompleted: boolean;
@@ -54,6 +50,16 @@ export interface BudgetConfig {
   flexibility: 'strict' | 'flexible' | 'splurge_ok';
 }
 
+export interface FlightPreferences {
+  cabinClass: 'economy' | 'premium_economy' | 'business' | 'first';
+  directOnly: boolean;
+  maxStops: number; // 0 = direct only, 1 = 1 stop max, 2 = any
+  maxLayoverHours: number;
+  redEyeOk: boolean;
+  preferredAirlines?: string[];
+  avoidAirlines?: string[];
+}
+
 export interface AccommodationPreferences {
   minStars: number;
   mustHaveAmenities: string[];
@@ -80,12 +86,16 @@ export interface RestrictionConfig {
   medical: string[];
 }
 
-// Wizard step definitions
+// Wizard step definitions - streamlined to 4 core steps
 export type WizardStep =
   | 'travelers'
   | 'homeBase'
+  | 'budgetFlights'
+  | 'accommodation';
+
+// Legacy steps kept for backwards compatibility with existing data
+export type LegacyWizardStep =
   | 'budget'
-  | 'accommodation'
   | 'travelStyle'
   | 'interests'
   | 'restrictions'
@@ -94,29 +104,24 @@ export type WizardStep =
 export const WIZARD_STEPS: WizardStep[] = [
   'travelers',
   'homeBase',
-  'budget',
+  'budgetFlights',
   'accommodation',
-  'travelStyle',
-  'interests',
-  'restrictions',
-  'surpriseTolerance',
 ];
 
 export const WIZARD_STEP_TITLES: Record<WizardStep, string> = {
   travelers: 'Who\'s Traveling?',
   homeBase: 'Where Do You Fly From?',
-  budget: 'What\'s Your Budget?',
-  accommodation: 'Where Do You Stay?',
-  travelStyle: 'How Do You Travel?',
-  interests: 'What Do You Love?',
-  restrictions: 'Any Restrictions?',
-  surpriseTolerance: 'Surprise Me?',
+  budgetFlights: 'Budget & Flight Preferences',
+  accommodation: 'Accommodation Preferences',
 };
 
 // Flash Plan generation types
+export type DateFlexibility = 'exact' | 'flex1' | 'flex3';
+
 export interface FlashGenerateParams {
   departureDate: string;
   returnDate: string;
+  dateFlexibility?: DateFlexibility; // exact, ±1 day, ±3 days
   vibe?: string[];
   region?: string;
   count?: number;
@@ -415,12 +420,20 @@ export const DEFAULT_FLASH_PREFERENCES: FlashVacationPreferences = {
     currency: 'USD',
     flexibility: 'flexible',
   },
+  flightPreferences: {
+    cabinClass: 'economy',
+    directOnly: false,
+    maxStops: 1,
+    maxLayoverHours: 3,
+    redEyeOk: false,
+  },
   accommodation: {
     minStars: 3,
     mustHaveAmenities: ['wifi'],
     niceToHaveAmenities: [],
     roomPreferences: [],
   },
+  // Legacy fields - kept for backwards compatibility
   travelStyle: {
     adventureRelaxation: 3,
     earlyBirdNightOwl: 3,

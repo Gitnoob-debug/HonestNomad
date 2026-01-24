@@ -11,19 +11,65 @@ interface FlashProfileStatus {
   preferences: any | null;
 }
 
+interface LoyaltyProgram {
+  id: string;
+  type: 'airline' | 'hotel';
+  name: string;
+  memberNumber: string;
+}
+
+const AIRLINE_PROGRAMS = [
+  'American Airlines AAdvantage',
+  'United MileagePlus',
+  'Delta SkyMiles',
+  'Southwest Rapid Rewards',
+  'JetBlue TrueBlue',
+  'Alaska Airlines Mileage Plan',
+  'British Airways Executive Club',
+  'Air France Flying Blue',
+  'Lufthansa Miles & More',
+  'Emirates Skywards',
+  'Qatar Airways Privilege Club',
+  'Singapore Airlines KrisFlyer',
+];
+
+const HOTEL_PROGRAMS = [
+  'Marriott Bonvoy',
+  'Hilton Honors',
+  'IHG One Rewards',
+  'World of Hyatt',
+  'Wyndham Rewards',
+  'Choice Privileges',
+  'Best Western Rewards',
+  'Accor Live Limitless',
+  'Radisson Rewards',
+];
+
 export default function SettingsPage() {
   const router = useRouter();
   const { user, loading } = useAuth();
-  const [preferences, setPreferences] = useState({
-    defaultCurrency: 'USD',
-    travelerType: '',
-    budgetMin: '',
-    budgetMax: '',
-  });
   const [flashProfile, setFlashProfile] = useState<FlashProfileStatus | null>(null);
   const [flashLoading, setFlashLoading] = useState(true);
-  const [saving, setSaving] = useState(false);
-  const [message, setMessage] = useState('');
+
+  // Account info
+  const [accountInfo, setAccountInfo] = useState({
+    firstName: '',
+    lastName: '',
+    phone: '',
+  });
+  const [accountSaving, setAccountSaving] = useState(false);
+  const [accountMessage, setAccountMessage] = useState('');
+
+  // Loyalty programs
+  const [loyaltyPrograms, setLoyaltyPrograms] = useState<LoyaltyProgram[]>([]);
+  const [showAddProgram, setShowAddProgram] = useState(false);
+  const [newProgram, setNewProgram] = useState({
+    type: 'airline' as 'airline' | 'hotel',
+    name: '',
+    memberNumber: '',
+  });
+  const [loyaltySaving, setLoyaltySaving] = useState(false);
+  const [loyaltyMessage, setLoyaltyMessage] = useState('');
 
   useEffect(() => {
     if (!loading && !user) {
@@ -33,17 +79,17 @@ export default function SettingsPage() {
 
   useEffect(() => {
     if (user) {
-      // Fetch user preferences
+      // Fetch user account info and loyalty programs
       fetch('/api/user/preferences')
         .then((res) => res.json())
         .then((data) => {
           if (data.preferences) {
-            setPreferences({
-              defaultCurrency: data.preferences.defaultCurrency || 'USD',
-              travelerType: data.preferences.travelerType || '',
-              budgetMin: data.preferences.budgetRange?.min?.toString() || '',
-              budgetMax: data.preferences.budgetRange?.max?.toString() || '',
+            setAccountInfo({
+              firstName: data.preferences.firstName || '',
+              lastName: data.preferences.lastName || '',
+              phone: data.preferences.phone || '',
             });
+            setLoyaltyPrograms(data.preferences.loyaltyPrograms || []);
           }
         })
         .catch(console.error);
@@ -64,33 +110,91 @@ export default function SettingsPage() {
     }
   }, [user]);
 
-  const handleSave = async () => {
-    setSaving(true);
-    setMessage('');
+  const handleSaveAccount = async () => {
+    setAccountSaving(true);
+    setAccountMessage('');
 
     try {
       const response = await fetch('/api/user/preferences', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          defaultCurrency: preferences.defaultCurrency,
-          travelerType: preferences.travelerType,
-          budgetRange: {
-            min: preferences.budgetMin ? parseInt(preferences.budgetMin) : undefined,
-            max: preferences.budgetMax ? parseInt(preferences.budgetMax) : undefined,
-          },
+          firstName: accountInfo.firstName,
+          lastName: accountInfo.lastName,
+          phone: accountInfo.phone,
         }),
       });
 
       if (response.ok) {
-        setMessage('Preferences saved successfully!');
+        setAccountMessage('Account info saved successfully!');
       } else {
-        setMessage('Failed to save preferences');
+        setAccountMessage('Failed to save account info');
       }
     } catch (error) {
-      setMessage('An error occurred');
+      setAccountMessage('An error occurred');
     } finally {
-      setSaving(false);
+      setAccountSaving(false);
+    }
+  };
+
+  const handleAddProgram = async () => {
+    if (!newProgram.name || !newProgram.memberNumber) return;
+
+    const program: LoyaltyProgram = {
+      id: Date.now().toString(),
+      type: newProgram.type,
+      name: newProgram.name,
+      memberNumber: newProgram.memberNumber,
+    };
+
+    const updatedPrograms = [...loyaltyPrograms, program];
+    setLoyaltySaving(true);
+    setLoyaltyMessage('');
+
+    try {
+      const response = await fetch('/api/user/preferences', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          loyaltyPrograms: updatedPrograms,
+        }),
+      });
+
+      if (response.ok) {
+        setLoyaltyPrograms(updatedPrograms);
+        setNewProgram({ type: 'airline', name: '', memberNumber: '' });
+        setShowAddProgram(false);
+        setLoyaltyMessage('Loyalty program added!');
+      } else {
+        setLoyaltyMessage('Failed to add program');
+      }
+    } catch (error) {
+      setLoyaltyMessage('An error occurred');
+    } finally {
+      setLoyaltySaving(false);
+    }
+  };
+
+  const handleRemoveProgram = async (programId: string) => {
+    const updatedPrograms = loyaltyPrograms.filter((p) => p.id !== programId);
+    setLoyaltySaving(true);
+
+    try {
+      const response = await fetch('/api/user/preferences', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          loyaltyPrograms: updatedPrograms,
+        }),
+      });
+
+      if (response.ok) {
+        setLoyaltyPrograms(updatedPrograms);
+      }
+    } catch (error) {
+      console.error('Failed to remove program:', error);
+    } finally {
+      setLoyaltySaving(false);
     }
   };
 
@@ -109,92 +213,245 @@ export default function SettingsPage() {
     <div className="max-w-2xl mx-auto px-4 py-8">
       <h1 className="text-2xl font-bold text-gray-900 mb-6">Settings</h1>
 
+      {/* Account Section */}
       <Card>
-        <h2 className="text-lg font-semibold mb-4">Travel Preferences</h2>
+        <h2 className="text-lg font-semibold mb-4">Account</h2>
         <p className="text-gray-600 text-sm mb-6">
-          Set your default preferences to speed up future searches.
+          Your personal information and login details.
         </p>
 
         <div className="space-y-4">
-          <div>
-            <label className="block text-sm font-medium mb-1">
-              Default Currency
-            </label>
-            <select
-              value={preferences.defaultCurrency}
-              onChange={(e) =>
-                setPreferences((p) => ({ ...p, defaultCurrency: e.target.value }))
-              }
-              className="input-field"
-            >
-              <option value="USD">USD ($)</option>
-              <option value="EUR">EUR (€)</option>
-              <option value="GBP">GBP (£)</option>
-              <option value="CAD">CAD ($)</option>
-              <option value="AUD">AUD ($)</option>
-              <option value="JPY">JPY (¥)</option>
-            </select>
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium mb-1">
-              Traveler Type
-            </label>
-            <select
-              value={preferences.travelerType}
-              onChange={(e) =>
-                setPreferences((p) => ({ ...p, travelerType: e.target.value }))
-              }
-              className="input-field"
-            >
-              <option value="">Select...</option>
-              <option value="solo">Solo Traveler</option>
-              <option value="couple">Couple</option>
-              <option value="family">Family</option>
-              <option value="group">Group</option>
-              <option value="business">Business</option>
-            </select>
-          </div>
-
           <div className="grid grid-cols-2 gap-4">
             <Input
-              label="Budget Min (per night)"
-              type="number"
-              value={preferences.budgetMin}
+              label="First Name"
+              value={accountInfo.firstName}
               onChange={(e) =>
-                setPreferences((p) => ({ ...p, budgetMin: e.target.value }))
+                setAccountInfo((p) => ({ ...p, firstName: e.target.value }))
               }
-              placeholder="50"
+              placeholder="John"
             />
             <Input
-              label="Budget Max (per night)"
-              type="number"
-              value={preferences.budgetMax}
+              label="Last Name"
+              value={accountInfo.lastName}
               onChange={(e) =>
-                setPreferences((p) => ({ ...p, budgetMax: e.target.value }))
+                setAccountInfo((p) => ({ ...p, lastName: e.target.value }))
               }
-              placeholder="300"
+              placeholder="Doe"
             />
           </div>
+
+          <div>
+            <label className="block text-sm font-medium text-gray-500 mb-1">
+              Email
+            </label>
+            <p className="text-gray-900 py-2">{user?.email}</p>
+          </div>
+
+          <Input
+            label="Phone Number (optional)"
+            type="tel"
+            value={accountInfo.phone}
+            onChange={(e) =>
+              setAccountInfo((p) => ({ ...p, phone: e.target.value }))
+            }
+            placeholder="+1 (555) 123-4567"
+          />
         </div>
 
-        {message && (
+        {accountMessage && (
           <div
             className={`mt-4 p-3 rounded-lg text-sm ${
-              message.includes('success')
+              accountMessage.includes('success')
                 ? 'bg-green-50 text-green-800'
                 : 'bg-red-50 text-red-800'
             }`}
           >
-            {message}
+            {accountMessage}
           </div>
         )}
 
         <div className="mt-6 pt-4 border-t">
-          <Button onClick={handleSave} loading={saving}>
-            Save Preferences
+          <Button onClick={handleSaveAccount} loading={accountSaving}>
+            Save Account Info
           </Button>
         </div>
+      </Card>
+
+      {/* Loyalty Programs Section */}
+      <Card className="mt-6">
+        <div className="flex items-center justify-between mb-4">
+          <div>
+            <h2 className="text-lg font-semibold">Loyalty Programs</h2>
+            <p className="text-gray-600 text-sm">
+              Your airline and hotel membership numbers for easy booking.
+            </p>
+          </div>
+        </div>
+
+        {loyaltyPrograms.length > 0 ? (
+          <div className="space-y-3 mb-4">
+            {loyaltyPrograms.map((program) => (
+              <div
+                key={program.id}
+                className="flex items-center justify-between p-3 bg-gray-50 rounded-lg"
+              >
+                <div className="flex items-center gap-3">
+                  <div
+                    className={`w-8 h-8 rounded-full flex items-center justify-center ${
+                      program.type === 'airline'
+                        ? 'bg-blue-100 text-blue-600'
+                        : 'bg-purple-100 text-purple-600'
+                    }`}
+                  >
+                    {program.type === 'airline' ? (
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M5 12h14M5 12l4-4m-4 4l4 4"
+                          transform="rotate(-45 12 12)"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                        />
+                      </svg>
+                    )}
+                  </div>
+                  <div>
+                    <p className="font-medium text-sm">{program.name}</p>
+                    <p className="text-gray-500 text-xs">#{program.memberNumber}</p>
+                  </div>
+                </div>
+                <button
+                  onClick={() => handleRemoveProgram(program.id)}
+                  className="text-gray-400 hover:text-red-500 transition-colors"
+                  disabled={loyaltySaving}
+                >
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                    />
+                  </svg>
+                </button>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-6 bg-gray-50 rounded-lg mb-4">
+            <p className="text-gray-500 text-sm">No loyalty programs added yet</p>
+          </div>
+        )}
+
+        {showAddProgram ? (
+          <div className="border rounded-lg p-4 space-y-4">
+            <div>
+              <label className="block text-sm font-medium mb-1">Program Type</label>
+              <select
+                value={newProgram.type}
+                onChange={(e) =>
+                  setNewProgram((p) => ({
+                    ...p,
+                    type: e.target.value as 'airline' | 'hotel',
+                    name: '',
+                  }))
+                }
+                className="input-field"
+              >
+                <option value="airline">Airline</option>
+                <option value="hotel">Hotel</option>
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium mb-1">Program Name</label>
+              <select
+                value={newProgram.name}
+                onChange={(e) =>
+                  setNewProgram((p) => ({ ...p, name: e.target.value }))
+                }
+                className="input-field"
+              >
+                <option value="">Select a program...</option>
+                {(newProgram.type === 'airline' ? AIRLINE_PROGRAMS : HOTEL_PROGRAMS).map(
+                  (program) => (
+                    <option key={program} value={program}>
+                      {program}
+                    </option>
+                  )
+                )}
+              </select>
+            </div>
+
+            <Input
+              label="Member Number"
+              value={newProgram.memberNumber}
+              onChange={(e) =>
+                setNewProgram((p) => ({ ...p, memberNumber: e.target.value }))
+              }
+              placeholder="Enter your member number"
+            />
+
+            <div className="flex gap-2">
+              <Button
+                onClick={handleAddProgram}
+                loading={loyaltySaving}
+                disabled={!newProgram.name || !newProgram.memberNumber}
+              >
+                Add Program
+              </Button>
+              <Button
+                variant="secondary"
+                onClick={() => {
+                  setShowAddProgram(false);
+                  setNewProgram({ type: 'airline', name: '', memberNumber: '' });
+                }}
+              >
+                Cancel
+              </Button>
+            </div>
+          </div>
+        ) : (
+          <Button variant="secondary" onClick={() => setShowAddProgram(true)}>
+            + Add Loyalty Program
+          </Button>
+        )}
+
+        {loyaltyMessage && (
+          <div
+            className={`mt-4 p-3 rounded-lg text-sm ${
+              loyaltyMessage.includes('added') || loyaltyMessage.includes('success')
+                ? 'bg-green-50 text-green-800'
+                : 'bg-red-50 text-red-800'
+            }`}
+          >
+            {loyaltyMessage}
+          </div>
+        )}
       </Card>
 
       {/* Flash Vacation Profile */}
@@ -295,18 +552,6 @@ export default function SettingsPage() {
             </Button>
           </div>
         )}
-      </Card>
-
-      <Card className="mt-6">
-        <h2 className="text-lg font-semibold mb-4">Account</h2>
-        <div className="space-y-3">
-          <div>
-            <label className="block text-sm font-medium text-gray-500">
-              Email
-            </label>
-            <p className="text-gray-900">{user?.email}</p>
-          </div>
-        </div>
       </Card>
     </div>
   );

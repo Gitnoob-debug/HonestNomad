@@ -1,9 +1,10 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import { useFlashVacation } from '@/hooks/useFlashVacation';
+import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
 import { ImmersiveSwipeContainer } from '@/components/flash/ImmersiveSwipeContainer';
 import { Spinner } from '@/components/ui';
 
@@ -14,12 +15,42 @@ export default function FlashSwipePage() {
     trips,
     currentTripIndex,
     selectedTrip,
-    swipeLeft,
-    swipeRight,
+    swipeLeft: baseSwipeLeft,
+    swipeRight: baseSwipeRight,
     goBack,
     canGoBack,
     preferencesLoading,
   } = useFlashVacation();
+
+  const { trackSwipe } = useRevealedPreferences();
+
+  // Track when user started viewing current card (for dwell time)
+  const cardViewStartRef = useRef<number>(Date.now());
+
+  // Reset timer when card changes
+  useEffect(() => {
+    cardViewStartRef.current = Date.now();
+  }, [currentTripIndex]);
+
+  // Wrap swipeLeft to track preference
+  const swipeLeft = useCallback(() => {
+    const currentTrip = trips[currentTripIndex];
+    if (currentTrip) {
+      const dwellTime = Date.now() - cardViewStartRef.current;
+      trackSwipe(currentTrip, 'left', dwellTime, false);
+    }
+    baseSwipeLeft();
+  }, [trips, currentTripIndex, trackSwipe, baseSwipeLeft]);
+
+  // Wrap swipeRight to track preference
+  const swipeRight = useCallback(() => {
+    const currentTrip = trips[currentTripIndex];
+    if (currentTrip) {
+      const dwellTime = Date.now() - cardViewStartRef.current;
+      trackSwipe(currentTrip, 'right', dwellTime, false);
+    }
+    baseSwipeRight();
+  }, [trips, currentTripIndex, trackSwipe, baseSwipeRight]);
 
   // Handle keyboard navigation
   useEffect(() => {

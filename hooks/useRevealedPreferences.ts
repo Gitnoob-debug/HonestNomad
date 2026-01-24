@@ -1,0 +1,158 @@
+'use client';
+
+import { useState, useCallback, useEffect, useRef } from 'react';
+import { useAuth } from '@/components/providers/AuthProvider';
+import type { FlashTripPackage } from '@/types/flash';
+import {
+  RevealedPreferences,
+  createEmptyPreferences,
+  recordSwipe,
+  recordPOIAction,
+  getPreferenceSummary,
+  hasEnoughSignals,
+} from '@/lib/flash/preferenceEngine';
+import {
+  loadRevealedPreferences,
+  saveRevealedPreferences,
+  clearRevealedPreferences,
+} from '@/lib/flash/preferenceStorage';
+
+interface UseRevealedPreferencesReturn {
+  preferences: RevealedPreferences;
+  isLoading: boolean;
+  hasEnoughData: boolean;
+  summary: ReturnType<typeof getPreferenceSummary> | null;
+
+  // Actions
+  trackSwipe: (
+    trip: FlashTripPackage,
+    direction: 'left' | 'right',
+    dwellTimeMs?: number,
+    expandedCard?: boolean
+  ) => void;
+  trackPOIAction: (poiType: string, action: 'favorite' | 'unfavorite') => void;
+  resetPreferences: () => Promise<void>;
+}
+
+// Debounce save to avoid too many writes
+const SAVE_DEBOUNCE_MS = 2000;
+
+export function useRevealedPreferences(): UseRevealedPreferencesReturn {
+  const { user } = useAuth();
+  const [preferences, setPreferences] = useState<RevealedPreferences>(createEmptyPreferences());
+  const [isLoading, setIsLoading] = useState(true);
+  const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const pendingPrefsRef = useRef<RevealedPreferences | null>(null);
+
+  // Load preferences on mount / user change
+  useEffect(() => {
+    if (!user?.id) {
+      setPreferences(createEmptyPreferences());
+      setIsLoading(false);
+      return;
+    }
+
+    setIsLoading(true);
+    loadRevealedPreferences(user.id)
+      .then(prefs => {
+        setPreferences(prefs);
+        setIsLoading(false);
+      })
+      .catch(err => {
+        console.error('Failed to load revealed preferences:', err);
+        setIsLoading(false);
+      });
+  }, [user?.id]);
+
+  // Debounced save function
+  const scheduleSave = useCallback((prefs: RevealedPreferences) => {
+    if (!user?.id) return;
+
+    pendingPrefsRef.current = prefs;
+
+    // Clear existing timeout
+    if (saveTimeoutRef.current) {
+      clearTimeout(saveTimeoutRef.current);
+    }
+
+    // Schedule new save
+    saveTimeoutRef.current = setTimeout(() => {
+      if (pendingPrefsRef.current && user?.id) {
+        saveRevealedPreferences(user.id, pendingPrefsRef.current)
+          .then(success => {
+            if (success) {
+              console.log('[RevealedPrefs] Saved to Supabase');
+            }
+          })
+          .catch(err => {
+            console.error('[RevealedPrefs] Save failed:', err);
+          });
+      }
+    }, SAVE_DEBOUNCE_MS);
+  }, [user?.id]);
+
+  // Save on unmount if there are pending changes
+  useEffect(() => {
+    return () => {
+      if (saveTimeoutRef.current) {
+        clearTimeout(saveTimeoutRef.current);
+      }
+      if (pendingPrefsRef.current && user?.id) {
+        // Synchronous save attempt on unmount
+        saveRevealedPreferences(user.id, pendingPrefsRef.current);
+      }
+    };
+  }, [user?.id]);
+
+  const trackSwipe = useCallback((
+    trip: FlashTripPackage,
+    direction: 'left' | 'right',
+    dwellTimeMs?: number,
+    expandedCard?: boolean
+  ) => {
+    setPreferences(prev => {
+      const updated = recordSwipe(prev, trip, direction, dwellTimeMs, expandedCard);
+      scheduleSave(updated);
+
+      console.log(`[RevealedPrefs] Recorded ${direction} swipe on ${trip.destination.city}`, {
+        vibes: trip.destination.vibes,
+        totalSwipes: updated.totalSwipes,
+      });
+
+      return updated;
+    });
+  }, [scheduleSave]);
+
+  const trackPOIAction = useCallback((poiType: string, action: 'favorite' | 'unfavorite') => {
+    setPreferences(prev => {
+      const updated = recordPOIAction(prev, poiType, action);
+      scheduleSave(updated);
+
+      console.log(`[RevealedPrefs] Recorded POI ${action}: ${poiType}`);
+
+      return updated;
+    });
+  }, [scheduleSave]);
+
+  const resetPreferences = useCallback(async () => {
+    if (!user?.id) return;
+
+    const empty = createEmptyPreferences();
+    setPreferences(empty);
+    await clearRevealedPreferences(user.id);
+    console.log('[RevealedPrefs] Reset to empty');
+  }, [user?.id]);
+
+  const hasEnoughData = hasEnoughSignals(preferences);
+  const summary = hasEnoughData ? getPreferenceSummary(preferences) : null;
+
+  return {
+    preferences,
+    isLoading,
+    hasEnoughData,
+    summary,
+    trackSwipe,
+    trackPOIAction,
+    resetPreferences,
+  };
+}

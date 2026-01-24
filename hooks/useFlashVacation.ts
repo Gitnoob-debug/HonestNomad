@@ -26,7 +26,7 @@ interface FlashVacationState {
   currentTripIndex: number;
   selectedTrip: FlashTripPackage | null;
   lastGenerateParams: FlashGenerateParams | null;
-  hasLoadedMore: boolean;
+  loadedBatches: number; // Track how many additional batches we've loaded
 
   // Actions
   error: string | null;
@@ -46,7 +46,7 @@ const initialState: FlashVacationState = {
   currentTripIndex: 0,
   selectedTrip: null,
   lastGenerateParams: null,
-  hasLoadedMore: false,
+  loadedBatches: 0,
   error: null,
 };
 
@@ -94,7 +94,7 @@ export function useFlashVacation() {
           tripsCount: data.trips?.length,
           currentIndex: data.currentTripIndex,
           hasParams: !!data.lastGenerateParams,
-          hasLoadedMore: data.hasLoadedMore
+          loadedBatches: data.loadedBatches || 0
         });
         setState(prev => ({
           ...prev,
@@ -102,7 +102,7 @@ export function useFlashVacation() {
           trips: data.trips,
           currentTripIndex: data.currentTripIndex || 0,
           lastGenerateParams: data.lastGenerateParams || null,
-          hasLoadedMore: data.hasLoadedMore || false,
+          loadedBatches: data.loadedBatches || 0,
         }));
       }
     } catch (error) {
@@ -115,7 +115,7 @@ export function useFlashVacation() {
     trips: FlashTripPackage[],
     currentIndex: number = 0,
     lastParams?: FlashGenerateParams | null,
-    hasLoadedMore: boolean = false
+    loadedBatches: number = 0
   ) => {
     try {
       sessionStorage.setItem(TRIPS_STORAGE_KEY, JSON.stringify({
@@ -123,7 +123,7 @@ export function useFlashVacation() {
         trips,
         currentTripIndex: currentIndex,
         lastGenerateParams: lastParams,
-        hasLoadedMore,
+        loadedBatches,
         timestamp: Date.now(),
       }));
     } catch (error) {
@@ -189,11 +189,11 @@ export function useFlashVacation() {
         trips: data.trips,
         currentTripIndex: 0,
         lastGenerateParams: params,
-        hasLoadedMore: false,
+        loadedBatches: 0,
       }));
 
       // Save to session storage
-      saveTripsToSession(data.sessionId, data.trips, 0, params, false);
+      saveTripsToSession(data.sessionId, data.trips, 0, params, 0);
 
       return data.trips;
     } catch (error: any) {
@@ -210,10 +210,12 @@ export function useFlashVacation() {
 
   const currentTrip = state.trips[state.currentTripIndex] || null;
 
-  // Load more trips in the background
+  // Load more trips in the background (supports continuous loading)
+  const MAX_BATCHES = 10; // Limit total batches to prevent infinite loading
+
   const loadMoreTrips = useCallback(async () => {
-    // Don't load if already loading, no params, or already loaded more
-    if (state.isLoadingMore || !state.lastGenerateParams || state.hasLoadedMore) {
+    // Don't load if already loading, no params, or reached max batches
+    if (state.isLoadingMore || !state.lastGenerateParams || state.loadedBatches >= MAX_BATCHES) {
       return;
     }
 
@@ -241,26 +243,28 @@ export function useFlashVacation() {
       if (data.trips && data.trips.length > 0) {
         setState(prev => {
           const newTrips = [...prev.trips, ...data.trips];
+          const newBatchCount = prev.loadedBatches + 1;
           // Save to session with updated trips
           if (prev.sessionId) {
-            saveTripsToSession(prev.sessionId, newTrips, prev.currentTripIndex, prev.lastGenerateParams, true);
+            saveTripsToSession(prev.sessionId, newTrips, prev.currentTripIndex, prev.lastGenerateParams, newBatchCount);
           }
           return {
             ...prev,
             trips: newTrips,
             isLoadingMore: false,
-            hasLoadedMore: true,
+            loadedBatches: newBatchCount,
           };
         });
-        console.log(`Loaded ${data.trips.length} more trips in background`);
+        console.log(`[LazyLoad] Loaded batch ${state.loadedBatches + 1}: ${data.trips.length} more trips (total: ${state.trips.length + data.trips.length})`);
       } else {
-        setState(prev => ({ ...prev, isLoadingMore: false, hasLoadedMore: true }));
+        // No more trips available, mark as max reached
+        setState(prev => ({ ...prev, isLoadingMore: false, loadedBatches: MAX_BATCHES }));
       }
     } catch (error) {
       console.error('Failed to load more trips:', error);
       setState(prev => ({ ...prev, isLoadingMore: false }));
     }
-  }, [state.isLoadingMore, state.lastGenerateParams, state.hasLoadedMore, state.trips]);
+  }, [state.isLoadingMore, state.lastGenerateParams, state.loadedBatches, state.trips]);
 
   const swipeLeft = useCallback(() => {
     setState(prev => {
@@ -271,7 +275,7 @@ export function useFlashVacation() {
 
       // Update session storage
       if (prev.sessionId) {
-        saveTripsToSession(prev.sessionId, prev.trips, newIndex, prev.lastGenerateParams, prev.hasLoadedMore);
+        saveTripsToSession(prev.sessionId, prev.trips, newIndex, prev.lastGenerateParams, prev.loadedBatches);
       }
 
       return {
@@ -292,7 +296,7 @@ export function useFlashVacation() {
 
       // Update session storage
       if (prev.sessionId) {
-        saveTripsToSession(prev.sessionId, prev.trips, newIndex, prev.lastGenerateParams, prev.hasLoadedMore);
+        saveTripsToSession(prev.sessionId, prev.trips, newIndex, prev.lastGenerateParams, prev.loadedBatches);
       }
 
       return {
@@ -304,40 +308,41 @@ export function useFlashVacation() {
   }, []);
 
   // Trigger loading more trips when user reaches card 4 (index 3)
+  // Also trigger when approaching the end of current trips
   useEffect(() => {
     const LOAD_MORE_THRESHOLD = 3; // When at card 4 (0-indexed as 3)
-    const INITIAL_BATCH_SIZE = 8;
+    const REMAINING_THRESHOLD = 4; // Load more when 4 or fewer trips remaining
+
+    const tripsRemaining = state.trips.length - state.currentTripIndex - 1;
+    const shouldLoadMore =
+      !state.isLoadingMore &&
+      state.loadedBatches < MAX_BATCHES &&
+      state.lastGenerateParams &&
+      state.trips.length > 0 &&
+      (state.currentTripIndex >= LOAD_MORE_THRESHOLD || tripsRemaining <= REMAINING_THRESHOLD);
 
     // Debug logging for lazy load
     console.log('[LazyLoad] Check:', {
       currentIndex: state.currentTripIndex,
       tripsLength: state.trips.length,
+      tripsRemaining,
       isLoadingMore: state.isLoadingMore,
-      hasLoadedMore: state.hasLoadedMore,
+      loadedBatches: state.loadedBatches,
+      maxBatches: MAX_BATCHES,
       hasParams: !!state.lastGenerateParams,
-      shouldTrigger: state.currentTripIndex >= LOAD_MORE_THRESHOLD &&
-        state.trips.length === INITIAL_BATCH_SIZE &&
-        !state.isLoadingMore &&
-        !state.hasLoadedMore &&
-        !!state.lastGenerateParams
+      shouldTrigger: shouldLoadMore
     });
 
-    // Only trigger if:
-    // 1. User has reached the threshold
-    // 2. We have exactly the initial batch (haven't loaded more yet)
-    // 3. We're not already loading
+    // Trigger if:
+    // 1. User has reached threshold OR is running low on trips
+    // 2. We're not already loading
+    // 3. We haven't reached max batches
     // 4. We have params to use
-    if (
-      state.currentTripIndex >= LOAD_MORE_THRESHOLD &&
-      state.trips.length === INITIAL_BATCH_SIZE &&
-      !state.isLoadingMore &&
-      !state.hasLoadedMore &&
-      state.lastGenerateParams
-    ) {
-      console.log('[LazyLoad] Triggering loadMoreTrips!');
+    if (shouldLoadMore) {
+      console.log('[LazyLoad] Triggering loadMoreTrips! Batch:', state.loadedBatches + 1);
       loadMoreTrips();
     }
-  }, [state.currentTripIndex, state.trips.length, state.isLoadingMore, state.hasLoadedMore, state.lastGenerateParams, loadMoreTrips]);
+  }, [state.currentTripIndex, state.trips.length, state.isLoadingMore, state.loadedBatches, state.lastGenerateParams, loadMoreTrips]);
 
   const swipeRight = useCallback(() => {
     setState(prev => ({

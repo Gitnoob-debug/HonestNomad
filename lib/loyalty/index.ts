@@ -1,9 +1,11 @@
 /**
  * Loyalty Program Integration
  * Handles automatic attachment of loyalty program numbers to flight bookings
+ * and hotel loyalty reminders at check-in
  */
 
 export * from './airlines';
+export * from './hotels';
 
 import type { FlightBookingPassenger, LoyaltyProgramAccount } from '@/types/flight';
 import { findMatchingLoyaltyProgram, getLoyaltyProgramIata } from './airlines';

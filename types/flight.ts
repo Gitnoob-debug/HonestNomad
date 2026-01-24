@@ -111,6 +111,11 @@ export interface NormalizedFlight {
   expiresAt?: string;
 }
 
+export interface LoyaltyProgramAccount {
+  airlineIataCode: string;  // e.g., "AA", "UA", "DL"
+  accountNumber: string;
+}
+
 export interface FlightBookingPassenger {
   type: PassengerType;
   givenName: string;
@@ -122,6 +127,7 @@ export interface FlightBookingPassenger {
   passportNumber?: string;
   passportExpiry?: string;
   nationality?: string;
+  loyaltyProgramAccounts?: LoyaltyProgramAccount[];  // Frequent flyer numbers
 }
 
 export interface FlightBookingParams {

@@ -124,6 +124,13 @@ export async function createFlightBooking(
         },
       ],
     }),
+    // Include loyalty program accounts for automatic mile accrual
+    ...(p.loyaltyProgramAccounts && p.loyaltyProgramAccounts.length > 0 && {
+      loyalty_programme_accounts: p.loyaltyProgramAccounts.map((lp) => ({
+        airline_iata_code: lp.airlineIataCode,
+        account_number: lp.accountNumber,
+      })),
+    }),
   }));
 
   // Build payment object

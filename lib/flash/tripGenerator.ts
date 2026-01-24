@@ -11,6 +11,7 @@ import { searchFlights } from '@/lib/duffel/flights';
 import type { NormalizedFlight } from '@/types/flight';
 import { getDestinationImages } from './destinationImages';
 import { getTransferInfo } from './hubAirports';
+import type { RevealedPreferences } from './preferenceEngine';
 
 export interface GenerationProgress {
   stage: 'finding_destinations' | 'searching_flights' | 'building_trips' | 'complete';
@@ -26,6 +27,7 @@ export type ProgressCallback = (progress: GenerationProgress) => void;
 export async function generateTripBatch(
   params: FlashGenerateParams,
   profile: FlashVacationPreferences,
+  revealedPreferences?: RevealedPreferences,
   onProgress?: ProgressCallback
 ): Promise<{
   trips: FlashTripPackage[];
@@ -42,7 +44,7 @@ export async function generateTripBatch(
 
   report('finding_destinations', 0, 'Finding perfect destinations...');
 
-  // Step 1: Select diverse destinations
+  // Step 1: Select diverse destinations (with revealed preference learning)
   let destinations = selectDestinations({
     profile,
     departureDate: params.departureDate,
@@ -51,6 +53,7 @@ export async function generateTripBatch(
     region: params.region,
     count: count + 8, // Request extras in case some fail or are excluded
     originAirport: profile.homeBase.airportCode,
+    revealedPreferences, // Pass learned preferences for smarter selection
   });
 
   // Filter out excluded destinations (for lazy loading)

@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { getFlashPreferences } from '@/lib/supabase/profiles';
 import { generateTripBatch } from '@/lib/flash/tripGenerator';
+import { loadRevealedPreferences } from '@/lib/flash/preferenceStorage';
 import type { FlashGenerateParams } from '@/types/flash';
 
 export async function POST(request: NextRequest) {
@@ -59,7 +60,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Generate trip batch
+    // Load revealed preferences (learned from swipe behavior)
+    const revealedPreferences = await loadRevealedPreferences(user.id);
+
+    // Generate trip batch with revealed preferences
     const { trips, generationTime, diversityScore } = await generateTripBatch(
       {
         departureDate: body.departureDate,
@@ -69,7 +73,8 @@ export async function POST(request: NextRequest) {
         count: body.count || 8,
         excludeDestinations: body.excludeDestinations,
       },
-      preferences
+      preferences,
+      revealedPreferences
     );
 
     // Create session ID for this batch

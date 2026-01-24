@@ -1,5 +1,7 @@
 import type { FlashVacationPreferences, Destination, DestinationVibe } from '@/types/flash';
 import { DESTINATIONS, getDestinationsForMonth } from './destinations';
+import type { RevealedPreferences } from './preferenceEngine';
+import { scoreDestination, hasEnoughSignals } from './preferenceEngine';
 
 interface ScoredDestination {
   destination: Destination;
@@ -8,6 +10,7 @@ interface ScoredDestination {
     seasonalFit: number;      // 0-1: How appropriate for travel dates
     vibeMatch: number;        // 0-1: How well it matches requested vibes
     budgetFit: number;        // 0-1: How well it fits budget
+    revealedPref: number;     // 0-1: How well it matches revealed preferences
     total: number;            // Weighted sum
   };
 }
@@ -20,6 +23,7 @@ interface SelectionParams {
   region?: string;
   count: number;
   originAirport: string;
+  revealedPreferences?: RevealedPreferences; // User's learned preferences from swipe behavior
 }
 
 /**
@@ -195,7 +199,7 @@ function scoreBudgetFit(destination: Destination, profile: FlashVacationPreferen
  * Select a diverse set of destinations based on profile and preferences
  */
 export function selectDestinations(params: SelectionParams): Destination[] {
-  const { profile, departureDate, returnDate, vibes, region, count, originAirport } = params;
+  const { profile, departureDate, returnDate, vibes, region, count, originAirport, revealedPreferences } = params;
 
   // Start with all destinations
   let candidates = [...DESTINATIONS];
@@ -208,6 +212,9 @@ export function selectDestinations(params: SelectionParams): Destination[] {
   // Don't suggest the origin city
   candidates = candidates.filter(d => d.airportCode !== originAirport);
 
+  // Check if we have enough revealed preference data to use it
+  const useRevealedPrefs = revealedPreferences && hasEnoughSignals(revealedPreferences);
+
   // Score each destination
   const scoredDestinations: ScoredDestination[] = candidates.map(destination => {
     const profileMatch = scoreProfileMatch(destination, profile);
@@ -215,16 +222,34 @@ export function selectDestinations(params: SelectionParams): Destination[] {
     const vibeMatch = scoreVibeMatch(destination, vibes || []);
     const budgetFit = scoreBudgetFit(destination, profile);
 
-    // Weighted total
-    const total =
-      profileMatch * 0.35 +
-      seasonalFit * 0.25 +
-      vibeMatch * 0.25 +
-      budgetFit * 0.15;
+    // Calculate revealed preference score (0.5 neutral if not enough data)
+    const revealedPref = useRevealedPrefs
+      ? scoreDestination(revealedPreferences!, destination)
+      : 0.5;
+
+    // Weighted total - adjust weights when revealed prefs are available
+    let total: number;
+    if (useRevealedPrefs) {
+      // When we have revealed preferences, they get significant weight
+      // Reduce profile match weight since revealed prefs are more accurate
+      total =
+        profileMatch * 0.20 +     // Reduced from 0.35
+        seasonalFit * 0.20 +      // Reduced from 0.25
+        vibeMatch * 0.20 +        // Reduced from 0.25
+        budgetFit * 0.10 +        // Reduced from 0.15
+        revealedPref * 0.30;      // New: 30% weight for learned preferences
+    } else {
+      // Without revealed preferences, use original weights
+      total =
+        profileMatch * 0.35 +
+        seasonalFit * 0.25 +
+        vibeMatch * 0.25 +
+        budgetFit * 0.15;
+    }
 
     return {
       destination,
-      scores: { profileMatch, seasonalFit, vibeMatch, budgetFit, total },
+      scores: { profileMatch, seasonalFit, vibeMatch, budgetFit, revealedPref, total },
     };
   });
 
@@ -233,6 +258,11 @@ export function selectDestinations(params: SelectionParams): Destination[] {
 
   // Apply diversity based on surprise tolerance
   const surpriseTolerance = profile.surpriseTolerance || 3;
+
+  // Use discovery-aware selection when revealed preferences are active
+  if (useRevealedPrefs) {
+    return selectWithDiscovery(scoredDestinations, count, surpriseTolerance);
+  }
 
   return selectDiverseSet(scoredDestinations, count, surpriseTolerance);
 }
@@ -327,6 +357,79 @@ function selectDiverseSet(
   }
 
   return selected;
+}
+
+/**
+ * Select destinations with discovery slots for variety
+ * 25% of results are "discovery" picks - destinations the user might not typically choose
+ * but could help expand their preferences
+ */
+function selectWithDiscovery(
+  scored: ScoredDestination[],
+  count: number,
+  surpriseTolerance: number
+): Destination[] {
+  const DISCOVERY_RATIO = 0.25; // 25% discovery, 75% preference-matched
+  const discoveryCount = Math.max(1, Math.floor(count * DISCOVERY_RATIO));
+  const preferenceCount = count - discoveryCount;
+
+  // Get top preference-matched destinations
+  const topPicks = selectDiverseSet(scored, preferenceCount, surpriseTolerance);
+
+  // For discovery picks, look at destinations that scored lower in revealed prefs
+  // but still have decent profile/seasonal fit (avoid truly bad matches)
+  const usedCities = new Set(topPicks.map(d => d.city.toLowerCase()));
+
+  // Filter candidates for discovery:
+  // - Not already selected
+  // - Has reasonable base quality (profile + seasonal > 0.4)
+  // - Lower revealed preference score (the "discovery" aspect)
+  const discoveryPool = scored
+    .filter(s => !usedCities.has(s.destination.city.toLowerCase()))
+    .filter(s => {
+      const baseQuality = (s.scores.profileMatch + s.scores.seasonalFit) / 2;
+      return baseQuality > 0.4; // Still a reasonable trip
+    })
+    .filter(s => s.scores.revealedPref < 0.6); // Lower preference = discovery opportunity
+
+  // Shuffle and pick discovery destinations
+  const shuffled = shuffleArray(discoveryPool);
+  const discoveryPicks = shuffled
+    .slice(0, discoveryCount)
+    .map(s => s.destination);
+
+  // Interleave: put discovery picks at positions 3, 6, etc (every 3rd slot starting at index 2)
+  const result: Destination[] = [];
+  let topIdx = 0;
+  let discoveryIdx = 0;
+
+  for (let i = 0; i < count; i++) {
+    // Every 3rd slot (starting at index 2) is a discovery slot
+    if ((i + 1) % 3 === 0 && discoveryIdx < discoveryPicks.length) {
+      result.push(discoveryPicks[discoveryIdx]);
+      discoveryIdx++;
+    } else if (topIdx < topPicks.length) {
+      result.push(topPicks[topIdx]);
+      topIdx++;
+    } else if (discoveryIdx < discoveryPicks.length) {
+      result.push(discoveryPicks[discoveryIdx]);
+      discoveryIdx++;
+    }
+  }
+
+  return result;
+}
+
+/**
+ * Shuffle array using Fisher-Yates algorithm
+ */
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 }
 
 /**

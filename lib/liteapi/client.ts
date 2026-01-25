@@ -35,8 +35,16 @@ async function liteApiRequest<T>(
 
   if (!response.ok) {
     const errorText = await response.text();
-    console.error(`LiteAPI error [${response.status}]:`, errorText);
-    throw new Error(`LiteAPI request failed: ${response.status} ${response.statusText}`);
+    console.error(`LiteAPI error [${response.status}] ${endpoint}:`, errorText);
+    // Include error details in the thrown error
+    let errorDetail = response.statusText;
+    try {
+      const errorJson = JSON.parse(errorText);
+      errorDetail = errorJson.message || errorJson.error || errorText;
+    } catch {
+      errorDetail = errorText || response.statusText;
+    }
+    throw new Error(`LiteAPI request failed: ${response.status} - ${errorDetail}`);
   }
 
   return response.json();
@@ -129,14 +137,22 @@ export async function getHotelRates(
 ): Promise<LiteAPIRatesResponse> {
   const { currency = 'USD', guestNationality = 'US' } = options;
 
+  // Clean occupancies - remove undefined children
+  const cleanOccupancies = occupancies.map(occ => ({
+    adults: occ.adults,
+    ...(occ.children && occ.children.length > 0 ? { children: occ.children } : {}),
+  }));
+
   const body = {
     hotelIds,
     checkin,
     checkout,
-    occupancies,
+    occupancies: cleanOccupancies,
     currency,
     guestNationality,
   };
+
+  console.log('[LiteAPI] Rates request:', JSON.stringify(body, null, 2));
 
   const response = await liteApiRequest<LiteAPIRatesResponse>('/hotels/rates', {
     method: 'POST',

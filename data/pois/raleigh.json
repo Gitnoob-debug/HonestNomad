@@ -1449,27 +1449,6 @@
         "updatedAt": "2026-01-23T15:59:11.523Z"
       },
       {
-        "id": "ChIJkcFLYVtIsokRr5ozTbd95ho",
-        "destinationId": "raleigh",
-        "pathType": "adventure",
-        "rank": 15,
-        "name": "Sandy River Outdoor Adventure",
-        "description": "Relaxed adventure resort on a farm with cozy cabins, tipis & a cottage, plus a heated outdoor pool.",
-        "category": "activity",
-        "latitude": 37.255722899999995,
-        "longitude": -78.33224729999999,
-        "address": "147 Monroe Church Rd, Rice, VA 23966, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 409,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJkcFLYVtIsokRr5ozTbd95ho/photos/AcnlKN2qWRwPRdSbLg0Fqa5LccN4BKxgv77pp4Av16Diz672WgJnZNokdEA9HcCVkQVvRTy2HudbGEz5AGLHwXeN4EZ0eg_dNJkZo2cFdFAeVEq_mfSi2kXIwrDfC5YEVM09qXAlUbrcoifkQqp2c17VK-kqQ8uBD7KtkMetR9Ax6IFH_8SfIJm8v9ME1JfPJ2rDsAkgRibMZimWj6cWj9pSzhsXGQHeqx4WksF-Ea0AxBP1cThmz6Qe7n-Lf-TQPnaAKrcxp-pEqc0lPYyDQ46T4zIIRQpbe5LMFUYojhl25vZv6w/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.sandyriveroutdooradventures.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=1938374915857291951&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:59:11.523Z",
-        "updatedAt": "2026-01-23T15:59:11.523Z"
-      },
-      {
         "id": "ChIJc-BabEBZrIkRKyhYD6TXD4I",
         "destinationId": "raleigh",
         "pathType": "adventure",
@@ -3892,5 +3871,5 @@
   "lastFetched": "2026-01-23T15:59:08.516Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 183
+  "totalPOIs": 182
 }

@@ -175,27 +175,6 @@
         "updatedAt": "2026-01-23T15:30:01.057Z"
       },
       {
-        "id": "ChIJpxOOmNXHh0gRLSAvZMYaD6k",
-        "destinationId": "glasgow",
-        "pathType": "classic",
-        "rank": 9,
-        "name": "National Monument of Scotland",
-        "description": "Historical hilltop memorial to soldiers & sailors from Scotland who perished in the Napoleonic Wars.",
-        "category": "landmark",
-        "latitude": 55.9547653,
-        "longitude": -3.1819062,
-        "address": "Calton Hill, Edinburgh EH7 5AA, UK",
-        "googleRating": 4.7,
-        "googleReviewCount": 2544,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJpxOOmNXHh0gRLSAvZMYaD6k/photos/AcnlKN3HZScoYgwKEnuSZ7Y0tlcp0qac8FYexQu0aBkcqmrymLhZoEqbpq4-BuyZNeR8AJ6CFKKLVYBYA6j_jJ6ASBXsnTlU3Qm4N7zqxLnaxZyVB6oIuGtDB9n4CuqtPIev9yqJ2aHI3qIsauC55ZtIemcnrq-MF4oAqtLYCz5JvUQ8SjRjJVcVH948fnNYfgwQjIF93jMpDAaF9L3w3OdFYVUN3l0T8ldLsUW55C7LY5vGC2uAhySLL3V3ZsBb7wnCbXIZ0oMCbsgXYwMGUiGOX13UpDYl3ECwd9VsKHTGTl9wcMspGED5k-JLUcYET0ifFhb0kKrjcCCXo_BlnGRv5F7y4XLMxHnm0Kf3KrWvvt0dFcOwzdhJOHQrJyy6114bxywyj1t3W3E3qGBJp3AMX__2ZmNtel_6yjd0mLB-_KIoe8jygi_KD8nQu7_qQpvO/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://ewh.org.uk/iconic-buildings-and-monuments/national-monument/",
-        "googleMapsUrl": "https://maps.google.com/?cid=12181984956447137837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:30:01.057Z",
-        "updatedAt": "2026-01-23T15:30:01.057Z"
-      },
-      {
         "id": "ChIJ4WcfDaliiEgR3d3IGt_EAgw",
         "destinationId": "glasgow",
         "pathType": "classic",
@@ -1845,27 +1824,6 @@
     ],
     "cultural": [
       {
-        "id": "ChIJIeS60YTHh0gRw7W-8gMnzIg",
-        "destinationId": "glasgow",
-        "pathType": "cultural",
-        "rank": 1,
-        "name": "National Museum of Scotland",
-        "description": "Bright, modern museum housing Scottish industrial history relics, natural history displays & a cafe.",
-        "category": "museum",
-        "latitude": 55.9469995,
-        "longitude": -3.1905666,
-        "address": "Chambers St, Edinburgh EH1 1JF, UK",
-        "googleRating": 4.8,
-        "googleReviewCount": 55610,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "afternoon",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJIeS60YTHh0gRw7W-8gMnzIg/photos/AcnlKN1uQRS2NePm_2cDwWKz4TjcP4Ywna0SirhOcbY2vnmZV56y_5rRo4iH3lLl6be7lxeCcz4SPzRBy9kQ7gt1QxxHizbqwzDCzgtnRzVzOP6-C-7IygDXqfpRbthXnfzES0kNLmpMseUhDQveycl-hawkzuDDxOddjLcmMnWlQvitmcN15YfMnuf4hxUyM4ugN-YlxeBPGPtiuLh1gtXLLWr341LuHxmJ0UKO8HGFDfheBIEq6FVl3paSc3iNVAUj9_gvW9STQVSYqZm6BdL7igNWY0oJ1Q2tHT4yq8qgHcKS7FJnp_dlG4KVRSPTjCa1j6mFPwwFG2-CjlINYPdlgBiPhsVHkH3bv3igXvGyA2pd2gbR5QayT0XYhQalFvvwGNvd96RJBzy5YAU9mgyNAwmESPsq5lE3zfjjLYz5kfpgxJA/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nms.ac.uk/national-museum-of-scotland/",
-        "googleMapsUrl": "https://maps.google.com/?cid=9857296582318142915&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:30:04.768Z",
-        "updatedAt": "2026-01-23T15:30:04.768Z"
-      },
-      {
         "id": "ChIJ6ZTla9FFiEgR_p_K8XyyWFI",
         "destinationId": "glasgow",
         "pathType": "cultural",
@@ -3016,26 +2974,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5cgs46dGiEgR3VTrscYV3Kk/photos/AcnlKN3ta6c1gYrFyM3IeuIFWFTigA2ruYwPp8ImX9Wcpf8D7wdFGYVW4DaxjkrB7a15ef0fNWB8HlXnNfSlNDY-oJWpH_q3qQ3tGVab4SSStjEaQ96Wi48l8JLBw-22Gh0MVQXcPsyU1DjzJhzqGF95GosDHyqFeLHKxAPHOOlE_wW-tEY6pNZ1TAqvBv6oGv5aUY9mu17-weuMqulAHAGNMyoeIqKoRgFH7Q-B8pxcwfZHStH0xSIUZOQ08RJ_ovBboxhGwxgS12A28JEj_sfqLMdS9GxMtujtygJP2B7qJjKokH-dxLb0oUr6HkQqTLb5EYqQO3OrNk4TvgGq8AhYY_b_4GidUn5ZXmkFNr3OxaOqopUenoJfRGbYv54X5OcX--8Eq0Zc0e06n4LjX8hX7PF-so391K98N-ok5yhf2_SNCLjxbfKS9rOX6hNuTQ8-/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "http://www.glasgowlife.org.uk/museums/provands-lordship/Pages/St-Nicholas-Garden.aspx",
         "googleMapsUrl": "https://maps.google.com/?cid=12239681830418863325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:30:06.186Z",
-        "updatedAt": "2026-01-23T15:30:06.186Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "glasgow",
-        "pathType": "relaxation",
-        "rank": 27,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0oHYwnbOhaEAi7eZTz_9D2__diK4Z_Yj1vYjRG3EZ57guHMbRSaf6YEUkE4S91pMmPr04CdRSSgkWmsDV9zPn4h3OX7YLsQ5lZJG2c8Sf-YmRWSa--1hFPofGNZnpgxiqz0M2TTAQN4Wbtl2N_EBVWZnYgB0ZltK7oryChElkYvV9b5uEq-48em1vRpOwXqwQKmpGVs7Y9hg1vfS0v1fC98WeFUSVzSwawzJT5_EqqJB5a4_14OmmjzvKIer13mtoj4J8upb-9Mgp3-fN06oThlxvEomTGySuHDxC4PhvUkGV94pO55XVkoXBuoMABqdxBTRFjd-V2igfrnGbLVX9TmNNbn4kKP5bDLvB9oiwfi57Hk5xYxAclTtyUFAnb2q-qB0YBVKJWFn7ovYUjVuScCyDCrLDbmhPZz0SbnoIyoBvl/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:06.186Z",
         "updatedAt": "2026-01-23T15:30:06.186Z"
       },
@@ -4346,5 +4284,5 @@
   "lastFetched": "2026-01-23T15:30:00.059Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 204
+  "totalPOIs": 201
 }

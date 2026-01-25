@@ -2538,26 +2538,6 @@
         "updatedAt": "2026-01-23T16:08:02.514Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "tanzania",
-        "pathType": "relaxation",
-        "rank": 22,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2IFNqyqZvsKiVVrmPlLSSDFdp84c5I1pTBpzELXpcjRs7L0I5KnCJjl4QpTFQsdpmt6lExBRInALXnLWby3mRmnc7gXk2OKYFLeLrusk3XI9OUJakUY-GQlxY5h9hhcqpmpFWBHQRl4wEDWWP1_pYyOC0ihNpQww6An-nOQTKyvsHibKhod2aFK2kfmSn1OWdWzvzcp6QJPPzrjgoXgoG2pQAU6rCyl9UgGbTrrKeKNbcatlONCKoVcPXhLeXhrf-VFq1QKvmcvQH4qtM-wuNlshdHJHp3y8HwM4uO2lfDxaggZcoIZZttjnZYFsgZc6s_5gkfYBSif9QxOkG50bT-eAutLlx8EXqja06y6kF3iDFCcZWidJ8Jdyj7hJ23NERwCKGIrko6aQGaNF812LyybJPHidbwh-2qXbPO-c4vYE4C/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:08:02.514Z",
-        "updatedAt": "2026-01-23T16:08:02.514Z"
-      },
-      {
         "id": "ChIJJyqDJ_IbNxgR6EzQSLOER64",
         "destinationId": "tanzania",
         "pathType": "relaxation",
@@ -3766,5 +3746,5 @@
   "lastFetched": "2026-01-23T16:07:56.488Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 181
+  "totalPOIs": 180
 }

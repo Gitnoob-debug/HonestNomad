@@ -3915,26 +3915,6 @@
         "updatedAt": "2026-01-23T15:37:30.302Z"
       },
       {
-        "id": "ChIJRafIc9qd5joR8baOknI8p4M",
-        "destinationId": "sri-lanka",
-        "pathType": "trendy",
-        "rank": 19,
-        "name": "Hidden Gem Yala",
-        "description": "Hotel - highly rated",
-        "category": "activity",
-        "latitude": 6.2753868,
-        "longitude": 81.2828875,
-        "address": "No 183, Canal Road, Aluthgoda Road, Tissamaharama 82600, Sri Lanka",
-        "googleRating": 5,
-        "googleReviewCount": 2,
-        "suggestedDuration": "1-1.5 hours",
-        "bestTimeOfDay": "any",
-        "websiteUrl": "https://www.booking.com/hotel/lk/hidden-gem-yala.html",
-        "googleMapsUrl": "https://maps.google.com/?cid=9486617602862003953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:37:30.302Z",
-        "updatedAt": "2026-01-23T15:37:30.302Z"
-      },
-      {
         "id": "ChIJXTvakN9b4joRhamqL3qa1pY",
         "destinationId": "sri-lanka",
         "pathType": "trendy",
@@ -4082,5 +4062,5 @@
   "lastFetched": "2026-01-23T15:37:22.719Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 196
+  "totalPOIs": 195
 }

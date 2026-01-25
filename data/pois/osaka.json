@@ -2534,26 +2534,6 @@
         "updatedAt": "2026-01-23T15:37:51.972Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "osaka",
-        "pathType": "relaxation",
-        "rank": 24,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0WY7_DHlvvJrBfvR-4ukjmEmdPGOx7Bb9BuIZXshQEuemjnbU2M0LN6QnD188NAHfVwJU8U3t-Dfmjri9K9CQSDzwclYYVP3obVE1TsKx1622caOHkUIhUv186F3D2TYSGljflDCBya96yqehK8zXK0g-PS06_7bWHefqiMMMX42CTf1_YTpdT6VzfKWAsPK7cAfaYbb7c6Y9OHqX6PPB5qS3LC38xSCG7NY9OlhhAtCqGmicXdSldGWBYzOruqyGzz4H0zCLgx99nb_GbUvABr_gv3NtzOCeG7UTiH3nlQwR7OH8MCht_icmmMXoyp9RcCVBts-AJociGnaoHvQ842fHcE6-cAKIpNIaNMTyqCIKKvkA8LT-5apxN6cG9ZmrOaAlJNlRMIX72Zt7ccSR3cy20Za1jyDEOoudWEWntsHjI/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:37:51.972Z",
-        "updatedAt": "2026-01-23T15:37:51.972Z"
-      },
-      {
         "id": "ChIJJ_CDrtTgAGARKLT1cue34KY",
         "destinationId": "osaka",
         "pathType": "relaxation",
@@ -3545,5 +3525,5 @@
   "lastFetched": "2026-01-23T15:37:46.982Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 167
+  "totalPOIs": 166
 }

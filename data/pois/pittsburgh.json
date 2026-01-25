@@ -1603,27 +1603,6 @@
         "updatedAt": "2026-01-23T15:58:07.484Z"
       },
       {
-        "id": "ChIJ-ZWWTTCryokRq3J3Qba_gCM",
-        "destinationId": "pittsburgh",
-        "pathType": "adventure",
-        "rank": 20,
-        "name": "Adventure Sports Center International",
-        "description": "Sports Complex - highly rated",
-        "category": "activity",
-        "latitude": 39.5468355,
-        "longitude": -79.3716328,
-        "address": "250 Adventure Sports Way, McHenry, MD 21541, USA",
-        "googleRating": 4.6,
-        "googleReviewCount": 241,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-ZWWTTCryokRq3J3Qba_gCM/photos/AcnlKN3VWZtVMI4fDkBCZvEqfOzHa_pcIbRF37M88TW7IyJdTKN3MBMFOhikJdJ_y_nrCZF-1fvwpVcxSUOYclXbZ-lGoIcMiQnLqmJ73ujXUNTiAePpusvS-kIoarTD7cKqQvl4H8s8IXDvZNkgXICYWHYF6ufx_Am5CkN3QAeBpaCFI3qk1xuV6zGvtld21PqWTGDc8jPHZGgwzZZEytuXBioOCoVzju48JGiMDNGvBniMQVpsWNvckxdxX4l02rtVlras_0eQ_qj1CE-3lyXJbRTHyqTPZcpKwsIIEgm4gCbCrN62Cz0yjlMGhhQEV5BwrwoQqKTUFhjDdHRDKKaOLCodKLv8rOSN60AHO_AqoAtUB0kPVZz23_vHmtd-XkqAmrzKnWqdYKz2K8MZabqDoLnwWY-Y7UCYxylqPla_U67lnfFc/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.wispresort.com/Whitewater-Rafting-and-Kayaking/",
-        "googleMapsUrl": "https://maps.google.com/?cid=2558255377849741995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:58:07.484Z",
-        "updatedAt": "2026-01-23T15:58:07.484Z"
-      },
-      {
         "id": "ChIJL-EseFaLNIgRnxmqY1qj6Nw",
         "destinationId": "pittsburgh",
         "pathType": "adventure",
@@ -4267,5 +4246,5 @@
   "lastFetched": "2026-01-23T15:58:04.098Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 200
+  "totalPOIs": 199
 }

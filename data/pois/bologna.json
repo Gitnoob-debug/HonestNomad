@@ -1218,27 +1218,6 @@
         "updatedAt": "2026-01-23T15:31:27.819Z"
       },
       {
-        "id": "ChIJBZzfTcCf1BIR5cWXkRYXZpE",
-        "destinationId": "bologna",
-        "pathType": "adventure",
-        "rank": 9,
-        "name": "Outdoor Portofino",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 44.308622799999995,
-        "longitude": 9.209650300000002,
-        "address": "Via Duca degli Abruzzi, 62, 16034 Portofino GE, Italy",
-        "googleRating": 4.7,
-        "googleReviewCount": 672,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJBZzfTcCf1BIR5cWXkRYXZpE/photos/AcnlKN3B7SG7SnaMbcHWLFACSkl-ovAgMTg7zDwGWoD_neTqm_JyZ79I3fMB5cZnStI6w3YvAltRsqD6U8M6ZtqUXq_yjyGjAGzHGcMzYWbMWIEaTxxNsPqmdJcaY5coNaaU1Auq-KNgnicvdLonLHBdXhvRHq8eDuJ66qx9WJ5U_MLSrsmKI9z_d1GwxGBGQTozxo1oXawuGY6jarATklPoXVL3XzZcYhBvBCcdwt3wQWszvqmnaPcfMfnByFORU0ICbEd7uEteBw5qL6LT4ltEEuDBbF4Hk0o3Vf7vFptDvCZ7PA/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.outdoorportofino.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=10477086968823399909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:31:27.819Z",
-        "updatedAt": "2026-01-23T15:31:27.819Z"
-      },
-      {
         "id": "ChIJLUsdS2uDKhMRnPv5nAqTPI4",
         "destinationId": "bologna",
         "pathType": "adventure",
@@ -2641,26 +2620,6 @@
         "updatedAt": "2026-01-23T15:31:30.053Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "bologna",
-        "pathType": "relaxation",
-        "rank": 19,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3nrW2sYoz3W89_39Sse2EKGPisjfGKA1wpVRQOuq8qa1xhgsLl3wkBZ7ibTcHjLvp68wQ9mK_eLG6Qzn2o6zXoU0z3WZNcxMgti_Xrgz-a4IVf1rAJ_dHgknyIZhfCpFE-HCvrJVUZ7RjIXeOg8RGhBRS1ibKhV7_u11Kgps57fDXX2PKPv95M-jv5Zr02IZR7Zi2NlAW6GjswWQWQ5Yfur79N7vMn-6ojqIHGBg0e5f-woJKe4b6szVSVpVNdHpWERyQ0Y5xxFeJiktdJhWWp5GO0MnNdS4K86dl2_R_VhtM29mZGuOJx_ET-2rC3DAyRI8X7lett8GGvq8sSBiH7TfYOcKVN_4GISCIg1_Cl8VZCYSV03j-dPrJyaQ01Iu-uBb28HjYQmUrwsh8yvqLaqBZGky7yLfTVXUiAPHfqBsPh/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:31:30.053Z",
-        "updatedAt": "2026-01-23T15:31:30.053Z"
-      },
-      {
         "id": "ChIJJ6fINpfVKhMRf25oLzQG9dU",
         "destinationId": "bologna",
         "pathType": "relaxation",
@@ -3417,5 +3376,5 @@
   "lastFetched": "2026-01-23T15:31:24.615Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 161
+  "totalPOIs": 159
 }

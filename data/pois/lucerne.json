@@ -3066,26 +3066,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=12806767279746992189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:25:30.128Z",
         "updatedAt": "2026-01-23T15:25:30.128Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "lucerne",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0LP2az7BrW-x_jmbjZ78XsMsoZj5z3sg0t6BY65NQe_aZmaOZNweG1Pt8hLHDQ3F4r-3DXcrNI1fsALD4ecIHFEHx5Y-Zj_zKcyLbXzTtinGlIMpim6e1dGNDrsXP54kB-aLn1Xcsx7KDjbxR3DE7Nf3Z6Sn9PaStaenuwPx22rpA33SWoA0e_HxRWY4BFbp4zVkmD3BgkqXbaeWbFIFphEUD88RCHv3W-4_YXu1WNUKvXdCexro27Xdg18ZfQr0m4F9Zw4R7tCe2KN401qG2jbdsVLBTocnf0Ti6Gw3NQ1gJbInAz2-fjaVqOS61FkAin42ynQyt1y9ZNWG8EGKlN1UcOYTxj15EOKL9BxQeAzKfkl7q4E3BlmrlRcZDrI-B0Xs7usLXhh5TigJ0VPRaMnuUSx2HGQaNk_qsprQs3IZzY/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:25:30.128Z",
-        "updatedAt": "2026-01-23T15:25:30.128Z"
       }
     ],
     "nightlife": [
@@ -4080,5 +4060,5 @@
   "lastFetched": "2026-01-23T15:25:25.150Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 192
+  "totalPOIs": 191
 }

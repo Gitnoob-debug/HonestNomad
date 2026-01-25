@@ -90,27 +90,6 @@
         "updatedAt": "2026-01-23T15:46:47.643Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "lima",
-        "pathType": "classic",
-        "rank": 5,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN0jjT2EBIkbuCvseJ72CYV6zG2VTMZqa-e1FUa1zS5cFRxTPyhCTXTSA8ryfgjQnR5h3h03CzJBoTGxmVN4nc1O3FmLLDcKMuY0HoHyVuyaz9QqtSvRY85iBz3M7bly1JD_fZjYA1mpI9XL4g_CbqaLGo04EA70d-gd4wpDezed_tRuTdAdTvvTf00dppewdwhNUZL3AioRWAe2-5wx57tnInVp9HsyBsaFI9x825yPaauewjQSFZjirW6MpZbaWpQn2RUT3SNsLFD36xuMZTnSU_oeF3Qz7agn5x-_0QVQ9fMP-X03Q5v_1877XA8fw3qXpgYmaRl9ePtD3_exTFM2WF_4SAT7UQgQDTj_DIDjKOcuxKr3RWyMLaz6g29gCJvdE9bem5Zi29Qbbulj-UFRl4QshXaSzi4b-jrU9ZIFOg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:46:47.643Z",
-        "updatedAt": "2026-01-23T15:46:47.643Z"
-      },
-      {
         "id": "ChIJi981abTIBZERygfRCcn1P28",
         "destinationId": "lima",
         "pathType": "classic",
@@ -3846,5 +3825,5 @@
   "lastFetched": "2026-01-23T15:46:46.892Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 182
+  "totalPOIs": 181
 }

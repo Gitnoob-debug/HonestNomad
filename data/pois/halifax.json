@@ -1337,27 +1337,6 @@
         "updatedAt": "2026-01-23T15:52:21.975Z"
       },
       {
-        "id": "ChIJWdGi4I_jXEsR9f3546F7OYM",
-        "destinationId": "halifax",
-        "pathType": "adventure",
-        "rank": 18,
-        "name": "TNT Outdoor Adventures Inc.",
-        "description": "Tourist Attraction - highly rated",
-        "category": "landmark",
-        "latitude": 46.130958199999995,
-        "longitude": -60.8893573,
-        "address": "1072 Cabot Trail, Hunters Mountain, NS B0E 1B0, Canada",
-        "googleRating": 4.9,
-        "googleReviewCount": 95,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJWdGi4I_jXEsR9f3546F7OYM/photos/AcnlKN1_cUd-LSc7ks7oh7scik3HQevLd7L1xpzbpaPdDZQJawis-wS0X-jqpYdceAHLGKy9frPBXfTcGWplCIqwsTpiJg5MbV42qMTsHXZkKlGjtj1pnnrgPyQeASHUSRiPMt2cwu2Dz8B4hruddCWJa7W3HJTlFnbK42gp_4c_D0PjICldSglAzSrFDol5t3VDz_HrGJxaySjUunQrwnvkMgFVIp5bVqmLtsEmxmlgYlVY2ZmCOmlTph6We_h-m_rZKib8Mb5nZvNpgq5ihTrCDzygjspsrvxW5rV6yI07Pd6wsg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.tntoutdooradventures.ca/",
-        "googleMapsUrl": "https://maps.google.com/?cid=9455724827885829621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:52:21.976Z",
-        "updatedAt": "2026-01-23T15:52:21.976Z"
-      },
-      {
         "id": "ChIJt__f7iUZWksRzDemxNde1rU",
         "destinationId": "halifax",
         "pathType": "adventure",
@@ -2831,26 +2810,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=8004928799210809603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:52:24.387Z",
         "updatedAt": "2026-01-23T15:52:24.387Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "halifax",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2gP0LyhIBxc-DUUvjC8uZc_ztVTz5_7b9Z6SDXC1xGshtFyBh0qawqqV_xA86H2qEHwmS1i4yhhmo9aL11W_I6a1QXf8jwIdjyukXayJCiSZ48vd8ORxHMCcYXltcbMh5fWCC3UuLLdsAH_PbsR6otxBX-aTNk_K7QxO7XuxkW8QKF22wFpnLDr9L7UAvKBvcfcQUrGer5XZacSlwPqdv5_fzmA6jzfNK6LLYljdgd_jqWky-jpDOJCaltMTRELRIrxNoWijElayhumyF9VnsQnvbZ6b5quavemsdS0ZOTQK4FtFAPY5ombigoHtJPEk_2isbAcG-eJp4ottuZ4eq5x2wmKv-525ZSHXYfaV2ru-66ZH4wwxc_TWQgOTS-bHehL5iqUONvtI1cCxAJFjJxoRB4ce0H2ZBEIEOhUedvnkFI/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:52:24.387Z",
-        "updatedAt": "2026-01-23T15:52:24.387Z"
       }
     ],
     "nightlife": [
@@ -3704,5 +3663,5 @@
   "lastFetched": "2026-01-23T15:52:18.687Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 174
+  "totalPOIs": 172
 }

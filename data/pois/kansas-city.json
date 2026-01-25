@@ -3077,26 +3077,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=10323116984168981845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:58:01.198Z",
         "updatedAt": "2026-01-23T15:58:01.198Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "kansas-city",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0_tufqF9qujM3hsFKC_VYMHKb7hN1P2plQ7m0Fw811hr0-WRtQZYts_VpeK8sxRoTO90OWR_JFqKbX2sQge2CXKHFIF9vxAoljEkHKVT3A4VS-OMtTqTH8H_wxU07ByqbWtcR4fGlK16PrfC_aqVuSB5XMFdbw_4DPhQBxeav0ThpEu9AQM_Eky4SDHyKSGjKZlp-Nx6xtxYOL3h2mY1BUO2P-ZuP4P9u7l9D-uwltWeU5BPJWWy-XYd8s2LcjOA6M5chilZYvoYEudyCuPipWCU9ZMz2HdzKe_1D5xu8Y0CnWSCsz6WQX7oIkgCg9AThgD28UGwKIRi2rsA_BtIoWctz9hPhXx3tfvAY9WNG1JOQbrYvdYgb0TShAX2JszePZNM5CqszWUnsAQIsAd022q15ByLPSvkEOg_u8gDxFUXC0/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:58:01.198Z",
-        "updatedAt": "2026-01-23T15:58:01.198Z"
       }
     ],
     "nightlife": [
@@ -4297,5 +4277,5 @@
   "lastFetched": "2026-01-23T15:57:55.455Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 201
+  "totalPOIs": 200
 }

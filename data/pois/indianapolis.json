@@ -1541,27 +1541,6 @@
         "updatedAt": "2026-01-23T15:58:54.130Z"
       },
       {
-        "id": "ChIJ7zROaD5MQIgRZprjB4Yql2s",
-        "destinationId": "indianapolis",
-        "pathType": "adventure",
-        "rank": 18,
-        "name": "Adventure Outpost",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 39.2584212,
-        "longitude": -84.50082019999999,
-        "address": "10248 Mc Kelvey Rd, Cincinnati, OH 45231, USA",
-        "googleRating": 4.9,
-        "googleReviewCount": 15,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7zROaD5MQIgRZprjB4Yql2s/photos/AcnlKN3Gd8-Ff1QCcpaXeoQwYpSqaU1Xw5dWxcZkZNGazJsCQ7DUlrKAapXER26GXLDpWsxuSwDWRn1YnWMuV_LnyeclKTwIxquTahGYQg7nIlQx8D4CmJmnymlN10UJaxOX0LdmRMaERBlOp2InysRK-zh-WY30ToRzPx4CZMDJJZCynKvHEzDuxo9M9EEa5eBn3KGrrzh4UrBLx82ddYmExiItv_-yiSJMkQi8VIi7ozj7aCMRSYa4Vs8J3h5l_l2L5-995mJ3A68BXI1Kjd-8AZZCn_sKEk4KcL1t4An1Ce0GCj5Y9dwF38LKCnFiCuC4NWnUO1VSleMTh2BLZLT3uxLJpsxkC1FQL6oIyNvaRDC_ZUZMdXtYPDGAAYDi8XSiZmKngeBax5f36BbXjT9E1KCkHWwHcMTHVh4w6uaPGUn7CNg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.greatparks.org/parks/winton-woods/adventure-outpost",
-        "googleMapsUrl": "https://maps.google.com/?cid=7752712038687939174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:58:54.130Z",
-        "updatedAt": "2026-01-23T15:58:54.130Z"
-      },
-      {
         "id": "ChIJr9QiAMFmbIgR9X2lfWKcZbI",
         "destinationId": "indianapolis",
         "pathType": "adventure",
@@ -4260,5 +4239,5 @@
   "lastFetched": "2026-01-23T15:58:50.874Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 200
+  "totalPOIs": 199
 }

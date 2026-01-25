@@ -175,27 +175,6 @@
         "updatedAt": "2026-01-23T15:29:52.228Z"
       },
       {
-        "id": "ChIJDbhTs1ADdkgR-2MjTkoJXXg",
-        "destinationId": "oxford",
-        "pathType": "classic",
-        "rank": 9,
-        "name": "The View from The Shard",
-        "description": "Panoramic views of up to 40 miles with a good visibility guarantee (or you visit again for free).",
-        "category": "landmark",
-        "latitude": 51.5044028,
-        "longitude": -0.0865331,
-        "address": "32 London Bridge St, London SE1 9SG, UK",
-        "googleRating": 4.6,
-        "googleReviewCount": 7698,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJDbhTs1ADdkgR-2MjTkoJXXg/photos/AcnlKN3o0mMJ7036baicU7DCtFiWCtSMIuO-1DfzmgNHbIFpLaQ-eXR4DEROG5G8663sej7inuJmWWV0d-wfoB6nof_BDNvk_rGtMm18IrmxQ5sfFKIAkLWEG6mGlDcXpn70tZYd11bF188NPStaRD9xS9j5Eb9jsdPF00RUhr-FnYEfgDeUMV16uxBbuIs5oxS1JyiC03eRZzmJkqCHd8eUfXL5txDROB-Gz-XpKTJcBBt59x0GEfBHJwot8faeReLKTlGuLSGRof1yYFty517Dybl7mCFzmkIj293Kz9dWJqSrv2TxDFtP0evta4zsXCEgunpULAy7jaPW024Zv25qlbxK9Uh2k9uYnbWMfl7648CmpCt3Y6rqe9pTFgMOeqoqrJyeGJAneponNUHVZJM31P10ft8ucryzeN84t6rIE3DONQFp/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.theviewfromtheshard.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=8673098672128615419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:29:52.228Z",
-        "updatedAt": "2026-01-23T15:29:52.228Z"
-      },
-      {
         "id": "ChIJv5rb_6_GdkgRfSCTLFd6ADc",
         "destinationId": "oxford",
         "pathType": "classic",
@@ -1950,27 +1929,6 @@
         "updatedAt": "2026-01-23T15:29:55.678Z"
       },
       {
-        "id": "ChIJB9OTMDIbdkgRp0JWbQGZsS8",
-        "destinationId": "oxford",
-        "pathType": "cultural",
-        "rank": 5,
-        "name": "The British Museum",
-        "description": "Huge showcase for global antiquities, including Egyptian mummies and ancient Greek sculptures.",
-        "category": "museum",
-        "latitude": 51.5194133,
-        "longitude": -0.1269566,
-        "address": "Great Russell St, London WC1B 3DG, UK",
-        "googleRating": 4.7,
-        "googleReviewCount": 169982,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "afternoon",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJB9OTMDIbdkgRp0JWbQGZsS8/photos/AcnlKN0fIhjyXI162J1SMyGlEXtfwqcwIpTwP5OVMg9O7m4GV3FiTFrky_cYRsu5gQlhjeR2DTOgtBLh5ZrGhcHs-HtfqRyfIc_5pvcMtXJN0KYW8hmjlmmi2DEEV66DNJiSBcGpbSn3xydXnPcaMtbNbSdIkgQsNNt08NY3HI1FfSyi3j-lBD_JAAI4E3AS5Oa6X_7ijZUBt2rl_A1qUv4fgu5zbn3BDQgt5Vq0UetecH2Fk5eSHq9zb2UK6G55jivFlAm1BOgw9wPiJqRmn3Pg06Rsgy2kJ44wbnodjXpWVQj4TfYGiBhHYxWJO3QeZFX2PFSkOLoKgznlRnDAOD53d2oDDjgMzBE1pojz6Kaml9TkmNrRoF3l_AkRmlc18QrRha9mJPhxoCFxR0DhTOGDTuaN_Li32YuJnF5NOxeH3h1Ca4T8/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.britishmuseum.org/",
-        "googleMapsUrl": "https://maps.google.com/?cid=3436696222068785831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:29:55.678Z",
-        "updatedAt": "2026-01-23T15:29:55.678Z"
-      },
-      {
         "id": "ChIJj-n9zqXGdkgRSldxv5ksFVA",
         "destinationId": "oxford",
         "pathType": "cultural",
@@ -1988,27 +1946,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj-n9zqXGdkgRSldxv5ksFVA/photos/AcnlKN1u6w44XQft9pnc3J0ITEwlyU5-S9BZskihFJ688fbK_q0dvn3TRIMef927Xis_NOmmiP26zRclCTs2zADubMCOKg_H4-pgBOyD6EXFPQeQY-uV-lFvQWZlfIn_mMljuBlsqX26LoEcCfgJbobF0eNbdgwdCiq6U-8PoLYRV86HAnWQrn8Wn5ipegB_flCZE6cfpUbuLdC4yNwP-kJIeLWGFyKQsyEENFuBqgB37xur8-fEH3Id4lu10p7JJ2e9mL2Kk51F1BbCqBHCY6SPU2OcnLzVjmn3-lXwE2MtG700kQ/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "http://www.oxfordplayhouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5770567536398653258&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T15:29:55.678Z",
-        "updatedAt": "2026-01-23T15:29:55.678Z"
-      },
-      {
-        "id": "ChIJPy8Y5kIFdkgRxGSXw4Xjt3s",
-        "destinationId": "oxford",
-        "pathType": "cultural",
-        "rank": 7,
-        "name": "Natural History Museum",
-        "description": "Landmark museum of animals and natural phenomena, with hands-on exhibits and animatronic dinosaurs.",
-        "category": "museum",
-        "latitude": 51.496714999999995,
-        "longitude": -0.17636720000000003,
-        "address": "Cromwell Rd, South Kensington, London SW7 5BD, UK",
-        "googleRating": 4.6,
-        "googleReviewCount": 32700,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "afternoon",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPy8Y5kIFdkgRxGSXw4Xjt3s/photos/AcnlKN27KdNuwzGuXxxUWngu1BnK-FX76I6kfq42xNJljYDJzsTrYN2bOqFWb0eijLhJJsNFX1_YJX0ADCMgz3Hi2jE8OcnGuHHzt-CoS92XSN7McTEQcu05RRbegoXr8hqAjsrRtQTxCErNEpbWUGHcvEAguxzBoKg__C_JkCfFD4tZzS_qhqV1FOYqbB6_w-gGUUndP5ALLPkskqePptixBu7CjZrKqpGTIB_dYdXJrfd2TshxD7jczSN8_tmEvvpONoVINdF42UaIBUzEXcL0saQTttJ_s18coz7rhasFDZycAb5yCC7uAmDuIx2PE6pu4CDazf4suB0dQDU3t8Mc6OZd0NfXV5UZaVNrax_gIf2W6auN6tgjXGpqbTUK0QESUNrkdR-04ylSFvWJZHWS1KcrHrzEEGTo69MoxMtyj9Nc9cU/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nhm.ac.uk/",
-        "googleMapsUrl": "https://maps.google.com/?cid=8914844151054820548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:55.678Z",
         "updatedAt": "2026-01-23T15:29:55.678Z"
       },
@@ -4238,5 +4175,5 @@
   "lastFetched": "2026-01-23T15:29:51.303Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 199
+  "totalPOIs": 196
 }

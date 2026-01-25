@@ -1225,27 +1225,6 @@
         "updatedAt": "2026-01-23T15:50:43.835Z"
       },
       {
-        "id": "ChIJ_1LDp8ZGjoARIdABAUmO2Vw",
-        "destinationId": "napa-valley",
-        "pathType": "adventure",
-        "rank": 2,
-        "name": "Mount Hermon Adventures",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 37.0522518,
-        "longitude": -122.0558202,
-        "address": "17 Conference Dr, Felton, CA 95018, USA",
-        "googleRating": 4.8,
-        "googleReviewCount": 899,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_1LDp8ZGjoARIdABAUmO2Vw/photos/AcnlKN1Lgs6X_HPYkLZRcgDtQA9pGJgKIMiVRVyrJujd7iggvGoTMBuI7zHH8I3IEfs8m3nLxYM4S3-CUQ56taL_PLP0wJYR1sBdYNEzJm0mmdoTRRLNqAzl6dZ9RP1f8cIbVO5vA9LX4YC_QBEsqNIM97kAKcgY02d4X31LEMbRSoo-PneGA891junTFECAoAvz17FBD6YM8DBdKyW3Oar1hAiHo7Y396DPWXriiYUGc37t7QjyPKHUYuYkaAg9He2GPEyLT_sbIvCpoaryAm97p9yCqsLXBBSkZ2mYgfH4zdmaAw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://mounthermonadventures.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=6690535165636235297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:50:43.836Z",
-        "updatedAt": "2026-01-23T15:50:43.836Z"
-      },
-      {
         "id": "ChIJQSc0pPcjhIARlMjMzyUfOlk",
         "destinationId": "napa-valley",
         "pathType": "adventure",
@@ -3974,5 +3953,5 @@
   "lastFetched": "2026-01-23T15:50:40.726Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 187
+  "totalPOIs": 186
 }

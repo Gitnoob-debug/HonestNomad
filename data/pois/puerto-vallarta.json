@@ -2951,26 +2951,6 @@
         "updatedAt": "2026-01-23T15:46:02.924Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "puerto-vallarta",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3XnE0BMW8w7w6t-vWLsw_0E_1tZquNztv13dgA20MvS5Ri68HDpGw9RLKeC0mcAqklAsyAhlAXf04UM3ag0u0OW2e4sDxIxa3ZIM_a5Cprxrt4xR2RAs6lT1Tz9BZTJxoQ7C2FQ67qqkxsjt_p_Nt1jHN5he6kwft1E3mpyocpyzq45eKlEWm5KkbDpxr8pxMnVMZIIO9xRZEZiNQaowyIfZUjMdWfoLBw0en73ysImMyzn2__k7RiVwYxqOeqXzTo2_RrDFMTAZ5X-wehSVngN-ci3Vj4A-JCzae1sd616DTq92P2mnt53iFNRko9TGeds8mf6bBsIv6f_Hy7g1zhWrnWnWBT4uJYyRouTsXxa1L6hDEL11SDRRliNaYN4XuexQ2EPiI2EOjBvkU5ANQb0MRrP27T8e8BMmB8OWq9d3_I/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:46:02.924Z",
-        "updatedAt": "2026-01-23T15:46:02.924Z"
-      },
-      {
         "id": "ChIJpSvr-4hPIYQRCuSLuQwMBiA",
         "destinationId": "puerto-vallarta",
         "pathType": "relaxation",
@@ -4146,5 +4126,5 @@
   "lastFetched": "2026-01-23T15:45:58.105Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 197
+  "totalPOIs": 196
 }

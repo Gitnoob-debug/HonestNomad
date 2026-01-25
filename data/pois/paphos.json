@@ -1788,27 +1788,6 @@
         "updatedAt": "2026-01-23T15:36:02.149Z"
       },
       {
-        "id": "ChIJ2byUvFEX3hQR2VVwc1NeRW4",
-        "destinationId": "paphos",
-        "pathType": "cultural",
-        "rank": 4,
-        "name": "The Cyprus Museum",
-        "description": "Archeological museum displaying many artifacts from island excavations, from pottery to sculptures.",
-        "category": "museum",
-        "latitude": 35.1717252,
-        "longitude": 33.355716199999996,
-        "address": "Mouseiou 1, Nicosia 1097, Cyprus",
-        "googleRating": 4.6,
-        "googleReviewCount": 2599,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "afternoon",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2byUvFEX3hQR2VVwc1NeRW4/photos/AcnlKN0fPMQ-JHTTMSD3pY0uj11QQhkjYaItKh4TfB7KQJVw8SRMizAo_TJ7KT2Pv4hclUXSzCzuvryLIT_tsz_Fmcww-whxQMv2E9XptFfyMfweYIFMSgwD6jEh0ARAuTOVgquuL3_AVsL4v7PRIg7TAvem8vaiatJZ4Xho5r-39BRo315_lMsjtx3NxledExR0m64KX0jm-j0_v6_GpjgvEc8CCwffcx4LrNltHMja7OAoXvFxUftsZg226R4fYb6H2Z026wabJOGDfe-ua5KUpgFdNQ2b8Xh-65Ey5uNj-7UHASGJDEfhJcyMWZvk47gPKqkO_sF_8FvLALbdp85YzqMHFZqVE4JXZhxnoeyvTYhJrbtLexXSYaa-8MFDmEmm1tGoRfDyao70viv7E5vjkkUejs00HBAF2dNbNN6dQ5pC3rKEfOD4oY97jRFkPC0x/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.mcw.gov.cy/mcw/DA/DA.nsf/0/67084F17382CF201C2257199001FE4AD?OpenDocument",
-        "googleMapsUrl": "https://maps.google.com/?cid=7945860830077146585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:36:02.149Z",
-        "updatedAt": "2026-01-23T15:36:02.149Z"
-      },
-      {
         "id": "ChIJp4cXU4kG5xQRYCfw80zaM0U",
         "destinationId": "paphos",
         "pathType": "cultural",
@@ -2802,26 +2781,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS5XX7OgG5xQRdKjDJf8NLHw/photos/AcnlKN3DMt8LUpNEQMFWc_nIhCUBn8-8qaTOAchLtSgZLMJJbze02NYfghSb5BzvSap5bsW1d1oSn1nN2HggrZaks2RXTROWg34laRQ5XbCkomtFTZs23KiigMPS3OmVp2Ve-fT0rF_Axm8uqOT_PDPcKj5zCiNbsHk2XnZoUMNvUlQK0Zo-TXcTmed4V6C4aUxCzC9tULj2IdBhV_JSNSW7ybdcRTStZ3lZgUfo3ATuMprSpgJ33eRDF-LBVLYSUArNUAW4d5ZzLcbkFi1rJBGtofssBBNMoIz-Bs8XDyqQ3Qod1UZiOajK89fnQ6pMAic0KgR4XlFFOZM9qCLJ3IVJvTOEKOFh3Auiw-iLB9WSW3nBZXfnVQmsky0uhPmebG2OgSkpYdO1XycA14ElsNk9yjsMpQStPjktDyuoHf4akipv5-s/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "https://www.facebook.com/Begonia-Garden-Cafe-345674625782991/",
         "googleMapsUrl": "https://maps.google.com/?cid=8947541949179734132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:36:03.486Z",
-        "updatedAt": "2026-01-23T15:36:03.486Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "paphos",
-        "pathType": "relaxation",
-        "rank": 26,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN27HNendqgKhRs5kGCPa-49ia-cRizaLjzQfhoEpoYyf-FuX0l4jy_5F2LNONtiZIisCOfXa2wVFaxxupO5qnTr2KbIk0eQcdL4COP5rP18Kas88kdIiCPfRR2KQMLmqVWlDIPGqvWUIMku9aychDwrQw4TszPHV93r8G79s9evZ6qusUld9c066AjL8TDQl4zzAwTELA0KXvCtQ5XfBa1EpzZuqLAPURArSoIcbfaUGhLSNo1B-cskZ5drxim3g2db2LI-ST66BJ2Vr2Eij9Av00slYu8jWaopOpqtJQyOQHY05PzeuQKS0pZWV8x_86iBRMRpaT-rKzC8vaKLrgc9RfNX-FxFDG-SHnbkDEdigiaEiiu3uFBZJh5AJ5wubexAsR2xotGu-Kseh2WmdbpoulTIvil2rS3UOtKcKavnxFFp/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:03.486Z",
         "updatedAt": "2026-01-23T15:36:03.486Z"
       },
@@ -4131,5 +4090,5 @@
   "lastFetched": "2026-01-23T15:35:57.783Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 196
+  "totalPOIs": 194
 }

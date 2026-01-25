@@ -2770,26 +2770,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=14628925421944502842&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:54:24.846Z",
         "updatedAt": "2026-01-23T15:54:24.846Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "iguazu-falls",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2EUaN_8goABlDqaVyjJiStqo0Jj359a_F4Nlq3Ynp9KJAWjlxN-8ZbLpJXkc9bkej_GATCk8k-xNTzYRkEI2-qpyeJmZtMvXWcei_jWrTPJ2GWzm0j0DeQPFgTOwZWCNVaIQZvQ_qjiRMLrNHC7sZuX_5jmMVaZQZTChEDBn80OYca0xC1NI5SjSqN0moWfFNUO3hHOzVCcSg6FyiP8uQm8UHC4EsUmWxxHdEGzOUzPQeQkOU14N8AVOM4KNcQ0xvhHeS0vLXP5jP3zimCBOSRqPbxPEeFToqGYHQzSPqz6q2Eu81OfDqT1ijdX9QMqSHL8A-1Eg6FkoZ2oWL7DqnLDoAet1A_5vUTXQYH2yWjyx5xiXBb7iKAf6LPbxDiY_xvWlDqXEw_lxuT4MEVe8fIMMqOeacJG9FruMZOMlFdxDxS/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:54:24.846Z",
-        "updatedAt": "2026-01-23T15:54:24.846Z"
       }
     ],
     "nightlife": [
@@ -3999,5 +3979,5 @@
   "lastFetched": "2026-01-23T15:54:19.239Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 191
+  "totalPOIs": 190
 }

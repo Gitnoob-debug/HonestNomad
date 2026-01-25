@@ -1619,26 +1619,6 @@
         "updatedAt": "2026-01-23T16:00:42.354Z"
       },
       {
-        "id": "ChIJhR0_o4QD0oURX9LI8O7a80s",
-        "destinationId": "puebla",
-        "pathType": "adventure",
-        "rank": 18,
-        "name": "adventure travel",
-        "description": "Adventure Sports Center - highly rated",
-        "category": "activity",
-        "latitude": 19.4344106,
-        "longitude": -99.19707600000001,
-        "address": "Av. Horacio # 80, Polanco, Polanco III Secc, Miguel Hidalgo, 11540 Ciudad de México, CDMX, Mexico",
-        "googleRating": 5,
-        "googleReviewCount": 1,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "websiteUrl": "https://events.adventuretravel.biz/adventureconnect/mexico-cdmx-tianguis",
-        "googleMapsUrl": "https://maps.google.com/?cid=5472958691962049119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:00:42.354Z",
-        "updatedAt": "2026-01-23T16:00:42.354Z"
-      },
-      {
         "id": "ChIJ02oodt_70YUR2L98x_pghmA",
         "destinationId": "puebla",
         "pathType": "adventure",
@@ -4062,5 +4042,5 @@
   "lastFetched": "2026-01-23T16:00:39.241Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 193
+  "totalPOIs": 192
 }

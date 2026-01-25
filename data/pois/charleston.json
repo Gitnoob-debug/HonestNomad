@@ -1556,26 +1556,6 @@
         "updatedAt": "2026-01-23T15:50:09.322Z"
       },
       {
-        "id": "ChIJU7UKMc55_IgR2DyZO38AxzM",
-        "destinationId": "charleston",
-        "pathType": "adventure",
-        "rank": 18,
-        "name": "Adventure Hilton Head prices for kids",
-        "description": "Adventure Sports Center - highly rated",
-        "category": "activity",
-        "latitude": 32.18658,
-        "longitude": -80.758864,
-        "address": "33 Broad Creek Marina Way, Hilton Head Island, SC 29926, USA",
-        "googleRating": 4.6,
-        "googleReviewCount": 574,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJU7UKMc55_IgR2DyZO38AxzM/photos/AcnlKN1qJ7LFClOe0h6-jM3BDBfI9SN1JAiStOf7b_t5QpqKt1DgY4UMPoeT6SUZMTzCI9Q_go1T8cJsXHQCfGFEkN3H-kRCG_ej_WVJ2cqI_VWrQUFzRQSqtbc8Y_7YfbjZt_aNkqykh8XfL7Zmr5D-gDKcXJ4ch8Yu4KWB_bTPmEuWvVNH7XthdcRLN3fpY8Fi-IJUmGLw5or2jEh-3DrVdFkqyVPDou67hi9RGmJJwC3k4-Lz-TWftdPnzR0pEdcZIQjZdr631VuK22Ky-020O_2EfyAGKgDLbsP-TPEbPFu7GQ/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=3730951362760490200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:50:09.322Z",
-        "updatedAt": "2026-01-23T15:50:09.322Z"
-      },
-      {
         "id": "ChIJr9chSQ95_ogRB0_ONiBmu1U",
         "destinationId": "charleston",
         "pathType": "adventure",
@@ -3023,26 +3003,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=3462457420693609137&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:50:11.435Z",
         "updatedAt": "2026-01-23T15:50:11.435Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "charleston",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3Q8F-xLLk8Ba1Uz0Tk76pKY3rUNFf67D0dXkQlg_zCCEfrmAF7Q5J8a238j0QyTWI0-H9Q2wh3pPLdAaxt80O5z2i9X2bnC1Y832Q4DHYKMc_SdpZhMiwcUW5u-k4N2QkHYGmtm15bP4BkppgQd2UXW20wAT6VW42n7aKqHVVUhy_Puy57BBf8dEy2Vygwglk4lSkqLdn1wudBvj44-uUWOYhoQAymcCuLyfHBpaxm7Xp-T7qm1y9Itt-Ae2LaxRAPqBRhPs1t_6wIQMWmdzgJQ94ceRpKCNEH6LytdI3K2rO93t74aZD8RqE_s8uTTqxXZH2SQy7LkkBBMbCqL_40zjlcYfIySChRbBGcgd-y0PUTle414mXMvU_5kOOLJkrb5cnefgKjg8yQ5YYQGi0gXc5p6InO0H-rIn4jjVG6hj5K/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:50:11.435Z",
-        "updatedAt": "2026-01-23T15:50:11.435Z"
       }
     ],
     "nightlife": [
@@ -4349,5 +4309,5 @@
   "lastFetched": "2026-01-23T15:50:05.929Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 204
+  "totalPOIs": 202
 }

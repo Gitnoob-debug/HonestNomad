@@ -7,48 +7,6 @@
   "paths": {
     "classic": [
       {
-        "id": "ChIJLSea6ooWEDERjUGwVxGoqz4",
-        "destinationId": "uganda",
-        "pathType": "classic",
-        "rank": 1,
-        "name": "Angkor Wat",
-        "description": "This iconic, sprawling temple complex is surrounded by a wide moat & features intricate carvings.",
-        "category": "activity",
-        "latitude": 13.4124693,
-        "longitude": 103.8669857,
-        "address": "Krong Siem Reap, Cambodia",
-        "googleRating": 4.8,
-        "googleReviewCount": 42309,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJLSea6ooWEDERjUGwVxGoqz4/photos/AcnlKN1ls9odnFUD6y6p5G5ho-Id4gVZDBQQU9ryVurxAaRfRS22Suo-bTTND1dVxAV29292HhTTY689N6hpC4XuRXzkRZPJ5y0alcDbHFhz3mM2W3HxFcy7kmtqZotLdlytaWefiS2sBiySFbXrU9g4JMf3XU8J57xM1nsyygsysG8QB6zeRdPJyCVjCI9ShNCXmniPgx-hyoZ5xx6FVQqCtPgP_rqXT_mupTQoRE3VcG1Lo--qEJs9WfXMPWNCJVpLv2SAWMk5nuyVUyWyyEBb1TjF211Et72fDH-PqWGslVwfsfaTtp1ElWc5MbZwK4namckNxwm23IiNX8ZiiwmHTCmG-nEiShUi75KQx2pPfq5Q25XttxRlIQZ36PRBA0BeEdgpvHR7FZ2bxoo4yjOQt7fHsxTwLrZ2jhfo7lQmoV97hD-Qlwlsdv9cM_zmzk_x/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.angkorenterprise.gov.kh/temple/65/angkor-wat",
-        "googleMapsUrl": "https://maps.google.com/?cid=4515887843808133517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:10:13.281Z",
-        "updatedAt": "2026-01-23T16:10:13.281Z"
-      },
-      {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "uganda",
-        "pathType": "classic",
-        "rank": 2,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN0spV1SgO7i6YHnZRk9KN9PgyGPi3XFInd1NgGoL1CogUW5eOjLDm29z0RQ0i7Be3XzOXsrQieZA0tAcculxx8PkHOZdE3rZLI_4uc4rEFAOqFqW098ZfmXL_1myaFU8IeBTHQhoj5gzwfGGvQ9Dl6TFI4OS2rrlmJloxHUoFyj-4KIyEzfumDs2h8N4wpEWQRTy3OhW2LHms8BqlMwfow8tBVj14S8UM3-qJgCSKiGB0jOI0B3Y8FpqCoDHpjbL9XNj21dlE568MbkwVpgeXENto6MXpJauCv8erszzX45MWggFKdkqLVagbuUIq-noNjN2XFxddHvSEkHd1YWYYdauC44MUF8BEJ0Uw1asMOEuGHVzkDiPw4D0tNWlbd4-JyFQSmpSmhb_OsqsgInlWtqgsQgbY_qlcfxhLD1OfLv2g/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:10:13.281Z",
-        "updatedAt": "2026-01-23T16:10:13.281Z"
-      },
-      {
         "id": "ChIJr_xlXw2WfRcRSZcQqhZ0M44",
         "destinationId": "uganda",
         "pathType": "classic",
@@ -2473,26 +2431,6 @@
         "updatedAt": "2026-01-23T16:10:17.693Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "uganda",
-        "pathType": "relaxation",
-        "rank": 19,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0lP7h9ckDjT7wN7pRVVM2ZgJUfpOTsQrHsvFev0_QXTcJwhY2fjTafcNNd_ybTPuv2QsAa0VNeGHwmzysoYd3KqTkSMPOWLsJZeM-ehKDrHIi5SSGaD0l59WKp0rJS9_gj5fSeSBHWfGWLOIvrV1n3PDKcL-VARbBSve_f1JRsaZdiNAW3GSlnxxKQT-_R-x1XOlD6NF6O1dgmGJbPXV9FACSOCaH79lCWFXa2aiUmX9x0Mm63-Tzbz320DJRZqDCUUlXjGIxBLL9Lae84UpzBD3r-7lM5-ocTLFf4qQkKnS_YGj6O9kaWYmGAw8_MfmAiCfA91AvRoIvvXH8piCBV9NIE2pvOzHvxX9gsMCTTrU-rZpdqa39R5x_pEpgz1sIDvigKuA5QN7soy12U-mPOoQEC2_R2f61Mabf7tu0vF_33/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:10:17.693Z",
-        "updatedAt": "2026-01-23T16:10:17.693Z"
-      },
-      {
         "id": "ChIJ09cOj1a2fRcR8u6SjAkPYuM",
         "destinationId": "uganda",
         "pathType": "relaxation",
@@ -3532,5 +3470,5 @@
   "lastFetched": "2026-01-23T16:10:12.633Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 169
+  "totalPOIs": 166
 }

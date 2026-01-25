@@ -28,27 +28,6 @@
         "updatedAt": "2026-01-23T15:30:34.718Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "gothenburg",
-        "pathType": "classic",
-        "rank": 2,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1c6GKYcfzd-X4PegXMxyVHftocWi3gQRhlhg97LY96ZcZztU5vzymS8WVsDMigrwFUexGtbLPxSKNZt3aIT6_p6XHz226t0ASsxQzY5jMKBHnQzhg8Z3QVOkdZCPvTYCK1kQ5e5bNHLHLVzzwTrvfRyTtRVZRmDe97BNAfOMbIjgdy1XJI-2k1Espsip5lmQ4EXwUyfslB6qdsFLsVn-XT7-DVQf_LqFzCpzpJPgMOHLHsfhDyhelqpAlxjCYElmQdwFAYaq8MX2Bc9Txn--HG64u3XcSzlxNzwlq0v7HZNbubfE251sLe1QjMVUKJgsNDdAXWABWvZrROO0yyZUH4_Lac1HcdlJIY1LDLe6rojVWdOyb2idWB2yR56rbdCJnWqoZaqHbIbdym8vBFhzuC4Kk2UhMG2Nzq88mhUSlgzw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:30:34.718Z",
-        "updatedAt": "2026-01-23T15:30:34.718Z"
-      },
-      {
         "id": "ChIJ2xe5GWHzT0YRApfGSTZhMz0",
         "destinationId": "gothenburg",
         "pathType": "classic",
@@ -2894,26 +2873,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=15648484242966475092&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:38.966Z",
         "updatedAt": "2026-01-23T15:30:38.966Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "gothenburg",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1pHyGdsEQbkzZLT79mxPe-McvC1UrmY4TTEaBoE1ooa6RU9j8418kJHJXmtN-Ja-xN6L57A68U-Xe80CHu03u4tNNfXlzIllybOoclpBx63H_uFa9-_7C50wqtIUTz627sOopnEP5XiWyRJkZPuozbdxZpIDJUCv673Pyi_6aZJgNXLqZ-avq6HOnyKYirASohuXqCwA1Z_lmXPKEV9SzSDVqEbQetOptx3OalxCuFEpm1S_CPa8CxrC12ZEVjdiewuLpkIwCOLF78TwhYT274qw2cpA-ewT1gB4wR2Yirfd-W6P24xNHMkv1FdfhEfIyso9QUlD3NeqnEZZMwkkG_y1qiHXesJ3Gw4HEb6kkVtB3_lB7ynKS52Jb_E3e2E_zPdYg2MtnMg2lBI2H-J0SRUvN16Kqa5iWT-L4P3rTmaIeU/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:30:38.966Z",
-        "updatedAt": "2026-01-23T15:30:38.966Z"
       }
     ],
     "nightlife": [
@@ -3952,5 +3911,5 @@
   "lastFetched": "2026-01-23T15:30:34.122Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 186
+  "totalPOIs": 184
 }

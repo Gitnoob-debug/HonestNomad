@@ -151,48 +151,6 @@
         "updatedAt": "2026-01-23T15:46:06.452Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "cartagena",
-        "pathType": "classic",
-        "rank": 8,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1buUvZYgfmOQHnHlCBaMCeNYIz7yUx3urGs-A-_VgRz_ijtdskNK-xhyiB4OzskLkyY04DUVqQZ8Qc6_GLutSfHBEhqt6GsF5Mpz4Q-38JgOUuYfFmrKZXdQzvbn11S-OV-ACiP3MXA5EnMe6r72Odpu07wqMFU1uneYDND5QB2NSHvuoqfY_A1jm9RuqSUNcdVqdOlnVQDvkJTNDntpLRNTyr_S9hS6ZUIvEiLRyVbucPYSM2iArvbfDh1M89pk7QCQKjU2phV2qGcrq2SDagOxez7drJ55cJf_ANQ31Sduzg1PnhOhgY0_ndgwzvybYhJWP8nmnYvHFSWluQZKz4Dyh52kg5IxxXwtzC2vHXYM7rG_6zXlkqCzXXTBKN6PYgjWy4YBGEEsEMEYKJbUNCs_hg7a_EmrzYDkW1oHCXvw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:46:06.452Z",
-        "updatedAt": "2026-01-23T15:46:06.452Z"
-      },
-      {
-        "id": "ChIJaXQRs6lZwokRY6EFpJnhNNE",
-        "destinationId": "cartagena",
-        "pathType": "classic",
-        "rank": 9,
-        "name": "Empire State Building",
-        "description": "Iconic, art deco office tower from 1931 with exhibits & observatories on the 86th & 102nd floors.",
-        "category": "landmark",
-        "latitude": 40.7484405,
-        "longitude": -73.98566439999999,
-        "address": "20 W 34th St., New York, NY 10001, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 123849,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJaXQRs6lZwokRY6EFpJnhNNE/photos/AcnlKN3tJW_NDVtaJS-XwW3OoTLAA-n_twEfYhRPUhM3PeW2YHHgJpPpUNlghpduQbp-IMV4zE7priL_wWdolAzuJO3jQz7ZuzaOJLbvH5bqpCy13gK7YxCCXolKgoZaK3F4tzf9NoDTajsL_8XgBHt3AnD1C0R1tOrQXQpDk8y5I2_IhupAX4Q6tzj-AyXeoD7AqhlQmzFnCrzkm6vvY1FwN2J_vjYFc-DATWfNLF0UFRFTPBOI5aaV9riAVuOQWBX-FLW2zkBnfvTbHbCv3R7XeMoUkxtUIc_311Frco7912UNduTupF5RD0psuQtxsSGBCpd7SaVeFtg8SOSHXoi7GDoeObTPfu8iMkRFDJsExDWRLCeOTtkv-aZJha71fccwdhpGNRedLVU18frFG6DnkNcwhBeDLIYXUgSE3X4gexkgzmwM/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.esbnyc.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=15074921902713971043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:46:06.452Z",
-        "updatedAt": "2026-01-23T15:46:06.452Z"
-      },
-      {
         "id": "ChIJW-A_OqAv9o4RuTCDAPRf5e8",
         "destinationId": "cartagena",
         "pathType": "classic",
@@ -2970,26 +2928,6 @@
         "updatedAt": "2026-01-23T15:46:11.341Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "cartagena",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2kvsgZsEBG-4JRnmWYPduA3TJEzaupq_9mS3_F3kcGam2gG8aiuuf0AGC3eOYVMyfpjMynU8GLC0aya2FKC711cgTlh9t_p3eZK6nkeei_3P4H735YqeP6MQ4Dn8VrI3I66GttTxoiHVHyqmnfincqAMJDke8ooX4UrGsF-ObLWQm-FoVuSJ14cpAXuDGHl9I3BGXmHQUbr2gTH6oRfDRN4y24jeGV3HGlil0FNXJcBEtyWdw6jw4-SXpVb4_WLtJDGkk3528BEInmPxiJwxdxkzq4hz2Yd37agedLfle1uqDMoDNN07FTrO5yoblAjn4zF6U5C_j31hTib0Cjn_SaUgnX73EYhoebcgbuHqjLYTvJEDVntAP_XUUAu63-x85k10WQehBXlIg0_LM2Q1NyZJgg9dxBc7XJadZIBoP9E8Nf/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:46:11.341Z",
-        "updatedAt": "2026-01-23T15:46:11.341Z"
-      },
-      {
         "id": "ChIJR_t_oBcv9o4RbRkb34i8SMI",
         "destinationId": "cartagena",
         "pathType": "relaxation",
@@ -4288,5 +4226,5 @@
   "lastFetched": "2026-01-23T15:46:05.827Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 205
+  "totalPOIs": 202
 }

@@ -2879,26 +2879,6 @@
         "updatedAt": "2026-01-23T15:36:11.661Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "limassol",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN14bohI4N85MdKkfNeqq2dDyCf7iN5L3wQxd5pasBdtaORw1CH_fkM4jUOI89d5Ps_KH7rVYQ5f7UWUItkv2GV85nkcI6N-oENXmMYGce5kDaaT15QSuw0Qstqh_jDE7PJy2bk-J7kwh_koy6YC3K9BOaf-5vgm6D2geJMllzh9LQce4B3tmB4NkPi0Tz6MocYWantqroDXCpPhwMXNFDAk0PvmFuH8FgKRYhqMAmReaB9L171Acg2gMA77QAN10ePkUv2r26VxT7IvoJtf1GDiEmiWsYhTNeJrOoL--9Z-81OXi9c8GuEZS5jRvAh9MIeKtr1VT2IKH3zik3VAtSZMNJ65PwK5Qk7jCu5yvrTULjT5mguwEirvR4VxkOZVLJjnRtenZN4LenOB5H2w2FT6M0Uh6fREU0Ebr78JKeaZQXqT/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
-      },
-      {
         "id": "ChIJja71eHwz5xQRvkSYp8hA2bI",
         "destinationId": "limassol",
         "pathType": "relaxation",
@@ -3882,5 +3862,5 @@
   "lastFetched": "2026-01-23T15:36:06.429Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 185
+  "totalPOIs": 184
 }

@@ -2018,26 +2018,6 @@
         "updatedAt": "2026-01-23T16:05:33.659Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "guadeloupe",
-        "pathType": "relaxation",
-        "rank": 19,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3aiA7fF9HHJyQ3os6okFnwp37UhQduJrs2cWv3mTcnC3wkp15XDwxEMRKbNhxqnzWlQdTZ18dkVonFUggpghDXaBTQuxla1QcPUqFvWjgqcc-C9hKCDP3CcrUwBlX6fv-TzSBbe9iXjMU82Q-EGhKttD24Yoq9gV1-zWlD_r6rLa5KtANfJs2pUYuKSW5Lrduj9h63Mjb4m60d9OnU_mj1u_XJnhffW5j9IRN4GiOv_r5mnPQ7tATj-c9o1pGoxujAZYYkYjpHX7C_Mu5NoYxSJA_tmcYJXyPFDSo-npYRSJKXQ9f1aoMT2wTxaE68kye-vBAgwWpH4P7ITcPe4mQdaUeYWvR5Wpe7VuRgNKbthOVgR3hy7egFwQ_nAY1fbj_7pd5K_sKjvrDWuEGYvruLuv4xYriz5rcUOcNntAtvL1CP/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:05:33.659Z",
-        "updatedAt": "2026-01-23T16:05:33.659Z"
-      },
-      {
         "id": "ChIJQ0ss10lBE4wRXxGB24_g2no",
         "destinationId": "guadeloupe",
         "pathType": "relaxation",
@@ -2120,28 +2100,6 @@
       }
     ],
     "nightlife": [
-      {
-        "id": "ChIJIRiJaRRawokR2KyQ984qa-o",
-        "destinationId": "guadeloupe",
-        "pathType": "nightlife",
-        "rank": 1,
-        "name": "The Dead Rabbit",
-        "description": "This 2-story spot combines a lunch taproom with a parlor serving small plates & vintage cocktails.",
-        "category": "bar",
-        "latitude": 40.7032685,
-        "longitude": -74.0110218,
-        "address": "30 Water St, New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 8204,
-        "googlePrice": 2,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "night",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJIRiJaRRawokR2KyQ984qa-o/photos/AcnlKN3GMAAHMDeIYztUs5jBkBKzq2Mj96i-BTGWRN2pXiPkCVbLIKd4yd16UdfNtivjlIylaAhEhXU1vh3js8S-Hm7AIwvlj9yGQXG2aSWQM6taq9laBHxdnyamZIGk4NfZZBN0eLlwH9Y7H_EjH6ILWRxLGTjWaW-Ou_J5HEwH6H-C8cphicJocX0wuLfFP4LdEtvXUOGxSTvY1lPVIK-NMsn13TGgFnJg0XBgXMx8MI2CYPwP7QQHVd4YGZY1f3KtdQgcZ_TUFhFyl-C8-VWPWLObMiwr7GpsoP03r_R1B4EsPg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://thedeadrabbit.com/?utm_source=google_business_profile&utm_medium=gbp_view_website&utm_campaign=google_business_profile",
-        "googleMapsUrl": "https://maps.google.com/?cid=16891641895788260568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:05:35.160Z",
-        "updatedAt": "2026-01-23T16:05:35.160Z"
-      },
       {
         "id": "ChIJ5f8kt21PE4wRQdPeqUZ4vG0",
         "destinationId": "guadeloupe",
@@ -2914,5 +2872,5 @@
   "lastFetched": "2026-01-23T16:05:28.202Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 140
+  "totalPOIs": 138
 }

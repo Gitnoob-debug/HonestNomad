@@ -2624,26 +2624,6 @@
         "updatedAt": "2026-01-23T16:10:53.190Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "addis-ababa",
-        "pathType": "relaxation",
-        "rank": 20,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2nlz9KHxcRURR-V8FG59sidLTCoU865IVPOB5deuTsRGWh9IwTdz8nBSNW0WsHA35tuzNr9Sdn1raWVSJD_fAYxLvUuzCFhGURBwsAfEz_3-OlDzPz6WwagEwgtQGnLbE8FP3ZW51KBdSimkXzF00pdEVvfdYqjpe0oQLSfF_X3g8lOLfwDQq8JB05Xwpf6zUtmkzRxZLYCXUhn4CQ9H6l3Nr7qG_KWbpQGyO2Vy9iUcx5ntFEmo2UYJ2LXclpqIY5_38dOdBXpX5vCq3GkED9_qcrFXh0_a6Q158oXwCeLOo4ubwLcMbjyISzTbwpD_TtiwiduIabVkoulMWwuRh9F2x14DEsjmjqZdQU_b3MvdvbLc2b5j2m-LrPogg7akQc2NQ2VOflNCpP65dbO5Be_pRomcV1mYHkcLyyAonLbPS8/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
-      },
-      {
         "id": "ChIJaWJ2VuabSxYRknNnzxPY0y4",
         "destinationId": "addis-ababa",
         "pathType": "relaxation",
@@ -3812,5 +3792,5 @@
   "lastFetched": "2026-01-23T16:10:47.806Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 186
+  "totalPOIs": 185
 }

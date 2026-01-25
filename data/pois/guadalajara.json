@@ -335,27 +335,6 @@
         "updatedAt": "2026-01-23T15:52:46.366Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "guadalajara",
-        "pathType": "classic",
-        "rank": 17,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN2BKy2PL_gAqcG9m_BEcEMl2-Qy_1aty5g5WKxj3npA8N3B7Gwhkblg1RADAYjfggHUOC1PcR08MwIDxSun9sdv0f3Ymyy7JMI1fHsIjUpWZCLfDQWwtt_w06Uwskdw0_QsmAmIbboTm4tt9nYhFpI9iY0sYveg8xceh3KIKLVTL9kZT_rvSYfijg_tGATSXNWUJ29H9X6dxttBz49DZTIgZmlrEnBCUUyCio_3cLhkUUMqLTdX9ICMPkn8fXAXDV2dF43phNWHL2LWBcaNAehj-M-QsRD47Zv1Zqbd_sqhTpmaj5MHolhFASUVnQwaPzy7UGkuG8pKUZ3geEcYzzRty7HD0A0A5I0zpXENadiInpT_HzAH2MwdhaViEmcU9mrjqwmdeX6iSMtzH4j1-_wqu3sY5FI9jjGzfJ6RMb10cg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:52:46.366Z",
-        "updatedAt": "2026-01-23T15:52:46.366Z"
-      },
-      {
         "id": "ChIJrVFkQNyxKIQRwrWO5IoefR0",
         "destinationId": "guadalajara",
         "pathType": "classic",
@@ -2930,26 +2909,6 @@
         "updatedAt": "2026-01-23T15:52:50.513Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "guadalajara",
-        "pathType": "relaxation",
-        "rank": 22,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1HDBBsKnev3YNUAMU88-xcU-XbheIBR4vp5jDK1BGmItFXaP50-4hbW85lY1MU368dM5SPY2wJlte-wmCSy-MuIYz1dg9dvCjAaTIpZ2r8-nU1FQkpn7ccrCTi9MorUzXrLU-po0zfvz1My02a3bHMO9TRID7phHXFhJudBl2TtKwE_eWxQwkOcSb-bmzDBkAqGy2gLCNqJ7WLXToE_aP-Uzl-zrBREOm24XtkRAYu3_vowVkLGE-bwbJJMbA693-RG7WRCuo7DhfJUXk0nUeE19ghAUj1as6BRgdo-fiSiRAkWOyvR3GgGkqUwXiWYjHdSoo9OdwZNLqfB-Q9MtIa7Olo_POpu1H95cK5WM-tZed6njyftEpg_GQ1V_1UVeKw5LGK0qhnr-eRkXnRae5NdN-V6gQCcvo1VpD9TDL2w3RM/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:52:50.513Z",
-        "updatedAt": "2026-01-23T15:52:50.513Z"
-      },
-      {
         "id": "ChIJ-d0edRGuKIQRD_RWj1LSNus",
         "destinationId": "guadalajara",
         "pathType": "relaxation",
@@ -4321,5 +4280,5 @@
   "lastFetched": "2026-01-23T15:52:45.681Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 205
+  "totalPOIs": 203
 }

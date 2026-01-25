@@ -7,27 +7,6 @@
   "paths": {
     "classic": [
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "malmö",
-        "pathType": "classic",
-        "rank": 1,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN08zRB1OE054I-d4lr6T2oicitYuHQqhhVnfefq2AMU6RWL6EuXoldexopW0jON7i06K31jl-FCnwDJ525O6PmuT5tf6VFRVxZqja7Rv3bsNlP6BPBfm-c6RjVcEFhFuzCNmAIUfSNzSh2urluIbF_HqnGYWAy_14V81NKaPGwHQ_bR12OnA3ALkv-P-yN38IMHW1kShJfdwopCf2ymhezd9N5JP2b4jfOEfo549xfu-pGmLGo3gmwm1nQqlMFgCxJxxSLoxx-6s6AW8tdc0nXD82nsi_iaWeUFYp9yecJIT_dJUrkBng1wQkD_N2QM7dDaaMS7EFBkgJ2bOWltLg38-Xt1wOmwF3wzW2undzNjhFrng-0mNYAyQyIChb37obiqp7Iy0ntLwkz2fJYbLvtTZ-eKI22MoESwpVxnQTsJ_w/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:30:42.529Z",
-        "updatedAt": "2026-01-23T15:30:42.529Z"
-      },
-      {
         "id": "ChIJ-xoFOgKnU0YRcyg3HMGTDrw",
         "destinationId": "malmö",
         "pathType": "classic",
@@ -1311,27 +1290,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJKdO6hqqmU0YRJHb-9DdWhfA/photos/AcnlKN3OhfWcozh3ATy5B1pxZvc2yDsAHQ-iIzW3CujXYzQAu6Bp2B5uLfQKdP-A5kOQKaZ153SlJpRckpGuuyZ-p5V2pr7hyc6jB-PhIwHda0u8f4jcV7lneZbZXSWVn30eY62beC4jj-lKsQ-0m2rZn8YM05C6p8_y_qbNc1YPbrd2fCm2vodNrhuj71PTOXk0Y4oycA4xc89_DI0leOwUQsNqJaZP_SZ1QrVsZxZMGtc7SxAQyaiJ4MZz3AbDpzwG7zMMOXiRrmzv8HmLfHeV7iG88ZKwVM1mxDXDa2ON9AVNM2jx2pgRyjv8hHmDauqZIUlUbn3GPuyOcUofvgZ5Hb6h_DRD8lj_pfzFyAadOZkzqfmYlOBY0ZX6SfMR-SZf2LU2UmYlyv2V2yAC1U_Qf5jiMNUAF5rMiBYEXS8RL5MQjg/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "https://malmo.se/Uppleva-och-gora/Natur-och-parker/Slottstradgarden.html",
         "googleMapsUrl": "https://maps.google.com/?cid=17331353539338728996&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T15:30:44.806Z",
-        "updatedAt": "2026-01-23T15:30:44.806Z"
-      },
-      {
-        "id": "ChIJWQHtxAXBUkYRVYn9ohZGTLg",
-        "destinationId": "malmö",
-        "pathType": "adventure",
-        "rank": 6,
-        "name": "Camp Adventure",
-        "description": "Outdoor climbing park with 10 courses up to 25 meters in height, plus the panoramic Forest Tower.",
-        "category": "landmark",
-        "latitude": 55.2598991,
-        "longitude": 11.9806005,
-        "address": "Skovtårnsvej 1, 4683 Rønnede, Denmark",
-        "googleRating": 4.6,
-        "googleReviewCount": 9405,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJWQHtxAXBUkYRVYn9ohZGTLg/photos/AcnlKN1K7izsfqiXeZX3f1gdUhqLOrz4DuBRnK7dedG2U_Rk0sAS-HZPgD2gK1X-2d23WvwZq_tWq7lveJnvmPjaPsUE-1hTv3Zu90RZuSnjSJN4RHWMU_Pv6aU2fcni3_-bnv9zdRGaZ5CsBMtXIU5NyJ-Q1hQx9p5THVZJUZBzKr1IdyLXsQl4kSPJjoE0sDeqJkqwPhHfr1C3RwtC-TcIBbVDti6akysm7mNop35F5rnE1NsBLOot8kdGBykDGtiDZXNG1s_8x0QR2539n_owsPvy2iJjDw80_tjJAaFLISSchA/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.campadventure.dk/",
-        "googleMapsUrl": "https://maps.google.com/?cid=13280066464246499669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:44.806Z",
         "updatedAt": "2026-01-23T15:30:44.806Z"
       },
@@ -2966,26 +2924,6 @@
         "updatedAt": "2026-01-23T15:30:47.232Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "malmö",
-        "pathType": "relaxation",
-        "rank": 25,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0uALo6FkHb9e0fFhQl_JYUtOpffym57K6KHgmohdl3G4YheuJhiU2JicqBTukN8hcNU2MOjDdWuNYTPcSIQ54b1Vr3Vt03BBeeRYSC8fZJ_FqgJcT9AMFqhv4S7SyRFY3Ap9uAFug_qlCSMoPEUDpFaH6VjupMx7YycbJviUrB1LGHURToAtZCm_UW5CpGrY74Yn_rkE3oNXaF-yOPwe3CWt21UA0noHgDvmcGddkkXQlX3j-8QDhYNyHmiygG4nPBehmBR-IKrtiq-y6vfjgPJ1_NIOJonX5hjA57Lbn0Dj_c4TWfuSpcaw8E3a5Az1md7THveLbDZ3pVjWjqKslE5rks3nDivtxEtv88-3cTZ2In_V6zN9MxAP1ugowzfKEY7z8KaM9Oq0kReuRmKtIVCzXqpPbpF0ncMTJ_ttdnEOQk/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:30:47.232Z",
-        "updatedAt": "2026-01-23T15:30:47.232Z"
-      },
-      {
         "id": "ChIJ0x_pu8qjU0YRn76v3-7_CYA",
         "destinationId": "malmö",
         "pathType": "relaxation",
@@ -3871,5 +3809,5 @@
   "lastFetched": "2026-01-23T15:30:41.843Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 183
+  "totalPOIs": 180
 }

@@ -49,27 +49,6 @@
         "updatedAt": "2026-01-23T16:02:49.378Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "colonia",
-        "pathType": "classic",
-        "rank": 3,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1n56IXVxBIm2GRJRkPgvgKPtkBGgkpTyb1Rw-xvEt7Z6LokOL4SDNqQaYcGSDPYnPDC0Oej7S6jOkC1ETB9imgc_AiJJviGs7SVRpTSxz8yFyXQT-MB6XIvRe0hqphpeKxnYvraXMEyXWleNJId0RJGrVkbY-1_a-4kaNrbzoHurRBRpljHpWTV0zqRIZ7xsKeP9UY2kbAgHTA_vSmlTCmj6CUn8NuBAPfE6iRfQqSUtX2iSzg5IZW7dMIXATDTvXXio8cMTubR2OAIV7c55nu1j_B2hynRrIG-T3naRkNt82zIiagbMsFswlgQBquNB6O-y-WH-JMBTnzifOC50FnZ2nKYzTbtXRXxEJPXeroJ8KsZnk_7IxR4DvMcDC5AdVYECHzHbGsCzJjpzvmXgyxk81l2lJp1oaZjNxgtGq8Dg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:02:49.378Z",
-        "updatedAt": "2026-01-23T16:02:49.378Z"
-      },
-      {
         "id": "ChIJ52WNuFwSo5URyOQmqsJ-fGc",
         "destinationId": "colonia",
         "pathType": "classic",
@@ -2664,26 +2643,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=14377038004560706079&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:02:53.996Z",
         "updatedAt": "2026-01-23T16:02:53.996Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "colonia",
-        "pathType": "relaxation",
-        "rank": 23,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3NexS7D3MSmpDbBrZWblyDkdL8zpzurSV6dI2NLjZEMi2gAb5eHbdxzmTYnYulsNNMgYAXm2Z5h_4a9Kaio7UVh-8ZOmzoLELuoh4xG4tYGbkikul7Ahztn4E_rrsGzNuwH9xlpLMf5UF5boPKBrx6ox2R3oksvZX_oK5MUhMQhvfBwouU8uIpO0mHmz-piv5wMprU9Ubl-XQ5RQvxdqmyOl2RP25DLRtsjesMUwJFQMnQKyjS-5CMEulRwLsYnICm-TByQtm3GwXLGsUCBf_gu--nDDAktwQKfxqj6vrfJ-Aw3vHOggQ3ebU3HZKbSW3Ydkec6aNiC_qQyK6TVrl7RMLXoiG_hPE7oSpxCqShgt7eFfdyb2I1tUxc9AkT5GsvC1R1eKhYLv2vsZHK5SR5jbTrgycbkdHSuUJ3hKwGii3B/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:02:53.996Z",
-        "updatedAt": "2026-01-23T16:02:53.996Z"
       }
     ],
     "nightlife": [
@@ -2704,28 +2663,6 @@
         "bestTimeOfDay": "evening",
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJa0V8CYwTo5URAnU7xKEUMgg/photos/AcnlKN2mFR_uPTbK0Nt_aQ5f6-AloZEGR_yohpKJXkmELQNR9Nj-7yzXGSCyvAH6H3suYwY4GU4fz2te2O6pnMIyFWzfZj5UPIe5dnZJJ-qtqrtIviIPNlyJHmo5X6usChX6sRlKlAIJCdV7fmKgpgYjb2SbQLryF_ofYnmcLx7gAT_7IVfKyU15eES-8a2MTMAfR-K27_ohN0bi3tTq-yy6XFHUDK95FZNnBiQfKgcRBpY0ids-4DXmnKK3uIj4WE4OC_bPgAiNuPm9yyqpdt00twXXP3e6_Kyhf7EwaUR9J3a4BA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=590557186153477378&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:02:55.441Z",
-        "updatedAt": "2026-01-23T16:02:55.441Z"
-      },
-      {
-        "id": "ChIJIRiJaRRawokR2KyQ984qa-o",
-        "destinationId": "colonia",
-        "pathType": "nightlife",
-        "rank": 2,
-        "name": "The Dead Rabbit",
-        "description": "This 2-story spot combines a lunch taproom with a parlor serving small plates & vintage cocktails.",
-        "category": "bar",
-        "latitude": 40.7032685,
-        "longitude": -74.0110218,
-        "address": "30 Water St, New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 8204,
-        "googlePrice": 2,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "night",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJIRiJaRRawokR2KyQ984qa-o/photos/AcnlKN1d3IEtsmLXg1fk3l1bE0sLwFPxu_i5SgZ-5b7AZ9nnzTtKzkVBHonwYuWmwynYTCXXHJjy3cWGdV8i0AJNh6YYkRb38MdR9WKROWXTGJubxEhNfvaoT97aPMb7C6W6LMqgNhGpYA1cn67VvMDmonxzvnuTNRHlJWKkn_O-v96XHl3IbiondqsbU2Tw9yijoTNqM2p3-dyJR-AjKzZ1grajCuE60LG9Wqj3Wx6WV0O0BXagU_Gz5_bKNxIdtuftjtXlpmdLOT5zfsoZyTjV8eFNkOvbz7q-pmTuLIo9Ia_zmQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://thedeadrabbit.com/?utm_source=google_business_profile&utm_medium=gbp_view_website&utm_campaign=google_business_profile",
-        "googleMapsUrl": "https://maps.google.com/?cid=16891641895788260568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:02:55.441Z",
         "updatedAt": "2026-01-23T16:02:55.441Z"
       },
@@ -3720,5 +3657,5 @@
   "lastFetched": "2026-01-23T16:02:48.153Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 179
+  "totalPOIs": 176
 }

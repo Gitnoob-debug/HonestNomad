@@ -2762,26 +2762,6 @@
         "updatedAt": "2026-01-23T15:59:22.227Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "niagara-falls",
-        "pathType": "relaxation",
-        "rank": 26,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN05CqRkpx1kIhuLOI4Im-5YfYGnouCCdFzU7bQJs7l2Qb1QavxrC5MwevlAe_fOR_Zyp59vWr12BB8ED1aOGwWKRG5sKMEHrf566g2qK-G5u-s8aSWy1keNQDgAkA23-pCd610LiEDc3rhNbsVXqw6I2p08Uk9Tr1K8V2EiJLeUuvmWLkg9mrJv_lbGYyEGSwEACW3yVGd_TLbF2GkzGuXOVjPSPzf9FhD321NCpUOJFAPo5K_Sqys_Q7SpdAGUJ0RpxTFgwlQe0GEUbWqTaC6yAHKaO0WcfyLHwQoT-1t1d9JdZuvIQ2AsZk8YbZVFCN8n2B1sBR8wp7bNpLPEvH_cVRkAB_fvw0RddIfqJWFY9HlP-x6gt-MEuPqgCYFtfyz131-RH1VSsYqBSm7_zlQTirpLMyymYFKTqO_uvovMCt37/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:59:22.227Z",
-        "updatedAt": "2026-01-23T15:59:22.227Z"
-      },
-      {
         "id": "ChIJiwojJ69D04kRyy9BVCnq7_w",
         "destinationId": "niagara-falls",
         "pathType": "relaxation",
@@ -3629,5 +3609,5 @@
   "lastFetched": "2026-01-23T15:59:16.544Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 171
+  "totalPOIs": 170
 }

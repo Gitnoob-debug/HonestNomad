@@ -1383,27 +1383,6 @@
         "updatedAt": "2026-01-23T15:51:54.193Z"
       },
       {
-        "id": "ChIJoYEhuZTFcFMR3OfNNJWojE4",
-        "destinationId": "calgary",
-        "pathType": "adventure",
-        "rank": 14,
-        "name": "Canmore River Adventures",
-        "description": "Tour Agency - highly rated",
-        "category": "activity",
-        "latitude": 51.090674799999995,
-        "longitude": -115.3599666,
-        "address": "726 10 St, Canmore, AB T1W 2A3, Canada",
-        "googleRating": 4.9,
-        "googleReviewCount": 256,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJoYEhuZTFcFMR3OfNNJWojE4/photos/AcnlKN3Wx6uEZI5Y4cpmM35Q49bmN-gpVII3Ddpe73lG7Z6sQzN8ftVnJbhgRvOt4MIFl3kjeAhhAfvYU-vNwTrPpGJLG4ZXbNVYBBpD5mtFCZfMjjPr8X1c2C2jyDj6N7vFTq2f7opGIs4y_6Q-eIKN4N_74afn7JucfGef1br3_6_mJ5NfwjnZQJNwMSNLNl2AniINFUILV_SQ3trmsGjQhpG6CP5StsJkUIQxioDriHVaeFCYgoiaW9a8PhhuhV4UEKE31_7dODglPxNJuiNARf0qnMXe_PEoDj-40Z5Jw5ORlQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.canmoreriveradventures.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=5660084190487373788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:54.193Z",
-        "updatedAt": "2026-01-23T15:51:54.193Z"
-      },
-      {
         "id": "ChIJK_Dx0YtvcVMRli_HricVJqU",
         "destinationId": "calgary",
         "pathType": "adventure",
@@ -1462,27 +1441,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJX9djn-FkcVMR_e5rOTAWZiY/photos/AcnlKN1fDngdhWDAIl_R11VxxddVps2tKDY9ESRPTfrjLOdYYagXOHzVubKdx_uFVh1d5EIVXVAiesJKow83cqwHATrb3ru1yKVs6cLaxQGbiJGzRCiVqpfWbuUSNCYH5Cx3WsANAZoRRXesOs_IzRbGA9Zq5esGA1NsaZ0sPv6yBLLwVMEC-PeVZxWOijglg6ffpyKqS09toHS2-QRPUklGpxUAjazRtRozKXmJOANAGSbrH2GleyOsvc80MdGRDsfV7cl_8dJeB65aIAW2SkSx3QjTOP5X2uxQJW_GVuh-eRQz9Q/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "https://confined.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=2766923417443364605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:54.193Z",
-        "updatedAt": "2026-01-23T15:51:54.193Z"
-      },
-      {
-        "id": "ChIJO97lxkXKcFMR0ta_hLCBlAU",
-        "destinationId": "calgary",
-        "pathType": "adventure",
-        "rank": 18,
-        "name": "Banff Adventures",
-        "description": "highly rated",
-        "category": "landmark",
-        "latitude": 51.1770965,
-        "longitude": -115.57270879999999,
-        "address": "211 Bear St #104, Banff, AB T1L 1A8, Canada",
-        "googleRating": 4.5,
-        "googleReviewCount": 423,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJO97lxkXKcFMR0ta_hLCBlAU/photos/AcnlKN1r5qbK-vtuAr-bO5RQsqttCNB92gFn_MEiJfjeWxibQrgIgyXa9vjDVjuGRLFedTuoRaxg0sWViZ1yQp1i7gIkxnpJIyjlWGdhM_bM1gaVAszqhQhMqSGQ5F7tFnZt-jQdCrLbr0TGOuo2sI2tHkKtth6DjEdMWVzpBFatMRY1GhuEe9GqH0tKKPmQeaXKRjoSnYHkN-QyjGI-ngFmwNip9gY22gnsRJhGn62oFgaCPvlDahIJg7hQdw6WvRoFI869dMV8H_zGIOLhYzcIaOZ7UmlWQyd92qsUutAmJuNZ5w/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.banffadventures.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=402088861884208850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:51:54.193Z",
         "updatedAt": "2026-01-23T15:51:54.193Z"
       },
@@ -3851,5 +3809,5 @@
   "lastFetched": "2026-01-23T15:51:51.148Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 181
+  "totalPOIs": 179
 }

@@ -3044,26 +3044,6 @@
         "updatedAt": "2026-01-23T15:53:59.923Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "sao-paulo",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0xkZLk1Fp4LWVkDWtx9Jfn75uJxyqCghkS5z6r0rHO9U5mWiaSsIWIEAsGtJXaLC65QF3_5HIjLQ7yIAt7Jp7-bwUSGd0KDJ1ErDv0Dvb6CkQ4STKkTwkHfXztY6xK9W__1CgwDaDi7Tw-ohUoe88Q-X9CJEqzaafKRExGteQQcZHtxdX6K1C7MA7GB00ee1Tbhzbizse7M4KH952JxfHYEajgyvSX3ZJIJXzOb7CAvGWkfdYEwS607hbgabn6u_5YmMyoan4Lu0YVqdw5qT_Q_B52npHVmhDhMLPV08PqBNDhdXBnY1Y_VTNH3JmcGnHQNlZWnVufGFpc3nEHL_pPGWPVOPGZR9KyQUKjCpS3k7wafYqBZ26bhCnuiiEld3DK1CRUdJXETfeowROLIub9C7RurC7Ik2aJQ88T7dVeYssi/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:53:59.923Z",
-        "updatedAt": "2026-01-23T15:53:59.923Z"
-      },
-      {
         "id": "ChIJ4dpYWfZWzpQRyucOEU6B3rw",
         "destinationId": "sao-paulo",
         "pathType": "relaxation",
@@ -4297,5 +4277,5 @@
   "lastFetched": "2026-01-23T15:53:54.692Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 202
+  "totalPOIs": 201
 }

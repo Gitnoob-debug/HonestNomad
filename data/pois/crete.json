@@ -1035,28 +1035,6 @@
     ],
     "nightlife": [
       {
-        "id": "ChIJIRiJaRRawokR2KyQ984qa-o",
-        "destinationId": "crete",
-        "pathType": "nightlife",
-        "rank": 1,
-        "name": "The Dead Rabbit",
-        "description": "This 2-story spot combines a lunch taproom with a parlor serving small plates & vintage cocktails.",
-        "category": "bar",
-        "latitude": 40.7032685,
-        "longitude": -74.0110218,
-        "address": "30 Water St, New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 8204,
-        "googlePrice": 2,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "night",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJIRiJaRRawokR2KyQ984qa-o/photos/AcnlKN3NywXyWPN7km-9c7VccqUb-oGl1c1fLTxpFP0ExG2qG2cJll3nH3mQQoDeNtd7NGrabA5gw67LtUpMF6aqyhS6GEHmz0bgYtciw6FiQDQE2HFJuHgTPXfowmCNrnnfX7FQjnICtbXV8bT7ivluyaLKwUfGlUG8HVa3SeG0iv6P_U_6uJI8P08IwEJGly7itzUfV_93FVZI0I4k7DUx7TLX107ayHjbN3b23-VUsixmF4az-yrveUZK0yxmxPbhqkqm_4cYlJmL-q_7rSZQTSmDsjRbUlKdDZdshBC9D6tw1w/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://thedeadrabbit.com/?utm_source=google_business_profile&utm_medium=gbp_view_website&utm_campaign=google_business_profile",
-        "googleMapsUrl": "https://maps.google.com/?cid=16891641895788260568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:20:51.556Z",
-        "updatedAt": "2026-01-23T15:20:51.556Z"
-      },
-      {
         "id": "ChIJkafRPA-pmxQRxch_TX6iD64",
         "destinationId": "crete",
         "pathType": "nightlife",
@@ -1462,5 +1440,5 @@
   "lastFetched": "2026-01-23T15:20:46.110Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 69
+  "totalPOIs": 68
 }

@@ -1497,26 +1497,6 @@
         "updatedAt": "2026-01-23T15:27:00.287Z"
       },
       {
-        "id": "ChIJvwz9UZ11WBMRO2qiL03k7Ew",
-        "destinationId": "rhodes",
-        "pathType": "adventure",
-        "rank": 12,
-        "name": "Adventure in Greece outdoor activities",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 39.9286222,
-        "longitude": 22.5623966,
-        "address": "Epar.Od. Krania Olimpou-Rapsanis, Krania 400 07, Greece",
-        "googleRating": 4.9,
-        "googleReviewCount": 58,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvwz9UZ11WBMRO2qiL03k7Ew/photos/AcnlKN0uXQjS3lbu55cO1DEuGVLYPJnMB1TGI-1gZ2WG2Wpa2MGhtQaheO-Qvyjo4hNVyN08l3-luXR-Gtjn3xzGld2e_SDASjPGaWz3j_dKNe7OLIXK6jR5JiwEK7qAbCCVu1n4kjdnHLX7Nrn8s5dGqw-WDdBjymEHDQ2o0dAFIu1cSOu_vgWrIj4HZF6su--X3P4y6Avn62_XCvDZMxbd3ZGD-3kj7I4lJG0GjGOCNKvLc5i9gDfBeIQwNtqaVN6YcKsNS6REhqwTXWpUTiYxUIqln6h3CICIcL2O_CAfgl-rxg/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=5543056261549025851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:27:00.287Z",
-        "updatedAt": "2026-01-23T15:27:00.287Z"
-      },
-      {
         "id": "ChIJG50pXE1hlRQRfmMpvuQRyjo",
         "destinationId": "rhodes",
         "pathType": "adventure",
@@ -2761,26 +2741,6 @@
         "updatedAt": "2026-01-23T15:27:02.811Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "rhodes",
-        "pathType": "relaxation",
-        "rank": 21,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1Hde17Fe_M4-e82UebPgYL63lGgGwi6NmVoAx_FjIhvUY68F7qr537AXH27LtJBdeKh_Iyrjt14KWCrXEOPbBMsbsPWUVdtM8_EsAB-MPypRK9bIgOZ7IKmBjD5xhbDrU8c0gxz37jqVjoTiBw8v0f9YgkH2cON0o_cn56-qEAS7-y9bZnpGFNyhxA1gIqLo0PIFSDmyu3PAShXLG6g4PRIdc-zN-n31MlUYJSQxPnWsT7LzpvotmeuLXPH2dwkSD9KYksM0YLjdOmu02mwmWJy4RS32h8VGSfvCyHoLLzHsLi4AuyZclsO07x9G-99kqCskQAzLRgh2q5fnO5cRbIjjbNyJHlbjPdwyQ6ScPZ07HIpAlb-Ntk2c2qBzUcddNnID8shy6dbzwW26RsY4DuU6duYZEb_eUNRyYHyeA7NN07/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:27:02.811Z",
-        "updatedAt": "2026-01-23T15:27:02.811Z"
-      },
-      {
         "id": "ChIJawZFFt9hlRQRkKzZb-YIKZM",
         "destinationId": "rhodes",
         "pathType": "relaxation",
@@ -3911,5 +3871,5 @@
   "lastFetched": "2026-01-23T15:26:56.855Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 186
+  "totalPOIs": 184
 }

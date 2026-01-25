@@ -1688,27 +1688,6 @@
         "updatedAt": "2026-01-23T16:06:50.525Z"
       },
       {
-        "id": "ChIJdyyFbcs3HBURHyOeMku6lz0",
-        "destinationId": "jerusalem",
-        "pathType": "adventure",
-        "rank": 21,
-        "name": "Adventure & Extreme Activity",
-        "description": "Tour Agency - highly rated",
-        "category": "activity",
-        "latitude": 32.8702888,
-        "longitude": 35.369360199999996,
-        "address": "ויה פיראטה via, ferrata, Israel",
-        "googleRating": 4.9,
-        "googleReviewCount": 78,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJdyyFbcs3HBURHyOeMku6lz0/photos/AcnlKN21agAZnCZTFQSq1JQ4DXftJbnKpBZN6q4s-98rXTeiGFpjt4GTaQB_DBLfKrF3ZQgJgKZddTJ1SXYR_IT7MVH9yqSC8bLe8OZ5rKz1WO21ytohX9yWyy0xfKwtN-idSVSc6aIvAfOrQDsBGrhbGgrhFlr_MlvwW4_BOm6DWxHSvVFc9tlSOiui73mg1MqZ2ioaytIardbjo6-QAwXXviB2xZZhKkSb-ALYYcpQiiHBm7BlXwQlQ87rvpEAYEUNzk6sL4eD4CsS0789kqBBx7URYOA5TNFUNjSyygTezuO_ww/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.extremeclub.co.il/",
-        "googleMapsUrl": "https://maps.google.com/?cid=4438220789931451167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:06:50.525Z",
-        "updatedAt": "2026-01-23T16:06:50.525Z"
-      },
-      {
         "id": "ChIJUzUSqzQoAxURwQzHtWd5Szc",
         "destinationId": "jerusalem",
         "pathType": "adventure",
@@ -3068,26 +3047,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=101273123954343515&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:06:52.783Z",
         "updatedAt": "2026-01-23T16:06:52.783Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "jerusalem",
-        "pathType": "relaxation",
-        "rank": 27,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2MNf2yWw88Rlq8gY9YqZnLO2VbNlPL44GRaPZOF4SRs1KATbOMWnilwYQVlodicJEdomRqqdZxN_Smpo2B702NxRkiAhKuZI07l8R6KVFbQWVbrxw4vTznbo61KyDJauD9bZbBYZkD2joWGoM9TBhh2XEZJeUtht7HpbqwKDgL6lIhJTsILPWpsWD7wf5HjuTuiyLu8LMOM3F35YoJeIwtvEJYRmGsEotJRnPqTNlo5V1cXCSZmEEoUsIeHZJTGuP3QrGxpsOo10Pa15eV6YyCf7Uqe8GEfB59tOy7RaYUZyAwvwDgpKNBEib1WgHCZJjxVU9b9D3DBLA6jlmiYMQVzJVKRuGbzCtikLYKvnV5aL920Gn5JjMs3MqeXIdia6x_ejAYabTVNHdxqzEiwbXmrBLHQy-wAIF4XsDFx3fdtYqm/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:06:52.783Z",
-        "updatedAt": "2026-01-23T16:06:52.783Z"
       }
     ],
     "nightlife": [
@@ -4376,5 +4335,5 @@
   "lastFetched": "2026-01-23T16:06:47.289Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 207
+  "totalPOIs": 205
 }

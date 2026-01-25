@@ -1404,27 +1404,6 @@
         "updatedAt": "2026-01-23T15:57:41.128Z"
       },
       {
-        "id": "ChIJcb9L7xGrGYcRG_ofiG63wus",
-        "destinationId": "albuquerque",
-        "pathType": "adventure",
-        "rank": 21,
-        "name": "Glorieta Adventures: High Five Zipline",
-        "description": "Tourist Attraction - highly rated",
-        "category": "landmark",
-        "latitude": 35.5806165,
-        "longitude": -105.7645606,
-        "address": "35 NM-50, Glorieta, NM 87535, USA",
-        "googleRating": 4.8,
-        "googleReviewCount": 37,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJcb9L7xGrGYcRG_ofiG63wus/photos/AcnlKN08YPYKF2MEt0oQvlgOF-8ynxwfxCyD2BstKLBzdlpG3HUabuGQbztge-G3vDojKStOjnctNSWN-pdOqbq40O5sh2rlaGDBs2rvs9_b8yYaodZL3gWkJXn-U5ZVXfZAMnIy8zax5qPoiJfM418RCVy9fBdNP5KsBoVHyqHWP8sKuKYg4lte-F7BGR84_OeSsRcBg8NdBRdQ8FPUGpMBQ-YN5Prs76StumaWgspNli9MxMcRbIdRrw7AS5POIxMeBShiXs6Ig3kUtL2Un5aLH628xA2uTB2RK6VdmKtJ9VLcWA/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.glorietahigh5.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=16988342429753014811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:57:41.128Z",
-        "updatedAt": "2026-01-23T15:57:41.128Z"
-      },
-      {
         "id": "ChIJ3R5rOnl4IocRu8NIZ06MD2w",
         "destinationId": "albuquerque",
         "pathType": "adventure",
@@ -3877,5 +3856,5 @@
   "lastFetched": "2026-01-23T15:57:38.450Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 182
+  "totalPOIs": 181
 }

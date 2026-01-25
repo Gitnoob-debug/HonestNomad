@@ -2788,26 +2788,6 @@
         "updatedAt": "2026-01-23T16:12:38.689Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "gold-coast",
-        "pathType": "relaxation",
-        "rank": 26,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3VPBb0JsQztok-LTLHWwOW2CeT3O5fYfqiItj7zvOPGRsB7mDYqV55NNuCZnzvv4v5_epVYWMdWSFfXjlsHgLWk0geX_F3Hl9dT6YZn31UmKU_er1y92y9JNS_pS0W1ZdbQ_j10TVhvOiI5MlszhwU2V-naNtmPcPnuGl9S_Mfp7OQzmgVZWLIDUWEJyhWSqj6X9jR8JorBjsuJ_nUTRbxTSSTESEMbXUi9euE-p9l1vvaX1kXH2BhyRpPC6w9y41dqPCbc82oKNvDK3snrPU4Ut7rSzVSWCgD_DtVWtGbd8Y6HcS1Oqz4i-DSOb46tjGkIjQvPYwJiDzR0ulusanWbooj8oBuAFPg7Ro6YJPQvV_88iMCKbeWkvt73lFMDjW2xiWn13aFetjQH-0nD3lWpiIe8CvuNncjvvmU59bUJnwJ/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:12:38.689Z",
-        "updatedAt": "2026-01-23T16:12:38.689Z"
-      },
-      {
         "id": "ChIJ39GWrQQPkWsRNKwj_tSHKnE",
         "destinationId": "gold-coast",
         "pathType": "relaxation",
@@ -3891,5 +3871,5 @@
   "lastFetched": "2026-01-23T16:12:33.086Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 184
+  "totalPOIs": 183
 }

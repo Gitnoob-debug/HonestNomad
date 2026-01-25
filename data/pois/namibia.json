@@ -7,27 +7,6 @@
   "paths": {
     "classic": [
       {
-        "id": "ChIJVWbMOIBtchwRDhKhKfVF2_Y",
-        "destinationId": "namibia",
-        "pathType": "classic",
-        "rank": 1,
-        "name": "Namib-Naukluft National Park",
-        "description": "The highest sand dunes in the world are found in this desert park sandwiched next to the ocean.",
-        "category": "park",
-        "latitude": -23.0833333,
-        "longitude": 15.166666699999999,
-        "address": "Namibia",
-        "googleRating": 4.6,
-        "googleReviewCount": 2192,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJVWbMOIBtchwRDhKhKfVF2_Y/photos/AcnlKN3B9cLhFG4-sB6tyMEpTJvh-7L7g7Wk7SKyoRvB5Y3mq7F5MDck6oWrjwW3m5TmGLzJPZCG5Oq2pKWhROCHy_dB0i4FV_QA_RsgOUSqPxB-zxJ3X7WUO1VYsVrRGpaijmK_71g__sTIMtyEpPVlGcf1_rpTFv0iOYvlMRJ39Oxe2yWQBT2b1PBBBvz9CsmidAeTyW2H2xQ2zO_y14xcq6Svrjm5idGhC7Tnsnf0-MzXBxp6pwPnedkOiPKWbXXwcNrlTMS0dnUyGFkSehVUKPDPLTtOTxlP_aIddoBtmjPlgKNBG2MLyyvwMJhbA5YLt3We-g_lIRip9eVhvIrQ27UMnrMAC2AYKAxmAfVQqdT34KBXxU1UPrt0t1PCO_US-Y9CTbHVIJ3oVynb2V46ixxkem1OU4m-eBTsIkHWFH25CnZ0/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.meft.gov.na/national-parks/namib-naukluft-park/224/",
-        "googleMapsUrl": "https://maps.google.com/?cid=17787888072497631758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:10:21.406Z",
-        "updatedAt": "2026-01-23T16:10:21.406Z"
-      },
-      {
         "id": "ChIJD203yDgbCxwRDz3PPqhdN2M",
         "destinationId": "namibia",
         "pathType": "classic",
@@ -1977,26 +1956,6 @@
         "updatedAt": "2026-01-23T16:10:26.809Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "namibia",
-        "pathType": "relaxation",
-        "rank": 17,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1jvRRcoKMItYiWDOSS0IuWw1DUhPcifXUZzyncZfrvU85lVfKwXAHiQL_4M7AJqcDJKjjmh2q9eYAa0f7khL3Jc3bkU6V2CNc7rdaW_KfjgBgm5hvfnB13LhSzJ7NM9zqSg-EzOkjd1W5AoTZK5HFI61a1dWJB8PWtyOY0pSVY57NEyp3KO35w7QVnczK9swEMQTRpYHU4ndmLVMXndrudlI8hM_LMMIgTbAv0vGNKz633R2opiX88PsxIoDw4xvBZDMuvDZ-AO9J4F7ytsfRc_MDPzxzZq0bmlY03BNtu0zEBjMaMdXV3x6QYkzJl788x4hMHFR0mFqiI_hB6IdzdR3AGo9xGzX18zziO0biPSFWorPbBG1UJ79c_FOxQQqsmkJN9tTa8xnjJZtF1syyDadJUh8_o97M0kFUFVbK_91F1/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:10:26.809Z",
-        "updatedAt": "2026-01-23T16:10:26.809Z"
-      },
-      {
         "id": "ChIJJ2P1azYbCxwRkUNS1jKd81k",
         "destinationId": "namibia",
         "pathType": "relaxation",
@@ -3127,5 +3086,5 @@
   "lastFetched": "2026-01-23T16:10:20.469Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 150
+  "totalPOIs": 148
 }

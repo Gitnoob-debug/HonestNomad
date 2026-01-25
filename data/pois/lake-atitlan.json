@@ -2825,26 +2825,6 @@
         "updatedAt": "2026-01-23T16:00:52.908Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "lake-atitlan",
-        "pathType": "relaxation",
-        "rank": 22,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1tI6qaOWMY7dDrDROBJyfRYaPExwzOnWaJOJsRAomPNGiHOBffGnXE8bad_UvonbRU0GJmAZ6JrvH87SfLaryK0WUC0xeIWArvE0DTklrcXH_2icA5s-5nXh9BQiIdsoQ9SG21maqoNlGFA3esyvVb_19xE0w0U399xiy-xRUBC1_z6LCEFUrOOJfBK9dZUsGHcj6_R0oLj54IR9wsZEpVJUXIJB8YQZKr6QXN_X9ZC593FAHi6J0DSI-AzPh4v0WT-Zm61L373JBPVYVNkwgGuonIzIIp1b4DCmiHqUHQWsfBdj-28A_QeLdaLpaOvL1d8KDv0UO0onD3IFmZtO1grb1mFt7aL7_P07bdpMxA-Rk7IGNtYCj6F8qrdVNuxXa8nr0msP57v0IBQr7DFCeN0IyOt22yKdekJHUQtVM2G1ua/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:00:52.908Z",
-        "updatedAt": "2026-01-23T16:00:52.908Z"
-      },
-      {
         "id": "ChIJEQbTkMm1joURZayy84Z8UWk",
         "destinationId": "lake-atitlan",
         "pathType": "relaxation",
@@ -3987,5 +3967,5 @@
   "lastFetched": "2026-01-23T16:00:47.574Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 193
+  "totalPOIs": 192
 }

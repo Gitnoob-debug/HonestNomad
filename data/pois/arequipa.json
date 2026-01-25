@@ -2534,26 +2534,6 @@
         "updatedAt": "2026-01-23T16:02:10.648Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "arequipa",
-        "pathType": "relaxation",
-        "rank": 24,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN17O42CXFqZhIQweEcEpMC-vjQCQ2uK8UbZNxsNe1UQzKieZwy32jt_zEiqknY0SIMPVDMzA-L06Q55jSwtaVxyDc19xC7rnAGWX0hNwLHYE4rNyPECetYmQWuewDz7lwY2Q3Wjo9g1PGwRj47nmctitAnAdYRa-rLQfCyw3WP3mfH1K4pe8L7_Z7NTZp05dc-hFqgHoPf5gmBnGPdzopa6wlVOjWdxDWB5I_6lfylMsnycYif_qZAMFjDZ9NL0_DYUpj1A68IBUa2IBq1-iRwfUSDpTfmsBYa--lSVJva9FU_Fzyzu5FBMW_vJoWQF9CCUJSMfN4IQPnhmhlIWMQDwaf8jgbUBusyo6K7aRr1DB12OETATQOh2TFFz7OVPnsYwYxVEB25hzy4WRnoDzOSLhHoVFJHIDKiGUMy70EPEpidO/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:02:10.648Z",
-        "updatedAt": "2026-01-23T16:02:10.648Z"
-      },
-      {
         "id": "ChIJP3CmOPVKQpERcqEKZoOfGdc",
         "destinationId": "arequipa",
         "pathType": "relaxation",
@@ -3464,5 +3444,5 @@
   "lastFetched": "2026-01-23T16:02:05.185Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 166
+  "totalPOIs": 165
 }

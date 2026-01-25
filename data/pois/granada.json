@@ -2981,26 +2981,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=8005985475019797160&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:26:04.199Z",
         "updatedAt": "2026-01-23T15:26:04.199Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "granada",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3RMt84SnpSHl8rJ68C6GiyKiTYv10xla56kAWs5Znb7E4LdjCl2iMWEVUtEZB-sCzWx6QuEmKdiL0Wc-CwQ7TKr7mp3syo0lq_6vvaHdvtGP96DgYnXYVDAnglF32DoUSIVWplGdZzIidVnStvk7LfuiDbTGcTtI3j_UqgL8CQfqNYSHKxO2G3SaUIvsBOA53_ocuk1YkKTC7GuSkmi15rCxFZ0kB6sEyySlcfjemwoUHSmtncWtfAvB0wy4Ngl0r7tw67GXpk_D2-AjZF9pm-JuniYBMnSStagTGZy4n-VWyZH9NAgIaq8q64ex1UO36KltoUy0uAbHdis-M6Gf20u2MvSDUCRz3vYOezv1IHNfXHXNtfx2_-ZwkeQNDUyOw5xzXkJ1SfEmcmhIuMUP6nJnPzfDEbHa-isIHwCzNBygBI/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:26:04.199Z",
-        "updatedAt": "2026-01-23T15:26:04.199Z"
       }
     ],
     "nightlife": [
@@ -4230,5 +4210,5 @@
   "lastFetched": "2026-01-23T15:25:58.683Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 200
+  "totalPOIs": 199
 }

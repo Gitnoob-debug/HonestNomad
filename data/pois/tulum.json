@@ -173,48 +173,6 @@
         "updatedAt": "2026-01-23T15:45:41.389Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "tulum",
-        "pathType": "classic",
-        "rank": 9,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN3X37MjJXzpElOLxyxGi_LahrohofIt0mqohyQO9KUfG7EsBHw4AsRHcFPSsFXu_7uUCLwepzP5C1q7xfo5rNvvSTKDvvtxGCBbIGOwU-3OycoVAfKX6boI_C6N_agZ-AjXLqLJaDttkuUjHWpEzSSw_-vunN4xx_9C7nJEaeVZ49Ez0Md9r2emjLlcTIR7I9aCMTLmPdTmZO6pN7wiETKhwbUQOCv_VoelNWh0vqitNr0nm_jOf_kvKs8YWjUoz71g0WntCPbXAM82nXl9YOsuf2R9k2hCwWYSvWF7oU_hxQBHfoquOBY0Y-PNxEim5_6KX7INlPeL0ernMvV4sL7sfIaigXlvFC57hwoarwXNNb6yJdoDPz89UUKLMLClsDfsKZzSztIggoycw7QsFStNY3Eg_773VQJd04sa2yVzFg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:45:41.389Z",
-        "updatedAt": "2026-01-23T15:45:41.389Z"
-      },
-      {
-        "id": "ChIJaXQRs6lZwokRY6EFpJnhNNE",
-        "destinationId": "tulum",
-        "pathType": "classic",
-        "rank": 10,
-        "name": "Empire State Building",
-        "description": "Iconic, art deco office tower from 1931 with exhibits & observatories on the 86th & 102nd floors.",
-        "category": "landmark",
-        "latitude": 40.7484405,
-        "longitude": -73.98566439999999,
-        "address": "20 W 34th St., New York, NY 10001, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 123849,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJaXQRs6lZwokRY6EFpJnhNNE/photos/AcnlKN0e_oB7sYgvDJk2QZuu83NxcbdVtMebFUen1ot4f0M2IiDbgz32j6PUp3hLa3KlcsjstklI2VwzEKGwSuG9sP0NppvxC0TjiAS61MSHTXhRVQG0wq9D0EQ5fYAfEPq4INOJaAgWitNvRkZYzRWRVfUEkZAa654RDYZs7Rj8udCFu3dpJZTtIV_MCJZADZqy4nkdiG3vaNXzIOo4t7CpTW_pay6LrsbQc56F4eZsSTbTCw_3PhAysF9bzOTH_sYT4TaXwkE9FmdjTYR8qgbsuHs-17rSxumjPCVf_xMh1yWGk_VdfuScQxTVHNO_yB6izJYqRTO4m5UsVureCyWXwzC-eiihczS-nG1t2vP9YQg7Q3D0G39mCOtU32dlmHd4ItVb4A4pK7M_guEqQx_-awWuCc-6r8mzkeOSIAdt2VolRKPJ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.esbnyc.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=15074921902713971043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:45:41.389Z",
-        "updatedAt": "2026-01-23T15:45:41.389Z"
-      },
-      {
         "id": "ChIJgTQhxTMoUI8R6NkHj0toHsk",
         "destinationId": "tulum",
         "pathType": "classic",
@@ -2667,26 +2625,6 @@
         "updatedAt": "2026-01-23T15:45:46.015Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "tulum",
-        "pathType": "relaxation",
-        "rank": 26,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1tKCa78fjTIXiLIdzUTGovmy1Y4F_uo8AWjleDsVV10sDjpq52YTU4muT3SVoOdPo-lqKMQE0nGfFFfgaWAO9mqKAQ1OaY5EE2ukqBMH-KVpO1jIzXSXLTTv62UGEdx30eHJGFmodujO659VnyCwhFL9v7q9Y78IadrZ12cK0X3s90P97ywcnqseFlPKpZ7D3WJn6QJ63M7JD4ivS0YQ9bOIe1Rk1QK5Kaz0aunt4DMM0xhDOf2cmKpYbiHHa5g0KkXuwMctLAZSUvdubHr79ah9mmoKre6AgSzZ1rHdk5cIx5zv65oF6LDdNfp0qxJQfeU2QnS1DP608OY8u5nNu187SQTqZdghj0VqxuM_6SXEF0GKGp4uU0pY_VyaWwhBPgCQqdsZF453UauyvElvvgIY9IpnC0xU-ZpUbZUAPkbvr4/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:45:46.015Z",
-        "updatedAt": "2026-01-23T15:45:46.015Z"
-      },
-      {
         "id": "ChIJE2tCnELRT48RYBPjX4jH9BI",
         "destinationId": "tulum",
         "pathType": "relaxation",
@@ -3599,5 +3537,5 @@
   "lastFetched": "2026-01-23T15:45:40.702Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 172
+  "totalPOIs": 169
 }

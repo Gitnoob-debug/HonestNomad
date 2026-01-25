@@ -172,27 +172,6 @@
         "updatedAt": "2026-01-23T15:47:55.751Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "panama",
-        "pathType": "classic",
-        "rank": 9,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN3rqUihxpIpFG6eZOlaxyVSvYGRm9xd30m1ROCz33rVEmvMLFKUZlRtLgWo3pv7hquyrk7HohTzUz2RlTDmhNEgcDBWn4CmneDMvQKGXtwzmO85xo_OfLLfL-BB26LBqhHunSfZPto0fPtpaJ0Fv_XHUiN_C6D-Lc6rYglCEFE7tceKO-H0Ijk9EIWRL0PJAFe1Tf8I1YEdK9Om-5THTxQvE17QdLE3_AAIgYRowpPZLKHh0eS961MoTuR1IG7Mk_S7TAZ8e8JTcLR_Kn3Eopu7XEslGYrF99ITFmPkb4Af6Sb1X3CEr5MropfxETQkE9L0Yxl2UaNce-SvGC7vkSdd-Mil-8aWl8StSa1h-L5hEyXbYiZSVUxKcac6UUh0rEWODgG3BTYiNLL51y0Gc97GB8sM4NyNsx-iZc2R3rTb1g/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:47:55.751Z",
-        "updatedAt": "2026-01-23T15:47:55.751Z"
-      },
-      {
         "id": "ChIJ46bnK8uorI8RJizz0Z-EyX8",
         "destinationId": "panama",
         "pathType": "classic",
@@ -3115,26 +3094,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=11764758490640396479&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:48:00.190Z",
         "updatedAt": "2026-01-23T15:48:00.190Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "panama",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0njwrC3LRVj9HcjT3gWx_HPDvg0ayxsstc36aIoFJauZbHQAQ6OQLZ3YW-o0ir4JFyOCv3-lvy4kw4xKRkZXEimp_gGQkQoGN3qtVtwNzZv2bpwmAU_3xlwADqw6UHY9bb_4WjqGw67E9ibZkAiv0HWYVcQWX3mzACXc4vDRSdVgZ55bJlzyly65btJna8xwoMhNF28m088CQnoeChkcaT117D4rwaluo-rIIAB4sK4IFyGIoLwCWCLX8OYg89kKUDIOVvoiLGrbkmojiknfMwrggiH2ce7IQ0jr7aJrF4Vqiv9p89mCTg9J_ewuGW8v2j8EUIWVO_G1LlYlQAZcqOC_qHG63yA4Kcybsm6oCiQTIUStpAElrHcqpWt2n0o59AxAx31dv1xy44L0jcitNSS473q9AfSOtVydi31gLQTBsV/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:48:00.190Z",
-        "updatedAt": "2026-01-23T15:48:00.190Z"
       }
     ],
     "nightlife": [
@@ -4177,5 +4136,5 @@
   "lastFetched": "2026-01-23T15:47:55.072Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 198
+  "totalPOIs": 196
 }

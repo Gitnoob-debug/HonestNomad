@@ -3152,26 +3152,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=3502421453944448317&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:14.354Z",
         "updatedAt": "2026-01-23T15:30:14.354Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "belfast",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1rlvTB2Zi1M8bOk5xEhOxt1ZGSyZW8iKOFDfM_IQRB1lvr_Z55CTnrk6RTNsLWqWxSrSSY5cBDtWnjSqtmG0qBCLvb1n1F1OibaE2o3ZONzgV_EfrgpVhGKGb4ojZQ_Jkn-B6BR4woCzXRsak-eTt4wkAtwq1DjtkxAdE1sfCgDbw7GrzKAdYKBnTiCVpeaNyoCcbw9JV-hZ3E8MipdYqEstUC1u4xOFHJZDr6VImIZBoLgK_nTby5x2_Ee7ydfu5bec9-lJwmmI9xIHH-hDN9WbZeMybjG-_CEX_o8Q1VM2cKXC4motuJAx1BT5-45klQkKwBV58S2lTNCxwXWF126dQDA_1nM7VwTEVyNqvHCdhh9n8UztxPWEqKr7hWPYYPK2gAFqNQ3Gg2mkC5mjsnLsxf2wcwvwF-D3NXVW833s6L/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:30:14.354Z",
-        "updatedAt": "2026-01-23T15:30:14.354Z"
       }
     ],
     "nightlife": [
@@ -4169,27 +4149,6 @@
         "updatedAt": "2026-01-23T15:30:16.956Z"
       },
       {
-        "id": "ChIJNcG1XM8jXkgRO36dkDF1dm8",
-        "destinationId": "belfast",
-        "pathType": "trendy",
-        "rank": 20,
-        "name": "Hidden Gem Cottages",
-        "description": "Lodging - highly rated",
-        "category": "activity",
-        "latitude": 54.272993,
-        "longitude": -7.209134,
-        "address": "176 EshnardarraghRoad, Derryneece, Roselea BT92 7LD, UK",
-        "googleRating": 4.9,
-        "googleReviewCount": 16,
-        "suggestedDuration": "1-1.5 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJNcG1XM8jXkgRO36dkDF1dm8/photos/AcnlKN1LNox7DCG4_TB4J3rccr8w3SHbdhgrziKNbLvPjJGsvdCwp04C95KWwUEygxv-Pp6AxxoHge9182R_S2CW4NegSZyDLAem0TB40oAN42S8WbFPq99X4Skx1QRlWUGhN7eGYfaqqbrmK1gkx5J3ObASWaxzYvkLbUNLr9s86fANOHTrSSWLtpaUHOss8x04izRaVwk9jSBiYan6wal9JZ124J0xmXJ77Eh7y8cPgmSBbgt2Ax2T9CvHY7eJTv08BPBoUWqpss3U7btuzVbda8vAEHqI8MMlkwquafyxbJ1BUg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://hiddengemcottages.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=8031735841201946171&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:30:16.956Z",
-        "updatedAt": "2026-01-23T15:30:16.956Z"
-      },
-      {
         "id": "ChIJK0bxm1cIYUgRzaH6Aoj6Z2Q",
         "destinationId": "belfast",
         "pathType": "trendy",
@@ -4321,5 +4280,5 @@
   "lastFetched": "2026-01-23T15:30:09.028Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 203
+  "totalPOIs": 201
 }

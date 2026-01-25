@@ -49,27 +49,6 @@
         "updatedAt": "2026-01-23T15:25:09.931Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "innsbruck",
-        "pathType": "classic",
-        "rank": 3,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111483,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1U_S_YtZXn9nmpbNdC3Bi0U8GCaTzbK5JMEkJ8L_LF5lZAhOlSTvrrPGXmMfudQra-tQoDT_bf6D0EU1Rw2iTVfn6GZthMcsoBJx8Te4O7ty-ACsJfe2SsaQdbRWAzWF3seDA5CLimB_0Hvp4R0iZbmOQKdtvWRYhchGpSmWLloe5BWizrZb59y38ZCdF5HOXIFsDq9hK1dEQXVYS-zd3ptok2OuRZwPSUymnkMYkVRmpWULxjwfagK7uYcoU2E0gLBbOun9JyKzFwJC0yGHYP3IQG5YUrP2mbUZNzTBx2A_MN2pY8GKv5n_TuMiVAMlN0_ZzQ4gVwYMcGCaIdBDnjnDEOSR0sGyldFx5dNwe3N5v-6fToqgVMUcPk1b5rfanQ0K_wcaexZi7_x0vg7iMnt7HAOCn3-w9lmP4b5FLPog/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:25:09.931Z",
-        "updatedAt": "2026-01-23T15:25:09.931Z"
-      },
-      {
         "id": "ChIJvalPk2NpnUcRph-adIWaXYY",
         "destinationId": "innsbruck",
         "pathType": "classic",
@@ -233,27 +212,6 @@
         "bestTimeOfDay": "any",
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPxp_WftrnUcRBYdJz6jNZVw/photos/AcnlKN3xqiPrFTzf0ZtPeGqDlhEFbHdFtUDwXVRsrCjX4WFuhJQL9vs0eIe9R8hBhh6Bc7FWwg653a3OZLokAsrGqZNPwSXsPXeKahcc78A4bQV-RHTXZWChuhHqyW7M7Ga70gQHOKrhPkYvmrFsnrpwneQYbADiOvYhTxGHMr0EnNc8Q_w8bmNU5mnrwY_ieBopsE_1X5L4aEJFlkZjkOvd-xj8ZQqpRNam-X2EwfNR0EavTEKswSaxZ9lE-SDFvrtJu7x17E25znhK9a8A-FAmjetlNNq2X0ci9_kGlSSrenDyWh6MqOI5OdO1wPH9xY3mxmhPzVrtb8_0-w7vfOXFJsNs4mUMBl8qMFLk6ktyaH0dzVWStDPDDigmAYlhbELeg2VVQpuIGxCjiPOawBhZ54ZdpTV2pJaqK_B7W04BCGCf7w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6657953749053048581&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T15:25:09.931Z",
-        "updatedAt": "2026-01-23T15:25:09.931Z"
-      },
-      {
-        "id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
-        "destinationId": "innsbruck",
-        "pathType": "classic",
-        "rank": 12,
-        "name": "Stonehenge",
-        "description": "Legendary neolithic monument made using stones transported from Wales & built for unknown purposes.",
-        "category": "landmark",
-        "latitude": 51.178881999999994,
-        "longitude": -1.8262150000000001,
-        "address": "Salisbury SP4 7DE, UK",
-        "googleRating": 4.5,
-        "googleReviewCount": 64029,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJEfYKhTvmc0gR3dLTvOJwkZc/photos/AcnlKN0C5Ll3Ql5mc2Rt6bjmen7yiE4sNgOUNBPUNu8V5T20l_JqH2LdkHWWKQatgCf7UEGVwxikgDyCZ7XnCHrEeOtlhbioa7me4q4RXmr1WKi_74-4NfBXhxJS6zqvVizroc74keG_YxBrfoKFMLRMQAZJAOiSKsAxDyTMCEYizcH0FDwUP7-tJsGWVf3kDOa3oZZGgPr73n0ZC55Ps-qXDCnOk8j4kkVhEprlWe6Q_GZ3v_0iMblLRLvHdI62RdxJPZVHI-PhRKO41OWkR8os5e--93Z7yWbsqyiwLI_Ft-23luPd-MtYxRt7Gh9At-WCSj7GhNmQ4PhpwjL0mriQz_Zj0g2kjrg8T679zay5lRCiZCVJTLYCpN6tDNBF4XPjwosaJW3oDBtwbDaNDiojS-a5BO0phEePzt9CCBYnFihCXg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.english-heritage.org.uk/visit/places/stonehenge/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge&utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge",
-        "googleMapsUrl": "https://maps.google.com/?cid=10921634690483081949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:25:09.931Z",
         "updatedAt": "2026-01-23T15:25:09.931Z"
       },
@@ -1731,27 +1689,6 @@
         "updatedAt": "2026-01-23T15:25:12.126Z"
       },
       {
-        "id": "ChIJvRIfnflPdkcRF57wF8aHZLM",
-        "destinationId": "innsbruck",
-        "pathType": "adventure",
-        "rank": 26,
-        "name": "Mountain High Adventure Center",
-        "description": "Adventure Sports Center - highly rated",
-        "category": "activity",
-        "latitude": 47.516861299999995,
-        "longitude": 12.4269014,
-        "address": "Hornweg 21 harschbichl Bergbahn, 6380 St. Johann in Tirol, Austria",
-        "googleRating": 4.7,
-        "googleReviewCount": 94,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvRIfnflPdkcRF57wF8aHZLM/photos/AcnlKN1QwqJET0W27K6XT_izh1F9MAE1zOO1TaquTyzZI2CD191pJDDsQgOkAIhKTxJAvGwX9ETTTLcpkSqczo71PCO706T1yLA1AkQqJnRUxSvC_D4Uz9Af2P5Ed0mGN9cie6cAfZvgPpN9rFvSZFgbksYyuseCqHas8J08HesyE8lpIe6IzYQ6N9GKoCV7GkYBrRxDtfSyn0_lr_ut0N66NPgRSKaVAVYeTTNV6Ht5KswKun1ryGEX6uhGB0boWetXelzPfqBoqx6hRPHkmZQg2c8GOdUctP4Yu7BbpABD6up_iQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.mountain-high.at/",
-        "googleMapsUrl": "https://maps.google.com/?cid=12926606115335085591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:25:12.126Z",
-        "updatedAt": "2026-01-23T15:25:12.126Z"
-      },
-      {
         "id": "ChIJD6ohMwxrnUcRjWgRtfmLIqI",
         "destinationId": "innsbruck",
         "pathType": "adventure",
@@ -3069,26 +3006,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=6957975740765426124&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:25:14.620Z",
         "updatedAt": "2026-01-23T15:25:14.620Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "innsbruck",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN37g0Rv19Mo9wbSclZl_Srjt7q8KEd8BeBn9UG9Z4AJlyw9GOlGKPeNMJiQAHKM8AhDfXWY36wbegdQOP10yyB20uzKkRRPIpJrHNB0kJvjwv-4Wleqg15vl-emIIX5AO-8gGdrg5oB1lnKmLpBevAKBUgMw4rMnCltB156zMQPhD82Sn8I18nwVz4MVcRmHdpVnth3fkD2dRLzsDo9b0UsVyh3j5M0p5j1MJonksUx51B_txn3vFHC2pXWxVeYyDuMZbigYoTGxzapPT5GGwuiyRzgPjjEt1XJVnUqr4qlgDUFhZKe6TYk7uGqsPvm_5K6xYj30qfzhVsKr9yGo4kba5Ly6u_SeLSP7XgYKTvmNMzjbjL0W2Xfutp_6UvRTVblLC8B8fUAFQobapd1El0OctBuc_XHlqMTh_ehG9-dYewW/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:25:14.620Z",
-        "updatedAt": "2026-01-23T15:25:14.620Z"
       }
     ],
     "nightlife": [
@@ -4165,5 +4082,5 @@
   "lastFetched": "2026-01-23T15:25:09.311Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 197
+  "totalPOIs": 193
 }

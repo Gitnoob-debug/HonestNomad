@@ -2925,26 +2925,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=16928456891053669493&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:24:10.129Z",
         "updatedAt": "2026-01-23T15:24:10.129Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "frankfurt",
-        "pathType": "relaxation",
-        "rank": 25,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3OE2sFlF_qpJZsByXMmHNe6vtO_jiSD6OCpCovYQFKXWOP4L-3upopji9WJ3Gs6CoEDZ6JIOrbmlUGSdRZ2eIw8JTQPtXUvyuJR7IkE5jtxF6lvvreH-eclKZ6TWRhaIdCyL3xrbE_A322Q5m6TA1AnD-DaD8I5CziY4Og9t7fqEOI9C7ENmRu7jz1MQoP6KjAkkaAvBvEsoDULs6sw3ig2OjWR_rtbL35KTmYyDP2vc3Wn8lYWvVJAetwSwD8KPjCCtcc0LZ4sNkL15yZue5waDzzVSz4fFFZ6mO_b6KElVmT7tz7Lobfzr8iAxMaPXdJrTN48J2oD-bKWoax8Y3eerCBc54JRNbQu4qmrNvo2fg6mqH0VpSKFMgKVXSLTdqwqw-IOekLir4VWcfmD6pdJFdRgbcVNzenkCKMuG2UW3yu/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:24:10.129Z",
-        "updatedAt": "2026-01-23T15:24:10.129Z"
       }
     ],
     "nightlife": [
@@ -4244,5 +4224,5 @@
   "lastFetched": "2026-01-23T15:24:05.347Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 200
+  "totalPOIs": 199
 }

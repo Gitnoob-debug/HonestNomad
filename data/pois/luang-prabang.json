@@ -1356,48 +1356,6 @@
         "updatedAt": "2026-01-23T15:39:21.580Z"
       },
       {
-        "id": "ChIJ3YdpmVftJTER2BMPWzYi9VU",
-        "destinationId": "luang-prabang",
-        "pathType": "adventure",
-        "rank": 8,
-        "name": "Vang Vieng Paramotor Center",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 18.9122596,
-        "longitude": 102.40546649999999,
-        "address": "Pilot's café, Vang Vieng, Laos",
-        "googleRating": 4.9,
-        "googleReviewCount": 87,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3YdpmVftJTER2BMPWzYi9VU/photos/AcnlKN1w99Z0LhuJTzVgDlwxyjRjZOR7Rd7j1ibjzEzpXecxJtXlWp6CiylJuy87QY4Oh8bUNGpE5zNEYQr4fc6qrYk-mQZ59INLtqjRR7VhDRG1F8dpkvU1rTHsePwLdi9ibxY9YCLQ99UHZUZ_Ckx1xjCc5U6KOcbjFbxv4H66eUdbHT2XlIYAzp9l86SL8okvFWzY0VLvCDNaGa1zvYQhmoEP7ruA2Fx4m9aE4tbyhAgJGRnO4pvZqk07uG6eH3ygQEfm2Hwrm3bMFCTKnAtBt1473kXzZqyWFp_pBwTWajx74w/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.facebook.com/VangViengParamotorCenter/&ved=2ahUKEwiK1u3elqjkAhVNeXAKHbhsCy0QFjAMegQIARAB&usg=AOvVaw0tBGKgcMeRk_Sk9w81KkvR",
-        "googleMapsUrl": "https://maps.google.com/?cid=6193894479369278424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:39:21.580Z",
-        "updatedAt": "2026-01-23T15:39:21.580Z"
-      },
-      {
-        "id": "ChIJjUPZIADLKzERYJLcVMI_CGE",
-        "destinationId": "luang-prabang",
-        "pathType": "adventure",
-        "rank": 9,
-        "name": "P Adventure Laos",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 21.003555499999997,
-        "longitude": 101.4103727,
-        "address": "A17 Road, Ban Phonxay, P.D.R, ຫລວງນໍ້າທາ 03000, Laos",
-        "googleRating": 4.9,
-        "googleReviewCount": 50,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJjUPZIADLKzERYJLcVMI_CGE/photos/AcnlKN1b96YF8DLuvqupjFT_4Ll3wKvuDpgrJDb48aBlRF-nVh0i9KX4vKHvBCK1HDd0uBOjnijvzHwaIoLVyzeEDYMOr_iIRunxGZqwgUdUoApxY5ZHcgDm98yx882opJEi8Pjw3ceBDOF4v5TjMbu96aMYRHF0slP4UMjUnM8f5uTQgUkBejiYHjGnKTDNeadPp35_BybUnDKFl5zAztJqxGvRI_ODSOePFtwOK4CJOZ7Ow2LioN7PwtjZMbBjKwz6X7KA42wJYkZUmeA6g-m9ouF29bUNy2u_qTM1IsZg3fbeQA/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.padventureslaos.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=6991908525372641888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:39:21.580Z",
-        "updatedAt": "2026-01-23T15:39:21.580Z"
-      },
-      {
         "id": "ChIJ_Z82qHsrLzER7oorzKhcFWw",
         "destinationId": "luang-prabang",
         "pathType": "adventure",
@@ -2552,26 +2510,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=11890356159477560043&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:24.281Z",
         "updatedAt": "2026-01-23T15:39:24.281Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "luang-prabang",
-        "pathType": "relaxation",
-        "rank": 26,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3OK5Hjy_Tz35T2N9gD0wRbBU59Om6h5VPaHJvGuN-CZPl3muaAuGRNu4_hsWRBrVI6BIbN0eG6oi3lt_mylyZ2EE2Qqp6sUKn7yYpiVIJDeAmm15_k4GErmC7lhMnuzG_njZ4pwBL30sqelZYtWNTDcNXAYWb9GtEgo5bniFIWNdsoZnWCGoKP2kLr9kJY2xQvhzkvMUf8lf_2VgjIzOSe7ycGbAFI_0MqWs-G9lTbf-DIsxA40YTeL7eCsIlQH8I21VdN85gNVNOJmr4GXW4kiqnnqrTPJp6Ya0axzeXp5-ZakHDHmnbuRUqh_b7RrLfxXoHlzzX2Jk9rLVEW2-7_mgtR0PpH0LN5fgLrFkgV9jbTL9COARUup8u_FiQm1JSdMF41ZGi7sjkjMhSVVmJp6_bcf1yulDo0mKbhrnTiDoFg/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:39:24.281Z",
-        "updatedAt": "2026-01-23T15:39:24.281Z"
       }
     ],
     "nightlife": [
@@ -3579,5 +3517,5 @@
   "lastFetched": "2026-01-23T15:39:18.446Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 172
+  "totalPOIs": 169
 }

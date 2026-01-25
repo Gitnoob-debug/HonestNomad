@@ -69,27 +69,6 @@
         "updatedAt": "2026-01-23T15:34:23.475Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "black-forest",
-        "pathType": "classic",
-        "rank": 4,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN05JFcCI1oY04JG3Z9VGeCWGgyIB1IdAX4DHdhqhSAlIGTKi3p1zRiN9Iffn251DOfwQAS9aIphGm9L5-WKnxwC3wImRbDtdvOOm-umlVFusFVLEvG307z2TZB7kIvMfU03FbPjcRf9vbbO6BoQwmnuOS3FYPTRCeRpFo0fhl18asoPic-y2tubkSAn57h7EefoqTOnTblFijO2eBW8RtTol8Edj3TfeyVnJmvycTtqWjd0ZPK68krwTat3AKnDYmtGp7xKcpLu6ADT8mq6XIIsi1mXkwUnElAA0MwcuAU_rS7o9bEMMM7Y6k_cSAVQzgWeMIshI2Wx7-ywCEKQdDMUm8lHHPxleolkd-zlEX5dOteB1BMgkTbmV6ZN04lVVzRImlgkqAapVQ46Y8LhrujcPNJLCzr-8RwTrzZ7C8YqnQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:34:23.475Z",
-        "updatedAt": "2026-01-23T15:34:23.475Z"
-      },
-      {
         "id": "ChIJrxwiYAsbkUcROajgYndeBJE",
         "destinationId": "black-forest",
         "pathType": "classic",
@@ -174,27 +153,6 @@
         "updatedAt": "2026-01-23T15:34:23.475Z"
       },
       {
-        "id": "ChIJbf8C1yFxdDkR3n12P4DkKt0",
-        "destinationId": "black-forest",
-        "pathType": "classic",
-        "rank": 9,
-        "name": "Taj Mahal",
-        "description": "17th-century, Mughal-style, marble mausoleum with minarets, a mosque & famously symmetrical gardens.",
-        "category": "landmark",
-        "latitude": 27.175144799999998,
-        "longitude": 78.0421422,
-        "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India",
-        "googleRating": 4.6,
-        "googleReviewCount": 246128,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJbf8C1yFxdDkR3n12P4DkKt0/photos/AcnlKN2xC7dffnguva9BscQsVbfpQohu2DqJ17Hw2s8goLPzbt8NjVnD33JZ_s2S282FwRTWHAuTN62dUvre74Fwzo0yG9bwniCT1Rq-C7xzYG80K62HCPEtV0x6PcXVjj2Ri2YCwOK7UOGAQywn_sSHtLzO2Jf9Ia8Sk7GoqK4ZRFJSBPZfyL7EgYiHYDS6n78l1Lq7rC_iUElylUo4QCZnmlJXF8tTeZpgMdy1p_y87RBlFATqmmIF-hR1hTUcrdUqBe3n_81zaPrHjBg4JnU_3_iB0FtYa-h8Zfb62yPuqRY7SlBmUjCqZI-A6Z4ZAhUEvv3tYv_9eTP15gWSRomqy8QgINe0kQ5T26G9br73EQo21jjbHpCFGHg6bebKHiT2xDORF_wFZpx2Xl5hgY0kgpyr5ERg-3TjovS-1hf0FK1cGhk/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.tajmahal.gov.in/",
-        "googleMapsUrl": "https://maps.google.com/?cid=15936801470875598302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:34:23.475Z",
-        "updatedAt": "2026-01-23T15:34:23.475Z"
-      },
-      {
         "id": "ChIJkzLet8QfkUcRtZg1vlOrgbg",
         "destinationId": "black-forest",
         "pathType": "classic",
@@ -233,27 +191,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJebMEO_H9kEcRzYhzvWyxqyk/photos/AcnlKN0iQl7vuqLz4ZEQNmH67NMlkx1lpiv4zjri4c_7XpX5s2LbfCjr6R1i_QMNzx37px4vQspxfVO9tc_p5HwzSyMdV7MTDqdf11AcbA7ei_XQtci9REUD-GHvc-CueBsWH_CYQtOqgPS9YbNDGVueo1EUxvOFGuJ3oJSLh8spREyJBFu8V1AaUROM8paKim-uiDxK43XdMvJjeZ4-_sz7MECHaVPZ65AzztEkqhOvRjB8_4xOl2dYioT5OlGAXaVA6OZpch-Xri93WO6dRyZKSCj0OcpfsQzxNjNP78RPte-oZw/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "http://www.steinwasen-park.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=3002688657165617357&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T15:34:23.475Z",
-        "updatedAt": "2026-01-23T15:34:23.475Z"
-      },
-      {
-        "id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
-        "destinationId": "black-forest",
-        "pathType": "classic",
-        "rank": 12,
-        "name": "Stonehenge",
-        "description": "Legendary neolithic monument made using stones transported from Wales & built for unknown purposes.",
-        "category": "landmark",
-        "latitude": 51.178881999999994,
-        "longitude": -1.8262150000000001,
-        "address": "Salisbury SP4 7DE, UK",
-        "googleRating": 4.5,
-        "googleReviewCount": 64029,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJEfYKhTvmc0gR3dLTvOJwkZc/photos/AcnlKN2LYr_M16ZHggH7ez9Tm50v_e-tkCpeK3V-lXgcYKoZyfI_Lu5jNOioQlYN2FkTRulOlir7EJeGyBsf4KQ5maA7EfnZmeyFTZMucuFFy5Kwcei4vh-skG43rZOb1ZTI0oj20FrEJwcI5TivxxkMo6grCM8mEEDTZFWN5Gg_T-a37u6jyHtUCKTjjoeFp2P7h9lpqVycfG5oRwX5YU0thS1RAFl35VtlDg16fuxO4gjlldwOEku9f7g1SD6oRNt3CBkTUVLMznims-m5M8hE41SGLsaURn3VpEhvs6KDLlAEW9XpnTSiXwXq3RgEqYIk3WB2GIFEfCaFT7Ekxnah1VarDoh7HGJED_vZdD4elLi966BVF3LzKhL5M87O-VwA3OK3TZ_hXeX5HTCL5QXA8_sowFeYV6QJpO5fN4S-8ypwvA/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.english-heritage.org.uk/visit/places/stonehenge/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge&utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge",
-        "googleMapsUrl": "https://maps.google.com/?cid=10921634690483081949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:23.475Z",
         "updatedAt": "2026-01-23T15:34:23.475Z"
       },
@@ -3125,26 +3062,6 @@
         "updatedAt": "2026-01-23T15:34:28.284Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "black-forest",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3ZzMDn84tKT-bB9Vy5v_ZxKy25VgpaNUyGBSY-1_MM-zR8liYI_V3TRy70f62OR7SxeysW-5t2moh7ron3MOXV9fbi3YDOSmYF9XcHltxWlYXxI29FtkXRZoBm4T8aUlLmpBQU8Tc2kTHZqT2mf3Xx8KGxRFzk4SI4xCrBAQHEWlwBEHxVhVKRepsgy3VCdght-MBVeRW7CMt2gQ1Mrb4-xj70VCwYAGZBHULbyKyLKN78L0PsvQwnJDbd40kyj14Mz202hJKeBsap_LuooCqS63tFIsZG632kulyZjxvSwu0mHLtFom_ya4c8035VCHqWmzFXmHR0xmG1jOYxxfrOgDxDeRSTbPSSDatkiPpqlQ4zutmGyGJ7r3ZaPdTLOEJzdbO8Iy2bYrqo8HRoi9b1ShubpFtV7iNnV9JPchSfJqgg/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:34:28.284Z",
-        "updatedAt": "2026-01-23T15:34:28.284Z"
-      },
-      {
         "id": "ChIJVVVVVa4bkUcRkIV5D-Bsmcw",
         "destinationId": "black-forest",
         "pathType": "relaxation",
@@ -4378,5 +4295,5 @@
   "lastFetched": "2026-01-23T15:34:22.826Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 206
+  "totalPOIs": 202
 }

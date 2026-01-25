@@ -1227,27 +1227,6 @@
         "updatedAt": "2026-01-23T16:03:35.898Z"
       },
       {
-        "id": "ChIJt04-TgFfQIwRa9hMEVJh2Es",
-        "destinationId": "barbados",
-        "pathType": "adventure",
-        "rank": 9,
-        "name": "Treetop Adventure Park",
-        "description": "Family attraction featuring a network of zip-lines taking visitors on a rapid tour of the treetops.",
-        "category": "activity",
-        "latitude": 13.900609999999999,
-        "longitude": -60.924217,
-        "address": "Errard Road, Dennery, St Lucia",
-        "googleRating": 4.8,
-        "googleReviewCount": 351,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJt04-TgFfQIwRa9hMEVJh2Es/photos/AcnlKN13paZrx-E_ZHok6BUJVoEmvz4kWnV4Kqo96mdAUrKL3WR5V1wUlH_joQih5IPm1NjncVk_V_Aecz2dCf8O6gx9FZisEuX5Mk-jsIbTItaCz3-72vicEfrz6c8NMzPyTRD_e2HsQXtEOt6-unRh1FM98HwictAzhVQtXQ098fdEIi847SfhleozL_YQp4cRwVwTCQ0pKZL2j3TiDAf5MTChnVGKV7_hZ48fAI7-RERWOx6RKTDrdB8vtLE1psjhAQqk4heE2ncVoJ4XvT5OXCy66sHt3kHPgSnasjNk3PLfOw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://adventuretoursstlucia.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=5465225152919558251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:03:35.898Z",
-        "updatedAt": "2026-01-23T16:03:35.898Z"
-      },
-      {
         "id": "ChIJ3WIccb73Q4wRtgbyP6bRJAA",
         "destinationId": "barbados",
         "pathType": "adventure",
@@ -2762,26 +2741,6 @@
         "updatedAt": "2026-01-23T16:03:38.373Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "barbados",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3jqtm-wLN4Z0M0jVI-dzn1AzD02Ix7XG4ih0_flBQfFW6YWiUo6_nAmhhpi2-ERMkyEtE5IwEG1QexzPffW7P8YmswPeowUFdCRFHofEAkxNZkoAEH140FUtUmSytbdy2dvaXvToj-Ov5xtc9QLi6zQutA4ZQjzj_LnI3D8xISP4QbrOwoF3S9plIgprp041H84AxzMMPB8arWPOxEQE3ebAfD4nfn9k-SZXs9lpasrExYqeK5MgckPW2RXtl7iCaPtgcSJ9ax5cn06akQ31JhxQfAIdkkBI3DW2NWqRvZfZpLVSUMHW69ovcyYnnwdWjzGtkzIE28aj-6qoLl7RXfWi9eZ5HWXq6Lq0_9OemBMC8YosFL7kgbx5BjmKHcrn5a7oUr36E20WTUzD_7F__e0JeE1KBambPA1TXK73rmP7EU/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:03:38.373Z",
-        "updatedAt": "2026-01-23T16:03:38.373Z"
-      },
-      {
         "id": "ChIJi3XEfFr2Q4wRPiRcs4ZxaoM",
         "destinationId": "barbados",
         "pathType": "relaxation",
@@ -2804,28 +2763,6 @@
       }
     ],
     "nightlife": [
-      {
-        "id": "ChIJIRiJaRRawokR2KyQ984qa-o",
-        "destinationId": "barbados",
-        "pathType": "nightlife",
-        "rank": 1,
-        "name": "The Dead Rabbit",
-        "description": "This 2-story spot combines a lunch taproom with a parlor serving small plates & vintage cocktails.",
-        "category": "bar",
-        "latitude": 40.7032685,
-        "longitude": -74.0110218,
-        "address": "30 Water St, New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 8204,
-        "googlePrice": 2,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "night",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJIRiJaRRawokR2KyQ984qa-o/photos/AcnlKN2pZMaEIiBIDYGkYQpaflatHBqBM8ycI7KUu-VhRoRE6P62MCIq_uHUHi464plNVigE717t9I5gFKoyLQZD81LkLOVbJl3fmRwXchGnXa-y3avTx4xkOP8umzFL4JylA0d8Q7LTbk0vS8kRlJsQqYUnkHZSBzmbdsKyogngjvxSpEx-16wgx1CL66qgHoBta_4gTuiZMQwpS5e8Qn5ffbxpdwUxX1hu6VFbGP6d5u9A6jP_MQdxF_D-9CtwT4TdORc41UomRwBvGq_4NhZqm_frt2lVEQM38WgTStAQJX3aPg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://thedeadrabbit.com/?utm_source=google_business_profile&utm_medium=gbp_view_website&utm_campaign=google_business_profile",
-        "googleMapsUrl": "https://maps.google.com/?cid=16891641895788260568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:03:39.556Z",
-        "updatedAt": "2026-01-23T16:03:39.556Z"
-      },
       {
         "id": "ChIJM6MnFJXxQ4wRgnozoa0CAEg",
         "destinationId": "barbados",
@@ -3822,5 +3759,5 @@
   "lastFetched": "2026-01-23T16:03:33.165Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 182
+  "totalPOIs": 179
 }

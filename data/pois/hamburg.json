@@ -238,27 +238,6 @@
         "updatedAt": "2026-01-23T15:24:13.808Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "hamburg",
-        "pathType": "classic",
-        "rank": 12,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111483,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN0Yt349Q638zu82l4KsystqniLPly73IgAGN7JJTvHvFbfskiDPHUoENO4OXmGnLxPdBho62p2GHJPYhxR0e375zG6BZ5lgiL8-pgoGTYoTk72rkTf4j8gAYd1RhMKiHCDBjDqY7qR8VZxWqyEuASqWZlN2sqYuP_ZIJO3Jh5Jmh4EsZQejeAQ1050ScjaKK4vWsuYmlyy2HJ0l0pS53WFFOwgN2-h1jzMDnaY8sAm2dagWWfO7qf9O9ykLDrfzeJQNP5U8eslufvI6_7sSr1hxkc4z9CzQOz1OkzdkfCyYk5wnvvjb0OLDiSJRSrHZUMQIXVJaolErTvXcP4dnK3HDfJ7A6TkmCs1834vY-gTAEQmI384oVDTPeg0Zjvs6ie-KTFO3-6ETY-GOjeqq-nd-6eSjz3NPZIWbdjaZ-dPerQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:24:13.808Z",
-        "updatedAt": "2026-01-23T15:24:13.808Z"
-      },
-      {
         "id": "ChIJKwNuzz-PsUcRAszMcxPtdZc",
         "destinationId": "hamburg",
         "pathType": "classic",
@@ -2833,26 +2812,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=11318989079059475764&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:24:17.668Z",
         "updatedAt": "2026-01-23T15:24:17.668Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "hamburg",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0D_8gcNDGGQ7ueZXHYIwGvM9nS2tww5dlSPXs_watX9PdWhJcqZ7z7Zx_kZpmlfy-HS0Q4b4rJYEiDLHc1gSBsVydkABpQ9trhxXqWKuhSq5qzzi3tSNhPvnuJNhnBPMZ0fqkrqCV5XdLFJMYsWucWZDnPvo76BC6f21t7Ab_hcQpsAP70iuLpSmnzqEYsvW2f9QeW37h4TG6Hd0uN2OyNlcRUZXMIZ-myimdTbIbFV6qIZjAOoe-7Bwg7Aq_Gblg1xdpNDgZDt5EGjgPDuetY4dJY8f6Gp4LrJCSBeKT1QnP4Vk50MiY3EuhK6EpsPsk-wk9jPWmWHd5gcvWHsPwpO0ZjKqeCEXUqTgPDBwATCiPgIHjk6zTx0GnzWSbBt4Ys1Oh-E_F6kztSmBHYj-WQQklwHMHA0I8TdkupRqsQM-2Y/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:24:17.668Z",
-        "updatedAt": "2026-01-23T15:24:17.668Z"
       }
     ],
     "nightlife": [
@@ -4000,5 +3959,5 @@
   "lastFetched": "2026-01-23T15:24:12.877Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 188
+  "totalPOIs": 186
 }

@@ -322,27 +322,6 @@
         "updatedAt": "2026-01-23T15:33:33.342Z"
       },
       {
-        "id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
-        "destinationId": "cardiff",
-        "pathType": "classic",
-        "rank": 16,
-        "name": "Stonehenge",
-        "description": "Legendary neolithic monument made using stones transported from Wales & built for unknown purposes.",
-        "category": "landmark",
-        "latitude": 51.178881999999994,
-        "longitude": -1.8262150000000001,
-        "address": "Salisbury SP4 7DE, UK",
-        "googleRating": 4.5,
-        "googleReviewCount": 64029,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJEfYKhTvmc0gR3dLTvOJwkZc/photos/AcnlKN0dwJMzu8geVK0PeluW4DwdTQZUHcWePPTPrUqfF80qRkKySJbIRQPrlH_7Gc-87T_4YsLJILadny7Vf0YhBNm_GG-vnJcclpelQ4YrwXqz2wEgznPgd0r-RH_wOhSqgH2W1Uw-SIpqJzWVknCKv1d97lVwTS6abmnp3DwhP9J3XoHcYlZR2dYaixHL70l4mKJjhRe8IedoQvIrfGETaTZAFyE-haYqaqQ1xiVg1eT95tPBlX36IEi8Jtyu6OE-i3s138S_oL1fAZAltK8Rod7MtNSNiRk92hvyXsunKftm48MOg_dM1fuyZFj5GLysG8ssWIe_UkXdy4hjCvBDNzH_sNEOEbjfc4jn801SkjCdRGAolv7Z1t4QiyBIt0KBdhf7IsM35z1RaQ3KuxQiQumegRw-6GsiF59_8Z_v9eT-_Q/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.english-heritage.org.uk/visit/places/stonehenge/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge&utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge",
-        "googleMapsUrl": "https://maps.google.com/?cid=10921634690483081949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:33:33.342Z",
-        "updatedAt": "2026-01-23T15:33:33.342Z"
-      },
-      {
         "id": "ChIJNYyALrocbkgREm1qGW30VyQ",
         "destinationId": "cardiff",
         "pathType": "classic",
@@ -2965,26 +2944,6 @@
         "updatedAt": "2026-01-23T15:33:37.818Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "cardiff",
-        "pathType": "relaxation",
-        "rank": 27,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2wYJuJdBX8AYk6SQVenaMbMARmLGa4pseNj3BCu7P-SFb4M1NAx-JM_7k0WCByYboxfzzt4TotF_VYnCFjf-z4QZ5jZlOsSnpn8MRz5WvNq0HIVh-le2JTrkBsl67vvWjkujCvGOJ1IIcBIqnIzjEGFfG6tGP5sXPLzsGvIbFneXqS9m_Xj5qKs09LVgp6FiJT-6-xFwLxEMbmPnttsT-KC2F-RAiFvmK1lHVNgSvIghtH_om-Yz6jCss4ZQzWouUdX7tWPRXmk58TvyCT8gDaJF00g2z8AA8omyi7LrZONhU93YiexI9ExFlSyaOiSV_KnZ7gH7l9ufOtQmvzawDQ9rRZLhsTkrQfZhYmaaPy4zE8lYUaO3NGnb42PTznbFkMur-WxUun9W8Fgy-G_WqKuVn-05jUwny1hkQxrq6EVP7R/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:33:37.818Z",
-        "updatedAt": "2026-01-23T15:33:37.818Z"
-      },
-      {
         "id": "ChIJf5IFa4gdbkgRhwN-PSHSAmo",
         "destinationId": "cardiff",
         "pathType": "relaxation",
@@ -4303,5 +4262,5 @@
   "lastFetched": "2026-01-23T15:33:32.720Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 203
+  "totalPOIs": 201
 }

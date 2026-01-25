@@ -49,27 +49,6 @@
         "updatedAt": "2026-01-23T15:23:50.983Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "rotterdam",
-        "pathType": "classic",
-        "rank": 3,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111483,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN36A4yziXIX36tlS34bgX8-QX47n6I1k-WOo0XsFKsHmueNhP8pXXFpZKq6kS10PxtL-Afg0_1KS7-TBWYA6898Ai-gVWlcixzXp_tpDHnitGdkWu31PW92eODbbgsQP6l5zbF6OtU86-YKXQvcI-AzRAbhKtgSuowU--xO6XCXJbU43s8teKvCqVIx2WUPLAKYN3o2YhcITjvN92bQkf_cX0vUF293h2xRyo_K3nRNqbknTjwiwJAyXY3vbdZGU3s7qsvmVmQf5GSkEDHObS2_HvFesrIJfhTMKyVvunutz-GXqpB2jyglbMjbf3_2daLGn1Q1h5D5HV5C2wic5iW9PDMQSvG8y72jtQTE_xcLVHJTOFuDAg1oD4OomyReMr9yx5SfSVEE0OhTBV8chk6gLGDuyf3aYfP86nYk2Hi1gQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:23:50.983Z",
-        "updatedAt": "2026-01-23T15:23:50.983Z"
-      },
-      {
         "id": "ChIJW08dqWYzxEcRWFwW9N9RO_Q",
         "destinationId": "rotterdam",
         "pathType": "classic",
@@ -211,27 +190,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJx9INHE23xUcRQLyRyK-B_sw/photos/AcnlKN09yVFSUbunAZZN844eTAj95_ZW-wdLIwBtLwFrjFqfMCx5eFmCcEypLCCIvb8B5BZB2-noqhwnm2p48el9wtsh6Kd8EWTq9nIl6WC4yj4o4NGemG_n5_Tv4e_QHl4IkYuq_YlflBxkn0kQYDjiGDMfxsCVaIlklpncZvF6QnrvVxr1jYJELixvsSgsWLxnCbv2sbK6jJOoWznqxF4rN9pwjN9CysD9cQcF86-VJKc1TonUaVWkMPUqJu3dREx8gMYQhU-paVcKXh-UzuNKV7e9Egt0Ipi5t7m3NdTeTAGsnY-6XIpXSJdZBDkFXyETkr7R7ehU3_QqEA5g38iQ9XNGxPJo2KkLglXYAmBZEeBA83tuQjbjpU1-NRig9wTtOZ50xL8sCl-IaLhjyOTolq7ciNR5Oha1HGorHSHcuan_xA/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "https://www.madurodam.nl/nl",
         "googleMapsUrl": "https://maps.google.com/?cid=14771386419806059584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:23:50.983Z",
-        "updatedAt": "2026-01-23T15:23:50.983Z"
-      },
-      {
-        "id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
-        "destinationId": "rotterdam",
-        "pathType": "classic",
-        "rank": 11,
-        "name": "Stonehenge",
-        "description": "Legendary neolithic monument made using stones transported from Wales & built for unknown purposes.",
-        "category": "landmark",
-        "latitude": 51.178881999999994,
-        "longitude": -1.8262150000000001,
-        "address": "Salisbury SP4 7DE, UK",
-        "googleRating": 4.5,
-        "googleReviewCount": 64029,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJEfYKhTvmc0gR3dLTvOJwkZc/photos/AcnlKN0TnEwqWKkoAm4Mik-LpmKHvZdrKWvTtfa5tjj_my0Iq_WKSePQ97VpolAd2U-9kRyqLXyJY4XNXUsAm59600UbLUjRRhJw42XsL6ODRlu7FTUs-5xhN4z2TR6EVSy2G0C38TTFggXWJ7ZDbcMH8rq4U5xFWzLihm6RL1WxvvFOrlnBWsrhQdSQLLRYNHWaWekUErUjP_iODRahbq7k2JqIG264JaQbewuHOcEwcp9SpjpDjBB_Y907YH3tnxvsTEWLeyNWsE7MCj2y6DWNiPWlxprqRTr6tnfr5YBPQB35H93u1UvU1NwWXIKR3gRHfgNJE64k7OSEhltJ3KaaOb1fNBD-OcwmTnkx40IP2TPPup6VShLX31eV09zEgMyOjicynZ_B2vM7bMuqvIIDiC1FJINtACrTElp3T7QtYJvCng/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.english-heritage.org.uk/visit/places/stonehenge/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge&utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge",
-        "googleMapsUrl": "https://maps.google.com/?cid=10921634690483081949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:23:50.983Z",
         "updatedAt": "2026-01-23T15:23:50.983Z"
       },
@@ -2906,26 +2864,6 @@
         "updatedAt": "2026-01-23T15:23:55.246Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "rotterdam",
-        "pathType": "relaxation",
-        "rank": 21,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3H4hkJUxa4VFW6C4x4KTpxUDZONAe5VrEk-rWck_rtcsMW0wzlRrvrwTcz55-suqbf89OI5Hz93NnJ74JiPrKiiWQNPS7a6Hp0T7db1tdYqlHkzmy6WVHzKm-22J6BZkQq5BLl9waiz06JzMajzK74HNdq0MewIyo6i7RlaF6SLmkTrnMzIYoLxsrHVR96OZFEVEf2xRLizkZpCHSGGbYhydnDTgTTHG9gm7TpUZi7dW4N9k18fS3e4zx7mYJHJq49WDVA2YQZ5zqbeGZG1A9Pg5yyHkA4wXBSNQA5W9rMfvUwGvSTXCmITt1S1Md4PnQHB2hLZDnZI7t6UbTESJK0FnRDzPgRHFRCFk0BREZ_N6dwDh3ClztEdYGVk72XWkS_uag_g_USd2KsS82MdGPp32zhWOMr2LX4mjThwKGeGrdN/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:23:55.246Z",
-        "updatedAt": "2026-01-23T15:23:55.246Z"
-      },
-      {
         "id": "ChIJfTqtjQwzxEcRbidc8iOVV2Y",
         "destinationId": "rotterdam",
         "pathType": "relaxation",
@@ -4132,5 +4070,5 @@
   "lastFetched": "2026-01-23T15:23:50.416Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 195
+  "totalPOIs": 192
 }

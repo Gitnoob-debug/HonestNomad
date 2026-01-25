@@ -111,27 +111,6 @@
         "updatedAt": "2026-01-23T15:35:40.930Z"
       },
       {
-        "id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
-        "destinationId": "tirana",
-        "pathType": "classic",
-        "rank": 6,
-        "name": "Stonehenge",
-        "description": "Legendary neolithic monument made using stones transported from Wales & built for unknown purposes.",
-        "category": "landmark",
-        "latitude": 51.178881999999994,
-        "longitude": -1.8262150000000001,
-        "address": "Salisbury SP4 7DE, UK",
-        "googleRating": 4.5,
-        "googleReviewCount": 64029,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJEfYKhTvmc0gR3dLTvOJwkZc/photos/AcnlKN0XTNekGwRtudfGLm3IkoPLhuO6iOEwZQJzelGxjVft5YxMImEK-ozUOyVybAYTYcU_Hblb--8hMA9Lm_18eA6RtckQC53jo0g4ZTjCZTUXYIPVuA5N_d-evsPdvR98f-TjaqmzawIG6m-ywSl8uQOsqaBIqRn_eVuxjnCuI0_WLm3Asl_-Yf7RWyzTYpG24HeMUEjfYkpmW9KGnS3wyQ7pEQ59VET8SNdX79g0luOfgVIrY-8ydx9yBHvwkaqUeXmJpqH68k3ILggTK4ig8lOTeJ9q7h1-BX5-kHu_giH71r9flUTHadRzZ7Hut6HGUvVimJwCKo107u7EILcQ9f2v6A0559_jGD97JgyHTo9Axt8fh7tX_at6Umcgt_AcTsG63laFYY2Xg5171pONwynd-31FtlR863vAeCU4U_nKZw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.english-heritage.org.uk/visit/places/stonehenge/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge&utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge",
-        "googleMapsUrl": "https://maps.google.com/?cid=10921634690483081949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:35:40.930Z",
-        "updatedAt": "2026-01-23T15:35:40.930Z"
-      },
-      {
         "id": "ChIJMbZaqRAxUBMRYG5EIVzBwqI",
         "destinationId": "tirana",
         "pathType": "classic",
@@ -1545,27 +1524,6 @@
         "updatedAt": "2026-01-23T15:35:43.106Z"
       },
       {
-        "id": "ChIJe-22YaTVTRMRBpNoYIMvj2I",
-        "destinationId": "tirana",
-        "pathType": "adventure",
-        "rank": 19,
-        "name": "Tara Outdoor Adventure",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 42.2850386,
-        "longitude": 18.843159399999998,
-        "address": "Slovenska Obala, Budva 85310, Montenegro",
-        "googleRating": 4.8,
-        "googleReviewCount": 20,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJe-22YaTVTRMRBpNoYIMvj2I/photos/AcnlKN19c0LyDgaXIAolL8LhwIhjGM9LUKrL2DiEhInqwf20eIY_w5RGbb0Dmi_ONOWuS33Ubbe1X08T0O7RXcK0x9gR-HnrRfcbGh8yrpgJhc42cWOpLkdaNS130PDbNfFpO69hpjwdtD6sTNUKBomFLKzmRyZVHpVmuNF9Mn85QIlJPdGvwNnAzy0_Of-hhMAt139tInVYeqxbUIYY_3pFiO8zIs6D2XWTEMv23OoSWDV_IkVxuS9Djn7e1rlN-NuFysEar0nie7l3L6w87E_wQKu0guhYZNZ94HxNJnlIYGFL9A/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://taraoutdooradventure.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=7101947378691248902&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:35:43.106Z",
-        "updatedAt": "2026-01-23T15:35:43.106Z"
-      },
-      {
         "id": "ChIJNUl--L01UBMRJhiekRmqSN8",
         "destinationId": "tirana",
         "pathType": "adventure",
@@ -2957,26 +2915,6 @@
         "updatedAt": "2026-01-23T15:35:45.472Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "tirana",
-        "pathType": "relaxation",
-        "rank": 27,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2MFw-D9kKMmsazTBVnBZQelsUzsc3dL7ZBLEARBDFX-031e-g-HRN3ZY52o82tbXTUIgDS18tvyzHyVK3qYXftJOOSo6_ORoewKsojroNo7HPW4HPb4ZFondMJTbGg1wtx-Lu4ertpO4RRRG6wMBCczOb2ddCp1U06E2yILxL9cPjp6usrpIoEl2p1dKO0gxIbtI1vm2uMLfkVb_wfhJxB1LMEHD-SA-NVLBRhAvN8wmIXK7PC-7-0hWr4D5eemAZQ4yDGry2aK_vJizGO3wia8F7YaRJh7S7V831EvbN-o1DPg0Y7DF8OpLpKyI3qCXPa2Qa1aDF_myMA6pC6ABN-9fK7NKfXx8wqgxP_8qk8ulB9C-7HIq3oz1xQCixMCFmOaefCbIXMR6exIALR0yvgVfY8AaJ-J--iImfyjx-gE6AU/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:35:45.472Z",
-        "updatedAt": "2026-01-23T15:35:45.472Z"
-      },
-      {
         "id": "ChIJqZC8jRAxUBMRqZo84B3S8dQ",
         "destinationId": "tirana",
         "pathType": "relaxation",
@@ -4197,5 +4135,5 @@
   "lastFetched": "2026-01-23T15:35:40.324Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 201
+  "totalPOIs": 198
 }

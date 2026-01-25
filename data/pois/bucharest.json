@@ -1579,26 +1579,6 @@
         "updatedAt": "2026-01-23T15:28:38.730Z"
       },
       {
-        "id": "ChIJixaHPGs6s0ARf7a79jY2pds",
-        "destinationId": "bucharest",
-        "pathType": "adventure",
-        "rank": 21,
-        "name": "Tree Adventure Park Fundatica",
-        "description": "Adventure Sports Center - highly rated",
-        "category": "activity",
-        "latitude": 45.4192488,
-        "longitude": 25.2896482,
-        "address": "49, Fundatica jud. Brasov, 507071 Fundățica jud. Brasov, Romania",
-        "googleRating": 4.7,
-        "googleReviewCount": 131,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJixaHPGs6s0ARf7a79jY2pds/photos/AcnlKN3en08SQCYUzH8sJZar4QPcFoGVDOY4BnxvtktF-_ynNg2-4AmGtKnJhTfVggHnd0YRZ_hT9nwLRGAkt9YCJry-hZMnyZL54JonCanlUy2nHwGJTrOyevsDtAfq6ZmptOTI0U7xgL_RkVsNzGvNYFGqlg6lWXxXtnF7Sz7HcpqgSOQk6J2qlz124mf84I169_x8tQS1edhB0RjcHPN0n6kWh1gtG0ogFLHcQgKWCo89vRIgKU3QZfj0Q7TC0nrTgHdO6tnAOYR2_quZZ2VqerGPbLzelunSO_fpacxu3ixovgrKL2RotPqXwle6yoht6j6ipBbD0ncNeF2ipurwJ4AY0iwtrLHPoDnQpGSZ55-egMoYElT9EX2tDPsYXWL-aGlKWp7u-1wAAm_SSeKgSPQtdQb5jD8CW81LOa1hIW9JuA/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=15827116075159107199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:28:38.730Z",
-        "updatedAt": "2026-01-23T15:28:38.730Z"
-      },
-      {
         "id": "ChIJo1tw19n5sUARfFqg9J03Fv4",
         "destinationId": "bucharest",
         "pathType": "adventure",
@@ -3012,26 +2992,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=14710857336152310258&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:28:41.230Z",
         "updatedAt": "2026-01-23T15:28:41.230Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "bucharest",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3tYqERk49dfJlvM8sTnW3bm7KPLMLV-2sA_aUb_WjW8AHiq8_AeUl_BwAV9Gm7Zk5CyPZW3eLt8CY5d34wddYbYLDOnTi1pVrG10doYL7EHt3hNLSeg0BzjxlUzt152x7TkCCUqggimknZd5FTdKONoX6xqquebC0CaHuUH3wi_1GFGLJOWDk4rn6tOoM62WHlNsYAQqe4DHQuAZjJ4Z2EsoLGCMqob6FG4d7knLkOLyb63KUzYvfpO8qJAdUh2d0hT6Wt8jsXh9tumlIVyNIgou_aADRar0wMxQr0jcmA-sG3p7xceGmOKgdvwt4MBsFiA5LreQAOZysjKk2tQc94wwWIAVkVKTUZnmfqsTuU7Bmo-IehFiquY-bYquV6DrxBAHb50L4FU5-J0BMCLqj6TZ6EhlAiOu1hBCQhihtHHpfu/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:28:41.230Z",
-        "updatedAt": "2026-01-23T15:28:41.230Z"
       }
     ],
     "nightlife": [
@@ -4116,5 +4076,5 @@
   "lastFetched": "2026-01-23T15:28:35.932Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 195
+  "totalPOIs": 193
 }

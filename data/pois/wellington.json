@@ -1343,27 +1343,6 @@
         "updatedAt": "2026-01-23T16:13:10.795Z"
       },
       {
-        "id": "ChIJK2p1wprwO20RcvYMcsYAGY0",
-        "destinationId": "wellington",
-        "pathType": "adventure",
-        "rank": 4,
-        "name": "Cable Bay Adventure Park",
-        "description": "Tourist Attraction - highly rated",
-        "category": "landmark",
-        "latitude": -41.2020804,
-        "longitude": 173.4123534,
-        "address": "194 Cable Bay Road, Hira 7071, New Zealand",
-        "googleRating": 4.7,
-        "googleReviewCount": 923,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJK2p1wprwO20RcvYMcsYAGY0/photos/AcnlKN0DgJnBpowsM9blEUMungdGmTkiPF_Bbn6Is4IXkDwInKIbcEx5Fo-uiKQ8_WXdRYNVz8QOvX5sWU4uPuzsWxayNEjXKhAFb7rty8ovLpgmzdYjqTWHu4n_K49YOa1oBi5mRM923Q5y6J4blmgCA0idn3wfnGsgPfupX40Mr5BJqEhpHMzvmkhKeqaMKhlYAjww0ts0LGEe-u3GrrCRux6_B3xhzz0A62doPbxLJKubIBuhPHD5aCn2LROsMd1sSWxvI0gs4iLUFKBf71ubWbgrkeu-aMm_Y3AJIrNWqycutg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://cablebayadventurepark.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=10167158486082582130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:13:10.795Z",
-        "updatedAt": "2026-01-23T16:13:10.795Z"
-      },
-      {
         "id": "ChIJPUlutN6vOG0RVo_6baFDadc",
         "destinationId": "wellington",
         "pathType": "adventure",
@@ -4469,5 +4448,5 @@
   "lastFetched": "2026-01-23T16:13:07.685Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 210
+  "totalPOIs": 209
 }

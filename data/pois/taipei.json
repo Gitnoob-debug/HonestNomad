@@ -1448,27 +1448,6 @@
         "updatedAt": "2026-01-23T15:38:39.108Z"
       },
       {
-        "id": "ChIJETzXr7B3QS8RtDGu4RMI-mg",
-        "destinationId": "taipei",
-        "pathType": "adventure",
-        "rank": 21,
-        "name": "外面戶外 Wild Island Adventure Taiwan - 客製化登山戶外行程【Wildman.Taiwan 】",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 24.066891899999998,
-        "longitude": 120.54311479999998,
-        "address": "No. 612-5號, Dabu Rd, Changhua City, Changhua County, Taiwan 500",
-        "googleRating": 5,
-        "googleReviewCount": 237,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJETzXr7B3QS8RtDGu4RMI-mg/photos/AcnlKN1JuWDTnuyMHa4sEABBS7_It6ekmdjTjBXKIcSxUpapPU3GhmYWYrgL-XYgCJYyhCLVolH6GpwbGhJZywlCrQbyemDv2BKIN1_OpBeGg-seMGj26l7wF8htb1Aa6KGMoc1u5p2XxoTsUokflZ-IYnKLi0c4L5yY9SQXUMpNG_DudUCq-_hSteNHT7wz2Fj39UrzDWmS8LfWfS0mqMe9FzaN3k4mA30_0QxtgxscWUr6hesII3vV_lPVzEWnYBNCEIm-MoKXbrVCblxx09ttl6UtK3ttfOabCa5s9eFBdnKSc6Oz6RIoYryCsK9e1OJawKBJSpMaD53ufCSvsEfTHHaEzTuqOd-4tsMvu9tKV-uVAPrfHVrqQwoGzSLup_LgYeg8srXUwlfDG3aWG04YjjMc4PlR2GZgfGAo9K2d2K9claokNBtfmpyxxg4DYUPe/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://wildman.rezio.shop/zh-TW",
-        "googleMapsUrl": "https://maps.google.com/?cid=7564367405605859764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:38:39.108Z",
-        "updatedAt": "2026-01-23T15:38:39.108Z"
-      },
-      {
         "id": "ChIJD-Zgfv-tQjQRz9pBzuQt0yw",
         "destinationId": "taipei",
         "pathType": "adventure",
@@ -3931,5 +3910,5 @@
   "lastFetched": "2026-01-23T15:38:36.307Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 185
+  "totalPOIs": 184
 }

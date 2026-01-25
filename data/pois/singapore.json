@@ -3114,26 +3114,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=4849581246941960834&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:46.404Z",
         "updatedAt": "2026-01-23T15:36:46.404Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "singapore",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0foZyMS1X8ejakGXZ6NwwXbC3xFdFsx2rhiCCZHkJFyX0NzIpJXczqZ2GsCtDwmtjBrkH2dI1jRRKv6Hm9iwz58UFt5iUZrzvtDvXAxbpuBrU7kOIA3O32_f0Zpx1BCr_S_0qX95c8mMz6ZUyFSqnW80BAT6D1_HidFNNj770TX9E-NqN1VCOyZkdlUq3tyeOepuC8iMCsY5pobm5Eg5bOiOJTft_3Orcbehzqu-Xz7gO5t4H-St1BIIxz_fgWdAuK26TbTMmmytfxr5DosUVHU13oPtXhC5JkflDbNliOFGdYvdh2wVHxY7Vibl_izBuYhWaY7k5XgJdGUjzyb2RZHJSnyStR2Q6YSWdyCrG2zQrsp5vnE6xZp9BJc6r6kOcdeAfg0R01fi0eDppjsvxWutim8ENughobETYChfhCUiPj/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:36:46.404Z",
-        "updatedAt": "2026-01-23T15:36:46.404Z"
       }
     ],
     "nightlife": [
@@ -4197,5 +4177,5 @@
   "lastFetched": "2026-01-23T15:36:41.924Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 198
+  "totalPOIs": 197
 }

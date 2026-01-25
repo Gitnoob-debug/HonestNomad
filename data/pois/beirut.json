@@ -48,27 +48,6 @@
         "updatedAt": "2026-01-23T16:07:05.445Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "beirut",
-        "pathType": "classic",
-        "rank": 3,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN0E9revexWdaTU2bSZbKstjOPlt70Od_kmQsJeA6hWFgp-0qm4z8tqWxn0I-xDZxXtzGGtbqpafbf-kokf6gfUxmb69AFBSNnDUmXOOdjBJzER9iMAySEPlwR_HfUA62ANIl6ay7uB1aH7_Dh-BbExrlTD_o4FPiDQ9UvDVBbMwC9X0Ne9Kaq5DKqvGw3pvJxgbiOJFVDEzuVlcfJnOfP9sO56fCC8SwXcLJdlbCl0itLxShVIwi_InhAWJDdLX6ob8La_qypQ2q94BzOaZ0mp8DcHMs03nxXbnmWKtJ3Vfsnxl20kz1Ydld_GDj6vc30gk7DF-q_sFpHIzdg0wb7grNmyv3pYhhXbZGAtIcASfNhuZEGtWioP6tVG8Hgm3r_PUzO7k24AHnr0cgzDEOzcUVRMquoOvWaKUGNho0wHFsQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:07:05.445Z",
-        "updatedAt": "2026-01-23T16:07:05.445Z"
-      },
-      {
         "id": "ChIJgb6Z3vsWHxURC-JY-pMiqCs",
         "destinationId": "beirut",
         "pathType": "classic",
@@ -211,27 +190,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJk51FdTwgHxURVNerMJmSnDM/photos/AcnlKN0Ia3zcYLk8weonmMDGeoJDD2IMLEJzVwcT3tLGZqPDHomf882A1CnAQEF9C6pDMf9jT3emajI8dmFlkCUwNgWBDLb3DxOo3znqqPNUt3z5ODsfPmipiGVB9WbbzKEO_Z_X4FfwIGmgTiOw37cdFhiOFmkcjaLrGalrU12ejgl5TTRH_wfhFWq272fArrrJZf1QlmSWsQqe1NP6FVtnJjHQTTyoHsQ4OZO3QKRiNvRI7yahl2_6YC9rULSopPjAtQ4t-D1eQQbdlPD2szWNHawmS4Jn59lzP_2AfPXo8Ck08FdNQmtFjslV1D-fAcsSDjAIm5hnsLm3lEcy8IHLAm6Q0Ly4P0wjwcDla7RToKA0nPdLLYCtDC11pagUmXhI6FIj3Iq7aP1exKciVcgZPTKIsVC9KnWUwZPuV_Qt42Ph__Y/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "http://www.beiteddine.org/the-palace/",
         "googleMapsUrl": "https://maps.google.com/?cid=3719008578945406804&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:07:05.445Z",
-        "updatedAt": "2026-01-23T16:07:05.445Z"
-      },
-      {
-        "id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
-        "destinationId": "beirut",
-        "pathType": "classic",
-        "rank": 11,
-        "name": "Stonehenge",
-        "description": "Legendary neolithic monument made using stones transported from Wales & built for unknown purposes.",
-        "category": "landmark",
-        "latitude": 51.178881999999994,
-        "longitude": -1.8262150000000001,
-        "address": "Salisbury SP4 7DE, UK",
-        "googleRating": 4.5,
-        "googleReviewCount": 64030,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJEfYKhTvmc0gR3dLTvOJwkZc/photos/AcnlKN29cft2ML51xAVkPzhACoJtJpbeIsf8vj8Glcv6lsJD64yx_-41QEOf2Ol5mz-CooSXPJl_ikSe2N_TDLFd_esjy2skzOsE-mu77atlI4k60PRDtT2GbSS-EiHYE01_4iqPhxFv2xXGzLMsmgu5kze7j5rR6v91ggL7-cjjvgMdbZj4BXzDiR_9Jtg5RVO8MmIIfH5yYjDreWzaUJbZlwt6sr6AeVdmW7SEC6C0eEYRoPp9cgWkzKRwg-WYMI24X_ky_ABBZnjaVHUQ4VSL8gsfA77-8J31vu6_ofe4489W1t4Qj76zXtHL8d0APVdbeRg06K1NELbDBXsla1rT0RCLiDVcEKIac_9nDHmvnrmEFA8k569HJrKsVM-V2XOh5ZGLdVfBg7Rb_eyLcCnSAw_tcjxlE8pB0_ygE7mu8HUs-Q/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.english-heritage.org.uk/visit/places/stonehenge/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge&utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge",
-        "googleMapsUrl": "https://maps.google.com/?cid=10921634690483081949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:07:05.445Z",
         "updatedAt": "2026-01-23T16:07:05.445Z"
       },
@@ -2873,26 +2831,6 @@
         "updatedAt": "2026-01-23T16:07:09.902Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "beirut",
-        "pathType": "relaxation",
-        "rank": 27,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3hhICc2MVFxsSK6kN0Rus_mL9irrPtxHMAXn78YNqnN87_qcY_rz6iEZyjeumv_3MhBsfaY7Yeq74BbLKo6HMEcTqo1gFkMsz1Eu_SmMegq5eub74kFBdkagGAHnXVPsBlS6nVjHGVp4KkuSBTDO6aQTVvo80Akkznhi7sDIRUwCi63VuozyITml8fVDdu2O9Dqra5rKvfHl8m_aWncDHOxP_JfJ0gLgTSKerrzHYTY6l4KGqnhrM4OhY24bcQy-dE4vbehW-RUrpyuwibYucUAH3VfyNiw2T6jIcotXIrQplKV2lKbJ6mdSRKkOvdal37UdTRS4tJsjrZmCk7ffXHRJrR9L_vwP8N0D_YEpqDFm9Cs_ZUA4AryT0dxQ0xa2KlCR1LeCupWxiCI7bsTB8Jy0BjL3yiTQjds7abQKCDX5Nt/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:07:09.902Z",
-        "updatedAt": "2026-01-23T16:07:09.902Z"
-      },
-      {
         "id": "ChIJR9xE0GwXHxUR0HrNkN4XIHE",
         "destinationId": "beirut",
         "pathType": "relaxation",
@@ -3855,5 +3793,5 @@
   "lastFetched": "2026-01-23T16:07:04.698Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 186
+  "totalPOIs": 183
 }

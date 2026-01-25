@@ -451,27 +451,6 @@
         "updatedAt": "2026-01-23T15:29:19.200Z"
       },
       {
-        "id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
-        "destinationId": "liverpool",
-        "pathType": "classic",
-        "rank": 22,
-        "name": "Stonehenge",
-        "description": "Legendary neolithic monument made using stones transported from Wales & built for unknown purposes.",
-        "category": "landmark",
-        "latitude": 51.178881999999994,
-        "longitude": -1.8262150000000001,
-        "address": "Salisbury SP4 7DE, UK",
-        "googleRating": 4.5,
-        "googleReviewCount": 64029,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJEfYKhTvmc0gR3dLTvOJwkZc/photos/AcnlKN39HPA3hmvZiaJ2P_B6IKVyh8h03YGsxhltTDFaS6MlGk4ysoMEFWAVbRBzRGPX5srcR9iJ9nqRAlv1UHzh58maLy5T-CCfHtE_rpQcEXKOD_r_owJU8kM8qX4shsciLPfw_nIxkkqNvdx0fjo1lDV4gp3TeWgv1EJ9SyV5jMekLiMsfPeCqK5KDwWcVvCYiCzoKzyeRsU8NN9gzznaXmfLNGRd0Fu_cfT8_6TsTF4t7kGGMfeN7ClgeSUXgZm83VE2QNb3OJaT-xqAt39KY4fw5dVmmAB-x3l7K7vPK1E6lq0ZovtdxvHCbUNgpUkOU7OdFeyNxm-JW32u0ddt96fq_iLyquoaWJstGYnf1ILMmw7O8ncnKpIKKHy6nJacN_J0Exgm7JGwcaX4EL7oxAvVb69hb2rrMr19Ydf74iKq_w/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.english-heritage.org.uk/visit/places/stonehenge/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge&utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge",
-        "googleMapsUrl": "https://maps.google.com/?cid=10921634690483081949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:29:19.200Z",
-        "updatedAt": "2026-01-23T15:29:19.200Z"
-      },
-      {
         "id": "ChIJFUNZ6vgne0gR0EPZaCir89w",
         "destinationId": "liverpool",
         "pathType": "classic",
@@ -2882,26 +2861,6 @@
         "updatedAt": "2026-01-23T15:29:23.543Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "liverpool",
-        "pathType": "relaxation",
-        "rank": 27,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1Pt4Iroi-WqKY87NvobSmJP2ZVeCpbXdg_jvYnJshzq_XAIbfjNCRm7Pbg4nTyvbZmwoUN6dxbQbM7yxcoagSC-r6eOlQfqSzRcBYdwLZPXaoey_QqYvMv41G3eYMS3I9mES8Lt4saiUZXolvry3JvoKp4qQ_NaPVueLvcdDWgLXv1U5qDUSvvA80VzFsjwL8JqVEuJjJO8Usajr9nKNwBaPwr5vFEPMxQ3K4q8sAGv0orNIOIa1QKs8GoOghgkpfA4W9Nb5iFIq3RlBNfl2wb2gkYiqBq9NKDUsKs-HYG8yT4-mI-8anX9Hda8vQWgUWbnmV8XT2tyRwdI6YI1B8S_JzLk38tRvFBg6QFPUHp6JdxMM57iXA-YzUfpGPk9wg8blYCJ_TqbmYvZIvdCWoV98bw9pC-1aL440FgV8tarJ2m/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:29:23.543Z",
-        "updatedAt": "2026-01-23T15:29:23.543Z"
-      },
-      {
         "id": "ChIJlyI0lMEge0gRHvSAPtQq888",
         "destinationId": "liverpool",
         "pathType": "relaxation",
@@ -4179,5 +4138,5 @@
   "lastFetched": "2026-01-23T15:29:18.570Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 197
+  "totalPOIs": 195
 }

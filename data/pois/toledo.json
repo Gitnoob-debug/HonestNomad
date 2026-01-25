@@ -172,27 +172,6 @@
         "updatedAt": "2026-01-23T15:32:53.627Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "toledo",
-        "pathType": "classic",
-        "rank": 9,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1qQhcEPpEH8barLXeTD34E6QK0F8V5VXfbkoLiw4xoTwoZjdssK74epRZQ4HQmcQgcS9c01OXihr1BYitFU4zttr6u2j_SqCLzejYcmXGTIiFxhBUn4U9CkswPlHfdioXZyOASsn2ZuUeHJvAVUf3E-47tzOZcqvL6tgBTNXmOvZXVgi6M2FqAPpBh6ANL19zpT4D07M4XvE5oScRuqx1uurJ_Nn2VjefcXCO1HzfqUgzB3QrhrBRZ5VJtgwhMGT8mtW6NdsVgGewGrmpjJFw9SgcYGu9r4CQeoWNmYxlxSTY7vvthiTr3OA9X4gVs4Zlknd1bQ3-f3AsM9A7GGgKzdj0kkgvxkdfS5sklY2mme1PNcRaPLpDtDaFP2qSKfNE0Si382BUZ8a8d4I0xuIuUy0y41nY_i6hE0-R7-Jxm-g/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:32:53.627Z",
-        "updatedAt": "2026-01-23T15:32:53.627Z"
-      },
-      {
         "id": "ChIJW89YisovQg0RwRu1bb1MjOM",
         "destinationId": "toledo",
         "pathType": "classic",
@@ -2763,26 +2742,6 @@
         "updatedAt": "2026-01-23T15:32:58.179Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "toledo",
-        "pathType": "relaxation",
-        "rank": 25,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3RHJmK4pxzj_CeOxxgAdGpAqSvQv5O45E6UoGqvDmaAGDbBnPwCgxlbEAx0FI7SuHXQbz5IWNCzWzz-xCNVVPHL3tVvEk_6rTSBs8uRwLBwvJBx0tzaKib21qPuKYmp9Bdsou63CK2YrT0fYGWHpomQ6JUL981nBMwVvpyoPf0HXlq73wotwfp9vlfgejqQcvNWpB1EO_1qNr7aOxYQAcbnTGz5Vsh71dqMEKEfNUceRDfILUMTmxgTT-dSc4Jm5QSUsz-uiMIIZCnyoqpR_z3jFfQyeExcPTku9qhx4AmNVhu73dd-S2oF7KemdH9bRxLMp9ld_BTbehH36gMCXE3jcZlXrBgYjMij4eI-8b8_EFhS-rLFVDBe8WlIS3XCNtNSkSx7IojqJcDlouSXMUjTEnyg5TUAwgZ9PbGy--o1s8J/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:32:58.179Z",
-        "updatedAt": "2026-01-23T15:32:58.179Z"
-      },
-      {
         "id": "ChIJC34SlgAJag0RXOJOe7xPls8",
         "destinationId": "toledo",
         "pathType": "relaxation",
@@ -2844,28 +2803,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn8vL-q4Lag0RjVuIxPLdyb8/photos/AcnlKN1onUewfb_7m8DzBr0z5nt65zUrb75bYCDL-jdPD35gDNO3Dhs2v1S9N9w2mYZzVCUtPFoTZCeg7FdCp7M0t0LT_8JquHov9CDmKHRFqTt6YI8uj4mwxeHm0jFo0Qf8pqGg7qHvVd-DKy1jrweaHGUQO70-jeNLuh4J_L2GqFfj_0ivfIWjYjhL-2BpJ5yJyq4ZUXEPh3AO0QsNxW7L8i533CMS6sfIvepo_JIktLsGBhEwOd9Q4KzYWQEbovIGR9WAq2DAuvdgR5OQgjITArW90eJEnhgnyeVFNtRpwixldA/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "http://www.restauranteelpeñon.es/",
         "googleMapsUrl": "https://maps.google.com/?cid=13819820966312172429&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T15:32:59.345Z",
-        "updatedAt": "2026-01-23T15:32:59.345Z"
-      },
-      {
-        "id": "ChIJIRiJaRRawokR2KyQ984qa-o",
-        "destinationId": "toledo",
-        "pathType": "nightlife",
-        "rank": 2,
-        "name": "The Dead Rabbit",
-        "description": "This 2-story spot combines a lunch taproom with a parlor serving small plates & vintage cocktails.",
-        "category": "bar",
-        "latitude": 40.7032685,
-        "longitude": -74.0110218,
-        "address": "30 Water St, New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 8204,
-        "googlePrice": 2,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "night",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJIRiJaRRawokR2KyQ984qa-o/photos/AcnlKN32xXQzlDJ_yzdzOkoOFdogApGI9iAQGJ0V_UfbeaiIddQTKhWw8esvsCmyhLFIo_rKac5uqRtoxMhPHNtwWIbj7Wvp8_4qutNb0hZPMaCGzgFKC3IhCFYYgMGjFdZz5B4gynTsdRgp7oZvbTWWaO-g4q28FRV7B799Bh-zwX6SQIugOf31IaVWuXgfis-kpzXSEOMCK_w9scCJRMwcM4I2DR2QvpwURy1Qjj6IUgaxAbz93mEdU5w8dp-jO8zDz1Fnb4x4DG_Ozuo3kN50kDyHtbuoxPiW3qzEviVCaQBaxA/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://thedeadrabbit.com/?utm_source=google_business_profile&utm_medium=gbp_view_website&utm_campaign=google_business_profile",
-        "googleMapsUrl": "https://maps.google.com/?cid=16891641895788260568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:59.345Z",
         "updatedAt": "2026-01-23T15:32:59.345Z"
       },
@@ -3647,5 +3584,5 @@
   "lastFetched": "2026-01-23T15:32:52.755Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 173
+  "totalPOIs": 170
 }

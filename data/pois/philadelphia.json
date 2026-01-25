@@ -197,27 +197,6 @@
         "updatedAt": "2026-01-23T15:48:38.548Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "philadelphia",
-        "pathType": "classic",
-        "rank": 10,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN2LvkxHxWoIeOJxYoegYQu2g76ClKejMxvvrqw_0CItIrOW9u7FTcuX1dyE8WHpOsN9duGSdJStM6jLuS7kPum6oUOf8K6K7oCpeaEmHznnaGKKlaNHEhHub1Dn93vq0p0iFMscpV-wzl05kDX-NYVLmBzHc7D84N-l43sNENTsEkNJqTFlLDhsSGnPTJ_rSD4idJcO5gaOHwS-f6AInTLUz5sZ5VcC9TMTHDO8ee3JDDuMeMZBQIYHInqiX8p9AFUGMFLIhfhkTT5yF4FRFrL58i5MjgKs2OIWP9L5c2VEp4nxECpZBXSQ_H64gkj4-WPICKHPb7qjXKlwP9pxOYCxEI7z4KiFFjSrFLC84YOisjpkL-4m5zceFqW97AHw6N-qNkGbLzhOIg2-u6V7UrlKXpGMJGMJ3RgDSg441lP23g/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:48:38.548Z",
-        "updatedAt": "2026-01-23T15:48:38.548Z"
-      },
-      {
         "id": "ChIJd0Q2JZ3IxokRHlfq0byPcV4",
         "destinationId": "philadelphia",
         "pathType": "classic",
@@ -1058,27 +1037,6 @@
     ],
     "adventure": [
       {
-        "id": "ChIJX4uxlvkQxokR8NUzjfCL45Y",
-        "destinationId": "philadelphia",
-        "pathType": "adventure",
-        "rank": 1,
-        "name": "Refreshing Mountain Retreat and Adventure Center",
-        "description": "Relaxed cabins with kitchenettes in a resort offering an outdoor pool & sports.",
-        "category": "activity",
-        "latitude": 40.2504749,
-        "longitude": -76.23444099999999,
-        "address": "455 Camp Rd, Stevens, PA 17578, USA",
-        "googleRating": 4.9,
-        "googleReviewCount": 2172,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJX4uxlvkQxokR8NUzjfCL45Y/photos/AcnlKN0lRXha-2MUeTfcvD8dWVwuoW7nBPQJD_VqPRCKGqg-BuHGby6OW3R599IHoUWws-MFaFCPGldNqNwxrQ4Cv5FyS22Rd0SMdCSeraBkqtUGJOKlEF9spNnSs3BsVKmYyYNkOwxV5Y8c8_e5NkmBjxKao6BaUnRRSdMsEvGL2-SuoSSIK5Aa5Itejdk1_BsoWMmesO1hDngCBFa60EdLrGgSiQil8yLO562ggkKbGKFiXxbbnwfpHvnxY0YtFHIsdWEZNIDsKh8kI6ha-KaGsl2rdFpnKV2e-pIQeFQyO1Lb6A/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://refreshingmountain.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
-        "googleMapsUrl": "https://maps.google.com/?cid=10872687790679905776&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:48:40.825Z",
-        "updatedAt": "2026-01-23T15:48:40.825Z"
-      },
-      {
         "id": "ChIJIcPcqf64xokRSPxypSWNWic",
         "destinationId": "philadelphia",
         "pathType": "adventure",
@@ -1494,27 +1452,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJZ9Q-zpO5xokRyxyRav-7F38/photos/AcnlKN1tRb-fLk6Aw_bhWVAJN-6MEPrKchSfVFOFQgt1Fe-d0paqDAOvqfUrG_wgJ-HlNuwR-qn74c4QeOpSobRi8SJ_Klj4GS-kEPX5puZPaUDRrHHn667jT61Jsl47jGIBqwjwJwTGpITvr66HP9crUmDjMkpm6InPzIG7AOPmQcTXmX4VenshFofdPStL3V2RwLQW2ZmjVyee5pWT7yW0k_owEYqpECBL-Rfx68sQQREkrtv6S8NIqDQJy57PCwNF8m3wh1s4ENo2OnDwvs7OW6TsE_KsYf97qyhoOC2zYoOEzKZN5np0zntfkD18-7QzY_ebS83EqlddWPg9VyUOaoHFecCtSI4yFm5KZY6EzOSro9qx9H2gdZThbHbd89C28aCARCn8ecOg8Uak95-MoY0doPRt_51AVX14PEyUEYKnHA/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "http://fow.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=9157995072960142539&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T15:48:40.825Z",
-        "updatedAt": "2026-01-23T15:48:40.825Z"
-      },
-      {
-        "id": "ChIJT3jWDnOGxIkRc36IqJO_Zp0",
-        "destinationId": "philadelphia",
-        "pathType": "adventure",
-        "rank": 22,
-        "name": "Adventure Sports",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 41.023374,
-        "longitude": -75.129058,
-        "address": "398 Seven Bridge Rd, East Stroudsburg, PA 18301, USA",
-        "googleRating": 4.5,
-        "googleReviewCount": 425,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJT3jWDnOGxIkRc36IqJO_Zp0/photos/AcnlKN0PDcy-_wRj8-eLo0LWu3QM9hnqJKBEyKfyb2Wjcmegi6fqC_nVjytykAucpMAHNWSxU6rTLHNWzirCHX8233QexgKmV4KHlnFDW9y9KUGxFJzphQhAFZjPp877ftkp_i9CJLibiwftjeWdn_Z53d6bBjNH4iQzjBr_4vSTxG2wivd9d92SqlpgT53youx-XN17GchHlIUmE0vcrCwegrN_sKgjX-eMXe_6a0swngu21RdjIKwS6nAIhW5KMUvTxIGPz9tmKphbJ8Glz_2CRH_m5b-MC-ODn3sjxCBNTJw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.adventuresport.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=11341963352487788147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:48:40.825Z",
         "updatedAt": "2026-01-23T15:48:40.825Z"
       },
@@ -3896,5 +3833,5 @@
   "lastFetched": "2026-01-23T15:48:37.581Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 182
+  "totalPOIs": 179
 }

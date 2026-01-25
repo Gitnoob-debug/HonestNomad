@@ -1420,27 +1420,6 @@
         "updatedAt": "2026-01-23T15:34:34.998Z"
       },
       {
-        "id": "ChIJd9PWEQBbmhQR9Vw1cy9ryAw",
-        "destinationId": "chania",
-        "pathType": "adventure",
-        "rank": 8,
-        "name": "Creative Adventures Crete Greece",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 35.3354631,
-        "longitude": 25.1391562,
-        "address": "Leof. Dimokratias 23, Iraklio 713 06, Greece",
-        "googleRating": 5,
-        "googleReviewCount": 34,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJd9PWEQBbmhQR9Vw1cy9ryAw/photos/AcnlKN2lOm2qO79zVArdqUlTgLntIBzXCXZS1jfVxtdJdcRxSkWGm23Y1RqBKVoSiKV5xFcK_wrvr-T3XxTLcapqM-5ChDZB_dna2svTSjiH9DzsDMr35JF3EkHqXchqzB4hsPiYaHltVqXvgr4nRvrdZOk4SIgBmVY0hnKhBOePJtGqqrRxKjV6zgyl7XX7NP07RWRQYAKal15eOpm3Xnhp394Ru5RAJXvdGErixPiim-8h5FSd6spxJ5TN5bfubjFBPoQ5KX_CkMDj64b1adOLRuohaMNNFZrYyVDEjTWeEbD8Mag4qWdxGA3m9g1yS10csfUHzex8ddzcXHef4KNlOGXvlpHWddJc4MoZ3pV-Md4ICnrgN1OXMd7tbZrvTEfbhfMZAADj3z9WgcHWj6ligVBIKTA8Q8iMOscGV823RE_RE9aoPnYkH_UD18lV_7qJ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://creativeadventures.gr/",
-        "googleMapsUrl": "https://maps.google.com/?cid=921103975337778421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:34:34.998Z",
-        "updatedAt": "2026-01-23T15:34:34.998Z"
-      },
-      {
         "id": "ChIJF-h-g9JIlKoRQan_w_UPmyE",
         "destinationId": "chania",
         "pathType": "adventure",
@@ -2953,26 +2932,6 @@
         "updatedAt": "2026-01-23T15:34:37.086Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "chania",
-        "pathType": "relaxation",
-        "rank": 26,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1yfNJekj_RYIOKY-dp2XB260dKgZPB8eMWG8_39C8ETreJGcwlsRZu66dkH9EYn12venrt7K4O3VwJh01QfY9-ogC0UsGUBMz-ScAJxFYRo_fD5BG-IhTARfCglTnqXNH_1YfeAFA-v14e5_1QgpUJqtlfeWB-gMQrhyca0CRgfSikaFHwqc_DBXakWZ10ihloVE61WgXiuHzEMm8V88xKuUpmpzk-0VQy9tJpLHFpH8qzaRTv_u5SHYdEUDxCMGJORn99G2P0OxD481uHuCwsqUHROr1cb-fHg9Spz1GyF24BXVuD3b_YbTVqX_9FMJFulxojOr6kMErIlkAH1X2tZAEvi4t2GynOZwZrX0ImbqRzHgzLMZx3c4MHX51-ExqnuLGj_A-zm07G26ggZ5_ggcIdYLELcQXBrfkTF_Q5zhDb/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:34:37.086Z",
-        "updatedAt": "2026-01-23T15:34:37.086Z"
-      },
-      {
         "id": "ChIJ1e1s1LLvnBQRzgddewoYdMU",
         "destinationId": "chania",
         "pathType": "relaxation",
@@ -4015,5 +3974,5 @@
   "lastFetched": "2026-01-23T15:34:31.156Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 191
+  "totalPOIs": 189
 }

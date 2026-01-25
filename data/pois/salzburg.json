@@ -154,27 +154,6 @@
         "updatedAt": "2026-01-23T15:25:02.036Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "salzburg",
-        "pathType": "classic",
-        "rank": 8,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111483,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1tfralc4Px97MNmY69z0SoVVPHaiBcT9ymqzcTyBN0f64n_9DVAa1P0Sq0op1LaieVvKdUQY_5EXKekr3Kh22sFdFPMejclzhXLjMi9vLnKmKa0uYHiuAAGURqMoU3G_7yA_nSRVmHLeqfH6r__VBxF8wZADZeSKLZVovXr44FkTl__zki--wR4ltKZQKfcpdj3OBfvxA90BEsuVRrf8JEaOjofPSsBS22CvAr_68ZATXe3BV_vbPkndqmBIh66QgbDqF6EqHPbKUjw_jejKa8_8yS3lu2w4LU0EgjMQB6kgy_VazT4CKBUKXPGunYVjun0grTbwJ-mz2px15ofM1ZHsyK7yUNe5aCZIkj3GbAt79z-LVeSM5RI74i1i1loekiHLQtAkq8VvQte1_rfZKfSmMhOstauwyUdgziEEohWg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:25:02.036Z",
-        "updatedAt": "2026-01-23T15:25:02.036Z"
-      },
-      {
         "id": "ChIJvQMhJ2CQdkcRa1Xs6dO-dys",
         "destinationId": "salzburg",
         "pathType": "classic",
@@ -3134,26 +3113,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=11959693131456485225&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:25:06.592Z",
         "updatedAt": "2026-01-23T15:25:06.592Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "salzburg",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2hTLN9jmdT3OfR4Q3t6f2smKjp7tq6pBzg3m-y0CZ2AZkFdlQjMZWbKF0y2l3tHKLIFewWF7rbOTsx2Z0oNu3i0LVsWpTKhnAhx3Eyvn8W92bbsLGXe8CuSmpBJ2FwrCVJ_VJmqohj5l4iaB6D-3FXdkojJebHIr8Al0BnHx7Nrj9SQCXkFC47lIcDVYInWNC9bY76QTOekx6kyUlKyPGgTeKkk_KbdNZv5II8EuS4T32AA6mmc75rN8d1ybeXW6vuSpl8mt0b_2LVk05gVQdAsUjKlKFJXHG6DV7UsssaI3jJDZqQQ3kr3tE3pDFYDQJlVXfMUDx8NyoJa_W3RDHctbWRn6EKWyGdDXx-lw_Zp3952lPE_9RI9OOmTwSJZ_2DvWIKLXAM7wIRCFRuWXHtIddSm_UpA5_b-ReaSF4dX5pU/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:25:06.592Z",
-        "updatedAt": "2026-01-23T15:25:06.592Z"
       }
     ],
     "nightlife": [
@@ -4451,5 +4410,5 @@
   "lastFetched": "2026-01-23T15:25:01.396Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 210
+  "totalPOIs": 208
 }

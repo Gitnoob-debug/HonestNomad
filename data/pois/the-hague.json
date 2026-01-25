@@ -91,27 +91,6 @@
         "updatedAt": "2026-01-23T15:23:58.879Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "the-hague",
-        "pathType": "classic",
-        "rank": 5,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111483,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN2VcQwPDI_CnSXbOiNkPga0Tw3_9n0SkHShu07W7Y-KA7o5rEbCWyQhwmzfx5xBV0IcUvmA95UC_aDVA41Mbd3wsQMd1UzzTErG5N7IusGvj8LnKByQLj9H7XE_aIeIeooPLhocGaCxoTmsDvyms_KvxJygH-hYW56ka9D2JzWOH1JOjIfaKQFKks_X2QFqgOgiUVpyZM3C_GS5btxL-fp5JWURvf_TCUkNGp_bfBjbxVz5nJvLtMdIZvG0vn-QfgSEG0nSCQYM8im3GvoWR3LbH49vJx5zmMmwi8eFa5ZvIUyK_VVwS5Ftmavzy7DSmgogUtlBTQUpiW9HxzWrMrZ_N62L2raKaVKdon0Zr2yIVdP8OX2CJEYJt7l2dLpi7gbLGGJ2Q8ExU197vIUAbzYlPOtj70DBPezNl46Q6W8R-w/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:23:58.879Z",
-        "updatedAt": "2026-01-23T15:23:58.879Z"
-      },
-      {
         "id": "ChIJq62rsfexxUcRufj2xIKpNPQ",
         "destinationId": "the-hague",
         "pathType": "classic",
@@ -336,27 +315,6 @@
         "bestTimeOfDay": "any",
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJx-T6Pqq3xUcRjwLdSqyZQXQ/photos/AcnlKN0pcNOYQ8hLh43EqexBUG_thGpiKw7SJ-7hVuoQe9qC0Hkr3IFEFTeZz4wn6aZTuRwPYNe0cDh-k59q56dQoTWO2DYjHcWV2JAW2K7lHCvcy1tIUHRVjLpQCBS1xJdMzRpETAgf1rRZMO6UeplLegw7INSd7pv97j3IddlqSlKsEJqG9d_rd8ZlhCEPFecA-au3vRuJROto6o1YejPU_zAXd72Jn6j-EaBpuR1MYIOXT0HI4gW1TVaeLPX0Au9C-ez5nUmdgn9tbGmNxCV4OLgpH85JNBT8HwOVEPUXGconqGdjXSW7_iOBtWBbdtDDPecGVX91K-u2qQqedT4bdN6hHyg_Wt_F-XzFYC_3ttIMwAIHOeTjjui-yhn9Jmvuy1-u4tguk-HcC9phmFJ3c1DiockL2w2stBM7nYI1x91Tk5wp8oCFKTFpACjv7Kz-/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8377145747155255951&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T15:23:58.879Z",
-        "updatedAt": "2026-01-23T15:23:58.879Z"
-      },
-      {
-        "id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
-        "destinationId": "the-hague",
-        "pathType": "classic",
-        "rank": 17,
-        "name": "Stonehenge",
-        "description": "Legendary neolithic monument made using stones transported from Wales & built for unknown purposes.",
-        "category": "landmark",
-        "latitude": 51.178881999999994,
-        "longitude": -1.8262150000000001,
-        "address": "Salisbury SP4 7DE, UK",
-        "googleRating": 4.5,
-        "googleReviewCount": 64029,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJEfYKhTvmc0gR3dLTvOJwkZc/photos/AcnlKN2RUrIfh8RQilb0iuziH7YRfOKbbo_nvvS5IrCzoKQzjyNmYvswE1aRdo3wNHvwXSMcC--eg32lcV5dMSR5uXh7v3KZhx_vk7OxBph9ovs36O1WZ5iLk7VbOFLJTFBO8L1K53fX3CMdOz8B1jEaVoKik6qQGh3N8k73-NUXTB3JB4GN3PENVgGnEckDL0G1VDMkf2xjDFqBNbOUgfsoOyXAnSeN_L3D_KNQqk6l0kSTiEqnK6u44vTkF2lSh9QTceJT71sgXUrd5Tqr9JQrQlGS9L7q-FulOYAK_KFRCbSPwnCzYD0IdeyzYJ9GgYmQ4NOXoXYG3ZFxDW6CXGQfZPHvoHIiL8ydG8b6Tae85ypYA_yaXJC9MLVuh_hAJF036gzeUD2T0oGQKqdRLLKyzsisElCDdDJrYTtPpN5eQbcIXg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.english-heritage.org.uk/visit/places/stonehenge/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge&utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge",
-        "googleMapsUrl": "https://maps.google.com/?cid=10921634690483081949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:23:58.879Z",
         "updatedAt": "2026-01-23T15:23:58.879Z"
       },
@@ -4036,5 +3994,5 @@
   "lastFetched": "2026-01-23T15:23:58.248Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 190
+  "totalPOIs": 188
 }

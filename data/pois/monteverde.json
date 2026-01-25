@@ -154,27 +154,6 @@
         "updatedAt": "2026-01-23T16:00:56.890Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "monteverde",
-        "pathType": "classic",
-        "rank": 8,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1OHtvdnIu2BWa5TdGDpNHOo_mHKx5ctW5-vPBP7N4rkQVTTgh0NLEn3dQOz0sgDs8VlLZTWyfuaDt62dYI28_yGhO8s5si3khK2ZR-ugyyP3L7ULw67wR3SQLnHGb_8YffuZYDQBRgc6Wj_tqCJXBICZ_aghWt3CJfWJhPzWtuQDIN6YVFfrjgaGmSugDs-F3c7v5uCpWENho2t91wYajGorw_AXaIWK04b5nfTpdzND9fSQ2FUPNWzmLQc1ZDmt0OakQn6kt5d3S1a2L1Ib8spCDQYCtFGVxoe890gzWvG_T4kf4zFQ5l08Hj-pfXpp13LmrPnWAfNyws7XW6bOlqe2pbat6N0genS2JyZOUpnyJpmAqH6yJTfzaXD_HAc_9WZ0VO4Ttqo-WX5EUs9fSSM8rx6bjERH58fRXU8TKM9A/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:00:56.890Z",
-        "updatedAt": "2026-01-23T16:00:56.890Z"
-      },
-      {
         "id": "ChIJYaRMOLMPoI8RunB1jSXIZ_E",
         "destinationId": "monteverde",
         "pathType": "classic",
@@ -3027,26 +3006,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=11269023980443448427&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:02.169Z",
         "updatedAt": "2026-01-23T16:01:02.169Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "monteverde",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2RdcwROaoxQC7qTRCBKBiPnKaimHcEbmGENFaSckYXi3-qPQ0jTpQN6bav4Vqmr9jDGiOAk9bTg5Yqx__tVBghUWT433wiiA_s40kXA_wPWh6NUaMGUNjCk2muQ1XiWtp2R8RJrNVVAWQ4YxzyW2AJbkLw-OAKb4m7iKOa4kSGvqXG-dXBEDMc0PcYjT22NLDjrP1VX5tdTbxtuWzEikQ7Bx-z7RrGS5XrJ_RrtabLE1fkFOtayaEnn0ObNMPbqDTw9w2NNEkqn_JQ6EDHEsougeTe2WWicoOu2Yjyh2JxpACm-PRS6fFxN0L2VlGeVJHhRoBya7lvxzpJtBtRjVefm6G9dvCgxfWFLqMgLvWmZ4O9SFae0VvQ9FtAzwXln0nD7LSBDLkOeirnbqpki8fyuGGz1ZZk8zNwo01mSDnhlbIJ/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:01:02.169Z",
-        "updatedAt": "2026-01-23T16:01:02.169Z"
       }
     ],
     "nightlife": [
@@ -3430,27 +3389,6 @@
         "updatedAt": "2026-01-23T16:01:03.509Z"
       },
       {
-        "id": "ChIJs0N5qjc5no8RhwVMRJ-g_YM",
-        "destinationId": "monteverde",
-        "pathType": "nightlife",
-        "rank": 19,
-        "name": "El Garito",
-        "description": "Night Club - highly rated",
-        "category": "nightclub",
-        "latitude": 10.2983698,
-        "longitude": -85.8409677,
-        "address": "Comercial el Punto, Cerca de Arenas, Av Central, Provincia de Guanacaste, Tamarindo, 50309, Costa Rica",
-        "googleRating": 4.5,
-        "googleReviewCount": 37,
-        "suggestedDuration": "2-4 hours",
-        "bestTimeOfDay": "night",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJs0N5qjc5no8RhwVMRJ-g_YM/photos/AcnlKN2as-K_EFkAhLJIH1k0K7uwbO3IiGN-sfVOSAMCCJODPZAL_5z189xntXy_6ovBnXcjLchl-eMK0-rPJFANnkHr_7bk0nihn1WO4Bh5xOgv6sNd5TON1BzyknIQQWhGKsdHl7UGfd7EsQZsQPHCcFBxOJ3AR6oOhNPYBGR-KMBwRHaEP5zq0O27flPrK67zq963PnW7A_1Nk9yGjgpgDGE_LvxJXfmGwNdFDAV0xnziscRoMMJLbB9tVQtb_a3LEv82Xx9arlOTc7O-B-n-VpkVSIlIX3iWCpdBVbpUY4gvrw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.elgaritotama.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=9510934593982432647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:01:03.509Z",
-        "updatedAt": "2026-01-23T16:01:03.509Z"
-      },
-      {
         "id": "ChIJ1zQzgAgMoI8RBthFN8nrYnE",
         "destinationId": "monteverde",
         "pathType": "nightlife",
@@ -3773,5 +3711,5 @@
   "lastFetched": "2026-01-23T16:00:56.004Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 180
+  "totalPOIs": 177
 }

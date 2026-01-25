@@ -1502,27 +1502,6 @@
         "updatedAt": "2026-01-23T15:28:22.771Z"
       },
       {
-        "id": "ChIJXTkjacKQbUcRmYDs0UrGMLI",
-        "destinationId": "bratislava",
-        "pathType": "adventure",
-        "rank": 16,
-        "name": "Hellsklamm Offroad & Outdoor Adventure Team",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 48.0648237,
-        "longitude": 15.8622648,
-        "address": "Gemeinde Brand-Laaben, 3053 Laaben, Austria",
-        "googleRating": 4.9,
-        "googleReviewCount": 158,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJXTkjacKQbUcRmYDs0UrGMLI/photos/AcnlKN1avN-Kh6k-jUhm89ebxT5hpgke5OWmUb4D40cEce8xUmMoBcNAe4d2nxVQdJtY497l4M1PNxnz7OLLy7bGhS7xP1fxqxJl7R80UejDBwpaNBhf1S6FpYZY1NjBoRNkMM5Xo47t_VtXdkbtscQnuzirdRYlNkOsMYHrRzgLOAoNAhLYZ0_G_pkUZEQ31PmqSA_856jYA98iaQfk15cWi39RK3uLyDQimcaiqJCKMnxsk0Drg9RaQNrNLvHP37kzUKcqme9nmg0TeH3YbFhv1oXSUMUvmOCMChb4iNB9BmgQiQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.hellsklamm.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=12839980562285101209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:28:22.771Z",
-        "updatedAt": "2026-01-23T15:28:22.771Z"
-      },
-      {
         "id": "ChIJvQbyAggHbUcRor2uwanHxW8",
         "destinationId": "bratislava",
         "pathType": "adventure",
@@ -1644,27 +1623,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJScg6xp-PbEcRYNcM4D9zrh8/photos/AcnlKN22PMjI-h111mi4bERWIgwFLxa3uFMiyDwCdZ2Ze3MJzn3-laUHcsFHqciRMZ1Ta12w_0f53WRqvUAjMqa8mb2lPcCshgyH8e2JCkb3KofCiGznO7XNZUqDSEvpUmmVm1VgltUi5BzdWlw0bpzyekhvnree5wMy6HdlPU6MahfPy7XSLDnEbAP-0gVxruSpbl0-zILjykKT_Z0Uy-ll5IjJjTVCiE2YaOZ4HsvE9dc9AJTEO4fCOY7T1Ss2E8tekusfu69sKFM-hG-8Tdh5ili-HnfZBxP1Ah61V11oa1TQtQ/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "https://calendiari.com/womens-vibe",
         "googleMapsUrl": "https://maps.google.com/?cid=2282888779302492000&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:28:22.771Z",
-        "updatedAt": "2026-01-23T15:28:22.771Z"
-      },
-      {
-        "id": "ChIJw7iRlRTscUcR9v5mPCJIEgA",
-        "destinationId": "bratislava",
-        "pathType": "adventure",
-        "rank": 23,
-        "name": "Erzberg Adventure Days",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 47.526916799999995,
-        "longitude": 14.8932129,
-        "address": "Erzberg, 8790 Eisenerz, Austria",
-        "googleRating": 4.8,
-        "googleReviewCount": 202,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJw7iRlRTscUcR9v5mPCJIEgA/photos/AcnlKN204f48gGghc5zbFnO4mmkyiY6wFGVAL1FWrSt-tJ8Xwo4-ZMg7LCFRulAZbETMTqdawu7Zk5yoPrQU7nH5TqPu20HxKwCvFUwJny0Bm47pb8rG14MUGMENs2z7RPVQFaNgiUkPaWJJkWon3NAe4nbhpWJeBhbj0VuzOnxtsMlgs09eW0W-4BgGJHBYp80TjO0sNhhZDS8xTXIIYktCTLd0XoSxkPfPzBEPRChzBm01Nk_hcvDDy5UKxTzg2ILTE5yfb06nyikQSBMGCe01C6glp5VetrkO3V0QGlkeimWYsg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.erzbergsport.at/",
-        "googleMapsUrl": "https://maps.google.com/?cid=5145861460262646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:28:22.771Z",
         "updatedAt": "2026-01-23T15:28:22.771Z"
       },
@@ -4170,5 +4128,5 @@
   "lastFetched": "2026-01-23T15:28:19.765Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 197
+  "totalPOIs": 195
 }

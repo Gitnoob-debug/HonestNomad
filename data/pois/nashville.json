@@ -4283,27 +4283,6 @@
         "updatedAt": "2026-01-23T15:44:39.953Z"
       },
       {
-        "id": "ChIJkRaW6td1YYgRbkX0hK6ZUtM",
-        "destinationId": "nashville",
-        "pathType": "trendy",
-        "rank": 22,
-        "name": "The Hidden Gem",
-        "description": "Store - highly rated",
-        "category": "activity",
-        "latitude": 35.1964143,
-        "longitude": -86.0994123,
-        "address": "1229 Dinah Shore Blvd, Winchester, TN 37398, USA",
-        "googleRating": 5,
-        "googleReviewCount": 17,
-        "suggestedDuration": "1-1.5 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJkRaW6td1YYgRbkX0hK6ZUtM/photos/AcnlKN2lOb92FOG1Mag5zWCsFXyMczEtfzdr4twlcOjcvBXot7iWvRtcvCSdSFD5zCWT9Uj5DrfsWLCDbQkG5CqJyQlzWFwhsHLguxawus0MobgMk3lMhoyBpea_VZ3TLlBvxP1XeAnsF49zDwLQU-dLq3HLA4PxOLi3AZiGwiqdIhTXbSaQtZqfIE4L7nAzcmxKitpTgTnTEyjo650r6cJZQPiG91lDn38Tj5Pyok8xTmHui7Hk5JMxox6wZrj55sBRwcsZD-fQYIfWF_c0Hy3JpspTLsTxcTEmSni4mSCSc3nLLDVlWvCKVjTClmj_HrVmOISwXgfnDhZbEP60g2jW-qZWTcRV8JRYnh1nFK9hGB0Ihk-FLwtrMMTCZIpdV3uCZh-aCsa5_omqDX4lYuq5mPV0NUx-xL7cqb57Pok0fDniQP24/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://linktr.ee/thehiddengemtn",
-        "googleMapsUrl": "https://maps.google.com/?cid=15227402264927028590&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:44:39.953Z",
-        "updatedAt": "2026-01-23T15:44:39.953Z"
-      },
-      {
         "id": "ChIJT4-qqQ5jZIgRr4MzRha4pro",
         "destinationId": "nashville",
         "pathType": "trendy",
@@ -4390,5 +4369,5 @@
   "lastFetched": "2026-01-23T15:44:31.222Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 206
+  "totalPOIs": 205
 }

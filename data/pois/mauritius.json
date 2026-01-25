@@ -7,27 +7,6 @@
   "paths": {
     "classic": [
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "mauritius",
-        "pathType": "classic",
-        "rank": 1,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1PrhN8PR195vhtdSFOz6x332Bxn_Ax532-Xh_wsIRpHLRmZtKR1EJh9D0xEb_NoAdpKdFw313GzKG8fbskQhCDS_KitHOUvKlgW-PPV9SFz_PyzsMUeuqR5g_fb9-Eh_AxSlmZkU7D-0_BCa2jdADrN_dHRvKinokALS3oeRYnRDhUf4dhPti6Fm54qK1m8aX3qGtauJT4Yn6QdcdwlQEPCgP4ol3lg6qw1YUgcHg-e-KgIuhESkHqAcSqLrOk3IqvRny4ZNwFO4nIGRwszaxPCQlDXM-Ulgg7NlnSrYFUYWdVVukTi_1a-cbcCwzyvB_HSrMypq1VmSOiI94Q8C3Vk-1BApDOKmlzC1Qix4-3FS7FsomVZbtkE4H22GIcG9ZcwTNN5CM5e6XyGPD9T6IxZXoqYTdvdDuaLAN7eNZN7Q/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:08:14.472Z",
-        "updatedAt": "2026-01-23T16:08:14.472Z"
-      },
-      {
         "id": "ChIJk0Iv699tfCERYvnLhhmFDYc",
         "destinationId": "mauritius",
         "pathType": "classic",
@@ -44,27 +23,6 @@
         "bestTimeOfDay": "any",
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJk0Iv699tfCERYvnLhhmFDYc/photos/AcnlKN082l_vt_RNpUJkY7i5AwOYr2VLYSxlop2saAXkyKuVAxUS_GTyPOnmYb-NvW2UpxheHR7DIR-foRf0lGvDnCk1pzxFUMhKfqKEoIqvjQVkMFyae4ybo4tEJKKxPNZm1lQG8w46xw5G77GCtN3eX3IM4lyzEJbjr4QSz3f9EGWHr6d2LLXTZ41h0TqMaV2IJzkF72640hRelnQ5EHFsiqntuAB8u8OSfIY0ZSbtPXd_B9AwxmiA4k3z4hq_FI6TFGiZaC2wQFSPd-bVUx3b-PWOa56sL-N4Vu4YWuZCYvSNN7v2Xqcb4nTRWHBZIdzIE87V9Us3tzOqSRnCSYixtKc8Odvf3zEeRZusU-wrlfsFr11muas3IykNN1T_N_nOAbmGLnXkVwnfoWkR6_IMwG1jMg0T7CzPGvdS_h-A3Mnm5v_N/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9731580714499701090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:08:14.472Z",
-        "updatedAt": "2026-01-23T16:08:14.472Z"
-      },
-      {
-        "id": "ChIJbf8C1yFxdDkR3n12P4DkKt0",
-        "destinationId": "mauritius",
-        "pathType": "classic",
-        "rank": 3,
-        "name": "Taj Mahal",
-        "description": "17th-century, Mughal-style, marble mausoleum with minarets, a mosque & famously symmetrical gardens.",
-        "category": "landmark",
-        "latitude": 27.175144799999998,
-        "longitude": 78.0421422,
-        "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India",
-        "googleRating": 4.6,
-        "googleReviewCount": 246133,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJbf8C1yFxdDkR3n12P4DkKt0/photos/AcnlKN3neatsEKRtl4ecE0QLYHLuIpO2q3kWyW0S8cBwxpTFQOCJ_f-14Uu2suOCJ6iKUr6rFxtsKA42qH_B-oqBzw7RmSwpMx46Bj3o9tJg6iqsC5N9OP79QeC3l-kWdnQGPg1C03gbUYffdMhZvuGZXbsrmVNrgsB3hGpLiXqxhKswv8TiILZRmNP8852PxiB-cIRK25us703WjMXwdb5C_DucX1NckDrl-RuVSSr0Nn_xFfTRpRmRnyJ0vd3tX3WUE_efmIEkZabCI7S-EsBDXMhyjEk5st2zBYM0q8Pe0zV_1cRalXYVox2dftH230N1PESk4zDXyNP2otvrwQ7I5jao4KXPTwLN39P6q-eGzX1jOY602xc2V0awtIcfOtchrQSP0AH19K4xTgCjHMDbbW_zYCDCEo_BXGBDyHiquxvIUdk/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.tajmahal.gov.in/",
-        "googleMapsUrl": "https://maps.google.com/?cid=15936801470875598302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:14.472Z",
         "updatedAt": "2026-01-23T16:08:14.472Z"
       },
@@ -2663,26 +2621,6 @@
         "updatedAt": "2026-01-23T16:08:19.370Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "mauritius",
-        "pathType": "relaxation",
-        "rank": 24,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0y3RfPk6ozqUF96Ge7OjCJZeHv5RnJLLPLJo0_A3Z-4ryrJAnKTzuFDyQknHeD-akE4ict0JHoUvIHdegoaHJuwLMZGuLJJYhBUG8g4GIWBANpqehL7Xr_5UwKzLZnvh4khNBh_EYRaMiIh1BYo2OvkOJKA_73EWSmV85_CEtrE1j1TxSeCR8060C9-iVSYZ9EMwk9B1qmMxCtnkiczJSxjYQUrlDU3T3xRoEWpJ2pk69tz6UUTldVkxooYBmQhs4PAB9skoQ4tLlWnGvPF2l-_38awHuiaslIHl39FYXEsD5tot2fOXrqN5P6VPTwHreRAtH9hMBwL5RVOkXwtPDi46hUOrCvfzzT3qrVoaqtXhyz-TNKguh65PrS-ZyvcLVA__FSaUwPXh5kp1R1iNe81GD_8mHjaE-GohUKeRaI5nN0/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:08:19.370Z",
-        "updatedAt": "2026-01-23T16:08:19.370Z"
-      },
-      {
         "id": "ChIJccDfiVRQfCERmTmG-ztt1Q4",
         "destinationId": "mauritius",
         "pathType": "relaxation",
@@ -3567,5 +3505,5 @@
   "lastFetched": "2026-01-23T16:08:13.754Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 172
+  "totalPOIs": 169
 }

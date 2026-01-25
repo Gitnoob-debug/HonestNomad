@@ -1486,27 +1486,6 @@
         "updatedAt": "2026-01-23T15:28:14.330Z"
       },
       {
-        "id": "ChIJN3tlgM2WekcRXhcEyduitvk",
-        "destinationId": "zagreb",
-        "pathType": "adventure",
-        "rank": 11,
-        "name": "3glav Adventures 🌲☀️🌳 The Original Emerald River Adventure & Canyoning Bob",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 46.367528799999995,
-        "longitude": 14.1107926,
-        "address": "Ljubljanska cesta 1, 4260 Bled, Slovenia",
-        "googleRating": 4.9,
-        "googleReviewCount": 506,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJN3tlgM2WekcRXhcEyduitvk/photos/AcnlKN382MEvrMF0QWMeGGB5COAYn0I5YFG4c7cJLM31vKO8YXWNQmUmzeWMvI5N_ZGpPtzDlVEjXlQWXiZ-eZq6rCYhhWNaIhC_mxsilcll6sIuyR3XqK_hm2lGFyQJuthGLtzCppJN9jasrdU4ZipfBqEuVLzwadS3cjIHIKq7O4JLUaZFenv_Kq5Jd8MliOPXyy29XYpZljx-Q_d9UvQ0mDS4f0s2QTWTPHW14DBlywCndm3rfS25UtM9QsDxzGiXj9lKPmbl5ljvb4grKgfNGxWus1C17ZGU8kkS-LlQd8Y/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.3glav.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=17993748426059421534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:28:14.330Z",
-        "updatedAt": "2026-01-23T15:28:14.330Z"
-      },
-      {
         "id": "ChIJI4QVzvjWZUcRpZjaM8bDFNw",
         "destinationId": "zagreb",
         "pathType": "adventure",
@@ -3115,26 +3094,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=3712213885722932856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:28:16.661Z",
         "updatedAt": "2026-01-23T15:28:16.661Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "zagreb",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3o6cMai4NamTDa5cC-huSIRI_VgLzUqyyjin6wgJSpQ7ftqeXF2JKfzD5SrbJNXbZY3kZN4YmkDMNDoW6-oRmIV3-rRTDOFAM_hTCUoVEV_wBkBN9ctZVZIjpgb_n0r-4aWgZmVQB9aQZfOTrokNm86FVGdVEsri6V_tSlwshOik-VMDiz0eAVm9_KMGQbg7-9fVUut0fZab9PHgndcsHu3MEoPhpIoeUTOc6eKA8sM2QwNtqgg00W_n6LRwi3pLdt7tM8Ka1aHh2uNeLweUd75RTh8i9uRqTJZtLeGgRoQCoz-VxHqPHAnq9mY3GSFY3grnZnR-_dGtlmy3c4ORZxE4jiw8A8aBqTpDGOGoDIv7tc86U5j6xp8OdACICDZ8P1PA8Hkb2qEk1ImQbgA_z4HHQSybCZmVK0XtJbRR3Hfuxb/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:28:16.661Z",
-        "updatedAt": "2026-01-23T15:28:16.661Z"
       }
     ],
     "nightlife": [
@@ -4353,5 +4312,5 @@
   "lastFetched": "2026-01-23T15:28:11.284Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 205
+  "totalPOIs": 203
 }

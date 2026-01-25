@@ -2777,26 +2777,6 @@
         "updatedAt": "2026-01-23T15:54:32.195Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "mendoza",
-        "pathType": "relaxation",
-        "rank": 27,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2F_rvqHhsyw54GRd6CfiMYQcOwZsZ4S88bvc8AjjzqpuKhLmUbAp-Z4tCyvmDFJPPLX0nrhg7QyalcNxhdZvOxHZjSKQ9GveTuBgNW8fWh7ZmYRftxXcJmcCzqYYm0uhSutRrgxnr0ucDEBzt-1ULPexmWvdoKo9549D8-b4047EXuBTQTYtb7gqwb4BSiyFcdS7EeaeHpLQUNDUx2wtHSUXOjexs3fqOB4OBiw6NhEyJxOZZM6Dhik3dS6LnBp53IVWQ_bsW3wjEK6O9LJn8abguOO_SstHPlsGyZ_QFX5KeIKFZcBu9muGFTyhztVsRYkNRBZ8Nw0QG3z8fZfbDrimhhr5DQUiuW39Vv1HwaoOnE-uOvNLqWVeJHNeNCGtSEwe3DOs9un5zmz7ElAmeXU0_Sbhv3xxhZsxdgJ4xvPCKv/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:54:32.195Z",
-        "updatedAt": "2026-01-23T15:54:32.195Z"
-      },
-      {
         "id": "ChIJEwDUJFsJfpYRAnF1DN309zI",
         "destinationId": "mendoza",
         "pathType": "relaxation",
@@ -3867,5 +3847,5 @@
   "lastFetched": "2026-01-23T15:54:27.643Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 184
+  "totalPOIs": 183
 }

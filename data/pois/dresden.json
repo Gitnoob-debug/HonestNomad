@@ -1803,26 +1803,6 @@
         "updatedAt": "2026-01-23T15:24:40.255Z"
       },
       {
-        "id": "ChIJy9iZtTKVC0cRhTc6yuFNTGo",
-        "destinationId": "dresden",
-        "pathType": "adventure",
-        "rank": 28,
-        "name": "OutdoorVisit",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 50.075378099999995,
-        "longitude": 14.449508400000001,
-        "address": "Korunní 2569/108, Vinohrady, 110 00 Praha-Praha 10, Czechia",
-        "googleRating": 4.7,
-        "googleReviewCount": 29,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJy9iZtTKVC0cRhTc6yuFNTGo/photos/AcnlKN0GGK_gL5oaWsPRTgCLj4YyvDoq94e3VReV7IVc9pLh5on4b77fvOTAyShMnjGGT22QelCJ7QzFYKW9un3CTEBqZEfLhwfnVkDQV4_UVaGGBWtHC7Udd_f0BbGVxahfv5wKffTfvWMFKO0l99MUXjThmquDYzvLM1GRsskAkrXBhwMwBcuBmUW5zL6nGL1O8S6LOylK4VPw8-H7YwWV1uOshYqlmTZXtAtlVR-NQ3GyLFSQz2MfpvAORkZ-kUDdYryF2E8p2ah7DQFw6CLxvwRPNFMpWaoPbOscT-5aQ9-JdjfRWwhStwDQItWreTM1bu-jWRYYgofS7qaXXXu3ZEkb_wW09eap0cAMAKAhzEr_1JSftZWCPPtUVtn9n7DH_OODwL3CXPSnCS2ujVaFKaUIYUdCE1q8RmMqrK9SZG67_Q/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=7659582698406164357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:24:40.255Z",
-        "updatedAt": "2026-01-23T15:24:40.255Z"
-      },
-      {
         "id": "ChIJabD36OfJCUcRCsdSfMGcW3c",
         "destinationId": "dresden",
         "pathType": "adventure",
@@ -4305,5 +4285,5 @@
   "lastFetched": "2026-01-23T15:24:36.972Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 202
+  "totalPOIs": 201
 }

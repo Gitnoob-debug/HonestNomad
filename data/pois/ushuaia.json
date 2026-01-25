@@ -1492,27 +1492,6 @@
         "updatedAt": "2026-01-23T16:01:17.100Z"
       },
       {
-        "id": "ChIJX-Q5oMfDS7wRMykk7QSYCiY",
-        "destinationId": "ushuaia",
-        "pathType": "adventure",
-        "rank": 15,
-        "name": "AVENTURA EXTREMA TOLHUIN",
-        "description": "Adventure Sports Center - highly rated",
-        "category": "activity",
-        "latitude": -54.520949099999996,
-        "longitude": -67.2235146,
-        "address": "Gendarmeria Nacional, V9412 Tolhuin, Tierra del Fuego, Argentina",
-        "googleRating": 5,
-        "googleReviewCount": 7,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJX-Q5oMfDS7wRMykk7QSYCiY/photos/AcnlKN1ZjsxHzBtXcoxdg_lCrwKUwAN7r2pA4a--QHkAFYCRtrOj3zy4M_5hVI4qjnvmbc1nnOXvR9Ul4YBg05MmiyRevX7bOmt0opGdijls7JFgNjlPLPBuYlanx8XpVHpbVwv44i7gj7dljs8dbDdlPJt31DbM39G0F8moWQVBFoQHSAbs5TRUuL5K4gLDIG5DfRtJVU1qZ98nHyzCTQ8NJjiFYL1Cwf-mzoCDmAbeeMeb3VQ8MSsmk9lOBMKhAJckmbx2D8QzsNpe14Seh-3id4wcWUlV1VdM84vnb-Lnp4f9QUQxh7PgemtMbkqoqpHROFnj3BIZNmyEYpx4Y1deZT0avQzhob2sF7A0daqXIm5j6HSv_xTK4zmary3vkyScvjWrlJ-LKu7YJ0WGcEXfWxh4oF5h2cxOb56gcmIxTFLRsQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.instagram.com/aetpaintball?igsh=MXhkamJ6b2pyeHlzNQ%3D%3D&utm_source=qr",
-        "googleMapsUrl": "https://maps.google.com/?cid=2741170470134229299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:01:17.100Z",
-        "updatedAt": "2026-01-23T16:01:17.100Z"
-      },
-      {
         "id": "ChIJZYkDi6AjTLwRQmTyh1HQKsg",
         "destinationId": "ushuaia",
         "pathType": "adventure",
@@ -1820,27 +1799,6 @@
       }
     ],
     "cultural": [
-      {
-        "id": "ChIJO9jSWbVfXIYRSRByBA4h70o",
-        "destinationId": "ushuaia",
-        "pathType": "cultural",
-        "rank": 1,
-        "name": "Hopscotch San Antonio",
-        "description": "Playful, creative art experience featuring immersive & interactive installations.",
-        "category": "landmark",
-        "latitude": 29.428150499999997,
-        "longitude": -98.49004219999999,
-        "address": "711 Navarro St Ste 100, San Antonio, TX 78205, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 6131,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJO9jSWbVfXIYRSRByBA4h70o/photos/AcnlKN1CB9sSDL-WLZvrkFtmJz6zrNRBlzn70MoLphHO7wZP_4f20jd6DIqB4DnWpFMLDBdsLC16oq8aNwkjuox8dXP8zKzs7dwV9ToflQafttd4ql3fJ20n7-9CpWl-1RunZwXaAZ8bklgN5szqyVvZ5v4y190U3KqOb9nNBnclcJu9LDf1ctx7NdZlGZWVPG1PmPoiLAU7GqiozPVxri4JaDerSzMWqGsvDGg7aX9ntiLXygOZEen719VYOAc0OTpqit2YGB3qvAM18mbSlVbB-volUBGQqB1ioEOfwppcfUJWIw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.letshopscotch.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=5399570822328356937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:01:18.461Z",
-        "updatedAt": "2026-01-23T16:01:18.462Z"
-      },
       {
         "id": "ChIJIw3G2t0iTLwRtr9T_IJUHr4",
         "destinationId": "ushuaia",
@@ -2801,26 +2759,6 @@
         "bestTimeOfDay": "any",
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJV36SsBYjTLwRTkpgDZUccjA/photos/AcnlKN0lT7wMisTx3-dRnUo13Gtj0voMJO1BEUcaq2_RD6HjuK5W2fRveG3tc4UW3O9ipaww-JWBbMkA0LJjBi9pqdG-7zi9AiQPFs39u1CoNUfp8iO6PC3y3c2dgxUdxAoj7FDBUFieBcYN8iCP-n7QyHazPIrhd6Wh5lErTLRcyhAfSpIRvIan8tX41CPSPlPImSCIXlcoVJhvRaCWritR56PWHl0bSO3zs4g76RSuF5dtEauLRXzWKfMne6wHnKrNOCUn9UG881f-MpNhsV9lk_kptuWv03w3KDUAy-7hli8FRE0Dpqhsn5EaijoGlZ-kwtrNWLIWAkMUf2IBKm599SQIaiJwzyjweQzNhZlP20I3ptEaPtuYpDuxS272BPS-LW5_OEJ614XmqDFLyjIzV6RG7ZNrz6xn_4j55ImDvwPSog/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3490884087665674830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:01:19.742Z",
-        "updatedAt": "2026-01-23T16:01:19.742Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "ushuaia",
-        "pathType": "relaxation",
-        "rank": 26,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0ktAN-idprAu5cRKYEbMEdc8z14tLT1TkzfYPsBrKoTz1WiaopoYvZlV2UGETkFoscI1q705TLvQnlx3Z7rVijwieunFEMAt7mrpviBzKP-uw1L_2o94UJT_3y4GmriPwotO5xOOeI7j4mj1L258sTjUhMasTO-qPRPYjnsUy9Sb_IDcDJ5lkVIxgAiFWmjm7Tox-fQ_9ZOXGtSQ8zwAkcP-eHCDmr5Mhf7L0wswzpDVrojvWn9qwUEL3o6mIz6iphn-hX3gR48x_VD4s9m5jqJTuZ48PZBf7UKwabKX1kclm473qaR7EZPNoqgpEJ2Deo1L_naSnyc5WPMY8-YJunoOaTgCCI4Qg6AAGkC7klGWYgQb7lBdUCln3hzYPeuPjwaQ148f5Iwq9kBZ6ujk8kmz-HTTNaXZNRO3GzX2p0wYrw/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:19.742Z",
         "updatedAt": "2026-01-23T16:01:19.742Z"
       }
@@ -4039,5 +3977,5 @@
   "lastFetched": "2026-01-23T16:01:14.131Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 193
+  "totalPOIs": 190
 }

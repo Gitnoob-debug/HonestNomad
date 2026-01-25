@@ -2933,26 +2933,6 @@
         "updatedAt": "2026-01-23T15:27:59.914Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "ljubljana",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0rZZ8aWktZTMJbuf6Uiki08yuXz-e0gOdxiUojju08ok0ioLWAAb8AmKieajYu4ORq4f2NrFWAVtRX5Kx0LLQk1lreBqGafgBVUyyA-SmIR_nhA6OaRstB3AxJfEqxYY3h3mUjRbiYDa0uO63E5kETmo8zzz6D01r_nHmdImFaKzK76HV_MJvBTJ2Dv6ORxAlF-g6FHmLuMshhydG51p8kyG6XghrOaQCyFEHOh6I8ql_X3YoA5WPH-ZGqBlbjZNMQyjdwVUPooRjbAzd5Te0_BFDlpqwAOWlBAm6mEmjvmyE4xZkmtIpfCzCdYRrXP-L_bbvpwQ-tbOtpbe1P8ypUeAYSb1zfKlqFBB-BxEUlBwBddYTzHt55ee5_erShmsssx_77UitHqjw8W5gPIL8uATO9I1KTd04zMwpSPmmwxcoz/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:27:59.914Z",
-        "updatedAt": "2026-01-23T15:27:59.914Z"
-      },
-      {
         "id": "ChIJSzNek5kyZUcRgLbiqgZvvWc",
         "destinationId": "ljubljana",
         "pathType": "relaxation",
@@ -4134,5 +4114,5 @@
   "lastFetched": "2026-01-23T15:27:54.637Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 196
+  "totalPOIs": 195
 }

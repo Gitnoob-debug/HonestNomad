@@ -2775,26 +2775,6 @@
         "updatedAt": "2026-01-23T15:32:41.397Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "chamonix",
-        "pathType": "relaxation",
-        "rank": 25,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1ZSKWZXxMQAjAcokMiHRqTGilaiGlTs0SUSUoHwmwzevzyO8bkoe8bKFo1c73wLhwO0bM2GyQ8gY_0n4w7eVPEFdEiM3jWJMpPaQtSYULIy-Zgh61w7WoWiWE01kb5rYTmoi_-8OSxdEOnnqoN4Rna9cPmCY1kfEfRarrOb1lKEqik4XNhrb6NBom3-J8BWcHLOYGg7s9zIetrR2MNeyzlwLz41JTz36g958oU1URX0R59GRvE6oWSn_OrowLrIzNIwHe1em0O78BiEqeCDahcLNTAX6E4lWwuBNPrE92xNUpGchMjtYAKgNV2KJBiIkaCNwx54KppCXT0TdF58rLHoQB-l8a7kM9CnyKyWUffsg1PDUAjPYpjhyqS8sBadEs39jqC-WQ4LDWUkZSZPD-uUuxko70nqRCN1GGiu7_ybX-N/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:32:41.397Z",
-        "updatedAt": "2026-01-23T15:32:41.397Z"
-      },
-      {
         "id": "ChIJPwSVXtFRiUcRfU08uLVsHnI",
         "destinationId": "chamonix",
         "pathType": "relaxation",
@@ -3879,5 +3859,5 @@
   "lastFetched": "2026-01-23T15:32:36.287Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 185
+  "totalPOIs": 184
 }

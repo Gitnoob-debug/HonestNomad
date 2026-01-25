@@ -2365,26 +2365,6 @@
         "updatedAt": "2026-01-23T16:08:55.953Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "victoria-falls",
-        "pathType": "relaxation",
-        "rank": 22,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3AviEGYtJHCcpjA61q5cqsucvfgUpexZhrjZxkx_muzBr3E6JJFwQJkPyjj2cnJTnbdnKpLgCGjw5Fsfj9mAzhaVjFG9s0n6jXOo3TuwPh6VDpy1f4XiZ3_wvBSBB9OB0oDQx4MTlptG8ivAle3OCglmy95VTeGBUxgPvSyL1IKxu8xjjaI9r7iPwwglG9mLFMRBPKFY77Mjjr0zMjc1q2gVlA2egYEsbghM5XgrQwzj3FK6l3dOj5quDyAzTSJzuaVjVAs96sPUxp5MJDCA5uuyEV1DWfT7FCbpd7TXaOzA9_gmmBhY9noQxgl5LciAH3oEGzJpjuHwwVzQVDxRiKcSL6CDTrV3BFE-LnZOfJPpgYK5VmWIDBIv4z7gVM8ESFjyl9a8oUCU-o-erh-95uNt9bLgvxDq_w--eli7Rdk97p/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:08:55.953Z",
-        "updatedAt": "2026-01-23T16:08:55.953Z"
-      },
-      {
         "id": "ChIJzyH8HpHxTxkRJnZ0r1wqdfU",
         "destinationId": "victoria-falls",
         "pathType": "relaxation",
@@ -3113,5 +3093,5 @@
   "lastFetched": "2026-01-23T16:08:49.567Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 150
+  "totalPOIs": 149
 }

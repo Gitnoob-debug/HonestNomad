@@ -152,27 +152,6 @@
         "updatedAt": "2026-01-23T15:54:53.404Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "sacred-valley",
-        "pathType": "classic",
-        "rank": 8,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1ha5N6YMGtMu74WcWAj9tM_6Q4XFQLZU2p5qIxQJNB3kQT2wAeGtWKmjt9RRSokal4UlaYONYtZSkOoVNo0IeBVve3guR3wReyqlYoxP3hN7d89YJ4S_2L9j8D3xlzwrkd7hFb4mmydY_3kfGYaf4yUUWtNNbE_TLF9BBesIc7pAHJ20WT8SAWSFmZJyw8ykBcDtgW_nNYAF6yE288vIF9wYobConmLY1mGmaR3p4VKqwSG7CbieMJfOaCcLohOE42PklVmEveQ1cDn5U5InQV9Wp5eBJkjj24UxlrNItGjCzxpZUydAA1mhzdAaSDyy7n_O_IuhY915b4-GSWD1ulUjBZ7Tr_oNpJpkYSq0spJq0uz7bkohSosVOm7g5vqyCGq7WB_P4dprLX-uD_9ZIUwfN3aXC4po-WKShdbHXhEw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:54:53.404Z",
-        "updatedAt": "2026-01-23T15:54:53.404Z"
-      },
-      {
         "id": "ChIJJT73zArWbZERPWclxK0YkWk",
         "destinationId": "sacred-valley",
         "pathType": "classic",
@@ -2953,26 +2932,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=37117650494054315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:54:58.568Z",
         "updatedAt": "2026-01-23T15:54:58.568Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "sacred-valley",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2M39jNT2KOOWt3kjoe02KSvCylFDCTPFt2aVaQjtNv9tnqGi2B4uptr1mIpZ77rHwSfeezXp9pVRvAJFML7nKH7sEzP22fOTrTAdm8TgqvuOXf-FsCJ5jROj8GVDXwkI71H8sBk2DD4nr0K412kI66zt9q5rlCnZ4BO2dmp_Dn72EM1hEr1ugH7DodjWezRqtN7kTa8OlINW82hvExiGQl8opWguX46fHBHuqJxUIoem3im6PgUoukQtv6lq-OOUS0wDBRXeuqFsHNrIBHNLr3QiDwLHSyTNFezTad6LXFjmG7sNsnWmpB_-p5GogaS8RqDTGRIcsoTsIpfDGqmLiGlawm-SnfUZBOURAAnPI-lNcc9Ko2kksQytd8W40y21nGxKFWwbRSVKDL-Wd_heJ6I_vSepjA4tVsXXnqryitkR5n/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:54:58.568Z",
-        "updatedAt": "2026-01-23T15:54:58.568Z"
       }
     ],
     "nightlife": [
@@ -3851,5 +3810,5 @@
   "lastFetched": "2026-01-23T15:54:52.719Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 186
+  "totalPOIs": 184
 }

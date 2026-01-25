@@ -2927,26 +2927,6 @@
         "updatedAt": "2026-01-23T15:59:48.698Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "edmonton",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0SPL1TEGZ160IUUfb8bnz9l581FuNSgGUGsAoekjRmVVliAnTIsIR-i4XyfazIm-13gL2zltxnsOhTbUpIbPy9XqawfKkbBpazR9vyzFXWmYDLXyQ4BaFwRfUfUd-50Qi7dX4xJ7Hzu6phCFwqSS3CGC0Q-JDawd4KZtAaXbB-LBTTu0KSa6DsJqspEkVJ4Uzr0yaJbqAFm-BA2Y6D8POQHHZKlVQiy6TwBoF4d2mRc8258gKkM5WFhNwPzt3qigcmlSBb5ek05r-WeTD_9H2Baeg4D5qaRO_tD5uyGnSNpT9dZ1Rvf-Tu4lrZ13pI-SJvPqa-oSz7LzxLCYKxBULQi6pO2h8jhCBxUDhIh6a5_CoovdIEAdepS6CiR3HfaBJ0F-ZYRs1p4mYYFwEWycvpMBg66v5THAA4dRbKjOkbVhW-/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:59:48.698Z",
-        "updatedAt": "2026-01-23T15:59:48.698Z"
-      },
-      {
         "id": "ChIJRa6W7IsZoFMRxw33p0Xo3r0",
         "destinationId": "edmonton",
         "pathType": "relaxation",
@@ -3880,5 +3860,5 @@
   "lastFetched": "2026-01-23T15:59:43.095Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 183
+  "totalPOIs": 182
 }

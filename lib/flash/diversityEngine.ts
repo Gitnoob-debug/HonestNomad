@@ -1,5 +1,5 @@
 import type { FlashVacationPreferences, Destination, DestinationVibe } from '@/types/flash';
-import { DESTINATIONS, getDestinationsForMonth, VALIDATED_POI_DESTINATIONS } from './destinations';
+import { DESTINATIONS, getDestinationsForMonth } from './destinations';
 import type { RevealedPreferences } from './preferenceEngine';
 import { scoreDestination, hasEnoughSignals } from './preferenceEngine';
 
@@ -202,12 +202,8 @@ function scoreBudgetFit(destination: Destination, profile: FlashVacationPreferen
 export function selectDestinations(params: SelectionParams): Destination[] {
   const { profile, departureDate, returnDate, vibes, region, count, originAirport, revealedPreferences, excludeDestinations } = params;
 
-  // Start with all destinations
+  // Start with all destinations (POI data cleaned - garbage POIs removed Jan 2026)
   let candidates = [...DESTINATIONS];
-
-  // Filter to only destinations with validated POI data (133 destinations)
-  // This excludes 277 destinations with corrupted coordinates until re-migrated
-  candidates = candidates.filter(d => VALIDATED_POI_DESTINATIONS.has(d.id));
 
   // Filter by region if specified
   if (region) {

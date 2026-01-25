@@ -7,48 +7,6 @@
   "paths": {
     "classic": [
       {
-        "id": "ChIJLSea6ooWEDERjUGwVxGoqz4",
-        "destinationId": "guam",
-        "pathType": "classic",
-        "rank": 1,
-        "name": "Angkor Wat",
-        "description": "This iconic, sprawling temple complex is surrounded by a wide moat & features intricate carvings.",
-        "category": "activity",
-        "latitude": 13.4124693,
-        "longitude": 103.8669857,
-        "address": "Krong Siem Reap, Cambodia",
-        "googleRating": 4.8,
-        "googleReviewCount": 42309,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJLSea6ooWEDERjUGwVxGoqz4/photos/AcnlKN2r5sQmxsMOc5_zdVW8TVDW0CBcAvROIxeyV3fk5YHE1nwAMagdH0QN3-35Dfda3YlhpN3cFJz1pCWyKV6QDliAX77OolleyfMSxFqG1bz1yJo_HhaLo31kC-k29MTW3LoC0R-G9Vncqdq-LyvnH_V9IAM0oCwJwW-suko8JWsOyFtG-aHIOSzFPLcMDKEaSPp3hQckSgN6ryaJHJ7d7AC-3-0dQnITbRnnLVWi5uhUpWfgD-H4iTfnV40-t7iTJYfcpdj83R6XR9CeKG073vBCuC-Nc0txfuW00EdtxR9-hhSWjyA_-2zHpiI1CLeNs1eEPcAvCD6pHY5egcNlKBgvtlI9JGxYTwOo1kgnJt5CyOOsssBBQ_oUtZ94gA7q2doQwwynoNvz0Il3aeoefSGqctj0cMoEenbaRc8zk7S6U1sNSsAQr2SWJ6hioKlJ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.angkorenterprise.gov.kh/temple/65/angkor-wat",
-        "googleMapsUrl": "https://maps.google.com/?cid=4515887843808133517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
-      },
-      {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "guam",
-        "pathType": "classic",
-        "rank": 2,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN2RZeUl61YhB_Gp_MPM1j9gmlInCKEuKlSqt_qHDJZcEtIpfJKyDcbzzdCe48zGafR3oMMCi1tGdsLb875YI-XCA-w0NeCteL3o1tPgAG998BriUfRqMKY8jhcQFI27xf0U2wrhBnGaPQRZ3K_hW0dVRsVqQ0ZIYmu6gDznh4DvHTbyRfROD8BY1ElEHTc8Cxj5w5kanZEgiJKQTPWFvcSSpQWUnsbTpiYWAAG-hc3GWT8wC4ctkN5_ruNyr_N3AU90gNOKrPo0--8jhBxtoPa44VLOyF7FAIy_DHNVpsFZev4knVYKq9TiS33lHm6IknCps2g-UAaZuDv2O-nrw2M8lckdR58KgucrVijdcN2jjvAbtSMAepZYFyLFpTDvkVwb4-JZl2HvMgrAuj6nNQ5UsHkVYe1j1vSyp2W_W3gbNg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
-      },
-      {
         "id": "ChIJhe0UeJyCH2cR1s02MnnxSlU",
         "destinationId": "guam",
         "pathType": "classic",
@@ -2630,26 +2588,6 @@
         "updatedAt": "2026-01-23T16:14:13.985Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "guam",
-        "pathType": "relaxation",
-        "rank": 23,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3qFPbInPLMZkaHNJHWkYipt4IefAOM6NXf7vd4q_waha-dCx6TQyL-9-5D1X1ytEeb8F5LNz9Gr3tRKK3W3RLjqqukV_R_wFkslnxa_uhUAVfrOmttC4lexKJnBKpmOZFIRUSxuAT2xc6lDyTECOqPrSeQRjCWrnw2ZUIRjlYKocBOLXptDsHK5K1o-O8X9GNDtQdPoC5RTYByg-cqLXKLexMpGHL4mU6LavdFy2RA_BOYhz4VlO65d7KIDvk0cqI0qa9yN74zISKXyKcMAowuoyGiA09_p0QOx_bYoSDTdPgDSBzYaF43ImJGdUIpk2HyIdEXgpshFh8GI6BiDe89NWsdQ4gxMF_GFlBDMHZ0tWw6XmJ3nWElzO5j8FlHiLmCtZm3qwWUlh4s3cxmhsMfWnr2mFOObBa31WFEyi8Q_LaA/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
-      },
-      {
         "id": "ChIJj5fU_COCH2cRTGEqgE8YrjE",
         "destinationId": "guam",
         "pathType": "relaxation",
@@ -3567,5 +3505,5 @@
   "lastFetched": "2026-01-23T16:14:08.661Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 171
+  "totalPOIs": 168
 }

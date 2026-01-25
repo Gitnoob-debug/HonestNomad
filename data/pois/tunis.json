@@ -7,27 +7,6 @@
   "paths": {
     "classic": [
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "tunis",
-        "pathType": "classic",
-        "rank": 1,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN2Vr2nfDYGZOY87jSZUkElScolbLOt81rY6BNwtjGkEP_tcx-zOi_NL65sl4_9DXx2rIks867CwMgpA2doAmB8_D2HFi-Sc-PMeHxCKybTOGFK1htSuZNpk8VxKmELw9DMdK5uEzlt6xo3XntTF-U_igQDPDyYeon14G_WLcL0t8BFUbtu11CUux4y-BecUfeM7ab5rlVT1-5N9GmH0Vrb5-O_fw0J3koIghsbgvCal5iL66pe_by8Nau0XaTsbgI0tHrfcr_uzPx5xto6Zxxe5LKIRwTEU5CSbjB68ujJry7fM8vq98EyOxhuzabj876Qr9NtBC2oT8iB7jpb_NjucI2FZwEORGYZhKhLYNACF3XW87PLH0mxxuq7gMeCqaaD9-8wjv8qGFs7eHEB1gJtrEPk0ajtE2Xt84uUrpXm_7w/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:10:39.934Z",
-        "updatedAt": "2026-01-23T16:10:39.934Z"
-      },
-      {
         "id": "ChIJDeUNT3U0_RIRMU9KwrJeBdY",
         "destinationId": "tunis",
         "pathType": "classic",
@@ -126,27 +105,6 @@
         "bestTimeOfDay": "any",
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv-zubbq14hIR_irCo8ZhXZo/photos/AcnlKN1U93zpnfyAe7Zx_pNBtEQnYpuo8PAAV24-MJGYKBOrJdrM_ygHfrLZl4M2TVDw_qla59O5pj-vhGXEm1TFvQJuVGzQozs8ivZpZPJWiO1crIDKed19D1lcH5lRLzpwzgfiOBDl1CvPWYQyhUeVYkLcYM0g5BoM4L_wceJbwyhDA99o4Q1vHS5zRP0Ei83cUrfEbg7l4PNP2C4dcYDVBBNyk2F3DRVkDfug-H-Tfgsta26JkIaSODabRzvcyOssOFOPMv2hJ_h-aKEpEP31BfTKnz1htSgvtOLnU0-62iRzckpsIo2UfjfLkAamlyCSLRpZtKMjlGI2qIFhbec6uZHyyO3J_HEFXCvDouIOrI1Kq4XppzkKyu8D6rSUqfRiFFnnVC6jAdCcAWdXh45XmoP7Fq7s5PtCaBxpjAvEeQG8GA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11123154160453823230&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T16:10:39.934Z",
-        "updatedAt": "2026-01-23T16:10:39.934Z"
-      },
-      {
-        "id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
-        "destinationId": "tunis",
-        "pathType": "classic",
-        "rank": 7,
-        "name": "Stonehenge",
-        "description": "Legendary neolithic monument made using stones transported from Wales & built for unknown purposes.",
-        "category": "landmark",
-        "latitude": 51.178881999999994,
-        "longitude": -1.8262150000000001,
-        "address": "Salisbury SP4 7DE, UK",
-        "googleRating": 4.5,
-        "googleReviewCount": 64030,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJEfYKhTvmc0gR3dLTvOJwkZc/photos/AcnlKN0sNS1oelDmqSqVxl1BONsG2DmzsUDK8nFMkLsZoONan_5neNMuKlavjispv7-5PpbZdXKBsMd_hLOiOiwB0ELLpU66QFd-Vf3R1ua_br0LNpdY7Nge1gW_u4I9K4KOMCjaen4SiAibXejtlW_jLBfLaNXXXxjY7rHTAnA9RufazC6Jvjji_23DjT1WzsZtKcGu5qg0DvJ_tt5TYBdWN15y0m1X9f8X-SHxF7XNpy09lHTadGIaZ0L0ECM6GA1nuxPvepOfxwbuJXZxt-lEYHb8whvxtr8-P-PqdXDoi7g3eF96vEDrQD7mGQQV5Ekupy-d9hhtAOyvbDMjt9uktlMSex8ojQWUp29iaHsET4SiynJ8pJWWC7hzqnxkzoPoW1Fa-KHZM7jIzR1fAiVuW3dXZkCMuUdTYalG5krMzDiphw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.english-heritage.org.uk/visit/places/stonehenge/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge&utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge",
-        "googleMapsUrl": "https://maps.google.com/?cid=10921634690483081949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:39.934Z",
         "updatedAt": "2026-01-23T16:10:39.934Z"
       },
@@ -823,26 +781,6 @@
         "bestTimeOfDay": "any",
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwb4Tdb01_RIRzA4rTNWvl_k/photos/AcnlKN3kejW8-PszxluvzPPJSE4PfW1CXK6GHYWvto4NPbFqyb1gwgH19HSFVYspRvpt31c2thcv47Yik0HeUC_aLiabqDFce56RIWzx0_cbfn4cxUgTg9iXa6xj3EQqEdpfgenppNlF17TybXnYblztN1F8Izhc-xBoA8luCSH30s0hU-ecwVhT38mcpXo6QyzBP0r2H29mVUK95sHw3BcibcVlxHpy1byZL6SBB6_RKn-wuF1TpqsLp9wsHetkPFfxmzFiJNNvELOU4aJSEUtb_-rHc6pfJPQiOEPcGeI4NTHPMfQbKPbBQxnwrapknw5T2DvC0LdU8hMJjTDemIAWyK3gGXG9-Omfh-3ooArexAfG0-xDEOT1B7jWwudj9HVVYDHa6zOzfaCfg41QSD2daKop8K-YqB_OULty40LGX4v66Fk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17985036967568150220&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:10:42.337Z",
-        "updatedAt": "2026-01-23T16:10:42.337Z"
-      },
-      {
-        "id": "ChIJDxeTT0QTAhMRKzPm96jC-fI",
-        "destinationId": "tunis",
-        "pathType": "adventure",
-        "rank": 2,
-        "name": "Aventoura Tunisia",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 35.7553237,
-        "longitude": 10.828049799999999,
-        "address": "Monastir 5000, Tunisia",
-        "googleRating": 5,
-        "googleReviewCount": 30,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "websiteUrl": "http://aventoura.tn/",
-        "googleMapsUrl": "https://maps.google.com/?cid=17508239057348866859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:42.337Z",
         "updatedAt": "2026-01-23T16:10:42.337Z"
       },
@@ -2196,26 +2134,6 @@
         "updatedAt": "2026-01-23T16:10:44.819Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "tunis",
-        "pathType": "relaxation",
-        "rank": 18,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2-bLfFzZB_z5WDp9xyjss1w8j52ScC9w3IGBBL1GzDg26iCXgofWuJK1URY8Pdn3PwhCamS9YpVOiq6LpCkr8-CYo1LCxwiCQ0WcMIKJbTgiBQU3rqf0UPNlUfjTAWDatbzExND2dAv4aPV4L_T1sEz-OWaS6n4k3qlvQPlahgn-JEDMyqDhzsISETA54a36N9e-9DeVQtGfEoQ3Nb92SIjS4LXCQB5cuXsOFT7nLPVGLg1nkRocAS5APWf2O4eVKvVq2xXYIGGXuIkLvtYYQiacwWzYtPfeVinQMjimtymeRJA04mtbZf6xdVaZIVhc9yo0bV08jO08StbOSH7VvR98UB2WcaDxhY95f2gT8fbwLQUJvpOLIl7oISfmH1_QKj4pZxjz5S33geX0Z3dX9XguNUnXxlyv5YCSWklndbiu77/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:10:44.819Z",
-        "updatedAt": "2026-01-23T16:10:44.819Z"
-      },
-      {
         "id": "ChIJCT26b7dK_RIRNSod4fYPOak",
         "destinationId": "tunis",
         "pathType": "relaxation",
@@ -2396,28 +2314,6 @@
       }
     ],
     "nightlife": [
-      {
-        "id": "ChIJIRiJaRRawokR2KyQ984qa-o",
-        "destinationId": "tunis",
-        "pathType": "nightlife",
-        "rank": 1,
-        "name": "The Dead Rabbit",
-        "description": "This 2-story spot combines a lunch taproom with a parlor serving small plates & vintage cocktails.",
-        "category": "bar",
-        "latitude": 40.7032685,
-        "longitude": -74.0110218,
-        "address": "30 Water St, New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 8204,
-        "googlePrice": 2,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "night",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJIRiJaRRawokR2KyQ984qa-o/photos/AcnlKN2PlwlB4houV_TLPFCnDAu5zmcRKu7akljYrsbrbWJZQCuVDYWPdnyPKLiZIp9KmWFaTW1nlIpXqGVh6v4dV4ksbP5fQ64JMmd6mNXinEn2By1vTbySEy5sMmezUF1sz6G67EcILJ39HR08bBbYvAfg3ELY3y1UQNIMqFZtoXGt-ua254Z0huAv2T6A9qjNO4a8SG3Q00QyzDdTe3Pt7YxYAswlkuygNL6V738wTIkQslGjYwt0lH_6UBNYOPr-TFyREJGNCF1vibDNFHq0yIYXs_AyOaxECikObNrRBNk2RQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://thedeadrabbit.com/?utm_source=google_business_profile&utm_medium=gbp_view_website&utm_campaign=google_business_profile",
-        "googleMapsUrl": "https://maps.google.com/?cid=16891641895788260568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:10:46.026Z",
-        "updatedAt": "2026-01-23T16:10:46.026Z"
-      },
       {
         "id": "ChIJqV5_vVo3_RIRU7rSTRgMGOU",
         "destinationId": "tunis",
@@ -2785,5 +2681,5 @@
   "lastFetched": "2026-01-23T16:10:39.207Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 136
+  "totalPOIs": 131
 }

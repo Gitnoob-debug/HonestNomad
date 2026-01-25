@@ -175,27 +175,6 @@
         "updatedAt": "2026-01-23T15:58:32.420Z"
       },
       {
-        "id": "ChIJb6eoeE__W4gRSZP4fr18cj4",
-        "destinationId": "asheville",
-        "pathType": "classic",
-        "rank": 9,
-        "name": "Titanic Museum Attraction",
-        "description": "This museum dedicated to the famed Titanic is shaped like the ship & features recovered artifacts.",
-        "category": "museum",
-        "latitude": 35.82055,
-        "longitude": -83.5789351,
-        "address": "2134 Parkway, Pigeon Forge, TN 37863, USA",
-        "googleRating": 4.6,
-        "googleReviewCount": 23576,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "afternoon",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJb6eoeE__W4gRSZP4fr18cj4/photos/AcnlKN2xDLyfHSPnXvgu9QG2O9sZwcZbYA_bAl9In-A5ADyOxLg5qiKIiW00rQmEBrraM4WkGUQpuxVMNrVnCUap1P7zqm2ANE-PNm2tFEg4zcTRv_hw14ulY8C4m6VWLx85c7WXJiMfJNfo0-F0XdEEYfqUIHPYUvroekFnGaoFmHAIOmmfJasV8fEv-ZFM9q5EqGFh6ilCEHvsEuua-mlkwnthC_5upeG0Zi8s1ucWdCW3sPPjSHIW-j6UcqYeBCBAfY7uyq5v8hVnudO_yuwSpdQHjr5cd61jZMFLXNPMCORzaao6RJsiBWBPmAOW5n4sa9jNrgCZWq40agn1v3wnVDf4A0d0KNjbspVbMHU0_MulKK7ZrbeUNUUCXh5AV2E5J3ZxVphw_Ke-hc-WIBXWkBzDwDqQD4-Sg3mw5I-6ufgkXA/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://titanicattraction.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=4499796131017429833&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:58:32.420Z",
-        "updatedAt": "2026-01-23T15:58:32.420Z"
-      },
-      {
         "id": "ChIJLfigtU2LWYgRR2LW7OsQvD8",
         "destinationId": "asheville",
         "pathType": "classic",
@@ -1266,27 +1245,6 @@
         "updatedAt": "2026-01-23T15:58:34.863Z"
       },
       {
-        "id": "ChIJGVgpyuH6UIgRDv-bwpXgqjw",
-        "destinationId": "asheville",
-        "pathType": "adventure",
-        "rank": 3,
-        "name": "High Gravity Adventures Zip Line & Aerial Park",
-        "description": "Obstacle courses & zip-line tours are designed for most ages at this forested family attraction.",
-        "category": "landmark",
-        "latitude": 36.1696198,
-        "longitude": -81.648564,
-        "address": "215 Tweetsie Railroad Ln, Blowing Rock, NC 28605, USA",
-        "googleRating": 4.9,
-        "googleReviewCount": 777,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJGVgpyuH6UIgRDv-bwpXgqjw/photos/AcnlKN0i0xACy0HRw6Fi08gAoOfYyHZRa6dZs7XJMdqGmeYHkXUHqHWEoVJrU9r0XwLpHmmfoDa4sO5WwP-OtA-FdzdWuLmyZZhwp3ZyMUDpK3Ik_Y1APFwWgQhylqI90DU4btPOCW3XVtGnnFE7CUKmTozCIsmuR6R9njYSTZh06csRjrZjdOUSjrY-sVMF_fVfuV37px9YDS193f8uRLtGWu-KnlWJ-4mNS3EnHfLcJHHLgpOl9efAAEBh2d2Tqhyq-tPGrJuUGlTMb3LCk5E3ir15wZqpt6SrLVLFh4G1ZI3jCg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.highgravityadventures.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=4371553322136239886&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:58:34.863Z",
-        "updatedAt": "2026-01-23T15:58:34.863Z"
-      },
-      {
         "id": "ChIJjfX8PcbzWYgRYDLj--5h-Ok",
         "destinationId": "asheville",
         "pathType": "adventure",
@@ -1910,27 +1868,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFSf0tlDzWYgR2nvTIBKFk4c/photos/AcnlKN227s3J9HI4TKhJzFcwNmo80q0XUOgz5dUsxVt8F65bsq7C2o2EhJRwnRMjOa1DKe0rxd8ggqcEosQPzz78a2sQy7UQHO_lMtC8WbOHWvvcx3cUl_-P_fyvmR9ZmXQ_mbwjgmD19Sf20tObmZr5EBOUwBnICfpXpimX7v0EqSM5VLP-pMMPOz6ccccvc8-mWMmVvU8hz8PJrVe6U4kgS5TF8XmJlFRHHDTChvBRHrGoEzhV-edpW8AxoK5--FxZhfQB84QVx_8SuRVHBfodXabQMsEJkBSinmb_mXxolzxAQg/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "http://www.lexingtonglassworks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9769298329603374042&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T15:58:37.167Z",
-        "updatedAt": "2026-01-23T15:58:37.167Z"
-      },
-      {
-        "id": "ChIJb6eoeE__W4gRSZP4fr18cj4",
-        "destinationId": "asheville",
-        "pathType": "cultural",
-        "rank": 5,
-        "name": "Titanic Museum Attraction",
-        "description": "This museum dedicated to the famed Titanic is shaped like the ship & features recovered artifacts.",
-        "category": "museum",
-        "latitude": 35.82055,
-        "longitude": -83.5789351,
-        "address": "2134 Parkway, Pigeon Forge, TN 37863, USA",
-        "googleRating": 4.6,
-        "googleReviewCount": 23576,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "afternoon",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJb6eoeE__W4gRSZP4fr18cj4/photos/AcnlKN09bAwcd9_KISb4x3OBHodGaq94aRpisfaQzJEqK4oa5gqwaX1oOx1i865bsC47_dF4COChvfXX58ktGxATPeYnTYQhicOHIBE5in0bHG3wnoScQkNVAJi3kaVHv1ZnsD7Kl1zFj6HJeNgTkejxGnOqlzfX3MZrY62joP6-V6Ml6g1pw8g6hipOFtb9DWX6QW07Vwnk9a5stBEMqEgfVtFyWCqc1uKjngVHzr9weGSBI8r-24L8_FCPn9FR-F8fptdgaHjVSdfKXlkdpxYVSqortxVI_gFI87rE4ye4rgQvX9Y3aUwF1nMe5njqI0tixoED3GC9yPDbh4ncwa4H3hEA5_IvVilqQFpBJPxvRqnwTQzU8em6NkMTbrdw7pOnZ6tPrfWurJIDOor5pbDhZja0z33D9YbkdKpv_GbpWN9VMA/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://titanicattraction.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=4499796131017429833&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:58:37.167Z",
         "updatedAt": "2026-01-23T15:58:37.167Z"
       },
@@ -3069,26 +3006,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=13388854118300205712&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:58:38.288Z",
         "updatedAt": "2026-01-23T15:58:38.288Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "asheville",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2d2WnrVadkjcyoW1kvPOUTPlP7Xs7af3wSNEKKIucwL53U3YVnDI7Lt4D465bCEypKfh9_-qKI9ixkfh4bosAarGPTYoV1G43DEWUN7UMT3KNRwwwHo2_vezC4on--jKt30OA-fyfNuMSKd-q_euuGnG11-8CKkXmou34NzAYbXeMmgoSVcQU6MoZhIwoFISbUZLLEVQ-2rCDN3Gkpegh-iyhDKo417kLemmaEaIXDikFR8oaJWYdOhrcJewy0vcT9NCiH-UZgrCdIl5Uq8ArV8Q6Ns2e3BCVjBBYy5BVbKpBw9AUSLnmKSovTA5GkpE3Rq1njUcDDMNHnwDJvxfDmtxIyClDCwrfWsp_l44WCRMCWSCo3JeXKzQXKAhJjouJ0tmOtdvuJg8vXiTlj_LGJevMsfbKkuRVpgqemLmHUED3W/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:58:38.288Z",
-        "updatedAt": "2026-01-23T15:58:38.288Z"
       }
     ],
     "nightlife": [
@@ -4181,5 +4098,5 @@
   "lastFetched": "2026-01-23T15:58:31.290Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 196
+  "totalPOIs": 192
 }

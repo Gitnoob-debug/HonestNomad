@@ -2969,26 +2969,6 @@
         "updatedAt": "2026-01-23T15:57:52.387Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "st-louis",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0QQavQpafUz-smMK5JOVZ8FvZkJqYLyBs0-4LDr8Ffmo-CTeayUZXYaSmxWA6lviNM9niV3vFn-Kdo8x_ZGQLwLMHd_Y1V90YapKJ0YwFMmaMOSOa6dc3C5ob3fAa_vm-4IjQS6Fu5Z4ZlMlxmLxCfzJtFhyHoC8s3d0iLhOS_3pj7ka2eG2JEvKmWgjZmO6Ojm3CPP2VRABA31p5RhkXIcvBlO6yWpqoXHQLyUwcXnEfZDqXq_ePPMSP7VcH3SuelR5asdc9xyPXKH_VqFsHu8RA-GFvrPPvv-4wTCn7ydEuekZ2uf8PSPx44GRUXyOi3Ty5DA2AExHDla7hC7Yq_vhMCsUNB80v0wR_8gXlpFbcJbU3DYz4jtwQy3MFVuCv90BboJ9XKeBGBqvTWW8oxa_AS1qLif6se4BkGv7t4A_4Q/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:57:52.387Z",
-        "updatedAt": "2026-01-23T15:57:52.387Z"
-      },
-      {
         "id": "ChIJawCwQkOz2IcRaEqDN8mlWJ4",
         "destinationId": "st-louis",
         "pathType": "relaxation",
@@ -4095,5 +4075,5 @@
   "lastFetched": "2026-01-23T15:57:46.621Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 192
+  "totalPOIs": 191
 }

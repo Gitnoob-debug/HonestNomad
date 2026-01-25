@@ -1560,27 +1560,6 @@
         "updatedAt": "2026-01-23T15:27:09.038Z"
       },
       {
-        "id": "ChIJdx8XLKCuqxQRYbn1VjaiIoY",
-        "destinationId": "thessaloniki",
-        "pathType": "adventure",
-        "rank": 16,
-        "name": "Bansko Outdoor Activities",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 41.828742299999995,
-        "longitude": 23.4744672,
-        "address": "Stragite , area, кв. Глазне, 2770 Bansko, Bulgaria",
-        "googleRating": 4.9,
-        "googleReviewCount": 31,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJdx8XLKCuqxQRYbn1VjaiIoY/photos/AcnlKN0_4cPmdqe3smOHub2qCnOiZ7sv4nsF2efkNoHY1EnLYLeNB0ImmK-Tcvpd6XfiUCyG3xrFV19tztQUelcqwu29NHV95AiIZHnDbQQEyn7wM7ZTMqXpe-lZW5kXAzrXC-J3UO8DVaxIoCLN6NkwZgUPafmdTtVU5yZ-WvlQBooMsjK3R-I31POUFMInnMxQ774r9XdOeoLzJcQFcRTaLhIqdYMMNT-csw8v5FUXvjsKmokRZ702aEV-mi6GDK4uUAewrBanSYoHkrpTRgGEt35RTineXzfNTPZsxuAGmEW7Wg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.banskoskipass.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=9665466104561383777&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:27:09.038Z",
-        "updatedAt": "2026-01-23T15:27:09.038Z"
-      },
-      {
         "id": "ChIJ-x5cTp47qBQRMWzzf3fH1q4",
         "destinationId": "thessaloniki",
         "pathType": "adventure",
@@ -4012,5 +3991,5 @@
   "lastFetched": "2026-01-23T15:27:05.699Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 190
+  "totalPOIs": 189
 }

@@ -175,28 +175,6 @@
         "updatedAt": "2026-01-23T15:52:28.748Z"
       },
       {
-        "id": "ChIJ-bfVTh8VkFQRDZLQnmioK9s",
-        "destinationId": "victoria-bc",
-        "pathType": "classic",
-        "rank": 9,
-        "name": "Space Needle",
-        "description": "Iconic, 605-ft-tall spire at the Seattle Center, with an observation deck & a rotating restaurant.",
-        "category": "activity",
-        "latitude": 47.6205063,
-        "longitude": -122.3492774,
-        "address": "400 Broad St, Seattle, WA 98109, USA",
-        "googleRating": 4.6,
-        "googleReviewCount": 55966,
-        "googlePrice": 3,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-bfVTh8VkFQRDZLQnmioK9s/photos/AcnlKN18VsuxXZnWIckMqEPN2OMw93LWhXv8hL1xSr_UDG-CPBiNToLwEi3Mdp3LxmVB9wn3bCqQle9aiRInWKJvDZ0erjx3AX2UoSCR_gFJwLW1JSvn8K1y610b7JSF72fmbrZnKva_7pJNQ1fjNna3WON7BPdxNbHQ3ixOwnnZmg60haV27EV7Kf14fAM21EQqKq8gxm8l7AyZ5SmqHKJpmtoHfptzzZ2Xc85uP-5nwbC4imb10AXwpj0FG8VngRkh-SjppyIR4UDie_8ZLJ3s1FFrp-yKO13cfpkboCew3bsjCvRJqDwgY_8GFOmFOs2hiTGgWQqd8FXkqRcKE6M8yhHK9de_ybEJnCZbNq8BGaea4jOyu7tuC4encVtpOiRtSsUch4h1p8qou6G9NR-RJCf5eU5FH_KngDUtj6uGZ5c9Yw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.spaceneedle.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=15792901685599310349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:52:28.748Z",
-        "updatedAt": "2026-01-23T15:52:28.748Z"
-      },
-      {
         "id": "ChIJhdw6-Ol0j1QR-Jtut0oMXnU",
         "destinationId": "victoria-bc",
         "pathType": "classic",
@@ -3972,5 +3950,5 @@
   "lastFetched": "2026-01-23T15:52:27.397Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 187
+  "totalPOIs": 186
 }

@@ -1262,27 +1262,6 @@
         "updatedAt": "2026-01-23T16:12:45.212Z"
       },
       {
-        "id": "ChIJ8YbkiuGmcKoRjSeTPaOJsaQ",
-        "destinationId": "tasmania",
-        "pathType": "adventure",
-        "rank": 2,
-        "name": "Treetops Adventure Hollybank",
-        "description": "Adventure Sports Center - highly rated",
-        "category": "activity",
-        "latitude": -41.3027069,
-        "longitude": 147.20697220000002,
-        "address": "66 Hollybank Rd, Underwood TAS 7268, Australia",
-        "googleRating": 4.8,
-        "googleReviewCount": 986,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8YbkiuGmcKoRjSeTPaOJsaQ/photos/AcnlKN2HhIUyTy15LAIHUUV9wwd5Aw_Zsjv_ivLFTOmLpQbTSYD4oxIIi_76qYW0qnHu9Mn_bbq3H4l8Om1S6el28b7L0Fz4sGb6yI0uWvGcEJBQ57HQ_aiDfaqhjt_GN0b60I7hRcKYQjfnyzV8EbIbrUwCFn7MYDJZGXBPsVBJZ-7YzLfyOuVh3LzYvgeK3Xn94I7_VuNbEC-lpbnN7wvyDfAECYkdVoH-W0G3jaouaQLaLHVAzq7fPKp5Sdl0bg5oGIWGCKoUQVL8E1KmMDZQhuDCNndkU119DXibL3kdjKYYOE-M2bWNiSzLFEfoVFTeAvB8PajYERDg0ilt_o33scDOhXEsSrxvq-Scsw9KrSerP5yH-arXaV05JaIyd2B3O8PKF71XtAF5NmL_6aw4Uv-c42f2RexXd3jOCTHKOpPhEg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://treetopsadventure.com.au/location/tas-hollybank/",
-        "googleMapsUrl": "https://maps.google.com/?cid=11867417827303696269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:12:45.212Z",
-        "updatedAt": "2026-01-23T16:12:45.212Z"
-      },
-      {
         "id": "ChIJWUPlVTx1bqoRyDEwGkSBocQ",
         "destinationId": "tasmania",
         "pathType": "adventure",
@@ -4343,5 +4322,5 @@
   "lastFetched": "2026-01-23T16:12:41.729Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 205
+  "totalPOIs": 204
 }

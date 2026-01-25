@@ -2856,26 +2856,6 @@
         "updatedAt": "2026-01-23T15:45:03.452Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "vancouver",
-        "pathType": "relaxation",
-        "rank": 26,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1XdqIjvn2ev449Z2btx1txeIvM6HvhJEw4NngrMwyX2Cf9IkOsKbRiRpZssNZ-p7eSe-DWD84mb1WfpX3ea_S20F7l4zyF7-7XHT21VWVyETiXG64qRIuC5A0JRwLY79EXbeOPIgY0DbwB-LOTCTsAQHwrE0Fl84sLa8LqGVAdEVgsfAaXWOoVAp05DbZxTJ-WW4gjsIe4_ol7cL_T11xKJ2o4IGZVtTrqNIPi7rSWxjdMnUb63rOEgwt5NHd291lRU6sL_Ms3Z7S2b3eBB5jPV1AcfwL2Te2R0mOS3fCnM2iS9feUDXbFbihBm4z11ZFcaiFpWtYX62lWaYThJJ2URCM5tHwXRPThzZu4tm6BEObOXzLWOZVovYgbuegjRRvyRhgeUBtKTquDZaHYwhpxjCX4YKiBA6fuOIbo9KlZvb5V/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:45:03.452Z",
-        "updatedAt": "2026-01-23T15:45:03.452Z"
-      },
-      {
         "id": "ChIJP29rfbB3hlQRNAM26AysJA8",
         "destinationId": "vancouver",
         "pathType": "relaxation",
@@ -4117,27 +4097,6 @@
         "updatedAt": "2026-01-23T15:45:05.900Z"
       },
       {
-        "id": "ChIJpXpXtOMdiFQR02eL86IdkZY",
-        "destinationId": "vancouver",
-        "pathType": "trendy",
-        "rank": 25,
-        "name": "The Hidden Gem Bakery",
-        "description": "Coffee Shop - highly rated",
-        "category": "cafe",
-        "latitude": 49.865580699999995,
-        "longitude": -125.12645699999999,
-        "address": "2169 Regent Rd, Black Creek, BC V9J 1A1, Canada",
-        "googleRating": 4.7,
-        "googleReviewCount": 39,
-        "suggestedDuration": "45 min - 1 hour",
-        "bestTimeOfDay": "morning",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJpXpXtOMdiFQR02eL86IdkZY/photos/AcnlKN2p3nn4TWlo41xk4SX9vAMXEcxmBmI5qvD2C9x3_dm2FQ0FkVLZAwZbnfSQYbaFnlz309xG5v28kQ3mpBiFbbEiWM7DpZX9I1c-Tv0zikV9XKqg2h8DPv-sDh61mnQJlejcGarcNqh7O74vGMzyeEd0oj4YVHbSQtslldrQPnyC5JwxlK8vywONHuPUbh2xY_9kIj1RE_M2Lx-1Ifp5Ds9IttEg7z9p0RBO2gcu6u-IzGQ4loqMRLR-nkYM-jeX-21mqtGMNmm9-kQF5MIEE0w9XV5eqR_BVNOg1vMST8dVOKnHNu82fYmIOO-sOgOOuJ5THFTouCLwh0RNP63w0QJwUr3vZO2YyxVx2ludQqCUbPpt1lsnMKxXNj7lBMcC8CbL-tbvBKIOhLLxix1I7Thwt4LzyiVfUJ_9Pw5XYWE-Tw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.instagram.com/thehiddengembakery/",
-        "googleMapsUrl": "https://maps.google.com/?cid=10849485563020142547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:45:05.900Z",
-        "updatedAt": "2026-01-23T15:45:05.900Z"
-      },
-      {
         "id": "ChIJb297glhzhlQRw_vI_-KvW5A",
         "destinationId": "vancouver",
         "pathType": "trendy",
@@ -4184,5 +4143,5 @@
   "lastFetched": "2026-01-23T15:44:57.986Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 196
+  "totalPOIs": 194
 }

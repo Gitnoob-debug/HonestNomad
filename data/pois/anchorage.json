@@ -69,27 +69,6 @@
         "updatedAt": "2026-01-23T15:51:34.560Z"
       },
       {
-        "id": "ChIJZ9R_CrJ2yFYRc0c7bqahWdk",
-        "destinationId": "anchorage",
-        "pathType": "classic",
-        "rank": 4,
-        "name": "Alaska Wildlife Conservation Center",
-        "description": "Refuge for sick, wounded & orphaned animals that offers visitors a chance to see wildlife up close.",
-        "category": "activity",
-        "latitude": 60.8212004,
-        "longitude": -148.9792243,
-        "address": "43520 Seward Hwy, Girdwood, AK 99587, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 6366,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJZ9R_CrJ2yFYRc0c7bqahWdk/photos/AcnlKN2U192xUTzEOXV6MAqHd0xjc8dlIQWbIJN9qSDKUVzKZSijpEs4jTpBk9AlRc_XkosE0RNahj9fgRpeyJX_VXWsfGwhZFiBiKOySeZd-sJYJ6CvF8ZWsYbHvkvEouT2F_5110KyyAzysGFuWotsqxecce5MlGC46Dd0idmDbdUhmX1higpWkhzx-hNPMfYx7tvqMNPioD3PB28_nx5Zf7PTw-Y9tNyo26y-N6iniMCgiZHkiLlinQSib1znwFddMtlC0mipgj-hUhWPTMVS5yWHUSfwkIGLGIflrIv7d99O2CvnQQ98jnfENeVaHO-oezJt5g010mKDpRuuG8YvRSzu-kcy8SpC6b0uRee4QkR0zeUZOrV2FAxODo9d1SvWEPinugtRahxoEh4adK3qyMW8O1K9pfcMenWKHMNwVoEUOQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.alaskawildlife.org/?utm_source=google&utm_medium=organic+&utm_campaign=gbp",
-        "googleMapsUrl": "https://maps.google.com/?cid=15661726915343632243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:34.560Z",
-        "updatedAt": "2026-01-23T15:51:34.560Z"
-      },
-      {
         "id": "ChIJ-wU15deWyFYRCBiYEgBtSFI",
         "destinationId": "anchorage",
         "pathType": "classic",
@@ -2862,26 +2841,6 @@
         "updatedAt": "2026-01-23T15:51:39.853Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "anchorage",
-        "pathType": "relaxation",
-        "rank": 23,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2AIgkTkf00xNZ0xOprAOhkH4exiAphjzDdy6B1-450DLR4MQewTvN-i-84YN-je5vFclxlwYEn0x2omWYsexMXWkVNZ6iIavpYy3qO3zTWCtZMO5Jyg9AUlUCrA8RzFh8d7Vl_-WgGzZBm2RSwn2D9MJatRh-OQDDEqEq9uVVAVil3YBcXmN23xHq--ow76qGINABIErdWJDzkoU-DNgxdSiJ6qyk8cN5UmvLVwCULAyEsZFDq28jzUbn7xqs4hheGC5MnD39HPehG1s3NvFI8D2RfMb25EGQ5klABuRIyCIUs8wzbLA19uo9RKrDHq74OhS1X-EBdm7AaM2LXl5bud9snFYMMNNuYu_hb3QvLWQd8YpqJdWvPVJKn_PURf62DEukpIVyfOnm5W91ZO83Bm5bTNB6kIebdaySu6c1XD10M/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:39.853Z",
-        "updatedAt": "2026-01-23T15:51:39.853Z"
-      },
-      {
         "id": "ChIJD6NYU7b8kUMRVwntWjj4Zf0",
         "destinationId": "anchorage",
         "pathType": "relaxation",
@@ -4098,5 +4057,5 @@
   "lastFetched": "2026-01-23T15:51:33.635Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 193
+  "totalPOIs": 191
 }

@@ -91,27 +91,6 @@
         "updatedAt": "2026-01-23T15:59:35.525Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "kelowna",
-        "pathType": "classic",
-        "rank": 5,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1amrfSg9EfbC9TxwTa8TpjeSczk8YGpKikZW26FZfTOp7tQNJgqlK2f7N5baG8WB7UeZQit4iOC8K5AA3OOYLJsEBEGRYuBMQqsiuufvZgFRw80CSteoUny9dGbGmohHEky9no4akwuIWiU0c3Nkc0el1O1wSSPyai4QZnJK8ddmQjzM2PLdI2vgEbOJ0uak55B8p83hctA8OEExkTXXOdRjtBYei1ytiooFCdgqaneE8-8hniNfAZlACKf3oO9QTWxjMND6RZAnnYoTJMVcz4Tf_IOCS0uNdDoe8g_b3YwmZu0GwQYl7EUqfkgGcVjJmj-_ENgqPOrZgMwV5XJv4G6shswbO6PmMGQ2H-gg9hJRBMqedaK0WbxQJT9K94FlGmOc0T0Z9T1rs0eoa9XLeNdQXnuI1ZEBt8BHHLqF5Kcw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:59:35.525Z",
-        "updatedAt": "2026-01-23T15:59:35.525Z"
-      },
-      {
         "id": "ChIJV5zJ6q_0fVMR55XvY97YE7E",
         "destinationId": "kelowna",
         "pathType": "classic",
@@ -1756,27 +1735,6 @@
         "updatedAt": "2026-01-23T15:59:38.941Z"
       },
       {
-        "id": "ChIJ1e5UJJF0j1QR6VpPNf8TYiQ",
-        "destinationId": "kelowna",
-        "pathType": "cultural",
-        "rank": 3,
-        "name": "Royal BC Museum",
-        "description": "This museum showcases natural wonders like dinosaurs & includes an IMAX movie theatre.",
-        "category": "museum",
-        "latitude": 48.4198111,
-        "longitude": -123.36744969999998,
-        "address": "675 Belleville St., Victoria, BC V8W 9W2, Canada",
-        "googleRating": 4.5,
-        "googleReviewCount": 10822,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "afternoon",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1e5UJJF0j1QR6VpPNf8TYiQ/photos/AcnlKN3b5VUgC-CCxJk42OVHDOhyekRfjinRtHjA1TKRoayEJha-pAFL0DBcXwL3hA_Q-iuHVJtclDNSgWxPGeEj8K9HmVHFnJCPoHDXVWkTnXZ-Wz2ehudvn9bMY0rfzEQkLyW99GIwl4N1pwY_GdE7TPLBRQZ-NCGX0ol2krPGEjobM8f99FtYZdzbsTBfVLeE63A9DcKJ_HfDLRcVaPw9tnYU7SeFjkqf2dRICk_X6G6Cz2Ax8N8YahA2TRb9OwclrfzemdvkivwcN6-xK-Zm_bujVI3qGOzyXp2W3Gj6cKdBLVW5O0FaB7a8Fi3HwkaBbV6880uUUMZHBC3I4N1FyDKCs4ECny-HzOUrISTBO0fq1gxrMskQbID8qzRZr2PAKGzkO-EWapGJt-_MEhNiAIwlYhVg53qLx5bTRG2slUpZ2w/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.royalbcmuseum.bc.ca/",
-        "googleMapsUrl": "https://maps.google.com/?cid=2621679919915031273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:59:38.941Z",
-        "updatedAt": "2026-01-23T15:59:38.941Z"
-      },
-      {
         "id": "ChIJnaNpAaf0fVMRkOxybSlHS0g",
         "destinationId": "kelowna",
         "pathType": "cultural",
@@ -2888,26 +2846,6 @@
         "updatedAt": "2026-01-23T15:59:40.226Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "kelowna",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2zzuEye-k6o-p0_r21g_8ls_Z6izW0K5fHPi69D4h7JT5Bl8h-yrhD3siMLRpKLbJWjOnn8ojyuSBYVdBObvPR2i1NtK0o39LmEmH64-AxCTNkvAEozBcRMlXqtQJLJK2Hb9vkO3LOPiFV0gLly2lZ2oLJogERIxViRC5a23_Gtpb_Z9Ky7Mq7NLz8t16tdB3SDB3JWDULqSG9NRoB72081cYx8WGAml7PXnLKZE3aTPZzTnWvrVmT5h6O3DlS06w1Qfc4KGVBjXHklf2Iu3RnSTo1NhQOUxCzl21Y0zLcWlRBxcCTEdemnQurzG8L8Hvcj-5ed69sf8oC1jPBGQzTNVIIf9nBumb9LDxw4cUsQXrdTnMlF94_cAJv7Fuq7GI3Z0V7MYmMSahzEMN3QiWbhYTLj1nn0kvvEqdDBDN5s-dN/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:59:40.226Z",
-        "updatedAt": "2026-01-23T15:59:40.226Z"
-      },
-      {
         "id": "ChIJVd81XM6MfVMRuxsRHERgAy8",
         "destinationId": "kelowna",
         "pathType": "relaxation",
@@ -3843,27 +3781,6 @@
         "updatedAt": "2026-01-23T15:59:42.574Z"
       },
       {
-        "id": "ChIJpXpXtOMdiFQR02eL86IdkZY",
-        "destinationId": "kelowna",
-        "pathType": "trendy",
-        "rank": 15,
-        "name": "The Hidden Gem Bakery",
-        "description": "Coffee Shop - highly rated",
-        "category": "cafe",
-        "latitude": 49.865580699999995,
-        "longitude": -125.12645699999999,
-        "address": "2169 Regent Rd, Black Creek, BC V9J 1A1, Canada",
-        "googleRating": 4.7,
-        "googleReviewCount": 39,
-        "suggestedDuration": "45 min - 1 hour",
-        "bestTimeOfDay": "morning",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJpXpXtOMdiFQR02eL86IdkZY/photos/AcnlKN0LhCbDwEdailfX5j99uYnnmvC_2oNkqJi3SkedzbyrQ73QnJS_4b8sUQhjko-K89v1ZG7-Hl9alUs0eAXBnI_41gjhHi8ABNWQZP7KWkK8oeLi1D9rQtvnH10H1XyVQWG9KZ6d3W9C_tErr3YmKcsiPJ9LYUz5LsZqySQKfv5HSrpDktGb6E6A_-pHx-SQWL15W3Jr43jBppUQ3Ij_xkDGvzI4Sa0HGQxBAm4ORz_Cz3UKLNSktAvx8xMD-6enjO5WujOb1GpHzeZvj0vx5QhOBd1eBZyJ8pjByHZxCo0Kx_Q-m5TlNQ8Jvlc3dzUsnZwRK6332UH9XJ99bxGMFPUAMs2-ualU40FN-wCxbVE5Rk_jJfyG6XM-qkMNFY1-tv_1dzBB-QpyC-ngN6-FHeKhm5g3pfXgfkQjUavvNt8p6g/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.instagram.com/thehiddengembakery/",
-        "googleMapsUrl": "https://maps.google.com/?cid=10849485563020142547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:59:42.574Z",
-        "updatedAt": "2026-01-23T15:59:42.574Z"
-      },
-      {
         "id": "ChIJwT5g9QH1fVMRSaVSWTFqMUg",
         "destinationId": "kelowna",
         "pathType": "trendy",
@@ -3930,5 +3847,5 @@
   "lastFetched": "2026-01-23T15:59:34.846Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 185
+  "totalPOIs": 181
 }

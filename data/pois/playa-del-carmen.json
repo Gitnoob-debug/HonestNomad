@@ -2755,26 +2755,6 @@
         "updatedAt": "2026-01-23T15:45:55.119Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "playa-del-carmen",
-        "pathType": "relaxation",
-        "rank": 25,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN0hzSFhlFqcXoCD9Szgh3AExTp30rkN-YUMjNMvVVxNtwawodwqzFdDPTWyM8FYi_1TM5at1PL4GBrafTUEE_I3y6GS5UjvdzX5pRsnMf9HtzHuaDPPeYybzGPksEQ2DQ_k3yEhPMXVOX50LBnHQSeROGLZIvR5OP3u7rs37e96U6sLqMynBuO8jlExjnS-qo97buJj7Ity_RPkeagSwKIJ5riVPQskQC0q1y_Wifo-bKxdKcM0bN3ApsPfifA5c5Rl-pJPgdJOeUbO8LbZu7RZJYMvNrLPJ6-eaciH_b1PT_MJ8Ej0Mxsq1rofQgdArUDTsv5Y1yQpMhw-ogdWEuWo1e7LEM0DBveKbASVj-NXtVZwMbHJ72zb5n4wp12gAI4ULCBRr39Sm0VE8qtx3RXsxq0GMkoWaLplAOV7c9RAd8zV/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:45:55.119Z",
-        "updatedAt": "2026-01-23T15:45:55.119Z"
-      },
-      {
         "id": "ChIJtxjz_5BDTo8Rgxsve7m02Fw",
         "destinationId": "playa-del-carmen",
         "pathType": "relaxation",
@@ -3827,5 +3807,5 @@
   "lastFetched": "2026-01-23T15:45:48.961Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 182
+  "totalPOIs": 181
 }

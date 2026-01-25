@@ -259,27 +259,6 @@
         "updatedAt": "2026-01-23T15:27:47.375Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "wroclaw",
-        "pathType": "classic",
-        "rank": 13,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111483,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1Fx_qyKT6ev_AMm5g2m8Hb8rqCONKbKI72kWnpN8fhn7D7cYZG3fF1AAd1aBxL77BIJc81kpk6VqJp6rtRcfzISy99Xem22CY26Q1Kmkc6twIBlDb_uWkxp_OZRKviIcy1xIDdbksMAZgqT_cxanG0nV3-OcicVIu3y1ayLCFV-ST5H8qcxlFE66Xw-BlzvzvvMW4DMIsXY5PrWb0KD5naumS2kylO4M_ICBnKc-8uYtor0Y_qIIozY5_hJkwn6zXeHpW3fJobZA9fhndyhd1fk5H5aPg7NtUyBkV4p_djKg4fy1Fkvrd9RvsmHgYS_yirnbmnkVZfKCbeiGssZIQ8DLygk64C4J8Mm426V4-SIDmxx9MkPiBeBd0Ng-w1NIqi69JTuo_QTruXMHKW15pOzTZ-A0f0ZIHfTBk2biWgVg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:27:47.375Z",
-        "updatedAt": "2026-01-23T15:27:47.375Z"
-      },
-      {
         "id": "ChIJmTXuq3XCD0cReGWnLgmybeA",
         "destinationId": "wroclaw",
         "pathType": "classic",
@@ -4120,5 +4099,5 @@
   "lastFetched": "2026-01-23T15:27:46.782Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 194
+  "totalPOIs": 193
 }

@@ -1578,27 +1578,6 @@
         "updatedAt": "2026-01-23T15:43:53.274Z"
       },
       {
-        "id": "ChIJN2ZfOxp8bIQREOyrvgct2VE",
-        "destinationId": "boston",
-        "pathType": "adventure",
-        "rank": 14,
-        "name": "Adventure East",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 42.46632880000001,
-        "longitude": -72.5808807,
-        "address": "11 Bridge St, Sunderland, MA 01375, USA",
-        "googleRating": 5,
-        "googleReviewCount": 307,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJN2ZfOxp8bIQREOyrvgct2VE/photos/AcnlKN2mgaqf013wCTeGV04Ij0t1hm5pMps7pz7T0ieyzsaSw8ffX6TBHnm_BqWHWcvrxmF23kFTs7jKVXcYsnBQ0-GE4f69eOE8WfkOzMO7SQhB--X5egppa5oJiS5BMgengU-nsnNMf_oYNtpXNtDn6dUMNK9ADimDdHieTEakt6AhfGV5iMyE0hvfBoKx0GAKpAa1M_m6iEsefrX47Whgns3EAJsCEzAEgwMDgybKDbpQRohzFeIVl0-1OSohA4BVqxoNIAkQiF89tu-SCebY4NzwdJ3aNxYYouu_GiOtDQiVhw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://adventureeast.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=5897794698305334288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:43:53.274Z",
-        "updatedAt": "2026-01-23T15:43:53.274Z"
-      },
-      {
         "id": "ChIJWbLezeF844kRKbPLOYEGmUI",
         "destinationId": "boston",
         "pathType": "adventure",
@@ -1886,26 +1865,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwwu0mox744kRLdzofeaGYMM/photos/AcnlKN1Bd0hVg0iqlc1KzVfzNdC5ket-CiYyLRhMj_uRrpsh0jgO6JZ9CZhX12YqifRVECO48BR7U5Cz91sK7gMl5WR1PSG0Ewv31VjriWg9GYlTsgvECZiJb2XgSION4WMLz73F22oTsPgNO8X5lj9m3Pz-2br3HdSqk2ihdjfmWmN-QJzjuB7b6W5ZwrMWpSASMTN8vCX-lQBsad-vyh7Ztt60twrhNMQ1WRqYtNgM9ygawaoJaBzMiQB_fVQWvUgs9E1rMDD-pcHoKcFCKLkWAoTm1zuOPkypAjExjrmQJ1RUTw/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "https://playactivate.com/boston-south-bay?utm_source=google&utm_medium=organic&utm_campaign=gmb-southbay",
         "googleMapsUrl": "https://maps.google.com/?cid=14078400759673183277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:43:53.274Z",
-        "updatedAt": "2026-01-23T15:43:53.274Z"
-      },
-      {
-        "id": "ChIJsRrWfpAz4YkRnTcgknbJ1XQ",
-        "destinationId": "boston",
-        "pathType": "adventure",
-        "rank": 29,
-        "name": "Adventure In Adventure Out",
-        "description": "Consultant - highly rated",
-        "category": "activity",
-        "latitude": 42.474756899999996,
-        "longitude": -72.440265,
-        "address": "408 Montague Rd, Shutesbury, MA 01072, USA",
-        "googleRating": 4.8,
-        "googleReviewCount": 36,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "websiteUrl": "http://adventureinadventureout.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=8418856589533919133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:43:53.274Z",
         "updatedAt": "2026-01-23T15:43:53.274Z"
       },
@@ -3115,26 +3074,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=7158550267946271221&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:43:55.171Z",
         "updatedAt": "2026-01-23T15:43:55.171Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "boston",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN36dgriWvlhDlfucKdQNZI9__URq_z1ggZ-MKWYqW7eYD63eDp9arwG9cem6IJNXEnQXRTubPZwlLE0O2GEfiD_GHqpOqza3HiBGFla2ANY10GA_fYepZc09I_NW3PqfQ5Gw7pXCnrfsSEvkVTl8cDwejcfdnqXeFWiHVd0ZEiJ5qItQkcQuZXr3nn7tJC01uXdu2FlTUkMG2q_e7YnDO8U3qCoGUtMLO7FhQPY4GWnd29KetCGOJzGtWN0tpSJ0ljDUIxeMQzJ_323PNIfojGYbBvJNxA6aLcABvYK-PTpfaNaAYRJNK4jkmBX1w9RnJ2H2jUjwEczneVLBCaeSTCDYRxWJSh45YUnL77Gev3TkYWrAK5BhLehFX9MMrWSM-Qi_7nxgcn9yMRCRO4aEGsNNqJehu4SzuEcjigMONonNAM3/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:43:55.171Z",
-        "updatedAt": "2026-01-23T15:43:55.171Z"
       }
     ],
     "nightlife": [
@@ -4294,5 +4233,5 @@
   "lastFetched": "2026-01-23T15:43:50.060Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 200
+  "totalPOIs": 197
 }

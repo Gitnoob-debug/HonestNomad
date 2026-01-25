@@ -1207,27 +1207,6 @@
         "updatedAt": "2026-01-23T16:07:24.180Z"
       },
       {
-        "id": "ChIJt-S5TVeJ6RUR07Ig-5_MZlI",
-        "destinationId": "jeddah",
-        "pathType": "adventure",
-        "rank": 10,
-        "name": "Adventure Gate بوابة المغامرات",
-        "description": "Amusement Park",
-        "category": "park",
-        "latitude": 21.2794067,
-        "longitude": 40.4432313,
-        "address": "50th St, Aljal, At Taif 26523, Saudi Arabia",
-        "googleRating": 4.4,
-        "googleReviewCount": 1423,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJt-S5TVeJ6RUR07Ig-5_MZlI/photos/AcnlKN0I_dUmJHK1p1VMq_z1L2JtVd364F5qBLVeZHCAYDKtjOc9ouIIV9ukSpSLtOSbVymMZTLvQhIg_RFJ36LS2chxmvLQSYNgclhpIzwYv9XeCkcPUQ9PGUIp9N5zOfMKjqsiHNSW2boe9Jzzm0dDpRRNLAfWaOPybemp0VC3bQSTljXWhd9PToOMMY74nLdBgWYW401PNP-YVJtd0jjFtwi9cE_sb_aglp9cQGoS0VVuwlfg47XRKWWb10opoFkRtZroiRVsNhHW9JrZb1EQuvx3CENZSWklwLlRZrIhhfStgA/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.marah.sa/",
-        "googleMapsUrl": "https://maps.google.com/?cid=5937658146219668179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:07:24.180Z",
-        "updatedAt": "2026-01-23T16:07:24.180Z"
-      },
-      {
         "id": "ChIJYdBPYRrPwxURlQu86sJ1ygc",
         "destinationId": "jeddah",
         "pathType": "adventure",
@@ -3451,5 +3430,5 @@
   "lastFetched": "2026-01-23T16:07:21.435Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 166
+  "totalPOIs": 165
 }

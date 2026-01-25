@@ -175,27 +175,6 @@
         "updatedAt": "2026-01-23T15:51:43.589Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "quebec-city",
-        "pathType": "classic",
-        "rank": 9,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN2joOr6sSS8L3-OhY4y53XMyoKur9WEInB2QwW39ZPWpM3fGIolzXu3g3kzoeDL5bSBiUgVjDDa3dAIgrW7iT5RvtKVXlyRxlaemDMa5Wv57o08DS-ORsgsVU8z6Wt4g-xFPgDSQiuTmpiq_35k5Mohx_HTGW4kKwCS_s1HRpThs5VLlZzcnUz7oln0ZAPZ1bPL0OuPLlARQBC5BtS-DRbo97O9-KmRSKc1L2H4KFqulaCBR9FRCi4dnqFqW0CMtW9fmC-hdeIsg1PuyEC9nJOYYkiQOzP5pXWdNH6k2wzwzllX1vm1k0-VJrjVJHEHwNQb0_A5iD2glc9avqDhu6amMRlYErEk1K6Pd0dq5iOpYnHIoGRFL7IgqBrwYrbLt3y6K90Ux5--XdrZGdGCuuzpEXzURJkNYeI3-UfWBnE1mw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:43.589Z",
-        "updatedAt": "2026-01-23T15:51:43.589Z"
-      },
-      {
         "id": "ChIJO_wtXNqVuEwRBoNhbzRrcZg",
         "destinationId": "quebec-city",
         "pathType": "classic",
@@ -1547,27 +1526,6 @@
         "updatedAt": "2026-01-23T15:51:45.960Z"
       },
       {
-        "id": "ChIJCducFPaMxkwRN1VBbhKM3I0",
-        "destinationId": "quebec-city",
-        "pathType": "adventure",
-        "rank": 26,
-        "name": "Adventure Center Mattawin",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 46.9011275,
-        "longitude": -72.938279,
-        "address": "219 chemin de la matawin, Trois-Rives, QC G0X 2C0, Canada",
-        "googleRating": 4.5,
-        "googleReviewCount": 182,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJCducFPaMxkwRN1VBbhKM3I0/photos/AcnlKN2SQQDPIQIXtSuznCEoZXvNq5iNRyisbpA0KsGArulJa3D-mvyCLqTSJW5JqzSu-GefPTozqRCWu_WVS_BKUgfaPWADqkdnxoPz2e249oS-6S3SVZE0P4eYS6o3lxbVdvFmdRuK5izzSC1Sdi1XkrR9imAVqOzeMX3wWvrHvrpMM-Xs6aF7zmwdkJnhz341vre8K02KLSq7cooketloMoU3tH1ucmGPzjn897zoiq90a-8HUZlKhy-m4ERC7kpxWtw-IFeyG357JCtdiKvR4ESyOrLIHUTgD6m0rhsgg64Rmg/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://coopaventuresmatawin.ca/",
-        "googleMapsUrl": "https://maps.google.com/?cid=10222199265011258679&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:45.960Z",
-        "updatedAt": "2026-01-23T15:51:45.960Z"
-      },
-      {
         "id": "ChIJaxBxMQCVuEwRA2mIMkYdJ7Y",
         "destinationId": "quebec-city",
         "pathType": "adventure",
@@ -2828,26 +2786,6 @@
         "updatedAt": "2026-01-23T15:51:48.112Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "quebec-city",
-        "pathType": "relaxation",
-        "rank": 27,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3vOJPJh5eQy4qUcY1ZZ7CXR0SA5plc1l-KosqyD7Xc51hbJSjyeAUqEmJQSmVC6N7UsYADxwcctUz-c_tI3fiDkyeFX0vIjIIvc2riKZKs0AURmQpdStTbW5vgARw3upGpwGj5xE2McZopLUACPlLSmTEuXlzwu2vjvhYnnxFc7-w6hpzVLXD3LkRpKooaLhZI1QxpN2WKBt491d6Rh1GZT1wxr2nFOdQwFqjjGT94DXZ7T4keTVT_jAyPH90nt3aQbU0ogxRnGLUlkFGubhMWBMEgyd82T0q9J6-9nsO4b9F3euHb0_cZHxZXnT67jwsJZ2JYdwe9Uhhw8oR-6y4tI9EpH1IL3KUSC-Yrc1K2-O8APS2gbFeT_8lOJaY99r6-onSeAajLnyGPQODv_QlXkwvvfmNxMUyaVHP8Lxq1vL2I/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:48.112Z",
-        "updatedAt": "2026-01-23T15:51:48.112Z"
-      },
-      {
         "id": "ChIJ4SLt0GeUuEwR_QRIVfkZ4RI",
         "destinationId": "quebec-city",
         "pathType": "relaxation",
@@ -3976,5 +3914,5 @@
   "lastFetched": "2026-01-23T15:51:42.631Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 187
+  "totalPOIs": 184
 }

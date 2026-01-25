@@ -132,27 +132,6 @@
         "updatedAt": "2026-01-23T15:56:07.330Z"
       },
       {
-        "id": "ChIJrWJnvbSRhYAR-a__aHZY_3o",
-        "destinationId": "carmel",
-        "pathType": "classic",
-        "rank": 7,
-        "name": "Muir Woods National Monument",
-        "description": "Scenic, forested park featuring giant redwood trees, long hiking trails, a visitor center & more.",
-        "category": "park",
-        "latitude": 37.8970199,
-        "longitude": -122.58111769999998,
-        "address": "Mill Valley, CA 94941, USA",
-        "googleRating": 4.8,
-        "googleReviewCount": 19899,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJrWJnvbSRhYAR-a__aHZY_3o/photos/AcnlKN2IOxtNG9eqZaqwzNtHIpSulXE2KgOuH4eQ069Pp-bjpUOtFunwhyqkAbpiLRhVbXyYX88nVOWNKe3CNM30Q_j2uOA_fQ9XO6-2sxi5tJf8Eieqp1AUBVIe8BxhVGM3QrM4ESdy0dcR7MiNj5b3efEjCBqJP32cTTNDh_ZcWOTrUuLlfG1MF5WYLgTuVsbdRmEiUKT5pYPEpHq3ySLEx73WUM0KvE178dOCCmtOzjlbN8wGisO1XvPOX5Vujn52AL5er9GrCLO_TiNtCSQSUzCsJ-QHbVYq8YpZpFWPvYkzNRYtB4-OldtQa-oQP73WMz8S9wOInyXbHUV9o_Lc7DH0WzLLfUoW5Uyuzrxmp0wEXvdcNnU1siYe26oq49_AhkKGfzmXP9LW5OIbF1_OdHxq-u-QQxFEAuSk66VNeGbjVbG4hYDap73_5ej-lEbo/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/muwo/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=8862899857279397881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:56:07.330Z",
-        "updatedAt": "2026-01-23T15:56:07.330Z"
-      },
-      {
         "id": "ChIJoZROWzrkjYARvQ9JWOVGoms",
         "destinationId": "carmel",
         "pathType": "classic",
@@ -1785,47 +1764,6 @@
         "updatedAt": "2026-01-23T15:56:09.870Z"
       },
       {
-        "id": "ChIJNeZZarh_j4AR38x_WMcqVqQ",
-        "destinationId": "carmel",
-        "pathType": "adventure",
-        "rank": 25,
-        "name": "Outdoorsie",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 37.7614636,
-        "longitude": -122.3884795,
-        "address": "2225 3rd St, San Francisco, CA 94107, USA",
-        "googleRating": 5,
-        "googleReviewCount": 2,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJNeZZarh_j4AR38x_WMcqVqQ/photos/AcnlKN2ihfMmNVv6NsQ9LyQ6DC3NP_NMtQGMqczea8_BtCUCsFQZ-i0MzT-QzhuUWzva2znsQSE5PUtts4G0RXn6oybiPdMoNaZR3rFdovZ_N8b7IPjcCCQRDnZxxrxFYpDDAI0xsqu7EtGS34Tgtz2oFW7ENKbDri28mF0OULUOJ6JlLCR1vviREhirkeL5bnEs9IdEQLTFHAaSL5Ay1__EprqjLn3DdHFlG4aZBivRX_9IjK3-1zSZldNgYcQLpS3o53aX9RKFaOol1RzY8L1n-Par0WqzVO3R0dW9jcNNPN8QMw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.outdoorsie.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=11841699305888926943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:56:09.870Z",
-        "updatedAt": "2026-01-23T15:56:09.870Z"
-      },
-      {
-        "id": "ChIJrbi4yu6BhYARmOb5vlb-fPg",
-        "destinationId": "carmel",
-        "pathType": "adventure",
-        "rank": 26,
-        "name": "Growing Wild Outdoors",
-        "description": "highly rated",
-        "category": "activity",
-        "latitude": 37.7988573,
-        "longitude": -122.4355648,
-        "address": "2181 Greenwich St, San Francisco, CA 94123, USA",
-        "googleRating": 5,
-        "googleReviewCount": 1,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJrbi4yu6BhYARmOb5vlb-fPg/photos/AcnlKN0ia4-0KGgw-PQhx26HywnFLXvK3xPKti5lASOETjn6Ikzml3t2P4Dj2C4PEL3MAOjM8GybtMP-Io2ehF7nbq4VoTAxhLGwwkR0NTOxXCGf8BOVBBNBNf-v_cGQcJq3bXlQsHlGYcZ3cv_oP-WpuMQ0h4oU5DxJfQXoLHmlhXuJnoe7lxp4uFzt-sj-01nV5kBer4Tox8QI31NaTKI3lCfRba2eHcjrVK82WuKpOdEzY8hSv153P2ia3-jQLmcC3L_9MBljcI3zgONwBajJi6mfKT1a0t6ySGQIsEzk0Mxf4w/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=17905465867042940568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:56:09.870Z",
-        "updatedAt": "2026-01-23T15:56:09.870Z"
-      },
-      {
         "id": "ChIJAQALPRnljYARKGgj7yQREzc",
         "destinationId": "carmel",
         "pathType": "adventure",
@@ -3145,26 +3083,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=4486521487302482011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:12.325Z",
         "updatedAt": "2026-01-23T15:56:12.325Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "carmel",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3mglB4Ff5svWzRcwZmfQseSHz7k3qR6YyShpoPrr2WIWA2I6YSnWJHRrtj74GJcEI0TgdxquAiYd3H_hEk4-Afg0kWNatqtS0tvecVYBJE3AWPfAUDtBcOXR2_1Uteeedx9Xva7BXBhcXMu-86udNAlC_v4u8amvk_bd-l56aHPiQQglY5A8iQgwloj2dSemokNQAWOGaQQm97z2LTI-ZMFfJrJAaX7i4b6F-QbpoU_M09U8vk0vZlAUub54j_E1Ojs07DLOrZPeGudWIQ74iBM2CRHpWWvAy7j-f_P0aMJyTIOI1eIsq5HjLsTSJjynkiTxpr0jAYnDh2oLNpE7tPqX-4sqv37AgfdFFRysuOrmaPEeCAxIf-MfVGSyqdP0hYZnPpC2a-45AMOJA6qbpxfoZB09n6TeN3HYdAVyZBkrFr/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:56:12.325Z",
-        "updatedAt": "2026-01-23T15:56:12.325Z"
       }
     ],
     "nightlife": [
@@ -4295,5 +4213,5 @@
   "lastFetched": "2026-01-23T15:56:06.655Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 202
+  "totalPOIs": 198
 }

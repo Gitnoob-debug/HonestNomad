@@ -259,27 +259,6 @@
         "updatedAt": "2026-01-23T15:44:24.278Z"
       },
       {
-        "id": "ChIJX4k2TVVfXIYRIsTnhA-P-Rc",
-        "destinationId": "austin",
-        "pathType": "classic",
-        "rank": 13,
-        "name": "The Alamo",
-        "description": "Small, shrinelike fortress & monument to Texas history with a museum, artifacts, gardens & more.",
-        "category": "activity",
-        "latitude": 29.4259671,
-        "longitude": -98.48614189999999,
-        "address": "300 Alamo Plaza, San Antonio, TX 78205, USA",
-        "googleRating": 4.6,
-        "googleReviewCount": 64838,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJX4k2TVVfXIYRIsTnhA-P-Rc/photos/AcnlKN0d0C5mhekQgrWPTqngLpsY942rDaXh8Fgjf2xa9qZ5Te8pK0Okb6UrYZS8cr49LRh0av5OpCmJlGAlIJogUizyQztB5wVreENqgQ1stKhplewteIowfqncHzBDUG_yBB5W1eEaj56C_-zfEcuETE2yRm6G7-MOjy64xJk7XuNnzQOLrgDOxrVtPJSq7LMUFx5gya21WoLLUNZaWDq98KDRJkT0dzeGoyEC-3IAp5gw-n7L7q6_W-TVlr1G5ov_YxDpp5fTfIMOTNIyaDaKzoGMj1sOVhQee6MEJdPzRRBSYG2i84YStIEGzUV8rgqxuuf7g_wfhE__jPX8BX2_ScvL4MkKRoYbgWwd5PlLjebemd8iQw5133jymfYkIeicswrCW9RrtuLUBpVJTnyFg--B7UBkQze5xIt2pv-t0xI/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.thealamo.org/",
-        "googleMapsUrl": "https://maps.google.com/?cid=1727569228890358818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:44:24.278Z",
-        "updatedAt": "2026-01-23T15:44:24.278Z"
-      },
-      {
         "id": "ChIJCfovQivNRIYRkNWw-puG0Q0",
         "destinationId": "austin",
         "pathType": "classic",
@@ -4329,5 +4308,5 @@
   "lastFetched": "2026-01-23T15:44:23.666Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 202
+  "totalPOIs": 201
 }

@@ -2649,26 +2649,6 @@
         "updatedAt": "2026-01-23T16:11:01.955Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "ghana",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1ocWx0iULmNpqV8j5qmmM4Ycy7Ho7h_NNhSSeDeXWGu56JNmlFxwikBtxydFDyeEIyqPgbuhlIkwRa3QFDXWZzIbZVCylbptk0easu-ft_AkaNwCjGMl3Ak8BU8KK5Gf8pNAyj0gK22wRreAYsEsRjDo8GMxLFODcizxHRuEpgxInEH9WUaZ0KahIGJQb7hGZiuiCOkkrueAkcyTavT0r2smtItZ4DJSWR2bOa8IMNF2uzCeVOLG5bQ20U7698LfQvlJKtadE1HRkmHg1HbkXjL4QwjZtLb4QgGwDRC42aYrUwAUZK0Zg0JtSCQPeWeFJKIRRplgfoUn3ams8E_9fgBYvHCb9lK0V-YuAelSY8cXrm8c5-eeENjIdD3s1czJ7uJRlgXPLJDnuSUrb0HIxvPfNkd3d_iFDGOEHQqvhEMnKI/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:11:01.955Z",
-        "updatedAt": "2026-01-23T16:11:01.955Z"
-      },
-      {
         "id": "ChIJYcj5KX-Z3w8RU8HeOB5mpTI",
         "destinationId": "ghana",
         "pathType": "relaxation",
@@ -3809,5 +3789,5 @@
   "lastFetched": "2026-01-23T16:10:56.357Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 183
+  "totalPOIs": 182
 }

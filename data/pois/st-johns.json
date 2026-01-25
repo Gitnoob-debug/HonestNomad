@@ -111,48 +111,6 @@
         "updatedAt": "2026-01-23T15:59:52.711Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "st-johns",
-        "pathType": "classic",
-        "rank": 6,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN0j1hAKqaVWUNrXh-icOOS65_HVz9-toA0wl_AukNT-5rBJY3Vs8Tt-_qbPDFV-dvyZuw2bbP_GUcxDN9FOqbOOj2ssIJcu4EBuAf62IkGjqEs33upx55Vy0fVSjf--lhk15yj7Eor1AZAmO4qZY1C0NNY0bRA6se6Xtk6PQgtvVNq21Cf1VUUySv4A40-EbstjYlls7W7xViMOoCxT154uT115x_hh4KAfNM30rAyBqL9XdTpAG0DgtFUhzAOU_69BIx2rFmae86vh2sEEtrqIthARgiHExKOjUuFIk5CkNEB19j76C-YeFqyuI_uqVDiZHn2R-2n3lS_Fl07Bqr78aD-UMGt3RmAM1rUTvCcdVq0-nmB4X3oHIT_7hKRyAu0tD8sfagpm4-J9F8h2qoKN5-Eh8Ecy07ibNheJ6L1Dug/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:59:52.711Z",
-        "updatedAt": "2026-01-23T15:59:52.711Z"
-      },
-      {
-        "id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
-        "destinationId": "st-johns",
-        "pathType": "classic",
-        "rank": 7,
-        "name": "Stonehenge",
-        "description": "Legendary neolithic monument made using stones transported from Wales & built for unknown purposes.",
-        "category": "landmark",
-        "latitude": 51.178881999999994,
-        "longitude": -1.8262150000000001,
-        "address": "Salisbury SP4 7DE, UK",
-        "googleRating": 4.5,
-        "googleReviewCount": 64030,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJEfYKhTvmc0gR3dLTvOJwkZc/photos/AcnlKN05lEHY5MYec4IdLpIB9QkYEAuD-2MF3GUbvYvi78J-ihUIArIEoxwCqQebm5s9ZPhbd6frxUMnc9jO_I0UnpAHQD0wbGqu9e6BO-CCrgDbY38BO6dQRx9PN_CJ0kFsp8TOGGHTZOkoALRIfDPjRGbHCk9Y3UiNkNz1qLlEjU9ePBqR1A2tCHkM8ipVc1psDTDxp7RtPEnwGtN9DOc6yMz25Ii8DbJcbHV6_q1S9rhXnNLB8JjL8lO1oRcy2rRw9LlmJaPxTaeVglWK5WcF7aNn_ri6Dt2Kzr8Zt-8Jt5mPDmHa75g-ClseRVZpZGX5SXyjus00nGQL8Se9FYvtrafYD5Uh_miqWgQbOEwRtFiPnVPPuiXDmubkzmgKjw8V1qfjR4aUxgqCDGSImeqqyE0hX8rF6_MNaRepwgINSrRqnw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.english-heritage.org.uk/visit/places/stonehenge/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge&utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=stonehenge",
-        "googleMapsUrl": "https://maps.google.com/?cid=10921634690483081949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:59:52.711Z",
-        "updatedAt": "2026-01-23T15:59:52.711Z"
-      },
-      {
         "id": "ChIJ0cWU3OaZDEsR_HFYWU4ueWI",
         "destinationId": "st-johns",
         "pathType": "classic",
@@ -2826,26 +2784,6 @@
         "updatedAt": "2026-01-23T15:59:57.647Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "st-johns",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN3aYDxVQWHDNKUJ1phakGbrMhNBrwJHAMjBwlW7A4ujx2FQWphPLvY5Oz7Ebxotlf_AzwgtZOAUZ_8LhibaL5HVq-AZpawi0IxTze3dDIfJknyTxW63A8iX1j5sx_VlS-hhENkUCd9VkAeruDvHVk8X0KrVyXDeiTWq5MtlAFmR3Twtcx6SP_rra-bZaOyBsnpX6UMTxXA8bU1oZxnYBef3B32mbixceL79l8SYF8eEuiBdEsD9W1eCK7uzK6265Bdsb1imIfWF0ARB2IgCphIwi9ldSs8fsQ1NFHI3gDd7K7JZy3bF5kuUFJlqYkDhKOkc3QyHui2sD9KFjuYChCnaKULs6WO2Ry9bBrIqX1soa___Mr2yFCCuowi97MxMy15qIGEZzYJlrCVV6JgYCbVa0CywpkNDfc5hRtqimoFVQHTY/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:59:57.647Z",
-        "updatedAt": "2026-01-23T15:59:57.647Z"
-      },
-      {
         "id": "ChIJa3Pd74-jDEsRk9UazQfV0RI",
         "destinationId": "st-johns",
         "pathType": "relaxation",
@@ -3774,5 +3712,5 @@
   "lastFetched": "2026-01-23T15:59:51.749Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 179
+  "totalPOIs": 176
 }

@@ -154,27 +154,6 @@
         "updatedAt": "2026-01-23T15:50:49.940Z"
       },
       {
-        "id": "ChIJywjU6WG_woAR3NrWwrEH_3M",
-        "destinationId": "palm-springs",
-        "pathType": "classic",
-        "rank": 8,
-        "name": "Griffith Observatory",
-        "description": "This art deco landmark from 1935 features a high-tech planetarium, public telescopes & city views.",
-        "category": "activity",
-        "latitude": 34.1184341,
-        "longitude": -118.30039350000001,
-        "address": "2800 E Observatory Rd, Los Angeles, CA 90027, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 16918,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJywjU6WG_woAR3NrWwrEH_3M/photos/AcnlKN1UVe98PENgaUcT4LdmSHLaFMbU3jBGrZ9U8Wh87h3hc5ee9SDSe6hHSxq_zjesUoqMN_Iny4WPxigbc-PM2iWSpSWv2yDf35jY0e0uyeP1NcLrEux6JQhIxmROaBolagFMl_qZcEp19p0pQxTW8DbkyB5ZhMtwncQ6GlZWP5360YLU7Sw39YCS2CzYjigrGOzFlaEGdGYbqrDVFphCEZizzyqw95ozgFqLjXxIsOW-7_XLsp43XJ5gRHA0Y1ZBL7hIelFedsXTSwRxFFhK5QogbLQx1MOhS4FVyeJKOC220fXihFDkNEo9UjvHDAwP5kYKr0q-SKHH6Nbuy0GdVMEnOfHqikjdxRFAosNiIfnhwTP7PCOObliuOWLgrBQaJhTQYYr8wPBcmgN-Azd3gkUjNnyDPn5Lqn645z6krPCkzzYqfJ7ZkxH-YH8UxVzH/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://griffithobservatory.org/",
-        "googleMapsUrl": "https://maps.google.com/?cid=8358407893482396380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:50:49.940Z",
-        "updatedAt": "2026-01-23T15:50:49.940Z"
-      },
-      {
         "id": "ChIJt3KFQ8gE24ARncAVlLdqzSQ",
         "destinationId": "palm-springs",
         "pathType": "classic",
@@ -381,27 +360,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJvQertMAd24ARmXQDRqAi0VA/photos/AcnlKN1aYwFRyMkHCRYFhL8VvoBuGs7QEFJoDWBhpf7lRaU0rMuxq4XiYxAibf-mK7ppPP2lp4tRvVh9OcmhhrHL03e9YtkUX_Ea1AQ_SN0oaZpPh_HPOziR9MH0siuIsq3e-Wn8p8qrKrjraEtxlPbmw4siAkl4ZTLVoHXgT50I5HIPmm3ylKRSiNmOsvl4aCfl3_djmCqfvJMoCOalId0pmCfOC49Mv5PdmeU6OhLOAnOPxXGg1cltWecL9VqNxW6cbMhW0Gib6H-XHpOj_oF3a05F0Gb6sKcBYCMLUaxLqC7tANtLgxcn5xjX1iXBIAUrTFIxMPBntlixgfKjI9EKbPR_8SQx2prTUMhLvgEPUEAfoTDr5NRR9UvB7e1At_IMgSmRKbvTUqqTONuNlj_r2sfRVIcERmZ43VZuy0V4nK9-Oebrl7YxtDRkihsvL1LX/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "https://www.visitgreaterpalmsprings.com/blog/post/your-guide-to-shopping-the-uptown-district-in-palm-springs/",
         "googleMapsUrl": "https://maps.google.com/?cid=5823473864931505305&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T15:50:49.940Z",
-        "updatedAt": "2026-01-23T15:50:49.940Z"
-      },
-      {
-        "id": "ChIJXyC7WTu_woARPvVMCHBXd4U",
-        "destinationId": "palm-springs",
-        "pathType": "classic",
-        "rank": 19,
-        "name": "Hollywood Walk of Fame",
-        "description": "Famous Hollywood sidewalk area emblazoned with stars & celebrity names since 1960.",
-        "category": "landmark",
-        "latitude": 34.101605899999996,
-        "longitude": -118.32956940000001,
-        "address": "Hollywood Boulevard, Vine St, Los Angeles, CA 90028, USA",
-        "googleRating": 4,
-        "googleReviewCount": 60197,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJXyC7WTu_woARPvVMCHBXd4U/photos/AcnlKN33afEPbpQU4rmssAaEE46J7yk8EAuGX9Bj7H7u6JBvBjPn8lU9ErGq4qJaQ0ZjkD9QSZa8UiLKsxT80RdQWMFK3EUhl4JY1L5Ce-LHH-MpedQHua4qJkrIf7NYUKxLhV2FAuqfDifDiRPZ-gfhxvJKheYoToOUogSIuboSt-sxzpEqGGD62-_ipKX49UTWNR8P9eaw--NcRsu4snEEER7Nx9SgMB01dBY8sfREYcgUtItRItDFN6zi-g6D2sNkeQkEhI6CAl0g3J-jf7JVDcRDy55EMmNZjBu5KTRa9mQPVeotJ04LIPz5pK0E8_KZrRleEg9HwNd5I_C6J4Hg2iO3r9aoqG53zC07j5jEHMMPN8NExbsC3H5OTlI24I1y0e9MQJ4k6aDYMzoyGsfyS5GIzxp2Fd485ZrevywD18nPQdk/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://walkoffame.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=9617251667960198462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:50:49.940Z",
         "updatedAt": "2026-01-23T15:50:49.940Z"
       },
@@ -3040,26 +2998,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=14998473113549462800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:50:55.216Z",
         "updatedAt": "2026-01-23T15:50:55.216Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "palm-springs",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2A_zegFU6fBBaBa1OjcjPAM_20xRAMP92XuPOn0lNO4lOht2k1SSwdLUo3hn2oZPNlHieQwoO13GdniBUjRzK9bM23N7kB4NeXc4v1BFgpYv3zS2oK4MttGcZzuLqjqttHQu05N_DEIO26Zd8c3O_3Z0Ps-FHd3PHwamAZyqyjW5XCyXAQSVGNQKeZBu-BKiFnY5RwcuImLaTWLTYMV7r3b5ehBehOw6at-O77pg-ePNXXqnjEFP6vaN8X5oLdk0JGn566OJ6REZtDXMuSXy9e0LSnVo666T8xAn21oXpyVAlphUAXBAIwg5c4loYbjA0cC47gg7VgMQtsvOcaJvJ2k-Uudju5U2J7Dt1xFJZzxYFJ3FnfCxCfF0tqif_CsUmH2C971e1Ax_2CtsJjjMpGabFZhpRrCrcII5BwjWd83KV0/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:50:55.216Z",
-        "updatedAt": "2026-01-23T15:50:55.216Z"
       }
     ],
     "nightlife": [
@@ -4039,5 +3977,5 @@
   "lastFetched": "2026-01-23T15:50:49.242Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 190
+  "totalPOIs": 187
 }

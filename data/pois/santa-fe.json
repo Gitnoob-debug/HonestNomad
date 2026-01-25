@@ -1221,27 +1221,6 @@
         "updatedAt": "2026-01-23T15:51:19.215Z"
       },
       {
-        "id": "ChIJ2Sq2GqICPIcRZuozMZYI1DU",
-        "destinationId": "santa-fe",
-        "pathType": "adventure",
-        "rank": 2,
-        "name": "Durango Rivertrippers & Adventure Tours",
-        "description": "Tour Agency - highly rated",
-        "category": "activity",
-        "latitude": 37.2516311,
-        "longitude": -107.8747132,
-        "address": "360 S Camino Del Rio Suite #200, Durango, CO 81301, USA",
-        "googleRating": 5,
-        "googleReviewCount": 4303,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2Sq2GqICPIcRZuozMZYI1DU/photos/AcnlKN3E5MPFgSL2pmYbAAWf624kvkRyKhqC_FILaY_xcwfHO4HcLlMabf_z2vypVGg2qItzNRC0tgSlT5MFdYuvlMJ_9fcH9jI5lsZIUUKrxyrTTTQLMlKb0Ci05CNg9GkBmjTcSKVFdFK8DqDoRBnjm29HJCh_Sfh85JEn63bu0P7VCevgLWdVlyp07m8uIKh_iel6oCigAvFlyL_0USKhECQ36CJ92WuzW5gOMF4neoi1C9wEutvljm-27f4m1yHDQmskZ0KuO4n6mCxXYjW4zkGzwiUjBy-F8E89w_axfnb05A/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.durangorivertrippers.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=3878734620236442214&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:19.215Z",
-        "updatedAt": "2026-01-23T15:51:19.215Z"
-      },
-      {
         "id": "ChIJbz8PPEhQGIcR8YhER6_XJf4",
         "destinationId": "santa-fe",
         "pathType": "adventure",
@@ -3009,26 +2988,6 @@
         "updatedAt": "2026-01-23T15:51:22.010Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "santa-fe",
-        "pathType": "relaxation",
-        "rank": 28,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN1C_SWlq9Kglna4taLx4v2geWn988QDAibzYZfzf6a7Ly0-idwaPLO03_I9ad-srpYozVcBkyiLmdrOu2L8XO1CgBWr5oOpb3mie2yLG2V-12L0GjGP3nQ509hMuwrmD_FYy10ktluuJ7iOU6nKlxfnngIRyfIkLEL-PaeWlYDCIJe6v2u4nb6IJdIBe4U9abslFph8IFLWx2VwdvmMus8wMJQl0pdHj0zU1NhY-6M_x_85RLwOlrCCrrE_KJECVDDRNkDqXNH8gjES0jpHA2LUYZN0ILAp2nPQcEp-D1Y9OJJhG-SYlwC7rLOJWrfP0jH_chvmqT8NHM-ZZqsjKZr7mKkExBU5gSZuCOcGtTzpOvj4fQ--3SaQCD8bTZDYNlzqztcGeioxGJYbpG8VB7t-s0MmlZeLHBXJr8eZBTSOVtBe/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:22.010Z",
-        "updatedAt": "2026-01-23T15:51:22.010Z"
-      },
-      {
         "id": "ChIJO4rgSgFRGIcRDZCzp1QwH4c",
         "destinationId": "santa-fe",
         "pathType": "relaxation",
@@ -4279,5 +4238,5 @@
   "lastFetched": "2026-01-23T15:51:16.162Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 201
+  "totalPOIs": 199
 }

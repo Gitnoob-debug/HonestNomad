@@ -151,27 +151,6 @@
         "updatedAt": "2026-01-23T16:00:21.113Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "guanajuato",
-        "pathType": "classic",
-        "rank": 8,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN2DctL96vYcoH98lBK5ojbVC-Rj0YqBYJgOOuBW-AstS0Ri7jzjsj5IpNKhuXeO2ZThGmuoIgIXqtbyJnmZ8yKquGdZpf6ZDs-I_mGPJADlS7rvrpBGbY_0xc6xXvWuSbi07A9aEDe9p1lnKaqJ_RHd_bJQfKt3xrEsoeEOspDHM_2ThHxHB4PT_E6_eugUTrigMtUAnsTDRGLdsSvOtgCqypUfvlaibjfbLYQDWqzXEZmUUGUMKRbb7shRQJ8sdPV2MeHwRNKdpSxIoFoNSANeyDbFbPHizv79C61f9tZMf8CyRar0SSusMWtlAA4UxC9NoxmooFpD6DeT5PTnfxkJRbit2cPTBTNtESJIIb-szRETMeHDIjzk1hUb0rcTGa5TXWDDfseaeMD5yKJenEMpW4Ta9QgosD2GmpCd7t9-Aw/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
-      },
-      {
         "id": "ChIJa7Lh8Ad0K4QR0BMnoJhHgc4",
         "destinationId": "guanajuato",
         "pathType": "classic",
@@ -1358,26 +1337,6 @@
         "updatedAt": "2026-01-23T16:00:23.534Z"
       },
       {
-        "id": "ChIJDdiYZadr1IUR9X6QNg4EAC4",
-        "destinationId": "guanajuato",
-        "pathType": "adventure",
-        "rank": 6,
-        "name": "Pinal Adventures",
-        "description": "Tour Agency - highly rated",
-        "category": "activity",
-        "latitude": 21.1345852,
-        "longitude": -99.62556649999999,
-        "address": "5 de mayo Centro (a un costado de la iglesia, Centro, 76300 Pinal de Amoles, Qro., Mexico",
-        "googleRating": 5,
-        "googleReviewCount": 186,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJDdiYZadr1IUR9X6QNg4EAC4/photos/AcnlKN27ezNJ0EgMa69D2XmeJrTvw9MDpWSVmo5D2HRswbez630nBfx7FMooQW9qnGdX2VQHp5uRUfBsUFzcaT1IOFg6xadBSSwmsY7U7A97ql_kGwZhwvlQ7UuRWDvp4xWHwBFB4TN1B-J07O3erXw8RkI_egMq6Tr_tgNDwi1E82zT6TS10aWwn3kQZDc4S6_6PSeKQnhhUCIJVbLmvBnnFjPel4KXKQXQZ_crULFn4LeJ5p3j407Qnq_S19EmenRosDtWjtFqWNz0Ng6vFK8ssuwH39uwrNcOZ3woGZSZA6rXoEyQdP4ho3M4khuR9ABxbzPdE0EiHFoyRaRNopnH_cVs8Hy6ol_CpqYx8c2TZYHmw3I8R7okUOCShRyfxbi8EZDhebKIQil4DNUGVDdL07UubD6B3e1QwsGVG-PYx1o52hsX/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=3314653784836177653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
-      },
-      {
         "id": "ChIJj--6ip9RK4QRN8yVSJqoyDw",
         "destinationId": "guanajuato",
         "pathType": "adventure",
@@ -1496,26 +1455,6 @@
         "bestTimeOfDay": "any",
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJy2QS3wd0K4QRDz_Tg7ssUjs/photos/AcnlKN0eFhXUtI7E6F_iCeqDSJcl4I7b2y-3okOXWriDUiWo8plBF5DC30ubYJv1NXY7C3FT47IQ6rWzM9AnmTXbB63YLRESHH-e4008j9N3Qppz8frJ4NKEXN3tZWX9Et-GczGGqwzD5yFUVzJ2U4eqooNnckKYDB71RnMwC3KRwD5qEQDF7e5Ih45XuiefyrV7xC-7MCOfrFLIQS55JtXcBHIs6nNtypRaM74GXlOxws6XB63zJJH3BHHIsLdR-R4c2Ja5_EDODLvaigidr_i3EvSlI_agHDZSNaXgyEB20cx9eAU_gYRb__hipOGM6BKrYiTVD_B7mGDQmCUZFBh8VPdp5QT8q0SOqo7o80v7jvlk2vHe8e8ABSB784w8k_gVbXDlR2pcPQRcLtRZvzMHkncvWIB50G3JwoRLVohh15o/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4274528180210188047&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
-      },
-      {
-        "id": "ChIJm0WoyvWlKIQRKwvcnCgc-Tw",
-        "destinationId": "guanajuato",
-        "pathType": "adventure",
-        "rank": 13,
-        "name": "Adventure Guide El Diente Zapopan",
-        "description": "Adventure Sports Center - highly rated",
-        "category": "activity",
-        "latitude": 20.785755500000004,
-        "longitude": -103.3992634,
-        "address": "José María Morelos 6420, Río Blanco, 45134 Zapopan, Jal., Mexico",
-        "googleRating": 4.9,
-        "googleReviewCount": 32,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJm0WoyvWlKIQRKwvcnCgc-Tw/photos/AcnlKN0rBbijLuJNCONSlcY3mBbIh4Peq1Q24B2NX1KzsuPr243MrKDXq9nWAyp7SowBGHorz4uwmnrHxSBtBJ5a9MM6w_641yFrwaekMn7T62tH-xsd8NgZkridL6mv7Sy55GKdbjDQnHOQHijeMzAgHFffvS9MKnvQP-I0bL5E0NXxdW-ED_OaHcNnA9hdC-_rr3G1xultEhkhnn0Cshvj2Ryy4Vq37gEqcXDgVSL00VMAfUCuRXBpfUbPOwMO0fE9-P9M_CW4-z841Vj1o8PIpI1h6Cwb666t9rj92Zo8PDs5XQ/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=4393573872232565547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
         "updatedAt": "2026-01-23T16:00:23.534Z"
       },
@@ -3052,26 +2991,6 @@
         "updatedAt": "2026-01-23T16:00:27.289Z"
       },
       {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "guanajuato",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2755vld5yrV5OVUzo5Xc2kFrWjjbZOV8F4RcMj-fJ2ekuV77bFrBrHqklCApHqu0cb-nmivPOBwIrZDypQ7STRO24l8lno4BjpbWs3r8L27vtbsMzfcz0DF2FuJdSMtWf-n9ek60-XNxQwdP5sPZzevIQwjVsUHAeoeZ8Nk0ffCmfULHDsDzI_iLA-lqKmXkS4UHk3yIiDV7bkWjWEktiLUQip__EDymDNZQ-Bks2gNI-ZRkas_7rfWk8XwV51sgesz9YvdHOjA0h7FpntA-EPSe2lSuqoNmkoL_5t7YYK5POluxZ5lrzrOSkbByFKzDPnTXrdjSe2mlt0lb9GO0G2T9DUxvSr-_o9RSREmoT6bYPtXEjNcyWAM6uzfmyP6-IMSadOjP9hTMVhEEulO__e6TZ16I3SVGRNq632-9ks0NBs/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
-      },
-      {
         "id": "ChIJowQhxVd3K4QRr3U7reX5f2w",
         "destinationId": "guanajuato",
         "pathType": "relaxation",
@@ -4290,5 +4209,5 @@
   "lastFetched": "2026-01-23T16:00:20.195Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 207
+  "totalPOIs": 203
 }

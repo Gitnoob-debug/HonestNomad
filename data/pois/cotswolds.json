@@ -71,27 +71,6 @@
         "updatedAt": "2026-01-23T15:33:50.307Z"
       },
       {
-        "id": "ChIJPTacEpBQwokRKwIlDXelxkA",
-        "destinationId": "cotswolds",
-        "pathType": "classic",
-        "rank": 4,
-        "name": "Statue of Liberty",
-        "description": "Iconic National Monument opened in 1886, offering guided tours & a museum, plus harbor & city views.",
-        "category": "landmark",
-        "latitude": 40.6892494,
-        "longitude": -74.04450039999999,
-        "address": "New York, NY 10004, USA",
-        "googleRating": 4.7,
-        "googleReviewCount": 111484,
-        "suggestedDuration": "1-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTacEpBQwokRKwIlDXelxkA/photos/AcnlKN1RHO3nLm9kF20s2bsXXbsYAQqIsqFIYlpwOdKCVaVCDkQgsTK86sdSDkWQGomfB3pPRYmaG_S6NCBtJT7FwjC2fk5Ma71k_CTKyfq6y8OvWZfcPVn3QOzhCTkw5FXrMKbUwnpndyd5LMVlwhjZHoIkfNQiVRZGW1DcvoFRnfaK4PYrzhP_Lg4hOz950erwgQgdGhCutlFOaWcYzd5C4XULs2J2lH60BDkvSTda14N2VKzQPMTLbYCsCBEAIDCypTezoOvkjA4RwGAdU_jupM5FSauimnNpJ-H8sLeeDu67vox-thc1zMvKeyXVUCrZsq7FpU6q3pL0kGhuUUSGWmlgdTDyYjGDtgcLa2VH5qAnr99dyyXBr4itOnTlzgH2nGzS7bt0oKaTYjlpuhZaRMKPyGh9MYai63HwxgLzLJXVug/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://www.nps.gov/stli/index.htm",
-        "googleMapsUrl": "https://maps.google.com/?cid=4667599994556318251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:33:50.307Z",
-        "updatedAt": "2026-01-23T15:33:50.307Z"
-      },
-      {
         "id": "ChIJfRm5EyjNdkgRunqiwBJP2bs",
         "destinationId": "cotswolds",
         "pathType": "classic",
@@ -2560,27 +2539,6 @@
         "updatedAt": "2026-01-23T15:33:55.501Z"
       },
       {
-        "id": "ChIJgaI8bFIDdkgRhJJqLMxsFdU",
-        "destinationId": "cotswolds",
-        "pathType": "relaxation",
-        "rank": 6,
-        "name": "Sky Garden",
-        "description": "Known as the walkie talkie due to its unique shape, this skyscraper features a top-floor restaurant.",
-        "category": "landmark",
-        "latitude": 51.5112422,
-        "longitude": -0.08354929999999999,
-        "address": "1, Sky Garden Walk, London EC3M 8AF, UK",
-        "googleRating": 4.6,
-        "googleReviewCount": 74259,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJgaI8bFIDdkgRhJJqLMxsFdU/photos/AcnlKN2q1UMivl5ZjEfy1cqXnSELUHZ-HnuH-e64uMnD6ym4Zxk9wibkPBkMZdb1iiRclSqI_VsaguAphcnas0pauUPP9CnyDrZYhouQJReeB3e4-yfvUrvuqBm2Kbste4-RraSQTLMDOiJUAju7pWqkVUZBnSlq_wWqIGK9XjL0rEUWk_xaZZ_Gv4JCQJZXDG1hxgYsOAFq8mj1wnc1SUKP2i3oczrI4Z3FC2NtM-KKBbA97g8KWSEaBAlwEt9FEqL0uawDfb1cx8Mrc1zZNX21eJljEwPW96YY0tbHf8Zr9N4WKTUBzqZkA3NQmV_KHLRB2buvi858kUQ0x05k3doZpn8D_Yc93_THFFLaClEiChAf0RyBRMut0Pcr_5u1zsDrFhIfrkQKRVTADI1MbFbtbXXWi-jPpGKnLiAHeCdpRIiab4ss4QaDoNdkwO2N8QUP/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "https://skygarden.london/",
-        "googleMapsUrl": "https://maps.google.com/?cid=15354298128763884164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:33:55.501Z",
-        "updatedAt": "2026-01-23T15:33:55.501Z"
-      },
-      {
         "id": "ChIJV90qxy3fcEgR1DtTnuoOAA8",
         "destinationId": "cotswolds",
         "pathType": "relaxation",
@@ -3039,26 +2997,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJCbvg_polcUgR9VdI3Y-JG3k/photos/AcnlKN0m2yFJ21tiNpopDP3OkTkEwnMuYBDf1YhcOhCR5aPzc2TI2INK8oufozOvY5tKk8czQGNhpoMUS6ly_7yyf6CWn3F2ciZggiZMZmYt9es-qRzNvAtQ4LNOeDYeGnR8ayfHSnBkEdpM-xYKCvx5b0JjCzNr8UDUN9I3uu7oDgVhoN21129IQkxwC7WmhDf_Jgy0o1JrvzyqdGGOtlKoThJq1nNZy-fupjuufYiDKc4OvgXtgSYPui5RN-_GbwFEIt5yzhcsIxhkTsrWhOB0Mgjl_lOrmHaHNHeUHf8YsFhQaw/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "https://www.freedom-leisure.co.uk/centres/bourton",
         "googleMapsUrl": "https://maps.google.com/?cid=8726719953946302453&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "createdAt": "2026-01-23T15:33:55.501Z",
-        "updatedAt": "2026-01-23T15:33:55.501Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "cotswolds",
-        "pathType": "relaxation",
-        "rank": 29,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2Yurup6pu9a2woLOaj11MV__1hvdRBN7pjVIzLBhOPdUuRyQj_VYsBtG5WsWcG-VPcQh6yOgFyXBrqMROrt48RyFhv8c5df4UIZY66vj-9mJHgiUg74U8XUk9AHeInxe-RzMt2Fr9V31bfBcxgH8hmNkAqwe_CYqsqXnQ5ndqXWv0VxP0UC3S2DtHclK9ZDhFV5qfPL6hvAWxdjFY2Fs3j4WhpRYPEQeecVb5FiQRQ4qOPEklVIAe1IYD-sppPkhbsm2HzEds1K3GawiaMrm5fZkoGxDKILiQaABA5CeSByyUCca-WkoRmVnpDxziadFEe8B-L3pnPK0vkHsgiFWBBPZAQOQ3taJoVLMAuehCr4nV5Qoe4JOnB2BvHoAjLvbWxDxeD0mX_aHobjAXGjaHVbrm9zfffAiynNAH4UF9JJtyg/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:33:55.501Z",
         "updatedAt": "2026-01-23T15:33:55.501Z"
       },
@@ -4205,5 +4143,5 @@
   "lastFetched": "2026-01-23T15:33:49.707Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 198
+  "totalPOIs": 195
 }

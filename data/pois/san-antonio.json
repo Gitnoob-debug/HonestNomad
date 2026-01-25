@@ -1204,27 +1204,6 @@
     ],
     "adventure": [
       {
-        "id": "ChIJdVzbWZ4xW4YRWHENoFkqe7U",
-        "destinationId": "san-antonio",
-        "pathType": "adventure",
-        "rank": 1,
-        "name": "Lake Travis Zipline Adventures",
-        "description": "Lakeside location for daytime & nighttime 3-hour zip line tours, plus a private beach with hammocks.",
-        "category": "activity",
-        "latitude": 30.4297294,
-        "longitude": -97.89018019999999,
-        "address": "14529 Pocohontas Trail, Volente, TX 78641, USA",
-        "googleRating": 5,
-        "googleReviewCount": 7625,
-        "suggestedDuration": "2-3 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJdVzbWZ4xW4YRWHENoFkqe7U/photos/AcnlKN0eqc6x8qAvs2UOvgspB1AtwWxsZnczBsRRMaqHmK_6yb5Ff5GAhiV9gXjxyK2Is5ORkAxUNwsfJEyHfFxm1cpOp88BtbDqvMsZofz2oF8VMxth7BB9MeUXsTmjyZZnorSMKAiZFRueWCk4cK-wwDZFiXQOsas2F6vHRJAstnLoKfmou78P62CnEVodeRr7cy1HwU-HNxzfuh2qH2Q1to18E66sZ-v-HUtzuUFC-d0jtjYsniEkdeFvaqEe1LLb22S1bTE4kwZEekJSVcL6FI88692eU7bWE6yutDAZWtVrCQ/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.ziplaketravis.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=13077092507426058584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:10.733Z",
-        "updatedAt": "2026-01-23T15:51:10.733Z"
-      },
-      {
         "id": "ChIJcfALjoX1XIYRT96JCgVI1Qc",
         "destinationId": "san-antonio",
         "pathType": "adventure",
@@ -1452,27 +1431,6 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJGR0f9ZWfXIYRZSbeiQBwJfQ/photos/AcnlKN17lmKQYgxcPMWYztN0NR9cNosB64znwzr5r5CfkBp-HpcZMgcKrM36gaZt1VPb1wBWh8ojEhkMt3cUl5TMR5ehWHL2rN0om-gPJwdrLZGPDmoGemQsG6BT4f1ll2FdRB4Lmzeeat8l1LsE2C7HnOg5hDW5eQN1n8DF5L2JRo2NLF0z1VLncv3QkY0MmkZwWSJJiJfRB5KWh551HNEmtbGfaI90db0Wv0LNitvMDDo04EO7373cVtz_dDtAnFJ4sN3GSMrTBS1OTVcOwX-0v9FwtDKIbrwFaBTaBCoWVNbu0Q/media?maxHeightPx=800&maxWidthPx=800",
         "websiteUrl": "https://campfimfo.com/texas-hill-country/adventures?utm_source=Google&utm_medium=organic&utm_campaign=FimfoAdventures_GMBListing",
         "googleMapsUrl": "https://maps.google.com/?cid=17592590667008058981&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:10.733Z",
-        "updatedAt": "2026-01-23T15:51:10.733Z"
-      },
-      {
-        "id": "ChIJDynOlQMfW4YRAeV-pj8U_Ks",
-        "destinationId": "san-antonio",
-        "pathType": "adventure",
-        "rank": 13,
-        "name": "Hidden Falls Adventure Park",
-        "description": "Rugged trail park for off-road vehicles, plus  firing ranges & skeet shooting.",
-        "category": "park",
-        "latitude": 30.585555,
-        "longitude": -98.17333119999999,
-        "address": "7030 RM 1431, Marble Falls, TX 78654, USA",
-        "googleRating": 4.5,
-        "googleReviewCount": 1564,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJDynOlQMfW4YRAeV-pj8U_Ks/photos/AcnlKN0yBOMjKhTKRQT1L8kLm_hWbby2Frv39nvKWNldxjoxAuUS_yPvcaU9rX-yXozJxUFBwjwpiJ-sDarvpoGtuz2vjLpKv4eTYgWlvsfcpr5uXq3FN5banYS_ytd-AWuBegUmKn2q1WKTuI1XSDwRBa8Uf_rr8rtxI6Y29t64zi7_GX0sOcf0SqKBhLJxXUcxR3ghqFg5SlnLmh8ESAfdOx53e6CrfzhIuLQ8sxLFQv-0JOTtcl_Mlts-FC-xDstr3RSp3pMN8vegPlTMANVR1LVPZ9JtipyVTMuHOsDPpAQH9w/media?maxHeightPx=800&maxWidthPx=800",
-        "websiteUrl": "http://www.hiddenfallsadventurepark.com/",
-        "googleMapsUrl": "https://maps.google.com/?cid=12392802538225591553&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:51:10.733Z",
         "updatedAt": "2026-01-23T15:51:10.733Z"
       },
@@ -3073,26 +3031,6 @@
         "googleMapsUrl": "https://maps.google.com/?cid=5507124160606883117&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:51:12.986Z",
         "updatedAt": "2026-01-23T15:51:12.986Z"
-      },
-      {
-        "id": "ChIJvf1LihtPLioRE_FvjOrcsY8",
-        "destinationId": "san-antonio",
-        "pathType": "relaxation",
-        "rank": 30,
-        "name": "Peaceful Park",
-        "description": "Park",
-        "category": "park",
-        "latitude": -33.7762236,
-        "longitude": 115.09875129999998,
-        "address": "310 Metricup Rd, Metricup WA 6280, Australia",
-        "googleRating": 4.3,
-        "googleReviewCount": 9,
-        "suggestedDuration": "1.5-2 hours",
-        "bestTimeOfDay": "any",
-        "imageUrl": "https://places.googleapis.com/v1/places/ChIJvf1LihtPLioRE_FvjOrcsY8/photos/AcnlKN2osf6a22vYRjpwesiij8LH3NcioAwoZNmeEXtAzaJ1cx4BDTSMGyrxd7a34Fr_50_dawV4JiFy2IbKTargrdYmtA_RaClQCgZ6R_MR-s_fxhOUpNbYneUuS6T7Ak9vLOKF9he1Rx__wf3unMjTX43ElhP9_1m_HU3PUIDxzd7-CTT9bnH6Xeum44Tcfgsl_-bY8Ry6l1sRsTfr6xsjDh9_r64Z-qh7KsSVk4k5JjbVOSoGZF3LjK7TG-44RbWjnyPamo0-VjbQfyymF3aoafBNJznyc97LuEUjACS-NBfE5lq1Bu5fJXJRuaqWLh5X7N77Rd9KL7rHXZLs-THvQUJRgIPuHMjelZzbOE8ucZ8sZltELpZG5qhnvRMQ_Sv2SF7hShExFdcj-KeaUnnFWsCCHGHt2-bU9mxFmCO5YuNPro1u/media?maxHeightPx=800&maxWidthPx=800",
-        "googleMapsUrl": "https://maps.google.com/?cid=10354299918238085395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-        "createdAt": "2026-01-23T15:51:12.986Z",
-        "updatedAt": "2026-01-23T15:51:12.986Z"
       }
     ],
     "nightlife": [
@@ -4266,5 +4204,5 @@
   "lastFetched": "2026-01-23T15:51:07.772Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 200
+  "totalPOIs": 197
 }

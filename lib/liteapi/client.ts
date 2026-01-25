@@ -69,10 +69,13 @@ export async function searchHotelsByLocation(
 ): Promise<{ hotels: LiteAPIHotel[]; total: number }> {
   const { radius = 10, limit = 20 } = options;
 
+  // LiteAPI expects radius in meters, not km
+  const radiusMeters = radius * 1000;
+
   const params = new URLSearchParams({
     latitude: latitude.toString(),
     longitude: longitude.toString(),
-    radius: radius.toString(),
+    radius: radiusMeters.toString(),
     limit: limit.toString(),
   });
 

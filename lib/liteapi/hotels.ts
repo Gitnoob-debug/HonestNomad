@@ -86,6 +86,7 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
   let ratesData;
   try {
     ratesData = await getHotelRates(hotelIds, checkin, checkout, occupancies);
+    console.log('[LiteAPI] Rates response:', JSON.stringify(ratesData, null, 2).slice(0, 1000));
   } catch (error) {
     console.error('Failed to get hotel rates:', error);
     return [];
@@ -95,7 +96,14 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
   const hotelOptions: HotelOption[] = [];
   const nights = calculateNights(checkin, checkout);
 
-  for (const hotelRates of ratesData.data) {
+  // Handle case where data is not an array
+  const ratesArray = Array.isArray(ratesData?.data) ? ratesData.data : [];
+  if (ratesArray.length === 0) {
+    console.log('[LiteAPI] No rates available for these hotels/dates');
+    return [];
+  }
+
+  for (const hotelRates of ratesArray) {
     const hotel = filteredHotels.find(h => h.id === hotelRates.hotelId);
     if (!hotel || hotelRates.roomTypes.length === 0) continue;
 

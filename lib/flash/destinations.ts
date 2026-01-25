@@ -1,5 +1,31 @@
 import type { Destination, DestinationVibe } from '@/types/flash';
 
+// 133 destinations with validated POI data (coordinates verified within 200km of city center)
+// The other 277 destinations have corrupted POI data and are excluded until re-migrated
+// TODO: Re-run POI migration for excluded destinations with coordinate validation
+export const VALIDATED_POI_DESTINATIONS = new Set([
+  'albuquerque', 'amalfi', 'amsterdam', 'athens', 'austin', 'bali', 'bangkok',
+  'barcelona', 'belgrade', 'berlin', 'bordeaux', 'bruges', 'brussels', 'budapest',
+  'buenos-aires', 'busan', 'calgary', 'canary-islands', 'cape-town', 'chiang-mai',
+  'cinque-terre', 'copenhagen', 'corsica', 'dallas', 'denver', 'detroit', 'doha',
+  'dresden', 'dubai', 'dublin', 'dubrovnik', 'edinburgh', 'egypt', 'florence',
+  'gdansk', 'geneva', 'ghent', 'goa', 'hanoi', 'helsinki', 'hong-kong', 'ibiza',
+  'indianapolis', 'israel', 'jeddah', 'jordan', 'kenya', 'kochi', 'krakow',
+  'kuala-lumpur', 'kuwait', 'lake-district', 'lapland', 'las-vegas', 'lisbon',
+  'london', 'los-angeles', 'lyon', 'madrid', 'malta', 'marseille', 'maui',
+  'melbourne', 'memphis', 'mexico-city', 'miami', 'milan', 'milwaukee', 'minneapolis',
+  'monaco', 'montreal', 'munich', 'mykonos', 'napa-valley', 'nashville', 'new-orleans',
+  'new-york', 'nice', 'orlando', 'oslo', 'oxford', 'paris', 'park-city', 'perth',
+  'philadelphia', 'phoenix', 'pittsburgh', 'porto', 'prague', 'puebla', 'puerto-rico',
+  'raleigh', 'reykjavik', 'riga', 'rio', 'riyadh', 'rome', 'salt-lake-city',
+  'san-diego', 'san-francisco', 'santorini', 'sardinia', 'scottish-highlands',
+  'scottsdale', 'seattle', 'seoul', 'seville', 'sicily', 'sofia', 'sonoma', 'split',
+  'sri-lanka', 'stockholm', 'strasbourg', 'swiss-alps', 'taipei', 'tallinn', 'tampa',
+  'tasmania', 'thessaloniki', 'tokyo', 'toronto', 'toulouse', 'venice', 'victoria-bc',
+  'vienna', 'vietnam', 'vilnius', 'warsaw', 'washington-dc', 'wellington', 'yogyakarta',
+  'zurich',
+]);
+
 // Curated list of 420+ destinations with rich metadata
 // 95%+ coverage of Europe and North America, comprehensive Central/South America
 export const DESTINATIONS: Destination[] = [

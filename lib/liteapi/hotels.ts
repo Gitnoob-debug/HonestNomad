@@ -14,6 +14,9 @@ import {
 } from './types';
 import { FlashVacationPreferences } from '@/types/flash';
 
+// Use mock rates when sandbox doesn't return real pricing
+const USE_MOCK_RATES = true;
+
 // Amenity mapping from our preferences to LiteAPI facility names
 const AMENITY_MAPPINGS: Record<string, string[]> = {
   'pool': ['Swimming pool', 'Indoor pool', 'Outdoor pool', 'Heated pool'],
@@ -79,71 +82,112 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
 
   const filteredHotels = starFiltered.length > 0 ? starFiltered : hotels;
 
-  // 3. Get rates for filtered hotels (max 10 to avoid rate limits)
-  const hotelIds = filteredHotels.slice(0, 10).map(h => h.id);
-  const occupancies = buildOccupancies(preferences);
-
-  let ratesData;
-  try {
-    ratesData = await getHotelRates(hotelIds, checkin, checkout, occupancies);
-    console.log('[LiteAPI] Rates response:', JSON.stringify(ratesData, null, 2).slice(0, 1000));
-  } catch (error) {
-    console.error('Failed to get hotel rates:', error);
-    return [];
-  }
-
-  // 4. Build hotel options with pricing
+  // 3. Build hotel options - use mock rates for sandbox testing
   const hotelOptions: HotelOption[] = [];
   const nights = calculateNights(checkin, checkout);
+  const hotelsToProcess = filteredHotels.slice(0, limit);
 
-  // Handle case where data is not an array
-  const ratesArray = Array.isArray(ratesData?.data) ? ratesData.data : [];
-  if (ratesArray.length === 0) {
-    console.log('[LiteAPI] No rates available for these hotels/dates');
-    return [];
-  }
+  if (USE_MOCK_RATES) {
+    // Generate mock rates based on hotel stars and location
+    console.log('[LiteAPI] Using mock rates for', hotelsToProcess.length, 'hotels');
 
-  for (const hotelRates of ratesArray) {
-    const hotel = filteredHotels.find(h => h.id === hotelRates.hotelId);
-    if (!hotel || hotelRates.roomTypes.length === 0) continue;
+    for (const hotel of hotelsToProcess) {
+      // Get hotel details for amenities and photos
+      const details = await getHotelDetails(hotel.id);
 
-    // Find the best rate (cheapest that fits our criteria)
-    const bestRoom = findBestRoom(hotelRates.roomTypes, preferences);
-    if (!bestRoom) continue;
+      // Generate realistic mock pricing based on stars
+      const basePrice = getBasePriceForStars(hotel.stars);
+      const pricePerNight = basePrice + Math.floor(Math.random() * 50) - 25; // +/- $25 variance
+      const totalPrice = pricePerNight * nights;
+      const isRefundable = Math.random() > 0.3; // 70% refundable
 
-    // Get hotel details for amenities and photos
-    const details = await getHotelDetails(hotel.id);
+      const option: HotelOption = {
+        id: hotel.id,
+        name: hotel.name,
+        description: hotel.hotelDescription || details?.hotelDescription || '',
+        stars: hotel.stars,
+        rating: hotel.rating || 4.0,
+        reviewCount: hotel.reviewCount || Math.floor(Math.random() * 500) + 50,
+        address: hotel.address || '',
+        mainPhoto: hotel.main_photo || hotel.thumbnail || details?.hotelImages?.[0]?.url || '',
+        photos: details?.hotelImages?.slice(0, 10).map(img => img.url) || [],
+        amenities: details?.hotelFacilities?.slice(0, 15) || ['WiFi', 'Air Conditioning', 'Room Service'],
+        checkinTime: details?.checkinCheckoutTimes?.checkin || '3:00 PM',
+        checkoutTime: details?.checkinCheckoutTimes?.checkout || '11:00 AM',
+        totalPrice,
+        pricePerNight,
+        currency: 'USD',
+        taxesIncluded: true,
+        refundable: isRefundable,
+        boardType: Math.random() > 0.5 ? 'BB' : 'RO',
+        boardName: Math.random() > 0.5 ? 'Breakfast Included' : 'Room Only',
+        offerId: `mock_offer_${hotel.id}`,
+        rateId: `mock_rate_${hotel.id}`,
+        roomName: 'Standard Room',
+        roomDescription: 'Comfortable room with modern amenities',
+        expiresAt: Date.now() + (30 * 60 * 1000), // 30 minutes
+      };
 
-    const option: HotelOption = {
-      id: hotel.id,
-      name: hotel.name,
-      description: hotel.hotelDescription || '',
-      stars: hotel.stars,
-      rating: hotel.rating,
-      reviewCount: hotel.reviewCount,
-      address: hotel.address,
-      mainPhoto: hotel.main_photo || hotel.thumbnail,
-      photos: details?.hotelImages?.slice(0, 10).map(img => img.url) || [hotel.main_photo],
-      amenities: details?.hotelFacilities?.slice(0, 15) || [],
-      checkinTime: details?.checkinCheckoutTimes?.checkin || '3:00 PM',
-      checkoutTime: details?.checkinCheckoutTimes?.checkout || '11:00 AM',
-      // Pricing - using wholesale price
-      totalPrice: bestRoom.price,
-      pricePerNight: Math.round(bestRoom.price / nights),
-      currency: bestRoom.currency,
-      taxesIncluded: bestRoom.taxesIncluded,
-      refundable: bestRoom.refundable,
-      boardType: bestRoom.boardType,
-      boardName: bestRoom.boardName,
-      // Booking details
-      offerId: bestRoom.offerId,
-      rateId: bestRoom.rateId,
-      roomName: bestRoom.roomName,
-      roomDescription: bestRoom.roomDescription,
-      expiresAt: Date.now() + (hotelRates.et * 1000), // Convert seconds to ms
-    };
+      hotelOptions.push(option);
+    }
+  } else {
+    // Use real rates from LiteAPI
+    const hotelIds = hotelsToProcess.map(h => h.id);
+    const occupancies = buildOccupancies(preferences);
 
-    hotelOptions.push(option);
+    let ratesData;
+    try {
+      ratesData = await getHotelRates(hotelIds, checkin, checkout, occupancies);
+      console.log('[LiteAPI] Rates response:', JSON.stringify(ratesData, null, 2).slice(0, 1000));
+    } catch (error) {
+      console.error('Failed to get hotel rates:', error);
+      return [];
+    }
+
+    const ratesArray = Array.isArray(ratesData?.data) ? ratesData.data : [];
+    if (ratesArray.length === 0) {
+      console.log('[LiteAPI] No rates available for these hotels/dates');
+      return [];
+    }
+
+    for (const hotelRates of ratesArray) {
+      const hotel = hotelsToProcess.find(h => h.id === hotelRates.hotelId);
+      if (!hotel || hotelRates.roomTypes.length === 0) continue;
+
+      const bestRoom = findBestRoom(hotelRates.roomTypes, preferences);
+      if (!bestRoom) continue;
+
+      const details = await getHotelDetails(hotel.id);
+
+      const option: HotelOption = {
+        id: hotel.id,
+        name: hotel.name,
+        description: hotel.hotelDescription || '',
+        stars: hotel.stars,
+        rating: hotel.rating,
+        reviewCount: hotel.reviewCount,
+        address: hotel.address,
+        mainPhoto: hotel.main_photo || hotel.thumbnail,
+        photos: details?.hotelImages?.slice(0, 10).map(img => img.url) || [hotel.main_photo],
+        amenities: details?.hotelFacilities?.slice(0, 15) || [],
+        checkinTime: details?.checkinCheckoutTimes?.checkin || '3:00 PM',
+        checkoutTime: details?.checkinCheckoutTimes?.checkout || '11:00 AM',
+        totalPrice: bestRoom.price,
+        pricePerNight: Math.round(bestRoom.price / nights),
+        currency: bestRoom.currency,
+        taxesIncluded: bestRoom.taxesIncluded,
+        refundable: bestRoom.refundable,
+        boardType: bestRoom.boardType,
+        boardName: bestRoom.boardName,
+        offerId: bestRoom.offerId,
+        rateId: bestRoom.rateId,
+        roomName: bestRoom.roomName,
+        roomDescription: bestRoom.roomDescription,
+        expiresAt: Date.now() + (hotelRates.et * 1000),
+      };
+
+      hotelOptions.push(option);
+    }
   }
 
   // 5. Score and rank hotels based on preferences
@@ -179,6 +223,19 @@ function calculateNights(checkin: string, checkout: string): number {
   const end = new Date(checkout);
   const diffTime = Math.abs(end.getTime() - start.getTime());
   return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+}
+
+/**
+ * Get base price per night based on hotel star rating
+ */
+function getBasePriceForStars(stars: number): number {
+  switch (stars) {
+    case 5: return 350;
+    case 4: return 200;
+    case 3: return 120;
+    case 2: return 80;
+    default: return 150;
+  }
 }
 
 /**

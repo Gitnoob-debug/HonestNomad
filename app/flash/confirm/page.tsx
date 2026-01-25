@@ -4,25 +4,58 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import type { FlashTripPackage } from '@/types/flash';
+import type { HotelOption } from '@/lib/liteapi/types';
+
+interface BookingData {
+  trip: FlashTripPackage;
+  itineraryType: string;
+  itinerary: any[];
+  skipFlights: boolean;
+  skipHotels: boolean;
+  selectedFlight: any;
+  selectedHotel: HotelOption | null;
+  favoriteStops: any[];
+}
 
 export default function FlashConfirmPage() {
   const { user, loading: authLoading } = useAuth();
   const router = useRouter();
-  const [trip, setTrip] = useState<FlashTripPackage | null>(null);
+  const [bookingData, setBookingData] = useState<BookingData | null>(null);
 
   useEffect(() => {
-    // Load selected trip from session storage
-    const stored = sessionStorage.getItem('flash_selected_trip');
-    if (stored) {
+    // Try to load from flash_booking_data first (new flow)
+    const bookingStored = sessionStorage.getItem('flash_booking_data');
+    if (bookingStored) {
       try {
-        setTrip(JSON.parse(stored));
+        setBookingData(JSON.parse(bookingStored));
+        return;
+      } catch (e) {
+        console.error('Failed to parse booking data:', e);
+      }
+    }
+
+    // Fallback to flash_selected_trip (old flow)
+    const tripStored = sessionStorage.getItem('flash_selected_trip');
+    if (tripStored) {
+      try {
+        const trip = JSON.parse(tripStored);
+        setBookingData({
+          trip,
+          itineraryType: 'classic',
+          itinerary: [],
+          skipFlights: false,
+          skipHotels: !trip.hotel,
+          selectedFlight: trip.flight,
+          selectedHotel: null,
+          favoriteStops: [],
+        });
+        return;
       } catch (e) {
         console.error('Failed to parse trip:', e);
-        router.push('/flash');
       }
-    } else {
-      router.push('/flash');
     }
+
+    router.push('/flash');
   }, [router]);
 
   useEffect(() => {
@@ -31,13 +64,15 @@ export default function FlashConfirmPage() {
     }
   }, [user, authLoading, router]);
 
-  if (authLoading || !trip) {
+  if (authLoading || !bookingData) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary-600"></div>
       </div>
     );
   }
+
+  const { trip, skipFlights, skipHotels, selectedHotel, favoriteStops, itineraryType } = bookingData;
 
   const formatPrice = (amount: number, currency: string) => {
     return new Intl.NumberFormat('en-US', {
@@ -54,6 +89,11 @@ export default function FlashConfirmPage() {
       day: 'numeric',
     });
   };
+
+  // Calculate totals
+  const flightTotal = skipFlights ? 0 : trip.flight.price;
+  const hotelTotal = skipHotels ? 0 : (selectedHotel?.totalPrice || 0);
+  const grandTotal = flightTotal + hotelTotal;
 
   const handleProceedToBooking = () => {
     // In full implementation, this would:
@@ -105,53 +145,85 @@ export default function FlashConfirmPage() {
           <div className="p-6">
             {/* Flight */}
             <div className="flex items-center gap-4 pb-4 border-b border-gray-100">
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                <svg className="w-6 h-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className={`w-12 h-12 rounded-full flex items-center justify-center ${
+                skipFlights ? 'bg-gray-100' : 'bg-blue-100'
+              }`}>
+                <svg className={`w-6 h-6 ${skipFlights ? 'text-gray-400' : 'text-blue-600'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                 </svg>
               </div>
               <div className="flex-1">
-                <p className="font-semibold text-gray-900">{trip.flight.airline}</p>
-                <p className="text-sm text-gray-500">
-                  {trip.flight.outbound.stops === 0 ? 'Direct flight' : `${trip.flight.outbound.stops} stop`}
-                </p>
+                {skipFlights ? (
+                  <>
+                    <p className="font-semibold text-gray-500">Flights not included</p>
+                    <p className="text-sm text-gray-400">You'll book your own flights</p>
+                  </>
+                ) : (
+                  <>
+                    <p className="font-semibold text-gray-900">{trip.flight.airline}</p>
+                    <p className="text-sm text-gray-500">
+                      {trip.flight.outbound.stops === 0 ? 'Direct flight' : `${trip.flight.outbound.stops} stop`}
+                    </p>
+                  </>
+                )}
               </div>
-              <p className="font-semibold text-gray-900">
-                {formatPrice(trip.flight.price, trip.flight.currency)}
-              </p>
+              {!skipFlights && (
+                <p className="font-semibold text-gray-900">
+                  {formatPrice(trip.flight.price, trip.flight.currency)}
+                </p>
+              )}
             </div>
 
-            {/* Hotel (if included) */}
-            {trip.hotel ? (
-              <div className="flex items-center gap-4 py-4 border-b border-gray-100">
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                  </svg>
-                </div>
-                <div className="flex-1">
-                  <p className="font-semibold text-gray-900">{trip.hotel.name}</p>
-                  <p className="text-sm text-gray-500">
-                    {'★'.repeat(trip.hotel.stars)} • {trip.itinerary.days} nights
-                  </p>
-                </div>
-                <p className="font-semibold text-gray-900">
-                  {formatPrice(trip.hotel.totalPrice, trip.hotel.currency)}
-                </p>
+            {/* Hotel */}
+            <div className="flex items-center gap-4 py-4 border-b border-gray-100">
+              <div className={`w-12 h-12 rounded-full flex items-center justify-center ${
+                skipHotels || !selectedHotel ? 'bg-gray-100' : 'bg-purple-100'
+              }`}>
+                <svg className={`w-6 h-6 ${skipHotels || !selectedHotel ? 'text-gray-400' : 'text-purple-600'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
               </div>
-            ) : (
+              <div className="flex-1">
+                {skipHotels || !selectedHotel ? (
+                  <>
+                    <p className="font-semibold text-gray-500">Hotel not included</p>
+                    <p className="text-sm text-gray-400">You'll book your own accommodation</p>
+                  </>
+                ) : (
+                  <>
+                    <p className="font-semibold text-gray-900">{selectedHotel.name}</p>
+                    <p className="text-sm text-gray-500">
+                      {'★'.repeat(selectedHotel.stars)} • {trip.itinerary.days} nights
+                      {selectedHotel.refundable && (
+                        <span className="text-green-600 ml-2">• Free cancellation</span>
+                      )}
+                    </p>
+                  </>
+                )}
+              </div>
+              {!skipHotels && selectedHotel && (
+                <p className="font-semibold text-gray-900">
+                  {formatPrice(selectedHotel.totalPrice, selectedHotel.currency)}
+                </p>
+              )}
+            </div>
+
+            {/* Itinerary */}
+            {itineraryType && (
               <div className="flex items-center gap-4 py-4 border-b border-gray-100">
-                <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                   </svg>
                 </div>
                 <div className="flex-1">
-                  <p className="font-semibold text-gray-500">Hotel not included</p>
-                  <p className="text-sm text-gray-400">
-                    Book your own accommodation
+                  <p className="font-semibold text-gray-900">Personalized Itinerary</p>
+                  <p className="text-sm text-gray-500">
+                    {itineraryType.charAt(0).toUpperCase() + itineraryType.slice(1)} experience
+                    {favoriteStops?.length > 0 && ` • ${favoriteStops.length} saved places`}
                   </p>
                 </div>
+                <p className="text-green-600 font-medium">Free</p>
               </div>
             )}
 
@@ -160,15 +232,18 @@ export default function FlashConfirmPage() {
               <div>
                 <p className="text-sm text-gray-500">Total Price</p>
                 <p className="text-3xl font-bold text-gray-900">
-                  {formatPrice(trip.pricing.total, trip.pricing.currency)}
+                  {grandTotal > 0 ? formatPrice(grandTotal, trip.pricing.currency) : 'Free'}
                 </p>
               </div>
-              <div className="text-right">
-                <p className="text-sm text-gray-500">Per person</p>
-                <p className="text-lg font-semibold text-gray-700">
-                  {formatPrice(trip.pricing.perPerson || 0, trip.pricing.currency)}
-                </p>
-              </div>
+              {grandTotal > 0 && (
+                <div className="text-right">
+                  <p className="text-sm text-gray-500">Breakdown</p>
+                  <div className="text-sm text-gray-600">
+                    {!skipFlights && <p>Flights: {formatPrice(flightTotal, trip.pricing.currency)}</p>}
+                    {!skipHotels && selectedHotel && <p>Hotel: {formatPrice(hotelTotal, selectedHotel.currency)}</p>}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -188,10 +263,47 @@ export default function FlashConfirmPage() {
           </div>
         </div>
 
+        {/* Saved Places */}
+        {favoriteStops && favoriteStops.length > 0 && (
+          <div className="bg-white rounded-2xl shadow-lg p-6 mb-6">
+            <h3 className="font-semibold text-gray-900 mb-4">Your Saved Places</h3>
+            <div className="space-y-2">
+              {favoriteStops.slice(0, 6).map((stop: any, i: number) => (
+                <div key={i} className="flex items-center gap-3 py-2">
+                  <span className="text-lg">
+                    {{
+                      landmark: '🏛️',
+                      restaurant: '🍽️',
+                      activity: '🎯',
+                      museum: '🏛️',
+                      park: '🌳',
+                      cafe: '☕',
+                      bar: '🍸',
+                    }[stop.type as string] || '📍'}
+                  </span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-gray-900 truncate">{stop.name}</p>
+                    {stop.googleRating && (
+                      <p className="text-xs text-gray-500">
+                        ★ {stop.googleRating.toFixed(1)}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              ))}
+              {favoriteStops.length > 6 && (
+                <p className="text-sm text-gray-500 text-center pt-2">
+                  +{favoriteStops.length - 6} more places
+                </p>
+              )}
+            </div>
+          </div>
+        )}
+
         {/* Action buttons */}
         <div className="flex gap-4">
           <button
-            onClick={() => router.push('/flash/swipe')}
+            onClick={() => router.push('/flash/explore')}
             className="flex-1 py-4 border-2 border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50 transition-colors"
           >
             Go Back
@@ -200,12 +312,15 @@ export default function FlashConfirmPage() {
             onClick={handleProceedToBooking}
             className="flex-1 py-4 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors"
           >
-            Proceed to Payment
+            {grandTotal > 0 ? 'Proceed to Payment' : 'Get My Itinerary'}
           </button>
         </div>
 
         <p className="mt-4 text-center text-sm text-gray-500">
-          You won't be charged until you confirm your booking details
+          {grandTotal > 0
+            ? "You won't be charged until you confirm your booking details"
+            : "Your personalized itinerary will be emailed to you"
+          }
         </p>
       </div>
     </main>

@@ -15,6 +15,8 @@ import {
   type SimplePathChoice
 } from '@/lib/flash/itinerary-generator';
 import { saveDraftTrip, getDraftTrip } from '@/lib/flash/draft-storage';
+import { DESTINATIONS } from '@/lib/flash/destinations';
+import type { HotelOption } from '@/lib/liteapi/types';
 
 type BookingStep = 'choice' | 'itinerary' | 'flights' | 'hotels' | 'checkout';
 type ItineraryType = SimplePathChoice | null;
@@ -178,7 +180,13 @@ function FlashExploreContent() {
   const [skipFlights, setSkipFlights] = useState(false);
   const [skipHotels, setSkipHotels] = useState(false);
   const [selectedFlight, setSelectedFlight] = useState<any>(null);
-  const [selectedHotel, setSelectedHotel] = useState<any>(null);
+  const [selectedHotel, setSelectedHotel] = useState<HotelOption | null>(null);
+
+  // Hotel search state
+  const [hotelOptions, setHotelOptions] = useState<HotelOption[]>([]);
+  const [isLoadingHotels, setIsLoadingHotels] = useState(false);
+  const [hotelError, setHotelError] = useState<string | null>(null);
+  const [hotelsLoaded, setHotelsLoaded] = useState(false);
 
   // Load trip from draft (if resuming) or session storage
   useEffect(() => {
@@ -340,6 +348,75 @@ function FlashExploreContent() {
     setStep('hotels');
   };
 
+  // Fetch hotels when entering the hotels step
+  useEffect(() => {
+    if (step !== 'hotels' || hotelsLoaded || isLoadingHotels) return;
+
+    async function fetchHotels() {
+      if (!trip) return;
+
+      setIsLoadingHotels(true);
+      setHotelError(null);
+
+      try {
+        // Get destination coordinates from DESTINATIONS
+        const destination = DESTINATIONS.find(
+          d => d.city === trip.destination.city || d.airportCode === trip.destination.airportCode
+        );
+
+        if (!destination) {
+          throw new Error(`Could not find coordinates for ${trip.destination.city}`);
+        }
+
+        // Get checkin/checkout dates from flight
+        // Checkin = day of arrival (outbound arrival)
+        // Checkout = day of return departure
+        const arrivalDate = new Date(trip.flight.outbound.arrival);
+        const departureDate = new Date(trip.flight.return.departure);
+
+        // Format as YYYY-MM-DD
+        const checkin = arrivalDate.toISOString().split('T')[0];
+        const checkout = departureDate.toISOString().split('T')[0];
+
+        console.log(`Searching hotels in ${trip.destination.city} (${destination.latitude}, ${destination.longitude})`);
+        console.log(`Dates: ${checkin} to ${checkout}`);
+
+        const response = await fetch('/api/hotels/search', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            latitude: destination.latitude,
+            longitude: destination.longitude,
+            checkin,
+            checkout,
+            destinationName: trip.destination.city,
+          }),
+        });
+
+        if (!response.ok) {
+          const error = await response.json();
+          throw new Error(error.error || 'Failed to search hotels');
+        }
+
+        const data = await response.json();
+        setHotelOptions(data.hotels || []);
+        setHotelsLoaded(true);
+
+        // Auto-select first hotel if available
+        if (data.hotels && data.hotels.length > 0) {
+          setSelectedHotel(data.hotels[0]);
+        }
+      } catch (error) {
+        console.error('Failed to fetch hotels:', error);
+        setHotelError(error instanceof Error ? error.message : 'Failed to load hotels');
+      } finally {
+        setIsLoadingHotels(false);
+      }
+    }
+
+    fetchHotels();
+  }, [step, trip, hotelsLoaded, isLoadingHotels]);
+
   const handleContinueFromHotels = () => {
     setStep('checkout');
   };
@@ -353,7 +430,7 @@ function FlashExploreContent() {
       skipFlights,
       skipHotels,
       selectedFlight: skipFlights ? null : (selectedFlight || trip?.flight),
-      selectedHotel: skipHotels ? null : (selectedHotel || trip?.hotel),
+      selectedHotel: skipHotels ? null : selectedHotel,
       favoriteStops, // Include saved favorites
     };
     sessionStorage.setItem('flash_booking_data', JSON.stringify(bookingData));
@@ -977,35 +1054,139 @@ function FlashExploreContent() {
           {/* Content */}
           <div className="flex-1 overflow-y-auto p-4">
             <div className="max-w-lg mx-auto">
-              {trip.hotel ? (
-                <div className="bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden mb-4">
-                  {/* Hotel image */}
-                  <div className="h-40 bg-gray-700">
-                    <img
-                      src={trip.hotel.imageUrl}
-                      alt={trip.hotel.name}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="p-5">
-                    <div className="flex items-start justify-between mb-3">
-                      <div>
-                        <h3 className="text-white font-semibold text-lg">{trip.hotel.name}</h3>
-                        <p className="text-amber-400 text-sm">{'★'.repeat(trip.hotel.stars)}</p>
-                      </div>
-                      <div className="text-right">
-                        <p className="text-white font-bold text-xl">
-                          {formatPrice(trip.hotel.totalPrice, trip.hotel.currency)}
-                        </p>
-                        <p className="text-white/50 text-xs">{trip.itinerary.days} nights</p>
-                      </div>
-                    </div>
-                    <p className="text-white/60 text-sm">
-                      {formatPrice(trip.hotel.pricePerNight, trip.hotel.currency)} per night
-                    </p>
+              {/* Loading state */}
+              {isLoadingHotels && (
+                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 mb-4">
+                  <div className="flex flex-col items-center justify-center">
+                    <Spinner size="lg" className="text-white mb-4" />
+                    <p className="text-white/80 font-medium">Finding the best hotels...</p>
+                    <p className="text-white/50 text-sm mt-1">Matching your preferences</p>
                   </div>
                 </div>
-              ) : (
+              )}
+
+              {/* Error state */}
+              {hotelError && !isLoadingHotels && (
+                <div className="bg-red-500/10 border border-red-500/30 rounded-2xl p-5 mb-4">
+                  <div className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-red-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                    </svg>
+                    <div>
+                      <p className="text-red-400 font-medium">Couldn't load hotels</p>
+                      <p className="text-red-300/70 text-sm mt-1">{hotelError}</p>
+                      <button
+                        onClick={() => {
+                          setHotelsLoaded(false);
+                          setHotelError(null);
+                        }}
+                        className="text-red-400 underline text-sm mt-2 hover:text-red-300"
+                      >
+                        Try again
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Hotel options */}
+              {!isLoadingHotels && !hotelError && hotelOptions.length > 0 && (
+                <>
+                  <p className="text-white/60 text-sm mb-3">
+                    Top picks for your stay in {trip.destination.city}
+                  </p>
+                  <div className="space-y-3 mb-4">
+                    {hotelOptions.map((hotel) => (
+                      <button
+                        key={hotel.id}
+                        onClick={() => {
+                          setSelectedHotel(hotel);
+                          setSkipHotels(false);
+                        }}
+                        className={`w-full text-left bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden transition-all ${
+                          selectedHotel?.id === hotel.id && !skipHotels
+                            ? 'ring-2 ring-white'
+                            : 'hover:bg-white/15'
+                        }`}
+                      >
+                        {/* Hotel image */}
+                        <div className="h-32 bg-gray-700 relative">
+                          <img
+                            src={hotel.mainPhoto}
+                            alt={hotel.name}
+                            className="w-full h-full object-cover"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800';
+                            }}
+                          />
+                          {/* Selection indicator */}
+                          {selectedHotel?.id === hotel.id && !skipHotels && (
+                            <div className="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center">
+                              <svg className="w-5 h-5 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                              </svg>
+                            </div>
+                          )}
+                          {/* Refundable badge */}
+                          {hotel.refundable && (
+                            <div className="absolute top-3 left-3 px-2 py-1 bg-green-500/90 rounded-full">
+                              <span className="text-white text-xs font-medium">Free cancellation</span>
+                            </div>
+                          )}
+                        </div>
+                        <div className="p-4">
+                          <div className="flex items-start justify-between mb-2">
+                            <div className="flex-1 min-w-0 pr-3">
+                              <h3 className="text-white font-semibold truncate">{hotel.name}</h3>
+                              <div className="flex items-center gap-2 mt-1">
+                                <span className="text-amber-400 text-sm">{'★'.repeat(hotel.stars)}</span>
+                                {hotel.rating > 0 && (
+                                  <span className="text-white/60 text-sm">
+                                    {hotel.rating.toFixed(1)} ({hotel.reviewCount} reviews)
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                            <div className="text-right flex-shrink-0">
+                              <p className="text-white font-bold text-lg">
+                                {formatPrice(hotel.totalPrice, hotel.currency)}
+                              </p>
+                              <p className="text-white/50 text-xs">
+                                {formatPrice(hotel.pricePerNight, hotel.currency)}/night
+                              </p>
+                            </div>
+                          </div>
+                          {/* Amenities preview */}
+                          {hotel.amenities.length > 0 && (
+                            <div className="flex flex-wrap gap-1.5 mt-2">
+                              {hotel.amenities.slice(0, 4).map((amenity, i) => (
+                                <span
+                                  key={i}
+                                  className="px-2 py-0.5 bg-white/10 rounded-full text-white/70 text-xs"
+                                >
+                                  {amenity}
+                                </span>
+                              ))}
+                              {hotel.amenities.length > 4 && (
+                                <span className="px-2 py-0.5 text-white/50 text-xs">
+                                  +{hotel.amenities.length - 4} more
+                                </span>
+                              )}
+                            </div>
+                          )}
+                          {/* Board type */}
+                          {hotel.boardName && hotel.boardName !== 'Room Only' && (
+                            <p className="text-green-400 text-xs mt-2">{hotel.boardName} included</p>
+                          )}
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                </>
+              )}
+
+              {/* No hotels found */}
+              {!isLoadingHotels && !hotelError && hotelOptions.length === 0 && hotelsLoaded && (
                 <div className="bg-white/10 backdrop-blur-md rounded-2xl p-5 mb-4">
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center">
@@ -1014,8 +1195,10 @@ function FlashExploreContent() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-white font-semibold">No hotel included</h3>
-                      <p className="text-white/60 text-sm">This package is flights only</p>
+                      <h3 className="text-white font-semibold">No hotels available</h3>
+                      <p className="text-white/60 text-sm">
+                        We couldn't find hotels for these dates. You can book accommodation separately.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1023,7 +1206,14 @@ function FlashExploreContent() {
 
               {/* Skip option */}
               <button
-                onClick={() => setSkipHotels(!skipHotels)}
+                onClick={() => {
+                  setSkipHotels(!skipHotels);
+                  if (!skipHotels) {
+                    setSelectedHotel(null);
+                  } else if (hotelOptions.length > 0) {
+                    setSelectedHotel(hotelOptions[0]);
+                  }
+                }}
                 className={`w-full p-4 rounded-xl border-2 transition-all mb-4 ${
                   skipHotels
                     ? 'border-amber-500 bg-amber-500/10'
@@ -1053,9 +1243,10 @@ function FlashExploreContent() {
           <div className="p-4 pb-safe border-t border-white/10">
             <button
               onClick={handleContinueFromHotels}
-              className="w-full py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors"
+              disabled={isLoadingHotels}
+              className="w-full py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
             >
-              Continue to Checkout
+              {isLoadingHotels ? 'Loading...' : 'Continue to Checkout'}
             </button>
           </div>
         </div>
@@ -1066,9 +1257,9 @@ function FlashExploreContent() {
   // Step 5: Checkout summary
   if (step === 'checkout') {
     const flightTotal = skipFlights ? 0 : trip.flight.price;
-    const hotelTotal = skipHotels ? 0 : (trip.hotel?.totalPrice || 0);
+    const hotelTotal = skipHotels ? 0 : (selectedHotel?.totalPrice || 0);
     const grandTotal = flightTotal + hotelTotal;
-    const hasAnythingToBook = !skipFlights || !skipHotels;
+    const hasAnythingToBook = !skipFlights || (!skipHotels && selectedHotel);
 
     return (
       <div className="fixed inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
@@ -1143,15 +1334,15 @@ function FlashExploreContent() {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
                       <span className="text-lg">🏨</span>
-                      <span className={skipHotels || !trip.hotel ? 'text-white/40 line-through' : 'text-white/80'}>
-                        {trip.hotel ? `${trip.itinerary.days} nights hotel` : 'Hotel'}
+                      <span className={skipHotels || !selectedHotel ? 'text-white/40 line-through' : 'text-white/80'}>
+                        {selectedHotel ? `${trip.itinerary.days} nights at ${selectedHotel.name}` : 'Hotel'}
                       </span>
                     </div>
-                    {skipHotels || !trip.hotel ? (
+                    {skipHotels || !selectedHotel ? (
                       <span className="text-white/40">Skipped</span>
                     ) : (
                       <span className="text-white font-medium">
-                        {formatPrice(trip.hotel.totalPrice, trip.hotel.currency)}
+                        {formatPrice(selectedHotel.totalPrice, selectedHotel.currency)}
                       </span>
                     )}
                   </div>

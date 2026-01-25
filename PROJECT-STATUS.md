@@ -1,6 +1,6 @@
 # HonestNomad - Project Status & Session Log
 
-> Last Updated: January 24, 2025
+> Last Updated: January 25, 2025 (Session 7 - Pre-Restart Checkpoint)
 
 ---
 
@@ -12,7 +12,9 @@
 | Flash Step 1 (Swipe) | **Complete** | City selection with continuous lazy loading |
 | Flash Step 2 (Explore) | **Complete** | POI browsing with Mapbox, 4-step booking flow |
 | Flash Step 3 (Booking) | **In Progress** | Confirm page exists, payment placeholder |
-| POI Database | **Complete** | 410 destinations, 68,561 POIs |
+| POI Database | **Complete** | 410 destinations, 66,685 POIs (cleaned) |
+| Destination Images | **In Progress** | Pexels + Unsplash migrations running |
+| Tourism Coverage | **93%** | 423 destinations, covers 93% of top 100 cities |
 | Revealed Preferences | **Complete** | AI learning from swipe behavior |
 | Loyalty Programs | **Complete** | Airline miles auto-accrual, hotel check-in reminders |
 | Wizard Streamlined | **Complete** | Reduced from 8 to 4 steps |
@@ -97,6 +99,118 @@ The Flash Vacation feature is fully built and deployed in **flights-only mode**:
 ---
 
 ## Session Log
+
+### Session 7 - January 25, 2025 (Tourism Coverage, Image Migrations, Hotel API Research, LiteAPI Sandbox)
+
+**What We Did:**
+
+#### 1. Tourism Coverage Analysis
+- Compared HonestNomad's destinations against Euromonitor Top 100 City Destinations 2024
+- Found we covered 85/100 (85%) of top tourist cities
+- Identified missing heavy-hitters: Istanbul (#8), Antalya (#4), Macau (#12), etc.
+
+#### 2. Added 13 Heavy-Hitter Destinations
+- Istanbul, Antalya, Tbilisi, Fukuoka, Sapporo, Pattaya, Johor Bahru
+- Guangzhou, Shenzhen, Macau, Zhuhai, Medina, Sharjah
+- Total destinations: 410 → **423**
+- Tourism coverage: 85% → **~93%** of top 100 cities
+
+#### 3. Pexels Image Migration System (NEW)
+- Created `scripts/image-migration/pexels-config.ts` - Configuration for Pexels API
+- Created `scripts/image-migration/pexels-migrate.ts` - Smart query builder with:
+  - 30 query categories for variety (landmarks, food, streets, nightlife, etc.)
+  - Adaptive sizing for small vs large destinations
+  - Per-category image limits to ensure variety
+  - Pagination and shuffling to avoid repetitive results
+- **CURRENT STATUS:** 10/423 destinations complete (~2.4%)
+- **Images downloaded:** ~500-585 (Istanbul, Antalya, Tbilisi, Macau, Guangzhou, Shenzhen, Fukuoka, Sapporo, Pattaya, Johor Bahru)
+- Rate: 200 requests/hour, 60 images/destination, 20-min cooldown between batches
+
+#### 4. Unsplash Migration Bug Fix
+- Fixed queue format bug - script was treating `{destId, isPopular}` objects as strings
+- Restarted migration in continuous mode
+- **Running in parallel with Pexels**
+
+#### 5. POI Migration Status
+- Attempted to run POI migration for 13 new cities
+- **BLOCKED:** Google Places API key has budget cap (user previously spent $900)
+- 410 cities have POI data, 13 new cities pending
+
+#### 6. Hotel/Stays API Deep Dive
+
+**Travelpayouts (Hotellook) Analysis:**
+- Two-tier API: Data API (cached) vs Search API (real-time)
+- Data API gives cached pricing - causes trust issues when redirect shows different price
+- Search API requires approval with strict thresholds: 9% search-to-click, 5% click-to-book
+- Chicken-and-egg problem: can't hit thresholds without real-time data
+- Commission: 40-70% of their cut (effective ~2-4% of booking value)
+
+**LiteAPI (Nuitee) Discovery - BETTER OPTION:**
+- Real-time pricing (no caching issue)
+- No approval required - instant sandbox, credit card for production
+- 2.6M+ hotels, 300+ suppliers
+- You control your margin (set 0-whatever%)
+- 27,000 requests/minute rate limit (vs Travelpayouts' 200/hour)
+- Only charges for excess above 5000:1 search-to-book ratio
+- $48M Series A from Accel - well-funded
+- Weekly payouts, no booking fees
+
+#### 7. LiteAPI Sandbox Testing (COMPLETED)
+- **Sandbox key saved to `.env.local`:** `LITEAPI_SANDBOX_KEY=sand_44382eb7-42e7-47e3-8dbe-da7ea7b15546`
+- **Test scripts created:**
+  - `scripts/liteapi-test.ts` - Basic hotel search, details, rates testing
+  - `scripts/liteapi-coords-test.ts` - Coordinate-based search (matches our destination data)
+  - `scripts/liteapi-full-dump.ts` - Complete JSON response documentation
+- **All endpoints verified working:**
+  - `/data/hotels` - Search by city or coordinates (7,848 hotels in Lisbon)
+  - `/data/hotel` - Full details (105 photos, 85+ amenities, room details)
+  - `/hotels/rates` - Real-time pricing ($826-920 for 3 nights at 5-star)
+  - `/data/reviews` - Guest reviews with pros/cons (406 reviews for Sheraton)
+
+**LiteAPI Data Summary:**
+| Endpoint | Key Data Returned |
+|----------|-------------------|
+| Hotel List | id, name, stars, rating, reviewCount, lat/lng, chain, thumbnail |
+| Hotel Details | 100+ photos, checkin/checkout times, 85+ facilities, full room details |
+| Rates | Real-time pricing, tax breakdown, commission, refund policy, payment types |
+| Reviews | averageScore (0-10), pros, cons, traveler type, date |
+
+**Key LiteAPI Findings:**
+- Transparent pricing: You see wholesale cost ($826), suggested retail ($896), your commission ($46.75)
+- MoR option: `paymentTypes: ["NUITEE_PAY"]` = LiteAPI handles payments/chargebacks
+- Tax transparency: `included: true/false` flag shows what's in price vs pay-at-hotel
+- Coordinate search works perfectly with our destination lat/lng data
+
+**Outstanding Question for LiteAPI:**
+- Resort fees / pay-at-property charges not visible in API - need to confirm with LiteAPI before launch
+
+**Recommendation:** LiteAPI as primary hotel API, Travelpayouts as backup
+
+**Files Created:**
+- `scripts/image-migration/pexels-config.ts`
+- `scripts/image-migration/pexels-migrate.ts`
+- `scripts/image-migration/pexels-progress.json`
+- `scripts/image-migration/pexels-manifest.json`
+- `scripts/image-migration/pexels-images/istanbul/` (60 images)
+- `scripts/image-migration/pexels-images/antalya/` (60 images)
+- `scripts/liteapi-test.ts` - Basic sandbox test
+- `scripts/liteapi-coords-test.ts` - Coordinate search test
+- `scripts/liteapi-full-dump.ts` - Full JSON dump
+
+**Files Modified:**
+- `lib/flash/destinations.ts` - Added 13 new destinations
+- `scripts/image-migration/migrate-images.ts` - Fixed queue object handling
+- `scripts/image-migration/progress.json` - Added new destinations to queue
+- `.env.local` - Added PEXELS_API_KEY, LITEAPI_SANDBOX_KEY
+
+**Git Commits:**
+- `f58b204` - Add 13 heavy-hitter destinations (Istanbul, Antalya, Macau, etc.)
+
+**Background Tasks (WILL STOP ON RESTART):**
+- Pexels migration: task `be68361` and `b5916a3` - 10/423 complete (~2.4%)
+- Both running in 20-minute cooldown cycles
+
+---
 
 ### Session 6 - January 24, 2025 (Loyalty Programs, Preferences, Polish)
 
@@ -387,11 +501,14 @@ types/
 
 ## Known Issues
 
-1. **Hotel search disabled** - Duffel Stays API requires separate access approval
+1. **Hotel search disabled** - LiteAPI sandbox tested and ready, need to build integration
 2. **Flights-only mode** - All trip cards show "Hotel not included"
 3. **Booking flow incomplete** - "Proceed to Payment" shows alert placeholder
 4. **Image proxy disabled** - POI images not loading to prevent API costs
-5. **Destination images** - Using placeholder URLs, need Unsplash migration
+5. **Destination images** - Pexels migration 10/423 complete, NEEDS RESTART after reboot
+6. **POI data for 13 new cities** - Blocked by Google API budget cap
+7. **POI images** - Still served via Google API, need Supabase migration
+8. **LiteAPI hidden fees?** - Need to confirm resort fees / pay-at-property charges before launch
 
 ## Completed Features (Session 6)
 
@@ -408,22 +525,48 @@ types/
 
 ## Notes for Next Session
 
-**Where we left off:**
-- All swipe/explore/preferences features complete
-- Loyalty programs fully integrated (airline auto-accrual ready)
-- Need to implement actual booking/payment flow
-- Unsplash image download script running (for destination images)
+**Where we left off (PRE-RESTART CHECKPOINT - Jan 25, 2025):**
+- LiteAPI sandbox testing COMPLETE - all endpoints verified working
+- Image migrations STOPPED (background tasks killed on restart)
+- 423 destinations covering ~93% of global tourism traffic
+- POI migration for 13 new cities blocked by Google API budget cap
+
+**Image Migration Status at Restart:**
+- **Pexels:** 10/423 destinations (~2.4%), ~500-585 images downloaded
+- **Cities completed:** Istanbul, Antalya, Tbilisi, Macau, Guangzhou, Shenzhen, Fukuoka, Sapporo, Pattaya, Johor Bahru
+- **Need to restart:** `npx tsx scripts/image-migration/pexels-migrate.ts --continuous`
+- Progress is saved in `scripts/image-migration/pexels-progress.json`
 
 **Immediate next steps:**
-1. **Connect /flash/confirm to Duffel booking API** - Actual payment flow
-2. **Add hotel loyalty reminder** - Show check-in reminder in booking confirmation
-3. **Upload Unsplash images to Supabase Storage** - Replace placeholder destination images
-4. **Update destination data** - Point to Supabase image URLs
+1. **Restart image migrations** - Run Pexels script again (it picks up where it left off)
+2. **Build hotel search integration** - LiteAPI sandbox tested, ready to integrate
+3. **POI migration for 13 new cities** - When Google API budget is approved
+4. **Migrate POI images to Supabase Storage** - Avoid per-request Google API costs
+5. **Connect /flash/confirm to Duffel booking API** - Actual flight payment flow
+
+**Hotel API Decision (FINALIZED):**
+- **PRIMARY: LiteAPI (Nuitee)** - Real-time pricing, no approval needed, you control margin
+- **Sandbox key in `.env.local`:** `LITEAPI_SANDBOX_KEY=sand_44382eb7-42e7-47e3-8dbe-da7ea7b15546`
+- **BACKUP: Travelpayouts** - If inventory gaps, but has cached pricing issues
+- **SKIP: Duffel Stays** - Inventory too limited for nomad destinations
+
+**LiteAPI Integration Ready:**
+- Test scripts in `scripts/liteapi-*.ts`
+- Endpoints documented in SESSION 7 notes above
+- Data structure: hotels have 100+ photos, 85+ amenities, real-time rates
+- Coordinate search works with our destination data
+- MoR option available (NUITEE_PAY) to avoid chargeback liability
+
+**Key Technical Notes:**
+- LiteAPI: 27,000 req/min, 2.6M hotels, 300+ suppliers, weekly payouts
+- Travelpayouts Data API: Cached prices (bad UX), Search API needs 9%/5% conversion
+- Pexels: 200 req/hour, 60 images/destination, adaptive for small/large cities
+- Unsplash: 50 req/hour, running in parallel with Pexels
 
 **Questions to resolve:**
+- LiteAPI hidden fees? Resort fees, pay-at-property charges - need to confirm
 - Payment flow: Stripe for card tokenization → Duffel for booking?
 - Booking confirmation: What details to show after successful payment?
-- Email confirmation: Send booking details via email?
 
 **Technical notes:**
 - Swipe cards: 8 initial, continuous loading up to 80 (10 batches × 8)

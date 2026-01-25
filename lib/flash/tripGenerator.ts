@@ -45,57 +45,31 @@ export async function generateTripBatch(
   report('finding_destinations', 0, 'Finding perfect destinations...');
 
   // Step 1: Select diverse destinations (with revealed preference learning)
-  // Request some extras in case some destinations fail flight search
   const destinations = selectDestinations({
     profile,
     departureDate: params.departureDate,
     returnDate: params.returnDate,
     vibes: params.vibe,
     region: params.region,
-    count: count + 4, // Request 4 extras in case some fail flight search
+    count: count,
     originAirport: profile.homeBase.airportCode,
     revealedPreferences, // Pass learned preferences for smarter selection
     excludeDestinations: params.excludeDestinations, // Exclude already shown cities
   });
 
-  report('searching_flights', 20, `Searching flights to ${destinations.length} destinations...`);
+  report('building_trips', 50, 'Building your trip packages...');
 
-  // Step 2: Search flights in parallel (with controlled concurrency)
-  const flightResults = await searchFlightsForDestinations(
-    destinations,
-    profile,
-    params,
-    (progress) => report('searching_flights', 20 + progress * 0.6, `Searching flights... ${Math.round(progress * 100)}%`)
-  );
-
-  report('building_trips', 80, 'Building your trip packages...');
-
-  // Step 3: Assemble trip packages (flights-only mode - no hotel search)
+  // Step 2: Build trip packages WITHOUT flights (flights loaded on-demand when user selects)
+  // This makes the swipe experience instant - flights are fetched only when needed
   const trips: FlashTripPackage[] = [];
 
-  for (let i = 0; i < destinations.length && trips.length < count; i++) {
-    const dest = destinations[i];
-    const flights = flightResults[i];
-
-    if (!flights || flights.length === 0) {
-      continue;
-    }
-
-    // Select best flight
-    const bestFlight = selectBestFlight(flights, profile);
-
-    if (!bestFlight) {
-      continue;
-    }
-
-    // Build trip package (flights-only)
-    const tripPackage = buildTripPackage(
+  for (const dest of destinations) {
+    // Build trip package with placeholder flight data
+    const tripPackage = buildTripPackageWithoutFlight(
       dest,
-      bestFlight,
       params,
       profile
     );
-
     trips.push(tripPackage);
   }
 
@@ -366,6 +340,133 @@ function buildTripPackage(
     images: destinationImages.length > 0 ? destinationImages : undefined,
     transferInfo,
   };
+}
+
+/**
+ * Build a trip package WITHOUT flight data (for instant swipe experience)
+ * Flights will be loaded on-demand when user selects a destination
+ */
+function buildTripPackageWithoutFlight(
+  destination: Destination,
+  params: FlashGenerateParams,
+  profile: FlashVacationPreferences
+): FlashTripPackage {
+  // Calculate nights
+  const nights = Math.ceil(
+    (new Date(params.returnDate).getTime() - new Date(params.departureDate).getTime()) / (1000 * 60 * 60 * 24)
+  );
+
+  // Estimate flight price based on region and distance
+  const estimatedFlightPrice = estimateFlightPrice(destination, profile.homeBase.airportCode);
+
+  // Calculate match score
+  let matchScore = 0.5;
+  const primaryInterests = profile.interests?.primary || [];
+  const matchingVibes = destination.vibes.filter(v =>
+    primaryInterests.some(i => {
+      const vibeMap: Record<string, string[]> = {
+        beaches: ['beach'],
+        museums: ['culture', 'history'],
+        nightlife: ['nightlife'],
+        food_tours: ['food'],
+        hiking: ['adventure', 'nature'],
+      };
+      return vibeMap[i]?.includes(v);
+    })
+  );
+  matchScore += matchingVibes.length * 0.1;
+
+  const month = new Date(params.departureDate).getMonth() + 1;
+  if (destination.bestMonths.includes(month)) {
+    matchScore += 0.2;
+  }
+  matchScore = Math.min(1.0, matchScore);
+
+  // Get images and transfer info
+  const destinationImages = getDestinationImages(destination.id);
+  const transferInfo = getTransferInfo(destination.id);
+
+  // Create placeholder flight times based on departure date
+  const departureDate = new Date(params.departureDate);
+  const returnDate = new Date(params.returnDate);
+  departureDate.setHours(10, 0, 0, 0); // 10 AM departure
+  returnDate.setHours(14, 0, 0, 0); // 2 PM return
+
+  return {
+    id: uuidv4(),
+    destination: {
+      city: destination.city,
+      country: destination.country,
+      airportCode: destination.airportCode,
+      region: destination.region,
+      vibes: destination.vibes,
+      transferInfo,
+    },
+    flight: {
+      offerId: '', // Will be populated when flights are loaded
+      airline: 'Loading...', // Placeholder
+      airlines: [],
+      outbound: {
+        departure: departureDate.toISOString(),
+        arrival: departureDate.toISOString(), // Placeholder
+        duration: 'PT0H',
+        stops: 0,
+        segments: [],
+      },
+      return: {
+        departure: returnDate.toISOString(),
+        arrival: returnDate.toISOString(),
+        duration: 'PT0H',
+        stops: 0,
+        segments: [],
+      },
+      price: estimatedFlightPrice,
+      currency: profile.budget.currency || 'USD',
+      cabinClass: profile.flightPreferences?.cabinClass || 'economy',
+      baggage: { carryOn: true, checkedBags: 0 },
+      conditions: { changeable: false, refundable: false },
+    },
+    itinerary: {
+      days: nights,
+      highlights: destination.highlights.slice(0, 4),
+      activities: generateActivitySummary(destination, profile),
+    },
+    pricing: {
+      flight: estimatedFlightPrice,
+      hotel: 0,
+      total: estimatedFlightPrice,
+      currency: profile.budget.currency || 'USD',
+      perPerson: estimatedFlightPrice / profile.travelers.adults,
+    },
+    highlights: destination.highlights.slice(0, 4),
+    matchScore,
+    imageUrl: destination.imageUrl,
+    images: destinationImages.length > 0 ? destinationImages : undefined,
+    transferInfo,
+    flightsLoaded: false, // Flag to indicate flights need to be fetched
+  };
+}
+
+/**
+ * Estimate flight price based on region and origin
+ */
+function estimateFlightPrice(destination: Destination, originAirport: string): number {
+  // Base prices by region (from US)
+  const regionPrices: Record<string, number> = {
+    'europe': 800,
+    'asia': 1200,
+    'north-america': 400,
+    'caribbean': 500,
+    'south-america': 900,
+    'middle-east': 1100,
+    'africa': 1300,
+    'oceania': 1500,
+  };
+
+  const basePrice = regionPrices[destination.region] || 700;
+  // Add some variance
+  const variance = Math.floor(Math.random() * 200) - 100;
+  return basePrice + variance;
 }
 
 /**

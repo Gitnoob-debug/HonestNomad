@@ -151,6 +151,7 @@ export interface FlashTripPackage {
   imageUrl: string;
   images?: DestinationImage[];      // Multiple images for carousel
   transferInfo?: TransferInfo;       // For remote destinations
+  flightsLoaded?: boolean;           // True when real flights have been fetched
 }
 
 export interface DestinationInfo {

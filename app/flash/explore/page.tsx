@@ -466,7 +466,8 @@ function FlashExploreContent() {
 
         if (!response.ok) {
           const error = await response.json();
-          throw new Error(error.error || 'Failed to search hotels');
+          const errorMsg = error.details || error.error || 'Failed to search hotels';
+          throw new Error(errorMsg);
         }
 
         const data = await response.json();

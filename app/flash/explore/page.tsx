@@ -349,12 +349,16 @@ function FlashExploreContent() {
   };
 
   // Fetch hotels when entering the hotels step
+  const [hotelFetchAttempted, setHotelFetchAttempted] = useState(false);
+
   useEffect(() => {
-    if (step !== 'hotels' || hotelsLoaded || isLoadingHotels) return;
+    // Only fetch once when entering hotels step
+    if (step !== 'hotels' || hotelFetchAttempted) return;
 
     async function fetchHotels() {
       if (!trip) return;
 
+      setHotelFetchAttempted(true);
       setIsLoadingHotels(true);
       setHotelError(null);
 
@@ -415,7 +419,7 @@ function FlashExploreContent() {
     }
 
     fetchHotels();
-  }, [step, trip, hotelsLoaded, isLoadingHotels]);
+  }, [step, trip, hotelFetchAttempted]);
 
   const handleContinueFromHotels = () => {
     setStep('checkout');
@@ -1077,6 +1081,7 @@ function FlashExploreContent() {
                       <p className="text-red-300/70 text-sm mt-1">{hotelError}</p>
                       <button
                         onClick={() => {
+                          setHotelFetchAttempted(false);
                           setHotelsLoaded(false);
                           setHotelError(null);
                         }}

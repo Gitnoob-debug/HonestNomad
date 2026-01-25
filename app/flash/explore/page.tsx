@@ -188,6 +188,14 @@ function FlashExploreContent() {
   const [hotelError, setHotelError] = useState<string | null>(null);
   const [hotelsLoaded, setHotelsLoaded] = useState(false);
 
+  // Flight search state
+  const [flightOptions, setFlightOptions] = useState<any[]>([]);
+  const [outOfPrefFlights, setOutOfPrefFlights] = useState<any[]>([]);
+  const [isLoadingFlights, setIsLoadingFlights] = useState(false);
+  const [flightError, setFlightError] = useState<string | null>(null);
+  const [flightFetchAttempted, setFlightFetchAttempted] = useState(false);
+  const [showOutOfPref, setShowOutOfPref] = useState(false);
+
   // Load trip from draft (if resuming) or session storage
   useEffect(() => {
     async function loadTrip() {
@@ -347,6 +355,64 @@ function FlashExploreContent() {
   const handleContinueFromFlights = () => {
     setStep('hotels');
   };
+
+  // Fetch flights when entering the flights step
+  useEffect(() => {
+    if (step !== 'flights' || flightFetchAttempted) return;
+
+    async function fetchFlights() {
+      if (!trip) return;
+
+      setFlightFetchAttempted(true);
+      setIsLoadingFlights(true);
+      setFlightError(null);
+
+      try {
+        // Get origin from user's home airport (stored in trip or default)
+        const origin = trip.flight.outbound.segments?.[0]?.departure?.airport?.code || 'JFK';
+        const destination = trip.destination.airportCode;
+
+        // Get dates from flight
+        const departureDate = new Date(trip.flight.outbound.departure).toISOString().split('T')[0];
+        const returnDate = new Date(trip.flight.return.departure).toISOString().split('T')[0];
+
+        console.log(`Searching flights ${origin} → ${destination}`);
+        console.log(`Dates: ${departureDate} to ${returnDate}`);
+
+        const response = await fetch('/api/flights/search', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            origin,
+            destination,
+            departureDate,
+            returnDate,
+          }),
+        });
+
+        if (!response.ok) {
+          const error = await response.json();
+          throw new Error(error.error || 'Failed to search flights');
+        }
+
+        const data = await response.json();
+        setFlightOptions(data.flights || []);
+        setOutOfPrefFlights(data.outOfPreference || []);
+
+        // Auto-select first (best match) flight if available
+        if (data.flights && data.flights.length > 0) {
+          setSelectedFlight(data.flights[0]);
+        }
+      } catch (error) {
+        console.error('Failed to fetch flights:', error);
+        setFlightError(error instanceof Error ? error.message : 'Failed to load flights');
+      } finally {
+        setIsLoadingFlights(false);
+      }
+    }
+
+    fetchFlights();
+  }, [step, trip, flightFetchAttempted]);
 
   // Fetch hotels when entering the hotels step
   const [hotelFetchAttempted, setHotelFetchAttempted] = useState(false);
@@ -915,6 +981,20 @@ function FlashExploreContent() {
     );
   }
 
+  // Helper to format flight duration
+  const formatDuration = (iso: string) => {
+    const match = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?/);
+    if (!match) return iso;
+    const hours = match[1] || '0';
+    const minutes = match[2] || '0';
+    return `${hours}h ${minutes}m`;
+  };
+
+  // Helper to format time
+  const formatTime = (dateStr: string) => {
+    return new Date(dateStr).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
+  };
+
   // Step 3: Flight booking
   if (step === 'flights') {
     return (
@@ -943,54 +1023,243 @@ function FlashExploreContent() {
           {/* Content */}
           <div className="flex-1 overflow-y-auto p-4">
             <div className="max-w-lg mx-auto">
-              {/* Flight info */}
-              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-5 mb-4">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center">
-                    <svg className="w-6 h-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+              {/* Loading state */}
+              {isLoadingFlights && (
+                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 mb-4">
+                  <div className="flex flex-col items-center justify-center">
+                    <Spinner size="lg" className="text-white mb-4" />
+                    <p className="text-white/80 font-medium">Finding your perfect flights...</p>
+                    <p className="text-white/50 text-sm mt-1">Filtering by your preferences</p>
+                  </div>
+                </div>
+              )}
+
+              {/* Error state */}
+              {flightError && !isLoadingFlights && (
+                <div className="bg-red-500/10 border border-red-500/30 rounded-2xl p-5 mb-4">
+                  <div className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-red-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                     </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-white font-semibold">{trip.flight.airline}</h3>
-                    <p className="text-white/60 text-sm">
-                      {trip.flight.outbound.stops === 0 ? 'Direct flight' : `${trip.flight.outbound.stops} stop`}
-                    </p>
-                  </div>
-                  <div className="ml-auto text-right">
-                    <p className="text-white font-bold text-xl">
-                      {formatPrice(trip.flight.price, trip.flight.currency)}
-                    </p>
-                    <p className="text-white/50 text-xs">round trip</p>
-                  </div>
-                </div>
-
-                {/* Outbound */}
-                <div className="border-t border-white/10 pt-4 mb-4">
-                  <p className="text-white/50 text-xs mb-2">OUTBOUND</p>
-                  <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-white font-medium">{new Date(trip.flight.outbound.departure).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</p>
-                      <p className="text-white/60 text-sm">{trip.flight.outbound.duration}</p>
+                      <p className="text-red-400 font-medium">Couldn't load flights</p>
+                      <p className="text-red-300/70 text-sm mt-1">{flightError}</p>
+                      <button
+                        onClick={() => {
+                          setFlightFetchAttempted(false);
+                          setFlightError(null);
+                        }}
+                        className="text-red-400 underline text-sm mt-2 hover:text-red-300"
+                      >
+                        Try again
+                      </button>
                     </div>
                   </div>
                 </div>
+              )}
 
-                {/* Return */}
-                <div className="border-t border-white/10 pt-4">
-                  <p className="text-white/50 text-xs mb-2">RETURN</p>
-                  <div className="flex items-center justify-between">
+              {/* Flight options - Your Picks */}
+              {!isLoadingFlights && !flightError && flightOptions.length > 0 && (
+                <>
+                  <p className="text-white/60 text-sm mb-3">
+                    Flights to {trip.destination.city} matching your preferences
+                  </p>
+                  <div className="space-y-3 mb-4">
+                    {flightOptions.slice(0, 5).map((flight: any) => {
+                      const outbound = flight.slices?.[0];
+                      const returnFlight = flight.slices?.[1];
+                      const isSelected = selectedFlight?.id === flight.id && !skipFlights;
+
+                      return (
+                        <button
+                          key={flight.id}
+                          onClick={() => {
+                            setSelectedFlight(flight);
+                            setSkipFlights(false);
+                          }}
+                          className={`w-full text-left bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden transition-all ${
+                            isSelected ? 'ring-2 ring-white' : 'hover:bg-white/15'
+                          }`}
+                        >
+                          <div className="p-4">
+                            {/* Airline and price row */}
+                            <div className="flex items-center justify-between mb-3">
+                              <div className="flex items-center gap-2">
+                                {flight.airlines?.[0]?.logoUrl && (
+                                  <img
+                                    src={flight.airlines[0].logoUrl}
+                                    alt={flight.airlines[0].name}
+                                    className="w-8 h-8 rounded"
+                                    onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                                  />
+                                )}
+                                <div>
+                                  <p className="text-white font-medium">{flight.airlines?.[0]?.name || 'Multiple Airlines'}</p>
+                                  <p className="text-white/50 text-xs">
+                                    {outbound?.stops === 0 ? 'Direct' : `${outbound?.stops} stop${outbound?.stops > 1 ? 's' : ''}`}
+                                    {' · '}{formatDuration(outbound?.duration || 'PT0H')}
+                                  </p>
+                                </div>
+                              </div>
+                              <div className="text-right">
+                                <p className="text-white font-bold text-lg">
+                                  {formatPrice(flight.pricing?.totalAmount || 0, flight.pricing?.currency || 'USD')}
+                                </p>
+                                <p className="text-white/50 text-xs">
+                                  {formatPrice(flight.pricing?.perPassenger || 0, flight.pricing?.currency || 'USD')}/person
+                                </p>
+                              </div>
+                            </div>
+
+                            {/* Flight times */}
+                            <div className="grid grid-cols-2 gap-3 mb-3">
+                              <div className="bg-white/5 rounded-lg p-2">
+                                <p className="text-white/50 text-xs mb-1">OUTBOUND</p>
+                                <p className="text-white text-sm font-medium">
+                                  {formatTime(outbound?.departureTime)} → {formatTime(outbound?.arrivalTime)}
+                                </p>
+                              </div>
+                              {returnFlight && (
+                                <div className="bg-white/5 rounded-lg p-2">
+                                  <p className="text-white/50 text-xs mb-1">RETURN</p>
+                                  <p className="text-white text-sm font-medium">
+                                    {formatTime(returnFlight?.departureTime)} → {formatTime(returnFlight?.arrivalTime)}
+                                  </p>
+                                </div>
+                              )}
+                            </div>
+
+                            {/* Match reasons */}
+                            {flight.matchReasons && flight.matchReasons.length > 0 && (
+                              <div className="flex flex-wrap gap-1.5">
+                                {flight.matchReasons.slice(0, 4).map((reason: string, i: number) => (
+                                  <span
+                                    key={i}
+                                    className="px-2 py-0.5 bg-green-500/20 text-green-400 rounded-full text-xs"
+                                  >
+                                    {reason}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
+
+                            {/* Selection indicator */}
+                            {isSelected && (
+                              <div className="absolute top-3 right-3 w-6 h-6 bg-white rounded-full flex items-center justify-center">
+                                <svg className="w-4 h-4 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                                </svg>
+                              </div>
+                            )}
+                          </div>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </>
+              )}
+
+              {/* Out of preference section */}
+              {!isLoadingFlights && !flightError && outOfPrefFlights.length > 0 && (
+                <div className="mb-4">
+                  <button
+                    onClick={() => setShowOutOfPref(!showOutOfPref)}
+                    className="w-full flex items-center justify-between p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-colors"
+                  >
+                    <span className="text-white/60 text-sm">
+                      {outOfPrefFlights.length} more option{outOfPrefFlights.length > 1 ? 's' : ''} outside your preferences
+                    </span>
+                    <svg
+                      className={`w-5 h-5 text-white/60 transition-transform ${showOutOfPref ? 'rotate-180' : ''}`}
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+
+                  {showOutOfPref && (
+                    <div className="mt-3 space-y-3">
+                      {outOfPrefFlights.slice(0, 5).map((flight: any) => {
+                        const outbound = flight.slices?.[0];
+                        const isSelected = selectedFlight?.id === flight.id && !skipFlights;
+
+                        return (
+                          <button
+                            key={flight.id}
+                            onClick={() => {
+                              setSelectedFlight(flight);
+                              setSkipFlights(false);
+                            }}
+                            className={`w-full text-left bg-white/5 backdrop-blur-md rounded-2xl overflow-hidden transition-all ${
+                              isSelected ? 'ring-2 ring-amber-500' : 'hover:bg-white/10'
+                            }`}
+                          >
+                            <div className="p-4">
+                              <div className="flex items-center justify-between mb-2">
+                                <div className="flex items-center gap-2">
+                                  <p className="text-white/80 font-medium">{flight.airlines?.[0]?.name || 'Multiple Airlines'}</p>
+                                  <span className="text-white/40">·</span>
+                                  <p className="text-white/50 text-sm">
+                                    {outbound?.stops === 0 ? 'Direct' : `${outbound?.stops} stop${outbound?.stops > 1 ? 's' : ''}`}
+                                  </p>
+                                </div>
+                                <p className="text-white/80 font-bold">
+                                  {formatPrice(flight.pricing?.totalAmount || 0, flight.pricing?.currency || 'USD')}
+                                </p>
+                              </div>
+                              {/* Out of preference reasons */}
+                              {flight.outOfPreferenceReasons && flight.outOfPreferenceReasons.length > 0 && (
+                                <div className="flex flex-wrap gap-1.5">
+                                  {flight.outOfPreferenceReasons.map((reason: string, i: number) => (
+                                    <span
+                                      key={i}
+                                      className="px-2 py-0.5 bg-amber-500/20 text-amber-400 rounded-full text-xs"
+                                    >
+                                      {reason}
+                                    </span>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* No flights found */}
+              {!isLoadingFlights && !flightError && flightOptions.length === 0 && flightFetchAttempted && (
+                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-5 mb-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center">
+                      <svg className="w-6 h-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                      </svg>
+                    </div>
                     <div>
-                      <p className="text-white font-medium">{new Date(trip.flight.return.arrival).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</p>
-                      <p className="text-white/60 text-sm">{trip.flight.return.duration}</p>
+                      <h3 className="text-white font-semibold">No flights found</h3>
+                      <p className="text-white/60 text-sm">
+                        We couldn't find flights for these dates. You can book separately.
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
+              )}
 
               {/* Skip option */}
               <button
-                onClick={() => setSkipFlights(!skipFlights)}
+                onClick={() => {
+                  setSkipFlights(!skipFlights);
+                  if (!skipFlights) {
+                    setSelectedFlight(null);
+                  } else if (flightOptions.length > 0) {
+                    setSelectedFlight(flightOptions[0]);
+                  }
+                }}
                 className={`w-full p-4 rounded-xl border-2 transition-all mb-4 ${
                   skipFlights
                     ? 'border-amber-500 bg-amber-500/10'
@@ -1020,9 +1289,10 @@ function FlashExploreContent() {
           <div className="p-4 pb-safe border-t border-white/10">
             <button
               onClick={handleContinueFromFlights}
-              className="w-full py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors"
+              disabled={isLoadingFlights}
+              className="w-full py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
             >
-              Continue to Hotels
+              {isLoadingFlights ? 'Loading...' : 'Continue to Hotels'}
             </button>
           </div>
         </div>

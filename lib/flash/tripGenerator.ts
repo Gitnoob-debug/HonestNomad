@@ -296,6 +296,8 @@ function buildTripPackage(
       airportCode: destination.airportCode,
       region: destination.region,
       vibes: destination.vibes,
+      latitude: destination.latitude,
+      longitude: destination.longitude,
       transferInfo,
     },
     flight: {
@@ -400,6 +402,8 @@ function buildTripPackageWithoutFlight(
       airportCode: destination.airportCode,
       region: destination.region,
       vibes: destination.vibes,
+      latitude: destination.latitude,
+      longitude: destination.longitude,
       transferInfo,
     },
     flight: {

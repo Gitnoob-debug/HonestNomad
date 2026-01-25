@@ -160,6 +160,8 @@ export interface DestinationInfo {
   airportCode: string;
   region: string;
   vibes: string[];
+  latitude: number;
+  longitude: number;
   transferInfo?: TransferInfo;       // Transfer info at destination level too
 }
 

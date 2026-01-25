@@ -9,10 +9,21 @@ import type {
 
 // Track price loading state for each trip
 interface TripPriceState {
-  loading: boolean;
-  loaded: boolean;
+  // Flight pricing
+  flightLoading: boolean;
+  flightLoaded: boolean;
+  flightError?: string;
+  flightPrice?: number;
+  // Hotel pricing
+  hotelLoading: boolean;
+  hotelLoaded: boolean;
+  hotelError?: string;
+  hotelPrice?: number;
+  // Combined state (for UI)
+  loading: boolean;  // True if either still loading
+  loaded: boolean;   // True only when BOTH loaded
   error?: string;
-  realPrice?: number;
+  realPrice?: number; // Combined total
   overBudget?: boolean;
   budgetDiff?: number; // Positive = over budget, negative = under
 }
@@ -190,7 +201,14 @@ export function useFlashVacation() {
       // Initialize price states for all trips
       const initialPriceStates: Record<string, TripPriceState> = {};
       data.trips.forEach((trip: FlashTripPackage) => {
-        initialPriceStates[trip.id] = { loading: true, loaded: false };
+        initialPriceStates[trip.id] = {
+          flightLoading: true,
+          flightLoaded: false,
+          hotelLoading: true,
+          hotelLoaded: false,
+          loading: true,
+          loaded: false,
+        };
       });
 
       setState(prev => ({
@@ -282,76 +300,69 @@ export function useFlashVacation() {
     }));
   }, []);
 
-  // Background price loading - fetches real flight prices for all trips
+  // Background price loading - fetches real flight AND hotel prices for all trips
   const loadPricesInBackground = useCallback(async (
     trips: FlashTripPackage[],
     params: FlashGenerateParams
   ) => {
     // Get user's budget max from preferences
     const budgetMax = state.preferences?.budget?.perTripMax || 5000;
-    const flightBudget = budgetMax * 0.5; // ~50% of budget for flights
+    const nights = Math.ceil(
+      (new Date(params.returnDate).getTime() - new Date(params.departureDate).getTime()) / (1000 * 60 * 60 * 24)
+    );
 
     // Process trips in parallel with controlled concurrency
-    const concurrency = 4;
+    const concurrency = 3; // Reduced for more API calls per trip
     const queue = [...trips];
 
-    const processTrip = async (trip: FlashTripPackage) => {
-      try {
-        // Fetch real flight price
-        const response = await fetch('/api/flights/search', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            origin: state.preferences?.homeBase?.airportCode || 'JFK',
-            destination: trip.destination.airportCode,
-            departureDate: params.departureDate,
-            returnDate: params.returnDate,
-            quickPrice: true, // Just get the best price, not full details
-          }),
-        });
+    // Helper to update price state for a trip
+    const updatePriceState = (
+      tripId: string,
+      update: Partial<TripPriceState>,
+      tripUpdate?: Partial<FlashTripPackage>
+    ) => {
+      setState(prev => {
+        const currentPriceState = prev.tripPrices[tripId] || {
+          flightLoading: true,
+          flightLoaded: false,
+          hotelLoading: true,
+          hotelLoaded: false,
+          loading: true,
+          loaded: false,
+        };
 
-        if (!response.ok) {
-          throw new Error('Failed to fetch price');
-        }
+        const newPriceState = { ...currentPriceState, ...update };
 
-        const data = await response.json();
-        const bestFlight = data.flights?.[0];
-        const realPrice = bestFlight?.pricing?.totalAmount || trip.pricing.flight;
-        const overBudget = realPrice > flightBudget;
-        const budgetDiff = realPrice - flightBudget;
+        // Calculate combined state
+        const bothLoaded = newPriceState.flightLoaded && newPriceState.hotelLoaded;
+        const eitherLoading = newPriceState.flightLoading || newPriceState.hotelLoading;
+        const combinedPrice = (newPriceState.flightPrice || 0) + (newPriceState.hotelPrice || 0);
+        const overBudget = combinedPrice > budgetMax;
 
-        // Update the trip's price in state
-        setState(prev => {
-          // Update trip prices state
-          const newTripPrices = {
-            ...prev.tripPrices,
-            [trip.id]: {
-              loading: false,
-              loaded: true,
-              realPrice,
-              overBudget,
-              budgetDiff,
-            },
-          };
+        newPriceState.loading = eitherLoading;
+        newPriceState.loaded = bothLoaded;
+        newPriceState.realPrice = combinedPrice;
+        newPriceState.overBudget = overBudget;
+        newPriceState.budgetDiff = combinedPrice - budgetMax;
 
-          // Also update the trip object itself with real price
-          const newTrips = prev.trips.map(t => {
-            if (t.id === trip.id) {
-              return {
-                ...t,
-                flight: {
-                  ...t.flight,
-                  price: realPrice,
-                  offerId: bestFlight?.duffelOfferId || t.flight.offerId,
-                },
-                pricing: {
-                  ...t.pricing,
-                  flight: realPrice,
-                  total: realPrice + (t.pricing.hotel || 0),
-                  perPerson: (realPrice + (t.pricing.hotel || 0)) / (state.preferences?.travelers?.adults || 2),
-                },
-                flightsLoaded: true,
+        const newTripPrices = {
+          ...prev.tripPrices,
+          [tripId]: newPriceState,
+        };
+
+        // Update trip object if provided
+        let newTrips = prev.trips;
+        if (tripUpdate) {
+          newTrips = prev.trips.map(t => {
+            if (t.id === tripId) {
+              const updated = { ...t, ...tripUpdate };
+              // Recalculate total pricing
+              updated.pricing = {
+                ...updated.pricing,
+                total: (newPriceState.flightPrice || updated.pricing.flight) + (newPriceState.hotelPrice || updated.pricing.hotel),
+                perPerson: ((newPriceState.flightPrice || updated.pricing.flight) + (newPriceState.hotelPrice || updated.pricing.hotel)) / (state.preferences?.travelers?.adults || 2),
               };
+              return updated;
             }
             return t;
           });
@@ -360,27 +371,123 @@ export function useFlashVacation() {
           if (prev.sessionId) {
             saveTripsToSession(prev.sessionId, newTrips, prev.currentTripIndex, prev.lastGenerateParams);
           }
+        }
 
-          return {
-            ...prev,
-            trips: newTrips,
-            tripPrices: newTripPrices,
-          };
+        return {
+          ...prev,
+          trips: newTrips,
+          tripPrices: newTripPrices,
+        };
+      });
+    };
+
+    // Fetch flight price for a trip
+    const fetchFlightPrice = async (trip: FlashTripPackage) => {
+      try {
+        const response = await fetch('/api/flights/search', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            origin: state.preferences?.homeBase?.airportCode || 'JFK',
+            destination: trip.destination.airportCode,
+            departureDate: params.departureDate,
+            returnDate: params.returnDate,
+            quickPrice: true,
+          }),
+        });
+
+        if (!response.ok) throw new Error('Failed to fetch flight price');
+
+        const data = await response.json();
+        const bestFlight = data.flights?.[0];
+        const flightPrice = bestFlight?.pricing?.totalAmount || trip.pricing.flight;
+
+        updatePriceState(trip.id, {
+          flightLoading: false,
+          flightLoaded: true,
+          flightPrice,
+        }, {
+          flight: {
+            ...trip.flight,
+            price: flightPrice,
+            offerId: bestFlight?.duffelOfferId || trip.flight.offerId,
+          },
+          pricing: {
+            ...trip.pricing,
+            flight: flightPrice,
+          },
+          flightsLoaded: true,
         });
       } catch (error) {
-        // Mark as error but keep estimated price
-        setState(prev => ({
-          ...prev,
-          tripPrices: {
-            ...prev.tripPrices,
-            [trip.id]: {
-              loading: false,
-              loaded: false,
-              error: 'Could not verify price',
-            },
-          },
-        }));
+        updatePriceState(trip.id, {
+          flightLoading: false,
+          flightLoaded: false,
+          flightError: 'Could not verify flight price',
+          flightPrice: trip.pricing.flight, // Keep estimate
+        });
       }
+    };
+
+    // Fetch hotel price for a trip
+    const fetchHotelPrice = async (trip: FlashTripPackage) => {
+      try {
+        const response = await fetch('/api/hotels/search', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            latitude: trip.destination.latitude,
+            longitude: trip.destination.longitude,
+            checkin: params.departureDate,
+            checkout: params.returnDate,
+            destinationName: trip.destination.city,
+          }),
+        });
+
+        if (!response.ok) throw new Error('Failed to fetch hotel price');
+
+        const data = await response.json();
+        const bestHotel = data.hotels?.[0];
+        const hotelPrice = bestHotel?.totalPrice || nights * 150; // Fallback estimate
+
+        updatePriceState(trip.id, {
+          hotelLoading: false,
+          hotelLoaded: true,
+          hotelPrice,
+        }, {
+          hotel: bestHotel ? {
+            name: bestHotel.name,
+            stars: bestHotel.stars || 4,
+            rating: bestHotel.rating || 8.0,
+            reviewCount: bestHotel.reviewCount || 100,
+            amenities: bestHotel.amenities || [],
+            pricePerNight: bestHotel.pricePerNight || Math.round(hotelPrice / nights),
+            totalPrice: hotelPrice,
+            currency: trip.pricing.currency,
+            imageUrl: bestHotel.imageUrl || '',
+          } : undefined,
+          pricing: {
+            ...trip.pricing,
+            hotel: hotelPrice,
+          },
+        });
+      } catch (error) {
+        // Use estimate for hotels
+        const estimatedHotelPrice = nights * 150;
+        updatePriceState(trip.id, {
+          hotelLoading: false,
+          hotelLoaded: false,
+          hotelError: 'Could not verify hotel price',
+          hotelPrice: estimatedHotelPrice,
+        });
+      }
+    };
+
+    // Process each trip - fetch flight and hotel in parallel
+    const processTrip = async (trip: FlashTripPackage) => {
+      await Promise.all([
+        fetchFlightPrice(trip),
+        fetchHotelPrice(trip),
+      ]);
     };
 
     // Process in batches

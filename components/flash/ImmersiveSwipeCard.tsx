@@ -4,6 +4,17 @@ import { useState } from 'react';
 import { FlashTripPackage } from '@/types/flash';
 
 interface PriceState {
+  // Flight pricing
+  flightLoading?: boolean;
+  flightLoaded?: boolean;
+  flightError?: string;
+  flightPrice?: number;
+  // Hotel pricing
+  hotelLoading?: boolean;
+  hotelLoaded?: boolean;
+  hotelError?: string;
+  hotelPrice?: number;
+  // Combined state
   loading: boolean;
   loaded: boolean;
   error?: string;
@@ -126,17 +137,37 @@ export function ImmersiveSwipeCard({
       {/* Top right: Price badge with loading state */}
       <div className="absolute top-8 right-4 z-10">
         {priceState?.loading ? (
-          // Loading state
-          <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
-            <div className="w-4 h-4 border-2 border-gray-300 border-t-gray-600 rounded-full animate-spin" />
-            <span className="text-gray-600 text-sm font-medium">Checking price...</span>
+          // Loading state - show what's loading
+          <div className="flex flex-col items-end gap-1">
+            <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
+              <div className="w-4 h-4 border-2 border-gray-300 border-t-gray-600 rounded-full animate-spin" />
+              <span className="text-gray-600 text-sm font-medium">
+                {priceState.realPrice ? formatPrice(priceState.realPrice, trip.pricing.currency) : 'Checking...'}
+              </span>
+            </div>
+            <div className="flex gap-1">
+              {priceState.flightLoading ? (
+                <span className="text-xs bg-blue-500/80 text-white px-2 py-0.5 rounded-full">✈️ loading</span>
+              ) : priceState.flightLoaded ? (
+                <span className="text-xs bg-green-500/80 text-white px-2 py-0.5 rounded-full">✈️ ✓</span>
+              ) : (
+                <span className="text-xs bg-gray-500/80 text-white px-2 py-0.5 rounded-full">✈️ est.</span>
+              )}
+              {priceState.hotelLoading ? (
+                <span className="text-xs bg-blue-500/80 text-white px-2 py-0.5 rounded-full">🏨 loading</span>
+              ) : priceState.hotelLoaded ? (
+                <span className="text-xs bg-green-500/80 text-white px-2 py-0.5 rounded-full">🏨 ✓</span>
+              ) : (
+                <span className="text-xs bg-gray-500/80 text-white px-2 py-0.5 rounded-full">🏨 est.</span>
+              )}
+            </div>
           </div>
         ) : priceState?.overBudget ? (
           // Over budget warning
           <div className="flex flex-col items-end gap-1">
             <div className="bg-amber-500 px-4 py-2 rounded-full shadow-lg">
               <span className="font-bold text-white text-lg">
-                {formatPrice(trip.pricing.total, trip.pricing.currency)}
+                {formatPrice(priceState.realPrice || trip.pricing.total, trip.pricing.currency)}
               </span>
             </div>
             <div className="bg-red-500/90 px-3 py-1 rounded-full shadow-lg">
@@ -150,11 +181,11 @@ export function ImmersiveSwipeCard({
           <div className="flex flex-col items-end gap-1">
             <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
               <span className="font-bold text-gray-900 text-lg">
-                {formatPrice(trip.pricing.total, trip.pricing.currency)}
+                {formatPrice(priceState.realPrice || trip.pricing.total, trip.pricing.currency)}
               </span>
             </div>
             <div className="bg-green-500/90 px-3 py-1 rounded-full shadow-lg">
-              <span className="text-white text-xs font-medium">✓ Within budget</span>
+              <span className="text-white text-xs font-medium">✓ Verified price</span>
             </div>
           </div>
         ) : (

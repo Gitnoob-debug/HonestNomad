@@ -20,6 +20,7 @@ export default function FlashSwipePage() {
     goBack,
     canGoBack,
     preferencesLoading,
+    tripPrices,
   } = useFlashVacation();
 
   const { trackSwipe } = useRevealedPreferences();
@@ -109,6 +110,7 @@ export default function FlashSwipePage() {
     <ImmersiveSwipeContainer
       trips={trips}
       currentIndex={currentTripIndex}
+      tripPrices={tripPrices}
       onSwipeLeft={swipeLeft}
       onSwipeRight={swipeRight}
       onGoBack={goBack}

@@ -3,8 +3,18 @@
 import { useState } from 'react';
 import { FlashTripPackage } from '@/types/flash';
 
+interface PriceState {
+  loading: boolean;
+  loaded: boolean;
+  error?: string;
+  realPrice?: number;
+  overBudget?: boolean;
+  budgetDiff?: number;
+}
+
 interface ImmersiveSwipeCardProps {
   trip: FlashTripPackage;
+  priceState?: PriceState;
   onTap?: () => void;
   style?: React.CSSProperties;
   swipeDirection?: 'left' | 'right' | null;
@@ -14,6 +24,7 @@ interface ImmersiveSwipeCardProps {
 
 export function ImmersiveSwipeCard({
   trip,
+  priceState,
   onTap,
   style,
   swipeDirection,
@@ -112,13 +123,53 @@ export function ImmersiveSwipeCard({
         </div>
       )}
 
-      {/* Top right: Price badge */}
+      {/* Top right: Price badge with loading state */}
       <div className="absolute top-8 right-4 z-10">
-        <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
-          <span className="font-bold text-gray-900 text-lg">
-            {formatPrice(trip.pricing.total, trip.pricing.currency)}
-          </span>
-        </div>
+        {priceState?.loading ? (
+          // Loading state
+          <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
+            <div className="w-4 h-4 border-2 border-gray-300 border-t-gray-600 rounded-full animate-spin" />
+            <span className="text-gray-600 text-sm font-medium">Checking price...</span>
+          </div>
+        ) : priceState?.overBudget ? (
+          // Over budget warning
+          <div className="flex flex-col items-end gap-1">
+            <div className="bg-amber-500 px-4 py-2 rounded-full shadow-lg">
+              <span className="font-bold text-white text-lg">
+                {formatPrice(trip.pricing.total, trip.pricing.currency)}
+              </span>
+            </div>
+            <div className="bg-red-500/90 px-3 py-1 rounded-full shadow-lg">
+              <span className="text-white text-xs font-medium">
+                +{formatPrice(priceState.budgetDiff || 0, trip.pricing.currency)} over budget
+              </span>
+            </div>
+          </div>
+        ) : priceState?.loaded ? (
+          // Price loaded and within budget
+          <div className="flex flex-col items-end gap-1">
+            <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
+              <span className="font-bold text-gray-900 text-lg">
+                {formatPrice(trip.pricing.total, trip.pricing.currency)}
+              </span>
+            </div>
+            <div className="bg-green-500/90 px-3 py-1 rounded-full shadow-lg">
+              <span className="text-white text-xs font-medium">✓ Within budget</span>
+            </div>
+          </div>
+        ) : (
+          // Default/estimated price (no priceState provided or error)
+          <div className="flex flex-col items-end gap-1">
+            <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
+              <span className="font-bold text-gray-900 text-lg">
+                ~{formatPrice(trip.pricing.total, trip.pricing.currency)}
+              </span>
+            </div>
+            <div className="bg-white/80 px-2 py-0.5 rounded-full">
+              <span className="text-gray-600 text-xs">Est. price</span>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Top left: Match score (if high) */}

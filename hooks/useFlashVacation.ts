@@ -7,6 +7,16 @@ import type {
   FlashGenerateParams,
 } from '@/types/flash';
 
+// Track price loading state for each trip
+interface TripPriceState {
+  loading: boolean;
+  loaded: boolean;
+  error?: string;
+  realPrice?: number;
+  overBudget?: boolean;
+  budgetDiff?: number; // Positive = over budget, negative = under
+}
+
 interface FlashVacationState {
   // Preferences
   preferences: FlashVacationPreferences | null;
@@ -26,6 +36,9 @@ interface FlashVacationState {
   selectedTrip: FlashTripPackage | null;
   lastGenerateParams: FlashGenerateParams | null;
 
+  // Price loading (keyed by trip id)
+  tripPrices: Record<string, TripPriceState>;
+
   // Actions
   error: string | null;
 }
@@ -43,6 +56,7 @@ const initialState: FlashVacationState = {
   currentTripIndex: 0,
   selectedTrip: null,
   lastGenerateParams: null,
+  tripPrices: {},
   error: null,
 };
 
@@ -173,6 +187,12 @@ export function useFlashVacation() {
 
       const data = await response.json();
 
+      // Initialize price states for all trips
+      const initialPriceStates: Record<string, TripPriceState> = {};
+      data.trips.forEach((trip: FlashTripPackage) => {
+        initialPriceStates[trip.id] = { loading: true, loaded: false };
+      });
+
       setState(prev => ({
         ...prev,
         isGenerating: false,
@@ -182,10 +202,14 @@ export function useFlashVacation() {
         trips: data.trips,
         currentTripIndex: 0,
         lastGenerateParams: params,
+        tripPrices: initialPriceStates,
       }));
 
       // Save to session storage
       saveTripsToSession(data.sessionId, data.trips, 0, params);
+
+      // Start background price loading
+      loadPricesInBackground(data.trips, params);
 
       return data.trips;
     } catch (error: any) {
@@ -257,6 +281,114 @@ export function useFlashVacation() {
       selectedTrip: null,
     }));
   }, []);
+
+  // Background price loading - fetches real flight prices for all trips
+  const loadPricesInBackground = useCallback(async (
+    trips: FlashTripPackage[],
+    params: FlashGenerateParams
+  ) => {
+    // Get user's budget max from preferences
+    const budgetMax = state.preferences?.budget?.perTripMax || 5000;
+    const flightBudget = budgetMax * 0.5; // ~50% of budget for flights
+
+    // Process trips in parallel with controlled concurrency
+    const concurrency = 4;
+    const queue = [...trips];
+
+    const processTrip = async (trip: FlashTripPackage) => {
+      try {
+        // Fetch real flight price
+        const response = await fetch('/api/flights/search', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            origin: state.preferences?.homeBase?.airportCode || 'JFK',
+            destination: trip.destination.airportCode,
+            departureDate: params.departureDate,
+            returnDate: params.returnDate,
+            quickPrice: true, // Just get the best price, not full details
+          }),
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch price');
+        }
+
+        const data = await response.json();
+        const bestFlight = data.flights?.[0];
+        const realPrice = bestFlight?.pricing?.totalAmount || trip.pricing.flight;
+        const overBudget = realPrice > flightBudget;
+        const budgetDiff = realPrice - flightBudget;
+
+        // Update the trip's price in state
+        setState(prev => {
+          // Update trip prices state
+          const newTripPrices = {
+            ...prev.tripPrices,
+            [trip.id]: {
+              loading: false,
+              loaded: true,
+              realPrice,
+              overBudget,
+              budgetDiff,
+            },
+          };
+
+          // Also update the trip object itself with real price
+          const newTrips = prev.trips.map(t => {
+            if (t.id === trip.id) {
+              return {
+                ...t,
+                flight: {
+                  ...t.flight,
+                  price: realPrice,
+                  offerId: bestFlight?.duffelOfferId || t.flight.offerId,
+                },
+                pricing: {
+                  ...t.pricing,
+                  flight: realPrice,
+                  total: realPrice + (t.pricing.hotel || 0),
+                  perPerson: (realPrice + (t.pricing.hotel || 0)) / (state.preferences?.travelers?.adults || 2),
+                },
+                flightsLoaded: true,
+              };
+            }
+            return t;
+          });
+
+          // Save updated trips to session
+          if (prev.sessionId) {
+            saveTripsToSession(prev.sessionId, newTrips, prev.currentTripIndex, prev.lastGenerateParams);
+          }
+
+          return {
+            ...prev,
+            trips: newTrips,
+            tripPrices: newTripPrices,
+          };
+        });
+      } catch (error) {
+        // Mark as error but keep estimated price
+        setState(prev => ({
+          ...prev,
+          tripPrices: {
+            ...prev.tripPrices,
+            [trip.id]: {
+              loading: false,
+              loaded: false,
+              error: 'Could not verify price',
+            },
+          },
+        }));
+      }
+    };
+
+    // Process in batches
+    for (let i = 0; i < queue.length; i += concurrency) {
+      const batch = queue.slice(i, i + concurrency);
+      await Promise.all(batch.map(processTrip));
+    }
+  }, [state.preferences]);
 
   const regenerate = useCallback(async (params: FlashGenerateParams) => {
     // Clear current trips

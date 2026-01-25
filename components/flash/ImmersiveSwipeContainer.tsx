@@ -6,9 +6,19 @@ import { ImmersiveSwipeCard } from './ImmersiveSwipeCard';
 import { TripDetailModal } from './TripDetailModal';
 import type { FlashTripPackage } from '@/types/flash';
 
+interface TripPriceState {
+  loading: boolean;
+  loaded: boolean;
+  error?: string;
+  realPrice?: number;
+  overBudget?: boolean;
+  budgetDiff?: number;
+}
+
 interface ImmersiveSwipeContainerProps {
   trips: FlashTripPackage[];
   currentIndex: number;
+  tripPrices?: Record<string, TripPriceState>;
   onSwipeLeft: () => void;
   onSwipeRight: () => void;
   onGoBack?: () => void;
@@ -19,6 +29,7 @@ interface ImmersiveSwipeContainerProps {
 export function ImmersiveSwipeContainer({
   trips,
   currentIndex,
+  tripPrices,
   onSwipeLeft,
   onSwipeRight,
   onGoBack,
@@ -163,7 +174,11 @@ export function ImmersiveSwipeContainer({
             {/* Background card (next trip preview) - subtle */}
             {hasMoreTrips && nextTrip && (
               <div className="absolute inset-0 scale-[0.92] opacity-40">
-                <ImmersiveSwipeCard trip={nextTrip} isActive={false} />
+                <ImmersiveSwipeCard
+                  trip={nextTrip}
+                  priceState={tripPrices?.[nextTrip.id]}
+                  isActive={false}
+                />
               </div>
             )}
 
@@ -179,6 +194,7 @@ export function ImmersiveSwipeContainer({
               >
                 <ImmersiveSwipeCard
                   trip={currentTrip}
+                  priceState={tripPrices?.[currentTrip.id]}
                   onTap={() => setExpandedTrip(currentTrip)}
                   swipeDirection={swipeState.direction === 'left' || swipeState.direction === 'right' ? swipeState.direction : null}
                   swipeProgress={swipeState.progress}

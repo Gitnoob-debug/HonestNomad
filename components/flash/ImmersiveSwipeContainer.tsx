@@ -106,26 +106,49 @@ export function ImmersiveSwipeContainer({
 
   if (isExhausted) {
     return (
-      <div className="fixed inset-0 bg-gray-900 flex flex-col items-center justify-center text-center px-6">
-        <div className="w-24 h-24 bg-gray-800 rounded-full flex items-center justify-center mb-6">
-          <svg className="w-12 h-12 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
+      <div className="fixed inset-0 bg-gradient-to-br from-primary-900 via-gray-900 to-gray-900 flex flex-col items-center justify-center text-center px-6">
+        {/* Decorative travel icons */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-10">
+          <div className="absolute top-20 left-10 text-6xl">✈️</div>
+          <div className="absolute top-32 right-16 text-4xl">🌍</div>
+          <div className="absolute bottom-40 left-20 text-5xl">🏝️</div>
+          <div className="absolute bottom-28 right-10 text-4xl">🗺️</div>
         </div>
-        <h3 className="text-2xl font-bold text-white mb-3">
-          That's all for now!
-        </h3>
-        <p className="text-gray-400 mb-8 max-w-sm">
-          You've explored all the destinations. Ready to discover more?
-        </p>
-        {onRegenerate && (
-          <button
-            onClick={onRegenerate}
-            className="px-8 py-4 bg-white text-gray-900 font-semibold rounded-full hover:bg-gray-100 transition-colors text-lg"
-          >
-            Find More Trips
-          </button>
-        )}
+
+        <div className="relative z-10">
+          {/* Compass icon */}
+          <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg shadow-primary-500/30">
+            <svg className="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+            </svg>
+          </div>
+
+          <h3 className="text-2xl font-bold text-white mb-3">
+            Nothing catching your eye?
+          </h3>
+          <p className="text-gray-400 mb-8 max-w-xs mx-auto leading-relaxed">
+            No worries! Try a different vibe, dates, or destination to discover your perfect getaway.
+          </p>
+
+          {onRegenerate && (
+            <button
+              onClick={onRegenerate}
+              className="px-8 py-4 bg-white text-gray-900 font-semibold rounded-full hover:bg-gray-100 transition-all text-lg shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95"
+            >
+              Start New Search
+            </button>
+          )}
+
+          {/* Go back option */}
+          {canGoBack && (
+            <button
+              onClick={onGoBack}
+              className="mt-4 px-6 py-2 text-white/70 hover:text-white text-sm transition-colors"
+            >
+              ← Go back to previous trips
+            </button>
+          )}
+        </div>
       </div>
     );
   }

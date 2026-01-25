@@ -45,22 +45,18 @@ export async function generateTripBatch(
   report('finding_destinations', 0, 'Finding perfect destinations...');
 
   // Step 1: Select diverse destinations (with revealed preference learning)
-  let destinations = selectDestinations({
+  // Request some extras in case some destinations fail flight search
+  const destinations = selectDestinations({
     profile,
     departureDate: params.departureDate,
     returnDate: params.returnDate,
     vibes: params.vibe,
     region: params.region,
-    count: count + 8, // Request extras in case some fail or are excluded
+    count: count + 4, // Request 4 extras in case some fail flight search
     originAirport: profile.homeBase.airportCode,
     revealedPreferences, // Pass learned preferences for smarter selection
+    excludeDestinations: params.excludeDestinations, // Exclude already shown cities
   });
-
-  // Filter out excluded destinations (for lazy loading)
-  if (params.excludeDestinations && params.excludeDestinations.length > 0) {
-    const excludeSet = new Set(params.excludeDestinations.map(d => d.toLowerCase()));
-    destinations = destinations.filter(d => !excludeSet.has(d.city.toLowerCase()));
-  }
 
   report('searching_flights', 20, `Searching flights to ${destinations.length} destinations...`);
 

@@ -118,6 +118,8 @@ export const WIZARD_STEP_TITLES: Record<WizardStep, string> = {
 // Flash Plan generation types
 export type DateFlexibility = 'exact' | 'flex1' | 'flex3';
 
+export type BudgetMode = 'regular' | 'bargain' | 'custom';
+
 export interface FlashGenerateParams {
   departureDate: string;
   returnDate: string;
@@ -126,6 +128,8 @@ export interface FlashGenerateParams {
   region?: string;
   count?: number;
   excludeDestinations?: string[]; // For lazy loading - don't repeat cities
+  budgetMode?: BudgetMode; // Budget approach for this search
+  customBudget?: string; // Custom budget description when budgetMode is 'custom' (e.g., "$2000", "up to $5000")
 }
 
 export interface FlashGenerateResponse {

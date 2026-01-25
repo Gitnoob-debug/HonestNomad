@@ -33,7 +33,24 @@
       "Bash(ls:*)",
       "Bash(tasklist:*)",
       "Bash(findstr:*)",
-      "Bash(python -c:*)"
+      "Bash(python -c:*)",
+      "Bash(node scripts/strip-api-keys.js:*)",
+      "Bash(for city in dublin mykonos seville nice)",
+      "Bash(do echo \"=== $city ===\")",
+      "Bash(for city in stockholm oslo brussels zurich porto split)",
+      "Bash(xargs:*)",
+      "Bash(for city in reykjavik krakow helsinki salzburg valencia lyon marseille naples cinque-terre amalfi)",
+      "Bash(for city in ibiza granada malaga warsaw tallinn riga vilnius)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout:*)",
+      "Bash(Get-Content \"C:\\\\HonestNomad\\\\app\\\\flash\\\\explore\\\\page.tsx\")",
+      "Bash(Measure-Object -Line)",
+      "Bash(taskkill:*)",
+      "Bash(powershell -Command \"Get-Content ''C:\\\\HonestNomad\\\\data\\\\pois\\\\london.json'' | ConvertFrom-Json | ConvertTo-Json -Depth 1 | Select-Object -First 50\")",
+      "Bash(powershell -Command:*)",
+      "Bash(wc:*)",
+      "Bash(npm run lint:*)",
+      "Bash(git rm:*)"
     ]
   }
 }

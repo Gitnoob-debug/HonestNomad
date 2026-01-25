@@ -24,6 +24,7 @@ interface SelectionParams {
   count: number;
   originAirport: string;
   revealedPreferences?: RevealedPreferences; // User's learned preferences from swipe behavior
+  excludeDestinations?: string[]; // Cities to exclude (for lazy loading)
 }
 
 /**
@@ -199,7 +200,7 @@ function scoreBudgetFit(destination: Destination, profile: FlashVacationPreferen
  * Select a diverse set of destinations based on profile and preferences
  */
 export function selectDestinations(params: SelectionParams): Destination[] {
-  const { profile, departureDate, returnDate, vibes, region, count, originAirport, revealedPreferences } = params;
+  const { profile, departureDate, returnDate, vibes, region, count, originAirport, revealedPreferences, excludeDestinations } = params;
 
   // Start with all destinations
   let candidates = [...DESTINATIONS];
@@ -211,6 +212,12 @@ export function selectDestinations(params: SelectionParams): Destination[] {
 
   // Don't suggest the origin city
   candidates = candidates.filter(d => d.airportCode !== originAirport);
+
+  // Filter out excluded destinations (for lazy loading - exclude already shown cities)
+  if (excludeDestinations && excludeDestinations.length > 0) {
+    const excludeSet = new Set(excludeDestinations.map(d => d.toLowerCase()));
+    candidates = candidates.filter(d => !excludeSet.has(d.city.toLowerCase()));
+  }
 
   // Check if we have enough revealed preference data to use it
   const useRevealedPrefs = revealedPreferences && hasEnoughSignals(revealedPreferences);

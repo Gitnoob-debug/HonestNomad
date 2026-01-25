@@ -52,14 +52,33 @@ export async function POST(request: NextRequest) {
     console.log(`Travelers: ${preferences.travelers?.adults || 2} adults`);
 
     // Search hotels
-    const hotels = await searchHotelsForTrip({
-      latitude,
-      longitude,
-      checkin,
-      checkout,
-      preferences,
-      limit: 5,
-    });
+    let hotels;
+    try {
+      hotels = await searchHotelsForTrip({
+        latitude,
+        longitude,
+        checkin,
+        checkout,
+        preferences,
+        limit: 5,
+      });
+    } catch (hotelError) {
+      console.error('LiteAPI hotel search failed:', hotelError);
+      const errorMessage = hotelError instanceof Error ? hotelError.message : 'Unknown error';
+
+      // Check for common issues
+      if (errorMessage.includes('key not configured')) {
+        return NextResponse.json(
+          { error: 'Hotel service not configured', details: 'API key missing - contact support' },
+          { status: 503 }
+        );
+      }
+
+      return NextResponse.json(
+        { error: 'Hotel search failed', details: errorMessage },
+        { status: 500 }
+      );
+    }
 
     console.log(`Found ${hotels.length} hotels matching preferences`);
 
@@ -75,8 +94,12 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error('Hotel search error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    const errorStack = error instanceof Error ? error.stack : '';
+    console.error('Stack:', errorStack);
+
     return NextResponse.json(
-      { error: 'Failed to search hotels', details: error instanceof Error ? error.message : 'Unknown error' },
+      { error: 'Failed to search hotels', details: errorMessage },
       { status: 500 }
     );
   }

@@ -195,6 +195,7 @@ function FlashExploreContent() {
   const [flightError, setFlightError] = useState<string | null>(null);
   const [flightFetchAttempted, setFlightFetchAttempted] = useState(false);
   const [showOutOfPref, setShowOutOfPref] = useState(false);
+  const [expandedFlightId, setExpandedFlightId] = useState<string | null>(null);
 
   // Load trip from draft (if resuming) or session storage
   useEffect(() => {
@@ -995,6 +996,21 @@ function FlashExploreContent() {
     return new Date(dateStr).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
   };
 
+  // Helper to format date
+  const formatDate = (dateStr: string) => {
+    return new Date(dateStr).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+  };
+
+  // Helper to calculate layover duration
+  const calculateLayover = (arrival: string, departure: string) => {
+    const arrTime = new Date(arrival).getTime();
+    const depTime = new Date(departure).getTime();
+    const diffMs = depTime - arrTime;
+    const hours = Math.floor(diffMs / (1000 * 60 * 60));
+    const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+    return `${hours}h ${minutes}m`;
+  };
+
   // Step 3: Flight booking
   if (step === 'flights') {
     return (
@@ -1069,19 +1085,20 @@ function FlashExploreContent() {
                       const outbound = flight.slices?.[0];
                       const returnFlight = flight.slices?.[1];
                       const isSelected = selectedFlight?.id === flight.id && !skipFlights;
+                      const isExpanded = expandedFlightId === flight.id;
 
                       return (
-                        <button
+                        <div
                           key={flight.id}
-                          onClick={() => {
-                            setSelectedFlight(flight);
-                            setSkipFlights(false);
-                          }}
                           className={`w-full text-left bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden transition-all ${
-                            isSelected ? 'ring-2 ring-white' : 'hover:bg-white/15'
+                            isSelected ? 'ring-2 ring-white' : ''
                           }`}
                         >
-                          <div className="p-4">
+                          {/* Collapsed view - always visible */}
+                          <button
+                            onClick={() => setExpandedFlightId(isExpanded ? null : flight.id)}
+                            className="w-full p-4 text-left hover:bg-white/5 transition-colors"
+                          >
                             {/* Airline and price row */}
                             <div className="flex items-center justify-between mb-3">
                               <div className="flex items-center gap-2">
@@ -1101,27 +1118,37 @@ function FlashExploreContent() {
                                   </p>
                                 </div>
                               </div>
-                              <div className="text-right">
-                                <p className="text-white font-bold text-lg">
-                                  {formatPrice(flight.pricing?.totalAmount || 0, flight.pricing?.currency || 'USD')}
-                                </p>
-                                <p className="text-white/50 text-xs">
-                                  {formatPrice(flight.pricing?.perPassenger || 0, flight.pricing?.currency || 'USD')}/person
-                                </p>
+                              <div className="text-right flex items-center gap-3">
+                                <div>
+                                  <p className="text-white font-bold text-lg">
+                                    {formatPrice(flight.pricing?.totalAmount || 0, flight.pricing?.currency || 'USD')}
+                                  </p>
+                                  <p className="text-white/50 text-xs">
+                                    {formatPrice(flight.pricing?.perPassenger || 0, flight.pricing?.currency || 'USD')}/person
+                                  </p>
+                                </div>
+                                <svg
+                                  className={`w-5 h-5 text-white/60 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                                  fill="none"
+                                  viewBox="0 0 24 24"
+                                  stroke="currentColor"
+                                >
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                </svg>
                               </div>
                             </div>
 
-                            {/* Flight times */}
+                            {/* Flight times summary */}
                             <div className="grid grid-cols-2 gap-3 mb-3">
                               <div className="bg-white/5 rounded-lg p-2">
-                                <p className="text-white/50 text-xs mb-1">OUTBOUND</p>
+                                <p className="text-white/50 text-xs mb-1">OUTBOUND · {formatDate(outbound?.departureTime)}</p>
                                 <p className="text-white text-sm font-medium">
                                   {formatTime(outbound?.departureTime)} → {formatTime(outbound?.arrivalTime)}
                                 </p>
                               </div>
                               {returnFlight && (
                                 <div className="bg-white/5 rounded-lg p-2">
-                                  <p className="text-white/50 text-xs mb-1">RETURN</p>
+                                  <p className="text-white/50 text-xs mb-1">RETURN · {formatDate(returnFlight?.departureTime)}</p>
                                   <p className="text-white text-sm font-medium">
                                     {formatTime(returnFlight?.departureTime)} → {formatTime(returnFlight?.arrivalTime)}
                                   </p>
@@ -1142,17 +1169,268 @@ function FlashExploreContent() {
                                 ))}
                               </div>
                             )}
+                          </button>
 
-                            {/* Selection indicator */}
-                            {isSelected && (
-                              <div className="absolute top-3 right-3 w-6 h-6 bg-white rounded-full flex items-center justify-center">
-                                <svg className="w-4 h-4 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                                </svg>
+                          {/* Expanded details */}
+                          {isExpanded && (
+                            <div className="border-t border-white/10 p-4 space-y-4">
+                              {/* Outbound flight details */}
+                              <div>
+                                <h4 className="text-white/60 text-xs font-semibold mb-3 uppercase tracking-wide">Outbound Flight</h4>
+                                <div className="space-y-3">
+                                  {outbound?.segments?.map((segment: any, idx: number) => (
+                                    <div key={segment.id}>
+                                      {/* Segment */}
+                                      <div className="flex items-start gap-3">
+                                        <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0">
+                                          {segment.airline?.logoUrl ? (
+                                            <img src={segment.airline.logoUrl} alt={segment.airline.name} className="w-6 h-6 rounded" />
+                                          ) : (
+                                            <span className="text-lg">✈️</span>
+                                          )}
+                                        </div>
+                                        <div className="flex-1">
+                                          <div className="flex items-center gap-2 mb-1">
+                                            <span className="text-white font-medium">{segment.airline?.name || 'Airline'}</span>
+                                            <span className="text-white/40 text-xs">{segment.flightNumber}</span>
+                                            {segment.aircraft && (
+                                              <span className="text-white/40 text-xs">· {segment.aircraft}</span>
+                                            )}
+                                          </div>
+                                          <div className="flex items-center gap-4 text-sm">
+                                            <div>
+                                              <p className="text-white font-semibold">{formatTime(segment.departureTime)}</p>
+                                              <p className="text-white/60">{segment.departureAirport?.code} · {segment.departureAirport?.city}</p>
+                                              {segment.departureTerminal && (
+                                                <p className="text-white/40 text-xs">Terminal {segment.departureTerminal}</p>
+                                              )}
+                                            </div>
+                                            <div className="flex-1 flex items-center gap-2">
+                                              <div className="h-px flex-1 bg-white/20"></div>
+                                              <span className="text-white/50 text-xs">{formatDuration(segment.duration)}</span>
+                                              <div className="h-px flex-1 bg-white/20"></div>
+                                            </div>
+                                            <div className="text-right">
+                                              <p className="text-white font-semibold">{formatTime(segment.arrivalTime)}</p>
+                                              <p className="text-white/60">{segment.arrivalAirport?.code} · {segment.arrivalAirport?.city}</p>
+                                              {segment.arrivalTerminal && (
+                                                <p className="text-white/40 text-xs">Terminal {segment.arrivalTerminal}</p>
+                                              )}
+                                            </div>
+                                          </div>
+                                          {/* Segment amenities */}
+                                          <div className="flex items-center gap-3 mt-2">
+                                            {segment.cabinClassMarketingName && (
+                                              <span className="text-white/50 text-xs">{segment.cabinClassMarketingName}</span>
+                                            )}
+                                            {segment.wifi?.available && (
+                                              <span className="text-white/50 text-xs flex items-center gap-1">
+                                                <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                                                  <path fillRule="evenodd" d="M17.778 8.222c-4.296-4.296-11.26-4.296-15.556 0A1 1 0 01.808 6.808c5.076-5.077 13.308-5.077 18.384 0a1 1 0 01-1.414 1.414zM14.95 11.05a7 7 0 00-9.9 0 1 1 0 01-1.414-1.414 9 9 0 0112.728 0 1 1 0 01-1.414 1.414zM12.12 13.88a3 3 0 00-4.242 0 1 1 0 01-1.415-1.415 5 5 0 017.072 0 1 1 0 01-1.415 1.415zM9 16a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
+                                                </svg>
+                                                WiFi
+                                              </span>
+                                            )}
+                                            {segment.power?.available && (
+                                              <span className="text-white/50 text-xs flex items-center gap-1">
+                                                <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                                                  <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
+                                                </svg>
+                                                Power
+                                              </span>
+                                            )}
+                                            {segment.seatPitch && (
+                                              <span className="text-white/50 text-xs">{segment.seatPitch} pitch</span>
+                                            )}
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* Layover between segments */}
+                                      {idx < outbound.segments.length - 1 && (
+                                        <div className="ml-13 my-3 flex items-center gap-3 pl-10">
+                                          <div className="w-6 h-6 rounded-full bg-amber-500/20 flex items-center justify-center">
+                                            <svg className="w-3 h-3 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                          </div>
+                                          <span className="text-amber-400 text-sm">
+                                            {calculateLayover(segment.arrivalTime, outbound.segments[idx + 1].departureTime)} layover in {segment.arrivalAirport?.city}
+                                          </span>
+                                        </div>
+                                      )}
+                                    </div>
+                                  ))}
+                                </div>
                               </div>
-                            )}
-                          </div>
-                        </button>
+
+                              {/* Return flight details */}
+                              {returnFlight && (
+                                <div>
+                                  <h4 className="text-white/60 text-xs font-semibold mb-3 uppercase tracking-wide">Return Flight</h4>
+                                  <div className="space-y-3">
+                                    {returnFlight?.segments?.map((segment: any, idx: number) => (
+                                      <div key={segment.id}>
+                                        {/* Segment */}
+                                        <div className="flex items-start gap-3">
+                                          <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0">
+                                            {segment.airline?.logoUrl ? (
+                                              <img src={segment.airline.logoUrl} alt={segment.airline.name} className="w-6 h-6 rounded" />
+                                            ) : (
+                                              <span className="text-lg">✈️</span>
+                                            )}
+                                          </div>
+                                          <div className="flex-1">
+                                            <div className="flex items-center gap-2 mb-1">
+                                              <span className="text-white font-medium">{segment.airline?.name || 'Airline'}</span>
+                                              <span className="text-white/40 text-xs">{segment.flightNumber}</span>
+                                            </div>
+                                            <div className="flex items-center gap-4 text-sm">
+                                              <div>
+                                                <p className="text-white font-semibold">{formatTime(segment.departureTime)}</p>
+                                                <p className="text-white/60">{segment.departureAirport?.code} · {segment.departureAirport?.city}</p>
+                                              </div>
+                                              <div className="flex-1 flex items-center gap-2">
+                                                <div className="h-px flex-1 bg-white/20"></div>
+                                                <span className="text-white/50 text-xs">{formatDuration(segment.duration)}</span>
+                                                <div className="h-px flex-1 bg-white/20"></div>
+                                              </div>
+                                              <div className="text-right">
+                                                <p className="text-white font-semibold">{formatTime(segment.arrivalTime)}</p>
+                                                <p className="text-white/60">{segment.arrivalAirport?.code} · {segment.arrivalAirport?.city}</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        {/* Layover */}
+                                        {idx < returnFlight.segments.length - 1 && (
+                                          <div className="ml-13 my-3 flex items-center gap-3 pl-10">
+                                            <div className="w-6 h-6 rounded-full bg-amber-500/20 flex items-center justify-center">
+                                              <svg className="w-3 h-3 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                              </svg>
+                                            </div>
+                                            <span className="text-amber-400 text-sm">
+                                              {calculateLayover(segment.arrivalTime, returnFlight.segments[idx + 1].departureTime)} layover in {segment.arrivalAirport?.city}
+                                            </span>
+                                          </div>
+                                        )}
+                                      </div>
+                                    ))}
+                                  </div>
+                                </div>
+                              )}
+
+                              {/* Baggage & Fare info */}
+                              <div className="grid grid-cols-2 gap-3">
+                                {/* Baggage */}
+                                <div className="bg-white/5 rounded-xl p-3">
+                                  <h5 className="text-white/60 text-xs mb-2 uppercase">Baggage</h5>
+                                  <div className="space-y-1">
+                                    <div className="flex items-center gap-2">
+                                      <svg className="w-4 h-4 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                      </svg>
+                                      <span className="text-white text-sm">
+                                        {flight.baggageAllowance?.carryOn ? 'Carry-on included' : 'No carry-on'}
+                                      </span>
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                      <svg className="w-4 h-4 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                                      </svg>
+                                      <span className="text-white text-sm">
+                                        {flight.baggageAllowance?.checkedBags > 0
+                                          ? `${flight.baggageAllowance.checkedBags} checked bag${flight.baggageAllowance.checkedBags > 1 ? 's' : ''}`
+                                          : 'No checked bags'}
+                                        {flight.baggageAllowance?.checkedBagWeightKg && (
+                                          <span className="text-white/50"> ({flight.baggageAllowance.checkedBagWeightKg}kg each)</span>
+                                        )}
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                {/* Fare conditions */}
+                                <div className="bg-white/5 rounded-xl p-3">
+                                  <h5 className="text-white/60 text-xs mb-2 uppercase">Fare Conditions</h5>
+                                  <div className="space-y-1">
+                                    <div className="flex items-center gap-2">
+                                      {flight.restrictions?.refundable ? (
+                                        <>
+                                          <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                          </svg>
+                                          <span className="text-green-400 text-sm">Refundable</span>
+                                        </>
+                                      ) : (
+                                        <>
+                                          <svg className="w-4 h-4 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                          </svg>
+                                          <span className="text-white/60 text-sm">Non-refundable</span>
+                                        </>
+                                      )}
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                      {flight.restrictions?.changeable ? (
+                                        <>
+                                          <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                          </svg>
+                                          <span className="text-green-400 text-sm">
+                                            Changeable
+                                            {flight.restrictions?.changesFee && (
+                                              <span className="text-white/50"> (${flight.restrictions.changesFee} fee)</span>
+                                            )}
+                                          </span>
+                                        </>
+                                      ) : (
+                                        <>
+                                          <svg className="w-4 h-4 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                          </svg>
+                                          <span className="text-white/60 text-sm">No changes allowed</span>
+                                        </>
+                                      )}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              {/* Fare brand & cabin */}
+                              <div className="flex items-center gap-3">
+                                {outbound?.fareBrandName && (
+                                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">
+                                    {outbound.fareBrandName}
+                                  </span>
+                                )}
+                                <span className="px-3 py-1 bg-white/10 text-white/70 rounded-full text-xs capitalize">
+                                  {flight.cabinClass?.replace('_', ' ') || 'Economy'}
+                                </span>
+                                {flight.totalEmissionsKg && (
+                                  <span className="px-3 py-1 bg-green-500/10 text-green-400/70 rounded-full text-xs">
+                                    {flight.totalEmissionsKg}kg CO₂
+                                  </span>
+                                )}
+                              </div>
+
+                              {/* Select button */}
+                              <button
+                                onClick={() => {
+                                  setSelectedFlight(flight);
+                                  setSkipFlights(false);
+                                }}
+                                className={`w-full py-3 rounded-xl font-semibold transition-colors ${
+                                  isSelected
+                                    ? 'bg-white text-gray-900'
+                                    : 'bg-white/20 text-white hover:bg-white/30'
+                                }`}
+                              >
+                                {isSelected ? '✓ Selected' : 'Select This Flight'}
+                              </button>
+                            </div>
+                          )}
+                        </div>
                       );
                     })}
                   </div>
@@ -1183,31 +1461,43 @@ function FlashExploreContent() {
                     <div className="mt-3 space-y-3">
                       {outOfPrefFlights.slice(0, 5).map((flight: any) => {
                         const outbound = flight.slices?.[0];
+                        const returnFlight = flight.slices?.[1];
                         const isSelected = selectedFlight?.id === flight.id && !skipFlights;
+                        const isExpanded = expandedFlightId === flight.id;
 
                         return (
-                          <button
+                          <div
                             key={flight.id}
-                            onClick={() => {
-                              setSelectedFlight(flight);
-                              setSkipFlights(false);
-                            }}
                             className={`w-full text-left bg-white/5 backdrop-blur-md rounded-2xl overflow-hidden transition-all ${
-                              isSelected ? 'ring-2 ring-amber-500' : 'hover:bg-white/10'
+                              isSelected ? 'ring-2 ring-amber-500' : ''
                             }`}
                           >
-                            <div className="p-4">
+                            <button
+                              onClick={() => setExpandedFlightId(isExpanded ? null : flight.id)}
+                              className="w-full p-4 text-left hover:bg-white/5 transition-colors"
+                            >
                               <div className="flex items-center justify-between mb-2">
                                 <div className="flex items-center gap-2">
                                   <p className="text-white/80 font-medium">{flight.airlines?.[0]?.name || 'Multiple Airlines'}</p>
                                   <span className="text-white/40">·</span>
                                   <p className="text-white/50 text-sm">
                                     {outbound?.stops === 0 ? 'Direct' : `${outbound?.stops} stop${outbound?.stops > 1 ? 's' : ''}`}
+                                    {' · '}{formatDuration(outbound?.duration || 'PT0H')}
                                   </p>
                                 </div>
-                                <p className="text-white/80 font-bold">
-                                  {formatPrice(flight.pricing?.totalAmount || 0, flight.pricing?.currency || 'USD')}
-                                </p>
+                                <div className="flex items-center gap-2">
+                                  <p className="text-white/80 font-bold">
+                                    {formatPrice(flight.pricing?.totalAmount || 0, flight.pricing?.currency || 'USD')}
+                                  </p>
+                                  <svg
+                                    className={`w-4 h-4 text-white/40 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                  >
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                  </svg>
+                                </div>
                               </div>
                               {/* Out of preference reasons */}
                               {flight.outOfPreferenceReasons && flight.outOfPreferenceReasons.length > 0 && (
@@ -1222,8 +1512,64 @@ function FlashExploreContent() {
                                   ))}
                                 </div>
                               )}
-                            </div>
-                          </button>
+                            </button>
+
+                            {/* Expanded details for out-of-pref flights */}
+                            {isExpanded && (
+                              <div className="border-t border-white/10 p-4 space-y-3">
+                                {/* Times */}
+                                <div className="grid grid-cols-2 gap-3">
+                                  <div className="bg-white/5 rounded-lg p-2">
+                                    <p className="text-white/50 text-xs mb-1">OUTBOUND</p>
+                                    <p className="text-white text-sm font-medium">
+                                      {formatTime(outbound?.departureTime)} → {formatTime(outbound?.arrivalTime)}
+                                    </p>
+                                    <p className="text-white/40 text-xs">{formatDate(outbound?.departureTime)}</p>
+                                  </div>
+                                  {returnFlight && (
+                                    <div className="bg-white/5 rounded-lg p-2">
+                                      <p className="text-white/50 text-xs mb-1">RETURN</p>
+                                      <p className="text-white text-sm font-medium">
+                                        {formatTime(returnFlight?.departureTime)} → {formatTime(returnFlight?.arrivalTime)}
+                                      </p>
+                                      <p className="text-white/40 text-xs">{formatDate(returnFlight?.departureTime)}</p>
+                                    </div>
+                                  )}
+                                </div>
+
+                                {/* Quick info */}
+                                <div className="flex items-center gap-2 flex-wrap">
+                                  <span className="px-2 py-1 bg-white/10 text-white/70 rounded-full text-xs capitalize">
+                                    {flight.cabinClass?.replace('_', ' ') || 'Economy'}
+                                  </span>
+                                  {flight.baggageAllowance?.checkedBags > 0 && (
+                                    <span className="px-2 py-1 bg-white/10 text-white/70 rounded-full text-xs">
+                                      {flight.baggageAllowance.checkedBags} checked bag{flight.baggageAllowance.checkedBags > 1 ? 's' : ''}
+                                    </span>
+                                  )}
+                                  {flight.restrictions?.refundable && (
+                                    <span className="px-2 py-1 bg-green-500/20 text-green-400 rounded-full text-xs">
+                                      Refundable
+                                    </span>
+                                  )}
+                                </div>
+
+                                <button
+                                  onClick={() => {
+                                    setSelectedFlight(flight);
+                                    setSkipFlights(false);
+                                  }}
+                                  className={`w-full py-3 rounded-xl font-semibold transition-colors ${
+                                    isSelected
+                                      ? 'bg-amber-500 text-white'
+                                      : 'bg-white/20 text-white hover:bg-white/30'
+                                  }`}
+                                >
+                                  {isSelected ? '✓ Selected' : 'Select Anyway'}
+                                </button>
+                              </div>
+                            )}
+                          </div>
                         );
                       })}
                     </div>

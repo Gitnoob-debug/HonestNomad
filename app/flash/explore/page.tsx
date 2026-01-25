@@ -196,6 +196,7 @@ function FlashExploreContent() {
   const [flightFetchAttempted, setFlightFetchAttempted] = useState(false);
   const [showOutOfPref, setShowOutOfPref] = useState(false);
   const [expandedFlightId, setExpandedFlightId] = useState<string | null>(null);
+  const [expandedHotelId, setExpandedHotelId] = useState<string | null>(null);
 
   // Load trip from draft (if resuming) or session storage
   useEffect(() => {
@@ -1718,91 +1719,216 @@ function FlashExploreContent() {
                     Top picks for your stay in {trip.destination.city}
                   </p>
                   <div className="space-y-3 mb-4">
-                    {hotelOptions.map((hotel) => (
-                      <button
-                        key={hotel.id}
-                        onClick={() => {
-                          setSelectedHotel(hotel);
-                          setSkipHotels(false);
-                        }}
-                        className={`w-full text-left bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden transition-all ${
-                          selectedHotel?.id === hotel.id && !skipHotels
-                            ? 'ring-2 ring-white'
-                            : 'hover:bg-white/15'
-                        }`}
-                      >
-                        {/* Hotel image */}
-                        <div className="h-32 bg-gray-700 relative">
-                          <img
-                            src={hotel.mainPhoto}
-                            alt={hotel.name}
-                            className="w-full h-full object-cover"
-                            onError={(e) => {
-                              (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800';
-                            }}
-                          />
-                          {/* Selection indicator */}
-                          {selectedHotel?.id === hotel.id && !skipHotels && (
-                            <div className="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                              <svg className="w-5 h-5 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                              </svg>
-                            </div>
-                          )}
-                          {/* Refundable badge */}
-                          {hotel.refundable && (
-                            <div className="absolute top-3 left-3 px-2 py-1 bg-green-500/90 rounded-full">
-                              <span className="text-white text-xs font-medium">Free cancellation</span>
-                            </div>
-                          )}
-                        </div>
-                        <div className="p-4">
-                          <div className="flex items-start justify-between mb-2">
-                            <div className="flex-1 min-w-0 pr-3">
-                              <h3 className="text-white font-semibold truncate">{hotel.name}</h3>
-                              <div className="flex items-center gap-2 mt-1">
-                                <span className="text-amber-400 text-sm">{'★'.repeat(hotel.stars)}</span>
-                                {hotel.rating > 0 && (
-                                  <span className="text-white/60 text-sm">
-                                    {hotel.rating.toFixed(1)} ({hotel.reviewCount} reviews)
-                                  </span>
-                                )}
+                    {hotelOptions.map((hotel) => {
+                      const isSelected = selectedHotel?.id === hotel.id && !skipHotels;
+                      const isExpanded = expandedHotelId === hotel.id;
+
+                      return (
+                        <div
+                          key={hotel.id}
+                          className={`w-full text-left bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden transition-all ${
+                            isSelected ? 'ring-2 ring-white' : ''
+                          }`}
+                        >
+                          {/* Clickable header */}
+                          <button
+                            onClick={() => setExpandedHotelId(isExpanded ? null : hotel.id)}
+                            className="w-full text-left"
+                          >
+                            {/* Hotel image */}
+                            <div className="h-32 bg-gray-700 relative">
+                              <img
+                                src={hotel.mainPhoto}
+                                alt={hotel.name}
+                                className="w-full h-full object-cover"
+                                onError={(e) => {
+                                  (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800';
+                                }}
+                              />
+                              {/* Selection indicator */}
+                              {isSelected && (
+                                <div className="absolute top-3 right-3 w-8 h-8 bg-white rounded-full flex items-center justify-center">
+                                  <svg className="w-5 h-5 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                                  </svg>
+                                </div>
+                              )}
+                              {/* Refundable badge */}
+                              {hotel.refundable && (
+                                <div className="absolute top-3 left-3 px-2 py-1 bg-green-500/90 rounded-full">
+                                  <span className="text-white text-xs font-medium">Free cancellation</span>
+                                </div>
+                              )}
+                              {/* Expand indicator */}
+                              <div className="absolute bottom-3 right-3 w-8 h-8 bg-black/50 rounded-full flex items-center justify-center">
+                                <svg
+                                  className={`w-5 h-5 text-white transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                                  fill="none"
+                                  viewBox="0 0 24 24"
+                                  stroke="currentColor"
+                                >
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                </svg>
                               </div>
                             </div>
-                            <div className="text-right flex-shrink-0">
-                              <p className="text-white font-bold text-lg">
-                                {formatPrice(hotel.totalPrice, hotel.currency)}
-                              </p>
-                              <p className="text-white/50 text-xs">
-                                {formatPrice(hotel.pricePerNight, hotel.currency)}/night
-                              </p>
-                            </div>
-                          </div>
-                          {/* Amenities preview */}
-                          {hotel.amenities.length > 0 && (
-                            <div className="flex flex-wrap gap-1.5 mt-2">
-                              {hotel.amenities.slice(0, 4).map((amenity, i) => (
-                                <span
-                                  key={i}
-                                  className="px-2 py-0.5 bg-white/10 rounded-full text-white/70 text-xs"
-                                >
-                                  {amenity}
-                                </span>
-                              ))}
-                              {hotel.amenities.length > 4 && (
-                                <span className="px-2 py-0.5 text-white/50 text-xs">
-                                  +{hotel.amenities.length - 4} more
-                                </span>
+                            <div className="p-4">
+                              <div className="flex items-start justify-between mb-2">
+                                <div className="flex-1 min-w-0 pr-3">
+                                  <h3 className="text-white font-semibold truncate">{hotel.name}</h3>
+                                  <div className="flex items-center gap-2 mt-1">
+                                    <span className="text-amber-400 text-sm">{'★'.repeat(hotel.stars)}</span>
+                                    {hotel.rating > 0 && (
+                                      <span className="text-white/60 text-sm">
+                                        {hotel.rating.toFixed(1)} ({hotel.reviewCount} reviews)
+                                      </span>
+                                    )}
+                                  </div>
+                                </div>
+                                <div className="text-right flex-shrink-0">
+                                  <p className="text-white font-bold text-lg">
+                                    {formatPrice(hotel.totalPrice, hotel.currency)}
+                                  </p>
+                                  <p className="text-white/50 text-xs">
+                                    {formatPrice(hotel.pricePerNight, hotel.currency)}/night
+                                  </p>
+                                </div>
+                              </div>
+                              {/* Amenities preview */}
+                              {hotel.amenities.length > 0 && (
+                                <div className="flex flex-wrap gap-1.5 mt-2">
+                                  {hotel.amenities.slice(0, 4).map((amenity, i) => (
+                                    <span
+                                      key={i}
+                                      className="px-2 py-0.5 bg-white/10 rounded-full text-white/70 text-xs"
+                                    >
+                                      {amenity}
+                                    </span>
+                                  ))}
+                                  {hotel.amenities.length > 4 && (
+                                    <span className="px-2 py-0.5 text-white/50 text-xs">
+                                      +{hotel.amenities.length - 4} more
+                                    </span>
+                                  )}
+                                </div>
+                              )}
+                              {/* Board type */}
+                              {hotel.boardName && hotel.boardName !== 'Room Only' && (
+                                <p className="text-green-400 text-xs mt-2">{hotel.boardName} included</p>
                               )}
                             </div>
-                          )}
-                          {/* Board type */}
-                          {hotel.boardName && hotel.boardName !== 'Room Only' && (
-                            <p className="text-green-400 text-xs mt-2">{hotel.boardName} included</p>
+                          </button>
+
+                          {/* Expanded details */}
+                          {isExpanded && (
+                            <div className="border-t border-white/10 p-4 space-y-4">
+                              {/* Photo gallery */}
+                              {hotel.photos && hotel.photos.length > 1 && (
+                                <div>
+                                  <h4 className="text-white/60 text-xs font-semibold mb-2 uppercase tracking-wide">Photos</h4>
+                                  <div className="flex gap-2 overflow-x-auto pb-2">
+                                    {hotel.photos.slice(0, 6).map((photo, i) => (
+                                      <img
+                                        key={i}
+                                        src={photo}
+                                        alt={`${hotel.name} photo ${i + 1}`}
+                                        className="w-24 h-24 object-cover rounded-lg flex-shrink-0"
+                                        onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                                      />
+                                    ))}
+                                  </div>
+                                </div>
+                              )}
+
+                              {/* Check-in/out times */}
+                              <div className="grid grid-cols-2 gap-3">
+                                <div className="bg-white/5 rounded-xl p-3">
+                                  <h5 className="text-white/60 text-xs mb-1 uppercase">Check-in</h5>
+                                  <p className="text-white font-medium">{hotel.checkinTime}</p>
+                                </div>
+                                <div className="bg-white/5 rounded-xl p-3">
+                                  <h5 className="text-white/60 text-xs mb-1 uppercase">Check-out</h5>
+                                  <p className="text-white font-medium">{hotel.checkoutTime}</p>
+                                </div>
+                              </div>
+
+                              {/* Room info */}
+                              <div className="bg-white/5 rounded-xl p-3">
+                                <h5 className="text-white/60 text-xs mb-2 uppercase">Room</h5>
+                                <p className="text-white font-medium">{hotel.roomName || 'Standard Room'}</p>
+                                {hotel.roomDescription && (
+                                  <p className="text-white/60 text-sm mt-1">{hotel.roomDescription}</p>
+                                )}
+                              </div>
+
+                              {/* All amenities */}
+                              {hotel.amenities.length > 0 && (
+                                <div>
+                                  <h4 className="text-white/60 text-xs font-semibold mb-2 uppercase tracking-wide">All Amenities</h4>
+                                  <div className="flex flex-wrap gap-1.5">
+                                    {hotel.amenities.map((amenity, i) => (
+                                      <span
+                                        key={i}
+                                        className="px-2 py-1 bg-white/10 rounded-full text-white/80 text-xs"
+                                      >
+                                        {amenity}
+                                      </span>
+                                    ))}
+                                  </div>
+                                </div>
+                              )}
+
+                              {/* Price breakdown */}
+                              <div className="bg-white/5 rounded-xl p-3">
+                                <h5 className="text-white/60 text-xs mb-2 uppercase">Price Details</h5>
+                                <div className="space-y-1">
+                                  <div className="flex justify-between text-sm">
+                                    <span className="text-white/70">{formatPrice(hotel.pricePerNight, hotel.currency)} × {trip?.itinerary.days} nights</span>
+                                    <span className="text-white">{formatPrice(hotel.totalPrice, hotel.currency)}</span>
+                                  </div>
+                                  {hotel.taxesIncluded && (
+                                    <p className="text-white/50 text-xs">Taxes & fees included</p>
+                                  )}
+                                </div>
+                              </div>
+
+                              {/* Cancellation policy */}
+                              <div className="flex items-center gap-2">
+                                {hotel.refundable ? (
+                                  <>
+                                    <svg className="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <span className="text-green-400 text-sm">Free cancellation available</span>
+                                  </>
+                                ) : (
+                                  <>
+                                    <svg className="w-5 h-5 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                                    </svg>
+                                    <span className="text-amber-400 text-sm">Non-refundable rate</span>
+                                  </>
+                                )}
+                              </div>
+
+                              {/* Select button */}
+                              <button
+                                onClick={() => {
+                                  setSelectedHotel(hotel);
+                                  setSkipHotels(false);
+                                }}
+                                className={`w-full py-3 rounded-xl font-semibold transition-colors ${
+                                  isSelected
+                                    ? 'bg-white text-gray-900'
+                                    : 'bg-white/20 text-white hover:bg-white/30'
+                                }`}
+                              >
+                                {isSelected ? '✓ Selected' : 'Select This Hotel'}
+                              </button>
+                            </div>
                           )}
                         </div>
-                      </button>
-                    ))}
+                      );
+                    })}
                   </div>
                 </>
               )}

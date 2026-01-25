@@ -40,11 +40,16 @@ async function liteApiRequest<T>(
     let errorDetail = response.statusText;
     try {
       const errorJson = JSON.parse(errorText);
-      errorDetail = errorJson.message || errorJson.error || errorText;
+      // Handle various error response formats
+      if (typeof errorJson === 'object') {
+        errorDetail = errorJson.message || errorJson.error || errorJson.errors?.[0]?.message || JSON.stringify(errorJson);
+      } else {
+        errorDetail = String(errorJson);
+      }
     } catch {
       errorDetail = errorText || response.statusText;
     }
-    throw new Error(`LiteAPI request failed: ${response.status} - ${errorDetail}`);
+    throw new Error(`LiteAPI: ${errorDetail}`);
   }
 
   return response.json();

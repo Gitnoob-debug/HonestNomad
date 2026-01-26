@@ -19,7 +19,6 @@ import { DESTINATIONS } from '@/lib/flash/destinations';
 import type { HotelOption } from '@/lib/liteapi/types';
 import type { LiteAPIReview } from '@/lib/liteapi/types';
 import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
-import { getClimate, type ClimateInfo } from '@/lib/climate';
 
 type BookingStep = 'choice' | 'itinerary' | 'flights' | 'hotels' | 'checkout';
 type ItineraryType = SimplePathChoice | null;
@@ -221,21 +220,8 @@ function FlashExploreContent() {
   const [hotelReviews, setHotelReviews] = useState<Record<string, LiteAPIReview[]>>({});
   const [loadingReviews, setLoadingReviews] = useState<string | null>(null);
 
-  // Climate data
-  const [tripClimate, setTripClimate] = useState<ClimateInfo | null>(null);
-
   // Revealed preferences tracking
   const { trackFlightSelection, trackHotelSelection, trackPOIAction } = useRevealedPreferences();
-
-  // Compute climate when trip loads
-  useEffect(() => {
-    if (trip?.destination?.city && trip?.flight?.outbound?.departure) {
-      const destinationId = trip.destination.city.toLowerCase().replace(/\s+/g, '-');
-      const travelDate = new Date(trip.flight.outbound.departure);
-      const climate = getClimate(destinationId, travelDate);
-      setTripClimate(climate);
-    }
-  }, [trip?.destination?.city, trip?.flight?.outbound?.departure]);
 
   // Fetch hotel reviews
   const fetchHotelReviews = useCallback(async (hotelId: string) => {
@@ -650,15 +636,7 @@ function FlashExploreContent() {
               <h1 className="text-white font-bold text-lg">
                 {itineraryType && PATH_CONFIG[itineraryType]?.emoji} {itineraryType && PATH_CONFIG[itineraryType]?.name}
               </h1>
-              <div className="flex items-center justify-center gap-2">
-                <p className="text-white/60 text-xs">{trip.destination.city}, {trip.destination.country}</p>
-                {tripClimate && (
-                  <span className="text-white/60 text-xs flex items-center gap-1">
-                    <span>{tripClimate.icon}</span>
-                    <span>{tripClimate.high}°C</span>
-                  </span>
-                )}
-              </div>
+              <p className="text-white/60 text-xs">{trip.destination.city}, {trip.destination.country}</p>
             </div>
 
             <div className="w-16" />

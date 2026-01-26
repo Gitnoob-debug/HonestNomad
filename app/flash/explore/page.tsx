@@ -1,6 +1,6 @@
 'use client';
 
-import { Suspense, useEffect, useState, useCallback } from 'react';
+import { Suspense, useEffect, useState, useCallback, useMemo } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import { ItineraryMap } from '@/components/flash/ItineraryMap';
@@ -210,6 +210,11 @@ function FlashExploreContent() {
   const [expandedFlightId, setExpandedFlightId] = useState<string | null>(null);
   const [expandedHotelId, setExpandedHotelId] = useState<string | null>(null);
 
+  // Photo lightbox state
+  const [lightboxPhotos, setLightboxPhotos] = useState<string[]>([]);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
+  const [showLightbox, setShowLightbox] = useState(false);
+
   // Revealed preferences tracking
   const { trackFlightSelection, trackHotelSelection, trackPOIAction } = useRevealedPreferences();
 
@@ -334,6 +339,26 @@ function FlashExploreContent() {
     // Track POI expand for preference learning
     trackPOIAction(stop.type, 'expand', stop.category);
   }, [trackPOIAction]);
+
+  // Deduplicate hotels by name, keeping the one with best price
+  const deduplicatedHotels = useMemo(() => {
+    const hotelMap = new Map<string, HotelOption>();
+    hotelOptions.forEach(hotel => {
+      const key = hotel.name.toLowerCase().trim();
+      const existing = hotelMap.get(key);
+      if (!existing || hotel.totalPrice < existing.totalPrice) {
+        hotelMap.set(key, hotel);
+      }
+    });
+    return Array.from(hotelMap.values()).sort((a, b) => a.totalPrice - b.totalPrice);
+  }, [hotelOptions]);
+
+  // Open photo lightbox
+  const openPhotoLightbox = useCallback((photos: string[], startIndex: number = 0) => {
+    setLightboxPhotos(photos);
+    setLightboxIndex(startIndex);
+    setShowLightbox(true);
+  }, []);
 
   const toggleFavorite = useCallback((stop: ItineraryStop, e?: React.MouseEvent) => {
     if (e) {
@@ -1037,7 +1062,7 @@ function FlashExploreContent() {
   // Step 3: Flight booking
   if (step === 'flights') {
     return (
-      <div className="fixed inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+      <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         <div className="h-full flex flex-col">
           {/* Header */}
           <div className="p-4 pt-safe border-b border-white/10">
@@ -1706,7 +1731,7 @@ function FlashExploreContent() {
   // Step 4: Hotel booking
   if (step === 'hotels') {
     return (
-      <div className="fixed inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+      <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         <div className="h-full flex flex-col">
           {/* Header */}
           <div className="p-4 pt-safe border-b border-white/10">
@@ -1774,7 +1799,7 @@ function FlashExploreContent() {
                     Top picks for your stay in {trip.destination.city}
                   </p>
                   <div className="space-y-3 mb-4">
-                    {hotelOptions.map((hotel) => {
+                    {deduplicatedHotels.map((hotel) => {
                       const isSelected = selectedHotel?.id === hotel.id && !skipHotels;
                       const isExpanded = expandedHotelId === hotel.id;
 
@@ -1882,13 +1907,18 @@ function FlashExploreContent() {
                                   <h4 className="text-white/60 text-xs font-semibold mb-2 uppercase tracking-wide">Photos</h4>
                                   <div className="flex gap-2 overflow-x-auto pb-2">
                                     {hotel.photos.slice(0, 6).map((photo, i) => (
-                                      <img
+                                      <button
                                         key={i}
-                                        src={photo}
-                                        alt={`${hotel.name} photo ${i + 1}`}
-                                        className="w-24 h-24 object-cover rounded-lg flex-shrink-0"
-                                        onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
-                                      />
+                                        onClick={() => openPhotoLightbox(hotel.photos, i)}
+                                        className="flex-shrink-0 focus:outline-none focus:ring-2 focus:ring-white/50 rounded-lg"
+                                      >
+                                        <img
+                                          src={photo}
+                                          alt={`${hotel.name} photo ${i + 1}`}
+                                          className="w-24 h-24 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity"
+                                          onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                                        />
+                                      </button>
                                     ))}
                                   </div>
                                 </div>
@@ -1998,7 +2028,7 @@ function FlashExploreContent() {
               )}
 
               {/* No hotels found */}
-              {!isLoadingHotels && !hotelError && hotelOptions.length === 0 && hotelsLoaded && (
+              {!isLoadingHotels && !hotelError && deduplicatedHotels.length === 0 && hotelsLoaded && (
                 <div className="bg-white/10 backdrop-blur-md rounded-2xl p-5 mb-4">
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center">
@@ -2062,6 +2092,61 @@ function FlashExploreContent() {
             </button>
           </div>
         </div>
+
+        {/* Photo Lightbox Modal */}
+        {showLightbox && lightboxPhotos.length > 0 && (
+          <div
+            className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center"
+            onClick={() => setShowLightbox(false)}
+          >
+            {/* Close button */}
+            <button
+              onClick={() => setShowLightbox(false)}
+              className="absolute top-4 right-4 text-white/80 hover:text-white p-2 z-10"
+            >
+              <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+
+            {/* Counter */}
+            <div className="absolute top-4 left-4 text-white/80 text-sm">
+              {lightboxIndex + 1} / {lightboxPhotos.length}
+            </div>
+
+            {/* Previous button */}
+            {lightboxIndex > 0 && (
+              <button
+                onClick={(e) => { e.stopPropagation(); setLightboxIndex(prev => prev - 1); }}
+                className="absolute left-4 top-1/2 -translate-y-1/2 text-white/80 hover:text-white p-2"
+              >
+                <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+            )}
+
+            {/* Next button */}
+            {lightboxIndex < lightboxPhotos.length - 1 && (
+              <button
+                onClick={(e) => { e.stopPropagation(); setLightboxIndex(prev => prev + 1); }}
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-white/80 hover:text-white p-2"
+              >
+                <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            )}
+
+            {/* Main image */}
+            <img
+              src={lightboxPhotos[lightboxIndex]}
+              alt={`Photo ${lightboxIndex + 1}`}
+              className="max-w-[90vw] max-h-[85vh] object-contain"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+        )}
       </div>
     );
   }
@@ -2074,7 +2159,7 @@ function FlashExploreContent() {
     const hasAnythingToBook = !skipFlights || (!skipHotels && selectedHotel);
 
     return (
-      <div className="fixed inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+      <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         <div className="h-full flex flex-col">
           {/* Header */}
           <div className="p-4 pt-safe border-b border-white/10">

@@ -186,7 +186,7 @@ This document catalogs all available features from our travel APIs (Duffel for f
 
 ## Implementation Status
 
-- [x] Weather/Climate on cards (2026-01-26) - Static monthly averages for all 423 destinations
+- [x] Weather/Climate on cards (2026-01-26) - Static monthly averages for all 500 destinations
 - [x] CO2 emissions display (2026-01-26) - Shows kg CO₂ on flight cards
 - [x] Fare brand names (2026-01-26) - Shows "Basic Economy", "Main Cabin", etc.
 - [x] Hotel reviews (2026-01-26) - Real guest reviews via LiteAPI

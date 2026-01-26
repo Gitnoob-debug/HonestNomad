@@ -31305,5 +31305,5703 @@
       "condition": "partly-cloudy",
       "rainfall": 120
     }
+  },
+  "hiroshima": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "nara": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "okinawa": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "hakone": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "kanazawa": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "nagoya": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "krabi": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "koh-samui": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "chiang-rai": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "ayutthaya": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "ho-chi-minh": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "hue": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "sa-pa": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "ha-long-bay": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "jakarta": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "komodo": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "raja-ampat": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "cebu": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "siargao": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "el-nido": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "penang": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "melaka": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "borneo": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "udaipur": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "varanasi": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "kerala": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "rishikesh": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "amritsar": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "chengdu": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "hangzhou": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "suzhou": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "zhangjiajie": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "lijiang": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "jeju": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "kaohsiung": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "pokhara": {
+    "jan": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "feb": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "apr": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "jun": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    },
+    "jul": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "aug": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "sep": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "oct": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "dec": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    }
+  },
+  "colombo": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "kandy": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "galle": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "ella": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "marrakech": {
+    "jan": {
+      "high": 24,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "feb": {
+      "high": 26,
+      "low": 14,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "mar": {
+      "high": 30,
+      "low": 17,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "apr": {
+      "high": 35,
+      "low": 21,
+      "condition": "sunny",
+      "rainfall": 2
+    },
+    "may": {
+      "high": 40,
+      "low": 26,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "jun": {
+      "high": 42,
+      "low": 28,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "jul": {
+      "high": 44,
+      "low": 30,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "aug": {
+      "high": 43,
+      "low": 30,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "sep": {
+      "high": 40,
+      "low": 27,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "oct": {
+      "high": 35,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 2
+    },
+    "nov": {
+      "high": 29,
+      "low": 17,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "dec": {
+      "high": 25,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 5
+    }
+  },
+  "casablanca": {
+    "jan": {
+      "high": 24,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "feb": {
+      "high": 26,
+      "low": 14,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "mar": {
+      "high": 30,
+      "low": 17,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "apr": {
+      "high": 35,
+      "low": 21,
+      "condition": "sunny",
+      "rainfall": 2
+    },
+    "may": {
+      "high": 40,
+      "low": 26,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "jun": {
+      "high": 42,
+      "low": 28,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "jul": {
+      "high": 44,
+      "low": 30,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "aug": {
+      "high": 43,
+      "low": 30,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "sep": {
+      "high": 40,
+      "low": 27,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "oct": {
+      "high": 35,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 2
+    },
+    "nov": {
+      "high": 29,
+      "low": 17,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "dec": {
+      "high": 25,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 5
+    }
+  },
+  "nairobi": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "masai-mara": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "serengeti": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "kilimanjaro": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "durban": {
+    "jan": {
+      "high": 44,
+      "low": 30,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "feb": {
+      "high": 43,
+      "low": 30,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "mar": {
+      "high": 40,
+      "low": 27,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "apr": {
+      "high": 35,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 2
+    },
+    "may": {
+      "high": 29,
+      "low": 17,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "jun": {
+      "high": 25,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "jul": {
+      "high": 24,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "aug": {
+      "high": 26,
+      "low": 14,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "sep": {
+      "high": 30,
+      "low": 17,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "oct": {
+      "high": 35,
+      "low": 21,
+      "condition": "sunny",
+      "rainfall": 2
+    },
+    "nov": {
+      "high": 40,
+      "low": 26,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    "dec": {
+      "high": 42,
+      "low": 28,
+      "condition": "sunny",
+      "rainfall": 0
+    }
+  },
+  "lagos": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "dakar": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "muscat": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "salalah": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "bergamo": {
+    "jan": {
+      "high": 12,
+      "low": 5,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "feb": {
+      "high": 14,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 70
+    },
+    "mar": {
+      "high": 17,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "apr": {
+      "high": 20,
+      "low": 11,
+      "condition": "partly-cloudy",
+      "rainfall": 40
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 25
+    },
+    "jun": {
+      "high": 30,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "jul": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "aug": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "sep": {
+      "high": 28,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 30
+    },
+    "oct": {
+      "high": 23,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 17,
+      "low": 9,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "dec": {
+      "high": 13,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 90
+    }
+  },
+  "catania": {
+    "jan": {
+      "high": 12,
+      "low": 5,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "feb": {
+      "high": 14,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 70
+    },
+    "mar": {
+      "high": 17,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "apr": {
+      "high": 20,
+      "low": 11,
+      "condition": "partly-cloudy",
+      "rainfall": 40
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 25
+    },
+    "jun": {
+      "high": 30,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "jul": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "aug": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "sep": {
+      "high": 28,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 30
+    },
+    "oct": {
+      "high": 23,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 17,
+      "low": 9,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "dec": {
+      "high": 13,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 90
+    }
+  },
+  "biarritz": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "san-remo": {
+    "jan": {
+      "high": 12,
+      "low": 5,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "feb": {
+      "high": 14,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 70
+    },
+    "mar": {
+      "high": 17,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "apr": {
+      "high": 20,
+      "low": 11,
+      "condition": "partly-cloudy",
+      "rainfall": 40
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 25
+    },
+    "jun": {
+      "high": 30,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "jul": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "aug": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "sep": {
+      "high": 28,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 30
+    },
+    "oct": {
+      "high": 23,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 17,
+      "low": 9,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "dec": {
+      "high": 13,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 90
+    }
+  },
+  "algarve": {
+    "jan": {
+      "high": 12,
+      "low": 5,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "feb": {
+      "high": 14,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 70
+    },
+    "mar": {
+      "high": 17,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "apr": {
+      "high": 20,
+      "low": 11,
+      "condition": "partly-cloudy",
+      "rainfall": 40
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 25
+    },
+    "jun": {
+      "high": 30,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "jul": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "aug": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "sep": {
+      "high": 28,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 30
+    },
+    "oct": {
+      "high": 23,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 17,
+      "low": 9,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "dec": {
+      "high": 13,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 90
+    }
+  },
+  "sintra": {
+    "jan": {
+      "high": 12,
+      "low": 5,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "feb": {
+      "high": 14,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 70
+    },
+    "mar": {
+      "high": 17,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "apr": {
+      "high": 20,
+      "low": 11,
+      "condition": "partly-cloudy",
+      "rainfall": 40
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 25
+    },
+    "jun": {
+      "high": 30,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "jul": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "aug": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "sep": {
+      "high": 28,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 30
+    },
+    "oct": {
+      "high": 23,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 17,
+      "low": 9,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "dec": {
+      "high": 13,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 90
+    }
+  },
+  "faro": {
+    "jan": {
+      "high": 12,
+      "low": 5,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "feb": {
+      "high": 14,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 70
+    },
+    "mar": {
+      "high": 17,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "apr": {
+      "high": 20,
+      "low": 11,
+      "condition": "partly-cloudy",
+      "rainfall": 40
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 25
+    },
+    "jun": {
+      "high": 30,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "jul": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "aug": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "sep": {
+      "high": 28,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 30
+    },
+    "oct": {
+      "high": 23,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 17,
+      "low": 9,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "dec": {
+      "high": 13,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 90
+    }
+  },
+  "lake-garda": {
+    "jan": {
+      "high": 12,
+      "low": 5,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "feb": {
+      "high": 14,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 70
+    },
+    "mar": {
+      "high": 17,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "apr": {
+      "high": 20,
+      "low": 11,
+      "condition": "partly-cloudy",
+      "rainfall": 40
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 25
+    },
+    "jun": {
+      "high": 30,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "jul": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "aug": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "sep": {
+      "high": 28,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 30
+    },
+    "oct": {
+      "high": 23,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 17,
+      "low": 9,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "dec": {
+      "high": 13,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 90
+    }
+  },
+  "rovinj": {
+    "jan": {
+      "high": 12,
+      "low": 5,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "feb": {
+      "high": 14,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 70
+    },
+    "mar": {
+      "high": 17,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "apr": {
+      "high": 20,
+      "low": 11,
+      "condition": "partly-cloudy",
+      "rainfall": 40
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 25
+    },
+    "jun": {
+      "high": 30,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "jul": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "aug": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "sep": {
+      "high": 28,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 30
+    },
+    "oct": {
+      "high": 23,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 17,
+      "low": 9,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "dec": {
+      "high": 13,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 90
+    }
+  },
+  "hvar": {
+    "jan": {
+      "high": 12,
+      "low": 5,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "feb": {
+      "high": 14,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 70
+    },
+    "mar": {
+      "high": 17,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "apr": {
+      "high": 20,
+      "low": 11,
+      "condition": "partly-cloudy",
+      "rainfall": 40
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 25
+    },
+    "jun": {
+      "high": 30,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "jul": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 5
+    },
+    "aug": {
+      "high": 33,
+      "low": 22,
+      "condition": "sunny",
+      "rainfall": 10
+    },
+    "sep": {
+      "high": 28,
+      "low": 19,
+      "condition": "sunny",
+      "rainfall": 30
+    },
+    "oct": {
+      "high": 23,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 17,
+      "low": 9,
+      "condition": "rainy",
+      "rainfall": 80
+    },
+    "dec": {
+      "high": 13,
+      "low": 6,
+      "condition": "rainy",
+      "rainfall": 90
+    }
+  },
+  "cusco": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "puerto-escondido": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "sayulita": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "lake-louise": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "carmel-valley": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "queenstown-nz": {
+    "jan": {
+      "high": 22,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 45
+    },
+    "feb": {
+      "high": 22,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "mar": {
+      "high": 19,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 15,
+      "low": 9,
+      "condition": "cloudy",
+      "rainfall": 70
+    },
+    "may": {
+      "high": 10,
+      "low": 5,
+      "condition": "rainy",
+      "rainfall": 75
+    },
+    "jun": {
+      "high": 8,
+      "low": 3,
+      "condition": "rainy",
+      "rainfall": 75
+    },
+    "jul": {
+      "high": 7,
+      "low": 2,
+      "condition": "rainy",
+      "rainfall": 70
+    },
+    "aug": {
+      "high": 8,
+      "low": 2,
+      "condition": "rainy",
+      "rainfall": 55
+    },
+    "sep": {
+      "high": 11,
+      "low": 4,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "oct": {
+      "high": 14,
+      "low": 6,
+      "condition": "partly-cloudy",
+      "rainfall": 45
+    },
+    "nov": {
+      "high": 17,
+      "low": 9,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "dec": {
+      "high": 20,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    }
+  },
+  "byron-bay": {
+    "jan": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "feb": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "mar": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "apr": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "jul": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "aug": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "sep": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "oct": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "dec": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    }
+  },
+  "cairns": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "adelaide": {
+    "jan": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 160
+    },
+    "feb": {
+      "high": 35,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 180
+    },
+    "mar": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 140
+    },
+    "apr": {
+      "high": 29,
+      "low": 20,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "may": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "jul": {
+      "high": 22,
+      "low": 12,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "aug": {
+      "high": 23,
+      "low": 13,
+      "condition": "sunny",
+      "rainfall": 55
+    },
+    "sep": {
+      "high": 26,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 70
+    },
+    "oct": {
+      "high": 29,
+      "low": 18,
+      "condition": "partly-cloudy",
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 32,
+      "low": 22,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "dec": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 140
+    }
+  },
+  "rarotonga": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "bermuda": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "trinidad": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "anguilla": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
+  },
+  "colmar": {
+    "jan": {
+      "high": 8,
+      "low": 1,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "feb": {
+      "high": 10,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 50
+    },
+    "mar": {
+      "high": 14,
+      "low": 5,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "apr": {
+      "high": 18,
+      "low": 8,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "may": {
+      "high": 22,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "jun": {
+      "high": 26,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "jul": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 45
+    },
+    "aug": {
+      "high": 28,
+      "low": 18,
+      "condition": "sunny",
+      "rainfall": 50
+    },
+    "sep": {
+      "high": 24,
+      "low": 14,
+      "condition": "partly-cloudy",
+      "rainfall": 55
+    },
+    "oct": {
+      "high": 18,
+      "low": 10,
+      "condition": "cloudy",
+      "rainfall": 60
+    },
+    "nov": {
+      "high": 12,
+      "low": 5,
+      "condition": "cloudy",
+      "rainfall": 65
+    },
+    "dec": {
+      "high": 9,
+      "low": 2,
+      "condition": "cloudy",
+      "rainfall": 65
+    }
+  },
+  "ubud": {
+    "jan": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "feb": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "mar": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "apr": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "may": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "jun": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "jul": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "aug": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "sep": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "oct": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "nov": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "dec": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    }
+  },
+  "phi-phi": {
+    "jan": {
+      "high": 32,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "feb": {
+      "high": 33,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 100
+    },
+    "mar": {
+      "high": 34,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 80
+    },
+    "apr": {
+      "high": 34,
+      "low": 26,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    },
+    "may": {
+      "high": 33,
+      "low": 26,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "jun": {
+      "high": 32,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 250
+    },
+    "jul": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 280
+    },
+    "aug": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 260
+    },
+    "sep": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 220
+    },
+    "oct": {
+      "high": 31,
+      "low": 25,
+      "condition": "rainy",
+      "rainfall": 200
+    },
+    "nov": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 150
+    },
+    "dec": {
+      "high": 31,
+      "low": 24,
+      "condition": "partly-cloudy",
+      "rainfall": 120
+    }
   }
 }

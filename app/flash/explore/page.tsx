@@ -17,7 +17,9 @@ import {
 import { saveDraftTrip, getDraftTrip } from '@/lib/flash/draft-storage';
 import { DESTINATIONS } from '@/lib/flash/destinations';
 import type { HotelOption } from '@/lib/liteapi/types';
+import type { LiteAPIReview } from '@/lib/liteapi/types';
 import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
+import { getClimate, type ClimateInfo } from '@/lib/climate';
 
 type BookingStep = 'choice' | 'itinerary' | 'flights' | 'hotels' | 'checkout';
 type ItineraryType = SimplePathChoice | null;
@@ -215,8 +217,43 @@ function FlashExploreContent() {
   const [lightboxIndex, setLightboxIndex] = useState(0);
   const [showLightbox, setShowLightbox] = useState(false);
 
+  // Hotel reviews state
+  const [hotelReviews, setHotelReviews] = useState<Record<string, LiteAPIReview[]>>({});
+  const [loadingReviews, setLoadingReviews] = useState<string | null>(null);
+
+  // Climate data
+  const [tripClimate, setTripClimate] = useState<ClimateInfo | null>(null);
+
   // Revealed preferences tracking
   const { trackFlightSelection, trackHotelSelection, trackPOIAction } = useRevealedPreferences();
+
+  // Compute climate when trip loads
+  useEffect(() => {
+    if (trip?.destination?.city && trip?.flight?.outbound?.departure) {
+      const destinationId = trip.destination.city.toLowerCase().replace(/\s+/g, '-');
+      const travelDate = new Date(trip.flight.outbound.departure);
+      const climate = getClimate(destinationId, travelDate);
+      setTripClimate(climate);
+    }
+  }, [trip?.destination?.city, trip?.flight?.outbound?.departure]);
+
+  // Fetch hotel reviews
+  const fetchHotelReviews = useCallback(async (hotelId: string) => {
+    if (hotelReviews[hotelId] || loadingReviews === hotelId) return;
+
+    setLoadingReviews(hotelId);
+    try {
+      const response = await fetch(`/api/hotels/reviews?hotelId=${hotelId}&limit=3`);
+      if (response.ok) {
+        const data = await response.json();
+        setHotelReviews(prev => ({ ...prev, [hotelId]: data.reviews || [] }));
+      }
+    } catch (error) {
+      console.error('Failed to fetch reviews:', error);
+    } finally {
+      setLoadingReviews(null);
+    }
+  }, [hotelReviews, loadingReviews]);
 
   // Load trip from draft (if resuming) or session storage
   useEffect(() => {
@@ -613,7 +650,15 @@ function FlashExploreContent() {
               <h1 className="text-white font-bold text-lg">
                 {itineraryType && PATH_CONFIG[itineraryType]?.emoji} {itineraryType && PATH_CONFIG[itineraryType]?.name}
               </h1>
-              <p className="text-white/60 text-xs">{trip.destination.city}, {trip.destination.country}</p>
+              <div className="flex items-center justify-center gap-2">
+                <p className="text-white/60 text-xs">{trip.destination.city}, {trip.destination.country}</p>
+                {tripClimate && (
+                  <span className="text-white/60 text-xs flex items-center gap-1">
+                    <span>{tripClimate.icon}</span>
+                    <span>{tripClimate.high}°C</span>
+                  </span>
+                )}
+              </div>
             </div>
 
             <div className="w-16" />
@@ -1204,19 +1249,31 @@ function FlashExploreContent() {
                               )}
                             </div>
 
-                            {/* Match reasons */}
-                            {flight.matchReasons && flight.matchReasons.length > 0 && (
-                              <div className="flex flex-wrap gap-1.5">
-                                {flight.matchReasons.slice(0, 4).map((reason: string, i: number) => (
-                                  <span
-                                    key={i}
-                                    className="px-2 py-0.5 bg-green-500/20 text-green-400 rounded-full text-xs"
-                                  >
-                                    {reason}
-                                  </span>
-                                ))}
-                              </div>
-                            )}
+                            {/* Fare info badges */}
+                            <div className="flex flex-wrap gap-1.5">
+                              {outbound?.fareBrandName && (
+                                <span className="px-2 py-0.5 bg-blue-500/20 text-blue-400 rounded-full text-xs">
+                                  {outbound.fareBrandName}
+                                </span>
+                              )}
+                              {flight.totalEmissionsKg && (
+                                <span className="px-2 py-0.5 bg-green-500/10 text-green-400/80 rounded-full text-xs flex items-center gap-1">
+                                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                  </svg>
+                                  {flight.totalEmissionsKg}kg CO₂
+                                </span>
+                              )}
+                              {/* Match reasons */}
+                              {flight.matchReasons && flight.matchReasons.slice(0, 2).map((reason: string, i: number) => (
+                                <span
+                                  key={i}
+                                  className="px-2 py-0.5 bg-green-500/20 text-green-400 rounded-full text-xs"
+                                >
+                                  {reason}
+                                </span>
+                              ))}
+                            </div>
                           </button>
 
                           {/* Expanded details */}
@@ -1812,7 +1869,14 @@ function FlashExploreContent() {
                         >
                           {/* Clickable header */}
                           <button
-                            onClick={() => setExpandedHotelId(isExpanded ? null : hotel.id)}
+                            onClick={() => {
+                              const newExpanded = isExpanded ? null : hotel.id;
+                              setExpandedHotelId(newExpanded);
+                              // Fetch reviews when expanding
+                              if (newExpanded) {
+                                fetchHotelReviews(hotel.id);
+                              }
+                            }}
                             className="w-full text-left"
                           >
                             {/* Hotel image */}
@@ -1992,6 +2056,52 @@ function FlashExploreContent() {
                                     </svg>
                                     <span className="text-amber-400 text-sm">Non-refundable rate</span>
                                   </>
+                                )}
+                              </div>
+
+                              {/* Guest Reviews */}
+                              <div>
+                                <h4 className="text-white/60 text-xs font-semibold mb-2 uppercase tracking-wide">Guest Reviews</h4>
+                                {loadingReviews === hotel.id ? (
+                                  <div className="flex items-center gap-2 text-white/50 text-sm">
+                                    <Spinner size="sm" className="text-white/50" />
+                                    <span>Loading reviews...</span>
+                                  </div>
+                                ) : hotelReviews[hotel.id]?.length > 0 ? (
+                                  <div className="space-y-3">
+                                    {hotelReviews[hotel.id].slice(0, 3).map((review, i) => (
+                                      <div key={i} className="bg-white/5 rounded-xl p-3">
+                                        <div className="flex items-center justify-between mb-2">
+                                          <div className="flex items-center gap-2">
+                                            <span className="text-white font-medium text-sm">{review.name || 'Guest'}</span>
+                                            {review.country && (
+                                              <span className="text-white/40 text-xs">{review.country}</span>
+                                            )}
+                                          </div>
+                                          {review.averageScore && (
+                                            <span className="px-2 py-0.5 bg-amber-500/20 text-amber-400 rounded text-xs font-medium">
+                                              {review.averageScore.toFixed(1)}/10
+                                            </span>
+                                          )}
+                                        </div>
+                                        {review.headline && (
+                                          <p className="text-white/90 text-sm font-medium mb-1">{review.headline}</p>
+                                        )}
+                                        {review.pros && (
+                                          <p className="text-green-400/80 text-xs mb-1">
+                                            <span className="font-medium">+</span> {review.pros}
+                                          </p>
+                                        )}
+                                        {review.cons && (
+                                          <p className="text-red-400/80 text-xs">
+                                            <span className="font-medium">−</span> {review.cons}
+                                          </p>
+                                        )}
+                                      </div>
+                                    ))}
+                                  </div>
+                                ) : (
+                                  <p className="text-white/40 text-sm">No reviews available</p>
                                 )}
                               </div>
 

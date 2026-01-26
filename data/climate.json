@@ -15694,150 +15694,150 @@
   },
   "chicago": {
     "jan": {
-      "high": 8,
-      "low": 1,
-      "condition": "cloudy",
-      "rainfall": 60
+      "high": -1,
+      "low": -8,
+      "condition": "snowy",
+      "rainfall": 45
     },
     "feb": {
-      "high": 10,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 50
+      "high": 1,
+      "low": -6,
+      "condition": "snowy",
+      "rainfall": 45
     },
     "mar": {
-      "high": 14,
-      "low": 5,
-      "condition": "partly-cloudy",
-      "rainfall": 55
+      "high": 8,
+      "low": -1,
+      "condition": "cloudy",
+      "rainfall": 65
     },
     "apr": {
-      "high": 18,
-      "low": 8,
+      "high": 15,
+      "low": 5,
       "condition": "partly-cloudy",
-      "rainfall": 50
+      "rainfall": 90
     },
     "may": {
-      "high": 22,
-      "low": 12,
+      "high": 21,
+      "low": 11,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 105
     },
     "jun": {
-      "high": 26,
-      "low": 16,
+      "high": 27,
+      "low": 17,
       "condition": "sunny",
-      "rainfall": 50
+      "rainfall": 100
     },
     "jul": {
-      "high": 28,
-      "low": 18,
+      "high": 29,
+      "low": 19,
       "condition": "sunny",
-      "rainfall": 45
+      "rainfall": 95
     },
     "aug": {
       "high": 28,
-      "low": 18,
+      "low": 19,
       "condition": "sunny",
-      "rainfall": 50
+      "rainfall": 95
     },
     "sep": {
       "high": 24,
-      "low": 14,
+      "low": 15,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 80
     },
     "oct": {
-      "high": 18,
-      "low": 10,
+      "high": 17,
+      "low": 8,
       "condition": "cloudy",
-      "rainfall": 60
+      "rainfall": 80
     },
     "nov": {
-      "high": 12,
-      "low": 5,
-      "condition": "cloudy",
-      "rainfall": 65
-    },
-    "dec": {
       "high": 9,
       "low": 2,
       "condition": "cloudy",
-      "rainfall": 65
+      "rainfall": 80
+    },
+    "dec": {
+      "high": 2,
+      "low": -5,
+      "condition": "snowy",
+      "rainfall": 55
     }
   },
   "boston": {
     "jan": {
-      "high": 8,
-      "low": 1,
-      "condition": "cloudy",
-      "rainfall": 60
+      "high": 2,
+      "low": -5,
+      "condition": "snowy",
+      "rainfall": 90
     },
     "feb": {
-      "high": 10,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 50
+      "high": 4,
+      "low": -4,
+      "condition": "snowy",
+      "rainfall": 85
     },
     "mar": {
+      "high": 8,
+      "low": 0,
+      "condition": "cloudy",
+      "rainfall": 100
+    },
+    "apr": {
       "high": 14,
       "low": 5,
       "condition": "partly-cloudy",
-      "rainfall": 55
-    },
-    "apr": {
-      "high": 18,
-      "low": 8,
-      "condition": "partly-cloudy",
-      "rainfall": 50
+      "rainfall": 95
     },
     "may": {
-      "high": 22,
-      "low": 12,
+      "high": 20,
+      "low": 10,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 85
     },
     "jun": {
-      "high": 26,
+      "high": 25,
       "low": 16,
       "condition": "sunny",
-      "rainfall": 50
+      "rainfall": 90
     },
     "jul": {
       "high": 28,
-      "low": 18,
+      "low": 19,
       "condition": "sunny",
-      "rainfall": 45
+      "rainfall": 80
     },
     "aug": {
-      "high": 28,
+      "high": 27,
       "low": 18,
       "condition": "sunny",
-      "rainfall": 50
+      "rainfall": 85
     },
     "sep": {
-      "high": 24,
+      "high": 23,
       "low": 14,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 85
     },
     "oct": {
-      "high": 18,
-      "low": 10,
+      "high": 17,
+      "low": 8,
       "condition": "cloudy",
-      "rainfall": 60
+      "rainfall": 95
     },
     "nov": {
-      "high": 12,
-      "low": 5,
+      "high": 11,
+      "low": 3,
       "condition": "cloudy",
-      "rainfall": 65
+      "rainfall": 95
     },
     "dec": {
-      "high": 9,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 65
+      "high": 5,
+      "low": -2,
+      "condition": "snowy",
+      "rainfall": 100
     }
   },
   "washington-dc": {
@@ -15917,75 +15917,75 @@
   "seattle": {
     "jan": {
       "high": 8,
-      "low": 1,
-      "condition": "cloudy",
-      "rainfall": 60
+      "low": 3,
+      "condition": "rainy",
+      "rainfall": 135
     },
     "feb": {
       "high": 10,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 50
+      "low": 3,
+      "condition": "rainy",
+      "rainfall": 90
     },
     "mar": {
-      "high": 14,
+      "high": 12,
       "low": 5,
-      "condition": "partly-cloudy",
-      "rainfall": 55
+      "condition": "rainy",
+      "rainfall": 95
     },
     "apr": {
-      "high": 18,
-      "low": 8,
+      "high": 15,
+      "low": 7,
+      "condition": "partly-cloudy",
+      "rainfall": 70
+    },
+    "may": {
+      "high": 19,
+      "low": 10,
       "condition": "partly-cloudy",
       "rainfall": 50
     },
-    "may": {
+    "jun": {
+      "high": 22,
+      "low": 13,
+      "condition": "partly-cloudy",
+      "rainfall": 40
+    },
+    "jul": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 20
+    },
+    "aug": {
+      "high": 25,
+      "low": 15,
+      "condition": "sunny",
+      "rainfall": 25
+    },
+    "sep": {
       "high": 22,
       "low": 12,
       "condition": "partly-cloudy",
-      "rainfall": 55
-    },
-    "jun": {
-      "high": 26,
-      "low": 16,
-      "condition": "sunny",
-      "rainfall": 50
-    },
-    "jul": {
-      "high": 28,
-      "low": 18,
-      "condition": "sunny",
-      "rainfall": 45
-    },
-    "aug": {
-      "high": 28,
-      "low": 18,
-      "condition": "sunny",
-      "rainfall": 50
-    },
-    "sep": {
-      "high": 24,
-      "low": 14,
-      "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 40
     },
     "oct": {
-      "high": 18,
-      "low": 10,
-      "condition": "cloudy",
-      "rainfall": 60
+      "high": 16,
+      "low": 8,
+      "condition": "rainy",
+      "rainfall": 90
     },
     "nov": {
-      "high": 12,
+      "high": 10,
       "low": 5,
-      "condition": "cloudy",
-      "rainfall": 65
+      "condition": "rainy",
+      "rainfall": 150
     },
     "dec": {
-      "high": 9,
+      "high": 7,
       "low": 2,
-      "condition": "cloudy",
-      "rainfall": 65
+      "condition": "rainy",
+      "rainfall": 140
     }
   },
   "new-orleans": {
@@ -16286,224 +16286,224 @@
   },
   "toronto": {
     "jan": {
-      "high": 8,
-      "low": 1,
-      "condition": "cloudy",
-      "rainfall": 60
+      "high": -1,
+      "low": -7,
+      "condition": "snowy",
+      "rainfall": 55
     },
     "feb": {
-      "high": 10,
-      "low": 2,
-      "condition": "cloudy",
+      "high": 0,
+      "low": -6,
+      "condition": "snowy",
       "rainfall": 50
     },
     "mar": {
-      "high": 14,
-      "low": 5,
-      "condition": "partly-cloudy",
+      "high": 5,
+      "low": -2,
+      "condition": "cloudy",
       "rainfall": 55
     },
     "apr": {
-      "high": 18,
-      "low": 8,
+      "high": 12,
+      "low": 4,
       "condition": "partly-cloudy",
-      "rainfall": 50
+      "rainfall": 70
     },
     "may": {
-      "high": 22,
-      "low": 12,
+      "high": 19,
+      "low": 10,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 75
     },
     "jun": {
-      "high": 26,
-      "low": 16,
+      "high": 24,
+      "low": 15,
       "condition": "sunny",
-      "rainfall": 50
+      "rainfall": 70
     },
     "jul": {
-      "high": 28,
+      "high": 27,
       "low": 18,
       "condition": "sunny",
-      "rainfall": 45
+      "rainfall": 75
     },
     "aug": {
-      "high": 28,
-      "low": 18,
+      "high": 26,
+      "low": 17,
       "condition": "sunny",
-      "rainfall": 50
+      "rainfall": 80
     },
     "sep": {
-      "high": 24,
+      "high": 22,
       "low": 14,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 75
     },
     "oct": {
-      "high": 18,
-      "low": 10,
-      "condition": "cloudy",
-      "rainfall": 60
-    },
-    "nov": {
-      "high": 12,
-      "low": 5,
+      "high": 14,
+      "low": 7,
       "condition": "cloudy",
       "rainfall": 65
     },
-    "dec": {
-      "high": 9,
+    "nov": {
+      "high": 8,
       "low": 2,
       "condition": "cloudy",
+      "rainfall": 75
+    },
+    "dec": {
+      "high": 2,
+      "low": -4,
+      "condition": "snowy",
       "rainfall": 65
     }
   },
   "vancouver": {
     "jan": {
-      "high": 8,
-      "low": 1,
-      "condition": "cloudy",
-      "rainfall": 60
+      "high": 7,
+      "low": 2,
+      "condition": "rainy",
+      "rainfall": 150
     },
     "feb": {
-      "high": 10,
+      "high": 8,
       "low": 2,
-      "condition": "cloudy",
-      "rainfall": 50
+      "condition": "rainy",
+      "rainfall": 115
     },
     "mar": {
-      "high": 14,
-      "low": 5,
-      "condition": "partly-cloudy",
-      "rainfall": 55
+      "high": 11,
+      "low": 4,
+      "condition": "rainy",
+      "rainfall": 105
     },
     "apr": {
-      "high": 18,
-      "low": 8,
+      "high": 14,
+      "low": 6,
       "condition": "partly-cloudy",
-      "rainfall": 50
+      "rainfall": 75
     },
     "may": {
-      "high": 22,
-      "low": 12,
+      "high": 17,
+      "low": 9,
       "condition": "partly-cloudy",
-      "rainfall": 55
-    },
-    "jun": {
-      "high": 26,
-      "low": 16,
-      "condition": "sunny",
-      "rainfall": 50
-    },
-    "jul": {
-      "high": 28,
-      "low": 18,
-      "condition": "sunny",
-      "rainfall": 45
-    },
-    "aug": {
-      "high": 28,
-      "low": 18,
-      "condition": "sunny",
-      "rainfall": 50
-    },
-    "sep": {
-      "high": 24,
-      "low": 14,
-      "condition": "partly-cloudy",
-      "rainfall": 55
-    },
-    "oct": {
-      "high": 18,
-      "low": 10,
-      "condition": "cloudy",
       "rainfall": 60
     },
+    "jun": {
+      "high": 20,
+      "low": 12,
+      "condition": "partly-cloudy",
+      "rainfall": 45
+    },
+    "jul": {
+      "high": 23,
+      "low": 14,
+      "condition": "sunny",
+      "rainfall": 35
+    },
+    "aug": {
+      "high": 23,
+      "low": 14,
+      "condition": "sunny",
+      "rainfall": 35
+    },
+    "sep": {
+      "high": 19,
+      "low": 11,
+      "condition": "partly-cloudy",
+      "rainfall": 50
+    },
+    "oct": {
+      "high": 14,
+      "low": 7,
+      "condition": "rainy",
+      "rainfall": 115
+    },
     "nov": {
-      "high": 12,
-      "low": 5,
-      "condition": "cloudy",
-      "rainfall": 65
+      "high": 9,
+      "low": 4,
+      "condition": "rainy",
+      "rainfall": 160
     },
     "dec": {
-      "high": 9,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 65
+      "high": 6,
+      "low": 1,
+      "condition": "rainy",
+      "rainfall": 160
     }
   },
   "montreal": {
     "jan": {
-      "high": 8,
-      "low": 1,
-      "condition": "cloudy",
-      "rainfall": 60
+      "high": -5,
+      "low": -13,
+      "condition": "snowy",
+      "rainfall": 65
     },
     "feb": {
-      "high": 10,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 50
+      "high": -3,
+      "low": -11,
+      "condition": "snowy",
+      "rainfall": 55
     },
     "mar": {
-      "high": 14,
-      "low": 5,
-      "condition": "partly-cloudy",
-      "rainfall": 55
+      "high": 3,
+      "low": -5,
+      "condition": "snowy",
+      "rainfall": 65
     },
     "apr": {
-      "high": 18,
-      "low": 8,
+      "high": 11,
+      "low": 2,
       "condition": "partly-cloudy",
-      "rainfall": 50
+      "rainfall": 80
     },
     "may": {
-      "high": 22,
-      "low": 12,
+      "high": 19,
+      "low": 9,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 80
     },
     "jun": {
-      "high": 26,
-      "low": 16,
-      "condition": "sunny",
-      "rainfall": 50
-    },
-    "jul": {
-      "high": 28,
-      "low": 18,
-      "condition": "sunny",
-      "rainfall": 45
-    },
-    "aug": {
-      "high": 28,
-      "low": 18,
-      "condition": "sunny",
-      "rainfall": 50
-    },
-    "sep": {
       "high": 24,
       "low": 14,
+      "condition": "sunny",
+      "rainfall": 85
+    },
+    "jul": {
+      "high": 27,
+      "low": 17,
+      "condition": "sunny",
+      "rainfall": 90
+    },
+    "aug": {
+      "high": 25,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 95
+    },
+    "sep": {
+      "high": 21,
+      "low": 12,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 85
     },
     "oct": {
-      "high": 18,
-      "low": 10,
-      "condition": "cloudy",
-      "rainfall": 60
-    },
-    "nov": {
-      "high": 12,
+      "high": 13,
       "low": 5,
       "condition": "cloudy",
-      "rainfall": 65
+      "rainfall": 80
+    },
+    "nov": {
+      "high": 6,
+      "low": 0,
+      "condition": "cloudy",
+      "rainfall": 80
     },
     "dec": {
-      "high": 9,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 65
+      "high": -1,
+      "low": -9,
+      "condition": "snowy",
+      "rainfall": 75
     }
   },
   "banff": {
@@ -17988,76 +17988,76 @@
   },
   "denver": {
     "jan": {
-      "high": 8,
-      "low": 1,
-      "condition": "cloudy",
-      "rainfall": 60
+      "high": 7,
+      "low": -8,
+      "condition": "snowy",
+      "rainfall": 15
     },
     "feb": {
-      "high": 10,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 50
+      "high": 8,
+      "low": -6,
+      "condition": "snowy",
+      "rainfall": 15
     },
     "mar": {
-      "high": 14,
-      "low": 5,
-      "condition": "partly-cloudy",
-      "rainfall": 55
+      "high": 13,
+      "low": -2,
+      "condition": "snowy",
+      "rainfall": 30
     },
     "apr": {
-      "high": 18,
-      "low": 8,
+      "high": 17,
+      "low": 2,
       "condition": "partly-cloudy",
-      "rainfall": 50
+      "rainfall": 45
     },
     "may": {
       "high": 22,
-      "low": 12,
+      "low": 8,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 60
     },
     "jun": {
-      "high": 26,
-      "low": 16,
-      "condition": "sunny",
-      "rainfall": 50
-    },
-    "jul": {
       "high": 28,
-      "low": 18,
+      "low": 13,
       "condition": "sunny",
       "rainfall": 45
     },
-    "aug": {
-      "high": 28,
-      "low": 18,
+    "jul": {
+      "high": 32,
+      "low": 17,
       "condition": "sunny",
       "rainfall": 50
     },
+    "aug": {
+      "high": 31,
+      "low": 16,
+      "condition": "sunny",
+      "rainfall": 45
+    },
     "sep": {
-      "high": 24,
-      "low": 14,
-      "condition": "partly-cloudy",
-      "rainfall": 55
+      "high": 26,
+      "low": 11,
+      "condition": "sunny",
+      "rainfall": 30
     },
     "oct": {
-      "high": 18,
-      "low": 10,
-      "condition": "cloudy",
-      "rainfall": 60
+      "high": 19,
+      "low": 4,
+      "condition": "partly-cloudy",
+      "rainfall": 25
     },
     "nov": {
       "high": 12,
-      "low": 5,
-      "condition": "cloudy",
-      "rainfall": 65
+      "low": -3,
+      "condition": "snowy",
+      "rainfall": 20
     },
     "dec": {
-      "high": 9,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 65
+      "high": 7,
+      "low": -8,
+      "condition": "snowy",
+      "rainfall": 15
     }
   },
   "phoenix": {
@@ -18358,76 +18358,76 @@
   },
   "minneapolis": {
     "jan": {
-      "high": 8,
-      "low": 1,
-      "condition": "cloudy",
-      "rainfall": 60
+      "high": -5,
+      "low": -14,
+      "condition": "snowy",
+      "rainfall": 25
     },
     "feb": {
-      "high": 10,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 50
+      "high": -2,
+      "low": -11,
+      "condition": "snowy",
+      "rainfall": 20
     },
     "mar": {
-      "high": 14,
-      "low": 5,
-      "condition": "partly-cloudy",
-      "rainfall": 55
+      "high": 5,
+      "low": -5,
+      "condition": "snowy",
+      "rainfall": 45
     },
     "apr": {
-      "high": 18,
-      "low": 8,
+      "high": 14,
+      "low": 3,
       "condition": "partly-cloudy",
-      "rainfall": 50
+      "rainfall": 70
     },
     "may": {
-      "high": 22,
-      "low": 12,
+      "high": 21,
+      "low": 10,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 85
     },
     "jun": {
       "high": 26,
-      "low": 16,
+      "low": 15,
       "condition": "sunny",
-      "rainfall": 50
+      "rainfall": 110
     },
     "jul": {
-      "high": 28,
+      "high": 29,
       "low": 18,
       "condition": "sunny",
-      "rainfall": 45
+      "rainfall": 105
     },
     "aug": {
-      "high": 28,
-      "low": 18,
+      "high": 27,
+      "low": 17,
       "condition": "sunny",
-      "rainfall": 50
+      "rainfall": 100
     },
     "sep": {
-      "high": 24,
-      "low": 14,
+      "high": 22,
+      "low": 12,
       "condition": "partly-cloudy",
-      "rainfall": 55
+      "rainfall": 75
     },
     "oct": {
-      "high": 18,
-      "low": 10,
-      "condition": "cloudy",
-      "rainfall": 60
-    },
-    "nov": {
-      "high": 12,
+      "high": 14,
       "low": 5,
       "condition": "cloudy",
-      "rainfall": 65
+      "rainfall": 55
+    },
+    "nov": {
+      "high": 5,
+      "low": -3,
+      "condition": "snowy",
+      "rainfall": 40
     },
     "dec": {
-      "high": 9,
-      "low": 2,
-      "condition": "cloudy",
-      "rainfall": 65
+      "high": -2,
+      "low": -11,
+      "condition": "snowy",
+      "rainfall": 25
     }
   },
   "atlanta": {

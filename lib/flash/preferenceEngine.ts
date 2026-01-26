@@ -23,12 +23,14 @@ export interface SwipeSignal {
   tripCost?: number; // Total trip cost if available
   dwellTimeMs?: number; // How long they looked before swiping
   expandedCard?: boolean; // Did they tap to see details?
+  tripLengthDays?: number; // Length of trip
 }
 
 export interface POISignal {
   timestamp: number;
-  action: 'favorite' | 'unfavorite';
+  action: 'favorite' | 'unfavorite' | 'click' | 'expand';
   poiType: string; // restaurant, museum, beach, etc.
+  poiCategory?: string; // More specific: italian_restaurant, art_museum, etc.
   destinationId: string;
 }
 
@@ -38,7 +40,30 @@ export interface BookingSignal {
   vibes: DestinationVibe[];
   region: string;
   tripCost: number;
+  tripLengthDays: number;
   completed: boolean; // Did they actually take the trip?
+}
+
+// NEW: Flight selection tracking
+export interface FlightSelectionSignal {
+  timestamp: number;
+  destinationId: string;
+  departureHour: number; // 0-23
+  price: number;
+  stops: number;
+  duration: number; // minutes
+  cabinClass: string;
+  isRedEye: boolean;
+}
+
+// NEW: Hotel selection tracking
+export interface HotelSelectionSignal {
+  timestamp: number;
+  destinationId: string;
+  stars: number;
+  pricePerNight: number;
+  amenities: string[];
+  distanceFromCenter?: number;
 }
 
 export interface RevealedPreferences {
@@ -68,6 +93,42 @@ export interface RevealedPreferences {
 
   // Version for migrations
   version: number;
+
+  // ============================================
+  // NEW: Enhanced tracking (v2)
+  // ============================================
+
+  // Trip length preference (running average of liked trips)
+  tripLengthPreference?: {
+    sum: number;
+    count: number;
+  };
+
+  // Flight preferences learned from selections
+  flightPreferences?: {
+    avgDepartureHour: { sum: number; count: number };
+    avgPrice: { sum: number; count: number };
+    avgStops: { sum: number; count: number };
+    redEyeCount: number;
+    totalSelections: number;
+  };
+
+  // Hotel preferences learned from selections
+  hotelPreferences?: {
+    avgStars: { sum: number; count: number };
+    avgPricePerNight: { sum: number; count: number };
+    amenityScores: Record<string, number>; // Which amenities they pick
+    totalSelections: number;
+  };
+
+  // POI category clicks (more granular than poiScores)
+  poiCategoryClicks?: Record<string, number>;
+
+  // Booking history for strongest signals
+  bookingSignals?: BookingSignal[];
+
+  // Total bookings for confidence calculation
+  totalBookings?: number;
 }
 
 // ============================================
@@ -87,8 +148,12 @@ const WEIGHTS = {
   swipe_left: -0.5,             // Negative signal, but weaker
   swipe_left_quick: -0.3,       // Quick dismiss = less negative
   poi_favorite: 0.3,
+  poi_click: 0.1,               // Clicked to view POI details
+  poi_expand: 0.15,             // Expanded POI for more info
   trip_booked: 3.0,
   trip_completed: 5.0,
+  flight_selected: 0.5,         // Selected a specific flight
+  hotel_selected: 0.5,          // Selected a specific hotel
 };
 
 // Time decay: signals lose 50% weight after this many days
@@ -253,21 +318,196 @@ export function recordSwipe(
 }
 
 /**
- * Record a POI favorite/unfavorite
+ * Record a POI action (favorite, unfavorite, click, expand)
  */
 export function recordPOIAction(
   prefs: RevealedPreferences,
   poiType: string,
-  action: 'favorite' | 'unfavorite'
+  action: 'favorite' | 'unfavorite' | 'click' | 'expand',
+  poiCategory?: string
 ): RevealedPreferences {
-  const weight = action === 'favorite' ? WEIGHTS.poi_favorite : -WEIGHTS.poi_favorite;
+  let weight: number;
+  switch (action) {
+    case 'favorite':
+      weight = WEIGHTS.poi_favorite;
+      break;
+    case 'unfavorite':
+      weight = -WEIGHTS.poi_favorite;
+      break;
+    case 'click':
+      weight = WEIGHTS.poi_click;
+      break;
+    case 'expand':
+      weight = WEIGHTS.poi_expand;
+      break;
+  }
 
   const newPoiScores = { ...prefs.poiScores };
   newPoiScores[poiType] = (newPoiScores[poiType] || 0) + weight;
 
+  // Track more granular category if provided
+  let newCategoryClicks = { ...(prefs.poiCategoryClicks || {}) };
+  if (poiCategory && (action === 'click' || action === 'expand')) {
+    newCategoryClicks[poiCategory] = (newCategoryClicks[poiCategory] || 0) + 1;
+  }
+
   return {
     ...prefs,
     poiScores: newPoiScores,
+    poiCategoryClicks: newCategoryClicks,
+    lastUpdated: Date.now(),
+  };
+}
+
+/**
+ * Record a flight selection
+ */
+export function recordFlightSelection(
+  prefs: RevealedPreferences,
+  selection: {
+    destinationId: string;
+    departureHour: number;
+    price: number;
+    stops: number;
+    duration: number;
+    cabinClass: string;
+    isRedEye: boolean;
+  }
+): RevealedPreferences {
+  const current = prefs.flightPreferences || {
+    avgDepartureHour: { sum: 0, count: 0 },
+    avgPrice: { sum: 0, count: 0 },
+    avgStops: { sum: 0, count: 0 },
+    redEyeCount: 0,
+    totalSelections: 0,
+  };
+
+  return {
+    ...prefs,
+    flightPreferences: {
+      avgDepartureHour: {
+        sum: current.avgDepartureHour.sum + selection.departureHour,
+        count: current.avgDepartureHour.count + 1,
+      },
+      avgPrice: {
+        sum: current.avgPrice.sum + selection.price,
+        count: current.avgPrice.count + 1,
+      },
+      avgStops: {
+        sum: current.avgStops.sum + selection.stops,
+        count: current.avgStops.count + 1,
+      },
+      redEyeCount: current.redEyeCount + (selection.isRedEye ? 1 : 0),
+      totalSelections: current.totalSelections + 1,
+    },
+    lastUpdated: Date.now(),
+  };
+}
+
+/**
+ * Record a hotel selection
+ */
+export function recordHotelSelection(
+  prefs: RevealedPreferences,
+  selection: {
+    destinationId: string;
+    stars: number;
+    pricePerNight: number;
+    amenities: string[];
+  }
+): RevealedPreferences {
+  const current = prefs.hotelPreferences || {
+    avgStars: { sum: 0, count: 0 },
+    avgPricePerNight: { sum: 0, count: 0 },
+    amenityScores: {},
+    totalSelections: 0,
+  };
+
+  // Update amenity scores
+  const newAmenityScores = { ...current.amenityScores };
+  for (const amenity of selection.amenities) {
+    newAmenityScores[amenity] = (newAmenityScores[amenity] || 0) + 1;
+  }
+
+  return {
+    ...prefs,
+    hotelPreferences: {
+      avgStars: {
+        sum: current.avgStars.sum + selection.stars,
+        count: current.avgStars.count + 1,
+      },
+      avgPricePerNight: {
+        sum: current.avgPricePerNight.sum + selection.pricePerNight,
+        count: current.avgPricePerNight.count + 1,
+      },
+      amenityScores: newAmenityScores,
+      totalSelections: current.totalSelections + 1,
+    },
+    lastUpdated: Date.now(),
+  };
+}
+
+/**
+ * Record a booking (strongest signal)
+ */
+export function recordBooking(
+  prefs: RevealedPreferences,
+  booking: {
+    destinationId: string;
+    vibes: DestinationVibe[];
+    region: string;
+    tripCost: number;
+    tripLengthDays: number;
+  }
+): RevealedPreferences {
+  const signal: BookingSignal = {
+    timestamp: Date.now(),
+    destinationId: booking.destinationId,
+    vibes: booking.vibes,
+    region: booking.region,
+    tripCost: booking.tripCost,
+    tripLengthDays: booking.tripLengthDays,
+    completed: false, // Will be updated later if they complete the trip
+  };
+
+  // Boost vibe and region scores significantly for bookings
+  const boostedVibeScores = { ...prefs.vibeScores };
+  for (const vibe of booking.vibes) {
+    if (!boostedVibeScores[vibe]) {
+      boostedVibeScores[vibe] = { positive: 0, negative: 0 };
+    }
+    boostedVibeScores[vibe] = {
+      ...boostedVibeScores[vibe],
+      positive: boostedVibeScores[vibe].positive + WEIGHTS.trip_booked,
+    };
+  }
+
+  const boostedRegionScores = { ...prefs.regionScores };
+  if (!boostedRegionScores[booking.region]) {
+    boostedRegionScores[booking.region] = { positive: 0, negative: 0 };
+  }
+  boostedRegionScores[booking.region] = {
+    ...boostedRegionScores[booking.region],
+    positive: boostedRegionScores[booking.region].positive + WEIGHTS.trip_booked,
+  };
+
+  // Update trip length preference
+  const currentTripLength = prefs.tripLengthPreference || { sum: 0, count: 0 };
+
+  return {
+    ...prefs,
+    vibeScores: boostedVibeScores,
+    regionScores: boostedRegionScores,
+    bookingSignals: [...(prefs.bookingSignals || []), signal].slice(-20), // Keep last 20
+    totalBookings: (prefs.totalBookings || 0) + 1,
+    tripLengthPreference: {
+      sum: currentTripLength.sum + booking.tripLengthDays,
+      count: currentTripLength.count + 1,
+    },
+    costPreference: {
+      sum: prefs.costPreference.sum + booking.tripCost,
+      count: prefs.costPreference.count + 1,
+    },
     lastUpdated: Date.now(),
   };
 }
@@ -410,7 +650,23 @@ export function getPreferenceSummary(prefs: RevealedPreferences): {
   topVibes: string[];
   avoidVibes: string[];
   avgCost: number | null;
+  avgTripLength: number | null;
   confidence: 'low' | 'medium' | 'high';
+  // New: learned flight preferences
+  flightPrefs: {
+    avgDepartureHour: number | null;
+    avgPrice: number | null;
+    prefersRedEye: boolean;
+    avgStops: number | null;
+  } | null;
+  // New: learned hotel preferences
+  hotelPrefs: {
+    avgStars: number | null;
+    avgPricePerNight: number | null;
+    topAmenities: string[];
+  } | null;
+  // New: top POI categories
+  topPOICategories: string[];
 } {
   const ranked = getRankedVibes(prefs);
   const positiveVibes = ranked.filter(v => v.score > 0);
@@ -420,16 +676,68 @@ export function getPreferenceSummary(prefs: RevealedPreferences): {
     ? Math.round(prefs.costPreference.sum / prefs.costPreference.count)
     : null;
 
+  const avgTripLength = prefs.tripLengthPreference?.count && prefs.tripLengthPreference.count > 0
+    ? Math.round(prefs.tripLengthPreference.sum / prefs.tripLengthPreference.count)
+    : null;
+
   let confidence: 'low' | 'medium' | 'high';
   if (prefs.totalSwipes < 10) confidence = 'low';
   else if (prefs.totalSwipes < 30) confidence = 'medium';
   else confidence = 'high';
 
+  // Flight preferences
+  let flightPrefs = null;
+  if (prefs.flightPreferences && prefs.flightPreferences.totalSelections >= 2) {
+    const fp = prefs.flightPreferences;
+    flightPrefs = {
+      avgDepartureHour: fp.avgDepartureHour.count > 0
+        ? Math.round(fp.avgDepartureHour.sum / fp.avgDepartureHour.count)
+        : null,
+      avgPrice: fp.avgPrice.count > 0
+        ? Math.round(fp.avgPrice.sum / fp.avgPrice.count)
+        : null,
+      prefersRedEye: fp.totalSelections > 0 && (fp.redEyeCount / fp.totalSelections) > 0.3,
+      avgStops: fp.avgStops.count > 0
+        ? Math.round((fp.avgStops.sum / fp.avgStops.count) * 10) / 10
+        : null,
+    };
+  }
+
+  // Hotel preferences
+  let hotelPrefs = null;
+  if (prefs.hotelPreferences && prefs.hotelPreferences.totalSelections >= 2) {
+    const hp = prefs.hotelPreferences;
+    const topAmenities = Object.entries(hp.amenityScores)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+      .map(([amenity]) => amenity);
+
+    hotelPrefs = {
+      avgStars: hp.avgStars.count > 0
+        ? Math.round((hp.avgStars.sum / hp.avgStars.count) * 10) / 10
+        : null,
+      avgPricePerNight: hp.avgPricePerNight.count > 0
+        ? Math.round(hp.avgPricePerNight.sum / hp.avgPricePerNight.count)
+        : null,
+      topAmenities,
+    };
+  }
+
+  // Top POI categories
+  const topPOICategories = Object.entries(prefs.poiCategoryClicks || {})
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 5)
+    .map(([category]) => category);
+
   return {
     topVibes: positiveVibes.slice(0, 3).map(v => v.vibe),
     avoidVibes: negativeVibes.slice(0, 2).map(v => v.vibe),
     avgCost,
+    avgTripLength,
     confidence,
+    flightPrefs,
+    hotelPrefs,
+    topPOICategories,
   };
 }
 

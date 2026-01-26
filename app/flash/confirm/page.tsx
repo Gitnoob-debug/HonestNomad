@@ -1,10 +1,11 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
-import type { FlashTripPackage } from '@/types/flash';
+import type { FlashTripPackage, DestinationVibe } from '@/types/flash';
 import type { HotelOption } from '@/lib/liteapi/types';
+import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
 
 interface BookingData {
   trip: FlashTripPackage;
@@ -21,6 +22,8 @@ export default function FlashConfirmPage() {
   const { user, loading: authLoading } = useAuth();
   const router = useRouter();
   const [bookingData, setBookingData] = useState<BookingData | null>(null);
+  const { trackBooking } = useRevealedPreferences();
+  const hasTrackedBooking = useRef(false);
 
   useEffect(() => {
     // Try to load from flash_booking_data first (new flow)
@@ -96,6 +99,18 @@ export default function FlashConfirmPage() {
   const grandTotal = flightTotal + hotelTotal;
 
   const handleProceedToBooking = () => {
+    // Track booking for preference learning (strongest signal - 3x weight)
+    if (!hasTrackedBooking.current) {
+      trackBooking({
+        destinationId: trip.destination.city.toLowerCase().replace(/\s+/g, '-'),
+        vibes: (trip.destination.vibes || []) as DestinationVibe[],
+        region: trip.destination.region || 'unknown',
+        tripCost: grandTotal,
+        tripLengthDays: trip.itinerary?.days || 3,
+      });
+      hasTrackedBooking.current = true;
+    }
+
     // In full implementation, this would:
     // 1. Create a trip record
     // 2. Redirect to the booking/payment flow

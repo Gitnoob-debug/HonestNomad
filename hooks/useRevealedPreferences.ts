@@ -8,9 +8,13 @@ import {
   createEmptyPreferences,
   recordSwipe,
   recordPOIAction,
+  recordFlightSelection,
+  recordHotelSelection,
+  recordBooking,
   getPreferenceSummary,
   hasEnoughSignals,
 } from '@/lib/flash/preferenceEngine';
+import type { DestinationVibe } from '@/types/flash';
 import {
   loadRevealedPreferences,
   saveRevealedPreferences,
@@ -30,7 +34,33 @@ interface UseRevealedPreferencesReturn {
     dwellTimeMs?: number,
     expandedCard?: boolean
   ) => void;
-  trackPOIAction: (poiType: string, action: 'favorite' | 'unfavorite') => void;
+  trackPOIAction: (
+    poiType: string,
+    action: 'favorite' | 'unfavorite' | 'click' | 'expand',
+    poiCategory?: string
+  ) => void;
+  trackFlightSelection: (selection: {
+    destinationId: string;
+    departureHour: number;
+    price: number;
+    stops: number;
+    duration: number;
+    cabinClass: string;
+    isRedEye: boolean;
+  }) => void;
+  trackHotelSelection: (selection: {
+    destinationId: string;
+    stars: number;
+    pricePerNight: number;
+    amenities: string[];
+  }) => void;
+  trackBooking: (booking: {
+    destinationId: string;
+    vibes: DestinationVibe[];
+    region: string;
+    tripCost: number;
+    tripLengthDays: number;
+  }) => void;
   resetPreferences: () => Promise<void>;
 }
 
@@ -123,12 +153,79 @@ export function useRevealedPreferences(): UseRevealedPreferencesReturn {
     });
   }, [scheduleSave]);
 
-  const trackPOIAction = useCallback((poiType: string, action: 'favorite' | 'unfavorite') => {
+  const trackPOIAction = useCallback((
+    poiType: string,
+    action: 'favorite' | 'unfavorite' | 'click' | 'expand',
+    poiCategory?: string
+  ) => {
     setPreferences(prev => {
-      const updated = recordPOIAction(prev, poiType, action);
+      const updated = recordPOIAction(prev, poiType, action, poiCategory);
       scheduleSave(updated);
 
-      console.log(`[RevealedPrefs] Recorded POI ${action}: ${poiType}`);
+      console.log(`[RevealedPrefs] Recorded POI ${action}: ${poiType}${poiCategory ? ` (${poiCategory})` : ''}`);
+
+      return updated;
+    });
+  }, [scheduleSave]);
+
+  const trackFlightSelection = useCallback((selection: {
+    destinationId: string;
+    departureHour: number;
+    price: number;
+    stops: number;
+    duration: number;
+    cabinClass: string;
+    isRedEye: boolean;
+  }) => {
+    setPreferences(prev => {
+      const updated = recordFlightSelection(prev, selection);
+      scheduleSave(updated);
+
+      console.log(`[RevealedPrefs] Recorded flight selection for ${selection.destinationId}`, {
+        departureHour: selection.departureHour,
+        price: selection.price,
+        stops: selection.stops,
+      });
+
+      return updated;
+    });
+  }, [scheduleSave]);
+
+  const trackHotelSelection = useCallback((selection: {
+    destinationId: string;
+    stars: number;
+    pricePerNight: number;
+    amenities: string[];
+  }) => {
+    setPreferences(prev => {
+      const updated = recordHotelSelection(prev, selection);
+      scheduleSave(updated);
+
+      console.log(`[RevealedPrefs] Recorded hotel selection for ${selection.destinationId}`, {
+        stars: selection.stars,
+        pricePerNight: selection.pricePerNight,
+      });
+
+      return updated;
+    });
+  }, [scheduleSave]);
+
+  const trackBooking = useCallback((booking: {
+    destinationId: string;
+    vibes: DestinationVibe[];
+    region: string;
+    tripCost: number;
+    tripLengthDays: number;
+  }) => {
+    setPreferences(prev => {
+      const updated = recordBooking(prev, booking);
+      scheduleSave(updated);
+
+      console.log(`[RevealedPrefs] Recorded BOOKING for ${booking.destinationId}`, {
+        tripCost: booking.tripCost,
+        tripLengthDays: booking.tripLengthDays,
+        vibes: booking.vibes,
+      });
 
       return updated;
     });
@@ -153,6 +250,9 @@ export function useRevealedPreferences(): UseRevealedPreferencesReturn {
     summary,
     trackSwipe,
     trackPOIAction,
+    trackFlightSelection,
+    trackHotelSelection,
+    trackBooking,
     resetPreferences,
   };
 }

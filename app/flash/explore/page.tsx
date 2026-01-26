@@ -17,6 +17,7 @@ import {
 import { saveDraftTrip, getDraftTrip } from '@/lib/flash/draft-storage';
 import { DESTINATIONS } from '@/lib/flash/destinations';
 import type { HotelOption } from '@/lib/liteapi/types';
+import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
 
 type BookingStep = 'choice' | 'itinerary' | 'flights' | 'hotels' | 'checkout';
 type ItineraryType = SimplePathChoice | null;
@@ -93,6 +94,17 @@ function getDistanceMeters(lat1: number, lon1: number, lat2: number, lon2: numbe
     Math.sin(dLon/2) * Math.sin(dLon/2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
   return R * c;
+}
+
+// Parse ISO duration (PT2H30M) to minutes
+function parseDurationMinutes(duration: string): number {
+  const match = duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?/);
+  if (match) {
+    const hours = match[1] ? parseInt(match[1]) : 0;
+    const minutes = match[2] ? parseInt(match[2]) : 0;
+    return hours * 60 + minutes;
+  }
+  return 0;
 }
 
 // Format distance for display
@@ -197,6 +209,9 @@ function FlashExploreContent() {
   const [showOutOfPref, setShowOutOfPref] = useState(false);
   const [expandedFlightId, setExpandedFlightId] = useState<string | null>(null);
   const [expandedHotelId, setExpandedHotelId] = useState<string | null>(null);
+
+  // Revealed preferences tracking
+  const { trackFlightSelection, trackHotelSelection, trackPOIAction } = useRevealedPreferences();
 
   // Load trip from draft (if resuming) or session storage
   useEffect(() => {
@@ -316,7 +331,9 @@ function FlashExploreContent() {
   const handleStopClick = useCallback((stop: ItineraryStop) => {
     setActiveStopId(stop.id);
     setShowDetails(true);
-  }, []);
+    // Track POI expand for preference learning
+    trackPOIAction(stop.type, 'expand', stop.category);
+  }, [trackPOIAction]);
 
   const toggleFavorite = useCallback((stop: ItineraryStop, e?: React.MouseEvent) => {
     if (e) {
@@ -328,14 +345,18 @@ function FlashExploreContent() {
         newFavorites.delete(stop.id);
         // Remove from favoriteStops
         setFavoriteStops(current => current.filter(s => s.id !== stop.id));
+        // Track unfavorite for preference learning
+        trackPOIAction(stop.type, 'unfavorite', stop.category);
       } else {
         newFavorites.add(stop.id);
         // Add to favoriteStops (keep full stop data)
         setFavoriteStops(current => [...current, stop]);
+        // Track favorite for preference learning
+        trackPOIAction(stop.type, 'favorite', stop.category);
       }
       return newFavorites;
     });
-  }, []);
+  }, [trackPOIAction]);
 
   const handleGoBack = () => {
     if (step === 'itinerary') {
@@ -1421,6 +1442,23 @@ function FlashExploreContent() {
                                 onClick={() => {
                                   setSelectedFlight(flight);
                                   setSkipFlights(false);
+                                  // Track flight selection for preference learning
+                                  if (trip) {
+                                    const outboundSlice = flight.slices?.[0];
+                                    const departureHour = outboundSlice?.departureTime
+                                      ? new Date(outboundSlice.departureTime).getHours()
+                                      : 12;
+                                    const isRedEye = departureHour >= 21 || departureHour <= 5;
+                                    trackFlightSelection({
+                                      destinationId: trip.destination.city.toLowerCase().replace(/\s+/g, '-'),
+                                      departureHour,
+                                      price: flight.amount || flight.totalAmount || 0,
+                                      stops: outboundSlice?.stops ?? 0,
+                                      duration: parseDurationMinutes(outboundSlice?.duration || 'PT0H'),
+                                      cabinClass: flight.cabinClass || 'economy',
+                                      isRedEye,
+                                    });
+                                  }
                                 }}
                                 className={`w-full py-3 rounded-xl font-semibold transition-colors ${
                                   isSelected
@@ -1560,6 +1598,23 @@ function FlashExploreContent() {
                                   onClick={() => {
                                     setSelectedFlight(flight);
                                     setSkipFlights(false);
+                                    // Track flight selection for preference learning
+                                    if (trip) {
+                                      const outboundSlice = flight.slices?.[0];
+                                      const departureHour = outboundSlice?.departureTime
+                                        ? new Date(outboundSlice.departureTime).getHours()
+                                        : 12;
+                                      const isRedEye = departureHour >= 21 || departureHour <= 5;
+                                      trackFlightSelection({
+                                        destinationId: trip.destination.city.toLowerCase().replace(/\s+/g, '-'),
+                                        departureHour,
+                                        price: flight.amount || flight.totalAmount || 0,
+                                        stops: outboundSlice?.stops ?? 0,
+                                        duration: parseDurationMinutes(outboundSlice?.duration || 'PT0H'),
+                                        cabinClass: flight.cabinClass || 'economy',
+                                        isRedEye,
+                                      });
+                                    }
                                   }}
                                   className={`w-full py-3 rounded-xl font-semibold transition-colors ${
                                     isSelected
@@ -1915,6 +1970,15 @@ function FlashExploreContent() {
                                 onClick={() => {
                                   setSelectedHotel(hotel);
                                   setSkipHotels(false);
+                                  // Track hotel selection for preference learning
+                                  if (trip) {
+                                    trackHotelSelection({
+                                      destinationId: trip.destination.city.toLowerCase().replace(/\s+/g, '-'),
+                                      stars: hotel.stars || 3,
+                                      pricePerNight: hotel.pricePerNight || hotel.totalPrice / (trip.itinerary.days || 3),
+                                      amenities: hotel.amenities || [],
+                                    });
+                                  }
                                 }}
                                 className={`w-full py-3 rounded-xl font-semibold transition-colors ${
                                   isSelected

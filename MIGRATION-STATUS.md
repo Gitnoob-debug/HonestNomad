@@ -111,7 +111,7 @@ npx tsx scripts/image-migration/pexels-migrate.ts --continuous
 ## ENVIRONMENT & CREDENTIALS
 
 ### Google Places API
-- **Key:** `AIzaSyBGPtaKvigz2Xwh9Wj4H6EwCI7FM71Gzt4`
+- **Key:** REVOKED - Do not store API keys in repo
 - **Quotas set:** 4000/day for SearchNearby and SearchText
 - **Budget:** $200 (set alerts in Google Cloud Console)
 - **Photo API:** Separate rate limit (not configurable) - caused 11k failures in first run
@@ -153,7 +153,7 @@ npx tsx scripts/image-migration/pexels-migrate.ts --continuous
 ### If retrying failed POI images (after 24h rate limit reset):
 ```bash
 cd /c/HonestNomad
-GOOGLE_PLACES_API_KEY="AIzaSyBGPtaKvigz2Xwh9Wj4H6EwCI7FM71Gzt4" npx tsx scripts/poi-image-migration/migrate-poi-images.ts
+GOOGLE_PLACES_API_KEY="your-key-here" npx tsx scripts/poi-image-migration/migrate-poi-images.ts
 ```
 
 All scripts track progress in JSON files and will resume from where they left off.

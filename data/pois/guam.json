@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhe0UeJyCH2cR1s02MnnxSlU/photos/AcnlKN1RPdGtQt2YUVp1CXnFeHQSzFAmPQ4KFKh2dEkCBA0nOLPiSi9Xu3PuaKvRkp0zDjoczX03qTZc6eRpLmKDvLtSGT9MJXUb1D-d5U_DjKlYaTCBhFoTeHEI7z-Cn15LDMBUn4BYtiItRrvHRfj9Vp4xr8oP0yg-5r3q7gTx4Ez8tXelvAgw1cHn4220q81EyiOV-2n233sAaZ2Bx-AqgkgCfigeQbpoIQIoOiSz-ZvvaBXKYqlCwCNjGwbQ18JWmRrTElrVq0RvPpkdKCoSATIvAbKtSuIFZaJnCJubWwB5b3V2tEnUCR-aXC9o3oX3oA2LyWxiUNORQqcUSGfXFktVFsJ2WfXLGiPhElkDJLP3VfSwlG_u3tfkZcNpCMSMzK0_YY4iTr8o20_xNABuH1w_mESCGEEtXckuNy2p69-n5WSa/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6145990144336252374&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJhe0UeJyCH2cR1s02MnnxSlU.jpg"
       },
       {
         "id": "ChIJf5l_nWuCH2cRf98e7Jr447M",
@@ -44,7 +45,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJf5l_nWuCH2cRf98e7Jr447M/photos/AcnlKN1PkidNI4fey_6RXasvtLgJf90Khhz6tO7ly_qjVoz6xFhC6WnVAk3T7NN2s_6A9BtLAZR5kQDEPlin1FIogYk0ssvaSiqoV6VZrXI8Lk15ooEiVZhFf0iAfWOVQ7_hStX2aciz6BN2dLTTOgm5lzSFrdfI7khUnkn5zNXIRPqSGi040u6HAd82951QeQncEQGBS0mmvQkPcNi-2pqpjsZ_GssCbNues6pdcdcLQSEK5bHLW-mlKhQrp2qPLEpSsv486tBlQKF4S8vZCP-QB1vjvCwxKLktpewYAYRs1pXeJTghYivtCwgbwCfxtHseXLdmyjpXXTGg1a2b5_cqq9Vuv6uBf7NFN9aiaIeiifn30ucQIF5ww1Ut18mXVNS5glxFy_jkHLHHW7FPhFD4za4bSkizrn2T7lUDDUn1hHbaVstF/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12962477496772517759&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJf5l_nWuCH2cRf98e7Jr447M.jpg"
       },
       {
         "id": "ChIJ-yiabw96H2cRTGJp2X5Wp-8",
@@ -65,7 +67,8 @@
         "websiteUrl": "http://jw.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=17268866398988886604&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ-yiabw96H2cRTGJp2X5Wp-8.jpg"
       },
       {
         "id": "ChIJrUo6ntMMH2cR-DpLGKuqWEk",
@@ -85,7 +88,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJrUo6ntMMH2cR-DpLGKuqWEk/photos/AcnlKN3rw23beQ-QPj9_aVvP-f8KZ2bDQRTVFGzWNgQztUhxcYp4MzOKMNLCQJ9yE-JueQl8AzTYAAMAMxm5qRG2wK73dLLbUkilNd1dIjAIKYtmdByf0NZcKwzxFHh1_LFUeaX7mcUKUDEqbr9WmTD5P8HfHVKsGdIKcFFLwqmk0ndYZmmdhAMRO4zh6J0k-upC4Q7XJ3jvhQZQeTf0Gn2trlpUjfMMWn4vyW4R26E14saKjHuc56TohTrEnJ2n0eByi3MxDX7dxQMhFwaBPr4UCGcMWBze9mYzFu6kvIs53IwyuFDKLz4DPtksRQtnW_LNQT1PUPqvzuo6E-ZLYV5Hbrl_X9YI5bd3XkD7c--essFfrBI8LXoP5VvZ_IDWKoa87N3GcRvGMtst8o4OLc_1l-62T0effq3oUsFkVl-rmeDuSdLN/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5285161814542990072&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJrUo6ntMMH2cR-DpLGKuqWEk.jpg"
       },
       {
         "id": "ChIJy2zWP_p5H2cRndBC9TKZnDk",
@@ -106,7 +110,8 @@
         "websiteUrl": "https://fisheyeguamtours.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4151361400670965917&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJy2zWP_p5H2cRndBC9TKZnDk.jpg"
       },
       {
         "id": "ChIJi9_WbxBzH2cRFHqK4Y62PRs",
@@ -126,7 +131,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJi9_WbxBzH2cRFHqK4Y62PRs/photos/AcnlKN2mq7r4Wq36hcbfV8NzO859krkBfAo6ZZHfxGamOiUjeiV4w2FAm6fFZff51NpijlmJZVPlmWtuJO7_nnN8tckyp5olVRJJh1ooT74-PagAUOlrLb1CqN9Zkoj_UymsYplX6MpkF7w8twGVTBV3BqQf_vSLCU14XLY7xFdBesRwcD996BAQfGgEXrjqYaenzDuivDiNZvWOYPQmyHIL9oQC1G0oRhHpqlmlwcQjNR4Zy4UtjvbRfWK6wTtBJ9G1pBOcQj2-TyizcfS5Bp1xu7xAD9gkdtrYG9O8SDVPDEz9NgjGGNzHVSLTT4gDkmOLtfCiYB-Ri9l9fHQe_kyhhi2TNpko_6rFe8CSEFXs4u8OQwkgzXbBecOpVaaAGE6IfCsCTIqw5o7DCYmJ2-0RKOjpb3VeonFfDFehVPb6evrF1Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1962925737388964372&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJi9_WbxBzH2cRFHqK4Y62PRs.jpg"
       },
       {
         "id": "ChIJtQ7Woih4H2cR9g36IQj2SMg",
@@ -146,7 +152,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJtQ7Woih4H2cR9g36IQj2SMg/photos/AcnlKN1XYBzn3jAFrxnkuxWzAOz7cw3A7AC7CKDOmcb4qr29Z7R8OI55n3zTt3VTMZ3OUM_WSwR8AgwhkTnIg0jd5fNxYoDBC7tvfC7B6iNBCXav97RPpD6dt-jh4p9B7_NTVNIhy-vWPB_w_y9DMGT_qXLBa8CJKfw4_EOD077GTuEcDtKqH_RaXidFr54qVwlN4qm0KzTccyczpd4JF1NBYQW1rcNj4vaPfhxkb5z8DM67TQw3zESsIM92uSY6uO1z13R_0oU5OErwIez--0vnzL5BO9thJRYjpFUXlW18EwsRzT1rxX0yHrntXDtR_Pq0dEQgAMa3CQW-BficaO7yPPSFdqK9mat9JKu9iU4IKlMjP_QIVhy0fdajS13F-Rd2dbtc07ubZaNK1v30PzKbrbe8v6Iv7UaHuhp-oJjdxrXZTQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14432055520698961398&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJtQ7Woih4H2cR9g36IQj2SMg.jpg"
       },
       {
         "id": "ChIJgSER5P-CH2cRgIKZ7vgRxvs",
@@ -166,7 +173,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJgSER5P-CH2cRgIKZ7vgRxvs/photos/AcnlKN3Zy2aZpP-1-T5Eit39UyqhtdBw4cjvUppo7_MUMkla6pZ20O94DOxItDcuqQx4EOyJX9DB87ubQ9TaZ-JRiXfBo4aKfvLCRFnGR_L8VQX5MM5gORf-Erle-WwectwSE4_xCv9VXte3Cqn32ykpSaXRJYvKT4OXG9gi79gSNT_ltjt5LdmsymVWgfCN8P1uLkJFd7aLNWZHzEZNM2PDRMwVxv_250J2E0jwXntBBN8aGHdJVNM1BsvyCvGv_7gD8Yk8vw9Vga3Nh2gy1Mgg_-Pkz2JdlGB---uun8yLkMeFPhQuuSQAKrINxY-eYhlwj-sEEY0PDtAs6decf1P000qjh9jB0hSGMVk3FoqE_xEJCYBmffdfs9klM2cWeqnq660Pcx67QsmEG8pKGG0300PU5fgiz7OMv_-iP3344Icakg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18142207909761221248&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJgSER5P-CH2cRgIKZ7vgRxvs.jpg"
       },
       {
         "id": "ChIJ6dIeEwl5H2cR9G3uitys_6k",
@@ -186,7 +194,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6dIeEwl5H2cR9G3uitys_6k/photos/AcnlKN3oqQMi3_2ay-yXAJ8uiJmoPZCDR4AOTmoYjlvuoosTbXlQldcF0tsbiPKic1bdZOgFAIp5Zm4JTyDd05ct0gKeQLgBcqN51CyTe7o6VlRFPL7v5Zfo5HPg3Zhx05dSA--LacYZEcdP3S4vtNR0nYmZYctwaROdrSvy_R9jYQdx5rzQsGYVdnDVYpwyHaUrb07r1ZBBQT8GwZOWglLpVJvZVKXx3m69-CaeTBmbPohCsOcCoiNEjrp6dWvdv_7Ovyrir9RmOeCyOLH5clHyGoIY-rmxRUBwFtX5fjZGfGg7snHjYLlQ_gqp2_9K_y1QBx0q6V_9lO_e8HVJ2D9NtiS_XGaO1GobcNYeKoQuhkET7nQfEPfcWjrDjOh_Jf1edaql-W4ieIM895B1CpH6ZG_BO0YoW3pCCJF-CD0FJHYkmvc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12249699574694702580&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ6dIeEwl5H2cR9G3uitys_6k.jpg"
       },
       {
         "id": "ChIJM5MQvoqdH2cR2ptKaCVvYQE",
@@ -207,7 +216,8 @@
         "websiteUrl": "https://vva.org/tag/guam/",
         "googleMapsUrl": "https://maps.google.com/?cid=99482873233054682&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJM5MQvoqdH2cR2ptKaCVvYQE.jpg"
       },
       {
         "id": "ChIJayH6heiDH2cR4cMOEyZWmQ0",
@@ -247,7 +257,8 @@
         "websiteUrl": "http://www.aganacathedral.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=2257894107384397314&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJBTJBHCZ4H2cRAj4YU7qmVR8.jpg"
       },
       {
         "id": "ChIJ3_3dWiV4H2cR5iBOYpyT4u4",
@@ -267,7 +278,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3_3dWiV4H2cR5iBOYpyT4u4/photos/AcnlKN3H7y1edPFPBeDX99TH0E34mzE6-3YG1O6PtTokVvSU6238ghHlCmFSn05mwONjSfFs_oXygNO1-79n_Ljox20Rga3OWtgC-yr6fBH1xnmz5wXOf9rbvISHEObwLugHzYoUIC0TvHKfyFVRVKQFtmzhLN1WJbFw2Wtpex0kRuSfRWw4c4YeQZJb1WueJQpeLmEgapOucG4PzFSmyn_I0xL8wsWGKzPYfm2BJJqBaZ4UpZrVknVrTgBZOtvmVUSqFbTOrZBeVbhXnhF1Zjh9OFLZHwaspQKeJXHJNI5V4O2mqsBV6S_xtlXQ6bfZiVa5JA-8eZNVNtoqdgNGujxz1kObcTixSOOO2PSk8DdheIt0KYi5ymKETAbWRo6D65H17wS2iNHyfPgC-Kkotd0ubCyYif0cQgkY28KaCTIg7JHSmQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17213483025636925670&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ3_3dWiV4H2cR5iBOYpyT4u4.jpg"
       },
       {
         "id": "ChIJsRTFN2B3H2cRaQlGLFJz9iU",
@@ -288,7 +300,8 @@
         "websiteUrl": "https://www.nps.gov/wapa/planyourvisit/asan-bay-overlook.htm",
         "googleMapsUrl": "https://maps.google.com/?cid=2735500620441454953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJsRTFN2B3H2cRaQlGLFJz9iU.jpg"
       },
       {
         "id": "ChIJ85a7fhWDH2cR7OdmUL89d2Y",
@@ -308,7 +321,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ85a7fhWDH2cR7OdmUL89d2Y/photos/AcnlKN0HSwX0D3JLXcIIXHpEEJmZuGES-gZQ8tEHhJ9FUpdmQ4oaCwRmqyCKnzzx2d763rA0kLyz_9bO-Vbubp3mKFpM7CTCAxvonu02-B5g3MGKDdAxBfu5WRf1U_y6AGGr5LNcKtk11VfD7D_mybXD_haX5AF3nvsqLq9B2CNuqNkErHVjI1H6pVMYlROhFqvYmzDutwIsuF9D1B7d741atVpW09zFBJU2kwSKAeymjnSVQ9THXvk14AaVZPmB5e5VqvznVYatLHQas3VAktC50TpUc0lGDYaqyZcKmy1mkbKD9ELZw4_aSRtwMoeOWLuU7nb2so8b1C6pW6R68KgZGNcf4tT77C8SsC-XvOZdqKPyaCUECsTnMMWni9JIMrRSlalSKECU5N3FQXNUUpwfCIBmVRGJoIgK6TrhgMTXT5kXdRo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7383438005994186732&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ85a7fhWDH2cR7OdmUL89d2Y.jpg"
       },
       {
         "id": "ChIJQZf2WeR2H2cRKbFdEEqgkI4",
@@ -328,7 +342,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQZf2WeR2H2cRKbFdEEqgkI4/photos/AcnlKN3kElR3k2gI0IgukyBe4U6IaA-S5SHV6SLo8FhcjhBUhpJ80wBe9wsu_Vd_173iL6J4z7Y-AQ_AB7ujT7feXSHrXYYjSvHIQUAmuJt2sobIIp5Z356JkCeL9TLckhD0lr6pDwtkL7ERu1wZwQnj4TsJAAKwu7FW0kP3_N72Z0Co4C2tSTmDQaEuyFRRyTzso2pUyZ2_Y8G4JT7Szsx_-vvzXgRaIzCWqS37TF--YtfheImyO-QqdZ6FLOpt0iPS9VfQjl0eqLLcskhDPuKo_auRKLGoFVriLdIY-cwBo52wWDTcZTxVVq_mtNMEEMMl95dZ-C7XorlMUZqy6S6hYwJeQkfBXGyXVUutdoUnKpXDItZNWxnKv8zfgjXGHwdIC6EPOT2mfNpgFmzZwrk3aKF3GduFXYPMX-GXrDKsh0Kj3pCx4B_5W5C-cCR8gdND/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10272886989994701097&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJQZf2WeR2H2cRKbFdEEqgkI4.jpg"
       },
       {
         "id": "ChIJf-Wx5cV5H2cRo3wjgoyAC3g",
@@ -349,7 +364,8 @@
         "websiteUrl": "https://www.guammuseumfoundation.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=8650148850262310051&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJf-Wx5cV5H2cRo3wjgoyAC3g.jpg"
       },
       {
         "id": "ChIJmYM5Ril4H2cRGme5Cuv90Ls",
@@ -369,7 +385,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmYM5Ril4H2cRGme5Cuv90Ls/photos/AcnlKN1_491zW8bV8LypAABT5LFiRa01oQjj7RMAcMzYiLH1HgJ994yaHo_qRrGlVyInw5UUVf3BKdEBpHfNsmN6rozEcFPf58Pr0HwiAJcl1XlBlkHelo2VddPwouhcOwxvM6yJNUy2VXQ5bpgjTAYibAhF2NFdtlg6w7s9A_W8r9Gty9PuKj-JGYhyRG7pWJ6MMR2ndNzd6fJ_Y9C5cKa-n_52YLyk2uAYszVYwObacF-tPy4YYdk6k6XNYvAqnOWTD4WuZFPDBlk-lAXcFdBEw7ZUQlDTLs0GMZThTzhKa6-YkL7U4vfEJcQwyPmHv-5qTbBtAXwUppJb_3Gr6abjD6wEn5hn3teNWBAn1Ri7caFf-YPpWYyrHz5OZWmJnsVSUDq5z1uY8VfoSI7KevOVlrGTAIok9D55_iuKYnjJ7QA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13533596066187405082&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJmYM5Ril4H2cRGme5Cuv90Ls.jpg"
       },
       {
         "id": "ChIJ6b0vFPEMH2cRI59JRMSxc1M",
@@ -389,7 +406,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6b0vFPEMH2cRI59JRMSxc1M/photos/AcnlKN3tYF1E-_W2eSpelSqIuk1nQK2Yjho8ZnU8XE_rPhJN_sDhIy_W3pK7cbSgroMMazIbnU8bc_bJIcl_yPPk7l0-CYE8VFWrV24rgf_tAo9PNZ2KojaTaPTE5WAqKfD-0ErNszgVia-NKxPWtRldFR7QgbRL2Ka1NIBhfTb0S3PVcVGv7_ts9u6potTUa_ookIi6P-vb-OHGjcaaoF3Jdnxgr8GDKu6eI-S6mvkxVVTkEf_WiZf8RL0NFKhNV0XemQbQaNZKlU6xY_ZeVzMYJlKm0YZNG_lXh9ijeWag1Jp2rPCJgsDDO1gVhn626bTtqgpYitvpgRsa5P3GORULPH89D14XL4B0Dx1dklpazxF6ylh0CI6qVx4bj0aIj0ROFY54EG8VCQNbL4geHs1AEhiQCi16-6JOHkjFrpFse84EYA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6013345383987126051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ6b0vFPEMH2cRI59JRMSxc1M.jpg"
       },
       {
         "id": "ChIJwYKS8wB6H2cR-ReBSSipfg4",
@@ -410,7 +428,8 @@
         "websiteUrl": "https://www.nps.gov/wapa/planyourvisit/piti-guns.htm",
         "googleMapsUrl": "https://maps.google.com/?cid=1044458154093516793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJwYKS8wB6H2cR-ReBSSipfg4.jpg"
       },
       {
         "id": "ChIJzaU7ki94H2cR2RNfd60jSTY",
@@ -430,7 +449,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJzaU7ki94H2cR2RNfd60jSTY/photos/AcnlKN1xr9QmcLlPcYLXZBDkudZxAPxYAEKC6NI3-IRm38vatbKMOTzNpAeGo0kEMBN3p4q1BPc4JnsM2tn-i8wpiuucwlSLR7je3x9wMzZ4FTCucFfFIaWi8jUFog5mkqK4y702Dzz-_5HvtS5yxT5WKiEe5FoooejBSh75jJ_OgQTaUG1aLIzgrLNpawso2dBmOByJhR7RO875sAbN_sxQD2uQzex2U-QSwuWuCtLT5d-cTxf5AQjk7B8gw9aSkGMVWo88c_-mJlI8W_IOX6nGielAEhQQemWARamADByHEupAJIt99wOkvPvu79p_2XmuajnotlWAoWxH4ZRVZ8GpkYWoo2YH3lZ0F150fGGITw-tZy-4LbWGcw0AKxQEE-NWWi6dW0sQoeIgZtZhiUxZ2kvd_xbzIh-sZdwER9VUmuOQLGIt/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3911696979287020505&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJzaU7ki94H2cR2RNfd60jSTY.jpg"
       },
       {
         "id": "ChIJoY1PVGaCH2cRnqkUb4E_dIs",
@@ -450,7 +470,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJoY1PVGaCH2cRnqkUb4E_dIs/photos/AcnlKN0aHb5_QgZ6aRgFZ-7WytDzcStH1AwmrLuya0Ef0Bu4oTHEanaWxlz3OM7gGr_88a6PXubKDmeK4dc1DaL-qtl1_kOCZUKDESrjISKaBXUcY7ZAkrH32qKd6eGf5juNMn3f-zSJzYo5baSBQlthw8moz2Wllr6rUOzX7mZoyl7nSO7uw9yIB7161tbLB-WMjRnFe7B5IhOWEGSaRUhewsFlLAcdu-0CiIZQfiWS0oFL77lgcJgrr_6QJPkYodMn6rXr9_Z4MCo615qvdk3q3B5JWKYbQruWlGDg-4VaWsYI6lwvZg30IbEBGdCZj5VDlCHawgGxtdyXHIiEGyOXvAY99ujbqV8Asxx01mTQKdi_g6KwA7Xe_7Z7v3ZrQYXiIW2tR1GEtqsTlMY14r6Cae5xAhPR4LFOXQ9zUqqXTdUHmBBQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10048726493717375390&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJoY1PVGaCH2cRnqkUb4E_dIs.jpg"
       },
       {
         "id": "ChIJHYXsP_WCH2cRELXOoP1qx04",
@@ -471,7 +492,8 @@
         "websiteUrl": "https://m.facebook.com/TagadaGU/",
         "googleMapsUrl": "https://maps.google.com/?cid=5676623492880971024&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJHYXsP_WCH2cRELXOoP1qx04.jpg"
       },
       {
         "id": "ChIJc_NUqNIMH2cRyI_MgKDg0wM",
@@ -491,7 +513,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJc_NUqNIMH2cRyI_MgKDg0wM/photos/AcnlKN3xdemtFtdB3L6yfEvYi6fBZ3R-snceGvEDoWXqlgtvIa6GbMP1GRj8zPYlz1xscakHWazOhF9uAmtAP7qg3a0ARVIcq_8kC-XXsJYQEakqq86WpNDunkl1eAT6Q-oq1-2pqGR3YscZEBWNkDf6kUCpVRoObtVWjQyapH-FXP0NzlnyG3QCnn0pcX-bWJ1lO4Wx1rpEIf66_TVKH4z1IT7akk5WUddTgLsCYPJ6q6ioy65p8fkAU3SgojSI31eqtgAmjROrSyoNOC15Xr21sbgDPv0JkkkUm0BchDn2_YFCzi-DU3kaJzKfAUi1PceFIJQcZi1g6ioLG8ZdFvn5cQnZ2k5KFpddZD7YzJUl4C9A0BYK6IBLYh5a3XUM5c8LKF1jlDixd8ZUBowO_rEbUXwHiia7-r0UfKI5KK8N_DCRKg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=275810982160011208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJc_NUqNIMH2cRyI_MgKDg0wM.jpg"
       },
       {
         "id": "ChIJT7_0hcV5H2cRsxasKZhird8",
@@ -512,7 +535,8 @@
         "websiteUrl": "https://governor.guam.gov/",
         "googleMapsUrl": "https://maps.google.com/?cid=16117647047102568115&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJT7_0hcV5H2cRsxasKZhird8.jpg"
       },
       {
         "id": "ChIJl8kH63d4H2cR2YgRsRtNGok",
@@ -532,7 +556,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl8kH63d4H2cR2YgRsRtNGok/photos/AcnlKN1eobpCSFabbUwmr_J79WiOUoNG2JtTmvaCqayit9TY8gldJsrku_gyQ1bkeg6Z5caZg0gIMT5yQRHfm-9AdiTbSPJu9z0iT3kcIGOHdT-z-cJk4hUP3_MsN1Ff3OE-Sg60X6DLiIPqqw-vMTmP8ckQPzxt5mOrCGdwRtVaA_1tLzNRc8SamrFNXOTlHpwMyMBaTx0_h-tqvK93OTGIGABB-e_QH3heaT6Jr2_JkCeWB3Z4RRLSfsyRuzJD_B2pWANK3iP_q9eiFSzlig7ok6l0iWnOQWJ3DbmTBkFMmPhc40-X20jpNC0fyvWYoftjkYrPuBdBQm4HeZUB1X4fDkTmMxuTMtgDxxFO9NQs5-Pd-nd8OPZfEN0kSkZTsSB3ZfYtgtvln9DTJazh2iZ2AgfIRNKo8MH0qqyuU2mzQBovK5gr/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9879293513920776409&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJl8kH63d4H2cR2YgRsRtNGok.jpg"
       },
       {
         "id": "ChIJhYE9cwB5H2cReKRT3eCNxx8",
@@ -552,7 +577,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhYE9cwB5H2cReKRT3eCNxx8/photos/AcnlKN3w3B7QXGxsCmToU8LERZ7K5boY52oPnnwVVXPmXp99ncREQsc9tX8wIGkt8FfvXB216wlIXzzdZrEfPJ-TR1vlRREEMIbPGLsxRAT85dA537XvaeXNHVQ91fH7VXhEf0rWbRwUD55CxjN340MAHHs3KrBSF8iZ1pvJ_Ufy76qiUTAxZyMLE5GgFCOoOFNRhJKzUdgdev2GlzycxrXfuob6e7AxQ9APiJqONZsFIaPQGcZj9ouwdu62Bt7FcWjD4ZEiiBtSAyapNv35qFasyGyggIIVHrjcm33AaJG4EgYomZQB6r5NSfC1I_A3BFH8uKjtihlcmp5F-R8NRs-aneGEnnn0EnGrLxSjjoVE4q6OtB68ricq2nV7o_3bAYzEknOzLGXsDybC8NWYdPb577Cc3b9E0_ZXqJoLmZsK7URXqOYvHJmnPzcnkvvfLIuF/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2289954932466623608&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:09.377Z",
-        "updatedAt": "2026-01-23T16:14:09.377Z"
+        "updatedAt": "2026-01-23T16:14:09.377Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJhYE9cwB5H2cReKRT3eCNxx8.jpg"
       }
     ],
     "foodie": [
@@ -576,7 +602,8 @@
         "websiteUrl": "http://www.mosasjointguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7413193141015579438&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJQ6gd-i54H2cRLouYjeLz4GY.jpg"
       },
       {
         "id": "ChIJx9tXXIuCH2cRqXSGoWFSiwE",
@@ -597,7 +624,8 @@
         "websiteUrl": "https://www.dusit.com/dusitthani-guamresort/?utm_source=google&utm_medium=organic&utm_campaign=seo-maps",
         "googleMapsUrl": "https://maps.google.com/?cid=111273195075957929&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJx9tXXIuCH2cRqXSGoWFSiwE.jpg"
       },
       {
         "id": "ChIJVWxYKomDH2cRYvoN499TrVc",
@@ -618,7 +646,8 @@
         "websiteUrl": "https://www.anemosguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6317798073322830434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJVWxYKomDH2cRYvoN499TrVc.jpg"
       },
       {
         "id": "ChIJ1X3x6qSDH2cRswHmO4jiIBY",
@@ -640,7 +669,8 @@
         "websiteUrl": "http://primoguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1594523342837514675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ1X3x6qSDH2cRswHmO4jiIBY.jpg"
       },
       {
         "id": "ChIJs0iybv15H2cRuia_vUJZlj8",
@@ -662,7 +692,8 @@
         "websiteUrl": "http://www.stax.wtf/",
         "googleMapsUrl": "https://maps.google.com/?cid=4581947814082193082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJs0iybv15H2cRuia_vUJZlj8.jpg"
       },
       {
         "id": "ChIJV7Wm7NF5H2cRTNcnfIUOgY8",
@@ -682,7 +713,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJV7Wm7NF5H2cRTNcnfIUOgY8/photos/AcnlKN0zVomPouAfRPui6kdtsuiiEc804xv4M9uyFdVHtqJphrh_yEJcvgcTs_i8zue9euowl2_sdSqQXkASKUMP4PeMZy2K8gBNXRuiZIE2h4kMMdhPGjQXaj0gc_F29jFrnoDfP9J_PAGPG1JOSITshMpVNYtSSDpERM2i32BhwFRC-PlWID0eQkjBPSPN5xwgLnS8yDYuTPU4jUXrNSyxCIdXMendvaaB8FChbTheyaeGR59VUg3InXXfxKqeyHygGEEhhrS0dOoqHp35B5_hqdhCcWRo09Ms_oRVjO1PHSBufQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10340562185895794508&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJV7Wm7NF5H2cRTNcnfIUOgY8.jpg"
       },
       {
         "id": "ChIJ28mrZVaDH2cRk3CVEmRfII0",
@@ -703,7 +735,8 @@
         "websiteUrl": "https://www.villageofdonki.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10169232842015731859&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ28mrZVaDH2cRk3CVEmRfII0.jpg"
       },
       {
         "id": "ChIJl6Q-xIyCH2cRiU8yFV-cBvw",
@@ -724,7 +757,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl6Q-xIyCH2cRiU8yFV-cBvw/photos/AcnlKN3bAFGEsFLdw7QQVyIOpdkWLZhci3u67YXaaZooqT0GN-97SSGPBVi1mpibqqvsPQZGDxC_Zy7GEho2ABpcDtJvSVar3JiW0GmDjQlgo-l5i2cixsFA_V7AtKnrTfR9PDBpv27-LB0yyExVDTgb3ERmzWzkv_Lk9IJM4i2eBmrDkc9uFWhELFXGZ4EUZfKR5a3Re5pvuHUZXgfwDXkxJ_TmaKS46DlHaW-UXY911nHjeylEmM9QiDZxHCuArNlccf-hAlYqDszw6uuI1utszU3YKSH529dJ8B2vRJThhLrtMszWp8NBT8U-Hae1Z7L7NHPJNer2nA0BvxcpUpU1o4KkzQ2dqL8NagD0sVmhrdEbFG3gsqGwykHcbsrYsrEedqUFEXDEj5hZyzV3IM9ZF4YoJlRcCFTdX1jxRHLyXZaN0w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18160374479609548681&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJl6Q-xIyCH2cRiU8yFV-cBvw.jpg"
       },
       {
         "id": "ChIJE6zYMy94H2cRAs-irSh5xlE",
@@ -746,7 +780,8 @@
         "websiteUrl": "https://www.instagram.com/mightypurplecafe/",
         "googleMapsUrl": "https://maps.google.com/?cid=5892530378079653634&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJE6zYMy94H2cRAs-irSh5xlE.jpg"
       },
       {
         "id": "ChIJe8v3Nk-dH2cRBL88QzceMfc",
@@ -768,7 +803,8 @@
         "websiteUrl": "https://www.crownbakeryguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17812051223927111428&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJe8v3Nk-dH2cRBL88QzceMfc.jpg"
       },
       {
         "id": "ChIJuYM7lcuDH2cRnbdL3zlvzCo",
@@ -789,7 +825,8 @@
         "websiteUrl": "https://francesbakehouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3083962139192047517&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJuYM7lcuDH2cRnbdL3zlvzCo.jpg"
       },
       {
         "id": "ChIJyXCA6JV5H2cRXH2Py5aVS6g",
@@ -809,7 +846,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyXCA6JV5H2cRXH2Py5aVS6g/photos/AcnlKN1iGVqwNAB2ADiovsp8bnJL5SSpUipBC29BS7dP0IILCdxshBEJcnsEt6BYHkZB40qmXRGGSZ-c6x0afsbUF31fI_vg9r7w9DmO_Qrb98cCXWxXzCqv_UnlSse17u2g1dgialXyUKg6MdU2pbE8sHayU6Y3qJBvmqbHscbjv0c697trKDxspRyw8Xx97vYHGAU4Ycf830fNypSfoaiBWwlhZncWOMCt-6MRoF-FvZUYvG9yMpgMeah_FJHZRgW-UvbjfhT8VPtg9ObfnBxLuTB4wPKyrAgiLIV7kuE0jlN40A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12126950896518004060&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJyXCA6JV5H2cRXH2Py5aVS6g.jpg"
       },
       {
         "id": "ChIJ5SxatWSdH2cR8DjTzdHzjcE",
@@ -829,7 +867,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5SxatWSdH2cR8DjTzdHzjcE/photos/AcnlKN3_9gcj6tl0H3rTHW0oyPmk-qaiVo4XipnvWCNvUTa5ypOAcL-COTMTFnf5RPfAm7GnN1BHghkKjrpW_AVviL9qGCwC5SNIm0g0eWkrWEJrFX8HEL6biWHbLKRqY1TeYhiKj2umW8xYu_P160KgivSzNBzFlNMl2vgVjw1X30UImmiOn1bBSBrhXASxYKB4sWOoPp1DssEN1rU1BITassrUlMb9k4bLQrn6ar-Zvw2lgWLVA_PFPVp8WMdJdemQU7ySHk3-RGpPNUtIPpj00d4j3fOm26SRrYi1N352NQP3qCuqz36j-WVKKBGt3L6xUCUWecKgHtTQ7NFETrPa8zqK9gIYGVQRBEQWD5wI7D5WxnEcfJurQXXv5vFvSUA6CswoSHUUQzMpEubWtwW1hreMlplFboiaZcjFE8yfCgI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13947071703463180528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ5SxatWSdH2cR8DjTzdHzjcE.jpg"
       },
       {
         "id": "ChIJ84_4N3GDH2cRiG8bvQA15YA",
@@ -850,7 +889,8 @@
         "websiteUrl": "http://www.gudchacoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9287888083810480008&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ84_4N3GDH2cRiG8bvQA15YA.jpg"
       },
       {
         "id": "ChIJe8LtlDp5H2cRS8yO-KtFpiA",
@@ -871,7 +911,8 @@
         "websiteUrl": "https://www.facebook.com/profile.php?id=61554431325361",
         "googleMapsUrl": "https://maps.google.com/?cid=2352644460259494987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJe8LtlDp5H2cRS8yO-KtFpiA.jpg"
       },
       {
         "id": "ChIJzc6doOyCH2cRieNzig-38g8",
@@ -892,7 +933,8 @@
         "websiteUrl": "https://kidaemanjok.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1149182132308140937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:10.587Z",
-        "updatedAt": "2026-01-23T16:14:10.587Z"
+        "updatedAt": "2026-01-23T16:14:10.587Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJzc6doOyCH2cRieNzig-38g8.jpg"
       },
       {
         "id": "ChIJf0Am_8WDH2cRK2WExeqo708",
@@ -913,7 +955,8 @@
         "websiteUrl": "https://www.instagram.com/tumonskewerhouse?igsh=dTdkMHY1bWd2MWMy",
         "googleMapsUrl": "https://maps.google.com/?cid=5760008174719755563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:10.588Z",
-        "updatedAt": "2026-01-23T16:14:10.588Z"
+        "updatedAt": "2026-01-23T16:14:10.588Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJf0Am_8WDH2cRK2WExeqo708.jpg"
       },
       {
         "id": "ChIJNdm9EPWCH2cRRbuiPM3ggmM",
@@ -934,7 +977,8 @@
         "websiteUrl": "https://bit.ly/2MPRpPn",
         "googleMapsUrl": "https://maps.google.com/?cid=7170540728817466181&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.588Z",
-        "updatedAt": "2026-01-23T16:14:10.588Z"
+        "updatedAt": "2026-01-23T16:14:10.588Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJNdm9EPWCH2cRRbuiPM3ggmM.jpg"
       },
       {
         "id": "ChIJ-2VHKnJ4H2cREHOA70sI35Q",
@@ -956,7 +1000,8 @@
         "websiteUrl": "http://www.patisserieparisco.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10727301959653552912&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.588Z",
-        "updatedAt": "2026-01-23T16:14:10.588Z"
+        "updatedAt": "2026-01-23T16:14:10.588Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ-2VHKnJ4H2cREHOA70sI35Q.jpg"
       },
       {
         "id": "ChIJPyBNyImDH2cRPYh1n4qwYmo",
@@ -977,7 +1022,8 @@
         "websiteUrl": "https://www.facebook.com/Vibes-Restaurant-Tavern-107774061150035/",
         "googleMapsUrl": "https://maps.google.com/?cid=7665883625165260861&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:10.588Z",
-        "updatedAt": "2026-01-23T16:14:10.588Z"
+        "updatedAt": "2026-01-23T16:14:10.588Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJPyBNyImDH2cRPYh1n4qwYmo.jpg"
       },
       {
         "id": "ChIJK6aG6CuDH2cRlefIcqxZoeM",
@@ -997,7 +1043,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJK6aG6CuDH2cRlefIcqxZoeM/photos/AcnlKN0NSt-aYpB5nL3aRLFLTeyo6UZWT1gVDfCrgjOCwHsEcdeN6s6veSxDgNGlLRPvKlnM4lGkGOpfr_OLP5mVZNE7vebTlmTmFCe6ax5w8pJdezCGETZ7st6PBXpaSYOJ92uhE35Ea8MyE2_U7QrHjfxlKNeOM3rR3fGQg7gH_EW7F_VC_gABnzwH5Vq1LPcH6yuFrquxZBS-GpZA1CSZ9M0ggE-IJo4r4Yul6gTLRGRhLA29jSHAQcjD-_I6w_IwO_16hoPL-bEDkX5PnIHk3nXqotISz4Q9P7zRGy_Jml-nDw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16402489915055073173&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.588Z",
-        "updatedAt": "2026-01-23T16:14:10.588Z"
+        "updatedAt": "2026-01-23T16:14:10.588Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJK6aG6CuDH2cRlefIcqxZoeM.png"
       },
       {
         "id": "ChIJIZORuIp5H2cRLew84guZxI8",
@@ -1017,7 +1064,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJIZORuIp5H2cRLew84guZxI8/photos/AcnlKN0ZAP96D0bCFCfuBbnH4Ir7n81c_KIc-swTYZMd8kCcaxjtPqoAWQaZO4TcjDz6A9Lq2LwEGCPyQFV5QPu_Av-TNirhB0MJvcth0G5qFaaxkkF-4YRL1HjA1iiZXt7nmldlsh1Udq_BaHl7Sbr9M7aPP8As9lUlc2tl70k1Qtdu0jfAvnRsZB3vGP4FNBG_rzYLNnchuPeOFQF1UfKcNq8ZqdI8U8Pi6RN2t6vv8URPS2RYaJKdN6B6mLZDAWc9v1TXAugwMIL9NuXmgsue9I7hifkRmw4Y3mh2yQ53frBx_Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10359573319178316845&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.588Z",
-        "updatedAt": "2026-01-23T16:14:10.588Z"
+        "updatedAt": "2026-01-23T16:14:10.588Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJIZORuIp5H2cRLew84guZxI8.jpg"
       },
       {
         "id": "ChIJnQzD5eZ5H2cRnQmKKZqWR-s",
@@ -1037,7 +1085,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnQzD5eZ5H2cRnQmKKZqWR-s/photos/AcnlKN2TOoi0hTldEGdvh-eIauNCu15L-WTRy92Kp8yl1WAAkkUEa2shigIvrs4TBy3jVbZukYnM4oJj6-tRnjvHMr5FXr-1bk35qJB6G49-zU2SJCI7xj7ZWRVjcbhKLzCxEreBo6j-Pr7_Db8RCT1TBUzBgaW0D808NHrdVy36zMc2ZWYoPxU5ComIh2w108HuA0_IHOOLjRMXRxIXNcmgKOglIOLKqjmmEHzaHYC-1XsHKYTnYWLTZ_OzjoSIZoDVvQjHVX0qnafW9QY1Aoi6nRiC5zDh403badrM_2DUCSebvbERO4BOZCVCYbQSZ16Q2-evoWgM0Y7vmqKWT8ZriyaegN-HEDwg8kajpX1l1pikmMUuo4KvAmV4W80h_nC8e0UGl0k3VdGjHoypGZJ0CpdNT2ZDlt-xdT7DdL1peY0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16953684911125563805&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:10.588Z",
-        "updatedAt": "2026-01-23T16:14:10.588Z"
+        "updatedAt": "2026-01-23T16:14:10.588Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJnQzD5eZ5H2cRnQmKKZqWR-s.jpg"
       },
       {
         "id": "ChIJx9uKVACDH2cR5fNuGRur8ps",
@@ -1058,7 +1107,8 @@
         "websiteUrl": "https://www.instagram.com/guam_sweetspot?igsh=MTA2cDV3Z2E2bDJidw==",
         "googleMapsUrl": "https://maps.google.com/?cid=11237232153121977317&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.588Z",
-        "updatedAt": "2026-01-23T16:14:10.588Z"
+        "updatedAt": "2026-01-23T16:14:10.588Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJx9uKVACDH2cR5fNuGRur8ps.jpg"
       },
       {
         "id": "ChIJUYMPHy94H2cRRfa7YBJ8p6A",
@@ -1080,7 +1130,8 @@
         "websiteUrl": "https://www.facebook.com/mainstreetbakery/",
         "googleMapsUrl": "https://maps.google.com/?cid=11576357785553335877&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:10.588Z",
-        "updatedAt": "2026-01-23T16:14:10.588Z"
+        "updatedAt": "2026-01-23T16:14:10.588Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJUYMPHy94H2cRRfa7YBJ8p6A.jpg"
       }
     ],
     "adventure": [
@@ -1103,7 +1154,8 @@
         "websiteUrl": "https://www.bikiniislandclub.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11333831074239457180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ-Wj7bPAMH2cRnKdTFFDbSZ0.jpg"
       },
       {
         "id": "ChIJhe0UeJyCH2cR1s02MnnxSlU",
@@ -1123,7 +1175,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhe0UeJyCH2cR1s02MnnxSlU/photos/AcnlKN2yCyUmuQ0Q0rs66KrfdkDo73hCPcIl0LSmYGcXVxsM2hO2iEBoU3WmoQTyN8IDguchEfOum8AOQdeWynAGavH-CXK6_x4d5YfEgQh7DY16t6ly2eNubYOHVWQoQJlLzt8xv3SwnZxWn1Yh3_gvUizyCpZ17zViWqCGg-GRZ9UPmEIPscLNNhLuxEs5opNAXgZNRSA-8mL9hkXk8NZPiNuwN22SrreXkFJW-slZT2w8S3rHykVtY-x7fdioC3wyxJLv4g1cHBMnZp7pwTEmdYxN0uZzjjqsjMCnoDjx8n_diHsBIjBVgy_viZja31hbHdkmbjbb1XVqrDKzztfJmR3jpqW_YdXiRH1OSvFuLIIXXw5aNTGCjjMcY86k_NOH915EelDtCN-sNUV8YCg--kHVzJ_ONTt47vsxAqnkPlGrfISQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6145990144336252374&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJhe0UeJyCH2cR1s02MnnxSlU.jpg"
       },
       {
         "id": "ChIJ30Gh-PODH2cRVO29E0rNlhw",
@@ -1144,7 +1197,8 @@
         "websiteUrl": "http://www.instagram.com/myrealtrip_guam",
         "googleMapsUrl": "https://maps.google.com/?cid=2060059597611068756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ30Gh-PODH2cRVO29E0rNlhw.jpg"
       },
       {
         "id": "ChIJ_7m9HRB4H2cR4sUaP8dJncc",
@@ -1165,7 +1219,8 @@
         "websiteUrl": "http://www.letsride-guam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14383733904997271010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ_7m9HRB4H2cR4sUaP8dJncc.jpg"
       },
       {
         "id": "ChIJc15qRW13H2cRaTfJq8r3ar8",
@@ -1186,7 +1241,8 @@
         "websiteUrl": "https://guamadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13793109258613110633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJc15qRW13H2cRaTfJq8r3ar8.jpg"
       },
       {
         "id": "ChIJwe8KvQWDH2cRl9vwbwnmT4c",
@@ -1207,7 +1263,8 @@
         "websiteUrl": "http://guamadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9750264646487563159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJwe8KvQWDH2cRl9vwbwnmT4c.jpg"
       },
       {
         "id": "ChIJVQUNWBx3H2cR47bhKEqWjBQ",
@@ -1228,7 +1285,8 @@
         "websiteUrl": "http://hikeguam.weebly.com/sigua-falls.html",
         "googleMapsUrl": "https://maps.google.com/?cid=1480723622755677923&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJVQUNWBx3H2cR47bhKEqWjBQ.jpg"
       },
       {
         "id": "ChIJvT-DTI96H2cRtwLLy_qymuQ",
@@ -1249,7 +1307,8 @@
         "websiteUrl": "http://www.guamoceanadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16472675377291657911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJvT-DTI96H2cRtwLLy_qymuQ.jpg"
       },
       {
         "id": "ChIJ3_3dWiV4H2cR5iBOYpyT4u4",
@@ -1269,7 +1328,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3_3dWiV4H2cR5iBOYpyT4u4/photos/AcnlKN2tULk6NCx0BjcctldZl7GeUUwKMKlb4wRGB7CIxJb5BMotYDCx7oCOLZ97dE5vOJgeyfvX8gl8Jc_0IGZfFpe-Z63nlb_ZcplBzrzwrph8HIR0mHB_I-fSTABuR3_LDBlLWXIRKMPlVaN1jSGNMAAB95asxxULYxhXBJIUtCI8jxdBh6YCMBRo_ua99x0buI_oLobdjR_gsPLh3Ssbchxg0pXT3dm-jV24g7chbe-a-uRbJnPpUFu8wYj4xwEJYGY_X0OwOvVWla-Uw6TJ_SiCVcjplUkG64eHNL6J-iVAqwJ0nxY7f3uh-MwVwCiMZzu88QpfnxAliABcGejSCKioTOnfjbEjknzD02jyiH0F-7zWnIb1Xf-qfrzcC0YCiB1sf_F8T0YSx6RfsjcVDPz0GUla94N8ppbOhFgeOtjFXg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17213483025636925670&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ3_3dWiV4H2cR5iBOYpyT4u4.jpg"
       },
       {
         "id": "ChIJe3FgI72EH2cRLrNHULZVJlw",
@@ -1290,7 +1350,8 @@
         "websiteUrl": "http://guamadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6640088942123660078&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJe3FgI72EH2cRLrNHULZVJlw.jpg"
       },
       {
         "id": "ChIJD85WXRN1H2cRfGRh2hpZ1lA",
@@ -1311,7 +1372,8 @@
         "websiteUrl": "https://valleyofthelatte.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5824941139918152828&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJD85WXRN1H2cRfGRh2hpZ1lA.jpg"
       },
       {
         "id": "ChIJsRTFN2B3H2cRaQlGLFJz9iU",
@@ -1332,7 +1394,8 @@
         "websiteUrl": "https://www.nps.gov/wapa/planyourvisit/asan-bay-overlook.htm",
         "googleMapsUrl": "https://maps.google.com/?cid=2735500620441454953&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJsRTFN2B3H2cRaQlGLFJz9iU.jpg"
       },
       {
         "id": "ChIJqy6bUOx3H2cRyVBflXb7a3g",
@@ -1352,7 +1415,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqy6bUOx3H2cRyVBflXb7a3g/photos/AcnlKN2EQFGKRBb3VA4-XSW6RN01JaTOpIxzNSNkTkSgxhLCwH_bCwzR-dHEd6Fms8rcPC2sKMPIyPAlSHRZQ5BcP5GgbFZn9PDTtxVcSbTalPybf5szb2xQExBLbnG8xcDfskoZywt8ToElqfinlhHf7gyvWXCwnVlLzMg_3n2rwW4fjwfcPM_FGCUrHqL5qQsYAsMl3qXr7ZuX6n2a_niKh4GjvddG2_GuEpchiIJTG6KzQMQxz0dSik_8MniBynzU24KCbSbqfHAW-_CtmC6389Yh01HTE_L4KkJ7-zpHn9xNAGu94CZSr5mBcW7NvLsaBO1yqSf56M54cuD-4v2nnwsUp5m9QCxcBgLgf3_arey5o81dpxfBtriA8A0BhpnO5im7kNamUMAnAzvZgT2lIdLdeI1vlV5zycc_tnTUPQ61lg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8677305593790157001&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJqy6bUOx3H2cRyVBflXb7a3g.jpg"
       },
       {
         "id": "ChIJt2VZQOZ5H2cR6SBag54FYzo",
@@ -1373,7 +1437,8 @@
         "websiteUrl": "https://www.nps.gov/wapa/planyourvisit/asan-beach-unit.htm",
         "googleMapsUrl": "https://maps.google.com/?cid=4207212655260868841&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJt2VZQOZ5H2cR6SBag54FYzo.jpg"
       },
       {
         "id": "ChIJBdCvidSFH2cRcBDhSzBfHoo",
@@ -1393,7 +1458,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJBdCvidSFH2cRcBDhSzBfHoo/photos/AcnlKN1Z7AGsUByRR-g2PHjyaqeXvZ8f_2iuZVfXq9Srzs60joD0Jf-7DpD6L63XytmM8LN7rNXjkhNwKkAAui9O3No7znYdTDGXKhgIEtXmPXPsPAd0VjzCdITFKVssInLjd6Z_QR44iNXElRlY0qVtzGnNdzYFo-xgnSW7Orc3b-T4VQQSiu07fmdvQWkEcYDj6bkq5us4GkjQFmgvdQsozPYMXBAJhYN3LCyMeCuFEu5wNqUtJ57lfd9gaSLz_2Enq7C8WlDqBSA3qkqUnRKXJxbWp0b_RavcesfrFug2YeXMCqFzvibCEc65SgtjGjy0Zlq8kPz91N0r1R7tkCD1NwCGAFDkUjFQXiOk1UCkBx4VkW9S24gTvFiYqaOdUkmr3zOjNzznijzL_RAejFNDZ8eGee67aO6gRYuMZGBR41AFXo8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9952496887571484784&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJBdCvidSFH2cRcBDhSzBfHoo.jpg"
       },
       {
         "id": "ChIJK3xvCEh3H2cRDj01-n2W9zs",
@@ -1413,7 +1479,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJK3xvCEh3H2cRDj01-n2W9zs/photos/AcnlKN2K-hm8gNZPYinxgfF2MSKYmnZRmzwYStQR7NgcHFr5uVSpLNKyZzB73A6TW6Buef9CqqO_kbWI2jXEdtN0WzzPWIDBCYgYVyVCA-Zi4AEDsoyNo6CUdwOsWTCZwfrkudimMX5bCZ4jNhmUmNjdMg6_9bP60nPCLtnMKQgD36G6TjNq-7fu0TbOCTFmLTfcqiFgRsot51nNa0Hd4AZmytudb8jaNnC9_rrq8gqFC1abDMv-SMm9P7D-HWPLEWETEyacINAr557gdsRM3jwuE9-zjdA9DACzavhBw3E3FKT2IdEZJ-gAHxsvu45XoxqDuBFYh36F3D9zrf_TT67X4Jj7JCWe-LzdgkqLV80LqGECtNIXvziBVz9ooIwm0xS8pmaaaBn58fH94RLU6XYTvjC6zPChXH7zPq4M0ZeJs0Lq0ZM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4321087835298151694&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJK3xvCEh3H2cRDj01-n2W9zs.jpg"
       },
       {
         "id": "ChIJAdvyrzF3H2cR3HoRDHA1hzA",
@@ -1433,7 +1500,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAdvyrzF3H2cR3HoRDHA1hzA/photos/AcnlKN2jnzX1cQq6EAtnDEyKID2FVfh8LtIVu59JAQbqSMKUicnTPpMour01E5Srz2BtgNMvICBbGGuY-3cOCf2uy6HwlxzUVsLbtKk8e9te9bXOJR7o7HCSAEqj2BV4g3FSSX_wqVNBt0JogkVR16UBO8YjKxt2yxIjt9paK7RATengv9T_WpNi4w6yCldNSUX4Rvj_6g8kYp7xBlhXN3MSRQElNTr0PwNGcV2HVFrxITsp6JCD_euXSqg4qaKRqS5W3SNuPP4Uj2-UpwETwlU9s7y4KJZjTBJ-cl6X4lPvHKaAfjyD7OihgUP0bbKT75wwCKlhMQTmuS3a_lcZc3jvS-NzMipehr0zZvIy97lSSs2MniN_tS_NA56sXuvdRfvkW9B93aBsG6ePAkpgf6AIYR521qbcZihm7jpIxdAVGOrb5VeL/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3496822391031560924&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJAdvyrzF3H2cR3HoRDHA1hzA.jpg"
       },
       {
         "id": "ChIJ7ZXJSZ52H2cRx9OFvuIIhnk",
@@ -1453,7 +1521,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7ZXJSZ52H2cRx9OFvuIIhnk/photos/AcnlKN0iksJbqErIlF7ZMYd6CNi1nL88GCo9Nzt68R_AgRmta3EzrHGOFo0tEoCCNWpdyg-uMFCjmg8lmWTov8K2Aqad5D-cJ_VciVcf1NoLn-tscxXdlckpwmVSEsgscYe9jKmMBvEXlbzyZGBmTfs_3lDw58RvTUWjqxATvZHH2HNGRrXvxZEX_7FBuEZyiG9s6FBNrtoNVyXvQBRPJFYpLoAg9adWyDN8cj_Mbpffx3q7H6Iv9dqIsQ06wbAIlqWODrP5ESfir20aNu0sHEMXwVV0tFMIqj5e5ckjHLe1xuaopb1jBacM81gT3hvCa8SpM-2sUWGde1dN7sLRv0Xr2uiy2-AI0MPTJ2-nZAWsQ7PTqWhN7gjgMIGRWY1DY_Igs6j-fa-1wTfYtj0DBKxEmfBwCWBZKx50ZuGSl0Q7Czh8nA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8756696295420580807&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ7ZXJSZ52H2cRx9OFvuIIhnk.jpg"
       },
       {
         "id": "ChIJW45OZ6WDH2cR9V5VXa2GZ6o",
@@ -1473,7 +1542,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW45OZ6WDH2cR9V5VXa2GZ6o/photos/AcnlKN14JENZJ2W-CZnz5q-MUUwypfbZweCiEtmA57K2OUxPe52VBx__mrSZ0rINhSLFgpQEkZBKitUOTCbJxu9QjBOl2Ld5yDwnDOmg46dP_8j30Te3B8qEVt6H_RhLgAs8-Rawn6PL5btujJYCDCWDb3Q5jehIlMCEgIstl_KHsuzvhLWNNAQpC4fbJcJFxk4OqmcBaD7UIXuirXeoiwYbUEmR4Zbco4jGB3IiedkgBh5mQ_1ZlwlcbaF-WsP5xWpHA431eOgnlPrJmJKxkjXmrJXP7dwroecUXj1Aqqlwx3-9AKNXRJ_8g99c3xrDOdtuZA0xyjQ32i89VSULGbdf05y5-VqzsgJXEo7KdGksCYZlzb5d8oNfa7rq5-9KPNx9FrFXLb2uvIuUpfWtsRQfqL9kq_a1iQ1s691lWmkUY0XrAqE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12278930988202286837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJW45OZ6WDH2cR9V5VXa2GZ6o.jpg"
       },
       {
         "id": "ChIJ6RlF-WaCH2cRT5YEbsz_VoA",
@@ -1493,7 +1563,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6RlF-WaCH2cRT5YEbsz_VoA/photos/AcnlKN3vVk6qXQ0N1CHrpCEwch0HCrj9c8km__pSc5yk-WzSTnnfH5E6tG5NVTuFmV1sOjM0KOuZRamC67slV2PVgkZ4863KN93oyEAV87NjYdoNyONP98vx1GXditt8e20GES3ANoAhM98UqQy6Xffxmxu2Zpn_kr3nryfPEOXOb95_dCfCvryETQUcXIkO9tCC2eYO6ybcnqX9WnbuY591eNsBm5xC9YYOqoZyQQJzr1wwUMxA_-WUJ8T5DFqVdw442mm0pwYbwgO0HStALGEm-Rb5fUcgrsZwsW-THxgj_eQSEO-Nm_F9sVarsDVXXTEHpYE72O6OBOHu1Fc-sF_ZbiRF5JsHge-DiQMctDiDfDqUImjPqvspvTbWSh5KZ_adzuz5VLnW91a0cA45hVXGVa1TX_02DHf5ec9E1qw_JKdZFAEB/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9247860138336097871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ6RlF-WaCH2cRT5YEbsz_VoA.jpg"
       },
       {
         "id": "ChIJgZqvnip3H2cRKG8wbBr0_2A",
@@ -1514,7 +1585,8 @@
         "websiteUrl": "http://www.nps.gov/wapa/",
         "googleMapsUrl": "https://maps.google.com/?cid=6989573541023739688&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJgZqvnip3H2cRKG8wbBr0_2A.jpg"
       },
       {
         "id": "ChIJD8SjFg5xH2cRetydqnKvS9k",
@@ -1535,7 +1607,8 @@
         "websiteUrl": "https://www.nps.gov/wapa/planyourvisit/gaan-point.htm",
         "googleMapsUrl": "https://maps.google.com/?cid=15657801436507266170&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJD8SjFg5xH2cRetydqnKvS9k.jpg"
       },
       {
         "id": "ChIJfWRALpWcH2cRZFt__qNMVFs",
@@ -1555,7 +1628,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfWRALpWcH2cRZFt__qNMVFs/photos/AcnlKN0XE3yvFIfDwNhLJJVAGigWzwcfVyTshsOXHUYHhRLtbIm-ohirn38JaAVnV1xHPvAOkPkrcIoyTy7sDroUFW-trI6iJzx_xtvIgVFePWjovUDjPLKU1jk6BJ77uzGyxFPHvu0jcZSvp0KxNqqqIMZvovvM99we1VMtqOYKzhiZCCMibnVKKZDLV8Eg1utepTg4d745F7GhFO6ZeUsVrdqMoyJvSVYkOtmxBY2zMKfamnqpvtCI53xeDJiF794OtnWgz3QfnhnXfF-6vFE5fWxBtk_s0IJrn3LER_cWWN5P3wyJUNCr1eIT13XlxeskQ7IeigdAyM79avzSliSr0xzxMCxhtSTjmDioTLlHYPA9alZOMj2kMXHLxTgpsuLscWVfUwjMGsrwt-sGGmEBvraVCJkvDupJiNl8q1oSTVA_-w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6580969222728276836&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJfWRALpWcH2cRZFt__qNMVFs.jpg"
       },
       {
         "id": "ChIJq0N8MW6EH2cRRc2yzbBdTf4",
@@ -1576,7 +1650,8 @@
         "websiteUrl": "https://www.ireiguam.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=18324405472787090757&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJq0N8MW6EH2cRRc2yzbBdTf4.jpg"
       },
       {
         "id": "ChIJGUo9pSh4H2cRyymujwxi340",
@@ -1596,7 +1671,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJGUo9pSh4H2cRyymujwxi340/photos/AcnlKN1CLuzP7TKD6vT4FJyHA41fn6ztdvStBt-03wZFPF9nqJgwTGJTssyhlklYJK9S7LOoqYQHQnmMxn_s-U_AYUr0xsypFxG48kPYxHWQ_nqZdfPBe7WfnD5Ym8d6cg4FN-ezopT6pzdhSbI5t88U82Z4XKufpFMnm1rCN2n3HLDQyzhZtW7uaQSkoXVIZfCfBB_jMgCvg_quE453UwFSUuc4owb_wMg5evcImanCfPLo02jq13HhdAzYqeOPgC82uzLwSdIjlrZvUIYnSc61unymqgccdzOwlfZ3Y-19ltev_zalVipcbfIulqN-bW3Rt0VjljF0lTLf1kly-qadhzG0YSZplVL6uDmDJlv-xpyUJ-yAymZQJTW6ke-uhcqYBTwUaD735MIM-saTazMkvq9MSMd2r3fVpfrGKfuOhYE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10222997485244000715&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJGUo9pSh4H2cRyymujwxi340.jpg"
       },
       {
         "id": "ChIJedhHwRB1H2cR5nemC61nZhk",
@@ -1616,7 +1692,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJedhHwRB1H2cR5nemC61nZhk/photos/AcnlKN2qY1gwG4Kco5R7wKDYpXGmOT2Gycor0bbwzHGyK_qXJLitmcUt80WCnUCLRxnwqturaM-NxIn0NBoaj4UkuzHyzJpgbq6NcG1kre2znSo4pRjOv57c0yUKDA-ZOFOF1APnFoGGyG9Q7AvWfoze9Ohevn8LnlIvl4iD_g9dnS2tJPljmlUxqHGPBpMr5CDwV0uavuD0hgwW1tCwUF601AHjF0YUT4yXN0u_D6ZIX47VTMwWFGkZPORWahAIMwaEAt2MloBZ-VOKzBdbUrGt1IAE90IIksNftI78_u3PfksA6Fnt3gQM1vo3jnMrHzTYB_5vj0zEH7SvOxOA33l48mina0nMFRv1MrNN_w_DXwL2KHgAqtlNOh6ISHM1Md7lw6aiWaOe4UDQq5ZlSoMXinOC1GrDi1VX7sOYNBA7new/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1830264291495147494&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJedhHwRB1H2cR5nemC61nZhk.jpg"
       },
       {
         "id": "ChIJ0cqoCBSFH2cR7qQlDanDSoE",
@@ -1637,7 +1714,8 @@
         "websiteUrl": "https://aafb.militarymwrguam.com/programs/7187c0f9-9d50-42b4-8048-89130744e64e",
         "googleMapsUrl": "https://maps.google.com/?cid=9316473910006752494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ0cqoCBSFH2cR7qQlDanDSoE.jpg"
       },
       {
         "id": "ChIJAdgNCZ-AH2cR1CA6M9qQLZE",
@@ -1658,7 +1736,8 @@
         "websiteUrl": "http://www.리티디안비치.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10461176776288248020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJAdgNCZ-AH2cR1CA6M9qQLZE.jpg"
       },
       {
         "id": "ChIJj5fU_COCH2cRTGEqgE8YrjE",
@@ -1678,7 +1757,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj5fU_COCH2cRTGEqgE8YrjE/photos/AcnlKN0XS2xBvrWMFTIAK-PWjh9Ip29tLPYFIz2MNvZazGez_UD7cjW2kJ_aeztKPu0vCXsUVLYiUSmL_MosBxQ64ITYJqHqN31Pzp8gn2LokiDGITaOYCMi1GaG8nYy92GoXLfoT2d8daIjnF_En0TDNmoLORbJPOm8VfCAHKYdzlCNHcq3EI57ajPE52b5xVU3x0ZksenDejkI91y0NwyAYaqQwzNfihW1D-ifpfFDomM4BMVTin_H06LULNnmIfrPL8R8SIq5oy1mcM6FAnNRnHkpX0wZabT1O3EAP8UDR4N8OGsxx6Kl_XWurVTuG6lBHoKX4BlOQznMiQ6MOIeINcexqEbGQdHxLJO2qZEfmqykHTWjECjfFBme8xmJoE-JEpcRSloC9C_j6jXMpKQsREDlHL6EP7VdGhkN0YcDDM3WnFcC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3579825483537867084&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJj5fU_COCH2cRTGEqgE8YrjE.jpg"
       },
       {
         "id": "ChIJyx__h9l1H2cRl_folyAj9bk",
@@ -1698,7 +1778,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyx__h9l1H2cRl_folyAj9bk/photos/AcnlKN0Ma9pFNMSgcz9VYhMPYlHHrtVppPu4rihg6ufoC_VeV6tBZghMYiXT81K3yqlLJRtvtnUEZwoCxjT1PZLSrZxx1fMOuxXJyVBLGCDS0S5tkJi_5_k6V4MS4UczuaqG2CVVbHsjnyfbmXOftxrtvEwx-D4gUtjWzO8lAa5oIeNJT9erUckrEA89fQ2LznIMvPgVgWKoZm5vdbgMFYtZQjZOKrwlhsQiYHFCwJsNcKaud1KgJ55jVDYSQ4KWOlAwcIyzrXW1jjcokdJ99zUH3TTienwp0EotE5OpnyiKBLsezKcXxFb4Wb2JfJeUakfHQZkJNAG_NF5jVGUWpgQitH5KHX7SPu-rT6rVZSdg_Fp6HYtuCg-p1pbQ6W9ScLXGec02o5uSra6G_7T105SdrQIYaonhjscyH6_oF6LZRKEPDeLc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13399654889205331863&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:11.712Z",
-        "updatedAt": "2026-01-23T16:14:11.712Z"
+        "updatedAt": "2026-01-23T16:14:11.712Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJyx__h9l1H2cRl_folyAj9bk.jpg"
       }
     ],
     "cultural": [
@@ -1721,7 +1802,8 @@
         "websiteUrl": "https://kareraguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17443212735509520896&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJZS4zn4yCH2cRAGKdmZC9EvI.jpg"
       },
       {
         "id": "ChIJXcUmTpCCH2cRnd9tA0mTcZw",
@@ -1742,7 +1824,8 @@
         "websiteUrl": "http://themagicofanthonyreed.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11272953284084490141&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJXcUmTpCCH2cRnd9tA0mTcZw.jpg"
       },
       {
         "id": "ChIJoQKe22aCH2cR4YVfa0tnhx0",
@@ -1763,7 +1846,8 @@
         "websiteUrl": "https://www.bestguamtours.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2127782922577479137&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJoQKe22aCH2cR4YVfa0tnhx0.jpg"
       },
       {
         "id": "ChIJy2zWP_p5H2cRndBC9TKZnDk",
@@ -1784,7 +1868,8 @@
         "websiteUrl": "https://fisheyeguamtours.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4151361400670965917&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJy2zWP_p5H2cRndBC9TKZnDk.jpg"
       },
       {
         "id": "ChIJtQ7Woih4H2cR9g36IQj2SMg",
@@ -1804,7 +1889,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJtQ7Woih4H2cR9g36IQj2SMg/photos/AcnlKN3Cttez3r3uIlwwDntQ0zvrcPCHeqEa7_GccR2lsL7ty1-LXN2Ti57yIXcIl-xxqZKvzkKEMrqodsVJ9lXSNFyeKLwXaZZ8D4hBkttmg3655SHpz-RSSFZeATsTfhZYNXpQQSylxiH0WXrySnvz-q3pd0PVBpiapDwDyG3J3ooRt3mUwciK_8pF1rNPEmHOGS59Idxsyr5I5BC8R2gqkA_LlZMn9kfT9NyCubrPMxPHcsousFZilaMvYwwxxRGX3zqGBufXqXhtLEe8OsHFDYnF4clLOLbd-K9NlJesMvSgTAEOSAbDH0-DPugbpd-yGR4x7k8aK95g6eys2EpEsVJ54u8rvuw2ydMai9abp9hJwPFbl2V-OgYhK567-ZjRrMkPkCGW71jf7KZOxgLVZc7o2wDFWIsnus1fYjZzeP2rMA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14432055520698961398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJtQ7Woih4H2cR9g36IQj2SMg.jpg"
       },
       {
         "id": "ChIJ6dIeEwl5H2cR9G3uitys_6k",
@@ -1824,7 +1910,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6dIeEwl5H2cR9G3uitys_6k/photos/AcnlKN3rgiXG844rNW2bQiJOYvGfYe5muAJ2l2Zr6r7LMBiRwzE98mIu1HlKeUhQ3Dh7CZ_OQN_7cL0ePAaiQLvFqKqB8J_H0A04hs15oN4x_AaTzsm0_ETmpP81wgT9rq-cqG3BHKjWd11lnInOHrm0ptTk9DQ9mujKe0RGH1uoeq7LgSfmxY499EcUOLaLrgzJbf0zxzxE76MtvO4Q1aBGs7bYtdlDvuBFEEkr2EYnZq0JNuivOYPAwT7uzLLD65JuPK-l_Of1bFsQmT9x52liu7NzhegH06xjaxy7mXtiC9MGRxaCPHzdYzvk6lB2Vub6IzRgN_dWVx7W9T-sej1P05MJKWm8ktvZHtOJBkdN8ckfyTC70D4IGR4T4X3GyQydfEO5ptdFtiQIOaxRsjGUz4npaTwQ_djOF1zC3i8FAZMP-PY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12249699574694702580&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ6dIeEwl5H2cR9G3uitys_6k.jpg"
       },
       {
         "id": "ChIJAZLJnQV5H2cRz_tNQHCntOU",
@@ -1844,7 +1931,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAZLJnQV5H2cRz_tNQHCntOU/photos/AcnlKN20Il7bacfD3teMlcx8BTrQnCuJAacd2QQ7grB9Ffy0CGSzkTAqm76H4wfF6y5LJ6pIPI52g7YATaWQEh_3Jb8aigAjN6idy_ELwvwuPypKfKTQgy9fkC_eezSLdtFUG_DmLxwctE59P8Q0eMScrd43TjJa5H0keF-WiBjijlEo52ZkAh0BUuFqdOolMTdiRJDsdECcPlhGstoq8lu8FXCYGGzL5U0rwlzhgq-M_qkxGacp4Iw2H6GpmxWjJKssOS0LCO3Aw8bEW4QwgoGCmSNLmVoubT0BFr9SiAytsE2kqSLKzI58J3KcgI0qX9dlkid4SbRr4sNWmHrSIN-z6qTWFTojuqu1j1KEu-J_ErBjKT9udLSRyVUqrT9OWPKGC1Ku2y3bVbQY5RPjMU5_hbgikEcPRZetEcqRzZ1NLJxz3w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16552038631050443727&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJAZLJnQV5H2cRz_tNQHCntOU.jpg"
       },
       {
         "id": "ChIJM5MQvoqdH2cR2ptKaCVvYQE",
@@ -1865,7 +1953,8 @@
         "websiteUrl": "https://vva.org/tag/guam/",
         "googleMapsUrl": "https://maps.google.com/?cid=99482873233054682&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJM5MQvoqdH2cR2ptKaCVvYQE.jpg"
       },
       {
         "id": "ChIJayH6heiDH2cR4cMOEyZWmQ0",
@@ -1904,7 +1993,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJrfk1fwCDH2cRTqwTT2JLgjs/photos/AcnlKN2cWMxSt8RLwKlaBly65pchy3qc22kwYyvDJTX99gRDCpHvKO67zzfLFGX8-3c53_acoLZYGc35y5BRuJPZUQaClqz4VIz-UduqjV-ldSBGALYVfWrXEpUbh56A3TFQb6sgZFYDHuu7xcQcux69lv-t_18XHqrpPS1mlQUu8x2jzclu7lxMc3a4GCjGSq1hQTXVh2uDnZ6qy4Rrm9NhoemReaPN-E9cx3okojnj4MuDJzH0igDkhoYAuHtoE-vlxi8mHg8SA-0E20N6mjoraZD5GwdL9cuhmp9BZZoNY1i-RTzmtHs-4N7id9yma0xIzFaoaCHAEJXpPPDKdrKkiROY_CA8Ii6kf9qqGy1IIsQENCozP8fz9NQ4cAaS1dhQLranPCaTgOWcIjObIz7SpUdL5DABKo2wwD8UyOZfn6VsbA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4288072680815701070&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJrfk1fwCDH2cRTqwTT2JLgjs.jpg"
       },
       {
         "id": "ChIJ90xU8uqDH2cR9ivMopWRVVw",
@@ -1924,7 +2014,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ90xU8uqDH2cR9ivMopWRVVw/photos/AcnlKN3F_bT1asddsDIrAH778KZBM66atZWmYSDYp9d31KmS2W65q9c9gcumdq58NBRzA6ER1JeNY5IJzOLWbbGL5CVy1KYRCyYb06ml7pPWfsXEd71XCFffUcnVSaw4iw4P_lb6fPTUojqPZ-p-yWHT5uZ44dU1BicRzh9EjsLhSc3CWxrwVW0ZGLQ2G3blUYiW4SsqQpRV4NuIfOEVgjXKOHZcjX4yA2EIq8i5V-kD9UFCIp3Wa4DFlkxy_3WZJo3vpJqZWqkyyLO8rvYC1IsZm1VMlGZtrdpSmUEbL6FWOCNl6HbR8s0G_Nv6o-MTG9PtaWHajZZ9b87qejQcaqQDBU-RUIW1EPTfg3oLA3E0UR4T0CawKIXUFEy38jWrFTo8JamJwk1-Ai1rCcgxcrBLxZ6UgFstvnF2Bj4AQwerPseOmrU_/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6653384096377220086&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ90xU8uqDH2cR9ivMopWRVVw.jpg"
       },
       {
         "id": "ChIJ0Yst-Ld5H2cR2aRm2Xim9E4",
@@ -1945,7 +2036,8 @@
         "websiteUrl": "https://fisheyeguamtours.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5689355267249448153&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ0Yst-Ld5H2cR2aRm2Xim9E4.jpg"
       },
       {
         "id": "ChIJISbBqUt5H2cRM9x3cJSZQZk",
@@ -1965,7 +2057,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJISbBqUt5H2cRM9x3cJSZQZk/photos/AcnlKN3QCY2Q8o60gOcBykVYIw0yZYnzI6zYWuLTDTfWpjz5efV0BNSxh-wo8iwAcUnDyGzfg0gTt2uDTJdIfjYjkVB-ahSjtdJEEPSPLtxh5guYp9lzuvXU-iuADusQA1igyQNMfwMBnT7hG1DW95RYHwP5MgZ6LGL4LiLTf6y2tEdyJuEaWFEtwMe5yItx5M-sWnGKkaC0mdr9OIrWjJi_EBQo6xnPNXXnv-MtL9b4SGTztj2YVq8mxq5f5G5LoNEcT3J-VhgVI366avgwMoawMXsfR9jTFdD6J4986lxH7z5l-5zJlmEe3UUBB3tvHuYYRDte5rtmC9VsD8pRov3knCntwL15bPBAeig863FwTGBHE8YK3S-15HEx7DylKp2j_HngPsYXLSj-UVf4QFaIO_gxJ5IiDCC8E1ys_co7m6MdNTY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11043276624110279731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJISbBqUt5H2cRM9x3cJSZQZk.jpg"
       },
       {
         "id": "ChIJJR-8Ht5wH2cRajn_tp_rHNI",
@@ -1986,7 +2079,8 @@
         "websiteUrl": "https://www.nps.gov/wapa/planyourvisit/hours.htm",
         "googleMapsUrl": "https://maps.google.com/?cid=15140235118515272042&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJJR-8Ht5wH2cRajn_tp_rHNI.jpg"
       },
       {
         "id": "ChIJf-Wx5cV5H2cRo3wjgoyAC3g",
@@ -2007,7 +2101,8 @@
         "websiteUrl": "https://www.guammuseumfoundation.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=8650148850262310051&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJf-Wx5cV5H2cRo3wjgoyAC3g.jpg"
       },
       {
         "id": "ChIJhUxnnJudH2cRN_0F7HHT0eQ",
@@ -2027,7 +2122,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhUxnnJudH2cRN_0F7HHT0eQ/photos/AcnlKN2TKKAeA5DccsQLXQp0Xfw7CGkyHPU1Uq9GgtAUAMa9SzvK6jvJnR2xp055_1txstz6U4FW2OMcBahIr1vUjvH8QF_J1kQf0wI4FE3OODhgnMWi3X_wUK2rCUw6zWbeYvXHt5D1Y-VwBorfKCxRvHVaenB7_XANu9wKwgAHvX-ALXtCNefZ9GB2htbFMhaCErpEGkUHLqlN2q2ECmdFhYHM0400vavWKMjtmmTjZRu-yuoow3_Vq07RtYo-b06MTa-Lje6m4hVR8Zf-2stxIUdhPDJUAIl3rZfKOsXozawUtapyWHx5XF2P-09Ho1-JLrOLWBSJkdIt8N_XMEK0CzCgFn4BC5Q9z3QXXM-tR6YAfeLfZpxytIEsHEF9Ak8LFJCifqD5PV-YmhhH-I6z5H2xdEvNWzV5xkXZom81OV1qdA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16488192197024677175&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJhUxnnJudH2cRN_0F7HHT0eQ.jpg"
       },
       {
         "id": "ChIJA_4XZJmdH2cRce8C10x5XZM",
@@ -2047,7 +2143,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA_4XZJmdH2cRce8C10x5XZM/photos/AcnlKN330dX_5qAkKgifnijTxgcXKZrHPhgiA70CqVhR9cZKz2UQBUeUsiARUD1nB6vpSuNGMtN5qFXrVG0ONOh-7-G4c57eoo7B1xjwGU7R2RZ3gQ4SfnbMacQ8pLXSzFTrc_Eq4wLrYoy7TBxqioyQOb_wSCsWtlp6IrLKVqjv7IYsl4W2-sUJCnhyYIgc2BEKqcPRlgdB1aBRkeNUQHMTvCvXT2Poptizxjud-aHTGEaKEx0A9Yuf2kuEYg40QiHH9JUVeXY3Y7ASrJJubGoI25MBdWLCIolhwCQN5i5dNgXw_RsnmSnYd4rDTTTVzlmkN8pIJajBoQ7wA3T75a7wQ1H_lBDY1KVTiAvhmt2hVh7rPMLLuXc598nQxZYFhRLl1qoRv-Mq0LZefRjyy6zhQubsmBTpVoZuTiIJkZ3C91rKOQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10618776867341266801&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJA_4XZJmdH2cRce8C10x5XZM.jpg"
       },
       {
         "id": "ChIJT7_0hcV5H2cRsxasKZhird8",
@@ -2068,7 +2165,8 @@
         "websiteUrl": "https://governor.guam.gov/",
         "googleMapsUrl": "https://maps.google.com/?cid=16117647047102568115&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJT7_0hcV5H2cRsxasKZhird8.jpg"
       },
       {
         "id": "ChIJl8kH63d4H2cR2YgRsRtNGok",
@@ -2088,7 +2186,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl8kH63d4H2cR2YgRsRtNGok/photos/AcnlKN1JQ6tzcAexa9Bj664GDL--EcLdt5NqBn23cDQUMp03parwtOc3xBQ4g3rFOLIaDyFCpkIkWhzUxbFzPsGLi68X5m6RZZSFg0DhbU0aEAKN08wmuc4NTOHFD98k_CKm-p-UvjHZwR8nir13VuqvtKUqZvzOgvpKyqZBHGm3opFKLugsQm0aKPKHO4r5QkfguJ4KJ7MI07xAB88DN26oV_fheoCTQgkRN7CfyhmnijluJIWkPGNXtVwbM3BSzuRkMGbnhu2fx2zXNxWcnCabQYvidIZi3F02b0eImIdWNfqemVtF6euDJbS6mcU1gDHyMNCzt3oSbXKlLH5dCnHsQ28H9TYC5qVc9F_rZ9CFX52LPyO834gaiYuRXDB28FgDQayIkVEEZrea-GY5AxmIBR9UYLgauRYXzylSL7V-T8HhFK3j/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9879293513920776409&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJl8kH63d4H2cR2YgRsRtNGok.jpg"
       },
       {
         "id": "ChIJPw2sUJqCH2cR-WMfrgvC194",
@@ -2109,7 +2208,8 @@
         "websiteUrl": "http://picresorts.com/guam",
         "googleMapsUrl": "https://maps.google.com/?cid=16057516351834514425&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJPw2sUJqCH2cR-WMfrgvC194.jpg"
       },
       {
         "id": "ChIJDeFFnJqDH2cRa1uKvbdIsNw",
@@ -2129,7 +2229,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDeFFnJqDH2cRa1uKvbdIsNw/photos/AcnlKN1_pqniuljImtOwb5Rj4S9ZSLzmEl3pN3y6seF9wJCd1aPPCM3Qob8qkPDiPPYm_9kb_IJelePZSy7tU2wX2bUezdZE85Yx-A-GZtVfGdLHppcQ4H719A-qBCq_y094PWWvgMUvSsHLAE30FsxomP7UHZaTrimPUMZPt28ta06WqM9ujghfkeSbLsNLcGWnsPMbDSLoG66EyOSHtdHSYnSLYrsrkRy3fftG-9KCYyiu3PvRcpWZ8VL8lC52tPs9pGHcRAqticQE5NFxbQyEtw3KYC8A0YKgVkHofzJd1Q44537cQDGSIFSGmzTjvtANXiVUAnU3lCBm8VInOfPxQYpKp9chEmd-sG0jC_QK9zbtjuyjJa3KsfxBmbU7mPhgvxT0a87Xox5aY8HCZ_1rP0kJ32Syl6zJ06n0HD-CxRDsuQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15902290238241397611&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:12.751Z",
-        "updatedAt": "2026-01-23T16:14:12.751Z"
+        "updatedAt": "2026-01-23T16:14:12.751Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJDeFFnJqDH2cRa1uKvbdIsNw.jpg"
       }
     ],
     "relaxation": [
@@ -2151,7 +2252,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhe0UeJyCH2cR1s02MnnxSlU/photos/AcnlKN0t6RvwhMN-Je_4S416n0tntujs9XZbsd4qSrO8Q7-zlog_-yoHCjCEi9w9fFXIHn8aRSbp_hSXm3p3Fc70JgWpmXy_ePpHntGyZnLN10af3SNgmb1vZQEbZ_xNtUFw390KhAOpC8qRK_Yi8z7UxemF4vJuu4dIUlkCDHBPywFq_TT-hbkDULNVbcqL7asW6QnQXz29reYSR4i58ddz4NynRO99k52EcEja1KY-ZRAL5SiYXEO9UL9hZ5neIJJ0nW-T_WRa0BrigTtJO6CI3t9bO9z5pXYTzTuF4VpvvBNpi4J6SB_Iobl5jh_w52HIfvo1TDa_WcLZVZFTZ9dK4103_QjmUBBnR0i5mZRI7KBIQZw0yT-s5EinhoUQ0I_FmPcf6Y-uIE6C1kXw07Uowekgit_U8kYtE2VKPdJRibzp021I/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6145990144336252374&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJhe0UeJyCH2cR1s02MnnxSlU.jpg"
       },
       {
         "id": "ChIJx9tXXIuCH2cRqXSGoWFSiwE",
@@ -2172,7 +2274,8 @@
         "websiteUrl": "https://www.dusit.com/dusitthani-guamresort/?utm_source=google&utm_medium=organic&utm_campaign=seo-maps",
         "googleMapsUrl": "https://maps.google.com/?cid=111273195075957929&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJx9tXXIuCH2cRqXSGoWFSiwE.jpg"
       },
       {
         "id": "ChIJF-EmTZ2CH2cRttpIkjLZXB0",
@@ -2193,7 +2296,8 @@
         "websiteUrl": "https://www.hilton.com/en/hotels/gumhitw-hilton-guam-resort-and-spa/?SEO_id=GMB-APAC-TW-GUMHITW",
         "googleMapsUrl": "https://maps.google.com/?cid=2115804736183130806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJF-EmTZ2CH2cRttpIkjLZXB0.jpg"
       },
       {
         "id": "ChIJdWQrhnF4H2cRVIPrDG7jeoc",
@@ -2214,7 +2318,8 @@
         "websiteUrl": "http://islandskinspa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9762365204081640276&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJdWQrhnF4H2cRVIPrDG7jeoc.jpg"
       },
       {
         "id": "ChIJo2MpKQCDH2cRf6svyMMI33c",
@@ -2235,7 +2340,8 @@
         "websiteUrl": "https://www.facebook.com/TopCareSPAGu?mibextid=ZbWKwL",
         "googleMapsUrl": "https://maps.google.com/?cid=8637632247290112895&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJo2MpKQCDH2cRf6svyMMI33c.jpg"
       },
       {
         "id": "ChIJ3_3dWiV4H2cR5iBOYpyT4u4",
@@ -2255,7 +2361,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3_3dWiV4H2cR5iBOYpyT4u4/photos/AcnlKN1OvGvZZeWbOlU4HeAI__W0SZsXlQZ6iEqByD8mkeeTn4Qf9gApttf-YGijpsDXCteGbiBJzut01RPVykPpU7BCs_PmjU7kpobErXX48g_Lqx3kWjLOT83DwUE4gBTrXI5IONDc_DcDYPvKj9KkckOiPpc3HxyBbpwZIiMEJA8m-xtlJ9_2oVBPptwec1Uvaa-FtfMkLiGK3fKCI5YAoUvdlZqmlp3n_8Z7bmwtPApUl0ivl_GryXU-GEcP4N3YsE984rmLUVWCCGrnlbyBzV0ffm24_2UrJh-Yz0sMkj0R56a0U5dCMRPqtlPZNVoQ3eB4KUBWrBGEIHRiZrDmJPq2XrXY0Nsv3yOYYHfcKVJMf_oLgpU7VGVM0jyGXSlDONuJfxxN3pIyj4NTRnkdRqCgN8nqg1Z_SRovq0H-G-6uUQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17213483025636925670&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ3_3dWiV4H2cR5iBOYpyT4u4.jpg"
       },
       {
         "id": "ChIJD85WXRN1H2cRfGRh2hpZ1lA",
@@ -2276,7 +2383,8 @@
         "websiteUrl": "https://valleyofthelatte.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5824941139918152828&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJD85WXRN1H2cRfGRh2hpZ1lA.jpg"
       },
       {
         "id": "ChIJsRTFN2B3H2cRaQlGLFJz9iU",
@@ -2297,7 +2405,8 @@
         "websiteUrl": "https://www.nps.gov/wapa/planyourvisit/asan-bay-overlook.htm",
         "googleMapsUrl": "https://maps.google.com/?cid=2735500620441454953&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJsRTFN2B3H2cRaQlGLFJz9iU.jpg"
       },
       {
         "id": "ChIJb9bqg_WCH2cRcMAop7x0r0Y",
@@ -2318,7 +2427,8 @@
         "websiteUrl": "https://www.phruksathaispa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5093418057186459760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJb9bqg_WCH2cRcMAop7x0r0Y.jpg"
       },
       {
         "id": "ChIJ3fnActF5H2cRDAcoXLXPv-U",
@@ -2339,7 +2449,8 @@
         "websiteUrl": "https://lotusguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16555179133079389964&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ3fnActF5H2cRDAcoXLXPv-U.jpg"
       },
       {
         "id": "ChIJg2E_8loLH2cR5wL0HaV6bG0",
@@ -2359,7 +2470,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJg2E_8loLH2cR5wL0HaV6bG0/photos/AcnlKN03nruZtEz-uvtZQ4F6M3f6XkUcro1YekWs2udzegmBcqZY7BvsSPATae5-fDIKWHMgNzaXi_MPGigRG6cnBCB0x5g0lr9d5tc0lm92za16QHQ5G_rzdzprYS3pU7_uBPXkPmN2_cNY_HVlAQjxRPGvG8s2Hukvgxsd-wmt4Tv_6mKofWtx-L03L2fevWnD74uzyuIbMJPt-7-qm1RHdMmQpwDBVP5JDRIwyH8gBOk1hyKDi9CQiRaxQqEMAc7IKqhlkCTkIiFviMoCcmq1p_zLnuvQoViv3XB2FcAXF7qIugxz-W1vQ9SQ0GbPu9_FtyCvwrp0uuJa24P2OH20BcJYda3buWgbqECHgsj2o6vP1i5se2vtlQnJOglSWUFma2S0kMSyj5TC0ssIL2POErkhdbCnlbdd3Ase_2Rz0nm89YXL/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7884811897209619175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJg2E_8loLH2cR5wL0HaV6bG0.jpg"
       },
       {
         "id": "ChIJlUxtZ9-DH2cRvlEWiI4OTPI",
@@ -2380,7 +2492,8 @@
         "websiteUrl": "http://www.leeguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17459345860739879358&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJlUxtZ9-DH2cRvlEWiI4OTPI.jpg"
       },
       {
         "id": "ChIJW45OZ6WDH2cR9V5VXa2GZ6o",
@@ -2400,7 +2513,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW45OZ6WDH2cR9V5VXa2GZ6o/photos/AcnlKN0JIArQkBNzzGDsjLiHh9y6vUPXoVuq_Y9oVCK9qLGXJXPPmpOOjK6q9OR1w_DC5KxK8w1UDO7eCa8M17J-HDvPYVSgl1m4uOo6DkrUu535ZLJYlUOoW6tVaYvzpD-seGciEbWYOsUA-C0j-NoFXPJe7eq7orFJop-B6UwykQ7ikUiZmMlKKNLAv0PQz7vbAam_Q11AJe_SGfYsgqNWpsI8F9dV0L6Mnv6IRCu1ETu9clKPl58bTQadT6qzynrIUplrCS8mQlp7cnusTkVB4J9XlsUvQs2L40qBcs8XgOAMGLm2kicFtRZGwsKsFjTmwoxru-CCyPNe1MoLC1I35w_oEpJi1-XJIsXEqpC1IDCuVrm7YnTfmfijVqRwHlJHQoQfxf4DasVHfHmt6kv87RqLDl61Sa4v8sVQehn2EScjRZc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12278930988202286837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJW45OZ6WDH2cR9V5VXa2GZ6o.jpg"
       },
       {
         "id": "ChIJ6RlF-WaCH2cRT5YEbsz_VoA",
@@ -2420,7 +2534,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6RlF-WaCH2cRT5YEbsz_VoA/photos/AcnlKN1vU5podlXo7vo_6M9BxXMi5PjHletm1Ea9o8D4UBEYelFRpf-YQVlVHRdGu4z7kBFzxdrjBS4aqMzKbl4hFC2Jy2FqwoVX8eLsEGpQqWh1t658PITVqRmaGhdg30hIMZrzDYAlYlNjNs0H1KZt0ZdhrGJBtUpdj_4hAAOPH-9UvMBO0Yx8g4xP5MuQYtf1DFJiOfSisg_OSgtp9sDeB2NsLvX559I1Lhp8-F8d1Jf5PrAfSGHz4Nvu7M2q0wFsFecb6s9Jk0jh6oFlk1uUt9hQaQfeP-S86ChB6N5TeTrRkOGF4WsLnozN6sxNt5bJEK6xCVTtw0TFOxzdm9J1LMtJi9aaAePs7-MICQ9Jfply8_pOGR0kWXP9JGoXANB5l5T3QhlLYHLlHDEP9UP4DfxmAtTvMvWFx2TK5SH6zyYL13hD/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9247860138336097871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ6RlF-WaCH2cRT5YEbsz_VoA.jpg"
       },
       {
         "id": "ChIJgZqvnip3H2cRKG8wbBr0_2A",
@@ -2441,7 +2556,8 @@
         "websiteUrl": "http://www.nps.gov/wapa/",
         "googleMapsUrl": "https://maps.google.com/?cid=6989573541023739688&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJgZqvnip3H2cRKG8wbBr0_2A.jpg"
       },
       {
         "id": "ChIJmx-e65CCH2cR85d-gpqSBaA",
@@ -2462,7 +2578,8 @@
         "websiteUrl": "http://www.guamparadisefitness.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11530783613263976435&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJmx-e65CCH2cR85d-gpqSBaA.jpg"
       },
       {
         "id": "ChIJ2fpnOg6DH2cRNEZDaLwy9F0",
@@ -2483,7 +2600,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2fpnOg6DH2cRNEZDaLwy9F0/photos/AcnlKN1xl4NWFcV2Vj3Km-nRRFpcm2Y2w8o3ECTkN2mlCld0DGxO8vT3Ad9fTNO2xceCgFXuE6pIYXcQTzSF4VNu2zw6t4mh95Cu3AnNL9yOuIklNbnYuULx0QW5Dsm6yfnt2DbfCdijhhsYpWJAtC9Z6Ab1N_L3U6HbikYEbOCWvjScfGUi0fJRd-73Ofyjq8xLF7vIsnW_qUE1wU4XmeeO9ONmB5MjKlmTsluKn0_Da9ijHYIiTVNOUZKaJdy9DFfUis2MqRLJaQK61GD7vr3-r4__F5AwZGn-yrYAS016wsHV-g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6770091924629177908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ2fpnOg6DH2cRNEZDaLwy9F0.jpg"
       },
       {
         "id": "ChIJ0-LmSb2DH2cRX6vX86glgn4",
@@ -2503,7 +2621,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0-LmSb2DH2cRX6vX86glgn4/photos/AcnlKN0r7a-X8LL_X-NCrSYf7hLL8PdI8IVQFsbyuDaXDalgtxmJmnaSJFyEYQsNGTTXHVXa7Ir6YGLfN-UFF9sxSZzoIRUNwvwhHDzcwU9K8Kc2XLWobWhcA433jiZ2AAkp5oFJNjYc4pcGkE1w6Xz4s2RNtEbrnw1zR79_MCeB50hFhWro3IOHUtz2wsYxxkNgLPOnQzBfCsgRty60zOkUOxy30tvZahAXKiHQ4lnTTKVYTrnHXdJsJwld0xB5CqfWiYI80Nc3nerI8pOikZxvSYpOfnXtuhNPY1bXkgKZ-yWhXA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9115890003327036255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ0-LmSb2DH2cRX6vX86glgn4.jpg"
       },
       {
         "id": "ChIJlc8RMfWCH2cRnVdvCaeGib0",
@@ -2523,7 +2642,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlc8RMfWCH2cRnVdvCaeGib0/photos/AcnlKN0ShcjuXhHMcax82SLRyc-E7kzzNdrs7VJ7MU4CxLQNRXwjOYimLsALWbsOCqpRyR7jRonpFviQkRfEva6vRobDDFjW1zp3nl38B4VRpqQquGmmMxdq_wnmX5zNzV5h31BtXvwEr2u6nFiRX89YYWeeO2SmJp8rN6jumCI6QcIwOVhSC_UXOT0458NTdWE6lTi7XK0H5EsuH43fO3Lm9tp92-en1RW6CVp-xnK6aGF_zfAsf7DpNJpu2pM_8_i0iZ6wkKjRqz9sFx5Cti14e86hE1cRD3AizqBwnwwHDZkO-Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13657595396953692061&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJlc8RMfWCH2cRnVdvCaeGib0.jpg"
       },
       {
         "id": "ChIJtZIqpY2CH2cRLynRJBjfVQg",
@@ -2544,7 +2664,8 @@
         "websiteUrl": "http://tenjudospa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=600631420113725743&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJtZIqpY2CH2cRLynRJBjfVQg.jpg"
       },
       {
         "id": "ChIJq0N8MW6EH2cRRc2yzbBdTf4",
@@ -2565,7 +2686,8 @@
         "websiteUrl": "https://www.ireiguam.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=18324405472787090757&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJq0N8MW6EH2cRRc2yzbBdTf4.jpg"
       },
       {
         "id": "ChIJedhHwRB1H2cR5nemC61nZhk",
@@ -2585,7 +2707,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJedhHwRB1H2cR5nemC61nZhk/photos/AcnlKN3yjWWnR2_KD_-YRkrl91Pliq0rWcZVZnnJEXP9FTku05rii3uJov5Gpeeb6wcyZfL76SnCanvyq8QWhXt6f8Ed-EIlTQhor_YAJ_qhofvg-p51JUXllPBaBT4pdfeYolKI-oAaSsvRzwhsJbGthKujvAAtU2pm8MsFBuhFCacCLOr_9TyhZIAP0xSTrnCIVZRk-sSY1t5_y8ZLxt5bDfqfTqUpFY9XgfApoLQmIEo_g128EbRyZ6IgBjKuj90NSfVaH3kqn5KJfuB_O1g8nBJO9IoTazFSFHT0rizgXxrhf9qityZ7-F4Onxy7Ci-ANpW5xYu7m2o_dm8NjYPffouf64B3JlZamm4pFQ8Ob9PFq01ZXgDdKaJPHO1V9frV8LOsQCkAr40iiBLli5sEZeMU7ZanMgm0dodp2tKOsi0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1830264291495147494&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJedhHwRB1H2cR5nemC61nZhk.jpg"
       },
       {
         "id": "ChIJj5fU_COCH2cRTGEqgE8YrjE",
@@ -2605,7 +2728,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj5fU_COCH2cRTGEqgE8YrjE/photos/AcnlKN3oPwvl8G9jySwTKLXXo8978Od0koPA1NwlmRIiSueANxniUSLTWnQd27dIGRBa4xidg5YihxYgdngRftfDxOVgu9DKhEshAXLN8YzqK8FIrS4VSkv7QR8r1SU8FNo0q9RxOfdRsOQH3Rj1Iw70wbzzR-reytLBstdi_M8KAklwW3dFPlJhtTTtmlfqiVyyeToCstl0mf5YtvjBZojwNc4gR1_o9YpWAAwUVLYF6iucNxQZeJvu1OiOWWr9iF-HFXIaPhJS2bKoSfTXjq34B93ac7j87ir9wV5NG49lRc0SeKHLARx8eNl61UOfqlZnfzvAKgxC75nE1ZTjgd1t5lvfxdHN-kRf66Li4k_a5Cm7zGJUlAz-WC0ase1PR3WORaPlVeh1uwkJRzui-Qno5g2E9cSlvTYFzGq_snBJ6fyOekhH/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3579825483537867084&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJj5fU_COCH2cRTGEqgE8YrjE.jpg"
       },
       {
         "id": "ChIJubOY4y-DH2cRph-AC54shpM",
@@ -2625,7 +2749,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJubOY4y-DH2cRph-AC54shpM/photos/AcnlKN2jZWcsnbjCoH1LCZ8O_ve0zoTrHdb4VXcwwB-4wVOyUmd8r2LymEnx5mdQGYxrF7pTSNl09Nxzn39tGYC21qhvPRPQn1dTnnWyba7GtZyZNoP-xWms3MTwhyLlbCUNAvK8wPewa63gn0XZx6pHUcUlhVFV9V1Pn_1gXjpdOOGq2Yi5xI6lKL8bCI24EmTif5dMdF9rrqhv0lpFa9Y7eVJgaaWnYj34KT3A2aP4uAs1RFFqTu6Kqo0XdfUD07f7r_N8AmKBAqu4vYyktCPJrfoUmtVIrW-9pm3GppZg0t10yYivbJ3gCw1Jg1vjxU80KfRq60HtU_rwBoEADynz3pN9Q-_EaqCEEFNmdDevwjamgmSin0HsTky-eYxjeq9-dpxV2xOx5qlHOyZbq0l12mWo-RCr2jDY_CmBPDeh-K2B0NE-/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10630233027764035494&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJubOY4y-DH2cRph-AC54shpM.jpg"
       },
       {
         "id": "ChIJYbRQb5mdH2cR82tDUIHyKgA",
@@ -2645,7 +2770,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYbRQb5mdH2cR82tDUIHyKgA/photos/AcnlKN2g3TjQKnOS4k0Vw05-bYCQNhoXTaQN4YhXKvarwbSymbDxrvD_m-QCDk1mWouN4uEmfFTlFP10OZPyFJz-wG2pJvqgeDoVu25-y2pbZ38p1oDFnG6QhhpEPkmdrJ-tlH0CXFuVVM5xT-dmkJqVr99vA8R8KxxxQx69v7wEX-DaXmBjfQEFwcATVaELmC5wbsIQbD14sez9n4mpjDPNCj2FUC13Rr3_FlYDqDlonq_CCPjkFQmL434RpqFmAYMny1XjjVyyU4JmGvsb5sQDnu0GRYAKhRrm6iD8oXYrt5IxqvvgBDXQ8OupXQTheXtTPb34jjVrtid9cweKExHCv3fwJUfRlp7Jto-1R7wcXrzYCsbKLrWQQmtndAwSZ-DN9AFhKsj8joE52V9ZXgJGCtXvVE48LIrDMYt9o1234XpLrADM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12088586233146355&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:13.985Z",
-        "updatedAt": "2026-01-23T16:14:13.985Z"
+        "updatedAt": "2026-01-23T16:14:13.985Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJYbRQb5mdH2cR82tDUIHyKgA.jpg"
       }
     ],
     "nightlife": [
@@ -2668,7 +2794,8 @@
         "websiteUrl": "https://www.dusit.com/dusitthani-guamresort/?utm_source=google&utm_medium=organic&utm_campaign=seo-maps",
         "googleMapsUrl": "https://maps.google.com/?cid=111273195075957929&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJx9tXXIuCH2cRqXSGoWFSiwE.jpg"
       },
       {
         "id": "ChIJRy56PiJ4H2cR1gp6hOP0RYI",
@@ -2690,7 +2817,8 @@
         "websiteUrl": "https://crustpizzeriaguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9387178256341011158&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJRy56PiJ4H2cR1gp6hOP0RYI.jpg"
       },
       {
         "id": "ChIJ1X3x6qSDH2cRswHmO4jiIBY",
@@ -2712,7 +2840,8 @@
         "websiteUrl": "http://primoguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1594523342837514675&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ1X3x6qSDH2cRswHmO4jiIBY.jpg"
       },
       {
         "id": "ChIJTYt3N3Z5H2cRpYFleTqhrU8",
@@ -2734,7 +2863,8 @@
         "websiteUrl": "https://www.longhornsteakhouse.com/home?cmpid=br:lh_ag:ie_ch:loc_ca:LHGMB_sn:gmb_gt:tamuning-guam_pl:locurl_rd:1548",
         "googleMapsUrl": "https://maps.google.com/?cid=5741422372484120997&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJTYt3N3Z5H2cRpYFleTqhrU8.jpg"
       },
       {
         "id": "ChIJEQuB5GaCH2cRBb1iiIA0Dj0",
@@ -2756,7 +2886,8 @@
         "websiteUrl": "https://www.guambeachbar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4399511612636183813&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJEQuB5GaCH2cRBb1iiIA0Dj0.jpg"
       },
       {
         "id": "ChIJZ2Vnl2aDH2cR2_0qIY1O3T0",
@@ -2778,7 +2909,8 @@
         "websiteUrl": "https://www.olivegarden.com/home",
         "googleMapsUrl": "https://maps.google.com/?cid=4457805574220479963&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJZ2Vnl2aDH2cR2_0qIY1O3T0.jpg"
       },
       {
         "id": "ChIJV7Wm7NF5H2cRTNcnfIUOgY8",
@@ -2798,7 +2930,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJV7Wm7NF5H2cRTNcnfIUOgY8/photos/AcnlKN1z3wi93AbHm9px-sEVyAQktu9tm1doCaxzKHhJGcZ4Jtx09pV2r1tXwnQ5LC_fp_95QPhTYA0YiXSFAPuqN92Mtt6yQvEgBFcOzxtr2GHgVXZWV1sg0cm0gDbcA4d5PlKGoVWdtO6jvVVt2xJVU6KYxyND7-FRh6_qfV9m_AWmrGS-EPWDapFnIKXzywvTmhdACmcmdO0CoRrl7_Ihs-TL8sbXy7H1lBTzECPjPMS2dFIcuNIWQ3rJOn4BN6txBkcUtBlW6geW4pKpOnRWbXruUh35M_DYqdzHPT-m_qqgZA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10340562185895794508&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJV7Wm7NF5H2cRTNcnfIUOgY8.jpg"
       },
       {
         "id": "ChIJG17GC5p1H2cR6TfJQWIU3cU",
@@ -2820,7 +2953,8 @@
         "websiteUrl": "https://jeffspiratescove.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14257574407567914985&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJG17GC5p1H2cR6TfJQWIU3cU.jpg"
       },
       {
         "id": "ChIJIWZ6Z3Z5H2cR5l0Lml0rqZw",
@@ -2841,7 +2975,8 @@
         "websiteUrl": "https://hareandhoundguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11288601621997247974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJIWZ6Z3Z5H2cR5l0Lml0rqZw.jpg"
       },
       {
         "id": "ChIJVXDxEwCDH2cR4zojOUBK0k4",
@@ -2862,7 +2997,8 @@
         "websiteUrl": "http://www.bibaguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5679683719764589283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJVXDxEwCDH2cR4zojOUBK0k4.png"
       },
       {
         "id": "ChIJNybuG9N5H2cRQ-iG80dBw0c",
@@ -2882,7 +3018,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNybuG9N5H2cRQ-iG80dBw0c/photos/AcnlKN1NScW-NEq6CH-hR9v-iIzsMc5D_AhNbBB0jXx_Ea-ZWlKzuLM9yxR_xGn7evIAHUJmH8yiFblNI9JPquO60PRFocaRZcKyS1-huQ1vBo-PYN3rkA_ZxXYeUlwmcpU47bxFFpKGWVewVERxlrh7eq55yP8PrgvmUcl7YO4ETNHSmxTcW0i2DuUGOjromcS2kAmT88PMSTIY8yjqP5DoEzfuQ-BUzeRTh9edsWX2FRckElJG27ws2Bjt8tHGAu0VL6vE_bmNlt7T93sDQEyEGW6gp7sG7M2qoLJDqaj8XBOJyKXpWQ8tCJ2i_ErVszLWtNqNLJOi75TKHL8x40WCJ-scRATObV64oZHw6s-N7jtx-itn_GijKN2_gkXNhyJq5gDlx13kL5vnmxU-xNTNZSKd5mQmgiUcmAgZV-BFo06owh5QN7YFlHh2TTigobSe/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5171048574435649603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJNybuG9N5H2cRQ-iG80dBw0c.jpg"
       },
       {
         "id": "ChIJ6-hDjI2CH2cRgSOx8MyvC1g",
@@ -2903,7 +3040,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6-hDjI2CH2cRgSOx8MyvC1g/photos/AcnlKN1cH9wsNWfx1ynl6CADOv3Siz36DnYaZ1F-PhvZTfdrEV-4NkFXKNxyHFkTf2Q0JmxZRQ_isTbdwux9t4fch8q0yQgaX1ijUgQLU7uGmXjMFlNIb8-mSRTRhM0nV6QnCo3N3P3qPabgm5P5Sxb4KIty92PzSg73WS2yYROhPWLCm4DuJvSDSBVIi9VaViOf8Ymy1oIS-M8bHOLFsM4O4r_3UfjWEm1GThFGLeG2pSU8xZ5ilVD-PY_MOm-JTxMjdk1qorojE52yfDd1xRYzJwqNP46RPHQl8gAfL9351YeRDU-6VfNeEtq5yFl16oOy4XPSutZdgX3pl1BtXAn6pztVYf1fWySG1rGmhM0-pvqAVTkNaeWzf3eScLvjRuOGZeVR-BSraIAhRI2M4vpNak2C35qJVcEWj8Y4F-EQYnHDgavz/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6344357794827805569&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ6-hDjI2CH2cRgSOx8MyvC1g.jpg"
       },
       {
         "id": "ChIJ--mT5CyDH2cR_-2Zq1dG8Pc",
@@ -2925,7 +3063,8 @@
         "websiteUrl": "https://m.facebook.com/BerniesBar/?ref=bookmarks",
         "googleMapsUrl": "https://maps.google.com/?cid=17865857064133848575&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ--mT5CyDH2cR_-2Zq1dG8Pc.jpg"
       },
       {
         "id": "ChIJm9GKIhR5H2cRxDzjQff_H7M",
@@ -2947,7 +3086,8 @@
         "websiteUrl": "https://www.facebook.com/kavesguam/",
         "googleMapsUrl": "https://maps.google.com/?cid=12907316494494547140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJm9GKIhR5H2cRxDzjQff_H7M.jpg"
       },
       {
         "id": "ChIJrZ8LfmSDH2cRoUMBLDhfXaw",
@@ -2968,7 +3108,8 @@
         "websiteUrl": "https://m.facebook.com/shadyladyguam/",
         "googleMapsUrl": "https://maps.google.com/?cid=12420188042218783649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJrZ8LfmSDH2cRoUMBLDhfXaw.jpg"
       },
       {
         "id": "ChIJsbsnDiuDH2cRMotH2x-HbuE",
@@ -2990,7 +3131,8 @@
         "websiteUrl": "http://www.theguambrewery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16244069476864592690&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJsbsnDiuDH2cRMotH2x-HbuE.jpg"
       },
       {
         "id": "ChIJ-8IkfI2CH2cRpycUH57dQoo",
@@ -3012,7 +3154,8 @@
         "websiteUrl": "https://minsbar.com/index.html",
         "googleMapsUrl": "https://maps.google.com/?cid=9962768996892944295&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ-8IkfI2CH2cRpycUH57dQoo.jpg"
       },
       {
         "id": "ChIJWxKE6NiDH2cRLE5OO5Uo6rU",
@@ -3033,7 +3176,8 @@
         "websiteUrl": "https://www.dusit.com/dusitthani-guamresort/dining/",
         "googleMapsUrl": "https://maps.google.com/?cid=13108334286825475628&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJWxKE6NiDH2cRLE5OO5Uo6rU.png"
       },
       {
         "id": "ChIJrRloAfWCH2cR79x_0ufg1fc",
@@ -3055,7 +3199,8 @@
         "websiteUrl": "https://www.bayviewhotelguam.com/ja/dining",
         "googleMapsUrl": "https://maps.google.com/?cid=17858427183681232111&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJrRloAfWCH2cR79x_0ufg1fc.jpg"
       },
       {
         "id": "ChIJpwkTeNyDH2cRK6xlv_8g20Q",
@@ -3075,7 +3220,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpwkTeNyDH2cRK6xlv_8g20Q/photos/AcnlKN2F8caxh_Dn2UktaPIG_hsOFrwksVHLhn_Qr3rc_JsS6xxUzKL0vDs0laas18VIX63xrgR-KJF0qQ_puqXssFjH8mgseC3Xyhs609aBOB4cOxCuiWF85TLMDGrw1tveEDAJujMkZw2WSH8iOJbFr1Mi3pcU9xi2JDzg7nWl8b5CVnns-KjOFUWw4A88ncB0wKnJ-ZxqhZeMrl4IJkwfzXUusYfsREbaSd9HqFGV7oldiZ_siQku3VaIh-89GD5zu1vwM-hp4npwAqVxwHobCdOlx1qFWyrl7D9xmDDdLwPoPeqUkyb43L19t11WdmdJh-8zy5VBipNu2xxSzA5FT1bXKsqaJGdbueO0tqvD5ZGvv_TWOfp0dRd-8T2x3mJZlxtDLfL9edm9VdPwEYuhNotkGq5tBUBXnxeTQ3q-myB6d2ae/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4961595697278594091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJpwkTeNyDH2cRK6xlv_8g20Q.jpg"
       },
       {
         "id": "ChIJbbM_f5KCH2cRCYmk5Fd2h8o",
@@ -3097,7 +3243,8 @@
         "websiteUrl": "http://www.livehouseguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14593763237387602185&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJbbM_f5KCH2cRCYmk5Fd2h8o.jpg"
       },
       {
         "id": "ChIJeciHyJ2CH2cR24hpBZBNRmI",
@@ -3118,7 +3265,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJeciHyJ2CH2cR24hpBZBNRmI/photos/AcnlKN0HXoqLXADyyZE9_GKt4lz8Wld9pxWYnFM_ZX0DLIW6z2LNWr9AEuPNMsOSySoquFlioT5ijIIF5rSfxRqJsPG6RkPdHYvz7SldJYDQBZk_LZ_RHj5Al3P1nWc3YoDWciHR6SCCfGl2-uuS1WbyNJs1lkskDDojsW37diZvM_MOBOXuTurMPWZnzeILiNpiTCO-ra2xHzvUR9-YXamxo2KQqxNk7RiVb0h2nUw8BFqcPMMKfTtv9hJ-8N3GhLXgcbyGjpipO4QyZ1JA44NiLCaxl3KV8h0HUSEAdNgfpmNjK8ZPsVWhhP7ubf9bcrrWmT3BSiqZuMMbPcEfxOBBbLKQaHHv7I7e1ubW8yfdAstM9TCdvOHxEqJC3efU-wCHgAJHDzC8buLtsO-Se-swlczf6etzEKvzN3qDxy3AUhoj-hGJfjUoRWh6ePcRk3DT/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7081432745048115419&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJeciHyJ2CH2cR24hpBZBNRmI.jpg"
       },
       {
         "id": "ChIJ0U4HHXiDH2cRCTP5SkdOWV4",
@@ -3139,7 +3287,8 @@
         "websiteUrl": "https://www.facebook.com/profile.php?id=100083671604819",
         "googleMapsUrl": "https://maps.google.com/?cid=6798551180599964425&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ0U4HHXiDH2cRCTP5SkdOWV4.jpg"
       },
       {
         "id": "ChIJURSJMZCCH2cRKSeiFjvFeU0",
@@ -3160,7 +3309,8 @@
         "websiteUrl": "https://guam.crowneplaza.com/restaurant/infinity-bar/",
         "googleMapsUrl": "https://maps.google.com/?cid=5582710070675908393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJURSJMZCCH2cRKSeiFjvFeU0.jpg"
       },
       {
         "id": "ChIJXYClklWDH2cRl5k5KN7QaCo",
@@ -3180,7 +3330,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXYClklWDH2cRl5k5KN7QaCo/photos/AcnlKN1irdIjuWndgc9qVWg54tva7UyZ0KwSIaUaISS5QFpglPL2jCx2w0ktysme0kpXXYAMwjsxMhMouNQmU029scJ0I_bzmRp4QWe4vut4sbC6L_IyAA5iyvx9T_rtX4K_iHQiK1XcKEV3TS25ewZaA-yAQQaD41tgfDzXysRINlTGnaTYvoxW6YTp64WHKTuQUF7COSn_SrE0_AJHiEyJ5o5biKhJr9u6iU_zjevBS8PM3_5tm1HlFWr88_ZoEVedcSuG78JhNqaqL7BE0ZOQ5rkvI82RdzoxT0d_bnwL8MvKGA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3055921999747062167&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJXYClklWDH2cRl5k5KN7QaCo.jpg"
       },
       {
         "id": "ChIJT4ErxIyCH2cRBzeiUVZ9DbY",
@@ -3202,7 +3353,8 @@
         "websiteUrl": "https://www.facebook.com/shamrocksguam/",
         "googleMapsUrl": "https://maps.google.com/?cid=13118279099290367751&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJT4ErxIyCH2cRBzeiUVZ9DbY.jpg"
       },
       {
         "id": "ChIJwVrWFcWDH2cRPAKCUfSzVg8",
@@ -3223,7 +3375,8 @@
         "websiteUrl": "http://booniesgu.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1105268620486902332&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJwVrWFcWDH2cRPAKCUfSzVg8.jpg"
       },
       {
         "id": "ChIJ54K4g3ODH2cRVjyGQG14GnQ",
@@ -3244,7 +3397,8 @@
         "websiteUrl": "https://www.dusit.com/dusitbeach-resortguam/dining/",
         "googleMapsUrl": "https://maps.google.com/?cid=8366131668423425110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ54K4g3ODH2cRVjyGQG14GnQ.jpg"
       },
       {
         "id": "ChIJs3iosi-DH2cRFP1mvjHCG3Y",
@@ -3265,7 +3419,8 @@
         "websiteUrl": "http://www.lytguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8510609439750290708&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJs3iosi-DH2cRFP1mvjHCG3Y.jpg"
       },
       {
         "id": "ChIJUcHFd06DH2cRiC3VkqO02E0",
@@ -3286,7 +3441,8 @@
         "websiteUrl": "https://instagram.com/lavaloungeguam",
         "googleMapsUrl": "https://maps.google.com/?cid=5609431950526066056&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:15.218Z",
-        "updatedAt": "2026-01-23T16:14:15.218Z"
+        "updatedAt": "2026-01-23T16:14:15.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJUcHFd06DH2cRiC3VkqO02E0.jpg"
       }
     ],
     "trendy": [
@@ -3309,7 +3465,8 @@
         "websiteUrl": "https://www.dusit.com/dusitthani-guamresort/?utm_source=google&utm_medium=organic&utm_campaign=seo-maps",
         "googleMapsUrl": "https://maps.google.com/?cid=111273195075957929&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:16.612Z",
-        "updatedAt": "2026-01-23T16:14:16.612Z"
+        "updatedAt": "2026-01-23T16:14:16.612Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJx9tXXIuCH2cRqXSGoWFSiwE.jpg"
       },
       {
         "id": "ChIJY5MkoSd4H2cRqlXL8JplEpc",
@@ -3331,7 +3488,8 @@
         "websiteUrl": "https://www.shirleyscoffeeshop.com/saipan/",
         "googleMapsUrl": "https://maps.google.com/?cid=10885874965447136682&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:16.613Z",
-        "updatedAt": "2026-01-23T16:14:16.613Z"
+        "updatedAt": "2026-01-23T16:14:16.613Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJY5MkoSd4H2cRqlXL8JplEpc.jpg"
       },
       {
         "id": "ChIJE6zYMy94H2cRAs-irSh5xlE",
@@ -3353,7 +3511,8 @@
         "websiteUrl": "https://www.instagram.com/mightypurplecafe/",
         "googleMapsUrl": "https://maps.google.com/?cid=5892530378079653634&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:16.613Z",
-        "updatedAt": "2026-01-23T16:14:16.613Z"
+        "updatedAt": "2026-01-23T16:14:16.613Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJE6zYMy94H2cRAs-irSh5xlE.jpg"
       },
       {
         "id": "ChIJD6jlRgF3H2cRP-KFg1tfzH4",
@@ -3374,7 +3533,8 @@
         "websiteUrl": "https://www.thesmutsyndicate.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9136782590681145919&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:16.613Z",
-        "updatedAt": "2026-01-23T16:14:16.613Z"
+        "updatedAt": "2026-01-23T16:14:16.613Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJD6jlRgF3H2cRP-KFg1tfzH4.jpg"
       },
       {
         "id": "ChIJiVdonx54H2cRmLE6tNHSaQU",
@@ -3395,7 +3555,8 @@
         "websiteUrl": "https://www.faithbookstoreguam.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=390074640858001816&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:16.613Z",
-        "updatedAt": "2026-01-23T16:14:16.613Z"
+        "updatedAt": "2026-01-23T16:14:16.613Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJiVdonx54H2cRmLE6tNHSaQU.jpg"
       },
       {
         "id": "ChIJsZDUMot5H2cRMKzi0hseTnQ",
@@ -3436,7 +3597,8 @@
         "websiteUrl": "http://www.gudchacoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9287888083810480008&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:16.613Z",
-        "updatedAt": "2026-01-23T16:14:16.613Z"
+        "updatedAt": "2026-01-23T16:14:16.613Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJ84_4N3GDH2cRiG8bvQA15YA.jpg"
       },
       {
         "id": "ChIJIZORuIp5H2cRLew84guZxI8",
@@ -3456,7 +3618,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJIZORuIp5H2cRLew84guZxI8/photos/AcnlKN0QUeOPnJccNtHahNBMNJ6Wb5w64UNB9gJfsRA8DSCcpEQVNwmT5p7HmA_cg2SFU2txkXXR6W5CKSz8yVG_XPopg6vNpjoQoMxsltknEu8NEEzQ3Rv69u9owaFJ3bAnMxj6GGNCBwVuhPuz4tAzgj_AZSEWC4jr6GhmwTWkOM6rJY5Eku53tYseTxDRS2I_AWwf0INK9x9kcbKYmmyciAg0Y1zBmM1kIT1VIc-7S7W4GAxOyphVL-9HynOigmpx739Y5HXoeGe-oT6JgI2q2ao4OlrmVuqg1bR-1yy_SLJ6kA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10359573319178316845&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:16.613Z",
-        "updatedAt": "2026-01-23T16:14:16.613Z"
+        "updatedAt": "2026-01-23T16:14:16.613Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJIZORuIp5H2cRLew84guZxI8.jpg"
       },
       {
         "id": "ChIJUz7brvOCH2cR0xKiNO_dtPY",
@@ -3477,7 +3640,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUz7brvOCH2cR0xKiNO_dtPY/photos/AcnlKN3Rzt8Oy1erNnKpL65nzpXZ7Ch7E790Hf-EnTWEA2uqVuf0QgqrXSbLItmN9yhDcXxMYRF2dYz2QDmbcDdOSZS_X0pYs_wU7zZWWQ0IE7DHV2BzwhTbA6w4RrMvwSi3R-12j9XFikU9AW93witbZrlX37V_BPg62EV_OOltZJJ7doCXb7aa6KrhWhkD4MvM7GyT1sghmhXybRuv1TeIgfv0jy0zciCq7_5bE95fp-76vVy5VibBKay8JobarP7EYKek1AYMBWkelg6gT8K3k1VL9BLGCr6SxaWqqYf_Y8kqBjA1_xNgUrCfQ1Db-DfstQeyNQxAGZ-HK-_wTD7_vlpUwfpuYthhDIXWnPaM2h0CMUCUhkNvK8cGs9d9qjrpgmotCKhHaNcO3HCYHJYM_5x885Exl_SJB3ev_yNAfVldTXxE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17777077648588149459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:16.613Z",
-        "updatedAt": "2026-01-23T16:14:16.613Z"
+        "updatedAt": "2026-01-23T16:14:16.613Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJUz7brvOCH2cR0xKiNO_dtPY.jpg"
       },
       {
         "id": "ChIJlcW7HPiCH2cRsGeuqAWQvbc",
@@ -3498,7 +3662,8 @@
         "websiteUrl": "http://www.bestsellerguam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13239896833518364592&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:14:16.613Z",
-        "updatedAt": "2026-01-23T16:14:16.613Z"
+        "updatedAt": "2026-01-23T16:14:16.613Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guam/ChIJlcW7HPiCH2cRsGeuqAWQvbc.jpg"
       }
     ]
   },

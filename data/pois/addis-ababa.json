@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv9xI8GqFSxYROEPBd0PfsP0/photos/AcnlKN3e7olVM6JNRQmZ8Q0-oQ3N_0d-YbicHOd6Lw74AhwFJ8Amvmj4PyUGzhvelqT5tS4v-gcfcyz-4I4ZdvERxSzkiHdEIBtcrEkoNIqD1ryBy1z8bJH9EOe01f3rO1QdoqCsE16Pa4H6mLZM87l2XkPcQuIaupo0UdkIaa2Hk0S3RsHOPxr4M9orYvRL4jRzYCjc7qElLBGPusRz2ui9xX9VymDN7DYaHRfkeSIlmdW2C8jsVl4sEe1GXD4xJ0AQUTDMYh3-xmNWRPhAYPWWlKkIk_YC43_iNc1hdg4DMuMozYbOXM5loCNA20jdh7yEnos-jWNrvLiL_5hG1IosAlhDW0x_eV5AjKPz4zVduFHO2bms44oSueuFPeRkG7cVUSXFQ7nDl2QAx6R-ZcsoZAoYNDBdZKzuhO7XNqhtHcX2DUnzf0WcQ4I0TX3kvEpS/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18280356368361800504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJv9xI8GqFSxYROEPBd0PfsP0.jpg"
       },
       {
         "id": "ChIJt9p-9ZWFSxYRmlunTd7jO4A",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://www.unitypark.et/",
         "googleMapsUrl": "https://maps.google.com/?cid=9240229604405762970&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJt9p-9ZWFSxYRmlunTd7jO4A.png"
       },
       {
         "id": "ChIJi4zbFbmFSxYREvDa7YBzV9g",
@@ -65,7 +67,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJi4zbFbmFSxYREvDa7YBzV9g/photos/AcnlKN1BjlkEq3qm3xCwPmgY7FS9x3WcRuHhPHP2v-omseueK3b0CB_DHAHP7G08Fm_ixhEGlVAwwSuH64m3pR-Rwl8Uy8VoxxDMIyqA4w4BiXr70hQ3DzkZlYVTXQP3siSSRnmll1Y9Mkc4836oaL6yczmeLVFi3GVDH9IcHHUkH0NeJR6powSrZ69aFwpFCDxsCa2_5j9Xa9sS3zxkJcH-4ktd32nZofFGXT1mZ_geXd1I2SjHZjATaWsixd5nNQOF69AQsanFNdum5twymmzkwcoGu1kTnxK71jGNJE0GcQQxXf9Byl57TcvrJv-59fht6YLPlSqbXG1TRnJGfBMUMZ-_8JSGPbhlAWAcrzGL0KNwiqMIIXsYa0ELjinMTdIpYAPZaEaXBaDLgKoXGm_ceP3QAgHWm0PkhmfH8lhSvMEm7S1M/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15589055632749817874&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJi4zbFbmFSxYREvDa7YBzV9g.jpg"
       },
       {
         "id": "ChIJ-T7ANWGPSxYRbkKIU1AEfFs",
@@ -85,7 +88,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-T7ANWGPSxYRbkKIU1AEfFs/photos/AcnlKN22y9NfJfLRbkQfASAioPcfSiNxFCio7TIDdsy-PLNoTRc0E-OEFTzeCcP2ed9CTRLktMt5End8Dv11lBSWVqdXZ7e0p-2P_FzFHWp9MLLeZXsMljJBOBAnrza5BGLETvYD4le2SgsrbbnPOaC0yqD_7cCKD4UeqgM0BI3TMBVu5hw4YwgjVCSrIuNu_1gMHRGJFDHk3PdnKK8663moJS2QbNjbrv5K1brgnSWtTp1j9QYFJAqE9qUdJmK0PXHEEPr_Aa5tr1NDwWvpkhvxloB9gzz0nqOeSapZo5Z8YmHOFGWY0VccQjUyHQvKgPmne6iTe3x07TTnh2TFeTH5tFYIId2J-TherkCNwvQBd1hc5Tk76Biko_YXFXlXDYvgYnmxhy0hnovXrO2dkFxQ-QGwAcDiYrpcYjRVpmOThrA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6592148697608897134&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ-T7ANWGPSxYRbkKIU1AEfFs.jpg"
       },
       {
         "id": "ChIJq6Aqm7iHSxYRajrx1Y-rZeo",
@@ -106,7 +110,8 @@
         "websiteUrl": "http://www.zomamuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=16890094611780942442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJq6Aqm7iHSxYRajrx1Y-rZeo.jpg"
       },
       {
         "id": "ChIJ076t8YiFSxYRublAov679Hs",
@@ -126,7 +131,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ076t8YiFSxYRublAov679Hs/photos/AcnlKN1Iu50TkAmhL3FY3_fF2yCdpvHN5dxL1WNJY5v6NU1PWnTAsOTdD4k2TW-WnbYj8_GXqOFfhuYCu7CwxMwtGdnzZQTP2ujtTC-01tGiEQrOcwe_0srafGq4Rkd7odkUnnjwiXZIVvHg7KAXFaJ0QoiTpwwkMTOXB6zbN2TivY4o5U0bOSppORlx9ZMMjl98AK5gE_EaH3VihyXfXgnBZor-UYBIsHSnqmzM7m124MMxZ14dLEGVcTcBU912puOm5jQ-mL9YyF8wumrrYXWQbe9bb2hIZBfNl_ISwxFa0GV57ccCRTmW5Jr1HNv_Mluiq1lM_4yI7RUjTy6Z4y9_4eIu_Lhwm0GhTRoZW1kNP_I8xtnKD48I20rjlJ2dOpoCLoEq2HpHtz9Qm_t-vhVO0w6qFTumdFQjCBcHcDP9Xig/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8931970663300774329&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ076t8YiFSxYRublAov679Hs.jpg"
       },
       {
         "id": "ChIJhwOj1GWFSxYRsqV6yLy-8Bw",
@@ -146,7 +152,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhwOj1GWFSxYRsqV6yLy-8Bw/photos/AcnlKN1qGfVX2QUsPRsQntmvjmyZpZ5qV-tYjoMNQGvtF6nPIex1t0gkavASZPhcLn3jCF1JWsM8MDlhIbdNXz9sjzphiO-kllKY1epUDC25kYc1qr_JAT7S0GHmPWsnO5CsAxlz1_-140PWKQmW2gSEOv8c2btwKU7K4lmWfy2qp3IOp2S9gdOzJVShbu0DgDZohL8JgpYXKPiQs-hNtTa4VBBHE4pLKUsA3u-M2QOOFHIAqpfbHJvpj0QOZwpSZw2G-HKRCl1ubEDA5_8340PVZsDkVCZWV6Hw4z_-RN5Pt8ab0LPg2jmK0PXcrivk79mq4hT7DI9Ntculr7YmgeBQYZi2d8VF0YE8nsYGtyqrpiEhJAyu2sIxkE55amIEonX60sNbzInQaY9TCJLRMXfsyf0YPoFsDZY_Cz_t3v4weBE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2085376345499149746&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJhwOj1GWFSxYRsqV6yLy-8Bw.jpg"
       },
       {
         "id": "ChIJi2HPInGFSxYRxW1GQfnK5KQ",
@@ -166,7 +173,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJi2HPInGFSxYRxW1GQfnK5KQ/photos/AcnlKN1Lw8jysueNsL61Z0v6AIw4i--y3RRCz3XHQarTDsFzeahJFWkOK1tDMz4Ij9EEsACqmETvmIT5pFXwJ2ChJCDkLqB1xRimsH5DmfisAKqwFtUoVg5zAxWiBvOG_xxobW8wYn8jjz8bHcGcBsqyN2JLSpP3lkh1qnlA_Qi4V82TeQT-zXmFilQEj9jo6KKUS-y_riuqwA0V5aB6wHoj0dp-3EF8FPiFSvFu7xhs82ZrQul0S_1zTsFfztUSV0ZZa8kyxg4QhwxgDlALrEWBdSNCUTtwLkLYoRlZ_MYnxpLMNDtZgzYEDJVqEyhNSKtGrLdesJCsnnA5bRnMj0hgiTM4Mrm1-ueAZkJrwDyqWPxEw-iIx1BmtjPDl-fesaffxoKUj3wi6ObBqLS-i5WEeKtCnXADnbtidF0Y6K0eUCM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11881844888801013189&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJi2HPInGFSxYRxW1GQfnK5KQ.jpg"
       },
       {
         "id": "ChIJqzV-u_6FSxYRVNa-4zn6u5Q",
@@ -186,7 +194,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqzV-u_6FSxYRVNa-4zn6u5Q/photos/AcnlKN3fJHmdNnTnF1puWBaCKCADmJ5KiBjD6gO3kOpJ4tX4r9UKIjRkHb--eYKxz1BBc8To6GeiY097TGfDzM3Uw8XjbvTUnpyg-dExvxjmQel_iq1l5AYVD1Uy1X8toZAytSAzPrOHcY-9vAYaGV2TPqt5suBKo0DKrbhEwrxJ43ylfWBx8gE45IhEkRfiMqdgrBEiFX3xTlQERCUbi4GwO4Z8mp3-SgKQWLABcL6np9765XFpI4TpgX9wG1yiuyu8dupmnW-gD-VBl0qH_u-2v_X2wA1bXcLD9a0ykm0MbibqT2PvQ2XgMTDM8H_ga3rJs3uKTfEgbSiCexyGL9O-e7wc9EFxSxMyPhbAeGmkBPQf7lB5avMZClVqznvfkWWkPjFb2jSpbpNabPEzesPU80i75-niVC1KH8iRxXtv5cg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10717434864799241812&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJqzV-u_6FSxYRVNa-4zn6u5Q.jpg"
       },
       {
         "id": "ChIJJTR4ujCPSxYRAtidtKC0SVc",
@@ -207,7 +216,8 @@
         "websiteUrl": "https://adwamuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6289756956917618690&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJJTR4ujCPSxYRAtidtKC0SVc.jpg"
       },
       {
         "id": "ChIJzQCcsliPSxYR3-EVsx3I8Ck",
@@ -227,7 +237,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJzQCcsliPSxYR3-EVsx3I8Ck/photos/AcnlKN27ACdP_U-ssK0Zu1psvrwzo6dxI-l1wFr0oeVpoXYQrr72Fx93oEB0id08-YGk6oiIh8qCs4uq9myyl11vDT3teEStNLNjsgCUtdofqESqa0479_e3qQa64oHnAzlITfucXLJqbRgCQyfiyjG2AbLKiZD0aGlWLSdLVuETWUKj7-rSQ1ha5rx6MHn5NL97qhR9k6WOsj9zxrE7jRyqd17_Z70oGXGogw6VVTOK3OvFygF_aq7HKOTN5jJA2Jvu_8Gk0zPkMtrJdXWu453YHfPx3qiZlCVZSHkADi2FOAnsdpsvC-iKM06RZcKut_zZ6wwXEiBPRFOOkowX52aJTUbMcNR4kfwsyNVJfrQIBVJoF7ZLXJZf9f0XMYs8RxKZm7mduFxNbX3Ua-ifvxoAKO7pNIlnMNf4oGLGkOO-P0aoeg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3022135379849765343&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJzQCcsliPSxYR3-EVsx3I8Ck.jpg"
       },
       {
         "id": "ChIJuccc7_GFSxYRYsVCGw1Pm80",
@@ -247,7 +258,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuccc7_GFSxYRYsVCGw1Pm80/photos/AcnlKN0ktWh4sdLMxxZBS_6eumwB1PRu5Mn0JLZZG_Ibc2VSAwXdB2r8SUW_PTk7_KkO_WZrEuMc9oyF4ewiv-BvFjA92X--i_9PgfYzYFLHmAUwEAjMk9LVlevwlh62BEFbPK1Vw0qUMyTcAWfBaQ9UuGxz5QvzbNgMCCpn15bL8qKlicUsoLGSnv56NRU7zaJ6LklXLk_N8hMehD6RArnwx-TedXSc4GC9JYTnvHqCbCJaUSFzHYbUDtSmwOXC2m9RK1vLZZuNsaJb7SuadfS23HcsI9Kb6aJVyJAiQ-gt4lGt1PcEBYZcxB4nYXd5m81HOdmBC0hC140XiphNxa5cmw4VSUetvFTmcqxuBIS0FYw2sIpZFrFJcVSOlcuiUECipJOA4AUF21C9qw8LhmVvo5TRVFnXvUkv1EEFt-vNW8I/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14815522316875908450&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJuccc7_GFSxYRYsVCGw1Pm80.jpg"
       },
       {
         "id": "ChIJv5IQ5d6ISxYRFcRICM3Sr-Y",
@@ -267,7 +279,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv5IQ5d6ISxYRFcRICM3Sr-Y/photos/AcnlKN0xyjWULSMvSHN-CAuyLSiddX3HqfMcQDWUqcdnBsNyjY6MOUhDupprLOdg2BBCGNlXF7QEtlzHmJVbcEj71dDaqxTl2j5mMDdSjJBrgo-PvjyOEDWsLoSbFs8Bt7HZbt0VN8dSv0MdR16NMs32Ikczg4tGIVNtiE86WIxC6LE9IaI0tgKY3pxHSWLYzEQ5vE3iyMCuoRcIAgSQDuO7nF7byyLqfTAUI7HxYY_0eQ8_oQJKK5qLzlZH7_tego_Mqj8HEDWiDWzihQiqR0NbRVYc2vKFmPk1p_aW7O_bSucoNngu29KchpkL5Wg8oGlTgjxZYdg-VhUWsFEHD5QTR3vZlEaWgTKq5vSZx70Pozwe7d6pYPhHtDTkUrvKWUwmRy3T9__X4BRjfME2WWvKJR56YT77Rfy2SArauCooRItLJztV/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16622736527696905237&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJv5IQ5d6ISxYRFcRICM3Sr-Y.jpg"
       },
       {
         "id": "ChIJyZPBOEePSxYRtNM8j7ynJCQ",
@@ -287,7 +300,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyZPBOEePSxYRtNM8j7ynJCQ/photos/AcnlKN3h8rfCMEK5HQWQXSY8w1Chi81KwyIhD9tNtNmHlUoHNCw5-WaXhhNmTs0CJ8-V_zXn39-j0N0-ka8OygwG8eaG-gemzgUMglUIXY-G_obTF4HbiNRBVBzWZFXwu94YFJe9w2Rmri3DSxPBZUi6KOcnCtSneu2x7gb4avJhbsx6Cd06YIZRmaevRLjfTaxeLY2hopVI9MGywSxrsxuMWDimWyhcGdyc1fihFLw0PYizEC8i7Z25OD1BnjEgEhomRP3vpAVCUl2Vel5Cwa3Au1Yc6LGTA8W08lmAbCjPE3izxnldqO8Bs3RWKQLexC6OJwLwra9qfdV3MExDUZCXl9glM0AkpKPKcPxuF04SS4o7PGtZBm5RqvNmFpzLOL_CAUi8r6oyhk7ge4KBRgET4TOKNEhDIvDC91iYnft3horz12hwQ4GxXfJQec8MQg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2604390912825807796&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJyZPBOEePSxYRtNM8j7ynJCQ.jpg"
       },
       {
         "id": "ChIJKVxgA-mFSxYRF7zJFZ3ji38",
@@ -307,7 +321,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJKVxgA-mFSxYRF7zJFZ3ji38/photos/AcnlKN2LG4G5hYeHhtwpRp909CTWKm62ykY0K3E57NVaNxpxMfVJN2AMn4ION-7rlBU4YpmCfpe_Z8w0jL_g1zVj1La-11Two1wT7C_uoCB9D9CL1k-EGWAFJADmraEtwgCBvSJMbehrlEsARiVUUlIfT0MUhvbE4GhOeR4VdS3tUizAOL1JlQq_ydbZh3GQlkE-tD8wggHf85HRPgvBTfgmcwjhII1ET_nJQx6ubV8HUwE7plJiDZ6oIm0Ky0KB39RPBlfzLGFD2rcRAQSAdYIm0uwhBfH0AC8t0bHrtgc-aVaj3L8-HqCEKVKOl3SE_CvQFUPbLuy8zef5ILysNa7C6ArC3qnHeBZ_jnrZRQaRbCd3e8w513n-yv6-hcKq_J2SG9m7XRKFA0zjw3X4bH5k19mtlBdI-XDDcZaig5eSWPR7fQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9190689728394542103&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJKVxgA-mFSxYRF7zJFZ3ji38.jpg"
       },
       {
         "id": "ChIJ9TLxz1SFSxYRar3t6EcsWE0",
@@ -327,7 +342,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9TLxz1SFSxYRar3t6EcsWE0/photos/AcnlKN3YhKXc9NrWdJgq99NgG4b8U-poE_IKEUoUEkyYckdz0Kojct6yhL_Yn3LCDZSB1jr9EN6FKDzzx4BoK0shbalEa_bxTHTCfuTktV8I8AsFb1zwTD95MIeY-nICrQreQ6QFATLjk3v-G7xblx5K7ZuXrBWM2SMiuXfOKD8phXaU35RgXgOsMRJgsmsCnih10JmXPCrdvfcBohver20_K6PC_Zf-J43qy3YvRoy4S23H2gnCySuqL8f7JMt0mWMDAuCHE-PSoxP109RiJ_Xp7WNUb0z7ZPjY67mwtt_Xn_WHOYyRVXFcUyBSME9oGYKmoTaZCmOqXmjlL6BCCE319LsN2m-z9X_V1WApzUvntHIwJ36f_1MneDFKRthrSX8y7HUlmViwzhTf9zKJqx6M_Kp_9gOivoSvB3SVVu_38c-1EQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5573253226233183594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ9TLxz1SFSxYRar3t6EcsWE0.jpg"
       },
       {
         "id": "ChIJPSYK1PeFSxYRyB4uLtYXVBs",
@@ -347,7 +363,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPSYK1PeFSxYRyB4uLtYXVBs/photos/AcnlKN14pbFoadYFvwjkrdhPkaUtI9kJmD4FjIsTZaclwuoWGFkDGW73-bKZgHLeoweQ0Nv9_3K2MuOPwX5l0GbUE3L55K5NYr0T4kE5pJjb8jTqVKPyC2Uoop-pLiV89hIonc4Q_r_FbE5TGpOXuocdDkDmBMBx6lFi0NsRbLaAfLd-6bQQlLSFhCYiS21InvOyTreMODX341n7mr2iCOVcAYSExw1YeikZspYORxPhMie3sCu8oBeNCoTXoJmmTygLhfKGn8sjUmAqtq9TRQtpX5LhSXT_b0o3hG62pwFmQeoU2haSfrs48JUWFdmu2rbsQKpAwIhdlklNfsUJK_3apuQyZUgTY5Fwr_GOEBKChSHYm-JlyeL1OFriOvQpVNPw7CsRyIWH4Owi2Xs7HQ4rguYiWR1cB15FFcuHRfxS07zyGjDh/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1969225145732964040&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJPSYK1PeFSxYRyB4uLtYXVBs.jpg"
       },
       {
         "id": "ChIJwVYxcQCFSxYR7QJ5swx7VqA",
@@ -367,7 +384,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwVYxcQCFSxYR7QJ5swx7VqA/photos/AcnlKN0pJoEj1FMkE2KA3X4767sD1vRIfcvod3iyMMKpvg8emvjOyaDurwa0FmJsh5tsbQaNTW28m38MGSe2v79ybFfPHcjtYrNuypI_UqjUluz0FEGP9uItAwyB6Ys4lymUJl5j-qYaP87H4lB8zTZdFqwR6Ahe9icNHM92-IfJhB1eMygyE4fayHouBoeMwcgmU171kY-vTljJMEnfWF44YZFok7817H6inKs95Sn4EFxtZT9NB0iZgQwd2RIo4O2vSDV7J41zSqo_pxf7yEEoYu9GDE10TVeSZCuU_7GMGI96WQkaIFolpT9sJyI6UYglC-bHdrIacL0atHONtGIIawslD25RtxknI7b7jOFew9lkaLtAjC1k0Pk6Dicu3u_3Bo5iqIJ8zt6eX1e0NnDMFinBGmlnPJPmxPw79CbYPrYZl_2MncOLcUFnuZpRF_xQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11553557188546462445&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJwVYxcQCFSxYR7QJ5swx7VqA.jpg"
       },
       {
         "id": "ChIJ6zJw84mFSxYRs8OF3p3z5S8",
@@ -387,7 +405,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6zJw84mFSxYRs8OF3p3z5S8/photos/AcnlKN0Z5kvFrWqW9nmMTVAE_Mp7SMiiC8bYiteMVnjwxUg55DfNcixH_ZGzDuHwYixewZv4k3AxlpzjvM9-ko75uZ8enjEuJXPzoaQdB_TxrvWjAjkK95eQyCWm7NFHKwt200eZ4bcWMRS_ENHvc1Xqpf2RBrvOQbWExkywNuedUaqrkMDxhPh05ieYL5Kw9_pX519ZQLFil0lXsqPW1v8RK5OvNk2pBpXrEe4Rs4IVONkFq5gkrXjCUcBpOGH2cN6cohQZL8fhZkRHqnNwCxA01d4-ZZRMEencbKPgBI6It7GDIywP_J_yIh0pCBzuv-JTGFfoeQBRDOdaslkPf7VROfvcb3anDt79CuKKgm38oQiAKxg3a9kZdMk6Z_7M6ORCbFYrkxLGCaAC_9te0CeIuwgMJ25PXneoKx_eeqKbZirLPtyq/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3451432548818076595&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ6zJw84mFSxYRs8OF3p3z5S8.jpg"
       },
       {
         "id": "ChIJE5nwkGiPSxYRMdgPuETN2vw",
@@ -407,7 +426,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJE5nwkGiPSxYRMdgPuETN2vw/photos/AcnlKN1HDghiS7LZ37aPr6porDbtFEka7ZQTjNU4IV2f46plTYXyZNVqLCd0GUfn9cH_TyRDZQVcYbFVjRUzKC28rY6Zoq6oBA44qIAMaIkWQ3iUNNkSf8irR3F0cIOV2dIeqBqJctssTf-_kTlW-15-egU2eChdjBXiXE10mWTgDg-P0kNL-aB4OWs3jKypW70uiTmgPXTxU2Ot9mYzrzcpo_NlUzl-JbeKlkFdRrg8JZw6y2s2M4sFOLzbr89aCNw1rEqp6QJpfgJkWIXx_bth98leIJ8eXqtYKXrFSypq9gDcRhKvWMF8xOi5DrVek0e1HggCON2eaHaoVzCu1VihjRwmQX5A-5HbV5PWDgQ0ozGXYJkFPqEKIyKctPUbnUrruGRLVghD2BQpRV7ZVB5AFxCDzfD3TJrxg5U-6sX_YditKf0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18220100937510279217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJE5nwkGiPSxYRMdgPuETN2vw.jpg"
       },
       {
         "id": "ChIJhy2IegCbSxYRtliZZyhaeLQ",
@@ -427,7 +447,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhy2IegCbSxYRtliZZyhaeLQ/photos/AcnlKN3LsP3uvDQlyEHVUW2sWIGQXQVZ4qUGet57RNfhLRRWGLwkDa4TD40bpuW8S4gv1ltb9H4jiwUnDKEjfvC3QQRY_AMA9F7_S6TKZ_uvWy1KR4ffinBEbZOmet92UJwByEFi0qjTsZNEkLCCeJEW8MQQ_GriRmFCGyN8_Uw_TESQZoYrktU0rDeHHz-xHOrqKWPDcChQdNKm5fLeSSV45EpPcOFaMsCW21a2kFiL5OUXMHIdSlthYXUa49wvW2dgz-zdEO7ICcH5nNd_wok-sMFRrQWCAlrr9N1NPyERSwF6jzvP3qM4R2-GvU9sCtpwCIYlSddEpbOfTa-VziNYZeltxEXN9tNYjz3oc9wlZ0AZw8Qv83r7-p5UnvSxDVFKZsQvFw4Wl790BHnAhx8UdP0SuhEVJK_T6o4ToTlqC9zhrUHQS4BOAjtp3XUhZw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13004243053615601846&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJhy2IegCbSxYRtliZZyhaeLQ.jpg"
       },
       {
         "id": "ChIJ4a1lJQCFSxYROWHq7dHDsTI",
@@ -448,7 +469,8 @@
         "websiteUrl": "https://palacemuseum.gov.et/",
         "googleMapsUrl": "https://maps.google.com/?cid=3652916079181324601&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ4a1lJQCFSxYROWHq7dHDsTI.jpg"
       },
       {
         "id": "ChIJuyVUf7mFSxYR38kTW4PUex0",
@@ -468,7 +490,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuyVUf7mFSxYR38kTW4PUex0/photos/AcnlKN1AN1aAVxftr_TW43DOQyD1eMeNXIrEDbLRKw6HhcWlfe2yWUKDL1DMVGhFZOcBnYsDoFuvK1j91VC7_3pnTamrEwDS8gJUXCu4Sbi62_eJSFXcUjwvkbClgVVyygmsLB2jumuBVAuNdCwb3xoiF_is8p8LJ5IuimLtFyClKEejQ9ALTuf4RzO9YtJwJ3dqzixsFpn0bgrl5RmDacnm9NqPZE8ddn1O-Z9HsivlREghYTH8N88qIJcC-ORJCwlaHM852g20W7xFfOctWuVlezEuJbhWT-Ye2Wr5quTzOttR3aOkNeF2uWL6yL7vb5qxZHK8J7mFu7PpPnSwsS_pXtys9rMs17pgwbMjb3q6DDbS0X9JRiHdU6a_I010pzYMVw-2DOnRWvWJxlzYw9ZvK31iNDmEbyHsI5sEN9u4u7p210aC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2124525309869148639&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJuyVUf7mFSxYR38kTW4PUex0.jpg"
       },
       {
         "id": "ChIJ_-zkZwCbSxYRB_ZGaykEBaA",
@@ -488,7 +511,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_-zkZwCbSxYRB_ZGaykEBaA/photos/AcnlKN1SlLSM5KRnGDX2kE612PhBw9kG7W4d2c8vqjdD50fbZSjas144rC0eZPyyf_gD-EY9zDIxXBVSGCtpil6sjG0GQigVAi0icAE0y9u482REMEnrgyAg2Z-rohdsI1zs2zIs8ON_a5sCBeOdrVmJgUlPHjB5djy5KSx-fCYLr-6qpmhJlLwj67G48QJ8cYUHhehk88YcThSO3-zBePeEeSlzoXpUiRtU-BFjrFIyeaxJTcOZo7vu25cdQe4rQ2-TjWvZL3lS2cCst-NpN06A4dzFh2tswxdlX9R_gEVxwV6GEF_CqQcU7LrCBm156YFpLRX3UHtCesbR6VHfnTL9_mM4ie9OpcuttfYRW0AbRiKkoUKCvjNxfH1zE2FkU5RHO9MvJe-P4Q_1CFCNG68YF0EO90uSoTlMeUQDcjBaG2UB66M1dfy5OwuB9Qn6uJS5/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11530626996892005895&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ_-zkZwCbSxYRB_ZGaykEBaA.jpg"
       },
       {
         "id": "ChIJ61yVFOGESxYRQZpjIdUirbU",
@@ -508,7 +532,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ61yVFOGESxYRQZpjIdUirbU/photos/AcnlKN2yJnntkOq7VDIZAAkhLhTrdYfqAWj4mXR0h1oc422xmHeZ11N-F_cZzwPUuAIRl9Ryn02uLxsMPK_NzH5M8ThheW1w8qfEsFNjSHGO3o49idTYi_l_AzwO8yKTUNqjfg1Yb9wgBahIquAa2Z13jY37AMseOOQrlZET_TjF6llXSQfR6StdQJO0qjWhVnf2qxqOBe8bxZiw88eLNyDlPjLQkOgHuFe0zYD3XQgT9WZg6AzDwhUIJ8GviET4XKlU5Rjr2E-zdlsw6obe1BdQ2sAZ0wftyv1aF4w4T7ps1ggYgXv4EsOV6epCe57cAit8i6b0s0IaWX3WiePFaJ6si4fcrOm_x1VwBhAu-neJsMUATnprvSbsex4Zw689Fjq0k4Km_EpuMv4xm_Zp6GODxw5_RX3mvo5a_Dz4TPv2VZV7Zc9Y/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13091157990619454017&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ61yVFOGESxYRQZpjIdUirbU.jpg"
       },
       {
         "id": "ChIJn8j5UwCFSxYRaTP5uvmsNsM",
@@ -528,7 +553,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn8j5UwCFSxYRaTP5uvmsNsM/photos/AcnlKN1s3gSphej4PWWZoY0CRXs4_SqGsx9GivtGzfRv5zWcTn2Mq6sJnWLnqMC_l6uERbZAz1EdHbQF_DwTWy3QPVs_3x5cC2jseWCcXZUOSHHtJNBizCt8RjaC2NVQdwZJMUJtNb3hkKEP-Ardxl29oGFmZw8wGDN3QCTPQzWErYGcbwhG8WwyXY-SpiMGI6c4H_e-F8_Td4zeFeF82LhDQXoEUUdYUggQpnfwcNpJNBFgnTBJ0RAVQPqTQaGbay6bkpkCp_JtrevBPTMdFOAkt9XvO3kGmj73KBa4LtMxNN672xTaw6HTw7wNT4yy156I0qH3FokzR-2LkVmdmxT1pwnNZPWuM_vCgefbPbMYeLrMtVP4t40CrYDU-TCxTAHfcYh8AIvXjbmRBeRzOzPgf7TnJnGXa9n3IzNO4UEUKCc_7I8q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14066620674722050921&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJn8j5UwCFSxYRaTP5uvmsNsM.jpg"
       },
       {
         "id": "ChIJycRSOACFSxYRJIuRz-UKfbM",
@@ -548,7 +574,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJycRSOACFSxYRJIuRz-UKfbM/photos/AcnlKN1wFrcriB-WWxPski7kAiTiNiJhfrNkUb_jJztXIdP2ywDmKhoujSWv2rzuk_1ptbtl28W4y13sRS-8eoDVQUxjmX8Y_G-pyFxUE-ZBMCS1hQCNPtMcDFJqWjwPLenxf3UF_P8CTFvEYPFPsFdv3rqh8U0eotamzHapVEdgFlk_jDSuDBth-jknnPmfO7QCjZQjdMZ6rxVJBcEo4hl-vejTuJkZ6yvc8TfsscjTEieEetE9bljpbZeOoTmHnnCyazoPvbiuQpOdm4M3esC6dxOKG-qZhDDqEa9RQ1jqNoc-zXqChFaO9L7mg7AW1VImMLVRP72zMGZS4YvHQFpHAdDby3u6shP1B9GASf41vrURB__9bVEbxIGwTZ3PrNqiVC_U5tvOFLaFcjfohl0OYIrSaDE_HpvNc7hGYNS3pjlBnXgFmhRQrbrC_Ia2wobz/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12933505687024143140&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJycRSOACFSxYRJIuRz-UKfbM.jpg"
       },
       {
         "id": "ChIJmWx9hcaFSxYRwEeZQN2nOaI",
@@ -568,7 +595,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmWx9hcaFSxYRwEeZQN2nOaI/photos/AcnlKN3jQpWIDc6q-rT2jZmqwt6dPLc3uV_DxPgxHGqsmDcpfmWdrvFqOYdbNwStJj6wlJAuG-iQ0eiK2bNqAJ8k9guQ8BtJN4usHrVTeQBsIkIQwLaMQrz7SetfSgNraBOO1eMklYXCWHGdeH-XPeLb00Xoa4pecW8lgDRdGxusJowFIoqmVvpst42NdRggsmd73BAYoxPDpidpGuNmzjLA7TFb-1APHO4CJcuGq9xr5uRexTOT1cr8DhEtdYsCqQau_7vqnRMn9-safNfwh-bWBjmZiMUi-j_G5SeOYRKjsB8nsSD25YM19F6kd5JjHCy81OEzH8g8M3a0u_wCW9YN4_jBndSZe_NGx8_BN_jYmgvu4z4qm4f1XAavoWk6NbdaA3r3UNGUwUX7CMs771fQuLAbFtxbyIWN_RhbxaMukuQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11689558876530231232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJmWx9hcaFSxYRwEeZQN2nOaI.jpg"
       },
       {
         "id": "ChIJRaDU2LuFSxYRITnv2mlg48w",
@@ -589,7 +617,8 @@
         "websiteUrl": "http://rtmmm.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=14763750011211561249&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJRaDU2LuFSxYRITnv2mlg48w.jpg"
       },
       {
         "id": "ChIJn9uH-5KFSxYRX_Mj9FeIP50",
@@ -609,7 +638,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn9uH-5KFSxYRX_Mj9FeIP50/photos/AcnlKN05gLx0BeSpFODUMQBOXk9paLTownKqh_fClhXgJxvFHLfU0Uvsc-zU3vJcGAZjTbuwLeZQIZHcJKOsSvHINPC0ScQfLxaiCgZTR_LcFw9pE_Iil9XYh6wEUWGwSlnN_W2CsW9Dz6VmaQ951H5fyqLk4JLj8EN-QjQt5kfhE8_f0E9xCG0Kjz8cGRnJ0rM1aR3kE-t36Q1PAfqdpl4fQJEHnHo9YogkVPPOuU2JYSjSIxeniNyMslQGnD0qcLfTq-QnuZwcCO0r8xPvXsGp0euJw7kZqjvQyvHmiabkZxvM1pcuyZj0w9lCGEw8aFaNNVZnRImFm2rho-U9K6BQGzvzMvZyzO7uPR692yTudZ0l5Qg5H0cf59JAWKEIULtXjeH_wx9gzO0hdGTgO0y9A0LtVzSL_mVTWWtXaDP9_-K4AzxRjIfY7VmleD93jA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11330925098826986335&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:48.507Z",
-        "updatedAt": "2026-01-23T16:10:48.507Z"
+        "updatedAt": "2026-01-23T16:10:48.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJn9uH-5KFSxYRX_Mj9FeIP50.jpg"
       }
     ],
     "foodie": [
@@ -632,7 +662,8 @@
         "websiteUrl": "https://www.goldenplaterestaurant.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=8209878766610712560&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJq8LBOr6FSxYR8IfajD1Z73E.jpg"
       },
       {
         "id": "ChIJr_11xOOESxYR3P57JjxHdfg",
@@ -653,7 +684,8 @@
         "websiteUrl": "https://yodabissiniaethiopiantraditionalrestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17903294217350545116&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJr_11xOOESxYR3P57JjxHdfg.jpg"
       },
       {
         "id": "ChIJVU4N51GFSxYRhkkNs70GEiY",
@@ -674,7 +706,8 @@
         "websiteUrl": "https://centuryaddismall.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2743262534844631430&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJVU4N51GFSxYRhkkNs70GEiY.jpg"
       },
       {
         "id": "ChIJU7y6oXWDSxYRa1Ci5NU88t4",
@@ -694,7 +727,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJU7y6oXWDSxYRa1Ci5NU88t4/photos/AcnlKN1UkTXiaPukj-346AcR45CWKbO7S5ZJR-NyoHQSrgKnrjirbfh66eLh6RTyO_PE-CdMPOS1TLa637h67fDgz-NyTk0hg3MU5A3ehplmNQMjMl_yTh9zYRzgOOO0ZoPvQe5ogV4OX8g2O6DPVp9HVt5hKNb5pMz2ITvyWcp45k6v4H33yUPFjKCkf8J-BTgqzrRQhXeKSmh--Ldij7vzQjJ5RRZ7WGiNXiXmC9shNIpT6YVI3p1ZImDlAl6enPPC4b732Z5qK5sdIifG5U_ZseFZ9_T2aZ_1QiQnIXn4_TwM_Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16064969710145523819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJU7y6oXWDSxYRa1Ci5NU88t4.jpg"
       },
       {
         "id": "ChIJEyNtiCSESxYRrTfpM0Ukn-A",
@@ -715,7 +749,8 @@
         "websiteUrl": "https://www.facebook.com/pages/Sishu/166152870210094",
         "googleMapsUrl": "https://maps.google.com/?cid=16185695465435117485&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJEyNtiCSESxYRrTfpM0Ukn-A.jpg"
       },
       {
         "id": "ChIJp63nTQCFSxYREkyX2kLnAMw",
@@ -736,7 +771,8 @@
         "websiteUrl": "http://www.thechillspot.et/",
         "googleMapsUrl": "https://maps.google.com/?cid=14700003458058505234&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJp63nTQCFSxYREkyX2kLnAMw.jpg"
       },
       {
         "id": "ChIJxw-HOueFSxYRgOi1GAbzHYU",
@@ -757,7 +793,8 @@
         "websiteUrl": "https://www.instagram.com/magna_pastries",
         "googleMapsUrl": "https://maps.google.com/?cid=9592089988878952576&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJxw-HOueFSxYRgOi1GAbzHYU.jpg"
       },
       {
         "id": "ChIJnUKOBY6aSxYROrGznRQrKiI",
@@ -777,7 +814,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnUKOBY6aSxYROrGznRQrKiI/photos/AcnlKN0n9WFcPZLzfbZAC3gIwWRLALCVt9U5Fk-5Aq7GQ68lb90ZWz5wqe1-5oAtfTrAbvBAjZt3KRR3h3jogMkmsQLn4eVK6E8LnFnZebbd03CPKwzl6yYIApqmregixopEJ6DQvYippV_CmfPLojS9C59YTBu-SWqmWud5979dzjSxO2DWw5M2uruUpCHN0FFlSMMsMxO-QjxssoVzt5HjcoduWWWTX2vZriJKK-Ek4ZXQUN3weVZajyvzVIUMGySr3wmdNs3ocnoGe_nBCBELxWp9nH-bR6nviv6OKpIaeNTWogB6GTwc9HSIN430hKUZnGVPpiYU6cGLaODuzz6ppt3V6AGDAvTEHo0RPpD14yyQ-YSlsLpdRhzUIpHPuhkAyX6jw4aXbWUeSQgVv-m16jGFQQEszjac8nRdlvyXWzB6Ng/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2461827513856536890&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJnUKOBY6aSxYROrGznRQrKiI.jpg"
       },
       {
         "id": "ChIJuWKGbDuFSxYRmwtt-Gycp6M",
@@ -798,7 +836,8 @@
         "websiteUrl": "https://kobapatisserie.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11792566141131230107&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJuWKGbDuFSxYRmwtt-Gycp6M.jpg"
       },
       {
         "id": "ChIJq6Aqm7iHSxYRajrx1Y-rZeo",
@@ -819,7 +858,8 @@
         "websiteUrl": "http://www.zomamuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=16890094611780942442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJq6Aqm7iHSxYRajrx1Y-rZeo.jpg"
       },
       {
         "id": "ChIJtbZeEQeFSxYRdoNeTHekX9Y",
@@ -840,7 +880,8 @@
         "websiteUrl": "https://www.fafresh.et/",
         "googleMapsUrl": "https://maps.google.com/?cid=15447246079193416566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJtbZeEQeFSxYRdoNeTHekX9Y.jpg"
       },
       {
         "id": "ChIJV071tIKFSxYRaUXYAheyst0",
@@ -861,7 +902,8 @@
         "websiteUrl": "https://hulunem.com/place/ethiopia/addis-ababa/addis-ababa/five-loaves/",
         "googleMapsUrl": "https://maps.google.com/?cid=15975026640138290537&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJV071tIKFSxYRaUXYAheyst0.jpg"
       },
       {
         "id": "ChIJXSS5UACFSxYRhSBL3Ctj058",
@@ -881,7 +923,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXSS5UACFSxYRhSBL3Ctj058/photos/AcnlKN3OB0aRQPuBN_UeSQzfKOFPJVXNYWimaBUqL_jBAX3DKjBHEFEA7nHpfhHkNyMjsfDctCq8z51teMSCpNr8-2cZEZ_NzaemiIoGA9oQs3qPZLhWNyHaeAP81nIZzpjb6W1h-6ztN9uewjbqrZ2Z8u8fclosN6_pDZIjg8rUncMpZYJzZ0RFD7I4AulxMJ_CQcaqhpmq8S2U16EJbE3nva5WpJlE5VwamhyTXHOqNVjNT8FyROGRLDVvqNDjsXqvxgyoKaS5YkcVloanvyRUtEfTzOUXM42OVXjwPagaEv6rxQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11516657712147144837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJXSS5UACFSxYRhSBL3Ctj058.jpg"
       },
       {
         "id": "ChIJSweDgS-FSxYRfz1xqLNIuxY",
@@ -901,7 +944,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJSweDgS-FSxYRfz1xqLNIuxY/photos/AcnlKN1wRtCK6A0Tqc9ztxvv6m_d-VmYHaJfN0k5SICmJ8w3jp_hqUttbDkJxhrBopZxHcAnhIrysJTH5x_JYerCDcUErM6h4mGetRT6N6vhB-TfS_nqvkL4unr1WB_0PgnI9S_UWhA_HsB-AlYwirj2flmM-0jeToFoKkSYkcuUeeha78QriCCfp3-koQaXozuX0wmlwrJlHOsrjK9pNZKjkwqeq8evFg_JPSPvN-SX0v3fdRMv_VCilOWtEgH46YzVRPXuEdANYBIgSh6NFJbRdEtldkOA0RIo8VL5NswA9Bmfjg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1637982825941646719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJSweDgS-FSxYRfz1xqLNIuxY.jpg"
       },
       {
         "id": "ChIJ-6EzQbWFSxYRTPwSlB6tCm0",
@@ -921,7 +965,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-6EzQbWFSxYRTPwSlB6tCm0/photos/AcnlKN2q2nKgfKnetIl-bKSHmqEJmyTCfPoUdxhfhEfy_g0xIUDZRXFIf-D7fWqa7iVm1lAZOUErfokf1FlvOysPgAQmfKK_gpbK0bLjadAc4jSVsLkELIM4lesFyYncSl60_cjVwWnKbV_ZPHcDvB_953OtrKPAHs2nZleMkSfpuIvkQOqnPPPe9jnYNLfPcZtZz2NBtJL56Crr0H0jryE-sLa-o4ZwpZZnbdJlzV6skO8KJ2WeSVwhzGA00SzWDZeudEY2jiLdGr9eUMFhahYEwN3VTi01yQIQNR_KnPxQIxoJqQgsaKKoQcgzA_bPdTatnFpv-BJ15i-o0j6QLmvl53pdSIpbZh6bADFXywQ_LFOZ5jej2my_Iy9LXwVLmVsEcieFIyZGNGrjfhrzFpzfsRzS91NZ5FXzM3bU_-jvnDocu6SL/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7857282846746147916&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ-6EzQbWFSxYRTPwSlB6tCm0.jpg"
       },
       {
         "id": "ChIJWYilYJKFSxYRs4FHQYqOpiM",
@@ -942,7 +987,8 @@
         "websiteUrl": "http://www.thealchemistaddis.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2568897361913282995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJWYilYJKFSxYRs4FHQYqOpiM.jpg"
       },
       {
         "id": "ChIJ6QscSQCFSxYRVw8LqgX76TA",
@@ -962,7 +1008,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6QscSQCFSxYRVw8LqgX76TA/photos/AcnlKN07998E6FGce0SoQwpNWNgWOg-zovtYWxDCupkPS-z9qWl5uuP0ERmHzM9rnLsa5zT_WKSs0yKvxWSqMQ-76Sa1mOb43k3RnoUkHtQnxlBH-JQ5Mj-MhKHZpg4dRqnf5JSP56_wFSX4q7aI8jCWXt9EIp7e4d4bJG_SkNEOnjyllIU2zVcNypywHxO4riQED4AXXs199V12-e_8Hhz_eiHS4Ami63DHXkSZXPQ6-WVvQLZesUx2ADMWe812UI9oqR33CNo9uhL-VGsYttm7k2wQo3Pma7aL34VjX864hHF1oA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3524624185140383575&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ6QscSQCFSxYRVw8LqgX76TA.jpg"
       },
       {
         "id": "ChIJb16bB4OFSxYRU2nTe9mSoS0",
@@ -983,7 +1030,8 @@
         "websiteUrl": "https://kazaddis.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3288070665740183891&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJb16bB4OFSxYRU2nTe9mSoS0.jpg"
       },
       {
         "id": "ChIJCQoHmGiFSxYRf3cO5M3VLf8",
@@ -1004,7 +1052,8 @@
         "websiteUrl": "https://hottoaddis.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18387587933894768511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJCQoHmGiFSxYRf3cO5M3VLf8.jpg"
       },
       {
         "id": "ChIJYZW61gaFSxYRCidtXy2oH3c",
@@ -1024,7 +1073,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYZW61gaFSxYRCidtXy2oH3c/photos/AcnlKN2wmH5uOwMX7rdk5OPUTSwe9TyTu7uahqTzq-5EqSdQLB7l9CYWWnfzxdZyGtyaTI07iw66ot4yyMry5oTqWoaWY05Dv7JerL3caHI6WtCa5B2YQpUoKls8UxxxKQMQNQK2CGmwfpfPvaT1ilQSfGjK81Lumkm-pNE1VN0q5ZMgCdKQkLuofWPZNPGS3rOsReHd6575PRzgzjxVkIVIJ7vde896KJysj-Wg2X71QwyfxMU49ltWdDoU2Tle1MXcPxmCad14-5MYaozhHyoq2URGF6YllfKg8tkUsWgEHjk7Wg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8583764327619438346&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJYZW61gaFSxYRCidtXy2oH3c.jpg"
       },
       {
         "id": "ChIJYfj3fSyFSxYReTw7Bvd5xRw",
@@ -1045,7 +1095,8 @@
         "websiteUrl": "https://henomrestaurants.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2073197305342409849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:49.758Z",
-        "updatedAt": "2026-01-23T16:10:49.758Z"
+        "updatedAt": "2026-01-23T16:10:49.758Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJYfj3fSyFSxYReTw7Bvd5xRw.jpg"
       },
       {
         "id": "ChIJHaCLpzaPSxYRz5zXmPmM8Ng",
@@ -1065,7 +1116,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHaCLpzaPSxYRz5zXmPmM8Ng/photos/AcnlKN1O4gD5n2G4qy1T5ENLmsQ585hIBmy_Wvwh2n5Q84GMQLDxsFqob-qQHHt3zEWBp851oeRb4pndfP3yVsP59ong8H_-_dSRnSYgIW-NGOw3Td0-YIVOVTZa7CkZ5xBHuWxB0kHz342P8ZCBvIQw-oALsBDnmCvAJGdUL7ivkjRUijTY8nfhvTnX6GoUBGvbf-7AOkjAjUYt9U2l4x2DfGW-l5aJJeXkOedUq2bISi7HV3dnM6uAlBzlSot0cYIXmMTIuaDv2j47AerZrivuy3GbIQvTBVyulMnvD85rYKqFwxeYWWD_wSKuuwNANZZSm1vghKKVTSziDP6z5c76r8PcYnfMSj9ozEpTT3KqIJfb9bCazhn9wg79nIVt48tdTkjltII3KmPH6J-La-irY0PqIgUGexH0iz3dg-ozwzWsIQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15632149310242004175&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.759Z",
-        "updatedAt": "2026-01-23T16:10:49.759Z"
+        "updatedAt": "2026-01-23T16:10:49.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJHaCLpzaPSxYRz5zXmPmM8Ng.jpg"
       },
       {
         "id": "ChIJQc45dM-FSxYRiTmZ0hvSL7k",
@@ -1086,7 +1138,8 @@
         "websiteUrl": "https://lebasilicaddis.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13344115237861276041&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.759Z",
-        "updatedAt": "2026-01-23T16:10:49.759Z"
+        "updatedAt": "2026-01-23T16:10:49.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJQc45dM-FSxYRiTmZ0hvSL7k.jpg"
       },
       {
         "id": "ChIJYUPYFgCFSxYRLua-H7JiUEE",
@@ -1107,7 +1160,8 @@
         "websiteUrl": "http://www.etetebusinessgroup.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4706370127778473518&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.759Z",
-        "updatedAt": "2026-01-23T16:10:49.759Z"
+        "updatedAt": "2026-01-23T16:10:49.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJYUPYFgCFSxYRLua-H7JiUEE.jpg"
       },
       {
         "id": "ChIJXybiNliFSxYRxyCExDuBgtk",
@@ -1127,7 +1181,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXybiNliFSxYRxyCExDuBgtk/photos/AcnlKN1HNN_zC7JfG3E9EzY9iqzpK6M1KFASt8dzDMrfRfdXr2swheSWjqIny7W1kzqZJqVHRfQrKTmBE6c6lEMtdrBdcZbdsd5QZB6Lq6dUgbL7SjO5_6vE-WTCJuf9XMxmcN4UGM3I9ePtyJclBEj_Mntdt0n9_PqH6BAeCzWMJF-lnjtITWyB-IFtrrRhky2QYC4E0JLLu9WyF0CgQwRzecUQj2El7M_WJstOsEuQMYcEhiJ_A0lkGY0ViS3kQ2HaNlzMbVOpCkBs6ck0KDHNoFT_hw8bVPI1UP-Pzsti1ufCRh-ykbUTQlLuDxKs5UL9xJe5QacjvJVbKkMZGURrhTNAO-mmqrR3hHgkuNiTe4DOftzhsY7nD8nns4MZvI8RxNQSnB8GQhulmUd1mF4gJ0GippUhDDz0EKTEFAKLwMu5j9wt/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15673231746902794439&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.759Z",
-        "updatedAt": "2026-01-23T16:10:49.759Z"
+        "updatedAt": "2026-01-23T16:10:49.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJXybiNliFSxYRxyCExDuBgtk.jpg"
       },
       {
         "id": "ChIJM_ZK9QOFSxYRFnfn_jHzEZ4",
@@ -1147,7 +1202,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJM_ZK9QOFSxYRFnfn_jHzEZ4/photos/AcnlKN0_FlnnhEzSdeWO-zJ0iHo_58AyJHRqCC76OVaT-OnUWB_TfGSx-4FDS7-31F_uSWirLZAKL4KCEnU33UFyts4j42pyvbnyr7LoJWOAbhpZLdfsmrS53JL6gX8i3xaa5WjS54r5xSO3SdV_4f3c3Hl7mdmaWQnNv2aCl6MNhi7sj20ddi6baJr8KAR6Vt_2MluotxsDqmnRA1cCpUoPXu_w8a9T7McgkRiv7SxDf3L2Bf3KJXXEWZd0J7lb9Y9bycY1LaB96VW7MituGh6XxXgeTdndpexDmM5QxG7bg-337x2KY5ha0rUDAAeOyng3CkMDImV3oaZGL7bRZFooNcQBa03X6XXqfqIWncOAT3QTnWgtlw5aYgnrG2a4Zpy762GcpaeeLn7NzCW72bb49NV0RM0FS6ymiLtpXxr_136iew/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11390152328652224278&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.759Z",
-        "updatedAt": "2026-01-23T16:10:49.759Z"
+        "updatedAt": "2026-01-23T16:10:49.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJM_ZK9QOFSxYRFnfn_jHzEZ4.jpg"
       },
       {
         "id": "ChIJe-KX9tCDSxYR5yuoHF5ZxKI",
@@ -1167,7 +1223,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJe-KX9tCDSxYR5yuoHF5ZxKI/photos/AcnlKN3zDB82wftfuqvObauww4RGSB98ZZxHm-3sDDUYsEnfNrRNmEPhWHIVFBLVEca_3UyJRdLntDl1i2frR36cAh2ciDuc10Y-SJND1Yd0vT4usR7ZpA_Y91bgIdFCZEuAblPiwNLeQ1tur828aY1WDhXccXzyGV-PdhIcxnveSZzbTrEaQLyPHs2NcDqJX5gD6KdprsUUnr12vxMCElvrCycR7-Wsc0eOOwOSOqw6_yNtCLjrrNP4QzIlOELpLkdrHrMJZoLqEr11VW2Dj8KwDXQd92WNv8_emfCXFl-Sq7OBEaEMK6By95p-D8roz8Qb-jjfTB-gHraetqW1VTkwFilSkprGfinGTpFrUI2nUVA2O3MfeggaYr1900eeXyEKHqpjh1RUngRH0g3RYm02rYI-tzKDLOIK9J6DXGEY5PQcDA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11728597590322195431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.759Z",
-        "updatedAt": "2026-01-23T16:10:49.759Z"
+        "updatedAt": "2026-01-23T16:10:49.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJe-KX9tCDSxYR5yuoHF5ZxKI.jpg"
       },
       {
         "id": "ChIJS9C-qCaBSxYRSJOoJa9l7do",
@@ -1187,7 +1244,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS9C-qCaBSxYRSJOoJa9l7do/photos/AcnlKN0u3A29z--1qu-0o7A4JZBc0MW6tKyh4e8A7zakdncPDaTtFjW2jzGJbSGMwnBIgcY6_hWWJ-ewgo1rteUEI1dwnI4Fk1gIBiGIgOCBiTLChz-LhM91wLGOVtDtTZajL9jziip8RTllU21buivhJHy7JGMpQr21LOppiSikp36UKE-QAgYhFs5L55OmUcJX3uez3qIPvrAlU2p21MGhYFajmTOymEznTXt_76xeYEwWNJmrDTtAlar6m85MDjsq18bNDOjJebGZ5O_Yw06PM1ix2Knm4Hpw8Y9YlzWZN-U9IvAithqpwuCidg8jamI-fjOKbAWKTvBYCdjQBN1USUgLV8uPwHloiLtIgHO-6zmHzT-Fp269xSNrlS77gvNrz01G7_1Fx7A-5S_UEF0dWJ20VuWFokv8ODA8ZS6mDiA41RaI7uxqf9xDtjKKeQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15775376872674202440&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:49.759Z",
-        "updatedAt": "2026-01-23T16:10:49.759Z"
+        "updatedAt": "2026-01-23T16:10:49.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJS9C-qCaBSxYRSJOoJa9l7do.jpg"
       }
     ],
     "adventure": [
@@ -1209,7 +1267,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv9xI8GqFSxYROEPBd0PfsP0/photos/AcnlKN1GGQ-ennTRHX8ZO3psaq_jUbhtSh5446NByOcTDe5lukDYcilWP9nA3j2ScQYK0D9WsGKVzzxrQy1uRaqEzAWIU6k6sUP67P5w_KSxysU3THmGXIBcwbvdxzStlf1_4io19V_8ShkgWk1iv-HdN_OKFRqIYJNBAJ7oCeyyE0jAtZJs0oiWyqLAI-mtAwoBD8pmrLTPdXkgZr7IE2ja0S4Yeb-XrFXPnHFBYgcL9GhRyp6sxxTIpHT7yHcrES91RbYAhKLCX7p2ITPrlGatjOuRNE3tDHfJ3-SMpaAQjKyobWtpWXfPSKln9ghOwvkLwNLXfCHzh5avmZ7MVOvmMZix8lmF7zYBnr1w0AeWJwU39H8f1jiHOkkM8FFnleC5zJiPpiwC15hcwCArO9I9BrMNQ-PwfY5qU-TuGDpmrcuwzKYvJJKt4RIlk_QcCCsg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18280356368361800504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJv9xI8GqFSxYROEPBd0PfsP0.jpg"
       },
       {
         "id": "ChIJt9p-9ZWFSxYRmlunTd7jO4A",
@@ -1230,7 +1289,8 @@
         "websiteUrl": "https://www.unitypark.et/",
         "googleMapsUrl": "https://maps.google.com/?cid=9240229604405762970&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJt9p-9ZWFSxYRmlunTd7jO4A.png"
       },
       {
         "id": "ChIJR7mkJkiPSxYRLWW_SOL2C8k",
@@ -1251,7 +1311,8 @@
         "websiteUrl": "https://www.entoto-natural-park.org/?m=1",
         "googleMapsUrl": "https://maps.google.com/?cid=14486944078110876973&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJR7mkJkiPSxYRLWW_SOL2C8k.jpg"
       },
       {
         "id": "ChIJWwwBnhiFSxYRYkjPJ9KsBfA",
@@ -1272,7 +1333,8 @@
         "websiteUrl": "https://www.lalibelaexpeditions.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17295419962597263458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJWwwBnhiFSxYRYkjPJ9KsBfA.jpg"
       },
       {
         "id": "ChIJzbEOBKqFSxYRZpPDs0IgbCo",
@@ -1293,7 +1355,8 @@
         "websiteUrl": "http://abyssiniaadventuretours.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3056853717933593446&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJzbEOBKqFSxYRZpPDs0IgbCo.jpg"
       },
       {
         "id": "ChIJx3NuDACHSxYRN8UKTUzYrfM",
@@ -1333,7 +1396,8 @@
         "websiteUrl": "https://danakiltours.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3768690603969709170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJKYVwThaFSxYRcoT3DSMUTTQ.jpg"
       },
       {
         "id": "ChIJT6yy3n-FSxYRAxB5KSXpw5I",
@@ -1354,7 +1418,8 @@
         "websiteUrl": "http://www.twstatours.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10575552695814918147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJT6yy3n-FSxYRAxB5KSXpw5I.jpg"
       },
       {
         "id": "ChIJaca_tPeBSxYR2KaAc7taBxc",
@@ -1394,7 +1459,8 @@
         "websiteUrl": "http://www.medaicworldofadventure.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7674902755356872759&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJL5xLC8iFSxYRN5C2gmS7gmo.jpg"
       },
       {
         "id": "ChIJx03Spm6PSxYRjGQ3Zcb8nck",
@@ -1415,7 +1481,8 @@
         "websiteUrl": "https://www.fe.kurifturesorts.com/resorts/entoto",
         "googleMapsUrl": "https://maps.google.com/?cid=14528045901998941324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJx03Spm6PSxYRjGQ3Zcb8nck.jpg"
       },
       {
         "id": "ChIJR5gTAPWPSxYRcON_wF3xsbQ",
@@ -1435,7 +1502,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJR5gTAPWPSxYRcON_wF3xsbQ/photos/AcnlKN0jCwLvYlrq9DQJjnK_XtMpjE_rpVQw9AvK8XbYR8CJmmMpPPcyMuOuuGF1NfT2Bxx5nDrXpqiGTzA9OXyf6fmLSMdkNxxSiZJTeGk5SIkAtGjoCJ9iJBf0AFLTnykFp9LL_1qEfgcTHbRmscmaeiaGXQlsnRy2VU__od8QffkxE014HnXXZW-Hz6afb0aVotwQC5cQMijeJE15IAUx5DQGk8Zu8sQ_K1OqFUKwd0PUYf6bmgFaOD3Ywjq3kKT4OdWAdBGJhdAIHvQCEweQlT4ZWcnnhQsX5kJYQQfj75Wn0-udu7pXUA61JVPPH6Lek9A-JEdl9EncafNsw1oLaFoL2LWG7fBfGaYQpZ31n5GkM4KYg4YnFBUDjNHntVlhtP1rCqQfECOgLmTPC03i1p-1HMLyByEoq2B7NLHYie5Qb5f0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13020453382668673904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJR5gTAPWPSxYRcON_wF3xsbQ.jpg"
       },
       {
         "id": "ChIJgc_XcqeJSxYR3wDseCiN2aU",
@@ -1455,7 +1523,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJgc_XcqeJSxYR3wDseCiN2aU/photos/AcnlKN26v05xQFDewes58rSkg2vXK8OCqObuTqcPpuLg13t1zDbCEOI5t6YnyT6ESmJe4wDZB3skzSz8W22yVQ_MjHtb2ditY7j4VDv9KMW8pRTxg5Cbplz5hFxGsKreg6gGmJaBLukhi4IFfxb8Ok6MRouf5KeT1uslREZC_mbGutyUl-qSvzOFwRSQOXPuDlUofGJGPimRGXciY5dVwuXWYVpcF8ZIxMya-fmRvtjtIlhR2W-T3EmHrmctWk2x89Wlta7GOfdciYcr1xIRBWRZTlLO2_ZDY1YUAW4ZF7nb4So68CsSHkbfDmOkOEVdkIbdTV1I_Ai2HXbKvcr5ZhqAb7BUNM5ga9yYOrWQdF6ZhOyR7WzG81y2hPwg66qXmKbDU__bP_N_IRAE7QaO8QwKDnQH15kOOaz2OHF3V1NsjUee1OM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11950738291171262687&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJgc_XcqeJSxYR3wDseCiN2aU.jpg"
       },
       {
         "id": "ChIJuVBsAUiPSxYRME4oJqU52u0",
@@ -1475,7 +1544,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuVBsAUiPSxYRME4oJqU52u0/photos/AcnlKN3jaGY8O9hBl0xwsebelV2Zkf38DtGAImB1q1Y6s_YzBnwvQugofqJyLySDyl-bAdQzK5PI4exxcxd1j_8_6BN1zQ6xqDsZ_8X8dZvoT0exMvIGnlReTf9beBrl5Ivbhyu9hKCRzq1MGP_wnZQsvKkki5qlPY0PqLDIzYyzqhIUUXI6dRYxUzmGo7I2UWMZuqbRRgSYLnSmT_snRHUDA3IW-Vd23eS0A_KQzc0Xn0uNcYsKzT_vJzq4zezHJOvD3On9eOr8MEw9V2535JpIoOI0Wm8UoTt4sbMpS66yyEcvxKuti9birCO7eP1YjO6hXKAbg0UoWoQ7Od0sbzInWR8g3f23nc1t-DaNxl5craZ1t5I-vLqDNC8Mw0d1U7boF2Al5FLC71y3OZmeDL-i2xLPOfW7e6D2Yxhdo2ONYMjBVQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17139074713384406576&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJuVBsAUiPSxYRME4oJqU52u0.jpg"
       },
       {
         "id": "ChIJCRrODzWPSxYRgaqAu6Vzl5s",
@@ -1496,7 +1566,8 @@
         "websiteUrl": "https://shegerpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11211556953014708865&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJCRrODzWPSxYRgaqAu6Vzl5s.jpg"
       },
       {
         "id": "ChIJJdxnC6qFSxYRhjmiGRD_0-A",
@@ -1516,7 +1587,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJdxnC6qFSxYRhjmiGRD_0-A/photos/AcnlKN1KwzIfzBKIzk7hTriM3bdeaIIquzXCl_Cj2mu_EgOSLUcEcwtMZyHOHEvnAyp31POR05muDa9qGRijjbjilSveFhvzF9yF1vo2vAVjNFFSfgRsr2xqsJERa-nMIobcJGl02TZXeU19U37hcRMIaMcL04eLsMHw_QgV0nUN664RlrRo-yPGSEssYvm0SR7TuYRreT17G2RHL4YpDjWr1NI25uieKFrp6NxxdBAE5-0HAm7Ja0BqrjTA6zrCMR__lvJ-sCRNn3_cKQgRP7GRDv0ZS2oX3Y33Dj2pmqhJfhSVYHNs5cTASkq1O0BBSRBMonQvau7_v7WqVi2pkjZvQjdreFb-iV3jNVJ_wOEvmusR-cF6VS3nfCoIQpkVMGV0mzhYO6AeXhdYdsuulG4l3AQlWTusfDKNV4BGnH3hmVobi7jyfMNAuVHXJW5m-w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16200572729196427654&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJJdxnC6qFSxYRhjmiGRD_0-A.jpg"
       },
       {
         "id": "ChIJ2ydZy9-FSxYRj_aeq8GFBV0",
@@ -1536,7 +1608,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2ydZy9-FSxYRj_aeq8GFBV0/photos/AcnlKN29hIxfoYJco7rx0nqt2IB_R9eXC1R_publ1ZHVav5U4B2kNiagiBnaaAzSeAagqPzJXvnjWmjIX7ShvFzUhSbZcv1_Guhs7xPcdveGPgpL92PGi5yWlu2JMRjr4Ahp5VvmnbqrLdjZaZZWQHbQksdz3w4TYTrazZxZ_n0ZCUe09a9rI5f37zYchc53o87pvlyIFU6g5_dLe5Vgd3RrEmSIY9rCZ7VjjcYS3UNr2RKFYCO2Lr-a390mIRNY4HV2UojfLTR9Bs4vUPpPB22aJxC0ygxWD4TgUQyaJMOBIicTXDREO18iPseSNFvXBFwprF_6heAuhtTmRtRFY7B204mFdQ5yX8gkmhHEFqIZcPBfiMK8yvIzSq4hLrFsNiur3gHmPmqN05A3C-hdonB4J71TsooXJNluDlRRKLR6prRIof6J/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6702910687265355407&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ2ydZy9-FSxYRj_aeq8GFBV0.jpg"
       },
       {
         "id": "ChIJaWJ2VuabSxYRknNnzxPY0y4",
@@ -1556,7 +1629,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJaWJ2VuabSxYRknNnzxPY0y4/photos/AcnlKN2GwboEq5_dZBC6CeZQq48T5vQs6ErKxifHJCUypj7Za9pZVf0qBqmD3hYBeAnI-mTeeM7ZWYIkSYrmHK3Ye3YRDvaL272OHbz6s-hBVR-2eWrIfynMpVZJJ6YsifFdmOg8Sjh7gPM7k5Tfs4NPrjsU1EnjtARS6hrUVMegdjDb8vp-zP1eOCOzdiO-kkMm9hKqiGS1ovGpT8FnIq-93smeEzqsy33KgMFz-BvJysA_JPiHrD0X9a51GPFqOoZfN7VEaWzfs30KYA5xULS-J3kdDV1QXEreMg3Ai8JB0teSIEy4qicml9Hnvw7ZCZMcXqtlUDK8-KaboaPZWgpSPGSU0i0gszIIFgOGmoeCQ7ByO0w9V8zkMsbO3Yl4o05l4q1HKrxehYm5zyfCLFST7UIPD_oAMsK0ISjGEX8VeFcj3mmd/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3374278125426275218&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJaWJ2VuabSxYRknNnzxPY0y4.jpg"
       },
       {
         "id": "ChIJXYaMQZaJSxYRMho_LsXFT5w",
@@ -1576,7 +1650,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXYaMQZaJSxYRMho_LsXFT5w/photos/AcnlKN0zhMvFjrRX-pLeBDj-32F59BfO9g8arfzAFEugKyGZbaxfcLK5eUoa38TeMbeEke5dorvvEdD6uEJpVPTmeGRRt2mtgGYuv7OF4FF0dCsNh_OQVB41VYWds47jU55hocEVogCidDljPCbZcoBwINP-LdGBftNvT-gsA2L3hhsyPOb0cGxK9lAV7BD5U1JoQ5StCInLOs61VysJ5sjHTDxC6j91O2H19hxTPoSmd3YeBsbf4XNcM8PhrJ9AOFVocJBaYAYJm0cPOoy8dolv6KeZ_Wh0loK3glgqbPCCzibgbGhzgvc29p4b2_RvWN0PuLNGD8o0efSlGFykinMjS4q9zN5KzUb7zmqSXzvYglgf2cawtVoMLwt6zNSS05GFp340V1XGXlDYZVTd_-pyVZ28tYgHQQ6NsAXd1x7LRpYoAMU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11263438643752016434&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJXYaMQZaJSxYRMho_LsXFT5w.jpg"
       },
       {
         "id": "ChIJO4ihWFKHSxYRys9yo6Aavj8",
@@ -1596,7 +1671,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO4ihWFKHSxYRys9yo6Aavj8/photos/AcnlKN2-uXCUH-6QU0FyzwCL5NSWMIB5rXWcnIbezinEmC1-bCQYIu4JxwT5jdGh5Ul5YgBHH14OJEOOGpKK4mzLJnzgOIK-38BgrjPuo9i5LYW3QGdKy1XsZos4HoKfoG0T2GhTgAnh8Dlb2DO2DjjQdi7I0voB_vPbAvWVA60_9TCOwzcjDWD41RWrt99DTi-o2YWpwz-mkZv49Li2lSwKEpwTMssy6dNqqcANhgLRfAAUn-fYikkIH5W4pCmeZzulodICJ_7OFN4_qU9KfZ6ccw23kWeyof3loFsT6vTzu71n-54pGrQnsUWFXL5F0ggfZusv29einuJHDMXev3Hubdo_gJsgh20Ovo3Uz-KcwenRwOXNBHYVlf6lrNtmNrp1cZxfqfdHXFFfp6Iy2F-DTK1uPbbmR91By1Jhrm1cKkg1dgqSWtVz4ucRRRrfO6ar/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4593137947203784650&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJO4ihWFKHSxYRys9yo6Aavj8.jpg"
       },
       {
         "id": "ChIJeTjwXwKFSxYR1PJnFr-PEI0",
@@ -1616,7 +1692,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJeTjwXwKFSxYR1PJnFr-PEI0/photos/AcnlKN0Ee8UA8dZhz6tprTu8aVC4md2CpAez9HkqmNBfsdbFL1SUFQx-rV0PUrH2fiRTIwb8wYV4c3_QDypXguSnqOCNWb-d7lQvPQjk3icWSGG7kDE7zAq9lBy8QSE6ytsKpg1XiEHdqK3faEON88SjBZwnmEMVGCb63rlKIsPGSyXT9m25fiRv3NPF__4n_TtCEgrXSL5mTg7UWycP3leGFi3upYJ0PHrFkTCllD1b9Gvi2ukzc-ZJ53I50aHi250rYSHFsCq7pmEP_IPZ8KEmJ7WWANxXkanFg0Dv_cvNnrZNEA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10164782409852646100&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJeTjwXwKFSxYR1PJnFr-PEI0.jpg"
       },
       {
         "id": "ChIJ3U7LYQCFSxYR2SITF7z5fZQ",
@@ -1636,7 +1713,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3U7LYQCFSxYR2SITF7z5fZQ/photos/AcnlKN0rtOFzqq-8goEZvRFY3pnu1onne3r2v2b5YFC-aK0UD3cZKW783VVDyxvb770FyLaTM_psFt_p-bAQYZxRwYUnQNz4eGmuXVoFKwkcc-kvQtjXzPjUdKE_1ROpf5vuqaIb5EpvEqvh6bM7VJCkLI9OmjBH2kHrFdudBNPcwhbhk5c4Vk7iz8STXoDi98TZUYDOlQR6S7N1ehtf4A73YbBreQh_BAY7QiV6UoAoLWXFdoAfKW5cYW1Rt_GatrrisziKWOP6DbYm36qH8ConUpoE1pajXvemDL-7ApWIUpq1DVfcAKC4iBVhOIALIoW9CrqJpvuoCRurzwp4kWBrObYC0rkoG-sp7tSQ_2olBbL7BtqykRozN4gsDr68zyQWcbvHvg184VgV6j2fhcAUs_M-wMx5-O9fcaPqiIKEdRjLZQOLJ6EfGpSPecouTfwd/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10699982875938464473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:50.912Z",
-        "updatedAt": "2026-01-23T16:10:50.912Z"
+        "updatedAt": "2026-01-23T16:10:50.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ3U7LYQCFSxYR2SITF7z5fZQ.jpg"
       },
       {
         "id": "ChIJ9QAt2ByJSxYRdHwsnwTsBds",
@@ -1678,7 +1756,8 @@
         "websiteUrl": "https://www.unitypark.et/",
         "googleMapsUrl": "https://maps.google.com/?cid=9240229604405762970&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJt9p-9ZWFSxYRmlunTd7jO4A.png"
       },
       {
         "id": "ChIJ-T7ANWGPSxYRbkKIU1AEfFs",
@@ -1698,7 +1777,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-T7ANWGPSxYRbkKIU1AEfFs/photos/AcnlKN0mLo5C7fAAypFut8KHX7hmP96WF8zaT0uDo5PrtjO789WtZjIwfXgwsb2XeNDl5bAJxqZRg_TsFKpUFDZfd4TQLV4-v7Mi2FNc2GQSQUOOJ98MnaZX6-JtI-QRjWMOArtsj2Pg_2DPcNP6qxcn0v98QNl8PtgP0dvrmXMLtY5-d3fWtFP7-XfH-n9W6no5Wm2bAmvcP0FkJn0Q_ty9FdLu8tJOlZlxsqWPhC_wde-Dow9OxP5iNPpNxl2BjN6M3aGtx-im3J6WalzV__xemQYZ3z_nFnvLz1oSoWXfYLYaA63S0vaAlXSFlgFmisOjf_O3jjjN-8_Roa3XK4odWCMNciyXRfJgzXFeHhZpgdLVxbB9MoiOGDwXUiVhRJGBmpwu13UhKTc3FXviPMzQziIunPLDqjThZJ1JPzDYIVY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6592148697608897134&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ-T7ANWGPSxYRbkKIU1AEfFs.jpg"
       },
       {
         "id": "ChIJYw6HZVyFSxYRWCBAYFmjx_I",
@@ -1718,7 +1798,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYw6HZVyFSxYRWCBAYFmjx_I/photos/AcnlKN21cJynOxdxVoNoqiw2GjAzJoNC6MLYMvzG-biSR846hXZuSPoHwhkPDJsZGNTE7Y6Gik6BVUFfKaNe6r3k5xc7CdP6k2p1uPHvlvI7T9Y2L5_sRNiQNNzwAQ2BDRnm40o0EpbcPG2U2HWQUa1NPoNd0VCZY8GNfLmeTrEvjkKcwVAng2wX5wSPUCj1fBfxgAqlaI64FJxG9E1UydsHlmUIsnDvK02WVcy_Vf-Argw4_bx-5x0uHvY_RqbTLnq6Thpan52ZM-PS2PxUDiC0DA2UqHf4rIIJkIaCS8CZpJVaeJk_FiAIpW1K4Kq4zRoV1i1YUgzbqhPBKrUzIBt6PNL_nuGCtf9fYVdsGkgV7MeUnhjKHGSPMJzWbA7bXOoC3m-cJ45KOshcRfR_UWYErqqttr97TiIIKNhMXEQU04ib_Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17494130881806213208&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJYw6HZVyFSxYRWCBAYFmjx_I.jpg"
       },
       {
         "id": "ChIJFZJxuEqFSxYRXSS4AhreMmY",
@@ -1738,7 +1819,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFZJxuEqFSxYRXSS4AhreMmY/photos/AcnlKN3VHQ-T_cZoFeZeo7wJvU7l11AHMHwxVzuw9t7rWSn9J_xUjTzgqlvYQgDtwnP39U9CD_6-TX59kqhyXw-fl_NSPUO8AWHgEpPXkVJ5RUZVo8GZ6zBQIep-F1kndiHUWCXV_yZNTgtU_jPmdu5jtt-IAeVoc1L6-u5etJqKTgKbl33obAGZZogo3MjrVq1sjF6zVoovTdBixj4c_CVw7xDI9_kkXsOvFppx-XukzsV5SDXtx-A3W9cryIeKPM-ewIMeSwaIsXdSk7cO2B9Vvq7-QXs1RUKdazGjnDlIi55Sfw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7364192544000320605&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJFZJxuEqFSxYRXSS4AhreMmY.jpg"
       },
       {
         "id": "ChIJ5aRTbQCPSxYRkQoZESqZMg8",
@@ -1758,7 +1840,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5aRTbQCPSxYRkQoZESqZMg8/photos/AcnlKN2XBrCMBC7UuTJoyyW-scSzoMfRWSzo4zvGzC1cK8CAUZ2_fWGaT-hxv83bmwS9OrqXyZybD4yqxX1Ri_QfIHL8GPR53pgz_6nr7uuvmR950gY5z7_rhx258p0M1OjebN-jquI9UlOHMTua4_QSLkibZ4Ei0ULYfp60WLHhtY_hry2NYgbOw-u8eEPu3g9HgGfBBk59guJMKIAQgVWDDs1jev4YNCu1Am8-Er3Jc11TeVmTCqQZ0u3J6azcJSbL_L1jld3qW_6SDEniYeef4rwjOOY7IHGM7Jy1DfAtJG_hkQinAHiw6Z40sGE9RPOwkcEa9a_r0JG7S_RTsw9LLKarQIab-0ZkfXWopLJ8BYxGh6N2upJo29hrctSRPtssSfXd1zHYaJuk1QteKF7zCUPlnAekjCXBcPcMmoq7I8jRJuOPnv3g5QeiWQyRWQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1095106065358981777&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ5aRTbQCPSxYRkQoZESqZMg8.png"
       },
       {
         "id": "ChIJq6Aqm7iHSxYRajrx1Y-rZeo",
@@ -1779,7 +1862,8 @@
         "websiteUrl": "http://www.zomamuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=16890094611780942442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJq6Aqm7iHSxYRajrx1Y-rZeo.jpg"
       },
       {
         "id": "ChIJi2HPInGFSxYRxW1GQfnK5KQ",
@@ -1799,7 +1883,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJi2HPInGFSxYRxW1GQfnK5KQ/photos/AcnlKN1xcUak51zhIpPQ-fVlA9s3RhbbeQwg22aYJEB3d9Mzzsmmk7-Trz6cu9iPc9PFtiktXn0qW10bvuCZ_RGxrZOkj4avJYY52n2EJgrWpdyRRPBuqZK0P1s0EoIZSg_JjKCQ6iKrrJI2G0CIqZm-5izxBGTh1ghycaZ0pQV3h_IpU0BU1yVYyT_7g18vB0wxaifD_E4609QavKQUTwwALKpn2tOPf_glAxr9067SOoW4H_HbozmMkLMur3hxl_YfhCZCe3vp_atbmJnozLPzIRo8tuxQZskJcZpyNtSccKWhD3N20rKpN3KHVh-yo9O7xHT7VVJqADGdA-eIOALF8Wi68hV01h5cQIUr2_NPgL0pBsdLQeGMxEZN5UaPHkyfXBAltmhWNao7M40bHur5PftFw088JQxPxbgC8Gp3xsM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11881844888801013189&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJi2HPInGFSxYRxW1GQfnK5KQ.jpg"
       },
       {
         "id": "ChIJ-w5orHqFSxYRdIHTOR172tc",
@@ -1820,7 +1905,8 @@
         "websiteUrl": "http://artawi.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15553879628531859828&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ-w5orHqFSxYRdIHTOR172tc.jpg"
       },
       {
         "id": "ChIJJTR4ujCPSxYRAtidtKC0SVc",
@@ -1841,7 +1927,8 @@
         "websiteUrl": "https://adwamuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6289756956917618690&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJJTR4ujCPSxYRAtidtKC0SVc.jpg"
       },
       {
         "id": "ChIJgUF3XZWFSxYRuaQkEjv4RNA",
@@ -1862,7 +1949,8 @@
         "websiteUrl": "https://www.zenapartmentsaddis.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15007392790896485561&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJgUF3XZWFSxYRuaQkEjv4RNA.jpg"
       },
       {
         "id": "ChIJF42kye-FSxYRV6ntMCEItw4",
@@ -1882,7 +1970,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF42kye-FSxYRV6ntMCEItw4/photos/AcnlKN3iM0EZdOqOIzeAJcZRWeGr-G6rmg-orHVyHyI51npdjilHtI7LM9kxNO8-rSv9Elz_VEPNxHWXzk_c4H7ZK0tCfQasZqsIjD8AqrGzWYc7xh3iqxJYc8OMrZSMcw3ktoE2-gMtWldb8N1CWT2-_NrlXeCfTUaSdHpXGPoxynPSCUjYg7UDSxjWc1G_Bor1I2RK0gsh5dQbGTAgNaniDIP48CvlmFLy57WQLcCB_ozokDfs1JCVhuIMqK8iVj4zwW4W9Wf98F1BNPF-5QdhSs8FjjDhuk15PCwj4zOOy17cYQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1060325175916865879&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJF42kye-FSxYRV6ntMCEItw4.jpg"
       },
       {
         "id": "ChIJlZD6l-6FSxYRmfCMANsFfPw",
@@ -1902,7 +1991,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlZD6l-6FSxYRmfCMANsFfPw/photos/AcnlKN1UPsgDm_K31amq2CgLNPvJNzDWVEg-ME1UvDesvWCzDhflwV1jEoZKkLAdMfOqbMB8CiesVblWU9GfciMULyDRNdQuHtr_88uBUUk-EABj_1y0MXAyuBzXEoD4h1wZgXMw9gNdonoLxq5Gi2_Oz6sU8gEMFG_m4QzeM9akvvclZ8wNL_dagj151tk87gyScyIUsnwAtqrkoTElPbxbpnhBhSw6a3jBt6EXU4CklmQsFuLnv-xVz6yWAeS9_Qt61LCIOMQQsG4jWp41M4Uz1qyNs6aygrn9p_aSB2eh-U9ZH8BpHc6jDp8T-NKvwNG9T23RGD8i5BpI_IrhzNOCy5FoFz5ReyqU1UjPMsf4116xHnd4Vha0VtfvUE_OUpjVA0LzKSXaqfSglnfkGZpCR6PqFm5-_u0hcUQM9ZHyIH9nIw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18193423032835174553&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJlZD6l-6FSxYRmfCMANsFfPw.jpg"
       },
       {
         "id": "ChIJt8GO7HeFSxYRuN6v4pnthiQ",
@@ -1941,7 +2031,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyZPBOEePSxYRtNM8j7ynJCQ/photos/AcnlKN3CEOCVF9USxLHn8ecwHZhI_RgokTYnKWF-l694md265GvY3AdvjwsoS8IeDS5TXKZhr610GrU_RtkpI319DLyJ0TRUTuAf10IWKYATI1nxPIPpAUUO7zt40LUMR4-GI4bk-JlWaa9jKm3FViOp-_PfC9QPyTEHlmxf032zMp8kz2MUtHegAgUtQBuZb_F0rBruFZ8lWppr5Zw11qIKrnQCOKuju2CNqhjBWd5EWfvN4KnolslOecTurJN8Egz1x3plRG1X9aXwgHvZXWYS3OSQDJCi75u6yVwdcNJh6M5QSRlvYSKztE5ZmolI_nhngX6F9fuhIQdV9BOWr4OE22AOWtxuqXu49KKpXxOqImOh-pUhAKgshbrq6A0HxVKMiY9rKLXZSbU8nQmkq7_zkG6RG5DPCcmMtZ8z3-mYHjYD0DDrXZm8T-S30dVCdQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2604390912825807796&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJyZPBOEePSxYRtNM8j7ynJCQ.jpg"
       },
       {
         "id": "ChIJSf4hUEGbSxYRZzCxliS_PSs",
@@ -1962,7 +2053,8 @@
         "websiteUrl": "https://kelemartgallery.wixsite.com/fida",
         "googleMapsUrl": "https://maps.google.com/?cid=3115856681078173799&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJSf4hUEGbSxYRZzCxliS_PSs.jpg"
       },
       {
         "id": "ChIJW2A_r62FSxYRC30ZNKisX_A",
@@ -1983,7 +2075,8 @@
         "websiteUrl": "https://makushethiopianart.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17320752530318785803&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJW2A_r62FSxYRC30ZNKisX_A.jpg"
       },
       {
         "id": "ChIJ0XUXH8KFSxYR4t9JpwM59qw",
@@ -2003,7 +2096,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0XUXH8KFSxYR4t9JpwM59qw/photos/AcnlKN3AQos2q1mg_jVzJwiWEP4Dt6I6MhKqQUSRcueBQERpj2Td7wxB-Q1eJDp5Lb6HjZ3mOXbugznZyQpDT6uYlhgGKLS4xP_oHrV2xj_KvCynly9oDDLXlst5OF3EsfCprG3kwUUlCOH5uPhbUbqPQXm5njsUF44Y-Q-rQdjh3HtazUUUcICAF7DCVaoLknvOsnWyCoKPuFMnRux2F-UrYs5WY4etSJ_tEAP_sn4HZkgHAiXB7vjQKlcZZV45FL1MrAfoimNzkRF7on_ZvXPJGF99XAxbe-aUQmFC08NgvfByeLDY6yj6vR6hA4WineA3RelAjlw9KwSgNq02Oz9Uu-4a4-W5c4YbBQYlfjyO3yhmgqW6j9CNE4dNV4536t_A9vkhSTPlPNFtKFBE4Ha8J1VIlVuBt6_l4Rm2rzSNLFvdKgc3/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12463211706648748002&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ0XUXH8KFSxYR4t9JpwM59qw.jpg"
       },
       {
         "id": "ChIJM7WJTEKFSxYRaPNmehaPn9s",
@@ -2024,7 +2118,8 @@
         "websiteUrl": "http://www.stgeorgeofethiopia.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15825524942308832104&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJM7WJTEKFSxYRaPNmehaPn9s.jpg"
       },
       {
         "id": "ChIJM8wiyu-FSxYRU-2Lp-15L1Y",
@@ -2045,7 +2140,8 @@
         "websiteUrl": "https://studio11.et/",
         "googleMapsUrl": "https://maps.google.com/?cid=6210316472792378707&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJM8wiyu-FSxYRU-2Lp-15L1Y.jpg"
       },
       {
         "id": "ChIJ4a1lJQCFSxYROWHq7dHDsTI",
@@ -2066,7 +2162,8 @@
         "websiteUrl": "https://palacemuseum.gov.et/",
         "googleMapsUrl": "https://maps.google.com/?cid=3652916079181324601&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ4a1lJQCFSxYROWHq7dHDsTI.jpg"
       },
       {
         "id": "ChIJQy5qibWFSxYRbpBnb4FGaDo",
@@ -2087,7 +2184,8 @@
         "websiteUrl": "https://abdiantique.wordpress.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4208691373511512174&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJQy5qibWFSxYRbpBnb4FGaDo.jpg"
       },
       {
         "id": "ChIJuyVUf7mFSxYR38kTW4PUex0",
@@ -2107,7 +2205,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuyVUf7mFSxYR38kTW4PUex0/photos/AcnlKN2dLu4ZBvKEOhvzZCxrUDD6JvcuPj-KHBJ9Otz3iBEYELgKpCabs_q2VMCSt8XS8AQBqeQKhZ0ZcPiLeRM0Uy8v4KeBwBFDDlmYEdMv9vkghhE2k5QTEKKzhydo71sjy-aZzxKvMRUeBetHE2pc0wcCvIE6VEWzEd0EDKTi_K-UjafbET-UWsUZlWfD8jjBXYHobkjER4_FaNdlwUrMR8dyccb9E5RF64kLR6Ni4nbHZcAlB8KHkxdzKvNVxYPuw3dQr2etdb3RCZZYx_LaXLcPOqk2VMhKM3_vjYBY43qP2bA_8vY2D9IhLqA19JhOCPcoQL2eYetn3PtFh8l7I6Pyoc8su0fXISkLQXAhUJkUTvZJFdKetuVJr81pzr89mxmn7pNz9CFN93tx9ldVd76E8U99OwsA1MYWFcsWBvPWctON/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2124525309869148639&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJuyVUf7mFSxYR38kTW4PUex0.jpg"
       },
       {
         "id": "ChIJycRSOACFSxYRJIuRz-UKfbM",
@@ -2127,7 +2226,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJycRSOACFSxYRJIuRz-UKfbM/photos/AcnlKN0i08YJrVfxKCS9r6-5GsMQlg_C9B8D2jPqIQDNAooZPBc_5BQ5kIpeo4t5eupH8DXo6AdXVb6gVZwVtYEgnGXmSglQ_BmPxngvZt43SAJnybttJaZDyxOyP4deh-qfvR2p5OpFe6aoou-PEPh2fJjZt7NZbWk4VfYug29s7CJuv_CAu2JRooJO_w1Pqb__vICtZUadwwOxIwVB-RhXIpUgUkJGyqkIQ4BPlKaXOrzI8vHur9GK0krfCyoJFg5UCq5GOgSYziCPkUYF0KZ0n5zCb-TXCdA5J7x0p9RrcJKI1N4gL3e4mGsIORa8fK6J_KdP6K0HM17STPD5un4wPufgkiPE2ocOkcBhH1g-TIbiJ5cydG-J74v_I-5ULcs_3W1cd6gGzUXKqnKQzqNXEhxtmNAj9ivaYzpqmYgwST5GMOQzJLPSm8z7sVcRg_oa/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12933505687024143140&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJycRSOACFSxYRJIuRz-UKfbM.jpg"
       },
       {
         "id": "ChIJRaDU2LuFSxYRITnv2mlg48w",
@@ -2148,7 +2248,8 @@
         "websiteUrl": "http://rtmmm.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=14763750011211561249&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJRaDU2LuFSxYRITnv2mlg48w.jpg"
       },
       {
         "id": "ChIJvaqyCACFSxYR2uW_uVZJD6w",
@@ -2169,7 +2270,8 @@
         "websiteUrl": "https://www.ethiopiansciencemuseum.et/Compound",
         "googleMapsUrl": "https://maps.google.com/?cid=12398208936006641114&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJvaqyCACFSxYR2uW_uVZJD6w.jpg"
       },
       {
         "id": "ChIJZ_IKECR5SxYRXNl_UpRPGio",
@@ -2189,7 +2291,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJZ_IKECR5SxYRXNl_UpRPGio/photos/AcnlKN1SJ5-6IIag6FzlxQ7NyQwqCcGNnJK1oV9OPIkZcxFyq5j0vsJqi2CamB3WvLedCIEV-QhFxYZd8dJHxhE63Lq0dB_y_2cI3jr7N76YzG2clLlUYvrRd6bHgTlxmYT9hjnpoPprrlMxNSVe7bz8WoF428IDkmVxovwIrSO-0GrN8nk7yCbdCC_EAjrevaiVzSfvxEe1kpbJQGNS3MFojSEH5cmYl7cFheNWDHk_hnFfkB-bW2aWuwcgmcaHcpe4qCojR5jESw-OvoCnAG04135aeM3QVslw3j3_GzCkuFWLZYse-pSglaKSDL0QuH3Ijea_kOBU49jxgnl8PmKpY-XAa9Ysk2Uz33ctoC9Fp5_tEpByxLCGNHDmAmBIo1BCKB1TbxS-r3MUoNXqaNSkhmPsmFp7PaMVM3b3eCbHDy8ygms/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3033824797445314908&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJZ_IKECR5SxYRXNl_UpRPGio.jpg"
       },
       {
         "id": "ChIJl-ZwkAKFSxYRswlL9jGbZJs",
@@ -2210,7 +2313,8 @@
         "websiteUrl": "http://www.addisfineart.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11197245212437711283&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJl-ZwkAKFSxYRswlL9jGbZJs.jpg"
       },
       {
         "id": "ChIJrYyAXluRSxYRCp_7TRYPevU",
@@ -2230,7 +2334,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJrYyAXluRSxYRCp_7TRYPevU/photos/AcnlKN2zdIIBHAAMTTgWFv4WhIgTXsv2HGnfU055g8Xrm8qckOp5A1SuPzrKnpInaBHN_V-wJgQroc9v5iF_hpHiwdZ0oWtxMEQ4voPgpNMGGKFXjILsItIRfyrX3QGbhL-s9LtFvP2apa3SBfssQkh0WBrNPyiHNpLPsm35epc333voYVJ-mjWYczL97ZFxYIM0H6wqwRcStGlzZ7jW4RLIK6ArUDRnBWASCdxhkjD9YrfltJbwvtQT847TSFrrwAc73mXKer8ewub-f1qQsv-JQEhlw86AzIabzdLPglEC9MO9qu1L58pkLIudPp6DWQBoGiTbxtgcHZCOUl6UtbZrJJd3Tpehkv64VzQtTefTftnVEjMS8kHhBSzMXJ7yqoNnM9WOyUhg03_mZhqD_QSl694xcedKFfbyItTUhAm0d-OgOg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17688467074923077386&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:51.918Z",
-        "updatedAt": "2026-01-23T16:10:51.918Z"
+        "updatedAt": "2026-01-23T16:10:51.918Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJrYyAXluRSxYRCp_7TRYPevU.jpg"
       }
     ],
     "relaxation": [
@@ -2253,7 +2358,8 @@
         "websiteUrl": "http://www.dagispa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3824014851836083380&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJzTDMp_uESxYRtPyBSz-hETU.png"
       },
       {
         "id": "ChIJidmsA6eFSxYRz9L-D2HDh5I",
@@ -2274,7 +2380,8 @@
         "websiteUrl": "http://www.dagispa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10558622673041019599&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJidmsA6eFSxYRz9L-D2HDh5I.jpg"
       },
       {
         "id": "ChIJv9xI8GqFSxYROEPBd0PfsP0",
@@ -2294,7 +2401,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv9xI8GqFSxYROEPBd0PfsP0/photos/AcnlKN0uAOKvt3SZNu8Gcn3CfHa6-5KQSSE9sre6MdGE3f4m2CWiFRWo6DLq9YP7ujiC1qqRfsjk_XcYnhG4170ahsgxIBKYGxx0NL15YBJcAGe9mH75ZJL5r4rV0S74NrC2Bc3qynxIwdRVaBIis98MZuMs_m9MzJ3VB3Qs_jVJYY0Tt8ZTye-5rFo1gkqA3QO79JYRYCrOCGO_lsdDN2EKBmMGaTt5nX7fBLnu0xZ1LyFrY3_18k4vrsX30NaeWq1Ft91OPVx73SllJqQfH3HDCNe49JGCCLtGkKOZNhz_mnV_Ni9UO6UBMqhybsUC07w6RkpGU2GgUQx1N05RlLOmJt-4MnHORqNRBMoYt6YNutCoJcGdvE9yyAcnYgni-AYYJGWzJcqmCZrCAzATAh69EpnqBDQQCagE7zokWNEB7o7Lmy2GeXVT9jWLBwfydZ0D/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18280356368361800504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJv9xI8GqFSxYROEPBd0PfsP0.jpg"
       },
       {
         "id": "ChIJt9p-9ZWFSxYRmlunTd7jO4A",
@@ -2315,7 +2423,8 @@
         "websiteUrl": "https://www.unitypark.et/",
         "googleMapsUrl": "https://maps.google.com/?cid=9240229604405762970&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJt9p-9ZWFSxYRmlunTd7jO4A.png"
       },
       {
         "id": "ChIJR7mkJkiPSxYRLWW_SOL2C8k",
@@ -2336,7 +2445,8 @@
         "websiteUrl": "https://www.entoto-natural-park.org/?m=1",
         "googleMapsUrl": "https://maps.google.com/?cid=14486944078110876973&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJR7mkJkiPSxYRLWW_SOL2C8k.jpg"
       },
       {
         "id": "ChIJWaeFvTSFSxYRqG83AYbWohk",
@@ -2357,7 +2467,8 @@
         "websiteUrl": "https://www.hilton.com/en/hotels/addaadi-doubletree-addis-ababa-airport/?SEO_id=GMB-EMEA-DI-ADDAADI",
         "googleMapsUrl": "https://maps.google.com/?cid=1847274668209696680&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJWaeFvTSFSxYRqG83AYbWohk.jpg"
       },
       {
         "id": "ChIJkWCwismFSxYRtFoBl4kuqiE",
@@ -2378,7 +2489,8 @@
         "websiteUrl": "https://vipmassageandmoroc.wixstudio.io/vip-et",
         "googleMapsUrl": "https://maps.google.com/?cid=2425802517771279028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJkWCwismFSxYRtFoBl4kuqiE.jpg"
       },
       {
         "id": "ChIJl0k4f2GFSxYRT1wa363BU_g",
@@ -2398,7 +2510,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl0k4f2GFSxYRT1wa363BU_g/photos/AcnlKN1J9ogrriue7RcrKf2qiqkhFiT4257BVSmn12zdDx0BBPe98IKPM8dEDRKJe92yh4jFejmlMUc5YG8Z-UOsc7YMqNoBC34YEWId2dBxvIHhlPLhrgJfAVjUqB0I0fIAGrJ3umoqj-dguIj1z7sZPzPNfr_1AORvyjedzCcidowrFF_JdtuVActeE9GaLRh8SycFO2bkgrCeyFF_J_51DF2If2HbK0gOiZUN7Bjqmzfpox2jvbTf05XHYgdI6XISS_62LkrlbMNz427XTQvzmoV9tpSKbsrLhdIWYCyqg0pjUfReY-52vKhlOABPImgPDRKq67Zi-SYyGaZERfJ9rauwbIIy-eDSTi40_1qjsBEZTlQPxtSqHm4FGRJg8cq1xGSC6EcPmmvOpWw31RPDg_7OGxaC2JjmFiD-0U0_qxB4rtE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17893858696989662287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJl0k4f2GFSxYRT1wa363BU_g.jpg"
       },
       {
         "id": "ChIJv5IQ5d6ISxYRFcRICM3Sr-Y",
@@ -2418,7 +2531,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv5IQ5d6ISxYRFcRICM3Sr-Y/photos/AcnlKN1JLXiQbD4_Wa6-GMpcdAQLSqSm7nvJQ_on6Yhhfq1-xHQ-az20uvMZk2_v11RnSbV-g2N54DqKAo5xL-PlBVVbBLCzGOByCQSOb8XwCYHmgKhPGwHy7c12JWr2BTpbxWFMvNNFbKFOUUL5m8kE5Rap6dp9C_Bj9cM3uklno4rccUVXBUEp4YDXPNwvPjvZAfYqcJn6tV9L-XTU3XkI4-CY06D1rI8cYlUrgi_TSg4GWnFs8I8LT3vfvGJagswzcqp9xRV3VCyUOOd_7SBUDSDXwmfVxrsYOlzFDiNMItD_2d0_gFxdgaxW_V2yJuDy-c-DouEe-8Ga5Y1hmZPk_FLocd71_AEyZXfJroeV3b6kGDroSZD5R6qkYsxl6L1I_wiPONAkcyNpyJMbhoz7u3JQnceeN4iSkBoE8g1_Oh1J7rl7/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16622736527696905237&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJv5IQ5d6ISxYRFcRICM3Sr-Y.jpg"
       },
       {
         "id": "ChIJ6Tzamn2FSxYRPqUrS2s2pkM",
@@ -2439,7 +2553,8 @@
         "websiteUrl": "https://wanzabotanicalgarden.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=4874643481125692734&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ6Tzamn2FSxYRPqUrS2s2pkM.jpg"
       },
       {
         "id": "ChIJG8ANh6mFSxYRUb8VTV-lTCw",
@@ -2459,7 +2574,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJG8ANh6mFSxYRUb8VTV-lTCw/photos/AcnlKN0X4jjcwRECY0H2JvWpK9Knik7JQCoBX9YzIaXlX1R7ee8jR4HibmVwwK4rdvG8PjdfJLmrQj61kkPJdXppqL9kKX8Qft3L0EdAp9XjzixPS3wR26h2-uQcV_mp1fnarkPx7oiB9ypRtiPTzyY-n-6ibfSe32DamXET8l3Y3NWjmU2e9xwyL1eHCR4TrZBbmRHYItSK91v6RcQlOWu-r7v7eqpM0nZuI-nwCwq2MQqBm7V1zOagM73xYgx5N2h7060CBG3PmFTwka7Nb933ScTsK6KxhJdmy7IhQ8u6_dfLyNspyBPqGPpTxUTfxa91lBu3rw8Cr1z_1Rba76Dbn9_ZEk8VviERjEwbwdhrkelil7SgBZS14qIvBXAMYcOYUFBygVhPijbHPCI-NTFox5CGYzLpEbiYT95P-RL1nL4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3192108064632586065&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJG8ANh6mFSxYRUb8VTV-lTCw.jpg"
       },
       {
         "id": "ChIJCRrODzWPSxYRgaqAu6Vzl5s",
@@ -2480,7 +2596,8 @@
         "websiteUrl": "https://shegerpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11211556953014708865&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJCRrODzWPSxYRgaqAu6Vzl5s.jpg"
       },
       {
         "id": "ChIJQ2lNekCFSxYR2up6TbhATPM",
@@ -2500,7 +2617,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQ2lNekCFSxYR2up6TbhATPM/photos/AcnlKN11z7v3-xgpZ4x8BZ3KEIqrfuJBl_yNNybmrfvNxcmNMKgLOhGEakPstM2fH1uwgYU7BOk2gHBfMfZegkxvheRnR_rWKrNAYBlIRoI0ScMASnkpmmqWbhNnwxwOYkvNzWSBSSpCUgbQMyHL329ahBF7laqJv1PKLpzR5ssf5LVduL2vnR_EbvewVHrSMgw9js8GGozHMkc4ghmX2Mnxc4H9uIKK_iOIstE3SIayvsbxrM3Zw8f6Hpyk4659x60F52jQtNU5mIhZQ4aIWpNiMGMC1SVwpuRFUUE7xiG9K0KrrmZsymfsiAFcGW7OCQU8ag8zyFUuMJ4bp8YGgiQL0zwGjl87bSjb6wGjN5WNcyaFIG1m8EdBbqo8P9UIf6QDO9FxIMAqDtA74pB7YRwdeIWNNitWc_tHy7jlD_Vu95SIytWTNJGN2GjtN72-FgEY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17531458609764559578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJQ2lNekCFSxYR2up6TbhATPM.jpg"
       },
       {
         "id": "ChIJJdxnC6qFSxYRhjmiGRD_0-A",
@@ -2520,7 +2638,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJdxnC6qFSxYRhjmiGRD_0-A/photos/AcnlKN2IIjb4w5RjzOtSQZ8vo-ioYMnElwChTxuLMia-9PbYfz5-6wYmgFWRVbqJ3PfU9QFC_Tqk16AFbPX9yk2LKtJEJOdbVjAil92oTknoiMmKP1kB7Rmzup5IlDrml4E922XXvftYg8K8zaLl9brs-op_KB_67xh0TqMLqSPvmDcoNAyjsVvxqKUMdxb14PiUrFHATWYnwJ9k-qm14Ek3b8A5DwSNvHqiLbNXI-x3HASB22lL9wo33vTVskVLbGZkm5mHGjvFHJTnhagI6F2M4RqCuS65ODztnjM9qTwkT5JhafCgwDBYH5ZtlLWiFMpfNCD_frTALI_mmw8vnntXPuDeUoAmyhu9485oalRH8MDPAzymAbvsBEQMd30vHkMzZNMK7sGvieSvKMVHJVu6igiPZqBvUMnLsAyiVpKvDaUBoqmKCpvMpwx7nSREsw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16200572729196427654&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJJdxnC6qFSxYRhjmiGRD_0-A.jpg"
       },
       {
         "id": "ChIJsZ5PbHaFSxYRsMzWp62fMSI",
@@ -2540,7 +2659,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsZ5PbHaFSxYRsMzWp62fMSI/photos/AcnlKN1riFXW57ncViczDAEVdzbjM-XckdAJWK42WwWlCQPsD1U-FAWLTNoOcmzKpq2AT0M78_Yg2t4aSED6yQPrjlUVrFUudlvVy_V_PYVkaKZqagcEVroL6JC07nZUXnb9x6oa89a6fAiVroJGlB_AWIXf6L0vfO6w8zJ9Wl2ye9jCfgX47LzUZpn3j-jr_zo3eL4Njw9_DVF4GHGXYE5pgPp5v_zPsbf-XS7sCse39ckiZ6Agg3g8lfYpGgxxqRQWw4d4cR4MhHwOOM4p0yyAQjwZyT2yPd_LTP_CQjtMY9Khli8jkBvQxQ4HFgDlfxp9DKRGV1K8iUGsLHOpHaxagHnpNBOOd-ZAcR5SCh6yZy4be8qbSDRE2sY8ZiZksLVOBpsJ3IcQru0QBtDHFDCL7gZPP3qEOCF_Gvvq-FT-3eobI-M/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2463926039342402736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJsZ5PbHaFSxYRsMzWp62fMSI.jpg"
       },
       {
         "id": "ChIJ2ydZy9-FSxYRj_aeq8GFBV0",
@@ -2560,7 +2680,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2ydZy9-FSxYRj_aeq8GFBV0/photos/AcnlKN0XXWtTmKtqYgzDQfLJz_jc9ZuTcckLk5vEsqguaYiNtr5XjsTuaMhigTTa51CJA_UaydQ7QwMakO4AAKOJkmeunVXXSkGQ1C946Jm9OSnlJrGVJdHriUBvJwgyP0Wh0zjZQSRNJSm1y0hjsZgWU0hCved7qv43hhF-dZoPITYOQK3NYOJK-at6phDYbKVf-BLwUJO5dATRlbqdRwoY7Kl-Fe4CXXfRP8Sxnk3VhynzK9BfXsb9FuYh7OiiVV6EfnjI6Z-HWstoUsruXG9VqBZmBWO_DI7IfXbzM2DJmv33v40x3fLntG8qR9Ltcms30JVi37R--nQ0CHWGy5IA8HSUWdBWjNrtPzMlIEeJw1dGBG0NfE61oEKcpnwLX_UlLG_L0phCLR3znyEO8yCcaILcumX_NeMG0pwg0aS3NCabE97u/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6702910687265355407&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ2ydZy9-FSxYRj_aeq8GFBV0.jpg"
       },
       {
         "id": "ChIJXfvo31qESxYRbhl91wF2hZ8",
@@ -2580,7 +2701,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXfvo31qESxYRbhl91wF2hZ8/photos/AcnlKN0dicn1zEEPTWrOh8XobqCv-0tEXGX8EKnsg2nHFS_DNccXpzUDlTvHGKLfU4ZgftkrY93TjqLIavAGM5kBwW9EsBZ8y_XFBEjyQr1WbjjOLtirIA-0j5cW4jP4lEJw7nP51D66KdhAgT5DT3NA895aCqGOUMpxx4IHsCh2g-RbSTTsX_69T2qvG-YerO87BAYSUW9TAGp55EwVzmB_SmQxuFvHDAbHlivNpfwpVgDsSp8aHG9XlK35RrAjRa3dqFgxu0QN_iLxI-zQ1NyIBykELxS1qv34Iu6sjvSFwT5bV-oQyOPsrVVHdiF_5NRyTAH8X93yiaRP1YgDktB5FA9itIIzOPz76Bn4T9Mk_33nXk4XtxeFLk6cB5Ba3VPock1v2opTZO78PiJXW3GHYIm6Vf2zKLeoHqtjWUdvGL7FqA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11494723374215403886&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJXfvo31qESxYRbhl91wF2hZ8.jpg"
       },
       {
         "id": "ChIJ-dF1haqFSxYRwOeMGnKvyXI",
@@ -2600,7 +2722,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-dF1haqFSxYRwOeMGnKvyXI/photos/AcnlKN0ajAeAgXurdr4uGOde3RsRGT9z2RGFMsjMBSs6RPWFdS-GgUqXglNIP0xMtNUWu4mAQNxMduJ9S8nfVA_HzxTzRJi_KG_rtBTKDc0mtu0f629rcwQJUuWwo0Ea5MOLf4DeSBow2FZnKBPxUG3BDmO__bmnDVnEcWhKA007N2BBpbu1ujYhByyTK8sBSjowUNeR-MKRjZGoVINlIrnmaVM-qRngDpglPluI30iiQvrBMHw5ENUndvCEoZFWfthoTnn6YjxIqITqqIKTCprrXiNmXcUZnuGAogUP3vnC0ETmGFFRLJqT5nygLqybEemMQHU2Lrrl9t2wdPzV5zJfW48yqd3vQlFdsBCjLRpndO0AjVnvXPoFlSAYpH_atfK4SbPn6KM_TZl8TU3f69PN8xJSaM9aKRsUNy9I67nLFkYBHnor/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8271335095249201088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ-dF1haqFSxYRwOeMGnKvyXI.jpg"
       },
       {
         "id": "ChIJS4YdLxKbSxYRGgfOE1ORxv4",
@@ -2621,7 +2744,8 @@
         "websiteUrl": "https://www.makbeautysalonandspa.com/index.html",
         "googleMapsUrl": "https://maps.google.com/?cid=18358520717022988058&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJS4YdLxKbSxYRGgfOE1ORxv4.jpg"
       },
       {
         "id": "ChIJaWJ2VuabSxYRknNnzxPY0y4",
@@ -2641,7 +2765,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJaWJ2VuabSxYRknNnzxPY0y4/photos/AcnlKN07xw3LIZo4lrCXLHbysiXb9E8rhavs0CmylZOF8l6UUXHNo3UGzD713f7YP2yLSlkQi_8CXDgUn9woNw4i9WPQd8wL4dIHM-WthF-Tev-ktUdU4bbE--BcFBwIg72HG2HtrS_P_ljw0QB7_uMUXhFio-5DzBROw3mwq5Wq0EOpZFGsCPIlEnCBAuqH8n6Cqd6gybaG_0VtWNGls9BLgsGqVYXJJWL7n25Qys33aOub29B3xAjS0C8NBcApmQ1TJGLMFolK95KJxR4xfgj2WMejfQQWEmPYEA-95fCNz39_kLsqldM4r1bJn5GBTpu03RVu3WBTBwE98tfeCzeWOdV1rAlmvxESKI--6oWsiARlP2zvoS2UOGOnUpPavUzmKvbwPa1gbipG6ZtNWzyjusDw4tTU1qD0vYYYG1qktqBab4sL/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3374278125426275218&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJaWJ2VuabSxYRknNnzxPY0y4.jpg"
       },
       {
         "id": "ChIJk3OlgKiFSxYR-uOInHzLeNU",
@@ -2661,7 +2786,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJk3OlgKiFSxYR-uOInHzLeNU/photos/AcnlKN2qZHisg90N0zmwPHTnxJZiCjqdRqGHZEB9ZuiboLZ8tw96uQ8VqPmSkJvJgOiUZ7qQkedJEI5ntC2I09jRMPzX9nMb3EJ_AhS52FvHjgpgMBl9PNmGTRjxpP93jOEzTWPZbjTg_93oeMgqBFSuJZSEBIehkbRxyDxQOIKlwO3nCHahfDoBxCjrvtaO0MrMKfrM_g0ca5iDvBiAi2ff3jsgSF2BV8Nhf5CofqYtbNsgViF7BYsms9GTfwzwOzWJK5TZGch-0glYiWMaaJvTcjagBsv8HZU49Epj-aF_TkF3IseuGvgEc0kDQLmFwzmOHbUcjujjqO5MNITuUYTBa0QljkV21_N9nqkdohdZMTxyrUqgoMViPZjKoTj0g3ZNl9oGYswl0nbwIBsucuSXy1wun3FAw0A5edvvvovPeTc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15382268263346529274&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJk3OlgKiFSxYR-uOInHzLeNU.jpg"
       },
       {
         "id": "ChIJXYaMQZaJSxYRMho_LsXFT5w",
@@ -2681,7 +2807,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXYaMQZaJSxYRMho_LsXFT5w/photos/AcnlKN1MY7m4beCGvGxwqaS3D6uE2-3HdQseOieNKrRL9LIq1RFUHGEFL9Kkw6qX9nIIhszhEYAAx1snR-rXs-0g40YXx8kDKZPNfwi02hh8p9lFJoEnb2XkbnSO9yqhF75YX9ZLhdrDjKtdWUaXm3anbkHvwcKeXbZO4MwKNy1G9oqN3dGjOHy4d0z_so4BZnjkWH6GzzUr2o_R0V23HWFyAFnSJgDXKsNLJBU8FkcezIu-N5tfD4wN0Mkoe2K2baMT0Q_8bzj8KiQpCkLgB0bkmKwSveb_f91vbz02MAx6iD8dXLKkxFif_s17_InUJTyGeSXw72vfs4zBH5hUwPiAh-l7rbOmqA7U-9urEoqJ34ewL47NkR7n-O4jgdWiZBPxT2HZUpavEIdxCgMhzdP7nEZh9GZEvw5owB_jqWwLhuPrtw8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11263438643752016434&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJXYaMQZaJSxYRMho_LsXFT5w.jpg"
       },
       {
         "id": "ChIJw2UU31SESxYRVFYwOvpsBDk",
@@ -2702,7 +2829,8 @@
         "websiteUrl": "http://soretispa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4108528582042605140&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJw2UU31SESxYRVFYwOvpsBDk.jpg"
       },
       {
         "id": "ChIJO4ihWFKHSxYRys9yo6Aavj8",
@@ -2722,7 +2850,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO4ihWFKHSxYRys9yo6Aavj8/photos/AcnlKN2nLiBVlUw7zv3-titrZTh2Fe0DU4Z7fl_eY2wK7El6c1ZL7Vd5LIKNt9IMCwH7BbGaXKp1l9GRGLVQ7I4Mnlx4-JXdBLwqtBv-QdRpnj23UOqNMpgziwavvCY9d7-pgDcEjijmcK9dxd4qzNPiZ88V0lH1pid1Jzx4md8654LoDc5CNNzBLPlkMtxyViqNu3SozG2tSlmVu-fcY-sLMmKl6Yt3dIH323I3pP9Vl5h8D3_jAHmKCGEcYFJDiypIkPnyKm34qGkt-_hq0VGWT8_SE5yqSEi2QDVfnYaZCtHqyEpTFdmJgROe15BMaSkuA--EucLeqlinZ_3BRNqc-Rdq34I5aekivrdLPwiE4DgLn3hpFFbW-HvZgcARB2e4E9knYBLeJyCo8vog3rw5vcz6xGhtq5QpiRBMuVAXr5YP_UkK36wW90i22FMCCvEo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4593137947203784650&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJO4ihWFKHSxYRys9yo6Aavj8.jpg"
       },
       {
         "id": "ChIJ3U7LYQCFSxYR2SITF7z5fZQ",
@@ -2742,7 +2871,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3U7LYQCFSxYR2SITF7z5fZQ/photos/AcnlKN3wITWIoqGPHAu5TW8Yi7pmAx-s2D3L8NcJxrSM6mYqiozyT9GUs0bFhQ8vAQtbEgSjI8E_G5CNWh3Rttt_YvgZtT6yRpaq88j6vzp8YIduG4EkT5aiYxYAtqEMEmYOh-b0kYhrBZIlC4Q4fqlgZxcefcxXNxJvPySWXBpYdLRRrpPZQr5Jw4Olh1bYMJw5A28CBPAlPtcc9wsJdzqdGvxIzSbQtJQyy2geQLdDfH-9H6KVzT-dNfECv4tuDJRfEmeJoI5HLkbhCS-hGgbauXpgoTt3KPIZ4-2ZRbLaic_R6-mssIx3D_tQ3kY2clpApb-h12_9TJvAWSyHfPKyJzQMQk8WLmx05Av-IfpszuQsZBwJmX_7WFBIv6L4KXH2pxI5UQ9v8AX0LX5KQFc_fgJhS4_XVlvpM8SnCbwx9T0lBk0tG950a2eipnk-QwPc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10699982875938464473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:53.190Z",
-        "updatedAt": "2026-01-23T16:10:53.190Z"
+        "updatedAt": "2026-01-23T16:10:53.190Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ3U7LYQCFSxYR2SITF7z5fZQ.jpg"
       }
     ],
     "nightlife": [
@@ -2765,7 +2895,8 @@
         "websiteUrl": "https://cravingaddis.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2964015154228846994&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJqSSP4DKFSxYRkmGvKBRMIik.jpg"
       },
       {
         "id": "ChIJxR-En02ESxYRLNBEzFxnZC0",
@@ -2786,7 +2917,8 @@
         "websiteUrl": "https://www.dreamlinerhotel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3270852877639536684&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJxR-En02ESxYRLNBEzFxnZC0.jpg"
       },
       {
         "id": "ChIJtxvyoOKESxYR1V03-nV60GE",
@@ -2807,7 +2939,8 @@
         "websiteUrl": "https://kategnaaddis.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7048268063962521045&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJtxvyoOKESxYR1V03-nV60GE.jpg"
       },
       {
         "id": "ChIJhy6_TwCFSxYRF6Mxj2hFOwY",
@@ -2827,7 +2960,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhy6_TwCFSxYRF6Mxj2hFOwY/photos/AcnlKN1YP7txKmcJKeI-qtkQPjQimMMBtTnHdfZF98t-HLy-eoNSBNRydu3AWbqPaxY3KXEpMC5KRLzwJBqWkaicEhI3Yz_jCQEakJSWK_GOHQSacb89_OBwQcdw1xILl_9eOKuvAzUvSzDm4qE4ssehjxg9Auxw5paz-cV_TXGIJSP0XA1WA9WGBYGF5JUChrmprn5foG9dsbpcLxHuIeOaIYpVtw4PfqL86nMpPUH2vZc7Hpz7bH05T5zfng_qn-1WZ2QUcE-h7gaIQK-dnPIbLYgvLdoXjkKyMj0Fbr9407eJw7WqXBc_5bkazT9CoszIPjk3LDvicUFf0dYgQNxkGxZzpAVmia6FSSxIdbPwA14NwJJf-ofTxIvP27yxXg21WZJHG_ycTTplamHho7p66Cu16QjupZSwYaQCe2G503ZnAb3RgKDjS73XsNe8zNrp/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=449028903234806551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJhy6_TwCFSxYRF6Mxj2hFOwY.jpg"
       },
       {
         "id": "ChIJWYJDVJOFSxYRma49iejKtIA",
@@ -2847,7 +2981,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJWYJDVJOFSxYRma49iejKtIA/photos/AcnlKN2QPTROjkYKggTk1IEcV9NiJ38CZAVdw9qwCrG43ZOBxPm266Wrvdws6qgDiwS3G69HTJg2nnH7PT5uNNNGiI3GuPCuOq3SUzT_YQI-EbLCxrv0qhda5OI2GGIVUR494Jukib_YMJ4IUx0Imhcmty2uVaNHJARDd3rJJNq_3t9KxE6uRnwJsyQamIPquTSTQ47uawzna2VIniDdIgc7YtH2CXXbyI1WN0XTZU-JiSK0emhhq0_2MWT0Vpy_dfzm_Kswco0rGEBygKVXz_iumY6tBUetEiZotANPIGfmEHiWZ8xg282HGLuKguFg_QD0noflB5e2zj4Sw05ucruhzrmADD2OjNrdzBF3VZVZIH2hmJJUVVFm2yN4efEXjQ_-SC1zKfS_ZWdDYjYsCrTrx8Mcyjlxbs_6rnInFijndEK7HzY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9274260632746438297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJWYJDVJOFSxYRma49iejKtIA.jpg"
       },
       {
         "id": "ChIJUay6LwCFSxYRBVDmrQNbTkU",
@@ -2867,7 +3002,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUay6LwCFSxYRBVDmrQNbTkU/photos/AcnlKN1XOQBGf8F8ami66pOelIOSaeMJb87BeDVZzUBhsPCiOj3d-RmF8M8PxKfGAcjOrhpySzzUThhzVJIYMURaGzJ2tveEuCZ8qfJuy57xTN_5lPDxq6zdZX2IhVNjfCEg-LRHdefkvQzlXz8FsNc88raASS2BGCZADPmsiAXdOf4AOLqd1yL8mGWiEiCmW0UfBVroF42raiqV3MogEkGXi-EK6yjVR8qYNiLUZ2zt89qlTshSme8i6ujAPIfMB4lPXEyIl-_LFM_HvAmlATQAqDbo5061eux_pSwrdPUSvsCNHSQaHfBCdtc7e-07FCrSuE8GC4X-QUWUh1IVNzWUV2W3qUMNXPnEw6WwIiSrGyP4OC9zDIsCdfbBwcL1GD8P5D15KzpsGEHPdDhQ2O6pjjblwy1bC6CjZU-tnj2WRm8trQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4994029108161040389&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJUay6LwCFSxYRBVDmrQNbTkU.jpg"
       },
       {
         "id": "ChIJC_lw51-FSxYRt-kyl8tSH0E",
@@ -2887,7 +3023,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC_lw51-FSxYRt-kyl8tSH0E/photos/AcnlKN2KZ9_R4XNemsmanj6rWU-WM9h2R_E4y-2iELOG4iBMEt2RxkM9W8XsCFxAFF1Eytdo0lTqLOHE_d2xO1sFKbIr8yGCkj7dLlObZKZ_ColU0x1m34NcFQU0SxMT9juu7J6mzMijiB-9wxJ355Ayac_3oaWcuHC4AXIk8eePMm4SFC5eWMtMNV0b6TmoDLdyXH2_sX1DWrQnUluzOpkOe5pj0IlSlKpM5SJO9kJMc8HkxF0_QqpwR8Uo2Wu4B9P0BQeUc2HFdYV_QTgSBrBuBldhA6lwUAOU2KrdAeroJQhmwcvLJPCBtmGsNZl0f2mj0jel-QKdaXpe-ppSmgwQpMltDKVD4CqXVQl2Mz7sSa9peFh8uNXEEdD7VU84unV50Fd8b_VbULrRY_FHenHabIc0oJmEuQrOcyU_p-YeuaWc5w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4692560371111881143&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJC_lw51-FSxYRt-kyl8tSH0E.jpg"
       },
       {
         "id": "ChIJQVcKWRCFSxYRYAt4qEXP6eU",
@@ -2907,7 +3044,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQVcKWRCFSxYRYAt4qEXP6eU/photos/AcnlKN2Ru7m-3R9SYihU3wxGXXtqax1rstNsQ0TY7BJ84AsvWL5DFjo6WNTdDdod6KEvJMocG5yd3XYTEoeVfIkW7sCzDD9TidPjQ_UwWauJAl5iSmMxUAAYpAKkY8yo52bB6EfE81XKhaZWW5jV2tB6Sq5URzgaTpL1Nv5sCv_xVwckDjdKpHeyN-AQn5bLBlEOJv-zd0hK2YlCdLz8AquQETmNwauD4FmB2kBDxgSG0mHbA2VSYmGXnA1Ji-oS-puHor0gVdFLcNdkWl-9vWwiqX2FcIq9_NZFzryvYJVXuRyjQ4MOUy2W8RQzq6vcHoPZOaxBGP-EJ3EUgrjLPZNoaDQcH2qUn9-wN3JbEiGWoplqdgcJ4RxGpJTMjfA004lJ_E6yDEwUNYLPtzu14N7eH6ZaW3OCBoQMy8P1C6c238erFw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16567000602345212768&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJQVcKWRCFSxYRYAt4qEXP6eU.jpg"
       },
       {
         "id": "ChIJCQR9RZiFSxYRVoqmd3sXoK0",
@@ -2927,7 +3065,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJCQR9RZiFSxYRVoqmd3sXoK0/photos/AcnlKN0UffLNih092ORqDKTzCxIJi73GaIbOOROAyqRAxABLfbxSkzSv82EXyn0nrGTbC5uymOb8WaqhrEcHt9llYYorK1cXeLVHGcu7tRxf32zLJID_PGq7JeK8LWsn_l_RfE29pyq0B5ge3C0K6utxCbkMXMAAv3Ck_TMPzcxlcW-2lz29oxwbFuUw8b6ZJ6CqzVGcBkOdHEoP24C9HWvKfdIQJNxIImsfOc_5yH4DJqfnhrblkdeJeGR4WP6LFgwk_IhbFhsfhxeCxb2g6dXzfTOHJs4RS5qeDbrnZmhppe1Qz3xlITzKJ9r5GVkgZxCvHWIAVAgnh2nrv1682MfK_JmZ75a3SyxhHoFfFpHq_WoHa-vBuydJyXYhAtA7bpvfPA9wWWxcaJjR909rJrT6ZPewUAnFKbhVo4wzt3sXemK2SQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12511025583891057238&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJCQR9RZiFSxYRVoqmd3sXoK0.jpg"
       },
       {
         "id": "ChIJQa7HNlKFSxYRcear33ZQ_d8",
@@ -2966,7 +3105,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnUKOBY6aSxYROrGznRQrKiI/photos/AcnlKN0MXxO12PnJ-q7w_xFp1rGeu_iz6_VQ1jP_hYOYvztEfpqiUq7ddCY2e1jLCzUGS_q22dC2J2P0paelpLxLVZmh_GBR4ILcpjPrRe4pTaDnWJVSoOt0WjSnRS0Xgkq5yh2FgzbCa1RIC2jQCmcMolwB6kn-Kp6gFq_HHn85oBsHBLekR7VFiCridr34fIh7ZBuEmIojYmT1W1XotDtulPpnByv0B2vKFQe57koCzQz6Er8i_mtv8a1YQdodCgWXlyDIB5IGvStnXEaMOfaCNVLWVUUiSITHbZRU5jdSDJhnzQzoHBXSTcEjNF7haME9Yc4uv1pqWEOQ8IVDuRlbkijBqNtdFNSMPWFUHkCYrt_MOhR0IfZOWYUt-sa1Yacl-e7KZVIWkWSu89g2iq4B6mrGCo2Sei6tBV21dRWQ6t_Orw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2461827513856536890&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJnUKOBY6aSxYROrGznRQrKiI.jpg"
       },
       {
         "id": "ChIJReMh8oKDSxYRX4zAtG7XzfU",
@@ -2986,7 +3126,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJReMh8oKDSxYRX4zAtG7XzfU/photos/AcnlKN0OFuVJa7Q7vKqBNFBc1QOmYh_uGdW219MHV2TQykjZ5HX1KybEYxXFu4TQUuBWxtGocMX6kEzVZYgeVq9l6BHdn_WZDjag_bVNqY_rzCEtzQTql58Pmwa0QBJXWGMbxlYm__hDal0GXfle0fLNwXbD-VCu5e9vwK_DhW_AWyWQRFFQoR28GMGASVi1Oc9pEeg7EEfWcCshgMwTx-M7AmTWU_s3Qip3Us7UkqSz-R1uQ84_C0Ch3g5mICCevft9Y0sK8lnvJ0vvgrRkM5U85ZwAuu6Vz3oMLO-KM1RcnLekVw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17712049779996920927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJReMh8oKDSxYRX4zAtG7XzfU.jpg"
       },
       {
         "id": "ChIJ50ChZvOPSxYR6sfmf8vYADg",
@@ -3006,7 +3147,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ50ChZvOPSxYR6sfmf8vYADg/photos/AcnlKN3AnXBbMxC1y1_StHgxkOjb-91eBGmz4KWOFfy5qdurxkv7jLsiF3xIVhkdmThtZ8DCeIcf0H75Xh5ldrZpBbtLLKSTjMzx6bLzE-ybzjORLbQpo6L50KRjYs6G2LvhMEwM7Ae1WdY7k81Py4z_dimBY3qakNXn8BTIoQ-DO9nYhxuEuusSiPFH9BG-0tGwhBYU3eNb0eqBNuC-QbNqe4fy6oT3-ZCyRzXvGtYk1ta-76AjYPsxFEyPm0ixEgsxUXeHjI0xMEhoiYMOlGX2Xj2HVifxd7Ed4s2Y93fl_tulG-61S_MR5GlNzs5KpxRQQVO_9zKChcIdin2BCAF2wjPe4Ptq0wjPPlKjAhcazshY2R_k1Fum3pNhuZ3YJ6lURaZyHktJHPTqsGk25fYT8FM76NXGjEcOVjpdiHFXwjJ8rho/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4035463634659756010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ50ChZvOPSxYR6sfmf8vYADg.jpg"
       },
       {
         "id": "ChIJ4QxRFlOESxYRrdzPKPLrqYY",
@@ -3027,7 +3169,8 @@
         "websiteUrl": "https://www.instagram.com/fidel.lounge",
         "googleMapsUrl": "https://maps.google.com/?cid=9703546297445768365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ4QxRFlOESxYRrdzPKPLrqYY.jpg"
       },
       {
         "id": "ChIJlZD6l-6FSxYRmfCMANsFfPw",
@@ -3047,7 +3190,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlZD6l-6FSxYRmfCMANsFfPw/photos/AcnlKN21Ec4UaGKLta6g73mOPVTcSuYH7sZU4hO24udwpQ3QUelSKCEhVd7ez4A666us5g7BAjW-ePtvg3y4jVA5VS5CZWYUP4k4D-Tg0Ft-yQb6nbEQ4i_blCJASbtqeCZXMo_eHPU0tif5lR-M7TySerlZuDOPo6etJRwUm82f8HknOCo5VmL255B0g3PYpuopBnDIf6SpxyJsubyfuw4ROrNIyaurO3w87GrV0hvyq5lijpX5AgCHs-5XuvWO6UR79EbRdNt6CLi9DWOXwkYMYCMKtyx3hiKL0wF-hs5PzzXA9ShKD3x7LCzllBsd871z1EmWg_aicYwpA8Ha3vI5xXIUevDm-MeNCE98ZCQJ5t1HW9oyunUeQfd5SWQdDCkFqyZcXuucmryAULlmc7MFqR6Zp2czZ4EdVIX9R6-dgdygXQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18193423032835174553&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJlZD6l-6FSxYRmfCMANsFfPw.jpg"
       },
       {
         "id": "ChIJpYLiVQ6FSxYR0KxTPHxoFz0",
@@ -3068,7 +3212,8 @@
         "websiteUrl": "http://seloethiopia.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4402102043575299280&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJpYLiVQ6FSxYR0KxTPHxoFz0.jpg"
       },
       {
         "id": "ChIJg5L2XQiFSxYRG2Ncoz_mk6g",
@@ -3089,7 +3234,8 @@
         "websiteUrl": "https://www.effoipizza.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12147305780946428699&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJg5L2XQiFSxYRG2Ncoz_mk6g.jpg"
       },
       {
         "id": "ChIJG13c0IiFSxYRdMDJSKYcJt4",
@@ -3109,7 +3255,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJG13c0IiFSxYRdMDJSKYcJt4/photos/AcnlKN1x6PsokWXxZQIlob6gls4Z8NUa5kgCzjp-77wCDPVlNS6ihk17k9Fl1dFK9q2mjnoaqkwx7xnAxfzat1myVEzxXDbq6_AycuwpLqO5to1kIsQplvsDzTs8Y2y5-WpRdvllJlBSM_VKx9jpMUS1e9N2OTA5aiUoexd4REGBBqivs9NHlbDiOPnmKl8BFqFQ0wQaQY9W58Ic-fKPoZ0n87W4QmMmQMJ8FVHXqtz1lTGsSTXvR_fLFW_BYC7Qi5GDDaDFYCX-ukNN4CkBihdMNA8Iu95nnWvpnIEnQGf5aPrMroOpgcpzwusjG2n99IGFXZetNGyRSJCiSsqbwrOIuuow-1CfL1U1v9AUfpP-HxvTu4NwazrUDlFsORB-O_L-oreeboDH08PhfDpXoVEExuUjPVuzrsddKUoKzuDOd7zj8g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16007513426046337140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJG13c0IiFSxYRdMDJSKYcJt4.jpg"
       },
       {
         "id": "ChIJF3kGoRyFSxYRp8_yFiaxk4g",
@@ -3129,7 +3276,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF3kGoRyFSxYRp8_yFiaxk4g/photos/AcnlKN31D5F32QJUb9csR4LaqWIVX4HRWBqfXSQ9yQQoNRjJVjDQZ-RrMORkZc59bB8AiR5NyuwD61j50Kft9g9pIADrq8KV4O5StTGxGUbkKMUB604OA_JY1HKcECAMk9eDWVEfnxRYfsWEea-3eaCJqKtoM8rLDMe5vjO6u67RJ4jPPHmpVAu6NkzrDMKAlTi7fnVNkmB0_2UZEcWDg8ahgW8HLEMYILfrO-4t5vlIK4Xd4MF92HPA61MSA-Z9L4mpk922tvGFWEvNa8YTbzF81jSp1TyhPb0hs2l-XA_wU_vk0vsZ-23p4ylw6bdMnFl3fgrMryhJQaONVOQqINs8_cvdmwDh9n8FoNWC_JqmLwOY4rYzYugvNh1d756kC4ABN_RUJftKnrADnby0YJuWApAg0mEn7xgLMDqsY5879Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9841404387886550951&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJF3kGoRyFSxYRp8_yFiaxk4g.jpg"
       },
       {
         "id": "ChIJl58-vAiFSxYRZOAi012VYyg",
@@ -3149,7 +3297,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl58-vAiFSxYRZOAi012VYyg/photos/AcnlKN20Ho2evLxcqyv1EdEPZRIcCHGpylJrypRVN9WQV4LLJArsCZ6WizBovk03cMvMRpKFZrlW7BwNMKIy8Pzms00KHemLcuoeN01xm9DCdCgZualhIT5dljECfNCRUMIRhNAPfPEmtU9FFaFdLKod-gs2dECepWZM0M4K3OXOpGwsVk_0pD2hiDKuxFpk3ZGvXO_oUzGJFEibet5dlGffiSJFeiijIy677O6xevBCMEMRer__Lixaq41bKmeR0meJ7euBwwKwxcdThNc6M_9j05b7sIhAQi5Yd7rQy4BRjj8nBQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2910334014418247780&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJl58-vAiFSxYRZOAi012VYyg.jpg"
       },
       {
         "id": "ChIJf2b-yqyFSxYRDabnrs-bmno",
@@ -3169,7 +3318,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJf2b-yqyFSxYRDabnrs-bmno/photos/AcnlKN2PZznt6X_qqOQ-ROMCuckS9YmMSbu3VScKxwRxJ3tv5RaZ-C8dFzxgTK_ssCSL6NJNVNmNBmsfipXfMXIByiGWYAHNxnSv2UXyP_GqPhfGmXAcUm5H8ToFKqsUIYTB-PczqfCxb4EZPn_Ks65-7d7G7AACVQLej6Zo93k9yB5X7LB_4LLv7S1KjKlT-V6gN8ahH2FA2E-AgqYFM-tciC0DKgHTLVJ3e11bNDUCLgULSonrafXQLz0yoISNyFdDtIFRUHe66tqLNTAxguW6BgwU9Idiri_pviJNODfl3ENsvA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8834544935335601677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJf2b-yqyFSxYRDabnrs-bmno.jpg"
       },
       {
         "id": "ChIJ-SHiKg-HSxYRVTeUv7Ot4ZQ",
@@ -3189,7 +3339,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-SHiKg-HSxYRVTeUv7Ot4ZQ/photos/AcnlKN3HIcG2fuDLSApsOlPjjaoBUTbtlmzBtMUkqTaLVNJOHnGkUp3WVIB_KZzmzKdobgt7fSfH3aLjrEhfOjjqYIbbVzxRNWDZZGUoVRSMwcZZ3a47yMnvqOZWfYwXfhVQJbDIh54JWoETyH26z1v6F_0dnmnRVQZHNGzojGSaQ9MPZhxyY3b7HER8XeDsWzAysOcp6o_zqqjiTdbESgKPafmgZ-oHsKUKyePDTgLtRymyHqD7F3ntIrY0gOvRoGBrIKVGRogpT3aAdV1zgEpNi_SvLqgdnqLlkwOFyTLYcfSJlzLMtAd75lD0lWNNr8sH0udA6izTBSkshK4bLwFkmRHPloXZK2mlGJRdpbWu38Rq820tzLu2nQBVuSA2zAHCLsU45VJBg-wz9kyQ-kssgTOWANIP_T1mna1x3ovIdfgzpg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10728046774898145109&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ-SHiKg-HSxYRVTeUv7Ot4ZQ.jpg"
       },
       {
         "id": "ChIJ1fKvjAyFSxYRT8BawR4Tu04",
@@ -3209,7 +3360,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1fKvjAyFSxYRT8BawR4Tu04/photos/AcnlKN1nEZSTToJGIJXs_Hy7nSKWWd9sm6LZq-WClD9IuqMJ5f8PNHj6oJ7mRQSx2LbZmRNzU87IPquL9nusSXdcIoqh9cWktH3BaT_PjqQ51-DQQh4P1bH9x8Kn7VTuBJQIdLTqROS1Z-P0SSjXLJNjbSsjA-gGpfBRayk57-e5UQ-oeToTB0HGu7l_Dcuj0jpqVmE1-Hx5SsmuayEi5fFc_AU3tE2aYosvvdSblUZ35S2C_jo3VoCVmjnw15-qxysDVJ-3ZSuPf4URuyTodI9tzF0IT3mMxPc4Bv0pog33V-xkJp5iyyFqO8RX8pxHVOOd75hPBvQedWcjnBtrXUE86zt4_p6Fk_jtWP2GovcIAdYxpy9qG5UBj2-yS_VLi20Y_axm6eH0IJ1njPo7iDxrCXHkogpVgxKEyQX6i3tkdhNmIR37/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5673149178417168463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ1fKvjAyFSxYRT8BawR4Tu04.jpg"
       },
       {
         "id": "ChIJQ10wn7qFSxYRdBcYZFm50Sc",
@@ -3230,7 +3382,8 @@
         "websiteUrl": "http://www.thevenuewarehouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2869278231194244980&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJQ10wn7qFSxYRdBcYZFm50Sc.jpg"
       },
       {
         "id": "ChIJl1BS6bCFSxYR9k8-T1g5hzE",
@@ -3250,7 +3403,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl1BS6bCFSxYR9k8-T1g5hzE/photos/AcnlKN2nJ8T_Wd6FN9G67v6Z61pFJSoduUMR7Jt40EV2m9YdZIBQo4cEP_Cy8A7KOs68VYoxDg8qYkDe93kuqCtdUp7uiFi7XN_SaNU1gtZfEOAEnWND5a5ZFab0BickOLviDv3pVdl0Uxw8ahj82nR7hEmwM7yDsfI2k3fTArjv6r3VN8q4vgStn-9rvnCFnQB87m1WqUsR_NyVEBYB5gHZL5kwOjhFFAOvOGIit2vQ9rVgfw-7PDGiwUJgDrqWndK4GjjrnypobsoBXZZWujWbwG6JieJSlp7sqllgoutRkmQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3568884281163796470&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJl1BS6bCFSxYR9k8-T1g5hzE.jpg"
       },
       {
         "id": "ChIJ_UNJmz6FSxYRTcxzV59EzXs",
@@ -3271,7 +3425,8 @@
         "websiteUrl": "https://instagram.com/deja_vuaddis?igshid=YmMyMTA2M2Y=",
         "googleMapsUrl": "https://maps.google.com/?cid=8920861888048516173&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJ_UNJmz6FSxYRTcxzV59EzXs.jpg"
       },
       {
         "id": "ChIJRSqDUgKFSxYRHQJiFIjACk0",
@@ -3292,7 +3447,8 @@
         "websiteUrl": "http://www.facebook.com/flirtloungeaddis/",
         "googleMapsUrl": "https://maps.google.com/?cid=5551461181377610269&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJRSqDUgKFSxYRHQJiFIjACk0.png"
       },
       {
         "id": "ChIJKSQ78-GESxYRhwMl7q6fgGA",
@@ -3312,7 +3468,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJKSQ78-GESxYRhwMl7q6fgGA/photos/AcnlKN20miMtRDXTsJDzDNegI66xuBvvhZKK87Qb1MqQDN8_QDTKYN80Wmmc4t1s1QJcG5gxIoHL9lfn5B1k_f1FmfQ2KBE-UDL5jtaIjb6-gaLbjIMFQu-_agiBwAEU8rKd6tjwWa0A0QbSiYnCOSqqoXxGzbD3Ebqmiao_aYzdqOOnCgM1XfFSw-GBgt0HSWCxNAwOaNpzuv4qyciCaNm4_MLiBOdDP5Bdcf5PADDl_y8C6f6GJsiH7vbv4R0f7CytpQu6gn8lCmnXpWKdZQV7fL9VyKVvDf2cwJjaNfTlIZwu0dITshkN9aKestYzsfG31xdjWClU38dLXEkKvbabcN2od6veJryzOqc-L2mOhL-4B4NhrbQ8-qZztllYSj422KgUdl-bxD4zfZu24cCg5QRcJyCfwhbzXh9wBXZIxtG5gLFt/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6953733398328574855&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJKSQ78-GESxYRhwMl7q6fgGA.jpg"
       },
       {
         "id": "ChIJvXFC-RiFSxYRRMfQ3yM3v2I",
@@ -3332,7 +3489,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJvXFC-RiFSxYRRMfQ3yM3v2I/photos/AcnlKN0offYIlInlG6Mdgd4dZmvdPepUzecN-vV6KInmAyxqeNWfn7S15IHsqyf2uKPRaM4_wO2zJ5LtD4MBpZQOmHyKM_dBRlsLgcj6p_gpKvjow-605p2uitJOFJHQt8FmXDgA-e6fv3lmLjIu-CeuUtxlU9NUqr6eukKgkkbK5u5FhcB02DAcRmEquMa8uPXMSB801aYlDWk3H-qOoDCAFgmFXaP2AJpfox7qAg3UplTXlXQkPFdtuS7dvHTeDDLvPtoH_G43jN1aqjoG_iCWK1pKqhUkm43YHfHQ3-dLKVyu1Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7115466563487057732&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJvXFC-RiFSxYRRMfQ3yM3v2I.png"
       },
       {
         "id": "ChIJoy1XpgmFSxYR5HnRjrG06pc",
@@ -3352,7 +3510,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJoy1XpgmFSxYR5HnRjrG06pc/photos/AcnlKN2ZEyvD1bAa-wsX3qrTcVu18nASqG4ey2TriGl5L321Pe7o16K8leguW0P_eMPgI8rZ8duscxqYQEfXgiqLYil9gNNS4PB2BpdANpXYLtQVN0g7zhZGwdaMjkc3dDe1rTZ2nGJD9nSam26nSgPnSWzmxXvBUacVZQpxjzGfkCOCUghlJG_ExiVk_dbnTNsk_YcWAcVhxUJmi9462mWI8jgHEn-iBJ3wuCt_7_Bg1rzfvKhqf9TXkvhlBecLBduNo9TcNUbRTXNzppVdinkDH8buh7VHT11EGBuI7slYpO3Qi6CwdNm4pgmBnmHPxfCfNLC8946o2gOhfRTxDNTr5stFdMxisowBtLq1DThUkKE9o4-wvOil57xq4qj29bgOqWIZlWy1jLHSOmBDo800L965yb7Y_kG4meHinjITwm3PpcA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10946760518975715812&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:54.424Z",
-        "updatedAt": "2026-01-23T16:10:54.424Z"
+        "updatedAt": "2026-01-23T16:10:54.424Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJoy1XpgmFSxYR5HnRjrG06pc.jpg"
       }
     ],
     "trendy": [
@@ -3375,7 +3534,8 @@
         "websiteUrl": "https://t.me/yawalcoffee",
         "googleMapsUrl": "https://maps.google.com/?cid=6791757925140345464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJHdrmXgCFSxYReDJvQNkrQV4.jpg"
       },
       {
         "id": "ChIJC_lw51-FSxYRt-kyl8tSH0E",
@@ -3395,7 +3555,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC_lw51-FSxYRt-kyl8tSH0E/photos/AcnlKN2Gid9UmrZKMY8cwnC2EwUK5ytpeGcDgDzadVYR05lhaTf7V0MBkjAuUvn5QHMABHl84CF3tqdAlrsxLRuoRHSHI4_FRq10PTToDO0X6xFFPDA0zvvhhS6L0NcjLpQhhn0QOs5o0BU-wmBPWFKPsEm8Q5Pr2c0TNoqM4GcsuePGw6Z8FpgHYLM2xAhId1jesPCOc6TdTPffFR3NA7Q5BD7ZldDt0SAE0qrjNS1BVXy0vJvcdaHKQW_GYmfQTumSoLCZt1-1DPjptqakq6M58_hRtkJ-oxTvlKOZFVRYRBcag4ndyS_EOAXOcmrMWwWUFgoA-V6n9qHEtOmy7eBMemPhJ5Kj_HQbi8nd9LNA5srEmT7H72dOuGowsezrSMOjk4ycGsvsIgCXc8pcOXtzVqm22blIVi_Kd8nu5atAUornBw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4692560371111881143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJC_lw51-FSxYRt-kyl8tSH0E.jpg"
       },
       {
         "id": "ChIJyf5ORQCPSxYRXGIrmaBvf0k",
@@ -3415,7 +3576,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyf5ORQCPSxYRXGIrmaBvf0k/photos/AcnlKN0u-ssX00pColijQT4JTJ2Xfs3hw_WYA2juPPF2dg_YC_xJnrSDPBav2yF6OMYikK9pEW_EpYcNvdz-KSAb5H4fZ0yTeAb0fld_Fe0C8wmEuosbv2ym5ccOAq7PU5wGC1bWXixkhXx5qUNQvjWUWOnSWvYtQvlbqR4Gai1z6BZ-qe5TqPA19L3ogBtxFWzCqvs635JOw4wfKko8vkPFxNQunZjqFlZ9n6ffGb1T9KzIzH28JorYwjw9zJvBTXvL7eZAMZqoEcreBjUzTWc2undJ-7mAmtmjiI_9YaOAdnYL0TWed6ucDHrIRxeHToOZwKlRHCNW09yzeUkOEstJ9hw1XcZMchYCmThbg0t2lT3ruSlsvr0lBuEWVAY1hJfM_ishQr_Syu6Xcu0M-v_bn9gCmJstBKst5j35DRMr_aiOMXt972IYbt33wjl161Ff/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5296074422366200412&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJyf5ORQCPSxYRXGIrmaBvf0k.jpg"
       },
       {
         "id": "ChIJq6Aqm7iHSxYRajrx1Y-rZeo",
@@ -3436,7 +3598,8 @@
         "websiteUrl": "http://www.zomamuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=16890094611780942442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJq6Aqm7iHSxYRajrx1Y-rZeo.jpg"
       },
       {
         "id": "ChIJST8VPCiFSxYRQtD9F_qnv2U",
@@ -3457,7 +3620,8 @@
         "websiteUrl": "https://cpremaddis.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7331763410968629314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJST8VPCiFSxYRQtD9F_qnv2U.jpg"
       },
       {
         "id": "ChIJs3VSpAaFSxYRb_8OYoABGmA",
@@ -3478,7 +3642,8 @@
         "websiteUrl": "http://www.tomocacoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6924849027948150639&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJs3VSpAaFSxYRb_8OYoABGmA.jpg"
       },
       {
         "id": "ChIJYfj3fSyFSxYReTw7Bvd5xRw",
@@ -3499,7 +3664,8 @@
         "websiteUrl": "https://henomrestaurants.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2073197305342409849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJYfj3fSyFSxYReTw7Bvd5xRw.jpg"
       },
       {
         "id": "ChIJrYeIawCBSxYRpb095rIzkbE",
@@ -3539,7 +3705,8 @@
         "websiteUrl": "https://www.dukamocoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3618159009784972681&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJUTgp28OFSxYRicUcF3NINjI.jpg"
       },
       {
         "id": "ChIJQc45dM-FSxYRiTmZ0hvSL7k",
@@ -3560,7 +3727,8 @@
         "websiteUrl": "https://lebasilicaddis.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13344115237861276041&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJQc45dM-FSxYRiTmZ0hvSL7k.jpg"
       },
       {
         "id": "ChIJNdNA__-ESxYRXr51gmK3hMw",
@@ -3581,7 +3749,8 @@
         "websiteUrl": "http://mamokachaplc.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14737105514386538078&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJNdNA__-ESxYRXr51gmK3hMw.jpg"
       },
       {
         "id": "ChIJM2-nGACFSxYR8HZlkHDAEVA",
@@ -3620,7 +3789,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRZSp14GRSxYRr3zrSn7NGlg/photos/AcnlKN2WGA4Eauy_iezXtwC3w7mx3oHvm4GCtriTiisg5x3rHgOXQ9oDraSlfQHuhY81sPCcHIeJnKuVSMa-r1aaj7yGcbx7ej7oeYMNSgisMqCtZpETcNx6IN2Pj1lNzX8Pc7ADdcCKEgZGO1e1pUiRHuJoDRiuNEZXDxzd5xCJ7nxXeZmuKJX-ytKIL1uDE7jPFSZA_CoqJ78_Iu5Ri3xHgD0BXMK96Q3pfoj4PaQ-1dK97LV91XWwZSyJ63eJxXqI_rOuE-XMNTaQCk1btp7Q4JSVQxVm1rA0kTB8v1Yp7jFXZemWJsNl1-ypYnBGp6ruse3u1PEJKM7CQ53hmjdgRXieRYTKEOqCfS-z8hvyGBSl6fdsH2Y3OTiyRGasWHzBSPi-jf0PNNWli3UGYwcDy01qp7iauocKGLqk8tkFIgcarIa7/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6348612567038655663&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJRZSp14GRSxYRr3zrSn7NGlg.jpg"
       },
       {
         "id": "ChIJYUPYFgCFSxYRLua-H7JiUEE",
@@ -3641,7 +3811,8 @@
         "websiteUrl": "http://www.etetebusinessgroup.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4706370127778473518&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJYUPYFgCFSxYRLua-H7JiUEE.jpg"
       },
       {
         "id": "ChIJXybiNliFSxYRxyCExDuBgtk",
@@ -3661,7 +3832,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXybiNliFSxYRxyCExDuBgtk/photos/AcnlKN2EQMg2LVNwx-DpPyuC7hodv0WgPRDsgJuGE3aFZkYeSA1xRxe2JWzD6QYZNqy5FtkLkzjDCV_DH9Ms6grEEZGbUCkRWSGYVhVpnptCAh_PXKXylYW0Fx5jFiyBpQhasTdMuVeQygXfEj-SvHcZfR94nu7Hz1J4EWRwf-KvzeRlUVUllkmtf5nBW7r6BLtffLFtD4ZiwYPOEJMhF5BlGMIegkdf2H9hEwl3m3-fAL3p5ARfxso-NFuJPuTAvc7qGjpe0OuZWE6f9wq9T0vTGxcuFNPahM9lbB78H6IGB1pzvAak9BJ3TI8Wlipr_RW7SxNxVx-jEPBRV40BIkaaseOCWdwglu84vnXJpH_kOwc0UMynL64o5R24foyszUXEP7PHzFmqFvQjyHbojp0DU5qSZA0f6CJkOhG1YwZOQGNYCRMa/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15673231746902794439&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJXybiNliFSxYRxyCExDuBgtk.jpg"
       },
       {
         "id": "ChIJsWP3s1KFSxYRqsCbablfgLw",
@@ -3682,7 +3854,8 @@
         "websiteUrl": "http://www.jaferbooks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13582961726094819498&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJsWP3s1KFSxYRqsCbablfgLw.jpg"
       },
       {
         "id": "ChIJl62LTDCFSxYRMwo8zc9th44",
@@ -3702,7 +3875,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl62LTDCFSxYRMwo8zc9th44/photos/AcnlKN3WxOLqcrRcyeDXcX_TdDJjiAH6J-Q_qC_Gq-WxZBKIN57AWQuxzveYuwgAHp8mTKrtbHSXODxtWPlb2Ajlwdz4F3j2VJ-JW7CKWMj33wim0nuBdLMlKbIXEWNrSPSqKYS2RkyHCtze1EgT8la1FE3qVyv_3uwcITCzwlpclV7iaI2o7LPo864aj4jTEJUTKMsAEn7Yvj6xSS6jm0HAj6bkIgmgXyd44q45Z5r7QsdpRRdPbSthA0YN1B3fjsownDM9sDkDGpPp84N_c2WORexBbeinJo5ZZvtt87Cv904m0CZv7SBpuW02luDcm8x73X0LgQmy2qF6A97Z8gDhj0wLEW0XJ_Jbc-JqLun5MoW9GN_zEiwzbC4Cj8erU_H7cSVeiq8jfMJcOl1aZape4j54Yxw7dsZH3NTElALKY2gRUu5V/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10270298214510627379&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJl62LTDCFSxYRMwo8zc9th44.jpg"
       },
       {
         "id": "ChIJlU4ONKyFSxYRu5pih6djBec",
@@ -3722,7 +3896,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlU4ONKyFSxYRu5pih6djBec/photos/AcnlKN0J2ffKkQQQnvbHs9qE9KfvDQhcY836mysfI1rHRd-nf5H8mUG_diRyhibrur_FeTCmP6xkNwbWOUO0MSZK27iBZ_UrsdVaKsP6xTQqlg6ACki6dGtx9pcv8Wl3Rmd-zI9wYAagVy92cbjgadVjQLt8tLjkY6P1g914j55SeDhDP5EFN5nbW6VlryvY7INq22F5oeMKZw04jf55NSAoe4QdceO9WIhtH9pjdVmiAJEeIO8jBeDFE4EzWhqye3WJTuZdp9EhpVpqHLPVWOg9Qk_dFC54QShmPQ5qkT3Lvx6BIEBsdK6pUMGbaaIFb5znxoZiFMkpjx3E4HSM0D2ysqgxouQkCDeczvm6d6RBdOSXIQYi2n92OL2t1Bj1DKW7XOEu4ewlu8psnqVOUro1CGo2oYortOZ0TWWULckOvLwSojfr/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16646821168826981051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJlU4ONKyFSxYRu5pih6djBec.jpg"
       },
       {
         "id": "ChIJQy5qibWFSxYRbpBnb4FGaDo",
@@ -3743,7 +3918,8 @@
         "websiteUrl": "https://abdiantique.wordpress.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4208691373511512174&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJQy5qibWFSxYRbpBnb4FGaDo.jpg"
       },
       {
         "id": "ChIJQxtMHg6FSxYRwfvWKBleYQk",
@@ -3764,7 +3940,8 @@
         "websiteUrl": "https://t.me/waliabookstore",
         "googleMapsUrl": "https://maps.google.com/?cid=675924881234656193&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJQxtMHg6FSxYRwfvWKBleYQk.jpg"
       },
       {
         "id": "ChIJx8sYlHmFSxYRuRGDlU3SlQU",
@@ -3785,7 +3962,8 @@
         "websiteUrl": "https://www.instagram.com/highaltitudekitchen/",
         "googleMapsUrl": "https://maps.google.com/?cid=402458972382237113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:55.846Z",
-        "updatedAt": "2026-01-23T16:10:55.846Z"
+        "updatedAt": "2026-01-23T16:10:55.846Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/addis-ababa/ChIJx8sYlHmFSxYRuRGDlU3SlQU.jpg"
       }
     ]
   },

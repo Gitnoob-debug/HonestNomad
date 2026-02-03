@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJD9Y_PkgW5YkRve5NQRWRxoM/photos/AcnlKN3pnweEEBcLol2oZiO5RTRhS2bOiQ7xZxB04hNSkQD8uJKDs6h_ra7ujRcLA_wVCRak_MJxr6N1RQsqvnAJAKDRdF0ZYCMEMI6pqUBuo_hVXGiXPZhaYByhA2BSZLEYTqZm26FiP94u9cJnXdHKZBn88eSKEy7CE7V4Iju8vsQ9ts0q91g8e3fdff-UFoGdntD-bNFerIlFyNQNXsq3xlM2-yFaB7fOmAFO2tkptT1e9lncmkN43GS8SO65NC4y-1LE33QQAK3gw9wyLlwuuBhNHOpDlAOErtVMQMtzY_KFGEkTSQFtDSSlfbYjEWVPdIV9gSCkiD2gbdvl2pfI2jepQMCwX-FoHDNVh4eebwQj_G8XP0NueG2UjR4KJbvZB9w-Ui_AETM_g5mCXwkaWOm9JzqYIYrpCPBbit7-oVYspw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9495436384833236669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJD9Y_PkgW5YkRve5NQRWRxoM.jpg"
       },
       {
         "id": "ChIJY7M41xi75IkRxktdAqn7Zv4",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://www.mass.gov/locations/national-monument-to-the-forefathers",
         "googleMapsUrl": "https://maps.google.com/?cid=18331616036565896134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJY7M41xi75IkRxktdAqn7Zv4.jpg"
       },
       {
         "id": "ChIJ07Od2-v45IkRQDmqUcgRjac",
@@ -66,7 +68,8 @@
         "websiteUrl": "https://www.battleshipcove.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=12073325728111409472&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ07Od2-v45IkRQDmqUcgRjac.jpg"
       },
       {
         "id": "ChIJqcn0xfml5YkR7rc7V86Ix4U",
@@ -87,7 +90,8 @@
         "websiteUrl": "https://www.newportmansions.org/mansions-and-gardens/the-breakers/",
         "googleMapsUrl": "https://maps.google.com/?cid=9639823947218008046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJqcn0xfml5YkR7rc7V86Ix4U.jpg"
       },
       {
         "id": "ChIJazG4Bv1l-4kRyTD7p_gXXL8",
@@ -108,7 +112,8 @@
         "websiteUrl": "http://www.nausetlight.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=13788922515839201481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJazG4Bv1l-4kRyTD7p_gXXL8.jpg"
       },
       {
         "id": "ChIJWzJQVnmn_IkRH9H3a_LKy5Y",
@@ -129,7 +134,8 @@
         "websiteUrl": "http://www.pilgrim-monument.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=10866001668503752991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJWzJQVnmn_IkRH9H3a_LKy5Y.jpg"
       },
       {
         "id": "ChIJjSFUCbYu5YkRzvE9_D1qtJE",
@@ -149,7 +155,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjSFUCbYu5YkRzvE9_D1qtJE/photos/AcnlKN0Z5_pk3Ma7QXDnfXtk5sVHloB04wSA1ECu-rHcAzlBhOsCMeQCxIRuykZV3zxh08uFnDQi8FAuYs4KC1oAB1RS3uqFc9IczNUQKgMt1BjYvskwz4a49iQT5sh3MUKrtg7O62FogiMZEOk0VuFxh2Q_cV33Q_LBTLM_huIaItSyGf-o3pM-GpcMxkIxi0wQ52Pj0g66I78Yd9glcumRawjoUttFTmUZjF7K28zdK2MHw2rO9sC_b9xq4iD-N4l09ll2q5RLI79fsVzGtiLZIplmq1gp5-ASDEBuEM2TiDhehN-gHIva92qi5nd_t1apuyBQ7SDJmJZ7tFIQFOhTJ9PLphUPZenubqH138ge24K8sxcBa-UU3MzCXCD2xjZdMAyzAvmfSuid1UN6JU938bVUPgk86JGLq9vz1cmHfkvf5zG_8suXKpEEJb0JiUWr/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10499133445764936142&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJjSFUCbYu5YkRzvE9_D1qtJE.jpg"
       },
       {
         "id": "ChIJOXwSRQkp5YkRJX-DEPLv7KQ",
@@ -170,7 +177,8 @@
         "websiteUrl": "https://vineyardtrust.org/property/flying-horses-carousel/",
         "googleMapsUrl": "https://maps.google.com/?cid=11884137339662073637&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJOXwSRQkp5YkRJX-DEPLv7KQ.jpg"
       },
       {
         "id": "ChIJAzE1I-e65IkR7tktWOwE4ag",
@@ -191,7 +199,8 @@
         "websiteUrl": "https://seeplymouth.com/listing/plymouth-rock/",
         "googleMapsUrl": "https://maps.google.com/?cid=12169013081269983726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJAzE1I-e65IkR7tktWOwE4ag.jpg"
       },
       {
         "id": "ChIJBQQeQDUp5YkR_TbrYZ75AQ0",
@@ -211,7 +220,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJBQQeQDUp5YkR_TbrYZ75AQ0/photos/AcnlKN2DYj8j2VZK-27e347cb-Nrypnv4AbWV7bNRgOqHl1MSm6x14pGRxzGHA7p3Qwycsw8RZWQVZt-JbqnVJ9PcFOo4u8TB45FguF5jtd1KCbr5oD7YR-ZUkWhAEZ3PIcn8xm4LDvdUzUG-p41s1Vu54RKXdLZSweb-ZRxbludoF38daiAjkU0AB7B6PWT9WVxvg3_j_ZfmMqcHH8z5jnjowCawtHbTdC11FbKRsOCVuDivWi6jy46ntrwGSCELJaCxLm8ZZd8IaHdQFb7UpvuJwsTtVuoEba7b3fhMQV2ZhCsxOTJPGF2V1ktbJ9Vgb4u6UlYCngoHiO95VR5n4eJ1GW4oBjnSjG10Bp1QWY2nIHj3WKbJfTh5HLqJbRe1PxJWolN2ToWfdAcIcAkPpcxiL0tJS2JIY8OU8ZNb4-Xn4MnUsnJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=937304656112727805&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJBQQeQDUp5YkR_TbrYZ75AQ0.jpg"
       },
       {
         "id": "ChIJffZcLgkp5YkRaK-qv3B1MiM",
@@ -233,7 +243,8 @@
         "websiteUrl": "http://nancysrestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2536218667275431784&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJffZcLgkp5YkRaK-qv3B1MiM.jpg"
       },
       {
         "id": "ChIJDSUW4U8v5YkR-AFOGx9Jy3c",
@@ -254,7 +265,8 @@
         "websiteUrl": "http://www.islandalpaca.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8632073508736598520&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJDSUW4U8v5YkR-AFOGx9Jy3c.jpg"
       },
       {
         "id": "ChIJt3LALDss5YkRq4_C9xZp70w",
@@ -276,7 +288,8 @@
         "websiteUrl": "http://rosewatermv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5543765213683290027&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJt3LALDss5YkRq4_C9xZp70w.jpg"
       },
       {
         "id": "ChIJMRa6FiUs5YkRAwXEJG6aL2c",
@@ -297,7 +310,8 @@
         "websiteUrl": "http://www.mvmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=7435331307665884419&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJMRa6FiUs5YkRAwXEJG6aL2c.png"
       },
       {
         "id": "ChIJhXJiRiEp5YkRyK7cC-kCHlA",
@@ -318,7 +332,8 @@
         "websiteUrl": "https://www.mariposamuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=5773054972285202120&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJhXJiRiEp5YkRyK7cC-kCHlA.jpg"
       },
       {
         "id": "ChIJo4XVgg8p5YkR4xfej6JLJCs",
@@ -339,7 +354,8 @@
         "websiteUrl": "http://www.mvcma.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=3108692804362967011&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJo4XVgg8p5YkR4xfej6JLJCs.jpg"
       },
       {
         "id": "ChIJXxF1OQot5YkRhAHRQuiws3g",
@@ -359,7 +375,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXxF1OQot5YkRhAHRQuiws3g/photos/AcnlKN1iN4VKO3G3E5_JLlPJz6A4X9u2dx_NtxEIGM5zNGEMGYDZ7P_zurLS66bxLY6sNls2usMQhkBt3t5ED0YC1RzJ_h3Gfeaf9MujDxmON1DUf2-6JTPnGBT7-oUXm2-wUBZBMcbgFmbzpG2J7jWCq-VZ2diO1oqH838EXwSkPyiIocT_-0q29cKirwdWUUs9aS9lz3_G_SYGCgNyoUX68aDPUBEn8NUiPxqMfold76UpAfq3QaHhGVhjm9zrARuvv8L5vNm8vL_66ZY4X-YXVoEKVaMR4ES0pGz30I5V70zPx8oYjdeQxM1JwnDTanPkGHvoZ_-P7nUiOdfebXW4bNt7qDIbRlCbJucoB82zIt1pBL1swYU1mkSaSZlpW4qhCAflDpi2997UMM44znOZAU7WS3aVS-434lZoi1aBtzDLCA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8697489816982454660&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJXxF1OQot5YkRhAHRQuiws3g.jpg"
       },
       {
         "id": "ChIJCaaQPgAp5YkRiWEOPEf8bOc",
@@ -379,7 +396,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJCaaQPgAp5YkRiWEOPEf8bOc/photos/AcnlKN0XmuRkqAzpgYWIGhTvA9qU0Xn3Mjf82o8QtogXahWsvICXvHT248ZZiXOXFgrX2nyR24bXQzPqRgINYy-Q3Pp8-Zrd81K9EG7fc5U7zfVJ9yH_nyFdWM0hJHBeeAIqv5M6aKZEfx_COtj7k_xecOX-cpVs2SFAs5EdIdyliGn6ljv-saQJyIfZ0ml4yqNMI2JLGHZ8ocuRcKwNvOiP-_u9uKwk42hpoKdOkiMZwChWzP1uIjMvIV2zkJhIIRjogqvqniy40KBjygPUwQHMBvy29qvnR7LB0PSrXrri1rQZTO7RNcPMAvuB3V_MhkRSRpyxgqAXqV-gAu3nok5E1ZxNg-2atvtcoo9MzcM_R6RPYo5_OFrvPTUEAuzx6emGNW6d58Yl7O5jQ3ommxqxkQg8V-Oo0KEG1cJsm-hRqN-E_g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16675980903126557065&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJCaaQPgAp5YkRiWEOPEf8bOc.jpg"
       },
       {
         "id": "ChIJdVYo7QIt5YkR8ZWy-bK7hsQ",
@@ -400,7 +418,8 @@
         "websiteUrl": "https://mvmuseum.org/visit/edgartown/",
         "googleMapsUrl": "https://maps.google.com/?cid=14161212455680906737&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJdVYo7QIt5YkR8ZWy-bK7hsQ.jpg"
       },
       {
         "id": "ChIJg_498SUs5YkRV9ZEDr7edmg",
@@ -421,7 +440,8 @@
         "websiteUrl": "https://edgartownfiremensassociation.org/about-1",
         "googleMapsUrl": "https://maps.google.com/?cid=7527448735060907607&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJg_498SUs5YkRV9ZEDr7edmg.jpg"
       },
       {
         "id": "ChIJG8DBGcs85YkRUkmysta31jo",
@@ -442,7 +462,8 @@
         "websiteUrl": "https://thetrustees.org/place/the-brickyard/",
         "googleMapsUrl": "https://maps.google.com/?cid=4239778231964813650&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJG8DBGcs85YkRUkmysta31jo.jpg"
       },
       {
         "id": "ChIJMx_2pSQs5YkRZjyt285-k1I",
@@ -463,7 +484,8 @@
         "websiteUrl": "https://vineyardtrust.org/property/vincent-house-gardens/",
         "googleMapsUrl": "https://maps.google.com/?cid=5950238959600483430&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJMx_2pSQs5YkRZjyt285-k1I.jpg"
       },
       {
         "id": "ChIJS1Ffj64p5YkR4WNmVx1Cn7I",
@@ -484,7 +506,8 @@
         "websiteUrl": "http://www.mvmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=12871078953835979745&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJS1Ffj64p5YkR4WNmVx1Cn7I.jpg"
       },
       {
         "id": "ChIJuV9NuSQs5YkRU9DRjbwcL-E",
@@ -505,7 +528,8 @@
         "websiteUrl": "http://www.vineyardtrust.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=16226219578597953619&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJuV9NuSQs5YkRU9DRjbwcL-E.jpg"
       },
       {
         "id": "ChIJDW4AIg8p5YkRc4dna37meHQ",
@@ -526,7 +550,8 @@
         "websiteUrl": "https://www.mvcma.org/museum-gift-shop-1",
         "googleMapsUrl": "https://maps.google.com/?cid=8392711336247134067&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJDW4AIg8p5YkRc4dna37meHQ.jpg"
       },
       {
         "id": "ChIJf1PD-Nwt5YkRZ7m4qA1kO3s",
@@ -547,7 +572,8 @@
         "websiteUrl": "https://thetrustees.org/place/farm-institute-the/",
         "googleMapsUrl": "https://maps.google.com/?cid=8879801100119095655&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJf1PD-Nwt5YkRZ7m4qA1kO3s.jpg"
       },
       {
         "id": "ChIJs0yqNeQ95YkRUsLYMbL9ML0",
@@ -567,7 +593,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJs0yqNeQ95YkRUsLYMbL9ML0/photos/AcnlKN29stBVnXQkk2Fafjo2H3iPUfSwUPSKu1YVtq9EPa53uQCOt1QxKeLkl00Nu5vKxrR8Cef7MdJuSAnhGGGUNyZTIdywToq0tbGCeqIQnH7X5059t9yb5ziVNEI7RhKtwoZrRfXwylI4CQxL_J8it-wTkSn3hl4okDp8OxoCJeaBTd7RR30PDJBky2LP4CItaikfE_uZrFkZx_5OfuSeVsI7GEP7F7AeNcmnvtqyQSK4ryL_g2ASdKWvgndVK2jcKaaihMu4PP38Wrhhq2AN7UeqqFDsP-E4ozBOESXN0wgav8CJLCDokehih9W1uowEtQ4_Y39gfE3ZGEB24AACsWXRaxxugGV8n7qKU0m7LsDKzMx7wAD0oNQ9yg6CXvBBZK_OXfIFChjLMXYLxte9CIkxYaZKPrVwQgYCd-NDBfRys8dX/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13632675013832786514&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:25.439Z",
-        "updatedAt": "2026-01-23T15:56:25.439Z"
+        "updatedAt": "2026-01-23T15:56:25.439Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJs0yqNeQ95YkRUsLYMbL9ML0.jpg"
       }
     ],
     "foodie": [
@@ -591,7 +618,8 @@
         "websiteUrl": "http://www.lookoutmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17405998653464380758&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ0YuJS5co5YkRVgWs7I2HjvE.jpg"
       },
       {
         "id": "ChIJP6SgOB095YkR5nRHyGjSMtM",
@@ -613,7 +641,8 @@
         "websiteUrl": "http://www.larsensfishmarket.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15218457438316885222&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJP6SgOB095YkR5nRHyGjSMtM.jpg"
       },
       {
         "id": "ChIJffZcLgkp5YkRaK-qv3B1MiM",
@@ -635,7 +664,8 @@
         "websiteUrl": "http://nancysrestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2536218667275431784&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJffZcLgkp5YkRaK-qv3B1MiM.jpg"
       },
       {
         "id": "ChIJz37-w-Ao5YkRchXs0eH7JjE",
@@ -657,7 +687,8 @@
         "websiteUrl": "http://www.backdoordonuts.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3541795104281597298&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJz37-w-Ao5YkRchXs0eH7JjE.jpg"
       },
       {
         "id": "ChIJa0n3oAkp5YkRkQyl9DXPcjs",
@@ -679,7 +710,8 @@
         "websiteUrl": "http://www.mvsandbar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4283714026227436689&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJa0n3oAkp5YkRkQyl9DXPcjs.jpg"
       },
       {
         "id": "ChIJtXFoMfoo5YkRMk7JWZGRsNg",
@@ -701,7 +733,8 @@
         "websiteUrl": "http://artcliffdiner.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15614139961556160050&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJtXFoMfoo5YkRMk7JWZGRsNg.jpg"
       },
       {
         "id": "ChIJiQCK5ZMo5YkRTLuCgIaF_rc",
@@ -723,7 +756,8 @@
         "websiteUrl": "https://www.watersidemarket.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13258181165753482060&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJiQCK5ZMo5YkRTLuCgIaF_rc.jpg"
       },
       {
         "id": "ChIJt3LALDss5YkRq4_C9xZp70w",
@@ -745,7 +779,8 @@
         "websiteUrl": "http://rosewatermv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5543765213683290027&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJt3LALDss5YkRq4_C9xZp70w.jpg"
       },
       {
         "id": "ChIJfw8T1nMp5YkRgYaaerPqOFo",
@@ -766,7 +801,8 @@
         "websiteUrl": "http://www.quitsakitchen.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6501204118686303873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJfw8T1nMp5YkRgYaaerPqOFo.jpg"
       },
       {
         "id": "ChIJeZmksQUp5YkROQXqga7jfP0",
@@ -788,7 +824,8 @@
         "websiteUrl": "http://moslunch.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18265724527351301433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJeZmksQUp5YkROQXqga7jfP0.jpg"
       },
       {
         "id": "ChIJDZ9kcxIv5YkRAlKn4svIkDs",
@@ -810,7 +847,8 @@
         "websiteUrl": "http://www.cozycornermv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4292151222890615298&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJDZ9kcxIv5YkRAlKn4svIkDs.jpg"
       },
       {
         "id": "ChIJXdBo2I895YkRe5V_5VcFdKc",
@@ -831,7 +869,8 @@
         "websiteUrl": "http://orangepeelbakery.squarespace.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12066275176703038843&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJXdBo2I895YkRe5V_5VcFdKc.jpg"
       },
       {
         "id": "ChIJFxwdz_Qu5YkRDcgbIrGL7f8",
@@ -852,7 +891,8 @@
         "websiteUrl": "http://www.morninggloryfarm.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18441549642049767437&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJFxwdz_Qu5YkRDcgbIrGL7f8.jpg"
       },
       {
         "id": "ChIJv17eR3Up5YkRXuxl6ZGmToo",
@@ -873,7 +913,8 @@
         "websiteUrl": "http://www.catboatcoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9966086171033726046&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJv17eR3Up5YkRXuxl6ZGmToo.jpg"
       },
       {
         "id": "ChIJYXvI4Nsp5YkRf7dkLHCebSA",
@@ -895,7 +936,8 @@
         "websiteUrl": "http://www.aaliascoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2336697986293479295&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJYXvI4Nsp5YkRf7dkLHCebSA.jpg"
       },
       {
         "id": "ChIJz4WrN9Yp5YkRHr-X81v1Xls",
@@ -917,7 +959,8 @@
         "websiteUrl": "https://www.winstonskitchen-mv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6583969480539881246&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJz4WrN9Yp5YkRHr-X81v1Xls.jpg"
       },
       {
         "id": "ChIJ6xP1Z54u5YkRU2A7PX5JzYg",
@@ -939,7 +982,8 @@
         "websiteUrl": "http://www.mvsquarerigger.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9857615965925892179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ6xP1Z54u5YkRU2A7PX5JzYg.jpg"
       },
       {
         "id": "ChIJdT8Fjtsp5YkRDTOr0N2p9B0",
@@ -961,7 +1005,8 @@
         "websiteUrl": "https://www.nomansmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2158536891571057421&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJdT8Fjtsp5YkRDTOr0N2p9B0.jpg"
       },
       {
         "id": "ChIJ1QEpTTss5YkRowzqBFnQ0l8",
@@ -983,7 +1028,8 @@
         "websiteUrl": "http://www.espressolove.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6904810259465505955&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ1QEpTTss5YkRowzqBFnQ0l8.jpg"
       },
       {
         "id": "ChIJMRIDGZQo5YkR4KsMAEtAklk",
@@ -1005,7 +1051,8 @@
         "websiteUrl": "http://bobbybsmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6454291906842897376&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJMRIDGZQo5YkR4KsMAEtAklk.jpg"
       },
       {
         "id": "ChIJDzCw0qgp5YkRU5qOu821qoQ",
@@ -1026,7 +1073,8 @@
         "websiteUrl": "https://www.oceanclubmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9559653054266907219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJDzCw0qgp5YkRU5qOu821qoQ.jpg"
       },
       {
         "id": "ChIJdYq8Sv8k5YkRrPUVGvGHNiM",
@@ -1048,7 +1096,8 @@
         "websiteUrl": "https://www.stateroadrestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2537364909664368044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJdYq8Sv8k5YkRrPUVGvGHNiM.jpg"
       },
       {
         "id": "ChIJ9RByOVMp5YkRxrnjCKLAQw8",
@@ -1069,7 +1118,8 @@
         "websiteUrl": "https://www.sskitchenette.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1099934536174909894&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ9RByOVMp5YkRxrnjCKLAQw8.png"
       },
       {
         "id": "ChIJ7QJRKwYm5YkRYFcL99r-ojM",
@@ -1091,7 +1141,8 @@
         "websiteUrl": "http://scottishbakehousemv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3720816458562492256&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ7QJRKwYm5YkRYFcL99r-ojM.jpg"
       },
       {
         "id": "ChIJs9y0C6Mo5YkRCkdfwMLo_tg",
@@ -1112,7 +1163,8 @@
         "websiteUrl": "http://www.vineyardgrocer.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15636190879425709834&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJs9y0C6Mo5YkRCkdfwMLo_tg.jpg"
       },
       {
         "id": "ChIJ8SSqxXsv5YkRzO_2Ddpltso",
@@ -1133,7 +1185,8 @@
         "websiteUrl": "http://mvyairport.com/dining/",
         "googleMapsUrl": "https://maps.google.com/?cid=14606974428634345420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ8SSqxXsv5YkRzO_2Ddpltso.jpg"
       },
       {
         "id": "ChIJ1aU2NDss5YkRtFCT33j57a8",
@@ -1155,7 +1208,8 @@
         "websiteUrl": "http://edgartowndiner.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12677062823660179636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ1aU2NDss5YkRtFCT33j57a8.jpg"
       },
       {
         "id": "ChIJA1KJ8qYo5YkRnejzEDqv9zo",
@@ -1176,7 +1230,8 @@
         "websiteUrl": "http://woodlandvarietyandgrill.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4249057437374736541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:26.986Z",
-        "updatedAt": "2026-01-23T15:56:26.986Z"
+        "updatedAt": "2026-01-23T15:56:26.986Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJA1KJ8qYo5YkRnejzEDqv9zo.jpg"
       }
     ],
     "adventure": [
@@ -1199,7 +1254,8 @@
         "websiteUrl": "https://rideawayadventures.com/?utm_source=gmb_mashpee&utm_medium=organic&utm_campaign=listing",
         "googleMapsUrl": "https://maps.google.com/?cid=9810849084635350279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:28.437Z",
-        "updatedAt": "2026-01-23T15:56:28.437Z"
+        "updatedAt": "2026-01-23T15:56:28.437Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJjdcueHzT5IkRBwWoKkMjJ4g.jpg"
       },
       {
         "id": "ChIJo34u2zHL5IkREU4H_rh4FdY",
@@ -1220,7 +1276,8 @@
         "websiteUrl": "https://rideawayadventures.com/?utm_source=gmb_6a&utm_medium=organic&utm_campaign=listing",
         "googleMapsUrl": "https://maps.google.com/?cid=15426368834558709265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:28.437Z",
-        "updatedAt": "2026-01-23T15:56:28.437Z"
+        "updatedAt": "2026-01-23T15:56:28.437Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJo34u2zHL5IkREU4H_rh4FdY.jpg"
       },
       {
         "id": "ChIJd-gBHAwp5YkRSyZF7TIKGYY",
@@ -1240,7 +1297,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJd-gBHAwp5YkRSyZF7TIKGYY/photos/AcnlKN1CWfpw9c8DK5jDj_pUSQ6OMVDadhi7iQFD2BUgTFAGrbev5O_MImFHLFt5W_DNtsO0WdQBAPQ0QTFuGa6jXNmY6_iOpvnl5BI29kQdonnlubL-hjk-g20E4KAw5LL33U_0uxJfVrDetks42IY_5VAC5K1s7-sWyShNN4CzRrGiYXaNKGuCCasJ6Hh7zBF33un_dif5aGmq_H6GjUUXvtZOH4n4u3Pc5OsV-t3bJfkO06n6Akh8vZZD__SYF6p0J6x7KCsx-GMyPTy0dAKzRW5OsdpNLAINWJBWIHN4fmXVD6jmTfQTgttUh8h0LT9ZGD6JXwiGTVjR-MnmyCZyDWpis3wEda5UJ3_McvGqgXCBcByAgglZm_-RcyPbDe5MEgeAKCmr6qMKDhhDqkGZ82TRJTH81cWHBsg5OEiUvZfpqw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9662765689345484363&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.437Z",
-        "updatedAt": "2026-01-23T15:56:28.437Z"
+        "updatedAt": "2026-01-23T15:56:28.437Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJd-gBHAwp5YkRSyZF7TIKGYY.jpg"
       },
       {
         "id": "ChIJj3JaCTws5YkRj4-qfY56rJk",
@@ -1260,7 +1318,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj3JaCTws5YkRj4-qfY56rJk/photos/AcnlKN2YwFAYLDGdKTXORUmQHikaLcpm33z_S8ycIv8mNOCj6w-LQjSdqLcbbqHxOzzGrbtVvmAdVDgr8_ZX9Qhx2BID1OANRLr3bcnHTz48hoKzlSjQRblXscohUf3cw6k4QC3ZypZ1_ae48I2cOl2j5z7fc-1D7rWn3nKKuxKuv9q5DwG_Z-rBPLE8id75kxLT4cIDrpDrpCrSePW7r1PRyxCKJ3UaeTEiQeklh6GUHzchTZo1VeJbx54gzOcxWisZE4Fakv9T7o2wsx00XZoOB3c7pA8Bqlg4-IBdr17C8G6cwbEswbLAyrcLmrH68FrvwfyKbi3ohQU7L5eWFXu2hs7uxyE5Ay6WVQTwesVbvyeUcRCjAWgSZxRTFF_AtFxOzG4XhB5EsvuHACDuSUtzh6XNutESYbyzRH_lJTAbUjSYvrk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11073360336209481615&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.437Z",
-        "updatedAt": "2026-01-23T15:56:28.437Z"
+        "updatedAt": "2026-01-23T15:56:28.437Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJj3JaCTws5YkRj4-qfY56rJk.jpg"
       },
       {
         "id": "ChIJ1y4UqLFL5IkRSVCfGHjpBRQ",
@@ -1281,7 +1340,8 @@
         "websiteUrl": "https://www.urbanair.com/rhode-island-warwick/",
         "googleMapsUrl": "https://maps.google.com/?cid=1442815957660553289&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:28.437Z",
-        "updatedAt": "2026-01-23T15:56:28.437Z"
+        "updatedAt": "2026-01-23T15:56:28.437Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ1y4UqLFL5IkRSVCfGHjpBRQ.jpg"
       },
       {
         "id": "ChIJm1BKwTnY5IkRM8kna1o8IFI",
@@ -1302,7 +1362,8 @@
         "websiteUrl": "https://www.spohrgardens.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=5917796269407324467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:28.437Z",
-        "updatedAt": "2026-01-23T15:56:28.437Z"
+        "updatedAt": "2026-01-23T15:56:28.437Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJm1BKwTnY5IkRM8kna1o8IFI.jpg"
       },
       {
         "id": "ChIJ62Gny9fz5IkRssi7l1-fx94",
@@ -1323,7 +1384,8 @@
         "websiteUrl": "http://www.outdoorwoodlandlearners.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16052974629701798066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ62Gny9fz5IkRssi7l1-fx94.jpg"
       },
       {
         "id": "ChIJ149hUBo75YkRd0OmspN1AZ8",
@@ -1343,7 +1405,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ149hUBo75YkRd0OmspN1AZ8/photos/AcnlKN1aWkQOM6SkH8uj-W2f_3NWGTaZSg-KtZmB6iEF3Y-u8e4G3Le5rKYP2mp1mtW8u0FFm_D-8xXb8FWMF6IvLNTNl49GwbMrMOQQCNGMGmMt3mY_uudEgRMv-lz7YwPefZO2dFQVlQjzfq7Wl9PUUlUKWuWRaHExgC98IwGdWVl18Jb_tAqzykx_t1b_yNlTIsEg7DLlIvyTo_rvg95aOSGuIzs7iRBqNZgNFE58Mfp7chkLQWbRKdKitzIsQKkGQJMyDbhNmrsE9ziQaxTNjUvSEww0s1bsn5QzVOFBqtIxQFtPTflAy5mnQjWJWjC8OQgavcS2ULOczmh-p-3WWdMHATPFdESQ8Uz6VA-B5Y-ILIwAfDCGHs9AkPSvLk1Z1TqEk8aAOQ25jT8IxLwhyUuGXYd7aIHttTHqdHhovKf-IE0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11457568204225135479&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ149hUBo75YkRd0OmspN1AZ8.jpg"
       },
       {
         "id": "ChIJKw4bm6k75YkRwPafnJ9wurc",
@@ -1364,7 +1427,8 @@
         "websiteUrl": "https://sheriffsmeadow.org/property/quansoo-farm/",
         "googleMapsUrl": "https://maps.google.com/?cid=13239017885438834368&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJKw4bm6k75YkRwPafnJ9wurc.jpg"
       },
       {
         "id": "ChIJoaPIW6gt5YkRvb7UM1HCbw8",
@@ -1384,7 +1448,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJoaPIW6gt5YkRvb7UM1HCbw8/photos/AcnlKN3dj4FEQ569sqQRn8Zacx36qLPWOrnlpRKoC6nyCZIPs6BAX-lAMldK6sv-2da9HACamTM7xHK11G2cds-KNq18SrP3wfHuLkJbRGC9FwpjOmJktIuACSYJUPlF_uCyvM-37wGh7J5GY1SuU71vfXPgdiGzWrpGa5AVyEczCiedzGuibCVBmgfr6mxDsjPQHtheS1Oyhf3ieC_CAbseZnVn_9cUJv-qTOnrKWsLfvTSGtnl9vgbzE1u4Huzrecw7aDXbVKf_bqmDgbPSK9C-g4ccPuymM53h8lwIW418PhNuTgkVUgoMkbbvgBQIzBk72zo1DPK7lq4plU7m92zj95zLOyNiTZjJ1Rwvls3hnGGJ9tSy3m1m60dmhk74J0MmC7-InBHhNLzN4sv35z9-mTUiUvUSwbvE-ZoCcWEZeK7vA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1112321287001521853&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJoaPIW6gt5YkRvb7UM1HCbw8.jpg"
       },
       {
         "id": "ChIJDe3DDcIl5YkRPhkR6vEIUBM",
@@ -1404,7 +1469,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDe3DDcIl5YkRPhkR6vEIUBM/photos/AcnlKN1Zrdxo1k3Ho1fOp9z6ON3UTJvQMUF6DPDhTISRmCDJRbQb2Ao4469PNuum9huITEuJlyk27VWxFXcAfdOwxEohGE5FEHYFdCPimq6DrdEinHR5-qT79EZMUlHVSnzFckOWnyenuNijFcPx-A1mjrs05zRMhmDeH3vI-GmPQbpDYZ6DGA-sZ86rNC0RROvWGeJDzfTTV0lzrXDq3e6rDX0qFWEHrDcuQtuPz626IfbZn1sMmQXQqYo2LSYt213lQtNbGCSd0XzmXY5D3i43bU8WTJdZoNks_Cx9ip1is_kWPbc5XzOtxHiFEYXHgD77twNDzlJlYwThS7WztM0oEzaVTmdA5vCzpbCbEbzjpNq07lupvaozARzcCN3E_Fy4o2ylW1A9jsPCRQxpnkyQVMm0R17LZJenXkXTZFixM0k/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1391622119964612926&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJDe3DDcIl5YkRPhkR6vEIUBM.jpg"
       },
       {
         "id": "ChIJR9QyEwA95YkRJtyBWRcn9e4",
@@ -1425,7 +1491,8 @@
         "websiteUrl": "https://www.mvlandbank.com/properties/squibnocket-pond-reservation",
         "googleMapsUrl": "https://maps.google.com/?cid=17218711731560373286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJR9QyEwA95YkRJtyBWRcn9e4.jpg"
       },
       {
         "id": "ChIJQ7IcVxEk5YkRxfvozDvLKjs",
@@ -1446,7 +1513,8 @@
         "websiteUrl": "https://sheriffsmeadow.org/property/cedar-tree-neck-sanctuary/",
         "googleMapsUrl": "https://maps.google.com/?cid=4263443454960925637&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJQ7IcVxEk5YkRxfvozDvLKjs.jpg"
       },
       {
         "id": "ChIJNYfkpPok5YkRumkIKHDku9I",
@@ -1467,7 +1535,8 @@
         "websiteUrl": "http://www.pollyhillarboretum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=15184981738968869306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJNYfkpPok5YkRumkIKHDku9I.jpg"
       },
       {
         "id": "ChIJ0cpqDLQo5YkRHmrGPC9TPk0",
@@ -1488,7 +1557,8 @@
         "websiteUrl": "http://www.mvadventurecamp.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5565977651824716318&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ0cpqDLQo5YkRHmrGPC9TPk0.jpg"
       },
       {
         "id": "ChIJYcPoJ4Am5YkRR_PpazNV4x8",
@@ -1509,7 +1579,8 @@
         "websiteUrl": "https://www.westtisbury-ma.gov/Boards/park-and-rec.html",
         "googleMapsUrl": "https://maps.google.com/?cid=2297773914231272263&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJYcPoJ4Am5YkRR_PpazNV4x8.jpg"
       },
       {
         "id": "ChIJe3Sjmd085YkRVGaR9Qw3lV8",
@@ -1530,7 +1601,8 @@
         "websiteUrl": "https://thetrustees.org/place/menemsha-hills/",
         "googleMapsUrl": "https://maps.google.com/?cid=6887471733932123732&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJe3Sjmd085YkRVGaR9Qw3lV8.jpg"
       },
       {
         "id": "ChIJF3qwCUoj5YkRmBO6gEYz0v0",
@@ -1551,7 +1623,8 @@
         "websiteUrl": "http://mvlandbank.com/34great.shtml",
         "googleMapsUrl": "https://maps.google.com/?cid=18289737414605411224&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJF3qwCUoj5YkRmBO6gEYz0v0.jpg"
       },
       {
         "id": "ChIJn2D50jsv5YkRoFcbxGzBpgk",
@@ -1572,7 +1645,8 @@
         "websiteUrl": "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/felix-neck",
         "googleMapsUrl": "https://maps.google.com/?cid=695455865366075296&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJn2D50jsv5YkRoFcbxGzBpgk.jpg"
       },
       {
         "id": "ChIJf3GAXicp5YkREEuPmqMynfU",
@@ -1592,7 +1666,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJf3GAXicp5YkREEuPmqMynfU/photos/AcnlKN2IUChUh1Voo7aWMpy9Dc1Z7ms-yBl-W7ojOKXHFB7beQ-hLf9Wm1dMRJKrMEFh4ev3m_7_9XUE-3RxIv3dmO3cv2mCCOL1mxxphbcXRDgh7tKNYnP48lG_w6xnS-hxjP-Nk7q5EZ_6e9l_0NJp41Xt70hhAQ3ywDau7IEE2Rakwp6zlnu_lYWV3qWYZQ4jJ-5tReXm90mGAfmQUhrvr2Nc6d6K43ZtzMmg3_yBmC-LkwOMn0sj78E7GiGn8LLFQAujPT-VBFNoPYiFMyseJT1RYKUegGAI2oBAQT4jpyZRYOao-5hq4pAHk1_aL0SOAK2Tg4bqkqF_JFo2SnT7Q0rEdDasfPFI7Q9SmR0HSOxNO5dr2QMyP4eOfwvvrPO8TtLiYJ2uFNt1AqA9mimLR5FhWMaNC8O_e4MoGmnYye6IoPo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17698357788890057488&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJf3GAXicp5YkREEuPmqMynfU.jpg"
       },
       {
         "id": "ChIJv-ofsUIv5YkRvanzRx87OiM",
@@ -1613,7 +1688,8 @@
         "websiteUrl": "https://www.mass.gov/locations/manuel-f-correllus-state-forest",
         "googleMapsUrl": "https://maps.google.com/?cid=2538406345513871805&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJv-ofsUIv5YkRvanzRx87OiM.jpg"
       },
       {
         "id": "ChIJD3XaT_ev5YkR397eTF2c1h4",
@@ -1634,7 +1710,8 @@
         "websiteUrl": "https://islandadventures401.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2222135390689484511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJD3XaT_ev5YkR397eTF2c1h4.jpg"
       },
       {
         "id": "ChIJ0WUU0w8p5YkR5SJc7lBKhho",
@@ -1654,7 +1731,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0WUU0w8p5YkR5SJc7lBKhho/photos/AcnlKN2Bec9w_4HnmrxlsnlXq2hSAxe8WQCso7JjindRWpqZQ7KFefVOh9wGMwzN0-CIBe2jnaFRG-q5GuFo2iBku7XwqDZ5vgbUxAJbHxcZYLu_YGzHYXJ2-sgBZSIZfDerKh8NPqmWpbY4cdX0dAjsuOh7lL-HTf82fnQpO7cdLdEB622CtD0qJQCJGd4ofWnlrnAniLQBW7WW5KMQSjB6upwAl0yhgkx6TjqVYloaHszeCOlKKBPBtLYoz5oYpJfEjVXrG9VLKW8gAJPxWBZsXK76_pNDxdJyV7jb03ewKOErzoEeqZ3yqKAFys8w4HqyYILbdOtyIcChWw2d4gi95M0hzwmrIMS4t1OIGUNBOh5hDt1PfNKGpqRRhdI3nZUDYAHsw9O-gQ9E8_5oRryHS7cT1iqXnxhaoPaaQpKU3kq_eQnX/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1911296803322208997&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ0WUU0w8p5YkR5SJc7lBKhho.jpg"
       },
       {
         "id": "ChIJ4S4bDdAu5YkRTS7gEckiSJk",
@@ -1675,7 +1753,8 @@
         "websiteUrl": "http://massaudubon.org/felixneck",
         "googleMapsUrl": "https://maps.google.com/?cid=11045116333109816909&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ4S4bDdAu5YkRTS7gEckiSJk.jpg"
       },
       {
         "id": "ChIJzQlZtIov5YkRjNKmUDKD9nQ",
@@ -1696,7 +1775,8 @@
         "websiteUrl": "http://www.thetrustees.org/places-to-visit/cape-cod-islands/long-point.html",
         "googleMapsUrl": "https://maps.google.com/?cid=8428068004795175564&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:28.438Z",
-        "updatedAt": "2026-01-23T15:56:28.438Z"
+        "updatedAt": "2026-01-23T15:56:28.438Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJzQlZtIov5YkRjNKmUDKD9nQ.jpg"
       }
     ],
     "cultural": [
@@ -1719,7 +1799,8 @@
         "websiteUrl": "http://newportcarmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=7824185907926766227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:29.581Z",
-        "updatedAt": "2026-01-23T15:56:29.581Z"
+        "updatedAt": "2026-01-23T15:56:29.581Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJIV3pn46r5YkRk5KXAqEXlWw.jpg"
       },
       {
         "id": "ChIJZY9gPvHj5IkRSj0pHzyH-pY",
@@ -1740,7 +1821,8 @@
         "websiteUrl": "http://www.whalingmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=10879156542157438282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJZY9gPvHj5IkRSj0pHzyH-pY.jpg"
       },
       {
         "id": "ChIJF8ZeSxZF5IkRvBdY0FYlEUk",
@@ -1761,7 +1843,8 @@
         "websiteUrl": "https://risdmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=5265030494165669820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJF8ZeSxZF5IkRvBdY0FYlEUk.jpg"
       },
       {
         "id": "ChIJMyvqXGw6-4kRRlbWkl2vdQ4",
@@ -1782,7 +1865,8 @@
         "websiteUrl": "http://www.discoverpirates.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1041931705236477510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJMyvqXGw6-4kRRlbWkl2vdQ4.jpg"
       },
       {
         "id": "ChIJ6TynNpE95YkRYZJY83HRq68",
@@ -1803,7 +1887,8 @@
         "websiteUrl": "http://islandfolkpottery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12658441464999088737&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ6TynNpE95YkRYZJY83HRq68.jpg"
       },
       {
         "id": "ChIJo7OIOoEt5YkRu6Wztt8v0r8",
@@ -1824,7 +1909,8 @@
         "websiteUrl": "http://www.junipermv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13822162844242912699&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJo7OIOoEt5YkRu6Wztt8v0r8.jpg"
       },
       {
         "id": "ChIJMRa6FiUs5YkRAwXEJG6aL2c",
@@ -1845,7 +1931,8 @@
         "websiteUrl": "http://www.mvmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=7435331307665884419&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJMRa6FiUs5YkRAwXEJG6aL2c.png"
       },
       {
         "id": "ChIJhXJiRiEp5YkRyK7cC-kCHlA",
@@ -1866,7 +1953,8 @@
         "websiteUrl": "https://www.mariposamuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=5773054972285202120&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJhXJiRiEp5YkRyK7cC-kCHlA.jpg"
       },
       {
         "id": "ChIJXxF1OQot5YkRhAHRQuiws3g",
@@ -1886,7 +1974,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXxF1OQot5YkRhAHRQuiws3g/photos/AcnlKN00QPVYF3Yuf0zZ0Hcz9jGj-BgRAd-OQ_zvmCD8cmppiak2q1J1Pri4FzpY9vFdJuDAIbLwCkd9wI3QZSMPu7znI_qepM8O-2eBs_sghR7w5dWi6YEtJ14qjgx1TehdpoNH48rDfF3n1cyuEy_UeVsJK33SabCQbh3j-R6ch-dZYfCxElGUIWqYfZAdWz7eIg3mygcpY64pSap18h-ITJp1wcyDMa8dqTvl9FciAsFlaH3ww3Ba-T5nXagY7LqnYhm9ULBpPYbR6CTU3rSPMgAK5KatfjulqqtZ95jr02io1vfUb2RoEq9bgdrCKTuZFEZ76mPVEfOtNDfU10roAS0nldtlQf-yZ7NQLJj1kAHxOgmTOhRyOTLweqtmYvRLLx-JWlCDF4pxLmjjVqhsm63zFhCfXmAKvLBAGWxbWH04TA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8697489816982454660&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJXxF1OQot5YkRhAHRQuiws3g.jpg"
       },
       {
         "id": "ChIJSY1nuf4p5YkRBHGdcQnAHO4",
@@ -1907,7 +1996,8 @@
         "websiteUrl": "http://www.knowhereart.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17157799827168129284&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJSY1nuf4p5YkRBHGdcQnAHO4.jpg"
       },
       {
         "id": "ChIJdTi4VZEo5YkRYPCAaEjJTUg",
@@ -1928,7 +2018,8 @@
         "websiteUrl": "http://mvplayhouse.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=5210041656765640800&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJdTi4VZEo5YkRYPCAaEjJTUg.jpg"
       },
       {
         "id": "ChIJPegBoD4X44kRow6Xob9rXFQ",
@@ -1949,7 +2040,8 @@
         "websiteUrl": "https://granarygallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6078852067837284003&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJPegBoD4X44kRow6Xob9rXFQ.jpg"
       },
       {
         "id": "ChIJveQOut4k5YkRguxw13CLfio",
@@ -1970,7 +2062,8 @@
         "websiteUrl": "https://fieldgallery.com/index.php",
         "googleMapsUrl": "https://maps.google.com/?cid=3062038113425616002&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJveQOut4k5YkRguxw13CLfio.jpg"
       },
       {
         "id": "ChIJg_498SUs5YkRV9ZEDr7edmg",
@@ -1991,7 +2084,8 @@
         "websiteUrl": "https://edgartownfiremensassociation.org/about-1",
         "googleMapsUrl": "https://maps.google.com/?cid=7527448735060907607&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJg_498SUs5YkRV9ZEDr7edmg.jpg"
       },
       {
         "id": "ChIJW-n3fR0m5YkRxtPNzDno-Gk",
@@ -2012,7 +2106,8 @@
         "websiteUrl": "http://www.mvplayhouse.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=7636108503153497030&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJW-n3fR0m5YkRxtPNzDno-Gk.jpg"
       },
       {
         "id": "ChIJjU_1djss5YkRe26CjCFBUxE",
@@ -2033,7 +2128,8 @@
         "websiteUrl": "http://www.eisenhauergallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1248413134058843771&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJjU_1djss5YkRe26CjCFBUxE.jpg"
       },
       {
         "id": "ChIJMx_2pSQs5YkRZjyt285-k1I",
@@ -2054,7 +2150,8 @@
         "websiteUrl": "https://vineyardtrust.org/property/vincent-house-gardens/",
         "googleMapsUrl": "https://maps.google.com/?cid=5950238959600483430&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJMx_2pSQs5YkRZjyt285-k1I.jpg"
       },
       {
         "id": "ChIJIxtGjqc85YkRrFuOcD7NQS4",
@@ -2075,7 +2172,8 @@
         "websiteUrl": "http://www.dancetheyard.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=3333170867290921900&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJIxtGjqc85YkRrFuOcD7NQS4.jpg"
       },
       {
         "id": "ChIJod63MDgv5YkRQoCBYlMKl9o",
@@ -2096,7 +2194,8 @@
         "websiteUrl": "http://www.mvrhs.org/performing-arts/marthas-vineyard-performing-arts-center/",
         "googleMapsUrl": "https://maps.google.com/?cid=15751069575002816578&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJod63MDgv5YkRQoCBYlMKl9o.jpg"
       },
       {
         "id": "ChIJW4Xxrvgk5YkRw5PKwSqIGkY",
@@ -2117,7 +2216,8 @@
         "websiteUrl": "http://www.mvglassworks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5051499649270715331&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJW4Xxrvgk5YkRw5PKwSqIGkY.jpg"
       },
       {
         "id": "ChIJtf-MNAjT5IkRJSSr24UwwwY",
@@ -2138,7 +2238,8 @@
         "websiteUrl": "http://www.capecodchildrensmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=487286536160355365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJtf-MNAjT5IkRJSSr24UwwwY.jpg"
       },
       {
         "id": "ChIJMU2nEn_n5IkRiGffFAk0md8",
@@ -2159,7 +2260,8 @@
         "websiteUrl": "http://mattapoisettmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=16111966355504195464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJMU2nEn_n5IkRiGffFAk0md8.jpg"
       },
       {
         "id": "ChIJPTfeozss5YkRDztb-LZY69k",
@@ -2180,7 +2282,8 @@
         "websiteUrl": "https://oldsculpingallery.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=15702742068631386895&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJPTfeozss5YkRDztb-LZY69k.jpg"
       },
       {
         "id": "ChIJiaM7JZhP5IkRhOl4qezctIs",
@@ -2201,7 +2304,8 @@
         "websiteUrl": "http://www.providenceri.gov/museum",
         "googleMapsUrl": "https://maps.google.com/?cid=10066913976093567364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJiaM7JZhP5IkRhOl4qezctIs.jpg"
       },
       {
         "id": "ChIJi_r6H0ov5YkR7W3glZCn38A",
@@ -2222,7 +2326,8 @@
         "websiteUrl": "http://www.featherstoneart.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=13898011214520282605&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJi_r6H0ov5YkR7W3glZCn38A.jpg"
       },
       {
         "id": "ChIJDW4AIg8p5YkRc4dna37meHQ",
@@ -2243,7 +2348,8 @@
         "websiteUrl": "https://www.mvcma.org/museum-gift-shop-1",
         "googleMapsUrl": "https://maps.google.com/?cid=8392711336247134067&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJDW4AIg8p5YkRc4dna37meHQ.jpg"
       },
       {
         "id": "ChIJBQGxcjss5YkRmNhNoT6kFho",
@@ -2264,7 +2370,8 @@
         "websiteUrl": "https://northwatergallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1879870483374921880&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:29.582Z",
-        "updatedAt": "2026-01-23T15:56:29.582Z"
+        "updatedAt": "2026-01-23T15:56:29.582Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJBQGxcjss5YkRmNhNoT6kFho.jpg"
       }
     ],
     "relaxation": [
@@ -2286,7 +2393,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJd-gBHAwp5YkRSyZF7TIKGYY/photos/AcnlKN3E9pH5qXoVimDiv99jB19aqZCaKmzD6ISa1FLofb4LdpIX1VIjyDGmeNOwCBDjCy82uCpJEw9iTaoRjRpDCqcYAMX4adJog3Kxc-q1EqM75OnrbWglqZQrO4fomPkbOWcwT_EM6pFKD5UlCmUianCOoFEKBbyn6egCmmhBvodpZE4PInZzNUK031271ZYAbETOre9keIj28RQ0Rk68Q5EDQDcfAQtUHFaEZNIrBXndrDAlqe1Rko6qHN4DLs7MM1QGdIl9-fDgPhd66yvjUFt8dhOK8HJiqinJf0eTxpnpU2wiGretaZvpJMswC39Az8Li2f_ghNeyzxjdv79nY3Z-mATO8Wv-v85RSq9xDeR939EpkfgKk3lhHfV0nGLBOPN5Cmlrazdj2mvy4JpAXLEL4yaH8heS_Q3f4cLvSNye9Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9662765689345484363&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.950Z",
-        "updatedAt": "2026-01-23T15:56:30.950Z"
+        "updatedAt": "2026-01-23T15:56:30.950Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJd-gBHAwp5YkRSyZF7TIKGYY.jpg"
       },
       {
         "id": "ChIJj3JaCTws5YkRj4-qfY56rJk",
@@ -2306,7 +2414,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj3JaCTws5YkRj4-qfY56rJk/photos/AcnlKN01X9uouE5aUO8D_6GNCplEx8CA5YHUP2XFU4dpP83iRFOvxHIIVbL0C1vANCFpiwAHz_v7_sbST44KepHm9y610iGIfIed3uOMWtEAak_F8kx7U8NFU6JkX9SkHzACJPoQq7Ekgu0xRZjbWSBIz_33AO2M08oydSiquh3QoKB-AWuBnmXTWCvXzz83M-ReRPH_HT2lUGhowIZDkLClz_MLGhRtfs5ZFRlKhx0QxkbMGUxhsSDkWzTOO3DHnsX-oR3SLhGY_mz2ZAgXM3JXBsCEDoaWdQW8inz2_XztV42fkRKn7kOdH59tEnv9TmsidvEiN-mazXQZqLyDWnsCoStTyV4bFgoVciAJPVupxbpIedsxjtGppHpTa43GhPGBfUF9z6uh_HYmnaBr46GKms5VfFW4aCQEwraU6ABSQoGuI0U/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11073360336209481615&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJj3JaCTws5YkRj4-qfY56rJk.jpg"
       },
       {
         "id": "ChIJTVq08HYp5YkR1jJTaEZenks",
@@ -2327,7 +2436,8 @@
         "websiteUrl": "http://islandaestheticsmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5448896255655883478&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJTVq08HYp5YkR1jJTaEZenks.jpg"
       },
       {
         "id": "ChIJg-pf8JMo5YkRxVMEV1AfwPE",
@@ -2348,7 +2458,8 @@
         "websiteUrl": "http://revivebysarka.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17419957788586824645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJg-pf8JMo5YkRxVMEV1AfwPE.jpg"
       },
       {
         "id": "ChIJk0I0TCEv5YkRBh0qlg57sP0",
@@ -2369,7 +2480,8 @@
         "websiteUrl": "http://thenordicmermaid.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18280246190075944198&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJk0I0TCEv5YkRBh0qlg57sP0.jpg"
       },
       {
         "id": "ChIJj-EtNgEt5YkRqbWmJnbsujc",
@@ -2390,7 +2502,8 @@
         "websiteUrl": "http://botanicalbeautymv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4015782009952974249&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJj-EtNgEt5YkRqbWmJnbsujc.jpg"
       },
       {
         "id": "ChIJB3QBnbUp5YkRtJCrDZxxGZE",
@@ -2411,7 +2524,8 @@
         "websiteUrl": "http://www.saltspamv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10455512924975501492&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJB3QBnbUp5YkRtJCrDZxxGZE.jpg"
       },
       {
         "id": "ChIJm1BKwTnY5IkRM8kna1o8IFI",
@@ -2432,7 +2546,8 @@
         "websiteUrl": "https://www.spohrgardens.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=5917796269407324467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJm1BKwTnY5IkRM8kna1o8IFI.jpg"
       },
       {
         "id": "ChIJXxZlbMnZ5IkRGB69A7bOLIg",
@@ -2452,7 +2567,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXxZlbMnZ5IkRGB69A7bOLIg/photos/AcnlKN14-PLl30VvVM2vkWqAnyeFY47cZ1Cfa2yU4yYh-Jp0VbqPBPuLkzbio1QP7cIzmRmzLBx3PLvM1pMhz1avRt-vDaMXGRoXs4ATTj0QOizoghuNNTbb4DOeFR8nWXOouf7QovrVIW0Prg2EJOc2BDFskPpkODN0FsuZbe61Ogf6A-vDsONzUgkcfe7NPy5rEf_M14YLnqM6OWD5OBNONY_K4vT9CNpO2TqJzuMPzYmvUEXg3KTTiZQHXKtesrUyutoW-hYTn2PHJIJmkzcEunLY16ea6BddE8oWeqCjIYIO2fHGxvu2xRxh6vDY48wCq2WwPBFI1YHJMeN1A5FnsBgMSrencF0cbkEZKywZlDBh2qQSkJHCo8YLZkAMP6FSN86jQso93GQmTcbMDFvbZ-Iv0mw2IHBZUOsaOq39aJorpo_n/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9812444969275563544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJXxZlbMnZ5IkRGB69A7bOLIg.jpg"
       },
       {
         "id": "ChIJ6Ql-N1Mk5YkR3gCJc_zCRfk",
@@ -2473,7 +2589,8 @@
         "websiteUrl": "https://www.vineyardgardens.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=17961977078362996958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ6Ql-N1Mk5YkR3gCJc_zCRfk.jpg"
       },
       {
         "id": "ChIJQ7IcVxEk5YkRxfvozDvLKjs",
@@ -2494,7 +2611,8 @@
         "websiteUrl": "https://sheriffsmeadow.org/property/cedar-tree-neck-sanctuary/",
         "googleMapsUrl": "https://maps.google.com/?cid=4263443454960925637&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJQ7IcVxEk5YkRxfvozDvLKjs.jpg"
       },
       {
         "id": "ChIJjZ_W7qMo5YkRWmcdxD_3AYI",
@@ -2515,7 +2633,8 @@
         "websiteUrl": "http://www.missmarycosmetics.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9368040553152603994&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJjZ_W7qMo5YkRWmcdxD_3AYI.jpg"
       },
       {
         "id": "ChIJNYfkpPok5YkRumkIKHDku9I",
@@ -2536,7 +2655,8 @@
         "websiteUrl": "http://www.pollyhillarboretum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=15184981738968869306&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJNYfkpPok5YkRumkIKHDku9I.jpg"
       },
       {
         "id": "ChIJq6qO8ZQo5YkRlttQYxr5oL8",
@@ -2557,7 +2677,8 @@
         "websiteUrl": "http://www.caleensdayspa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13808310349248650134&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJq6qO8ZQo5YkRlttQYxr5oL8.jpg"
       },
       {
         "id": "ChIJYcPoJ4Am5YkRR_PpazNV4x8",
@@ -2578,7 +2699,8 @@
         "websiteUrl": "https://www.westtisbury-ma.gov/Boards/park-and-rec.html",
         "googleMapsUrl": "https://maps.google.com/?cid=2297773914231272263&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJYcPoJ4Am5YkRR_PpazNV4x8.jpg"
       },
       {
         "id": "ChIJlwXL98Iv5YkRwvFlZ8lbTZM",
@@ -2599,7 +2721,8 @@
         "websiteUrl": "http://spaleaumv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10614240817363415490&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJlwXL98Iv5YkRwvFlZ8lbTZM.jpg"
       },
       {
         "id": "ChIJY5NHTXkH5YkR9B7WJoRFRvI",
@@ -2620,7 +2743,8 @@
         "websiteUrl": "http://www.sakonnetgarden.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17457717439437872884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJY5NHTXkH5YkR9B7WJoRFRvI.jpg"
       },
       {
         "id": "ChIJB-7P2GTk5IkRdCI88jssb80",
@@ -2641,7 +2765,8 @@
         "websiteUrl": "https://thetrustees.org/place/allen-c-haskell-public-gardens/",
         "googleMapsUrl": "https://maps.google.com/?cid=14803099136168829556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJB-7P2GTk5IkRdCI88jssb80.jpg"
       },
       {
         "id": "ChIJn2D50jsv5YkRoFcbxGzBpgk",
@@ -2662,7 +2787,8 @@
         "websiteUrl": "https://www.massaudubon.org/get-outdoors/wildlife-sanctuaries/felix-neck",
         "googleMapsUrl": "https://maps.google.com/?cid=695455865366075296&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJn2D50jsv5YkRoFcbxGzBpgk.jpg"
       },
       {
         "id": "ChIJv-ofsUIv5YkRvanzRx87OiM",
@@ -2683,7 +2809,8 @@
         "websiteUrl": "https://www.mass.gov/locations/manuel-f-correllus-state-forest",
         "googleMapsUrl": "https://maps.google.com/?cid=2538406345513871805&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJv-ofsUIv5YkRvanzRx87OiM.jpg"
       },
       {
         "id": "ChIJy3vFM-Ys5YkRzKD596Oo1uo",
@@ -2704,7 +2831,8 @@
         "websiteUrl": "https://thetrustees.org/place/mytoi/",
         "googleMapsUrl": "https://maps.google.com/?cid=16921898072084685004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJy3vFM-Ys5YkRzKD596Oo1uo.jpg"
       },
       {
         "id": "ChIJ5XbtZcMv5YkRftTLFCWUX40",
@@ -2725,7 +2853,8 @@
         "websiteUrl": "https://jardinmahoneymv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10187023769118954622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ5XbtZcMv5YkRftTLFCWUX40.jpg"
       },
       {
         "id": "ChIJ0WUU0w8p5YkR5SJc7lBKhho",
@@ -2745,7 +2874,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0WUU0w8p5YkR5SJc7lBKhho/photos/AcnlKN2OJY9-R849KO2pY7ZuppbGPL58w_OBf2stk-se1JrJ5CL5GyR0EFLPkAHqJm7pVsE5SF4U3xXna17LSbk48PKDfpHF4sawnca6kTqTX0QKJqilVVZubAFXmchP3RaRXj3XMoGIOP6z7GWgAAq6gWFBxjgOmy3uCk6j4MK0HKPjBpqrCPzSuXaZp-ehevxL5TpzMT6WRs6_wbr8UCg67GkqitL0fLiY4XszoXg-d3bJ33p4dWqp2P8NODhH93cxliVyNkK4RdCHTKPvHSxwt2DGyhqYvJKP90yj0ZvZ1qVBFTPuHpUSLvWLn722CkLQuy04EAz2KSK6t8LpX0k_UQTfCAWehJGieqb2OCPZxShdEvv5_LL9Xchi1SJ7Q-fajPCd475MtCzeBoS1fXbYt072TsHXtb6flaWqbUwgE2rr3dou/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1911296803322208997&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ0WUU0w8p5YkR5SJc7lBKhho.jpg"
       },
       {
         "id": "ChIJ4S4bDdAu5YkRTS7gEckiSJk",
@@ -2766,7 +2896,8 @@
         "websiteUrl": "http://massaudubon.org/felixneck",
         "googleMapsUrl": "https://maps.google.com/?cid=11045116333109816909&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ4S4bDdAu5YkRTS7gEckiSJk.jpg"
       },
       {
         "id": "ChIJzQlZtIov5YkRjNKmUDKD9nQ",
@@ -2787,7 +2918,8 @@
         "websiteUrl": "http://www.thetrustees.org/places-to-visit/cape-cod-islands/long-point.html",
         "googleMapsUrl": "https://maps.google.com/?cid=8428068004795175564&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJzQlZtIov5YkRjNKmUDKD9nQ.jpg"
       },
       {
         "id": "ChIJjU_1djss5YkRF4Fl_CDGYws",
@@ -2808,7 +2940,8 @@
         "websiteUrl": "http://www.seaspasalonmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=820717402087325975&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJjU_1djss5YkRF4Fl_CDGYws.jpg"
       },
       {
         "id": "ChIJH1RNZeQ85YkRiQWekol90bI",
@@ -2829,7 +2962,8 @@
         "websiteUrl": "https://www.menemshainn.com/?utm_source=google&utm_medium=organic&utm_campaign=gmblisting",
         "googleMapsUrl": "https://maps.google.com/?cid=12885218038707520905&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJH1RNZeQ85YkRiQWekol90bI.jpg"
       },
       {
         "id": "ChIJe0MbmN4k5YkRsjW9crw8wWU",
@@ -2850,7 +2984,8 @@
         "websiteUrl": "http://www.gaylegardens.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7332208448412399026&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJe0MbmN4k5YkRsjW9crw8wWU.jpg"
       },
       {
         "id": "ChIJiWXACOM85YkRldB9o6qi6kk",
@@ -2871,7 +3006,8 @@
         "websiteUrl": "http://www.beachpluminn.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5326248363090104469&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:30.951Z",
-        "updatedAt": "2026-01-23T15:56:30.951Z"
+        "updatedAt": "2026-01-23T15:56:30.951Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJiWXACOM85YkRldB9o6qi6kk.jpg"
       }
     ],
     "nightlife": [
@@ -2895,7 +3031,8 @@
         "websiteUrl": "http://www.lookoutmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17405998653464380758&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ0YuJS5co5YkRVgWs7I2HjvE.jpg"
       },
       {
         "id": "ChIJrewovw4p5YkRE69TpAkewhE",
@@ -2917,7 +3054,8 @@
         "websiteUrl": "http://www.offshoreale.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1279618270887128851&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJrewovw4p5YkRE69TpAkewhE.jpg"
       },
       {
         "id": "ChIJA0xDOXnX5IkRI3tV1UONvZQ",
@@ -2939,7 +3077,8 @@
         "websiteUrl": "http://liammaguire.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10717878010693122851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJA0xDOXnX5IkRI3tV1UONvZQ.jpg"
       },
       {
         "id": "ChIJffZcLgkp5YkRaK-qv3B1MiM",
@@ -2961,7 +3100,8 @@
         "websiteUrl": "http://nancysrestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2536218667275431784&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJffZcLgkp5YkRaK-qv3B1MiM.jpg"
       },
       {
         "id": "ChIJVyx7lTss5YkRfbzxqPELvRQ",
@@ -2983,7 +3123,8 @@
         "websiteUrl": "http://www.theseafoodshanty.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1494363783906311293&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJVyx7lTss5YkRfbzxqPELvRQ.jpg"
       },
       {
         "id": "ChIJa0n3oAkp5YkRkQyl9DXPcjs",
@@ -3005,7 +3146,8 @@
         "websiteUrl": "http://www.mvsandbar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4283714026227436689&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJa0n3oAkp5YkRkQyl9DXPcjs.jpg"
       },
       {
         "id": "ChIJCTZkRAkp5YkRvFL-JHK_XGs",
@@ -3027,7 +3169,8 @@
         "websiteUrl": "https://chowdermv.com/home-page",
         "googleMapsUrl": "https://maps.google.com/?cid=7736268756883493564&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJCTZkRAkp5YkRvFL-JHK_XGs.jpg"
       },
       {
         "id": "ChIJkw7jEzss5YkRRBrWpH2jk90",
@@ -3049,7 +3192,8 @@
         "websiteUrl": "http://www.rockfishedgartown.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15966284863990274628&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJkw7jEzss5YkRRBrWpH2jk90.jpg"
       },
       {
         "id": "ChIJDZ9kcxIv5YkRAlKn4svIkDs",
@@ -3071,7 +3215,8 @@
         "websiteUrl": "http://www.cozycornermv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4292151222890615298&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJDZ9kcxIv5YkRAlKn4svIkDs.jpg"
       },
       {
         "id": "ChIJoepTnZcp5YkRKceFbOOJRqU",
@@ -3092,7 +3237,8 @@
         "websiteUrl": "http://www.thealleymv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11909357874499143465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJoepTnZcp5YkRKceFbOOJRqU.jpg"
       },
       {
         "id": "ChIJAdVGJQkp5YkRtIMsp3ct2xQ",
@@ -3112,7 +3258,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAdVGJQkp5YkRtIMsp3ct2xQ/photos/AcnlKN0o6QxpO5un7EgRSfm3jWgAQzz6_OKy2FsW1yh7RTzQ6ANRSvm0grnnlXA-1FbpSRojXqp9e-lOrs7nO6ZJY-msA9P-SXbrU5Dhn_NzjtGuGfZWcIrvzf6a4EW_JRQaFGrOZteoA1FRLLPaTp6xHoAQHDbZfLCRJgrcKhZ3I7rL-C3FjMBfqkFlw0swFOX2HoAJzR3kZHu4BkiyC4qWpld6tpEr9DYwcGiiTHRY4hdHaSpp1SVe7ryqitkRWkHjvDCfAanGFphATHlg1bm10aH7B9Dzcdlv7MeMDw7U1osuM90-2KBUnqS_3RP5llN7C1rgcpCxHISFgOe9dl3Zvb9y0am938Ady0GnqrQTQfnOgObqoIg_RdiNBeGtv1A46__nrlXj6hVdNyDEaBxP4hPc7mKcjbO7mPFMIHIdI0L8YCOced53FTCC2WG_Scvt/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1502844892587262900&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJAdVGJQkp5YkRtIMsp3ct2xQ.jpg"
       },
       {
         "id": "ChIJYXvI4Nsp5YkRf7dkLHCebSA",
@@ -3134,7 +3281,8 @@
         "websiteUrl": "http://www.aaliascoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2336697986293479295&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJYXvI4Nsp5YkRf7dkLHCebSA.jpg"
       },
       {
         "id": "ChIJN5RIBTss5YkRnqp3Sqx-yhE",
@@ -3156,7 +3304,8 @@
         "websiteUrl": "http://www.wharfpubmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1281976322389158558&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJN5RIBTss5YkRnqp3Sqx-yhE.jpg"
       },
       {
         "id": "ChIJDzCw0qgp5YkRU5qOu821qoQ",
@@ -3177,7 +3326,8 @@
         "websiteUrl": "https://www.oceanclubmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9559653054266907219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJDzCw0qgp5YkRU5qOu821qoQ.jpg"
       },
       {
         "id": "ChIJ5VZauePR5IkRc38ECZdzCzs",
@@ -3198,7 +3348,8 @@
         "websiteUrl": "http://www.badmarthabeer.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4254621365510111091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ5VZauePR5IkRc38ECZdzCzs.jpg"
       },
       {
         "id": "ChIJH6GiwA4p5YkR3eltD_-D-xA",
@@ -3220,7 +3371,8 @@
         "websiteUrl": "http://theritzmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1223716855259982301&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJH6GiwA4p5YkR3eltD_-D-xA.jpg"
       },
       {
         "id": "ChIJ13CtriAs5YkR852nylKpoug",
@@ -3241,7 +3393,8 @@
         "websiteUrl": "http://www.badmarthabeer.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16763146936078802419&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ13CtriAs5YkR852nylKpoug.jpg"
       },
       {
         "id": "ChIJV0P1mOcw-4kRKhitHnF_Nns",
@@ -3262,7 +3415,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJV0P1mOcw-4kRKhitHnF_Nns/photos/AcnlKN2J_RdQO16-huAw5A8ykTKaMUrul-5h2URoQOOCl5q-XhKWh3jdxgWX_Z0yJWnX6E_VQhnJqOoh5dIMUdQsrQ5ODvSiSig1MDXqVZYgZw-OntMGV0JcvgHG_xUjnOCgzHR1qtyGaAKuoNANWZNmRk457ohEFaqQgZZafMs3F6o1f8NC7tmSTedheOUSIJiJ1rM5B9-q1vgAxg1SJEd-6wJekCEGfGtB2GvFiaE7aNEleHKx0r7H2Gdl1vEOAaJ7J-Ck7E9atC7f3NmfpJz94GmksCBf5US0cq5Q3UJhQwtRKTp4JfRIXhx-8IkzmtGuF9DodZduxFf_DZRDFB2kwemixEDAw0ths1YuiskcayTJvJ8dPIPHuiV8Rw2AOzEZ6YDCTxKaxaDKSUN8hSpJTEs8obcsNlAWXQ1BZM7j__841fo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8878423839230203946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJV0P1mOcw-4kRKhitHnF_Nns.jpg"
       },
       {
         "id": "ChIJf8JH9vop5YkRW5Vfti04jUU",
@@ -3283,7 +3437,8 @@
         "websiteUrl": "https://9craftkitchen.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5011723729317631323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJf8JH9vop5YkRW5Vfti04jUU.jpg"
       },
       {
         "id": "ChIJLS1Fc1NF5IkRBpxIe4pgxmk",
@@ -3305,7 +3460,8 @@
         "websiteUrl": "http://alchemyri.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=7621885567261252614&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJLS1Fc1NF5IkRBpxIe4pgxmk.jpg"
       },
       {
         "id": "ChIJYUnKMDss5YkR0TJSDdSIyCw",
@@ -3326,7 +3482,8 @@
         "websiteUrl": "http://www.btbmv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3226979577348895441&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJYUnKMDss5YkR0TJSDdSIyCw.jpg"
       },
       {
         "id": "ChIJOTE-4Jco5YkRKT-qO0ZC__E",
@@ -3348,7 +3505,8 @@
         "websiteUrl": "https://www.theblackdog.com/pages/the-black-dog-bakery-cafe",
         "googleMapsUrl": "https://maps.google.com/?cid=17437729151618006825&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJOTE-4Jco5YkRKT-qO0ZC__E.jpg"
       },
       {
         "id": "ChIJwfZBEGcp5YkRrg-GT2QvEB4",
@@ -3370,7 +3528,8 @@
         "websiteUrl": "http://www.mikadoob.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2166283528642629550&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:32.886Z",
-        "updatedAt": "2026-01-23T15:56:32.886Z"
+        "updatedAt": "2026-01-23T15:56:32.886Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJwfZBEGcp5YkRrg-GT2QvEB4.jpg"
       }
     ],
     "trendy": [
@@ -3394,7 +3553,8 @@
         "websiteUrl": "http://www.backdoordonuts.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3541795104281597298&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJz37-w-Ao5YkRchXs0eH7JjE.jpg"
       },
       {
         "id": "ChIJtXFoMfoo5YkRMk7JWZGRsNg",
@@ -3416,7 +3576,8 @@
         "websiteUrl": "http://artcliffdiner.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15614139961556160050&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJtXFoMfoo5YkRMk7JWZGRsNg.jpg"
       },
       {
         "id": "ChIJiQCK5ZMo5YkRTLuCgIaF_rc",
@@ -3438,7 +3599,8 @@
         "websiteUrl": "https://www.watersidemarket.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13258181165753482060&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJiQCK5ZMo5YkRTLuCgIaF_rc.jpg"
       },
       {
         "id": "ChIJt3LALDss5YkRq4_C9xZp70w",
@@ -3460,7 +3622,8 @@
         "websiteUrl": "http://rosewatermv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5543765213683290027&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJt3LALDss5YkRq4_C9xZp70w.jpg"
       },
       {
         "id": "ChIJwcvvCbSl5YkRCP0O1ttG2IQ",
@@ -3480,7 +3643,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwcvvCbSl5YkRCP0O1ttG2IQ/photos/AcnlKN0ZqwEBHoi74XZqbkzTKkMR5fu14NqWtJ1F8x0JnT7XJSHPZHIZKKVHGGQhyBxFMvUIc2FQkZUZx4yA73cShHmmbS9efEXoHTgpKynauAPgmZfgI0Feyetlaqgyi29GreAIqeXwbZDw47WIE0R88sz4y2d-LW2wvx18N5nzZAKBbgCYBJD9gnb-gR07LC2uCLcs-mdCOQ-VJmn_c85s9mKrLztaZlquTFcdlHzWNdh83ddmZ5pnk7V7Uq8PnZUzb-WtpSgggI_OqZ5QNL-pT58xAtkQMUDABN0LdbMrvnEWBw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9572478917979077896&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJwcvvCbSl5YkRCP0O1ttG2IQ.jpg"
       },
       {
         "id": "ChIJDZ9kcxIv5YkRAlKn4svIkDs",
@@ -3502,7 +3666,8 @@
         "websiteUrl": "http://www.cozycornermv.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4292151222890615298&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJDZ9kcxIv5YkRAlKn4svIkDs.jpg"
       },
       {
         "id": "ChIJv17eR3Up5YkRXuxl6ZGmToo",
@@ -3523,7 +3688,8 @@
         "websiteUrl": "http://www.catboatcoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9966086171033726046&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJv17eR3Up5YkRXuxl6ZGmToo.jpg"
       },
       {
         "id": "ChIJQ767ynxp-4kR8cL635PVjdM",
@@ -3544,7 +3710,8 @@
         "websiteUrl": "http://hiddengemcapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15244075144813658865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJQ767ynxp-4kR8cL635PVjdM.jpg"
       },
       {
         "id": "ChIJPTfeozss5YkRgtOudSe0_Uc",
@@ -3566,7 +3733,8 @@
         "websiteUrl": "https://www.facebook.com/DockStreetCoffeeShop/",
         "googleMapsUrl": "https://maps.google.com/?cid=5187500427371795330&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJPTfeozss5YkRgtOudSe0_Uc.jpg"
       },
       {
         "id": "ChIJYXvI4Nsp5YkRf7dkLHCebSA",
@@ -3588,7 +3756,8 @@
         "websiteUrl": "http://www.aaliascoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2336697986293479295&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJYXvI4Nsp5YkRf7dkLHCebSA.jpg"
       },
       {
         "id": "ChIJ1QEpTTss5YkRowzqBFnQ0l8",
@@ -3610,7 +3779,8 @@
         "websiteUrl": "http://www.espressolove.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6904810259465505955&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJ1QEpTTss5YkRowzqBFnQ0l8.jpg"
       },
       {
         "id": "ChIJC8bYB5Qo5YkRiXXg7tMbTy8",
@@ -3631,7 +3801,8 @@
         "websiteUrl": "http://www.bunchofgrapes.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3408974040002491785&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJC8bYB5Qo5YkRiXXg7tMbTy8.jpg"
       },
       {
         "id": "ChIJPTfeozss5YkRIuFDqycGbH4",
@@ -3651,7 +3822,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTfeozss5YkRIuFDqycGbH4/photos/AcnlKN1I-q5HtgobMXdgnwHTcjpe03HY85jMCydDqs0L_D7qnfmMd8mCyOKl4CcBXUUBazwtb6CNa1lm7jMsdZDQz4y9ypttd_noieSgWRqnXUH1KOA_7njjuT6_iI65EgplgoAYFK1-FRs7p0GPb-SWnM-MFO6omOjCnZxK49v28Uku2G8RwuUvOqz7n9aMkF0cQIxmn88I54jSH6PBVbh2Yk0NaNp8KU9Slm1E6HaQdmnsANs1HvnZu3wiNhVRlA-Nwsx7IFsrZgZ26kdoVwdc4_a_iEiWSxrKZd4rxq4AUX2_lZxT9W0qmLtu_4DDJlzIFHJOZWfQnSs6TGkD4fQ7grlno5ONO8KS6dqHNR-StR47a3MPepsBrBBSnlAVIko6coh8tcSbJyBWTli-ajVpqrHCO0uamu_TfQHeFDEQckHMd14/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9109662913710514466&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJPTfeozss5YkRIuFDqycGbH4.jpg"
       },
       {
         "id": "ChIJey6lyA4p5YkRBllWL8WZOD0",
@@ -3672,7 +3844,8 @@
         "websiteUrl": "http://www.mochamotts.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4411444907191195910&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJey6lyA4p5YkRBllWL8WZOD0.jpg"
       },
       {
         "id": "ChIJzeXsOzss5YkRtVUnmZQ0sVs",
@@ -3693,7 +3866,8 @@
         "websiteUrl": "http://www.edgartownbooks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6607119941158524341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJzeXsOzss5YkRtVUnmZQ0sVs.jpg"
       },
       {
         "id": "ChIJzRk5k54u5YkRVHJbcDMytyQ",
@@ -3714,7 +3888,8 @@
         "websiteUrl": "http://edgartownmeatandfish.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2645638502613217876&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:34.243Z",
-        "updatedAt": "2026-01-23T15:56:34.243Z"
+        "updatedAt": "2026-01-23T15:56:34.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/martha-vineyard/ChIJzRk5k54u5YkRVHJbcDMytyQ.jpg"
       }
     ]
   },

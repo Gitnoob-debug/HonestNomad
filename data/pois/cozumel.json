@@ -25,7 +25,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJH5ZlQpRZTo8R35yD7ADGqK0/photos/AcnlKN0fnvep7Gmspy9yeAQnILA-ypa_Zn4R8hASwFfufmpXfvGQMPoS9MK_KHD3gUD9P0uEYZKNhRyYoL89WEzHq9L9S_a2_13310NcQMV_OsbqTO6KRI1DBbRHgJosUfcAdMCV5rxRhooSDUGkrEnJUo9agn659KiTcDz-2pFav3j8MYCjJVu7g0ArhuhfqgU9VlBcX7Bxg4zjBYbr2VT5Q3f9KimNGRRBRHwpbJ8jvcgWcVF-LPBWBDjrPGs8lGTNKQ0vo88NLEk6lz73fHcrcwjmoBwv9yRa0KzpjofhjHNbPw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12513469271919271135&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJH5ZlQpRZTo8R35yD7ADGqK0.jpg"
       },
       {
         "id": "ChIJ0bJJpG1ETo8R3k171dqmMH4",
@@ -45,7 +46,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0bJJpG1ETo8R3k171dqmMH4/photos/AcnlKN0SKR2KyUoKxmD3KwK8U4BVlkfQLbuWED6gI6eNIQbe3ISU4tiDIOZr70BxGiwYRJm-hGFnK1uChzu15fbquHcUlcgUud4_pLm4BrVEgQr00cInzNHaBiVjW4vgS_buCyGeGP0pHN2hqxh48uMKZxKTKAX-RvHQU7RDSLEvBfv6k_G8AVZ5pwNXOKkBWDUDG1hJXSt1YW42S0VPv8KuaGsSzLC7jI3NrUfw0zqW3LwYAY0apMGLuZgsuvCpYVCnWDGtvZG3Niyg5qpSaa_tGapj1lsO87yAp6FqpTM_6Xk-tCh7ltGVjQTe6cDgy5AbJS9KuQmO5RXjACVM2B2RXIqj8UQ-p0C-VFjbGK8JzTIVaxZqLxzTi6DBUb060z5JZ8VRnSRmtfFRLsq6h1c8gt03goEoR-WbWmK3qnrSMeV9iV0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9092951106475740638&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cancun/ChIJ0bJJpG1ETo8R3k171dqmMH4.jpg"
       },
       {
         "id": "ChIJ965kftNTTo8R4Ji9DZJYOCE",
@@ -67,7 +69,8 @@
         "websiteUrl": "http://www.mrsanchos.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2393760586266417376&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ965kftNTTo8R4Ji9DZJYOCE.jpg"
       },
       {
         "id": "ChIJIVRicM1ZTo8RGJ31pNAPnr4",
@@ -88,7 +91,8 @@
         "websiteUrl": "http://www.atlantissubmarines.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=13735433302321765656&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJIVRicM1ZTo8RGJ31pNAPnr4.jpg"
       },
       {
         "id": "ChIJAflEe8msT48R8KN9L5HOFic",
@@ -109,7 +113,8 @@
         "websiteUrl": "https://www.cozumelparks.com/en/punta_sur/",
         "googleMapsUrl": "https://maps.google.com/?cid=2816665739929166832&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJAflEe8msT48R8KN9L5HOFic.jpg"
       },
       {
         "id": "ChIJS9-E_M5ZTo8R0ov2mVMcp6Q",
@@ -129,7 +134,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS9-E_M5ZTo8R0ov2mVMcp6Q/photos/AcnlKN0ovNH7pGSWtgkoH-Ao1QbeL0rETdcjdJqvgNQ6OJQqH8abtsfOOCGIOOX564arDPc_QuEl4q0tFqc7o0qvqvz6o19UhgL7nbVvXV2cBrDqgMYd_mf47L2h_0yp8K4RuWikE1TbxSPUvT8A0MV46-mtqrmLAkrPZswInFLNfRq5D2Lyope7rsa5zRyzkxgdH8A65PnLSjN40A4Wud6a76rk1pvXfwI41Os8Z5KBog2U0ujoQO2fsxp1G7Udc5uNRuWa-EezDHejPmEXimdPd3bqUrMBj1Wdv9g_yO6LkY5hQm35ZrDOZV-AGcd2TUDnDS3r0iFG213lRNjrO1Rdw6moobzdIPYG3iDF5uiflQ64bAJCpHqTCDxl21zWPo6OtZMTPYjTX3-qC1dt_nVSV_lVNqmrbJJ2qcvuRiIenyaEEAt9/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11864482888721796050&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJS9-E_M5ZTo8R0ov2mVMcp6Q.jpg"
       },
       {
         "id": "ChIJQ6H7U8lZTo8R_HH9KKY7-Qs",
@@ -150,7 +156,8 @@
         "websiteUrl": "http://www.cozumelparks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=862786388456468988&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJQ6H7U8lZTo8R_HH9KKY7-Qs.jpg"
       },
       {
         "id": "ChIJ_Vyx0c5ZTo8RxOJGJK7ItkY",
@@ -170,7 +177,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_Vyx0c5ZTo8RxOJGJK7ItkY/photos/AcnlKN0rlO8DlzBycbG6YYwCGixkyqBvtr3GY7sO8UktnoGc-B8Dv9TRwkdyztk5pZa-BVSrPtVkqlkWndH66I0HtrwnlCJIiATUpsLLNss4PyxhdYxCBuS9FbiBuDIgPy5pXoKK4F7xN-OwEkzpnM5eYo8mhrxop55gc2YADDME5jPP-R7QTjLFYsMlaavMUqk7aKY6sQIruhq9Xu1TO1PHC594BDNF6xK4iZdcexZmhq5NyzW8gUT35A07U_FiNQy__Fe2bDxBpXl4DZHwVZDKWgBsHo7A5ClkcFQHP0ffIaxu9ZJGCxweag_CRtu57uKnkUM4MI8OmCVlf2xLLAedXIzFBYLOGmG6J7CvI0LN0xdjDl3GY-WA_b0uil_PObTHI6uQcx7DvGJVgL6L9-vCnitNpvs8h-jJpypPrNL6i5CIiQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5095480678674784964&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ_Vyx0c5ZTo8RxOJGJK7ItkY.jpg"
       },
       {
         "id": "ChIJATQpB35RTo8R3pnFYFxrg4s",
@@ -191,7 +199,8 @@
         "websiteUrl": "https://paradisebeachcozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10052996837725805022&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJATQpB35RTo8R3pnFYFxrg4s.png"
       },
       {
         "id": "ChIJR269hCVRTo8RTNmC2xrWs44",
@@ -212,7 +221,8 @@
         "websiteUrl": "http://www.cozumelparks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10282797785057253708&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJR269hCVRTo8RTNmC2xrWs44.jpg"
       },
       {
         "id": "ChIJSXSMH9JZTo8RqXKdcL7qT-Y",
@@ -232,7 +242,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJSXSMH9JZTo8RqXKdcL7qT-Y/photos/AcnlKN344DTQP44jg2IiP_ZGugxkdkNKe6p-PzruhC65a8xIevCrTYyJN7ExbsLbhHZxxgz6wMJoi4U5GVaYKTKkKc7sEVZQfR2Qgeu6U-Hqi3BS5kfpNRWHIv1RMWnhox-8-ih6aQXYfqGpFiI3dAveff5sFzheNliheFzXZ0k1Hd6r17RDuqrG-UmIrZOri4JI6caok9YSGEgIuDFUxdt-zi7xa4T5AstDrBc2ymdjMX7vlYoINh8csV1WD9NmAeQfqpHlymiapmNofi6903LTmzB0ElVW41jAlnnQwfMURzEypBieN6EsDyqaUmy-AAd-G6sEz-4cmcYdo-MJ7plVXT-dZx2IhzBPfEhCiGcZLbg8aaeQcrtnrKiMF4HQjbwuczojgHKblhiVvihZzAKqTFRYTLlCeQztKz_taC86bwDivg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16595741255537619625&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJSXSMH9JZTo8RqXKdcL7qT-Y.jpg"
       },
       {
         "id": "ChIJ5we9cICCTo8RVLZdMmZdJ8M",
@@ -253,7 +264,8 @@
         "websiteUrl": "https://www.mexicoescultura.com/recinto/65859/el-rey.html",
         "googleMapsUrl": "https://maps.google.com/?cid=14062311055000712788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cancun/ChIJ5we9cICCTo8RVLZdMmZdJ8M.jpg"
       },
       {
         "id": "ChIJ8bloimCrT48R51t7nIZZOqk",
@@ -273,7 +285,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8bloimCrT48R51t7nIZZOqk/photos/AcnlKN2NXdAZBSQbVfXP52hKhE1fBcuLP2z0zKEWhky6aP7xcVRGkTJ7ljEjEKWtElz6tj7btKFf7rfxkT3pCfhNRV5nqzsptDVbczuRi5Ifqlz_rtLRoDH9SmYQ7rNJFateGLPH4Kj3Elh5QIaePaKHD4falLSIFuP8J0n2xWGRCi7CbKVDhnza2ZOOpB4RVxbi6VGcmcBZ5Mnjmzojo8Wb9H7osX_zAsk6GDMfIOrvLwlpaBJiKHLjIL3h9TpY6SwIbBumMJIh_7Z6YJ2CEy0rYf4Zto1XUi4WJvKX1n3lSUC40BWuuHTNiPNhMa3DjzoQyKBSjYzCl4cCEKlcJVTVrKnj8joQl1nZQs-y4b0bIowre9-JULipFVTHUK66-3JiK2_jizirjyrYC9efuV0Y86uHAkYebticrCcdXyj-SaOU0Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12194157375744859111&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ8bloimCrT48R51t7nIZZOqk.jpg"
       },
       {
         "id": "ChIJ610mhl9XTo8Rm_xODswMGns",
@@ -293,7 +306,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ610mhl9XTo8Rm_xODswMGns/photos/AcnlKN1PtwvYN-xpEeA9HphkQWpypPxHO-Fdyc8WniTr4vLs1QfVFyW2loNs14QrXY2siVZ3Magu-q4ZioZePbyap-e591vMxRDXA06pvj3lrq9mLQCpJS2GIsRlnKcEi0_fwEfWJD18JMNgucsdqmd536xUbzrAH9byHOe_xWHCPXQNH_2pXEwFSuMCCNY2FBB8HoPPyF3_LNEQjjZOFM66egkNH6oRpzh0U-m7lpZKn2UVUHYfZ9gjRXEEVD6Quyu4U7LyVvPQHKhcw46mvYQAFQJbnkyEfpbdk0cIlfWH2h4ZBnpnBrxK4aDeH44LQHwHebMrMk9CcpSdt6cLzOq6VHQPekl8nrN6Qf8v8mzDvFjmiQvapiN0CrZ8XXuo72gf16bQqNAXMFF8fhovtpVK8iXfrHq0Y88m-4QPGAOVBp_s1w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8870416486612532379&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ610mhl9XTo8Rm_xODswMGns.jpg"
       },
       {
         "id": "ChIJ83ec7Ej_0YURHNVYvvjpnbc",
@@ -314,7 +328,8 @@
         "websiteUrl": "https://dolphinaris.com.mx/en/locacion/cozumel/",
         "googleMapsUrl": "https://maps.google.com/?cid=13230988534839039260&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ83ec7Ej_0YURHNVYvvjpnbc.jpg"
       },
       {
         "id": "ChIJocZM_zD5To8R9tM6eBu738E",
@@ -334,7 +349,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJocZM_zD5To8R9tM6eBu738E/photos/AcnlKN0axcXQ9__BoM0sQ_6naJkb5ShL7wjfj1yrFCtE9p8X2OzysRSTDAkh3OyxVub915_P89Rz-Jm2BdTNFc0DTItekmKQz1NJFi0njXCpgihecan0iLVir6yUWMW8fW4zgLKgEaEk5kBVtqMZCMy1trgWYTU8tlK_YfvRe2DXt9HrZtAszsB5djeBjF8X0qp_FeeqT6WKogwVQiorHIXSTIdSn5TSVUO4A87ixc4q7aD0vWrdVG4i_8EzxHAStXlg6guarPfyhkelVC9A2wkm-uKiV6EtMH_6V3cCx8JcgQ-JMNM20ZR-ZO1oIwm19zvkBB8PQ277XerhUeDtam_v-Z_EVsHarvXbtbScI0RQPeFqDpcXLovAm9Ywget29j0GkPoXJpQ90JnFl09T7Zy87iY395WyZK6k874jkwU1oCmELA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13970090295782200310&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJocZM_zD5To8R9tM6eBu738E.jpg"
       },
       {
         "id": "ChIJHcxQ1oxZTo8RGOg6pTuxVCQ",
@@ -354,7 +370,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHcxQ1oxZTo8RGOg6pTuxVCQ/photos/AcnlKN3uR1_1TgKmGK3q1QwiGliOrIn2kxY1y7-upLg5UWikwzKBcZlNDp3Ul9TA-gm8hIzEz4Gds2oGWM4pLgbeSPpKfBkZMQxB7_R1jBn42ZNOCHL-ED05xSiViYsQLTaCPqu-jv9dVpjrN6C3WLdR-Mvt6TWqrs0743fS_ohqYs_3an1AZ6zd-wCHHnhV1z_WH6jPDAQNGa8cbQjrUnnOIJ6MzcOYY3SliKeCSNI3l_Iwc4qYdCyH5Oi9_NoBR5VSZAPLiovmgSl3h-8SjW-mkFXhudLHz7URvWUPpbCvIHLjmVblT8meznL3VY1QZOCH-oAIcdcRPouL_bvXF-Uajqbf93Ved7ni5UvB6NopBqo4vd6yahfI3XFlBS5YlWRPpgNoIwBWfT7QI7WS2blUur1yEeEoTjeEWGo__kFOFp_iGg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2617912153142388760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJHcxQ1oxZTo8RGOg6pTuxVCQ.jpg"
       },
       {
         "id": "ChIJufx9Sc1VTo8RdZu8miWwQaU",
@@ -374,7 +391,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJufx9Sc1VTo8RdZu8miWwQaU/photos/AcnlKN11y9HUDxZE8F2uTOahNy0jyNdHqOVy6txAsGbLINSxZ9PpkJZmj_ebhEbuF8GIxHUSA8iVt_X9ExVlV6JQGUzNyrTI0ytQfoLlAtArKHOQ2hgo34-hro2688aYiTHQQ1Jxknyu6Yilm5TMw87Ic3Xo_M9ebR5D_dsxiN7WLcYRxkf2nZZTDXMp5XpZP1UJjMQ9es425NIixgMsfVWludl6tlRuvIIzVQJq59hDl6J5QGPu5WOnp1fpli8GXp2NKR-rGX2reno_KE042e39ghCCGsNgB7V5RDjLEtLx2eJllGPpVbLE_hDepZCgHGoBuRS6slXcFMDfCkihB6rN4rIepu13Tg_qgLt1_jiEoAacHPj4LBZQBLzqf-vLCrtGJEz7LClGfR0yqgsqUILnkRfPV1s1yvdPs9UW1U-NahY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11907992565300632437&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJufx9Sc1VTo8RdZu8miWwQaU.jpg"
       },
       {
         "id": "ChIJOe4NdwBXTo8RlznBL_HprL0",
@@ -414,7 +432,8 @@
         "websiteUrl": "http://www.cozumelexcursionsmx.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1249936110066243813&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJMf1KIpBTTo8R5ZhuCEWqWBE.jpg"
       },
       {
         "id": "ChIJywA-gqlZTo8Rw71TLHfMX5Q",
@@ -434,7 +453,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJywA-gqlZTo8Rw71TLHfMX5Q/photos/AcnlKN2Y0wZT1lorvWFzROGHdDM1VAo1HIxXJmhwLMpgTxx5U1qCjZc6yTXLcR18bZ0i5Oq1vumNp3c1mAOZrrcXUTnHlKy3q43k4aFHUf3lh_oy89eTOlcHEAa6kTlKc9p8BPPIsRHmzOXrk-xfQonTbUSH32ECZUAT9Y8gPrkyNl667EkNNT7hhTI7kOzCUtRNUDDP_LmkmtV9MDOE8As_rptPX43eQeWoDjK5VtochIKk9hS0YDQOnNubwse6PIo6dzU3KfLKTm-CHLzJK8p_2el7wpi6Y3LsxvOY9BXNLTeRSkH5tUuiry6O0NwVoTl0dhgi76eONFuXCxoh5VkfRWvTMS8FcH50q0Q29VVNKyclzfS49kZhFPbDy-HfyiI3D53voeqQsZG_Yld-0eTmqVXqu9L4eN-yJN6FnaODoRnVNbEH/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10691488852617706947&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJywA-gqlZTo8Rw71TLHfMX5Q.jpg"
       },
       {
         "id": "ChIJn97hUs9XTo8RZUGOhdje9ME",
@@ -454,7 +474,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn97hUs9XTo8RZUGOhdje9ME/photos/AcnlKN2qoKwiDaLzEt5YQYg43Z2hz8e5uwdZ-ztea3GCw8rDfh--OLBrkMJ-K3u-Z-2YPaPH6yA7sDm6Lc5SY40MgM_Es-SJ79WiKAKXB-mDw47KB0HUdWgw97yDVULSEmcQQ_-ieaVlLh9ds4pO7CR55InzUOI-bKHrlEYcJXTiOqfmCutHMNVqETBJ79Zt9UsqCG7nSa56MQuNMh45mKlmgQrUaydYanGB8gWzF7J71S-8866GJsBUFFN1iQ8D43ytQW_odmR-uW-VvRkuPObPv6YZmQUjBiYgTJLtnqF3S3skE-ipYQLjefr_h7h2DzfhUxmyzlA4nEg7e3inQAenMbxKUAVDPjQAmgv9kNuNsyNd7M-uIzSESyKGzmwHKbwjroNlnSgScwHasltUhbvX2EAoQxzYiHMuLDRxKdeg6--KwPvJhR_XFOp-CdEiRqlz/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13976040565172486501&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJn97hUs9XTo8RZUGOhdje9ME.jpg"
       },
       {
         "id": "ChIJW38nx_pXTo8Rv-S2DPert90",
@@ -474,7 +495,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW38nx_pXTo8Rv-S2DPert90/photos/AcnlKN2EE9hXjkdk5W2VW9cPD2S8gp6m6Vr6zkLZAd9Q1jhqOk2er6CM73dW_2Ku9jr12VLtOouqSDwSfRaZSRZXa7bwD9vgrZFbkfJ17XO2gDUXScVKVvt5jvOoz4Sxt7QFjbCoVkKCvJaROLDAWey1wZwjhrwQPxstbg5WJ4TpFFy9WUyTK96cF4jwyu-9fdtmClBAhLFUyXwbC8zSa0bqTRucx8gErlB4tQP9HuxMPWZa2mlOCtG_rwiZaoQJWNkEDHe15h3aqpuPUz4NfCbqS9gTjQOQIKfWFo4kXYcxyb7Q8A-rGFOzxejkI9lMvDMcP5qKThHreEiy1e1BXEmkhxSBiX0StFgvROA0hmwBpEdH_5LYDzNCYJ4aK-78DCEtMrqY16mBaGm-DiDj-NjyNcN6IbtOhz0HqFv0NXtv7jnyyao2iOls3AhD0e00kpx-/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15976427280678708415&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJW38nx_pXTo8Rv-S2DPert90.jpg"
       },
       {
         "id": "ChIJ08jx9FlXTo8RVT5CfFqB6og",
@@ -494,7 +516,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ08jx9FlXTo8RVT5CfFqB6og/photos/AcnlKN1ETB_GPhZGj-YYM77Z4S8CPskxiJSkDJgP1a-Oe8winU5bU0PU8Emyj-KaZ3M-cOsrFZxxr-qjB3B7PEhEoljOILAuOT0UeagIZrVs59oxGp1SqRBhVBS0-t9ELH0otYLa_LpKXjxSsdcnvKBW8A1tgOkl8Y_8C5teVSUOhiP5VOFQbsM_xSp-Xx3r_HMMzrkUUb821RGuawGIK4iRBhAYwebBKkV_tXEi-b1YszU_usgeyM6fKKH7MxtnbjtLxN6eRJSbDXDHVW_EZZk8IlrW9uxo6DFElSi6e-n2G346wmz3hyEan5pnz4Wj1s1asxo_BNyh88qc-ahY0oelDibBYHGdHhsSruxUdbvHuNaiwIjf8sfe2ujPCU5TW0mP9GUdx9hAqXzcnvF3yI8cmp7kxhOdySrHcKohkurNsuA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9865840159340248661&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ08jx9FlXTo8RVT5CfFqB6og.jpg"
       },
       {
         "id": "ChIJ6QaYbLVZTo8RWPqFAxu1uZ0",
@@ -514,7 +537,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6QaYbLVZTo8RWPqFAxu1uZ0/photos/AcnlKN1Xfp92gU8TZFQjjlCMGmB5TtFy011Q69tRwaoeoYvW_F6eWcBsKPTxp0aNOV4SNivVADVBwvsKbMYlSVuC0korIELkR6FpR6NmPEB0naBfBr21CQk2wyJ1RXX2AsjffUyq6bVv1ccNgc0wfw6s27sGwRqpXZP9rFhGYvMMdFloepxgPnmYdjkWxbNQ_8ziCQUfoi-qwBXrOJ2hpaTqJmoPA_rxuGIWu_X_G-cv9beKN3P9cmfAWQ68TqyUkBAUu2y60u89JVr8PXAvveDajsUUDVY1t6902h-zpnp_CyLYprZJX2NCuE_INL9pmxZ3_uUZQ3SSYjT3kpYjvPHNQHVaAkBe800cwydp3Ue7TUSoHqo1M2Eb0L4OkLnvHa2radMJFQ0LIXJLsqtqLspp15CVQIVPTk-Z-EDxwh0zMMBLaQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11365314262274013784&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ6QaYbLVZTo8RWPqFAxu1uZ0.jpg"
       },
       {
         "id": "ChIJsVmoNhRDTo8RIOOSa-691GA",
@@ -534,7 +558,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsVmoNhRDTo8RIOOSa-691GA/photos/AcnlKN2VbHB_inC0K1D86Jmh4PXxXRf-qe2_a6vx_cV8o1wDTWFI9NEkHcbfXM7PmhD3wbG2GCcoGhE1OzElIi5LjJuqQ0T80jP-vPOJ1toTiMtwJjfBzbL3FO0J9soev6v3XGb8f_bbuRo7DrZSVcnqNG9V8m2287qvAXWPJKIgH8KjzOmcw4vJACZsr3uxQNHeWLC4p2NY0fflxfGs4nRVdHq6ev6CIp8qZdqQ6tdaW3sBm19vZaygbYugdU0f604eGJWclR1p0s4C-MQEfQ5Oaas-btoroIilXl-doK9ehlz6qovFQTORWxMpBmvpY4S87_VtiQ3g2xMbG5phQDPsfz94dY8unn1RpHHDmoCp88wjevykJSZtFieSVRHrZ0EIUtuqt86KVYcXm3K_n3qTXtjVCJvUjJAYMHICwctOl62jEE3B/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6977410554408395552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cancun/ChIJsVmoNhRDTo8RIOOSa-691GA.jpg"
       },
       {
         "id": "ChIJm60_ks1ZTo8Rp7gAeZv24v0",
@@ -555,7 +580,8 @@
         "websiteUrl": "https://www.facebook.com/galoartstudio/",
         "googleMapsUrl": "https://maps.google.com/?cid=18294455783942830247&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:11.889Z",
-        "updatedAt": "2026-01-23T16:00:11.889Z"
+        "updatedAt": "2026-01-23T16:00:11.889Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJm60_ks1ZTo8Rp7gAeZv24v0.jpg"
       },
       {
         "id": "ChIJc9YTbt5ZTo8Rq4f33xbYjDE",
@@ -597,7 +623,8 @@
         "websiteUrl": "http://aqui-ahora.co/",
         "googleMapsUrl": "https://maps.google.com/?cid=17713057269743658993&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJA9EJ2V1ZTo8R8ac4Mb1r0fU.jpg"
       },
       {
         "id": "ChIJ6Ti_zntZTo8Re2244RmcMMs",
@@ -618,7 +645,8 @@
         "websiteUrl": "http://fuegocozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14641374023556558203&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ6Ti_zntZTo8Re2244RmcMMs.jpg"
       },
       {
         "id": "ChIJFcKuEtFZTo8REylOsZh6-_A",
@@ -639,7 +667,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFcKuEtFZTo8REylOsZh6-_A/photos/AcnlKN1f_FXn9Cdekj961tI5DOdz1sDP8FPpnOX4RUfrmI7UbioAcRtL-0FWHSLch8XPS2NeCzQ3RUJk0VDxw0O837akavDgisVMK1RN0fKqGpTN1O1GKERLfkvAep4J4NUAlJFnXCy9lvTlc9LScQT9zCWqit2n6r4LSUuI3jAqYCAawKrmEIWyRcYy64VKFFUz7rflFgBxszlm7e4FFU8U7crG5awQfAkrruHslZAKDrAjeIW9DoYWcG1T6OhyGfkq8cNIy_kEL6Xz7aMciNtbPAGsaNlS8L67nTsiWOvMf0qqtIdOg3Sr2p0Ik7TbEAJHRYZedh-2_1DvSw-fdIaiRyWq7cJvQ6OgvFRUiEc6xzLn7wRWTsZEPwDp44uHOjS-g0PZLVWC5FHi7Ft5q6xk_dis6KlwybBhcsVz3a50Ea2LBCiLDFFRRSMp12yN8Hwu/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17364607584485386515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJFcKuEtFZTo8REylOsZh6-_A.jpg"
       },
       {
         "id": "ChIJ965kftNTTo8R4Ji9DZJYOCE",
@@ -661,7 +690,8 @@
         "websiteUrl": "http://www.mrsanchos.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2393760586266417376&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ965kftNTTo8R4Ji9DZJYOCE.jpg"
       },
       {
         "id": "ChIJ1Ry_lM5ZTo8RTCMIE0EA4-M",
@@ -683,7 +713,8 @@
         "websiteUrl": "http://www.cozcoffeeroastingcompany.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16420968945815135052&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ1Ry_lM5ZTo8RTCMIE0EA4-M.jpg"
       },
       {
         "id": "ChIJyyBPVBJXTo8RWXy-OiT1e20",
@@ -704,7 +735,8 @@
         "websiteUrl": "https://ix-kool.com/es/",
         "googleMapsUrl": "https://maps.google.com/?cid=7889168708222745689&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJyyBPVBJXTo8RWXy-OiT1e20.jpg"
       },
       {
         "id": "ChIJ04YADvdYTo8RyYCOU9bZ4wQ",
@@ -726,7 +758,8 @@
         "websiteUrl": "https://buccanos.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=352364710413107401&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ04YADvdYTo8RyYCOU9bZ4wQ.jpg"
       },
       {
         "id": "ChIJYXkqXRNRTo8R7uGYCTznDOQ",
@@ -748,7 +781,8 @@
         "websiteUrl": "http://skyreefcozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16432763385413165550&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJYXkqXRNRTo8R7uGYCTznDOQ.jpg"
       },
       {
         "id": "ChIJp6-eyk1YTo8RQ4B3lyKkKA0",
@@ -770,7 +804,8 @@
         "websiteUrl": "https://panchosbackyard.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=948188190038523971&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJp6-eyk1YTo8RQ4B3lyKkKA0.jpg"
       },
       {
         "id": "ChIJ1znRjc9ZTo8RfXD9yxoimjI",
@@ -792,7 +827,8 @@
         "websiteUrl": "https://thecoffeecozumel.shop/",
         "googleMapsUrl": "https://maps.google.com/?cid=3646264346796716157&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ1znRjc9ZTo8RfXD9yxoimjI.jpg"
       },
       {
         "id": "ChIJy_bj-MtZTo8RMvElcLUAAso",
@@ -813,7 +849,8 @@
         "websiteUrl": "http://www.facebook.com/MapleBakeHouseCozumel/",
         "googleMapsUrl": "https://maps.google.com/?cid=14556197724885479730&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJy_bj-MtZTo8RMvElcLUAAso.jpg"
       },
       {
         "id": "ChIJATQpB35RTo8R3pnFYFxrg4s",
@@ -834,7 +871,8 @@
         "websiteUrl": "https://paradisebeachcozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10052996837725805022&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJATQpB35RTo8R3pnFYFxrg4s.png"
       },
       {
         "id": "ChIJ0c0kQNJZTo8RsnDzxpbmci8",
@@ -856,7 +894,8 @@
         "websiteUrl": "https://www.facebook.com/lachozaczm/",
         "googleMapsUrl": "https://maps.google.com/?cid=3419048602384953522&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ0c0kQNJZTo8RsnDzxpbmci8.jpg"
       },
       {
         "id": "ChIJ0a2PYdZZTo8RXFisMGMlqV4",
@@ -877,7 +916,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0a2PYdZZTo8RXFisMGMlqV4/photos/AcnlKN2Yks9LPQA7VwGMkTIF3wvP6kow4gtMWiDZExMVUuGX_MWBMFj5l1DYwhDOmxAXIBx7eMdBJsa3DamvWlXsR8chJPbceL4exnFBAPY82bm_WJQeU2reI6Pd963Fx6It_6sG-2wnrAoSFQ-uoEmJuNYTA1wbi2Zv2Gfq2YEgSdTYSjPP3r1qmJtuyGVgpvEwyzO0egsTokQFFRl2NM52ghT3Ou3yj3T7UGV3wIQy8_nKvR-ObSK1EznkKxIB_rg3oTd7lkRzq2qwXmJ7IVgUsJOjXik5CbPuIvc3FHB1xFKgSA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6821024218577918044&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ0a2PYdZZTo8RXFisMGMlqV4.jpg"
       },
       {
         "id": "ChIJ_TzNk31ZTo8Rq_ut57z1rnY",
@@ -899,7 +939,8 @@
         "websiteUrl": "http://www.lamonina.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=8552042934112746411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ_TzNk31ZTo8Rq_ut57z1rnY.jpg"
       },
       {
         "id": "ChIJKWcNmM5ZTo8ReYyuiL0lhq4",
@@ -920,7 +961,8 @@
         "websiteUrl": "https://www.facebook.com/cocinasucresale/",
         "googleMapsUrl": "https://maps.google.com/?cid=12575780505450876025&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJKWcNmM5ZTo8ReYyuiL0lhq4.jpg"
       },
       {
         "id": "ChIJA1zDrStYTo8RewJzJThZFTU",
@@ -941,7 +983,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA1zDrStYTo8RewJzJThZFTU/photos/AcnlKN3CtmlsbBKGdwTJKCXmjG1k9Oogiyv3BdOfY7P2pXfHJtYK6IIj6kIGQPb_5QrA-YbRZllHh0yTXAgagFjZBBTdywENdnxbY3TSmXO99Re5qcXS4LqLVBcQ068bkobDAUyO3ONQkuDMc1iGOWe61CBZoDQjYNpk834WDkGhjRCrE2EGI6K7pU9sEyhGO0fy8CCVs63oIfoJekN4IkDUuQbr6qVCZO3pz5jAn4Q1SZgFpdFu6Q3VQ6xeZWUnLCfFG-7_MO9gs3YFcMw37LxAdVnV0U6hiYjITUQ9YsSnrqi0Dg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3825061556202439291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJA1zDrStYTo8RewJzJThZFTU.jpg"
       },
       {
         "id": "ChIJq640hcRZTo8RQ46PcOHKbtY",
@@ -963,7 +1006,8 @@
         "websiteUrl": "https://www.starbucks.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=15451510441159659075&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJq640hcRZTo8RQ46PcOHKbtY.jpg"
       },
       {
         "id": "ChIJ1RLvUXZXTo8RDtOU6AZ2sPk",
@@ -984,7 +1028,8 @@
         "websiteUrl": "http://www.serenocozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17992010283389080334&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ1RLvUXZXTo8RDtOU6AZ2sPk.jpg"
       },
       {
         "id": "ChIJnXWGVxBZTo8Rbs1sGeoTHL4",
@@ -1004,7 +1049,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnXWGVxBZTo8Rbs1sGeoTHL4/photos/AcnlKN1JFf70y0vmfrYCL9nBcXxZuAJT6KqtSyZjrEeo5LxKUkXENL1hosFumIazoQr49N2spwLgB3T2mhg8NiSAVhCdof3lxNX6gzx8EotHb-FUue-Kko5CV8wscY5-QCNDGmfT0UzieZixDZDnt67oqGEKRYt1zQG-Q3rYlEXe70CT0z-GqAp1UBTWgE1mOnfmhWvG2FTBo_iLOF75o_bzoilgv4tE3AnX1hcx3RUo4mKGysmJQ0_4GK71LndseYVRinirE5LTWj7VlfuUBLqQDza9lHZVx_cSTvKxbwQEehE40_JBNgGK662-oyg3FwcuZnKgL0XaqofXoa7SytE55nzb4MCtRO4VkNW_57dq5NjoeEzg0HOCUg59zLJkA7Cn1y6ygznU9OpWdMoA9yFEiqO_wYkjNLK4LFyBr5wzcN4C0-t76pCp7w6AIkgreA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13698846062724042094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJnXWGVxBZTo8Rbs1sGeoTHL4.jpg"
       },
       {
         "id": "ChIJtZrmFzZZTo8RpSWUkLt1s8c",
@@ -1025,7 +1071,8 @@
         "websiteUrl": "https://www.losnopaleslaquinta.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14389974682823828901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJtZrmFzZZTo8RpSWUkLt1s8c.jpg"
       },
       {
         "id": "ChIJabflHmhXTo8R9qrYiso9VOA",
@@ -1046,7 +1093,8 @@
         "websiteUrl": "https://www.instagram.com/cococafecozumel/",
         "googleMapsUrl": "https://maps.google.com/?cid=16164612902661696246&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJabflHmhXTo8R9qrYiso9VOA.jpg"
       },
       {
         "id": "ChIJTxtCztRZTo8RqTzaOWGBXvA",
@@ -1068,7 +1116,8 @@
         "websiteUrl": "https://www.facebook.com/MapleBakeHouseCozumel/",
         "googleMapsUrl": "https://maps.google.com/?cid=17320423471495920809&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJTxtCztRZTo8RqTzaOWGBXvA.jpg"
       },
       {
         "id": "ChIJUbfIrmtZTo8RcepxKeivwb8",
@@ -1090,7 +1139,8 @@
         "websiteUrl": "https://instagram.com/cafedeisla?utm_medium=copy_link",
         "googleMapsUrl": "https://maps.google.com/?cid=13817518543411997297&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJUbfIrmtZTo8RcepxKeivwb8.jpg"
       },
       {
         "id": "ChIJoaWOL0xXTo8RLPRUZuiiowY",
@@ -1110,7 +1160,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJoaWOL0xXTo8RLPRUZuiiowY/photos/AcnlKN3mMfosVUqv83pQjq2qzI1RkrM_CnrrNeFuFbm2vVDXb8y7H67nw4gdTORL3ymxyI3x_fcKyXx7QMo3PYR3fNC4H0viluSDoZ7bTtUIOzdYauqPSJKhYovlhJHt751ljgamGaCkUeg3CsBkNt_imtMkxr10zaBsn_n7cKONiv-BhL-pLcO6kaJbLp32ULROEDly-UzwrEVRl4nfK83dsqjJuDH7_Z_BWQiw31Dcpdg4K2LFUJProPTPqDkSL02fdkGG68T6-AtE0h2jCpEOekT89vLboT8kS7SBs8xi1NSotg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=478405104464360492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJoaWOL0xXTo8RLPRUZuiiowY.jpg"
       },
       {
         "id": "ChIJg6MoI2FFUY8ROzxjl6yeRTI",
@@ -1131,7 +1182,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJg6MoI2FFUY8ROzxjl6yeRTI/photos/AcnlKN2NNlpwsXgcMw75tbBsdxOQtbHS-iZt_LJ3i3RsVkCwl7G7gTYDaRq5oVyzh2e_KlfAIIs1Hj0ixPOBMdO1oWryog893DbxSy5Aw06IRhjhTsbVdzhgkWKSxY3IVenlHAlKDK9uy8Lw9juoNoRAIuZV0ZeyWZdd3EecG4uyFfm37q3eX_erWOTJJvd1iF3PpWXjli7TR19QcOojNQ5wkWbz3ciYiCBAQw02RLCa12flPoTKJUWYeiDs-lakF6We8pELTX_rMhSk1UOcUFU94gowRYB_UwDFhYfUEEq70lEwBaC2bWRaQS5YrBm-BQ8D_FC5djeZmX7dGq7CG7gxV4pKeGWbxf5qSdknof-q_sxKXUwtnNacwIZd2pb8zQYuZK5s_NH75dmvrYD4cTJG7o0kXFHqnAAvbubDTEbk-7Bgpy4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3622475939400858683&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJg6MoI2FFUY8ROzxjl6yeRTI.jpg"
       },
       {
         "id": "ChIJidFFWdpZTo8RwhwmBlwINDM",
@@ -1152,7 +1204,8 @@
         "websiteUrl": "https://www.chezamerestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3689583186056453314&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJidFFWdpZTo8RwhwmBlwINDM.jpg"
       },
       {
         "id": "ChIJaX63xs5ZTo8R2phr93jv8h0",
@@ -1173,7 +1226,8 @@
         "websiteUrl": "http://cozumelqroo.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=2158050474290026714&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJaX63xs5ZTo8R2phr93jv8h0.jpg"
       },
       {
         "id": "ChIJb5td0dBZTo8RvVRDha3sTdo",
@@ -1193,7 +1247,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb5td0dBZTo8RvVRDha3sTdo/photos/AcnlKN2A8B3so2-HukiIPvb41I9weQlXOefHDhiJifNx0Zy_BHBhJ7jIzKzWd1QKIOsqDPhBQCdhfpiRSA98__E6EHOGkJ2I1he68yF3kcuZAp3T1pvQjMYQJMqFBh90UWp372Hj8c1KBl3Qi7jEmrhlF6JAf3Iu666-izgH7weR2XKe1lDvnvzLsuNJeUZcDIhCU37J6IfB7vLpj_HbXJcVYOHdQ4m9PZMEuZLQbDEdE4LgRNOosRs_0zyVjctwkNo4vdpX729qjK2N4oK9bk9M0U6rrsS5UZyzzs7cGegMqZJP2bUTP6M6P5zCgngnsRSVgW4ATP9u5BgY-_pDb4FVpxEp0FXesBcogWasW5v9aOOKFQbnr-kCz9--ztQcexZ6bp9Qm34oXd_6LqEXmDfS9oTQ9rmFN_xTtPimXhAQwDwKrTk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15730489303484290237&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJb5td0dBZTo8RvVRDha3sTdo.jpg"
       },
       {
         "id": "ChIJLT414z5ZTo8RByJ92AajHzI",
@@ -1215,7 +1270,8 @@
         "websiteUrl": "https://www.starbucks.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=3611784675971637767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:13.127Z",
-        "updatedAt": "2026-01-23T16:00:13.127Z"
+        "updatedAt": "2026-01-23T16:00:13.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJLT414z5ZTo8RByJ92AajHzI.jpg"
       }
     ],
     "adventure": [
@@ -1238,7 +1294,8 @@
         "websiteUrl": "https://www.selvatica.com.mx/es?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing",
         "googleMapsUrl": "https://maps.google.com/?cid=13237965984461809638&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cancun/ChIJvaw0vf0rTI8R5ueM1Oyztrc.jpg"
       },
       {
         "id": "ChIJAflEe8msT48R8KN9L5HOFic",
@@ -1259,7 +1316,8 @@
         "websiteUrl": "https://www.cozumelparks.com/en/punta_sur/",
         "googleMapsUrl": "https://maps.google.com/?cid=2816665739929166832&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJAflEe8msT48R8KN9L5HOFic.jpg"
       },
       {
         "id": "ChIJS9-E_M5ZTo8R0ov2mVMcp6Q",
@@ -1279,7 +1337,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS9-E_M5ZTo8R0ov2mVMcp6Q/photos/AcnlKN1DHKCb314HBnE9wsk-5rPbgVoLwx3UnMY6L_ePPeIM1ZgkcpCgmKGYc4_k6EQyWNJQEiGmXGhwnMbodktjU5NeV7lZuWqacnXBe9roeeFCOJy2TB21d_eHwTkIIgw18n3QipftjDn3FeC3XH2t3TS7IzNQdeGxmVO98BJsyqkLdh0qxeUkFrYx3mv06JOMPQYgppgRbKJMtIJZTI-6NJaksHwKKWDJwTN1CMPE55l-6ihSVGPY1QZJSr7IaOzDaAwkqrvgVXu2xan-VKNl4PUQmrQnOHMtg0C5TeIKd0OrUlE4CurxES4sYzV1hwrW7QNJfP71lXeK8FiWu4sSh2ZrDlpxV4iWG6n5_W9E23KFSECXQQPbzEONGEo2isteO-C3v9-weVad3Vn34nGElevlmbZKRJIAvTtgtqSKaOvVuwuA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11864482888721796050&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJS9-E_M5ZTo8R0ov2mVMcp6Q.jpg"
       },
       {
         "id": "ChIJnXPd6fJzTo8RmuKBnmyiSqk",
@@ -1300,7 +1359,8 @@
         "websiteUrl": "http://extremeadventurecancun.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12198741128085889690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cancun/ChIJnXPd6fJzTo8RmuKBnmyiSqk.jpg"
       },
       {
         "id": "ChIJ54cTJzRXTo8RXDgyjB55uYw",
@@ -1321,7 +1381,8 @@
         "websiteUrl": "http://www.cozumeladventureplanet.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10140269208109463644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ54cTJzRXTo8RXDgyjB55uYw.jpg"
       },
       {
         "id": "ChIJR269hCVRTo8RTNmC2xrWs44",
@@ -1342,7 +1403,8 @@
         "websiteUrl": "http://www.cozumelparks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10282797785057253708&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJR269hCVRTo8RTNmC2xrWs44.jpg"
       },
       {
         "id": "ChIJ4bDTeR1ZTo8RBFnDC3Y6jjU",
@@ -1362,7 +1424,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4bDTeR1ZTo8RBFnDC3Y6jjU/photos/AcnlKN2FEyDl0JNbzv-ol6U80FYGTRN3matoJnog_WtE66ldGdi-nmb2GMFrUIqp_5kQtMVjimbxr8-QaQge1W5oOELzeVNrdAfuJpuDXkH_qSzy1RVD8878DHTC7lCDeksrBSMpDvAIbWYnCqn4QQG5aLBnmC-U460R-0mLtuDXn4XNXpsq7ov_GiVGe46FqLx5K5AO-QJ8WksExjMtq_BGSkbDNwR5PpCXaPdg9_pyzcxoYIlS_m38PYGmGLeTSj-EPb_mN7lZdLkNSnt8OqjaiJPpFhzUIluOF85KDxldIn2rCSSy9-_lTOxnFcWtvVMUKgTO38wFnGR9-pX8mAiS1-9_e_CNBbQggj_V1Nt_sOo434ejNtkcr74LiwrssurKnneZalOrKgeGMIKbb3Hlf5kB6aQzN0skuDtrCaYuqO3-Ow/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3859086209380997380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ4bDTeR1ZTo8RBFnDC3Y6jjU.jpg"
       },
       {
         "id": "ChIJoW6MlURTTo8RGS3BAHxqcaE",
@@ -1383,7 +1446,8 @@
         "websiteUrl": "http://kuzapark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11633196393295850777&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJoW6MlURTTo8RGS3BAHxqcaE.png"
       },
       {
         "id": "ChIJlR6secNRTo8R3yAJHGEAkFw",
@@ -1404,7 +1468,8 @@
         "websiteUrl": "https://ziplinecozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6669831465217892575&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJlR6secNRTo8R3yAJHGEAkFw.jpg"
       },
       {
         "id": "ChIJyTuNoYctTo8RZZregMtYz1Q",
@@ -1424,7 +1489,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyTuNoYctTo8RZZregMtYz1Q/photos/AcnlKN0joPxY32x8IOvHWYP8m_UZyrV5zmLi8UtiLGKMmVwxZzVFv2lSOxcIusAun4iPtqk16Q26Hq0kqCCBfkajh3ZgpOq2u5WsJiM_Ulwjd6Odo4ZkJZ-XtPhKsgUTlhJ4kFk6qTTr5RLgMfwfZYrpyRHSIU6pvcmbO6y29rlP6Uzl_JzvgRkZZBpE94_NafYkmfqEcqMAoctAkISvZVwuo-5-WxTCxz83_dJ3s-oDeJ0Czx0MZtzcVSBC9EpXgIUtLBPb-RHyMkHTZiSZiOC0IRt03nnecdOkxxj1qbmA9A29A1drjhkoXYWomNkT10W3bQfBqG642aKAxFcp60FlwHcu7tjFYZuxTyX0UcYW2mhma3SmGRrrp2UAExPPEWzYhiZMb7cF2xHJXeIvH6ISn37SggXE_3HlIcNP8y028JJ3bQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6111200850428729957&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJyTuNoYctTo8RZZregMtYz1Q.jpg"
       },
       {
         "id": "ChIJkWfUFFdZTo8R3eTwwxhfbCk",
@@ -1444,7 +1510,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJkWfUFFdZTo8R3eTwwxhfbCk/photos/AcnlKN12zaupvnZVPUtq0kNjX7WRuFJ7kEQZXOwfvAyJVLilEUFg5ZuIpPhVaOinPzKSq44zCoYPWX5SWdvL1W5yBsYdE8FvWwP7FfO2HZuDXFt-tTS1S97EDR3iTrgfx58P_IQDMBoLxObOWJYcLAaHbiZZZQwVcbdv7Wh_I752A72WTMxxrpYERnusXp5wZIrTb-hzuSLvMS4hMRKhiDMQC1u2a6e9CgdDJtztcAmvrEel7Ub0YCAesJYFfgu6iQ29Egz_8_Q3wFBS94Ds12Y8dk5iDhGC5sW8ARnDTFn8Kwy1G0Zny1ZgcSDDzj8nmJ5amIbRUJR-vtAt_2RuoZNfQMJS9hgrxuUJ0JelC9ykbGmornPr-cAbLUFLcYV8leJK9gCXwq0-FtjFvAhhpU5eX_uSYp9us8auut1hG8W4iNFJnKY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2984865213010994397&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJkWfUFFdZTo8R3eTwwxhfbCk.jpg"
       },
       {
         "id": "ChIJPZVkUlpVTo8Rgnv4XMo0OQA",
@@ -1464,7 +1531,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPZVkUlpVTo8Rgnv4XMo0OQA/photos/AcnlKN0qhtYJsuPOV_UwPW3wtKjKcnojrQ-glSWnGr3xMN5sotBR2PxLHLho2svVJWq0KhZdvch5qRXKXX2UZJhrSgUO7PDEY-mEpqDHarZxwjkdBpRMzUCraqY42Qheke1tOOlJ2yQwesKuxXHKPoVePeFj-QPv9SQXH-eW6n0GYYD7ipbj-CZUT8yzPRfC1MCUOF3dkTflhfiwizLpRgV3sEGodU1flwNdOpQ4mrosbi5ptev140JUcKvJwp5X1T_7MfaPUvYTzWwY4JjiOmahS14Nrk6ccsYx4EhD2mTjuD_jkw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16102117420333954&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJPZVkUlpVTo8Rgnv4XMo0OQA.jpg"
       },
       {
         "id": "ChIJKXDbHwBVTo8RPnwy0PwMNBg",
@@ -1504,7 +1572,8 @@
         "websiteUrl": "https://www.facebook.com/pages/Rancho-San-Benito-Cozumel/182352075849911?mibextid=ZbWKwL",
         "googleMapsUrl": "https://maps.google.com/?cid=9055929259086231744&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ3wAmph_5To8RwLjmRq4frX0.jpg"
       },
       {
         "id": "ChIJxSjjUQD5To8RN2-mpUQ6-CU",
@@ -1524,7 +1593,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJxSjjUQD5To8RN2-mpUQ6-CU/photos/AcnlKN1kzyEBz_p-xqAQkSzRFkd55vN6ABH29q57o0nd7tIkge1HGJLPIqXDtsW1vk-revNR1GZTQZ1YIAJlvr64Y9G_u5jPFqKCKD9hTK6nF49Gr6OLCufaT9toUAIyY8_WvCDzTkeGykMGKf1Bu6Hu2GHrN68GjwxqeS1lk7RlvAAI-5UlsdKO958iROfuPtvlskzBG2AYtLlta95JUgkf6wbjzS0sX5R3D4BGA4IkAjK8Z47kKquWs7YOR0TLL3s7R0YMJxDUIKUKxCkKYlddySMEvIm-QNMtbB-c753eXq6L6ltq71I7zRtkZPYG5ejDm-duze0E-ge-SO9-3w0OPDg8dNI2vee__h-sjcC0-CTcUri2lSp7c6jSE64En5IJ2kFHbxiEgN3O2oihBgSaYKg5w4c8iy9hKekvmBhYAfk_nTM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2736000840138911543&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJxSjjUQD5To8RN2-mpUQ6-CU.jpg"
       },
       {
         "id": "ChIJLduBR5BZTo8R4UP2XhGBCkU",
@@ -1544,7 +1614,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJLduBR5BZTo8R4UP2XhGBCkU/photos/AcnlKN0mmLchBCw5T_Q18fiaRZ6yR8uxKN7hKd7RWslhPaXtWAaI9kh3Lj0bcP1CqrTkLbb-ptvXn_iVJZYMMWGjPu_uAX33GSwVpiDAAYqvUW2_Co4ibfb1e5hA81rLlpLra3vNQQ3qY7lHzJ2M3ZbBjFsoUOvTqJ1jSz9VU9XUgh7Gnpt58JT-Y6KUVlQqoNZx9JYhV1eMXCVKLtyFYW6wGxDSXYw-VAKJdxQdW9u0FljT-N22Gz6-LrwJoi-HiuwNfRytPUEvhZZn7fpv_h-yj3lJRUbH0QZ80Xku86AgqgCEHHo4105x7_iLW0pYw8ak4LEv6QQgjr0aIpJl2Wrkn8LrJPuyw_S0sSaR8-85txcUHPLhbzLmPNcVaai2fVRdhZfLj22zUF5np8Gq6BHApJA0zOONHiQ2RqQOMo0pR-o/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4974930649991758817&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJLduBR5BZTo8R4UP2XhGBCkU.jpg"
       },
       {
         "id": "ChIJixM00-RDTo8Rr4SZDFRyEw8",
@@ -1565,7 +1636,8 @@
         "websiteUrl": "https://chuuk.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=1086337640440628399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJixM00-RDTo8Rr4SZDFRyEw8.jpg"
       },
       {
         "id": "ChIJ92S70NpXTo8RZH6RYXiHdAM",
@@ -1586,7 +1658,8 @@
         "websiteUrl": "http://www.cozumelfunexcursions.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=248972830514970212&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ92S70NpXTo8RZH6RYXiHdAM.jpg"
       },
       {
         "id": "ChIJqxf-V_dZTo8R2w5R6D3gqbo",
@@ -1606,7 +1679,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqxf-V_dZTo8R2w5R6D3gqbo/photos/AcnlKN0VcsPLJfNBAsvkK7ltdxDXlqPxPP8jxnEA28uTAeszgh3yVHpijZD12xcbWjz-OwUvXK7eqIKJohq8LAjFpaNfSvvQQzWiEedqYjQILjULP2ntUqtiVkiPe_T32VnEDx2R0iw2i0_479883KcRLT3kOcA01bzjBZ39BdTly1il2GhNpY_smqa_2cOYpPwhEY-AcwhBbVG0zKaKcvou9QjP65fJdWIjDlNMYrlUWVRlFyWgmgIYrdRZ45tKVicqnhIrxwLvZmNp3t-0mpb7_1YZokozJoGbd9h9rxpQNlpkw0b8oavmjTsRr2-HKQ8V1EuLFolkQPp7JMqexZ19R8qTJZSZQI79uMqukF8tcwk658TXMrEtr1j4K8ELzbsFcGJkyhBTunyHMLgJdskv_xg4RTGobzgjpZO8PykRsDtXe1N3w7j2T0XnBaXkY4--/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13450528318613950171&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJqxf-V_dZTo8R2w5R6D3gqbo.jpg"
       },
       {
         "id": "ChIJ312UErVZTo8R7qNLuAcQUAw",
@@ -1626,7 +1700,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ312UErVZTo8R7qNLuAcQUAw/photos/AcnlKN3upNSsWzJRWmRVhsm3RtsA500kfDTFeBQJrVFNoFW_UPPhoVxLgsYNSf7humNmvL1aThl2jPs2Zn9Kz-u6MTCD4iBXVMHt_naWrDvGBFefE8CsF_CUMYRszhbhde9fuIR0vxQgt5A-64JEozuehoSXEJWE_ob8wKr8KZicLTfCIMH7pJECPs2r54FeRXIo63CBymdtc5LEmHXae-ycRPExQVdwX-e7w74fYwxV_BVkT5JXdd6MQkQpJ7fZP3HK5vBwrI2c5Fio7F7jK07Qct86sVri90wdTcqS1nWpmlAQxyRli0DEUuopHRXt0ENuwNVxJbwOIL1m4Kwn4l5nHKyRWOwz48mSjqtzUsBi_o-AfI8--6oAaPHEFRvabx2OthPKZOnTVx8Kh09vviGGIldtXwcmOuea8MrSV04Gz_Nrf6o/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=887226751934768110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ312UErVZTo8R7qNLuAcQUAw.jpg"
       },
       {
         "id": "ChIJa99RRcxZTo8RjhHCtnN8u4g",
@@ -1647,7 +1722,8 @@
         "websiteUrl": "https://www.facebook.com/ConanpCozumel",
         "googleMapsUrl": "https://maps.google.com/?cid=9852605446232347022&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJa99RRcxZTo8RjhHCtnN8u4g.jpg"
       },
       {
         "id": "ChIJoblhVABVTo8RoPcTK1W4TR0",
@@ -1667,7 +1743,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJoblhVABVTo8RoPcTK1W4TR0/photos/AcnlKN03H2Xc6IyKqPGiDevMBpxsT-UmsiNxEzLQTR5UEsIBzDSzsjUBue4BaLdc042rFdvxbGuJJULN26ewArpXbH2w0zKHIkRsacjF3XvU0bn6WqLLdqVtd2fw86ztLCLbODE4XiUV1kwI0InhFvA617632WdE0RboCoZmn66x3Y1VbZBisyGsXCz21HX31QWBvylOf95C2G0aqWHZAjxv_Zb1VXj6qpuqRWki4XK6SClDEJSN8rgONNIgF7S97VVEwDLdYb7PaklRViq8KNemQsGiupO7SJBDFK1XbzC1Z_4tkK6C2_DVGR86fy2Cg2ZryTcE3TBlhmekaQvjzg00v14ISWfjVlcn1EG0OtChRHXBrtkuXaGHv8hR3F-QYyebVwogdAly4uXxeq2rovBczZtg_XKqCObvGke0z1pcCwc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2111546476241090464&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJoblhVABVTo8RoPcTK1W4TR0.jpg"
       },
       {
         "id": "ChIJ4zOd-2JXTo8RKiMiF6Sk1j0",
@@ -1687,7 +1764,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4zOd-2JXTo8RKiMiF6Sk1j0/photos/AcnlKN3tYFuZJEcuv1Psxk_1gDG7t1VRrosuPP0htR49bs8Hx97Bu7Bax23OOpeGpgCv5Dtsnz70lqC9-E9EQTc3nntFJoYFCkuN3jO1pYdhiAi84nOk6MUxN9yFF4n98-2Nfzd5m1_70tJnHyYVllEWTj69Lbk_EtDolD-2fcJoWw2maPrJ6xWO8BsKwVwOSDSS8Yfic_ljKk3pNyRwlo8QZeQQOv1rdetSs_fugrW48rLAXZ6wlxatPsJYFAwTW8eGbNKqI7fS8OhZ3BfbjlvSBZy_hzewAaJEL3U3I7WH32SaBT8wDWv-2VinJ8WG3SNCWyvzPyTh0bZ6HjU-VRIaNbjgr-U-PFVe_ips1xZx9cIDhRpPR_Jy6m0Pj4mvPKyYtLRxzDWInlki-SVLZDzJ86UYBlDwbCHFzmSIqGMHpgxCE0lS/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4455929905999389482&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ4zOd-2JXTo8RKiMiF6Sk1j0.jpg"
       },
       {
         "id": "ChIJbSKY4BNXTo8RD8nPX7KgzFA",
@@ -1707,7 +1785,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbSKY4BNXTo8RD8nPX7KgzFA/photos/AcnlKN2kr8T_9dpKWuOXzM8aiLIeRsaR1hbeDilkQnUJlVXkESl1bMpCwuOFL0LNcHP9SfnDLF7Z-GthEJt-abuB_nMxtIwo6CDDn0_RyDnNmEnzneu6os_RwAMbesW605ewyKYVdEKTF5QYO2Sa0viZiLudCAUU70IQZT1gr6bxgJfRC6vuptHiBGNk64nkzgBsG-m4JtLr1VAcY0qG8SWPrQrSBPxoUVghhJdRZ4b1C_yGKcIQ5Bs1c9s8ZLmBUn0twQVgQb1DZOjPA-h0FUl1V8HVh3qpm4avoa9v2fiRNch03Y3rTHhtap2ziDbAysxlZHel944W-Pe03mDLR4hhoNcOQMTG5L5n-WmQndGCZHIluR_gJmlhfc9S7L5nhrczsYiQ06PgVCCiwrzV6Bp5dpQiUd2jr4PFQ3j6D0LYZ9GgX8ulncBs27LAKpmCNw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5822205106255284495&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJbSKY4BNXTo8RD8nPX7KgzFA.jpg"
       },
       {
         "id": "ChIJj03GLjxVTo8REHeE_CrfLPo",
@@ -1727,7 +1806,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj03GLjxVTo8REHeE_CrfLPo/photos/AcnlKN3R5pnHt4NGvAjPqQq8eVRoM57jzzNbzFkTpRBsY1Iumr8KXFYwIO9FX-sIz-h0roRUAIRGcT-xpCpSMSJ5Gjf6ea-lA1W01dOuXrlnmsgUr7iWA1ByFn9fLY3Iub1b1uWQrpR1epXLH9mzQFoNF_4nxPuXPUkDL6k_lBs3drVQ4wQrrkHBS0_WsZue30DiE2S69aa6jmXXSy_q2iYdiCw1QUrXzWKDBxbNkISx5Zy3E393K094TdMsm7ZP0TVV5Hklt96cyfCtjusewd4h56P-zIqSkfsGRadINmOXUNIho_YqdbUAunfy_Gx-ueb7Ay2XIt0wXXx5WMvlilECSCwBXzghuX1UpVEM_N3dKKMf4VUe1cK43ef90KsYYHdXEsyymShspB3q2Gt4lT2o-vhFUyIWFp5sSQ7vUd_5uvm_vn4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18027028784175413008&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJj03GLjxVTo8REHeE_CrfLPo.jpg"
       },
       {
         "id": "ChIJQZrNEShXTo8RQsNLCPnos_w",
@@ -1747,7 +1827,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQZrNEShXTo8RQsNLCPnos_w/photos/AcnlKN2mXu1Hav0PerYNKJtE0XrAUdeHy3Zd4lKEPmWVLk0EHe2XgHpv7KIrdJmmKo-f4fCiQVQkU-0bqn4GeXMR-UBUkr-m40LafJbqKFgGn2GR0ov-sHRoPtctjrf82wz2yKqU5BBSlSvRbjkS-7XdI4YC-VTeeuqVrBcJGq5TCpfg-SNluA-jD-P5WSgbJ6B8j41tvhUUtdwbywk12SbqGK0XGV3iKfIR6uL9RaC7IM9htmb3ckZV2tthSlBVtkVVJrcAiK95UC7jx4h08viykbAQcFIvFDN2ZIpZNoMFik9g3rCxAatJm3yBI6q2AxxsRcYXF2pp-bZIKCoZXHfoB1af_Q-kcgX9h_vxw_Pv_UuBHbvCStIZ4j8-6lhhFn0XX1mp7eJaFwmpp4QAyrDZgyUCKg6FKR_uKJdhPsd8SebNhA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18209153874672730946&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJQZrNEShXTo8RQsNLCPnos_w.jpg"
       },
       {
         "id": "ChIJsYTU53xXTo8RstSRlFRHUKk",
@@ -1767,7 +1848,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsYTU53xXTo8RstSRlFRHUKk/photos/AcnlKN3_76E69i0zTr8I93vXkIE_pAQuCaMc-ucIfI5xn4mZt6F4gUK73iskbxp87j9G34C86pwe1UuYDkN9IiqAQkuoyumfT30PHzmZoGhxtBfak-n2U_gvpp8qIflMs7SohxNbB48K0SiIpASuWSyWwOVlHdApBtexcxSRPbfOXAGl1rUluixrUi2vV2IJRE3HDzt9pWTN47UKNfBNZXBvhdEmnEcmRyGJem30F6d-P5iLkGc__vmV4UGyrsAk-N2ny_kE9TSC01O6DQKLL3bW9HqJjGmXbASVRzHbEUCZsOfjv5QQtMqCNsErwGqBZwL8QQKKS48WUqsSSK5J5czEEU9fpNf09h-Vyimr7kKQU6ePh4SXD3lSqo10khcWSd2oApEk46c35n97tQzIqvzOAmhf6qG6MhdN6eV6VyK7mR7b9cU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12200329819142083762&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJsYTU53xXTo8RstSRlFRHUKk.jpg"
       },
       {
         "id": "ChIJ-02vGnNRTo8R_ImliK0vaXM",
@@ -1788,7 +1870,8 @@
         "websiteUrl": "https://chankanaabcozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8316230609284729340&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:14.618Z",
-        "updatedAt": "2026-01-23T16:00:14.618Z"
+        "updatedAt": "2026-01-23T16:00:14.618Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ-02vGnNRTo8R_ImliK0vaXM.jpg"
       }
     ],
     "cultural": [
@@ -1811,7 +1894,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJH5ZlQpRZTo8R35yD7ADGqK0/photos/AcnlKN3BiAb4qh5NXv0FtUUPQVzDnepXxUgccG4PQvInGuFcu1E-jzWkFx8YO73seseHRBGl6nq7TbCruybMLv4zRi6xX3rRY1E7UsnA0L--DGmt5pOLVkNEgjDjqC06mjFG-qal0xWurIhKsdGb9YUdeMFhDwROGd-L8k-Pi6x12ntipCjCG9wJeyZ8WtK1J13TbriD-tW2tCvEyZE0VYtDBaVjDhAMPFo3HYgtrwA5M8FJZXDod8N6EXGkzIWlBZpcaUgIY_wyR8pkTm6kYivHHN4vlHjqM9jasjwQp3Pm8fHpFQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12513469271919271135&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJH5ZlQpRZTo8R35yD7ADGqK0.jpg"
       },
       {
         "id": "ChIJQ6H7U8lZTo8R_HH9KKY7-Qs",
@@ -1832,7 +1916,8 @@
         "websiteUrl": "http://www.cozumelparks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=862786388456468988&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJQ6H7U8lZTo8R_HH9KKY7-Qs.jpg"
       },
       {
         "id": "ChIJiUHFxjpDTo8RnPMOc5Z17ZE",
@@ -1853,7 +1938,8 @@
         "websiteUrl": "http://3dmuseumofwonders.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10515189994015880092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJiUHFxjpDTo8RnPMOc5Z17ZE.jpg"
       },
       {
         "id": "ChIJb5nqRDpDTo8RqjSz-M_fjUA",
@@ -1873,7 +1959,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb5nqRDpDTo8RqjSz-M_fjUA/photos/AcnlKN2p6CCCRhPocAD7MmCnvC-UEJrJjXCgNMxahTMhogDMWsklRn-VyCnmgYzHrIHOtQ1y2LcZ87BeSTppjRGkaA3JfmR0eWlZVRYbRBMgYvs_5SXdXs13gn3uFwQTLDixFyxiSFFsKngXA2wf4WHoDUJBcee5oxsENrFIAKh_EV1NbFYdPrjfpYRI6dbPGViDacj3N5zM758Sx1Td3yjVRkBSFjK_bpuMqVDiamC67Elt8Acwhy-gk-6jjIEExs-wWllW8gqw-2Bnpz8eS8vCOStm4if-l2QRdOS2Ezkv9lBzBA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4651620074467308714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJb5nqRDpDTo8RqjSz-M_fjUA.jpg"
       },
       {
         "id": "ChIJpQ0fgTpDTo8R80GfYdyff3E",
@@ -1894,7 +1981,8 @@
         "websiteUrl": "https://www.gastoncharo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8178431217207558643&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJpQ0fgTpDTo8R80GfYdyff3E.jpg"
       },
       {
         "id": "ChIJYScGYtrRT48RgattdC0ffoo",
@@ -1915,7 +2003,8 @@
         "websiteUrl": "http://www.instagram.com/tuluminart.tulum",
         "googleMapsUrl": "https://maps.google.com/?cid=9979448104386931585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJYScGYtrRT48RgattdC0ffoo.jpg"
       },
       {
         "id": "ChIJq6pWxMtZTo8RIlTsQFc013I",
@@ -1935,7 +2024,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJq6pWxMtZTo8RIlTsQFc013I/photos/AcnlKN3zWSByNSSiUtfybulImWlC7_d1fYzEWxuuAfV_bGEO_byo_tNSZdicjZr0fn78hjpJNvpFoN98Vw8CWypFe0GeQSrw74FoiEzqbqls5NANulsdH1_xTYqOnv3XiNXCMA39d_atRvAR2jTE9xS1qT0D40Sgwvh-eu-2bVPwCgQg0XH7ElG8aPYQZR2yCgNRVjSRDt1cMInW6j1TgRYnG7ITFove3MLWUuUwSXUvX4QH_6Ywr919qYwPWJefXRKO7CNhAhW7-gRamkFnaaKUmWePjbDEUle7YvCTyB8mi4MBxrvPrH4Okcr2WhfVCDaOGfY2636fBSmei0gbk6HqvYDYnZvBeeXrPxNkwmxHM2P0YDJjF6c7xQBIfvY-_4uc1MdlHkzQUX8UHYfA583kZFyIjlWvWBnMm1-ErsO_EZWFrIIt/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8275140389672604706&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJq6pWxMtZTo8RIlTsQFc013I.jpg"
       },
       {
         "id": "ChIJoXqUE4BDTo8RsgR2UMa6BvE",
@@ -1956,7 +2046,8 @@
         "websiteUrl": "https://www.facebook.com/share/17ALck8RvL/?mibextid=wwXIfr",
         "googleMapsUrl": "https://maps.google.com/?cid=17367774373917099186&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJoXqUE4BDTo8RsgR2UMa6BvE.jpg"
       },
       {
         "id": "ChIJMf1KIpBTTo8R5ZhuCEWqWBE",
@@ -1977,7 +2068,8 @@
         "websiteUrl": "http://www.cozumelexcursionsmx.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1249936110066243813&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJMf1KIpBTTo8R5ZhuCEWqWBE.jpg"
       },
       {
         "id": "ChIJywA-gqlZTo8Rw71TLHfMX5Q",
@@ -1997,7 +2089,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJywA-gqlZTo8Rw71TLHfMX5Q/photos/AcnlKN3097mYeCCBEiGps5nviwFvULkSkIOXXY9QHNLvELjCtdMxjrsv4GPPof8LZVBjivecT97k6QzIq8MLttBjeTXs5oXXryCQBPez1cfgBzsy5HMlJipsgW0u30nxJbz5WcuEAd5t7JSdyBzy7m-Bu8nEglBn9J2g44RXnNuoKvnZ_-CpyUG4MDjdvOU6L28CDmpV8nFCLH0OhxRALO33ffA5uBi5u_kZ1TK-jXXWF228Uf5kUXX-IEyzsGj4hclmetOoK4nVMPUmDF4UZw3WUw0TWubCqVPiPHLQJ9C2PmIRIB-QTe-B91Jfmr_-sUgcGwCcoiVu_FPybu9jXR9cKZTiLNE84_pYFyNMJdN8Q15t_mgSkRb7iMwIQ2ZhBUTzDP9JfeNC8b_LvVVMqvLvwx3v5NUF42v-DN_mmSqFW_R8Z4vQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10691488852617706947&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJywA-gqlZTo8Rw71TLHfMX5Q.jpg"
       },
       {
         "id": "ChIJxbZJLs1ZTo8RWOtQXgaABEM",
@@ -2017,7 +2110,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJxbZJLs1ZTo8RWOtQXgaABEM/photos/AcnlKN1SuCCKSSnpYThssPzY41Pnl5tNeJLCg93DjZ61nel1qNDPy_qTLbKNOr9FjB7o1m8ZJnJ0HvlYaay8Q_THsU09D6SzOwLv99JGB_SPQr0Y7-ukfrSfbxW7zElKpgU6XBEdmwxjsezpr00Jdzhq0LmZ_ecP8ADSYqzW0RfENlDcvHjJvOmD_3Ngdrn7UdHKguIsZbPNsqMwW4Sqz76whdzOZzL-35LQKceKqSuap07zNmKDOE-A7Z3ng_llzAECyVfkgOIWLsi_iiblAaylx_I-zJAjCgWJ2cJpRoq3vIAWRjg1Y31iGcc5z5IBM6aZSoUMNc7jfamtvOdTUPVWKrAKWzQ7YOii0ViQLGhBaH62kx3gePoUoPArKop8DulHWKD_uEWT3WhfPa3XLkV35M5HuwwHlsd9apWaghXWFmCzIg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4829125465288534872&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJxbZJLs1ZTo8RWOtQXgaABEM.jpg"
       },
       {
         "id": "ChIJBU24nJusT48R4WDIjJJGg2U",
@@ -2037,7 +2131,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJBU24nJusT48R4WDIjJJGg2U/photos/AcnlKN10jYY4hl86a8IM3q-lYRYBMpdQQif0FTLLI4fWp-hU2qj5hZwGbuJiZhkItchqcZC7jH9GP9JZUiUfvFsaNRIcXtz7eAQolwWsmHxPc5cdQiYeFwS8BLCfIHoH8-Xkd5vBYshX6vtBcZ0LkCKa8Tp7G0lgyvuzIZw5WTBb_U9ReuYgVESfv0ZWRYrV04YhB89Bv60Xq4aDxC381nGnQrZqOhAOYlrb0dFtxLVNiUjW2LmoFbvl2j09cfOs8hnJ6mI7GP5GCngxbJDzVLO56Q20mFGSTKH1DbAI_fs8SBwMFFwNX2YjC6VxaOlNUFBMkEzDZi7R6HW5L1tcAsqKCkfPLXAG-fUM70EXLnJfmdi3ThGzGkjOGCN1ZNANIk42ju8vVCa4mCkUtdJPveOacy1ndXzsEDrNDah1cZ_jk7M/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7314767815020929249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJBU24nJusT48R4WDIjJJGg2U.jpg"
       },
       {
         "id": "ChIJn97hUs9XTo8RZUGOhdje9ME",
@@ -2057,7 +2152,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn97hUs9XTo8RZUGOhdje9ME/photos/AcnlKN09xemfj-5LXboEl4Q9cNgWG5uXBfF8EwhcLiy4TRW16H_6xT1k1aXGGpqI6jKQcEY_s7P6--sUhSyjkc2SAhc-VS33IgKfElE4qXmk_B_0nU-KEp_RK70lx1DsO3PdebBz-_lTlP0UD6-ibKGns6u82f-Km_VuM00AQhSH8uGE2JylsoFimfdIhIn0NR3Y5UMsXSckPugZk1rgTu5lg148PWce-OfHQAskFXDHXZYH0BD7l8NL_tDIU4aOsLyuOmlZ2y3ITae_XBbs4UWksxLydaHQ3Fs1LTCoqizl2kLoc9SZijoPWDz5zP0U2PEo2Ow1Ro7T2XOEdZPxYTt0QoNjFftTZNh2M5j5OAgx8ZMIOt4L44IpGd6Ro1kPfp9lFekkOUrRuIxShYSzk7jmjtTpFXIKt2-pVjn3wdUTB_xMCRAfA-1hZKVF4MLUArEh/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13976040565172486501&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJn97hUs9XTo8RZUGOhdje9ME.jpg"
       },
       {
         "id": "ChIJ08jx9FlXTo8RVT5CfFqB6og",
@@ -2077,7 +2173,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ08jx9FlXTo8RVT5CfFqB6og/photos/AcnlKN1cvP8ispzOJ4EhRZvjvkXKY7jLo3K7gXgfA2J4yjyvIPHihvhzL7lfzi047EdNMAbKTIiOMCZ14afuGTdA9fGswLBWtc2OZL6hLAMcjtLuGToVIQSxSJAoQrNC9u5W532njIVcA15sFSPXpxDjSqkV3PRWeAovFud3XrJTGokvcNwP7iZKmWYu98h45_OLLMLIEujJ5xZXvYCOLRBCb-PWYCEzky4b6z1jcgDCuQcmE01bi2UmsIGVXrl7uzd1hE8P4B9gWJ4dlanxkC_YFaSKGEDgU4B12nnzboV73hoRIQ9TSps0PUDltPiVrGQoh4xbZuNbzKKYZ9G9ehwpILBD7jBWIg42X-o8V4eqIsKxJFnnu3A-7KYSh9shfbj9Zw1hO4lESvN1iyMlX8GrOfoyeV7uwjvvzAKqpQ_BzDU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9865840159340248661&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ08jx9FlXTo8RVT5CfFqB6og.jpg"
       },
       {
         "id": "ChIJIbHE0LLRT48R9Azrt0WN5UI",
@@ -2098,7 +2195,8 @@
         "websiteUrl": "https://aluxiik-tulum.myshopify.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4820414306747878644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJIbHE0LLRT48R9Azrt0WN5UI.jpg"
       },
       {
         "id": "ChIJ6QaYbLVZTo8RWPqFAxu1uZ0",
@@ -2118,7 +2216,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6QaYbLVZTo8RWPqFAxu1uZ0/photos/AcnlKN1cc2bjdIEoZA-Es3aQoHsVrFnDnhsvIGzqhMweWWIO21-7GYdSbkN4FCL3V3DO2z9YWmAUHQP3o8vS3Udi4e-f42oFD0W7mB2vlqsGAM5wpYyy7y1_NwhlV__ZTp6rxYATlHd_HzVU3e-77HsgrMtcmS47iMMCIJl_aD-l9yRyFKSJDOZNLer26ZTp-EINEZn8Se3EesZfvSjiJg4aMb5zuVT1PkNTdKQK1J_CCz5kRDPmpTGJAGbrjeTg6LX0M-9iY89nNP0Z5kw5LMQ5cVXcTwGeGJ6hWd472KfaK6pufgjYDbPQGjr_xdzKU1BxaZl_n20rB_XEoRvflhoJ_zDmnte-uv54aasuo-EQWdVw7Bqisga8uxl2QfmnSX_fSe9eoSPJP1p2-DUXrzeuo_pelQ3modWGd565BMLdTggrtw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11365314262274013784&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ6QaYbLVZTo8RWPqFAxu1uZ0.jpg"
       },
       {
         "id": "ChIJm60_ks1ZTo8Rp7gAeZv24v0",
@@ -2139,7 +2238,8 @@
         "websiteUrl": "https://www.facebook.com/galoartstudio/",
         "googleMapsUrl": "https://maps.google.com/?cid=18294455783942830247&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJm60_ks1ZTo8Rp7gAeZv24v0.jpg"
       },
       {
         "id": "ChIJj-NC39BDTo8RF8XgVpBJLyc",
@@ -2160,7 +2260,8 @@
         "websiteUrl": "http://www.choco-storymexico.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2823556375666279703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJj-NC39BDTo8RF8XgVpBJLyc.jpg"
       },
       {
         "id": "ChIJI0WmZMtZTo8Rs4YzFIIoKpI",
@@ -2181,7 +2282,8 @@
         "websiteUrl": "http://www.cozumelglassart.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10532275217709106867&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJI0WmZMtZTo8Rs4YzFIIoKpI.jpg"
       },
       {
         "id": "ChIJS5GqP4dZTo8RufspMSNTcQw",
@@ -2202,7 +2304,8 @@
         "websiteUrl": "https://www.facebook.com/Jcobalto.art",
         "googleMapsUrl": "https://maps.google.com/?cid=896589211437235129&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJS5GqP4dZTo8RufspMSNTcQw.jpg"
       },
       {
         "id": "ChIJub4Q4CNXTo8RjZ5wjvW-TYA",
@@ -2222,7 +2325,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJub4Q4CNXTo8RjZ5wjvW-TYA/photos/AcnlKN3rCDEKy0zERqjPEN19Ap5jCurTWYinjxTxkCOFDMQtBHlsqzxCSXFmA8b2cPsGZJZpYCcQv2vOyBOjrUGakJQnCnA_pIXyMF5lFwl8J1r9N18Zu6DRbf-tYvmrYAmZjM-0h8hzWceBYMNXOaTTIrOgH2roWEAztx8EggK1MlWWm7XmXchwYS1lvO8r2N9RZrw-U5Ugj0EW1NA9BUXraAKjAmx-0jVE7a9gZFH1a9DeWmCxyPSNUszR0AtgcNN95I-AoQru6-a5vU-gM-Bh2zlFA74RNSbz64aRiQXKGzvUEvXPVP7XDhSUsA36NxOlvoqXShm03hHRzB2dD2EYoOGoMbW3OiVtiBpXs3FhZR7Ip6X7Lqtwf5oQO-bsJIOSk2FuftrnsKMmva2uGfMHtQ5eUjyGgybN6OCe4blzyq8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9245255571927506573&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJub4Q4CNXTo8RjZ5wjvW-TYA.jpg"
       },
       {
         "id": "ChIJr3xSk85ZTo8RekoxEEHP65A",
@@ -2242,7 +2346,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJr3xSk85ZTo8RekoxEEHP65A/photos/AcnlKN1rF1B3VSOxKGlkWFF9DTrwbgWnr14alDUKimxIP4tCaW02TQq6vWpxmA4KDc9d01d8RLzPweou8UNcFv08YoB_jgRW0QYGYqg6qeZA30fhHTqKtaOlJ-g0NLqEh0t4WyxN2tVspe4iyYKE0Bew2MeC3ZOP1A5xerjE9qZAIVo_rf6hr3-aGRxA469eQjMA0rtAe8WOFm34mk6dU2zq9dEt9tuWOdNkm1Zd0pvdYSZGcUPscjav8VqW2TkOgpvHgORVwlShJ1mmxZwMX-LrHScjUujIdcYQ0FPn2r5GtjRh4A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10442668039340116602&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJr3xSk85ZTo8RekoxEEHP65A.jpg"
       },
       {
         "id": "ChIJkYrOikdXTo8RNYK1qlvyWY8",
@@ -2262,7 +2367,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJkYrOikdXTo8RNYK1qlvyWY8/photos/AcnlKN0f0Ah9S3ujsoWae-zW3OPE8CTOn-jljkS-6RQql4xXxJc8Ahmtg_pvlRfdRB3rPCYTAtBx3joCnmzDEsK-UaPyRXYefZFKH8R9RQXXgslW-IXDoY77RFgtsCSNe0kUDgYQPdpJpITtXhjxKkP19SJ0qR54QaD1xNw1kr8wEYUWmk-oKkh_PG8PCas4E0byoLaa610tgyDyhjgI9CQcGsuL-ESwISjIbeB2ByYcPfEqq05yN0IPWess-uik_YqUHw4oGyuWg2v_RgtDJMQWEZDZbYUgTbwTWS83Ty3wr2XFzaNx-Ene5eTVjxtQmtb3D05RD46lid0IVUiSFWx1zX3B6Ak_i61kdiw1SwKpnjitKYs8iUx9zFPab2L9tWtIDQut_HB0Y7G5C4w5I8Q6RaNj2C6c7uhJq08Qeh5Uumc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10329553695870911029&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJkYrOikdXTo8RNYK1qlvyWY8.jpg"
       },
       {
         "id": "ChIJF7SBBABTTo8Rg4YyjPfPQpo",
@@ -2282,7 +2388,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF7SBBABTTo8Rg4YyjPfPQpo/photos/AcnlKN1koIy7RIF3DX7RaJBRONU477rdeTFZtPkNuLdPEQhgn5c3GSijLoUUVWuj1RXQMHPpFt2gOb-UhtrWVzCRh213i84Vn9UeJkbnjJ5g_kDXz1ioyv6KTJn8KUxALNiOFClF3I9-5HLyjQvmX7qfmSAZT3Bo6DmVqI_62cwOX1dQdStNYEnRdaAo9lxL59WVM1H_oN_TKDpkqAB0S74KUJDaC7-srbnRql0rDUlkuN7WvSrWd-AIxPW9DyxDewvCgSe6BOVbyWTo7Mx3JFr4VF4A3YB8KVws71wQlrCB5tlatoQB5aUsqHcOZa8rVrtUtnksehirSNEAzT7_FPifk1R4s925l2nDpRHz65eov0-rX35sJUY90KinuUutdNsZFoz34WDge7Do6Yjg-Ztwv7BYd4qg2_ydmCQt0SbTqUwRJYUB4Yr9fT5LK9VAjw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11115675492419798659&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:15.939Z",
-        "updatedAt": "2026-01-23T16:00:15.939Z"
+        "updatedAt": "2026-01-23T16:00:15.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJF7SBBABTTo8Rg4YyjPfPQpo.jpg"
       }
     ],
     "relaxation": [
@@ -2305,7 +2412,8 @@
         "websiteUrl": "https://www.cozumelparks.com/en/punta_sur/",
         "googleMapsUrl": "https://maps.google.com/?cid=2816665739929166832&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJAflEe8msT48R8KN9L5HOFic.jpg"
       },
       {
         "id": "ChIJS9-E_M5ZTo8R0ov2mVMcp6Q",
@@ -2325,7 +2433,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS9-E_M5ZTo8R0ov2mVMcp6Q/photos/AcnlKN0AKIqJBs7ctSkiHEUxFDHStK7m2wBwurC64cowVF1H5EvIZ6cEOwaDI2ByUraWEn-8R0eoQaeWJJ1FRb96P_g47L3CgWDTXC-WK_8NzHvjQD404y8jo5ogvjO1CtwiZlDxKEhgM7VineHJAIXwC35aydFiZrY6StN45kpQBMY0Zpf3-jjHT1BzHoqzGL_XvD7w-hlo53T5kbwqq22m9dqW0bUr9vD6c2lZ9IzpIs-DpgWSxZQYFFm8Mhh89C3rybR6-2Mnshb_T5rcOKUY1ZH2rUdi_VEPm6Vga9uAvoCW30cPeLNPa_DWoWfXTQvAPpQE8ynS2s7VqivcPwAyZn_9YmkGfgVq7L2YEiVBpWlLlD_o4qhyich0Qd3d8M4OfQbJrIOgPik_r0cuOxizUAv79euPLjTrsEF5bgDkdeaS_kk6/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11864482888721796050&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJS9-E_M5ZTo8R0ov2mVMcp6Q.jpg"
       },
       {
         "id": "ChIJjeE8tNZQTo8R1lqMcEehzjY",
@@ -2346,7 +2455,8 @@
         "websiteUrl": "https://www.fiestamericanatravelty.com/explorean/hoteles/the-explorean-cozumel",
         "googleMapsUrl": "https://maps.google.com/?cid=3949271251453500118&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJjeE8tNZQTo8R1lqMcEehzjY.jpg"
       },
       {
         "id": "ChIJR269hCVRTo8RTNmC2xrWs44",
@@ -2367,7 +2477,8 @@
         "websiteUrl": "http://www.cozumelparks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10282797785057253708&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJR269hCVRTo8RTNmC2xrWs44.jpg"
       },
       {
         "id": "ChIJZRKvNPFYTo8RFkPHvsr54ZQ",
@@ -2388,7 +2499,8 @@
         "websiteUrl": "http://www.playa-azul.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10728130436552672022&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJZRKvNPFYTo8RFkPHvsr54ZQ.jpg"
       },
       {
         "id": "ChIJX6uFaJIrTI8RrKjh-RuteCc",
@@ -2409,7 +2521,8 @@
         "websiteUrl": "https://www.elcid.com/cozumel/el-cid-la-ceiba-beach-hotel/",
         "googleMapsUrl": "https://maps.google.com/?cid=2844213500352506028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJX6uFaJIrTI8RrKjh-RuteCc.jpg"
       },
       {
         "id": "ChIJP8NIMIZRTo8RcIsfQ4NO9Yg",
@@ -2430,7 +2543,8 @@
         "websiteUrl": "https://mayanessence.wordpress.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9868880484126133104&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJP8NIMIZRTo8RcIsfQ4NO9Yg.jpg"
       },
       {
         "id": "ChIJ31E9WMVZTo8RvQsSpaSg-3Y",
@@ -2451,7 +2565,8 @@
         "websiteUrl": "http://www.maryposasspa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8573622944634375101&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ31E9WMVZTo8RvQsSpaSg-3Y.jpg"
       },
       {
         "id": "ChIJqRN7XNtZTo8RnRyCj2vyIwc",
@@ -2472,7 +2587,8 @@
         "websiteUrl": "https://cozumelmassagespa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=514521326233459869&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJqRN7XNtZTo8RnRyCj2vyIwc.jpg"
       },
       {
         "id": "ChIJ3U7ss3xTTo8R-LKsPw7vkW0",
@@ -2492,7 +2608,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3U7ss3xTTo8R-LKsPw7vkW0/photos/AcnlKN3Yq7J_Z61UQQzqX7SpyhCLjmrTUnBhrDf31PRqArOa0R_khNDeNlfKZI4hSmYVlbiILcpjM_sMNJHqpYQAbYqrii-CjIEXXl7eZlBEELe2HlIEcwL7D5dDPCI0aGgtMKhlr4RA3eETmu3zNumxZBt6ekTSiHW9iLoDPRKGjkaTkYZw4kEw3WfjJwMWj1LArRl8W7zLPuXKX834oIoiN7HFeTBEaD9lqOd67d9Kg6vhb9QK_nfV1UIVZW1bXIAXIKSgdYEB_j9oJW0JvP2h-us2Sq_NjWjer5_DCnE-cA-Au7di9zAAK9XwYmy2PZNE2ttDdqHqiW9EtohbOxQuyZNQqvAiwQ3ILIabhhBhob4xErUcW0H29RyCoy-0pwg5oEHJrHImDrF2Lcmf-ti2q2BHKvXox4t8QBPDJmNJZ5tsQFnHxwHl_cKx_QE8ZHbB/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7895354466234053368&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ3U7ss3xTTo8R-LKsPw7vkW0.jpg"
       },
       {
         "id": "ChIJHR2JyHxXTo8RqK9p_p67bog",
@@ -2513,7 +2630,8 @@
         "websiteUrl": "http://www.spadelsolcozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9831001328143937448&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJHR2JyHxXTo8RqK9p_p67bog.jpg"
       },
       {
         "id": "ChIJqxf-V_dZTo8R2w5R6D3gqbo",
@@ -2533,7 +2651,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqxf-V_dZTo8R2w5R6D3gqbo/photos/AcnlKN3b7DF6fL7mAYDXqjgKKAO2S00sXg9IL-X8rF8QrUg_Zilmes3QAEpkR4ZmtGvdvmwScX5Of0ABGjMu6_PfCiNg93U44L3sdw9aV7rhJfO3rzLpkgnHZKmvpw0lm3rcIWRnqhbs9wYU6eCogbTOENGTLPcaLfkacsIUyqTkjqGUZmOwkVYMBu5nIW4HSO504REQ1PrUD4Id9xYYyUiaJysW4_ee8iIL5NBSUxmOGWqEWbWvOP4khnMd1JhV8ORoTM0YsN9U7gndgY-08y5JsfVBE1oMdM5Mu3yKQk8EDzWSC_hQ8vXKb3Nrw8yRLGx3Xgg6zqPN-rRPKAnqhywihya8J4PWC4o6eDsvDy2_JLDwBaFpAmgrdlaoBPvON_xUVm1fTwLe3A5alKMxVUn1yrOaJYrG6tVP2g7HEOVEaVT6eiUVeUcFd846kBPbMBW_/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13450528318613950171&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJqxf-V_dZTo8R2w5R6D3gqbo.jpg"
       },
       {
         "id": "ChIJ312UErVZTo8R7qNLuAcQUAw",
@@ -2553,7 +2672,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ312UErVZTo8R7qNLuAcQUAw/photos/AcnlKN0zfUJ02APF5dxkaPMK5bXqx7SlhFKpcgcqLkbVW7DndzdXm_Kn2zwGDZsrcoJ1_gUMWQaEKp8G3V6qK53ynjbT_CRPwomkx4oQ8TNQ6EmBYs7b0B5OjHcWL9iMT4_QW3hdGPQYEtCV_O-E3bktel_3rzbb7XJaCKWNwyRLAptZj_07jPZSRk8gLo-DZdjbSf73iEl_J9TcHyDo0sjpBY5y4PTJdUi6tKzd-pc8cJbKlUcdlucfKhVZyvrmrw6LskwP37EUlRKbr8pwtv3slEqGWOw6tNwjh5ClLoIwytU9_VrpQVAQEEWvDeofhsFWeo3eStTBVPNLjl5UGerI6pn1H8o8hOgJsq-XjbzN4EOY2s4hVHxKyuHfwCHuGtorw3dqyEjXWRbG3C2arVd3uppEggTNwRDDKqK89gvlejWyuW8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=887226751934768110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ312UErVZTo8R7qNLuAcQUAw.jpg"
       },
       {
         "id": "ChIJ79RNxndZTo8R8lgcM5F1PMM",
@@ -2573,7 +2693,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ79RNxndZTo8R8lgcM5F1PMM/photos/AcnlKN2pngzM-XzBDD7QJi6GwPua_rjR7jvYHwcw6tQejYFWJaih-nor8UOjsRppMWiS0gC60Y7Blydse1QnCZ_T7JOz-ZVnBJz_YkaeHP7RKmZLR2cua7wWtZ0a-Uhemov7xNGuSkDmVV2oGAzArhndAtfJLEkT3e4JDwUrC1AD4CzZSHA0PY36Zy3DyhrznuQUzFYkvA2XzqqFEVkDLsL8ibPKjxAA0n0n0ewiwt8pwQcxiz7tfNOowyiZjd2oSC_NQ16QIIh6T2xfVw2clUjfcpk5klI3LGfTNL3l4AYTMeZCiw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14068248602486790386&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ79RNxndZTo8R8lgcM5F1PMM.jpg"
       },
       {
         "id": "ChIJqZ13x_RXTo8RQT224tZWJIM",
@@ -2593,7 +2714,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqZ13x_RXTo8RQT224tZWJIM/photos/AcnlKN2E8VOhfuov1Pa1-9gEtknKqcCcStJ7VCh7Aam4fo9t5_WieUuGJMg-grAoIUEh62HfakxoOhtZI4e4hwKLwo-umEYXkDEPbmK5wrQt2QFTtGr68GuKSI2tA0fmEQZB-ye0T1dG4D15Zax0UYWZlMoXWPpfYcZzHW62YsCgkOoZYcOk0wvXfqTiCqLsPl8CWR8RfX5lyc5fGZojftrx8CBfFH9KyatYJ9KkAElQ2ejvMig9G6rTIO4GjqJ5nO7m2EKX0Nx3YGT5uuRwMy9GWnCyoJQj-P1RqHuMbjLRUcqVUE93zvA6lxZPMTJsZfgkEPBa3xdDV-EYwFsQ7VI9TsEAmr_A0tpLso9FX8W8-B_1o4iw_btaOb24pNO3p9emwb45SO72jKQDv3F6JiJKk_Z_YKLOiJ2UlQMQ0Bn9aTo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9449773399056727361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJqZ13x_RXTo8RQT224tZWJIM.jpg"
       },
       {
         "id": "ChIJl0oZiHVZTo8RDIf33IgJphA",
@@ -2613,7 +2735,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl0oZiHVZTo8RDIf33IgJphA/photos/AcnlKN0YLiIa-QY-wXcZj8hq0MD3JXdcEg524p2rarwWqkEu5hZNZZs-TAIDQk3tdHhTeAE-gpGSNV-eyPPsadzWYs7qlLMgLE8Ge-XNXZvkEkx_kpmjqbSE9ZESDK2tF_s2jlnMT9_3DR9_PFc5avxm6c5NvZ3TZXl40VP3YM9Cyc3GvtpJ8i1lStRLvRUVUl79BOOIF6HaRlf_6VxmP77NvdrJev_U7G2Fs54e88MB34n2Hi6GenSqzVqqpxXsAAOvEy3J2NLDCAC1h8S0FPMlahVW3IKaGCmUaBhNDm_HhvB8UKBqy5R40DuLahYHtVBH7hAqXo8R2mHjeWF6f6q4xu_jLrCL7WqcLTbK02myxISHDOIUEppUGx5NBlyyF43zfonm7zxQXzJRtzoph-IyfmXz9grxUgXPSrlbbs5lUTc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1199656834168227596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJl0oZiHVZTo8RDIf33IgJphA.jpg"
       },
       {
         "id": "ChIJVVVV8fdYTo8RUZC-lMB2vHk",
@@ -2634,7 +2757,8 @@
         "websiteUrl": "https://www.coralprincess.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&utm_content=Coral&partner=6033",
         "googleMapsUrl": "https://maps.google.com/?cid=8772016743712198737&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJVVVV8fdYTo8RUZC-lMB2vHk.jpg"
       },
       {
         "id": "ChIJ4zOd-2JXTo8RKiMiF6Sk1j0",
@@ -2654,7 +2778,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4zOd-2JXTo8RKiMiF6Sk1j0/photos/AcnlKN3qDkRe946-2MvCgv7B5Wds2sFlXBxIMXLidUAdW82R9-LX7UG01QB545VMBfnaSDN6Qur6SHybS_ZwkJaO8sZVVhfmZdMaqgTEmJjzDBcJq75MS5Cl5nKnLUdfv8k4qRySCahJCkmDcY-yhG3lfysRid4Wezsct8XRKJC70HJd7ligtKh469oUyZiLySkW4OaYEA3QbuO2KWv3d-pg0itrb9gonEiK1jqTOggAfPerR-vcseBCb2W2sH1B50acYXoDu_6cmMmGm799eZ9_akorFL1irF-kmwYgO-SsYDK65-kTdJb2CEpSmxjaEii5J0McLMjUG5VfnTZ7FGbz2yp0bM-ov02mIO9eqqHdMDDV0FzPOtuIS9ZJdEr2dHraUNtgAZwCRxrRAgvn7KF2Z7z2hY9ozeH58YQ4q8COnsPd7sCh/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4455929905999389482&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ4zOd-2JXTo8RKiMiF6Sk1j0.jpg"
       },
       {
         "id": "ChIJbSKY4BNXTo8RD8nPX7KgzFA",
@@ -2674,7 +2799,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbSKY4BNXTo8RD8nPX7KgzFA/photos/AcnlKN3KhJ_F3MdRdayDORXKZQJYW0y6C_fLuEOFjGzkexIx0tI6xWGRDaDZNbiybtFB_EXPdeA7Y4sPr8bDBPzyU1GRwhSjZyznCpMBlRXDj9X9tTIQJx6wrikYLu_iXz_DWAXukAn9WSKdliVTuXs-vuD23KhXVsfAXO3pOLxAoofLqcGVbTqJM-Lfu61KB7iXhc3rDk3vxW8F5SqBXWY7-PGq7GaN7oaMJSTQ6q5PGrqIPwj4cVZnZfjSF91xPFBo5QS5Uhl9ru_msI-DTfNT82ZqA2vAUG4JVGpkCfJt8LTDfxwgXu04RcgyZ-9XCdG2Wh7PBbcOU8OzOfUWz-xmY44vbMXUkc9crK1Z-b-gkFFprIx9EvMG3iZJPy8EszgnEG8oZ9niIsAq5TXvknSwVF52deeJO5xCuzPdwdql3bpenMnvEKeepjoEEstmlg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5822205106255284495&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJbSKY4BNXTo8RD8nPX7KgzFA.jpg"
       },
       {
         "id": "ChIJn7qd81tXTo8RTlGM81SoBAM",
@@ -2695,7 +2821,8 @@
         "websiteUrl": "https://www.villablanca.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=217483764837405006&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJn7qd81tXTo8RTlGM81SoBAM.jpg"
       },
       {
         "id": "ChIJQZrNEShXTo8RQsNLCPnos_w",
@@ -2715,7 +2842,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQZrNEShXTo8RQsNLCPnos_w/photos/AcnlKN0XIygqZAsUOp-gd25WqaB8sgAtTNKF7H6WzukeNT_BCl1a3DizP3RqLlMDPPxf-sGyngIN51D7lmOn9HxNZDm84mEn9VBy7ETi5SAbyh7RvjxYql01sFFnNou0QONhoqPAgs-dz8spsRB6DIUtsTiZ166S3uXGqF6KYV9WOl5S4jmN5BUhw3CMAN3z-wUNfUNQ47NLhFunSECDsc8rx0lwAkYX6PNSggZsHBF2jCOVOvgyvm7yxaccdwEhKkXk49V-6jLDk0Y2BptPcx7-BKUqfMC2IQjZA0JlaqpuDTW4cTYHUSV8Af3rtyRYwFQob0mV-nuB546qDBWzwZK7DkfHRgzhPAwxmPHFIaGVRfI66o5_QewfAzFtqdLYXS-9zlbd7_-dX0dKO--f7YPrRxQ_hVrsJZcjF5G9dSY_NwdPzg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18209153874672730946&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJQZrNEShXTo8RQsNLCPnos_w.jpg"
       },
       {
         "id": "ChIJsYTU53xXTo8RstSRlFRHUKk",
@@ -2735,7 +2863,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsYTU53xXTo8RstSRlFRHUKk/photos/AcnlKN1FVpitpNxr38GkDYqMnX5RSCJreTCwVl5lCGDHHkBpVGV2UouAoyLRwjPq91gNC9DwReMf5FTTU-qAW2WBPeLKS0nQ6ByC_qhhJ5tA50RCZu5x7tMGFt_mdsdI-QyPjG42QXK9AOjmVH9wuTYPxvl-qgxPqcz1GE-JnmvJY-Q7oQHK1PKyGvzxp-FU09bgpI9vwHkby4zd5x1YG_y9Ch-ryfwzL6mtJS4pFeHf4UvkoJLv9ygaF7BExZckqeKlnkcgDNIo0ANsrThvCA_Acdyhm88Gmk8dxSd82bTI4VdjZ2t7CABZM5WSgb8dWrlPuKoG_xVv-adi-UNmasnv10LJkYT3f6Et9hi7nhcxhUEYdGCXxZOO2LsukBRPj7lr2iHRTpo6NrAt7FgVIGQWF8aZO493aDWnVoX-J0nHmAYZ9S4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12200329819142083762&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJsYTU53xXTo8RstSRlFRHUKk.jpg"
       },
       {
         "id": "ChIJ-02vGnNRTo8R_ImliK0vaXM",
@@ -2756,7 +2885,8 @@
         "websiteUrl": "https://chankanaabcozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8316230609284729340&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ-02vGnNRTo8R_ImliK0vaXM.jpg"
       },
       {
         "id": "ChIJE0w4dPBXTo8RJCC8qDEV5Qo",
@@ -2776,7 +2906,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJE0w4dPBXTo8RJCC8qDEV5Qo/photos/AcnlKN3Hskumr0a4t5oCdmXMRHNdd0bH245ppil6PWT0Lr6QRBMOsdFd70GPwUe0W980fWCZei9anmMeDtrEND-Eb8esOxEPdtWlkos0DJIZY-UZZdH5KZ5qXrn88aYvoD_JtWtc0Phn9-DiWz5G2tT6uwZoliiJm9GOA8Bzt_kwHtiPg1SfVXSe6bFfR0fXVlfDI9dcZV1iu9vUUtwnAiUDphCIyq3pkEIqE7oYRUDbM4GYqVNWCkDFT4FSEcnYKTh4lXIP_EjKT8wM2ey9KU9fOwqTjBsKdGJyhhJ_9ulHSLi9glrv9osYqUTwDBrnl8Nz2QVw5MUb0juzPvytvLd3QReEeltdhBqrHAQvWXJTh8jnMvnd2lXaxwLEP5iZve3uLeE816Yi9kYzz8u0pC7k_YW_guJIIQNMt-kStqyFlrnWmJCz4NO5_ESEzPX5gnvO/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=785057013074501668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:17.265Z",
-        "updatedAt": "2026-01-23T16:00:17.265Z"
+        "updatedAt": "2026-01-23T16:00:17.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJE0w4dPBXTo8RJCC8qDEV5Qo.jpg"
       }
     ],
     "nightlife": [
@@ -2799,7 +2930,8 @@
         "websiteUrl": "http://aqui-ahora.co/",
         "googleMapsUrl": "https://maps.google.com/?cid=17713057269743658993&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.468Z",
-        "updatedAt": "2026-01-23T16:00:18.468Z"
+        "updatedAt": "2026-01-23T16:00:18.468Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJA9EJ2V1ZTo8R8ac4Mb1r0fU.jpg"
       },
       {
         "id": "ChIJ965kftNTTo8R4Ji9DZJYOCE",
@@ -2821,7 +2953,8 @@
         "websiteUrl": "http://www.mrsanchos.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2393760586266417376&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.468Z",
-        "updatedAt": "2026-01-23T16:00:18.468Z"
+        "updatedAt": "2026-01-23T16:00:18.468Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ965kftNTTo8R4Ji9DZJYOCE.jpg"
       },
       {
         "id": "ChIJSRgrM85ZTo8RJCzrwqZo20o",
@@ -2843,7 +2976,8 @@
         "websiteUrl": "https://www.cerveceriapuntasur.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5394020044150352932&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.468Z",
-        "updatedAt": "2026-01-23T16:00:18.468Z"
+        "updatedAt": "2026-01-23T16:00:18.468Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJSRgrM85ZTo8RJCzrwqZo20o.jpg"
       },
       {
         "id": "ChIJ04YADvdYTo8RyYCOU9bZ4wQ",
@@ -2865,7 +2999,8 @@
         "websiteUrl": "https://buccanos.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=352364710413107401&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.468Z",
-        "updatedAt": "2026-01-23T16:00:18.468Z"
+        "updatedAt": "2026-01-23T16:00:18.468Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ04YADvdYTo8RyYCOU9bZ4wQ.jpg"
       },
       {
         "id": "ChIJYXkqXRNRTo8R7uGYCTznDOQ",
@@ -2887,7 +3022,8 @@
         "websiteUrl": "http://skyreefcozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16432763385413165550&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.468Z",
-        "updatedAt": "2026-01-23T16:00:18.468Z"
+        "updatedAt": "2026-01-23T16:00:18.468Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJYXkqXRNRTo8R7uGYCTznDOQ.jpg"
       },
       {
         "id": "ChIJaRZXYMVZTo8R5uS6T2e1fHU",
@@ -2909,7 +3045,8 @@
         "websiteUrl": "https://thirstycougar.shop/",
         "googleMapsUrl": "https://maps.google.com/?cid=8465840854873597158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:18.468Z",
-        "updatedAt": "2026-01-23T16:00:18.468Z"
+        "updatedAt": "2026-01-23T16:00:18.468Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJaRZXYMVZTo8R5uS6T2e1fHU.jpg"
       },
       {
         "id": "ChIJp6-eyk1YTo8RQ4B3lyKkKA0",
@@ -2931,7 +3068,8 @@
         "websiteUrl": "https://panchosbackyard.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=948188190038523971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:18.468Z",
-        "updatedAt": "2026-01-23T16:00:18.468Z"
+        "updatedAt": "2026-01-23T16:00:18.468Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJp6-eyk1YTo8RQ4B3lyKkKA0.jpg"
       },
       {
         "id": "ChIJATQpB35RTo8R3pnFYFxrg4s",
@@ -2952,7 +3090,8 @@
         "websiteUrl": "https://paradisebeachcozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10052996837725805022&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJATQpB35RTo8R3pnFYFxrg4s.png"
       },
       {
         "id": "ChIJp7vV_FpXTo8RoDicBYm9clc",
@@ -2974,7 +3113,8 @@
         "websiteUrl": "http://www.sunsetcozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6301307224847038624&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJp7vV_FpXTo8RoDicBYm9clc.jpg"
       },
       {
         "id": "ChIJ_TzNk31ZTo8Rq_ut57z1rnY",
@@ -2996,7 +3136,8 @@
         "websiteUrl": "http://www.lamonina.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=8552042934112746411&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ_TzNk31ZTo8Rq_ut57z1rnY.jpg"
       },
       {
         "id": "ChIJl38a9M5ZTo8ReiIR1qkQhE4",
@@ -3018,7 +3159,8 @@
         "websiteUrl": "http://www.coconutscozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5657665353511150202&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJl38a9M5ZTo8ReiIR1qkQhE4.jpg"
       },
       {
         "id": "ChIJA1zDrStYTo8RewJzJThZFTU",
@@ -3039,7 +3181,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA1zDrStYTo8RewJzJThZFTU/photos/AcnlKN1vH00ibwcJdw7wpVRFsYHf6njW9q5GKpfB0lnr2Skl35kuy0LVjFrcQ5JxxK12kd5eUjnh8mYb6YqONCeqoZ3cd-MwF-M67ZNe_9qBEKQ4clALwKAEdavIVc_Z65bynBJO5u_MG9fkLa26MKG-RjSYuGJjfk72_48fwGRUVhviz-vSNwd5tggSQkGyn4mbDQE0eF676XeTX6WaMwtVkQsTUlfYty3ZUS_gfTFSrLKVeTqiwzxscr7gbtKGQoLaJTQ8Nl3xJO6MsQv2jYKorok1c0oUb4cerbvFBlE-kJ4KPw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3825061556202439291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJA1zDrStYTo8RewJzJThZFTU.jpg"
       },
       {
         "id": "ChIJQ4zs8s5ZTo8RXiYgkHXxQ88",
@@ -3060,7 +3203,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQ4zs8s5ZTo8RXiYgkHXxQ88/photos/AcnlKN2gWLuJGLLmzGGZtkCfGQueejNgiKkNytfiICLdlo-Q5om82r1eGUOv_U9TQvMVWM8hsgYAJSMbg7v37Tj5lTVuSkG6F1s-gzOOR38ns5yLvuRA8Oa5EntHzwZpkA7RTtvUy7kqXLy9EdWuXxsKYM-A8D6nYeev2h_8X900G8p3-H_q6YmOQM4so_UUYOG4Z8-SkQ04tifPDula5LqoEhxaUjG80tVgGcXI4ZKeo2oQMSXLOq6XiX5BEPzV9QVVtEdnudsubZipHCVhZifq78fORTgMiLTxSFR0Xv5cCa6czeANfHK58-2UsloxaHzNAaPA3-fMrjCbxD9cjbaMWvG6L8XpzxNiclrccSzjGl36K2BhQzrdXy4XCNMgHNoCgN15XwzQp8CNmt0rYD927sxGgUxE9ivuWfOtnY5l2F4zJQ9gr7ec1AT5mSLg3MkG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14935046276522190430&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJQ4zs8s5ZTo8RXiYgkHXxQ88.jpg"
       },
       {
         "id": "ChIJy9kq_8pZTo8Rfj7QNQGJmek",
@@ -3081,7 +3225,8 @@
         "websiteUrl": "https://sites.google.com/view/cerveceria-kusam/home?authuser=5",
         "googleMapsUrl": "https://maps.google.com/?cid=16832635720564751998&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJy9kq_8pZTo8Rfj7QNQGJmek.jpg"
       },
       {
         "id": "ChIJl38a9M5ZTo8RKXakHaAbYd4",
@@ -3102,7 +3247,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl38a9M5ZTo8RKXakHaAbYd4/photos/AcnlKN3AdvowBhu5fYMFwNfRLt_BTPREZX53kv3-udPOuDvGAMtA4se65V5TwS5KfU9ooUHeGSKiaBh2jWRPxCfqL2q5KkCh5Ulz0X5zY_sTUxVoa29R20N7PYCurSWPdWNt1vOPwLalP1b-Aj-HDJpObgnx7T-prjJgznpJ6GygNElv-s8yv9lv9jzpIxysFltMBBWw_tp_81cNFcVfUZTVrSsee7Sr7iqlM0fTNDh_P26Ifxu2LnGslL7OkoGAf0F5u91OfAQvlsrolrqXi6VlxrHPn8-062LmtWW3iLYtzSwV_VTmClgETgwnSlULC3kFCG3MFB264tSnySIjWwWsBFPdv3vitBlOzqeWb-tKgCtMtvGfM9HjA5yYriorphLO87yUQsAmPNqQF7oSw1tWR4M01_6hyrgr42P9LFmMhMs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16024119323666970153&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJl38a9M5ZTo8RKXakHaAbYd4.jpg"
       },
       {
         "id": "ChIJlfgH47pXTo8RGml5_vOX1i0",
@@ -3123,7 +3269,8 @@
         "websiteUrl": "https://www.delmarlatinobeachclubcozumel.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing",
         "googleMapsUrl": "https://maps.google.com/?cid=3302994450925054234&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJlfgH47pXTo8RGml5_vOX1i0.jpg"
       },
       {
         "id": "ChIJea5PSttZTo8RkIAkXLiYK04",
@@ -3144,7 +3291,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJea5PSttZTo8RkIAkXLiYK04/photos/AcnlKN1tj2Ur1vLHBRle1RkbFuWdqOW9uEt5mTol4ENqaVXEgvQ5_NgSNdpgNvcGnEepgMYPyUr3qdhTK-HQ4hD65E5XGXAMZ913crwtFLWEjigTFrmIn0tIJ-PDuRf-e51P6-lf5UIfFFdFlrRpLK_qC9iXWjlV2D_roAr9WZgA8NIkylsGwTV1w_e0XcL8qEWiBm7Xd56ZRjzuyfcJ8GhqGcoXG5krfSaZlh3ONTZ3VMDf7V_8KdHeeasSQVPt23DfrYPTXPVNrTQopgtKZZeL8UmtvYPTw0zl-P6CJUmxqCaMluJGiXeZ4_rAQo2hc6hxW9tjvWxbDPj0yQ7isgxIkqJcrlaYDTobakmYkox8Vw6q6CVb6UsSqOjjDsCtPy2NyDNG9NpcF8OIIDme_xypGgB72mi8lWYXpMUH26-IlA_ySg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5632763676544237712&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJea5PSttZTo8RkIAkXLiYK04.jpg"
       },
       {
         "id": "ChIJ4QxDXNtZTo8RTGN0iLxQ8CY",
@@ -3164,7 +3312,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4QxDXNtZTo8RTGN0iLxQ8CY/photos/AcnlKN3Oi1gi3EVtzBxoK_EoTgmrt39woqGa-kcfuujQ5Ey2opRwwmM77DMHNMyQh6TTgZoyqbMwP6OYbsOyCWV5PwzaMwHh00K_7f_weUOIsXnt7BWiXGUb1esjZQZezUFXM4i4j5dsLxqj66ou9c35gnxbqW1Uhfc3r4EctqO3jQBAN4bDTMzZHV3_NV6xIru6gPKpasGYg5sTndpVFaPVZ2nfKKmArk7865Ee4LclR1-5Ec1HNxnm6vAuJWMrMyrPOuKuBQu7kM2zaUPuH21m-nJFiymgQWyJ8T4xGBZMAKYh9-7uQA_B0a0QVDkBldnyUBjms_ZyIOxaRWWkg1l62mpj_AV_fcCdKmNeCpYBY2TCT6-JVxcXt48bQyR1LFObrWFnZMDCHxnCsVK7Pwtaqb0cPRsvIVR2m9x5V-In2kj-6g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2805831338525221708&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ4QxDXNtZTo8RTGN0iLxQ8CY.jpg"
       },
       {
         "id": "ChIJndc9TEVXTo8RZfUSNG6rMtQ",
@@ -3185,7 +3334,8 @@
         "websiteUrl": "https://www.facebook.com/TikilaBarCozumel/?__tn__=,d,P-R&eid=ARAuIy2Koe7W8F9MirlqbnUz0waqh_Ew187vxVkzvhXutEp-GS3J4iAjYf1IcICdBLjEJUhAu6yeomKy",
         "googleMapsUrl": "https://maps.google.com/?cid=15290472174684665189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJndc9TEVXTo8RZfUSNG6rMtQ.jpg"
       },
       {
         "id": "ChIJxapUtztDTo8RZ9RLtREoPNM",
@@ -3206,7 +3356,8 @@
         "websiteUrl": "http://www.fivesrooftop.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15221084897126634599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJxapUtztDTo8RZ9RLtREoPNM.jpg"
       },
       {
         "id": "ChIJyYCmIwBZTo8R760eV-HQHbo",
@@ -3226,7 +3377,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyYCmIwBZTo8R760eV-HQHbo/photos/AcnlKN1qV3GhjU_rjNQU9dyNFULkjZOpNdgv3uQiixQpV68C3x3JFC4_Dti0sBjTag3Aps6lT791zr7b2dhzjLtpT_YH6kYsQrvQQa9QqusYtJg7LkY8-GPHY2ytift4E2Z0mPqj9FSTcHfyi6DbuAcxmwveBNMb2Uxq-VHFCaHK12zsEFJxsjxbcJba3vApSstz2vKAvdj2LYSJWmVU4bmy7fMEtGf8mRjHw2HAX4xCRxufJUQBxq95xNIIjAl_ZE9j0eLVHD2mKXOJjbYMNPX4vAtOnJV9eNHMFv7Y6FOLv4LeLQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13411104931627052527&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJyYCmIwBZTo8R760eV-HQHbo.jpg"
       },
       {
         "id": "ChIJB55MtS9ZTo8RoCDvNLvY48U",
@@ -3247,7 +3399,8 @@
         "websiteUrl": "https://www.elcieloloungecozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14259479143743692960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJB55MtS9ZTo8RoCDvNLvY48U.jpg"
       },
       {
         "id": "ChIJl38a9M5ZTo8RWNSA4-_kvXo",
@@ -3268,7 +3421,8 @@
         "websiteUrl": "https://www.facebook.com/pg/tequilatour.cozumel/",
         "googleMapsUrl": "https://maps.google.com/?cid=8844476962190709848&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJl38a9M5ZTo8RWNSA4-_kvXo.jpg"
       },
       {
         "id": "ChIJ_4e6QOFXTo8RsbY_ZROyNAo",
@@ -3288,7 +3442,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_4e6QOFXTo8RsbY_ZROyNAo/photos/AcnlKN3ltQ1y3WDQn87RmlPRpgVIrmxVDKdu1RY3WxVNM1k5zpKhvsLFlTDuivL6F7dTDufHkjAlwaV93THq40i8a4W6uLbLlSECxKWdZe0enY8ZIRh9YcZ5uyayvSukF_P3_2slpZNie02cWjR9z82kwNxkVcXZfLJMl0GjvehIx1nXpk70an9QIQnuCvMzvzmxaORpOvyovrnA9OYf_UkUqz59Azx_drIdlG0oBu92WL1vLkdL0-Y9b5ic6p1rPWMutN8GuO3i9aK8qCNd9LuUHMMO9Fpg-aWZOJrtDdJht22RZlwUD1WxAtvNW4VwaqP-I7JAzLSmiIwWIz6ihjus6vAKhE8rG5uAwweZftC4GVpHLXzoOKaHneVmheTvPTJ1mYb2rAbFYshsWlrC33nrdTeXUC1J7kuul-vxqwLAkumn9QJ_/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=735408435541030577&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ_4e6QOFXTo8RsbY_ZROyNAo.jpg"
       },
       {
         "id": "ChIJPyJwEZBZTo8RV-ZgNZ3Pico",
@@ -3309,7 +3464,8 @@
         "websiteUrl": "https://www.facebook.com/profile.php?id=100090117428374&mibextid=ZbWKwL",
         "googleMapsUrl": "https://maps.google.com/?cid=14594424341583160919&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJPyJwEZBZTo8RV-ZgNZ3Pico.jpg"
       },
       {
         "id": "ChIJ65NMaahXTo8RYuIMCQ5cdqE",
@@ -3329,7 +3485,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ65NMaahXTo8RYuIMCQ5cdqE/photos/AcnlKN0pyRfn3Hy5HF9iO04gp3Qbq78zCOePHvnMDxWDnhe63tVHR9RPi1fLjdLvC-bfdXtS9o6K4ZTHdKXzcZknWUNq9UJT7jD7u5QDs1-FueTU-D7rrh9zzRbBFbVI088n0GU9sVpABqA7QfStIp6v8XwQRhWypOXp0MavCF9ENDXiNTHBGtCbs9j4TP5yCAuywi4r_dsBel-SEtCHR4rod7mKWWdk7hkMJdGOsnhAu2NClKK29wtTE2n9g7COxf2nf30pa-2-Y0btekM4QCsH1w-lbyeXm1WD5kJG_isIEy2gUKlcUNdCKPGLRhQwmIlNL2MFdiacwID_hbaQxBss0HdkT04Cs8OTMBRfgficH6lwHRK4G5jaMeWuv6s8BhzYfa0Pal-jiNqS5plolZy7bqtoQ3MkRt0GP-z24FH5ycMoRt4l/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11634587902709391970&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ65NMaahXTo8RYuIMCQ5cdqE.jpg"
       },
       {
         "id": "ChIJwx51Zl1XTo8RkKPzp0sXvLU",
@@ -3349,7 +3506,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwx51Zl1XTo8RkKPzp0sXvLU/photos/AcnlKN2HENtLFb8g-7rUsXOl90Cb1EQbRHQ7i3skylSvQxpntjXQmbwx0OHv-duJYCluswwrjUvnOscWfdT1A0P4TtzgYHVNhye8loSVV61frFWEDGTIGOCIPLuk6Wx4_mk_fsMf2UsEwlKtC190sBLRRzdG8-LTYidNeBNWv81h6jN56eZaKLPlYo74x-AIm7FfM1LRFZ5CIHvqp1hbtlQZo3EVmAuuUpXIIwLBUwEc0YvKKFrzaQhWfjhQc14famDmkCo5Ok3Umcs9zb67iLC_a6SxgBq77sozWq8KsuXdyshxEhyEcB920io4IG1A2c_iDBiP8fTNks-Q8iaFU4RJ3LGI9kmTQ5WFnXpbalGcpY86cePmLrTPbe80-dm_k9j1W7_RnKbN_rwhIXxicJWQI4dNfLgiwCOSPcbg3pzC0QlA-U8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13095367430194307984&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:18.469Z",
-        "updatedAt": "2026-01-23T16:00:18.469Z"
+        "updatedAt": "2026-01-23T16:00:18.469Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJwx51Zl1XTo8RkKPzp0sXvLU.jpg"
       }
     ],
     "trendy": [
@@ -3372,7 +3530,8 @@
         "websiteUrl": "http://aqui-ahora.co/",
         "googleMapsUrl": "https://maps.google.com/?cid=17713057269743658993&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJA9EJ2V1ZTo8R8ac4Mb1r0fU.jpg"
       },
       {
         "id": "ChIJ1Ry_lM5ZTo8RTCMIE0EA4-M",
@@ -3394,7 +3553,8 @@
         "websiteUrl": "http://www.cozcoffeeroastingcompany.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16420968945815135052&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ1Ry_lM5ZTo8RTCMIE0EA4-M.jpg"
       },
       {
         "id": "ChIJp6-eyk1YTo8RQ4B3lyKkKA0",
@@ -3416,7 +3576,8 @@
         "websiteUrl": "https://panchosbackyard.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=948188190038523971&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJp6-eyk1YTo8RQ4B3lyKkKA0.jpg"
       },
       {
         "id": "ChIJ1znRjc9ZTo8RfXD9yxoimjI",
@@ -3438,7 +3599,8 @@
         "websiteUrl": "https://thecoffeecozumel.shop/",
         "googleMapsUrl": "https://maps.google.com/?cid=3646264346796716157&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ1znRjc9ZTo8RfXD9yxoimjI.jpg"
       },
       {
         "id": "ChIJKWcNmM5ZTo8ReYyuiL0lhq4",
@@ -3459,7 +3621,8 @@
         "websiteUrl": "https://www.facebook.com/cocinasucresale/",
         "googleMapsUrl": "https://maps.google.com/?cid=12575780505450876025&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJKWcNmM5ZTo8ReYyuiL0lhq4.jpg"
       },
       {
         "id": "ChIJq640hcRZTo8RQ46PcOHKbtY",
@@ -3481,7 +3644,8 @@
         "websiteUrl": "https://www.starbucks.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=15451510441159659075&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJq640hcRZTo8RQ46PcOHKbtY.jpg"
       },
       {
         "id": "ChIJ-TLSnW1ZTo8RLh7lWDZY4J0",
@@ -3502,7 +3666,8 @@
         "websiteUrl": "https://aguaclaradivingcozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11376189649180761646&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJ-TLSnW1ZTo8RLh7lWDZY4J0.png"
       },
       {
         "id": "ChIJabflHmhXTo8R9qrYiso9VOA",
@@ -3523,7 +3688,8 @@
         "websiteUrl": "https://www.instagram.com/cococafecozumel/",
         "googleMapsUrl": "https://maps.google.com/?cid=16164612902661696246&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJabflHmhXTo8R9qrYiso9VOA.jpg"
       },
       {
         "id": "ChIJTxtCztRZTo8RqTzaOWGBXvA",
@@ -3545,7 +3711,8 @@
         "websiteUrl": "https://www.facebook.com/MapleBakeHouseCozumel/",
         "googleMapsUrl": "https://maps.google.com/?cid=17320423471495920809&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJTxtCztRZTo8RqTzaOWGBXvA.jpg"
       },
       {
         "id": "ChIJLRl3sttZTo8RHjuqvfVQWgo",
@@ -3566,7 +3733,8 @@
         "websiteUrl": "https://www.facebook.com/LaCuisineCozumel/",
         "googleMapsUrl": "https://maps.google.com/?cid=745997704662498078&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJLRl3sttZTo8RHjuqvfVQWgo.jpg"
       },
       {
         "id": "ChIJUbfIrmtZTo8RcepxKeivwb8",
@@ -3588,7 +3756,8 @@
         "websiteUrl": "https://instagram.com/cafedeisla?utm_medium=copy_link",
         "googleMapsUrl": "https://maps.google.com/?cid=13817518543411997297&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJUbfIrmtZTo8RcepxKeivwb8.jpg"
       },
       {
         "id": "ChIJSTiMBbOYKoQRBVevlBDU8Uo",
@@ -3628,7 +3797,8 @@
         "websiteUrl": "https://www.facebook.com/share/17ALck8RvL/?mibextid=wwXIfr",
         "googleMapsUrl": "https://maps.google.com/?cid=17367774373917099186&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJoXqUE4BDTo8RsgR2UMa6BvE.jpg"
       },
       {
         "id": "ChIJg6MoI2FFUY8ROzxjl6yeRTI",
@@ -3649,7 +3819,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJg6MoI2FFUY8ROzxjl6yeRTI/photos/AcnlKN1wZ9m2H9FWpQXjjBjm-xEBsEuN3SFnra1jHUqXgYYdkBZXe1t4PQ7aYwPGrylyAkgmVtvkreX-uStFCtGQMIEzijl5HbTple2G5Pm6_SNhrzukf1t6crH-mVMB-eobxiBZbvVqil0YdLKjr2HYN5ZWrYSsRWJLVHTADy8UauY1LhvGsFDqqdmlFF57XE-YCEDQjpLe_ZV_xI8v86NzPli4j_jttF5iG44uiJFFaNEcFkWuxWrXfgCe4ZoCljgpmuRflLqVJvgjPS_x1si5R2EPceIlTKDrOEZpeZpsrHYwA3dtKn5VBPxtGh0yC-fLHd5WL19agI81e2v0JgqvcriNKnWcQ-lZC9XpOuuWjwvHhOAgiohYkGVRNZ3HbJd0Aokox_apcCI-VSRJGmbBRtyS4LhuwtGcXfZmTkuonDyG-oI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3622475939400858683&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJg6MoI2FFUY8ROzxjl6yeRTI.jpg"
       },
       {
         "id": "ChIJncBpJ8xZTo8RmkGKLqRnluc",
@@ -3669,7 +3840,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJncBpJ8xZTo8RmkGKLqRnluc/photos/AcnlKN1lRlXTdyIj38r0bnhmN4lgJ2K6gPwFEh-HLyqqJZ6v013p8yFLcTU-IVBaJUyQ-5fgLgWWF5m8qcdx_gJIz4WzcQNPESYYJbFO4W_1wRoIMLtlKRReDgGOqa-ipboeuspCxBFv70V7_ibgAoS02uoQt-_SAQrbdVzkYEWyGS9DlLgmms-drh6uvwgKV_xBP7y3u19LcHF2RwMtUSg8SCSBWKZ6cymkcsRdakRKrK2-oKFNlZoNAS-vVo9IuuX2mBlL16v7BmB1kX70oCDFWB6YUerU5K-morJ5Qm-g0j85_w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16687639424121061786&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJncBpJ8xZTo8RmkGKLqRnluc.jpg"
       },
       {
         "id": "ChIJF3sa9MtZTo8RzmwOxpvV-qA",
@@ -3690,7 +3862,8 @@
         "websiteUrl": "http://ohanacozumel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11599818655265615054&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJF3sa9MtZTo8RzmwOxpvV-qA.jpg"
       },
       {
         "id": "ChIJLT414z5ZTo8RByJ92AajHzI",
@@ -3712,7 +3885,8 @@
         "websiteUrl": "https://www.starbucks.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=3611784675971637767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:19.680Z",
-        "updatedAt": "2026-01-23T16:00:19.680Z"
+        "updatedAt": "2026-01-23T16:00:19.680Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cozumel/ChIJLT414z5ZTo8RByJ92AajHzI.jpg"
       }
     ]
   },

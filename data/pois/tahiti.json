@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJX_OZTXAnmnYRCe_aggwJv0A/photos/AcnlKN2QNJZDJLCg4MmTGDzf5u61ZBMPSgAmSCJqcRBVGRVUzrk4t2TqwPfVcuH7m1U5EwmM_zqVMee5vKIR7ZHyufQY87f7nUcKGXmvinSRIcvVem5Ul0ufEtOzBP_XBiCJTd7UI_WRMzV0pBXSi2vr2WP_BZTyCoNp9Oc58HlFsyyfhqXNy7h182WfdLihgk20oFXJ7O7uCtZYxty7awhZog9TShCvnKZxS21yvs7jjg0SG4uN52c96EP3VBBw17DZZxu1WTw4prGmysZBbxRVqabjWLtvCR6zm3cBlVuKTJIJsgCEa09a21nprWRDr9q9baI6c46xzZ9O3yx3o9y82j0K9R85DOLeOlD6ON0OV19uKj19zluzB0gE-blWJk2EmaQrKh_YPEIXQ5qvN_NB01Re3UKe1E5ydSY4Qyp7dU-4m2zi/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4665457688318766857&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJX_OZTXAnmnYRCe_aggwJv0A.jpg"
       },
       {
         "id": "ChIJQbf9ixC0m3YR2_ekRkYyQac",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://www.tahititourisme.com/natural-heritage/jardins-deau-de-vaipahi/",
         "googleMapsUrl": "https://maps.google.com/?cid=12051969355234473947&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJQbf9ixC0m3YR2_ekRkYyQac.jpg"
       },
       {
         "id": "ChIJOX94MLxImnYRSVyVFaTg1z4",
@@ -66,7 +68,8 @@
         "websiteUrl": "http://www.tahitiheritage.pf/trois-cascades-faaurumai/",
         "googleMapsUrl": "https://maps.google.com/?cid=4528334945685691465&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJOX94MLxImnYRSVyVFaTg1z4.jpg"
       },
       {
         "id": "ChIJ8xx4uvEzmnYRVZIE-MLYP48",
@@ -87,7 +90,8 @@
         "websiteUrl": "https://www.atae-tahiti.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10322207202852770389&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ8xx4uvEzmnYRVZIE-MLYP48.jpg"
       },
       {
         "id": "ChIJzYJGEceJmXYR7y6Vjxq_olE",
@@ -108,7 +112,8 @@
         "websiteUrl": "https://www.tikivillage.pf/",
         "googleMapsUrl": "https://maps.google.com/?cid=5882474184098262767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJzYJGEceJmXYR7y6Vjxq_olE.jpg"
       },
       {
         "id": "ChIJ6evMB4MxmnYRv8COOyqI6D0",
@@ -129,7 +134,8 @@
         "websiteUrl": "http://www.museetahiti.pf/",
         "googleMapsUrl": "https://maps.google.com/?cid=4460965145879691455&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ6evMB4MxmnYRv8COOyqI6D0.png"
       },
       {
         "id": "ChIJ_-j1oLMmmnYRMDvmGQmZbmk",
@@ -149,7 +155,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_-j1oLMmmnYRMDvmGQmZbmk/photos/AcnlKN2u9aVbZUaXYGJURQ2oZy_KOZN_AVQo06GV9k7h-KOjy32l-oft0YzCc_55xt576U2jdiqTMRx8n9ILO9H42j7exJnSoCbuhykXPHdgnWp1o1HrFPwpxgSq8_3X-zoLK3t5OYNKgI1n1jUFYMrHxGpOUNWqPIpaj_UcoJI11WIt6oe64ftD4N34N-3Fc8y0t8yDXWvdYrjCruyEaG9IJ5MNNTmowLeVLl3J-OCXRGTYrilLHRziWDCuyc4O8c-nRgxZ4ifP3763cyEyU5S1oOY4aBaAuHsgQQpHCtSlWxDXj7cB10s92zQw3rnnPuJVaaucxQQB894lLVJIe0JnKCGYHZovSEW4DlpOt2oqXK_1oAy5Lua5EfTUcSkdiTtjfmD4xiH-QujYUPcQJEIIHbudm5XnE6qWyvjd8Dh3QboGqfc6Mj8eoxkABoyFjiR7/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7597177885788879664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ_-j1oLMmmnYRMDvmGQmZbmk.jpg"
       },
       {
         "id": "ChIJmWFTkgU6mnYRmGUXQvZmHus",
@@ -169,7 +176,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmWFTkgU6mnYRmGUXQvZmHus/photos/AcnlKN0C9qY6eqhPMZQkLrE-q1MzcqCyLIv4PAbou_Ls1_vcyhOn_qYFcuggsLySZfWri6KtTN5MlKY4GOcTUvRL9b0QKfLE3PCFoHVb6usvO44odqqbG8raSsqZFv5ZmC4-YngxpTuoUNWZBUEMJHo4zSubNgmlwDJrKizLfP2xfL-0j4maKqhpY2-PoUbsAvfDqBXYoTlYIZwuSp711cOQH6UjpsUzbfHz_PcUsF1u8FMzRlKtyPQ09_9ss0bMmKmgLJ85KlDXcv0U4X_br9r82tBeLdXK0kj0YfYVcrd9n2sf4lki0j4_GyfpB5bHYlGUhH7DVv576pC7ytdxpBETp_wQazM6zBlk_8WfTsrLuQhpTMrAn3gGb0aqE6rvWPjHPJSfRuLUe2dj4pMood_4C932UACxQxOKDn2WfViVs_WjO4U/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16942092056071202200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJmWFTkgU6mnYRmGUXQvZmHus.jpg"
       },
       {
         "id": "ChIJ2cGPlFkwmnYRigLmAn5MX6o",
@@ -190,7 +198,8 @@
         "websiteUrl": "http://www.whale-dolphin-turtle.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12276615213333480074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ2cGPlFkwmnYRigLmAn5MX6o.jpg"
       },
       {
         "id": "ChIJlRBBQa9ImnYRqjWHRlWU4rI",
@@ -210,7 +219,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlRBBQa9ImnYRqjWHRlWU4rI/photos/AcnlKN048WX74YGBT-0NMlHsz2r3jbvvvRalSNY8EhULAn4zdhqFAROZ_bUJk6tQuYr1qWTkZuTutbyjKZnxH7-n6I7LdkBJbZeF54Jn1bjUOrzumm2tVzu_EuUYH_yhqh1lzjtFQ0vMi9Q1hBkyKNKn0A5kvgIlfXKRIvjTRPIvHO0M9kGbrgfj2BWK3m4BPfcKRCatC_Gi20jSSbaVL_l1QN1OSYDLKWGaK_ZBlHYJUKae0RPADEwwQtbtvJTieRi2iISH24DM6vLmr5hpppilUqRThbV2eOlKx2yJvMziVS2SukzP4til5O6xM6tqCPi4BqTtY7mB3XsZ6y_l5TkEFbm9wd0N3lOcQhrgGI12gQzckBk6VYaMfw4Yyo_63aCBXVTwikkPl4G4QfQLxMqanJNHbaIPWcwsIdfoddAhGed3Nw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12890028177464178090&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJlRBBQa9ImnYRqjWHRlWU4rI.jpg"
       },
       {
         "id": "ChIJG2ezZQBNmnYRuIJV2Czv-3M",
@@ -249,7 +259,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn39MsU-1m3YRHEgFT2qR9ZY/photos/AcnlKN2r-N5fZqanNSNaewtPz7DTW0wXP2Ns4djC9JSIzrk6qA3FDKbhFcmbC0bkmV3V77Ijka7EnIvTaqoCR0lJjPgXqAaiNjpNgEd9dG-nccv-6IS_dP02vxrp90Ley10v6EPOjH0QPqjUD4KIyIeS12Yw4V6jcb9JZIdR0nvTCl_GvvmviPA05KRrBtO4XQMEYsH7iwzaBUg-xV2tl876WB-wsU7MPxRb80DYs8231cSZzx9j-O3dJJx4El16-rM5EUhJVOsi9KOqr3zzNYVsc4hR6B8m3Bxg15aR-zTaxUlUIo9TCvpmu41T2dctAL6G5uu4x06BUCRjE5dhKWeNgY__0RSbfqPZX0m0Q_eBRaktVVf-gBoxORiKQ8OtydOGwolrr3J0n2xZwzrH9PVlSC8D6iaYHWPMdo7F74aUJrfobv0n/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10877760360761608220&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJn39MsU-1m3YRHEgFT2qR9ZY.jpg"
       },
       {
         "id": "ChIJxdQe6LdLmnYRJxXhwc0xbpo",
@@ -269,7 +280,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJxdQe6LdLmnYRJxXhwc0xbpo/photos/AcnlKN3qFNyNoxS2i6xKccDs238yanAFMxMnj__6enY234jqQhTnyb6kMkQ0SVF9FxO97-skeeGpGaFyktlNeA74Vt4tmixMMd7EKqv9GEHUWy8ZaGhTy5h2zT0rF_8RWtMHNxRGPORmlAAtEZYKzQ6iloJK4naoo4ZRKaELViKW8feBzi4wtynY6PBd9TEqOo-s-g9LbjEWaT0_zO-KynTvsc5Glxjvt5vlbb7qFqzV_cxRnk6HCcaqQszYuPX9MnMC43YGsFK_lgckXeM9Ljj92GeF6MzV6zP-iatgFJmyW8r7GqVpO5hEDWO_SWtf0TT7pFwwEOGiZB5YseJXr7VfFZbsaCAvnYXOUYGSpy8RP_-JlYKWj3f8F9jJVX6_b-s6xARUEKs_o5fc3QRc4ultw4Altnq2PXL8LGOMTqRQ70ne06VoYwWDX9mw98w3Vb9Z/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11127886489069884711&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJxdQe6LdLmnYRJxXhwc0xbpo.jpg"
       },
       {
         "id": "ChIJhxVpL-3Nm3YR-d9ge4cCjwE",
@@ -289,7 +301,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhxVpL-3Nm3YR-d9ge4cCjwE/photos/AcnlKN2ccRJr0oLAH-cnon4OXmy8cGrfMzYNYZ4NLoI-HOuFwd8Ecae_aCMAYuWVI7_ZF96Vh6PoWsM2G9V9b3-40qsP4L3uNdTk0px7p36XEqoeDrS8SZpmeVC67LTv4PGjva0hq8KpYcZMA4CMgU4QCVnUSLMhEtYLc0gGWCprZcp4OlBjRUeUsa4Wg5Cl3LAPbuvtvBtUWSEwwkh7t155beM35BPggvE0p-Ez8NNNXJejPfuG3imPOPZLtbZHgZ1SZki_kxoaZ0iprdFTCXcfb310FEI2PXWLGbcuQv90JX-xaTXJDTBPTiGzjlghbQEVQPsvW0H8XEFC700B0_N8YiWkwb7IudDmtAtjti2ZTd_ahGfIkBTIXxBt40_fSUIvBULczmQ7eLFBCk_2x7XGUyH6tn2REL7ka3n2QXCDlqEtxszE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=112311296621338617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJhxVpL-3Nm3YR-d9ge4cCjwE.jpg"
       },
       {
         "id": "ChIJizqPhLmym3YREtuchNqdtfM",
@@ -309,7 +322,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJizqPhLmym3YREtuchNqdtfM/photos/AcnlKN13bmfvxQ1tfuVLuvOBbRfKaJtT4Ed_2jL9rJBmW0-O3M3lkfoD0ZX8n0j-UUX3PrHF396JjTORzB0ATfdgC0uIY6TLMpB966qB7kA0TOxH287XCzC0kYgIwFumwNIipgtDT5jxGmWS0YjF_rBTBdUj8AJXZrsyBoFAYIhohASVifpJwCtjxSBNPk6yQDDVcRJZT2W7ln4F8ERdzaIdE1tkvzxekmvo8LkjWaWhO6wNKfsZ23zAaL1pVGMQAWafIV4p8eGkxg6QpSW61_E5gh3D8HohDxJmX9uB8vk9b6u2SDdgzRA5Hz_jGkl2WIXG_xLpGCD3ScplbNjs-_Auq-vP8MM3tfthvSupwwrlWDiT7KJ7jsH8zSmK4NA86AL7KJ1H6wd1gNhyuS_iSMUqSb4dBf3yVorGRqel6kvnjuE4YpAX/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17561115883854420754&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJizqPhLmym3YREtuchNqdtfM.jpg"
       },
       {
         "id": "ChIJhSgGpVFKmnYRTAGE6WYKx3c",
@@ -329,7 +343,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhSgGpVFKmnYRTAGE6WYKx3c/photos/AcnlKN3KxShwBYmVA5WBdeLyAegONoO6LTE6pR8E-yUaaQ9kaWuPjzlX6CItjaYA9pAmrob1-iLg2CXXqZTCp7-jXjx48_XaoTztzk1TkMZqwaVW2H33wZiDJoXScvngzcmiKlK9hhfLpgt-4JVGhgxv8yeFPT3U6-GgTO5j0nC2Lz-VaSWeiU7ce0-Xu87iCCU-YGJcYfQWRiTP4EN_tNRkTdFwrybJvJvxc0rgQa0MOHWEaER6sSeFs1xDlWT3WtyM6sIkV42qdaj7O3vG6xdyfoPFk3hXbUYIZBJAGm4ckR0S19HLvcqKYfR0Qzeu50d_FEACRfL0v4zH9B4d-HUkD4hHfZVb0o7_o9QQL557K8Xh55r04tr-Dfwt0LkUANJz8MlouiV-xJN9P0Y54JiLPXTOEr7oFWQf3nf1p0ayRpZLxg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8630878647999529292&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJhSgGpVFKmnYRTAGE6WYKx3c.jpg"
       },
       {
         "id": "ChIJ55MFLfE2mnYRcIQOTCHGn_o",
@@ -349,7 +364,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ55MFLfE2mnYRcIQOTCHGn_o/photos/AcnlKN1uo4_Hd2yZag9zdkK3AgFHBPntnaBqHFWsDCmS_2BzDRm4V5qCUgFZLlPo5tyJDLDIuZh3WXpSgk-Q986Kagogh2y-GlBDP2AgJYmZBof328V54QMrAi8YaHkjliOyRFiI53d3450ECKyeyCE2p4OekaKeAFLHwm95jds3B4NeQ2a706NByJ3s8kTvkoZVBPriAW9VUUq7DTHk0sZw3t44QKpXSaLSVanlmHFRfO6CvyXIp_a6B6LJZa0rhbJgntVSHhZuy4gWm4SrA0rLLJpoJyhmokwaXOYopaQWujenzXb7iGXNoUdVtI4tDluRndjNCLl5HmJ41leSMROqDt8o2XbaasWTKvC1B5EdoVOT5BLiftyTeotSgVHMpE6d-RhTdfucZvU5SB7XXWU99E8eXNsXfSh3BBvLMGQC9COSng/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18059370877091218544&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ55MFLfE2mnYRcIQOTCHGn_o.jpg"
       },
       {
         "id": "ChIJiVQ_Nw1PmnYRC0pMnnxh-Xg",
@@ -369,7 +385,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJiVQ_Nw1PmnYRC0pMnnxh-Xg/photos/AcnlKN2jf2d6tjVqqUa_vr2E1598lZxPJtM1QdYSHZCVXp54xOTvgBePmQ4du3fRdaF9P02gHfcOjwhwCX0ijyAwom17dT36Fi64VZmFPFHGXPSpwXA66t9OcWjdcFMKhU7JfcYZMUhBXpHsPHj6xDf7197fp2P4GJlu7iEdVJ46TvGj2t5HXjbBOkVGjMesISVC3zL-KD9LZ-iLJ2jDaAkF_5GzY9KzFZsY7tYq9p7Mu4pDFBuv80BFiaUqMrclHVthZ_nGVvI67swC28iIFE47q740_yC4Ay2LzUcWnRWce1lYJ1BwofU6Zn3pcb7b_kIfSDSBDNpLN5c9dq-Tdrni6SjnEle6XLaHE-uh0c0UogWyI7veETnCiB8ne3iGYkB3smDHo44Mrnk38cBmXNYvqyb8nkYBWPP5LS-StT8DS2HwfCI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8717105741611944459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJiVQ_Nw1PmnYRC0pMnnxh-Xg.jpg"
       },
       {
         "id": "ChIJS7nE5uSzm3YRFgtX-jmZJs8",
@@ -389,7 +406,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS7nE5uSzm3YRFgtX-jmZJs8/photos/AcnlKN3BVTyYMDrVDnCa96CcLlsg8izP1aop7P5PZxh-KGJEFblJlkZDWnyTamfQskTnY5tcw8LFsnQ9MSmYK6CYo6pBtQzbvnSauBHRA4tueKQu3_CH6Nv2-yOhlcIeF7yqUbpezAjRotxugZe9mLjXZlv8NakVW0zcM5pkXAEjam84WiJ_HIeRs5oJOyYmtuoWbBgbT2LyHImpik_PlYg48-h6Y4M8lTcQh9LFX0XCddhEWx4MoKCNyPF4S0__PDnscqnJ5OGj3-_QZTx29e0Ke8XSQYkz7ovSshUNRFpJhLj4WVCLTiWmkxdDpVtNMdPXq1SE_6PJlRJ43X1zjBEs3Fkdnw25RaPGzzRvhTp4ImF4wcnm8gxLvcqrxHsfPEdvHPuI6USmwJv6q7WlIcxph94Wp5fboheE0WOiAtHrIGz6WuPe/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14926786489258281750&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJS7nE5uSzm3YRFgtX-jmZJs8.jpg"
       },
       {
         "id": "ChIJN7ZSfXRNmnYRhmwjeHon4Lo",
@@ -410,7 +428,8 @@
         "websiteUrl": "https://www.tahitiheritage.pf/stele-bougainville-hitiaa/",
         "googleMapsUrl": "https://maps.google.com/?cid=13465806292792863878&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:49.204Z",
-        "updatedAt": "2026-01-23T16:11:49.204Z"
+        "updatedAt": "2026-01-23T16:11:49.204Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJN7ZSfXRNmnYRhmwjeHon4Lo.jpg"
       }
     ],
     "foodie": [
@@ -432,7 +451,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJp1xvjRuzm3YRlO9fixear2s/photos/AcnlKN1C3fPo0sjo24hOqfRCKsWTVC3DcFgadpASEj3T0Mr83flDGNttsTXAVEClkMg31IVRbdny1ph7fHMw7zIsS-Cg0nZqHXAtG_gVP_i1zsUwktaoPIXw0vxYBApFA9PlZB_VS2gpCXR4VzK6Qry215lMLFP5tDChZyhiIKtuBfzaJxuKcD7YtqDoBVa-PX6oVYK29VnYQOEKSxSRpiTfdVU45-rqOWCO2vz-zZh0pDuvgReGh48YrkJHfn9YYJsPN2WsBFpegC-3dzMhduE22JAtzHJLQPbh6bnyi2X6yt6Cqg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7759590108895899540&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJp1xvjRuzm3YRlO9fixear2s.jpg"
       },
       {
         "id": "ChIJ2WanP3PLm3YRWGmQldVIo4o",
@@ -453,7 +473,8 @@
         "websiteUrl": "http://www.otaharuu.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9989908480612395352&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ2WanP3PLm3YRWGmQldVIo4o.jpg"
       },
       {
         "id": "ChIJITDGAOezm3YR9JW6EI_ik-I",
@@ -492,7 +513,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnWrJpnK1m3YRRgQD3p2-N-I/photos/AcnlKN26AfNnve3WYV0nE2dAuoep4Jm88JpIOPY6_d4RfzZ3BS29EqRG4HI4c7wrFYFKm0h0mSmSxrLyRgAgNyfmwLiHH-P7zisWk0YQYHa2R6sbrrW0lDX-agiQdJB22JQi_GOBfIwHHL0PDWNhZODDPRL6J_I1PeXECltoUZflR7CwcYcmbDrmrE88xa8RthjyJottouBogbuIiXAOlHR2GJn5OBHyCRzeHzaNC5X64jifp2XrJOSFweNslwgcOelY4NCC4wFv9Co7_ijJddxocDxJlereY0rDmf42gkSu6qbGJ1oS2ohFyxzmX2GdNI8HpVlM5jf_kPUQln25rlLz_qipqpk9yZILm_PUPA36Ytp5QtMZsrS2iwHIQwm8IcDBux0aPHOcZmXHRVom0DVDIqnY80fJoYopY9EwyiwAKFnoc9-JLrWIDnMpOMQI3_n3/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16300706961534682182&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJnWrJpnK1m3YRRgQD3p2-N-I.jpg"
       },
       {
         "id": "ChIJHfCqis-zm3YRyOx2joTarI4",
@@ -512,7 +534,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHfCqis-zm3YRyOx2joTarI4/photos/AcnlKN0D1GSqfMErmftMTi4YXsiMy6YQR5lv8TBVQ0uMTeoD3MDvNXxKNfnCqkHYwlGGpMTxM6OQMyzmsNNK6wSH0j261Qd9n4tjZLLv3PJe1XYbUUFyyNtrjmgk4grOitCAKaQU4pIoKs21hpvTW4KQhOfSNvOVVmGeIv7dO6qaVajeRNVPqnm9QdHeJtVkpYO0L3BD0WeHE1T-YS3HeYRG7lJ847tA8OkIGF2yYyO-LROAsAgGvgfZ5Q2fbngDplUFH1fBQJNjcmQmaguzCnlb7vbwIGTYhwG-KTUXJ4Q1N1X-xz5sGYLBgrcjVAwtIXDI0ANJJhhqmLSiZgSYrZUvh93wvE5mGpXgxABZbEgOHWUmZijvwVzOilFtfpNmNWOuUVcc6EDVwJkBQN-e5eOT228_qkqPFQrMeogC65Ns6Bm-UK1M/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10280832312240696520&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJHfCqis-zm3YRyOx2joTarI4.jpg"
       },
       {
         "id": "ChIJzy9MPCHLm3YRiI2XB5zpETw",
@@ -532,7 +555,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJzy9MPCHLm3YRiI2XB5zpETw/photos/AcnlKN2aFkGLnKPgBciU8vzoAzQ0-uMKSmyPXcjRbb_s4eaw-VPVi0cN-2jHWYGMlUzupP0Jv-on8Earw7OSwWBKyDafzrF_rLDGDwdRpWbzM1_Ec5bbqAqfv4cD-no-NLp9oyyd-39x4PuWXZXkg91pf0pxGuu2_AKk-SkgBs3l_oEH_NhoDK0z2SGCmCQ-WMX8qIoEEMNDwV04ey_GkM0ejfPwxoysf-y_fxAcEWpBrY1GNzdEFCVyg4R3BnpBfXoX0ev5oVkWQ0qGz2FzhLt8PDI6FHtGZeqTb2x-_BPfwKTlgcfmf8T5rphd-64KejzWV-kNBdX_ZHUNDZhBc04ooEHe9_aZfseDsvM43IvUydDW-Ado0wxP7t-EzxQyNbiQ1TRAm08rT9OliJ-CMIGqmgrU_C9tlQRpP_4nFYzwZF0CsQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4328497573231299976&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJzy9MPCHLm3YRiI2XB5zpETw.jpg"
       },
       {
         "id": "ChIJrVrRpDdPmnYR1r8bxgF0Bxw",
@@ -610,7 +634,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUzD7IJw7mnYRgxzEwD5wBoo/photos/AcnlKN2RcO-DaOddWONYgwOoMGnd3hdVx-nQkyrgN3O6SJoMUjjf2KfHcFSxx4MvHISp0irkXlY5-ChInF-qzZY3G1NmS192ObBQ_i_CVZAZovDHmsTmpfFJTy1XsROkB_b-k648XFg3bnPTcAakGd5XYulew62JckR4ibtma2gr1c11QEyajTBTRBkHRllboiJ_YBqZuIPiS87HxMum0Thqg9z6dxGITcaqXcJawxvSdS1XTkVR6CZShwTk6_JifuqTBvmRdLZ1oiqOmsEiFYiPsbQ92rc_waKZpmW3K415FwuymK91evcWyzMT_2H8p3mptuOcyfjciuN52MW98poXFvdXONBTKt3wVJA5dBp775fn1vah_Ae-kHD-2IuzeW0L7B2y64pWLjluwHqYIIZcMh8GMPkhgziwiee1r6aePpk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9945760241918680195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJUzD7IJw7mnYRgxzEwD5wBoo.jpg"
       },
       {
         "id": "ChIJbXRGtwM6mnYROS-gku4GLsA",
@@ -631,7 +656,8 @@
         "websiteUrl": "http://www.loalabouchetahiti.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13848013525942808377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJbXRGtwM6mnYROS-gku4GLsA.jpg"
       },
       {
         "id": "ChIJG7C7qgM6mnYRbxlIIDrdgyc",
@@ -652,7 +678,8 @@
         "websiteUrl": "https://www.facebook.com/snackroger/",
         "googleMapsUrl": "https://maps.google.com/?cid=2847362631147723119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJG7C7qgM6mnYRbxlIIDrdgyc.jpg"
       },
       {
         "id": "ChIJUYvqOIG1m3YRA0MXrzTgCdE",
@@ -672,7 +699,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUYvqOIG1m3YRA0MXrzTgCdE/photos/AcnlKN1bAEkDO1A9VEWSGNoXT4ouqyBEtMQqNPQwavAWn5o1wL1pSsEUQUX5HAu2BSRQU2YQ_w7q6-4AqByGEF8yJz-kjTptEf841cPMsPOjM22x2f_ApXIFjmtE8ZvtMQNZ8xGUNLea6ybeLLgUN1VMMw0OXAeo-pCTLSi9LTYpKs8ieRGyIA6PFTmPmwJ4DARwpP0Mig2mnFeZ5Wn0R-RS0CVrDr6yLR-2zbo5tB4aMy7ypr5RFLFo9apYhJvefDeZtWDyyISrziUJorU9Eo5_PO9IYEWgiTVJ1UuOJjoXVxmg_G1brtpof2VGd7EqmKhWiLRyy55Ou3FXcvxBGtRlDIUdfZbYnbqjZN1KhLXLHWJGSHU9nEJdzo0VA7LEyUJsqm_aKvlIULyda-nIg3Pp9R1uqpTngOvkfo4RYHvszZrWxQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15062816945597793027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJUYvqOIG1m3YRA0MXrzTgCdE.jpg"
       },
       {
         "id": "ChIJ5-tWAdI7mnYR2N9CTZ52cgw",
@@ -692,7 +720,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5-tWAdI7mnYR2N9CTZ52cgw/photos/AcnlKN2g0cZipi_FXteKFZqpAIGEB5bANoQRJDi3reR0Qyh32t29OFQKrj8CiOKHHOANUwydSzpzt--iauGhkt4CC_DqHDvOv3ZqXDFNMEAw8UaVapg4uRQHY3QwmVHSQ1AV995kcMLy0OXPX_w6gPwLzXulpFUrcXXMr7-_qbuFOeiJ5VTlBysKp__Ck8_W2nlnEjx4d050aPim9TCkXrYEOL3MskFuYvTvdthwz3SVjVqxs1tjyi4POtpqrBbcAg6bJ-JAE4pl-aqW_yU-GDaGVEnEr9RZ-lENct7mApYtQQWq1rRvv7-T8nDVvwTUzZamut5s4TcHRWPRztNbR_aAtveCJ5fk2Q73wPZVy9naTkdnt3CB5mMUSB1FLffxqUoPUQ3lbwfZLQA8FhC5kTcwuQduYxG9s-xKY5YA1TvAukMl1g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=896909698073288664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ5-tWAdI7mnYR2N9CTZ52cgw.jpg"
       },
       {
         "id": "ChIJVVVVVSS0m3YRFc90002K6Mc",
@@ -713,7 +742,8 @@
         "websiteUrl": "https://www.facebook.com/Restaurant-Hoanui-1435524559806351/",
         "googleMapsUrl": "https://maps.google.com/?cid=14404915475009294101&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJVVVVVSS0m3YRFc90002K6Mc.jpg"
       },
       {
         "id": "ChIJwe1Sntqzm3YR0Zz_V2WbU3U",
@@ -733,7 +763,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwe1Sntqzm3YR0Zz_V2WbU3U/photos/AcnlKN1k7lPtvCSZyvHu2l4S2vvvKuT7xugKD2OYWMUA2Y3p6t8m6pZlE-vSf8fh6KsL9l4UWgkhKyVegBonNG1H8LLqEq-pPIj6JLmoFmaupm5P-U7swVhBkRp4_1Vx54DXUVuh757Rb6OgRrVYMgf4ejSKhm6BPUVjdHP5draSMYMt2CKXbSfKuZyfIqSTviKQrQpMaXaz16XWfvYaYfd8X9u43I10VjM1cEk3OnUoGnnlN9JnTnmkN7MiZH4Xdqsv-7BWqeoGMJUID4EgO2ifKThERQIJir117Cr3LShqF97h3nfG_Lh1ZT86lZrsN7jBv5pdRcE2a69909M_jFODPSV8tL0ACK9RKJgVvp1aoBK0MbAqLlAD3hG5ZZYm6ebwEGhVagyeLvEGxT0-SQnaqBadYHer0skC7ptc44jTKUD8574/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8454271785074924753&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJwe1Sntqzm3YR0Zz_V2WbU3U.jpg"
       },
       {
         "id": "ChIJYXiz8mGzm3YRlY44QtrIuzA",
@@ -753,7 +784,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYXiz8mGzm3YRlY44QtrIuzA/photos/AcnlKN0Jw1HW512rc5BcFuok7aWIH7OS7cZW2s1wcXqpcXdzViCHh5lWxoi3O3CH38PdSfMO0uC6StpxwLfEWJlSdtxaQqyl_DY1l9PmqrTSi1NomXm1oglDPh8gEvaqjvos6rsyp7b7QERgckOkEGlcdsByL3F8QerbUccZ2UIRMiJgPLFrIMbPsdVYgC04houz-CbUVPttq7dRFG3r4J8WtEeNONjeN4QH-vHFMznjaQ3zcg1nLjYR0CFkAf-A4OjayYSsBa4quPC9niFNbk5wmkaIJAmz6UN7GPGdZ7BAhr317A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3511621174204862101&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJYXiz8mGzm3YRlY44QtrIuzA.jpg"
       },
       {
         "id": "ChIJOQh1ZA03mnYRy2FNP6upgE4",
@@ -774,7 +806,8 @@
         "websiteUrl": "http://www.o-belvedere.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5656707684943880651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJOQh1ZA03mnYRy2FNP6upgE4.jpg"
       },
       {
         "id": "ChIJe5ndl3c6mnYR_-fQwfG211E",
@@ -795,7 +828,8 @@
         "websiteUrl": "http://tahiti.intercontinental.com/le-lotus-restaurant",
         "googleMapsUrl": "https://maps.google.com/?cid=5897383386520020991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJe5ndl3c6mnYR_-fQwfG211E.jpg"
       },
       {
         "id": "ChIJdZFO_AU6mnYRyVHRv5ME3do",
@@ -816,7 +850,8 @@
         "websiteUrl": "http://www.heirestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15770766502746214857&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJdZFO_AU6mnYRyVHRv5ME3do.jpg"
       },
       {
         "id": "ChIJJd9w6va1m3YRabwi5OlCti4",
@@ -837,7 +872,8 @@
         "websiteUrl": "http://www.facebook.com/OTumuMape/",
         "googleMapsUrl": "https://maps.google.com/?cid=3365951343828319337&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJJd9w6va1m3YRabwi5OlCti4.jpg"
       },
       {
         "id": "ChIJdZc5hYI5mnYRT_xTDcnPxEA",
@@ -858,7 +894,8 @@
         "websiteUrl": "https://bit.ly/foodeasebrasserieremparts",
         "googleMapsUrl": "https://maps.google.com/?cid=4667083576281660495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJdZc5hYI5mnYRT_xTDcnPxEA.png"
       },
       {
         "id": "ChIJJXZ6B8U7mnYRc5WWwBL2A10",
@@ -878,7 +915,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJXZ6B8U7mnYRc5WWwBL2A10/photos/AcnlKN101DNlUZ_mWXrT5cObZy2qVf3lH8PHfjgnuDH8-4E8RBTnHouu3m_8cWWwbOzTQx64QtDFcRge-kXfdq4VhvntSQTg2RgxG_JulOeJaRw_WDTvj3C9yO9cn-RC4ehceStHT0ntWsYLi9v5uLSqk8fEjlFnYvqNoA58qRiwh5jGohKypgZIr1ERpPPFFji6hmEOVmV0dHzh_OrbKNtNmZXMjZkgb6HT9ENZUSLLoFlnLgn2Iw9TwtH2R4RX8Fkl2tOVT04Rsu5sIqxyfo4EI18dqyqeSikSUb5ZGgR8NhM_SxLk7eqXW-utq2URlT_t-9Q4NQTpl5NkeuUxZUMATyRO1zzf1G1JapBafbKyWbZm6hhS6EGF6ktFCeCFukFMycuslh1wqrTprW4ybUqEmQ2zne2SGmma6OHZdzdXC6O7rg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6702471230858368371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJJXZ6B8U7mnYRc5WWwBL2A10.jpg"
       },
       {
         "id": "ChIJMRhvvDY7mnYRCMwxKOyE-lI",
@@ -899,7 +937,8 @@
         "websiteUrl": "https://www.facebook.com/profile.php?id=100090563932031",
         "googleMapsUrl": "https://maps.google.com/?cid=5979237605109255176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJMRhvvDY7mnYRCMwxKOyE-lI.jpg"
       },
       {
         "id": "ChIJP8c1FgCzm3YRGhYQQDQE77w",
@@ -920,7 +959,8 @@
         "websiteUrl": "https://www.facebook.com/profile.php?id=61559693686406",
         "googleMapsUrl": "https://maps.google.com/?cid=13614104821023905306&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJP8c1FgCzm3YRGhYQQDQE77w.jpg"
       },
       {
         "id": "ChIJY67cBGmym3YRZiUldzpNuT4",
@@ -941,7 +981,8 @@
         "websiteUrl": "https://www.facebook.com/p/Restaurant-Taumatai-100057616892338/",
         "googleMapsUrl": "https://maps.google.com/?cid=4519728614545368422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJY67cBGmym3YRZiUldzpNuT4.jpg"
       },
       {
         "id": "ChIJ25Yv6rM5mnYRZtfBqqXh-K4",
@@ -961,7 +1002,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ25Yv6rM5mnYRZtfBqqXh-K4/photos/AcnlKN2hF_rOGRijZV1sr2v13tO2lsTWxFuJHWvP1UTw0qzvyRCnk5AYWtKgyjzcPQEuqo4U4L3Jx7EYqGnHfN7MEVgxxDp9rHMQc__SfzGgglSUyY64Ql9zBCgx3xDouzFuyCS4iQNrp7qydS2zII41ITAu2kmxT_jqYmfbz1cC_C9ttNkgd4TVJ_WqwuNGtgeY3P4qE6zKcH3Z4jPLbBRLfH1eB0Klo7q21y8mHOYoVF7Qk3l9FXVxuvKetg-SVuzadpNm0x8mfuxahSXm_jviMri75yyJIZLaoSoBRIWVRu7Oe7VgF7FDeccuki5Nuks5dOgPld9xaBVaE56UDF_KzOmhak_tC45UbW85cExmGaEZftReiISpVAgWcIQPgEJHswU7C_oHq0WnXkteuQNjeR5JFHE_bwjkE3XN9eHUCWNg_cFN/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12608075258474387302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ25Yv6rM5mnYRZtfBqqXh-K4.jpg"
       },
       {
         "id": "ChIJucCk3Pmzm3YRnOfzivJbCfg",
@@ -981,7 +1023,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJucCk3Pmzm3YRnOfzivJbCfg/photos/AcnlKN3WYgjDpeYU_8OPGTAhlDK2oYdfjmVtrqOQQQZRSSMzSuoQTF2OKt0pUoVdggbOT5oKhB7uCkxBqfHtTsM77IVqE_MExVQFKe478NchVHDUc0GxihXcXLkxIdUnmpAFVnqjV-06J2qwo5gDZCTp2y3KsOIN6sxq6Qrc58iITNV37Pp44vyM5vGu0rXR2cr7oMYP-W--4BAGvBjCNoVyYx69OA6bHnNn6dWtDGPpRM0Gu6Csxl6qXJYb6E5m06WL449slms6wAThI8XiP_u-ZKVQBy-DEm9MJkTrnaskQj2Suw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17872917693467977628&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJucCk3Pmzm3YRnOfzivJbCfg.jpg"
       },
       {
         "id": "ChIJ5cTGwlGym3YRqjIME5ZBJJk",
@@ -1002,7 +1045,8 @@
         "websiteUrl": "https://www.facebook.com/profile.php?id=61553634436997&locale=fr_FR",
         "googleMapsUrl": "https://maps.google.com/?cid=11035017099785024170&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:50.695Z",
-        "updatedAt": "2026-01-23T16:11:50.695Z"
+        "updatedAt": "2026-01-23T16:11:50.695Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ5cTGwlGym3YRqjIME5ZBJJk.jpg"
       }
     ],
     "adventure": [
@@ -1025,7 +1069,8 @@
         "websiteUrl": "https://www.mooreaactivitiescenter.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15908903253267993222&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ-b_wHRyKmXYRhlIYSTjHx9w.jpg"
       },
       {
         "id": "ChIJOX94MLxImnYRSVyVFaTg1z4",
@@ -1046,7 +1091,8 @@
         "websiteUrl": "http://www.tahitiheritage.pf/trois-cascades-faaurumai/",
         "googleMapsUrl": "https://maps.google.com/?cid=4528334945685691465&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJOX94MLxImnYRSVyVFaTg1z4.jpg"
       },
       {
         "id": "ChIJ4d6HUAAxmnYRaEqurCWW5sg",
@@ -1067,7 +1113,8 @@
         "websiteUrl": "http://www.fenua-aventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14476423140784097896&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ4d6HUAAxmnYRaEqurCWW5sg.jpg"
       },
       {
         "id": "ChIJ1_T4mmmlm3YRAVQM0wfUFtU",
@@ -1088,7 +1135,8 @@
         "websiteUrl": "https://www.teahupooadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15354693109636944897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ1_T4mmmlm3YRAVQM0wfUFtU.jpg"
       },
       {
         "id": "ChIJmb6S18ExmnYRpJCMqBH_DrU",
@@ -1109,7 +1157,8 @@
         "websiteUrl": "http://www.tahitioceanexplorer.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13046645621846216868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJmb6S18ExmnYRpJCMqBH_DrU.jpg"
       },
       {
         "id": "ChIJmYQhY1tJmnYR8GXczGYWdFk",
@@ -1130,7 +1179,8 @@
         "websiteUrl": "https://www.tetapuaquadtahiti.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6445801597453493744&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJmYQhY1tJmnYR8GXczGYWdFk.jpg"
       },
       {
         "id": "ChIJj3xDlw8xmnYR27anOAhSqMA",
@@ -1151,7 +1201,8 @@
         "websiteUrl": "https://www.facebook.com/Local.Motion.Tour.Tahiti",
         "googleMapsUrl": "https://maps.google.com/?cid=13882436046633285339&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJj3xDlw8xmnYR27anOAhSqMA.jpg"
       },
       {
         "id": "ChIJQzFHl5o5mnYRc1uk_Q-0a1w",
@@ -1171,7 +1222,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQzFHl5o5mnYRc1uk_Q-0a1w/photos/AcnlKN3MHTZ3I5OxJPiEN4ATvOMWMTux2gbMa7fUohb36iwBpht9SV-D-1wwmPPAMnvFr4pFNnxYUB7tob0j5LbZkCkvwHfTQu6MMvoZMnothOSOlZIwQ2hACViCDZl5sFIbsXm-tj3ZkpFtUUl4vLTZ0qHz75X7Vdy3Dre15nf0a42Z0JmhIboOZG3-ljUSpe7NG4heVeX0P596GsCx4jIaxGQtnLLzpQK8WDGtAzc9UOriiBbmc_BbszlegHPvijkYRT37HC1K6cO4OIl-2u6nCD2PWKyXePM36cZa94ZdwvzsMg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6659614454770326387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJQzFHl5o5mnYRc1uk_Q-0a1w.jpg"
       },
       {
         "id": "ChIJqy0b2BGJmXYRAhqo3f1ZiaA",
@@ -1192,7 +1244,8 @@
         "websiteUrl": "http://www.tikilagoon.online/",
         "googleMapsUrl": "https://maps.google.com/?cid=11567876064758209026&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJqy0b2BGJmXYRAhqo3f1ZiaA.jpg"
       },
       {
         "id": "ChIJOU6ncDAhmnYRk_g3_YgKXPQ",
@@ -1213,7 +1266,8 @@
         "websiteUrl": "https://www.marinegrosjean-freedivingmoorea.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17607960226591930515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJOU6ncDAhmnYRk_g3_YgKXPQ.jpg"
       },
       {
         "id": "ChIJI7kK-mgnmnYR9i-mJNREVcg",
@@ -1234,7 +1288,8 @@
         "websiteUrl": "http://www.mooreadarkwaters.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14435519858544619510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJI7kK-mgnmnYR9i-mJNREVcg.jpg"
       },
       {
         "id": "ChIJh5onSiCpm3YRrJYQ5BP8V9Q",
@@ -1255,7 +1310,8 @@
         "websiteUrl": "https://www.facebook.com/Rapaatea.Experience",
         "googleMapsUrl": "https://maps.google.com/?cid=15300975421375420076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJh5onSiCpm3YRrJYQ5BP8V9Q.jpg"
       },
       {
         "id": "ChIJT6maqpmLmXYRFO3EI-xuARE",
@@ -1276,7 +1332,8 @@
         "websiteUrl": "https://mooreamysteres.wixsite.com/aventures",
         "googleMapsUrl": "https://maps.google.com/?cid=1225382534112931092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJT6maqpmLmXYRFO3EI-xuARE.jpg"
       },
       {
         "id": "ChIJhROzEAA3mnYRbGDL7X8M3E8",
@@ -1296,7 +1353,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhROzEAA3mnYRbGDL7X8M3E8/photos/AcnlKN2q5uvodkBnlbe3WZSsomOlKTEn_mDnBNihH36gmBFT-azczl8s8XJ-KqAOFjiCzcUUD5bFHoRdWSnq5Zq1ZQYY-YVHO1XfWKR6DZeVtLHgml5qb6ViUPdoLC4fTjmlLExtBFPSWkPkhfv7wQ5OdT-nyyXKofClCYbb2-pxV4trDzwsEjW558hT_Wb1Te-FRbAhpOnlk5FJOP8uNs39mTMvrRW33s1u5UHMB6sKOtnvMEax2sZ5RbsQyf0FIwqad3DBrZ4V7bQg6ZrHGpf3R0_i_RAMUBS6d0oS3VY95q3JCdFzYhE2VtGB1bfPxQUVAA0K6k1TRJU0rHoSUdGbBFJhIu-2Z-iFKhoaeUDH_Mi6NTXVAWj5EeHYoRwuSPFhXYXhM1ShrOOMc9IuOPCj1qwodkX5nYRXqGG_eBC0UL6UP8t5/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5754488167462559852&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJhROzEAA3mnYRbGDL7X8M3E8.jpg"
       },
       {
         "id": "ChIJpYajCsrLm3YR5klIgzq2Qz8",
@@ -1335,7 +1393,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJkxgPfD83mnYRvEhep_s4sVg/photos/AcnlKN2MsP9TYgONyANCWLbSrSTmd9X0o3lcBV3SjWom8vQwcuJVLmkjJCbyyf41Fzh9vDcDCj1ZnorJ5ass1RYwwPD-7PutiUTgzMpBo1lOKV5V913Z4-le4rAqG1uQ07KgyGr5NdrKX0pTKPBRNB3hjZfDP4UKbhAvQUjuARx8KI51wiO3U3lLyY-lCJtUC6ZQ3p_e513LeoriqoR6PR36yUIAHjZYSI_STg4xndSfbvUbSJJ_F2rll8WPY9JOF9qtmsl48LnnHqvj4bgVLeDpBrKesEVfcHfmvbyXU5UMPhqL-ebU8TEQKWGUi_CSHQlDYIj2-BUUy-lRPiDbHiTveP3vfD2gjGApbXyjX7iFnGPCUeLmRLqPwyZTH6m3wdimuuit2ooUP90G842bxr2Tu0BA8zR3MNgdn9-MI4eT-s8Q5v1RKjbXp9QRjckSwhyz/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6390951999711365308&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJkxgPfD83mnYRvEhep_s4sVg.jpg"
       },
       {
         "id": "ChIJn-_26Q43mnYRGQl7xbaA9BY",
@@ -1355,7 +1414,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn-_26Q43mnYRGQl7xbaA9BY/photos/AcnlKN0ZQhXElDgWDpoolr3e0EYBa7ttaxwI_2L2k0lFiSJj8RboDjtC947kr7mU_TA6lzfW6NI80v3RSyp49L855A6YtOpGpsHy9xLwCxj7fxF362CijdwMpB41-qyQ7_y7EpSACZVcMniXC3pcO6x1fyQijQtbqf-C4iOqpAFfTc58ok3OK_XU5C9onU_vpbluOshidhU-PeRjahheB91Wv1EqvIoDxISPbX2pPgmKhCrOz5YisA2fjG9SYtLp0TPVSFo6p4VPs71toiUCadzAMzjfWW50w16E0oRkeG3iwFvbo1077MG6B3QWvWH3jXNhUuLC2nf55GEQkGkpEcuziFnIKrA8qKUGHs4XY7coRlww9OpzGnru6UJ6SEzXwuIf9_fAvG4qi1NcW8hfRGzfc-_H3LK-vM4BSxKyZa-zEbte0g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1654088485637392665&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJn-_26Q43mnYRGQl7xbaA9BY.jpg"
       },
       {
         "id": "ChIJvcmF2hpJmnYR21xbWTVgqx0",
@@ -1375,7 +1435,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJvcmF2hpJmnYR21xbWTVgqx0/photos/AcnlKN269utX4EoJIq9LuJ_WpgU2DuWdfyfukNXeaGRlCHXkQ7TV61tg-CAQgZVApRGl5YUBBv2rlFPWwO4T4i4RXMC4zSaaBYGrxtKekZpAHZfbSkSchc4K_iUcMbl58MpttR1HAJ1XUNqDeLLxRqhgI6G5-sgtzmF3jZc1LyLLMu9-2Z4dESv813Vgs2inJLJ3vnT5o39pkB7A_tADLhXomq3nGbv3t6y8x3901nBQZAwRcuRS_1Cn7Mot3KqEDvV_rtO6KZm03891XIlLbrUMyWurO5vkFseHDT4qj1BwjRroLFlNSsQ0nQUAI939JIbgczGzyzUmHV2QRLmogNmz_u0Ed6tVS2mu3YdPDrP8pZPS9vLnvE_z5rF6sGm4-W3x7P7HeD-uMVHAs930jN5tcqHWTWIO47irfzj7xr-fxFPWOOoilh_59HwI7zR3J6ec/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2137908230366125275&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJvcmF2hpJmnYR21xbWTVgqx0.jpg"
       },
       {
         "id": "ChIJxRXaHV8nmnYR6YOzX9Zz8-o",
@@ -1396,7 +1457,8 @@
         "websiteUrl": "https://tikiparcmoorea.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16930002788781622249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJxRXaHV8nmnYR6YOzX9Zz8-o.jpg"
       },
       {
         "id": "ChIJ1Vyq9DCzm3YRxZl7FA5DQ_c",
@@ -1416,7 +1478,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1Vyq9DCzm3YRxZl7FA5DQ_c/photos/AcnlKN2-hvs5-M9gvk3d84TIsf3kwJSl-g7KAtt2FGEfrEnVbgQPtw5FUfojdD6h9Z7-N1-u1Skm8dRai1Hx9PwW4RukK6sbGXkPotQAqoFC_DqJA7TxrjfiBE_8iyDr_8lPuPvCNCdWnmHJf9BpIag9jMqXGqJm3zWCidfwfo6GyRRIH0ddSp6zu0aoC4vsPFTL7iTSvi4ikHdJ44ftXe9GFmbMrXsnYINiHKczu1OsU6XbWKtbJNNv8p2FRl78UnBN9bG87a522DPfjYdgUL271LxvGpkK_CDX9d4z52dy4NA31rNcoPq1LrPSzH2-6ifYllpC8gTL8bZLTjOjSO6t1FC4WRtbaGNvYzK1x72fTi6riDYjZUOJQl2kZ0sj4avaIpjsxOrObrn2PpHMB8ffhLU0IfhbjgT9nxQ31KCjO4IqEqL8AcgvIcCDE1qZpnvN/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17817158278560061893&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ1Vyq9DCzm3YRxZl7FA5DQ_c.jpg"
       },
       {
         "id": "ChIJ1fNgMHK1m3YRPrEN5qWK414",
@@ -1436,7 +1499,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1fNgMHK1m3YRPrEN5qWK414/photos/AcnlKN20Er5Et0f1epmYoiMwYB66BDJbXKeGHzwXmKp9-Zqwl3AW7rbhYO2s8NfnJDDPmCUI2xVTJnvNtcI-rTcDnJQQ54JjDy1XlXv4KptAIcf0E_deg2wJ521yQsE2_VGy4Zp-bBEDxEMetsvkwBXIBifn8f8P89WU9Ozlk9VUqNIgQDSHdZVmkLiy2EG0BGTqHMKBAImR6R-QTdreQpdYr_u03G2hGGZVMHVrQua0667JTxqwVw32puGP24shzNexIfLpbMu9xAX7GXri1CXIaSqLZNDwITlwldpwvCOIsfg_xNMn0Aiua5AXIFP7Umc82x4-_9erusUgfzP9PSFkZUodOcZa9XMhjkvGJcA6mjcqlbD37-LVV8M8FoTvsvgVu_YMSWCiGXvuZqlch25D__IE7SDld-vIrJUJBXy6h0vKAj-I/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6837461104412438846&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ1fNgMHK1m3YRPrEN5qWK414.jpg"
       },
       {
         "id": "ChIJC7c4z0m1m3YRDTRUQQsOlD4",
@@ -1456,7 +1520,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC7c4z0m1m3YRDTRUQQsOlD4/photos/AcnlKN3kkr7GGqzB45DJa9I3Uk6AfwlZScVmCaFN1nQWXtlBF0rNnUphyh3SFjWR8rcpuz1823moKp0QB3siVnS5ZKXoKtn9TO7MvKSN7db9sxMPvqBs6TDR-TClhHYbQWjD-ZNbtqwNsbW_tjvUf1DHRZFZkZV5SpsOmhCID0C5RaV9x4vgRDnCeayDkq2bQCxYriPgz4TbDZOIpOR0OUC8OCqrXuFDDYTjOmGSYnJFtNRELcWKIwY3GHPWbtXcY11l0ZN7ILI7GMgPxAcxvNS6bSK-W2IzsvQOfakhs1sG-hdc6hDa110-ks7P9DiSF398Yy2SMMiqT9wBMHYGOyqTD3uKYWK9RBBJBSiZrimOOMFFHvzAuUVHl8nb9UIE5rVfSzdLJvasZeW700bAvAPqkg5mqH_ifaohUgomth9tXkJ6zQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4509244568408175629&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJC7c4z0m1m3YRDTRUQQsOlD4.jpg"
       },
       {
         "id": "ChIJ4VIlhnk3mnYR46Ox66SjDak",
@@ -1476,7 +1541,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4VIlhnk3mnYR46Ox66SjDak/photos/AcnlKN2H779PC5YwLzfK7ukPOyolBEtJmtqvtgLIzsgNfUKPDcdPaCxrCtHb8QoDP5HmiTwpofbxTMi1ocdTRLRUyiXUzPOwsmTCs3og-hgTy3UKcaZXZatcxNMGqEhoKr2FORt8u6Uu6msZ0SaBV_PgcWyGss32aZd4VB2Rq29_S-hmxHdPCsFzrCF17qf8Xp56uPy4f8JxcSNLyFDH4gXTiBP7-qtgSRxZVYpjxkA0rr2NI8H531MwkCmOmYrPvHNeCW16q7yioHdw8cmD7NzWq6UaUq7TdkkdoCg0s1rzvNX4KQX2bjXJ0RzJzvf_K99US7aF6oFkL-osHS4h7nLEaPpFWZ4u9lts6q5uouonyARDzgL9FbsQ7Kimiyq6aEPZFUJRMp50Jfodep08u9YEW_mWmhCI_VkGnmpj141mggM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12181572495831311331&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ4VIlhnk3mnYR46Ox66SjDak.jpg"
       },
       {
         "id": "ChIJsXbyx8kxmnYRcKy5yKJF3Js",
@@ -1497,7 +1563,8 @@
         "websiteUrl": "https://www.tahiti-activitiescenter.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11230928136209804400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJsXbyx8kxmnYRcKy5yKJF3Js.jpg"
       },
       {
         "id": "ChIJs8db6tE3mnYRjML3TgOruxs",
@@ -1517,7 +1584,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJs8db6tE3mnYRjML3TgOruxs/photos/AcnlKN2l3DiBcfHYAoHkh9ndwACDCvUoo7KEo2u4C-88fBY2BnPhFcBefXUClEZv84Q5ib8AiShO3juhQDC-WXZzVxn-EsjNOPeCXssxNyispGf3SlwpQd0T09CUwxtoTfYsTZWZNKJPA4jWfvpWGrM9yE_EdT2ciQcipl8POjJSCWzQ1BiaxWPqByecTiqkgveqzLHPInraaUee7h0v3NOKDPMKBUkFSea4Z0DjcYc3gMuaT9BNQHJYDEOkckhS3E5FgIcnVidRd2ya28b79JAHd6T6HYj9W5EU6Ovm-6GisC5N2IS2X5_HIBHzzWkDQFb682PymABoG-gqcjXPNNUpGrRVTXhZJQrOzICzMfHb-ceb-WJi_qwBPwSGk6hUcCbTS1Hn0B143QWtGMRlAhV8azxKn1FkzALSQHdNmQbN-yLqTG2bNU9sCXDyP3UghRdl/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1998378890367058572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJs8db6tE3mnYRjML3TgOruxs.jpg"
       },
       {
         "id": "ChIJaaz1bbKLmXYRqeLRuJRC46U",
@@ -1538,7 +1606,8 @@
         "websiteUrl": "http://www.instagram.com/pareomanamoorea",
         "googleMapsUrl": "https://maps.google.com/?cid=11953471042494784169&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJaaz1bbKLmXYRqeLRuJRC46U.jpg"
       },
       {
         "id": "ChIJ3wWrK7qym3YRNyZybzfFQVc",
@@ -1558,7 +1627,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3wWrK7qym3YRNyZybzfFQVc/photos/AcnlKN171VV4cQbRlqClqSIlqLshqc3Je19KON9-FDAwgK2Iy3D9Hz7bk6rA9hLk6dwXpxNlvA5fvwBYfOxeV1c3-kfWwAEpq6-umsEK0CYck15F3Vy1-_UL-wRnOzQk7dIwCheaumD9Cg90_9YTrcwF4feQS4Dr4mK4OS5boHRwtPttnUUZbhQpy5UO5PdPmbe4oeTDp8-STm24C47V4U7-dT6yuGJ1uDCThp_HFuvszPIxwIbhEr-_nSt0TQViV-kE8W74tRIVwEhXlkwiJHs13p6CoNiHoyH2WkcLQ__hIvSmXblKMkqdN0fcwr5NVG1Yr8ILhyL0Vzn6WRmIJgig7NHF7wbtd8psvEjju1v4pXtdpMYpCS3xmB1ibnUl8kKjbmX6MGSDq6M3Cdw02AH9bzZ32-s4s-hSqzCoMaI3lu6BRv2W/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6287523396669548087&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ3wWrK7qym3YRNyZybzfFQVc.jpg"
       },
       {
         "id": "ChIJVVVVVVVKmnYRWknSHWC0L1k",
@@ -1578,7 +1648,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVVVVVVVKmnYRWknSHWC0L1k/photos/AcnlKN22M2vjGiO194JBUUCCJEJHuFaftQIbNuQhklf_quoy3e8KubuVi0imRN4LLc-_Claqwk2vU-54UcGIcaW_2XVs8asMBO2YJdgHpOWdo_wFhQvKI-a82gGMwkwCLawWaxkUK7_x0VuSAApNUnfDbCvoGv9nB3tReTdD1Vwj_SD9KucgPwI0tkdX3rBr1ffaUaOeB-9TuT-WyCr6_mwZEwsTl1hq1DwoZiWaJvboqFadjPM5qPeFCZXxGTer0PUVRp-MaU3XrW6UV6g-7CumQw4Utz-nPlS4HGQG1A7zgS7O8cKyy_gj49W40aW34LjF3L2Fvjv-WcneIvY_QK7EUXr6DvaecGCLJD8hvLYUQDdJIGrdSYecEJHwEdUbxCukQQ-AeeqEc6cTBp62EzWG1MWHS4rR2lkM90fs0N1WAfkbz3gL/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6426553518191167834&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:52.033Z",
-        "updatedAt": "2026-01-23T16:11:52.033Z"
+        "updatedAt": "2026-01-23T16:11:52.033Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJVVVVVVVKmnYRWknSHWC0L1k.jpg"
       }
     ],
     "cultural": [
@@ -1601,7 +1672,8 @@
         "websiteUrl": "http://www.museetahiti.pf/",
         "googleMapsUrl": "https://maps.google.com/?cid=4460965145879691455&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ6evMB4MxmnYRv8COOyqI6D0.png"
       },
       {
         "id": "ChIJA0HB0jA5mnYR_pTQQsZf-4Y",
@@ -1640,7 +1712,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjW-yBuQhmnYRMcAP_tNBmtc/photos/AcnlKN3f-p28ZI3lsiVT9Z3F5E0ljOqxlnapwsjeUBEXyp8_QwmclQd9N6KshmkoDNLcFLsuTpOsXUcSu6eu8JqFCJ2KXVmqu6t4yscsb7nf1uZGTWe8p89bebrNkAC3YS7irBWXF9m76BbOB_lF_orsU7oon9l5mYL5_0MDTvieCHBSG8FbWzIoIBVjIOSt8gfBeJykheOLdNMOvWNUyR3lGoPSYunH3tdK9uJ33UnxPQ8IlEP2GHOAWBQ-ia4HAU9xVkpHsU0dTMfhuG_BP7zb_C5waDlaIoNEh1teaDfJ-AiUGg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15535802243324297265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJjW-yBuQhmnYRMcAP_tNBmtc.png"
       },
       {
         "id": "ChIJ90WkTG85mnYRE3cRUWSmVOY",
@@ -1660,7 +1733,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ90WkTG85mnYRE3cRUWSmVOY/photos/AcnlKN3h3mOdGtNUgnoSRZWKOdB4f1WXdGEJyRFZ5ENe_c8zDfu0E6bODfxknpyLeMRTp_n2N4bk3UrRxc4plI8-9h9giKJxJalFfyjT7Km5RULr6IkilPMA15VvdmZeZjxhKX_GtOtYfgVs3tAx_zSr4DZ9e8hp33UQZHEcxpvTv-NG0CIA09RqUPj6GWA9BpcQrQ71A1XU5PmldQDJGXBJJzuuoUkhbpDIVQ3R8ZcMGqjDvQFXe5Cbcutsrx9KFZ-gj-eQB8u5jZPA4Ppu4hZqD_9JfkVQqKiQ1-_iPZeXbky-02dPgXfPFm7pPnVK9m7dLPIOTYrkMS4HmX46J5SzvqUSFR8B3o5-cnUO4KqNrDv_VBAiWECo4YCuMU7RNSszcppSpAe-_oDQsZbHmHnhZtrJmKQrfyRXgmzEZRKj_-FFmRRC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16597073476554159891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ90WkTG85mnYRE3cRUWSmVOY.jpg"
       },
       {
         "id": "ChIJEzi6RDshmnYRVAZ5IAg0c6I",
@@ -1681,7 +1755,8 @@
         "websiteUrl": "http://www.natalyjolibois.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11705757065975236180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJEzi6RDshmnYRVAZ5IAg0c6I.jpg"
       },
       {
         "id": "ChIJ5Zeef905mnYRcfi-ExyZ2FI",
@@ -1702,7 +1777,8 @@
         "websiteUrl": "https://www.galerieauchevalet.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5969689651949009009&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ5Zeef905mnYRcfi-ExyZ2FI.jpg"
       },
       {
         "id": "ChIJ04RcMQM6mnYRH6RrO9HI8Sc",
@@ -1723,7 +1799,8 @@
         "websiteUrl": "http://www.manuatahitianart.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2878302437837087775&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ04RcMQM6mnYRH6RrO9HI8Sc.jpg"
       },
       {
         "id": "ChIJ58mDEDE7mnYRHlv7fLNWcYM",
@@ -1744,7 +1821,8 @@
         "websiteUrl": "https://www.facebook.com/Galerie-Ganesha-Art-Polyn%C3%A9sien-115997303417",
         "googleMapsUrl": "https://maps.google.com/?cid=9471446820232846110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ58mDEDE7mnYRHlv7fLNWcYM.jpg"
       },
       {
         "id": "ChIJJ-wNYqo5mnYRei33sRbfR2Y",
@@ -1765,7 +1843,8 @@
         "websiteUrl": "https://www.keakua.art/",
         "googleMapsUrl": "https://maps.google.com/?cid=7370104603783146874&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJJ-wNYqo5mnYRei33sRbfR2Y.jpg"
       },
       {
         "id": "ChIJ9RthMGI7mnYRBUHFECyEbPI",
@@ -1786,7 +1865,8 @@
         "websiteUrl": "https://m.facebook.com/Walk-of-Arts-101279268682538/?tsid=0.4674655782816386&source=result",
         "googleMapsUrl": "https://maps.google.com/?cid=17468482379458101509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ9RthMGI7mnYRBUHFECyEbPI.jpg"
       },
       {
         "id": "ChIJvyIbH8w5mnYRfFQWgbC2WY4",
@@ -1807,7 +1887,8 @@
         "websiteUrl": "https://jamesnormanhall.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10257430495509238908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJvyIbH8w5mnYRfFQWgbC2WY4.jpg"
       },
       {
         "id": "ChIJC_mwBKuJmXYRB1-e18z1C80",
@@ -1828,7 +1909,8 @@
         "websiteUrl": "https://www.farenatura.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=14775173262658658055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJC_mwBKuJmXYRB1-e18z1C80.jpg"
       },
       {
         "id": "ChIJkzN3AwY6mnYRhb8BgyufIDY",
@@ -1849,7 +1931,8 @@
         "websiteUrl": "http://www.robertwan.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3900292286533189509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJkzN3AwY6mnYRhb8BgyufIDY.jpg"
       },
       {
         "id": "ChIJucCk3Pmzm3YRnOfzivJbCfg",
@@ -1869,7 +1952,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJucCk3Pmzm3YRnOfzivJbCfg/photos/AcnlKN2k8Ps2JOhp5H7oeClIdL12xjauTTo8DsPcbv1GwQXqr3V6fhLNiRahBCRK7hRFDoiV1chBdD0P33RHdKx65OYzANrZDq8zHsXG8F578S6N6RaJqloVis5D2meWlb9N-QtvDHuZCht1tQGfLLUNKldyqHghs4s0JWO8VXsoN25oGSkY3K6ZUf4KBxZoCXIVgD0tL-YTqZnNtje0_lHr1y1DU9yMFcwau-GM4-MsdmBaui5R0SRsb0jo76zF665wbR9os2phqPSfbuKUAyaiyTPIvOfw9ovmxDZaxSR03UOUPg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17872917693467977628&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:53.221Z",
-        "updatedAt": "2026-01-23T16:11:53.221Z"
+        "updatedAt": "2026-01-23T16:11:53.221Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJucCk3Pmzm3YRnOfzivJbCfg.jpg"
       }
     ],
     "relaxation": [
@@ -1892,7 +1976,8 @@
         "websiteUrl": "https://www.tahititourisme.com/natural-heritage/jardins-deau-de-vaipahi/",
         "googleMapsUrl": "https://maps.google.com/?cid=12051969355234473947&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJQbf9ixC0m3YR2_ekRkYyQac.jpg"
       },
       {
         "id": "ChIJOX94MLxImnYRSVyVFaTg1z4",
@@ -1913,7 +1998,8 @@
         "websiteUrl": "http://www.tahitiheritage.pf/trois-cascades-faaurumai/",
         "googleMapsUrl": "https://maps.google.com/?cid=4528334945685691465&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJOX94MLxImnYRSVyVFaTg1z4.jpg"
       },
       {
         "id": "ChIJmWFTkgU6mnYRmGUXQvZmHus",
@@ -1933,7 +2019,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmWFTkgU6mnYRmGUXQvZmHus/photos/AcnlKN3E9Fs4WRq5We6JA39uO3YlJruUPMnRDxmLLSH80B0G-na0biqmMZg2lcInlbiZpidZ0sBBgt6bYvzD1Oxtd7xXOsBGa7Hu9RIXzWwvP7FS9H2EZ7imoeey1Vz0x7Txf8pDDdW5vQWuSlFM2yFv48Ua6OzFxRD3SKDxxTcncOYAu_YGfaUjeG3MJyFwoGj9fooQ30OZ8AeIT6QL7jdIzFdMYAaG89UU9q0ykIqTZPfxXm0TII0713joWjcgpP5Cd4o4YXBV_tqSH71WFyKfEK-ZC2CdQxrv8Z3DuBuo7uhzXYF0SX_7_0-3hiLnA1ryjfEzDkmgZmjKXsUD_ibH_fVEwioGkNvg9LpR55WWmpzYUpnTS7qgAViKbYzmzH2vQjQiXwI5DCnBRDwu72RQZn7c57uA07CAD53L8_Kc4N2KC6A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16942092056071202200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJmWFTkgU6mnYRmGUXQvZmHus.jpg"
       },
       {
         "id": "ChIJO0NvBz-zm3YRK2pzFW-dS0w",
@@ -1953,7 +2040,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO0NvBz-zm3YRK2pzFW-dS0w/photos/AcnlKN1OQK352TZxconKLZI1Na-yC0LBJFtyhvWcp0s2MhaFnYQAVqmxTYWL52nf1nfghScYboEyafNfdFuemRQ9dbz0gKL3TqS8PF0FBtq6Vu7bSgteY_KQjkIjzO5NGGVe2vBLFnDN8WfaJw8bZ6i7mtQMxMqslxzNmLie0vrO6I52VhVaqFGkQgxwWKoqfwAMYJ02iF2rMhCbVONEZuysffp4vO2ovIHgnOko0sg04tRt6424UFWgYJrbe5CL-9xdwz4JCZnE8Dfyt6MW4tALeFcfTdSuVruz-9iSFG3Y7Bc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5497660870562638379&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJO0NvBz-zm3YRK2pzFW-dS0w.jpg"
       },
       {
         "id": "ChIJDyQJTVmzm3YRKtbvNW-vgdY",
@@ -1973,7 +2061,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDyQJTVmzm3YRKtbvNW-vgdY/photos/AcnlKN2D_QpDv6WwJcW5x2ZUzmFD4pHqkZBHOk5dgqRZaYC8_dUj7z1boP53cDRVYds7sKoSdcbWGi5n0xc_tJbvnSG2vsfjyNM9CsDh_GZ4UzKGuPXbG7uWAKd4tpTiBhspGYtN-NA-8oLuCaPc90PTF0Q3XlK9s4wOVMh1tIFS1Ihhv70tUA7xOecklLwxliWjYOKLMaQ38_tWPK_RQFTv1AmPofzaibulBBpmFguhZXWqr2pVta7Zzp7qhgajamZLpXHsBNgsMkSI8Kyx4Ket17PaDwtBjWvBzAFAyulQAZuXneGQ9wQhuTdFx2jocCQ5SHw4dpxKdW7PxNWQTCEiDbQ-SsguOUIYOv_lkLPB8lYvWG8J44JOS4zyCnNTd49MWUum9gNaGqLA3t95Sxl2I8TeT8qu64VgH2uOT9Br7_bZFLVb/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15456828288293393962&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJDyQJTVmzm3YRKtbvNW-vgdY.jpg"
       },
       {
         "id": "ChIJpYajCsrLm3YR5klIgzq2Qz8",
@@ -2031,7 +2120,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOS6Jf3YzmnYRkMuuQ2N2NQU/photos/AcnlKN3OlpTyoNKiSH3iv4uRsNcv7IyD1Nqk1iEvEjU5lpgo5F5ImeOGqPbmur1Mqnpxp3kQ4afvECV1IPM-OYBYO59gkUetAMvRPfCRiZPYGmJS-9e0icmEX48v4m0wZPxuliFKpD1XSffnYlpZ9iCz9okNBfxkKFKhCItrq9mlwgeL1lM6P6vbqlSngs0CBNvQrxUrx-gx9lxYVQM7BBlbUaclA5DJRGTu70IdPFKFvOgyvv3upL9vkD-jsk-8FAzbIhcbAnjzCjCuj--7UXOwx2mk8ms7OXljiPZeXvYTimGRgw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=375336312664673168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJOS6Jf3YzmnYRkMuuQ2N2NQU.jpg"
       },
       {
         "id": "ChIJn-_26Q43mnYRGQl7xbaA9BY",
@@ -2051,7 +2141,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn-_26Q43mnYRGQl7xbaA9BY/photos/AcnlKN1D_rASWBmXVX_0IL05u3_SP_vrYA_YyN8mpMfRxHTg_0WcaG6T6QuhQH9yRsRc-lCqpoctWvxdKwbK7xJyrVlDlMz4TiayDjL5G3rwTvhsKYElbCnt258ijIbBVLZsSpL7Xg_qN-h7Y8aMXNrsXYqisWqHJvYjPi1HT8WB6V6UxeSUJQAtH3bgohW8Co5E9UjGMCgGSZlUBbFjTvjEh2al0VlHdsjPnGnPoRcmPY-rRspVr8M71xp5GM6Dn6xF8aZT675h3O_Ch2wTjKDeSBxMoB1BGwsa1fPk-HXqcpu8F7mYfRNBBGqEpbnBIibUoqvsovUryrnJERzprr6-RrvQ7JYRKaRfifb9wJ2ek3kfCMRjy2PhGzkqYA-aad8PiL2fEWf_mylZ6QVFutmr-YOJUY9QFxmeh0mMzedo5IBOjw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1654088485637392665&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJn-_26Q43mnYRGQl7xbaA9BY.jpg"
       },
       {
         "id": "ChIJvcmF2hpJmnYR21xbWTVgqx0",
@@ -2071,7 +2162,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJvcmF2hpJmnYR21xbWTVgqx0/photos/AcnlKN2jruIWT5oAtIgQt7W3SB2bemEhE7_yD6ujbYGlLfddBVd8r64gbTN8reday1FMCwIQ0D-cb-pkdhevmk3umV44efzmh_ZCAxVIm8-yHB8Z9g8QAPKyGyFutwE-to1tk4NqzqyXmI6Pm4YSiyR_01vd-jafeuNBXS9lAsf8vcWGsjtD5MuXCRs7EsjYhNdE1YxVHDQ1lfS-mw35VLugl9TAVhDxw70uUcEIHo0Rm3Dm5APmhuOuv68fqUunKeF62jTPHezXqrcZf7JxYok0xiMyl9ULY9lVo5TxAkwXfxBAeQBHB3ESxTPvRVSEqrcyZSHSYakNpinXP8dBks-0EAmu3PQMp0r1M-IM5mg0J2e3-UigSo64cnWr10mxhncJNdXuJG9iMoanbgUjbTSEar9nH3JbkVuheZ5vdbKHQ1RXOQtr5mVpmsG6r_s7NBRF/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2137908230366125275&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJvcmF2hpJmnYR21xbWTVgqx0.jpg"
       },
       {
         "id": "ChIJ1fNgMHK1m3YRPrEN5qWK414",
@@ -2091,7 +2183,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1fNgMHK1m3YRPrEN5qWK414/photos/AcnlKN3u2ClOQa2wO9ja95SevCIGYugXdBlYS4SuSQoWL-zTJFLvbh_7zCaL4ja881A5hHpxrqWnu5s86mBcVBda42ay97l0Gn-vL_KY_bojeVPCrvRpdH-1YG0iXLcInNOa1w1p69Txn_rJxgFfSit97l9x5ZcgXobkBN6DT2UfNXKLrAsU9dlcPKw6pdgXHljfb64ITM3cqByssYhUdTkWcF_TWLdTKJhx4TpUAdS4UGkZQ7D6I1UaLNGuNeeKElFISv0Ec0uI8Y6PMzCUb-E1356gu138es5fbxzY6EIKMVRg7mQ-cfd6DQKNIyl3l6btpHvvfLK_Gtkx7JmXSm2dWnOUu8AHN2Zy0ZuTAZhQqz8i18xtlBltvBl2uGgdyVXANnUOqc9ZOcP8dDBIy62WZ0TGxC-eaNgdUlEss4dcoX7jFIIF/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6837461104412438846&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ1fNgMHK1m3YRPrEN5qWK414.jpg"
       },
       {
         "id": "ChIJWT8eJQBLmnYRD2lLHg05lPI",
@@ -2130,7 +2223,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJG7ghsQWKmXYR-cYHNuRIy94/photos/AcnlKN0D_MdAQmbc_G9FE7EPp7QDDT-019fNuDY5E6qLJTDBPAvJrfcnHzhP1zADgC6e4ZslaXx0RcNl4zg9S_x_xeAgGIZsjrt97AqFvzhez7KsamHIwTkjxxhlSwLe6tcpyteCdhCeWeXbm-Saefs3-Whg9KqSLlmd-qOar8mDqsGPKgDPnP44tnYUy15iu3nDFsj-UGkd3Dzc6SbqTYAjvcm0UaUQZ-_MtHiXRljoS-JTTJhmyyCb_TM7fFiCja185Rqw43KLp3UMuZAL3YwLjmz5gFCzrBXrj5dkES1FenV0sF9cSeBJfKEJz9EsYsER4URQEcn6CSk_dEPVQmo6undNI_ccXtdWT4NW8Z-dCpUA1BDtQZaOj4H07PC7qxgmHDCD6kz84BntgINDQH69_6gPXKu4-s9Cug4MVGuGwCLM5g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16054005441688487673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJG7ghsQWKmXYR-cYHNuRIy94.jpg"
       },
       {
         "id": "ChIJN6_KGQBJmnYRZ8GWGtqGUSI",
@@ -2150,7 +2244,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJN6_KGQBJmnYRZ8GWGtqGUSI/photos/AcnlKN2ukGbv-UXVGXpLI3oKMXwrsDTHJJkGHu980OsKJY31uwuEfgGaEHdFf3pV9_ICyd7hcEaZkSUTTEdx0AswhmxSdwxhHF3x0P3Pi1c2XVf5oohCUZVNGOjQxB5vnBYVVDrygyxC9Y3VuehHYq5-Sl2wS2EYCDWo6C316PB3CBZy1PqpGh_zwhGoXQGYi9bwr55rv0Q7QXQnjTYg2-TWO28QJEyOYWu5pkGoNCuooQPhJGotfpvTrhmlftbg4iQEkrkza5_39Robl5cTcQwRXK3nJnaf_NXD5MwksmbQkwj3k92jg1WNUrzEhvT-PtO_ykVjYBlWS1yZ0ACRBtYsHqawbqVnpLsk-qtBI9_eXQ3ADgBsshaZ18tN_d6ehX7ATiRisr12-6dQoTr6GtEJIMJgxpj6L9raeunOYxjTVLLY4q-Vi4ZI7wkHiSoPMA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2472905941710192999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJN6_KGQBJmnYRZ8GWGtqGUSI.png"
       },
       {
         "id": "ChIJ3wWrK7qym3YRNyZybzfFQVc",
@@ -2170,7 +2265,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3wWrK7qym3YRNyZybzfFQVc/photos/AcnlKN1HkwpTvSAqrF1QWGxY-o9vZCedm7IvKZ2rBcvkJtoLgbHtzyl6RkpTAPe62HYQhQqn1BW2mB1aAWsGY-4aDDGunu1lGADymxyS_0sibB796USCtQh80GL5tHQIdQ7WoaE7X-VkUkFra0trUCRActs1-IoghICBPDuyIPCFizYHF3FT4qwS_8weCWJ3ycAES66TboumePlJl3MhP1zMqIYkmFZP6UEWrh-OfqTdN8ivggM56ouZuL6RwBqcfQX6DLZyaSbWNrbHyQedtcar5zAImb_mir1la49mX-UaaJaodemBpS7kCOn4cL4TgB2JPVOLXbdsYblabEQ3_YJv1ADm666usOzJ_xXRiQcEruC5ALU8J7hflenPheLU3vI-zrepPRWpjYMq3-gvOJNTQnbFB4sU4EIU7WlRiDEG8yMr1CMS/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6287523396669548087&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ3wWrK7qym3YRNyZybzfFQVc.jpg"
       },
       {
         "id": "ChIJA2bCkze1m3YRdIrNwd6qYA8",
@@ -2190,7 +2286,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA2bCkze1m3YRdIrNwd6qYA8/photos/AcnlKN1jmGUJTx5ZNjhndzGB_mSuCqv5uMtwGZIxlTQJ7ynV9w8k68FSKZRr9nq5IHuGSXnacbdgTVs5W04Z1eclZsP2ChDDvlzN-sVlDg1CS-G9_kX6D-Pluj44EreUF0d8-K8j814LgVBVi6-aQMlL6q-YKPVEraTs1n4YVXR-74XnFme2Bn_jKUJzQ7CdDo3QU1Zl_EnkvkLfhPcqU_7mvJIUl3KGYhAdE2SN4y9vibqqtyuWSWwVxXe88NdHXtPkfNhFBOCbo7aosm_ZHajPl3sTPzfquB49loaukQbd4pA0dAhmzGdp4GJqG5g0mYL_XJ_1wQq0WsziHAr8SEmZ88Xj-eFpXoDmzSfX4VdxkMObDe5vPm4X3h_HMu75WJU6pqMJ7D_IfgsuBrN2O7eQeuwFJ8hHqkJkNbYC3Bx1C9VS06uv/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1108073382044076660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJA2bCkze1m3YRdIrNwd6qYA8.jpg"
       },
       {
         "id": "ChIJNecvxfc5mnYR9IBbYrFjyMQ",
@@ -2211,7 +2308,8 @@
         "websiteUrl": "https://www.cultureindoor.com/growshops-culture-indoor/-papeete-124",
         "googleMapsUrl": "https://maps.google.com/?cid=14179693040286531828&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJNecvxfc5mnYR9IBbYrFjyMQ.jpg"
       },
       {
         "id": "ChIJS7nE5uSzm3YRFgtX-jmZJs8",
@@ -2231,7 +2329,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS7nE5uSzm3YRFgtX-jmZJs8/photos/AcnlKN0rKCirwbhk5H04dDyCQKeU540Tchdw7MqjV-P7DyUor64C_bHg5_Jx8Hjj0EeNIEcBvC3xvWnEx_7ZwRJQXvNJngY8ntLYMzlYXpyTa_stLnh1nD-eX8CbOY96LljNm5Iz_m-wE3jrwdKl8X8gkTIE1yWBV68G-0SUtsHJqHlCsxkan-VXiSBteKGD5Wfr7dH3YL5RdqUdFtoAWvrUpuhmoJeIYiBiRD3Zs-oOYdiTL19JOHLPQYR4TWYW-8VdSoDzSCTFeGJJvA3aYRFn9ETZ7nYjB3oUstpkTmdkEjH4S4Ewn7MedHWJH6f9OJTr14C3R3gJ6rXBnGaO_cIQCTBj3FEOxWumd8sKe9ZvGJwgowhyVa62Wt3tsv9v7HP9-hkoShppVyE1xeAhE_mVI9hNk__m0KyByUK1a7FoEErSYPdk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14926786489258281750&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJS7nE5uSzm3YRFgtX-jmZJs8.jpg"
       },
       {
         "id": "ChIJq57EcAQ6mnYR54OjqOkPSBc",
@@ -2252,7 +2351,8 @@
         "websiteUrl": "https://www.tahitiheritage.pf/parc-bougainville-papeete/",
         "googleMapsUrl": "https://maps.google.com/?cid=1677608357426594791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJq57EcAQ6mnYR54OjqOkPSBc.jpg"
       },
       {
         "id": "ChIJVVVVVVVKmnYRWknSHWC0L1k",
@@ -2272,7 +2372,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVVVVVVVKmnYRWknSHWC0L1k/photos/AcnlKN0D1I3pT2ZpwfkBbWis3PhaW6yEp7D5MUH2sSWGNOo05pM6hchz89d6rbNyavTlhEkfG74a3Inen3P1cnfNUXQFHXmN9fXDk7s5dMGZRf4lR0SwQi9qAgwThUuJMwB2vS-pth7wPXlSgIcv6mV-aKJDou3sJAZ58Sb6_A9nna6dv77zjDN9A5RDSDBRMdi7Mh5m2iJhJskuT7w0Etb8pesXpCzKRccblg5-IieV-jYv_q0EHAm6d26sAVW8xi9ukx2116mH7sqMUPMG6WGKT6SZ-lG1Pwwfqpq61pRGqVHwc-G78vnKqkqNnQ8OmleETKpytoPdIo_FmnfzSlduUthD0sf_MR5yT6wqYeFsT6zg39dHEqqG1izvdtoNU739I6a12HV8Hf-PzuvSTDz13MIFE4PxLsQVOCt4El9ywyn6fETJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6426553518191167834&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:54.471Z",
-        "updatedAt": "2026-01-23T16:11:54.471Z"
+        "updatedAt": "2026-01-23T16:11:54.471Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJVVVVVVVKmnYRWknSHWC0L1k.jpg"
       }
     ],
     "nightlife": [
@@ -2294,7 +2395,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJp1xvjRuzm3YRlO9fixear2s/photos/AcnlKN10iFnrlGRf4ry_Vw4wYyvK-CRPCEg6lqDDYRMVRX2L30O_L7xVPZHPUg9tB99TZRDc4jEvDJc6TsbKCz6cO6imOZetZNLWdyyIlJd41vORBrC-Nfiq0HTbnPeppSjB4QAlUlBf9W4PsHtfQiJhfMxiedcggYkaUbI9zLrfsPEUGJj7ysVtr4B6nPv91nc06-pVzuDTyLkiHmEDl-t_XJb_-AMwq1m4AnQdHgpY_QTLzR7VxtLJBp1NdA0zVFGAAk9CnGz4EWHC5NlMPBXFm0udPsYP_aITm-kKOYseSsonQw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7759590108895899540&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJp1xvjRuzm3YRlO9fixear2s.jpg"
       },
       {
         "id": "ChIJ55bn3EE7mnYRtwfWrFGPCNY",
@@ -2314,7 +2416,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ55bn3EE7mnYRtwfWrFGPCNY/photos/AcnlKN0ecNt_pHIaTzqASwCDMt6V_-gWYqlYT-wMfJIzGQyCXV4xl1qc1gmNds6Okto1L-jlNXVWGhhsyQAaujQwWFg9nhCJaKjpX26B4jaXN2_JZG4xHDFVNa8b7JyaVv07_in8SBgvtZXniG1dctVtbV8UXzAU2OnKc9Odx_xhmSg0zN_7wnGkKCGiHjOn6SmimX-78AuYg6KLIry_4sIrC4BPOn8pFjtYN8t4bZw_QfWOGU8CSarjOA185Rs4VtNzF0ncpOaZ9-vgc8okLXKDWzRVeFU0jUOoJm2Wrn-aRLGYpgLrUF0-qPzdujA6n-r98Ga2Oi8iJFLyeXvIUUrfOWXHQWSHzqUrEIOPywG4eXlWbzQVJ30pVhW50gt82uNqr1hWe7yoSAwIelvFKCLemPC0NBQk86bzF-NQVHMd6uQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15422734504885094327&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ55bn3EE7mnYRtwfWrFGPCNY.jpg"
       },
       {
         "id": "ChIJUzD7IJw7mnYRgxzEwD5wBoo",
@@ -2334,7 +2437,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUzD7IJw7mnYRgxzEwD5wBoo/photos/AcnlKN2sCeJwg7ow4srYTsTBhpfAinGfXCEQmZAtHMCmcMscPPP_7KcQ1dxlZ6Nl9UJiA9Ng-gUbkOZ3trtjpJfG0iT-ue-iZ9BwRbSM1vY3hV2mTIoQVjRScQetAPhlY_SdFIDvKdK3tgSWV58LCeMIXAuqp-yqsLaNIg-dGFi2KfVjSQJp9NZTrYG_gnUuPuB7uRdbp96WrwS5o6UjZfURGHTg1yQpOWCzolG0QWcn1UTDGPCim9U9DxanEbmSPENB_VvX7e5kp4KCLfBdCHMppS-l4fHUndmVPCa6zZZUHUgdiMVqeRCC7_N95zpA_MQjAZrXhbpnY3oOyrRLJlpWrkg5hT7OizpJyw-BqSgLEYAmOG7vqjuIEhM8QreygRPqQRP5s6PRSMciyegD1yRHBVkYXpJRbtHwKWa8cosr6yM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9945760241918680195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJUzD7IJw7mnYRgxzEwD5wBoo.jpg"
       },
       {
         "id": "ChIJgeMuVug7mnYRToRCWqVHrNg",
@@ -2355,7 +2459,8 @@
         "websiteUrl": "http://www.fenuaprobartender.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15612932783696151630&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJgeMuVug7mnYRToRCWqVHrNg.jpg"
       },
       {
         "id": "ChIJm83YYLs7mnYR_eguPwPqd7M",
@@ -2375,7 +2480,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJm83YYLs7mnYR_eguPwPqd7M/photos/AcnlKN2V18ckZFz7Ce_FL48oPJ5ybBgkEemESMzbVyuL3FZnyYzELAnaUgTTqzAj2r1CBW66u4a-FuveRAQ2wNVoVbe6bkIk913vi8I5fc0oR1KhWQPn42juBkaeQssRjKfQtoNY6lP5xODGQTxrGHuzn42QUNFlu3-BSClWs3Kowqt2sP0E8x6-FRLxuAPF2ONw_jKwe5W27W6lr9zGq1ztQ-ZO5FGuuqg6RHlbwKehy7RSECIbo-qk7Urec2WkR9Vfvef3LFdULTD2TLpBN5SHP8hnp5c4zTRic3Bht-fJan7cMqToZS9H9zHi_R-6E8SQOO-zwldNzn03g9gUoRDyhax28YC4xfdonvOqy0JCEdZxZh4TSgC6vVQrtOyX-cC17NXybw1vcx7NDN4a_DVppdbtAxdRpkkt5CWozpnZ497TPA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12932062154683508989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJm83YYLs7mnYR_eguPwPqd7M.jpg"
       },
       {
         "id": "ChIJ04q7fD47mnYROsRYR64BWxc",
@@ -2396,7 +2502,8 @@
         "websiteUrl": "https://www.facebook.com/WonderlandTahiti/",
         "googleMapsUrl": "https://maps.google.com/?cid=1682940733785949242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ04q7fD47mnYROsRYR64BWxc.jpg"
       },
       {
         "id": "ChIJX3GNs2UwmnYRZQ6uEHmg4Fg",
@@ -2417,7 +2524,8 @@
         "websiteUrl": "http://tahiti.intercontinental.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6404295111952174693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJX3GNs2UwmnYRZQ6uEHmg4Fg.jpg"
       },
       {
         "id": "ChIJl4Hx0wI6mnYRf0Ru1kQIma4",
@@ -2438,7 +2546,8 @@
         "websiteUrl": "http://www.taplink.cc/uteute",
         "googleMapsUrl": "https://maps.google.com/?cid=12581096125784540287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJl4Hx0wI6mnYRf0Ru1kQIma4.jpg"
       },
       {
         "id": "ChIJN_Xn7M07mnYRlB8zf_-_-jc",
@@ -2459,7 +2568,8 @@
         "websiteUrl": "https://www.facebook.com/laftertahiti/",
         "googleMapsUrl": "https://maps.google.com/?cid=4033747520335323028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJN_Xn7M07mnYRlB8zf_-_-jc.jpg"
       },
       {
         "id": "ChIJqal4m1k7mnYRhbMyMgW6tWU",
@@ -2480,7 +2590,8 @@
         "websiteUrl": "http://www.zionbowl.pf/",
         "googleMapsUrl": "https://maps.google.com/?cid=7328968500095136645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJqal4m1k7mnYRhbMyMgW6tWU.png"
       },
       {
         "id": "ChIJJ6ofhc47mnYR46NAlzCZtLY",
@@ -2501,7 +2612,8 @@
         "websiteUrl": "https://linktr.ee/hiltonhoteltahiti",
         "googleMapsUrl": "https://maps.google.com/?cid=13165316044685878243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJJ6ofhc47mnYR46NAlzCZtLY.jpg"
       },
       {
         "id": "ChIJodefv7M7mnYRqbC9CKLjrhA",
@@ -2522,7 +2634,8 @@
         "websiteUrl": "https://linktr.ee/barooftahiti?fbclid=PAQ0xDSwKvFFFleHRuA2FlbQIxMQABpwdyQHwMBRhoQ-l2Ov4m6FqJ-24_s7BBpbvVGA9s05W0FAS17u03Yx6BSIcY_aem_nmVfzxltfEJlGrUmg3DQ9A",
         "googleMapsUrl": "https://maps.google.com/?cid=1202148435625357481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJodefv7M7mnYRqbC9CKLjrhA.jpg"
       },
       {
         "id": "ChIJ3-sa7_07mnYREsaqi7bk0p4",
@@ -2543,7 +2656,8 @@
         "websiteUrl": "https://m.facebook.com/LuxTahiti/",
         "googleMapsUrl": "https://maps.google.com/?cid=11444461075780257298&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJ3-sa7_07mnYREsaqi7bk0p4.jpg"
       },
       {
         "id": "ChIJL3rMui07mnYRwEttp0NfUkM",
@@ -2564,7 +2678,8 @@
         "websiteUrl": "https://surfhouse.pf/reeftop/#:~:text=UNE%20VUE%20PANORAMIQUE%20UNIQUE,tapas%2C%20pizzas%20et%20cocktails%20tropicaux.",
         "googleMapsUrl": "https://maps.google.com/?cid=4851044492807850944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJL3rMui07mnYRwEttp0NfUkM.jpg"
       },
       {
         "id": "ChIJkY83cmHLm3YR8P2zwymQkhw",
@@ -2584,7 +2699,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJkY83cmHLm3YR8P2zwymQkhw/photos/AcnlKN0DCWvQLQQER3i_lsZH6Z_RKc95pqueRrZ1hIDfBrk9JRi9g2A_HkOSfGwKLvQLZa8QJq-tkz11PyiimH2kJ8-CtfDsxyYPBZTDw4QmtBSZz-vt3uHIMx3nHzzgKaDZSLoLqNcNbZHDna14vsyRsbPL97wJuYTuiug6_sWUK-NNN-tv8-3_W401RL4iFVf4RJkF4_7ma-Z1O_HTXjeNByg548Q6GuEeQKJjwAu1MTeevkYjiCuQ2QTRnWaz4kF55Md05SzUA_F3cn11NGH9aht2kmoARSdTu36tcsbg2z0TTGTEPr25AziApOUcoGVV_k6fg0lPkBVQl3muPRvhe5_eHxL4p_jZX9FjmXAvIyNGB_egqpIUl-8Jw9A4nROp-9VC-dWf8K7fCGcmWPqFCconKqb57Ra4XTn0jbI1kr_AB9J_/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2058866488713149936&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJkY83cmHLm3YR8P2zwymQkhw.jpg"
       },
       {
         "id": "ChIJOXnM0AI6mnYRaTdYF2wBBek",
@@ -2604,7 +2720,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOXnM0AI6mnYRaTdYF2wBBek/photos/AcnlKN0a1Uyr7XDAW9gzR-nn-QsQTSn8zOWz11diFlTV3avcKYV3jkeM3Sv2BEpmSXBMwsT7jEYErPzIIo7buVjRUq75TMJIuf9XwrsxKJHa2ti9eq4uQkmBRNnF9AepQD18jbmSto9W0hX1XV7JTNHL6J-aeKNdHygdI9sWLcQ_uB7aQgzrDDFgjzH5jX831Xy6xQdNXEFXf2ENLMtJrcQCrqzxmopfZx1e0H11iUKgJkylWlbPEsZmO83Mf-DJqPkv-nJrJ8oRS9ivhbhKr9WBkfFjRPygAr9j-TccPsduYUWSBPXDDyANtlAIfF0vbkbXIlZOKyJoNrn6b9JT08ptp74McxqxTbw18-Bqs1IO5Z2hhd4S06-PQz_TrROG3kJyttiyZmqBJkf8WfSLVQsv5SnaScfp24SglXTvp5LxvneXvQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16790828349480515433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:11:55.734Z",
-        "updatedAt": "2026-01-23T16:11:55.734Z"
+        "updatedAt": "2026-01-23T16:11:55.734Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJOXnM0AI6mnYRaTdYF2wBBek.jpg"
       }
     ],
     "trendy": [
@@ -2626,7 +2743,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJp1xvjRuzm3YRlO9fixear2s/photos/AcnlKN0V8PADLGVL0BJPQs9LilmdeabDczCH6c89hK3CRU8TaDVIk-A_-Sv5sXrR2c_Bu3JCc66oRM6R5iv3kIM55nwfYvX-tSiIF4IhRb3y1aX0L4LxxrSi63pAzDAp2oVC8-vLrUv72kXzT0ATpzI3_OQNg0iwIBBO31fcCf2DyV0WNsWeO-lxIePxJBNLKvXZ1UnpTOueOnAwG1TB2Cj1EmaA-y18tjToPG-KgE2xNQXO4ge2w8mE4R47W2GVyoQA-L2xXwbEP_6M8HH7YSYtKWhbW1ty5tqdL8I9zd1Ns2eQEA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7759590108895899540&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:11:56.811Z",
-        "updatedAt": "2026-01-23T16:11:56.811Z"
+        "updatedAt": "2026-01-23T16:11:56.811Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/tahiti/ChIJp1xvjRuzm3YRlO9fixear2s.jpg"
       },
       {
         "id": "ChIJrVrRpDdPmnYR1r8bxgF0Bxw",

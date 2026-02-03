@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJf1GxOgbBl0cRUqNeomYSxpo/photos/AcnlKN2F7zfijwekAYK_0rY37wMV3wQyTJFfcS-rdafyUUeJjdPMuDIjnotf6PndWQG74iL3HBC_Y6aegcLQqGozLZREu6kTJ-ZSGLmNoO9a2Qp0w88mMxMutyF2XcVHxVHto8B_w0ohhAF8tgIBgCw7afB5fo9mSs8SS1XW9B1c9sQX6Magl-xHBYwUsAv04DrTZJyvhOK51UVhXBehafMqhHdAcJdW6s9mre7o06d2fVC_imxvDfwCfq11nozkjej97yVAY7K6h2GW5_YJH9PSBuFN4YoacACT7_PJtm1YfJ-5RBtdIl3MnX402xzzpHE3rl3ePQndKpMRQ9u9YknKiinB6boniAhT-CFOjJ5J7_VJGORVP6fuH-uZtOB5YHP3u52VnVsAtaEh8RQrT6YrN0H4RVQ2C1YPm0AhznWSM6r7X9c/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11152621759249687378&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJf1GxOgbBl0cRUqNeomYSxpo.jpg"
       },
       {
         "id": "ChIJk9tDygDBl0cR6n7pSTYuZ20",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://www.schloss-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=7883320483438493418&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJk9tDygDBl0cR6n7pSTYuZ20.jpg"
       },
       {
         "id": "ChIJlZMrbu3Hl0cRJF6IaMdDof4",
@@ -66,7 +68,8 @@
         "websiteUrl": "https://www.schloss-schwetzingen.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=18348020880615431716&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJlZMrbu3Hl0cRJF6IaMdDof4.jpg"
       },
       {
         "id": "ChIJOShkrpTFl0cRpS1o2zBTfpU",
@@ -87,7 +90,8 @@
         "websiteUrl": "http://www.automuseum-ladenburg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10772138828021378469&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJOShkrpTFl0cRpS1o2zBTfpU.jpg"
       },
       {
         "id": "ChIJ2Tqbq6nBl0cRioEV_U-J3Yc",
@@ -108,7 +112,8 @@
         "websiteUrl": "http://www.deutsches-apotheken-museum.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=9790132141614793098&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ2Tqbq6nBl0cRioEV_U-J3Yc.jpg"
       },
       {
         "id": "ChIJ43R80Q7Bl0cRd2Gx8RA-0gs",
@@ -128,7 +133,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ43R80Q7Bl0cRd2Gx8RA-0gs/photos/AcnlKN0jtm6ft8zvAuRVOG06Os2XOGp1qvsMI0DR6PVQC3YM_0H8MetEwu3qwe4TF03O6x2HIZmRjZkitiMjxVHJRcgRzrfrnqwqE4oLBj-BvP40Rf2cW19_qRw4St3gHFZ0DTLLudDrXsyvUTiAdG29ukH1203EG9pLG-9irZvJM3JZxhH-IKJ-9UksPykkJXzsZpxiJ252ySs6djh1hw7_25JSpxb_qGgKKY0yZSyKAIzX2sjEaZKwhRISw8mzgnQOmkEEB434TqoPvv2x3riYFFnnD6V9vl-ZRf5TbVjc0zqzPVJeCtXag9QmyIBSa4a8xEjz8TEyKZqu6YSxb0mBFylbbZQAiagOPI1jQV2c1Bgn7dVJ2gu-ypeVTlhaUwVlSllKJpC9B-yH4WXtZSjB6Di7aUp83ZErT8i-YSo7PFybNbUc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=851811522021777783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ43R80Q7Bl0cRd2Gx8RA-0gs.jpg"
       },
       {
         "id": "ChIJa-37ZSLBl0cR3I_R_9qzVVc",
@@ -149,7 +155,8 @@
         "websiteUrl": "http://heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=6293133807496302556&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJa-37ZSLBl0cR3I_R_9qzVVc.jpg"
       },
       {
         "id": "ChIJD-tak6Hrl0cRxhDHoZZwq1A",
@@ -170,7 +177,8 @@
         "websiteUrl": "http://www.burgfeste-dilsberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=5812863536313340102&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJD-tak6Hrl0cRxhDHoZZwq1A.jpg"
       },
       {
         "id": "ChIJaXo3JQbBl0cRRb8RB-qGc2g",
@@ -191,7 +199,8 @@
         "websiteUrl": "https://www.heidelberg.de/hd,Lde/HD/Besuchen/Sehenswertes.html",
         "googleMapsUrl": "https://maps.google.com/?cid=7526507741965303621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJaXo3JQbBl0cRRb8RB-qGc2g.jpg"
       },
       {
         "id": "ChIJ03rbZ-Cjl0cRu4joFAQJQVE",
@@ -212,7 +221,8 @@
         "websiteUrl": "http://www.schloss-bruchsal.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=5854970903693658299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ03rbZ-Cjl0cRu4joFAQJQVE.png"
       },
       {
         "id": "ChIJDaSnAvHHl0cROkcQ6XJPgmQ",
@@ -233,7 +243,8 @@
         "websiteUrl": "https://www.schloss-schwetzingen.de/erlebnis-schloss-garten/garten/anlage/gartenmoschee",
         "googleMapsUrl": "https://maps.google.com/?cid=7242438505720203066&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJDaSnAvHHl0cROkcQ6XJPgmQ.jpg"
       },
       {
         "id": "ChIJGRJhqB_Bl0cR75LyXUO0vNU",
@@ -254,7 +265,8 @@
         "websiteUrl": "http://koerperwelten.de/heidelberg",
         "googleMapsUrl": "https://maps.google.com/?cid=15401383027132240623&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJGRJhqB_Bl0cR75LyXUO0vNU.jpg"
       },
       {
         "id": "ChIJF--tUwbBl0cR0h6eRKR1UF4",
@@ -275,7 +287,8 @@
         "websiteUrl": "https://heiliggeist-heidelberg.de/besuch/",
         "googleMapsUrl": "https://maps.google.com/?cid=6796061186088378066&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJF--tUwbBl0cR0h6eRKR1UF4.jpg"
       },
       {
         "id": "ChIJNd8c9wTBl0cRKLXkSJOLVs8",
@@ -296,7 +309,8 @@
         "websiteUrl": "https://www.museum-heidelberg.de/Museum-Heidelberg/besuch.html",
         "googleMapsUrl": "https://maps.google.com/?cid=14940282278547600680&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJNd8c9wTBl0cRKLXkSJOLVs8.jpg"
       },
       {
         "id": "ChIJS09XIPDBl0cRC-UW5N12K6M",
@@ -317,7 +331,8 @@
         "websiteUrl": "https://www.heidelberg.de/hd/HD/Besuchen.html",
         "googleMapsUrl": "https://maps.google.com/?cid=11757621947567367435&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJS09XIPDBl0cRC-UW5N12K6M.jpg"
       },
       {
         "id": "ChIJJyaJ3izBl0cR0NnNzC7cP8k",
@@ -338,7 +353,8 @@
         "websiteUrl": "https://www.zoo-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=14501551418718935504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJJyaJ3izBl0cR0NnNzC7cP8k.jpg"
       },
       {
         "id": "ChIJNcI1F2NwvUcRWAUxE4Pr2Dw",
@@ -359,7 +375,8 @@
         "websiteUrl": "https://lbih.hessen.de/presse/burg-frankenstein-geht-ab-2024-in-eine-nutzungspause",
         "googleMapsUrl": "https://maps.google.com/?cid=4384513185440400728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJNcI1F2NwvUcRWAUxE4Pr2Dw.jpg"
       },
       {
         "id": "ChIJXXRLuUzAl0cRywakKW18x00",
@@ -380,7 +397,8 @@
         "websiteUrl": "https://maerchen-paradies.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=5604585069577766603&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJXXRLuUzAl0cRywakKW18x00.jpg"
       },
       {
         "id": "ChIJ8aYMUxnBl0cR7uzSQhhzrYs",
@@ -401,7 +419,8 @@
         "websiteUrl": "http://heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10064827290280455406&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ8aYMUxnBl0cR7uzSQhhzrYs.jpg"
       },
       {
         "id": "ChIJ1cNXggbBl0cRo3VpfOSBB-k",
@@ -422,7 +441,8 @@
         "websiteUrl": "https://www.uni-heidelberg.de/de/einrichtungen/museen-und-sammlungen/studentenkarzer",
         "googleMapsUrl": "https://maps.google.com/?cid=16791532554013996451&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ1cNXggbBl0cRo3VpfOSBB-k.jpg"
       },
       {
         "id": "ChIJA-iuB-jFl0cRgs7gjS0_pKM",
@@ -442,7 +462,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA-iuB-jFl0cRgs7gjS0_pKM/photos/AcnlKN1CQGHTZUsrq1VF-4pMWGIW-1wdyYLTQwDqSd3A3Ymvj31CuH7vbFqHwbVFkGzGg4D_xRgJQwHZsFO-V_IqEj2aq_lZDHBUffeZThtsZqa2-gYbHX9qxhky3swywD5BlbBpebZI1p31wnOQViQo0obgTz0xiBnjklkUPCqWd7wVvZizlOyjB6JDn8LxmMg0iUSaYP3r1HP0Bl2Ys-fS1uA5hzZmJyZKwQTUtlB6yPoe22H1HOJZWgBJd9Zu1V-3kTC7ZrbErYnKzkWZ0X_Ifp8lnExzUr-GVHCJfo5Iiukb_Dfa4nnOBtw37f9kBUHfBXA7DhkUMavnoc7tqYKwJSNBL2TrARdgYBwFoKmlG1BeMQ0U9WMCD2KFV6PPQzY70UBpadJ9lqv0ExlauVEr6xO0Y75nE_GsqG9Yrra0qd2OHAudJhIUZA5H86BvFw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11791619189249199746&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJA-iuB-jFl0cRgs7gjS0_pKM.jpg"
       },
       {
         "id": "ChIJLSKH0UDBl0cRI_RewdSJUgc",
@@ -463,7 +484,8 @@
         "websiteUrl": "http://www.tiefburg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=527635653226066979&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJLSKH0UDBl0cRI_RewdSJUgc.jpg"
       },
       {
         "id": "ChIJD9lkaAbBl0cRCWv_oXv7nZY",
@@ -484,7 +506,8 @@
         "websiteUrl": "http://www.ebert-gedenkstaette.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10853107185450183433&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJD9lkaAbBl0cRCWv_oXv7nZY.jpg"
       },
       {
         "id": "ChIJ0bBL1rfBl0cRAFeqeVUG5nM",
@@ -504,7 +527,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0bBL1rfBl0cRAFeqeVUG5nM/photos/AcnlKN2els-HCg7mw6FcDQMwaua01MX5-gGoOh9U2kVUF2ubGwnZ_po1ChYhaU89okZJf12StL35_imYc_cpnMP5-DjODIaTpQcOcZBDK-sAa_GSrQehg7rXTx21C-_xGdTTEWsDPXLqjIwERfq5Nf6jlPPeDIDiJ_F_amEVdXh6B10EDgKiT2lUQewLJMDwM4JriAw11BZCZMbK0oofLQ28JHZw_feY227PkQoBESXNSoVT7sPEanhqhAKmEhPrgQFyFZXiml_D7uZOZH0fMP4kGASC5uJ5BZiJt0NWFiGjGLLd0EpnJtypD3z_mu-5LcD8xxC5R6V2LKDlIc2p4Mb8glGDNnyHFD9Kcb276hSe0_1NY272Ar0qdvgd0OM3glmqE_hm190zdn9dH2OM2oMgfaUiNxAm75Q0CvBazmh3scERWORr/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8351369523188356864&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ0bBL1rfBl0cRAFeqeVUG5nM.jpg"
       },
       {
         "id": "ChIJZSi8yKnBl0cRVT90MKgp8CQ",
@@ -524,7 +548,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJZSi8yKnBl0cRVT90MKgp8CQ/photos/AcnlKN0mOrW1vajTI6mW8A2HCLQiL_q113VJq2MOovApj675HXH6wFOtmONxjbuQ7p9_NmXPMfW6Sl-PbUkSL0T5mwQMaqchTkDSwAbH5C3b3M_EJnBbLfjZDhWPcWTF95YahVDO60QmpPHCRpyq4uayIANk4E1qh_pBH_G4oOjt6bjHIDLJRc721YjHD_Oeg5wDH7i7jgjPtu7mVNmuM966T0z96wDBVeZnq0mZ1L_z3KiKtxzUe2maXh9ZtgpVK8LD9DBN7-FIAr5TwKJe6-HNlkXsVEJ2938zN_V0zd8P9ryWwwb5ckPXiChrQgmNze-QtP77qQ-FKsXlFapL3UaIJeHDw3e9zeHnWARMUFUJeWrkYvJpYIBr_t6hrNGc-CSvKcqz8-L-nBtMQ4uy1-qs1dfbilaTQPqv5VaXQkjY3qH00A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2661673182120132437&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJZSi8yKnBl0cRVT90MKgp8CQ.jpg"
       },
       {
         "id": "ChIJld2PrrvBl0cRtAltmLTz7a8",
@@ -545,7 +570,8 @@
         "websiteUrl": "http://www.carl-bosch-museum.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=12677056483094759860&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJld2PrrvBl0cRtAltmLTz7a8.jpg"
       },
       {
         "id": "ChIJERwOMB_Bl0cRFpJn310s8MU",
@@ -566,7 +592,8 @@
         "websiteUrl": "http://www.sammlung-prinzhorn.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=14262948801574048278&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJERwOMB_Bl0cRFpJn310s8MU.jpg"
       },
       {
         "id": "ChIJX7THO6bBl0cRMOk5L921kqk",
@@ -586,7 +613,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJX7THO6bBl0cRMOk5L921kqk/photos/AcnlKN0eAeXXd2ICueMQmEeJ3wBFCJJz_Hq_dqUSsxN45JBULjyXvjXQLHHEXoWC-TnI_92qDpRwDvGDjTaeTSIZlWUxXq-QuoACGzFFLwDkj4m67fePEKUxXlBurQu4do61KUmC5BrLCXjmpnkM8YfzxtGW7LpjMgvEKD1UqvNWSP-pNoX9cZEO7wqzEDIHITVY6k1ILRv0foVfWS0vbgClKmK_ypMJJSpiJk3jqpmeQ8cX4Honcfh-fvHfDCkAvIdyLcrFr-O67MsyCVXKHZ_XcE_xOYU6SRWFz4iqAdYGLaq8gZUzvy5XKsnXBNGZ2c_JL7DVRqNOj7PisFObC65qygW6toadIj0o202GCUcB0c18VqqdnxODEucyj2jvcZmieIFf4_64cmbqRUzHDa-T6Xa9cp7N2ohr6FMXKNK5D5QxnA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12219028700594301232&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:07.997Z",
-        "updatedAt": "2026-01-23T15:34:07.997Z"
+        "updatedAt": "2026-01-23T15:34:07.997Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJX7THO6bBl0cRMOk5L921kqk.jpg"
       }
     ],
     "foodie": [
@@ -610,7 +638,8 @@
         "websiteUrl": "https://heids-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=4755254982667487551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:09.128Z",
-        "updatedAt": "2026-01-23T15:34:09.128Z"
+        "updatedAt": "2026-01-23T15:34:09.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJj5GQ0drAl0cRP0lNWjYP_kE.jpg"
       },
       {
         "id": "ChIJwwWEFVXBl0cR6JUzgPTpC2A",
@@ -631,7 +660,8 @@
         "websiteUrl": "https://akams-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=6920882488717055464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:09.128Z",
-        "updatedAt": "2026-01-23T15:34:09.128Z"
+        "updatedAt": "2026-01-23T15:34:09.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJwwWEFVXBl0cR6JUzgPTpC2A.jpg"
       },
       {
         "id": "ChIJfQCC7wTBl0cRYPgSxohaL58",
@@ -653,7 +683,8 @@
         "websiteUrl": "https://www.schnitzelbank-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=11470486319421126752&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.128Z",
-        "updatedAt": "2026-01-23T15:34:09.128Z"
+        "updatedAt": "2026-01-23T15:34:09.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJfQCC7wTBl0cRYPgSxohaL58.jpg"
       },
       {
         "id": "ChIJsf6NrgTBl0cRgbpo2jgb0TY",
@@ -675,7 +706,8 @@
         "websiteUrl": "https://minramenbar.website/",
         "googleMapsUrl": "https://maps.google.com/?cid=3949968279177050753&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.128Z",
-        "updatedAt": "2026-01-23T15:34:09.128Z"
+        "updatedAt": "2026-01-23T15:34:09.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJsf6NrgTBl0cRgbpo2jgb0TY.jpg"
       },
       {
         "id": "ChIJQx2saLu3l0cRtMWqLns3YFU",
@@ -697,7 +729,8 @@
         "websiteUrl": "http://www.johanneshof.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=6151978093191546292&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.128Z",
-        "updatedAt": "2026-01-23T15:34:09.128Z"
+        "updatedAt": "2026-01-23T15:34:09.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJQx2saLu3l0cRtMWqLns3YFU.jpg"
       },
       {
         "id": "ChIJ39nTSwbBl0cRXRiKZqByNfk",
@@ -719,7 +752,8 @@
         "websiteUrl": "http://www.brauhaus-vetter.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=17957385122450380893&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.128Z",
-        "updatedAt": "2026-01-23T15:34:09.128Z"
+        "updatedAt": "2026-01-23T15:34:09.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ39nTSwbBl0cRXRiKZqByNfk.jpg"
       },
       {
         "id": "ChIJDap7jy7Bl0cR-z_YVourAEI",
@@ -741,7 +775,8 @@
         "websiteUrl": "http://simonandbearns.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=4755989821449060347&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.128Z",
-        "updatedAt": "2026-01-23T15:34:09.128Z"
+        "updatedAt": "2026-01-23T15:34:09.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJDap7jy7Bl0cR-z_YVourAEI.jpg"
       },
       {
         "id": "ChIJ62WSeRvBl0cR38yN-QauZQA",
@@ -763,7 +798,8 @@
         "websiteUrl": "https://www.nomad-heidelberg.de/standorte/nomad-handschuhsheim",
         "googleMapsUrl": "https://maps.google.com/?cid=28620317627632863&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.128Z",
-        "updatedAt": "2026-01-23T15:34:09.128Z"
+        "updatedAt": "2026-01-23T15:34:09.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ62WSeRvBl0cR38yN-QauZQA.jpg"
       },
       {
         "id": "ChIJpdhaoNbOl0cRLehJxgWa0a0",
@@ -784,7 +820,8 @@
         "websiteUrl": "https://saparena.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=12524961388286306349&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJpdhaoNbOl0cRLehJxgWa0a0.jpg"
       },
       {
         "id": "ChIJi_e2O-LAl0cRQnX8yBwA7DU",
@@ -806,7 +843,8 @@
         "websiteUrl": "http://www.nomad-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=3885480702144968002&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJi_e2O-LAl0cRQnX8yBwA7DU.jpg"
       },
       {
         "id": "ChIJ1xw_o2PBl0cRrnad1bNPf_A",
@@ -828,7 +866,8 @@
         "websiteUrl": "https://zeitfuerbrot.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17329657524946564782&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ1xw_o2PBl0cRrnad1bNPf_A.jpg"
       },
       {
         "id": "ChIJFwBSox_Bl0cRlQIKdFLZN3Y",
@@ -850,7 +889,8 @@
         "websiteUrl": "http://www.urban-kitchen-heidelberg.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8518516168351941269&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJFwBSox_Bl0cRlQIKdFLZN3Y.jpg"
       },
       {
         "id": "ChIJdR6IQxvBl0cR77DWTXVnCj4",
@@ -872,7 +912,8 @@
         "websiteUrl": "https://cafe-extrablatt.de/standorte/details/cafe-extrablatt-heidelberg",
         "googleMapsUrl": "https://maps.google.com/?cid=4470499333633388783&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJdR6IQxvBl0cR77DWTXVnCj4.jpg"
       },
       {
         "id": "ChIJqeBY2YbBl0cRqHsUCR0cfDE",
@@ -894,7 +935,8 @@
         "websiteUrl": "http://www.meiksbrunchandbar.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=3565755916002556840&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJqeBY2YbBl0cRqHsUCR0cfDE.jpg"
       },
       {
         "id": "ChIJd5_rrRjBl0cRd72y4xUPTxE",
@@ -915,7 +957,8 @@
         "websiteUrl": "https://www.thedjngl.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1247232208493788535&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJd5_rrRjBl0cRd72y4xUPTxE.jpg"
       },
       {
         "id": "ChIJ5cmeGX7Bl0cRixJ2WN1e7PA",
@@ -936,7 +979,8 @@
         "websiteUrl": "https://taifs.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=17360354968371335819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ5cmeGX7Bl0cRixJ2WN1e7PA.jpg"
       },
       {
         "id": "ChIJAc17MuHBl0cR4fTnWOyHqoQ",
@@ -957,7 +1001,8 @@
         "websiteUrl": "http://www.mary-jane.space/",
         "googleMapsUrl": "https://maps.google.com/?cid=9559602608220927201&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJAc17MuHBl0cR4fTnWOyHqoQ.jpg"
       },
       {
         "id": "ChIJj7f10K3Bl0cRdyiP-jXtewo",
@@ -978,7 +1023,8 @@
         "websiteUrl": "https://www.instagram.com/annoir_heidelberg?igsh=MWc0b3N2bWY4ZHI3eA==",
         "googleMapsUrl": "https://maps.google.com/?cid=755458178607425655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJj7f10K3Bl0cRdyiP-jXtewo.jpg"
       },
       {
         "id": "ChIJDd4VQxLBl0cRugz1cjYJfnM",
@@ -999,7 +1045,8 @@
         "websiteUrl": "https://www.15high-heidelberg.de/?utm_source=google&utm_medium=organic&utm_campaign=business-profil",
         "googleMapsUrl": "https://maps.google.com/?cid=8322099290888801466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJDd4VQxLBl0cRugz1cjYJfnM.jpg"
       },
       {
         "id": "ChIJzUtxGgDBl0cRP7b7EZvMJ2E",
@@ -1020,7 +1067,8 @@
         "websiteUrl": "https://www.instagram.com/kitchen_n5_heidelberg/",
         "googleMapsUrl": "https://maps.google.com/?cid=7000789112164431423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJzUtxGgDBl0cRP7b7EZvMJ2E.jpg"
       },
       {
         "id": "ChIJDUYpN_DBl0cRGA8fGzzCKEA",
@@ -1041,7 +1089,8 @@
         "websiteUrl": "https://www.elvishinn.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=4623158580904660760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:09.129Z",
-        "updatedAt": "2026-01-23T15:34:09.129Z"
+        "updatedAt": "2026-01-23T15:34:09.129Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJDUYpN_DBl0cRGA8fGzzCKEA.jpg"
       }
     ],
     "adventure": [
@@ -1064,7 +1113,8 @@
         "websiteUrl": "https://www.adventurebox-karlsruhe.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10886533326167598424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJCckV1_kGl0cRWOWrfWG8FJc.png"
       },
       {
         "id": "ChIJp2fAOg3Bl0cRCtb30IWqKjs",
@@ -1084,7 +1134,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJp2fAOg3Bl0cRCtb30IWqKjs/photos/AcnlKN1O9HoIND8_P5AhyBu89VmDLxu6PUpwlBgPNBXfbzR618a9S7XCt-SFjbRJf9o9sqXwCgijtG167Q55UfxF6QHaJ-Y-FOYUK5hLpwYIzzf78SPqs715KuRHHNMrf3OEgQhbvMkxCPdiw0Dbn69QQStEsZBH6K7Ldgy0G7PNETg4Jb6tr-lHtXFia5VYleVdPZWaMdRGUcYigow8A47ziHAWvF2of67_ZkZlsE1iNDonyXqtU-ypPaUYrFoE4FsajLmjE_z4S_jtU1osfDCmqbcsp473W51yvdq7Cknkd_c8ulZw16QwvrEOxKXA_3sRLgabnZQCpsfBpei4BFaPnjL7soWaXBg7-ygV2iSRd1fcBjSuulRzmbsosb27OG6Hp6t7RypY2AvQCDMZSn-oD2zYpisA5xOjoMUaJSIeWEEqwp--2MdycIoI3BhHyQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4263407488972871178&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJp2fAOg3Bl0cRCtb30IWqKjs.jpg"
       },
       {
         "id": "ChIJj1nFAxDBl0cRYKjuHeh30MA",
@@ -1104,7 +1155,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj1nFAxDBl0cRYKjuHeh30MA/photos/AcnlKN3HnuWjqp9cUaS5OKwZD4veH0caqA7YpyiuydFMc-u-aw1nMWpR27AYlBVwhWONINaizDawMvNjzJ4T_-qQgdY2u2JlJozg7ZFpznp83W-G1mSM8OvpjJ-HTm24ycNBVSvmB2haQ-4Iub0coAnOhtBgkOgxf2v--bZK2QtMzfc0lPQedqYI9uYMazBo5PsRe9zd9lfvSy-_OIa6WHh4xtVE1YA7OPwEmKw9i5EBinGb3_0TlWzyW0G2Lp7b4bDH5d2G2Mc4Ts2NJn5BxnZJ4OQa2ob-dshCgzaELuIHVNO798eMSBpYdxBSywBXDMLQzIeHccNQCtiRISBqb0j2Wsw7z-bnhjP6mO9dDWogZeYdflz37yEteN0h3k1Cwwx64hngllVQ-moMh4YTIhM65DGxtQ7BJEQxSW-_4dluXTU34w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13893736689256278112&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJj1nFAxDBl0cRYKjuHeh30MA.jpg"
       },
       {
         "id": "ChIJa-37ZSLBl0cR3I_R_9qzVVc",
@@ -1125,7 +1177,8 @@
         "websiteUrl": "http://heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=6293133807496302556&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJa-37ZSLBl0cR3I_R_9qzVVc.jpg"
       },
       {
         "id": "ChIJtfgketm3l0cRDHwzFk2NrtU",
@@ -1146,7 +1199,8 @@
         "websiteUrl": "http://www.rheininsel-ketsch.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=15397399538250775564&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJtfgketm3l0cRDHwzFk2NrtU.jpg"
       },
       {
         "id": "ChIJT0GIv0HCl0cRQerAICLt3rs",
@@ -1167,7 +1221,8 @@
         "websiteUrl": "http://www.teltschik.de/Teltschikturm/",
         "googleMapsUrl": "https://maps.google.com/?cid=13537518260756474433&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJT0GIv0HCl0cRQerAICLt3rs.jpg"
       },
       {
         "id": "ChIJTRuf_My-l0cRzGsdu9DObpY",
@@ -1188,7 +1243,8 @@
         "websiteUrl": "http://www.tierpark-walldorf.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10839828749015149516&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJTRuf_My-l0cRzGsdu9DObpY.jpg"
       },
       {
         "id": "ChIJJyaJ3izBl0cR0NnNzC7cP8k",
@@ -1209,7 +1265,8 @@
         "websiteUrl": "https://www.zoo-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=14501551418718935504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJJyaJ3izBl0cR0NnNzC7cP8k.jpg"
       },
       {
         "id": "ChIJXXRLuUzAl0cRywakKW18x00",
@@ -1230,7 +1287,8 @@
         "websiteUrl": "https://maerchen-paradies.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=5604585069577766603&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJXXRLuUzAl0cRywakKW18x00.jpg"
       },
       {
         "id": "ChIJRW6t88PFl0cRPpesX7oRhXw",
@@ -1251,7 +1309,8 @@
         "websiteUrl": "https://www.ladenburg.de/touristik-kultur/gruenanlagen-parks/",
         "googleMapsUrl": "https://maps.google.com/?cid=8972597324772316990&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJRW6t88PFl0cRPpesX7oRhXw.jpg"
       },
       {
         "id": "ChIJ8aYMUxnBl0cR7uzSQhhzrYs",
@@ -1272,7 +1331,8 @@
         "websiteUrl": "http://heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10064827290280455406&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ8aYMUxnBl0cR7uzSQhhzrYs.jpg"
       },
       {
         "id": "ChIJCzYaTxyXvUcRsjv1z64qMUc",
@@ -1293,7 +1353,8 @@
         "websiteUrl": "https://www.apacampa.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=5129928380853337010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJCzYaTxyXvUcRsjv1z64qMUc.jpg"
       },
       {
         "id": "ChIJwU6TNcXcmUcR8vsCLnW9Wc0",
@@ -1314,7 +1375,8 @@
         "websiteUrl": "https://www.survival-stuttgart.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=14797066361683246066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJwU6TNcXcmUcR8vsCLnW9Wc0.jpg"
       },
       {
         "id": "ChIJaybF35tIlkcR_a0VoYR3PW8",
@@ -1335,7 +1397,8 @@
         "websiteUrl": "http://www.land-water-adventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8015694323311291901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJaybF35tIlkcR_a0VoYR3PW8.jpg"
       },
       {
         "id": "ChIJUc4m9i6Ul0cR14cjmmCdxeE",
@@ -1356,7 +1419,8 @@
         "websiteUrl": "https://www.abenteuer-am-leimbach.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=16268582267174225879&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJUc4m9i6Ul0cR14cjmmCdxeE.jpg"
       },
       {
         "id": "ChIJ9yNGHKSnl0cRpBnAU1hQpsc",
@@ -1377,7 +1441,8 @@
         "websiteUrl": "https://www.geheimniskram.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=14386274399974070692&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ9yNGHKSnl0cRpBnAU1hQpsc.jpg"
       },
       {
         "id": "ChIJDfbTV-jPl0cREscT6M7bOdo",
@@ -1398,7 +1463,8 @@
         "websiteUrl": "http://www.trekk-n-guide.eu/",
         "googleMapsUrl": "https://maps.google.com/?cid=15724841255644153618&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJDfbTV-jPl0cREscT6M7bOdo.jpg"
       },
       {
         "id": "ChIJeefNfrLBl0cRVpjdBNbVxpc",
@@ -1419,7 +1485,8 @@
         "websiteUrl": "https://www.facebook.com/HimmelsleiterHD",
         "googleMapsUrl": "https://maps.google.com/?cid=10936663860297177174&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJeefNfrLBl0cRVpjdBNbVxpc.jpg"
       },
       {
         "id": "ChIJY45AtW2-l0cR-PgI4oytvag",
@@ -1440,7 +1507,8 @@
         "websiteUrl": "http://www.feuersalamander-outdoor.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=12159065389569472760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJY45AtW2-l0cR-PgI4oytvag.jpg"
       },
       {
         "id": "ChIJA3c53Py4l0cRGMTEP437QMk",
@@ -1460,7 +1528,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA3c53Py4l0cRGMTEP437QMk/photos/AcnlKN14GydWxuoMXapJo5gYc78hpd-8Qjw2PIrVSEQHgCUPshgP2xfqr6mVgIEsNrrZwRW9p_J_nMPkanLGvmgMhHHPtah_4ecplIujKSsUt_uBW1L8N-ffe910O8gqJD4HjEGobsaHiLtCnPqeASjo0OhRmE-FgkPFdxNc5On2HkdcF1zU5DcxXrcSMkraLPP5AALk-cgobWa2NBEanR--Ad_hxNzpM6SM0f9JB7Ht-s5Gw3Rr9TQbMbemNikRyay6ULqwpKEwwch3DPg6s50Wkbucz9FqWqs2BZVges5mNoTljQpAyWUTIJfVgos3nZk2UlTP_xJ9S0hAW4HkZGb3tYTuko1njPaQdAkyI6UV4YdPPP_We_kleN_n2x9EyJU0XQuS175jyR70P3JFHmcT4mv08-WxupdcFUQVTb6r3Qc9W5i1/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14501867384211817496&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJA3c53Py4l0cRGMTEP437QMk.jpg"
       },
       {
         "id": "ChIJsXNdWACVl0cRmLz9mS7Ch8Q",
@@ -1481,7 +1550,8 @@
         "websiteUrl": "https://team.abenteuer-am-leimbach.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=14161501058697641112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJsXNdWACVl0cRmLz9mS7Ch8Q.jpg"
       },
       {
         "id": "ChIJmUJgHrKVl0cRVXPzVDi6ZJY",
@@ -1501,7 +1571,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmUJgHrKVl0cRVXPzVDi6ZJY/photos/AcnlKN0wcLth0rPrB79W5xboJof-8kFDhycRCp5U_7p1L7o6YwCtg1bE-17yfPC5EPNUfi8PjWbc2tsdx8nipKZTIzKlq374LZ17QFlodAfB-DVqM73LMTQngYiM836m6_shpuKedC1EsyUB9ONH3NTwwUOJSY9kW1y-ISpSZrxZYbghBL4KStN_llg4VzmGkXmMYORS5F-YT196UVcMQ6Nq5OaNDOXW6OAux9hsHznSlZTUTbpY5s-QWOQ9Vs_PmgGfamCnmJNS0e2wrKyddbAuQPAx779VarVQtTBBAgEf7Z6CWs3LubkWQBSoJapF_YpwTh99VetdYpGBwumim7M5V2wyq6XjK1XCcwK5UTFbM4d2TbgZRO_ukVN4pCubwA2H5ES7d81X46Hg3dGunAUUQx79NVZcGaJHuIC25SCy6jeXjQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10836991354466431829&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJmUJgHrKVl0cRVXPzVDi6ZJY.jpg"
       },
       {
         "id": "ChIJO9SPJJbIl0cR-BkJu7FaYoo",
@@ -1522,7 +1593,8 @@
         "websiteUrl": "https://www.visit-mannheim.de/Media/attraktionen/rheinauer-wald",
         "googleMapsUrl": "https://maps.google.com/?cid=9971632244345346552&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJO9SPJJbIl0cR-BkJu7FaYoo.jpg"
       },
       {
         "id": "ChIJu-sHZAXFl0cRXO0kWJVe_6o",
@@ -1542,7 +1614,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJu-sHZAXFl0cRXO0kWJVe_6o/photos/AcnlKN3K2YKKPtKM8xcV_Z0sJlTwwtYn0LndHGL7R3C_DHWtKtW_MhbLZzM9109ipHpgVOZFV4ZBv5iz87pqs5TBrQUQTPi3Nixg-UGn12qwvghWp9U1-HsTgSLBrH9jkHTpPMvMTd3-tZ8pqycC-8Guh9dnGxw1mK7lFVq0HEcnJ8HcKbdSbgKPExP7ZEc2_xZHpyrjqPy9HYns_QhpeSBJigG0WHR3kd0PwrszVi86bHW6UTQ8XCNwXUD_QtMLt6lgEtay5rTVi09ZJtG0YQuVAB-88SxyvnMxxN9tuoOC5uOf37SXGULjaDZcKRu41RwbLP9tGHXfcW-03wHgyashzsvRnlPxEGuoY-ovm1ghwqR3tJEAULil3NiqNG9FVqpmmmU8A3pZcGSWLmorp23ipU4Hg_h-Ocq_2zQiLotuxz5Yu_wU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12321671101030919516&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJu-sHZAXFl0cRXO0kWJVe_6o.jpg"
       },
       {
         "id": "ChIJheu2347Bl0cR-xAR8ikr1MA",
@@ -1562,7 +1635,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJheu2347Bl0cR-xAR8ikr1MA/photos/AcnlKN1C9XlEnMcZnrhwOFbfZrlQysYjyZPK3huOViCGKt8LcEA7Bzj4ialLH_ltkbq2egeBj3hjcmcygdZnjI18VFcKI8UDxvACygLRKeM7xwCcpwzWiEPZlcYXoiVPaXLjhpeCSBVmwhlZeNEeK2u4D4C7I5__HkqIb6gBJJL3ZVl0sLuTmYywI88pNhA9eIAttLDzCraIbfZq_e1w6KNgQjMzwPfyDlyoH7b07VTKorxsUo2hIpDPAN9ssWiEdmrL8mKrE8iHztwrvsBnYxfo_C8c_JqoIJpxYoQcHs72Dy8VBI5TW2qEC_jWwq8ow8GulOAYxx7m2aa3OAJAUnz5-5lw8NoOwluqIw5PNGePPTvuNHwrpX9LJsJV8oA2yFfthi4i_Vk3S_nVGOKl22YusAtppXFpRQBNQbky7vFcx2xkYEv_RRLVl21K8r2d1qPW/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13894778209499681019&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJheu2347Bl0cR-xAR8ikr1MA.jpg"
       },
       {
         "id": "ChIJHwEoXczBl0cRcLA7wsUeNaI",
@@ -1583,7 +1657,8 @@
         "websiteUrl": "https://www.felsenmeer-odenwald.de/heidelberg/",
         "googleMapsUrl": "https://maps.google.com/?cid=11688282242626072688&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJHwEoXczBl0cRcLA7wsUeNaI.jpg"
       },
       {
         "id": "ChIJJ2T37_C_l0cRekwI9V7B6gQ",
@@ -1604,7 +1679,8 @@
         "websiteUrl": "https://www.leimen-legt-los.de/Leimener-Wichtelpfad/",
         "googleMapsUrl": "https://maps.google.com/?cid=354308134284053626&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJJ2T37_C_l0cRekwI9V7B6gQ.jpg"
       },
       {
         "id": "ChIJPzuyWwDBl0cRik5D2JkvSWI",
@@ -1624,7 +1700,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPzuyWwDBl0cRik5D2JkvSWI/photos/AcnlKN0y8VdNez3PfyBZJatZudGvH9sK6ddK_MSj2U2j3dqRj7zD_udCznnsOrNV2KYAQ11VwwJ4SlRiHNnVLrDk5P-yKIlNJS5ijLtThiI_kZE_0RECnh1UpFYaJnawD0YxLUN0QOJK5oK7ERG1QrLVeLpm9TxBp-hOfQW_AH-zZVC6ZXjE4JdK90LJndYbWbh8s7o0xzqHOO1Hvgm2B9ZFeHyy1Lol65MYQeePJah66gP3L5glxv0pcUr_QzgYpYIXvHRUp2Ppp9udTpzIZarjslWhJU2wVVWuVLMb04rtNFnT1xj8ufttlY9FT7YNNJ_qU9-Tr-T7mB9EuWLiug9GsGW1jMT6aPBfELGDkvLtvOyQ9djYL3XmV9oOMcjEysYkRGhvJyH1YrUgsy_M7vTUafRiEeCvj7g89UINoyhsrFqEZIDuUFD63qW584xaCmv8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7082244226821607050&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJPzuyWwDBl0cRik5D2JkvSWI.jpg"
       },
       {
         "id": "ChIJFc5qleu_l0cRBtoL3Sld9v4",
@@ -1644,7 +1721,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFc5qleu_l0cRBtoL3Sld9v4/photos/AcnlKN25lnNXQ7Gf48bw0vcRwfLldqqhCMFt2V5PWcgk0kKHt2nuHAk0uLouLGhw9UnDh-R52zYY2yn17P0V_5_kzdg-bnowt2yy0uosVMgd6Wsc9CAvN6vBo5zzUSFFS7jTlWIJyYivBD24ZJNKy486oDb4OAp7XYBJTjfvOjTXvTbvAmIhDBQZccJE3qA4JkGGJxk3eBd9vIe1DPrDFHRliQa1VpcjXmG0mYpoKobJ7JfGGxRtJIic7laeggirBCZC5i34yYvqD4kdXzQf6nQmn-14LAA8CNrcrOxcVbNQwp7dNTq0Y697OIeD5N6o3WNglK8y5vS4dt0GG8QXOKxb59nNoLMtAnTFsGgwxLAKjMFLgbafRPYFIJnCWKsZbgWvBIt7Ibf37FnKUGfQwtpHcyQ4iFPYCwOD4OS5Y4GPLd3hCr9T/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18371974164288100870&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:10.243Z",
-        "updatedAt": "2026-01-23T15:34:10.243Z"
+        "updatedAt": "2026-01-23T15:34:10.243Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJFc5qleu_l0cRBtoL3Sld9v4.jpg"
       }
     ],
     "cultural": [
@@ -1667,7 +1745,8 @@
         "websiteUrl": "https://www.schloss-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=7883320483438493418&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJk9tDygDBl0cR6n7pSTYuZ20.jpg"
       },
       {
         "id": "ChIJOShkrpTFl0cRpS1o2zBTfpU",
@@ -1688,7 +1767,8 @@
         "websiteUrl": "http://www.automuseum-ladenburg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10772138828021378469&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJOShkrpTFl0cRpS1o2zBTfpU.jpg"
       },
       {
         "id": "ChIJ2Tqbq6nBl0cRioEV_U-J3Yc",
@@ -1709,7 +1789,8 @@
         "websiteUrl": "http://www.deutsches-apotheken-museum.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=9790132141614793098&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ2Tqbq6nBl0cRioEV_U-J3Yc.jpg"
       },
       {
         "id": "ChIJGRJhqB_Bl0cR75LyXUO0vNU",
@@ -1730,7 +1811,8 @@
         "websiteUrl": "http://koerperwelten.de/heidelberg",
         "googleMapsUrl": "https://maps.google.com/?cid=15401383027132240623&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJGRJhqB_Bl0cR75LyXUO0vNU.jpg"
       },
       {
         "id": "ChIJ_YolJabBl0cRs3HR8tWI8ag",
@@ -1751,7 +1833,8 @@
         "websiteUrl": "http://www.karlstorbahnhof.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=12173661720242385331&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ_YolJabBl0cRs3HR8tWI8ag.jpg"
       },
       {
         "id": "ChIJNd8c9wTBl0cRKLXkSJOLVs8",
@@ -1772,7 +1855,8 @@
         "websiteUrl": "https://www.museum-heidelberg.de/Museum-Heidelberg/besuch.html",
         "googleMapsUrl": "https://maps.google.com/?cid=14940282278547600680&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJNd8c9wTBl0cRKLXkSJOLVs8.jpg"
       },
       {
         "id": "ChIJIVgiA9jAl0cRJ78cLRA2t7E",
@@ -1793,7 +1877,8 @@
         "websiteUrl": "http://www.theaterheidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=12805763508555530023&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJIVgiA9jAl0cRJ78cLRA2t7E.jpg"
       },
       {
         "id": "ChIJ1cNXggbBl0cRo3VpfOSBB-k",
@@ -1814,7 +1899,8 @@
         "websiteUrl": "https://www.uni-heidelberg.de/de/einrichtungen/museen-und-sammlungen/studentenkarzer",
         "googleMapsUrl": "https://maps.google.com/?cid=16791532554013996451&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ1cNXggbBl0cRo3VpfOSBB-k.jpg"
       },
       {
         "id": "ChIJKyL3pgfBl0cRd89YUPddgK4",
@@ -1835,7 +1921,8 @@
         "websiteUrl": "http://werkstaat-design.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12574153476404727671&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJKyL3pgfBl0cRd89YUPddgK4.jpg"
       },
       {
         "id": "ChIJNccMpyfMl0cRFUH6S4T4uwQ",
@@ -1856,7 +1943,8 @@
         "websiteUrl": "http://www.rhein-neckar-theater.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=341139443890667797&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJNccMpyfMl0cRFUH6S4T4uwQ.jpg"
       },
       {
         "id": "ChIJ32Gjdu7Hl0cRs5XwXaq8BN4",
@@ -1877,7 +1965,8 @@
         "websiteUrl": "http://www.schloss-schwetzingen.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=15998119216233354675&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ32Gjdu7Hl0cRs5XwXaq8BN4.jpg"
       },
       {
         "id": "ChIJ0bI4-gbBl0cRVb9PcktamS8",
@@ -1898,7 +1987,8 @@
         "websiteUrl": "https://www.edition-staeck.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=3429871871306219349&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ0bI4-gbBl0cRVb9PcktamS8.jpg"
       },
       {
         "id": "ChIJDXjfaEbBl0cRtFvNlyVjHo0",
@@ -1919,7 +2009,8 @@
         "websiteUrl": "http://www.arabischekultur.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10168674021760916404&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJDXjfaEbBl0cRtFvNlyVjHo0.jpg"
       },
       {
         "id": "ChIJsQIOmLzHl0cRzoVyRYhLzQQ",
@@ -1940,7 +2031,8 @@
         "websiteUrl": "http://www.metropolink-festival.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=346015795030164942&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJsQIOmLzHl0cRzoVyRYhLzQQ.jpg"
       },
       {
         "id": "ChIJ0VKUihXBl0cR8crVttrm8no",
@@ -1961,7 +2053,8 @@
         "websiteUrl": "http://www.petrakern.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=8859397244035910385&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ0VKUihXBl0cR8crVttrm8no.jpg"
       },
       {
         "id": "ChIJA13HhxvBl0cR_rrokFSnq7k",
@@ -1982,7 +2075,8 @@
         "websiteUrl": "http://www.galerie-vogel.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=13378971099684453118&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJA13HhxvBl0cR_rrokFSnq7k.png"
       },
       {
         "id": "ChIJne-aZ-qdDEERKgQG5wn6Suk",
@@ -2003,7 +2097,8 @@
         "websiteUrl": "http://www.puppentheater-plappermaul.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=16810523479551378474&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJne-aZ-qdDEERKgQG5wn6Suk.jpg"
       },
       {
         "id": "ChIJAQDk3d_Al0cRWj4tI_H90z4",
@@ -2024,7 +2119,8 @@
         "websiteUrl": "https://gedok-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=4527241262556593754&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJAQDk3d_Al0cRWj4tI_H90z4.jpg"
       },
       {
         "id": "ChIJD9lkaAbBl0cRCWv_oXv7nZY",
@@ -2045,7 +2141,8 @@
         "websiteUrl": "http://www.ebert-gedenkstaette.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10853107185450183433&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJD9lkaAbBl0cRCWv_oXv7nZY.jpg"
       },
       {
         "id": "ChIJTbM-hl7Hl0cRs_2kW7MTnC4",
@@ -2066,7 +2163,8 @@
         "websiteUrl": "http://www.metropolink.art/",
         "googleMapsUrl": "https://maps.google.com/?cid=3358581083169160627&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJTbM-hl7Hl0cRs_2kW7MTnC4.jpg"
       },
       {
         "id": "ChIJcRObW4zHl0cRlt_o0uCfDh8",
@@ -2087,7 +2185,8 @@
         "websiteUrl": "http://www.theater-am-puls.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=2237901852809682838&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJcRObW4zHl0cRlt_o0uCfDh8.jpg"
       },
       {
         "id": "ChIJYU4OWwTBl0cRNshfU5mUvOA",
@@ -2108,7 +2207,8 @@
         "websiteUrl": "https://www.kunstmassnahmen.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=16193981746367154230&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJYU4OWwTBl0cRNshfU5mUvOA.jpg"
       },
       {
         "id": "ChIJld2PrrvBl0cRtAltmLTz7a8",
@@ -2129,7 +2229,8 @@
         "websiteUrl": "http://www.carl-bosch-museum.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=12677056483094759860&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJld2PrrvBl0cRtAltmLTz7a8.jpg"
       },
       {
         "id": "ChIJERwOMB_Bl0cRFpJn310s8MU",
@@ -2150,7 +2251,8 @@
         "websiteUrl": "http://www.sammlung-prinzhorn.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=14262948801574048278&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJERwOMB_Bl0cRFpJn310s8MU.jpg"
       },
       {
         "id": "ChIJrSVubwDBl0cR-2UMiF-_FO4",
@@ -2171,7 +2273,8 @@
         "websiteUrl": "http://www.theaterwerkstatt-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=17155547297586374139&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJrSVubwDBl0cR-2UMiF-_FO4.jpg"
       },
       {
         "id": "ChIJLTocc0bBl0cR353Xgb5OQS0",
@@ -2192,7 +2295,8 @@
         "websiteUrl": "http://www.rohrbacher-kulturhaus.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=3260974185322094047&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJLTocc0bBl0cR353Xgb5OQS0.jpg"
       },
       {
         "id": "ChIJDVxTwQbBl0cRA528d8WEjTk",
@@ -2213,7 +2317,8 @@
         "websiteUrl": "https://www.uni-heidelberg.de/rose/einrichtungen/romankeller/",
         "googleMapsUrl": "https://maps.google.com/?cid=4147116815530368259&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJDVxTwQbBl0cRA528d8WEjTk.jpg"
       },
       {
         "id": "ChIJf2DuEKrImUcR1jKVN1eIqwY",
@@ -2234,7 +2339,8 @@
         "websiteUrl": "https://www.cajeth.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=480627693421146838&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJf2DuEKrImUcR1jKVN1eIqwY.jpg"
       },
       {
         "id": "ChIJUeRV4AbBl0cRGET2CNKxhKE",
@@ -2255,7 +2361,8 @@
         "websiteUrl": "https://www.theaterheidelberg.de/de/service/1563-spielorte/461-zwinger",
         "googleMapsUrl": "https://maps.google.com/?cid=11638622852683809816&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJUeRV4AbBl0cRGET2CNKxhKE.jpg"
       },
       {
         "id": "ChIJq2mJDajBl0cRgpXPKOES02w",
@@ -2276,7 +2383,8 @@
         "websiteUrl": "http://www.vkm-vpst.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=7841632134443799938&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:11.050Z",
-        "updatedAt": "2026-01-23T15:34:11.050Z"
+        "updatedAt": "2026-01-23T15:34:11.050Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJq2mJDajBl0cRgpXPKOES02w.jpg"
       }
     ],
     "relaxation": [
@@ -2299,7 +2407,8 @@
         "websiteUrl": "http://www.schloss-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=18289779250000378471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJIfilMqnBl0cRZzqVEFNZ0v0.jpg"
       },
       {
         "id": "ChIJj1nFAxDBl0cRYKjuHeh30MA",
@@ -2319,7 +2428,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj1nFAxDBl0cRYKjuHeh30MA/photos/AcnlKN3nsxjIgIMy9FiKsoFa61Y3Dkb9RVlI2fyyS-Sb8Z_J2VEAPY_oT_01UCcqdWym0AIubO7uNRnd9tuexzyPhvIFEVUeX3SAmHEWkwk7jtLTjA8WqIZMtVJ-v_MmvZt1SDr_e7saob7mSHNcD2n_gqRLcDxkwjzAtAgNFWay_tPoUVExmOQK-5FjxKofPVb3XKdHMos7T3uWs1WYALoWm19odyl3TPTb3dbsBk9NMyteh1hIhk9zuEnsnDDJZ4CxCudiaAw-Iyxls3r4xll49w3CNekgnFU0H0xQxxbmUZ-_qHEioV0Uh5xE1M3MjfU4fmmbRr9mcdBQqIzcN72dqak7-qgnCH8gAZyInip5SE6KffVV2aAWoQepaPZHadcUnuM29Vn1YwcfJMuCIh6tdjBz8Fx7Cet1BtgcVl9QKN7cpw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13893736689256278112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJj1nFAxDBl0cRYKjuHeh30MA.jpg"
       },
       {
         "id": "ChIJ_2GDVxzBl0cREoPKggbXflY",
@@ -2340,7 +2450,8 @@
         "websiteUrl": "http://www.europaeischerhof.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6232655357291430674&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ_2GDVxzBl0cREoPKggbXflY.jpg"
       },
       {
         "id": "ChIJa-37ZSLBl0cR3I_R_9qzVVc",
@@ -2361,7 +2472,8 @@
         "websiteUrl": "http://heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=6293133807496302556&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJa-37ZSLBl0cR3I_R_9qzVVc.jpg"
       },
       {
         "id": "ChIJtfgketm3l0cRDHwzFk2NrtU",
@@ -2382,7 +2494,8 @@
         "websiteUrl": "http://www.rheininsel-ketsch.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=15397399538250775564&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJtfgketm3l0cRDHwzFk2NrtU.jpg"
       },
       {
         "id": "ChIJ_YWp9DDBl0cR6gGkqW5T3zQ",
@@ -2403,7 +2516,8 @@
         "websiteUrl": "https://www.botgart.cos.uni-heidelberg.de/de",
         "googleMapsUrl": "https://maps.google.com/?cid=3809855544536334826&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ_YWp9DDBl0cR6gGkqW5T3zQ.jpg"
       },
       {
         "id": "ChIJTRuf_My-l0cRzGsdu9DObpY",
@@ -2424,7 +2538,8 @@
         "websiteUrl": "http://www.tierpark-walldorf.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10839828749015149516&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJTRuf_My-l0cRzGsdu9DObpY.jpg"
       },
       {
         "id": "ChIJvTDLI7PBl0cR8eaQjhzCuMY",
@@ -2445,7 +2560,8 @@
         "websiteUrl": "https://gasthof-koenigstuhl.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=14319408443131225841&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJvTDLI7PBl0cR8eaQjhzCuMY.jpg"
       },
       {
         "id": "ChIJJyaJ3izBl0cR0NnNzC7cP8k",
@@ -2466,7 +2582,8 @@
         "websiteUrl": "https://www.zoo-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=14501551418718935504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJJyaJ3izBl0cR0NnNzC7cP8k.jpg"
       },
       {
         "id": "ChIJMwH70XJ9C0ERrzd_DERn5BY",
@@ -2487,7 +2604,8 @@
         "websiteUrl": "https://www.aqwa-walldorf.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=1649556905489545135&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJMwH70XJ9C0ERrzd_DERn5BY.jpg"
       },
       {
         "id": "ChIJXXRLuUzAl0cRywakKW18x00",
@@ -2508,7 +2626,8 @@
         "websiteUrl": "https://maerchen-paradies.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=5604585069577766603&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJXXRLuUzAl0cRywakKW18x00.jpg"
       },
       {
         "id": "ChIJY8QUgdnAl0cRz3YlXW-PufI",
@@ -2529,7 +2648,8 @@
         "websiteUrl": "https://www.dehner.de/content/markets/baden-wuerttemberg/heidelberg-pfaffengrund",
         "googleMapsUrl": "https://maps.google.com/?cid=17490168336336910031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJY8QUgdnAl0cRz3YlXW-PufI.jpg"
       },
       {
         "id": "ChIJRW6t88PFl0cRPpesX7oRhXw",
@@ -2550,7 +2670,8 @@
         "websiteUrl": "https://www.ladenburg.de/touristik-kultur/gruenanlagen-parks/",
         "googleMapsUrl": "https://maps.google.com/?cid=8972597324772316990&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJRW6t88PFl0cRPpesX7oRhXw.jpg"
       },
       {
         "id": "ChIJ8aYMUxnBl0cR7uzSQhhzrYs",
@@ -2571,7 +2692,8 @@
         "websiteUrl": "http://heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10064827290280455406&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ8aYMUxnBl0cR7uzSQhhzrYs.jpg"
       },
       {
         "id": "ChIJd8Ft3em5l0cRCXAHLBORrFc",
@@ -2592,7 +2714,8 @@
         "websiteUrl": "https://www.aquadrom.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=6317583888823054345&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJd8Ft3em5l0cRCXAHLBORrFc.jpg"
       },
       {
         "id": "ChIJMXFieM7Gl0cRnperTQtOu_8",
@@ -2613,7 +2736,8 @@
         "websiteUrl": "http://www.swhd.de/tiergartenbad",
         "googleMapsUrl": "https://maps.google.com/?cid=18427408110771214238&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJMXFieM7Gl0cRnperTQtOu_8.jpg"
       },
       {
         "id": "ChIJT5sUj7jGl0cRvl_tOQaFdCo",
@@ -2633,7 +2757,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJT5sUj7jGl0cRvl_tOQaFdCo/photos/AcnlKN2SFN7tYdU9tGkqUus5aJPjA7Gv54cQ9nqGwH_0HoWlpu5H5xhR8ytm4KTKoOLSsuEJ2o0aIhZKs3erV1-Fyo-AR2QCqmCaNhYvdsUlBMbLw-qV2j4WnuWX4-ZvcwdGRRNuJGWr4L0zq_00vsvYeFuceBmgObk5RuRbDVVxGNV_j3TO7F282sSYmssjcDGnnv9Dav1DwS2ctICvOYRr2U1rm41FKVZF51qciExyO3YZuUKVbV6SyrFHeGIlo5cy108CI4p235-WU1RyQ3Xx9YBofKspQofzklj8814bLrgPOb_OYgZ0Z14fnjw3M7sRZ0fpvCpUiHwqc_yelCKn1HQ-c3HGvxUcsFJSfWsxcwwVYujZkwuDg_Me5iLsXKUW3FNa6vnrDDYlF_SlwA-ST8gZXPNrk7cbxsmlAIRXII4q5go/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3059216308679565246&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJT5sUj7jGl0cRvl_tOQaFdCo.jpg"
       },
       {
         "id": "ChIJJV4ojpfBl0cRBqiJ1LTSOY4",
@@ -2653,7 +2778,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJV4ojpfBl0cRBqiJ1LTSOY4/photos/AcnlKN1zK_dBvTMEGaReZBqcV-WxrQUjEDiS1vdP0Bp_9lqvsOccmiatDx9esmjpTP3OadUQ99sWED4BukMkGpn5h-LfC80Bf9cQx8B8Z95a7JTNx2PzsF33ofT_18k51GS4yB7SixCPCUFX3Ja3eA8YkPMjjmAzWCH_zoqpPOuPBLaGbIZRIXgZ5V0_h5Y1aefdh9i6ey2G3bLdH65ZPNvSjeOYPIEkxG9Kyl1p51Q1HA4ulLGRUtF7msnZ906xb0gAMB2x3msWROVDHoowFV_FlfeFkKm8ZlenaBgwVsis9h7gaemaRltMsJmldmo7I9TbbR6gJmImgL_MMC7TpWqGjiSvpY6rETF7gOrlTD02pZm2hakB_IGM-vG9fu3y9VXLfZD-1ZPxms-EGpnU5sbBLziUvsm_LMRYS3tFWW18wRodPqM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10248454101160011782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJJV4ojpfBl0cRBqiJ1LTSOY4.jpg"
       },
       {
         "id": "ChIJ9SapfYXHl0cR_KSuMLpRJsY",
@@ -2674,7 +2800,8 @@
         "websiteUrl": "http://www.bellamar-schwetzingen.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=14278189528747255036&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ9SapfYXHl0cR_KSuMLpRJsY.jpg"
       },
       {
         "id": "ChIJaSMUvcXAl0cRRhmM89lzf-w",
@@ -2695,7 +2822,8 @@
         "websiteUrl": "http://www.soccarena-hd.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=17041466894924388678&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJaSMUvcXAl0cRRhmM89lzf-w.png"
       },
       {
         "id": "ChIJu-sHZAXFl0cRXO0kWJVe_6o",
@@ -2715,7 +2843,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJu-sHZAXFl0cRXO0kWJVe_6o/photos/AcnlKN2ehywu53KhUaqJPtMzX2gIOJrlCzKvGKiy2BWLe_zmkRGxY8tshAe_SJGvP7HWSntZEyoDIYUFHq9e7xadfVCwe_CUVzViCk7FfM9xuYo3sIFIA8tOHdkD8G0jMZ6oJSIknxeeFtUdK7btWRoaDKBCR4Yx45NLcJgwA_UuNIsGQxBMLgoT2RjNFwjBmpGs65NQvdK01GIw-vUW0avo3mrhcOxW-j4gP0cNP_dpdqzIXXnKcF7vgdw1CYwe_Qz9uHLD0JKnuVHGKmnYY0dsGpa8iC9nQq5ULumcdHij_zSs2y1f-byRDtQAl5OHMR4VkvRw9m_iapl0Xml0Fn3GW_hyIjLUc1Iy1Qae-hLG7FF9CaSHYkL8tpLFtFlxBrLYA034l2Eb2dmn8kWTZxeJPOC8X7LYcYjqkbDXfODrlw6jXBeG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12321671101030919516&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJu-sHZAXFl0cRXO0kWJVe_6o.jpg"
       },
       {
         "id": "ChIJp_D8w6nBl0cRxAUZtawuISg",
@@ -2736,7 +2865,8 @@
         "websiteUrl": "https://www.schloss-heidelberg.de/erlebnis-schloss-garten/schloss-garten/garten/stueckgarten",
         "googleMapsUrl": "https://maps.google.com/?cid=2891643755056137668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJp_D8w6nBl0cRxAUZtawuISg.jpg"
       },
       {
         "id": "ChIJx3aXMADBl0cRg8iIaURWXCk",
@@ -2757,7 +2887,8 @@
         "websiteUrl": "https://www.heidelberg.de/HD/Leben/arboreten.html",
         "googleMapsUrl": "https://maps.google.com/?cid=2980351905240762499&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJx3aXMADBl0cRg8iIaURWXCk.jpg"
       },
       {
         "id": "ChIJf4PecUfJl0cRCfEAJbMgvf8",
@@ -2778,7 +2909,8 @@
         "websiteUrl": "https://www.mannheim.de/de/service-bieten/sport/schwimmbaeder/gartenhallenbad-neckarau",
         "googleMapsUrl": "https://maps.google.com/?cid=18427921204061991177&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJf4PecUfJl0cRCfEAJbMgvf8.jpg"
       },
       {
         "id": "ChIJcQLqWd7Ol0cR9dHx7zGlQLw",
@@ -2799,7 +2931,8 @@
         "websiteUrl": "https://www.pfitzenmeier.de/standorte/premium-resorts-mit-aquadome/mannheim-city-airport/",
         "googleMapsUrl": "https://maps.google.com/?cid=13565023711537517045&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJcQLqWd7Ol0cR9dHx7zGlQLw.jpg"
       },
       {
         "id": "ChIJAYv6FKnBl0cRDRW4h-peGkc",
@@ -2819,7 +2952,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAYv6FKnBl0cRDRW4h-peGkc/photos/AcnlKN2mlC2IbxLP8Fs_PlAbhW_ErZn5_oxU14lY4UCYAdvOJbgXzKBLGs5iqZ0LABROE4vAEfA3wa2sDeOIR2pldxYFcxpq5hLbPL7fQuCB_8QUP1m5bF11TUZD2944kjI7XKDMQ1_JijZ4IKGW_mDvtQdJfIJcNkdgtychBrN7xqESLmgGuaJf4TohcvrKXDgl7b-P1ClSK6K3ZE7-KAqn78rYlCmN4vIYp6hoAFcT2qL8RHHMvRVUBaqrp1zna1XRwUDvdZ25m4JjmBWusbVCcbpbqEYrkc5nbpHugpDos2ODqCBVbIz1F5Oyqj7YB80oifYL17nQeKIsImLFRbbUobZkxJUoCXAgSmUtHP2pehd_xEw8HcJrOk2F6OQtsdtvYXFGAH6j1N9R1SVYr6oi-yj612ZG8IDOvNfDgz8y-Pc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5123511887479706893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJAYv6FKnBl0cRDRW4h-peGkc.jpg"
       },
       {
         "id": "ChIJ_YNLW3_Bl0cR-itUrHP3E9M",
@@ -2839,7 +2973,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_YNLW3_Bl0cR-itUrHP3E9M/photos/AcnlKN2tSNXx-QyXMSAefZ27t01LkBr3jt497zjEvK6qs1YkgQyqjURlFZIKUxLYEBcL-I9Go4IUSGTVHOTyDMG9_0BOqoP3mCp4Tk2u1lw1eFCW4hE_HqqG5LIuw4MNT7v5Y4CIZB29rq5RFvkiZ-S4Jy4grOKQJMJaQbKAF86cUqkZ2uAWfE1wH3H-AW5Uz9NjKsApsp9-equmZxPJH6t_IsT6FXjbz0r--TIb33noWHnawTSh2iuZSMv9itF80boqmYP3QrNrXFCMiDslXewr7koQkgFuh2GHyMAk1j8vJHSWgHhUizyTgd0GHyjt0KnIieje6pDNia_J4aT4hkTmn3GNHtMqHlT1enokxmU9GwMIIWy75OSU7AjQjmk2lYJmUmAdoWSH7NynhejJ-i-KrUIy5fwdCv928yEQQeA6bubgfRvC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15209772442744794106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ_YNLW3_Bl0cR-itUrHP3E9M.jpg"
       },
       {
         "id": "ChIJRwnqNdfAl0cR1i-LsJqG_k4",
@@ -2859,7 +2994,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRwnqNdfAl0cR1i-LsJqG_k4/photos/AcnlKN26cj1XuKY-ofyDoXkUrR-icYZPBbx0mnAfWNig4LRlwkC6KVs2zIIvJ0r3U16dmvrKUJ-iCoc1ThTj2jjq9ohAK2RRph38wbA4X8Fuw5lOjw88sjMFPR-HXDQp8cdJeGbluFPjt8eyjV16dCRZInZwuk94B9JqfVsGQk5N6wKkuBVvV6pr4JST-6BeKV5jnxqkholH_cy53LXnPjLnRJhCHHHLEds6A6u6UfiPIsVMBvkZKShmc6Kgu04QtSUlhf_OUr67rFBIk9wk20fAFigFoQxraWydN8ibyC2RPpGKvsySGj0dHMvlxWqTyDJ7ozpkg3-h-WQP8yt4QFY2iMGqOftCfF2dFie0nDf1jp44i_kJxmrR2QEv60jzkDNgAY99Em1xdHJgF0PVEvlqv1m7Cn8FsRQa_CXmhXXYDb_q4g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5692134977987882966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJRwnqNdfAl0cR1i-LsJqG_k4.jpg"
       },
       {
         "id": "ChIJFc5qleu_l0cRBtoL3Sld9v4",
@@ -2879,7 +3015,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFc5qleu_l0cRBtoL3Sld9v4/photos/AcnlKN3BeqL83iWaqt8vyYPFJVMBSfl0pjLxf6s7T7uEQkVwiuXmIW1vsD7ejL0LakQxCSzvXKAyaEKry6S3KsVe-BDpBdJYwr2cyxsxoWwwa4yBf-OJ379rSXrFrEIPonTzb6-9MS9gC4NKJkHg9MvxeILLkwhxoPmvbMqDgMxSQfklugxEeCKzzQyNJ2ZtKUiGGShku04zI8dbj2ZfS_klZJndY-0CtVCXHd0g_ZqslbcJMR-ZbAm09y2mI3tI42IoPY6Kpi3OWla9IL38IAb0v16V0zqN7DuycQ23AsCyTKJH9sS75bjLb87L3VAj1WLzYTKgK3_3CY3zW9VK5FF9-0huhT2PqeMUS985MMjTJv3Vm3WKMRoy2kDG16H-BvYQ5SMz2Awty0W3Hl8zpvnAGTYuF0q4ez7IDFP1jgl1ikvyBuQ_/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18371974164288100870&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJFc5qleu_l0cRBtoL3Sld9v4.jpg"
       },
       {
         "id": "ChIJF7h-m9PBl0cRIGeo7d-qmRQ",
@@ -2899,7 +3036,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF7h-m9PBl0cRIGeo7d-qmRQ/photos/AcnlKN1abazWZzsOBWgshculz0x98pDXqq2dgl16ExaN-j3bXKMiFodPSrr7W8mFE4VZJNu6_bafdk_Q25MuE76ItvAWGzFZV5os6__J938oeDevnkpK6PusbxzmTIAfeaKzfimdai26LYx_rO3eEECjXRWoJowimq5fHcS48K_2454dLNhVcTohDESp4Xntwoj0XhFgae0Fe2ISmd9F6zKlz0ljpQwGXhTFKGMnx2XDw0dQ1dW9woh8g3ko1Iy3fVvmexRlXp0jmbiY_SNvOIXd4XsNbOyAvpak2oxzDJhFSK4PAsEz2RJcPNGDZGNyztB74eH5PdhzWRcYAoT6C4PuIkTfbOC7-OrrBNOBkk4WrVdoi_zdsKKfqewQNNJlUmTv8-qc8EhfsE4RmZ4LV5JypAOp_lGzQD-09F5PAG-zRxLLb8JN/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1484405430936954656&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:12.361Z",
-        "updatedAt": "2026-01-23T15:34:12.361Z"
+        "updatedAt": "2026-01-23T15:34:12.361Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJF7h-m9PBl0cRIGeo7d-qmRQ.jpg"
       }
     ],
     "nightlife": [
@@ -2922,7 +3060,8 @@
         "websiteUrl": "https://akams-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=6920882488717055464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJwwWEFVXBl0cR6JUzgPTpC2A.jpg"
       },
       {
         "id": "ChIJQx2saLu3l0cRtMWqLns3YFU",
@@ -2944,7 +3083,8 @@
         "websiteUrl": "http://www.johanneshof.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=6151978093191546292&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJQx2saLu3l0cRtMWqLns3YFU.jpg"
       },
       {
         "id": "ChIJ39nTSwbBl0cRXRiKZqByNfk",
@@ -2966,7 +3106,8 @@
         "websiteUrl": "http://www.brauhaus-vetter.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=17957385122450380893&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ39nTSwbBl0cRXRiKZqByNfk.jpg"
       },
       {
         "id": "ChIJnxQoltzGl0cRkTZek2nVo5U",
@@ -2988,7 +3129,8 @@
         "websiteUrl": "http://www.flammkuchenhof.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10782696582275806865&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJnxQoltzGl0cRkTZek2nVo5U.jpg"
       },
       {
         "id": "ChIJ_YolJabBl0cRs3HR8tWI8ag",
@@ -3009,7 +3151,8 @@
         "websiteUrl": "http://www.karlstorbahnhof.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=12173661720242385331&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ_YolJabBl0cRs3HR8tWI8ag.jpg"
       },
       {
         "id": "ChIJg0-oewbBl0cR2ffUtcMBWwk",
@@ -3031,7 +3174,8 @@
         "websiteUrl": "https://die-untere.de/?q=Sonder%20Bar",
         "googleMapsUrl": "https://maps.google.com/?cid=674134509302904793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJg0-oewbBl0cR2ffUtcMBWwk.jpg"
       },
       {
         "id": "ChIJ13It27nBl0cR645Kk3ft1bU",
@@ -3053,7 +3197,8 @@
         "websiteUrl": "https://hansimglueck-burgergrill.de/burger-restaurant/heidelberg-westarkaden/?utm_source=google&utm_medium=yext&utm_campaign=83",
         "googleMapsUrl": "https://maps.google.com/?cid=13102639788732354283&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ13It27nBl0cR645Kk3ft1bU.jpg"
       },
       {
         "id": "ChIJqziy8QTBl0cRZtVxUSSMNLc",
@@ -3075,7 +3220,8 @@
         "websiteUrl": "http://www.dublinerheidelberg.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13201330495342892390&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJqziy8QTBl0cRZtVxUSSMNLc.png"
       },
       {
         "id": "ChIJi4a8-QfBl0cRHoe6iIFZZMA",
@@ -3097,7 +3243,8 @@
         "websiteUrl": "https://bentbar.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=13863303965832808222&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJi4a8-QfBl0cRHoe6iIFZZMA.jpg"
       },
       {
         "id": "ChIJf1YkWwbBl0cRwE-TfMhHEic",
@@ -3119,7 +3266,8 @@
         "websiteUrl": "https://www.eckstein-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=2815391643469041600&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJf1YkWwbBl0cRwE-TfMhHEic.jpg"
       },
       {
         "id": "ChIJv1GOYQbBl0cRXQaP5EKNUXA",
@@ -3141,7 +3289,8 @@
         "websiteUrl": "http://www.sahara-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=8093405323803428445&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJv1GOYQbBl0cRXQaP5EKNUXA.jpg"
       },
       {
         "id": "ChIJdR6IQxvBl0cR77DWTXVnCj4",
@@ -3163,7 +3312,8 @@
         "websiteUrl": "https://cafe-extrablatt.de/standorte/details/cafe-extrablatt-heidelberg",
         "googleMapsUrl": "https://maps.google.com/?cid=4470499333633388783&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJdR6IQxvBl0cR77DWTXVnCj4.jpg"
       },
       {
         "id": "ChIJ1bIRvjnJl0cRAao0aigRR5o",
@@ -3184,7 +3334,8 @@
         "websiteUrl": "https://www.msconnexion.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11116873070465559041&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ1bIRvjnJl0cRAao0aigRR5o.jpg"
       },
       {
         "id": "ChIJQ4jfWQbBl0cRvynFJ8snCTM",
@@ -3206,7 +3357,8 @@
         "websiteUrl": "https://hansimglueck-burgergrill.de/burger-restaurant/heidelberg-heiliggeistkirche/?utm_source=google&utm_medium=yext&utm_campaign=42",
         "googleMapsUrl": "https://maps.google.com/?cid=3677514324223797695&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJQ4jfWQbBl0cRvynFJ8snCTM.jpg"
       },
       {
         "id": "ChIJT0kOOyHBl0cREnKS7LZkSNQ",
@@ -3228,7 +3380,8 @@
         "websiteUrl": "http://www.dasbootshaus.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15296586871179735570&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJT0kOOyHBl0cREnKS7LZkSNQ.jpg"
       },
       {
         "id": "ChIJsw7jHMDAl0cRPY0XZekRMzo",
@@ -3249,7 +3402,8 @@
         "websiteUrl": "http://boulderhaus.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=4193715372133158205&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJsw7jHMDAl0cRPY0XZekRMzo.jpg"
       },
       {
         "id": "ChIJzxchKHeeDEERulaNGgGfgdY",
@@ -3271,7 +3425,8 @@
         "websiteUrl": "https://hd-karl.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=15456810223201507002&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJzxchKHeeDEERulaNGgGfgdY.jpg"
       },
       {
         "id": "ChIJR3v_7x7Bl0cRRoSk_hH_JtI",
@@ -3293,7 +3448,8 @@
         "websiteUrl": "http://www.linos-bar.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=15143071249831593030&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJR3v_7x7Bl0cRRoSk_hH_JtI.jpg"
       },
       {
         "id": "ChIJbZn5HajBl0cR4XleOS3CzrA",
@@ -3315,7 +3471,8 @@
         "websiteUrl": "http://www.heidelberger-kulturbrauerei.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=12740333895369521633&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJbZn5HajBl0cR4XleOS3CzrA.jpg"
       },
       {
         "id": "ChIJGUEsDTDBl0cR9YwMY2uH3GY",
@@ -3337,7 +3494,8 @@
         "websiteUrl": "http://bräustadel.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=7411947982038011125&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJGUEsDTDBl0cR9YwMY2uH3GY.jpg"
       },
       {
         "id": "ChIJqeBY2YbBl0cRqHsUCR0cfDE",
@@ -3359,7 +3517,8 @@
         "websiteUrl": "http://www.meiksbrunchandbar.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=3565755916002556840&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJqeBY2YbBl0cRqHsUCR0cfDE.jpg"
       },
       {
         "id": "ChIJa7jQ_RDPl0cRX4EDzkMY2LI",
@@ -3380,7 +3539,8 @@
         "websiteUrl": "https://www.eatsamore.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=12887077013218885983&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJa7jQ_RDPl0cRX4EDzkMY2LI.jpg"
       },
       {
         "id": "ChIJ3b2LTtfAl0cRiJGKsZZPSqY",
@@ -3401,7 +3561,8 @@
         "websiteUrl": "http://www.halle02.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=11982477267214963080&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ3b2LTtfAl0cRiJGKsZZPSqY.jpg"
       },
       {
         "id": "ChIJ4wLOeAbBl0cRTI0CIOX2w4I",
@@ -3423,7 +3584,8 @@
         "websiteUrl": "https://der-mohr.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9422646309334191436&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ4wLOeAbBl0cRTI0CIOX2w4I.jpg"
       },
       {
         "id": "ChIJNTsSysLHl0cRw26GqSGTpKs",
@@ -3444,7 +3606,8 @@
         "websiteUrl": "https://cenneto.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12368172249453588163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJNTsSysLHl0cRw26GqSGTpKs.jpg"
       },
       {
         "id": "ChIJxXaOloPBl0cR7FHsoxxbi2I",
@@ -3465,7 +3628,8 @@
         "websiteUrl": "https://www.toniq-club.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=7100869416047104492&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJxXaOloPBl0cR7FHsoxxbi2I.jpg"
       },
       {
         "id": "ChIJTyJY0MjBl0cRjnm71U5ctZA",
@@ -3486,7 +3650,8 @@
         "websiteUrl": "http://heerlijk-bier.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=10427342005909289358&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJTyJY0MjBl0cRjnm71U5ctZA.jpg"
       },
       {
         "id": "ChIJ-dkoaUbHl0cR7ilNL7caJLo",
@@ -3507,7 +3672,8 @@
         "websiteUrl": "http://www.land-wine.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=13412874964291103214&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ-dkoaUbHl0cR7ilNL7caJLo.jpg"
       },
       {
         "id": "ChIJBeyECB_Bl0cR-qwIV-4EhzU",
@@ -3528,7 +3694,8 @@
         "websiteUrl": "https://frauenbad-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=3857057027575033082&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:13.553Z",
-        "updatedAt": "2026-01-23T15:34:13.553Z"
+        "updatedAt": "2026-01-23T15:34:13.553Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJBeyECB_Bl0cR-qwIV-4EhzU.jpg"
       }
     ],
     "trendy": [
@@ -3552,7 +3719,8 @@
         "websiteUrl": "http://www.johanneshof.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=6151978093191546292&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.681Z",
-        "updatedAt": "2026-01-23T15:34:14.681Z"
+        "updatedAt": "2026-01-23T15:34:14.681Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJQx2saLu3l0cRtMWqLns3YFU.jpg"
       },
       {
         "id": "ChIJDap7jy7Bl0cR-z_YVourAEI",
@@ -3574,7 +3742,8 @@
         "websiteUrl": "http://simonandbearns.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=4755989821449060347&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJDap7jy7Bl0cR-z_YVourAEI.jpg"
       },
       {
         "id": "ChIJ62WSeRvBl0cR38yN-QauZQA",
@@ -3596,7 +3765,8 @@
         "websiteUrl": "https://www.nomad-heidelberg.de/standorte/nomad-handschuhsheim",
         "googleMapsUrl": "https://maps.google.com/?cid=28620317627632863&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ62WSeRvBl0cR38yN-QauZQA.jpg"
       },
       {
         "id": "ChIJi_e2O-LAl0cRQnX8yBwA7DU",
@@ -3618,7 +3788,8 @@
         "websiteUrl": "http://www.nomad-heidelberg.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=3885480702144968002&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJi_e2O-LAl0cRQnX8yBwA7DU.jpg"
       },
       {
         "id": "ChIJj7oajRnBl0cRBTNF2jE_kHQ",
@@ -3640,7 +3811,8 @@
         "websiteUrl": "https://www.river-cafe-hd.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=8399282788393890565&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJj7oajRnBl0cRBTNF2jE_kHQ.jpg"
       },
       {
         "id": "ChIJM91CuATBl0cRqQWWe6CRQoQ",
@@ -3661,7 +3833,8 @@
         "websiteUrl": "https://www.thalia.de/buchhandlung/5184?utm_source=google&utm_medium=gmb&utm_campaign=website&utm_content=heidelberg",
         "googleMapsUrl": "https://maps.google.com/?cid=9530339879923615145&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJM91CuATBl0cRqQWWe6CRQoQ.jpg"
       },
       {
         "id": "ChIJtc1QCODAl0cR8CXeOszZU10",
@@ -3683,7 +3856,8 @@
         "websiteUrl": "https://www.p11-hd.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=6724958139778475504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJtc1QCODAl0cR8CXeOszZU10.jpg"
       },
       {
         "id": "ChIJwU3Jgm-_l0cR5C1tF3AbpNs",
@@ -3704,7 +3878,8 @@
         "websiteUrl": "https://www.jet.de/tankstellen/leimen/im-hagen-2",
         "googleMapsUrl": "https://maps.google.com/?cid=15826805158730083812&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJwU3Jgm-_l0cR5C1tF3AbpNs.png"
       },
       {
         "id": "ChIJ1xw_o2PBl0cRrnad1bNPf_A",
@@ -3726,7 +3901,8 @@
         "websiteUrl": "https://zeitfuerbrot.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17329657524946564782&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ1xw_o2PBl0cRrnad1bNPf_A.jpg"
       },
       {
         "id": "ChIJdR6IQxvBl0cR77DWTXVnCj4",
@@ -3748,7 +3924,8 @@
         "websiteUrl": "https://cafe-extrablatt.de/standorte/details/cafe-extrablatt-heidelberg",
         "googleMapsUrl": "https://maps.google.com/?cid=4470499333633388783&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJdR6IQxvBl0cR77DWTXVnCj4.jpg"
       },
       {
         "id": "ChIJBVd33WzBl0cR-oveiKvjLSk",
@@ -3770,7 +3947,8 @@
         "websiteUrl": "http://www.coffeenerd.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=2967278055382223866&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJBVd33WzBl0cR-oveiKvjLSk.jpg"
       },
       {
         "id": "ChIJqeBY2YbBl0cRqHsUCR0cfDE",
@@ -3792,7 +3970,8 @@
         "websiteUrl": "http://www.meiksbrunchandbar.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=3565755916002556840&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJqeBY2YbBl0cRqHsUCR0cfDE.jpg"
       },
       {
         "id": "ChIJub4HKNi5l0cRxOOu8OZDheg",
@@ -3813,7 +3992,8 @@
         "websiteUrl": "http://www.cardclub.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=16754872647861330884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJub4HKNi5l0cRxOOu8OZDheg.jpg"
       },
       {
         "id": "ChIJCcQZCvvFl0cRrAhbA9O6Nnc",
@@ -3835,7 +4015,8 @@
         "websiteUrl": "http://www.cafehuben.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=8590258754712963244&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJCcQZCvvFl0cRrAhbA9O6Nnc.jpg"
       },
       {
         "id": "ChIJvT7QlSTBl0cRGK9Nw5ka2Zk",
@@ -3856,7 +4037,8 @@
         "websiteUrl": "https://restaurantasmara.de/",
         "googleMapsUrl": "https://maps.google.com/?cid=11085921205458153240&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJvT7QlSTBl0cRGK9Nw5ka2Zk.jpg"
       },
       {
         "id": "ChIJdXieSQTBl0cRUMbrcLtxbvc",
@@ -3877,7 +4059,8 @@
         "websiteUrl": "https://www.instagram.com/antiquariat_hatry/",
         "googleMapsUrl": "https://maps.google.com/?cid=17829313024673695312&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJdXieSQTBl0cRUMbrcLtxbvc.jpg"
       },
       {
         "id": "ChIJ4zR5Oujrl0cRvdvCQ9qkWLQ",
@@ -3898,7 +4081,8 @@
         "websiteUrl": "https://www.jet.de/tankstellen/neckargemuend/neckarsteinacher-str-52",
         "googleMapsUrl": "https://maps.google.com/?cid=12995317982124235709&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ4zR5Oujrl0cRvdvCQ9qkWLQ.png"
       },
       {
         "id": "ChIJk25RAJfFl0cRWWAIEjWW2CE",
@@ -3919,7 +4103,8 @@
         "websiteUrl": "https://www.jet.de/tankstellen/ladenburg/wallstadter-str-67-b",
         "googleMapsUrl": "https://maps.google.com/?cid=2438864352901095513&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJk25RAJfFl0cRWWAIEjWW2CE.png"
       },
       {
         "id": "ChIJiyMF9NvBl0cRykcXe8Ji_6c",
@@ -3940,7 +4125,8 @@
         "websiteUrl": "http://suedseite.coffee/",
         "googleMapsUrl": "https://maps.google.com/?cid=12105502910823483338&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJiyMF9NvBl0cRykcXe8Ji_6c.jpg"
       },
       {
         "id": "ChIJpbck8XG_l0cRue5qYWIE_2g",
@@ -3961,7 +4147,8 @@
         "websiteUrl": "https://www.instagram.com/dave.s_sh.shop/",
         "googleMapsUrl": "https://maps.google.com/?cid=7565770719593426617&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJpbck8XG_l0cRue5qYWIE_2g.jpg"
       },
       {
         "id": "ChIJ-3pPCxzBl0cRTQtWslOs2oY",
@@ -3982,7 +4169,8 @@
         "websiteUrl": "https://www.schmitt-hahn.de/shop/magazine/90600/heidelberg_hauptstrasse.html",
         "googleMapsUrl": "https://maps.google.com/?cid=9717268621479512909&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ-3pPCxzBl0cRTQtWslOs2oY.jpg"
       },
       {
         "id": "ChIJd_xYpgXBl0cRSaJ_GDGzc5A",
@@ -4003,7 +4191,8 @@
         "websiteUrl": "https://www.stw.uni-heidelberg.de/de/Marstallcafe",
         "googleMapsUrl": "https://maps.google.com/?cid=10408860187229135433&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJd_xYpgXBl0cRSaJ_GDGzc5A.jpg"
       },
       {
         "id": "ChIJ9T_7HwTBl0cRSa3rsy-UzPI",
@@ -4024,7 +4213,8 @@
         "websiteUrl": "https://www.lehmanns.de/buchhandlung/420-heidelberg",
         "googleMapsUrl": "https://maps.google.com/?cid=17495521585030475081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:34:14.682Z",
-        "updatedAt": "2026-01-23T15:34:14.682Z"
+        "updatedAt": "2026-01-23T15:34:14.682Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/heidelberg/ChIJ9T_7HwTBl0cRSa3rsy-UzPI.jpg"
       }
     ]
   },

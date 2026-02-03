@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJD9Y_PkgW5YkRve5NQRWRxoM/photos/AcnlKN1QKmqSMOPl3pUeIFVmrdxerJ-Yon-JfxKfNFO6ZzixgV-OYNSLuXQT2M5cYCKvSRfX0H4BNXFGDPylphCLW3muAD3YkWkWR75owvVBfDNJlZXQXXtLZr84YkAoZaFB0p0U4Dkcjfuun3Bc8Dh5ABDgmKafKSI7_mvbQAvye1BkGJlQjIagz1i2peM5PNDByCE5ogPPFyjxkS3LisXLfmxsNr_iGGYjy_utsFcHLahEANkwkMy4FAQ446NTobQY7cUqYPHgq3xAS84UFDnBgx2Pd2OBdgCpmqp1QR97P7TEd_9ZNlL1lPUWjH8KPkobcZgQeWOAqT-1XEXt-FUR4X6IfdEWuULcUZUGyomC6O0kWzX1EF6HB4-8xiRPrrFsJlKPdq2PR5T6BxmYZnbnXr28ihXw6FeU-tb2nPYnAldlDw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9495436384833236669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJD9Y_PkgW5YkRve5NQRWRxoM.jpg"
       },
       {
         "id": "ChIJlZLbC2s6-4kRClFIlxVRQCE",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://www.piratescove.net/south-yarmouth/",
         "googleMapsUrl": "https://maps.google.com/?cid=2396004154935365898&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJlZLbC2s6-4kRClFIlxVRQCE.jpg"
       },
       {
         "id": "ChIJY7M41xi75IkRxktdAqn7Zv4",
@@ -66,7 +68,8 @@
         "websiteUrl": "https://www.mass.gov/locations/national-monument-to-the-forefathers",
         "googleMapsUrl": "https://maps.google.com/?cid=18331616036565896134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJY7M41xi75IkRxktdAqn7Zv4.jpg"
       },
       {
         "id": "ChIJazG4Bv1l-4kRyTD7p_gXXL8",
@@ -87,7 +90,8 @@
         "websiteUrl": "http://www.nausetlight.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=13788922515839201481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJazG4Bv1l-4kRyTD7p_gXXL8.jpg"
       },
       {
         "id": "ChIJ07Od2-v45IkRQDmqUcgRjac",
@@ -108,7 +112,8 @@
         "websiteUrl": "https://www.battleshipcove.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=12073325728111409472&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ07Od2-v45IkRQDmqUcgRjac.jpg"
       },
       {
         "id": "ChIJMyvqXGw6-4kRRlbWkl2vdQ4",
@@ -129,7 +134,8 @@
         "websiteUrl": "http://www.discoverpirates.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1041931705236477510&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJMyvqXGw6-4kRRlbWkl2vdQ4.jpg"
       },
       {
         "id": "ChIJm1Ky7HlH-4kRJcucDohLLik",
@@ -149,7 +155,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJm1Ky7HlH-4kRJcucDohLLik/photos/AcnlKN25zX-F7OwYoRtJaIKa_tNsxUmeXCNGqGylXZhT5wYJBnT8HKvNqvOjcYWh8Tf0mkhv5LlAbfP2swtFYSuU3W6097z28hPh6RIRx6kRPuBh1ZPEXp4Q28vBfAMAmI_Nm1uDiSrGl2Eb_1BC8fLHq96Y9s-91p0M49kalswGaZiaf3W35YFgIqKG2mFZueQoOn2QGVAwk_BZW82y5zwZ43E32-X_EEBbM1Y8O8TzY7iYkZGbMINijn7vNW5P0N6H_TxQHlDb8OBYhGyqEcuD3b3oKD8zFKfFij2OkipKm4qLqyi6-pMOJQz1k0X8w0lXMJ_B84rIRdcUji_p0Ab5VuYskhr2h63m59tNuLZIkx4TZSHci-NDXVqEBX_-7DyUOcOcOaoJnZWrHU6XvZVKFTFAoNsnlWmtMkZzpbKi1Z1MlB4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2967392252216527653&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJm1Ky7HlH-4kRJcucDohLLik.jpg"
       },
       {
         "id": "ChIJWzJQVnmn_IkRH9H3a_LKy5Y",
@@ -170,7 +177,8 @@
         "websiteUrl": "http://www.pilgrim-monument.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=10866001668503752991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJWzJQVnmn_IkRH9H3a_LKy5Y.jpg"
       },
       {
         "id": "ChIJq7SSOOe65IkRdEu9kAHtPro",
@@ -191,7 +199,8 @@
         "websiteUrl": "https://www.mass.gov/locations/pilgrim-memorial-state-park",
         "googleMapsUrl": "https://maps.google.com/?cid=13420424530589731700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJq7SSOOe65IkRdEu9kAHtPro.jpg"
       },
       {
         "id": "ChIJKZGQvVEw-4kRNqd9tsn-zJQ",
@@ -212,7 +221,8 @@
         "websiteUrl": "http://www.town.barnstable.ma.us/",
         "googleMapsUrl": "https://maps.google.com/?cid=10722224955165878070&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJKZGQvVEw-4kRNqd9tsn-zJQ.jpg"
       },
       {
         "id": "ChIJHTqcjPww-4kRkTZXasm3VXs",
@@ -233,7 +243,8 @@
         "websiteUrl": "http://jfkhyannismuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=8887211515385951889&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJHTqcjPww-4kRkTZXasm3VXs.jpg"
       },
       {
         "id": "ChIJAzE1I-e65IkR7tktWOwE4ag",
@@ -254,7 +265,8 @@
         "websiteUrl": "https://seeplymouth.com/listing/plymouth-rock/",
         "googleMapsUrl": "https://maps.google.com/?cid=12169013081269983726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJAzE1I-e65IkR7tktWOwE4ag.jpg"
       },
       {
         "id": "ChIJgVTbMzo6-4kRjSHabC2QDtE",
@@ -275,7 +287,8 @@
         "websiteUrl": "http://www.skullislandcapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15064136328375050637&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJgVTbMzo6-4kRjSHabC2QDtE.jpg"
       },
       {
         "id": "ChIJaZ2dbH03-4kRtEF2mPSjAUE",
@@ -296,7 +309,8 @@
         "websiteUrl": "http://www.edwardgoreyhouse.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=4684205358367261108&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJaZ2dbH03-4kRtEF2mPSjAUE.jpg"
       },
       {
         "id": "ChIJYU4wt1cw-4kRMW4WMGNxfmU",
@@ -316,7 +330,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYU4wt1cw-4kRMW4WMGNxfmU/photos/AcnlKN1BLjztvojqfpkIYBv7RIswiaAwxjyD4KnLqAQwdNicOg4UruG8yjdVqRUT8ruRsVrmVGEzVTSNyn9Am0_CiXbdkMMNXCciI96NAHLR1f7RdQeOtph2XU4beuiPZW5A4Wyg2aQb3Om5ucZzQOxPEDOnKD2MkghYWMVTBJ3Pccxex8ciKlk9cHQgxCpEVYtwvpWQj0hkV00puBes7EhOde4Q3i2FnwYoR-ThzlpQXCYu7NV-n3M4Us7n2NoGZMMp2JNX8wKfLH8zAO5FYjwXDKuZiIcQwvhB9DNueX6TjQLhWBIigEQj4230ustGgLKQyo1yRo4g8UoC6nBQimJpvg1g5cuE8HnR5F6mSL3okEOV9_HgsKi7LnDmM3KtwMZ8RYCJRdA7_GQhjIJ-L1lt9_wFsKel07ecKqzevJqKQGE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7313407515718741553&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJYU4wt1cw-4kRMW4WMGNxfmU.jpg"
       },
       {
         "id": "ChIJUXbOnhE3-4kRKkwM9poZSks",
@@ -337,7 +352,8 @@
         "websiteUrl": "http://www.massaudubon.org/longpasture",
         "googleMapsUrl": "https://maps.google.com/?cid=5425176854464842794&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJUXbOnhE3-4kRKkwM9poZSks.jpg"
       },
       {
         "id": "ChIJS0j_9zcx-4kRkxYWPNWtsCg",
@@ -358,7 +374,8 @@
         "websiteUrl": "http://www.capecodbeer.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2932034488765912723&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJS0j_9zcx-4kRkxYWPNWtsCg.jpg"
       },
       {
         "id": "ChIJYQmi5Dgx-4kRtDE-DILOmiQ",
@@ -379,7 +396,8 @@
         "websiteUrl": "https://www.margaritavilleresorts.com/margaritaville-resort-cape-cod/waterpark",
         "googleMapsUrl": "https://maps.google.com/?cid=2637647589725319604&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJYQmi5Dgx-4kRtDE-DILOmiQ.jpg"
       },
       {
         "id": "ChIJC66vd8E2-4kRHnRHce2uGuk",
@@ -400,7 +418,8 @@
         "websiteUrl": "https://www.sturgislibrary.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=16796930095062676510&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJC66vd8E2-4kRHnRHce2uGuk.jpg"
       },
       {
         "id": "ChIJ7-c7hFsx-4kRVwdOZ5q7WZg",
@@ -420,7 +439,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7-c7hFsx-4kRVwdOZ5q7WZg/photos/AcnlKN0k2bUE8WgCju_56TduEZ5w-GhfgsWdhErNv5TG4B2iktlvuElF3rHC5PKl-BjeW_gOpkU748X_EkKzqCv0OMFy8WpYnmTdrdtBM0pddWwbXwxDA68jVZr7pHIKALBLjTHEgbWn_P7O3dOZWLsvBjzsWTXe0EjlDOgia5tmee8gOSHQgI0vNt-apUfOnGmPlkqsXIMH3gRH29aXM3d5avDi9vRJshMvsVZXKdUF7S2RBZ7Wg2Nqlibd_cj4vIcQwvFnhZo-2OYHbSqrd4BsBkUYD61jKPGelgP2hXrZdmbwXMzLEbSob_3YAb9PwKNwgJ4QbRD9ghxUlLxoYjK46xD3uDlq3L2qS6f5qZ7Os3umVriyWkFuR-no01BfmvftT0xc4L4KsG4nE4w34sk8GHYS38_ytr0AE8OlbwAgM3o-7Tk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10978011838524819287&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ7-c7hFsx-4kRVwdOZ5q7WZg.jpg"
       },
       {
         "id": "ChIJsUqtPQAx-4kRbEe-ZiJ6bVY",
@@ -460,7 +480,8 @@
         "websiteUrl": "http://www.dennishistsoc.org/Museums/Museums-12-Scargo.html",
         "googleMapsUrl": "https://maps.google.com/?cid=9649196168429613855&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ0Rt9ZX04-4kRH7NOo8rU6IU.jpg"
       },
       {
         "id": "ChIJk3yTr1w4-4kRsOHEJZwDM70",
@@ -481,7 +502,8 @@
         "websiteUrl": "http://taylorbrayfarm.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=13633244466164064688&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.530Z",
-        "updatedAt": "2026-01-23T15:56:44.530Z"
+        "updatedAt": "2026-01-23T15:56:44.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJk3yTr1w4-4kRsOHEJZwDM70.jpg"
       },
       {
         "id": "ChIJS9-fSH44-4kRRy0NRCRxTXA",
@@ -502,7 +524,8 @@
         "websiteUrl": "http://www.ccmoa.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=8092248506029124935&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.531Z",
-        "updatedAt": "2026-01-23T15:56:44.531Z"
+        "updatedAt": "2026-01-23T15:56:44.531Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJS9-fSH44-4kRRy0NRCRxTXA.jpg"
       },
       {
         "id": "ChIJtVMa5l7N5IkRn8bigebmF7s",
@@ -523,7 +546,8 @@
         "websiteUrl": "http://www.cahoonmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=13481497887252858527&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.531Z",
-        "updatedAt": "2026-01-23T15:56:44.531Z"
+        "updatedAt": "2026-01-23T15:56:44.531Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJtVMa5l7N5IkRn8bigebmF7s.jpg"
       },
       {
         "id": "ChIJ9ZCqHPsw-4kRoZru9po3dR8",
@@ -544,7 +568,8 @@
         "websiteUrl": "http://www.capecodmaritimemuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=2266779126158236321&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.531Z",
-        "updatedAt": "2026-01-23T15:56:44.531Z"
+        "updatedAt": "2026-01-23T15:56:44.531Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ9ZCqHPsw-4kRoZru9po3dR8.jpg"
       },
       {
         "id": "ChIJ-wJHeaHT5IkRReuhT0m7OMc",
@@ -565,7 +590,8 @@
         "websiteUrl": "http://cotuitbeach.com/rileys-beach-cotuit.html",
         "googleMapsUrl": "https://maps.google.com/?cid=14355429735786474309&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:44.531Z",
-        "updatedAt": "2026-01-23T15:56:44.531Z"
+        "updatedAt": "2026-01-23T15:56:44.531Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ-wJHeaHT5IkRReuhT0m7OMc.jpg"
       }
     ],
     "foodie": [
@@ -589,7 +615,8 @@
         "websiteUrl": "http://www.braziliangrill.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5736426905332333232&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJdxBJHgEx-4kRsLpTpODhm08.jpg"
       },
       {
         "id": "ChIJJ-rEyJ0w-4kRD_99d6aYcaE",
@@ -611,7 +638,8 @@
         "websiteUrl": "http://www.keltickitchen.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11633247153211440911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJJ-rEyJ0w-4kRD_99d6aYcaE.jpg"
       },
       {
         "id": "ChIJL0XVN0M6-4kR7Bu3nfVP5tA",
@@ -633,7 +661,8 @@
         "websiteUrl": "http://skipperrestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15052806720864066540&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJL0XVN0M6-4kR7Bu3nfVP5tA.jpg"
       },
       {
         "id": "ChIJd2AGfnYx-4kRCD33me7YhdI",
@@ -655,7 +684,8 @@
         "websiteUrl": "http://www.dailypapercapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15169769439164316936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJd2AGfnYx-4kRCD33me7YhdI.jpg"
       },
       {
         "id": "ChIJSYT6QGw6-4kRwrG7_q_Irko",
@@ -677,7 +707,8 @@
         "websiteUrl": "https://www.captainparkers.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5381459262972867010&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJSYT6QGw6-4kRwrG7_q_Irko.jpg"
       },
       {
         "id": "ChIJv1cL47gx-4kRqwLUt6jJG6A",
@@ -699,7 +730,8 @@
         "websiteUrl": "http://anejo.cc/",
         "googleMapsUrl": "https://maps.google.com/?cid=11537036596915471019&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJv1cL47gx-4kRqwLUt6jJG6A.jpg"
       },
       {
         "id": "ChIJS-GsKy85-4kRkqO8cIFotDo",
@@ -720,7 +752,8 @@
         "websiteUrl": "http://www.ringbrosmarketplace.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4230120855159219090&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJS-GsKy85-4kRkqO8cIFotDo.jpg"
       },
       {
         "id": "ChIJ5ShLb6g--4kRyGGg3R9ldjs",
@@ -741,7 +774,8 @@
         "websiteUrl": "https://woolfies.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4284723283026272712&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ5ShLb6g--4kRyGGg3R9ldjs.jpg"
       },
       {
         "id": "ChIJZbVzxPsw-4kR7HGC42e1Xbo",
@@ -763,7 +797,8 @@
         "websiteUrl": "http://www.blackcattavern.com/?utm_source=googlemaps",
         "googleMapsUrl": "https://maps.google.com/?cid=13429089121691922924&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJZbVzxPsw-4kR7HGC42e1Xbo.jpg"
       },
       {
         "id": "ChIJ1W3vsfsw-4kR6owjhTsDDyc",
@@ -785,7 +820,8 @@
         "websiteUrl": "http://www.spankysclamshack.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2814471846301502698&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ1W3vsfsw-4kR6owjhTsDDyc.jpg"
       },
       {
         "id": "ChIJYV6ymyAx-4kRosnJ85uliGg",
@@ -807,7 +843,8 @@
         "websiteUrl": "http://www.paindavignon.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7532452466005756322&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJYV6ymyAx-4kRosnJ85uliGg.jpg"
       },
       {
         "id": "ChIJTyQwBgIx-4kRbOyYZiJMFHc",
@@ -829,7 +866,8 @@
         "websiteUrl": "http://dailypapercapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8580566900681534572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJTyQwBgIx-4kRbOyYZiJMFHc.jpg"
       },
       {
         "id": "ChIJa8uHwzwx-4kRlIG5I4bosZ0",
@@ -851,7 +889,8 @@
         "websiteUrl": "https://www.chick-fil-a.com/locations/ma/cape-cod?utm_source=yext&utm_medium=link",
         "googleMapsUrl": "https://maps.google.com/?cid=11363118997655093652&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJa8uHwzwx-4kRlIG5I4bosZ0.jpg"
       },
       {
         "id": "ChIJo4j1tls5-4kRVId1MlJKHUY",
@@ -873,7 +912,8 @@
         "websiteUrl": "http://www.threefinscoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5052276073873901396&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJo4j1tls5-4kRVId1MlJKHUY.jpg"
       },
       {
         "id": "ChIJpzHM0VQx-4kRYE_GQpPhFOA",
@@ -895,7 +935,8 @@
         "websiteUrl": "http://www.oldkingscoffeehouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16146778586626805600&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJpzHM0VQx-4kRYE_GQpPhFOA.jpg"
       },
       {
         "id": "ChIJn9avpsM2-4kRHUNiL7FUsw4",
@@ -917,7 +958,8 @@
         "websiteUrl": "http://nirvanacoffeecompany.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1059283457343111965&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJn9avpsM2-4kRHUNiL7FUsw4.jpg"
       },
       {
         "id": "ChIJZ785kwox-4kRvWffx_y29ok",
@@ -938,7 +980,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJZ785kwox-4kRvWffx_y29ok/photos/AcnlKN0mjHLQBuevwbvWl2sDi3--07RH34Z-JZCzbvjoYGRWrqlSZx2IUna0RW5AYNcTuyvZMTb0-20Iexuh6W8VVPp-XJNNMsWscjW2Hd3Z9HPvbowQq0mavMRUX2LM0CQQU2cznv5-OPwUFEKs-XWfkaj4HOQxIVD0ka7AtxLj1agRP9t8YmDdqR4GLIbElMKUVg5NfQtRpSJBw0goHybkDsQY5QUmwasUUh1-iGN9pMllXaEvg1epdOnEDMuzC-M57dxweBzbGNRgRSFJLOJVTghsF0MMKGXnA5FSRySES1I0AA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9941334424268269501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJZ785kwox-4kRvWffx_y29ok.jpg"
       },
       {
         "id": "ChIJP1tl0Rw8-4kRnnAisoSMnNM",
@@ -959,7 +1002,8 @@
         "websiteUrl": "http://www.pelhamhouseresort.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15248216939921830046&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJP1tl0Rw8-4kRnnAisoSMnNM.jpg"
       },
       {
         "id": "ChIJjTBt0XQ3-4kRfXlPTtO0Nrk",
@@ -980,7 +1024,8 @@
         "websiteUrl": "http://www.leonessacapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13346053365403974013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJjTBt0XQ3-4kRfXlPTtO0Nrk.jpg"
       },
       {
         "id": "ChIJcS3-BAAx-4kRdfTyEIhzuYQ",
@@ -1001,7 +1046,8 @@
         "websiteUrl": "https://www.kiddshillkitchen.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9563802311935063157&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJcS3-BAAx-4kRdfTyEIhzuYQ.jpg"
       },
       {
         "id": "ChIJvb0TxwIx-4kRNT9Mc9PgxKY",
@@ -1023,7 +1069,8 @@
         "websiteUrl": "http://www.brcapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12016976904508423989&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJvb0TxwIx-4kRNT9Mc9PgxKY.jpg"
       },
       {
         "id": "ChIJm-ji0LY3-4kRgqfBrplm8uQ",
@@ -1044,7 +1091,8 @@
         "websiteUrl": "https://lighthousekeeperspantry.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16497361195259504514&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJm-ji0LY3-4kRgqfBrplm8uQ.jpg"
       },
       {
         "id": "ChIJ1TvHrQQx-4kRYgmFQSYBJuE",
@@ -1066,7 +1114,8 @@
         "websiteUrl": "https://covecoastalkitchen.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16223655971468413282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ1TvHrQQx-4kRYgmFQSYBJuE.jpg"
       },
       {
         "id": "ChIJ03io0Lox-4kRNzy2gAACqQw",
@@ -1087,7 +1136,8 @@
         "websiteUrl": "http://mariner.cafe/",
         "googleMapsUrl": "https://maps.google.com/?cid=912262600701918263&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ03io0Lox-4kRNzy2gAACqQw.jpg"
       },
       {
         "id": "ChIJiajT9gcx-4kRoAOX2jOkReM",
@@ -1109,7 +1159,8 @@
         "websiteUrl": "http://adventurecafecape.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16376676162620294048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJiajT9gcx-4kRoAOX2jOkReM.jpg"
       },
       {
         "id": "ChIJw2Q6bLE7-4kRC63U1hIZsUs",
@@ -1130,7 +1181,8 @@
         "websiteUrl": "https://theholecapecod.com/?utm_source=gmb_yarmouth&utm_medium=organic&utm_campaign=listing",
         "googleMapsUrl": "https://maps.google.com/?cid=5454168192426749195&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:45.785Z",
-        "updatedAt": "2026-01-23T15:56:45.785Z"
+        "updatedAt": "2026-01-23T15:56:45.785Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJw2Q6bLE7-4kRC63U1hIZsUs.jpg"
       }
     ],
     "adventure": [
@@ -1152,7 +1204,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJSXbp1cw-4kRNGHIU6OgcQY/photos/AcnlKN1LU4fYTZkF5WkxDIU7tsLWSGcPlq7CsTiOmanCh_DOAjOJUwsumV-bDuEASMeEWKSDRWA_U7uHEWb8_0CTKtdH2NZhBdHNQ7I6r3jbiczsvxHtyOheE1RrBlZE5eJN-gu-DmLim31o-BrLz5PFdM1Um9sVXaP5xh4FoCNV-911XhMW60FArmJBshT3zuHjugf981S-qs2kkHRntrK8h3dCO8f0jX4YyIihC0_53jgHPP3t5LGCFzzRecY9WMFCsVVM_twvoRzJPW9eMcdfAj1xuZEp6nq28dO3HT9oT1Hd3vjgoap0fG1A89tLuUynI_MQMmzrCAhUr6Fusw3mDCUmtOanPrcmmNhigEcstRavDXOJ0tLssHQm74GytWtyqHhKZRMcUcE0K5HesKsK8o2s6TX8oeYdbDHlaLy2KzKGZ5h6Qdb3IcYctKLqZHNa/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=464328859941626164&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJJSXbp1cw-4kRNGHIU6OgcQY.jpg"
       },
       {
         "id": "ChIJbzVQOabJ5IkR9mg0WkKqiZw",
@@ -1173,7 +1226,8 @@
         "websiteUrl": "https://www.savebuzzardsbay.org/places-to-go/herring-run-recreation-area/",
         "googleMapsUrl": "https://maps.google.com/?cid=11279733943684065526&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJbzVQOabJ5IkR9mg0WkKqiZw.jpg"
       },
       {
         "id": "ChIJKZGQvVEw-4kRNqd9tsn-zJQ",
@@ -1194,7 +1248,8 @@
         "websiteUrl": "http://www.town.barnstable.ma.us/",
         "googleMapsUrl": "https://maps.google.com/?cid=10722224955165878070&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJKZGQvVEw-4kRNqd9tsn-zJQ.jpg"
       },
       {
         "id": "ChIJjdcueHzT5IkRBwWoKkMjJ4g",
@@ -1215,7 +1270,8 @@
         "websiteUrl": "https://rideawayadventures.com/?utm_source=gmb_mashpee&utm_medium=organic&utm_campaign=listing",
         "googleMapsUrl": "https://maps.google.com/?cid=9810849084635350279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJjdcueHzT5IkRBwWoKkMjJ4g.jpg"
       },
       {
         "id": "ChIJo34u2zHL5IkREU4H_rh4FdY",
@@ -1236,7 +1292,8 @@
         "websiteUrl": "https://rideawayadventures.com/?utm_source=gmb_6a&utm_medium=organic&utm_campaign=listing",
         "googleMapsUrl": "https://maps.google.com/?cid=15426368834558709265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJo34u2zHL5IkREU4H_rh4FdY.jpg"
       },
       {
         "id": "ChIJmWUjQPsw-4kRBPYGp0vq8Vw",
@@ -1257,7 +1314,8 @@
         "websiteUrl": "http://www.wickedwavescapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6697391731522336260&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJmWUjQPsw-4kRBPYGp0vq8Vw.jpg"
       },
       {
         "id": "ChIJUXbOnhE3-4kRKkwM9poZSks",
@@ -1278,7 +1336,8 @@
         "websiteUrl": "http://www.massaudubon.org/longpasture",
         "googleMapsUrl": "https://maps.google.com/?cid=5425176854464842794&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJUXbOnhE3-4kRKkwM9poZSks.jpg"
       },
       {
         "id": "ChIJ62Gny9fz5IkRssi7l1-fx94",
@@ -1299,7 +1358,8 @@
         "websiteUrl": "http://www.outdoorwoodlandlearners.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16052974629701798066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ62Gny9fz5IkRssi7l1-fx94.jpg"
       },
       {
         "id": "ChIJuRapNQA3-4kRH3jJ0C46NJs",
@@ -1319,7 +1379,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuRapNQA3-4kRH3jJ0C46NJs/photos/AcnlKN2RuhE4F8aB30hedJIfgRSxv0EST_Ea3uWlTautLmG7VtvJInQskuYBTXf-MDKwdo2D4BoroCUJYfN8Kn2Iu_7HfMCtYPMTjKILJggQsmW10PP1orynFMoSrpoMmEOX77n52c33W2JfhL2eiFZCTCCtro-QvpRLNQo-OQjj1PI_vhALmTaWCRSRPN9fTnV64lcZmHDuJxDTh8w5PRfGo3zOTz0Apvcb1yfhMUw9RKW-f6LCeHmHL7-6qWfA9tG5YiKAOITfiv-w7YT29pbdRJHR8Az1Tk6DwLblK7HXUwefyBFPBKqJIvL5xlAPcfqM_onxV8UpCxYO-9B19kYA7wg-V-lrj3weXdgzkG4w3IX6fw6o1OD1nk2zDxpDqwmWv0CMbMnZdBM4SvH0OpUSo81L4o043s671GueUG8VdhS1Z7YLQvFjGJRhxQkxOA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11183627747413555231&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJuRapNQA3-4kRH3jJ0C46NJs.jpg"
       },
       {
         "id": "ChIJfWagUQA3-4kRMhxXLv4b0s4",
@@ -1340,7 +1401,8 @@
         "websiteUrl": "https://www.hsoy.org/nature-trails",
         "googleMapsUrl": "https://maps.google.com/?cid=14903004895435496498&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJfWagUQA3-4kRMhxXLv4b0s4.jpg"
       },
       {
         "id": "ChIJxYU-FwAx-4kRp1LoaMzrMao",
@@ -1380,7 +1442,8 @@
         "websiteUrl": "https://www.savebuzzardsbay.org/about-us/our-centers-reserves/onset-bay-center/",
         "googleMapsUrl": "https://maps.google.com/?cid=10389281760454401363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJxViLEfzF5IkRU11UY7ckLpA.jpg"
       },
       {
         "id": "ChIJ__BE8Ng4-4kRs_FlaqRtDss",
@@ -1401,7 +1464,8 @@
         "websiteUrl": "https://www.town.dennis.ma.us/",
         "googleMapsUrl": "https://maps.google.com/?cid=14631752792300450227&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ__BE8Ng4-4kRs_FlaqRtDss.jpg"
       },
       {
         "id": "ChIJ7e27a8x644kRoHwCsZ36CUA",
@@ -1422,7 +1486,8 @@
         "websiteUrl": "https://cathleenstoneisland.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=4614494848404323488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boston/ChIJ7e27a8x644kRoHwCsZ36CUA.jpg"
       },
       {
         "id": "ChIJt8H2Qv80-4kR3JUlQW_6bes",
@@ -1442,7 +1507,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJt8H2Qv80-4kR3JUlQW_6bes/photos/AcnlKN1N6M8YXGVK7Raddpb1THfDT3OM42UJ4eLRl9KsaRrWWSw56opSaN5yrPaqyfNMVpZfzjJffDNKRHjrvG0UHx1bRS6fEP9woHY5YCXnAI3q-Gl12JsLr4Ti9WPhgCni7N52E78xaYOQfi-XqqmbYg-Xg9UXdzT1qv6APH2jDbPDMT2cGdlsLNkKr8fvWyqAgz830Igfa-Xf5mjejYX4QGHtzJiqcQcIChDjn7qv3Sbdg5VwRB9seWYiU9lW__TWRLUAclsAlXuuJq4Fw7F-CSy9iQybUGbkm8qg0l6AabS60Qw1WFNdQDenh16e_aiPJOBoR4OyxQ-GRUL0VY7i_lP92bmUB-Fl1ANf-WdxtUBmk0dQiIFKfMT-5soME3ye0mFZZbUbPgkmNVUaeIcloPc9Hk3Hx81ZvvEdzbweQuRMLVo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16964490727115822556&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJt8H2Qv80-4kR3JUlQW_6bes.jpg"
       },
       {
         "id": "ChIJC46nUOs5-4kRQKWO_4F6xXg",
@@ -1463,7 +1529,8 @@
         "websiteUrl": "https://www.yarmouth.ma.us/93/Peter-Homer-Park",
         "googleMapsUrl": "https://maps.google.com/?cid=8702496553720259904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJC46nUOs5-4kRQKWO_4F6xXg.jpg"
       },
       {
         "id": "ChIJpRdM4nEz-4kRIO0uq1aIUR4",
@@ -1483,7 +1550,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpRdM4nEz-4kRIO0uq1aIUR4/photos/AcnlKN1U1ThpwitGX3XoH-4iUySXpwD72qUiasCayT7QFADluNzKxHJLRS_v1nbjyWegEr6X093qXXuLaBxs6AUAvLTTSTv9TtOldymI5hT_BUglQ25zrQ92UyxemX3MQspvoJ_dR5ck2QL87WoskFWAc9BSjG4lALAH-N7ihV3wpEWNiMhOYPxZoeloFz9zlONP-pI_QE82puWZZaaPR5DZ_boSlLaoIgBWK5uT4tlGBZ4pntI7vGMsCLfm4dZ7F9dum3WluMznQACqMlQqLfsyr2rDQiVW2FYUPgkUPhlIZi3XT6j0NnsHWzWffwG71AYIPHKUncbr3KHjdGiFoSbqyvKLfcqXoBAwlKYlGL43F2f96L6PUMgKXhhCKlv8C7_pGQ5oXSBrDS1F8cns5UtEOPP4i-tv5n-ra7gJzY1Gxg1a4S9Z/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2184677200071945504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJpRdM4nEz-4kRIO0uq1aIUR4.jpg"
       },
       {
         "id": "ChIJ5_58VXvT5IkR3ecGqzV9_EQ",
@@ -1503,7 +1571,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5_58VXvT5IkR3ecGqzV9_EQ/photos/AcnlKN3Wcwnc09YwMmk07Uf-p2u6Z49w6yeOMqUMHrNgwjDMYGNWZDzEwwuFkyChgqTflN7asweVeMAVq554Lb90CSsYWmN10cAfFiQ0H_dwcLEZpPaTm3dUPd9lU0Eo9nrffQFIlIcIZkou8JiBeZLEDyFwc3BFBRRpPAhQELKu0qbqUXaWRuHiHhGlQH1hThQOzIfHGckOCbrtzA2SBM3wRgpLQC45TEL_2kNT6dToZunl3Dad_wUbZYiTc-RdXSlIhyrms5jFo2z0un_qL7gnCgEyKLIb3QzUsHeXDEO1CfH12tQQHVEatdj9bbnOEI_HVxHGpTA_RQ4wlhxLxj0zZqX0Q-tlXoiQvLUaPnsDhtQkjmqCz3HyBSf53S2B8tq0KlxLLKtIDI_WH3sU21otCppdHfbRyrtWxWlMAP98EMfQ5Gkn/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4970985758166280157&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ5_58VXvT5IkR3ecGqzV9_EQ.jpg"
       },
       {
         "id": "ChIJNwSAI-0x-4kRUM-hKFO_q8k",
@@ -1523,7 +1592,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNwSAI-0x-4kRUM-hKFO_q8k/photos/AcnlKN1Us-fgkLVmPeTPZj6tR0fPOItFKsNi9wObGogi-571Ot74GS6jMfgs3vQUDvKeyNp1-a6YFmx9cvGj9sV1O2xxTRZnSL1KzasT8x0gVh_DDhkcDjl52CeY85UGk0pnlSX9jT-F8ofBoLgzUkQpyc4YTADH5gJ74bDmxg0HdBagjf3GTI1a8hvp_2IJp1oYvp8De_BztJLg1HaLmIwazvcTGLzzvl82oJjemeYsEIn7wMeAgIZouwqj4pDKBdJgq2tXTGn3oNg-TZLsQzIkAHrPTAr_VPzsAkMZ0Q3e72CR0r-mRqGwCl1u_g_4BLbVE-etXkma9bkYYndaqtq2-TEgWFpbFrPwunkaaMFJPPIUtzj3jGLN14FNy4bmdm4TvBvQZunpiCG-22YcHK6EA5zuvoeRkEvT_E0U3pfxJpoTsKFJwykkVis7mrRATyBP/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14531918986525921104&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJNwSAI-0x-4kRUM-hKFO_q8k.jpg"
       },
       {
         "id": "ChIJFU3mb5c1-4kRqx-1FP68_gs",
@@ -1544,7 +1614,8 @@
         "websiteUrl": "https://www.mass.gov/info-details/old-sandwich-game-farm-wma",
         "googleMapsUrl": "https://maps.google.com/?cid=864335977956843435&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJFU3mb5c1-4kRqx-1FP68_gs.jpg"
       },
       {
         "id": "ChIJkSGT7S85-4kR-W0NFGGYvdQ",
@@ -1564,7 +1635,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJkSGT7S85-4kR-W0NFGGYvdQ/photos/AcnlKN1HCpHT_hdEQvC5yvFgJA0CHHjJSJLpOM-qjwZyjlNEVw5JI7MduTP2irGZ7looheFld4IaNA-6TpURU9MSR0qznwBk9oC868_0z9lzj1SUhFvtH1THQJxD5JijAIlC6y26j5WPTVcQGYw3tfa1zOonuodgBHy1fK4NjloASISqZC4ZJLVuAZ27_w3VQlAQzyRf3cRHrk2w40gXjltWYgykeAa3NFec34M7xseTULxCu4olQU_PySHXHO71G7F9Jga5-oHHR59oMM3oOxwzyaXyXzzPzlbKKmmViW8lCGKSYm84X25RoCYtLbD6JoWqtFHxB9_FPcRRs6sNMB94gaX2DV03zQIHrb2XyUnnomVK0v0oPkqm0VVo4yG2wwrg_npaUv-rp9Y8pO2b92suc4AEivkzZhEDhD86qf8e-tfcz-lB/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15329576249354710521&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJkSGT7S85-4kR-W0NFGGYvdQ.jpg"
       },
       {
         "id": "ChIJa2VpeM00-4kR8tegxj3foMU",
@@ -1585,7 +1657,8 @@
         "websiteUrl": "https://www.mass.gov/info-details/old-sandwich-game-farm-wma",
         "googleMapsUrl": "https://maps.google.com/?cid=14240627478163937266&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJa2VpeM00-4kR8tegxj3foMU.jpg"
       },
       {
         "id": "ChIJwyP0Qv80-4kRbL2rsZKLf0w",
@@ -1606,7 +1679,8 @@
         "websiteUrl": "http://www.town.barnstable.ma.us/SandyNeckPark/fileuploads/snmap.pdf",
         "googleMapsUrl": "https://maps.google.com/?cid=5512277931087084908&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJwyP0Qv80-4kRbL2rsZKLf0w.jpg"
       },
       {
         "id": "ChIJHYbZr5kz-4kR43Rtc0igDp4",
@@ -1626,7 +1700,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHYbZr5kz-4kR43Rtc0igDp4/photos/AcnlKN3QR2K76iMvD3wJM9vXNGIum5oaFZYMYstoed0LrcTJJ5HtByRt4P6AqpBl0MS46E7RL46vS_TiOComFOWZ5Cxk3ANfmFIToL-qG3kDiT2DnSOx5TujApddq3JaLH_fa7NbEZMo2vircy7-PH-PQkpUz6ALeRAFjZDLC8XTgxgaHyeXt9rCjaisSlFnzYgek_JCB2TCNP0WVBXLOc2kNcBcu0F3FO3jJCc-DdX831x44XdQ3g1CLvt7H_sF85RbZ8duflGjbl8dj_RT_v_CI0a8-296L6iI6Q66Fu8vB-dB7EbC6cGsdM2DyKE_3_MlanIT0YZnDdA-L5ASHPU2NvvwhKL7HLtH3vKNVwCdmQLxs3EPED3ZeqD542rxIdgYScx6G8DykTV1jTx44jiHosb1DfOSP__ug6FuvgIBFesdMB4a/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11389216740701205731&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:47.289Z",
-        "updatedAt": "2026-01-23T15:56:47.289Z"
+        "updatedAt": "2026-01-23T15:56:47.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJHYbZr5kz-4kR43Rtc0igDp4.jpg"
       }
     ],
     "cultural": [
@@ -1649,7 +1724,8 @@
         "websiteUrl": "http://www.whalingmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=10879156542157438282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJZY9gPvHj5IkRSj0pHzyH-pY.jpg"
       },
       {
         "id": "ChIJMyvqXGw6-4kRRlbWkl2vdQ4",
@@ -1670,7 +1746,8 @@
         "websiteUrl": "http://www.discoverpirates.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1041931705236477510&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJMyvqXGw6-4kRRlbWkl2vdQ4.jpg"
       },
       {
         "id": "ChIJHTqcjPww-4kRkTZXasm3VXs",
@@ -1691,7 +1768,8 @@
         "websiteUrl": "http://jfkhyannismuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=8887211515385951889&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJHTqcjPww-4kRkTZXasm3VXs.jpg"
       },
       {
         "id": "ChIJUbbi8v0w-4kRqezQfbtbt1Q",
@@ -1712,7 +1790,8 @@
         "websiteUrl": "http://www.blackpearltattooz.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6104448680751852713&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJUbbi8v0w-4kRqezQfbtbt1Q.jpg"
       },
       {
         "id": "ChIJaZ2dbH03-4kRtEF2mPSjAUE",
@@ -1733,7 +1812,8 @@
         "websiteUrl": "http://www.edwardgoreyhouse.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=4684205358367261108&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJaZ2dbH03-4kRtEF2mPSjAUE.jpg"
       },
       {
         "id": "ChIJC66vd8E2-4kRHnRHce2uGuk",
@@ -1754,7 +1834,8 @@
         "websiteUrl": "https://www.sturgislibrary.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=16796930095062676510&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJC66vd8E2-4kRHnRHce2uGuk.jpg"
       },
       {
         "id": "ChIJx7umNAE0-4kR2yr24E29lsk",
@@ -1775,7 +1856,8 @@
         "websiteUrl": "http://www.taowatergallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14526005790314474203&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJx7umNAE0-4kR2yr24E29lsk.jpg"
       },
       {
         "id": "ChIJIbnS0to0-4kRFHpKRUM8Xcc",
@@ -1796,7 +1878,8 @@
         "websiteUrl": "http://blackcrowgallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14365704646004734484&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJIbnS0to0-4kRFHpKRUM8Xcc.jpg"
       },
       {
         "id": "ChIJJUeiIXcx-4kRnkEs__s7FKc",
@@ -1817,7 +1900,8 @@
         "websiteUrl": "https://www.barnstable.k12.ma.us/",
         "googleMapsUrl": "https://maps.google.com/?cid=12039313657372098974&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJJUeiIXcx-4kRnkEs__s7FKc.jpg"
       },
       {
         "id": "ChIJ1ebkIrU_-4kRdBZ3CyHdwWQ",
@@ -1838,7 +1922,8 @@
         "websiteUrl": "http://www.capecodtheatrecompany.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=7260327208293963380&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ1ebkIrU_-4kRdBZ3CyHdwWQ.jpg"
       },
       {
         "id": "ChIJk3yTr1w4-4kRsOHEJZwDM70",
@@ -1859,7 +1944,8 @@
         "websiteUrl": "http://taylorbrayfarm.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=13633244466164064688&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJk3yTr1w4-4kRsOHEJZwDM70.jpg"
       },
       {
         "id": "ChIJS9-fSH44-4kRRy0NRCRxTXA",
@@ -1880,7 +1966,8 @@
         "websiteUrl": "http://www.ccmoa.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=8092248506029124935&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJS9-fSH44-4kRRy0NRCRxTXA.jpg"
       },
       {
         "id": "ChIJ9Tati304-4kRLa12OvKGq14",
@@ -1901,7 +1988,8 @@
         "websiteUrl": "https://www.eventidearts.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=6821694435503811885&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ9Tati304-4kRLa12OvKGq14.jpg"
       },
       {
         "id": "ChIJVQLbgd42-4kROYYvESBof2o",
@@ -1922,7 +2010,8 @@
         "websiteUrl": "http://capecodartcenter.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=7673966776999183929&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJVQLbgd42-4kROYYvESBof2o.jpg"
       },
       {
         "id": "ChIJPdlRGX03-4kR17hNiO5qkKk",
@@ -1943,7 +2032,8 @@
         "websiteUrl": "https://www.thacherhall.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=12218383361777711319&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJPdlRGX03-4kR17hNiO5qkKk.jpg"
       },
       {
         "id": "ChIJN7-tDTLL5IkRN9ZQMjNgAB4",
@@ -1964,7 +2054,8 @@
         "websiteUrl": "http://www.capecodglass.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=2161833594141595191&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJN7-tDTLL5IkRN9ZQMjNgAB4.png"
       },
       {
         "id": "ChIJtVMa5l7N5IkRn8bigebmF7s",
@@ -1985,7 +2076,8 @@
         "websiteUrl": "http://www.cahoonmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=13481497887252858527&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJtVMa5l7N5IkRn8bigebmF7s.jpg"
       },
       {
         "id": "ChIJb9xFufww-4kRLXSAks1IVZw",
@@ -2006,7 +2098,8 @@
         "websiteUrl": "http://www.redfishbluefish.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11264990090700551213&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJb9xFufww-4kRLXSAks1IVZw.jpg"
       },
       {
         "id": "ChIJ9ZCqHPsw-4kRoZru9po3dR8",
@@ -2027,7 +2120,8 @@
         "websiteUrl": "http://www.capecodmaritimemuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=2266779126158236321&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ9ZCqHPsw-4kRoZru9po3dR8.jpg"
       },
       {
         "id": "ChIJxweWv8M2-4kRPZdsFFTx4yI",
@@ -2048,7 +2142,8 @@
         "websiteUrl": "http://www.barnstablecomedyclub.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=2514118360425076541&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJxweWv8M2-4kRPZdsFFTx4yI.jpg"
       },
       {
         "id": "ChIJtf-MNAjT5IkRJSSr24UwwwY",
@@ -2069,7 +2164,8 @@
         "websiteUrl": "http://www.capecodchildrensmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=487286536160355365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJtf-MNAjT5IkRJSSr24UwwwY.jpg"
       },
       {
         "id": "ChIJn-hOCrw--4kRqvs-WEaJfUQ",
@@ -2089,7 +2185,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn-hOCrw--4kRqvs-WEaJfUQ/photos/AcnlKN1tYBfS_pPRLwSSW009KnUqGrfTYQ1gW1R5y6Lzadle5b_SLllQZSJnaWgGDTKxdu6t74IJ7gaESE1PVw2xP_uGs-vDnm-cMGKaTyBSsJkXRHvPgjXLcaWVxQnjJowbRNHLrM3-OnC2RYWO9d6jPTKisnN1_z5snbWE4C8ImlLOiYCErtV1ovLfFMU4dMg8dI9o653CEJ5cu3cMJDo8QCbKJ6K5udlXYnfIfcTc8uzQvXBcazu7561XpPPdjg-7DMUCC_TRIaUrxWXUdK4dx0Kl1mM7jbAoO1k3xvXlN_steQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4935251701889170346&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJn-hOCrw--4kRqvs-WEaJfUQ.jpg"
       },
       {
         "id": "ChIJobTUuy8y-4kRlnG4_OR3Emg",
@@ -2110,7 +2207,8 @@
         "websiteUrl": "http://www.centervillehistoricalmuseum.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=7499188154901492118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJobTUuy8y-4kRlnG4_OR3Emg.jpg"
       },
       {
         "id": "ChIJ42Pl8pU--4kRDNzgOTb9aBk",
@@ -2131,7 +2229,8 @@
         "websiteUrl": "http://www.harwichantiquecenter.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1830991657867205644&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ42Pl8pU--4kRDNzgOTb9aBk.jpg"
       },
       {
         "id": "ChIJRWBr-v8z-4kR9ge5QT65q0I",
@@ -2151,7 +2250,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRWBr-v8z-4kR9ge5QT65q0I/photos/AcnlKN0NDCh16fnLKMnVk4E8QPGj1J7md_7gy8qWex6kB273CHeePF9_vhaT8UtVvyyo37ZdEOxEZ6_4rqcNr5PK04spUfwZGFUz1NYCg-wAx3gt3Y3d_iPkvaUYVUFqVqcSc3LvHy5ynsBerRT9qZbgp_upckr86gtJxyeMSo55NaN30tlwmzrXwVt4YRVA4WDu_tvq-yIFJAWngPxrsGDgAN9CAcUfDyXkrFDhWlDuVphmEPvwZjx7GoBI7lySZgTyX3W3LpaJjq2hatkJ9WjdvlbCjntCsuQu-RqUhnpNB9XYEYkbErRvf81A3V_UITG9G1GOtDZlzdUZnq-x7ta1OZA_6ahlbE87dQYRLcH8QUnHkYFHVVMxkD3YbIe5c6j15kgc_A_Vtadadv-TwDl4xwYUlpmyEid3zngpIX3ZxYqn0fY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4804137104562522102&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJRWBr-v8z-4kR9ge5QT65q0I.jpg"
       },
       {
         "id": "ChIJ0zES0IEy-4kREbc7a4vN6dc",
@@ -2172,7 +2272,8 @@
         "websiteUrl": "https://www.discoverosterville.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=15558192386411312913&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ0zES0IEy-4kREbc7a4vN6dc.jpg"
       },
       {
         "id": "ChIJNbBdUqQx-4kR87xRjlX6F1M",
@@ -2193,7 +2294,8 @@
         "websiteUrl": "http://www.toadhallcars.com/default.asp",
         "googleMapsUrl": "https://maps.google.com/?cid=5987529474979249395&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJNbBdUqQx-4kR87xRjlX6F1M.jpg"
       },
       {
         "id": "ChIJWYog6YA4-4kRT1uPiN4Zm1o",
@@ -2214,7 +2316,8 @@
         "websiteUrl": "http://www.capecodcenterforthearts.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=6528840528368196431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:48.376Z",
-        "updatedAt": "2026-01-23T15:56:48.376Z"
+        "updatedAt": "2026-01-23T15:56:48.376Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJWYog6YA4-4kRT1uPiN4Zm1o.jpg"
       }
     ],
     "relaxation": [
@@ -2236,7 +2339,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJSXbp1cw-4kRNGHIU6OgcQY/photos/AcnlKN3NAxEWbiz5TtQanETMKNqhdjp5BgFKWW4yPHodMjI4kQsoSgDOP9t1JVuSdqNKnWslLMAPCcNotV_An-dkhjyg8vccRiD2PdqZr8vBPfD8fyuhjsLao0OlT77xd6cVlG1VZ2OT7N-fr6bB-yY7y3EgFUc3PIzAq3XaQ_ndPbfFF_e5QKTBGlk_sROeSKo8FMpxauC2pHx-w81-xa-7dhspd3Dn2tqhwE1EoPpur6cMrAmzfpqXOcxn9UWQ0KtIHgi1osY_D1M9c_FrEBHDRDtiEdkrQWrQ0WwLSAvgRNCH4qTXD_xuwgS6byDGdeXPjfH3b8tKJNRHZfUiYHgjYvXbdARB1PoS869vACNL64nDMolucL6oL2tzOwFjclxwV85t_AhLebKxiuLtKJOm1aAM2iPgCIs7cPLrRA7B8RPUW5tpWfGtf4C8P1SoFntx/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=464328859941626164&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJJSXbp1cw-4kRNGHIU6OgcQY.jpg"
       },
       {
         "id": "ChIJKZGQvVEw-4kRNqd9tsn-zJQ",
@@ -2257,7 +2361,8 @@
         "websiteUrl": "http://www.town.barnstable.ma.us/",
         "googleMapsUrl": "https://maps.google.com/?cid=10722224955165878070&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJKZGQvVEw-4kRNqd9tsn-zJQ.jpg"
       },
       {
         "id": "ChIJmWUjQPsw-4kRBPYGp0vq8Vw",
@@ -2278,7 +2383,8 @@
         "websiteUrl": "http://www.wickedwavescapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6697391731522336260&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJmWUjQPsw-4kRBPYGp0vq8Vw.jpg"
       },
       {
         "id": "ChIJx2Mv6gox-4kRpcdRbxfWhH4",
@@ -2299,7 +2405,8 @@
         "websiteUrl": "http://www.hyanniscountrygarden.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9116646941844948901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJx2Mv6gox-4kRpcdRbxfWhH4.jpg"
       },
       {
         "id": "ChIJUXbOnhE3-4kRKkwM9poZSks",
@@ -2320,7 +2427,8 @@
         "websiteUrl": "http://www.massaudubon.org/longpasture",
         "googleMapsUrl": "https://maps.google.com/?cid=5425176854464842794&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJUXbOnhE3-4kRKkwM9poZSks.jpg"
       },
       {
         "id": "ChIJQXVRpea65IkRSyIKarxPKW0",
@@ -2341,7 +2449,8 @@
         "websiteUrl": "https://plymouthma.myrec.com/info/facilities/details.aspx?FacilityID=11272",
         "googleMapsUrl": "https://maps.google.com/?cid=7865905894830776907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJQXVRpea65IkRSyIKarxPKW0.jpg"
       },
       {
         "id": "ChIJa8DdieQw-4kRkmq9BekNhiM",
@@ -2362,7 +2471,8 @@
         "websiteUrl": "http://www.beyondbeautycapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2559748732681546386&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJa8DdieQw-4kRkmq9BekNhiM.jpg"
       },
       {
         "id": "ChIJlWZzMWE6-4kRoA1Q99wSVRg",
@@ -2383,7 +2493,8 @@
         "websiteUrl": "https://www.redjacketresorts.com/resorts/beach-resort",
         "googleMapsUrl": "https://maps.google.com/?cid=1753328370182000032&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJlWZzMWE6-4kRoA1Q99wSVRg.jpg"
       },
       {
         "id": "ChIJm1BKwTnY5IkRM8kna1o8IFI",
@@ -2404,7 +2515,8 @@
         "websiteUrl": "https://www.spohrgardens.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=5917796269407324467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJm1BKwTnY5IkRM8kna1o8IFI.jpg"
       },
       {
         "id": "ChIJ-1kpIV_N5IkR0UYQu2LWrdo",
@@ -2425,7 +2537,8 @@
         "websiteUrl": "https://www.therapeutic-bodywork.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15757486390772778705&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ-1kpIV_N5IkR0UYQu2LWrdo.jpg"
       },
       {
         "id": "ChIJuRapNQA3-4kRH3jJ0C46NJs",
@@ -2445,7 +2558,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuRapNQA3-4kRH3jJ0C46NJs/photos/AcnlKN3frMEGHqJddEB3gNaxcowSr_o7SeAOXgWnunZLhmp5yEpYVAowVMe0X7bfTwlxX8OYmdXCOFRtUEAtx-QlWVA5KxCyIogNMA76b50Mu-d5Q2UTYyxdKwXGaW7aLdU3u4FTXBzlw6iwseuDSgMIAXwe0RHDOtOaa8-SgOLP0Ie0vZF5jUnuxroT5t1QKDnZDyppYdAt7WGzZdy6i2Aw5bR-gmKVLGbCtw7G4z_GWABQEo0zKzznZ1VYskLCouHhCj5CpgH5ZNhesIBOj5kLPB338FMVXd5d1irLbmcqX73Cd75jPdCjtVWKeJ77CSZo8YkDXVOu1-470XsbKuJdk6TVf56v1S38qj7GOyo72zvJexGkILaaT_PJkp6fHCk5sUMbi9yvkQTErXYT6nqVFX42Hlb5nwf6F6znHE-StNTf8HUr08ijhpAkBCPDag/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11183627747413555231&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJuRapNQA3-4kRH3jJ0C46NJs.jpg"
       },
       {
         "id": "ChIJNTSwXzgx-4kRjco1mem8ylE",
@@ -2466,7 +2580,8 @@
         "websiteUrl": "https://www.margaritavilleresorts.com/margaritaville-resort-cape-cod",
         "googleMapsUrl": "https://maps.google.com/?cid=5893730773851556493&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJNTSwXzgx-4kRjco1mem8ylE.jpg"
       },
       {
         "id": "ChIJvei74QAx-4kRf39mr1Yofk8",
@@ -2487,7 +2602,8 @@
         "websiteUrl": "http://www.salon700.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5728060128836878207&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJvei74QAx-4kRf39mr1Yofk8.jpg"
       },
       {
         "id": "ChIJ__BE8Ng4-4kRs_FlaqRtDss",
@@ -2508,7 +2624,8 @@
         "websiteUrl": "https://www.town.dennis.ma.us/",
         "googleMapsUrl": "https://maps.google.com/?cid=14631752792300450227&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ__BE8Ng4-4kRs_FlaqRtDss.jpg"
       },
       {
         "id": "ChIJzX6yCrQ--4kRiUXd5HXd4r0",
@@ -2529,7 +2646,8 @@
         "websiteUrl": "http://www.hartfarmnursery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13682742116325606793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJzX6yCrQ--4kRiUXd5HXd4r0.jpg"
       },
       {
         "id": "ChIJC46nUOs5-4kRQKWO_4F6xXg",
@@ -2550,7 +2668,8 @@
         "websiteUrl": "https://www.yarmouth.ma.us/93/Peter-Homer-Park",
         "googleMapsUrl": "https://maps.google.com/?cid=8702496553720259904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJC46nUOs5-4kRQKWO_4F6xXg.jpg"
       },
       {
         "id": "ChIJfxtV-i46-4kROaNOJYk00nY",
@@ -2571,7 +2690,8 @@
         "websiteUrl": "http://www.greenspotgardenctr.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8561963605225808697&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJfxtV-i46-4kROaNOJYk00nY.jpg"
       },
       {
         "id": "ChIJ1XWFaXQ6-4kRp28seN5Tgqk",
@@ -2592,7 +2712,8 @@
         "websiteUrl": "https://theemeraldresort.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12214417354346229671&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ1XWFaXQ6-4kRp28seN5Tgqk.jpg"
       },
       {
         "id": "ChIJx2QWyXsz-4kRzv3JJKKUQfo",
@@ -2613,7 +2734,8 @@
         "websiteUrl": "http://www.beacongardens.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18032857807091006926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJx2QWyXsz-4kRzv3JJKKUQfo.jpg"
       },
       {
         "id": "ChIJy3vFM-Ys5YkRzKD596Oo1uo",
@@ -2634,7 +2756,8 @@
         "websiteUrl": "https://thetrustees.org/place/mytoi/",
         "googleMapsUrl": "https://maps.google.com/?cid=16921898072084685004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJy3vFM-Ys5YkRzKD596Oo1uo.jpg"
       },
       {
         "id": "ChIJSd0htHlp-4kRsly_aBxjM78",
@@ -2655,7 +2778,8 @@
         "websiteUrl": "http://www.thefarmcapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13777464658724084914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJSd0htHlp-4kRsly_aBxjM78.jpg"
       },
       {
         "id": "ChIJNwSAI-0x-4kRUM-hKFO_q8k",
@@ -2675,7 +2799,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNwSAI-0x-4kRUM-hKFO_q8k/photos/AcnlKN0e44ZclN6Qyc79ey1emon1o01BxOSVL1_wBLAG05g7ezdKCut-heOGaMEXFBM9U2SgeWwcq3viGugvl2mEqOlGhxUlY_zoHJUptUnC_tPMmNDNKZxzV2PdxDtGMWqoStYUsfbcdIwob7jMFpNW8pYrVX3co8plufJIoj1tv1_Tl7KASOTwW0TvGKZe4r7a4EmzVZ6RW78j45c0CDMpG34FgRBi6mnSj2luEIgm_kPpgbnYineNTGqczLtC5xTfNbzpY8ACZMlWxwYzQyBpmzTnm-vHKdY6t81fEBU3XSEDsO3YoiJP0Yos67-BrAQzHM2AcAeKLQ47QjKbGGgUBExcB43UsQ7C0td_iiEW_mL8XXE3TiN54L29ONyqH3nSWwXF5NK9zJ9zmems1no_gcbu70QlL-J2M_LQMthKdzo5uSzVtOVHJDLE5hifUIVw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14531918986525921104&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJNwSAI-0x-4kRUM-hKFO_q8k.jpg"
       },
       {
         "id": "ChIJhyBL6Pww-4kRq8H-P9IMkT0",
@@ -2696,7 +2821,8 @@
         "websiteUrl": "https://www.solsticedayspa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4436341205092975019&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJhyBL6Pww-4kRq8H-P9IMkT0.jpg"
       },
       {
         "id": "ChIJr4tBffAy-4kRyMn5DT_JTtw",
@@ -2717,7 +2843,8 @@
         "websiteUrl": "https://mahoneysgarden.com/mahoneys-gardencenter-osterville/",
         "googleMapsUrl": "https://maps.google.com/?cid=15874847009182173640&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJr4tBffAy-4kRyMn5DT_JTtw.jpg"
       },
       {
         "id": "ChIJD2xf9MXT5IkRDskxho9qnnk",
@@ -2738,7 +2865,8 @@
         "websiteUrl": "https://www.planetfitness.com/gyms/mashpee-ma?utm_medium=organic&utm_source=extnet",
         "googleMapsUrl": "https://maps.google.com/?cid=8763559089573841166&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJD2xf9MXT5IkRDskxho9qnnk.jpg"
       },
       {
         "id": "ChIJJScwZBjL5IkRBNNUSJiu8ng",
@@ -2759,7 +2887,8 @@
         "websiteUrl": "http://scenicrootsgardencenter.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8715220197987111684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJJScwZBjL5IkRBNNUSJiu8ng.jpg"
       },
       {
         "id": "ChIJY7C89p0w-4kRfem8ZWjdE4s",
@@ -2779,7 +2908,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJY7C89p0w-4kRfem8ZWjdE4s/photos/AcnlKN1P1I9Fa23vqibik2DrRrPTdz0I9abUcTp5Oirh0yykJZp-0TRYoShhfJOkEw_QJfjOpmaGa4IeqS3ZEJn2ZDHR_9-f0lHZPUEkEE_4XireZ87INheQnsN4ApTmhV_VruM2yeFAPa61gv-34F2tuws5aRQcPZQc_lPOGbzIyq9lOnk3c5KSqpcXN3oFbKdrz04VQDfiQDbJuBQKluqjxNW-lKKboPV1Jc6h7MI3JrShfEy0PbvD3h527pZIfl19g4SEWagtWvS7sT1PdBxQUItS50xIP450AXfr9a-h8thGh2NZ5D29v9rjKOYECRxuKXPVBa3R3Hwgug0C-XgNri-98euhe2sZfoce0oU8V9Osl0uJOVQlu74sumR-Y6b5teWecufwLo1U9TacwiJRV3DGFkjatKLe447NsSktPg8GR_-D/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10021597036282702205&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJY7C89p0w-4kRfem8ZWjdE4s.jpg"
       },
       {
         "id": "ChIJs3WsrgAx-4kRrQRY-SV5Z7I",
@@ -2800,7 +2930,8 @@
         "websiteUrl": "https://www.planetfitness.com/gyms/hyannis-ma?utm_medium=organic&utm_source=extnet",
         "googleMapsUrl": "https://maps.google.com/?cid=12855376865356416173&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJs3WsrgAx-4kRrQRY-SV5Z7I.jpg"
       },
       {
         "id": "ChIJ4QyETzo6-4kRaqY60uYVSVg",
@@ -2821,7 +2952,8 @@
         "websiteUrl": "https://www.planetfitness.com/gyms/south-yarmouth-ma?utm_medium=organic&utm_source=extnet",
         "googleMapsUrl": "https://maps.google.com/?cid=6361640029751256682&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:49.743Z",
-        "updatedAt": "2026-01-23T15:56:49.743Z"
+        "updatedAt": "2026-01-23T15:56:49.743Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ4QyETzo6-4kRaqY60uYVSVg.jpg"
       }
     ],
     "nightlife": [
@@ -2845,7 +2977,8 @@
         "websiteUrl": "http://www.braziliangrill.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5736426905332333232&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.127Z",
-        "updatedAt": "2026-01-23T15:56:51.127Z"
+        "updatedAt": "2026-01-23T15:56:51.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJdxBJHgEx-4kRsLpTpODhm08.jpg"
       },
       {
         "id": "ChIJmRGrxIA4-4kRpTy_Ms-Jc0c",
@@ -2867,7 +3000,8 @@
         "websiteUrl": "http://www.scargocafe.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5148610322017238181&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.127Z",
-        "updatedAt": "2026-01-23T15:56:51.127Z"
+        "updatedAt": "2026-01-23T15:56:51.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJmRGrxIA4-4kRpTy_Ms-Jc0c.jpg"
       },
       {
         "id": "ChIJOTfQMF45-4kRcuIgQ6oSDyQ",
@@ -2889,7 +3023,8 @@
         "websiteUrl": "http://www.osheasoldeinne.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2598316032496034418&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.127Z",
-        "updatedAt": "2026-01-23T15:56:51.127Z"
+        "updatedAt": "2026-01-23T15:56:51.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJOTfQMF45-4kRcuIgQ6oSDyQ.jpg"
       },
       {
         "id": "ChIJSYT6QGw6-4kRwrG7_q_Irko",
@@ -2911,7 +3046,8 @@
         "websiteUrl": "https://www.captainparkers.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5381459262972867010&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.127Z",
-        "updatedAt": "2026-01-23T15:56:51.127Z"
+        "updatedAt": "2026-01-23T15:56:51.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJSYT6QGw6-4kRwrG7_q_Irko.jpg"
       },
       {
         "id": "ChIJv1cL47gx-4kRqwLUt6jJG6A",
@@ -2933,7 +3069,8 @@
         "websiteUrl": "http://anejo.cc/",
         "googleMapsUrl": "https://maps.google.com/?cid=11537036596915471019&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.127Z",
-        "updatedAt": "2026-01-23T15:56:51.127Z"
+        "updatedAt": "2026-01-23T15:56:51.127Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJv1cL47gx-4kRqwLUt6jJG6A.jpg"
       },
       {
         "id": "ChIJT5u1srQ5-4kRIHYCP_bGLAo",
@@ -2955,7 +3092,8 @@
         "websiteUrl": "https://www.royalpizzagrill.com/dinner.html",
         "googleMapsUrl": "https://maps.google.com/?cid=733179600275928608&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJT5u1srQ5-4kRIHYCP_bGLAo.jpg"
       },
       {
         "id": "ChIJZbVzxPsw-4kR7HGC42e1Xbo",
@@ -2977,7 +3115,8 @@
         "websiteUrl": "http://www.blackcattavern.com/?utm_source=googlemaps",
         "googleMapsUrl": "https://maps.google.com/?cid=13429089121691922924&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJZbVzxPsw-4kR7HGC42e1Xbo.jpg"
       },
       {
         "id": "ChIJYV6ymyAx-4kRosnJ85uliGg",
@@ -2999,7 +3138,8 @@
         "websiteUrl": "http://www.paindavignon.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7532452466005756322&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJYV6ymyAx-4kRosnJ85uliGg.jpg"
       },
       {
         "id": "ChIJoRkdKv0w-4kR7zu98yGdIms",
@@ -3021,7 +3161,8 @@
         "websiteUrl": "http://www.theportsidetavern.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7719905480415198191&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJoRkdKv0w-4kR7zu98yGdIms.jpg"
       },
       {
         "id": "ChIJRUdBwFtH-4kR3DPpwanHNVI",
@@ -3043,7 +3184,8 @@
         "websiteUrl": "http://www.themarshside.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5923860416792441820&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJRUdBwFtH-4kR3DPpwanHNVI.jpg"
       },
       {
         "id": "ChIJz6vnk50w-4kR-Hu3NRI7l5U",
@@ -3065,7 +3207,8 @@
         "websiteUrl": "https://www.99restaurants.com/locations/massachusetts/west-yarmouth/",
         "googleMapsUrl": "https://maps.google.com/?cid=10779149182531238904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJz6vnk50w-4kR-Hu3NRI7l5U.jpg"
       },
       {
         "id": "ChIJc67grv0w-4kRLlf9OM-tKS4",
@@ -3087,7 +3230,8 @@
         "websiteUrl": "http://www.embargorestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3326380905315784494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJc67grv0w-4kRLlf9OM-tKS4.jpg"
       },
       {
         "id": "ChIJ7Q90E5Y5-4kRzDwk3Q8qkZ8",
@@ -3109,7 +3253,8 @@
         "websiteUrl": "http://www.seadogcapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11498017571276602572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ7Q90E5Y5-4kRzDwk3Q8qkZ8.jpg"
       },
       {
         "id": "ChIJJRHxyocx-4kRISlezvCzhK8",
@@ -3131,7 +3276,8 @@
         "websiteUrl": "https://www.finnscraftbeertaphouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12647431500398995745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJJRHxyocx-4kRISlezvCzhK8.jpg"
       },
       {
         "id": "ChIJR4jfeVlH-4kRSCFVeoh5M9A",
@@ -3153,7 +3299,8 @@
         "websiteUrl": "https://www.lostdogpubs.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15002468410776166728&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJR4jfeVlH-4kRSCFVeoh5M9A.jpg"
       },
       {
         "id": "ChIJM-qU6lYx-4kRDn_HgaDNoz4",
@@ -3174,7 +3321,8 @@
         "websiteUrl": "https://neptunes.cc/",
         "googleMapsUrl": "https://maps.google.com/?cid=4513677340811165454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJM-qU6lYx-4kRDn_HgaDNoz4.jpg"
       },
       {
         "id": "ChIJIebDt6k--4kRuWeR5SDJOKs",
@@ -3196,7 +3344,8 @@
         "websiteUrl": "http://www.cleatandanchor.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12337832322309121977&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJIebDt6k--4kRuWeR5SDJOKs.jpg"
       },
       {
         "id": "ChIJ1XWFaXQ6-4kRp28seN5Tgqk",
@@ -3217,7 +3366,8 @@
         "websiteUrl": "https://theemeraldresort.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12214417354346229671&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ1XWFaXQ6-4kRp28seN5Tgqk.jpg"
       },
       {
         "id": "ChIJyfUqHcg7-4kReR-OsO-jTpE",
@@ -3239,7 +3389,8 @@
         "websiteUrl": "https://www.scallysirishalehouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10470486433537597305&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJyfUqHcg7-4kReR-OsO-jTpE.jpg"
       },
       {
         "id": "ChIJV0P1mOcw-4kRKhitHnF_Nns",
@@ -3260,7 +3411,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJV0P1mOcw-4kRKhitHnF_Nns/photos/AcnlKN1Qk2fN1rPvAaWQR5Sw1U4tL1GjUNq0rtWQZ9mmDFwliSqfxrwdiT4YuoVipom3G5g4PS0HH7G1rjwI5dR29_9jMbYu4n3qDDY6qaAQhgT4uMuvOlC8Vv7nGjiCyEWoYk8z32O_PHNFWja3RFsRfXH1VD5zErJQ291wQH9q5UCtS8KhsMga4JVbkJhcKdz2-5QQzpVn1TvShlGS8c6XiCku1fv6adq9PxBGOWNmnYNAmhlnxByENpqfoV_ejaDOA8M3jNDZf4us-TJd9XCadTCksvt3EyZP4Xs4w8oxJiQ8owP59wV9x9Lq5ddAHIXaAv2qWQ7ejEXJCm2FMf9sHGw45wJ2oTTN4IzFuGHv1yJi-pVRnUk8eB4UuKyOP-7aywN3t2PCnKZhUXNGC7YRQuKFYyT27k2x3vUll-T_3jc6ZOI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8878423839230203946&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJV0P1mOcw-4kRKhitHnF_Nns.jpg"
       },
       {
         "id": "ChIJjxEbUNIz-4kRlEfhduGP1xU",
@@ -3282,7 +3434,8 @@
         "websiteUrl": "https://www.99restaurants.com/locations/massachusetts/centerville/",
         "googleMapsUrl": "https://maps.google.com/?cid=1573884793314166676&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJjxEbUNIz-4kRlEfhduGP1xU.jpg"
       },
       {
         "id": "ChIJ-eU4E7s--4kRjdxc2g5zfEQ",
@@ -3303,7 +3456,8 @@
         "websiteUrl": "http://twenty-eight-club.lany.io/",
         "googleMapsUrl": "https://maps.google.com/?cid=4934945799321476237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ-eU4E7s--4kRjdxc2g5zfEQ.jpg"
       },
       {
         "id": "ChIJbZGLq_0w-4kRuboNNoHQTAY",
@@ -3325,7 +3479,8 @@
         "websiteUrl": "http://duckinnpubcapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=453966915833805497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJbZGLq_0w-4kRuboNNoHQTAY.jpg"
       },
       {
         "id": "ChIJAxZpBX4y-4kR4KYiDlE1sf8",
@@ -3345,7 +3500,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAxZpBX4y-4kR4KYiDlE1sf8/photos/AcnlKN1xRAoPd5TPC1gIsA4sZ95yDcmr8N9NZbtqivZdpgmcSK7anC67cqjs_TDG7pWSV3GmUblHimYY7HSBWL2x21yvLecUo6Z1x6X9qGGHO2488-jzl3AOZy6OvARzo1tDPLINehQgQlZ-cOjzJ2t4e6ovpUSQFhg_lBDbqH3GLh0-861LRNwvLlcReHp1m3xE04LhR_AMcYkpnZNIFHoVls_0PEHDxNIG1WqfFP7zeYgNZV12rBO0eelEa9xBzIZvkWHvRdkP1Xh8ElyFWn0yl1uk9g4KlU-Dur8P6GQU4fhWabtSOVyg8eNdR_2l6BL_IFUWBc-7adi4zb7AvdfP8RELFFKQUkwOHyIkR51XR9y13IXo6641qEUhJqOULNK5aYFRd0ZmBROqfEnzJ8xV4WFmF1w-B7nkZShlCyR003M/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18424566172795184864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJAxZpBX4y-4kR4KYiDlE1sf8.jpg"
       },
       {
         "id": "ChIJt3FMCZc7-4kRLpJ9E7qt2aA",
@@ -3366,7 +3522,8 @@
         "websiteUrl": "https://www.musicroomcapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11590486130717200942&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJt3FMCZc7-4kRLpJ9E7qt2aA.jpg"
       },
       {
         "id": "ChIJIfM2VOMw-4kRV5hh9bVFwvk",
@@ -3387,7 +3544,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJIfM2VOMw-4kRV5hh9bVFwvk/photos/AcnlKN0xSPOVo3oNVMsRaHgZN0uzrA2f9C6nHBRjAT1PLcaqvPGmpID4_ta5e4Vrg5xg-xvyi-eI13kWtB9DR9ehtvpLnhaCYRkx95ej1ZzMr1KE5MK_BeYUC1Gklowve9MRoiJSdvZLGY_ohr7lT76tPnNuYRGs7cKUyuPqRWEIC__m87pWrTYyCezBtihws6-NlZRwObkf7Ao0T99k5773C23PdIgD-BSMwRjRJYQcVbZEjI8RT2aP5LOMADmhOe5daFM6MBmcK1ISR4vPVqeuxir4jvN2Ab6uCYUGYAzgbuiYLE5DMR89_OSm476JLY0KqdyIQz2uvJkxQ9-CL_4eeM-xOicDcMAw_CQrwUxizAFB4t15NR8d2Zx8oFeKYP8QuhZNsydk4qEBLLXC4anmmNPhatBLppITgG2XxR1tAsXTgi0N/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17997023708734134359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:51.128Z",
-        "updatedAt": "2026-01-23T15:56:51.128Z"
+        "updatedAt": "2026-01-23T15:56:51.128Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJIfM2VOMw-4kRV5hh9bVFwvk.jpg"
       }
     ],
     "trendy": [
@@ -3410,7 +3568,8 @@
         "websiteUrl": "https://ga.coffee/",
         "googleMapsUrl": "https://maps.google.com/?cid=8770533493804390650&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ3zDamU8x-4kR-ljgjL4xt3k.jpg"
       },
       {
         "id": "ChIJjwp0CiEx-4kR5vzl-Yt3MgU",
@@ -3432,7 +3591,8 @@
         "websiteUrl": "https://stores.barnesandnoble.com/store/2092",
         "googleMapsUrl": "https://maps.google.com/?cid=374493162101931238&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJjwp0CiEx-4kR5vzl-Yt3MgU.jpg"
       },
       {
         "id": "ChIJ5ShLb6g--4kRyGGg3R9ldjs",
@@ -3453,7 +3613,8 @@
         "websiteUrl": "https://woolfies.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4284723283026272712&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ5ShLb6g--4kRyGGg3R9ldjs.jpg"
       },
       {
         "id": "ChIJYV6ymyAx-4kRosnJ85uliGg",
@@ -3475,7 +3636,8 @@
         "websiteUrl": "http://www.paindavignon.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7532452466005756322&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJYV6ymyAx-4kRosnJ85uliGg.jpg"
       },
       {
         "id": "ChIJ58p-FzDL5IkRFXsJ7GYxNxU",
@@ -3497,7 +3659,8 @@
         "websiteUrl": "http://www.titcombsbookshop.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1528744916632042261&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ58p-FzDL5IkRFXsJ7GYxNxU.jpg"
       },
       {
         "id": "ChIJo4j1tls5-4kRVId1MlJKHUY",
@@ -3519,7 +3682,8 @@
         "websiteUrl": "http://www.threefinscoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5052276073873901396&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJo4j1tls5-4kRVId1MlJKHUY.jpg"
       },
       {
         "id": "ChIJpzHM0VQx-4kRYE_GQpPhFOA",
@@ -3541,7 +3705,8 @@
         "websiteUrl": "http://www.oldkingscoffeehouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16146778586626805600&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJpzHM0VQx-4kRYE_GQpPhFOA.jpg"
       },
       {
         "id": "ChIJn9avpsM2-4kRHUNiL7FUsw4",
@@ -3563,7 +3728,8 @@
         "websiteUrl": "http://nirvanacoffeecompany.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1059283457343111965&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJn9avpsM2-4kRHUNiL7FUsw4.jpg"
       },
       {
         "id": "ChIJNWv8J2kz-4kRpJIbhhm6A38",
@@ -3584,7 +3750,8 @@
         "websiteUrl": "http://ostervillemercantile.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=8429216726687177335",
         "googleMapsUrl": "https://maps.google.com/?cid=9152363486533882532&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJNWv8J2kz-4kRpJIbhhm6A38.jpg"
       },
       {
         "id": "ChIJC5euNmox-4kRBKkgBrz85ig",
@@ -3605,7 +3772,8 @@
         "websiteUrl": "http://www.thecapecomics.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2947320890647423236&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJC5euNmox-4kRBKkgBrz85ig.jpg"
       },
       {
         "id": "ChIJvb0TxwIx-4kRNT9Mc9PgxKY",
@@ -3627,7 +3795,8 @@
         "websiteUrl": "http://www.brcapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12016976904508423989&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJvb0TxwIx-4kRNT9Mc9PgxKY.jpg"
       },
       {
         "id": "ChIJCw_j3W85-4kR9gHmr4Pq-Fg",
@@ -3648,7 +3817,8 @@
         "websiteUrl": "http://www.ritualcapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6411131920874602998&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJCw_j3W85-4kR9gHmr4Pq-Fg.jpg"
       },
       {
         "id": "ChIJdwLTJpYx-4kRhc1lOqOF2gE",
@@ -3669,7 +3839,8 @@
         "websiteUrl": "https://www.belongingbookscapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=133566075066764677&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJdwLTJpYx-4kRhc1lOqOF2gE.jpg"
       },
       {
         "id": "ChIJzbRWYQA5-4kRAfH0YWETYro",
@@ -3690,7 +3861,8 @@
         "websiteUrl": "https://www.harborfoxcoffeebar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13430318347748438273&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJzbRWYQA5-4kRAfH0YWETYro.jpg"
       },
       {
         "id": "ChIJQ767ynxp-4kR8cL635PVjdM",
@@ -3711,7 +3883,8 @@
         "websiteUrl": "http://hiddengemcapecod.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15244075144813658865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJQ767ynxp-4kR8cL635PVjdM.jpg"
       },
       {
         "id": "ChIJfQOL4F7N5IkRAiKsZy_LGgw",
@@ -3732,7 +3905,8 @@
         "websiteUrl": "http://isaiahthomasbooks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=872232882312847874&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJfQOL4F7N5IkRAiKsZy_LGgw.jpg"
       },
       {
         "id": "ChIJ22TiTWM3-4kRPXg7nUugaO8",
@@ -3753,7 +3927,8 @@
         "websiteUrl": "http://parnassusbooks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17251214619263596605&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ22TiTWM3-4kRPXg7nUugaO8.jpg"
       },
       {
         "id": "ChIJm-ji0LY3-4kRgqfBrplm8uQ",
@@ -3774,7 +3949,8 @@
         "websiteUrl": "https://lighthousekeeperspantry.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16497361195259504514&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJm-ji0LY3-4kRgqfBrplm8uQ.jpg"
       },
       {
         "id": "ChIJ03io0Lox-4kRNzy2gAACqQw",
@@ -3795,7 +3971,8 @@
         "websiteUrl": "http://mariner.cafe/",
         "googleMapsUrl": "https://maps.google.com/?cid=912262600701918263&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ03io0Lox-4kRNzy2gAACqQw.jpg"
       },
       {
         "id": "ChIJ572uHP8z-4kRx2GZz78oV3I",
@@ -3816,7 +3993,8 @@
         "websiteUrl": "https://www.bkstr.com/capecodccstore/home?cm_mmc=OrganicSearch-_-GoogleMyBusiness-_-Google-_-541",
         "googleMapsUrl": "https://maps.google.com/?cid=8239098847584412103&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:56:52.512Z",
-        "updatedAt": "2026-01-23T15:56:52.512Z"
+        "updatedAt": "2026-01-23T15:56:52.512Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/cape-cod/ChIJ572uHP8z-4kRx2GZz78oV3I.jpg"
       }
     ]
   },

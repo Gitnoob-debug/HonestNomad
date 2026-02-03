@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJEQYmFwL7R5kRct-C-RJIYcc/photos/AcnlKN27pJDKtr_tWSwxwHajRnxglQ69vWxNMFt3otVHFWeEEmI2RsnxPMIupnBUbfo2co1u7PSO0HI-cFx256FUDLlsAQ68Y-MTJ-JWRaIcS1cesszbunXi3nnUsFEm6iq3Q2mzGrnLlV63WaYNAd8w0RcqWz4sq27Yu1NkRx-jkbU2XCVcD8jBqwkkncwJ2S4lr0d81xf-6hdvL0HvXyUZMtHNLxVgGRRsfv2GRsPMNIZ3VXJGW-E7QUW3vuHT2pmKl8sFMXVhXR0lLjEqIHTxTbkA-_NlhFrUt4bg4mnuHgkY0cbkY1VEFZG04mR4UGiYszHJ-Scmi2QYQLGtHpqfTA4wiBUAXV-2vFsA65Ep2OE1m3wqnldkDTpkhI5EGdMujoliHB6wVRmWazSqCpCXItKm5zTJL6hfNr-M2QL-Ass/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14366843532621307762&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.099Z",
-        "updatedAt": "2026-01-23T16:01:48.099Z"
+        "updatedAt": "2026-01-23T16:01:48.099Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJEQYmFwL7R5kRct-C-RJIYcc.jpg"
       },
       {
         "id": "ChIJjxNz1AbyR5kRjaEhBCoPPDo",
@@ -44,7 +45,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjxNz1AbyR5kRjaEhBCoPPDo/photos/AcnlKN1gDAR_5U85ponpLO2_wcAZd9bDG9B560xxWrRGC8XIn5yjIxYyp3CHTFxDU-yykD9hPCsKft1KXCnGDFzFCdueMtid7ALmjCutJ32MWm8joMa-qXRl0oqPFKSLr1gJyiApvoM13MK-lzkXUhx5Z4t-i-Mg2AbtPLjDgiJOzMcE6dg2pgA1nKZ89Xcwr4epmDR07BlL_QTKFDc9-cx68aofT1ChK1G-A0NJPEzwr5yJvibP8ebQLdylh2f-GMObJzP68p6Izdtfd5EzvGOC58_GTx84gC1sRw8rm6-2FqyvrM3uW-HyoTC9SrhS-MSnQ68lynk_4VKgG4fne13_V2ThtjGOJtQSviEtmSlbU6BNlyTvC7FGMYGOGF5pxnlUSFe3LHVNcGLh1i687M6Tf5i7BC4BGtUdySHUfjMuRCS0pF7aRNQ0tJF59r8ZWvqZ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4196245625934815629&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.099Z",
-        "updatedAt": "2026-01-23T16:01:48.099Z"
+        "updatedAt": "2026-01-23T16:01:48.099Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJjxNz1AbyR5kRjaEhBCoPPDo.jpg"
       },
       {
         "id": "ChIJWWlTfdL7R5kRdwZpdsbVLZM",
@@ -65,7 +67,8 @@
         "websiteUrl": "http://www.conaf.cl/parques/parque-nacional-rapa-nui/",
         "googleMapsUrl": "https://maps.google.com/?cid=10605367745894221431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.099Z",
-        "updatedAt": "2026-01-23T16:01:48.099Z"
+        "updatedAt": "2026-01-23T16:01:48.099Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJWWlTfdL7R5kRdwZpdsbVLZM.jpg"
       },
       {
         "id": "ChIJ78_7FFX6R5kRRWZfqhJi0GA",
@@ -85,7 +88,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ78_7FFX6R5kRRWZfqhJi0GA/photos/AcnlKN2zkSaovJs9kV_poM0_Y10W-amN_S9GL2tXbebN-QJxtE9vyEYqTDuW-3tVw9bjRnjbuKgQrBxFN1M0jOihfiLUfGCMVRXI5KLPNT0E3zeqvotoQ8bNrqebe0Qty99tBaUIUvqBUMcE_MsLXAhFzut_Rz618G9ZKfrkDRmrDJn5KlT7eGVoc6vuB4hhkBAWqrlgsUMRNS4UsfNAs0kPRRb6D0eZSUSfCZ5Hb_62qKuoljRG4yPtE_-Kin3H-xAV2MrJMIUStNdA3A1oqIg1Z2hVTNN5gS7qVrlWeJw8ZOaXObbtfPqQIUZEtXKmmO_7iIU1pKWd1lRzIDYgWoyysO1QieCtzGZrhqrX2Xk7l9eStJGYRQVl9-HTdHqZZ7MsyOXT4v6_z0Jt2KdMg1636Zxy8g3zBToNBJ9TPe2fmaXiMK2_/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6976183655104210501&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ78_7FFX6R5kRRWZfqhJi0GA.jpg"
       },
       {
         "id": "ChIJR27RFv36R5kROh05FtWcJms",
@@ -106,7 +110,8 @@
         "websiteUrl": "http://www.museorapanui.gob.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=7721031050188102970&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJR27RFv36R5kROh05FtWcJms.jpg"
       },
       {
         "id": "ChIJ6z0_lD76R5kRTRw0kfl5bJ4",
@@ -126,7 +131,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6z0_lD76R5kRTRw0kfl5bJ4/photos/AcnlKN3aIGupnDNlVVjh9dCwekTFp-LxUYyxKqDw9SyZtt3xffdG-YVMxHmtuddQf5uMPvPyeulUjjUg_1FmwyoDMCFQPFH9N5khk-370TaFLFJI7lbrQwSJVphWuvUNuoBM8grWsvV3p5Zw4hmsqYcVPAzZZjojfvFgRAnN63X633RwnytuWzzkxuAOYqy3sv2sSXBf4937KlqfdQ6tJOrE7KDGhZYzn_TJQCaMsliTtwDT-0ToLe7zaZ7bGS_5Z4OnASKTE5wXdot09UQCttrMtfMzJpWZnGY34KQ1LXpX08oUkPSzyNNcVxMLt6mKu7M5xRayJa_WbnoZeu6Mz1Izk5bIMsEgOXXMJDd4794QdzxzYcZlx3rAH2yrH5ApLWaz2D8Of1xYMUDFUZZTlnQh94t6PrNX8W3FZ2fCA8yuaZy9Yag4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11415633268267293773&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ6z0_lD76R5kRTRw0kfl5bJ4.jpg"
       },
       {
         "id": "ChIJfYrtIvX6R5kRzk-QV1Ab-1s",
@@ -146,7 +152,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfYrtIvX6R5kRzk-QV1Ab-1s/photos/AcnlKN0wTtTISyKiTfpijPHKIYtfsUCmbIRsi-3XburAQukHL_kCBdMjtmxXxUldi7nU1xbOnJn2yeFCr2z1_zAT-5WisjwN29ZgPPSkK5ZqKqXzMEEKpsqBdbwzyYvCgG4jxKyd5Fk9nYsDk4Y7Z_pR123Def05ekUprftY11_F_nSSx3OIA5UZoc7bs9TQBp772Nml5oZRgsSFBMh-q84YHAmOf0FxDCx-WajZqmkQKJQ2gSAt_nfAAorzHQ9W85Fwyg-Kjs-h9B9c5J6Zafs5Y7gG0jw5NEgRHOcrEWfeGE7-Xtw_N7kpwAi9_1nRmcf0mCMquqEucY0dr0ulABVEjKmXaMPOSRBTkDrskX5cyHO2eNnY0_K5dtk8WgeTmLzq68dzdLAXnNB8p08MtfdEt1YOLAhSuCo-c05DimFyjjaRRYEsLkmyWWHo6JRMSg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6627921308486225870&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJfYrtIvX6R5kRzk-QV1Ab-1s.jpg"
       },
       {
         "id": "ChIJ17zYSd_tR5kROcR6zCNcTq4",
@@ -166,7 +173,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ17zYSd_tR5kROcR6zCNcTq4/photos/AcnlKN35mWv3H1i3rVvLW7AbY91jkCNyzT_zj2B7sAXw-H3BNhI6IkANs49KTVR391oUntP5ZnnSBufbCVysYlKO6VCm9vmZ0HncTwC8Et0mHNvAavwjqwTTTdF-UgSMcj9f86ZC9RKePrXtWzYHBY5vjcerNJDSLV1hJbgGx9OnxHquOU3lxR249Bvjf94n0X-_hBJXD5e2o6HeAJdvMItleBnUxnOUTYbAyoPmg0HxUntbrj_E_U-ZjKdy-Lgk0Tn4jmVRhLXlm1Yq2gmVeC7ziQvIKapEk22UvH4fw2OBV4DTqtkvZhkccH833DU5XDlPS4gkPw6SgKzCHuSypqi2Cvp0eGhfsCzxFpiuB0EimuPI3L4w1LdARsYWN84hswU595IpnisfzDzf9GZ5DgQz95LYu_VAII48sLF5YgXxtKW6uQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12560077719607100473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ17zYSd_tR5kROcR6zCNcTq4.jpg"
       },
       {
         "id": "ChIJPRtTtP7xR5kRTH0f8nV-fVo",
@@ -186,7 +194,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPRtTtP7xR5kRTH0f8nV-fVo/photos/AcnlKN0zHzt05gAwZEb4pUXpQcV9-EF3ZAQCwVBiv1VhOGZHcPMQ6K3RL7-oDREHn63jqtqfUafkcR6lOwWxAeX6ZU8P8Q8RZlxB4XQsaLQBLX92_jNHRLKVWZJ2KJ5jgEPkqG5H8R-u8gfxPBohU07EW6gC27ItxhOsqgr6TWCw2OYM5qVkHKpKjWdvnefWYyYE0JAA40mDM7L_0xRitF1aFzCw_HzlWMfiWporKVeTPrh0HUBQN-LF0U_dC61Pso3DrttSaKs0tnq_eHcb3FRCGbLGhmAGW8Nr6iQ8N0fcwp5joDzqE9sZG11omw2MWEw6j6sk5ctEcshTQpInpCloCfw5SnwOIKecbMEGdwTfn2O9NI651B6Qb-URl0m4xA_sgg9FX4xqMg8l99STapUz1OJrXI5lC1E8fCcyzl6tHf0Il-CFMa0OE8IIMohZ8HV7/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6520506880540769612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJPRtTtP7xR5kRTH0f8nV-fVo.jpg"
       },
       {
         "id": "ChIJnYoL57r7R5kRLQkWiufttY8",
@@ -206,7 +215,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnYoL57r7R5kRLQkWiufttY8/photos/AcnlKN0VoyZE8ZnEJr-1cpSgObOoA7H_MzW5RW-lMCnGOiNaGnybEAe8FHz8dwST8F57G4N0P9Dag1TaO1ttqqQ9WG0VUH8fJMnP8gqI3rV99_AvtP_sC70Qr5NKpEosuSqeuK3vuLVnzt6bJiPkXmhExgoe0eUWOvlJHzyVwOTwECbG3DsgA4IwegTbViMtsZBWrjGlTA-5hsqODk55JFT0CnOjrghPKQYyiJrRFMA_okEZRnDQLm2kXtJIg7c9Bp5GOZJszN2DVx4ZK9-Acp3Qk_oK_XZzWq4wXTo3W_OC0G8vRG8w5tFDJsOpY8Kn0MmL2EfwM1wr3ccEokWJ2zolRR03Op1GwO7f85y7rYX7ruoP2ig3m7LNUOr8nBg343Ce6j8C2f3dnBeXKyvg9iWDq5-fgmuf9UsRxHSw3qkY_C98s1Ns/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10355444496918251821&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJnYoL57r7R5kRLQkWiufttY8.jpg"
       },
       {
         "id": "ChIJS4BoArTxR5kR0P2P_4bE178",
@@ -226,7 +236,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS4BoArTxR5kR0P2P_4bE178/photos/AcnlKN1SQxBRmQ3VBxo4toScyOJMzR0y02rE7-DqPaiiIzleEK6ZwLQnE9eTwtV_CR8uFZRi6Qp-_Bf6KPRL1rSdMpN2B34FdDHz_8_gyH-TzBKm_uGQFBlwgGpB8SERJk84toh3kd7uMLn-NuHGIRrtKab62Weae0PLW65CmbOwUVnBH2k9YImlTOHThMvszfFqFOw1TDxMaMzoZ_aBl6GrMSvvN0nTgyHZ1yBBklhK8Uss19BK3ybqfipU2ow0y-lJ9AYePdkwmvls88ymViWSCnA1wBk-f8LSJ9_LX0edjhcv9xeTN4SgLo8yTSPJjYi1Zr9nM-mnRiS7i0i0laDaw_Eltr8v7ZENLMtJH5IbpxEy7WjWHT7jrs76-_wvJZ3eNHsCFzVZHBmkSdbESGh3HDHHRtmYxWQ2_dqXqozzPH6tPvtQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13823733665329315280&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJS4BoArTxR5kR0P2P_4bE178.jpg"
       },
       {
         "id": "ChIJj1JNZEbvR5kRv5p-VxwAoDo",
@@ -246,7 +257,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj1JNZEbvR5kRv5p-VxwAoDo/photos/AcnlKN3mKNt7B-ZpEL-Iv5tdVFWtfTeFMaIm_TMbzH3VjbrHRz4uc5BUzxmK62o9sbKFPaWWaAE6Y-SiILPu5JcLqm6Z_zoZh9TOXAQFO1TBzK_d-gUJHxd7rV9YqEjoE3Eo8jE2wTLX5yOBVVQ1qMvzKSsjmvvSv3k8duDngCh-gxYHbSI95NWgOn4prpBDhNcPnMMLkFxJhehnrdwj78AgLRL8ImLPB1fAwktbPuqHU6R1cd8rKl6Qty6jSy2ZchdlKaLomTJ_n8DdxhTN9UAi6SScLjPsSy5NU70nS_hMthN4RkHqm0TKX2zKwSVh1ESbLdqg84W7Ar2ADaov_VWP3Cucd0G-MFBLFa4QkdR1UpFNHWZeJGQrTQm3h2L7Aa0ZeH01tKbArXt6QKxEYPrTApt1LbqazLpvZNTTF0w0ghC7pZsL_CGrHxFQr7jazV8k/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4224376572200524479&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJj1JNZEbvR5kRv5p-VxwAoDo.jpg"
       },
       {
         "id": "ChIJs_XbU7PxR5kR9i7G2WBgDH0",
@@ -266,7 +278,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJs_XbU7PxR5kR9i7G2WBgDH0/photos/AcnlKN0HLW7PrsJRb5tifLggrftZ6IcH9geWSfrKaPhVF8Lgl8MTM3UFpOIsDh6TdKlpyngvoBDPHdHLR4aE7_LuL2rb7YoCprOrq9S1ca9mVsu0ImcqZrTX9SW84wKUC5hTWhGKasr903uk5Nh-frIV_thY_N84VANQMkLTk_9z1ewC-AOrTZBbXdw569RcCSK3dLp_20KtzQP5_nUFd0Yx4frRFWaIHcgEzGAAn5DG-09PCmkr6MquHcZtxZmtLvseobenDRlpXxxwcOvMZ_elS_ZYFves3XrU2V25i8qm8WfemM0_aSGXfXzjoAI996Dfh5cLXBpOWGJx1G_ltKrJWFOLFT93egJcDmlzyG9Axfgh1UWcJDOAS63tpsQo17WSb_yLD9aip_nT2qIJHoaoJOqD2CkCVd6qYiBpXkqELob4Bg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9010682923548290806&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJs_XbU7PxR5kR9i7G2WBgDH0.jpg"
       },
       {
         "id": "ChIJVfByIG_uR5kRYbLVYq2zRlE",
@@ -286,7 +299,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVfByIG_uR5kRYbLVYq2zRlE/photos/AcnlKN2FlDZ4UZ4n59W_0xUY2rLH6m7n14wZHQL5fcuy0VgBk2wVy2bVN-30lW55dbIh6nMfvnAYei-D2sFjesk3sAuitzpl7UPTeG-YIIv9Dt8iMCXqGyVg4vsZ95G8-f33WXtZtLUlO4_vTReF1SCeay3ikJIkqv4FOEeDeW7OCJaR47RiXny2UNTJaDHv_GqKblhHAndVBo8CVPXfeOQ2Q3dzHJJAwPsUyCkycRjTPatRJKcdQI4eRn0dmPzgFpFxE_JZfjOwjRcMvsX1uTf62--5YbxyL0_mbfqdHeuMwKeiYfKiGbZZfboOA8zhBhKxeGvjNm5352cFVBTT7nMEJYj2uPne9AzhjjOPuXhxdnH9CPsimFCYfaDa9EY1bwp5eYnQBZedIJXq1VxdlHPWojLbJtGs65B5-S57YsEYKHkOuIFS/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5856565922710794849&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJVfByIG_uR5kRYbLVYq2zRlE.jpg"
       },
       {
         "id": "ChIJKS63j-D7R5kRm5UBBZW0NKY",
@@ -306,7 +320,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJKS63j-D7R5kRm5UBBZW0NKY/photos/AcnlKN1YhYB1s-68Uvs4wa9j3_0aFPRvlt3cnFHOuT4p2aHboRKE2z51mqrruOpR7RdIaT2VXfMNZBQNO5ecBx7_CXIueQsynqZwxE2JHIihpm9HYwO43654nadU8CzeQsj6lVxQoGGOAJZ8xAGmKAg3q44Qm5rPsv335RhemTHvkbpPk28d9XSiPHZYuETt8mw4ws6aWYbi1S0shNnY2ZCn-90tsKI6mMU4TUzL-HeoP-oUGFVh2jI3OvymPrBJvQko2-5wesIOTbMlNLgFKsi3hr7hSBZMWfdDnwXPfWkjYlRmbXtROtVs-MLHI9uO-BDD3uEqJv-002K_2o8rPpG4QH2nH_71sjxamKawhgFJCHVpurj13Q6dLEgafEXbK0GJK6j8_wF5ApykHyMGAzu4RfHi4RClHVU-C0wqTON1Z21IBQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11976395861212108187&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJKS63j-D7R5kRm5UBBZW0NKY.jpg"
       },
       {
         "id": "ChIJQz4wXgD7R5kRGhmFxdJhUd8",
@@ -326,7 +341,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQz4wXgD7R5kRGhmFxdJhUd8/photos/AcnlKN3g1EvkFC0nr0Z4_EXjvHO8MqT-nlkLwdeFFahXSlP-xEcSAKewpd-61JOpFTlImSf7hNxePe_ZapM7QF1mIvWlF524P4as4bKoUzX7LhWHhWBNKzSJlDnUN_lwgfTpOvg7EtRMk8XnIbr2gzpPq_KtTs6J4qcETY7gOmU-rk7IMUZSP5fb3tZE0DUvd0HOEyYY3jOV87zXzHBEggzivJyI7OdejW9cK09SpEB_QeavgYN3IptKvHH7cufUznmAjekXKy_FytYw6ugfB4r5CYebaskmAcNujXIWztNEG7bqdzqx9_jy9oVGPY_KG6Crza5_wnnZXppdU_RhVnQaDywO4i4SBJ0MDASBQ4Jdad3hceazxkJ_ayiGEtFy_d6QfYto37_-1Yus3TtPVq0eOUmnIq62iCwP53oZPqTDCwHKFWIE0idfvf8RZQpmdQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16091750501456353562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJQz4wXgD7R5kRGhmFxdJhUd8.jpg"
       },
       {
         "id": "ChIJBX-8pFflR5kRcEg5fh7RB4U",
@@ -346,7 +362,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJBX-8pFflR5kRcEg5fh7RB4U/photos/AcnlKN3RPFxNzoGSEejkAxwvlx0oMu2Dhzo_O04PBw8KVTHaiuJ-ELUaf6yBfDkj51dCStEaTOwOx3JTHILensIbhneJYCiPF8fpJQPPFy-qY5F8tvqdeqgE0AHW9VDp9-oLFwPxA563PT6-91d1yZ13zQZQ3a5FJr3A6jvCFX0IUaOTWhH11Y-_epPiGffeUOH0qvl97Tq-zJFOJKLD4JufDFDvALLd16e5is02dXA2WwNu0oWFDxsyH_y5zyqoxwHzN4-7dMuDeAyQgrRVIfmspVSAufuxwS5G8BQrOCOaYwEgIXWgbzbCdFj4iAaMpe51SHMvETMA_1LNL7t3BLmi_ch5zrHq6SrAXPBEX3nIPr4PlhqdwxQVQNP6izOs3uEuaY0Z4rz_RoXJzsRMjqVDYmRk4NvCYGJVtdaoh655pjZqvXok/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9585860260778297456&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJBX-8pFflR5kRcEg5fh7RB4U.jpg"
       },
       {
         "id": "ChIJfXIC1yDwR5kR1eiB-gnmUlk",
@@ -366,7 +383,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfXIC1yDwR5kR1eiB-gnmUlk/photos/AcnlKN3SI_IrFhXm9aN4f3kyuMbQc83EwWnVZM5doOEE2jwGdzdBpooKHn6_bccWDpBjS7Y1PIy4wsqlMLn-J9m5JHZL-RA8Urq4yiofuWUOvtwyIqASMrpAfc5Fxh1Xp14phQoxQuFSUquglHqG2UrGnEgog8-g-6fwFNaXTzmGrNPigl73jrKsaZ6uzzlKsfRcKHaT3Vg2-fGg9ZQZuOJDsHpy6ZhfpGMGucXuiNxzeGWwOzhCalYfRl1HdEkuRjsuN7CaIXd1x7iLRTVr0C0mpNUeD_KgCeRtK3eJnRu22c1ujXLgsF40R3bR99divMs_3aOGgC03f0e6CQHz64UFycbq7ax9sys9N5kKdISgujm-ok8OTz6o98EUDoPZhybXHkPCqVb5_-bSz6DKA5S_Rgl-MLz91lnUv0U7rC9GxPU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6436459747997771989&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJfXIC1yDwR5kR1eiB-gnmUlk.jpg"
       },
       {
         "id": "ChIJBdpQA1LwR5kRFhwwXJzJAlw",
@@ -386,7 +404,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJBdpQA1LwR5kRFhwwXJzJAlw/photos/AcnlKN3Xew-x8Tu_T1kzbJu9t4ghFvBwAbke7stgmJqxr4I7qhgZIn1dOJjc_-ZyKacbClMeN0WCYOihCUrmf7xOLi_vtpHrx-GkgLdS9252CcU8Xf7Y-Kw5AFIVOyvtRmiiRoJtrqJr9-wBIgbbPQzupr1L6SNgbEsre2YUHj2aUIjsSkoreRGdaeUDJ1_OPNoS5Wu0U1yn5N_oOWgwIAf9Q1iu8qJ7HU0R85PxM1_T6WCjod9wmvD-p71Drf6BrOzXw1qwRhti1tKDQV1aewxQ_L27B7fcov3HHUZSz4EAbxpfz6oVRxz7jXWI7tTuCmS53rmPp3K876TqSb65NS_JMnBOlgavV95_xZhtVsJyb9FG679cHRQNAudqrsP1nwuNdSsgHtVImYEE_547AVhJPqFuGL6sBRRg4-1QX6fBdL7EZ6eE6cW0unPFTg9ayQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6630083274841529366&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJBdpQA1LwR5kRFhwwXJzJAlw.jpg"
       },
       {
         "id": "ChIJpffRd_vxR5kRp6OqIEkWUbo",
@@ -406,7 +425,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpffRd_vxR5kRp6OqIEkWUbo/photos/AcnlKN1YNUVWjDVS_W45sy9yTBa28j8X8GO7OeR6WT77UDw-En2DXHBYFYR6O2lDEkmlS5nE7087pa6Jz_HTDXp0ppuTlbmArqvyaM4S2iqM9ZWCZwx-e6yLTBcLZmaYGBy5fndEXXhjHVfxFLosRzzb2ItWRpgokCjVBGtrIgLIpcf9InXqKwTP6FwnYXxzyAf0FCBXiBcUI9IRzS19YvMcnn6x1acv6AYg0PbVQa2vOpY3Ob4vvEQPcuQv62CW5Zlp6dQQCSSW0ZAi8uOrcy_7V51nTnyzIxQud9AlYyo7DIZO5xxd1N-4r4v7g1NQX5Ol0-B0-aajTfcL1Q943AxDnQDdCJ_PI9QY1likQxLxAhASdEam2H5Zo6jzUV5uYlWbbdKNAEkxmNyBzxkEmfoyUXdz_59ijRI440TSU3hZ6zm8bA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13425536467504636839&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJpffRd_vxR5kRp6OqIEkWUbo.jpg"
       },
       {
         "id": "ChIJ6Z_loHH7R5kR2VDetjfcRuY",
@@ -426,7 +446,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6Z_loHH7R5kR2VDetjfcRuY/photos/AcnlKN0tqAbzYahvvn5N0T7UI1yKjvJEeLmPwjvCY-b-UGpPXozUJZJxk2ucFzBTdPl9CyQdlxtKePG-beHFGagLG7LqiURvY-8PKEXoJ2B3LpeIT7iUIy0GWKbBlWpMNahvInaak7FBgnOFEex3Lno6GTpPw7aD69R6KJIgx-El0vxurKyKjR-6RoER7yfPUBCTD_xPORFL3KvVaVeGtOss3EyJIqT7J7VtI7Dl6kXyOQja6hbtsgcZ7tiZ5AvEcJKG1CrdiQwUskaoA4Az00BM5kUJaOuW82pEa_XF9_g4C-bq3XyUsy1NEQgbADPSb3Ios-ZDuf6nmJrxQhAh1hNe9pBnjHFfnk0cHTCg7-CMsyFIowYGVGEkX9sd2G0H4We2O5UbR5JCGjW8B0ZHj0OR6ZGVrkU4yVRxpS3ezh0nTaA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16593192008942506201&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ6Z_loHH7R5kR2VDetjfcRuY.jpg"
       },
       {
         "id": "ChIJ5UVWAvbxR5kR3k9bVy29IUI",
@@ -446,7 +467,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5UVWAvbxR5kR3k9bVy29IUI/photos/AcnlKN1jRwVX837RaPOSO6qlTnBfhhR1goy7eLjq9lvRh5KclksVyR1dC1HVWzxSnxNhL1e-eVE1Jftb0JYbPBvD984AqhEZbv3Mx5Qbp2hqOFfOLiInnsZq0tmaWeVBjvxa6V9nAVvEFLeeetnnghLDNJV3ompxeFY1nLTzgiC5ubhPrOp001PDFLHohu0NZ6Je3uIenJ-4AqdZO_ZgWUSliSTvROnfONvhyc7swMwLWq-gsCMpD_UNOQnVDPPQYyTbe-e_rcUrr8MBDSb29lYgtuiS3EwY8quJtwz1HYsx2JJTDoWfyJ-aB6TLy8wgPKIzoGacSnSKy2yEFi69LtGM6H_lhjTe-RjPg9CzT_7HEQCvXf5KTN7qnEaWicrxR-bYmMj0b4GtUlokEN_1dbkQLdrRZVKPooi_EZ1OZzdhZ2n26OCE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4765297883171475422&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ5UVWAvbxR5kR3k9bVy29IUI.jpg"
       },
       {
         "id": "ChIJ8z-LZYr7R5kRhhx4GKIkr4M",
@@ -466,7 +488,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8z-LZYr7R5kRhhx4GKIkr4M/photos/AcnlKN1GqH40xEoVITO-D1OjVQIr8x56lgIxH57IAIo1F3jpwlRMkXoV7W0e2Fbz2UofqcLCQku-1Kse_TMYDeTeAZ4rrLZHa8Djym2ZH54SJx4JSSxBJ3X5cL8jAgG_GHKU-2JbHg5G840QGhFBShCSKckmWw3fEYwNFUmRTSG23L9gvrIjJMQhZ-o29m5ss9x9TtjqSZzjuFr7aOuuO1aiOK5i9-7B1pjoj0PDUNI3gVRJeWaoRhDRDTaJSHgAo-ydrDd4Asf0b3nLnto8-_WKFfIhFL92RYzq6lPHFHjudALDNw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9488843218506751110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ8z-LZYr7R5kRhhx4GKIkr4M.jpg"
       },
       {
         "id": "ChIJtWbc5XHuR5kRMVgYHs9vYdo",
@@ -486,7 +509,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJtWbc5XHuR5kRMVgYHs9vYdo/photos/AcnlKN0DYciL6KzOr10RW6Aw3G20QfPkluEsMxLFN1WFwb_-IQZ6VwE9l8W3RNSSLL-7OJ9jqfS6QNRn-tD4Y3HKhqTcIMP4hrmArUtyGZKF1ynHJqnXSZhScSahvpzDUL2VLzR_hL_Q-8DimbHVIkqjdfbQdmoZhD547OOGa89cfxcBketveHEe0BB55LtD9mI_8qF6V33-gumEk9RLEa_KjCxLRre4DtJvff0B-8H-wHAR4LsRBC360UF_ZPx1ZpSPfYHiQUzJFcnLgmrXKhURW1Ps_phcvHkYnpHfvzr4nKCI2w4KuMlNuaC4SUchh-QNs-LS_ISkyQpzZlNrDLBXinubp4p6BIWHdYNTeoiFJgFlRKEbOqqvpy935lR0bqQsNYzpUoRxWQwIgLVmsz2uw1fWPbKmv9nNmd07Pkbk4I-vEJA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15735981508363049009&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJtWbc5XHuR5kRMVgYHs9vYdo.jpg"
       },
       {
         "id": "ChIJbyuBIRfwR5kRoYc1a05c_5A",
@@ -506,7 +530,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbyuBIRfwR5kRoYc1a05c_5A/photos/AcnlKN0dIYu5iSIwCQcPLeIo2i-BF2nHuzElEV_3Uzth1YV_LV6KQbvMHJSRWR0cHhVSyQzN15r6JXO7J2BE9ZW9uMEffRxRsP7DCGw5n-xKLkwbZRdgQYnZZYe1MV1WgNovKFbyab5DAn4VD2HkXKLnc1x62uU8RYXudeFUjHjZGS68J-wqyAYsWCazicVs6Qw2XBRRX-9_4zFBdoGZ8RNfsbLiwnc36R--1y9q4862bwIXF8cLrNLERyECrdCyAtGo-ulR3nvzHsKSpCUVv6v99Z3Yy3jfR9ULUVUl3s55AV49Vf2Up7YtKRwTf2bMxwOIXMrwGfvoD1UnCMRgawG06reiTE87-LtQPZEkVz_2WIu3kEWy35aoG5WJHxFslmz2M30Q0DD_EMWLo1jnNQA6Fjr7KVvkH2XEVg2yIF-PXO332s_F/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10448171152398714785&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJbyuBIRfwR5kRoYc1a05c_5A.jpg"
       },
       {
         "id": "ChIJPQVILC7tR5kRLr-jBoj81rA",
@@ -526,7 +551,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPQVILC7tR5kRLr-jBoj81rA/photos/AcnlKN24InA322XJzYvmVS41Bw0lQ9eaExR09waXqBPzt5OVZ5z5jaylN1hrh_s4vBWblmnCeeRzEpKidSIB6DJ8J08Th7TqSAePRI-JwB0UTOzWU4Cyj_katLj_du9k7oKiVwY8taBLo95_68FsekN3OAVcU4PrdfKjL3ZGyEdgHMNy9GmARpQfFjTIAdfRwNkPcx2pFe0cf2ygoWovqX_IKvNNCDUM9r3G3wb50CaIbGDANCMa_tB4bn44TI-l5Bmvq9w5CfDQwnUWufUNyGPfftnZM3Ge5iJGiraLEdY_xe6kKYPMUc8D4Bk56TcyNFEnHOgrCIW_KoS9Eh_uD-yM_A0Lq0vEcq5UYO_Xfjn0bj7NTWlHb8o8oCIMEhTUsXbt3WuZ5OWjoqi1r0qzR5Zi7xlGbA9eTGWgussBpVqgT3wPwyw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12742649856848543534&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJPQVILC7tR5kRLr-jBoj81rA.jpg"
       },
       {
         "id": "ChIJS2gHcGTlR5kRO1ZEmTWNMi0",
@@ -546,7 +572,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS2gHcGTlR5kRO1ZEmTWNMi0/photos/AcnlKN15F5kZ1VEgRNqKwsWLxsiPqTbIa44OhLUtpz8_FAHM05vmlDJ0WRzVvgxoAgbuXqbl3kPvp9CX9vm2YYvnjKlrzMmRcPTdSjyGjFFo2QepSmk6tC_Lg3AJsvKGSmr_FpxtF2jxCqupQ7w5UMr8DC8nkRigtj_ZjakaAJq7zpF1eMM4blfpjvPpnuTbBZSIaKJ4QM8WPct3yWTQMq34iWIzV0_8RxMHyW8Gon7WTGWctlrC5XgzoxrpKX2wtv1c94B3k_hqAUfWQYoT1nB785ElZfE89_qIDw7tqT8zNYz7utNQkXAhXw9EW6XIcvj1gg4lDI4dFthMoD7Wp521s3TTh0khJlk9LGCGY_MsgVGK9qU2dQixF3AZ9XLV2ZRMXo6RPup5tLjJMHLHqxC0lWM2-8EB8G2370R8LnPuOV-usA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3256820741886465595&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:48.100Z",
-        "updatedAt": "2026-01-23T16:01:48.100Z"
+        "updatedAt": "2026-01-23T16:01:48.100Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJS2gHcGTlR5kRO1ZEmTWNMi0.jpg"
       }
     ],
     "foodie": [
@@ -568,7 +595,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJa-xWcTP7R5kRnOndy5UZkf8/photos/AcnlKN2WhfjNubZtk2uYvVogWqag8aSB2dEVczH_7Izg4PpArzMlMmyXHWD2oSDvlFfZwyxANIDPPBJOh66yzOgeBrYX6JWIT23GkIT3y_aGOGjqivMeLvXkuEGwkWkqGjtOUE1zMhrOkuWcx3iExFrmlGfus4f0EbKLGExEejHnCDbKlGa4g4RzybeaRPZ1NLkWM4sc0WywLrnWHMaQr0br9HyffEyZ1MTLteVDahHHMTqB-GErjkL7z1b8gJLdyN9FCKhaB_xvD6ipPynl4MrBkOA-qz1xOz6v7Kzj09dQ2QVNng/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18415528482455808412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJa-xWcTP7R5kRnOndy5UZkf8.jpg"
       },
       {
         "id": "ChIJOV6w8qv7R5kRrSqxifNMu0o",
@@ -589,7 +617,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOV6w8qv7R5kRrSqxifNMu0o/photos/AcnlKN0lWidFhJBKBF6wFUQkFjTzyjWXsr47HwaYvuFGvIlkC-mIcAUSzXXE1OdPWNX0D3I4K4lhWzkivmVTFRA8ftHxlsWrbn7F8FuYXZadsPsVHW0zg-XhfncxIEO4hsn0Qsom_DKjpWjN3N4Rm75Cqj1Zfb_t914VFqry5Dp0UwMaPlPeH41mdmvmiFhYOxaoNhReGCkHMp00znV83MZRIXL3XWDgWdad28UoIAiHGIzYJwuFkMiqzfjQttOytcJVmSSCjjwOZLluYw7Mqa4BI3Rpjfz-NJMla1JEyA2NbTe1aA5A81h-11xpqGQpQON5BK80QCW7twqf6OZkCsKpF5cPyFiS0FlAKAQiFgdKOMAsGBgDvdx0mnpx1zqNG3jAmUg6seGCwQriqx7_nKzq6UiNvX08msJw8cAqF9eJmGNk2Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5384982388322413229&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJOV6w8qv7R5kRrSqxifNMu0o.jpg"
       },
       {
         "id": "ChIJpQs5KE77R5kROBp62qIOnlk",
@@ -610,7 +639,8 @@
         "websiteUrl": "https://www.cafemana.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6457615008308795960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJpQs5KE77R5kROBp62qIOnlk.jpg"
       },
       {
         "id": "ChIJyQ5rrLn7R5kRjbfSSBkFWyM",
@@ -631,7 +661,8 @@
         "websiteUrl": "https://www.karikari.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2547635620362237837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJyQ5rrLn7R5kRjbfSSBkFWyM.jpg"
       },
       {
         "id": "ChIJi5bJp6v7R5kRBJ6_PBZfH1A",
@@ -652,7 +683,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJi5bJp6v7R5kRBJ6_PBZfH1A/photos/AcnlKN3XJgTzlxONo81SfFyRDbxxYQ3j6eCQJCa6uEfBUFw3L9ggjTQjNwOmCGolOEiiPxW3YxQQj4HYUnrFyRj4Xtg2jwPJ51OWOedf3aBb9k1ptNhqG6nojYuPtaB9y4mX4sSsmPgZovXE47-1M3jnQWa-LdlZzHnxYOLtYINsZgyeqecW0kWzeLBQkKJPrVZGqU0AEe7nk5MOgN6zeVjXeerAI6YgI8QB11-5Y3RzDOT-9B1VNEuc9H746xVDgD1jkOg4_MMxdyoPBBM1EzF8selOetUGo0Y9uac3DhtUx1N_ccb7LyJDi0KReiYTxoSJCQflTa7HgtoK4ihCYeMC80I3Zicb60BKjXJ1FZ7lVy1NNliBl_zT_Use048PO5h6vierHvW3WdwHbqqbVntx7Q8iY6cZuBzXgmJ2dFaSAC5LQvn3/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5773437796425375236&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJi5bJp6v7R5kRBJ6_PBZfH1A.jpg"
       },
       {
         "id": "ChIJHe5rMFf6R5kRcVgJIuDYHFY",
@@ -673,7 +705,8 @@
         "websiteUrl": "http://www.teraai.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6205072843765012593&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJHe5rMFf6R5kRcVgJIuDYHFY.jpg"
       },
       {
         "id": "ChIJUxHBK6X7R5kRgTmOQjq_Uqs",
@@ -695,7 +728,8 @@
         "websiteUrl": "https://www.facebook.com/tatakuvave/",
         "googleMapsUrl": "https://maps.google.com/?cid=12345139785521576321&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJUxHBK6X7R5kRgTmOQjq_Uqs.jpg"
       },
       {
         "id": "ChIJb6S6Hnb7R5kR_f14esryqy4",
@@ -715,7 +749,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb6S6Hnb7R5kR_f14esryqy4/photos/AcnlKN2bJg4zQLZUBjZ0G2i2UzLD807F-sMYP9MalB5qF-P6zE684PwkZrLkl66kcsPZWNobSNNSsxtr2sAYz6dAb4nnloAD732mj7_l8np80saPCBVDerU1rZh-ntxMxvi6QOzYgfbYc7yqIApRUcShlFocxJGoUmQvtgztoEBhVZRSCkJyqZX2aLR0mOkUjQNBY0GSN_F8JInMq8ua5Gm82Jf6TZ2XMXRrvkjCgnY0aTWfufjQ0JoTle9IzLgxqMyCZaJFaQ9wAKg8iBWMhACkyhEynHBVe_2xUsvIi1XJJPeKBA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3363048498214272509&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJb6S6Hnb7R5kR_f14esryqy4.jpg"
       },
       {
         "id": "ChIJW7TSqJP7R5kRND6a2hpswtM",
@@ -735,7 +770,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW7TSqJP7R5kRND6a2hpswtM/photos/AcnlKN1aQ_4jiyp-TBOcO4D5WDRSDL8HHyZHeS3Sdl5_RAwnNQAJMuUjFKIgsTmX1gjF5PBT4UGHUYXPUP82HEl_7nk0LYwgy5bO0txKvLjGJ1GlFMiM_YNa33iws9hbZrL5cOfcqSjOBBKsJMzF7TJJHCjhKaVERNfOpKslQNZUzi5oXeNY8NF0atDwohJZY5bJ0TIfID72O2rNuU-cYKlWE8jBFalBHaUEig_eWIIXOuMgMBOvTgVcXa32EQ2F51YHSh2bqgpgfmssGwIffSeC0shnx_R0BH0RNiO-j5f1s5lF3O38UX8swr7mFu6V2DxJxPA6UDpkhszynTHLQCVhizlQv3OrFryYlzfMywHTqaDW2a423iDo-tlFvK3ofRMwJZT_gH8OvpOKsWAYajPmJ-SsKhW_zoxMr1pgd9bSPcrwxw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15258877350077152820&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJW7TSqJP7R5kRND6a2hpswtM.jpg"
       },
       {
         "id": "ChIJua87Vl_7R5kRUKBJcw-V-wc",
@@ -755,7 +791,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJua87Vl_7R5kRUKBJcw-V-wc/photos/AcnlKN1tHlqYH26qJVZUvg_zfp0YR39vgOqjQOk3jjENzNUmihGvxnMSJe-EJvfPzdgtRIG4tJ3xyrOrAXYtJC_x5U_DDIoAHC0C3V5t9OYkmx0eXsKL2spHNv2kYjmReopZddK87UTWimaZvlDzgq0ANJ6wxzs4d3zYGJc7FvbY3Hq-xoIKIlVrZUiM6-6Lf7PTULudTHzJDJLSIYwrwFMBVBwyWozyjOiBSlSXeg8ykOcXkHvZzncwrohTezikiwNKldY1U19iSY54IhrDrs04_4yb4COnOjJut5skDeR0DzX9xNt0BGLehdkYf7lUnssCMgvbNZkhIi5Bl6_j7KlWFpijz_99BE_mG4pXFc4rj856GJsaAr8xDmMDKwcFBliZICCoL2g6mYQtl-_6_9QdKKRhwtnmYT6Yho-8HSLf257kSw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=575217271011123280&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJua87Vl_7R5kRUKBJcw-V-wc.jpg"
       },
       {
         "id": "ChIJj0mrH0D7R5kRhmNJxEaxpjc",
@@ -776,7 +813,8 @@
         "websiteUrl": "https://www.instagram.com/maara.restobar/",
         "googleMapsUrl": "https://maps.google.com/?cid=4010087435718976390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJj0mrH0D7R5kRhmNJxEaxpjc.jpg"
       },
       {
         "id": "ChIJ_13TS2z7R5kRtTpL7V1WEg4",
@@ -797,7 +835,8 @@
         "websiteUrl": "https://www.instagram.com/napoeapizzeria/profilecard/?igsh=MW5ncm5kcXBlYm93OA==",
         "googleMapsUrl": "https://maps.google.com/?cid=1013967827524860597&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ_13TS2z7R5kRtTpL7V1WEg4.jpg"
       },
       {
         "id": "ChIJrS-HFAD7R5kR6TimVP3OPW0",
@@ -817,7 +856,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJrS-HFAD7R5kR6TimVP3OPW0/photos/AcnlKN2Nl8J547A_PVhu_Xw1baKfs9S-vwywhvmcOlqo0Mbl9Xd_JtDGC4zn1iWp8C5S0l2YqsvUrviDQTYA0ii19qU0aUD2NpFtx9KwiNSSLbQZfLLbqC_mkf-StHZ3MdJUU2TnThUAN6JI8tBNt9esUTE0fqzTmgAu6eLIZlVDEijwclnk6TUvUYBzzO_3LAOzdVVcAHx8CcZeDc8lPd5LV9rF4eQpyUZcaS9sPPj_WPw3yPkinsDJhMMaRNXn-5VWN7_QM7ZW5rVVnDu_fZPK9JPAv4JY706aYnK40tdtMHxJYt7E7IE_qjLltLQg0i9FI2GRwgZ1_lSMyUrYZOFPUYLTqmZHo-zKnSD9jDnXjNNDxhWlIFkiy8dig4TZ8-1ZI6m-xOCgqC2pN1SwHZsbQ9vR-YH_phWOi9YgVfaMUDXTLd0ZVcUb8D9UU2ksPSwj/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7871675311155722473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJrS-HFAD7R5kR6TimVP3OPW0.jpg"
       },
       {
         "id": "ChIJqROOSy77R5kRZtLZYC87L-o",
@@ -837,7 +877,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqROOSy77R5kRZtLZYC87L-o/photos/AcnlKN1synRa3q3FJuVld6ajKZ2AwdCEXRgxbJBrh5zw_BSDmJ4ufIAml2OevUOA6HyFQk3d0LcN_w8CPXvF8SydkTKE9OukzZ8PJcaAFj_ZsMouJbMGPASER0dqqfRBjZ5A9xKQZLpKuQVJYFF1QNWFXhtty7lytzIcRLRqWvBsGSbFBvxDZyd_8ZSlNAg5x3qSQ15z0OMJlVUrpXA8SHcGDWPgUNrVZ6ufcmN27z-DEfs_RKvB2T8VwLwf-pZh9iHS0nYlHbZ_HSVyZdW-v95PjGSbk8hORKP8VIiGgxF1LCdWmJLsTtIUNnFr84oFq1zXMquCmXznKCI-j0EJVMDfyV_sK_uNflGi-rD1ctDf8vyRk53XjMqwzjmqW63vBAXqlR4ODd-ExA2U7D6-epZle-FxQExuh3muwpwuiPAeDcL6Q4Uk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16874771403454927462&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJqROOSy77R5kRZtLZYC87L-o.jpg"
       },
       {
         "id": "ChIJacRLWQD7R5kRzsbA5t2AfxM",
@@ -857,7 +898,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJacRLWQD7R5kRzsbA5t2AfxM/photos/AcnlKN0zQkd3fIX2R50ZHhW30NhBRlOc9d9LAIbN-FqZ8z5ht8WmKy20ovn5ROf6W_oo1gMtfeO6HAuv6NVfNR_6RPQCSfE_GnOOSrYZn3s2EYCW_AleNk5ASoLHqpNaq50tSm3mHK_UGuy6xCkSID-qxP43w1-KbO9TfZ5wA9YbBJZ-1myLthvgEquTV6DhhUgyotHvHIOH0Nwio0HT__7OowN4nh2L03zLw1ePCx9es7grqBALUrDAMlCVk__Ge3o1fAYbg0Jza--_n4tzszLJExpWtxQzFWE1CMT2dWUkNq1itQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1404983299310405326&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJacRLWQD7R5kRzsbA5t2AfxM.jpg"
       },
       {
         "id": "ChIJN8KHCwr7R5kRdL_kNMI4fdo",
@@ -877,7 +919,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJN8KHCwr7R5kRdL_kNMI4fdo/photos/AcnlKN2ZnGudGaGYYZSUSC5kLczpv2UNbniD2nB3RSvmlUFLT47yVXWsCtLNM2ooNacfJ3zmhON4ML8zroZNw9I_scAQKj4abzrzUSdHMltEctQxwnH9qvHJhdbvqWc922xc37wcmTYLKwmPqwaPrCQ8mZxHK2FtZlFNc7QuWQuFVuuyEhTEK3ehP13l5_I8pWcJ3RcYOJsDo-fZQaOyPIC58pMgX7uAGrobpD4Ks6p8cwQ2s7sWumY8mgpBqsUYrnKk4TfTltUckhvQidIwqq0jZXNeklU7XHryLWCQDIzJsgjSip4RTOu0sjjndgIYzLlU9KCs2mdX6TtPEDLJKyjXK-HDRV6dZcGHIaHUMMEhktGM33Nn1Op98P8J8h03MpU8lYcsYyXgxw13rkhJvZID3A4qp88CnNmFp1uTrhestmSf_h5Z9yKOW99w84yo5Gk5/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15743802279119339380&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJN8KHCwr7R5kRdL_kNMI4fdo.jpg"
       },
       {
         "id": "ChIJ8cIHIN77R5kRDZffwXVzmOk",
@@ -897,7 +940,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8cIHIN77R5kRDZffwXVzmOk/photos/AcnlKN1xaC2NujgrQQ5OUYQ8Rc3wUGxghN_l4AxL2HMB8HF_mB3mnqQ7IGSuwh1sZsw2INtMZrnFV-0KeI-DhHqnJsktsbRxY4d6FL91rFeZjapYuUW8_0cG7T0KYYJliYYhGULLM0moy18OutdnNHquOLmykECCPhx00HQ6W-aEb79MH0gz4-LVKza2QtZBhI6OrGU3vqgTqLino0Bde533zsOxD9dSwYuNlmos3pTDS_s__194rufFb8oPEQuHOxcIMejr2X6l8RFmmcswjl7g5cGIR6-DEWFK9ZGHVn430WZ0Og/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16832330556898252557&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ8cIHIN77R5kRDZffwXVzmOk.jpg"
       },
       {
         "id": "ChIJvS4tdgL7R5kR9WgwZSAD2Ug",
@@ -918,7 +962,8 @@
         "websiteUrl": "http://www.facebook.com/temoaisunset",
         "googleMapsUrl": "https://maps.google.com/?cid=5249230278348531957&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJvS4tdgL7R5kR9WgwZSAD2Ug.jpg"
       },
       {
         "id": "ChIJ6QAgdKr7R5kRkJAIpAnU-Fw",
@@ -939,7 +984,8 @@
         "websiteUrl": "https://www.instagram.com/vai.manu",
         "googleMapsUrl": "https://maps.google.com/?cid=6699337583585431696&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ6QAgdKr7R5kRkJAIpAnU-Fw.jpg"
       },
       {
         "id": "ChIJ8XcZw737R5kRczqSOb_a7QQ",
@@ -959,7 +1005,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8XcZw737R5kRczqSOb_a7QQ/photos/AcnlKN099m2BQunOREdpOgCp5DoM9lJHXM42K_e6pHaDfEWbVD4xSCGlGgnjs-kUSPYmcY4kquYdTT1N9DrIyo8t3xbGv4EZ6Xm6e97D7rtlARHfUdsDFdybCS-z3bz8zI4IMwtorCmGAds9bZIBDmerbp8NSP3Em_bANXnShXAL777AX22MSRw8NJe91DqtDfb-_BoSkyB4r9tdIH5TcyLhgBFumW_M_YP05SXhr6XvhQeeBCG1h-h0mKh-jWEkIm62SDRabWh2KdmyVwA9FyAPXlJty0vWP511qT_dC-M5AnMAZxWX56txjPVIPDMGUTK_3X_VmL4EVhUhlnsDeKglVGOGpJIIR_kzfkQlrVNx3xCvEaMyMs6rx9ll5d1vSRGMGx_9Y5li0GdjftOYulohERD_TB4tQF6YjzeaG4x0t06VZ1h6e5Tf-L-zmv6inWNN/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=355180460471630451&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ8XcZw737R5kRczqSOb_a7QQ.jpg"
       },
       {
         "id": "ChIJq116JNj7R5kRdsxhO2J69e4",
@@ -979,7 +1026,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJq116JNj7R5kRdsxhO2J69e4/photos/AcnlKN0YGpJgmpL3sr8iPP2PkLKGyCfUh-sJA3xknZXXHr3El5Ve8S2RZek4CX2rK5zBC0x7XBhOO0HrIRl-bk8T7gGtKhabVkxkNVwGJmcBLpTibqAPvfcbWaB2jLWk8QqVFOH_UszPWitta8dL7L8873F6TMuyWLolC_9M_XzeJLDSpVUsQ_QqHJruyEBDerMVhnNKoioJoJ33Y0L-eY7-ioLKacInVFTMDrxw8A45t321zLDsp7oVaX_rCF9kbtXPlBTXmHTprddL5-zwmYKvn36tOxGU1IU51nuCx_alclIHfZZLeeXEFTGqbQqqXttXwgQOjpWvO3rwTDQ-iZxu3zcPVM6dVXSM2b2gkuCYTlOH1_R-wsD2UWGrGb7VYx6AI1dWd1h2RRXPwtQUDkQoUP4odGCWzJ0yE5HMm7B_4qDhFg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17218803312642608246&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJq116JNj7R5kRdsxhO2J69e4.jpg"
       },
       {
         "id": "ChIJY-CJwej7R5kRzflY0SQnKvA",
@@ -999,7 +1047,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJY-CJwej7R5kRzflY0SQnKvA/photos/AcnlKN3xMv7UYqOAeJBe1xdX7N0HG6bY-7lknCgY7HY1xCA8dBFFQlE6LSqMZys3jsxQhvaoO5z-LtHP88Gvh1Ksz_DRNXzlzQAQGw0N-vhIBl49WOhgRCB2GxAiibpGuvjOqKNsIax8RZyb8IETJG8-Iiv0w6dk0TRn3cDoNzoF_PEAZOZ8EtzlCtC0gq0bdjhhfJK2AhgnxLLo4E9RqTRmopvJegoEKe7kpEab7MIYEtK7c9L89pHr1Qr-mVP1RXtSuRW3DCvHfYfcIVoJEqiVltn8pu2S2GaufC4dekCXRkPaKKbl0ABRyyS-3lg2dLJa81dE_NsrqN1oPy8ePEhQCFQ-7sJ-nIp1hbYbeshqxpQtS1ZiT8elWbbxRqYjf4Q5F9NE9ovdQi-nASUwbsaNS9G3G1w9KYWgRRccx6WdXnysaBMmZKb8k_Mq_mowO538/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17305687557209127373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJY-CJwej7R5kRzflY0SQnKvA.jpg"
       },
       {
         "id": "ChIJXXUcD6v7R5kRrdZN71lrzjA",
@@ -1019,7 +1068,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXXUcD6v7R5kRrdZN71lrzjA/photos/AcnlKN2mXcsjED1zURsPSAZ6ui5nUci6tVG8ZGN-BhTn0VViOPt5tO5qxlh_TCUn0hCIwqHH_e0ipKD_kUbehOsXY5C20PflTtFoxQwbSUDxfD0o1sCF0qdk27LVl9yAnSTdt5y7h4tE1vxDpxW8wtAPGvJ5HPYxJ7jOzS4C7bZNPTd_1ICZwQ34nrHwyb97NYbPJKvbEQo6H6DUmdLLqdNBOIWU7o7o6JXtOej4ldIEmlfYe-T2K71jyMd_J1dBiJ2MsdwGggY99oNg1D1uI61eg-A_QZ0vkt9qUYWSlajZGxjoGg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3516866393034053293&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJXXUcD6v7R5kRrdZN71lrzjA.jpg"
       },
       {
         "id": "ChIJQfhvY1X6R5kRezD0Go3RijI",
@@ -1039,7 +1089,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQfhvY1X6R5kRezD0Go3RijI/photos/AcnlKN2S_K8hIAw4ExVQupWH0oXPntonf6r7FaxqpsQuomWZBqPrhNecswuu3Z1JxaOkax6v9l25_z6AHnSU-09ow9hUbsr7qllD8pGXaM7lwIat0iIKPiD4JNAAHllLyRLQB7eN7btKiLH8QR1-_Jl2OtdJIFAO5NMMmWcsyh7f4m80EvH1HGfv58I1Yeg_gRB1XP4eOPOAcrGrgLJ6Fqa1Q-i49rtv9KXeKndZDzr7JeyV_wBCzsrvlOjDlRh9sqSrof8i16YYPBNx6MmFevqt4Jkczi_lWdKB3skIH4pQIgEozTeUQ7Lmt_k-Kcp21822q-ywn8sjb1F19bG6UWgLI41o_BdiKZN9tN_0FCnRsTlaR229OUOnA1t8zRa2cYU6avp612CtV2u6DN97FWfZeXEMDNkZ7BVi4XAL0tUdDoQOhA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3641953652655272059&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJQfhvY1X6R5kRezD0Go3RijI.jpg"
       },
       {
         "id": "ChIJ8Ul425P7R5kRoOEssG9HT44",
@@ -1059,7 +1110,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8Ul425P7R5kRoOEssG9HT44/photos/AcnlKN2ERb7c6SVTWWyEAcjslP2hEi82DPLfyeQ9F5JZC0awt70dNPn1ENkTWcBpL89P_BSiP9mVBa9nb_ce5yUteTVwtyTxY3osnYHk5Kb9_lqLmwxoJVksLlt3OqJmo0G1nL2Pl-WFGDWox-E74YVQDtBZGltnFS0fzMerde-IFByu0EQz6n2sFUDQH4-1y0TF9bcQpve9BeeiEGXgdPAYcMcFgl0s6MjnqFcuaClY5vSHVXLwyFqxTdMVhnM8HbYh4ZCV9x3YkfMrMc45u3Scntz8xRk11-zUGpPBSnphalpb3tioxrcLoKuh56mQcI4arllKxpUWu6fRE8gsufICH0TCreTifBkd_rDQkDwwL_QpuU_dv-asiwX2RcinQWaQ7r5vaz-Q63yWwwv90t0hA5cxRwmDZUTmEKqiGk8pDUs8Jmj4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10254493421568582048&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ8Ul425P7R5kRoOEssG9HT44.jpg"
       },
       {
         "id": "ChIJv2EKPir7R5kRzMDt3r_JiyI",
@@ -1080,7 +1132,8 @@
         "websiteUrl": "https://www.kaimarketrapanui.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2489305044968390860&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJv2EKPir7R5kRzMDt3r_JiyI.jpg"
       },
       {
         "id": "ChIJVcTFCKz7R5kRDQc1ZrWJy2s",
@@ -1101,7 +1154,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVcTFCKz7R5kRDQc1ZrWJy2s/photos/AcnlKN0rM2ew7fept76eK_9ACo6Aj9RC1N64GeV8JLWcW8-YKdixRUBVXjkBi3To1lTxfohomHpNP42TuO-OSSysDwN5uJVQ5cHTyV16mKMCCpRlWi3tt1Abez8hdXYOLx1PDl9OasYeNhKQ72hHUxhEIB734SzPrfNy1UbZK3xiH59lXxEtD9CKWPOnQoaxispsWur7m9QD29jeMricljhXJfHky41WbCS6SF_7fhcJZfJIvYy39F77H0zSR7GdsUd-n7E6jpn6PbUpR5xbjA2b2nTnzvpNweAOGAowkEg-IrOc2jajMFqmmJ-H0qjNjPjYiw5oCI60ige8SfBUdLDWzqcWwKJuyCl7wMVs0PmjEbWJoCQtAmQjx4j05sEDCT4DfRnXjkvY291SU7UD8YFQQCweNZWvsxfyOIj50SDSv-ZFV4rfk5kdHLmD_SoCSEm1/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7767453394527389453&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJVcTFCKz7R5kRDQc1ZrWJy2s.jpg"
       },
       {
         "id": "ChIJe25YNIf7R5kR4cw-67npIW0",
@@ -1121,7 +1175,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJe25YNIf7R5kR4cw-67npIW0/photos/AcnlKN3l3XUmRopoGUgiw_4Jt8FSiy2tagW_W8AVgYhkF9AY6jgZMcRjPRH88uW4_6CK-FAg7xI_BrxsRaqM2TAc60NSw1ry1uges9URk3zu7E-JSTZjnknH_NLRGkObnRytBHPgEQaHwawaFCqe5IoCUO5WMXg56tgrY5MCPjbKr_KxevAcJFt-mAxAS4znE9on5VWXSGw4_Zlao2rhTZ0d-PeLEjuhIq6UOH62YCiDLPsHTBCwuraFFZfGP7bO5HZ7WIYSMknIUPCWQGsJnZxmXWKakaMsln0aZ26xVY_Xth3FTzXX2rzGeuGiWrrDfh9F7vpSBQWjspWY129SmbOTyeOLGeE9kROvQkJVNR0zrG0SAcgDiUWIH8bfYcacZnu2DXl7_IGNkqZP7Bbz12alWP9pNyhYB9S-vdch3MT9YwU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7863823409090579681&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJe25YNIf7R5kR4cw-67npIW0.jpg"
       },
       {
         "id": "ChIJlSBUJQP7R5kRZqsljZ_e-ec",
@@ -1141,7 +1196,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlSBUJQP7R5kRZqsljZ_e-ec/photos/AcnlKN0nZB-dO3v0oMRlBwqMAdCuc70zwuHeitG--Jqmgl3xxnc3jAiL8vtTUa8qULn9vS_x4JG_FLAWTOCjEXlgsuDYahsl4aBeVvBEsvq-K4Y9IaeB5vH-xXdL3fGMGv1UcTMQ0ZG13B0El7-3fnnafizrFF9dxwrWZ-D5l2DQMR6DtwQkBxw0ilwYqBY4yVjM5QSIEeMbqktTiFHqqrxXCGlxfmthodhQPIdXI4W8lL62ornpao7gXeQ97e2-8zWwHb3nqY1RHUNAfDpnaOGRasYFmLyiv4kcjCXJv1HqVnfSipkChPIhRS0tOZ0-0I0hVUztYRqrI01MKaGMkHfLDQaLVJj54bEYeLqOQOSHrtQr1BeZbvETxj8yYgpy4qjPEr01-hd0QhZfstl335rQZErb_4_TDTFzwXxDoRrVbg1rs_ND/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16715636268811529062&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:49.322Z",
-        "updatedAt": "2026-01-23T16:01:49.322Z"
+        "updatedAt": "2026-01-23T16:01:49.322Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJlSBUJQP7R5kRZqsljZ_e-ec.jpg"
       }
     ],
     "adventure": [
@@ -1164,7 +1220,8 @@
         "websiteUrl": "http://www.conaf.cl/parques/parque-nacional-rapa-nui/",
         "googleMapsUrl": "https://maps.google.com/?cid=10605367745894221431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJWWlTfdL7R5kRdwZpdsbVLZM.jpg"
       },
       {
         "id": "ChIJ92_iYJH7R5kRRKdbEpQZVPY",
@@ -1184,7 +1241,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ92_iYJH7R5kRRKdbEpQZVPY/photos/AcnlKN0fbSTdfOb7YmW9j7KYv6ws4qk8PuLihjaH1AHWFd15obGLY-9DYTvPWNjHo3QGUGh2zRTfhgmbvhk6dGx009-zUgxOW2_2F_t5EiOVg-KGgNy5KCSQ2ao6FNAIptisBY_Dm9nbxV4wrCWDU-OnaR_RzhOCPWN9CdJBAAzD6n9bTuy-AZJhYG39AlmOx0eO0iml6bGjSc9DP-liuM3zKiKun-i7njCjXDW0Af_aIUMl0PAhewmU7okuTOcBSM1dm7rF9fxhleebYhuxocg5d3OsYd5p4kkwJHVcJuHof5kQAB_w8r_5haXN2ysIbXbDtXbIIyKcaIkxcEZ6mBWLcybV_45-p2924CeOkDvNxwvElCU6wQS45F23b7kVqQZzy4iBpPWnGvx1eFNo9F8yxUICLBEodRxHBO20a3V_xmTaSTC3ZIZYrzjTW7XobA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17749840155127818052&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ92_iYJH7R5kRRKdbEpQZVPY.jpg"
       },
       {
         "id": "ChIJc_USdwD7R5kRKfUcoyywHVA",
@@ -1204,7 +1262,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJc_USdwD7R5kRKfUcoyywHVA/photos/AcnlKN2gnB3FPyw98hax5arqA2pE0B0HrWhCoNCHEBIGhrfIBXCX3xo5nT1Dued8l7UT1VwhzsKedYbzCcczEs5i7MFa5Co-9JJ8rqdUTgocosR9BTfox6V-0lnXIMj6xx_tHiBCDjCjrjroNDY6TuS_6DE4xE3Rc_0zRiZe1aQkNlmuX_YqCwGHatRX1CBVYfII-D9V8nfBMor1Lqmb2OY0kx4ejAPH5AbQS80RCxdjZzy52JjVNMrphHuZstuHIFbIppnoMnX9MPDj8ltaR0YKDcr5GGXjss6Bdf8LkUGrWRpIEA3eVPHuc64coeaiEByle76NX0pEzoSHH1HAjS0t8ti2_a7MGQC3nV2SCX5KFAvGN5oLRzZzqphmQZ3DUmegqZY6ZhIMJqBVDODxmDRQEGEBzhHN_Uznj9Y1z6j7bZycZKXnLyOHF6-aZGVo3P8S/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5772964003120477481&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJc_USdwD7R5kRKfUcoyywHVA.jpg"
       },
       {
         "id": "ChIJV5vEm977R5kR5bsXxn6FknQ",
@@ -1225,7 +1284,8 @@
         "websiteUrl": "http://www.easterislandexpeditions.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8399923034535214053&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJV5vEm977R5kR5bsXxn6FknQ.png"
       },
       {
         "id": "ChIJTVHcZwD7R5kRA-W0het4KoE",
@@ -1245,7 +1305,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTVHcZwD7R5kRA-W0het4KoE/photos/AcnlKN2o9JYKqGXnytZ_sUgNDhhiybhBmnJAHCk_FpzZPcSVAsebP5W13M_o-iVn1yY5sV95Ts5aUnzYXliGSZsqSWFT7udC_sX-2L-gf4A5S_dzUgY3Nm4q2li69KiM6enFPTCHaaVPi0wR3fYFErhlIVtkj1h6SQb-UqLFS6QJRZAXK_EV4G-nUa3nsi4Jh8FKMS9TNZBQd2BhTXIs4rZEzfBOfo8VcmL6-1zH9DzMguJIlh8ZIDG3Uey0Da_hlvYy5OZjQnvK-PAMETM9zQ2Pxz3k56Riwv2KNgXPASerl-TyPvOfOjpcaIGvVf3DLj4sAfVLEK5zvDsS0Ie3t6vdH7a3IPTbu4f67w2ZN7evcI4IzEI0C150FvCT2PIJJQwIfcslbyxewWMK3fk7cM9dBW_WRr98nkwf-I8jP9tUMcmH6ObDgCGiZmBEjZ-BSmlo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9307384532870423811&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJTVHcZwD7R5kRA-W0het4KoE.jpg"
       },
       {
         "id": "ChIJV3wKPWDlR5kRs_2wtrZ4xu0",
@@ -1265,7 +1326,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJV3wKPWDlR5kRs_2wtrZ4xu0/photos/AcnlKN2N9kztY4ANsxUux9uqOEWYSdw5dc3e1PJlj1g9TPdjSvybWmMxp5rkIoUE5G-IYpHgf6aiK-WAE4O0KbrZOgLiBsYQL2iQvuIo5NKuheYdPby0u_c7arwhCGOTZJ2SmcC1iGeAWv5UYTHFxiBNwMyu5ZHtOA3dBKrbfLAGbGc6MQRP8i0UZ6PMTXoxhGxxI9zun4XoAQsmc8GaWwnzCemMjAoycl-XcpjrPMNnecukUWmhRy6TGFMA24OEi5BPlfWyUsoSfn13wovfZnxlH5t2BRv9mWnTsZHlmDSPQxZnvmjCOzuLQzazJ84qFbtpxavJTjh1yB_slIwIFJdHofKiOx8yY8AGhjqdY_RsfS4qXGSGbcvPgt1reSv3hmepQuE2dzMfHlV64EZ-O-QzaE-XItEGr2Fr0DtA2WpLRA_LYAFxb9dZwoI7AbLO_g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17133514558522064307&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJV3wKPWDlR5kRs_2wtrZ4xu0.jpg"
       },
       {
         "id": "ChIJbbguMrj7R5kRroar6urppHc",
@@ -1285,7 +1347,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbbguMrj7R5kRroar6urppHc/photos/AcnlKN0WIhvdjQBL4xEBsuh3l0H3BQ-531wTMlrIENiAe1BUhplsi80eFf3yocsQDFX1La8RKQwIiFCGVCXARhlPttkTHH_VapLC0AZAcLizxeaIp0BF6XyGkHGU-ixUsGYE6-_hNQAPpklwfcrijBAm5jQrp-hbc-wUg0399daDl3MktEKyfzNGY65piSsjQjCLoPf74NVdhL9rFo5P7g58WJyVcoWimj61wDg8NDe0gjpNJUNIYjCQVc7b4eavg4jf-vWQdn9CxnIeXhq0aq9nDFQjd7ZVOrMCid23f5fT4Bt5LklwInAVesW0cWA-rMx9vu7bvLjDJGakaMng2M1iA-U2tEdIWo43Tyz-uSVuF_K_s5X9YmP78w_J-Xe3TwaVImnFYpb32k_fTQ0KRNNtinpzHxTVtW4__SL-aR5DYYRxCw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8621272781862700718&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJbbguMrj7R5kRroar6urppHc.jpg"
       },
       {
         "id": "ChIJ71AuptL7R5kR4mCyeMjMk-Y",
@@ -1305,7 +1368,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ71AuptL7R5kR4mCyeMjMk-Y/photos/AcnlKN3EFxIsI6BlPhT9MuOnfby_mlpCNJpdRf9kLiv9H10nnKJEsM0NB_aZbLjWFLjVHhQJb_QQOMaASDb435MX5MxzPhnWUea4K2Rt5wnS4UJ_YR7XDocUEMcNcCnNq9OwSyETrF5ymPeGwDJZ8av6dt5ffXFiMQEUzlC4tnwR938xVyl4BPW_GcABnCotP1piZw8oOsmgLgo8bQJHZ1ZeVGKywg_CvRMTEsF2I6AR9G6ELlrHcW_8dNk6ZLXDKOAZxiSgm-ld-E6pmHCHc4HOvHnQ2eau4O9TXHIxBVSKSXXvegCXXth8aWxLVNNi1Z5UeSvYliAj9G2gE0AI46j1jSHygBmG8cOxnaAsxM86DbhUzOodiCvj4TQA7WSnHrj9jltXv56KQvM1Nf27Cgkg49lwnMTBHzO6aRWV94pDU9BN6zm7FNfuF9tV1KULPQfb/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16614848611690373346&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ71AuptL7R5kR4mCyeMjMk-Y.jpg"
       },
       {
         "id": "ChIJzccGyfn7R5kR_b5cHmhlmdI",
@@ -1325,7 +1389,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJzccGyfn7R5kR_b5cHmhlmdI/photos/AcnlKN23mEqw7FhK3T_tvKmsIMMR9493diN04LuD3JH2IxOHwRMJKf9PciHv1JJbeKbhPMQgwjtjl-ytPGvQVNq0PjVjl58rRDY04VjVMYL-_wggWezpC_AT2p1MJ1vfijlPY7B0b_0rW_IW9F5-NA_usZ3XdBq-AIgW2Mr-XcMmrvfVjrLSHGaQEa3eM3exvxC1AEJ9cGNcDhC_uG0gq2GjdIgnBECk64mH_yQ31QVSQdcINuiHxz2rSFkNKejBOZQed-j4U9wdqPTPzAeEKrqt8ObHtWC17hOHtOny5x6OAcLSj0W28Mq-iZ41jPnhwAfwdA7vHejcuZzqXtSUxiyFeCCZIJxbT-SpMtZBEQ9efWIu7dEhz7JF7YTgHWqDHDbCld_lZYud511hsc1I-2envlfLjGZFEH66lN7XKOYrhlRGFcwO48KJwTmCZ99YtcZV/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15175271917261995773&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJzccGyfn7R5kR_b5cHmhlmdI.jpg"
       },
       {
         "id": "ChIJWfRYeaX7R5kRBOP7jzMM7LU",
@@ -1346,7 +1411,8 @@
         "websiteUrl": "http://www.facebook.com/tortuga.hangapiko",
         "googleMapsUrl": "https://maps.google.com/?cid=13108866030967186180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJWfRYeaX7R5kRBOP7jzMM7LU.jpg"
       },
       {
         "id": "ChIJ4528-PTvR5kRw2qoDj7s3VM",
@@ -1366,7 +1432,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4528-PTvR5kRw2qoDj7s3VM/photos/AcnlKN0PbOShGez4n7kcI9ugJU-QMVS6CmQtAu3ufQ232b2RPrxI5mDybzVG7h5tmK9MzTkKPpv7bCZO8_ZA2LrP2W1KDbueDi_G0qwGOcwcqtT_psozG2n5ztXaT8gVHnEq8CofFldAPexBi_jgT7GRVRXX0zF1Tnf5Cc65A6eDs_aCm2WCH41yG5wPeUiS3vGaxBEk90VngJe_9CIxz1zg-pdCasUoGVcUyAeHrjmhgnrm2uiOuFG02Y66RPyArc4IAOpsxNF2rfeAIHDopHxOvhrtZmrp60jqz4FHESDOokWwrMMwaBxDOt0Ln8nnjT77ftdC4ozCNY4-LioTMRvi7WREKGLYO50J-bX2iEKITeIPHgqlAHLSTpaHh7DkdxmsIG_Ak3w5Ro2yWBPswFSSL-__kAwxJAIp8xdiPRZ3FPw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6043246026279119555&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ4528-PTvR5kRw2qoDj7s3VM.jpg"
       },
       {
         "id": "ChIJH9DHdiz7R5kRofM_YydHXW4",
@@ -1387,7 +1454,8 @@
         "websiteUrl": "https://www.instagram.com/harerapanuibychezjoseph/",
         "googleMapsUrl": "https://maps.google.com/?cid=7952590751500596129&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJH9DHdiz7R5kRofM_YydHXW4.jpg"
       },
       {
         "id": "ChIJqXq6LQDxR5kRWmR3uH4TXso",
@@ -1407,7 +1475,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqXq6LQDxR5kRWmR3uH4TXso/photos/AcnlKN149sNRJAzqUqEoLxU8RJLMzNYEKQ6yjTOPoyYLP1pIhrAeTxqXxMWzNHEZWS5KhiP-F4pK0ICNUX5s_IKkW5PTmu1PwQdWMnBc9qANf2hadxIlhDsF7GbDYZXZL5PkVFBrkRIOj5UUPr3lZ2dqOOJaMwWoKFq8zg7J_-uouoajVmMIvHHQ5lR9LlEbBkumGwhwYd9peDRWNus-WHRk0IkZrvtlyV11ESm1VCYn8c3DGBAUaBK-LlHfyOSKn16527VK4rqMseyyJtBAGYxIQe3prWCq_f84LHUsOW3YEB-0mKQFmOl_jMJNBXt2N9yaQ7BAv9tPSCwygb8zXzrgx7gO_-xgS6W39ZltLRdxTItzf-agQVuNw9xVDKgr20oGRJna-ZKkoZiTOLVojlsWCIPVEYwKIJcIZhx5PumeviIidAcl/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14582114078453883994&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJqXq6LQDxR5kRWmR3uH4TXso.jpg"
       },
       {
         "id": "ChIJnYK8Muj7R5kRBfF_6p5Qo08",
@@ -1428,7 +1497,8 @@
         "websiteUrl": "https://www.rapanuinationalpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5738518993669452037&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJnYK8Muj7R5kRBfF_6p5Qo08.jpg"
       },
       {
         "id": "ChIJo2cmbAD5R5kRGPI4SqgIYCM",
@@ -1448,7 +1518,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJo2cmbAD5R5kRGPI4SqgIYCM/photos/AcnlKN3ynihDEqPF8eUy-XFOanwcn3JOePLEhrYung4KWH0qo-2IMIGyt_Uf2V0ApJ8oDdp0biAiLZPZQ8EHTdAZi929TfZftMRi25RPofgFkDCH6wIv0DoqPu4Hr-W0ts8668GpsJUmkOhiulDxn5shANj_VgWGOtySpbiu2ySqDwpL4GHnn1cQtwtd8oaSi9G988BR3BvSNp2YNgtlyobZ_epZ2yZc33j_eknQgPbTVbxNherZ6yBLoqrdEBXyhKl-7afKzKSmTBX8GsGJTLoeg0MPnKELq8N-tDpj1zT5HYAvKSVH4RneOJuy9YLKwq4FaulSwuxZYxrgM5Yg-LkrZDuKBRFi6VE1z_1_vZr1ufPE4QdW-AY2txs5yAqpeRT2HFiDQN73RE85ObgsmSqJQAjfVYGuuN0-IgpoTvnX3TVPtQr08Fh2lLxyJhUR9iah/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2549046907984474648&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:50.579Z",
-        "updatedAt": "2026-01-23T16:01:50.579Z"
+        "updatedAt": "2026-01-23T16:01:50.579Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJo2cmbAD5R5kRGPI4SqgIYCM.jpg"
       }
     ],
     "cultural": [
@@ -1471,7 +1542,8 @@
         "websiteUrl": "http://www.conaf.cl/parques/parque-nacional-rapa-nui/",
         "googleMapsUrl": "https://maps.google.com/?cid=10605367745894221431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJWWlTfdL7R5kRdwZpdsbVLZM.jpg"
       },
       {
         "id": "ChIJR27RFv36R5kROh05FtWcJms",
@@ -1492,7 +1564,8 @@
         "websiteUrl": "http://www.museorapanui.gob.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=7721031050188102970&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJR27RFv36R5kROh05FtWcJms.jpg"
       },
       {
         "id": "ChIJyQ5rrLn7R5kRjbfSSBkFWyM",
@@ -1513,7 +1586,8 @@
         "websiteUrl": "https://www.karikari.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2547635620362237837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJyQ5rrLn7R5kRjbfSSBkFWyM.jpg"
       },
       {
         "id": "ChIJHe5rMFf6R5kRcVgJIuDYHFY",
@@ -1534,7 +1608,8 @@
         "websiteUrl": "http://www.teraai.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6205072843765012593&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJHe5rMFf6R5kRcVgJIuDYHFY.jpg"
       },
       {
         "id": "ChIJEa4pCNP7R5kR3r3kcMuHptg",
@@ -1554,7 +1629,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJEa4pCNP7R5kR3r3kcMuHptg/photos/AcnlKN20KCUj1l5L6GXJed7UFoTP-ZIiYKrXjAi4QTPU-n6eKH3oQ22d3UIEf9or7wLAYzn5gsew_BgdkkIe1xrYcI92fcrUzgfjdwSNkRKkejDQdzXMfnfMwL4NH8dph4UGjmGlSk1w5qZ0RHXauBU-aRxzg_nwxgwGGdBNOPHDf4hweXGIIY7BnUQkh8cj9K3DoW6onNe3RI5mrG-PvLCbBU07XB5n4FXTy9t40liIE90rehReFxuqsmosnZwsnfdQsIrM-ylbgVamTgH_rO5txXeUdmYOWHmt3VqCHA5QIlKfcg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15611314466168552926&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJEa4pCNP7R5kR3r3kcMuHptg.jpg"
       },
       {
         "id": "ChIJj1JNZEbvR5kRv5p-VxwAoDo",
@@ -1574,7 +1650,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj1JNZEbvR5kRv5p-VxwAoDo/photos/AcnlKN0jGastHFgUz3R4-kbUmoRrWosfsZG_6aNsSxg9X6vWndgNF1F_RjPbQQrL1KQ59hFoN9_Lvzd9IOVvslOI2EU8VEGz2G06l_ELlknQ2PKijN1QH6pMzcAWcWO822OfbScXM9wA3v1jUkcf4BXef9Z1vILYPacmW1DrBzLfeFW93BA9TFl7zM9lLdb6gVtgVbMM0y8s9PD8u9__vtePjKhPIeH9NCfFXePTub6jmJWxQouuvSN6dlmk2ay0zIj-rYkcnAFZhuFS-euieAtSr-VakDQiRM1jeG2UdfuUiZnCskqYDXjCfW6btQJKQGamjEOjvdGTdlQAEyow91lNRo6v1JSwQhg6UMfjeONU6Lsnz2ggIvudKjwz5zY0FGjaXxh_JAa9eDaTN3MRkE-AzTRRTW8NpdcjJn0LOrP63lyBbOXqs_JPFdGQ89vvDRzq/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4224376572200524479&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJj1JNZEbvR5kRv5p-VxwAoDo.jpg"
       },
       {
         "id": "ChIJdx2GGAD7R5kRyKehJtAs5WM",
@@ -1595,7 +1672,8 @@
         "websiteUrl": "https://www.instagram.com/nomeolvides_rapanui",
         "googleMapsUrl": "https://maps.google.com/?cid=7198208851934554056&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJdx2GGAD7R5kRyKehJtAs5WM.jpg"
       },
       {
         "id": "ChIJBX-8pFflR5kRcEg5fh7RB4U",
@@ -1615,7 +1693,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJBX-8pFflR5kRcEg5fh7RB4U/photos/AcnlKN0qD9CkrTgWkCkrSYDQYpbLIj56FoAwIByMa7GU7aZz8q55BJgkNa2UoxgmZFuzhllmPvQj-8k6k5gurv3wSrKXvKVyDjA8HcaDITA54LRraiuNTTWXnONeZxoVJ-TYSeV1zfxXT41fGkkygCLfPtvOkJicuGQLLjL-BK3OhG8wu-nfLvMrzdoQzzzdFR6YGYh9X32GUMBNj3fkXYLmDVK3TNmNNr6yq7xusy3aOGaL4Vnp5-TK3Z0jzgLdmF_6vwSALcig5TjzddX2mlyt3v6INkplWv9svwINpFKLrORNYcRxBmz6WF_fyVzLseWoj28NZVEQW7PQEK39QktmjTa3qSM__tN9vOVmCOJHa5XLC4rDT27xLgEkWoBQBOgeD7j_tjuKzo2DqdPqnF8yIG5efNY3UszNMYS2OkUHR-AHKV8x/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9585860260778297456&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJBX-8pFflR5kRcEg5fh7RB4U.jpg"
       },
       {
         "id": "ChIJpffRd_vxR5kRp6OqIEkWUbo",
@@ -1635,7 +1714,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpffRd_vxR5kRp6OqIEkWUbo/photos/AcnlKN1v_TI6BtUks957rN6dVjfZSiVtlsTYgAaL9853iIb9YnKGzkNOZX1F3zUJ8ORipD59MYAU9nH1lKd5_m9JKx_SOoq500ok0NF2VjXI1fpw88iJT6MycYL463RAcW8nU2ovlu5r5W9r0aZ1ZScHkKMuyec3zyJg_rrqf7uF68VMHitPe7FKIBZWuY8bPDIoDmcwoNkpE2Rsa_0M0WrkbYjfDYu0pQSwEIuvjJ9ONzPPoqatBQQGNllJgDE2SzbIOS0xO6dFiASYr0ghSNX_KPbR9vbQ9Vc8uJ7LqUF8C1ExxREXribX5ho65TeGf0xxDAp2SY-r7gljdsyaRByd5s03Tu_Ta43qeFBJ-EBQY7SQ2la8n32tb-PVQQIKgn3nxlhpBe9jFQNZV_4dQytbS4zpEOr9G3tph9epLOMboRfFtw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13425536467504636839&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJpffRd_vxR5kRp6OqIEkWUbo.jpg"
       },
       {
         "id": "ChIJO9fvjob7R5kRQzqX3bd7wM4",
@@ -1655,7 +1735,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO9fvjob7R5kRQzqX3bd7wM4/photos/AcnlKN2rq_ORisx45cIYvDwnlsl9ZOG9xt1jajc2nQl8sGfiq-1tCsn7M0E5c5blqDybu5jnD0hcsuCGeTIhFUBhArUkJaleLTABB8OK07_21Msu9UdMjHThMMrKzHGi5CRYzzww48NejQ4sIaKbYQEByL6kOcSqmKbxdOoAegM8fEtwQHoXULxI5FQiUAPLQRy-wV_MF3Gm4KxyLtynU5ZCX7PvmONY1I74xJByJhsUW0chVz6HwJzHx-_hB1ZhN2zq_0EFfkDU8iQauxFy3Oqz_tiKQbY6BioaKh062QYDTS3LtA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14898043596968507971&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJO9fvjob7R5kRQzqX3bd7wM4.jpg"
       },
       {
         "id": "ChIJ6Z_loHH7R5kR2VDetjfcRuY",
@@ -1675,7 +1756,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6Z_loHH7R5kR2VDetjfcRuY/photos/AcnlKN2_Dcrges4EzBrl7qZ4Gh123hGSNdQFhCXHTjLkp9aWJFAN5rS00ndi2cOVrx0nigb8ayqRAs_QnChAGv5MFq30cO-sFZz0TqmvLDQ7-DTcdsjwGVbD_2deZiTbDtc-jO_gForuxmKE2hJDy5hGkSR24Dal5J10AGMMWUCBBsasMWNvTw1zpVRFlScFzU2BIm4huStuZdvOvZ6zydivJXrld6UHe2UP2Go-CDoi3d41E_dRfkdlnoJSD3OiUY9p__3YbnO2Z_mRVN70B5sMpHrXWscNJjBYe--ivSv05IB7zPUycFQTIZKZsOgnHoY81lgvTIa-SNLbzvvP_9ESGYOqH6uu8gwZN4VcjEkt__-RkJSGOTaMzbArbaTpmNY3czcOCx_XDfrVJaXoHyeZA4873ryeEkIFdxh42PAMkJ8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16593192008942506201&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ6Z_loHH7R5kR2VDetjfcRuY.jpg"
       },
       {
         "id": "ChIJA1a9YYj7R5kRZWQ-4uICEb8",
@@ -1696,7 +1778,8 @@
         "websiteUrl": "https://manamaohi.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13767788709329921125&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJA1a9YYj7R5kRZWQ-4uICEb8.jpg"
       },
       {
         "id": "ChIJ8z-LZYr7R5kRhhx4GKIkr4M",
@@ -1716,7 +1799,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8z-LZYr7R5kRhhx4GKIkr4M/photos/AcnlKN2a0nlv7VZDSqE7zWErY2Lq4zjSI2u-PCapDP04Ukb4yWv86k1k9WiykTNpSAvGTRCT7oYF5qO6m0IhfbeLChOYlyIhzVDdYMQ_OiZqeU5Xy4aNm1MmiFG2zmREaPALx_VcXJs4TI6zyxqaMGm-hDo1BhARZ2QVcR9y4TQIxl53Dju834MSBhBrMGaZHuOqOR9Aiyqb2w2u1_O8XD1LMA_jeJ2MvSYo_fH2NcNMDYd6s9CmSvBOfKWmmOSQkJ7DKToz73xRedEsYUizfY6RKjCrbGGkISWqPz3R3MEGEmlSAQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9488843218506751110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ8z-LZYr7R5kRhhx4GKIkr4M.jpg"
       },
       {
         "id": "ChIJbfl0JFX6R5kRTC4r7yjmN54",
@@ -1736,7 +1820,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbfl0JFX6R5kRTC4r7yjmN54/photos/AcnlKN07hTlfBosjb0kbyu-Nf3oeUPTxCE8q6BGiIpdlNYnoqFFY9nGJaqCVcf3cxWD9dfrMRsdQ-rIc2jdKSYHiHq7OACPenluXFgHQAK9K31LcaWzgaUzLHhU7JLeuTdsNTyk2Nk57CQXGSAJpEhGm7cEhdfuE30R_8Mdg9REWYViOwB5wzb4WCJ-zhyLIc74a8G_In0GBrJJkCrh3MQ4EFNp9TEquyBYVdqCLdVaDIPMe9rKOXKlrRvvtZvjPXAscu853EMIKGY-T1pAvlfPS3BvlZ34O6vuZC4WHAiNh4UMS_EigArI_TI2nHshfu6luXLH0q05vyOaWlqj8RzcYwjtxKRkeNfRQbBccksLtOyFPtgmb5CYeU21mULMNyTD5YRr4ETxOH-yJYMucYjvnryNaQdWOmiUVfBwcdN097Y9GUw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11400834045197364812&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJbfl0JFX6R5kRTC4r7yjmN54.jpg"
       },
       {
         "id": "ChIJFwjVMgD7R5kRLOv1y9kreqA",
@@ -1756,7 +1841,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFwjVMgD7R5kRLOv1y9kreqA/photos/AcnlKN3aFND43gRSsTxT2YI_A1NepNJvaKEXvdpVHo3Ld9zVuiB_gJmxJx-M3LH-8q9cbOs3uiGrJiLSkygn3gfgG1Pk2Fs8r27uFtpNmSzk9lS2I0-HamxawfJ3-YhzlJQOOc7RhuaIhteVioUP04Mpvu-W7sv_Vz6r4Ku8M0SL48phkXs5XGjbSyhuE-s8F8RACfgxX9RzvGDpp6um-u9fUiXz4-J9bGDSD9bQkU61bVCc86EXAhAtFxpnqdvrZD067nPSlBCJtm4_p1-nhCAI5x3ELJzdulqs7m62SQDljflQFIC1ebq-Xz4vZxzNLwTRViJ6PMig7y_57Yyg77FinrpKZXV1GG6NmjjBHL7d1Tkqt0Ye1VFrBMQEacdzbDlzknlYTORbqbyGToJoUqEQw-MCEqZuziTotWF97Ghfxg_dmHjv/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11563603207656958764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJFwjVMgD7R5kRLOv1y9kreqA.jpg"
       },
       {
         "id": "ChIJbyuBIRfwR5kRoYc1a05c_5A",
@@ -1776,7 +1862,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbyuBIRfwR5kRoYc1a05c_5A/photos/AcnlKN3VwFTlK1BU_bXtKKlA2Pah0j-UYtlduxavyon_pYA5xnepkgiokYj1c-klNqll50Ey3lVov3H9zqn_nQtJfcjwDlYPmu5uTBSjwLKTnZS_u6i4QlX1DGpZXAQHNFjFjA1C0jJHWeKFg_3T4Ey3CH43wQvut0dis4iHF0pfqcqAO3GFKLZoXEZH0ViU24kIFqnScD0_Cw5E-qHNyM9cT5idRbUNLcXEyJ99VItDP2m51s3GHgy4W-u96V_xz5-5k9vNjctpdgTIkV7TpsCyEgoIdfQu0yZr5lF47zRfusaJ8gEF1gWr_d4qINlLIraMqh5DmEgE86XdHy-1xXTRm9XLFYEid0JOf3g9XLgGcEYQJrtSLbGbPAr6sa133SLZ3N8thGHPjZLbQHVXksNw_364hsgNzUEpdDyltyUHHnpUiJ42/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10448171152398714785&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJbyuBIRfwR5kRoYc1a05c_5A.jpg"
       },
       {
         "id": "ChIJJz0i5KP7R5kRqQPiQM3F3D4",
@@ -1796,7 +1883,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJz0i5KP7R5kRqQPiQM3F3D4/photos/AcnlKN18LjHbLowlz473Ahn9vx5JQHQ0e1blfvE6CUI0_xksQVCPf2SeZJHc9gXFMhoVG4lYPJll6cYCJkpQ42u3nbj1Dd-eLi_5bv3trxAQQZvHwttL_WlpnQuBLfPATMJMlah3C3I1mVqUrRo5UJiy5m5x_7VYt6Jz1VIevdBj0gJoisRgY6T33ENtW3nkZcRELMkQj14d6whk8Y0Ln1SoRnnJ7bewdGoFLCiybDuFm1vQ4g9wmQEjVZkkyHW_KJtAc9fWjcankXcgueOVhSgALNea8DTHTdw3JhzNqd5z67c/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4529712810575397801&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJJz0i5KP7R5kRqQPiQM3F3D4.jpg"
       },
       {
         "id": "ChIJ_eu9qW37R5kRDnQPMO2Oc8g",
@@ -1817,7 +1905,8 @@
         "websiteUrl": "https://www.instagram.com/nomeolvides_rapanui/",
         "googleMapsUrl": "https://maps.google.com/?cid=14444045579272025102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:51.837Z",
-        "updatedAt": "2026-01-23T16:01:51.837Z"
+        "updatedAt": "2026-01-23T16:01:51.837Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ_eu9qW37R5kRDnQPMO2Oc8g.jpg"
       }
     ],
     "relaxation": [
@@ -1840,7 +1929,8 @@
         "websiteUrl": "http://www.conaf.cl/parques/parque-nacional-rapa-nui/",
         "googleMapsUrl": "https://maps.google.com/?cid=10605367745894221431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJWWlTfdL7R5kRdwZpdsbVLZM.jpg"
       },
       {
         "id": "ChIJ92_iYJH7R5kRRKdbEpQZVPY",
@@ -1860,7 +1950,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ92_iYJH7R5kRRKdbEpQZVPY/photos/AcnlKN0xvFrSFQlwzy1-xjr7cCmZlyAgB_cPCufjnqeqMnhAvnmfC0tQczMb0XP7Czs-tUhHZ1-sn75k-ddUjZaahoRPZztoFmoSJdsSSZ2YbzAiJzEGMbfj3dPVEcaimM9haOKCi7l5hKsC_lU6YwV8TSXfMFtLz5TB8lrE5PXi5HZhtyVtGh-x0Gnnj7KkddcpUn6e7mQFdBeDAhpKXPVT3iI7j3a_MIlP7ndD475UWjFV5GMHcFjHtvqakm4kRO301UHbcgHYJP3Au4_6OhbxYrFJpfafRdAbg6MMyHA73SViCuXziUVVN1X-B1XKvJuvkhoSrgPp1hSUvUWwDDjxnnqcxKD_DUR6_fj8LzA5h4-fuP5Qb_BrldS4LCvV5iK02ZX9hHZYzuNjJ6No8ISm7X2Q6Iu8f4Yy3mw6RCS4iN66r136jJKGvOx1VuLUFA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17749840155127818052&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ92_iYJH7R5kRRKdbEpQZVPY.jpg"
       },
       {
         "id": "ChIJkXEAoPlGjKgR7OHTp9cuB3k",
@@ -1881,7 +1972,8 @@
         "websiteUrl": "https://www.facebook.com/share/1FYwk3VsKa/",
         "googleMapsUrl": "https://maps.google.com/?cid=8720990707194782188&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJkXEAoPlGjKgR7OHTp9cuB3k.jpg"
       },
       {
         "id": "ChIJb18ysQv7R5kRIvjMcT2Y9FM",
@@ -1901,7 +1993,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb18ysQv7R5kRIvjMcT2Y9FM/photos/AcnlKN0ZN9jejHWIAY290pVa_VtArmz34rGhEn3W3lR1H3izYXjFr2kYzJkVP-5SPSU4fcQahaQ0JDxMd3ZqlI6n7XnQ9DgTBTcErSCodJeCmZthj31IhWjrX8hbvKVoU3SvEj15CVZ39ovCh4kpsahtXuFNre49x_MzGDUrJsD_vgHQ0hEVNjiR8dxnkoinL_Q36HNiiGui0q7N9bm1OwcTsn-TX2c6jCASaHUuQ_NQ0MhUqhGxMIRLznSPUK3WYKCxqgAMQ56QKTbmq2r-bp40sH7igWivRjQPPHzq9wjU-iF-81QAp2Gm-g60gLsV3DCzJPfcTOp3_jfRE-tzYKWCoOwwLyUUfyrnYFd5vTIFdcOwIMqfMq03vTr5vaGFitTGhst-IyzTq_v5DCdjvNTxipE-kDBeBnsWzQM5dseF7wSsS7-byB4VLBoFqJlHF9q8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6049627589135104034&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJb18ysQv7R5kRIvjMcT2Y9FM.jpg"
       },
       {
         "id": "ChIJc_USdwD7R5kRKfUcoyywHVA",
@@ -1921,7 +2014,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJc_USdwD7R5kRKfUcoyywHVA/photos/AcnlKN3t6NRKLPW0PBRtApaKwmgr2UtvwXINFkxeOFmQ61uVZSpMlRG-_k9ThhzPi5bNyLMGiG1xfg5y2l9eQHH40Ofvf1lkCm8iTE64ztZQv3ZDOhcZBU0nRgDmRUmdoJyRiCUNrTeJ2KhuY441Jyx8GTzPg6X2yEYDKbDTLQHIYDP6gexfYSQuyVR50cS9uPlE3fiFccWmYT_rpEaGhvwPAm52SkCbcceYW0pacwkQdLZQNpyLyni7uM5y6yWRMTPeNAesHyJZ3tbIhm8QWsK4mXReszpbNohboZq1xs1DmNNLHKHcLLNDDCoukWBoX5uQzXY_QkyVJ6rgSQ57MRJBXnQCjrreIGqFu5j7Q4GSHN9loYuinWC4osEDf0TVa6XLR2bFu7QFO5U8ftWV6eNMY2CuDra2Bb8Pko_krjodLpgaztPsHcc3dhpYdrO-8uUz/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5772964003120477481&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJc_USdwD7R5kRKfUcoyywHVA.jpg"
       },
       {
         "id": "ChIJV3wKPWDlR5kRs_2wtrZ4xu0",
@@ -1941,7 +2035,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJV3wKPWDlR5kRs_2wtrZ4xu0/photos/AcnlKN0ZyLN2rzQxqyGPgsF0nAm0ynLXNg2Brafh3Oagai-lsOOcrT7j_iSSQEOUwdwFiaU1GmZ5NwPMdBbg64W2IYbOtIbFanuTUUJqvorwUOMZQVCTGydiR5na6hOJwNLEN3uVH5NO-XzDV4euyYXo_j1C372qhMrHcZj772qJAIFnDRoC25bVYQTmho8uXK3_D6QGCeZlZQMQCc0eG8DOoRosjI4thHB05ghZt5jl-q11y9KAiK1fXGwbWIcPBIyvezmZito8zfDDUMe5k_AhCzngYIvGrwQowrSvusuoIxYHqAwWbOUFw62BWhKskH8WAmJ8X1zj8CxuhI79b0JxrbnClGAuVBdTj1dpMoVt9FFQT783TIQMDsRkXkv9IHqpgVjGOBINjCQFalXwJ6rwXfLkKsWwiF7ZclkYO1ZlIFRRT4lislI0icAZRoJxGA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17133514558522064307&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJV3wKPWDlR5kRs_2wtrZ4xu0.jpg"
       },
       {
         "id": "ChIJbbguMrj7R5kRroar6urppHc",
@@ -1961,7 +2056,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbbguMrj7R5kRroar6urppHc/photos/AcnlKN1yfcVt21ERvwgyA1Lxa5Zj1b-O7P4qaM8zoWxlrzVzWux7nvZkNBNJgJGbGPnaK-5OS7XvQ9Pg6iYI6VK2frM9i_P61aldiwdk7f3RWsfdybqCTqimVE4hdVHInDsHNvGdHWZSUZwy_L_toWXLlmsX8gy6wt5umXGH-murUF7tjtGy5smV3X0yQAx51MFNGv58q5zZW8JaxvE_6S2EC-O1_-vsIXGJGPaNg8ELPxiZ1QFBkG4scH_YKdrrTvHxoNt3MSffJmNNoxZLcnmmpz7ac42xZK_rwMxmYwTLzhuV5df2JyV8zQmVjRZqWQhE9z7WSjR7Yf8n_9o8fIPFhhQ6IKdwdnL6QEBNQ2OQUXr9DEZlW11aPvrB6KVIUdpezk45Qh90WOVoTiq0IxC7hfLcflGRFsdulsZbgP4YqELbKw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8621272781862700718&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJbbguMrj7R5kRroar6urppHc.jpg"
       },
       {
         "id": "ChIJfXIC1yDwR5kR1eiB-gnmUlk",
@@ -1981,7 +2077,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfXIC1yDwR5kR1eiB-gnmUlk/photos/AcnlKN0c_VHvbRbTHvg5odgWmEHKe5IleQXYM3n9RJhEBe1zNzjhsdyBgQTVAAqe6S9PbuoQ1zYCTsGRhEM4jwfFIqryhiXyGAo9UIhcARyS8ipe0bC1rzhwWcwl_qfrzDWLX0qQTy7Oa7XhIzbavXCaxxztMRdR1lUbKza6mQ78-u8nPy1vj0-ydiCgznBqLp0iY1WyMLdmzUIAdK9VWLeXBjFd7bTaN58sTzk4iNS2TBDmWaJD4o1-HuRyXZBKyVLKGYKwjfZIjshf6LWBn-1SkyDfjkI2ZoL1FTxl_an92bJ0SLOKnfXS2AvLGY-oV7mjcsfNlKH_j_O7slavKws_DQ1LC8RtAvIyjHLY_b1di10Nmyob5qJZW9Y9r45zxeQkMF0lIgc3w1DoyGQ4FmtflaakDmEhmrwSApAgcb2KSOs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6436459747997771989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJfXIC1yDwR5kR1eiB-gnmUlk.jpg"
       },
       {
         "id": "ChIJR0ciKgD7R5kRoW1FICsWNno",
@@ -2002,7 +2099,8 @@
         "websiteUrl": "https://www.instagram.com/aquam.masajesrapanui",
         "googleMapsUrl": "https://maps.google.com/?cid=8806250495850409377&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJR0ciKgD7R5kRoW1FICsWNno.jpg"
       },
       {
         "id": "ChIJJ72zqKv7R5kR-fNsx-UOZaQ",
@@ -2023,7 +2121,8 @@
         "websiteUrl": "https://tautira.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=11845890774924063737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJJ72zqKv7R5kR-fNsx-UOZaQ.jpg"
       },
       {
         "id": "ChIJ4528-PTvR5kRw2qoDj7s3VM",
@@ -2043,7 +2142,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4528-PTvR5kRw2qoDj7s3VM/photos/AcnlKN1I3PV-sqFHL2gCRF9tnnlOX8Bbh-XChB0m3IGVmfL8q-yQZLAWpufjldgHktS-aaxEpZclXHTSMcoG6fEj_9b5wSP--dH9BX3RhcGq2DQmN8kLev1N500RB3KvnRQEPCow56Mhyl2aa5ovjP6EoGuQrksLf-tswa61mFje95C6ehCiLm2wc5CBgERbfOk2QQeQ_qwrFwn-1Qi6OJlbbDg4h-RH1uzPc8L69qJqiZesYY7pHtGIwGhPmSuqRgSEqlGK9YlCV2q-gpFfFbPInOnKC492MG4Nh0wkVJ5-TSowm3LPzAY2SsZ5hH0nZEUxUaQpAFEZaF4vnYq6Mf3PwPDNp9Oxc_-TKQGqc7Z4mVNneAS23jleIZkHMrAjLXT59t8K7prAUQVnP753x7klx7IsWw85DPFGqLtHKP-JD1c/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6043246026279119555&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ4528-PTvR5kRw2qoDj7s3VM.jpg"
       },
       {
         "id": "ChIJH9DHdiz7R5kRofM_YydHXW4",
@@ -2064,7 +2164,8 @@
         "websiteUrl": "https://www.instagram.com/harerapanuibychezjoseph/",
         "googleMapsUrl": "https://maps.google.com/?cid=7952590751500596129&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJH9DHdiz7R5kRofM_YydHXW4.jpg"
       },
       {
         "id": "ChIJnYK8Muj7R5kRBfF_6p5Qo08",
@@ -2085,7 +2186,8 @@
         "websiteUrl": "https://www.rapanuinationalpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5738518993669452037&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJnYK8Muj7R5kRBfF_6p5Qo08.jpg"
       },
       {
         "id": "ChIJo2cmbAD5R5kRGPI4SqgIYCM",
@@ -2105,7 +2207,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJo2cmbAD5R5kRGPI4SqgIYCM/photos/AcnlKN1_agPtuxpxjffkywZcxpfcQp5UkGSVrsmD_15X-iwT8SCGj6RPTsRpZSH7QFdzizKsDpZ03bNqSkeEtYPKN_Fa63tOMfXkS3pEfS-cWF49hfmYdjFObGRdr8LK_rQ8o9ZNz2dojKjf5YrDx5QNQzqaZbTwyuJJxfOvglCY0wSL3YyXWfumoxBm7zPmLV-fh9zEYUE38-pVB1jGMhDx5IRCVrehdFPFueWn1aXgbkpgcM6dmKb4SQyC1Zq5RRG0MACxZKI5i4bkRU9mRqJI6tcY3PpLOpCUpWQeijyJWt3YvConDyKeO9Sq7Z5B3AxqZq1J3vn09NiqiloMMbDCehII9hweD-eh5scNI7q5EBuH3hTfIbbJAZQbHeSgpb6mXIC767qfoUWaY30Exwhaat8yoaxkzX6Jkd_90HqGFCBjgKEal_GJx1N1izT2q8zk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2549046907984474648&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:53.046Z",
-        "updatedAt": "2026-01-23T16:01:53.046Z"
+        "updatedAt": "2026-01-23T16:01:53.046Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJo2cmbAD5R5kRGPI4SqgIYCM.jpg"
       }
     ],
     "nightlife": [
@@ -2128,7 +2231,8 @@
         "websiteUrl": "https://www.karikari.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2547635620362237837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJyQ5rrLn7R5kRjbfSSBkFWyM.jpg"
       },
       {
         "id": "ChIJe8fefAD7R5kRIRiwm6w0B-4",
@@ -2149,7 +2253,8 @@
         "websiteUrl": "https://www.instagram.com/bountykairapanui/",
         "googleMapsUrl": "https://maps.google.com/?cid=17151735621814851617&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJe8fefAD7R5kRIRiwm6w0B-4.jpg"
       },
       {
         "id": "ChIJua87Vl_7R5kRUKBJcw-V-wc",
@@ -2169,7 +2274,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJua87Vl_7R5kRUKBJcw-V-wc/photos/AcnlKN1xjGdvqjSuWz2HfCo71Q21wtPKh08hhgE6yjn9JFaGrodfC3sxFLxjCx9JUOdUrL0qzO6z7Wk9Kje4_Z-DEc69h57IJCjLtUZ0Ol0eWhJhYrL9XJwj3WhhPGmgITctrneqhViOC4hMwjS90_LpYVgS1MnQ1j-3iI-0y9MSZfHeajjExClmB3eorOo0QIgwMkqgI8N1B3jsMKaaGsqDyZ0dQyHLIbAERC4y50u236P4OJGdIkeTH0_hGdcm11H2mTUfQVOFxfHuc3ucbApbZyTiYuSX17-S5pEXYpQ7BfX1r8GLJ0p0ipfljpC3hz3WmcxJGelJWJ7hLvJOPQNnFOohGKsIX1s6LoaDO9alLj_RcOt1WYvkRj3t-q4nzhHxE5kQPXhuhp0vXkO7uA_ABsCmFXExJcHOUuQAVtwyLLz5gw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=575217271011123280&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJua87Vl_7R5kRUKBJcw-V-wc.jpg"
       },
       {
         "id": "ChIJj0mrH0D7R5kRhmNJxEaxpjc",
@@ -2190,7 +2296,8 @@
         "websiteUrl": "https://www.instagram.com/maara.restobar/",
         "googleMapsUrl": "https://maps.google.com/?cid=4010087435718976390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJj0mrH0D7R5kRhmNJxEaxpjc.jpg"
       },
       {
         "id": "ChIJ9eE5Lqr7R5kRydqeqaqrzG8",
@@ -2211,7 +2318,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9eE5Lqr7R5kRydqeqaqrzG8/photos/AcnlKN2Uod3GAiwfhDDHzii6g5desaztHgE2PmFZKF0T1SPvhdwiTR00aEU9mwrdHpzdwYxIk7JeZNZAYagHtpjJOJE2Iey4tiF1FK3kcszKfJVGgHuFt0G97153gRDEBNMPnkivmkDxL9nfbwMIQsQDjyY4CC2eZHuSxfihSH2aDz1SIr_o4YaxSn5m9SsnoNMddbLeSFuUM_xNCbNB3hPipjzHeGKzXe12npcMGHbTayOPOH8gaSbwx8y6_OdMsfnpWX1oTyYCqtlpj6D7_ReHgyJzHKbhsbIdQjKNPjQa8WWgEw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8056002582937524937&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ9eE5Lqr7R5kRydqeqaqrzG8.jpg"
       },
       {
         "id": "ChIJ6QAgdKr7R5kRkJAIpAnU-Fw",
@@ -2232,7 +2340,8 @@
         "websiteUrl": "https://www.instagram.com/vai.manu",
         "googleMapsUrl": "https://maps.google.com/?cid=6699337583585431696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ6QAgdKr7R5kRkJAIpAnU-Fw.jpg"
       },
       {
         "id": "ChIJc4uZAAD7R5kRbV6CY9ednQQ",
@@ -2252,7 +2361,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJc4uZAAD7R5kRbV6CY9ednQQ/photos/AcnlKN0dOZ0r8oy4mILxCJDFipFmyYcXkUUpSuCBUf6y0WSkX9CdwhYyGBdlMC9UsLVuMUwjIRHmy8pOTjg8B6ftLeQAIdjiVy1431wAxq_-lxJ0T6s7BWafc4HLeE0776IiGlNnPK1u3uD_jESPmE6x45OZhlKi0DKfTJZejMNvPYAESXwJUQ9lya6TRBH65DGvv0sI-_I-SZ_pxOOsntk_G2A1HUlQQILB88o9woAxkxXw68pZy-fu8bI1kS0ss_QZYbfjihYbA0qqNjqWzpAnMSsvdxAmjMPQWvXtuAHj0aweofrzdH-bJB033WBO8AmG4NpNJObpi_UrxYT26VETu9P-s-BGn_dOk-e9LF9iBY7pX7ugsbM92jiMDte80i8h3vdRFFRvuGfeN3BfUcrncGJ0mMYrFKakafbzojWC5SQ39GqtVMDOo6Q-dl1WZ5M8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=332595495908302445&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJc4uZAAD7R5kRbV6CY9ednQQ.jpg"
       },
       {
         "id": "ChIJF5Kc4q77R5kRKbJgWX7ABlQ",
@@ -2272,7 +2382,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF5Kc4q77R5kRKbJgWX7ABlQ/photos/AcnlKN3jjL1qyzSx_O2z1UX6SRV58D8SfRXui6luD66AVX4-EyHgd5YYSoFyOetl3Vcr5IWsSpSqfvVeL664WPhmM13dBfTVPBwuhNQGIzcNmm_y8qAy7-s7uz0xSDK9gsZ-koI11uM-k6j3QbTwdoW3pyV0Uc7HMgybs0hL4X_0xsafzI-Q1iClH-tPs8PGQ186-DeMHGn4GZjL2wHfMxAwU4YQyyZxa_MwFBcNoM84hi_pK9rdAlDVsRUe9kHKh8tkWIYCOVHKgUE-Bgc9Tb2eAAAXv4Sqmchwnrp1g_P1Z6cVqw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6054738397944132137&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJF5Kc4q77R5kRKbJgWX7ABlQ.jpg"
       },
       {
         "id": "ChIJY-CJwej7R5kRzflY0SQnKvA",
@@ -2292,7 +2403,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJY-CJwej7R5kRzflY0SQnKvA/photos/AcnlKN1OJxM0csLFNllxVMuNjo55e9hL9QahHjE7Mmaq24lgn9muLHGBuGnwf80_HsrcyORt0NhSXVdlneh8OqGeywa4reaUFVix0zIZOr2t7pefhMON7MHPv-k9LsdTmvXrtGMVmRSJ0NFVqSuW_2AgeznCUWqG-K_QZYIVVBPrst8Edn2aPyKk0CWmjDgzebpmQFXskz8K9wEPs1I4_tvVlvK5XydRCFPsPSSyMC6mrbOf0OwS5b1NtM0GE5CVe9o-xatNCCedIVOUWwKXwxbbhBrHDJhBaLvEK5cy6gNyLuB4SrBxAgAi5Jm5IHn__6KFrWaELn-avedvCclW6kWyWf2aQkGjpxtKZ2jY_9wXmO8aDCJF-0iqmlJbSNk-9Beh4qbxj_hUSDvWf2Fh61hlkER29a61TB1uWo0pBtqk3E_TV7D4HDZ9GL6RgE51URAt/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17305687557209127373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJY-CJwej7R5kRzflY0SQnKvA.jpg"
       },
       {
         "id": "ChIJhY_MJq77R5kRuz2ZdSW657E",
@@ -2312,7 +2424,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhY_MJq77R5kRuz2ZdSW657E/photos/AcnlKN1M_YJ_0eXkBUo8JSlE5j_0s1qbzzHl4gYGxsDPSWI8eUHaD2hMYVMyxv7vKQwApioyTRVq2ZlvebO3o6vOlk6V9P0i-gNAsNJyORVEXoQgO3YFSaafQqcDCPFSQm5aUdcGi6iRBPCmL5Xdz_3kTk69GnognkAcaZV9xu5w4VWgZ3KHSNr1KiV3mxOIiRkWzOXgwISivcjZm0siOoQfgX5VPnrkGw-YYC0iitTXIkKhHamr_rIyzY5u-Itz5TP5Cjn3wjktTE0qzOIhCYpw7sGBWyJkRI-JTjUpz_UFFIuw3IEKDbiZpXn-u8QzHijXHkjRByCsNgoQtHrMOtQ5hxIjoR1wrvP4_Hw3KkOz2fTh1J7g9v1g_CDXyxEcHiMATTHJI784Gw_LzPqZomsPj4Bq5ovzO7VhAFC3OeHGTrRzsA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12819419534382939579&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJhY_MJq77R5kRuz2ZdSW657E.jpg"
       },
       {
         "id": "ChIJazquCaz7R5kRqoCB-6_QWN0",
@@ -2334,7 +2447,8 @@
         "websiteUrl": "http://www.facebook.com/polynesiancoffee",
         "googleMapsUrl": "https://maps.google.com/?cid=15949727534590034090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJazquCaz7R5kRqoCB-6_QWN0.jpg"
       },
       {
         "id": "ChIJJzgCIwz7R5kRvuAJIC_l7GY",
@@ -2354,7 +2468,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJzgCIwz7R5kRvuAJIC_l7GY/photos/AcnlKN07_CWpEt7Xemk0moN5Gd7HF3hjXNPKDF8V9A62BGcWiUOnGQXfm7j4FYxY99FnygKqCnE2HqoFSHdM9VZFPjfGacP8sgtWnL7CSLIfEwkja94LRiDaDLhGdyCm3f2DYQJBPC2aAeDDIjUqrTqJjaQKuVNcdHGyMnef9vpE2bZj7khL-0NpWI-qsaR-Z9BqEEGCj03prfN6wDOgnoC9K3AnOmPQnQmZlx7l-zkkmFtcnTWChvYWfXIHAGE0Tct7wOac86AlTVIsSEewGnABYnEbLA5Eepi9k67RvwAkNQ0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7416554676936106174&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJJzgCIwz7R5kRvuAJIC_l7GY.jpg"
       },
       {
         "id": "ChIJbyO1IeH7R5kR77eHxNodbh8",
@@ -2374,7 +2489,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbyO1IeH7R5kR77eHxNodbh8/photos/AcnlKN3ZGZbU2nLA6KTNLma_laWHn4rW9mTF61tk4yfL9C-F0l3JYH56yKR8jryhwB99ccL_SpNcOPTgxFdro77imllLaILmAAuxH8WFkYvVwRnsroowqSex1zP5kBkVfkyA9SxNpKwRG-GoVUguGo78zrzw5EDPR3HYiBJA-v9PHg0JSgdSw4CIKqEfPBAYAE6OQoqe9d-j_VSDHIwaz-11hXKBzp_muVuB__NPJyL9zdMYyh6cS8EZfRK4i_hrjE7E7anZqixeEhTldj0nE7KHUNt_a33fvrGk93KyXQkyXEQ3bTkhZNBlyM1mnaRrtOwMuzw76w-X0zwcXnIcufN-5IF9F3lfH7OCx89zl71n1_p6utw6Zu71FiNRtVFBriidIokmv_0E0xfWGOB_cEY-mIS_ZwExMvLAKHw1FHjRSl5XNQW8QALyyys2nw1nsAfn/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2264780488051242991&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJbyO1IeH7R5kR77eHxNodbh8.jpg"
       },
       {
         "id": "ChIJ0QcLIU36R5kR0sj3XdEuY-g",
@@ -2394,7 +2510,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0QcLIU36R5kR0sj3XdEuY-g/photos/AcnlKN0e-g0gNQlQba_4v6Hf7DGMwG4hjDK8lvxEZkGSiK117N_lMfPv-eIKeeBT3ElYGr9_v-8JwG3KldkAPCrf8XWwDwtsPvnjRh-6a7ukHHMF3Eo-CvbQS4M8rbuYVuQ6NLMYeTlkVbyrz9YQOQkwuwG0U1o_x_NrMTCgCQRzffv5B5lhK4s3Otfk-_Wu-aJnhXBArDuTE8JzRQ3CUNnNO-ZD1lAEDewEt7sLeqd1nHgKED4sgGMVBYS9vuD8b_pXZFW27HZVSpFZRTjpvs9EA3g6lIpM2Fk57wbMVe_c5PQLnxEt3qI2Dv0pv37NTr_ZIAjQwzPAiOaIaf33KPrGy0j_UrXvcKKGmWZSA_tTe5OOZoNsfYRadRoH11DaMXjwaRnZxl1yu5beF2QWIdbQb1CSKfB-UM2o-4PPc9f4Ktq4RoHe/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16745279316253198546&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ0QcLIU36R5kR0sj3XdEuY-g.jpg"
       },
       {
         "id": "ChIJaWAzcwD7R5kRetb5IA8RvuU",
@@ -2414,7 +2531,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJaWAzcwD7R5kRetb5IA8RvuU/photos/AcnlKN3oExtk2Yhx9Wp7ojUGFxJ4MgZuVsEOk1Lg-61l-11RfPYeu4u3JVA8i3FAo5mHMUf6xJciP6SB71Yz_7M4usviZJ5my_Ewy1zOHCUt9oowOOwb6qnRZAoAcPY8S0EaQiR88HreHnxWYitJTCA7k6BFWIElabJfDS1c5iPMtIvrEzfFSf8Jw6ii7T-vQWhsvQsi0iSbARIAPEydncGIU0mGESDYHlgI14r8H_ENrmxWXzdvC6lzPLBq8dMQkdB_BLT_K1swPjvyT7nJjx4aALdha3DReegIXvTou_W2cWuJfdbByR5hpk5l3toeVP1hXZTmFEU5GM4PYtoZ4RJu9W2wHf8PCCUYz0WdRjFpI7PSmYf5BdcGjUZdb-3Vhg270-Ywlw5gIbzl9qNjKYOjGrPo2TKFe2z-4CR9ZiAoW7Jc_l0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16554688036935947898&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJaWAzcwD7R5kRetb5IA8RvuU.jpg"
       },
       {
         "id": "ChIJgUUMeLD7R5kRH2xLPAJIWFw",
@@ -2434,7 +2552,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJgUUMeLD7R5kRH2xLPAJIWFw/photos/AcnlKN2yveAjNzhJnM_Sv3MrJE8gLQauUuGoLtJMlmjwpFDVoK3jFxGKBQz3DBvqgMOYwC8VuL2jXO7bt5WKrPqpoXVs0YHxz45Ez4N-2cApZNcWIKwCW64LH2_jL6HKmXgCnqvgz70FLGJcbO8fatLV8T2XkjzhG3txl1-CzyhgXmWPt4D-eXur28T993_qzsd0mUBhKcG3ixnp2DEDyl_QBfWQDeVTqvYNUAyIhbZCi3_6NyCnxO1yHwrvVtfztbJiGrDVvTiFVy-p0Zspml3KlvA8LgKnxuB2EvXrNdCbrOrER8-6qdD0WseDAnC-54tItsYDn4uDTymtZH7NQAM9uE1deZIoq3uynV1JN37FK_Y-JZnQ4al0e9u4bpGN-sEkBWSeDoQuibE5SAh3L1F8qT71nDN6jHPCCsW3saXWCgraLvTF/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6654147623878618143&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:54.675Z",
-        "updatedAt": "2026-01-23T16:01:54.675Z"
+        "updatedAt": "2026-01-23T16:01:54.675Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJgUUMeLD7R5kRH2xLPAJIWFw.jpg"
       }
     ],
     "trendy": [
@@ -2457,7 +2576,8 @@
         "websiteUrl": "https://www.cafemana.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6457615008308795960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJpQs5KE77R5kROBp62qIOnlk.jpg"
       },
       {
         "id": "ChIJb6S6Hnb7R5kR_f14esryqy4",
@@ -2477,7 +2597,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb6S6Hnb7R5kR_f14esryqy4/photos/AcnlKN3pT98QB0XOaigW5xIlDfNgEH25vujydc7Gq14oLB-3s7Sqm6l8cQyH9eqYw0jITStyRZ8h3RIc-zcvP6RmEYETv3YA2pUm4JghXAl_yqMg0B5kip1YQRexeu0WtBe4FQ-AhKk4ZYCA46BpZyHBAHWxIyY9fBOlhrSR0Z2uzqpz_ElzHaKaUw1yywT1d4QBXUqiw1MSfCbZyAjkODH0cihYHZFWiobUKrGNEPqgc5B6-nWydOJUDQah_rBBHCLlu_Kdv-LZ4msFsEHH4QGDXLrwMQvp2IYXmMKxzBjJnOB6pQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3363048498214272509&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJb6S6Hnb7R5kR_f14esryqy4.jpg"
       },
       {
         "id": "ChIJua87Vl_7R5kRUKBJcw-V-wc",
@@ -2497,7 +2618,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJua87Vl_7R5kRUKBJcw-V-wc/photos/AcnlKN3XY7W_ky4MnqhA14DG6PViZnG-K4125GxdyNGozNW1juvrUawnLEJYHot6uSNEEJO5xK3GnxOSZ0heHjPo2eb808FRrgWupcUorqz13L5BXqMRPzo6TqQSxwneOVAjc2pzlq3hc1knxraam1V9ZBmRwD75lDOKp0lPzi9oLe8_FdgKcJytvw8cgh-N8zU6nVV6IBas1HJ8Brx-Chj7YJ-uBqHhwX_SWk0ZYsTij7Lyd4YyoZSvFlhNtjVhueec3YqCsAujk3P0VwmgBSDTOQEjetXUA39JLMqwjlFpve4Il5yferxhtYzcKZhs2HAgwh6OirfXJH_Ccxq3I8tEXghjB1qZG691QWLS24nnzK8U-WC2y345ij9dcPHmx1PvlwGxUejvlxVgmXRyqs5XnNiQwejGvcKq4GS9lcTZXeRYrw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=575217271011123280&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJua87Vl_7R5kRUKBJcw-V-wc.jpg"
       },
       {
         "id": "ChIJw6hFJfr7R5kR-LrLf1VtX9o",
@@ -2517,7 +2639,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJw6hFJfr7R5kR-LrLf1VtX9o/photos/AcnlKN1UwswP40bfEj7rK6fDAUL78dLcUGK-p6S1v4b2UKEcmBMn-dOLzdOcK6BA9_ezGm32sWPk_oDrKCmv7BUZHAfmof75fEcRU4ZlGw7fUdc-CItUkmtR2Hf8tRiS8nTceDoQuF07cVpiLwsxSOW3l20MRNvV3WlA5nnxs8WV4eZ1D7Ta3mgVdtI2lLOKoTPVry_JZ1Sjt_jiipbSklxM8obB5aJ_UKLcqHM5k3i96sEjrYFMgeSz8up_WUvtCVD-2gyPMTv2AT6SOPnD5ZiczbSxnt5wzE_A1dA3z-Mbb6wI9NFcGKbayAMRiOQJucjTkZwF5TVzhfnbmX0U0XDkBsHoTAZxrLbslkM5Ae8jdB7W2ohPpLoshBPSm4_GcO9HndMKcDw7Sp1vYeSZBe6UcGw6ixTAKYCHr2Cj8PyykIo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15735415837039508216&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJw6hFJfr7R5kR-LrLf1VtX9o.jpg"
       },
       {
         "id": "ChIJA9HHjv_7R5kRpVcVqWPE9ns",
@@ -2537,7 +2660,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA9HHjv_7R5kRpVcVqWPE9ns/photos/AcnlKN1oijeHcZC0J4QkHKDpqmmnBLUlc52MBeJRhC4GbMaKAzYpW9cYbVjvSc2neGuCvVApEbxbkbRRYiCCVSqohxMCmq2kAAd5zL0tDMUs044w7Pzo9A7757X68NaBQ0ZUYF8SkcZXKwCE5YHdPFnpnvvhbxYQnAxNBG9ZeqIULP0b0fXEMDPl7zjdKIaR5q_9p7KmVRv6HWr1X1seDMl9kQfkd_2KeLSk6Enaunh-eqoBSKNRtJB1TJ08Uf-QWci9bv8EcYsZW2AR4XawQLcoIrEFo_JeIKO6Kntwl4s7KAUfzk_F86OjppHw0LCHLV8qRwnN9Kh2EWgANxy8fLA6i4QakKD_mJowoZQskV5vbTkFqQJ0sRMe3Y1fMFSEW06sdps9BEZV50wimDi40qfuYHKMA6EYTiLK3hmZpRNX9ph_kiQJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8932542843253512101&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJA9HHjv_7R5kRpVcVqWPE9ns.jpg"
       },
       {
         "id": "ChIJWULjF3b7R5kRnNflKEeTJB4",
@@ -2558,7 +2682,8 @@
         "websiteUrl": "https://instagram.com/hakanini_kaffe?igshid=MzRlODBiNWFlZA==",
         "googleMapsUrl": "https://maps.google.com/?cid=2172022854137534364&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJWULjF3b7R5kRnNflKEeTJB4.jpg"
       },
       {
         "id": "ChIJqROOSy77R5kRZtLZYC87L-o",
@@ -2578,7 +2703,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqROOSy77R5kRZtLZYC87L-o/photos/AcnlKN1KQTwoRbUhJDPMcFmxlLRduxT53yiJQs5o02i8TIx8udInOjLxBTF-ueg3-I3HoIeKgPVFsHcI_zulXU3VQ8ctJ6O0iL6mx-CvfVWluKTlxDNRjrliglgnBKqo4Odx9xZKf-1zurxmscYJbTpPs8F0y94vBwqPDULj7NDd1itPcZMjbRFz6SAupl_Tn8N2TQQgF9NsWi2CBhwCs-h6dtGgWcNHEcv9P7nSF6wEKBWGA0EnT9KJMhZnH6fokAKKuPv-sbeSIstZhv6ycpiGDDsV_CdxebJj70lPKtJzDvNk1YlHup2xrnqTuuvgwz_IF3ENGV6f9LpUn_jSXOP4LWKrlKsopDnLtn6gmDQwU2IHRDnlo9vG2TAqOQxtbD04dSkQnRIbWwmIr2lmnExJZsPKbSh52pqEQhqF_rg4C2Spw3IJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16874771403454927462&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJqROOSy77R5kRZtLZYC87L-o.jpg"
       },
       {
         "id": "ChIJ8cIHIN77R5kRDZffwXVzmOk",
@@ -2598,7 +2724,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8cIHIN77R5kRDZffwXVzmOk/photos/AcnlKN1dEsKwPnzmrkwZf-L-INcsubsO_SzSDq_8LErDZKStzwKWWsU93IBSXu-XPBn3ikZN3S8AoFVhs8zLGZGK1Fj91xfSqzAARp3Q1DnuJkWPX9QMOe0AOtl6dhtYbhECDEVhbglh2PSkv7LsaAZJPN8fJkOV06oycSPQhJrGbmE_v5TggNos22oXdBU1TcN0iHnvPg4APWxP-nBq0amjZZC0w_4E1sXWKHksvL9vq1Zs9nWrRxLEleNaJlXcivVPdVGvVcVINERJUE8YsbVpRltQJW22jdJ1uuQt3zsj9ZZH5g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16832330556898252557&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ8cIHIN77R5kRDZffwXVzmOk.jpg"
       },
       {
         "id": "ChIJ6QAgdKr7R5kRkJAIpAnU-Fw",
@@ -2619,7 +2746,8 @@
         "websiteUrl": "https://www.instagram.com/vai.manu",
         "googleMapsUrl": "https://maps.google.com/?cid=6699337583585431696&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJ6QAgdKr7R5kRkJAIpAnU-Fw.jpg"
       },
       {
         "id": "ChIJXXUcD6v7R5kRrdZN71lrzjA",
@@ -2639,7 +2767,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXXUcD6v7R5kRrdZN71lrzjA/photos/AcnlKN2oiwHqptDlm_cm6g09qqC22awfkBeMwHdIeXiEtryBR4t5_3MDHZi_JTMxPIzZvbqI6piY8OyqVaOl3wv-GqGb72Kpmbt7tGuucLAUjkTviLAaEosh6dUexy-aslTAA8kqsnq0U8Y79YvebwsMPzsXcwG1Gv7Gd-uvzwPwZHw79phiy3jVxO3n1B2Q3u3YVxN5OeLIIE3Z9oyC5-zMNI_HcJPIKBSEmkZLr0IxfAOhVTUusrCVfFKsyJ2CB7SyztQwLaS0DttPeiMXRr5kLop0TJDzp9qVRRXXuHv6tiPcwg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3516866393034053293&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJXXUcD6v7R5kRrdZN71lrzjA.jpg"
       },
       {
         "id": "ChIJlSBUJQP7R5kRZqsljZ_e-ec",
@@ -2659,7 +2788,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlSBUJQP7R5kRZqsljZ_e-ec/photos/AcnlKN3nLvh3ds8dw1sqMi99zxgLIENxYNMiy253eh93FTagzCnzO8ikO31iIXdSXAK4tDKJhsOON9M4ZUrDItDb4HlphTdBX8D1KQfG6m7Q_4M_i9NPdiVmoPNQc1-vfPckDb99tci9FvE5sG7ym4QYzqrw6LJ5jwIPW0n0l-oDsFHe3l5hB-OEQMXljDU0-VBghwSuvngps3V1WyPH-Un2y_xnI9GfuXRZk9xQLIGhRU2MU64Ym_BCTk-_HHks1wLgWUOSLoHammxgerkYx-30Uw6KLpQetRxWvlM1nNskMIXGninZ4n2gmQNSwSHBqT-mgNPHKuCEtvaSftWUuHdsTIkCapG8qKlubZcPEo5uN4fHb8NkjsT8N0LhFqhf4ppoJT9KasC5QH9jRh2LwF2IJ447VHaFuTLvoLCP3uBk1gHTLhLv/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16715636268811529062&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJlSBUJQP7R5kRZqsljZ_e-ec.jpg"
       },
       {
         "id": "ChIJnZNj5qr7R5kR5OOUsEFaRnQ",
@@ -2679,7 +2809,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnZNj5qr7R5kR5OOUsEFaRnQ/photos/AcnlKN23CVhV8XEyTXnh5_ESYb0JkBiMDGp181cq7kcpGtNOHpbmTzQYwfgvYTLbZR_ZINzD6Ir79NTOBzgV56vTgeS9EhdyvynZ4FUjajoilxYlfglhJbUdPYmdvoq5EIANYR2qV8jePBAsZsec51uBcdIE1ECJ5PTA6yoOziYK7R--FWzANQ0kFb3B0mnAz5OBtA89sEX-wwecy2NnazhCMhrDdmIatMh-QO23UxsCC25Q980XzQl1qHQA8-TGrAHW2e3W-LVl9dwmMCAZ3Od1JVPQ8S4CteUbwinnWC-hVvnuYDSp0Fv45ms2V0VSBgbqY7RM9eOOJmQTBoMvYjccr4bO1xuq50BPKRtWcjAkPPcg7b75y69nu8rlY2naaHr77Re2c4eANF-yRWmT8sJrLWJb6HiUUOryPjKLLoE7B-XtKw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8378483394951308260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:01:55.770Z",
-        "updatedAt": "2026-01-23T16:01:55.770Z"
+        "updatedAt": "2026-01-23T16:01:55.770Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/easter-island/ChIJnZNj5qr7R5kR5OOUsEFaRnQ.jpg"
       }
     ]
   },

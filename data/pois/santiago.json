@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjZRwlkvPYpYRmBqEL-W3SVM/photos/AcnlKN2UkQg24-0kdoxW8Yc6yVbsO12ingQ5fqG-iz4UF1aOk-LSukfmYvisN0HWzS2jm-Nb7diyc2QRuXsrWodjdABswNf3p6oAaLpuiXPkLnH5YLW_blS_FBSU2vseVsacceOL7vO0AmbqpufTL4os201l6bFfPEHP5RzjFXeabU9hYQBc3mGoaouvJg9GnIYj7OyzZn-4J8qBDY8LqjlYRhXNEsyIg2cC1b9BvlBUMvvvfqgFkKXkxyrP9x82dmqdUBzJ9dA3tD_J9Xfpg89gpWRG5aVXp7wHMQqaqAEwjOM-lXrY999EAprFk7VGvLnlm95afFyzFyRgVgQV89xldHUTpkpXHKWP-cogpam-8Gnl-aPuw-qPSVj2zpaiwN3ZAGjI9trK_d__7XRDKeURxOagPR51eGZdE1K7JT5R0ginUQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6001530173420477080&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJjZRwlkvPYpYRmBqEL-W3SVM.jpg"
       },
       {
         "id": "ChIJea_jqwjFYpYROxD3L9ofIKY",
@@ -45,7 +46,8 @@
         "websiteUrl": "http://www.santiagocultura.cl/palacio-cousino/",
         "googleMapsUrl": "https://maps.google.com/?cid=11970602831518830651&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJea_jqwjFYpYROxD3L9ofIKY.jpg"
       },
       {
         "id": "ChIJbacQdJLFYpYRVPBWz0SF_Tc",
@@ -66,7 +68,8 @@
         "websiteUrl": "http://www.santuariocerrosancristobal.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=4034527371776684116&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJbacQdJLFYpYRVPBWz0SF_Tc.jpg"
       },
       {
         "id": "ChIJNUsKwiXPYpYR7pdrQ2v-ntE",
@@ -87,7 +90,8 @@
         "websiteUrl": "https://www.lascondes.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15104789936893302766&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJNUsKwiXPYpYR7pdrQ2v-ntE.jpg"
       },
       {
         "id": "ChIJm3PsR3vQYpYRf4CtdyLMhE4",
@@ -108,7 +112,8 @@
         "websiteUrl": "http://www.mim.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=5657871480292999295&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJm3PsR3vQYpYRf4CtdyLMhE4.jpg"
       },
       {
         "id": "ChIJvxNn30_EYpYRIRHves_-AVU",
@@ -129,7 +134,8 @@
         "websiteUrl": "https://mmdh.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6125457135274758433&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJvxNn30_EYpYRIRHves_-AVU.jpg"
       },
       {
         "id": "ChIJEQzTm1rEYpYR9UxlehkVsus",
@@ -150,7 +156,8 @@
         "websiteUrl": "http://www.mnhn.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=16983660343939386613&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJEQzTm1rEYpYR9UxlehkVsus.jpg"
       },
       {
         "id": "ChIJ58cpbKTFYpYRw3pfdBEEHEQ",
@@ -171,7 +178,8 @@
         "websiteUrl": "https://museo.precolombino.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=4907802166940367555&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ58cpbKTFYpYRw3pfdBEEHEQ.jpg"
       },
       {
         "id": "ChIJO6v-fKPFYpYRPZund0rNuLU",
@@ -192,7 +200,8 @@
         "websiteUrl": "http://www.mhn.gob.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=13094441636298464061&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJO6v-fKPFYpYRPZund0rNuLU.jpg"
       },
       {
         "id": "ChIJVan1nqPFYpYR5kf0giF4PKY",
@@ -213,7 +222,8 @@
         "websiteUrl": "http://www.catedraldesantiago.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=11978581194224977894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJVan1nqPFYpYR5kf0giF4PKY.jpg"
       },
       {
         "id": "ChIJf2IMaK_FYpYRexx_2PJICRI",
@@ -234,7 +244,8 @@
         "websiteUrl": "http://www.palaciopereira.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=1299650175324593275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJf2IMaK_FYpYRexx_2PJICRI.jpg"
       },
       {
         "id": "ChIJr9wRnBzFYpYRMm3sSIEl3e8",
@@ -255,7 +266,8 @@
         "websiteUrl": "http://www.fantasilandia.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=17284012182122294578&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJr9wRnBzFYpYRMm3sSIEl3e8.jpg"
       },
       {
         "id": "ChIJN4V0fkLPYpYRm2jflwE_YSA",
@@ -276,7 +288,8 @@
         "websiteUrl": "http://skycostanera.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2333215358030145691&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJN4V0fkLPYpYRm2jflwE_YSA.jpg"
       },
       {
         "id": "ChIJ34hkUJjFYpYRukdH5TMSJsQ",
@@ -297,7 +310,8 @@
         "websiteUrl": "http://www.mnba.gob.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14134004494648166330&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ34hkUJjFYpYRukdH5TMSJsQ.jpg"
       },
       {
         "id": "ChIJh6jlbpvFYpYRkpWNqb9Gp0M",
@@ -318,7 +332,8 @@
         "websiteUrl": "http://www.gam.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=4874942910649177490&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJh6jlbpvFYpYRkpWNqb9Gp0M.jpg"
       },
       {
         "id": "ChIJbWHLF5DFYpYRFqGp8hFH-04",
@@ -339,7 +354,8 @@
         "websiteUrl": "http://www.fundacionneruda.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=5691220696523972886&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJbWHLF5DFYpYRFqGp8hFH-04.jpg"
       },
       {
         "id": "ChIJqdJC_abFYpYRWizjc6yIDeE",
@@ -360,7 +376,8 @@
         "websiteUrl": "http://www.cclm.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=16216768107491044442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJqdJC_abFYpYRWizjc6yIDeE.jpg"
       },
       {
         "id": "ChIJGVaO9aTFYpYRZmJFtqUa_6c",
@@ -381,7 +398,8 @@
         "websiteUrl": "http://www.camara.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=12105423622425109094&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJGVaO9aTFYpYRZmJFtqUa_6c.jpg"
       },
       {
         "id": "ChIJI-CYvazFYpYR1FHgot_Sew4",
@@ -403,7 +421,8 @@
         "websiteUrl": "http://www.oceanpacifics.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=1043659596618551764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJI-CYvazFYpYR1FHgot_Sew4.jpg"
       },
       {
         "id": "ChIJZeRH_abFYpYRgq6ITSuhD10",
@@ -424,7 +443,8 @@
         "websiteUrl": "https://visitasguiadas.presidencia.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6705755577534426754&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJZeRH_abFYpYRgq6ITSuhD10.jpg"
       },
       {
         "id": "ChIJe0qrBL_PYpYRX3V3UlbkmVo",
@@ -444,7 +464,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJe0qrBL_PYpYRX3V3UlbkmVo/photos/AcnlKN2Rep6vfM7k3QEBiL9mlK3BfPq6U8gWfEaDD_-YvejbixuEbfOz_dIcSAZ4j2QKILMYWmnmvOPL-FfxjXHoh8i_ZFxR_8-jZYOkbYCjeLAMy_6LSRWv31qidSNj_XD8zktqHyiaJREPivvwYvR15QlAWGy8JMhTesfRFO0YJ4FTiOj90JjW2o5vJJjco_jIxYdZWu_EHSZPeim1JjU1wJuKTzpTjGYEpzokhnDbQ_A8l18f-69YYlz_cpXRTQCJlWTnL2IVpBuhycQy6hyF7RB_Wqd4v9h21t9dSk78Bs4d-m6z50yEMlBUzGKPRDCvytYZjQrkX01nmURPlf_uDzU82WQcZt1M8FpyFlpNP9vgqn8slYr5h4jMrppY5RzDiDlE9O44lempinm1OsAVp2in_AWCU-SVtMeWDpjZgwXeAA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6528500194252125535&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJe0qrBL_PYpYRX3V3UlbkmVo.jpg"
       },
       {
         "id": "ChIJQ3F_S3XFYpYRfVpch8IBzHM",
@@ -465,7 +486,8 @@
         "websiteUrl": "http://www.casadelosdiez.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8344046144616946301&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJQ3F_S3XFYpYRfVpch8IBzHM.jpg"
       },
       {
         "id": "ChIJUUgULobFYpYRXJQMF47vBn8",
@@ -485,7 +507,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUUgULobFYpYRXJQMF47vBn8/photos/AcnlKN2b4ZdS6ukioU_zTAdrMMYyHl3nJ8_0rPNez9mbf7Zn1zcdYqJYwlHUvgRdYIHZpImtfshQAY3jb-DAhpZ0FZUP667AmdeWTWHAw_qoqKa3UPBWhcpTdD-g5odzz2i5NCn3M3t1DuN4fZglvoYvZoW6UBOjXwEm4i86jkg5a9c8JlO_0Op9GiMkwvGPxagGVrrS-FLOepMIgarRG9l-NMhKwgLLbhM2Hzso1yIdxD4JvNY3Zul-7pE4ema6SMZhJfyALt__aVxvykcn2sgbBmazg9r4bsk8fB3Z5E-f-C5TN1PjpW87M547q-1mtG-AeVYz54aZgX-cdy4Z2pMQi73shMDJAgkirsWe4-MKTJ44fCU_XWtkdcA7qgeah-ma3c80tQT8brisTsn_ypY_AefxMv-q0Q6xlUXBzpBVsU8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9153266686228206684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJUUgULobFYpYRXJQMF47vBn8.jpg"
       },
       {
         "id": "ChIJUUmF1GnPYpYR39Cq7y_vh5o",
@@ -506,7 +529,8 @@
         "websiteUrl": "https://www.cencomalls.cl/costanera",
         "googleMapsUrl": "https://maps.google.com/?cid=11135131592860291295&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJUUmF1GnPYpYR39Cq7y_vh5o.jpg"
       },
       {
         "id": "ChIJPYJV6JjFYpYR0ascHudfT6Y",
@@ -527,7 +551,8 @@
         "websiteUrl": "http://www.municipalidaddesantiago.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=11983902579703458769&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJPYJV6JjFYpYR0ascHudfT6Y.jpg"
       },
       {
         "id": "ChIJ_yIPLafFYpYRX4feJRcs5A8",
@@ -548,7 +573,8 @@
         "websiteUrl": "http://www.clubdelaunion.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=1145088683190159199&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ_yIPLafFYpYRX4feJRcs5A8.jpg"
       },
       {
         "id": "ChIJB3OVkKPFYpYRx9e-5v-H7wA",
@@ -569,7 +595,8 @@
         "websiteUrl": "https://www.munistgo.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=67422052591523783&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJB3OVkKPFYpYRx9e-5v-H7wA.jpg"
       },
       {
         "id": "ChIJZ6sbuKfFYpYR90ndVhnN9Xw",
@@ -590,7 +617,8 @@
         "websiteUrl": "https://informacioncorporativa.entel.cl/sobre-entel/historia/torre-entel",
         "googleMapsUrl": "https://maps.google.com/?cid=9004328538712394231&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJZ6sbuKfFYpYR90ndVhnN9Xw.jpg"
       },
       {
         "id": "ChIJnX6J6MPFYpYR5qJktBNBs1I",
@@ -610,7 +638,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnX6J6MPFYpYR5qJktBNBs1I/photos/AcnlKN2-VW71b5PmK9eXEEdsbvazNm5yeDHG0b29Tgv1STtbs4H8acAmlmWH9C88HbW6aY77vNZ3QsXWIBNiIiSWfUvnezK-IuXZh4dG-qB7Haxd7zkH38PN5Qqcysh4CquACWtMOqJGq3B6R_NKDZPY5W0Gkbdd0eMS6061HOihaYDS6RCmThOr9az51LU4yZxl5hZy_VLnMMVtcxPJApVSKbA2DAQcdpgsZpKu_YI4gG-EVU8fa3F12yzz8AXAz8veBRgxzi928ct7CjBfndovJsJnAhkEV7INn_iUySH2FcMX-vL8pbfmJpc5OsMJTQMX5AOaOGFKBmZZf_eQtc_DvPYpeRjbGzdJq5bYdGd9mA6R2JkIZFIGcm5bQ2FkmQZAippJnPFch5G6_-uE5LSNfUMFPzRfWLtXyFDRohzCZl8Pgow/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5959178284827976422&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:55.227Z",
-        "updatedAt": "2026-01-23T15:46:55.227Z"
+        "updatedAt": "2026-01-23T15:46:55.227Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJnX6J6MPFYpYR5qJktBNBs1I.jpg"
       }
     ],
     "foodie": [
@@ -634,7 +663,8 @@
         "websiteUrl": "https://www.labirrabar.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=17754491742541363281&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJgbHRDgDPYpYRUbjIKSygZPY.jpg"
       },
       {
         "id": "ChIJN0cO4mbPYpYRQ_acJVj7gnY",
@@ -656,7 +686,8 @@
         "websiteUrl": "https://linktr.ee/cafecalderon",
         "googleMapsUrl": "https://maps.google.com/?cid=8539664199454619203&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJN0cO4mbPYpYRQ_acJVj7gnY.jpg"
       },
       {
         "id": "ChIJy-q2ja7FYpYRplgsyNWr8K4",
@@ -677,7 +708,8 @@
         "websiteUrl": "https://instagram.com/okinawarepublica?igshid=NGExMmI2YTkyZg==",
         "googleMapsUrl": "https://maps.google.com/?cid=12605764291684751526&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJy-q2ja7FYpYRplgsyNWr8K4.jpg"
       },
       {
         "id": "ChIJr36Cb5HPYpYRU1FKmVaopmU",
@@ -699,7 +731,8 @@
         "websiteUrl": "https://golfodinapoli.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=7324726933857128787&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJr36Cb5HPYpYRU1FKmVaopmU.jpg"
       },
       {
         "id": "ChIJ1eSv9D_PYpYRLlZ7cp8hz4k",
@@ -721,7 +754,8 @@
         "websiteUrl": "http://www.tiramisu.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=9930192672079435310&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ1eSv9D_PYpYRLlZ7cp8hz4k.jpg"
       },
       {
         "id": "ChIJaYpZBo7nYpYRDcVH0Qs9yh4",
@@ -742,7 +776,8 @@
         "websiteUrl": "http://www.lamom.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2218652887398466829&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJaYpZBo7nYpYRDcVH0Qs9yh4.jpg"
       },
       {
         "id": "ChIJO6TH9-_QYpYREgGfJeZoq00",
@@ -764,7 +799,8 @@
         "websiteUrl": "http://www.pattycarino.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=5596682299620917522&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJO6TH9-_QYpYREgGfJeZoq00.jpg"
       },
       {
         "id": "ChIJB9qkqjnPYpYRPXT2nmhJSCI",
@@ -786,7 +822,8 @@
         "websiteUrl": "http://www.lapopularpizzaypan.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2470305109305095229&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJB9qkqjnPYpYRPXT2nmhJSCI.png"
       },
       {
         "id": "ChIJF0TGo6zFYpYR2yB9TR0pCVg",
@@ -808,7 +845,8 @@
         "websiteUrl": "http://www.losvikingosrestaurant.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6343646755958890715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJF0TGo6zFYpYR2yB9TR0pCVg.jpg"
       },
       {
         "id": "ChIJI-CYvazFYpYR1FHgot_Sew4",
@@ -830,7 +868,8 @@
         "websiteUrl": "http://www.oceanpacifics.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=1043659596618551764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJI-CYvazFYpYR1FHgot_Sew4.jpg"
       },
       {
         "id": "ChIJB0M85CbPYpYRh-S__lj9jL0",
@@ -850,7 +889,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJB0M85CbPYpYRh-S__lj9jL0/photos/AcnlKN3wlR_y9hY0DU08FBFkChJzQ1dtrDEdFIsb-2GEgkiJ1au50oUnMiPm9gf0f7jvND-TMihL5X5mzPYx0z0D9IVBw0mxPljFKtPRF5AJph6tujAbXCTAsy_Y6e9S9H5T_puyblZTrlqOnvLpgQCE1mTf2nr3AX2L0EnpRCl3xOAhsHvNuGGZ_GNpT138vQiTI0gXMz9mdPUVRFFUZulvKxXWNuVzsLuf8cFslo-6B6a4aDvWozQ0_MR7NG-d46KOy0-HMouPCBDKTgON_afUx9rdDqe3Cys3GcPxtTqeB5Pwfw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13658570328580809863&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJB0M85CbPYpYRh-S__lj9jL0.jpg"
       },
       {
         "id": "ChIJdxqxwGjPYpYR5LpxKuHCQyk",
@@ -872,7 +912,8 @@
         "websiteUrl": "http://giratorio.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2973434451330185956&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJdxqxwGjPYpYR5LpxKuHCQyk.jpg"
       },
       {
         "id": "ChIJ29fkN-bQYpYRNeUVXqXkRO8",
@@ -894,7 +935,8 @@
         "websiteUrl": "http://www.pasteleriatialucy.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=17241156672380331317&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ29fkN-bQYpYRNeUVXqXkRO8.jpg"
       },
       {
         "id": "ChIJVfxyeQDPYpYRiacWz1pEsWQ",
@@ -915,7 +957,8 @@
         "websiteUrl": "http://www.lovercafeteria.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7255655631482693513&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJVfxyeQDPYpYRiacWz1pEsWQ.jpg"
       },
       {
         "id": "ChIJG_YlxR3PYpYR0rjKthRzdVU",
@@ -937,7 +980,8 @@
         "websiteUrl": "https://www.oggigelato.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6157954598302300370&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJG_YlxR3PYpYR0rjKthRzdVU.jpg"
       },
       {
         "id": "ChIJI7lehmjPYpYRzKKGfF-qatQ",
@@ -958,7 +1002,8 @@
         "websiteUrl": "http://www.krispykreme.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15306233610659865292&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJI7lehmjPYpYRzKKGfF-qatQ.jpg"
       },
       {
         "id": "ChIJT21TcZHPYpYRyYu_juwIfMg",
@@ -980,7 +1025,8 @@
         "websiteUrl": "https://pedidos.condi.cl/pedir",
         "googleMapsUrl": "https://maps.google.com/?cid=14446431516797930441&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJT21TcZHPYpYRyYu_juwIfMg.jpg"
       },
       {
         "id": "ChIJYeqYJJnFYpYRV9R1qxpNfnY",
@@ -1002,7 +1048,8 @@
         "websiteUrl": "http://www.wonderlandcafe.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8538346720482153559&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJYeqYJJnFYpYRV9R1qxpNfnY.jpg"
       },
       {
         "id": "ChIJw0hsHQHFYpYRJRPcQcrN4fY",
@@ -1023,7 +1070,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJw0hsHQHFYpYRJRPcQcrN4fY/photos/AcnlKN01Jq-C3kQ0jDlg6h8-hWARctTc2KN9jlyOAz0tOes-6pap7SRn5XPQPXr25iYe2ygDKBWuQlZMO2zvdOkqPx62AmKo-XFbSuaPChO8ugjUanPu6Jt3DbOVnJQIECpoeaTMc5WJCeYww4K4oQvleSu3AHl_z986XKqN_FlBSbpGHq97MU5j6OHEDR2-AOSy1r6-414U9VdTMZ1Iv_WzzJfjrm5fQFAMsiqYDnn4gTq4eeOTTlZ8p8Eo7UxHceiiCYRoNYXYUwfcgqaIYXJiMIGTOJdnC4sb4Oi6ylNBd1XYL4LNXDe8FH0CuIndqVc2FnSSS10pJGAwiWdLIAH3_URxj_crjiQppMHntyXrCmbM6leXOOvjMylOuwIfhoRjmgSNKOQnJHU9YlVEHYbbHolhd2aPkinf_lmw1i2VxFu0IQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17789726271662199589&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJw0hsHQHFYpYRJRPcQcrN4fY.jpg"
       },
       {
         "id": "ChIJb_dH2zzdYpYRef97U3nbop4",
@@ -1045,7 +1093,8 @@
         "websiteUrl": "https://www.mallplaza.com/cl/oeste",
         "googleMapsUrl": "https://maps.google.com/?cid=11430940118357901177&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJb_dH2zzdYpYRef97U3nbop4.jpg"
       },
       {
         "id": "ChIJwT5cgt7OYpYR-YkmPL0Odbw",
@@ -1066,7 +1115,8 @@
         "websiteUrl": "http://iconchile.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13579776457326365177&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJwT5cgt7OYpYR-YkmPL0Odbw.jpg"
       },
       {
         "id": "ChIJf5GZtEvPYpYRbYrwpTGhBv0",
@@ -1088,7 +1138,8 @@
         "websiteUrl": "https://mestizorestaurant.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=18232437376065505901&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJf5GZtEvPYpYRbYrwpTGhBv0.jpg"
       },
       {
         "id": "ChIJa4_s7IPPYpYR6NMIizoWEyo",
@@ -1110,7 +1161,8 @@
         "websiteUrl": "http://tavelli.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=3031791414847001576&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJa4_s7IPPYpYR6NMIizoWEyo.jpg"
       },
       {
         "id": "ChIJ-UUTgTXJYpYRgeb5R7UJ-gA",
@@ -1132,7 +1184,8 @@
         "websiteUrl": "https://www.instagram.com/mestiere.cl/?hl=es-la",
         "googleMapsUrl": "https://maps.google.com/?cid=70379418378954369&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ-UUTgTXJYpYRgeb5R7UJ-gA.jpg"
       },
       {
         "id": "ChIJ5a7TtFXEYpYR-Xe8ejQCSoQ",
@@ -1154,7 +1207,8 @@
         "websiteUrl": "https://chilenazorestaurant.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=9532433985703802873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ5a7TtFXEYpYR-Xe8ejQCSoQ.jpg"
       },
       {
         "id": "ChIJJxV23wPFYpYRF5LncHIQ454",
@@ -1175,7 +1229,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJxV23wPFYpYRF5LncHIQ454/photos/AcnlKN0cgkJfTEf3yLNfcHYof-4cGPkywe2qnI0ZFHEvNZnU5o5LvHiEIHMoGU9TMAFVKmxMn9G6QbQzPO8vlJjLsMddH7vLKG0OnnEh4lZlYy1omtD0c8hc0iKp9Oujx7IlZO2N3rugMXCGZnzab1CFG_nh2z6QgcZOXo-ijGNyh2YkJcCd1aHFnso0raiev0CQ7vXknfmiA_S1CV4JBatbpwEBNawkRd6Ue9TlmVdnpu9diZ4JmtSwqfIpCSDsmRZylIttADqyRFRH16LF7pLnzpMt4vhGJWvaaPWnWFKhmexagTIcPvf-83HBajnyuTsIKRhBii1CJp7OR5U8sTNG-tWk6tAiKDx3WVokP3-8W7WafL_ncSpTi9jdSlaaTqJQO1F-mQUaLsLBIZLMGpjOJs2HtIOSgV1RqDrx3np3z4E8_8VDRpFq95dM4UVDHw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11449012761412473367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJJxV23wPFYpYRF5LncHIQ454.jpg"
       },
       {
         "id": "ChIJgx7Lf1XEYpYRYKuL0p7ElQM",
@@ -1197,7 +1252,8 @@
         "websiteUrl": "http://caferestaurantoishi.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=258328740059917152&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJgx7Lf1XEYpYRYKuL0p7ElQM.jpg"
       },
       {
         "id": "ChIJs68KIV3PYpYRv6ZvSYr7xXU",
@@ -1218,7 +1274,8 @@
         "websiteUrl": "http://www.pantierralibre.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8486465644205680319&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJs68KIV3PYpYRv6ZvSYr7xXU.jpg"
       },
       {
         "id": "ChIJ5RAw_wDFYpYRUBAoNTZOPi4",
@@ -1239,7 +1296,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5RAw_wDFYpYRUBAoNTZOPi4/photos/AcnlKN3NrKaH6bUsYosq0JGPwFCuQkZ6SENuKYTiNckULR5QxEFkEZ1SYn06bYQ1pkPXLxOsX8KByg9iKNAflAb_WLG6LmhvcxqjE-GqVHuoQnlgNFcT4isqe-gbn6n4CUfJ-cD0KcCoQ4-kit4XGoN0yDGtdTfquh87p6CqS82vJvLwHXaxrfJe6tSqufaYqpaTLtVh65OdMi2Ywz1XKgzai8RkM1DEyrA9uz8xcTffK-Au7sh0Bh3CqFs2eD7fO75HJpaRVmbOp_jAspM8RglfYDEav83zQqM-WQG1luyztW_3xg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3332186769027764304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ5RAw_wDFYpYRUBAoNTZOPi4.jpg"
       },
       {
         "id": "ChIJb2z-8p_FYpYRK2BlNGytXxw",
@@ -1260,7 +1318,8 @@
         "websiteUrl": "https://www.rappi.cl/santiago-de-chile/restaurantes/delivery/68328-la-mesa-redonda",
         "googleMapsUrl": "https://maps.google.com/?cid=2044543436096626731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:56.369Z",
-        "updatedAt": "2026-01-23T15:46:56.369Z"
+        "updatedAt": "2026-01-23T15:46:56.369Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJb2z-8p_FYpYRK2BlNGytXxw.jpg"
       }
     ],
     "adventure": [
@@ -1283,7 +1342,8 @@
         "websiteUrl": "http://www.parquemet.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15288995922331990645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJI4SOhpLIYpYRdXr-aslsLdQ.jpg"
       },
       {
         "id": "ChIJjZRwlkvPYpYRmBqEL-W3SVM",
@@ -1303,7 +1363,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjZRwlkvPYpYRmBqEL-W3SVM/photos/AcnlKN21GvXMZ7WRYpEvFI8LzOlo-N__pV1sVK17xGtJ62poN4WBJBPg_lnq7Yosg75fCv5P0tq2LXqOaFuqPk73qQ97sSyh9Bv9AZRDzy6MwdO4QFAoxFL6O-SFmxuDPBSZkSo1j_azamaSmfj4aQ7_ZarOhyt8SpVQl2PDS-5eWRgWeV-4FglH92GhWtOhNIgEt7tPyiISHEfP-13dSIl7_nzpVzfkq0DGQCz99doPoh4QsiwEtJdGCRMdhapCxGiv55xabSQ_SiFM0dVApv798amZ11B55RfWtwMyZznxz_E5u9mCHqeqVrFA9jOOE5hq6Y19aTKrklrAV7IBS08aQ5nBcpOxhdWi5NramVy4ziEdU1XSXT2v1-2wwem8TLFKVzU6BZtaqLisb8ttQHgGr94jeRTgv1E22HV6vdmy6RCvmQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6001530173420477080&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJjZRwlkvPYpYRmBqEL-W3SVM.jpg"
       },
       {
         "id": "ChIJ53tK1KLIYpYRvIfBfL2ksHU",
@@ -1324,7 +1385,8 @@
         "websiteUrl": "http://www.parquemet.cl/bosque-santiago/",
         "googleMapsUrl": "https://maps.google.com/?cid=8480459232087476156&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ53tK1KLIYpYRvIfBfL2ksHU.jpg"
       },
       {
         "id": "ChIJNUsKwiXPYpYR7pdrQ2v-ntE",
@@ -1345,7 +1407,8 @@
         "websiteUrl": "https://www.lascondes.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15104789936893302766&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJNUsKwiXPYpYR7pdrQ2v-ntE.jpg"
       },
       {
         "id": "ChIJcRXHmyPSYpYR2o5K9CaRyds",
@@ -1366,7 +1429,8 @@
         "websiteUrl": "https://www.penalolen.cl/medio-ambiente/",
         "googleMapsUrl": "https://maps.google.com/?cid=15837349161118371546&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJcRXHmyPSYpYR2o5K9CaRyds.jpg"
       },
       {
         "id": "ChIJe59sA2DOYpYRhpD6mzVeDDE",
@@ -1387,7 +1451,8 @@
         "websiteUrl": "http://www.parquesanalbertohurtado.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=3534303391922163846&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJe59sA2DOYpYRhpD6mzVeDDE.jpg"
       },
       {
         "id": "ChIJBSDZk4LPYpYRBHUanWvqj7Y",
@@ -1408,7 +1473,8 @@
         "websiteUrl": "http://providencia.cl/provi/site/artic/20190927/pags/20190927122144.html",
         "googleMapsUrl": "https://maps.google.com/?cid=13154990784490665220&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJBSDZk4LPYpYRBHUanWvqj7Y.jpg"
       },
       {
         "id": "ChIJe0qrBL_PYpYRX3V3UlbkmVo",
@@ -1428,7 +1494,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJe0qrBL_PYpYRX3V3UlbkmVo/photos/AcnlKN229QAb8a_9pq33sxUz-jfXMOmLBLro_xOuH_2dbhd-ljYOK9RF8hgyjIRmiT7CEU_Y4h98f9P1jKDvrH-n79zAvrcDxSErZqit3VfkN6a1Y6wTnvxTgJI6L51GQcftXwgbU96u_Vk49c0JmyxJpPrHcie0OhhMftPp6utkjIKvXOdjyFri8Zyvt5O5nYm7xG7sSFBFKlCXUlHjD37stDNBQ9iWOl50Rna2qpOTWRnT7jPQEQlTLKzUd1hsrrmdmhPdMnloqO5IQ9NUAj-QWiyEiyExM52gMi9NIJoY9etuVnxjVcv9y_l41KnxkxtQHIZ-qYyOLPs5VP3aT2SswgpYPZ-UUjysme7lM-ngU6uVjsGHWzFu3sKL2B3dvwHLQFkIDnI-frlLKnC01Y_3T35DeVK5Ze_PhmCcWmgIuFobhQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6528500194252125535&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJe0qrBL_PYpYRX3V3UlbkmVo.jpg"
       },
       {
         "id": "ChIJY9rBBl7PYpYRqIWZmuaiRHE",
@@ -1449,7 +1516,8 @@
         "websiteUrl": "https://parquemet.cl/lugares/jardin-japones/",
         "googleMapsUrl": "https://maps.google.com/?cid=8161827536022111656&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJY9rBBl7PYpYRqIWZmuaiRHE.jpg"
       },
       {
         "id": "ChIJo3zcn4fGYpYReKOSMLzHE6E",
@@ -1470,7 +1538,8 @@
         "websiteUrl": "http://www.conchali.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=11606840275746595704&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJo3zcn4fGYpYReKOSMLzHE6E.jpg"
       },
       {
         "id": "ChIJB3OVkKPFYpYRx9e-5v-H7wA",
@@ -1491,7 +1560,8 @@
         "websiteUrl": "https://www.munistgo.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=67422052591523783&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJB3OVkKPFYpYRx9e-5v-H7wA.jpg"
       },
       {
         "id": "ChIJZ4LfxdPcYpYR-s3iJwFupRY",
@@ -1512,7 +1582,8 @@
         "websiteUrl": "http://municipalidadmaipu.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=1631831391234870778&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.431Z",
-        "updatedAt": "2026-01-23T15:46:57.431Z"
+        "updatedAt": "2026-01-23T15:46:57.431Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJZ4LfxdPcYpYR-s3iJwFupRY.jpg"
       },
       {
         "id": "ChIJ5eROmI_DYpYRdCv6ZW41NtE",
@@ -1551,7 +1622,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwctZTAHJYpYRVzZXn9Pqe_U/photos/AcnlKN2uAr7gWqBu8aadEtmmKbunOuY3wfnAuUtgqigfhc9YL1A-qTuKwmK7Dg-X03SgL4Mhx81dkB98RccDnu3p1L2QgZXWd0ph9nN6giSIJH1TycOqrb_VDL2hbe8Us1grBWQE8UznKwZayFRmm3yMk1iOVNJvTZRcFvlO6Z3TeOY1dEoVvXgaob6G5SKQo6mzfqlL5_g_Kn-GgiCMkV6d92nhbFwUuWtDGzGaHcUaXPU4qBgcsml_6gODN1gZdasHbbie0JKhPdeq4V2SG6vFhfohpFGHwIisbXZBoLOGv95IJ_aonaJqMdWX8rKysO2KlQLJAz0uCA0q12CqEjzmP0Cm97t6n6g74cm8k6kotFNfxkzxXds10OL0ljWjrjBJVLc5ej5-a2vvqqSnNbF0GvgmY8EbrOS9pIJROJxeenZw6os_ta8aW6b6bKDdJFIC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17688990156060046935&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJwctZTAHJYpYRVzZXn9Pqe_U.jpg"
       },
       {
         "id": "ChIJeQbWDFXPYpYRcR9knM4MRqw",
@@ -1572,7 +1644,8 @@
         "websiteUrl": "http://www.parquemet.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=12413623504419954545&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJeQbWDFXPYpYRcR9knM4MRqw.jpg"
       },
       {
         "id": "ChIJp1Hf_CfJYpYRzEWyaI_QRJM",
@@ -1593,7 +1666,8 @@
         "websiteUrl": "https://www.outlife.cl/parques/manquehue/",
         "googleMapsUrl": "https://maps.google.com/?cid=10611835936347145676&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJp1Hf_CfJYpYRzEWyaI_QRJM.jpg"
       },
       {
         "id": "ChIJ2YhmUQDJYpYRCV5dRzrXRfs",
@@ -1613,7 +1687,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2YhmUQDJYpYRCV5dRzrXRfs/photos/AcnlKN1SrIybnCzSfkvH1EPGZ_e7-t5KCHxdfBEbXYMjeNI48zbdPqJtQJYokfYTZZXTCQhfAUYa0SDcZYfp4HIfh27z742mGbCQKmMZS83J9og7FxrLEVEe3mFqLF69I8DUEfgzvAs5lrYxJoXgG_ojnwsIe97QW85xjqbLiLwz4_hlb-gWG5mG6aVORUffH84KYnWeszrVKk6UqMNIFQnlY3y_XMo3lAMPdPBXVGP15_TsQ6crgMXhZloOaIHY6STyMQmgXKI28PAP3w9Gy7H1mCzoVY-8lttWwl2I9-P8mCyM4lZpjN_DYDKbttvFSNeesDuV82P0yqvLkE4NKoWwSjWnq3134dxHKH9oPGFuwcloFZdkuGvKMYLB-niL1ZD2wRpc9PJWs3qP4riMDXcAH2FBJF8N6w_3NxrO_8v4cmm_xkqj/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18106114522218323465&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ2YhmUQDJYpYRCV5dRzrXRfs.jpg"
       },
       {
         "id": "ChIJs6l1m1nPYpYRaWGGeYGmMI8",
@@ -1633,7 +1708,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJs6l1m1nPYpYRaWGGeYGmMI8/photos/AcnlKN3AR2SQncJDQUlHXbMTOn6X-vX4kqdK-l5lEWLwL7bzPQhYQ3A6hD2u5raBw1PlX8tQJQtCuAkbDg7zemwrHam4N0M6m7wP8JOa5Mm236z_ok4FCUbUJLyfdmxsqMfA4pfJ_xU_DqumpV4ak5RLRy2SG-B0DyyDccyGTUOwBwLMcx_V2tU0xaqdjEigRp8inU9j7lCr4Wl5652-OpmuJ4CcF9pY90rwaqEDs5EVflTG3cTcJ6feZiZwiJH2Ms1KyI__btCa6jqpJVbunZdG4efFz-VKyusbsJwxvizGccLLLPxu9x0PcFcl-LvEhAfr9sOb5bJQqeurmRNUHuUXyyHdUxGnY4VG4W0PYkR_kExE5-ZtQzt5pnhVr6PCNy1yS3rrVebaB5tg8a-hSxQHkCtIHvRHiRwk3NsyJRTtMRYHieEg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10317929821325648233&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJs6l1m1nPYpYRaWGGeYGmMI8.jpg"
       },
       {
         "id": "ChIJi8JOfgDFYpYRQm04Cfz98E4",
@@ -1654,7 +1730,8 @@
         "websiteUrl": "http://scentro-lixbeth-palacios.web.hosting-01.inacap.cl/mapa-del-parquemetropolitano/",
         "googleMapsUrl": "https://maps.google.com/?cid=5688325588297215298&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJi8JOfgDFYpYRQm04Cfz98E4.jpg"
       },
       {
         "id": "ChIJWZEJSwDJYpYRqDGxhCn8Js0",
@@ -1674,7 +1751,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJWZEJSwDJYpYRqDGxhCn8Js0/photos/AcnlKN3fLR1ox42JeFWwK7MfN6pA9XufiVXZsmXerXDMtzqntp4_PcwOsZcfdGkORPLucFzzfAiKyT1AjhmvkMWxhZCjuvFrojsWLJ1314KBb7BCKfiEGTcmcZplr1XYlCfQaKr7_IOzZGGPchpNDvfyQN4aZalvoG4_XHUNGgQEB3DNRgv3n0s9KkiyVv3SYQt8jH3SIQ2VPYvm_3Xk1twJv5XHgPsuqz0GDl7gNwUbouxVee1KLoRFNC-3cEOr3tD49QYo-6od8Xa1iusNBbO7QJ1bBmpX5LS_GusLFTo4lpwKDGQcn-aoUXIHGeqpqigs8x0wfRroKHYsQ91kJhKNSsKrK75L6Pqv3JeUJels86rJSVNlm2U6z5VSH30ZZxJ-fOnOcj6Z9Mj6rqA8Jyy1ERYfqkyr5yKAurj3_VEA3URIGk2yCbq17cRb48Q40qzK/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14782780082140295592&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJWZEJSwDJYpYRqDGxhCn8Js0.jpg"
       },
       {
         "id": "ChIJY9kITIjTYpYRROsA8ZsldQM",
@@ -1694,7 +1772,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJY9kITIjTYpYRROsA8ZsldQM/photos/AcnlKN33msxO8BB_bTmBnvEpj6_w1_q-YKmTTcm_yhWHyfiSahPp0O5WsQdrC8agEwUaJ4_wzFrVWyG5n5KJYZUT4QMxh1XtixVPRxXOS0J37aoDYBL-g-g5x3rZ7y2cpkmJyleoY1m2Vc9JANOAbNcLHFB_JdEzuKsL_D6Dz6h4esIO9F2mhDtbOIjI2Whu-jSVwunCaqBck_UE0xj-SbkZOJBpi7sn2gc2G_stcNA2OyZVcBhBdUZYSqEhptaHCevZ29doUunPJhEt9SbkUO3qKankL9uwU6pai1VE4TXuAUDdoXHcwyGsRL1c_bTTL9JWQ8nmKszIcU7RBp8vyGyWbbZ47EWp0XbLmrz3mRlJu1C1nCi6UHf-zq0nfqFZWWOFb7VXP0sU-byyYz64bYUfKthbakhzb_fQ2pLf9aLNH4s/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=249146706082458436&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJY9kITIjTYpYRROsA8ZsldQM.jpg"
       },
       {
         "id": "ChIJ3RbPSADJYpYR9TaVuf8llbU",
@@ -1715,7 +1794,8 @@
         "websiteUrl": "http://www.parquemet.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=13084406072655296245&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ3RbPSADJYpYR9TaVuf8llbU.jpg"
       },
       {
         "id": "ChIJL81JkIXFYpYR9tkO-ZEZDCE",
@@ -1735,7 +1815,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJL81JkIXFYpYR9tkO-ZEZDCE/photos/AcnlKN0fgZ-cxD0Sg9hJ6BBqNGLMX2VUtq7d2Rx72gqUvoMB8MWdZKA8WVjI-9iy8FYEUUxIqClYFcNmbdCPkZ_06GohrGXBGJCPQYM4HtEjD7-_ofPzlJ0u71IDL_JLP1dzT-xo4N-xmHYklK8e-8I1nUHs_v1Bd5YltFbcuK790PE771Q1xODd5Jgt4GHPp8FPjYlIqVDu3NpKFAGFc1_Ej7ltnS_K2CPBoymrni6fFNzv2xoTSqaqUZUIN7mB0lzAXDkVX5Z0sTi8SXklXCAaDy3IEVdVGqXKMP-rbiupKZ1AZU0ZgC9_aIBqYbySu4jSycYKi2EVpNq6Os93IJZfCCLg-qz8782_bEjB-hJEznqc-RxsKM4aXy-alRUuK-r7dYsng23kcK5Mx6LfdY-9VPIa7I7rQf-LI9WVUP4BTECXTg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2381306417711602166&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJL81JkIXFYpYR9tkO-ZEZDCE.jpg"
       },
       {
         "id": "ChIJfa_eeNvNYpYRTbFhNbaLcCU",
@@ -1755,7 +1836,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfa_eeNvNYpYRTbFhNbaLcCU/photos/AcnlKN2Pnda2JKtPARoKJcO--nKmvHm3NCgmLcFpPk99T6u83ki2xBHDCoPuW7kkbCWY04PVM3VsuhVaNA8O282cBbUEr2BQjKszwxrFteoW77WApTqiD7gg3kBzTc-36mV00e90g7zkUpd2AHkJAkXiopbui-NFwqLUa1Ay3rzGsAc8BnQ2UdFz1XQNDEQCAdCYllFxtUeXSMyclPkfOPMgS43WWJtllP7FzikE7zxWRAQimFsry30-nIVA8YocHIM9-yygeCsPt3j4ixyNd5va7nuYe00TGiW8tpB66Fijgw-1bjt7ri0q2WeqGuF_arJR1BxTXvi4_oPGxnuaT_TpxqWAexeJpKMZyJcQPtzhrvVJugIEGedaP9vnPHA-Aw9OPgKzQWexTiv7Dv2KvBSHgmC0hbBveVQMyy0k7yEBbeCiEw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2697809791490830669&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJfa_eeNvNYpYRTbFhNbaLcCU.jpg"
       },
       {
         "id": "ChIJoWKnXADJYpYRUMUoUZktSSI",
@@ -1775,7 +1857,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJoWKnXADJYpYRUMUoUZktSSI/photos/AcnlKN3av-ZhB_9jvw4le2SwCX165ca8zLXn9DdwuquoyLqNkxAvz3OytVJqZwrl6RkYf0N6oFe1QOQCK4PSLIkS5c1VFruBdIBYhrnaFVojt-ZQ9nyjb1Csei8JOpsjfSik1Bl7codKtrvb6iBDfXuwBrE5EBIkWwx4nCBfavkcP4ThBuRMLUW1j1eVIYdVQmU-pIjN6hHBs-gGY3IhT-BGyeFUJJI4CQm8rzQGvItSYLvl2Rpscpbk0kVOMwGzP7Q7CWhkB8QKD6F4fy5whhHxOQOVJwkLYQoHSR4Dm7HN4zWvzY-mrnDv8_45Z3BE7JDPGVVv4wk8CkCGd9lK8WUEAS_o_zHmCv_lYtSW1d5fVdSCUFR_f1QX9Kqgkmx3F7oeLhvxBqu_x3selbdBlgt4Wb0lggf3OFE-Nhj-tMyU4GKL56OEr9gqLy0zHWlZVg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2470556007104300368&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJoWKnXADJYpYRUMUoUZktSSI.jpg"
       },
       {
         "id": "ChIJ1bq7srTFYpYRRi9TTbj_oR0",
@@ -1796,7 +1879,8 @@
         "websiteUrl": "https://marca.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2135268865386688326&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
-        "updatedAt": "2026-01-23T15:46:57.432Z"
+        "updatedAt": "2026-01-23T15:46:57.432Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ1bq7srTFYpYRRi9TTbj_oR0.jpg"
       },
       {
         "id": "ChIJlciVVGvDYpYRVHTgc8a0bq0",
@@ -1816,6 +1900,48 @@
         "googleMapsUrl": "https://maps.google.com/?cid=12497124780440319060&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:57.432Z",
         "updatedAt": "2026-01-23T15:46:57.432Z"
+      },
+      {
+        "id": "ChIJ_4eb8voqfZYR5yNXFG9ncEw",
+        "destinationId": "santiago",
+        "pathType": "adventure",
+        "rank": 1,
+        "name": "Andes Soul | Rafting Cajón del Maipo",
+        "description": "highly rated",
+        "category": "activity",
+        "latitude": -33.6892844,
+        "longitude": -70.33605690000002,
+        "address": "Cam. Al Volcán 26840, 9460000 El Melocotón, San José de Maipo, Región Metropolitana, Chile",
+        "googleRating": 4.8,
+        "googleReviewCount": 855,
+        "suggestedDuration": "2-3 hours",
+        "bestTimeOfDay": "any",
+        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_4eb8voqfZYR5yNXFG9ncEw/photos/AcnlKN1STBj5vYLqbuECEULTHAxoPEzfjpM4qKEuY8ncLZ1wYx3ovB3vStwJ4P-CfjA-zCY3rmRYobrUK6w5inb_mdH9mO8OqfImqtS8W7j1vortU6c793BddSk4aqyWePT5le25jWc2BBcc9zYYT-bzqNvaq9EaFoF9Gu_uP1ev_Zx-unewfuDUJ8ja6hEJZOl4Pydto50AqIYnnROSFZ-TicorVTu2PSLGOCecsdKKahFzgmp5cdxmyXF9iqkd8CadcUlYt_5eWiSCHgVRRSubd5Fdp0-ygLQq9lC80iGyOQ9W-Q/media?maxHeightPx=800&maxWidthPx=800&key=AIzaSyBGPtaKvigz2Xwh9Wj4H6EwCI7FM71Gzt4",
+        "websiteUrl": "https://www.andes-soul.com/",
+        "googleMapsUrl": "https://maps.google.com/?cid=5508016071054402535&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "createdAt": "2026-01-27T03:26:25.188Z",
+        "updatedAt": "2026-01-27T03:26:25.188Z"
+      },
+      {
+        "id": "ChIJu3WZf5_FYpYREfB1Ak30qCg",
+        "destinationId": "santiago",
+        "pathType": "adventure",
+        "rank": 2,
+        "name": "Rupucura",
+        "description": "highly rated",
+        "category": "activity",
+        "latitude": -33.4397847,
+        "longitude": -70.6563276,
+        "address": "Pje. Rosa Rodríguez 1375, Of 305, 8330163 Santiago, Región Metropolitana, Chile",
+        "googleRating": 5,
+        "googleReviewCount": 344,
+        "suggestedDuration": "2-3 hours",
+        "bestTimeOfDay": "any",
+        "imageUrl": "https://places.googleapis.com/v1/places/ChIJu3WZf5_FYpYREfB1Ak30qCg/photos/AcnlKN3ZRyiN5tXpK7C91d248JR0bvWctLzwNBOO-8pujFLlr9XENVusD0nmCdO81b4-V5m_ET1qwjKDOXs3TrZH0qnxQV9mvvBWNXqkR9fJoi9PEX4utOeOIE3Y7aWGeWgI1lMTPusIAnGGGDt4I9mL_Bjn8JFR1TSQpe-zu61fRu0AMyRTD_9zCMNiEnbfld363AjJiIUoULsVWyJzI2xP9Nx-I--ipJRi_HjLFwXnhQIy7XGTVOiyDB9iQ6Spj_-nN6pUO-NR6NP-TqC8gjqBk_KHlFHHE-6K1Yo4SbxSDnMPGQ/media?maxHeightPx=800&maxWidthPx=800&key=AIzaSyBGPtaKvigz2Xwh9Wj4H6EwCI7FM71Gzt4",
+        "websiteUrl": "http://www.rupucura.com/%20o%20www.canyoningchile.cl",
+        "googleMapsUrl": "https://maps.google.com/?cid=2929860169195450385&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "createdAt": "2026-01-27T03:26:25.188Z",
+        "updatedAt": "2026-01-27T03:26:25.188Z"
       }
     ],
     "cultural": [
@@ -1838,7 +1964,8 @@
         "websiteUrl": "http://www.ceina.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8266659562362242851&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.588Z",
-        "updatedAt": "2026-01-23T15:46:58.588Z"
+        "updatedAt": "2026-01-23T15:46:58.588Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJH_gmgjPFYpYRIwewxRITuXI.jpg"
       },
       {
         "id": "ChIJR-mJdRXPYpYRzUi7bkPBF7c",
@@ -1859,7 +1986,8 @@
         "websiteUrl": "https://www.tmlascondes.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=13193226128769894605&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJR-mJdRXPYpYRzUi7bkPBF7c.jpg"
       },
       {
         "id": "ChIJm3PsR3vQYpYRf4CtdyLMhE4",
@@ -1880,7 +2008,8 @@
         "websiteUrl": "http://www.mim.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=5657871480292999295&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJm3PsR3vQYpYRf4CtdyLMhE4.jpg"
       },
       {
         "id": "ChIJvxNn30_EYpYRIRHves_-AVU",
@@ -1901,7 +2030,8 @@
         "websiteUrl": "https://mmdh.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6125457135274758433&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJvxNn30_EYpYRIRHves_-AVU.jpg"
       },
       {
         "id": "ChIJEQzTm1rEYpYR9UxlehkVsus",
@@ -1922,7 +2052,8 @@
         "websiteUrl": "http://www.mnhn.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=16983660343939386613&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJEQzTm1rEYpYR9UxlehkVsus.jpg"
       },
       {
         "id": "ChIJ58cpbKTFYpYRw3pfdBEEHEQ",
@@ -1943,7 +2074,8 @@
         "websiteUrl": "https://museo.precolombino.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=4907802166940367555&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ58cpbKTFYpYRw3pfdBEEHEQ.jpg"
       },
       {
         "id": "ChIJO6v-fKPFYpYRPZund0rNuLU",
@@ -1964,7 +2096,8 @@
         "websiteUrl": "http://www.mhn.gob.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=13094441636298464061&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJO6v-fKPFYpYRPZund0rNuLU.jpg"
       },
       {
         "id": "ChIJ1UKkyVDEYpYR0NtuZadH3HQ",
@@ -1985,7 +2118,8 @@
         "websiteUrl": "http://www.m100.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8420684187562859472&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ1UKkyVDEYpYR0NtuZadH3HQ.jpg"
       },
       {
         "id": "ChIJMTlZhKHFYpYR3j2AFsN4V9w",
@@ -2006,7 +2140,8 @@
         "websiteUrl": "https://www.municipal.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15877291790609432030&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJMTlZhKHFYpYR3j2AFsN4V9w.jpg"
       },
       {
         "id": "ChIJDxTejmbPYpYR1Mo3Tu9wdVU",
@@ -2027,7 +2162,8 @@
         "websiteUrl": "https://teatrooriente.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6157952238610795220&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJDxTejmbPYpYR1Mo3Tu9wdVU.jpg"
       },
       {
         "id": "ChIJ2WYHmDrPYpYRT2lBSaE3I6k",
@@ -2048,7 +2184,8 @@
         "websiteUrl": "http://www.cvgaleria.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=12187646182452980047&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ2WYHmDrPYpYRT2lBSaE3I6k.jpg"
       },
       {
         "id": "ChIJXfvFU1DEYpYR6MSMbQUj0Xs",
@@ -2069,7 +2206,8 @@
         "websiteUrl": "http://www.museodelaeducacion.gob.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8921950843017413864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJXfvFU1DEYpYR6MSMbQUj0Xs.jpg"
       },
       {
         "id": "ChIJ34hkUJjFYpYRukdH5TMSJsQ",
@@ -2090,7 +2228,8 @@
         "websiteUrl": "http://www.mnba.gob.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14134004494648166330&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ34hkUJjFYpYRukdH5TMSJsQ.jpg"
       },
       {
         "id": "ChIJh6jlbpvFYpYRkpWNqb9Gp0M",
@@ -2111,7 +2250,8 @@
         "websiteUrl": "http://www.gam.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=4874942910649177490&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJh6jlbpvFYpYRkpWNqb9Gp0M.jpg"
       },
       {
         "id": "ChIJbWHLF5DFYpYRFqGp8hFH-04",
@@ -2132,7 +2272,8 @@
         "websiteUrl": "http://www.fundacionneruda.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=5691220696523972886&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJbWHLF5DFYpYRFqGp8hFH-04.jpg"
       },
       {
         "id": "ChIJqdJC_abFYpYRWizjc6yIDeE",
@@ -2153,7 +2294,8 @@
         "websiteUrl": "http://www.cclm.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=16216768107491044442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJqdJC_abFYpYRWizjc6yIDeE.jpg"
       },
       {
         "id": "ChIJ4QtbkWLPYpYRW99ph89RII8",
@@ -2174,7 +2316,8 @@
         "websiteUrl": "https://teatro-nescafe-delasartes.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=10313333098450378587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ4QtbkWLPYpYRW99ph89RII8.jpg"
       },
       {
         "id": "ChIJU3n5l5zFYpYR0AVM4nvpKy4",
@@ -2195,7 +2338,8 @@
         "websiteUrl": "http://museovioletaparra.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=3327009468030125520&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJU3n5l5zFYpYR0AVM4nvpKy4.jpg"
       },
       {
         "id": "ChIJNQZk8YDPYpYRfwU3rJk39jg",
@@ -2217,7 +2361,8 @@
         "websiteUrl": "http://www.palermoteatrobar.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=4104529243553596799&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJNQZk8YDPYpYRfwU3rJk39jg.jpg"
       },
       {
         "id": "ChIJM454QJnFYpYRCiqlMSsLq-s",
@@ -2238,7 +2383,8 @@
         "websiteUrl": "http://www.mavi.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=16981679100074994186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJM454QJnFYpYRCiqlMSsLq-s.jpg"
       },
       {
         "id": "ChIJHR0WIkXOYpYRZw1kifWBfX4",
@@ -2258,7 +2404,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHR0WIkXOYpYRZw1kifWBfX4/photos/AcnlKN1DZevozs67DWmaF-rsA2NF1AjaSQIF06AERBzJ0kgaDB1HDB0xKxNzJhLBGw9m1Nc-qFtfsvAYpzj-_R88U7E4IpNGtvhCTpCGWGlTWRLUVBUQKpScfodAUtrH0_NNpHTZsAoMOFIcSYLSkGT1T58T6de7QDp3EVaE8rCalYHoaejHijcotDIoYSgWuaED8x4cShAExSY0ld3ZYDqMqiADtCf6EfMNHVl3KFYxbPJvg2TOTOa44tXKThxy5lqsBgpigm9-7tUGf0kDP-JhGMvzgFW5aD4WoS0tHLUOPQx7KQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9114584112439758183&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJHR0WIkXOYpYRZw1kifWBfX4.jpg"
       },
       {
         "id": "ChIJM4V4jA3FYpYRONChiqgOznY",
@@ -2279,7 +2426,8 @@
         "websiteUrl": "http://www.teatrocaupolican.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8560796058721046584&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJM4V4jA3FYpYRONChiqgOznY.jpg"
       },
       {
         "id": "ChIJi9QFOLDFYpYRGZ52IBK522c",
@@ -2300,7 +2448,8 @@
         "websiteUrl": "https://teatroteleton.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=7483778693311405593&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJi9QFOLDFYpYRGZ52IBK522c.jpg"
       },
       {
         "id": "ChIJ54vesVHEYpYRPlYkcoNxZJM",
@@ -2321,7 +2470,8 @@
         "websiteUrl": "http://www.mssa.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=10620738630616110654&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ54vesVHEYpYRPlYkcoNxZJM.jpg"
       },
       {
         "id": "ChIJvb30fzXPYpYRSRqqt2BFU5Y",
@@ -2342,7 +2492,8 @@
         "websiteUrl": "https://galeriapready.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=10832077810456730185&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJvb30fzXPYpYRSRqqt2BFU5Y.jpg"
       },
       {
         "id": "ChIJI9lbcFXEYpYR_ycvV2Ll5zs",
@@ -2363,7 +2514,8 @@
         "websiteUrl": "http://www.daking.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=4316670978390173695&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJI9lbcFXEYpYR_ycvV2Ll5zs.jpg"
       },
       {
         "id": "ChIJwRURv57FYpYRPeCaguOySdA",
@@ -2384,7 +2536,8 @@
         "websiteUrl": "http://www.metro.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15008723923407396925&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJwRURv57FYpYRPeCaguOySdA.jpg"
       },
       {
         "id": "ChIJf9T9u5zFYpYRqQ_C8udpuTo",
@@ -2405,7 +2558,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJf9T9u5zFYpYRqQ_C8udpuTo/photos/AcnlKN2Z-Iw7cTGCRYxGUrB3bDxyJW1lCSsBEHi8AtrUolWS1FdnMnoV8Xg_PH-iIhYbGdn55mamkXWYXiUZD3J3REoWDIgWIlQCNPYRMz6FzefGP9Nrc2YhZ02fddd8sktt8FNY0xHo_RDfAl28BksEBBn9pz3PQqdBOJyv3_K1BVSKE4IazyhN0uzXEF6pb6VGVT5fXA9hmzIK61XeXVQfWsq1O19zu3V4PFdxnHzk4pSVeFpHuvNq_Lwp63jyLuIguMsnksroLCAJdUP8XnqTyAw9Rwrm4KOZ_gL4KKsNu85mPQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4231529769822457769&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJf9T9u5zFYpYRqQ_C8udpuTo.png"
       },
       {
         "id": "ChIJLw6dcKXPYpYR2nuuUEWjryY",
@@ -2426,7 +2580,8 @@
         "websiteUrl": "http://www.casafen.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2787626212467309530&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJLw6dcKXPYpYR2nuuUEWjryY.jpg"
       },
       {
         "id": "ChIJQcJCVAzPYpYRa1ThKXQBO8o",
@@ -2447,7 +2602,8 @@
         "websiteUrl": "http://www.galerianac.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14572242617717838955&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:58.589Z",
-        "updatedAt": "2026-01-23T15:46:58.589Z"
+        "updatedAt": "2026-01-23T15:46:58.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJQcJCVAzPYpYRa1ThKXQBO8o.jpg"
       }
     ],
     "relaxation": [
@@ -2470,7 +2626,8 @@
         "websiteUrl": "http://www.viveromistesoros.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14029749170497506714&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJvw6L5-LDYpYRms1Vq4mus8I.jpg"
       },
       {
         "id": "ChIJa7jP6GjPYpYRbtF-848l5rY",
@@ -2491,7 +2648,8 @@
         "websiteUrl": "http://www.shadhar.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=13179262659742060910&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJa7jP6GjPYpYRbtF-848l5rY.jpg"
       },
       {
         "id": "ChIJjZRwlkvPYpYRmBqEL-W3SVM",
@@ -2511,7 +2669,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjZRwlkvPYpYRmBqEL-W3SVM/photos/AcnlKN1lFglz4hWiyeiiaRhXry-xg8rHizK6ECMM57T2d0Hz-Y-vI02gzmBEbkMZvzCr6iIEuL9TDVVZiqaKtuZ9VV2A3koVNIeQhu_kMKH4deYUEyIMxwSeQQarUvF4KdHKzXRSfnOh_11kFmz8cLF3k90oppym2Z7N_THAKp-WcrtoQVKconzdm30KWUXr1NqT6HXOls7DAzx7pTv1OpKJ5erCV-7lMBh35x8SEqntR1UhRzMpLKC6GVlM9edVmNCQ8TDkX8ItdszBRg_NjYM_TooXt13yTyjfPG-rGrCAnH74RdXrKZWi836JmHxAOq7lc04fDg7Ew9l5EIT4iFO0VXSFVdINAkkIGaniDZhgKT30LQlrmPJJRF00hXaUKFZe8V8KFScWQj4VJedMvvet9sa6b0r-YprtsIFOglMImmwh5Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6001530173420477080&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJjZRwlkvPYpYRmBqEL-W3SVM.jpg"
       },
       {
         "id": "ChIJYwh21I3RYpYRADpzo00ktKA",
@@ -2532,7 +2691,8 @@
         "websiteUrl": "https://www.altotermal.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11579920457749707264&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJYwh21I3RYpYRADpzo00ktKA.jpg"
       },
       {
         "id": "ChIJNUsKwiXPYpYR7pdrQ2v-ntE",
@@ -2553,7 +2713,8 @@
         "websiteUrl": "https://www.lascondes.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15104789936893302766&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJNUsKwiXPYpYR7pdrQ2v-ntE.jpg"
       },
       {
         "id": "ChIJcRXHmyPSYpYR2o5K9CaRyds",
@@ -2574,7 +2735,8 @@
         "websiteUrl": "https://www.penalolen.cl/medio-ambiente/",
         "googleMapsUrl": "https://maps.google.com/?cid=15837349161118371546&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJcRXHmyPSYpYR2o5K9CaRyds.jpg"
       },
       {
         "id": "ChIJ_ZTOaJnFYpYRUiyVDCJ59YQ",
@@ -2595,7 +2757,8 @@
         "websiteUrl": "https://www.thesingular.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9580696969447550034&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ_ZTOaJnFYpYRUiyVDCJ59YQ.jpg"
       },
       {
         "id": "ChIJTe8oRl_PYpYRKOxFPxwrlas",
@@ -2616,7 +2779,8 @@
         "websiteUrl": "http://www.parquemet.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=12363835752336190504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJTe8oRl_PYpYRKOxFPxwrlas.jpg"
       },
       {
         "id": "ChIJe59sA2DOYpYRhpD6mzVeDDE",
@@ -2637,7 +2801,8 @@
         "websiteUrl": "http://www.parquesanalbertohurtado.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=3534303391922163846&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJe59sA2DOYpYRhpD6mzVeDDE.jpg"
       },
       {
         "id": "ChIJBSDZk4LPYpYRBHUanWvqj7Y",
@@ -2658,7 +2823,8 @@
         "websiteUrl": "http://providencia.cl/provi/site/artic/20190927/pags/20190927122144.html",
         "googleMapsUrl": "https://maps.google.com/?cid=13154990784490665220&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJBSDZk4LPYpYRBHUanWvqj7Y.jpg"
       },
       {
         "id": "ChIJe0qrBL_PYpYRX3V3UlbkmVo",
@@ -2678,7 +2844,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJe0qrBL_PYpYRX3V3UlbkmVo/photos/AcnlKN3KsUiS2hthAjaQkTvbbleJ2rvc3JAAeh0ei_1Gww7lsuFGs0ZRqiqN39bgw3ven5frmwrvANXRvImXAKycrZZVCGTdVuhMiYL_WsY5yjvNAymfQu1LzMhWmnEhGPl9iZnDaUNOZnk-_tWV1bfaUcsHE1QyxOAgVpnaxyzyFt7jo-1OwgSIfV0Y1oTGT-CjqcF_slsRWBF524SN6YUTwv9lwea_1F2DF5NqVb_RxM5R3FLnV42umOWCnYK9rR0gZwblZ73-dNPJrOszHtkWlLseaMnPQs9XSv7EYAGp28W-cQyPGKN17wSdDapVPh4Gz9S9wbZCp6Vw6ijcuUZHlkrLIa4i860ZFRvwPZnc6gUNMyQvyGf3u3x5OuCGxUnz2Ue1m-4-gdFEV4THEpIFTkFAS1F8EIGWFYrhF4EYL3V9Qw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6528500194252125535&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJe0qrBL_PYpYRX3V3UlbkmVo.jpg"
       },
       {
         "id": "ChIJwT5cgt7OYpYR-YkmPL0Odbw",
@@ -2699,7 +2866,8 @@
         "websiteUrl": "http://iconchile.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13579776457326365177&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJwT5cgt7OYpYR-YkmPL0Odbw.jpg"
       },
       {
         "id": "ChIJNVcHzNTOYpYR04nUJwnLey0",
@@ -2720,7 +2888,8 @@
         "websiteUrl": "http://masmund.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=3277436394025552339&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJNVcHzNTOYpYR04nUJwnLey0.jpg"
       },
       {
         "id": "ChIJ07BANMnOYpYR5G9ofrF1MEE",
@@ -2741,7 +2910,8 @@
         "websiteUrl": "https://www.lascondes.cl/vive-las-condes/deportes/centro-deportivo-rolf-nathan/",
         "googleMapsUrl": "https://maps.google.com/?cid=4697383816537862116&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ07BANMnOYpYR5G9ofrF1MEE.jpg"
       },
       {
         "id": "ChIJY9rBBl7PYpYRqIWZmuaiRHE",
@@ -2762,7 +2932,8 @@
         "websiteUrl": "https://parquemet.cl/lugares/jardin-japones/",
         "googleMapsUrl": "https://maps.google.com/?cid=8161827536022111656&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJY9rBBl7PYpYRqIWZmuaiRHE.jpg"
       },
       {
         "id": "ChIJB3OVkKPFYpYRx9e-5v-H7wA",
@@ -2783,7 +2954,8 @@
         "websiteUrl": "https://www.munistgo.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=67422052591523783&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJB3OVkKPFYpYRx9e-5v-H7wA.jpg"
       },
       {
         "id": "ChIJZ4LfxdPcYpYR-s3iJwFupRY",
@@ -2804,7 +2976,8 @@
         "websiteUrl": "http://municipalidadmaipu.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=1631831391234870778&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJZ4LfxdPcYpYR-s3iJwFupRY.jpg"
       },
       {
         "id": "ChIJ_zC63RzQYpYR7HWd_ezVZ18",
@@ -2825,7 +2998,8 @@
         "websiteUrl": "http://www.recrear.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6874698570048304620&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ_zC63RzQYpYR7HWd_ezVZ18.jpg"
       },
       {
         "id": "ChIJ9dhmOaTFYpYRimFCAfuw2t4",
@@ -2846,7 +3020,8 @@
         "websiteUrl": "http://www.hotelgranpalace.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=16058342013447332234&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ9dhmOaTFYpYRimFCAfuw2t4.jpg"
       },
       {
         "id": "ChIJHWJNRE7OYpYRKwym4SBbnuo",
@@ -2866,7 +3041,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHWJNRE7OYpYRKwym4SBbnuo/photos/AcnlKN0xI4h2YecpP23Akuyr8S405zxOenCs6QlrJAnTjd04giq2RsGZ5zSPLV6ToWH4NAV-yJNHzZaTvDwSmKhQfWtaAsvW4Eji03E8iChj6LNZzvKJ6461FR_VXYKxLAfR9eW5ticS9PDjkFKe6nFqD1LBzIpxplEWH4I71ViSBnJC6eyBC89erYxPRX2lHvArXCH4CEdHL-Zu8lJjjed4CGtzHboh9htrO9d7Co4XZJOBpgdzzRJjgPs_ikJxQC0XaVGtr_yfL5X1iS5xUdgADBwa7ryP5ocs2L7N_kMHFNo3W3wqoARFvu5Yzr25EUEdRsuV8qiVfHCVZRcdXTH8qdlCN_JYnn_m_4X2laSKLYooxWcq-zwFNSuQ9ojP07x8AtdU4huMicYexIeBV1CHq958XqhgNXiEe0MfrOAqCTv7hg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16906050247978257451&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJHWJNRE7OYpYRKwym4SBbnuo.jpg"
       },
       {
         "id": "ChIJZS8IXLPPYpYRbUCznSHWvDI",
@@ -2887,7 +3063,8 @@
         "websiteUrl": "http://www.arbolescordilleralt.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=3656032437386035309&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJZS8IXLPPYpYRbUCznSHWvDI.jpg"
       },
       {
         "id": "ChIJC0kXA0nFYpYRFq6IHzuHFkY",
@@ -2907,7 +3084,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC0kXA0nFYpYRFq6IHzuHFkY/photos/AcnlKN0z3kDnAbUtt7UuokfecOeTjfKopnM4Ikxs_5IdrFOvtA3IrmBrKn2iD45q4fF2FF8kSgICu5EDc-nDUSTI2FG9gRU5HBGIWVKw4duqEyS6ghvn75u02obIEyYQzN2tHrRttMLJh9ZJ0GESt4sKSN7tmKtzpBMV0dR1NeEcrJ3qLdVpQUO5u2CRqfAbbv8HOVfC2MWlRyzcQBPM4kwyb_Oadj5fPIqSlH3xpNj91GgcW-NjUeBVxUBEa9N4LZoI4erk4lA7jMF0scD8SsGjwSXGdhtz3QQoTIUWrnP-Tn7wdw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5050372720144461334&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJC0kXA0nFYpYRFq6IHzuHFkY.jpg"
       },
       {
         "id": "ChIJYWyvqmfRYpYRl3gIHEsEK5g",
@@ -2928,7 +3106,8 @@
         "websiteUrl": "https://www.mercantil.com/empresa/jardin-de-plantas-interior-y-exterior-aquelarre/la-florida/300104779/esp/",
         "googleMapsUrl": "https://maps.google.com/?cid=10964862438402979991&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJYWyvqmfRYpYRl3gIHEsEK5g.jpg"
       },
       {
         "id": "ChIJqWqSvqrPYpYRQbsjIbjhTIU",
@@ -2949,7 +3128,8 @@
         "websiteUrl": "http://www.jardinbotanicochagual.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=9605300286220647233&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJqWqSvqrPYpYRQbsjIbjhTIU.jpg"
       },
       {
         "id": "ChIJIxkRwsLPYpYRyt772ODmzoE",
@@ -2988,7 +3168,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJCe412m3PYpYRTU0U5IGlZKM/photos/AcnlKN0i5pOUMNjLGpwGJMBKiYwa80mwn9svnUYgwTYbZjVZHfF0o3EAfatIbB90gNybOX1hpHIAGdli85Z-G8mvY2321isKmcsz4sT24Zvv-xaNDUWLp7ElUzeSMKTczPIrTX8vzjnCQWZOaVlCUcqzK_ld3NAVjvSeZVOuaIVsst-NnYTjQYU5_AG1AQJiPPqvK_BemDYdaVjq-__LFdFWODranmS0gKixwRAfwONS6OY7lI3aHEiJWGmczb0VBxraoucbW8KdHAi5FuoikZpAFC-hr6hVFG4Mm6Zu729Jd1MrDw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11773717303149219149&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJCe412m3PYpYRTU0U5IGlZKM.jpg"
       },
       {
         "id": "ChIJWbHYvXTBYpYRms3ppjkfRkE",
@@ -3009,7 +3190,48 @@
         "websiteUrl": "http://www.nutritierra.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=4703481193308999066&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:59.414Z",
-        "updatedAt": "2026-01-23T15:46:59.414Z"
+        "updatedAt": "2026-01-23T15:46:59.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJWbHYvXTBYpYRms3ppjkfRkE.jpg"
+      },
+      {
+        "id": "ChIJu7ZZUKXPYpYRcCJlbVMEZEc",
+        "destinationId": "santiago",
+        "pathType": "relaxation",
+        "rank": 1,
+        "name": "Ñuñoa Botanical Garden",
+        "description": "Park - highly rated",
+        "category": "park",
+        "latitude": -33.4454217,
+        "longitude": -70.58632,
+        "address": "Av. Echeñique 4233, 7790380 Ñuñoa, Región Metropolitana, Chile",
+        "googleRating": 4.5,
+        "googleReviewCount": 1489,
+        "suggestedDuration": "1.5-2 hours",
+        "bestTimeOfDay": "any",
+        "imageUrl": "https://places.googleapis.com/v1/places/ChIJu7ZZUKXPYpYRcCJlbVMEZEc/photos/AcnlKN0XKDVIRhPh2kxIFr3AzIcZB3d-XglHd8GvXtNyPO8Y1VopIPuVnaaxdaTZfpssYGI22cssbF_ZaolEv9LicjEUL8awP-fFvbmSKksBsQgG7oHtHJgwWp8jpVulxuok6nMI065ck4vE3v3T50pSBrX-sirPcOhq8eNMUzVKEczkOUDgrCvX6IDxOVsL5IsJdNlvRKvyIoQG7a4fBoRf3wlQMzia8wt3X9bfJmyt9c8XJfh9-jKqKZ1uvL0L1jevEzw3hjeZDMZT8FxRMyKV-nC-J0L4vOQxevjfKUgrTtdRoMPh_9emHeBkChmhEJ1wI95_QZmBeyGPv-U9xvFoz9PcdyrzbsK7Zjp2u2th0X0K64BVIuZcn31PVjO5ZFmIQwiRhQ0o1kLtzD41rRhI8WViIfStptIxNZZ79Kh4Wbj9AZou/media?maxHeightPx=800&maxWidthPx=800&key=AIzaSyBGPtaKvigz2Xwh9Wj4H6EwCI7FM71Gzt4",
+        "googleMapsUrl": "https://maps.google.com/?cid=5144241430728090224&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "createdAt": "2026-01-27T03:26:26.493Z",
+        "updatedAt": "2026-01-27T03:26:26.493Z"
+      },
+      {
+        "id": "ChIJ_W4efyLFYpYRceTBEauhh2E",
+        "destinationId": "santiago",
+        "pathType": "relaxation",
+        "rank": 2,
+        "name": "Chinese Garden",
+        "description": "Garden",
+        "category": "park",
+        "latitude": -33.469223899999996,
+        "longitude": -70.66060279999999,
+        "address": "Av. Beauchef, 8370898 Santiago, Región Metropolitana, Chile",
+        "googleRating": 4.4,
+        "googleReviewCount": 6025,
+        "suggestedDuration": "1.5-2 hours",
+        "bestTimeOfDay": "any",
+        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_W4efyLFYpYRceTBEauhh2E/photos/AcnlKN0Qpmj0CX-HuBsXwHUj0zYuI1rG2CV-zMj8zZI5Kfxg1ZMDm22xOUj_ByY2DSbEb_PNWj644qiHavbNtBi_sl5iow1CU6uOggY52zXZIIFVVR54SNGEknjLck7I9Tr3o3ZwrtkajMh_f4yAp5_p5AOrYuObfv0Yr70nvZPaig4yRYwLoJ9Iss33mF0PnhGw5JD-utD3dbqMqTmLqLSO9e3RLa4uh2slsJXEQXG5jWvJ5Yv5fTtsMZw1vGkMk3SlIcJcOvNNBXJFUZpZjlknBWHZPIFZ-MjIPjgIx7Z96RVy4pMqcQ3kL8A-Y54AAHFjkPjNmDrINeYbpitO-JOPEy6jeASYhjENWD0lIEGG2MDQUzysh0P-4pfdjwdKpx3czu0hLPPogRY6K-8YopsEFp-pvW5HpYlD_lA0sNnEn3gb6_1i/media?maxHeightPx=800&maxWidthPx=800&key=AIzaSyBGPtaKvigz2Xwh9Wj4H6EwCI7FM71Gzt4",
+        "googleMapsUrl": "https://maps.google.com/?cid=7027763499644347505&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "createdAt": "2026-01-27T03:26:26.493Z",
+        "updatedAt": "2026-01-27T03:26:26.493Z"
       }
     ],
     "nightlife": [
@@ -3032,7 +3254,8 @@
         "websiteUrl": "http://www.clubambar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2604332262238600194&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJR_ABg5DFYpYRAjzS52RyJCQ.jpg"
       },
       {
         "id": "ChIJBWHtnvDJYpYRWeNKhZNr9-k",
@@ -3054,7 +3277,8 @@
         "websiteUrl": "https://www.kross.cl/locales-krossbar",
         "googleMapsUrl": "https://maps.google.com/?cid=16859062011425383257&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJBWHtnvDJYpYRWeNKhZNr9-k.jpg"
       },
       {
         "id": "ChIJ3Q2TR9fIYpYRLlg8VvBgfh4",
@@ -3076,7 +3300,8 @@
         "websiteUrl": "http://www.borderio.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2197300253558593582&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ3Q2TR9fIYpYRLlg8VvBgfh4.jpg"
       },
       {
         "id": "ChIJCaOI65jFYpYR-uUtwfh_NT0",
@@ -3097,7 +3322,8 @@
         "websiteUrl": "https://sommelierboutique.cl/restaurant-sky-sommelier/",
         "googleMapsUrl": "https://maps.google.com/?cid=4410572116448896506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJCaOI65jFYpYR-uUtwfh_NT0.jpg"
       },
       {
         "id": "ChIJjx3Gk2_FYpYRHTSLy9hOkKk",
@@ -3119,7 +3345,8 @@
         "websiteUrl": "https://ssbar.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=12218352482090955805&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJjx3Gk2_FYpYRHTSLy9hOkKk.jpg"
       },
       {
         "id": "ChIJxaT0MnrPYpYR4OY1j9vXVl8",
@@ -3140,7 +3367,8 @@
         "websiteUrl": "https://instagram.com/barlasantoria?igshid=YmMyMTA2M2Y=",
         "googleMapsUrl": "https://maps.google.com/?cid=6869915619600754400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJxaT0MnrPYpYR4OY1j9vXVl8.jpg"
       },
       {
         "id": "ChIJB0M85CbPYpYRh-S__lj9jL0",
@@ -3160,7 +3388,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJB0M85CbPYpYRh-S__lj9jL0/photos/AcnlKN11_3KELQPvdpcObO2cWDAyKexbX3Zje58TiBxkZxxdo08x5oVln49ISLmVxkTPDqniMUNMp0bjdo-Xp9a73gqBiD3fbYM28HEbMrTaIKuBWgoW9ZWUcFE3Ln_RRq0MTqK33sjrTAA1r5lKCx2yLBkztfh7ahuKBcNvqq7__iPzYJ6N30eAoXNyUZqt9nKY9y4QAhveSZV3vOZR-dTHi7OhZSA8Crmv1ILZbFcjwdJOh4gSepzbog8E6892uk7dmaLslQKC__1hkvJAID4uLcvQ13p_K1zlX8kAPx0uWFbXFA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13658570328580809863&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJB0M85CbPYpYRh-S__lj9jL0.jpg"
       },
       {
         "id": "ChIJucK0VGfPYpYRIDXPDomTwJc",
@@ -3182,7 +3411,8 @@
         "websiteUrl": "https://fuentealemana.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=10934902112123827488&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJucK0VGfPYpYRIDXPDomTwJc.jpg"
       },
       {
         "id": "ChIJlXdcFn_FYpYROq2kF_Iy0GM",
@@ -3204,7 +3434,8 @@
         "websiteUrl": "https://tiotomate.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=7192304620270824762&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJlXdcFn_FYpYROq2kF_Iy0GM.jpg"
       },
       {
         "id": "ChIJ58GnQJnFYpYRPQIbQHei8ZI",
@@ -3226,7 +3457,8 @@
         "websiteUrl": "http://www.bocanariz.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=10588422831985066557&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ58GnQJnFYpYRPQIbQHei8ZI.jpg"
       },
       {
         "id": "ChIJYdsV9FXEYpYRcyxWHAtdvfg",
@@ -3248,7 +3480,8 @@
         "websiteUrl": "https://www.blondie.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=17923584394305875059&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJYdsV9FXEYpYRcyxWHAtdvfg.jpg"
       },
       {
         "id": "ChIJFQAhcl7PYpYRW0SpHqvMous",
@@ -3270,7 +3503,8 @@
         "websiteUrl": "https://cafe.hardrock.com/santiago/#utm_source=Google&utm_medium=Yext&utm_campaign=Listings",
         "googleMapsUrl": "https://maps.google.com/?cid=16979358580466074715&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJFQAhcl7PYpYRW0SpHqvMous.png"
       },
       {
         "id": "ChIJZSmNq8HPYpYRyEHk7-iOdFI",
@@ -3292,7 +3526,8 @@
         "websiteUrl": "https://galponitalia.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=5941530939516797384&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJZSmNq8HPYpYRyEHk7-iOdFI.jpg"
       },
       {
         "id": "ChIJ1eMeApDFYpYRbdZU02X3LXM",
@@ -3314,7 +3549,8 @@
         "websiteUrl": "https://www.instagram.com/sietenegronis",
         "googleMapsUrl": "https://maps.google.com/?cid=8299561705023002221&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ1eMeApDFYpYRbdZU02X3LXM.jpg"
       },
       {
         "id": "ChIJR-0VgGzFYpYRRYAu_rq_hNI",
@@ -3336,7 +3572,8 @@
         "websiteUrl": "http://www.redpub.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15169460254739955781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJR-0VgGzFYpYRRYAu_rq_hNI.jpg"
       },
       {
         "id": "ChIJwT5cgt7OYpYR-YkmPL0Odbw",
@@ -3357,7 +3594,8 @@
         "websiteUrl": "http://iconchile.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13579776457326365177&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJwT5cgt7OYpYR-YkmPL0Odbw.jpg"
       },
       {
         "id": "ChIJI75di3vFYpYRmdAiSRWyCdg",
@@ -3379,7 +3617,8 @@
         "websiteUrl": "http://www.comedy.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15567169391473905817&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJI75di3vFYpYRmdAiSRWyCdg.jpg"
       },
       {
         "id": "ChIJ9wh943zPYpYRWGEuIOgfP5A",
@@ -3401,7 +3640,8 @@
         "websiteUrl": "http://ramblas.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=10394061546827178328&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ9wh943zPYpYRWGEuIOgfP5A.jpg"
       },
       {
         "id": "ChIJk8dv2qzFYpYRzQcijqIZlB0",
@@ -3423,7 +3663,8 @@
         "websiteUrl": "https://www.saint-patrick.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2131356709613078477&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJk8dv2qzFYpYRzQcijqIZlB0.jpg"
       },
       {
         "id": "ChIJ1WeJxgjPYpYRcgZXk-4jG-Y",
@@ -3444,7 +3685,8 @@
         "websiteUrl": "http://reservas.cheetrack.com/mayan",
         "googleMapsUrl": "https://maps.google.com/?cid=16580885960675755634&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ1WeJxgjPYpYRcgZXk-4jG-Y.jpg"
       },
       {
         "id": "ChIJ8SDdwLnPYpYRuVDaevFmj9U",
@@ -3465,7 +3707,8 @@
         "websiteUrl": "https://www.backroom-bar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15388631639082553529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ8SDdwLnPYpYRuVDaevFmj9U.jpg"
       },
       {
         "id": "ChIJ_wMtMY7PYpYRpjFqkVYli1Q",
@@ -3487,7 +3730,8 @@
         "websiteUrl": "http://www.insertcoin.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6092003974685798822&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ_wMtMY7PYpYRpjFqkVYli1Q.jpg"
       },
       {
         "id": "ChIJi_tyD2PPYpYRik-hT2gQ6gM",
@@ -3509,7 +3753,8 @@
         "websiteUrl": "http://www.insertcoin.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=282055966862692234&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJi_tyD2PPYpYRik-hT2gQ6gM.jpg"
       },
       {
         "id": "ChIJu7c4bmrPYpYRicIV6Oy8090",
@@ -3531,7 +3776,8 @@
         "websiteUrl": "http://irishgeopub.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15984327228160066185&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJu7c4bmrPYpYRicIV6Oy8090.jpg"
       },
       {
         "id": "ChIJ3y9ShZDFYpYR3R5-76EZjNk",
@@ -3553,7 +3799,8 @@
         "websiteUrl": "http://www.clubchocolate.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=15675932586268303069&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ3y9ShZDFYpYR3R5-76EZjNk.jpg"
       },
       {
         "id": "ChIJ6zu6aGbPYpYRPrl4wvZdbx4",
@@ -3575,7 +3822,8 @@
         "websiteUrl": "https://www.californiacantina.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2193074857958750526&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ6zu6aGbPYpYRPrl4wvZdbx4.jpg"
       },
       {
         "id": "ChIJlxX-QWTFYpYRf3S8m3mwsXE",
@@ -3597,7 +3845,8 @@
         "websiteUrl": "http://www.rbxperience.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8192523233513993343&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJlxX-QWTFYpYRf3S8m3mwsXE.jpg"
       },
       {
         "id": "ChIJiy0Aq-rOYpYROgwbngENc8Q",
@@ -3619,7 +3868,8 @@
         "websiteUrl": "http://www.barbazul.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14155672354354302010&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJiy0Aq-rOYpYROgwbngENc8Q.png"
       },
       {
         "id": "ChIJYz3GeSvJYpYRxluvbaOSh_A",
@@ -3641,7 +3891,8 @@
         "websiteUrl": "http://www.amanda.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=17331982921576176582&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJYz3GeSvJYpYRxluvbaOSh_A.jpg"
       },
       {
         "id": "ChIJzwGR7VDFYpYRuXA2pdVEbRk",
@@ -3662,7 +3913,8 @@
         "websiteUrl": "https://euforiabar.cl/CARTA-WEB-EUFORIA3.pdf",
         "googleMapsUrl": "https://maps.google.com/?cid=1832196307800191161&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:00.589Z",
-        "updatedAt": "2026-01-23T15:47:00.589Z"
+        "updatedAt": "2026-01-23T15:47:00.589Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJzwGR7VDFYpYRuXA2pdVEbRk.jpg"
       }
     ],
     "trendy": [
@@ -3685,7 +3937,8 @@
         "websiteUrl": "http://www.buscalibre.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17112859683641010061&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ8ZgZyEDGYpYRjaeG5jYXfe0.jpg"
       },
       {
         "id": "ChIJN0cO4mbPYpYRQ_acJVj7gnY",
@@ -3707,7 +3960,8 @@
         "websiteUrl": "https://linktr.ee/cafecalderon",
         "googleMapsUrl": "https://maps.google.com/?cid=8539664199454619203&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJN0cO4mbPYpYRQ_acJVj7gnY.jpg"
       },
       {
         "id": "ChIJbeWQ7JDPYpYREviGhE7Zux0",
@@ -3727,7 +3981,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbeWQ7JDPYpYREviGhE7Zux0/photos/AcnlKN1s2yjprEwEoPCNhp6WWsLsAVdsll4cu45_SPxX8DOk9hYYBNJ3lT3CQI7GTD5elcbGsbv5PmyXMDQ9ClQJfW-hFSqOqyi8Hste02l2fy-HgrAlp1BrwOG2a_EMwrD8SBjGing_erz8rqgNqwlNYbTaYuMgge04_acaQ-eEA61EcMCwltgiqbt9x_w1pWQ1x9lVjRjpgQCgnplx4yRw4VfpyvRtMJhLSeyHUZ7oAv_UWOMk27ycCzJxrLrgJ-dUqjZfGPBFEKeoekI9KXyYS6Y7jpepTRRIQR71R2PQLWTug4GoMbNQmRHxeFpOdeq1t-hdncPEBmB7WoTYIsE2RbpJ48tgt6VJb__IqaUnDDi6fmuHDv4nx5htpRLoaSj3zYZDN0xmJMLdLJxKXIBH56Z33oef3JMw271ONaf2h5GYCg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2142544978998917138&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJbeWQ7JDPYpYREviGhE7Zux0.jpg"
       },
       {
         "id": "ChIJb7Q6TDXPYpYRD660tRM3gvc",
@@ -3748,7 +4003,8 @@
         "websiteUrl": "http://www.trayectobookstore.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=17834878032133008911&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJb7Q6TDXPYpYRD660tRM3gvc.jpg"
       },
       {
         "id": "ChIJp_f3mbbFYpYRFgTVG61bR3g",
@@ -3769,7 +4025,8 @@
         "websiteUrl": "http://www.arcadebar.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8666996806952223766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJp_f3mbbFYpYRFgTVG61bR3g.jpg"
       },
       {
         "id": "ChIJX_3IoOTPYpYRnH7DF6MS7MQ",
@@ -3790,7 +4047,8 @@
         "websiteUrl": "https://www.dibu.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14189737017625247388&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJX_3IoOTPYpYRnH7DF6MS7MQ.jpg"
       },
       {
         "id": "ChIJaYpZBo7nYpYRDcVH0Qs9yh4",
@@ -3811,7 +4069,8 @@
         "websiteUrl": "http://www.lamom.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2218652887398466829&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJaYpZBo7nYpYRDcVH0Qs9yh4.jpg"
       },
       {
         "id": "ChIJm-NrJgrFYpYRuJxq4rwoEfg",
@@ -3832,7 +4091,8 @@
         "websiteUrl": "http://www.vidalibros.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=17875113187727809720&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJm-NrJgrFYpYRuJxq4rwoEfg.jpg"
       },
       {
         "id": "ChIJC1oBj5DFYpYRwlrTII0xqBc",
@@ -3853,7 +4113,8 @@
         "websiteUrl": "https://taplink.cc/chileanbrunch",
         "googleMapsUrl": "https://maps.google.com/?cid=1704666941170604738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJC1oBj5DFYpYRwlrTII0xqBc.jpg"
       },
       {
         "id": "ChIJYeqYJJnFYpYRV9R1qxpNfnY",
@@ -3875,7 +4136,8 @@
         "websiteUrl": "http://www.wonderlandcafe.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8538346720482153559&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJYeqYJJnFYpYRV9R1qxpNfnY.jpg"
       },
       {
         "id": "ChIJVfxyeQDPYpYRiacWz1pEsWQ",
@@ -3896,7 +4158,8 @@
         "websiteUrl": "http://www.lovercafeteria.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7255655631482693513&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJVfxyeQDPYpYRiacWz1pEsWQ.jpg"
       },
       {
         "id": "ChIJG_YlxR3PYpYR0rjKthRzdVU",
@@ -3918,7 +4181,8 @@
         "websiteUrl": "https://www.oggigelato.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6157954598302300370&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJG_YlxR3PYpYR0rjKthRzdVU.jpg"
       },
       {
         "id": "ChIJM27HtnnPYpYRgmDdP_A8aPo",
@@ -3939,7 +4203,8 @@
         "websiteUrl": "https://www.theelephant.coffee/",
         "googleMapsUrl": "https://maps.google.com/?cid=18043738909621182594&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJM27HtnnPYpYRgmDdP_A8aPo.jpg"
       },
       {
         "id": "ChIJo3ClOpzFYpYRmMaK9oFkcks",
@@ -3960,7 +4225,8 @@
         "websiteUrl": "https://www.arlib.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=5436518209539458712&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJo3ClOpzFYpYRmMaK9oFkcks.jpg"
       },
       {
         "id": "ChIJ16Q0sJjFYpYRyDmpoLLMcD0",
@@ -3980,7 +4246,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ16Q0sJjFYpYRyDmpoLLMcD0/photos/AcnlKN2489yQ1HzErJaRCyCXRuBRP49WN-HJQm_0Ctd3obsv9biwYyLJsJhgoZgJuzSqPxLwA_-jUv2-AEMV03dewzz6XHGiADikwvxHwr7nKX39YCX_aAkmgDQxKyAbR7L3Y5EZyV2-hhGb1J6_Et7DBX2sqe3WJ3ZN0FQMQDJgvoYuooDgVJ6SQ9nvpJ7HkmCkeLRTN6Jzyta7zfMmb9HTSEijZnTbk03HOzixPot8yjl3_5pMsynfXmeZNHc0RpYwCJNVtsANtFESZPedmywGJu8Px1fU2O8RULzSfciWcqQx79UFac7CLhB42YWhv1GPHXRVYhCbFWTt9UnL7S6ZzLC5PkQSXVkHy-APQac5uMZlL_9-702o1bKObKGRp9U_vxHQgcCHPAl9l450np_8AmxAXSavrlg1K_v2wvTx37cl5BDh/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4427263501276887496&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ16Q0sJjFYpYRyDmpoLLMcD0.jpg"
       },
       {
         "id": "ChIJ-UUTgTXJYpYRgeb5R7UJ-gA",
@@ -4002,7 +4269,8 @@
         "websiteUrl": "https://www.instagram.com/mestiere.cl/?hl=es-la",
         "googleMapsUrl": "https://maps.google.com/?cid=70379418378954369&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJ-UUTgTXJYpYRgeb5R7UJ-gA.jpg"
       },
       {
         "id": "ChIJtcIltqbFYpYR6jkCA7Bik30",
@@ -4023,7 +4291,8 @@
         "websiteUrl": "http://www.antartica.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=9048684584421702122&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJtcIltqbFYpYR6jkCA7Bik30.jpg"
       },
       {
         "id": "ChIJs3As4FDEYpYRrxNsRnGR_FM",
@@ -4045,7 +4314,8 @@
         "websiteUrl": "http://www.govindas.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6051871914977924015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJs3As4FDEYpYRrxNsRnGR_FM.jpg"
       },
       {
         "id": "ChIJO6Uuln3PYpYRdhs9QOUb9MI",
@@ -4066,7 +4336,8 @@
         "websiteUrl": "http://magic4ever.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14047883809114626934&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJO6Uuln3PYpYRdhs9QOUb9MI.png"
       },
       {
         "id": "ChIJQZBb-qHFYpYRJA5LkULeD1U",
@@ -4087,7 +4358,8 @@
         "websiteUrl": "http://contrapunto.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=6129361995361357348&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJQZBb-qHFYpYRJA5LkULeD1U.jpg"
       },
       {
         "id": "ChIJh5vibH3FYpYRWReLDPLTKcI",
@@ -4108,7 +4380,8 @@
         "websiteUrl": "https://www.instagram.com/be_eme_cafe/",
         "googleMapsUrl": "https://maps.google.com/?cid=13990946753949144921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJh5vibH3FYpYRWReLDPLTKcI.jpg"
       },
       {
         "id": "ChIJY1ozln-9YpYRGK49SQWgdRQ",
@@ -4129,7 +4402,8 @@
         "websiteUrl": "https://www.instagram.com/buttoc.s?igsh=dzg5b3AyM3N4a3Bk&utm_source=qr",
         "googleMapsUrl": "https://maps.google.com/?cid=1474260397597765144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJY1ozln-9YpYRGK49SQWgdRQ.jpg"
       },
       {
         "id": "ChIJvUtbagDFYpYRjz16GuyyeLs",
@@ -4150,7 +4424,8 @@
         "websiteUrl": "https://www.instagram.com/restaurant_vietnamita/",
         "googleMapsUrl": "https://maps.google.com/?cid=13508743809424047503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJvUtbagDFYpYRjz16GuyyeLs.jpg"
       },
       {
         "id": "ChIJy-iT5UnFYpYRXRhEbR9VG-8",
@@ -4171,7 +4446,8 @@
         "websiteUrl": "http://www.guiature.cl/centros-carabineros/zona-centro-carabineros/item/casino-serrano-pni.html",
         "googleMapsUrl": "https://maps.google.com/?cid=17229458392901490781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJy-iT5UnFYpYRXRhEbR9VG-8.jpg"
       },
       {
         "id": "ChIJD9AozarFYpYRwwAilnP0eeo",
@@ -4191,7 +4467,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJD9AozarFYpYRwwAilnP0eeo/photos/AcnlKN2U_J4k6YAbDhr2bX5JxtjL3HuiOsPONmGyK0GYeaH5ASmRmPjT_7aTA7hzaRH4obAi7ZiwIo5RHSweZtZAsOhHDt87iBc7C6FQb9DOhECfY-uXUzjH0mP96SNyrsk0qZlDVEE0I3cErP7w5G08wJdS_48MnZCQrNoo7LtDGbY23zgzPUiK_FcZSnkQUdoKSwTCURsyJwhWM308ETff60ctC9fLA4Odjbokk9BHNzbIuQCsRNnynL7sJAwbbllSgI7yJrxPgAOf9YFMBZLmUl_pl0rr6BaE1u0Lvq7s_tuDziuRPsrLJwAUBg0wPFA4oL-Qs7I-Bo6aR1XBu--SADJaUyNlafjwTQI2ahgWB37WxEimspflvJ2XLit-r8cifSyxLbyviA4pgrUA-54wXb2PvsVx2MmE76aX-McpZez541fE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16895804254334353603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJD9AozarFYpYRwwAilnP0eeo.jpg"
       },
       {
         "id": "ChIJXbH6J8nFYpYRLf1dJ_llUqY",
@@ -4212,12 +4489,34 @@
         "websiteUrl": "http://vibratoscafe.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=11984753679168044333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:47:01.739Z",
-        "updatedAt": "2026-01-23T15:47:01.739Z"
+        "updatedAt": "2026-01-23T15:47:01.739Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/santiago/ChIJXbH6J8nFYpYRLf1dJ_llUqY.jpg"
+      },
+      {
+        "id": "ChIJ_d7opwjFYpYRru1WrJ3T97w",
+        "destinationId": "santiago",
+        "pathType": "trendy",
+        "rank": 1,
+        "name": "Favorite barber house",
+        "description": "Barber shop - highly rated",
+        "category": "bar",
+        "latitude": -33.448093,
+        "longitude": -70.67003,
+        "address": "Av. Alameda Libertador Bernardo O'Higgins 2467, 8340172 Santiago, Región Metropolitana, Chile",
+        "googleRating": 5,
+        "googleReviewCount": 31,
+        "suggestedDuration": "1-2 hours",
+        "bestTimeOfDay": "night",
+        "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_d7opwjFYpYRru1WrJ3T97w/photos/AcnlKN1UhOjQStVwPy2rYbj3WnQxJ0YTm29tI0xr1CgxOYKvM1hyZdiG9FeF60VnAw4PfNvTxufUacmcW8fd-Q30Il6MBmGoFDSQhN_7ufmnlhEICDTgJL2REJfDjV8PQqgaoxev19fRBQnRRLD1hLk8yaqSxBAJRU_xoZpJ_0IflbSfYUL2tYwyzAsUamZtxDzEYZDaAvGfSySH7nWlRqoH5GoK7YhL0E8E1qEMvKtBBoM9nnl-gX_yAhNkIhdwu6UENibirVPyKotvzYOmWXluS3Q6FejCbm3YyImZ-dEftwCMJw/media?maxHeightPx=800&maxWidthPx=800&key=AIzaSyBGPtaKvigz2Xwh9Wj4H6EwCI7FM71Gzt4",
+        "websiteUrl": "https://www.instagram.com/favr.cl?igsh=MTV2dWh5MDBsczFrcw==",
+        "googleMapsUrl": "https://maps.google.com/?cid=13616584672532688302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "createdAt": "2026-01-27T03:26:27.906Z",
+        "updatedAt": "2026-01-27T03:26:27.906Z"
       }
     ]
   },
-  "lastFetched": "2026-01-23T15:46:54.463Z",
+  "lastFetched": "2026-01-27T03:26:24.307Z",
   "apiSource": "google",
   "apiVersion": "v1",
-  "totalPOIs": 199
+  "totalPOIs": 204
 }

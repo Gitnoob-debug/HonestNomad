@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnxiaKxE8pTMRZJ6zvUafJ6M/photos/AcnlKN29Tq4_BOBxa_YsPjsVd99p-4zdxIHgH3y3q5zW631eDcyOArbYsf7TwWtlS5CuApuYCdmCUwPDnfrWkxLfiIqCrrkPuO-id1wTrHBKND7NGWJ9lMpkDZb1TngMn5x8v-PG1d-L7utXysHHr78UK0K-1t4B8VRO_WZJ_J5bHQVZS_DghKDYXONlKzC-dJT7i6XYGrsncPGMz-SxOheZMctgxfgd5DdF79KQKiH5wbZvKIxdiZP_sgqY2kX6S42tWE65LeM4cuMXZU-A9cm49n6dU98I3jmjZvWgJRRvTJMg2nWCLVPEO9oltmT0ae-AGQ3r9LENmhSYC9jESxE9BXexLoLGIJoslHJNgz2uZx6iRv4fHMpWbYRQZSTI2higgSXMyAGSYdpjG5t4YBuG3Ut5-2a19t6d0neVjBW_A4Y/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11756540478453161572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJnxiaKxE8pTMRZJ6zvUafJ6M.jpg"
       },
       {
         "id": "ChIJiUxzkRI8pTMRVkfLZEJ2WZ0",
@@ -44,7 +45,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJiUxzkRI8pTMRVkfLZEJ2WZ0/photos/AcnlKN1WxV8A5_Y5WY4SHdc3e2Qky6TWLQ3HHT5LWeeEYLaNhEpKLujWKaWgYuD2dBSOjXtfiFmRgmGVtejoHSbpgbV8IgPUSyUSspcmckASpMkRnBoo9pDAGWmN4j3bqbzDywEWpGm1GRgN3Fj2-ggfbprd_SQmeslxSiimO4U10QXnAW_xIT8c8qi6lI3wDWLN7oI6dmmyR0irLPzkiSFZl_5xn9vEMngL5JRUcJ7HLCjPTAWYFxUcReq1BElPXIDFaQzKgo19iEKP4SBgE-ljlmSYOwIsmCNSEY-pftlkgzTqM4yigN5UY-AVe1xnH4uBlPBL3tFtQ_u88JP5piy_-EXQHABQxROP4BcBj-3k6YYAMkOlNWMbiG-Iw6BKjj-BwI9_PJJk8A92Kgmv8IYsgoWu1Fs7aQVH969dt84wf1oWXw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11338223564412897110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJiUxzkRI8pTMRVkfLZEJ2WZ0.jpg"
       },
       {
         "id": "ChIJZ_W7vVFppTMRNJO4DAevv30",
@@ -65,7 +67,8 @@
         "websiteUrl": "https://www.facebook.com/malumpatihealthspring.officialpage/",
         "googleMapsUrl": "https://maps.google.com/?cid=9061153420105782068&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJZ_W7vVFppTMRNJO4DAevv30.jpg"
       },
       {
         "id": "ChIJYXglqBY8pTMRZPU0gVA9KVM",
@@ -85,7 +88,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYXglqBY8pTMRZPU0gVA9KVM/photos/AcnlKN0FTwjh5OsE-JzMaMjI5JKgLEdrGuu2S9aR_N2krHIF4Djb8i6SVBO9ZAzihOY_N5YCMKqJBsV4L3KNMWn1sN8JyBiKzpJ_fc3x8lkIVWxJUYBVQV8GaAkmoAndDaWZ0RsZok5zdWE3mj5bRFiHLOnjyDrH3cbcYcLgDM0S42L5tmYskTsWB96uvNeR5Kg2Wt0k_Jvxa1BmaWk1a3iugKmODDOIRJnmPVowmm9qjQdsE-yeGUf76M37E9kmMWJWCgRLkxQOR3zAx6Mx2yIcDQwuv82ndPJySJJQYwQKAu2O9wI5348yXvLE07ymYzNzaKQ3JPy3lubw2KIjbhXqpD4ajyDe6ROHytvL6cVQed4SQ_gEUtiGPf5ww0VtERLdrbYhpj5pwcsCJaluv9V8n8ZPWKRmQBJXvXlnOwcQXT0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5992388195167565156&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJYXglqBY8pTMRZPU0gVA9KVM.jpg"
       },
       {
         "id": "ChIJXeeWURY_pTMRYu__xJYbkow",
@@ -105,7 +109,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXeeWURY_pTMRYu__xJYbkow/photos/AcnlKN2AGvo3DTETFvln5uRm-24RpbASNzVKWitb9v0iERL1O5KofrCghKxPEhSccLuBg1swBhP-SAv7OUtbV871aCN5d9MTmtPw9kHZIw_k2UW_tZ3e4Jn6Kdx4Es9dIVj633zizIWZims29utpPmr3nUGQhzpUjBHUqFwDC1ODRfSSaxtSARPDKtjTWZ0nMdo5TA9oqp61dS1hJPFZw--nTWeyyBZfURphAZQYf9ee5AlgceRREPTk4wQQXrZ4F1_LRs-7Wi3Lb7oH_BTr_aDZUUfYomy31k0LDZckZ_86_Kz40cu7N7mgeq24t87bGNcyzMf0UMhIycl1zskKyelJJmaHSsKZiFtUs2GbWJtZuek4eCVcpiDWuzmFuWAW4QxMy8hidD28yKI8m9Y6xWbpw0bAnlP3KylCZFBq3bjawsNZT0NG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10129188846273818466&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJXeeWURY_pTMRYu__xJYbkow.jpg"
       },
       {
         "id": "ChIJh4NNaKhHpTMRmUnyMG6rBcU",
@@ -163,7 +168,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwQP7y9k9pTMRHtudzJn7ZWk/photos/AcnlKN0Us7nS7yEqVC-qOnWEmSRpZVjlzvICCSvMb5MD3T6Fy78baGWmf89AjJeUIroxtIf3AenYv2AKaoIIUU_FYjVBLt8kyqQqpTtqo3kvEJs4uNC28kF5osJV3NcrAUXvLnlJIuBg0CtLvNNz2QtZvV-wPg3B_MUUnMZje7cbYZwlJ0jTpeWK-jfb8JWPjhKTotG3MY-f-36KT-D24VVrO4tOg5Jfar8W-ASLd_35qh1oj8hkBYFz3EtnpGS390FMZLQtx9GAtMkq51u4WummLXIALPjlgxRx2VqjUdMGj4s6Z3VTQAWZpvvX_4gwUmrvSaQIKgGFp-7m6KDsXeUAeRZ7i_PfeQ4KpuUOMpbMmhnVNvHf5P_B3L-hjuWrG98ClYXc3YhgyCCzReRG0CvPUTN3KaTgKytth8C5BdOEuPDuI6im/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7594752984611674910&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJwQP7y9k9pTMRHtudzJn7ZWk.jpg"
       },
       {
         "id": "ChIJKcrNhD0_pTMRT1lHqJ9oy34",
@@ -184,7 +190,8 @@
         "websiteUrl": "https://www.facebook.com/motag.livingmuseum",
         "googleMapsUrl": "https://maps.google.com/?cid=9136511303983520079&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJKcrNhD0_pTMRT1lHqJ9oy34.jpg"
       },
       {
         "id": "ChIJZSasDeqNpTMRLamHkI7774g",
@@ -204,7 +211,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJZSasDeqNpTMRLamHkI7774g/photos/AcnlKN0TY847kwrQVOhgjFKKievtRoeZl9XaZ82NFYILLMcgRjo8smoKdg7xJ2hjuoEjJFcf9Z5YhwuiPG3-CzndUO5F6U6nPAHd13_nkEixDYzBurc0MUIp1kAWGWfy-ah0IPkNWHCjfBq74g7HCJAbWt1k_64tTEuVEM1YNvkISltT_XIORmGRMq0jmbBgEGxw3WNOQE_VKFDbAyqiLnSza1peORrVMDndnwC7tSYxLsIh6x5U07UunLO5gZyxsEUj5itc-W_C8kOAfW7UHH2asltZrtfMhR7b6Eaab4Zs_rfZiw8LT5ZTyxSyBbhghTaeHPGSjCm3gjyHNKK499NdyoCCsFoHyXu1Fl69aCkTZLpiJDbTABc3S0r4lVM5O1uF2adEPXXgv6bnSiXUjTglH8H75R89NM3ME0eHWEWetFO_-cLD/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9867381898320783661&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJZSasDeqNpTMRLamHkI7774g.jpg"
       },
       {
         "id": "ChIJm8mqkRJHpTMRYVGjerYvz2w",
@@ -225,7 +233,8 @@
         "websiteUrl": "http://www.tuburancove.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7840537937063399777&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJm8mqkRJHpTMRYVGjerYvz2w.jpg"
       },
       {
         "id": "ChIJx5HWGEA9pTMRyR9xo5RavsQ",
@@ -245,7 +254,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJx5HWGEA9pTMRyR9xo5RavsQ/photos/AcnlKN3KbROq_8DM_GJIGtbhBUphJ0VZ5xZ03boF4CM25UwL9HqZ1yksUR1H5z48xiYuW5665YF-OZCs6CLoOH2Qbnk3lxsV4GR0rGjOJ8IREAAtq3W0C9Gfq2B1F1Zko_lAVrqEqpw9sPmQRkzztnDnjZ7T3ob4Mc1ytDk6J9pDN1JNlExBe6vul479M0-XvFdXjHlNmSd2zg7cm3BHZ3H7SzZW-sIFgHUqRWZtXqY6--LmbaQXyWW1_GaOcm1wtmbgj1yYNouR6ED5wxkpcoQV1WiiL5_CXjah3XU515E6mp7d5Kk8wZefzW4uaHyrXsdE1WYSgDp7VeGAxeNhQjXRDtYTB96ylKX_LMl_mrWRW6a6v_qHOWhNLvWosClQgCswjdIdfz6OZean4ZbdBnPph43QpSlHfNZkuZamT0HJpIFuaDxG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14176868271452659657&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJx5HWGEA9pTMRyR9xo5RavsQ.jpg"
       },
       {
         "id": "ChIJx5S1f5Y_pTMRc3RPOt4KTuo",
@@ -265,7 +275,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJx5S1f5Y_pTMRc3RPOt4KTuo/photos/AcnlKN3QGTti3jYb5Sf4WI4KryF-aOYuWcqEvgvHkwzr-l7pGY2KZbjifW4AD6nUZTBac_ol_teuPbqGcL_er_sD1aoP_WS4xlQtQH1BEcXZU8lyT7aSrcyLIt6rAqGWtjjBODNARuZTfyky6DJ8cJ_92TYGSJjKQAtqURIMUq5rcgQDQtC5jb1KIiKjifXe3HKUHTCQDhoXEmvmcbV5sKG-5vRzUFsBLGxwqle63ZOUGoZbvYyBJyJtzH5ZrVDbbYsHamqd7dsqANIO1xoInckSQM3_ci7A4KmOzuca2eJmuXzeZCCaj-dfoRwizMpES4WC2qrb1PXnOtXCCvxQUkaE5KRQxJ1IEstCv3I66KptJ7AzSJ157fr3ys5LRwzkpCHA2ZtbT6tMEsfrSHoPPKLgqmopOsPJLcDg9NdWMqq_3qUY12SF/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16883444002635871347&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJx5S1f5Y_pTMRc3RPOt4KTuo.jpg"
       },
       {
         "id": "ChIJ1ZR6IDk9pTMRxCSEzfVnJQo",
@@ -285,7 +296,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1ZR6IDk9pTMRxCSEzfVnJQo/photos/AcnlKN3rrYCzOOK7sSGCbqKqKQJPx3uCpcw1Vs19a0L-YvTWnZ4dnKW1-USnvHVt9QM8gjzu6m5DMAXLmduMbntMzSYe_dTnMWfZ8WUFBgluBrD2TNA1DPzwA-FGulVHaqIs6iAlsJv0Mi9xOQLaVf6_KXyoQ-AK7B2Wfx7HCctF9G76TP9CXEosxJzPZDCgOf28-zVgr9Xcu5WQ-9umonZH0lhE7sWE9cL2NBwaqbPjTyCTVt2zrXnpeg8WrMYl44ejxhfn8qeS3nXArn4mTSYrkRdDfve9dYNnaHFIF1hpf1gBxi85mU8KKclQvyetfsLWx6co3IurvwRrdD1KU1RYkb6QykNYHfxQjg_sBCExDCy3tHHvIH4TbIBG1YFaOCDySrUy29v4yOJv723J5TDrdP8ZHFRXLhT1MGN7UsDz2Fk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=731104819930211524&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ1ZR6IDk9pTMRxCSEzfVnJQo.jpg"
       },
       {
         "id": "ChIJbRbEhIEVpTMRSMKmG1rOFws",
@@ -305,7 +317,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbRbEhIEVpTMRSMKmG1rOFws/photos/AcnlKN3Ovj5UsDQxJriM5jWoANgdsIEqnzG2JQmIgN77mz0M5U_FuFkxe4wfzAUyqMY3w6ObXtlc8drsfx6_5Svqu8T7i2aBT7vRCVSnqiwOr9RmcDQxjtEucXuvkCXHYW_9JeiP4G764wXvZ4GvUb0idX6_3_laADTPR1m_b8M5olfpCSj5K4KNkfUYfU__1XDxDdrT63Yn2-cNt7PZPuvx6FMKJHAPWmwNKbsLe66xtwoh8GUYudgYd-lPNOL3FMNCAqddxTTNx0_2_erFpWpz4Wz_1D6iw49VRZqZWGrwllXCzOatkqSp4xjHHq83QzCtyhy7xVNjsBU4gEj3cbKJ_45wOBlv0Fi0kTSXpbjLVG_wn0pNX6TCKPEvK_TVtAdJZBBxbNJSGFGODdfO3bH5OyDGL8v0S9jk7_sbiUCunq9Vugs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=799334345287844424&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJbRbEhIEVpTMRSMKmG1rOFws.jpg"
       },
       {
         "id": "ChIJz7-JusM_pTMRg96Bq5D_4VI",
@@ -325,7 +338,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJz7-JusM_pTMRg96Bq5D_4VI/photos/AcnlKN1-3mXnNWvB2cJso6kYlESIZ-4KUujHfGCdU8hQFHy0gNXNlVLJL1gznRAXqPJnKxWUdoJHzET-sdS0tBxTE5DsVOfIahzV5UO0Mys8Uxnm2T2ag5V9nLzSf6WR9isj1p-ymG0B3opldjRK1xOvxpw50fPvftqPhP01xccQiYDB9HoH6i9xrlkEwgN5Mdczke63nGdVi5jmsW4EpC82wuYpLhwwE180B2A4ArUiCJhPnWVFTEBOF-jvY9ocLrhBrg9UbDuQwgKiyO5s5hutFvCrTaDrlbphCah6UXZkCMRiIfrWE9rRK5DFkuPxZw-yztK-G98NeWxKKpEx0IMtUggL7q_b9-PTpcgOm3quaXyNl6h4rr-oUwGYniKwYExyPzmp06drNHcw4VrQqaP7jYxoBIF7ZjfUvRVCDsfnqojrSA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5972335577687776899&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJz7-JusM_pTMRg96Bq5D_4VI.jpg"
       },
       {
         "id": "ChIJRee-wWE8pTMR7lGJurWvdDo",
@@ -345,7 +359,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRee-wWE8pTMR7lGJurWvdDo/photos/AcnlKN1TEW0QNun18cIne_6nM72iiMrsVIhkA5P7VDQu_DGs54WqTPdjP9P220R0e83gyCAdGU4KE1sWReG2Q-MjkcM1KtXGt_9FqZPKZGHMHP--uM4mrOca3943xIk6jfyogsqCns7f3Rh_b7TJ4uWtFBbrPTe1_oZGAj6tnCEJ2mXGYjBA8f7fRxZO-3MScDP6fjAkb0zXFkMBN7E8J4x8NmBCrlHeE2btdxIV5uPKL6a1gs5Ea7vM4IBAcOucu05nPEtcCkp1qVSL47uroxskkHi34aijFa7GAz_FMubzBYtSQpYjrAvkjPyjlLlhLMXp_uDkr9qrSt6kML1-M-jKSQx1ToY6NgpL2ZMetzSkvxmzwV6o_sA07pKPRUquBRZms8UbQHZ2gbZTxt6KIbHPtEAflc7ZDRLDsG-i3UmREuQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4212184746551759342&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJRee-wWE8pTMR7lGJurWvdDo.jpg"
       },
       {
         "id": "ChIJPYbCNtQ9pTMRIxL2FtMYnck",
@@ -365,7 +380,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPYbCNtQ9pTMRIxL2FtMYnck/photos/AcnlKN2ZCbba4SRdmSlWsI4Eq94cgQOMfRSSTauLNOAs0ZVt1APCkc75RaD37h_7B3Rdd2PaeMo6-SIZu4JDFXn78DFESBbTMa3cAMTe8TwMFiQYMRXiZ8kDPnLdG3yfMa2ot9hS5J7orRQEJ1yJYE0_rheBiAu9RpNCOs8MhAvOjlR4NzrqSVtcO44j-82eSOO49b3UmRwoi1YHcvXPEa0wh29KX0dRVHovtD__Cedw6h5NWJxhHDmj5Q_tyMfyDquStKJH8TNxMsisNvDMud3Wh123Uherx0-ba8w7pjd1IG9pYyG4htLJtNpSti3K2-sumVs8-okQCdlLlx6lo6pW8OVb3G345aQS1rjcNl1MfgJyhnqaf6dEltFYwjfxPuQnuQPqxR55HkqOqKjaLFuVJJUMBR-wqYs44InXpj01qjw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14527795267869479459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:01.615Z",
-        "updatedAt": "2026-01-23T15:39:01.615Z"
+        "updatedAt": "2026-01-23T15:39:01.615Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJPYbCNtQ9pTMRIxL2FtMYnck.jpg"
       }
     ],
     "foodie": [
@@ -389,7 +405,8 @@
         "websiteUrl": "https://smoothcafeboracay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=681188143805774564&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJmzO9Uls9pTMR5DrA-AERdAk.jpg"
       },
       {
         "id": "ChIJ9SjTsJk_pTMRggd7sWCAoDE",
@@ -409,7 +426,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9SjTsJk_pTMRggd7sWCAoDE/photos/AcnlKN3Mp4cMWzS1X9Cmpk6TVHIddrAH_3BXganL9Vb_ly5SuUpAGND-X93I_EjLIz_WEDYYnRuAvaxieXngHnEpXEa1N0GNFhDHpfBE3BfPAtahU8hgG78dSKDRfDbtDevCSVoI_oLihMPHg5RVdz30D8KhICDmiARP5AW8cdPQZvWs4JhJJkClCPAxUXLUNR-CfRlQqzW3wu0CSPqwnMbyFpRsHYKyY-uVHIDYBD_j0z0l8KppK5aPYkoIqGwNK4WVTPVcwZ5CK4CwKjcPGYOOkaANsQHye9tZ1sXI65zDVI2-63Y4s_6mO8d8L8azwpnZ-VzXyfg6Z_3VC-bghvzRBhU-yxhoTTs1OmV9Dc3pwND9poaclvrzGrbcRhhupkuDo05d94MfqO2oXMdCNJuyzQoWBJZ6-4O6n_KYvxiI9p9fBw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3575999256915019650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ9SjTsJk_pTMRggd7sWCAoDE.jpg"
       },
       {
         "id": "ChIJcz8rdyE8pTMRtvRz9oY56HM",
@@ -430,7 +448,8 @@
         "websiteUrl": "https://www.facebook.com/suboboracay",
         "googleMapsUrl": "https://maps.google.com/?cid=8351988760781780150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJcz8rdyE8pTMRtvRz9oY56HM.jpg"
       },
       {
         "id": "ChIJI_-7BKw9pTMRdaeitag46D0",
@@ -451,7 +470,8 @@
         "websiteUrl": "https://redcoconut.com.ph/restaurant-2/",
         "googleMapsUrl": "https://maps.google.com/?cid=4460877728163473269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJI_-7BKw9pTMRdaeitag46D0.jpg"
       },
       {
         "id": "ChIJze8N62I9pTMR4PYCyzm04ZM",
@@ -473,7 +493,8 @@
         "websiteUrl": "https://www.facebook.com/munimunibora",
         "googleMapsUrl": "https://maps.google.com/?cid=10655996353647408864&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJze8N62I9pTMR4PYCyzm04ZM.jpg"
       },
       {
         "id": "ChIJxzBl3yM8pTMRwJKYXmZ-VtI",
@@ -495,7 +516,8 @@
         "websiteUrl": "http://www.nonies.com.ph/",
         "googleMapsUrl": "https://maps.google.com/?cid=15156440574100804288&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJxzBl3yM8pTMRwJKYXmZ-VtI.jpg"
       },
       {
         "id": "ChIJ6wnlDZ4-pTMR67jiJhi5izc",
@@ -517,7 +539,8 @@
         "websiteUrl": "http://www.thesunnysideboracay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4002496207231564011&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ6wnlDZ4-pTMR67jiJhi5izc.jpg"
       },
       {
         "id": "ChIJ28YXmxc8pTMRFRIwdq71h3I",
@@ -539,7 +562,8 @@
         "websiteUrl": "https://www.starbucks.com/store-locator/store/5317/mitos-place-boracay-boat-station-1-boracay-island-malay-06-5608-ph",
         "googleMapsUrl": "https://maps.google.com/?cid=8252834971835699733&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ28YXmxc8pTMRFRIwdq71h3I.jpg"
       },
       {
         "id": "ChIJUfBE5J8_pTMRlYEuun388BM",
@@ -561,7 +585,8 @@
         "websiteUrl": "http://cafemaruja.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1436925898055909781&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJUfBE5J8_pTMRlYEuun388BM.jpg"
       },
       {
         "id": "ChIJi5RkrI8-pTMRn08ncIMfHiA",
@@ -582,7 +607,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJi5RkrI8-pTMRn08ncIMfHiA/photos/AcnlKN1ht8yNAFtreo7vrFZjzsZ3RWvmu7VGMP_BqvzO2aeSwIWly9sJyH654wuIDNfX7c61lU6OjAeJ3Fr6MZ1aFDIcC7zTC8P3Rc-Y3s8mDCbsJZza6qlKi95---IS90Fg4WD6cm6TodDy9y-L3MCJv2LHCSn4cZY-0XVZ_Hp3Tm-f0FL6mqL7DnTP8kR4gIrwoGblXZE4vJ2HxV-UttnVHojKoUx_q9ak1KpTQm44obzRvb1mhkXTGjSOEYXw7hbZU7rDdtLcCYhq8GBDpaFhMHTjMmFRTPoD7JoRl4tBkRjOlc4Fzn32m_NeFkM05qGZgU58OIUQPMLPwG_Mpa_0F38jMZkh_65cPiD4qj_Z-7QEG2Kbs1HRa8EeSsND6Jptpz5dcr5eH7XD0vLebHQcrfktMtCcMwGjMzOK-Dt-K2u-szRHadAbzfferSAMqpDA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2314321907897814943&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJi5RkrI8-pTMRn08ncIMfHiA.jpg"
       },
       {
         "id": "ChIJDx6hFIs9pTMRRbIx7RJ0IAA",
@@ -602,7 +628,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDx6hFIs9pTMRRbIx7RJ0IAA/photos/AcnlKN0IdCJq22eurbu8A8IW7m3SKHpEGGME39rlMpuXQuXDOhHqrgjoKSQxJ9ukGuWdcAVs3Fs9YWNOCjS1FIsizxl_C1NevZ6__Al6-o34VAAXmOzaff9fXuKmjeCyn2w7hO-j8WgaXHnHnclHJKOt-B_zzWXOLEhFwL8i7-kn6RlcSm8YVp6LvPqFRJ-zldeDQ_UIDxFK6RNPwZujb9MHzAMtSehZDFF5fWHSWrMiLRikUnrngL4cZc6DRQ2hMnk-aoe5tra_3s5YyoWHVYoM4OSHNKHeZNeMUmAajv0AMTUQHvam7AUlgOEmkZeiy3HrNvimdfbihSpn8qORaO0H6K9tmgPTI9XwQK6XWEakgyRrKfhzs3C1nPCuMaVjHMLEJgF1nV4HweeZ-TJK4nisJVS0escS15xCeGb-uGezJw0p1lp7Sd1N_eFOuh5LfA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9134823892431429&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJDx6hFIs9pTMRRbIx7RJ0IAA.jpg"
       },
       {
         "id": "ChIJtctGzDU9pTMRRY13iiK0ZUc",
@@ -623,7 +650,8 @@
         "websiteUrl": "http://www.facebook.com/mezewrap",
         "googleMapsUrl": "https://maps.google.com/?cid=5144716209785638213&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJtctGzDU9pTMRRY13iiK0ZUc.jpg"
       },
       {
         "id": "ChIJq870kAo9pTMRNJ0YVrxUKyM",
@@ -644,7 +672,8 @@
         "websiteUrl": "https://linktr.ee/kombujapanesebistro",
         "googleMapsUrl": "https://maps.google.com/?cid=2534212383201074484&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJq870kAo9pTMRNJ0YVrxUKyM.jpg"
       },
       {
         "id": "ChIJ63ncmiE8pTMRWnXwN_qpnVU",
@@ -665,7 +694,8 @@
         "websiteUrl": "https://henann.com/boracay/henannregency/",
         "googleMapsUrl": "https://maps.google.com/?cid=6169273956712871258&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ63ncmiE8pTMRWnXwN_qpnVU.jpg"
       },
       {
         "id": "ChIJ55Kn3RY8pTMRrNHt4_hAZLI",
@@ -687,7 +717,8 @@
         "websiteUrl": "https://www.facebook.com/originalrealcoffeeandteacafe",
         "googleMapsUrl": "https://maps.google.com/?cid=12854470674142319020&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ55Kn3RY8pTMRrNHt4_hAZLI.jpg"
       },
       {
         "id": "ChIJ2ZYowHw9pTMRf_vCEbNCJzc",
@@ -709,7 +740,8 @@
         "websiteUrl": "http://www.thesunnysideboracay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3974218533042322303&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ2ZYowHw9pTMRf_vCEbNCJzc.jpg"
       },
       {
         "id": "ChIJMUlfJOk9pTMRgHKu6YYzmo8",
@@ -731,7 +763,8 @@
         "websiteUrl": "https://www.facebook.com/nalkaseafoodrestaurant",
         "googleMapsUrl": "https://maps.google.com/?cid=10347639748376294016&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJMUlfJOk9pTMRgHKu6YYzmo8.jpg"
       },
       {
         "id": "ChIJi-btmyI8pTMR7ePGOYolp-Y",
@@ -752,7 +785,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJi-btmyI8pTMR7ePGOYolp-Y/photos/AcnlKN3V8zJelsHzBdCjTAPoVl9oRhY1kPt9O6dqd2SpX9yCRgnNozPfXlwyal02O7sL-VXG4sed9e_xWIGhNsJ1meI1jwFdFyP2JiqethxmooibjObPHombcvrFTMreSUiPXQNucQWuRjeZthpvkpjRla9FQPhIEyWYk0Lv6uQBRdjIlBsHHRMwF80PnIgKN_GIK8j5MqjNO3gRegxRVQ7lCIdtSWua15tKyGww8Cpg1xejNv0K7ThKM6cBQsZyzcVI2oyECjhdFhEpFe-oq-oIeJbYzHtOQrf1X4QWiH2V40Jz8w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16620294225439155181&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJi-btmyI8pTMR7ePGOYolp-Y.jpg"
       },
       {
         "id": "ChIJSaW5LT08pTMR9T6oust9zQY",
@@ -774,7 +808,8 @@
         "websiteUrl": "https://www.facebook.com/2brownboys/",
         "googleMapsUrl": "https://maps.google.com/?cid=490186248416673525&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJSaW5LT08pTMR9T6oust9zQY.jpg"
       },
       {
         "id": "ChIJiWR5DAA9pTMR6ZCebiEpLoA",
@@ -795,7 +830,8 @@
         "websiteUrl": "https://www.facebook.com/profile.php?id=61567257445575",
         "googleMapsUrl": "https://maps.google.com/?cid=9236365109350011113&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJiWR5DAA9pTMR6ZCebiEpLoA.jpg"
       },
       {
         "id": "ChIJs7DNQgA9pTMRBdZyUQ-S8Z4",
@@ -816,7 +852,8 @@
         "websiteUrl": "http://www.happinessphilippines.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11453095921868527109&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJs7DNQgA9pTMRBdZyUQ-S8Z4.jpg"
       },
       {
         "id": "ChIJl4XxmVQ9pTMROMkzPKXjz40",
@@ -837,7 +874,8 @@
         "websiteUrl": "http://www.jammersbeachshack.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10218636378346080568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJl4XxmVQ9pTMROMkzPKXjz40.jpg"
       },
       {
         "id": "ChIJ0Sh0Pe0_pTMRyxvds167E-s",
@@ -857,7 +895,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0Sh0Pe0_pTMRyxvds167E-s/photos/AcnlKN3Avb50Ur0X21RnDcXjG1_laCSSTJx7V4qOtp4M051DtCU9EZnMaXsEpaOdMY7aVNCAWkVuv-pdKiN1yj3YnPO7ssstZrhDGUUQpdZ7d7ihLtJYKmYhEpmNmwbmBjUdFQcwNaGBogYI_rDr0_1axKQwTcXE8hD1IpaeRVKjghAv6bPpaeHWYg8NZI3rO5XM93TpSj4qlxPSfExiX6z4ZwbqsSn0EVN8RPfp8yk6vNi64wPkSx14rJ9194dNzmOu7Os6LT5kcuD7OxdDlPfabMfWIzaMOW7g6RFPreltmNfWVQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16939088638889499595&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ0Sh0Pe0_pTMRyxvds167E-s.jpg"
       },
       {
         "id": "ChIJEdgrHiI9pTMRF7Dlmt-kLu0",
@@ -878,7 +917,8 @@
         "websiteUrl": "https://saboriakitchenlounge.com/?utm_source=google&utm_medium=organic&utm_campaign=always_on&utm_content=glistingboracay",
         "googleMapsUrl": "https://maps.google.com/?cid=17090778916201017367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJEdgrHiI9pTMRF7Dlmt-kLu0.jpg"
       },
       {
         "id": "ChIJ4Wo2ZoM9pTMR5sKNzmQIkUg",
@@ -899,7 +939,8 @@
         "websiteUrl": "https://mokshacafeph.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5228969871409005286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ4Wo2ZoM9pTMR5sKNzmQIkUg.jpg"
       },
       {
         "id": "ChIJyVzTTtw9pTMR-Tc6Uc1STCI",
@@ -919,7 +960,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyVzTTtw9pTMR-Tc6Uc1STCI/photos/AcnlKN0IzLTjLS-_ie0tyXczCx5ri4ntlyDXeyxYX-l10NlHS5PAcfvjjeUh5UyaklAN5w9DWsQuUrpK1AZxzuIhyyy23tT4VSZfSMrSyXDvaNYM70jEvRz3f_NgDwFZwPCyMf1pOn8kLaHYL63gFR7LUX5EewimvfU_HbONncawHkS8Gj3pbxpmBNcfMWZWMOfseGmr7RlO66P1DmmEF54Huc6Vlf06IEHe7kdP2trx2y3KOYgVBe7yRhB5RlLQJH8OYuyQhnL9Uh7m-Hp-xxLwaVAhRivkZxwN3y7KvVEMTJAbaA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2471441337304102905&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:02.960Z",
-        "updatedAt": "2026-01-23T15:39:02.960Z"
+        "updatedAt": "2026-01-23T15:39:02.960Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJyVzTTtw9pTMR-Tc6Uc1STCI.jpg"
       }
     ],
     "adventure": [
@@ -941,7 +983,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJD7jUwRYjpTMR-GxlhL0oPt4/photos/AcnlKN3gR0B2Oaqd2bwkP64OW-YbO3eIWnKH0iEwl6wCI34fypzKl_Z_PlkAZ-itZ7wti8bZRUwUJVgtvEHuqLk95G3Z5DjoR4QosV-LMaaDzSjy7ta8juQnbAcXDDeQ23pItFxGbpP12UUm8DaghhS0RgEVJyobs8ISWWvMfqshG-I3JU-cbA91F1c88IofzPJbbAbcXu0rQo-iSogWzUYcanEC2G8GMSnDxkXsH-7sBsuiWFvHYDSsWsb2NoJ5B7NjKoPOc4JLlwLBmygntdfgWZ7s9SRyb7SDwW3ZjU2jhpCPYgEtRsy9RcNZSiCYCfLa23dLIlegq5hNf0cxwPcC3LYRhi9d4WLQ0KCO2wbYAxLiKpziVA1guRBZxhbLgTU86fwutdQogUFzvx__1SvGs9CRuUK_1J4umLm5AxuUDzSRRQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16014282119411231992&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJD7jUwRYjpTMR-GxlhL0oPt4.jpg"
       },
       {
         "id": "ChIJqYeZPABHpTMR1TyoyCljf6o",
@@ -961,7 +1004,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqYeZPABHpTMR1TyoyCljf6o/photos/AcnlKN3o62MP8Nqnp4hiOI7N5wLPvr3UoBDW7cpMQw7jz7IkPgZ0FL747WMg7FNR-YfwMBRgd-NVU7UKYPg2qMkaBquo7QK8YYeDS7UL581caD7kTreLIw1CLJt4hwiB8ZjHfS4sC24LCHuiCFbKHayktNdPhjKDXnSfw6Ixdak4RxvjCV2KNZ7NJ0UvrcOIUrv4vEFhYVNyUAB8qk-yv-73kHwQx-YhkYdwztjk4nVtLXCzStykkfIlqJVe6D7yzbIv9-v1kC5SXYDORooYavaVW2guNsgLkoMSzKJDyZP8NnDTjwEGIxGUlf3EyoTsdQUrczH1eBWDsFVuCIUMxtapDj4IITeZ7ljwAI09HvouB1F0Tsa5i9x0YTaH5Mvj6Skh2TmqaCSblcZTDjqJsKDQ_ZlX5Int2heTNyMpc27nTMQmEw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12285647339601280213&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJqYeZPABHpTMR1TyoyCljf6o.jpg"
       },
       {
         "id": "ChIJscrg3u4_pTMRJorGy4xZRPI",
@@ -981,7 +1025,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJscrg3u4_pTMRJorGy4xZRPI/photos/AcnlKN28ZUAUCDAzP_8CHE_11jrB3or5aptKNYjKQJFrsdopjTqr-wMspA5S6qbsSH8TzBcohD5X3fzIrUVZTdHpKcHoWs7GjFhWIWzNr3rVtuK6SxbrQGwHflfZThG5SpITEwndVaI1F8pAvElX8TTu5O6nn74tge5fMgAzRccqyqPrRD6dqg1if35tYWjwEbs1DXrLEWSfevIi7kaqPf41wTi7s3GjzX_9DyTHax191YKRsjXVDzEnG6m7EAQJC_SCWRupc20Oef0Uwob8hVG_12cseB-1b__X7K7Y4yGfxFC1mlZ-YkIW7yq3OOJpjyRwO0kLF-nhMIpklBtVXn1jZHfczoF8xtsbSw_6TQsRJ2srPFaFKKVO-KeQWsux2yroAClsJti9BnfqJuWmKLnhUkI67RfZ3voV7uVbVkJ4fi3UGtb5n8MgDaP-0ASwx1U8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17457176516843964966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJscrg3u4_pTMRJorGy4xZRPI.jpg"
       },
       {
         "id": "ChIJj_J5jhw9pTMRaRKAVFqHCYA",
@@ -1002,7 +1047,8 @@
         "websiteUrl": "https://www.aquablast.help/",
         "googleMapsUrl": "https://maps.google.com/?cid=9226054133679657577&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJj_J5jhw9pTMRaRKAVFqHCYA.jpg"
       },
       {
         "id": "ChIJj4fWPIE_pTMRrWv38hEI1-w",
@@ -1022,7 +1068,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj4fWPIE_pTMRrWv38hEI1-w/photos/AcnlKN3A3gBC-5OxwBkSyEXUt1Z7grAzu_5iqaVs4azKfNSnaGdAs7aVA0v8T1hgqJaMso6VxX10L_zoKTHBJez14BrnbcoqN8TbfT-OtzjvvDqgmESGfCA-N6TVZii1Q0pTojwrJbAv5DXvMZ-7z4YfyyTrrdkVoOPg5bUhMHrFGSoe3q5jMl1ESuu_WNoEK9u49Lbbhn3ibcg6GjCCGs3KLJA-b4Tif_Thk9q03Cx4lYnS75EIiN7EnmsUWkGHh5EAUig9knpMOlxUEmTEkgdc84lwa5oDzBQQTLk6vUvTrU4H8r9AV1r31VP4q39C_f2dTjsh5wvj58eDgx9gbpeROB82vGfsALsWsO8vd9VNv3gmDhVhKa6qkzgic3gvmLje7-tCukNnS3YwS8mYM-BmDmzusYyQWA8PNDy0OdAihgB3ikAhS7GgW2pr_FT26_eD/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17066118186127551405&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJj4fWPIE_pTMRrWv38hEI1-w.jpg"
       },
       {
         "id": "ChIJJz2NcwA9pTMRnrvn4bRhSuE",
@@ -1061,7 +1108,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJG64pMgA9pTMRwHKP4fTufVA/photos/AcnlKN0IIWiBEIwMnnkPZMQ8oYF5M8BlOsj3t81pxcL6vv0kyCEKL5Zj013TKb0iebTy6PmF-JA8dPsls8gilertEW16BcfQOnwWdmwieNZkRgmRE6gfAPrsCdY5peKRRwC-WtkLzOy-hdhZnxKQ0JOLkMnCUFb3pSeEPLmEUSn-yaZhCqOVhg9KkKNekD1MsPmy_CQZd-pqd9-AZALeM2bH1n_btbvtGiTmdTmr8S6KaNS3CHA4aaaVDx9QAFAODIJP_9X1jepcnRmiZYGyKx5M386TdqH5K0UhSSjrxAtU-LnoaaopUEFrTBkrNrfOcd6X-TSApV4ok63WpZkGuQTsFdZ4fTmaboY0O_T1Dosxy3R6YiqPOA6FcD0TzwoFEH9iGM6vk1J5V7NMRyfC_U_zWgkv69ePospUDB4piafpi5SuPTps/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5800054630646772416&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJG64pMgA9pTMRwHKP4fTufVA.jpg"
       },
       {
         "id": "ChIJ24ALDwA_pTMRvhYs6uhWMOs",
@@ -1100,7 +1148,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJ01Nlto9pTMRrLZpgZBeyZA/photos/AcnlKN1KUrgx8hB_pTpxyIdeAsKsYwo8YgEXS0Zn4pjvTa2kGMBYqu1nLsF9vlfjxoJMbkQw1cSX2xIeo5ODc8kb_gME_SdFyS6Byt0woAZKv357N4ZAdjrFrEVCFch-YGqdDahHm9k2S5ISFKhLfcG65yHRJIJzRXmeEstLTU0jWSkjYpAsLlFcoA7lBnhaGdV7Q-Zn4oJ6MiRO0VPikSQN12s95kq4YJrTxIztxf_T3L0KMb4E8mi4LMrlX4_4gik_2xYBdlFeZjh07Xui4ZNnFd_WfbWVnlXY_iGkx-Vgd7s4gPwPgnypD_8sgeKXKQseLuL0RxZ94AZmFS1C4-Q0xTvi_DarFuv8t7AJV-VST3pk7asJ8ou2J_lK1KBtgbe6iS4TRCaQkLBFpOOXzNAOFm0Ula9Hd9XIT4GBLTHow68ycoYmrhfT_GO-Jjr0Fceh/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10432973986519955116&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJJ01Nlto9pTMRrLZpgZBeyZA.jpg"
       },
       {
         "id": "ChIJjWJx63o-pTMRzmuHbHzD4h4",
@@ -1120,7 +1169,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjWJx63o-pTMRzmuHbHzD4h4/photos/AcnlKN1D3VPHh_CSR5hd73sqxsfBORlT0kTt6OWopSThBxLIZkSQCKDU_NTNjsey93qf3RR5WX6SCt6B_A4YdTnnmUOKODnhW1wCbPdadN0Hy-PbSwcawlKCL7JGz-N_Giw86h_qpR900tTaO4OkUF9bJCcPzVzagT3X8wIMH6HTLI7yo3GQ1YK-ipLE7SBw7qihv1ZviZSRLSLeOmAUuecO6_1zqGM9qTELvGNQ4DmvYj7EDxtDahH6gKMSXaGi5kRn9hl7LzU54_4mt9Ge_d1XJ8avnOCg1usGWPEnXk5UJ95nh7OzYEFRgEKwlFb77xUfAtcWOLZQ94YTsj0pqsoqzIXi-cBtbenrg8L2L-Qz26ozH4q7HucPY0jXw5_jIlMAcDRW5iAmuyAOkT6YicFJPt3Z2KsQ1xtv_mTmZkOxMqdgVQhN/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2225556105038621646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJjWJx63o-pTMRzmuHbHzD4h4.jpg"
       },
       {
         "id": "ChIJqblywyI8pTMRug4FIPzXj_8",
@@ -1141,7 +1191,8 @@
         "websiteUrl": "https://www.boracayadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18415174879210180282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJqblywyI8pTMRug4FIPzXj_8.jpg"
       },
       {
         "id": "ChIJ_yJkD3o-pTMRbsc1vRWwaF0",
@@ -1161,7 +1212,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_yJkD3o-pTMRbsc1vRWwaF0/photos/AcnlKN1Dt3tDOFOvWrv9x1a5WEolZfddwtEpFz99uPKoMUqZ2FJnGdScmHJ2PQTsdH0J6jyZ71sfGp7bWE77wyhwMs_vCZNkbwfAKctQszqlK2HwlmGT1qMSjPibKTky7JKuhhv-2Jc7Vn2IJBQAneNTishyfGF2GOyfBMZzkOujdFal37_yazdSa046ntVjB06DoEhDgpnsfuC5IEW2GIyDYrf6PBc71yRvozf6UvyIP-neHZqIV9WqJthc9RQRoHm7TY42wsNHrr4P9dSh5q1_HnHTKYTsgqwuNKO7U4sUvc6CPPpWUPHEv1z9auUobZkdWJfnNwTlMQLypX_uLVjbbf-6rFYrhng_5TRoI7GvEnRcxqHaX3S5WdAUaWvyx2l1ABhkep7mJQxwszGGftpF9ETqq1BY_8N9A88H99Pm8oFtOw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6730823250520426350&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ_yJkD3o-pTMRbsc1vRWwaF0.jpg"
       },
       {
         "id": "ChIJpyAUn7I5pTMRFgzPtaokWWE",
@@ -1181,7 +1233,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpyAUn7I5pTMRFgzPtaokWWE/photos/AcnlKN00oDxunmfrWHTtE5BQuLRHZE5z67xEW7ipTF5f23eSISJmyMsfKCpmWnjp2AdPzzP_owSmTnRh-6X_DCnwlLVqaUwTQO0lYeTSCUwvsUbf4v6ong7lK-DPGDvdCSNlyU31bwuRijzTdotPPVNtA5RonEM9KAXVFiKI2B0-ZwqokvQ7CwOAXq6PeeJ7gGhW-hhw-ab0ShMbp-CJukZyE0_9L-4CIIXjuIiIPeOcPEKAgtBfOVwlE6fVET5MUxcMoBOsa5qYAvGHYf0MtMO07gexy64osms5BXaiM7T0LZVw7oIDnCdy0n6O1YDkr7h26kQ4rztj0pU9J--iUYAX_UjnoJmbIuMNrYMt7XcmCLf3pk9THh7PKEobfNuOa6lgbNL3NUJAw0QIBrhNbj5C_D4u6flait3tVoMgTOV26h9ESn7T/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7014678210219543574&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJpyAUn7I5pTMRFgzPtaokWWE.jpg"
       },
       {
         "id": "ChIJ6wfja6A9pTMRoGta8Fi5WqY",
@@ -1201,7 +1254,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6wfja6A9pTMRoGta8Fi5WqY/photos/AcnlKN1U7EF55EoJeSgCK1ArNbT3i9XUhv1C28LfYA7wZYFnDUGLlayhBp6gar5KpHYCvtL3tZa-dDyH5Q_MKR4eSM6wiqY0vwe-57_T_PCR5paHVlnCzSYoi-tBuXP5p7uAYDD06RDbwpK9KtsFdCUEGQn-NfHJHqgyViFg1A40zO7nNez75ZG1gBfKEsqtcHjGxV_uAXGrkibmO80j7wGOYcc305UuV9bjqHrveCal7LznR9f5tho8nXZrua6HxnUkMzcQ4BNkfXfdr-nsMk_zgn4pg5CfWDjapUSmwYqP5jBCTQFxxZAkfxr_h_HKvqoEzhpi9pRZnckOfDp7fUZ4DN_l3JwZ8RvuxVgpumwCzyVQY2MesNVCvoo8BLAJUAdhRuPLe45lSJcXq5VrOqsKoMdcqalbGj9ZaaK8v6upm4k/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11987097149840714656&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ6wfja6A9pTMRoGta8Fi5WqY.jpg"
       },
       {
         "id": "ChIJWVFFqWI_pTMRo9iPX6J1irs",
@@ -1222,7 +1276,8 @@
         "websiteUrl": "http://www.pauloatvfarmziplineskybike.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13513742972127008931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJWVFFqWI_pTMRo9iPX6J1irs.jpg"
       },
       {
         "id": "ChIJ3eua5bQ9pTMRYWANu9ujg6k",
@@ -1242,7 +1297,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3eua5bQ9pTMRYWANu9ujg6k/photos/AcnlKN13pYRkxJJJDRxrrJPqxYkZTbj9MROQnAspMBa5UVe6ZOTSGI210FNRmInxv4eCUsj4xT1C2f-aMJqNB3e607Uu100zcDIXwSKuzdYQCI7ILT9LQpzQoDBk3wK4TCNYdlITdWMZzkdR65bfRXFvHzUpNw_4CaUTNG-aaxCRv51KvwZu4b9Rah4isj47Ki59y0R9-DRrGSebvAWMHFj5JgxIODwVZqlcltfuqvNpjKPJzD5R8DJSeCxFfbsJSU7mJgDEPgCLLYBRmCOgwy2mR9EXpT6Up7JwZnOBCJy0CV3BLWdTeENR5HEvbIxRV1gXljSMPnLWg1rew5LGCTX2qVHBNJMxUZ19muIMzUrI45fG8W7JbW9GV0TyummxTK5AygLJA4-w8SN2dHqhSkLc-Aa0ea6mJK5VnX1AzdNdv8BT06lTB-DM6O0-C1iHIKhS/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12214786778490298465&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ3eua5bQ9pTMRYWANu9ujg6k.jpg"
       },
       {
         "id": "ChIJGwgdyicVpTMR48w9lnr4nnQ",
@@ -1262,7 +1318,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJGwgdyicVpTMR48w9lnr4nnQ/photos/AcnlKN1u-vp8KK8YyBC8xiLtIK0dRZZkWvTSHcXHMEAzC4Kt-2bTgAp5URWz2HEssvc9yPyQkOr1OdW51BS0YHlqhuhaGUld6RStXWzbb_J2xhNJEGaf1xJqbCTA1OdSGYptKNXdIpeWyx0uSinVoiHsVJbS0gSV9lGJ3baGdoRdndcboSRGqOvuJTnKpD8RcA0Fc5OP1pT_X2XRFkQkR4XfnLZiq6SqmIbzgofnzZKd8oJXZRUkjcd14sD6XrpcBv8KLrJ9cHnXKnwBKzdRvb_DapfY2v7sOeI7STGaoXfr_MwspEhR5zW3GemPoBiCxkrweAmbZuGpr7wQukM89jJDbayUlRda3MDwGBtWqY4amPQJ9vJbseF_Z42hOzyu1c28Hg-MqUC_90UCWDKYoPahJ9QEh3PCH5m2O_9kLatYk5EFdhiO/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8403427160110255331&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJGwgdyicVpTMR48w9lnr4nnQ.jpg"
       },
       {
         "id": "ChIJ7U8OSCY8pTMR6HJ5os7KEVI",
@@ -1282,7 +1339,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7U8OSCY8pTMR6HJ5os7KEVI/photos/AcnlKN1a4qnPm-zBiMtD47jpzUvWjhoJHSSt0ZyAbaGy8LmYMRL1UHc3Us8oz9k82p9aif-nV9u9QITySBi6mbPEAZD8Ojwjsjp7KuNPdwz8MQqm1eJu2_gZRkeDktCRiKJUMyr3Oc8bIFYHNKIk_bAwGjCbHdZXTXl3tAfjAy-V-H2cbs59bmHBKFiEYN1OnFjScIAtXjxXLxQimMPJWDaOPypXi4XUmoOJlNrxNQUvYFA5W7KsWZYyEAtGPhJ4rIDuZGRvMO2T9YBGBRnd4zTCp_CrZxvoWg4WVgWtW84S4TNqtskGiV8B3hf3nOgnNm_yQIMr3g2RSZkTszGHj049xjTYhyTWYWifgXyX-sZ9HKE8hdIZp2M4rn5tyxOmJPVhkYuTYmCwLNdImZUYd9b6uTtDxuE6CPEpgKU4Ze4ncF7qbS1a/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5913730774552113896&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ7U8OSCY8pTMR6HJ5os7KEVI.jpg"
       },
       {
         "id": "ChIJAzbsovY_pTMRxMzjb-ZEVpg",
@@ -1302,7 +1360,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAzbsovY_pTMRxMzjb-ZEVpg/photos/AcnlKN3JkCFvR2OAxssU5KvWWAr8HVVABwZzsUYV3LSuLveUwV_e5BvqPealIQEZttLl5ktWYqENJraA_leWFXNJzGxOi0ytGM9sIompCRLkgYVmv6OTCpBbZx9dfbp5ERv13ESGmLYuFOgRQz27-DsdZAjakWluWPPclzaSyCGLkV7RvFjQ1JUNXkusqPakZOVDRc_gyC70h7ypkePJb2kjw0btHGaDYoRv_2A3BOdryTvuO1KOJR3AJRgT7M7oOvPfVV-OmjcJfMPGPtrgvnpgRO-XZ2Pfvyxv937DCbyVggQCpeoWwA8AhPncu5-x2tr3tsb52dcFzy7bK7Cofj1GgbnP7FoMF4V9xWCK9KHTa9mXk5ekgG2IPvDJLLii27XIAHPVAp9Fm8e80mtNZEgNMxXIGOZWB17YAru5LyOU_18/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10977036898272529604&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJAzbsovY_pTMRxMzjb-ZEVpg.jpg"
       },
       {
         "id": "ChIJPTGDXAA_pTMRIuCYYDxtNrE",
@@ -1322,7 +1381,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTGDXAA_pTMRIuCYYDxtNrE/photos/AcnlKN3p-SyKnn8TO0SK46v9kh2OLhhBswzQ6tBqytnI19DVdxSXyZnwsEVfwu3Lu1XOPsYp_xB6OIjute5qzd822jeMCa9Z-usSt0JS5FfWDy2AOY_ckzuGJHYNnLf_GWG2gTdxlOgsNO1tptcyxag6GmAmzdrXdXVz-WWZ6U0e49zt8O7z5nGgdW-n3o1EtCAYXcPEq7CP8_T0N3zQVwusI3Intc2mtAyygAqGoX5DvhRBfBgm-B5lbYeWt_vtTLdMKnTSWamwfRDBv1ZFVP7jPa1Oth33-JJaiTzmE0hvuVUR8xk31MvOeKB5QgwrDy2vhlBWvzHPKR8Nh7s_3RSSDogIwskBUjdEvspWeCUw-BU8FWEikuaYqhwlUaxQyHXvAnv3bXTX2BaPiO0FKq7O1e1xkLizygrkw6jTgI9wsKvk1HHG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12769513899541717026&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJPTGDXAA_pTMRIuCYYDxtNrE.jpg"
       },
       {
         "id": "ChIJy4U-KbE_pTMRNTrsohJjEtk",
@@ -1342,7 +1402,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJy4U-KbE_pTMRNTrsohJjEtk/photos/AcnlKN1FrNxRrYAbNZh9IJnJSofBQShCLGGzQ7Gi9qvHLcQ93d-UuIJg0dljy_PLBQsBfgzJyIZIwV7FIMlpVIqr_qqRJPgkgetBUnhfxAG1m4zjyWM8_GZl-Qk2we6ZZgrRLjklgpGDQ6e9q7NLIFV90_Sxi1VJR4KPA4InryVDE-ihfJ3yg8V5bDstPHesmlZPXTKRfxQdOkQmaMPH7XsNKA8Al6aiA0E1eCB3K6Ehz8hYZL2gfOP7GPeu0tIrV0dIH7-MYhCCjt7OEa3nylBJGafBdjZ8lJaPt0Q5Nr-wV17OqPeGWqsjfe5R9WymiEfrIjlvV8mDzshTGdugKmBiO1-tdHuydcG87IfuKo2z6OM05Da-wsNp1OmJy3xdZW41CQm4Gp1u616GtUNKXwVEEn-xtBcSRQMx_4VJ2TElXBE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15641673387505105461&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:04.137Z",
-        "updatedAt": "2026-01-23T15:39:04.137Z"
+        "updatedAt": "2026-01-23T15:39:04.137Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJy4U-KbE_pTMRNTrsohJjEtk.jpg"
       }
     ],
     "cultural": [
@@ -1364,7 +1425,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwQP7y9k9pTMRHtudzJn7ZWk/photos/AcnlKN05b2QVbNfm1tiyMRRVE3XKpN6OTwrUsFDwO_nBpx2mxdFywzU4CAcndIuO-OxkF7KKZvMYMsA9ZyYktQsEiqQIjt1kcsBALtDb8dJ_-cNhIb8Mbco977J2pES4raK9Uz3lPRu5tfFEgMKRHkth2aXtx_l33-BhKYRZsEsSL7bRZm6T_IRwu-xm_gbBQSi7bU2X1_oKzEzcuSIXo1S35V54jeAYPa98xrTG6HxJyKheapZuoykyMTs3rHipJlH80N9wQWtFV_dhhO1EJdWBH5wuQi1XLMC967XXaNuAtUFImLGNqdwO-YIcD55OuFS46y5-wp5q42J5E8hqzafCwsV6yqqVxtfYfqsE2nWY1tUbYvcPQsSPHZsCCir_4dicUY1kw-ebBRydjZmvML1zvXmz4M_KLbZyKcmDQHOzstjTG3vK/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7594752984611674910&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:05.341Z",
-        "updatedAt": "2026-01-23T15:39:05.341Z"
+        "updatedAt": "2026-01-23T15:39:05.341Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJwQP7y9k9pTMRHtudzJn7ZWk.jpg"
       },
       {
         "id": "ChIJKcrNhD0_pTMRT1lHqJ9oy34",
@@ -1385,7 +1447,8 @@
         "websiteUrl": "https://www.facebook.com/motag.livingmuseum",
         "googleMapsUrl": "https://maps.google.com/?cid=9136511303983520079&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:05.341Z",
-        "updatedAt": "2026-01-23T15:39:05.341Z"
+        "updatedAt": "2026-01-23T15:39:05.341Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJKcrNhD0_pTMRT1lHqJ9oy34.jpg"
       },
       {
         "id": "ChIJbRbEhIEVpTMRSMKmG1rOFws",
@@ -1405,7 +1468,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbRbEhIEVpTMRSMKmG1rOFws/photos/AcnlKN2SPvlaKQbPCvKgkdEdF_s4UKo1NS7V1TG9BeK5rFgu5lPTMBAcyFybjdEK6Vk0aUH3BE1wIhLHiXEEOkXQDi5GqEQg3ABAy7bJzFaX3nWTVPDJlKcnFi6NEp8NArLA0XOcCF51g0NRWY1IsXe0nB12ECMFIW1Ifj2V7RNEzSfql81LBvlF_zLgrho5-FqrueQixOS_H0Ii_LscNIA40MA1TbXWWPZsaKhGRd_idX574QKR1i4fgLmpAQlcOJSg8DA_RBFOXT0q_moYEF6aZDbvGv9qRbn4s77KMBBbblvIw10EbeSqSxBIWk7q1AlWZXPK4F7bKwxUoZVCfimw2PU7Aw1c0o3NeIiHiZYgIK2_1cbAiepEHp6vd_LXJuLPMZ3mtzcCmzUpuYlcVVhTqZMmnoOAr72m6HPwQ7IroA3FCs8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=799334345287844424&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:05.341Z",
-        "updatedAt": "2026-01-23T15:39:05.341Z"
+        "updatedAt": "2026-01-23T15:39:05.341Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJbRbEhIEVpTMRSMKmG1rOFws.jpg"
       },
       {
         "id": "ChIJI5tXe72EpTMROuFodPK8H5A",
@@ -1425,7 +1489,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJI5tXe72EpTMROuFodPK8H5A/photos/AcnlKN393AKhKLjqknp35_2BxIHbVIMY67LpImU2hKFS6iP22xY3KJyh01Odovc89s_e6AxgHQ28aFTdOL1YMKYaMZnF3ZNFyp8s3n8Hi8PTs4lNnTdy5-7Cy7pVMQaDCk18HbLvnorvss5IFhTToGf-KPiStRzKMqRvhZ_GpBJrPTdAOt-Rk9DG3CPEntgueEFqIbdnQLHND6Kn8DXiP5T873cDQ4Kcz6WmvjX8KD01KHDANvttUsbXUjLeCFDhExKJgZHxjcI8v1KK3tPJotfkvfwoUGLSRk63yuEirWSvpiI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10385227015260791098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:05.341Z",
-        "updatedAt": "2026-01-23T15:39:05.341Z"
+        "updatedAt": "2026-01-23T15:39:05.341Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJI5tXe72EpTMROuFodPK8H5A.jpg"
       }
     ],
     "relaxation": [
@@ -1448,7 +1513,8 @@
         "websiteUrl": "https://kabayanspa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10137214924516266663&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJP3CNhXU9pTMRp5KUu0Ofrow.jpg"
       },
       {
         "id": "ChIJwRGQ-3k8pTMR5VMA9TK17Nw",
@@ -1469,7 +1535,8 @@
         "websiteUrl": "http://www.shangri-la.com/boracay/boracayresort/",
         "googleMapsUrl": "https://maps.google.com/?cid=15919298013311292389&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJwRGQ-3k8pTMR5VMA9TK17Nw.jpg"
       },
       {
         "id": "ChIJlXKlGhc8pTMRpuZCGHIAsMc",
@@ -1490,7 +1557,8 @@
         "websiteUrl": "http://www.thelindhotels.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14389001299482044070&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJlXKlGhc8pTMRpuZCGHIAsMc.jpg"
       },
       {
         "id": "ChIJC3WJH3E8pTMRQ0p1x_0HBm0",
@@ -1511,7 +1579,8 @@
         "websiteUrl": "https://movenpick.accor.com/en/asia/philippines/boracay/resort-spa-boracay.html?merchantid=seo-maps-PH-B4P1&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps&utm_content=Boracay",
         "googleMapsUrl": "https://maps.google.com/?cid=7855975386548881987&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJC3WJH3E8pTMRQ0p1x_0HBm0.jpg"
       },
       {
         "id": "ChIJxZQUTyI8pTMR20k75WBEaQg",
@@ -1532,7 +1601,8 @@
         "websiteUrl": "https://www.henann.com/boracay/henanngarden/",
         "googleMapsUrl": "https://maps.google.com/?cid=606090807811459547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJxZQUTyI8pTMR20k75WBEaQg.jpg"
       },
       {
         "id": "ChIJ63ncmiE8pTMRWnXwN_qpnVU",
@@ -1553,7 +1623,8 @@
         "websiteUrl": "https://henann.com/boracay/henannregency/",
         "googleMapsUrl": "https://maps.google.com/?cid=6169273956712871258&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ63ncmiE8pTMRWnXwN_qpnVU.jpg"
       },
       {
         "id": "ChIJe3lhUWg9pTMRG7wIkUOq1vc",
@@ -1574,7 +1645,8 @@
         "websiteUrl": "https://10000cards.com/card/sawadee-massage-&-spa",
         "googleMapsUrl": "https://maps.google.com/?cid=17858648579557080091&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJe3lhUWg9pTMRG7wIkUOq1vc.jpg"
       },
       {
         "id": "ChIJAQAAAIQ-pTMR9Op5w-BKz-Y",
@@ -1595,7 +1667,8 @@
         "websiteUrl": "http://www.boracayoceanclub.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16631594278115207924&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJAQAAAIQ-pTMR9Op5w-BKz-Y.jpg"
       },
       {
         "id": "ChIJD7jUwRYjpTMR-GxlhL0oPt4",
@@ -1615,7 +1688,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJD7jUwRYjpTMR-GxlhL0oPt4/photos/AcnlKN1wHo_hqwdeElKQeoYbLPjceprUMZ3SX7b58Mf4qMzUp_IsC4O7Oh1WQejDOJSYraBQsQkLeVsP4t-J1QtchWJpPLXsd7A3cISEJ3S9zYREhoUrRj5FtNFVq2VujCa_E7qKuw7hZ2Wk1jvdPR75ysjHUt4UYm73wtEi__6KwZhw0Rx7y9pRX5swSYNNFGNKpJ1w8q1JYdFD_XTlbpi2FwPfsXACGMQuJ4fxrTBivItQP7SUt2mvKzpW4KHejONzSl_rEUGF5wNo2UbvxtBBeTzedVjHOA_4i2XGk24bd6pH8kIdXy_6dAKrqsna4ATeH7qXmW8VkAWfIN3vS2MucftJT9izfEiGSHhU-udkdAIoTQCgdN5nDvr4WJSpPBz1vtByOBfJIa66xqTl8k1TtZMgO4nqIR1clpJwmPnCT6Wlxg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16014282119411231992&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJD7jUwRYjpTMR-GxlhL0oPt4.jpg"
       },
       {
         "id": "ChIJbUm2Bz08pTMRgWysTHSyN8g",
@@ -1655,7 +1729,8 @@
         "websiteUrl": "http://www.paradisegarden-boracay.ph/",
         "googleMapsUrl": "https://maps.google.com/?cid=12795851896353092211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJVfSTyiA8pTMRc3KiIIH_k7E.jpg"
       },
       {
         "id": "ChIJgUE-Fj08pTMR7Y3PfV2VxGg",
@@ -1676,7 +1751,8 @@
         "websiteUrl": "https://garden-boracay.ferrahotels.com/4.49/",
         "googleMapsUrl": "https://maps.google.com/?cid=7549323104155045357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJgUE-Fj08pTMR7Y3PfV2VxGg.jpg"
       },
       {
         "id": "ChIJIy8j3SM8pTMRF4cTD9InnQA",
@@ -1696,7 +1772,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJIy8j3SM8pTMRF4cTD9InnQA/photos/AcnlKN3JIpHs1yBmUiTYBodAgvDN5V_8WO0WemEYsLhm3e-U8jh-8Dip0zgiOPoofJyWWBtSJ8dEmgMFfsWY03AAKBcfV4axUqmSDZ9se9szNZ2itdFOH3GRQIo4IJ0eOLVl_-GK5Dx3gxXFalswnlml4JyySvZCR0sJ3wz8MzmYLVk5l4nlcK3ibiTbP6CUPw2gZZOqHTqmEC-yB7-J1P2JOBQGKjWQPYK2NpWSqkLcQg--Endpbm9MaCHadMHNlSAA9HozoAnFIL5Pf7uyfRnK-bXagI4T2pNG8fn7z5bVHRNdjw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=44235354493126423&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJIy8j3SM8pTMRF4cTD9InnQA.jpg"
       },
       {
         "id": "ChIJJ01Nlto9pTMRrLZpgZBeyZA",
@@ -1716,7 +1793,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJ01Nlto9pTMRrLZpgZBeyZA/photos/AcnlKN2q7tR6YV0l19Up0gGbgcG-jFcCPcN2iyxVkpfn8ntnil93sn04s3xxLZwSYOQVLWdM8JnAJpliPsU-tFhhczJ1otMMr2790bMLHmrcJ8ExBtQe8E509q4-JntiMvUC9kf-JucnbYWGIhfMkl0KKPHMBFAAmowkKRB15nFpovtQYDGXxPxGeI4SvWDdiQcFR4hnu9zxocSacO1VZcyrjo4SnAqqCU59LdAI55FIuGFWl_PN_6J7gtkVXvprb1_d6GMrjwmee2J3ibS8gnKu34u5RaJI_KXkyxwNWuv6TzYH0zt3t1MAFBpHT7iqQ4vjIFJDOUj0-iVP7Dma-W-qEzCqWxnA5HwhFR-IvG_YmbxMCwl2xOjaW3xG0EgQZjbV4RnSxTazIPjk_PiW2vxHA0XezGj_uNGzkjEhIn2MF1IBiGKcLE1Od2TjVgirkYeC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10432973986519955116&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJJ01Nlto9pTMRrLZpgZBeyZA.jpg"
       },
       {
         "id": "ChIJbVxb2Dw8pTMRt9cqwbzsKng",
@@ -1737,7 +1815,8 @@
         "websiteUrl": "https://web.facebook.com/danaruspaboracayph",
         "googleMapsUrl": "https://maps.google.com/?cid=8658993529012017079&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJbVxb2Dw8pTMRt9cqwbzsKng.jpg"
       },
       {
         "id": "ChIJ07WP7J0-pTMRWdoI9jzc3eU",
@@ -1757,7 +1836,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ07WP7J0-pTMRWdoI9jzc3eU/photos/AcnlKN0pM4HKcx3-YcRmHbBDCruPvKE1wYNlqkChZW6SARPdZ5lW4dC_Xv07vGh6LkOLOYXwROk_bPTGLipBwQ7D9AgSDW1pnsGrhZVeeQis0nU0UW5uz9cUQ2dhAPkuC1meaEJU48O0Fy7Nb_Q0XBoWSqID8VMZiR9gThBDR6hiBgcpqUbS0T1BnQ0x0kf1u2P7JJpyp7avbflbJ2j5m3pNnyR58mWiLlttqfhWoGxu55owZ3MXzFxNK5wpSk1QxWT7xgauOo_QJIqz-0t8RwpYS4auQJlpiujNnHQF99aaxy5bDhc5Ts5SJJcH454ecZE0v_lM99i6PBUYRD9i-TnTdQHtNgH9Na4oyxaj5r0KnPP3JEktOFz55MyGmW3J6J-8evh7yXIUQVwhU092xmrYO1-1VCfuJwru6HDrdipj7DQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16563637158922476121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ07WP7J0-pTMRWdoI9jzc3eU.jpg"
       },
       {
         "id": "ChIJ_yJkD3o-pTMRbsc1vRWwaF0",
@@ -1777,7 +1857,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_yJkD3o-pTMRbsc1vRWwaF0/photos/AcnlKN3XOuxox7D03yvmtlsGC88o4DHDaS8CwmlbeyxcSZ3Kz67Kcz8Y9lucgZhfVQnZVWAU6aJNCiY_khsM_Y20zpeuCjePfFV2ed-AguRZAsLR9jCMU_NGgKfBVx5f403abi6fKBFe_eY1CKJxXiikbU9d4kONAC6y_inypFrljIK6SakIEDeEidzdjOEbsEHhPySIhFQDZXU3OdHPv4qAiKS5XSEwtqLWTXaqy2XPBXpSIZZ-elSVryZD7sSOV-yhcVQus3aXd0UIlY6OX4Wp8r1xVV7hF3s47uM3LNYX2Sb_ydSPSw7EIB9eo0HIMv6xLjptE9zOJNYetQb_aCjYMnn-ms4glP5vHVNgVmCMqN97yUNnBNXUNY7-7wt7ViXUDG9dZzlNecs_0-XFza6cPqrpNiB0aCEZgF0uISZtY-aWCQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6730823250520426350&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ_yJkD3o-pTMRbsc1vRWwaF0.jpg"
       },
       {
         "id": "ChIJpyAUn7I5pTMRFgzPtaokWWE",
@@ -1797,7 +1878,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpyAUn7I5pTMRFgzPtaokWWE/photos/AcnlKN0yZ3-G6D3huMgcrfQtu3be8yq43pvx3cu55MrH0a64YVx3CUKqsGZ1_n-W0jovkJxbb6saftAbnbT621CO2Ol4sGmIZEL19QYd7bkcrl_YDZQPD9DTDzfddeFicwmJ-aX2cTGc6alvcU4FQt9RnOfD3q0IUoTT6n0S0pesUJQQeU_xbofIqR-R9nsWLhBvOs8O8BWQ3NpVRIE0bHfqhBi7yGYsTF7_VkbJpIdPFNTmF6NPhNpSdvbdA-qdGjpGnLN6kYqKr8wWCNOANR3uRTp66GYnUIwm7tuzg2MHdS83EsHZxe7FbAA2qyM3asCmPxwZPPBHww9tewW0pCQLFhnolu3-CJ7qCyfXP4wXrQxoY9hnBg2nKvkGaIp5t8EJJiSJSNP8ExsJ8Niy2E_OjtQkZtLRP0NvTMDbIEkDxmv6aKsx/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7014678210219543574&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJpyAUn7I5pTMRFgzPtaokWWE.jpg"
       },
       {
         "id": "ChIJ6wfja6A9pTMRoGta8Fi5WqY",
@@ -1817,7 +1899,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6wfja6A9pTMRoGta8Fi5WqY/photos/AcnlKN0dN7zLG_chUXyDKabKmf2NPm--Fts8tRLSXBh-6vyfIqMGUHtWvA87XNfUR54xoBVwtFbQ_UP_oVYBlixHRLvAijpI6CzfljNKwoQTNw3R-w9ybzY0op-ugWPiyh8WOMmuOJCOKjMjgi2c4ffibDVFla0wbDgKVEscosg4cWPc2BTiK-qCLsYc2E74DijLtIhry8hDjfV1Qf0zF9QFIJUXcy8esbRkjhZCY40uqrgI-eT0d00Gv5TvhnAhXpe4Txytlw2KRRaEDD4LpuP-8NUVqjXXq9szkF4raZdStiPzpwdETrbeIq2mSNaRz4KNzP4kY5sy9KAbntARbE7nyVEVcPt-utmU0S-AU5FrsDrG-KgyvHj6q5IqMEb8nPIykaQBFgCNnxayZwVoCYm96voG2_EC3TsnLexhvPD0TUc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11987097149840714656&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ6wfja6A9pTMRoGta8Fi5WqY.jpg"
       },
       {
         "id": "ChIJy4dux6k9pTMRqYCczhXx58A",
@@ -1837,7 +1920,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJy4dux6k9pTMRqYCczhXx58A/photos/AcnlKN0kcKdDvTg6vKS5uOU6USqVqjtsqEnXSAWC2htCblhtYlTJIRAZo7RRgUkMkdRHVN03ub7s7wXy_BSZ8XUE9AQsRIptwHrlM9y9EiRUnfhno8JdqVxKzWBDZEs_zAfzRYfZ--paTX9Xqp8LCyaXCWE5xhGExoTwjHdy6LacYWk9S5XhDDoOFNV2XixEoG52WS-lZ4ci51VX7xPBNa_F4qtcnB-tSdXHzgifEbIxG8FANpm-0U9pb5IFjNHWXO55lMNIVsASFHMjys3Zdd66JA0WX90eLcpGm8krrP_YtomeDuiwLDVDssi6lgxpvo9YFoB2LIau1ee3kaCHTeQJ-AXGCvBw9Du1iOieJfVGnc4kk7d7oEMIi558HshRPmXmbXKHeUHYkitszvgfvVaK4rU2wiAVU8d5EDsClZzWx-Q4CHGK/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13900343850865295529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJy4dux6k9pTMRqYCczhXx58A.jpg"
       },
       {
         "id": "ChIJ3eua5bQ9pTMRYWANu9ujg6k",
@@ -1857,7 +1941,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3eua5bQ9pTMRYWANu9ujg6k/photos/AcnlKN0diXZwmaFMu95zZeXIOFG38QhQNopysquRe7r4JuNk9NkogPxyl6iHNl7ZCyvb5ApHdxcbtEOQOwVpruMV3AtkEwbWeg1OKDzZitL3s9LMDDwGLehL4zci_WcjeWUQ1K7J6b5c1M6FndIySJv9psqOz6amWA6_g-dYXZdREtwYvNk2A4SwadWxUG3VidUROGUdL-H_juJaRQTTwO5D0mDkHwRKyrRcw0i5wNDg-qF-_xSkCKbxYMkZAsoc6fCKj7RTd9PjVqGAycsTA6cFXZzj5WZI5RgbSxquqlawFUkvcm9hCM62555gQrZw5s2ppO6ULoTxfb7cM0U2_FsOLqi_qlOEyKQYQI0tjDT0w8jYfaXZNXhX-HfHAewl6KpI54quaAxay242NtHVVU5bUZ3a6Uqm-R_Qmu-0VkGWD8ajWbCUsqljyp-vTAvcWCNr/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12214786778490298465&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ3eua5bQ9pTMRYWANu9ujg6k.jpg"
       },
       {
         "id": "ChIJGwgdyicVpTMR48w9lnr4nnQ",
@@ -1877,7 +1962,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJGwgdyicVpTMR48w9lnr4nnQ/photos/AcnlKN3trVTU49SvTrillWBogo66gIDIM285azEHuyW7WRgkj9LApHfEU1my9ep9oW5Rrd1XH5jKhkb597_BxZgSnGvgEFg6wjqc9yUI6gfrTgqjmlMMjeKfDYOO7B0iI2MJP7l1cJzHoHEzKJB4teBiom-mj4ZAA8zkrtPD6NAGaK1cFlsdhuKQ9Gj4Kh0vaEPVFWn-uyEoWeEWlrEPwhIYewZZy60CPxGolXCjWuIun2fgJanCsIznc8xveOT40l3OMTwuqmNSeIm1f9W30jNaEdzoZuwAlFMDBREoDuT002pEaWmMtxM6tMTruQFn96hJG2-OW6A5PXR6TLcmf7Vy2rwzRUV1mK6ZRlk0KE_B6XBlk6lPV9Mfxu95n_Nzx9sHpNayN-WZsloEF1gcB_YZ33KV_hzEUQtY8QONZ_Dik5lYOHrJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8403427160110255331&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJGwgdyicVpTMR48w9lnr4nnQ.jpg"
       },
       {
         "id": "ChIJnfREkFs-pTMRWc-LDyD_zR8",
@@ -1897,7 +1983,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnfREkFs-pTMRWc-LDyD_zR8/photos/AcnlKN2VtaMkhPJFBrBzs79gZiPWi4UZOl32QgWzWpCvVROEF_djEZn1oOhCB6QRik2wz5y-tDEgwKKSIRV9bHUim9oj3B6eB2yQ36Hn3sQELOnmcQCt2WmGj_MJ1jSPLL8ixIy8uAr7FGcOWl6hqaLoBAfr-8lCqdhjaJ8kc1AJ7k56kZD479WyiO7SGq0n3sp9beotN04LDzygR3i2izIn8xNcLqcpXrOMWAA82W9XYZuxTI5G88e_7ONA5mptLqHD_sTWTZN3uVCFL3fmnPBuEyK0wEkXXr7fzroMmClBMHcHNUCCM_G6v5d2kMzmajUiEhW9q9Z8PATMEuhtb9_RVWjv1WDEkP_I5QGuYgAbVrB6-xKfHvg-ayMvGA0QAdbh0pXu0tcEZ7zxrwQdJUtWm_prbmwdno6HXnzd6_3jUg3LdXdr/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2291768298566307673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJnfREkFs-pTMRWc-LDyD_zR8.jpg"
       },
       {
         "id": "ChIJ7U8OSCY8pTMR6HJ5os7KEVI",
@@ -1917,7 +2004,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7U8OSCY8pTMR6HJ5os7KEVI/photos/AcnlKN0ymEgLI9oT8mLALiuVWdzLMM3pTGAzkG6NDUzCTNIBcj46_TFc7kgaof6RUdy-PerHTBebTkNDhrTITFrwRLxHMZlD89i8YuMcmnI733905R9_YMo7clyOUGJ2RsVJVtLJFJDir7xyzeRsZ-t3C1IgSu2fdqECg_UQ17ORJ4Obx4m89ldO6bkHy_IDM2HK6xZjFbAtl7OL1NvAw0ZvWWwqgDN3w9W_5c9MKMe-q67f8fya-RMvBpZ7_TyPOJAoyX5ACrN4iHCT_ummhYX39DekI63Q-0NQ7HC3aNPIoLXJxDiFxypAzEfOE2Gq89e2rstaAHvR3RFhJLQEBsyJMwI5vRel3MBS7rwItxy9E6AbCJ3rphlC4cVNw72jyOfkY01D55FBgZSaOuMfEyFXRrjVH4ocVXZs3gpCt6qrNxSaxFqo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5913730774552113896&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ7U8OSCY8pTMR6HJ5os7KEVI.jpg"
       },
       {
         "id": "ChIJAzbsovY_pTMRxMzjb-ZEVpg",
@@ -1937,7 +2025,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAzbsovY_pTMRxMzjb-ZEVpg/photos/AcnlKN1Tx_Pi8GjlR-IJseGWe6o5gTv-nKr9DmLgMlzjYyeUnQ_PeJhi4OP5b_vt70nB-0e9P8weNb9VNaltLr-WwKAnbwf4dXujPEy09h0Cf9rNh93xvZW1FPdlcd6vn_TQjoNzg6ojWTOsxKXdiCKlphgVaKqXRqBYY_yjcB0t0gZqiWpcPQnlN6Xt2w-08KgGRkgeoX5VAWSDDdKO0HK5d02bivfOG8MaWYD2aReYmtl5NN4F3_U52Auquao5NbbEIh83DWYsctU7-K50ZKC8pOH2QQYhhKO51BuUcKI2IOIQwFlyiufENLxYtgJDZhGfSzkimK9FtNLO9GWVt5gGkxpcow4cQMqC-BC0hEuaTfxS62ajAudXZXaXV9eBarPEFl0gH58TJsaIPCgYQAEwY_i9S72keWcl4nCLZF0vmTQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10977036898272529604&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJAzbsovY_pTMRxMzjb-ZEVpg.jpg"
       },
       {
         "id": "ChIJPTGDXAA_pTMRIuCYYDxtNrE",
@@ -1957,7 +2046,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPTGDXAA_pTMRIuCYYDxtNrE/photos/AcnlKN03_WOWg4LLzniqBVtl0NFGdM3KO3kzHiFMMoVNEiQdgpFkjSKtpeOLpe7HpP7ysASxgXUyPdL8Rf1o4h2f0uDWFnl5TIIsW4K1cmf5UByLwWhsQWUA0wsTDNxXGd38gB9Ia7BgUnJpPfbD40xCS0gnr6BbmXWtzj0WD7fwlpdy0MO8SPlS3uPwfcfvsFa3pbC4-aBJLMR1ixCiTQHm0DN8Zle7RvLs4wYTmnyuFBoUz0XIJhPGVCnD2JfRMGMYde0Q4N52yPXcYwuUO7OOrJ7KlCj7KSavpmleirfh89Exf4G8lk2XyOgfsgfNjGBL85NkWAS_kuVJcu2pcqVOht0GXD9Cnf8ykxdmwpOivNJbyvnDQPhhX3w6oiNyEIoophQ67f0n-vZ-5ry7tPI74Dso1dfcW7iKqVehUGTK5zXvUxE4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12769513899541717026&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:06.685Z",
-        "updatedAt": "2026-01-23T15:39:06.685Z"
+        "updatedAt": "2026-01-23T15:39:06.685Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJPTGDXAA_pTMRIuCYYDxtNrE.jpg"
       }
     ],
     "nightlife": [
@@ -1980,7 +2070,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJLRiNkyE8pTMRr3tzgITllDo/photos/AcnlKN1znBVl1dss31cdZjOLD9Ebi0faka4XpbRrDPJGKKkyuU4jql0lyAN9aGM1ITcsU8FQpGGS9fgdXgHj-3OnA_bJwGVYwIdEHzaQBH6Jh2IAMGhDuqpMAEGHwHarNKN72kdzOoF72KYgyNJIFBRs7757dMlUGkYo4iFgvROoOiwj2qKcerxm36R_OJuZD6cqrZrOEdmIo4SW9jgZ0_uOfhj_9npVrwRgTh_XYhdZetR9YhVW51emU0VtoZju9IpDubQPylg_JXxD2jU_uciSdChULKkz3j_4sHC2JnE2U-rWcg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4221251108006493103&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJLRiNkyE8pTMRr3tzgITllDo.png"
       },
       {
         "id": "ChIJmzO9Uls9pTMR5DrA-AERdAk",
@@ -2002,7 +2093,8 @@
         "websiteUrl": "https://smoothcafeboracay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=681188143805774564&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJmzO9Uls9pTMR5DrA-AERdAk.jpg"
       },
       {
         "id": "ChIJ9SjTsJk_pTMRggd7sWCAoDE",
@@ -2022,7 +2114,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9SjTsJk_pTMRggd7sWCAoDE/photos/AcnlKN3fegTHi4ewn8RyVBJYpmQsJHYtpiGpXOHbj-n_YfTa2JZgEKKhPefQ59Uw8gO3c-8p0KXOtb7eXUpvpiCHLniYFQX2kaUTgrROpt8X8yKJWtKlnFLa15F3JP-uAUBA4voHvCFntZaHRBfuEjvbze4YcgpsWECRyBQGTVhc1EEMLvillIxYnBU4TJRQR22tpjL8S0GqBvBcpTZqOmYvHmqwZs-yA1wmUL9BBzDVwfyqvE1p-xeZPliW5wvPHP_na5w1fbsnUoDkePQRWoCMuCyOcSRHwr2iCO73PFRZh4DZNcaa5amDHek5fleQwMko_ssCHQnydQU-yrmItd6BeaEMP0lxVVayjOJpmyJYO6A9JVYUrN8thhL7fKRlGxQnz8bdpEnoizov7ivqSfTS6bAMzfMdcF0-4DooY2diX_3ruA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3575999256915019650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ9SjTsJk_pTMRggd7sWCAoDE.jpg"
       },
       {
         "id": "ChIJ34Ba0Do_pTMR9XHY0I0URtk",
@@ -2043,7 +2136,8 @@
         "websiteUrl": "https://www.bistrodesamis.ph/",
         "googleMapsUrl": "https://maps.google.com/?cid=15656223753926898165&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ34Ba0Do_pTMR9XHY0I0URtk.jpg"
       },
       {
         "id": "ChIJq1AnIxg8pTMR7D0HcFU4EFw",
@@ -2065,7 +2159,8 @@
         "websiteUrl": "http://www.gerrysgrill.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6633864190719639020&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJq1AnIxg8pTMR7D0HcFU4EFw.jpg"
       },
       {
         "id": "ChIJo91D0T08pTMRRcJmf-irSvo",
@@ -2087,7 +2182,8 @@
         "websiteUrl": "https://aplaya-boracay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18035416672816775749&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJo91D0T08pTMRRcJmf-irSvo.jpg"
       },
       {
         "id": "ChIJHVGzVyM8pTMRVGnfxDgGW5E",
@@ -2109,7 +2205,8 @@
         "websiteUrl": "https://www.levantinboracay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10473972199271131476&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJHVGzVyM8pTMRVGnfxDgGW5E.jpg"
       },
       {
         "id": "ChIJb5hQmyI8pTMRZtpq1nlR3ns",
@@ -2130,7 +2227,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb5hQmyI8pTMRZtpq1nlR3ns/photos/AcnlKN3C0hMDfATdW5b6CXMivz2yeu7AzmXn9aVMm8qFrW2oMAdu1lFgHOFm0nHGgpWLIeF_XvkwYz-FTheUMsjoKdjBHtvI5yOx-37cAJ5rrcowsM5HfnCqvL-Clpnz8jQGAb84AZ-MOwc-I1OFzJEZxYdk2bqTBXCrYwrwsbuE7tNws3oudz5TBxegRQZUFOWPaDOamMVSK15GdBD9Dxz70F_GXYxm4ItB4Q7j4woDbcNIdZZmUg7oh1fgTDDh9Kmrc5PIMzSR7bV2wEUDe6HtZo8KJ9bF5RjcCgVevCoaVbc4UA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8925661095225121382&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJb5hQmyI8pTMRZtpq1nlR3ns.jpg"
       },
       {
         "id": "ChIJ59SDpSE8pTMRRDZ0j1wiwPo",
@@ -2151,7 +2249,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ59SDpSE8pTMRRDZ0j1wiwPo/photos/AcnlKN2Bz-iEeJVPZ_5hNalBWLoK9SR6aDeTNtMO6d99J4A4c_fDLTARzLLeZf82xVr2cb23WMVTT2llS7c6HD4jBVrtwJ6ReYBU75BWJZUtjEkRN7ve2sDbH0YcLobx3RSLHoYQxWtVrOPU4uCo8OLL_pfJ1rlaeJ3UyEACK3n44fACA6NS5I1fcMnfJgJ5Nwz9YsOWcCPKbe4iZTvfdFmBY3-StEsy07rSzHaABfpG3LzlKAv7qTEeTP2NEqRwRknp819rgqsEu9mHwlKRJ9hIkcGOfCeZyoPm7QzUaNetYUqRu36xOi6RPPkH9kQo5QnjnWyBSNZyAEbJ76jYFtYmhEUx67dgGrCuxxGoRMA2kVRhyNUCnSoEXiUu76qwAiE0ERu0eacUlWB1WSml-oraPcv3TCSLwZhbvlu9YOvfEfOepA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18068479485949523524&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ59SDpSE8pTMRRDZ0j1wiwPo.jpg"
       },
       {
         "id": "ChIJFWH1ykM9pTMRbJBVSdrZxqA",
@@ -2171,7 +2270,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFWH1ykM9pTMRbJBVSdrZxqA/photos/AcnlKN3RcD0876vIwaAIYNmU79mnmClXyzIVKM32xTnRyZoUBgl9gUq-52Yj1p31b6IJSpBhuyzK9m0ztlXLsCANr-kooDbjmQq1hIS0btLbAE1DCa0PUirdYrkJY26mePGkpFgrTtXvzrFEmSsXUImARdLY3JWfL8M7Ro8UeEneMPPxjuDgvlTYFCOPV-1MBtUsFnMqrUvAYwatrfk50WUvJBMkDJliPEO92ApWGoA1MXBn--Y3i1ZGclprLmLHnFMk4HRSp7QXLPfFv7zGsLrp8SDEIcaBSe6UX5sftR2ck_k_QMEAI2Rfew0z4GIL7nVgC29Y7kZANfLrHEnljVpdPGyLC12SqH2JLtUvYnJKPD-0o8RXC8glqc5GtuBr2KtQEOZy-cPO25QGyy7x7pkYR6-hvzsVpSfl3TdOMuO7aASrlnmp/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11585186623013621868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJFWH1ykM9pTMRbJBVSdrZxqA.jpg"
       },
       {
         "id": "ChIJW7c-5kk9pTMRmtgqt3zV4Gc",
@@ -2192,7 +2292,8 @@
         "websiteUrl": "https://web.facebook.com/profile.php?id=61575424115490#",
         "googleMapsUrl": "https://maps.google.com/?cid=7485217312315463834&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJW7c-5kk9pTMRmtgqt3zV4Gc.jpg"
       },
       {
         "id": "ChIJbwOtUJI9pTMRhk_w0eKDySk",
@@ -2213,7 +2314,8 @@
         "websiteUrl": "http://www.siphappensboracay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3011082836081921926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJbwOtUJI9pTMRhk_w0eKDySk.jpg"
       },
       {
         "id": "ChIJSaW5LT08pTMR9T6oust9zQY",
@@ -2235,7 +2337,8 @@
         "websiteUrl": "https://www.facebook.com/2brownboys/",
         "googleMapsUrl": "https://maps.google.com/?cid=490186248416673525&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJSaW5LT08pTMR9T6oust9zQY.jpg"
       },
       {
         "id": "ChIJdfvga5w-pTMRkCsrC3LVvkk",
@@ -2255,7 +2358,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJdfvga5w-pTMRkCsrC3LVvkk/photos/AcnlKN10BFGxTGovf4wsu3ohkvOxCax7Oqb1yeokuFY9zIaKwaX4oKRMRg1zGOpJ08ObFH0JouIJCsXIbJzSVJ-VWA9iDTFZAXdgRek33lPCiv7ByWWQ0MDWa0JFmVPxAsosLYlWkv6zxhY00qXXpYKWa5WrDaOGz3_1pT99CL5ICsY8FX7wxfnyNwhn0qs_jV-aWJF6LwxmfppDsHIrTHjbxYvqCmXCwt92-G4ebxRBQH_Hs-woZZpLZlQ2h19Ii8tqtdzaetjzcQRPn_LUEfQD7ou_KxKUbJIg79rQZwKDi0GtFRqzs6U_6LJ0rzOGJDdvADCGKAhOHFC5imuTvhIzw0LzkkeaCtUyF6TWBf05kFjD5MwRY_9UqSGUyiy80-8SRtawxdotm92gicsEWoqfVMtW9rvZTL6vat_6YQeFjTJOLw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5313919296134130576&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJdfvga5w-pTMRkCsrC3LVvkk.jpg"
       },
       {
         "id": "ChIJaScwgD08pTMRHYg7i2E7wC0",
@@ -2275,7 +2379,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJaScwgD08pTMRHYg7i2E7wC0/photos/AcnlKN2BE9CqnicxULh7X_oMo2WRP0MHKThYKIArCWtMbSvhuzFZZb20UxgG5V4ZQLzEzFzuvOuM9La76r-Ew1pj27LXAqA5gmYTgiMaKlLExGDXJz9cUPt5kBwF9rdW0XX12VHqT0oNWCtiam8Zknm63E9BbLgNrcVDyW3xtAvn0e3LVT_WLwdE2t0Y-yLlyZARokSxKR5kkoENz9WZNe5p9U8rURHrj3P1lah14efpIWs-NTi8h-n4dZjn4o19yP8hb1kJMfT3HvAl4khubFsXfSyDPp0bfoWpDSkoqJEV8gSaHN09SoEvQRD0gp414A8xYSbNtNUA3NuP-2GuVukejRlfu6yjne3a6C0w2QBrmWQ08w1ruA0s8459VJi_8AJHTUjmWyM8z0DQ9jpEq_ShvT7XcakyyloopZunKQhfw1OnMay3/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3296700217369004061&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJaScwgD08pTMRHYg7i2E7wC0.jpg"
       },
       {
         "id": "ChIJVVVVVWk8pTMRwrgNfZn0Brc",
@@ -2296,7 +2401,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVVVVVWk8pTMRwrgNfZn0Brc/photos/AcnlKN20R-_9aT-6AZv7PdbKAInR2IyGxLPeMWnEaYrV8kmz89ocVUMnHkZOpYK-loWnzJpvocuscP1_tfaOGHwNnxPoNf3blsrYN6GREC1mfgP7K7gsggE7FOfeOf4cFAxlkG74PUweb0N5HvCKXboDMk9YVm9U6kUYD-PSnhuzLTtlprpQm0pXwWbXSG7dH9n9dl3zQH9mw2X4cppyEfZeAMn_GWFGwzb2TGnToKPTwdBwrSIpF1G03_bO2GvEAtnFgjdbDaq1BmNpHoKU3JBQu8WabFh5svLIanNljtkTQhxz63VIWeMgAgdFjmPN2sMnDBIZ3AEkVaQ3DPIiNrWGK32Lgnl_FrisOD3s8WHZQ7z_znuE8ibusjl2H0ihnfpZR8d5Q4jXRVUyxa5kobD3YfPjmRpdvxTHMpftgni1aRZuOQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13188497498866301122&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJVVVVVWk8pTMRwrgNfZn0Brc.jpg"
       },
       {
         "id": "ChIJEXIu-8U9pTMRngRIeAebHog",
@@ -2316,7 +2422,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJEXIu-8U9pTMRngRIeAebHog/photos/AcnlKN0Wo_m1e_rEw8AO5gbUwigjgw-0ORlIjqty5kDZD_drUnceYJc1BdhweqqRW0l-fVtfj16UHMWPcyEEOGxvt7S6U-42UkUyzb127_uoIHJvPn3YoIKpOHLiqadUC0jXQE6E0hjXVF2x3xMZjFZo554RlnB4pnRqUROzYPOIPWPHmOyp8RAkNKdCY5iw2m6ZVD2MijBHTmEevzzVe3d37sbwKUoCgmlu1vRd4kD998K1w-jI-N7bizp7-82lZvhLJZxXYVWAJ_0PDJqjOyW4b0b4buKgvH3PVvjUnJ6VNCwQPg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9808447494844581022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJEXIu-8U9pTMRngRIeAebHog.jpg"
       },
       {
         "id": "ChIJfXKvehg8pTMRd6Q-Ht7wJ8k",
@@ -2337,7 +2444,8 @@
         "websiteUrl": "https://www.watercolors.ph/",
         "googleMapsUrl": "https://maps.google.com/?cid=14494818762496058487&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJfXKvehg8pTMRd6Q-Ht7wJ8k.jpg"
       },
       {
         "id": "ChIJ8YCW9c49pTMRM3ZRxP5hA54",
@@ -2357,7 +2465,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8YCW9c49pTMRM3ZRxP5hA54/photos/AcnlKN3AJeFwaqfqidEmugdgsukRVFd8rNpRS1p50wI_wpYMzAqaECFEK16qc_vKJwrwNBu00qHFTuouuGYCrOFUB4F26i75j3O5elK6nbUQKUe1esWNyNhmqFDLnJyRZAFhgTLxnNm_kJPKAM0al3jzaUp6yNOvyvWET0qpdgBwXy2iMvpm4HooHgFwEQIk1k_ZA6xvvMzZRsSzwYIBD-lWiY7E68dCzt3huoVKz_oLnHMO5oZzeGqJzwNFBYZanBpJPasVzyVB6LSXE-v-YjBKdBuMfkFdP972FQ-vR_dWNvmedQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11386052029766006323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ8YCW9c49pTMRM3ZRxP5hA54.jpg"
       },
       {
         "id": "ChIJu0UdlCI8pTMRh2nz2rvH-64",
@@ -2377,7 +2486,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJu0UdlCI8pTMRh2nz2rvH-64/photos/AcnlKN3vXwjMdpGIN7K1XTYLg0OGhNYL-9WjcNa3ZYaBry5REKPbQA-VWuWj6R6JjfF5Xcld8YvbsV_F11LZ85_UgUuhAfD1wVOX_lmo_S1Pv7_hJdqk56UrWNnvyqY5-1ML8g8RoMhr_6-7qHcD225bCs1gTcsaIIMGOxaJDMSV4ClidPzTDgvXojLcC45dxT2MNqNcbKuHUbdV-jtXDJN6SPbVgHHHu7nvJPZ7Z6vql-I5Jjq-BHAIUkRDIm5IvcOXQAWmeryjG8JcX-yKbzCphZSItFQsQxiOJfbAhAqAE9qD6g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12608891191400032647&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJu0UdlCI8pTMRh2nz2rvH-64.png"
       },
       {
         "id": "ChIJfQdkayY8pTMR-ykXO5nIPNE",
@@ -2399,7 +2509,8 @@
         "websiteUrl": "https://www.facebook.com/clubgalaxyboracay",
         "googleMapsUrl": "https://maps.google.com/?cid=15077146212976503291&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJfQdkayY8pTMR-ykXO5nIPNE.png"
       },
       {
         "id": "ChIJcRc0diA9pTMRS3lAkM-nhBI",
@@ -2419,7 +2530,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJcRc0diA9pTMRS3lAkM-nhBI/photos/AcnlKN0xpO1wCsa8njo31X51qvzSOmEYuvVhomxaE9tcb175YQOuChCS6_FN3F3pOKBqLzEshlQZRhVmfRisWPVwAJd0RlE8_HJxgpTRD0MjntnEMwhTIZcap3RzfeDefdqyoyOfvaWY9eH4OO0lu5dvxr46CMMm-MXDUTeIqhW-IpYYEYpDRFlA1HXh7MsT5n4Upz7u3qlUu1Zc2wVx1cEWLmf1_EZeph7uJWXFnEwMUcTqxmOb9q-0gdu-Oxh5YU51Iqr1mtCNMgYN6Mw4lZBkqeaRtDe-cijc99p87ZAx6ttXXQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1334375899528722763&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJcRc0diA9pTMRS3lAkM-nhBI.jpg"
       },
       {
         "id": "ChIJF16pt4Y9pTMRF_hFq0tfPCU",
@@ -2441,7 +2553,8 @@
         "websiteUrl": "http://henann.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2683124256606648343&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJF16pt4Y9pTMRF_hFq0tfPCU.jpg"
       },
       {
         "id": "ChIJQb-46io9pTMRx859cm1ADco",
@@ -2462,7 +2575,8 @@
         "websiteUrl": "https://instagram.com/clubtropicanaboracay?igshid=YTQwZjQ0NmI0OA==",
         "googleMapsUrl": "https://maps.google.com/?cid=14559364009175142087&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJQb-46io9pTMRx859cm1ADco.jpg"
       },
       {
         "id": "ChIJ_dRO2Do9pTMR7G7VVmI1JEw",
@@ -2483,7 +2597,8 @@
         "websiteUrl": "https://movenpick.accor.com/en/asia/philippines/boracay/resort-spa-boracay/restaurants/sol-marina-beach-club.html?utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_content=bar-B4P1-sol_marina_beach_club",
         "googleMapsUrl": "https://maps.google.com/?cid=5486568942524002028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ_dRO2Do9pTMR7G7VVmI1JEw.jpg"
       },
       {
         "id": "ChIJjYOWo2o9pTMRlsyhAmyZ4Ig",
@@ -2504,7 +2619,8 @@
         "websiteUrl": "http://richmanila.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9863051873121062038&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJjYOWo2o9pTMRlsyhAmyZ4Ig.jpg"
       },
       {
         "id": "ChIJT4FFWSc8pTMRr3yrkcEoB88",
@@ -2524,7 +2640,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJT4FFWSc8pTMRr3yrkcEoB88/photos/AcnlKN3tDjGMB3rS_GWKnoymnshezZZO7IQDx6NeS8CD0pitrvYcZ-cbX9LVrh7LZFtrzt5IhUoP-1tlwBtLjRWt1p4ZrOTIhWI1tt4aIi14eTl6Y7vJigqYEO4mA6o2ctW2ZkAKN5J-RvqAsbVoqXYfBRuAXWVl6dAy-07T4sdmUVAewivRlxFO9iWNi1Ke4krS3e6wj-i1vk48gqXL3k3b7zj74IiEUv0tFkOeso2jOefVdIJ0tlvyCPNKZpSJJ7ssFL1f1Y2jpd3Pr5IIRtoJM05WbqNL2AFccKF5Pzbx3pgSzo8ypFOdsAOUXQmx3X5poKYhVE6u7FTLKUNE0cpHiPHbbRcItfIsQuEe_X8bXK83PtgeIaeHPLjLNhZiIhRg0CyIngR4DNu-FOqyeliB6oCRcG5C8seSxPJ46nd2EkesI8sn/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14917937102525791407&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:07.842Z",
-        "updatedAt": "2026-01-23T15:39:07.842Z"
+        "updatedAt": "2026-01-23T15:39:07.842Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJT4FFWSc8pTMRr3yrkcEoB88.jpg"
       }
     ],
     "trendy": [
@@ -2548,7 +2665,8 @@
         "websiteUrl": "https://smoothcafeboracay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=681188143805774564&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJmzO9Uls9pTMR5DrA-AERdAk.jpg"
       },
       {
         "id": "ChIJze8N62I9pTMR4PYCyzm04ZM",
@@ -2570,7 +2688,8 @@
         "websiteUrl": "https://www.facebook.com/munimunibora",
         "googleMapsUrl": "https://maps.google.com/?cid=10655996353647408864&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJze8N62I9pTMR4PYCyzm04ZM.jpg"
       },
       {
         "id": "ChIJxzBl3yM8pTMRwJKYXmZ-VtI",
@@ -2592,7 +2711,8 @@
         "websiteUrl": "http://www.nonies.com.ph/",
         "googleMapsUrl": "https://maps.google.com/?cid=15156440574100804288&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJxzBl3yM8pTMRwJKYXmZ-VtI.jpg"
       },
       {
         "id": "ChIJ28YXmxc8pTMRFRIwdq71h3I",
@@ -2614,7 +2734,8 @@
         "websiteUrl": "https://www.starbucks.com/store-locator/store/5317/mitos-place-boracay-boat-station-1-boracay-island-malay-06-5608-ph",
         "googleMapsUrl": "https://maps.google.com/?cid=8252834971835699733&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ28YXmxc8pTMRFRIwdq71h3I.jpg"
       },
       {
         "id": "ChIJUfBE5J8_pTMRlYEuun388BM",
@@ -2636,7 +2757,8 @@
         "websiteUrl": "http://cafemaruja.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1436925898055909781&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJUfBE5J8_pTMRlYEuun388BM.jpg"
       },
       {
         "id": "ChIJDx6hFIs9pTMRRbIx7RJ0IAA",
@@ -2656,7 +2778,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDx6hFIs9pTMRRbIx7RJ0IAA/photos/AcnlKN0tDXJvCjyp5UsjTU1XegnzKM3AFtX4Nzww-xehw93202x683cg1kKUM_1zJDaprbFA00Xlh1zYNkluYh7g9ihHZ5MJw2Cexue9CCf7aektFVBBs6tMX4oy8QF1RF4P4QSBcOUOh6avmsICCM8sDdtFI8HA26UawR9_rNVZ4Dn6sARn--ZQPEN5VGm_d6UZR7759GCVoNp81pxl5p_6y7IHUZN_GUpsmIiywYIbGVDLvfr7uJ-eEWKEqcRhHFUntflt4k-DNH6iIfVrjYtBPrIsFVSDVEi721JczNLLjsuMDoQvhAAJaZp6eY2CxZ6s_xzbT33gla3eEb5Ns_c2LO7Vr3iw3RiYE1E5kfab2MnO_sZAZJPoM4CTful-HnUIFHSv6shyAVaHE9YbisiT0UlF0XRQB6V2IMiLC92quxuKr4T6fb5L3oOynhvYhw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9134823892431429&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJDx6hFIs9pTMRRbIx7RJ0IAA.jpg"
       },
       {
         "id": "ChIJ55Kn3RY8pTMRrNHt4_hAZLI",
@@ -2678,7 +2801,8 @@
         "websiteUrl": "https://www.facebook.com/originalrealcoffeeandteacafe",
         "googleMapsUrl": "https://maps.google.com/?cid=12854470674142319020&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ55Kn3RY8pTMRrNHt4_hAZLI.jpg"
       },
       {
         "id": "ChIJeVDAJ009pTMRwDmVNGqnInQ",
@@ -2699,7 +2823,8 @@
         "websiteUrl": "https://www.instagram.com/boracay_ditto/",
         "googleMapsUrl": "https://maps.google.com/?cid=8368435132198369728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJeVDAJ009pTMRwDmVNGqnInQ.jpg"
       },
       {
         "id": "ChIJ2ZYowHw9pTMRf_vCEbNCJzc",
@@ -2721,7 +2846,8 @@
         "websiteUrl": "http://www.thesunnysideboracay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3974218533042322303&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ2ZYowHw9pTMRf_vCEbNCJzc.jpg"
       },
       {
         "id": "ChIJIeWotR89pTMR9GWqUz6_MG4",
@@ -2742,7 +2868,8 @@
         "websiteUrl": "https://www.instagram.com/theblackatticboracaybolabog?igsh=MXc1Zmk4em9za2dueg==",
         "googleMapsUrl": "https://maps.google.com/?cid=7940056417466738164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJIeWotR89pTMR9GWqUz6_MG4.jpg"
       },
       {
         "id": "ChIJW7c-5kk9pTMRmtgqt3zV4Gc",
@@ -2763,7 +2890,8 @@
         "websiteUrl": "https://web.facebook.com/profile.php?id=61575424115490#",
         "googleMapsUrl": "https://maps.google.com/?cid=7485217312315463834&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJW7c-5kk9pTMRmtgqt3zV4Gc.jpg"
       },
       {
         "id": "ChIJG39zp-k9pTMRnd2ClzNiBlg",
@@ -2783,7 +2911,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJG39zp-k9pTMRnd2ClzNiBlg/photos/AcnlKN1br8C8QbcqvBSnY2APznw4CH_4YP5-9ur9zG4yU_5028fqaqoFEn1bSKsKaZ6Z5deXokbdlEfZSx88iMQ7luhWhhXd8RucoJ-e8FFfIlCtn7sWHkZcCvrwjsz0ycJLKtXZeZxekfLWFhiuU-COcjfqWJnvpUFiNt0ktP0MJnJr2dwrLQslCrzb9P6DRkm1swZkBT50IvuMGIJDnvf9nYBgWPf6NUdrVMSgh7fqIAeiUL6nAFIV2H1UchxqOM9DBzctrEQ90oXxXhq1_JYMu0W1qJ-LSSKM2MaBEQlDzw3kjA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6342865098922712477&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJG39zp-k9pTMRnd2ClzNiBlg.jpg"
       },
       {
         "id": "ChIJm8zb5Fs-pTMR481E0LOBbP0",
@@ -2805,7 +2934,8 @@
         "websiteUrl": "https://www.starbucks.com/store-locator/store/1016714/caticlan-international-airport-boracay-international-airport-caticlan-06-5608-ph",
         "googleMapsUrl": "https://maps.google.com/?cid=18261113198373817827&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJm8zb5Fs-pTMR481E0LOBbP0.jpg"
       },
       {
         "id": "ChIJowaGLRE9pTMRswb9oAyC-fM",
@@ -2826,7 +2956,8 @@
         "websiteUrl": "https://happinessphilippines.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17580225611169597107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJowaGLRE9pTMRswb9oAyC-fM.jpg"
       },
       {
         "id": "ChIJh34pWAA9pTMRWGZfom8ZoUk",
@@ -2846,7 +2977,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJh34pWAA9pTMRWGZfom8ZoUk/photos/AcnlKN1WMQkCeJySyEy11f8htJYB-o8GsxWFlMfq78cLJm6bpjWLdXtNUktYLtFWsqfXcz02ehEx3Eeiwf6XletsDPKAHECZLrFvK7bix5MqjkMnYT1tTrxEj6_xNT6whJkEhKyUm_ljkZxxLSSr20pfjTpwpA8cEaJZGJLB448oMuOHtOssc_PwmTm-FYqUs9pqclo1gZdwzCIEfdkcVyGGJARi5hufzAcoAPDAaFs0VOfVSBVk3-UdnIQz28tLUhOxWXEYY1c1nqPFcW8nG5DCSP7DLb7DaMI0B4p1Lc8qDaL-sYvbpHEHm8r0fM0hWaCxQLB_v9EArykZCgKtKt1LIK8QPqqL3gtYYkhivF9uIB1LLbZGl9QGQKnjyZIvGoYsiYuFSbmkypeJcBTYODvOl8xg5H9mSmQLKOJbeAfd6cV6ARVfsdXsO0WpjEmX9NYi/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5305549803275380312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJh34pWAA9pTMRWGZfom8ZoUk.jpg"
       },
       {
         "id": "ChIJhUfl8hI8pTMRI9MQqapkOQo",
@@ -2866,7 +2998,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhUfl8hI8pTMRI9MQqapkOQo/photos/AcnlKN2ONYejj9Hk17UoQs1gfQSoDgzDRDynqOJrZ75R9jXPPkIs_LYK2amo7t_QC3lqeHVMYSPGmG-mI_yFRg0ZSUDvLi1wdB1D6Ksiv1d0lj8aUt4Gt3q0IzF3Ah20IxpvFfbtY7oKnuV91YtsH3MKksZiu6lIFqZ50eWiguH2hFZjY-80am4TQ9pH_R6b5gH3EG3GXX17LeqwvVWLR8TR1s0YzP-SziWg04Puj8GjZ7pylIEZATBIX6zkwZG6PVGKfmRRes5gwa8iVcMmY5ycbfX_W0lnlL1p4Fp6kOe4el5srSdYSDfOY8LLhcKZqLhtLQ3WNANQ00L4GdNFEUI3GNOxpkGjfMDOAdjJbBpvZWhghhxMX5CPXX7PK86l_4U2Jv5iyrTCdv6EnRUEndfqKpzDDh6gcq2JPVngVgEW7JRFsM9PJsVHhmoRMzNoUEJE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=736730698195456803&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJhUfl8hI8pTMRI9MQqapkOQo.jpg"
       },
       {
         "id": "ChIJA4qYCQA9pTMRh-D4e9LVzxc",
@@ -2886,7 +3019,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA4qYCQA9pTMRh-D4e9LVzxc/photos/AcnlKN37Wy65Nqwiwhq7hqWuChDTbxasMot3xZ3SYnDBA5Y8gfCV2tXvXzYFHNaO-vCKIOEBzsNcVvRG1iCwk-v0TxJqq-TJwa537i-9cau_23Fu41m1KVffxqt1RiY5RynTibEO8UYMWFXgWQpfKhPEZ6QPa7c1d9WK37SOdhKtfgEg32ZUfY4v0ZJZVkMBTkoFIgxZeGp71JjpEgILk6qQOh2MVjWVsRl9WCQwnNHP268s6whRIwg6yd9k-8sh6frSFc18jX-ivM2V8siOUUWXowOn7Tofwo0M4WDLsPJspePsEXLJ5yhT_HrZgPf0arn48IRf0tw-8hxHjIA5AwPwW3n18eawwX7QkqzcHiW8iZAOMhMAqNKxlpFDir5UtpeGtsbqxBs9mLB5wfw-vmK60EtIzivFrD-mdCpkzvVpuPFuoH90nTtSxGyVwCS5Ry8B/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1715825083051204743&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJA4qYCQA9pTMRh-D4e9LVzxc.jpg"
       },
       {
         "id": "ChIJlzq3fSI8pTMRDggIAd-VgtM",
@@ -2907,7 +3041,8 @@
         "websiteUrl": "https://www.facebook.com/Jeepney-Stop-Boracay-1612322832413299/",
         "googleMapsUrl": "https://maps.google.com/?cid=15240908874002728974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJlzq3fSI8pTMRDggIAd-VgtM.jpg"
       },
       {
         "id": "ChIJ4Wo2ZoM9pTMR5sKNzmQIkUg",
@@ -2928,7 +3063,8 @@
         "websiteUrl": "https://mokshacafeph.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5228969871409005286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJ4Wo2ZoM9pTMR5sKNzmQIkUg.jpg"
       },
       {
         "id": "ChIJz7-JusM_pTMRg96Bq5D_4VI",
@@ -2948,7 +3084,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJz7-JusM_pTMRg96Bq5D_4VI/photos/AcnlKN0lOvcSZLPOEwAfE_MH0uOQTJq8Y6wHfYeZBcZoIzLoMYksdpndYd7MF9kI7sx_V3DAdlyzD2V6sCt8Fc1r18ZfwipBLupT_qrVrdWiSP72CNgBUO0zjSUmaZxU3yR327shTge-8YLpldFjPV5ZkD--K0h3XFZqeRemA0CD-2T9yTspCtQihR0TrWzZCL7gbWJGAlKL739YxzkHyAvfDIIdiX5fBQLpxgRIGn5rELhIDNf1zygbdXKcJNfF6gKK0e9ZNHG9S2wv5AdMw1ZrnTlt8Oyl22oulezAUbGqOFXN9JGUcwRx2Zo3I9aGv5wg4Vtcbw-v8iEsD7ZU_t436QpzRyJ25-EnNyTLUj4i0MrpToQMYu9CqOZxRtu_elTpyvB7PyNVtpjIfJyOOJTsxxG0zrDszDl62RN6we_ZwwdA_Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5972335577687776899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:39:09.139Z",
-        "updatedAt": "2026-01-23T15:39:09.139Z"
+        "updatedAt": "2026-01-23T15:39:09.139Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/boracay/ChIJz7-JusM_pTMRg96Bq5D_4VI.jpg"
       }
     ]
   },

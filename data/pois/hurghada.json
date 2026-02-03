@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJp1jy60yGUhQRzawj5qdwjDM/photos/AcnlKN3ZUt6ym-aXYY2edr7zB4nCvss2s7l4XIAc_bbUeYYXimyO4IFQk7-tlZargegwd87MDt5UbDlvzkeGEdlkqO7gW8OZqKrCq15oQCdYYc6Pd9so7mqEHrfjeEauuhAPo11BrunsQUbDKaHFZBsJXnEzHbN_kZb-HJAQXnClByjowOjW8UletgiYgkJFzvqhnSuqrvwqJTxz-gXi7gQuPul7QSwmBeod7ZepL54fxHh-DrQYDQ9K4VBuQmL-X9JZb9atsW95SDxHDQ2tyQG14Q3HJWK9CnHtvINQhmV4F7jzxvERzBIq4pvpdJOu0XDaoWVCCj3si8J-bHJHEpcidJfmNeZhbmx-Y-pUAj_04UiolGQhDxwYdO93eEr-hchHCbdyfer4sn6ROHblYFJYDc73zPK1LFHxuvOI6QzX9wdQ-YU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3714467659096763597&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJp1jy60yGUhQRzawj5qdwjDM.jpg"
       },
       {
         "id": "ChIJPZ5PVK2HUhQRM1oh9OtjqZM",
@@ -45,7 +46,8 @@
         "websiteUrl": "http://www.hurghada-marina.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10640145459703798323&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJPZ5PVK2HUhQRM1oh9OtjqZM.jpg"
       },
       {
         "id": "ChIJVQhMpKNJUxQRwhRiZrGuYnE",
@@ -66,7 +68,8 @@
         "websiteUrl": "http://www.soho-sharm.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8170284750953649346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJVQhMpKNJUxQRwhRiZrGuYnE.jpg"
       },
       {
         "id": "ChIJYyChgUZIUxQRxzUxRl5WrJo",
@@ -86,7 +89,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYyChgUZIUxQRxzUxRl5WrJo/photos/AcnlKN3aXHe-JWA8bLh9ZfKQhXVgf82oPpzH2dJM8dN-7-iuq8JTMCEe_avbe6RxIlca1pmGcXLg4IjAokE3QrpKklaIjOP9p8CMemsZolnwmesWmsXAsQGBM5wo3xwqtds1YQdiujzoGIf7Fyoa1Je5_Hkb_eCbYplqNduxikadK6of5V8LvVPJPoIuF6iqZ9sDaDvZxg7U7VVP2JU06kuxRt3LsixlKdTgKyPgAMY3_cM1bk0gB6DhOkGua6VM3-oUtoLKRVOT6WqubaUbVyfN2xZZOZiNZNmNFE0AXlzjP7HDA6o96aW5XV4mWmNggZKPEZdkwa1t8ykW1uUW3Z4fc0VMtUV1SrNojx0EClXoX9nezP-ac4tLJqFQ87PIiPuIUJpArBpU26l5L8Bbw7i9SJFBuIsplEmRV4glGZdMoeUeIw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11145378140739679687&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJYyChgUZIUxQRxzUxRl5WrJo.jpg"
       },
       {
         "id": "ChIJI4f6_rKGUhQRfiHq2oCIxhs",
@@ -107,7 +111,8 @@
         "websiteUrl": "http://www.orangebayhurghada.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2001437171422732670&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJI4f6_rKGUhQRfiHq2oCIxhs.jpg"
       },
       {
         "id": "ChIJz6O44zOBUhQRC5OlEmjXFvA",
@@ -128,7 +133,8 @@
         "websiteUrl": "http://hurghadamuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17300251860579750667&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJz6O44zOBUhQRC5OlEmjXFvA.png"
       },
       {
         "id": "ChIJGWZeRDx5TRQRLbx_ZRyJlg4",
@@ -149,7 +155,8 @@
         "websiteUrl": "https://miniegyptpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1051178318092549165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJGWZeRDx5TRQRLbx_ZRyJlg4.jpg"
       },
       {
         "id": "ChIJoa7YMpaHUhQRcj0_4g-xDOA",
@@ -169,7 +176,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJoa7YMpaHUhQRcj0_4g-xDOA/photos/AcnlKN2h7dBXskAHZ9k0XClx0rdY_xRLtXpQzQ0E-OtQ8vK5XyH4EjDr7Pbi6KeCKv5VE8PSdhabVDUiIVQi52_6wVuYt45dzjMpJ_d0-JZ4Jv3v-lhgXzPOGA-5NoSLJHOyebkkckXKa87pktpAv5Vjj9PLbFCTn7JdGUKGHeCWeq5MLwds0iXbEgKCYP9W6p27Ap-5JVrg3OvM_ugnqH8i-qlo3lZYOl8RyTMmC-JAzfR9MtV7zxd-V-uUQPJQW5tuQ07wiOvokK-3dFO035AfYvQrRoH_u0YPaDKnMgulUaKybQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16144473445994806642&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJoa7YMpaHUhQRcj0_4g-xDOA.jpg"
       },
       {
         "id": "ChIJXQILICGAUhQR4O-ThrUVeUM",
@@ -190,7 +198,8 @@
         "websiteUrl": "http://www.sandcityegypt.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4861941142114267104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJXQILICGAUhQR4O-ThrUVeUM.jpg"
       },
       {
         "id": "ChIJqYkOh16AUhQRqs1IOFlqJtU",
@@ -211,7 +220,8 @@
         "websiteUrl": "https://hurghadaaquarium.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15359080510622584234&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJqYkOh16AUhQRqs1IOFlqJtU.png"
       },
       {
         "id": "ChIJPfVxgh-HUhQRj1KE8BwgQpU",
@@ -251,7 +261,8 @@
         "websiteUrl": "https://wikimapia.org/3689650/ru/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA-%D0%9C%D0%98%D0%93-21%D0%9F%D0%A4%D0%A1",
         "googleMapsUrl": "https://maps.google.com/?cid=6136432098525492073&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJLQbOs4WHUhQRabPqPHv8KFU.jpg"
       },
       {
         "id": "ChIJRQnKxdyHUhQRRIWlte93dZ4",
@@ -272,7 +283,8 @@
         "websiteUrl": "https://www.hurghadaacornrentals.com/apps/photos/photo?photoid=178505643",
         "googleMapsUrl": "https://maps.google.com/?cid=11418164301696173380&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJRQnKxdyHUhQRRIWlte93dZ4.jpg"
       },
       {
         "id": "ChIJHU1laaKHUhQR1JZP9yA5fOM",
@@ -292,7 +304,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHU1laaKHUhQR1JZP9yA5fOM/photos/AcnlKN2nU1_VLo4iBTBOAqO61jHz-hbxvlwTaRDtFzVD4j2Sx-jZC1E5jOM3hRmGnfpljP0vaZLj4_Ou65OeByxlNEUVpCUfjArRXQ3MMdzW5oNC1pEWO3ZVLU794597sTnkBhSO_aG2eY3vl3cdkmAM0f3J6Mdlu83zzuU_F7Q7RMcTgIZZbWCU-VuUV4BDv4fvaX1sse4mlZ1bRbfY6lLgN2iUM0DR7lXd06j40glIPf3DVJOZlGxqjZa48HWSNWGlgZqdyZid4AnKJ77MB88K8kGiAuA9bnnUdd00WRsBuTn6wQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16392039557472687828&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJHU1laaKHUhQR1JZP9yA5fOM.jpg"
       },
       {
         "id": "ChIJVcnKJgCHUhQRNEeyA1s1mRE",
@@ -313,7 +326,8 @@
         "websiteUrl": "https://www.facebook.com/mohamed.elrosy.92?mibextid=ZbWKwL",
         "googleMapsUrl": "https://maps.google.com/?cid=1268103435101816628&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJVcnKJgCHUhQRNEeyA1s1mRE.jpg"
       },
       {
         "id": "ChIJK0D_AcpiUhQRmisRAxQX-1U",
@@ -334,7 +348,8 @@
         "websiteUrl": "http://www.niof.sci.eg/",
         "googleMapsUrl": "https://maps.google.com/?cid=6195571087096490906&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJK0D_AcpiUhQRmisRAxQX-1U.jpg"
       },
       {
         "id": "ChIJc9upJvSHUhQRNyIfS6nmD20",
@@ -354,7 +369,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJc9upJvSHUhQRNyIfS6nmD20/photos/AcnlKN3_22plRLM5micGsjZtjWev4C_iMtFqK3ECIuQMPZboxIsfLU4N9KGdBewIVnflzSfw-BA1JbtC7zs-ieq-_tQrg8F95Tnf0glKkQWC9LEpQSpQaKpuK5JOPZWjDp7ap3ZSNOD0ubMzlUxAvwUEOLjIu_qWIB9uc4Q-4P06TQjsaQ_BzJHRLoV5hZSOd079qEVqSO39Nn34LffemTicM7oar4EBPewpxsBTojTQutailfp04DgM5lTVOws66bi8d5TVjgWuaLjM95H1Ayv2VLLQKmYAIFawrCvVmcS5-cnGFFnlWRzUg3ElNqTkF5zIuk9x55u_br6CzdnZMd9e3JyZpD8fRLQLpY2XbifJw30OKMiqCSRDLlb97fVVXX7Zitgwl227EeQq7BFJl4Iibya6a1lOqj1-u6XcLauvSPs36UmA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7858753489568997943&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJc9upJvSHUhQRNyIfS6nmD20.jpg"
       },
       {
         "id": "ChIJpzE4vEyGUhQRIblBoAb1J74",
@@ -374,7 +390,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpzE4vEyGUhQRIblBoAb1J74/photos/AcnlKN3AK75gt2TqRealwRM8aYTxWMsptBH1w-sbZBzAFKRXCiOm-rW68S9_4NK7KUNbBOY-Xw_QcJg1Xect2qi5B8zMVqbuDpZbcbCyVqL8QZiteZgRWGZwNPc2K3GWKd1VJ7NK4KHpLyjnxlbCvK8SOGlgNT76E42vNECUI9oHOSdWJvLkReYtbIixbA_z-GIeI4XNcOGLjXWQ-HWpqjCgBQypYJPV1nJFfxnBuXZcmOuSKyv3dnfY4W5m5YNymTUywzgynoaqqYhZybr7X-4t5HiO1azf07DrkU5j63xbLZpFIZFlkDY7myPfo58kIB6A_NbuM0tmw7W_RudMpsmFSL8T5ENyBOFlxCUqDVL2wcCLV_JYbq4Xs4klUnXVk3uAh-y5P9cC8sHB4PvOJIxMmcNLUbU7urMNeTPAudA-HMI6OA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13702189800105294113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJpzE4vEyGUhQRIblBoAb1J74.jpg"
       },
       {
         "id": "ChIJyTT8B0CHUhQRKRLdasE14EY",
@@ -395,7 +412,8 @@
         "websiteUrl": "https://hurghadaaquarium.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5107141082275975721&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJyTT8B0CHUhQRKRLdasE14EY.jpg"
       },
       {
         "id": "ChIJW3i89byHUhQRStiKOP78Dso",
@@ -415,7 +433,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW3i89byHUhQRStiKOP78Dso/photos/AcnlKN1S3cIE8go6xiJl16i0ookZKqtqIsdIMQXJMjhPZKXB8nZ1oVhsOa8ajbMPlpEtXjSv39P4HEFRBLP-nUmR-hN4fX-XoIgDB8of9VLIAN87ZwzMYGr08lYyRf_VFSLfGqt15Y-I7D0U8YyGdYdBgjuqTLgCgsydt-0krn4VoiKvLGj_laZDeTRSBg4rvgm5arFOyFsyH50Kg7Z_3-MlNKmG0uEQNbPjPJPdNSo9n6n5HhX9mzgr7wfYJMDKjD_apERqcAh7D5eiRIC40iZFLExkaIT1qIXOYhGOPWLP_Zi4tQCPL3dAG8DE_7xGP2_evS1eX-TNsPbRMklIf6xGxJHPYctXs-mmsmehi0WcgmbwSAFbOLWIP6gi1BGXFrXo3vfWojp485GMCqfy-gElqMmKE-kkP2MmQHKD_QkC1GbomvfcfvY-FLzxaaNoWyIg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14559852814135908426&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJW3i89byHUhQRStiKOP78Dso.jpg"
       },
       {
         "id": "ChIJOz8NWKFjUhQRKHb5l0Yl82s",
@@ -435,7 +454,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOz8NWKFjUhQRKHb5l0Yl82s/photos/AcnlKN24jWa__9P8MwRew57YBgU-1iEMgmZbG3JX5b7Y_ryJWOQt46qEYQ5CxMba0_2PNPe0z-MYrYP6KKzB2qyhR03xcg_PW1lUY_DWauA5pl1kHGfNwl21pbZAoaRu7mLXxrdsmmhMl4UHJOv1oXx0UVKJFWRVn7noIKOTfbQ-2MZbEavENumqEJpGdqOrheLphsVh8djAsULwhnmrIoghYeW6GLP6mgvknt9aOayVdYn63MU8pTDv_PXn-bUtAE7Iu3aVYyXMXeBKmPnk4UXgTY68BaXVYo5L7uAQ8BQIE1BFR4yGAV6QkOJJb12WBzLCIOf8i4GOSWJ1W0dzftRZ65GWK-R151c-BdABU363dK-A4sGWIIhk-qvIKqaDt0mNl2h8QnhoYHpToIgwAMjmnyNAiCEhqET2FqV7GigRmZzByqa1I1WekFIv0YF1CAeL/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7778601966526625320&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:55.247Z",
-        "updatedAt": "2026-01-23T16:09:55.247Z"
+        "updatedAt": "2026-01-23T16:09:55.247Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJOz8NWKFjUhQRKHb5l0Yl82s.jpg"
       }
     ],
     "foodie": [
@@ -457,7 +477,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXYqprI6BUhQRLkWzkDAZEkA/photos/AcnlKN0xmhvU44JTYUm3NOfzXxgpoEh6RW23YgU25fiHpMujllCBUbmBTVcx0U9AfsiMQtIvH-fGmxAdo-1bzFNz9xZn6UmMdPXG_dAwjcuw-9TTmSW5XEv2dPSpL-9z6FhNoE_hVA0C6-nGKq2nQgRwEFxjJHkNwFk-dRAIAedKC-9JOqZx4N3FAJudqr8e6ReNzNBabIANBV9ZTUbjo6S8dhydnKIsrsM0f1_jnKPXm-Wv5pK8yXMPyfOXPLBc4lbFEJHRcA8DZLDQ0XBa9clppPkbVRqqpTrmpeDzwuDLWDXTwxj6a7LKxD-XwoANpYz3J2o86dS8r4oKC0BGXhOkXaNzLnTX86STyyRAdkoExfChHvMoFV_6-FBLwgH3ORulfD6xnLEFJr00YlP7u699sz9CLr8DLRikNO3DN-xrBP8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4616780264384972078&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJXYqprI6BUhQRLkWzkDAZEkA.jpg"
       },
       {
         "id": "ChIJj72nOvuGUhQRmVPFto4TutA",
@@ -479,7 +500,8 @@
         "websiteUrl": "https://www.facebook.com/GrillHouseHurghada",
         "googleMapsUrl": "https://maps.google.com/?cid=15040355409229861785&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJj72nOvuGUhQRmVPFto4TutA.jpg"
       },
       {
         "id": "ChIJT65WAwSHUhQR0PU1t8n1Mno",
@@ -499,7 +521,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJT65WAwSHUhQR0PU1t8n1Mno/photos/AcnlKN1fqa7OD8QDePqGnnlz4CN49pTLtuBvoWCFp6k2a1oCnPzRhlCmQ6LYiz95rBH64dqQR30EHUsf5JYOStYlAtCLST7uZiQal8iC4EjI5wj9jxem4NnR2vxri7ncAn1191OoMCg65m6dCbryVeaGWd2nVxjVogcLgWJlc74iH5GxucIuqXDkWjFyDkhQ6NPXfegdFcNBhrYPRSi1v0Z1EgoCGTtMyJ4gND3ERYxinDrpOhJjciwFBddA7FQBSnoKcGO4DeMEG7eCfOLqgwpf55rzpPqyom-vtDf36cS8gyemaw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8805370468173739472&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJT65WAwSHUhQR0PU1t8n1Mno.jpg"
       },
       {
         "id": "ChIJ3YhAVouHUhQRrlVdhZhqi9I",
@@ -520,7 +543,8 @@
         "websiteUrl": "https://gaucho-hurghada.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15171336973032707502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ3YhAVouHUhQRrlVdhZhqi9I.jpg"
       },
       {
         "id": "ChIJYRTSF9mHUhQR7AJ4pJ10VmM",
@@ -540,7 +564,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYRTSF9mHUhQR7AJ4pJ10VmM/photos/AcnlKN14AJ6r2jiRuWdEhhsTs9pUl6szCtw6K_38_YmX5EnNpcT6oy5mIgIDZ3EH5NN9BwSzJxJqr41dMxEZgh4SVI1gW2u_ZsLXKUz5bIsLFzZPH8BxGoFEllUx9khEuUgRg6e1sdE7XYgmMygh6h5CwVffQ1mXG3Oo_BcEo414x_deGS0HKl5fX6pQBeZxD5I-Fbo2yS_SbEvKrdfgmrz2VfyFZVHQ5nIYMohydiaKf23KDVpMgbLfbqdpDWkJWqt209fXf0B3ViUKksI6-CjxKzGfifAVbNwBPyGW8NxsZcDFDWMHP5LVndmgNb03NvzaI0-NIY3V6ggdBt_87vw3Cz9wvZNxXqCsto3Njfodl-1_LffBYJopQu6yDesGnddySG3ZMbT2qUUCIGvSeScwoO0wWFbXky_UY6W9merzqVtVIw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7158036878169998060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJYRTSF9mHUhQR7AJ4pJ10VmM.jpg"
       },
       {
         "id": "ChIJ8dxITDGHUhQRMnTGHH44C5Y",
@@ -560,7 +585,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8dxITDGHUhQRMnTGHH44C5Y/photos/AcnlKN1q7M9LffzYt6ORKjfTsiHLJuzK02VtjoGfsxvORyLfbfv1SJIrazE3IKDt8nMnd0mMosShthwGHwqvaVGohZaSIBvmf18hqjNPFFxQnFALCqBPwmJMDGyuU_s7C2_msLMGAiaeJDpbO_qeMCz9XCu2Op6-xS2tuRq0dsDCUJhm7xL-Kw6DGayIufBdx3UHMpoj9x038ib8izuC2Qd0FrmPSsuZEtmlaqcZDsgGqcWsRRnniQ-Kk2erkqSzG5FSr3bMs5FVsqXGj1CRLq2d_XYJmwmbh87w7BSM1N-aqjwTOQgmMf9ZoPM-uadDt-T6wn1rEZzdOjLmtUduQRsOjNR_RllxvM86fkaGW0wNBnJ1vndPUY0BthQ52oyAcCu3nIbNXPWLKkRd8WI--5JkgUfYMeUPpTRmVB3aZuRE7ZXfEgS5/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10811797444732810290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ8dxITDGHUhQRMnTGHH44C5Y.jpg"
       },
       {
         "id": "ChIJ5TlOYU-HUhQRYIzIWuXyR3o",
@@ -581,7 +607,8 @@
         "websiteUrl": "http://www.delfinemittitoswatersports.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8811278262858189920&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ5TlOYU-HUhQRYIzIWuXyR3o.jpg"
       },
       {
         "id": "ChIJQ4FCLrGHUhQRN9xXOAZyB40",
@@ -603,7 +630,8 @@
         "websiteUrl": "https://www.facebook.com/mobydickegypt",
         "googleMapsUrl": "https://maps.google.com/?cid=10162216455225465911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJQ4FCLrGHUhQRN9xXOAZyB40.jpg"
       },
       {
         "id": "ChIJm0SvrK6HUhQR63BE8XBf8Dg",
@@ -624,7 +652,8 @@
         "websiteUrl": "http://www.gomlamarket.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4102884199223292139&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJm0SvrK6HUhQR63BE8XBf8Dg.jpg"
       },
       {
         "id": "ChIJYcrjv_-GUhQRy9ZxFi5OH_w",
@@ -646,7 +675,8 @@
         "websiteUrl": "http://www.facebook.com/caribbeanbar",
         "googleMapsUrl": "https://maps.google.com/?cid=18167325381687891659&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJYcrjv_-GUhQRy9ZxFi5OH_w.jpg"
       },
       {
         "id": "ChIJ4XgCg_uGUhQRA7H0j1O9lwc",
@@ -668,7 +698,8 @@
         "websiteUrl": "http://www.granadahurghada.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=547114046343917827&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ4XgCg_uGUhQRA7H0j1O9lwc.jpg"
       },
       {
         "id": "ChIJEYOUHT6HUhQR2T2zcQN6l88",
@@ -688,7 +719,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJEYOUHT6HUhQR2T2zcQN6l88/photos/AcnlKN34y9wOh9UqHB_ld3SibdUu2sqDxEQNPXQPRIhJdYLrp5GsDaK2upWvzjuI_Xmrcnvs9f7eMlXGNK3_pPGsEXqZ412Sid-buYmtFSesZpCCaAg7e1X0EbhsMgpWiaCSiyKSbzmDBM9xwkFe4EpUXeZbyQduLA21ffuNHAS5mof2f5pOoC3x7EAdtfs_cWX5LvZUy6TZuRZkwyAoSodyZ48DG8em8u4YqV_yJ-6KkTiWTX9_8ydb6NCnt78nZpZxUWz8AbmGlkGAzlrWtwpXAhEI6kRuHEVcMl_mxTAq2n3UlVjmXHldGH7kqvUNvatS-xw9Y2lAg0pa0TP5RvsqNgGhaAgRmO-C8QflTQ1Ni7QACRUiRjQpuiGPFczFXP0Qzpr_O-N9MwMyWWTXJZD8WGtAzHcyRPfikJWIFLtWIPI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14958558842545454553&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJEYOUHT6HUhQR2T2zcQN6l88.jpg"
       },
       {
         "id": "ChIJf9OTYXyHUhQR-sKK4P35rFU",
@@ -709,7 +741,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJf9OTYXyHUhQR-sKK4P35rFU/photos/AcnlKN37UWbkkjNQjxcmmHzfeHZJxmFeUBEGbie5D4wKPNgWE4HPGkiA1tBTA77lJaFPdENft0KpFCJe72uOcT6WU1cY9lSif2aYtnLYu6EDegHegUVN78DIXfl28HXhsnmuevT1kSb2HP5lWfJE26LnA1IvHg5VwMZcn8jE5l7bGKVwJGEevMmJ6vQ_OefkfMV5xWkJh0lf-ad68mT_vG0EyKcP42GB5u9YGQJoRBv98aSAQYemww6Xd2tjyrP5ssI4YEtc_1g9hH2A17mSH0sGo6bKMruKq79cjmOhMzDYhEJzfBFBvCAtrwHoHA4fRnlWi56iXcpzOu7enUMLRgpyknHKZqIsbYVyeJPRWEf-UWLepVZ5f0XP7hi9eGEDRCgCEFoOh8A4siV9zMVBqUsdLqrcg0s5oqkRRVhnCMZaK3PRZokB/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6173584058007339770&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJf9OTYXyHUhQR-sKK4P35rFU.jpg"
       },
       {
         "id": "ChIJH1hmqiaHUhQRsGaKUW-9Uz4",
@@ -730,7 +763,8 @@
         "websiteUrl": "http://worldsweetgroup.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4491141539225560752&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJH1hmqiaHUhQRsGaKUW-9Uz4.jpg"
       },
       {
         "id": "ChIJTRSRJYqHUhQRvT2j_oXI5dg",
@@ -750,7 +784,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTRSRJYqHUhQRvT2j_oXI5dg/photos/AcnlKN30PYzEEoilecC1Zn-PZO-mdjsOCVH3crdC2Ms7kKGXrYZ_Dc_EzWFFruWsI1lB6znb7Qam6y8XoVuifNP88gzdb4QQwMwK_6QF4Vxve_R1xtARTltirNFiyx1cDy5mw4UC72fx8qlezfoenPt_gh0W0bo1od-1p3QOvhpr3c23htSlVp-eyFpBIE8vMoh9gkgPs1Xzh_b1Blc0qJcyDouk4e0WxRpbRMz5B_kENb8jV63qBJVQyCkkTU9U6CBnOYcgQV4tg_Pz5VKKf_l9I_xkYIFDvlPUzk2EErljBQZsFX-F25qaAb7NOM6FiC_7_WR44-k72h83oTsNyk81Sc6ZCE_TPq60C4TTnBc3hILSpS6c8B9KwYdjbKMcw-Vdt7fu5a-12trwp5YC2Jek8psFmlrnO4Vw8FQ9EI_N3VtfIzr4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15629118559687491005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJTRSRJYqHUhQRvT2j_oXI5dg.jpg"
       },
       {
         "id": "ChIJ75g8ZuSHUhQRnO2iL1rxh2k",
@@ -770,7 +805,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ75g8ZuSHUhQRnO2iL1rxh2k/photos/AcnlKN2x4oWOkBrd_SG472I25FLlf82eEr8bnbztT4H19XpoZiqxPUK5nvkXnq1TvR7X2dM03JE0NWGrMorjUO8gqt3a87jUlVrdzC-VOGJa1KFZfblERKDiCbGoshUFQYAe4HRuPIbRAziH72SssRkoZnrvq8eXJWowIcHiuJ-5POK2TTFF-QhBxCrQbSH9z4A0AH-K5aimW73MwvC9EB6BsxjUYYO7_Ewq0yMURsZd8mvsflzzzdkjdK2N46-MTA3Xw3HnlCb7iDVwJsiLCK5IHj7yp8BI6netJ3P4Z4dn9dsgXQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7604311865486929308&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ75g8ZuSHUhQRnO2iL1rxh2k.jpg"
       },
       {
         "id": "ChIJ_zRzLwWHUhQRkEEAAO6NKbw",
@@ -791,7 +827,8 @@
         "websiteUrl": "https://www.instagram.com/bodins_hurghada?igsh=YnQ4NWlueWdhanJp",
         "googleMapsUrl": "https://maps.google.com/?cid=13558524206517338512&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ_zRzLwWHUhQRkEEAAO6NKbw.jpg"
       },
       {
         "id": "ChIJi2nnskKHUhQRhHLqV2dExn0",
@@ -813,7 +850,8 @@
         "websiteUrl": "https://g.page/the-moon-2018?share",
         "googleMapsUrl": "https://maps.google.com/?cid=9063006510777004676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJi2nnskKHUhQRhHLqV2dExn0.jpg"
       },
       {
         "id": "ChIJFVLZoq2HUhQRIyI5-zONmJ4",
@@ -835,7 +873,8 @@
         "websiteUrl": "https://www.elmenus.com/hurghada/star-fish-lry4",
         "googleMapsUrl": "https://maps.google.com/?cid=11428039308850307619&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJFVLZoq2HUhQRIyI5-zONmJ4.jpg"
       },
       {
         "id": "ChIJj1n4CgCHUhQRMNgLCVdnQFg",
@@ -856,7 +895,8 @@
         "websiteUrl": "http://www.hurghadaseagull.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6359196297358727216&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJj1n4CgCHUhQRMNgLCVdnQFg.jpg"
       },
       {
         "id": "ChIJ8TzA2UyGUhQRLUWwpPWObqk",
@@ -878,7 +918,8 @@
         "websiteUrl": "https://elhalkafish.github.io/",
         "googleMapsUrl": "https://maps.google.com/?cid=12208852825529140525&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ8TzA2UyGUhQRLUWwpPWObqk.jpg"
       },
       {
         "id": "ChIJRThGzAGHUhQRP_hzwT2m4lg",
@@ -900,7 +941,8 @@
         "websiteUrl": "https://www.americanarestaurants.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6404864404243085375&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJRThGzAGHUhQRP_hzwT2m4lg.jpg"
       },
       {
         "id": "ChIJc2TiEACHUhQRA2RFq8LPCCg",
@@ -921,7 +963,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJc2TiEACHUhQRA2RFq8LPCCg/photos/AcnlKN2-qgM4n1bOOMrOL48KOWpCb0ZBiFXJPJCF5vMPvLYIP-qKnIxsnfOCqlR_V-YSA15cCBhk0KgzlBag9aHuxQsH20cw82AB5JJ-ex8vcpHbZ_NLEOWV_e9WzkA4oF4Ckc9FRRkP2lcz7RCsbRlgOH-TC3lPz7ONVFWhHHDRvnrAuU0xwNdmIdUh4BN3EnoiT8aqO_NFEa_hHBOSGrJ86NHReeaJZdrqWgucvH3Cq00SSh3ynEsl1uQbec634Xxt7Sra0_cihsWwGMTW2esZWrKC6NXTAA2HmXyaGzy0ZHs3cA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2884783996334859267&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJc2TiEACHUhQRA2RFq8LPCCg.jpg"
       },
       {
         "id": "ChIJMb-0o1GHUhQRuWUS6-bzAi8",
@@ -942,7 +985,8 @@
         "websiteUrl": "https://www.opentable.co.uk/r/lophelia-seafood-restaurant-red-sea-governorate",
         "googleMapsUrl": "https://maps.google.com/?cid=3387538042847913401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJMb-0o1GHUhQRuWUS6-bzAi8.jpg"
       },
       {
         "id": "ChIJMzlXkASHUhQRMdpzx_pLCkE",
@@ -963,7 +1007,8 @@
         "websiteUrl": "https://www.instagram.com/picknpackmarket?igsh=ajd6Mmh3ajZzZ3l4",
         "googleMapsUrl": "https://maps.google.com/?cid=4686641902692588081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJMzlXkASHUhQRMdpzx_pLCkE.jpg"
       },
       {
         "id": "ChIJ-7L9tPqHUhQRoAbEG7Y6XNg",
@@ -985,7 +1030,8 @@
         "websiteUrl": "https://addarea.com/addarea/page/15260/%D8%AD%D9%84%D9%88%D8%A7%D9%86%D9%89-%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1/",
         "googleMapsUrl": "https://maps.google.com/?cid=15590400563874104992&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ-7L9tPqHUhQRoAbEG7Y6XNg.jpg"
       },
       {
         "id": "ChIJU6q5d_BnUhQRNmUXwkSS2kw",
@@ -1006,7 +1052,8 @@
         "websiteUrl": "https://www.instagram.com/eatatluma/",
         "googleMapsUrl": "https://maps.google.com/?cid=5537899515817190710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJU6q5d_BnUhQRNmUXwkSS2kw.jpg"
       },
       {
         "id": "ChIJhcyg7w6HUhQRGRxoKt6Yqmk",
@@ -1028,7 +1075,8 @@
         "websiteUrl": "http://www.cinnabon-egypt.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7614066199984872473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJhcyg7w6HUhQRGRxoKt6Yqmk.jpg"
       },
       {
         "id": "ChIJOViYm2yHUhQRI6veP2aNIzA",
@@ -1049,7 +1097,8 @@
         "websiteUrl": "https://www.facebook.com/bready.artisanal.bakery?mibextid=ZbWKwL",
         "googleMapsUrl": "https://maps.google.com/?cid=3468771608303151907&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJOViYm2yHUhQRI6veP2aNIzA.jpg"
       },
       {
         "id": "ChIJgf7Lw7aHUhQRyd4zjXHwbzI",
@@ -1071,7 +1120,8 @@
         "websiteUrl": "https://order.radyes.co/LapommeElKawthar",
         "googleMapsUrl": "https://maps.google.com/?cid=3634387794802237129&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:56.601Z",
-        "updatedAt": "2026-01-23T16:09:56.601Z"
+        "updatedAt": "2026-01-23T16:09:56.601Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJgf7Lw7aHUhQRyd4zjXHwbzI.jpg"
       }
     ],
     "adventure": [
@@ -1094,7 +1144,8 @@
         "websiteUrl": "http://www.desertadventuresafari-eg.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3573129692007678903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJk6-JzzOHUhQRt8OEDIZOljE.jpg"
       },
       {
         "id": "ChIJeefHnVmHUhQRrXYJ8HVmhwM",
@@ -1114,7 +1165,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJeefHnVmHUhQRrXYJ8HVmhwM/photos/AcnlKN1aHLEBN7bEJFEB-h1NQf93EXzkP_fu38ogU169HKbXxMCWqDfFdzNFdpFsg1ySUOsqDEZSdu2wuHYk_JBIDHvjbifdCN4o0cyz27Oh9BV8OJ28JW6ZwnNewshSVEsX3_u6zXhzXtyaN144cTKLibMz9UMobyv_EraDGWLpTlUS_PMvko1DgOaoLSva2xdLjskt3gFk63jqqvnS4Vj7cgSivLTic07VMCXSzXkNYaZP0pO-SSaqKDNrFcBEEJ0R1E9V28lF82r_sOi_h_8G-WY5CuKhavtV1chXdCxVZ0Y8qJQEC-qJLmz6KK3ppHBKC-E0KU_a62ycfRn5CMB5PYv-Iv2tJh50BGOVfponDgUM7CR_1twqgTT7ZA4jZv02jmAivAbT-uA-vnmK4rasUBjnIBQiWVxyBAhjJ45RCwxxk1voULtSb-X8cP4JfQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=254284560694081197&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJeefHnVmHUhQRrXYJ8HVmhwM.jpg"
       },
       {
         "id": "ChIJNTHYSeJjUhQRHSh_JCGOYhY",
@@ -1135,7 +1187,8 @@
         "websiteUrl": "https://kite-active-egypt.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1613007889549436957&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJNTHYSeJjUhQRHSh_JCGOYhY.jpg"
       },
       {
         "id": "ChIJz91MDBiHUhQRKSZw5azOp0Q",
@@ -1156,7 +1209,8 @@
         "websiteUrl": "http://www.sealoverstours.com/ru/",
         "googleMapsUrl": "https://maps.google.com/?cid=4947149957668808233&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJz91MDBiHUhQRKSZw5azOp0Q.jpg"
       },
       {
         "id": "ChIJwScvpnqHUhQR-vsrjbEYGwk",
@@ -1176,7 +1230,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwScvpnqHUhQR-vsrjbEYGwk/photos/AcnlKN3Dy-LAvQtPPDh4YpQlWgQHRKw65edyPa5fD6Xon1E7rLUUZM694k5bOBTiDuBaozKTqdaLs2SpFGdi0VpLLqoAp5SJ4T_XpVHS_2ujQe4iEk3U2NmfecmWQsQ6SGDtbI_MydanlnXGhqUulXOYVNPCF262-6mIO-RV8E1UAvXLlxTquasHIB6dJPVA_LRfHQdFz9ZliKz2OZxRErUtaScB9mkYGp-xva8dsnFXK4Y7GSrVt03qbxIeqCgWx30SZ7cQa7BaVqYiZBtl5iI3HE3Jy4H_uMt044_VQmcF7zFErPwM_ZGJBR60CtiPmxYqqL5yAH2YYGjIYIpRLiVaIEwbZ0jWfEhRgepwKUZLkdQPji9jOZx0ce8Ib18NrWbacYO05InC7vdKIigroRqwUtalx7hFKst8XkalN55PYcjWTyfG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=656145321569287162&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJwScvpnqHUhQR-vsrjbEYGwk.jpg"
       },
       {
         "id": "ChIJz14aS-SHUhQRxQ74tR7kUTE",
@@ -1197,7 +1252,8 @@
         "websiteUrl": "http://aegypten-best-activities.jimdo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3553872401525116613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJz14aS-SHUhQRxQ74tR7kUTE.jpg"
       },
       {
         "id": "ChIJXb1f21-HUhQRry0I5wbbyCI",
@@ -1218,7 +1274,8 @@
         "websiteUrl": "https://www.aquilaadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2506494015324040623&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJXb1f21-HUhQRry0I5wbbyCI.jpg"
       },
       {
         "id": "ChIJf6YhiWyNUhQR_eS0zKvNqDg",
@@ -1238,7 +1295,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJf6YhiWyNUhQR_eS0zKvNqDg/photos/AcnlKN3xPWpEy7StAoFhJB7eoXnAo4l5zwRaIn3h4Q2iiFKba1-7vTnMckB_rgDZovweuH-ZO1C5_YbW2KWnzW1Cn1ZX8ZJiXZMdeYm7QFxgEt-ipMU1fBuS5c2W3-ePUFRiJ-YEEsRc1jnwL9H09Da3Q_gM-OzhoZ33oXi3taoB0rToyHd-WcBm3Lfk4y-XIrdfkzxSV4lchEvCs4HmxSNvojvc5JvnjJlM4IKlEcdwzrGDwrbrmKtzlbgY-aoFPSXaCGLr3K0dN-N75BRu22vBV0md-9h4lphTviCZoDpXeSGC-Azrjl1hwm0YIXcqQvHxS0TmfNUWZwMXlxFW3Hf4AZdF3Tr_bLphSFVNQsxjs9cRY7soKWgWZXvTvkBf0eQjWJBko20y3m8svhGBO5Wp6DlwO_VJoZxkI42GZr0jXQKsEBrv/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4082739199968863485&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJf6YhiWyNUhQR_eS0zKvNqDg.jpg"
       },
       {
         "id": "ChIJP4RSRQCBUhQRpIph7IPj5NI",
@@ -1258,7 +1316,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJP4RSRQCBUhQRpIph7IPj5NI/photos/AcnlKN0szUleBcbpDCj6voOBKegEGohCrBlKeHKg7Wr2BB5lEKQ4BgMfqhHOSO-c6p5ZuJAmyo7whrJeK0ju0CQyjqpK_oZrHjoBgu6AFbQWJjBeYOzhqJaYz-6ufI2dmH5T5vZiDrgRtN2x1-M975W8hJKLpImuHuT5wwZTKDt-oB60i1BcA42HuAnlWKIwN7vTG1xoX4fyfbrgmoOuPckcMVmVlTmPAwKZVgK_Dct-B7iTFiH3Wvuwhjq88z9HWUKYLFgb3XWQv4na78-p2REDBo9URlCkexwJVqMtSgURR7gbvq_eOiohxii3_feJzqSp2EWNbkU3K3YPQtDdQ477OtLDx7ZAm7n3G8xhb_wjZhzA-m1vXiP9CLvbmefx0xhPXh1V-Eb1vLzGF50Z2WYZCNrEcnNxNotTFhVOeqJyPY6jVKwTjZByFsg-3TpKfw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15196521198400932516&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJP4RSRQCBUhQRpIph7IPj5NI.jpg"
       },
       {
         "id": "ChIJ_5k-4IRjUhQRmFEMoRSZpjc",
@@ -1278,7 +1337,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_5k-4IRjUhQRmFEMoRSZpjc/photos/AcnlKN0idpa5ykKU0glB7oq6E7DC3TsK7rnaCJEN1i07LqyydFwl9yHVvyDQ55hT4JXsXKeS6kqfhWApmYuih485m_lRNW9KF7QjfAHPayx74G0tgq8TADYSMUlZh_hCPp2Yarow_NAQcrwmZVUhdpbRkQ2MxJJNRTVfgy2it5CitcGLdGOyDNo_QVYSu6xeNvCmBEECJVBf7rJi55y-ue5flkyLZ8YhzoeUoWlj6mN5VQ0stciwgwpmwiLxv0v5Ei32if0qnd00wRxV27Ys1KcftY7aEV3MgVaTgUV7Y3k_WSmEZJf8wlzPhilHY5XiYb1qiCegjq5EQplgH9M5QGD7racGkZ0306e2vGnZFpBdlyQUxTY7nP_MeO1MPyoCusIBLvaAaXz9jVOvEUHzkl6O9HzIkeidIGN76quwnAXNw-KriFHSQAlPsvj6QC0pYjrO/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4010060832100340120&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ_5k-4IRjUhQRmFEMoRSZpjc.jpg"
       },
       {
         "id": "ChIJdfdBDJSBUhQRTsreKq9TjFs",
@@ -1318,7 +1378,8 @@
         "websiteUrl": "https://www.instagram.com/fly_board_beebo?igsh=MTE1YW1neDJwbjBsNg==",
         "googleMapsUrl": "https://maps.google.com/?cid=5596839527189082637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ4UDjW7SHUhQRDXL4iuX3q00.jpg"
       },
       {
         "id": "ChIJAx4z-h2HUhQRFiq1UBrRrMg",
@@ -1339,7 +1400,8 @@
         "websiteUrl": "https://egypt-adventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14460162414533224982&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJAx4z-h2HUhQRFiq1UBrRrMg.jpg"
       },
       {
         "id": "ChIJvUbPAlWHUhQRfATuP_Cs7mc",
@@ -1360,7 +1422,8 @@
         "websiteUrl": "https://horus-adventure-treks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7489113378228405372&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJvUbPAlWHUhQRfATuP_Cs7mc.png"
       },
       {
         "id": "ChIJcf4GWQCBUhQR7r7ZyxCFE0M",
@@ -1400,7 +1463,8 @@
         "websiteUrl": "https://adventures-egypt.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17097187372196219130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJu5F0AzOHUhQR-sgMilRpRe0.jpg"
       },
       {
         "id": "ChIJrzWqY8pjUhQRv0d2oyDmv2A",
@@ -1421,7 +1485,8 @@
         "websiteUrl": "https://kite-active-egypt.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6971543776048596927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJrzWqY8pjUhQRv0d2oyDmv2A.jpg"
       },
       {
         "id": "ChIJ-RwCVWOHUhQRTgi4xerWGAs",
@@ -1441,7 +1506,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-RwCVWOHUhQRTgi4xerWGAs/photos/AcnlKN1nhjxmXwESFzJpSnpTlUlOgNHue9fJZ3NPHOLkosjROv5sDFptnDYFGjVAGlDP7XUePXb3p6WBaT-XvAaRJ_6olBi4HayRTZrCKUiRksEMAiXpv9mw6U1e5JQLtBFupBHZ5D1RTEi9aRhJe0DId0IupGBZHBIsCvkvoTgcgcsL0zOCTP7uit9qc-O0mxWQ24H-oMF_oC5IbFBgzCBL6Ao9GxbGKyvryKcATVHrE_OJBHuzN-eRlw-ZKnTS1TvgIeYfCTk9y-6lMhrmV2L4397hq_khSeUIBqXOZGoUhqTpJqXzMmMJJRvZBJOCy5132aoCvVZJ2YGkB-4f_o0uqqTw6Gyj8-KySmTH-dpwB2xjGITipiXj9liWVpgueAKs_d7OhuWUWdSEz-afJ2l2GbQDIabnehoRGq5i7XWb4xjnhPQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=799625237686126670&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ-RwCVWOHUhQRTgi4xerWGAs.jpg"
       },
       {
         "id": "ChIJ65kwBCqJUhQRokKRPXeQSAA",
@@ -1461,7 +1527,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ65kwBCqJUhQRokKRPXeQSAA/photos/AcnlKN3zwpV5A5kFJ_SAqhJd8gnsJZkGffv20Zs59iN-V3HLkFfO3gFV7O6PPVglQjSSNaXBwUCo71TYT66Cbw10sJPAoVrsw37fNc0pWbTHcenKHyisS_ieJwvWsnJRGvBRtOcBxSFWNsTZqvJDXiy3AM3w81asLu4gRq7qJF2C-qr9WELsspZ5kwLLkUHVvBNv_qkkcNgEEZmlkytFCYKdoeow1YN7_r8674Fn6iKowbst-_Le_5-ESbIT72Ehe2R5_CFKsRcYVtxxi-qs7rbqxcYgRl46-E16HmXEYZOdXhoU_i3R7OHKQPR0i777DVK7ZR1Qy4byT457HzdY4E8CTEcOOXDAOS9K9cXQqAaUofAUpomN6lr7L76oZFPoQNvBRwekyFLG3qAttDi4c-HZ8eqw_5msby5o39EeTRb-rR0iY9EU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=20425040131605154&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ65kwBCqJUhQRokKRPXeQSAA.jpg"
       },
       {
         "id": "ChIJYdsCDzOPUhQR9GMODkJHyJo",
@@ -1481,7 +1548,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYdsCDzOPUhQR9GMODkJHyJo/photos/AcnlKN1vOU82bvG42meKsojHsHQzQJZ4VmnebI9jVOo9lOjAgxDIVGshH2L9oDaS4UkD3Ff7W6zjdVeLnSYMjN5jQ-pxeed095as9SWD73YRYU8zTz-ZanhnEeKWVhNq6JxBArxpy3J-dxmjDH3ZKvDi4nXWNer9glPhtnrkMDOkgTiQMNsnVHJqEUNfV-529Xj_hj8oSYgvpeVaiwHdPCezljwykW6iwwMvdOkedie8oo7TK6GGUzmwkaLOzGoy6t4QvXfIDFFqpJVNYQ2QDZ1om-h-Gqq5AL2p9ctwU4R-antg7DK3_7721duJ9buiEWeVLFtiZirfjKrgD5cPihz3Whu6CYQYxpB2wJ8dSN5F6XSXwRuS0thhK1bf4lPu7CgdSbMhYzn7VvUNUPhDG3-01QfMt67W1eCqaQzxyQxmI5AQfw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11153242826212271092&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJYdsCDzOPUhQR9GMODkJHyJo.jpg"
       },
       {
         "id": "ChIJAzA0N4-HUhQRZG1Jhm5hGpU",
@@ -1501,7 +1569,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAzA0N4-HUhQRZG1Jhm5hGpU/photos/AcnlKN2I6XAgh-hRGS7GSODRBFe4H1gV61-fVRgfTps-1CFa0FJdEjmdP9El6sE2hTbwkZ-Wla9gmIkL2CU_J8AT8qBCP5Qb3wAlZEHnWNb8mUYeaBubmGJ8_auGlSUtcOHEIBQMHL15k13mLevV2lSyHEbsVmPRMjO5VIDhU7ZW7BUbKxx1864v3zq4wer7XhvKS5-QMBWqORkZCcGloPqHVfKE-oQxGLblip-IEQbspemjZvgepdzCnhTSAwMnAsKR51BZFtEdUabpHm1LqH5Plh8pQTaCYoElweuZuZsSpna5W0FpzuBCgBIAEFx9PtPT7_8Itf34FkzrUs641ZQIYL12KYfufem_117SfUP6363dm-wJh8zD2LKXDwfaN-Pgh6aUYUGr_CcmRdrDkmuocWH3MPv1ymnXG0gsQu1ZjFZwTQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10744006988372995428&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJAzA0N4-HUhQRZG1Jhm5hGpU.jpg"
       },
       {
         "id": "ChIJi88UdgCHUhQRXwuuy7fiMXY",
@@ -1540,7 +1609,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJV6YW9M5jUhQRO5SvsVjioRI/photos/AcnlKN1sft-SUmsNzKBbc8fSS0_m_ucjp0clO394W-DhvJcQGq-oG3Zf_4N32xnQqk7THC0h6v6o6QNHB2Nomo2W-I40qrDUbI0OMnQUmkz43tuyofkaOeLDZKJ7CE_iz_qCaJ9vi19LQMLeC5fT7QL-_v0eW91Qkke-GcDSsZSd8QqEpyEf8sKB3FdXYppL9EsNX1GJ1Go-cx6yccJFbroZv2bUa7hREiD-gZMw9iVrdm0Vhkkc5uLn6uXw1_K-oqsQxo-p0jJAEHG5tEnGtF6VZ-I6FQrIToYRFKeDkHMROc_TOaSw7RdkoXP7Ya95iMu5CzHIrGc0F_gKY2X-clRNIsXvJwTCTA_WW6pvaztne-rPT42ORUtlzdxHUUGhm1qFEzWpuENA-Kfc55q4-a5U5Wn8-hY5QZFzsmf4YoCrOYSm5A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1342603034499191867&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJV6YW9M5jUhQRO5SvsVjioRI.jpg"
       },
       {
         "id": "ChIJS2_RslaHUhQRELI-CKSehxU",
@@ -1560,7 +1630,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS2_RslaHUhQRELI-CKSehxU/photos/AcnlKN39e7TgHryFuAHgnkMS9_vtcdFcAxhdlhLQfONwKQP1l8NiAbpfI_DbQWf805ioxXOIwR3xkE6Np1bosesCX6dyuJetB-y-V4nH8taHTw-aImxqYQ9LmSjo2NrLNSYgqgVOF1w88xyhDaT2k2u0Q8ZIMbem6gYENbiDoNwxUogIn0mv7TlicNeT7oMBAINJV58h3ja4LkVKBXf29TNewP7k0XOi20RQRxq776Z8-av4qw3J1zJ_0Q4GCfTmsXCma5tqoSooJgLNcpZUY2LmDB4IxgFSehmlOED--nUGsQ6XIYc-8pocIWa8VMFAZ8qKzQxVMzmuJJwMGXUucOwDfdmzkJ9fxb4qdENgJuDXaYQCLpwqjrkIYYFZ4IdDOV-geTWWLQF68JZmf-jlQ4sh4a4pfO9YYJtIN1E23X6QKWS_NA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1551383024002576912&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJS2_RslaHUhQRELI-CKSehxU.jpg"
       },
       {
         "id": "ChIJg6h0QdmHUhQRIydmjKgQU8g",
@@ -1581,7 +1652,8 @@
         "websiteUrl": "https://magawishisland.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14434899546748626723&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJg6h0QdmHUhQRIydmjKgQU8g.jpg"
       },
       {
         "id": "ChIJny3RxGSHUhQR6L4rFIcz_AM",
@@ -1601,7 +1673,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJny3RxGSHUhQR6L4rFIcz_AM/photos/AcnlKN0Ztai4ggSJ2ywvrBLAnq2PRXnfRWo5Iulf7z2IDmsDF8fpH9XqeeB3OxViP8Z_s8z_PatPFn4z8kyOIglx2x1FBq71fbJZ_mYm1X6xXN_aVTkFVVzpggKRu-GSl5Y_SU5lHVYKFgu-DBXROjbNx5Ah8sP31057AdUOzVcf17Bu0EJ7J_Geb_z6dAcZZegZ9I8_PrJYKVfwtUtLvfaaNfSB4vTM7peL2t-ljHPA0vhrMEhSiGJ3YSxGxGn-4_zv4_a2Vm54XJQ1s42x6dRmTno0sQantkkRIkOrAHo9wd6sr_2ZVnv7DrJ4CRTX0uKUtMs51IJ_YSoCJ1ol37XIvEd_k0jlNLCgtose9ebzYjNqwEg0GAxjBmxxJ26umbUsqCg8YLFja6QrzMwI4qkhzjBD3aDx3jtd3Mj9U-oo77SP-do/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=287161131496881896&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJny3RxGSHUhQR6L4rFIcz_AM.jpg"
       },
       {
         "id": "ChIJZ1__lUuHUhQREoAzPcfpwVI",
@@ -1621,7 +1694,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJZ1__lUuHUhQREoAzPcfpwVI/photos/AcnlKN1Cy5E6ILbaTUrlv1CfffiBxaL5YuaoEltY9DArkHtZpAgc3bfiW6M9VVWzPcLguDo6v12xUJGvRKDXTlvxHPKZEl-fiS4S0M3M8ArKmvbHf31gPaSBJ_4DJgSDusv_q_Xv5jaABcgYoxKtU_6G8K_c_QHo3BqSICTu1mKm7m6hh8ov_ulb9xS-U3zjzHX2db8OcOhJXlc6qhmQSThq-RHL0is5Wfk6nvAPIc-S0uyuwu0YxNaVhpgpeMGO0tUqJ-fieOQnlW7E-ABMhML05YGg8zFNlepuwzl_Gsvs-ayQhBIEKlsskUd5sY66We3U96ht27To63Oa5eQ073l_bL_4AaCZJuXZYgF8BXaLvbtQ0pLeA4JlHk2ybAn8oqYmNqMjJgSuBF6bol_5SQ3SWZ3ERZ35UtF9q4njrzSxacMDtQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5963304423549796370&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJZ1__lUuHUhQREoAzPcfpwVI.jpg"
       },
       {
         "id": "ChIJK6zghW-HUhQRwnzwzu_Zny8",
@@ -1641,7 +1715,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJK6zghW-HUhQRwnzwzu_Zny8/photos/AcnlKN2o0N_3BCbqIkX1u3wKt17nIqCdO3wxSTixd3q_7MOd6qoSfa0BFBYSZIZgY5CBqhozpKFm_6LDht8hdZjKJSwpDwLE04-mTYoi5otfZzt1MQhJvb3FU9zb3FytWAJ7kY5pnJ9rxDIurCqgwP3Riz-fEisOkKntOdvb3BVN7M4kZIDQ_IPcRposeyrQMGdtbwu7q08daJ9XD3pW02sQyinU3QxAkMZCJMgRxYkdn-yJU0t6qA9J8HH2XOxSvd0muQO-Mh7NzzmW38zAoVdefeBI8vzmElZB9yc_6XDsNcqj1oOu2Z0HJC6E9rA54Pknx6j6kVGRxRf44z8hMayUa1v5WtR9SfBpR0mLw0QbDUi79KGQJnn5USEk3xK630Q8Czc_GkPY8ywgd60H09rr9EpFN1l9bnD8jt1DgwUY_jXxv2I/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3431701065071885506&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJK6zghW-HUhQRwnzwzu_Zny8.jpg"
       },
       {
         "id": "ChIJ11PybOOHUhQRcj_EnqoNdVk",
@@ -1661,7 +1736,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ11PybOOHUhQRcj_EnqoNdVk/photos/AcnlKN3Orwu_eqILv65_-7XWkhJ9_30MhWfvQJwSGyXEU018U3UrdokwqItw0aB8P8PPtL4uuW76gsfHx5AcsQ_c6vp-ID5kU7EQMDR4E-5q3e6XxoB4TpC4YnLBz_JG36O10eZMx5v-4-fYMt1yP6z0705LV8_ds00K5rrJaWWkNsFPelPh5B7-s82Oy9eXjLDmvHcmbKI_HuxJK6nIRx0pcClsUhuzMBxn2JxlNW-0yDaLlryDj-BQ_8NsB6KaScbWiIbpxM9s0j74a2yEh5TkC5DNAnw_O1G5GYktYEAMJw89xiNgVqa0zb84crLaQhoubAtA_mwGnwleGpYaiXLbW6ZQRzPpXhZ7WGR_Yow59CEG9lAfnc2Ja97GGCryOOtGwEUap1gJHfBr3IZFEfcgwIczkCXeXQPMM33mP_6gXHAVRoSb/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6446073468109995890&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ11PybOOHUhQRcj_EnqoNdVk.jpg"
       },
       {
         "id": "ChIJpaivUjt9UhQRFXxR1Z2MF18",
@@ -1682,7 +1758,8 @@
         "websiteUrl": "https://www.vetogate.com/2239925",
         "googleMapsUrl": "https://maps.google.com/?cid=6852099967584140309&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:57.798Z",
-        "updatedAt": "2026-01-23T16:09:57.798Z"
+        "updatedAt": "2026-01-23T16:09:57.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJpaivUjt9UhQRFXxR1Z2MF18.jpg"
       }
     ],
     "cultural": [
@@ -1705,7 +1782,8 @@
         "websiteUrl": "http://hurghadamuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17300251860579750667&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJz6O44zOBUhQRC5OlEmjXFvA.png"
       },
       {
         "id": "ChIJGWZeRDx5TRQRLbx_ZRyJlg4",
@@ -1726,7 +1804,8 @@
         "websiteUrl": "https://miniegyptpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1051178318092549165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJGWZeRDx5TRQRLbx_ZRyJlg4.jpg"
       },
       {
         "id": "ChIJXQILICGAUhQR4O-ThrUVeUM",
@@ -1747,7 +1826,8 @@
         "websiteUrl": "http://www.sandcityegypt.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4861941142114267104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJXQILICGAUhQR4O-ThrUVeUM.jpg"
       },
       {
         "id": "ChIJx_A5kdlnUhQRSNJeg-fwJns",
@@ -1767,7 +1847,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJx_A5kdlnUhQRSNJeg-fwJns/photos/AcnlKN1UP1pKRt12cYawK6hXf9ytiAjouvKhrgjOhQgEHRXtog6EanKSludnm6bewNGX6JFP2TlJ-Yv9zImpZLekwAPzUKoxsGtLeXhGmxHqwTzZe-9DVLPcKHlUdSP32ng5A1RhNluG_tcuFtr4Cj7L2PIzxXbaca33tEnuC6gP8CrJ7qmSiXE6TV3KvFSC9B8wtoL8qMKNhv1BkUjjvQy1vkZ_DB-7-_nei2ndKARibXCnQJdFg_AuPb5bBpRo3VMu97byTCYYzmpx-yOwINy--SZkF6HiaAppwn7IusWNPVkietAzHQ6MHtqzPAumZHKqbCPY7UUf2pM_2nDrwSsTSiLk7GyOv1T49JAMcfc0s4zryov7XK31ATxJyf9KBb2HujhDQ2HoP_q1-gJlfms08NjSaFh7qdjg4oMw1rBoljhKkA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8874044992912282184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJx_A5kdlnUhQRSNJeg-fwJns.jpg"
       },
       {
         "id": "ChIJqYkOh16AUhQRqs1IOFlqJtU",
@@ -1788,7 +1869,8 @@
         "websiteUrl": "https://hurghadaaquarium.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15359080510622584234&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJqYkOh16AUhQRqs1IOFlqJtU.png"
       },
       {
         "id": "ChIJS99ygrp_TRQR-ppPOtwz0GE",
@@ -1809,7 +1891,8 @@
         "websiteUrl": "http://canvaseg.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7048190437798943482&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJS99ygrp_TRQR-ppPOtwz0GE.jpg"
       },
       {
         "id": "ChIJu23na1OHUhQRL1b-4YkH3bs",
@@ -1829,7 +1912,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJu23na1OHUhQRL1b-4YkH3bs/photos/AcnlKN2sprqd3aHfuLIYLk2yBcS9Tgq_dcTCnJ4pQvor1Tb_1WXMNwVbpkyW8YQyq50OmU3pI4hTyE0xu1uP0suN97DzG2hdmMz8Ze7dsI08rP1AJI1_0hAQbSf-oAS3tFV_Zcg4E_q2pUX9j4Z6I5-nFvX_RaK3LqsEqVrz8YzWQ4dABw67se9qJ2k3YFI6E3VGu0DvpSNKhgv92fjoM9DBECmX2BwfRiObcy3kqBpFSCYNTLXz9XDvrJ6-3P-dZa8BLCLlU8FgzpuVrqBlVwAuTPZU51Bh0lUdFguGYLjfJaJdVQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13536984343729034799&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJu23na1OHUhQRL1b-4YkH3bs.jpg"
       },
       {
         "id": "ChIJk9OFGFeHUhQR73GyyH81cwQ",
@@ -1849,7 +1933,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJk9OFGFeHUhQR73GyyH81cwQ/photos/AcnlKN1w_mAKnmQ3Y6198hW1OAkhsA-a0LIN9rCCm_-8GpWccHC6Co1GdRj1PbPQcTzpfxh6ZoKMQgpeVJZpPJs9sRwme5nPOQxkPXrYk7sVzYBg6RqneYvz48NbrEw7ZcECLYugiidSbL1WNU_g4pHixurzD7cDOA5ylNoGvipgYLLVITeBz1-yr9BgrCQ7N8K4Lbm37xnPKkBuylX8_CO061zwSxcP33KGfLr7mOO7cg46Fe5020yfPWcjEQbERITPgsWVcIFoArTKpgx-0E7mdbV2Cvg_Oy4aZvj25eh4sTd3M4rgkEApce-cwcbKdsShK0ieEu7dxEl947SefyGxrRY8PpTg_XNjUuabr4_EGVslAfJVti4n3dXe1vOqTmBfLa8at8TVBTjvNbokqUiTH8rYgOnD7dZC-ruoqaT6TwNToTLt-z7U8j4vT-PnCoku/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=320658821417693679&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJk9OFGFeHUhQR73GyyH81cwQ.jpg"
       },
       {
         "id": "ChIJ54HhHQCHUhQRhWxbegwruxo",
@@ -1869,7 +1954,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ54HhHQCHUhQRhWxbegwruxo/photos/AcnlKN0CH6KK57MyLDYjjcAnVX1iJJqapkAbwLgX9KVdJsF4R-UhSHJ1ETp_eYMCFfNjEIam1SMBhAKAZ3zWsxufIIGt_7fAjOZyQZ_GjH21l1aj1wqU6LeHMTxW42tJQWoPJ9vvAWo6fvboeQEkkWW7YwhgMpE3cd14C96M9ULb1Zo60xzpRI_1dQPQXKtnK2M8z1r_QI5QEpEw_PeycHv2_Zi9oqp9YHpV3sQ-tT_oczaX7VD4z9PoU3tuHVV_E9bg66uZjaj0vW-HnNF5aFTzd9WY9ry59wk-ZQkSdjyePDayXb6DvbDT2MJJDRj20Oi5N2VSeBYlAbsAzeR8XLMz9hVPs8fpb5dlt2F8t2QPRrJuD73DWNmMMdJKH3DkJui5Vl_EkUJDJrHnoCB9CYitSmpubPabSC3D068rXcb6tNAizm9VkyGoNXklHlnHIFp4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1926180598223432837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ54HhHQCHUhQRhWxbegwruxo.jpg"
       },
       {
         "id": "ChIJPfVxgh-HUhQRj1KE8BwgQpU",
@@ -1909,7 +1995,8 @@
         "websiteUrl": "http://www.tam.gallery/",
         "googleMapsUrl": "https://maps.google.com/?cid=17175983856480190314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJpzFafCFnUhQRan9YsVBaXe4.jpg"
       },
       {
         "id": "ChIJQ-S_vfBjUhQRrvoUo3qdoj8",
@@ -1929,7 +2016,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQ-S_vfBjUhQRrvoUo3qdoj8/photos/AcnlKN1rDwRxccz9ZcN8K2axalMYNHEai3ncBhoTZifkYoVwSxieSgYHhCzGIrRojwx1sYjem6evdVGCNNSYuN8ZYzsdn5A9yDtMhjgy8mVh3vqDFNaUukhhLOz0182yVn4GyXlvalAvFQIuE_9cFJ-3-rppDvAVvya5sNBazf5mL4IoF9o31QaZ1H_7rf6QLM7QMiYdtPEPERcrq_LmXrlUFCIMdMdlvnH1wZvBXwg0Msw4BAKuPgtf2YOX3r2dj0dSEuOOIeLPsXDkcFMKYVi2dhDIYcYTXiyrs_bru0-J0spUno0UKRucu5zvLUMwc1NdNeMkuBCWhM_AmXLfK-he8OTHHYGyNHCQsfArY34Aju_XQ589M5rluF3HsuNbdSFQwFtG37BkMKrWDPR0PGuPWiBAYmmGstSjGGrefHHtlFOeSwfm/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4585400520664218286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJQ-S_vfBjUhQRrvoUo3qdoj8.jpg"
       },
       {
         "id": "ChIJ2w1HdQCHUhQRMOE5zlhHA0g",
@@ -1949,7 +2037,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2w1HdQCHUhQRMOE5zlhHA0g/photos/AcnlKN1aIZ68bFgVZ7SUf5soceYL171jOGxrXOOhUz9C6FcqB5GjHfEocNrZASBNeqWEB8nI9eti6axVJ0xyZuqbIwVR8cjopGpoyhgjvo-6FQEcatR18ZqfRN0jJLF20zqLpXiWS0uXDx38ocWNoalfgGz-3r6DxIssQN9LJTo87VUVsRanFcXrkCaPV1k86nnDnsCeJeaSW6wiyDAqRTGyyOwwCbFPV_mcC4qpk9gjysInbW2KnrY14qdWKv1-Ru_bwx3BclrJiXwSH5ieAd9hX4p22d0dRl3JxROUwQ4eBEbTZqE8GxU97lWtAQmuxuJLGTECRQfuZW19kXxZGLlheuGHWeXrV2Wx4e0FSKuUYV6e0trhwwE27yhEMii-98fNhI7GvMEw98873LsmePXSFvXIVea7WrCive72xBK0gCR7y3FotA0EPmz4F2b05bAl/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5189069642403537200&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ2w1HdQCHUhQRMOE5zlhHA0g.jpg"
       },
       {
         "id": "ChIJ0RBFsi6HUhQR4L9Fz56ON1Y",
@@ -1969,7 +2058,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0RBFsi6HUhQR4L9Fz56ON1Y/photos/AcnlKN3LL2UOeaDpNbLTsperz5hMGRjqQJMHHeqbpJRiqbVsKzYRapuy9g9dgya6OAHV4ikOOkJwtYItoHTf6sYs6tY2sLC9n9xJzYCfZLp2J07NuaO5BuddgprrtVY0B1GYkydirwdTpITJ73MlXsDHSKL_m0qiHMK0ikOEnCvJKzSTlOzrbissCCnP8gJE1sGFKTsgP6lvS3ZOIP5rve_YIyexTOlL24Nfr1dN9xMf7T6lqe7L2bvTTIdVYljj_htM3tPAGY-ld3wwLQi3yJQJ5NWJiNskN8ZN3CFfe0IAVUR8EKKNcAxtgsmbVGdaL4Kgtd2VivM3uqlyFsmVxo4Of1NiGXeSFmDFdJv4FXtX1a451U6imC8Rm4MZUe90c_F_ehHAhYE_UvWM0O8LdtDthClmzb5GLvMUjZPLF2rUpO3yLTl9/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6212591023714320352&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ0RBFsi6HUhQR4L9Fz56ON1Y.jpg"
       },
       {
         "id": "ChIJOR4T2UKHUhQRpH7f72MsCCY",
@@ -1989,7 +2079,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOR4T2UKHUhQRpH7f72MsCCY/photos/AcnlKN3PDijTOGfOWmmKaV7_b-plkWO59XrWoMQfXcgXtQ4ZyxfeEriXglFfQxlRX7XYYGBz4tOr4j_0rlZfw3avztEZmCcBCw4J29SYCWpO1CRweBSGwZaEcuVQZ8itVQ7Qh1uC_ZdPldi4MB__vAeM-GtGXOI8hlO5SHITOPY3AfIO4S-ipiYUXv9FiVeYgFv98IpZVqB4Qou7vZovt-5vOhnKYDaBgGg9n9D0Q3s_4dILuUP1YUh0vZHIM8rf21KXLrcXz3XesOERHQ2K9dPl0xUZkEzAxDCf2Su50Of2gr5FoQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2740489180992732836&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJOR4T2UKHUhQRpH7f72MsCCY.jpg"
       },
       {
         "id": "ChIJb0B8EBOHUhQR3SmIgT2YR2Q",
@@ -2009,7 +2100,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb0B8EBOHUhQR3SmIgT2YR2Q/photos/AcnlKN0ijG1PvYmSSweLD9wzb8XgWjbj5Il45X9ctoceHcmRLZmUPr-_ycGBIzR18BS-1robH0vtwgi2POdWha2dGt-wbYkidKJbQwRgKBM_I746IY-WOh93BWaSBiW8kw00sr0SgSJTkSc1wAN5qD9EWjvzPC-L27gxNo4hFPgkpLouHx06D0ajun5dqINSh69xpZ_Htg7dNPts6M_i_qxBQV9BRjIVNf22H2pGaRBSdkbmZdanfSttGee5ETVyE5u6JNebndtTk2YJuelAb6Sy9E9Iz1eOWhhAQkZZnXrm0q5f_g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7225911517072861661&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJb0B8EBOHUhQR3SmIgT2YR2Q.jpg"
       },
       {
         "id": "ChIJL4_r5rqHUhQR9pWb2PrDBq4",
@@ -2030,7 +2122,8 @@
         "websiteUrl": "https://www.facebook.com/groups/426045194636881/?ref=share",
         "googleMapsUrl": "https://maps.google.com/?cid=12539925694603040246&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJL4_r5rqHUhQR9pWb2PrDBq4.jpg"
       },
       {
         "id": "ChIJHU1laaKHUhQR1JZP9yA5fOM",
@@ -2050,7 +2143,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHU1laaKHUhQR1JZP9yA5fOM/photos/AcnlKN2d_WP0p16u4rOLT0AXrm74MFd1Oy1g8_eR-dPQvCptvW1ARLz6lsmLDzchlU6MPC1cqaGDxE9dcYN_RRqUtGv13LR8BT_ItPk5TgLh2oF3Hgc5pg-Rap3RDoPQbzKS6goJk58ccgb9fdiIetXhcQtNGEwfylpySzPGQsMHz-pdC_h-xGSJL_ZdtS0KhAbzOWZbiBGKSvB9VX-SGOMZKpcvQp0VAS4yhijDmBFA85juryxYOV7eAA8At0wT1muT-I9ReTtkf5RxA7Iqk22LIZj4XMG7wOzw6b43oOj4Xj1Hpg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16392039557472687828&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJHU1laaKHUhQR1JZP9yA5fOM.jpg"
       },
       {
         "id": "ChIJOdOlYnSHUhQRKeKuL0aP4No",
@@ -2071,7 +2165,8 @@
         "websiteUrl": "https://web.facebook.com/khayalartgallery/",
         "googleMapsUrl": "https://maps.google.com/?cid=15771763426661949993&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJOdOlYnSHUhQRKeKuL0aP4No.jpg"
       },
       {
         "id": "ChIJSU2eCQBjUhQRG9i9Dtq-dm4",
@@ -2112,7 +2207,8 @@
         "websiteUrl": "http://www.niof.sci.eg/",
         "googleMapsUrl": "https://maps.google.com/?cid=6195571087096490906&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJK0D_AcpiUhQRmisRAxQX-1U.jpg"
       },
       {
         "id": "ChIJYxG1vT6HUhQRIaYwvP8ll84",
@@ -2133,7 +2229,8 @@
         "websiteUrl": "http://selkhetpapyrus.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14886408873600656929&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJYxG1vT6HUhQRIaYwvP8ll84.jpg"
       },
       {
         "id": "ChIJ3ZLvATaHUhQRoySY35U0gxg",
@@ -2154,7 +2251,8 @@
         "websiteUrl": "https://www.3rby.chat/",
         "googleMapsUrl": "https://maps.google.com/?cid=1766313297165427875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ3ZLvATaHUhQRoySY35U0gxg.png"
       },
       {
         "id": "ChIJyTT8B0CHUhQRKRLdasE14EY",
@@ -2175,7 +2273,8 @@
         "websiteUrl": "https://hurghadaaquarium.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5107141082275975721&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJyTT8B0CHUhQRKRLdasE14EY.jpg"
       },
       {
         "id": "ChIJebExMWiHUhQRuLqNrIQB9bA",
@@ -2195,7 +2294,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJebExMWiHUhQRuLqNrIQB9bA/photos/AcnlKN2RfUoybxgQOu3QRro2ToS1Heo-RFyc2X3FLbRIyd1-TJbziOb0F5p4Sbnlv9nqMSWEi8zlgpZXD5v3lSq8EU5uMVx6-ifhip3IYgdbrq-rX-gJJFmwS_fQC4uqfnMJ1cESMvcLaho1VaIlFHyzs119GUjToxLqCaHSchfUNmF5WjCtCw2gtsPUendM1davq9I8S9AnhVjG52c20ozMKpid7uqxUGPLzWSTlYphKEEpl_Hv1qQ1D440FwKn8e4utL07SG9-oWXXE1gT-yAG7CALm4lGGJXLesPgc32bdybQzj-ywVFUPLDnn-S8-vIX3CK8RdH2tZMS70I5BAEzSi1Z5fr1bVXIbn4CVNTWISSm9RYbb8CsBDrjpLau2kzKOB3JmBBtARkoOgUoqcDcNHgJBLXVMhVJdIY9pn65zMgkSBLl/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12751099589311707832&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJebExMWiHUhQRuLqNrIQB9bA.jpg"
       },
       {
         "id": "ChIJ5dCvmqmHUhQR6unWAp3pTpw",
@@ -2216,7 +2316,8 @@
         "websiteUrl": "http://bonehelfayrouz.weebly.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11263196578666965482&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ5dCvmqmHUhQR6unWAp3pTpw.png"
       },
       {
         "id": "ChIJOz8NWKFjUhQRKHb5l0Yl82s",
@@ -2236,7 +2337,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOz8NWKFjUhQRKHb5l0Yl82s/photos/AcnlKN0DWNLWhmfRV680XWEQYH55K9yHHZ2vr34Uz6HIcDW8d3hsGK8yjR0ifhHUJ4mV-b-ieePRT3aFO5-fv0grTvQ-SPzY7p6uGYvkXY98UXXE57evluz6JJHKblh-3YiO4v2_nR7kZfdrvvtsCC5qhr7tWUhH_J3Ou6ZqqIkol-aEoZEgzcD7cjNUMyHpka1ZgfuZzkltaB8bCb39iVCcUqElNHNxHDhi4oVb7F0A6zUmlSxOPnm_QNxXi_7dgaZ3HI0iHLDpdBMJcGhyXgnqC5EqNuIbXCb_HjB2JdzaWyuBBBFddPKKoC783l5Bk_LyhYjF6gsx_D3Hb-GVk8GXsKMfxNFsHRonDvGbMFUbHWiL7DCrNH976IAeSsJ2dfC4o452OWAncF8Te2P9A6JB-GuTYtRN7p9WgOY44fvk8d1AgDZeI3jC-9djMBw0mVkX/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7778601966526625320&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:59.188Z",
-        "updatedAt": "2026-01-23T16:09:59.188Z"
+        "updatedAt": "2026-01-23T16:09:59.188Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJOz8NWKFjUhQRKHb5l0Yl82s.jpg"
       }
     ],
     "relaxation": [
@@ -2259,7 +2361,8 @@
         "websiteUrl": "http://www.sultanspahurghada.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9027421620339567324&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.508Z",
-        "updatedAt": "2026-01-23T16:10:00.508Z"
+        "updatedAt": "2026-01-23T16:10:00.508Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJNw6o3zR9UhQR3GoFZiLYR30.jpg"
       },
       {
         "id": "ChIJO3Dq-y-HUhQRcYF3qy4oRVw",
@@ -2279,7 +2382,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO3Dq-y-HUhQRcYF3qy4oRVw/photos/AcnlKN1zc7hq6jd6S1qUcuJgeFI1ArIq4YZ-uaO9N3H-H1ElKPXbkHL1F1VE1SponaDQQETsFdTUMJf0ozvu_zwWC7koDpEvUO10flAPTYMiU2ahgEKQWlZ73cPWGnpEKqY5U3ky3vCmvAf9rAZh_Qez8qv05pcD2rD_EU39wonZdYnBWemqGRa9ogABu-lYArkKJzBQtESVYc3V5-CYgTlpPnz1PwSQ1MTwe_kZeoYc-U74zo9VzOmEh64SrYxWWKrdRRLYJwcVSzng-zUiTmlb-SPVd1epXYMP9UYeJrKK47hnxg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6648764605792747889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:00.508Z",
-        "updatedAt": "2026-01-23T16:10:00.508Z"
+        "updatedAt": "2026-01-23T16:10:00.508Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJO3Dq-y-HUhQRcYF3qy4oRVw.jpg"
       },
       {
         "id": "ChIJNSpKp5OBUhQRKH4hZf3DCgE",
@@ -2300,7 +2404,8 @@
         "websiteUrl": "https://www.hilton.com/en/hotels/hrghitw-hilton-hurghada-plaza/?SEO_id=GMB-EMEA-TW-HRGHITW",
         "googleMapsUrl": "https://maps.google.com/?cid=75087836895870504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.508Z",
-        "updatedAt": "2026-01-23T16:10:00.508Z"
+        "updatedAt": "2026-01-23T16:10:00.508Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJNSpKp5OBUhQRKH4hZf3DCgE.jpg"
       },
       {
         "id": "ChIJbWAlHfCHUhQRggXmBQ1vXDU",
@@ -2321,7 +2426,8 @@
         "websiteUrl": "http://bellezaspahur.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3845070283591779714&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.508Z",
-        "updatedAt": "2026-01-23T16:10:00.508Z"
+        "updatedAt": "2026-01-23T16:10:00.508Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJbWAlHfCHUhQRggXmBQ1vXDU.jpg"
       },
       {
         "id": "ChIJwXFhxM6HUhQRvvvC3qGSQFY",
@@ -2342,7 +2448,8 @@
         "websiteUrl": "https://cleopatraspahurghada.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6215128709695994814&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.508Z",
-        "updatedAt": "2026-01-23T16:10:00.508Z"
+        "updatedAt": "2026-01-23T16:10:00.508Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJwXFhxM6HUhQRvvvC3qGSQFY.jpg"
       },
       {
         "id": "ChIJeefHnVmHUhQRrXYJ8HVmhwM",
@@ -2362,7 +2469,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJeefHnVmHUhQRrXYJ8HVmhwM/photos/AcnlKN2rHdeKLqR2e2GbFHXAdpTTD-IOJFawzMlEVt5ZBpWWzTW8S6Lcva78Qg_-QiifPB95ovAXFoNq4NpHZR3ckLJEg8OTMjxKuoXjerYeDkl_tcKWekHxHDnPNNLjv3mfDFw7wLxAnHDUgdnje6sdE59rwmOpb-tRzXraeWOEUG_h5UVYP_iTXOfi5OlUtXO4IVsVyQRkJ-TJoQ9TlInW1xmY9Dr4KjPKSTWGB9tdZO8ME8-kDPm90QuHdWYpv81wfWdLfc5ZU2FT-vemFmxIsNH4O2hjYkZjbrkdK_ql6ZnEEND-hxvXze6BapkvROzGV5s2U89vGF0kF4sGxFGTe08UgyK3ey_oll7Nb1GcDjkcT06EEgzZJAEOCcyJ31AJUV9tGlpyeYnP-l7mHRlLkajYwc4HdHYal0tzvRoCNyk9wONLE7RSJJfLvZUOzA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=254284560694081197&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.508Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJeefHnVmHUhQRrXYJ8HVmhwM.jpg"
       },
       {
         "id": "ChIJfc1raQCHUhQRMOTR8vfV-gc",
@@ -2383,7 +2491,8 @@
         "websiteUrl": "http://bellezaspahur.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=575007163350639664&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJfc1raQCHUhQRMOTR8vfV-gc.jpg"
       },
       {
         "id": "ChIJwScvpnqHUhQR-vsrjbEYGwk",
@@ -2403,7 +2512,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwScvpnqHUhQR-vsrjbEYGwk/photos/AcnlKN1D_sg4riq51Yg3Y8eS8vuldaQjGSocxgrIqw9-zNeCyMNnsiInTIwt5jYxIwk1KKmkGY-OiCQn0j3qAYBFUKwi00AiTdwhY1x2sIGici3FZItw1EWc9Yh4s0JTz1Yp2bK9wRMx_pwfaXoCEo-szhvZVzIbNOKlVwjUqCH_U9skBv8OEt2ZoMmgFhtx4bjNEMzDmGxG-clwa05mbOI-BIMWxIzMWti6BgVt807ig_pm4gxzptqqq-QLpqAbLa5zlouO26mhj2Wo4FWeTK3eDF4Foc7esYuuZuAk5ZyHxV6I56Y9hn1r1YxPKGqjqtzUyjxDYJvcQ2QJf5S2OBv4jlVvt84jB1Cf2bjMcTBQyQ-cYpFXuXaPtEw_KXvYja_Y9LCcjHCESigwoO0ID2EcU2AMbKOyjtiY8ROMHtalMZUwXMJN/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=656145321569287162&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJwScvpnqHUhQR-vsrjbEYGwk.jpg"
       },
       {
         "id": "ChIJp2utgamHUhQRN8feaHd9z7c",
@@ -2424,7 +2534,8 @@
         "websiteUrl": "https://www.cleoptraspa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13244942980933928759&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJp2utgamHUhQRN8feaHd9z7c.jpg"
       },
       {
         "id": "ChIJX3LdMQCHUhQRDv4eeFkexcc",
@@ -2444,7 +2555,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJX3LdMQCHUhQRDv4eeFkexcc/photos/AcnlKN0Gey5MUDTBRdKNlu-PViGF7gr-CV4RanbpoIgUAldcjYm9aickzhM_6A4WyQ_gLAWHLETsPPFPKvOrUaOk3MoOCUZFDqXRrFg4UEHXcqaQdh8gdbKDQGb8HeMIGaGCQsCQGnwnDfYGayRTEuc_wmbir0vigKDba0VJvtXJD9FMYyzKIlUHOP-GMhfA_RWzyu5vqKZzFnzZd8h8U8Wb0fcch_Jdag8bK_y6qBJl03hTuNd2lqkmD7ioRHcz2HoGzMoXaOhF0phu4xwVa9uuB1_Aic-1NXe8bEHuzIM6wRxki_LM2K1krnWb28kZpV8TbbsBCUDUhbA7DmmaIFaESKVTvrqTRuUJ7nrvNYA6p7IGrB7xkP2sBJvLmbcswcelPbh9Lg8J7hmHzmCQi3ixlwuQ5cypx8ES84q3bGPsYklB4g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14394945153575878158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJX3LdMQCHUhQRDv4eeFkexcc.jpg"
       },
       {
         "id": "ChIJH6jGvb1nUhQRvSsFImDpY30",
@@ -2464,7 +2576,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJH6jGvb1nUhQRvSsFImDpY30/photos/AcnlKN32kgYmSAaotVhrspYZaDL6HjmVGhgnNcu6YDD_Y-E9DlpGc5py37-PXIJP06_8LEkED7ECjCC50xBBkEbvGf2rDMtwTd3lsoclWtucLl0GYbYMv0rUaJh-Rb3hT6vh4LyG545J73g2hHjUnA9C0CUohfC8IM6sop6PlI2h7t8ACBZs7klteJP7tzPv_UnEV2bwaCYW9TAOxpuLHR93tECgm0ONlbF-eghKaXILN5M0w5vGy_08JW9naMRs__HFrG8BoQdEHq7svYV9hHgt9qAkb79EOwB0NBIpJSOeeFD8tJCUHXhTLNfmYUIHDSyFcOUxVxNLguD06NFtpGcMsRRNuWQ6ecbwFJwmjFnafVvTLoFLGwXu7ra4VLJtuVLFGR_WUQ3uVwgsG2wwbveTKkAo20wMnrYNkSF3Ydyu5UQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9035321876532243389&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJH6jGvb1nUhQRvSsFImDpY30.jpg"
       },
       {
         "id": "ChIJZ7xXiNOHUhQRhkfSH545G5A",
@@ -2485,7 +2598,8 @@
         "websiteUrl": "http://secretgarden-hurghada.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10383956717134301062&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJZ7xXiNOHUhQRhkfSH545G5A.jpg"
       },
       {
         "id": "ChIJ65kwBCqJUhQRokKRPXeQSAA",
@@ -2505,7 +2619,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ65kwBCqJUhQRokKRPXeQSAA/photos/AcnlKN1JcyabPerRofa6MOII9aVoXs-WgU1e2Z2qVQP-xoyZlgSoV3v2kmccq4x5i2JCBH-phgEcZ77PcfEUiynAI2Dk2udTxIqsmBQFUlPGNdU9mMrrCJLsA6yAX_g0hnPI9GlU0IGKy6DgUloUUU7APIiIdMLc67K2PWIXEljHEh1tVPGTdL9neSKgGzOQ2HrVKtMK2aALzF1AfsmhuEULNEZJvzEhKs7DpMw7bXli43sw1TVZ1CZJ1MBJ5he_M_tQ1JkPfNCoRRnz5bFVHI10-P1WaOR0vuvXES9XsxMRSQbM0LLUnqdfp9rALAJRVKLHwYOGYmurSDfEi3Dk-6ZjKY5RqZ3MiZPIhzkpv4e9u7xJMwakb35JGbPFBz2-pWegQo822nK9-bCLlgBAn6mkgnHZuvSKnx4-1By_YN2OE8Q7x7P3/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=20425040131605154&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ65kwBCqJUhQRokKRPXeQSAA.jpg"
       },
       {
         "id": "ChIJS2_RslaHUhQRELI-CKSehxU",
@@ -2525,7 +2640,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS2_RslaHUhQRELI-CKSehxU/photos/AcnlKN0LO0RJdMDq8d43k0SlNV2e6JVsBQv5J-DsRm2pasKn7lQjCjOZVpJp6zd3VyH3laaoDSbLm4VzutsVyUpk0YEqe_-Ty2L9yZKoVpk6KRzWBt1RLemYWaNr0kBIJtwucEcSm69oZXmyHY5PhNgIWm6gT8Yuf9FDAakoALTbevfOEMZcHvdb3PdwBaXlu_tAXkjYY6HNaGIrvJK50ixSPkvCsoexRSpZMLxGvPhu_Gm0Dip5IUJKFi3KGXv8M_KMf8nMhDATcnakY65nf1VK5gOQkV_PoOv_TA07JqVY9H4eaKSbLhUMeCQZmxO0C_xKE7SuT_7sC2QIoY2eZbSQVp__jvkoV6vp0HhbUHR2M8eP62AB2GHdy22YzQ0PeM8pOPhXR_zfi-itUCzBC5-Ku5Z1ixUDwtZ8zHTy0I-yER_P_w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1551383024002576912&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJS2_RslaHUhQRELI-CKSehxU.jpg"
       },
       {
         "id": "ChIJg6h0QdmHUhQRIydmjKgQU8g",
@@ -2546,7 +2662,8 @@
         "websiteUrl": "https://magawishisland.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14434899546748626723&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJg6h0QdmHUhQRIydmjKgQU8g.jpg"
       },
       {
         "id": "ChIJhQLuGK2HUhQRO5FIo7LigA8",
@@ -2566,7 +2683,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhQLuGK2HUhQRO5FIo7LigA8/photos/AcnlKN1KtKqeQfTqOc6IW17D6PiZ5orJi1ocmyq-_1elSG3CSqBmzSN4hpvg-VKRWCK3Y_WFPOWoqkAnTh0_6MZKoLM86V2fTLOvNwXQe6H4HtSm3ib1aZ9USPSTzOzzJczI9hSSivV65eBcyLJ_SzzIeDDT-IMLH3mvC1dQvBNEH9tgI2UR4VwLKew9easVFlkOij3ImjVhbr3Rh9L0TBoz2B2wqs2vPFccqYyEoer-U9ZszwoIx8lHT2QekS_n2RccJ6iOz9bDO0Iu_zDGskWN6sLTuZkSIiwY5nGEad7kG8AvXdPEYRvBWeWQKnv1b3P8lOBGikqPk5uv4Ag3Uli2ywhLmTerT5uvDIg_uMt3ZkER8GazLMtMUhBT3DQ8FGGQcnJNigvVPcQqenlmMf4H33DZ7nLt63HMqWCebmOBELMnvw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1117141964459381051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJhQLuGK2HUhQRO5FIo7LigA8.jpg"
       },
       {
         "id": "ChIJR6o6TfmHUhQRiZRJAow9XD4",
@@ -2587,7 +2705,8 @@
         "websiteUrl": "https://www.spacamellia.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4493534199752004745&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJR6o6TfmHUhQRiZRJAow9XD4.jpg"
       },
       {
         "id": "ChIJv7QLFdqBUhQRvLOK5c66MwA",
@@ -2608,7 +2727,8 @@
         "websiteUrl": "https://sites.google.com/view/hops-czech-bath/home",
         "googleMapsUrl": "https://maps.google.com/?cid=14560621589345212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJv7QLFdqBUhQRvLOK5c66MwA.jpg"
       },
       {
         "id": "ChIJd8SonO2BUhQRtDdO0knWt1Q",
@@ -2628,7 +2748,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJd8SonO2BUhQRtDdO0knWt1Q/photos/AcnlKN0qqePMKtz8Vd8APc7skvtnLVkOw-HHAnR73Elxy0XfX2JljU4jI86k3w3V_CJ4RkVCJZyN1s3GigUL5huuSRpKlcEKIivBj6Yr8mAWbQIU_G8xrSHwbqOgpqIxChFb2ElGtOP4V-iXgLP0H19BCxOx0jc0RQzdhiwIZLy0g_eJ4hkp1zsdgNwDeIlGNOwk05168Xvv5i9jwZE0MAfp7ELCR7vf-ki7tDszKiWz-V4njMpQcRYUE0XGY34sOBAqrIP2N-Sbq0_XPyK2orGOkofGJfZs5kI0wvEk6c2gZww3AKXKPZS45N4NaTwDS1Kai7Fmrd2PdeGVzbsyApBZzCXOyqUABI2eSyvIQF0pFMnebG-JfSmLQbDLg3HroP04kx_2MUhVbD9o6C09ZGcMeaZt3moSKILxDbKDZE4RsiT278vU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6104583432473294772&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJd8SonO2BUhQRtDdO0knWt1Q.jpg"
       },
       {
         "id": "ChIJ11PybOOHUhQRcj_EnqoNdVk",
@@ -2648,7 +2769,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ11PybOOHUhQRcj_EnqoNdVk/photos/AcnlKN0ZRhRZipV07P_CX3xupP6VgQay9riXx8I4bBav3ID-4YMnryNk6K3V_aNr4wsftT7bkmMjb76YADoLcFSmHoJnuq2tnYUCgcyjr05MFZNlEoi7ri2Nmx9C33qVoNhSeT3DBV6GlvyKoMBzCic42XXtlCqKPCJ1PTMEc9IWASYY91zEZvWTDOPh_sCzVDax1dMnbxq3xSoWM-ibC6UrApcZK4h64lolHgzw0LNSTlHgnepIXhHPi7B7UEInzLun2MaHlobElI6qHeHNlgbjO8bNFnvejtUrrctJeHtWGzUQT5okHLd4fl2rMtZYIVcR_ha7mzcWQKeB_DwqUiQOrXpGwLCa3d7vs9BF07mTZptOULsA-Cujj_KyREXuhU5L8ZOkKh1gwLYPxK-tGOFrARY6D5hyV-zihCS9IVq1cglk6T40/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6446073468109995890&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ11PybOOHUhQRcj_EnqoNdVk.jpg"
       },
       {
         "id": "ChIJzxwxVN6JUhQRRxyHPxUIr4Y",
@@ -2668,7 +2790,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJzxwxVN6JUhQRRxyHPxUIr4Y/photos/AcnlKN1sUylw5hfnwqRpd56BR6dpynJ2pH41g2mmP3G9bZYe-lQa4rcNZcGfV4txYfex7vcvTEKt_jJRT6IO1JW4hpT3FV6N093TpclCRzyiC_dOuqBxIchL3_Ry80hDuIw3BMFmveey7iK6K4Ca9WfyImOfEe9tO7B36Q5L1yHU7AOEP7UI7jOcyNKiTt31FjQs81DBNkrnSs-_IPTR8A4JCojcXWFUKMIPa0gmsqmPwcO5ZEuwqs3sGwD1giDJNDQyX4ggjqTimM2OOxdI7RMtKmF6BbyBnU7zzB889lzhVIhBZuCrGh45dDEEVtOWS6aRoYZ-gGNSGd_eKAHJqhTf3tiAoBKt5rRKWZx9F3J0LshnNteZGuc6IcJ2BUqKxFhTpWDHRSUVKViuwxggyagyIscdVxboM1IrwveHgpNN7Ah6wA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9704984609359862855&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:00.509Z",
-        "updatedAt": "2026-01-23T16:10:00.509Z"
+        "updatedAt": "2026-01-23T16:10:00.509Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJzxwxVN6JUhQRRxyHPxUIr4Y.jpg"
       }
     ],
     "nightlife": [
@@ -2690,7 +2813,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJT65WAwSHUhQR0PU1t8n1Mno/photos/AcnlKN2H4as_FlrdMkYHtet9oc6aacIYW1aevmqvhTOgu6rYY-A0UtW9njo8tArss3r6rCyUUd46Cf9UJPNylA271L5QzTxAPSvo6bkad1UW21HJvFTgWO9jZufNhSGaFAihE9jaE619XVf85XwQn6-ydW1LT53UtjFkT9HToqZGCCKql4VdbAskk9skmTFftRxFCa2UaAG10bm3dlOwv2KohMncgseVgMYCzVgQ2egoDoNopVuNVvgSHQkE7J-bRNpwb0Osi5zpQZZBo3vNvhxO5hQMDWLVwwSMU5o8RX8YjsOjVQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8805370468173739472&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJT65WAwSHUhQR0PU1t8n1Mno.jpg"
       },
       {
         "id": "ChIJf4_68CuAUhQRf1ffAM7hmM0",
@@ -2711,7 +2835,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJf4_68CuAUhQRf1ffAM7hmM0/photos/AcnlKN0DYY_SJRph8ZGTN95M-fhLcHkrhlz4IzepaVx_wz-w31XDQ54NRf2B8Hqqthbi3x5C3q9VG4tHT7HSFagtA4yfBy_CIWVDlJUMtR5Oisz-sUi0yOlf84QQ1yGeIs8Lb7Cerv5Q23bDorvD3T_dwnO2sNAvZVJ-Lv6YdNN5kmi8QqrxH8XINC8VV_Vqhmen9iwQUZgiGQLxuu5s2VCzDAZz52Sqvsq0SGd8vM84j5IcbUSP96moIkY0YHWofgo0xYdc4g2HXdlXWCv-8vni8bkYAyGQ1NHXPVmD51nBmfKwrcNO3sulUIPorS-NLJVXzBOLuH36oFESzBg4G4zCAb9qnNQ4Z-E0p-RB9KwXC14QZ4etCr2Ncyrfgv94Jla2LIgowh4b2hJxjC-WH6K3_mcNNvWFxRKhwmKE0xBwB14/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14814839249129396095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJf4_68CuAUhQRf1ffAM7hmM0.jpg"
       },
       {
         "id": "ChIJgZV7K6VnUhQRIpG7U91AQGY",
@@ -2732,7 +2857,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJgZV7K6VnUhQRIpG7U91AQGY/photos/AcnlKN2aGS1lfSsY9tex_VocmeUi-M-Lh8zwOmOs4IhiCuw4NraQt8Tr-LK-tc3lhfZ03lyq-kv51lbZ63Sv7pvGefK3wdCcNPqo5EjkcYYoS-K06MZyoQppesz-tFZZawDlolFc6H58umb5atzkVllrxr0ulEtYxQP5Pc-JK07RgKIyTrC1Jf3Ttc0e_3rrcRiHTI5TLw4sRfXUXw0mISQJEMVuMmJ0VrXWIJ_Fx3ba-Lv6X6r6L7ccBKMjdWvOdUqWnXyM-LtyucdpKe_q5VGnjjfnDf_bi19yP_Y8QZSeJNhxq3wRMUbOIZzWO1-xGbPic9p3dGvCGFFUFot1uBpNiRjPvJZqgGvZ7KJ_iXOdT8MUd1Gw-VFfUxktU1wzpovLoUpJemx6GwxCFSrIp-D08J-ddLD1niut6aYw_0m_KYw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7367960309714882850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJgZV7K6VnUhQRIpG7U91AQGY.jpg"
       },
       {
         "id": "ChIJ2eV3vImHUhQRZ9n0d0titOA",
@@ -2753,7 +2879,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2eV3vImHUhQRZ9n0d0titOA/photos/AcnlKN3092mm2fCol63RCuvr3jDZwcIUjbsMDHWBeV5JRZkFSRrNY3YWcxvdAgnpX5jvI5kYxS-UNAZHw4dnmY6p-4iTjb5iA2bT7UUcd_liz6qnLHhjTARLMVymNOz-3Zk9sPNNIyZia_iP7LiJJmsJgCdgyDMgC2ReoTI-y9D30Qb_vTYK-YhZb4S7FxznDzwwnKD7HjKyPV049smWYMgD1X3tp4MQOu96AZYQUttBAy3osdlNwX14XG1SpxxuWpHxYu8P6Sbw698Dz49mGtB1B2xKCk07y80PeoD3AKIf6kY-_w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16191674636578380135&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ2eV3vImHUhQRZ9n0d0titOA.jpg"
       },
       {
         "id": "ChIJYcrjv_-GUhQRy9ZxFi5OH_w",
@@ -2775,7 +2902,8 @@
         "websiteUrl": "http://www.facebook.com/caribbeanbar",
         "googleMapsUrl": "https://maps.google.com/?cid=18167325381687891659&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJYcrjv_-GUhQRy9ZxFi5OH_w.jpg"
       },
       {
         "id": "ChIJ4XgCg_uGUhQRA7H0j1O9lwc",
@@ -2797,7 +2925,8 @@
         "websiteUrl": "http://www.granadahurghada.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=547114046343917827&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ4XgCg_uGUhQRA7H0j1O9lwc.jpg"
       },
       {
         "id": "ChIJy6Jzev6GUhQRvPN0UFIEtGc",
@@ -2818,7 +2947,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJy6Jzev6GUhQRvPN0UFIEtGc/photos/AcnlKN3rj1M7zzTjQ6YSwz0Y0k2AEOv8fEN0dNfNCZnCN-Tbt-13fjKJNKUehpyHI6frVA64m23CgOuBa2UV9S5p4oIomh7fhID6A3wlReEg8jVgl5rYt1Jx-FAavcvWNBy_jNJz-QRuFGJcZpwwcmZOdr2wM-0xAb-8XnUMOReukKpmIOb-hTVTLMRPsoR4SjlTUYseANVmoS6HwN_9azEJn8zWerjmyq6jJbrT_LHp8VCECIBQvJdOC4YiKk0_J7Nlqc1yA69OTFVEPGk_-uagyXyFNcDwy2sy9hHjT2bjiqFlUqYnSBDiLw6M5qMK8qwPZ6aZ-pai4TYKx-4s7Ty2LrvWqsccsXYoH9Ndr-Uk3FnMD1KQqN5rb64UBZMlqfqnkKMgL8cz9WV1tWexbDw3ZqzmlV1dRSnkCrwsatbKH3e3yWll/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7472602433298166716&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJy6Jzev6GUhQRvPN0UFIEtGc.jpg"
       },
       {
         "id": "ChIJj9B_bO1jUhQRWyt0Tynr_Io",
@@ -2838,7 +2968,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj9B_bO1jUhQRWyt0Tynr_Io/photos/AcnlKN3y3rEcS9vcn2D2Coac_ufzS708U1NTR1RlwAR69jeVIvSjKzf6u4gfMoj4EaLTq-3U66BwSXM7UHSA9o3yUOEjysR9irogxiijN_JRmqd8wWmcHvdW7-xbljdIEGWJQrmmBy3dJbNNkLC5a_wBeHT7l41Bz5rCfza6MCh32Di8WYI9iVhCxJ8uycBEsqawdeY58qUPAeWyk8TTMRqW04OsMHoSH_ecqTEFr-7AIli3GkISso8FzJnrlNLz-Ihcy3of4DOksAwMtRzVNMmbiReLyozikxWaMrimbcIgtLkEpw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10015138234024340315&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJj9B_bO1jUhQRWyt0Tynr_Io.jpg"
       },
       {
         "id": "ChIJV6uiGgCHUhQRS9jMeF5dBiQ",
@@ -2859,7 +2990,8 @@
         "websiteUrl": "https://www.facebook.com/share/17JzFFhNkF/",
         "googleMapsUrl": "https://maps.google.com/?cid=2595864895560669259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJV6uiGgCHUhQRS9jMeF5dBiQ.jpg"
       },
       {
         "id": "ChIJMc0Ddw2HUhQRxA4Ml_tKpmU",
@@ -2880,7 +3012,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJMc0Ddw2HUhQRxA4Ml_tKpmU/photos/AcnlKN1wjxkvQ5Grd5Gxr8iEUa4PblKdnPkhyYP-eV_YOGAqNtRhqYQ94ajTg95MyNR4OcPVIamAjr67Z8Wf0SXI3222s-alh1ev7-zgan81oO6dSPQA2fb4Nwmq7Fs6mBq29M0XgWo1L7UJka-Gm8e_DD_P9XVGqHmBNaHMjAb7dZVeHad8eET6ejfLm1pZrDhIWZVWGEltzJKd4_x62cat1yXGr9GDCDZLvEai3QsVY1PG1zsFPVLmXGMgxcc1-KZfglQ6nqQMGkQBF9XdjuGaU8d32RTq1omP2lGovy56DKQXhQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7324624288396086980&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJMc0Ddw2HUhQRxA4Ml_tKpmU.jpg"
       },
       {
         "id": "ChIJ_cFhVU2GUhQRXvSrUflfSxI",
@@ -2902,7 +3035,8 @@
         "websiteUrl": "https://www.facebook.com/wavesmarina/",
         "googleMapsUrl": "https://maps.google.com/?cid=1318252840357721182&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ_cFhVU2GUhQRXvSrUflfSxI.jpg"
       },
       {
         "id": "ChIJg61lIZeBUhQRguacXNG8QSM",
@@ -2922,7 +3056,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJg61lIZeBUhQRguacXNG8QSM/photos/AcnlKN1geND8q3YLzC7iNk5jcOzYcPtqPdTKT-J3ZcIx1IOpM7rReA6hb-VFg0pDM5paHXaElbTripJYHsuws4Tuez5YLaVISaDGgTFKJMxC1Ityj5cbR9ZLHhrXznoTavNv6jWT8CwgYSo4-5grnX2JZZnm5bKqBGePuumEpibs-uTCftuV5tyiXue_JOAZYHLiHlovCPHknUu2NgqNnJkSYrNNToldGBXAuKrv4veYzzHOfN785nNoqQAuOQXmTqeXKdmDYqAiDveHCYfuOjaINpnROodUaPOSzPeETlonZHpVJg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2540519272201643650&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJg61lIZeBUhQRguacXNG8QSM.jpg"
       },
       {
         "id": "ChIJJ8CtODSHUhQRFeHBdxKYgYs",
@@ -2943,7 +3078,8 @@
         "websiteUrl": "https://linktr.ee/Bluesrestaurantandbar",
         "googleMapsUrl": "https://maps.google.com/?cid=10052483048353685781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJJ8CtODSHUhQRFeHBdxKYgYs.jpg"
       },
       {
         "id": "ChIJbQTuDwCBUhQRhmaIjDXZoV8",
@@ -2963,7 +3099,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbQTuDwCBUhQRhmaIjDXZoV8/photos/AcnlKN2Yw1DdTeg73QrwLrlv55Irf5hMg9OVSR0ryuGCP3OZafje8azFtPCOrsQ32SLlFZrr-RPEYH1qUD7Sk1FDu2lP66Wp4-DOoP3k9wjAVYgRPaV3xvjZZ5Hjzc0ZiB9JcXMKa5KgEs4-H4G4-2ohpyEjqekNgdZk2OuSfteE9bGuKqxD0DChAXMYHgVLef11PN_luPourA42N5PbWGS4hiCi0g6pDR5o39JMU2IAaO0EXLGXyjILgRAkGOeGC1eqhUwq8Er3MqvlYMO0YWYeUWQU1pBBMZdmJDZsAhaW_6tjHj9N5wr0f9E-3YcYblKyNiyoc9PvfNnMtW2m8x7BQFwFsOHTy7P3TvfpJsRxFz2fkpt28QXTqXY1wbvxiV-jY9Y-nlXGskjYnq8DciNv8zUBDlgzhIZlAeoiL5y6Ju7vOSw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6891027728867812998&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJbQTuDwCBUhQRhmaIjDXZoV8.jpg"
       },
       {
         "id": "ChIJq58Kt8GHUhQRTUBqfpiSz7A",
@@ -2984,7 +3121,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJq58Kt8GHUhQRTUBqfpiSz7A/photos/AcnlKN1zGTV9Wzh2MPTQyIcjul5TsK78cP_iIFlov95b7THkFM583d-oeusMbx4uHV-VFsbdyQAFle5-_cZERdKEULaBhfDUXxuu95CNdclW_YXqgXHs3Wr3Ko8xxuVwFfOFlaEuAM_7e00494w_0eaxq7OHIqijzAdSeD32eaociq8KnNC4l53EoPBOM2tL7Yh3Kg6xz9ZXoD_kBbzp70pRnlJA3R-QzH1Vw4izfegeeXlhwkqV5B0cS2JnsL6EznReck9rN9ps5tZeG3mNaoJJYCZKahO8U6K362e1qe9zYCvPcg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12740563054507999309&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJq58Kt8GHUhQRTUBqfpiSz7A.jpg"
       },
       {
         "id": "ChIJmfWGmMmHUhQRPVGtx3Nw0Yo",
@@ -3005,7 +3143,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmfWGmMmHUhQRPVGtx3Nw0Yo/photos/AcnlKN34d7nfTxg3hwX1oVqoPSKwfCadOPqzH83XTpNKSIDjqnNZ2sGOqeBZMt5eYofyYq8m3PmmV0VbwcD2W5bDN4ZsDqK2u1oLnPhhy4igK8Bnhs4gdW1Ukw-As-nYa0Rk7Sa3Uk9hKFR_Bj8dym80apU-nzUBu_Byc9RhHFS9RZoHfD9FH45LroN7tA3Fhn610JuwbRpMePKdzqGumVoZYmu6ZA-5hE-5UM7rZsbn5pBpto3RHFb_IPR5Qltvs6pieu8KzbBpKxs2s6FRDGjD5h2mRPdOm-f9-3NU0wLzmrpKYIJBY_1nnkkItKmmfWoV7_7ow8jKWm_K_XXmz4EfitiMzSUBnwT0WUDSEZ_tlA3YGlLisepfM-M67620l4HGiESdVenX5D5YQ9ILaw-Q6WziaCqtP_B78nr5igvR-3ttIA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10002899889940156733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJmfWGmMmHUhQRPVGtx3Nw0Yo.jpg"
       },
       {
         "id": "ChIJ5-ZydcWHUhQRWu0tsXemjQ0",
@@ -3027,7 +3166,8 @@
         "websiteUrl": "https://www.facebook.com/Club55hurghada",
         "googleMapsUrl": "https://maps.google.com/?cid=976619727213161818&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ5-ZydcWHUhQRWu0tsXemjQ0.jpg"
       },
       {
         "id": "ChIJp8bPKVCHUhQRYDPNscdRmP0",
@@ -3047,7 +3187,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJp8bPKVCHUhQRYDPNscdRmP0/photos/AcnlKN1Qzqdomuu9DRI7CZ6qzzaI6Xn-aTWE5uxt8klkTTfCrn4jjf2OYWAdSayTitAjkDvLQDZEFZ0ahuCECIMDV11BYTdiNkYEQKmyLHXO9XKecYOxdMNjoPuUO5fUXrWZdGR8doyphEUzVFvdltpoVaF0O2eA6qDS1maJE-5Y7O_a8hcJLufWRVmEvOfUBY3roMO13AzR7-bcffo-5oEskhJZ9zu-laUCb75iTTNGlkL2qoTUxXrkAtMZczNWkmAHeO1CFCgx6K0aofmgNoJOIO2SE6-nqURpvG5qdrnVNEdYgSs_c_b4fSsdh7WniSnU_55py2qNPUNKhv_8M09tMjYdUObP3X_eWYwd7D28IppUfPmatTHz-sbKRyBkO6ZHK9LY8OFPlaxMBBs9EeWN3kgYU-94mdI22jQLEAwZm1RMcBeieinyHwGafX7ENQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18273445406179144544&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJp8bPKVCHUhQRYDPNscdRmP0.jpg"
       },
       {
         "id": "ChIJZWKzjxmHUhQRq9b-Bmb_RFo",
@@ -3068,7 +3209,8 @@
         "websiteUrl": "https://www.facebook.com/profile.php?id=100090219578059&mibextid=ZbWKwL",
         "googleMapsUrl": "https://maps.google.com/?cid=6504604575498950315&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJZWKzjxmHUhQRq9b-Bmb_RFo.jpg"
       },
       {
         "id": "ChIJA3gBwuCHUhQRLieRFIDqplk",
@@ -3088,7 +3230,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA3gBwuCHUhQRLieRFIDqplk/photos/AcnlKN3-yl0SuRLM-gXzslLOXBavDgffWb6IzJdbDVSeieHTVx_eBG8dvxCz7eka65WEwiIIH1-I-jSNo5CWxqZrCnNfbgaomh_Clpk3Q_iEswo5OlLdi0tXzdetDiereD1uASNOGVENi4JzwMd9uzcbkhxvOWPrcGwRfhMPCdIvvzjeZIEmX8VTSF5MKFHLiXQ3giChzh8o43tOtFJJpfYknLYaQ1fWBwtnjScuWWrrRffLq8TOD6IVfCqurBvjFSSEw2mZvQl0WxkIIuTnvs9Zd0bT-WrnunDfrRo1cLXbdCNjy5oinRlL_OrblUcnb87V-IK5YPMrWlJoS9D2sToBcQPnHODjGhnfhdfExJiQsf9L-vRe6W5sId7X4VeoldDvjpy2acXNrmD-OCc9WOfRpKlANewqYnSaOMewZkXrxvPINdbJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6460108551331325742&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJA3gBwuCHUhQRLieRFIDqplk.jpg"
       },
       {
         "id": "ChIJTbbZK1OGUhQRXBXppSJ_3dM",
@@ -3109,7 +3252,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTbbZK1OGUhQRXBXppSJ_3dM/photos/AcnlKN12AHRc7R-XYSaKIiv8P31WInoA45LzciOd7WOsNx43bPWS79El_DtC7xJXjfbAjpY3d3iud8Qmz_RUtNX1oc6wVbJPHgy8vRGke1iaOjMfsGtgo5vV57iR-vwuaAFJBeCE0v_xbYRsoaXTvMSMuddqXEE-74okrrXP4GCBJGyBrOTcRO8uWjhETq6LRMFdd_ONTbN_0_pE7PmQ5qzyEWmKnByOeCgyBI8xX-0ta1Vl4QINJw2QR6zxk4fuXO0fIcDTp-EkQHoTDOJHYYFH2y8-ztbRuSRn1zeAqe4X2C96pNIosGZ74AcaYQbpzTaRBFzOuJ1efQWLZc5T1wQDfT_VdnLbyXj8zM_WovwfVPBY9P9X0AkB8KT8PegZLa-BXH9I9bQGQJJseFfp-HycXv5i9s-d_MPV5cwJSy1jHKe0lrA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15266498098644981084&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJTbbZK1OGUhQRXBXppSJ_3dM.jpg"
       },
       {
         "id": "ChIJBey0UwCHUhQR_IQXvqYQBiA",
@@ -3130,7 +3274,8 @@
         "websiteUrl": "https://brand.site/SPACECLUBLOUNGE",
         "googleMapsUrl": "https://maps.google.com/?cid=2307550167413785852&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJBey0UwCHUhQR_IQXvqYQBiA.jpg"
       },
       {
         "id": "ChIJz-3LOOCGUhQR-n3p0qItbzw",
@@ -3150,7 +3295,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJz-3LOOCGUhQR-n3p0qItbzw/photos/AcnlKN3mkUQx69Ycv5reauygWLLXrlOSAmTlouEWCmdG9ParHm4kcUbQJB7_SiWpsDwDR6EwpfLzXzC9HEVfwY4RKSEPQ2gG0J9xc04CQLTHWv5VHHUa5PdO5Fy85S4O8WGR3nWwNMHZOdf10fpqp02d2H5Nm9pVWi8SIwQPUoOCWL82lx7KNHWCe4g7oLWCCwFrtjdHnOkVv-sTLZ6R_meFmjJVXYKdPm6x4icfFKKcebRh7P_o9yZslqDIxo9SqokSL5l8aazd9YMOTaMionaPxgqL6G-stkbEctYLZc-3pYwH-hU6IdxZutiziCB5FXuQQWSwPvn7onbkwGDVI5mlB8k7QBuPSNjthu3OHmW1F0NUvc9uQK7_pjGfpzQqKjTN9aeQYA-I2MF40rLf6j7QotSlr5KuiwaDLyHUVPr6-wCbAw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4354749542037028346&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:01.728Z",
-        "updatedAt": "2026-01-23T16:10:01.728Z"
+        "updatedAt": "2026-01-23T16:10:01.728Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJz-3LOOCGUhQR-n3p0qItbzw.jpg"
       }
     ],
     "trendy": [
@@ -3174,7 +3320,8 @@
         "websiteUrl": "https://www.facebook.com/GrillHouseHurghada",
         "googleMapsUrl": "https://maps.google.com/?cid=15040355409229861785&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJj72nOvuGUhQRmVPFto4TutA.jpg"
       },
       {
         "id": "ChIJ5TlOYU-HUhQRYIzIWuXyR3o",
@@ -3195,7 +3342,8 @@
         "websiteUrl": "http://www.delfinemittitoswatersports.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8811278262858189920&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ5TlOYU-HUhQRYIzIWuXyR3o.jpg"
       },
       {
         "id": "ChIJYcrjv_-GUhQRy9ZxFi5OH_w",
@@ -3217,7 +3365,8 @@
         "websiteUrl": "http://www.facebook.com/caribbeanbar",
         "googleMapsUrl": "https://maps.google.com/?cid=18167325381687891659&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJYcrjv_-GUhQRy9ZxFi5OH_w.jpg"
       },
       {
         "id": "ChIJ4XgCg_uGUhQRA7H0j1O9lwc",
@@ -3239,7 +3388,8 @@
         "websiteUrl": "http://www.granadahurghada.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=547114046343917827&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ4XgCg_uGUhQRA7H0j1O9lwc.jpg"
       },
       {
         "id": "ChIJEYOUHT6HUhQR2T2zcQN6l88",
@@ -3259,7 +3409,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJEYOUHT6HUhQR2T2zcQN6l88/photos/AcnlKN0BHolcN4SyvtN3gM78WXtBtXSJNAZoJcHrUS9I6l-utVkOkdeAAzjCvDw_QNhmo4zXk4d_Xett5sH7a28KIK2NsBGxZ9YER8aJMPyrAp_ruySGEkI-6Mxo7YG_a7ct4KFY9H-rUVFoWBn49DEXuwUSlkNfz62X83uY8H3yi-PMP_yMfljzH1vOcJ37ZQwNshjk2c9EkO81WZkN8deP0f_4fp6V-dYdNwQQE5gUes_Pq4NW9PoL8PMrl4d0J10_9-TnQNdrc0A8Y4vTdqhW8jg9zTXtKfStRtzaNIuFtXtM5v9iNa7Rm-zFWPhG9b3FFFpGao1TUFA7GdrIOrxTHY9Of89cO7MFxdUN3J9F1fzZ0ZMA14UwQ7wd6f4Ihq2exjpnN35ldGRv8ikF_6JNZRW3HPROCXn6Lx6E_oi79Kg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14958558842545454553&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJEYOUHT6HUhQR2T2zcQN6l88.jpg"
       },
       {
         "id": "ChIJf9OTYXyHUhQR-sKK4P35rFU",
@@ -3280,7 +3431,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJf9OTYXyHUhQR-sKK4P35rFU/photos/AcnlKN1InIBrs3VlHuIbhJb3E2v7x1ZyZ7t1UMNO-AkCWgdrVaCydNYCNgcJaYYD5tviUDAML6nwALSeSxta4w1RTx4KQBxVfaQ-LaKqRJPjWNoQxAlilOGyOOclTVpU9xxV_QbBXZ-VPTmSDCLcSbe4Ge615Yvkazj4nR7anRqXJuwhnEuT-aUoDrJ4NaRwpKgyG_d1bdDkojMbSXQueH5wq3DIflufc702ovm-j-GMnbUK6-dWfl4HNNy0EBdUL1h5MyRdzbG-QZFrBrSiucsChHge2Kl5VVK9GpZ7ssloWi9qB-Lg8kv6yAn7z7PTTJkQNN80W-tO8mVOWqXgGWG_57YXaY-dZRWc2197DAq3uLd4C-t1qnBt3NWpsOmeg_YHge7wA6_i4sNYh16jHvy19_xtGPDtm1fghPKjVEK1Kt_ybQ-F/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6173584058007339770&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJf9OTYXyHUhQR-sKK4P35rFU.jpg"
       },
       {
         "id": "ChIJH1hmqiaHUhQRsGaKUW-9Uz4",
@@ -3301,7 +3453,8 @@
         "websiteUrl": "http://worldsweetgroup.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4491141539225560752&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJH1hmqiaHUhQRsGaKUW-9Uz4.jpg"
       },
       {
         "id": "ChIJ_zRzLwWHUhQRkEEAAO6NKbw",
@@ -3322,7 +3475,8 @@
         "websiteUrl": "https://www.instagram.com/bodins_hurghada?igsh=YnQ4NWlueWdhanJp",
         "googleMapsUrl": "https://maps.google.com/?cid=13558524206517338512&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ_zRzLwWHUhQRkEEAAO6NKbw.jpg"
       },
       {
         "id": "ChIJRYiJYQCHUhQRKqYECFvu-h4",
@@ -3342,7 +3496,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRYiJYQCHUhQRKqYECFvu-h4/photos/AcnlKN1iMmpFLJewVklWs2p0Qaut8d3V41RBYlCMh7cZFk70EbqOi5n5ANUiAzfQs4VE3mYebItLEamgb4JQwVSX-TcA0wKFg6gyAzdZ290VFcdjPJHSIay-8rpAdZbtDiwDKFyPINrI2y_l0GQ8QthoOP5eCOH1FDXek9dLIB9DLHfmRQUtqfY1NSOPCvmD_QQkokat4VADZq7jDTw7wnoKmPAU2qYDBjd5IzoDop9M3Ca0cGYRCrlNGXf2fpJS07QKRp1frUuKXn9pXZx958xiYdyuw6eDJmIyiePb4o34epzlKg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2232358640059459114&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJRYiJYQCHUhQRKqYECFvu-h4.jpg"
       },
       {
         "id": "ChIJ4Ufx55KHUhQRK90tHgdPyhA",
@@ -3362,7 +3517,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4Ufx55KHUhQRK90tHgdPyhA/photos/AcnlKN34T5KpCafIsGcQEzo5rC25N0-8VDWAfCK9k9jKjRF1j2oMkoJG6Rf0GWYqVj5RgFQ1haXrpw8x37kWyOqkSDJgHh-K25HI270HM3-3bhJEfajzjHmGZcbDYoMaEOym5BPP9AGDaovPNrhMET3jqRg0oyAF3oIb2vEo4EUqYYHTV0dl8yQNKY0llntsVV9wpwlJR1ObpNaO9WFblwB508vZStDsvZTI3NJtAEeku68ZIrj5bM0BWPqLaDUIQhOhutJwOkGI-AD_UGlixkZp8410NOn63-CEQKfFTPYfGlxXGw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1209866341892087083&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ4Ufx55KHUhQRK90tHgdPyhA.jpg"
       },
       {
         "id": "ChIJRThGzAGHUhQRP_hzwT2m4lg",
@@ -3384,7 +3540,8 @@
         "websiteUrl": "https://www.americanarestaurants.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6404864404243085375&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJRThGzAGHUhQRP_hzwT2m4lg.jpg"
       },
       {
         "id": "ChIJMzlXkASHUhQRMdpzx_pLCkE",
@@ -3405,7 +3562,8 @@
         "websiteUrl": "https://www.instagram.com/picknpackmarket?igsh=ajd6Mmh3ajZzZ3l4",
         "googleMapsUrl": "https://maps.google.com/?cid=4686641902692588081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJMzlXkASHUhQRMdpzx_pLCkE.jpg"
       },
       {
         "id": "ChIJ39geXwCHUhQRYHUD1xUsYi8",
@@ -3425,7 +3583,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ39geXwCHUhQRYHUD1xUsYi8/photos/AcnlKN2-zEYPKew0x_wKjeiv5RcVog2zrwpH9zftqe0rs5WExi6wmA81hcKuPR7kyIYeIiAWZ7AuPcUtPxw93WGrIASvyLrGUtdgQ68GndRUB8RJegN4QXbGaY_7exxP_BVDqPKsvo8sm1WQkGCt2cARLIvzTuNewmIRXj7QZ_eOUVg8NXhOzSIvSiKM4B3wyjrjyg63iCeBLgs1gb8Ykq3VN5HjfsccfdIq8bXMH8J1cPUKNlv_stu6WGATuS8kxTWgcB7MqPxXTx3Jp_O5Yye_Z-nzVmEL_HyU5y4530i3i7CSyg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3414339939813520736&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJ39geXwCHUhQRYHUD1xUsYi8.jpg"
       },
       {
         "id": "ChIJxcnu2gWHUhQR3R6WFM-EMOM",
@@ -3446,7 +3605,8 @@
         "websiteUrl": "http://www.19250.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16370730670430232285&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJxcnu2gWHUhQR3R6WFM-EMOM.jpg"
       },
       {
         "id": "ChIJrc3knXuHUhQRU4DyYO0Y2z4",
@@ -3466,7 +3626,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJrc3knXuHUhQRU4DyYO0Y2z4/photos/AcnlKN0FVtH-Egp__9VL_LGFxDoTVpSUuQdMkihEoCzPqOUN7gf9HR3ReeXvlBD6pK1gBglrykXxW9jjtbgWe7A4hqv2jFcEK92vu4xhpsxCIPxZV7eEHgq1ieiwmIIP__85MI9K3Ibomfpd0Hn7lUlFDuDNmpO4h1R0cyJZnd6P5vNSYb8i2YZI6mWZW_pMyrsqccI_rEP5P4acg53btlk41usxyrqkDMT5vxv4ZBxNYIShUZWK0__lG6FK-iFZh70t1BZlB1b8sdo7kMFlQ28FFIpQ4pnVnUOGoUFCiY4ZkRgwiQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4529241258063986771&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJrc3knXuHUhQRU4DyYO0Y2z4.jpg"
       },
       {
         "id": "ChIJm-8ls25jUhQRbhx9NVyn-Eg",
@@ -3488,7 +3649,8 @@
         "websiteUrl": "https://facebook.com/pg/GrillHouseHurghada",
         "googleMapsUrl": "https://maps.google.com/?cid=5258136579431275630&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJm-8ls25jUhQRbhx9NVyn-Eg.jpg"
       },
       {
         "id": "ChIJKcpPx7mBUhQRb_252hvVA2c",
@@ -3509,7 +3671,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJKcpPx7mBUhQRb_252hvVA2c/photos/AcnlKN3tbBAQNvNDVjbU1-Ay5iDTzT8l4P31n1yPjt46YYePvgjeuDOgp_aFvAZF9lkpZOxRRecB-P4w91QAdRpKIMly-2Xa7d7MzOtCpEmioDBUJM8TfPdck-8wroi1TGgIoYdLSQNHwtV-umwMUlqqp4c_99VcJ2yiMhK8eT4Dq259S_3M4qkz3c3xmldLwRgmRrKzrLTJSQvrag3A6LxuuggpVfKeC1MZ9b-91xNH39uXAQv0qDkKnjTEx0JxnnPlILhjjG8Jrfqi1lAE1l2ojqt1iTc_OZJK9aQBGdb8vzBUqk9E82dQVV66QFs1FpKjn4htfPtlHC7NUTEU0q7bPjlTFoe718J67UYHSRUyfn_ooDQmAXcp0I7Opn6zZKegaoBygb_iRoHHK3ikrJRbz6UILzeqsadpMTxoniBT5y63dUzpYpSWIoXYiPi2yNvh/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7423010926447164783&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJKcpPx7mBUhQRb_252hvVA2c.jpg"
       },
       {
         "id": "ChIJJdwM0jmHUhQR041hxu2llOQ",
@@ -3548,7 +3711,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJkyr7fACHUhQR2t6k5ECZ8eA/photos/AcnlKN3Bi-i-qwcFxyJY5o0gL6sachKCr_LuEfpEa8105ANsZdlE4-5PFAMOea0Ol-ReYLKm_0Yg8gmb4PZDqeDOKTTxgPcebt__7k1RDT-Rdg950kAVT4-VWdkJpVRFXwBjrThDDzLngmMX3kjoL7f5X8hV4olqr8wbUhsnxPZHqno-_g_ujX3ARrBNg4qsaIqFPeCqskaBVT-RrDiRifjdQ58Z1-s25L2OPWncROjjpnFtn806hssUQmGFSK2GhWvpUyTuuAXNX4gJmtSxLX-FIEnaWK3QDJFS7Odadexx5Fyxp9xCbSAfeujyf1QWavI2Np0ScmP8TfcboBGZec3a10Mtj6llSe2mnLqXuTzRMUzTZM1paO5RwNPL5VpbbFcl3fKziuKLVsp5gvY9cNFg9bqrP53YogQmSYZfp_UTc4-RHg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16208905037876092634&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.125Z",
-        "updatedAt": "2026-01-23T16:10:03.125Z"
+        "updatedAt": "2026-01-23T16:10:03.125Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJkyr7fACHUhQR2t6k5ECZ8eA.jpg"
       },
       {
         "id": "ChIJJb8XHQ6HUhQReTre21zmYds",
@@ -3568,7 +3732,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJb8XHQ6HUhQReTre21zmYds/photos/AcnlKN3reszwBACry2UAySVnQiYQKH4hOKnzm9LYKX6B_NI582LctbV43x4MV3ArdWuk5nupnakE7ab8DzvrhJX_fLj1eiaqkG3mavUIYj08E-1C85ply8kklGIMZUWahYCKF34x4kaSQBp5jiK0zygzp6n6ggMFOSxngid8B85sluywHYQjPGQatFjQr7ntHoZUgXssCMc_H8KuH7Je3fg0ac8n70o3B8oU5Ki8hmhyGyOPKPmax3C4NlroQiGZ8PeHlld3LBrmSUQh1JyXGkwC7FdgkX_brVeyA8XiheW2jFZM1icMpEsqIXpzQ-bsiYlgQWt-f6OX_w-KXZACiIfHAUs0idPV1pSKtgvnY7Mb3yoa63Rz7o-p5EBggRC2yBJI0xuuHDfkmf2lY0EIV2W1ZCQkHxT65Ohfle15qzC4xi9drw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15808169453547305593&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.126Z",
-        "updatedAt": "2026-01-23T16:10:03.126Z"
+        "updatedAt": "2026-01-23T16:10:03.126Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJJb8XHQ6HUhQReTre21zmYds.jpg"
       },
       {
         "id": "ChIJsQV43fuHUhQRPjVFxcIRUjU",
@@ -3589,7 +3754,8 @@
         "websiteUrl": "https://www.facebook.com/SkubbaShopHurghada",
         "googleMapsUrl": "https://maps.google.com/?cid=3842152960331429182&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.126Z",
-        "updatedAt": "2026-01-23T16:10:03.126Z"
+        "updatedAt": "2026-01-23T16:10:03.126Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJsQV43fuHUhQRPjVFxcIRUjU.jpg"
       },
       {
         "id": "ChIJwW-jXAiHUhQRkU905eNAQQk",
@@ -3628,7 +3794,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUai0DuiHUhQR-j7chvTL34E/photos/AcnlKN3C5SxQ-BK7lbzOFxqyt710EWudnTakQNmFYhfqns25icr_MGhBZMePkFoALbdLrgS23agNfDTjXAFRvHMNVQvhLLuNkZHLEdqeNva1TkaM-AiHXjwe9Cegth1CKTg2IWb5I95dBXZU2OGs97rIbXJbujd5RJUZGStpjbT779iMC0yZwICYlitOVsYeMnAkz_sPiU81IvunsGUNTEBwTokY7CDsmpN5GyhNa7TsWVPRMylkxmQPQ9Bz2GpkaEg562pQELByPLvY0zE9MCk5kuaDPTiDyN1iXFnE_Ekecoy6elUPcfvmaPfbZZGcYm_OmWrcoNviLmy73ZHONZ8y7XXEnOZiiRKAw_nowkKld_Y5baxLMYj7-FjkIBBCvWhoc_mOKDbgYpgUWGs6VqT9ritwyjcIxqqkT8PTEQV7NCurn9CQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9358422801794219770&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:10:03.126Z",
-        "updatedAt": "2026-01-23T16:10:03.126Z"
+        "updatedAt": "2026-01-23T16:10:03.126Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/hurghada/ChIJUai0DuiHUhQR-j7chvTL34E.jpg"
       }
     ]
   },

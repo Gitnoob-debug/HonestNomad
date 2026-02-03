@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9SH986JAWBQR6FIeS8dSZ2c/photos/AcnlKN0U_lbBFSEK_ZVprJDdVDKOskiZ6c6e1LhbfmYuu5ic2PFG76J7WggTs_oCVn2rJeZTi1eVJGYkU0fPFtIsYTD0vkY44YvfFmxAcIUOmcgtV65H0x6bGMtfkrFmVXUEHFobQRxluWSgeKV6VzfCd_Wkpwj5EGhlKm1SD5KpUQLpTahsPlzcz6jk4JFph5I3KjA8YKDqq7-oIofnfqjf9yIp1_HSep8SYc4mslyxoKW-Mb0Gi6kOm4dBAza2tCkOD-DJDoY9JMOb1DhplN7PqScWOnEZnM0zifXyY-uc6T5fbJIznCl8ZBSWd0RLRMa0gKJscztcjtypw7liq8nH6SnWb2rZ2UA_L06g84vkUGAjX4FjIVGUD8eaGu5BIKc1nkCt-L-tdGHVtvwPNlWlVZN4vnaotfXffwsvQjiugIGx9JMx/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7451015124420023016&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ9SH986JAWBQR6FIeS8dSZ2c.jpg"
       },
       {
         "id": "ChIJj57jY2hHWBQRXRSPb0RY4MI",
@@ -45,7 +46,8 @@
         "websiteUrl": "http://www.nmec.gov.eg/",
         "googleMapsUrl": "https://maps.google.com/?cid=14042320689093874781&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJj57jY2hHWBQRXRSPb0RY4MI.jpg"
       },
       {
         "id": "ChIJGymPrIdFWBQRJCSloj8vDIE",
@@ -66,7 +68,8 @@
         "websiteUrl": "https://egymonuments.gov.eg/en/monuments/the-great-pyramid",
         "googleMapsUrl": "https://maps.google.com/?cid=9298859280971408420&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJGymPrIdFWBQRJCSloj8vDIE.jpg"
       },
       {
         "id": "ChIJzbs54n1PWBQRizZuWjV0dMo",
@@ -87,7 +90,8 @@
         "websiteUrl": "https://egymonuments.gov.eg/ar/archaeological-sites/giza-plateau/",
         "googleMapsUrl": "https://maps.google.com/?cid=14588412865459140235&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJzbs54n1PWBQRizZuWjV0dMo.jpg"
       },
       {
         "id": "ChIJY-3CkKxAWBQRby736eSW2y8",
@@ -108,7 +112,8 @@
         "websiteUrl": "https://egymonuments.gov.eg/ar/archaeological-sites/cairo-citadel",
         "googleMapsUrl": "https://maps.google.com/?cid=3448515849604247151&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJY-3CkKxAWBQRby736eSW2y8.jpg"
       },
       {
         "id": "ChIJfS_Xc2FBWBQRpuDSWPVvsJY",
@@ -128,7 +133,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfS_Xc2FBWBQRpuDSWPVvsJY/photos/AcnlKN1ZxFFsyaLLPyig-UzLGuGxw5Iak8Q5nRTO97Fams-4jWdhp7TV7t_iVZSV_4FTXuTsxipHHEnyeyQ9xD-gL569ANGHtMNxqEOXxkjjeFYOUrrNqtK-AQxlg3UrYyo3p6AQN-b9hAbYlHyOYqBktGzO1OiFwSGgmII9DRlEgS8EbzBIcAwkF7MBQA-8TYZbbFcTwEG9KROCVoWuQnplrFkGfN_BmRQVCqMFJ1hQDyDJjKbiK37U9IgRCD6m4EPLOHtstyAGjqjFQsZ_AhvmmcENPCbxoYJhFWWlHSyVb31hR-d6irSKux8s2yp11ADKMZZ_VRjJanZddSVmmMHn39iT5IPW_TIWfWZqzq4IZlIrL7R0PMgSdBB-Xt3Dlt5ubbOTPwk_yJdcGSrl6KBHVJZYTwbRv6mL3dAXHs0fFwPMPw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10858301801138151590&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJfS_Xc2FBWBQRpuDSWPVvsJY.jpg"
       },
       {
         "id": "ChIJ0YpKmDRFWBQRGibsxFtMdkU",
@@ -149,7 +155,8 @@
         "websiteUrl": "https://gem.eg/",
         "googleMapsUrl": "https://maps.google.com/?cid=5005271992898430490&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ0YpKmDRFWBQRGibsxFtMdkU.jpg"
       },
       {
         "id": "ChIJF_ZR9bpAWBQR_WeDJloU-7o",
@@ -170,7 +177,8 @@
         "websiteUrl": "http://www.cairo.gov.eg/ar/Bank%20of%20Ideas/Pages/matahif-alqahra-_text.aspx?ID=15",
         "googleMapsUrl": "https://maps.google.com/?cid=13473385087634728957&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJF_ZR9bpAWBQR_WeDJloU-7o.jpg"
       },
       {
         "id": "ChIJmzFzaTJHWBQRnYC7wOdZtis",
@@ -191,7 +199,8 @@
         "websiteUrl": "https://egymonuments.gov.eg/en/museums/manial-palace-museum",
         "googleMapsUrl": "https://maps.google.com/?cid=3149803841298071709&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJmzFzaTJHWBQRnYC7wOdZtis.jpg"
       },
       {
         "id": "ChIJRdU_qEVBWBQROv6QsN4mMg8",
@@ -211,7 +220,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRdU_qEVBWBQROv6QsN4mMg8/photos/AcnlKN0w5MS7Am6dWFFH82VboryjqLT6H0SKhzkVFfWbCFFfQXdFAruvkRm2OCOXmzQewfZ83MNrqGO4UnMiD5YTWt0Kcp7SjCNFbd0VcOaddxBfXND4G9su8mV7iTunMyNkXnWr8ZmKViBj71lDETH-LpOrXk6mm8S2zeTrsCV46SUNtgDGzEDLzknx3eZRad50Ki4D44WDIFSW8p-myjbp1-5-jy808ydSMHE3szCgFvm-VHg4fqUWBDEIcBbR0Bm6T5hb-k114w5FpTOFpvtJSRhEyVRlvELirwwz76N6laVkCMVJFriUJCNMlYumxt6WjbUU4qdwiKV3vzoiq_aBh5syAtCskfFOL7Ip7sDBZLca2n4rETOYiEFF5r80nHLrg4hmYgwtcjXV3N8L82NW17ZE2qhMtM26nesXTnnqLRiiDB3o3NF_RAvUFtoS0HXZ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1094980397291339322&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJRdU_qEVBWBQROv6QsN4mMg8.jpg"
       },
       {
         "id": "ChIJUduKY5k_WBQRwgxGmYZDrhU",
@@ -232,7 +242,8 @@
         "websiteUrl": "http://www.cairo.gov.eg/ar/Bank%20of%20Ideas/Pages/ashhur-mayadin-alqahr-text.aspx?ID=14",
         "googleMapsUrl": "https://maps.google.com/?cid=1562260366120324290&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJUduKY5k_WBQRwgxGmYZDrhU.jpg"
       },
       {
         "id": "ChIJyScCLtBAWBQRzIHv-e_HzUE",
@@ -252,7 +263,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyScCLtBAWBQRzIHv-e_HzUE/photos/AcnlKN2QvfoGzBCF4CeiAc-_ozkmBEgQ63yjgE57qc5vY0jcllFqPQwMHvjlH9jdodD0-XNQlx_ho7yVOT2rhLmeEohXZX6e-ZhrUmIzrXOMnoA5jI8yL0W9IMD146cog2e4XhAlvDJAObXzA-3XaloOr2s9N5sURMCzoeHIlVfSeLhIR77giQfBlWQEIXOKrvb8pcVLo8n7LsxjGIFM184mddQwosixvFSzb5SY8Bc3DhFbR510LURsJIHJwl5geALiT8VPjluE9Na36TV0NRmB-4VXBOuBkmS1TCnxYRizgmVILajtuNZ2Lme76euMagvT8KD7gtk6pFGW_pBgGJMVGesk5UcREHeMkiC9dY5KumNZAJisy_nWu-xihU-2WPyhKlJdlqSRj0fcKDGUELL11aBUrb7lbx0wtQZlA237CtmglM4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4741665816195334604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJyScCLtBAWBQRzIHv-e_HzUE.jpg"
       },
       {
         "id": "ChIJ2yl_V2I_WBQResgQVK-3o1s",
@@ -273,7 +285,8 @@
         "websiteUrl": "https://egymonuments.gov.eg/en/monuments/bab-al-nasr",
         "googleMapsUrl": "https://maps.google.com/?cid=6603323442312824954&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ2yl_V2I_WBQResgQVK-3o1s.jpg"
       },
       {
         "id": "ChIJcdNCwlg_WBQRsqBpd7z8tbQ",
@@ -294,7 +307,8 @@
         "websiteUrl": "http://www.azharpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13021591783999119538&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJcdNCwlg_WBQRsqBpd7z8tbQ.jpg"
       },
       {
         "id": "ChIJKfCtck2xWBQR5L_ttrv5OJo",
@@ -315,7 +329,8 @@
         "websiteUrl": "https://egyptianmuseumcairo.eg/",
         "googleMapsUrl": "https://maps.google.com/?cid=11112906665159933924&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJKfCtck2xWBQR5L_ttrv5OJo.jpg"
       },
       {
         "id": "ChIJk6gyRsdAWBQRVWMNyJZlDs4",
@@ -335,7 +350,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJk6gyRsdAWBQRVWMNyJZlDs4/photos/AcnlKN0fkImMAdap315FyJkDDG2PX44B_CBLO0j-DKJ7QevW8H5YV-hhsunObwEBCLVH7PV3cQRMYZsAV5DHMPqv-KyoisNT4WlbKLSva9WX-0RMZ_nhHCLlLJQeGlWjArw7JgaeMOOqnbl3DoPbele5U8-fB__6skl_rvTB3pCqg9C6KUBegBK1HCbUeZrVzCaTfwaumYjVBkPceOpYlPPUKJRWSGCBSOR3Kd-wXm67P5vjG--_orU5kGu2F7lhn2NhO1TKyz-OJB9E8wzzDXo9Bmu7f2c8cLyinNoa5IKZFGfLqiNbP0iTEn966obs1FxcpwnUSK7rVbtAq_p-B1AR9GFpcGcnDk2x1o09wdOo3D6bg7eDbm6WG-HHunl5tabXLHdK3rpSYi-TXM1xlmZNNYp1HNqRgcCm2vd-47SR12M/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14847916719762924373&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJk6gyRsdAWBQRVWMNyJZlDs4.jpg"
       },
       {
         "id": "ChIJtS4GXlxBWBQRNrgKw7tUwRY",
@@ -355,7 +371,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJtS4GXlxBWBQRNrgKw7tUwRY/photos/AcnlKN3us0hW-iMgo4NaxXvwtwAnGUsXl5XGc7ShlNJ42vqwqdAV-OBp9jszz0fnlwZhw8ZZ3EK47W7DX7FuKkcWHWQ7zH-s57NH5N9fXkl6nWfwERk3O_Nd1ph2dZnac080nRSZf4nh2JHG_Tk5KN-_LkzyZ-GgcueKLDZgqNRl0HzPRRv185j0qCMyHt8FCZukDJcj3qr1_LlAiuFgxrhRhIGsKbyQW25MNkMtTM9YIGJ4rRK2H8gVm4VHzGU9rvT40yBqjX5ADQFcUpV-vdXkqFOyy1eJP6g9Pqjw98HpWansg6TFJUXkk4F3mMNLjl26u0TQm_bkFhJsf_RAJUOLOm1XeE_x5Q5V2lENkZUKlNP3pwX6kxcOexiiNQrl5AvupyuSnoV_BA2_hrfQy_Ek2dBhRRD33Ow_CFq1ogffPsc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1639684904747448374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJtS4GXlxBWBQRNrgKw7tUwRY.jpg"
       },
       {
         "id": "ChIJD1gOLOtAWBQREX0CYeTgYRc",
@@ -375,7 +392,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJD1gOLOtAWBQREX0CYeTgYRc/photos/AcnlKN0NWZdDaWO4zHPCnGTJeDpAbgTozELmelBlLj346CdeCY48H-oT-nfJnjgpYHKcwQ4AKCfCwfcWk3fOOeyIucej8x_DdZJoOuq0ZNS_1_oR9Vrx9rZ9B_U3ThdJUNCLQym2xxvztwI0MNjxzN7hIQdgWY_Aq1LtxFJ9oxRYwzz7Nkh4-goulUW2jJ0H4tAkfvkezxXZqzkJL-Ec2pEtGC92Q8dUvEangLovpT6-JG5oSWyRCiJ1y866ziAxm8AKZ-cYdt6scrtHUsYBwJFUcTYG7Jca027XqvnUjMlytA9bGM4fMApeFDXvkB1uWfi_n31bhKnLLYjBNUqvObQg2dfxdJCUjNNo2pAYwaZC15cMCuW4___I4BNZKuUL9iomdr-HObwfg_U844-fp5vMfmwoWSisUwcbW8VKho_a9RkOGQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1684875007097994513&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJD1gOLOtAWBQREX0CYeTgYRc.jpg"
       },
       {
         "id": "ChIJmxmkHLU_WBQRzBYJ5_3_jo8",
@@ -396,7 +414,8 @@
         "websiteUrl": "http://www.mod.gov.eg/ModWebSite/MuseumDetails.aspx?id=2",
         "googleMapsUrl": "https://maps.google.com/?cid=10344486860084549324&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJmxmkHLU_WBQRzBYJ5_3_jo8.jpg"
       },
       {
         "id": "ChIJAQBAqcZAWBQRV30WH0lR8is",
@@ -416,7 +435,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAQBAqcZAWBQRV30WH0lR8is/photos/AcnlKN1fNZ4cj8kK6If76OTWFYtZTusU1yPyt4BEYjHuSuR5Ipgqndb0uSpYqVvW2P8hDHTZEdkZlecEgnruyWorgnaf62tOy6B2Ldje1016KgL9K8wAgchbncZXm-S4GlytH2sieUuqrPixZF2EIWyRT-vE8EA1NA78Fc9b4L-SUtTOd5y8_lGFASnqWPz3u4MBsW03hpaEITuvwXggFAUU0wbhy3L45O4Zcb1uCX1Sw_pWix1a22e-odyUV6_EO99arM9MFALIGvV7Xfl_KF_IHy4bC77KMgT5wI3IzZghQphCLIWB7sGlxfejc9kXV2_4fHTV8P4lvdMglauxALP6fxjoewSGPGWvmSCPowsFMBmwtJr1iFCfniAu8m1ugVBr8c4QfqeHXygE4oEpP8ZYMD4tL8easlTMDlENQdzXyt3BLrM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3166682862490910039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJAQBAqcZAWBQRV30WH0lR8is.jpg"
       },
       {
         "id": "ChIJpVgdqJpAWBQR_tZY0ny_5mw",
@@ -436,7 +456,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpVgdqJpAWBQR_tZY0ny_5mw/photos/AcnlKN0Ru1PXSlyY1B2mcyl9XbHQJPf7-ZtL5DUckata5b9Sf6uBYN-2-yMzSKvEFKyj7u-RaW8gPJ9HqZRKfTbW68xd4LP09GKa8nWctoDgTmKRYLm1nkd2Noy4O2dUpgRXODoqyyCvglcCnxHlnVeMJWTM97Kq7WZbJSSlPrelfTl2OmXNgWUH4vMxUaX7H3Gngy0enDXNitghSKsaD3_ENIzJs1auFeqWFcVVgN3cbDcVgtMW0YGbfxIdBtsyu0Sp4HCtUcHdcdaMGfQKQ7IdbTUPst5rcXbgYsBBr20j7MHMTEgv0J8BgkfTxxVD5o-QYDu7xhVW5Q5mfv5W1z2CLG-44o_plmeFFP3r_J_FtyY4zRAbmB2xV0QeuC7W17GZk55ab9KcKSpLymDf2zVL3Uw40YZF_VmQclRsPdU2ep42S38/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7847169943565555454&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJpVgdqJpAWBQR_tZY0ny_5mw.jpg"
       },
       {
         "id": "ChIJUzKZFitBWBQRwzCkOALILDc",
@@ -456,7 +477,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUzKZFitBWBQRwzCkOALILDc/photos/AcnlKN0f9MMZExocTHYnKP_sRxT-Bxbaq2pUNHAisDpLZ0CkFS-5rZPm5VBoSsFonaA6TkwHf76EskajFKzRRxkT09P2aNcKVcLP3k6gNIWtRvy_uuNdaGV6h-ssRVUeCqHOIsxS9KFLNIV4hY3p5GgBbKfw2GKlKfs2E8NyhFHzH80kl2EOFQMrbCzUn5Fu9mm8nPUFsyshhAJd6sze19w4POZIqFHOhlk3arXEqGhHrajWkdVeHku9oy5-fpV-Nqh9ulTcdAi-TD5p137aC4BLazxCf6vjzMVnhyODmTNwwy4olCON0LhgguxAppANS-8AOWqJGjzb912l3RRTDyfT7485e3SFBYJ3hkrIo04Lo2JR1Ph3sBrvDMjYFkslRc8jePs-2kRL7Y-E8uX1aeinkbfdQtxr0jxe8OMqWYB7fJ7qQQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3975772482927079619&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJUzKZFitBWBQRwzCkOALILDc.jpg"
       },
       {
         "id": "ChIJowc3iv9GWBQRErTe7DKCZQU",
@@ -477,7 +499,8 @@
         "websiteUrl": "http://www.pharaonicvillage.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=388860098071409682&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJowc3iv9GWBQRErTe7DKCZQU.jpg"
       },
       {
         "id": "ChIJHRXgMgA_WBQRtFuhBAONQTk",
@@ -497,7 +520,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHRXgMgA_WBQRtFuhBAONQTk/photos/AcnlKN2gUFwNcXbBWo1Yb49ejpc4sW62oIkJXCQ0mpROn1JF8yjgU-QvSCriOs6iGBbqDk1oByLFWTSoVeX7asWLAnyrg0jTmXd3jBD6TDiYpeXzRyiWbi6kZBypdN-ogzr9xFH9hzBZi5cbLQE_RzJidhn0XdIY2fPupGYQqMSQ8ZwK90ANG0wN9xYwN5iT1mh_zBPkdZ0zmRSS9DVmp3aTaOcQcI_JyKzl2Sd2CbEGJe-fs5391ufQxVGMjYxvwbwzt6lJXa7PSEzjxh-s-xVhwOz7xNyCEV8T6jmsEPIZn_QT6CPCNQDo6b8bfIMQ6qe2ijDLq_NCKlnUKS8hsDnx8bNUORv_N36g8IyXGINy_WCz_KonRxNxrr26B5RH1po_1RV_AjMVBV0f9oLDUujyt6bPmGHdJ9wymKLBs17OxTJnprsJT3JUL_SPIVn_J4y4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4125733777750186932&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJHRXgMgA_WBQRtFuhBAONQTk.jpg"
       },
       {
         "id": "ChIJW8mw1W4-WBQRD3MC3Akl1g4",
@@ -517,7 +541,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW8mw1W4-WBQRD3MC3Akl1g4/photos/AcnlKN0lnzrh09GYAmqCNnU8CXjXOlES83Cp7wBEsrl6gXMJFbq8gQqqsjM_VXOzihA7QJGqNEV2Pmk_1NAug4taAp4WJz1zOFkYxTs8HF2cLLzMlhyG563AyxsyFlSwABby1B7GM3PGCTaXAdah0eKxe-LEmoP94LZIRJqUKjxLhDv6Vtf9GNkTA8Yosfk408tLx_0AkFOSa7nhnNXxFt7ZA7C6XLOgX0fr-PAW9JlCScxQdrNzkf4L-5wB7RY2ii6YSosbY8T86d4aIuHqiw3qRnrNmzIH9qfZcLvO6JEM2dNq0Aprxlsamy930-gGbKu2PYk2Ef5LUJmmGHhNE8g_TprKHMudugZh_6q7DF_IRlXmoNJ1nKC0np89pqn3OfwXGEpx9Vu9JRLMv7aOkmoT1YOLIG_nCOKlZXaYwRH_KgUdS1qH/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1069082685823152911&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJW8mw1W4-WBQRD3MC3Akl1g4.jpg"
       },
       {
         "id": "ChIJv6Q515xFWBQRqwe-_ZCmh2U",
@@ -537,7 +562,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv6Q515xFWBQRqwe-_ZCmh2U/photos/AcnlKN38TDF4CpMdQSzRhwEcxpXigIamgeSGSEFtBKFzbiEPZ7qD15-iEysTlp45PeWOO_--XQnrBkR3SStWqE-7LJ3iU2CjSK2acXdXez1bDasHtFbt6mv1CBiSt7vhsvBLbdk1nRT11hleAOb_jDbZQ5edjtS1Gh5dmPf5iWTmXoov0PhTzL8oU-8MBTH35uuPF1G1dZHCmrLjMNI587BmcSZjYhlqcXnUWUIWndJ0Oqt_NRbviy99EAQDQLHyiqDQL-zc34D5qDSLGk2paVxNKQRn7Gsb2wtn2gxwZUs_qhLX2co9o7oxC6JvRubuZMh7XAzBHgA3UcJpVSBpdEFiL765fBC5p4b-XK2CnypXNIo8x7lVfMVv89v-x0yMfYdv6dQka7ICIMEXjOa64P-QzSEpkfNT1SGhmxvJUQGW22XZsg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7315999261349250987&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJv6Q515xFWBQRqwe-_ZCmh2U.jpg"
       },
       {
         "id": "ChIJhxcYQqpBWBQR5TsfV3706sk",
@@ -557,7 +583,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhxcYQqpBWBQR5TsfV3706sk/photos/AcnlKN18tt-uUFwZkGUEwhCHIu6gC_f8JWgM_YsctB5KivysD0Ujz6JeEQmx7T_jSl_D32Ljky_jFEsQWY__gbOmloiG2kAcILVrs7rXYj1DY241cO9NxBSdFZq6t_xcFkqgo18hfLVQN3QKlDSVOAaIAdNwwlMCX0RhR9MPCWu_fm8J89Y2LSPUT8PwQ_86VtO_119AHk149deMUPwdrGtBVN4v2VD6yuNVqZ3vRIrQSKjdstKebKq13EzhdIuBV1kD0GWwtUshsM2-lqgMQ3U15I4Wiy9B-vZEHGCVWxDHMN5B89FlCHC4ayzPHWYTlBA1OWG0KXBQEFbD8g8gTtMqQf7niR7l9i3biNcGu3RVOo3g938eoVNVaXFjkUW4LJR_FL_PlztgVRXakzFaoArkXjXfZj8OmsywRQ-544BnfRE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14549710369638530021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJhxcYQqpBWBQR5TsfV3706sk.jpg"
       },
       {
         "id": "ChIJC0tZTcdPWBQRGyil-Qf6RyI",
@@ -577,7 +604,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC0tZTcdPWBQRGyil-Qf6RyI/photos/AcnlKN1kGeHT5tbZGIp8Qyi9TL6ouu_XfxzHlBVW2DmONlNYNvQsVvt8uj41W6aMDjhyej9NjZJdfkRPg1Q4Ph8bSYkf4QU0EykqmaV0Za3ZFes0oTFEFjmU2tb1YbG53VP0xs_6l77lkvdCr76SS7AU0h_ZiG0q6Amkx_2-DYyKxRXMnYrXOt98lWqVQOga_keqWVvmDKfeU9aDfRpHlkm_2mUzaVhzILNWK92lzB1RZicTN6XpKoXpob2V5LZq6Q2g6TWIcfY0J1oQWAOgGGdpNO8C1hO4uua783IxTtTlUGwdgnEp6K29tviOHkc938Xm_biR1mTRiLp2t_oEounvFUgQ30vFtBj81nEeaGE0qiF0y4n7z6pGE7ZlKxeRlpPEHUa0G1NappUU4hCujrGLPH4ct-pMk0r9wMZMRWYrTSUm4g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2470217832796071963&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJC0tZTcdPWBQRGyil-Qf6RyI.jpg"
       },
       {
         "id": "ChIJVd6rZBxHWBQRmwIcp33pnhM",
@@ -597,7 +625,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVd6rZBxHWBQRmwIcp33pnhM/photos/AcnlKN09Kl1Cqr8fh-Gf-KzwlYgEyLlK5qvYLk7yWpTOOOczxV7fJKmu5kzXO6AFYnOU1iNZWI49Jl9Zc6OqM7MlW6-SkprNLy3o5tevRitILrf-Ziwrv_Mpr7SQb_QjAcGbulir9u5zAJUUqroIGVmjGpQ5beqIj7ODffY5FAUPHPYmB2J8uX3srWlXJcZ4LNR6A8LMMwY_1HBxARHGa12QGLoahi6dkSkNZqhh-6rU3yLRBnsbBTWZ-44-_Ijbj1hZyS-xzypPL3lVNVbwxcirx63hWmup-ygMqfnEKUMbDQC55M4MqvJlicAavj6u0jvOrKsquh0ij8tvbcnHVPDFX2ujYBxxDivVaX1NMVQzOC9TuIJKFrQASTa2AWfgZoxLkWiOTipIGOQMwYpnJvFLn_UzlQ0mJz2jXGyaCk0hqfnZTw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1413824058924728987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJVd6rZBxHWBQRmwIcp33pnhM.jpg"
       },
       {
         "id": "ChIJ9TMty9FAWBQRHOim5JanzVE",
@@ -617,7 +646,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9TMty9FAWBQRHOim5JanzVE/photos/AcnlKN0siXKgJqHy_IleT2UHTNNvxhOqnBB9dlEe5B0pEywgreSOivFtuHtuC4dzXIKCXuzU-GYyrUZozFKuQNMmxPMZjMTb9AO564v7mBxGnmyKQG-WNkfrjrXdm_jNuIBUOblCg8aq7ZSdBIU3yiLKkHYMtCG2eENxPhX7Gieea0A5EyI5cJuq9adG86t6cANaikpqGylLU554qS5L-qdy0Lf6R6kYzYtbDUQYznKSmUBdaB-IJJvZyJt_-iiQGO0o6gAYO9wy7Nc7UBF7WTwbbpeI9oEndQ0ltQLblC4J1KbyRF2yzufSIqsbx3cmFnPoHV4MyPCpvv6z6RYRT3U46DJPjrsD-uZPS2mswOLFjUFHolUGtNtCkELqD2du6P1nYXlWbD2R5GxX15wDQ77ArfE1puSoonpvpAX_blTWrax4wXhs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5894551753820923932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:06.503Z",
-        "updatedAt": "2026-01-23T16:08:06.503Z"
+        "updatedAt": "2026-01-23T16:08:06.503Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ9TMty9FAWBQRHOim5JanzVE.jpg"
       }
     ],
     "foodie": [
@@ -640,7 +670,8 @@
         "websiteUrl": "https://www.ilnilo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10709392405898554064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJHalYI8dHWBQR0GrZAadnn5Q.jpg"
       },
       {
         "id": "ChIJz2GOEc9AWBQRPWWYVRruSq8",
@@ -661,7 +692,8 @@
         "websiteUrl": "https://www.ihg.com/intercontinental/hotels/gb/en/cairo/croha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-EG-_-CROHA",
         "googleMapsUrl": "https://maps.google.com/?cid=12631169901786588477&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJz2GOEc9AWBQRPWWYVRruSq8.jpg"
       },
       {
         "id": "ChIJEbpCSwBHWBQRY58-DXOiF2s",
@@ -682,7 +714,8 @@
         "websiteUrl": "https://www.instagram.com/mawlayrestaurant?igsh=ODY1ZGVtbzNncmc4",
         "googleMapsUrl": "https://maps.google.com/?cid=7716815101549780835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJEbpCSwBHWBQRY58-DXOiF2s.jpg"
       },
       {
         "id": "ChIJxxh4BfpAWBQR_OrLU6EDfj8",
@@ -703,7 +736,8 @@
         "websiteUrl": "https://www.fairmont.com/nile-city-cairo/?goto=fiche_hotel&code_hotel=A5E9&merchantid=seo-maps-EG-A5E9&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps",
         "googleMapsUrl": "https://maps.google.com/?cid=4575098262885493500&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJxxh4BfpAWBQR_OrLU6EDfj8.png"
       },
       {
         "id": "ChIJJYCniw4-WBQRDaNySSZ_iuI",
@@ -724,7 +758,8 @@
         "websiteUrl": "https://www.ihg.com/intercontinental/hotels/gb/en/cairo/crohc/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-EG-_-CROHC",
         "googleMapsUrl": "https://maps.google.com/?cid=16323999601775518477&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJJYCniw4-WBQRDaNySSZ_iuI.jpg"
       },
       {
         "id": "ChIJbQf9iZQ5WBQRtLUvgyRMl3M",
@@ -745,7 +780,8 @@
         "websiteUrl": "https://www.instagram.com/1980.coffee?igsh=MWE2YTdtc3lsbzlzcQ==&utm_source=qr",
         "googleMapsUrl": "https://maps.google.com/?cid=8329209755548497332&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJbQf9iZQ5WBQRtLUvgyRMl3M.jpg"
       },
       {
         "id": "ChIJYZEDvCJBWBQRTcrEwll7RD0",
@@ -766,7 +802,8 @@
         "websiteUrl": "https://www.dahabiyacairo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4414789160179911245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJYZEDvCJBWBQRTcrEwll7RD0.jpg"
       },
       {
         "id": "ChIJ0UrlKqxBWBQR38F81x_EosE",
@@ -787,7 +824,8 @@
         "websiteUrl": "http://maximrestaurants.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13952930236585525727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ0UrlKqxBWBQR38F81x_EosE.jpg"
       },
       {
         "id": "ChIJNS60IddBWBQRXi3BExt-0iY",
@@ -808,7 +846,8 @@
         "websiteUrl": "https://www.marriott.com/hotels/hotel-information/restaurant/caisi-sheraton-cairo-hotel-and-casino/",
         "googleMapsUrl": "https://maps.google.com/?cid=2797436973311143262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJNS60IddBWBQRXi3BExt-0iY.jpg"
       },
       {
         "id": "ChIJ7RIKqEM_WBQR2mB6Db0LQKM",
@@ -829,7 +868,8 @@
         "websiteUrl": "https://bouchee.co/",
         "googleMapsUrl": "https://maps.google.com/?cid=11763415133294584026&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ7RIKqEM_WBQR2mB6Db0LQKM.jpg"
       },
       {
         "id": "ChIJjW210rRBWBQRQN8lOMnB8-g",
@@ -850,7 +890,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjW210rRBWBQRQN8lOMnB8-g/photos/AcnlKN0k5g2UFeyKl8mQe5VQWpbshdAw7ztGEvTAuiTmicPYji33M5inZVqAqJSDI6gFacyYf1mD7vQxvvYRJSxwm5KSB1uSpTpRtc6Zv0vYbiT9gVUST4peFmOsCdGKG8DTpwQfQzbrAuT2YehB0qkWF7tvcm7N45MCPuReAxiMwYxo4GZydi8_uc-dYxluK87E0nbKLBHLAp8dhVBRFSIr6OJEAnAaI8Redj9wJODx5pKjiaY96o_mZdgF8-PzuuMfwl4YS4qXxPMd1DV29m1QjlKWRyQ4a7M0CVlq-3ERg7dejg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16785973306114563904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJjW210rRBWBQRQN8lOMnB8-g.jpg"
       },
       {
         "id": "ChIJhff8VIlBWBQRi-qzuTHuMvs",
@@ -872,7 +913,8 @@
         "websiteUrl": "https://www.thepresidentcairo.com/dining",
         "googleMapsUrl": "https://maps.google.com/?cid=18100791749691828875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJhff8VIlBWBQRi-qzuTHuMvs.jpg"
       },
       {
         "id": "ChIJU9kcR81AWBQRCJeG2a-LVOk",
@@ -894,7 +936,8 @@
         "websiteUrl": "https://www.fourseasons.com/caironp/dining/restaurants/zitouni/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-cai-fab-mid-seo-na&utm_content=na-na&utm_term=na",
         "googleMapsUrl": "https://maps.google.com/?cid=16813216896265918216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJU9kcR81AWBQRCJeG2a-LVOk.jpg"
       },
       {
         "id": "ChIJ83IYPxA-WBQRGTJr06mP_N8",
@@ -916,7 +959,8 @@
         "websiteUrl": "https://www.facebook.com/3ambashandy",
         "googleMapsUrl": "https://maps.google.com/?cid=16139933124148277785&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ83IYPxA-WBQRGTJr06mP_N8.jpg"
       },
       {
         "id": "ChIJqzoSWIVAWBQRK5PE245n93Q",
@@ -938,7 +982,8 @@
         "websiteUrl": "https://elabdfoods.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8428319090917282603&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJqzoSWIVAWBQRK5PE245n93Q.jpg"
       },
       {
         "id": "ChIJ2QkOenA5WBQR0yuS4yp2twI",
@@ -960,7 +1005,8 @@
         "websiteUrl": "http://www.ratiosbakery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=195755035392617427&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ2QkOenA5WBQR0yuS4yp2twI.jpg"
       },
       {
         "id": "ChIJoQXTpPIVWBQR3J-wVnx6f4o",
@@ -982,7 +1028,8 @@
         "websiteUrl": "https://www.tseppas.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9979829973725257692&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJoQXTpPIVWBQR3J-wVnx6f4o.jpg"
       },
       {
         "id": "ChIJWVSzZdNGWBQRy2P6yFCiNs4",
@@ -1003,7 +1050,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJWVSzZdNGWBQRy2P6yFCiNs4/photos/AcnlKN3P-shD3Kq3XOZDuT5muCejXehxxREnsvFGtdPX2qTqcCNKrK8wrLWpezjQml6D7g5n-gCZt7-utjynTYnNeNYAAO-pcJBj-UrFlbqik8GpG2FcYwRSO3uor9rk35C0KsLTKZUzUroUrNK9zRzFVUcmkwVzlTBueKz6jVMFJcPwYQncGOb8Blft6Vvf_FMC2x-kelF3SdBlfX6KkyeFj5J9CHdM7fWGenV2OtcbfIO-iQxny546Cy02rof9BXH6tOCne3nNLP9TPZS-3zEyhm3fJSY_uY3mekI9u6KVaBRMqCKDy-MNKHhyvSwhn5ebMV2gXkW62zXbp_uFF7U7_UgkXNbrUat-YoMVjQAx-3_6Iz45hH9IBkNZrcnsV2OLxJPubPpRdjgZfMYZe38DUfGZNfOMSFXb22oel2xQjOqLFE6Y/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14859242488408466379&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJWVSzZdNGWBQRy2P6yFCiNs4.jpg"
       },
       {
         "id": "ChIJPRFR2cBAWBQRVzGtipOF0Dw",
@@ -1025,7 +1073,8 @@
         "websiteUrl": "http://www.koshary-aboutarek.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4382149306164785495&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJPRFR2cBAWBQRVzGtipOF0Dw.jpg"
       },
       {
         "id": "ChIJVVVVlVhAWBQRO2sI0kqoBHw",
@@ -1047,7 +1096,8 @@
         "websiteUrl": "https://www.facebook.com/profile.php?id=61568403456082&mibextid=ZbWKwL",
         "googleMapsUrl": "https://maps.google.com/?cid=8936452599914720059&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJVVVVlVhAWBQRO2sI0kqoBHw.jpg"
       },
       {
         "id": "ChIJ1QRomrY_WBQRbmk1H7aGTos",
@@ -1068,7 +1118,8 @@
         "websiteUrl": "http://www.gomlamarket.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10038108736221178222&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ1QRomrY_WBQRbmk1H7aGTos.jpg"
       },
       {
         "id": "ChIJC9-D77ZAWBQRlUy_ak7EGbc",
@@ -1090,7 +1141,8 @@
         "websiteUrl": "https://www.facebook.com/elkarnaksweets?mibextid=kFxxJD",
         "googleMapsUrl": "https://maps.google.com/?cid=13193792424435993749&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJC9-D77ZAWBQRlUy_ak7EGbc.jpg"
       },
       {
         "id": "ChIJ7zIJJVIXWBQRHC_9EngW3KI",
@@ -1111,7 +1163,8 @@
         "websiteUrl": "https://www.luluhypermarket.com/en-eg",
         "googleMapsUrl": "https://maps.google.com/?cid=11735279433991139100&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ7zIJJVIXWBQRHC_9EngW3KI.jpg"
       },
       {
         "id": "ChIJ5fyUr8hHWBQRirvj-OjhNQw",
@@ -1131,7 +1184,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5fyUr8hHWBQRirvj-OjhNQw/photos/AcnlKN3x4iQGB948giKhfJS-MWekrXuVHbuq82_QFaYo6eNby8tYCtKz0eqKV7DgS3z5Mg6ZK61TxBCXfLHwkEpOWLA56JhucLcJrQVFoo2ycGpF2VIJ_jYM_5yfOQdpJmBSIwEkgo0JqtE06cXsMTkMGt4cvz6jZe__72p36UiETOQ5YSknu_X590PSQb5QoIpofmj-yCG3hPRtAb5hCYASl6URNU43QqgJHBvTUdZr6tsc0pJU3KuiNbRmvHSZV54SwiM7MFX9RJ_BniLtbwcZ1BKi59YcEJNja6nFDGXwSHZ4Ryy2b-YPDRWvEZr5gDx4TcVA2OZkkRquv_xmvVzamonYyr-Im_cA8Z2q8ZWcrFedFWk7iAUBvOJeYTB53oErf8GhUlX9G45gJVv_9txemDrQxscK2ETEGB4-hZBhpg_ipeM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=879857692945136522&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ5fyUr8hHWBQRirvj-OjhNQw.jpg"
       },
       {
         "id": "ChIJ8wKg4MdAWBQRYW3aFRDiVaE",
@@ -1153,7 +1207,8 @@
         "websiteUrl": "https://www.facebook.com/oldisheg/",
         "googleMapsUrl": "https://maps.google.com/?cid=11625446571840793953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ8wKg4MdAWBQRYW3aFRDiVaE.jpg"
       },
       {
         "id": "ChIJYfT2k_Y5WBQR74Pde0aLjQ4",
@@ -1174,7 +1229,8 @@
         "websiteUrl": "http://www.ratiosbakery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1048647423089279983&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJYfT2k_Y5WBQR74Pde0aLjQ4.jpg"
       },
       {
         "id": "ChIJCYG0DfBBWBQRd1-zvMF4-sE",
@@ -1195,7 +1251,8 @@
         "websiteUrl": "https://www.facebook.com/TashaaFood?mibextid=ZbWKwL",
         "googleMapsUrl": "https://maps.google.com/?cid=13977617166987648887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJCYG0DfBBWBQRd1-zvMF4-sE.png"
       },
       {
         "id": "ChIJLXFEteNBWBQRFB6OWPBR8Eo",
@@ -1216,7 +1273,8 @@
         "websiteUrl": "https://marcharbelhotel.com/facilities/restaurant",
         "googleMapsUrl": "https://maps.google.com/?cid=5399906045936934420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJLXFEteNBWBQRFB6OWPBR8Eo.jpg"
       },
       {
         "id": "ChIJHVxjc_8VWBQRDtJe0W156A0",
@@ -1236,7 +1294,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHVxjc_8VWBQRDtJe0W156A0/photos/AcnlKN0Kl-MhBjr3ZT8_Z5bVP-HcRIa1S-9TcoMlto09oKhSgZDrlVDL12D94nfcUKOlSdjIc8PG_uizheog5p11XYt3r0G_yhxQwaCs-keJXVTB2QKeTtoMMK95Foyyf-fAKWGfZC0yRxE17_lW_fndZGJWNxOwOyVszDurojh39tw-0SPfPsNcz8pbmDWoUc6jizVaT1IIKuqPCqjDivLD2WL4BBH4EOMnRTWpNiCchw362h59uYKIlkCDTT2BN1pm8dwtHAfyBIvkUGlpwgmG-FAeaV3jzgtIE0cFjAIz9klunr4pr-qKioqJULnTEhwNI-iBU_Y5gIBLoMTrl2Ix52a4-CWg3f08u3OkqwRXOhoAtRfSe_svdpRUJ2Vk_FFIW4cuL3MoBd75lHrBejomKLGFYVxynkSPsanZ5_bZjH6CznHs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1002184429660983822&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:07.774Z",
-        "updatedAt": "2026-01-23T16:08:07.774Z"
+        "updatedAt": "2026-01-23T16:08:07.774Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJHVxjc_8VWBQRDtJe0W156A0.jpg"
       }
     ],
     "adventure": [
@@ -1258,7 +1317,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRdU_qEVBWBQROv6QsN4mMg8/photos/AcnlKN2bVpgFnCsqdt8ZTWbvBDB3FWshEzQ0dF3fU6qWyBDovNVjTbSLP_ylQr1oStNq4szbve7Gj8TBkNizH7BRVT3_47hcxo-6jTV8EW1xOMOBzPjGVWdl3_ZrFGaXWXl2YCBHA0zRfj6f45RlucvCZ0tkGAynhZkWL3TNiR_nlrrYHarHfAX7J4XWzmWmeKPEhgLgDGQRQcEFUlmRiyw1S27-fuPiqfSmkZGplB3jlNpmrJ4IdDIjSdDS6D2ZlFFIBlg2bQrCkZvMKc-SXd6jM79Ul2LzC4t62EFxp4fbqvwSKJXv1VmaB_3ijzHyOIdhsIIfgiPjoBrMM4sj9AbcM2g6OyAz5UgQb6JFFOevsUSqKTaIXtN6B4M0I6xIvrwv1ll_vy_Eh78VFelIAEggkzGte2FQ2TrXQhPxBqA09tuuYzGBXBlB-96b3RVAXuhZ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1094980397291339322&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJRdU_qEVBWBQROv6QsN4mMg8.jpg"
       },
       {
         "id": "ChIJTdMv2y5BWBQR6n78FsYkaLw",
@@ -1278,7 +1338,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTdMv2y5BWBQR6n78FsYkaLw/photos/AcnlKN2VaMaEg6JXmgb9qdtKIqjcqrW3x9wejIPDnwns2ZVPb0aSCTX9eUL7Z8yX-89_pJnS8l3Vw5zCCKvgv-W3LkE3UqjzYivD8Fz3SRIbVcDnRLMEXUaSJec9vj3rdedG3kNf6_abSKpXMaurAfJHX8dcuHU2Nro_6yPtQ7kHg3faSTagdAYAfG-Lz5RYsyWcQGGmZjTjuGptRHyQA-IwtTpFq8oecnzpEHC_BCtV_QnRgeyinYmHB4pMJZeMRj5M68nMc60PlGReExXVsIccaypzKFijYNShVWrTL6aA7mnKQHRF_t-Z2q99zryAg_w4c7be0rodQfuNoCh6Pmq-CE8tG1-HOH9K4eXe7lqH3NAU7UuauNk2udRk924vUwvY6vK5nI0wabDOhKX3L67Hdpc24sWRYSk8CERUWRBh4V9vrCeTLj51QNYEyh78hBql/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13576141509916131050&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJTdMv2y5BWBQR6n78FsYkaLw.jpg"
       },
       {
         "id": "ChIJcdNCwlg_WBQRsqBpd7z8tbQ",
@@ -1299,7 +1360,8 @@
         "websiteUrl": "http://www.azharpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13021591783999119538&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJcdNCwlg_WBQRsqBpd7z8tbQ.jpg"
       },
       {
         "id": "ChIJVdFsNk0_WBQR9yJLMXiTfQU",
@@ -1319,7 +1381,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVdFsNk0_WBQR9yJLMXiTfQU/photos/AcnlKN08vGp_fjYbMQxaLPZMJNTOv487HVMoBGM989KIR_LqwgFXkJvEuAGllTAe6A2vOl8wJ5Vi7lleEc833tCYXtxj9POEAAlvEwBOzf6lGq_gXX2ZEk7-0OO4ZKuunwoLMIgmplbduUVxEhw_uYB3ss4QQtkF_UuzGY3ShP_EBvj8qz-ATvjA1-B4YiyKs9TWSoJTX8nYY9NMfKiwgFFUl6bZYj2jntrukN6G7zTvHaUXM6lhbF9Rg-pVNM22MYH1YP-cMRdMBzk9EBXXE-bM1_3ETDUW3d-h4KqudCPEtGlk2eywlDwU28PcRLYGmN9DHeiqHLcvVYbpLgqM_6UOuo3oF5rPQx95z1QBAyJjoRjZoWGiWLb0lp8ewwPHWhQInH5WOzOMN5PH9Et8gSL7YbZ6eDD2R3ZmdE-S7Thrjaw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=395634486710838007&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJVdFsNk0_WBQR9yJLMXiTfQU.jpg"
       },
       {
         "id": "ChIJyWl_KLs9WBQRz7VGcfrNUyo",
@@ -1340,7 +1403,8 @@
         "websiteUrl": "https://www.facebook.com/parkegypt/",
         "googleMapsUrl": "https://maps.google.com/?cid=3050007848185935311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJyWl_KLs9WBQRz7VGcfrNUyo.jpg"
       },
       {
         "id": "ChIJbXzCcSk-WBQR1aMXiBFNNj4",
@@ -1360,7 +1424,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbXzCcSk-WBQR1aMXiBFNNj4/photos/AcnlKN02Nk-pigg_dX6z7FDagJU1oYMpfCYQVj96MerPbw80uvgqHrU_lJzCtJspXsiBQ_0ZU6MVjQ8esh3wRgcK9SwuxYPDee3Qo3XZUi_I4PSVdZSqgdLtYs5oZSYWM0NqQvgapxF4VMdVDAhIPsZ3CsXTRGZ6nnq_pDZLd8pqwscuYdZiXyuA7XnCJ_-ycV4k_XUkcJgu1ls79Z2OzfQqF_n3YHYaXML8a9lneIQS6SdZv17BcVIfFfDqxCWuEX17EzjqFhVXh66PNwSkU45ZCso9PjIdIcAKRCoKJu4FQpD8jzXPG33NGZDW9XGKoqtCAFbVQSUC8HTczblMMixS2bv2nKdeGGEFmVKWikWEgCkN2BvjGASiPTb88t93y9k_9E6l-zWE2GC5viv1wzFuGAEcNVbhPFnBrjFcuTvABFoJj4Xr/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4482855216786940885&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJbXzCcSk-WBQR1aMXiBFNNj4.jpg"
       },
       {
         "id": "ChIJ57fAvQU_WBQR1I-aKJT48tY",
@@ -1381,7 +1446,8 @@
         "websiteUrl": "https://btech.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15488715383700623316&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ57fAvQU_WBQR1I-aKJT48tY.jpg"
       },
       {
         "id": "ChIJH9vwOoYVWBQR90_jkGUJbSU",
@@ -1401,7 +1467,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJH9vwOoYVWBQR90_jkGUJbSU/photos/AcnlKN1Dh6zSEyF35rQwkrU-ALZOxUCcDqhLVG4dPXshpH6ymz7Ve6NKEksMAr8Jn1tWurUtAs5OAjbVzT8G7WRq5Hqzp9_9D9VIvBYkbrLBcaav9GO8SZW3sVY_vCFTYb0hf9EeK79eQdsZPulD3t840mBQwqwEdV5nGdgd5GgdOvK09V3zF2aa6NmrUUz3rFiV4lxzO85kl7nAvestnytZDRnntOZYowPcQeyt973wBr0mm2pynbesBNmz5wqHgGf5TQxSQ3pnH_gdYUIOZYuMr97jxojcIZDWmm2bY_IJFQ0IoVXVFbGF9TxM30l8I9hU7yY0r4GIDtfyDMt5HcWx2iBHqgCg0LKTHPtVveUspSTzVP8CYv5B7SXoxutDBsHOZcLmIETmO2Aib5IKLLbcM3AFCHQ0enztF3BwhAcpB0k/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2696822083691958263&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJH9vwOoYVWBQR90_jkGUJbSU.jpg"
       },
       {
         "id": "ChIJwY7d5MFHWBQRl1nMXlW_tUY",
@@ -1422,7 +1489,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwY7d5MFHWBQRl1nMXlW_tUY/photos/AcnlKN0Hm5F6qJoUDk2WYyD2hJiWIELWH6RXXRkTD-jqrLS3H9S7D9DltIuyRf6gciCjsryuz2RzaZMdGFAygN8kL6yhmLj_47FiGAHLxHHo0Ncd9yf7beHS4m30ux3-GQVGVWxBaIYqQWQSF1u8Wghoou5xxIahH5l8RwzWGxa0ksMXiYCVqqNndC2Njf9Y0tWxFuUO65TMEoU-FS6cs4oysRjaaTfJLddh-TI30Ey62SshXddGJhVznNDFHiibY0fmt_O0ZWppcZONAnp-pAZjcT8bzYv_buCHWgQMPIRobPgK4g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5095188926823160215&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJwY7d5MFHWBQRl1nMXlW_tUY.jpg"
       },
       {
         "id": "ChIJW8mw1W4-WBQRD3MC3Akl1g4",
@@ -1442,7 +1510,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW8mw1W4-WBQRD3MC3Akl1g4/photos/AcnlKN12h3uirfqk5hkdXIXSjQHksGNBaCkT5DStD6adYkVSWd-8uuwAutXc_P0sbSH2AE76ZP9LRdHQuTXCSYQRAZMU7-lJHiLFKhaqyRKVxkGKA8hy3WL6FzvvLI261qPFN55VMFnFkYPRMbugp2yf0e-2WWmvlk3IhQFlN6LEt3Qye-Y_2FESqetYQwgymbOmtIOUBfcEyuw1Gd1WHmVtn352hhC5zJ6lPL4oxnlTWlnJ9VwlKy5zQItP9vkAflShks5heHDNna2xabgLvLN5-98XyJJU6QA7mXPIl4dvJdJog4994xr3uiWjqSAolfZQhqSR6II1VzXoyZrWFvEXQjdS5mxc1WEepxvmr40DSG2TindTaqYHMLK6RvXQa_USZd7Ar2CbdEXt_qjGrcm6U_odNMhc5ORn-jXqsJY2h_dwOIz5/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1069082685823152911&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJW8mw1W4-WBQRD3MC3Akl1g4.jpg"
       },
       {
         "id": "ChIJucFmvYJPWBQRu3ybjytGvDE",
@@ -1462,7 +1531,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJucFmvYJPWBQRu3ybjytGvDE/photos/AcnlKN1799OukzMdeGdKYE6aBx4AIkxGev7HNZviRYlIvynp11PXs_MExIEWS2HG-z68r0YfQ9mDWUpIjOcFcB3SUZi-ETFDRVqKxzJfMPvw1Q_5aFqXfnmFXyxmO8UQhLBqn7wq_7ibKR2J1aHte7CfW6k4HQor2hXQFP0WMknwgS4RXqJSh96VGL6K6A2KU5Y9UdjZxlIUiwAu3fXZ-xy05lBSm3UDtGz1yF2JxUrU456ciYL5CL6eF6_pKS2A-13DvVXtZ_p9zREgwltJ7BuzOR60PGjDTdGWpRG3TwjqXNg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3583816556386942139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJucFmvYJPWBQRu3ybjytGvDE.jpg"
       },
       {
         "id": "ChIJo15TDWhJWBQR3vZS7xIoVcI",
@@ -1482,7 +1552,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJo15TDWhJWBQR3vZS7xIoVcI/photos/AcnlKN1cvmF_ruK1CKJlZC1WUBSOL92vqrtMlPe1K8lX09lHVAOevRUTx04LO2e0e9mis2sr1nOAnU_Q-uFdbUevWIoeMazBQl_EZ1RMhlrQSwf5Y8248gQ5bx79WoZVD12EWhThczSr0x2KwKZiuXALgl88cT6YXLy7xG5Nwu9-BlDbch6pd0GFvgRWpPdpi3jGRBEyz09lzMjlH-eQdixn0Fj6n4oz90p1o1sLpC4gGzz6e1egHA8m2j0YBmUXtWRCgNQp1HyOCiOzy7gGZZSzcOC_-kDqxhvd3DdeCi_1-NiJkQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14003142678168139486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJo15TDWhJWBQR3vZS7xIoVcI.png"
       },
       {
         "id": "ChIJUSih6x9HWBQRqaZm3hTD4JU",
@@ -1502,7 +1573,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUSih6x9HWBQRqaZm3hTD4JU/photos/AcnlKN3H-cwKxAV0cVEaX2dFcbGDV2rrQ0ZyJvd_yAEtVWjxHdXPe_6rDRaEZ3N3G6CIcTKDJP7fgSmG8iGxvBbAUaoF5IGLzVnTcTxEpbEItnVHkr9pSZcK69D6npOk88hL6uu2JcLZHruD6aQKD6UIwF8B13Xz6EthUxtM-9ba3oPFOexzgPe6XwwE4dVxD2smaeoxhz5VCkQf38vEXBUQcjIP9qV1goJIuLVYFy6vP9LOxAaUqsIoMEu1H3mUUucO76tOD8vfyn9FINWk02EWokko4A7S5a5lOi_ZzuGpd81nVsJDNNdJgBrPtu9ppW8q_LUQWKYMzFnhybE1yhyZjgCMsaAP4jr7c7WLoilH2O0GVvw-R_qX53UBUNQWrMXIbYMU9qTvJP-VohEMO4ctBMBbk2pEj_zYFaZWw41kHBkvaA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10799846400832480937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJUSih6x9HWBQRqaZm3hTD4JU.jpg"
       },
       {
         "id": "ChIJ59UvCJtHWBQRajiU_jTipNE",
@@ -1523,7 +1595,8 @@
         "websiteUrl": "https://www.facebook.com/Adventures-_-%D9%85%D8%BA%D8%A7%D9%85%D8%B1%D8%A7%D8%AA-105433205449345/",
         "googleMapsUrl": "https://maps.google.com/?cid=15106447767344789610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ59UvCJtHWBQRajiU_jTipNE.jpg"
       },
       {
         "id": "ChIJDXrpnYM_WBQREhJizES-Xnw",
@@ -1563,7 +1636,8 @@
         "websiteUrl": "https://www.trfihi-parks.com/ar/park-details/101-%D8%AD%D8%AF%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D9%84%D9%81",
         "googleMapsUrl": "https://maps.google.com/?cid=16868340907882011156&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ6yj7Xz0-WBQRFFp_9K5iGOo.jpg"
       },
       {
         "id": "ChIJCXJewPhHWBQRiCsxVB8aueU",
@@ -1583,7 +1657,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJCXJewPhHWBQRiCsxVB8aueU/photos/AcnlKN2QW2uy1Syz5f4flz1e01J5JIOfbuy11Y7K7M_-2Qmx713ySQYyBq41PeAtrZJIXPidjSU5ceMKvmM7Owm6idVVheSJHtLsngjfSaJRIg-EqVcQY1XbuMuOF6sLyyaKmBvQ0Kpa0YrODoufGLzwv7MKCVQag6bhmkvEfDlpwUmZvsOZFx-BX312D01w-lsBrzsGKJ6z2qqIylRlFwRhByObzimgPsUIjNuIf-AamCBcH_LwujYaE3Mpmo52BsjpZXwl5no3dAE9MpuTuDhLKFivOCvxKMRqIJ6XMF0alfFj1Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16553290627235785608&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJCXJewPhHWBQRiCsxVB8aueU.jpg"
       },
       {
         "id": "ChIJAaBF8C8_WBQR_qRnFB-ra2U",
@@ -1604,7 +1679,8 @@
         "websiteUrl": "https://www.facebook.com/share/1779QVcSdf/?mibextid=wwXIfr",
         "googleMapsUrl": "https://maps.google.com/?cid=7308122970313434366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJAaBF8C8_WBQR_qRnFB-ra2U.jpg"
       },
       {
         "id": "ChIJVRmVCwA_WBQRpBlWRvxgI4M",
@@ -1624,7 +1700,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVRmVCwA_WBQRpBlWRvxgI4M/photos/AcnlKN1Y04ZdFUcWpuYEqPnXeFu7B7LJdqgolM9f8RW3652R2Qm-kPUbxqhsEiPmCu3aoHniD7QJ9OPHT7FAFzTNY6WNhYbZfkep1VNN5NwJGSp7SOD_CQYWjxIKr7eiekIK-G3pywSUjWTFkF-dteQu9AVA0ymwGc6N4toG28y25a_lR5vu8FXz_BTGHjivUV6TvvqfkTWDuNTvCN2gPgJxEvRqWCVhVgfsfhprr6V_PovUDQKajI6lA_bKwrZuuHFBladIUkEDGe77xXiopwfqchCtLnIHQQEfYkORfaNbqS6tJSY9Hcb2JgwwyJ7IZ8KajPDVZnob0SUS21qHlPI1qzwosMW-KeXexYIQ4TxIpuOVJ41eEEb9UX5bHjrYn5HyI-RaFSStSPNVk3dfyXTuRFtysSWePIbkkwnzVrZhn8uJPwxR/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9449503079781505444&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJVRmVCwA_WBQRpBlWRvxgI4M.jpg"
       },
       {
         "id": "ChIJffnJRJs9WBQR5XVBz4vBowg",
@@ -1644,7 +1721,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJffnJRJs9WBQR5XVBz4vBowg/photos/AcnlKN01r9Aj91ILBFmGnhvclXED2v2x5gXu0yGD32Q3RQpBYnPaqvm1Q5UlGfaUY0q3NSkVIsjWyfDhtyJqgLNDW8f6nxQ9rSGAgpeQx8JfwMTvB67jiKetoVUKY_lYmF5tzCbezaIHzOHYoXLBeKEPZDQE1pxa5SxDY0ECMDptIY9zDWbDpPbSpB3swWPNPuvgvEuu9ZzVcKAzo6cjXI0JwoTIJMiqCLnshtY8QUcmMW_x_h5Vvd_5-ZxXBF3yWY8YnZ557DhIJi2l1eQWCrvnuZtCtHJtPWLYelcpLp4EtmYXvMee-6cz6QEKqDxcarYLcgpGTnVdxdohDOrJml-5bAJugmVhBgdKbvMvQ5MFxMymq69Ou5R4zpOZG9-GVMYu-M0oXhNoQoMww2sTflJQolNRu4zskHSi7ZXQJxv1qh49CJ-k0FZ3A7xEd3pQsA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=622553979729049061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJffnJRJs9WBQR5XVBz4vBowg.jpg"
       },
       {
         "id": "ChIJhw43ni8_WBQR56-gM3ZRspY",
@@ -1665,7 +1743,8 @@
         "websiteUrl": "https://www.facebook.com/Abanop2021/",
         "googleMapsUrl": "https://maps.google.com/?cid=10858831219657846759&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJhw43ni8_WBQR56-gM3ZRspY.jpg"
       },
       {
         "id": "ChIJ-YZzxgtBWBQRR5gpEnCEqLM",
@@ -1685,7 +1764,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-YZzxgtBWBQRR5gpEnCEqLM/photos/AcnlKN0MOY-0RuRwL2sXX0RMVj04x6jj5Jb5Yu0-lSUtpj5o72e4wzhlk-Sd5BIuwlVsi_R-1s6MMcLbRkNw_m7Yg3TJ0gj5Vrzi9-jWcJX_oUrSOIwZqUNzSBA5mo3xOZTOInCquOcLKol-aeAgRmQ3Hs_YRm-_p0S-mu0LOXUD_ZKvLZ9eb36TIyxPUdumAiot5Q0-vmzUcI5TXmJA3w8NGc-5nhfnOMcOCPh7Q7YGxR4gRJc7qNu0Oe8dkWsV3rU6hH7dkLYN6oqV3KSNIVjY1Dh18dIQ2wvSgKxGd9Ft6_8uli-nWKZYYWpU3xWUMRa2YQDEMhzIxToCovgvPQ_D5KF8N3DaMCO_CFmSjmUoaQDQBa2C7HnyO57jns5lvYAgndg3ozB8-6eNYs_TdXWpQYkuvUS-BGgiwVI6p-fgHfmEDA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12945742745752410183&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ-YZzxgtBWBQRR5gpEnCEqLM.jpg"
       },
       {
         "id": "ChIJhcmQY-RHWBQRyS5w3IYN1cE",
@@ -1705,7 +1785,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhcmQY-RHWBQRyS5w3IYN1cE/photos/AcnlKN1RFku4nRaVujzr5_S4tj7uLCwJzThJqmnKEc6-_Rdb_bTRp55IXofMQOtIEiEtW4GOkX51EENYhyic2XMGJUnMAjjEjW2yEW5gTo7kAzHz9rWGICIAqfDurj49b0mQIYNrGmYO7XIGuHdxFENdWt4rMuWIpASbeRuZMM6Gt0243NAJ3bkca743Akrw4i0tFNmefYDVJE6CDSpM5XDmY3gzNRzsrOVpveQzEvvi2vmsJCs67qcRFEgg_Y3nVxfQO3KNr5lQCJ0yjoA542g-vy-aP5n1qidS0FMwhtSJ8xdShXL-M5uW9vFJt4ia-94JyP5ys3nmbJre3T6bOuv3M-wLuE3aVQ_QKePBmSB74XJjPTJjxBcq4B0ptOlZE639MFa3ttb_jzaN8ZAK3yBkiiL4aKkyE1cf85_ssC39QM9fZA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13967084692234579657&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJhcmQY-RHWBQRyS5w3IYN1cE.jpg"
       },
       {
         "id": "ChIJs9hgg2sVWBQRDc7Vj3r1iBM",
@@ -1725,7 +1806,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJs9hgg2sVWBQRDc7Vj3r1iBM/photos/AcnlKN3GLJwi9VdCdVbw9LM1RbgP7RO6mMVbKO5QsDNLi1g0YZnbrVLw4bU9Ed-34SJAVf0oWiw84d7LSXsKsrgUrYt2d2HNn0MmzzpTTWW2KvhOqIahI5qqJBqGlRRYosWzdlfp8vefN2ZS8pgdCeaYwyJyayrXVHWxgNfuGBLfyv-XaIHRAhS6i-vlWe6ZxImSiDSlkeBgpUALJLeJ60u2kmUsEHuGI6Dt9dnoDJCqeRAqWD1Uzv4f2DldQdhHpo92zLxJje2iKtOSfQH4HzQPO0zOevha0XEWiGBDpt5ATqVKVxf0tCgHJuEFotQW6OFWEHHRdYr-0a9U7lmnda9ar18-j8EoI-JcF-iZM5HWKit8HJE7Ual0TbulzPW9NYD2sBMN__wLCvXbhO-y7qNVUv7SXz1LbN2LJR3xBU1ylHhWxAh8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1407644790301249037&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJs9hgg2sVWBQRDc7Vj3r1iBM.jpg"
       },
       {
         "id": "ChIJ9063k507WBQRBY6SkJ-9TeE",
@@ -1745,7 +1827,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9063k507WBQRBY6SkJ-9TeE/photos/AcnlKN3BUBdwVojdTd50uM6Q7Qf-6h1r5Z-rW5sVTMWw7ACsBNrfJguEVgUnYt98NuyRnbv1M6Ph5Wc3u8qUAOhJz8-8RSXcwwvClzEHBeKbVc8d84DBeRQ4qgwI-qId-NP-lqBjF4-1-oIC4t1sDbV3NOUvQ_O_2r0pvy1wIM_1cwIw4Llm6u6yW0ssTnEA-Bu53iCpHlwn-1BdvMMqDAlB5RMSqaM6RbyYUwHIKKFPY27PQXui432zqnPgojqQVmwEmhCc_GrcF_OJI9bFz43-GvngWpO_LUTpJjXPrduVaU76ut1fy_9WGWMhj45eChqqxoaItpLvbSyTlVEAfdRABSK348RLnu9lqy7HhGy0TZLM0J1-LM68DeHtHKPuOr94_-q84iHcGYowhwZI8-qJn4oUj5wB4XXUynuYa1NdGP_EWfPlGunt5xapzvOnBjkQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16234840724763479557&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ9063k507WBQRBY6SkJ-9TeE.jpg"
       },
       {
         "id": "ChIJufTjMfFBWBQRxRubalodCfM",
@@ -1765,7 +1848,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJufTjMfFBWBQRxRubalodCfM/photos/AcnlKN3KA_OlWBGG1VSTp3oGBAv5ZxPe6VgwYQS8Rkq45yFYd316h_DhaltWRC_zy1mrInxNGRcnrroLDUe9X0K4AoB-We_xMdX3DvU1d_w4rnL51xzBLKnuPNPwnFMS4umGk0kt02KHNrounvz8M237YUdZrj0rkvZMXEX15W7PJlTG1U07wF6Ve4Wkx3xUawjAZvZtELj9Moi6JlUIdL-apuVM_0iM9CxGZ-I0yXaEFTW6b-t6Zf-IVr046wZpIy8asCt1Dbx29EcyshoJNaeilBkK_9N8m1fW_40YCmuAGdwS3QY4Wy4z-ejXOJaFZqwT8eMST13AoibLM8UkjxegSNUXacKUbylTEoNNnaOPAnRZMSCDYk5W-UfMbBPrG6d0F05I060LtE2rtil809HT94lbZCs9_ZCqrocw41FD2QI6pXXW/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17512560900179696581&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:08.927Z",
-        "updatedAt": "2026-01-23T16:08:08.927Z"
+        "updatedAt": "2026-01-23T16:08:08.927Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJufTjMfFBWBQRxRubalodCfM.jpg"
       }
     ],
     "cultural": [
@@ -1788,7 +1872,8 @@
         "websiteUrl": "http://www.nmec.gov.eg/",
         "googleMapsUrl": "https://maps.google.com/?cid=14042320689093874781&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJj57jY2hHWBQRXRSPb0RY4MI.jpg"
       },
       {
         "id": "ChIJGymPrIdFWBQRJCSloj8vDIE",
@@ -1809,7 +1894,8 @@
         "websiteUrl": "https://egymonuments.gov.eg/en/monuments/the-great-pyramid",
         "googleMapsUrl": "https://maps.google.com/?cid=9298859280971408420&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJGymPrIdFWBQRJCSloj8vDIE.jpg"
       },
       {
         "id": "ChIJ-7K-GBtBWBQRukpbdKdzt0s",
@@ -1830,7 +1916,8 @@
         "websiteUrl": "https://www.cairoopera.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=5455956636631517882&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ-7K-GBtBWBQRukpbdKdzt0s.jpg"
       },
       {
         "id": "ChIJzbs54n1PWBQRizZuWjV0dMo",
@@ -1851,7 +1938,8 @@
         "websiteUrl": "https://egymonuments.gov.eg/ar/archaeological-sites/giza-plateau/",
         "googleMapsUrl": "https://maps.google.com/?cid=14588412865459140235&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJzbs54n1PWBQRizZuWjV0dMo.jpg"
       },
       {
         "id": "ChIJ0YpKmDRFWBQRGibsxFtMdkU",
@@ -1872,7 +1960,8 @@
         "websiteUrl": "https://gem.eg/",
         "googleMapsUrl": "https://maps.google.com/?cid=5005271992898430490&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ0YpKmDRFWBQRGibsxFtMdkU.jpg"
       },
       {
         "id": "ChIJF_ZR9bpAWBQR_WeDJloU-7o",
@@ -1893,7 +1982,8 @@
         "websiteUrl": "http://www.cairo.gov.eg/ar/Bank%20of%20Ideas/Pages/matahif-alqahra-_text.aspx?ID=15",
         "googleMapsUrl": "https://maps.google.com/?cid=13473385087634728957&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJF_ZR9bpAWBQR_WeDJloU-7o.jpg"
       },
       {
         "id": "ChIJmzFzaTJHWBQRnYC7wOdZtis",
@@ -1914,7 +2004,8 @@
         "websiteUrl": "https://egymonuments.gov.eg/en/museums/manial-palace-museum",
         "googleMapsUrl": "https://maps.google.com/?cid=3149803841298071709&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJmzFzaTJHWBQRnYC7wOdZtis.jpg"
       },
       {
         "id": "ChIJ3bCTwZdAWBQR6qtA8NTvYGI",
@@ -1934,7 +2025,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3bCTwZdAWBQR6qtA8NTvYGI/photos/AcnlKN2Cpdjd70oXnbIoxlwhq1_UNf-fC0dSUD8XspGOFErbR-zRmKLV6T8e9apQFyXBLpNn42qZBxpv7aPc7ZvGGboKVkduudo1oVvKGPvR4CGxDA7x4xZ4yRFHu2o_ZZZe3naGHYJCLFbBIDU8147_RKrc4hAUjqEH1QRevABZTruNEeu3-2yjLzR8qzyS0OmAk_weUH3SLf97-HjF0atWRe2-1PzrAhMqpgd5sr8-bFfavh2BFtsISv5M0-XqEbM-5aypTposPE6CZvnuwdgctw5-uETQjoOqnxkN57TRhlV1JA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7088929511324036074&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ3bCTwZdAWBQR6qtA8NTvYGI.jpg"
       },
       {
         "id": "ChIJKfCtck2xWBQR5L_ttrv5OJo",
@@ -1955,7 +2047,8 @@
         "websiteUrl": "https://egyptianmuseumcairo.eg/",
         "googleMapsUrl": "https://maps.google.com/?cid=11112906665159933924&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJKfCtck2xWBQR5L_ttrv5OJo.jpg"
       },
       {
         "id": "ChIJNST8XnxBWBQRCa0kyrXPpm4",
@@ -1977,7 +2070,8 @@
         "websiteUrl": "https://m.facebook.com/Saheb.El.Saada.Restaurant.Cafe",
         "googleMapsUrl": "https://maps.google.com/?cid=7973288569993473289&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJNST8XnxBWBQRCa0kyrXPpm4.jpg"
       },
       {
         "id": "ChIJmxmkHLU_WBQRzBYJ5_3_jo8",
@@ -1998,7 +2092,8 @@
         "websiteUrl": "http://www.mod.gov.eg/ModWebSite/MuseumDetails.aspx?id=2",
         "googleMapsUrl": "https://maps.google.com/?cid=10344486860084549324&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJmxmkHLU_WBQRzBYJ5_3_jo8.jpg"
       },
       {
         "id": "ChIJcSybssdAWBQRNP7ldEEUd54",
@@ -2018,7 +2113,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJcSybssdAWBQRNP7ldEEUd54/photos/AcnlKN3N32P-90g4zqJU0xrIupHQ4uoSmdUYRvdKezuBh4xBDum34DOTOq_34ZmfIxwnzwQt4MQXRWU-FWxiGwtmc_-fa2ICOj7En04IdE-R_i_2h_1PCbtkY7ngOajgAvH-9mdBfxOAgbI1_gnl4zxIwivkPdxiWCcZ4W-EbRzNaXf4PD3HoLLIN3kn1rxvg01QLQGLIHbljH8j5GvWQg6Ta6bs74sQUPgvPLbJ_gsEyU3s8ZCWGlarsBa6JekxwUS_If_d72bEI7ScCBi6hHLYUUjlyueoDYkXlAknPSkGh42boA7uDcBDmIT9QgZCIzrhAHqmRTmpvjT_S-yn5THsuWzUT61YcCAkyEfUqz6xH6RrNTtC2g4QHnJ5dmapyZt0OZTGa5wYJn2vDlYWJkxmHuS1cH1DVZ7UWfNu8zpWWrHl08l0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11418617651587841588&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJcSybssdAWBQRNP7ldEEUd54.jpg"
       },
       {
         "id": "ChIJF_ZR9bpAWBQRItMNSOccxfM",
@@ -2039,7 +2135,8 @@
         "websiteUrl": "http://www.cairoopera.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=17565477701300376354&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJF_ZR9bpAWBQRItMNSOccxfM.jpg"
       },
       {
         "id": "ChIJQXHpWcpAWBQR3RpQ6iE7uNI",
@@ -2060,7 +2157,8 @@
         "websiteUrl": "http://www.egyptmusic.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=15183951160530705117&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJQXHpWcpAWBQR3RpQ6iE7uNI.jpg"
       },
       {
         "id": "ChIJpVgdqJpAWBQR_tZY0ny_5mw",
@@ -2080,7 +2178,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpVgdqJpAWBQR_tZY0ny_5mw/photos/AcnlKN2uega6usNLEFZVmx4cvCES3yo6fcs3MNNSWbwCcZkv-JCex7ImkDDpItaVq1JEQ-e37ipfZ7NG8b4y_MQ99IKdwhX3phr6e68F9pw-UVXhHS1vkBK_7mAqYan7Sl63WpN3vasFDiJhMxBDkVu92eAEaYFPWP5SXT3PFzwGFkosnxsIoUYn8E6TmdYM2O0BOprOmYWup9Pn-ChKQbbdJ3OjZtKVhvr9J33NkgXrOnMCwFsLpnT8iJDUwKHUXh2ZMUecu_OhNTlhs33cZJd3Lyadpeiu12tZhICug5OulueEjbRhrgYuNrXE7l1upKkNaTSzNPJmbcOC2f5tgEzHJ8bCP3zdstCOV-_5R59ODXSZquPa8I2lMq50AsVnfUNGT2F8y5kJSAYQ7Kagh10XTYV2m_QyMwKwnU6tR_hXPPkqPdM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7847169943565555454&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJpVgdqJpAWBQR_tZY0ny_5mw.jpg"
       },
       {
         "id": "ChIJUzKZFitBWBQRwzCkOALILDc",
@@ -2100,7 +2199,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUzKZFitBWBQRwzCkOALILDc/photos/AcnlKN0MXgQaCSuOWEUon4bZEN7b30yfL0dPCQgIHTuvBimti088HBiJtoNE0FNBt-uYpm61sGMmhLxzeIr16gdBMIasAVt813VpQaYXlRdgn9RQOQSZJv0F5sUlhtjOK21mJeSljzWaut0u6WWptiibOQr0V3Hnjc2X7iGNubYOD6bySqbRHzMaysHEA-sgXCL5xVAjpwJP085ytHDLpQblCNI1X0MBojlAif5NtHH9J1_9RRzdK4sKrCqwgYlEMS6vMhtoNC6gjN5t2iMjJ82b5zgm6NUKckCVZFt-wbWpX-EptQRTLUY-oSvdxt_TBxZNoVIw_vLH8utGwzgPQ-yuT8rXtB6FXYt4OeEgxumGj6ahv0Zg36vPLsZt1lVT5939aQS8rqKonQoPiJzjEe0eUqD-CjsSsLfy8WgRszPAaAs1MQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3975772482927079619&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJUzKZFitBWBQRwzCkOALILDc.jpg"
       },
       {
         "id": "ChIJn90TYMRAWBQRhq-ZfUFe7MU",
@@ -2120,7 +2220,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn90TYMRAWBQRhq-ZfUFe7MU/photos/AcnlKN3Xj--C78wxJP_u2qNflkZiN5_kpqvOcK_AdgdHUp4-xxexAU2G7WhemBIQYOg-pYqdePpY89ng3EcEuEY8X9S3czJGCQFEF9MvVtggNTUpyk8t2F2QAG0I6UrcusoUOWM0yB5dmg3qmsrk-NCdZxwxfytQyWD-tMa7APrp5HpsB50mQkDlVfJ3TQP0FjmVZWMVr6uadMUct9oE3dPIxSfPt308kHQqwTE58mpKWnt1yg3Q9firBk-ndguhKWtjzR64ryO4s5IbBWB5skDRr2Q8zMERxCLxb9kNgTSOV3JhaUFIr6326t1CVpPwNgHZ0Z7i7trgxKDNZon8j_grpaVoM2xZ5gKSG-jOvGWSS2hDEhYqwkJDS0gc4hgd6Eu6pG27Nl6gSc-nGDFPUZVbPYQ4O5tulv8MF8CmnMbFhvbGe8Z0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14261877755348627334&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJn90TYMRAWBQRhq-ZfUFe7MU.jpg"
       },
       {
         "id": "ChIJ_Y4sjctAWBQRZDXLT33BDKo",
@@ -2141,7 +2242,8 @@
         "websiteUrl": "https://m.facebook.com/masr7elsalam/?locale2=ar_AR",
         "googleMapsUrl": "https://maps.google.com/?cid=12253381430122067300&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ_Y4sjctAWBQRZDXLT33BDKo.jpg"
       },
       {
         "id": "ChIJDZZv7sJBWBQRKvXUIhxi38s",
@@ -2162,7 +2264,8 @@
         "websiteUrl": "http://kemetngo.kiksee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14690568382488835370&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJDZZv7sJBWBQRKvXUIhxi38s.jpg"
       },
       {
         "id": "ChIJ76CozzJHWBQRt7HPMz_FFtw",
@@ -2183,7 +2286,8 @@
         "websiteUrl": "http://www.cairopolitan.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15859080013074641335&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ76CozzJHWBQRt7HPMz_FFtw.jpg"
       },
       {
         "id": "ChIJ3f5aOb5AWBQRc-X8mjJVRBQ",
@@ -2205,7 +2309,8 @@
         "websiteUrl": "https://www.facebook.com/eishmalh/",
         "googleMapsUrl": "https://maps.google.com/?cid=1460385855011874163&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ3f5aOb5AWBQRc-X8mjJVRBQ.jpg"
       },
       {
         "id": "ChIJg8idQpNAWBQRQpOyInH3dUg",
@@ -2226,7 +2331,8 @@
         "websiteUrl": "https://www.facebook.com/Msr7Alhusabir/?locale2=ar_AR",
         "googleMapsUrl": "https://maps.google.com/?cid=5221351408291451714&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJg8idQpNAWBQRQpOyInH3dUg.jpg"
       },
       {
         "id": "ChIJD_tsauFAWBQRSfeoiTuyFIY",
@@ -2247,7 +2353,8 @@
         "websiteUrl": "https://picassogalleryeg.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9661543069398923081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJD_tsauFAWBQRSfeoiTuyFIY.jpg"
       },
       {
         "id": "ChIJE8-py-ZAWBQR766CfRI08cI",
@@ -2268,7 +2375,8 @@
         "websiteUrl": "http://www.zamalekartgallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14047065966765059823&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJE8-py-ZAWBQR766CfRI08cI.jpg"
       },
       {
         "id": "ChIJnRxlLac5WBQRd6c4Z-O73Lc",
@@ -2288,7 +2396,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnRxlLac5WBQRd6c4Z-O73Lc/photos/AcnlKN1jgwMuiItCv4qz2WcIBEcM3ak5PFAe5sJa-sQmysvmT-5gcyxML0IMsk1PRVyulSl6oLxY_a8qAKITcLBDRRSRQLmcAzHuzXZbUgdf7gfZL2kkUVETkeMDU79u9ZkGzNbjqzYaQsn4UKqXuJ0EPSz3TtBnpSHm_W-RP_DCTDDbgCc7_FHyVlDIkhTGG-gO3lo11SuTr1A7Q1b450nLDxnIVNGbqILOh682F4HI1nPS068z8RJFTXD1q26eOZLxVtokHgqw5GKRIycbOb-fgY2NRZKJ9FQjbyf2GL4XBmmJcw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13248670789180893047&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJnRxlLac5WBQRd6c4Z-O73Lc.jpg"
       },
       {
         "id": "ChIJ91hBoUE_WBQRzuwaeSiPhFQ",
@@ -2308,7 +2417,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ91hBoUE_WBQRzuwaeSiPhFQ/photos/AcnlKN1JiIFvgX2Zi5w9GdA2SgvXgceiDoFZUbJz5PQH4VdAwkdiubDQozcRZyeHB_6Vpe001cV2jf_aYkxOALjg-v2hEdkLxjv5OPcP77vozXYAO3FpNtF3iBtlv3tGoiB-wOv-e87NmJZ_2DiTHG5Zd3nhxg3cpBJl5TMqx0MWUlx_KTqoATR8gyFbsEB-syJ7Jeiu6AYStz8joQpAaT9Ez6-KlLUhLLqJAbMtKILZS9JLUJTT69AQwETBqJTAC5d2hwKt-EsOY4ou-WapVgFqQg0BqHhDM81DdauVvMesGFJS_Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6090150000105024718&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ91hBoUE_WBQRzuwaeSiPhFQ.jpg"
       },
       {
         "id": "ChIJ5bSjtaFBWBQRJDk60QVMBgA",
@@ -2329,7 +2439,8 @@
         "websiteUrl": "https://www.facebook.com/RawabetArtSpace",
         "googleMapsUrl": "https://maps.google.com/?cid=1772437729065252&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ5bSjtaFBWBQRJDk60QVMBgA.jpg"
       },
       {
         "id": "ChIJFTK9KQ5HWBQR9scMa_t_ObM",
@@ -2350,7 +2461,8 @@
         "websiteUrl": "https://www.wissawassef.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12914494124271126518&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJFTK9KQ5HWBQR9scMa_t_ObM.jpg"
       },
       {
         "id": "ChIJ5wyc7SJBWBQRrVue5dwfRMw",
@@ -2371,7 +2483,8 @@
         "websiteUrl": "https://www.instagram.com/accessartspace?igsh=MXQxa2F6djh5cmxpeQ==",
         "googleMapsUrl": "https://maps.google.com/?cid=14718924515759250349&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ5wyc7SJBWBQRrVue5dwfRMw.jpg"
       },
       {
         "id": "ChIJh98Lmmo_WBQRBP0VBphxP48",
@@ -2392,7 +2505,8 @@
         "websiteUrl": "https://www.facebook.com/beetelfarida/",
         "googleMapsUrl": "https://maps.google.com/?cid=10322093768707538180&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:09.783Z",
-        "updatedAt": "2026-01-23T16:08:09.783Z"
+        "updatedAt": "2026-01-23T16:08:09.783Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJh98Lmmo_WBQRBP0VBphxP48.jpg"
       }
     ],
     "relaxation": [
@@ -2415,7 +2529,8 @@
         "websiteUrl": "https://www.ihg.com/intercontinental/hotels/gb/en/cairo/croha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-EG-_-CROHA",
         "googleMapsUrl": "https://maps.google.com/?cid=12631169901786588477&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJz2GOEc9AWBQRPWWYVRruSq8.jpg"
       },
       {
         "id": "ChIJCXj1Ps1AWBQRsB73IUIL9dc",
@@ -2437,7 +2552,8 @@
         "websiteUrl": "https://www.fourseasons.com/caironp/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-cai-hre-mid-seo-na&utm_content=na-na&utm_term=na",
         "googleMapsUrl": "https://maps.google.com/?cid=15561356466114207408&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJCXj1Ps1AWBQRsB73IUIL9dc.jpg"
       },
       {
         "id": "ChIJh9b52a5BWBQRGPh8hnRv3Tc",
@@ -2458,7 +2574,8 @@
         "websiteUrl": "https://www.fourseasons.com/cairofr/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-caf-hre-mid-seo-na&utm_content=na-na&utm_term=na",
         "googleMapsUrl": "https://maps.google.com/?cid=4025496188202317848&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJh9b52a5BWBQRGPh8hnRv3Tc.jpg"
       },
       {
         "id": "ChIJB22nETMXWBQRb3qTGrdhrpc",
@@ -2479,7 +2596,8 @@
         "websiteUrl": "https://www.hilton.com/en/hotels/caiwewa-waldorf-astoria-cairo-heliopolis/?SEO_id=GMB-EMEA-WA-CAIWEWA",
         "googleMapsUrl": "https://maps.google.com/?cid=10929780784727554671&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJB22nETMXWBQRb3qTGrdhrpc.jpg"
       },
       {
         "id": "ChIJy0H0uM1AWBQReIn-TM-Wz1k",
@@ -2500,7 +2618,8 @@
         "websiteUrl": "https://www.kempinski.com/en/nile-hotel?utm_medium=organic&utm_source=google&utm_campaign=KICAI1&utm_content=gmb&source=S308962248",
         "googleMapsUrl": "https://maps.google.com/?cid=6471557006648838520&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJy0H0uM1AWBQReIn-TM-Wz1k.jpg"
       },
       {
         "id": "ChIJRdU_qEVBWBQROv6QsN4mMg8",
@@ -2520,7 +2639,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRdU_qEVBWBQROv6QsN4mMg8/photos/AcnlKN0MmBYOJj5d_CJM6EqAOWjVVLrQvuzoLJFre9EXP0TmdMI3NW2swvcMPc7VjQoN3XI0GAuRBRTf-8WINW0P-RFCRESvkWKy7kAxUGDfb7ylaEz1EoN9TvLb1I43Hd6qWXwWQxawpHC9sQyy_fvHcdVHUXotfvA45rgqwKvebHa9x_Fr_y__RWhXZfB2lNoGyQx8AcFHtdLI34PHKt1XmwMUgOh1WRXN6n-_HtLPctRMwMrNidbBrsit58tXK-yDI8ydDxPjruVC7j4og_5z2g1ymU3bfaWBWZdTGmaDsb9Zsd2tcz1ux8n9yrxFoa7fADZinwiykJgj_--9VhZRO61EtW940vPTkigYZz7TyfHpKFmDGEGpgrZIHDctqiFOsv-EDJCVOC-1FISOUfuAEf4S-ITSFZn0-zT3kM3NYgQinH0-i7JaSK_qcDV-NEe8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1094980397291339322&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJRdU_qEVBWBQROv6QsN4mMg8.jpg"
       },
       {
         "id": "ChIJtQOIi8FHWBQR1jwumxtS_h4",
@@ -2541,7 +2661,8 @@
         "websiteUrl": "https://www.hilton.com/en/hotels/cainmhi-hilton-cairo-nile-maadi/?SEO_id=GMB-EMEA-HI-CAINMHI",
         "googleMapsUrl": "https://maps.google.com/?cid=2233312743743438038&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJtQOIi8FHWBQR1jwumxtS_h4.jpg"
       },
       {
         "id": "ChIJTdMv2y5BWBQR6n78FsYkaLw",
@@ -2561,7 +2682,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTdMv2y5BWBQR6n78FsYkaLw/photos/AcnlKN2kKGP4jEEHVDJbOg8dGSKypewrffoMLL9KwlaJxdR3J7_GacZrwiV2EvR4d_RY7NI2zqmaztWcewaBwwQqAPIS12WXaZ4Pp_LQE-In8wxFO9ZMuV8WdOqGc3yR1k7m8pPO9Ku5IGsTIEoV_2h8O4CcEG7vfbwSogcynng0-SQkn4vUlZWYyI-WYAV4GkjBf1jqkBE3vtdqdKBzksVcqxpPE2N5xW5ksZQWT8xkQKObmGFMO0jApA2P2ajHKTIKVIDXIxBecNPF819WlD3GWySZaQCiE0VUlS4X80FpQgKbEUGnDoxB3A98foaruVz0FtAjmApt7O36iySJ6Tvro5ED3m1zeH062ppOrwDQxgk_LXTf8qurSgBIhpga-8EbZlcvxEGmu5J4VHucU7czxBa7MTubbCGVL55vlV-L9XKW2YRhxmAdaX5kx9AXAYQ6/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13576141509916131050&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJTdMv2y5BWBQR6n78FsYkaLw.jpg"
       },
       {
         "id": "ChIJcdNCwlg_WBQRsqBpd7z8tbQ",
@@ -2582,7 +2704,8 @@
         "websiteUrl": "http://www.azharpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13021591783999119538&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJcdNCwlg_WBQRsqBpd7z8tbQ.jpg"
       },
       {
         "id": "ChIJVdFsNk0_WBQR9yJLMXiTfQU",
@@ -2602,7 +2725,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVdFsNk0_WBQR9yJLMXiTfQU/photos/AcnlKN3a1Vp1swhNzU_Qn8vKLzHaUNlAZFem6xslx1VxHq4YCPLOAppC6QxsWGaQG08KSXzE3e2l2bIQCvGYq-UPK0qD61e7EpG-9FRs4OOtBDo0K994DztaJK_nAm6leIJQ_j8jP6qlFrOZCLtW35ShlqH00aCzcMwzuPuBeNMSvvWUnwDsepNGlnZjfH9R_Dmgfoqpq5HIZ9GB5L0ARv4Y3t1Mkm6INSJ_5I4ov2GtlitzJzmQgwTcYWH9PHyATm2KjA2q0xojKnUUCJMng9Vl4aY8nq-nRbSDH4A-QdaCjt6gA3u1puzvhKutPSC__8_JBrS3-cosnnJJfw7syDDqy9l6YgOd01elyYe1iLVq2bdbDSDIhCc3v2rGHR6gebzi5rTKUmxwcr8EJxdNO8j78GmAc2S-u0377H7m6GOjNhs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=395634486710838007&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJVdFsNk0_WBQR9yJLMXiTfQU.jpg"
       },
       {
         "id": "ChIJUYFpLCELRRQRzCxbUHFt6Vs",
@@ -2623,7 +2747,8 @@
         "websiteUrl": "https://www.hilton.com/en/hotels/caihehi-hilton-cairo-heliopolis/?SEO_id=GMB-EMEA-HI-CAIHEHI",
         "googleMapsUrl": "https://maps.google.com/?cid=6622945060471909580&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJUYFpLCELRRQRzCxbUHFt6Vs.jpg"
       },
       {
         "id": "ChIJbXzCcSk-WBQR1aMXiBFNNj4",
@@ -2643,7 +2768,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbXzCcSk-WBQR1aMXiBFNNj4/photos/AcnlKN1r3Ml5HZXyIs9vI5X24whJvzVatkJHGwDKgwtWa3KBIY_qM0D4vKUNs8-kM-YCtFq10hsXTM4JD7cW-XufxplJggoRQ_Wubl18iSV1AAbkYwda72m7UOixq3970zbaSoYK7tmRzsC1uZSww4c0W4ZSqKw6RgWIMnziprudmkjwfQOTIwnMMLLbZHzc3XtUgzsJLAiGjPCCbpRTlT5FoyCQps1YgYEfITj8R46NT9XlyTeY1nLiQk2qHkTUHRV66ZAmJdUxtxKYIlig7ZiOJDW10wLxufeK7Use08QZN-WN90mbQ9PM_-1lK5L_sO_byCERyEVE7RL8tNB0mjsQjSAazln8TFsT2bxInUN_E0_3VZTXVfb_CA_ETqeEnQD_YRTcpOO05gGY1TsuC1FfF9hcCfxmr-gs5S_D8xnMbRQ1ro4n/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4482855216786940885&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJbXzCcSk-WBQR1aMXiBFNNj4.jpg"
       },
       {
         "id": "ChIJaSJdFGVAWBQR4bTPhLeqoKU",
@@ -2664,7 +2790,8 @@
         "websiteUrl": "https://www.hilton.com/en/hotels/caizrhi-hilton-cairo-zamalek-residences/?SEO_id=GMB-EMEA-HI-CAIZRHI",
         "googleMapsUrl": "https://maps.google.com/?cid=11934726717715756257&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJaSJdFGVAWBQR4bTPhLeqoKU.jpg"
       },
       {
         "id": "ChIJ57fAvQU_WBQR1I-aKJT48tY",
@@ -2685,7 +2812,8 @@
         "websiteUrl": "https://btech.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15488715383700623316&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ57fAvQU_WBQR1I-aKJT48tY.jpg"
       },
       {
         "id": "ChIJKYApCUc-WBQROTn4JL8ozhI",
@@ -2706,7 +2834,8 @@
         "websiteUrl": "https://www.sonesta.com/sonesta-hotels-resorts/cairo-governorate/nasr-city-cairo/sonesta-hotel-tower-casino-cairo",
         "googleMapsUrl": "https://maps.google.com/?cid=1355065339309209913&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJKYApCUc-WBQROTn4JL8ozhI.jpg"
       },
       {
         "id": "ChIJH9vwOoYVWBQR90_jkGUJbSU",
@@ -2726,7 +2855,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJH9vwOoYVWBQR90_jkGUJbSU/photos/AcnlKN0sxaByaFdbpkfBQs0ObiKz1GOFyVcOlxy1t2XGSAqQTD4iJfGYhWp57aEvtK7ueKOEy42F7SuDSZIJjwAlS7dXcFPdsHfpyGab6YNtCwqHys-em9EgmQpF-UpOgfCfFnddZ0SDRgf22goIOIzYVOd-qMiXWzgIfQ6H9sGuL17kfFTVP6lZdDumtMece15f_BM5jIN5YZWusk2LUmwOPxWwKUoSMkolZ-jdTCTVErB3OF4XZQMM6lBAylmKSFgtVBfaY_NUYkckTCkWmBxORmMCLSrtVHRu3A0hj9vlMllJzfMfXpQkfA32ArWE0EOqmdpdF0UrGVBnZQA8UyQuJLzCobADYYAe8-2im9yhz2KnZnZ1Oh6ZOSurnVOImBL6sUyNNI59RFOsEpwfIElrSYYCfqRoNgJbweDHaEZICpg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2696822083691958263&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJH9vwOoYVWBQR90_jkGUJbSU.jpg"
       },
       {
         "id": "ChIJwY7d5MFHWBQRl1nMXlW_tUY",
@@ -2747,7 +2877,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwY7d5MFHWBQRl1nMXlW_tUY/photos/AcnlKN0Sa71DcLWyp8J8bA9ZL5qkqXTEURAHsfrLIQydnau9Hccpmu8wnubFYfwZHNSxfL8x0HumbavaRRdiI2A8NqPo7AnL90UlYIUhW9rbxI2oHf07CFs14mFvbaoUVxnccx285ravQTqR_rmOkRwSXyn8y2c2kc7p1nTgDc6q7nPQ312B-CXEYe6nrWMCirSTlpOYQG0wANy5V-gk1uLLglQ5FVpCSfcf_HDBBX3_yiC47T9No2hRupf7ycv3vc34H2Z0JhIBDPMgRzSyr1nHV6DtBFWT6cDKqnkqWperFlLiiQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5095188926823160215&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJwY7d5MFHWBQRl1nMXlW_tUY.jpg"
       },
       {
         "id": "ChIJeRR0GetHWBQR4Tn2IZ1LT28",
@@ -2768,7 +2899,8 @@
         "websiteUrl": "https://www.hilton.com/en/hotels/caignhi-cairo-grand-nile/?SEO_id=GMB-EMEA-HI-CAIGNHI",
         "googleMapsUrl": "https://maps.google.com/?cid=8020712599621876193&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJeRR0GetHWBQR4Tn2IZ1LT28.jpg"
       },
       {
         "id": "ChIJF3XGeddGWBQRijAtgtlQKbM",
@@ -2788,7 +2920,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF3XGeddGWBQRijAtgtlQKbM/photos/AcnlKN2TWt6eHU0DOBEJVua1nMKON_aLuLWKFdVsjFwgaGLP0eKR4DE5zTJrR3UXfx116j0ezUS6e7rUZTjpqLuPLvltelpgUNc9NMyHCKj0qc__ATMrNdD1LkbtXIGYSbfTeOk2jYDtJ-Vb43oQo3u6Il3Z6bqpHPqExMngkucD18QsMtJ_btfaxzFl5IDjqdVnAd8VpK1WphoVafNH0ZYfI8hixTyDApM0MNVcsmu8Vd0NeN3hXkwhkD5pDuJ5BBffyeFf5tQM6wv8pIDKMinQDT8tVQXcrZGteTxgk3XMdUCz7Cn9KTxhsow9vo7cxWLPRJWqESdCw8OUTLGsQECzaitjCJUxk-uJ46E7u8lA2z45qXQ3t39DkBwnYYH7d3uUg0nzznHU5Z1UWAOXWr3vKHzPDz69fNL3tRwtdyRuLGW0S-7A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12909938701956362378&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJF3XGeddGWBQRijAtgtlQKbM.jpg"
       },
       {
         "id": "ChIJhS7muY1DWBQRAbYn5KQrLC8",
@@ -2809,7 +2942,8 @@
         "websiteUrl": "https://mazharbotanicgarden.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3399139805960320513&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJhS7muY1DWBQRAbYn5KQrLC8.jpg"
       },
       {
         "id": "ChIJW8mw1W4-WBQRD3MC3Akl1g4",
@@ -2829,7 +2963,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW8mw1W4-WBQRD3MC3Akl1g4/photos/AcnlKN2K7Ld-pPBCTRxrLzwP-dniZpS_l5KrNNdMia1yGbzxDCBwSJ43KygFykqlDtjCrWF-_Dbb800kgLxWOuI-7l8jd7JUclGdu44i6y_bxMpJ--OJy59m_6TJznu8D1Rm-ooGYUE4wFRCBvIUabQltr7F24iYW8UHzY57lJa-WAIuDvrPkhFtJqoZM0qKgt3pdk1Aw7zC6EZKbarhedhnfdI0wgNKabKwsGjrEskrBgON5wbhfWBOsfK5oLX6LD9eagE7s9XEywC4-9noChe-FUmZUkcl35E2hcY7sIGBsGQKd0ftRSUxyTD24j_oR1_YiFDTnJUtzhLbBFphfKBQdSF5GK6zNknagwSYYCnyvWrswP7LreGSCz3SJQ1DD-sxXQxmJmS_TYPD_w6d6eXdiJJNea1OFpGrOfuhjYONjE1G6efH/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1069082685823152911&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJW8mw1W4-WBQRD3MC3Akl1g4.jpg"
       },
       {
         "id": "ChIJmW8eyNFAWBQRsb4S_D9nKs8",
@@ -2849,7 +2984,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmW8eyNFAWBQRsb4S_D9nKs8/photos/AcnlKN0FBGbCvxVAzX9srpLklY-jwtu-wjMX7NPKokjRpFBWqOajIyExw1QpT6dQTzGCqTv8CGinZW1sZ9woqaqpKooYqPe40zDsrQQGNIoQWXgW0wyUDvQzx50fmPcwx-bkrHhZosxJ8Fc_d6U4-Vf3atVj2Upm_GV4cHzdfuBTZOU9TzZCMP43onRO5RoflCb-LaMCv-SZRSx1P04qn13U7ESxv25JkuoKH1LbMzWcJKhQKHbfRns3fPqiQv9vRNO3B5u48EHOaZIgWJ69IPFudeb3wVMLJvBpDYZXNcGkUvZKamEG26fgDFadofIV7tmXphb7a8j_KAfAA2lWjwYwVLVIT-RRmIehKXQIy0J4yqElWqhztGgfmrqZ0pUfjnm4SA9MU4aijgtGIALEHLnhcNh4OfaIw_f57UAVO1JhyQlKyw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14927857439382617777&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJmW8eyNFAWBQRsb4S_D9nKs8.jpg"
       },
       {
         "id": "ChIJm2P7mToVWBQRlzxY-RuxT9o",
@@ -2869,7 +3005,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJm2P7mToVWBQRlzxY-RuxT9o/photos/AcnlKN2EJgEtpxpcCYubdOtjTS-QVernaSlnbe8cRjbclCd27E_3R6cb-5TFq9_xIi2utiKKYQc9EuBnYp9aSHvLNPEuZ1Ww4uh6dgcRXwHPsJvneSZ-5MpHeK5NxBlwAG0w3Dzz5kjLPrjwDLA8fkrbiS0Z-Vev9QAwFc6lHuau6b_2xeHPo1DN7exlHxAoWZAWWkuevubaBidtgCCEwl1cjJ8_LDgrYD6i7HZ4TWF8s4iGBLDpUMxT_h-O3yCS9jlfnOujOrjLHOVqwaIBACS8HrtfsHcmq2T-OdGY70Du3gaGbRFLYvROTIbza6zOCQ_MCR1SpdM2WWSOVgB44ebuTec2oK-Bb_khkV5efDxFQ2MOJPjqnRFr6zimT8EX0Yl4wCKTuD_81RDi4UaCnIBhGji9aIg2RZ8fpslDFqgqARiaU6J_/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15730986757133974679&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.755Z",
-        "updatedAt": "2026-01-23T16:08:10.755Z"
+        "updatedAt": "2026-01-23T16:08:10.755Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJm2P7mToVWBQRlzxY-RuxT9o.jpg"
       },
       {
         "id": "ChIJE6rf1KdDWBQRKUXznJIsvTM",
@@ -2889,7 +3026,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJE6rf1KdDWBQRKUXznJIsvTM/photos/AcnlKN3zUIBjYlqBpauWy1oRQsNFmuwe2AS0f3B5NTrka_j14Pu16L4Wu_2-zjCxV62EFEzwCmK0nlvLjGeKz__tTkY3ddq3VyU7D_RGxu7Y4xQZz1PTMk7xNyuP7gjsf8nIEkBsKSUcMHG4HM4x18bLe7ZPd2LI47T6TIFrxyheAtWAmwOL3iIz8TjyrQHv1Tbfjr9I1uGdmHyT_jJZcxD8Nc2NKQ7JRZsp2I1eaoq348B8NYgQ2WzPd7rP3WfnBBeWDTRnrXs_or6y4ZHiQHQfcaGfaVz0UVyss3CEihrWZLu9WA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3728185074742674729&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.756Z",
-        "updatedAt": "2026-01-23T16:08:10.756Z"
+        "updatedAt": "2026-01-23T16:08:10.756Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJE6rf1KdDWBQRKUXznJIsvTM.jpg"
       },
       {
         "id": "ChIJHUHHLW1BWBQRPS8Ejkq0W3A",
@@ -2910,7 +3048,8 @@
         "websiteUrl": "https://www.facebook.com/SafariParkEgypt?mibextid=LQQJ4d",
         "googleMapsUrl": "https://maps.google.com/?cid=8096262987431817021&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.756Z",
-        "updatedAt": "2026-01-23T16:08:10.756Z"
+        "updatedAt": "2026-01-23T16:08:10.756Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJHUHHLW1BWBQRPS8Ejkq0W3A.jpg"
       },
       {
         "id": "ChIJh_brfNBAWBQReZV2RwCySjo",
@@ -2930,7 +3069,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJh_brfNBAWBQReZV2RwCySjo/photos/AcnlKN2zIyeRGCjszZdPx1Nx3M0HBibPZIbX6KY_y52uT_jigTqi8fqrVMMC0cKDOCXfGu28_w7x7QNtloJCDvR6q50BcMWOMsBxzpagLdA6AewrbLeT4ziZS6UbmVjg2muVoBLA_rLjgp-T7lJeJ2TspEs8ymYgj96uclzGlAQbrEywr-ZDXtEC8Dtyq42MA3nvHW3mC2xDJLVj2Jg3jwRBXM59n1NUiZhKgXsbown3DQRkTlBkLGtYsFD363X7VJvfXuwuuJeYEeJCEX2KTBVnATjMNkT7CJoYeLw4JXNKh0xouTstx72pq_n6mGZR-IHvtFsnqbXvMRrJXHl7ZNAZDx5bv46eIBklnG6X3fTjDj3ZwLZMG6TDcxvvbCjlWuC1DYtulxRfzK2rcmmbkBCwxJVgxDiYLXmhBEqYha685vigzg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4200365316745106809&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.756Z",
-        "updatedAt": "2026-01-23T16:08:10.756Z"
+        "updatedAt": "2026-01-23T16:08:10.756Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJh_brfNBAWBQReZV2RwCySjo.jpg"
       },
       {
         "id": "ChIJQYj_O7NAWBQReIPJAfFfK9M",
@@ -2950,7 +3090,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQYj_O7NAWBQReIPJAfFfK9M/photos/AcnlKN2miaqgMBznJP1DHSF1_ed7Z6ODa4FTsX2O9K_5GN8SiG5e4ccwydlJd5AVtjYBYnrNdG6XQvRnCQnPtLjskUD1npZab3GpbTxbsB_ye3Mj7v7NYqKAjkQQc4cts5Mm2qtFgxjRN2kfGYgcbMHfeSgBbFuop2LeKXLEWUBjwjLejy2Okj-V42aDkC1UxXBIFvV-7FvyvgXd2-hzUVLM9eRY3jX7SOHATlNN0eXyMtvs7agswcceDvdphEf4fVZmCFkyjed3ZmqHWwKxnIGyr8oGW6kjhU9ezYoAvKjggnV9h4x9LwlaBCuSxNhADEHbnFHwJrI_5ZNVE1Aq1DmJapr6U9my-dPkn2OwydA7n51vNT2CDF7YG5P-SAN8q6Au6-WWSdCFCorTR3lupKahkmvKJaYyTiGJd2NeNQxQeQIoKKai/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15216361254723093368&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:10.756Z",
-        "updatedAt": "2026-01-23T16:08:10.756Z"
+        "updatedAt": "2026-01-23T16:08:10.756Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJQYj_O7NAWBQReIPJAfFfK9M.jpg"
       }
     ],
     "nightlife": [
@@ -2973,7 +3114,8 @@
         "websiteUrl": "https://www.ihg.com/intercontinental/hotels/gb/en/cairo/croha/hoteldetail?cm_mmc=GoogleMaps-_-IC-_-EG-_-CROHA",
         "googleMapsUrl": "https://maps.google.com/?cid=12631169901786588477&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJz2GOEc9AWBQRPWWYVRruSq8.jpg"
       },
       {
         "id": "ChIJhff8VIlBWBQRi-qzuTHuMvs",
@@ -2995,7 +3137,8 @@
         "websiteUrl": "https://www.thepresidentcairo.com/dining",
         "googleMapsUrl": "https://maps.google.com/?cid=18100791749691828875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJhff8VIlBWBQRi-qzuTHuMvs.jpg"
       },
       {
         "id": "ChIJa2LGePxAWBQR0JfgDGidtg8",
@@ -3017,7 +3160,8 @@
         "websiteUrl": "http://www.crimsoncairo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1132265426548463568&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJa2LGePxAWBQR0JfgDGidtg8.png"
       },
       {
         "id": "ChIJnU9lD3BHWBQRfbC4gcCc_Hk",
@@ -3037,7 +3181,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnU9lD3BHWBQRfbC4gcCc_Hk/photos/AcnlKN1iK99BEThfbPDodHXHNMWo30awuSFbMDguwwBjiu2lR7VU845WkaqZvhXFvFLS_Hdty-5Q1CjEbSXCDTUpYgH5i4AfU3iESALumEB5y9p3b_vzx-0z1Ilohek6FW4rL10Vg7P555F5LLr6nRghft929QvWuIgmUlcq4_zMPL-yHMVZcqNGMSK9uDUY7hVJpAyVpiAje3h0u3hWCTne95yHwEV_kZPl_rKZQhNqReYa2JuatugRgN-Zm4wQGsJYGx7A-z7FsOSD34piSZs3ISr0yjw2fdbeVlCJ1lgKb-rPxA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8790072923344384125&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJnU9lD3BHWBQRfbC4gcCc_Hk.jpg"
       },
       {
         "id": "ChIJqxTyxNxAWBQRUrfEbfzz-BY",
@@ -3059,7 +3204,8 @@
         "websiteUrl": "http://pier88group.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1655341128557573970&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJqxTyxNxAWBQRUrfEbfzz-BY.jpg"
       },
       {
         "id": "ChIJ6wgkBBA-WBQRnXtQ591OiUk",
@@ -3080,7 +3226,8 @@
         "websiteUrl": "http://www.nbe.com.eg/",
         "googleMapsUrl": "https://maps.google.com/?cid=5298853151553649565&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ6wgkBBA-WBQRnXtQ591OiUk.jpg"
       },
       {
         "id": "ChIJJWAdDfQVWBQRN-svdINNCZc",
@@ -3102,7 +3249,8 @@
         "websiteUrl": "http://www.bistro.com.eg/",
         "googleMapsUrl": "https://maps.google.com/?cid=10883315201502866231&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJJWAdDfQVWBQRN-svdINNCZc.jpg"
       },
       {
         "id": "ChIJ7WPQutxAWBQR2IwZ_u-dROs",
@@ -3124,7 +3272,8 @@
         "websiteUrl": "http://www.lepacha.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16952848551415221464&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ7WPQutxAWBQR2IwZ_u-dROs.jpg"
       },
       {
         "id": "ChIJYzFM9x5BWBQR8sKStLRzEO0",
@@ -3146,7 +3295,8 @@
         "websiteUrl": "https://m.facebook.com/people/Carol-tapas/100064148287027/",
         "googleMapsUrl": "https://maps.google.com/?cid=17082280606577115890&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJYzFM9x5BWBQR8sKStLRzEO0.jpg"
       },
       {
         "id": "ChIJJwwxyD9BWBQRSda9Hvlx6Mk",
@@ -3168,7 +3318,8 @@
         "websiteUrl": "https://www.facebook.com/5.Door.Roof/",
         "googleMapsUrl": "https://maps.google.com/?cid=14549003910996940361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJJwwxyD9BWBQRSda9Hvlx6Mk.jpg"
       },
       {
         "id": "ChIJ7wEEXeVAWBQRuqvtSgMMMEk",
@@ -3189,7 +3340,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7wEEXeVAWBQRuqvtSgMMMEk/photos/AcnlKN1IanWFH3bgc9wM3kVtvAOGxIYi6iAZ5QGRbCOKDD0nIXRmbx4VQClBzWXGD8AHJKF9nXhCTp9iX-95qQ3kqb1ov_t3f-LY8rahfbCukwQTgnYgCzDHwOMd-kyE3AGJrDI4TtQzM6NTJDOWKZqD5O8ENbx5a0SWJrzebTgS381459Q-zseHJzy_9gyooxNzHKzGAW5oz7PbUahd6I4987CSQuPPiM0YY-cyliatIdVq7jhv_iclD0-uegoqE4HOvQuqf297emzGiahHgv3_J5Yan2EdNs5BoJZyx_uGB0l9kQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5273728371932375994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ7wEEXeVAWBQRuqvtSgMMMEk.jpg"
       },
       {
         "id": "ChIJAQAAAG04WBQRqE0M7gxS6GA",
@@ -3211,7 +3363,8 @@
         "websiteUrl": "http://www.zuluincairo.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=6138471892155737251",
         "googleMapsUrl": "https://maps.google.com/?cid=6982921437724822952&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJAQAAAG04WBQRqE0M7gxS6GA.jpg"
       },
       {
         "id": "ChIJRypKQAA5WBQRzxuZRkGA7R0",
@@ -3232,7 +3385,8 @@
         "websiteUrl": "https://www.instagram.com/tipsycamelbar?igsh=emRubmFxZjFybWw5",
         "googleMapsUrl": "https://maps.google.com/?cid=2156520814426004431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJRypKQAA5WBQRzxuZRkGA7R0.jpg"
       },
       {
         "id": "ChIJmYTMmcVAWBQR61bmSI-Ig-U",
@@ -3253,7 +3407,8 @@
         "websiteUrl": "https://www.facebook.com/opiacairo/",
         "googleMapsUrl": "https://maps.google.com/?cid=16538212405619349227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJmYTMmcVAWBQR61bmSI-Ig-U.jpg"
       },
       {
         "id": "ChIJ6VVT1Uw4WBQRIAu6qiOK4HE",
@@ -3273,7 +3428,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6VVT1Uw4WBQRIAu6qiOK4HE/photos/AcnlKN22F7_HGUqv1NljXQl-SQlKlRuxKaIVQP0b16FPcJwhXZbiTgopywGkXL2hcJBE6W_3jm6dCpusWM5amXyA4RH1qzh5HZ9gKY-STd0cZssqv2CFdaMcb5OFDsQ8fXrEccj9FxF9wrD6clKfAAWWknND_P35pnZ5ZbUZb0FIflcUOt7vmMkuEyt50qtxTDY5cEFd5GqJJ2vUljDRl6fKehVb-BtPuEclIW_L0DFtN0BiA8222XlRxnnJgyVyoBYNWB2aZLkBJPSLLgZOTnXC-pgrsYoDE491trZAxLi5URlMcw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8205710406861851424&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ6VVT1Uw4WBQRIAu6qiOK4HE.jpg"
       },
       {
         "id": "ChIJH83k3uJAWBQR8y--ltiM5ys",
@@ -3295,7 +3451,8 @@
         "websiteUrl": "https://www.thepresidentcairo.com/dining",
         "googleMapsUrl": "https://maps.google.com/?cid=3163652125120933875&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJH83k3uJAWBQR8y--ltiM5ys.jpg"
       },
       {
         "id": "ChIJQVFDF71BWBQRFLgBALWtcGw",
@@ -3316,7 +3473,8 @@
         "websiteUrl": "https://www.ritzcarlton.com/en/hotels/cairz-the-nile-ritz-carlton-cairo/dining/",
         "googleMapsUrl": "https://maps.google.com/?cid=7813936346388609044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJQVFDF71BWBQRFLgBALWtcGw.png"
       },
       {
         "id": "ChIJu8xevIhBWBQRTNRCJZ0ANXs",
@@ -3337,7 +3495,8 @@
         "websiteUrl": "https://www.ritzcarlton.com/en/hotels/cairz-the-nile-ritz-carlton-cairo/dining/",
         "googleMapsUrl": "https://maps.google.com/?cid=8878002915365803084&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJu8xevIhBWBQRTNRCJZ0ANXs.jpg"
       },
       {
         "id": "ChIJ1b0xyM1AWBQRzUS-7y3BBSw",
@@ -3359,7 +3518,8 @@
         "websiteUrl": "https://www.kempinski.com/en/nile-hotel/restaurants-bars/the-jazz-bar?utm_medium=organic&utm_source=google&utm_campaign=KICAI2&utm_content=gmb&source=S308962248",
         "googleMapsUrl": "https://maps.google.com/?cid=3172153915592295629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ1b0xyM1AWBQRzUS-7y3BBSw.jpg"
       },
       {
         "id": "ChIJQRLzb_5BWBQRyXJi9IpZ5nw",
@@ -3380,7 +3540,8 @@
         "websiteUrl": "https://www.marriott.com/hotels/hotel-information/restaurant/caixr-the-st-regis-cairo/",
         "googleMapsUrl": "https://maps.google.com/?cid=8999979358686966473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJQRLzb_5BWBQRyXJi9IpZ5nw.jpg"
       },
       {
         "id": "ChIJZ_sFyM1AWBQRw2QawHKz__U",
@@ -3401,7 +3562,8 @@
         "websiteUrl": "https://www.kempinski.com/en/nile-hotel/restaurants-bars/the-rooftop?utm_medium=organic&utm_source=google&utm_campaign=KICAI2&utm_content=gmb&source=S308962248",
         "googleMapsUrl": "https://maps.google.com/?cid=17726083963784160451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJZ_sFyM1AWBQRw2QawHKz__U.jpg"
       },
       {
         "id": "ChIJB9D9NfNBWBQR7QUJUtHqDYw",
@@ -3422,7 +3584,8 @@
         "websiteUrl": "https://asperogroup.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10091980524752537069&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJB9D9NfNBWBQR7QUJUtHqDYw.jpg"
       },
       {
         "id": "ChIJU5d9kzRBWBQRATs2Qic8pak",
@@ -3443,7 +3606,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJU5d9kzRBWBQRATs2Qic8pak/photos/AcnlKN1urdTsCNcG0lz3iu9rI1sgCYJBPjaBGoBrBEzwiIR2omeAzhfS9VlFJs5Ix9lBhcv0UdRCVNGI1WbjrnHttwOk1Ger8wIYMC4QPCs_7JY3FLstztNxslF6K0CE-5zNVKP17qWoj75IjZBkO8qe9ea6YdnuUfLFlRuJde_L5wKj6Ev1wmlLnWN1exgcWswSAujAK7zE57F1SxwyJWnjFdmhVTUycZfuFtWFe9Zv5HEyUaljQZ2-i4y9U0qrRkZX9_OiyAtHbFyCK3ATKJHabb6iQ6NtdGflmw9U_W38EsSnMg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12224242902879320833&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJU5d9kzRBWBQRATs2Qic8pak.jpg"
       },
       {
         "id": "ChIJ_VJ6hTdBWBQR_wzi3AjCg4A",
@@ -3464,7 +3628,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_VJ6hTdBWBQR_wzi3AjCg4A/photos/AcnlKN3YxSNelbanLllDH45gwDuUFI-4w3Ss-zZ9ZfIOgcUAN_4zT1Gl9GqoLL4g4sPbhmMiedkaoSngwuMZL_AZRwde-RHVryakhhSEc8Kl5HXW1C3JaW84A0lote5kWcYY9C1d1FTjkd2EnBybvGGZokoQPO2UwLaML4sBzEDVCjWsvfaRnbUwsDy_WniHoNlZN9xA9TU2gb4SJoInhXpAU3COsgDcJ87ZCWOeNiaxqnoiH2m1GptDovPYA7UGVG3QlUrD2toiph163DcLJmZWX_2KTdN8nhOG2NSkZpe0fRat5g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9260458602125200639&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ_VJ6hTdBWBQR_wzi3AjCg4A.jpg"
       },
       {
         "id": "ChIJsU2hwr8_WBQR2yc2Binxk9k",
@@ -3485,7 +3650,8 @@
         "websiteUrl": "https://www.instagram.com/glowrestobar/",
         "googleMapsUrl": "https://maps.google.com/?cid=15678139886306994139&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:12.062Z",
-        "updatedAt": "2026-01-23T16:08:12.062Z"
+        "updatedAt": "2026-01-23T16:08:12.062Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJsU2hwr8_WBQR2yc2Binxk9k.jpg"
       }
     ],
     "trendy": [
@@ -3507,7 +3673,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJxZYnIBpBWBQRF5gVFhFi-R0/photos/AcnlKN2eE7r0pu2_caNuBgnPxAlv5WD5FrvVYEcGBxgXqYLrUMOlm3XVBc7JhEewSNGkjiilvert_nJA1UWiR_dVQd1fe96zsTdV5PhE0tO9oyDDOE5rJm6ni9m8W-WG1ZrzEXQdvxMjaFRo2pk6g0i2Y6YCTN2uhPEjGRVjLf0-T_X4fDS-HMD0Rav0Se8lT_LB9BsjD-CV1YER6MHdTxGlLHko-kMCItUbVXMq895KfpGeT50QIQW2XPaL8qLireVOp4qNMG7CkGQs3saURglB55MTS0q18BZl1_AimYwSdRk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2159865321825343511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJxZYnIBpBWBQRF5gVFhFi-R0.jpg"
       },
       {
         "id": "ChIJbQf9iZQ5WBQRtLUvgyRMl3M",
@@ -3528,7 +3695,8 @@
         "websiteUrl": "https://www.instagram.com/1980.coffee?igsh=MWE2YTdtc3lsbzlzcQ==&utm_source=qr",
         "googleMapsUrl": "https://maps.google.com/?cid=8329209755548497332&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJbQf9iZQ5WBQRtLUvgyRMl3M.jpg"
       },
       {
         "id": "ChIJDb8mGOdAWBQRE3NErYfJsoI",
@@ -3549,7 +3717,8 @@
         "websiteUrl": "https://www.diwanegypt.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9417811355349840659&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJDb8mGOdAWBQRE3NErYfJsoI.jpg"
       },
       {
         "id": "ChIJL43DzF8-WBQRML5eB_1R-Z4",
@@ -3570,7 +3739,8 @@
         "websiteUrl": "https://www.daralsalam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11455277274385792560&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJL43DzF8-WBQRML5eB_1R-Z4.jpg"
       },
       {
         "id": "ChIJjW210rRBWBQRQN8lOMnB8-g",
@@ -3591,7 +3761,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjW210rRBWBQRQN8lOMnB8-g/photos/AcnlKN2KY0oEwDQE_fLrFR56XCTP5ssNPWC3F4QJRFYi8Tn5gDSXnYc32AF1mpPijUvbCyvdW5OPJavIZlbAfXLxfMK0hMoQZ9HSWtCZc4up9LTHTaaTP_KCBKPzIpy0t0bLp0u9Z17U2Wa4-SixtimlN33q_0CresCsgbENQPE77g3nT3PU6B4GeulSIOWelzJOmcTelMK6ecPPkyjKeORqnmb74E52H-a0BB5ywLNiQ5rECVDalRNS6DbtgCxSecyEp7VECzT_zYSROv_xNUZL2pgt1edPHTsLTxzyle8QIKQYCw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16785973306114563904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJjW210rRBWBQRQN8lOMnB8-g.jpg"
       },
       {
         "id": "ChIJuURJLW04WBQRpWQB3nVyIP8",
@@ -3612,7 +3783,8 @@
         "websiteUrl": "http://www.diwanegypt.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18383819529487738021&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJuURJLW04WBQRpWQB3nVyIP8.jpg"
       },
       {
         "id": "ChIJkTmV7PAVWBQRthTVz3MR8nM",
@@ -3633,7 +3805,8 @@
         "websiteUrl": "http://www.diwanegypt.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8354759447831450806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJkTmV7PAVWBQRthTVz3MR8nM.jpg"
       },
       {
         "id": "ChIJ5fyUr8hHWBQRirvj-OjhNQw",
@@ -3653,7 +3826,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5fyUr8hHWBQRirvj-OjhNQw/photos/AcnlKN2ey8cItEb_oLGvDLyc3TqIBmXlOgxGhDlN0DrjK1bPeKGDTg4kiUzVskCaVVJsRMlXAl4BiOWQ5xNKM08JEInTfmQ2vPTySIyhOZQYm1y3jRzNmBIThl308hXF6M0JW9DE9DMJxh4AqU2kqcRM1e5RPm7Ke6XZbMxVndHuiG0U7ERiCVFK7zaFSnljRu7j67Yz5SP8fYWGURrSBKBM9dV4gVXzaO_dM-87KcDA8CeiByazn1UPbW_29a4Q89KzXnoCNTve22SJGPDfkYAxthd74oPs5yiKHtDU3CQjptOu0YvL_HxR0GHi14i52GMKCHGVaOZV9qhY_4hiJeZA5Xxak533RrLQeCySKBxwWUCoYBCh6-oqV9FJmddTNCWFV-E2zOxdBJgxqDXcl35wZRYizmapqhGHsfizNSQqBjYeNq0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=879857692945136522&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ5fyUr8hHWBQRirvj-OjhNQw.jpg"
       },
       {
         "id": "ChIJnbTMazpBWBQRWyaltm6yqnA",
@@ -3675,7 +3849,8 @@
         "websiteUrl": "https://www.cilantrocafe.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=8118497466869163611&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJnbTMazpBWBQRWyaltm6yqnA.jpg"
       },
       {
         "id": "ChIJ8wKg4MdAWBQRYW3aFRDiVaE",
@@ -3697,7 +3872,8 @@
         "websiteUrl": "https://www.facebook.com/oldisheg/",
         "googleMapsUrl": "https://maps.google.com/?cid=11625446571840793953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ8wKg4MdAWBQRYW3aFRDiVaE.jpg"
       },
       {
         "id": "ChIJBWFT5YtAWBQR3Lt2wc-YOgA",
@@ -3717,7 +3893,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJBWFT5YtAWBQR3Lt2wc-YOgA/photos/AcnlKN2ySwojlrJ6fqIJUxns10IkLgArHlpCXFMWICPhLg3r9pFUg2WQdw_0oFNw8p15g1Ll_nTgTAyDBQe_oFYiqx5Z464DfMDBp7EGyFZGqwbCM7dsuSFCEPGlJ6gcdrvpCX92PNo2iuT_q0V7EZX6wXE634rl2q-TvSYNhxf5FwFQgEnbAcY5aTwmdJpnwlLS9eVw3LKXiBb5ZGCKKO2GZFEypCL_al9_dNAMkwd8l26T6jg2klGA2ACDfvx9xY-s0LLFALQ0e8EuV5bXFIKxChznDfK-HkIB8AvCoL8Hu5aJr0vWFYugZYOc4mP8V-k5Xp6N0HYXJXkv84TIxqpPA480YymSo3t1pN0TgG-ta8ARAy1uK-vW01OAJwTjR6eAq6gfS0-RnZlvbSYZHT2-g3dkzBZ_P1NQKyKdXWJGO1I5YfOy/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16493566720654300&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJBWFT5YtAWBQR3Lt2wc-YOgA.jpg"
       },
       {
         "id": "ChIJc7FRJmJBWBQRvRJxnQ3R5Zs",
@@ -3737,7 +3914,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJc7FRJmJBWBQRvRJxnQ3R5Zs/photos/AcnlKN2ErP9ddWDF6sqsylRc07NHR7oM62vOFkUlcZOlqpf5RARYdULW8axRc7EpmA1rgSS0JX9NymvNBJ6S9PeVBGDq8F9eW3Y899Hh55t68YCt6l1Gng2bR4gpgnExkQBOl-Y_OzeZy5mMfHKCoeEkjB4QhcPjaXyeHXYEAOXRt6NdljugtBzdhM84FPMhWJHFhiQ9W4yj45Il5W_lADMen5M2hTA_xh_haU-dMY1USQ8n44Ta8FWdWBwLdd0tzIC2e7OmWLT1Hvn4kI-riBGt2-F86epk8OxEZkQIKExu6E6yjg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11233614701951783613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJc7FRJmJBWBQRvRJxnQ3R5Zs.jpg"
       },
       {
         "id": "ChIJWxChuJs5WBQRiSYFXCVmeH4",
@@ -3758,7 +3936,8 @@
         "websiteUrl": "http://take.app/ateres",
         "googleMapsUrl": "https://maps.google.com/?cid=9113146156627863177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJWxChuJs5WBQRiSYFXCVmeH4.jpg"
       },
       {
         "id": "ChIJHVxjc_8VWBQRDtJe0W156A0",
@@ -3778,7 +3957,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHVxjc_8VWBQRDtJe0W156A0/photos/AcnlKN1Grpo9_9KUyZJ8hfRGXH2-d_HLHImwnXOd4YafQLR4ygbNRBuT4GBQxdJcmkFeU-VsXgeB1_R19D0vGRCKbGhp9U4MxpvW_0n2-6oPwT4IhlaePHfUHV6jnDKuPI5ssIWIGlOJ9xleba7xNYBK9dujwYiCPIOG2so94SyWB8DvLVgmHdgc3myMpeIqeTlpjjYEssl-zBezJwPu5ozLafmaLXvfZpLMx8QXQlKTQOt5sRd2UTtdUk93wI87suhs7ZZCWlFikqQtbuQdOFvc5J2RkY3o9FAvDOZ677Tx75KkA4jokkmB-hucBIBiflRnQQn0K5iRmL6FHTgmpqnXiXY-KlNR-38BXv-2_ZAA_uTXlLQQwsesubrom8TfrrD-s4HZaa4TXLuRE8erbcaNvdjse08Dwul7ivT-KTSNCII0c4a3/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1002184429660983822&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJHVxjc_8VWBQRDtJe0W156A0.jpg"
       },
       {
         "id": "ChIJDQuw2SI-WBQRwxcWwGQbRlA",
@@ -3799,7 +3979,8 @@
         "websiteUrl": "https://www.atlasbookshop.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=5784340890937333699&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJDQuw2SI-WBQRwxcWwGQbRlA.jpg"
       },
       {
         "id": "ChIJ9VZ5miBHWBQR4fxU8Nm3NIk",
@@ -3820,7 +4001,8 @@
         "websiteUrl": "http://www.almicrophone.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=9886729228652969185&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ9VZ5miBHWBQR4fxU8Nm3NIk.jpg"
       },
       {
         "id": "ChIJ0YUPgSVHWBQR_N8qAULHHck",
@@ -3840,7 +4022,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0YUPgSVHWBQR_N8qAULHHck/photos/AcnlKN1n0JRT1__QDq7fcoYA9XnSWKivZl8OVaYiB_Rr4_XKm2h1Yi-8WEMWtNTfEcUa5OttyZGY8IrDjAPZu1cdoSTbFv86UlPnKNC64G3GB1v1CNqziGke1LWG2fWJ0Bf8fNI5K9GZDw_LgfNFCgDKowJBRv_BXfMUvXk9U1J7qqO_y9kxs4reSVNmjZ63HFCXf1eHfbhsv9aPYVHLQ4uLGSzRYCatvATG9FKaIr8Dt-y2-T91ro6EnIybcAbKsrj2kP30jqnv-qMc_wL-_C0efZsOeCTnXhroHUMDbTRMUnqIx6KieJ9EYY2OSFpdWaMrNlA4lVOCfS6g0Eg8pSj31tSnnC6HSm0zt8gi5Eh9fa46FuKj7Shxig2QtlvaoJeK6uFcyisq0KxvOkV1hnjl6Lr-lqXsPyLbrQ2M5ElZBran1Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14491958262249480188&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:08:13.235Z",
-        "updatedAt": "2026-01-23T16:08:13.235Z"
+        "updatedAt": "2026-01-23T16:08:13.235Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/egypt/ChIJ0YUPgSVHWBQR_N8qAULHHck.jpg"
       }
     ]
   },

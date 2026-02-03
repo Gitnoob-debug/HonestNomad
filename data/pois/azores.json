@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJseWjDx4uQwsRmJ--o5_VzCc/photos/AcnlKN1gYKmgSn2VAaO1Kro_tNPIRnOy7wGY6_y9Vxla365J-DIUjmRRIpDJWGVNHG3V3kxGwxRn3ATZJnSWI9p3M2PmqJQnPF8pSTmjn5-80rRpmW6F_aKQENlKFuMwJV5eKPvQpP5299zUe0QESGWQb9yp0YyAtGAO5nQKou0E_wkI3su6Q0PylsbakjbHazbxLEtGJAE201dMOdwDk7Jz9gQupcr0-VpY6_cxuXR4_-8e-ClFuFwotIAPfxRbvt_PxCZUEho8xRQlBN9VUO_X3HK9P9p4FaAEU79DsnI-RIkm-7-DTq56njZgHqZPyn7i1ZFOtGDDAMZiFC9FWHQiFn3xLaelFMTvRcbHaVCGfODfOlLPll-Z0ui3yUqq8PtkUgThUlImPi21cJuP1SHmUl8SCcxchNlBnYwbOYvOuFc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2867901944351858584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJseWjDx4uQwsRmJ--o5_VzCc.jpg"
       },
       {
         "id": "ChIJvUV8_mXZXAsR6ZkQGSm8kWQ",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://gorreana.pt/pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=7246780160116038121&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJvUV8_mXZXAsR6ZkQGSm8kWQ.jpg"
       },
       {
         "id": "ChIJmyEYucUqQwsRNi-N84ZwVG0",
@@ -66,7 +68,8 @@
         "websiteUrl": "http://www.visitpontadelgada.pt/fazer/visitar/jardins-pracas-e-largos/geo_artigo/jardim-botanico-antonio-borges",
         "googleMapsUrl": "https://maps.google.com/?cid=7878045373091884854&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJmyEYucUqQwsRNi-N84ZwVG0.jpg"
       },
       {
         "id": "ChIJebf51lYmXQsRK9pjgsoR7sA",
@@ -87,7 +90,8 @@
         "websiteUrl": "http://www.santuario-senhoradapaz.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13902068661207947819&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJebf51lYmXQsRK9pjgsoR7sA.jpg"
       },
       {
         "id": "ChIJHXPNCC_ZXAsRop-XoC_ZYYg",
@@ -108,7 +112,8 @@
         "websiteUrl": "http://gorreana.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=9827374660480114594&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJHXPNCC_ZXAsRop-XoC_ZYYg.jpg"
       },
       {
         "id": "ChIJ31XFAHPVXAsRjeFMNqTXCko",
@@ -129,7 +134,8 @@
         "websiteUrl": "http://www.ananasdosacores.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=5335313808859390349&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ31XFAHPVXAsRjeFMNqTXCko.png"
       },
       {
         "id": "ChIJ3WK8357XXAsRJmCqKX7DT8Q",
@@ -150,7 +156,8 @@
         "websiteUrl": "http://trails.visitazores.com/en/trails-azores/sao-miguel/caldeiras-da-ribeira-grande-salto-do-cabrito",
         "googleMapsUrl": "https://maps.google.com/?cid=14145739901226344486&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ3WK8357XXAsRJmCqKX7DT8Q.jpg"
       },
       {
         "id": "ChIJCfeCgTbVXAsRKNpwMcnCsOw",
@@ -170,7 +177,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJCfeCgTbVXAsRKNpwMcnCsOw/photos/AcnlKN1EFjX9kHQk9j1kx7Ks9jbroWHuJpjtaVgHFEwiPt5MShyEIh1N43k8m6y2VgN4wRUsqfZUiLEsit4yUsPD9Tt6G9YPDmeurNVUDqIanct_XfCEp5ShPdOG2kvheM2P9HSvlk_rEW5UjqAnNa-_be--N4lpS8vgwNP8erVTcM2vi4pmSdGg6UuN4MrAL6Ab0GraqU0aJGi48WkHdBcTrWA_KziGmRWwtRol3wKGZW0ddqE60q35R0TZsuPhCItW71GFuBA2c7OujqzuHgPXGRydTYIFwcFS6tOarKihSAxzKTP6L0ZBwGzoiBjamihvTM36V-fVZc462OBtPMYQFcT-qnAPJbfRxBcba_cP6if3NG3Tp87KXPpkUB0Q-yHczblK2p9PA0pjj9DhzXNOowRm8BrsBOqj8_BHe-Wb2xA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17055345958225762856&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJCfeCgTbVXAsRKNpwMcnCsOw.jpg"
       },
       {
         "id": "ChIJ1yPkMuTVXAsRWRdiE8x82ZE",
@@ -191,7 +199,8 @@
         "websiteUrl": "https://gin-library.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10509568421386131289&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ1yPkMuTVXAsRWRdiE8x82ZE.jpg"
       },
       {
         "id": "ChIJoVz7M8oqQwsRbeWpRU-_9JY",
@@ -212,7 +221,8 @@
         "websiteUrl": "http://museucarlosmachado.azores.gov.pt/en/",
         "googleMapsUrl": "https://maps.google.com/?cid=10877529347198674285&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJoVz7M8oqQwsRbeWpRU-_9JY.jpg"
       },
       {
         "id": "ChIJIY7knL7XXAsRPSvliPHnf8o",
@@ -233,7 +243,8 @@
         "websiteUrl": "https://parquesnaturais.azores.gov.pt/pt/parques/9/centro/21",
         "googleMapsUrl": "https://maps.google.com/?cid=14591636342273551165&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJIY7knL7XXAsRPSvliPHnf8o.jpg"
       },
       {
         "id": "ChIJx7aiKMYqQwsRc-nDfseH_jA",
@@ -254,7 +265,8 @@
         "websiteUrl": "http://grutadocarvao.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3530408448800057715&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJx7aiKMYqQwsRc-nDfseH_jA.jpg"
       },
       {
         "id": "ChIJgTbEELcqQwsRjAB3-dJ-BF4",
@@ -274,7 +286,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJgTbEELcqQwsRjAB3-dJ-BF4/photos/AcnlKN1LXE-R9kcZK0jSTjcnuvqEHgnR46KBxONfyBxaKvxj7L-jaXAgDKr9n1yAvZzmlshKG7CCliFuvnUi3scQ-er9TPXvPfUNG_RIL_4HEVUXpK_ZhNmQQf8ZVr4wkCJ5C-6RhtdvpI5iRELiKV02GpL71LHl9kfJ-U_5viEgVV9GsLJdWhFnCTcMI2iTsbm5ESxLME_4hf9rl9P365y0CrrbTrVBCIcF_NePhrXDOYrZCeTxxVp6fVkgbYejXvnv733gPGRTWAgBgtnjdU2FJ3k4AwS4RVECEhRVX6r0BFHGqpigZDuZWFGpCqd5CsaW2Bjf2v3BeC2CbhGSBPK-HKn6PLh8M4itymaFpgMJ_n3Z4TvqdKqgbVIC4c7LC_5MIcEBXI-fYPl8wckJyjTStX_pkJpjTxGLvfYQ8zvKB7__ffrj/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6774679184065626252&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJgTbEELcqQwsRjAB3-dJ-BF4.jpg"
       },
       {
         "id": "ChIJBRUCG80qQwsRyw_FttnjCJ8",
@@ -295,7 +308,8 @@
         "websiteUrl": "https://www.ananasesarruda.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11459659776058003403&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJBRUCG80qQwsRyw_FttnjCJ8.jpg"
       },
       {
         "id": "ChIJ36CyTKQpXQsRccLjhLHOBbk",
@@ -316,7 +330,8 @@
         "websiteUrl": "https://trails.visitazores.com/en/trails-azores/sao-miguel/rota-da-agua-janela-do-inferno",
         "googleMapsUrl": "https://maps.google.com/?cid=13332289533734273649&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ36CyTKQpXQsRccLjhLHOBbk.jpg"
       },
       {
         "id": "ChIJQVVyKSTZXAsR3dH3S-yCRSc",
@@ -336,7 +351,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQVVyKSTZXAsR3dH3S-yCRSc/photos/AcnlKN1zJ_-Xbayixz7mkVXT0XNr1GwDX5igOhJhqoxmUmqTPUUv8jwv9MPNl8uXyPP84abpxoYvSUB5hx0DkzXV6T_Iih98oyPSGbtXF95A9QD5Vq1ddwvW6bTylCp-iIGEoE0k7btZnicp-yT_a969Bg_BCkzS6NNvgWLhw-LEVtuemwQ7hg5wuXuNCZdVVukwTQGC5WHKj_FCJErwFFHKXtzOmF30D5vELxtUXo3w_ol45O7C4BVwgZ-nuUaBwYsvwS9Kmm8Bh2RQZP7041TXpwSxPdfrx4BfYwHgnx7CcLKNHw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2829811892270649821&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJQVVyKSTZXAsR3dH3S-yCRSc.jpg"
       },
       {
         "id": "ChIJwXF9mMoqQwsRalWxvXa90dQ",
@@ -357,7 +373,8 @@
         "websiteUrl": "http://www.cm-pontadelgada.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=15335246523859555690&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJwXF9mMoqQwsRalWxvXa90dQ.jpg"
       },
       {
         "id": "ChIJ7TYkW_TVXAsRmKKKRqIJEHw",
@@ -378,7 +395,8 @@
         "websiteUrl": "http://ovga.centrosciencia.azores.gov.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=8939655852903277208&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ7TYkW_TVXAsRmKKKRqIJEHw.jpg"
       },
       {
         "id": "ChIJS4TOZNQnXQsRhcIbw-5dd24",
@@ -398,7 +416,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS4TOZNQnXQsRhcIbw-5dd24/photos/AcnlKN0j128uhNEWnCc07TPgUqDTwaoWS1f99chp9bihyYO518X-jcqiIEn-Fa63Fjx98OXiyLElHXeMPcdw999WDpfPkU2ugb1SL_JXTPWEdtf9_zF-io16_M3kuSK04FV0jjKfPIg5thLMh5YsiRTlbYkHlCQxRdktwmimZKIKIDfLDq2-bS27GMlki2zOeft9818K0CizeEeaZS-5b9Z7ZwKDe5XlRYJdpUGX5q1p4RkOnk9ZbLF9v-HdoPUUmX8UV2PKnE_ih8VTwXqq-0kiObqaWGb-qDvLLStnMwhghdaXASHEDUK_CTM_xsERgBo0POOvntH2e6vY9WpDA4DqIJg6D4TPOdB7DbPL0qeQ2sVjtj01XY2KmngSoxziairlphDNNwFAxloyi6Pp5llIjfkU7LmkqUupi30pEk8MiDmEtENG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7959934146457617029&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJS4TOZNQnXQsRhcIbw-5dd24.jpg"
       },
       {
         "id": "ChIJlVDAkNvWXAsR943p6eJa4_8",
@@ -419,7 +438,8 @@
         "websiteUrl": "http://arquipelagocentrodeartes.azores.gov.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=18438681230018448887&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJlVDAkNvWXAsR943p6eJa4_8.jpg"
       },
       {
         "id": "ChIJW1Q1stQnXQsRPHVE2tUSQm8",
@@ -439,7 +459,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW1Q1stQnXQsRPHVE2tUSQm8/photos/AcnlKN2eYzWvZ-lLbBDKgSSqjK00ZG7w_CrO97ZCR-wzEoQ3WnoExaUS0JQXdhcBrSeBiBcXkgHc5xHDEQEMiL6co9QF4CNizhR9KsJOBMS5u25lYAGwLvyZCplAbkk7fZTuAXQdo9QbnJlPEgkdz7FQGbVROifCuk-XGPQeHQ1uGsuLsd2d7Au2r0DgJD5s82-APZbnF-sezHaD7_d1C8wBtVmk88HrjMiGLOjVjjMGv2LuE5OacZoVmzrRj6O1YsueS05z1ebEZCM1BT5DlDC6X0rsyeq89HU9r2C0XWWeWViHn62Zr7cKMDpbkT8AQiAXPamYOI2YW8xfJmL0AXh8lAnvtNCkLEe1Xy87-zbHYNGFx8dlbhpG3cGNAaO_6zUbWMot62UWJPn7-IWzJ5U7g2Epa93kClSjKF0np3cwLy4mZWQ1KjZ2qSC9MZ4KEilo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8016990996372157756&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJW1Q1stQnXQsRPHVE2tUSQm8.jpg"
       },
       {
         "id": "ChIJETqXrgLUXAsRj10J8bQ4tM8",
@@ -460,7 +481,8 @@
         "websiteUrl": "http://oasa.centrosciencia.azores.gov.pt/atividades",
         "googleMapsUrl": "https://maps.google.com/?cid=14966649811448192399&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJETqXrgLUXAsRj10J8bQ4tM8.jpg"
       },
       {
         "id": "ChIJv3DSBXErQwsRPjwFc9-n3YM",
@@ -480,7 +502,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv3DSBXErQwsRPjwFc9-n3YM/photos/AcnlKN2YiYPDjnMPkngVkLFfV3gNhxJfLGAVxlZQE8GWvEq9JQ0hfLPnBNdKZk3x8jcH__x-gNT55djyuIypJB5hlw7ScHDydy3BhPIZfrP-TZkpjXWt-npCG7507N4paT2mu4Eci6Cl1pbccVAMpF0J14ud11J7SdkMizoDHYQ5d7g-9qW4fkKqLtRK5cEZBDThk2fz55So_K0A8fCoxTHvBLe2vWvsD4dSIDeARWKOo5NbFkmWTQvwICg2TR3zsubp0t-wzexcMsX8ajmx4cReXwQ5YWv1fIfPO3S9M484FGVYMioHN5B7_W1zI3SReTKjERzXLjN5qE8flcYGRjrIlJzg4q65QX4spoPECwoEJv57IJGYBV4ULVGe3OB6ZJQQtOp0_-eAzzwZshYJofpWZyCgvgomgQjEIjsXepeEKq3_5ubl/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9501935366970883134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJv3DSBXErQwsRPjwFc9-n3YM.jpg"
       },
       {
         "id": "ChIJffVJEbcqQwsRAcCxVj8bkBU",
@@ -501,7 +524,8 @@
         "websiteUrl": "https://www.exercito.pt/pt/quem-somos/organizacao/ceme/cft/zma/musmil-a%C3%A7ores",
         "googleMapsUrl": "https://maps.google.com/?cid=1553771830294200321&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:01.809Z",
-        "updatedAt": "2026-01-23T15:29:01.809Z"
+        "updatedAt": "2026-01-23T15:29:01.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJffVJEbcqQwsRAcCxVj8bkBU.jpg"
       }
     ],
     "foodie": [
@@ -525,7 +549,8 @@
         "websiteUrl": "https://nonnas.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=4558680307258570145&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJsdybKf4rQwsRoTW3JpavQz8.jpg"
       },
       {
         "id": "ChIJ2VSABKHWXAsRIrbODPhOHqU",
@@ -547,7 +572,8 @@
         "websiteUrl": "http://www.restauranteaasm.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11898034092833158690&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ2VSABKHWXAsRIrbODPhOHqU.jpg"
       },
       {
         "id": "ChIJPSm-2IwoXQsRGR0JPFEhR4o",
@@ -569,7 +595,8 @@
         "websiteUrl": "https://www.facebook.com/barcaloura/",
         "googleMapsUrl": "https://maps.google.com/?cid=9963969333363809561&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJPSm-2IwoXQsRGR0JPFEhR4o.jpg"
       },
       {
         "id": "ChIJsyWJQEfVXAsRyWBbjtu-Yl8",
@@ -590,7 +617,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsyWJQEfVXAsRyWBbjtu-Yl8/photos/AcnlKN1S9CinUsqYQ1czpPQiyxQO5BrN2dTsq7oU-dMb8JF1-ySDItW3B35rAvLNaASgSayhw5hvkygapdJpW8d6q7m7izvG28wnsxF-xlTbD2iJMsM4m5hZhm8Kd4WAKrNzpFBh63OLJqNj_EssKGYcjlyFBDcrTNEaECIsZqB7nJ0NqeygucIsOIG743ONKnOeS1qDqzE0R9KcOZWxto_pjpomTeiKmHhhvd23kxlt4dFODqolB5nf_PcebYnTfop0TkeYx3C1ellcH30aY615BOSllCzVMUWhE73uSLH0OQVkKiPqVHrBVPvWAz38N-2dRXnushtXOIb9PnM-qpJN5x-XhO6RSFPXaL9UgK9DEBRRTzCU_7ZV8m_-AsnFtgI6MaMbkNR3mKJ2J3FqM6K0iWAnuI110qULZEnDcgL9xhGLASiF/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6873265831516266697&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJsyWJQEfVXAsRyWBbjtu-Yl8.jpg"
       },
       {
         "id": "ChIJOW8P_rUqQwsRCO68QGnYG5M",
@@ -611,7 +639,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOW8P_rUqQwsRCO68QGnYG5M/photos/AcnlKN2t9v70N4TDO8grgmzwQuoVXTSH41kKU0H7eEYZfLOM9HFNcmBWet-XrXpnUHzOJMVTSL7H19qugLUXWSOC0XLpqKVFJrjMGn9M-7b0FN6b2c0jAokpCo4Sr493i_0g7OkROSUx-IY9JMds5WROamvB4N5cbWsu3M8DX4f7qmuy2-RSXmw6sqBzxcjQZOr-z6usqJSuld2zB1JlSlA6JbeKC7-J1LZfXP7ZPzNkgFEo4ejMkiWi9zlYx4kkTzJoeZ7TkqIxibE3odkaN8LOb3e9ieC7S1KqaktEe1bJtgTu1w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10600304094515883528&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJOW8P_rUqQwsRCO68QGnYG5M.jpg"
       },
       {
         "id": "ChIJpaKsOYUrQwsRstRMmpUbgHI",
@@ -633,7 +662,8 @@
         "websiteUrl": "https://www.instagram.com/jardim_naturalfood/",
         "googleMapsUrl": "https://maps.google.com/?cid=8250624846695552178&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJpaKsOYUrQwsRstRMmpUbgHI.jpg"
       },
       {
         "id": "ChIJmRX_nGAmXQsR0_iE25fMkqQ",
@@ -655,7 +685,8 @@
         "websiteUrl": "https://www.facebook.com/queijadasdavila",
         "googleMapsUrl": "https://maps.google.com/?cid=11858765721414990035&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJmRX_nGAmXQsR0_iE25fMkqQ.jpg"
       },
       {
         "id": "ChIJ91lug50rQwsRxJ4RL0YlYCo",
@@ -676,7 +707,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ91lug50rQwsRxJ4RL0YlYCo/photos/AcnlKN25O1NOLvjPVaMjtfLobmb29k82c05yBajCExyxCIIkY8F1kWxCdNWbNd-jmrcTv8u_F_lj_MdY2IK9UVp5mjyiO-mzWbIZtBmu_plCDR2mRqP0P6TU0eLr4hgVEaJizpZjhEQqkhALUiyybhUzNg9cJtLzfzLG4kBck_bwwZR0QRO0u6JpeRkd8zcSU6ttSLmtfauXDjpXs16jrEUvmIg3oYSlDdrMh7RwCaFzP6ckQhKOI4sUubsRuquKGhAWyHfBnMG5qrAvJko8Q8nZclwMDwE-jbyyDLw-6WVA_VmbOA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3053481530724818628&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ91lug50rQwsRxJ4RL0YlYCo.jpg"
       },
       {
         "id": "ChIJtWj8xsfWXAsR4IcYrWBqZ5o",
@@ -698,7 +730,8 @@
         "websiteUrl": "https://www.facebook.com/tukatula.bar/",
         "googleMapsUrl": "https://maps.google.com/?cid=11125978367895570400&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJtWj8xsfWXAsR4IcYrWBqZ5o.jpg"
       },
       {
         "id": "ChIJRbeiKMYqQwsRLNmfKxN_ENI",
@@ -720,7 +753,8 @@
         "websiteUrl": "https://www.facebook.com/megasaborpadariapastelaria/",
         "googleMapsUrl": "https://maps.google.com/?cid=15136738067905239340&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJRbeiKMYqQwsRLNmfKxN_ENI.jpg"
       },
       {
         "id": "ChIJgXv_CsoqQwsRxyxX6XfRAD4",
@@ -742,7 +776,8 @@
         "websiteUrl": "https://www.facebook.com/A-Tasca-354248658014325/",
         "googleMapsUrl": "https://maps.google.com/?cid=4467801143297649863&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJgXv_CsoqQwsRxyxX6XfRAD4.jpg"
       },
       {
         "id": "ChIJnxn_xMgqQwsRFp4vqmbEjS8",
@@ -763,7 +798,8 @@
         "websiteUrl": "https://www.bensaudehotels.com/saomiguelparkhotel/?utm_source=google-my-business&utm_medium=organic&utm_campaign=smph_gmb",
         "googleMapsUrl": "https://maps.google.com/?cid=3426610836719771158&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJnxn_xMgqQwsRFp4vqmbEjS8.jpg"
       },
       {
         "id": "ChIJCY9Za8UqQwsRmH7cpEii6xE",
@@ -784,7 +820,8 @@
         "websiteUrl": "https://feed.continente.pt/lojas/continente-modelo-ponta-delgada",
         "googleMapsUrl": "https://maps.google.com/?cid=1291304151059037848&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJCY9Za8UqQwsRmH7cpEii6xE.jpg"
       },
       {
         "id": "ChIJZRaffSfXXAsRlhLLJX-PW4I",
@@ -805,7 +842,8 @@
         "websiteUrl": "http://www.ochocolatinho.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=9393259224068985494&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJZRaffSfXXAsRlhLLJX-PW4I.jpg"
       },
       {
         "id": "ChIJlZ2PHNnWXAsRSFzn55aqwaQ",
@@ -826,7 +864,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlZ2PHNnWXAsRSFzn55aqwaQ/photos/AcnlKN02gDoNufjaC-1PM-r0H1UySOy8nkyWV0ZLLy1oM_9CapEGxNOT04ximmz91gENaeDyW7_53rRGlBn2_RfqpBgSNQru8R_hYnU7HHy-AUdSXIfl-bap_a5K1tKCtCyuiaSjDvV1ndFktvzsqebAjdvgSPvNahvdtlBnqwZTZLHUYlS9Vjt2pKNVJ8gxk68rxLFel8cgNEz0j8pGOLGJWCaSXnAMw0PKj1w3f_w_UMkJKNqOsMtaawVPd-U4xJmP0aRuXNGYlFxMWMbSWuLfb_Y1E7fGqTxsu3-vIhNA8WhMnA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11871957657837853768&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJlZ2PHNnWXAsRSFzn55aqwaQ.jpg"
       },
       {
         "id": "ChIJqadGJWzXXAsRbqPuCeTkIwA",
@@ -847,7 +886,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqadGJWzXXAsRbqPuCeTkIwA/photos/AcnlKN3ORf4JgLMcQX7H7qQeTQVGg6t-cI9MmPeNGfDn7l7J_yqqRrP0LiqNdBa-ave6V4QTeMdjIn9ii-58CDKy39hrLIyAaKmrGQHBbbl3pqvDOnZlrwHw6yJOVCvVGFgR_loEhslRHv5iF-Cxmp1OhDUjhCgNE5VW007UQATzFEpeU56k-doXXU4IQjT8XhcBdAx6PlYQtG0_ZYh4M9gloHXZPXHknmj-N5jHE4RkOextiMgNxaiOQmUrgs1PB5elSwnuzCUyMbXolPEFOfc0jIr15_8xxRulldx4fn9Ro02qN6OkxsVLz87LNTrcWD0z1MFl9fGn1CS25aGkaSyu4zQmxyaqryIqI_EyNARLiaeG9uehpEKxt7Pr5gj61XhtiRTEBAJYw60clNCakHeHiuyU30MIsQu72LsfDog2avUnbw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10103292255183726&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJqadGJWzXXAsRbqPuCeTkIwA.jpg"
       },
       {
         "id": "ChIJzYF7Q-AsQwsRgM31uKY_Vgo",
@@ -868,7 +908,8 @@
         "websiteUrl": "https://feed.continente.pt/lojas/continente-modelo-capelas",
         "googleMapsUrl": "https://maps.google.com/?cid=744852773676633472&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJzYF7Q-AsQwsRgM31uKY_Vgo.jpg"
       },
       {
         "id": "ChIJU551GQArQwsRIIYh7115BKQ",
@@ -889,7 +930,8 @@
         "websiteUrl": "https://www.instagram.com/maedalmacafetaria?igsh=MWFkeHQ3eHNqMjR1bg==",
         "googleMapsUrl": "https://maps.google.com/?cid=11818704766477895200&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJU551GQArQwsRIIYh7115BKQ.jpg"
       },
       {
         "id": "ChIJrYfP8NjXXAsR2ztZvLwxeD8",
@@ -910,7 +952,8 @@
         "websiteUrl": "https://www.instagram.com/santabarbara.beachclub?igsh=YXd0MHN2bHB6a2dx",
         "googleMapsUrl": "https://maps.google.com/?cid=4573460108278315995&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:02.653Z",
-        "updatedAt": "2026-01-23T15:29:02.653Z"
+        "updatedAt": "2026-01-23T15:29:02.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJrYfP8NjXXAsR2ztZvLwxeD8.jpg"
       }
     ],
     "adventure": [
@@ -933,7 +976,8 @@
         "websiteUrl": "https://azoresoutdooractivities.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1420007757417152780&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJA1tARVrTXAsRDAEmJ4jhtBM.jpg"
       },
       {
         "id": "ChIJmyEYucUqQwsRNi-N84ZwVG0",
@@ -954,7 +998,8 @@
         "websiteUrl": "http://www.visitpontadelgada.pt/fazer/visitar/jardins-pracas-e-largos/geo_artigo/jardim-botanico-antonio-borges",
         "googleMapsUrl": "https://maps.google.com/?cid=7878045373091884854&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJmyEYucUqQwsRNi-N84ZwVG0.jpg"
       },
       {
         "id": "ChIJ3WK8357XXAsRJmCqKX7DT8Q",
@@ -975,7 +1020,8 @@
         "websiteUrl": "http://trails.visitazores.com/en/trails-azores/sao-miguel/caldeiras-da-ribeira-grande-salto-do-cabrito",
         "googleMapsUrl": "https://maps.google.com/?cid=14145739901226344486&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ3WK8357XXAsRJmCqKX7DT8Q.jpg"
       },
       {
         "id": "ChIJ53jNmQorQwsRZ-aMFHHxqP4",
@@ -996,7 +1042,8 @@
         "websiteUrl": "https://www.azoresepicadventures.com/canyoning/",
         "googleMapsUrl": "https://maps.google.com/?cid=18350182149699462759&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ53jNmQorQwsRZ-aMFHHxqP4.jpg"
       },
       {
         "id": "ChIJMy-WqerUXAsR8zj6B8VC_CA",
@@ -1017,7 +1064,8 @@
         "websiteUrl": "https://drrf.azores.gov.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=2376848117354608883&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJMy-WqerUXAsR8zj6B8VC_CA.jpg"
       },
       {
         "id": "ChIJIY7knL7XXAsRPSvliPHnf8o",
@@ -1038,7 +1086,8 @@
         "websiteUrl": "https://parquesnaturais.azores.gov.pt/pt/parques/9/centro/21",
         "googleMapsUrl": "https://maps.google.com/?cid=14591636342273551165&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJIY7knL7XXAsRPSvliPHnf8o.jpg"
       },
       {
         "id": "ChIJxYgGB8TVXAsRfO6EWZob530",
@@ -1059,7 +1108,8 @@
         "websiteUrl": "https://fun-activities.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=9072250324101951100&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJxYgGB8TVXAsRfO6EWZob530.jpg"
       },
       {
         "id": "ChIJddtdNGYhXQsR6nXE9cvMTMo",
@@ -1080,7 +1130,8 @@
         "websiteUrl": "http://www.azorestreetop.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14577251270265173482&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJddtdNGYhXQsR6nXE9cvMTMo.jpg"
       },
       {
         "id": "ChIJjzlOty8oXQsRrvaS8kLbEqk",
@@ -1100,7 +1151,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjzlOty8oXQsRrvaS8kLbEqk/photos/AcnlKN0H-eTU-O7OYbKBOhfbdatBTt2_2nKyGFLhBWW-4BYAC-QH_F_-F-L0VHLi2TUNIBhawJo_BJx5Gv4ThpKOwsgCshhYEGnKzOThAfziAKHip6ZJsyUK1lqkqXC3XNja041sYEMUVK7t3AguqKPKrX1TatmI-yDvwenPGLmBpzJjNkgS9u2MUHTwAYuB7j5aQXvyw5PnX7ggK_SSjO01qSDkfdnyvNxTEBY-ZFwwwWSIgS3md_W62OHeVszFJpwYQcC3wNcdshikbl3bNv6Qa78pXC933cel96mHcqMreKglAoXqh5e8FRuhHVrMQuEaEE6VFUu97oCHyfzptTk3VyVMIZYUOlKz5fqHV-UWwT0yaj5GpQSIiibplBR490tnk1ukxGUtvT33PgQRCxW6kZGBYqL2tmigyumNgvOFDYD3OQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12183041022574655150&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJjzlOty8oXQsRrvaS8kLbEqk.jpg"
       },
       {
         "id": "ChIJb04SORPVXAsRLxSAfEcvIao",
@@ -1120,7 +1172,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb04SORPVXAsRLxSAfEcvIao/photos/AcnlKN0oeeuqSRibW1r7izv_LI7xOBzHcN0tz0NKlqNwptCL1a1y_FWBGKRhCMn0u9Hsdvu2YgDhTFKGhFXMybcBQN1atrVXUhAqvrk1_jnDRwFa4WpfqLSUsDXqoGC0Y2JUzrwmWde8Ledekav8kQvD7-GjAGYA087FHY8YwOGDX9ZLRCQ63dgS92S2OJEZtshkcmHxSOlo161wJacJlg9Dr7VCxBu9MsS7efhf0KD-Qk6J-jjJAiFmWdABoYwLZITi_AkP3jfoFt58TP5vBTczUbW8DHDhKsCGhaNIOF8lCva0lUOvsp7N3zpxO4oiZ_VzvxahbTl_NGR3uRQJ2Ej_c929RwAyAVT31CWSqoUPa1qXuQhguNK1J1wKTDJPDLk-5oQnRO7TWQKkHOplUYwcylkwOxOHZ3OXW94-w7evMHdjFE1CU-F2Oqq9x2x1jr4E/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12259131644757152815&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJb04SORPVXAsRLxSAfEcvIao.jpg"
       },
       {
         "id": "ChIJ36CyTKQpXQsRccLjhLHOBbk",
@@ -1141,7 +1194,8 @@
         "websiteUrl": "https://trails.visitazores.com/en/trails-azores/sao-miguel/rota-da-agua-janela-do-inferno",
         "googleMapsUrl": "https://maps.google.com/?cid=13332289533734273649&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ36CyTKQpXQsRccLjhLHOBbk.jpg"
       },
       {
         "id": "ChIJA7UHKY_hXAsRcKnnKCkSIPc",
@@ -1162,7 +1216,8 @@
         "websiteUrl": "http://www.wildflow.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=17807252894612171120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJA7UHKY_hXAsRcKnnKCkSIPc.jpg"
       },
       {
         "id": "ChIJwaJCwC4mXQsRaA1c6npn0pU",
@@ -1182,7 +1237,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwaJCwC4mXQsRaA1c6npn0pU/photos/AcnlKN3iPQq-V1c77xBUNI9-fB8vd8bK4NsCLK-jfc6YLmzYvuqqyczsuIzJ8AU9Pm1wI1oRWfTt1sSGU5IEFL7wvlrGX5EbfT-kXj6O30r25Y5Oa0nrLgUnAQGPyDy6nyLsCQLR25mAln1Xq5_gh2LYSqYjNOgoof3wp_5u0ZlrpBBhH-sPnPy6vQoKJLqITxY_KwGeT2U0L8bsrO6fY9IgqXG6uMYKKzqN0btKFggf_WUwYaQnwHHzMsBrvX9zdDQzRBIUSB-phnGF_aPoa8Bk96vyguh-Y-A-ucpxt1h1o6539adNsbs4HYdtHZjRapWzNZF61Eafem206MnZcqEUdf6CC9QB0BSagO1QTgsMOGUE8qEH6KzfzHe432kZ3FX3voZZz4H5_VPGUArfmwzAaXTQct7RnORWowGCPIoS9O3kug/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10795805034376072552&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJwaJCwC4mXQsRaA1c6npn0pU.jpg"
       },
       {
         "id": "ChIJmQILgGjBPWURsEmi7_58HH4",
@@ -1203,7 +1259,8 @@
         "websiteUrl": "http://basalticazores.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9087275582510746032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJmQILgGjBPWURsEmi7_58HH4.jpg"
       },
       {
         "id": "ChIJrU9wfoYnXQsRM8reNEX4LfM",
@@ -1223,7 +1280,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJrU9wfoYnXQsRM8reNEX4LfM/photos/AcnlKN2nfgY5CJFwR1-RLhDSoQfQOjuw5OIV2v3n_5Sj4SiJn4JTJGk1xKPB4NePn55qU0Sie6IARPXUvkb2JAj8XK099V-_HC0K4wxR0Xu3YViFYK5vlAQf5qotS8twA-fEQPOdQ0frC8pJ-SpmfKyfNf2AJG9BgQtiUrwcnEChIVg2Rb2mL1ptaz286qaf5HdMgEsCdo6Bdt541HFp9VTp6Lv9rVz5aE6C9tfjBk1u6jn5OOrg-AkkBpPpdsmUi-rGTHKYE7YOKNeXV2WN9KssjNNoFDG280rNL2AdV-EMMZMhgmI6OxZvp1MLSlhNlfZl40WYmmUui2Ue2irt7I6ZlQBTb1zv2RSePzsKpktMwzmsScT3zJDMRWk0F7RKMyaWZfE5gWqVH7Tak0jAZMpYBVRPpegoA2cUdTqpSvB_AIONcFt1JF5qm1G4aqwOQelC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17522934701291915827&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJrU9wfoYnXQsRM8reNEX4LfM.jpg"
       },
       {
         "id": "ChIJiUtM9EjZXAsRMk-LazAJjkk",
@@ -1243,7 +1301,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJiUtM9EjZXAsRMk-LazAJjkk/photos/AcnlKN2m1Q-PR7JgSKGYLNP4ndFt50H1CjkDebbsZifm4Z5FMhpb9ns99Ih6g_ks8aFgy9vra2O_dNzMCDn6DPzvqvxtNjvtT6cA3FbLPO4xxB291vtDHFT_QuOy_nYP3LLtXSwNr55IzW1thvNmQOGTwo6ITybrHGV3HJA34YhMXPk-VNrh0orP60NX9g28Wy9bCNMnkg7rPOMfufE36tEzQofGlGAP_sO1xxrw1Mp9vZZkbwITfk7xAB6zqv2h-tGdzLJlu2O-7fy-CL4GUGasDDTzKgp9j-kJ9zrxSJWKByuScVs5IalUz4lD-eMGZjA4XPCnmtG2Ne3V_fSDZ1HydAfX_Co3anfzyz53ndDHL_kk2QLsrVu-d17q4l_x0lITAUH_jkV9mDofEe1Y0VhsfL75TAnt-98hZQkbB8x_icWDNE9YEo0aea_nS7WXZg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5300183915029024562&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJiUtM9EjZXAsRMk-LazAJjkk.jpg"
       },
       {
         "id": "ChIJddRVKObhXAsRTvxpZPZTU58",
@@ -1264,7 +1323,8 @@
         "websiteUrl": "https://www.azoresepicadventures.com/canyoning/",
         "googleMapsUrl": "https://maps.google.com/?cid=11480612192809253966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJddRVKObhXAsRTvxpZPZTU58.jpg"
       },
       {
         "id": "ChIJ_eEnPNUnXQsRRKTtO7sgNPo",
@@ -1285,7 +1345,8 @@
         "websiteUrl": "http://trails.visitazores.com/en/trails-azores/sao-miguel/praia-lagoa-do-fogo",
         "googleMapsUrl": "https://maps.google.com/?cid=18029071196807341124&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ_eEnPNUnXQsRRKTtO7sgNPo.jpg"
       },
       {
         "id": "ChIJEy4qb6FSMqIRjj-WNXZdGcc",
@@ -1305,7 +1366,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJEy4qb6FSMqIRjj-WNXZdGcc/photos/AcnlKN0_7q5bU7ivii_Kq-W0zh58NDeA4MFViB42yM340hOYLCnhRxCL8BTfc9BGAPxOejhOn7BH3jQgVpe41OamKoq4U1xCSeWybY2agh6uSw4_wpJZJCMRA2T9D52mVD7uMoQtVFq0kooCz2yCoYYOBUOLphi1g8H99n1nNVq3PUDOHj55_bCYVAxvxJQ3KXxu1wKjE4v5XcHCCZRgf0DQkPpzeFM5un_sG5pTLQIYuvwFb4zS40TqVkez2M37jh6012_TaYA66dO1ImpM5WFjc_SjQOw4sIsxKpuq2AxL-wqQwA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14346600850251988878&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJEy4qb6FSMqIRjj-WNXZdGcc.jpg"
       },
       {
         "id": "ChIJc1tGSGPUXAsR_MbnC1bMxpU",
@@ -1326,7 +1388,8 @@
         "websiteUrl": "https://fun-activities.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=10792538226978965244&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJc1tGSGPUXAsR_MbnC1bMxpU.jpg"
       },
       {
         "id": "ChIJpz0Wd1wrQwsRw23J28b1U08",
@@ -1347,7 +1410,8 @@
         "websiteUrl": "https://impactoazores.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5716182586503032259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJpz0Wd1wrQwsRw23J28b1U08.jpg"
       },
       {
         "id": "ChIJdQyZ4NspXQsReD5DiiMU85k",
@@ -1368,7 +1432,8 @@
         "websiteUrl": "https://lagoa-acores.pt/menu/descobrir-visitar/fazer/rotas-e-trilhos/m/57e59347917b4f7198b738f2e6a22f2a",
         "googleMapsUrl": "https://maps.google.com/?cid=11093232450019737208&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJdQyZ4NspXQsReD5DiiMU85k.jpg"
       },
       {
         "id": "ChIJTd_CezDWXAsRlYHhBLBI3Ug",
@@ -1388,7 +1453,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTd_CezDWXAsRlYHhBLBI3Ug/photos/AcnlKN3PS4GK5eFjn53Sqd_cCkRDUeqIataCxq2TN5LqTt0exP8ixA-C8_20HaZBPG3164lu01VrsdWbts--AcyP7cy3XN6QoBgBRcD1XFCeStAs0rUvDxVXoqTFDODKsFYf-0R9zeERzqjH6OVcZ8zPFs5ck2kBPKTa0XKU7Ony0p3T8Zc7NEwOW2Ukjy7caRN2yKiwZut7Y6lY5b-wTqGo5NEmTtPB_nXrwICb2ZRvpSAXLLl2w70O6RF8L3BcibfyJZE11MzH8r-tqE41-RV67J-7Nu5hoNmB5TYfAKhbrIRitns0isn9gahqj2AfB92udbJG8pNf6gD-s5piLLRQVGXcqLwg5m7G5qYPlai0cXVwRMKz0RvKQ9bnNjgPke2A9TQpSND2dQfP_XqIhNxt-aw-dD1rgs4Acjva1aRGpYwN-v6z/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5250432661417197973&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJTd_CezDWXAsRlYHhBLBI3Ug.jpg"
       },
       {
         "id": "ChIJS4MbFwApXQsRe7gMmPBMqog",
@@ -1408,7 +1474,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS4MbFwApXQsRe7gMmPBMqog/photos/AcnlKN1w9P27EYzU9WPyfNRWo18Js_CL_xfTrH5oGXUnepkTcyQOLay5bNZ5mGp9XWZFuY7kyxKPDYoSBR8xssNTJ2IrecaeI3zeImqrH819A0-wYs4uihe2TJvkAWsD_erfceryMCaXFd8bpD-x0TGKmAu4BkemiXC_ea76-EOt2chKLrhX86T5hw0uOc2J2R7Ld9W38utRSJLDTiWeJD3XgHLQ6upm3afq6imFLRyI5WwrVLL_b44Mm7NWd1GSbpbNg5CgVQSJf96VMAibsCnRwAX6wMoCAw8AdY0jPS8lEDhl5SuKSnfXPe5v3Q_B4pQ-uX6L1HhfeTqzyQ6lYhww12PNWDgL9m3vQJFeKU8ntewM_Xr-C7TuYWzJ_EPOLU7YxVPtsTm0TJqfmwhQE3JTPjX2iuiTbCCx0YOiinGAnl4WTw7owvCK0uJe8-xMTs9Y/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9847768131425843323&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJS4MbFwApXQsRe7gMmPBMqog.jpg"
       },
       {
         "id": "ChIJixt56aLXXAsRlILL37Vbn3o",
@@ -1428,7 +1495,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJixt56aLXXAsRlILL37Vbn3o/photos/AcnlKN1_aOGEsd18vO_AIB00cGRbJg26RwkbTdU_BVyMn2JOa-8XILChJicmBup3P2k4wTq8X7dW_TTcKF_n7O6biUPlI5lG6RTSHVumE2YMNR7XkIM4n28VAeLJszBA4MOb22gntNq1ZCswb6QbnyT2fuP8gBPAY9uORXiP1rqYhOX5bu1A5DOMJM1rpfq_LpmecPNx7emO4g7NofTt0A3ffZY9iCQ7ETuKKEq3LymNJYk58dxSL2DKSeR3hZpdHJCN07i_-EiwIB_OFsmx02uEdV2nLvn61VkLyvSiRSpvk6uLfYZG85TaA4HZ5xqT7c_9RmuibmsRTzi5Hj-l8w7tEvYN4tg3qdl_AMdVFg8B4y8v_5cvguU6bcvaf7DABAVNyx11l6scA7Ew7IHzBzxk7OVspQLo0DguBXmkB-3KZ9Y5CmuQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8835881830626067092&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJixt56aLXXAsRlILL37Vbn3o.jpg"
       },
       {
         "id": "ChIJIzZ6NQAnXQsRsyXSd5TvRXg",
@@ -1448,7 +1516,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJIzZ6NQAnXQsRsyXSd5TvRXg/photos/AcnlKN23Xy5PdYviYDQeUaS60FRQsAGnfcJnia5uwBQAkOYXtIpU-iP7oG80G3dR_WpIrjIVm5icVKLuQvJXX1_y0rHdLDFICJZHFYZJucPfnp-B-mG5OBZWVLMjjalCUBT144c7-d7xNNfvuRjqjzy_FcH8tEgEz-MrLTx5T9ZqIfS6NB6JS_GZW5hiwMyQV9iRM8xZvmxAG4s3cWAzcNhSaKVRWrxdS4gYE8_1lqI6eHbWsjq2HEQfUR45wHMTf5906wJ9g5SHW6riHhmXEDK-zKbtpR5e2QiV4HiPJAPw39pv8J-ffgfpBCoAY6Wdjg2A_ioU15jgWWWYt0Vj4CTMBXfX3M8dMKpBXiajBiuXGPsydXkvWUuWSrlz5HXU0NxNphJZhMP9dQyGyf2GC0TeMb1vNo1lKMSn-Q04FUHaDo2kDn5kCLCq01-nbGDHCGDY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8666596478888846771&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJIzZ6NQAnXQsRsyXSd5TvRXg.jpg"
       },
       {
         "id": "ChIJ-2vpJwDZXAsRx_qkZOR8DyA",
@@ -1468,7 +1537,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-2vpJwDZXAsRx_qkZOR8DyA/photos/AcnlKN1CqXhHRyEfooPUkf60ZKi-ZILDoafdDj1MOG3iNcNGOfdUApKMEG57Pp8TEgwCuKgeO_Jw0PPv5XWmOwJYH_GDiKnFvzDdPXLAFsUcHiT0u-_MfGKNuBmUwj-Tvql7CKMY76Fb9SW29pAJkEDxY-vMDvjIZUWw7GTkfIvOaSz2MQ-ExVwFi1hsNztuJEtfZVXzczgtfNQA_5BAxJJpb5TixmEY6Fq8HU5M4uECzEcdGWH5NpFrNrIgH1nvrTK91bFl0_w_Xo7N6-87nTaCH3zox0OByQvmr40RNTu5WrPxatv4ksR0lc-QgKR9mE2ENxUOU1VL0FgLtAUffZyaTQRzsB8oJbrWwuYhvbuGz6UmUBBj4TRi-8HMgmHzwLhSLSOsK4-iRWEkyKZ2Yq0RAX2ZEGapdf2dBK-5wRF5i9QDtoZl/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2310202454247275207&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ-2vpJwDZXAsRx_qkZOR8DyA.jpg"
       },
       {
         "id": "ChIJjaMKMgAnXQsRrGw5SLQm-Mc",
@@ -1488,7 +1558,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjaMKMgAnXQsRrGw5SLQm-Mc/photos/AcnlKN215ZByye9beC8c9owCFC26qfWZkxr4xkc1IDswIrkdALc1WopggXq0sHxDU9wghbuhdrdWO9Ir99ZmUzx2GAK9KHR-ya-I9JTCTyFJjsTfkjWSXZH8KkYhVeUg7wz22rUDC3eRLaiUvAm-IMPyS_vyIVYUbe89Q0rScDWsmQhmtmT0F8mPfTGehDY3ABeAewFI-QPSlEYtdbBN7p6ONnW1kzthiKW2ektgGynKxw64QlDaQExgiO69X-ezecY-bBVG3uHkff-K772BMwonYOOFrENLzbpF0COjH07GWxPL5FF9T3XQ42NPtAyE9EY6YPsIQJaMMdxL2pj3yXsnY76n26aLHIwAxv_WyPEwtfIShnAxTThpaluxP9b8JKCqfE4oOXQWrTmjOp6nhnr2rYhz_B_QnThSlDIYJJireaouKlfklUPqzVwEMgR-YA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14409309563519593644&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJjaMKMgAnXQsRrGw5SLQm-Mc.jpg"
       },
       {
         "id": "ChIJ2QgOMBjZXAsRSsBihTUsXl4",
@@ -1508,7 +1579,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2QgOMBjZXAsRSsBihTUsXl4/photos/AcnlKN2vBmOY4k6NPsgd5ZMxLpHV5vlpfpZh3J-GJZKSuaDeAQRLF4EapHZzhVPNw-_snbeUBYgCsKQfIU8oEFwNgzYkJxhrJwE9gzRtwcLNlhuKpuF6xYylqrsIFs1WXYpzaXt7Dzt50nSmcT7WDaJa9cbyx7DA5rQbfODoYKIpnEG2aI2u8rZikJMRAfEKgiLAgpnesHEd8qPk0FVz3k9oQtDadgcDBw-G4DijOUFM8iUtOFviexK9Me3JK5JIe5tqGRltFUl2EBEKiBjN_GqgiGjAy7moYMrOZlKZo4vrgAdbGrlZfb0OrNfmzUNyW4EYrLRXaoXpRCPVKXwnQiTK2bkNotOj6CtZIW9CX3x2S_5aLnpkIGNGQosv3qZ_nMdGmV5diicp0KYg1ZmUXNvqqqcXumYPq4GvxIpKWvjU2879ng/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6799921095758757962&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ2QgOMBjZXAsRSsBihTUsXl4.jpg"
       },
       {
         "id": "ChIJGcgqnqEnXQsR3aDBIUlbOW0",
@@ -1528,7 +1600,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJGcgqnqEnXQsR3aDBIUlbOW0/photos/AcnlKN0xDjdKz1AzqISplawWH0rSjfUqcr5RhoPJi3kNYMOXA2jqs_0LqJe1sg3Jfz2QfCJJqqu7sKIK86HGNzRKgLlCvE8_r-C8yV1egqYpyh27PaxdmD1D9xFzLurmJG1vQsX_yQutk5_yUX2fLeq-phCc9x7RY1v8rtr9GfZSzzB7hEeVnqkciphZ2-URRXjzOQAmrmhpAcr1h7OGwvyAufwQwoV1fWEEnbKA90YjDm6N5T0D4AawJOQRPBSjBJR_VEt_OkDmse27jYWqAXBV4qxRV8Ojp3mJqGWam1g8LFTse3z2UfZr29EpkwgWV_TPE72yBcftItvPAtolW8_V0lbxOOOfvWiPMU_Ne2COjXa4lM740fo_GjYgJpSlcJZLxBShOZVVWHoKZL6WHsxcgH6bx42uCPkqlRFReUdEK7W21g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7870422193463730397&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:03.780Z",
-        "updatedAt": "2026-01-23T15:29:03.780Z"
+        "updatedAt": "2026-01-23T15:29:03.780Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJGcgqnqEnXQsR3aDBIUlbOW0.jpg"
       }
     ],
     "cultural": [
@@ -1551,7 +1624,8 @@
         "websiteUrl": "https://gin-library.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10509568421386131289&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ1yPkMuTVXAsRWRdiE8x82ZE.jpg"
       },
       {
         "id": "ChIJoVz7M8oqQwsRbeWpRU-_9JY",
@@ -1572,7 +1646,8 @@
         "websiteUrl": "http://museucarlosmachado.azores.gov.pt/en/",
         "googleMapsUrl": "https://maps.google.com/?cid=10877529347198674285&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJoVz7M8oqQwsRbeWpRU-_9JY.jpg"
       },
       {
         "id": "ChIJx7aiKMYqQwsRc-nDfseH_jA",
@@ -1593,7 +1668,8 @@
         "websiteUrl": "http://grutadocarvao.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3530408448800057715&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJx7aiKMYqQwsRc-nDfseH_jA.jpg"
       },
       {
         "id": "ChIJgTbEELcqQwsRjAB3-dJ-BF4",
@@ -1613,7 +1689,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJgTbEELcqQwsRjAB3-dJ-BF4/photos/AcnlKN2y5dsyaJwsvAnUc_OzvNaaL1SrWvapyaJ2r9xiUegZu_Bs9f6WEG_SOVzfrCuTLDyYbZUub9RzFveiKeoClohxBCu6DxutQYOwAAQBzbMbJ_idOHp6UV_a-I0C785TVvBJOtNvI9bKZlF3YI7K9jYxhPomMn91Nw06bW47bzv0jCzDvoZGqoej5qCsR_kZmp6fZtN1A1kqdoo8yQq1NWOCKegGfuTU5YWLxaFhe7zIzy_ek0XCB-cicL7VMlSim9FpodL1yW_CRP1NWoDPt6lTiPWtWhBefUFCmL1fEvcReCT9--uXDV6GwGFS2_pwxWa_5NFX4TwgwovmUSoPCO2mqyZdn2CrOTKukL-d0zBfxM7Hqj0gRM_1shoawEMB_ALkc3LUFvgdGy136NX3xgU4CCGZFsYMc2o5wnkS7ahWQvUW/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6774679184065626252&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJgTbEELcqQwsRjAB3-dJ-BF4.jpg"
       },
       {
         "id": "ChIJt-lofi0rQwsRn_r1q7iyhsA",
@@ -1634,7 +1711,8 @@
         "websiteUrl": "https://www.instagram.com/magma_nta/",
         "googleMapsUrl": "https://maps.google.com/?cid=13872972208390142623&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJt-lofi0rQwsRn_r1q7iyhsA.jpg"
       },
       {
         "id": "ChIJQVVyKSTZXAsR3dH3S-yCRSc",
@@ -1654,7 +1732,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQVVyKSTZXAsR3dH3S-yCRSc/photos/AcnlKN3N47NHEXw9iTCYrSUkz4fPJThcDd96G7bRlIv0gqU_neeXV1ZHz7_iBc4CI8vaIY6ELvlSvMm8Xn_mAC1g3vvLw4ZMUBMJVjn5c4VeDt4OnbhT9q1OfmjZqyB1VxM9PccJRSgkjreRtSEdPLOSER6JDxJK_vB_AeLQ2R4_pPU4mWdpdLlGKSVNyHUEXdZ1x47oFrrvGRbPR9MZ33XH5wJm9dOqt9Ckqz6WH2vXki4vA6iuq8fr4ZLUe_peO4MG_nJ2x9Xo2wJ5UA_bUyfJ8XrOFfZ01-LriwgJn5G7NVUHrQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2829811892270649821&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJQVVyKSTZXAsR3dH3S-yCRSc.jpg"
       },
       {
         "id": "ChIJEQadWOEsQwsRADHHX0eovI0",
@@ -1675,7 +1754,8 @@
         "websiteUrl": "http://www.oficinamuseu.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=10213223079472476416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJEQadWOEsQwsRADHHX0eovI0.jpg"
       },
       {
         "id": "ChIJ7TYkW_TVXAsRmKKKRqIJEHw",
@@ -1696,7 +1776,8 @@
         "websiteUrl": "http://ovga.centrosciencia.azores.gov.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=8939655852903277208&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ7TYkW_TVXAsRmKKKRqIJEHw.jpg"
       },
       {
         "id": "ChIJrVGarIsrQwsRnHHmyeGT8z4",
@@ -1716,7 +1797,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJrVGarIsrQwsRnHHmyeGT8z4/photos/AcnlKN2pXy3CXBC7fhSjT0qsWazSyj-Jqu6WtuJBz6CEe6rSxbdIB1tr4pPAnrevhIgwjWG21P_9q0Xk8wRkWZ3CzDpCZUhu4xdtZwCH7gqIu57VxErNBV8_V89QtIg0_lRfR3Jg7--dqGy2bgFMLsWJSNzS4v_wiU62lkNKm0J62ZcFCeJtE6_eoNlCV7MzH6RdBkepD280RH9pRj2VuAxnBZiiw2pMBXAF1INTPwDyBNKVTIVBrMM9WLrVGinckYj0gSnXw-Oz9PNFx9800pEoEFa5EczIjvzMK92A8clPVNV2zg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4536131847656468892&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJrVGarIsrQwsRnHHmyeGT8z4.jpg"
       },
       {
         "id": "ChIJi1mel8DVXAsRMrouFOqa8Yc",
@@ -1737,7 +1819,8 @@
         "websiteUrl": "http://www.azoresatlanticsurfers.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9795780994659170866&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJi1mel8DVXAsRMrouFOqa8Yc.jpg"
       },
       {
         "id": "ChIJ20km7KcrQwsRFwz-55VlPKQ",
@@ -1758,7 +1841,8 @@
         "websiteUrl": "https://www.instagram.com/informal_concept_gallery/",
         "googleMapsUrl": "https://maps.google.com/?cid=11834445615339539479&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ20km7KcrQwsRFwz-55VlPKQ.jpg"
       },
       {
         "id": "ChIJJxdNwIArQwsRtmiOnF4Syic",
@@ -1779,7 +1863,8 @@
         "websiteUrl": "https://www.instagram.com/traca_studio_gallery/",
         "googleMapsUrl": "https://maps.google.com/?cid=2867124310337546422&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJJxdNwIArQwsRtmiOnF4Syic.jpg"
       },
       {
         "id": "ChIJWz4AAtUrQwsR2O_L13m842U",
@@ -1800,7 +1885,8 @@
         "websiteUrl": "http://www.azoresconcepts.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7341919049041571800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJWz4AAtUrQwsR2O_L13m842U.jpg"
       },
       {
         "id": "ChIJVdIkR7QrQwsRMUrafdl5uwg",
@@ -1820,7 +1906,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVdIkR7QrQwsRMUrafdl5uwg/photos/AcnlKN0oe6L2hTR9IRYqAYn1XdnZtZkO2Lr4-el9FcEAvMs6tMTYF082otdYcwH4FCFEtNGoE_LlC6cLhrLGMc1PuxZd7ExneTsgGd3qgxtv6mwLQIgXQ5uahkdRrmqPGaLOqUfu10f460NFBFvFBwuHAL-gxYr9-WiY4_GHTjLj3r6S2CN-MVmO9y8FJ7ZfpzftMaRPiuAiXOOqrR-2NRgfjZjjOVZ_VwGPZnbojs99AInjw16x6rP0bxxPGiFMaNs6lG6_jgoCBSSMQCX0TwT-ladVcjdaUIBmg1Sv3qAmUabViA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=629230547974638129&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJVdIkR7QrQwsRMUrafdl5uwg.jpg"
       },
       {
         "id": "ChIJlVDAkNvWXAsR943p6eJa4_8",
@@ -1841,7 +1928,8 @@
         "websiteUrl": "http://arquipelagocentrodeartes.azores.gov.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=18438681230018448887&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJlVDAkNvWXAsR943p6eJa4_8.jpg"
       },
       {
         "id": "ChIJ0RfD3r4qQwsRLEzEl8gIsRQ",
@@ -1861,7 +1949,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0RfD3r4qQwsRLEzEl8gIsRQ/photos/AcnlKN3spM6sc5BnhVScqXPnKgHxHljpkOeOQe53Cl8BGvaoBn6EVO8--DuZxmpv7cgmaDdU6Y0pVg0rsoRxGzMTwVimyHAiDvhy5fF-dmnLQhvjNYnpNXcSmM-r1Scs9UvW3bpyJ_D_emk2ddBytELAtOsaflkOsaiPP2IXACRArXQA1tM8q3yoU_GWEkjISTJr-hxhq1HbsiOXHxKdrEwXlM406vFdCORXKI3dmKKszdC_iNvzHX3KBg9PLJ42El7epmg12NgJwWQGtjTmZmI16i-CtWqeIf2Fynm1PE45VhY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1490982609269050412&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ0RfD3r4qQwsRLEzEl8gIsRQ.jpg"
       },
       {
         "id": "ChIJN0zo_AArQwsRsxIktoi3zRA",
@@ -1882,7 +1971,8 @@
         "websiteUrl": "https://galeriabrui.cargo.site/",
         "googleMapsUrl": "https://maps.google.com/?cid=1210825672631784115&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJN0zo_AArQwsRsxIktoi3zRA.jpg"
       },
       {
         "id": "ChIJe2Gab_rVXAsRXnFQprboMfc",
@@ -1903,7 +1993,8 @@
         "websiteUrl": "http://www.expolab.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=17812273872399003998&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJe2Gab_rVXAsRXnFQprboMfc.jpg"
       },
       {
         "id": "ChIJdQJCeSfXXAsRjOiur2p2apQ",
@@ -1923,7 +2014,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJdQJCeSfXXAsRjOiur2p2apQ/photos/AcnlKN2lCRrU2dN9SRTlfw255mJXH-zjbCCu-xd56Tiig46Hpsaoa1e62MUmeCHmlmBT8mp_BIhnEQBODiQ1Y3SoeZt1BD4BxytSeJUoqYnPdK00GcsEZCuRUOS-J3WIX496qjt4W7vUUdorhvLGF_be3G-2y58qAUIt1CFBaaIvlp1BTXHv_608KhRz1IioYm_bWawz_9tPHDtqzXqWfPlUEaJa2U8vCfuZn4AZv6GCtseXTMs21E6TfZPG3K9EJ56ps0JzZBrcUUq2e9UV90pO_Ph38zyMWxtmQpSr2a83N6aNybqgR-pbkUcWZgWIhTg0YSi-JiQ3xVH8fPd51yTyrMjXJ1Cqscjeubq1hj0xwDufA7JgBrzeDZUmBLTOXPMD3aEE2ygda_3gkW-D9cEMzQxnoIb9JVgAmmi74Ycz_O7TaCo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10694490465730750604&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJdQJCeSfXXAsRjOiur2p2apQ.jpg"
       },
       {
         "id": "ChIJwQ5XG4vXXAsRSfLySrWH2B0",
@@ -1943,7 +2035,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwQ5XG4vXXAsRSfLySrWH2B0/photos/AcnlKN26DkyMWZv6EoUAyElq5x3vkQ7o3XBOGKIjLQpLltWaFk3w0zU1_5vnHhyplsj0upG-9ySIn2bkv0fD00F0QE8BOGFRNyXxsYp9r6eTLqdrXNSmK3MdoAv7XkAhG-dWenAx1F9sMcWvupLhx07udbn_qBgKbHGhVvtmQ37sph18o5X5klt8eDL34l8TArzyT1lnT8RIuhA_JidCd2qvinBwrCHpdOGa8cNBIdiRL3w78hrtEJm0EFqd_0T76bBPuw_OZpQZCZm4bX1VIIItdr57dR849UakRbvCwZmehOkr8k-capU4FqxG4sCiTCEZ-5l0SNaOjNIrZlcKJIRPwOwRtraoZIXgVCUkaHzB7BEvXLRLvX0gz-zk7lk6sB9FnoXJpvZ3yBcQflT8e2EfQ7zWz4ffSEdBy1kTpaGSzWLXqQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2150618034785677897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJwQ5XG4vXXAsRSfLySrWH2B0.jpg"
       },
       {
         "id": "ChIJETqXrgLUXAsRj10J8bQ4tM8",
@@ -1964,7 +2057,8 @@
         "websiteUrl": "http://oasa.centrosciencia.azores.gov.pt/atividades",
         "googleMapsUrl": "https://maps.google.com/?cid=14966649811448192399&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJETqXrgLUXAsRj10J8bQ4tM8.jpg"
       },
       {
         "id": "ChIJ0X_tw9QrQwsRfS2lVA9JWwE",
@@ -1985,7 +2079,8 @@
         "websiteUrl": "https://www.uac.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=97752147112045949&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ0X_tw9QrQwsRfS2lVA9JWwE.jpg"
       },
       {
         "id": "ChIJffVJEbcqQwsRAcCxVj8bkBU",
@@ -2006,7 +2101,8 @@
         "websiteUrl": "https://www.exercito.pt/pt/quem-somos/organizacao/ceme/cft/zma/musmil-a%C3%A7ores",
         "googleMapsUrl": "https://maps.google.com/?cid=1553771830294200321&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJffVJEbcqQwsRAcCxVj8bkBU.jpg"
       },
       {
         "id": "ChIJxXT0bMkqQwsRXXqOcp3J8Q0",
@@ -2026,7 +2122,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJxXT0bMkqQwsRXXqOcp3J8Q0/photos/AcnlKN3KlwHO1qMWzSLmBDWEb-f1gCWeDhdZxZFkHv1DUHiVFhpGMqUKkIZGWU88vnqBtuPup0TpjnCVh1smpPesYP2rMomyYeRaTonkuH0e2funYRD1bC6A6rJuZ7TXXnUxEzsFdaX_hR5snyrR33MAA-vznpibOpm1Oi_1WyXW73QwbWql16eqmNCDOxy8jnzZanlbMcG_-ZVHP-nh84qEjxAQDGb-7Cd7heSLGN6boL0pLodPz46lpV2tw2uDY6lh6GSHXa64RDVzP2oK4pBLo8C3GdL2VCKiN-YxDMLddax2aLdbDiBZ8zRCgOZ3UEjLGdbJPYFWbtY3eFzLxzwTwgJuymkzLSIv2_ohRytb2mmVEYvubUjTQU6DmV7L1vVn0Mi2Faif2knKgJeHpwS6xQ3STyJDDSTzjbJfJx6_wmEXIg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1004805869949319773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJxXT0bMkqQwsRXXqOcp3J8Q0.jpg"
       },
       {
         "id": "ChIJJ_5V_sMqQwsRyO-AxbNDkGQ",
@@ -2046,7 +2143,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJ_5V_sMqQwsRyO-AxbNDkGQ/photos/AcnlKN248Fw_73w5QOBgsr16O1T4yEM83KXO9tiUHsFnh2o_05oBQV7ye_EqJwNS9Azwecdq-nqqYiLUwlUtaZp5r18dvCHb2RnOwCblmB9UmLdoosHjV-iX5L3pEiayFCVWVkl4U6FPTcsiTkZjPBmseHyd7IFjP95pxzgzAWG2K5FR5Zlyx87U6aiO02X9xTc6iilBtOIBM72GXwVJMFYQcu3v6zVIpjn64MqMwyvphJvKIFqox8oyh8AZ-y9x3-NUrK_Z958c6QTMZpaHpkE2Ys3XT4TvzhVE9Z4MGvhRqid7BwQ1bB1iaCbyIIu8NmhIhdUvtdRlpf9urY86n8dEi_U95DdF3BogB2dL7B0RGMxHLzD-oOJ_f5aSU4vR7NbPjhPYmv_s5VjzcKvszdPZFLAHr0BwL4wzdT6ehTbeU4lg5xM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7246366239830896584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJJ_5V_sMqQwsRyO-AxbNDkGQ.jpg"
       },
       {
         "id": "ChIJjd3AltnWXAsRgULuzHH_vKM",
@@ -2066,7 +2164,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjd3AltnWXAsRgULuzHH_vKM/photos/AcnlKN0s6_183UsyfVtkfflRglFPNJQqkr4Xwc42C1UaxuS1Tz6csx3I82c5DN3SLzZYO-k-opJLvfnXjT5qWDSsBY2jqHMvAqMJ4xwJ-vSsvuG1PfeH9mgJqM0WZMfsq8evrQjlDiCOPYKb03v73yRh4MluAKxj0lJcIxiBAYHA6u3Ug6TKfLSHL7cMoZNh0cuz5Rgz-e-OCckQidFnTmPwzSypw66sYflgUz8SLy6hc2LLA8iy8Pe9PFi9SheYNuYBdF4M_wRHkjgVir-17Sn2JpGRUWL8nywFlNA30mthA1Pndoz6l_v4StAzzQEVgaviFuxfGOOxpok9hXrZSqv4IIUbqrfzZ1tY7TVKWMKPlkAIS37S2RqemEhn1Tgjkwb7WnIhNPbT_kL9QBusQHY-HTTIlOFtkvdy30MtiYxuEQjfO4yt/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11798585988038410881&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJjd3AltnWXAsRgULuzHH_vKM.jpg"
       },
       {
         "id": "ChIJfT4Rgb3VXAsRANxgoVYYNJE",
@@ -2106,7 +2205,8 @@
         "websiteUrl": "http://www.fonsecamacedo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1116728902929200454&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:05.103Z",
-        "updatedAt": "2026-01-23T15:29:05.103Z"
+        "updatedAt": "2026-01-23T15:29:05.103Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJBZUajP7VXAsRRrWBQQVrfw8.jpg"
       }
     ],
     "relaxation": [
@@ -2129,7 +2229,8 @@
         "websiteUrl": "http://www.visitpontadelgada.pt/fazer/visitar/jardins-pracas-e-largos/geo_artigo/jardim-botanico-antonio-borges",
         "googleMapsUrl": "https://maps.google.com/?cid=7878045373091884854&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJmyEYucUqQwsRNi-N84ZwVG0.jpg"
       },
       {
         "id": "ChIJDTWRhkUgXQsRH2Ivii7cgVY",
@@ -2150,7 +2251,8 @@
         "websiteUrl": "https://www.parqueterranostra.com/?utm_source=google-my-business&utm_medium=organic&utm_campaign=parquetn_gmb",
         "googleMapsUrl": "https://maps.google.com/?cid=6233505451702444575&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJDTWRhkUgXQsRH2Ivii7cgVY.jpg"
       },
       {
         "id": "ChIJ3WK8357XXAsRJmCqKX7DT8Q",
@@ -2171,7 +2273,8 @@
         "websiteUrl": "http://trails.visitazores.com/en/trails-azores/sao-miguel/caldeiras-da-ribeira-grande-salto-do-cabrito",
         "googleMapsUrl": "https://maps.google.com/?cid=14145739901226344486&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ3WK8357XXAsRJmCqKX7DT8Q.jpg"
       },
       {
         "id": "ChIJzfuqd3bTXAsRI0PodnvY_XE",
@@ -2192,7 +2295,8 @@
         "websiteUrl": "http://pedrasdomar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8213959320181162787&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJzfuqd3bTXAsRI0PodnvY_XE.jpg"
       },
       {
         "id": "ChIJa8HXroTXXAsRLVZsLaKOCOU",
@@ -2213,7 +2317,8 @@
         "websiteUrl": "http://www.verdemarhotel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16503597661697103405&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJa8HXroTXXAsRLVZsLaKOCOU.jpg"
       },
       {
         "id": "ChIJ1_6FVyYmXQsRiBvZiD8MaEw",
@@ -2234,7 +2339,8 @@
         "websiteUrl": "https://www.pestana.com/en/hotel/pestana-bahia-praia?utm_campaign=pestana-bahia-praia-partoo&utm_medium=organicsearch",
         "googleMapsUrl": "https://maps.google.com/?cid=5505664011478834056&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ1_6FVyYmXQsRiBvZiD8MaEw.jpg"
       },
       {
         "id": "ChIJMy-WqerUXAsR8zj6B8VC_CA",
@@ -2255,7 +2361,8 @@
         "websiteUrl": "https://drrf.azores.gov.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=2376848117354608883&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJMy-WqerUXAsR8zj6B8VC_CA.jpg"
       },
       {
         "id": "ChIJOe98cNjWXAsRaiQz3smff-U",
@@ -2275,7 +2382,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOe98cNjWXAsRaiQz3smff-U/photos/AcnlKN0c5uZ_EvFQRtAUC1SdsLUySffPMkCLE0wZg6YUF_kTYfssdOKylG59POypNtwjTPbcE94wHmBMQ4yfPx3Um2FMRpZNQ320bv1NJs2UHK3orVFGUSL9otmqLyKkxsM10IxY7cBBWgSNmmMDOtDQc9oGQ_ypVHgXfhNRVjYKKeh6mJwAFqcw4V-PeDx_VQlFsJHliWsO_D4SCODT6lyWW_P6OX7Vvjz-4nUKKhe3zp-JJHZdZLmzueQ5gc7txrF9PkZpFBrcEDami-iv-xhu0xrRfh9azaurCPUnk-hRfo8DYjrApKO5mb-adAzrjrfjHXFvOg0z6aFPeIseGzsxTtsrEaFVo_pRcFEgxbC5wdGNrznSSGgiGQ7ALHIIkJM76UtEeembsD8dpOP165GYipzDq0Mts1vMiZSYulmoLX-3-otC_iV72wQMQdfExA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16537112046092887146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJOe98cNjWXAsRaiQz3smff-U.jpg"
       },
       {
         "id": "ChIJIY7knL7XXAsRPSvliPHnf8o",
@@ -2296,7 +2404,8 @@
         "websiteUrl": "https://parquesnaturais.azores.gov.pt/pt/parques/9/centro/21",
         "googleMapsUrl": "https://maps.google.com/?cid=14591636342273551165&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJIY7knL7XXAsRPSvliPHnf8o.jpg"
       },
       {
         "id": "ChIJq6BqxUrVXAsROeFrqMle_O0",
@@ -2317,7 +2426,8 @@
         "websiteUrl": "https://www.bensaudehotels.com/hotelmarinaatlantico/?utm_source=google-my-business&utm_medium=organic&utm_campaign=hma_gmb",
         "googleMapsUrl": "https://maps.google.com/?cid=17148685701327085881&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJq6BqxUrVXAsROeFrqMle_O0.jpg"
       },
       {
         "id": "ChIJSzAbDskqQwsRLEHw-tX543g",
@@ -2338,7 +2448,8 @@
         "websiteUrl": "http://www.visitpontadelgada.pt/fazer/visitar/jardins-pracas-e-largos/geo_artigo/jardim-antero-de-quental",
         "googleMapsUrl": "https://maps.google.com/?cid=8711080801698070828&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJSzAbDskqQwsRLEHw-tX543g.jpg"
       },
       {
         "id": "ChIJg9oCnpzXXAsRXkLjnpoU7Hk",
@@ -2358,7 +2469,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJg9oCnpzXXAsRXkLjnpoU7Hk/photos/AcnlKN0e8AKYvOKFeLYXUFjWK1X-yPiRcDol3PK4paIhj2cG-LRPP2ho5htBjmbfLI7ALeMXyB12OD60fta8MSDwOJLelwyWaObMO8Xl-Fg2B204M2jtxa2ywaY9WF_7mBwD6hGY-VOEkj__pizRfsKiRawlbro4Cory_ynv6sIW_FPQU58LE95xmR9bzyavjaYr5QasnDl1ILF6ZZ4pNhB3X-LZZXo2pRbR449X8HrbAOpTHIFulL0gJHJfuQyrcHvNdj3dwmfAWqR8EPtKV9ig9Y9BgCmgTZEeNxT9ZAP2fUkxyQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8785419627416207966&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJg9oCnpzXXAsRXkLjnpoU7Hk.jpg"
       },
       {
         "id": "ChIJuR3WQM4qQwsR0ouKvXS8iMU",
@@ -2379,7 +2491,8 @@
         "websiteUrl": "http://www.josedocanto.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14233833831886654418&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJuR3WQM4qQwsR0ouKvXS8iMU.jpg"
       },
       {
         "id": "ChIJjzlOty8oXQsRrvaS8kLbEqk",
@@ -2399,7 +2512,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjzlOty8oXQsRrvaS8kLbEqk/photos/AcnlKN0ynOQvEOLlHW13IPT8xPrMH2ZJ7A0fkOdJjfWnUBWeQeAuWW9HewVYpWDnGDJzdMU89w-13vc50pm_uvza8G6HsSv2i11mr2Cu5CUJBOQ5taz_18sOFCkGr_R__Cc9_sMIHDpEPb_WUvxmzb-K8km_ocLNVO2eVaK3U38e5XOvfpLa_QSZX0HbloRBjILTb3AtizGPgYUoi0XBO0E5Lgb1tDCaM1qb_R_4EsCVIRdrN3UwNiOXKfCMgHK-_xLyF4Pmr--8scf7sC-wNKWYRpDmjc8OHp2ctSljP_SSuOIu7pIXLp5J5BMw5zvnsI1Nza3wWb0AChnm6R8mNnn8OAiPnMLlpaCzeO72pHHCwChBFrTra-fR24opctK4ZDJaxIDJQtU1ChVzZBaEWIDFcq7T33aiqxe32MrYJmbEazquyw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12183041022574655150&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJjzlOty8oXQsRrvaS8kLbEqk.jpg"
       },
       {
         "id": "ChIJb04SORPVXAsRLxSAfEcvIao",
@@ -2419,7 +2533,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb04SORPVXAsRLxSAfEcvIao/photos/AcnlKN1liM4WqRW27BhWJ4OCH2HiecFWTYh53GKz-aJOLmHtkFHcA1SvHUYy5tgoEgdDZVZM5ojqmjWW6BcuxgEgW5D0f2y0TRqpSSjRMKSKR5C5KRaDFYPLZWxsw5F3ltM5Gl9anB7NwCFLtNUtq8NolsHGyNusqBp4EjMjxE4kYbxIeSQ5-Dpf5KTL2QRL5V9YoBo0DPJoX70VHAbSqzx-1_j0mdZm8MWds_6PxwSb_69QMel8LHhhqgDTrQC4HhVuZ9M0_7zu2Ix8ie3F4a7cULANH4NPtb00yDVzi2C-GSDRW6jYE9NLemb5b-imeKVUuch-t4iZ26YW4Azj3AdUO_o4ujQr7wIZ1AHw3qxoFBpjEU2fwpIiT79uZMIdNcD03x9HzfzpGpXZm-_mb8z2p8UFjzflIcHGqCtBwqVWpargDjb36w_-PQRiQYE8qmAh/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12259131644757152815&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJb04SORPVXAsRLxSAfEcvIao.jpg"
       },
       {
         "id": "ChIJ2VtT0IgdXQsRiKJPMDAkYcM",
@@ -2439,7 +2554,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2VtT0IgdXQsRiKJPMDAkYcM/photos/AcnlKN1qV0u4Yp7-oSeLDxffHKtA1cE6PlCaHL8UBJG367S5xFCSNgvmCY8mg8fSj1mo4k_LUnZG1xUkXbjzWMHiUMJCrCx3gG9JwmbEV3M--GKAu5l97B4bBOoOQCbBGlSnRpXsQP-gS38FnHUF3rkxBsHklKof2XgfeDjZrd6ZlX61Uvf21dKyP8gbHdbo7HIXTusDedfA7AEWfbX-FYcvlwmid_A_LQdTKQoAy2I8jWDXFT-hc90SAc3r0COxBTZ5owoIOxrkYQ828HBrDJ9PTZF5Xf1KgkP8VumE82-8wZj0HI-ZdRSvQ-R9LqXV8b0GfVdorzy47rEUWZmPAOVusDa5CzdZDl5FWnEIjSDm1D78CiMfJtdK0kGAWqRXk-yzl2ARxfNwLLvz-k03gxWAVjmmqvqIYNjKxYdktA0KKzEJmzG9/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14078573699524436616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ2VtT0IgdXQsRiKJPMDAkYcM.jpg"
       },
       {
         "id": "ChIJ_Y7Q2KohXQsRkvcdn8RSTV8",
@@ -2460,7 +2576,8 @@
         "websiteUrl": "https://parquegrena.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=6867236011246483346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ_Y7Q2KohXQsRkvcdn8RSTV8.jpg"
       },
       {
         "id": "ChIJwaJCwC4mXQsRaA1c6npn0pU",
@@ -2480,7 +2597,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwaJCwC4mXQsRaA1c6npn0pU/photos/AcnlKN2eC_COqZXvjWFJgn7KRVeyCl9o21qJ0CeVkPp7hjuXJc239CfYseEOH82jzJnUtO33MyM7KTBGwbGJbnOxiWWZ45jf3sWZRn-Yn0YNOniHWLfUfMYUfwd0Ys0NGBFAdCXoXa06dH0Ho9sWEIuP-WeAqRtnawwjP39UIeKQoxQPmj_mXpsVVAQhGz9Ug-O_mwIP4BQDvK_-o1XpQhIt1ZogpuB4YsXUmcp2EV2TvdTD5016hQTt1imWb_tOf17_lK0QLxzMX-4W4Dz9mzJ2CRoKZa3IGfbIlHcZDepSS7U2Rtcxa6wb_nNX5S8eIOMh8PFOlqpQ2Wzo_9u0MeGOsTUiz43Xg_PKYRxZIAZ0Ek0lQrn3sopKg9VRNtKvnRD8YW76knlu1iYxXfLkLF2hbpa4Y2NqCV8KNAMvLxEZD_5JpQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10795805034376072552&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJwaJCwC4mXQsRaA1c6npn0pU.jpg"
       },
       {
         "id": "ChIJiUtM9EjZXAsRMk-LazAJjkk",
@@ -2500,7 +2618,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJiUtM9EjZXAsRMk-LazAJjkk/photos/AcnlKN22QNmmcTfOAfKff9cCN2PpZaTKJB8MbF3T42K_Ge2kMVJUo89fHg6Azf_Lsbh_pqqhCbTVKW4pObs8f8gdg52Rd4Cy0_cnCfYQLPf7yPsqs8PyedUTQOblwN4Xo_iFt9TGTeM8zkG3Tn4kCATM43lM-tlD2wOVxrmmZghm1Jf50C-5I-2u2CM2k-8WC4zCK4pNc2b3aMTOMj0G8oust9_4vaZxmiPQ55l9VBVDyAJhzUZsRNlFTPLWUSZd60_PFNOMGVj4xFsF8k6eAF8mcVCdxJHK4hxhec1KK-CLdmcfWNGI9hP8tSTo7Y03mn9b5iP6HGLyjVWsaIlUgrSfnBU6qCbdZzHrbnIjlH3kI_xK0DzvdvD6YKAuX7DCTEI7JPoS7mnNCbuBQ75VVSrVwxtjAghXTv6NYJFzmiTAgDpDXKU51W9goe0umNeFQg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5300183915029024562&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJiUtM9EjZXAsRMk-LazAJjkk.jpg"
       },
       {
         "id": "ChIJ_eEnPNUnXQsRRKTtO7sgNPo",
@@ -2521,7 +2640,8 @@
         "websiteUrl": "http://trails.visitazores.com/en/trails-azores/sao-miguel/praia-lagoa-do-fogo",
         "googleMapsUrl": "https://maps.google.com/?cid=18029071196807341124&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ_eEnPNUnXQsRRKTtO7sgNPo.jpg"
       },
       {
         "id": "ChIJ3z2QoxzVXAsRbdBGnvYqLUE",
@@ -2542,7 +2662,8 @@
         "websiteUrl": "https://azoreshomes.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=4696457225123057773&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ3z2QoxzVXAsRbdBGnvYqLUE.jpg"
       },
       {
         "id": "ChIJB-tzCbYqQwsRBH5qTGBgJJk",
@@ -2563,7 +2684,8 @@
         "websiteUrl": "https://infantereal.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11035050953679732228&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJB-tzCbYqQwsRBH5qTGBgJJk.jpg"
       },
       {
         "id": "ChIJWxuOq_7VXAsR4Nx9gSctJNs",
@@ -2584,7 +2706,8 @@
         "websiteUrl": "http://www.spavital.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=15790795841167285472&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJWxuOq_7VXAsR4Nx9gSctJNs.jpg"
       },
       {
         "id": "ChIJBUmlLAPVXAsR7hHCGncCUpk",
@@ -2605,7 +2728,8 @@
         "websiteUrl": "https://www.hilton.com/en/hotels/pdlladi-doubletree-lagoa-azores/?SEO_id=GMB-EMEA-DI-PDLLADI",
         "googleMapsUrl": "https://maps.google.com/?cid=11047895546466537966&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJBUmlLAPVXAsR7hHCGncCUpk.jpg"
       },
       {
         "id": "ChIJuXgz9_HVXAsRTEOyFkFJW4s",
@@ -2626,7 +2750,8 @@
         "websiteUrl": "http://www.jardimcampo.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=10041700338055136076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJuXgz9_HVXAsRTEOyFkFJW4s.jpg"
       },
       {
         "id": "ChIJtTZzpJ4rQwsR1TWn6QUj5Xg",
@@ -2647,7 +2772,8 @@
         "websiteUrl": "https://sabaidee.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=8711407562519950805&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJtTZzpJ4rQwsR1TWn6QUj5Xg.jpg"
       },
       {
         "id": "ChIJxV3_07cqQwsR0fi4PX-mDIE",
@@ -2667,7 +2793,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJxV3_07cqQwsR0fi4PX-mDIE/photos/AcnlKN2uqkVepwKKn-QGMVvenFW2bdzL7OW4Hp8enn2e_SL8Gujn3SAQZ_wUB4p56entx4PMkJTZ0yGQS3DybQGq1TwGdpEe2qbwAu-OEyb-FUq3-1RsqnwABlrw--8aalG7YsNFKRLm7UfikdQgpR3SRG8W7_CfsQmRC_YoD8XBfIwIzDnjwQnEKK4hXh8G9o_UeoeFIZML-tIJiG7q0yEr36Y62nVbii0eIEsrO3CMDaowXpNrNAiBwEYzX16Wkyi-ibFzBmRgzwI3vuV4MIlmPp2rVg_PYVMTX4yCbbtykpM6D8wI6ECgQ8L80Nrq6Zpcvz84alHFpqnIT5hegQCbdDWFUl4fBcN2xvLZUst1wek1nEuCrWkUl0LH4jzJ02aeYtq_NzGEGRbvjATPK8sqRyNe6sYzNkOp-UvxBcyT_PyQQcYO/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9298990396039821521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJxV3_07cqQwsR0fi4PX-mDIE.jpg"
       },
       {
         "id": "ChIJ2QgOMBjZXAsRSsBihTUsXl4",
@@ -2687,7 +2814,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2QgOMBjZXAsRSsBihTUsXl4/photos/AcnlKN1tqVLFDlBiN_k_pGrCE8g_kbEl6A88u-r0d0IYkQJhWV4KV38obEIVyXhmtBn4Uc09zoghMeCGRlli6f1IrD-hqBZQdUSmbVWKwoT0cf5uIKW1MiHymiPiJQZknKJvFIXUgxd5Q8aLgB7ZkJv8kSLL6MGQxi_I0SMtYToV3Vknr1DGIig2wjexhik5ZNt-vP7jsVXmUVj6OyFF3PlwCey71ZiXh3I9XxPmLZKAhOsL-kfopjD-uHvaVKavvznwlVafL7VbwHFbH2lxTtO8RK9y64oUCBFNThmovfs4YuwosG0dbGLYBNUVRBbmkgXxOu9LM8KXvyv-aPkzLX5_p08_a6LZ5_DjIaOH03axfdOVvim2n5zbocrBGfcRCTu9g5yJnbFJIP1l1xwmhLrKHJYXeNRh3PKp8SARAbwb9Eihow/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6799921095758757962&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ2QgOMBjZXAsRSsBihTUsXl4.jpg"
       },
       {
         "id": "ChIJnQk_RBQrQwsRv_uNruTD_n8",
@@ -2708,7 +2836,8 @@
         "websiteUrl": "http://www.azores.gov.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=9223024473849854911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:06.955Z",
-        "updatedAt": "2026-01-23T15:29:06.955Z"
+        "updatedAt": "2026-01-23T15:29:06.955Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJnQk_RBQrQwsRv_uNruTD_n8.jpg"
       }
     ],
     "nightlife": [
@@ -2732,7 +2861,8 @@
         "websiteUrl": "https://www.facebook.com/barcaloura/",
         "googleMapsUrl": "https://maps.google.com/?cid=9963969333363809561&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJPSm-2IwoXQsRGR0JPFEhR4o.jpg"
       },
       {
         "id": "ChIJOW8P_rUqQwsRCO68QGnYG5M",
@@ -2753,7 +2883,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOW8P_rUqQwsRCO68QGnYG5M/photos/AcnlKN3ybhaHg-zCGWMDcEiwuhFRB41qOg300-JE_Qf2Vq9oHD5Y7aRjyw_SD2wgCf5lPS9hpTKtm55TDFamfdZ8Mr5GBD6SytC70rsJvnYaZr205dLG5efKAlCQvpEjM-uR6nUcCapIJyq5-wTbuJ88S6fA2eBXKl_011_a0YrB9aAXZRSwd9_Z1cO6oWT9T9HjLvisb8_JHN_NfO3Jyf0whxX8R8Fa-jUJxbCILm5KuqQuAvL4_nGuhIeWOqInHmlv2Zcx4SmFYk9bfjIn3kQTE4b22p8LUQuldGFV1X75_AAzUQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10600304094515883528&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJOW8P_rUqQwsRCO68QGnYG5M.jpg"
       },
       {
         "id": "ChIJXVgpLrUqQwsRyKl_u4eFVoU",
@@ -2774,7 +2905,8 @@
         "websiteUrl": "https://www.bensaudehotels.com/grandhotelacoresatlantico/?utm_source=google-my-business&utm_medium=organic&utm_campaign=ghaa_gmb",
         "googleMapsUrl": "https://maps.google.com/?cid=9608013673054317000&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJXVgpLrUqQwsRyKl_u4eFVoU.jpg"
       },
       {
         "id": "ChIJ1yPkMuTVXAsRWRdiE8x82ZE",
@@ -2795,7 +2927,8 @@
         "websiteUrl": "https://gin-library.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10509568421386131289&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ1yPkMuTVXAsRWRdiE8x82ZE.jpg"
       },
       {
         "id": "ChIJW-qGMvMrQwsRP361qamL6WM",
@@ -2816,7 +2949,8 @@
         "websiteUrl": "https://wwwbar.de/resves-street-bar/",
         "googleMapsUrl": "https://maps.google.com/?cid=7199439040141426239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJW-qGMvMrQwsRP361qamL6WM.jpg"
       },
       {
         "id": "ChIJ5a4bU0orQwsRpKy1FGPixqs",
@@ -2838,7 +2972,8 @@
         "websiteUrl": "https://linktr.ee/tabernanaboavista",
         "googleMapsUrl": "https://maps.google.com/?cid=12377829541051477156&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ5a4bU0orQwsRpKy1FGPixqs.jpg"
       },
       {
         "id": "ChIJtWj8xsfWXAsR4IcYrWBqZ5o",
@@ -2860,7 +2995,8 @@
         "websiteUrl": "https://www.facebook.com/tukatula.bar/",
         "googleMapsUrl": "https://maps.google.com/?cid=11125978367895570400&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJtWj8xsfWXAsR4IcYrWBqZ5o.jpg"
       },
       {
         "id": "ChIJq6BqxUrVXAsROeFrqMle_O0",
@@ -2881,7 +3017,8 @@
         "websiteUrl": "https://www.bensaudehotels.com/hotelmarinaatlantico/?utm_source=google-my-business&utm_medium=organic&utm_campaign=hma_gmb",
         "googleMapsUrl": "https://maps.google.com/?cid=17148685701327085881&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJq6BqxUrVXAsROeFrqMle_O0.jpg"
       },
       {
         "id": "ChIJ21gr9skqQwsR-84DQaJDtjo",
@@ -2903,7 +3040,8 @@
         "websiteUrl": "https://www.grupoanjos.pt/places/cantinho-dos-anjos/",
         "googleMapsUrl": "https://maps.google.com/?cid=4230643264115691259&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ21gr9skqQwsR-84DQaJDtjo.jpg"
       },
       {
         "id": "ChIJb5wnHHXVXAsR29f5sf0bQS8",
@@ -2925,7 +3063,8 @@
         "websiteUrl": "http://www.sunsetbeach.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=3405033569695422427&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJb5wnHHXVXAsR29f5sf0bQS8.jpg"
       },
       {
         "id": "ChIJV5FDADzXXAsRmoRV7qD3INA",
@@ -2946,7 +3085,8 @@
         "websiteUrl": "https://www.azoresbrewingcompany.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14997259029709161626&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJV5FDADzXXAsRmoRV7qD3INA.jpg"
       },
       {
         "id": "ChIJy9j5138rQwsRqWcyLTkx6dE",
@@ -2966,7 +3106,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJy9j5138rQwsRqWcyLTkx6dE/photos/AcnlKN1-GNrX0T1mJVCjo0sHCO3LdnWG2Sx4LxmQgbYAwaef0Kdxby7BAJi6j0Au82FxmECPGy_Pb23w7CeLOpSnQuNjhvLrBKZFRub-RTwd_dPD2ptQyGHOvwhieYcsvNED6nTCn7c-W4Nl8UjpUIzlV5C9e5gWo3dbtcmjzSa2MVSIG4ngtX9yCGaF5Ur1kUi839issHhqBt8vleIpVg3Y0hoxPnF7eiVCbl3_Csqmt5RIbrNsrk-ltPBiiKUI22COkOhYLRX8_3081Ns0XhACemL1W3ffDauSlBldaxLWSduzJg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15125674945141696425&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJy9j5138rQwsRqWcyLTkx6dE.jpg"
       },
       {
         "id": "ChIJU-jF_rcqQwsR9UW2vx16LdU",
@@ -2988,7 +3129,8 @@
         "websiteUrl": "https://www.lavajazz.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15361068172219663861&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJU-jF_rcqQwsR9UW2vx16LdU.jpg"
       },
       {
         "id": "ChIJEZDfi7YqQwsRIBRzuD5Q1T8",
@@ -3010,7 +3152,8 @@
         "websiteUrl": "https://www.caisdasardinha.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4599670824741573664&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJEZDfi7YqQwsRIBRzuD5Q1T8.jpg"
       },
       {
         "id": "ChIJ9deNoEvVXAsR53FCQOkNVkE",
@@ -3032,7 +3175,8 @@
         "websiteUrl": "https://www.facebook.com/bardopi",
         "googleMapsUrl": "https://maps.google.com/?cid=4707965755919069671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ9deNoEvVXAsR53FCQOkNVkE.jpg"
       },
       {
         "id": "ChIJWefmM_vXXAsRs6ML0B7LkGo",
@@ -3053,7 +3197,8 @@
         "websiteUrl": "https://vulcana.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=7678860697866576819&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJWefmM_vXXAsRs6ML0B7LkGo.jpg"
       },
       {
         "id": "ChIJK7qWT6fXXAsR-oP9SNl_Ixc",
@@ -3073,7 +3218,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJK7qWT6fXXAsR-oP9SNl_Ixc/photos/AcnlKN3_IRUMDONV2Ba2Nu67iyAiy51Jf27rwzU97kZ6WuPEyDygDxFLUU2G05L71_yAcIJINo__adPiNN2mNsiB90ib-bROvb8R0ADnGBIuSGk1xIxJxCt51xXZckspXRc_pK6y9lDfNVuLS7YXvxKcQRAnt71KcsjW2IsBvLLkLfNaJHA4cePNveC4Q8KByzrKK9EECulGcBTtxLZJcqOY8zV9gh7HGilfE3qYxnPK0jPWuriTrVpH6hwXwlSzWiLQVG7_mhVLrxrPaL4u8nQ6cE_UARGYK_Gx_i014HSX38wchw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1667316858266420218&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJK7qWT6fXXAsR-oP9SNl_Ixc.jpg"
       },
       {
         "id": "ChIJC6dr_rUqQwsRCT4YViGADOQ",
@@ -3094,7 +3240,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC6dr_rUqQwsRCT4YViGADOQ/photos/AcnlKN3wXGrPzZR0AAQ0640Ry2IK6swRGa7VR58LYk-22QgBPMefexzugKtoBOxemTBnytPfCfHXhjwntMoO4f1oCh9ip0V5plJwse8KxtTGumqZ1L1J8_dnicw1-jCMiFbQ61789DGkyXkoINaJn50PuQd3IRyRZT8zDTtzEyDA6YND2ZnPSBDKNprbZgJx4XUJjRnt0H5Sja760BqTkKyzAJ_YaXzaSFhH790jqcOwbzWzslqaIjxXMkMpJV2sWaZVzYEpkmpYmlCQFhupY7WKyr5wp3BwBRF6knCOS8EBAreeNBeF4kTqOFX-aDDeq6-D7otUTmiNyJqhDzFFDnRHvDARS5KUSYosVXC76Tagbw3GAIoKzS9jTaHBedwK5Gy2qUsei1k6EifZAKRVcaXoJpUrWEME43lhePWPqUfpqqsdf5s/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16432650021034802697&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJC6dr_rUqQwsRCT4YViGADOQ.jpg"
       },
       {
         "id": "ChIJh1mbhEErQwsR6gwe4yH2j_Q",
@@ -3114,7 +3261,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJh1mbhEErQwsR6gwe4yH2j_Q/photos/AcnlKN3er67rHm5BieOuTiRZWSjqRoa_hHjrOWt-hPymcdTnqbBXUlhzThy6SeViHgv53vyHkJLwwlNw91jZRbaFY9xsJ-UA_h77VcZVC0LWBR7RUddDLye74wTmvsBQCrSfY6h7HfoEXQVP5Ew4efw04f-6b-_eEHRwZy3t6_mxGKsevNSK2fgxvpwd_8qATa96qNrq0f8TkflIZhpcMXWqDVdRg54fuiQuMKXae6D2ihWMsQaPkFLvTV9jKCdYRSa3olJP9Cb7H6ZB5Ag930QL6WZ4YMR-qzDEg3lQdY0dvJwWmg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17622574492328791274&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJh1mbhEErQwsR6gwe4yH2j_Q.jpg"
       },
       {
         "id": "ChIJlXYKnWfVXAsR07uiXuNBKKM",
@@ -3135,7 +3283,8 @@
         "websiteUrl": "http://www.portasdomar.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=11756719272051784659&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJlXYKnWfVXAsR07uiXuNBKKM.jpg"
       },
       {
         "id": "ChIJbejN85fXXAsR0YFyvTANE9E",
@@ -3155,7 +3304,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbejN85fXXAsR0YFyvTANE9E/photos/AcnlKN0SzjxMtXuIxxyWdM9z4aNOgffXZYMLYCzRq5WLmN7uZ3TVRkhQAE-7SAEgh8AbYObYJwfIDcjhNVT_etf-xknCotF7DcyEr1GBmOGKXyke9jmY-o6nShTj609QXTeMpv9ZTliNLJhGjuAsuLIVLQPNb109VZSlaQ9S5iISyWBXnxWHBWDzMTfTA2rvPktRUwm89k098mVa03htOEkYKUbu4an106dcGHNiAx3jamSidluGWvK5AVneZmsjrt_y9XxT2ciB7nvCNy9-pXGXocLqY4lZCI5IceZniD8f2UAWB8GImqWi3RGUAZHthyhh64D8taQg10yYw07EK8U8X7nTYsQ0vnBfIFiL3Hg4lJyxjI8hVhVm86lPmyEhUJ52ettuLYyokvkHOs1qwwQFiKQ_nnA4X-8_QWpe4xzg9lbWhxLs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15065399681472430545&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJbejN85fXXAsR0YFyvTANE9E.jpg"
       },
       {
         "id": "ChIJkQIvh8oqQwsR_Xs_gtUPP4I",
@@ -3175,7 +3325,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJkQIvh8oqQwsR_Xs_gtUPP4I/photos/AcnlKN2hnbb_El3EV8n0PF8T_7MqSdZva44kOlFk0vk5SPoYE3nZWILYW-jxh3T9MtNdXNfJmjF55JDtu3IZQJsVXemwTXh-ijHRa5ne2vH_xO2SrrQx-gAXTUx14NCwlz8FNyNfS3yRwlcnKx_FPPsxHPCzKO4M2NVY74g0y4mmuO9ae40iV1hYN28RTbVxJruVBKboTXNKtK6KsarBXNF3ZeAtAqRH9q26i3Muq_x2ALWm3qAI_vJdMIcDxGmtTy-X_PPO0raYyI8aaGX55Ztob9aGTdJ5v4lg7-bdxGvdmOBeL_AHAZFVRLEFEb5uUU2Ol75mkIbZCr_GxEOZw2kgKJYBdzTitEDmfL24oDuoAvcw9OD5mgT8QALA3a8i8rWgnLyOc_MUG2w18op92LlJ1L9Dk2NJ26Eu1ajGyPNMIJjEeA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9385237558151052285&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJkQIvh8oqQwsR_Xs_gtUPP4I.jpg"
       },
       {
         "id": "ChIJvWLl6erVXAsRgbUHgaFlMxQ",
@@ -3195,7 +3346,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJvWLl6erVXAsRgbUHgaFlMxQ/photos/AcnlKN1zi9pXGYitfKJcbW_0vNExUEHbtAOKiuOeZyr9xktD6jvvrCNYXOkVzt56K4X8U3VOZPPQYeoQC05BMDwnQ4WH-wHjMzt6Ngo1DJCEtf02Vsb71e8sNFkkm3HRRi03-Qj839xwDNG2iEnElseYCCxQweRPfwi4KGJb-sTgl1j4pXXyZ9qJRPcARNxN7u9A4KMnp_zMvMf-Ixfc30Ph-0FkFgYsWdmod1TePCxBTv87aZv9-0NbFn97dbWAU4v6Rk79g6KWyMfNwvgm8MI20rSrNq_5VkGRYlhG1pV1TDbPIfdOBXoXLISBGzvXA1fpQhYUMw5YYKOY_SwMWY1VMa11pWIXSzUEBEb7raJCq1lkMUgJoqT87K2CuFw6wAyUC977NKgoi4rbfG3BWX1OTX7ZdjPyNOJX5vGQ_ML0kjDD8btm/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1455618848899708289&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:08.390Z",
-        "updatedAt": "2026-01-23T15:29:08.390Z"
+        "updatedAt": "2026-01-23T15:29:08.390Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJvWLl6erVXAsRgbUHgaFlMxQ.jpg"
       },
       {
         "id": "ChIJncv8vxjTXAsRTlR_7wvr9-o",
@@ -3238,7 +3390,8 @@
         "websiteUrl": "https://www.facebook.com/queijadasdavila",
         "googleMapsUrl": "https://maps.google.com/?cid=11858765721414990035&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJmRX_nGAmXQsR0_iE25fMkqQ.jpg"
       },
       {
         "id": "ChIJ91lug50rQwsRxJ4RL0YlYCo",
@@ -3259,7 +3412,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ91lug50rQwsRxJ4RL0YlYCo/photos/AcnlKN3TooMa400n1kvfhdDfxAXjVWV5vcWG-yGbI4CEtw4j9An2TqoCVnYQE2of2hF8VEHmeKNRAnnulgVj57gSnZ2t0-MMEUtESv05W9TOOZXtB62SuqQwU9GEgozgFwU-zzxxgQCRa7YxPHGbd_49wVMrfVV-e7tPEoTphi-veeL84UskEpTFz8LH-O9olxF_Xi_tTSUPpBXjjUFFnTFbQ6URm4TZ1Pjv3YQpzGwmNpNZAcUyROO8JcUE_unz9SJ6FSNXwvMQMlP8fAS5k-eVMyLaW_w0KKqXsIpHbOXberFeyQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3053481530724818628&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJ91lug50rQwsRxJ4RL0YlYCo.jpg"
       },
       {
         "id": "ChIJZRaffSfXXAsRlhLLJX-PW4I",
@@ -3280,7 +3434,8 @@
         "websiteUrl": "http://www.ochocolatinho.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=9393259224068985494&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJZRaffSfXXAsRlhLLJX-PW4I.jpg"
       },
       {
         "id": "ChIJU5QZT2XVXAsRFfA4qoDHJhk",
@@ -3300,7 +3455,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJU5QZT2XVXAsRFfA4qoDHJhk/photos/AcnlKN1KWpoJUnQ3CYxG1hUaysvsh4oxiYZfrK-EHLknXyFbkbX2A6MulbgztIN7HKgHhBD-aIkswKqxWI-smHIpyASZT-KIxV8WYWnadvbxegr6kyj7Di8zAz51306jfmGwTV15_I-eTA8nraxbju-UQzjt2PV_mmkGFQlDhgQcuBkWKAb4NqXU00TWH25PXxAtrvb__h2WG-IllF7BWLGvuqyZuNMAQWPmREJuBCTyGllJFXnGs93lfgUwRb1vQWSOB40inolBaQ4uAdnYhjZPFY2LyFQ5a6UOHcBFOorVuP_x93FM3rQL_qUMo72ZoLdeQdhz_zBvobZ-f3MYV0cARAq28OeLfWmfTvQ0kH-qZLXMtfEeKRLErHHT9gPplV6_u5pMtTKVrdeHcTgSqhmCoEE5t-7AKtHBFqvypGkVtvoc-kRG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1812355255488802837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJU5QZT2XVXAsRFfA4qoDHJhk.jpg"
       },
       {
         "id": "ChIJBRUCG80qQwsRiSU3wJvrMhA",
@@ -3321,7 +3477,8 @@
         "websiteUrl": "https://www.facebook.com/varandasdaavenida",
         "googleMapsUrl": "https://maps.google.com/?cid=1167254307619677577&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJBRUCG80qQwsRiSU3wJvrMhA.jpg"
       },
       {
         "id": "ChIJz52IfifXXAsRRUImuEzHPW4",
@@ -3361,7 +3518,8 @@
         "websiteUrl": "https://www.facebook.com/bolosdovalefurnas/",
         "googleMapsUrl": "https://maps.google.com/?cid=12498560566384442642&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJK3VjkjPVXAsREr0Ma53Oc60.jpg"
       },
       {
         "id": "ChIJx7r5YFQrQwsRgojMXbwTMgw",
@@ -3382,7 +3540,8 @@
         "websiteUrl": "https://www.letraslavadas.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=878786577039132802&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJx7r5YFQrQwsRgojMXbwTMgw.jpg"
       },
       {
         "id": "ChIJU551GQArQwsRIIYh7115BKQ",
@@ -3403,7 +3562,8 @@
         "websiteUrl": "https://www.instagram.com/maedalmacafetaria?igsh=MWFkeHQ3eHNqMjR1bg==",
         "googleMapsUrl": "https://maps.google.com/?cid=11818704766477895200&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJU551GQArQwsRIIYh7115BKQ.jpg"
       },
       {
         "id": "ChIJrYfP8NjXXAsR2ztZvLwxeD8",
@@ -3424,7 +3584,8 @@
         "websiteUrl": "https://www.instagram.com/santabarbara.beachclub?igsh=YXd0MHN2bHB6a2dx",
         "googleMapsUrl": "https://maps.google.com/?cid=4573460108278315995&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJrYfP8NjXXAsR2ztZvLwxeD8.jpg"
       },
       {
         "id": "ChIJhYumrbDXXAsRqEfxvPLRtfQ",
@@ -3444,7 +3605,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhYumrbDXXAsRqEfxvPLRtfQ/photos/AcnlKN3xTRVOsdnxB0jLe6JJUknOsoCu3pc7IxGv9quH6L_XDzkkquOichyF0Xy9maCbBCemYlqzgzAxcAxv9-L395pEOeIoCRTccNeZxDhPESYnZYs3VnyYtKRzPnc3lAkNo3MA6YmVmv_fziMr5yLf0LGakrt_xt7FeKQsgOzpdJhY3dOavT1BNPUbf2lleVsSC52P8glPVLdGGR-haJjhkjK_mvBkBanWjxwcVe8Iwl-W_tvumqqx780dVS7pkv1jiSUoTb8nafLypmAZA5kVehH2XjI5VRiUFMvNazlqAtBMIQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17633230756521265064&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJhYumrbDXXAsRqEfxvPLRtfQ.jpg"
       },
       {
         "id": "ChIJX4GKs34rQwsRiD71UbIjicQ",
@@ -3464,7 +3626,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJX4GKs34rQwsRiD71UbIjicQ/photos/AcnlKN02C-Hd0RQkXarelAfzgEauiK5zIzBMCE8qzjWJKqbH0z_zJsFWYmY5wMYcNnCaJWKLi-elgvMnggZXvArSKz7Ii8vie5dhOg0pyiENn0rZV7ILxsfMZpGPbH3Pxur4UZF-yniV3AmnjLLIaL8zU1-x954QcdNKl2toQOWmwQH2FsoiPfCtJaT52cs7hJZOMWg6jzaJPRN8A5Hwwg3Lmiz_OdKsNOBD3kjnDRGULl4YSCbjwjiqPkZwBaRt3LYsnXtV5tBdp-jCoOTcpWWJ9fRjPbLi_zLvLl-G42uxpahL1keHpencipf_pNsqtNElPSaYLubr87SZ3v-KjuVz5iCRLIugnBgLl8WXqdK4vizULOEXfVFBWU-5EHq1S1UoRXhZ3_JRBfITIdf-X_Yv3ryoLZoCWg5z6rQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14161889752029413000&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJX4GKs34rQwsRiD71UbIjicQ.jpg"
       },
       {
         "id": "ChIJF75abbUqQwsR01_4_Uf3z_g",
@@ -3485,7 +3648,8 @@
         "websiteUrl": "http://livrariasolmar.blogspot.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=17928820530160885715&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJF75abbUqQwsR01_4_Uf3z_g.jpg"
       },
       {
         "id": "ChIJBRUCG80qQwsR8JS0nwxSEQQ",
@@ -3506,7 +3670,8 @@
         "websiteUrl": "http://www.livrariasolmar.pt/",
         "googleMapsUrl": "https://maps.google.com/?cid=293105664928290032&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:29:09.639Z",
-        "updatedAt": "2026-01-23T15:29:09.639Z"
+        "updatedAt": "2026-01-23T15:29:09.639Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/azores/ChIJBRUCG80qQwsR8JS0nwxSEQQ.jpg"
       }
     ]
   },

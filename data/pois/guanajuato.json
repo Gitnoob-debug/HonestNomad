@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRXsG7wd0K4QRzW1Z2LzN9Kc/photos/AcnlKN34Jf0v31I8vZAjcNeNFrocAZ9IC4oZbMOGLDxOFJgLV5D8TDuUJUS_vzRB_t7X8Kjj71bHkJXkZx0cP0djCqg43KIlKPACoPapUz0oJ1bud1sRpuh5squ7BOb0wSVXLgG1f6w4rxiypyCcnq3ryEAW9XW7hF_MI8sBr7K4S1umg-qHvS4hwRLGi-V-sGfn2m__PXXsorsClaLpEeiH2X7WfP2LE_hcUJR620eJnxIFIXnK0tPbl2bmWe-lNRCoRVCceKS0UjUXNyADoypEILmo0bzShqCn-vON0FGIs6g90je5GoEFRbaMJuW0NhHKB0tAnfT_hKcthoX90MqRkl5z9x4k6dEdrM2AdksN7gbeQEXeDpxKO1JiC1yqvmLR8fM0KdvZ1gSYtNpi98lh3Pz1BLnEVn5duBwuuY2ddHOoBw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12102524309618650573&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJRXsG7wd0K4QRzW1Z2LzN9Kc.jpg"
       },
       {
         "id": "ChIJTxr-LhOeK4QRi_gNvM6NUjg",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://santuariodecristorey.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=4058462133272049803&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJTxr-LhOeK4QRi_gNvM6NUjg.jpg"
       },
       {
         "id": "ChIJXVbq3wd0K4QRZwXhyWHM6Yg",
@@ -65,7 +67,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXVbq3wd0K4QRZwXhyWHM6Yg/photos/AcnlKN1I0BazaL2Fazpq73fBUq0Ux-73vCPN6cAoMK66bfgIm0-GipF0hiGTU2ayDe1gAqpFR6-qM2Bgd5UEdyqIEWTMBZFRRUrfJHcdgeHanT__TrLl_11ptLCAZLF59FY86QwpCNqUjg7tLc1zFcY2L8pEWxjrwnhOzXHQFCmasM3qw-ZJzTkp5AhMSVCyaRwRlwWSRBLCiGy-8Ua-hF0IZoJki5SLEI_HEAndZHhgKhmVb0aP_hitoXuEXKFFlscdkv-Fe0_8xR_W6LtTWcHAYy05csgTStzX4UF4e1Y7ykkrBHdx71Y_rBBXaBrlOUv4yhLw20XPytp62jz4kPrGekalT3z_y1LFBLgP9OjCiqVVW5I8eunl5n3BGJX2fUXDTicho2AHJYRQ-Sl6sO6Kz2WJ3qcLkLuULEZmdbXV2go2Fg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9865641179102643559&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJXVbq3wd0K4QRZwXhyWHM6Yg.jpg"
       },
       {
         "id": "ChIJzU2rpQ90K4QRoZryiZE-Qww",
@@ -85,7 +88,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJzU2rpQ90K4QRoZryiZE-Qww/photos/AcnlKN344L8OfkdPMO4VM6fneV9DGa600b9-essMmAgQcN_iejXoMO1JoZyF9-GmzBLlj83-EK0L0wXWAnCrpT2WZQTXg8-9nBHOO7GOKvce5XjfLvoI19xjMnBSL5bBjr75UgurznK8IkzGpVHyY9hLHl5gv0NSA5fUMFiB8s9yZUAF1T7TrYT3LX9XuS7XWQ0_mZKLiKN-EbogVyjPj_G3mHFNrrCK34iJkfadMziVvPrlQijInFLq3EaRYsb97nyULETKlKyYpyljfnXbB4uboYMnQpcso9WtBvmjI_zoepuB1S_1aKv1ITw3yA1YlpgiwaLgg92Ou3TOxIPvv2qXjDJt-hcku8tD3ygL7aiW-xLqK3wB3RYnSZWProfhL72SA4W_9EfSgipnWjvZWR1Z-UY0hS4ZsF9H2mFq6ue9XNlTJIt06JEW9OjZTsi2V-sH/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=883618746700307105&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJzU2rpQ90K4QRoZryiZE-Qww.jpg"
       },
       {
         "id": "ChIJEcWszAh0K4QREN9TUTb68HA",
@@ -106,7 +110,8 @@
         "websiteUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1004/",
         "googleMapsUrl": "https://maps.google.com/?cid=8138279637858115344&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJEcWszAh0K4QREN9TUTb68HA.jpg"
       },
       {
         "id": "ChIJKcnMEZ12K4QR1fshSSD9VWQ",
@@ -127,7 +132,8 @@
         "websiteUrl": "https://museoexhaciendasangabrieldebarrera.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=7229963091920944085&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJKcnMEZ12K4QR1fshSSD9VWQ.jpg"
       },
       {
         "id": "ChIJZ78spnWNLIQROqrmKReMMMY",
@@ -148,7 +154,8 @@
         "websiteUrl": "https://museoiconografico.guanajuato.gob.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=14281068449506961978&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJZ78spnWNLIQROqrmKReMMMY.png"
       },
       {
         "id": "ChIJa7Lh8Ad0K4QR0BMnoJhHgc4",
@@ -168,7 +175,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJa7Lh8Ad0K4QR0BMnoJhHgc4/photos/AcnlKN1fKGsO0SpmLQgE0CjgcTx73DHt0-a-gsktVcqyCl0IEBAXXiZT10057IDHFLb9rjTxlPjr-kOGmvO8VOiOuVb6WbyzWiyM9l_Hd0j8a4fmTE8M0L20OMTJsDMS8wTmgLwycyZBZy7EOLIksjicYg6d7Sx2CQcCVcDlNpX15cbBB73HeGNlvoL3vYXc51zVc4emvityujKnPuzGoOcrmXwaagO6HDJ9rfzj3TVviqw079vFGLQnKB7hlaEn-_CyK19AmmSJjW6Ffrp4ge9F5PjLo1VMQyRKP2HRleBFaku8wDgl7eGrey10FHRqOiWRM1H765ei05BHxkSOtdh59s0dHdcGQX_c_4A_HgMw6pKDPgVcsAa7uLyx0Et-6SD04ZTeaiZOmbN9xWA2ty1XPBKRb6X6I5y9cK-vC9Epllk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14880253364656346064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJa7Lh8Ad0K4QR0BMnoJhHgc4.jpg"
       },
       {
         "id": "ChIJSe0CqTNb04UR4I6VAhn9qt8",
@@ -189,7 +197,8 @@
         "websiteUrl": "https://m.facebook.com/pages/Mirador-Los-Arcos-Qro/363942183700767",
         "googleMapsUrl": "https://maps.google.com/?cid=16116972500358106848&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJSe0CqTNb04UR4I6VAhn9qt8.jpg"
       },
       {
         "id": "ChIJ49HuIQZ0K4QRjiVAHWcje-0",
@@ -210,7 +219,8 @@
         "websiteUrl": "https://www.visitmexico.com/guanajuato/guanajuato/el-callejon-del-beso",
         "googleMapsUrl": "https://maps.google.com/?cid=17112310134903678350&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ49HuIQZ0K4QRjiVAHWcje-0.jpg"
       },
       {
         "id": "ChIJ9RIM9Qh0K4QR-4IVnLEbsLA",
@@ -230,7 +240,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9RIM9Qh0K4QR-4IVnLEbsLA/photos/AcnlKN2EM5T8cdItJMk-2jLXuXcQcVV5xPMfzdlWX5jm6NHrsIBxnIIyPr_Fdn_UjBRTZkhIdofe1LVEyhOctLseL9SYijKpRfflI1ty5toZOx71IozEhwT3zLAXADdndRWSnbaZu9xxtcGKWgHW08KyAa8cymdzzmdCSwexa0l7vpuChE3HflPXrguNxTKHVVnZ3fu8pnB7GEy4_Ofg4UgkzXrhW2_44Dhz_N8uijOfybf3pJc8io27Rok6eOnXvr2Q3S4_xEG77Pm86iHJ3zoTV-eqp6Jr553_w1DRygQzKEIFApIKyhqAdOy2d3tW12vAH6gwkJKP9SspBcfAyYZo6V_EqN3H4C5h2yoVYpGDjmHigC3l8wc7ZaA_YwI6vwwhWoNnFyB5HFsX8TjXcWWO2imeitqFG5nDEPDsQcLcQjE5tMPA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12731706596218209019&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ9RIM9Qh0K4QR-4IVnLEbsLA.jpg"
       },
       {
         "id": "ChIJp6BjRbtRK4QRkJ0Wki24fLM",
@@ -250,7 +261,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJp6BjRbtRK4QRkJ0Wki24fLM/photos/AcnlKN061-YSJrz60wPPYnN26utrdloqlGTwrwpum0eV9v2mf7Pw5M6YesVEXfEVBHGUHgzmNNzsPyc2a8EzOXCbrTEavumepL-c-yXXsSv2GrqoUJ4mO7JWdKRHM41tB_m-yrsa0jvPccPgCjuNi_svDpzd9K18oZGTkLTS0-gU217CqX_a7n0Zs3lt51f7_vw0nyNA9x_Xv6vWj6HcYPm9lT03G7wZuYGjuNm2vXHyqJ284JN-XBbmeabBSDr5o1MaV5jjwb_T5B9ieCrHDS0u-hl4H2hVntR-IF8V-tQcJ2UcHqMhPLC-ZPefWAa9fftOSQkwK58so-XA6RjZfETuuSFgPxPEsqdGRKVDKy8jr8QmdgEPxnsS4pTJIMPnYMR0AWRN07_watYgqCo9E1l5wzHMPgLmVJJCY-3Yvozw47Dvgw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12933414735765216656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJp6BjRbtRK4QRkJ0Wki24fLM.jpg"
       },
       {
         "id": "ChIJxZslkgd0K4QRxHnojWEzoIQ",
@@ -271,7 +283,8 @@
         "websiteUrl": "http://funicular.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=9556694903365859780&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJxZslkgd0K4QRxHnojWEzoIQ.jpg"
       },
       {
         "id": "ChIJ8xyz0Dx1K4QRvqevGFDWSvE",
@@ -291,7 +304,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8xyz0Dx1K4QRvqevGFDWSvE/photos/AcnlKN0NBCBoo1WauyXdQ7XroquHCtN63WJIqWWsiaD9aGW_PL_CFYO2vNRgatg9DrWZVMiDIH1tnXhIHaBjusnGFieePag97IWCR0cV825FIqcdefQGorGgv6I8J_ScD3q4PHj60zQPEoWT6edIvOK9Yu5VYd2jZNIJ93WTQnAm_Jrc8lhSLwyn-O7Grp3D1PLubnZVOtwJgYMVPuFL0zemB5o61B-Zo4HuAjCJ4yqijyiiaK1zxCjpIBXniWIVQvj6HrKgT9pjlY2UTg9GVBov0jkMUdxL-u7chWoMsZZNdxXSJznI4dx8v79rg8mTqClzMBQKOVoPfUIgqJoRJDa_uUlMzeUfrkVqAWDR8uJE-C_fEX2PbsZ2nmZ8xLueGwzuqXCgOHBZayfFrbGvqv8OiCGo5AOwT05VhT0I4gizZ-s/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17386944950917113790&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ8xyz0Dx1K4QRvqevGFDWSvE.jpg"
       },
       {
         "id": "ChIJHX5V_pudK4QRWFWmK95xD8k",
@@ -312,7 +326,8 @@
         "websiteUrl": "http://pgbicentenario.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14487923725303174488&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJHX5V_pudK4QRWFWmK95xD8k.jpg"
       },
       {
         "id": "ChIJ1R1c81VxK4QR5CwlEyZTKlE",
@@ -333,7 +348,8 @@
         "websiteUrl": "http://www.casadetiaaura.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5848578489089076452&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ1R1c81VxK4QR5CwlEyZTKlE.jpg"
       },
       {
         "id": "ChIJLWJDYPhzK4QRvNj6pYBmh_U",
@@ -354,7 +370,8 @@
         "websiteUrl": "https://www.guanajuatocapital.gob.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=17692222363874810044&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJLWJDYPhzK4QRvNj6pYBmh_U.jpg"
       },
       {
         "id": "ChIJpUQedf5zK4QRn8lCk4uWads",
@@ -375,7 +392,8 @@
         "websiteUrl": "https://www.facebook.com/Museo-Leyendas-de-Guanajuato-832966623522152/",
         "googleMapsUrl": "https://maps.google.com/?cid=15810333493076085151&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJpUQedf5zK4QRn8lCk4uWads.jpg"
       },
       {
         "id": "ChIJr7DCDlZxK4QRuW59Kimg6bM",
@@ -395,7 +413,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJr7DCDlZxK4QRuW59Kimg6bM/photos/AcnlKN1-dXDlajFIqdxBk7juPSgN_cMNE8-EUYPHZCnA8-1Y9sj7lw6ZmN_BwPo7edpGgPWMVMBKU_wkZR19k-w0aThgtNwvOaXMD9ghu2rZim5ZW2FhEeRPBPK28TJcHbOg8gWcc9ZM06QHPfRaDnSIC2dV-0otm4w_1SsGeAc9HpP3OcwEys7bgWAGrwUYUkwQx7ERHo2eNf4682SzQhudPI6p7rEr80m-knYEwvU2V_gp9vjI62tFrQmVFUU5Tg62esvS71jusDDzSVUl-YerF-Xd6HWgD4GLqk43t4xz0fMKbBYPqV4DEY1n1VEn1xuxDjcNWsodXsHWkyRNghfYREie5M5d8E7iXd_XspqTPNNGTc_sQf_cr-0Hr9AsHOXUZuilF77CoZMUPz3SGnS728w9-yIaczAzmWSQWYGC_t-yMprw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12964069101029650105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJr7DCDlZxK4QRuW59Kimg6bM.jpg"
       },
       {
         "id": "ChIJjR4BW45zK4QRbXk_6G55PiE",
@@ -415,7 +434,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjR4BW45zK4QRbXk_6G55PiE/photos/AcnlKN2wy2UDyBE6V2Qq6bkpx1a-nidK1E5lFavOhsyHNsb1D5U8kn5uqXT0H7YyUo8GXhu-9UFvD7LQWKJEUUo8tOe6xb2Y4abLNXgHNC9LEkIjHTUCbE-_tFoqKphlqjEDILbZeYuVeMjClKjDGxxFgRxhNP46ztW30nn14sTjvWhWMzGoN_Q_TSg1XMAh_p9a6V52MsgIt45t-etVcFHNNFJg9tRkdC11x0GbDqmcCVE9ctwMXHx6pq_ZpYdQz7gUsmUa0ASz1_GHAQb91HyIg_-MdfopKP709N-3eTCskUs2yVQF6fjXNTPwKuzQp911ZB1ckT_mCrRQC9cRSitkIbNw7T6rbaMJgh6T6uE6t5Lxe_Ii-cbbHjEW8ulv4uZ7sBR_jKoo0P84W0YCQaqxexQuxVxa20YGBAoAZVSgQv6miw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2395485569057519981&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJjR4BW45zK4QRbXk_6G55PiE.jpg"
       },
       {
         "id": "ChIJVVH1ZQh0K4QR6xpedDnhp6I",
@@ -435,7 +455,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVVH1ZQh0K4QR6xpedDnhp6I/photos/AcnlKN3NKWgcHwafQ2LoBwbwnxGcoBQwmPO_CmJiyzKyY6hr7jfxr6wPL7y59dhm9rpXue0QKlsyppKy0UH6ER0mC7WypL3FyzZztwN4yN0Ya5F2cxjOQEVrmvQWKaVXd8lYSkMW3tl234QcoH7GwKKj3Dtwu9xAoUyeRpsMB4hAG75AJpb7v7NKgScYk5MjYT1I-m3dmiI6LwJbT7lIAC5EYHaeOTuVLCiVrbU0Smp9c_JwuwEjJ6BZSdVhVILCzn9Hby8sdUy7-JFjfmdheyNy1eMxIfGdbuWYeGIwuRQ1GR0wPgqKPe9ulZ4NQV80KPFuQvtLKXB2DlkCqE39GoiChNVjD9pasaTe1fskQGjo3YoD32u0askNOiSNYC1Bc_xdW6R2sy5PbC41ufgO2o08dPKEZ3a2PXdnhMmocVsa9fbb-Zo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11720584192136714987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJVVH1ZQh0K4QR6xpedDnhp6I.jpg"
       },
       {
         "id": "ChIJjzhmDel1K4QRFwhWy1fgzpM",
@@ -455,7 +476,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjzhmDel1K4QRFwhWy1fgzpM/photos/AcnlKN0hOr0lOnFu2nBUAw8sITybejiZCwUHOCEU4FLGwJw0bt_Wrvp4E_C1soUzzTGkJcFpRgIOPBaoJWvsLVqKhUgIKBVdG59I0BnD7MY1sWcO5gAGPgyb-kZ7cwpcsCibfpGSm1Tj4EsHqsNioBXTyh1h9uruFTEszIa_SGzXOzyFlFIoFB34v1PpfLCBR56X5iRq8E9yzYTL0SRtqlFVcCIsB6M6rWkd_EZLgsXGz-CBeaaLNXqdPBL3kL5ESdxaoueSdnYSr1J99y2hkmT544fprlGv_BHsUU_N0m09UHMhvPon-1qX6OLE6HbFcT8DRFZ0RoQEBRsa3gN0SKs_EJ77i9Lu-O4-POE6PRZ_70NbY45MWM0LFMIoIxHZZljcsLIMRR5sUruHJJMm_04u2PNImzp3bBSjLQNu-l6BHWEIMElh/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10650696836455991319&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJjzhmDel1K4QRFwhWy1fgzpM.jpg"
       },
       {
         "id": "ChIJE03p7Qd0K4QR8SLvinQ2ZuA",
@@ -475,7 +497,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJE03p7Qd0K4QR8SLvinQ2ZuA/photos/AcnlKN03OW19va23qfeJBrydp1yldhKSA8aZx40coip4wItcc3j-PT7MZT_uYRHY46qcp88uuln-tXH6-ZUyY-_GuPkold2cXD8Qx67JMb8KYtUOs1-JLk7WumA4kgK82I9JLeowY_I4QU0lzL_zueQoAlrqf94Sls2ad1SDdpukeq5TfXW27Mie8Lf--sCdVtgVd0iJKsEScYF9CUthwiKK1cQR6fjFKBcsAyFnk_tBUgSpj8R9VqvsjhxqFXPl1xxZ4SzOkejWRBJE0HbHeTytmnb_YhwXB-gFpKBX6u2ccFekNuqM1NPBVwcVZrQdN4U_2ft5JVea_sEEGQLDhhSNnINJAqEbm_A-ioXWUYeJsdBHvGbB_i9t037pfm3-2oErkTMRtv2f3zbxOpDlHdjYHRhhL7dN-cHmnNn2kjtPQAhO-g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16169671386295378673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJE03p7Qd0K4QR8SLvinQ2ZuA.jpg"
       },
       {
         "id": "ChIJ5Zm4BvhzK4QRG5fYOEyISAE",
@@ -495,7 +518,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5Zm4BvhzK4QRG5fYOEyISAE/photos/AcnlKN3_7exhuTQqDteEWSwPS4Qkkv5-lwav5AT7FqEcouPV2fAqMDQBJoElXM9SRq4o09AwPU-tZ5l3gpHwNwChEYbpic6IWcPGA1Wlq7ZeozZWcN1Jq-x70RO5Qg9fq512RziNLEmkyNIvWNtpuuEoqOIhog4VaDmeOfTcAo3BOg9s-acJpBqMXsl04MUrLWovvn6C8BnBt9macnZJVb2cJOrMXM6aKbjZy9Dpx3xeDWidi2Nxn-TGfztRFyTl2_4S70zMxkadm_eVT9eHWPgHt5JfWUXDySaJ1d4VFUPM75JdBYr4hHdXR2hT0w5kDp7rA7qYAiLnZLEJZegXBIn9fvaFAZwmUzW9-weyVopZxZgwMQXPJwRSa6HFasXN2pKTtYGQpEItv6HSqMWk5-C5euGhUJu9-duElKxEsgHx5mRB2m3X/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=92473653313705755&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ5Zm4BvhzK4QRG5fYOEyISAE.jpg"
       },
       {
         "id": "ChIJBb_MuVJxK4QRnP7Sjui9-3c",
@@ -515,7 +539,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJBb_MuVJxK4QRnP7Sjui9-3c/photos/AcnlKN041-0TTKt5993C8O5HckkzxZr5kJG7IuF3xA4xUEGhP8I7BALH9_jpN0k_37M1SFPmVL01BUF60H_yQdPmTJhPVR2SallkaL0ukGUEUxN2mvX1AhzREuR8rD941okpkqAs41auD_z3s066yVVTGklMjGpgh2VS0nNeGVxqU9wKI4fMYhWMYsQ03Pm4-7IeJTOafeNdwiJf8vsHWKEg_JDvuAg1TWOSIQlrKHIuICq-PYTOyn0aWxQgfq86PRHFgmouLm4ou2mfjclVddjNHMGYH6tARCcExpTGeY7J0LUUYQ7aj8GeX5ONm9ZdSoJcG6xmFMqc6BskPI5uQelaQJfA_0-zVPsBXGyauNJtKxGd_tDkWllx8m4q5dptGnTMHzEHsIvswuNoqjm0R4OlMmdlWypGoYCYKRJDaEym5FD_e6lT/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8645712716194053788&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJBb_MuVJxK4QRnP7Sjui9-3c.jpg"
       },
       {
         "id": "ChIJzaSip1dzK4QRUS8HIyEI0BU",
@@ -535,7 +560,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJzaSip1dzK4QRUS8HIyEI0BU/photos/AcnlKN0JIV2aR8OGnzTrpssxiHSrHlE_JfqbF05xvgCfhCH8hcZtc6dfN-bzZHd57uD24gf6PQ4wu_aNVIrwSSd1Qp_i39HeiHXI1rIe22OsSFa33Tk7BCRNzPJleZmDQjiLIS9oRV3kiNKBjIT0wAQPTfKHWfS79JuLa6ejG6y97O1zK21gkZSN0v2EgAXtJRCqTeZHBp1Hg6lpqA3TOfXce96-Dnx2yGg4yFCcsj7W2gQlvwqFCx-v1SoxubQ-6nT1XygEkuy9e-NPmZoFJtWbYxGiY2a1srDKiFzbhpuusDaFpNSMSSiBy2v7p0VSgbYwK17ND5WLkWw9DrRi6PCUUkbUiJXeWm1mKgPTjm9v-XyEq89DfvsLF333NH_dcHLDTuQvYbAe6B-c5G7ENA8qUcZ2SdUaXz-3sUFA_0WE9yAXdA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1571765208366919505&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJzaSip1dzK4QRUS8HIyEI0BU.jpg"
       },
       {
         "id": "ChIJX3CfL811K4QRip6E3P5sBgY",
@@ -555,7 +581,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJX3CfL811K4QRip6E3P5sBgY/photos/AcnlKN1PL7qo4s2mXzukdU6qqS0kjD-YfAqRpzoUxEtxzFI_f-4RnGDxVQmQo0ki42-hrQsE-8xWQoEUyLjHPG82ECyDVADCAJ1d0aonLkQdkyNoi9RpDdr3dVJXrCgyv1ZbCp1efPgfgXpORpv4zSnLw2EFS4wlKRMsQ7tJRaXxRXKZfbahEIO1zLVoLA4-U0cNv75eSLBA9i7FCdqO_YKuS227vQ0hW1Z41Cb7LyqLi5eNrBVxNVxn-lCrDANe7M8YbRunHMNZc37R51SJdfoNZnYIN7Hj5UJmUQjhjUAtBixpLMDT9MEpUwKsUewg-NZvUfqV1IzEO-dgUjxwJMUZV2UYFaeIzv5tONSJljg0it03HX2QTkpCkJ2ebxrmVwacR3a3ubIu7gpq0hVeDQyw4bmaZg1dnqGo3hi7Q_6IgWKydLtJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=434154255965003402&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJX3CfL811K4QRip6E3P5sBgY.jpg"
       },
       {
         "id": "ChIJ4zSxagB1K4QRza7O8RgvbbQ",
@@ -575,7 +602,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4zSxagB1K4QRza7O8RgvbbQ/photos/AcnlKN03aQyljFjxEm4LH52v8clxbYkrIDFR0t5E-ts8FG7h2M6i8q2ub_3m60QW_jOl8B-rSch9O3KwdpscEy84tabMdwwp-jOvd8MVB5MJsxL3QuE4IKbQiP_bSOk63GM-Sh8Mb9DwJS5DUV2qpktg07XwFgsfczz8xWVJBbbSd2p2To3IuoNcadZEKesM9yw3tqkK60W7x7GmupCasl5zJ5DxxGUhrPvzSTvQxPkELtnYAa0qmYYHoRVLZ1UntJw75BC99FFdljwrJdgvavVRS2vcgkY8wAc7xKrRSy-52SZMeLqYQPtuexXiE0ExlX1J9hAxcaPAhS50Cmc4FHqqwdIJduEDOGqY6mKa8CJzHO6lct-7FWIc_r5yjGEGdDSXFslzwbV9REKqlu-O0-txdBudyzSb509oUjeCINLjBUjr4vmprKFf4auoENbiIA81/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13001099483471064781&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ4zSxagB1K4QRza7O8RgvbbQ.jpg"
       },
       {
         "id": "ChIJ5Qp9Qqt1K4QRuE0eFZi5Zh4",
@@ -595,7 +623,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5Qp9Qqt1K4QRuE0eFZi5Zh4/photos/AcnlKN1HqPGhZDl4OiV7zex6oArierD1p9zaObEYnnzODRyWiUiBfzKfQq6AxZXnpI_nQhyEzGnEA_kGTjl7MUNkp_NYhT4w8lyxcsJObOxB-SV0yyYmkJ6fYH2qs-WIhKQfMvhArdmKNIbW6pVxvW68paFtiFYai-FoqxHaSV9sHPWSW0CiMsxT5s3m59RyeTsmQI2HpvkHMHN35o4ww62U7L3FhtEVUQAHXw2c4Q9-L88mwQThaD90hu6kgA-5ULDjtdwrKIMfPXtav07tgvdNBbVbWoTqO-8G4eaA5aM0AIrKNASfaKRsJ6VybrvEvIaDaPSG2Uf9JqngP83bIcYJ2oCa8W6P6Unx-Yh9ZfMJ4gYlh5OGo06HVL0C7Tgmqq8GvBB6hYgiXKygavAwmaf_IoEhdoMBktXYYG9ZeOHAnz06Gewq/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2190642331602800056&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:21.113Z",
-        "updatedAt": "2026-01-23T16:00:21.113Z"
+        "updatedAt": "2026-01-23T16:00:21.113Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ5Qp9Qqt1K4QRuE0eFZi5Zh4.jpg"
       }
     ],
     "foodie": [
@@ -617,7 +646,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYRRkCqJzK4QRBMppeGGbj2k/photos/AcnlKN2AoiXIfJrBbtj_PoSm-6nSIaIlCFI4hw4T_F3XhaHn5kHpGpg2r-ZlvT9ptqb5rGJ-DGGDesjaZ4LQ7vfD-lPOWJInZvpYaE1jD_XChwuRoHS62ruJY0mvvh8e05qNp5fPb_I01-ZyvP_Q_uyzXUUQnEfPM5vdOaHNannlVHlNkXcq419ppQQrPZiHc7_abZZ6jILln8Vdb8sp4f0NrH8qHfanWioZR7epTmx9nS2XNp07ro0U7EfyNKwIacMx2YCQePgjel4OEQaMXtNHEMa2x-Zd2N7nwC2NsXQ9DknYZA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7606469138586388996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJYRRkCqJzK4QRBMppeGGbj2k.jpg"
       },
       {
         "id": "ChIJvR6hNhvlxIURmxO0-VR-4H4",
@@ -639,7 +669,8 @@
         "websiteUrl": "https://www.casavaladez.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9142446146993787803&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJvR6hNhvlxIURmxO0-VR-4H4.jpg"
       },
       {
         "id": "ChIJr6lug213K4QRIrHfXRwXnaw",
@@ -661,7 +692,8 @@
         "websiteUrl": "http://www.facebook.com/Restaurante-Bar-La-Oficina-1528165327510546/",
         "googleMapsUrl": "https://maps.google.com/?cid=12438123156468642082&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJr6lug213K4QRIrHfXRwXnaw.jpg"
       },
       {
         "id": "ChIJmQc8lvhzK4QRa6W6kDJBjJA",
@@ -683,7 +715,8 @@
         "websiteUrl": "https://www.cafe-tal.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=10415771723633436011&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJmQc8lvhzK4QRa6W6kDJBjJA.jpg"
       },
       {
         "id": "ChIJe_HN7Ah0K4QRaLGP1zz10FA",
@@ -705,7 +738,8 @@
         "websiteUrl": "http://www.estaciongelato.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5823423959853412712&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJe_HN7Ah0K4QRaLGP1zz10FA.jpg"
       },
       {
         "id": "ChIJr2OlQwlzK4QRGMeT2vJnXcc",
@@ -726,7 +760,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJr2OlQwlzK4QRGMeT2vJnXcc/photos/AcnlKN3Do3caosxjVRqRgckJ5cdwnsx7XDfe4kYjxYsqC5FcsJ5I8XeQv0rTMYCO-cz1A2PfMv710wtkqjfzmPml0TkM8tkIV-k7c8PPKjGWiGJrUKao8--eSnBe1XNfcDcl3uwD-NqMtfZkZ_HibtBXkz8KlM3yim44SQ8fzypbt1s1Mxa14ij3vnt5l1u22p2HCCKTpPr-ZKA8OZ4a7bijKnAkih8xjSV-N5flp7ac_BRMNaLJjBdiG6dE59Y9D99oZo3aBDD6ljpE0rEcmvSUA3AOMh4LKcW76P-215GWZ2hXtbCI6M3C-Tu49hOvXzGIBAAqd90Y6km6JN5OuNFYIGnia9VwhthLYKcuymQJDX9MTvCa93YtyuedG4n0EEtjDCiIXMvkQmuxOStPQzUAzCwHlbAWL_zLZX3U84gtRmCueMY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14365752679128614680&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJr2OlQwlzK4QRGMeT2vJnXcc.jpg"
       },
       {
         "id": "ChIJsYfQDvhzK4QR2gUpeoviLWg",
@@ -748,7 +783,8 @@
         "websiteUrl": "https://www.facebook.com/La-Vie-en-Rose-775874432465811/info/?tab=overview",
         "googleMapsUrl": "https://maps.google.com/?cid=7506905242574325210&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJsYfQDvhzK4QR2gUpeoviLWg.jpg"
       },
       {
         "id": "ChIJ51sfifhzK4QR9KVVM41Z4fk",
@@ -770,7 +806,8 @@
         "websiteUrl": "http://www.santocafegto.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18005771248190465524&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ51sfifhzK4QR9KVVM41Z4fk.jpg"
       },
       {
         "id": "ChIJHTJgUcN5K4QR0ztQQ5s3P9E",
@@ -790,7 +827,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHTJgUcN5K4QR0ztQQ5s3P9E/photos/AcnlKN1YtTEZ3bjRo1_Rl9S_3qI24n5W-voJ0k8FncSbpEq1wOPsialrGOrNQPVangcPmjJ57KH3u1Rp1uP-DnhB2RlhqT9LL8SXNdr4t9S-On2ilKbMxg8kdrUNlwIH4NOP8d1WlWmPHiHjd1t-SEftpsSJpJfoRf0SRqzmDmtmkNKvvsAzEHJjDG8c9fwaRtRnnu3hOXX0FMCAURT-kAz5VDyiZOwllB4K_SPY1MHa1cQZy-mm3pm42CfpjwGh9ZpKdb16nYHYz3Jg42blUpfpucwyeDzt7L7tSFN2ozMIDEb4FA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15077831217448500179&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJHTJgUcN5K4QR0ztQQ5s3P9E.jpg"
       },
       {
         "id": "ChIJH2sMrVdxK4QRaosSR21oSNQ",
@@ -812,7 +850,8 @@
         "websiteUrl": "https://www.facebook.com/LaVictorianaCafe",
         "googleMapsUrl": "https://maps.google.com/?cid=15296590952917011306&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJH2sMrVdxK4QRaosSR21oSNQ.jpg"
       },
       {
         "id": "ChIJj0cvdTDTr4YRukmBg9vp7SY",
@@ -834,7 +873,8 @@
         "websiteUrl": "https://linktr.ee/LaTascadeLaPaz?utm_source=linktree_profile_share&ltsid=fb59e719-6f46-4280-bcbf-fffd89cbb180",
         "googleMapsUrl": "https://maps.google.com/?cid=2805155271935084986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJj0cvdTDTr4YRukmBg9vp7SY.jpg"
       },
       {
         "id": "ChIJM1VDkbl1K4QRIqMD0h_tgxs",
@@ -855,7 +895,8 @@
         "websiteUrl": "https://www.facebook.com/MariaGto1992?mibextid=LQQJ4d",
         "googleMapsUrl": "https://maps.google.com/?cid=1982688981896373026&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJM1VDkbl1K4QRIqMD0h_tgxs.jpg"
       },
       {
         "id": "ChIJXzKcyQx0K4QRFwGOcoA1If4",
@@ -877,7 +918,8 @@
         "websiteUrl": "https://www.tripadvisor.com.mx/Restaurant_Review-g150799-d10386280-Reviews-La_Table_de_Andree-Guanajuato_Central_Mexico_and_Gulf_Coast.html",
         "googleMapsUrl": "https://maps.google.com/?cid=18311976385659142423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:22.414Z",
-        "updatedAt": "2026-01-23T16:00:22.414Z"
+        "updatedAt": "2026-01-23T16:00:22.414Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJXzKcyQx0K4QRFwGOcoA1If4.jpg"
       },
       {
         "id": "ChIJOe35ckNzK4QRYIxhlPDkq_Q",
@@ -897,7 +939,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOe35ckNzK4QRYIxhlPDkq_Q/photos/AcnlKN2-ApHlVYeluZDUceusHvxY_z88_m5bFRVNvDJN8iD1dP10jDMNplNtjK6_kXAwG-mSwu1C83VjIjlwJm2IxEPLLVchT2_mMk4MDGsrunA5wUH73hYvHjFRn4mYaWB23DQtM8YWWpIUxuqOZcURVVEJ2wySwinhsVHtxTWdhL6Hlp0L6oorb2xHkT98wFA3bglQfrJmm468TC_I4KWuILfReQBBvH8uarL9hsbmuAAS0IruEaPBzdIj9j_HTC4oIBSRFLukeatMiWmYnDbtkFPgfT4pNFt7pFoUjHHf3kQ6nw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17630436888204643424&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJOe35ckNzK4QRYIxhlPDkq_Q.jpg"
       },
       {
         "id": "ChIJbczBh9VzK4QR5eM6rj7H7L4",
@@ -918,7 +961,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbczBh9VzK4QR5eM6rj7H7L4/photos/AcnlKN34_794DdvyvauId3yuSB1NarVVo3r-VMvV_Qlo1GX3z8eY3BLL2H4e90BXRdrFo6NxWL5I2l1ohxuhrsQDRI9cFpMePIUUBL96is_ePBsXsX7MzUuyNBuLRFDy5V9-AnywlnlAwyj18TR0pnEw9PCYplkXnGtU6lNMs3ii1nlb_Tkcs_sABfhGyIpLaGvIz_BLaws2hfOzEIGPgadXWrO64sd6tQrwi5Vavvz9PJoTYg9hsN_JNINYQlvsvoBR4fdg7Rlpu9kEDcMUEWpwpfiXfPJmfMOXCkvMYWU4jyCgbA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13757590033735017445&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJbczBh9VzK4QR5eM6rj7H7L4.jpg"
       },
       {
         "id": "ChIJofGJH36cK4QRGtlk-A0ZXY0",
@@ -940,7 +984,8 @@
         "websiteUrl": "https://m.facebook.com/La-Bohemia-Restaurant-Bar-738632486181637/",
         "googleMapsUrl": "https://maps.google.com/?cid=10186325479974557978&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJofGJH36cK4QRGtlk-A0ZXY0.jpg"
       },
       {
         "id": "ChIJnQyq0DNzK4QRZkCYKHP76HY",
@@ -961,7 +1006,8 @@
         "websiteUrl": "http://www.oajillo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8568374763093246054&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJnQyq0DNzK4QRZkCYKHP76HY.jpg"
       },
       {
         "id": "ChIJC5o1VABzK4QR7xo0-sfVPGY",
@@ -981,7 +1027,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC5o1VABzK4QR7xo0-sfVPGY/photos/AcnlKN1-9bL0DiDb9qGe157SqnC742LyMNBQdCql4tynGSL7eRaVykNifU536A-5FHiOpBnwTblv2n8V0DD4-rEWXKaY7jocW3qfw-WYXTsso9SR21UIhFuB49364zzB_twVnF87ZY7GpoOQyP9uqfXqWv-LZTovezxLCq8gWiREKvIeX8d9GfOtOJb3bFcrJciMjQUPO0rvQ0nocZqzQtAQrcJZ7dp1DfADoODlj5jrebticX3M8uvE4--NS7ICGTT7eLesBaZSJ8KaU1GknRNRBDuJB2tTzZV2PKkZiPSI7SMp7g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7366998145344215791&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJC5o1VABzK4QR7xo0-sfVPGY.jpg"
       },
       {
         "id": "ChIJS5RaQ5d1K4QRai_lLMGaz1c",
@@ -1002,7 +1049,8 @@
         "websiteUrl": "http://www.haciendaelfresno.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6327446155951419242&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJS5RaQ5d1K4QRai_lLMGaz1c.jpg"
       },
       {
         "id": "ChIJ8fLF6fxxK4QRhBihej3EgJI",
@@ -1023,7 +1071,8 @@
         "websiteUrl": "https://www.colectiva.mx/madelie-cafe",
         "googleMapsUrl": "https://maps.google.com/?cid=10556653294885869700&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ8fLF6fxxK4QRhBihej3EgJI.jpg"
       },
       {
         "id": "ChIJWeeE6oF1K4QRQ8h5g2WAWq8",
@@ -1044,7 +1093,8 @@
         "websiteUrl": "https://www.instagram.com/comedortradicionalgto/",
         "googleMapsUrl": "https://maps.google.com/?cid=12635552878027196483&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJWeeE6oF1K4QRQ8h5g2WAWq8.jpg"
       },
       {
         "id": "ChIJtRrVYm93K4QRkTm3Wv9xjik",
@@ -1066,7 +1116,8 @@
         "websiteUrl": "https://vivian.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=2994456143800514961&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJtRrVYm93K4QRkTm3Wv9xjik.jpg"
       },
       {
         "id": "ChIJJQZRCHJ3K4QRkL8h-0gCpjk",
@@ -1087,7 +1138,8 @@
         "websiteUrl": "http://linktr.ee/Citrico.gto",
         "googleMapsUrl": "https://maps.google.com/?cid=4154010218770055056&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJJQZRCHJ3K4QRkL8h-0gCpjk.jpg"
       },
       {
         "id": "ChIJc75-soBzK4QRFcvEaJiwH6k",
@@ -1108,7 +1160,8 @@
         "websiteUrl": "https://instagram.com/kanelina.gto?igshid=MzMyNGUyNmU2YQ==",
         "googleMapsUrl": "https://maps.google.com/?cid=12186653285327096597&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJc75-soBzK4QRFcvEaJiwH6k.png"
       },
       {
         "id": "ChIJAxgnJhN1K4QRHH846qLfFzI",
@@ -1129,7 +1182,8 @@
         "websiteUrl": "https://mimenudigital.com.mx/pimientarosa/?fbclid=IwAR0WSAlBgm2S2pTBpTnwqY0RdSTQ--2l-JoQqVE_60aX-lu4YZiEjbiMzx0",
         "googleMapsUrl": "https://maps.google.com/?cid=3609599517168008988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJAxgnJhN1K4QRHH846qLfFzI.png"
       },
       {
         "id": "ChIJqyld6Qh0K4QRJ2LaqpGP9ig",
@@ -1150,7 +1204,8 @@
         "websiteUrl": "https://elviejozaguanbylunian.mxhotel.site/",
         "googleMapsUrl": "https://maps.google.com/?cid=2951704461587407399&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJqyld6Qh0K4QRJ2LaqpGP9ig.jpg"
       },
       {
         "id": "ChIJWy1o2_hzK4QR49DZz8jxzEE",
@@ -1170,7 +1225,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJWy1o2_hzK4QR49DZz8jxzEE/photos/AcnlKN1iIoOJlxUrWAbksOy-uav8HXyqpPe3aOEficfi9gqrr5_zFGSg0TAZoS1s_B4_QxinSFUQGgGIwybzf6HIjdWwLD7cQflLwCClh3bxM5PIa8oYjjTws_tpkhxKB0P5i_IbxNnBgg-rWEC8hCGqz3uD2PvabOCdhffCvfP-HwPX7tXB5ThTiu0zIfiMM3Pyj_94FdipGqYwBhoTJVGUHW1GROzqcfPLaJfTp3RQZx7am1FmgVZ0tRP-pj-TeL4Uzfw4QEApBXRdJX1idHSioElwTX48yW1ijB1WywCOayZK5Xzea01xcRrAkabUVpvuvAeEYDNPKJBwtgSQFYMHV1IBqH87PMl5aaMPgT-cdFwzhnOyHACGtEfyiZ4XtT5HdnuRzjWQjPG68LdE6_Rt57A7bSAF11T8pZI5q4CRJQw0e65DzVuaV5TzZNRhOQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4741430352497201379&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJWy1o2_hzK4QR49DZz8jxzEE.jpg"
       },
       {
         "id": "ChIJFYHJtgh0K4QRt0b70kdd-Ek",
@@ -1190,7 +1246,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFYHJtgh0K4QRt0b70kdd-Ek/photos/AcnlKN0Qz5Ml2XpHUCYZrnwPxzTxYkx_MHZB0ix0ZPKqlaJuafFEQ_T89cpMzHoRuc0ebPJ-OHyJeMpH7ce4NNoJannebNix6IkGj2DZqRt-OgU8i_PKvxzh_Yq3W3zI_Bg58V1PWI6aBXB7rVP1WmbeXU7QPjKhVV5Wid4tulv1sOhiJ_H7sk9Eo-IN9vU4NmBvUynpeimh3ofiYUuPDCXp4GYNS4H1iy0KME8eKMiTFUxhKK1ioJ3R6qqWTP-93KDBO4fnKKPP2OW2aU8WLIYrlrdaJjG6NXiq9EEA0KN5KEsPzjvck7V0uB9Uv1Tl_8MYV1ZugU_N1m-kAecX5nuI2uRBGCVavTywtmqe9bb2CsAFhXgwkdsIEkkTEOy8u0rb68Rua3OONsAJez4yF5aNpyiH4x-eeKnI37VLZK6RS9lZf0nC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5330112722056726199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJFYHJtgh0K4QRt0b70kdd-Ek.jpg"
       },
       {
         "id": "ChIJl_mwPwB1K4QRrOAi0u_LdwQ",
@@ -1210,7 +1267,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl_mwPwB1K4QRrOAi0u_LdwQ/photos/AcnlKN00jC_wujVKNLokf-S4bvmqWgZQIxsnLJRrCiYDimzp8SVlF66oV1mOqmveLX7RoXGGQdWFxPcIVeXu9Tg8u0ZlYUt2GHP52XGx-WRewLij8325nr5CiTXjcaNX8KzTHYT3XFoBoD4FxxG4vxpPXi5BXyg3pcCWMg0zEcPJIWQbA15jEDlkpCrWVS3e5wiWYBZq_wNeo96AACNms8bWVHVbpmVGerZ4nrv0KyygKGVUcSTf1T10TD5p0Gw_553RzepSjmBd0y3xODyqBEozHBT4Rs6oOAcR6gHI-st8jKGBYS2qXL9d6nfo9denzhF2yrxUQcpjiJ5awrku2qS47txTYLftIBu2NzF1FK8TQAPJWy5rVGZtrtBDVOAGsURSPFD7rQPmBTogsmQ7tJN6i8wjjypJSJ1RI_Npn8UiNURRJjFcOCHUUVLp2Y5R2I63/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=321950129263403180&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJl_mwPwB1K4QRrOAi0u_LdwQ.jpg"
       },
       {
         "id": "ChIJA60XS-p1K4QREyrOXan-JZA",
@@ -1231,7 +1289,8 @@
         "websiteUrl": "https://www.instagram.com/panaderia.33/",
         "googleMapsUrl": "https://maps.google.com/?cid=10386988118976637459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:22.415Z",
-        "updatedAt": "2026-01-23T16:00:22.415Z"
+        "updatedAt": "2026-01-23T16:00:22.415Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJA60XS-p1K4QREyrOXan-JZA.jpg"
       }
     ],
     "adventure": [
@@ -1253,7 +1312,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAQAAPIGbK4QRBxp5bccTSsk/photos/AcnlKN2QppCbUJTHz5Zz9C4gn6cvA0Q2IZZ-Y9kry-IKHfa73Rd5I7LYIXNU-P_hua2_T0LC4dM-ggxGAiixkpdI4eLKuc7PlQX_QqDzoVK2bvqOf79dG01goQvnJdoVtrM8At2KvhgRHUmuCqNA1VJvK_LhZPQ8YNRSRLO1akeZoyzJuuq5bjA2sexAFrlJ-Z3yW9A5IxNjZNDYYea_vXOvI8PtKsC3o2AVMdWhcD5158Yv5ZAvNap1isz6ofRBhZBP9blGFZt5uIleRBk9cErxqu_F7LyFEKCKcitbnyD4NN05O2MiDov6nlDMvwnV3MmcGIyxIz03dj7eKO9GR0Ef7VXH9nIldk4k8BgyNQvkqJpErncjWiva94-gpmAtQMizS-aFdWVHdreijG2RjTaY6NEOh3JMGLnCLtWNq8e2oePG9WyJ6sj0bNxN-NKG_iXG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14504427297156176391&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJAQAAPIGbK4QRBxp5bccTSsk.jpg"
       },
       {
         "id": "ChIJB7izR612K4QRVAfeRfk9uTY",
@@ -1273,7 +1333,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJB7izR612K4QRVAfeRfk9uTY/photos/AcnlKN0oLJt--T0JuIRKcBcxOeVA-68aAZEr4Eqm65D-yUrhzA04xQoaMcKfnkoLAkKqpR1X6JwJhvez5O56Qhe_kgp1efmXpjXtBQd6fCO_Q9lizjG5DFjpOHWWHvirYYMz_UEtSnEPKsEnZquajn67OYP6-kQvRUoED-Xv8XsKWYFx_r17F_4UQjDWkVibfTjW5Ozk3NFwkXwvu9cj1Q9a3fA3tFS_4kjSeb8_sj-cvsBMqFba2-1ACDnUiVg_PXjwNCfVBOTubBKEgC4zHEdtBa26aaSub0iBUdx6-pqfJUss441O-flRvJ1kuvVG4HYin-j5ue14kkWeDTGxPc4rzCfXjHvatnG-fgpQfKrdmFKhbBwfH0K0ByRMGqZBTNJCrGD7KnchF5VDtCTmGUZwOgmyUUWSX2y-OPB-zZjomIZVab0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3943251089567909716&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJB7izR612K4QRVAfeRfk9uTY.jpg"
       },
       {
         "id": "ChIJHX5V_pudK4QRWFWmK95xD8k",
@@ -1294,7 +1355,8 @@
         "websiteUrl": "http://pgbicentenario.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14487923725303174488&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJHX5V_pudK4QRWFWmK95xD8k.jpg"
       },
       {
         "id": "ChIJHTJgUcN5K4QR0ztQQ5s3P9E",
@@ -1314,7 +1376,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHTJgUcN5K4QR0ztQQ5s3P9E/photos/AcnlKN125W-kXHynXlIb8RjCzDIGg8WfQ4CKJoTlwNsCKWkjRbMK63zKveN81xbLkV0-RCWJrnP8eBGve_uaQacXGvp8Xfcyacg42KUKGLCdike5wuw2BbTik12582u54Gnrg_z-ADTJh1oSCRYhYIo-TBPgCgPVAC6H9GeoVqrSXYhOwhvabCkAZ9wKNeIXIFQj26V4BPrf6jvA6P8gO9wdy7P73TdR2p_cf8QvOggd6MswhiHLP-UqefwU40eH_yuczAMLYuQQlpks-TtTLUxe-dsOTih4t4_ToNdiJZBaVzyZJA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15077831217448500179&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJHTJgUcN5K4QR0ztQQ5s3P9E.jpg"
       },
       {
         "id": "ChIJb-zz6ZF2K4QR7BTOHrZeKD0",
@@ -1334,7 +1397,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb-zz6ZF2K4QR7BTOHrZeKD0/photos/AcnlKN0BJ1uEDM_vyqlmaSFRWge1gXQ6_3dW25P1vrRo6GaDwPVHz_EZcG23AgqkAeXFSPpH1S1itA9YN0pJhhwOQhkqJND2clA0BE1VEpyfi0v1z8c9iRoGdSnWnnr3nCZV1RQh78J0hZ-bYR1DjiWybb0u_pHNg6HlNROAfaoRMUCnoTCT_jw7J39Gf3Lxuj-MJN980iBB64TUUUgRud931VD-hwKuXv19xnR0Ke0bjjO2cW_My4-JksLJiZ_OBtQ3m71UEsfvr0Dmgm1P7hkjHaG74J-exfJVPKnJojUmahkFONQWjOUo4BkNz0VQq0nMpVU5lgR-WnJelxJF_fTL1iejDC_MO5JpawkmqXnVy2h46IM-MNKoiZRW7E6X9FXkSYFiScY-mQ01tnHKdkZ4l60qkFIhhxZlEgREWIwAKmBaZg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4406876371675911404&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJb-zz6ZF2K4QR7BTOHrZeKD0.jpg"
       },
       {
         "id": "ChIJj--6ip9RK4QRN8yVSJqoyDw",
@@ -1355,7 +1419,8 @@
         "websiteUrl": "http://www.parquedeaventurasanmiguel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4379936018214014007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJj--6ip9RK4QRN8yVSJqoyDw.jpg"
       },
       {
         "id": "ChIJ_xyhILtRK4QRm_oFOnMXWIE",
@@ -1376,7 +1441,8 @@
         "websiteUrl": "https://gueytours.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9320225212505389723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ_xyhILtRK4QRm_oFOnMXWIE.jpg"
       },
       {
         "id": "ChIJfYe8Zv53K4QRTwtNjgjsML8",
@@ -1396,7 +1462,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfYe8Zv53K4QRTwtNjgjsML8/photos/AcnlKN0HzvX8c5fjfBmVElVCn5KI25CuomAMLUSx4lGdLhUfRJ9op7qnevlIGjbfaSJB_1sHEek_accAPsaSWXj3ymQD2tJr5LrWfwyJN7alcOYbkzd-BgG0q2ksCKW2OtoH_YP5ySQTAjaDRhxGntSdhLe6q9pBriMoaYF6h960wYNpjF7Stp4JIHcS0b6htIMCgQqlBgsTz3aqU1hLgTi62wsnAzd3zbBUAwv5jnmQMcczMrIHWqYFz33OvmDKUJD25WLPOFXzwZ576ZgZRM3RUqHYTdB_LisEKpKFBNt1FW-G0SLjxTmZn0zoRTLfyEv5h6Did0aD-w7us04PRlZHOWzaGUXZgfv4hxti1m_ttujnIXL8nRjfYP2xHHcIZhsuu0bqNDrSZnZNsZWhGLuAEhuq96z09nByAp_p5cWOhJ7eZyZJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13776770781617654607&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJfYe8Zv53K4QRTwtNjgjsML8.jpg"
       },
       {
         "id": "ChIJh0A92A1zK4QRq7xjlTdhKyY",
@@ -1417,7 +1484,8 @@
         "websiteUrl": "https://smaot.guanajuato.gob.mx/sitio/areas-naturales-protegidas/7/Cuenca-de-la-Esperanza",
         "googleMapsUrl": "https://maps.google.com/?cid=2750398888797256875&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJh0A92A1zK4QRq7xjlTdhKyY.jpg"
       },
       {
         "id": "ChIJy56LfFR3K4QRF33bd-IE3dQ",
@@ -1456,7 +1524,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJy2QS3wd0K4QRDz_Tg7ssUjs/photos/AcnlKN0eFhXUtI7E6F_iCeqDSJcl4I7b2y-3okOXWriDUiWo8plBF5DC30ubYJv1NXY7C3FT47IQ6rWzM9AnmTXbB63YLRESHH-e4008j9N3Qppz8frJ4NKEXN3tZWX9Et-GczGGqwzD5yFUVzJ2U4eqooNnckKYDB71RnMwC3KRwD5qEQDF7e5Ih45XuiefyrV7xC-7MCOfrFLIQS55JtXcBHIs6nNtypRaM74GXlOxws6XB63zJJH3BHHIsLdR-R4c2Ja5_EDODLvaigidr_i3EvSlI_agHDZSNaXgyEB20cx9eAU_gYRb__hipOGM6BKrYiTVD_B7mGDQmCUZFBh8VPdp5QT8q0SOqo7o80v7jvlk2vHe8e8ABSB784w8k_gVbXDlR2pcPQRcLtRZvzMHkncvWIB50G3JwoRLVohh15o/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4274528180210188047&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJy2QS3wd0K4QRDz_Tg7ssUjs.jpg"
       },
       {
         "id": "ChIJuxGEFVWfLIQRgYFRS-y7-hU",
@@ -1476,7 +1545,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuxGEFVWfLIQRgYFRS-y7-hU/photos/AcnlKN0OIQbquFuyAIjhdLC-_c8IuXLth9u0HqfQj0wUP5AwVfWBk3s3Qe6zb1clz90Y6CeUu3iH10MqZMtsNRaWse8eiABxMOSqcoFr31tFT81ZE6ndm5M2wKpejKDA9niEDt3IEjVc4JJqSe9ntXvdoN5FFkKB5euPizgxcy4vdpinmZfazW6smuT8OzVUfC1E_TGmYMnxfbOyX2V7E7YbLqhB6DWDV9-EHOCmi1_ZV1DiM0r3RtyRdAXzl8oATQ8xem0LORmrU-BArEGKlbOXggHUnqBm5K71qjUGMvddKawsGeTs-RSjhYb0FuGMZfVQFd9ti9Bo3oii66LzXYo8tM7P7Pk6ueVj5SZ40RZXbdyYi-j_TPeCdWYGMhguEsOamttAZsTXLXWsQPmVnxvN3sLAKqynrurtgd0Lj9GUyBDRzg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1583784842524459393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJuxGEFVWfLIQRgYFRS-y7-hU.jpg"
       },
       {
         "id": "ChIJ9_HyTWVzK4QREAFBg5_FhgE",
@@ -1496,7 +1566,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9_HyTWVzK4QREAFBg5_FhgE/photos/AcnlKN1VgtGmItx_ZwQuJVZ3kcPNZl7yv2JkZ76TazF1IHFw9s8naKaNJkLpbtJpfFaAO3vjay_FCr5RdyqV9n3xaUKLFqcqDvNDC-X8GkeJKvuL5O5qBIcCOwEBK_WRku_K57QoWWP7V9Nbi3P3IXgeU3vpYnGdHsfswCrkAtNOU-Y1kNtAi0TnGkWU0D0hYkDMED8FLn4YWeDPVpUNlfB9zOElE_bCfLBzTt_7mdDFatVy6plsDGK_dfKCjj6GCPm0ZOEKEnGwOavA-i5hVzWyzrfiHYPt-Nslzlke08xqzX0C3ZRKkrAR_Zdiu8_Bh_1UB59xchC8LtorKivFtZimuL01Q1lqSg8Id7J_2Irb9ujeNak3kkWYrk3P9YD0j2zydQ_vwUaLnLk_1qzh8WkXM5I7fgOCFhIBjn_OK_WtSLD5fZw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=109992529809703184&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ9_HyTWVzK4QREAFBg5_FhgE.jpg"
       },
       {
         "id": "ChIJszQ7Nx5xK4QRcarChY8IeaQ",
@@ -1516,7 +1587,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJszQ7Nx5xK4QRcarChY8IeaQ/photos/AcnlKN1pvC89-Z2c4AovzN5kNw4Gc779rt2kH4yWr5lIaaPh6pnWm5RQG9mmxhHlfeNIeO50w5FU3rTRUIB8P4aNUOZBLb_dDugHIbUsAFcPi5ELUGRiNYC4T7QShcJCKkqYxGy3d90oo3VRqS_LlQ-FMzJMzTKiIoYFL4OCX-zZc_ZXsUIQPQRlSJlIjwH9xqlMUjRiFuXaXK7IFcvv6ZPY5LJ89MWrK4bNP1VvGN_IvuBi85bsV__XQgdOKmBA3HYw-CUFYlRXv2mRQG5A5YTtPwtYX0sIW1kB5Tdv1D8qRPYfZmSFE7kShuOJylS--Kl-Zi4Ju02P59ey3XOkEiRHu3CaXCQTcjCg-I5kU08JY7RKr1LmEkVsbYoBg9HBjVdawmurI7aCauTL_ltFkK270j04_NNsz3wGkg2Ssj9uvhM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11851513306919643761&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJszQ7Nx5xK4QRcarChY8IeaQ.jpg"
       },
       {
         "id": "ChIJlUynY-5zK4QRoQFoDemOFEA",
@@ -1536,7 +1608,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlUynY-5zK4QRoQFoDemOFEA/photos/AcnlKN2rtnDFYoPI-iOiiGHfI9lf9urHG8JdoIOp72uemaKrzvAKVvJQR9FJnoN_NgdnQNj-4vDjeC4YrzGVUXcxfX5KEO-gBloygz_G0_pXZX0S77LqTPCSwdHmEakRcRcqooonMvKEu-6zwmhceTiR1MYpAepCA5fp1N-KeLkMH5zs8main6tDU6nwxFDfb_syr4wjZx8RgmUqYZNh8HaMO6MRqpTOZydBOuZBQ6B1sHjYkP9ts-EduEdiBSwUEbqW4IJDQoJlQ92OtTMqHp1chU7_RxOSxE_G9gcRb1e148CX5NtKy7ohdjsy2QCTVxMFoRQg2IqfJ1iiCjwhpBDQjBnSvtGaBfhG2nDHl2TdsvUaI9T5QJ1xpu51JvqYxLJzaLmx8-Utclg_WatouV4RXgrg6UuGjtyLSfvB7AEiIJb7sg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4617472649565045153&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJlUynY-5zK4QRoQFoDemOFEA.jpg"
       },
       {
         "id": "ChIJE41c18RzK4QRwZagP6RGxeA",
@@ -1556,7 +1629,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJE41c18RzK4QRwZagP6RGxeA/photos/AcnlKN08rWxVCD8prFm2OAKHzr3YBmz-FwnL6hvuuU-IUDzOfcDzqMYqtMwNWxNrmv5AUC2yAHPlgIQM3CwqjVUwcbrLiAbU4GoH7rHUwPsCfYuHzHelajAUOrQ6vmAKp6J5pv0y2Foo_zlmKQfNUjt_Ky0GzpmjxhALHmVwDN_Ak9qht2uSxLw1X6tAbPRxJgPBeovGav6YyiZcv6C6ITLuFCCXssgBwP-vpJlRW6Tb23QifqTs_FXNwrcRTQsB4ta7T6vhFyVgxTo0Ge9HGjGO4c7wBInsjxzgvOOJF6LS2c7DAsPOmsxCikoNOfO6Pd4Pw66ied9R7KPp3ZZarKtnNH5KOyYgasioDPbXi0_nFOIwgoA4ljh-ksay9GGZ2jqNPgy3HacGxNoZHdRmBzzWVv3xovigwBP33YK13m-CEabPfA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16196429306163926721&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJE41c18RzK4QRwZagP6RGxeA.jpg"
       },
       {
         "id": "ChIJTxM1AbdRK4QRlyo8pRV-UDg",
@@ -1577,7 +1651,8 @@
         "websiteUrl": "http://www.coyotecanyonadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4057881895692413591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJTxM1AbdRK4QRlyo8pRV-UDg.jpg"
       },
       {
         "id": "ChIJU7lw30p7LIQRaWsFGVBhTw4",
@@ -1597,7 +1672,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJU7lw30p7LIQRaWsFGVBhTw4/photos/AcnlKN1si_MndgNYvpW5wcMIa0hgVYzkI6W3A0d14AjCqYE3QB07YN2pbTfJNX3_Y-1Vtw4wdb62jt3ssZ2rVcRYQpj4rs2AQbsS6GZO8mCpu0Zuyj6MW77UlqsaDGF2o-vkn2miAkomSJzeHL7az7x3WAA22ckFEmFLP4iZSXvexosu-9OuQbwSzK4SNfy5PMt8S9iVX5Y5mcjjBK1pTJs1KONU8OD0rIh__1PzNoF1HL-ReFCxlYfj6DAD8rIPRkEyCiAtsESuoPwI8JmIv16hnld69He2z93HXqLIqvB3i9Ft6C0Ix26Zk87PB28ZTuhUi6Bvc5UqA9JuXIF_2Ny-ysx8d5GvcEPR8LQqD7MfhE2lvtGEZnzz7fCbTQowIWYaGQSF6LLBaG8CW5GeBm9Mnkx5wce-rH0gO9sSKNuS5Mva3kW5/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1031149836336196457&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJU7lw30p7LIQRaWsFGVBhTw4.jpg"
       },
       {
         "id": "ChIJ1_9Hn88NK4QRrNZIBTrjbRA",
@@ -1617,7 +1693,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1_9Hn88NK4QRrNZIBTrjbRA/photos/AcnlKN2IBrtT_S0r9kvi2Ihacn33r8kRwMC8fKAxvzgg6QNPEssSROzFdIy2Gn2rxVCTqB9W0WWdenpohfy40tFHmSdBT8ObB5GPKqiP6bbNZrQGih_mm7glfw4pCri5sQfBR1ApjpfOyE51vFxydPlCfk0qC57m_cEVqKC2ULhJAFmUCYjwWmHO-ZTNND9eA_aPHDKQ4RuvFLj-ENvJQtKhiCk1JBl1QDEcXPoRcpHPTlig2DU61XQJtK5H7BvoAIMeNpvn-JEijvgE22uJb3b7wZp20NJrmjUZE9C-ZFvQUjhAjnjyN_k-066ybPyvhof4Dj-d4LZPI2hyFlxbpNrbD8aLkScsbmik8Cbb4QmKe3OAeZItyA1RvPAfOTYOlPYNV_rn0QTEPCqmmPuKdH3HgZrmfERb-TZwkSwIsQXg7K0PF9Z-MHeZ6zO5yazDiw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1183852115404576428&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ1_9Hn88NK4QRrNZIBTrjbRA.jpg"
       },
       {
         "id": "ChIJ0-mS4EJxK4QRIcsuc66hlMQ",
@@ -1637,7 +1714,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0-mS4EJxK4QRIcsuc66hlMQ/photos/AcnlKN2D_OfP-_Hjhc5nukR45htBCLZ0ZQZo3jLQ5-FPa4XmUwtXcT1n5SuCl83k6J1W6U-Pj3E4GJu7OVMPMmKzrDMQa8OWR77CxPTEhEiZ1xtvgIlMMBhjN9RkF1aEStWXLV9atcWgMqdqeU6ECks3Jf4Uwl7W937nxXy1qxCDhsHY2DA0ZGmkt7gaJxbQqxysrrDi4q_O_LqmRQ8ZAahgos1YRk3QPHtZvq9yYpXjsdJLeaDO72ZQZdtT4sfW9nN_72mlTsfoAqSQ2aSys1lYYYp9p177VH5SfA0Jq2ABFb8HvFNllOvhg6AGqKn6l8SAY_Fza8xZ_8g8rf-roV6Ppc50yvxCm86qiBvI0w1XKZlvZHl8suM7yF0ob__ekV8VZAVc9unqGR9ldfYfvtDAynzDTRiJCxy4WIf79bO__-nuQg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14165124498615880481&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ0-mS4EJxK4QRIcsuc66hlMQ.jpg"
       },
       {
         "id": "ChIJSxkkmuRzK4QR0Dabj_oh5uY",
@@ -1657,7 +1735,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJSxkkmuRzK4QR0Dabj_oh5uY/photos/AcnlKN3eS-kOMkLLE8hwflVtF2blxO5PyLnl1vV4Bp-eitYD-ISVJHSqkgvPtO4afxOK-UvhCYzagWau6M4EI0G-s5PHMIXH3zXR7tNwBNJ083wETz7InhUw9LJ-ly8dCRYKxY5CZtx1QspwBy8d6QmezPEdQU_W-LYDxrqr-CC_GbYjE2qICnI3GLpT9RN7t-Xefnv6VssBb-kacElivwGLdJ33ziwdlwcYlmWhfX3XfGlJ3e3gQ4s7YSR-PuFmw1bm7dFaBWWCwTmQe8r51eVsEXyvCQAVpQj6y7AwzLEIZErdLSC_5piDYvGApztNZOjdXLIvHHStdPs9_uoYHNnTBYu75ESTGbkK00RqgeZtL5KW1flH4IPeHcpujjlm8IDkrTpy2isrE8qrTivrOi2b6XKL5GwcOtZAmM_aoq9iG_Gcjvj3/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16638023233401730768&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJSxkkmuRzK4QR0Dabj_oh5uY.jpg"
       },
       {
         "id": "ChIJyxmyhsWdK4QRHHvHwbjmnOo",
@@ -1677,7 +1756,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyxmyhsWdK4QRHHvHwbjmnOo/photos/AcnlKN0otnYVIOgjnY8_nd6OkJ-WQrXP7zIA2CWTOrSDLyhl6Mcp-WDNUR3Q4FI3Xe9L28Lkx6TBhpp7TdRwo_ryB5Fxs7C7XhhoqlhCyfG73S-IGdjAbFsOH4mnBaPpVUA9eE60xZ9YZIdvZeaHosCp_1_LPb3upbCEPTlR55LyumfW-q5htk9dBAMo67wFDRxTjxiPpSiERdIROa_11_jtkgs2prY2v2T1neuJ5aFLE7XE_Mk4uGjxqXIdo7yXJbduy3W7zMr1D9Kbe_iMLx6pN26uGU4eoZFRZ9TkBOE84dxZr16cNWtw5ZwunrLT2Onq2Zy9wNtZC09oeGLQSGLYkm34MkkAfCbF-hnvxzj2KXJAydtWCrzx0HbBZWfOFBKlWrHKlXNqK1z1pv0guBMd7hulh4e7Z2zaGNH9rW3hahc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16905640782441446172&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJyxmyhsWdK4QRHHvHwbjmnOo.jpg"
       },
       {
         "id": "ChIJVTNMVRVDK4QRf4275j4HE48",
@@ -1697,7 +1777,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVTNMVRVDK4QRf4275j4HE48/photos/AcnlKN38PhBnfuCzSEaiofUpi-V5wGmCzOezFEtNtOm4lj1Nf2CYXHUX1ZyLtb4TJuNABgBWLkOPBMxldfWM0g2zMwUlw_b9C2p8hxj947iwVunxM6pKjPEJMBLjJKPIw-tS4xr1q3Px3ZDU80ZZSiuZSBz3w-MVcxTxujzSH_Z8kgT2qpX0DWS3LEFs-KnjACHsyCW3mJm4gqX_x2XpvWgEFOzSz3ilDzHSqnnX6Ge_LGIGll2Hjl8vraQemKtBARVORFuXgr0jXWNttefw_nOSvLWR71EvUjHNs4vedDqfksHs1JMuIE3KbO8jNmH_tabmYUuzDSer26pxp7XbNztq_FFB4YzL3ovBoZWCXssNIKYl5Tlfj8VX4jHfuxP0BVxEgAQWYKPzi_Tr6FkMsCuDzM887PF7aUeBmFKcujbot_8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10309591938721615231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJVTNMVRVDK4QRf4275j4HE48.jpg"
       },
       {
         "id": "ChIJ8XFMIukMK4QR_umFDafDIvI",
@@ -1718,7 +1799,8 @@
         "websiteUrl": "http://parquexumu.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17447723028640557566&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ8XFMIukMK4QR_umFDafDIvI.jpg"
       },
       {
         "id": "ChIJbfLYHGYNK4QRtvUTEaEnLF4",
@@ -1738,7 +1820,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbfLYHGYNK4QRtvUTEaEnLF4/photos/AcnlKN3z6KS2klh4JddcJOAaFov8cOlR-NW_oQSw_LMLO5q2-Nl2LVhajkz6wNU-qlAnTRRiZwUjSvbS6ad7BL9wUAQ0MuCLubcJ1bAQAZWz8xnd6yQloDkdtPbFHBO1ueRYmGGgzS-VF6SvhuXcRcGEnhD6tHN40KijVo3hT8Ghl9B1kcDd5ZyVwGZFpnacgM7fCSu15dlWrzlhKU4Mu_RUQ8bApQbpHZG49jijuWQ7-imCjfYiar3Edllm6Kn5stZC5sePeuIj7zgIrqpoRYg9Spm3zTjzpzjbztraycvkXGU3Q6ikic3U1hWtDb3FJukhZUverxpzf7wIuTqAN3_aDPrVwSf_7Vg9-u8UGQAVUiiphU-zPtrZisJcNk8EIWDZl5FeT_kQHuwdmQTglWnh-e9pB5rYAsF5Bew9LubCecI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6785842311270233526&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJbfLYHGYNK4QRtvUTEaEnLF4.jpg"
       },
       {
         "id": "ChIJ8YJl-QRxK4QR_zNgr0nqk0Q",
@@ -1758,7 +1841,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8YJl-QRxK4QR_zNgr0nqk0Q/photos/AcnlKN3SbmmU2F8RmXuRjbddv_l5VmzIGnpEYOJpi60KGpD2uScmMUi7bV51MxvgTBcyemqkR2PhBeTquAdWx1YLA8yVo94fnpG4NHC_lgXCyU-lXM2zQHRa0qX4K-_S80uF8z1ZvKpKSp5jFdwF61h5hrb7qkD5QW-A2qE4piHBw3_TDVdikNFFGSIKrxjVfP9XKnJBuAsZIF9JwCFSuOHxNBu7iLjo4D_1Twu_AkPwfeXQ4DtbdMuHAsGSU8BPvRwX-TKhJE6S38ODDVg5-tKoFM-B8KTjcq7YttugFIb2BoWuMzdliJ8-6GLK0IbMWENEH8h87EsNZjXJmNFMag-EEcQt3LRtanwzw8hDX4ig0bvx015U_WNxw3mJWg-zbeDwKDrUwX858UY-WoUIk1i7vIe9ddwoLjlv2P4kBJJ4qNjKsOE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4941550818351395839&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ8YJl-QRxK4QR_zNgr0nqk0Q.jpg"
       },
       {
         "id": "ChIJFQBROhR9LIQRuhMx3YuCxS0",
@@ -1778,7 +1862,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFQBROhR9LIQRuhMx3YuCxS0/photos/AcnlKN3MBIGjrwDO-OjrksJd3_3VAoD4sblBEdyGG1VPy4m8AFxzuAxZOnWtZ4kCLmwnqfdyCkrz4eyMrG2JTAXu0oVsBofLR2slS-06XCJ146AyjfEE0hZqxifPlVqUnNQeg_mlZRuFmjeJ3gITVfjFLxmOSaVIDgXT3VvuojY5csVpQP5jKmjW7euT_qHKsblK9bkX6ORzzfrgTaBlhofNh8t6cJffS5XYTykFKs_-aBga1eBBSnyzgdZz4nee9pTZ2dCBepWteI3RlEIMY4aJVBVPCx7j1UyflLZzbgGq7atOyNhY6uOA1J1POdw8I91wp-nyyZT9s4sJo9v7WEgugr9TAgqUGDhE9wi2UdM3kU0prEBdzjj7UmKiQmdStTm5h2_aBqCoUk7BingQb4odudoPzp3O_anR4KqQOX-YuWL9jg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3298185839341802426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJFQBROhR9LIQRuhMx3YuCxS0.jpg"
       },
       {
         "id": "ChIJS4m_6o-dK4QR8LFQ2aOcSLU",
@@ -1798,7 +1883,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS4m_6o-dK4QR8LFQ2aOcSLU/photos/AcnlKN3kEvYNKUXByFmclLeuY-DxwbTpFOXeRcd42yPt8FkbmICcuTzVd9O-QbM1zSmSwWYV5Z5fr7qn2cmQ3T6EeIdJGLD-6zm-uFnafLPq9guRZFMJ--kwuZ_pHRPo4PAdo1_9hRp93rBAsRQHZMciCWoMTA_KfkLPAOmu99XHILG9KHhqn-3xHhxzPWzMZGzYkMWJHnSZeW7R7BLVTtE5-GsZAuCLNqJDdPJA8_K0xofJexVe4zzt4UG-MM4UX5jKsta5j_s7e_O0wJ_AjmBOaF8NFSlJGiWmSOLCd92280K4WPjsv2uMN04S4VeXiuVYUAtlNITz-ZV2YXeoD4IEloEYWTWbJ6Dtoeo42H4AIC2Qp1D-CY_wXPR7kj6YUo7gHkjp1FioPwOuJgbk0WwQpwjVQQgT2uCuNnUeMkNq_s4WaQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13062862946727670256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:23.534Z",
-        "updatedAt": "2026-01-23T16:00:23.534Z"
+        "updatedAt": "2026-01-23T16:00:23.534Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJS4m_6o-dK4QR8LFQ2aOcSLU.jpg"
       }
     ],
     "cultural": [
@@ -1820,7 +1906,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRXsG7wd0K4QRzW1Z2LzN9Kc/photos/AcnlKN0ZC4kIU2F3lyypbhjgiAyu9EW-OE-zw9GlUMhyPVqoOo9Q-RkZGn2phSyFKacj7y3adx36qDZm4CTdUXWdHhtvfqKGrENhYat71Bn-2kF-OVcuihQUmvCqJr537BvZgAMgNwiGQazNODXFMkTM3FIKWysMTZHlaAOD0BqivM4_sBtLhcvFZZJ-M5ETsXVQBOcDFXgYmsvMuuYnwNYc4a244s-2RcKJXYKk30lqnvd557885zJSUBfSYcSZjdGm97cCDspAxHPQRLmV4TIhEAtN_f_NVm7kbTjURQlNyvg9r9FeS_H6hez7s2dddFNtHKhXUwWMfh6lYonvhUSruGQ-_n36CQi-1EKaJoYKczBdwFK1IMWsXaDMiIKobrgWxzYV4Mp2qnaH4GRbRJH4bxjNio0rkUgUAUb0rKBx-7hi1Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12102524309618650573&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJRXsG7wd0K4QRzW1Z2LzN9Kc.jpg"
       },
       {
         "id": "ChIJlRYuPlW-K4QRZvYoZ9m8qso",
@@ -1841,7 +1928,8 @@
         "websiteUrl": "https://forumcultural.guanajuato.gob.mx/mahg/",
         "googleMapsUrl": "https://maps.google.com/?cid=14603692383626917478&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJlRYuPlW-K4QRZvYoZ9m8qso.jpg"
       },
       {
         "id": "ChIJEcWszAh0K4QREN9TUTb68HA",
@@ -1862,7 +1950,8 @@
         "websiteUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1004/",
         "googleMapsUrl": "https://maps.google.com/?cid=8138279637858115344&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJEcWszAh0K4QREN9TUTb68HA.jpg"
       },
       {
         "id": "ChIJKcnMEZ12K4QR1fshSSD9VWQ",
@@ -1883,7 +1972,8 @@
         "websiteUrl": "https://museoexhaciendasangabrieldebarrera.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=7229963091920944085&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJKcnMEZ12K4QR1fshSSD9VWQ.jpg"
       },
       {
         "id": "ChIJZ78spnWNLIQROqrmKReMMMY",
@@ -1904,7 +1994,8 @@
         "websiteUrl": "https://museoiconografico.guanajuato.gob.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=14281068449506961978&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJZ78spnWNLIQROqrmKReMMMY.png"
       },
       {
         "id": "ChIJy1QkFLz514UR0oEO_lzSnUo",
@@ -1925,7 +2016,8 @@
         "websiteUrl": "http://www.extension.ugto.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=5376684826991428050&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJy1QkFLz514UR0oEO_lzSnUo.jpg"
       },
       {
         "id": "ChIJ9RIM9Qh0K4QR-4IVnLEbsLA",
@@ -1945,7 +2037,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9RIM9Qh0K4QR-4IVnLEbsLA/photos/AcnlKN2An8cwI0EL-S5Suh5zkKOODtXjFjj0vyD2-2u7sNkN4jelPvKQ_N93S8dkuZZ9NZ5RZLIypnuFv5flhAtvIrH99cNtRSGwBe-ZtXfAWUJWgi1eA31HdS8rM0CywrPD3OKT7tBIHnf-oHo75kEzIfiQpG6CQtP1_kaUYBmbj_pAwp7sRbVvHC6lWriXruN_dRQi_LGTOOcjpoyafJJUuBeRHPtrXxuRWTTfgWVtATEI38KC6J-JNg31A9WQKH1Sy7gASnre58J6D15lZ6r78HUAyU_Qn7pzfwgapNxufjAEkHbBXe__p3GTxpJ4kjd5z8E_MvuqauofmLlehralWqy1uHq66rJ-AOnceDvDjjU9NRxacl_MDYcT7yjsWKwaXpYIBXzhNES7L6RZG-6m4tifGtRT0duq7_i9aQgIyof3DqUU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12731706596218209019&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ9RIM9Qh0K4QR-4IVnLEbsLA.jpg"
       },
       {
         "id": "ChIJ8xyz0Dx1K4QRvqevGFDWSvE",
@@ -1965,7 +2058,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8xyz0Dx1K4QRvqevGFDWSvE/photos/AcnlKN2I0PWMznBzIDIgCu7kQt6WQQMNk21ZytcY66AewjKUIAZ_5V6IpVv0pUKbapslzsfgvUPRMJpItZyRk12Vs64V3ds0_A6P2PXH2DeQj3nUSvm-tJu6i9SYFGC0adsbxPnonem5YhVD4yh1RXyi4ocPYJcI-07I9oXSkzccPiWaoM4kVJe1i1yyIZvxzzRCYehr4BXUZwV7vC6sYz2X-DzXSBoKLMPHpQz1rihvmpwFZJbKJbBw4odKpoD2EYXzBRBEM0O4bfdwzHLLssU_Q9LVXwONCQBnkNwL9KbHdFuEvL6ridkPylM9-FyXuQGTLkJnqehr-V84C_mV3VNYMa6DNJMaXUUf1UoNDOc4hQ-H9AFauljNQv5TrlT-CeULzAkKUJ8zwFNBCrxFJC6C4WU8NSozmi0-DaC2FgKpk60/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17386944950917113790&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ8xyz0Dx1K4QRvqevGFDWSvE.jpg"
       },
       {
         "id": "ChIJ-6zF_nZ0K4QRXUN435C9K1A",
@@ -1985,7 +2079,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-6zF_nZ0K4QRXUN435C9K1A/photos/AcnlKN0e8HnnWkLwwyppGkdZP53KFZ89OIhfOjc7gSTxIZjvS2IceZaZlYnVfLeT_AVLrSfN7eJJ7K87UrR2Fp-9fqq9LpB2doZH7BEbtWA-HmLRAJRhwywFYP26qWwZ_Wo7UkruBjxXhi44yT4Tq9Zf8So2utPCrNiaIIRS7E6c4ONoqqSsTGBbXPI7xcyB-rijakuP80IwePQyUkJe5CQTUxXT9no34Q3WksQU7iSO2jviBCGeDgpBladYd9JK2XbjA8cCWMfb_PZQQtajkPV-SRjfpS7pPjhYb2oL-vSDWSQIoQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5776919376954934109&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ-6zF_nZ0K4QRXUN435C9K1A.jpg"
       },
       {
         "id": "ChIJHX5V_pudK4QRWFWmK95xD8k",
@@ -2006,7 +2101,8 @@
         "websiteUrl": "http://pgbicentenario.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14487923725303174488&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJHX5V_pudK4QRWFWmK95xD8k.jpg"
       },
       {
         "id": "ChIJ1R1c81VxK4QR5CwlEyZTKlE",
@@ -2027,7 +2123,8 @@
         "websiteUrl": "http://www.casadetiaaura.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5848578489089076452&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ1R1c81VxK4QR5CwlEyZTKlE.jpg"
       },
       {
         "id": "ChIJLWJDYPhzK4QRvNj6pYBmh_U",
@@ -2048,7 +2145,8 @@
         "websiteUrl": "https://www.guanajuatocapital.gob.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=17692222363874810044&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJLWJDYPhzK4QRvNj6pYBmh_U.jpg"
       },
       {
         "id": "ChIJpUQedf5zK4QRn8lCk4uWads",
@@ -2069,7 +2167,8 @@
         "websiteUrl": "https://www.facebook.com/Museo-Leyendas-de-Guanajuato-832966623522152/",
         "googleMapsUrl": "https://maps.google.com/?cid=15810333493076085151&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJpUQedf5zK4QRn8lCk4uWads.jpg"
       },
       {
         "id": "ChIJ1cxziIt1K4QR9uRjrZM754k",
@@ -2090,7 +2189,8 @@
         "websiteUrl": "https://www.instagram.com/estudio.kuchi",
         "googleMapsUrl": "https://maps.google.com/?cid=9936976608271525110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ1cxziIt1K4QR9uRjrZM754k.jpg"
       },
       {
         "id": "ChIJ8fqCOvZ1K4QRhVZ79mfxhEM",
@@ -2111,7 +2211,8 @@
         "websiteUrl": "https://www.facebook.com/solarastoremx/",
         "googleMapsUrl": "https://maps.google.com/?cid=4865278926286182021&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ8fqCOvZ1K4QRhVZ79mfxhEM.jpg"
       },
       {
         "id": "ChIJX5baMh51K4QRntcWukiY65g",
@@ -2151,7 +2252,8 @@
         "websiteUrl": "https://m.facebook.com/casalamentosgto",
         "googleMapsUrl": "https://maps.google.com/?cid=2176188769450317090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJm5ztGnd0K4QRItVH5ydgMx4.jpg"
       },
       {
         "id": "ChIJ72SgSHFxK4QRrIh9UDi_1Z4",
@@ -2172,7 +2274,8 @@
         "websiteUrl": "https://lacreativeria.mitiendanube.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11445264276621461676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ72SgSHFxK4QRrIh9UDi_1Z4.jpg"
       },
       {
         "id": "ChIJ5xdV9Ah0K4QRmlFv5pnbemA",
@@ -2193,7 +2296,8 @@
         "websiteUrl": "http://artlalli.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6952110428842316186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ5xdV9Ah0K4QRmlFv5pnbemA.jpg"
       },
       {
         "id": "ChIJVVH1ZQh0K4QR6xpedDnhp6I",
@@ -2213,7 +2317,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJVVH1ZQh0K4QR6xpedDnhp6I/photos/AcnlKN1tJATMe3jqGTBXwhSDpqBcyqhDsOpOkOKKYNDt7ZOJVsGcqyuVoatv1fSq1xyAQoTHuHpd0kxlMuOQ6Ju1QXxbazXwbOkrAnOUXdEDr4scDGz8EwQCCuIsUMZkCO4IDYusuHoCzP_a4JSicMItElz1ug9DJlBy0SlIiKELf1Qi262NNTxAe9xPMnRzc1f41Y5NEYPK0JsIGuy6coUw-SNTwkh8ISYZ24p4Ago8QFBYVXi7aXXv1pSYgcaQ7IhnozU84M6lBqf67Bgq7kOt233CvCbTBHQ3ek5sg3WKTHyXAgpBSbp1bBRB0A8nmMpf2GuqlWyPbEGZZ-zMhmH5Xlof-nihPW2J9bJ-80QjSRGJhXLDDPswEq_ymvbHWN13HBCrkvCuWkdNQGnseUQVRKGO3Ep7lkUQbgJJo9zfoERINCg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11720584192136714987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJVVH1ZQh0K4QR6xpedDnhp6I.jpg"
       },
       {
         "id": "ChIJq6qelgh0K4QRRIAoV5HUCm4",
@@ -2234,7 +2339,8 @@
         "websiteUrl": "http://elpinchegrabador.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7929383814636798020&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJq6qelgh0K4QRRIAoV5HUCm4.jpg"
       },
       {
         "id": "ChIJg9v_Zgh0K4QRXl7ugIdcoEQ",
@@ -2254,7 +2360,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJg9v_Zgh0K4QRXl7ugIdcoEQ/photos/AcnlKN1MGxZOY9dpphQ1ltQJYRLPGj2ypasts66_D0cq48656TsyaMxEtD3ZwodON14PXnEUI4O6iEKy_eyfR_5ZB10ygtEWvAJSC-ub-WzpJZ1EPjVJi3uY8YWjVZEMtxSWIj-OQh0S-LCSMe-RPG5FCyf7BtPzZhiHaqlnYfVzfva1rZWmAOe_cfnAq-rXpAE2fxreO2UlVWtXgiYChXjIqGY5cbaGPu5YATN40rO3YIheB1KUNAt7veVRkP_b9z1Rnz9hBP8Uu6A6WQvsm9FgvmylwRKRbabb28zk9LaANciXie6yiyymgXbtz_NV_8LLAstaZuKe90koMjSLyAcJIjzZij5U5_h6Pw_mQe6qiLnqMjMyyLBBWHl43XPhj1YDJiheOFx6JnV1An3HJcWffGUVtT215J4yycFhRycXzGOwa1Ytq-k7a7HPKO_euCtU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4945054127906250334&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJg9v_Zgh0K4QRXl7ugIdcoEQ.jpg"
       },
       {
         "id": "ChIJqyld6Qh0K4QRJ2LaqpGP9ig",
@@ -2275,7 +2382,8 @@
         "websiteUrl": "https://elviejozaguanbylunian.mxhotel.site/",
         "googleMapsUrl": "https://maps.google.com/?cid=2951704461587407399&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJqyld6Qh0K4QRJ2LaqpGP9ig.jpg"
       },
       {
         "id": "ChIJM1NIEgx0K4QRtJQf5ObSO7A",
@@ -2296,7 +2404,8 @@
         "websiteUrl": "https://instagram.com/tallerdeexpresiongrafico?igshid=YmMyMTA2M2Y=",
         "googleMapsUrl": "https://maps.google.com/?cid=12698975463412831412&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJM1NIEgx0K4QRtJQf5ObSO7A.jpg"
       },
       {
         "id": "ChIJsxKo__dzK4QRaCffgd4uZic",
@@ -2316,7 +2425,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsxKo__dzK4QRaCffgd4uZic/photos/AcnlKN2nYxF2m3z7-ndzAH7VSgf6o9HortAmvcM3aVKGnQ72ty9j377zZp6ch8EV2bYL5NnMcrVH9Xg6QHB3zSsqQBfqaX_XUBCvirItxpHcU59yXBsfCYageLofI7efly_a4PUnh9JMZgw3THeJ4pEzDkcYAu-u_dOwCRiUg0mf4Rbtxr_RfqW5HZ6uyrWSAJXVuG_xRpDhDWyPV4jqms4X-bCyc-BntmV5Q_yino2ADYmhlJe0TT3tO0oTDZyQ_hK2q33JwYxjCzPTiINI7h8zqoC6PBRXdfk33n9aRatMvUTaIXLRTbnm-eavfS4sT6o2QKtw3Ozm4j3ADiqaeh1mpD8TreCDVYAgtWdXMxvyOYh9qTRPLYZSw0S_wGePMF_QFb1Bt5uSZf3tPJz5bgeC-_c6_QnsC4Rw1dxgSPerGILc2w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2839008148300179304&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJsxKo__dzK4QRaCffgd4uZic.jpg"
       },
       {
         "id": "ChIJWbzeZgh0K4QR5ZaOE0vd1hM",
@@ -2337,7 +2447,8 @@
         "websiteUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1801",
         "googleMapsUrl": "https://maps.google.com/?cid=1429573246257108709&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJWbzeZgh0K4QR5ZaOE0vd1hM.jpg"
       },
       {
         "id": "ChIJScio0Ah0K4QRX08foI20RaI",
@@ -2357,7 +2468,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJScio0Ah0K4QRX08foI20RaI/photos/AcnlKN1MhGKrByvaPdGryPR7ixlVZt5Ez9yOxv8v8wpmKcHPdqEcK03A0FusQqrhpBIgenVfBuKWD_GCzqUKaklVuekKItfKPke2Eu5Or1TRW587MrcwE-gqyaeD4glx8omhoxBH122UNDWalYt8eIfwRdj8XEeygW4JbakFR5NxJIRsfbrEUVEmbrQG3ToEv8ARjpkSQfEfr7xauqgeNSiEseKepfZvYuvuz82Dyzg2yH3qtJWsscPtj4MGD2dNAyO9W93zyRWHe0M3T_NEUCiEs3RRqF24YNM9gpB4ImJZZgO1LHSyYfpTHMTTkqx5aNLjDK36GohK807aw75QJBM2SCuh4bWFLDpm5vARt0hCALkX-_MO1k3KXjM9Sa8HE24nnIsZL-JFTzBmVs23hT0XfzRGMnaEe7e-R9Zk356RyQI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11692950527907155807&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJScio0Ah0K4QRX08foI20RaI.jpg"
       },
       {
         "id": "ChIJ_QWScuRyK4QRAR14l7W7WXw",
@@ -2377,7 +2489,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_QWScuRyK4QRAR14l7W7WXw/photos/AcnlKN3gqTfwLTRSj-nADYXsBUobxB1p1uz49qqP9SIDw5D2gKq8FoD5R2vqeKtVV7IjyN4ogt86BF4mdbCtlI4abFTcTk41KcMo6ANjBfebJVTVc9JlTO2L7c5rp7oGnK6uPyVT4ughteXxmDEAvTflF4-Y10zU700REH5JjOI9N5smwxkS3uODGPuuN6Jz1ChqMsweQ2F3T17r4rYwuU7bnQ0Vu86EqnmPHPbfRGjEvUMeEReHxRsD9aZ5CJXQ7_YYgHFn3Ku8rCjgWfPJ8FMURh55fB00O53-_yVFHbLvYiLjNA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8960399322235018497&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ_QWScuRyK4QRAR14l7W7WXw.jpg"
       },
       {
         "id": "ChIJvVP3Cwh0K4QR2_xjW2nCYEg",
@@ -2418,7 +2531,8 @@
         "websiteUrl": "https://www.envisionarte.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=294680295667515111&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:25.988Z",
-        "updatedAt": "2026-01-23T16:00:25.988Z"
+        "updatedAt": "2026-01-23T16:00:25.988Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJH7Mi6Qh0K4QR576R6SrqFgQ.jpg"
       }
     ],
     "relaxation": [
@@ -2440,7 +2554,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAQAAPIGbK4QRBxp5bccTSsk/photos/AcnlKN3KzWTfHfs2MsMsngbJP3UoCzgIoBbBPuB9PEnJbG8R4x60xQdRK4nIQSFTrx3AQHBrtj02xyOZ36ARYrtFI7e3bzFNMTZoVRm015ryG_62Fy3F21CFsfQ7fXJqDtlSZ3v9Jis8y4lADamWFfjfVPbeWi757n51EXgSojt6sKdOxBz3P7UcqNybiaPQj3Ene90zeU8ocKjGTcRMKgh2rxmZFyKPzc4-eYp8au9wlzzFdQhvc367yeqgdLdfthpNBzXlPMN-xwItK0CvhZaZCxo8frQmqNmzFugadgTyRmgZI6UAjQg8L0xYAnC1sz5V0xKpV5KewKnEmtFIXvXp6K1JiQZebYSX93m0XQPaTTUNogSsdluKzWw7D_gyZ_G9Ltwr8F7eXk65QmOKoX1B2_Xizocwvk_OwgUdOlonmcZWaEjKVQsCnKmeo1hlvXLS/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14504427297156176391&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJAQAAPIGbK4QRBxp5bccTSsk.jpg"
       },
       {
         "id": "ChIJa7Lh8Ad0K4QR0BMnoJhHgc4",
@@ -2460,7 +2575,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJa7Lh8Ad0K4QR0BMnoJhHgc4/photos/AcnlKN3l7vSsXUuEiVHPJ6F6RFiMZZ2joGgWA6pSrhnR3XRcNSgGVhYr2lKUFNrc95sfSjlShCUz8sfYQtoHugTlj6o3Oi5xFX2oHPrTcIPlPTE6AySpJrOo_jZFuDWHsG3c2zgjri3vCV0B_9oyDQk9eVwfVfI4dVTG_M10t9fStvfZZoyqt1aj5-aX8AafNsHEBvZVOuwNdMa6nDwqxOGyvhqYvSw7IGMQDBisot0cfKJZ6dHeMcwAVhFbnRDyf2Pwoc7cERb75IlrycEIpiNLiEc6lGE1d1NxYTrbEZqo9dNhCS_q8gbfvwjww1ouMYXveavB0u1Rr6XgrE4JcJZNvhwJyg0oPe7n5i4R1XGDS41uue9F4dcxB3AuQ9mSg8vaChWFY4FpVp6X5lQnbKbgrrmmXzwqo5lHa1jW_tjcGL8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14880253364656346064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJa7Lh8Ad0K4QR0BMnoJhHgc4.jpg"
       },
       {
         "id": "ChIJYRRkCqJzK4QRBMppeGGbj2k",
@@ -2480,7 +2596,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYRRkCqJzK4QRBMppeGGbj2k/photos/AcnlKN2DuF7p4HrFS76qdOQUH2wdLn_ifYJerlcek2Fi7nf_aIYbWO8wjqs5Xn2VvFmM3_BcHZ_Zy2XWI7hSr_cEvE3DrzEuxO3Q1Ej8DWOD_dj7qYCo2Wq1Mcy1QOZZQGG90Dy-jmYaLA6NJyW3-5k5MuhGwoWXV-c4Ft7-a_-BolQZeyrKGpvCIdtTAqnYxOtr4vhNUe25gvELejQ62o06LUVxZDbL4ejsJn_QpqEcVueBFXobzl7Vtvw25VVYqCm55Ata14neFrKLjCQcB35eI_lBj1BCYvinE2wNIGhYauoPqg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7606469138586388996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJYRRkCqJzK4QRBMppeGGbj2k.jpg"
       },
       {
         "id": "ChIJAQAwow90K4QRR5g_F50m4iQ",
@@ -2500,7 +2617,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAQAwow90K4QRR5g_F50m4iQ/photos/AcnlKN1hHJHILfJefbihzvGoOT-xQ_xtphvCWhpmlepB6R7bCHe0T1qx0ODUqP-6Wln8ZKCqVUsfq-tA_quK3_5g2SaV8GVlGS3vkGRZhMNc5qpRdUVIqK91-vfT7c9daoZw_BaVpIAPP40YNPnlB1-33afzE6j1uFzia3yZDM75fqKuHtYzz168vIkoEgr9mn4PexY2GQuHy6pFaYQUKCgzMg_n-ql84VJ9JYKQlr9Hag20woElNTcFAY7boBndShs71Bj6Ul2a2I68pqgUUVEyK8eTB4fqUoFNNmPvs37Z5uydKNQw6QQRpiPqHzgUKtxtLcqcfqyYl9IAvqhbrPF8i7D1xnvzvddKvSRw7yLf6edkeBqrWA1enA3KtUzHxhkpmCpR629bV_GURSyl5YJPRAky7gdxa178sXCQolbmzBfraA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2657729186243778631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJAQAwow90K4QRR5g_F50m4iQ.jpg"
       },
       {
         "id": "ChIJN4AvPlZxK4QRXrzeLxMt8z0",
@@ -2520,7 +2638,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJN4AvPlZxK4QRXrzeLxMt8z0/photos/AcnlKN3SVuihleNVJDUt4BiatAdTKrKxgnZwv1tDhziaUybFB_7d3ptyuKdPDxkJcN-GkWlGOepQb8OVlJDzNItyJv4hDJP5T9vxtBJcS1ylBIrrdYiW7e_vU82gGa8LD3dzDcfNWmaL7C0vju9EVMsnaXIFF3z5HK-JhQ2sexAsaG7i0I9v6Xl0ZyeBHoevRESJB1Cz61KNbjMNpeLNBdKIFQABCzfBTelQ2IohbGrJ1LaoMxJyKLSpf2DYB6NFk8gP7LzvcORkl3rM5OyEcBn2a-pxEmiBbFdJ1RM7i6M5lKASsqUEfuq919OWjdxeGIIB731i5A0Xh16ws95vYGqS09KUX5bpgd2AhoKItXS-2olcjlt4w1gEN7_6RUOlfCc2SvsKib97yIWUPQqyG5L33td61AZxPi_ZSIkRixPo760/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4463961216085048414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJN4AvPlZxK4QRXrzeLxMt8z0.jpg"
       },
       {
         "id": "ChIJHX5V_pudK4QRWFWmK95xD8k",
@@ -2541,7 +2660,8 @@
         "websiteUrl": "http://pgbicentenario.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14487923725303174488&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJHX5V_pudK4QRWFWmK95xD8k.jpg"
       },
       {
         "id": "ChIJHTJgUcN5K4QR0ztQQ5s3P9E",
@@ -2561,7 +2681,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHTJgUcN5K4QR0ztQQ5s3P9E/photos/AcnlKN1Yx3M-xLeo0maZdwSXvIpHYYsokPv5Q_O8Gq1LnB8-4i5Sw2LFM9K9nk9BXbVvGx6Mtr0MnJOsT4YqugHD38PBSnlNGBInsPXfzRo7CX2CCHMEDowzJsJHsNSKb-0fjwKPJAtfl4syG5m6jITLAs1EJ0u2GiQz_jAQeP9cq5tf6HbK0IkIyct-aR-kVmQM-GUroWXfh5DZpiNYmIEY9QQ0JL2bhbtj-qTnSPCyqiA3gSbHGJBeUEatqV9aO15P5OrW90dQEVmVmdxokpp8TgCPd1gjsou42ynB3T9LhfzzzA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15077831217448500179&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJHTJgUcN5K4QR0ztQQ5s3P9E.jpg"
       },
       {
         "id": "ChIJvZYpqqK6LIQRemjsbCsqKhU",
@@ -2582,7 +2703,8 @@
         "websiteUrl": "http://www.vmchotel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1525077789817727098&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJvZYpqqK6LIQRemjsbCsqKhU.jpg"
       },
       {
         "id": "ChIJb-zz6ZF2K4QR7BTOHrZeKD0",
@@ -2602,7 +2724,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb-zz6ZF2K4QR7BTOHrZeKD0/photos/AcnlKN3WRFi-LHEJEYMYX_dnSRUq4ph-M7hMIwcfSqVYKbTsjFWYOXWPPkSRnnhR3YRWM7Fy8oseemR1vuZO0-5wWtR7Phd65mQlAaWyOIdoSLsOUF198UFbXgeXPRfTc0e971ypyglnR8EHiMAdvb9eok6o_kh8J9S8Vev0cZrRG6_q4bNlhQ-9IoN5kqE8vxWjrCfhbRKB2bLH_v932Gad-ZJN-YpeeFExQ9_l5GFkMU5h9XRqmoYMOe8EEfy5BA_zB9HlkW1F6OMHnPvNFWQxwamkbXkDYZQWAqdAp8Xdo1_nls-l0mRtFd-Gqq3fuWwLwoPsfBigsPFWc1OBmJeWwl_LZVHkXP-tCTB5sq_rR212UcZocqhbR7Mr0QsbBcUu6Zw2A1B8y1oj5SCdllKK85Etz9aKDn-ylB-les9FRI-cgw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4406876371675911404&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJb-zz6ZF2K4QR7BTOHrZeKD0.jpg"
       },
       {
         "id": "ChIJYQa2NPxzK4QRLhg6y9t9jT8",
@@ -2623,7 +2746,8 @@
         "websiteUrl": "http://www.maggichome.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4579454779066554414&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJYQa2NPxzK4QRLhg6y9t9jT8.jpg"
       },
       {
         "id": "ChIJ-S0y8gd0K4QRb3qmKMFmdpA",
@@ -2644,7 +2768,8 @@
         "websiteUrl": "http://www.hotel1850.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10409620568510200431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ-S0y8gd0K4QRb3qmKMFmdpA.jpg"
       },
       {
         "id": "ChIJh0A92A1zK4QRq7xjlTdhKyY",
@@ -2665,7 +2790,8 @@
         "websiteUrl": "https://smaot.guanajuato.gob.mx/sitio/areas-naturales-protegidas/7/Cuenca-de-la-Esperanza",
         "googleMapsUrl": "https://maps.google.com/?cid=2750398888797256875&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJh0A92A1zK4QRq7xjlTdhKyY.jpg"
       },
       {
         "id": "ChIJYeLwWQh0K4QRtx7cdyBME0I",
@@ -2685,7 +2811,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYeLwWQh0K4QRtx7cdyBME0I/photos/AcnlKN0WN-A7pNgWfQmnHXNTRdg0476vf472olbzkmUQAtJJaPJ0KeKvky4FNMmONi6L25AykQs9N4ELYbZzKSnnXZnNCzMCx5v2ZtwIapwlgYKuPKwrBGxBsMZ-RteUA3a62IngNwbcKcEQacfBBnT8bHNm2Qo3HjUTDTw58jkOveQlDRUdFRkZn4K8wFL9vTRjd-sGz660XMbnOXTl0jO8OX9048_WJLo8R84tlpHFZmKcS-D4SbnbJ1EuaFNEex2HaAqGFpn8mPwBb4vyVxlrIz6K_pq3EoQ8GTLRNxR7oweJWA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4761232933394325175&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJYeLwWQh0K4QRtx7cdyBME0I.jpg"
       },
       {
         "id": "ChIJy2QS3wd0K4QRDz_Tg7ssUjs",
@@ -2705,7 +2832,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJy2QS3wd0K4QRDz_Tg7ssUjs/photos/AcnlKN0d6Ot4vTmxnOI7jbxY7NoJkrSj0n8V8vnquqj1uWqfCh7X9QhoNerxahXyqcKapjLqaxN_ji2wE0OMY6vbfOHAPfTCsPt9lqvI-SiRaLLsUmnqmjH_YVOZPjJFnajsiDhkXWSYCvWVAmmRsvpcq4IQcAReXMuNRZBisO1sq_1rgaLR3tMn9JEleSX5H-qkhxv3n7v6V7lr5EPPh-NHXCratTpLUN8EMKZokSlhVD1Rzy2ETX_oNyW48FLyWMbuga35sqSfTfC8aWwNa3fCFFFss7vI2xd2IK-B2lDCCJBbhJ4zeVy9ovzpCS3TcXjG7lpNwx7rIy-IQCzL_NXQfM_NAekwkliVjN0K4NpMh_6rS7ouFjExoAiGuAb1MwxMPaL2dWGpcugzYN50htkjQ5QZQ6si_8nlkqi4U9cOHVA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4274528180210188047&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJy2QS3wd0K4QRDz_Tg7ssUjs.jpg"
       },
       {
         "id": "ChIJv-hvgwd0K4QRMhr07nIjeWE",
@@ -2726,7 +2854,8 @@
         "websiteUrl": "https://www.casazunigabnb.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7023684070403217970&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJv-hvgwd0K4QRMhr07nIjeWE.jpg"
       },
       {
         "id": "ChIJOY4lYoN2K4QR8eU9ncx6C8M",
@@ -2747,7 +2876,8 @@
         "websiteUrl": "https://www.facebook.com/esteticapassionspa",
         "googleMapsUrl": "https://maps.google.com/?cid=14054462081369761265&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJOY4lYoN2K4QR8eU9ncx6C8M.jpg"
       },
       {
         "id": "ChIJ9_HyTWVzK4QREAFBg5_FhgE",
@@ -2767,7 +2897,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9_HyTWVzK4QREAFBg5_FhgE/photos/AcnlKN3fv1Fha52wzsr4KAnYm2xPqU6unt7ZfHokj-s1o-ow8JL7m-2eR1iCR58-fjbfWGb-676X_0f3nfSatl5PHaOxrOSjZPGWP8buoM54a3plSjH9EfQl886oSj5Qe15F7xS_PZLbr0Bdyg-_w-vP1rH11SD6Z4DsdFC0J16dPZDF0xSP4ntjvaaDUtmHCk0PkzfF08j_7nBRH6raOcXO0SWJhW2QJx_zPiuerx-aTgnOp5B5Jii36HrbeUR2lCG7gwbwnPjrjGCFirdpcd7nQvgcDvPUGkh82VpH3t3atPky_JP3hD353FwQ1FawksFu_Tlwed9-B9eG-tUM755GbR0WLEygXMoUzuhnjV-JzxWi32yB9LwiUDo9AfVLdX8zL_sJBNMtzYRqPgOAKPx9lS6SiwB_WPhaSPUSJygSyHhdZnQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=109992529809703184&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ9_HyTWVzK4QREAFBg5_FhgE.jpg"
       },
       {
         "id": "ChIJRU_Quwh0K4QR6P-r2kli9dE",
@@ -2787,7 +2918,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRU_Quwh0K4QR6P-r2kli9dE/photos/AcnlKN1LsjCPlJazj_nTfMSDk4klms_euJhstAtjLUK7ly4wGD_zTaWFA4uozB-uTVA2iQbK5WNrgRb4zBgJz8VQyH0YYwEQe8lbhjdkYxMJyKlv7WsswOb42saPNh1ZxTS7v_EnNjBjJSag390sm1btrfBKqhcExQArvEDqMU_vtst7El6x-yJqDQRylLEkAZDehB0E_ILCQqw_x-1hxJF6hUOyAAmU2WGtV4ZGMQv4NOGx7da8T8JOtbHDJjrF1KqdZa8v0Udip54NvHw85eu7hImp4oh5Eld-iVu0Dl5vmdQCvWRBCtZOlsmkwyRjpxQDj45rHW8AVWR6oQc6ieQohSCDZh7EHV33A-415pituaBhg4hAhZnY_wnU2no0kPGnLwFw_TN2z4ck-8wliMXKBCI0lCW_Zs85RWq4pSx6l-tYHgTN/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15129106592561889256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJRU_Quwh0K4QR6P-r2kli9dE.jpg"
       },
       {
         "id": "ChIJySu1KTB1K4QRkqAAacMw_6k",
@@ -2807,7 +2939,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJySu1KTB1K4QRkqAAacMw_6k/photos/AcnlKN2KpkiIfmsSkSbXrxcxtWuw3SN4iNhj-81Fvjaer-snZXwwvzJ_UffLtyHsAzGJEx2s7xBbI8ePzKMBihDaO4Xad1XePHXOOApdcf0sF2ytzwzdfTiIWRpHFpn7XRKT-bnzkK3aWtmM62MnGfZfjqeVEXtQtkNkGmJ74exkXEelQqeqvhiYxLBPoEPXqbmjo_Qurx0swBB9PssLt2pB8NnHyqz-wn2F9gz8tlpCMyv6_Z71adu4aWhOpIGFnLTByfWoEDdsa5l-YmZhA1Kq_uX1tri01OpQSq0f5ScPm-cuTQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12249563127309443218&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJySu1KTB1K4QRkqAAacMw_6k.jpg"
       },
       {
         "id": "ChIJyxmyhsWdK4QRHHvHwbjmnOo",
@@ -2827,7 +2960,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyxmyhsWdK4QRHHvHwbjmnOo/photos/AcnlKN1ggBhNDRfYSUJYfCX4TtchqnFCUKM9UYPNU7rP1lD-go4jlOLeL1geZe7Lt9g7iZEm8O3yYmsZuU2mPrCqNLX2A8qjPb5D8dwuOCBUrhBmBlmBexjADmPKRxUOnccyvjkhTdnB25Hsxsa0d-jFOKp3COnAVpj2lUZQQ3TzM2oEV-Mr9zEg-axiFm9_VZGT_Rwcfd_Eq4YlQPPs1d2XxEQTL6jY-0QQL5uAUeCaJCEob2VgFfWlo_jTIMgCw5Go5RJxRDmckmn9qgWHnP9PM8knP6VXoZyOevWWD7z8rWt2WxkHs42jcVADxrMi8WWZYT3tWmHI0DPMmIkN_h9hUfFZugEwZr-lO3w_UrXxTSY3UF2Bbs9MRZmtQxrmeEaNLAWVwP1lDipLMCXfGS0QKvFkX2zT03PNd7FUe4SioZI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16905640782441446172&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJyxmyhsWdK4QRHHvHwbjmnOo.jpg"
       },
       {
         "id": "ChIJKZ397PhzK4QRPepp1XiXx3k",
@@ -2847,7 +2981,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJKZ397PhzK4QRPepp1XiXx3k/photos/AcnlKN12v_HIPHOlWzxd0RF2VzMyGrPMgUIaI6HaIENI_rdWGxoHxkkBGvtve3d6rP_WlcFqaj4fMRrmT_N6TUF246df6TeWXUx-ybsqVeS8XVHieQMOGLp_lOAbnFV83_rbfbIT8qFJVRqrdy3JkzoxCsxBgqvWUlZFtgA1jC57X2kyHNmlwCkIMcDRFym0eiXkpY9gvWw2Kq2VgWENYs90MU2zArmipwqmlH_do3S5BfzYBCF1nBpnl6vHJYJqOpUrLdAaNhRW2sMlyxibsBxCwN3G43jMUjvkm7tcszRke5CR1d00dCr6_Gl5DWr-fg3KypUfjenhIjM3hqXdaA9CQHhWtDW8Uyl4CJmFeXbhL2pgMU_Rd2GtyuF8tabSRIsxZGPcWYOspTIpDUcHUa8YcPqTs2Rq7vKnieRRhqc2ZTwvMXgM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8775148944187058749&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJKZ397PhzK4QRPepp1XiXx3k.jpg"
       },
       {
         "id": "ChIJ-ULB4vdzK4QRArctc_6z5EE",
@@ -2868,7 +3003,8 @@
         "websiteUrl": "http://hotelspacasadelsolgto.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4748117812590786306&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ-ULB4vdzK4QRArctc_6z5EE.jpg"
       },
       {
         "id": "ChIJ8XFMIukMK4QR_umFDafDIvI",
@@ -2889,7 +3025,8 @@
         "websiteUrl": "http://parquexumu.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17447723028640557566&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ8XFMIukMK4QR_umFDafDIvI.jpg"
       },
       {
         "id": "ChIJSY6Aswx0K4QR3qouwjC-Lz0",
@@ -2909,7 +3046,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJSY6Aswx0K4QR3qouwjC-Lz0/photos/AcnlKN1C0AGoMd8cfAXzLV9S1qKX8peJjob5iDbhFZ3meqfXNtzn_ubLKPKgq9mQJ1kkVBungXvCKBDSrTUcr-MLJiWM8_hEdFzf7mx_4eDCrWd4B3BDNVqOFSGXvQRpryqaoO86ZA7E5dqlIZySk-XpJ4vIeBMw87bbu16AS3B1kgVeckBK31L-QtWlq6zGewwZRvv6PGsM0XOQi-2s8GEC0vdEpOkykFCsG6EGxvkM1jd9TF4WzfKeguGV01RKl0LeWszV4MS8tYitIBWY7547ww59s-KK3OT-wW_L2ezM5C8OctYWM1ifv7C0Hn3u4wCEjC0cDqxJm3vdDoqom2qupoB3DEGHDl0611KQx7fthRT6FaoSYOfTnlytaE6Zcy8AylspftdxDbSmzE5g1iwN6hPdNTQQ7a0EHxvKjADKAAlCc-r9/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4408951676844550878&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJSY6Aswx0K4QR3qouwjC-Lz0.jpg"
       },
       {
         "id": "ChIJcUbjoNF1K4QRboj5uM0nlrk",
@@ -2948,7 +3086,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbfLYHGYNK4QRtvUTEaEnLF4/photos/AcnlKN3nEEAhGZ1QqaFqwq7iuZsrVMG212zf0I4sCQU3gAgg_K429QB8PBpf3ejkKQHfI4NVfROutGe11bedJ_qLSTa0wKibIWesoaQMwJGG8SLMGLMJP97-ikRkVS01lIOitqJMpBWxCn8P5lxlGnVLykdd6MWIiU3csMNZtimaVSgpjxv0P_gcaMAJ_-DKQmCFllCuzVmrc-XI3ys6TUyTzf6dHzKFSOmuaEgOZOrv_7n6gpzbMR8X_HxPFXgxwVDkN71VoOsltY7G02wNHemwWEIxzrVxq9_d9y0AyJoENR8YvHcHiC9xA3V51IyRnBlmvVhLJ7YxqpCsL4j8u8hTFA5FrxdFupJYOHK7IzvI7fFSE4vhS5QKap7SmYHCrDT7mKSfxnfxYEtCqukVyRy-YbBy4X6P2OXX41yo-Pe2kbk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6785842311270233526&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJbfLYHGYNK4QRtvUTEaEnLF4.jpg"
       },
       {
         "id": "ChIJARcuSaOdK4QRd4BffM18SBk",
@@ -2968,7 +3107,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJARcuSaOdK4QRd4BffM18SBk/photos/AcnlKN1jnPoedgfSeiLoLQbSCwZQiTMGCSVOln1qsNN0b6SCDs9H5WbcD-sJykbcSjvXD_J-uvmf4bH17cscswFgQVgzinD02yFOByO4qyFn_ILEsQpxXih5_WgVP3h2aSHFKiyBobMYYg2MB7YdWs8U_9udHDVrSix4iVb32DNFk9K8VpoUZyv1D-rg-c26blhnIsDA5VVEyOsnFQQDROCpywA1ouJQJxOuaD0JzpGi3n6B7Ut-Bsf79XT23OBSZSujU5Ylozyf0_aonU8-GDZ2e3dd1gGW2JF73869U2HkOpnxVAIMyN4n9IPTOSx5E-0iIoMT0hn-duc0ylrsvoYSq-OTFvRCuga_S_86qzxeiYmy5lEVeDU_qteLJ95VE8sZj6hURuaOGWfXA-9Nn4K1S4T4t1V_9nclALcUqIwscBEw07XB/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1821843271268139127&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJARcuSaOdK4QRd4BffM18SBk.jpg"
       },
       {
         "id": "ChIJL_GbBxaZK4QREjnlHBmXrfY",
@@ -2988,7 +3128,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJL_GbBxaZK4QREjnlHBmXrfY/photos/AcnlKN3aSP4hyRvJFV8otrSVb9cKkYaRO2Y_cdelS5C6mp95j10cmqf8v0tVuzqgtdRUEeUzfnq_VXfCzPNbf-Yd_HTgblPywuHV1pf51kpZxDNHn2yQVpqxm2dGdSuznj8uscx7GPvxcBZh6hgYwPXsNn07h9RZRREK-Ca1YaWQtqVA1vaAjtNRGy6gra7HhBBJWy_-Z34_lhvx2yhMJsAHjMx7cR8LDXmHt04XtIzRwFdA94_mrB5KGUQfnZpydrxtxZ5BwgBs9CVB_o3NVj4vKeOYSqkzCT1NL8KCP3KpqvPcpu_yv6FJICjeSLBOvrUC0_JTSBD8Kc4k5QpgM20T5PBPxdTjsTS8qlNxeVnLPMb2ME-YN87kaDHusi633j6z04TKPMivENKi5kvmlOP1dNELbfIkG5nd07b4qs6wytFvaQph/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17775029438415976722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJL_GbBxaZK4QREjnlHBmXrfY.jpg"
       },
       {
         "id": "ChIJowQhxVd3K4QRr3U7reX5f2w",
@@ -3009,7 +3150,8 @@
         "websiteUrl": "https://www.facebook.com/Casa-Kiskanu-104767038723661",
         "googleMapsUrl": "https://maps.google.com/?cid=7818242242987652527&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:27.289Z",
-        "updatedAt": "2026-01-23T16:00:27.289Z"
+        "updatedAt": "2026-01-23T16:00:27.289Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJowQhxVd3K4QRr3U7reX5f2w.jpg"
       }
     ],
     "nightlife": [
@@ -3032,7 +3174,8 @@
         "websiteUrl": "https://bostombar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15126206320746918130&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ17YpbMhzK4QR8nBjs4EU69E.jpg"
       },
       {
         "id": "ChIJYRRkCqJzK4QRBMppeGGbj2k",
@@ -3052,7 +3195,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYRRkCqJzK4QRBMppeGGbj2k/photos/AcnlKN2rWFhYZ1YTAscAqwYS_Y8yzrL5Ah4A_jp6VOJPzlThp2H-__wTBYGQ5YuKmuKI-kMILKLekDTy5Hqr0yPs9J1iDDA6malRgFFPP2dJ8y-6rzIXoMiFUjjLqSfo3mNng4rmWBKMVtTa0TOAW2wXikF-GVUoggD2NQMMy4iMdopZaqFF5xqwc6wmRHJLGnixOwgKFtXAutGtpr-Q7z0PfsqCEyihqCPfHGiipKmjU_E6uzTpRkGIGNe5tmoKNRO86qLaavwiEP0eYQBdFZrkruqJT3XxZcNNz3XFrohSAV-PwA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7606469138586388996&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJYRRkCqJzK4QRBMppeGGbj2k.jpg"
       },
       {
         "id": "ChIJVxB-tZF2K4QR_mOJ6Y2Faqs",
@@ -3074,7 +3218,8 @@
         "websiteUrl": "http://www.lavaca-argentina.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12351831772571984894&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJVxB-tZF2K4QR_mOJ6Y2Faqs.jpg"
       },
       {
         "id": "ChIJr6lug213K4QRIrHfXRwXnaw",
@@ -3096,7 +3241,8 @@
         "websiteUrl": "http://www.facebook.com/Restaurante-Bar-La-Oficina-1528165327510546/",
         "googleMapsUrl": "https://maps.google.com/?cid=12438123156468642082&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJr6lug213K4QRIrHfXRwXnaw.jpg"
       },
       {
         "id": "ChIJOwEVFRl0K4QRXFfaF5oWmV4",
@@ -3117,7 +3263,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOwEVFRl0K4QRXFfaF5oWmV4/photos/AcnlKN0aV42kKt-FtVn3lOuple-hLcb9dsL2IxRvDlsVj4rzRPylQxsfLwYTTzho2l_rz_3RJHKNIh87392H_4E3s61bnayLmyFtZIq8e77V8gJj5tx6UIH708UBFs9in5WboRSye1olqjaVUrNB860XhHf5SgOgpS4DK8hYqPc5nrd7BE4e8CrrMhIOWPmRw5PnffJNG22-x5XTWmKFQsVdfayRs7pVNGmoLlSzEyInDJod3Fo1Qeyht76R-VBMvFtphANAQ9pR0IsTuJeCA4-tnvtjdOOMoCclBI0JTBCv_C-g9Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6816504362082916188&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJOwEVFRl0K4QRXFfaF5oWmV4.png"
       },
       {
         "id": "ChIJWcaRY_hzK4QRaZU0PA176YI",
@@ -3138,7 +3285,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJWcaRY_hzK4QRaZU0PA176YI/photos/AcnlKN3MkrqP8GkSjYcWpxy2O2hiB1_Yn8FE0Kk2A9J8SP8vSNSkA3dtqhEsMgCk0qkbUzeNBxjr1COuWwhHVu7NBi0kgLuP8zLfkyR9ls2VCsBPO9sSftNH-GW_YrEeNbWMnM1d-ohQvkyC-3chxa1IpqeSushCAuXEvjo-uAVMap76lcmMDSfh3_0pWZFNLP2b-Tt3NQyA7w5GHo_e7xXpwjcMnkZ8XRGMrdR7rYYQLPWF9Jf0p9OuNR22oxP6B5Q3IcZFR-F-3SGY-FalcPhxtn7G1-Q1Sg-8K3QDx-TFaUCByA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9433206191279084905&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJWcaRY_hzK4QRaZU0PA176YI.jpg"
       },
       {
         "id": "ChIJHTJgUcN5K4QR0ztQQ5s3P9E",
@@ -3158,7 +3306,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHTJgUcN5K4QR0ztQQ5s3P9E/photos/AcnlKN3IYHLxxQKNuw_l53E-Pbvnx1oonk_ZD7_RrCaM_6peThCPbKq8f5u3b_ju5uep6rA2W6VUm7usqfZlY-BBYPVj3E5xi7N87k6CcF_KD5eGb_T057OrbZ2fP2fArv6vBP7BOBAiV-mF2_LZw55bVjvnY_XCwtkXTYW-cg2potcA8kI1ASNQ0MaU0ldbD8tXgaS5sWVBDK9Fw8QxXrJLEVjyrx8jAR6Y9deWWm8hMw3tIU0L6qwWpKoCoPQRWqBoz_HRgv9T7R-78JQDKXRbRM6VJluZVFyAk1lR_Kubk5a8kg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15077831217448500179&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJHTJgUcN5K4QR0ztQQ5s3P9E.jpg"
       },
       {
         "id": "ChIJnQyq0DNzK4QRZkCYKHP76HY",
@@ -3179,7 +3328,8 @@
         "websiteUrl": "http://www.oajillo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8568374763093246054&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJnQyq0DNzK4QRZkCYKHP76HY.jpg"
       },
       {
         "id": "ChIJXavSt7JxK4QRMDiKINQUfxo",
@@ -3199,7 +3349,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXavSt7JxK4QRMDiKINQUfxo/photos/AcnlKN3EZqIhur1UUJAjAzD-nFoF68iOlerzcSUTuiWDRovm6BBY7AzNTvwTcr9IPvgrfeE47Mcy1p3KBP0joFnLEgmhyYcsVdpv48QN4z3hdONy8KbO0f9QlhTaYtdblGscJiy2Hc_PRsd-UwZFl35Zw0HoIdn5y9W8dSLL2LlfdaUJGF_FMAdt8obj4q5_Cy4N-hpA9KScHXH9yl-22IYmG101c5KlVbWvfGMePYfPk-1RmJG4Yj7DwOEYJuSyKp9-N8uDhh_0VcpZlMHrhD0FS1Jaum89kZE1qlx4w5mqh2olnw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1909267668339931184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJXavSt7JxK4QRMDiKINQUfxo.png"
       },
       {
         "id": "ChIJ-S0y8gd0K4QRb3qmKMFmdpA",
@@ -3220,7 +3371,8 @@
         "websiteUrl": "http://www.hotel1850.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10409620568510200431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ-S0y8gd0K4QRb3qmKMFmdpA.jpg"
       },
       {
         "id": "ChIJVZiV4bp1K4QRHzrdfHKJ7a8",
@@ -3241,7 +3393,8 @@
         "websiteUrl": "https://instagram.com/blackmambagto?utm_medium=copy_link",
         "googleMapsUrl": "https://maps.google.com/?cid=12676939650931964447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJVZiV4bp1K4QRHzrdfHKJ7a8.jpg"
       },
       {
         "id": "ChIJK2hPi_hzK4QRsooWOUPyE5k",
@@ -3263,7 +3416,8 @@
         "websiteUrl": "https://www.facebook.com/WCLUBGUANAJUATO",
         "googleMapsUrl": "https://maps.google.com/?cid=11030426282894985906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJK2hPi_hzK4QRsooWOUPyE5k.jpg"
       },
       {
         "id": "ChIJJXfLfgBzK4QRWDySwDFP4Jw",
@@ -3283,7 +3437,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJXfLfgBzK4QRWDySwDFP4Jw/photos/AcnlKN24a9wZBgjx04IA-uv8zmqlDOyiHKR_Hsvrs8dYrkfrEn6uXz_Z9eoUrwBCcjZiYtsj9-DxTu-UsBI9gsldY2RkiL4NnpbESmjqqCo6lUPQbepHmsI2rW33TVQy3G8mQ5dBRwNkEUiPZSljDGJa55iL0d3HOafZN4kHRUl8CJhytFt8YgNy6xmKB2u9ZjQOTyLdrsCNw8UnkO9dJQG7UJ_Y7MxVqz1EOuOX1qBksce6JIHpuE-xuBjs7l_TP1o4TxHeSozZlNvSX1M5vLKFDOPSVhUkgvgj921tQgkf9QVlwIhnbrjAdxr4ArAsGqR5oJ_X3jfx4tYjaY2gYM15uJSw6hggMVAeWRTID7OhwFd6FhaxzEptypDu1eIzt2aQ2Wf2Ed47H2wSYiR2oNWUBtevyp-t4Ix44R11ct9o3qUoHtrB3Nbqh9zIaGcgvw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11304122139802745944&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJJXfLfgBzK4QRWDySwDFP4Jw.jpg"
       },
       {
         "id": "ChIJuZTCqE13K4QRnfnCdo_6W88",
@@ -3303,7 +3458,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuZTCqE13K4QRnfnCdo_6W88/photos/AcnlKN1p1jae8Ygkc-KenJfdBL0E08lHburPfs6t11Pz0p5m2zrpautZGiNp7b-4Jz5ibO2dbbh3H0kzJfOAnnd3xVoFF8u4RW7mMNx0Q6cv_r06RqPImh_HjApBi7WLUqJfZgsb5Y_rYgV9pjBnthGwhD1lnORsdaX59KT_gqQwSK09vyac7LMWxdjDvaQmQvM0h6nbnk_DQjacXJ-nQc5m5wjL3nsn9Ooa4FDVbZ_O2vYq8Is0JG2MeOZT8FdEGHxzGMnwR7QlhXcQ5c-nQUpMH0ZyK1jvgT7ra8LJA4FYc-Hcmg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14941811682811509149&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJuZTCqE13K4QRnfnCdo_6W88.jpg"
       },
       {
         "id": "ChIJR9jw1Qd0K4QRMYDf99GRREY",
@@ -3325,7 +3481,8 @@
         "websiteUrl": "https://instagram.com/whynot.gto?igshid=MzRlODBiNWFlZA==",
         "googleMapsUrl": "https://maps.google.com/?cid=5063332212064092209&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJR9jw1Qd0K4QRMYDf99GRREY.jpg"
       },
       {
         "id": "ChIJ-ePgrdB1K4QR-yNPoWXA0lo",
@@ -3347,7 +3504,8 @@
         "websiteUrl": "https://m.facebook.com/100063476676490/",
         "googleMapsUrl": "https://maps.google.com/?cid=6544504751253300219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ-ePgrdB1K4QR-yNPoWXA0lo.jpg"
       },
       {
         "id": "ChIJpxWkRTl1K4QRdMGXvtuniOY",
@@ -3368,7 +3526,8 @@
         "websiteUrl": "https://www.instagram.com/baccowinehouse",
         "googleMapsUrl": "https://maps.google.com/?cid=16611711787793367412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJpxWkRTl1K4QRdMGXvtuniOY.jpg"
       },
       {
         "id": "ChIJJ04BQQB1K4QR7rnjXOJv6Ns",
@@ -3388,7 +3547,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJ04BQQB1K4QR7rnjXOJv6Ns/photos/AcnlKN0Toy7sOANm9eC7F9GKp5YSMnbox0zm3motoybqqkEBFZxVHd4O8l-1BUtvKgVZQFfxm8_Y0zXa8EKQWRQgwQL-4ghMsysyCGEQbTW4PqHKXVjC5JPE0fUh1pGjwJGEQFtlNvdoHbN3N43PCe1MlYMFro4A2OESZ0PMkK5yzMkpXvj_fq2neVEJ1YS48H-cIVL2u_lylEagPOqxyATh4fBxv7M3kI9yHWF7NDIEQEHMvKd-hyuOiNcq4ktOpDtE3ZctvbB2Jq-dCRvmD7fUjxMl3YVrdXRagBvIffZkQT2mKw_CNPInaIM7Xg5T5Q-C1IuMq8h2hk4FExH5KHE80vepcqoFH9VJkk2LRhhBX6VvVYY0QtRhvrdlwuoUPNOL1vpgWqUBjmksBC9GzF07EOUm4dM927ERifYVTiNeRIpDdg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15846038306914810350&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJJ04BQQB1K4QR7rnjXOJv6Ns.jpg"
       },
       {
         "id": "ChIJdVvqj6V1K4QRHoblQjTnm2s",
@@ -3409,7 +3569,8 @@
         "websiteUrl": "https://www.instagram.com/bartolaskybar/",
         "googleMapsUrl": "https://maps.google.com/?cid=7754045395095094814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJdVvqj6V1K4QRHoblQjTnm2s.jpg"
       },
       {
         "id": "ChIJH1pRKAB1K4QR7xzIIhB9BxM",
@@ -3429,7 +3590,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJH1pRKAB1K4QR7xzIIhB9BxM/photos/AcnlKN2cfKm2ZmvOXFhZnqHY0IhPbkYUu1sMsDf00asnlUZMxoxdqme5xGYcJh6QP3d_IaaOMfFgGmiBc8SZehzs1NKD0UfCiqjwcccyiJ0orAmc1BaiWXFW6nLi8S7yX2Xw4xt7tIyQDotKkcEos-4vIx0p-87Fpzi7gczL76RUBvvT2ugq6-Act38KQuUNLJJcMFU2ElwG8r6ROGkSqw2ZyxNq28W6-MDa9xtr3mUL1MPT250QtO241w_o-pRZNRKg_YsnlAVJLODki2gnByshuSk9UxVz-14tAVeFYuX2a-j5UAMEfu6MtJIYq2p9mIC_-A-7aHec-iXEcYvUy2j-pqs9N8rXZIcnWbofHFUXe69lLvsoI_AmP9aeHhmneoj8DQquaQWMiITpJwTU7DvXadifK4LldRVIAn7HLLiYtVeHvj3YGUWweCufjciYKg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1371202119814094063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJH1pRKAB1K4QR7xzIIhB9BxM.jpg"
       },
       {
         "id": "ChIJY1FcID11K4QRVSmCaSPM-Mo",
@@ -3450,7 +3612,8 @@
         "websiteUrl": "https://efilax.web.app/usuario/reservacion/inicio/condesa",
         "googleMapsUrl": "https://maps.google.com/?cid=14625664242351745365&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJY1FcID11K4QRVSmCaSPM-Mo.jpg"
       },
       {
         "id": "ChIJ5WmG5gd0K4QRXyV9B6I-93o",
@@ -3472,7 +3635,8 @@
         "websiteUrl": "https://www.facebook.com/terrasse.skybar/",
         "googleMapsUrl": "https://maps.google.com/?cid=8860619657506006367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ5WmG5gd0K4QRXyV9B6I-93o.jpg"
       },
       {
         "id": "ChIJ3R5ph1i_K4QRvT6dT9EOyRY",
@@ -3493,7 +3657,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ3R5ph1i_K4QRvT6dT9EOyRY/photos/AcnlKN2FWCNhSPHZ22Lw60sSj_RjMfWx-ww1gM8z-a--xeyrr2T19yp4WldT1O_b_mslfJSYXUmuLAtpwP9p2q2XLEAMXKrrJbmyQnQ_wVTIQwefDayEdo-ncB03L4glNqGxGckCL4wAWY9qZSQOKUJ_rbGiRVe6NTdbSDHL6zEqzM3amZ6exT0R-l0HReXjUSQf3t5cSjJ_owEWiu5n3TiVDMnfBek8JFEkwnjoW6E3tMIUnn5Uwhw9Rax_AGmuH8a6h1onc2WIMaT_0eQkfkqValWd0PAG9z8vOarRMycXZfNK5jES8Plbu_U8FixlW2QPWTEfFQryz2huVEJDZYXhKS_9gvArIT25N--7YZOayHt2XeqSSQ2BA8pPBGO110LqMkUMObw8VVyAo-Ay1PNEJyYsNhuTuyhpXn9FAS1vNRo_MEyg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1641859831299915453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ3R5ph1i_K4QRvT6dT9EOyRY.jpg"
       },
       {
         "id": "ChIJcXl7hXV1K4QRxbubImRht6Q",
@@ -3513,7 +3678,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJcXl7hXV1K4QRxbubImRht6Q/photos/AcnlKN3W1c1dDL4QRzXZ1OsUsdncUztBXP59nHzpGIHvIxzTiPWF6LHmeo6YzexNcofpq_SPBQvDgWVbk4o1RTlxmdjpMNvzVVFCtxuLzKsFpjM9JdCI9l-4BmYnRLnYK0AF3uY9r4UP2jUIwkeiRzwGtYnnGf24zllxCUzW4c6Lh_frDFobQjEL0sekfnw-ixlKXEKzEZUJADwF-VXwvhhCsMtLvRn4x_UQ7sXuQPLK5f5jpIgv2dkHQMWj6PK1Wa3-k8I-n4iAFc_0HgCL35WMJLlHIpsITR_lFpbKYNz4-Yo98w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11869062425663486917&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJcXl7hXV1K4QRxbubImRht6Q.jpg"
       },
       {
         "id": "ChIJraAxjfhzK4QRRIhIv63GfhM",
@@ -3534,7 +3700,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJraAxjfhzK4QRRIhIv63GfhM/photos/AcnlKN0bXHB8Qh9S1U8atgXCsgESqc6GZYLNQdaAz6BeXa_pHjjb9_LA1itnyhZ8ANgB6jRPJqILayBJB94sxJFAq8dis82_Uta_A-_7jLAsml9gBwFxkWisRkvt5QlUa6POqtYI4g03mwiYnwE_lPu2_Q_Wm3DkqjuWabBSste3QqEHNKOfW7axUVCCAblwZdzgfQqCEDuwUJrETvQMN55IFTpMBLU0rvUI-e6r0iFnK2M2nhtmOs4QAKvJIoM-5-OKY_qOXi54RlOmJaQIdsBHddDrpM-2q8ACtmRNiIeEUHRA15laKgPgbRb3A7ln5vGUlBs5h_nrwHruzfKF2sDRFRDYKJeLVn6VK-5pxQOTd-EmdXW_DS7iFTXiGLR9KEavHxZk6f34AJNKFhO-xrx3YQ5xbLM9TcRf5nAVHFm_vgjGfHgJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1404778583327017028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJraAxjfhzK4QRRIhIv63GfhM.jpg"
       },
       {
         "id": "ChIJU9ZggH5zK4QRdUmksxRNlmI",
@@ -3554,7 +3721,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJU9ZggH5zK4QRdUmksxRNlmI/photos/AcnlKN3hjei4uwW9ckge3INPFlLcFvxUvqADO_wrR843Oc3H0uqw9mVdELFpL4onQhQ8kBtL-WeqRuUQeW7KCX6BOWmo8Nlcb5v05r2CF3KCVfo5LeWQsAqmP1opZp29VM-w_6oaUcQa_rdEIb9MaYOSHBUkyzt5bhXCzopmFbr9P1HrUxD4RaGPzOVD1TxYtaQoqV7BB4wZZYe7_TZ986yp_hO4j5KZasm2K5D_bJYqOCfRqDkB7Y2WkKFjVqUE6iomCG14fdXIoPr4U3Dl2F0yk8jaHt80G6GN2WDwigWweDdLFQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7103950213532109173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJU9ZggH5zK4QRdUmksxRNlmI.jpg"
       },
       {
         "id": "ChIJt67bG9WbK4QRGNwhRgCmN2M",
@@ -3575,7 +3743,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJt67bG9WbK4QRGNwhRgCmN2M/photos/AcnlKN1_77yqVhEKnqbTjDGjIbPnQgBxKDh7mBd8mePuEg9bXW-lkKi8u3nsfl562QVYQLaWNI2Bca9dfvWXXQ8UFQoZj6zEwrOiNcjU9qtWJaeFm2Zwvi3e1jHxp-on6MK6SLTYAnN6IF1lS97_6qguAXbnqzQuod5eamcekoceYEx2q7tKY8f43YUdGYQpNC23ktyX3OcSGxBvgHRU_BBcuEZh1PPY4y-UvX76MVFgK6NXP9w5bogiNskTw_zsIkGlE4Ekvc_ZD2dDKvyHDwybUXZjVuIxHm9H850Vu069jyOw4g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7149365453580786712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJt67bG9WbK4QRGNwhRgCmN2M.jpg"
       },
       {
         "id": "ChIJp-ifYnN0K4QRxrZ7Bywpe3Q",
@@ -3595,7 +3764,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJp-ifYnN0K4QRxrZ7Bywpe3Q/photos/AcnlKN2Bi_8kxtUFyJiNWO-qw8QiroVBXSkN73vJpZQUZdEhj5ObEQ6J1Y5-HaOT9COElfuLbr7dtX7bq-x8arYb6UyknGAJStAdlBz3UcAkjESQOoc3Yyjf2ZKFIYuBtmNAwEq2RxzEParXx4uaWYQyQDUgCTPXZM4EWHA2rYsrc5rob1QYlmYXxx-HCofZ-gHz1gUPVDoNKHdJT82cm8hKjuNpz1cQT8_1RZtFwrBv2ssXVHD7ubl8NNKH6dLcOsOasSNpEwY9ZMJ_pPP8jJxgRqj-h9MgpQAmUCxOBbOyWXacj-PYI3eZZOdhAPtZt-_VxnE9rIxehl8v_N_0-B-DHSO9AVOLd9TGxmdVZDb4sWdb65uWsRy9t4sLUvq5dwUyR0ceUEKDQXwJSE52a5j87ctefT8wHC-3I9XZ0jKAAzhTgw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8393347599615899334&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJp-ifYnN0K4QRxrZ7Bywpe3Q.jpg"
       },
       {
         "id": "ChIJ467jefhzK4QR9SHERCks0Pk",
@@ -3616,7 +3786,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ467jefhzK4QR9SHERCks0Pk/photos/AcnlKN0f85fAAa8Cp3Q6RumpblHdG-alPTIKlonaIFz_frRc50UF8r0Z-gDFUptDtHEdCx6eebiDS5kUO9UnhiQImcRmYFaiC8rTijlczh7Mp6uQ0TrxE1p7lH6pRm_HEg5TdMvkDy1Gcd0NhWRpl1VXPgtWYe75sq00s77NmU-ggCLGRX_j4BY7ePCtcI9SkKAkdkhS6bKSdT7kpzkpQ6beOUTDawFSK1ge8j0EA5sOmtKp8mK6hBPh7aiYcGdwn5uJB3Xn7NHtPFS7tDELNYVcBs7K6hun29-geocOJ9-Sz7KnxeldB3SXHPEWL37O0pOpzcAWimAzt8JLDayhYuSPQ-io6MRQTQAAhMRQG9Eg8zEl4tZJRVbYUIUrqlN6AVZVX0U7Jf23_66ZhdkZCZCkwPFnblMnmuF_Zly6Rauah3NA3o9C/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18000936266358858229&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:28.703Z",
-        "updatedAt": "2026-01-23T16:00:28.703Z"
+        "updatedAt": "2026-01-23T16:00:28.703Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ467jefhzK4QR9SHERCks0Pk.jpg"
       }
     ],
     "trendy": [
@@ -3639,7 +3810,8 @@
         "websiteUrl": "https://bostombar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15126206320746918130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ17YpbMhzK4QR8nBjs4EU69E.jpg"
       },
       {
         "id": "ChIJmQc8lvhzK4QRa6W6kDJBjJA",
@@ -3661,7 +3833,8 @@
         "websiteUrl": "https://www.cafe-tal.com.mx/",
         "googleMapsUrl": "https://maps.google.com/?cid=10415771723633436011&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJmQc8lvhzK4QRa6W6kDJBjJA.jpg"
       },
       {
         "id": "ChIJe_HN7Ah0K4QRaLGP1zz10FA",
@@ -3683,7 +3856,8 @@
         "websiteUrl": "http://www.estaciongelato.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5823423959853412712&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJe_HN7Ah0K4QRaLGP1zz10FA.jpg"
       },
       {
         "id": "ChIJsYfQDvhzK4QR2gUpeoviLWg",
@@ -3705,7 +3879,8 @@
         "websiteUrl": "https://www.facebook.com/La-Vie-en-Rose-775874432465811/info/?tab=overview",
         "googleMapsUrl": "https://maps.google.com/?cid=7506905242574325210&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJsYfQDvhzK4QR2gUpeoviLWg.jpg"
       },
       {
         "id": "ChIJ51sfifhzK4QR9KVVM41Z4fk",
@@ -3727,7 +3902,8 @@
         "websiteUrl": "http://www.santocafegto.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18005771248190465524&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ51sfifhzK4QR9KVVM41Z4fk.jpg"
       },
       {
         "id": "ChIJH2sMrVdxK4QRaosSR21oSNQ",
@@ -3749,7 +3925,8 @@
         "websiteUrl": "https://www.facebook.com/LaVictorianaCafe",
         "googleMapsUrl": "https://maps.google.com/?cid=15296590952917011306&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJH2sMrVdxK4QRaosSR21oSNQ.jpg"
       },
       {
         "id": "ChIJVetNZwh0K4QRx6eytwlyG_I",
@@ -3770,7 +3947,8 @@
         "websiteUrl": "https://m.facebook.com/Caf%C3%A9-Conquistador-231289240245710/",
         "googleMapsUrl": "https://maps.google.com/?cid=17445662967611959239&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJVetNZwh0K4QRx6eytwlyG_I.jpg"
       },
       {
         "id": "ChIJ8UrS6q91K4QRCXn8cBRLXN0",
@@ -3792,7 +3970,8 @@
         "websiteUrl": "https://lascuatropuertas.shop/",
         "googleMapsUrl": "https://maps.google.com/?cid=15950706531406477577&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ8UrS6q91K4QRCXn8cBRLXN0.jpg"
       },
       {
         "id": "ChIJM1VDkbl1K4QRIqMD0h_tgxs",
@@ -3813,7 +3992,8 @@
         "websiteUrl": "https://www.facebook.com/MariaGto1992?mibextid=LQQJ4d",
         "googleMapsUrl": "https://maps.google.com/?cid=1982688981896373026&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJM1VDkbl1K4QRIqMD0h_tgxs.jpg"
       },
       {
         "id": "ChIJnQyq0DNzK4QRZkCYKHP76HY",
@@ -3834,7 +4014,8 @@
         "websiteUrl": "http://www.oajillo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8568374763093246054&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJnQyq0DNzK4QRZkCYKHP76HY.jpg"
       },
       {
         "id": "ChIJjSlWPQB1K4QReHkbpI2KTX0",
@@ -3854,7 +4035,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjSlWPQB1K4QReHkbpI2KTX0/photos/AcnlKN2l5eHZSENGfFC2MCUvV6ZXFbF5M5aVCiXxICbcY9BU8a1LDE3R_t9ar1cJMLKIar8mJ26ebjmIZQ72d4fzTwgr9r90WwMA0ko3jctqL99BBx7aAthTsNIkATNanof2lVTiby8Sm2GvvTGL-_maWM4Reco-ZLc6eO6eWrkmnXLmU4pWOA2JBY0haDu-R9z_mHNMn_HOFVJHyn43ib8kEZD_D9crA15kfXX-bRm1r0zjzELAharacro_oXmoVV3Z5we8LehxsBSLIDVenzDsQ9f-zrz9UYSEHgweC7NX5Jvu1tzKg9c3KMjiK0j9E3dRsD-N2QMARw7nvt8OAaGHe9_WtO0VC9Hxd11-9YzJmi65hEzQls80tOYxFApZKNDI1dpmh8PDh7GxfiId38N7V0rTMRtRolMZR-6bTf2uxdm5MUyS/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9029025168895998328&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJjSlWPQB1K4QReHkbpI2KTX0.jpg"
       },
       {
         "id": "ChIJ0aQtZwh0K4QRUn_rDEU9RfI",
@@ -3875,7 +4057,8 @@
         "websiteUrl": "https://www.facebook.com/CDPguanajuato/",
         "googleMapsUrl": "https://maps.google.com/?cid=17457426897350393682&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ0aQtZwh0K4QRUn_rDEU9RfI.jpg"
       },
       {
         "id": "ChIJC5o1VABzK4QR7xo0-sfVPGY",
@@ -3895,7 +4078,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC5o1VABzK4QR7xo0-sfVPGY/photos/AcnlKN01sQiDWcXVWnJ2wE_3lfJHtqaHo0sYts6RqjjoIJmTxPEN-J7ToScrNBpPGRw_D23mMbtGpq08p50EYt74NYb4JmfL9Q4F0y8nyzPtCaLvCBAFQ-Ksr6RTuGK9oj0F8kFTzwgpx8B1XOCWeyJpOYBqda7gSloYwjIelYc9fNW7ctkf5yHsSF2vdIOyPQIr8jOgZZNxWbo5ezbsl-TobsVNCeZsiRJehtkM-S3KSsOBnc9dsBOsv9eDx0NCidTSGqwDGkb1xXLc-m1_k67M1fiZk2J1L9-mndW9mHLSCWO_Dw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7366998145344215791&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJC5o1VABzK4QR7xo0-sfVPGY.jpg"
       },
       {
         "id": "ChIJP33u0_tzK4QRFoNfWraxU6I",
@@ -3915,7 +4099,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJP33u0_tzK4QRFoNfWraxU6I/photos/AcnlKN0HaPkZsdtQ6C3ez8jg_F8stK05pHy-3Ib2RwWZQicZk2hpVPTE37HYRT23f3aBIyvFMOnbd8bee31ozMVOySOXZAjtvuWthMorRHh2IBqObQ04sdOnPuSSrbMlPNBRiXWSFBbCP7aXWH2gsFHoyPJbDPZQEqjrWTdWIq3CDWbJdn2xh0RYwtZvZQcs1QzsMZvhPWyuuLj7FLhTiSUSgfD5-oAaIxk-98KeN9oVqu2e52H2DDyv0mByGMQTj3z_KzxIxN4JzN84EVIEjVrVKngzp6JgVZw3fgjdKGuDLAs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11696888053969683222&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJP33u0_tzK4QRFoNfWraxU6I.jpg"
       },
       {
         "id": "ChIJRXDDZ3x1K4QR5n__QlVIXK4",
@@ -3935,7 +4120,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRXDDZ3x1K4QR5n__QlVIXK4/photos/AcnlKN0fibtx0MpkVgS1fgeCpjMLxXgyYTrc8FjM2zG8A4-XG3ZT3U-OkfmDHGEdjTf4thQPuNALJEh_hw-Om9Ywzynp4aOsgLSu7kDXheSamRJRGf5Ysr_FRWsLZy9M94Gx_7i4w5RzcrQRz3FlvrhirfQse8oW6Jj2y8Nk0FTgDbGA9knzg5f4y3v-r8yDZQIUwXRjDTSbeX7jikxu3mzCduMY_nUSxgwt80x91DAIoGv4eXlPbDBek9YfU1IKbo7dYbyXNv7IcAIIaZLYaEyU0C-tglecJPmtlfS0Xwcs7AUVN2CR8CfurEMHS9u-On-M7MSTpOg7yMWRB3xU_3C4geEuwgGwnaxnn8yIpryalwcBlSL_3oT9ihpyqlbZvO_Pioj5n5xwJ1CPJWETnAAFtk8KseduAkIL1oNi3B9qQEtmeCz3/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12563996591490301926&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJRXDDZ3x1K4QR5n__QlVIXK4.jpg"
       },
       {
         "id": "ChIJpxWkRTl1K4QRdMGXvtuniOY",
@@ -3956,7 +4142,8 @@
         "websiteUrl": "https://www.instagram.com/baccowinehouse",
         "googleMapsUrl": "https://maps.google.com/?cid=16611711787793367412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJpxWkRTl1K4QRdMGXvtuniOY.jpg"
       },
       {
         "id": "ChIJWeeE6oF1K4QRQ8h5g2WAWq8",
@@ -3977,7 +4164,8 @@
         "websiteUrl": "https://www.instagram.com/comedortradicionalgto/",
         "googleMapsUrl": "https://maps.google.com/?cid=12635552878027196483&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJWeeE6oF1K4QRQ8h5g2WAWq8.jpg"
       },
       {
         "id": "ChIJ7dWcxrx1K4QRxe0oibEJFV0",
@@ -3997,7 +4185,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7dWcxrx1K4QRxe0oibEJFV0/photos/AcnlKN2mfiyaWU8bQR0FyMkxI3G1WjMb1iGNbA4baZTUhRP9JUUWsF3JhboDdZEWq7w8c6HvNwuHkF8Y1lVvxkzSRla1aMvxPtOmsQ4qkSuYhD06tFX1v73P6uHnlAnoTtijZTTE0lUnOa_9P4Dd-BjGegvbbkZCMWTsY0k3yARadrtLjLg6i4v0rGRZTA7AoevCGB59HO8hhNTGlha2X6cAFeZ6Re7sinvhaydC-2vVtMgCAuumTy0AIzgkarnwTpGxpQw8o7syPH8AfwzTdDxjJvsrkHYsb_X5kDqLtowooH_2Mwk8HEBfyMWsNU1gUURxlC_H6gY2RvY4O_5rbS_LLkGiHo2ppKMYpxbK38Iee9dEGTdH9uzzBDZTvjZhNLz49-FYCKMGwIaqlk7bgNTMu4a32s9J3s06AHKKh2pAn18NmA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6707277878153244101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ7dWcxrx1K4QRxe0oibEJFV0.jpg"
       },
       {
         "id": "ChIJU0Req3N0K4QRq-Eoxkk0SpQ",
@@ -4018,7 +4207,8 @@
         "websiteUrl": "http://www.facebook.com/patiodepiedramx",
         "googleMapsUrl": "https://maps.google.com/?cid=10685410557351748011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJU0Req3N0K4QRq-Eoxkk0SpQ.jpg"
       },
       {
         "id": "ChIJqyld6Qh0K4QRJ2LaqpGP9ig",
@@ -4039,7 +4229,8 @@
         "websiteUrl": "https://elviejozaguanbylunian.mxhotel.site/",
         "googleMapsUrl": "https://maps.google.com/?cid=2951704461587407399&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJqyld6Qh0K4QRJ2LaqpGP9ig.jpg"
       },
       {
         "id": "ChIJNc_PPS91K4QRex3D8zIofxs",
@@ -4061,7 +4252,8 @@
         "websiteUrl": "https://www.facebook.com/El-Carpincho-341546169852374/",
         "googleMapsUrl": "https://maps.google.com/?cid=1981346560369433979&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJNc_PPS91K4QRex3D8zIofxs.jpg"
       },
       {
         "id": "ChIJEbTORIF1K4QRsj2z5gkm-4c",
@@ -4081,7 +4273,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJEbTORIF1K4QRsj2z5gkm-4c/photos/AcnlKN34T6UnMjexdb5VzribIs3AQE9YS4TvPw_gH8JELmFAUlGRO7s30VP2gxwzY8xbHIfQRrgyfTzpMMe0pe2jJlXkjTzOdX89eaLrsTrA7ohnKfH-xaRMFtJbhXs3TIYRFE8_uWFpALg9_AiB0vc5F77kWejUkrbFsLsyx5-efNycHibhsmRMLLLnkg9GyKTua2pM9PwL4qT5WVbKx0ju8ZPapAqx5rxc2skbp9jbiv5jRh0df3QZu63ZaAjEZ_Vjx964DHHPDYL_f0ZVRYBIw1JWSLWLXy93pLHpH-6uOEeusFAYL-wuIgkjarkOoT0aJTjh2C7EdTWTS8GHi-HbZFbKeHf8-MGByLUv4yT9ik_IRDBskShPeAgDzZKi47MlWITU8-yPDW6STIWkLI8VKk6mSaC9fAfMVdSXxVpKbJOCUuY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9798467238241713586&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJEbTORIF1K4QRsj2z5gkm-4c.jpg"
       },
       {
         "id": "ChIJIftaflp1K4QRraCnLQZ8sIM",
@@ -4101,7 +4294,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJIftaflp1K4QRraCnLQZ8sIM/photos/AcnlKN2n1aalf0U4BmgJ274QnwokQmTDrSyA7BIkaIHBIK6WQK951-Q0_zjruqP7_wme3ua6dnrPs9J4J45_RrPCoOAr9M7DAqrpCY9omG03gRBgLdjI3RxpLYh66Cku6aXCtXMJfAChXO6b-ZmDmVCjLg6MJE-6cD9IIGCW5q5Q0d2Vw3HmdWGI7cos6rFrPojtTMybNBWSATdadRnXXtKJ1LlnxjHNbroNw0J0ICu_3LLcAroxjrB6-GLJXkQOfpdmJsQq-sSm9qJVxi0CZ9KaRQuOOqOQZOCFDbIkdUDdJhxmVqVytJPxJo9zKYPWJ1FNmoqgzKK_baAoJIaARDnP4gp-VOzclUMnIGjHGUUNyxNhslMHShVj2nk52e7f8ebHKcHJySV-mcuynyqdInbIzZduVrnyK_QUaLiHK81Tx4319vfV/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9489220780847243437&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJIftaflp1K4QRraCnLQZ8sIM.jpg"
       },
       {
         "id": "ChIJ_____wZ0K4QR7HXQL_Y_-40",
@@ -4121,7 +4315,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_____wZ0K4QR7HXQL_Y_-40/photos/AcnlKN1Y6KPbIAJK_3iNnGNlO3ulG3B3Y40oC96YcsKnyXuPdeGhN4ivx1ojFjPZy1EVMWqUfWofR_Y4tY1ZpV9TAnXhfX430_hnywMjWWghTA1aDsiHX5a6zH7hPyik0m0sG1Nl-9HbOn_Z4nsTDNksOgFN4ZB1j0I10suvcZeQ-ZV-OyzaueX_PLf1l5RJV5wuenGp4UUl2wQKahfrc-PReH7_MW4sZ6DFWklg0OPLLlFxiLlmy6_5BuL8RDKYmwDISzSvpx4AyGMbqvuV_7MQ3Wr4e2uPhWXfFlUmqQ1qpNlTDQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10230841305098909164&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJ_____wZ0K4QR7HXQL_Y_-40.jpg"
       },
       {
         "id": "ChIJl_mwPwB1K4QRrOAi0u_LdwQ",
@@ -4141,7 +4336,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl_mwPwB1K4QRrOAi0u_LdwQ/photos/AcnlKN1523zr3dKVMJta9r1_ojEk2V4KqauGIVsPe8LStfu1lunaJ-cbZWUFuiCumcmyn1UaT9d-V9Be9Z3VplEB3zshe-KRhoT6dYMTImLKTj7-BqldZhRXNofOCo5HopjK3xcyTN_A44jve9y80N6Zr9HmN8kU6KYEqpINsvpgH8nHlkIXFHGu_B8pVntrjaHrR1GM-LDQGbW5pehZmlecbf9klPhHuP2xgWxSOEe-YtGTGUTzN5tayYf7c0Jt67P5SLchH9AIruDViv9CqQHf92UYRjWobQZBCykWQKd8zUntvOtw2iukvoLRjcnTDEM31QDX24b-S6Envu4Q4c_hRJYnJv0jKhrUJJmGbIittxAVS7f7RH4_xffwHYCKedRSsflO5ey7aIFqdn-I5bANTANqAAN-75x1TUQrB3jxXmA4kbJBFw6V_bpcBNbHPav_/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=321950129263403180&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJl_mwPwB1K4QRrOAi0u_LdwQ.jpg"
       },
       {
         "id": "ChIJv515No51K4QRmGDL938GRRE",
@@ -4161,7 +4357,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv515No51K4QRmGDL938GRRE/photos/AcnlKN0y39H3CUtDrl0q5Cqp3g7_RihTYpLX5zOdJyGJUQbCSLyH1tkCbQkITT_6WE0tww8t3UdHEZ7tdZv1zM5cp2L9v-KUHFhKlZOzSQKrSBjlY09fN9CvRCMpdzZteY8z3I1PH49_lYp3uiQvMtM29om5wpOxo0lP23iUnO4R7wJmmhTH-ufmg64dY2rHHqKhKmxgcQaEyBa_UDJc8oiriJPQUSMHGk4cMmOX0F9JbBfy15tUnR5irVBm8QJj3gBwcobxddRG7VpWnN2uhN19LofyBaWGgG7fZbN_vEb1ESkzfQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1244408018725724312&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJv515No51K4QRmGDL938GRRE.jpg"
       },
       {
         "id": "ChIJEcWszAh0K4QRJLXaBkjOiH0",
@@ -4181,7 +4378,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJEcWszAh0K4QRJLXaBkjOiH0/photos/AcnlKN1onysZCQmnzFZM-aEN_WYgZdesRCy2EUisSvRIMTAlx7w2WPhQcinDAHz9LIfcmTgPTYX1EZFl0qOPcpe6H9V0-k19gjlRKRWWYMJ1YPCKRaauid83bRZ1x4mTktoriv_EOfsvo64AE7EyU7B0gX8dUnkjaJo-VB7LjMuJRV_w496hSHbGOso0m5IKIsLGlIijgdnspbFrSmGLVditfNy6DlZdgMtBtZxmopAmK5X5Y9h1wdn1z7GOXan5sIbuuIzjoWIbT5E4i9Bg-qF1Pe1ioiBI755YVYkunPO2Rnf9vQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9045706660321604900&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJEcWszAh0K4QRJLXaBkjOiH0.jpg"
       },
       {
         "id": "ChIJG4GlmcN1K4QRFJrUAMQlczo",
@@ -4202,7 +4400,8 @@
         "websiteUrl": "http://www.ugto.mx/editorial",
         "googleMapsUrl": "https://maps.google.com/?cid=4211751600279296532&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:00:29.908Z",
-        "updatedAt": "2026-01-23T16:00:29.908Z"
+        "updatedAt": "2026-01-23T16:00:29.908Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/guanajuato/ChIJG4GlmcN1K4QRFJrUAMQlczo.jpg"
       }
     ]
   },

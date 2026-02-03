@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJd7Pw_ssCDEgRdwpY6VuLinI/photos/AcnlKN3sCrDKaN8xkO75kQmW4KyANp1-JlecyIkxN7AcTfaa8ML-3SqBjDnNf-uCnQMQSoEjnn0Q1284tSqJhkyqoU74E6_X1pmazlI54M8oUYnCCo57pY6f7IdfzRCxvALKow9RXGksoKwA0VtlMleix5tXogcVbBXL9lwEoQlrMzxYbEjKsiBmsAx9FAIaEgSVnAfO5xvJaL500PllGH6xvlDAssR53MYC9t1JWTsl6y3-Iwqr-l495uu2yn9dwMaeVdeBhgNIN5rXxqwzvEguhtS851pCYavG7At_PvVefaj9sgZP4AIvwsEYS7zWa2mzSsE8Y-NhhUEBVm35qDGqtDhgdEfg5p0h8YSrPW1EIK65PV8RZJGCDm5ZeZ6FHw3G3sRrVB_eYZcrbEklF47E9vUseAGK8NbIPoCL5FRnXMBALQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8253562493983001207&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJd7Pw_ssCDEgRdwpY6VuLinI.jpg"
       },
       {
         "id": "ChIJwccMN0RYBkgRlp_YeSIlOzs",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://ticketssee.com/MontSaintMichelTicketandTours/",
         "googleMapsUrl": "https://maps.google.com/?cid=4268045901867032470&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJwccMN0RYBkgRlp_YeSIlOzs.jpg"
       },
       {
         "id": "ChIJPekJOKuvDkgRCwNxGCp3ZXE",
@@ -65,7 +67,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPekJOKuvDkgRCwNxGCp3ZXE/photos/AcnlKN3L2Ur1SOdmyAbKMDa_B-cdNN0UeHiBarshn54gN38gLmZdphnBzIA6H13UkiruJe2encE1abyKcHeouG0vKupPB3XPL3FdGdqmtDXdXvaoBEQMGL-gp7vDcNY7kmbhmsZ2G8zckyPfqo1Xczb-OTDrRD4G5ra7NGsCjZfIJsdxGqnF4vmVP6FAlbYq08KNToprqK9rw4e4M89VhCkdR-dIzp6nrj1umlnZ3f6qyg0DwgC6akrZex3xuwzPTMPw_byYh4aBn00_XpXbvuDd6Oz5yfsoES60lMvS-mLfr_LvKA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8171068121616024331&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJPekJOKuvDkgRCwNxGCp3ZXE.jpg"
       },
       {
         "id": "ChIJcxDQTtaoDkgRFarb58WQTa8",
@@ -86,7 +89,8 @@
         "websiteUrl": "https://www.pelerin-montsaintmichel.org/le-sanctuaire-mont-saint-michel",
         "googleMapsUrl": "https://maps.google.com/?cid=12631911709516999189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJcxDQTtaoDkgRFarb58WQTa8.jpg"
       },
       {
         "id": "ChIJFdypcyavDkgRix7ZPwbWmj8",
@@ -106,7 +110,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFdypcyavDkgRix7ZPwbWmj8/photos/AcnlKN1MPDpQ8tyQ3IxkoYGg_9doISokPFNNJns5OzBafpWwxmz3HUMbZI09tnXwe1eNgQPg8ZwZy4DNJcYb2jMzeP4p3T2qi_kfLCINCxkEQ8PGylN2Mu-y6Omjb-6hXbQWF0gQaGGrfnDbzsKuLzqNzwERb-wjxTZT8qmpK-0JB3FyzDXAc0T4HVkC1_AR6i-Ac7tm8GcAIAYd2FHsguGIikyCzfsMd_tU4nTX1Gg3hvpRmjR2YNR6_LioOiOo0ivkbmoXhjB51xAe7u9R8pyMBStOv2Ws_sqQuozbA5qjN-94bN7oPUbigmE-O0TnG-OUJw_0wMQ0mSwhTstPe0truMMH_dzz1x7trdDnbjq766waMC4x7ir8esob1rgopiYYMhVh6pLIo1dtHFDOfj9_pDCFIGBj1N_x7rLl9rG7Trc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4583210893132242571&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJFdypcyavDkgRix7ZPwbWmj8.jpg"
       },
       {
         "id": "ChIJLRvq9z5VCUgRRXbz9UzelwI",
@@ -127,7 +132,8 @@
         "websiteUrl": "http://www.scriptorial.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=186862331684419141&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJLRvq9z5VCUgRRXbz9UzelwI.jpg"
       },
       {
         "id": "ChIJpYWdXWwdDEgR8SYYgDpoyHQ",
@@ -147,7 +153,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpYWdXWwdDEgR8SYYgDpoyHQ/photos/AcnlKN2XdXdwikq0rP4WrMrzsZrntncOKWpeJFu8_mzz6-jkT-5vDH5ueEuuVSUAoeRMw7uXBHepDeu_KdvKWTGSWe0JCyIzx6ZJHKERk7ADrwqXjg7-URfLKEMFuKh9dUSElgOOvzyFFqnT3tHJMdupgNzpPa3kJjjg_JKD3MQNtMpNMuFwRxWi6-r1u9qunsHa3DQ_C6uDoULzBKNOGWu761t9wtnJonVIgrp66ShXce7p3XIRX4HGIvmgBxPc8zuMsl9ffJacE0AyR44Ca2nP-cyGjw30GlogeU4ruWkbh8WUyG3I7U2vtIGGnqjrOdEVptAvWFv8q2hUMKsyfhtyQI4vvKda3LejIYdYyfM3MJwT8O3Vstond0yqFgrHZwVJ3bZcdEdrWpWkqrXugU_k64pbGwSZ31y4cyfqWX14N6Kbg5lM5JFTGi6DLy4pOz9e/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8415090504208230129&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJpYWdXWwdDEgR8SYYgDpoyHQ.jpg"
       },
       {
         "id": "ChIJwVSESlKpDkgRCGKZhOCPZ6s",
@@ -167,7 +174,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwVSESlKpDkgRCGKZhOCPZ6s/photos/AcnlKN2Tk1FLAszeNkdFVJ9w_QdhgsV4p4BnCfvhCH-wZMY7_YxKsKVFjnM2zPzVJt0pc76Nu4n8ekquWDyoq6UBMs0NIOfLmgh8hg5Opc711xeeBWqmiN-1cwGgnT68TaWSLRCAEzFUTjsTea1BPV2DKYc3KTAnmRlb5NyxlBobzntijEFgDXAfpAtHhMu57YfAspJhT_-hXS1BvTutRx8L-6I0o6xolJk2_Lk5xL9mICHdgkvjGNgpeQXHK7QhUE8kIwARsx-A3csUj9QfkkohA2UYlMw0CUfKBSR-_yoZdMltWhxyLg6ZejxzS3bfz7OFFyaPJunPGPITj9_XDGeZCiODwQ6t6Te7BXgTwWnJJWTTXDejcmPMsQwD9NdIZbkdLcbnfc-v88hpouphN5BjHEDiJNjHGRvBTvswTjlCztI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12350998697546965512&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJwVSESlKpDkgRCGKZhOCPZ6s.jpg"
       },
       {
         "id": "ChIJ5xRPObdSCUgRXEQYDh5Gwr0",
@@ -188,7 +196,8 @@
         "websiteUrl": "http://www.chateaudebouceel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13673568513549681756&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ5xRPObdSCUgRXEQYDh5Gwr0.jpg"
       },
       {
         "id": "ChIJD3d-lT5VCUgRVKTCx3XS_gQ",
@@ -208,7 +217,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJD3d-lT5VCUgRVKTCx3XS_gQ/photos/AcnlKN0gMgaTWjzJVRjf53Wa-3OyPn-8VrF5uQsE6h7RHzvEK9GinDff-gg_TOQucRqBr87zmkohQRARVV83kXXUeex2qXQ7f3rmsxHu18N9pWqeFDdWpJYltl2WbARRzN4TzmBvJeeUtfRO5xxcDfoeLDjo_iFvH6i9skyYr6SqR5gnP9c-qYkec1JQlpDK8oHVRqtujDhdFQ3Lzp9emjOhhoBmPaXaI8TvVhxJ2sAGxT-EkSBKyLdHLyRQCAWo2NsOECJrd_r0FmbzzYRwRsYPECni4oAtGx5pe_s6YHKElA8mftkhR7Tny855myLRIvftYm4VQn1nT5-jaGnBaat0ZtgpeesKj0n8b5Kp8KI49Quk8isEUnwxpjsOa1t61wO1fs2gHWI7nwp7TbR8CwpslrTdK7f9KpHwhDcdKRIWoq33mGs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=359956423540646996&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJD3d-lT5VCUgRVKTCx3XS_gQ.jpg"
       },
       {
         "id": "ChIJ3egCkcmrDkgRpxOVA-tjDbY",
@@ -229,7 +239,8 @@
         "websiteUrl": "https://ecomusee-baie.manche.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=13118251150628688807&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ3egCkcmrDkgRpxOVA-tjDbY.jpg"
       },
       {
         "id": "ChIJe97JU2qpDkgRTq5ZxsaHQd8",
@@ -250,7 +261,8 @@
         "websiteUrl": "https://www.abbaye-mont-saint-michel.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=16087288631745162830&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJe97JU2qpDkgRTq5ZxsaHQd8.jpg"
       },
       {
         "id": "ChIJoVjsbZyrDkgRiInRJ_rUkCk",
@@ -271,7 +283,8 @@
         "websiteUrl": "https://romeline.fr/2025/05/26/la-pointe-de-la-roche-torin/",
         "googleMapsUrl": "https://maps.google.com/?cid=2995127923076336008&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJoVjsbZyrDkgRiInRJ_rUkCk.jpg"
       },
       {
         "id": "ChIJ-cYaZk0dDEgRlaha89QjWl4",
@@ -291,7 +304,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-cYaZk0dDEgRlaha89QjWl4/photos/AcnlKN3wROGlHJ2gwAypETvVFDkjj21A6cFVY-KoTvaOS-Dx4eSE4KhozdDP4cx3HNxO03ayzkAru8XBuhwBU_RrWOvmJe2g_nLdzZD74SD2YGpfzUOaB9YJ2_Dcf2deVeHQtCpPstHtHJ5xP18yP8aU23JDtXOGEj_7Z0HJwnO8LmW2j8x91tSWsBZ42hmDyIIRrYz5ZqurrJSjqlFf-g6F3lFAlPC44iVsW9MmGt9Q3SNFnO_Qx76sRYlNyMeUiFCipaQZo04e2CVxzzb6MDc29kabUT-AsqptIFk0EEr1FX7yBZkLcQ4zh2i7jgKHHPark4Ajlq-RTV3LmBRzjnpxagddxlndGRHmbppoTPrWrCRUSOfZq7Sc5kCFJfiyPSNEtogw49RGIk0Mrx6bv62U_icmncf3iSY2zFK7JTJO76yYQle8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6798785984992028821&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ-cYaZk0dDEgRlaha89QjWl4.jpg"
       },
       {
         "id": "ChIJI8fr46OpDkgRxJd1JMGYkBU",
@@ -311,7 +325,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJI8fr46OpDkgRxJd1JMGYkBU/photos/AcnlKN3oV8lmbVHh8T-qffySo99GYG9Mfyk6MST7X_jDB9OKUGEIrWtIPPHPiiWUzc7XJlsxQIb05mZyuBJ_nxvFM_P89H74mW0f3pacR0e4Z2igDnLRDei7DjWX4gPfCSXL8SLMTwLqk8VofUz4Ar1p2MUTrBh8KibUJVrdsuBu5mVJDDZ3NS6y6ER_kF_qWQFuY5grQzJ8FbSgh8WezatB7XbMVwV1-6ozuv7aFB2zEKULdDhlY5uzkpB0koTf534BGx5X0AwjxY44IvyONq0QnAv3XJ25QceT7TJS2ILeMcFmP_OxuZpHHck5UIvvStxE-Y0BCummHJFUhKoFwgIid_QXmVsTbDGBsUS-eImwjgPxKcew36ixijl13cP8sZOzM_CneSIfClrtp8FFx5dzjzccROMi34zPgQYpz9ySwr6tbOzGyTzQWrXq7hAdKw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1553909826750617540&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJI8fr46OpDkgRxJd1JMGYkBU.jpg"
       },
       {
         "id": "ChIJP6yfYQCvDkgRW5xsiFXbw_M",
@@ -331,7 +346,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJP6yfYQCvDkgRW5xsiFXbw_M/photos/AcnlKN1w3vmDNvRNFNqk6qz1sTSAXTtMGuhnwJnlomqwXfeLcUI7ekSDFqkmXbLq4zSIoj9ZXQbTW4s6KvouhCqjxo2376NHYTXXpOZZpSDc6QHowXRhrmBd1N2OSYV6yHHsUTYBMI1jOKl35cC1yD462vb3-HBZUr6f23nQVOh5-Js8jhLJW0ogdXGQyFzZnu8zrBevd4yBKYnShYvSLvl7tiY3jb-5Shekh_yDqQsy_04IDnE0iJJQSLmakNgpFLw0eay_bfX9BYOpvul_ate3yfR3DlYT291O0f62UUL1roFytdqdTkZpkkQy7ZXoxbj4-RCqotveXiia8RvmbhAxP0padJE5Avvzs14XLBpBX1g9JvGewhf54MMMU367TMUR1AnCvqQG7XSyilmO-G55UCTb24R-AyqUra4jERam54aDS2yOf1fp_fJxLIdDbCAS/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17565124132082588763&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJP6yfYQCvDkgRW5xsiFXbw_M.jpg"
       },
       {
         "id": "ChIJqU5yxtaoDkgR2j-kDSxoXZo",
@@ -351,7 +367,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqU5yxtaoDkgR2j-kDSxoXZo/photos/AcnlKN2mSUuqvpVQIJ3RNnbiUnHyoJWGC96gfHyFmKMBNiCAuP-4m8twT0r5xgQSKpORZcaBEfTqK3sV-18NuaGWlYuP1xHRq63Qk54kNSns8ZhEjsDlmsbkQ0Kc9QehCo16xPyyeKmX3SjQmTajGt-r6FdcNy-u_U-2EgO-cr5upjbNJVUZgMCQfrQ5TRLScasKUS1W9vvycmU7ao86DzJD7ttVM06gPsDxdbT75ZhzMr7pUfe59SC0HC0uK_vk6Cb3O-iPET6wAJID6WtVym0bNDX0O9dTp_69dNJzL-1UM8LeIj2vdsZzoceew03qdrKhMZjrmtCerIg_kEusj17eCLLMUWUXVGgMPzRlucYq2IjKLEmi9Z7CK9fkQRh_eiDrY7Amhl5X6BC5TQkoQ4JpdF_H6ESH2IF4NPi2J6kmk-D13A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11123161193091710938&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJqU5yxtaoDkgR2j-kDSxoXZo.jpg"
       },
       {
         "id": "ChIJnQ08aACvDkgRdS7OKFD12VQ",
@@ -371,7 +388,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnQ08aACvDkgRdS7OKFD12VQ/photos/AcnlKN3f57zUSZMIHC2NaSArZvoWVG6-qVuIxB6fH3b6utGvlgw0kFRV0aOWAF4npmAtAhVeV_NC5Cg14UkXnHkoBdtLAhpdfnMDT8BWbS9ut4snIeOFeBER7l2fpORSKRzrc0tclWkrt_jX8UthHLQ692oSdFZSbZ7wsfHTSQbXduaSURWQ1DAfoUaHs_1Xr17LfN9fJ2W1AP_YUq3nVWIFY55khQNJgwgyyDj9kWv9KHsgLYmjos_w4LjAKBPj7qamefp66qfLZ3-RUTATrchq3If-BY22Yegwbtf11SQcbTnzOG6FKzoyD7-Xovqtk7ha-gymQcqzdhyku7IEFzMwQ9DjlEuDbK_N0GrWqi0zPILADU9_gAieZ3IfYdfov2Ja7zbCwDGAEyV5D4O4Z5jOhGXQ6cNnqR_2757tOd2UVoo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6114187693762948725&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJnQ08aACvDkgRdS7OKFD12VQ.jpg"
       },
       {
         "id": "ChIJ96ycIG1VCUgRRh_Lwpy00T4",
@@ -391,7 +409,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ96ycIG1VCUgRRh_Lwpy00T4/photos/AcnlKN2w1OIyp_zLB7H-gBBOMnfzZyO8C9F2Pe-r3zhIhE3AOwtIty7fhSlk9CGCVLKeKimVM3TXpPCWvtH20rwsVryL6m53pt5NAHaosqNcOx3t4ZX5K-6apnG0RLNDyQ141gPz0aMdTdxZoVEKMU4NTYc0hy-KeCemNx7ehbt_52kJHtSlpVZiz_-4dQSjCuk512v48wQ_B8aMXI1rGYMPS9fvBWVOJhAM7OJWn4URQkpTznXBqCyEcpAGA8Nt_f_5D7qcUTAk_z2qkLTvYZ2_YjRdKX9OFDCif9eW1jbHTNgkPX_MTotFxaq544V-eJz-HoqQJ6nVk3IIbttKkwNx8XRw7f0Zd3xhWLb8gD-UqoG5XoEGNgIupvv5bnJHs08KGb52IzSQp03P4e91hPvpUKcFGwwQq5Xb4K0WofgPreYv7EjY54eft8MlIBMsTR-5/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4526597685860048710&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ96ycIG1VCUgRRh_Lwpy00T4.jpg"
       },
       {
         "id": "ChIJB0d5PiKxDkgR7fnbcCvhhIc",
@@ -412,7 +431,8 @@
         "websiteUrl": "https://www.ccdol-baiemsm.bzh/la-maison-du-marais/",
         "googleMapsUrl": "https://maps.google.com/?cid=9765177468739385837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJB0d5PiKxDkgR7fnbcCvhhIc.jpg"
       },
       {
         "id": "ChIJjWeVDD5VCUgRKRavipkRS-U",
@@ -433,7 +453,8 @@
         "websiteUrl": "https://www.diocese50.fr/les-paroisses-et-les-doyennes/saint-aubert-davranches",
         "googleMapsUrl": "https://maps.google.com/?cid=16522319009093195305&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJjWeVDD5VCUgRKRavipkRS-U.jpg"
       },
       {
         "id": "ChIJ79JP_fICDEgR9QY5NmFqJ2E",
@@ -454,7 +475,8 @@
         "websiteUrl": "http://www.saintjeanlethomas.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7000681111524804341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:05.383Z",
-        "updatedAt": "2026-01-23T15:32:05.383Z"
+        "updatedAt": "2026-01-23T15:32:05.383Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ79JP_fICDEgR9QY5NmFqJ2E.jpg"
       }
     ],
     "foodie": [
@@ -477,7 +499,8 @@
         "websiteUrl": "https://www.lelittre.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6473157151716299916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJFR9JgvVVCUgRjFRUGyJG1Vk.jpg"
       },
       {
         "id": "ChIJEb4wYNGvDkgR-MAdYtMmepM",
@@ -498,7 +521,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJEb4wYNGvDkgR-MAdYtMmepM/photos/AcnlKN2riDBuzdyleJbklIZ-DaHma7lACMVQEqd4uP2Dz1d9QU2VudOeyhnBfpvlyJnnpUr9XEqMkou-8sBYXapgjrpeSjn0D5-RdvAGeyWKWgjg-xhh45mpDEg1lh2UMcxc5V9sDU6yDqax0opgQ3dXwnCI8kSQr9-pTrW18tAn_iASDo8Nj686fT4i6pZEUlaDM9GH53nE5wRrBQ4TddhW7QxvPKLPWEcYKttXt7owCK8mwosabwpK05k0abZog-VjFfCn_NMCQzftj-fLdcgvskV_wZItUGp3meEqpoUsHcNFgWBA3op0zUZ5WEUmuDr8DWR8jyyqoKToGTHoaCwWi8ZUkHLZ6trI0MppuDsKAbrQEROZkwY8mSNL3eu9ngvxQQaA0ngtqXuhJ6sVPUgL2aTIvvW8zZ0cOw523PMWO-Gn97Yb/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10626848960060178680&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJEb4wYNGvDkgR-MAdYtMmepM.jpg"
       },
       {
         "id": "ChIJD9lWQdaoDkgRsIw1VGow1w4",
@@ -519,7 +543,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJD9lWQdaoDkgRsIw1VGow1w4/photos/AcnlKN0DlJ43ya15Zg4NZOSLxfPWNKy223RiIdtZ3WuNJNxZE6MVnH8HY2_I_jpUu9qIlI9l3Y1I7hFLlRx0axOvr43EfVQtMxIBhLkc2eSCkRUoX_H5y4DD3Fq7QBJs08cXcVO3R-nQNkhRiQqNiqTlhd-GGpzSN0KBLLXkvL53oYyyjI_uHmqapzIXEW7OSmTBLoV9XE9iK1HISmnjZ9gzuAc1omhMqApdVitzcLT5caEAYFRLvMqUEANipKxZDeRcxAlpmHo9BAgGxzwn7cQvCv7LETJGpa9lNyadE8_9vLuaFx1_Rzvqe2d7172uTYBedZtMa54mlODPvxoBH1cpLOk1WBvBez3jBj6EeVI57H1jMYL1tmTjzmU20HFXDVFi8fv3M5qmv6Zsme84yKaPP60I9LWGoMYTZjUU7mParf3GB4ODnbnGaw8kcp7EzQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1069376669761244336&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJD9lWQdaoDkgRsIw1VGow1w4.jpg"
       },
       {
         "id": "ChIJBXTdsxSiDkgRUGCYWBIjziY",
@@ -541,7 +566,8 @@
         "websiteUrl": "https://www.moncommerce35.fr/ker-nouna-cherrueix",
         "googleMapsUrl": "https://maps.google.com/?cid=2796210980346421328&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJBXTdsxSiDkgRUGCYWBIjziY.jpg"
       },
       {
         "id": "ChIJ13BGmTxSCUgR1u8H6ML9hpQ",
@@ -562,7 +588,8 @@
         "websiteUrl": "https://locator.totalenergies.com/NF078244?type=FUELING&business_type=RETAIL&utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
         "googleMapsUrl": "https://maps.google.com/?cid=10702520578050879446&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ13BGmTxSCUgR1u8H6ML9hpQ.png"
       },
       {
         "id": "ChIJGwSqg6OvDkgR7XzB6Q3sYrs",
@@ -584,7 +611,8 @@
         "websiteUrl": "https://delikitchenpontorson.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=13502614177310670061&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJGwSqg6OvDkgR7XzB6Q3sYrs.jpg"
       },
       {
         "id": "ChIJl1rOZ62pDkgRRYJ75xIcgx4",
@@ -605,7 +633,8 @@
         "websiteUrl": "https://www.mymontsaintmichel.com/nos-etablissements/restaurant-mont-burger/",
         "googleMapsUrl": "https://maps.google.com/?cid=2198631910605554245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJl1rOZ62pDkgRRYJ75xIcgx4.jpg"
       },
       {
         "id": "ChIJW3XCfPqqDkgR8gsa54uorlY",
@@ -626,7 +655,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW3XCfPqqDkgR8gsa54uorlY/photos/AcnlKN25XYE7G87Xv1J3O8jsQDIkXgKFWwJBQsr35ibqXBOy8hOXMkkvlUL6uwvxz8j12sQ9X0-JILwWVOgcbeVB4ip3XbBDu_D220U-IRLhA6NOTBiAtH4hYCnmFCZD5j34KBESh2ypkmyqYc3U9QGtXvEIbDJ2r5j1aqKbShiqG3zGhRJF7XTHh24JZ9NGoBkxsJKLRJfc4_A4x5yHmEG8BUXGzOyQHqiLMqva4nRXqA4-IVeI-XoNBOxW1VBtvcWNMVXSUn4wnN23GcvD9phlvQQ7wujCB0CtCBSnc4nejE54uA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6246115052040621042&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJW3XCfPqqDkgR8gsa54uorlY.jpg"
       },
       {
         "id": "ChIJ1y3bV2gBDEgR6D43ROOiuYM",
@@ -648,7 +678,8 @@
         "websiteUrl": "https://www.auplaisirdelalucerne.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9491796786645778152&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ1y3bV2gBDEgR6D43ROOiuYM.jpg"
       },
       {
         "id": "ChIJn1WfNiKvDkgRzNrnIieVoNw",
@@ -668,7 +699,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn1WfNiKvDkgRzNrnIieVoNw/photos/AcnlKN0qaukUXYGN3dgYvecoNmrr0vaDAx7mbq1n8OedZtC3PXCBlKTrWPEoAnjqMykhu2cV4x0ORM8SPqbpujA5igEfqS5hQBZa6RpTN4C2FGtUzn2bmjUFcCECdlorbUkaRoZ5kz7zksdgl1-REeb9eGzSctrTLYZzvCF9vqpAOquwfluFtJCs09W3eyhpgZqUk1SY7_D164r4UQSqCAvt9460_hG2kmlqxL3cFIpaPxqvhy4oPYQyExrRAToUXGLdSTDEN5N8lri0jpuIv7-fvlT6BcOB_JlcQrxeC3gH9ka42g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15897870679939734220&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJn1WfNiKvDkgRzNrnIieVoNw.jpg"
       },
       {
         "id": "ChIJnazC8KWjDkgRXoWPakooWFk",
@@ -689,7 +721,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnazC8KWjDkgRXoWPakooWFk/photos/AcnlKN0p3e-u8eJ6Em1LjlBHgPpkMQkqKxKJFk4GV-hWPLlc9lVwUCi-Iunk7GUe2RVI6MsSKH8pukC3AvBfs1w_4XNFvJGSoKh-gYPGtg9kCC3ObqCVuVQ0pw4pJGq19FLIBYIJMsVvtxcfPLYhICauP_p9FBXwtGuKLQBBT7Z3cNXc1wkH1racrPCxBDTg4gJpk9Dw4WY7mtydE_hDZWOkoZmW0-YeQVqmWf-F2iDgQAwmtLJaxJ_THjk_ypw1RLcZnm-e0p4Yf98AEaIEsHYeojveKhexD-ukK_ga0SxGOkqwW9VlOLSuzS2JjVOePhsUx6gUIyZdPCn6FTmEUBRoegDAcqDXkTVe8PJS2m-M4DFJtWkc3qDbAKZw3v8iFUWlju1zKf5_puCMGAulDWp0dsY7YO6JBIR8ZqrN9-HEWAORIQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6437939967406605662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJnazC8KWjDkgRXoWPakooWFk.jpg"
       },
       {
         "id": "ChIJi7pC8HWtDkgRZuBGiBCcyDo",
@@ -710,7 +743,8 @@
         "websiteUrl": "http://www.aubergesauvage.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4235807044361707622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJi7pC8HWtDkgRZuBGiBCcyDo.jpg"
       },
       {
         "id": "ChIJ8ebOFn8DDEgRh7-LbEQSOMk",
@@ -730,7 +764,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8ebOFn8DDEgRh7-LbEQSOMk/photos/AcnlKN3boqLEolh2ukpAnDDV34R_vuAQ09-PqyqZ5ORyhGlheStZ5XLEdZKWGhUzQkVx4uflfC2GVUfTRL8wC1lqzC02OT458PD2Jcc6H1Z_Z3MS-mT9G5EXbquoiNLTVmUtNoTFgbkaIngOrcjRLId0Jg77AgxBJylPzteUcAgPh1_A17E1Sz-2BePmx-2PQ_qWhIj0KkjYpnOUlv7jGlli9g6Kdt3hGBDb5eHEalsR7IGjRxDeP_jjJw_bjooM0VUFdjB-OHMfY7AE66oJVLPogMswqHjcEo38uWn1_35sCjNvyw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14499359085407485831&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ8ebOFn8DDEgRh7-LbEQSOMk.jpg"
       },
       {
         "id": "ChIJtxPOcJ6vDkgRltPnx-romcA",
@@ -750,7 +785,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJtxPOcJ6vDkgRltPnx-romcA/photos/AcnlKN0G7IJ57eiGx6Zh_CfrUzZXal6ZowZhC7s8l_hDXnkVVOH090AHqYTfrzWGV0Z5fp-OgS8N4dxU48AT6_tKwRPtrGqYWSj3zy8zIMl1U3IRiqcBSWwSCMLRlpo9MR817UcC_qduDU1tchK5paVFp39xa6xQ7a_KvdMK56o67WT2WxNRL3XipSsBIDgpLTwzY231T75GcOdao-7vCKcuW_yUH2sPjGYAB2L8EBiwG1jQnS-tDrYHvp-YQhACf3TGzbh0JYuopvDKy4PVCavTCkhFr-kiSz6v7g1A2JTMUaKX51H35bU0F43hng5yx5R0afcrNxrcDyY6unUwECTGTMnMlv5m5XC1eUGG7xNscDM2I9LhMFQzwTXJeXGp1YrzawMYfC5lc98KS4tOHGnwlJf5ED-GsR8lOMLxitaJ9fw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13878379821792744342&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJtxPOcJ6vDkgRltPnx-romcA.jpg"
       },
       {
         "id": "ChIJvWzqfSuuDkgRX2vaiDfJyj4",
@@ -771,7 +807,8 @@
         "websiteUrl": "https://locator.totalenergies.com/NF011254?type=FUELING&business_type=RETAIL&utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
         "googleMapsUrl": "https://maps.google.com/?cid=4524650016003484511&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:06.555Z",
-        "updatedAt": "2026-01-23T15:32:06.555Z"
+        "updatedAt": "2026-01-23T15:32:06.555Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJvWzqfSuuDkgRX2vaiDfJyj4.png"
       }
     ],
     "adventure": [
@@ -793,7 +830,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJd7Pw_ssCDEgRdwpY6VuLinI/photos/AcnlKN0T4fZiATU1iej0F4mZcEIFGGbcXuCL50Jnv5bCqmntpgU6nw-Hxrng2w1l7gOwVlkaVN5l6NAUxhNGhnPn_iZbivZP0hGjb3lDUh6RSnF84b9FOR9yK-_5kbgIzgcgBoYrozzLZDjs3y3xlGKkLErLQWW9e8sSCB6W0m55KSBYLD6MGC4vPI-nmhSOPfiBi0ITfYGOQtSLTWCP7tOnvShAMnIHe3YsUFEqR97r-3ey4O_bnvaqNzLuhGOJ78j3HutdfEHse8sYQ4JYkb1sgWov1oAYIhOWHcZ2XdqgixjO3yApK98kAO1Luuz68y0hZz9h3Rx70zyLseTZUkDXIQeAOk95URpDT6k3GTDV0UGdniRKi4JnqZZVjh-WrF58J0m7yMOBDkkiPvNXgJVTtQFwiaIX0sN8q9c5S1a1OcUNsg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8253562493983001207&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJd7Pw_ssCDEgRdwpY6VuLinI.jpg"
       },
       {
         "id": "ChIJLVIhYVerDkgRyd3wubtJgv4",
@@ -814,7 +852,8 @@
         "websiteUrl": "https://lestraverseesdeludo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18339301703233363401&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJLVIhYVerDkgRyd3wubtJgv4.jpg"
       },
       {
         "id": "ChIJHZ2YKyOvDkgR5-aZKYfijSo",
@@ -835,7 +874,8 @@
         "websiteUrl": "http://www.gite-piscine-montsaintmichel.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=3066355991455590119&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJHZ2YKyOvDkgR5-aZKYfijSo.jpg"
       },
       {
         "id": "ChIJ6ZbG2xerDkgRzlHG-fFpXxY",
@@ -855,7 +895,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6ZbG2xerDkgRzlHG-fFpXxY/photos/AcnlKN3rQwXWqD08p5oOoOvCGmVs9JQARFUgsA5brn7eNBjYPOIoAJ8fHygkJXxxtimFBHj7tp-y1KVcqeJKVGjpPcxepKoDOV6Z-Wm8BGo0jkaIGejPrfB-b2KoJCG9-lDysJkdQB36FJlYnYUWMcmgZCDwuAMKBv26e1MzLUYRzhBdJlrmtwFe9-Bekx5OUVPvavRIYkIDLZQ6eLWT3rLyqqsPRDRBrg-sfSmL1xlMvfYlF95v5v2bTNMDGra050umQWY0uayN0NKwys14Kuxfn8fhenA22MNK0MntHmMiWWAPJq67gz-d8w3MXG9nRd6ygKv51uoq6NggSB27qZfr39TyUjszXtBmMrPywd4ZcUfc7T6GFI56kj3LQoLxBYMYEeHDPDB3UG9GyHQWlbWsvaTohGRrdH9-_oNsEsnUuLdLGA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1612123679620485582&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ6ZbG2xerDkgRzlHG-fFpXxY.jpg"
       },
       {
         "id": "ChIJJZ-2ORV7DkgRotBHmqdP1cQ",
@@ -876,7 +917,8 @@
         "websiteUrl": "http://www.lateteenlairgrimpedarbres.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14183330182739775650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJJZ-2ORV7DkgRotBHmqdP1cQ.jpg"
       },
       {
         "id": "ChIJocyOwsSvDkgR5VFceErIxzQ",
@@ -896,7 +938,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJocyOwsSvDkgR5VFceErIxzQ/photos/AcnlKN3aTIqixVAs1brqLFv2sgoD5aMDn_ipn52t4l20tk0CxznQdmYpNoEHYFcE3Jrd1i6FM-xUfHpGV2p0ZTBvqL8ekF-YhLCVNFREX-WrWQteAK-NrLTDgw-KpRvFd5sVGBH9HIjKq-AlHDgzp5II09S1LaXerDOjcahkHYszZDlTzW45W_1kto79e8W60I5Je7RlZ-SDdmj4elSwSaL0GPthRU7rgQNhHaRULAkjAvXtblsZAtqtQkc9RuedV1RjONeU9QdqU7glPzt-4Tijfk36fyoe1NKUUXwDIWAgw_W_9w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3803228632510124517&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJocyOwsSvDkgR5VFceErIxzQ.jpg"
       },
       {
         "id": "ChIJf5n7Hg2vDkgRoPYbSES2K8U",
@@ -916,7 +959,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJf5n7Hg2vDkgRoPYbSES2K8U/photos/AcnlKN3XtRdz5qz9D8vbZM1HLazjJmIYoFdkAbWx-qFOcrBG0dtjjsR8fC4_fA9GEaKm7PPxW2_kOf0OO7HJlzHnrtFCQGUtbcDAa4XiXmn9_RYKilni4Euonc1sxF5Kd5W_10-qe7E_DDjBtjQtvmxNJ1hucXhTI14zEnbZNTDW5Pg5nL0F0vVMeT8JsgtEMpucl-6ndWomT6UfnYWWpNNG3HghAU_KdNWtK3oAYGfGzyhpWWcN7uU6q9OtfGObhmFIaKgBpT8eoCxpz_J54slm1qMyqHgQbWlSrcRQmk-vG1gwox-cdem2DrRWPo0Jf_0TC72pP0IyhAKJZswKkLzZcjSqffSpEkO3CfEcvKHwQrm42PCp7RP9f68C7rfS1K3_6w-VqveXt1C86HfH_MmPmxhmyRKqeKf6k98jYtBmCeSH65GYNGK0YEM0I2qDQA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14207649853854185120&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJf5n7Hg2vDkgRoPYbSES2K8U.jpg"
       },
       {
         "id": "ChIJi5dAyfWpDkgR1g9WBJ27I5k",
@@ -936,7 +980,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJi5dAyfWpDkgR1g9WBJ27I5k/photos/AcnlKN2qdwkh_10Xbmbkdk9C88PHTjL5DZYVXbT02zJ8XO5RuouSwXGzaNAlhSWP9gCpBNm_sGUNCTybQM7zdHBm3DpK1ZsrWNSzM3G5NK_mgm0HalsI6L23ybDyQbzbyacJK-MVAX-LcdWEL4KrnZEVFgPCLhmFpexSYbHb1nCKgo0CDdoBVw3Ou0dVjYNT_VquA-nyoCc-ChlBx7gn60yg_B5k6Nt-pYZa_W6bmeJwsQO5LSWAxiSsnpPp9UMcOb2m95PlPRUjQHxjlho0Gk9FFsgu2pII52udpKHZPj7QuTbYzETASPx4d9oFb6BFwMHMzp-R8GpTYgAbUXGShmiiWwxNYLmSITsyOVspYC1HDctfiY1urkK9IFEpUkQKkb4ARXue-MaO8Ub7Jm34NM6t2w259VR3JKtjev2uvp0y4ppxBIs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11034869795044855766&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJi5dAyfWpDkgR1g9WBJ27I5k.jpg"
       },
       {
         "id": "ChIJdW_oedaoDkgR6ljfi5YBCd0",
@@ -957,7 +1002,8 @@
         "websiteUrl": "http://www.cheminsdelabaie.com/?utm_source=gmb",
         "googleMapsUrl": "https://maps.google.com/?cid=15927263303275862250&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJdW_oedaoDkgR6ljfi5YBCd0.jpg"
       },
       {
         "id": "ChIJpy0DDn2kDkgReFP4O1cKsTM",
@@ -978,7 +1024,8 @@
         "websiteUrl": "https://www.lebalcondelabaie.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3724769736596673400&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJpy0DDn2kDkgReFP4O1cKsTM.jpg"
       },
       {
         "id": "ChIJk--a06SvDkgRdtLmuoplCNk",
@@ -998,7 +1045,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJk--a06SvDkgRdtLmuoplCNk/photos/AcnlKN3x4g-fajaq038q9o2GypM8HqzCC0vAaYGLYQek8AaMeJwNKA7t4gDXZa5uyWyYPyzoGXcMNm_Ac4_qfC8BKvYGq6DgTEa4zdmxGsAlb06mxceqReuMpnwPctTvs32Y2Sf7NG7tTcAwhyDbpJ9bvo-EvvuAIqgRv1W9nb4NK7Wx0VURl2PhBOUcXYufauCJ-wTiRsBF9DN2VeenmJbV69C2Z_lF3ISMl5raCNdIwYwGgBcPXCtesgjk3pS4u4ax0EBlB-PVSnCzoKS8NU91hsoLIeFUAfpi0f-apvFIsd7Q6j9fdtTxl8V0hiuaU-2WL-hf6uJV_GBZL_NsLtnD5au9qGJXdFPHbKAVe87eKsKEK65a6ieSS3azIzl2JlnwwQtS-DOdCgonwDIQcezGCUSDWUUb-RpoTr3kLkUbiI066Qjq2B-HLRUWB6UaeA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15638861352559628918&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJk--a06SvDkgRdtLmuoplCNk.jpg"
       },
       {
         "id": "ChIJs4ErQi4mCUgRIv0k0sM_s-I",
@@ -1019,7 +1067,8 @@
         "websiteUrl": "https://evasium.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=16335470383679733026&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJs4ErQi4mCUgRIv0k0sM_s-I.jpg"
       },
       {
         "id": "ChIJ4QhP6nJPCUgRYHlpzM7VHCk",
@@ -1040,7 +1089,8 @@
         "websiteUrl": "https://komandgo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2962477739072387424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ4QhP6nJPCUgRYHlpzM7VHCk.jpg"
       },
       {
         "id": "ChIJVcLI3jBVCUgRrpTFpRue8ek",
@@ -1061,7 +1111,8 @@
         "websiteUrl": "http://www.powersalad.farm/",
         "googleMapsUrl": "https://maps.google.com/?cid=16857428721806972078&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJVcLI3jBVCUgRrpTFpRue8ek.jpg"
       },
       {
         "id": "ChIJZQpILqEdDEgRIDgWACa9qtM",
@@ -1082,7 +1133,8 @@
         "websiteUrl": "http://vallee-du-lude.gaqo.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=15252211058951469088&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJZQpILqEdDEgRIDgWACa9qtM.jpg"
       },
       {
         "id": "ChIJD40bc_etDUgRI3XTVAQ42e0",
@@ -1103,7 +1155,8 @@
         "websiteUrl": "http://www.absoluteadventures.je/",
         "googleMapsUrl": "https://maps.google.com/?cid=17138791448189302051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJD40bc_etDUgRI3XTVAQ42e0.jpg"
       },
       {
         "id": "ChIJ-wAqCG6jDkgRl9dmgsn4pA0",
@@ -1123,7 +1176,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-wAqCG6jDkgRl9dmgsn4pA0/photos/AcnlKN1PekJ_etSbvnTpPbWBiWazv6EHdlL9Vz10NEkVqS_0_kp0ifH_FMaamfE75XURAG8Oi4SReZCpzvlbyZcpLiDcXyCssyTvN0HY15wxWiW-vCjulC9oMsQvU19JtlRnVvlnVV9nPxoN-AqJxZO81AWerh5BjwDgwXyz70kCWvKDHC5mukIfWg68mdxKFV46WRHXV-HRZ1o_aSUlMJHuCEtB1zLlYmSzWgA7tHPZI87gmPEznq-2k7xL5LN2V9rhOxiMsrs6o2YuEVTIedQAzUoL1sQH8vV5-LbyaibOMV8UWuRrmUoDlzMjNh9w8TVnCKEyLyEV5qfPzP5hs9xbGWlULQ0I5D2hYaRLif7im6nA_Mn7GyS6cFO2PCCzBUStcyjorJNcRKkiJApjUxauCWos51d6xZqvgpIZXWYrEut9fQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=983184163033503639&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ-wAqCG6jDkgRl9dmgsn4pA0.jpg"
       },
       {
         "id": "ChIJRVR6W7dUCUgRFOPjvf_KbOQ",
@@ -1143,7 +1197,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRVR6W7dUCUgRFOPjvf_KbOQ/photos/AcnlKN05TA8aL45ewOG9OdlcO4Dnkrd-ASSr-N18ot8cpuSvwJcfKeEQR70To2Dgowr3aUPHpWgJIxuDzrumd2EcTZjWe8mPpGjWjTQEoizDzzoBVT8tJ6pp5njwpuqLcj37rFP9XPhO5yvU0TJPru-P_U-Xe_DffBfHIt8QHsb9B3W7mVnko9wUUmsGdpuAGGjLIiCFgEivF7mg00_1CvCG2oN4H2SsMQ0gzHC0Hj2EpbFnDhBrK3jIjlfr37XDHGRYpgeAkE8gBE7gdh7xIj1mTTlgv-tnsx5HkIE8lKjlMAjoFBRdwijr5IQw3bz_JcAq9GVCXDW4_oo0-1RLsf2DFtuqGVZ8J_0ciUYR5hzyeUNfSpeeeAkcFdWuM8o4Tph8sSq9TvYi_2hQZvnpOthDu-au-AEvgokBURwSxTw_b2Y/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16459753937883620116&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJRVR6W7dUCUgRFOPjvf_KbOQ.jpg"
       },
       {
         "id": "ChIJz3mvfeitDUgRnRVElCwsFhM",
@@ -1164,7 +1219,8 @@
         "websiteUrl": "http://www.valleyadventure.je/",
         "googleMapsUrl": "https://maps.google.com/?cid=1375335306185938333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJz3mvfeitDUgRnRVElCwsFhM.jpg"
       },
       {
         "id": "ChIJvV6zu45VCUgRYDouVE6gBi0",
@@ -1184,7 +1240,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJvV6zu45VCUgRYDouVE6gBi0/photos/AcnlKN2So6eDz9-l9hxkgzd-cGhO9Bys1k0AILvtrOl3xtBwcN78IkUC26feuH8elZ_c89AJpWZKbMWfzhEirSPC9udEN-RHMgw5RqwupmUqQ4e8KoyAXPx-SL19I_STq_BdqPIHhb-OM8E1wea8l0zGcIstOQlk1sBi7dc1iRSnme6yvytwcBENCOIu1RekfWM20QGNeMkFI-pElCiCIzupu0uyp_6bqM3OE4P6_nqV-jRYCXGhImddnJJ7crMccNhUAlXeQGA56xFzc9fT8K94O10UzBZ1pIVL7Dsu7HDeZccWDKrFXvVUA7uLq8TdZhNtCMo9ZgTzR2CKNGeHALhKAQgCjssz3D2rGk2C28_ww_CtscK5Bf_5oPY_4EEzQy-kFqwWiz7t3Ezy8mjhI5-vXET8NbQm9vdFZ2hjsX-WxhCYVw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3244456839847230048&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJvV6zu45VCUgRYDouVE6gBi0.jpg"
       },
       {
         "id": "ChIJJ55u8CuqDkgRijrihUPQpPo",
@@ -1204,7 +1261,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJ55u8CuqDkgRijrihUPQpPo/photos/AcnlKN3R24dG0YW_YAakpkqjH_lQhuWh083LIj3_QMXLRLKhaFMu9SSKQcqVe46QifOtlf_y6ntnQYy6Mwq7gxeTFvg8agq46bqi7Yjgz94fpp5QXMDeuE2v7B4yrxdd7nVEtW0BTt3uRc2-BBdvPviRxpCW8wfeQPi0n16ZsQZ_T7s2C4e6u2nac1ly2T08scqvexrCtzyPHvxlw8WOStQVy9z3i2fv6QXK1BIaQIUOsFxhNnJ_JHg989p8lmT5nJ6jMRVljZssV8W17UAtzdC7jyxu7wKb-urQEaK0rmTG227jJS97f1KhpFsJXP7JnC1H1SutD7Seq92Sx0-8a3TK8aDUXxczcUt63mEUnpJ6W-FYIgeQeABJyT2IdafKm5h0z3DPWmfu4nQNAx722oOGFKnjN7Pkf6qzAeevC9Ft3CM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18060789394090113674&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJJ55u8CuqDkgRijrihUPQpPo.jpg"
       },
       {
         "id": "ChIJc2-8UOypDkgRYgsMte6E4tw",
@@ -1224,7 +1282,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJc2-8UOypDkgRYgsMte6E4tw/photos/AcnlKN1_ztLgLf1tPWq9GIGoUEA3uDS1kTFtTi6WrkdsoDpOm5mI_CLXRtnUGt8cei4c2lvFuvKxIKfO8l6-XEHtRQtIUlbpU9XgAt7wkCxEBtqDaG3DsEwpGciCjbIjkKul2MNA1fBEQjGPlxaDJ92KP7QKGSmjOLj1cS9HkY0ARH3WM0xfTMxy0BT7HCXwpzsKhWkCgggbq3wADFXfZId4J-4df4_Qglg33uC92jVUGtlDEZUVB4OpMjsN7R2xA58K7ulJfm75YsloNY3Fmx1KZFQEia6htNt4WdH-ZTWLOLlBzAof4SIrJnwg3bLCMoZJg_d4OMiKz3pqrId6XHlsc6Uvi2jSvVGOnaZ8QfJqBtK4arYf58rJihOb9xj5qjrCuq8-TjEeWWuQgek5oD-9rISkgH7NETRUW_zyHQgE4kwW0IqPJYHqHPUbsrUdSJXp/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15916430193855302498&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJc2-8UOypDkgRYgsMte6E4tw.jpg"
       },
       {
         "id": "ChIJ0VAhbVWwDkgROmEQp2ptPas",
@@ -1245,7 +1304,8 @@
         "websiteUrl": "http://www.ccdol-baiemsm.bzh/%20la-maison-du-marais",
         "googleMapsUrl": "https://maps.google.com/?cid=12339138858901856570&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ0VAhbVWwDkgROmEQp2ptPas.jpg"
       },
       {
         "id": "ChIJTfE77RHMDkgRqrJQ0yN35Do",
@@ -1266,7 +1326,8 @@
         "websiteUrl": "http://www.facebook.com/basesducouesnon/",
         "googleMapsUrl": "https://maps.google.com/?cid=4243647744642691754&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJTfE77RHMDkgRqrJQ0yN35Do.jpg"
       },
       {
         "id": "ChIJwSv2Cq4DDEgRrDVlzOX3BQQ",
@@ -1287,7 +1348,8 @@
         "websiteUrl": "http://planete.manche.fr/ens26%20(2).asp?card=7828375#.U3t0diiB2hM",
         "googleMapsUrl": "https://maps.google.com/?cid=289910317384021420&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJwSv2Cq4DDEgRrDVlzOX3BQQ.jpg"
       },
       {
         "id": "ChIJ450wgV1gjEcRGX4dTL_9GW0",
@@ -1308,7 +1370,8 @@
         "websiteUrl": "https://eb-loisirs.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=7861593622609493529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ450wgV1gjEcRGX4dTL_9GW0.jpg"
       },
       {
         "id": "ChIJZ905HERECUgR5TQPVNOW560",
@@ -1329,7 +1392,8 @@
         "websiteUrl": "https://www.paintball-aventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12531150322574243045&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:07.608Z",
-        "updatedAt": "2026-01-23T15:32:07.608Z"
+        "updatedAt": "2026-01-23T15:32:07.608Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJZ905HERECUgR5TQPVNOW560.jpg"
       }
     ],
     "cultural": [
@@ -1352,7 +1416,8 @@
         "websiteUrl": "https://normandy-victory-museum.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=14954391139781191922&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ0_vsQPGcC0gR8ijohoKriM8.jpg"
       },
       {
         "id": "ChIJ_4e_1fJ3C0gR9mGz8GNPwcg",
@@ -1373,7 +1438,8 @@
         "websiteUrl": "http://www.utah-beach.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14465930768749388278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ_4e_1fJ3C0gR9mGz8GNPwcg.jpg"
       },
       {
         "id": "ChIJwccMN0RYBkgRlp_YeSIlOzs",
@@ -1394,7 +1460,8 @@
         "websiteUrl": "https://ticketssee.com/MontSaintMichelTicketandTours/",
         "googleMapsUrl": "https://maps.google.com/?cid=4268045901867032470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJwccMN0RYBkgRlp_YeSIlOzs.jpg"
       },
       {
         "id": "ChIJX_fHiPCCC0gRaB0Mkckgnhw",
@@ -1415,7 +1482,8 @@
         "websiteUrl": "https://dday-experience.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2062121729476271464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJX_fHiPCCC0gRaB0Mkckgnhw.png"
       },
       {
         "id": "ChIJLWRGebXfDkgRT96YAfXYvoI",
@@ -1436,7 +1504,8 @@
         "websiteUrl": "http://www.musee-bretagne.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=9421206017311039055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJLWRGebXfDkgRT96YAfXYvoI.jpg"
       },
       {
         "id": "ChIJLRvq9z5VCUgRRXbz9UzelwI",
@@ -1457,7 +1526,8 @@
         "websiteUrl": "http://www.scriptorial.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=186862331684419141&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJLRvq9z5VCUgRRXbz9UzelwI.jpg"
       },
       {
         "id": "ChIJ7xz3FpKpDkgRLE_dgPJgcD4",
@@ -1478,7 +1548,8 @@
         "websiteUrl": "http://ceramique.terres-d-andaine.genets.over-blog.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=4499202622403465004&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ7xz3FpKpDkgRLE_dgPJgcD4.jpg"
       },
       {
         "id": "ChIJlwAO62EDDEgRoo7-QMNisGM",
@@ -1499,7 +1570,8 @@
         "websiteUrl": "https://www.galerie-eloka.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=4791153360346019893",
         "googleMapsUrl": "https://maps.google.com/?cid=7183349996404510370&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJlwAO62EDDEgRoo7-QMNisGM.jpg"
       },
       {
         "id": "ChIJ3egCkcmrDkgRpxOVA-tjDbY",
@@ -1520,7 +1592,8 @@
         "websiteUrl": "https://ecomusee-baie.manche.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=13118251150628688807&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ3egCkcmrDkgRpxOVA-tjDbY.jpg"
       },
       {
         "id": "ChIJrbtWnT1VCUgRn7g-1dDSSMM",
@@ -1541,7 +1614,8 @@
         "websiteUrl": "http://galerie-art-doublet.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=14071728830091802783&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJrbtWnT1VCUgRn7g-1dDSSMM.jpg"
       },
       {
         "id": "ChIJz0OKILWrDkgR1IYneJqOKok",
@@ -1561,7 +1635,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJz0OKILWrDkgR1IYneJqOKok/photos/AcnlKN09HeVdEmL8UiepNuROCf1vVXZe0osSdSju-SYek1DMEmpXHJ3MndB6yJ8YpBkJ5zaeoPHShTvB8cZM7oQr3kqUgvKUJsIttCWx21c1-jM6pnhDIbS7DVkdJWFQYAGKqGdyT9pWv7vOuU6wdRZR75wQUJ8TEdtRo4KyZj1SV13cgBBpBTblvvaMmg1JxEXMWuMb2EYDrh_7-sbBmacGPuTNvOHY7PKwJ0Ef-0jY2X_suDB2qsEM-qbJ7JupTtbO9nyJ_qYIhvtTZ1O-hZCP63p-_Sy6944yTIbaCE1aaEh2KT7X7ggpshSi5kak4lrvI7z5x-waEBnOhuT7peYAU1VZOD5tMxfQ2tadXVjd9sYDT-FPtE4rn-t5QO4rym3re1xV8OR6GA5Fwj84xKpJd7xgvE8AR89n2bb_gfaAYgX6bg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9883869126309938900&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJz0OKILWrDkgR1IYneJqOKok.jpg"
       },
       {
         "id": "ChIJF2OlvztVCUgR65t8tXY6kcg",
@@ -1581,7 +1656,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF2OlvztVCUgR65t8tXY6kcg/photos/AcnlKN0Fc0yN434umgHzjBYi5RcHBkrH5Gb-08rf7S_4_C1HqGCCoAmbe7uM5CTvBsAEUdaRovVFzZ45TdyJn8jqvhpDWxa4azjFOkc-WHEmPSyLnartwgFD04cWyW8N0JURQQDH7IvgaI5z3o8QOgApT-VKP-sXP3zYWK6IZSBFIOpi11ZIAO_BOK3NvOjKRnMQQqgxDnl0H3Z7qy-2o8at0ccKexFdPj4mokCc1gUlNQHJp2XtZV8CAxP351oK66iVW3O282CIw2EUvHBPKDOBQaGRVCqnx2LCZGJc4RRE8JeAwsWRhowxIJ1idmtdo8tay4VsFNmyHMp3vNa7dj61ve7SYYlRry06-vdMZVcPMa6Wfv7otuesxLw8tUaddnyePPEP5i9L84ofY1C_MCFhBElTR49Dx_dQH5oKbCPRGcU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14452396960734026731&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJF2OlvztVCUgR65t8tXY6kcg.jpg"
       },
       {
         "id": "ChIJqU5yxtaoDkgR2j-kDSxoXZo",
@@ -1601,7 +1677,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqU5yxtaoDkgR2j-kDSxoXZo/photos/AcnlKN1zhFDxWhMmDkqQxBzdz79bTe9RHNXFqnodSkCEkmGfNUbb5AM_0CsakJmBGS1Lg-UxvOPFfkHiwVdcSSybd4VqneeTx57iOWcKFMJr6zA4VBXiRcIm8ZeAMKjRjwKWt3eVt_oW8mkC2338Vruae_Pvq6TPqSVO98q_VWVukyIpUtj5a-pbskJAEPu-HIsxrjiDq0N2QMfktDuJJsuKKLNW43Co2GQaYgQ72WJTraKmEPurua9enAf0RFza1TXUiCali37-eVPPbbapN4LdRc4v9u2A6FsIztbO_hDdFgMqknNdzNiQ0913Ep5xSplQsVnsMqVE1sqFDrkST_X6UceuFDikbw4Utc_q3RHCAZt6n24D4DXrA0R_Fa9YaCe5WXJwrt6AFjriSXI5fXQNIrbffqHrZOvkroExdPbDOejlyg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11123161193091710938&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJqU5yxtaoDkgR2j-kDSxoXZo.jpg"
       },
       {
         "id": "ChIJB0d5PiKxDkgR7fnbcCvhhIc",
@@ -1622,7 +1699,8 @@
         "websiteUrl": "https://www.ccdol-baiemsm.bzh/la-maison-du-marais/",
         "googleMapsUrl": "https://maps.google.com/?cid=9765177468739385837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJB0d5PiKxDkgR7fnbcCvhhIc.jpg"
       },
       {
         "id": "ChIJ79JP_fICDEgR9QY5NmFqJ2E",
@@ -1643,7 +1721,8 @@
         "websiteUrl": "http://www.saintjeanlethomas.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7000681111524804341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ79JP_fICDEgR9QY5NmFqJ2E.jpg"
       },
       {
         "id": "ChIJZ_KZzK2lDkgRoSR3SXJBzcM",
@@ -1664,7 +1743,8 @@
         "websiteUrl": "https://www.ccdol-baiemsm.bzh/maisons-touristiques/",
         "googleMapsUrl": "https://maps.google.com/?cid=14109005166736254113&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJZ_KZzK2lDkgRoSR3SXJBzcM.jpg"
       },
       {
         "id": "ChIJMb-n-XQBDEgRaJUIX4xVVEY",
@@ -1685,7 +1765,8 @@
         "websiteUrl": "http://www.sartilly-baie-bocage.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=5067769542076831080&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJMb-n-XQBDEgRaJUIX4xVVEY.jpg"
       },
       {
         "id": "ChIJJwtMe4WkDkgRIXVVfnRIfN8",
@@ -1706,7 +1787,8 @@
         "websiteUrl": "https://www.telegraphe.bzh/le-tlgraphe",
         "googleMapsUrl": "https://maps.google.com/?cid=16103826032742987041&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJJwtMe4WkDkgRIXVVfnRIfN8.jpg"
       },
       {
         "id": "ChIJccJDqn-lDkgRRm6i1Hi0a9w",
@@ -1727,7 +1809,8 @@
         "websiteUrl": "https://cabaretsaintmichel.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=15882986941908676166&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJccJDqn-lDkgRRm6i1Hi0a9w.jpg"
       },
       {
         "id": "ChIJsTVRjTlVCUgRsg5p_P1VRos",
@@ -1748,7 +1831,8 @@
         "websiteUrl": "https://www.culture-agglo-msm-normandie.fr/copie-de-arts-visuels",
         "googleMapsUrl": "https://maps.google.com/?cid=10035803368991559346&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:08.655Z",
-        "updatedAt": "2026-01-23T15:32:08.655Z"
+        "updatedAt": "2026-01-23T15:32:08.655Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJsTVRjTlVCUgRsg5p_P1VRos.jpg"
       }
     ],
     "relaxation": [
@@ -1770,7 +1854,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO4FoEXY3CUgRIraqyOvsjNw/photos/AcnlKN03wia-pDY1qyedt1jbnhZ4W_3y0_kjuxsTPJ4VJCDijgvna1naT1cGqnvlbYT0u3njiWLg85kf97QMR2eSbHHYgAcLJJtxFxNmYvSq1wDRz_uaXH4v-ulg-R2k30Cnz41LcTn0-RKvsdD9yaPg7EG4zVZRGgPFdCtajSa0vwRCChNmCQpUtra5_zUNeOwXnB6al1kvGuGv6fdV4eRl8EcjM62BtaX0RZO6tE6ArKNSvMuaylKTbBDI5PrKGH9B3NTsmkInK9lyL2_CM-J1WZ5A6sxUJjdK2F75m-0C-iiKvT0nIQ06FJpMs6OHdXjzK1ANxuQDy-ePu7kvLrMRXDLxKwye6m9ecEsQo0lVfMi-cp438QlEMmuAKOKoJt4rTbgDGrIRfic_WhCmqlD6PYBz9DsBaSeVHKMkCXhGkuDnwouT/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15892337682511738402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJO4FoEXY3CUgRIraqyOvsjNw.jpg"
       },
       {
         "id": "ChIJ5fv3-Nt0DEgRkS7G9WNS6gw",
@@ -1791,7 +1876,8 @@
         "websiteUrl": "https://www.tourisme-coutances.fr/offres/jardin-des-plantes-coutances-fr-3033727/",
         "googleMapsUrl": "https://maps.google.com/?cid=930646862284074641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ5fv3-Nt0DEgRkS7G9WNS6gw.jpg"
       },
       {
         "id": "ChIJQaBxe8QBDEgRyWYjo5YB79s",
@@ -1812,7 +1898,8 @@
         "websiteUrl": "http://www.chateaudechantore.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15847887360233793225&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJQaBxe8QBDEgRyWYjo5YB79s.jpg"
       },
       {
         "id": "ChIJ6ziVqj9VCUgR1yg49GWKJyU",
@@ -1832,7 +1919,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6ziVqj9VCUgR1yg49GWKJyU/photos/AcnlKN0rCa1CFiaPBzNJn0VtxbWfP0RXJWYjARHvnRSkBSc4xAzyWHI3Gn3MVA3DN_NQLsGFpkBxg2Aj-OYHfHAMwablGTmetDHwdSClTBIfPDEO9yIZW3nQvnX27N8asDcqGzoN3YNx9UQhZ3uUKPY3OMosmDXHcAUH1aGACTGkusyafvPXI7LXk1PeGxpI1smyZkKciYdftt1ARU3-XIk7C-j73qxzVVFBl9C2cPOVJ1cVSINLVu9JCJCOTAoTrWFKIJOK_-yRaRr4j1r7xArEtcHZdMwPV_j_E5uxyFxJtEGWrARngKce1H8_HOMSgAD1EdANJII86h6IfNfkb-DUN_Ez5OWeQSWQn-6FGYRlMx5MALewuT-8_jlZd1xJ36Iml9u-k9a3DNc0FK14tyUTJdHon0KjQukYm8ypH2ZV4FaC0g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2677260673988700375&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ6ziVqj9VCUgR1yg49GWKJyU.jpg"
       },
       {
         "id": "ChIJq9ENrhABDEgRQid14A5RaUE",
@@ -1853,7 +1941,8 @@
         "websiteUrl": "http://www.parcchantore.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4713387609357100866&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJq9ENrhABDEgRQid14A5RaUE.jpg"
       },
       {
         "id": "ChIJByqsmEUBDEgRuJMep16bCfI",
@@ -1874,7 +1963,8 @@
         "websiteUrl": "https://romeline.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=17440641862801986488&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJByqsmEUBDEgRuJMep16bCfI.jpg"
       },
       {
         "id": "ChIJL5T2tVRVCUgRyQgCBcWx57c",
@@ -1895,7 +1985,8 @@
         "websiteUrl": "http://www.ocalmspa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13251755888311666889&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJL5T2tVRVCUgRyQgCBcWx57c.jpg"
       },
       {
         "id": "ChIJ2U2P0H-sDkgR5E90sC1jXSY",
@@ -1916,7 +2007,8 @@
         "websiteUrl": "http://www.chambre-hotes-mont-st-michel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2764474794160443364&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ2U2P0H-sDkgR5E90sC1jXSY.jpg"
       },
       {
         "id": "ChIJocyOwsSvDkgR5VFceErIxzQ",
@@ -1936,7 +2028,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJocyOwsSvDkgR5VFceErIxzQ/photos/AcnlKN3CGPD_HQyUy6iOurqBWbR4gtp844_h1oqeL86ukTAFLWODsKkq55l2lPrBu0DNOmdoI1pGpgpZkjy5CDfksFGh9TWE8N9mzKIlVTY7bNcJKblKVMzW9jj54_G3bpZc7H9UGSWASWW8FL8qZYDhr7A03sKs5cocvrKAjQnCJ01jJ-n4JkzSBZMqqKOPYliE1TiPgY3wLrsIbKukz-7L7nQz9b5bA4TNgxLT9-sDNysvG6QQm5vID-qUOQFPSBtrqSg272OvRQ4HlMmWvG_lFfcD2IM9iRblb2TcWfUA2VpoXw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3803228632510124517&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJocyOwsSvDkgR5VFceErIxzQ.jpg"
       },
       {
         "id": "ChIJi5dAyfWpDkgR1g9WBJ27I5k",
@@ -1956,7 +2049,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJi5dAyfWpDkgR1g9WBJ27I5k/photos/AcnlKN2aSDZj2w29BMJZ7hCK3ChNqie2fdBQVpxJEJuzAsGj7KdDchHl9cpslJzKRVFligcbhjhPLBeJt9COmweiV0iWHi6jZ-aIOpaurBwbklngQh8xbbeZgoNdO0JpjasnnqtIujrqRM8YSlUAEngY3bs7aBbPQ7UYsjoEd8weps9gaPh6zLLWe_6dZ1DzaT4lUffk0BhtoAB_50qVh2_PkFtzOuFCa63YYWpDgDqKPZks9aDXjRJA8NMy7VB53DBLglL7r5nkacfRqeY8CGB6Cc_8zTiqS9ZkCOCYYgQRKhjmzTbfZ_gxTl9eVRu7hO4GHP_NopOwHONPmJhbBn5UJS9ZpuiN5lV8JoJQbz0IwEUwr1LUcKIQYyzDAkqyXw48cetRdr4mDArgeYpHsH3SeBZpSViqYbgP-LHAbHYOy9OrogE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11034869795044855766&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJi5dAyfWpDkgR1g9WBJ27I5k.jpg"
       },
       {
         "id": "ChIJY_GbjD5VCUgRraYHxa9BuME",
@@ -1977,7 +2071,8 @@
         "websiteUrl": "http://www.avranchesbeauterelaxation.fr/Naturellement_vous.html",
         "googleMapsUrl": "https://maps.google.com/?cid=13958979268215547565&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJY_GbjD5VCUgRraYHxa9BuME.jpg"
       },
       {
         "id": "ChIJYW1Gzoa6DkgRkRxuzSX-Cbk",
@@ -1998,7 +2093,8 @@
         "websiteUrl": "https://www.auxportesdelabaie.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=13333467610120854673&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJYW1Gzoa6DkgRkRxuzSX-Cbk.jpg"
       },
       {
         "id": "ChIJL5_9RvkbDEgRUUdoZlz7SDQ",
@@ -2018,7 +2114,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJL5_9RvkbDEgRUUdoZlz7SDQ/photos/AcnlKN1KndBRqh23ylzS_DZ3RYCpUh00D1rqVmOnL1HLaKD6OFW4Bd4Mc6rYvnnJzbzXtxMf5-1ccly1NvQdElf4PN0iabB4IF1ehxE49UABIG3Y-zvyyMl1opiU5jvjIeTezCC8qx4uNqSSkKCCjcUIgUPhsTrbT1KwC6ld__Pl59B_slHHbWncp2O9_EDiLqnEWpdllK1NPTCMLC_acwF8t97v50DkksxH4Zeg1nNxE0_JteEmynObTCywHeevzQ0I2UCbkixr0MeeC37Ku_Yih2iJ2mq6XQXwTrosTKPMYLobpwY2xfCBpbGWp2YIVO6Mcy3AfyQF1Asgf2YVNGqxCY5Aiz8wxJkZz6yj2SpcBq2wzRT0gUjL-RZxv_4NuDIvE534x1I24qhYQkmtHCVeJOhOip4a-gKq0PrVziuQiystVVHi/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3767537462569092945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJL5_9RvkbDEgRUUdoZlz7SDQ.jpg"
       },
       {
         "id": "ChIJdYf7u38BDEgRo-qLlxvIXEs",
@@ -2039,7 +2136,8 @@
         "websiteUrl": "https://belle-et-rebellesa.wixsite.com/belle-et-rebelle",
         "googleMapsUrl": "https://maps.google.com/?cid=5430435271534176931&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJdYf7u38BDEgRo-qLlxvIXEs.jpg"
       },
       {
         "id": "ChIJZQpILqEdDEgRIDgWACa9qtM",
@@ -2060,7 +2158,8 @@
         "websiteUrl": "http://vallee-du-lude.gaqo.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=15252211058951469088&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJZQpILqEdDEgRIDgWACa9qtM.jpg"
       },
       {
         "id": "ChIJ-wAqCG6jDkgRl9dmgsn4pA0",
@@ -2080,7 +2179,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-wAqCG6jDkgRl9dmgsn4pA0/photos/AcnlKN3t5AdGUFI9J_nrs2r5ZjRL_8FnyPv0S0YPXQjorQpmO-7unf-JHqrRyPR5N6ZnH3jb7bXbm8lX29OW0mfemQWPpI6SkqM-p81kT6ylB8y-fEPZjNXnd2MFE-CFXIWfnIq9EDqApUPpPEspXF5tLOLhm3ST23b7rAJOmildujF-qFpomY0bKWDLMtyXXtEiXgAKs6U-zeFXVX_WzwNZwwk15NSgVBa7nI8EMRr4u2SRnaucFM7KwVy0eC8fuz48po6VbDhzqsbdakxY5zuJ_jiyRdwcQimu2Lc0oOzln4lMIr8WNDFwikvXwkom3rXr6ShSdlCGUo86Bk2gJQ7t7nZZz2ypJKtFBME1Gf111s0RPvOYiec0ywj-AWGMUXG_mD_MQKP-0u8Si7J24xA0etq7akyLK7d8KaOR9AMWofDP_Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=983184163033503639&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ-wAqCG6jDkgRl9dmgsn4pA0.jpg"
       },
       {
         "id": "ChIJRVR6W7dUCUgRFOPjvf_KbOQ",
@@ -2100,7 +2200,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJRVR6W7dUCUgRFOPjvf_KbOQ/photos/AcnlKN3Rnt0YSwVcwx6hYbJaUcN0tTxQyUDeduYKKnwLF80S_hirUdPxEuep4wJOxK-XzSa5_8uWSdxwulBTgPXbExNZ9itbB7pm00lxKlu6Vb5rn05sKsL-SSf6YfYCnObLcvuFlTQL2gjrNy2OwU0fRtn9-eR6IN0BjdjkVVxS401jzL0Qi6e6faNWbnX1f1v9hwJNfK4hLeD-1nSCSdccejKw4siUtBbHJ0ibsOfLTfKCZyAMGRbyrLHAT4LeDCI5TGIPZQe1zgqPVRyV4euaxCqKp6BYFADLGI5l9OxmLB_p8wLdVpeZ5FjTsDTWyQkmKMMTJWpopXXhcNF3DrGXrtKc6f4P9AzwwAnclli0yd-6yK0rgcEss9z2t-T4qYjJt3JAzoY1rVlNp9rJtycJzIABgPGd8FPDE3a09gRJCUU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16459753937883620116&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJRVR6W7dUCUgRFOPjvf_KbOQ.jpg"
       },
       {
         "id": "ChIJccbT04uXDkgRLzV2-ROHlfo",
@@ -2121,7 +2222,8 @@
         "websiteUrl": "https://www.magasin-point-vert.fr/magasin/dol-de-bretagne",
         "googleMapsUrl": "https://maps.google.com/?cid=18056486800871273775&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJccbT04uXDkgRLzV2-ROHlfo.jpg"
       },
       {
         "id": "ChIJvV6zu45VCUgRYDouVE6gBi0",
@@ -2141,7 +2243,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJvV6zu45VCUgRYDouVE6gBi0/photos/AcnlKN2DfNNbzHp9RcEk6Hsfwkoc29F0tNkCKgwSQeb7Ec52SGoxhKH1tkiKUDucXtI9v7CnQScK9debow7k_LK42HyhUR0xkXLNoZcVWMqFqabTeUk67qR4E-E4kbZj66HkIKHZkw0gBUsGGRhx4EnaaIllGTfj4MyWzwn4kYKNcJbGKHMmEEyqg464dq0-Kew2bft5kjNIOh8NaIW_1RUpLRRBpyDmVB67FEjgEJo8R_LRhLyz3CBiaBg6Mbi49qUk7b66oTz2hKJqisHpE059DSyLR9rqB7tlCe2PBetp25J052umTk1rQ5TbWv1BD-Ruyt22jablTuSSXXXJFnM9dkN1lKSk9rHImW1WDNUYPpiB8roULwHabQTCYT_aIz3CBQsDH_a7wSiGoFb9QVPgAzxxe52zuZ6IcGTM3Z41PNRQHg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3244456839847230048&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJvV6zu45VCUgRYDouVE6gBi0.jpg"
       },
       {
         "id": "ChIJJ55u8CuqDkgRijrihUPQpPo",
@@ -2161,7 +2264,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJ55u8CuqDkgRijrihUPQpPo/photos/AcnlKN2uCNtak2t8Or_wp99xwFKnt32A6Pds7EILyhmiOjmaPQSqDjYeKsNfQcVU_9eFLzgCvsF3oaVJ0h_EugvE9EHNuQtnKAHSJQxtCKExhJkf502ZiqvJFPKLV3QXB2WNp9ldS7B-zEOq4XQpM4Pt8FU2x21BHwIfFwt37eIPTHTgDV9IUDbUEiFJSpCzF53OXbbmBMTV4QhPMeH69rFQXGWUtdWECfb4zb0ocStdCFtTyINk3J2tcESah5vf3OCDQBjRDzvIk6e6oMlr2zChLalrS_vOqUxnySYLOKeZsS0bL2uVauxXSoeyx5wah8byuUeA48Lc71q9ha_7CVxqcRRQ7fxJE74yljVk8r70wm5crWacTpGMK2hiu93ngpHJTlv7pWKydp5yQdpZTQqx_kPQehFW82YZlm_wpQkzIXI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18060789394090113674&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJJ55u8CuqDkgRijrihUPQpPo.jpg"
       },
       {
         "id": "ChIJ0VAhbVWwDkgROmEQp2ptPas",
@@ -2182,7 +2286,8 @@
         "websiteUrl": "http://www.ccdol-baiemsm.bzh/%20la-maison-du-marais",
         "googleMapsUrl": "https://maps.google.com/?cid=12339138858901856570&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ0VAhbVWwDkgROmEQp2ptPas.jpg"
       },
       {
         "id": "ChIJd2uclCmpDkgRYeIewjtjbZo",
@@ -2202,7 +2307,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJd2uclCmpDkgRYeIewjtjbZo/photos/AcnlKN0XCVEH8Igzh3qxaQtpzNmq6goqsyLmcXhjcSsx8uqchF6hIeRoag41loJ6hFyzHvH4xTQpBE5zO6FUg0uA2bXtzqyxA3_iPTZQ-Hq7kbFG8cNlnmVEgOyuJOJ_9adS2OWqKR0ij-nACwzumSGeQJcE5_TIa-gM9kTApaPLqzuoLEm0wc_Mptebd2gs2TjKVTKMXnwiLjxKUCIzBcv2QwuQJzl7LyhigNWxoZnK9yglX7j2bhF01MC3vlvqwD1-EMkaRZEHyjQiPF1V1JS0f7qaUn4AkVN30EVQ-91BQW0YhIP8Kt4L-0hsEoWrDbV5tYtt9iNUGvqRiD74oNuxG-qv47hF64KJZbyAtZE-4vQIh6_AL9CbTWKJ6ZlGySBsuA8Eros8qBM1p2P6w9r-V2w5bmRZ-1IzLAuojkrYwd4THUFbB4JI6AWNWMNCmgqm/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11127659362613387873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJd2uclCmpDkgRYeIewjtjbZo.jpg"
       },
       {
         "id": "ChIJ82HJzD1VCUgRXsQDVHcNHtk",
@@ -2223,7 +2329,8 @@
         "websiteUrl": "https://www.beautysuccess.fr/nos-points-de-vente/avranches/047/",
         "googleMapsUrl": "https://maps.google.com/?cid=15644956961693484126&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ82HJzD1VCUgRXsQDVHcNHtk.jpg"
       },
       {
         "id": "ChIJM8ZCCWapDkgRRdKNK2yveq4",
@@ -2243,7 +2350,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJM8ZCCWapDkgRRdKNK2yveq4/photos/AcnlKN2qq_9GrmeXjBXhbTksDglqvtbuv6QmDwwqtuMNgJUFWA-yteTLT7Iv9wy4FSBsRzqI9fiRqO-vacNI9VlYr-Mh9uIZJPTmeUo14iBXJjJC1l_18xeLqc_00SDteNgHl4VJ9f_lpdBU2V1smnmpa6c19nNHsUWLFXMHjEUEtW4yHoMPwSs-3ZcZ6NLK3D3S-01x2E2fXNF2-mmRW9C6tvfd0_HzFPbFF1GzPdKMjRVgsDRDCCVTaaq3Dm7rC8ScovDIIlcC5y0MlRHaYwUiRv8xnWsVHO9PG3Ke8HVUGivkpbKJv8XSiesipHs9hIpIilNuybhv7jR2Nqg6_SKxRBCu9GsHBziyGEdVVjOuKmGZEuVJ8KXslWEqcv3AZxINPs__OAxrnzE0hlE02jyxwmj2RYuz4cTA_z6QeKDSFqcqnA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12572554188880204357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJM8ZCCWapDkgRRdKNK2yveq4.jpg"
       },
       {
         "id": "ChIJwSv2Cq4DDEgRrDVlzOX3BQQ",
@@ -2264,7 +2372,8 @@
         "websiteUrl": "http://planete.manche.fr/ens26%20(2).asp?card=7828375#.U3t0diiB2hM",
         "googleMapsUrl": "https://maps.google.com/?cid=289910317384021420&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJwSv2Cq4DDEgRrDVlzOX3BQQ.jpg"
       },
       {
         "id": "ChIJaz3WIDxVCUgRlh_-BmhL_7A",
@@ -2285,7 +2394,8 @@
         "websiteUrl": "https://www.nocibe.fr/fr/l/avranches/parfumeries/02560540?utm_source=google&utm_medium=organic&utm_campaign=local",
         "googleMapsUrl": "https://maps.google.com/?cid=12753995579902533526&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJaz3WIDxVCUgRlh_-BmhL_7A.jpg"
       },
       {
         "id": "ChIJmztAye5JCUgRc8nIl1-v-GM",
@@ -2306,7 +2416,8 @@
         "websiteUrl": "https://www.tourisme-marchesdebretagne.com/decouvrir/le-jardin-de-l-eau/",
         "googleMapsUrl": "https://maps.google.com/?cid=7203700429082380659&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJmztAye5JCUgRc8nIl1-v-GM.jpg"
       },
       {
         "id": "ChIJIbRLD1dfCUgRfanMkVGcjHQ",
@@ -2326,7 +2437,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJIbRLD1dfCUgRfanMkVGcjHQ/photos/AcnlKN20iPIYCmrAcqQpzmeW4ZDRx1dl22kpane2-bLoPzfOM2PH6JeeXn5I4j-ScGe6ch3g3RIHFPJALctykOYGiUyJ5VDfH4x7AXFtxNYKJrRpg-5AlsUMZ_HWfcq-mSDingPDa-TwaId9kWLzXa7_uq78cAOf91RiABs7wc6kGSgIObGjMANnTXC2Dtnr1DD-BTHjM7gxe3e7LZQVg6IgliGIvgHhCh4at9XcXAyXHFDYt9vbmiCZdprffF6Uoi10l9fM8zWJSHAStHsUW1iEmBLZMzx-RnvUNxTL8rowUDk1r151e97lxXlosH9dDdzVR6ceVP8ROEdirxMQGMwY0F_Ch_EtfATdu651yIf3_YmOEAstusghXU1MRFt80pOXH2qTPuwxf8sXAS8mMoMzT6T8yp2VJRTVl6g-KEdV82csfw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8398259279291525501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:10.060Z",
-        "updatedAt": "2026-01-23T15:32:10.060Z"
+        "updatedAt": "2026-01-23T15:32:10.060Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJIbRLD1dfCUgRfanMkVGcjHQ.jpg"
       }
     ],
     "nightlife": [
@@ -2350,7 +2462,8 @@
         "websiteUrl": "https://www.lerelaismontois.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=15387708953918961020&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ6-IcQ9SvDkgRfPVvGcQfjNU.png"
       },
       {
         "id": "ChIJOfG2czlVCUgRHfL0E1R51_Y",
@@ -2372,7 +2485,8 @@
         "websiteUrl": "https://le3b.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=17786818655342096925&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJOfG2czlVCUgRHfL0E1R51_Y.jpg"
       },
       {
         "id": "ChIJI-zmL-CK3EcR_ucHF9Ix4qc",
@@ -2393,7 +2507,8 @@
         "websiteUrl": "https://www.mymontsaintmichel.com/nos-etablissements/restaurant-la-confiance/",
         "googleMapsUrl": "https://maps.google.com/?cid=12097286327469860862&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJI-zmL-CK3EcR_ucHF9Ix4qc.jpg"
       },
       {
         "id": "ChIJnYQT781VCUgR5OMmSu_dGOs",
@@ -2415,7 +2530,8 @@
         "websiteUrl": "https://le-49.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16940534018165105636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJnYQT781VCUgR5OMmSu_dGOs.jpg"
       },
       {
         "id": "ChIJ20GmNHtTCUgRq4dpbqxbyoI",
@@ -2436,7 +2552,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ20GmNHtTCUgRq4dpbqxbyoI/photos/AcnlKN2hnivDUYL_GFcphIMyTxaaMxeBaxQh4WxdyxRRMqbWJZmTkvRDT35XxbK8uqiegRkJVKdaRTekNdITsA4d7gMsolsDVZL1wL9318jl86ctzgrg7knga7XZKG3F5tlLWISCcTIFZefeFZt3jOibNOcJPulhFpjiqIFzBRMz8HhlorrPBbZUK2eBXZmofESPNfVcw4EXOoy3zFcjnwFLtNHVVVE0l_tSZkp8C8Bo5BFk1QcPZljgV2lBgEC-5WI2wYboH-bg1YhBWb4E_pcMh_b531suVvTUQPo7G1KNBEKLWCiKszTEFg2BtSd3Tzd6SGtuFpUmTX8cGlKYiL4PTsE7-qWkcw0W9aU98RKi9t10mMVr41uVM2uVyBmAO_sYKeF4qUz6WyGc6x7sIA5Tlmol10dbrrs9lwLB6JpRiLoiTnd_r3cJnu4kSwghU1VQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9424445966371096491&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ20GmNHtTCUgRq4dpbqxbyoI.jpg"
       },
       {
         "id": "ChIJW3XCfPqqDkgR8gsa54uorlY",
@@ -2457,7 +2574,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW3XCfPqqDkgR8gsa54uorlY/photos/AcnlKN1Rgd9iHXEEMWJbqSDsKTgU2J2OJaPM6ZfnXsl73YDcS-lhpuIDkJGqUepPxpgBFwKmc3o2UDaCtDdE9349_AiXI-qNnKqpMJGD7PkUp95yLzFtrtiJSj0LkvtFjOpcKqhrT3AzMe1McHnCtbhGid6oErQnSe-NthJG0T8H-iVGwgYxON04rZGCK4m-zybvJqcenUfRgL72n56YjF_ObJ3Z2S-YXokUZ3feguQQENxLEoaTwnm7yxel5jam78eylmxppcYL7stmteQsU_aAgl-7FWpL5OqmDfa5KT07FskKCw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6246115052040621042&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJW3XCfPqqDkgR8gsa54uorlY.jpg"
       },
       {
         "id": "ChIJxei_8CavDkgRJq-18mdexeM",
@@ -2478,7 +2596,8 @@
         "websiteUrl": "https://www.mymontsaintmichel.com/nos-etablissements/restaurant-relais-saint-michel/",
         "googleMapsUrl": "https://maps.google.com/?cid=16412628217568276262&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJxei_8CavDkgRJq-18mdexeM.jpg"
       },
       {
         "id": "ChIJn1WfNiKvDkgRzNrnIieVoNw",
@@ -2498,7 +2617,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn1WfNiKvDkgRzNrnIieVoNw/photos/AcnlKN3czy5qYvmvS_aMzu1QaZqoyg6nsH4q1BRPAzu6s0aDh0aR8_gIIUQpylYCMEtTR28fEGA4VjCWT37hoi07JkQCXlBxREpAm3ew7fpwmYC2MrsjwKse1Zo-5yvwjXSDGcuza1LdAPMzN1iSEOrxFHMRZG7I88f7dmnFJhNWHwV1gvB7wh9ZntJD9_HUybXzZggofAeCRMKblbIkG1knHkXYNIuknO5WFZIv1WGL6aQkgq_iExxhX587t8ADJcjWpENPpPHbgbcsMNbz79MVd33mEWGto3W8HWEp5mpYe_EjPw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15897870679939734220&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJn1WfNiKvDkgRzNrnIieVoNw.jpg"
       },
       {
         "id": "ChIJRbrUcYMDDEgRO1w_ZHlwUDg",
@@ -2519,7 +2639,8 @@
         "websiteUrl": "https://www.appart-hotel-delabaie.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=4057866930936044603&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJRbrUcYMDDEgRO1w_ZHlwUDg.jpg"
       },
       {
         "id": "ChIJyfSTizZVCUgRbs1gTBFfeTs",
@@ -2540,7 +2661,8 @@
         "websiteUrl": "https://brasserielafrontiere.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=4285561048320232814&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJyfSTizZVCUgRbs1gTBFfeTs.jpg"
       },
       {
         "id": "ChIJUWRSDc8cDEgROJl4fxJM2h4",
@@ -2581,7 +2703,8 @@
         "websiteUrl": "https://www.buffalo-grill.fr/nos-restaurants/avranches?utm_source=G&utm_medium=local&utm_campaign=google-local",
         "googleMapsUrl": "https://maps.google.com/?cid=11885600110725500293&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJWxBCDzhVCUgRhQ0j_lMi8qQ.jpg"
       },
       {
         "id": "ChIJnazC8KWjDkgRXoWPakooWFk",
@@ -2602,7 +2725,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnazC8KWjDkgRXoWPakooWFk/photos/AcnlKN2G-F4NSnh9gG_eUir8wzieAy6eguV65H4W5sWyudw_mBx3Sk9QSmDQpk5yCzZaXRuqAfmHhqcCirwn08k7GvJCcBLHFaut9x6xhCeuFA_DciZzmiemN_cfuwBBR0lBcTcWe0YXM05e1t35iUYq5AOivIRhTUaSrc96dOsE70cqUEsVlfYMOKLBiJ7s1L0MfkheMoSDmWQDWGX4kc2txvcmmjWZ447DxtiIvFC_Ca351ZEX8xEc5zylIAOMQhAim3S681N4mSTpLROkT-yXgV6cgyB3L5vxV4k1m1rfUg7sIQFtaScDlxv0x2elerI_f1FNcflZCBbCoEVrM_sESYaMTO8hVL1cNWnDnPuEsEAI6GjJw_XhRHs9kOoXiKWF7xmnMMdYijJpeObjHX5qZT_9UBUK4eAZCIx39Nm7Au-jvA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6437939967406605662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJnazC8KWjDkgRXoWPakooWFk.jpg"
       },
       {
         "id": "ChIJOTOWlD1VCUgRa7dHwlzxzWE",
@@ -2624,7 +2748,8 @@
         "websiteUrl": "https://m.facebook.com/pages/category/Brewery/Obarayo-147954858689948/?locale2=fr_FR",
         "googleMapsUrl": "https://maps.google.com/?cid=7047554372603459435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJOTOWlD1VCUgRa7dHwlzxzWE.jpg"
       },
       {
         "id": "ChIJlXuAOatF4EcRvtitAm66s7k",
@@ -2645,7 +2770,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlXuAOatF4EcRvtitAm66s7k/photos/AcnlKN26nH3oItuuNwfKdXtUNfF5njh5bIFETNZih2EWyuwmRbJX5NkgkMa9S_xCs3tFaYf_gVfDU_VRyV41E_GILVncv12suUFuRja65qkIr4H5B8xqZXVtv1btvkJ-A2wIOP9xPU_1SrljhXhxd0p9oiyuCgzc17hLuRKp9watBeHNn8fE0Tt9pilQQ8u4eX9-8KJar04gw7-cgZosOZg4rUIveXRLm4ONWRIxJ7molG4SmKJcWz0LULApjxvw0sa2C_LT6tsw5k6t9OD-Eu2Ue75E20XusVzvzCvGtQIWjdhCcA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13381243899501992126&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJlXuAOatF4EcRvtitAm66s7k.jpg"
       },
       {
         "id": "ChIJy1vevyOYDkgRAYmfPMSiKgg",
@@ -2666,7 +2792,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJy1vevyOYDkgRAYmfPMSiKgg/photos/AcnlKN2T2XWIOidNNL1El2d4ETu3T3ZI_RQuV48WJaAr1wgNGWYVhUp5nmCf4WPCIyRq1_91mzEao6f_t-KbSDURbXGrzXs5liA_zT_d12gHdz-Y5l1TZe0pdJ0ga5dLAmMVFVCw8HEwLqzj4FsTn3iQ_H2al6x0iZ9DAhYjJXHm8Ww7lD8w3WXuK4zT8qE9QF5EdQYLB8su7Kwfroy9BxDuEH_Btl5wXUUKslrTNsJcTQWY_E8EcE4YjrmDJAB0ydgoGcw7TT1ZtEJKL4OMSDQjteWS1BzgoyOhXV2AndvJU6J13w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=588461665039649025&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJy1vevyOYDkgRAYmfPMSiKgg.jpg"
       },
       {
         "id": "ChIJMwPx0TpVCUgRS-Vg2VJ8YbI",
@@ -2687,7 +2814,8 @@
         "websiteUrl": "https://brasserie-leopard.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=12853691506768274763&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJMwPx0TpVCUgRS-Vg2VJ8YbI.png"
       },
       {
         "id": "ChIJOZrikD5VCUgRlcILXF5WuPU",
@@ -2708,7 +2836,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOZrikD5VCUgRlcILXF5WuPU/photos/AcnlKN3NgUYGVcpyQqO-yGet3wbOhz6OdyRYNdfHxauIDCk7RjPIR-ByPpw9i_fZqbV5bRCAp3_LgB5VD4GU7S9k5ROQs8CvuV3fVW8f3Y0lcyGNEwOYKPVtlaQpbm367VvE-swswsXt7SUwCHLJooh-iGrKYI8sIkE6ZIcfJPLYtD04NGVuzfdjR3Qi5drOL8ySYTyyTRPX9ofvKTMZq5suQEa9oZfj0AgmUrIMdiCcOPo0BR_iKQXpr7mkqeMs_merrfRPr8KGgKeDaQF-diQG1RCS1j6lXAATGPosC4vsH6I/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17705996898278294165&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJOZrikD5VCUgRlcILXF5WuPU.jpg"
       },
       {
         "id": "ChIJU3eX_fqvDkgRUPONsWLruMM",
@@ -2728,7 +2857,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJU3eX_fqvDkgRUPONsWLruMM/photos/AcnlKN3A5DmMIUXliPOrV9Ao3ukvhNMkWC9NCIok3Xw8NcFINmHkL4CqL2umvrmGR_JUd61UREV62nWzHpxChJeomuwOnhFWn2L-Tpz9N_PNe-nMsZWlGNsCsj1azK5k5oR5cl8LxhlbE3QTEDbV-CiwnoPrcibi6TWfnQ7WSqEQeVxnqja52sysIMqukUzAmAvtoyszwDvvoKg_kE_07IJdxRFEUTkpFk4zPkR5iWz74eY3HHNDGu0TmMyM2lIqZV8ge_qHeqSKBguQ6ejufgReIdZSQbi9HLea4u0osJYby68_m7N8fY5yvoJy4fr9HklYbOOlCVo1gfEN-uyvXe9ODNdfeOL8oTTAqDgGPhKnzQSVzzfCvJ9CH6V7y35CeXTDUC4Z9vzOBNV1vqvbFWlBqZe0mAwZyko3AI2ed0_6LDchxRyO/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14103281042228900688&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJU3eX_fqvDkgRUPONsWLruMM.jpg"
       },
       {
         "id": "ChIJH3KoiYOrDkgRxgkvDo_tVmc",
@@ -2749,7 +2879,8 @@
         "websiteUrl": "https://www.manoir-rochetorin.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7446400232577763782&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:11.258Z",
-        "updatedAt": "2026-01-23T15:32:11.258Z"
+        "updatedAt": "2026-01-23T15:32:11.258Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJH3KoiYOrDkgRxgkvDo_tVmc.jpg"
       }
     ],
     "trendy": [
@@ -2773,7 +2904,8 @@
         "websiteUrl": "https://www.moncommerce35.fr/ker-nouna-cherrueix",
         "googleMapsUrl": "https://maps.google.com/?cid=2796210980346421328&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJBXTdsxSiDkgRUGCYWBIjziY.jpg"
       },
       {
         "id": "ChIJ13BGmTxSCUgR1u8H6ML9hpQ",
@@ -2794,7 +2926,8 @@
         "websiteUrl": "https://locator.totalenergies.com/NF078244?type=FUELING&business_type=RETAIL&utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
         "googleMapsUrl": "https://maps.google.com/?cid=10702520578050879446&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ13BGmTxSCUgR1u8H6ML9hpQ.png"
       },
       {
         "id": "ChIJGwSqg6OvDkgR7XzB6Q3sYrs",
@@ -2816,7 +2949,8 @@
         "websiteUrl": "https://delikitchenpontorson.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=13502614177310670061&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJGwSqg6OvDkgR7XzB6Q3sYrs.jpg"
       },
       {
         "id": "ChIJ6zp63dBVCUgR8dYKhvhEB_w",
@@ -2837,7 +2971,8 @@
         "websiteUrl": "https://www.instagram.com/prosecafe_avranches/",
         "googleMapsUrl": "https://maps.google.com/?cid=18160559856586249969&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ6zp63dBVCUgR8dYKhvhEB_w.jpg"
       },
       {
         "id": "ChIJFSderdeoDkgRBdn5oCMT8-A",
@@ -2858,7 +2993,8 @@
         "websiteUrl": "https://www.pelerin-montsaintmichel.org/le-sanctuaire-mont-saint-michel/la-librairie-siloe",
         "googleMapsUrl": "https://maps.google.com/?cid=16209320527582058757&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJFSderdeoDkgRBdn5oCMT8-A.jpg"
       },
       {
         "id": "ChIJO_iWC71VCUgRljuBYp_OCYk",
@@ -2879,7 +3015,8 @@
         "websiteUrl": "http://maisondelasirene.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=9874650841934281622&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJO_iWC71VCUgRljuBYp_OCYk.jpg"
       },
       {
         "id": "ChIJy91mf-8CDEgRzGxVsLafkM0",
@@ -2900,7 +3037,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJy91mf-8CDEgRzGxVsLafkM0/photos/AcnlKN25PWNbBc1WIptor0YJz1rbZCkQO8oNa3JEt9LZVs52pN-QVqBgTS_NlJL3sLp2tBQhLxG8IhEPgz86Gc3-C2eL8xAGA8W5doj3m385yYvDr_Ojl8TIMuaicYjLvjfMGSVcJzBxaWR1DgsytL8acnzokL3Y3syWWI3w52sLr0Lvs7LiXjgPg0EEsyyZ59MdKr9hJq0Uy5RzmOZAJpr19JkwOISA8G_Ikmo4_QDjU92j_dRPV8xZ6zzCiG0yAzoCWQxGtYLj7yNqdiY2Exn3I_T1pHG1rtafzCcJxvvtD1LHMg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14812514781412814028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJy91mf-8CDEgRzGxVsLafkM0.jpg"
       },
       {
         "id": "ChIJ8ebOFn8DDEgRh7-LbEQSOMk",
@@ -2920,7 +3058,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8ebOFn8DDEgRh7-LbEQSOMk/photos/AcnlKN3mNXqSKqAaF3Ud-o3ubcnvJtBYTUYnPfVkEfIiah9FaHZA0N5pQ2Jbcn3S_z88prlxagP0GK3uRn7p1dKMxQ9HqNy3ng-Ukxa6uEO2jRrtzdgBXBgdkqKyFYpGYw7cigAVQ1f73Oowdr7Jk3tzqH7w7oftTvPaWGSl4MVUv4V-oKDjHL8E3_svArslp7vc6wpJm3ywKK-qOi5aj-Ef-u8Tz9ZE-NNGjaVwZouFeOgwECHJ6b3TY_g2LAr-9XAxuL7y4jybaXrzhJdBSzYf2AIGpQDICdF2VkUI8LcEGxN8Eg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14499359085407485831&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ8ebOFn8DDEgRh7-LbEQSOMk.jpg"
       },
       {
         "id": "ChIJ1dOZnz5VCUgRpkZZeD1vGo0",
@@ -2941,7 +3080,8 @@
         "websiteUrl": "https://www.placedeslibraires.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=10167561418545120934&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ1dOZnz5VCUgRpkZZeD1vGo0.jpg"
       },
       {
         "id": "ChIJ1zkdTQCrDkgRYH8A2hrdJWs",
@@ -2961,7 +3101,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1zkdTQCrDkgRYH8A2hrdJWs/photos/AcnlKN0oR7hKN9QdpD6fGT61ISDbwQwSFNA907Ja4s3L9HU8WakrLX5AmB0giWf--bol6XNTDH0WKb_CLYO-zRHgKcszadG3mfytzP4vq6JR6Q16pkCeBc3VPyBIY2wKEbNYvZCnZYNXr8r9VRVhs7ooH1KNSwE__AagrR8Strg9D_pNw_XPkth1RdhKhjerAqtyauAurM6LjfZqu5VHxk0gTt0SFyKkpCj38Xom2wKtRAuOgGbf7oiOpOhmF-pQTtLoWFICt4pg97WTSP1tvPGGdbikalV0YqlQvdLXzjd9ZlzULoS7O3m7p760w-50O1futeeu0BiYFQkC1q_eYjfKs2zY0DxX1XJj9DITnB6eo-AS1sRZU5Dsgoo2ZbCCw2m_2xNi6SYgCQ6VyNdLXy4LJkjYYchjpZVBT2SXXpZ0RAXm9a3V/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7720820243592937312&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ1zkdTQCrDkgRYH8A2hrdJWs.jpg"
       },
       {
         "id": "ChIJ-To6bHhTCUgRtRFYYnFZGTM",
@@ -2982,7 +3123,8 @@
         "websiteUrl": "https://instagram.com/labrocante_precey?igshid=MWJ1bHFzb2t5dHVqZA%3D%3D&utm_source=qr",
         "googleMapsUrl": "https://maps.google.com/?cid=3682072513868206517&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJ-To6bHhTCUgRtRFYYnFZGTM.jpg"
       },
       {
         "id": "ChIJax8D7F9VCUgR55KECmlmoVI",
@@ -3003,7 +3145,8 @@
         "websiteUrl": "https://www.dunlivrealautre.fr/",
         "googleMapsUrl": "https://maps.google.com/?cid=5954152783694566119&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJax8D7F9VCUgR55KECmlmoVI.jpg"
       },
       {
         "id": "ChIJvWzqfSuuDkgRX2vaiDfJyj4",
@@ -3024,7 +3167,8 @@
         "websiteUrl": "https://locator.totalenergies.com/NF011254?type=FUELING&business_type=RETAIL&utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
         "googleMapsUrl": "https://maps.google.com/?cid=4524650016003484511&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:32:12.494Z",
-        "updatedAt": "2026-01-23T15:32:12.494Z"
+        "updatedAt": "2026-01-23T15:32:12.494Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/mont-saint-michel/ChIJvWzqfSuuDkgRX2vaiDfJyj4.png"
       }
     ]
   },

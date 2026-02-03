@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5cFZ-pGvODsRjxO5UZwn-k0/photos/AcnlKN1Ioj1kNChuIxRmjnfIzX3aHJZkkuDP4qimH-YHTQbfHPtMXneSk3qXAyWAfMlUwk_bvCOkA2f8VIzOzZBhBOSKOLO027DBUItcARLiJ1cVYHDBu7fLGa-Tg7h5pxnYZQP9jsqFJgHdD-kSaTDQ9gxsWH_zOcPEdxkCsdqIdOBPSi3n5GSUFJa_h-HwP4afgoTM6uLx_052GAq8Bc9HG6vplUMCW1yRWwSLh3MUHy5K7J6Z7E7FhKwKsBTZPhp_QsVFbNaeuvQEhuMRX2cTlw-FhU2KSO-s6wak2h8X-gFYMsyok9jpRdEU98RF-XTAmo1kzAc-s-8M8TCcJUlVs04T1ihg28LEj_wdNnYQIj2sSWJMsRs7vwI7qmQI2zHSjIqsO7xQSqkjkm0h_pC-cn-yf1klZETG0f7JsHUrTV_X9A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5618847037437580175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:06.594Z",
-        "updatedAt": "2026-01-23T15:37:06.594Z"
+        "updatedAt": "2026-01-23T15:37:06.594Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJ5cFZ-pGvODsRjxO5UZwn-k0.jpg"
       },
       {
         "id": "ChIJG81KM4lpRzsR-eN2h4iAvbM",
@@ -44,7 +45,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJG81KM4lpRzsR-eN2h4iAvbM/photos/AcnlKN2cYEGlVUk1MEC74mdgCpBwiywzh0NtC4naRNqu2sFSXXlnttPUY2om42Vj-uAHE_6cDwIcRZXhWwlLhf88rpC8_QGxMZpMxdDonOg-AByEJ4SXI641jAd6NN09rQ3niDFmlONY6eI1YBTukNuIjxWlcmNZP7GZa205w4GZ4eBXR5Qg-XGUQGa3V4AnokS3o_CufQ_EE9e2ICZW5iyPsMyzlFajsK9iKuPloL-c10TQWQdRLR46hNQqB6GpDH7gSNT4LfhWpcksexxI0HxdmIq5_roOPBoRovd9bqDqWlcT8mit7hwYmj6GTfD46hb8TL21os1sn6ZGL5T91YZv5py_Dy_dfG-wCDUf4QisvGIbwvqNJDG4TQ7u2lqVw0g5NbuZfFoc4N4OMmKGUuq2zN67heMbCwCoitMM4C-jlavgmg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12951649427264037881&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:37:06.594Z",
-        "updatedAt": "2026-01-23T15:37:06.594Z"
+        "updatedAt": "2026-01-23T15:37:06.594Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJG81KM4lpRzsR-eN2h4iAvbM.jpg"
       },
       {
         "id": "ChIJ3YwyNAlpRzsRM0ZWnd4rvqI",
@@ -84,7 +86,8 @@
         "websiteUrl": "http://t.me/@ArtemkaFD",
         "googleMapsUrl": "https://maps.google.com/?cid=469433715213542120&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:37:06.594Z",
-        "updatedAt": "2026-01-23T15:37:06.594Z"
+        "updatedAt": "2026-01-23T15:37:06.594Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJK1Z5eQBpRzsR6CLlEHrDgwY.jpg"
       },
       {
         "id": "ChIJSdIPl-xVPzsRN0Lb3iQh9i0",
@@ -104,7 +107,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJSdIPl-xVPzsRN0Lb3iQh9i0/photos/AcnlKN07Hj5L7jAk8PpxSL7B8XUilTqAl-Zi8fJiXjDJs-P_dBvZtnKhRrjI3LQv8D0Yy5rknaR7N85h3WVHPogfnqWq4dnT_Ehxglt_Wj7d7X-yiBXoBgFdT2LiyFu9yGWKnNwfEQGiOE__H4KLtE5K8RWTUXszAHDPL04Vz8NnzvjO3WA_cFus9hCxxuSGbg0eDPgPzUXMUjg5L1PGRSYB1N9Asz4ruCiJPRuy-_UbfGLgHbBJ5tevZznAf49-kJWZnWbJ_5bQcgbjapNoLj5saJSv-y2sMYxs3wqan3n4zXOrclMCT5IL69s1ljQbbErvyoEKtvu8YUIijPbQkGiJKAyRKHuk5R4EmZWqZsZFZ1IV8ES6wSNz1QXNwryb2PeDoMFN8tyDRpaQtphWa2lwbLE2M6lWuPzYkAdpPWzMlwZKI1A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3311871018219029047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:06.594Z",
-        "updatedAt": "2026-01-23T15:37:06.594Z"
+        "updatedAt": "2026-01-23T15:37:06.594Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJSdIPl-xVPzsRN0Lb3iQh9i0.jpg"
       },
       {
         "id": "ChIJq69KBr-DQDsRl4WnFMtpfdw",
@@ -125,7 +129,8 @@
         "websiteUrl": "http://www.crossroadsmaldives.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15887971381378778519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:06.594Z",
-        "updatedAt": "2026-01-23T15:37:06.594Z"
+        "updatedAt": "2026-01-23T15:37:06.594Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJq69KBr-DQDsRl4WnFMtpfdw.jpg"
       }
     ],
     "foodie": [
@@ -147,7 +152,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0y6yrT9hPzsR0TicTi-ZyWA/photos/AcnlKN3UGCOG4svFI--YBiNDt6DPMlHzZCVt_ENZblVAUeEoGjV81YXv9yFx4IIWKggKMyhAD79DyZ9OYXVnW3XLUR6h7R2LrgfMiAk1PgYdGj90jrxbZO2HDjv1MBAy8vp8SVOUDBXdLa_QcraOjGl7G12NFm7iYPq1bNuxJBGOmCON4zokVR_69P9Sroxt032WeDR6Ucj_pQKNdHQCwgwY1fhlnPEMwO0sgYwdwJIt1qAmCfqvmVWOITs5iD6ezdDnEXFoncJTU7jEPpqjNJpzLPnj7pSltfJ-6nOAO6Zt6bZkp9_8ZYzrnsM0RG8wJiWUUY0aZ4E2EDBoCtZ_y953S0nHCKc8-gdu3UsL63duvtrilSrkd6o-LSXMJNAxdVBkElgFJDDxxcPqgWwgPCFQ28R4SDYB5H6yRcpA1OXFkEOvBA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6974273926421297361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:07.653Z",
-        "updatedAt": "2026-01-23T15:37:07.653Z"
+        "updatedAt": "2026-01-23T15:37:07.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJ0y6yrT9hPzsR0TicTi-ZyWA.jpg"
       },
       {
         "id": "ChIJ84-QsA8LRzsRwra1qPPjxIs",
@@ -167,7 +173,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ84-QsA8LRzsRwra1qPPjxIs/photos/AcnlKN2c6uzkPaG7LrUNeDBbC2OUcHos6VFBz_yxxpiKKQK5EBfozouO9cqzTgw9rPU4jHfDE1EmcpxWavYFuosXTcfRLO0NgOWhHZNiG-6MUWD80ERDoQaqlfEow1Ur5osI1yV1_MVDC4U7FVOMUKRyGr5Ycs2F8R-_4Mjyy_i5zh3mOmM-YkbsosWWi6KceSL_psBH-Fz2mTM5xBnM3cePbCm_TBsDL6JEkG5awMoUBghHrjxMVlxoT696E9PCMEGK7hik42pEvYzgv6aALgkqYw6ogJSZEmyNmTPeShp91t7x8gNL5tiXvL4Y4wmnTZ2_5ZyuEVUncogNzJcN5hHhJ2ua5eD6PdeTjbOAbOi20UgfsX04DygOz-hK-PF1MPUL5XPrsioGK2G0R7M5Vf1GvzV5o9HK2FAzE0WdX58qSSg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10071425302354310850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:07.653Z",
-        "updatedAt": "2026-01-23T15:37:07.653Z"
+        "updatedAt": "2026-01-23T15:37:07.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJ84-QsA8LRzsRwra1qPPjxIs.jpg"
       },
       {
         "id": "ChIJy5IYPQBpRzsR_e3lmxyd9iM",
@@ -207,7 +214,8 @@
         "websiteUrl": "https://www.escapismmaldives.com/dine/",
         "googleMapsUrl": "https://maps.google.com/?cid=12792745223133205563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:07.653Z",
-        "updatedAt": "2026-01-23T15:37:07.653Z"
+        "updatedAt": "2026-01-23T15:37:07.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJWexCaGn9QDsROxTuZgD2iLE.jpg"
       },
       {
         "id": "ChIJC8hrdXMrRzsRuZbdlIhb9-U",
@@ -227,7 +235,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC8hrdXMrRzsRuZbdlIhb9-U/photos/AcnlKN2vKrD6043kcm_MQ-0qTKwjwRv8DVOGX544Tow0XEoiBIRUqAgC9B1SDjH4pzlMxDZHjjXjPoPecuzZ3d2cnR2eZ0bfIZnA7BbVNTRPSqJj9FZdOU2xEEBtb-4V7qsmZ0SQx_DWm_zKqBhxHjACRL_zFqU2sdsQquR5aaELG3cyzAO6BJR0fxh9s3_PQAGBnWikfRKz3dSTuCu5JC3jQ-19LGQAE80w0CcwG7aDiBWtnYyzUgdzHpj1LwDp7E6aNEDiMdBQW2MP5ChFwfkgNgLGo1v_qZSWo1xyz0yJtzKmL-ZDXtK5mfyQWuZ5E9K9NTWyPwKm3bvTx7x5yRX4yz0UgJiIQk-ZR_1YL18DD4Vy1y4raYVOIYWlk0BJRmUcu2iKftlYsXz3rQG-1L0lYAkve0H4nr5iAMtcEN4cJJZIy3lvh1MXSb9qoLfZAg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16570813996104259257&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:07.653Z",
-        "updatedAt": "2026-01-23T15:37:07.653Z"
+        "updatedAt": "2026-01-23T15:37:07.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJC8hrdXMrRzsRuZbdlIhb9-U.jpg"
       },
       {
         "id": "ChIJNR3LCgQuRzsRqz5IJfcJTYg",
@@ -247,7 +256,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNR3LCgQuRzsRqz5IJfcJTYg/photos/AcnlKN2VeVF8r75wWlfEsPlu4yUBwYgw6i7QNvPR3NnSlvHM9OaZEQ1I8OkkWz2JwoAk9rLl60jLxjb2BDRG2ibx7Jp6bVQxnbRdMc16YLkztZyBJg_ZyAJyPw9pKPgoglpt40PNcy8Ej1oGyOgSt75CkVXcTwgbEmlKow8Jrib-EyhF5_vCid-bnRoM1VnJOalkYTRu9_MBNhD9ywAy7H5Tf2NdMdIPtticJu_aHmmGCwaT90kzNMk7kFtIQy7oj8YidfdBSNEA5QcF9-j5sQRTeyqjeK1jcsjWOa2tu3U4VTn-LvMy_S5lmX7ueRvEaBiohXcYr62PIhBU1sKNHgBf2fkMGN7KyUjvej13toOT5PzCeAneeYq1VStxphxzzdOubRe1bDQa7y_X2uzS-B1IAn83E90KuOCjiCz0ZGBshYBq-fLC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9821517319451983531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:07.653Z",
-        "updatedAt": "2026-01-23T15:37:07.653Z"
+        "updatedAt": "2026-01-23T15:37:07.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJNR3LCgQuRzsRqz5IJfcJTYg.jpg"
       },
       {
         "id": "ChIJm-alNQ4zRzsReANqcAX_oNM",
@@ -267,7 +277,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJm-alNQ4zRzsReANqcAX_oNM/photos/AcnlKN1TQucjXNhyakOZnc1UHoyv4fw-elDFhXZKq23VT-NLhiSbjiPAuXcRRYvSLHG3S02OrBN_nv3r57N74AdoWTz3Asd9Hu1UWTGov5ywsb7LgW89akhd9cT4NWbEqdafgVmiqMecoaVjRn_SVqNbo-ZcB3vWEbO0nwRLPj2WIkghjvJ7qybIAN1oimv4Y-Bj3GH8sm4GfVnaqSBeWSjzc55xImTNQonHU4yy3O5-yINQQVwgfbAMR09BGPbY4wZqOdUcH5lEAzjw1UbKaJ-iL2BVQsCM5KRO2Ya9AXdRkikUvi0dVzmLbxQ6tDaS1cRkwQ1-n67L1rdzzHdqOgIr5iJj3FzGogzP9QcEx9NXiAOInPwNzc5N2Xg7zgxnNpO3tj9dsq0yCi_ecFub_GDlc9OH-SvTbW-To_plH2B2jD5CHkd6vb89jL3GmiIOOQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15249468737102414712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:07.653Z",
-        "updatedAt": "2026-01-23T15:37:07.653Z"
+        "updatedAt": "2026-01-23T15:37:07.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJm-alNQ4zRzsReANqcAX_oNM.jpg"
       },
       {
         "id": "ChIJ677SQwAzRzsRn8L4cDE43t4",
@@ -287,7 +298,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ677SQwAzRzsRn8L4cDE43t4/photos/AcnlKN0TR9afpmPSNgv9tnZ4x5SRO6M6uEa4-1fstO-5YjuKtrbpamLYVRW9lKh2uDvhGT4Bz4IegcZH7TyPuZhtpkjhWwqT42ox0u_BtsbM5KldVjbx_yHZjGavERlgcB0nOcDj5_UU7NPZDYnJi9FG26dmuEJ6oIUrlC0SfXk2b81lpKTPdndD7aQNcx9aO2EEeeG2z0PnzgMNp9jNGn7kqx1gVL623PQbAI3RV_YhhW13R4CpjOMsKo2ztKqo4QH7qnuFkxeFkTkoLTf6sH8NaSiXW86p52OTT8sw8bxnyd85eU1EaPMV-tvQbLtquFsJD7k2jGzozqqRc_7nz5DiP4o2rzvFknNmp4nCU1y6t_3eyuTUuRG_48sxVg6qUaqVU_KyegZWL465RxtS5VSbSMFr3Syrz4JK2t7RyFmPQfCBwexrLOXOkchTV1NrEA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16059335106249671327&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:07.653Z",
-        "updatedAt": "2026-01-23T15:37:07.653Z"
+        "updatedAt": "2026-01-23T15:37:07.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJ677SQwAzRzsRn8L4cDE43t4.jpg"
       },
       {
         "id": "ChIJXUZey8CnRzsRzesnjDEP-NQ",
@@ -308,7 +320,8 @@
         "websiteUrl": "https://maldives.baglionihotels.com/dining/yama",
         "googleMapsUrl": "https://maps.google.com/?cid=15346032435744205773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:07.653Z",
-        "updatedAt": "2026-01-23T15:37:07.653Z"
+        "updatedAt": "2026-01-23T15:37:07.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJXUZey8CnRzsRzesnjDEP-NQ.jpg"
       },
       {
         "id": "ChIJYeEO9ftpRzsRpQXsGOsgS_w",
@@ -328,7 +341,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYeEO9ftpRzsRpQXsGOsgS_w/photos/AcnlKN0MWuGtcLWOfaWNjwffAqV81Eae2-oxtVpVefUK04-G1_fBNxiW_Kmr-vYxxAys-k63sQS0wYpklO2EZz1pkwdJYFrSjIG5mhz3r3LX2rB4cU2jqP1d-Iko-pfWha9p4MWPRIcz16xo1In00fAUQluXesVpxJ3t-ACYP3jx2lH_qQZi-8Jy6ll-LuSBd1E270RK6bGW2cZ7Wo45HeR4GXI0IT4qfwShnyhb6M4lZcHMOx9Hbw9xgNbhvi1ekfxr1vuotaRqgg5_Jtse4hS46FICkjpJ7YSlxTSVuSXp71q6TQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18179660514918663589&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:37:07.653Z",
-        "updatedAt": "2026-01-23T15:37:07.653Z"
+        "updatedAt": "2026-01-23T15:37:07.653Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJYeEO9ftpRzsRpQXsGOsgS_w.jpg"
       },
       {
         "id": "ChIJS_gsdwBpRzsRSvtzB93DXPk",
@@ -370,7 +384,8 @@
         "websiteUrl": "https://consilience-adventure.odoo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17628515273128529046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJmdGhVQDFQDsRlsxftD0RpfQ.jpg"
       },
       {
         "id": "ChIJu01u-xUrRzsRQy_A6CDgUus",
@@ -391,7 +406,8 @@
         "websiteUrl": "http://www.oceangroup.mv/",
         "googleMapsUrl": "https://maps.google.com/?cid=16956861978951823171&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJu01u-xUrRzsRQy_A6CDgUus.jpg"
       },
       {
         "id": "ChIJsXEwfgBpRzsRbgNCipcjyrQ",
@@ -411,7 +427,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsXEwfgBpRzsRbgNCipcjyrQ/photos/AcnlKN2013Bii6Dv5RsMvSMCI7nzcM9lHfa2maNqFxZSGXSCA1fyZcl3E_dbYjC7UOHGbdhtVWG4vl2yNAlZfEjMaoV_wOP72pEBSxEqGt9rYn4uUdEqh0a9ts2fiq6oZG1ZXVVv9YMT9RL0b9HdDnLzKzfIpQbn1zZhOAVCuDtHjxUgseHhBqscAT5b33rfB3Wdlu2rj9MVH334idYkZHAf-sZbZZ1JW97hD5quq9N33gFQ3_4s9n-BUtrjto1MwE2GpXMvxw7noqupolFO0K6uxMspr3qn3GvXvpTY4EOysbUsdj8aBREYKTSzPI3j0FU2O4yHivilJi4efvbV7FpJjIAhc-LukxFDw0b2GhgcV-qqGyh9RJAv_7-X6KpcqgOFbVTKczOLs0EwauLs9d-hhZ4FL80xv0da_wMaefz2lh4ln6yad0iUdKImwWwY1kai/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13027264005889196910&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJsXEwfgBpRzsRbgNCipcjyrQ.jpg"
       },
       {
         "id": "ChIJWUOcpTMLRzsR1bdwNsDBals",
@@ -431,7 +448,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJWUOcpTMLRzsR1bdwNsDBals/photos/AcnlKN0M9j73d5XtRxe-sYQy42_3gZaHwR9nRlCCq6mDaHoqiHY7X3rhtSuKtIYAIsvca1r1o_OSl8T8ZxbVEDJA9O8IJjHmzxE6gUe_99bWMZwMNaPbUI27fvLZNjrqDdpXRYWIXBchDZ2kKmacl-8ps3H3Dw22EBsh5G-NVmDyljYlJfJQnKXTg6Z5aMqpkN_TNfgSS4DePaHO_7KKuAjY3wWJ1L2CPUiqEAHTFx5LUxaGcHF20RMiqbGjRF68KO6xJr1dYiIFKftguJmE1kOCR41CWdcewyrRO-XlZW1YZqwBZxQbxTPPRJ-pTIM8G8rLeyFiyLQDa-X_9ajIj7OU8P6sdT-fSF54dybGDZIYspZoN_vGCvJ8GsO-9aLUcLsLyla_T20O3hBNkIvv5JJ6-6tzzygzBoQ-wcDQ2eq2vl4FSt2d/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6587290436274010069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJWUOcpTMLRzsR1bdwNsDBals.jpg"
       },
       {
         "id": "ChIJsf8OBbFpRzsRvBsG584O72w",
@@ -451,7 +469,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsf8OBbFpRzsRvBsG584O72w/photos/AcnlKN183Pjks2xR1-JU14BmTAFphzZen32Lk6n9gmvhz1dzJJIaxeXH57dLjMq2e8AAwTR-LAYuMrscCp65ZXKQ_q4tSDREcAOI29TLh3oc2nOmn4dJQT4fHe2ny-8eh-8ulOerxjSXgT82xbE_kbWqTWBme5EIYh4nkVnMMZ4b8wEK5Y2ivzsYMxqdrGZ9nQXq6XczanCgyRdm8EYrees8bf6lImRn9123qQaIJOUbKNPv4SLa7F50fDKg4ACwgClmmp7TN6ghokipB7NrDloZX069_B75HhPx8z3rCuIdJAG8PZC06YjmHHb1w4iQxDq3ISaeLUkp_fpk4dwaJb9nwqZyS73rsXsaXV4CWEnf4nvMMJ5pJf0G8Hiyt_tBP1IEhJAbnU2Rm1Dctp1u52xoPS378vN-cs2n_qnOhENW1yjiaLI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7849508957332052924&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJsf8OBbFpRzsRvBsG584O72w.jpg"
       },
       {
         "id": "ChIJJR6aXgDhQDsR7OvbSKJtHUw",
@@ -471,7 +490,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJR6aXgDhQDsR7OvbSKJtHUw/photos/AcnlKN2VRJvLeDQIvGUiYRfhg56e903_VDjPVFSJBF253gV_z3ZObFhQWKXet0eivAyNLfEZGc05NvSsQM_jiXte0V8Txe0wYHseyPh9ittvWEfgZQwlp_qbDPcXL4whjkkBBNBNkv2wmjdfWZR94Roz_t9o7rOL2dli7GKXcy4vzRR7slvDXqm3V3SbT4uPxJ8_cd4mTNmok3Uvvtw0Ift1ZmkN8JbCBVaz_ZY9aKM7mnalUf0sXxVwuQkTB_w67i0dkdmNeiGLdRTTuIsUaYhyHtbSZOar5Xt9dP8DPeaBMhQ7Gg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5484660464981634028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJJR6aXgDhQDsR7OvbSKJtHUw.jpg"
       },
       {
         "id": "ChIJu9jDk6hjPzsR_mM2ot6a_1Y",
@@ -492,7 +512,8 @@
         "websiteUrl": "https://www.instagram.com/aquaticadventuremv?igsh=cjEwMzhoMjQ4NW82&utm_source=qr",
         "googleMapsUrl": "https://maps.google.com/?cid=6268899487317910526&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJu9jDk6hjPzsR_mM2ot6a_1Y.jpg"
       },
       {
         "id": "ChIJ5YCLt0pVPzsRsAciyBmS_Ao",
@@ -512,7 +533,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5YCLt0pVPzsRsAciyBmS_Ao/photos/AcnlKN00Pk9CoZu9D9ULxn6xe2xukG7DsxfzXgVniDncihYP93lWdPIqtEY2VdXY3rAkErg5HG_gWLPC1PLfYuzBLCy2-2h2VVnE0ktImm95D1CgFY3SjggsUd00XGyM2MHrQFh1-6sslY_r46_WMi1JVZ1y_nsjxEzJ34hoq-y-DTFQufdWsZkLubjXRfSYTJd-rztDXWp_-56iGrVz_rtlcNlzr9SoZ7rAWUWsjQyzOf7mT5yNS3MuDV0GWkYfjyrstxSZSK78Lz0Uw_tnockBD-AMQeY4Xt6iIVhbFnMlJBn4JoygbXfgkzJgw5cL49DCRYaZ643gdVL3D8zteiuFcjIThZWoARbFvnXFWtC3uRQWh1deKtVVta4WndNe-Hd6IVNMPv6Evr0SpjaBAJvaDHrFVuOpEooMSCTOC_MgqgM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=791668273939875760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJ5YCLt0pVPzsRsAciyBmS_Ao.jpg"
       },
       {
         "id": "ChIJHzjsMKNhPzsRlJGbydbMwcU",
@@ -533,7 +555,8 @@
         "websiteUrl": "http://www.arenabeachmaldives.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14249895918854443412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJHzjsMKNhPzsRlJGbydbMwcU.jpg"
       },
       {
         "id": "ChIJwdJNTbQuRzsR6jP-jAG3uWY",
@@ -553,7 +576,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwdJNTbQuRzsR6jP-jAG3uWY/photos/AcnlKN0ImsDy4BgszQkLIUwC3o2NbjOAAf_I3Wvh8B3qZ_i7oPcI48Fuakry41Yd4he_wWoD91gpHXHA6sjnCimOt8Td8XeCsnCNqey98-Vkz0fBIXiczVoCFCx4tH5L7tcAIYz5vT9CZogGyr4zalvRR8L1VqZfzhd5jqxplA9Vqb78AuHXPrMLULjHcll7SAOOjgJXMEDWDNWz5iXuu5NdzsLwda1Eft6OcGvIf06zG9M5WSlMYz8TrE0JMdwmKqr54hvrdVKiGOvDBa6frgsHmuvsJ5j7gU8sxJB0sl2FN7gRMUIrQv2EPpuWFbFe7_Y909d_qL8NhIYPqz-MWGb_5fIhNrks-klnvBfBhjDZEvg5_hi0beWU8QyWRQd_Ocx2lQzd4CeMfOPXQaZ5ziCmmeeJfAfK_KV9uyxu0brsiasCRA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7402148679848440810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJwdJNTbQuRzsR6jP-jAG3uWY.jpg"
       },
       {
         "id": "ChIJlwm0n7xhPzsRLp7VcuR7gqI",
@@ -574,7 +598,8 @@
         "websiteUrl": "https://www.tritonmaldives.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11710058202226073134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJlwm0n7xhPzsRLp7VcuR7gqI.jpg"
       },
       {
         "id": "ChIJQYOUBkNhPzsRY6XdKVdPd5s",
@@ -594,7 +619,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQYOUBkNhPzsRY6XdKVdPd5s/photos/AcnlKN1v8yC5ZwcrXVG6Zqti6Pebih9dvG5CldAaJCoj_xToKyvLbwz16gAU2FTeWfEZ-Zk5VVwUG8Rx4kcuXrBj5_igPAobafzS6Ik3UhbmXZIvr3yEcv9MB7v02mUiCVVxUSsfF3tMSADlElDNVTbV48t6VfLFJ92HPK3wjf0vnMqbXOzTYi5H2Lw6syTPABhF4-irslKfodfbjm4rgI7otQZ58ApRDAIt8xIY_SsDVsZnPmG7HX6J7RKxzOlumRZ_t24bks0d6MivkuMr8rvG0ZX_Nalmb5rN0Mh0bWAENzpunRq_Ap1ub2rJYPe8CPAXiv-veISNbfws9Ib30d4rUfSc_nd_8edsXYJH02K0j3e23mS06WBajqFXbKhT75eXWmGNrZhcxnwChjCQpn0oEwSTSlbat1tqG8cJiW6HTn8wyqk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11202509833890538851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:08.980Z",
-        "updatedAt": "2026-01-23T15:37:08.980Z"
+        "updatedAt": "2026-01-23T15:37:08.980Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJQYOUBkNhPzsRY6XdKVdPd5s.jpg"
       }
     ],
     "cultural": [
@@ -616,7 +642,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJkSGOz2bhQDsRRFoVYlVIICU/photos/AcnlKN3Wi1dMiw1g9aVxusycUJI3p1bck7e4XFfNbYVxgom1V45-7Pr56vqt37q8RU8mAdaOu003RbdQXns-GJle-kLFL2tfs_KA6GDT2Py_vQgFMyvkzqhOLlxaGL6udZIQljQQWc2a9yTKb7vWBYxsauO19PhHt0_ouHzH54vBPKEPeSUpnIjrr8us-WN7yN566ECpglEL15xYmMEYq36_8nd8AyUb5V5KofnmcXrdkg9WCOa9QhyF4hg2lceSVSSfFMOnmLRMAuRQUtsmMLXfur--FQdGkDVj_wO3kIxqwSSR1IBhLYlfH4h4PGSwshhZt8FMYPuC2kROuzzsGNNMbGnCB1nqIdyWBxNJYBzwSqNLa-o5K3lmGM7dobA0ZcE7jYj3Vi9qV5T0kiXEnJ2bgVsTReO-qb2P23FQ8lOe9uyC9syC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2675217710213061188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:10.093Z",
-        "updatedAt": "2026-01-23T15:37:10.093Z"
+        "updatedAt": "2026-01-23T15:37:10.093Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJkSGOz2bhQDsRRFoVYlVIICU.jpg"
       },
       {
         "id": "ChIJcdbOQZqgQDsREHQRIER2weQ",
@@ -637,7 +664,8 @@
         "websiteUrl": "http://www.creaticamaldives.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16483586146120594448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:10.093Z",
-        "updatedAt": "2026-01-23T15:37:10.093Z"
+        "updatedAt": "2026-01-23T15:37:10.093Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJcdbOQZqgQDsREHQRIER2weQ.jpg"
       },
       {
         "id": "ChIJq69KBr-DQDsRl4WnFMtpfdw",
@@ -658,7 +686,8 @@
         "websiteUrl": "http://www.crossroadsmaldives.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15887971381378778519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:10.093Z",
-        "updatedAt": "2026-01-23T15:37:10.093Z"
+        "updatedAt": "2026-01-23T15:37:10.093Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJq69KBr-DQDsRl4WnFMtpfdw.jpg"
       }
     ],
     "relaxation": [
@@ -680,7 +709,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuUHuYwAVRzsRgbII030Vlqo/photos/AcnlKN21ZNFzwCwAD6HM1v3nRUul_3GlPhmcg5OLTDY33h57klWTtJVx3AUf5b6IoUsjzHRiz4I_8o-Z-BP1Bak9QHNBKadSPFvtWYBbdQsGvziZYtntyfXIXB_nOKndVuM8t3KmKhzMDbj7VCtgzq0cPLIX8EiYMT5nxmR0Eh39uYMUaR4OvDUjumRupJyvUa_OCE6nJaOLAjAT92SeD0U9AmgBFFF8RwrCVUFNir5IySpZDB6NX0Sdi5cyeLWk1deK7QPW1HZIgmngJhPMUh4bXtZyJperzo4tiezPi-VHO5GRBTlB2LkIEP-uK2G0vBp-gxhv01nGu1YtRE058nkKodgSvTaRzU9lPZMk6ajWmFTwdAU0ySPIci8IC1bAzPcmxKTGsTrGqaU7pv_vUSPRQitnrnqtqcbxO9Zq-zLjPBk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12292035863110005377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:11.171Z",
-        "updatedAt": "2026-01-23T15:37:11.171Z"
+        "updatedAt": "2026-01-23T15:37:11.171Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJuUHuYwAVRzsRgbII030Vlqo.jpg"
       },
       {
         "id": "ChIJsf8OBbFpRzsRvBsG584O72w",
@@ -700,7 +730,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsf8OBbFpRzsRvBsG584O72w/photos/AcnlKN2VdhAGMNiVkYhjRoO38_05afpW7wuLZ4tfd-rR0p1Cz2X0VAIBuHB10gQzAH8MvmoHmoer3mJ1RK4tflD0lg0553s_n04YjkAxbdMJay-JMiI8k1tZzenRlNDqvyd4GtRowYjLLSPxN4lUfPbXOa2BOyhZd7K9uCM-dnFm45cg6_z7Pz0wCwXcXTEzmnSoBrborzK8F9ZIZ2UKaGFi0FyFUP8mn5K8BCJXj_04oCwXXyE9Ee2KB0ERfEovCbI6YNzosAt3w71U66za0WfqyM_iyrN43bMs7JeL-cO8XU6ofm_k-TVzMv0ARssP3tIb1yQpiZI4Knan98HsXK6fTY58g7NSeZhJfU6vRrl8T4ZB5CDfAzZsLdTuPxKkj_clrd8OTt0cdQ0Dvfy528KD-_ij7pA_Nz22vu27zB8A-rPjTco/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7849508957332052924&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:11.171Z",
-        "updatedAt": "2026-01-23T15:37:11.171Z"
+        "updatedAt": "2026-01-23T15:37:11.171Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJsf8OBbFpRzsRvBsG584O72w.jpg"
       }
     ],
     "nightlife": [
@@ -722,7 +753,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJZYU06tjNQDsRykYrjOpfBA4/photos/AcnlKN1xrO8AmdXGhWNMzzGLU83ds-hwWWDLWnTvphSD4rE35tNvIAPcJvd7Qb5whVUTz_hT77pRL5aK2kxCAMdxSMZJ5JQRgyFHHfC8onh57DV5y-wXeGeflO7X58YBF-u0EDEOXGCvuDy9NM27hHEa4QSgVHxnWUvijGGLiE3TyjgAi_6gvDCbYwvd3RQPc50Cs0WfPiEKi-SveHH-JFQWx7Ej7gDhheMJ2YC3u-JlOssgWuiLEDp1SRlFjbmanHI2Gh2gob1UFETR_MMXoIJK3wj1a1ofRbh9glXrVjbIOYE5YA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1010037677416466122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:12.549Z",
-        "updatedAt": "2026-01-23T15:37:12.549Z"
+        "updatedAt": "2026-01-23T15:37:12.549Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJZYU06tjNQDsRykYrjOpfBA4.jpg"
       },
       {
         "id": "ChIJ12zz4WjFQDsR2NohxbffIcg",
@@ -742,7 +774,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ12zz4WjFQDsR2NohxbffIcg/photos/AcnlKN3uf7t8wZqW8_PewQgkhb2b7yYDMtIwwBz1TqugwNi4zyxHQOcUV-j0Z3BeeT9cB4t2wshP7KYN3zKDcYK8zTzLeC1SwYEN-kgOhadNt_0hOD_HsjGOOP0GfeWZywS5cdJhFd_0g3fBssPemWA-1k-UCYoN78bMADmqJPfnySp3EphED-BJbo3zi4KVUs--VjPvyav1Hibsi83T93ULIc4tw7Wm_mdpHYiEOQeBS3BKCe-M-VCBBpnNS4XGR7B2Z0LRhxtdBuSYIOJ4f0a6cWPGeNTgeh695yF43UFp-lkv_LR1dkk3HaFccLKKPDWMNwveIR4bL6AsZ6rSPq5NjgFu67DY9yg5I00NbTqklQ5OEC6BLD0p5ow9FZL15mHc8D6ovfxbGkfg2I5j8ludsvJZM0H7MoSXkCz70BrF1-moyYw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14421053462196378328&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:12.549Z",
-        "updatedAt": "2026-01-23T15:37:12.549Z"
+        "updatedAt": "2026-01-23T15:37:12.549Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJ12zz4WjFQDsR2NohxbffIcg.jpg"
       },
       {
         "id": "ChIJifep_OLTQDsRckX2wmAWdno",
@@ -764,7 +797,8 @@
         "websiteUrl": "http://angaga.com.mv/",
         "googleMapsUrl": "https://maps.google.com/?cid=8824265124722656626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:12.549Z",
-        "updatedAt": "2026-01-23T15:37:12.549Z"
+        "updatedAt": "2026-01-23T15:37:12.549Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJifep_OLTQDsRckX2wmAWdno.jpg"
       },
       {
         "id": "ChIJKzCj-x28RzsRs29KI5hnZco",
@@ -785,7 +819,8 @@
         "websiteUrl": "http://www.kandima.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14584176871433990067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:12.549Z",
-        "updatedAt": "2026-01-23T15:37:12.549Z"
+        "updatedAt": "2026-01-23T15:37:12.549Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJKzCj-x28RzsRs29KI5hnZco.jpg"
       },
       {
         "id": "ChIJr1L6fkmhQDsR213Ms1dDTGc",
@@ -805,7 +840,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJr1L6fkmhQDsR213Ms1dDTGc/photos/AcnlKN1gyyV7DR9kkomU2AbUzknCQjoJTTXtinYfLB0qH4sKC84C93hvFlfsONGc72J20BbKHnV2zIvniXFzB9NR2yTx6FUtai_8fpLCUrD6135180Z2Ma6YeHEvCuAYhHMuquws6sT7Hw4xJJC1gdYTtyfQ8Yn2b1-ub2HLPXngycLrSUqhAoCwmn9qCm0MYt_P3G-rIH-oIWcvKAJCBUinLb3g1_nF3nRUfejIP09ZdsnUa9yVXJbNFzu-TWFuzTa3amjPsRFTUtUjn3zyHSRPNyuyqk2OdJf7Lm1oM9ipTZHgOJydzOC0w-0YroFQQ5JcNqsmgAN2yb_Ug6VVuNuo7esr1ujO3Grii65Dw0evLtaIJsXJG2CURFkxeBxuVDFbXZ6LChOGvj0o80T-jFgvZ8a3C9YQySplSeFT_0JpBjA3Fg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7443398328094318043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:12.549Z",
-        "updatedAt": "2026-01-23T15:37:12.549Z"
+        "updatedAt": "2026-01-23T15:37:12.549Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJr1L6fkmhQDsR213Ms1dDTGc.jpg"
       },
       {
         "id": "ChIJoaCYdACDQDsRPHbTDpzesFk",
@@ -844,7 +880,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb9wDFdiDQDsRfDgAbN4U-ic/photos/AcnlKN1u6xBQ0cI3SGRTBiqsrcIoYSo9gRJcyyM3eSU8BeBcBkcgJGKeQiYSZJvCu3qoP4lcNmHp-ARNvgd3i54q4Lb7QEAbRHsyO145-7z92Ek8iDlUmboBs8OmcjpQxNBalNnkljvIamkOIUX7BfncAscJgrckEm6eQJWW9txLCsOgnmaKZgEtJTXx-COJ6TQTz7iZUYcVxWATqXBf-Zn3g96xsdjmAV31uqQN7DJZ8tXMlGS471LB4wA2uaE9YMwOL_dPlojMSYYT1KjGqJZNXvc7hVkak2OS_koTzNY0c0qqZxR1VVn2MrZVbru4C4Cze5zjn8_nmn6rXZ7GwFLQsKYbfK8z3ykI6J65P088RwlaJ6FhHnBgyYDnW9RIAkmLCBp7QXShL2Qj-e1jGhgpXAqwYewPo_w_i6j1ief9rFM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2880637857184102524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:37:12.549Z",
-        "updatedAt": "2026-01-23T15:37:12.549Z"
+        "updatedAt": "2026-01-23T15:37:12.549Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJb9wDFdiDQDsRfDgAbN4U-ic.jpg"
       }
     ],
     "trendy": [
@@ -866,7 +903,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYeEO9ftpRzsRpQXsGOsgS_w/photos/AcnlKN1_e_8nDAJq7D61W6cPdfcle4uOu7xnZl0JXP5uybHy4a0d4VlBguvo8yUiPeC8eywheF9mtJ1o5rjk2L69e4yxwszKxRjJMmFISV9z2fb48xle2GmvYNP_1HbFfZH1Kohy63xD7uVfk8LlAwlX5ijsnDJBRdKvCEBj1fpofhjEiLMjdKf9dZC2gNIvqMzYybmy_DOapX33qK46quH7fm3lBcOjhjmOk487Ogpyf3BXGxzm-2ik9-Q7P1-bu_DbrWutV2JqZ8cVaw_2wc2pxNzUwo8s4hqHt83pgMe3kqmcjg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18179660514918663589&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:37:13.664Z",
-        "updatedAt": "2026-01-23T15:37:13.664Z"
+        "updatedAt": "2026-01-23T15:37:13.664Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/maldives/ChIJYeEO9ftpRzsRpQXsGOsgS_w.jpg"
       }
     ]
   },

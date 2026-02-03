@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJdzVp1fnJcFMR-EPU51ImHlc/photos/AcnlKN1KGipgU6wUzzpsgr72TPOYbjQJUedY1gMe5v0P6u5viv7lCJmaB4VEMsgvDtbATxpunFXCOFoh8Kj6_GNCa7B3Q8tZItse4aWaC4vdeQNHn6rXUWOSq_upilkCCynhoguRX0t28vXfreQUiL1SSpeRHyTv1AnPs6F7Qjo0vx_LXAMOKwokyDSrx1G522Q1l57No1-u9hhhckJKZCf_Ha7wREmImAIan7cQaSo7TttNpDemrhITANTa-cI-LIsALDN4Hksc-QC5fIhcO5AS1yuVPnjlZOMM_yuhBaV1ssYEMQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6277497068119671800&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJdzVp1fnJcFMR-EPU51ImHlc.jpg"
       },
       {
         "id": "ChIJ_RUzevrKcFMRU1gdq9F10ls",
@@ -44,7 +45,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_RUzevrKcFMRU1gdq9F10ls/photos/AcnlKN3dLIALhOpmQ7YtgQ182aaecjaNfBoTq68dOCwVTB5hbZk1DD644YsqhbBuoAjtzV4rvwrBCVZRPnaO-D9iBGdikYXVj0xXvQz0lrdI7yPVWAMcP4wAjVvMgYYcse1PNAgnEqGD3dH-VjTyMMMFkgrteLx2EJGpGmfbwKZtpK9VnH6IOvlUUgwaEv2SDLQ2-yfxNnzsJOVtjiWZWj4amOyPTmNfdwh7DpVht0CO27saG-JAszAUMWv0GtnhNLGqQ02yb9VU49nzwd-DmP2_rvsPtctCWaMdfPFXJ2cpyHwaxsohBwsr2T50go6uC5XZY6T0bN1-mqCcHT5Sft7FCaqUOO2sn9kfgKAoIOojwI9k4Xv3QEtFJLRVzduPW2QFFqFYuBRTDbjJcZsfx2wSK61Qgy1cpPxBSSYZFS2w6KjPJQ8i/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6616480345940121683&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ_RUzevrKcFMRU1gdq9F10ls.jpg"
       },
       {
         "id": "ChIJUxBJITveeVMRdW-P2NvpnPI",
@@ -65,7 +67,8 @@
         "websiteUrl": "https://parcs.canada.ca/pn-np/bc/yoho",
         "googleMapsUrl": "https://maps.google.com/?cid=17482104983985811317&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJUxBJITveeVMRdW-P2NvpnPI.jpg"
       },
       {
         "id": "ChIJUwMEl0fKcFMRcP5sxeBtoj8",
@@ -85,7 +88,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUwMEl0fKcFMRcP5sxeBtoj8/photos/AcnlKN3-RrLUEi9s2FOxPy8ulzHMB8N4VNarrsTTuPOnAlOCsddIp87-6ADAVa7bN9Qphh2l_oN_5ALdHajSzSKvT5V1PmrVLsax4jVj6PTkvb2l0ytiB_pJeYGsB1IQUHIUE0dCThBWYgzbgrOo6zsUOaXfK73GQUM5bdkk0fl2JAgWqfxrMnJIEv8uSZ9kyfM93wupuTEmHLL7NqgTlydlgjnEcmudYb6wCJrtia1ScUPPyrZJ4iKTNHW6BePSy7xAbjiIEob_8p772yRcnETcrmIY9xGYdrWOrQK7QXY4PRlksufonFXbX1VoNkJB2ymeB9j-rlAEur_yGHVUOwrhE6DPSU3qI0-Zt08cBHmct2Rkop_Dw2nspVefTlU2lPE07Ui08oOc0gwDEV8ahimtIBGqi097xRvu9tUDXsrLsOUxww/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4585348182768942704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJUwMEl0fKcFMRcP5sxeBtoj8.jpg"
       },
       {
         "id": "ChIJoXKdCWPJcFMRifTm8zB9kek",
@@ -106,7 +110,8 @@
         "websiteUrl": "https://www.banffjaspercollection.com/attractions/banff-gondola/",
         "googleMapsUrl": "https://maps.google.com/?cid=16830370931664155785&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJoXKdCWPJcFMRifTm8zB9kek.jpg"
       },
       {
         "id": "ChIJBRcYXTrKcFMRjCbeJoermuk",
@@ -127,7 +132,8 @@
         "websiteUrl": "https://pc.gc.ca/banff?utm_source=gmb&utm_medium=bowfalls",
         "googleMapsUrl": "https://maps.google.com/?cid=16832955154211677836&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJBRcYXTrKcFMRjCbeJoermuk.jpg"
       },
       {
         "id": "ChIJHX8xRUfKcFMRfyvAhgminoI",
@@ -148,7 +154,8 @@
         "websiteUrl": "http://banffandbeyond.com/escape-the-crowds-of-banff-avenue-in-cascade-gardens",
         "googleMapsUrl": "https://maps.google.com/?cid=9412138433050061695&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJHX8xRUfKcFMRfyvAhgminoI.jpg"
       },
       {
         "id": "ChIJv7gvLjvKcFMRzvb0LKnpmQA",
@@ -169,7 +176,8 @@
         "websiteUrl": "https://www.fairmont.com/en/hotels/banff/fairmont-banff-springs.html?goto=fiche_hotel&code_hotel=A550&merchantid=seo-maps-CA-A550&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps&y_source=1_MTIzNjEzODctNzE1LWxvY2F0aW9uLndlYnNpdGU=",
         "googleMapsUrl": "https://maps.google.com/?cid=43322584249726670&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJv7gvLjvKcFMRzvb0LKnpmQA.jpg"
       },
       {
         "id": "ChIJH-i-h0XKcFMR0cs220CQ17Y",
@@ -190,7 +198,8 @@
         "websiteUrl": "https://www.banfflakelouise.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13175157843125783505&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJH-i-h0XKcFMR0cs220CQ17Y.jpg"
       },
       {
         "id": "ChIJyy-epTDKcFMRCJPBIeLjg_M",
@@ -211,7 +220,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=banff_suprisecorner",
         "googleMapsUrl": "https://maps.google.com/?cid=17547119133534032648&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJyy-epTDKcFMRCJPBIeLjg_M.jpg"
       },
       {
         "id": "ChIJOSIYYpbLcFMR5bNEyXJ1R_I",
@@ -232,7 +242,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=hoodoo_viewpoint",
         "googleMapsUrl": "https://maps.google.com/?cid=17458051616388461541&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJOSIYYpbLcFMR5bNEyXJ1R_I.jpg"
       },
       {
         "id": "ChIJPe5LM-_KcFMRj5sq8kzdj38",
@@ -253,7 +264,8 @@
         "websiteUrl": "https://banffnorquay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9191808687036603279&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJPe5LM-_KcFMRj5sq8kzdj38.jpg"
       },
       {
         "id": "ChIJ_0miDJfMcFMR0IlkiQ7Htms",
@@ -274,7 +286,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/camping?utm_source=gmb&utm_medium=twojackcampground",
         "googleMapsUrl": "https://maps.google.com/?cid=7761609873068165584&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ_0miDJfMcFMR0IlkiQ7Htms.jpg"
       },
       {
         "id": "ChIJGUbz_kbKcFMR-b6FuZVcjYU",
@@ -295,7 +308,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/lhn-nhs/ab/banff/index?utm_source=gmb&utm_medium=banff_museum",
         "googleMapsUrl": "https://maps.google.com/?cid=9623449776893050617&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJGUbz_kbKcFMR-b6FuZVcjYU.jpg"
       },
       {
         "id": "ChIJvwXkmmvKcFMR0jQ8HRSSsqk",
@@ -316,7 +330,8 @@
         "websiteUrl": "https://pc.gc.ca/eng/lhn-nhs/ab/caveandbasin/index?utm_source=gmb&utm_medium=caveandbasin",
         "googleMapsUrl": "https://maps.google.com/?cid=12227996553351804114&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJvwXkmmvKcFMR0jQ8HRSSsqk.jpg"
       },
       {
         "id": "ChIJHdu57QC1cFMRYrOgWCEq-OQ",
@@ -336,7 +351,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJHdu57QC1cFMRYrOgWCEq-OQ/photos/AcnlKN2-INtxa3rsEMRTXEZ5UjjLi7shpgidxdgkZvfOeB2a21MK4MjvUAWeCKsqdc2NxRqezBtAUWY7BFc3aWDgC17G-0EAm78wLMMS9-FNnbMpZ-7jr6wXL_k00odxQtyMpOZttkZUrt_YQDiWDbUfURbI5KCCk3zVFEhICARShD2fS60N1kpjKdDtVzW3bn2I0wmBONjl6EBDzz4R86eaAJ2vzXjIwgNF6TrsNVxkK-UCx5ShSVqOcQZZ3CP_uouZJz8GEEJNQ49Ko1wPgp3HvzREiVD-cWdpPoUGSiD8DE1FhXOWAOp3S-0EzDkgYd_Dk3-8QgS-7U9yFbrPxT0oxV45yyGztfGLgvwVkGSSuaZQrW1qVmG5UhIinp10Vca4DzxtIUvATgOKyX7jwaqRc1GCcH3ZHFIZD1gIIjOKRGTClPVJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16498983557581026146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJHdu57QC1cFMRYrOgWCEq-OQ.jpg"
       },
       {
         "id": "ChIJJzw1fAdPd1MRCnja0kV0V7s",
@@ -357,7 +373,8 @@
         "websiteUrl": "https://parks.canada.ca/pn-np/ab/banff/visit/les10-top10/promenade-de-la-vallee-de-la-bow-bow-valley-parkway",
         "googleMapsUrl": "https://maps.google.com/?cid=13499386251305449482&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJJzw1fAdPd1MRCnja0kV0V7s.jpg"
       },
       {
         "id": "ChIJadzLf0bKcFMR9XLTxGWitO4",
@@ -378,7 +395,8 @@
         "websiteUrl": "https://www.whyte.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=17200551434812355317&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJadzLf0bKcFMR9XLTxGWitO4.jpg"
       },
       {
         "id": "ChIJS-IcikbKcFMRw6oJpKl8W3o",
@@ -399,7 +417,8 @@
         "websiteUrl": "http://www.banff.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=8816777763551292099&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJS-IcikbKcFMRw6oJpKl8W3o.jpg"
       },
       {
         "id": "ChIJCX9Eg8rLcFMRPn0zvzEJpbc",
@@ -419,7 +438,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJCX9Eg8rLcFMRPn0zvzEJpbc/photos/AcnlKN0ZkNHiK74yNge58c4wjDssFqa7QjXkilj92ZaqbOkcvvcC8wkrR3gv45bHtUYtPiuwNzSqvQzDK7hpmVyaMr6HaSlgIwZkvGJzjkmPoizs2Jy-ncaOhhO0ST9R7BDx4JRvVwOvH2YCChbj9Ab1Ck1ts6bhqOslVwouQ8b1uIlG7h4a1wzpX7P4TZhr1M2UkWD3nf0TGUimpI1BWjq__I9j-qK7SNVEbs7bjWMt4YoLxv4E3QNFaSt7VpC0xzSbX72zH9-dNlF7axGbplllR_w0xBiUQ8jv4tTdl5OJAZPWAMTadMceTk992jNSyGqB83s4z-l1cvog51QbUvS_kc_FaLk2rO-jzBMp5MhO-g6jZyCCSMu94HmHM1JOyTyJZgJxYw4K6Y0kjgNdWLQBDyyGe6W1I3vG1ju9ShYxnlPdSDo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13232993189363940670&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJCX9Eg8rLcFMRPn0zvzEJpbc.jpg"
       },
       {
         "id": "ChIJX15TOUfKcFMR1sSIvv5LCuk",
@@ -440,7 +460,8 @@
         "websiteUrl": "http://www.buffalonationsmuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16792317718094726358&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJX15TOUfKcFMR1sSIvv5LCuk.jpg"
       },
       {
         "id": "ChIJC71tM2nLcFMR7WUitGsaCGg",
@@ -460,7 +481,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC71tM2nLcFMR7WUitGsaCGg/photos/AcnlKN1JJMujPAjQm-vQqlBADZXnxCflz45lAsgBtMuY7AuT6GPnbwOzVjs2VDX0NwF_wDF5Z2avEAAyJsxXHKd7zNq5uu3UH3-g_d4bovVnkRBxsJFM1TZLiMrWdpzSx69j89a3bMMqFRXTVYr8Ud2V_ENR53Bc4rcMXH6RoP25-aTgCnDLulWfLwQHNFx6wEasoRUvjoxxx9buR1pNbMK1AnQMsKkDZxkW_EF55AoDqePS_aiKkTr8-BvfG3YcjcAy_uh5pTjNBiHr1N_BHKQlmWL2y1kXz20k2EoE6BDhHX7Yebjqf8NLSQnvWFUHDunHCC0zd7MKrMPQrxTmH1sFlGxBTVUFwjVUnqq9x4_XmK8V88_xhAMmuRLwc1lOXmickUzqCP95Z3fOf--pprtuMmFCEz373r90hxEf2UCYJvoH5QKVI8d13SLOrMJStgGG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7496270629644166637&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJC71tM2nLcFMR7WUitGsaCGg.jpg"
       },
       {
         "id": "ChIJ0zojVU_KcFMRp5_3Yew1eGE",
@@ -481,7 +503,8 @@
         "websiteUrl": "http://www.luxtonfoundation.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=7023422908256460711&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:15.805Z",
-        "updatedAt": "2026-01-23T15:45:15.805Z"
+        "updatedAt": "2026-01-23T15:45:15.805Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ0zojVU_KcFMRp5_3Yew1eGE.jpg"
       }
     ],
     "foodie": [
@@ -505,7 +528,8 @@
         "websiteUrl": "https://www.zykabanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14698808350996118486&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJccSq4jHLcFMR1jurTlGo_Ms.jpg"
       },
       {
         "id": "ChIJ25vxwEXKcFMRHwlTK6iPlaE",
@@ -527,7 +551,8 @@
         "websiteUrl": "http://www.thebison.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=11643370364080425247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ25vxwEXKcFMRHwlTK6iPlaE.jpg"
       },
       {
         "id": "ChIJXazjWADLcFMR4GjVxb6W4Xs",
@@ -548,7 +573,8 @@
         "websiteUrl": "http://thebossbanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8926581682532083936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJXazjWADLcFMR4GjVxb6W4Xs.jpg"
       },
       {
         "id": "ChIJPe5LM-_KcFMRj5sq8kzdj38",
@@ -569,7 +595,8 @@
         "websiteUrl": "https://banffnorquay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9191808687036603279&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJPe5LM-_KcFMRj5sq8kzdj38.jpg"
       },
       {
         "id": "ChIJ0cdeKZvLcFMR0jSmXX0uyAI",
@@ -591,7 +618,8 @@
         "websiteUrl": "http://threebearsbanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=200461299394950354&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ0cdeKZvLcFMR0jSmXX0uyAI.jpg"
       },
       {
         "id": "ChIJk4gFaPrLcFMR09wRRKwo-kg",
@@ -613,7 +641,8 @@
         "websiteUrl": "http://farmandfirebanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5258560235249982675&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJk4gFaPrLcFMR09wRRKwo-kg.jpg"
       },
       {
         "id": "ChIJz8S7ydfLcFMR_Fm4upCQf2E",
@@ -634,7 +663,8 @@
         "websiteUrl": "http://www.bluebirdbanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7025492895003597308&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJz8S7ydfLcFMR_Fm4upCQf2E.png"
       },
       {
         "id": "ChIJtR997UXKcFMRI_VOnb_Pmjg",
@@ -656,7 +686,8 @@
         "websiteUrl": "http://ramenarashi.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=4078800834422306083&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJtR997UXKcFMRI_VOnb_Pmjg.jpg"
       },
       {
         "id": "ChIJD9g8tU_KcFMRXsT7RNO_HRw",
@@ -678,7 +709,8 @@
         "websiteUrl": "http://whitebarkcafe.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2025986321502946398&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJD9g8tU_KcFMRXsT7RNO_HRw.jpg"
       },
       {
         "id": "ChIJI5x2v0XKcFMRPmH2hpn0eY8",
@@ -700,7 +732,8 @@
         "websiteUrl": "http://www.bearstreettavern.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=10338563359837151550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJI5x2v0XKcFMRPmH2hpn0eY8.jpg"
       },
       {
         "id": "ChIJR_LKC0bKcFMR7ExN_QMD51E",
@@ -721,7 +754,8 @@
         "websiteUrl": "https://www.banffjaspercollection.com/dining/brazen/",
         "googleMapsUrl": "https://maps.google.com/?cid=5901689152361811180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJR_LKC0bKcFMR7ExN_QMD51E.jpg"
       },
       {
         "id": "ChIJ25vxwEXKcFMRe-vnMeqM680",
@@ -743,7 +777,8 @@
         "websiteUrl": "http://www.wildflourbakery.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=14838108334789749627&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ25vxwEXKcFMRe-vnMeqM680.jpg"
       },
       {
         "id": "ChIJjyyc3UXKcFMRi6gUxDYeN48",
@@ -765,7 +800,8 @@
         "websiteUrl": "https://coyotesbanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10319750291709536395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJjyyc3UXKcFMRi6gUxDYeN48.jpg"
       },
       {
         "id": "ChIJU-_JYqvLcFMRbwQMkBvXbR8",
@@ -786,7 +822,8 @@
         "websiteUrl": "https://www.fedorascakesandbakes.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2264702701018023023&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJU-_JYqvLcFMRbwQMkBvXbR8.jpg"
       },
       {
         "id": "ChIJ4cuKxdHLcFMRBMAfxiBN7NA",
@@ -807,7 +844,8 @@
         "websiteUrl": "http://thejuniper.com/dine",
         "googleMapsUrl": "https://maps.google.com/?cid=15054492457550987268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ4cuKxdHLcFMRBMAfxiBN7NA.jpg"
       },
       {
         "id": "ChIJv0j3nE_KcFMRveF1kWZvXjQ",
@@ -829,7 +867,8 @@
         "websiteUrl": "https://goodearthcoffeehouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3773576024100823485&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJv0j3nE_KcFMRveF1kWZvXjQ.jpg"
       },
       {
         "id": "ChIJvdhE4UXKcFMR9rXbrbGrqvQ",
@@ -851,7 +890,8 @@
         "websiteUrl": "https://tooloulous.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17630092470909646326&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJvdhE4UXKcFMR9rXbrbGrqvQ.jpg"
       },
       {
         "id": "ChIJGZuuzkXKcFMRu4oYZoYhDdo",
@@ -873,7 +913,8 @@
         "websiteUrl": "http://www.melissasmissteak.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15712251536087747259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJGZuuzkXKcFMRu4oYZoYhDdo.jpg"
       },
       {
         "id": "ChIJ_ZF_eQDLcFMRFl5tDoV8px8",
@@ -894,7 +935,8 @@
         "websiteUrl": "https://www.yama-onigiri.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2280928647200988694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ_ZF_eQDLcFMRFl5tDoV8px8.jpg"
       },
       {
         "id": "ChIJq6oZBkHLcFMROQrULXNpMQg",
@@ -915,7 +957,8 @@
         "websiteUrl": "https://www.fatoxbanff.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=590368969573272121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJq6oZBkHLcFMROQrULXNpMQg.jpg"
       },
       {
         "id": "ChIJ8XfKuMnLcFMRYUBINtAQXns",
@@ -956,7 +999,8 @@
         "websiteUrl": "https://goodfolkrestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7195035971171326018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJSQOPTg7LcFMRQhjTRxjn2WM.jpg"
       },
       {
         "id": "ChIJcYJvIjbLcFMRn9T8ZHyXxEU",
@@ -977,7 +1021,8 @@
         "websiteUrl": "https://mountainfolkcoffeeco.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5027309644578346143&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJcYJvIjbLcFMRn9T8ZHyXxEU.png"
       },
       {
         "id": "ChIJXYTN-8jLcFMRIpbHbegl8LA",
@@ -998,7 +1043,8 @@
         "websiteUrl": "https://suddensally.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12749732225290311202&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJXYTN-8jLcFMRIpbHbegl8LA.jpg"
       },
       {
         "id": "ChIJ4z3-PSfLcFMRKsOkqLwJkoE",
@@ -1019,7 +1065,8 @@
         "websiteUrl": "https://suddensally.com/downtown-sally/",
         "googleMapsUrl": "https://maps.google.com/?cid=9336535683380331306&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ4z3-PSfLcFMRKsOkqLwJkoE.jpg"
       },
       {
         "id": "ChIJA4F9tEXKcFMRd2uZsWFc1Yo",
@@ -1040,7 +1087,8 @@
         "websiteUrl": "https://cravebanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10004003721934629751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:17.355Z",
-        "updatedAt": "2026-01-23T15:45:17.355Z"
+        "updatedAt": "2026-01-23T15:45:17.355Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJA4F9tEXKcFMRd2uZsWFc1Yo.jpg"
       }
     ],
     "adventure": [
@@ -1063,7 +1111,8 @@
         "websiteUrl": "https://www.radventurescanada.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9460723348879096401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:18.541Z",
-        "updatedAt": "2026-01-23T15:45:18.541Z"
+        "updatedAt": "2026-01-23T15:45:18.541Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ__8PBk7KcFMRUbouwMI9S4M.jpg"
       },
       {
         "id": "ChIJO6Zk4ErKcFMRXlInPXLDj6g",
@@ -1083,7 +1132,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO6Zk4ErKcFMRXlInPXLDj6g/photos/AcnlKN3adbT7cM-t9ndo04Xgv8r_3YRNp8QK4exZ0HU6FWg2Kxkc205do6do9ry71Unm-CoDv9WMBDB0bpwqlEm2y8B-wDvfsUSc_zVYMZ5VP-EfQLb2MBN65QqVfYMBay6ooQVlJhU7Gk7-Ov_fNL2yomci9lPbsFtTbxRnXg8hRz8Wf-WFcYiy3_rQQ5JCtg2yCq74dkd5UY82MsayUErgcCenLReCBO9hN_7a6VJTWZGanXIq312O4BClKVKBQL9evWRslb4WilMHnQ11lwWW7wy0N7WvHawULypxwwqtGpHipwW56sCRqZUefwG-zpiUE7iQyY5j9_1yoq6q-kVl_GMwiaZ4QgbF8T_mN7CMY_riBj9_BkCSYH1lfBn88XLwzhWZlTp6J3SEt4Xh1IspFXD_FJk49CoIV2HlRIN2jQO1Fw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12146141615461192286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.541Z",
-        "updatedAt": "2026-01-23T15:45:18.541Z"
+        "updatedAt": "2026-01-23T15:45:18.541Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJO6Zk4ErKcFMRXlInPXLDj6g.jpg"
       },
       {
         "id": "ChIJBRcYXTrKcFMRjCbeJoermuk",
@@ -1104,7 +1154,8 @@
         "websiteUrl": "https://pc.gc.ca/banff?utm_source=gmb&utm_medium=bowfalls",
         "googleMapsUrl": "https://maps.google.com/?cid=16832955154211677836&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJBRcYXTrKcFMRjCbeJoermuk.jpg"
       },
       {
         "id": "ChIJZ9d6xEbKcFMRfr8YmCvDzDw",
@@ -1125,7 +1176,8 @@
         "websiteUrl": "http://banff.ca/index.aspx?NID=833",
         "googleMapsUrl": "https://maps.google.com/?cid=4381091129527418750&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJZ9d6xEbKcFMRfr8YmCvDzDw.jpg"
       },
       {
         "id": "ChIJyy-epTDKcFMRCJPBIeLjg_M",
@@ -1146,7 +1198,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=banff_suprisecorner",
         "googleMapsUrl": "https://maps.google.com/?cid=17547119133534032648&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJyy-epTDKcFMRCJPBIeLjg_M.jpg"
       },
       {
         "id": "ChIJOSIYYpbLcFMR5bNEyXJ1R_I",
@@ -1167,7 +1220,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=hoodoo_viewpoint",
         "googleMapsUrl": "https://maps.google.com/?cid=17458051616388461541&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJOSIYYpbLcFMR5bNEyXJ1R_I.jpg"
       },
       {
         "id": "ChIJH-i-h0XKcFMR0cs220CQ17Y",
@@ -1188,7 +1242,8 @@
         "websiteUrl": "https://www.banfflakelouise.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13175157843125783505&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJH-i-h0XKcFMR0cs220CQ17Y.jpg"
       },
       {
         "id": "ChIJPe5LM-_KcFMRj5sq8kzdj38",
@@ -1209,7 +1264,8 @@
         "websiteUrl": "https://banffnorquay.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9191808687036603279&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJPe5LM-_KcFMRj5sq8kzdj38.jpg"
       },
       {
         "id": "ChIJvwXkmmvKcFMR0jQ8HRSSsqk",
@@ -1230,7 +1286,8 @@
         "websiteUrl": "https://pc.gc.ca/eng/lhn-nhs/ab/caveandbasin/index?utm_source=gmb&utm_medium=caveandbasin",
         "googleMapsUrl": "https://maps.google.com/?cid=12227996553351804114&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJvwXkmmvKcFMR0jQ8HRSSsqk.jpg"
       },
       {
         "id": "ChIJIwhbtbzLcFMRW8V0snt8fao",
@@ -1251,7 +1308,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/camping?utm_source=gmb&utm_medium=tunnelmountain_trailercourt",
         "googleMapsUrl": "https://maps.google.com/?cid=12285112229253399899&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJIwhbtbzLcFMRW8V0snt8fao.jpg"
       },
       {
         "id": "ChIJoYEhuZTFcFMR3OfNNJWojE4",
@@ -1272,7 +1330,8 @@
         "websiteUrl": "http://www.canmoreriveradventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5660084190487373788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJoYEhuZTFcFMR3OfNNJWojE4.jpg"
       },
       {
         "id": "ChIJ50eiIgDJcFMRYRhTvgbSvNw",
@@ -1292,7 +1351,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ50eiIgDJcFMRYRhTvgbSvNw/photos/AcnlKN0ENUa1q5T8xLivCtbGiVGbyQ3eba1ZXT3Yk_K_gPuLB7mCVucsNcFVTkIlYkG__9WJf1ww8lIEzlWce9bDh_SAEKiv0Db17NDnJi7-xeG6EBxbykOMZSzo9valca1tmCkJtxE6Wg7nMr_BqciJlr4ypuXL-W_G4wtfX7oGC9Wm9d2GLeHhkXxfOx3oVzjohUDW8lJ7UT3gxWqVjg25dZbZ70nmcuO8ht542hbINONU7vmvVf_0Zc2kpKVBMrSLEvyqJ5QJCkaYGr-m4QYCrLzs0vOkDkkB6jZRTlJpOE1ag66pmw-HBbTUVfloO0lDJ2VhYiVtwujsm7WnUNcxach8TRFbui-dA5nRNEdsnMNeY4FFE8oEsXcT3FN2CkDEVtPJAsANgf0ptIhKf9jz20WuVDAggnVxT2cYm_qw7Alf7EPf/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15905818910370502753&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ50eiIgDJcFMRYRhTvgbSvNw.jpg"
       },
       {
         "id": "ChIJiZ0nB75pcVMRYxCJKEpV-fs",
@@ -1313,7 +1373,8 @@
         "websiteUrl": "http://alpineairadventures.com/?utm_source=google&utm_medium=GMB",
         "googleMapsUrl": "https://maps.google.com/?cid=18156637149716877411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJiZ0nB75pcVMRYxCJKEpV-fs.jpg"
       },
       {
         "id": "ChIJ94oFWUbKcFMRqYQOfbGofb0",
@@ -1334,7 +1395,8 @@
         "websiteUrl": "http://www.outpostatwardenrock.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13654255125517993129&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ94oFWUbKcFMRqYQOfbGofb0.jpg"
       },
       {
         "id": "ChIJZb0aWhzFcFMRiYWM7gWo_KQ",
@@ -1355,7 +1417,8 @@
         "websiteUrl": "https://canmoreadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11888561859781756297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJZb0aWhzFcFMRiYWM7gWo_KQ.jpg"
       },
       {
         "id": "ChIJy5lK21vKcFMRphwzHmXU_cE",
@@ -1376,7 +1439,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=fenland_trail",
         "googleMapsUrl": "https://maps.google.com/?cid=13978562349191339174&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJy5lK21vKcFMRphwzHmXU_cE.jpg"
       },
       {
         "id": "ChIJqUirMwDLcFMRnzQf9GpCS8M",
@@ -1397,7 +1461,8 @@
         "websiteUrl": "https://banff.ca/CivicAlerts.aspx?AID=1779&fbclid=IwY2xjawJtIGJleHRuA2FlbQIxMQABHgsxuorgAVh5l6AOxFhT2rMWqvsqQozgXL_geDKqYoHuVGN2WmZvgSjzlnxc_aem_CL0o8QkI-Bg418hFdPM9BQ",
         "googleMapsUrl": "https://maps.google.com/?cid=14072414487778899103&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJqUirMwDLcFMRnzQf9GpCS8M.jpg"
       },
       {
         "id": "ChIJO97lxkXKcFMR0ta_hLCBlAU",
@@ -1418,7 +1483,8 @@
         "websiteUrl": "https://www.banffadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=402088861884208850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJO97lxkXKcFMR0ta_hLCBlAU.jpg"
       },
       {
         "id": "ChIJAQBw_EbKcFMRuwqEDhWHtqM",
@@ -1438,7 +1504,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAQBw_EbKcFMRuwqEDhWHtqM/photos/AcnlKN2WAVdgabMp0WxvCAVBHzuy8wasR564MYxx_RF3dMwyttuvaOTmzNOdzA3sOhwOk1iY_mDiXq4kA6cQISk4WmLvtkWcIQrhTOzcLStjHFyXQh6QdOQAS7BI8_xGGpAk-ww63Uei8FvG-Yyh1Y7_VGnz5_Xv62H7Z9C1hnaPXBPGcKv2TPsgi5ciTQnEvuJz8OuHwol-c7tPPV2tBmCan3jM6a9t35VoXFHisZVEumvF9ocwVYuVGyRR03Mk12y5m5YxWORH5P9cZhyFPKZa3NiZ_AZARc_COdTJZagU-9aNx4zCvogJ0HDsJ7WEXEGKvN-oA9I8pBeeeY7_LJzlFSdwVzx6Fa1ubXgf6TTiPCiszjJCf9pTLF9-N5deLYhsWS5gCYJaTOIJyt1OPdlLbcYq_S27RMBi9YqyGVJpwNKYGA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11796764798451190459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJAQBw_EbKcFMRuwqEDhWHtqM.jpg"
       },
       {
         "id": "ChIJhydBjXrLcFMRRCe-YlxeGHY",
@@ -1458,7 +1525,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhydBjXrLcFMRRCe-YlxeGHY/photos/AcnlKN3qOPCKpCSmZKCRHfUGuki6qc8KQIfNo7-A30xV6ODyxVFNnzT8f4RSG-m-KP3JEa-DGr4Gce0vSIVY9dK6WnDrHV6QwYokyRTVzniXzOeZYrFSxoHDt5BMcLHj4e5eTgZDbskhhhxGosEyUwugJ0X0lpgx3CfVJOC3syGqVnJ2dgLV7LR4Ao7qr82TTZ4LirQTJFpRL3eGL_FIWTR8kecDYYa5Mjts36GjbStwkLzUO72RvwFr2feANetDXhBcVCeVF9nZgXc8o-G8yCGU1CkCkovKh_L9fZvzZd9tsoxtqyWpPWQme4XPd0U2GHDxuN3OKLxK07gfgr2CmhaI9BGlGb6fbi1xPDp0G3Pud35ZPaoke-VgVGfNcexN1oDPm9HBA49zS5fkmTqYN6NuUkTuVpMmL6qHgg7QqC-MtTmhGw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8509655246803183428&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJhydBjXrLcFMRRCe-YlxeGHY.jpg"
       },
       {
         "id": "ChIJZwe-pUnKcFMRDlRuUDG_lIE",
@@ -1479,7 +1547,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=banff&utm_content=tunnel_mountain",
         "googleMapsUrl": "https://maps.google.com/?cid=9337298145969591310&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJZwe-pUnKcFMRDlRuUDG_lIE.jpg"
       },
       {
         "id": "ChIJW50VvbPLcFMR1FE6XjQCvNo",
@@ -1500,7 +1569,8 @@
         "websiteUrl": "http://www.banff.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=15761475219832328660&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJW50VvbPLcFMR1FE6XjQCvNo.jpg"
       },
       {
         "id": "ChIJ4ZCE9WvKcFMRNi7Qh6qMcn4",
@@ -1521,7 +1591,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=marshloop",
         "googleMapsUrl": "https://maps.google.com/?cid=9111499660174831158&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ4ZCE9WvKcFMRNi7Qh6qMcn4.jpg"
       },
       {
         "id": "ChIJe55xdFUzd1MRVcbLKG14lP0",
@@ -1542,7 +1613,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=stewart_canyon#stewart",
         "googleMapsUrl": "https://maps.google.com/?cid=18272361998380156501&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJe55xdFUzd1MRVcbLKG14lP0.jpg"
       },
       {
         "id": "ChIJTTdyxEbKcFMRVDi0ij4lIJQ",
@@ -1562,7 +1634,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTTdyxEbKcFMRVDi0ij4lIJQ/photos/AcnlKN0Zsygh-d_dmPfXVE12c6yy7rJMrlHXnm6fbVxWMO8U7H9c2XXjxzQUiTKq-E3pbbBc1cDGM7UzvjGV8gbdymf9vrAqFJy6BziE3ti-juLqdq0MC1IZjFMtWYWVP-Beq8DcdVty3xLAr8AFILgzPQH8bCxat4LvQUUpodu6bb4xjtQrFaOzU0Af08zZcEQJXJkViIqz0QMdfNLGguOI4uPZSVfJxk1bUSoMkY2eYBIwqLjofUVRYX0KmZjN2cwlbjLlarOedpKZ7sJxvPnxuWaGr-KJvwX9x0u5XeACPdXROYab6gtjDhgOtvfUt58jd2LGaMR4EQJ42rkI65-ZxolcPGm12HZDcPnTWQ51RJvfd7cYmKIrO4KYkJfArCHXHJ5_PDVRKOCjFExQZ5nupQbvcgAo__rlqXs65jJwEe-0bQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10673572067413342292&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJTTdyxEbKcFMRVDi0ij4lIJQ.jpg"
       },
       {
         "id": "ChIJ-3Jc6onLcFMRX-svc_AWye8",
@@ -1583,7 +1656,8 @@
         "websiteUrl": "https://banff.ca/1030/Off-Leash-Dog-Parks",
         "googleMapsUrl": "https://maps.google.com/?cid=17278366667364100959&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ-3Jc6onLcFMRX-svc_AWye8.jpg"
       },
       {
         "id": "ChIJmz1XGevFcFMRWK5T1RUQEII",
@@ -1604,7 +1678,8 @@
         "websiteUrl": "http://www.cluesolvers.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9372008510517390936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJmz1XGevFcFMRWK5T1RUQEII.jpg"
       },
       {
         "id": "ChIJR9MDOwTLcFMR9QwXig_k-Jo",
@@ -1624,7 +1699,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJR9MDOwTLcFMR9QwXig_k-Jo/photos/AcnlKN291uWsMdwLtzFSjX2YwtXyXqSh66jzX5SguEzRPolhEm6n8MceItYXbBNnTsa_HtOB1Be6lmZ59IRTtmhYJEx8Q9R-IfKg4Km_coy1OYwK6pKeLAWjrZS6-LuMbSA4wMycniMl3BQtT8BRurIkDcwnqbpQyaaVu4SKeNUH1o7n6nB9qZBMRacPEtlLNq3dtt-hxOtK9YOMk4XXt-k4-qQUXNuvml1Iq2-jorIEk8VugT9fIN70VkxqcFcLmqNesxob7csD6OftEZSYEZyRqKVLkyJIL5MszwZL864d8jtXJsJYVxIgjBUdwTEd00OI_DmEIQO8lG1jhq634b1oAB2QgeYXtJpJRIa5WPel63YqSdG9sgsoo8LsTVf2vTiBtGv7QStBKdPjR6R-84jsMTQGPzX1nLHohL_zVOHuL9aZhyO3/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11166926031457553653&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:18.542Z",
-        "updatedAt": "2026-01-23T15:45:18.542Z"
+        "updatedAt": "2026-01-23T15:45:18.542Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJR9MDOwTLcFMR9QwXig_k-Jo.jpg"
       }
     ],
     "cultural": [
@@ -1647,7 +1723,8 @@
         "websiteUrl": "http://banffandbeyond.com/escape-the-crowds-of-banff-avenue-in-cascade-gardens",
         "googleMapsUrl": "https://maps.google.com/?cid=9412138433050061695&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:19.995Z",
-        "updatedAt": "2026-01-23T15:45:19.995Z"
+        "updatedAt": "2026-01-23T15:45:19.995Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJHX8xRUfKcFMRfyvAhgminoI.jpg"
       },
       {
         "id": "ChIJGUbz_kbKcFMR-b6FuZVcjYU",
@@ -1668,7 +1745,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/lhn-nhs/ab/banff/index?utm_source=gmb&utm_medium=banff_museum",
         "googleMapsUrl": "https://maps.google.com/?cid=9623449776893050617&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.995Z",
-        "updatedAt": "2026-01-23T15:45:19.995Z"
+        "updatedAt": "2026-01-23T15:45:19.995Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJGUbz_kbKcFMR-b6FuZVcjYU.jpg"
       },
       {
         "id": "ChIJoUw1RbwacVMRGBTzjfhiJDU",
@@ -1689,7 +1767,8 @@
         "websiteUrl": "http://www.artcountrycanada.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3829294402844693528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:19.995Z",
-        "updatedAt": "2026-01-23T15:45:19.995Z"
+        "updatedAt": "2026-01-23T15:45:19.995Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJoUw1RbwacVMRGBTzjfhiJDU.png"
       },
       {
         "id": "ChIJK5bJjrTLcFMRA94qAG_kKeQ",
@@ -1710,7 +1789,8 @@
         "websiteUrl": "http://jeffwalkergallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16440923080088018435&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.995Z",
-        "updatedAt": "2026-01-23T15:45:19.995Z"
+        "updatedAt": "2026-01-23T15:45:19.995Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJK5bJjrTLcFMRA94qAG_kKeQ.jpg"
       },
       {
         "id": "ChIJadzLf0bKcFMR9XLTxGWitO4",
@@ -1731,7 +1811,8 @@
         "websiteUrl": "https://www.whyte.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=17200551434812355317&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.995Z",
-        "updatedAt": "2026-01-23T15:45:19.995Z"
+        "updatedAt": "2026-01-23T15:45:19.995Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJadzLf0bKcFMR9XLTxGWitO4.jpg"
       },
       {
         "id": "ChIJ25vxwEXKcFMRImO2hCN6P_I",
@@ -1752,7 +1833,8 @@
         "websiteUrl": "http://www.botegahair.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17455804973680321314&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.995Z",
-        "updatedAt": "2026-01-23T15:45:19.995Z"
+        "updatedAt": "2026-01-23T15:45:19.995Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ25vxwEXKcFMRImO2hCN6P_I.jpg"
       },
       {
         "id": "ChIJ80tRmEXKcFMRZCtoKCiPLjA",
@@ -1773,7 +1855,8 @@
         "websiteUrl": "http://carter-ryan.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3471869765388610404&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.995Z",
-        "updatedAt": "2026-01-23T15:45:19.995Z"
+        "updatedAt": "2026-01-23T15:45:19.995Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ80tRmEXKcFMRZCtoKCiPLjA.jpg"
       },
       {
         "id": "ChIJc_ALdBjLcFMRM0Z5OZzywP0",
@@ -1794,7 +1877,8 @@
         "websiteUrl": "https://www.banffcentre.ca/performing-arts-facilities",
         "googleMapsUrl": "https://maps.google.com/?cid=18284881239917282867&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.995Z",
-        "updatedAt": "2026-01-23T15:45:19.995Z"
+        "updatedAt": "2026-01-23T15:45:19.995Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJc_ALdBjLcFMRM0Z5OZzywP0.jpg"
       },
       {
         "id": "ChIJX15TOUfKcFMR1sSIvv5LCuk",
@@ -1815,7 +1899,8 @@
         "websiteUrl": "http://www.buffalonationsmuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16792317718094726358&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.995Z",
-        "updatedAt": "2026-01-23T15:45:19.995Z"
+        "updatedAt": "2026-01-23T15:45:19.995Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJX15TOUfKcFMR1sSIvv5LCuk.jpg"
       },
       {
         "id": "ChIJJa4yXEbKcFMR0MrboqhLkEA",
@@ -1836,7 +1921,8 @@
         "websiteUrl": "https://allinthewild.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4652301602732624592&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.995Z",
-        "updatedAt": "2026-01-23T15:45:19.995Z"
+        "updatedAt": "2026-01-23T15:45:19.995Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJJa4yXEbKcFMR0MrboqhLkEA.jpg"
       },
       {
         "id": "ChIJc3f2rXDLcFMR8GLu7y5220s",
@@ -1857,7 +1943,8 @@
         "websiteUrl": "http://www.brandontbrown.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5466092516710179568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJc3f2rXDLcFMR8GLu7y5220s.jpg"
       },
       {
         "id": "ChIJEbo0DTfKcFMRdG3SP8tAOjw",
@@ -1878,7 +1965,8 @@
         "websiteUrl": "https://www.banffcentre.ca/walter-phillips-gallery",
         "googleMapsUrl": "https://maps.google.com/?cid=4339852432618188148&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJEbo0DTfKcFMRdG3SP8tAOjw.jpg"
       },
       {
         "id": "ChIJC71tM2nLcFMR7WUitGsaCGg",
@@ -1898,7 +1986,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC71tM2nLcFMR7WUitGsaCGg/photos/AcnlKN3e4R4OYt6EZHoDQAG0SrAsgQK3dTrvA9uPlhn0MtfEw2ZBklpuqpiNHkCh5HfW3gORsiOcWK1rSlwGVJAYrAFE3gE75C637HJODo4qEHvkGTzcIKGyjIigj8xueP6fRjsExz8K6wq7uL3kr5AEct02W4nlWBIrF69ar-YVTBZchpSNmGCVosYO2Pr-n_NUPmNU6sNiVUAobp2IfpJ95ILy10-PE6qvsd7hirlgnsjVFtRRD_ujeIfaS2FgUVfXrkhbkJOUgfIZ0Xqexi0TxCaqc_rM2u7GW5wrdLXDGiX-h3lE8mM2o2p8sFFgiO0Y4MOJXZn2Qxn8E8YR0B-7fclWt3_nUhzz0g_6jvQN4WkDDY3iX6OhBBMLv9zZubRXtpKixHNWp0VEFkHlqVij6-XGCoJmT_wLNWU27qXzKHLhVlAc1S2lZipIJkQCsrLJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7496270629644166637&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJC71tM2nLcFMR7WUitGsaCGg.jpg"
       },
       {
         "id": "ChIJEyj2z0XKcFMRLF8mHKmOsnM",
@@ -1919,7 +2008,8 @@
         "websiteUrl": "http://www.canadahouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8336882717189103404&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJEyj2z0XKcFMRLF8mHKmOsnM.jpg"
       },
       {
         "id": "ChIJDwovmn7LcFMRnOqD8DuhlRE",
@@ -1940,7 +2030,8 @@
         "websiteUrl": "https://www.banffcentre.ca/performing-arts-facilities",
         "googleMapsUrl": "https://maps.google.com/?cid=1267096148984982172&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJDwovmn7LcFMRnOqD8DuhlRE.jpg"
       },
       {
         "id": "ChIJ8a09ZqzLcFMRUiqRIG9wSWg",
@@ -1961,7 +2052,8 @@
         "websiteUrl": "https://www.banffparkranch.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7514661075834448466&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ8a09ZqzLcFMRUiqRIG9wSWg.jpg"
       },
       {
         "id": "ChIJv7gvLjvKcFMRpXLUMYrrt5g",
@@ -1982,7 +2074,8 @@
         "websiteUrl": "http://www.mountaingalleries.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11004523193277117093&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJv7gvLjvKcFMRpXLUMYrrt5g.jpg"
       },
       {
         "id": "ChIJ0zojVU_KcFMRp5_3Yew1eGE",
@@ -2003,7 +2096,8 @@
         "websiteUrl": "http://www.luxtonfoundation.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=7023422908256460711&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ0zojVU_KcFMRp5_3Yew1eGE.jpg"
       },
       {
         "id": "ChIJk5mfXkbKcFMRkdTt0YHSycM",
@@ -2024,7 +2118,8 @@
         "websiteUrl": "https://aboutcanada.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=14108038762729428113&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJk5mfXkbKcFMRkdTt0YHSycM.jpg"
       },
       {
         "id": "ChIJib5Pp-vFcFMRdW4CZkE3Zr4",
@@ -2045,7 +2140,8 @@
         "websiteUrl": "https://canmoremuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13719714068854632053&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJib5Pp-vFcFMRdW4CZkE3Zr4.jpg"
       },
       {
         "id": "ChIJkdmOu-vFcFMRd26B_AOg8fM",
@@ -2066,7 +2162,8 @@
         "websiteUrl": "https://www.fallenleafgallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17578006759585443447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJkdmOu-vFcFMRd26B_AOg8fM.jpg"
       },
       {
         "id": "ChIJ29auv0XKcFMRZvgvCdj-yUY",
@@ -2087,7 +2184,8 @@
         "websiteUrl": "http://www.willockandsaxgallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5100888256794327142&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ29auv0XKcFMRZvgvCdj-yUY.jpg"
       },
       {
         "id": "ChIJS3cr-UbKcFMRp98h46KIylQ",
@@ -2107,7 +2205,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS3cr-UbKcFMRp98h46KIylQ/photos/AcnlKN1GTXCelPyR7vWVwVbJo1P03b-HuoIKSdCu6s-qWejJjYMsqqEKClY4XECJB7CKhSgF1RHQCMGaVjJM1GSaKc6VS8ze1yOIePmnmfCysaeoaAE9NFXuMT3TyZ5UiS6DcC-JRj9FP8Npr9ua6mquaJDnoBiVU7RPfrrgI3K-9lV_2xb_1iD1adBZoAFSxDEubJ2Z4GBhhFU9kg8DWO-pxGv_kaadz89xIxNa2_TGAQPrOgT1NcE9H8gyZeOqOtfA2d0toCW-eZM77SF7Kbhb1T6_r_mILwmR7oBxyR3JdOJPhzo-OIBwEh8VPLm167tLvwJhBzj2GMwq6idQjM81m6Ix4cLA2kPxqhxwLV3StRQpdVZeZl4CBY2hKsMFcf0veBZXDmvSO7bbxYPhMD0TsJFGmNrFSkl903GqWxrFk-ebwE4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6109846077658226599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:19.996Z",
-        "updatedAt": "2026-01-23T15:45:19.996Z"
+        "updatedAt": "2026-01-23T15:45:19.996Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJS3cr-UbKcFMRp98h46KIylQ.jpg"
       }
     ],
     "relaxation": [
@@ -2129,7 +2228,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUwMEl0fKcFMRcP5sxeBtoj8/photos/AcnlKN2a2e-gHZtdFCaE5QPs7uM1UzgwXD3wF5ybHyqyIBoSldfQb99-TU07fD-fHNsqf_whIVWbnhbflwPnwMGQPyA7ijAyVJTOiPSGQg9u8iajRYc7THsqraeuTEmoy9vlhJRitC_8hXf8EX3Eafvw9TUanSgY5BTqasXfUQ3oHFBtl3N1rQoNbPTj7-78XC9GDfj7lePH1Obw4SI4FEBnwgghdi5PmEErKa2xAwwerRWvytaVhqEVvutAsyB8mdKwC_NLwkuwYpWzA6lzQ0-t5_W9Qv8LDv3Tq2dVsTg3cgKA-Ew0EoSTVGd0kC9pYK3le3fT8QkFKTjcz_Gr0oQbopulNmRk146WOtS_Zt5BRxId5BucSxVrfKu2nSCTt-_1GM37CK4bN5V-lzbGC6dm9MU69JdIJqh0KJgUzbPLIvfBSQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4585348182768942704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJUwMEl0fKcFMRcP5sxeBtoj8.jpg"
       },
       {
         "id": "ChIJZ9d6xEbKcFMRfr8YmCvDzDw",
@@ -2150,7 +2250,8 @@
         "websiteUrl": "http://banff.ca/index.aspx?NID=833",
         "googleMapsUrl": "https://maps.google.com/?cid=4381091129527418750&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJZ9d6xEbKcFMRfr8YmCvDzDw.jpg"
       },
       {
         "id": "ChIJHX8xRUfKcFMRfyvAhgminoI",
@@ -2171,7 +2272,8 @@
         "websiteUrl": "http://banffandbeyond.com/escape-the-crowds-of-banff-avenue-in-cascade-gardens",
         "googleMapsUrl": "https://maps.google.com/?cid=9412138433050061695&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJHX8xRUfKcFMRfyvAhgminoI.jpg"
       },
       {
         "id": "ChIJBRcYXTrKcFMRjCbeJoermuk",
@@ -2192,7 +2294,8 @@
         "websiteUrl": "https://pc.gc.ca/banff?utm_source=gmb&utm_medium=bowfalls",
         "googleMapsUrl": "https://maps.google.com/?cid=16832955154211677836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJBRcYXTrKcFMRjCbeJoermuk.jpg"
       },
       {
         "id": "ChIJH-i-h0XKcFMR0cs220CQ17Y",
@@ -2213,7 +2316,8 @@
         "websiteUrl": "https://www.banfflakelouise.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13175157843125783505&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJH-i-h0XKcFMR0cs220CQ17Y.jpg"
       },
       {
         "id": "ChIJyy-epTDKcFMRCJPBIeLjg_M",
@@ -2234,7 +2338,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=banff_suprisecorner",
         "googleMapsUrl": "https://maps.google.com/?cid=17547119133534032648&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJyy-epTDKcFMRCJPBIeLjg_M.jpg"
       },
       {
         "id": "ChIJoy-Kk0XKcFMRbIck493d9sY",
@@ -2255,7 +2360,8 @@
         "websiteUrl": "http://www.remedybanff.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=14336890408848885612&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJoy-Kk0XKcFMRbIck493d9sY.jpg"
       },
       {
         "id": "ChIJvwXkmmvKcFMR0jQ8HRSSsqk",
@@ -2276,7 +2382,8 @@
         "websiteUrl": "https://pc.gc.ca/eng/lhn-nhs/ab/caveandbasin/index?utm_source=gmb&utm_medium=caveandbasin",
         "googleMapsUrl": "https://maps.google.com/?cid=12227996553351804114&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJvwXkmmvKcFMR0jQ8HRSSsqk.jpg"
       },
       {
         "id": "ChIJkQiz2EHLcFMRYNqDPhpV5yc",
@@ -2297,7 +2404,8 @@
         "websiteUrl": "http://banffwellnesspractice.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2875360458305690208&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJkQiz2EHLcFMRYNqDPhpV5yc.jpg"
       },
       {
         "id": "ChIJY_1__x_KcFMRZsdws-Mivvs",
@@ -2318,7 +2426,8 @@
         "websiteUrl": "https://parks.canada.ca/pn-np/ab/banff/sources-banff-springs",
         "googleMapsUrl": "https://maps.google.com/?cid=18139974710458369894&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJY_1__x_KcFMRZsdws-Mivvs.jpg"
       },
       {
         "id": "ChIJAaSllkXKcFMR2JoQ7O6Ri_0",
@@ -2339,7 +2448,8 @@
         "websiteUrl": "https://www.banffsholisticlounge.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18269856768707304152&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJAaSllkXKcFMR2JoQ7O6Ri_0.png"
       },
       {
         "id": "ChIJ94oFWUbKcFMRe7laCw1PVMo",
@@ -2360,7 +2470,8 @@
         "websiteUrl": "https://www.royalcanadianlodge.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14579364811148802427&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ94oFWUbKcFMRe7laCw1PVMo.jpg"
       },
       {
         "id": "ChIJv7gvLjvKcFMRFCp24UWGvpU",
@@ -2381,7 +2492,8 @@
         "websiteUrl": "https://www.fairmont.com/banff-springs/spa/the-fairmont-banff-springs-spa/",
         "googleMapsUrl": "https://maps.google.com/?cid=10790209391919770132&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJv7gvLjvKcFMRFCp24UWGvpU.jpg"
       },
       {
         "id": "ChIJVVVVekbKcFMRaLSN6Wo9zGU",
@@ -2402,7 +2514,8 @@
         "websiteUrl": "https://www.pc.gc.ca/apps/dfhd/page_fhbro_eng.aspx?id=2618",
         "googleMapsUrl": "https://maps.google.com/?cid=7335305422473901160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJVVVVekbKcFMRaLSN6Wo9zGU.jpg"
       },
       {
         "id": "ChIJAQBw_EbKcFMRuwqEDhWHtqM",
@@ -2422,7 +2535,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAQBw_EbKcFMRuwqEDhWHtqM/photos/AcnlKN1WUd_BK4F8kB6-3gtXA4Sp50eBXST-NgEx1LmDlFROwdv-gyTBFnTCoit6eEqK3y_ajZS9g5vULktZk2pF60K2GLXmPrYQT7BE3_PypwOBtSbRmve_83zmctd_mmLRQT4UnjY8R2Z1Eb4a-qIDJ9ovZ5EiGAVmCh0TwgdPS-9WmOfs23LRKDubrerIVynrzW01TVTO5IDacBOl1aVk2dWxmw9mWpWqU4qyrTRvQqxeg6oiLIC9IRLU9ezuTRz0QKyDGkx7w-q5Y2jpUC-tyM57LKQIVf_Pr9xNBdN18sQRGjE6IBqto1V6EUNHW8VcD0lIGJAvJc0oYBbo2TT2W0kiqT52Rxd-tMeAeEUS9MtC2lp93v2-GSHRAwtbh85zQMZZBbhLblwAu_GUiL_a8cZZuAxNl15vOr67YcBzCxduPA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11796764798451190459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJAQBw_EbKcFMRuwqEDhWHtqM.jpg"
       },
       {
         "id": "ChIJY59JBwrLcFMRriHHlcqUG4s",
@@ -2443,7 +2557,8 @@
         "websiteUrl": "http://www.mountainwhisperspa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10023768993460330926&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJY59JBwrLcFMRriHHlcqUG4s.jpg"
       },
       {
         "id": "ChIJ_w8UPOjFcFMR3q65EbCRLjc",
@@ -2464,7 +2579,8 @@
         "websiteUrl": "https://bowvalleygardencentre.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=3976275706412379870&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ_w8UPOjFcFMR3q65EbCRLjc.jpg"
       },
       {
         "id": "ChIJtR-6m0XKcFMRSO_Tsc7OpcI",
@@ -2485,7 +2601,8 @@
         "websiteUrl": "http://www.bodyconcepts.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=14025844001657319240&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJtR-6m0XKcFMRSO_Tsc7OpcI.jpg"
       },
       {
         "id": "ChIJW50VvbPLcFMR1FE6XjQCvNo",
@@ -2506,7 +2623,8 @@
         "websiteUrl": "http://www.banff.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=15761475219832328660&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJW50VvbPLcFMR1FE6XjQCvNo.jpg"
       },
       {
         "id": "ChIJPxJetk_KcFMR-BN9DMMiS4I",
@@ -2527,7 +2645,8 @@
         "websiteUrl": "https://banffmeadowspa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9388636069307421688&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJPxJetk_KcFMR-BN9DMMiS4I.jpg"
       },
       {
         "id": "ChIJ4ZCE9WvKcFMRNi7Qh6qMcn4",
@@ -2548,7 +2667,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=marshloop",
         "googleMapsUrl": "https://maps.google.com/?cid=9111499660174831158&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ4ZCE9WvKcFMRNi7Qh6qMcn4.jpg"
       },
       {
         "id": "ChIJe55xdFUzd1MRVcbLKG14lP0",
@@ -2569,7 +2689,8 @@
         "websiteUrl": "https://www.pc.gc.ca/en/pn-np/ab/banff/activ/randonee-hiking/banff?utm_source=gmb&utm_medium=stewart_canyon#stewart",
         "googleMapsUrl": "https://maps.google.com/?cid=18272361998380156501&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJe55xdFUzd1MRVcbLKG14lP0.jpg"
       },
       {
         "id": "ChIJTTdyxEbKcFMRVDi0ij4lIJQ",
@@ -2589,7 +2710,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTTdyxEbKcFMRVDi0ij4lIJQ/photos/AcnlKN2_-Bk3Ex25hFW5SBQ_sL48dIIxM-Py_dR34bqvBYsLpPDvvTeVMxzQWnMCA5bV5iBEmUh6wyxp3UfoBz88G-kGKKlCkBIQWJ1VIBow8ZTSKskT9XNxF7dFe7iHKuY_aD_Shsq-RPeiQybyFhtSVekAZzKfzICyzquImwvCMjyB5i5ec9BrmGYrj88__OCl_apNxhRvaMgQ0OJRymuhDBEpAedZa1yBt-RMlMo7-qRw8pykvfNcmcdXxebW00MsDTTf2wJwKggNlUAe6lpa2xg_QYtftmqagxs4fdfMT9wmF7Jg8WpAKuogGz3INUJR1uCtf8PgiFcNZxrKXcIOL52qWym5mkd_vkgYh6i-YjSbmZzVvQplV5Dcz_UO2BI-6nXkZOwUPzwPWlD0C55NpAVZkgfvPz_Rq32zptprC_s5rw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10673572067413342292&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJTTdyxEbKcFMRVDi0ij4lIJQ.jpg"
       },
       {
         "id": "ChIJFw4CFo3FcFMRjbPRONXNk3o",
@@ -2610,7 +2732,8 @@
         "websiteUrl": "https://tanmanz.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=8832629609868669837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJFw4CFo3FcFMRjbPRONXNk3o.jpg"
       },
       {
         "id": "ChIJ-3Jc6onLcFMRX-svc_AWye8",
@@ -2631,7 +2754,8 @@
         "websiteUrl": "https://banff.ca/1030/Off-Leash-Dog-Parks",
         "googleMapsUrl": "https://maps.google.com/?cid=17278366667364100959&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ-3Jc6onLcFMRX-svc_AWye8.jpg"
       },
       {
         "id": "ChIJR9MDOwTLcFMR9QwXig_k-Jo",
@@ -2651,7 +2775,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJR9MDOwTLcFMR9QwXig_k-Jo/photos/AcnlKN0ZZlBK9U_aVVFRzSEcVJCivqjJMfb9TM4Zk-s8F49RWN3nnoB59rviJYP00GuYdlY6E_xAOev57MT5VWWdcdy4U_hB6G5M21L4UTyARBkwuUvsqm-ue2Arnj3cLYnfhV-l3qMn8zIPtTmSCKYtX_igpSMm9UKBiXf7ihNvpX6IJaEAtSQhGP4whOccheDK0H30hCW2DT3U-oqpTfTNJawJq-RtniNl4vkvYyrQRphsmdtMgiiyHxzzU8UpY0uLuI1aaMtK5soE-79_lciGj9r0f1WsieFqHJOfWjNloARbIzWC8kJKKD55OysdV6jP0-cEVhrNXo-uA7dMZnfTwoDV0Vmpf2w0RpBYnAhauzLEZMoAZDjoGqD8e9aeYUXPiEEc9Mckh3xbwwf04AclNtb3H-hhHzt4Ivg2VqW40tGx4nTd/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11166926031457553653&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJR9MDOwTLcFMR9QwXig_k-Jo.jpg"
       },
       {
         "id": "ChIJYVg6Z03KcFMRExGCoeAM8q8",
@@ -2672,7 +2797,8 @@
         "websiteUrl": "https://redearthspa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12678210059923230995&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:21.284Z",
-        "updatedAt": "2026-01-23T15:45:21.284Z"
+        "updatedAt": "2026-01-23T15:45:21.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJYVg6Z03KcFMRExGCoeAM8q8.jpg"
       }
     ],
     "nightlife": [
@@ -2696,7 +2822,8 @@
         "websiteUrl": "http://www.thebison.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=11643370364080425247&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ25vxwEXKcFMRHwlTK6iPlaE.jpg"
       },
       {
         "id": "ChIJvdgr4UXKcFMRKRk7TDVlawQ",
@@ -2718,7 +2845,8 @@
         "websiteUrl": "http://banffblock.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=318459478246365481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJvdgr4UXKcFMRKRk7TDVlawQ.jpg"
       },
       {
         "id": "ChIJXazjWADLcFMR4GjVxb6W4Xs",
@@ -2739,7 +2867,8 @@
         "websiteUrl": "http://thebossbanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8926581682532083936&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJXazjWADLcFMR4GjVxb6W4Xs.jpg"
       },
       {
         "id": "ChIJ0cdeKZvLcFMR0jSmXX0uyAI",
@@ -2761,7 +2890,8 @@
         "websiteUrl": "http://threebearsbanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=200461299394950354&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ0cdeKZvLcFMR0jSmXX0uyAI.jpg"
       },
       {
         "id": "ChIJI5x2v0XKcFMRPmH2hpn0eY8",
@@ -2783,7 +2913,8 @@
         "websiteUrl": "http://www.bearstreettavern.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=10338563359837151550&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJI5x2v0XKcFMRPmH2hpn0eY8.jpg"
       },
       {
         "id": "ChIJJ8_i30XKcFMR0slmsKHg48w",
@@ -2805,7 +2936,8 @@
         "websiteUrl": "https://www.eddieburgerbar.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=14763890988504500690&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJJ8_i30XKcFMR0slmsKHg48w.jpg"
       },
       {
         "id": "ChIJJwcsF2rLcFMRXNh3ZL-leVw",
@@ -2827,7 +2959,8 @@
         "websiteUrl": "https://thecanadianbrewhouse.com/locations/banff/",
         "googleMapsUrl": "https://maps.google.com/?cid=6663539365114271836&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJJwcsF2rLcFMRXNh3ZL-leVw.jpg"
       },
       {
         "id": "ChIJk4gFaPrLcFMR09wRRKwo-kg",
@@ -2849,7 +2982,8 @@
         "websiteUrl": "http://farmandfirebanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5258560235249982675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJk4gFaPrLcFMR09wRRKwo-kg.jpg"
       },
       {
         "id": "ChIJvcvw-DrKcFMReh67nPIEeCE",
@@ -2871,7 +3005,8 @@
         "websiteUrl": "https://www.fairmont.com/banff-springs/dining/rundle-bar/",
         "googleMapsUrl": "https://maps.google.com/?cid=2411683040515006074&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJvcvw-DrKcFMReh67nPIEeCE.jpg"
       },
       {
         "id": "ChIJR_LKC0bKcFMR7ExN_QMD51E",
@@ -2892,7 +3027,8 @@
         "websiteUrl": "https://www.banffjaspercollection.com/dining/brazen/",
         "googleMapsUrl": "https://maps.google.com/?cid=5901689152361811180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJR_LKC0bKcFMR7ExN_QMD51E.jpg"
       },
       {
         "id": "ChIJFdpX7UXKcFMRtYriiTpmDts",
@@ -2914,7 +3050,8 @@
         "websiteUrl": "http://www.parkdistillery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15784666145587628725&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJFdpX7UXKcFMRtYriiTpmDts.jpg"
       },
       {
         "id": "ChIJzzcqcyLLcFMRx2Wb0M2G36Y",
@@ -2935,7 +3072,8 @@
         "websiteUrl": "https://www.hellosunshinebanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12024477748628776391&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJzzcqcyLLcFMRx2Wb0M2G36Y.jpg"
       },
       {
         "id": "ChIJ-7hRl0XKcFMR7v2Ykylqh3Q",
@@ -2957,7 +3095,8 @@
         "websiteUrl": "https://stjamesgatebanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8396796757058059758&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ-7hRl0XKcFMR7v2Ykylqh3Q.png"
       },
       {
         "id": "ChIJTYXQbkbKcFMRa-6sugpw7L4",
@@ -2979,7 +3118,8 @@
         "websiteUrl": "http://tommysneighbourhoodpub.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13757494153093901931&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJTYXQbkbKcFMRa-6sugpw7L4.jpg"
       },
       {
         "id": "ChIJGZuuzkXKcFMRu4oYZoYhDdo",
@@ -3001,7 +3141,8 @@
         "websiteUrl": "http://www.melissasmissteak.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15712251536087747259&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJGZuuzkXKcFMRu4oYZoYhDdo.jpg"
       },
       {
         "id": "ChIJJ8_i30XKcFMRX4-EqsUwfec",
@@ -3023,7 +3164,8 @@
         "websiteUrl": "https://banffmapleleaf.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16680542220377689951&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJJ8_i30XKcFMRX4-EqsUwfec.jpg"
       },
       {
         "id": "ChIJbacaQ0bKcFMRgMgMXKI8l4w",
@@ -3044,7 +3186,8 @@
         "websiteUrl": "http://highrollersbanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10130632554819930240&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJbacaQ0bKcFMRgMgMXKI8l4w.jpg"
       },
       {
         "id": "ChIJ67XliEnKcFMR1aetCfP6tG8",
@@ -3065,7 +3208,8 @@
         "websiteUrl": "https://crmr.com/resorts/buffalo-mountain/?utm_source=google&utm_medium=organic&utm_term=gbp-listing",
         "googleMapsUrl": "https://maps.google.com/?cid=8049334355764291541&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ67XliEnKcFMR1aetCfP6tG8.jpg"
       },
       {
         "id": "ChIJ12I6aEbKcFMRKDwZS1JO2wA",
@@ -3087,7 +3231,8 @@
         "websiteUrl": "http://banffavebrewingco.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=61729135253863464&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ12I6aEbKcFMRKDwZS1JO2wA.jpg"
       },
       {
         "id": "ChIJO78Kkk3KcFMRr9B2Q1zXyc0",
@@ -3109,7 +3254,8 @@
         "websiteUrl": "https://www.chilis.com/locations?utm_source=google&utm_medium=local&utm_campaign=Chilis",
         "googleMapsUrl": "https://maps.google.com/?cid=14828620039362891951&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJO78Kkk3KcFMRr9B2Q1zXyc0.jpg"
       },
       {
         "id": "ChIJpevC40XKcFMRNktxjSIDBZM",
@@ -3131,7 +3277,8 @@
         "websiteUrl": "https://roseandcrown.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=10593877145395743542&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJpevC40XKcFMRNktxjSIDBZM.jpg"
       },
       {
         "id": "ChIJ94oFWUbKcFMRe7laCw1PVMo",
@@ -3152,7 +3299,8 @@
         "websiteUrl": "https://www.royalcanadianlodge.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14579364811148802427&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ94oFWUbKcFMRe7laCw1PVMo.jpg"
       },
       {
         "id": "ChIJSQOPTg7LcFMRQhjTRxjn2WM",
@@ -3173,7 +3321,8 @@
         "websiteUrl": "https://goodfolkrestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7195035971171326018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJSQOPTg7LcFMRQhjTRxjn2WM.jpg"
       },
       {
         "id": "ChIJTQeVAADLcFMRrsmUKsjoHrg",
@@ -3194,7 +3343,8 @@
         "websiteUrl": "http://sheepdogbrewing.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13267297498685557166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJTQeVAADLcFMRrsmUKsjoHrg.jpg"
       },
       {
         "id": "ChIJR8CQ3bHLcFMRmZx3w2QAx1o",
@@ -3215,7 +3365,8 @@
         "websiteUrl": "https://banffsocial.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=6541197416555060377&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJR8CQ3bHLcFMRmZx3w2QAx1o.jpg"
       },
       {
         "id": "ChIJvaElCU7KcFMRFT8iFe0izbg",
@@ -3237,7 +3388,8 @@
         "websiteUrl": "https://samesun.com/beaver-bar/",
         "googleMapsUrl": "https://maps.google.com/?cid=13316338074861584149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJvaElCU7KcFMRFT8iFe0izbg.jpg"
       },
       {
         "id": "ChIJy-eAKjbKcFMRnpUHDtbxyQY",
@@ -3258,7 +3410,8 @@
         "websiteUrl": "https://www.banffcentre.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=489187936207082910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:22.759Z",
-        "updatedAt": "2026-01-23T15:45:22.759Z"
+        "updatedAt": "2026-01-23T15:45:22.759Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJy-eAKjbKcFMRnpUHDtbxyQY.jpg"
       }
     ],
     "trendy": [
@@ -3282,7 +3435,8 @@
         "websiteUrl": "https://hankki.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=13272814800642536950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ_Zo6s_jLcFMR9nXYIb2CMrg.jpg"
       },
       {
         "id": "ChIJD9g8tU_KcFMRXsT7RNO_HRw",
@@ -3304,7 +3458,8 @@
         "websiteUrl": "http://whitebarkcafe.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2025986321502946398&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJD9g8tU_KcFMRXsT7RNO_HRw.jpg"
       },
       {
         "id": "ChIJk4gFaPrLcFMR09wRRKwo-kg",
@@ -3326,7 +3481,8 @@
         "websiteUrl": "http://farmandfirebanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5258560235249982675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJk4gFaPrLcFMR09wRRKwo-kg.jpg"
       },
       {
         "id": "ChIJR_LKC0bKcFMR7ExN_QMD51E",
@@ -3347,7 +3503,8 @@
         "websiteUrl": "https://www.banffjaspercollection.com/dining/brazen/",
         "googleMapsUrl": "https://maps.google.com/?cid=5901689152361811180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJR_LKC0bKcFMR7ExN_QMD51E.jpg"
       },
       {
         "id": "ChIJ25vxwEXKcFMRe-vnMeqM680",
@@ -3369,7 +3526,8 @@
         "websiteUrl": "http://www.wildflourbakery.ca/",
         "googleMapsUrl": "https://maps.google.com/?cid=14838108334789749627&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ25vxwEXKcFMRe-vnMeqM680.jpg"
       },
       {
         "id": "ChIJjyyc3UXKcFMRi6gUxDYeN48",
@@ -3391,7 +3549,8 @@
         "websiteUrl": "https://coyotesbanff.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10319750291709536395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJjyyc3UXKcFMRi6gUxDYeN48.jpg"
       },
       {
         "id": "ChIJv0j3nE_KcFMRveF1kWZvXjQ",
@@ -3413,7 +3572,8 @@
         "websiteUrl": "https://goodearthcoffeehouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3773576024100823485&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJv0j3nE_KcFMRveF1kWZvXjQ.jpg"
       },
       {
         "id": "ChIJF1gM8kXKcFMRSr7GQwcm1uM",
@@ -3434,7 +3594,8 @@
         "websiteUrl": "http://www.evelynscoffeebar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16417351304269446730&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJF1gM8kXKcFMRSr7GQwcm1uM.jpg"
       },
       {
         "id": "ChIJJ-Hz5UXKcFMRfYXnCkeIR_o",
@@ -3456,7 +3617,8 @@
         "websiteUrl": "http://banffgrizzlyhouse.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18034533071535441277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJJ-Hz5UXKcFMRfYXnCkeIR_o.jpg"
       },
       {
         "id": "ChIJGZuuzkXKcFMRu4oYZoYhDdo",
@@ -3478,7 +3640,8 @@
         "websiteUrl": "http://www.melissasmissteak.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15712251536087747259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJGZuuzkXKcFMRu4oYZoYhDdo.jpg"
       },
       {
         "id": "ChIJuSq-QkbKcFMRLh4tEoEMxK8",
@@ -3499,7 +3662,8 @@
         "websiteUrl": "http://www.dspotdessert.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12665261800567938606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJuSq-QkbKcFMRLh4tEoEMxK8.jpg"
       },
       {
         "id": "ChIJadzLf0bKcFMR9XLTxGWitO4",
@@ -3520,7 +3684,8 @@
         "websiteUrl": "https://www.whyte.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=17200551434812355317&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJadzLf0bKcFMR9XLTxGWitO4.jpg"
       },
       {
         "id": "ChIJcYJvIjbLcFMRn9T8ZHyXxEU",
@@ -3541,7 +3706,8 @@
         "websiteUrl": "https://mountainfolkcoffeeco.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5027309644578346143&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJcYJvIjbLcFMRn9T8ZHyXxEU.png"
       },
       {
         "id": "ChIJXYTN-8jLcFMRIpbHbegl8LA",
@@ -3562,7 +3728,8 @@
         "websiteUrl": "https://suddensally.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12749732225290311202&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJXYTN-8jLcFMRIpbHbegl8LA.jpg"
       },
       {
         "id": "ChIJV1iClkXKcFMRpAyPcDjvqjE",
@@ -3582,7 +3749,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJV1iClkXKcFMRpAyPcDjvqjE/photos/AcnlKN1vA-PVa9iLenPQB6zSFMsLh1cSO8lmKTljv047nGVJwx8ZfeMUOKIewG7gO8B5R-jUruEQ6p3_6XKKoejOavrJJry0goiUvxkxKEyyM-RNxZiwJjVd3BST45RLXk3-LaBogW_EpsW73u8Al_jnpVo16NxKu99UTU3s7gpnGoZAeb1rPNAFqp9YLCnriMZEKxVf5xKJJzm4NEglJI7ZNa90idryCLOOUzEfUCf8zNb7RJ9Lqi-2DmsArjKmKIgpEkxcSR-wwN3ufhM9dLWBB61qO-Awvopn7RMpiTcIR2c2tF1xnzKp6oWLx8fnodm4A4VqvtGDYNxFR3i9YY5HAFptSNNXn8kooWzahtGuL3-qSQqvp05Qw-5eXf5pkwiiIqVdLRRhq5WZXDOXnTr4GhZV8nvy4I42mK5S02oYtWv1EQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3578935879584910500&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJV1iClkXKcFMRpAyPcDjvqjE.jpg"
       },
       {
         "id": "ChIJ4z3-PSfLcFMRKsOkqLwJkoE",
@@ -3603,7 +3771,8 @@
         "websiteUrl": "https://suddensally.com/downtown-sally/",
         "googleMapsUrl": "https://maps.google.com/?cid=9336535683380331306&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:45:24.063Z",
-        "updatedAt": "2026-01-23T15:45:24.063Z"
+        "updatedAt": "2026-01-23T15:45:24.063Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/banff/ChIJ4z3-PSfLcFMRKsOkqLwJkoE.jpg"
       }
     ]
   },

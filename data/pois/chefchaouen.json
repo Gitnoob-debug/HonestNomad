@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsySgGR8nCw0R5rJN505n31Y/photos/AcnlKN08nqr-rSMElnimWGagS32MNr3pznlKDP-7eeQvOPPDUMNCZCpSA9QgmPsmRTsqXdESZhNxI0JgyVT9lnMGg4Q8EXywsDb7ATO_VINKvHmaNRhsGzHgcaUnl9WZQ07ldyA5aSKMTQbDVEFIcvlo9aDEXFx4PkR_WjFtgIQdNszU5R646zWEEPw6Fhq5AEFqNATBB8OJm1IKShCrdxmryNJ_5xl_0rzBlFz4LKuNBE5B2FVClVgH2rSYDuknVnANofaMhtIofUEKq4pe3DJXqHniMlzJX6-YRA1_IWbUPpbfAgpJeMp8UmJIVjPfQO2pYcSb5rffHgd_h6xMTc14mvqhStPoCO2iUs4jNheW4NvPB1qye6cx93-3aIjD44_Bg4OjIdUyRtG2EN872Fw6WRti14Aqd-VKf8WUiArCaeY8eCFU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6259835595654017766&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJsySgGR8nCw0R5rJN505n31Y.jpg"
       },
       {
         "id": "ChIJvwkFJiIsCw0RHAjs9ESq1c0",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://maisondhotesakchour.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14831948160958203932&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJvwkFJiIsCw0RHAjs9ESq1c0.jpg"
       },
       {
         "id": "ChIJeyD4E2cmCw0R9Qtv9lxHJy0",
@@ -65,7 +67,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJeyD4E2cmCw0R9Qtv9lxHJy0/photos/AcnlKN1LzWbz2Pt3se-xVxhUL4WmzjfYlyTDK4zDHYkYmOJyqso5fmBlwSzBw3lhSf2vakbx4WmUH3_JwkVeLV56bdqm6gDjTg8c0pU0POSMCSqVuF5IePiHkWPAcR7DIIoVSK2otsjt857HUnGYt54_RpiYmp-mjEgdlwo9ytmMwIEVZoenxTm7tF6ysNknRoLhSdkwle95RzTFx9B8GiHRGxQCTVR64miCulPtsUpnzrg_J-dDDXIL7kf932oMeZeZCig7FAKQS_XDIyZce2PQT-MsTx5ryrSJ1QeUV_zC4o8Rk9x7xgLO_ri69zUeK8p6FPLPKRWJXL-3Iu3QxlwHoygKsnmMKLMOnXNxcyHiWAaE7WwX5y-T4uZUUxcLEmHfWQ9aaPEt-AzW_arfD6PhgMRDfSF2GCwe5pL7PVXuUdQIlDI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3253647720395508725&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJeyD4E2cmCw0R9Qtv9lxHJy0.jpg"
       },
       {
         "id": "ChIJ34o4iSEsCw0RlfAcNlQMKfM",
@@ -85,7 +88,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ34o4iSEsCw0RlfAcNlQMKfM/photos/AcnlKN2UL9iMkBZbWVm5KoA0oqG3EsLf7IRZVIp8LjDtGFvlcxs6T6l0GgWCGp6yjbK24jY5yLYsGafXvaJwCxRRngTzZkYIzJ1Sox2Su09T3V9hgoHngV96WSV9_x-jSORRr7UFlS68wHb3fOrBz65gHr7hgtvUgX04gi4dfvsAQKs9wJtAf6LrJ0Ey6OJfTppm400oKDGoEl6iKEerG9-7r6NJsN8g5-X36Ll6aiM5HzSiuAu45IubwlPTxu0qkrb-YV8n8OWYt0dpqDOWxv3uHnG0dElPCT6cTyUs9TeKTwTIuSk6-ISRu1a6Hbdi-YF5FoDUEHqNZ3bltfjdxkadjDspcEtKQg5Yh4oSiyvo4F31SNYAOAXpWOdzrQn4kgnwSOPXl92Z5RciJSQyPu8TdeQf7knS6dEMMnchtC93p8LALw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17521549381086277781&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ34o4iSEsCw0RlfAcNlQMKfM.jpg"
       },
       {
         "id": "ChIJyzUAA2gnCw0RvVlSSz-x28w",
@@ -106,7 +110,8 @@
         "websiteUrl": "https://www.instagram.com/p/CZcDDT8M02z/?igshid=YmMyMTA2M2Y=",
         "googleMapsUrl": "https://maps.google.com/?cid=14761587089041676733&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJyzUAA2gnCw0RvVlSSz-x28w.jpg"
       },
       {
         "id": "ChIJM7RU0WAmCw0RRBV1CB2tomE",
@@ -126,7 +131,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJM7RU0WAmCw0RRBV1CB2tomE/photos/AcnlKN35zUtN24h8BR4Vb6VkPZHgza3KwjJRtnb-izXr2bpBULprqEr3Nx-ysO5HJ8DoEZQQlTRhuhHNMY00RFAylPSqWVulYOUhNj01qEe3MuM45U9RyweZjpSyJsK_ZMlX3chgtzXUaOTTxYqgbmr056zxbHRAHOb-oE-D64_l-iPEZs45ZxvVkwv4N43kqR29XmhnkwoRfb1Xjg5-X_Bgg5GGL9eYswNlMrCVjxCZpqDxrMLncibVCi0SA33shvNZuDwU0cA4EyRlBdxLE-9ueqLrD7dlxhBYckqSjexon-ASiPnnKIp3MFcFPk3D1CM1pR46bbrh0vK9SDQc03wHCYoSpkwVl__nVY3MNmLbrMXo2CXOGOF6MEumZ5cIIMQF87OcaaZGbQn_lUM21UnxtoCAhyEs2tOJen6tjlMucwoKkw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7035375908113683780&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJM7RU0WAmCw0RRBV1CB2tomE.jpg"
       },
       {
         "id": "ChIJF2vZeAAnCw0R64LQYVZUlqI",
@@ -146,7 +152,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF2vZeAAnCw0R64LQYVZUlqI/photos/AcnlKN3v2VXwlEgerqpKq_9JePzg5ubMDWuz7KcJp9kCgToB1iJzXxtk6oBsKBZHSGrgP0bodkEhaGmlvUtl_cnXc1Hq6Tk44fgfNO-yhom27UMXrAVKRF6_14hn4h7kXNbcRTC_swozPEGTjlWnnE12MN2d6lkqCKGeYWeoVn4XpWPNAC0u79lpSya_k5jw5BscxLidK4qtE93IM-Vk6U9iGB4bgA64X6nbsN091JBAUIcQ6UlhvvkaTPK8bpTxnZ8G8nSSsxvUA3PTI1W6v5r8TVZBsDLcvyoH_kQFkQgwG15wJONCMrnAfSbKFqSlxUIh_lj00iQ9EpeeQ6MZw_QL5FvbYN4sPL6Ag1AyegtpYpPE7r9XTc3o9tj4asDAN0MIa2_ogKqEHDkarJX2aG5P39aReAf6iPd2l7VxLRfjDTKVGWfRXLG3mZzAj6-Z5Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11715644210635899627&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJF2vZeAAnCw0R64LQYVZUlqI.jpg"
       },
       {
         "id": "ChIJO0U48wYnCw0RbTbeVWWs7CI",
@@ -166,7 +173,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO0U48wYnCw0RbTbeVWWs7CI/photos/AcnlKN3hC8iUVRoi1tJNKZu_goIEApIixUiOtvSUiTp4yxHDcqlVQHDGwRrw1IE_iZxl6cVHtGoULBgBD8sxqIvxJIiKoiDj3tX--xv1aQjB396e_RWExxuI9ka2X0jqk336hYYWux367aWk6aFiok4GLqDTD-KWThivaIpHls5byb3yh0DEkRTKBikw4sy-kaoAlyQCloe6IT7yaiCI0tuEcynLBRymS7uGbtrcXHM7eW-kbCwjL2T11OoqC_G47Tf7PIDYfaNpWjYlNDgPRkmouTfVexlpskzLRTUdQuxyQEaIyeKTeegfaLjctc0m0K2OgyA1vc6ZbRFaXudK-PgUepmh3yvnsgTqQzFycqMYViFZPfatvvZHgRvxCD5VdOcqYaLIEm5wK8o2nsUG2KSom-C4CnQZKwLxUZN1SasD2qb8m7w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2516575843025565293&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJO0U48wYnCw0RbTbeVWWs7CI.jpg"
       },
       {
         "id": "ChIJCcSbQCknCw0R89peEw7eVZU",
@@ -186,7 +194,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJCcSbQCknCw0R89peEw7eVZU/photos/AcnlKN07X5lBbCMDqtm93JnXP6WKV2lGnsA196B6rGYdvjQuptyBuivAQOLpr38DtxpViGDOuyWi8jV6imJT6JKx7Olw-gTgweLeU0Q82z1SBiYkUQCFnNrDBBv5B2vv8Sk-1eo8NOJ8LkWCLWv6YmLBy7jvxwoHzWQHrgE2_l8Zh7sW_-s3oHaD5AKy8J-6y77otope-xdx6jmSKPotaYA8fKnySDL9sQ1SDmuZVhr6mgbRxCVPJBju6M2pZAa9-2dF-H-M1ujPSCJLCH-nhNJDlKya0UxJAiJ3bMlDhaGlNV_6k3AzmtOMGl7HmpnWcSbzKlNh1kNyGJqxjSPcXXuhKHxSLpi-vjm7swvtQ5kdNog9clBfEj3atA4rMJiApb2SvRBF0NEl_99ivp3Sy9pufcf8x0VmgWiJkKgUCg9S2obpNQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10760751036707560179&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJCcSbQCknCw0R89peEw7eVZU.jpg"
       },
       {
         "id": "ChIJ0Z762h8nCw0RksAFNHxDXzU",
@@ -206,7 +215,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0Z762h8nCw0RksAFNHxDXzU/photos/AcnlKN01s0ccWH16MH8aY5ZFQoq7klbn57gCd0670FZZQC9_1CfTQ1IStJn-8LGDzSA7qANj6NQPGh5J_mMDdlgtxo3ChS_-buB8wl0Hv8YnlSIZK2o-P3jzbL2Zx0G0x85SnUm6Vmg1_lqUxXHDeTHfdOKoDNE5f-AXAK1btspBoKZVT7Nhs9JrbIRNmudTKjbM99MwLj1X4Gqx8tghwrvZFJ7w7J_M531WWfGsUOiDVbiHMMRir6qI1CA5XSUvQJMgnBEaSDnEG4dzB5v2Gh2NfYDngxMs0UC7owTSMXdGuFjjDzPW6TSEm0aDTds2z9hDbn2p_R737z9AshiyheNQhL-3r0QvD-4nZPIqBdTaA2NjWSr1qYv8EonPxZCFTUEgmBAdrD2caJMTuU0pYiXQF-d4MuDXTuCi63-Fj33sr7mV0g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3845866807525490834&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ0Z762h8nCw0RksAFNHxDXzU.jpg"
       },
       {
         "id": "ChIJSxxOLPonCw0RwDmPxmsSo_Q",
@@ -226,7 +236,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJSxxOLPonCw0RwDmPxmsSo_Q/photos/AcnlKN1vsplQR3tmudDlUQNqRYE_8vjrcDmSQ6Jg9MaZcdyEGSu9F7aTD8p6DYYflVcJeYMz4OwyT8ZTBxRjv9TGlR7fOu4K8wChb3Thg5luk0k3bGR_WO5rOLGqrayO0rZMBrk6uI5fPbSKcS93u9SFMhACOUh6xcYVo7MrahZcojky2kX0Nd8W7B_uliHxMtlDPS-ATyi9Esq4TfuYrlp4eovalacNeYivTuFJkFJBkFpva6u26nekH8pIvWlKU2K2a_Rbgo6ZjPPaftft1SgReF53Gp9ZE9f_hTCTG_iV6s4FXRGr1GAf9O_vqXWiwsf7JiCrYkQQb610ij-D_Rev9adioicGpIXJE5rLxccCNVYb5cizyCQ-HxQAOA4s_eYhm8oSIRGA34vWk8dAohQQt_OCwaL_dNhMDBl6tXr5zFLBWw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17627953620560329152&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJSxxOLPonCw0RwDmPxmsSo_Q.jpg"
       },
       {
         "id": "ChIJrRQKRwAnCw0RQoP-jtYipzk",
@@ -246,7 +257,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJrRQKRwAnCw0RQoP-jtYipzk/photos/AcnlKN2fijGUw0Pv1GjYfypSuRS3AGuiuQSqqKWA1VFeJneHoGDDgGaX_8ww0DszB3KrEgzu3ERWHvmXlOMt_YzF1JJ-2a7k_tTGabHoHGehlHsuUn9A_A8ouWsm8skgaA5QD8D6hhszerTaraTpolq1rB8GsqKxg549FbIbxQWbulRFwLOa6rVTfRq5CadvY1-EtkTMSW-uIEjAWQ7QF5T1mtVW0iLBdMOnJjLmaaKLbqvIUQI-IOVq7cPGiLGzZjO8032mxeFzMM-Ae_LyQ41XLv11IVmEuxofL1184oXDBk_82H2jRj91et0kNiWwypK7CfuO6HkBKt6PTHJLKXY9jWaCs76K5gr9IjbFS036z7uIHXXOL1NyFjxK1AULOPvhckb5WKtlS6IXnNxb7QT6_3GMKfkljwhASlaHmQri7a2_ky-njCGLjQWhr184NAPL/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4154327486189962050&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJrRQKRwAnCw0RQoP-jtYipzk.jpg"
       },
       {
         "id": "ChIJs5AbSQAnCw0RruuwyJ7JKf8",
@@ -266,7 +278,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJs5AbSQAnCw0RruuwyJ7JKf8/photos/AcnlKN2WrUgHe4Wx9pp0oW8at9HBFvqFWV17-EWJmHAVxXO0ar8qcFezAI9UcRTRTCQn2kZno-KDV4dFTcdXdaVTBr5OBW-2qToMVQVD-SpqIU0I-k0cMjVbMSXbBpJUFrKl5zaEFRUSs9oKwyWjEkndsQzTA-MmRMkxjegjd9bpsHlfsPWoFwIGv-BXihxNqh4Nz8t8xV_IdtujEB6iIfj1_3Hmrhwts5Kd1y1L2-8B47kiMfm3Wn0FGow2xhlrQOpHviU6qkhwV7fKKYdewns-btpYTyI92jJHvfLt8_dt4fCLkcHyg22Mbjo2RpVgV439ULQK6xyEtUYoI52ASIgeyCUsCLRy4jrAnlJZBD3p6naCzwlu-n9u1VPKvolIUQx32kmyyuo49XR2ZfyhcjWTfPNZzkwTkSwwKIB26-O3QdIw5iNWQk3JJuZZiKrMvQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18386448637525814190&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJs5AbSQAnCw0RruuwyJ7JKf8.jpg"
       },
       {
         "id": "ChIJzdzdOAAnCw0RpiokxALQG38",
@@ -286,7 +299,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJzdzdOAAnCw0RpiokxALQG38/photos/AcnlKN2EDPokILxZzoIqEd3vQw_CK4iWlp-1Y5JWAixGWvB7LUP5YsM7JldZkkDvv16lcwIOIEV-QpoqR_BMzXGgAbkkVDaKMqNbB3x5BIO2CqsrMBfC3YGVFBTJdS2mk74UvY5FJkxe6pDPmCRTN9jEsXhICGUqzkCD6_off3BGHKOPVJvFEWTIxAbf_UPYgjqKMTPdzDiIgTWirzBGhco9q2e_KIbf9kLh5LwQ39JUjfXWlUQ6cSfeZ2UggsUuNAfjLG1zOIhuhvKFajWPU-QMxBtj1_Gktne3WaGsETNv3TRUFuHcnCLbNzDR7_skLQGjIjpmW-Hs3dmWpuDYzmsOT4ewaiXt0z0Lb6RGLHNNThbr61XKLpg2ql1wNCzllJ3lis3drmxlhdc8pM1vz_ivYCSmig7DKpEw-4Ip7R4mkxzIhRS7/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9159142977487252134&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJzdzdOAAnCw0RpiokxALQG38.jpg"
       },
       {
         "id": "ChIJQ_W8wbsnCw0Ro2W98ThdWwY",
@@ -306,7 +320,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQ_W8wbsnCw0Ro2W98ThdWwY/photos/AcnlKN1biMQtoGKC_8y0oHzJVodIVujMdTQMm2vEA7WrpOfx7jpfSEJMGIWhcKGuR-6dqmfZsyYA90oxb6TlCZ9IMGoW4h2xaghPR1XEIxVnQXDWF40GCMW_9kfgmH-WI9k_cB4DM-8dhLlHoAOhR881T05qjDqmKXpsaOeZWCpVOa99ud7iSJErNhQyKq9YITlm4u2N_bwdJsNT08u61yCmq8A0JDaLq5q-v1lQmodL5qRBNxMC7uhT4KSoi6kb1wMfybgI3M6g1Rh3qepKsuFhDbFyMBt_Zqjbbw17gtuJc0XEaxIy2_dg3KH6EkT4fYRZJ59G2IHirSf6VcTlN2_81TIApm-pLIQ_Xu74cCTwDQyjFxznFxW9KmzGZ_CGHxSjopq1HnvjLZ3TVmfY3m7_4HeU6OgTfNmxahQ-e7xK5YCGjKPM0b0caW2KCEvCAIE7/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=458062286263510435&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJQ_W8wbsnCw0Ro2W98ThdWwY.jpg"
       },
       {
         "id": "ChIJTwgnHF0nCw0R37YX7eNEaIQ",
@@ -326,7 +341,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTwgnHF0nCw0R37YX7eNEaIQ/photos/AcnlKN0OLZ_X4nTdA8e-2OBvoUGiTypMG236iAksVb4RIEqNoaYf8k7PnUw7abRNaOF4rjVTeh4p6pZJzFgYXlxxD7ny7035LvvxYKvaSnfTOEJrWCMxcHoYhfXL0xyKt4EzLYP8K4xMomrf3vLNVLeY9tIimaAXvvzWZfnPsxcnoAoHeCknyzM-mPJDBDUYYvymkMEZp4cU4x57mp1eFtnf3KYDWOVCzOAXqBEr-7cEYIz7J3d-uAot8ZC_ik2ynbIH9hBePHJQwalO2rEhdqCFzRsZUFQBJDw_XfP0W3dLjqdbC10l-XPmaO0gIibD5_bXrxKlUFbd6TFrkz2xhGtw9Wb8n33wUFkW0svegJLdNN-Y1VVeLhaQMxWPSUgJyOdLXPqkFxriMnvzTLOWZyqb-2zDjTMW4LFPw7GSeseZnyCmsYnDJTxnyuuWuZW3aQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9540951556310415071&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJTwgnHF0nCw0R37YX7eNEaIQ.jpg"
       },
       {
         "id": "ChIJJaTzUAAnCw0R4trQdLlPoHg",
@@ -346,7 +362,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJaTzUAAnCw0R4trQdLlPoHg/photos/AcnlKN2OuVms9tuYS2Db0rsmFVJbmhjUWhKI_OBAtG9-8_tGqjCyeRe2EQ_wjJLmXKXySsOvSnqeZwFdJU9xc-95xTm1JMVWU58FLJJK1-9-3CSwoQU_c9qQOfpmFMCDIa8Rj-1g93Hv2mGBIKz7wo1EJnIvu_MCqtsBprLFd8OUxpyHbgp_bKD-RFBDG0xWXOXcbSuqKr4B7iuLL03oBRViwsUB9yspGhML6tV4xyb6ZvTBdBnaRE4-dHTUKzHf1S-asrFt-iwfEqjI4xZdyANZqPFQ8AMOYe6iZT_UEifzAJS3QF63oXRhgWCbwYHBrMbU6y4UmwbzdlBlUffeJ1Q8oMoYxXqpv4bVa5kNnmpY4e3Q_pHR6v0OkrhTOlxlEb6tptZK2louH28pdEMcmSj54tPd8lxXSp8Q3X2l-batRr_tydMikqxbxQlf-PFGM7gE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8692034938772445922&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJJaTzUAAnCw0R4trQdLlPoHg.jpg"
       },
       {
         "id": "ChIJnQx6GngjCw0Rw6K1dSbrKOQ",
@@ -366,7 +383,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnQx6GngjCw0Rw6K1dSbrKOQ/photos/AcnlKN3qh5arbL9vLCodvU6lgJFGbdE09at1qkljVZIBS-ophpPqR2v14ZjZirxt93r3SKa5VAVi-tl76f7ABFxvch12EgosnhgTlXumG_QVwghQjq5IRKIinwl87O0Gtx0zqF_91jGrmXpR2KliZaAK7iYz6DVTBmKoO4zfvelkrff9beiowynwI4UBit_VHhml-w01i9HGXlgcSDJvMIsiTnOiPWOTnjPGSXLbkhkSwT4s7EuyOWNoEwQRmjSr09uCPJ71XNd0M2P0OreFb-zQTFEH21ULD95IbBHCtt78XsKnhGofFowpg_x5IEBFmN-g0qSIammo9QICxbON2yzfR4CpvwPyil8Yt5J7LXNkdnTQczs8Ok6AEpdNE74g4zwRg9ByxN_VputR-dWoP0KKwhgGm0Iubudo1_ENPm9nwzDDV7RMGHavs9GvxhkVCS7I/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16440648990132118211&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJnQx6GngjCw0Rw6K1dSbrKOQ.jpg"
       },
       {
         "id": "ChIJYbrSA1YnCw0RhEtuATwHJf0",
@@ -386,7 +404,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYbrSA1YnCw0RhEtuATwHJf0/photos/AcnlKN2NeY1N79l77Uy1WvcQx4R3wdCL-0erMiVcrWl41UOMm7-rhHhcqyKJ2tfmQxX6cSETgljCdpRF8hXjxFJthy2XqENctaodvoFioTkTUM9mKNREso9-R38pAl6Ehefbt5srZCfcvj_DBCAt6L4NcR4eWFEtSDhSoMdPDOZR3WvXUiGE6dRIr1ymwmqvcp5o1qK35BCqhssok25wAVrAlY-9bJzSrDtCtHroABNCLrggc6DiriSnmSNebNPqcYxHilIx8hm00PgGlfRR50HhhSR4rSF-hHWc2WBHM493X57w5fIY2tvB9QF7HCdB9rci7bDMB6f9yFXYTj3BysI6DyBHJpiGIYDeVVCQta3QRGspEyBUO2Hi2zVzrlAG6DR-66IYKDSu0xe19__QPXMzWWaeKXyO8yZKbiu0K9Gw9TpSawFo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18240993820037499780&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJYbrSA1YnCw0RhEtuATwHJf0.jpg"
       },
       {
         "id": "ChIJl3VmTeknCw0R6ISty3R1EZA",
@@ -406,7 +425,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl3VmTeknCw0R6ISty3R1EZA/photos/AcnlKN3Oc5IZJWGNAt6y3Fs3mpLy7g2PYoZPxrE7T-tBoIuHv7k-HLaX6obpIEe26ctzKd7R7R0gmvDA9DyyaXvQW9UOZXGpCBqZNZP1Tt04AzY46eieOAdv1IHvihEZTthljI130XoVJC7if4LDN4w8l14P6NEo0iCGy4xtujOoD8YN6eHfxFYI8JK29PHbkmW0knR07fxX2yUB3cuY3DFFmDn0RXvrpRF_NFbsoJ2OT1NM4LHgyFU518Y9woJTKXqYDsby772O8DujiwkMfZdpJqu-YcW0yksBC4CyXpkyfyxxROZr9NwJC4bgv6X7aOE56UkksP7r7t4ggyOzwssP-v6W89ZBJ0JUSsjJDhO78MPFe36qC4stWrlqA0fMAj4WWNUM5WK9qAIHjnGibbmheUTyITzuwq-eYRs85wxB18WIcrEnX0_eYioLvQCeEXbI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10381207760559506664&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJl3VmTeknCw0R6ISty3R1EZA.jpg"
       },
       {
         "id": "ChIJP21sphgnCw0Ro-4KsEBnvoU",
@@ -426,7 +446,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJP21sphgnCw0Ro-4KsEBnvoU/photos/AcnlKN279SBQTg8FeC426W1zrKlNVtLDgobx8B-mtf4CFd1Wj3GOBWggrZhVZFrhPsMIIiFlIXt7U4GlsF_QhFgZBsk_92brjWqNAWWnHxpkHI1lZJbAdV3xixltipKbGPBzPBN6DCN07rAPflmWxMLR6l5eAYJrOrV5jCDedlPJ8dxzLs1hyB1LQPP1d3wHtK3ZtshcPi9buo9b0yTXiSQsD1lzC5ky4H6O8-bgtrAZT60bHlSLhe3I0HztFUQF3cdrqKeCIow3UEQJREQKOVweRh0WzmUm790q6stTOk2kEv_ATjU0DvBMjdh0SLJQREHEoiTB3FhizLDVj3BLpOD-qas1GFGa15KM-NPv77KIz5N98J6yCbMqmDoyEGpuWllZk7Elogk40XWxYz0C9GWbEybQBRGsmL0ckBpZS3-pgpciD03WjHGTEM4MInpGeplx/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9637253780148514467&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJP21sphgnCw0Ro-4KsEBnvoU.jpg"
       },
       {
         "id": "ChIJ5X3uU3cnCw0RojIO49BuNKg",
@@ -446,7 +467,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ5X3uU3cnCw0RojIO49BuNKg/photos/AcnlKN09fJZsmnLDHH17BwaTJluwHWbDaE9R977uy6ESY39dmXtIupcZT0iGw4As6eoXpRyghN-q7vcgwGuvX4HjzO4kyTOV8OE2rH2D5sC3NBkL4LzLo02pmEh9jhVbU9sWLRXbOXUIDydb5DcwDioJUe79KQYJgiIrv4Pk3H1WWOdZaN7Wpbm1YUidFLXqja_snUF4hSgUPFcw0Qeb8xAIzEtgojTJ34VD5dBzCCMPXvyDjV_h8ZIWBhXRKQTbasnGzv7dSaQfYHQ4M-LyDnYld4CfzNeD9RbnYcjYxeJMLO6EMKzkw0RjdTsVHrZ1K7p7276qPtf71iADVR7hQtLHaNH2Zfh48GK3CwilzXR0et1DelqphDHExjojlVcxda0SbTiLCN7IyVeBaFxce5FwDUaG9H1KSvbztXC-nwZ_C0MmYsomGezmziPtioiY4HlC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12120434340602458786&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ5X3uU3cnCw0RojIO49BuNKg.jpg"
       },
       {
         "id": "ChIJ4eJj3WAmCw0R92IIVq0lN88",
@@ -466,7 +488,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4eJj3WAmCw0R92IIVq0lN88/photos/AcnlKN3WWzv7S5wA1ECzbR0HBVJ5vCFZZwMuj3R3wU_ohcYzeKqiF_xyvqg3laBAGNKo_vRXwGehXLrLZH6v30rw4TfZgNE84uJf8s_2OhNFVmIgvBZcBbJCGsGuTIW7sWkf-XNuMRKVhaMhNFB2IKyx72W5zsUghx1Ag8OdXj8pmK3YGjmUrZbQWlhIO4LKCh34QcO3XiU0Ug14-NuM2w-f99SZEeRX7gTTf43z88rHWXxrLpMl_p-Ju-OPvCEqL242OUSkrqD9T9wFJj0TZgZjhDmiRwHM93fNaBmeeYdEkASVfykRPoPXk0jzILwjDd3VwCtIuuEprIhpROIZbRWmh1Xl8DzLb4Fwn66ln0Y5cLc7AhkUAHjnaDu7Jy__tVl-aaeB6y_QRsO6k-5VS71Az-khCjYEmxXTSoz6ZRHskDFfgQCs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14931444515973128951&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:27.562Z",
-        "updatedAt": "2026-01-23T16:09:27.562Z"
+        "updatedAt": "2026-01-23T16:09:27.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ4eJj3WAmCw0R92IIVq0lN88.jpg"
       }
     ],
     "foodie": [
@@ -488,7 +511,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO-pSMcUnCw0RUioqwovq-LA/photos/AcnlKN1_Rt2zeVdXzZtFVqM4y91wiV1dZStahiH4iKmmG-zXwO8YwgYfc7GZD_xEuhVbOmPa047a5F3wKBWxbHAZZxV060hK14WwoZsOUwuBYHf-KA2XA8fvNwVTeLQGvqW0dfRWepuPbgJRdc3zGcszAOan2qimoMY5pqoy2F2jxqFmRfOeNwHx-qcXZIS8z6Zeae5OFISukWELllebPfrper0l0KvIZxU_x7q-d8k5W99WSP0HsdqPWlElcVtuyQnWk0Y-O_JKV90CFe33C24eA-upamRV8yUmoj_v6ujzN0CNdw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12752200230878456402&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJO-pSMcUnCw0RUioqwovq-LA.jpg"
       },
       {
         "id": "ChIJvxTbFOwnCw0RgSFlqFyO9o8",
@@ -509,7 +533,8 @@
         "websiteUrl": "https://drive.google.com/file/d/1HCMi5LW3Dg3k91gI9XP-UF48ewdayx5k/view?usp=drivesdk",
         "googleMapsUrl": "https://maps.google.com/?cid=10373635320307851649&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJvxTbFOwnCw0RgSFlqFyO9o8.jpg"
       },
       {
         "id": "ChIJTwuEQX8nCw0R8j2kay6SofU",
@@ -529,7 +554,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTwuEQX8nCw0R8j2kay6SofU/photos/AcnlKN3438BUPi5UHBdfscS9VibQtMrki9XZeveTrsRGhnrIFQMD16taXs971tlsdFsYM30QBo-KiGj00FYZJHyXKZL97mLTf98vKvdPOktU5Dmd26mcuP2aJvBbu_RnGN9H8Ivj1GDBZbDDs1T0LYQRaXs9ibPUhJi0eNtqMMU0OovWxIgfh4SZq7HAjs3H5m7QyQDS_XcO-ruiE9XGvLfwr9JXWP2UNKtn0Te9zsVWbNfLHh9_vCGTIvjLVmhOuAIRfkk_V6ZxEgsDqW9fsQGUrdD7LWWfe-QK4y0_vHnjDRjyzA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17699588738614836722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJTwuEQX8nCw0R8j2kay6SofU.jpg"
       },
       {
         "id": "ChIJJ8G6LzEnCw0RDSYGJzS4H_I",
@@ -550,7 +576,8 @@
         "websiteUrl": "https://www.molinogarden.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17446866015589115405&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJJ8G6LzEnCw0RDSYGJzS4H_I.jpg"
       },
       {
         "id": "ChIJoXdYHgAnCw0Rnwj9H0wHckQ",
@@ -571,7 +598,8 @@
         "websiteUrl": "https://baba-coffee.netlify.app/",
         "googleMapsUrl": "https://maps.google.com/?cid=4932012565459699871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJoXdYHgAnCw0Rnwj9H0wHckQ.jpg"
       },
       {
         "id": "ChIJn0kgIPsnCw0RRJ6roi4WDyw",
@@ -593,7 +621,8 @@
         "websiteUrl": "http://www.cafeclock.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3174780651872951876&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJn0kgIPsnCw0RRJ6roi4WDyw.jpg"
       },
       {
         "id": "ChIJ-eSIkfMnCw0RdBtrhhVTmOM",
@@ -614,7 +643,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-eSIkfMnCw0RdBtrhhVTmOM/photos/AcnlKN3xHAUSpe2E0b4GlhwiFb6XXo9nCG65FE9bEXB3y8f7FkYYFBjnnblryW1b4M8VgfHUqz-XvPOGsPspIWAdbRCY40KS494lTU6pLBDv2z0TmEXhotOCcvEivsr9JVZTj7k-IX0l__YM6_zOxNYeq8trC7LAeQrRrEkKSbNwEIYCHJuezvrTi6rwBXF6W1iphfrO0zCDP_JSr5KLm5PaFyncadH5PmXnygVlkY2lzKpTiRpk__lQpTcQPYoLaycMPiiISgfyHSLQjpmw5vXaYXYZO6ni2h8qhSu3oZTDtmkZxzfOggvbi6FF4KMRzr2WDBoqwhR1UKQ--_JHTIWGViYgDYOiYLjeOJB1fHBds_KkL_QNuos-v2FbczAPDyzj6u67TFCzn2a_U6R5uErkEskEZo0_a04uvN1a0y4pu9R3IXU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16399949394984246132&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ-eSIkfMnCw0RdBtrhhVTmOM.jpg"
       },
       {
         "id": "ChIJP9eNwmAmCw0RMyLGU8p8HRs",
@@ -635,7 +665,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJP9eNwmAmCw0RMyLGU8p8HRs/photos/AcnlKN1urAG2K3t3TKabETKPkQvvIfBvZ3TTeTKAGyBRhQ1kfXFY6GE4mu_zXXhTV445r4Gg2TKZD7Sn9_Pl7Xw6v61rXPxgrUFXDVfQhI3Au3UQHFljrSOOWYij4c5KoHdJrgJmGak5zrYg7txWIYavK6544wjcanZkGtRf8WvcPLpzS4IrSBWELFfuASJ6GPaskWNKITu5XPunYCtlDBBgPdFd-y4uw-LtXlhHP8ddODAC1LG0i2ug2AkhX91_4T46gcow8DG7ODb-q-xbIfrygQ8CzIQ6M7XxrZYbF947U5TQVA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1953855021779395123&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJP9eNwmAmCw0RMyLGU8p8HRs.jpg"
       },
       {
         "id": "ChIJsXYRBGcmCw0RgXqm3ZNGEMQ",
@@ -656,7 +687,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsXYRBGcmCw0RgXqm3ZNGEMQ/photos/AcnlKN3GJJqkEfnKfOuLbsE-tnua1_7G1sB_5JkbHFMRQNZG49NMEsH7K8LYO2lNQ-8FrQ2tw1i-eW6x5pBuRyqIYug3qediohVeUSqpEEOF3IV1kIiC8W3J-9agMeTOAOpm9oHcVv2th1HWf4_Dk4ByA7k1HMdPpVdYeF7gL_T1AH-J3tp4RBMgwdcj4XVPcWYfdOHDVmBYrCoITcKHO97dzaI29AMdYndDkIVo2BwGYQ00vb-vn_Xwg1Qu3Waj6gL3tpARxTDGOPSYZ73hdCaNq3HbENX1tAgKXqxjYMssdUNgfkik26zU4O07uwjrKQzLJwmsh4LHEjCPYeYQ86XqZS7WVTaftLlVrT0x--s1jhiLMAx6yu44Lbcw9uqzl8zejcyCaghw1EwJ9ahWEbOPhw9Tm5yVQOmn5H_pFwFfhBQBSKAh/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14127869631954057857&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJsXYRBGcmCw0RgXqm3ZNGEMQ.jpg"
       },
       {
         "id": "ChIJDSQ4OQAnCw0RxGTjzv1u-_c",
@@ -676,7 +708,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDSQ4OQAnCw0RxGTjzv1u-_c/photos/AcnlKN3Lghn8zVu2kzIAIs00WUXjVxbXaEYVuXGl-Mh7z6oblDiY-s7CBb13CxLqWsoKlWEJBvC7_OmCAtuW02kYRue2HHMNnRa_u9Qa2Zvtug83D1_SMt1brFU7IfknFXV5g8h28LcNIa32BplbgVVuhlThDQBnnyI06moSQYGUxDrBwxbf32psWNbgexpOB2N9V9z3W_4kSgZVdfE0e1gnNcNzmeqgfmzqQW9fMl8-NbaNoRPx5sg7idlS3MTaTreUeS7W3dAPIb2zz5T8K8JGojPzMhKgmf_OZaheLVpivQEJ3hBZFnbEShz6Dg-BzZVA37I_Ox0UmVDLP1d85ONsvWzxasRScf90_aniqRL5u8KmKNBgI1xBGlm8r7aPlaU4V-bNh89N3I-717HBNBJg30soz_YyN-Noi8z_7o9fx458YTu01-H6lMMLo8Uzig/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17868997982899365060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJDSQ4OQAnCw0RxGTjzv1u-_c.jpg"
       },
       {
         "id": "ChIJMXYxzWAmCw0R_vq8Xz1ZKhQ",
@@ -696,7 +729,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJMXYxzWAmCw0R_vq8Xz1ZKhQ/photos/AcnlKN1jzjl7sDci82nEPqhpR25io4nCN9C7MOb88a-ptm15zEkg5K8ZqyWtJGke3fK8OUjw_cAwhY5L__5T0UK4RyD0C29g272ebenxQstuhltOfc3UpeboMDd1iqdJhk9VZlUy15C9JDJK_C7bsp1Y1X1R0IXZMaZ5aNZNTCv8PAZA3yQ9vr3zdN7Zdac-dsyhMPD2u4xQV41IRh2ZWWD9SEuzT72EzxsbNamCPD5ZyRD5VT1732AXpZtvub68zPgRLlB4jdwgJqZ5pOxqgBDsfpFADnr6WxWkmCGz4CvS2CXnUenSr-_Ep1fURKdXJk5ok9YI-hviekrwJ0yncuvnWGCYj0BqYyYSgtECxB2OkiEqFZ390mGJrvGSzuRG-SI1TSERQVYUI06x3jMKNECrL6sIr2j1G7SwyylNiPXMKX9tEAS3/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1453071949914503934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJMXYxzWAmCw0R_vq8Xz1ZKhQ.jpg"
       },
       {
         "id": "ChIJEwc3DwAnCw0RG7IJWz3Jt1A",
@@ -717,7 +751,8 @@
         "websiteUrl": "https://fornaccio.ma/menu-fornaccio/",
         "googleMapsUrl": "https://maps.google.com/?cid=5816338709129835035&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJEwc3DwAnCw0RG7IJWz3Jt1A.jpg"
       },
       {
         "id": "ChIJfW-pmzknCw0RNP1duS-VQpI",
@@ -737,7 +772,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfW-pmzknCw0RNP1duS-VQpI/photos/AcnlKN3ceq5xIce_o8u3SMFr-mFyGPQsj65nXf4tiYrX8zIVf6QJ7_09fS0e_AYoXrYrEz0EQeN3zfS7k2L1m9YSTtJlPN8br2ohWo9XQU6CFFomy-BoyIm9mWqAz92Nxxt-oZy0XEjPW77MAGz1lTiP77TOBBHw60Zh9lw6OFvouz7XdAxXtEv0L2O7e10qkI68vOjk1WQlJU6n_hHkTDFZfnyl_p5fM-7CTLS9e2tf3-tvWWwwL4A9ct7yQr5FMiSAV1fbcF9cmC2cib1thpvKB8qeheJ5l_s28iMXATefLG9z0A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10539150110206328116&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJfW-pmzknCw0RNP1duS-VQpI.jpg"
       },
       {
         "id": "ChIJwzY5MMonCw0RQu_b5KEadX0",
@@ -757,7 +793,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwzY5MMonCw0RQu_b5KEadX0/photos/AcnlKN05B6-NqARBuuHZWFFMt3Of8wxW2TtxndxA0dw5nS51jWmy0QvlHbiiUU68uK4G0U4psZgBrRDPn1-0W9-x3tNbjM1oA7AwUQntncM_WvRAP3qyFHviO4ZPiT_g3HfgwMIvWyekOK7LwceP51b4kN0PHfIwZZkuuEJacQXXqsX0zeRFxXIYgs_G6XjRaN8QKOChGpn2FGZNkHAzLWETEwAAlan9sAYJydKIxiAKSBZy9xQYeQNRtjY_Rh8CLlrcu_342Uv3Zdxd09KLKr63SBNQ5HQy-4zKrgpD3b-7ig4aiA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9040161109647814466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJwzY5MMonCw0RQu_b5KEadX0.jpg"
       },
       {
         "id": "ChIJa18ywWMnCw0Rz5ypvnVAFx0",
@@ -778,7 +815,8 @@
         "websiteUrl": "https://babtarik.wixsite.com/bab-tarik",
         "googleMapsUrl": "https://maps.google.com/?cid=2096215026018393295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJa18ywWMnCw0Rz5ypvnVAFx0.jpg"
       },
       {
         "id": "ChIJE1wbLgAnCw0R_c6GBo_2Y60",
@@ -798,7 +836,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJE1wbLgAnCw0R_c6GBo_2Y60/photos/AcnlKN0j2HWJfT_Tm7hybHX_L2gl7a56A2E-MBqccWwyXajwg0IQe3snn6iZBl4ovpYZbZ_ZgBkKlbelNMvbVBOfwdwqF2OcvyYIr2apBhiE8SKOMOtEojc9FUv-FUa1ckam-hg07_8bvoXX67PxFezhItejsGr_BK0y-wbPhc3CCglEajioDgACd-PqDlFO2NRv0HyZ7hRJwjbVxEtKu-_XNpzzueAaJQVc10TIhRWNe3rhS8HcyMLw-kFnOwI4y34UwD9ZwAZu5wvZ0HkI_vjeE3W-6EsIRZIbdVNDzMTE1cYpCw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12494100885406142205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJE1wbLgAnCw0R_c6GBo_2Y60.jpg"
       },
       {
         "id": "ChIJ6-DLyqonCw0RmUQl1xnQRfU",
@@ -819,7 +858,8 @@
         "websiteUrl": "https://cafezambra.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17673761122087683225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ6-DLyqonCw0RmUQl1xnQRfU.jpg"
       },
       {
         "id": "ChIJ_b3lcmonCw0RPyaNLPhQeis",
@@ -839,7 +879,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_b3lcmonCw0RPyaNLPhQeis/photos/AcnlKN0haSbO5YUr5OSLA_cj01rwzHn_7G2KiWGlCF6rjAxpVbZgX8W6gQd6iV5o4Qp0-RGTx2V8j_Q8wifBC1NGcBSxEMoc4W8SvnM3YQy4IgOaQT9QMPMnIZSq0jftkEizywHm6kgnAYxfXX4sjTGyb3UDrtNFC7oBqzZ2rYzO6BtV9a_MY9bpSiFIpVhdJpbINJjSMISAY4En2K7tEfr62RggNUALho0tR1PL_0cmYvWxlk27CrWFGbyW7UJLrxLAu-vlYJozQ-0LXEQDMAeY4JCNXcqNqu_dbbyIFf37mFFUbA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3132905517619160639&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ_b3lcmonCw0RPyaNLPhQeis.jpg"
       },
       {
         "id": "ChIJA1RoEgAnCw0RxtAODfRjUk4",
@@ -859,7 +900,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA1RoEgAnCw0RxtAODfRjUk4/photos/AcnlKN1EEjwApsHnoGk2FPbAllmytMZ17GFkgpTRx_B5miBTRJK0Z-1SdnG_oXbfdm1-eCUl-BsLSgLg5S_icEbQtUwOuOxL_7GZGxCpvx0D8rtjtctJNw5rJgroqbNGi7MqSkN7UBe1xo1MNIFuVFdb5jE-lYk8ebaar0Z1clv_6PeeIAEaOeX7-xJ_1mlPHmMcnD-W2D8poOWAXBOutuNtci0jEHc5qAmlh18k03rfpSjeLtRfUO9wZRepzphpBi0K2bx-kSjlwPn4NCFRAzd4Ap-LTALN6hP1vbGQwM-UAlDPQH0C4rVUI63p2bHImsWizysidknIEzXYxi3pKLgkpLHQY1VyrRUmsxMG0opfTv4X0_LsiiWWQxL1jr6_Yyy5PGN1jaJxhL-p9TJQ5AvcrIq49m99tBL6qh3bP4j-QX7mh_pSy5LNh8sIHQUwqA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5643683182890897606&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJA1RoEgAnCw0RxtAODfRjUk4.jpg"
       },
       {
         "id": "ChIJYaE1GrYnCw0R3fcfTEXks-E",
@@ -880,7 +922,8 @@
         "websiteUrl": "https://instagram.com/maison_ahajjam?igshid=ZDdkNTZiNTM=",
         "googleMapsUrl": "https://maps.google.com/?cid=16263593665646032861&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJYaE1GrYnCw0R3fcfTEXks-E.jpg"
       },
       {
         "id": "ChIJD33y3tMnCw0Rgvh-H7qmN-4",
@@ -900,7 +943,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJD33y3tMnCw0Rgvh-H7qmN-4/photos/AcnlKN3T_TLXR4KDZ3U7Y-LUmCX4KTDI4C5Ub634UV8CiSiVmd6wmB9DoPaxMrs3T7Ru-gIGHZMsGNz_8BE0qqzxN2idg-zi78-WRWecZtYgsT_UenZ-MTntb-CvPOqKJHdHtRUZiezCwn1VEBfmAP7g0UOWc8NrUlG0SLWKcC1X9aGoSb2QJr_t2kAW2MXH7TlX1f7aDuB3WBehhM5Ai2QRyuyb1W2XIpIv7aJkWWiuT7uRcgYK_bxVpnRKBL5AqaiDy9Lcpujj8iYsIZAk-3R27I3a1N04mxd5WWKLBRVKsC5L6kV4NiVd6O6kiUFRqG0wnli2XDrQHbcq9ysenCBjblOgksgUnMFOADCvJksRPSC53J5XLkscYcWWvtIP4RBQTqkN1HgYVEnlf8GtWfJPlAzQy8ZafHgRPssngqSd0Iy5NNWG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17165371823068477570&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJD33y3tMnCw0Rgvh-H7qmN-4.jpg"
       },
       {
         "id": "ChIJgRJa-lklCw0R1OoQWzNZ38g",
@@ -921,7 +965,8 @@
         "websiteUrl": "https://ruedacafe.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14474385804498102996&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJgRJa-lklCw0R1OoQWzNZ38g.png"
       },
       {
         "id": "ChIJn64EGTEnCw0RD5CZXbqdb1s",
@@ -941,7 +986,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJn64EGTEnCw0RD5CZXbqdb1s/photos/AcnlKN2YZKPy-KIXYSMS1QiBcgrz_EPNKAhWDjTq0tz51BtIazUDnzicuL3n5rj2eiAOPH9jbEotBzvl2uhAMJc5C-46WUNDV-NOA-KkSvC5Ey7pB7t5gFiT6rnycUl7O5M_5IuqIwbkt16Cqds3D3WnsyTqq2d34IksZwjblh3IYQO97GxF9a_AeXzaWY9eY3WCio0EAOed2ZyNV_daqDDb_FwrwTPymdHEEMuXti9vcPgkFqyw5uQHjccWqGxbAfJesZiSrlLWyP_0K6X3KoYZUHgPuowDu6XclmPeVG0G9W36X1FWOkOLl1YktH7clR7sMVrCV_VlNPOnmfPEpsoH7M934Ug-2udGhCKd7rgl4TqFW6ZZIq-6Tvxm90Nq13972t-Vo-WHAB4VB0zqcVgy7S4ThdMKCSpAqf6taDp7pZQj_1Zm/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6588658203626147855&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJn64EGTEnCw0RD5CZXbqdb1s.jpg"
       },
       {
         "id": "ChIJFXVqd2gmCw0RDxfnseso08Q",
@@ -962,7 +1008,8 @@
         "websiteUrl": "https://www.instagram.com/riverside_artcafe/",
         "googleMapsUrl": "https://maps.google.com/?cid=14182724644286961423&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJFXVqd2gmCw0RDxfnseso08Q.jpg"
       },
       {
         "id": "ChIJDQab5TwnCw0Rt5VXRb7nNi0",
@@ -982,7 +1029,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDQab5TwnCw0Rt5VXRb7nNi0/photos/AcnlKN0W3minc9j031jDMkqtuAQIJHcO5r6X5UoeMyTql_3WufeaTwzjkaKBhFglAlMmlNCHgLzHZxsyCrP-xfCSBGil51eGw91JQWvL2MG36Og8p8drESHwktPX6ONUP6n9NaxYXxHWM45ysL11IMVnJX8ZV3zIvvUyybwPOpzRF_a5MaT8SFZu9Wgu8_gDRKf_W1HpIHg2Qld5KPqW3gBwlGUFkxSqbE3-lxoFHczv-7LSRIKN_xHNT-wmhS1nLW5gCB1KmwprD3bKgIQTf3UW_V49e_mqTBIBcp6pn5hE_gu6UA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3258046184842302903&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJDQab5TwnCw0Rt5VXRb7nNi0.jpg"
       },
       {
         "id": "ChIJu-xCS1wmCw0RCsp3I0_EaI0",
@@ -1003,7 +1051,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJu-xCS1wmCw0RCsp3I0_EaI0/photos/AcnlKN1oxnA7JTa7UK9Pfel0hA8L2AHqDHuJ-r0bKOSoRoTm53fzgZkKIFKIWEPdag8-Iai2qrBx5MsCxojaK6lWTUXaGKBnxDyhwxfHSM4WIzPRfZGOizC-ySvYqtIV0UNwV3zCEbKZAmmLozlDGWmkt_O0DD5vS1a3KKweZq0Rx_AxFiUAytvMmCes4lelBXVNNNceVNz1-JP8Ds-77feaQQW-BRStQc7FwVKi_7T7WO4EEgGRQg8OD_U8nHz5yIPMEF30Fuc4XEv2CT9FITU2ktpNopfz9n-diC3s9zqE_T_ibazJDWRG072Dq9ophc0Gfwl1JXOoqE0Q5tSMQygWB9Rlbfd78Dtvn7u2arM6uF96d7NpFuqrh_y5eiWLsMb2nSGEv420LW4lQJT-j64KRdUWSiUbh9-b9dX6ScQGOYEzWxo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10189610001102260746&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJu-xCS1wmCw0RCsp3I0_EaI0.jpg"
       },
       {
         "id": "ChIJv0JLLkMmCw0RQPn2epblNZg",
@@ -1024,7 +1073,8 @@
         "websiteUrl": "https://www.facebook.com/hoteljibalchaouen/",
         "googleMapsUrl": "https://maps.google.com/?cid=10967924902001572160&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJv0JLLkMmCw0RQPn2epblNZg.jpg"
       },
       {
         "id": "ChIJX-kSoAgnCw0RpvqP7VMWuV8",
@@ -1044,7 +1094,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJX-kSoAgnCw0RpvqP7VMWuV8/photos/AcnlKN24wv-oEHcaReifC4szEk2AV819vpErj4iyEBzxoTNhUlrVVgh1nFRCr6OU-jKh6Gde6Dc9mj4RtWDeaNJz-cbKFsOhz4k76DO7zLOSMtoLl6Mb3P82YpLoU5aw8WdhaS6s9mWHdCd7WPOSA2qJs10OlY5UF6m3EY6ktpVydyIUHzS6vX3H2K9Bu8e6A1XmgL6SEh9ukjVQMnp2OX69nPeu-KBZ6ebrDJ6N0DKoAqTTLt2kzuKeZl4VZ3raPFXsJjcQK1sMd7phLbKourZq75fl_AblTRVrelze6KNIfbIials86sh1aISHZ63eaQmp4rzkA3iW5KdvKHVoHA372zOcDbJO44cGhTSWJDLTyrkLLkwJl1vrMbUua3OLzaLe4RFTueNsO46N0SDG8vD6vx6dg6PKc8ZrrTTu-9sZM9XkYXLw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6897568854018357926&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJX-kSoAgnCw0RpvqP7VMWuV8.jpg"
       },
       {
         "id": "ChIJT-PaaIomCw0R9FB8DOsos4M",
@@ -1065,7 +1116,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJT-PaaIomCw0R9FB8DOsos4M/photos/AcnlKN2ovB_ga8dstFlbILYEcx28F5CJzenSd19HKPHNd7iysohMTzwhYz0hwtuK4LBKXo2BPPvAR9x-NlV_NqhHG9yEHMpPJVzCQwZDtbSYFyBJbefFScTePJwl6uy6OQcKDtsLu14rIxMTjzOX_ON5fmDeuH0a0w85OcO8SfKxqMc6BpmmRuTdowDtP2grdbqefv9zjNqGFBqJtCouvoKBtzhvl5-aJVX7n8G6alEbGC6yfqnv_g9gnXw93TmP2ZgBNN6PrJIYnRsHIqSGBNNmI0S7HPYEmIPk-6uX98c7vyhpT40xQDk8z12GIr1qH2ry1jl5y8K3V3264AlHQL-C2MeJqj8qPVph-59kKyQYshqA-5epocX5xNC0UMIMxcVPwINBFSlP76Ex9a9THfmuXzrkLdxrzPGmKeYzfYRtZhjsS1Vj/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9489973829791666420&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:28.718Z",
-        "updatedAt": "2026-01-23T16:09:28.718Z"
+        "updatedAt": "2026-01-23T16:09:28.718Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJT-PaaIomCw0R9FB8DOsos4M.jpg"
       }
     ],
     "adventure": [
@@ -1088,7 +1140,8 @@
         "websiteUrl": "https://maisondhotesakchour.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14831948160958203932&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJvwkFJiIsCw0RHAjs9ESq1c0.jpg"
       },
       {
         "id": "ChIJ_SnqRQAnCw0RGFNeaPDhZJo",
@@ -1108,7 +1161,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_SnqRQAnCw0RGFNeaPDhZJo/photos/AcnlKN0NgjFuL5wagRwf4y2-3VKPrTi9MeLNZuaLOz5Ii9AZSK7KdRlN7veEylpLndVcVnc3ljwQvvun9Ogly_r29DJ9UYXwjn8Fhitg4DPnO5ofm7vB7vLq1-2a9rHK5p0u5UxDLouE24vLnejoGAL77IyBQo65A6LCudxlkDkUHCDrcLbVqpjmapaYTb98dN_bhgcxX97kff9tpRpAXZRLs6H9sHGVIobt2vm1_pGtNsXk9KLKuzUeh9P6ikS2SAxgH3wpRxrRS6aIHOf_wlZCPMLsnkt-4B0LawVYWT3K8XwGnQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11125265402171380504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ_SnqRQAnCw0RGFNeaPDhZJo.jpg"
       },
       {
         "id": "ChIJ34o4iSEsCw0RlfAcNlQMKfM",
@@ -1128,7 +1182,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ34o4iSEsCw0RlfAcNlQMKfM/photos/AcnlKN22obC1ao-Dfys9pi9wkLbZsjKqU9As5gjBXJSVWYL76PYrbvX1rIc83R4S1oxC1bV9Hg17Z8tWebnQaw561CBhetGLCVYzcZrqZE8kQVuNe8hcTDKUXtrz3mcnv3G1fWCdZ6MD9zihb4cRoEd7lxcPHsTuafSLpRy0tD3XhsE1qOc4wCtmI_RjhomJWzUilRcZId3qrwrjT7EN64g96eApUM461aC-FpgiCCuGnxYcmFx-E28AHqwTB5zCZpkZJ-8juZFtmCbwVKywx3QNAc2KtKg9Ue4XYU-MKAVRejzZ5dbHr0BtyuHK4xp5sfX7DYrs9n-Dg4mHtqYOCLKnWaDWLYYiDOGR12OOR9U9pW6D0Drve7LlBqXq4LCG35tGMO_nR8fsCyShxCJ8LzIQ86fmm7Ee5zR-HwUf5FBmvypj8Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17521549381086277781&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ34o4iSEsCw0RlfAcNlQMKfM.jpg"
       },
       {
         "id": "ChIJE05OHdMvCw0RNAu7bIkanFQ",
@@ -1148,7 +1203,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJE05OHdMvCw0RNAu7bIkanFQ/photos/AcnlKN3uwuqcSrdoKOkMDYxOBh48Hh4mXU7-eOMxk-dmW2dEOKbcmtsNNYoCdXC-JQZ_GQQNB7yujS7O6jEnojXE1LUDUpw2j4Re3B62u_YabZaaDHHhROOogMYT6K44ubc1d3EEVw5ObOeLYkYFunZu0aEX9XpWH51f8xgHo8smfkrKAuUX6LGsJnZ3drLBRT5LBOl4pgHd2xSa2HFRKlJmwYdzlYEvJuLVb4E-HHy6-_ql-z6V60Hzowh7ou9rzaTPkT53LBltOEJit4sGLPAmciqOahGzAKqPTm_v80SVei9wPz4f2ChkkBbiskHC5V2kkXyNMmjRct6SX-sp18kVfw4keyn7DQcUF2Jm7A-KjwhM-_a8lRdBpQU6LIunTFhE6Ul4Ql_TA54w6U3HWl1ZNIXx1Yw283zYV8gphvbathbgVJ2XI-rlYoW9iMovZnAm/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6096777173089848116&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJE05OHdMvCw0RNAu7bIkanFQ.jpg"
       },
       {
         "id": "ChIJ86nGZP8nCw0RU7cpw2LbAAU",
@@ -1168,7 +1224,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ86nGZP8nCw0RU7cpw2LbAAU/photos/AcnlKN2DrfYFwfyLcmpLrtBYQ3glWQDD-rYox-Ps0qEpUJlp3JBEmnMBVsJXUVM_2Rg3mPgQPzc43PN5bMn4D7HgAaYwrlo8xCVNlOcnN_MVnaN7pfZyaoA47U9L7osOs8beZxgj6FwYky06ZGH0YqSqSHdf3lrbkRhTj6az4gKoWZ75nPWreNBkUosCEd0eI6_39tRuTRNlFaBh2BT0yzG-EJhM4xL_eEZe0H4IxSMZrhHszx6bLKZjh5HVKM7sDpuuoX1PW6nqjcCWctgt_fGcxgZDX9k3Q-VDaOme6MQ-QxU4-Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=360529187417208659&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ86nGZP8nCw0RU7cpw2LbAAU.jpg"
       },
       {
         "id": "ChIJnYziIcgvCw0RFS28sK9-4_A",
@@ -1188,7 +1245,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnYziIcgvCw0RFS28sK9-4_A/photos/AcnlKN27MU25ml-cpr3pG6HujvgzCQK4bQQurvI4ltrPFBDX6GoufOdvvEBVH8_IypC9HoGaHxd_iDdBlQMU7rzvgDPE7-hB3lSVt9WCbF_odDpa0rg3VUKxwg22liX9EZYveiD479XgLGXCPCXeQIGzf0-eHr5ZXrGG6246GeLsh2Z2u8xmdh4RPg8yqzEdMuKnJJp-r_HXlouw51gKs2YhLS4ih5kS0cg8cxSTsqEy6mJZGY_8yTtAL35W0QuCVaEIFahHTEvHueIR-HoWj4IyijLto5OiAsIJrYvWCGnLOCZsiI22dtVL1uOowY3ZCLatB9rRZJSrL4ZhSMWLG0B68V-lHDaMdEixUwBkvTQuZsSinidkTGBb_oZXqWP9VVfPW2bSw2HU0_PowHJ5TSv18Zq0ZP_Me0QMrKbQLvEZU-G5JPTVOLQmq07sx5HM-0EN/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17357856681865522453&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJnYziIcgvCw0RFS28sK9-4_A.jpg"
       },
       {
         "id": "ChIJsU6IGRkvCw0RED-CnPl99lc",
@@ -1208,7 +1266,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJsU6IGRkvCw0RED-CnPl99lc/photos/AcnlKN1uH5UMSA9JPKWA_Eg0ODqOTkrlEH0rhfzEkBgoEzcERZ5opcuVQ94SsbM9rOsG3PQccBHeo6y2W43OXTzb6vW8iwLFlA8HFcW55o7pZ-PtNVvKV4hn5xH3Q_wf8fBEYfrkbyk9RflUJ9AYma1s4tDv6mF1ANXFl4KynZu8GRLLTFBIGioqr1JaGqPnGyRlYse_Bhm_YCVIdsnMtHmdUAtX1gSJYi1vMfkC-iErbKmaaBouHdspD1b11En_ouGyZ1rf7lKxvxIkcrbHNbGy18sNZXfmzmW4RmgcPMTBto0ktGcJ68mwRpwYCryCpILMza009alrgofrwoLZ0vwRAHJBZoyFgQHmrny9bogwz4mlZHy-FeNGOXpqg8lqdWe47hKvwjfdld9uyAOtwTtCrvZUwz-ibquycnYBRfDwGRU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6338392036596662032&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJsU6IGRkvCw0RED-CnPl99lc.jpg"
       },
       {
         "id": "ChIJcTInwQYpCw0RiZVJZ4MpYhs",
@@ -1228,7 +1287,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJcTInwQYpCw0RiZVJZ4MpYhs/photos/AcnlKN2eB9X0m0avUaIIpjhCH92aUsPXP-f4z290Tup0BFeQalcu6h9gsRkr9D_7fmx4YZr3ZYsOH5OaM4TLlSqLjBmEYThAlNQjZKBjUcAypOugen3rldQLEd1Ss6XYPI8tEsynLAkB0nCB1aSBFXdF9E7nyEyAqpZxQUfUHuYv-LelcJ5jRegopF08jkbwQcMoZvmr1sLqf-X3OV6L248EH2_Qxk7fH1xMBHHmoH-OBVKvKcGYVAEnz_sM27FvtNN0ZwvZktb-IhhsTRXqn9hYUI4mEczxCnXEb5jlLLyAq2TPSy5OM5DvpTX0my0G_n8r0BRItX6KUGMklMO-te5IrxzalbUZPiX5AONJHGZNec7XG_hiz_cA0NP-P1t75eNwEz_aPP-dNvj2kR-XP8P2JGY-UlmYvdS9EADifjyUHO2NTw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1973185231092028809&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJcTInwQYpCw0RiZVJZ4MpYhs.jpg"
       },
       {
         "id": "ChIJH7tF0A8nCw0RM0i5r_CMdvU",
@@ -1248,7 +1308,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJH7tF0A8nCw0RM0i5r_CMdvU/photos/AcnlKN0XAWsy4be5y1-4P0pjrJWKd01ZWxRR2n6ImYkKIMD2tLlREphbKosIjMbNoCrJRVA4LsilC2TZRObdU0Q1QbibaRqVwKvso_cvORy5HeDa_FMH-Rdkr9D_1hxYuRwEGaF06Xe5bf3a_5_7oyofF6AWXGw6VMyKaSmImis_rwl6XZLZNNkUDJhVCnHwc2NbodbvkguMyvmJEQp-YhDJLYlTawpqxCnfdUMgMGlU7fmuVzUzsAK5yS5jxq7TKASVwFb5OB6-LuqeGcxdDBwTIDlmZnpuhsmE2yEI8NHicmwU1__ibi4s7aQ4a-934E4EKFtFhg8OrsY8T6aJo7kQWk_HoBkGJXjOEDqT9vuQde89R9BipgU-0D5C3Mo2t6qXsFOu5tlumlIEOqH7aKICDxIex2mdyarHjcrWsVCqGOChvKs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17687479551912396851&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJH7tF0A8nCw0RM0i5r_CMdvU.jpg"
       },
       {
         "id": "ChIJ1dcXvYU7Cw0R8eCabvvK2BY",
@@ -1268,7 +1329,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1dcXvYU7Cw0R8eCabvvK2BY/photos/AcnlKN0Qsqls4-UkPV3FCsYBHzg-P0YDuS_3sZFxYnRRP763-QaEZU2HSelFcdx9r00HJaB2y-tnUXeJ_4jI6LHqGjAhLGIC5QlAcr9Fj69ewgLJogu83mtQ7w_3eTj9c7uG6e66MaPEQRs2Cp8H4pT1bAp_B6qbR0FlDRdic3j_Mr3-EflSLKM9UP5r9Ljtpv3__ZPJ682OEyWJXWt87qoYGKJz3GQKoAt94c0MljdfnpL5xa0-bHWpw1ZnNRJXB2c38xibbT0h0Y2-ajNboaN2484dwn3oTWeUvf31Dz2zaTp-ZnlD0mz4X2Nf9s4D3d4XZdnOp5a0T83Fq5wWq9kaj_dbu7NMqNYwKjNLJuJ6lA2kGfhifIQuC6L8RVDg5AWxFhV5MQq7WIKpQhI5Ta1X9USMT0XQ3M2XnTBKbQvBgb5pWG4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1646288845045162225&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ1dcXvYU7Cw0R8eCabvvK2BY.jpg"
       },
       {
         "id": "ChIJXU0U8mAmCw0RrmRyJR_uWaQ",
@@ -1288,7 +1350,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXU0U8mAmCw0RrmRyJR_uWaQ/photos/AcnlKN0UN0Jk8BarV6YasB5y2qH-wtB9oFKSuu6LpPeHmjm9vI1tVsOQYT1oiNU7IiaCPkMA6eKBDGB-mPg5cLgfs8vYbVwIZWuFDxS6Eyti1CybB73chtSjdsEIwUSSAu5hUnlalVimEAaLzYLcmMDNBEa8fhDmR1m70Xjo8S7YksiO78sHOJm6tYa_9xKOwXqptQHSIn9aCT6IA3t3rwncWuBqSVrXn6Y02qVHfIVxkPPhP-rfrKsD8P7CBlXD--6sQ6mzex2zMgEHcMpmHh67hGWxOn-pg3AGZss8xmA2z2cREGkQddtW4fN2eKTx5iVJqoIRzEpklkPgm31FIlzblAcJJTFa1tUmVFmvjQykCi616W12x9ytosDQYijnHo5KJ74y3nbvosXFQP-J09DpeCgHotDQw37deSpIPvurrCnowAB03zFJKOse20Ng2A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11842758512687080622&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJXU0U8mAmCw0RrmRyJR_uWaQ.jpg"
       },
       {
         "id": "ChIJGVsIKWAmCw0ReXc1r5M8yq4",
@@ -1308,7 +1371,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJGVsIKWAmCw0ReXc1r5M8yq4/photos/AcnlKN0bCXTjpbogz3XVpYB11dQovqvM5Zh67kl68I5bQ72XgLLNff4pJg0jRCcKp_-oW9TsJVGu1PVeUhWP8pO7nnZcc1vqMl2DVJItAnLSw8PljeHudHZQ5X-AIUj_-PyOr-2QHwnsdz3wf04uG0oI4xYjaGOVxPNVh9E7ZELs37owrYEWOfByWgNTSOesDonkmnH1NMWV46wOOvi5FLr8eeftl9-Zpjozl9-sfYP1MjK1s4jUVNNjktwrHVkcEIDQxtWUs6xfPdfU2-aKPlK4pPElkn37fvnMFe9Pr0AuDqe99BqYK7Rqn7wWOj7uB_IxMEvFRkfGD9my5Nc91HyjQ77nguNZo7AZDt5ETlur1rL-gpNm3ONyZ4_K13T0hBYZfFVLIYCCkGGyeYbC9Sjdr8NykT5rmBu2-0DPspEn5_w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12594945912892389241&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJGVsIKWAmCw0ReXc1r5M8yq4.jpg"
       },
       {
         "id": "ChIJz9Tcet8pCw0RC_GRjKFIc_M",
@@ -1328,7 +1392,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJz9Tcet8pCw0RC_GRjKFIc_M/photos/AcnlKN2kMwRT-gc04hy9SNlMuhD8mt16ar3GgnC6Pow_u7uICQTkVd42xecQaCTVDK9XrBAVcf0Ev5SF6Qr5RBM-0J_mvHqwdbj4SR1Qp3bvJDRy-iusPNwxrg_Tz6FsiF1exHa3mmy2XG-aGYicP1d3Kwp97BcCyDb5LQ1MKA59kyeQ9fy-zID9xG84a5GlMwh2AU3tn5gUebNHSNddD6ApD6-GLRRBsPgPQxAGD9bTfIhM3Ix7pVE-xQKRnfm3UZ9eSCs776_HqbeAEytLCNx_nUkGUSQjlRYshP2Ugjvp5uDYBIsAT5is_7Pr1Jwc8c_fZkMva3HaPqATDcseBcTYarxC1-L5D9Vcw8hQewGwe8EbRfbreABnamw29FxR81RXdSKwgd1rjt6cCbuKRfW9XdHaFxbudJJqEBS58-AAw7VQS6jWs2yPSGKG09Va6A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17542444832223523083&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJz9Tcet8pCw0RC_GRjKFIc_M.jpg"
       },
       {
         "id": "ChIJG3nDk5IpCw0RsK6-HhTEajg",
@@ -1348,7 +1413,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJG3nDk5IpCw0RsK6-HhTEajg/photos/AcnlKN3xj27hvx0v4F5uXdU-Bd-7T5FeX6B20pdS8oNsMbtVRliAtNGPGrEYiCFxZ9kqG0peAXAhXFUXABWwRLMRNqO4FYBjUn-A1-I7btH8swjQi6_gFd8gqkK0WvtkoH_29c4iv8j5JtJi7aXQ4SFsf-abPS1MTizfteYhtYazqkKs6bo5fHm8hxAxRamyhSZxOOrx_WMxnwBxDRA28yVwAFOqHxN0M-Oi5mK-m1MLrzJfWTgd3nyELV_5ukPGkyq3-vhHBwzcyzZ5Q1-uay-iva8qBNyYHv5jWwZMDjfKe-lljYlHrKqegd9YAu1MiyIk8OvSwiTAz0EgjRpSlPE1KvT1WxnND3-ta2laGnza83lFfmtxn_PK9vcUNvl4eds102HB5WuHns3ntK6Tr-PUT6NxtJ8Nj9ueuhzy5bjHhXY7EuTk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4065277204349497008&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJG3nDk5IpCw0RsK6-HhTEajg.jpg"
       },
       {
         "id": "ChIJU6nLePKODA0Rod1PXaFMiAw",
@@ -1369,7 +1435,8 @@
         "websiteUrl": "http://tarifaadventure.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=903055981226745249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJU6nLePKODA0Rod1PXaFMiAw.jpg"
       },
       {
         "id": "ChIJ1ah7XAAvCw0Rq4MQ6dce4qY",
@@ -1389,7 +1456,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1ah7XAAvCw0Rq4MQ6dce4qY/photos/AcnlKN3fe24H4S57Oo36mYGciFUKA1K1cE5k8ppMJxwI5Ls0OhAx-WD-kezeoe1qKYy2K2BYk769ey2ohMUfJgVi2_Zirr1tsu6AtS1c5Y7h_hjWQMqBljLbChL8yen2mkQEA1LRDNj50DdOtpOTi_qbAGwK8SynUYh_VKwKTxP2NsmBA_OPRXOZkWAHFoadjpB5PdpARZ7zyi7QDKd9iLeoivgRVxg7Tjc5z3qC4dtqvhI2m0vjAsyBAc9kZHqskbVOypbn2L3SkWm7tqZINkrDE513pFaBfxPM8unogVJq5gQgWQ6F6bYqwejUwW_HOoxwlNJqx1WadSgiHpWoHN0OZG-GcMSFcYoKPPpHvhmDAYNepnrEzaiL7B8zad80r7FXamiu03XfBqhKAuC6UTbVvlkeUj0nmDku_xQ3Vxd7GVc9_OAbtRmRERGExFET-SCb/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12025207867709621163&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ1ah7XAAvCw0Rq4MQ6dce4qY.jpg"
       },
       {
         "id": "ChIJj7EbUaInCw0R49Ayk9vjNaM",
@@ -1409,7 +1477,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj7EbUaInCw0R49Ayk9vjNaM/photos/AcnlKN1B95HaNHrZwlk28mHohif83fGZSDglkGmEeqNsgF2v8lzzxONuvXszVulHicuxs9U4mQB2LvuazTg1Fik1B4Ldwm4NRO1nW9DH7pSTFnt-RslNkl6CnP5clDnREWzkymQTN8ZKbrbIwJNNgVU0dF3yfl8jM9WooJqFzMiDY2AWb4R6qSEv3F-Lxwv-uWrNqI_dVCAn2_pqJEU0wYi63mge-KWkMFV-eaVany2IuiPN_mFgmNjc6oByzQFdhSzRFZt857kGz9U_qK6yQGY_yJUU7nYF0E6qM6X560Jh-9jZ7OQ8kR1YCseh1VLbHM9Yr8T-_fp8tYsWPsYJzVPngzxdg7INb3mTxSj1NwUC_6doTZjEhxYiJjQoDh82GZngeL0831jbNEdg7Pz7yws9pXNLD0ICxQenr9pJjpFOgOiIIYRC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11760556534154842339&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJj7EbUaInCw0R49Ayk9vjNaM.jpg"
       },
       {
         "id": "ChIJt4ZSpGMmCw0R2EhZ4DePZ_o",
@@ -1429,7 +1498,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJt4ZSpGMmCw0R2EhZ4DePZ_o/photos/AcnlKN3E_7egn5gNhsOmExeBZjiW6fqKp0Cd0QKx51qVeze1LAzSdJAPzT_TqUl-uXXaoinH_10r4G0iec3KtZ0m1-iRHVaFPWGH0qPkbIUd0NkppX_ZOpt8yoXULMqPSn_TYMzHpKyceDoS5n8nM3Gwy_59Xp63vpaEhbLzjGb_MFwoUNnz_Yh9w8VfmfctR9cLfzRtE8ExHGYjRCsa2XeyLO78crZVcM1O4Ig0BO-iaEZsg7U0vzzbHbchvwR6ZD-kkhwuBIOr9_te95mcf-0Jxxo7szntzqQbtZ1EIVZ_er9tpPY4KUmtoi9g3tqMQWaapdoQBFqbOPqFQslDuxt0iJKKU_dkJjUa24EUNj7S0bnaRc129irx4_mCct7E-1C2CoMpjBVjWLWLOSHhBoP7rzbLDByJykOgaakpbsIiULnOcdQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18043547902233102552&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJt4ZSpGMmCw0R2EhZ4DePZ_o.jpg"
       },
       {
         "id": "ChIJ7_WaH4kmCw0RNuQ1HoUBQeA",
@@ -1449,7 +1519,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7_WaH4kmCw0RNuQ1HoUBQeA/photos/AcnlKN0z61PZmn49Dg0QDKR-baUYXdw7hVzRVVKqBA3o0IKZalv7jmHHGMT8HaAbN6r-XS2ZWJPk3rpBOItDC9U0s07oTty1xaV4nEYJwwtu2kZVB48HfzPC1cKCd1AZQOxaHWUjgU9SubCafPMDE2izaqaK-ofFvLO9Ngkih05xb33FMgvZiXWRoBph_0Su5iLQtbskjUryhRkdPEUMSpDmZ2K5J871fD0yT-HSmwAVcbX9KByfnHkoAEA3EhgbSFBnyeTg8sZIV-omwS-yXL93wSUYpQhNQ81frux_xuvzFjUoUAVRf6LvGwbXNdgz8qUUa8Sgnf9HIoc4V0_3trwVjSybBBzmkM_dYt9aGykvlWx6GIkxdVn282Wxug5jaT989NIw0uhlrNnu1Qe0WNhWQzDa2UI1pgizBUjjyHzABH-jkfK0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16159198609231176758&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ7_WaH4kmCw0RNuQ1HoUBQeA.jpg"
       },
       {
         "id": "ChIJq6qqqnohCw0RvIUNYFzqujM",
@@ -1469,7 +1540,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJq6qqqnohCw0RvIUNYFzqujM/photos/AcnlKN3cGfsIOk5BRB_fisvF5u_WusZYAQfgSAGpz77x70Ia8nViRi4lLkc_kachFxL9VcOMH2zc3CEOZ0i1HhpBS_YFTkkRkmslmg6rarMqdoajMT-zZU4Bk_4I3J9bGOgOs64owXPk3bCcL_Bk3KGC2hbnoZY9-Et4xmg_Sc4Tary5D4l_AVPa4ujavl6MdKLyXCV5DaHprihi2hWm7NfG8Cg4GV0jxfOD5ZztYBuqKzR2xVx-swtJSounbKciqxAYG8gYyiivVt4cOYKn1U_7DvIS5xd1kI_-WHVFrf9z7UiH2qpUW2Xwvo-zapXxO_5Rc-RMI1TAj-RwYd1pH_9iAfXFWakrUjwNtZRIHtKmMspxc2vlu00m002GkN4vz_4sSOcqHuAygG6YMXoZ1-c2QB6zhj7N8XgI1_18Zyt6pJko6HM6-giKbFMnE4cmGkHp/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3727549324071896508&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:29.816Z",
-        "updatedAt": "2026-01-23T16:09:29.816Z"
+        "updatedAt": "2026-01-23T16:09:29.816Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJq6qqqnohCw0RvIUNYFzqujM.jpg"
       }
     ],
     "cultural": [
@@ -1492,7 +1564,8 @@
         "websiteUrl": "https://www.stmichaelscave.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14795483597377285813&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJPWUCwnO_DA0Rta7KJfEdVM0.jpg"
       },
       {
         "id": "ChIJlS17Q1J_DA0RfwlFawO5Dxs",
@@ -1513,7 +1586,8 @@
         "websiteUrl": "http://www.legation.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=1949980588010441087&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJlS17Q1J_DA0RfwlFawO5Dxs.jpg"
       },
       {
         "id": "ChIJeyD4E2cmCw0R9Qtv9lxHJy0",
@@ -1533,7 +1607,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJeyD4E2cmCw0R9Qtv9lxHJy0/photos/AcnlKN1GPQoa1Kpgmv_hlZpgzFOEaHlD0incyGnSRLqlM_d_DfNU8q_pYVRNaGxf54rOghA1tRcd1hFddm_GItRq4Ngb3DE6ZuUdu_a1pjszzVz6G9B8FUlATnqtizsbuiT6E1ou7daSnfPEDhoGBMaoIRy4zjhQmeTdLDwyQvhQE_yiO3WaLXAFmshlgnSpmxAFc7sf9jzfo5DD8NiNjNcuDOI1WDtVuISzzjO3SoCUvyQ8jDh3tRRhx9WXmfvI4B6kw2S2NNq-lGXAa2Ra3SY6apvrspSnK9zxP6duKAfkxaXjGVu9j2crnXhFFbm5F-3xuWn966WmbnL1cRYn1oTbvblSvanhW_JE9awSiUn-KePlQEdZkBi6R0UqMX-zxc6F1k3cxlDIRvrLRFQXK7wrov-iEpZD0Y1_HXx45opQQl2cWDw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3253647720395508725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJeyD4E2cmCw0R9Qtv9lxHJy0.jpg"
       },
       {
         "id": "ChIJ5_w0KdcnCw0RgP-tD8_7dgI",
@@ -1554,7 +1629,8 @@
         "websiteUrl": "https://mohsinelouragli.art/",
         "googleMapsUrl": "https://maps.google.com/?cid=177606102067576704&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ5_w0KdcnCw0RgP-tD8_7dgI.jpg"
       },
       {
         "id": "ChIJq9BNFFcnCw0RyoOhNe1D-5U",
@@ -1574,7 +1650,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJq9BNFFcnCw0RyoOhNe1D-5U/photos/AcnlKN2CCMAxgX0IkwFn_ds-BSqpGDaGf4jHYPcLK3dZgo-kNVFWYFn_-lY9pexSM5Q7m4UXvIZUb-XzUqqqIL5dertQJnoSMCqEhb0fShTr9LseqZsa2-KmlbznrX8fxLKW0gPv2hjhm3f2PmVYkt2ssn8vjUTSlzw_7annXwumyzh4Rf77VOaoRPRkSqqVMg5cHJ2CAMJH2awdRBC2AN1D_2SrSAAWsNgvKC78h2DWk6tztdgXAZUPZCMKyI2VXfBt2lgBiTzhhsnbDnY3HvgwogAqaK6jocU4ni0HY9-h2gXXdw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10807306416891724746&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJq9BNFFcnCw0RyoOhNe1D-5U.jpg"
       },
       {
         "id": "ChIJoYb7C3QnCw0RyIc2tYqzVRk",
@@ -1595,7 +1672,8 @@
         "websiteUrl": "https://www.instagram.com/lakhdar_art?igsh=ZWM0aGpwc3ZqazBo",
         "googleMapsUrl": "https://maps.google.com/?cid=1825562632295712712&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJoYb7C3QnCw0RyIc2tYqzVRk.jpg"
       },
       {
         "id": "ChIJF2vZeAAnCw0R64LQYVZUlqI",
@@ -1615,7 +1693,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF2vZeAAnCw0R64LQYVZUlqI/photos/AcnlKN1N2izz-QIhvS0FzfOYFFfurT2qZ3-HZgITtebgzxeuWXE4WzZ_rwRwVnUKFuTm4_U9fQn-4Unz4-r7M_TK7bWNHwx6CD2fhxGCTtDznPd0YAxlD_YdabGhNZPmcFYWi4fE2fMZkP4SWgr5uKX9YLmIkKvhAdX-DqQbkuGgl_80xx7ZfIiw30GQMycEgspJIWN-n4Xa6vJCTZWGHdU1XXb19QedebWiQvU5tWsCzjNdTsQ6fUFIcKKPJ5Hl9_PMFzBFtRLCbi_GmlFm2GIRX4yXM3VZHr4o5H8QMgn686F3nXz6ykVhoIJf0zmSDNYfPTWInf_xIkAO1Si1W_aqbjPD0XsI6equ95qdiqkaYD3--xMESLbOcdTdqCn8v4MR0lpDSixPCu1-_kL7ky-rsb5mp180lXSo2g1v0a0t5OHdH2WYUrOM1AXksgU-_A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11715644210635899627&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJF2vZeAAnCw0R64LQYVZUlqI.jpg"
       },
       {
         "id": "ChIJTdybdlMnCw0R1OI0drfK5n8",
@@ -1635,7 +1714,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTdybdlMnCw0R1OI0drfK5n8/photos/AcnlKN0gz1YQBXGEIBvnJCIHY8XQo5CcXh5IcHlDxFWDypSlJBnYdDNmAN1QyyCJiHwXRrQm9LB8LwQ18n3D45y8kWp_pbxT2bRSMPgh-0ep70OxW7oCGFiNGyawNEasNTMg3vdBbH1tadRjOOyQQ__3rck5dP7-SrKof4Ax3sblkC8chJNSHf14Yw_IETRK8OtlDEkTYF0RWz32xYlc-iSF1D2-VZi3AMLjL9_xtHLIBNeLX1gDGtbHAuQp-t3YJTM5gkK5KcGlzynwihNPaiUnzxikA6X8zjEwccEuJ5X7t1obVg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9216276576771302100&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJTdybdlMnCw0R1OI0drfK5n8.jpg"
       },
       {
         "id": "ChIJNVZ8v4gmCw0RXL6AnEIkomw",
@@ -1655,7 +1735,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNVZ8v4gmCw0RXL6AnEIkomw/photos/AcnlKN3OVVaKIDickAuHgnTtxXgWAXz2arcWEXkmc0U4Y00MaQ96B6sYGzOSJZ3rGaj86tQU7u4wMoUpWAl5TtSHV3h8OWEpCD-HQJQJj8SBiUS2HKYKB078eyu_xHPp5GEMII0dhkR8aqpORM50mz6WLvrh7XfkNiDmebq2lEGN-njM_2ckKqWZ5bCEK-7-cTWVItathK0SL9_6NuCrkU4FUV5RJpAoJC0yJKYQQB-8pad3wkMoYcyvPo_VywnylS62plUfhWp6gW5izi-SXTDm5yoSifvu6p3wgY3bK05vs5ACsw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7827858970835467868&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJNVZ8v4gmCw0RXL6AnEIkomw.jpg"
       },
       {
         "id": "ChIJzQYPdJ8nCw0R4oKNW0lcRdY",
@@ -1675,7 +1756,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJzQYPdJ8nCw0R4oKNW0lcRdY/photos/AcnlKN3NwiRa8wjvxxj-KQo1xWtgcHEALWE80uqy1qjQijaJ24bdk9UXnrHddtD1CMiL2HsQbhhuniiy_KEPXYkM5gNvGUy2_OJi6hWNwSUs3NOoX-mkSsUkJfU5-SXTfonOZWOISEamlPATlanyBfxSYjUL3N-dP_m1CcS63xIaTKloSvWZZo36Ulmj_S7D5uqRvBaD7NtzmUqWb-Dq4iKH8NiEX2Z4RyhFdaeMzf5hd9GwquTIYB_QqysEkkvRSqGz6vt8js8nyH3BO4bYq2dDCERosCGqVANH172W90TAprSiivquO4hTUNIz4Gnx1jAYJoPjeRuLMUmiMVv2nP4TzwQuKDDhRanTODcXfLJVaM6k7CYbXrfyBv4s_PT-0BwnTs4bqukI2WnO9vyRbzeA048yqQbnXgxgOvQ4CaUFbfiPSQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15439848367647982306&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJzQYPdJ8nCw0R4oKNW0lcRdY.jpg"
       },
       {
         "id": "ChIJmXzkeygnCw0RIaGHohFO6w8",
@@ -1695,7 +1777,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmXzkeygnCw0RIaGHohFO6w8/photos/AcnlKN3hnWCcBVPVAmbAXUAe_azA09ojDfZ3FePAeWzH_ViVxnSNP156Ncy9GJ_nmgOL5HlXgAvBrU32WOHP_olrXu9-KbSi5dvS8tcP8C3Im5gAT_OM5Ny8YzqSFD87ljDlWkSavljAKogAky_nHcI73_41ROLv4cLMw7SssivaWn7B35HpNo3fDmwh6hAaPRaQze9s-fQAQ-q710fNYBSGZ84pKg8qa0ltHuVPAHLRXUF3T3OaGYvwL08DxZ_Z2-cFVPFt8C3c_1WZQbW3ijIlhCRCb7bkyGcNvvVUcpYE5XkQxA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1147096367744131361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJmXzkeygnCw0RIaGHohFO6w8.jpg"
       },
       {
         "id": "ChIJoR6ZAAAnCw0RCzTZO1XKOcs",
@@ -1734,7 +1817,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYcuxVgAnCw0RdSPEZcq9h1Q/photos/AcnlKN00UKP5ii4wCpf1ZGnti6ZQ3qsw0U2gIi4vq3rZNlCc9E_0r7oWCN7iFEwAPEpFaO536eKaT6cNm6yGvjjDPdyscXijYcwBCbZjMfYSuE7aVlHgL4N3ioDG-X0ax0nvnFCMd0cfWIT6c2wNmmZVVlgY0922NXewMVBtVxOj3lDZnX43Fvisloh89KejeOfyfeBeovjj4SwWFvJdaqrrQmuvWNxlY8YVq8SSVzUTpVAgJgjmgktEABb_i1dq9CFm5g6p4Gr6vTP5H5iDSv5u0jshPRDllgISLWIqk-JC3EM_L3VvmmMzzc0UsQvVwtcDqehGDHrcszPYhsEs19l4lN70dliVqqaKt-u-9KP63SYKL1d_QIbDc8oSM5Fg8oA-eo1RU9Ulj87_rTI6kgq0q7RWaFoVvbpHKdMUxyZh3Dtuu2e-axrfCX86v5Vj10ks/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6091045698030281589&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJYcuxVgAnCw0RdSPEZcq9h1Q.jpg"
       },
       {
         "id": "ChIJFXVqd2gmCw0RDxfnseso08Q",
@@ -1755,7 +1839,8 @@
         "websiteUrl": "https://www.instagram.com/riverside_artcafe/",
         "googleMapsUrl": "https://maps.google.com/?cid=14182724644286961423&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJFXVqd2gmCw0RDxfnseso08Q.jpg"
       },
       {
         "id": "ChIJQfNAbG15DA0R-7Ow8psoJ4Q",
@@ -1776,7 +1861,8 @@
         "websiteUrl": "http://www.donkeymuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9522624587354911739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJQfNAbG15DA0R-7Ow8psoJ4Q.jpg"
       },
       {
         "id": "ChIJl3VmTeknCw0R6ISty3R1EZA",
@@ -1796,7 +1882,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJl3VmTeknCw0R6ISty3R1EZA/photos/AcnlKN1ZRtenpV3T3S5HfcQIjGbj6czeRWyKBpoX1bFoz-AIhtTMoad5gWvH1wW1ps-ZQZ1tPCwbxEUGp9PzfnFyxg0vQqZsKogZ3Fope_ohJ1UXtqXyZo7l4VVHujHWsoF38OGLmORTKoM4Up2fUEatB6UeR7W3-OvTP6SEb1jDVfbOaJ-yq1RQ1LsXPfTj-Nb0tzh1S30meRSnOYlBYeiLkgHqCiegNFxeSykQfMFALnG5-MSnxGdqE8SQTsgeIVtSfUSsJHHXoasIvS6Ne-wGW4lBS6gJ9dD3caHD81LkRcr2ZtgohHB_m52_LiTI-dhd8DLwJRHwfEsYIrXshXOqgKyrpj3NZd3NcrPvON0lGpQb3YHFvAxcb3zKUKt2890yvEqjPhUdl1MnN2kwCjw3733ZcPIa89OZ-8_x25cl3vDPf8m0m5w-zC5w_fGLZ45J/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10381207760559506664&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJl3VmTeknCw0R6ISty3R1EZA.jpg"
       },
       {
         "id": "ChIJM62Gq_UnCw0RUap6o3Fzp4g",
@@ -1816,7 +1903,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJM62Gq_UnCw0RUap6o3Fzp4g/photos/AcnlKN1h94gk_RAUrEwTJNjEQYxcfg6iK84ecwPtRGfX92XL2xLgn-qJ_1N2XfD6hNXUG9uenrmzjvSgC7yeNhnI0t3fmywb5H2AmR0mmRCIpGXC29iNhii6NZt3H0bCc_Opv5Isz-VQhl8NqPy5vch0v2njcrgLspV5yrI9yKqhWqp1nLDGep4DQN0Fao8d18HIAJvko5eIkNP0_CQya6GOW8xHQ_N6DG1i8YJlSZo0OoJ6m25Z5VBmdOhbE6ewqXLZPJhi34uCsaAhlmBHGYcWLoiu-YTFVrNOas5zxSebVzqwn4_QnOGKZQvMG-Rcu5BMN9z-EpooLv7OfPjLs3OeNbb-2fMXiuDkR_am3Ii6YSJj49nO30KOhWNtFksTY2upZynktG0gEtK_5KqDNj7jaCw_DgrbYoYB6_NqOy7-Ukn8VcQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9846966042180102737&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJM62Gq_UnCw0RUap6o3Fzp4g.jpg"
       },
       {
         "id": "ChIJk-dfXFpCCw0RxDn7IoUjjxc",
@@ -1837,7 +1925,8 @@
         "websiteUrl": "https://fnm.ma/",
         "googleMapsUrl": "https://maps.google.com/?cid=1697614639266478532&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJk-dfXFpCCw0RxDn7IoUjjxc.jpg"
       },
       {
         "id": "ChIJdToyo6d4DA0R23xwMiJ2u4g",
@@ -1857,7 +1946,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJdToyo6d4DA0R23xwMiJ2u4g/photos/AcnlKN1sk6vSIQd1ptW1gCRKaR-vDxuCV_UA486FW-I2BhTdqfjHTEzwN0Q4Y4_agWY0QVAiNAXrx4SVulGN6YY-PlcypjS5byM0Csi6DkfnFaT_uscgu7P71A5zcH2ms5vdYH0nas35gr19Q0kJ8ty6XzP_NPovHSq1-obOrVjonzY-ywKfbQTvx68hoLSQEV_OTd2eyIXot3E_ZElwJ7QcrrDxLna807j5BNUYCnUwNaYzSen7aEzxuEJvTfoVXxOA-2pYZzATcSIFKi51MrIQoshnuyWZKpiYmorAjN5x1xrcYw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9852598499050290395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJdToyo6d4DA0R23xwMiJ2u4g.jpg"
       },
       {
         "id": "ChIJ4eJj3WAmCw0R92IIVq0lN88",
@@ -1877,7 +1967,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ4eJj3WAmCw0R92IIVq0lN88/photos/AcnlKN2i8fKbO7DkDerdykAKz4lO-bbpvd4vBG3KabP3t4X6qaQf1fId00S9pAVrGp6Dv6fzAtVfOWHMTw3N6Mpjk48iCBTgTOwUdL3O8Zv5v1smQe3eNwsyC5TCdLsaTGXjkaJic46dkeKHdfiqsdazU2EMdIo-oLVKWkzmKJxFDVZUpgs5FTDXe2sJ6PwjYtbkmFwRHdKf-iGHoHkPBcF-OtWX8t5oPrV3iGAMxlqtr-7SdLgXeZ9m7DwYIWkOA5FnDV8aQZSZoLstE7G3p7YxgnvnoYpFVqb5r2tsCoue9rvmlDn3kZIZZnAnOMVd3JjI5odaR_57EJDTKszEdy_e7-pDhTE1Jty78PoUOAC1Zn-5Xdd3NMs_ocTEEc4SiV2mv-6shYcVvP3Gp7In2RGARd3iZWAriNgW74djKQKpvy6hyODs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14931444515973128951&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:31.277Z",
-        "updatedAt": "2026-01-23T16:09:31.277Z"
+        "updatedAt": "2026-01-23T16:09:31.277Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ4eJj3WAmCw0R92IIVq0lN88.jpg"
       }
     ],
     "relaxation": [
@@ -1900,7 +1991,8 @@
         "websiteUrl": "https://maisondhotesakchour.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14831948160958203932&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJvwkFJiIsCw0RHAjs9ESq1c0.jpg"
       },
       {
         "id": "ChIJ_SnqRQAnCw0RGFNeaPDhZJo",
@@ -1920,7 +2012,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_SnqRQAnCw0RGFNeaPDhZJo/photos/AcnlKN3hoGzqaodU4gKc1BEJLI05KOWzcc1gSHscF-0qKMfDsZrcH1mjsewag6AkKVF5qmhnUNfqfhl3XMeDG-VbybPfInVOQEx0zI6ZbhySEBrwj3F7HBLcKy8PQifhNIVE7T1A8FjNnxDtejFPUpweHi2y8qmui_VtCdq4GwAlbeMrO2whZKHO2SvWHuJ3vXmq7txYExGo29QDYQMtg6MER5jo5yc5vV7fRYgHQMDv3CG965NHk_swxEm6d3xZbWYgyg52u8btnPDvrv0TdACkS8TKgjBCW7XNWzPlGPwf17iiFw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11125265402171380504&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ_SnqRQAnCw0RGFNeaPDhZJo.jpg"
       },
       {
         "id": "ChIJeyD4E2cmCw0R9Qtv9lxHJy0",
@@ -1940,7 +2033,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJeyD4E2cmCw0R9Qtv9lxHJy0/photos/AcnlKN3mf7v8LfcCTjrjC18Iy0XuW4gGVMgg_pq4P36dTC0Lct-rK0UW6HXJklnONhEo4MlZ6F3uD7W7aPQI9Ag26HFWEBFClF55-2lI49-m3_ki6MojInJD3f98j7h7jYapJPh0f-QxU_87jfzY4RZB31mapKYZY0HBCsD2n46_2ZJ8KoYuu4w6zLzKkOYiixcIBW8xtSiUjXC1qro2tif-nSGJFM2kVW-mQFiEuVLueNIQvOTRpamzg2CYyXgvltNnaRiQFVsj4sBH2yAVdGBZqJe8dfJu0vuN4HDLNHuLmh5P1ox8eqaU3Rnifcw_TM4UAkJJ1dUBISjiHX9LiAMsFfsqOulq3eFGIOcIUkySGyrq-5pqZymuK8EsD5pHvMx3hTLZq894LIrHWNHKyzPhojBt99LAUl7-njh4P68WUQ_ea3c/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3253647720395508725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJeyD4E2cmCw0R9Qtv9lxHJy0.jpg"
       },
       {
         "id": "ChIJ34o4iSEsCw0RlfAcNlQMKfM",
@@ -1960,7 +2054,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ34o4iSEsCw0RlfAcNlQMKfM/photos/AcnlKN3KSBilefJRECbFnt_naUH-DQ_svRs818mMSeh_I1QenuBWM_tVpZtkXQaKmlEboNqhVQzpX0rBI2KK6yaF-nxiNlI-hwUZhaP0QIPjdhxygHj_tWAv34Pqr6frAKk8jor85ngz59b0WjrGuLjOz-6IH_Sg5GeS4VDBrGkIsyxizAVoRSb00-nskxZjwhWvndir2zqaCRoPMKKkKXBBauo5mLG9kG1qc-LTFB3exi_1mDwfCb0P2brqw7nwj_mdvqjtn-qFJ1z8s79OqPd_b4eCgz8iU7-AbfJdzCBKTDRAkIopT7rGcwL1jtB-kZiISPuPjrkHX8HVa1UliuWicQ9i81lxO6CAGYucqBwIKvVv_EbfxkzJm4VINLgFi8R9Ltx0R9LNOCEDh28IH-bOHHoIZgISaSBDttPvV8bNuDnm6A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17521549381086277781&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ34o4iSEsCw0RlfAcNlQMKfM.jpg"
       },
       {
         "id": "ChIJUUlMFcknCw0RfKhHH2_Txxw",
@@ -1981,7 +2076,8 @@
         "websiteUrl": "https://www.tripadvisor.com/Profile/todas747",
         "googleMapsUrl": "https://maps.google.com/?cid=2073858627647023228&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJUUlMFcknCw0RfKhHH2_Txxw.jpg"
       },
       {
         "id": "ChIJnQn4NConCw0Rujw06aEAPWU",
@@ -2039,7 +2135,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnYziIcgvCw0RFS28sK9-4_A/photos/AcnlKN0ciMsW3IV71Nxh0KyzSDITSCqeR_qCq7hla_PlUUXkv1tGHwKWslQPmMumfee70z1HtEh4fVBrqAQJFLnNMxeyw3wlRFueBsHTphDwY9MuPjU3dTYP9jWu5JShjdTAy7FAdwJvGbH5sMTfscLy-pAOMyHMUZXtgOKNpqGMAPYwq6D3L5y8qVD2eOQ1iknQDmOyXYo44-0cEVTYeQN5hA7zwMfUv_T6yk8bjm8kFNQadFIny7xj56dJ8LCRolbAQv8slZ6q7N2dyKCY0UpB3tnWTWi0TbtvwFVKiUiiaoZ_eHiKyigmO1DJDSRUn-utld2m5zyd2Wb9cE9jmqBX5HJY7UZzIqVskWrYjmGF6zugLrIJclTnz1Lo55ThJbRzJBbb4APVzbmCOm3ncPLbzT3MgyIXDjYnXyWEW1mrHY6HgiWpE_ri9ACfr-Hq5fwU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17357856681865522453&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJnYziIcgvCw0RFS28sK9-4_A.jpg"
       },
       {
         "id": "ChIJyX6nJRsnCw0RswjhaZBBK58",
@@ -2059,7 +2156,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJyX6nJRsnCw0RswjhaZBBK58/photos/AcnlKN1i05dlKhYIN7YMLdX_xKKZIrRWplh977RIoSjSf8VKSJ82wXdx2rO0QMZ-9pp8WU54MSxyr5H4WwpeL3NgU4XuFUh0dpM0smftGFC_ZlhebQDvylbuMi5aNlb0raSeRL-Nv2b_gbC-d5vWmSDebEn7Pl2C3ePNoEEl2bnH-y8uDz1QnMlUtQ1ixAIFupTh6socRjA8oaNX-I9ph8pJY9M0K1ParGmGdy9yvfUfMGV-4IDguMfDwUlOivdTXwmj5zlU_-CALmOFALkg5SAS6J0dkrYg7JwPR1VFsUJ-15G1qlghY9NfYl5fP23TJXp6LI3X5v7iabABEkT2Y9AMGeuz2gmPbH_0Jj59gRY2FJFt6glf-AaPulkRLgBx7Ux_FB2dY7hnRWbFec0kGFUk52-zvxDzUB5ciBwyXYOvWoDy3RiVBeuU2u_gEPOlIw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11469332964536551603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJyX6nJRsnCw0RswjhaZBBK58.jpg"
       },
       {
         "id": "ChIJ4Tw_DNgnCw0RRcw-v2moGjA",
@@ -2080,7 +2178,8 @@
         "websiteUrl": "http://casa-voyagerchaouen.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3466268035348614213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ4Tw_DNgnCw0RRcw-v2moGjA.jpg"
       },
       {
         "id": "ChIJxVSC02cmCw0Rj2NI-I1UY9I",
@@ -2101,7 +2200,8 @@
         "websiteUrl": "http://www.molinogarden.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15160053739391837071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJxVSC02cmCw0Rj2NI-I1UY9I.jpg"
       },
       {
         "id": "ChIJCQtzBWAmCw0RqIuTI8RMAX0",
@@ -2122,7 +2222,8 @@
         "websiteUrl": "https://chezaziz.com/hotel/",
         "googleMapsUrl": "https://maps.google.com/?cid=9007565135011875752&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJCQtzBWAmCw0RqIuTI8RMAX0.jpg"
       },
       {
         "id": "ChIJ1dcXvYU7Cw0R8eCabvvK2BY",
@@ -2142,7 +2243,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1dcXvYU7Cw0R8eCabvvK2BY/photos/AcnlKN2oKd2jZB8TbMRMD0FnLmCDnTRzbpZOnBAH9WixqrA4b9S_OdgrypueXYpdtC5EUqdbjJagbyy6-CBEVv0-0SKMxNNvpoABHPgtLAXp6foUgnEaaxytecbogEBdszmx_YBeCdL9B79yJF3DwzPyHPHInGo7LxspcT8ZekMQoqgmi7XNWJ1QqjO7eHutYvEqHB7mhCHwBFZIM6P72i7s_335djH8hiiBHcE4Py_tMWndK5F0Y2Pv8NMI0YKn_F-rP-SJdyHJMDjV-LoHN-J2bBDFj5WGhCI-T25hL_tyr7oXHGpokaffu7MX20eY-llR-lINrK2ipGkqu1JnqybfmX1KUJayxL5V65STBw9-LJ9YyBe4ZytjsuNrCWzwpUBIvY5Z0nnoZoIUEJkGEXzVs3SXbEAwDrLJZMQPljEZ90cT6ps/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1646288845045162225&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ1dcXvYU7Cw0R8eCabvvK2BY.jpg"
       },
       {
         "id": "ChIJXU0U8mAmCw0RrmRyJR_uWaQ",
@@ -2162,7 +2264,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXU0U8mAmCw0RrmRyJR_uWaQ/photos/AcnlKN2EhYXS9zApqgfIDmzJSzfJpC9Ba1UWQqLK-YrObz92vfvqqodm-YM9bYU_QrZb3HIQjiTJrwLfgzr63CIDZWZ8h50Lw0eayKnir57AS31V2LG8JJFigj3ILn4thOJicFL0xeKNYQmStWULJMpC6Aq5VyOg7mQLbCiX2GoFrrCKxHLUO8_tGnjkq1L7nKnNXUdyGgSQcMnp9bhqJXMntllTl1GfVTnSc-4pmEvTohew_L2foFAe20CIBLydWzfKeJ1wkj6Sa3_K2mAxvYbYLEnuBVTrAmCQVc7XyG5bs3xdroWOGhSoIEpknCzNG5NNSw4weLQrpb1eCNFiWwux3YR9nLGkHoNMdoGLpm3geWDw_dfpEduQ6GbRJ0PL2pS2nLIl9su3z99m24WembLLGtv55YsvRkxxpOgDrd92GIh3xUX5HRgTym6xIOwQ0g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11842758512687080622&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJXU0U8mAmCw0RrmRyJR_uWaQ.jpg"
       },
       {
         "id": "ChIJGVsIKWAmCw0ReXc1r5M8yq4",
@@ -2182,7 +2285,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJGVsIKWAmCw0ReXc1r5M8yq4/photos/AcnlKN35SUXoHAiRJPRPYSVubT9v5xLuJXlvGd2opgOmPLszXw5j7597r-sAwPIUn9UBndVSi9Z-eGp9jIPwSzxgDu7k4qONQfXjCElPdcOPFmEeCTrzgbLYvriXsOEqS9W1tmAf5LT7rswUmvLXPUBABRZMw807YE_QNrb4Xq8ZIm2sGmQ_e0AFr2E9lXAm6Hpa24EbB7u8IRLPoUMB4oBzmmGxuYpk6vE2K4v0JieM5-JlGwMWH5p0prG38ru68Mf4SIBkacPiqAW9V8reAsOzN0vXEpfBRpX2PqwBIP4XhILvM26lpEF0cv_IXNnqMWmaINRR80gDsQBuMVnY1X7DEG-gXHnNtvVAxFV15h1i3oj4JbLX3kGp1gc87nT6MLuIkb5kNWlg9JSD2-VXFswoX5erG3iZsDDR1r8FcyeGvE8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12594945912892389241&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJGVsIKWAmCw0ReXc1r5M8yq4.jpg"
       },
       {
         "id": "ChIJ6wHcyWonCw0R1emrFh52nR8",
@@ -2202,7 +2306,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6wHcyWonCw0R1emrFh52nR8/photos/AcnlKN04Fl1UTpiOy5x1kUa_JmYTJtUvMuK-Xtc_gBWaw1q7dWJZDE4AtUvHmtu-QYsc-ookR8A2ZGHyy1doHoZvcJ17EkZUdLR2kTto4cLa3ft4HIP34w0YFRBR5Jp4jZsN_QL7fX7BWdrlpaxaxaWh7HvZ3sGA0Tzd56TCIlqw8eOYf36TAA2A113nzPtEY-Ag4Ef9l_EO67ag6-sK5su1JNw1AbH5mz52xpzPxyfl8h_ZhMU9pqHKNsS4BbqYyEaGarKICZRpgwCD9kXzkD_CPdsQEy_PxF-wMy0JlKv2tT6NN2mshRcuvedPBpH7wUjnJiXZpNaN05BB34P-OwWzCh9xZrRO6baOQc9ounemjOqgKKFYEjWy3fSpInZfHcLT1mIUCCHz11HUfkse742HjxXYfDXWreC73gBRdh6PAGcfETrZ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2278106858120800725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ6wHcyWonCw0R1emrFh52nR8.jpg"
       },
       {
         "id": "ChIJj7EbUaInCw0R49Ayk9vjNaM",
@@ -2222,7 +2327,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj7EbUaInCw0R49Ayk9vjNaM/photos/AcnlKN1YqocW2WWI3Q0V_NE2k2J3azRhNWD9ovrzZnFBJ9NMwooH0oGdpen8c5iYdcVEO9_t-1iRhmrD-9OGKVmHsxcEHtwMJ2wuFqk9amunA3gQORaOcyb4NUDetCQpZRN8sh18YlOZZKxOAXE_D61Hn86ebsU_28l0qSmjHSIo8IeSVQzXoFB2qPT9NsZHUk3HJgc-MQYhjcgkUO_j0lEcO7iPpPeaq32L9zogd2Kwt6hPgpxezKo64FiRa2IfYyfxsk91cOTKS7lBOBf5FJGNWfH3WmCYo_SLwF0FwLao-dn_qNfS2ewKrIJpz9rKXuOWZNwtIVSbnveSOdI5zXlYwFnO0GGSSep7y00Kkfh5rgtB8_kted3QLDyYF0_sk7Xp3fh92iFqyD_JLJ0iXCh2mU0EVAtEOMdeE_RCZcRfMAXoWVfi/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11760556534154842339&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJj7EbUaInCw0R49Ayk9vjNaM.jpg"
       },
       {
         "id": "ChIJGTMNcQAnCw0RGSH9EfmH7TE",
@@ -2242,7 +2348,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJGTMNcQAnCw0RGSH9EfmH7TE/photos/AcnlKN0MUgXeBAxgcoVvis30_hV14V5IEf01jiUH5VeMhdUFGVnfuCxv1q3MVXXvq-nuw4h5nj1ptc9jXdjZZfA-oTUDOPgXopXyJJvPUCwgAl19FsDTYCF-0Q1x37WJOnmC9YARZ8eBWddDhOCQnAAozPkLPk_wvbzKuIMsJ5P9NDoVlwavNlCzRUtOl6S_C34pNVt-InxbQ2URhv4-CA0Kko9zY5TeaCFifCUnOAvHgfDpQa3suPScyogxTLsOeagvU0199aDcgWGtKJpJtWjpX_NnTUhsHPRi1F8GSHgzu3-kzfzaFMaLk71Ybo8OjI1CxAVSfUw6Qf4jN-LDfz7Mj-joS1GPVpZgSY3O7FhJQMyvxNXGhdgMGbmRdNcWhnf7uP6LZVJ6xv2Xz2CP7a5idrYxyr2XGkh0gt14Ee1_KC4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3597681181157302553&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJGTMNcQAnCw0RGSH9EfmH7TE.jpg"
       },
       {
         "id": "ChIJt4ZSpGMmCw0R2EhZ4DePZ_o",
@@ -2262,7 +2369,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJt4ZSpGMmCw0R2EhZ4DePZ_o/photos/AcnlKN20uqyLzWVCZwHu0JeStVHjatFIF5jRdUHJcHetFvMP5mFAx7Dq_PLtzoPnQ-sdoa91u64MLQW3kCHOBbPEEb75w_8GG2v9n1Cza7gR_Bq73yYa0X4vWxWxbUMABZQFZkhLu1cOZj257GsOZRpADW3imEcgla340GlYTvWPJ5eBgYr00Bjec-__AvJEp9cGiVhFzPJGhuUQXS4Rv5KcA8FC-87t1k2X9uK2JbDIIygq-kar89Wbj1hjYUUMp3ZUvsq0PNrnxEYBtTPuHHcoPNmUvg_-G0tmC5LLPaYGMkdfO4uzrKbryRmF4bxCppLUN1mKWfEEttlzKe7Aeq7Y4MyGr5FEpJ5MwJXqFMCUo8e6JGxFmHr0mgFZM0oxwjb1AtIu2ivVck47WmzwFL-1zme-AvJGwrl3bMWufvTpFSx1jK4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18043547902233102552&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJt4ZSpGMmCw0R2EhZ4DePZ_o.jpg"
       },
       {
         "id": "ChIJ7_WaH4kmCw0RNuQ1HoUBQeA",
@@ -2282,7 +2390,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7_WaH4kmCw0RNuQ1HoUBQeA/photos/AcnlKN1Dl6v8Qk49h_3rAnXDinrVVG369UqJD14ETEoc4VdFnDLW_txXa4ryroGPGSFIirA_DcwvRHII9qVq3m27o_HdIEx6-F84oysljF9iD0uuW8TeZdqQqrHlzu-PJAn2BmVU6m2xrk2bYQUhC03KWyd0AwKtqPS-9q_l1KcGxNhtN4INw9o8ASJtk88D1l9BA5K3fpgqVIpJfrlZiQBuZsE7asLXMRIoy4aTk_clgIIMj_knzPlMLHc1kJ5xToo1i7hEBM6MqzQuU5TFqcbx26mE3WT2rsqpRh_ilHdGbirfXf20Q1RpMKXGWF2j-7fCoUmys16B3Ihim2jE_0ZkFvXap9GowpC3YuHfgt48j8FS3w9ra-_Cie3giyybK9x63N0TbOCg-AZdqrwykTSkk9bbvGthrWbF8B2E5nGZ_pJS23RK/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16159198609231176758&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ7_WaH4kmCw0RNuQ1HoUBQeA.jpg"
       },
       {
         "id": "ChIJdSiw_PQnCw0R1pvJmep3q18",
@@ -2302,7 +2411,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJdSiw_PQnCw0R1pvJmep3q18/photos/AcnlKN1neX7c4Pu_-SPPOFB7WaxJMyRpGY5PYJJZOERZzRm_tVj2ga6S8TywWrdHtj_G38BNnnyA4De2MY5ma6x_PthWMCLic2IMOQFubCcy3j-03CwsqHu568ch4qeh7Wai6dQrzp0mJmoGx5ocBl4aBJ2eP7dCncnsXBRvuarHAitu98pZx_225HqiL5poy4bgjaJPo7wdyOtBJnqXl-RyyowJ73JtNMQsT6GTJ-DIDPA0W02EgY_ZA-6EaSA8VYwrh-jqpcmHeLxXXLQtL8LnMUouvrzFq3fDKKaD8Nfp6bOBQYcDVA6uRvBhXIu41Hw9Mkh_1Q69CRaUqCAZ5KFo38WOhWLELXJ38AF569Cqj9q5mObxKk7gSkB71achyqWvKvBvU1GA1HpswIK9VWXZYWOkKL_F7zxRDWERSYIvH7LBGylr_NYs6gEY2r6Alw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6893735504106855382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:32.526Z",
-        "updatedAt": "2026-01-23T16:09:32.526Z"
+        "updatedAt": "2026-01-23T16:09:32.526Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJdSiw_PQnCw0R1pvJmep3q18.jpg"
       }
     ],
     "nightlife": [
@@ -2324,7 +2434,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO-pSMcUnCw0RUioqwovq-LA/photos/AcnlKN2ngsGc0qGEYkpBdhXhIe8tGA8GkCRJQQLq3h3HdgO6gkW1bc9EoiDn1m1XBshdr9SRLSKdLj1U3Kz03P5Z6dbAaLgk8PWSjydodnQq1-Tflb2XYTLxFh9_8zafAaEnZT6i02Mb7EB2CD3zeaLG0-W9yjEaBr3ZQNEHl1FWft_ncntkyD1e7xFZDb-RJd2stv3zSzBNLODqA8tLZcBuP3Ibd3AgZLOwlp8Rdsnyo47CAIjMPS5rK24lfEbTpHUNYPaV2LP2EfVOWkJUJHamL0YerZ00epLjeQGLzaMuvbS97w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12752200230878456402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJO-pSMcUnCw0RUioqwovq-LA.jpg"
       },
       {
         "id": "ChIJTwuEQX8nCw0R8j2kay6SofU",
@@ -2344,7 +2455,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTwuEQX8nCw0R8j2kay6SofU/photos/AcnlKN3m2kehaRk2uxGymMnmGRQDIwyoxNeLsh9cL2ObYqEV-3XEJtoGc9w8oTifhgsqExu3IWjCMzAiIgqj7Nu1gxTMFB5wOjam5C0AI2FeO6weFIrcKFmuud-BYv4krqllgPAItjlrunAotjIISGeTcIEZj2cOXCShm5ClGeaE6TvjloUgB7VUFJLJHBrFbOqPvazplAMBaq1RfpKD1ea-CbllKZwzs7S8wRrSvSpKC6NxqBwX1g-LbBqnDx2VCMEu0-L_VvmBd_LXl94qnW5UwJz7KG2JvSneWUGqN6eNTRzN0Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17699588738614836722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJTwuEQX8nCw0R8j2kay6SofU.jpg"
       },
       {
         "id": "ChIJn0kgIPsnCw0RRJ6roi4WDyw",
@@ -2366,7 +2478,8 @@
         "websiteUrl": "http://www.cafeclock.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3174780651872951876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJn0kgIPsnCw0RRJ6roi4WDyw.jpg"
       },
       {
         "id": "ChIJ_wJwXFYnCw0R0E7a9myxVBs",
@@ -2387,7 +2500,8 @@
         "websiteUrl": "https://instagram.com/restaurantgalitos?igshid=NzAzN2Q1NTE=",
         "googleMapsUrl": "https://maps.google.com/?cid=1969394018623835856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ_wJwXFYnCw0R0E7a9myxVBs.jpg"
       },
       {
         "id": "ChIJ-8GOb58nCw0RUdmz2k0pN-M",
@@ -2407,7 +2521,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-8GOb58nCw0RUdmz2k0pN-M/photos/AcnlKN0yCFY3vumjGvp_f4SWv8e-a3hWFvZK3UfkHeweDMTemy71VmomJ1NajHhwA3ecIP_N2jaSWkRtpTe_2udu2P9nrGbU6KT3ZNjDymDgFxEN0NRIpi2pnNnCjykcBIWZ5cLJ72fXfZ9ypeYe8KdwIT35ApURAjbr39FCnMDXLKPeak-1cSzwDbwnb8S1KhSkrfYJm4h3b3VT2MmJ8O8B0IaVyeUTC2FbfvYM606tymgzbazOVQT1PG1vzokoGSal5j74wDkasJWK708kki3qQJtZVPLK4OhfwUb8LMV_WEPB3LtYz_JCPNgUOhaGj3j_N7cA8OiUjVWuQXQr1NrY2-OkPJTUJBMI_bTlQUlGRRPID8sW90tUQN_DwMMSAgtcWZpjmMx3H87zqXJyFhXpBYI0r1IGG2tKTfEWGC1s8V_IR0ck/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16372600384687167825&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ-8GOb58nCw0RUdmz2k0pN-M.jpg"
       },
       {
         "id": "ChIJK-NaCr8vCw0ROZmsz_HvcCc",
@@ -2427,7 +2542,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJK-NaCr8vCw0ROZmsz_HvcCc/photos/AcnlKN3HUfnuD1shIYfWzyRMDPn2vX1vY4A6_HMDnVu_WgdhUzRhxBU1XA6k25Zlohtoc0RyTO6DVcxJHrXPEpfLPKgyYtA1HrjRS2AVbXxwIQ6Xs8yLAmFrjVIexV8PMfE2kiFupHLmkPjnhPHuLugpOxR80QXMFLA5x9jxI8iih07Qa26ZumAK2Cm0RqSbHLyJyMrTLx8KiWkSM8C0i5pYcVLhiGTUoKp9A0vRJ1eqihvsEhpyS7UvLyPhSUDuHoq2kDh5W4dmGV6OvdGYvsg-r1K_9XqWDGAraFarh1xQWc5IObWCDN5XBhnuVvuKLAaehN2X8F6XtdTa23FirUtuP8EeIwSDTCcvnxF_qeDDBZdsYQIVUJAtlOGujcBpG7DNUXr8JqETgYNV69ouIzq8I3aKoFUlzJ48llzQIBFyLDo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2842035186721134905&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJK-NaCr8vCw0ROZmsz_HvcCc.jpg"
       },
       {
         "id": "ChIJ7-pTOgAnCw0RCDqnZJvlFWk",
@@ -2447,7 +2563,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7-pTOgAnCw0RCDqnZJvlFWk/photos/AcnlKN0NZWXQD4rETmDsTCM-KJi3qea0O3UIxkUgCUFujSklE9nE1HJkXr20_moKs6dp2Tm9lqm_9AyaNqguiII2wQO675WoO5BuUM7o6aCxgif3kbnzHgYmV3lZGcvxDG0NurWYQ8xaJ87-ZRtiF3DK7Ssn7bM-R1i2HyrgHKVrJAjT0SIuavCXtExbF9gCe9oT55PiZ4RQtoPS62uzAS16dbp5zspLTSzaJsQiwXUwfHq9cwqLOrN1UmraPfM0i96uDMu-3p9Z29vJOQD9zjJrOJYrpamS51FBK67Cxs4hjDYYnR7qr2IuEQMdEmjDNC5h5x_JiO0Udf_sq9b29uIUrjAOwTDNQVNVNQGXf8uLOnVqcCq7A_4A98j-U_kGHNtiCSo5cMgTpsbswdftvBtYEX1dlyIET6im59rVNIUfM079-2E/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7572210804064729608&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ7-pTOgAnCw0RCDqnZJvlFWk.jpg"
       },
       {
         "id": "ChIJv_TjgRYnCw0Rq7p4oewPXz4",
@@ -2487,7 +2604,8 @@
         "websiteUrl": "https://cafezambra.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17673761122087683225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ6-DLyqonCw0RmUQl1xnQRfU.jpg"
       },
       {
         "id": "ChIJ3c1mo2AmCw0RgNJs80uh9JA",
@@ -2509,7 +2627,8 @@
         "websiteUrl": "https://www.facebook.com/OumRabie/",
         "googleMapsUrl": "https://maps.google.com/?cid=10445150783357637248&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ3c1mo2AmCw0RgNJs80uh9JA.jpg"
       },
       {
         "id": "ChIJFXVqd2gmCw0RDxfnseso08Q",
@@ -2530,7 +2649,8 @@
         "websiteUrl": "https://www.instagram.com/riverside_artcafe/",
         "googleMapsUrl": "https://maps.google.com/?cid=14182724644286961423&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJFXVqd2gmCw0RDxfnseso08Q.jpg"
       },
       {
         "id": "ChIJF7ioUMInCw0Rfmbe5k_pEFY",
@@ -2550,7 +2670,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF7ioUMInCw0Rfmbe5k_pEFY/photos/AcnlKN0zvOfBxStVnjayBDJ4PkEOq_EQmUKiWSmkbTdCjQe1TVmK3RRBEcZOTrgM3LCMobDoFtnnuB3EA_VWJO-rytmF9ynhNV_imAQY0uYWOPmA0Bw8rWTSBGrUBQ9vvbmEVEN9clqrLOx-6NM0i2315YUgNZ-3lWrzHgij5bwgKklXzQ2s5bmLrGsidooHJ6C-Zz4GeSHYweCAHHdy1KVCSJ8IIIRP6gafe9XEe4D-X2cSHG9xdTOwS-MjAeE5qwMQuXymA83OJoP-3eX8_6H8nrTwHwaiIuKDRKMbMNmGuJqhaw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6201713216274196094&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJF7ioUMInCw0Rfmbe5k_pEFY.jpg"
       },
       {
         "id": "ChIJlQS5HgAvCw0RRIEoOWh8Vww",
@@ -2570,7 +2691,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlQS5HgAvCw0RRIEoOWh8Vww/photos/AcnlKN3F-XKYjDRlMUsMrr-nqufd-Ozg6It0anSp2nDt4GMFdBbq4_0f1MLyyQ8Rvg-BSCYuWD5T747q6uOFaKUkbRnJNvs_FTurLfAlMLLKSL4OumD6a-BGaU3R4hHXDUX3-Ds67-WpP-8GS5-Ach_VfFx-luKrPKepXMhxS00xco2z6ZlchfMMMiEaFoynm6cM0mpI3jE-a58iKD91LSjwt_Lc-NCmWUXTn7UjdKlkn3bPh483eiFpf4SaDTTCv4zsuaPeaRytPFieyAEPAV6IjVQlyWjMCTaUTLxUEnCVcLdl2A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=889316238506361156&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:33.912Z",
-        "updatedAt": "2026-01-23T16:09:33.912Z"
+        "updatedAt": "2026-01-23T16:09:33.912Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJlQS5HgAvCw0RRIEoOWh8Vww.jpg"
       }
     ],
     "trendy": [
@@ -2592,7 +2714,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO-pSMcUnCw0RUioqwovq-LA/photos/AcnlKN0no7T8-1SoWKirCwbLWN-W9mC6RT4FyN_CbVwh3xHEZmU0PvR2bwZoYTCNFdL8saLXBefRCm4D-tcwBRKAr25vQLGtnVpns9yJ0FvezYT0oTD2FMbygikSBMnE4XlA_neqjB0uecpX1frsnnpXO9lXqGEgOSfX_YmcZIo4E93gC4gxz8YSEndgMrVUUfXFdog6X_81D-Yb2MUSXB8yVLO2KWgRJ4SvYbijdK_iBB4qZy_4PiQKiA156SM24NVv-gTLQzxvWCUiNGFnvU_X-QDGym2iyMrli7ByTQAQHqRmcQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12752200230878456402&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJO-pSMcUnCw0RUioqwovq-LA.jpg"
       },
       {
         "id": "ChIJoXdYHgAnCw0Rnwj9H0wHckQ",
@@ -2613,7 +2736,8 @@
         "websiteUrl": "https://baba-coffee.netlify.app/",
         "googleMapsUrl": "https://maps.google.com/?cid=4932012565459699871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJoXdYHgAnCw0Rnwj9H0wHckQ.jpg"
       },
       {
         "id": "ChIJEwc3DwAnCw0RG7IJWz3Jt1A",
@@ -2634,7 +2758,8 @@
         "websiteUrl": "https://fornaccio.ma/menu-fornaccio/",
         "googleMapsUrl": "https://maps.google.com/?cid=5816338709129835035&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJEwc3DwAnCw0RG7IJWz3Jt1A.jpg"
       },
       {
         "id": "ChIJp-PEqGAnCw0RI96Bqwz2PYA",
@@ -2654,7 +2779,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJp-PEqGAnCw0RI96Bqwz2PYA/photos/AcnlKN3iSIU2BSY7ZJRlUXr2F3uqL6i7RSe4Io4maHplOU1lvxZIIm1ExsO7U6_t-_KJb6MYF58ihmG7um-o91eriN0edrgGGRfjMDutiwrmA3bNc1V4ojS9RNX-WxpRIyVu15WxHGfWmdzaGDzAW3XibkP7uooVsXULIlJ7yyTYnf5lexHoV2p8M6JS9qOk8OIFjurPvwVb8HJWfnvbnelfoHqdv4iB7bMmJE3cYSOi3qotNWX1R8Gyzt_Gi4yTzlvWi-MoW9yQOS82nqqvNx76yslUDoimN-ZOxgkbFZytOU9GWsBZEAF3u75t932uF8VcDEcK9ALUaAbAMlPmgUGGyQYoDmIoCZmSv69bkrYtbqmUBu_VccEB2xbktsvlckLR6w80ztUAW4M1nnf8KB8BDMnGC3VTPE-ONLtjZN44b0k/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9240812544711581219&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJp-PEqGAnCw0RI96Bqwz2PYA.jpg"
       },
       {
         "id": "ChIJk20GaDQnCw0RZi4IOwD552c",
@@ -2674,7 +2800,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJk20GaDQnCw0RZi4IOwD552c/photos/AcnlKN1Jv_oW6_SWhvV_8RrTstlp7DC62WES6A9nbNmo2Q-4sYy9rsbaj160gQzlp1JdPPMEnUQ3rxmWYwshaVzIZEIkiJ83ERrrw9g9k-Jwh_9u5wzjvAx4XHWEuvuDtHvyDqoloJXi4ckSg1ulpsXg0j79XrZo0vMCskr2xnL9fZUfBVUdViXfhTuS7ULV_MYMuTEpT9WYxq2WEaImzPaMg0_sm3gM6uTYbIpJLZG7JXLnK86hjS_XDYRoiXfPnJaUvcezTtVJ9bAHTSi7aoh0aN5EdIxLNU3DErUhHbLdZ_hvtQgAYQrz3H2bICveUCsqLXIMyGbjOnHwRNsMLFMmJbZI31SNoavcmoEwdF9c1R6s5OelWzrkMYMAsGIhjlEIPrVs2jqLab3uz92CHdYnW0w_rFc8vYT_JET7Y7a7BZc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7487226684912447078&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJk20GaDQnCw0RZi4IOwD552c.jpg"
       },
       {
         "id": "ChIJYwVErA0nCw0R9Hq94hCZ6BI",
@@ -2732,7 +2859,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ79-8e7knCw0RQbmqCuVlhEc/photos/AcnlKN3Cr_Wmv9ScSi0wu924kzJAc-FBqZoAmlOcZVPL9-0QkM6fkYytvfvgLniPt3RX48l6e4952qZ7I6QL0QoXSCdGJQ3U113vRNpERs9rF1hh34OdjtpXtoizrs7Ihyq8u9zidDvJyur_8UFCVlGPefe2-S0xWo_rspLkWeLjKyPMS_LQ66nHyIB6rYVtTEUBC-aei8RmBLK1cr8pO-NXtyJKCLNhR0WpAwOlqLI9_3EhqkEnZFYM1dylzVnkbK9oWEw-bkyItoExW8hqhdz_Q3kcKG1CJvbOJ7Npm85tr3odaawetWCEvHdjBCI0omOn-AJfpyanYOb91RIrCtfj3kpYyn_SBhQeSRvaHZFXt5rQdTh36qX622DaE7L3j1BXFTkS5_z3VG2IBiN3zhyJJ63OmEb7tzOxLcQDilksMTtGGMcA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5153355908019566913&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ79-8e7knCw0RQbmqCuVlhEc.jpg"
       },
       {
         "id": "ChIJ9cyov4cnCw0Rzi8fnfm9juE",
@@ -2752,7 +2880,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9cyov4cnCw0Rzi8fnfm9juE/photos/AcnlKN2gUMxA0ItfyocQZSxeSGrcyiwa-CrLaq1aaGEEcXbaHRjlm5ooC43cSvWZmQeONqjz07b-0suuqsj4uipgZXbb4REP2LUnvd5NEY0QSm5jHEMNVkuowR2mW0YfotE0RFEXVWBJcWrn_n5av8DZrbIKbL-MMlmcTyLKjJfUG4aQswdP26_cW-FPWMH37cbzWP2ZeSLBDaXrCn_EZDJgGETR58UBZyLkZl2FSuxu9wMclkRpSft0H3l5q_bznWO24sTXdbf6UQogO4A8lrf8OUBk9Ka0Q-EQu2ksbljnBeoq_Ds-YTJ7Y1KyLe3BNWeGEjRp0lB2TNjswogZjTjmu4aVXOEZxYR4O0y7Vn6lSKYj1NW-G1PlHzVuZBeFuKxCFzzxDtJh7eEJxFGz7RZgP5ExnSQQ7Kf46n-gxAYLj4lIb8OiXCjMYZo2HN_bAt8m/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16253136985007271886&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ9cyov4cnCw0Rzi8fnfm9juE.jpg"
       },
       {
         "id": "ChIJD33y3tMnCw0Rgvh-H7qmN-4",
@@ -2772,7 +2901,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJD33y3tMnCw0Rgvh-H7qmN-4/photos/AcnlKN3A--SeVnESxgIyn0mOH1sCIfcBZLr-9hrsZXzDDHvHTPEs_3fb4u0A1iG476VYWNRtx5QszTy13ccjvhRzGB23Krhj4_bPe5zIQ_M7TgMtDOT_eiTVB2kYHP6Wd-wEu4qT2mHQgWmUhGLbnuuu2QV7EbCoS4WVvl2q2UdRyDiXCdh2nUuiuY-plX4NpdBoDXSPZPnutclArwj1PqTohQGWlc0hpwwphjsegTesbBfJ85mH6Sulbk-RNybr0kCyHWtEMjdJVxYbMC79gmsdOKMRqTQt2bYWluiC85RJzoAyXYmSgGbzCwbfz3KJGWECDMlHkOMDCQmqD8COHOQTwj8o8jaRnuRc9mp8S-3jMdF6xNaKV4TPgn82rm7dzyJwq2Pqa7hYDZVuaJU1oz9C8cTY2yw3DOCekOfIFwoWwIK8EahA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17165371823068477570&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJD33y3tMnCw0Rgvh-H7qmN-4.jpg"
       },
       {
         "id": "ChIJ6_18_ownCw0RxfMccQM-c6A",
@@ -2792,7 +2922,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6_18_ownCw0RxfMccQM-c6A/photos/AcnlKN1smui160S_dpm4xVCTiu2_txzzBDdY_kX_-mbm0yn0hquLRecTwPOrScN4_n-CUPqTKrTb_Ne2k_TOOjinzyGClI6Q0PMNznkFZOEaKrOdrqTPufeno0e2vTIVjeIwsnn2K7ncUgrt65E_UVb7u012XO0hlDv_Pg1wpgY0qoJEojLWCmumSfwqQGdrqlNXd01dJG0fdX_sUMiwOAeSH2DcwLO7zdbyr445A5yAOHDBxJXqxMgLU5FepMb5PLaCoo6gLTFMwNdITEDFdTaiOtpB4Y-wlvUx5LZL1cGSjNyffC_FxApf4EB-uF0DMEmUMECDxp9o79c4IR0Jl_s6FBPowCAPAvTYkrH-i6_s7nnK847GJc9nvbIbCi6OdwpltZDgdI1LnLhfzbYbcjOao1KtLzblcsS4nSM0BQkrs1mCUg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11561652852893742021&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJ6_18_ownCw0RxfMccQM-c6A.jpg"
       },
       {
         "id": "ChIJgRJa-lklCw0R1OoQWzNZ38g",
@@ -2813,7 +2944,8 @@
         "websiteUrl": "https://ruedacafe.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14474385804498102996&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJgRJa-lklCw0R1OoQWzNZ38g.png"
       },
       {
         "id": "ChIJpSzP-24nCw0RmYjGbMEjPkw",
@@ -2853,7 +2985,8 @@
         "websiteUrl": "https://www.instagram.com/riverside_artcafe/",
         "googleMapsUrl": "https://maps.google.com/?cid=14182724644286961423&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJFXVqd2gmCw0RDxfnseso08Q.jpg"
       },
       {
         "id": "ChIJu-xCS1wmCw0RCsp3I0_EaI0",
@@ -2874,7 +3007,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJu-xCS1wmCw0RCsp3I0_EaI0/photos/AcnlKN3U7D943iTp03OOvXivTZ5RZRiQyLNK8bEmii3FECP86fWGFd7Y22dknIfSYAQGIbaQDdZOWXFXtvEO_xVSk27b74_AvZwEitwAoaU5nsQ_kvvNLPxwiGdBZhxyIfgcIfeo83f_pLIOMK93xlabSFrFcTYO00VoE-Vwqi3epEIAAbyOSMkjmucTp_mDKTmEXjnXWs-vn30MFXnm0n4RamGEbIgbIsj7icLdBGlUsLa4vwjrk6rk1e_xNx7tDJR4ygL4H3oDDff9kNdoG-JVQ88qqRqZqWX5v1hilP_CsMgXxvJ36GoJ3WSmli7K1AKnrbMWHoMLb_PjnSA9vyyAqc5zOsn6shAGXcxp7ZNlToAAFW3fI7QK9G-BSkz3DUL6W57fN-d6rsAfF96g1pDTyU697_EwE-kZiom8VTqVJe2Nv0Y/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10189610001102260746&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJu-xCS1wmCw0RCsp3I0_EaI0.jpg"
       },
       {
         "id": "ChIJv0JLLkMmCw0RQPn2epblNZg",
@@ -2895,7 +3029,8 @@
         "websiteUrl": "https://www.facebook.com/hoteljibalchaouen/",
         "googleMapsUrl": "https://maps.google.com/?cid=10967924902001572160&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T16:09:35.284Z",
-        "updatedAt": "2026-01-23T16:09:35.284Z"
+        "updatedAt": "2026-01-23T16:09:35.284Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/chefchaouen/ChIJv0JLLkMmCw0RQPn2epblNZg.jpg"
       }
     ]
   },

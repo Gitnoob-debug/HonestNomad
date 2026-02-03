@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJI6R_mIO9W0gR2XiVtfP8IA0/photos/AcnlKN3xG5k_uZS3i3pG8idH9-v3l8-f5QLFO47Q1KLJfJGbAlVnznftQ9mMHJER1SeQvWbEZeqB0aVdBqoM578XJNWUS1VeWKxSDmTcp8tBMSUdKfMMUxXOmAoR-4Ty9Uwy6mFaiMzmTSpdYZ5FIYsJlzxzMK1N9BFct95r-GmJCmLw26021eGnnSKEd8w6yQcS_8hBeci1Gzc5ErmZqQDNf6oppWnZfLzxGBApYuIedn532DS6a6t2b0FGa8qlx1UexaVeFo8Ufd4sYziDnzSyTJebPWvGC-W-tM2O-0RjS6DteLkYb-MPwqjS86rsSPMrOvCZaVIi6RB5pC8pj9mhU2WXRmfElOJKlRmeLDUmsBb5WD5qVbZIJ2G64AhcRJYbBM6dF8YhNRHn-kTh_C61D7ti6Q4LwIKt_6PmI4aSxdZ_dEzr/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=946034045401528537&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJI6R_mIO9W0gR2XiVtfP8IA0.jpg"
       },
       {
         "id": "ChIJcUCLuwEBW0gRBjEKQ7h0a7A",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://www.cliffsofmoher.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=12712382707930902790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJcUCLuwEBW0gRBjEKQ7h0a7A.jpg"
       },
       {
         "id": "ChIJXbof_VkHW0gRtjPrtbH0kTY",
@@ -66,7 +68,8 @@
         "websiteUrl": "https://doolincave.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=3932192993769632694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJXbof_VkHW0gRtjPrtbH0kTY.jpg"
       },
       {
         "id": "ChIJVVVVVRl1W0gRqPJStIwKqzY",
@@ -87,7 +90,8 @@
         "websiteUrl": "http://www.burrennationalpark.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=3939253898502664872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJVVVVVRl1W0gRqPJStIwKqzY.jpg"
       },
       {
         "id": "ChIJ4bKxivCWW0gRm0GUSq6M0tE",
@@ -108,7 +112,8 @@
         "websiteUrl": "https://www.galwaycathedral.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=15119301579239604635&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ4bKxivCWW0gRm0GUSq6M0tE.jpg"
       },
       {
         "id": "ChIJ8-if2fqWW0gRYco6pfmcbnE",
@@ -129,7 +134,8 @@
         "websiteUrl": "http://www.thelatinquarter.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=8173642969756912225&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ8-if2fqWW0gRYco6pfmcbnE.jpg"
       },
       {
         "id": "ChIJBdUB_SFCW0gRFbQehtvUqxk",
@@ -151,7 +157,8 @@
         "websiteUrl": "https://www.bunrattycastle.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1849806111278806037&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJBdUB_SFCW0gRFbQehtvUqxk.jpg"
       },
       {
         "id": "ChIJc7fq3huhW0gRTyZxrpQ1-qQ",
@@ -172,7 +179,8 @@
         "websiteUrl": "https://aillweeburrenexperience.ie/opening-times-prices/",
         "googleMapsUrl": "https://maps.google.com/?cid=11887873079095928399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJc7fq3huhW0gRTyZxrpQ1-qQ.jpg"
       },
       {
         "id": "ChIJfyB4h-WWW0gRhytmmOvgagU",
@@ -193,7 +201,8 @@
         "websiteUrl": "http://www.galwaycity.ie/public-parks",
         "googleMapsUrl": "https://maps.google.com/?cid=390371620199738247&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJfyB4h-WWW0gRhytmmOvgagU.jpg"
       },
       {
         "id": "ChIJs8y-QfuWW0gRn1qkFnd8rjo",
@@ -214,7 +223,8 @@
         "websiteUrl": "http://www.galwaycitymuseum.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=4228453951070296735&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJs8y-QfuWW0gRn1qkFnd8rjo.jpg"
       },
       {
         "id": "ChIJ8WMYnpOQW0gRLG5xNr3pcZQ",
@@ -235,7 +245,8 @@
         "websiteUrl": "https://www.discoverireland.ie/galway/rinville-park",
         "googleMapsUrl": "https://maps.google.com/?cid=10696587588853132844&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ8WMYnpOQW0gRLG5xNr3pcZQ.jpg"
       },
       {
         "id": "ChIJcQLs6qyXW0gRjz6hRHT9nTs",
@@ -256,7 +267,8 @@
         "websiteUrl": "http://www.nationalaquarium.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=4295868295390772879&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJcQLs6qyXW0gRjz6hRHT9nTs.jpg"
       },
       {
         "id": "ChIJV3qgD1GWW0gRw17S766-NGI",
@@ -277,7 +289,8 @@
         "websiteUrl": "https://www.theardilaunhotel.ie/?utm_source=GMB&utm_medium=organic&utm_campaign=GoogleMyBussiness",
         "googleMapsUrl": "https://maps.google.com/?cid=7076490573063020227&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJV3qgD1GWW0gRw17S766-NGI.jpg"
       },
       {
         "id": "ChIJl01UavuWW0gRFpECMV1epls",
@@ -298,7 +311,8 @@
         "websiteUrl": "https://www.galwaytourism.ie/pThe-Spanish-Arch.html",
         "googleMapsUrl": "https://maps.google.com/?cid=6604069657932632342&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJl01UavuWW0gRFpECMV1epls.jpg"
       },
       {
         "id": "ChIJJ-Cgo4eWW0gRK6XB5CLCUTQ",
@@ -319,7 +333,8 @@
         "websiteUrl": "https://www.galwaytourism.ie/menlo-castle/",
         "googleMapsUrl": "https://maps.google.com/?cid=3770007818208388395&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJJ-Cgo4eWW0gRK6XB5CLCUTQ.jpg"
       },
       {
         "id": "ChIJyZzHXmiSW0gRQQuxMLVvjcI",
@@ -340,7 +355,8 @@
         "websiteUrl": "http://www.claregalwaycastle.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14018984039070894913&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJyZzHXmiSW0gRQQuxMLVvjcI.jpg"
       },
       {
         "id": "ChIJb1RcffyWW0gR5Wm_lBGYieI",
@@ -361,7 +377,8 @@
         "websiteUrl": "http://www.galwaybaytours.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16323745525658511845&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJb1RcffyWW0gR5Wm_lBGYieI.jpg"
       },
       {
         "id": "ChIJj3pnXgCXW0gRVI_Ob29taQY",
@@ -381,7 +398,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJj3pnXgCXW0gRVI_Ob29taQY/photos/AcnlKN38yG3v1GORd8WsXIvnLKtMfSYcFzErhPrZaK4OGY5_nfm-4xFwk8frgq2mbBnyqsfP0XFgRDBaqiZ7cXd4k_tSD44-xw7XkY1sW1z2enl09CvKSCinKB7H4_5a3Xrvq5RytHSZQuevH6iiBuu83pJftdpF1eFF_09AtKAx-RwmJ6O6DFrAozn5jKfYg9V1gmQlxAry1QPybu5gaGPWoiSjZFL347wmnNByyuurv2lLRZ2MqR9eP8vRiYSDAD9S0m3y7CBCFlXXt9xUGich7aaPx8gIdRfnTcQ6ZF2qVDP8olTxuHSxexLd-cNRPtfezk9vnQOIEDqt-AFLV7BclW8_WhmSfSHPGWDAOhyMgkOpGaZtAbxV1zSt29XQBQVtEtfurGEgaZLsXLDNS2DeQ5oIu8YYM09WWPaJp0341NYgCv7VWXZNDc1O8LEclHwo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=462020762166792020&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJj3pnXgCXW0gRVI_Ob29taQY.jpg"
       },
       {
         "id": "ChIJxTInbcuXW0gRUE58gmVSmUk",
@@ -402,7 +420,8 @@
         "websiteUrl": "https://www.buildingsofireland.ie/buildings-search/building/30319004/nimmos-pier-claddagh-quay-townparksrahoon-parish-galway-galway",
         "googleMapsUrl": "https://maps.google.com/?cid=5303360632139828816&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJxTInbcuXW0gRUE58gmVSmUk.jpg"
       },
       {
         "id": "ChIJqQQoq_yWW0gRZEjZJOAGbWE",
@@ -422,7 +441,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJqQQoq_yWW0gRZEjZJOAGbWE/photos/AcnlKN0wi-QLKVOJjD_iJs52gcQCqJYp80qFWrTyZ1syjWLFbUXIHJ_x6tNaLreaNBk1-qIvCXnC75PXciAp3UrdNlQrwJvdT9j--8hKQ2eVSk46aKJWheFCuCSVZYC4nknN6jwzw84ZjIMqD5o1w3dVHhFUbJUhpbn_mP0ZenjTolfuKKfZrNSm8IfXyPxn0UoESk9FotH05wV9agsrB3Eu641HeDGsmwT9DUsF1X-Qea9bZDQ8XPVXZJU_bJzmBjmw2tHzNP1uqlhkFc8H8U6BuXHv-XlPWbe53TJfAuNZ2b9ELZYdZbqaf1n-jORRjhiID7VYALUI-HoM_gQOiu0FC1SNcreKDGassdNhGzxE88OIceTN8XbeBHcRXEGZDLl5ICv-7vsLz8WKPNfA1HNhcHAcFhHmLeKxT3cJ5DdZJ4jFYluU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7020274953901131876&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJqQQoq_yWW0gRZEjZJOAGbWE.jpg"
       },
       {
         "id": "ChIJaQKlazCRW0gRZbtfLlyuNBg",
@@ -443,7 +463,8 @@
         "websiteUrl": "https://www.facebook.com/groups/FriendsofMerlinWoods/",
         "googleMapsUrl": "https://maps.google.com/?cid=1744210666637474661&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJaQKlazCRW0gRZbtfLlyuNBg.jpg"
       },
       {
         "id": "ChIJq5Tey_qWW0gR02X72zEsSuU",
@@ -464,7 +485,8 @@
         "websiteUrl": "http://claddaghlegend.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16522066775617791443&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJq5Tey_qWW0gR02X72zEsSuU.jpg"
       },
       {
         "id": "ChIJzdhkHRaXW0gRbjDRDzUq_Kk",
@@ -485,7 +507,8 @@
         "websiteUrl": "https://www.facebook.com/ccmireland",
         "googleMapsUrl": "https://maps.google.com/?cid=12248711493927907438&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJzdhkHRaXW0gRbjDRDzUq_Kk.jpg"
       },
       {
         "id": "ChIJ9beDJvuWW0gRiMvMToVbJi4",
@@ -506,7 +529,8 @@
         "websiteUrl": "http://www.galwaycivictrust.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=3325446002970512264&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ9beDJvuWW0gRiMvMToVbJi4.jpg"
       },
       {
         "id": "ChIJp9OKe--WW0gRO6xl6Ab3Ksk",
@@ -526,7 +550,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJp9OKe--WW0gRO6xl6Ab3Ksk/photos/AcnlKN3uEtMqU7AMouH_gEh1TQUYnZVHY0Zegz5K0F2Y5zVl2_pRhIPs0_gufT1KPcR6jOjIms7rzkAZXZcTo17JRI4_YSyMJvVgZZqBvHpjOpeCaQFp7UgwvOn092iKXP4IdbcYN_VM2dubVsCPvipTRfaPDrnPN3V8SfJU30UpGNlTDbZQuuLEPEfoi17mo9xQT_NGYpILiU869OW2-6-FnFZX3-KhNtur8Y2PnJ5UwclV2ehH_y4_m0-WsydnF-k6Hqo-gwJCXnrq-oxbxGZigaNAwWcM6eQ77LoWwJff2UvYNkCHLV-qF6WvT8eACIzr37km4GT1t13_mWBGxn3s7p2WCoYcs3Jff9hMUTDB2TvaU-1cnX2fkIjfWP75CMuhDXHi2X02SK_jMs8npDH3SYTIH7BeiPdDrXAPAQGfV3CWaQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14495669959686204475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJp9OKe--WW0gRO6xl6Ab3Ksk.jpg"
       },
       {
         "id": "ChIJr3Fqp_uWW0gRFz7w10FkJPo",
@@ -547,7 +572,8 @@
         "websiteUrl": "https://www.galwaytourism.ie/galway-fisheries-watchtower-museum/",
         "googleMapsUrl": "https://maps.google.com/?cid=18024641842602065431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJr3Fqp_uWW0gRFz7w10FkJPo.jpg"
       },
       {
         "id": "ChIJNQ_xDACXW0gR0hS2ZD8KODE",
@@ -567,7 +593,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNQ_xDACXW0gR0hS2ZD8KODE/photos/AcnlKN23ldR-hIUSWE1jK24W-c9so40x3SOyBIoDBPUOlDAho-n3xD-KIqdMGgQhBGsBkm5kyPYwPZn0LcElmKl_1__CRXNvr5LLCxPEJkUJ1QdxhZgDyFE-HiEExOq1eId8fIQwLj4DuM-4z3uExi2ScpE1AZU_z6igYGj5_y8Xs_CHB95Z_m9kySFFlyxopEkAhp5KWqljiZ7dBOsvupFPDEu-iYDrfrLctjyeVgQJdvCpcifBbSH7Oh0cBEqK2kn3RaKwPwt1JXabFWU-vvnmhk-6pXnBI2CbeGsh721lie7WpLPQJ_wI-hfInTBHPVb1kqOEv9m6naWTGXpW35OM7RoOLYolv8Fde-QtpKbRSDDZWkelxGaj9ZS4FrG7o5H3AMJ_tbRrP9qDvcfEi-Cx5OIqxE381Q1sQLxJgLzdve0LRw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3546595973943137490&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJNQ_xDACXW0gR0hS2ZD8KODE.jpg"
       },
       {
         "id": "ChIJRaKXsPqWW0gR8rPbKFr-m2w",
@@ -588,7 +615,8 @@
         "websiteUrl": "https://www.galwaytourism.ie/lynch-memorial-window/",
         "googleMapsUrl": "https://maps.google.com/?cid=7826128440672367602&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJRaKXsPqWW0gR8rPbKFr-m2w.jpg"
       },
       {
         "id": "ChIJwXSSOQCXW0gRjufkabvilwU",
@@ -609,7 +637,8 @@
         "websiteUrl": "https://claddaghring.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=403039986236319630&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:18.410Z",
-        "updatedAt": "2026-01-23T15:30:18.410Z"
+        "updatedAt": "2026-01-23T15:30:18.410Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJwXSSOQCXW0gRjufkabvilwU.jpg"
       }
     ],
     "foodie": [
@@ -633,7 +662,8 @@
         "websiteUrl": "http://www.thedoughbros.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1554542260464658014&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJO6jAOeWWW0gRXiZUF_PXkhU.jpg"
       },
       {
         "id": "ChIJRdr-afuWW0gRy8csWBGWHwg",
@@ -655,7 +685,8 @@
         "websiteUrl": "http://www.ardbia.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=585351477819393995&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJRdr-afuWW0gRy8csWBGWHwg.jpg"
       },
       {
         "id": "ChIJ2cD92PuWW0gR4CnNRRRapZY",
@@ -677,7 +708,8 @@
         "websiteUrl": "http://www.secretgardengalway.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10855181519963367904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ2cD92PuWW0gR4CnNRRRapZY.jpg"
       },
       {
         "id": "ChIJmXWfiuWWW0gRU9vDMp5zkGo",
@@ -699,7 +731,8 @@
         "websiteUrl": "http://www.esquirescoffee.ie/our-locations/esquires-galway/",
         "googleMapsUrl": "https://maps.google.com/?cid=7678764487960419155&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJmXWfiuWWW0gRU9vDMp5zkGo.jpg"
       },
       {
         "id": "ChIJd4-52PqWW0gRMXjme0kBpQE",
@@ -721,7 +754,8 @@
         "websiteUrl": "https://www.coffeewerkandpress.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=118502380318128177&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJd4-52PqWW0gRMXjme0kBpQE.jpg"
       },
       {
         "id": "ChIJLzLmU--WW0gR4v4_BuC3iOc",
@@ -743,7 +777,8 @@
         "websiteUrl": "https://junglecafegalway.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16683786992399417058&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJLzLmU--WW0gR4v4_BuC3iOc.jpg"
       },
       {
         "id": "ChIJfeTMeXCWW0gRBYSPEA92HRU",
@@ -764,7 +799,8 @@
         "websiteUrl": "https://www.glenloabbeyhotel.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1521502056195523589&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJfeTMeXCWW0gRBYSPEA92HRU.jpg"
       },
       {
         "id": "ChIJZRxGGfW8W0gRgp-iOtJTTG4",
@@ -785,7 +821,8 @@
         "websiteUrl": "http://www.connemaracoasthotel.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=7947819604794056578&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJZRxGGfW8W0gRgp-iOtJTTG4.jpg"
       },
       {
         "id": "ChIJ_w3mFpWWW0gRAgV-t6-4Gt0",
@@ -806,7 +843,8 @@
         "websiteUrl": "http://www.menloparkhotel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15932249696613827842&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ_w3mFpWWW0gRAgV-t6-4Gt0.jpg"
       },
       {
         "id": "ChIJzxlpFuWWW0gR0dKjK1K_3DE",
@@ -828,7 +866,8 @@
         "websiteUrl": "http://www.pascal.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=3592956962375193297&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJzxlpFuWWW0gR0dKjK1K_3DE.jpg"
       },
       {
         "id": "ChIJfZ617s-WW0gRSNnbcdJUjwU",
@@ -849,7 +888,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfZ617s-WW0gRSNnbcdJUjwU/photos/AcnlKN1HQ4JetEUz92IV_LIIorrlrN6XVFq6pDHQfIp5MTNOZo4ccxyRsaRMrsWebWMujof-rfcVZwO4dPbFBRuhh6eb21Vgr18aXui5nRa0k5rw8zQXYqtYYLdCJwPxd11L8oDKpdLlTQcPuxvWLzfzniDN_X3UI1PNFsIwtfJNZXYKdeBZYpeiC6OVlAaft-2CypEpWINxKZ_EF6pmuU0mo6f6rHFLkadWzlrSNknl8LD-ccsojnlm3S5RpnwRt4QHXHIbqD5CVlgRlA4EcomrDisFiBIaXXLrJodl5x2K88qcbDx3bCiSZjabxrvJBdPep0BO06h_6xg4Tk3TTzJ-hn1KyyRpmntLLohUsQ6wSlQw25R9iCHDkZIOO5hyKqkLh7Sz2rkyyDRePlXgfipw88tij8nN8LxsWRqPkub6ciymrE-2/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=400632154689362248&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJfZ617s-WW0gRSNnbcdJUjwU.jpg"
       },
       {
         "id": "ChIJkdPDOuaWW0gR6I4bGG8zAHw",
@@ -870,7 +910,8 @@
         "websiteUrl": "https://www.thegalmont.com/en/?utm_source=google&utm_medium=organic&utm_campaign=Knowledge-Graph",
         "googleMapsUrl": "https://maps.google.com/?cid=8935198212941909736&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJkdPDOuaWW0gR6I4bGG8zAHw.jpg"
       },
       {
         "id": "ChIJ1926mM2WW0gRRKjtHnOcUuU",
@@ -891,7 +932,8 @@
         "websiteUrl": "https://www.theconnacht.ie/?utm_source=google&utm_medium=organic&utm_campaign=Knowledge_Graph",
         "googleMapsUrl": "https://maps.google.com/?cid=16524442001029834820&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ1926mM2WW0gRRKjtHnOcUuU.jpg"
       },
       {
         "id": "ChIJKf4MLsaWW0gRkSrZFmoDVh0",
@@ -912,7 +954,8 @@
         "websiteUrl": "https://www.theghotel.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=2113880829281774225&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJKf4MLsaWW0gRkSrZFmoDVh0.jpg"
       },
       {
         "id": "ChIJi-y_1eqWW0gRcSd-9NvJoRQ",
@@ -933,7 +976,8 @@
         "websiteUrl": "http://www.noxhotelgalway.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1486691298545903473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJi-y_1eqWW0gRcSd-9NvJoRQ.jpg"
       },
       {
         "id": "ChIJt4EqVPqWW0gRyHYbxTFcTqg",
@@ -954,7 +998,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJt4EqVPqWW0gRyHYbxTFcTqg/photos/AcnlKN1iRQY9dbOrOkgoF06kGV7jEkKoPyJNKChjdqXSu4FwTL64qdpFcWlkIwMr8UkEry1-90L__Qh_EJwgGJRGaTw3M1gOR8qb3LtLo6ToR12bZEz5Q_UKbTxgWrhSJBIteTMUDP9ym11J3x0SfzOStgpAeGgUVElU32LAA9Ji8rtYnIosgJUzrLWAncfOEooXWqKJ9qvVZgYm65TxN-V45xrVWUfM4EWRASLR034T-HxJGnuO-MjNNHyb0aYhdDU4VtFiQ1OUZSDgu_SuuLUWCEDqXDgaRkzvI4gru55SMB-Z7g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12127732215385388744&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJt4EqVPqWW0gRyHYbxTFcTqg.jpg"
       },
       {
         "id": "ChIJ26Vsa9qXW0gRIseoyC6bNh4",
@@ -975,7 +1020,8 @@
         "websiteUrl": "http://www.magpiebakery.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=2177098095117518626&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ26Vsa9qXW0gRIseoyC6bNh4.jpg"
       },
       {
         "id": "ChIJH6KhH62XW0gRx2N8SrWWpGk",
@@ -997,7 +1043,8 @@
         "websiteUrl": "https://www.gourmettartco.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7612374975545893831&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJH6KhH62XW0gRx2N8SrWWpGk.jpg"
       },
       {
         "id": "ChIJsa_ExPqWW0gRrHPdMtdx1BE",
@@ -1019,7 +1066,8 @@
         "websiteUrl": "http://www.lepetitdelicegalway.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1284776962792715180&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJsa_ExPqWW0gRrHPdMtdx1BE.jpg"
       },
       {
         "id": "ChIJmQLfJkSXW0gR_EJLZlOdhx0",
@@ -1039,7 +1087,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmQLfJkSXW0gR_EJLZlOdhx0/photos/AcnlKN2M_TvY7aCEd2UkePSMkCX4HZ_bd7qN0GScU8vmjE1aIEVOkEm6bpBHpKzpUDmadeSOHn_1HW0mghMJDQqta8aeF6xyG9o-p3xck3FSLR7McBYH00S-8fsVpH7C9XuWxuRi57F9RfqH_m_QysFHGSs9XYXi4MFMY_BhgW2nINU8wQhr0YM01keaIG-ENO0v9yMGh166zYnRJq5CF754htDYuoYUGHzZsYBaYWRcmwI6X5QvuFMlfyOoVHQC2mg3HQtdZcJBM5NBP7EeWoFlR3jHW7Kkz-rqMAQ3PN1TYn5ZBhd0aJDZ_-cF5rhWPC1HVpcgx5FW0OQUM6IqOpVIs0lCd4bf-LrWNeoXmzwGv7rA-8lMPYgDiCXaECfcGMpfGtuxytt0l5Ca7QYvQN-ntqPEkKQxCm_qQf7kBQaoQYi2qA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2127842330479903484&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJmQLfJkSXW0gR_EJLZlOdhx0.jpg"
       },
       {
         "id": "ChIJZ02p_D2XW0gR-zmXlRRZ7Q8",
@@ -1060,7 +1109,8 @@
         "websiteUrl": "https://wyldecafe.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1147671424993278459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJZ02p_D2XW0gR-zmXlRRZ7Q8.png"
       },
       {
         "id": "ChIJZRbd9kGSW0gRpOr_D86FcOA",
@@ -1082,7 +1132,8 @@
         "websiteUrl": "https://supervalu.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=16172573381965638308&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJZRbd9kGSW0gRpOr_D86FcOA.jpg"
       },
       {
         "id": "ChIJcSIl9rKXW0gRsZX3eo6J7vE",
@@ -1103,7 +1154,8 @@
         "websiteUrl": "https://bakeboxtogo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17433022452639176113&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJcSIl9rKXW0gRsZX3eo6J7vE.jpg"
       },
       {
         "id": "ChIJ-cOQcgu9W0gRiDSzwnJtC2E",
@@ -1125,7 +1177,8 @@
         "websiteUrl": "https://supervalu.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=6992803186083050632&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ-cOQcgu9W0gRiDSzwnJtC2E.jpg"
       },
       {
         "id": "ChIJ-WH4uZSXW0gRMXFYWE65lpM",
@@ -1146,7 +1199,8 @@
         "websiteUrl": "http://www.meltd.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=10634891316222783793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:19.265Z",
-        "updatedAt": "2026-01-23T15:30:19.265Z"
+        "updatedAt": "2026-01-23T15:30:19.265Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ-WH4uZSXW0gRMXFYWE65lpM.jpg"
       }
     ],
     "adventure": [
@@ -1168,7 +1222,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJI6R_mIO9W0gR2XiVtfP8IA0/photos/AcnlKN2KX6kanbaSOkGXuafWl_8JMgCTW-STHr9MkPBhSE9bwrtjOs6HKNBwgnzn7tfHl3AooEmnG3Uf1AmoRSaChG0IINKVblXur2mV3ViXtOZP18wwIrJTmJOPS19BOcEpANyJFFebuZh17yVinQaIRjN9urFrzOl0Qw6sXulscsmLr3NfXGnxA6h0CkM1hRBmuIohz2Xnd9bAzfiV4QyMBkTA0fxHxz54b9jJucWlSSK8y0Se6pa7dLiBpajbpozdBmT9R7UQv3Ekp_YsSfKtPloq_XbcpsuJISzzQnSqbFV5wghmkyYP6wb8M581ePo6jyAJMDto_2Nboq3TAmbYZq4-hTT5eX1Ob17XVYmn0scqRBH2Yc-T-3SgOGMX8hxIN5bfnHe9UJVhR74AAjGuv_iyQVIXoC1DPN6fE_4KRed1umkT/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=946034045401528537&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJI6R_mIO9W0gR2XiVtfP8IA0.jpg"
       },
       {
         "id": "ChIJjeIbT72_W0gR4E0tg9MVzz8",
@@ -1189,7 +1244,8 @@
         "websiteUrl": "https://www.wildlands.ie/?utm_source=mybusiness&utm_medium=organic",
         "googleMapsUrl": "https://maps.google.com/?cid=4597917742751632864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJjeIbT72_W0gR4E0tg9MVzz8.jpg"
       },
       {
         "id": "ChIJfyB4h-WWW0gRhytmmOvgagU",
@@ -1210,7 +1266,8 @@
         "websiteUrl": "http://www.galwaycity.ie/public-parks",
         "googleMapsUrl": "https://maps.google.com/?cid=390371620199738247&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJfyB4h-WWW0gRhytmmOvgagU.jpg"
       },
       {
         "id": "ChIJOao4PsSXW0gRo_yoj3xxZ3M",
@@ -1230,7 +1287,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOao4PsSXW0gRo_yoj3xxZ3M/photos/AcnlKN1Bb2RMe3zeBVmok4M8BumwsTcjDKtXh83cAKgshEhjPXq_LYB9o0GqM4LL9C15hZWrdKbOXnmpywvTnaSo4I9QU34qCuKo8VPpRQeoRkn0noXMUi6ySQaoyQqCNYGYAIR2ZSeFGi8MlGd-pKwzkmF-UDw4UNDdYLvrbFGahNZih7JrdIZ97-Bs9QRsMjBBV13FSSzc7u6LqdLkBOJ-YxQ4j9N0r9AfRKHDxOCzjrYJ3pe6_GP3PsObxdazzmU-JpuZkNaNqUBonpS4awvoKEA7GuQ2NW_WCUSkmKyqJEgShnzB49kxaJeU6iJ3BRzhgIcyNllTYIdSjj4KRMxPH-SwmVWzbSylV1ADec7-f68O-uGYZTCB6wNeYvyIBQgpl2Hu9HtuK7KRL8BGnFC3Y6INmqAJ8FBAk7PFQyhADf8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8315740016763010211&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJOao4PsSXW0gRo_yoj3xxZ3M.jpg"
       },
       {
         "id": "ChIJycQ2Tv8jWkgRCiAh_ZYN9UU",
@@ -1251,7 +1309,8 @@
         "websiteUrl": "https://realadventures.ie/connemara/",
         "googleMapsUrl": "https://maps.google.com/?cid=5040950300054200330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJycQ2Tv8jWkgRCiAh_ZYN9UU.jpg"
       },
       {
         "id": "ChIJf-vykYa9W0gRc0XCg440PTM",
@@ -1272,7 +1331,8 @@
         "websiteUrl": "http://www.galwaycity.ie/public-parks-information/#12",
         "googleMapsUrl": "https://maps.google.com/?cid=3692165056214222195&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJf-vykYa9W0gRc0XCg440PTM.jpg"
       },
       {
         "id": "ChIJR3u25oYsWkgRiKj5B6RYf9w",
@@ -1293,7 +1353,8 @@
         "websiteUrl": "http://www.killaryadventure.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15888515471918082184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJR3u25oYsWkgRiKj5B6RYf9w.jpg"
       },
       {
         "id": "ChIJP8katPaWW0gRsu6CQUV0vj0",
@@ -1314,7 +1375,8 @@
         "websiteUrl": "http://universityofgalway.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=4449121322689294002&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJP8katPaWW0gRsu6CQUV0vj0.jpg"
       },
       {
         "id": "ChIJt8uzyTWdXEgRwNipAZN9kNk",
@@ -1335,7 +1397,8 @@
         "websiteUrl": "http://www.dergisle.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15677168373218269376&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJt8uzyTWdXEgRwNipAZN9kNk.jpg"
       },
       {
         "id": "ChIJTcmCjnaRW0gRHpvv2hSRBRk",
@@ -1355,7 +1418,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJTcmCjnaRW0gRHpvv2hSRBRk/photos/AcnlKN3BRZe1xx2Hsa-zyLspKggRITqu7flpCowx0ys7EkLR5iDPQDrfSrGEeKA1rDnZ_-oA8C9Nx5xyuHpSNNapUdFk9ZWHljoCB-s6iPugU5-vgk2mvNOLbz52BxfITWSmjgb_I4dUPNWgNkAstXJqUBInDL0vgGM0xgh8qo5qWrzKh98klgsH7g2ciyfYS5ROAE4ocOI5NDgvBKorQLcX1lp_VkC9GEwBB6w9mMqTmf0c0zbiMjtj2UuskvL76JbGQMa_iNuLTnkrmAV-Stv9U5UaS6cDsmGX_SbBy6oQIml9Fi0RUBLWqHTQ1XXUzzPlBIe1sbmGX9_biVOQT52J7PyKTEzhu7eec68xgSqOkK9YrNRrEz7nHlgadxH02DjxAupGZ0Tj544sl95FuKFPNm4bIwUqQDY2vMhEJXs45BiF5g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1803006744590261022&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJTcmCjnaRW0gRHpvv2hSRBRk.jpg"
       },
       {
         "id": "ChIJi30LoSyXW0gRz4MMrGcDrU0",
@@ -1375,7 +1439,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJi30LoSyXW0gRz4MMrGcDrU0/photos/AcnlKN1a4DGazTxDHGMtNC4UdEt0O-dsuQn-urCzfhJfqViLCUrZfuYuZckezGQRtTwoNtZxtBFqv64ADlNmvx-GaMk4iMklU-ILRptgd3wG7JZzpm8ARRnYRhCM5MUy0FVtFxhb5MW9gwPphnZfqGqOZGHnN_qrKAEiDgdupMH-u-BI73LWwEFHpEJJPNt3sAD0wPQGIhLh9LO3iqB8C4Y4iMXDP43Gw7rUG8z2plbG8NKuzGMKAgpXK4duocpiediRvJbhJBZ_NJruvDWhhGKo4NLTBNtScFunYOCLM8UqRVNIuDJj-HdbSlPAF-cISyIuxitbXHd1mqH9G3hFkdKztmlaaZfBQe-Vqwe33P42sCDORBI7bhM2J3lOrPmRGMFFyVsF8LH1zwz4ILrt6yLqvW0jm-LwltNQUAftEcx4VUgMpA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5597133655694410703&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJi30LoSyXW0gRz4MMrGcDrU0.jpg"
       },
       {
         "id": "ChIJE7KwB3otWkgR5rhXOndHMIQ",
@@ -1396,7 +1461,8 @@
         "websiteUrl": "http://www.killaryadventure.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9525191789294106854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJE7KwB3otWkgR5rhXOndHMIQ.jpg"
       },
       {
         "id": "ChIJJZjbAefDW0gRo7wXZj191PY",
@@ -1417,7 +1483,8 @@
         "websiteUrl": "http://www.ashfordoutdoors.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17785978531052240035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJJZjbAefDW0gRo7wXZj191PY.jpg"
       },
       {
         "id": "ChIJM0SyP8aFW0gRENNB_b5eCFE",
@@ -1437,7 +1504,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJM0SyP8aFW0gRENNB_b5eCFE/photos/AcnlKN0736s8u4hHxL0J2emGF_ULCCvbZv6KSC30ElhAPvr8j1yBqZuRF2oXz9xb8NO1D4wQwbjgojptqWB6ZScaIHKIai7Al9oUeRp-EYJZlQCqveQzvy69LJZZ7wilggm7Le_s5A5HdOGruYVbDzq5WBIM-12Z5Kz5dSyZhraGQOmn7SSWWgq2sKL2pPvTIg0Zq6YdGSrswSzGccJ6OE8P_WhlWN-v4Xp_10RSR4Lt3rrdQvQ6uZXuN3GP6WZcruACU0fvDt5N7igt2ueHDL96TuUzOpA8R7NzwRJYZzvESgVQWe-RhnhZQp78lw0HvdvdIP2zX_eU9w7oPkjJlSEVuLm0y3dJdE-Mq3MZEqxnUFmGGPFNWgP_6SmHcL5KTsX6CPAAkQ0X7jLpiJw_mp3Ed435J2owU7_Y4GB66BZ7VHZu_Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5839021091271594768&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJM0SyP8aFW0gRENNB_b5eCFE.jpg"
       },
       {
         "id": "ChIJc3wtJTvbW0gRKG2Zk180bEw",
@@ -1458,7 +1526,8 @@
         "websiteUrl": "https://www.facebook.com/petersburgOETC/",
         "googleMapsUrl": "https://maps.google.com/?cid=5506834029470117160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJc3wtJTvbW0gRKG2Zk180bEw.jpg"
       },
       {
         "id": "ChIJuVxzHmKXW0gReqpYSA3z83o",
@@ -1478,7 +1547,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuVxzHmKXW0gReqpYSA3z83o/photos/AcnlKN3oQZ2X56yHixP5T0NEkmGm9k1JfwPZsjuexvVtDeECLeOzQG21S8t2-nyxdxengV3Uc0y9xbV_fb24aACPyayq9n-vWBD2Opo_tFl3ykXV7AufsW9_oV1wSeGGumniAP0BUY1tOCWZqa1fk9ylVgrGC57IO2Pb0bUHkJ-ZoMNNAbJKqx6C1A156S_YPYDpNiSHXxYmzmMwgqxicWvnvCfv4Ue9NsPH4cyockFfstpdl_J_rln_YbHcTVOVLJ8vnT1Xmc__yfXUC15AXM1xMYweSRHnhaBnO5lcXJdEMptuhX-FYReu0v86d4hbVIBtbOnFjS7UyIaf5L5-QDJk8--XxVoPx8x9q-AHdhhZ7T7miwj2RDAEBHBTqCWxzwTbJYBbuMHudOuOgyYZ3DWDeBqAoSXKIEURSJtvLfICtyovGA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8859692130341792378&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJuVxzHmKXW0gReqpYSA3z83o.jpg"
       },
       {
         "id": "ChIJ56nyOACRW0gRSsXaC6aS3EU",
@@ -1518,7 +1588,8 @@
         "websiteUrl": "https://www.eilemental.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3610658621235934195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ9fTxeCK8W0gR8zP4y-KiGzI.jpg"
       },
       {
         "id": "ChIJhWt1iH2fW0gR5FGLtt5RcsA",
@@ -1539,7 +1610,8 @@
         "websiteUrl": "http://www.burrenoec.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13867236219614351844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJhWt1iH2fW0gR5FGLtt5RcsA.jpg"
       },
       {
         "id": "ChIJbeI2FjuRW0gRsmlukgmwKB0",
@@ -1560,7 +1632,8 @@
         "websiteUrl": "https://www.visitgalway.ie/explore/outdoors-and-recreation/parks-gardens-woodlands/merlin-park-woodland/",
         "googleMapsUrl": "https://maps.google.com/?cid=2101122781326240178&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJbeI2FjuRW0gRsmlukgmwKB0.jpg"
       },
       {
         "id": "ChIJw5fZxV6XW0gRzIDqYIuXavk",
@@ -1580,7 +1653,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJw5fZxV6XW0gRzIDqYIuXavk/photos/AcnlKN1MkAq-KWZ_gooU_IYtsz4TbLJSOdwJtcPgYKaRcEoNY17Li7o0P1BSXrZemZ4-wrdQbsQXlPhgsVLgKM8aV9zXcQqeeS5toxAXlKV6ZkEd04jOLaLg4f0C66ndMDEjJAgtiRRHNjtZpWg3skoiYMx-W33XRGsql17bJWGwTQA5yfzWCwQMsGQrB1DKEcsJglvA5v9LW1NqhASjY1fUy-EDPLJ2mUr2Qf1YN-AIfjZZtlVFXNeCxLAnyTzhS6VX_j1yjiAYEO2biYqOG-5entpu8NFgBp4MPo0Kh-CSHkebakyysunzqriKlEUREKbQbpzHRHKiVTikfpmKyjv_rwDKF39FIuIxSAR9QGLFcpTQgMtlgsF2q3QC-9aP3-I4f9WywNxpxYiiCERvA5X7lxKEyuE0m1dkF_moittW8uE9wCc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17972343887857615052&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJw5fZxV6XW0gRzIDqYIuXavk.jpg"
       },
       {
         "id": "ChIJ8VSOoomWW0gRnWMpUCr0EeA",
@@ -1600,7 +1674,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8VSOoomWW0gRnWMpUCr0EeA/photos/AcnlKN1J014p9yT-VWwfX-29BDjfMeJzP-qzVsvNeqS5ZTwF3vGlRyoSyqo2d4MJwHbv5eQxgA5_FDadH2NkJpK6ucJ4fvqxwcP_kJOqhFMkqcOuQv_YfVMfAQbad5Fzcok7gp5mIgGgyK3uNUNbANCQDOC03rJEv9IXX0ACrQpD1k0q_S-HFkHjRKaVtMtClnzhKnD6bkXSdUhIDcFZPlEaeB_rcANHN0PWHtyteum3p19wDkP2OOu_6KwfKK5ND66DTIAe4b3g1HJmNyp-PUJWTgHuN_XjoB6MnbimSBxcCCbvXQIWn8fHSAGewa4CKBXjnc2AIuv8-FvQYJpJ1oWe8IHq_nLWOku7Au9amG1VZr3dK8gl8Qzu4srbT756J6x7tcacvzmGiP6VXvISqkQEn6ZMxs_bhoj7PkRE1nUufFPiLQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16145954601670632349&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ8VSOoomWW0gRnWMpUCr0EeA.jpg"
       },
       {
         "id": "ChIJjV4lco6XW0gRrZP9jxQ8Dyk",
@@ -1620,7 +1695,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjV4lco6XW0gRrZP9jxQ8Dyk/photos/AcnlKN0oc0A7STwuZCrhTi0ErP8MG-jdVxOLJYwlQpGTX8cuS_4skFkkqf4ordpmjpYMbfRagnC4LQyAKdsFDY9YiuPh45HiYuBXXvBWP6UO1W7Q80FjIbNMMxpfz_TjM2MFmRVNypmWZhbpHK7TSvNKWXLdCAJf4mdhFF3dbNJAx2Tmo0Jqp3BQ1u93qeZxtfpyw6P9OorAn2SFZByG_EyHa0mTgw_bz14keSvaEe0snGZGpiRLea1MxdFydLb-nqtbDzfokMTvSQVjsdWvwZY6u_8E-D_X93_HH2z06MDhcxcTuRT-G1NHNESLJ6sDssUUyaDhiSbGwwP26_JSugTh6YkChIXBPmGXtpIGHxxTEnFI_ALx1AwRFuGFsAEHdd_JJ1v1xPTQiSq9hAlew6cbf8Z5Cp5wBDuSDlNSjCoxcDOuHw1x/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2958649539218477997&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJjV4lco6XW0gRrZP9jxQ8Dyk.jpg"
       },
       {
         "id": "ChIJxTIBVNKXW0gRDbckklbQGYI",
@@ -1640,7 +1716,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJxTIBVNKXW0gRDbckklbQGYI/photos/AcnlKN27ba3TT7G4nJNik64EQSZ-_WNI_L-K_Pwb6WGhdhzG6G98pvd1s3UQtioA852a8888TDalvgwelPo1SNLxlE6bdHv5ayfkGn0iKOmqtR2E08lfdCcI5YrZdsfGyDgMZiHbGAexmeYvzuHgoJ4YRF93h223q_HWvy-qsHuOg8ht1z8RDOp6VnCn5vmiacN2Iqsb8mfBzPHz14R2n1bzoP4mYWgIexr62s6FddxdyfFZTjELgQIm9K9XQys5ajJFqkz_CNmodL1g_aIog3e11HBytqagfHJLWoZ36ftii2kOvBnF-e1t1Fzrvn8pkbYac--FeJjSjfLop4XuxIelmHF9zPnThASB1hJul_7VrrLSCiX5c3xxZdxu2RI-mnGK6Vrf6P3PMm1b-ptih0ZUZBIrevuvuMX8FPOzBNvXwSKifUWx/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9374753169586042637&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJxTIBVNKXW0gRDbckklbQGYI.jpg"
       },
       {
         "id": "ChIJpe79yWuXW0gRc3M8j_vcqPw",
@@ -1660,7 +1737,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJpe79yWuXW0gRc3M8j_vcqPw/photos/AcnlKN2OysLzINFj12kXvkHo-a7iaNMw_FML_Icl2vj9qG0yLRkjVOo60ywaDre1-3lH2vG2tjkQ2fUY65wUPes49UzcpWNSHxew8e_yUoJUSQhn76Ww9aKuBR_h_l8RnmOV1jpKZl7VrFsCPS6XN_NatIaW2HjHNqeaqhLxVgbrByoJD7b2pQd-1Jvbu2Rc-pjoCJX2sw8J20lR4LJKumLSW_Jlps7YG3_sIpNhyvzazU0te83xTWst-OjnuDW9f6mYGZY4i7PH9H5_LbynW2pMDFvKEWFh-ksSTXggZHfpqHeAGBDGM4CflrNfFOkhjhVTsOaSTCKgg15t5gGltUXiHEtnp9Mv6CdAOJW5OMZ9Ak03lGN7DS1MvVglfU2i9VroSZJaGWryiSgsMz0Niog3j4OPk0W8RoBN7r_05vNxkHM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18206044466643235699&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:20.777Z",
-        "updatedAt": "2026-01-23T15:30:20.777Z"
+        "updatedAt": "2026-01-23T15:30:20.777Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJpe79yWuXW0gRc3M8j_vcqPw.jpg"
       }
     ],
     "cultural": [
@@ -1683,7 +1761,8 @@
         "websiteUrl": "http://www.museum.ie/Country-Life",
         "googleMapsUrl": "https://maps.google.com/?cid=666036843238135658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJi2EO4p1dWUgRaheI6Po8Pgk.jpg"
       },
       {
         "id": "ChIJd4-52PqWW0gRMXjme0kBpQE",
@@ -1705,7 +1784,8 @@
         "websiteUrl": "https://www.coffeewerkandpress.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=118502380318128177&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJd4-52PqWW0gRMXjme0kBpQE.jpg"
       },
       {
         "id": "ChIJ4xuu1--WW0gRZkTARnA7UbI",
@@ -1726,7 +1806,8 @@
         "websiteUrl": "http://tht.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=12849116565274117222&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ4xuu1--WW0gRZkTARnA7UbI.jpg"
       },
       {
         "id": "ChIJ8-if2fqWW0gRYco6pfmcbnE",
@@ -1747,7 +1828,8 @@
         "websiteUrl": "http://www.thelatinquarter.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=8173642969756912225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ8-if2fqWW0gRYco6pfmcbnE.jpg"
       },
       {
         "id": "ChIJs8y-QfuWW0gRn1qkFnd8rjo",
@@ -1768,7 +1850,8 @@
         "websiteUrl": "http://www.galwaycitymuseum.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=4228453951070296735&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJs8y-QfuWW0gRn1qkFnd8rjo.jpg"
       },
       {
         "id": "ChIJad5E32dcW0gRk2j5BIUk-T4",
@@ -1789,7 +1872,8 @@
         "websiteUrl": "http://www.huntmuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4537698253285189779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJad5E32dcW0gRk2j5BIUk-T4.jpg"
       },
       {
         "id": "ChIJl01UavuWW0gRFpECMV1epls",
@@ -1810,7 +1894,8 @@
         "websiteUrl": "https://www.galwaytourism.ie/pThe-Spanish-Arch.html",
         "googleMapsUrl": "https://maps.google.com/?cid=6604069657932632342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJl01UavuWW0gRFpECMV1epls.jpg"
       },
       {
         "id": "ChIJP69vsmqXW0gRZu5jekmDK54",
@@ -1831,7 +1916,8 @@
         "websiteUrl": "https://www.instagram.com/outset_gallery/",
         "googleMapsUrl": "https://maps.google.com/?cid=11397347633600392806&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJP69vsmqXW0gRZu5jekmDK54.jpg"
       },
       {
         "id": "ChIJh3uhZaOWW0gR4vCXYOI4MYU",
@@ -1852,7 +1938,8 @@
         "websiteUrl": "http://performingartsschoolgalway.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9597514825837572322&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJh3uhZaOWW0gR4vCXYOI4MYU.jpg"
       },
       {
         "id": "ChIJb1RcffyWW0gR5Wm_lBGYieI",
@@ -1873,7 +1960,8 @@
         "websiteUrl": "http://www.galwaybaytours.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16323745525658511845&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJb1RcffyWW0gR5Wm_lBGYieI.jpg"
       },
       {
         "id": "ChIJY5BLj8CWW0gRekVZnwyWO5o",
@@ -1894,7 +1982,8 @@
         "websiteUrl": "http://www.kennys.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=11113641486424032634&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJY5BLj8CWW0gRekVZnwyWO5o.jpg"
       },
       {
         "id": "ChIJZx2NnbSWW0gRFxWdhYysV7g",
@@ -1914,7 +2003,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJZx2NnbSWW0gRFxWdhYysV7g/photos/AcnlKN2t59LA35K7YrLWVZn0oRdVbiC6PiOa7-gsg8dxQ72w6vFs8JGJtS9eIS-QNnpIL_g8tFVhFDwiBeO6F-F_IZubyL697fzP_ceUssapFmtYUe3X5UxTS58JTG8v-SmGuiYliplRClNeOb5hBd8kktdrZwl-8EnKXzhcHZqnLSLUHxM8ZcJDHTtO--HHyrdA32B7W4McGGDIUDq11xepnOYzMlYqs9TiB_dEV68LUgSMz04xH7Tvorq9AYPdgnaX_auiWLHVDAYxQ_N4fgQV0cAh6MOdjyWV80CjYqh-utd_YQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13283275345489630487&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJZx2NnbSWW0gRFxWdhYysV7g.jpg"
       },
       {
         "id": "ChIJw0E6vPqWW0gRWFQ2g3b9XQA",
@@ -1935,7 +2025,8 @@
         "websiteUrl": "https://www.instagram.com/norabarnaclehouse/",
         "googleMapsUrl": "https://maps.google.com/?cid=26455858283435096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJw0E6vPqWW0gRWFQ2g3b9XQA.jpg"
       },
       {
         "id": "ChIJe4EOLeWWW0gRxZXP9CqMUhE",
@@ -1956,7 +2047,8 @@
         "websiteUrl": "http://www.antaibhdhearc.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1248214162858808773&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJe4EOLeWWW0gRxZXP9CqMUhE.jpg"
       },
       {
         "id": "ChIJ6wwQkjaXW0gR7nlGq9cShvs",
@@ -1977,7 +2069,8 @@
         "websiteUrl": "http://www.engageartstudios.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18124194467899931118&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ6wwQkjaXW0gR7nlGq9cShvs.jpg"
       },
       {
         "id": "ChIJD-NAC_GWW0gRf-IIBGyu7IE",
@@ -1998,7 +2091,8 @@
         "websiteUrl": "https://m.facebook.com/pages/ODonoghue-Centre-for-DramaTheatre-and-Performance/100189453847990",
         "googleMapsUrl": "https://maps.google.com/?cid=9362049504343810687&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJD-NAC_GWW0gRf-IIBGyu7IE.jpg"
       },
       {
         "id": "ChIJBxASZkuRW0gRkFW-NXlWOr4",
@@ -2019,7 +2113,8 @@
         "websiteUrl": "http://www.branar.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=13707363494448223632&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJBxASZkuRW0gRkFW-NXlWOr4.jpg"
       },
       {
         "id": "ChIJe6lgAy6XW0gRD1WPv35bw40",
@@ -2039,7 +2134,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJe6lgAy6XW0gRD1WPv35bw40/photos/AcnlKN0BFM_o_sZYevjGJBVFBfQBCxE-NJTjl8EIMlpR_MqZu9e_ir2dkUZNsmiRnuAcE4ktwV14DBNQmchDjT4Zm2E1ZhMi6-7iyguUAtJ-5AlmomKUEpywJd5pspahpr5BjVKT02xZYh00BSYgVwpsHYkGYVu6MVcpsRqwZE1bVoeXGznvuw3HS05oVFVSqpzlD8N-JX_TkQVEn6gL2fabFk6y0hIhoUE27pZjes6ukZH4QnT0ntRpPvfPxPU0xfN6ITucQebv0mB3SkWjlNaLXYoY3xNtjOp46z-rUFCrJ9af8KngTYeXDMTML1lh0PFuCL0y6_eQwSiZdraSw8UhOX-YrM8MxtXeTA9ErEXpfEwE9cwpWHWMsvbCckwFaPQ0Byl71IijNIKuTpq3fPRvSfI4nP8g30gkfGCou8yyQLdg7P0f/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10215108979744265487&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJe6lgAy6XW0gRD1WPv35bw40.jpg"
       },
       {
         "id": "ChIJq5Tey_qWW0gR02X72zEsSuU",
@@ -2060,7 +2156,8 @@
         "websiteUrl": "http://claddaghlegend.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16522066775617791443&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJq5Tey_qWW0gR02X72zEsSuU.jpg"
       },
       {
         "id": "ChIJmcfCh_GWW0gRO-7VA4yyfxA",
@@ -2080,7 +2177,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmcfCh_GWW0gRO-7VA4yyfxA/photos/AcnlKN03CHECe9AQ0CGnOsioStxBavlHZv1O15pqk_IVW5ixWJ3CqfsbwRSopMYWQto0pvuTzketk8GDYgHkrIB3GgXiDGDVzAHzvEdcydysD4rHw_aEq3rEfNZIG6YHTfxTkQS5NKXKdLIlLBwDwpXt89HUdgicvvKvwd3mP72vy59iU5K1_JnUV5RwEumj3HlvooIaYeZLcfVks029jfahafDF6uBi3t5p6KHTE1hR650gOqRw2FjAHSReYQXWSf7ufMHzR-uXFzEi9Mn2fgu0mE2Hs5sMfxgnvbrwkYuiXDHHvYkzmfXIaWpN5dOYP5j3LKc2pUYfGi0EzU4-Xn-YKi5BFJxTglOrAIquCdlP49xoLC7AXpclVb3YZk0YooBIcspYTVQZk9_w2z_ETOzUYiOqzhTtrreOOWxcCb-eIoG8oA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1188865141078617659&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJmcfCh_GWW0gRO-7VA4yyfxA.jpg"
       },
       {
         "id": "ChIJl-4Ds_uWW0gR5_6w1yicLwc",
@@ -2101,7 +2199,8 @@
         "websiteUrl": "https://www.galwayartscentre.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=517804181402222311&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJl-4Ds_uWW0gR5_6w1yicLwc.jpg"
       },
       {
         "id": "ChIJpeEWbnKiW0gRs4AE7_zJTmE",
@@ -2122,7 +2221,8 @@
         "websiteUrl": "http://www.russellgallery.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=7011763758041432243&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJpeEWbnKiW0gRs4AE7_zJTmE.jpg"
       },
       {
         "id": "ChIJzdhkHRaXW0gRbjDRDzUq_Kk",
@@ -2143,7 +2243,8 @@
         "websiteUrl": "https://www.facebook.com/ccmireland",
         "googleMapsUrl": "https://maps.google.com/?cid=12248711493927907438&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJzdhkHRaXW0gRbjDRDzUq_Kk.jpg"
       },
       {
         "id": "ChIJr3Fqp_uWW0gRFz7w10FkJPo",
@@ -2164,7 +2265,8 @@
         "websiteUrl": "https://www.galwaytourism.ie/galway-fisheries-watchtower-museum/",
         "googleMapsUrl": "https://maps.google.com/?cid=18024641842602065431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJr3Fqp_uWW0gRFz7w10FkJPo.jpg"
       },
       {
         "id": "ChIJnQb8tvuWW0gRvQZW74Lw6mM",
@@ -2185,7 +2287,8 @@
         "websiteUrl": "http://www.justartitgalway.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7199831399456966333&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJnQb8tvuWW0gRvQZW74Lw6mM.jpg"
       },
       {
         "id": "ChIJIa6zx1OXW0gRprjJ4O7e9nE",
@@ -2206,7 +2309,8 @@
         "websiteUrl": "http://www.giaf.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=8211996088111577254&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJIa6zx1OXW0gRprjJ4O7e9nE.jpg"
       },
       {
         "id": "ChIJr89mvPOWW0gRFm5g8t0yMdI",
@@ -2245,7 +2349,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNQ_xDACXW0gR0hS2ZD8KODE/photos/AcnlKN1rdyJdbJ1EfwsqMO3c1QeUZpos-_siClWcejdOeQ44I3jGRtEzpLtxoRaFFu1JkTEQv0YnpnUDynpYF3tuoZIcByt5raKCzZ9o8JR5ppu10qd8bc8zFJ8e1V_BgyM4f3E45uoqmH3I1uIHhmzP-baZ4zizHGln4gTi9eT4VfjkyZP7maG6v3d3FKrmjRhu_ANaOFYrAukHB-NUP-wD-TX7V08hLXTNLT18kN5rWujZ3-w5BH6mdjDlrJi3PJUJRRKhk7VWEgq9M2rvecyxMYa5QFMEkOGCBPN8AXWJqNdK6ac1BUNRH8oNwWJVO6O8wF4YhXFV2hpW_S6LvWg1mZCzF19xTF0foorcPa6Tmqd_T_ienqAnRH0zDyOiuMzeZnaUgjxy5xYHgLYNLau4yWgRk42jB4J19ken4Rg_3oewhQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3546595973943137490&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJNQ_xDACXW0gR0hS2ZD8KODE.jpg"
       },
       {
         "id": "ChIJRaKXsPqWW0gR8rPbKFr-m2w",
@@ -2266,7 +2371,8 @@
         "websiteUrl": "https://www.galwaytourism.ie/lynch-memorial-window/",
         "googleMapsUrl": "https://maps.google.com/?cid=7826128440672367602&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJRaKXsPqWW0gR8rPbKFr-m2w.jpg"
       },
       {
         "id": "ChIJwXSSOQCXW0gRjufkabvilwU",
@@ -2287,7 +2393,8 @@
         "websiteUrl": "https://claddaghring.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=403039986236319630&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:21.809Z",
-        "updatedAt": "2026-01-23T15:30:21.809Z"
+        "updatedAt": "2026-01-23T15:30:21.809Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJwXSSOQCXW0gRjufkabvilwU.jpg"
       }
     ],
     "relaxation": [
@@ -2309,7 +2416,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJI6R_mIO9W0gR2XiVtfP8IA0/photos/AcnlKN3iMsX16sqdk8y61NE6KVKAx-AIHX5mrCKpGrU4UspfqeLgGohO99qAa0bWRgabC4XL212OINdU5YNtS2FXZWRp0APWRWjS_8PmKeFBQ_4bLdsI2FhAshc4TnyRVh6jOZI3Udb-_izARTdE1huG9bnK6uzYjX2FveYnm8AAUB3idugdrHTQ8lGPssSFf-OQ5-cjOpL5DrBME7ZoIK5UKdBDXv1pOAvtqF09GQhaaFfrjmzYEo_RsswmiCphrLBl03AlUuGVl3FWVrARNmoWejOhQtdgEk5Upz6hY1hGGKMGUhWYUfe7woUeiwM-x6bvtiaH0EgMHYTNP2qICM08SESIB3wfsLN0QQuDkLH7RN9ubgJcWvhL_NYL79qQRL3GQZ44FAPGJbvsTOpyzefq7hrg61cjQ4Ajci3qN5s6wP1gB8UL/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=946034045401528537&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJI6R_mIO9W0gR2XiVtfP8IA0.jpg"
       },
       {
         "id": "ChIJ2cD92PuWW0gR4CnNRRRapZY",
@@ -2331,7 +2439,8 @@
         "websiteUrl": "http://www.secretgardengalway.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10855181519963367904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ2cD92PuWW0gR4CnNRRRapZY.jpg"
       },
       {
         "id": "ChIJZV0xn3nAW0gR_BGbpt8z6Hc",
@@ -2352,7 +2461,8 @@
         "websiteUrl": "https://www.brigitsgarden.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=8640212920776200700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJZV0xn3nAW0gR_BGbpt8z6Hc.png"
       },
       {
         "id": "ChIJfyB4h-WWW0gRhytmmOvgagU",
@@ -2373,7 +2483,8 @@
         "websiteUrl": "http://www.galwaycity.ie/public-parks",
         "googleMapsUrl": "https://maps.google.com/?cid=390371620199738247&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJfyB4h-WWW0gRhytmmOvgagU.jpg"
       },
       {
         "id": "ChIJfeTMeXCWW0gRBYSPEA92HRU",
@@ -2394,7 +2505,8 @@
         "websiteUrl": "https://www.glenloabbeyhotel.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1521502056195523589&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJfeTMeXCWW0gRBYSPEA92HRU.jpg"
       },
       {
         "id": "ChIJOao4PsSXW0gRo_yoj3xxZ3M",
@@ -2414,7 +2526,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOao4PsSXW0gRo_yoj3xxZ3M/photos/AcnlKN0oAXVVLGILVt9i5ypY3rLxOg8-kh1PE4NolJjX3cNv9sGG96O82Qnl96MCsa52jEUHOeEkkMBA533eoG4CYzEgl9DulnsjGmK8ccuafttF7uxUpdJMzallSeNiANDoPazHaYeuKxnwWtLyfgnmS1eOGEItBl_gB4t_dfRxjIa9aGHsDvQWg9WewO_3FUfgmS8nESxOCfrRakYjhDT3SFFQaToQqYrUBJelctbx061uXeHlJkTj_0aIyydu_uTBxO8SS7e0nHTUwaHMc3qf4MqxoEjhDCuWpr94snVL2LWheYscGmOe9SJf-zR_2f1aUu7IZpQ3zW-IiiJv0SCfF9a6tj10lkQt6QZ8RbIVWlPUEd6LOxSR0P5ysVfecUQdRjuWMZWYRu8p_wNiQifb0GVKnwFqkKgPlQV11iGfyrA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8315740016763010211&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJOao4PsSXW0gRo_yoj3xxZ3M.jpg"
       },
       {
         "id": "ChIJkdPDOuaWW0gR6I4bGG8zAHw",
@@ -2435,7 +2548,8 @@
         "websiteUrl": "https://www.thegalmont.com/en/?utm_source=google&utm_medium=organic&utm_campaign=Knowledge-Graph",
         "googleMapsUrl": "https://maps.google.com/?cid=8935198212941909736&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJkdPDOuaWW0gR6I4bGG8zAHw.jpg"
       },
       {
         "id": "ChIJKf4MLsaWW0gRkSrZFmoDVh0",
@@ -2456,7 +2570,8 @@
         "websiteUrl": "https://www.theghotel.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=2113880829281774225&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJKf4MLsaWW0gRkSrZFmoDVh0.jpg"
       },
       {
         "id": "ChIJSzkwm3SXW0gRrBoBiOU3Op0",
@@ -2477,7 +2592,8 @@
         "websiteUrl": "http://www.sisuclinic.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11329429271572716204&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJSzkwm3SXW0gRrBoBiOU3Op0.png"
       },
       {
         "id": "ChIJeenBXeWWW0gRlj70dvrwCM4",
@@ -2498,7 +2614,8 @@
         "websiteUrl": "https://www.glamgals.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=14846381130155048598&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJeenBXeWWW0gRlj70dvrwCM4.png"
       },
       {
         "id": "ChIJj6ZAs6mXW0gRULntKjwzKSc",
@@ -2519,7 +2636,8 @@
         "websiteUrl": "http://www.drlauraclinic.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=2821842975035603280&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJj6ZAs6mXW0gRULntKjwzKSc.jpg"
       },
       {
         "id": "ChIJT9_ledKRW0gRTxjTIaIoyqw",
@@ -2540,7 +2658,8 @@
         "websiteUrl": "http://saltfloatandrecovery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12450808796636452943&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJT9_ledKRW0gRTxjTIaIoyqw.jpg"
       },
       {
         "id": "ChIJsV6S9-WWW0gRmblxMNF6M9o",
@@ -2561,7 +2680,8 @@
         "websiteUrl": "https://galwaygardencentre.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=15723045762960046489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJsV6S9-WWW0gRmblxMNF6M9o.jpg"
       },
       {
         "id": "ChIJf-vykYa9W0gRc0XCg440PTM",
@@ -2582,7 +2702,8 @@
         "websiteUrl": "http://www.galwaycity.ie/public-parks-information/#12",
         "googleMapsUrl": "https://maps.google.com/?cid=3692165056214222195&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJf-vykYa9W0gRc0XCg440PTM.jpg"
       },
       {
         "id": "ChIJP8katPaWW0gRsu6CQUV0vj0",
@@ -2603,7 +2724,8 @@
         "websiteUrl": "http://universityofgalway.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=4449121322689294002&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJP8katPaWW0gRsu6CQUV0vj0.jpg"
       },
       {
         "id": "ChIJnVvRBV-9W0gRG1W5oItdkbE",
@@ -2624,7 +2746,8 @@
         "websiteUrl": "https://powersaunas.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=12795110870614627611&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJnVvRBV-9W0gRG1W5oItdkbE.jpg"
       },
       {
         "id": "ChIJAa9ih7SXW0gRSy2ZRaHPiUo",
@@ -2645,7 +2768,8 @@
         "websiteUrl": "https://www.galwaytourism.ie/circle-of-life-commemorative-garden/",
         "googleMapsUrl": "https://maps.google.com/?cid=5371052322180377931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJAa9ih7SXW0gRSy2ZRaHPiUo.jpg"
       },
       {
         "id": "ChIJeQ7GG7uWW0gRD_hYENmt4iI",
@@ -2666,7 +2790,8 @@
         "websiteUrl": "https://mcgaughs.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2513762689819932687&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJeQ7GG7uWW0gRD_hYENmt4iI.jpg"
       },
       {
         "id": "ChIJqysJf6uaW0gRiQUVLwlUgbQ",
@@ -2687,7 +2812,8 @@
         "websiteUrl": "http://www.clarenbridgegardencentre.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=13006769597244048777&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJqysJf6uaW0gRiQUVLwlUgbQ.jpg"
       },
       {
         "id": "ChIJuVxzHmKXW0gReqpYSA3z83o",
@@ -2707,7 +2833,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuVxzHmKXW0gReqpYSA3z83o/photos/AcnlKN0cnFZCNvub42yScVUD3v2sexow9pU-R7otWxPIIvhXUd7rsoV85V6-JXDOaklTZje2P0EdeAqEOR1l6-KoWxLZT3J9n7zRxtkEI4kWEZYLlkSp1_Y4_9v2C-pS017nOQCY55rLmuYNhpVJ-onWGdT-aWzyqCh_rfbTAeg6Ti0_VS7xpbgCXocZYPy63PCRG-UxA7mKv0BamSTdt1k6dKhU3uHvEDhiBR1iWg5aHwW_hX_TeZhKuZ5HqTRNnBnAV9HYUavbSDWGtj1camAGr2jPy-doRFefe6deKDGa9bYpNtk44NY4tJUGot8jiOLLIdcZ-UUQ2yETc0UGNWAaqI8f-S70fX4fK2jugUTWJCE43C1zNB8nEzZtVTs7wfxGO2SrelsKcUzwwgS-TOTf6J2H1DICPBJTIRJ0Bb3c3bPWPw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8859692130341792378&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJuVxzHmKXW0gReqpYSA3z83o.jpg"
       },
       {
         "id": "ChIJY_41djyRW0gR_o8arlHc3JY",
@@ -2728,7 +2855,8 @@
         "websiteUrl": "https://www.facebook.com/merlinwoodscommunitygarden/",
         "googleMapsUrl": "https://maps.google.com/?cid=10870805843936972798&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJY_41djyRW0gR_o8arlHc3JY.jpg"
       },
       {
         "id": "ChIJLyrsbtqXW0gRupIjKCKhpws",
@@ -2748,7 +2876,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJLyrsbtqXW0gRupIjKCKhpws/photos/AcnlKN1r2EhgM8Ndq9UxrvGgOpb5wFVZxYrEWTn4IquIqhkcLtvrCePUcj-PECMi73dZOt0p-VaWVS0MAXRgu9rY94-zNc0oeHND-6KthRzre5u2YFQMR7B3knedw8JBbbANG54hE6KK2Mx2SsMITN6HSvPuX5939QD5TIm9o-9BwA5c3DjXQ23qb9Cmra7MWuIIQ2pLoyBE-RhnK4F1LnqP0ddAb63NzBhH6tA0h2tRMrTNB4RxCmub9YJxoYdjlthukAzakB1qy56Pxbc2kNf24oCpjtZBgolAl-WvPLaij3BY7tv_V2YhDeUDa6uHrEHT6kwhWv-H9DiXfMgd0C-EUfWPLPz8BQ3KnhYg1JkfJ3H8B12rbleFuOAya3qOVaTVbl29UnL429GkYRFxW2cHCjvUxMq2_E8vYhNlRJIIym1xHlu5/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=839817023602266810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJLyrsbtqXW0gRupIjKCKhpws.jpg"
       },
       {
         "id": "ChIJ6-sILoqRW0gRPxOShzcMiY8",
@@ -2769,7 +2898,8 @@
         "websiteUrl": "https://horkans.ie/our-stores/",
         "googleMapsUrl": "https://maps.google.com/?cid=10342811451870286655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ6-sILoqRW0gRPxOShzcMiY8.jpg"
       },
       {
         "id": "ChIJbeI2FjuRW0gRsmlukgmwKB0",
@@ -2790,7 +2920,8 @@
         "websiteUrl": "https://www.visitgalway.ie/explore/outdoors-and-recreation/parks-gardens-woodlands/merlin-park-woodland/",
         "googleMapsUrl": "https://maps.google.com/?cid=2101122781326240178&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJbeI2FjuRW0gRsmlukgmwKB0.jpg"
       },
       {
         "id": "ChIJC5mumYiXW0gRcS5PejELcnY",
@@ -2811,7 +2942,8 @@
         "websiteUrl": "https://eyresquarethaimassage.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8534896550953823857&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJC5mumYiXW0gRcS5PejELcnY.jpg"
       },
       {
         "id": "ChIJw5fZxV6XW0gRzIDqYIuXavk",
@@ -2831,7 +2963,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJw5fZxV6XW0gRzIDqYIuXavk/photos/AcnlKN0z1F_VeTvbobnyB2Gmq1SQoS01REAcawpiURV5kO4IK7OSWZJlKNLpfNzR-6orsQoYTisvRvZ6fwAwm9m5MHBBFXTklh6ooihBD1RLPQa7o139Hs3CF1OHS-X7kKrNmMWe8fcp7-9pcB3FM1BllmwkqlXuNzxbmiGq7Yw-XfUAFGVYZMzBKxopoL40b-w5noESYzwNpS0zIPMFRRf8Ygbn4jLE-1d8iYCurEdtaq0aIKzaCeS066UYp7nbiaz1Uq3SqAZFtsNL-I_cCAjvR9EYnIy5GZSdLSY7M4rnhdctRPcLwf8sm8w-c3rG7saTPRiW3jXjnuMlB_ZzYx5jNTEompIvXeHac5ARjK1icfEnM9iHMOJ3LMzv-foZqScA7ub6Li-Ilx81id2o-OEIFf9cFtPXRJvKQ0IZOEjvbSeAMCo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17972343887857615052&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJw5fZxV6XW0gRzIDqYIuXavk.jpg"
       },
       {
         "id": "ChIJ8VSOoomWW0gRnWMpUCr0EeA",
@@ -2851,7 +2984,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8VSOoomWW0gRnWMpUCr0EeA/photos/AcnlKN14XkQAbPDTytT6PkbpPz10C2a-19h9QZn9m0Z-DFnYr0eHAHTGgChXlcnAxiNOSFWmQKG9cqqye9Mg1KWl6VwDRg_5PNhezwggjTTrDAvePGsdnZpVzhLX4O_OTA6AUlVJsgTRmZk9ttsB4teAlSG6wcpGseEGFuz6RjM9S-eGWxqY6zF-QLyO6zgla0HxEXFcg4PJUkQ5AiIU-YJquBGfySVS9mBg5AO4LDkeDP-dMCQN-AaXJfpCI3j4qisApGV5VN6Pn9TExfilyJdC8I-j1MMm6qvECqJG0a3U3Fbf0npDwNlF49sL2HgxwDT0Bgq5baz_cWV1I-6HBtc2Wr18piPVzkCX6dhzT3xZVy2vgQmQrjydXxm1E7sGdS8LO4UpEZdSWMU7eTCCCJB_u83y8-lpyPLu2LSBoTyWr5e4gQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16145954601670632349&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ8VSOoomWW0gRnWMpUCr0EeA.jpg"
       },
       {
         "id": "ChIJxTIBVNKXW0gRDbckklbQGYI",
@@ -2871,7 +3005,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJxTIBVNKXW0gRDbckklbQGYI/photos/AcnlKN2y3iPBCXeV5CtMnykK6nDfKJM2upU4PkVvEPRRJHqodnmTSF4Oqf9ADvW6bCkbLHCgHkkIMMPcwzDmOXsVJQzV6W6OSKPKBPQepEqywW6pwhM--HTrqdN38HVjKFk6Fuxn9SnHM1DwgL1tvEO2L26vVn_uhNbYs3VIT4JVaFJ4YnWQQfBU7P7Ozi-RoZRMQwvLz209DgWOxFVGmcAMOJ1b9kPPhjh4M4CsI5PMh4AZpiYetQP21R5TF634iVoeWcr2od7xpZGI5TKVgVQnAaL2eQf5nDx_ccOdXyzYAADXfMe8fV7Z6KkFWV8LViAGc4hzItg8Kz8uxHeFXmormSDPKNgumTSSwfoFxXDl6nyXBrB6wK2X_JFG5hiKsXRhabiiD_628WZKmtvtku8H3Wtn6GQ2BXc8zNZwAjpZKrkes2Sp/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9374753169586042637&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJxTIBVNKXW0gRDbckklbQGYI.jpg"
       },
       {
         "id": "ChIJjU5jrcCWW0gRdT52yhET50s",
@@ -2892,7 +3027,8 @@
         "websiteUrl": "https://fattonys.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=5469361239596875381&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:23.133Z",
-        "updatedAt": "2026-01-23T15:30:23.133Z"
+        "updatedAt": "2026-01-23T15:30:23.133Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJjU5jrcCWW0gRdT52yhET50s.jpg"
       }
     ],
     "nightlife": [
@@ -2916,7 +3052,8 @@
         "websiteUrl": "http://www.thecranebar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17654986865292511339&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ2XtCb_mWW0gRa4jyiwMdA_U.jpg"
       },
       {
         "id": "ChIJB4hMYO-WW0gR3cjs-6W4FHc",
@@ -2938,7 +3075,8 @@
         "websiteUrl": "https://oconnellsgalway.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=8580686213083351261&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJB4hMYO-WW0gR3cjs-6W4FHc.jpg"
       },
       {
         "id": "ChIJTWOkxfqWW0gRWjUgvTjEiMk",
@@ -2960,7 +3098,8 @@
         "websiteUrl": "https://tigchoiligalway.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14522072746426381658&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJTWOkxfqWW0gRWjUgvTjEiMk.jpg"
       },
       {
         "id": "ChIJjY2YvfuWW0gRSRz3sA6V2DM",
@@ -2982,7 +3121,8 @@
         "websiteUrl": "http://www.galwaybaybrewery.com/salthouse/",
         "googleMapsUrl": "https://maps.google.com/?cid=3735899781234891849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJjY2YvfuWW0gRSRz3sA6V2DM.jpg"
       },
       {
         "id": "ChIJ1SgeKPuWW0gRzO4UrflaezY",
@@ -3004,7 +3144,8 @@
         "websiteUrl": "http://www.tighneachtain.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3925831528580705996&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ1SgeKPuWW0gRzO4UrflaezY.jpg"
       },
       {
         "id": "ChIJfeTMeXCWW0gRBYSPEA92HRU",
@@ -3025,7 +3166,8 @@
         "websiteUrl": "https://www.glenloabbeyhotel.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1521502056195523589&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJfeTMeXCWW0gRBYSPEA92HRU.jpg"
       },
       {
         "id": "ChIJZRxGGfW8W0gRgp-iOtJTTG4",
@@ -3046,7 +3188,8 @@
         "websiteUrl": "http://www.connemaracoasthotel.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=7947819604794056578&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJZRxGGfW8W0gRgp-iOtJTTG4.jpg"
       },
       {
         "id": "ChIJV7EJf-WWW0gRt0EVdevhKFE",
@@ -3067,7 +3210,8 @@
         "websiteUrl": "https://www.skeffington.ie/?utm_source=mybusiness&utm_medium=organic",
         "googleMapsUrl": "https://maps.google.com/?cid=5848172517538480567&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJV7EJf-WWW0gRt0EVdevhKFE.jpg"
       },
       {
         "id": "ChIJhffaIPuWW0gRx8LBuMQz5jY",
@@ -3089,7 +3233,8 @@
         "websiteUrl": "https://quaysgalway.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=3955906242697872071&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJhffaIPuWW0gRx8LBuMQz5jY.jpg"
       },
       {
         "id": "ChIJQchqx_uWW0gRsgZOkAaxZ1w",
@@ -3111,7 +3256,8 @@
         "websiteUrl": "http://www.monroes.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=6658485215839520434&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJQchqx_uWW0gRsgZOkAaxZ1w.jpg"
       },
       {
         "id": "ChIJ_aKF2fqWW0gRDLLSSGNL_hc",
@@ -3133,7 +3279,8 @@
         "websiteUrl": "http://www.frontdoorpub.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1728902196752462348&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ_aKF2fqWW0gRDLLSSGNL_hc.jpg"
       },
       {
         "id": "ChIJ604CxfuWW0gRTtIdEYo3IL8",
@@ -3155,7 +3302,8 @@
         "websiteUrl": "http://www.johnkeoghs.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=13772068726631158350&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ604CxfuWW0gRTtIdEYo3IL8.jpg"
       },
       {
         "id": "ChIJMxt7H_uWW0gRfisclm3WdDg",
@@ -3177,7 +3325,8 @@
         "websiteUrl": "https://mfitzgeraldsbar.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=4068112129580608382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJMxt7H_uWW0gRfisclm3WdDg.png"
       },
       {
         "id": "ChIJf6Dq1_qWW0gRHZzn9_UPOgY",
@@ -3199,7 +3348,8 @@
         "websiteUrl": "http://www.thedailbar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=448688661977340957&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJf6Dq1_qWW0gRHZzn9_UPOgY.jpg"
       },
       {
         "id": "ChIJ_w3mFpWWW0gRAgV-t6-4Gt0",
@@ -3220,7 +3370,8 @@
         "websiteUrl": "http://www.menloparkhotel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15932249696613827842&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ_w3mFpWWW0gRAgV-t6-4Gt0.jpg"
       },
       {
         "id": "ChIJV29g0PqWW0gRKz8Gk3UFHCk",
@@ -3242,7 +3393,8 @@
         "websiteUrl": "https://www.thekingshead.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=2962248657438916395&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJV29g0PqWW0gRKz8Gk3UFHCk.jpg"
       },
       {
         "id": "ChIJbxUz9uWWW0gR7yuAxs3ql-k",
@@ -3264,7 +3416,8 @@
         "websiteUrl": "https://anpucan.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=16832180301840002031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJbxUz9uWWW0gR7yuAxs3ql-k.jpg"
       },
       {
         "id": "ChIJyzqh6PqWW0gRgce7vQWoHvs",
@@ -3286,7 +3439,8 @@
         "websiteUrl": "http://sevenbridgestreet.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=18095085095432734593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJyzqh6PqWW0gRgce7vQWoHvs.jpg"
       },
       {
         "id": "ChIJpejqnzOXW0gRa4kPQ8lw2KI",
@@ -3308,7 +3462,8 @@
         "websiteUrl": "https://hydebargalway.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=11734252838829656427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJpejqnzOXW0gRa4kPQ8lw2KI.png"
       },
       {
         "id": "ChIJkdPDOuaWW0gR6I4bGG8zAHw",
@@ -3329,7 +3484,8 @@
         "websiteUrl": "https://www.thegalmont.com/en/?utm_source=google&utm_medium=organic&utm_campaign=Knowledge-Graph",
         "googleMapsUrl": "https://maps.google.com/?cid=8935198212941909736&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJkdPDOuaWW0gR6I4bGG8zAHw.jpg"
       },
       {
         "id": "ChIJ1926mM2WW0gRRKjtHnOcUuU",
@@ -3350,7 +3506,8 @@
         "websiteUrl": "https://www.theconnacht.ie/?utm_source=google&utm_medium=organic&utm_campaign=Knowledge_Graph",
         "googleMapsUrl": "https://maps.google.com/?cid=16524442001029834820&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ1926mM2WW0gRRKjtHnOcUuU.jpg"
       },
       {
         "id": "ChIJKf4MLsaWW0gRkSrZFmoDVh0",
@@ -3371,7 +3528,8 @@
         "websiteUrl": "https://www.theghotel.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=2113880829281774225&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJKf4MLsaWW0gRkSrZFmoDVh0.jpg"
       },
       {
         "id": "ChIJaXEyXOWWW0gRHBr3bHPKUuU",
@@ -3392,7 +3550,8 @@
         "websiteUrl": "https://www.claregalwayhotel.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=16524492579873954332&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJaXEyXOWWW0gRHBr3bHPKUuU.jpg"
       },
       {
         "id": "ChIJn_a2RkCRW0gRgEnIeIH0TGY",
@@ -3413,7 +3572,8 @@
         "websiteUrl": "https://ad.doubleclick.net/ddm/trackclk/N1074062.3844254CLAYTONHOTELS-OR/B24186235.278894805;dc_trk_aid=472925211;dc_trk_cid=135201398;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1",
         "googleMapsUrl": "https://maps.google.com/?cid=7371535527013009792&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJn_a2RkCRW0gRgEnIeIH0TGY.jpg"
       },
       {
         "id": "ChIJHcnfOJWWW0gRQoOx-LZ8pzU",
@@ -3434,7 +3594,8 @@
         "websiteUrl": "https://ad.doubleclick.net/ddm/trackclk/N1074062.3913567MALDRONHOTELS-OR/B24608539.282337852;dc_trk_aid=476090150;dc_trk_cid=137767636;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1",
         "googleMapsUrl": "https://maps.google.com/?cid=3866195930419135298&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJHcnfOJWWW0gRQoOx-LZ8pzU.jpg"
       },
       {
         "id": "ChIJQ59TYzCWW0gRLRBDTQfKMb4",
@@ -3455,7 +3616,8 @@
         "websiteUrl": "https://www.clybaunhotel.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=13704957273774952493&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJQ59TYzCWW0gRLRBDTQfKMb4.jpg"
       },
       {
         "id": "ChIJww16bc-WW0gRXAP1Ap7u3x0",
@@ -3476,7 +3638,8 @@
         "websiteUrl": "https://www.flanneryshotelgalway.com/?utm_source=mybusiness&utm_medium=organic",
         "googleMapsUrl": "https://maps.google.com/?cid=2152701509328241500&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJww16bc-WW0gRXAP1Ap7u3x0.jpg"
       },
       {
         "id": "ChIJL1mmlO-WW0gRPOIo4Y5d704",
@@ -3498,7 +3661,8 @@
         "websiteUrl": "http://www.holeinthewallbar.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=5687867722636517948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJL1mmlO-WW0gRPOIo4Y5d704.png"
       },
       {
         "id": "ChIJN07W9QeXW0gR-NmWvchPRg4",
@@ -3519,7 +3683,8 @@
         "websiteUrl": "https://galwayswestend.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1028597288493570552&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:24.413Z",
-        "updatedAt": "2026-01-23T15:30:24.413Z"
+        "updatedAt": "2026-01-23T15:30:24.413Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJN07W9QeXW0gR-NmWvchPRg4.jpg"
       }
     ],
     "trendy": [
@@ -3542,7 +3707,8 @@
         "websiteUrl": "http://charliebyrne.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=14280513089976741640&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ5w556taXW0gRCC9hcv6SLsY.jpg"
       },
       {
         "id": "ChIJRdr-afuWW0gRy8csWBGWHwg",
@@ -3564,7 +3730,8 @@
         "websiteUrl": "http://www.ardbia.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=585351477819393995&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJRdr-afuWW0gRy8csWBGWHwg.jpg"
       },
       {
         "id": "ChIJ2cD92PuWW0gR4CnNRRRapZY",
@@ -3586,7 +3753,8 @@
         "websiteUrl": "http://www.secretgardengalway.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10855181519963367904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ2cD92PuWW0gR4CnNRRRapZY.jpg"
       },
       {
         "id": "ChIJmXWfiuWWW0gRU9vDMp5zkGo",
@@ -3608,7 +3776,8 @@
         "websiteUrl": "http://www.esquirescoffee.ie/our-locations/esquires-galway/",
         "googleMapsUrl": "https://maps.google.com/?cid=7678764487960419155&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJmXWfiuWWW0gRU9vDMp5zkGo.jpg"
       },
       {
         "id": "ChIJd4-52PqWW0gRMXjme0kBpQE",
@@ -3630,7 +3799,8 @@
         "websiteUrl": "https://www.coffeewerkandpress.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=118502380318128177&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJd4-52PqWW0gRMXjme0kBpQE.jpg"
       },
       {
         "id": "ChIJLzLmU--WW0gR4v4_BuC3iOc",
@@ -3652,7 +3822,8 @@
         "websiteUrl": "https://junglecafegalway.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16683786992399417058&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJLzLmU--WW0gR4v4_BuC3iOc.jpg"
       },
       {
         "id": "ChIJ9Xk_NeWWW0gRfkIv1sJkK6k",
@@ -3673,7 +3844,8 @@
         "websiteUrl": "http://www.easons.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12189947604388233854&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ9Xk_NeWWW0gRfkIv1sJkK6k.jpg"
       },
       {
         "id": "ChIJ1SgeKPuWW0gRbbNA1OOLywM",
@@ -3695,7 +3867,8 @@
         "websiteUrl": "http://www.buskerbrownes.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=273466013020894061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ1SgeKPuWW0gRbbNA1OOLywM.jpg"
       },
       {
         "id": "ChIJzxlpFuWWW0gR0dKjK1K_3DE",
@@ -3717,7 +3890,8 @@
         "websiteUrl": "http://www.pascal.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=3592956962375193297&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJzxlpFuWWW0gR0dKjK1K_3DE.jpg"
       },
       {
         "id": "ChIJfZ617s-WW0gRSNnbcdJUjwU",
@@ -3738,7 +3912,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfZ617s-WW0gRSNnbcdJUjwU/photos/AcnlKN2cCT8MivtoAZu2fuX4hjzuwZaFqInzWqTv2vtzmGeIFiITtoY6cMIQiQfQWUi8aiHwyxJX5S7rOEpcefkdb8x84iq4CaCGW0XRtWU1OWD8WWO0qPO7z4I-stB4qUmhfV4Cqev2fVVyIgodWDFd2O2qrj0Mxj3WXLuZpjCNeV68AKJpAasKhwSUyvfQSvkyfOcu5omgPNuiF91-v-J0TLoIQqQrAs9JfK4YnQ6pRrMnopU_EKcKUuXsgmhG0Ryxi-C_9nT1KABW8BRYmTQ4T9SyTJJ1eRvBcth765fFZnig_IQU3dlI96yWYJleheCXsDLfjlnTQQFLbuxhLVN61xdZmTTcG15erqpFPF2a3xa1H1Vo9h-7Wa0nsXNJDpe6HAcXa7f16kMEbHRVVCVyo2ipIAcu4lEFASxoVUj8BK1u9cym/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=400632154689362248&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJfZ617s-WW0gRSNnbcdJUjwU.jpg"
       },
       {
         "id": "ChIJi-y_1eqWW0gRcSd-9NvJoRQ",
@@ -3759,7 +3934,8 @@
         "websiteUrl": "http://www.noxhotelgalway.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1486691298545903473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJi-y_1eqWW0gRcSd-9NvJoRQ.jpg"
       },
       {
         "id": "ChIJTZAjkQSXW0gRYoPwz4_Bxrs",
@@ -3781,7 +3957,8 @@
         "websiteUrl": "http://littlelanecoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13530714953894364002&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJTZAjkQSXW0gRYoPwz4_Bxrs.jpg"
       },
       {
         "id": "ChIJ-ZcX4eCXW0gRYEW6f3pD8wA",
@@ -3802,7 +3979,8 @@
         "websiteUrl": "http://www.thehidden.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=68472612748674400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ-ZcX4eCXW0gRYEW6f3pD8wA.jpg"
       },
       {
         "id": "ChIJpU0gMBCXW0gRXygePnVrFAQ",
@@ -3823,7 +4001,8 @@
         "websiteUrl": "http://plamas.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=293978026983434335&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJpU0gMBCXW0gRXygePnVrFAQ.png"
       },
       {
         "id": "ChIJcbjNb_mWW0gRLQIBaA-cCPM",
@@ -3843,7 +4022,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJcbjNb_mWW0gRLQIBaA-cCPM/photos/AcnlKN2BZcFXGbBsyQ8GM7ItV0jVjlkZL4JtcXGTdujoEmWVGR0KkO1AxEvHfzhr0XkT8rVV9vqbynZCuBKZdh8ZmSOTjHfw7TlyiQvTcDKpkKrJr9cRWQdDMj6H6KFx2VlUOBdHuw2rOmbfzxT4QiTK4Cprq6bMCHTwjRO58s8_MlumFz6PCOVwsYMAfQCAYjZfDfJ5QH2NxJVxHvg3CeUpjT7zXGZOY4ZjgfSTaNnCv-dfHdTVKVDZUDxOOmwA4dJ_c8o3QeMrxqzr-DkCHKotV4zl8Pd0KTU2LLrHFmriiy-g0JfKuQBjhW3eJBUn0dSqoYZ_Conucm0vzUzi1u19M5t2s7Kt6MEvoxdG61-Jk_vTIgOj-BKSH78jg8KjgTsB1QtYcjvClS5W4OpkeOL18AMXvvokYPqeBhIEOyZeqTkBtYA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17512418741013512749&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJcbjNb_mWW0gRLQIBaA-cCPM.jpg"
       },
       {
         "id": "ChIJQ8H2nO8FW0gR9geoobA07M0",
@@ -3863,7 +4043,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQ8H2nO8FW0gR9geoobA07M0/photos/AcnlKN2QlZMYyOFLyJkOCoaxKhG51QsEDHcPAMYQRZYDyVzPnbwdnK2NaWWmCY8XkWLeKru3BxhmKA-iviLEWAvaviCfP9WzWKU4GTsczdQ2anxpF8t98eHmLQl5Gn3VWM7s9snTPV7YbhIHSncHjjZdalBMkTh-Ws7U5AYjlVMFTpV-if_m52HqloewY8SgGAvIDljj2fEpq4yhMZGAth3ho0rvynIzQWhdGWxNLSaE0qbyqa4pB0TFvk4jF8jhZujL7ZkaBimX3zB8h6mk0v2VDwihXQjMSjztzhwf96SNSuNjkw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14838292805509974006&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJQ8H2nO8FW0gR9geoobA07M0.jpg"
       },
       {
         "id": "ChIJx0jYM3SXW0gRBRYTNKIp4Ws",
@@ -3883,7 +4064,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJx0jYM3SXW0gRBRYTNKIp4Ws/photos/AcnlKN1vmPkPmaBwuBx8QAFtYYNhGJSbRa28DclYpw2NYLXwJH4tw1jrAkH0Da3MwXwm6Tt_T-m-0a-PRKkZL-0B-7mDdpCNaqggXs6O57bWjNo9b8Q4cGfUj62nrRyEsxB8nxldD0tZUTihT-K_lrWpzYJpy-ebF5pgMpvlOQWqxBOhArr2HbxQNSE-uRxcj-G15GbBwxWzAAzJTTO1nI9C8pvmnyebtRHxNxcWX3puAvGfGObSWDyUzVesvQowHV2UjbJ1sYwfDdQhllvFZNyS30RXEqQ_k7sHfVtE8jtirPp866Pw6CTZNMQcO8x04TN2UxWE4pIeAkaemgR0AQPskEt77obUS_sUc84t14HxFY_ysnyOfvSvEpk-v_RKqKGucIORsKF4u82hDz0lcy4xtSGlDClhB-dgBJfdjs4tr2K5n_k/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7773540208453293573&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJx0jYM3SXW0gRBRYTNKIp4Ws.jpg"
       },
       {
         "id": "ChIJ2_z0PACDW0gRI_rbIR7GscA",
@@ -3903,7 +4085,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ2_z0PACDW0gRI_rbIR7GscA/photos/AcnlKN0q62Ntg5IpwdTDTrZ6SPqESVYoE6XFYQI77YSEw8zm4yhONQSB3B6MLOVMy-sKzvB9xchP2Cq8RqRnN-w35xtVbESbim6a0KgALCb7LYAKXhCNFdjvev_mkTMJWe063m9x02GzUUzKbORgecpgrYQzmJP2ATpn7cyrfx0vzwjCqfZVaul0BBW4RDN5fJgjHoOmOVCIJhDWEOvIf1NrX6jdMKDNpMaarhDL0b1Q5hHbI7bahISnZiwo1eKdVSWHbft8KLuNy5OwyZWejzhMjW5D8M9b73pEhknxOjyJK8FIoNrB992x6PT8DuzjSZwNV8TmKfdoYkrxXFdl1JEbDsd-rgP19U5lxV2txuanexZCDbZ9TOjzMctFI04cDLUVEucKT8jdd4PDMDAvPqgxU0yxxMEMTMBDKW55GAqTvtzcmE4U/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13885096958879332899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJ2_z0PACDW0gRI_rbIR7GscA.jpg"
       },
       {
         "id": "ChIJs_GbbACXW0gRv0tt6dVeoSQ",
@@ -3923,7 +4106,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJs_GbbACXW0gRv0tt6dVeoSQ/photos/AcnlKN1QqAEUiE7SyX70I271PzZ5XTXdrhv0HcPpzdfSP7YsatOmuprG8OREdLdOu6ZHJF1xZE0ydzftUYzgOOcpFiK6qiS4mr2zHUeWqinSVZtzYy9vBcDqXvSqHBWo2igJfusK5jSjCfqqHCjhlkWZYJ5fcW6-nsU1UrMxgRmlLj16gvlsdlvwaTXkuY3bznjxBLR7fjBmQChiIMK9hkhntzqMDZS-JwBjBHpDLP1ST9WiD87hh7u-lqg_VrxYOWCizxbSX9a6vHij87knCHyyHZSZviKMDHo5OESsK-R-ehItCLtTupNTv59YS6809WKmdwcpNrRqLULCYfRlI7k9_h9_h-vyNB8iegkkYdKRwpjS_oB0gWtzL6jchS2eHx3CKTIDueysH4oA3EkY0Vw8Jw-BfnLyrN-QOcbWTBXh2BT-4a3xt7zChVpdb7Z_rzVp/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2639495129453120447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJs_GbbACXW0gRv0tt6dVeoSQ.jpg"
       },
       {
         "id": "ChIJHfSyFQCXW0gRJJnD1za6TEU",
@@ -3944,7 +4128,8 @@
         "websiteUrl": "https://www.hiddenartisan.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=4993570831557957924&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJHfSyFQCXW0gRJJnD1za6TEU.jpg"
       },
       {
         "id": "ChIJY5BLj8CWW0gRekVZnwyWO5o",
@@ -3965,7 +4150,8 @@
         "websiteUrl": "http://www.kennys.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=11113641486424032634&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJY5BLj8CWW0gRekVZnwyWO5o.jpg"
       },
       {
         "id": "ChIJCVAMqUCXW0gRGnSv3rdWVrs",
@@ -3985,7 +4171,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJCVAMqUCXW0gRGnSv3rdWVrs/photos/AcnlKN2gFJHrVAsXaIkF2UR2HBd9OYsTl6znw2vSqTxd8AUQN6TChy1LZhhJsLmV0N9qEviChsNuVrUoEZiHUr5m2K6BzgCI0euG_sNzQRPHeCMrgJXiTULaeU1UfFgaXdlhTTJv6rYa7UiUXohExsdeTCzN4gLhzQM87tTxCj3734fXs6aWfpfWmaGNyJt-UYR9DYJGeHS_G8bINYjkOhIBjtLV2L29FVaYEUCkyGD0xD_JZ0iSE5kdVCGQJPOzrm8Ru8IHsw7i2XOEapYuHrKCShtdxg98wVaZT2LTN2GWVykhJw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13499072280804684826&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJCVAMqUCXW0gRGnSv3rdWVrs.jpg"
       },
       {
         "id": "ChIJyR5saOWWW0gRmEaj23SqQjw",
@@ -4007,7 +4194,8 @@
         "websiteUrl": "http://www.pascal.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=4342220409616418456&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJyR5saOWWW0gRmEaj23SqQjw.jpg"
       },
       {
         "id": "ChIJB7aHSOWWW0gR-_dHnfWXhUk",
@@ -4028,7 +4216,8 @@
         "websiteUrl": "https://www.dubraybooks.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=5297807617832777723&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJB7aHSOWWW0gR-_dHnfWXhUk.jpg"
       },
       {
         "id": "ChIJWa6oAEq-W0gRKca41_e5VR8",
@@ -4048,7 +4237,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJWa6oAEq-W0gRKca41_e5VR8/photos/AcnlKN0fmSJL8Q4LoQ9EQQyN8P9XULFIbUh-mA9-1Kf3QrEWbaHU8tBUgslI_jYJq6nZZXzrTRRpDEzkNTuTXlbOYN6mbEBEt21CduKB2epL81S_AeXuaKPf1IaZA-nno-Do9PzouMe72CewIUADbOb4s_sRbjI8Zodlu7KZNvgc9LaWaO38I2kba9s3x7DveTd6TwjYIewFc9mHvTocc9ay77v-5uLjjWDfO8Jm7OJY0Zrms5hZ9sBL7-TYJsgN3E05FUKccJpT4aycrELlVSrKB5UNBUlB2HL-DNZZ9W5xBNr-LDodRWD67as_1gaLZPH9fSLA5TFU7XOAbov-JvFcxi2gea7Ir1343OZk9Uh4Xu5eyj1yLG5dhWM36DPFxVygqsYgq_Ups1CJrvO7VJzp1jv7vJmKiD-vl4rYvca9pDHZgQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2257915262323443241&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.507Z",
-        "updatedAt": "2026-01-23T15:30:25.507Z"
+        "updatedAt": "2026-01-23T15:30:25.507Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJWa6oAEq-W0gRKca41_e5VR8.jpg"
       },
       {
         "id": "ChIJZ02p_D2XW0gR-zmXlRRZ7Q8",
@@ -4069,7 +4259,8 @@
         "websiteUrl": "https://wyldecafe.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1147671424993278459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.508Z",
-        "updatedAt": "2026-01-23T15:30:25.508Z"
+        "updatedAt": "2026-01-23T15:30:25.508Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJZ02p_D2XW0gR-zmXlRRZ7Q8.png"
       },
       {
         "id": "ChIJcSIl9rKXW0gRsZX3eo6J7vE",
@@ -4090,7 +4281,8 @@
         "websiteUrl": "https://bakeboxtogo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17433022452639176113&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.508Z",
-        "updatedAt": "2026-01-23T15:30:25.508Z"
+        "updatedAt": "2026-01-23T15:30:25.508Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJcSIl9rKXW0gRsZX3eo6J7vE.jpg"
       },
       {
         "id": "ChIJN07W9QeXW0gR-NmWvchPRg4",
@@ -4111,7 +4303,8 @@
         "websiteUrl": "https://galwayswestend.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=1028597288493570552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:30:25.508Z",
-        "updatedAt": "2026-01-23T15:30:25.508Z"
+        "updatedAt": "2026-01-23T15:30:25.508Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJN07W9QeXW0gR-NmWvchPRg4.jpg"
       },
       {
         "id": "ChIJQ9ycOOWWW0gR7yv9PjiLX5s",
@@ -4132,7 +4325,8 @@
         "websiteUrl": "http://galway.rpc.org/?page_id=1198",
         "googleMapsUrl": "https://maps.google.com/?cid=11195820272357551087&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.508Z",
-        "updatedAt": "2026-01-23T15:30:25.508Z"
+        "updatedAt": "2026-01-23T15:30:25.508Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJQ9ycOOWWW0gR7yv9PjiLX5s.jpg"
       },
       {
         "id": "ChIJZ32mY-WWW0gRXtwVlilpc8Q",
@@ -4153,7 +4347,8 @@
         "websiteUrl": "http://comics.ie/",
         "googleMapsUrl": "https://maps.google.com/?cid=14155773681088191582&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:30:25.508Z",
-        "updatedAt": "2026-01-23T15:30:25.508Z"
+        "updatedAt": "2026-01-23T15:30:25.508Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/galway/ChIJZ32mY-WWW0gRXtwVlilpc8Q.jpg"
       }
     ]
   },

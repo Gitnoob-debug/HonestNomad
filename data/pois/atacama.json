@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJdWmL0m10qZYRIiz2seA50lw/photos/AcnlKN2bVl34Pe67jupmIN75iVeXEL_UpghCkZ-Cz19go06agIn8NBl1YVtKVnruj0urpszmYFnZtKifHx0Ql9jQ3LU2w-OcDqMhn_E0BlP5DeS60qJVoKm22hvEsSj_EqMNtGNHPCXEE1235-q6MQO9fxgV5D8xtVmPUGiutxIBJ3PoTeAzGmSZCiMoiws3oavf2FsUIPlNcNhWReew9ReVP8Z397md5G4R0sqPxZ-ceN9Kx2JqQORIVEjZg8_m4NioDTwG2VJNKERUhc8k0XweXMl9kv1JO7O21g86Pdqnh9BfKmqZMhwJbLASFMz9MEBEkF7NxqmiM05T6DOWz7ma_HrBa_VqoVI1iCKApObHSWjSbdkcv6ndowCM66xrvNuaAxbG6QpXUlUj_AnvoULJtrQwY8SO8dtuWjVsgpL7Xsa9bQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6688472033819765794&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJdWmL0m10qZYRIiz2seA50lw.jpg"
       },
       {
         "id": "ChIJv7sHUZxzqZYRTF0XwQsonuU",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://valledelaluna.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16545706111955066188&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJv7sHUZxzqZYRTF0XwQsonuU.jpg"
       },
       {
         "id": "ChIJ8yiIsVd0qZYRySeOInTQ8Xs",
@@ -66,7 +68,8 @@
         "websiteUrl": "http://www.sanpedrodeatacama.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8931148733266929609&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ8yiIsVd0qZYRySeOInTQ8Xs.jpg"
       },
       {
         "id": "ChIJ42yEuld0qZYRpFN1dIK5jgI",
@@ -87,7 +90,8 @@
         "websiteUrl": "https://parroquiasdechile.cl/iglesia-san-pedro-de-atacama/",
         "googleMapsUrl": "https://maps.google.com/?cid=184288604719502244&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ42yEuld0qZYRpFN1dIK5jgI.jpg"
       },
       {
         "id": "ChIJLVjIjf9yqZYRQy-xxNJ20Xo",
@@ -108,7 +112,8 @@
         "websiteUrl": "https://valledelaluna.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8849985390374891331&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJLVjIjf9yqZYRQy-xxNJ20Xo.jpg"
       },
       {
         "id": "ChIJ3UAZXxV0qZYRNi-W7MOiv2I",
@@ -129,7 +134,8 @@
         "websiteUrl": "https://www.monumentos.gob.cl/monumentos/monumentos-historicos/pucara-quitor",
         "googleMapsUrl": "https://maps.google.com/?cid=7115584898640260918&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ3UAZXxV0qZYRNi-W7MOiv2I.jpg"
       },
       {
         "id": "ChIJsc-7b2A5VgERBJhLp_hXtfw",
@@ -150,7 +156,8 @@
         "websiteUrl": "http://www.museodelmeteorito.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=18209557393812723716&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJsc-7b2A5VgERBJhLp_hXtfw.jpg"
       },
       {
         "id": "ChIJt4vn0VhtqZYRH4FOhy7daEw",
@@ -170,7 +177,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJt4vn0VhtqZYRH4FOhy7daEw/photos/AcnlKN3qzylU1K09v7gtyzZY6ll1mQ06V6D0mV_11jQkWVUsnq24xd8h0OwwS4ucgHOEk8l20R5PyDuI4_jrlgr2OQTLYV3f01WoSVsdsV9clO_8oGdqVEgGCC9kQOZrVs3IXbYiEGbzQeINpc5TSaIY73t7QslO3zoajqC-WcITDR4G9q1wHPpQuKALO2DM9wk_gCvnuBMC_Y3O-51KDzTvaI9yWMxXNIea56h64cfk9TbtTRv2hHPHSlDWP14Phv4xHA2NVBGm-JQ8nybs0WiSfqtLPHz3ILBfDa48OWUZPAs_Z5ojgwNp8tyNvW4S06CYQNzTMDCyR95G5DMb78MMNuCw9cYznandeyrMxanu7pDJvVQWKCcPX7Tx_R1IasPXcrLDgAScBriiXeUTsuMNVxDoEVd2MYMmzgl81T__41IEUzZG/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5505893736368734495&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJt4vn0VhtqZYRH4FOhy7daEw.jpg"
       },
       {
         "id": "ChIJNX6DZKwIqZYRlYOPbbs4aO4",
@@ -190,7 +198,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNX6DZKwIqZYRlYOPbbs4aO4/photos/AcnlKN3i2uQIKWoHC7Q581Xq0hg8S_oyW4uYmPuKx1ue222tbqRw8WfloKbxrSnpBUkcACneaQXP8G5gv6g1G2w7Mh29MJ_YVexJQ-yweQN8OTgyPk2nDKdy4bFU-eHEDoWNPge79Xt4SRHQS0cufi4eSgju7RbtgZrToBEdLFD29mbU3V97XLPOrTHozlYX0iTc7yfp-Rzrv_UmJRKUn5NLSLPCP90O5hgbm5xq5u7ivbewFmDvhRyhv-z5m7XqFW7Laykf7y9k8T6Hv-tNwgLsIgvMUCeOkYvxhKFmln7UtcauQxS3o9qPcJGnqwq-CIFvGXJAaiuXK7cvSSutonYmSxehkYzt37xuc4MxI5x_ACfEp34uW3AJM4n-7V6SlG4TUjvZFfNSsk3_IWqG71-rxFLiuSX_a0Eh9PySdWKJWq14KrVq/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17179043156252918677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJNX6DZKwIqZYRlYOPbbs4aO4.jpg"
       },
       {
         "id": "ChIJffADVZ92qZYRZue6Xi36OFQ",
@@ -210,7 +219,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJffADVZ92qZYRZue6Xi36OFQ/photos/AcnlKN300KcH-JIMHWxn3eyeO6diE1m4JjCp-dEbwlpSlLNXCccupb55hxwjlPaU5DnEYH7GJ6XR4v_yC_HM6OblGIneIn3uhMiGF3jGUslh-wjzjnPcCXPa_qQITjgQtLvv5hivtOipAvOkAb97hOkFs1QgjeKuHT2hL4z-U6_1q4Sngx1L4SAMdfah1ay_W4SxnsPKOXLMbQ1Zh_Z5AntTYe7k7aBu9YOUaqwGXPn_jGg6LQBlKJk1er2ZAAaWVX6iSHFvog2gN2u7zYngs9y8mwxwTvSUHaL82fhx_J7SHpHCOQRfJ98SO4HPsfErRMIoVPIlBDqlhMflLYhGHviqpwIUCdjn0MoN7EwTxfun28XkP-weN0eLeg8LDxrIysZmiZ-uUnS9uFouRLePuBvOz5y2VLe6U8cmSF0fehPuM-1-OEAq/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6068875570651522918&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJffADVZ92qZYRZue6Xi36OFQ.jpg"
       },
       {
         "id": "ChIJWQQpawBzqZYRkkdPJYCU-sE",
@@ -230,7 +240,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJWQQpawBzqZYRkkdPJYCU-sE/photos/AcnlKN0rEHvFmZKlGmUNC3Z82CDRQ2IQWXIsppT6DLSHRxXNHUPlKjQs6iNbmIC6qAOMhpsWmxOMhVDxCDMKmLZc1srdpuGqkpPe8uDgwZxYjJxmfP3k0yPXtezTMxpCR6NOgw-Jjzq8OMSIra5KGd33nTDI4ZFhtu9q9PEM5BFxArN8QBEicsMvEOqzdFqhG--kpCJqCCIXWLLHYsPs9_Ki69kH_F97PN_Ok7ezSy5ZRkITC5MlzWOUWfyWxksnlE4NfpDGrT_Rk2C2vsMq47rWg2R947LJloZBeG2hjbBadPjn1Bm5r_F9kh7q-qxSNifpXYEbC2OIav5YGpwuf7QwfuTCytP2zPowSMdzsap8w3TPast1tmDrf5xpvV8fsZvXtiBRBddJvGphRsZUlgEWP7-cpPIjHdnqoD01l0m0IpEB7ChGar92W35__LYxHCc9/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13977647671600433042&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJWQQpawBzqZYRkkdPJYCU-sE.jpg"
       },
       {
         "id": "ChIJU4wTQgB1qZYRO_AV2UiBmI4",
@@ -250,7 +261,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJU4wTQgB1qZYRO_AV2UiBmI4/photos/AcnlKN0c4h3rybH5DMOl8G-Ntt2uQ3fa0dknAZPy-YbcGN7Q3xqMvpkf0h-PXeSM3sH2jVmzESbhnKOv9CJhmM6tfJVvB7sfhQAaSSPbnP51NyFGfE4d2rNhx_sCrV2sQ5JWWAKs1OyCdSuW4ewiHznBOFybnbhN4m63Dk5fSAE12r08s3Z13WiOTAskUVVThFygV2rS39DVcdzRiIbqBIgqb0g2LQ40lGVJGU-_Y-FgIt0PVTc1z5EBl0sMf49-rca9Kf-EUi8OXLD7g4xJd3ZGh_QOKKDxLYeM7YnSWrY90MPKBsT4UjNnLeGJwFzZrkgv8OnNfKG0h4medL1vVyg5sB2xxut71COYW7tt18JQhBmiEgbMFvOF81YokwLUNwCC7wsrcz-VO-164r8xXbn05N1T3m5clh3_Ss0U_KV7H25Tqg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10275104699725508667&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJU4wTQgB1qZYRO_AV2UiBmI4.jpg"
       },
       {
         "id": "ChIJ01oI6aQBqZYR7M258gcPZn8",
@@ -270,7 +282,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ01oI6aQBqZYR7M258gcPZn8/photos/AcnlKN1HIW0_SZz4px1YnB_xBuNT83TBJmrclqwIimYZhWoyCqViPVX7fe-QWBTXcbOronHUtY_8G5UCL_LJemvVw3ze5YRzrs0nrVbOZZWtVhhEXwOHTF5U8ZWfqHkPpx-1YqEZQYfZLkfUtq6UzkRS572ENk5j-AqJX14wwT9UJoMBPVBPzN8YZt5FX9ZD3E5FLyrN6E8p3fjp2TPgxEImjRj1CsHVwrnMCJMxkvLqQGgwALopoZH-aakC8zsHnIBXm0QEM0M0tDtCuoLicbhtcMhRb6FRzY-5gvZ4tBlOus52s4sE4MU7PFYMk_XjVYJzN1cL47agqYQaQEvmKCav8IcDpKb4FQZfMGHLNdEhfgmrtj6njwfrcWhPVXGjiPbsHq2OQtLaGXG_5eM9QhkNQZwnPWatZBSDZd340K8sxc4Etw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9180041417252785644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ01oI6aQBqZYR7M258gcPZn8.jpg"
       },
       {
         "id": "ChIJDwke41N0qZYRBNE05nw_8yY",
@@ -291,7 +304,8 @@
         "websiteUrl": "https://iiam.ucn.cl/sala-de-exhibici%C3%B3n-arqueol%C3%B3gica",
         "googleMapsUrl": "https://maps.google.com/?cid=2806656798452666628&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJDwke41N0qZYRBNE05nw_8yY.jpg"
       },
       {
         "id": "ChIJZzR-cQBxqZYRhlhjRukdeH8",
@@ -311,7 +325,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJZzR-cQBxqZYRhlhjRukdeH8/photos/AcnlKN04TKEl-zkFKTiNMswTgHeUN4keWVM_wrqQv_-ZxSxXubEmjC8LdLEZwQUPNeAH55HRlQIvESdEkTpZSctCBoEanXrWSM10HtQBR5EWqAbZkAtBS6pem4cS2cUgxlrGL1AgFUn63A4R9E8ntbbWXL3f03XlyOqm20nKxJ896BH3-W1Xcg7NRI0-W5FCPDLEaNHMO0wvTP7n8Aain1Z7Z1KVs3XLDoSNOCKy6EeJg1o8Rx6KwzzNezj15PTIFWvdzsVsauKCSHU9tdLrHn682AP6QjWH7uj_riQUD6dStuKCLEDQ2riaTFP3o7oo84XiyAhmn9XxAv_a5DzHG-jeG5JI2EYj5mbKz9zxvkax8Tnlxiq56oOY8qLh1l7vj89OKwHR2O55T9Kg3hy82SHiRScx6zUyZID7bKmHTDF0jBf4vR61hKyg5B5IX0xA-hVK/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9185124327767627910&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:02.218Z",
-        "updatedAt": "2026-01-23T15:55:02.218Z"
+        "updatedAt": "2026-01-23T15:55:02.218Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJZzR-cQBxqZYRhlhjRukdeH8.jpg"
       }
     ],
     "foodie": [
@@ -335,7 +350,8 @@
         "websiteUrl": "https://www.emporioandino.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14172101810718507296&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJQYAvi1d0qZYRIAGMhIJrrcQ.jpg"
       },
       {
         "id": "ChIJhUtbvVd0qZYRuG5iduArCSc",
@@ -357,7 +373,8 @@
         "websiteUrl": "https://lapicadadelindio.shop/",
         "googleMapsUrl": "https://maps.google.com/?cid=2812827685328416440&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJhUtbvVd0qZYRuG5iduArCSc.jpg"
       },
       {
         "id": "ChIJDcgPpVd0qZYRrFS89pHDg_Q",
@@ -379,7 +396,8 @@
         "websiteUrl": "https://www.instagram.com/lafranchuteria/?hl=ja",
         "googleMapsUrl": "https://maps.google.com/?cid=17619141198880724140&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJDcgPpVd0qZYRrFS89pHDg_Q.jpg"
       },
       {
         "id": "ChIJbRCSnnV1qZYRl-UnFqyIOXs",
@@ -399,7 +417,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbRCSnnV1qZYRl-UnFqyIOXs/photos/AcnlKN3CT_rY4sEnjbgSYdTEqyIegW74oXAOZgEB2RtcJ_ck-NRPj_2FMk_aeHY-k1e2zvMowx-hFBLkhkRM-nAhFvma-cEdJ5F_AVM3fF5qwuIA6926ptWkNOqVzV0onXcZWt45LuRPSuuIsJueASS9mzBfk168_obH5dsgcwTJujtTKBQDJsMNL06zP28LSufoAMGhLdtVBc7dw4tKYF1koqv2ke11k8s_GnRUyP5bf73I-lt2Q1MUqao4ppi5VWrt_kAYnXjpVfkKQjmHMHPC4t_nKwb2s1lvTgTYHWViy18Nzw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8879278413025109399&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJbRCSnnV1qZYRl-UnFqyIOXs.jpg"
       },
       {
         "id": "ChIJM4CWJIl1qZYR2V91adGX_ww",
@@ -420,7 +439,8 @@
         "websiteUrl": "https://www.tripadvisor.com.br/Restaurant_Review-g303681-d15297580-Reviews-Ckunza_Tilar-San_Pedro_de_Atacama_Antofagasta_Region.html",
         "googleMapsUrl": "https://maps.google.com/?cid=936634173189611481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJM4CWJIl1qZYR2V91adGX_ww.jpg"
       },
       {
         "id": "ChIJ7RmIkFd0qZYR9vKtIiU3wTM",
@@ -441,7 +461,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ7RmIkFd0qZYR9vKtIiU3wTM/photos/AcnlKN0E7d5ZKJit-C2_zzGYHwEoQpBbw855TVkQnHW5FZ9VtyfhtvTONLV-kojlmYxI2d9_8MiaJh1BuQ_FIh8jBuKeRmiW0pnWxTZK-uuwcw2BefhaeAgMW7sd7wCKKYDhIbqEIEtubNM4mzDLzB4KOSgsP8hLA47gbzHg3jivATg6yoOUP3TGiKiAdAxSAT8XBUEI-ENiKQJ1TUJWrCdJ9-pV1_L_smRA4JdixWF4yjbaEpCEJ00r4i3rR5fOBIvLE3vHTuraRodbdxkYvT-fTzjY_ZWAc_peHIfwHni2Jlis6dwivxCWaGGntI-wDSV951ZCToJk0mQWH18CgJRokhcQ7jpNYd3U99fPL8VI2-woei8sKwj7-a1tb1khs8Q9ue9j0g7iFXfwz_DrWD6-5-tjvtWZ9qEmloyMphb6MsryvN1BA_TxedQvQGp3SElK/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3729322599074624246&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ7RmIkFd0qZYR9vKtIiU3wTM.jpg"
       },
       {
         "id": "ChIJ-SoxvVd0qZYRnhJCusgMcHs",
@@ -462,7 +483,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-SoxvVd0qZYRnhJCusgMcHs/photos/AcnlKN29270VOUPjBWWf5rVd85aw69JvRnHziz6laMf8HsbSKJiV2C-ndNTVhBnueCdfhtLsXL6iEWBL5NWXJaXOQXY3BtqOeqVsLq1QrGkh2PPdg7H376kXdC17x8yEsyqzKallYKjCMr25DzEamFT8T74v2TzH-o2Q14nuQ0MfiPIBApQ3xJVr4pK3ACuMmXb3lF1RyVzogrKBvYfLw3Wg8hRw0CEM1tzvg7jJVT9p8SK7C2LbqBGNi1JcPB7YE1sxZMV0zXdkPnCg7s_X_yqQu2z2gf_PzogfhVBhnUHd6u0P-00xOQavyAkGdL9QSP64tAOBYFQltkKkaGSPXGplPyqzCxS22WQrgRQprFG0RzurPmDyhwqF9MxKJeV8u_j4mZoI5C8OEa7KK5EBLdJNasZ0RMHDYNibD8W7GzQ6aFm5o9aAmGN6-Qs2l3Pyqt8L/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8894623320314614430&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ-SoxvVd0qZYRnhJCusgMcHs.jpg"
       },
       {
         "id": "ChIJOQZWCld0qZYRbBDiiQQRlH4",
@@ -483,7 +505,8 @@
         "websiteUrl": "http://www.ckunna.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=9120933856522932332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJOQZWCld0qZYRbBDiiQQRlH4.jpg"
       },
       {
         "id": "ChIJCc2sQFh0qZYRfvvJnyomX2c",
@@ -505,7 +528,8 @@
         "websiteUrl": "http://www.cafeadobe.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=7448714273205386110&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJCc2sQFh0qZYRfvvJnyomX2c.jpg"
       },
       {
         "id": "ChIJN9F5cFd0qZYRykx3KOuVs08",
@@ -526,7 +550,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJN9F5cFd0qZYRykx3KOuVs08/photos/AcnlKN3nvhsJl_VIWV8-YpiiDRy-kfwQLEfuOYIRxR4924MlY1PqEqRZzw44mh2VZIzXlkB3Z246z9i8QSWqmATyfhpQapa9_plBdT5F1M0NPFBEyhVwSi5HkNFcsa14xEF1GgFA74GMQf5cff2aFXx80TJnIrheRA_6E2xj9iY0hv2B0DSyJBnnbsZXkSExzRF9XQfOfDQMT6jIEe1Zuj9DRYj1GIP6HKxoPOvi9hwLA4hZZyLAJRaXVxuvhzcMt-li9sknOgqsbY704fjQ900u_EKOtBvaaly3i5Di2lO98On0f5MOwEZlAx-Dc-Y41zkNQbsn4-LMbXVlE8rAX2Qir7sSSM97t17pgAoUfLji0rWJR4bAe725lP6kpLTH5swG17rqnYmb3bCk3taFFPRyVXVsnrwsYpKzJXpX3HeyglhboQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5743098787056274634&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJN9F5cFd0qZYRykx3KOuVs08.jpg"
       },
       {
         "id": "ChIJq0OdLVZ0qZYR1xPAqaiu2CQ",
@@ -548,7 +573,8 @@
         "websiteUrl": "https://www.rootscafe.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2655064019760583639&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJq0OdLVZ0qZYR1xPAqaiu2CQ.jpg"
       },
       {
         "id": "ChIJv_W_K6x1qZYRskzb-9UAXWs",
@@ -569,7 +595,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv_W_K6x1qZYRskzb-9UAXWs/photos/AcnlKN3ZDxLEZZmJw4NQeX7wbn776VJnvGNpr72EclCUJQHL21fys4I5ppf-f_-rBjxAo5pmZRpa-VgHPtZww7G-md83M9uc9Xs730IA8fFMP-84h39irsDJRFxmamaphDGqF3oFgmv51NXsdcZ05Y81xSKaPOo4dkOSLTrXRYLwxPMBxWYsuzn6Q6ndV7FulRGoVxpgU89duaKRr4M1QmQzRwFi1gDaPvFS7zVABLb_6vRyK-n7UhhLDEml4iv4hxAZ1i4wdDgiYiMSOeasMC5B0zSjTKHj0cb1a5iYJRVHpCukywnfV3rNI7t_u0A1HXz7WacGteFM3XygWAZ4-R1GeD2p4ja1HNbRoM-dz6oT_eZAyf_P7ej-qJ0BhRM_NcyXfLqDEzlh9vhMdpgyA7B4d2OJ1tvALbHcEmlOi7Dg-AhVdA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7736340653945867442&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJv_W_K6x1qZYRskzb-9UAXWs.jpg"
       },
       {
         "id": "ChIJcTDfcNx1qZYROOq2z7p42dc",
@@ -590,7 +617,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJcTDfcNx1qZYROOq2z7p42dc/photos/AcnlKN0mYloSX0FnJIXpFwHPXynh2cmpNAfmvakVMG6xTeuVevxwpS8mRsrw9IP2Tt1fQNRCirF1hKTQumDbbL8vjKaqNT5Qy2cmvsyALO6g99P7nDSDXOXU4yu1fC0IbjE8J7dueTWYjn3IGZDTFAI90Q_Z2ro5mJvPR4PUpnWrCMSpN55Xiew0t3ke1_TfDr4E_krEMcHzEyWmWZ8tjYJ6bJSi2zbx_2rCLLKyEglS7-ASQaggY0f_otnhHM_uiZFBpigT8pQrM8AKUvmv447OFbe8Sr7hqEk_bCWzdQNZDfp2NIY2z5H-3macsQGfAUdzxDoHJTM2OKBxIoYxG-ibUFzVcYrg6pko7uNPLdy9EN8YbYJ4k28OMUoof5DYD_yb_lP-ZmsdCP9kKQClYRTTshBP5L9c1qq-G0RjCJ8rmrm9gFoD/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15553595531844839992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJcTDfcNx1qZYROOq2z7p42dc.jpg"
       },
       {
         "id": "ChIJVbcdoMF1qZYRh-JOaBQI-P4",
@@ -611,7 +639,8 @@
         "websiteUrl": "https://www.punto-copec.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=18372443563600306823&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJVbcdoMF1qZYRh-JOaBQI-P4.jpg"
       },
       {
         "id": "ChIJ1ZKPJwB1qZYRldPrr64Fwds",
@@ -631,7 +660,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ1ZKPJwB1qZYRldPrr64Fwds/photos/AcnlKN0JetiuPhSqzuyMLhdqv21ZjtE-wGSylW6Edh09ApWRuPAnlWS7g2uevTBWBAT9hdNaVcJpzfGkswmV3GxOnNW9FP3Gh_tNl3b42JyWZaTog2Q6eZllGvG93M24bUmRCdQRPUSHupYb_5m5hcsYKp0Ejdl5xjp91ksQVwL67A0hDO5cIfSQBrydsbnF808TgspH-MpyFarqWvRm-Lk_9JYjfmyeDqYBxXkEfBD2GhuEYPeWItGVJJqUbsmXBj5rqxwQqqdd07Gs9LS46hNwISrZMA9HP91sb3UZWdI08CG85r5CR3O6Ul8khzTrSEUKXLayqghcLvtlMsbZ4gATXXI4WKSbU3vDs3J7eC64tLdlWCV3FS-HSNwqPBgOA8UHu2M4sagAlD1erlzc_6dF-gEF-bwan4frcrPVCdS8QpWD2Z5S8a-xIkfIAcUgopvu/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15834944012645290901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ1ZKPJwB1qZYRldPrr64Fwds.jpg"
       },
       {
         "id": "ChIJNypAK851qZYR5pZ99M3heVo",
@@ -651,7 +681,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNypAK851qZYR5pZ99M3heVo/photos/AcnlKN2ugRTdA4zXhCG4r6lFZ2cry-Eud49_p_85ZniVUAQiNKlRkko4a18fU6i44zVJuHbDCPDrSdRPSH49lU36bj9zh9g1h9EwHRX9_95nvmV_tL94xMOsSeAnHexjEH8f5v_bqBPrTGO6M7omQdyDx5a9GPzCM8dWtaKF_4_luKYGMllxy_dEE04BnpUYXaV-WsC00IWfIE71Sb0UulirdYjaGtF_XspSJ_QycTZ_6NH8kKfC4nadIf4L5avnA0l6F0CBQ8stxNaJs2k_5_xhgtsIuSw1aL3Lc-QYSNz9iAfIyCk6HNUGVXm8sY3VDbM2qr2FniWPEu06CzI4Fx0oUkPaCUwIHMj5YkMsfanPzq7dPu8ztrEi1uQ5txycHSRW1CCAJko2qMl1rHGszn4h_K4aTuh45hBx2bIcCYPcWNFkvCpoLISGn_f2NLk8P3Cs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6519490210281920230&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJNypAK851qZYR5pZ99M3heVo.jpg"
       },
       {
         "id": "ChIJUbEWmK51qZYRVdViAqu2CZM",
@@ -671,7 +702,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJUbEWmK51qZYRVdViAqu2CZM/photos/AcnlKN1Ox1YcbB_1rG53ihSV_mIV9HroLojlLBsgboFUuopcIJoo5FS1yHwan0v_b_PqYGISc-xrETcHIvUdaf-6BoLfLWjEjdg98depUx2Xzy5iRfVEEBvkBGOtazClEnP-0in713isnJDZ6RLrIttulCO27A0VDFnbUqPVUBCbGaz0MpxyAKd0MOsZO8BCyj3OLoOntMoqJPCplwcNX-doggiNnlP_WEOD8Q4_e_-zxvhkq1canlID7G5xzl1Fhe9i1qqYq0oQa2ei3ERNtPx4WwHqahL_ajAWnJ2KuQYWhKvjnAimkOOWAwlQTfwZHFA1EQgjB7bx6UY3XiBtYFT7d5sQfmPJlVGGKzuKDKqio1bfPQP9lPkM2CypmJj5x6evoVnqA3tPTO3NCJzIrF_JCgP79egZ72pT5MvwLCJfqzFqOw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10595200443961496917&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJUbEWmK51qZYRVdViAqu2CZM.jpg"
       },
       {
         "id": "ChIJSaWOLB11qZYR51AL94IXCKI",
@@ -691,7 +723,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJSaWOLB11qZYR51AL94IXCKI/photos/AcnlKN3abmmMOFlgso2p1Bn5kYhTyxExW4rxHikU5olKi-iVO93poJYlMsDINz5izEs3fxyzicloF-i_76b7cxBeY7g9JtKWWE-1ctLQRX9dXdb10ddbT-j2vnloZvAErqBkNreC5mhRU2qbj5fnrGUADXBePt4CmVJFcoRB6_F4Rj-6ycwheK3Se8TTPJnb8mkRX83qQxCNWs7S8kWuiLtr5Ex_Ik2YWYy2g9u6X_ZFdWQYiBhhOwmXnjlDfR60cDMI2x1h80FB-vSNzSn1AsarVWQYIVs535mpHvG-9GluCDqtDSAwHoYiPs-A5UfQHWPQRLMxuGpnUmqOV5ATomueifEobI82OPzWOAfo3bbhb2AE9W-vSi6T7H5_zjI9l04AQBOWrp8BYawCHbzx5RcS3zkWaRUAhzWHiZieHgoAJcxJCwhgoG-5PYz5F0UrNOGA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11675607885215912167&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJSaWOLB11qZYR51AL94IXCKI.jpg"
       },
       {
         "id": "ChIJYT-W6O91qZYRGqPzEAE_Xkc",
@@ -711,7 +744,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYT-W6O91qZYRGqPzEAE_Xkc/photos/AcnlKN3RDwFb65GRZeL9GiW8m2WPXF49RxQyrx2MrTr-LUbGA1n_0xSCvSWFxdZo372eoalzkLQ9_kia2DqsyhqypsmZma7mIHT5pPjG81aAenkgKHZeFTV-TMsGFKLC8Zis6oOYAvVcxBbFuRPWBYUBeN4yW-1DKGwzl4qvTo22X-pQiOWEUkb7devZmhMZoSBA1BiD03nOhJpxp66UE_Qn6AZAGBb5EopACI0GqA4vWde3H-ehXs9E8mogznfD9svdsO1bV56i1ZhtlZ69i8Wwlz7Rh04ENJWrJdvFJiOHwYyojQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5142617098315604762&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJYT-W6O91qZYRGqPzEAE_Xkc.jpg"
       },
       {
         "id": "ChIJx3QHlbJ1qZYRk593rkWbP80",
@@ -732,7 +766,8 @@
         "websiteUrl": "https://pulperia-atacama.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14789710424890122131&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJx3QHlbJ1qZYRk593rkWbP80.jpg"
       },
       {
         "id": "ChIJy9YDSUN1qZYRKBUXAGi2zk0",
@@ -753,7 +788,8 @@
         "websiteUrl": "https://www.instagram.com/adobealpaso/profilecard/?igsh=MW9iaXp0bWZ0MHJrbg==",
         "googleMapsUrl": "https://maps.google.com/?cid=5606619143917212968&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJy9YDSUN1qZYRKBUXAGi2zk0.jpg"
       },
       {
         "id": "ChIJO40S0Ex1qZYRaXvnj_nWwn0",
@@ -773,7 +809,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJO40S0Ex1qZYRaXvnj_nWwn0/photos/AcnlKN2-X56gECqykHSVwTNbBioI7garqnRgeakDJuPgrLALLozjP-JFI7N8nYd5JdyaNFfLKmimvHVZ9hk7z1loV2rEFKCjocwyG-fqaKSVo5Swnf3hI-xVw06rVycMDe37-G8Wmqodsp4t7_L_jcqOD4IjwBc4EaoloBS5SQmC9eC5oQfH2CuB0PPIHU1-Z-2EID-ZvJpCFb2rDRlQYmg_miXRWpSv0ovXS5K33O9xEqUNNzoZEV8HydrI06tVopGnZJkYjdvb8IYk_e-KMgXrYExmBYMHQUNNyUdvJTr_nFGMWw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9062041767572372329&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJO40S0Ex1qZYRaXvnj_nWwn0.jpg"
       },
       {
         "id": "ChIJE9wEfyN1qZYRMYFP4Io5I1Q",
@@ -793,7 +830,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJE9wEfyN1qZYRMYFP4Io5I1Q/photos/AcnlKN2wSN8HlrXQ_0nBAg9uIA5k_zASKSFxaiR3mWweTuZm-m4Hs8lqeZ-ignXQO0QxKFzoD32UnyTPbIIed-ztQM-XZ8IO8oqKBVhgdzyu4i7fIqxVXjYpLwlDRntZdaqgIs7tx6WfCvsAffB0YFBdQC7px8mKXoMwawnKo5ODl4ewhPq3gmXPkvZ52w45-uWclrUMovyPYLvbRzbnuCEe2Mbvamta4OCsTGj_PTtm3oafEFgHWIPT-V32GQBr44MF4hrsa7IiMB__8sVtgENhCWKXXmS07Q1ivS2sP-SFGbYuadNvn5e3vMf9mvJ0FH46hGxv2ybyocynNGZ5HCT478_6Xwo_dFWo6sbLCnuCylt5e-7dQ7MITJWm-7VJ_-hAywEvLGsYkaKpy_wUeQMozh_I8wdV-3VZCU3hEauSnmyTj5e43N6W9PMkeCS-xzoL/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6062752792002396465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJE9wEfyN1qZYRMYFP4Io5I1Q.jpg"
       },
       {
         "id": "ChIJ9dhhGXR1qZYRrmJYuHGA7cA",
@@ -813,7 +851,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9dhhGXR1qZYRrmJYuHGA7cA/photos/AcnlKN0BY-YVxeDP6RP9t5yB_oWybFaxz2MqGnRgSfp7U3HaiSyULJElOnL-6v2YOC7xn_nHYC8wzdYOCIWXnNwXpBzYszCm3oxX91ZT6UaghO4lFoxia0kx6NZfQbRedNMV9EU5kl-tYkUWop2WEfkhVkkTkTDDHZcLPQKGy89fV4X3KR9ArhMITmBHE94ZCrsNxs3iJdXUrt4C67ZCp1FQc4gNm8YyOx_sHJtkOKMs6USJeUsQo-scDK2tA8buP0xa913xF06fBYQuVkuT-FE-E56sN4xptiE-vOi1nytGk4qzJmD8uIZzfKJ0hW9Wg41h_caitRBqByheUoQcbfF9EHv8VijR4ZHeR_Gly0XTPbZX9_jSfDfwSsVTvb52lGE_gNDy1Lu9bmRoP6s8nqKqMgmUenop2u3aY3UyoeP4CM3vaw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13901908850675049134&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ9dhhGXR1qZYRrmJYuHGA7cA.jpg"
       },
       {
         "id": "ChIJiwJp1fh0qZYRqmaz5WuJrrc",
@@ -833,7 +872,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJiwJp1fh0qZYRqmaz5WuJrrc/photos/AcnlKN1aRGCeguIq_Dsoro4fFwXAe2A24FPonEdj-aIDJhxuue7J72P8m1L8qOtUPAVahyGqg-GyHKMQ7TxDIHh6ch-e06mHhNADatHkya_x5KUSEbgP8g_AzTDw_bpCyCi8yE7k9oBfYHoYzVUTHyTvIIZ_10BaO2iLez7x-96nsQp6w36SJ5Go69rjRiJVpMFPqSCetKoxKMsXtG2j16auB_J14BNYzqIINSpyseGgzUuz2vAKvhkJ3-to49901L2EaVTv5pXmkI2mpTd827onfBmtuyDHyPCtP-vgtRKwM4Zr5j45HY5HCYp4AwwVmpw8rYZyd5KW4quWFlbvQDvDC8YaJKdPBa109MX141Z7k_JzLukJlrbc5B3TgVBg_HCkz5Z_k4awDTby_45i4nsGrkFvM4CXggN8s70f98de7JOLqTEGGeq89Gh6qy4vgwVi/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13235667451396712106&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJiwJp1fh0qZYRqmaz5WuJrrc.jpg"
       },
       {
         "id": "ChIJZ9I6ULd1qZYRmv3omwNEIXE",
@@ -854,7 +894,8 @@
         "websiteUrl": "https://instagram.com/cafeandino.sp?utm_source=qr&igshid=MThlNWY1MzQwNA==",
         "googleMapsUrl": "https://maps.google.com/?cid=8151871582808636826&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:03.538Z",
-        "updatedAt": "2026-01-23T15:55:03.538Z"
+        "updatedAt": "2026-01-23T15:55:03.538Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJZ9I6ULd1qZYRmv3omwNEIXE.jpg"
       }
     ],
     "adventure": [
@@ -877,7 +918,8 @@
         "websiteUrl": "http://www.sanpedrodeatacama.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8931148733266929609&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ8yiIsVd0qZYRySeOInTQ8Xs.jpg"
       },
       {
         "id": "ChIJv7sHUZxzqZYRTF0XwQsonuU",
@@ -898,7 +940,8 @@
         "websiteUrl": "https://valledelaluna.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16545706111955066188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJv7sHUZxzqZYRTF0XwQsonuU.jpg"
       },
       {
         "id": "ChIJKSdxju5yqZYRGrcqcmw3xlI",
@@ -918,7 +961,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJKSdxju5yqZYRGrcqcmw3xlI/photos/AcnlKN2CxSBf5UzG2sQKOEpa2OJM7ygLQY4Nz1nZ8VPNXNg2fXLj92ldfXAQ5flkzd-oG6qz01eg9PLP0etdDyt0Tlem-dROw7y2guDMEDCy88Mg10bCq7hr-XhXaY_J4NaeD64KIB6GluLh-3KtI8kLBRDERHanm_vBpLcdbNdZOs-hh23PQIv7qLg4XUWPNSN3jpZ-UqaIsEZslqSf_nc7uIg4J6yfz3WW7yU6X2-_vx-LuYzAq51AaOotyFrC4amwAUNR3T70layqknFtjoh7hIRQIIaEuN-8WxdtMz5itUazLCkRZ1twO-00rliUBO8GEyKpHg601FKL4MYUw3g-m2IGcSbtosQjkUoeOVkLf7iNnw3ixeFwyyFGy4jJifO0R4-uY4zNh6UW1OTe48pyXs-gsjR6hSeXEut1dlYSA_LtHNhb/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5964515695410198298&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJKSdxju5yqZYRGrcqcmw3xlI.jpg"
       },
       {
         "id": "ChIJ9TtL7vV1qZYRcXvHAe2sSx8",
@@ -939,7 +983,8 @@
         "websiteUrl": "https://www.sandboardexperience.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2255086172366142321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ9TtL7vV1qZYRcXvHAe2sSx8.jpg"
       },
       {
         "id": "ChIJtzxlLwB3qZYRH_km9-9pk2c",
@@ -959,7 +1004,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJtzxlLwB3qZYRH_km9-9pk2c/photos/AcnlKN10TlxopSCxGBS--c3TPYiBU6semQjrNsicWGbjMMsRQNiGWEdgtT5wYsuvYdQ9WOe4-5BlCwM7dISF96EY7-MBunj3NRigIjWwLqpMx18l1FZZennNUNcvwa3k5QBcjBzYEB2NB50vg9Wq1OIi-GGdZwbvkG7ltqDgCc4RPQysj9QAe9Oa1tuPBuidUblT5OdQn2BGVmGMfbPKfMUKsqch6LsR6enp_CEvbZMstHNsKj0YTbmX54lPgWr1h9tuFTelQRU7ShbO8NGPZDyDoylVZw7Y3WorU5hdadnBYAb5IzabxdH9E7oKnKxw1Oj2YEv41aObaeAiU_HoXsTOJWVU2mHlzeYGSDfKWZ6xoxWxkIiklsUngxPXNWSfMgmnQM1WZbRXfsuFPxp1hvyOaibX0orcNBj6KE-nilWlDjo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7463425486847670559&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJtzxlLwB3qZYRH_km9-9pk2c.jpg"
       },
       {
         "id": "ChIJFzcx81d0qZYRbsFc-rdwalE",
@@ -980,7 +1026,8 @@
         "websiteUrl": "https://atacamamagic.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5866625400085201262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJFzcx81d0qZYRbsFc-rdwalE.jpg"
       },
       {
         "id": "ChIJE5p5rhF1qZYR2w5Tb9ey-OI",
@@ -1000,7 +1047,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJE5p5rhF1qZYR2w5Tb9ey-OI/photos/AcnlKN0LATxwSUYnP5goIuON2Ct8oIonZqOMOUb71S2rN7Xt3rxV0FOhr8SWkT1_2hV4PpGC9Qm7ULPsQrl-ilCcclPDNKeKwaM8kqaP9XwEXeQUhE5ip-CsqnVV-O0iLM94rKJPXCWkDP2loiX1VjNvZ7vvmozqs7y7WVn-2XE-hHV3YVfM36FoO1MFIRR5XQkZVt651GucBKToiD9QwE0XcSRnRnjzpQassrjeAWMzlBim6BjS2nYPv85mhqL_k0z5V49P4f1MqAaD-q7lthl-5gN2Lpu9iXtbyE6sKxknfd1BTrB5V8ZKBwUsorzqwdOybPytQo7EW1wFC41pM26_dUKw39nxIzX5dR2_uQEoaLQFHZW1qIYb30oXOLmavLHqf5IjN6qcEPWms1n1HhvndHFzXCRvvIDEaGzuJjRGnSVJVdsRo9cHZYGHoN6Ohg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16355018685151383259&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJE5p5rhF1qZYR2w5Tb9ey-OI.jpg"
       },
       {
         "id": "ChIJm8yvKAALqZYRT7RQTLtqXtM",
@@ -1020,7 +1068,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJm8yvKAALqZYRT7RQTLtqXtM/photos/AcnlKN1L_OWoB1N8U4te4FwiULobAkGPAm7vsRK0syrgC3_z3gvF_xkYdGW1fo1Dj-v_rzx5naMhvpOC5IlH7x51svSpAn6InGLKUTFy28xuv2gEmoYlCpuPhIcsHv1atfzN7wuSUMZ017ORET5Ib4qBgUHOF-z0xMCWGOjFr3usW9-NUfKJq3-oADHwOCldlt7JbaoBY0U73D5CoR3RzsjYZnSW7PD-yB-qGF8G0FYW_G8GPsUyy02BlrqOWyp4dMHNa_IjBkgdoZNd5A4sG6vlN5vSppDMQ8pgph7pViINSnTxqPG88c5WxsWqOPcGDNglHRncL0aEs8lGehbOEio9lGleVJ_MJyIuUsghILfUXhYXubAY3kEHqPg3oZNOTxgqdHf2zyHGIJ5Sk6MW7iS1T9BYB2pfEWCLL2qyVBSX6eROnw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15230728342485382223&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJm8yvKAALqZYRT7RQTLtqXtM.jpg"
       },
       {
         "id": "ChIJ-_TO-OMKqZYRDUka8mqFkRE",
@@ -1041,7 +1090,8 @@
         "websiteUrl": "http://www.andesnomads.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=1265939664642656525&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ-_TO-OMKqZYRDUka8mqFkRE.jpg"
       },
       {
         "id": "ChIJES88YttzqZYRbVCy6hS8nHk",
@@ -1061,7 +1111,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJES88YttzqZYRbVCy6hS8nHk/photos/AcnlKN1JDm4-7CcQ7wQ8bVcVtKPmsc4hKLXLYp2WBynR7FqoffiLGiODvgkra_WLmUoH7nPiscMyESStfK_-O4eDEpp4XYJarKCGprgeOIZBuUcnOelGa7p2Bu_0aDsDUy08eAVoUDuCNYvQrEJMJ29Sgjz4pL7QhinsF-2Rj0MtTjozHy70op2u6Xn0Na9fqeBAdzin5BdZ6jvoBczVb9JjZY8-yzLxCW8cp4xtpKfMpxvwSAlXOwYOGlA2NaZCtqZKnH1Owh3yi3ZPyOncKCulo6t0ToHvFEqDCzIPa-2wqBo3IGVse4pmvIGKoFlOOqgDVENv_GfPY2lwfNfMGNhwusypIwcmyjeDa50QZ2GUkifQnDsffwyVt-XKxTv0QoeQOaXrNA-d25YQVPcZNm4K6h7I1AeUZVRbHWTKicFtjk8utV0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8763085772979064941&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJES88YttzqZYRbVCy6hS8nHk.jpg"
       },
       {
         "id": "ChIJ-wG7BwB1qZYRYdcQsLSV8Pg",
@@ -1081,7 +1132,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-wG7BwB1qZYRYdcQsLSV8Pg/photos/AcnlKN27Bhb6XQx9L-3YlvHg6EYxI92XZDaWyw2gzy3Pl_so_mfLI0h2EV88FrC7aJMX_Q0PJkJQiKNyUPBHUgBhLrB0Vv4GFZDOlJrc5fQpFGP4DyX9OVwZJOQqt7r4MqXMA5KZFj3kUVbAuBdTFci5-qSXvBp1sO299C2hsq4e7nqD48WWTZi2RvFezTKUUcO8gd-nMYIIjJQNw4S5SNfokYDOzMI_kad1rBm_m0O_mBsc-eHbknfQWcS9nyQbAYykNE-y6RLeZO9XePBP1Oyh4TqnWdUGuh7Iyo34k4GFHvX05pElxPtwuKl1uwQAFbVErh5RrCekAYAJnF0RPdXG-etbpkiQhcolQrna5BT58I0E69BNRFEjqimTsBIJNOIu_eicSkX03DbIQEqDyWXf7erz_vtWs6wHjjD88AZIM3xtrKTsOWUhMy0zTfO_-el6/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17938001919097231201&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ-wG7BwB1qZYRYdcQsLSV8Pg.jpg"
       },
       {
         "id": "ChIJBcNDFUV1qZYRmURhPjVGrE8",
@@ -1102,7 +1154,8 @@
         "websiteUrl": "https://andestravelatacama.com/tours/",
         "googleMapsUrl": "https://maps.google.com/?cid=5741040819484312729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJBcNDFUV1qZYRmURhPjVGrE8.jpg"
       },
       {
         "id": "ChIJwZXZrRN1qZYRhDOFBMUFSE4",
@@ -1123,7 +1176,8 @@
         "websiteUrl": "http://www.alarkapin.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=5640764877024080772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJwZXZrRN1qZYRhDOFBMUFSE4.jpg"
       },
       {
         "id": "ChIJ595Fwv91qZYRFLI9ij_frVY",
@@ -1143,7 +1197,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ595Fwv91qZYRFLI9ij_frVY/photos/AcnlKN1lVddwgWW8ZMc0o3I4pPuvp3UZzq-uicnzQOb-j0wC3iM98z72M4m42gERL5BdKYk8WsyRPyHw6bUPQlrPMRbWb2nNDR0ZCAkrUAU4nJ2LYZQiAhzTsk-arsdOGEwYfJcYUvJTPZKRpusr3A1DC_k4q1oSnEeUdOO6A3pzKtijH4eqtSWxpECq_ZyU3erEr8NrJloWd-K_dmxwf7Fxjtzm0P2lzusThZu0TP5WUxY9wpZ7zwOE-sWeNKOg2_zHCeVZ5q0-MKR9ROUF9VeccHoZxpCVSHaoZIiGV_3gR8nAvalfnj21DpvgytueqCP7SK81bvyyBSU1WHo8dLGDhwt1iJzSBhsc5LvyHpImSPlQR9yDpa0tQHdImBR5gLomBDlb_T7zB-imim58D32eAtFogqnjnCLdPH7skl027DI3Vw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6245893722227978772&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ595Fwv91qZYRFLI9ij_frVY.jpg"
       },
       {
         "id": "ChIJfZPNGP90qZYRs_CvHViNNYg",
@@ -1164,7 +1219,8 @@
         "websiteUrl": "http://www.ecoexplor.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9814906372518572211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJfZPNGP90qZYRs_CvHViNNYg.jpg"
       },
       {
         "id": "ChIJxaAup1Z0qZYRo1i3NH9rX3Q",
@@ -1185,7 +1241,8 @@
         "websiteUrl": "http://www.backpackersanpedro.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=8385539225276602531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJxaAup1Z0qZYRo1i3NH9rX3Q.jpg"
       },
       {
         "id": "ChIJrYMi9yN1qZYRQU5WtrNgF5c",
@@ -1205,7 +1262,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJrYMi9yN1qZYRQU5WtrNgF5c/photos/AcnlKN2Gw-mLhJ9jaCR6lzM0X_TTb84nbGsxNt_y3wIJmlBZR6go4i88X9liGPEocF5HHLp7iPBFiRm1ZJrt6Q7YiyAkUF6OCvj3zoTUb7ZZcbZ16afSJaQLiQXXONPYKoUcgvtL5iy72PWHnYZI0EkA99HGW7uGE7mJIJnLTMamh-XEr111tQAaP0FshAFOWNtQoc3O6EA2VKARtN1xqlrG37FAWN7u-zFdRAnPyhL7HcL-Ex0YzpKuRVOx4aa7ZTObVDXpY5u07IgBFRTHafjYZJF3YQJ0X64tpNyEXkXxnZo3fuGoX1Pr1xKPSdU0WB6ACFv7kjRAWeCz5UiT1vD-OIIZohUm87IqvGb-6R48Z2EAYQysX2LThrjBEuYN7v_LMf0OSfNx4datKMUmco8fSiaY-x4tYN4tSvGwotCI_CHNYlk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10887276949165985345&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJrYMi9yN1qZYRQU5WtrNgF5c.jpg"
       },
       {
         "id": "ChIJGwBhbgALqZYRFCHSTcahvFE",
@@ -1225,7 +1283,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJGwBhbgALqZYRFCHSTcahvFE/photos/AcnlKN1yhnPekIR12iHZULs03sJVqdN5YFN50Oj-unQHaCOOJIwASIDVjMTkGkffgnDRJ0Dk_NNxYhNt9zWlQkRx053TRunheh1brIGy5z6WitwDr_GZGhT66AfpwX1ahqZyFs1WSHVoJwbAXldNc4wVY4P9rDzcjCQfcoOXucDeZPvovsRPZYOyCW5JnYwcu5vhB29H6hA-JyCKHhXy7A6-M6ZqjgVN2COcOlX6SAmEa2Kk0n1gd_WQpIOyJ-ijf8uIh4eyqFf0bZSNFY0d8oSeoTClUaYcxrSHHaIAwqfTWlevaF6UqX-FCLWBMSasMFT-egxtxLJDYeVT9JEhtca53BLgVBl0yKMPkb5AmSCqP_nII_fhmbFwtLfcNI1UOZITdx0hQE9qXc5fC-7tkIq2_nP1txIZuMcX_i91pzXX9bI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5889760285774979348&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJGwBhbgALqZYRFCHSTcahvFE.jpg"
       },
       {
         "id": "ChIJeep-IQB1qZYRiGjSQsTEIYs",
@@ -1246,7 +1305,8 @@
         "websiteUrl": "http://www.instagram.com/sanpedrodomos",
         "googleMapsUrl": "https://maps.google.com/?cid=10025510592717154440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:04.800Z",
-        "updatedAt": "2026-01-23T15:55:04.800Z"
+        "updatedAt": "2026-01-23T15:55:04.800Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJeep-IQB1qZYRiGjSQsTEIYs.jpg"
       }
     ],
     "cultural": [
@@ -1270,7 +1330,8 @@
         "websiteUrl": "https://www.emporioandino.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14172101810718507296&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:06.011Z",
-        "updatedAt": "2026-01-23T15:55:06.011Z"
+        "updatedAt": "2026-01-23T15:55:06.011Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJQYAvi1d0qZYRIAGMhIJrrcQ.jpg"
       },
       {
         "id": "ChIJsc-7b2A5VgERBJhLp_hXtfw",
@@ -1291,7 +1352,8 @@
         "websiteUrl": "http://www.museodelmeteorito.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=18209557393812723716&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:06.011Z",
-        "updatedAt": "2026-01-23T15:55:06.011Z"
+        "updatedAt": "2026-01-23T15:55:06.011Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJsc-7b2A5VgERBJhLp_hXtfw.jpg"
       },
       {
         "id": "ChIJ3UAZXxV0qZYRNi-W7MOiv2I",
@@ -1312,7 +1374,8 @@
         "websiteUrl": "https://www.monumentos.gob.cl/monumentos/monumentos-historicos/pucara-quitor",
         "googleMapsUrl": "https://maps.google.com/?cid=7115584898640260918&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:06.011Z",
-        "updatedAt": "2026-01-23T15:55:06.011Z"
+        "updatedAt": "2026-01-23T15:55:06.011Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ3UAZXxV0qZYRNi-W7MOiv2I.jpg"
       },
       {
         "id": "ChIJq0OdLVZ0qZYR1xPAqaiu2CQ",
@@ -1334,7 +1397,8 @@
         "websiteUrl": "https://www.rootscafe.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2655064019760583639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:06.011Z",
-        "updatedAt": "2026-01-23T15:55:06.011Z"
+        "updatedAt": "2026-01-23T15:55:06.011Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJq0OdLVZ0qZYR1xPAqaiu2CQ.jpg"
       },
       {
         "id": "ChIJDwke41N0qZYRBNE05nw_8yY",
@@ -1355,7 +1419,8 @@
         "websiteUrl": "https://iiam.ucn.cl/sala-de-exhibici%C3%B3n-arqueol%C3%B3gica",
         "googleMapsUrl": "https://maps.google.com/?cid=2806656798452666628&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:06.011Z",
-        "updatedAt": "2026-01-23T15:55:06.011Z"
+        "updatedAt": "2026-01-23T15:55:06.011Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJDwke41N0qZYRBNE05nw_8yY.jpg"
       },
       {
         "id": "ChIJq5X4zDcIrJYRy6rSlDU9Wos",
@@ -1376,7 +1441,8 @@
         "websiteUrl": "http://www.muhncal.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=10041405619515337419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:06.011Z",
-        "updatedAt": "2026-01-23T15:55:06.011Z"
+        "updatedAt": "2026-01-23T15:55:06.011Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJq5X4zDcIrJYRy6rSlDU9Wos.jpg"
       },
       {
         "id": "ChIJdRmTWscJrJYRH6n8TS489H8",
@@ -1396,7 +1462,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJdRmTWscJrJYRH6n8TS489H8/photos/AcnlKN020dhTt6o6QCMZPgMjEFgvaooEDVPZPfHNe1sQIZOkbb2VJVOPt7wZgXvyzgnXf-18HDv9QnKRb7L7z5U6apYzGNQRvXoPod5ynCLCVhSgDANmSEG1tees4K9WiXcFHPVyywDR--Ng17MBvfzPw8n0mP_pG7PuMlLgjpNfNE55DIr3Flwq0VvmsVB3bezTdGjaEl_YntulwLYGYNKeRxnG8XMMxw4xh2xei2CtWROa7lN5Moi5zaaw5svIpVh5HyHPZFicz0rT1Bkf_Tlb17BhxR6HzAiWp4YOe0vISUJBTnhjtkuRj8nzjW-QluB5V-HsO2x0y-xBd7I9NeKxN3Xw18XNaxK23-hmMPWQ4EglRgIsVIlWnintMvuVlGKL2Scwj84ECIiCTSaW26UgWw-6NQcDqUie1lvzi9tMeJWGyw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9220060506708814111&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:06.011Z",
-        "updatedAt": "2026-01-23T15:55:06.011Z"
+        "updatedAt": "2026-01-23T15:55:06.011Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJdRmTWscJrJYRH6n8TS489H8.jpg"
       }
     ],
     "relaxation": [
@@ -1419,7 +1486,8 @@
         "websiteUrl": "http://www.sanpedrodeatacama.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8931148733266929609&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ8yiIsVd0qZYRySeOInTQ8Xs.jpg"
       },
       {
         "id": "ChIJKSdxju5yqZYRGrcqcmw3xlI",
@@ -1439,7 +1507,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJKSdxju5yqZYRGrcqcmw3xlI/photos/AcnlKN0RnYry93fZE1u07wTyQi3hHRdMzNCKD-C_19OFzdAT0L15tkMZp72BTfeJ30fuVpvWtA2Va-ju8WKNnQIi_Sxgd7qV4QGj0m4oZHzwG6xFSq2NSIsPjo8gfubSe_hoQRapYu2S3vJePlIEDi9OWQ5LvbpFhq4djDNbs5e9W9TRcKem6ssBVqQRL1fbrSPMh5KXFFT8JFl2_9ilRgEXUwk_DHMs7tHHS0MQO2PjZoVt35UZM8d8afluTAcVlsNuAcOI_u8wnD8xUBVTXz1zWFsNX6FB70o36gzPQg9O6cR43DV7j3lcS0kQQ_j-HDMnKyk4gI4xHfY_3ot3XgH9rmTqpvmB98l1D-RVoJuUv94OyC5hhDYeN6nawFJNBEwxlOrwld7R8QDre-lN5ZXeGBmPl_HXJ4eawi5rzP4KO249B5o9/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5964515695410198298&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJKSdxju5yqZYRGrcqcmw3xlI.jpg"
       },
       {
         "id": "ChIJv_W_K6x1qZYRskzb-9UAXWs",
@@ -1460,7 +1529,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJv_W_K6x1qZYRskzb-9UAXWs/photos/AcnlKN1l4PGS1k6r1-OmfpB6DEAsdeN_YYtGgSiieJmoqGK0qPV3nT4XrNlv6OA-Ws0ufNmqTv6Cd7dc52HjhLIZj5WO7xZ8B2mRS3UvtEwuci0TQGyZhPaDSD2AxCZq3_-sKiCaz3JVKnRtCJyh4epms8N-ruTMFn9NhNCtArkxSt76D3OXffX1FMlNOBNTRveXRp-n7CbJ98rxgyYq-HG6Iw830HK3ukarC6X2_EWIT9zwaMzzytb8LxWWi2YakvAtTuwHyqO3zu6urNLqa39FIDxErPd6ppoY3vEDQzcf8sQCYwogvgRRtPCnMwxkGeKpZhh9FzeDjRkX3lnrcOBpUbWm2Bc8iV9Ss7zprx7oDwD2nHbrfq5IUT__hupEMbb4GaMoyZbMlj9u3wd7tKlCV8kwcj3EwGiDAk2cE8UriZr6og/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7736340653945867442&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJv_W_K6x1qZYRskzb-9UAXWs.jpg"
       },
       {
         "id": "ChIJQaK1vUp1qZYRIOiOw4iImPI",
@@ -1481,7 +1551,8 @@
         "websiteUrl": "http://www.jardinatacama.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=17480872074616432672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJQaK1vUp1qZYRIOiOw4iImPI.jpg"
       },
       {
         "id": "ChIJkUBZdQB1qZYRmwW1wlLB5x0",
@@ -1502,7 +1573,8 @@
         "websiteUrl": "https://www.instagram.com/licansumaq.spa?igsh=NTd0a2MwdHZjYzY2",
         "googleMapsUrl": "https://maps.google.com/?cid=2154903507918194075&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJkUBZdQB1qZYRmwW1wlLB5x0.jpg"
       },
       {
         "id": "ChIJJQ5XUxR0qZYRTrPn0oR3rCY",
@@ -1523,7 +1595,8 @@
         "websiteUrl": "https://www.nayaraaltoatacama.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2786733681793282894&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJJQ5XUxR0qZYRTrPn0oR3rCY.jpg"
       },
       {
         "id": "ChIJ5wHMxBnPYpYRhd1Bjffccbk",
@@ -1544,7 +1617,8 @@
         "websiteUrl": "https://tierrahotels.com/atacama/",
         "googleMapsUrl": "https://maps.google.com/?cid=13362704525169909125&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ5wHMxBnPYpYRhd1Bjffccbk.jpg"
       },
       {
         "id": "ChIJ48WlIQB1qZYRNF0UfZr_v-c",
@@ -1564,7 +1638,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ48WlIQB1qZYRNF0UfZr_v-c/photos/AcnlKN0ZssFLk7Rjz9bJYrLOebYy17N_IDL_jqmOQETi5SydIZyu8-Wwg2FdaVKyOiHTZluerJ12-Dn9DJRIfHpJo_J61q8cg5pMJ2Bhekd491v7p6QtojD27MRmLyhR6QKxR-Xp8tVqjFu5yq-vgpC2T-LdzyJqcAbBlrGSQp37AOzkFiTjWp87rdDfUTU_5ILq8Kyhcntgq6z61ALMDxvDdMpphtoKsKIe5kPxB4dF022xEqjw-2le8M6zDwK5guJoJCRdxd1tb4P0NBfVTq329zOSxfoATyHjOgvc2mCATDF9l19QJL8uX-6naUmOP3-eGZ3YXFjJwxI73uJVj3wDzwBS-pLjkliXtylkktlozyLcBbroCpoLgzyJdI_eoSZ1GXD3nvN3JqbNOVI9DDTq6njgqKFR2vngLPU24MsGwvsV6pNxwGuvPUNJ6rPXDeZq/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16699346982301621556&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ48WlIQB1qZYRNF0UfZr_v-c.jpg"
       },
       {
         "id": "ChIJ46QaTSR1qZYRmeX512NfUZE",
@@ -1584,7 +1659,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ46QaTSR1qZYRmeX512NfUZE/photos/AcnlKN1QvExunZhGgUrQX-8e6RislrluvNFrE32pFFi1hD8xs8Ej0T-Bo0qiavOsFt4ojHR-Ch8-TKv_mSpTXDOzMHLwqAYHCMsOhTH4Gf66yusdG6YBs99r9Xd4pgirgqi5mAW-VuBrA8Z_QZ1XuGWGh-f1fAJ5FvezIEG0xqpDNM6aJU87lL4igzp6o4Ai8aEe2w9DhK7R03X2OYPRIdO9CAU7gUnImRC3XeG7W2101jWTcwiMqLkVldsdRjP10xcqbdA3Q8TXZaooUogvqDr44u_-XNr7JXj77L0IqAx8FGRG7w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10471255491042993561&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ46QaTSR1qZYRmeX512NfUZE.jpg"
       },
       {
         "id": "ChIJ595Fwv91qZYRFLI9ij_frVY",
@@ -1604,7 +1680,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ595Fwv91qZYRFLI9ij_frVY/photos/AcnlKN3C7GFauDrLfpG_X9LtaQkfUbkUGBR5Nre2KgKc7iMKzmrp5kMfObvMDvRrSmUpSSqOyi3ts6TtboSRtn-kx52N310zZg09yYrWM9tY8E3g34ztqyhZiuDeC-PtI0aPcK0gMuxBd9KTvJtoXlOqlxiR-O8u3Ms5o00OZXUa7iVfmeRRsp2FjNH4j7HzLhMapOELGoXfwTkEm9XRz4gyL0RfohkENMC0mdbh8TyX5_oBpEj5zVa0tTyaF4qdOcITxHBsSwf5Tg7RS-u-pxFszz7qlwPVyNZomDjZJJNEaoPIRkUXJy0W1m1KwpuiShG_kSCGSex4TJZJ863ygCwyxPdzUrqGC86pXixGCA2Wnn3iXLvvUrwWGac1TFnufDtjH8lLoHIdyleaLW_s3E9ogo3vH3zbY3J-F9IRUyq5N6VTkQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6245893722227978772&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJ595Fwv91qZYRFLI9ij_frVY.jpg"
       },
       {
         "id": "ChIJrYMi9yN1qZYRQU5WtrNgF5c",
@@ -1624,7 +1701,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJrYMi9yN1qZYRQU5WtrNgF5c/photos/AcnlKN26iLWdm3SpWSWoQBvWDKzHTx7P3WYHFEcMzrzKuolssZSPOHMGl7H4TllqL_SvLJl0Hb8nIFEAoFF92WW7WM87DtEfe6eN3yzxWZ56vzPMclidpldxUDSm9wnYm94ZnGvCEpcDswMW0Dc2wJVckLPBG1hIccvyj_bH0tQOYHvWDV7WmuPLUFfpWdpbvEcaSkvT0PaT5qU_nBahmHrOgHxP2nbHtWQibwY99Al-iV8NMjhBliSXD4VOLDOpbZff4LxBQQtbSPLNwM1UjgZjs5TcP5h0YZd9Ubd0MjqHiJxBeogq12-gHqv4VY_DSuGaKFhnw4CJ6XRaft1Gz9zjbD6Ts2g1RQTx1yKucvdPSz1Y0w3mTm7HYHx1qJA6Dg2XtEwXG5Q-fhlfx_JfDdVVGqyJYHbm5NYy8pLQbPIAqVCDtkY/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10887276949165985345&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJrYMi9yN1qZYRQU5WtrNgF5c.jpg"
       },
       {
         "id": "ChIJtw9dXQB1qZYRqJXA1B6dDvM",
@@ -1644,7 +1722,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJtw9dXQB1qZYRqJXA1B6dDvM/photos/AcnlKN2zVYr8rdhb1e04maFPsdXrNv2LD097OaUHJkqDyG9TMwlYzdC827PDJ4TiSABuFwGSkjqJkeyh4fOVLfRFfDnIv_6XL5VVFZRqoyG1F4gEH3tEYWaRZHPTt7D_t9iWASrS2qpoYru5URTiISE221mg5ConPIgGKLR1PHQpFc3vv4eas1_tME9-UUT45FsABkH8cK-EP_OYQ52SBZFR63qUgwYSI9SNk1tli1_T5OLnSCPJq7p17GvPqi2cTclsQvwAKOVn-Ijjiy_tPE_Ju37Cum-xcr7JaDHE_GBcPakDP3da2RObgoLPm0-rn1ROcC6o1Am_DGpRcB64QltBx3UOXXavDV28V4ek4Y1HlnEn8BFrjGXJP9Ov5R_1FAdIu4pOm4OYQSU2mVMqSCDGkNMrSImKO_XoyOrnfVBgCtk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17514108756634408360&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:07.198Z",
-        "updatedAt": "2026-01-23T15:55:07.198Z"
+        "updatedAt": "2026-01-23T15:55:07.198Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJtw9dXQB1qZYRqJXA1B6dDvM.jpg"
       }
     ],
     "nightlife": [
@@ -1668,7 +1747,8 @@
         "websiteUrl": "https://www.emporioandino.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14172101810718507296&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJQYAvi1d0qZYRIAGMhIJrrcQ.jpg"
       },
       {
         "id": "ChIJhUtbvVd0qZYRuG5iduArCSc",
@@ -1690,7 +1770,8 @@
         "websiteUrl": "https://lapicadadelindio.shop/",
         "googleMapsUrl": "https://maps.google.com/?cid=2812827685328416440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJhUtbvVd0qZYRuG5iduArCSc.jpg"
       },
       {
         "id": "ChIJbRCSnnV1qZYRl-UnFqyIOXs",
@@ -1710,7 +1791,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbRCSnnV1qZYRl-UnFqyIOXs/photos/AcnlKN27Ejkde3eudgMomBybVyepOTjlqbNU-b25ZrkdO-UprdaZ_2K2DL62-BmfzJM2oEXjumPisli5Kysso0A5h6RepGFixtaMFdrBklKHtOIHFD_F5har10-ltsSp7OkXcnmmV03tkfjE4sUbLRE2Gv2mz4rZ7xoFUJVs-3v3OSwX_u-wHMA1RZDnUjiB9dLu1B2nngfjWkSPPfQGmAS4XZrMu_DweIKjPDMempXqlom6JnYuxUwK6l9l201f_foM1hRf7W0x9EYGezkoQ8CPeot1JhZ5l7VSyLNYtNwlN0J9Kg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8879278413025109399&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJbRCSnnV1qZYRl-UnFqyIOXs.jpg"
       },
       {
         "id": "ChIJTcnsjFd0qZYRs8Q9FSQntL0",
@@ -1732,7 +1814,8 @@
         "websiteUrl": "https://chelacabur.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=13669593804904973491&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJTcnsjFd0qZYRs8Q9FSQntL0.jpg"
       },
       {
         "id": "ChIJOQZWCld0qZYRbBDiiQQRlH4",
@@ -1753,7 +1836,8 @@
         "websiteUrl": "http://www.ckunna.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=9120933856522932332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJOQZWCld0qZYRbBDiiQQRlH4.jpg"
       },
       {
         "id": "ChIJq0OdLVZ0qZYR1xPAqaiu2CQ",
@@ -1775,7 +1859,8 @@
         "websiteUrl": "https://www.rootscafe.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2655064019760583639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJq0OdLVZ0qZYR1xPAqaiu2CQ.jpg"
       },
       {
         "id": "ChIJW0Y-b-F0qZYRi4TqX4IxdwM",
@@ -1796,7 +1881,8 @@
         "websiteUrl": "https://atacamaloft.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=249722740367066251&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJW0Y-b-F0qZYRi4TqX4IxdwM.jpg"
       },
       {
         "id": "ChIJNypAK851qZYR5pZ99M3heVo",
@@ -1816,7 +1902,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNypAK851qZYR5pZ99M3heVo/photos/AcnlKN0b4Vixv-M7AuDCK_28RQKcjW_4ifopotZb9qC2z3jKSeb9bAr3b1SkZ1nkT8Wk0-j8_PyfPCwiANFouhjHrWACjs5S-a7tEqz7DihFxaZninJchQJBfsn-dw2M6THNhXY7uQ9ErbA6QY1LSMjdGj9rMG7iqWGvXsWn4Iv8bU81wva6NGenGIzPWnTTMa-9ZJJsCokaHrfRpGHGMLA4qN9NRgSXNq8Z9V266Df3DTnEgbNUrjjfKH1i7VQkwQiC5MkS1IH8C4MU_XR0dRdntiVEnxEsLAnS073YOEAsOeMj1floEl9RvH15snbwjXTAsRJ8bxZ_AszoDY6N07AM7R9tjFqBqz4_W6w2Egd_hit9vR_hsy2d7jDFkn2qs4OfNa6TGjUtKUWsackoEha3BgfOSMvhf2tfp7w7SnW4JFRjI3iSBpzIIy7uoEn-g9mp/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6519490210281920230&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJNypAK851qZYR5pZ99M3heVo.jpg"
       },
       {
         "id": "ChIJYT-W6O91qZYRGqPzEAE_Xkc",
@@ -1836,7 +1923,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYT-W6O91qZYRGqPzEAE_Xkc/photos/AcnlKN0TtsUL_t6-urp9hse90zqYfhBGClGJPDvTCox0qNAsYTrZQ3NmQz-934rGW6zL5jBTRztsyvS803azZRh-n2KmDOqu82EarSWQeBgdC0XDUCDLubX3SQrNB7ICar-izYg_jh8TaZ6PV_dcQ5THzrHk3t2KRwKHxs-yTmWkF473orq8KOfYre9jzNhXbdZfY7dq1OWbrvhGXBsEuuKRSWnzfjqGrn_bk05HoP8gs0Ol2J3vXfNlW6FV5AgRG7ai1PUJ6O59O8M0_b6-88XyxjteHNJ7FH_1zxQSYYgSr12nqQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5142617098315604762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJYT-W6O91qZYRGqPzEAE_Xkc.jpg"
       },
       {
         "id": "ChIJK_Dl6kAroJUR4cWRzejvl4E",
@@ -1857,7 +1945,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJK_Dl6kAroJUR4cWRzejvl4E/photos/AcnlKN31rZl6trmXf73XULAaatWsaVl0xl0xJtyFPgv0XvtsmqgGbkMQaEN6Iepg9EExXTxeFOV8D9M7EoD-1o5kqibGJLRBCZ6NHLtKaAdb-oxqOASOkciqzpZJ1z1-YAp_MImZjEzjjpXpF7uiWrnF8MagOryjYofOv1y-2VhX33UA7u1GbFYAelPhL2ZqfYAJ8Gl19pEtoyF1qo2aQM8reZfgMTirqzo75sIyiRR_pDagH_AijQExEGYejunkGuvUS6RVdhA_p5gM52JhnfN4OmDQBPctQhUgatMhBy_ffUeHlPenSdA6i7ghC7IlASqW7_zxu0KHKjSbUN9szC_m4BxNkUb5dnGHH1leNs7wb3j3ngthuPsSnxUerRRpGddqFey7M8nKEBB9nWOWO9DxCVp2sjGLfKjJBZciFQA0iGJQhcti/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9338196135536346593&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJK_Dl6kAroJUR4cWRzejvl4E.jpg"
       },
       {
         "id": "ChIJL9dZKlh0qZYRreraWoSXY6I",
@@ -1878,7 +1967,8 @@
         "websiteUrl": "http://hostal-chiloe.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=11701362851554454189&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJL9dZKlh0qZYRreraWoSXY6I.jpg"
       },
       {
         "id": "ChIJXT4mX-QJrJYRxVV5WdaVklI",
@@ -1899,7 +1989,8 @@
         "websiteUrl": "https://instagram.com/elsenordelanochecalama?igshid=NTc4MTIwNjQ2YQ==",
         "googleMapsUrl": "https://maps.google.com/?cid=5949982805566510533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJXT4mX-QJrJYRxVV5WdaVklI.jpg"
       },
       {
         "id": "ChIJc699ild0qZYRfcpSMEw6zLg",
@@ -1920,7 +2011,8 @@
         "websiteUrl": "http://www.donraul.cl/restaurante",
         "googleMapsUrl": "https://maps.google.com/?cid=13316082297130371709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJc699ild0qZYRfcpSMEw6zLg.jpg"
       },
       {
         "id": "ChIJq7coaZp1qZYRhyjCLuHBEzQ",
@@ -1940,7 +2032,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJq7coaZp1qZYRhyjCLuHBEzQ/photos/AcnlKN1dnrqMrUkixus18H9kZ_oo6Vr-Rb0Znse5z20jp7xXDcVfOguBWLm9Ze2-KDbWJSyBh-weZ12OtuVWmyKO4PANna8CXcsFVfr5e31gZiSeb1FapCeXgXgZUO5EbYcrdlgBI39iL5vtRB0qv7iRhwDy7mPxi7xYIYORimOFmLGTn3TdgAy7_zSfggDkHwHIqRaaXLzDApa22U70-EhFsxwQU55iVviRdjEbcENZLd7EPKPlYT1mTarY_EC0jS3ikXRXde728uSpXVd5OWMssGZO2T3lLcTAS8D_bLQCdvTCKeqY3e22U1laen6z8B6s2Okp_RJ96LDCY8-XZ7jZa7bWaUWmgLOQpIJhqfJXow2f8cHveB4iXu56DLHpoUwxygE4eYlJHBdc-TJ2BpSq8WoLaoZ7HmaQ-Togv6MkFnFdcw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3752556087426033799&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJq7coaZp1qZYRhyjCLuHBEzQ.jpg"
       },
       {
         "id": "ChIJt6vFjFd0qZYRIVP0W7eeIt8",
@@ -1960,7 +2053,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJt6vFjFd0qZYRIVP0W7eeIt8/photos/AcnlKN2co62eji-4GMJ5_NRMRrZAmetenDFDGT0zSvUMKr3SQWg6TLgnf7RBjiLjU_3nDGKWGue6nPsI_KWXH9ggORTopv9PrJV66y0oIAfuD_6DK1Ps1JpRCTDzCnmtbA_288jBlL-8SoZTALG8e5jpIstg9-9YMLPrPL2VmDLj_q2D3Sa8Oj_iZf7HBV3nHM7FlpDg2wVPbHE4f1MFNW6FwOTRObXotCQN5i73ulQAbLQdmjUyxPF_hkvWKwzPuHnlmEsnhzOCwcg6HpMkP1vIMlScz5aCwP1Mjm1kGJ0rUTYrXg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16078588130025034529&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJt6vFjFd0qZYRIVP0W7eeIt8.jpg"
       },
       {
         "id": "ChIJfZeh_fMJrJYRoDdAXbOR3Pw",
@@ -2001,7 +2095,8 @@
         "websiteUrl": "http://www.clubone.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=5840843001820093485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:55:08.810Z",
-        "updatedAt": "2026-01-23T15:55:08.810Z"
+        "updatedAt": "2026-01-23T15:55:08.810Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJSQSE-9MJrJYRLRxQmMPXDlE.jpg"
       }
     ],
     "trendy": [
@@ -2025,7 +2120,8 @@
         "websiteUrl": "https://www.emporioandino.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=14172101810718507296&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:09.939Z",
-        "updatedAt": "2026-01-23T15:55:09.939Z"
+        "updatedAt": "2026-01-23T15:55:09.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJQYAvi1d0qZYRIAGMhIJrrcQ.jpg"
       },
       {
         "id": "ChIJDcgPpVd0qZYRrFS89pHDg_Q",
@@ -2047,7 +2143,8 @@
         "websiteUrl": "https://www.instagram.com/lafranchuteria/?hl=ja",
         "googleMapsUrl": "https://maps.google.com/?cid=17619141198880724140&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:09.939Z",
-        "updatedAt": "2026-01-23T15:55:09.939Z"
+        "updatedAt": "2026-01-23T15:55:09.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJDcgPpVd0qZYRrFS89pHDg_Q.jpg"
       },
       {
         "id": "ChIJq0OdLVZ0qZYR1xPAqaiu2CQ",
@@ -2069,7 +2166,8 @@
         "websiteUrl": "https://www.rootscafe.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=2655064019760583639&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:09.939Z",
-        "updatedAt": "2026-01-23T15:55:09.939Z"
+        "updatedAt": "2026-01-23T15:55:09.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJq0OdLVZ0qZYR1xPAqaiu2CQ.jpg"
       },
       {
         "id": "ChIJVbcdoMF1qZYRh-JOaBQI-P4",
@@ -2090,7 +2188,8 @@
         "websiteUrl": "https://www.punto-copec.cl/",
         "googleMapsUrl": "https://maps.google.com/?cid=18372443563600306823&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:09.939Z",
-        "updatedAt": "2026-01-23T15:55:09.939Z"
+        "updatedAt": "2026-01-23T15:55:09.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJVbcdoMF1qZYRh-JOaBQI-P4.jpg"
       },
       {
         "id": "ChIJSaWOLB11qZYR51AL94IXCKI",
@@ -2110,7 +2209,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJSaWOLB11qZYR51AL94IXCKI/photos/AcnlKN3H3AH4kmZf5BWm4FZz5RVZRVWf3JAeaTm7f2DugLGor_gxh0yLOph6WM6l1AI4eQizE4Tqd-IVIZ9BTAUNpjj0rvfwxtWiUspv7aaUMSsU5wcIP9yPsMtTTmosQ3aN-dOjM4Km77wgZdimEjBkg-HHmSIh6BnwDyAlkBPLftvjp7E19YePfiTW98p9DFtqqL3F9-_icZZiDSwFeXO1F9HRINasRd6gjgkNfu5yaZxRiHIU0NCpMC2Igv3keoApzT-1Gq6elQ9Xw3ulB18mzQkGSD_ItMl36lmQ3IoT1VJfJ4k90gJK_KcUsEbhtYAfl_WrQuuCNj8pqJhh11mqool5JRsvgP25OLICmJppQLMDvVUIWj1EZbXbPRFoslMq5NlkSPSPYDqWJ4I4fNuZvsXRNzBv7u-3z6IYPSk0coEz9QH0S2hWI_vqL8ATx_xu/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11675607885215912167&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:09.939Z",
-        "updatedAt": "2026-01-23T15:55:09.939Z"
+        "updatedAt": "2026-01-23T15:55:09.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJSaWOLB11qZYR51AL94IXCKI.jpg"
       },
       {
         "id": "ChIJYT-W6O91qZYRGqPzEAE_Xkc",
@@ -2130,7 +2230,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYT-W6O91qZYRGqPzEAE_Xkc/photos/AcnlKN1j6tkdAFdtyY1cX4bJJyeA8Bixv3u2BmPA5JxQLZyxfOgn-ejdiKk7K9hE7Q49CWYq4km4v0LquYvxavaHGBx0GLXf1ApXtyt5PGsmK-0D_VWFzDdMZZAFwWAzlwJzqcY6VA71_k0rmUUiCoOLpG6e7MlaB6Y3GOC4LlB_bmne4b-RG3TseWMYzH1uLEBCngx3wo9syRpkebWV8zRZVTqPh9af0YQafvuhzVOubeajPqWIPjD2LJSysmyRr2NRB9tcV5DWbGxKN9pcktklhObG1uGl3g7kAtHJSAf50Sd5aw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5142617098315604762&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:09.939Z",
-        "updatedAt": "2026-01-23T15:55:09.939Z"
+        "updatedAt": "2026-01-23T15:55:09.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJYT-W6O91qZYRGqPzEAE_Xkc.jpg"
       },
       {
         "id": "ChIJsVhGECl1qZYR5DBz5PFwC1g",
@@ -2151,7 +2252,8 @@
         "websiteUrl": "https://instagram.com/lacasaconejo.store?igshid=YmMyMTA2M2Y=",
         "googleMapsUrl": "https://maps.google.com/?cid=6344288684303659236&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:09.939Z",
-        "updatedAt": "2026-01-23T15:55:09.939Z"
+        "updatedAt": "2026-01-23T15:55:09.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJsVhGECl1qZYR5DBz5PFwC1g.jpg"
       },
       {
         "id": "ChIJy9YDSUN1qZYRKBUXAGi2zk0",
@@ -2172,7 +2274,8 @@
         "websiteUrl": "https://www.instagram.com/adobealpaso/profilecard/?igsh=MW9iaXp0bWZ0MHJrbg==",
         "googleMapsUrl": "https://maps.google.com/?cid=5606619143917212968&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:09.939Z",
-        "updatedAt": "2026-01-23T15:55:09.939Z"
+        "updatedAt": "2026-01-23T15:55:09.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJy9YDSUN1qZYRKBUXAGi2zk0.jpg"
       },
       {
         "id": "ChIJZ9I6ULd1qZYRmv3omwNEIXE",
@@ -2193,7 +2296,8 @@
         "websiteUrl": "https://instagram.com/cafeandino.sp?utm_source=qr&igshid=MThlNWY1MzQwNA==",
         "googleMapsUrl": "https://maps.google.com/?cid=8151871582808636826&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:55:09.939Z",
-        "updatedAt": "2026-01-23T15:55:09.939Z"
+        "updatedAt": "2026-01-23T15:55:09.939Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/atacama/ChIJZ9I6ULd1qZYRmv3omwNEIXE.jpg"
       }
     ]
   },

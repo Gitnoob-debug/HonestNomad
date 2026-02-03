@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-YBZZIeZ1ZERtn0QglY_qaE/photos/AcnlKN2HRrutW2CpGQMLOXt4RIzEAAx0ZnyYoEApG1UN2ygv-SweVGhIjBpjn7VGHpWnbiDZk-enwWvap737N3DJnIdz0ixeqDbdNm09XrMI-PIat9GTppOZ4o0uRq1jANtPmntywKT8srsp0EFwhjmZXJiOSZQ57PPSJV35dBAC-thCF3SOyKsMPPqFJZ6A2wvlhXGVM-vVjuJcKoBAKQxEFG_HklUTmlzelqY5pHdSYeQplUxTY8NSAVgk1lO9djeTOBpkfpEYAH7-NnAB6YKMAZ6nR90DNMeHU8jSOLxU6aWQXNeDRGwdf_bQ2CtPwaqTdk_Ymaqh2tQaHsJtFdSyC4CnMa4bHRpYcLUFxm3GLnlxispUzp0ojvObFe7HFt2fgTVscbzR6SjoVk6jQM4MFtjU5r8hP1fuY2w6m-AQKSjlg6op/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11648911551952354742&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ-YBZZIeZ1ZERtn0QglY_qaE.jpg"
       },
       {
         "id": "ChIJtbMdwyWa1ZERzotNRYMSAWw",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://basilicaquito.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7782521986085653454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJtbMdwyWa1ZERzotNRYMSAWw.jpg"
       },
       {
         "id": "ChIJYQT7unia1ZERm6hXR13euwk",
@@ -66,7 +68,8 @@
         "websiteUrl": "http://guayasamin.org.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=701398659196496027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJYQT7unia1ZERm6hXR13euwk.jpg"
       },
       {
         "id": "ChIJcXourICZ1ZERn-eHxBcy5dg",
@@ -86,7 +89,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJcXourICZ1ZERn-eHxBcy5dg/photos/AcnlKN0cZujp9T4QjhF1lCx75Bzu0UelXF8kKF1ubCCaiR-20gEf211cyDRLH8pHDzoq-Lpo6Ywc00LeFKNH-qye_-JbhzX3ofS5CtOY-SZkdvKd3hq8PBTQqg6lD4UBD99BjtpeRyxj6RhQRE6Bqyr5GkHAhEoELQduv5pbJp58rIVdQocuP6_WnSXL-F4QxT_bUgMjAFpSIJLMCzCa2y-CJSBZys9tFndaL8OJqPPSrTjBnG8CDOFSGLf99SBWz_QEWSBvB4erMEpXnT180sPCPIhsGeOkqI1TE5IRO-MrYCJlKHBJaSfnNCdlHJVwu3pq8IqKLN6Hk3xuvG0cM4KJnv17Ku49Gj318MgVV5G3G6ExQy0rq9Vcnszv7Cs44G97SAo0JjlHwyVitzJJljSn-zFXscVmz8Vxe2MQ21xlqyHo5g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15628953159522051999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJcXourICZ1ZERn-eHxBcy5dg.jpg"
       },
       {
         "id": "ChIJSdd1XImX1ZER-0YrP98i9NY",
@@ -107,7 +111,8 @@
         "websiteUrl": "http://www.epmmop.gob.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=15489043360666830587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJSdd1XImX1ZER-0YrP98i9NY.jpg"
       },
       {
         "id": "ChIJua7EmGSQ1ZERp3Gh1f_nBdE",
@@ -127,7 +132,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJua7EmGSQ1ZERp3Gh1f_nBdE/photos/AcnlKN0ykdWjUiupkOkVXH9_lSAiFc4RnPrIFyAuosz_K64A8CSPflQzGx1a55ei7zzA5Gdx9CCKtSVJz5DpQuw74YVY9O-HjhqlZ2tQ8FxnK0AOBUiadNzWjfewvPYEKDDEVKtcSVqHqb8wlpAn3_IPX_5RvEm1QSuZmWRvzN8dYSKXVtCVgTv9VgSo4NenYxZVjhECOkhwZaMDz6B17F_WML1YUTE7DXF-ODVJ5v01ajTz1kYaqvCO2OSRGQqH8qLgCThC8GA7fEBU1CHeTH2pWfCf1h9it_sH-OyHBD5UkTR-czg8s730VHniFJUxuTUeS65zjc5jV7WR8B4NCgYRHnDm59RR1fwHfjBNXqpxaIER4iWdP9eOyZj6BqfrPe2xrEp_7wokvkQnveISAGBVa_MtmhbGVmtUt1DE-u4zY-Hf86_I/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15061699614797296039&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJua7EmGSQ1ZERp3Gh1f_nBdE.jpg"
       },
       {
         "id": "ChIJowFEM4GZ1ZERbNDPu6GrXbw",
@@ -148,7 +154,8 @@
         "websiteUrl": "https://fundacionmuseosquito.gob.ec/mdc/",
         "googleMapsUrl": "https://maps.google.com/?cid=13573193563093586028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJowFEM4GZ1ZERbNDPu6GrXbw.jpg"
       },
       {
         "id": "ChIJOYDInoSQ1ZER8MMGrFWin3o",
@@ -169,7 +176,8 @@
         "websiteUrl": "http://guayasamin.org.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=8835959482766246896&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJOYDInoSQ1ZER8MMGrFWin3o.jpg"
       },
       {
         "id": "ChIJaQiDzoKZ1ZERyk7CykbHtFI",
@@ -190,7 +198,8 @@
         "websiteUrl": "http://www.virgendelpanecillo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5959607313781378762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJaQiDzoKZ1ZERyk7CykbHtFI.jpg"
       },
       {
         "id": "ChIJQ0n5eYeZ1ZER8tj4_TK_dws",
@@ -210,7 +219,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQ0n5eYeZ1ZER8tj4_TK_dws/photos/AcnlKN30PDYvD83JaacPpIb2rk0BuZD1ZqMWxlZCxrpkDvlv7P2wai8TMXnY4eyNQg9DqoaX27ndW_WF0tzgU6meDunA6ZUfwQImp7anD7yRxdn857CrffJomXbfJUb-DJh89VQgMUT-VuHd9b3vvCh-wFtyVZgxtVey7L968c5jxE5es7OrsJ0SL9Dic22KLXkqrNJ6cxNntkjIEUl2c0_MPolMs8WYSsIq4N4yfoSNViiGEn1DWrbnAJzXTzH_ydapIcTq_KV3bDuESY7efiK1OMp3sxqa7C4ewZjy0tpf0Md_Vh3hBxdUFmelNRdKZj3y77ov3WvpeOpJQ5j6KQs5hvxxtXKcTPO4hV_7ACMvcqLugDcvbn6gfqJl2hS_P9XfUCxXMcdLvb5flmmKgTN42VS9L6t51NzhL6uesc9ydOOLjg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=826339282375989490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJQ0n5eYeZ1ZER8tj4_TK_dws.jpg"
       },
       {
         "id": "ChIJ2QVvmBea1ZERXe8f9lsU9jo",
@@ -231,7 +241,8 @@
         "websiteUrl": "http://www.casadelacultura.gob.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=4248605683674509149&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ2QVvmBea1ZERXe8f9lsU9jo.jpg"
       },
       {
         "id": "ChIJT4WXJSWa1ZERGw6R23KGMzU",
@@ -252,7 +263,8 @@
         "websiteUrl": "https://fundacionmuseosquito.gob.ec/centro-de-arte-contemporaneo/",
         "googleMapsUrl": "https://maps.google.com/?cid=3833555535690534427&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJT4WXJSWa1ZERGw6R23KGMzU.jpg"
       },
       {
         "id": "ChIJDxkPgoeZ1ZERXqNMH562TCk",
@@ -272,7 +284,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDxkPgoeZ1ZERXqNMH562TCk/photos/AcnlKN3weJ6_WIG9w-KfJMH9tI1dpGL7Va4ak3E5ijKx8rEfBO_iQkOmtH-OS_tqiKd5iHkop32omTkQ2rg1SUNVWzXhavTODlbux8YhXdx7_CoxZZmRRDSgLg-VL3klH2mJlH5hAWKP57M4MPV2j4iw24-ceOUnsfPl1kyBIYqjCbg1toK6ChIKI-YSmfnoFaOZDKDJDg5VT7cOuxTxlfzGUPlBI5IP8hF6yT7b1C9Fok7IkbAVgQQXVgjJQtHTtcR7or4QJ_ZNOR5I2wB2RYRZa-QEYILDaP6c6HXAZOAMlv-EI7uw0h5ucWR9ahHLc2YeacXKv1QEDjnEONS39kBimhr_Y1BDdlu35uwiX59YYNyOR7skgwV2gG0Yp33UIl4TXQmV-bVRrskF8abEhG652IO0XWbIXM9uUIciaCZAqhZap8P8d6WnXB4apIPDMDB6/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2975954244031259486&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJDxkPgoeZ1ZERXqNMH562TCk.jpg"
       },
       {
         "id": "ChIJI3HFuBCa1ZER3ac3OdXcxHw",
@@ -293,7 +306,8 @@
         "websiteUrl": "http://www.puce.edu.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=8990553564484446173&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJI3HFuBCa1ZER3ac3OdXcxHw.jpg"
       },
       {
         "id": "ChIJeV-WPp-Z1ZERLrZomdhCYso",
@@ -314,7 +328,8 @@
         "websiteUrl": "https://fundacionmuseosquito.gob.ec/espacio-museo-interactivo-de-ciencia/",
         "googleMapsUrl": "https://maps.google.com/?cid=14583292041433232942&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJeV-WPp-Z1ZERLrZomdhCYso.jpg"
       },
       {
         "id": "ChIJmfLenxea1ZERU7Tnzp9q4wI",
@@ -335,7 +350,8 @@
         "websiteUrl": "https://www.culturaypatrimonio.gob.ec/museo-nacional-quito-provincia-de-pichincha/",
         "googleMapsUrl": "https://maps.google.com/?cid=208127242392810579&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJmfLenxea1ZERU7Tnzp9q4wI.jpg"
       },
       {
         "id": "ChIJOVKYbNab1ZERlf5GZBjJR_w",
@@ -355,7 +371,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOVKYbNab1ZERlf5GZBjJR_w/photos/AcnlKN0uEVdCV379gDW-cGDyShdHhek8VqxR1_o2y6iHweIMvQrdw6m970vrgBxc25-WmxuXcZSYnIN4ddRLZa7TWY6NVjthjUgK3meNePG4s1KsF5rSeokkJPwKWpfGgujk_3TLnlEX4fnfLLzL4fuyb0l1BnmHHAGcTQ52_A0KXVvBs74tw8x2AyvW35sZDFidSaBt2Nom2PC7ZLQNJAMaTLwOQEme9_yOneIBQk5YWyZat_0PttqOAxccaO8YFE5a3D4PHPwTjj-eUdnCYx0ip2r8t9NANhNrDVBZiWDwV8K3IauGWtiI5m1n-buHHmnN2TTV3HAk1lzpd9p7jh5pNlv3JD9rO0vuklmuG3j6aOWYLtjew3NWVJz4ehs4PPJDN5PZSa132oinub3BhgRmNcEMCmBfFVsZW5_MzI-Y92UtvMXJVvCLKht2JKrCJCYy/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18178719527503068821&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJOVKYbNab1ZERlf5GZBjJR_w.jpg"
       },
       {
         "id": "ChIJo-oHkoaZ1ZERQpiclrdlKog",
@@ -375,7 +392,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJo-oHkoaZ1ZERQpiclrdlKog/photos/AcnlKN3XjsKF3MlcFdxhJG_bo6UlavGCE0Latvf2SECXs1IxG6o53PtNYaAy7ahSKbbpNMOGo1TD80zGyPMYEqf4W2PsSMDkq19-ZufLfjVQ0LkVrAbOxdUPwTlAj2MouvrRKyYH-rdj03Kc0Wv7F_1AOvfZiEWrAdeg8fx3pPdAJYiF2CCPQXVbSokWVETI5NqTxJ7YZn5Sx8o6cFvivYKU1oA1NbSqomEHcVsBvGunSWuurwlBsd1K2X-U5aXxIlyYBkKZfTdZoDqtgw2b790Wt7tYfzOMOWnWtIrvztNDfXjSJgaGSwheyaE1qeiEPsxIoFi6w5W2TswvWzQ6Q6pyvh4AhPVYw_tIw3aFVWqsbn0t4BLpG7MfBp0BlHvzFPmCwRqhJkrnuXruBJ7KA_pjwntH-q4RH0-Y0uc1-GzklyA08g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9811766577360312386&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJo-oHkoaZ1ZERQpiclrdlKog.jpg"
       },
       {
         "id": "ChIJfVNWrIea1ZERE632s71GslY",
@@ -395,7 +413,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfVNWrIea1ZERE632s71GslY/photos/AcnlKN2E1gUjjQECPfd3HZBBr2iq78Zpdm15xbWJ_LJ7FNFjpDc0anUJUoKI8PHc756S7TtwBcfDaHBJskNXio28JP7CYWAZf2iArNHAFgZeADS5XQyRROzZNyE6ci9R9SkNoVs08WSBYBFrk_1VIJv1rZf_b9UJz7bh6ZG-zHOl1gdtCtT8eS0x02NAB_5Cx1jHTYiJZRptqkjlM0bu8KTE9G1RfZEL2PoL6aLsxXKbMjgqbYXpAPTtj4LBm97-FAj_h-mw9y5qhWCGJA9d7fFsodtnromBl0n2bqs48Cc8m72MFJClCj4gzX3bJK06HcSi3uwIj_kKAY4AH5K6OC-erEIl8E3wW8etHPKpl9xCUyo96NdAYmmlunXG4t5qrsMZnZz284PLO6YBrDN81_c8L1fa5aAGiOYpyD_QeRV-DXT2oA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6247133413698350355&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJfVNWrIea1ZERE632s71GslY.jpg"
       },
       {
         "id": "ChIJAWxzYhaa1ZERTN5JZ7en3IQ",
@@ -415,7 +434,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAWxzYhaa1ZERTN5JZ7en3IQ/photos/AcnlKN3iQRtboSrXuE8T6AS5XSEwQ145fwnaQBbA3Dfk5lbNL6NQG7IOFB0Wc0wkRSLEcduCKFjNsRsHJ1SX9mjmNPjNmVpHPjO9Qzepk0pfiqPmojpSxdOE7DAOhic6GUOb0yhjr3zmlhi-84K8hWKRjCqzJyceG5APxIFPu_H04b0gqDbBBFq_8CsDgIDGWJcbh4yyjaglOhqJ6aa2tcXK1wqclcNvm17WHZxxy47sN0FIuEkpC-0WD1fuVCUyiu3TYXKh1-rP65Z0LjV_GNu68MokUSnTkpH9ORPODnSTx0IYGqtR-OO-hcMUqNNQqwZwr27l01Iy48YEDqr6TFgI7inJNjJRCbI_5oMS5ZfCEjC2m-4gPmMuIvaqbXQG8ffxRNYV7BqmRRcf2uy3imjjn5KDNJwAhrQ26H_mu4xr5q8-cxlu/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9573711314036579916&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJAWxzYhaa1ZERTN5JZ7en3IQ.jpg"
       },
       {
         "id": "ChIJ082TsoaZ1ZER2V1hScN_j7U",
@@ -435,7 +455,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ082TsoaZ1ZER2V1hScN_j7U/photos/AcnlKN0dxrMncw7E9jzWGtpkBi4T_gErjoXkI18lsOiXbtLRjvjPXcDlisrXM0ZLi-LLMLQKMtVmsSFUeiZ4dKVzj24iC5Jx92TWS4_-KYjw6zKmNibNGHOwB1J947ZgTJC_RT-Ltu3sB8NBCXzg4oRZ-2jVl0qfa0K8oL5O4m0LyMHiDgA0__vslpfMEcy-UltRiaf23-zXpbeSWIgwnbLHkwS1IE4Xk0-pYFRdXfqA2PtiUqMpcBqv1A4B8VFgmLV0qKp3DZYhqhimClfAHhWCZiDGUZT3WaIKN5T3d67c2p19vlf4I1E5PZsyffP1M94iyePVa7lc9exM4lhMgOjwVT0hKtqnOiTLYcdTOG_FW6O4rmKQ4PQBzpWXfb7hQfSh7zxui8A6zlEiexu47-M92fDfv0GLsGUAfRkQSTBNUZ3QOghM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13082815919261048281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ082TsoaZ1ZER2V1hScN_j7U.jpg"
       },
       {
         "id": "ChIJFzQMwRKQ1ZERoxGn2UX0pm8",
@@ -455,7 +476,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFzQMwRKQ1ZERoxGn2UX0pm8/photos/AcnlKN0QCsG-x1-ZMypdnyQJBZDSrvGuh8fooTehoHLPPT38LzcJ9PsGC03zHz8a2CupJyTRCKYf4X6E3f2HilV3SWXmijTPknenPMkg-uBSvUIFCrmP9WNSwHuUbdWrZTENcvTkGceXmWpSFb653MOsF-3BPTYQBMcF2YHvZpVOufxIjyFMGNXNtj4Ckl6u0P1wlhl70mYE3mKUWBaXgw_DYOqwQAjgvag4Guf8JSev-v767eSwfVUczDTtS_Csg3QTdPcCMwzd131kLqcdkge2-Sc4jigMplSeCMI1M_Q8i1vyUQMFcWuRb_78lqg_qNQKKl_8cZB-bLs_h4PKOdWNoRxPfsInS2NMXC_LxBIejnUt8DjtQ9ILEcglagKx3wUBgJnx4uMroc_CrSSTs3WyXCTyTySdxGxS-bO5Wfxgsz8mWw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8045386365185495459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJFzQMwRKQ1ZERoxGn2UX0pm8.jpg"
       },
       {
         "id": "ChIJc6n0Hiua1ZEREu1p0HjiIUw",
@@ -476,7 +498,8 @@
         "websiteUrl": "http://www.yakumuseoagua.gob.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=5485914829634530578&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJc6n0Hiua1ZEREu1p0HjiIUw.jpg"
       },
       {
         "id": "ChIJv9st1yma1ZERvCJc30B15w0",
@@ -497,7 +520,8 @@
         "websiteUrl": "https://www.presidencia.gob.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=1001898363598938812&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJv9st1yma1ZERvCJc30B15w0.jpg"
       },
       {
         "id": "ChIJm1GbfD2a1ZERHKCj5t2so6M",
@@ -517,7 +541,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJm1GbfD2a1ZERHKCj5t2so6M/photos/AcnlKN3elUIi6-CMSxl02-XGvQ8-vyxXQQkMQahdNDnQ4Bi8GMsp9OeIXBOfNY2avHONtkehXoStSCDz3GCFNLgsrW28gnW4X7x0nSRYlb5Sj_tGy5UTI9hOSszDVCNU2pK4XSB-y_maIB9yyqfJKcUa6cmyXzfvBg1L9rDli9nE1LV1Wj7cD-TF2ZM3_FBWZPMHYVWdzyZ7m09n3hFlUBTI8KRVXGPutVPMTwXA5A9IHSCouqt8W36M-LiuOvoXkuwF8ksLfKS24afbj3uZj1yXvkG6Bn2frswn0AYq65w8cBjRo9Sfx-kd-uG2m1rkSdO1Z0EChJlz-TTML2zo5CR11jfEsxudYSZwuWsnJiEFuPoExPmaaH8Tyvzh-8ahKvw6svRBWQWPixZd8MdzHXHMJi6vCWcoR-wvHavwHd4-mAmLlVjV/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11791458318443323420&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJm1GbfD2a1ZERHKCj5t2so6M.jpg"
       },
       {
         "id": "ChIJKU2Sg1Ka1ZER1LDUDQw_Lm4",
@@ -538,7 +563,8 @@
         "websiteUrl": "http://www.vulqanopark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7939352514104963284&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJKU2Sg1Ka1ZER1LDUDQw_Lm4.jpg"
       },
       {
         "id": "ChIJucyTGoSZ1ZEREo9ZwE-yWK8",
@@ -559,7 +585,8 @@
         "websiteUrl": "https://www.lacasonadelaronda.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12635044810187181842&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJucyTGoSZ1ZEREo9ZwE-yWK8.jpg"
       },
       {
         "id": "ChIJkd88b2Gb1ZER-RAElKp4fIw",
@@ -580,7 +607,8 @@
         "websiteUrl": "https://www.kia.com.co/noticias/kia-e-ground",
         "googleMapsUrl": "https://maps.google.com/?cid=10123098736445100281&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJkd88b2Gb1ZER-RAElKp4fIw.jpg"
       },
       {
         "id": "ChIJL02AMoGZ1ZERU40-3IrtXqA",
@@ -600,7 +628,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJL02AMoGZ1ZERU40-3IrtXqA/photos/AcnlKN2EkRfdn6ez7jUol0Lwy6Fwz-Ob_TgtjvNKyQmJSvBr9s_Y4niXGhMxxIGXXZKKtbiG_xPWgbAB426GgT8v_SMKik3mqLuS4mTdseBJwvURcajY5rbzB-EZ3XL6cw3YnRcTiJNALZDrVjhyxijBu77K1aHKP5aS2uL9w7T6vGnXTSV1sfM4D2OZeCBvWw4t8OyRXfWx1kQUHAdQNmYGUOY4iYtx4_jBBAuvDLQAj2MpM8RRQW-q2TwJ2KTVwYlUMmtX2tVRj7VS4GcbG8PnxzQjvc7VYLQ-lEvr3rSrgEeGh5qhsIxHAzqITjFKD8uW4DbL3YE4KiAyjhwFEEcGoa704lEVjvU2xSzPm4859qBRovmodx9KqqlvnAcQQrChBP92Nu-Vj_QFeEsZm8K5fD4q5uJ2Q92eDybf4KYdQCZ-3A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11555934874535628115&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJL02AMoGZ1ZERU40-3IrtXqA.jpg"
       },
       {
         "id": "ChIJA9bFdYyb1ZERNuTpffGKdyA",
@@ -620,7 +649,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJA9bFdYyb1ZERNuTpffGKdyA/photos/AcnlKN2D70cGLe74wIgeB9M8RZNJ7TW6pnNBj8THI3jSSOBraakPChmaXLVZJa1Hky8PaFgWu4e_W4xR2aOSJYivxaQ1_RdVzLS-lXQLtbFbM-EpAT38Wf_pu3BNe582R8gLmzS4KdJKPdfKG8-_ZW0a5QHgRm6xVdzC9XuySd2qHBKn4FOQ7E1qooaX4JwgJ-APp0K1vnCI3dUyVH-gKzEsTvAZAbTSxxEOcYUtXyfegJ7MGOyYUQjVdWcILdazD_7ngvcSp1qgdU3z_pdL_WlVz2P9i-jMKqdmipgfA9ElUkwXnb5RQW8Aetwit8BXq88Xsf1UfMEI3L6OMNWN9pFF_GEgykWid0v8_JccdGYTsvL8m8qeFlIpRUwqoP_Bv5ACqxF8vDQCQy3U1XL2YM1gdO8Vcfalm0kv_X1_maQn4s9BSonU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2339491301246493750&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:30.530Z",
-        "updatedAt": "2026-01-23T15:46:30.530Z"
+        "updatedAt": "2026-01-23T15:46:30.530Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJA9bFdYyb1ZERNuTpffGKdyA.jpg"
       }
     ],
     "foodie": [
@@ -643,7 +673,8 @@
         "websiteUrl": "http://www.somos.rest/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=17875309638607583749",
         "googleMapsUrl": "https://maps.google.com/?cid=17875033871528658506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJz5jnjVWb1ZERSoaKpJngEPg.jpg"
       },
       {
         "id": "ChIJY1m7mJ-a1ZERqgSTlHcXa4o",
@@ -665,7 +696,8 @@
         "websiteUrl": "http://www.delallama.net/",
         "googleMapsUrl": "https://maps.google.com/?cid=9974091602103305386&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJY1m7mJ-a1ZERqgSTlHcXa4o.jpg"
       },
       {
         "id": "ChIJeVN4Qyea1ZERDwa0uN4LSZE",
@@ -686,7 +718,8 @@
         "websiteUrl": "https://www.secretgardenquito.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10468911860008879631&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJeVN4Qyea1ZERDwa0uN4LSZE.jpg"
       },
       {
         "id": "ChIJ7bCaLYea1ZER90QNTzLZ2uQ",
@@ -708,7 +741,8 @@
         "websiteUrl": "https://cyrano.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=16490731795668354295&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ7bCaLYea1ZER90QNTzLZ2uQ.jpg"
       },
       {
         "id": "ChIJtbofVQma1ZERse9G98gODJI",
@@ -730,7 +764,8 @@
         "websiteUrl": "https://pacari.com/?utm_source=Google&utm_medium=ornganic&utm_campaign=gmb",
         "googleMapsUrl": "https://maps.google.com/?cid=10523802685562875825&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJtbofVQma1ZERse9G98gODJI.png"
       },
       {
         "id": "ChIJn7Ag7A2a1ZERwGfmW-MR1hQ",
@@ -751,7 +786,8 @@
         "websiteUrl": "https://www.swissotel.com/hotels/quito/?goto=fiche_hotel&code_hotel=A5C4&merchantid=seo-maps-EC-A5C4&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps",
         "googleMapsUrl": "https://maps.google.com/?cid=1501407193971713984&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJn7Ag7A2a1ZERwGfmW-MR1hQ.png"
       },
       {
         "id": "ChIJlbbLbvCZ1ZERlGt79n4YI8I",
@@ -772,7 +808,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlbbLbvCZ1ZERlGt79n4YI8I/photos/AcnlKN0E4iKv0d5K7ArTYdYC39GNOf6ELYw8fGSh1_u-ARaRZBdOQfi2e3NSWVCIHtVADBCxRdO1KKzSzST_qYM_m5KCW8o1uC3p-uZkTXg49dMjJwZlN0nIaPumwvPfkulMdRwsqbUSwohYn6A5VQhCrIUBvYy227-ZTSFKvAFdRRiK2CCKwrDOmySFen-Y9riqPe9xem5tUUdDauq-C-v-juONuQvgvfsMdw8B7VcV7-eqrDpBoXBGNZxPtKuyXR2KFIFIQMA1epdI50MbxlfAwuY1T8tLgFBBWipV7vI2y5F2zw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13989051801123122068&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJlbbLbvCZ1ZERlGt79n4YI8I.jpg"
       },
       {
         "id": "ChIJeRAvHROQ1ZERumipQe_1IHg",
@@ -793,7 +830,8 @@
         "websiteUrl": "https://www.cassolette.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=8656188891753703610&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJeRAvHROQ1ZERumipQe_1IHg.jpg"
       },
       {
         "id": "ChIJFwhWJHSa1ZERtCifrjVtaQQ",
@@ -815,7 +853,8 @@
         "websiteUrl": "https://cyranocorfu.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=317905326036691124&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJFwhWJHSa1ZERtCifrjVtaQQ.jpg"
       },
       {
         "id": "ChIJOTPBBDua1ZERtZSMruUkKaE",
@@ -836,7 +875,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOTPBBDua1ZERtZSMruUkKaE/photos/AcnlKN0OG8oGlzWBXAJv2cRviYE_CPUKgCti8nKwQycI2dnWtpRCHUxMGlanLdAsEG49IMEyVz06573ztK33mzqKGYXNFQ2yk-X4PK-QzvlTn4mmIfov8cTrkbPs95Px5mZrsMU9hBY7-ClKint12FQJ4ul5vDAUndvb28mAEuSWa2EgJUb2YxGteJLpDB4DAjtIXtypa-2nMsUnC9FGsWt6QxlEn2bn6b69wOzl8IGkdkMpbDQxWKYdqL7CGrtpdD93DT7Qj-Jy8WD3MqX4GJMS7w7ZKGgMidGa7H8PWqeH-cMbqlAf-yPsXcGEDh2G7hKJeC3tI6Zcu3MeOh5PV1qToAyxCRh5sookxjIDgvbEG8fms1DnyBBE0XBTTOxvmMiZ9-rfn90rmDj6WGXIO4AwZzwTleM2EbwSe6jGXpFiwMU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11612853683046094005&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJOTPBBDua1ZERtZSMruUkKaE.jpg"
       },
       {
         "id": "ChIJqVvzs3aa1ZERovxGb_NAfQo",
@@ -858,7 +898,8 @@
         "websiteUrl": "http://www.zfoodquito.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=755831726756265122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJqVvzs3aa1ZERovxGb_NAfQo.jpg"
       },
       {
         "id": "ChIJXfX3qg-a1ZER9Jg8v5dpzOw",
@@ -879,7 +920,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXfX3qg-a1ZER9Jg8v5dpzOw/photos/AcnlKN3ps6e2f5e20gzuHs2w_Yzbtfp0sEYO5g3x7IS-9HH7_KNNdr8MHHl2KmQn95Eq-ChxHuyQlWBmapWeGQcufFbXnw3TZYQ8KIgGkfjL66-5C3PvPaiZCqnmCPZ4yGkhQIiYUYtXurr8rtSWTU2DaQzDKnR2eDy_oKelDDnFOuwYteuu00fMFM5L1D3ar9Trl2KVh0KaXmAM-_zg_7xMxqv5j39THA64LRSJzBJywPB37KBc5owQR1-UL16ueQ5s2bYgoF6OtbLgD2iSyOO9IlJUFEVmNNX-eFPGmEZeCsmboA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17063129188669364468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJXfX3qg-a1ZER9Jg8v5dpzOw.jpg"
       },
       {
         "id": "ChIJd6N_BGma1ZERP_ln45TY7ws",
@@ -900,7 +942,8 @@
         "websiteUrl": "https://www.hotelfinlandiaquito.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=860144187833055551&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJd6N_BGma1ZERP_ln45TY7ws.jpg"
       },
       {
         "id": "ChIJOYFjG4qZ1ZERMVfti9rypAY",
@@ -922,7 +965,8 @@
         "websiteUrl": "https://vistahermosa.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=478774480872494897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJOYFjG4qZ1ZERMVfti9rypAY.png"
       },
       {
         "id": "ChIJjXwpn12a1ZERwBXTW62eaQ4",
@@ -944,7 +988,8 @@
         "websiteUrl": "http://www.sanhonore.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1038535656492701120&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJjXwpn12a1ZERwBXTW62eaQ4.jpg"
       },
       {
         "id": "ChIJlxl55m2a1ZERUl5fVbLfyPM",
@@ -966,7 +1011,8 @@
         "websiteUrl": "https://www.mcdonalds.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=17566536303588105810&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJlxl55m2a1ZERUl5fVbLfyPM.jpg"
       },
       {
         "id": "ChIJh0F_oAmX1ZER2_sryLLJZ_E",
@@ -988,7 +1034,8 @@
         "websiteUrl": "https://www.mcdonalds.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=17395093855441517531&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJh0F_oAmX1ZER2_sryLLJZ_E.jpg"
       },
       {
         "id": "ChIJ2TFQ-IqZ1ZERbDtC1vSSxXg",
@@ -1010,7 +1057,8 @@
         "websiteUrl": "http://www.cafemosaicoecuador.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8702523435227691884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ2TFQ-IqZ1ZERbDtC1vSSxXg.jpg"
       },
       {
         "id": "ChIJNbzXqxea1ZERTHzcFVtL1UU",
@@ -1032,7 +1080,8 @@
         "websiteUrl": "https://www.mcdonalds.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=5032011013237275724&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJNbzXqxea1ZERTHzcFVtL1UU.jpg"
       },
       {
         "id": "ChIJZ8qutDGY1ZERbS2XkJAF0j8",
@@ -1052,7 +1101,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJZ8qutDGY1ZERbS2XkJAF0j8/photos/AcnlKN2QbnZqLNzwcBkUVizcGy-xVqNGsScOGglySx99hQjgItK2m5irXXjvzA6fVrQVPctADyLng_bLu5lpRbGXOtxGQV44tn13ohUU9w2oybHBd2DT8oq2en-TcJ80IeNy4JnbBFsthJ3O0Nrfj9lT97dIynWKbjG6jN3JeTskNyFfYUBSfFQlAiaJL5YH6L1deR_FMe6DHtPgfoQDFKzn4l--xaAg_3r5xHQpXgKgp6HHl2mESX46aGwBVtrDP4Hrxwh-hzI1r61pBevzYXS-9iz8mC0hUbqohCZokezw3J1Gpt0EzsikjPZaikNFDLdQbdciHPsLJprmjsRnQdd4GwGm-VeFXDZueCbCuvw5voPupXrBQeBrHXdYqlt5-rnL3SQZkIed24vzEoYMJd8Jp-CKn9cSMWeq3aYVF2FbMTvuWg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4598744287957953901&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJZ8qutDGY1ZERbS2XkJAF0j8.jpg"
       },
       {
         "id": "ChIJpRSUxrya1ZERzIpuJtDdXlI",
@@ -1074,7 +1124,8 @@
         "websiteUrl": "http://ranchosanvicente.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=5935425244988607180&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.710Z",
-        "updatedAt": "2026-01-23T15:46:31.710Z"
+        "updatedAt": "2026-01-23T15:46:31.710Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJpRSUxrya1ZERzIpuJtDdXlI.jpg"
       },
       {
         "id": "ChIJ5W64pkKT1ZERAETQseuozKk",
@@ -1095,7 +1146,8 @@
         "websiteUrl": "https://www.ebhotels.com/quito/70-Dine",
         "googleMapsUrl": "https://maps.google.com/?cid=12235340017912792064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:31.711Z",
-        "updatedAt": "2026-01-23T15:46:31.711Z"
+        "updatedAt": "2026-01-23T15:46:31.711Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ5W64pkKT1ZERAETQseuozKk.png"
       },
       {
         "id": "ChIJaYg_TkGb1ZERcn-0PqQeugE",
@@ -1115,7 +1167,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJaYg_TkGb1ZERcn-0PqQeugE/photos/AcnlKN0iVNOoR2zQVihte_d_n_1BqpoR8MCtXN2N30dHewPt8hrq8TIKQ1TubFCz4eULa-4rSW-KUiQ-WRRspusDv8XRZF2dKaWV8fPBcnAq_NSBvE-fqCv3bzq0zDZumuiUy7ikO1rs0MY3-QRm6v7dfMn3HplM-23fwLAORvNaoWjMgzH90Z9NkN6ulfEWuI8qHs32EMEEsVcN6h4L_yxb57SnPfYUu_PdYr3AmsxkZwTBecXyvU1FFJPeMEJkETibOt56nWHdwboHn_Y4wYCYZkTFQoNUqVki_SNOSovEeX1q-A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=124445630481596274&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:31.711Z",
-        "updatedAt": "2026-01-23T15:46:31.711Z"
+        "updatedAt": "2026-01-23T15:46:31.711Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJaYg_TkGb1ZERcn-0PqQeugE.jpg"
       },
       {
         "id": "ChIJx2pUEQub1ZERS6pN0pMnwwc",
@@ -1137,7 +1190,8 @@
         "websiteUrl": "https://instagram.com/chuta_madre?igshid=wd0169l7arns",
         "googleMapsUrl": "https://maps.google.com/?cid=559334294566054475&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.711Z",
-        "updatedAt": "2026-01-23T15:46:31.711Z"
+        "updatedAt": "2026-01-23T15:46:31.711Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJx2pUEQub1ZERS6pN0pMnwwc.jpg"
       },
       {
         "id": "ChIJ9VRurkmR1ZERXLlVEjGkEn4",
@@ -1157,7 +1211,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9VRurkmR1ZERXLlVEjGkEn4/photos/AcnlKN0mWLak5J74iq6CjQa4atVQ9hE_jitPnNaam8B3di4pLyGOS0Hnulm8bB0Lx7B5TpilwzDdl5_AziBVsT7nbP_1swo2Afjhm70OXm6SfiPmqcreWtiM-i0Gejc1BZQGOiQjDolZJ3676M8H__SVV_f-UF_rYeKKFSon0vbcdO_zptVExx2pdVYq-SxeaSEZgP1BjIn06Ah2mgwA2r8zNqbQGqP2yZvUxCdgDkup4zukJY7o48Ki0p60VgWw-V5m4LSdFzLTXb_ePhHa5pUQBGsnbD9BuCx1Is5qw6mC9SxkwA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9084503929027672412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:31.711Z",
-        "updatedAt": "2026-01-23T15:46:31.711Z"
+        "updatedAt": "2026-01-23T15:46:31.711Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ9VRurkmR1ZERXLlVEjGkEn4.jpg"
       },
       {
         "id": "ChIJF3AFk-Cb1ZERg6VCj4IqGHQ",
@@ -1178,7 +1233,8 @@
         "websiteUrl": "http://www.laquintaquito.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8365483048078321027&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.711Z",
-        "updatedAt": "2026-01-23T15:46:31.711Z"
+        "updatedAt": "2026-01-23T15:46:31.711Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJF3AFk-Cb1ZERg6VCj4IqGHQ.jpg"
       },
       {
         "id": "ChIJF2HaQXSa1ZERdh4Sk8nPc6o",
@@ -1199,7 +1255,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF2HaQXSa1ZERdh4Sk8nPc6o/photos/AcnlKN1gQJQlwniRAHHmJ7gN_SwPrcp5d0px5y6OeNheaipJEkPsOcAN-gefA5mcWlAe45zJZ86UTFAU9pM0UvgoHnEZg26znnIe2JOv4sW9wo9BlXjHKhgH_bemgFrz_GPjdjndvg2cjRN3m2YOSW1sC-HyuKLpJE0hx43_rsTCYQQL5jzZukacbXBfk4eOR5QQQuAw3LUERAd4lmqHKdq8Y_xHWsJlqcmOl00IJakHALftYkSdjrkizJX1Vg40UKkV2TbBGJahup3JpsJSzxpuNlu-rI07a6d9Kyl0Vz2O0-KYxVhDe5rZ6sYP-IXUo8Pqwj8BA2uBEVha33-CcXFO8z3Iqr_uJJvxi6ozOAeGfRmNxRccwzO7JmMYpFsC84OtbmiOO2GXkZjzQ2jbsQl2PBGdONn-2NiMJz6DJgOIVwo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12282389073432288886&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.711Z",
-        "updatedAt": "2026-01-23T15:46:31.711Z"
+        "updatedAt": "2026-01-23T15:46:31.711Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJF2HaQXSa1ZERdh4Sk8nPc6o.jpg"
       },
       {
         "id": "ChIJ-SSFYLib1ZERNqPhrFStr68",
@@ -1219,7 +1276,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-SSFYLib1ZERNqPhrFStr68/photos/AcnlKN3rrXetOiCDpRF0XFCnH38R2U_akwcbxtrW1ClH0G67iw1q5E7V1gXkfKXcp1h9XC_wW98hcrmxVku7NhPjPfhEPKtpo_udLKY2c-8VrCGU3yOxUq4YIvzv49bxQLiiiN64ljfJEf8fjZZnZ9Ixn2skEWw-917twcHHR670AjvWIXc2jyGPIhRE-sAuQmbEDvYuxponWtVgCqkcXhaLL20_XvxFHACLuaQXhSc13S7c0LTdRSHsJQiv830ObRI3hcByVLAMA5MT-xGbE6XlP7nnpKsFGRVWFChvte7jmZV2iKHu5GK2iKtQUCqpTuI81qds0O3897KPBlRbvUdrXKVEHWnmjoin6QnOYdlOWo_39MwKQlV2H7REzWmH8Ld-DJFGKHblKM5fnvG_HQHKC0XhHDhu2CTwpkbqIT0Ea6y-4bWvBSE1pb0GswbJYu2J/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12659527656751080246&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:31.711Z",
-        "updatedAt": "2026-01-23T15:46:31.711Z"
+        "updatedAt": "2026-01-23T15:46:31.711Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ-SSFYLib1ZERNqPhrFStr68.jpg"
       },
       {
         "id": "ChIJPbo5vziR1ZERsrh4InZeGJQ",
@@ -1239,7 +1297,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPbo5vziR1ZERsrh4InZeGJQ/photos/AcnlKN2QTXD76NACCgrC39Bz_Zfp2fboBmVYkTkMk3ImDFRnRT863PqbB7kBYvpq6ru7qfg_tgTHXUw6V5jbC-GfY3Pa9xWs-H3Bb5Ls22ta1mW0zV53TbXGQPNDtiQBoQ4mesrBh5pX9asBjbvn1JtrOv8vQOdpIEC7-dQ65xBTu135tb48RpJ9En1yWPMnlzVXOr391NhTOUViZRCl9VFvcAFjOdAbwseWCJPAl8MaRXRsIKb28yfR-_Vim96l2mKLUI3uyq27Tumugne7d3dqVwACwKdfPkTWUMo6WfjK5S4RvnsI_NuzzVQA23XCiTyArd3dVTmeZLWLDCZ1XyhMz_HWPtWz1_HB5ChA3s_49VdEOAHgeeEZ-n3NoKAT1tWo2Z7rvokPuh6Wpm5WqgPYlF_DUw6_22M3GQSXzVzCgFMS8g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10671383178531879090&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:31.711Z",
-        "updatedAt": "2026-01-23T15:46:31.711Z"
+        "updatedAt": "2026-01-23T15:46:31.711Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJPbo5vziR1ZERsrh4InZeGJQ.jpg"
       },
       {
         "id": "ChIJfbdWhNyZ1ZERerGLqfMS2-k",
@@ -1259,7 +1318,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfbdWhNyZ1ZERerGLqfMS2-k/photos/AcnlKN3W1d9GHi1fE0SMewKnUNQXzS93O9vGc-TvVec40N3wRksrjNEHEFfieFbltli2N_MOczarUc_e8QTgGE-At0AlyfTja3pu0x6f9OO8MKp_4eIj7-7xiIdMbt6hW9WonIrvTa8xDSpXf55Y3SXtxWczW4fhWMPWR53KcA4z1ZBOWJKe-1sUYLp5waNf7phIeaz7RoYUupQ9LSEBKYRK7ANqWNLNQbM-NDGbrzqzkdKeqcLS9JomD7TM-BSwGIcxZRTCduBWnT1d_y_BVOChyG5lyN5qD9TlKcgwQMHkhj4_6w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16851083268467700090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:31.711Z",
-        "updatedAt": "2026-01-23T15:46:31.711Z"
+        "updatedAt": "2026-01-23T15:46:31.711Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJfbdWhNyZ1ZERerGLqfMS2-k.jpg"
       }
     ],
     "adventure": [
@@ -1282,7 +1342,8 @@
         "websiteUrl": "http://www.epmmop.gob.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=15489043360666830587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJSdd1XImX1ZER-0YrP98i9NY.jpg"
       },
       {
         "id": "ChIJua7EmGSQ1ZERp3Gh1f_nBdE",
@@ -1302,7 +1363,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJua7EmGSQ1ZERp3Gh1f_nBdE/photos/AcnlKN35Yjz7oET18qxAp6dX1fc6n3GVPRpp0uBjL0dDEQZTv4D7JiiDSs9CFIL9_mVw2tA4Wp82Bm617naem9VBFPUbIJbq0f5WHjhkf2w6dg4F6e6KGT__ee0Ze2PiByHNsEOjj0BEGMfvHFrO_ag4tbRLbl8h_EQbVPNrdleoY7LqxuhYHiyUtaPABacDESDL340ahEH329CnRqig39-0l2kDOxMXct3V6owTu975OedaKRCZWEgkXqE_RGUaYNUobKwy8g70FMw2B-Dod2j_4eRbj7QwFzunE-msJxU8x8jJnsHSnXYqBR9MTADdZfOWwmEAyA2asN-HAhKJyfFwlC-Vbbft7MVmzQtGUI6cdtdPu_JDxLrUHZKzTUXzghNYA_pMGlQK94JkChSLSh6ghnCOj67V3nMCoH7atoKYBJhwJcAs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15061699614797296039&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJua7EmGSQ1ZERp3Gh1f_nBdE.jpg"
       },
       {
         "id": "ChIJrXGUIIuZ1ZER3pr6zhCXFlg",
@@ -1323,7 +1385,8 @@
         "websiteUrl": "http://www.epmmop.gob.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=6347426823273093854&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJrXGUIIuZ1ZER3pr6zhCXFlg.jpg"
       },
       {
         "id": "ChIJfVNWrIea1ZERE632s71GslY",
@@ -1343,7 +1406,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfVNWrIea1ZERE632s71GslY/photos/AcnlKN1AeXA0PbE2PcwYUVI2FOFvlTMfHVn99RRfXhm1bcukVoK996A-SMlvOUVJ9NDndf3D7nAgiXAPb0F3xm0VWzSLpOdtf-V6MLCzKetMF5l7GMK6qQmN_e0QWJ1ojnoHsGr2HP8nCt0fmRPMFj7wEDLUcJ-8oYeZLwVHKYBhZ1k8skduGn5q5kldl0JdhIh2rJEdpPKgX-Ljsr81BUJ1EEeSwPPZmbSOxI4lCrGQyYlzO-tXhwhRC4vIUt_UEtbTnQLYovVy0zwufjFTOF1MMBpZkMZyry3rBX2BWWY8JJo_eiZ7WJJyPna9RlG3Pkqb-V3DobAT7F9BZSoV02UvY_SGpTUlEeF6LCz65ZlfTJS7sncrLZJuEkVMp42Boqa4h0jIJy1rjphtAelJdlpq-k0QvwHOSAtv-UJP8FckZdj9uQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6247133413698350355&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJfVNWrIea1ZERE632s71GslY.jpg"
       },
       {
         "id": "ChIJC_R5vL-F1ZERzxWdzCdbhiQ",
@@ -1363,7 +1427,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC_R5vL-F1ZERzxWdzCdbhiQ/photos/AcnlKN2j4Ydfvqwb2sLYWoknaOfNxjJDmLNHASL2tqy5fuPUjhywfkJYu8Bzj-HPJENk5ozn-K4Exc2Hlz7EJjJ4MAGNKkfXAwGpJTIFDez7bKYAFGN2nxrzWP-IuAfbiZ6ESw1diOhQx-xuodI0KlrzTruSXFdcGoh6uDhXyfJZU4t3HQU-ERnJguSMmCvr_7thOtr0B-wNFURLHiDvQ9ZUBes3GYMuZQOQGOsft1N0gLUk_FJ5kSJT2GkfvEwXYp4ZIjuF9Nx71cBXYI6BWitDhttPzkHC8752Xg9nW-MqQAhOhpZhOoj7UlNc-7zzh-DYkvqkWNCgfz1piGPCflHs4aKt98tZUh1wlzGnari566juW_SmOp-fw324WH2dSQJrDvc0zkU5Ts5iFpNJH285vT1NcF4K6Hc61Na8J7ec8cc/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2631891258739332559&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJC_R5vL-F1ZERzxWdzCdbhiQ.jpg"
       },
       {
         "id": "ChIJFzQMwRKQ1ZERoxGn2UX0pm8",
@@ -1383,7 +1448,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFzQMwRKQ1ZERoxGn2UX0pm8/photos/AcnlKN0LwZKdLsewRyNUqCEGx6j9Um2uYP0umt0ucSZZyKgLlIpqkv5BNm2w8PiOIrElcf-Tmk63kunXEqINSEBkkNvgPDR7uzMHYshG8pUHgK4KfZ_bC4d0DD7gwD26GB9Qb7rD_Y3FVVprnQVEmIhxTR5oJh2FdNNEcWjGEwDnjHOMWH_dmMirNRvutE4WQjtxA8817eDuk4OoOkYDhqHYxZSUkRhtwiZI5oj_WbtBjfFvs9u4stVGbYo6FAjzIKilrgUnUjyZVGTZvInPAMqjOJWkhipTZ_Ek2wzM8vxhqtpx-bNryHkTETwb-uiPSWn6QREC7AiEKyVhdVrYM1un746CtyLnDM6Tx_hIy-91PCq-DOvfHVfq5lS0uEj22-tBbR4bJJgvFWHDbYnWXirNBpv4EHQ6KStDQLxW0QELk-MNAg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8045386365185495459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJFzQMwRKQ1ZERoxGn2UX0pm8.jpg"
       },
       {
         "id": "ChIJ-9Y843J81ZER-SQlDkVjs3o",
@@ -1404,7 +1470,8 @@
         "websiteUrl": "http://www.mindocanopy.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8841519641699624185&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ-9Y843J81ZER-SQlDkVjs3o.jpg"
       },
       {
         "id": "ChIJDbhsWQCY1ZERbHHSLZev71w",
@@ -1424,7 +1491,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDbhsWQCY1ZERbHHSLZev71w/photos/AcnlKN2iyr8zqVOCNk2oWvJr9h3E4U2GjbDm-UCqjLCHPk5v7mSZ0Yblbjd_4Ui1DOY8ipmDB90mWxQP9g-gBwnMx5zDCOct6bXe7SyfPQ_J9v9tg62mdsntTlYU-FCHMUQb9laDEEJNTknzeYpQhkhjRYleA5hfruJcsqqvx1SxfhYd4ajyaIOFFlld2D7tvtgMX1Vjl8U2urCGs3N2PMVAz_uuTtFDP7cG0OrYUEcWP7TXP7uUoR1NZA4ktuP9WFrAHd2qQa7wSchaEJzsOFUJ_swFcgj5AX4WY5jwcS8ngLXlp6HyQG-LVYMqX9e1uQZ4AgbjIBPDTcyFcEJoHWgELzT4-RoWi1XK_24t1WjuEwDfhvfFT2wKhx05D7pvXWxmr6wli4pVMKLAwQ-3VSSMJ1ko9kqYWxX57UpaQJvVumZXNUg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6696764234766905708&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJDbhsWQCY1ZERbHHSLZev71w.jpg"
       },
       {
         "id": "ChIJm1GbfD2a1ZERHKCj5t2so6M",
@@ -1444,7 +1512,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJm1GbfD2a1ZERHKCj5t2so6M/photos/AcnlKN3cR8Z8Ugm5eJzeFfvqhUOM692UBD-5_DWnLnDH7wDXHQNqdqcm7wBz6kxuOq0C-AESWt0Ueu7S429wEb-qhSMOIrGv1WvggAndmsuIXA3gEpTEpt-eD19R2pntmV-L1VpCIqxVlkD6oDLU4dl1U3STIzHJbL-NFig7Q7li0mpdM0l6pA8DjZ_nYvUk3cAuK8VEfMqCuijFl21K_q8w1w_4dHLho-8FIGFIqSC5o7mTyMUaqnvf_TYS_hQdCsWovweQbC2UC90vP9HnhEGCh_Gpu49OU-7i1SLz0YM4Y8mfKHu4_ukzSu831198vldyAHuWIAem5tfcboFRFlGh6oPPby9jKWWO7KizLa6WZjr6tkiRdkTPMGw1yb2elwFxnu9d5Jg32BJUnkhw9F7KuLAngpG2CmuHvywYYnGFAOlxJKca/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11791458318443323420&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJm1GbfD2a1ZERHKCj5t2so6M.jpg"
       },
       {
         "id": "ChIJKU2Sg1Ka1ZER1LDUDQw_Lm4",
@@ -1465,7 +1534,8 @@
         "websiteUrl": "http://www.vulqanopark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7939352514104963284&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJKU2Sg1Ka1ZER1LDUDQw_Lm4.jpg"
       },
       {
         "id": "ChIJAX944ReX1ZERtavGfi37AFU",
@@ -1485,7 +1555,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAX944ReX1ZERtavGfi37AFU/photos/AcnlKN1LnebF0icCEiVWfWpLNkqS_D_gBwRcx5aDzipS9OOV5lq3YHzydxR-nnIfbMGRKJ4-O4lyNyRBdM8IdC1rpx0O2_Zh1obj28C8EpWcEIGinnx0qDloT3ICOvwxWkpmJsG1cKFw1JFVKdvtgutxpRjiB5CplGJlb5lIYkTZgkFCxvwr1JjxH0zFIKObppDApgKl6TvkeTCzsYFVYxItZPFxVwKgwHRJoT3IShKFnjXzG7dpP3e1oxLTo83Rx1NbOucBIkt2HGHV3mzuR9GL7xKaizyYM9-u5kXbdr6A_s9yJg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6125171666042923957&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJAX944ReX1ZERtavGfi37AFU.jpg"
       },
       {
         "id": "ChIJBZeXcs2NtUcR4Y2P0_TGAGo",
@@ -1506,7 +1577,8 @@
         "websiteUrl": "https://parapentequitoec.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7638323722844081633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJBZeXcs2NtUcR4Y2P0_TGAGo.jpg"
       },
       {
         "id": "ChIJedaz8qmF1ZEROg6b2o8mooo",
@@ -1526,7 +1598,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJedaz8qmF1ZEROg6b2o8mooo/photos/AcnlKN3rYwke46wRqglfKUuWbhBi1pbjBCTYsnAWtjLZ0_oMt_2rS6UFHwQKChZpNeoLVgcH03ftCZOkJ3By1g2eiookclqPoJX_Xyr7Gl_pBnwMtmWOX0lXGagnpcYx37R6mZFKA2BqJ99U8oAnM0XfToln3Wit56sJji8Ntl3qAhptzCNaiMAdN1lXjDFemYvlFh7PfiVzk-V1DCRr9nXkUeiFNkO1IPZGroxrJHA_yaGx2eHDVvvgsbwrG-LPUcKFi0468vovGiFfKin-aBSFsFccLbIla1Iqe5TOQRGd1sPA_377WOqhJ8dXYKPRIBrmjJBV9LAzlle-BYGmriJos5r8_etdQSoeOh4h6_kyInh7ZkQ10MpuaGQwcq-3wx_Mnsumrfr24YGuiOddLeyy9yTSieqUQKpYmn0x3yF1_6JDNw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9989589322750955066&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJedaz8qmF1ZEROg6b2o8mooo.jpg"
       },
       {
         "id": "ChIJERu4cACR1ZERcxiI5XWSCfU",
@@ -1565,7 +1638,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ_ZXNOACR1ZER3wuwtiGOvDs/photos/AcnlKN11NJ1Agefg8laCuPs3XP3GcJN6f7ZKeovQmmExAwVtmPxZYMwhE7zJGITbAFKzGwWSeWeKTxXhf31UsBUz8jBkovi-YYT2gqoBX2Hv-gjr4ONGwGcpR8-o67xx68fed6ww7EK1jmqETh6QqXBAdBY-tjIT8wi6O1dsUJf-2QmUnMZgJhYZruHGYy_zjRYF3zXfi7SOFoyj6-dYL0wk8PoDh9rQvHaxPcK3BxAGxc9C_mRyfjypGda-2egBV87ZprChHfiRM_X68Dn6iScCR6vDPe3vleyIabf_OECB1M0S38hBiBjKy1_UH9w7yMX3O5emDYqAEiUJVJjxPHs6nXdree4lfBuCbTg9Biaup0-j13RqeRZWV5R5-rnY4uzDjnl_hNKUA5RI6PAFy9WnVGpEtZJawF3w02dsEOdVrNLmOnsAV1n4GAYVxgGgJQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4304471619309407199&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ_ZXNOACR1ZER3wuwtiGOvDs.jpg"
       },
       {
         "id": "ChIJGTKybJSf1ZERCp450v_U1XA",
@@ -1585,7 +1659,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJGTKybJSf1ZERCp450v_U1XA/photos/AcnlKN1WJc_lb04Y_a0jjmwHr0YlMUBhfDXv82skaHS6_Cn3RLKf40b_m9y4-XrOsewfEnJZwY_XwBgXK4CBSYTffs-RnkcoyEi57Nz53xAF2Ib3sRwj1Y6Vbs7XgJN4NqCzGJVfeX6HKn96XaqjnGs0YP_RgtqNlhU8D9jtA2FRLvaC5YhbLTIbw6Z5HymNKFU9tIYBAaLbUt1B2Vx_QAT2z4Uj6z4Cutug_uwXnhng5i7EYBTPAkAdeq0p32Rle7BldVE1NHfRL11Q_qV_AuIQlveiXUsKDcrP8KGO58kNQMnQfQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8130638897496038922&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJGTKybJSf1ZERCp450v_U1XA.jpg"
       },
       {
         "id": "ChIJF5-IRACZ1ZERql1HeZOl4Yw",
@@ -1605,7 +1680,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJF5-IRACZ1ZERql1HeZOl4Yw/photos/AcnlKN2KxJuS9-1V6qcTGKjFbcTeSaUIGhRuCMal9WINrE81S_8-aBZr47WZOVZ-FMk04HQ0231RfKRUJriOwxl8V4r1VLsyyvKs_ZkcHn3Ai-CQgY5RCwEnfr2pyh3NuM07W2KmDdpUVe4ZTWF5bPtew0h-zlGwFiuYx8JJ5gwmBr0sk6RcS4QF3GCcbOCVzfn2RAo932QDpsXmDKSAIi-eHzn1tI-TuEHUhAINHuvu7llUB6wqpKzGIBLfXS5sDjMA3A6ct0GlDRyAmcPC0-b1idSM_ZNS7phuRi7zDeyMSnwGuWAmCmqfhgL_CcJP6V79CiK5fL0IAYeNuLL-7Vt7PTVs8etdlw2wmCvpSFgqCIHjd1mck-OKj_q1TCoG0aAqW4yezbEmfWTf41QziMGx_lD3MiFadrOa-u9-sCtQjwZBvACN/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10151577087883304362&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJF5-IRACZ1ZERql1HeZOl4Yw.jpg"
       },
       {
         "id": "ChIJmdgcLJeb1ZERoJDkgkKvJ58",
@@ -1625,7 +1701,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmdgcLJeb1ZERoJDkgkKvJ58/photos/AcnlKN38YCCxV-fOTxa6dt1yJzVC2QWteqP-rwWoDmXS4owBTFOlV0OigxQP3zsyD5hYXl4MHJVuiD4H8I9UFWVXp5zcho0IsdNxnaWtIpSknFg6nZcS963LI5SDkDqSWB-Ua75-UR3vfjV5U-mDnGRBq6jL1Ko1Ncsf9c2SDdF6uDfpLlLIyETpWtO6t2U_JCDuDHCugrl_E85DpIphCwzT8grE-QXEJZmgxHW8vedOxzSmWICHMuGD0YqZ0BTuPFep_YSJQy1A7hXupf7WySX6BoLayQsOUygZtX28rBTg8jakXIm87IxN1HKwA3bNv-AzAD5S7oLjieTLBn0ERvzEcmf0HZpB0jICDOY1_4aOePClsYi9Su7yrgfuPPIkZWzWPcQaaI7b4OUEr-etIvzutXWNjOR8HYiMQZhAVYRVENF08A0Z/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11468327676320977056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJmdgcLJeb1ZERoJDkgkKvJ58.jpg"
       },
       {
         "id": "ChIJC9lyCOCb1ZERMFQzmlyr0Yw",
@@ -1666,7 +1743,8 @@
         "websiteUrl": "https://www.dutchmanadventure.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6804936627829094001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJG3cuC22a1ZERcTbMFM_9b14.jpg"
       },
       {
         "id": "ChIJex6Bbp2Z1ZER5W5Pw3v-opc",
@@ -1686,7 +1764,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJex6Bbp2Z1ZER5W5Pw3v-opc/photos/AcnlKN13SmteKlh_03I6bNbdJBT7BakWdGks-5-2L6_J-p1_VwWb-0EdGw0M6CI9Jj4iR78IjoK1ZFCfoJtRhggO8LpYz37P9HCkioE_SmoMLixM0nWJ1ghMCGzQ4-pzmamlhCBabMAoGHV-xNznBbGKvyxtsNYq89Ym5kYVDo4kPXwOBiGy_s5TVFKIDtlW8BBx8lyRrG2PidyAiYY_huAjBhZKsdZQZDIJwhe4jUILqXZVUY8pdSExVN68A7WrMAAb1Ba-D_H7wLMt65wQN7VR45qUD3eyP7k25jG4_qr4jU4N3ZKVubjO7NtLhFy9cgDiJTP_oYA3r8JYpPhFVEGwht4Y6nQz8N0ralDpdo2lDtqNivMWzMBlZJsEbk_cQRFqGpzoqRHoPmz_G0-zUrxLNozQCTkKibX6kCaojbvP0N9RNA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10926575453465439973&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJex6Bbp2Z1ZER5W5Pw3v-opc.jpg"
       },
       {
         "id": "ChIJQ8m4jeCV1ZERq0Uay9BKoEQ",
@@ -1706,7 +1785,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQ8m4jeCV1ZERq0Uay9BKoEQ/photos/AcnlKN0LpvHuhtAh4vtXxgAC0uUmLpXpciAiFfwnXF-HL9xYbAWcLkACyijRUSX8Up_h681t7_UuY8CSEn0KbLB9B6yDawC4gAQKcvSa6H8txHb-34jVGHLqG-Ccq899ewbtYAetaNm2dNl9_xrZUrwkqiLk--p08gq5E2xucEP0WZ4_pdaLwpHVZb3BvYRUmBho5Xdy4OAxXNrMxo9k1DdJoHbd2mHhN8_q8zpH6bI0ZqdY9kMdTM8biuAripwPJ-28cql_rWuubNDaeeLtluN1t7HOaCZmNCCeOXdCnHNFTaAfXw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4945034651473954219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJQ8m4jeCV1ZERq0Uay9BKoEQ.png"
       },
       {
         "id": "ChIJ-1U6QXWX1ZER0VARw891c-Y",
@@ -1727,7 +1807,8 @@
         "websiteUrl": "https://www.instagram.com/condor_ilalo/",
         "googleMapsUrl": "https://maps.google.com/?cid=16605745786236522705&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ-1U6QXWX1ZER0VARw891c-Y.jpg"
       },
       {
         "id": "ChIJW8vqH9OR1ZERoLLHSTBdhZQ",
@@ -1747,7 +1828,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJW8vqH9OR1ZERoLLHSTBdhZQ/photos/AcnlKN3XAxr_BMQ8VJt44ZWhjq8HTknwGEKEwHoPi_2L2_Jx_Jm-6nNCwIO_5W1ShgMW16N45SrtN1X9YpbLdLyzCysP2_wz4XqgCwBNH6EsCUVr_CrJnntirnlCvZf19ZdOxWBWQ9lMNLEO9a-_FlaYcXKRmN7flDghv5nRQiemcqwXN3KUgQT5md-wHwg2QGmynIqqbzc317bOh-pLSWA0jnJus0EJzb0CR4ttDWtN8mfiua16yo-ZrNtQE9bkK9dMz4cwmVlBJ8skSpEgVk6S3Qj7j-3EavziBQ8GkbgiE2nu4w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10702062551493489312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJW8vqH9OR1ZERoLLHSTBdhZQ.jpg"
       },
       {
         "id": "ChIJa9I67Rqb1ZERcVgjVmFnZUM",
@@ -1767,7 +1849,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJa9I67Rqb1ZERcVgjVmFnZUM/photos/AcnlKN0gn2ltGuNGFH2lHjAAmvMkDYcSEE1OmftvSqAKJbIu3lYO1lx6hRasI0seqCeLwhPd9-lq2Y264RXx8dIoBATNOjPlJxMOg8WpNwfnJY6BbJtYUKhyMupzjTwViUi2TwilgEAvcXV8a6Y0lGVevoC_CLtRb1lWBeEK1rNKLgsnHpmd5gsqGNIVkzo2M_b_SnEt6O-rEfUnPV7L5ozBQELGy1BzLJE8L9nMiRKfDd9AWJwomUQ7yyIarPhfOPXt3T-VPH9cRt85DMG1CpZGIXK3b1dJUiZ7wSDpzdrFkoENpj837JXXsZ47hzokw0JiJMBN8Tr2Me7tUryBw8e5HvxVU8B60x27y_U3riZEv3SED8xV01ExGH3en5JQ-FD6hCamSM7CDpHMqfxPZgIrm1Mbyi_InVV5Bt_2FHYCa3_j0A/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4856401440943593585&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJa9I67Rqb1ZERcVgjVmFnZUM.jpg"
       },
       {
         "id": "ChIJYUcdJc6X1ZERcJJ_t9odFZs",
@@ -1787,7 +1870,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJYUcdJc6X1ZERcJJ_t9odFZs/photos/AcnlKN3U1TSAIDA0gTvWm7F-lPuc7Smzc4l8yNTv9pexfUqpbQYQxG72p0a4wQd9BRNR9ka5wmKwSwii7VpiiEBh4Xe9SppcEoFxSgmEHmXmD5RZsPppgRQsoYiuwr2g-32dAVW7wwfvT8UXeUws0RZj3xt2KkyWW_OwF0iOrSHmfOuIi-A6qzOsNbtaz57a8eFaAUcn5v5wPekUIexay9Weluy1iHaylf_ucWn3D2Ggz2ptqT0M73X5FTRgxDk9TvRQBk7tUoMDhhCB9Zh36l7xehD4qKcVzkQPltijThWeWP_L_BJDL3xoHD40OD-fvamfvTQN3Z0VYHR3MdH_Ufei8Xkq-v9nYVV6bYakfZKgxDUmVewjy2TSF4Joyyw9XVV8eAg9tcSzSs5R2WvcMkZOzhnhRrikQmz63hHpi99gmKM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11174870875608420976&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJYUcdJc6X1ZERcJJ_t9odFZs.jpg"
       },
       {
         "id": "ChIJNTkr2duD1ZERuTYenJy4UCY",
@@ -1807,7 +1891,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNTkr2duD1ZERuTYenJy4UCY/photos/AcnlKN2LgDsIsUeyKtXNInBJDwNXGrziy3jhtuofoa7gJfFZHWx6M-2FwxrFynjp_JVLRDfaAxnvDu4R43-rIzyzQBK6SNR4BvSxg-Ke0CM3L6vvnU2kR9ov0oDDeWl-O6PGVKM3mwCHFwDRKlEzIVLlCtVA9cYR0m_w58hIfWOrSzcywSprPuu_hNfU9zFlN2iI88EfQ6QGRY5FiLIgtiOKOMSgWP-NOge6B1WhqW6qXMTom2Q8qgE7zWESDFPPevyUJdeXZP7Jj32Z3M6R3eMZd10WNQgzLkbXCc-lFCArDAooDuk_7zSrLZGNsKsgFQUnZ9FZkExcjQn70s17jujnqAO_oVuIDxXTs9JRN0ipYES-YyGYdAKGbWAVCoBckj3P3alkp1D8SvC7DOp-BbZGdb5z6kbqFVn4BS4N3uurSeWItw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2760909554351748793&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJNTkr2duD1ZERuTYenJy4UCY.jpg"
       },
       {
         "id": "ChIJjVXQniWd1ZERfiSxHGJhXcU",
@@ -1827,7 +1912,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJjVXQniWd1ZERfiSxHGJhXcU/photos/AcnlKN1fHM6sTLD77FpJGX_1Z8a_W23otP-01BFWro9t0ZdR99aWxJ2Ty0qZ8MOl78tKEwO3mTpnxNbJE8bzFX2hoRb1w2zJLP4GS_3RED7lrcC5XaJiRkJAHpUzcoT8_4FStnLVY3jgm3KYdjexJOZsvKO7r0a28ZmW4BEZqFcVuhf4zoao4khWMWCbBjPaojV1LPCJZB6hOpqQrW89s2_5jXLRaTdCyKZNROjGb1NIvMGUAq2eDMAHPzWPCqy9K493tZKCe_PX2r0cvt9Vx6b5t5ElYsLDBKFGwgG20LiFh2h1SklvgvH1p-kYrzBRnq8srTV9w9w8ASnjR_qfT-tCWZqPRzvrw1O7A8pYiSK0YZugwfpwKPH8SDMXxaEYOGOKuFXt7cEYDjDwbJ_hN553F64JpPrFsJjgajowOHSA9Amko2HD/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14221630272321954942&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJjVXQniWd1ZERfiSxHGJhXcU.jpg"
       },
       {
         "id": "ChIJuaVZBgCR1ZER3_0u50KKZyA",
@@ -1847,7 +1933,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJuaVZBgCR1ZER3_0u50KKZyA/photos/AcnlKN2xID2IHzsr8RHNISeqbiFZR9w7vwy5829gnxGW3eAAq7pGOd_gMiSNKJ6KAIB9o8vHYKjRfovZ9Wh3FI4u9WUhw1DJpDW2dY_X9zkVcM2c5j-88bo2bwJM-KOvh3G3gv4FrArrxaTD14xXPfAYgI0G8Y87dpmk-HqsS-WBMEN2w6CfH2OEYgtobE0KNPL5C7AwZxPVUrhKl4YW6ZAvCqm33kH7xSkycAJJPLVmTC457T1frMtZk8xnPO4q9apFrNsFS09Qnc_jwfhuAib8_49SRG14NNrDbFFzxWDlH9bjVw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2334986951765982687&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJuaVZBgCR1ZER3_0u50KKZyA.png"
       },
       {
         "id": "ChIJQZu4qR-W1ZERv3Bmc7MvIFk",
@@ -1867,7 +1954,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQZu4qR-W1ZERv3Bmc7MvIFk/photos/AcnlKN2HbuFX-X8vIPegmwzNwS-jRsD71yMIBp-9ye_1Va10FOM7HOefWXJQBx4meGY_i6PC2PmcudbCdU0YLZIGlqOIOc_hwPFjQ4SMD5MzCjbmptZYgj6AkkXZfjMBVu8HhnTAT7H996HF1pOwrLH58bQ1MfIl20TE96toP8qMxhNonrCOwNDJfzAXKXoxRVe6niIM6747L49Cyy024t345zjABO2aCM4UPoX9ocyuA23jjGMKc4zEkXsYGD7x9H57F7TvJ8RYeLt_GcAm7uQB6rE6vQfCEWTdC5X-sJKyKZOeiqHg3W3TkARJk1aGHWuREYVB09Frs8XJ8Jm8HUChU5ye97v_PsgZVSjZYytLVqR6oyiO_DKVYYWeG1BeNXWMmButAUfeouDYAWwgo6yvl6m51aAoigJGJFH1cFG0W1MOUw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6422185516412072127&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:32.798Z",
-        "updatedAt": "2026-01-23T15:46:32.798Z"
+        "updatedAt": "2026-01-23T15:46:32.798Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJQZu4qR-W1ZERv3Bmc7MvIFk.jpg"
       }
     ],
     "cultural": [
@@ -1890,7 +1978,8 @@
         "websiteUrl": "https://es-la.facebook.com/capitolquito/",
         "googleMapsUrl": "https://maps.google.com/?cid=5380811302546992454&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJybDQNyea1ZERRm248157rEo.jpg"
       },
       {
         "id": "ChIJZSbup3Ka1ZERhhyoxJrzRpw",
@@ -1911,7 +2000,8 @@
         "websiteUrl": "https://www.meet2go.com/organizer/microteatrouio?fbclid=PAZXh0bgNhZW0CMTEAAaeiiZNzfj0EJoa9AkFvkAe57NQpEOz1TVQx-uAzG7MdwMpAOm19qupx0ufm9A_aem_HogsN8Dib5vwdoxwwcUnxg",
         "googleMapsUrl": "https://maps.google.com/?cid=11260955764336368774&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJZSbup3Ka1ZERhhyoxJrzRpw.jpg"
       },
       {
         "id": "ChIJowFEM4GZ1ZERbNDPu6GrXbw",
@@ -1932,7 +2022,8 @@
         "websiteUrl": "https://fundacionmuseosquito.gob.ec/mdc/",
         "googleMapsUrl": "https://maps.google.com/?cid=13573193563093586028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJowFEM4GZ1ZERbNDPu6GrXbw.jpg"
       },
       {
         "id": "ChIJOYDInoSQ1ZER8MMGrFWin3o",
@@ -1953,7 +2044,8 @@
         "websiteUrl": "http://guayasamin.org.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=8835959482766246896&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJOYDInoSQ1ZER8MMGrFWin3o.jpg"
       },
       {
         "id": "ChIJX1LjBVKb1ZER_cuYcLxHC_k",
@@ -1974,7 +2066,8 @@
         "websiteUrl": "https://www.teatrosangabriel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17945516014856358909&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJX1LjBVKb1ZER_cuYcLxHC_k.jpg"
       },
       {
         "id": "ChIJ5TtS6Sea1ZERPM05yCqXgzM",
@@ -1995,7 +2088,8 @@
         "websiteUrl": "http://www.teatrosucre.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3711976727887072572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ5TtS6Sea1ZERPM05yCqXgzM.jpg"
       },
       {
         "id": "ChIJI3HFuBCa1ZER3ac3OdXcxHw",
@@ -2016,7 +2110,8 @@
         "websiteUrl": "http://www.puce.edu.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=8990553564484446173&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJI3HFuBCa1ZER3ac3OdXcxHw.jpg"
       },
       {
         "id": "ChIJT4WXJSWa1ZERGw6R23KGMzU",
@@ -2037,7 +2132,8 @@
         "websiteUrl": "https://fundacionmuseosquito.gob.ec/centro-de-arte-contemporaneo/",
         "googleMapsUrl": "https://maps.google.com/?cid=3833555535690534427&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJT4WXJSWa1ZERGw6R23KGMzU.jpg"
       },
       {
         "id": "ChIJeV-WPp-Z1ZERLrZomdhCYso",
@@ -2058,7 +2154,8 @@
         "websiteUrl": "https://fundacionmuseosquito.gob.ec/espacio-museo-interactivo-de-ciencia/",
         "googleMapsUrl": "https://maps.google.com/?cid=14583292041433232942&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJeV-WPp-Z1ZERLrZomdhCYso.jpg"
       },
       {
         "id": "ChIJmfLenxea1ZERU7Tnzp9q4wI",
@@ -2079,7 +2176,8 @@
         "websiteUrl": "https://www.culturaypatrimonio.gob.ec/museo-nacional-quito-provincia-de-pichincha/",
         "googleMapsUrl": "https://maps.google.com/?cid=208127242392810579&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJmfLenxea1ZERU7Tnzp9q4wI.jpg"
       },
       {
         "id": "ChIJOVKYbNab1ZERlf5GZBjJR_w",
@@ -2099,7 +2197,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJOVKYbNab1ZERlf5GZBjJR_w/photos/AcnlKN2loe1kYQxbZphkt8nauUHWphtDZv9p-9LUMCBfMatv0r-_JU8m9FrDUP0nzmECb2QC8uZddLwyC0FleYIWqWoit_6ohCNK5bssTIaoYrEMsbQDWoRkSX7Tv7aybZaOnJpNGPhPvwGM03swO_m4RVPTfZYJu97WalGwnIZQ62XuGZVz1izt3ElZUYDAD0p6FT4FZ-7JlGFPogMe1Q2CXQi8fg_S6uNVH0_dJOsGTmjlNSjDh5h3llLQnZm1SvYtH0cKyTH4PqnrjABTV55sxVW-cKo9fFZRk3k4mE9xR_YfacDpDWg9plzaIklTZlFUA0yFT7xvynjhCUtWg68ckEZVRbXe9zrgnbCOB17_uRCWHLvM9Ifr911EIiQawQ4U79DGFLjnWymy_6mWyexKsoS-PqIAdCNXx79Pqafuj6Fki3LdeEPj_wK0TQyGBenW/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18178719527503068821&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJOVKYbNab1ZERlf5GZBjJR_w.jpg"
       },
       {
         "id": "ChIJNY79l6GZ1ZERlvYHYl1jCb4",
@@ -2119,7 +2218,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNY79l6GZ1ZERlvYHYl1jCb4/photos/AcnlKN3Urea-VUXdVmtX9qfVDaLWAtaJVVYyjNwpq_FoxMBeRpsFx2_kcID-tgwSLcBVlzhu2wNg3mm0LEkdDffDNP2fZwnkLnVLi6EwaqP1l81Yv2ydpIdYLi2LjEyegMTwE6QqYKkKirmPHztqk-XDZGyqGT633rwcILCAQa-nJUnxyN0R5lnyFzEFGP6chDyxHnB8nWseiE9v7fhtjxdg5AQYkigYDQnsos8pXXbETicBlb3mmTSry0vEbb9_fDfZaXs3nJSpF69EqiPzR_0AjBa9f-7z3Az9gol0MUXug6lLiPmt4hyi6e3TKFC47LHRKNdSsEfaYdp1N0AWyO1pAyeltDhTEF13mrENey1rdplNPM1uzXP6ZyYmwd-HbB-SQRY3XWLxlyuP0fUeMrcMVT7Lr22drLUwvi--m3hhk7EhEm9N/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13693585394724501142&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJNY79l6GZ1ZERlvYHYl1jCb4.jpg"
       },
       {
         "id": "ChIJF_zsfXaZ1ZERArN2M4s-ibc",
@@ -2140,7 +2240,8 @@
         "websiteUrl": "https://www.teatrobolivar.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=13225170548334965506&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJF_zsfXaZ1ZERArN2M4s-ibc.jpg"
       },
       {
         "id": "ChIJaYJeFAya1ZER5TfbBI-9FT4",
@@ -2161,7 +2262,8 @@
         "websiteUrl": "http://www.casatoledo.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=4473690226821904357&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJaYJeFAya1ZER5TfbBI-9FT4.jpg"
       },
       {
         "id": "ChIJc6n0Hiua1ZEREu1p0HjiIUw",
@@ -2182,7 +2284,8 @@
         "websiteUrl": "http://www.yakumuseoagua.gob.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=5485914829634530578&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJc6n0Hiua1ZEREu1p0HjiIUw.jpg"
       },
       {
         "id": "ChIJv9st1yma1ZERvCJc30B15w0",
@@ -2203,7 +2306,8 @@
         "websiteUrl": "https://www.presidencia.gob.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=1001898363598938812&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJv9st1yma1ZERvCJc30B15w0.jpg"
       },
       {
         "id": "ChIJGTEp0qOa1ZER34gDA5fn0J8",
@@ -2225,7 +2329,8 @@
         "websiteUrl": "http://www.facebook.com/La-Arter%C3%ADa-Tap-Home-124158534841830/",
         "googleMapsUrl": "https://maps.google.com/?cid=11515958882962999519&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJGTEp0qOa1ZER34gDA5fn0J8.jpg"
       },
       {
         "id": "ChIJY4JehA2a1ZERLWsqnsid2ZU",
@@ -2246,7 +2351,8 @@
         "websiteUrl": "http://www.monatelierecuador.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10797835066570074925&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJY4JehA2a1ZERLWsqnsid2ZU.jpg"
       },
       {
         "id": "ChIJcQWPEBaa1ZERujmbyQNkeAI",
@@ -2266,7 +2372,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJcQWPEBaa1ZERujmbyQNkeAI/photos/AcnlKN26Em_UnRRlOJo_wOWcJ3Bp5lXirgvHgWFgE9SRmk16I-BCBSpqA_ZCwWkM9MwHfYe5Lif7Ml9riVGYEk3yLfMRnQELUKakONJFdmdS43ZJMme6rgaBRjV-i9P2VMto_V-H5Pw93dBym4Ak-_y2lXD5NILQ1-LHcxwgwroek_nU_lpZ_h4kCdcpb4Ojb9cADn3tHlNLibiQIcqo1NgJ96mwT8Bj39TwWs9RrERrkjbaikDf0X4jxMl1V6F8oDdgycFjV02dqftoPGYgKwR8HBWHHjpO_UwU_nOZuQ1WeXgtr6-sMIB5-5ETVR4nA_635fUI6EZDiNDCIxCcYk8AP-AD4DkfHgpdxBprkAVoOETpOy8On1lmjX-ZIAyekAM7qzfHiwpKKi3wd1yajguIq0hFA13ewThpe0PsDFiIS8Y/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=178002152711207354&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJcQWPEBaa1ZERujmbyQNkeAI.jpg"
       },
       {
         "id": "ChIJ613plyqb1ZER7pbq49cHXCs",
@@ -2287,7 +2394,8 @@
         "websiteUrl": "https://teatrovictoriaecuador.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3124380865311446766&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ613plyqb1ZER7pbq49cHXCs.jpg"
       },
       {
         "id": "ChIJSUgWdIyb1ZERCgEgAYlaG8s",
@@ -2308,7 +2416,8 @@
         "websiteUrl": "https://www.instagram.com/nudostreetartproject/",
         "googleMapsUrl": "https://maps.google.com/?cid=14635390958546452746&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJSUgWdIyb1ZERCgEgAYlaG8s.png"
       },
       {
         "id": "ChIJL0YI6Sea1ZERizZJcONtwpo",
@@ -2329,7 +2438,8 @@
         "websiteUrl": "https://www.teatrosucre.com/escenario/teatro-variedades-ernesto-alb%C3%A1n",
         "googleMapsUrl": "https://maps.google.com/?cid=11151596450931619467&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJL0YI6Sea1ZERizZJcONtwpo.jpg"
       },
       {
         "id": "ChIJqaHQptab1ZEREeeW4cQUkuU",
@@ -2350,7 +2460,8 @@
         "websiteUrl": "http://www.n24galeria.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16542307217116161809&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJqaHQptab1ZEREeeW4cQUkuU.jpg"
       },
       {
         "id": "ChIJvZRmgEmQ1ZERk2fqr8jWfLQ",
@@ -2371,7 +2482,8 @@
         "websiteUrl": "http://www.sarapa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13005505981372327827&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJvZRmgEmQ1ZERk2fqr8jWfLQ.jpg"
       },
       {
         "id": "ChIJkd88b2Gb1ZER-RAElKp4fIw",
@@ -2392,7 +2504,8 @@
         "websiteUrl": "https://www.kia.com.co/noticias/kia-e-ground",
         "googleMapsUrl": "https://maps.google.com/?cid=10123098736445100281&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJkd88b2Gb1ZER-RAElKp4fIw.jpg"
       },
       {
         "id": "ChIJKyqzqIiZ1ZERpqC4Qk-lE2E",
@@ -2413,7 +2526,8 @@
         "websiteUrl": "http://www.casasanmarcos.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6995116406076907686&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJKyqzqIiZ1ZERpqC4Qk-lE2E.png"
       },
       {
         "id": "ChIJBSSokRSa1ZERbf1pB-KnfmA",
@@ -2434,7 +2548,8 @@
         "websiteUrl": "http://www.deltaenmarcaciones.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=6953179463935458669&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJBSSokRSa1ZERbf1pB-KnfmA.jpg"
       },
       {
         "id": "ChIJcSXdxGCb1ZERgxIRwhFEeEA",
@@ -2456,7 +2571,8 @@
         "websiteUrl": "https://www.facebook.com/NUAcafecultura%20%20%20%20IG%20@nua.cafe",
         "googleMapsUrl": "https://maps.google.com/?cid=4645537858693698179&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJcSXdxGCb1ZERgxIRwhFEeEA.jpg"
       },
       {
         "id": "ChIJ-Y8yGA2a1ZEREUYe8ILRfJI",
@@ -2477,7 +2593,8 @@
         "websiteUrl": "http://www.olgafisch.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10555541986954069521&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ-Y8yGA2a1ZEREUYe8ILRfJI.jpg"
       },
       {
         "id": "ChIJ-X5XqHua1ZER9fQZUqkbKpY",
@@ -2498,7 +2615,8 @@
         "websiteUrl": "http://gogh.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=10820491468751893749&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:33.733Z",
-        "updatedAt": "2026-01-23T15:46:33.733Z"
+        "updatedAt": "2026-01-23T15:46:33.733Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ-X5XqHua1ZER9fQZUqkbKpY.jpg"
       }
     ],
     "relaxation": [
@@ -2521,7 +2639,8 @@
         "websiteUrl": "https://www.dermigalestetic.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15162342707193940555&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJqyC_-feb1ZERS4oH0Vt2a9I.png"
       },
       {
         "id": "ChIJDWKnmICb1ZER-TTb-TtAL-0",
@@ -2542,7 +2661,8 @@
         "websiteUrl": "https://www.spahappiness.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17090949737233462521&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJDWKnmICb1ZER-TTb-TtAL-0.jpg"
       },
       {
         "id": "ChIJp_hea1uX1ZERQq49Zc1u058",
@@ -2563,7 +2683,8 @@
         "websiteUrl": "https://www.jardinalado.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11516670500562382402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJp_hea1uX1ZERQq49Zc1u058.jpg"
       },
       {
         "id": "ChIJSdd1XImX1ZER-0YrP98i9NY",
@@ -2584,7 +2705,8 @@
         "websiteUrl": "http://www.epmmop.gob.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=15489043360666830587&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJSdd1XImX1ZER-0YrP98i9NY.jpg"
       },
       {
         "id": "ChIJua7EmGSQ1ZERp3Gh1f_nBdE",
@@ -2604,7 +2726,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJua7EmGSQ1ZERp3Gh1f_nBdE/photos/AcnlKN3mu2GAZbhotScQFy5YrwTwq8v18VtyGBQ_w8QFMdwy45Hc4QhPQHAR1sneEjncCMnwZxdaCKu3P91zaYo0DROwFK7J0nBALjmkUS8Z-99agzFFHzAPRbPn64qSH0A3yM06PilOvayGxnazISILFPX7HlZYLkJdkpMie0P816eSDAJ9nPVQrad6GAyUr6grJWsRRnwCXeg87bG_LSibM-JmQ3Pb1WOmUH2qEAWlI9mhWVWW0xdwJSEvZoW2lmtBWO7I_MpnYZZWSitkqCYqCiNnxkNdLbxhzsRZ4AroWLKjpHo0gPGaLTX9Aym-udObk0t-8VvsBt5b4wcobh5Nvzg0I2YbBlsr24HVuo9ZlT_1t7ph_53gHw1uX9wzVh0xFLjn4KtnVpz_QUtq_xjGgiyO3gQZLk4YcQJ6U2mm8ygwNwKK/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15061699614797296039&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJua7EmGSQ1ZERp3Gh1f_nBdE.jpg"
       },
       {
         "id": "ChIJrTIW7nya1ZER_HZpDAlxJyY",
@@ -2625,7 +2748,8 @@
         "websiteUrl": "http://jardinbotanicoquito.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2749290381209859836&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJrTIW7nya1ZER_HZpDAlxJyY.jpg"
       },
       {
         "id": "ChIJrXGUIIuZ1ZER3pr6zhCXFlg",
@@ -2646,7 +2770,8 @@
         "websiteUrl": "http://www.epmmop.gob.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=6347426823273093854&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJrXGUIIuZ1ZER3pr6zhCXFlg.jpg"
       },
       {
         "id": "ChIJn7Ag7A2a1ZERwGfmW-MR1hQ",
@@ -2667,7 +2792,8 @@
         "websiteUrl": "https://www.swissotel.com/hotels/quito/?goto=fiche_hotel&code_hotel=A5C4&merchantid=seo-maps-EC-A5C4&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps",
         "googleMapsUrl": "https://maps.google.com/?cid=1501407193971713984&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJn7Ag7A2a1ZERwGfmW-MR1hQ.png"
       },
       {
         "id": "ChIJfVNWrIea1ZERE632s71GslY",
@@ -2687,7 +2813,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfVNWrIea1ZERE632s71GslY/photos/AcnlKN1kOxxxGEUPNewUrm7zCkK2U_7o83o5oEbKTHzTg7uIaIph4KVtcf29MeJNEKJG01vlVeZ3TnSg8_qaw-7o0Q353RRq_Pnp9Gzm4lZ4gJPugDhTZN44jq1e8svH1lo7BJ709apdxoAfmZ-vBZ0FA0Ydrt8mKC9TqitbGYb6BW9_0I90N24fvJYofsET4R1BWX4Fvq6RMJXrDyk8tmBqzlFjHsDu1YDdX9WHARHvt2gLh0t0hoPn5K-_g4ZSov5BDnFVTbiWndV0hqqAV2eIM20QmuJbhU6HDGLwdjlbVRctjny8i1rWrr7xPgnjaWd6mtoIUG9R2xERmgWctlWW0zPscM4-8kokL5QLQVnKHm3nDLwC1TSz3B2UTe7tqB9MZfY3HmdsK7zy4Z28cW3yHDPHveZEPlvRSnrk-PpWLj6bbA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6247133413698350355&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJfVNWrIea1ZERE632s71GslY.jpg"
       },
       {
         "id": "ChIJC_R5vL-F1ZERzxWdzCdbhiQ",
@@ -2707,7 +2834,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC_R5vL-F1ZERzxWdzCdbhiQ/photos/AcnlKN0vDh3emFLtB8pRuIwtJOxWYodKimQWwr1gMEHKG9J6OcUjB9-dFepv7NtPZWrTzkYogqUlvAAphOHyCMhwg9IiSG0aaKc29dgcbiQ43GSEke0HWUtK6sT48TXvAa9JJYCos4KFOJZhb2dIi5EhruJrnHR-pDyo2fCV3OmDOR_Yi7RBJB109H72psMVgUEcUMFAuN94-HXLS7VDIucF5uNpTAO_5GkmryapKWcnVSPe-kG9UQjv-NxVPzL70aYDmtqAGv_KNaadsd3hqrtV-tKUe2WZpe5qdharu9ExBQHvRr96BQJ3qnOfXIwoRXA8OhPlQ07eBZ2cedx9PJ06d8FGA3MSV4QCRSDxgr8vcZEHFp8wzJao6n6ADGczLtekMaZrsYHKQbpuILLlX7h4bKqz8MhBmIwuaYQOVFF1BOM/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2631891258739332559&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJC_R5vL-F1ZERzxWdzCdbhiQ.jpg"
       },
       {
         "id": "ChIJFzQMwRKQ1ZERoxGn2UX0pm8",
@@ -2727,7 +2855,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFzQMwRKQ1ZERoxGn2UX0pm8/photos/AcnlKN0kUpvd2cTzEvkKm-MCJTYR2yV7PzWPU4K-CgbHOb-rWDKDMznvQ7hteg95b5141pjl7Fu8oeK4-9wcS4NivRkOa6kSB43ldIVt313zwmHczeDtYld79-8k6yeeCbB4sI5liKCjLeqkY6skh6o2J1ir_sQwcyL9b6RjPQE-cb44YG6uC7Z4F53CSOkPjjQjV3L4neNWDO-BsBqVv-B4gIR05EtaMc5IVnN6czFDRc0Te3C8R-SO9tzN_rm50Nk1ICLhxEXVRJt5lI0U8xuA0IaI-iNOyCkc1kl8I-kIcY92X1aquLAsHKCQ3N9BxIGl7QI5sbE2io_M0c1BSYaVsdlsdkxRpden4RqsO_QZsKDy3DdYZk9orCvNaR7aJgvxOnla1c1jEz_JL7wedxCH-MMeHKDJIVBZiScy7zWkxIqMVQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8045386365185495459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJFzQMwRKQ1ZERoxGn2UX0pm8.jpg"
       },
       {
         "id": "ChIJDbhsWQCY1ZERbHHSLZev71w",
@@ -2747,7 +2876,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDbhsWQCY1ZERbHHSLZev71w/photos/AcnlKN3QFpsGycJE1yL92hc-QvpnUVX0ARfvotPNjE3UVOhD7CzMqoHrGHA7J5FIBe2hc9vRk_pY87r5-xqTzQkPMIvX-EsVksT5yn5orH6xFp61X_V9b7dV1RZRyiJwWUakqfbIJhgczi_RlalQFjLtMMoknmcKTKSVIUYUvxdyQzcccyaLJTbegSxvG4CQT6b-lXCLBizFYcVYmTP7pSMoRy6DHJo1sVgrFh6x1tE6l4J_vL_NLBfby2Paue-JSefaCMIt27vyz_i-bpFCB0GGhXBJJf8nx00SrvqB-qhzcoSjrtta-0ZcRBxi_VXYOgPmuRD44Aee3wD_Y-jyRPAjFJDYIvGlqEtuxTwHtr_f8cNDrKgmEGNbfQgRtYt1e3VRHazcXbZ81dC4oHXw7e8mHmWlBB0_2hm-WGl3hLc1dXrFh7M/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6696764234766905708&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJDbhsWQCY1ZERbHHSLZev71w.jpg"
       },
       {
         "id": "ChIJg1gBfNuX1ZERmO_Rgp_C_N0",
@@ -2768,7 +2898,8 @@
         "websiteUrl": "https://www.croeecuador.com/mirasierra-3/",
         "googleMapsUrl": "https://maps.google.com/?cid=15995873966863544216&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJg1gBfNuX1ZERmO_Rgp_C_N0.jpg"
       },
       {
         "id": "ChIJm1GbfD2a1ZERHKCj5t2so6M",
@@ -2788,7 +2919,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJm1GbfD2a1ZERHKCj5t2so6M/photos/AcnlKN0avUJ1RqjHZzPaKjwkfx-sTTCyuqDlXzZxzLKFPpQJA_wASr81ONCHJyOK2R5QvqtLv3x14be16rPCCvs4mmjPxf4Z8IHcyoKQPnsoRUlyU83O_zi9iZV8Dt8XOVEhV4_ea0iQe-nElfKQ0tq9_GgitrP7FwuU--_O39EEg4i0-xuIeQa3-qMAsPi12BxQ2HWouwho7_-37xxhhsrAArJEZh20DukM2Su5E_I3wxhMaZyIM9wHMiZlOPuPqcX80TzaiouQUPILMk9hXtuLz48pytJ9-Ob5CSPLFxGkdoEAtxIfMxlwCKp9oQG9kF85vinC8RiVp_XsG06yUVr54ym1M8GRvr83LA3aRUQMs4rLotkONbKzCyHKowX-uzPL-FZkroW_DngC-p2HYcyHR-kLlQ8eCV_vDtfjxJaFtQUMWAMn/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11791458318443323420&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJm1GbfD2a1ZERHKCj5t2so6M.jpg"
       },
       {
         "id": "ChIJKU2Sg1Ka1ZER1LDUDQw_Lm4",
@@ -2809,7 +2941,8 @@
         "websiteUrl": "http://www.vulqanopark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7939352514104963284&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJKU2Sg1Ka1ZER1LDUDQw_Lm4.jpg"
       },
       {
         "id": "ChIJLxS2Nh2W1ZERJrFKGGaPdhc",
@@ -2829,7 +2962,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJLxS2Nh2W1ZERJrFKGGaPdhc/photos/AcnlKN1vymkyVWzMgWYm5q_ki7IraWJaBUDqk43hot-x2vvi6ksOLH4VuaLRC7aHIdmUR0vHHV8MK1MFZznLchtU8zdcCav6nUWwTEp6E1GXwG2BqZRvtO03gOn2FvEL__s2CRDPGjYTP8bTrNygOm7I9sqvefIrPMnEWmyp4in-62XYAvNJb_sCQOF1ULbWTeQAJoROB4c_QUzoyMSoDSg3CbqBesawO3etnC8GY0uaLA1GNM5COO4dcJ4IEKMfeoDRnfHXu5GK2FInQ3vM401Xby30L6NqaIaZlopUXsRk8wCbfA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1690696378781184294&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJLxS2Nh2W1ZERJrFKGGaPdhc.jpg"
       },
       {
         "id": "ChIJTYBPBJmb1ZER2wwiV_0nF6s",
@@ -2850,7 +2984,8 @@
         "websiteUrl": "http://clickflowersusa.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12328366473992080603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJTYBPBJmb1ZER2wwiV_0nF6s.png"
       },
       {
         "id": "ChIJB5KrDR2P1ZERKE3SBMWlXdI",
@@ -2871,7 +3006,8 @@
         "websiteUrl": "https://r86genetics.wixsite.com/oficial",
         "googleMapsUrl": "https://maps.google.com/?cid=15158454186406989096&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJB5KrDR2P1ZERKE3SBMWlXdI.jpg"
       },
       {
         "id": "ChIJDafeYpWI1ZERlWWk-Nlo0P4",
@@ -2891,7 +3027,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDafeYpWI1ZERlWWk-Nlo0P4/photos/AcnlKN3XXjM6QrRQdnIYu-qqYRwsxLrk0Pi0Wm0-YcPaMyDwpg5XrIDmS5ZXswb_AzLsGN6XMpZRfuQb-FMmxqC05ArcsMbPW4wIRhQTKbO0arr3sS3VNqhwKOTqg_0gllha8oB1ZZiUy-IDrbQZb3wRPks786GRsEuUeizi6nkaFpDUyuKwTiFLXQ4o_PZC01k1FIXMD5KKrKAcyCSoPTa_NjOmTeZk7P5yYYc9Xd7-h8ZxvW-B4hYHg_33RsvWLF4VYY2Xp_TOrn5aPEzLDBa8eWsuiWT7n3VWKZnTfg2XPY5_4F4ueZdyf6rGXHvMG7B6gjEdrW0yBmkc_48RgZI8iw3apY3atWM2cbRfBfiPT9iRR-JWndoLEFTl7BBM-QPubqJ9IhdvnjB4jgCdxJ2x-zff7kFc4QgtUwlPIDIEK2KciHA4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18361290966178227605&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJDafeYpWI1ZERlWWk-Nlo0P4.jpg"
       },
       {
         "id": "ChIJUbSJifmX1ZER_sAaUUTLOtE",
@@ -2912,7 +3049,8 @@
         "websiteUrl": "http://www.cascadaspa.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=15076586196855079166&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJUbSJifmX1ZER_sAaUUTLOtE.jpg"
       },
       {
         "id": "ChIJO8XaNm6X1ZERr6OxyZB-7z0",
@@ -2933,7 +3071,8 @@
         "websiteUrl": "http://zonagarden.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=4462924916071703471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJO8XaNm6X1ZERr6OxyZB-7z0.jpg"
       },
       {
         "id": "ChIJ1SVhDrWR1ZERJgkFPXIiY30",
@@ -2954,7 +3093,8 @@
         "websiteUrl": "http://www.viverolostulipanes.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9035103151480703270&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ1SVhDrWR1ZERJgkFPXIiY30.jpg"
       },
       {
         "id": "ChIJZ-HgJpqR1ZERRyQYAb3mIDE",
@@ -2975,7 +3115,8 @@
         "websiteUrl": "http://www.cervezacotourco.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3540083006554776647&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJZ-HgJpqR1ZERRyQYAb3mIDE.jpg"
       },
       {
         "id": "ChIJT1JbhpeZ1ZER0nEK7P6Wkpg",
@@ -2995,7 +3136,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJT1JbhpeZ1ZER0nEK7P6Wkpg/photos/AcnlKN0OzA2EzQxlwWivF_KcVcPR4ZdmBarR-SCSHrCC2RCClwV7-eWLZYHnKfVMRWYJOqfXsXQLy0yrI89BPB20NiELG1hmLXUiN_CcoouoUf0N7Y97jtgbmNpboy97Zt1PlM6E_s5mdFdOvVVnYP2FKrQgu6b-goSR1uY-xJ4IcriwZRgAB9B1HgA0uo02WeeZA1SadwyC2GShTOjhoHrzbINlvMyv3k71grmw1V5wXzdgiOI3zUZj6YbWjvHqqW0GcHhMcycWjF4pJT0cJ2Fr39QQJQfg98dD5JhAXmRn1yCFwQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10994015661990769106&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJT1JbhpeZ1ZER0nEK7P6Wkpg.jpg"
       },
       {
         "id": "ChIJVVVVVXma1ZERfhkaiKpKqlU",
@@ -3016,7 +3158,8 @@
         "websiteUrl": "https://kaersam.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6172828335552993662&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJVVVVVXma1ZERfhkaiKpKqlU.jpg"
       },
       {
         "id": "ChIJi505vSGa1ZERkq15nWtFW9Y",
@@ -3037,7 +3180,8 @@
         "websiteUrl": "https://www.sandmelis.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15446015675503062418&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJi505vSGa1ZERkq15nWtFW9Y.jpg"
       },
       {
         "id": "ChIJ-85h5Hya1ZERN_ILxC92pS8",
@@ -3058,7 +3202,8 @@
         "websiteUrl": "https://www.jardinbotanicoquito.com/es/ecosistemas-jardines/",
         "googleMapsUrl": "https://maps.google.com/?cid=3433280238464528951&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ-85h5Hya1ZERN_ILxC92pS8.jpg"
       },
       {
         "id": "ChIJe6prYT-F1ZERPV8GFzJAmlw",
@@ -3078,7 +3223,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJe6prYT-F1ZERPV8GFzJAmlw/photos/AcnlKN0Y0FJk3vIdI1X6NQkEN2VMgC_Lh8q_Pje4u6uDBy7nRI4PIR3U2erGgAptVcXeX5kjM8xwhNJYZewiYM3JLNtL6xdegM6V_EreQn8AgVqzNG7c3s4FV8dhKb3e87JK0Jc5A7q-8caUBHqERAOt5SPalIiMbjrkvtA1UxxXVNXaWrTRfMKMQNoQllGNHAOaqmwaA8FNruZ1pGyrG8CrF6Bfai8yDv34IWkSQojekHCYgK0xzUKzHMqUsPWTgrBD3LS5OLztL6_JuSd-MTpqGNM3EDAdy8MIMzGz9FiNp7CuSQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6672716381781647165&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJe6prYT-F1ZERPV8GFzJAmlw.jpg"
       },
       {
         "id": "ChIJDzqajJ-a1ZERtXtZFo7ZYUA",
@@ -3098,7 +3244,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJDzqajJ-a1ZERtXtZFo7ZYUA/photos/AcnlKN03qGYK7iW_gkce4QrJhjZOxgghbVcC0moNW2kRoA71TaAzJmWQjlRfIbGuf8kJfuNCO_OYI-aRhutvheefWSvfYj_6Q9qMbRtdcptcmAgyoE6qj3AH4qg0b3i_in_67xA7dDGDuuWMIzpDNUsi2Js4OZDMuLV17fIKYreZ7T4V9_e31Qu-eIltQpRqZEiegJJyRyJlIEoVCnMGvqNjxIF4nd95qmlajRI-bzaDF4cJ3bqs3HcGaGBpyc0I87XSEfjKuAOE6pmhMZ04qEPBs1ApCymR8Zy5B4tg6fs-HhdL823tdlt7-skBS-nHSXe-tXHMiMU9exbjaOVbKpKjyKNznnFSejSodORmTqr8A6GRTYYg0Jbtq4l_UlFRPVlSjxURIWwBmW2oARTYKFXqLa15VRCMIM12qCyD-ViO-lKvRq-n/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4639228295451868085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:35.055Z",
-        "updatedAt": "2026-01-23T15:46:35.055Z"
+        "updatedAt": "2026-01-23T15:46:35.055Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJDzqajJ-a1ZERtXtZFo7ZYUA.jpg"
       }
     ],
     "nightlife": [
@@ -3122,7 +3269,8 @@
         "websiteUrl": "https://www.instagram.com/gallorojotaqueria/",
         "googleMapsUrl": "https://maps.google.com/?cid=11406234132528349523&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJpZITh8OF1ZERU8FJvoIVS54.jpg"
       },
       {
         "id": "ChIJz5jnjVWb1ZERSoaKpJngEPg",
@@ -3143,7 +3291,8 @@
         "websiteUrl": "http://www.somos.rest/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=17875309638607583749",
         "googleMapsUrl": "https://maps.google.com/?cid=17875033871528658506&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJz5jnjVWb1ZERSoaKpJngEPg.jpg"
       },
       {
         "id": "ChIJfWVXIRub1ZERe8KXgayXiaA",
@@ -3164,7 +3313,8 @@
         "websiteUrl": "http://www.safaerauio.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11567943885042205307&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJfWVXIRub1ZERe8KXgayXiaA.jpg"
       },
       {
         "id": "ChIJQUBP156b1ZERkw_z_nTSJFs",
@@ -3186,7 +3336,8 @@
         "websiteUrl": "https://www.instagram.com/andesbrewing/profilecard/?igsh=aGdyb3d1bWJib2dx",
         "googleMapsUrl": "https://maps.google.com/?cid=6567605556548407187&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJQUBP156b1ZERkw_z_nTSJFs.jpg"
       },
       {
         "id": "ChIJ8SzJ0kSF1ZER7F_q1NlM8r4",
@@ -3207,7 +3358,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8SzJ0kSF1ZER7F_q1NlM8r4/photos/AcnlKN0SQ0IRoHvpq-73FhgVxhry65KUfddLY467ws7U2fViPBzXN56dgWigR8SE5OKd1c__jfnXD28C4LphVrhDmi6_wQaB3kKP0Eu-RLzzjxgr5RMHxdAYjkMlEM2VRK6HJF1e4pbzC4qyqVnZ0KxC4CIf5PJVS4ILD0_yzp4sXMA2tFtXXXQWF4uqpiPuKgHoDp2Aj71hTCkxIOkioQB8iBeIxzqN5CxAqOiR1MzpBYQC_fuYhKD4_RVvn3HX0Y9H4nyruUg6AkipmwJ6O0Yf2EyPjYJctIPtfgMAseDthOaNmw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13759144310034030572&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ8SzJ0kSF1ZER7F_q1NlM8r4.jpg"
       },
       {
         "id": "ChIJeVN4Qyea1ZERDwa0uN4LSZE",
@@ -3228,7 +3380,8 @@
         "websiteUrl": "https://www.secretgardenquito.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10468911860008879631&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJeVN4Qyea1ZERDwa0uN4LSZE.jpg"
       },
       {
         "id": "ChIJhQvWUFiZ1ZER3BO5LolScK8",
@@ -3250,7 +3403,8 @@
         "websiteUrl": "https://sinners.beer/",
         "googleMapsUrl": "https://maps.google.com/?cid=12641694903176860636&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJhQvWUFiZ1ZER3BO5LolScK8.jpg"
       },
       {
         "id": "ChIJvQkY0ImZ1ZERY5zIzfyYOUg",
@@ -3272,7 +3426,8 @@
         "websiteUrl": "https://serenomorenoec.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5204359055954975843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJvQkY0ImZ1ZERY5zIzfyYOUg.jpg"
       },
       {
         "id": "ChIJJ8TbmpSN1ZERET8tBE3nuyY",
@@ -3293,7 +3448,8 @@
         "websiteUrl": "https://www.wyndhamhotels.com/es-xl/wyndham/quito-ecuador/wyndham-quito-airport/overview?CID=LC:WY:20160927:RIO:Local",
         "googleMapsUrl": "https://maps.google.com/?cid=2791078712054726417&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJJ8TbmpSN1ZERET8tBE3nuyY.jpg"
       },
       {
         "id": "ChIJXYBC7o-a1ZERvEQqarHf0tA",
@@ -3315,7 +3471,8 @@
         "websiteUrl": "https://lavoe.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=15047335258081608892&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJXYBC7o-a1ZERvEQqarHf0tA.jpg"
       },
       {
         "id": "ChIJJcxjLnCa1ZER_Mir6EL371E",
@@ -3337,7 +3494,8 @@
         "websiteUrl": "http://sinners.beer/",
         "googleMapsUrl": "https://maps.google.com/?cid=5904209503249484028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJJcxjLnCa1ZER_Mir6EL371E.jpg"
       },
       {
         "id": "ChIJqbDzi3Oa1ZERw3vXvTD037k",
@@ -3359,7 +3517,8 @@
         "websiteUrl": "https://sites.google.com/bandidosdelparamo.com/bandidosdelparamo/men%C3%BA-clientes?authuser=0",
         "googleMapsUrl": "https://maps.google.com/?cid=13393692307003767747&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJqbDzi3Oa1ZERw3vXvTD037k.jpg"
       },
       {
         "id": "ChIJH9TZpBOa1ZER3qdeuU8RWcE",
@@ -3381,7 +3540,8 @@
         "websiteUrl": "http://www.cherusker.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13932185956357416926&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJH9TZpBOa1ZER3qdeuU8RWcE.jpg"
       },
       {
         "id": "ChIJ-ww5rgqb1ZERw9Y0wFA2Bd8",
@@ -3403,7 +3563,8 @@
         "websiteUrl": "http://sinners.beer/",
         "googleMapsUrl": "https://maps.google.com/?cid=16070310565791454915&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ-ww5rgqb1ZERw9Y0wFA2Bd8.jpg"
       },
       {
         "id": "ChIJ9UvjNiia1ZERh9ifShQphGU",
@@ -3425,7 +3586,8 @@
         "websiteUrl": "https://vistahermosa.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=7315016861884602503&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ9UvjNiia1ZERh9ifShQphGU.jpg"
       },
       {
         "id": "ChIJuUKJySCR1ZER-mr6EG7hPPA",
@@ -3447,7 +3609,8 @@
         "websiteUrl": "http://www.sabaibeer.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17310958930552843002&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJuUKJySCR1ZER-mr6EG7hPPA.jpg"
       },
       {
         "id": "ChIJ9YMlzK2a1ZERBn2jlYRa1UM",
@@ -3468,7 +3631,8 @@
         "websiteUrl": "https://www.clublacampina.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=4887912496073243910&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ9YMlzK2a1ZERBn2jlYRa1UM.jpg"
       },
       {
         "id": "ChIJU2dAr4Oa1ZERl0r9thwpwIA",
@@ -3490,7 +3654,8 @@
         "websiteUrl": "http://www.fridays.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=9277460435689097879&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJU2dAr4Oa1ZERl0r9thwpwIA.jpg"
       },
       {
         "id": "ChIJM7zjC3-R1ZERJCQvlqfXy6Q",
@@ -3511,7 +3676,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJM7zjC3-R1ZERJCQvlqfXy6Q/photos/AcnlKN2FyN-BMkYrO_9SRVsObd99avEhYjjy1Lb2cmAk10uLv7Udoz7kz7rWizGQImoBT0Yk8XBHhRby0Jk9gbGRgDngWbhCTqdVIRiJsjuK4l6Kiw-d25MmTIUyDFLJ_rIWsoqnmLgOJ4wzfE0xLxMzX1Uk8nsNSN-HpzI1uzrVhvu9xSuQ47m5C_Yy4EHU078b1Ciyun-KU-a6JQm0h42U57ZMNKaGF8u8BBbj751_XY4k9DqTlO2Jctzoi4dVXdtnRwu4IJZU-qcbmOI6_GQQnUdzst_6S925HGL9EEHyggxxASyY9iLIUwDYYPHSxgINz1BR4w6tNkaTPxRq96PnJuPEeU7HzI9-0jy44dYtuNZdMgpUIUsjNN-tnFAdijwv8uUZFUo-L-fAbReDhN_dq5xp2usCRcT7ibnhYIe9KiI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11874821957271626788&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJM7zjC3-R1ZERJCQvlqfXy6Q.jpg"
       },
       {
         "id": "ChIJK9erOCea1ZERAboJRe1tmk4",
@@ -3532,7 +3698,8 @@
         "websiteUrl": "https://www.facebook.com/laoficinaquito",
         "googleMapsUrl": "https://maps.google.com/?cid=5663960347204762113&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJK9erOCea1ZERAboJRe1tmk4.jpg"
       },
       {
         "id": "ChIJIVYyJ6ub1ZERYADBx2GitKw",
@@ -3553,7 +3720,8 @@
         "websiteUrl": "https://labikina.club/",
         "googleMapsUrl": "https://maps.google.com/?cid=12444750211178365024&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJIVYyJ6ub1ZERYADBx2GitKw.jpg"
       },
       {
         "id": "ChIJQbirckyb1ZERCJ795l0D-p4",
@@ -3573,7 +3741,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJQbirckyb1ZERCJ795l0D-p4/photos/AcnlKN2k1kn0bcvAHGdMq3n9fNdl0Ajkptc5k3YExdM5Oabw98NVHjpjExe5CHKOKLUYyIObqSUF8nRxZ_uquHdElUTuwEMSMKOfk6vYaTxZfpwlKi3ANsCyUeUDq98tOFPuvStgdDSpG7aPNN7aXwtMNhLjmPicNE2bCG63ee3zheb13E1pZg6yOqv78LzxSw0gaizkkSwMgHhCkkcl7cCKnwmnNFyGjZZhFsF-wgVtBBLarsavYaVCVbCSN21z01y28rRfeNvrGCMLXXRo_Rz6Pf1QGJcCXb3RuGJ3fEu6R6y-4w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11455472304012500488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJQbirckyb1ZERCJ795l0D-p4.jpg"
       },
       {
         "id": "ChIJ7fKyVACb1ZERnYX2BXxQGms",
@@ -3594,7 +3763,8 @@
         "websiteUrl": "https://codigo86.bar/",
         "googleMapsUrl": "https://maps.google.com/?cid=7717569405058975133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ7fKyVACb1ZERnYX2BXxQGms.jpg"
       },
       {
         "id": "ChIJlYHnGOeb1ZERWgxtD1nbk8A",
@@ -3615,7 +3785,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJlYHnGOeb1ZERWgxtD1nbk8A/photos/AcnlKN3HnEdSWlcgAnfB0EsNDEy6JOL-FlSsy3VSxQiakxUoau1XPVjeCbfXbWVgO1LV-UNdhNFd54ctacoUYJAyw932YMf_BLS5AZRcFaGqnbzt2W3Hmtx33vmfF9EDLYoBjOa550mz_8K87kGVDZb9_UXEW217cOZ5Gg54zEs2mXL7UmsH5YPpZ1p1foTJqmv0yiAUKuuSCD6_irp9ybLGTwDnLwBNMvwsRRNdXQ6Dqm1FSrdSZddl0HlkWB9Tv0MGyNfdw12hRvcsHvmdB2WdHFnV7z6TVENGzCOFwylEF5uccg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13876676052416007258&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJlYHnGOeb1ZERWgxtD1nbk8A.jpg"
       },
       {
         "id": "ChIJPwDSERuX1ZERwqiShe_Wu88",
@@ -3637,7 +3808,8 @@
         "websiteUrl": "http://www.sabaibeer.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14968794110722484418&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJPwDSERuX1ZERwqiShe_Wu88.jpg"
       },
       {
         "id": "ChIJY73jPoCa1ZER785kCDyw8UQ",
@@ -3658,7 +3830,8 @@
         "websiteUrl": "https://instagram.com/chosen_bar?igshid=MzRlODBiNWFlZA==",
         "googleMapsUrl": "https://maps.google.com/?cid=4967945635851718383&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJY73jPoCa1ZER785kCDyw8UQ.jpg"
       },
       {
         "id": "ChIJxWrhfBGb1ZERkDYovXmc3uw",
@@ -3679,7 +3852,8 @@
         "websiteUrl": "http://www.bigbar.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=17068251684459263632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJxWrhfBGb1ZERkDYovXmc3uw.jpg"
       },
       {
         "id": "ChIJ61SPqCSb1ZEROQjpXet1lbo",
@@ -3699,7 +3873,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ61SPqCSb1ZEROQjpXet1lbo/photos/AcnlKN0bTCmqjK3M4wzROBvoG847dYSxLCxKBhdKwjHNs8ZrUfu04aPycW2RhTn3QMscOwYArsLKbR94UcXAzHCST-SG6aQCdBS2xTDnlGRM9LbFkKr9SQFN7A2LBCd2Dep9YhqyavSEQunU0I17UbIBPAa5WVHh5n_gBKyX-oFAeufbApox5vTY2RB0a0tjGi0NUvm2AdyL5t0sDpIiXXJyh7kzh28PkbovWpdIJj0_Zk1AMXL_F1LUVHgydOhJ665liqumvH5FcpZ82G30gZqmd1mihmSthpF1j6OKpd-mO4h5IQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13444781916337801273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ61SPqCSb1ZEROQjpXet1lbo.png"
       },
       {
         "id": "ChIJf5I6nLqa1ZERk7XcIT9yB8k",
@@ -3721,7 +3896,8 @@
         "websiteUrl": "http://www.155.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=14485672341937108371&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJf5I6nLqa1ZERk7XcIT9yB8k.jpg"
       },
       {
         "id": "ChIJc4m64n2a1ZERxN8r9Y7wR3E",
@@ -3742,7 +3918,8 @@
         "websiteUrl": "http://vertigo.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=8162757346421628868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:36.230Z",
-        "updatedAt": "2026-01-23T15:46:36.230Z"
+        "updatedAt": "2026-01-23T15:46:36.230Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJc4m64n2a1ZERxN8r9Y7wR3E.jpg"
       }
     ],
     "trendy": [
@@ -3766,7 +3943,8 @@
         "websiteUrl": "https://pacari.com/?utm_source=Google&utm_medium=ornganic&utm_campaign=gmb",
         "googleMapsUrl": "https://maps.google.com/?cid=10523802685562875825&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJtbofVQma1ZERse9G98gODJI.png"
       },
       {
         "id": "ChIJeVN4Qyea1ZERDwa0uN4LSZE",
@@ -3787,7 +3965,8 @@
         "websiteUrl": "https://www.secretgardenquito.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10468911860008879631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJeVN4Qyea1ZERDwa0uN4LSZE.jpg"
       },
       {
         "id": "ChIJ-d6kHTma1ZERS1L7UoOEGF8",
@@ -3808,7 +3987,8 @@
         "websiteUrl": "https://www.vernazagrafic.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6852372532611994187&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ-d6kHTma1ZERS1L7UoOEGF8.jpg"
       },
       {
         "id": "ChIJOYFjG4qZ1ZERMVfti9rypAY",
@@ -3830,7 +4010,8 @@
         "websiteUrl": "https://vistahermosa.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=478774480872494897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJOYFjG4qZ1ZERMVfti9rypAY.png"
       },
       {
         "id": "ChIJjU05JM6b1ZER1Bpjo58c7IQ",
@@ -3851,7 +4032,8 @@
         "websiteUrl": "https://www.instagram.com/jumandy_ec",
         "googleMapsUrl": "https://maps.google.com/?cid=9578061979476761300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJjU05JM6b1ZER1Bpjo58c7IQ.png"
       },
       {
         "id": "ChIJjXwpn12a1ZERwBXTW62eaQ4",
@@ -3873,7 +4055,8 @@
         "websiteUrl": "http://www.sanhonore.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1038535656492701120&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJjXwpn12a1ZERwBXTW62eaQ4.jpg"
       },
       {
         "id": "ChIJlxl55m2a1ZERUl5fVbLfyPM",
@@ -3895,7 +4078,8 @@
         "websiteUrl": "https://www.mcdonalds.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=17566536303588105810&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJlxl55m2a1ZERUl5fVbLfyPM.jpg"
       },
       {
         "id": "ChIJh0F_oAmX1ZER2_sryLLJZ_E",
@@ -3917,7 +4101,8 @@
         "websiteUrl": "https://www.mcdonalds.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=17395093855441517531&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJh0F_oAmX1ZER2_sryLLJZ_E.jpg"
       },
       {
         "id": "ChIJ2TFQ-IqZ1ZERbDtC1vSSxXg",
@@ -3939,7 +4124,8 @@
         "websiteUrl": "http://www.cafemosaicoecuador.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8702523435227691884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ2TFQ-IqZ1ZERbDtC1vSSxXg.jpg"
       },
       {
         "id": "ChIJNbzXqxea1ZERTHzcFVtL1UU",
@@ -3961,7 +4147,8 @@
         "websiteUrl": "https://www.mcdonalds.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=5032011013237275724&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJNbzXqxea1ZERTHzcFVtL1UU.jpg"
       },
       {
         "id": "ChIJRST5I1uF1ZERdWlSpkObdz4",
@@ -3982,7 +4169,8 @@
         "websiteUrl": "http://www.mcdonalds.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=4501237067435633013&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJRST5I1uF1ZERdWlSpkObdz4.jpg"
       },
       {
         "id": "ChIJpUAMmYWa1ZERYRgSzBJsfAs",
@@ -4004,7 +4192,8 @@
         "websiteUrl": "https://www.mcdonalds.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=827655259518277729&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJpUAMmYWa1ZERYRgSzBJsfAs.jpg"
       },
       {
         "id": "ChIJa2cbUr2a1ZERqSlGGwuGt5c",
@@ -4025,7 +4214,8 @@
         "websiteUrl": "http://www.clcecuador.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10932354002725513641&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJa2cbUr2a1ZERqSlGGwuGt5c.jpg"
       },
       {
         "id": "ChIJmYQL0o2a1ZERWX6NzTL5OsU",
@@ -4046,7 +4236,8 @@
         "websiteUrl": "https://www.studium.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=14211945570713304665&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJmYQL0o2a1ZERWX6NzTL5OsU.jpg"
       },
       {
         "id": "ChIJ8zvjHj-b1ZERtzV8wlbHPiA",
@@ -4067,7 +4258,8 @@
         "websiteUrl": "https://sociedadgourmet.ec/negroni-quito/",
         "googleMapsUrl": "https://maps.google.com/?cid=2323513633213789623&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ8zvjHj-b1ZERtzV8wlbHPiA.jpg"
       },
       {
         "id": "ChIJ-wbsZACb1ZERZf2Ej2sxN54",
@@ -4087,7 +4279,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ-wbsZACb1ZERZf2Ej2sxN54/photos/AcnlKN1pu6oC7DwAHtI4ijDb9nl2PSKOGHFGgtVelevdOhcHk6hhgQisvJjHXMQ6e1qrpva_NsX42TRq1_2zp_5sZRXjAnIc7xgPJJHN4v3CE2uCSAtOiOKiOfPfAkxwQSdh6oJlTG0gMwVOYTuGWoaLf6Nm73HN7CDJUPZVty-q7oiSfG1YhWpwjh9xbMADw2ykRXymAblkqXYiMZ_3GW5uYEhDt-W8bbSz38adXevSGbhC_99qFTJXDDWTqsikLxBwXZGpLr1jSpWQ3IvMGUjRF3dHwq8h0QNXLVAMZA4mfZjJ0gS-ObJQHO7sqVY0V7nyHKRhoYTPgHtb1tM47-cBaDLQDvlwEVUZQiDcw_yC1h3mPK6FOlbVjKRVvaXJHjQUgBNSpL46v6BoZSUfr8O9ItM7-cIhGuXvlcozjQAvX2bE8_3ThQZKpux5dWRBGn7h/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11400635319750819173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJ-wbsZACb1ZERZf2Ej2sxN54.jpg"
       },
       {
         "id": "ChIJb80vVyqb1ZERCAeEKyneNdE",
@@ -4107,7 +4300,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb80vVyqb1ZERCAeEKyneNdE/photos/AcnlKN0YGvilBfgpNqwgFdjF_QzZ363xmwB2rggD7XsZS6T7qe41vRam5XAq2Aexzfw7JhSvpoRgE3bl9JwN6xVDCLORzDzTxufKCNjWmIp3dLXg71lQqerN_vh8JFtFUT7n1fDTySfrfuAdad3xZGIzzJMp-1NYzBvX4zJP2O_ePQIqHOL9O0I0ihBvfGdtj05cEWI42bNzh-QMEHngm4eIYsR33QVvM-Ov49Fs9uRjpCTUmuvGpT1IPeb-EoSSnOY2Y3dQWuvy3XJ2LT6rRA7qG2Pg1ETh84I6_NHLz5B8S3FjxA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15075199596097701640&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJb80vVyqb1ZERCAeEKyneNdE.jpg"
       },
       {
         "id": "ChIJFTVpkHGR1ZERSwITy2mxMs0",
@@ -4127,7 +4321,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJFTVpkHGR1ZERSwITy2mxMs0/photos/AcnlKN0CCLEASkVAMd8jUoLV5RlOQ2joFxooNqjmlrgfRQEt7zfvgleieVONWHVk66WPCIXTDfr4iBXseTRz4WBZiU6NbACOXdOQa_BRfNK-vqDuF5EMuqMAEbhQewrbPLdYG30O8rytirSa7WT8yETmlQrAxlg-XRDIgx5j_iikU8EA64OzQWzqo2gMXuiHTZuFMaacEbq7z2fuY5vRzlPnj7yOICyPKiU5HLF8RQPoECpYqLRa38etai2FcUl4GEXZ8OaaBQ84YfOAZUXi4yUyuSxN_lgK6KQ6juLFuJzGqahpUqVZcttglCwuUhqN4pWnZRwKT1YqFSYYyQ9R70e2WqD_uUQdAtv8LY2lb_3Z4unlD0ziYT0DvFp-Vw0SyLHrZJGrB95aTeydsH43L20gyYPsdL7sljoDPu2mSDhqLPykrw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14786075594547462731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJFTVpkHGR1ZERSwITy2mxMs0.jpg"
       },
       {
         "id": "ChIJPbo5vziR1ZERsrh4InZeGJQ",
@@ -4147,7 +4342,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJPbo5vziR1ZERsrh4InZeGJQ/photos/AcnlKN1A60FIFJP2hhmYjV2_xSUU2Tpcu57SrY8BVR1OS2oZBD1EI9bhLbSLHfFKnAQk9sgHzPlFxVpLnxkn7_PE4mTC11RWi8iflBDYKEtBz9nPhp3noGCrngzL-c9rTP1oC8g-Qhwok8kztIjP5XKSytyvdThbn4z0MkqI3WUo-xNmrl6Pc7_egYB8ybPr9mfPapn-WwuGyhuPZ0gQW0oLBqEk33-vG1PtzB6ayFyfwYr03ye6CNBYkBBJfwt65qtfUJ_7y9eAhifMWYgAyP5csFWT94jfzNKAqAmJQ8nR8T4O8me18gzEpEv-D4iDIgBTVrBWkTV_HenoHGLvsDeA9Xc0WxlMER_Jj3M1TpeHahnuH6IGiiOJZdzR6jfspEmMb_ZYdCJYaynqXVSC0J8jP4x5vnRU_NXHl3611TH5rcyXgA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10671383178531879090&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJPbo5vziR1ZERsrh4InZeGJQ.jpg"
       },
       {
         "id": "ChIJc7viFwCb1ZERx9Rf30FAtJY",
@@ -4168,7 +4364,8 @@
         "websiteUrl": "https://www.instagram.com/bom_quito.ec",
         "googleMapsUrl": "https://maps.google.com/?cid=10859375253161759943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJc7viFwCb1ZERx9Rf30FAtJY.jpg"
       },
       {
         "id": "ChIJfUZ2h8Wb1ZER-YuKT8j35EA",
@@ -4189,7 +4386,8 @@
         "websiteUrl": "https://www.instagram.com/chatelainpatisserie.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=4676134752817417209&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJfUZ2h8Wb1ZER-YuKT8j35EA.jpg"
       },
       {
         "id": "ChIJS7Kp2B0VKo4RoGNb_i5RKR4",
@@ -4209,7 +4407,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJS7Kp2B0VKo4RoGNb_i5RKR4/photos/AcnlKN1bUp3ZjU08aLTwRc5M7eXOzsmozPpGHgnirKQeid_NaOZg6PmN5xsAaa6ZyhQEgErhZJfI2WE43JGsaZQxOnkyV00yFFIHJ5wDtkI1TErONgUsJlpAWB0bPuoVRDaaAsdsAvm61A7dN9TLDwFF3dR68Bc0kgILgnu_nVwonJXrctVOjw3s4JUHcTKDP4WH3GgRZ2tMgibIZHtRbYnyxOQOEaBW6CLAumQSkc1MbUdyoF8Iv8ZAen3kVDFqk0qaZJJbxi4_Dp6RCVOmTBfpQwv_WMq3GM7BgbQmmOBzHPhQ6QkM-lfVtUx8Dh-kixdZwbsS1UNf_yTP577vFdTJU2gzjMqLirIVdd8iD4jYN_E29eV_LcqN4jWA2q_QMT3S6XL6ML0QSxiocwg_hAOLW2n7z1Hkx7iBv8TjVspw9KtGt1PC/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2173357557460722592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJS7Kp2B0VKo4RoGNb_i5RKR4.jpg"
       },
       {
         "id": "ChIJEY-vCBGa1ZERmdCOcDWYEII",
@@ -4230,7 +4429,8 @@
         "websiteUrl": "https://lns.com.ec/",
         "googleMapsUrl": "https://maps.google.com/?cid=9372158179847098521&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJEY-vCBGa1ZERmdCOcDWYEII.jpg"
       },
       {
         "id": "ChIJUbGmnxab1ZER8pdPgCpVJvo",
@@ -4251,7 +4451,8 @@
         "websiteUrl": "https://www.elmundodellibroec.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18025188199626676210&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:46:37.292Z",
-        "updatedAt": "2026-01-23T15:46:37.292Z"
+        "updatedAt": "2026-01-23T15:46:37.292Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/quito/ChIJUbGmnxab1ZER8pdPgCpVJvo.jpg"
       }
     ]
   },

@@ -24,7 +24,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ40YJVlsl5xQRxZV1IzPLa2w/photos/AcnlKN3rNfK7ll78RwmVXwlRY9ThSzxqUARKyflYoBPQjV63YxA6R_CySdYNHTsYO_d2quVE2UX9EygmKFpdxFwNZdShRk2rAHAlYY5e0uY5QAq0HcCyNgIwW3PEclKdm3eHWYGKSd_YF3qkCA5GAPtqkk92op2CGSaZ5GJLwH8KH5BBREtxsaqR1oKeNLVgXCo0_BmTpKQ2PR-rZ9Lu-uGXAXQvkzjjBgFNqXomrMt5RjwVbCPNvpNfqL_fdGWZZz1v84_dRQTpgTmEgGVOLIQMlo_nFjyyrgv9wfqH6WgwKWJ9HAJTKAMTYIZPrJA4KWZh5Hz7YOLpzzpr3rOO9G7LOGXBOHmKr-qfmpIbb7n9jUdE6WkxE2a_buPRjrd01nUK_6-F-8bVXnZu3tw7LvtOpc8ocCTZxgJbgNIzEykI0QE91DHGw71124Tf5ei5Fw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7812561399102936517&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ40YJVlsl5xQRxZV1IzPLa2w.jpg"
       },
       {
         "id": "ChIJmfftyb0z5xQRsHSDQpKfzf8",
@@ -45,7 +46,8 @@
         "websiteUrl": "https://www.paradoxmuseumlimassol.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18432564300427261104&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJmfftyb0z5xQRsHSDQpKfzf8.jpg"
       },
       {
         "id": "ChIJ3bwQER8y5xQRBBnrG5wiFHY",
@@ -66,7 +68,8 @@
         "websiteUrl": "http://www.cyprusmotormuseum.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=8508463649888344324&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ3bwQER8y5xQRBBnrG5wiFHY.jpg"
       },
       {
         "id": "ChIJnfidG25A5xQRPgupOU1-geo",
@@ -87,7 +90,8 @@
         "websiteUrl": "http://www.kiprguru.com/venetian-bridges",
         "googleMapsUrl": "https://maps.google.com/?cid=16897926147015772990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJnfidG25A5xQRPgupOU1-geo.jpg"
       },
       {
         "id": "ChIJS3bgNNoG5xQRQnwjgVPRLsg",
@@ -108,7 +112,8 @@
         "websiteUrl": "https://www.visitpafos.org.cy/a-proud-heritage/archaeological-sites",
         "googleMapsUrl": "https://maps.google.com/?cid=14424696813093354562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJS3bgNNoG5xQRQnwjgVPRLsg.jpg"
       },
       {
         "id": "ChIJ1fcRgx0u5xQRN2w6VGEyLHQ",
@@ -129,7 +134,8 @@
         "websiteUrl": "http://www.fasouriwaterpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8371121200981240887&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ1fcRgx0u5xQRN2w6VGEyLHQ.jpg"
       },
       {
         "id": "ChIJRVUwISgw5xQRVNSXg3BSYcI",
@@ -150,7 +156,8 @@
         "websiteUrl": "http://www.mcw.gov.cy/mcw/DA/DA.nsf/All/537B30FC35B4E157C2257199002F3E76?OpenDocument",
         "googleMapsUrl": "https://maps.google.com/?cid=14006566959296533588&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJRVUwISgw5xQRVNSXg3BSYcI.jpg"
       },
       {
         "id": "ChIJ57dGsrfL4BQR7cVwo9qGiRk",
@@ -171,7 +178,8 @@
         "websiteUrl": "http://www.mcw.gov.cy/mcw/DA/DA.nsf/All/D20ED526826AB796C225719B00374A92",
         "googleMapsUrl": "https://maps.google.com/?cid=1840150196360627693&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ57dGsrfL4BQR7cVwo9qGiRk.jpg"
       },
       {
         "id": "ChIJk4WTLL2C4BQRrUHX9dFHFIE",
@@ -192,7 +200,8 @@
         "websiteUrl": "http://www.culture.gov.cy/dmculture/DA/DA.nsf/All/6613643713C00AF9C22571990032F91F?OpenDocument",
         "googleMapsUrl": "https://maps.google.com/?cid=9301138097525178797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJk4WTLL2C4BQRrUHX9dFHFIE.jpg"
       },
       {
         "id": "ChIJGYgNcAIz5xQRZgxw5rlAj8I",
@@ -213,7 +222,8 @@
         "websiteUrl": "http://www.mcw.gov.cy/mcw/DA/DA.nsf/All/5A9D613873FBB2DFC22571990020A1C0",
         "googleMapsUrl": "https://maps.google.com/?cid=14019495332206873702&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJGYgNcAIz5xQRZgxw5rlAj8I.jpg"
       },
       {
         "id": "ChIJUZ-4JQMz5xQR_IJ79OnpTDg",
@@ -234,7 +244,8 @@
         "websiteUrl": "http://www.imlemesou.org/index.php/naoi-monastiria/churches-mitropolis",
         "googleMapsUrl": "https://maps.google.com/?cid=4056874555392361212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJUZ-4JQMz5xQR_IJ79OnpTDg.jpg"
       },
       {
         "id": "ChIJMcsOfAAl5xQRwQ8G8bnlkYM",
@@ -254,7 +265,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJMcsOfAAl5xQRwQ8G8bnlkYM/photos/AcnlKN3EXyUG-5UIVv-cvIOkrLqRgicZRngrhehv5FTabhCUSzfMY3DPab5z3DSXwrS7WkEy6Xt-56Ynz_0HYJQYeQ6qwOhCCUBzN8t6dbHgr2uUM-brheJChhZ3c_CpNaS6IVoHspoetkCJ92uJpPdu1AtoPPm_2qQQZQDd0AgbOQb2oQvmKvZYFOM9zzJB41hGTadk9WnMEuBKehYv51_vh4DX1km9oH3YNc2zbZ1peE0Oh1KtfQKe0s7vlL4f3IjiABakFJVClyTgiW35HXagDOnKasmac1fRfuM-K_5jvP8SwnK9o_I62F4zATvplYn1VAEVUg1ncFyEZSgxUOWfSzkW2DzbTWbiJb2ZfcRUvMR6fFPkH8vbO58sKdDG8azsVnuI06OT_ltYCWODy7-rw4hH7_yKy4-x1KZnHeOuf8YI7oIt/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9480611277367021505&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJMcsOfAAl5xQRwQ8G8bnlkYM.jpg"
       },
       {
         "id": "ChIJh6VkVkQl5xQRaLzBvhw4K9E",
@@ -275,7 +287,8 @@
         "websiteUrl": "http://www.mcw.gov.cy/da",
         "googleMapsUrl": "https://maps.google.com/?cid=15072202274036104296&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJh6VkVkQl5xQRaLzBvhw4K9E.jpg"
       },
       {
         "id": "ChIJZRcq7hUz5xQRFw2YjJzO6Qs",
@@ -296,7 +309,8 @@
         "websiteUrl": "http://limassolzoo.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=858444375759785239&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJZRcq7hUz5xQRFw2YjJzO6Qs.jpg"
       },
       {
         "id": "ChIJnVVityAz5xQRvHy1AumrFZk",
@@ -318,7 +332,8 @@
         "websiteUrl": "https://www.limassolagora.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11030911879575076028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJnVVityAz5xQRvHy1AumrFZk.jpg"
       },
       {
         "id": "ChIJaxi8TEEy5xQRoVzvvV1rL6U",
@@ -338,7 +353,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJaxi8TEEy5xQRoVzvvV1rL6U/photos/AcnlKN1zKsAzzncyXuTfdwqa2r6LwtGbLq12AVzU81opQyLVN8AtUi1xRo59RUejHdszeKJbmfY-huLJhFyZHIBLf70_n8JLS3yfw8Hu7RkY4yGkMXQCTX-XbAfLivwXfemvn4kFjPWQtkD-F96S-CN3Wyf_G8DbvFMljXblkolmC0N2i7dDaG7BTJ5ZqfKqiDGJk8G71aOE7n3s76UmcMsZJa6Skc0xv8NCF9uzb8CO2eTlM0wPGa1Jg2HSFHma1n7Wj-HH4g6EHZ46WqskT48iUMCnNR8cLy_ANfutO3dfsR_GOHu-LQgKA82LdV3RQhf8mKyDL08KJNYBtV-z5NBUkAWgvsJBezLdKj5a5eUcF4u7-_XKKOqhGYZPj0Wufi_H0NNy3m6yNbw5nKKAz4PEC-j-ozpV3AFS3aizFrzBvB8/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11902850390526221473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJaxi8TEEy5xQRoVzvvV1rL6U.jpg"
       },
       {
         "id": "ChIJG_1e52gz5xQRR6Bi84HGOn4",
@@ -358,7 +374,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJG_1e52gz5xQRR6Bi84HGOn4/photos/AcnlKN1bgAK9zpT7i2HHZhUuNcwG6tjlKlQi4jSEq4EsNnENQ3tTfRydslpbAVmO46zc2Wk9-0LJh1Xel2eSrhNRBPWTlVnd2vjw5MPhwe_uSCoJ6AKECJDUQScJUPR9mEvp-fxhdYCdHBx5jkUHJ7lvinl3UXDO_XkemOrI463Z_m5ml9CiZxwhGJktbj_b0CrtSjoeGeYhBK-eyk54j0er2orK6-19-uLYBsL4rLnxXLmfi9NOT10-mHkROYJMwiNi5G94WbTBVOo3EL3Tbs5uaV5XlOjzihgreTzeaggDgePxyB_obd4ISYjeO3lzFzBqe6Bt5r1zL_iYf5YtoRWvKr0wgaTTu7jLteMmSUmuuj_oeb7xOr3RzTsdCHm6DlV1JEtI-pHg7hDBTGqsk4STlVgb5OocSqP2xCubk_1D4hW5TQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9095800658864545863&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJG_1e52gz5xQRR6Bi84HGOn4.jpg"
       },
       {
         "id": "ChIJ9_PkuQ9N5xQRYPtQvSRSdCU",
@@ -378,7 +395,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ9_PkuQ9N5xQRYPtQvSRSdCU/photos/AcnlKN3oHwm25FJfNXSUIJ_YBlznLBiMVvAvt7IP5Fzd5sJTZFv-ooghnP9rglrZqNJvQT3t33xpivWFm9QQPylN0sNXGmjiV27azfbudwR_Z_rLrIaN7mSmKHEKwpmBL4o3qJEIJfBUKg01imKaSA0oy7nKj3YIF2MKB2lotN4fYCtzHT67kqU4nm6Q1q7_ZqjYoa_jHAy7tFhLJW2Z54aGgMBIWRDn5V4bedhcTlzu16jphb6Yf31ldjbcfoOh2_8W059qdiqB9Z4I0r4hdd6jUKggGJ0OueXbLDynXPLiHJE-bDH1BhAhvZWp0ttH4IHWYHDBf-3YMgjmaGvuGUGiMK8_K9b4tufCoYWWVYhtKFJTAhpiL26r6nZKsW3l-8gEYOIwpWT8bs-84UnurUYRDAY9VQUo113nzVqhu2KiFAMwPw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2698872394450271072&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ9_PkuQ9N5xQRYPtQvSRSdCU.jpg"
       },
       {
         "id": "ChIJv8mdCBUz5xQRrliBnh9QD9g",
@@ -399,7 +417,8 @@
         "websiteUrl": "http://www.mcw.gov.cy/da/da",
         "googleMapsUrl": "https://maps.google.com/?cid=15568750533576579246&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJv8mdCBUz5xQRrliBnh9QD9g.jpg"
       },
       {
         "id": "ChIJH-jOOrkz5xQR5Lz2tKIgPO0",
@@ -420,7 +439,8 @@
         "websiteUrl": "http://www.imlemesou.org/index.php/naoi-monastiria/churches-mitropolis",
         "googleMapsUrl": "https://maps.google.com/?cid=17094574168784420068&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJH-jOOrkz5xQR5Lz2tKIgPO0.jpg"
       },
       {
         "id": "ChIJZYDiEWUl5xQRflygPYqmC8Y",
@@ -441,7 +461,8 @@
         "websiteUrl": "http://www.mcw.gov.cy/da",
         "googleMapsUrl": "https://maps.google.com/?cid=14270682956923165822&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJZYDiEWUl5xQRflygPYqmC8Y.jpg"
       },
       {
         "id": "ChIJNwkALp0u5xQRkAHTzn4s3Og",
@@ -461,7 +482,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJNwkALp0u5xQRkAHTzn4s3Og/photos/AcnlKN1wdqo2TYDw12a2lxCc4GcyQ4tuN9u3YaikPPFBGO3RV-z__0-zT7KGesmRnEg7XAvtkR0lk8P2vs4D7Vb86JaYS4w5mI6n9dz1iBztj35b-V85Syp8IPY50HBs5a-zvwbj2FY_RhmW1vDbOwrDb3jDf4xSY_tASF3rdsruh2aOcew9Tdcy_-W82dfrH4tQI09emEvODnt20sk7tEw1sHfavN1v-byv7bHSl2EdYapnEhWXVMnOqfIJKWVjgKn2qWRqkbN0uRSng5_BcABOBzOO3Hp9bzuJJZpEEyWKgzvmiIL4qgB_K2Rue-xEU3OhUURub9g0RiPSMnNH7OeeqRTL1QM3Ykitj4-w2uokIQy0Q1V7kPT1faYCY0Bzn5iHh4YGkXF8R7uTXqw-ALUbdFzR2MX-zNpViSyIrdc5eDxsMQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16779335234823061904&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJNwkALp0u5xQRkAHTzn4s3Og.jpg"
       },
       {
         "id": "ChIJ01adZ1sl5xQR6GseciolJb4",
@@ -481,7 +503,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ01adZ1sl5xQR6GseciolJb4/photos/AcnlKN2mroYFG4U1hipNXIqFogl9TQjX_ErT86ZrD0rqAs352D2mhP2f8KG8oNcPx1XC5aeaG3nMO-VlucpfeLZHCW1YLURP4_Bg-cOsb30EhsyCvDn6C4ftTEZIVkXEEAOQkdkl9waAmoMhQZQdY-lYNo7wn4qJlmI-NGNBt_m-zE5acwGzzftZQJ4D7o5U5BHGe297GI8COL7VZp46NvQfPIwUCGIi1fbcVkzFQoBlrTnh7lxqy4mI5Mzu_lHQ5dIyhbCOX1kCPy2Bmk0Gt91Jq-C_AQoXQmfqCCHJXt_DCnqGEoALZs6QVoKW0kEG-nL84oLGzDTEfFlMYA9TFGuC3Z4MEtGT3tPrkqNDvXhcrJZogDmVY9Mc_ew5advtvcBMHAX2t-b2oYHLOjhwLE6eFSUgG-wG5sBiMIJMi0dZpiJM5CYR/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13701398305578052584&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ01adZ1sl5xQR6GseciolJb4.jpg"
       },
       {
         "id": "ChIJnUsGfOku5xQROXwAObkS7ug",
@@ -501,7 +524,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnUsGfOku5xQROXwAObkS7ug/photos/AcnlKN3gEhHwe4M1nSgomnKSqFGEW5kkakUISc5VE36jmdeA9x21iZ0s5ABkVZH2c79qusnXvD_YS3mqoYG4_cL5gZ_pwHoaYFkdv2QaDei7PGQKt8FtoPli0TVJDY3CitzGaHbGh02pcSfuxMaJ3nGQ8Wg558TsrZs8TnCtO1z5o0wXMUAl7MZ2IH7BTCKhVMFtisYl-HzZSlst9xhWCxLa0a4NZ9VeX6SP5UCvAQ9ofZ-Fu9nbitMs-caK0oDgnMKoBot9-Gj0wXx7sMKcCBjmXa0cAXZxWVRMMuv_Dn83VSgx3Vbm7EjmF0Hcqy0VXSKUpJ3ZyVPzPnNrcYzW-02pbo8ies3CxoJgE94oLThwbA8xt6VuxHHE6C9uYNEulgt6S4_oRTF2kMVgWu3MUq_p0Y_hKsU6o4LTUGM4kzDKQVJEDQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16784373447991000121&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJnUsGfOku5xQROXwAObkS7ug.jpg"
       },
       {
         "id": "ChIJm0k70fgv5xQRs1K5UmNhDp4",
@@ -522,7 +546,8 @@
         "websiteUrl": "http://www.mcw.gov.cy/mcw/DA/DA.nsf/All/21E14D80F55D8539C22571990020DC5C",
         "googleMapsUrl": "https://maps.google.com/?cid=11389147586884096691&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJm0k70fgv5xQRs1K5UmNhDp4.jpg"
       },
       {
         "id": "ChIJbUeRNrHL4BQRZfJmn_WW0u8",
@@ -542,7 +567,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbUeRNrHL4BQRZfJmn_WW0u8/photos/AcnlKN1inSTRfAIlTB_b0HutZFjRxJMgLdPEUK4EYAmop2jjYUcejNgYkwQPy7tA0mUxQN5S1BdyV4dHCOAISubpXQj9GyCV9-CFDmZlTw6TGAuY_6_dwcsosEhjEFpQejoEenjaEIyqgzXVX7jLN60Dv-qVRQOqB1vaC0YN44-4xWqG27VVT4TMpSPKcVXGCdrOUM7dP1yZC5GmiRNOEtnGdlM7d9eMrDqlvmh1fnp4V2FHt6IIAOUnH9lD2TRdkOX31oxK_qBkWcqfaYnxglfrXgyR5CPbcl-mTK7Ru2-cWydHygawncqA1OGjh91gsHkwxw7Avnm7ugK7XkHq6PlO1nTEYvC4wfBWn-zYUkAlfDJLqJpNB4P86KMG3tMBHdJEH7hz8oZGVCkDqpvR9nkhmsUIgbVs-8sKMSzB9iTc1Ei_LQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17281040701859492453&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJbUeRNrHL4BQRZfJmn_WW0u8.jpg"
       },
       {
         "id": "ChIJhUhxPBEz5xQRNQGJUuUhZEg",
@@ -563,7 +589,8 @@
         "websiteUrl": "http://www.cyprustheatremuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5216331537217814837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJhUhxPBEz5xQRNQGJUuUhZEg.jpg"
       },
       {
         "id": "ChIJXfJZ2zkz5xQRYxhAISFCh9M",
@@ -583,7 +610,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJXfJZ2zkz5xQRYxhAISFCh9M/photos/AcnlKN1ivetKd0xoUzcJmP_mambKoo81g-NI5nQfVi8ZSEt-YyzJqz2_bq7HsqTCLulyV3nv2MkhIusqfzRrOtY9LvMHFiZvz6tyFlUo3YhJr_eQXtWwiQK1ybLP3aL-J9x4TJ0cq4oGS3BSS5YSOpl1kVU4SA6X0TbDXWx4WT_Zh8-k8kc863pZWCUWmIvnN-KNX4y2f7-dxkX0mdMjIf3z58mV_AqmQM59EXuZv3AKj2z1YPG9fWeCpQ2dOVXJIY6NiH-ORXbLpRBVF5_oxqq78fFT6bdH69ShmuPjm2pdCFoYlQx0Gir-JvDHkjf4aaCQS00V83_u3txQ7jn8BlHdNy6ov_xCh4PLmIjsTjDSdu2Ut3IgRfzkzuh1UF6mrZlVuAFXfcsbNVFa7mQAEe_1kkOxpkav_vmSGQGiYtittg2pATXXXYAsF95wy5kdgazn/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15242224173917935715&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJXfJZ2zkz5xQRYxhAISFCh9M.jpg"
       },
       {
         "id": "ChIJy3wqzWoz5xQRdyrz758cwlc",
@@ -604,7 +632,8 @@
         "websiteUrl": "https://www.limassolmunicipal.com.cy/en/istoriko-arxeio-kentro-meleton",
         "googleMapsUrl": "https://maps.google.com/?cid=6323648300032666231&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJy3wqzWoz5xQRdyrz758cwlc.jpg"
       },
       {
         "id": "ChIJqdeaNe0l5xQRHXu1L6k8bLQ",
@@ -625,7 +654,8 @@
         "websiteUrl": "http://www.mcw.gov.cy/da",
         "googleMapsUrl": "https://maps.google.com/?cid=13000832921659341597&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:07.172Z",
-        "updatedAt": "2026-01-23T15:36:07.172Z"
+        "updatedAt": "2026-01-23T15:36:07.172Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJqdeaNe0l5xQRHXu1L6k8bLQ.jpg"
       }
     ],
     "foodie": [
@@ -648,7 +678,8 @@
         "websiteUrl": "https://www.cityofdreamsmed.com.cy/en/dine/primesteakhouse",
         "googleMapsUrl": "https://maps.google.com/?cid=6110088750829552300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJj6bSKlgt5xQRrEJOo1hly1Q.jpg"
       },
       {
         "id": "ChIJK8ZayW8t5xQReGDKUOPWElk",
@@ -669,7 +700,8 @@
         "websiteUrl": "https://www.cityofdreamsmed.com.cy/en/dine/amberdragon",
         "googleMapsUrl": "https://maps.google.com/?cid=6418428690757738616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJK8ZayW8t5xQReGDKUOPWElk.jpg"
       },
       {
         "id": "ChIJW8ZzfNYt5xQRAX9hm8TKz14",
@@ -690,7 +722,8 @@
         "websiteUrl": "https://www.cityofdreamsmed.com.cy/en/dine/anais",
         "googleMapsUrl": "https://maps.google.com/?cid=6831902105513590529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJW8ZzfNYt5xQRAX9hm8TKz14.jpg"
       },
       {
         "id": "ChIJ9eIcDBsz5xQR0UyVk2djSuc",
@@ -712,7 +745,8 @@
         "websiteUrl": "http://www.mezetaverna.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16666242667546758353&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ9eIcDBsz5xQR0UyVk2djSuc.png"
       },
       {
         "id": "ChIJuzcFlggc5xQRakCv_d5sogg",
@@ -733,7 +767,8 @@
         "websiteUrl": "https://www.amathuslimassol.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=622179403525210218&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJuzcFlggc5xQRakCv_d5sogg.jpg"
       },
       {
         "id": "ChIJq5ppJwQz5xQRB270VCoua7k",
@@ -755,7 +790,8 @@
         "websiteUrl": "http://www.dionysusmansion.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13360823478873517575&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJq5ppJwQz5xQRB270VCoua7k.jpg"
       },
       {
         "id": "ChIJSVXzYAIz5xQRAU7Ldru4EP8",
@@ -776,7 +812,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJSVXzYAIz5xQRAU7Ldru4EP8/photos/AcnlKN3VeAjTTAJMtbs-AuXfeWgGgW-H1xj0OUlsraPutLw_pjzWIw7NzjJby0D1oA5S_ZK6rXuCu154-CjfXeBU4-uzXIP31joV_7UnqSjRQjfPt-hejM-Bi68mGwCk6kcTCACw-CdEWqeYxIb6agxHXK7U3Y21bgD7pX720CfowJHWCOaBW7KkBQD3Lt7hfm2SwfWJ9V14S9bNV3pRPsclp4ZGWlg_6lOuuEgE2NmG2752nn-molMr4-pmhVssWfuc5y4IhzR9Hsr3kPjsQp4mnjKaU8CLpVYRuSLMDL4gaB2nQw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=18379393194590424577&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJSVXzYAIz5xQRAU7Ldru4EP8.jpg"
       },
       {
         "id": "ChIJl7BYA0Ut5xQR_rOq27sQD6Q",
@@ -797,7 +834,8 @@
         "websiteUrl": "https://www.cityofdreamsmed.com.cy/en/dine/centrestage",
         "googleMapsUrl": "https://maps.google.com/?cid=11821685945901167614&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJl7BYA0Ut5xQR_rOq27sQD6Q.jpg"
       },
       {
         "id": "ChIJ41aAil3K4BQR7Svy5RYxklU",
@@ -818,7 +856,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ41aAil3K4BQR7Svy5RYxklU/photos/AcnlKN1mU51yY1I3OygrNEm3oxZvyKQsQYGK_-cAiDqgnoMig11OphmeSuJ5CHf_gFhkbV5jPFZJE7BZvhAs87x84VSQInSQv8hVRYDbfgjY9TJgipt_CqGexefW4wwxNRDyb7S1OfYOYjv1PatXHQ6dxyb6KQ_rOlBIJ9LUy_0F0AIiGBwBFRreNIj4x3SYc4_yJWNURJgcZVnGCejNBCCQsF7k6LJOk2ciznQ3HiaVwuWYguI1WgOVFQJbs-65SExTiYo262G3sIHYB4PryrMw5F22QZA1TNkkwFr2pGtATRQxGQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6166044814240525293&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ41aAil3K4BQR7Svy5RYxklU.jpg"
       },
       {
         "id": "ChIJM2kQjE4z5xQRF82GRYadikQ",
@@ -840,7 +879,8 @@
         "websiteUrl": "http://www.columbia-beach.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4938933141382810903&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJM2kQjE4z5xQRF82GRYadikQ.jpg"
       },
       {
         "id": "ChIJibWWMAQz5xQRKcw-gn-yjFw",
@@ -862,7 +902,8 @@
         "websiteUrl": "https://caffenero.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6668901408944606249&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJibWWMAQz5xQRKcw-gn-yjFw.jpg"
       },
       {
         "id": "ChIJ3SXsw9TL4BQR12Vi_DCRErk",
@@ -884,7 +925,8 @@
         "websiteUrl": "https://malindi.eu/",
         "googleMapsUrl": "https://maps.google.com/?cid=13335881086176224727&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ3SXsw9TL4BQR12Vi_DCRErk.jpg"
       },
       {
         "id": "ChIJAa4xBogz5xQROUYbLV-KWQ4",
@@ -904,7 +946,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJAa4xBogz5xQROUYbLV-KWQ4/photos/AcnlKN0BS7MueeROcoADCn0Fy9qg2KUOlx9P8Wp-d9R1gZvQ69srEmQLGRM8gbvVIy6jNG84vfaEf8xS6cy_p0z1707eqXor83oUpCjrviNie1FvMueEvy6k-ex9QiO0UXw2ow-m2hOeIpxIVOCn05yjBovX2DVZJA3nJ1PgTP5D-4U41iJH7KQiValLHOCR8QRSh8iMybI8i8vPCrimJpDqn8eDAb2-gBQlHZAAKDfXsxPQExyiSGD72YR35QDT21k6aWj8uO0hVVOLOcKcH_fr6CQrGY4RRxWoYDY8_UpcQU3QZA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1034009730841527865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJAa4xBogz5xQROUYbLV-KWQ4.jpg"
       },
       {
         "id": "ChIJnVVityAz5xQRvHy1AumrFZk",
@@ -926,7 +969,8 @@
         "websiteUrl": "https://www.limassolagora.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11030911879575076028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJnVVityAz5xQRvHy1AumrFZk.jpg"
       },
       {
         "id": "ChIJ93XMxFPL4BQRhtdf7xlyZIc",
@@ -948,7 +992,8 @@
         "websiteUrl": "http://www.zorbas.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=9756048148507121542&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ93XMxFPL4BQRhtdf7xlyZIc.jpg"
       },
       {
         "id": "ChIJl0E_fW4z5xQRV3oNnRq1s8E",
@@ -969,7 +1014,8 @@
         "websiteUrl": "http://www.aliadacy.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13957698796059982423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJl0E_fW4z5xQRV3oNnRq1s8E.jpg"
       },
       {
         "id": "ChIJaWe7ozQz5xQRUKPzaPpiOCk",
@@ -991,7 +1037,8 @@
         "websiteUrl": "http://www.nomadbread.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2970232781892985680&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJaWe7ozQz5xQRUKPzaPpiOCk.jpg"
       },
       {
         "id": "ChIJEY-Nnxwz5xQRptn4sJVrQW0",
@@ -1012,7 +1059,8 @@
         "websiteUrl": "http://www.theshopkeeperandco.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7872691914283735462&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJEY-Nnxwz5xQRptn4sJVrQW0.png"
       },
       {
         "id": "ChIJNWZr5tMz5xQRxaPFiIbvHJQ",
@@ -1033,7 +1081,8 @@
         "websiteUrl": "https://www.sifood.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=10672668578060542917&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJNWZr5tMz5xQRxaPFiIbvHJQ.jpg"
       },
       {
         "id": "ChIJdVbJnEAz5xQRW4jDIQN-nJQ",
@@ -1054,7 +1103,8 @@
         "websiteUrl": "https://www.instagram.com/astry_bistro/",
         "googleMapsUrl": "https://maps.google.com/?cid=10708572565896661083&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJdVbJnEAz5xQRW4jDIQN-nJQ.jpg"
       },
       {
         "id": "ChIJGZxh9poz5xQRF-bSPse3NN8",
@@ -1075,7 +1125,8 @@
         "websiteUrl": "https://brodartisan.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16083682235627267607&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJGZxh9poz5xQRF-bSPse3NN8.jpg"
       },
       {
         "id": "ChIJD9eSovjL4BQRH06tPeZARns",
@@ -1096,7 +1147,8 @@
         "websiteUrl": "https://wolt.com/en/cyp/limassol/restaurant/nomad-bread-coffee-germasogeia",
         "googleMapsUrl": "https://maps.google.com/?cid=8882858672656305695&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJD9eSovjL4BQRH06tPeZARns.jpg"
       },
       {
         "id": "ChIJQe38LdIz5xQR8iT0WWNTcDc",
@@ -1117,7 +1169,8 @@
         "websiteUrl": "https://www.nomadbread.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3994784555653670130&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJQe38LdIz5xQR8iT0WWNTcDc.jpg"
       },
       {
         "id": "ChIJ86ovUqgz5xQRK5w_dkaH5Fs",
@@ -1139,7 +1192,8 @@
         "websiteUrl": "https://www.zorbas.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=6621566088842812459&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ86ovUqgz5xQRK5w_dkaH5Fs.jpg"
       },
       {
         "id": "ChIJz-37tFDL4BQRDkD1m33Vv40",
@@ -1160,7 +1214,8 @@
         "websiteUrl": "https://www.instagram.com/toyconfectionery_bypunin/",
         "googleMapsUrl": "https://maps.google.com/?cid=10214117215363743758&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJz-37tFDL4BQRDkD1m33Vv40.jpg"
       },
       {
         "id": "ChIJpVg40G8z5xQR5PoA5ni3tgc",
@@ -1181,7 +1236,8 @@
         "websiteUrl": "https://www.facebook.com/lagaleriebygalacticapatisserie/",
         "googleMapsUrl": "https://maps.google.com/?cid=555833333909617380&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:08.319Z",
-        "updatedAt": "2026-01-23T15:36:08.319Z"
+        "updatedAt": "2026-01-23T15:36:08.319Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJpVg40G8z5xQR5PoA5ni3tgc.jpg"
       }
     ],
     "adventure": [
@@ -1203,7 +1259,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJg4lReRsz5xQRr7D4pVLdQgM/photos/AcnlKN3a9PmtqUdrl4y2Vl_VTk8t5Cb8uBYorCNAAvWXYGI_xnFCXLRDj02gMHTEhCOzcWztu4h8RKcAnHN1cLvmgSnWZuqH0atacz_DWRN5ZNaDI5bBPeKWIgA9BhNtQByM1We1j0o-eJZRLMVjFO_AyMT7wXSFr2BQvYGw2nknGWmDdkPBYWGgXD_P0FNM6kJB8S1H0690ZdveQa2X36kPncruiqatH9RPaIFQzu1h6tKUVcWVv_tpm6vVLnc3H4iMe674D47WSSNbsjzhMhPDhctFGy0t1AoVYO70C2wO43QUZDOD1oragu51Ho5kPS6lbY0iLLWZWUn74vnKc2KUlfGQXLQd630bEirQ0Labo3Drn2GAOkp-N86MRXXTR_kzPn5JrYnLEnDiZQAkgPYLynz15ToCfemR6GEtmorufKk/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=234993477618282671&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.562Z",
-        "updatedAt": "2026-01-23T15:36:09.562Z"
+        "updatedAt": "2026-01-23T15:36:09.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJg4lReRsz5xQRr7D4pVLdQgM.jpg"
       },
       {
         "id": "ChIJw8vr5azM4BQRVzz6w4zNVq0",
@@ -1223,7 +1280,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJw8vr5azM4BQRVzz6w4zNVq0/photos/AcnlKN0Uevd8Av0K2nfGGjRdPfhcfsvxAuss1bpHPBIgD_57LgrP_y8fRSol0wpbcMu7a1XPlkxeIgA3ctJ6FeZFAgQx-2aYat1QSsNSkxSoNxTBAVcZRmOR6da0CDpxVlX7SLnynWbAcbv2TUke-SRtKOx8vR_ipCw4nJ087uy_dh-mLKfHU8On7vQaaaWIPrKh-MNPJ19_onqqUAyA8Sil8MwXUNwPSUUr-7lp3v9OYSDrQP-vkR4DNzFbcc8lsD1-61LDZIasePShGXJvPHetIstlwmfzMFYaCMvEkaZDRauJgMak2ISKlh6Q13uxcFQ3pZMNYDVU08t6pr6gcxuuuXKsn8pzhqqRjvOC0AJyBqKtLHcM-e8cCuZEAHKdteUMNQLWbJk0LhdDQxMOoRo1gb_FsSDZqDkCGVPzgCtO_yI/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12490396621025721431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.562Z",
-        "updatedAt": "2026-01-23T15:36:09.562Z"
+        "updatedAt": "2026-01-23T15:36:09.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJw8vr5azM4BQRVzz6w4zNVq0.jpg"
       },
       {
         "id": "ChIJfa5N_aQG5xQRvRkOx5BWLlg",
@@ -1243,7 +1301,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJfa5N_aQG5xQRvRkOx5BWLlg/photos/AcnlKN2Hgw6EFH9VJ5ZwVb2NCvka1730HEeyaFzA0KUu7ZvJgBwu1S2TldUn7VfZs7OXWhXBHa7aR9Xl-meB3-tNgV-eBZyucrQ0NYrAxK7SIlNhiGxpN1-lY6h0KbxoGrftuGgut9JpNCdxy0SKcjytpkFqvOwBEf76NZ7jKJeJ4auM_leuoZu9rBskJ6vjSlE5ekbZNJ-T9bYbihQuvW4B7TT5aF4eUyoB7DW0oJUh83Aq5YsdY1AVgTN-4PDaF_IsWRTjaJ1HFhGB1g3VCy0qwGDgdRs0dDrDQvonyXDYZBjEAA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6354111304081217981&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:09.562Z",
-        "updatedAt": "2026-01-23T15:36:09.562Z"
+        "updatedAt": "2026-01-23T15:36:09.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJfa5N_aQG5xQRvRkOx5BWLlg.jpg"
       },
       {
         "id": "ChIJVfUUxRUz5xQRr7sa4qonT8w",
@@ -1264,7 +1323,8 @@
         "websiteUrl": "http://www.limassolmunicipal.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=14722029321788767151&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.562Z",
-        "updatedAt": "2026-01-23T15:36:09.562Z"
+        "updatedAt": "2026-01-23T15:36:09.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJVfUUxRUz5xQRr7sa4qonT8w.jpg"
       },
       {
         "id": "ChIJaYDblna34BQRzxnkdaUUAjI",
@@ -1285,7 +1345,8 @@
         "websiteUrl": "http://www.sayiousadventurepark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3603465352729860559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:09.562Z",
-        "updatedAt": "2026-01-23T15:36:09.562Z"
+        "updatedAt": "2026-01-23T15:36:09.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJaYDblna34BQRzxnkdaUUAjI.jpg"
       },
       {
         "id": "ChIJbdTeg6gX3hQRhbMh8q_Y-Mw",
@@ -1306,7 +1367,8 @@
         "websiteUrl": "https://machairasadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14769793228154712965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:09.562Z",
-        "updatedAt": "2026-01-23T15:36:09.562Z"
+        "updatedAt": "2026-01-23T15:36:09.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJbdTeg6gX3hQRhbMh8q_Y-Mw.jpg"
       },
       {
         "id": "ChIJTxFBNTsz5xQR5Ztvzd8cXkY",
@@ -1327,7 +1389,8 @@
         "websiteUrl": "http://www.peakworldadventures.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5070521978015685605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:09.562Z",
-        "updatedAt": "2026-01-23T15:36:09.562Z"
+        "updatedAt": "2026-01-23T15:36:09.562Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJTxFBNTsz5xQR5Ztvzd8cXkY.jpg"
       },
       {
         "id": "ChIJIXIFa2bL4BQRXyWxd78jS5M",
@@ -1347,7 +1410,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJIXIFa2bL4BQRXyWxd78jS5M/photos/AcnlKN1mX71kWIh6_iacqPydtyrUTxu4Xv8SP1ZVH7WpNBUouKfz5e5ivrpF-lS2xY6tdk44jY7NG_kmNvToDht3lrz3m2tBPYV5j_W5MyJmqITwwPF10eHrZ_Qy2sdWglRw43ZDNrriuU4P9kCPsu3m5w3zUm0NN1N2yPkSIkhnWAFJJouZijSZ1pHbmJLidcXMYd1DlZFe_ZryLTqgSb-BvSgbpmyNHzDAXyhSxBNUpd1d31jWT_yNZLUewBXEfEya41ouLNKSFr56f5sMuZjPFbUhpxfkTrPQjAuBtzINS3Xxrxmw19d8jhcbkJNaI4DktMtB1Wb_7P1-aNHGzbQbWyAxa3X4f4qz7BCjO6M1zdkGAZ5HtUQ4wrNxAfJ6nCgILIpaKFk9ba_Rctc0OFbnQG1AKWdcxofyDkbrRyN7jkANbw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10613616252082529631&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJIXIFa2bL4BQRXyWxd78jS5M.jpg"
       },
       {
         "id": "ChIJb6ocLePL4BQRmdlJ8eBSGjE",
@@ -1367,7 +1431,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJb6ocLePL4BQRmdlJ8eBSGjE/photos/AcnlKN055DMOgcJ700ZZmlauISZO4y1DsyoofAmZPwkNo2yWWTdgw0PE7v1o6LMULb0lbal1rYsE4oBCG3-60lXUcU_S6ei63AE_M2O5ilk4d8HId20-Q69GQZBs2AgKjX92qIHNcIg_e0T6BDx7RZVv6xWjNAlbQsFJSqr6OaCKc_nRDLZFvgccQJleA4oATue4lQEw5C9WeK9udjBb0IkW4Wj100ThkiPe-7-7KcAxQaJghnehkPseAty2rFkDYG7MEqAnFI00uhHLBr-2umb6YZjGCuoVoL4Ip6kVIffTl-YfLa7tzsVXv3Xd6ARLUzcQ9-7cwPYOkOP1c7UHXYYLtuKp2ETZccfKJmIKbJhde-Ldq4YL93fkNK7rVBcsjqsZ-d5AlimkeaRY5RtIMUtjh42FNrObimJfCR-Rd2gJU_WjxxHD/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3538231583327246745&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJb6ocLePL4BQRmdlJ8eBSGjE.jpg"
       },
       {
         "id": "ChIJj1a8Ozgt5xQRpx6PjKJ5PNc",
@@ -1388,7 +1453,8 @@
         "websiteUrl": "https://www.cityofdreamsmed.com.cy/en/enjoy/adventure-park",
         "googleMapsUrl": "https://maps.google.com/?cid=15509404955806998183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJj1a8Ozgt5xQRpx6PjKJ5PNc.jpg"
       },
       {
         "id": "ChIJ30LtRg9F5xQRlMgqlIMIj0U",
@@ -1408,7 +1474,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ30LtRg9F5xQRlMgqlIMIj0U/photos/AcnlKN3gzeWw7EzmOVdwjxFyGYzu0oLx9g_xpkDgtnkcPNerjcRnuajaUfOPpGLW1lNNYFIyShNnq4EwAIW468F2dTfFGlbuhQc7uWwatb-xtKJO3fUifEB9DkkaI3Co80IhorqTAkiGUdVTbGIYgnANSfLRRTtEOENU883Hn-7rnj14wqNOmcggVSFNjdvjoD-msbfI3dW8HniI_9E3my3Z42T28rAHb4fOYVjdEoItRm2YOCSVdNGk2i10Lvatfdcvw6zznkqw0jUFgBgS3WFAbJVkdPbrVBtQ_sUME6COtWCfmw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=5012234271506221204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ30LtRg9F5xQRlMgqlIMIj0U.jpg"
       },
       {
         "id": "ChIJeYQx-KO14BQRLxzxpL3q9ck",
@@ -1428,7 +1495,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJeYQx-KO14BQRLxzxpL3q9ck/photos/AcnlKN0Sw6H4GljGPOB06pKVnNXrVeJKy2n4oImHTHgOxY4-Zh4PIcPYoe57ZrsT5UT7XL_blM9_A-cV3JofLyJtBDHFaxJRB5b6YxfYv1KeMYN1r-FJgmuHwwXpG4wXY9qGG4SOr--9FcJtvMOV1tFUVoINFhwyViceKVyES4tfppl3YPLXSTxOnsP6s0_akAG2SXsekwt184cFboE_tG5gdbXzzWMN0oXlBYgvDC12RBa3DIPrAou1eh9FkZ2okOrx44wr2z-hHG8lgw_pNOskrXurB3aelwa_HTNt_9gC9tp3BdzkK6zJbwYklhLnsXQvZ2qefjQNCP-bpokZRJeHCLubnkQxNyJmm7sYv8MF16hx_ylq3QA4qs9cR9E4hBNo_F5x1e-X-YbEMdHO7moWdm-e8uJ2ZA77gyqKnDzRn8xbDQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14552795871154609199&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJeYQx-KO14BQRLxzxpL3q9ck.jpg"
       },
       {
         "id": "ChIJzwSZ-EzL4BQRoIaCdfyC4NI",
@@ -1448,7 +1516,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJzwSZ-EzL4BQRoIaCdfyC4NI/photos/AcnlKN2Xbg5HnTuEXxwfhvGb6t9qvdKutWs-4cLMAnRyJIxbRSzs90dZxvwDi6-LiutCBuMIVg8euocbD8z3J1eLHoM9pY0kpoYLoU0y2MsM4HxOpgl3DS8m0qNfkZl02Y8nrnbvCQHDHUq-fJSgQwUoq7MTfmqbAaIR7jo260HMDhrouFD3uxS5sgiJjPYDc-_EqX6wXdkWfSFDwtzOqT9CUpa28kXoXEOJMcrET9oAjuM1YFYUvpref7h_hbpGcvN29JxIqiHFKi177MfVHtEVLCiOPs4l_QrwHyegAr4eJMYm-7q3lleCNfos4k4mK8v-2anVWMdGSMk36olI_7waN9Aeq4ZacXWIFZM3Lh5jhR0C_3WLQ5M8YilwGJ5tWoZNAZU7L0zdwxL-Q8HUmZbNqvYp4ZrQBfa_o5ptjXVcDDo/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=15195289163562911392&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJzwSZ-EzL4BQRoIaCdfyC4NI.jpg"
       },
       {
         "id": "ChIJfxHnAT9O5xQRmnj8jptV6kw",
@@ -1469,7 +1538,8 @@
         "websiteUrl": "http://www.adventuremountainpark.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5542336418040019098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJfxHnAT9O5xQRmnj8jptV6kw.jpg"
       },
       {
         "id": "ChIJYWNaQNrJ4BQRIEmwAQL6yDs",
@@ -1490,7 +1560,8 @@
         "websiteUrl": "https://instagram.com/meadow.paradise",
         "googleMapsUrl": "https://maps.google.com/?cid=4307967930105088288&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJYWNaQNrJ4BQRIEmwAQL6yDs.jpg"
       },
       {
         "id": "ChIJ8fCwsdkx5xQR5ahBAj0nzDo",
@@ -1510,7 +1581,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8fCwsdkx5xQR5ahBAj0nzDo/photos/AcnlKN3uglhy_EtB-HmiQzU_rWHIJdoQIUACv49zqeInt-tfh3BEE40T43zdNo3xiFkDy--NZwgVf-XfkXOaC261IICqTf0ItMJFU12HNB2xo5N8eUTd64rTi-uk7c_INyzb9IKe0vo9L4DkvI1BzbgUYFR79qYN4dAstLVcYqLeBFbWYX-P-b7PBLSjPIfs9isCWeeMIpoJdNkc5C0BdyfbptzEYL2ZbJ2yJ_tS_LBPlOXgcR72APcQQhJBVFViRJ6qZgk63sXup_tqEE5vflhtD6LYU_5v0Pv-x1mRpIDdKtE8IQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4236804492433139941&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ8fCwsdkx5xQR5ahBAj0nzDo.jpg"
       },
       {
         "id": "ChIJFWzw_Wwn3hQRSkGLqQ4Zksc",
@@ -1531,7 +1603,8 @@
         "websiteUrl": "http://www.battlefieldlivecy.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=14380584110912127306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJFWzw_Wwn3hQRSkGLqQ4Zksc.jpg"
       },
       {
         "id": "ChIJ8a8fG0Q15xQRpTv7C6opfbM",
@@ -1551,7 +1624,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8a8fG0Q15xQRpTv7C6opfbM/photos/AcnlKN20QOLnldu23yU97eVfGK17D6aFEvhqR95AKS__tq1ulNYh05TxIAuXMNhc3aD65XnkS_i8J07wv5k5f3tnIhEpmWLx7pedhMmBjzFVhu9gYRm919MYAbVzAJtMwQGjppQEXTj2rxwx1JTmkmUjmWF7KJn_RV7xLjzdPphGoXvYqqgmoaDlz8uogy8RL98e0DvCiS-FwXy87qO7F5fj6RtE33qH32HRdIflksShXs8oHKPh1SkEpS9nQX2pnUPi70gXLVwV7biMQstKtmnFiLISPbU2fQS2e-IX1hIC5nV12jS0yu1z1xCjWEHPtIBwX8rFEWYE0MMK1sA-UTK2ZT1TGMoG-Z2nQXWB0i3gmNpbXwyLBjzOvrd1DNYt8hXUqiDsTR6Ufk2s-nFEesfygEZt3IoasNaaKqLm8YmBJp3jFbE/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12933539515200125861&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ8a8fG0Q15xQRpTv7C6opfbM.jpg"
       },
       {
         "id": "ChIJnZ2znben5xQRn5yXTgw1z24",
@@ -1572,7 +1646,8 @@
         "websiteUrl": "https://www.seaadventureactivities.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7984658991325617311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJnZ2znben5xQRn5yXTgw1z24.jpg"
       },
       {
         "id": "ChIJbdbEYN4z5xQRen0nNvJtQ3s",
@@ -1592,7 +1667,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbdbEYN4z5xQRen0nNvJtQ3s/photos/AcnlKN3Qhm1r1uCKU3gOyPHBZrVJrg9g8yRdhtl8Ttr7N4Al8b5x7j4QqP_Wmd13EIRXSPUnbmT6Z57LmgEmOn5Rbe9gbMjlAATsLXXyWre20Z_Fa9_PzYsrAeyr2D2Lg5p19C49nSHF2JdB4lZRQgx0xk8kifG7X8wKaz4ITKy8U-0x_g7PHpMoNwSfbSZCz77AO-FFUaeSmESngRueIws11Utjsfi01o_UBr3Js9e_VmVBMjUdJEUpiXuR4VrZ5ubWBDY8sSOZrT4x6NhHrJE9a1LCZ1JpU7NLS6UtjAtarZkPhIckzIFD5YeLGuWf4aEFGNirCaen903iqJCNtq-ejTfqXpoIfp6m0FAob1jboXoU0UHc4RyWSd4EUR6jtp6BWgVaXlujBolwT3BceqLN8L60yVZxBix6jrjcOOihxqAM4Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8882063777162820986&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJbdbEYN4z5xQRen0nNvJtQ3s.jpg"
       },
       {
         "id": "ChIJB9TR2lMv5xQR0Twp1hjcgcI",
@@ -1612,7 +1688,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJB9TR2lMv5xQR0Twp1hjcgcI/photos/AcnlKN1bJ-4QKsfLeXdl8s4LpGvoYvcU7MKpH8lb8JLNBtf-TzsMIIVqaeQ4fwnuEYKQ1F0NRGCbaX2a9CbGThk91VZ2HhjJPRn7o5D5i_g1uk-ql-C7x8J3evraOAmHO7H3JE1RScRwMXzFhvMa_6-dvA0lwV4eqQ7kCohCl6puxoCqVG2jF9s4IJWBCVrBoer61p3TJye7EQj8JLfW61jSNKB55BqRtKTDMRp_ssiH1Loao1D3rfIN3DCKkrgWfQaAVvvO9VNSnlkogTYZR59aYEj2iEJyBosICCLVgW6WBqucArZS6lkHgu1VqtlxjDoTGgL3dLCHFAChz_tY7lNFichoU72uQCrw2qRQwwiIYNNKaC-NCkiRC1R8Rnh5Wm9M3InUQ4kK1uaMBi_qY4Cdr9fqTuGnx8YI7NaP3lLwIsxIjA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14015725514584046801&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJB9TR2lMv5xQR0Twp1hjcgcI.jpg"
       },
       {
         "id": "ChIJ6wZfhMfK4BQR5RpRuOosfI8",
@@ -1632,7 +1709,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ6wZfhMfK4BQR5RpRuOosfI8/photos/AcnlKN3uaDsPj4orn533g2ithivp8U5WhFy7vZvrxozcVMdkMbqE3wzAoSM28yQ0yg_2GOwNckWREj8JT2AC5fAO2ck7_q-dOTBlFiIXpYxYfeRzkGti1NOvaB8aYi-fnP3s_1sNgPSenl8CfsVSx4D6iOsUTXH3UYGH2Z9JReBJAzaUlUa6kbn1hwccF3aFXrOWaQGsd1XZBf_Dpv75_Nl7Y7V4pzdpjBGpjDj5n-FY_D1pnuw9BqqjFb-jaNd4xcghY1jxhauyhAK1IkvONp1IA1G0UAxAGLllgW0TrJuq_nEsFvyRdleae2V4nvVnFnYNQ9TO7q3Yr3ydpmsRG5agxiUSqZshavLkHL8XA6DhVOi0mgLSNz3wirA8N8BRA4Xm6k25_IEGixKHrqZlgkJgUiL3McoMgTudDc56S-ePC28/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=10339188231162108645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ6wZfhMfK4BQR5RpRuOosfI8.jpg"
       },
       {
         "id": "ChIJ0XjOwosz5xQRUDS7wqa6wC8",
@@ -1652,7 +1730,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0XjOwosz5xQRUDS7wqa6wC8/photos/AcnlKN01Q4S5Xllxm1W8P4Z2OiU9l6KRJewVnimI6zSEy_hendb6tt30oxjyhVnchX5U-niVwDkCr5V4Cmg6uxXlsVs5y19Ezbb6aJrX2dz5fegtjPIDH0Aj7BFSYdL-Lda8_WEERkuxMzVca4q068n9FrcBB3eazaA5jw6CQn3_Kb_WNcT12Iwo03iZWhCcZ-4Oln9e3XXv2hRjgceDJMqZpoWsEdj9mu5_dB2jseIk2WnRogEPOJGVzwjgvW1_UQQ5mma38FheIslkuCwHhky_7NlMaMYgcNScpX6w0lbIl0KysISGKRcBKy2T_hJ_TQ91guztNmR118f0WIOrkPbqkz3yDvdrMetUod-VZkPs3EHHSwND92UULeChLfZRHHzaW7X9c-WRbfPHziJG7RwV_xzi09qzAvIJV45RGswS1KlKTA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3440955340705444944&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ0XjOwosz5xQRUDS7wqa6wC8.jpg"
       },
       {
         "id": "ChIJmfjybu4z5xQRsKaA6fdLtKU",
@@ -1672,7 +1751,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmfjybu4z5xQRsKaA6fdLtKU/photos/AcnlKN3Tu6NflYBRlLK7Qjf7iwoAefJuR08pNBQf7m0Wz-Dkxno3EBcGWTiSdJttn9YIMeyphqB37WRPSJnqE8dJTkOcBXOKGePYo0KWD6ML6RfyjDZKJgtvv53uqB2tE3jpVjEoxxZq-63LeKDuxMOYZsTNT9We6sfEEz7ZcDif1T3PeU3T2tWYV-d8sRuImqu3D7s_sxJigkh8dZxdv_GK6Q6rF4AyN0JXHLRpnO-bnnM8hdw-6kb4L1aAWD9ngTNKdR6OFGFXzbNY5c2ygOc6Aj_02ZRjon6NBA9agUgTzBOc7YaPChobtErnc8Xok3cCG1D9z_oZeN2GtFegLZGa76-Y-yLaglaZ40LPIdrMSCgM3s8_qqpgkQbj4RtsH4xW7xFnBDp7vL-KkMmG5KZUbL2La368vQgLwY87hfNeia0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11940252040212555440&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJmfjybu4z5xQRsKaA6fdLtKU.jpg"
       },
       {
         "id": "ChIJja71eHwz5xQRvkSYp8hA2bI",
@@ -1692,7 +1772,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJja71eHwz5xQRvkSYp8hA2bI/photos/AcnlKN0t2b7oJx5ONAIrCeO2k0hVC998isUyLvb7aVV-eBL8uUVh-v1vQdI0FWVDWpJq2ujn4SJCK7nO_H_7vI7_dQmt5HslD9p0jNd_uhb-27KQ3WUW7LIsePP_uRDf_FvYjM_Y_lsgjQsTU_3xFjt_h3EBpkJJRsXiS0ixJRmy-UGbnnu2GwfuCRBLhvPhEHQ8Lzu6OUUm16zEnNYsg_dOPFrZtfDarZOQ4NL8kPIKVex0tFjyOsAYFZBSj_doIioPh5_yi15E0saBVGEyyEsi1uqZi3OpU1vOtfycEdpl1kTT4kppDmk0MuClS0xATswuq64nuS9TUDWxVSHkG9Ivmgxob6f8vOAgA9IwisuYtbCmAB7dp37CCMW6-VdcfUx5sXlZu-oFQdUrNZJMfrmZwxFc7l9nwFk-2dtMWaJO3-j5-g/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12887403039246795966&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJja71eHwz5xQRvkSYp8hA2bI.jpg"
       },
       {
         "id": "ChIJwbjT7-jJ4BQRmmUvIy9-6Gg",
@@ -1712,7 +1793,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJwbjT7-jJ4BQRmmUvIy9-6Gg/photos/AcnlKN3WhFWMH-MsceTGvr5g1Dp5EbLrZgV9u6aFrX6LcIASH_0K2wgO23Vo0Rwnm-_gQ4oU_BQ5sJ9exPM72k1Mrre_CYCQHBgxEVBktXRbB5lF0d51L_TwgkXT6xFvAZn2oIMLV7wkhXSsAXd0xkJSpeSw3Tbznh1FAYB_37vkHUFICSbAgK7H508WzVVFVdI7BIregbHOTD0PGOx0yS-q8WfMdtkG5W9I3KrGdY9na3iiHHuVjwo9i1_wuZ1szKrJERfhY1CSkGRS5iftSVfJpwg9GXd3TVKEmXTOY0ZDqhwQt09ZLT3bFe2bAts7Fms7rzvXrZvZGtuNAyDuw_s2WVEepwGRqYBdrF7Vm6JCWV7efWN9Zpdymt5YMFrUM03dd6Ud3PxaB45Y4VPX1emQiISIxI8MQwmDcjTR3xdq3eqV3Fs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=7559430715460248986&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:09.563Z",
-        "updatedAt": "2026-01-23T15:36:09.563Z"
+        "updatedAt": "2026-01-23T15:36:09.563Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJwbjT7-jJ4BQRmmUvIy9-6Gg.jpg"
       }
     ],
     "cultural": [
@@ -1735,7 +1817,8 @@
         "websiteUrl": "https://www.paradoxmuseumlimassol.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18432564300427261104&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJmfftyb0z5xQRsHSDQpKfzf8.jpg"
       },
       {
         "id": "ChIJ3bwQER8y5xQRBBnrG5wiFHY",
@@ -1756,7 +1839,8 @@
         "websiteUrl": "http://www.cyprusmotormuseum.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=8508463649888344324&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ3bwQER8y5xQRBBnrG5wiFHY.jpg"
       },
       {
         "id": "ChIJMcsOfAAl5xQRwQ8G8bnlkYM",
@@ -1776,7 +1860,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJMcsOfAAl5xQRwQ8G8bnlkYM/photos/AcnlKN28i9-QcW5mj_u3nbcjD1ojRsE4E2KF99btP5I2DnLTfO1R_29BipaidpnmhOr-5AcwvrIxN_grH4-bDzw3vMFfaGAjfYkHKCI7zt6cdWLUdNrl3vn4KhiiHqvS2l6aLGDvDBFs9xvnc-KfOPlHghv_si9p-2OZP-fOdgtxrILOzMIWShE4z6VP_uGSkilyfoo1kLfp8Udo91MtWFtqczcILmHFee1bwDVkFFt5LDxo1KAMdSJrwrmYhIPbmxI2K8IOZ05gaUyv8O6jIh4o-4Nm3Wxa65z7bm7x2RSNLQ2VHoTbCUCt57Rfmx9ulZJKJLRIAxR0T_Rujms_1ZaJgXmCrWTDYbeATFGwxCBX3o7wmZgBHRRijxMfB0fZKzJVhWwk3MwQMAGewX5PKGsV-NW-MAd3_pSIELtxnY4KsjmwLyoi/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=9480611277367021505&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJMcsOfAAl5xQRwQ8G8bnlkYM.jpg"
       },
       {
         "id": "ChIJzzk21MMz5xQRhJd1IXYY3iU",
@@ -1797,7 +1882,8 @@
         "websiteUrl": "https://m.facebook.com/artmikelart/",
         "googleMapsUrl": "https://maps.google.com/?cid=2728645319879661444&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJzzk21MMz5xQRhJd1IXYY3iU.jpg"
       },
       {
         "id": "ChIJizuKfKjN4BQRT6pTobWneAI",
@@ -1818,7 +1904,8 @@
         "websiteUrl": "https://lumiereartgallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=178076583818668623&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJizuKfKjN4BQRT6pTobWneAI.jpg"
       },
       {
         "id": "ChIJsVx9WWAz5xQRrpKY6vtFC1k",
@@ -1839,7 +1926,8 @@
         "websiteUrl": "https://xeniartspace.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6416299042394378926&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJsVx9WWAz5xQRrpKY6vtFC1k.jpg"
       },
       {
         "id": "ChIJf7NAOg4z5xQRyEt_TW7OMwo",
@@ -1860,7 +1948,8 @@
         "websiteUrl": "https://www.pattihio.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=735158137333435336&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJf7NAOg4z5xQRyEt_TW7OMwo.jpg"
       },
       {
         "id": "ChIJd1i5UzQy5xQR0jK1wN9nq40",
@@ -1881,7 +1970,8 @@
         "websiteUrl": "http://www.musicnart.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=10208367191073829586&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJd1i5UzQy5xQR0jK1wN9nq40.jpg"
       },
       {
         "id": "ChIJAT2G72oz5xQR18lIvkQM4a8",
@@ -1902,7 +1992,8 @@
         "websiteUrl": "https://instagram.com/dreamsgallerylimassol",
         "googleMapsUrl": "https://maps.google.com/?cid=12673424315787037143&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJAT2G72oz5xQR18lIvkQM4a8.jpg"
       },
       {
         "id": "ChIJv8mdCBUz5xQRrliBnh9QD9g",
@@ -1923,7 +2014,8 @@
         "websiteUrl": "http://www.mcw.gov.cy/da/da",
         "googleMapsUrl": "https://maps.google.com/?cid=15568750533576579246&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJv8mdCBUz5xQRrliBnh9QD9g.jpg"
       },
       {
         "id": "ChIJCZbORQUz5xQRfrHhaxgTEg8",
@@ -1944,7 +2036,8 @@
         "websiteUrl": "http://www.centreforphotography6x6.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=1085951455759806846&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJCZbORQUz5xQRfrHhaxgTEg8.jpg"
       },
       {
         "id": "ChIJEzot-xkz5xQRFQFYVoHm_QU",
@@ -1964,7 +2057,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJEzot-xkz5xQRFQFYVoHm_QU/photos/AcnlKN0Z1MmU4uNcyRM5HF9dyZlAd0tqWsGOD15v3VDCoThs_Hxnu_hJliXW81EA7sEo0PWY7CNHkrUvwXq2E3sSDlPHsl4ta7bqH8Et8zsX3JGZqnUeRO81n-vdcKi3weyQnPvIF7dBF39nE9ssmzvF2Dqni4GEaCUvNdVrdA1AaxuvOwrKp-QTX-ByQs1kaLxQvtxic0D8Vbr47k3MyVcjxeBlPVjoxEZ-XF9JN0wixrTYgT1DJiA72JzN-MKUmlv5-MnWBrpAxTJiLpu2Rh952i4-W4AjG_P5zk5wCfwHoE3Um00h8EUrqQm-wvpe93VbqRWy0fs8ud2Z_0a9fhAFFjrxqruwSPuvGMQNo-6IhqJNs_o6bolal3h4K68frowdJH3R4iXef4En8P7mThgWmEZ4Vmtrxj_ZKEtdYIpxgc0T04FZ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=431754582471213333&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJEzot-xkz5xQRFQFYVoHm_QU.jpg"
       },
       {
         "id": "ChIJc5_OEQIz5xQRU_-SCsDBSlk",
@@ -1985,7 +2079,8 @@
         "websiteUrl": "http://www.morfi.org/",
         "googleMapsUrl": "https://maps.google.com/?cid=6434168048207462227&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJc5_OEQIz5xQRU_-SCsDBSlk.jpg"
       },
       {
         "id": "ChIJ5TIe5wIz5xQRWXsICB6bnYs",
@@ -2006,7 +2101,8 @@
         "websiteUrl": "http://mitos.org.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=10060367695901653849&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ5TIe5wIz5xQRWXsICB6bnYs.jpg"
       },
       {
         "id": "ChIJgU6tQwA15xQR6NaKCcXd2Zk",
@@ -2046,7 +2142,8 @@
         "websiteUrl": "https://www.ipsonastheatre.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=8582145839263665126&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJT67WBZ0x5xQR5kvoryvoGXc.jpg"
       },
       {
         "id": "ChIJnUsGfOku5xQROXwAObkS7ug",
@@ -2066,7 +2163,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJnUsGfOku5xQROXwAObkS7ug/photos/AcnlKN0hoqtLuC8Gvp93SERhKXL2WT9gNve1lOpiRNriUKbhgOOUKvyajRu0BykBeUiIXx9sexWzp2FbB_OIlrmdXPrXfEkzxiuN5q27q2AKQJLE316kTHLZ4iQXZeHOrjmP58OFvm41-lLuJIavacj2DOuwPQd1IiFj_edMy3qeP65Md9cLyn3ULJmx2trunlFrrJW841pn7OK0YJ0LGo9dcMMnIj0Z6ftG5tiIMT0OMkqYh-zok6phACaEDQUcZpswzrOIYCkV24jGRC1xT6Kq_B4L8VBfbQEaR9kK-BwKJLVuHta0XkguDzLrx1OJYvoy3VTfVjKs_AH_6P2pfPEeumj8UZkqc7Fu_QLaixYWGKNyXdLnIK2enqUpKQ4xzn6vRodG29ANR27yiWQhudpr_c5TIrI3iAepZ_wYCBBOmZzLgw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=16784373447991000121&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJnUsGfOku5xQROXwAObkS7ug.jpg"
       },
       {
         "id": "ChIJm0k70fgv5xQRs1K5UmNhDp4",
@@ -2087,7 +2185,8 @@
         "websiteUrl": "http://www.mcw.gov.cy/mcw/DA/DA.nsf/All/21E14D80F55D8539C22571990020DC5C",
         "googleMapsUrl": "https://maps.google.com/?cid=11389147586884096691&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJm0k70fgv5xQRs1K5UmNhDp4.jpg"
       },
       {
         "id": "ChIJ0welW4Az5xQRUhqZWOiTQNk",
@@ -2108,7 +2207,8 @@
         "websiteUrl": "http://www.hauteart.eu/",
         "googleMapsUrl": "https://maps.google.com/?cid=15654674930867968594&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ0welW4Az5xQRUhqZWOiTQNk.jpg"
       },
       {
         "id": "ChIJhUhxPBEz5xQRNQGJUuUhZEg",
@@ -2129,7 +2229,8 @@
         "websiteUrl": "http://www.cyprustheatremuseum.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=5216331537217814837&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJhUhxPBEz5xQRNQGJUuUhZEg.jpg"
       },
       {
         "id": "ChIJQYZiMwEz5xQR8_e-BCw4_qQ",
@@ -2150,7 +2251,8 @@
         "websiteUrl": "https://www.zacharias-gallery.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11889001828014028787&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJQYZiMwEz5xQR8_e-BCw4_qQ.jpg"
       },
       {
         "id": "ChIJy3wqzWoz5xQRdyrz758cwlc",
@@ -2171,7 +2273,8 @@
         "websiteUrl": "https://www.limassolmunicipal.com.cy/en/istoriko-arxeio-kentro-meleton",
         "googleMapsUrl": "https://maps.google.com/?cid=6323648300032666231&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJy3wqzWoz5xQRdyrz758cwlc.jpg"
       },
       {
         "id": "ChIJS625wloz5xQROytx3SQGu3k",
@@ -2192,7 +2295,8 @@
         "websiteUrl": "https://m.facebook.com/pages/%CE%A0%CE%BF%CE%BB%CF%85%CF%87%CF%8E%CF%81%CE%BF%CF%82-%CE%A3%CF%85%CE%BD%CE%B5%CF%81%CE%B3%CE%B5%CE%AF%CE%BF/179026775992073",
         "googleMapsUrl": "https://maps.google.com/?cid=8771611454637943611&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJS625wloz5xQROytx3SQGu3k.jpg"
       },
       {
         "id": "ChIJC1zjdzQz5xQRH6zwvyPgJxs",
@@ -2212,7 +2316,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJC1zjdzQz5xQRH6zwvyPgJxs/photos/AcnlKN1QIkGy9HCRwfaWZ6CTrbNOQKFdQMwOg-093vXYh7YM4VI0c8y-KOB0cwQJRMbqvtg0jvi8M0CUWq8H8s9t5_8N5R3PC4ffuTLafuOULwQPPeO7vm9gOkpKtFvCT3QO7tOfLYvaZfbxVsMoDx7VonRVUC42a3dAnku8IBr8JPxLQGmTL2WNvKXRyKkwhWXEk6ODNyVekg90i5aARk0QsFBBZ-yzLnJCRfxQnVX8CNqtMUb_QfI8-1pQb74xPxxgJP97gjd3f7UjmLw5IEC-KNW9CL9ix5UNOxJGaMS_yEyCyR3uaAOw13qkVwCMPqaQbEmeTOZqtauiMO49kyKHtGdfiGdHhKt4CcoE9TzDhWVKtcSax7dXR8kk-cYD3HXvM95GogtIFFp0VLWfkibkipE3hAnPCcEkeYOElATbmmxOXdtIVpMO57LRcZsUeAEJ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=1956779007264467999&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJC1zjdzQz5xQRH6zwvyPgJxs.jpg"
       },
       {
         "id": "ChIJGWYmkkky5xQRQ7xd-TJoAI4",
@@ -2233,7 +2338,8 @@
         "websiteUrl": "http://www.cypruswinemuseum.com",
         "googleMapsUrl": "https://maps.google.com/?cid=10232292921527090243&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJGWYmkkky5xQRQ7xd-TJoAI4.jpg"
       },
       {
         "id": "ChIJl5HssRoz5xQRsXfQ0b5Cbt8",
@@ -2254,7 +2360,8 @@
         "websiteUrl": "http://www.rialto.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=16099879105227421617&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJl5HssRoz5xQRsXfQ0b5Cbt8.jpg"
       },
       {
         "id": "ChIJU4DUT13L4BQRIKgLu2mKrcE",
@@ -2274,7 +2381,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJU4DUT13L4BQRIKgLu2mKrcE/photos/AcnlKN0IIj4eXQlYJPUtodMGgk157JJyNCkPjctdd-5rbLH_UxxsjTI4mZn80DdTTLngvQ72fcIV-3Sp1xlEl1-SnvdQs75f9uBauk4z9bdGLq4vdCjxeb3uBGQ_WaWxYNEbZ6g6wS25BfJWQmOlLI5ReSLQtYxtImD_cdxfP5zWsDphgFRLsLX8GhSPCZlv7ZcQhCs43PH3nEVQMQJht9Hn8gNwNbizaKUlN9WsSIsP4DHXoqJ-Xth5PgQwWurfG9gAatHM2fTlFTYiWhsziA8OmVlkAEsIvcgNMgFOqjkHPGVpMvKJAqMve6LOuZlnop1A1w3bYW0qqfsJQiDva1WLQK3uNOJ6NZFmnqZ5OXKth8MRY0uFkPx7TZYCbUINE77iwkAVmsbM_0cBTNK1XrsmUhdW_jhbryFmKN_bCspcT0kSz6pb/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=13955963007005337632&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJU4DUT13L4BQRIKgLu2mKrcE.jpg"
       },
       {
         "id": "ChIJJzt1Nz4z5xQR6BVgQsPPJ_g",
@@ -2294,7 +2402,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJzt1Nz4z5xQR6BVgQsPPJ_g/photos/AcnlKN0jnNs2Oy_W4T-s5xzsNPi2H6zN7PoX50VicgBezRCDoFqBzCzvD-THBdOm5Toe6aTY4lpeQ2g1m33CMFkxoqxUAzdazG8ku2GySHWtfo4bMz0ByWy-f7oSTGe0vf1a6-uoI5tZFk8uq8wNb6jmLz2s5JSHjKciD8Z37VUCqJH96_kyZDGjcXNdHfqivDxHvYozQ8KJi8knycm2OC4jGfzOIoPciJMow86jXtKcdaz8Ljyl_x0YMHCaT36UD9EnLJAW3IRRnPE6YJXZZadB3VDB1B2FzwE_AGQQw68z4r_Io8YeGP0Ylfh_8Edd7kXHO6m8qgz_-r2NyUUd3MVxdnDcw4XGt9sNiH7fQfNRmrKKt0vG8ClxR_kE4YOFJZhppPNeBqWtgHg-4BbscyVn5c50HspNXnPlAjn3TOUiR5zI-M4/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=17881489283037009384&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:10.408Z",
-        "updatedAt": "2026-01-23T15:36:10.408Z"
+        "updatedAt": "2026-01-23T15:36:10.408Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJJzt1Nz4z5xQR6BVgQsPPJ_g.jpg"
       }
     ],
     "relaxation": [
@@ -2317,7 +2426,8 @@
         "websiteUrl": "https://www.amathuslimassol.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=622179403525210218&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJuzcFlggc5xQRakCv_d5sogg.jpg"
       },
       {
         "id": "ChIJJWQalXDN4BQRQRmFJ5JKUfs",
@@ -2338,7 +2448,8 @@
         "websiteUrl": "https://zensationcy.com/?utm_source=google&utm_medium=local&utm_campaign=GMB-website",
         "googleMapsUrl": "https://maps.google.com/?cid=18109337568222189889&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJJWQalXDN4BQRQRmFJ5JKUfs.jpg"
       },
       {
         "id": "ChIJg4lReRsz5xQRr7D4pVLdQgM",
@@ -2358,7 +2469,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJg4lReRsz5xQRr7D4pVLdQgM/photos/AcnlKN33pBl0E-Dm7XYt_ooetFstuWAB7s19h3a4ssudkAZ6He-KQhoLnOLQDkz0Gyj6oMWqipL1JbXLsF8le7bZfPZrZRf1g8j0I7mv_uFkzylbS9Px6ASe0lcDMOOlGVTE3i3mgdZC6aRLdVcO7XvwY8qe2Z4h7JEeIyVwXZyfHz1jawOVEU85v_OKGn0lCHNgksHyY-icgWzx2LTY0keEfxfjB2ZASS0owrxjQq1FWnuxd-mRI2ONEg1T9_jSmM9FQ7SENaNCkzWo0032kugLH5Mc_B2GCPvnhispG14-wldbIDERh9xSu7WVyMtjSFr8A6NUO91b5eXxzxqrvN8AREwu3WzvkBD_SthBUYdR5Ir40Hq8-ksILZUlIxijfMUfAnk1nxV17xLhEOovGSjaRa0VP7CsY77lMWMDKvaCBAs/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=234993477618282671&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJg4lReRsz5xQRr7D4pVLdQgM.jpg"
       },
       {
         "id": "ChIJ_aCgBmAz5xQRGGU4bz0_-Lc",
@@ -2379,7 +2491,8 @@
         "websiteUrl": "http://www.cityofdreamsmed.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=13256415036256576792&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ_aCgBmAz5xQRGGU4bz0_-Lc.jpg"
       },
       {
         "id": "ChIJd8f9ER3L4BQRnJBR5FM7LIc",
@@ -2400,7 +2513,8 @@
         "websiteUrl": "http://www.amarahotel.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9740225325594415260&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJd8f9ER3L4BQRnJBR5FM7LIc.jpg"
       },
       {
         "id": "ChIJw8vr5azM4BQRVzz6w4zNVq0",
@@ -2420,7 +2534,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJw8vr5azM4BQRVzz6w4zNVq0/photos/AcnlKN2jzFMrX9_qUK_ih-P1FwQz0WtWBHHtMTb9K3v5uW78Q_4f3bQagXOOQ8OmFz8qa7l5HQbVKfRVOVnub1nu2o6z4xYE67rtphBHHWSdBDLkZtEFw8ELyDlRjKqzYVleel2H2FYiehR6gBG4cUPSj2aJxOAk1-RJur7tv4ZF_1Ad722oAUl3fM79YYX1al6QIgXDcAVssnKR5WizlzsN0Lym5XSEYU7hyno8nSnQYVR0Q6D5Y8JqT7fLxWDvHIUoyoGhMU_ep8qUwz9x5Bnrbh96yedUw2OeYF8BueafYgRO2BM94tujaru2aWyZvKVv0NvUEZ-Op2dN4N8KE4IzpG12xfRkcJ3nITXZp638dxTUWDxnMK4Wl6ULuqGWtvGXVNmjmMj43NM-Xs1z-tM_CVxuqGL4INmieK9joco6G2w/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12490396621025721431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJw8vr5azM4BQRVzz6w4zNVq0.jpg"
       },
       {
         "id": "ChIJiTpiBKTL4BQRRcUg2sXhbzo",
@@ -2441,7 +2556,8 @@
         "websiteUrl": "http://www.medbeach.com/?utm_source=mybusiness&utm_medium=organic",
         "googleMapsUrl": "https://maps.google.com/?cid=4210832416499090757&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJiTpiBKTL4BQRRcUg2sXhbzo.jpg"
       },
       {
         "id": "ChIJVfUUxRUz5xQRr7sa4qonT8w",
@@ -2462,7 +2578,8 @@
         "websiteUrl": "http://www.limassolmunicipal.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=14722029321788767151&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJVfUUxRUz5xQRr7sa4qonT8w.jpg"
       },
       {
         "id": "ChIJ6bXdGR0J5xQR_ackPC2jL4c",
@@ -2483,7 +2600,8 @@
         "websiteUrl": "https://adonisbotanicgardens.eu/",
         "googleMapsUrl": "https://maps.google.com/?cid=9741183933703563261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ6bXdGR0J5xQR_ackPC2jL4c.jpg"
       },
       {
         "id": "ChIJHfFKKmpP5xQR5ey-9UIgNCY",
@@ -2504,7 +2622,8 @@
         "websiteUrl": "http://www.troodos-geo.org/cgibin/hweb?-A=246&-V=amiantos",
         "googleMapsUrl": "https://maps.google.com/?cid=2752860744193076453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJHfFKKmpP5xQR5ey-9UIgNCY.jpg"
       },
       {
         "id": "ChIJjRc3BljL4BQRYwfbfQdxPDE",
@@ -2526,7 +2645,8 @@
         "websiteUrl": "http://thegardencyprus.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3547834883451324259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJjRc3BljL4BQRYwfbfQdxPDE.jpg"
       },
       {
         "id": "ChIJ0yVFQcgz5xQR8Z9RYqwa4tc",
@@ -2547,7 +2667,8 @@
         "websiteUrl": "http://sanctum.life/",
         "googleMapsUrl": "https://maps.google.com/?cid=15556025390577328113&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ0yVFQcgz5xQR8Z9RYqwa4tc.jpg"
       },
       {
         "id": "ChIJxcnig63L4BQRS76MCZ80iLw",
@@ -2568,7 +2689,8 @@
         "websiteUrl": "https://lamirestudio.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13585166133627764299&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJxcnig63L4BQRS76MCZ80iLw.jpg"
       },
       {
         "id": "ChIJNTeBFGsz5xQRhmz_f36Ni6g",
@@ -2589,7 +2711,8 @@
         "websiteUrl": "https://www.housegardenpool.com/home",
         "googleMapsUrl": "https://maps.google.com/?cid=12144956394587516038&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJNTeBFGsz5xQRhmz_f36Ni6g.jpg"
       },
       {
         "id": "ChIJ1wCGPVgz5xQRimgO0lPtcAw",
@@ -2610,7 +2733,8 @@
         "websiteUrl": "https://gbarcyprus.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=896477270108956810&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ1wCGPVgz5xQRimgO0lPtcAw.png"
       },
       {
         "id": "ChIJJeFQl34z5xQROdb-Jpiwq10",
@@ -2630,7 +2754,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJJeFQl34z5xQROdb-Jpiwq10/photos/AcnlKN3R1QhpHOc7D-_u-nXPMWRC54FiIqa-SrJRzKQWXN0iAZQTGiaR7SSEViejSVhERsq7ZuQYMUAjEnFzDlWJzcNUWLJJXP_Zp-P_G55XsF4A14JrjteIyOUBN4T9Wv_1XsDPyXu7tHCzZpIK9ymTD5mZQTt8GOU00SKITa1eg7ZUOB_jfSk03M8PsTNdw1yWAM6t2sOlZOCzon_W8-sBrNBmj5c18BOWicI99KK-PXz1XvTZcHb8osmwLxU4bnWMEcrRspEWbtDeugjQRQFSA21aqTnuLXI3ZZ67Hv5LdTFkZNDHkZGPP4Pyh1rhIZPT8tv62Jdv3H_LSrLmxjUCemq_0zhOKAQqK6dyFd0MhaEn2G2jUFMXUM0eWPc_xpbP5vztseeSuXSgilUjDskniwA3Q74UzB1gCl6KGCBf0vQ1oCU/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=6749682634080572985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJJeFQl34z5xQROdb-Jpiwq10.jpg"
       },
       {
         "id": "ChIJyz-Er3TL4BQREL3vQK9qdrw",
@@ -2651,7 +2776,8 @@
         "websiteUrl": "https://www.thai-massage-cyprus.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13580159027323583760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJyz-Er3TL4BQREL3vQK9qdrw.jpg"
       },
       {
         "id": "ChIJYWNaQNrJ4BQRIEmwAQL6yDs",
@@ -2672,7 +2798,8 @@
         "websiteUrl": "https://instagram.com/meadow.paradise",
         "googleMapsUrl": "https://maps.google.com/?cid=4307967930105088288&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJYWNaQNrJ4BQRIEmwAQL6yDs.jpg"
       },
       {
         "id": "ChIJ8fCwsdkx5xQR5ahBAj0nzDo",
@@ -2692,7 +2819,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ8fCwsdkx5xQR5ahBAj0nzDo/photos/AcnlKN3CrrcEzM9cPRjYpEVADYmSyHPuWV2rIf92tGGl_1B40x6Gi4PkMq4msU37IY2wTrTQmKtpqTuBmmR7b90YTJEZdiQxK7gPKbwl45am3bc1CgGyz9H6qx7tOOOIOrZvJIzga2mo36VNfm3BUEA1mAa4_IpvJrv65grzEi8SG2jzH-UUHTmuwnjoaH9kuUORT4v7rybIsjbrdZXoshH-g-b6M1Mwx0ePb1E6oROIFyZ0Bcuy9bta7o25lqd7Vk6pi4wg7lqBD6GAOFKar1rg2HjmMRRD_OyqAeTxbqEE9JMNGg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4236804492433139941&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ8fCwsdkx5xQR5ahBAj0nzDo.jpg"
       },
       {
         "id": "ChIJG2m8crgz5xQRzWIGUVZuKuQ",
@@ -2713,7 +2841,8 @@
         "websiteUrl": "https://www.cyprusgardencenter.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16441074706675032781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJG2m8crgz5xQRzWIGUVZuKuQ.jpg"
       },
       {
         "id": "ChIJh60Ph-4v5xQRlySgxokUUio",
@@ -2733,7 +2862,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJh60Ph-4v5xQRlySgxokUUio/photos/AcnlKN1vKTGVqZCZXOTwTcCka6VlUCLNt9V7ojFrTbsLc_rFGOjYcEyQ0Cm0VoDZHKEtigcKjUw4M7mP-DokDs6PQ7V8U3H6Mb4GPZI_27t_hERkog3E9Ph8VqhHrzAKbgZ_FalwBZygG5wxu3kW0VXuZzcv_2cH6Yoj5yuJjQ7PGHKrp6dncJivGnTr75wKMVbK5XLlvqNQ1KuA3sfNDAYy7ol3leR4el8DwtSbxQbjlZnTMZIuJQ4AAxdpdlKbu9-hNf24Ze3kTU_tdOQ9dVpbgIlwgWY-Q8Kutj1JE3_Gg2xqv-WzHa_z7bLLb03WapsVDQQR3Jx36v5htRUhlUYVMApnSa7pTFPxt6IoY-jErdpb8PSPjbJih9W2i-9l2Snvs6Ll1zn6woVivpl2UiSTQsdtaRaYwetxqZOuzKaQqYpwVA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3049522479658706071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJh60Ph-4v5xQRlySgxokUUio.jpg"
       },
       {
         "id": "ChIJbdbEYN4z5xQRen0nNvJtQ3s",
@@ -2753,7 +2883,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJbdbEYN4z5xQRen0nNvJtQ3s/photos/AcnlKN12FUukKsEJD2nVkf5MwKjfzwBOb3pOinvh_-GJPccVcnayEYWycXF2ibThrfyt6vG-42qC1ZOnlj1oKu9RWzCo19g9MUIQT76_wc-gNPDDIwm0Rgf11wR6F6ZbTPMaPPDXg8pbYSYnuFPxj-b_f_RyJhC1J6FnOyyLE5jP8q9ieUo710REKnQU8gCk4bVWsacENMDm5UoI2JAIAmsczmyMixbDWilmFe1j0cABrw2C3kzXEWuOZURlzw33XW7-Yy0ETH18NuDIRs8KIiFmbuF6y-wIEYYMZnqFoVer0q-oQ9II8XrLDrFkwXPduWzfQlLR2KtBXHECYkorSgcQBqp441-DptQhlbOqOMZSE5FTkCf_RZCBGmmFlqRmf79kjp6ipP1l-m1e43wD-oPx2u7SQeLDQJpxjGKULGtpl_qHsw/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=8882063777162820986&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJbdbEYN4z5xQRen0nNvJtQ3s.jpg"
       },
       {
         "id": "ChIJB9TR2lMv5xQR0Twp1hjcgcI",
@@ -2773,7 +2904,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJB9TR2lMv5xQR0Twp1hjcgcI/photos/AcnlKN17C7Mz8GaWo6QIRC5qcNrVc4_UCHhhiDThSfnJ3GBnXWwAC2-DQlduSMW6t3VFbVgkADn2BpjM7NgvN63MB9l5tGfEJSU_w2w4bNqAqa8LHsn5DzeCk_qqPT6QrFb1wUcBeRVc35JhWBXCW8TaZtEIDvEH4fvji3rN7Au81dX_u6oNaQIOz0bRWb3eVJhP_4ncbNwxva2BxN4Gb5SfUiWJq6ZYHvrTtxjCv-AWB-aNzsKSfjs2DnK6ZWIrURUXJmcTF6R7bw3Rg8ce3xU8r82jIVRREJkQF90MU0TI86uKTLHEpaeh0CZXIT7gjLTZjljeNYQqF9VEjQNcJqjABX0i4iKsvVMIcATRUwsVHfBo_6EfLrBDYL_Nc2B9IC4vsVyHCqx51_GKCA8srz2FwAgl5JcWav8BqM6jfcUTLNbCaQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=14015725514584046801&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJB9TR2lMv5xQR0Twp1hjcgcI.jpg"
       },
       {
         "id": "ChIJ0XjOwosz5xQRUDS7wqa6wC8",
@@ -2793,7 +2925,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJ0XjOwosz5xQRUDS7wqa6wC8/photos/AcnlKN3GOdGfaUFzV0UlBqVsc7NCmiGFTeFOTfgmND-qJCP5idWcywZijwHanOj_pzOttamg-ay1_RyC5B-W3UL8benWkTHYiNnRi3Jx5Z4FirCE1wfScFLBC-qkWHN_UMbHQ28502JGUtY42Oe2jDvSO3v0_KlkJBlXbzztSFEZnw47AIYhoac1N7mK47z5GlfeDXrIDdbCBkr0dwzylN2FtaQXi4FrQyx1Xu1c-FWBXEX35zCZE7A0a58z64qSI3ikz12uabmdxa-4dkzvx1QKmus9YiSVNmV8_by5yw72SJyKyHTocZh-eqRi4dtJWhppMkyxpMaYyjyzBuej8bXjMHk644kqJZNwv_mR_p8tb1255g6iLrb4kdw_P7wjtDK3LCCWcUhvPdJD8imkAS8B1kNyUCHTbCNw2SOuiBSIG4Nu5Q/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=3440955340705444944&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ0XjOwosz5xQRUDS7wqa6wC8.jpg"
       },
       {
         "id": "ChIJmfjybu4z5xQRsKaA6fdLtKU",
@@ -2813,7 +2946,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJmfjybu4z5xQRsKaA6fdLtKU/photos/AcnlKN1oKUuS6lPZIN7vITv1H4OsYgjurJvTKGY7IenEP5PQU7PTa2iQDjDd6xSWXKcVLo0WSq3nJLkVbloRMj2zl54E3XP5AYUIbGtxGkyl7lZO1CbqAt0P19hAT9utw-5YpOzUH_nq_vHudCac9uyZCb2uJpLac3l0zwOhjeVI5zaYJlJv_WV9Gt_IpX5QzbmGYIIU2b8R7EzcQCsl0gfn1Z9qgBux-UvXt0Eq9G5Iq6r9i5hYgWSOqZq9G_bRP3sRbI8NsCmu51u-plhiTT1dTRKGKLvVFydNBOwqdtnSGaj0yAnsfe6cYmaspNmwEwNuowZ874ofiMu5e9inCYuuUNUFC0Xc64PFFxnC7wYyMI66o6ynvJoBugR7hkYiv0n1AzEr-8yXxjEj5r83NxyIHRs88gDSiuqmT2fKm4W5F7Y/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=11940252040212555440&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJmfjybu4z5xQRsKaA6fdLtKU.jpg"
       },
       {
         "id": "ChIJn54E22bN4BQRO7XxtStpzak",
@@ -2834,7 +2968,8 @@
         "websiteUrl": "https://medloft-beauty.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=12235551399092532539&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJn54E22bN4BQRO7XxtStpzak.jpg"
       },
       {
         "id": "ChIJOe7Tbloy5xQREkTRgOU-oxU",
@@ -2855,7 +2990,8 @@
         "websiteUrl": "http://agriplant.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=1559159051429954578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJOe7Tbloy5xQREkTRgOU-oxU.jpg"
       },
       {
         "id": "ChIJVTyZNBy54BQRenHxtCD6Fv0",
@@ -2876,7 +3012,8 @@
         "websiteUrl": "http://www.qgardenscyprus.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=18237038759465021818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJVTyZNBy54BQRenHxtCD6Fv0.jpg"
       },
       {
         "id": "ChIJja71eHwz5xQRvkSYp8hA2bI",
@@ -2896,7 +3033,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJja71eHwz5xQRvkSYp8hA2bI/photos/AcnlKN0o0Q-uBUQUrPybYdLOQpv1ypilXYrEyxIJ_E91tmwXCxcqgppLM7bja7dcM5jyS6qe86v2iXn5eVUCIy1dR4XJVHBEIgYXRKMjhlTHHWP5W3PUwdQPt09VGyVm-Cn1Z_IndM3y7cvv2GjmxZlk1Z1C0P-36jAcGuA2fwCPnPv6p60BtbQdoqNGFOHNO9rXTQ2dNINmKv_nFR883gNvsDRgnWaRGQbZ9AtAgIBjLIqUEGq6wA4u3Uh2rhVpNLmLC8eeoAQmqBpzgeROVcBw_IAV0AUsHcuDsyNG5UcdLeW2ZJSxooKYHW6JgbFUqRmRn4IuZ20DEruFEzzgw_vDFjWXfzZL8rMS0bA6wQ3VTeh-g3EIgpNhXPRoKnvKI9P1QYB0JUeGC7lw99Td2FQswziMEMPIhr1hCCfb2c1BRLe4bg/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12887403039246795966&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:11.661Z",
-        "updatedAt": "2026-01-23T15:36:11.661Z"
+        "updatedAt": "2026-01-23T15:36:11.661Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJja71eHwz5xQRvkSYp8hA2bI.jpg"
       }
     ],
     "nightlife": [
@@ -2920,7 +3058,8 @@
         "websiteUrl": "https://nagscy.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2800658221628760288&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJS1Nirl3L4BQR4KB1ZdDv3SY.jpg"
       },
       {
         "id": "ChIJlTVLvSzK4BQRrY8uEhE5BDw",
@@ -2942,7 +3081,8 @@
         "websiteUrl": "http://www.uptown-sq.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4324644287664787373&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJlTVLvSzK4BQRrY8uEhE5BDw.jpg"
       },
       {
         "id": "ChIJM2kQjE4z5xQRF82GRYadikQ",
@@ -2964,7 +3104,8 @@
         "websiteUrl": "http://www.columbia-beach.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=4938933141382810903&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJM2kQjE4z5xQRF82GRYadikQ.jpg"
       },
       {
         "id": "ChIJ9aGaMG_L4BQRWti5h8J2-us",
@@ -2986,7 +3127,8 @@
         "websiteUrl": "http://www.guababeachbar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17004033920963565658&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ9aGaMG_L4BQRWti5h8J2-us.jpg"
       },
       {
         "id": "ChIJc7Uqhf4y5xQRQnhB_JO-nSw",
@@ -3008,7 +3150,8 @@
         "websiteUrl": "https://www.marinabreeze.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=3214935251814021186&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJc7Uqhf4y5xQRQnhB_JO-nSw.jpg"
       },
       {
         "id": "ChIJwQa8VQMz5xQRcmANVJZEN9I",
@@ -3029,7 +3172,8 @@
         "websiteUrl": "http://www.poebar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15147651284129898610&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJwQa8VQMz5xQRcmANVJZEN9I.jpg"
       },
       {
         "id": "ChIJI1Vt6tMz5xQRG7wPbSyPNok",
@@ -3050,7 +3194,8 @@
         "websiteUrl": "https://bardusoleil.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9887247452909583387&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJI1Vt6tMz5xQRG7wPbSyPNok.jpg"
       },
       {
         "id": "ChIJLTBooBwz5xQRctsDg5ANqNI",
@@ -3072,7 +3217,8 @@
         "websiteUrl": "http://www.bonorestaurant.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=15179397458376776562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJLTBooBwz5xQRctsDg5ANqNI.jpg"
       },
       {
         "id": "ChIJaWN0pV7L4BQRCUyx6HDjyBc",
@@ -3094,7 +3240,8 @@
         "websiteUrl": "http://shakespeare.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=1713869732294249481&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJaWN0pV7L4BQRCUyx6HDjyBc.jpg"
       },
       {
         "id": "ChIJU1eTNd8z5xQRfppoCvxu-XY",
@@ -3115,7 +3262,8 @@
         "websiteUrl": "https://smokyocean.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=8573005394461891198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJU1eTNd8z5xQRfppoCvxu-XY.jpg"
       },
       {
         "id": "ChIJIcEPlLcz5xQRJDMPiweDMfY",
@@ -3136,7 +3284,8 @@
         "websiteUrl": "http://sherlockshomebar.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17740104475610133284&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJIcEPlLcz5xQRJDMPiweDMfY.jpg"
       },
       {
         "id": "ChIJSb8UWbIz5xQRnt5pDZjiJxo",
@@ -3157,7 +3306,8 @@
         "websiteUrl": "https://www.lebordeaux.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=1884724111765790366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJSb8UWbIz5xQRnt5pDZjiJxo.jpg"
       },
       {
         "id": "ChIJS6A8Xbkz5xQR5k596erUbC8",
@@ -3178,7 +3328,8 @@
         "websiteUrl": "http://www.lastwordcy.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=3417340322672103142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJS6A8Xbkz5xQR5k596erUbC8.jpg"
       },
       {
         "id": "ChIJnVVityAz5xQRvHy1AumrFZk",
@@ -3200,7 +3351,8 @@
         "websiteUrl": "https://www.limassolagora.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11030911879575076028&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJnVVityAz5xQRvHy1AumrFZk.jpg"
       },
       {
         "id": "ChIJG_bfhHMz5xQRxze4qFoipqs",
@@ -3221,7 +3373,8 @@
         "websiteUrl": "https://hookahlounge.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=12368611199392692167&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJG_bfhHMz5xQRxze4qFoipqs.jpg"
       },
       {
         "id": "ChIJGdtYh2oz5xQRgHEyHgKiFcg",
@@ -3242,7 +3395,8 @@
         "websiteUrl": "https://www.instagram.com/tikitiki.limassol/",
         "googleMapsUrl": "https://maps.google.com/?cid=14417607912076767616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJGdtYh2oz5xQRgHEyHgKiFcg.jpg"
       },
       {
         "id": "ChIJxVD3d-ku5xQRl0PHBa_dzp0",
@@ -3264,7 +3418,8 @@
         "websiteUrl": "http://www.swanpub.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=11371269852943041431&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJxVD3d-ku5xQRl0PHBa_dzp0.jpg"
       },
       {
         "id": "ChIJa0A3YwAz5xQRJRfC7UwUXPU",
@@ -3285,7 +3440,8 @@
         "websiteUrl": "https://www.facebook.com/limassolcocktailbar/",
         "googleMapsUrl": "https://maps.google.com/?cid=17680028557788714789&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJa0A3YwAz5xQRJRfC7UwUXPU.jpg"
       },
       {
         "id": "ChIJVznJobXL4BQR2iVc2cY6RR8",
@@ -3306,7 +3462,8 @@
         "websiteUrl": "https://limassol.harats.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2253271814293431770&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJVznJobXL4BQR2iVc2cY6RR8.jpg"
       },
       {
         "id": "ChIJm1ZLXqnM4BQRFpqZ3xjEvyU",
@@ -3327,7 +3484,8 @@
         "websiteUrl": "https://thewelcomeinnirishbarlimassol.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2720108311064713750&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJm1ZLXqnM4BQRFpqZ3xjEvyU.jpg"
       },
       {
         "id": "ChIJg7HFrfUz5xQRX8ym1SB0uHI",
@@ -3348,7 +3506,8 @@
         "websiteUrl": "http://www.3035.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=8266484800410799199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJg7HFrfUz5xQRX8ym1SB0uHI.jpg"
       },
       {
         "id": "ChIJjREswE0z5xQRoKa0A2vTWfE",
@@ -3370,7 +3529,8 @@
         "websiteUrl": "http://www.noa.com.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=17391163892645013152&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJjREswE0z5xQRoKa0A2vTWfE.jpg"
       },
       {
         "id": "ChIJmY9byzQz5xQRhIsIx5fAJGc",
@@ -3391,7 +3551,8 @@
         "websiteUrl": "https://instagram.com/cinemalimassol?igshid=ZDc4ODBmNjlmNQ==",
         "googleMapsUrl": "https://maps.google.com/?cid=7432277043179981700&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJmY9byzQz5xQRhIsIx5fAJGc.jpg"
       },
       {
         "id": "ChIJ-xgd5gIz5xQRjeBd93Um8ps",
@@ -3412,7 +3573,8 @@
         "websiteUrl": "https://www.facebook.com/Davinciloungebarofficial/",
         "googleMapsUrl": "https://maps.google.com/?cid=11237086308345962637&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ-xgd5gIz5xQRjeBd93Um8ps.jpg"
       },
       {
         "id": "ChIJewyjOR8z5xQR1z6IckS_PI8",
@@ -3433,7 +3595,8 @@
         "websiteUrl": "http://wagmicoffee.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=10321334746726547159&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJewyjOR8z5xQR1z6IckS_PI8.jpg"
       },
       {
         "id": "ChIJhQOCQAIz5xQRQTW-nLy7mTg",
@@ -3453,7 +3616,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJhQOCQAIz5xQRQTW-nLy7mTg/photos/AcnlKN0qMGXcWZ3QaFIFlebg0BVPlkIlPjaoWq44fj4wJzxQ41k_jwwku8Byow93PHW5nT0DB4vxDXKe9GtC1JuBu8tiPIYddb-Qx1awvtSTvrj9X-OlIObO68gZc9i3e0XX2Bswq6gzZl4NFBhT8bItvulylzQjtSQHPQZzO-x2WZGtH0XgoH_wClzqZ4gHCpf4SIOjgqjhEwklqpzYFFryVrWrM5IqTWQH5wQxHELVIZ7QGyX2ZnbPBi2bcwUxgWvwX6m83WdQ1W5ImkHgUmOdUKljzGAkhTlupTqgjKKoWpGNzQ/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=4078497356318651713&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJhQOCQAIz5xQRQTW-nLy7mTg.jpg"
       },
       {
         "id": "ChIJH5o7dLzL4BQRgx5e4E2ondA",
@@ -3475,7 +3639,8 @@
         "websiteUrl": "http://voice-karaoke.club/",
         "googleMapsUrl": "https://maps.google.com/?cid=15032356183662796419&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJH5o7dLzL4BQRgx5e4E2ondA.jpg"
       },
       {
         "id": "ChIJPzlHABsz5xQRTUxDJ5s-KYI",
@@ -3496,7 +3661,8 @@
         "websiteUrl": "https://7seas.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=9379096535075343437&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJPzlHABsz5xQRTUxDJ5s-KYI.png"
       },
       {
         "id": "ChIJG98ia1jL4BQR5aXEg6YxT7Q",
@@ -3517,7 +3683,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJG98ia1jL4BQR5aXEg6YxT7Q/photos/AcnlKN0TdHS4yg70J3nhvfOk62ryiY2nepM25UQJPwzga3ToqJL3xo_0NUkK08JOLQnj4K6llpl3FbSY2et9hpjR-tBtESgQjvgd9ZTCohYqL4s76ptlNmQIzo0qVIarq6uL2GFkWNDudg1BSohnXLSfsi7GUfaBbQ3QBNJiAzKXuDC5nSkWF8vL3eb15VbyvKIdNqrelCcqZN9qsUp9wggbsBxz3SBU7Bm23li7llQqDrA9mYkm52lXXhxvW_rA7Illcg8BTPmXJfFEeEiOaIp7iiJ3P8LHsCx8MouKmAYJuSZwYSHkHP6CnAaAwnU6euTj0mVgUSF4iU6VjuHxVDl81kkseBuugndetOLKDvOdw74OnFz2w9LFPrTpQJglgTufqslOdCNgI8yEQEBn8X7MeF5_iYjOKwrMZKOMgiWvqbBvjVPzPOIsXE0ZsFamRZW0/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=12992658041232205285&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJG98ia1jL4BQR5aXEg6YxT7Q.jpg"
       },
       {
         "id": "ChIJtWClb3vL4BQRycXnIjzXuSg",
@@ -3537,7 +3704,8 @@
         "imageUrl": "https://places.googleapis.com/v1/places/ChIJtWClb3vL4BQRycXnIjzXuSg/photos/AcnlKN1hGpejf-R2wDFTPs3UDV-4v2ODyN_rg0lzPA3CokrEmDg6MFrQC9Q_Wjk1E1npnZsQ6ViNpDts_Vx_eOgj74OgbFPwpIcvJkwIotxTgnMqt61opQ9ZGbEcWj_wHbgWgGef7Ua_quTY_lR4xQCe5FiiCEj0Ydv94sUdsgFhdzO5qrklpPJKCSXSnfcos5lC9vnV25Es3kQqDvLTDQ34G4iq0IMHgOHpbuEfIvy51CUVnOGBwM-iYt9I3KSInLnLWe828ek-wLbPxVfBql-Jq88pSGTGxm0l9N4oKsaNXxOSNA/media?maxHeightPx=800&maxWidthPx=800",
         "googleMapsUrl": "https://maps.google.com/?cid=2934613285492213193&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:13.373Z",
-        "updatedAt": "2026-01-23T15:36:13.373Z"
+        "updatedAt": "2026-01-23T15:36:13.373Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJtWClb3vL4BQRycXnIjzXuSg.jpg"
       }
     ],
     "trendy": [
@@ -3561,7 +3729,8 @@
         "websiteUrl": "https://caffenero.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=6668901408944606249&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.659Z",
-        "updatedAt": "2026-01-23T15:36:14.659Z"
+        "updatedAt": "2026-01-23T15:36:14.659Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJibWWMAQz5xQRKcw-gn-yjFw.jpg"
       },
       {
         "id": "ChIJZSjHTlkz5xQRjNvfnRpOsZY",
@@ -3582,7 +3751,8 @@
         "websiteUrl": "http://www.facebook.com/kyriakoubookshops",
         "googleMapsUrl": "https://maps.google.com/?cid=10858546052791786380&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJZSjHTlkz5xQRjNvfnRpOsZY.png"
       },
       {
         "id": "ChIJW-cl6Ccz5xQRrh0HJkyvQn4",
@@ -3603,7 +3773,8 @@
         "websiteUrl": "https://onetwoplaycy.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=9098026938832199086&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJW-cl6Ccz5xQRrh0HJkyvQn4.jpg"
       },
       {
         "id": "ChIJiaI3-BQz5xQRmHqL85SBxYk",
@@ -3624,7 +3795,8 @@
         "websiteUrl": "https://www.facebook.com/KPKyriakou/",
         "googleMapsUrl": "https://maps.google.com/?cid=9927483430349273752&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJiaI3-BQz5xQRmHqL85SBxYk.jpg"
       },
       {
         "id": "ChIJrZ_Hgj_L4BQRNnWSz0jmsKE",
@@ -3645,7 +3817,8 @@
         "websiteUrl": "https://kompot.store/",
         "googleMapsUrl": "https://maps.google.com/?cid=11651065436401988918&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJrZ_Hgj_L4BQRNnWSz0jmsKE.jpg"
       },
       {
         "id": "ChIJ9xwG7KzM4BQRSHOIFk74kMA",
@@ -3666,7 +3839,8 @@
         "websiteUrl": "https://arbatbooks.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13875863466197676872&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ9xwG7KzM4BQRSHOIFk74kMA.png"
       },
       {
         "id": "ChIJEY-Nnxwz5xQRptn4sJVrQW0",
@@ -3687,7 +3861,8 @@
         "websiteUrl": "http://www.theshopkeeperandco.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=7872691914283735462&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJEY-Nnxwz5xQRptn4sJVrQW0.png"
       },
       {
         "id": "ChIJdVbJnEAz5xQRW4jDIQN-nJQ",
@@ -3708,7 +3883,8 @@
         "websiteUrl": "https://www.instagram.com/astry_bistro/",
         "googleMapsUrl": "https://maps.google.com/?cid=10708572565896661083&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJdVbJnEAz5xQRW4jDIQN-nJQ.jpg"
       },
       {
         "id": "ChIJs2rGJfcz5xQRqXemLqcHRO0",
@@ -3729,7 +3905,8 @@
         "websiteUrl": "https://www.themeltingpotconcept.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=17096798500028839849&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJs2rGJfcz5xQRqXemLqcHRO0.jpg"
       },
       {
         "id": "ChIJGZxh9poz5xQRF-bSPse3NN8",
@@ -3750,7 +3927,8 @@
         "websiteUrl": "https://brodartisan.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=16083682235627267607&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJGZxh9poz5xQRF-bSPse3NN8.jpg"
       },
       {
         "id": "ChIJD9eSovjL4BQRH06tPeZARns",
@@ -3771,7 +3949,8 @@
         "websiteUrl": "https://wolt.com/en/cyp/limassol/restaurant/nomad-bread-coffee-germasogeia",
         "googleMapsUrl": "https://maps.google.com/?cid=8882858672656305695&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJD9eSovjL4BQRH06tPeZARns.jpg"
       },
       {
         "id": "ChIJg6uTJKcz5xQRS9bKI7imF7s",
@@ -3792,7 +3971,8 @@
         "websiteUrl": "http://www.kyknos.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=13481427319361558091&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJg6uTJKcz5xQRS9bKI7imF7s.jpg"
       },
       {
         "id": "ChIJJSqZahkz5xQRByEFD27IRCM",
@@ -3813,7 +3993,8 @@
         "websiteUrl": "https://bookberry.cy/",
         "googleMapsUrl": "https://maps.google.com/?cid=2541376464767754503&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJJSqZahkz5xQRByEFD27IRCM.jpg"
       },
       {
         "id": "ChIJ02JFJgAz5xQRnGHW5yEbKh0",
@@ -3834,7 +4015,8 @@
         "websiteUrl": "http://www.mnogoknig.com/",
         "googleMapsUrl": "https://maps.google.com/?cid=2101522008559215004&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJ02JFJgAz5xQRnGHW5yEbKh0.jpg"
       },
       {
         "id": "ChIJz-37tFDL4BQRDkD1m33Vv40",
@@ -3855,7 +4037,8 @@
         "websiteUrl": "https://www.instagram.com/toyconfectionery_bypunin/",
         "googleMapsUrl": "https://maps.google.com/?cid=10214117215363743758&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "createdAt": "2026-01-23T15:36:14.660Z",
-        "updatedAt": "2026-01-23T15:36:14.660Z"
+        "updatedAt": "2026-01-23T15:36:14.660Z",
+        "supabaseImageUrl": "https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/poi-images/limassol/ChIJz-37tFDL4BQRDkD1m33Vv40.jpg"
       }
     ]
   },

@@ -1,7 +1,7 @@
 # HonestNomad Migration Status Log
 
-**Last Updated:** 2026-02-02
-**Session:** Hotel Booking API Research Complete
+**Last Updated:** 2026-02-02 ~10:50 PM EST
+**Session:** Deployed to Vercel + Security Incident Resolved
 
 ---
 
@@ -340,15 +340,26 @@ User Form → Your API → Duffel/LiteAPI → Response
 
 ---
 
-## CURRENT STATUS (2026-02-02)
+## CURRENT STATUS (2026-02-02 ~10:50 PM EST)
 
 ### Project Phase: Hotel Booking MVP
 
-All migrations complete. Now building hotel booking checkout flow.
+All migrations complete. Site deployed and working. Ready to build checkout flow.
 
-### Active Background Tasks
+### Live Site
 
-None.
+| Environment | URL | Status |
+|-------------|-----|--------|
+| Production | `honest-nomad-ud6y.vercel.app` | ✅ Working |
+| Latest Commit | `f143f64` | ✅ Deployed |
+| Error Rate | 0% | ✅ Healthy |
+
+### Security Incident (2026-02-02) - RESOLVED
+
+- Google API key was leaked in commit `cad69c5`
+- Key was in MIGRATION-STATUS.md and POI imageUrl fields
+- **Resolution:** Key revoked, removed from docs, LESSONS-LEARNED.md created
+- See `LESSONS-LEARNED.md` for full incident details
 
 ### Google API Scripts (DISABLED - DO NOT RUN)
 
@@ -357,7 +368,7 @@ None.
 | `migrate-poi-images.ts` | 🔒 DISABLED | Caused $900 bill (111k API calls) |
 | `migrate-pois-google.ts` | 🔒 DISABLED | Prevent accidental billing |
 
-**WARNING:** Do not re-enable these scripts without explicit approval. They caused unexpected Google Cloud charges.
+**WARNING:** Do not re-enable these scripts without explicit approval.
 
 ### Booking API Status
 
@@ -391,6 +402,9 @@ cd /c/HonestNomad && node -e "const p = require('./scripts/image-migration/pexel
 - [x] Document LiteAPI payment modes and tradeoffs
 - [x] Decision: Use LiteAPI SDK mode (zero chargeback risk)
 - [x] Decision: Drop flights, focus on hotels only
+- [x] Deploy to Vercel - site working at honest-nomad-ud6y.vercel.app
+- [x] Resolve API key leak incident - key revoked, docs cleaned
+- [x] Create LESSONS-LEARNED.md for future reference
 
 ### Immediate Priority
 - [ ] **Contact LiteAPI** - Get answers to 6 open questions (see SESSION NOTES above)

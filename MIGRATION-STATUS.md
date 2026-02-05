@@ -425,6 +425,10 @@ cd /c/HonestNomad && node -e "const p = require('./scripts/image-migration/pexel
 - [ ] Support contact page and policy
 - [ ] Terms of service page
 
+### Growth Features (Post-MVP)
+- [ ] **Vouchers/Promo Codes** - LiteAPI `POST /vouchers` for influencer codes, referrals, first-booking discounts (API handles discount math)
+- [ ] **Room Upgrade Upsells** - Compare room types from `/hotels/rates`, show "Upgrade to Suite for +$40" after room selection to increase AOV
+
 ---
 
 ## KNOWN ISSUES

@@ -1,7 +1,7 @@
 # HonestNomad Migration Status Log
 
-**Last Updated:** 2026-02-02 ~10:50 PM EST
-**Session:** Deployed to Vercel + Security Incident Resolved
+**Last Updated:** 2026-02-02 ~11:30 PM EST
+**Session:** Full Handoff Documentation Complete
 
 ---
 
@@ -351,7 +351,7 @@ All migrations complete. Site deployed and working. Ready to build checkout flow
 | Environment | URL | Status |
 |-------------|-----|--------|
 | Production | `honest-nomad-ud6y.vercel.app` | ✅ Working |
-| Latest Commit | `f143f64` | ✅ Deployed |
+| Latest Commit | `11f834e` | ✅ Deployed |
 | Error Rate | 0% | ✅ Healthy |
 
 ### Security Incident (2026-02-02) - RESOLVED
@@ -652,7 +652,185 @@ cd /c/HonestNomad && npx tsx scripts/audit-pois.ts
 ```
 
 ### 4. Key Files to Review
-- `MIGRATION-STATUS.md` - This file
-- `scripts/image-migration/pexels-progress.json` - Pexels progress
-- `scripts/poi-image-migration/progress.json` - POI image progress
-- `data/pois/*.json` - All POI data
+- `MIGRATION-STATUS.md` - This file (start here)
+- `LESSONS-LEARNED.md` - Mistakes to avoid (API key leaks, billing surprises)
+- `lib/liteapi/client.ts` - Hotel API integration
+- `lib/supabase/images.ts` - Image URL utilities
+- `lib/flash/destinationImages.ts` - Destination images (uses Supabase)
+- `data/pois/*.json` - All POI data (65k+ places)
+
+---
+
+## HANDOFF GUIDE FOR NEW AGENT
+
+### What Is This Project?
+HonestNomad is an AI-powered travel planning app. Users describe a trip in natural language ("romantic week in Paris"), and the app finds hotels, generates day-by-day itineraries using 65k+ POIs, and handles booking.
+
+### Tech Stack
+- **Frontend:** Next.js 14 (App Router), TypeScript, Tailwind CSS
+- **Database:** Supabase (PostgreSQL + Auth + Storage)
+- **Hotels:** LiteAPI (2M+ properties)
+- **Flights:** Duffel (DROPPED - too risky for chargebacks)
+- **AI:** Claude API for itinerary generation
+- **Deployment:** Vercel
+
+### Current State (2026-02-02)
+- Site is LIVE at `honest-nomad-ud6y.vercel.app`
+- All data migrations COMPLETE (POIs, images)
+- Hotel search WORKS
+- **Booking/checkout NOT built yet** ← This is the next priority
+
+### User Flow (Two Paths)
+
+**Path 1: Chat-Based**
+```
+Homepage → Enter trip idea → AI parses intent → Show hotels →
+Show itinerary → Select room → Guest details → Payment → Confirmation
+```
+
+**Path 2: Flash Vacation (Swipe-Based)**
+```
+/flash/wizard (preferences) → /flash (dates) → /flash/swipe (swipe trips) →
+/flash/explore (pick itinerary style) → /flash/confirm → Payment
+```
+
+### Key Pages
+| Route | Purpose |
+|-------|---------|
+| `/` | Landing + chat interface |
+| `/flash` | Fast trip generation |
+| `/flash/wizard` | Travel preference quiz |
+| `/flash/swipe` | Tinder-style trip swiping |
+| `/flash/explore` | 7 itinerary paths per destination |
+| `/flash/confirm` | Trip summary before payment |
+| `/bookings` | User's booking history |
+| `/booking/[id]` | Single booking detail |
+| `/trip/[id]` | Trip detail view |
+
+### Key API Routes
+| Route | Purpose |
+|-------|---------|
+| `/api/chat` | AI conversation + trip generation |
+| `/api/hotels/search` | Hotel search via LiteAPI |
+| `/api/hotels/rates` | Get room rates |
+| `/api/itinerary` | AI day-by-day itinerary |
+| `/api/flash/generate` | Generate Flash trip packages |
+
+### What Needs to Be Built Next
+1. **Contact LiteAPI** - Get answers to 6 open questions (see OPEN QUESTIONS section)
+2. **Hotel checkout flow:**
+   - `/api/hotels/prebook` - Lock rate before payment
+   - LiteAPI payment SDK integration (iframe/redirect)
+   - `/api/hotels/book` - Confirm after payment
+   - Supabase `bookings` table
+   - Confirmation email
+
+### Critical Warnings
+1. **DO NOT re-enable Google API scripts** - They caused a $900 bill
+2. **DO NOT commit API keys** - We leaked one already (see LESSONS-LEARNED.md)
+3. **Use LiteAPI SDK payment mode** - Zero chargeback risk
+
+### Environment Variables Needed
+```
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+LITEAPI_API_KEY=
+PEXELS_API_KEY=
+ANTHROPIC_API_KEY=
+```
+
+---
+
+## VERIFIED LITEAPI ENDPOINTS (2026-02-02)
+
+These endpoints were confirmed to exist in LiteAPI's official docs:
+
+### Booking Flow
+| Endpoint | Purpose |
+|----------|---------|
+| `POST /hotels/rates` | Search room rates |
+| `POST /rates/prebook` | Lock rate, get prebookId |
+| `POST /rates/book` | Confirm booking |
+| `GET /bookings` | List all bookings |
+| `GET /bookings/{id}` | Get booking details |
+| `PUT /bookings/{id}` | Cancel booking |
+
+### Vouchers (REAL - Use for Launch Marketing)
+| Endpoint | Purpose |
+|----------|---------|
+| `POST /vouchers` | Create promo code |
+| `GET /vouchers` | List all vouchers |
+| `GET /vouchers/{id}` | Get voucher details |
+| `PUT /vouchers/{id}` | Update voucher |
+| `GET /vouchers/history` | Usage tracking |
+
+### Loyalty (REAL - Save for Later)
+| Endpoint | Purpose |
+|----------|---------|
+| `GET /loyalties` | Get loyalty program settings |
+| `PUT /loyalties` | Update settings (cashback rate) |
+| `GET /guests/{id}/loyalty-points` | Get guest points |
+| `POST /guests/{id}/loyalty-points/redeem` | Redeem points |
+
+### Semantic Search (BETA)
+| Endpoint | Purpose |
+|----------|---------|
+| `GET /data/hotels/semantic-search` | Search by natural language ("hotel with wifi and desk") |
+| `GET /data/hotel/ask` | Ask questions about a hotel |
+
+---
+
+## GROWTH FEATURES - COMPLEXITY ESTIMATES
+
+### Vouchers/Promo Codes - EASY (Few Hours)
+**What to build:**
+- One input field in checkout: "Have a promo code?"
+- Admin page or script to create vouchers via `POST /vouchers`
+- Pass `voucherCode` to book request
+
+**LiteAPI handles:**
+- Discount math
+- Validation (expired, used, invalid)
+- Usage history
+
+**Code complexity:** ~50 lines of new code
+
+### Room Upgrade Upsells - MEDIUM (1-2 Days)
+**What to build:**
+1. After user selects a room, scan `/hotels/rates` response for pricier options
+2. Show upsell card: "Upgrade to Suite for +$40/night"
+3. If clicked, swap the offerId before prebook
+
+**Tricky parts:**
+- Room type names aren't standardized ("Deluxe" vs "DLX")
+- Need to calculate per-night difference for multi-night stays
+- Some hotels only have one room type
+
+**Code complexity:** ~150-200 lines, mostly UI
+
+---
+
+## FILES CHANGED IN RECENT SESSIONS
+
+| File | Change |
+|------|--------|
+| `MIGRATION-STATUS.md` | This file - comprehensive project log |
+| `LESSONS-LEARNED.md` | NEW - Documents mistakes (API key leak, $900 bill) |
+| `lib/supabase/images.ts` | NEW - Centralized image URL utilities |
+| `lib/flash/destinationImages.ts` | UPDATED - Now uses Supabase URLs |
+| `data/pois/*.json` | UPDATED - Added supabaseImageUrl to 56k POIs |
+| `.claude/settings.local.json` | Modified |
+
+---
+
+## GIT HISTORY (Recent)
+
+```
+11f834e - Add vouchers and room upgrades to post-MVP roadmap
+82a265a - Update status: deployed to Vercel, security incident resolved
+f143f64 - Add LESSONS-LEARNED.md to document mistakes and prevention
+2d501ca - Remove leaked Google API key from documentation
+cad69c5 - Add Supabase image URLs and update POI data
+a18c1ed - Remove weather/climate feature
+```

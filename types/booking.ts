@@ -1,11 +1,10 @@
 export interface Booking {
   id: string;
-  conversationId: string;
   createdAt: string;
 
-  // Duffel references
-  duffelBookingId: string;
-  duffelOrderId?: string;
+  // Provider references (LiteAPI)
+  providerBookingId: string;
+  providerOrderId?: string;
 
   // Hotel details
   hotelName: string;
@@ -49,9 +48,8 @@ export interface BookingListItem {
 }
 
 export interface CreateBookingParams {
-  conversationId: string;
-  duffelBookingId: string;
-  duffelOrderId?: string;
+  providerBookingId: string;
+  providerOrderId?: string;
   hotelName: string;
   hotelId: string;
   checkIn: string;
@@ -63,5 +61,5 @@ export interface CreateBookingParams {
   totalAmount: number;
   currency: string;
   commissionAmount?: number;
-  duffelResponse?: any;
+  providerResponse?: any;
 }

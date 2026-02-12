@@ -5,8 +5,7 @@ import { useProfileWizard } from '@/hooks/useProfileWizard';
 import { StepIndicator } from './StepIndicator';
 import { TravelersStep } from './TravelersStep';
 import { HomeBaseStep } from './HomeBaseStep';
-import { BudgetFlightsStep } from './BudgetFlightsStep';
-import { AccommodationStep } from './AccommodationStep';
+import { BudgetAccommodationStep } from './BudgetAccommodationStep';
 import { WIZARD_STEP_TITLES } from '@/types/flash';
 import { Button, Spinner } from '@/components/ui';
 
@@ -27,7 +26,6 @@ export function WizardContainer() {
     updateHomeBase,
     updateBudget,
     updateAccommodation,
-    updateFlightPreferences,
     nextStep,
     prevStep,
     goToStep,
@@ -72,20 +70,13 @@ export function WizardContainer() {
             onChange={updateHomeBase}
           />
         );
-      case 'budgetFlights':
+      case 'budgetAccommodation':
         return (
-          <BudgetFlightsStep
+          <BudgetAccommodationStep
             budgetData={stepData.budget || {}}
-            flightData={stepData.flightPreferences || {}}
+            accommodationData={stepData.accommodation || {}}
             onBudgetChange={updateBudget}
-            onFlightChange={updateFlightPreferences}
-          />
-        );
-      case 'accommodation':
-        return (
-          <AccommodationStep
-            data={stepData.accommodation || {}}
-            onChange={updateAccommodation}
+            onAccommodationChange={updateAccommodation}
           />
         );
       default:

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { getFlashPreferences, updateFlashPreferences, getOrCreateProfile } from '@/lib/supabase/profiles';
+import { DEFAULT_FLASH_PREFERENCES } from '@/types/flash';
 import type { FlashVacationPreferences } from '@/types/flash';
 
 export async function GET(request: NextRequest) {
@@ -8,21 +9,19 @@ export async function GET(request: NextRequest) {
     const supabase = createServerSupabaseClient();
     const { data: { user } } = await supabase.auth.getUser();
 
+    // Anonymous users get default preferences
     if (!user) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+      return NextResponse.json({
+        preferences: { ...DEFAULT_FLASH_PREFERENCES, profileCompleted: false },
+        profileComplete: false,
+        missingSteps: ['travelers', 'homeBase', 'budgetAccommodation'],
+      });
     }
 
     // Ensure profile exists
     await getOrCreateProfile(user.id, user.email);
 
     const result = await getFlashPreferences(user.id);
-
-    console.log('Flash preferences result:', {
-      userId: user.id,
-      profileComplete: result.profileComplete,
-      missingSteps: result.missingSteps,
-      hasPreferences: !!result.preferences,
-    });
 
     return NextResponse.json(result);
   } catch (error: any) {

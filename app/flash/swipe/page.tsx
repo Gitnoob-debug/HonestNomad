@@ -67,13 +67,6 @@ export default function FlashSwipePage() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [swipeLeft, swipeRight]);
 
-  // Redirect if not authenticated
-  useEffect(() => {
-    if (!authLoading && !user) {
-      router.push('/auth/signin?redirect=/flash');
-    }
-  }, [user, authLoading, router]);
-
   // Redirect if no trips (user came directly without generating)
   useEffect(() => {
     if (!preferencesLoading && trips.length === 0) {
@@ -90,7 +83,7 @@ export default function FlashSwipePage() {
     }
   }, [selectedTrip, router]);
 
-  if (authLoading || preferencesLoading) {
+  if (preferencesLoading) {
     return (
       <div className="fixed inset-0 bg-black flex items-center justify-center">
         <Spinner size="lg" className="text-white" />
@@ -98,7 +91,7 @@ export default function FlashSwipePage() {
     );
   }
 
-  if (!user || trips.length === 0) {
+  if (trips.length === 0) {
     return null;
   }
 

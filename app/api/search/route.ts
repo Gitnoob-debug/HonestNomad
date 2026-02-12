@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { searchHotels } from '@/lib/duffel/search';
 import { createServiceRoleClient } from '@/lib/supabase/server';
 import type { HotelSearchParams } from '@/types/hotel';
 
@@ -15,7 +14,6 @@ export async function POST(request: NextRequest) {
       budgetMin,
       budgetMax,
       currency,
-      conversationId,
     } = body;
 
     // Validate required fields
@@ -44,22 +42,21 @@ export async function POST(request: NextRequest) {
           : undefined,
     };
 
-    const hotels = await searchHotels(searchParams);
+    // TODO: Implement LiteAPI hotel search
+    // const hotels = await liteapi.searchHotels(searchParams);
+    const hotels: any[] = [];
 
     const responseTimeMs = Date.now() - startTime;
 
     // Log search for analytics
-    if (conversationId) {
-      const supabase = createServiceRoleClient();
-      await (supabase.from('search_logs') as any).insert({
-        conversation_id: conversationId,
-        search_params: searchParams,
-        results_count: hotels.length,
-        min_price: hotels.length > 0 ? Math.min(...hotels.map((h) => h.pricing.nightlyRate)) : null,
-        max_price: hotels.length > 0 ? Math.max(...hotels.map((h) => h.pricing.nightlyRate)) : null,
-        response_time_ms: responseTimeMs,
-      });
-    }
+    const supabase = createServiceRoleClient();
+    await (supabase.from('search_logs') as any).insert({
+      search_params: searchParams,
+      results_count: hotels.length,
+      min_price: hotels.length > 0 ? Math.min(...hotels.map((h: any) => h.pricing?.nightlyRate || 0)) : null,
+      max_price: hotels.length > 0 ? Math.max(...hotels.map((h: any) => h.pricing?.nightlyRate || 0)) : null,
+      response_time_ms: responseTimeMs,
+    });
 
     return NextResponse.json({ hotels });
   } catch (error: any) {

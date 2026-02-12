@@ -7,11 +7,8 @@ export interface FlashVacationPreferences {
   // Step 2: Home Base
   homeBase: HomeBase;
 
-  // Step 3: Budget & Flight Preferences
+  // Step 3: Budget & Accommodation
   budget: BudgetConfig;
-  flightPreferences: FlightPreferences;
-
-  // Step 4: Accommodation
   accommodation: AccommodationPreferences;
 
   // Legacy fields - kept for backwards compatibility but no longer in wizard
@@ -20,6 +17,9 @@ export interface FlashVacationPreferences {
   interests?: InterestConfig;
   restrictions?: RestrictionConfig;
   surpriseTolerance?: number;
+
+  // Legacy: flight preferences (removed from product, kept for data compat)
+  flightPreferences?: FlightPreferences;
 
   // Profile completion status
   profileCompleted: boolean;
@@ -86,16 +86,17 @@ export interface RestrictionConfig {
   medical: string[];
 }
 
-// Wizard step definitions - streamlined to 4 core steps
+// Wizard step definitions - streamlined to 3 core steps
 export type WizardStep =
   | 'travelers'
   | 'homeBase'
-  | 'budgetFlights'
-  | 'accommodation';
+  | 'budgetAccommodation';
 
 // Legacy steps kept for backwards compatibility with existing data
 export type LegacyWizardStep =
   | 'budget'
+  | 'budgetFlights'
+  | 'accommodation'
   | 'travelStyle'
   | 'interests'
   | 'restrictions'
@@ -104,20 +105,21 @@ export type LegacyWizardStep =
 export const WIZARD_STEPS: WizardStep[] = [
   'travelers',
   'homeBase',
-  'budgetFlights',
-  'accommodation',
+  'budgetAccommodation',
 ];
 
 export const WIZARD_STEP_TITLES: Record<WizardStep, string> = {
   travelers: 'Who\'s Traveling?',
-  homeBase: 'Where Do You Fly From?',
-  budgetFlights: 'Budget & Flight Preferences',
-  accommodation: 'Accommodation Preferences',
+  homeBase: 'Where Are You Based?',
+  budgetAccommodation: 'Budget & Accommodation',
 };
 
 // Flash Plan generation types
-export type DateFlexibility = 'exact' | 'flex1' | 'flex3';
+export type DateFlexibility = 'exact' | 'flex1' | 'flex2' | 'flex5';
 
+export type BudgetTier = 'budget' | 'deals' | 'extravagant';
+
+// Legacy
 export type BudgetMode = 'regular' | 'bargain' | 'custom';
 
 export interface FlashGenerateParams {
@@ -142,8 +144,7 @@ export interface FlashGenerateResponse {
 export interface FlashTripPackage {
   id: string;
   destination: DestinationInfo;
-  flight: FlightSummary;
-  hotel?: HotelSummary; // Optional - flights-only mode
+  hotel?: HotelSummary;
   itinerary: ItinerarySummary;
   pricing: TripPricing;
   highlights: string[];
@@ -151,7 +152,8 @@ export interface FlashTripPackage {
   imageUrl: string;
   images?: DestinationImage[];      // Multiple images for carousel
   transferInfo?: TransferInfo;       // For remote destinations
-  flightsLoaded?: boolean;           // True when real flights have been fetched
+  // Legacy: flight field kept for backwards compat with stored data
+  flight?: FlightSummary;
 }
 
 export interface DestinationInfo {
@@ -269,11 +271,12 @@ export interface ItinerarySummary {
 }
 
 export interface TripPricing {
-  flight: number;
   hotel: number;
   total: number;
   currency: string;
   perPerson?: number;
+  // Legacy: flight field kept for backwards compat with stored data
+  flight?: number;
 }
 
 // Destination image for carousel
@@ -426,13 +429,6 @@ export const DEFAULT_FLASH_PREFERENCES: FlashVacationPreferences = {
     perTripMax: 5000,
     currency: 'USD',
     flexibility: 'flexible',
-  },
-  flightPreferences: {
-    cabinClass: 'economy',
-    directOnly: false,
-    maxStops: 1,
-    maxLayoverHours: 3,
-    redEyeOk: false,
   },
   accommodation: {
     minStars: 3,

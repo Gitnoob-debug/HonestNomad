@@ -1,8 +1,7 @@
 export * from './ProfileWizard';
 export { FlashPlanInput } from './FlashPlanInput';
-export { SwipeCard } from './SwipeCard';
-export { SwipeContainer } from './SwipeContainer';
 export { TripDetailModal } from './TripDetailModal';
 export { ImmersiveSwipeCard } from './ImmersiveSwipeCard';
 export { ImmersiveSwipeContainer } from './ImmersiveSwipeContainer';
 export { ItineraryMap } from './ItineraryMap';
+export { MagicPackage } from './MagicPackage';

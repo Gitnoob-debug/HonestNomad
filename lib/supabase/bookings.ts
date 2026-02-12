@@ -7,9 +7,8 @@ export async function createBookingRecord(params: CreateBookingParams): Promise<
   const { data, error } = await supabase
     .from('bookings')
     .insert({
-      conversation_id: params.conversationId,
-      duffel_booking_id: params.duffelBookingId,
-      duffel_order_id: params.duffelOrderId,
+      provider_booking_id: params.providerBookingId,
+      provider_order_id: params.providerOrderId,
       hotel_name: params.hotelName,
       hotel_id: params.hotelId,
       check_in: params.checkIn,
@@ -22,7 +21,7 @@ export async function createBookingRecord(params: CreateBookingParams): Promise<
       currency: params.currency,
       commission_amount: params.commissionAmount,
       status: 'confirmed',
-      duffel_response: params.duffelResponse,
+      provider_response: params.providerResponse,
     })
     .select()
     .single();
@@ -53,13 +52,13 @@ export async function getBooking(id: string): Promise<any | null> {
   return data;
 }
 
-export async function getBookingByDuffelId(duffelBookingId: string): Promise<any | null> {
+export async function getBookingByProviderId(providerBookingId: string): Promise<any | null> {
   const supabase = createServiceRoleClient();
 
   const { data, error } = await supabase
     .from('bookings')
     .select('*')
-    .eq('duffel_booking_id', duffelBookingId)
+    .eq('provider_booking_id', providerBookingId)
     .single();
 
   if (error) {
@@ -73,7 +72,7 @@ export async function getBookingByDuffelId(duffelBookingId: string): Promise<any
 }
 
 export async function updateBookingStatus(
-  duffelBookingId: string,
+  providerBookingId: string,
   status: BookingStatus
 ): Promise<void> {
   const supabase = createServiceRoleClient();
@@ -81,7 +80,7 @@ export async function updateBookingStatus(
   const { error } = await supabase
     .from('bookings')
     .update({ status })
-    .eq('duffel_booking_id', duffelBookingId);
+    .eq('provider_booking_id', providerBookingId);
 
   if (error) {
     throw new Error(`Failed to update booking status: ${error.message}`);
@@ -91,26 +90,22 @@ export async function updateBookingStatus(
 export async function getUserBookings(userId: string): Promise<any[]> {
   const supabase = createServiceRoleClient();
 
-  // Get conversations for this user
-  const { data: conversations, error: convError } = await supabase
-    .from('conversations')
-    .select('id')
-    .eq('user_id', userId);
+  // Get bookings for this user by email or direct user_id
+  // Since we no longer have conversations, query bookings by user profile email
+  const { data: profile } = await supabase
+    .from('profiles')
+    .select('email')
+    .eq('user_id', userId)
+    .single();
 
-  if (convError) {
-    throw new Error(`Failed to get user conversations: ${convError.message}`);
-  }
-
-  if (!conversations || conversations.length === 0) {
+  if (!profile?.email) {
     return [];
   }
-
-  const conversationIds = conversations.map((c: { id: string }) => c.id);
 
   const { data, error } = await supabase
     .from('bookings')
     .select('id, hotel_name, check_in, check_out, total_amount, currency, status, created_at')
-    .in('conversation_id', conversationIds)
+    .eq('guest_email', profile.email)
     .order('created_at', { ascending: false });
 
   if (error) {

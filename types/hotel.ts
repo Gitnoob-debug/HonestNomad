@@ -1,6 +1,6 @@
 export interface NormalizedHotel {
   id: string;
-  duffelId: string;
+  providerId: string; // LiteAPI hotel ID
   name: string;
   description: string;
 
@@ -32,7 +32,7 @@ export interface NormalizedHotel {
   };
 
   cheapestRateId: string;
-  searchResultId?: string; // Duffel search result ID for fetching rates
+  searchResultId?: string; // Search result ID for fetching rates
 
   rooms: Room[];
 }

@@ -8,7 +8,6 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const {
-      conversationId,
       bookingId,
       hotelName,
       hotelNeighborhood,
@@ -58,7 +57,6 @@ export async function POST(request: NextRequest) {
 
     // Store as standalone itinerary
     await (supabase.from('itineraries') as any).insert({
-      conversation_id: conversationId,
       booking_id: bookingId,
       destination: itinerary.destination,
       start_date: checkIn,

@@ -4,11 +4,6 @@ import { useState } from 'react';
 import { FlashTripPackage } from '@/types/flash';
 
 interface PriceState {
-  // Flight pricing
-  flightLoading?: boolean;
-  flightLoaded?: boolean;
-  flightError?: string;
-  flightPrice?: number;
   // Hotel pricing
   hotelLoading?: boolean;
   hotelLoaded?: boolean;
@@ -146,13 +141,6 @@ export function ImmersiveSwipeCard({
               </span>
             </div>
             <div className="flex gap-1">
-              {priceState.flightLoading ? (
-                <span className="text-xs bg-blue-500/80 text-white px-2 py-0.5 rounded-full">✈️ loading</span>
-              ) : priceState.flightLoaded ? (
-                <span className="text-xs bg-green-500/80 text-white px-2 py-0.5 rounded-full">✈️ ✓</span>
-              ) : (
-                <span className="text-xs bg-gray-500/80 text-white px-2 py-0.5 rounded-full">✈️ est.</span>
-              )}
               {priceState.hotelLoading ? (
                 <span className="text-xs bg-blue-500/80 text-white px-2 py-0.5 rounded-full">🏨 loading</span>
               ) : priceState.hotelLoaded ? (
@@ -230,14 +218,6 @@ export function ImmersiveSwipeCard({
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
             </svg>
             {trip.itinerary.days} nights
-          </span>
-
-          {/* Flight type */}
-          <span className="flex items-center gap-1.5 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full">
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-            </svg>
-            {trip.flight.outbound.stops === 0 ? 'Direct' : `${trip.flight.outbound.stops} stop`}
           </span>
 
           {/* Transfer info badge if applicable */}

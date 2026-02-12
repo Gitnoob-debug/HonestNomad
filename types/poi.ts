@@ -56,6 +56,7 @@ export interface CachedPOI {
 
   // Media & Links
   imageUrl?: string;
+  supabaseImageUrl?: string;  // Preferred image URL (Supabase Storage)
   websiteUrl?: string;
   googleMapsUrl?: string;
 

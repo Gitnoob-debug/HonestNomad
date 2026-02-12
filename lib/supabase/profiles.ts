@@ -176,7 +176,7 @@ export async function getFlashPreferences(
     return {
       preferences: null,
       profileComplete: false,
-      missingSteps: ['travelers', 'homeBase', 'budgetFlights', 'accommodation'],
+      missingSteps: ['travelers', 'homeBase', 'budgetAccommodation'],
     };
   }
 
@@ -233,18 +233,13 @@ function getMissingSteps(flash: Partial<FlashVacationPreferences>): WizardStep[]
     missing.push('homeBase');
   }
 
-  // Check budget & flights
-  if (!flash.budget || !flash.budget.perTripMax || flash.budget.perTripMax <= 0) {
-    missing.push('budgetFlights');
+  // Check budget & accommodation (combined step)
+  if (
+    !flash.budget || !flash.budget.perTripMax || flash.budget.perTripMax <= 0 ||
+    !flash.accommodation || flash.accommodation.minStars === undefined
+  ) {
+    missing.push('budgetAccommodation');
   }
-
-  // Check accommodation
-  if (!flash.accommodation || flash.accommodation.minStars === undefined) {
-    missing.push('accommodation');
-  }
-
-  // Legacy steps (travelStyle, interests, restrictions, surpriseTolerance)
-  // are now optional and not part of the wizard flow
 
   return missing;
 }

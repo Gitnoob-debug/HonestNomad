@@ -3,7 +3,13 @@
 import { useState } from 'react';
 import { Button, Input, Card } from '@/components/ui';
 import type { NormalizedHotel } from '@/types/hotel';
-import type { GuestDetails } from '@/types/chat';
+
+interface GuestDetails {
+  givenName: string;
+  familyName: string;
+  email: string;
+  phone?: string;
+}
 
 interface GuestFormProps {
   hotel: NormalizedHotel;
@@ -29,7 +35,7 @@ export function GuestForm({ hotel, onSubmit }: GuestFormProps) {
     setError(null);
 
     try {
-      // In production, use Duffel Pay or Stripe to tokenize the card
+      // In production, use Stripe to tokenize the card
       // For now, we'll simulate tokenization
       const paymentToken = await tokenizePayment(cardNumber, expiry, cvc);
       onSubmit(details, paymentToken);
@@ -174,7 +180,7 @@ export function GuestForm({ hotel, onSubmit }: GuestFormProps) {
 }
 
 // Placeholder for payment tokenization
-// In production, use Duffel Pay or Stripe
+// In production, use Stripe or LiteAPI payment
 async function tokenizePayment(
   cardNumber: string,
   expiry: string,

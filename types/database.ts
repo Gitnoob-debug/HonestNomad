@@ -9,16 +9,6 @@ export interface Database {
         Insert: Omit<Profile, 'createdAt' | 'updatedAt'>;
         Update: Partial<Omit<Profile, 'id' | 'createdAt'>>;
       };
-      conversations: {
-        Row: Conversation;
-        Insert: Omit<Conversation, 'id' | 'createdAt' | 'updatedAt'>;
-        Update: Partial<Omit<Conversation, 'id' | 'createdAt'>>;
-      };
-      messages: {
-        Row: DbMessage;
-        Insert: Omit<DbMessage, 'id' | 'createdAt'>;
-        Update: Partial<Omit<DbMessage, 'id' | 'createdAt'>>;
-      };
       bookings: {
         Row: DbBooking;
         Insert: Omit<DbBooking, 'id' | 'createdAt'>;
@@ -33,6 +23,11 @@ export interface Database {
         Row: SearchLog;
         Insert: Omit<SearchLog, 'id' | 'createdAt'>;
         Update: never;
+      };
+      draft_trips: {
+        Row: DbDraftTrip;
+        Insert: Omit<DbDraftTrip, 'id' | 'createdAt' | 'updatedAt'>;
+        Update: Partial<Omit<DbDraftTrip, 'id' | 'createdAt'>>;
       };
     };
   };
@@ -62,61 +57,11 @@ export interface UserPreferences {
   flashVacation?: FlashVacationPreferences;
 }
 
-export interface Conversation {
-  id: string;
-  createdAt: string;
-  updatedAt: string;
-  sessionId: string;
-  userId?: string;
-  state: DbConversationState;
-  preferences: ConversationPreferences;
-  lastSearchResults: any[];
-  userAgent?: string;
-  ipCountry?: string;
-}
-
-export interface DbConversationState {
-  stage: 'gathering_info' | 'showing_results' | 'booking' | 'complete';
-  selectedHotelId?: string;
-  guestDetails?: {
-    givenName: string;
-    familyName: string;
-    email: string;
-    phone?: string;
-  };
-}
-
-export interface ConversationPreferences {
-  destination?: string;
-  checkIn?: string;
-  checkOut?: string;
-  budgetMin?: number;
-  budgetMax?: number;
-  currency?: string;
-  guests?: number;
-  rooms?: number;
-  vibe?: string[];
-  requirements?: string[];
-  locationPreference?: string;
-}
-
-export interface DbMessage {
-  id: string;
-  conversationId: string;
-  createdAt: string;
-  role: 'user' | 'assistant' | 'system';
-  content: string;
-  metadata: Record<string, any>;
-  inputTokens?: number;
-  outputTokens?: number;
-}
-
 export interface DbBooking {
   id: string;
-  conversationId: string;
   createdAt: string;
-  duffelBookingId: string;
-  duffelOrderId?: string;
+  providerBookingId: string;
+  providerOrderId?: string;
   hotelName: string;
   hotelId: string;
   checkIn: string;
@@ -128,14 +73,13 @@ export interface DbBooking {
   totalAmount: number;
   currency: string;
   commissionAmount?: number;
-  status: 'pending' | 'confirmed' | 'cancelled' | 'completed';
-  duffelResponse?: any;
+  status: BookingStatus;
+  providerResponse?: any;
   itinerary?: any;
 }
 
 export interface DbItinerary {
   id: string;
-  conversationId?: string;
   bookingId?: string;
   createdAt: string;
   updatedAt: string;
@@ -148,9 +92,25 @@ export interface DbItinerary {
   generationModel: string;
 }
 
+export interface DbDraftTrip {
+  id: string;
+  userId: string;
+  createdAt: string;
+  updatedAt: string;
+  destinationCity: string;
+  destinationCountry: string;
+  departureDate: string;
+  returnDate: string;
+  tripData: any; // FlashTripPackage JSON
+  itinerary?: any;
+  itineraryType?: string;
+  favorites?: string[];
+  favoriteStops?: any[];
+  currentStep?: string;
+}
+
 export interface SearchLog {
   id: string;
-  conversationId?: string;
   createdAt: string;
   searchParams: any;
   resultsCount: number;

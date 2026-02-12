@@ -2,8 +2,7 @@ export { WizardContainer } from './WizardContainer';
 export { StepIndicator } from './StepIndicator';
 export { TravelersStep } from './TravelersStep';
 export { HomeBaseStep } from './HomeBaseStep';
-export { BudgetFlightsStep } from './BudgetFlightsStep';
-export { AccommodationStep } from './AccommodationStep';
+export { BudgetAccommodationStep } from './BudgetAccommodationStep';
 
 // Legacy step exports - kept for backwards compatibility but no longer used in main wizard
 export { BudgetStep } from './BudgetStep';

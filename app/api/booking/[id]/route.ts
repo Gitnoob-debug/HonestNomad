@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getBooking, updateBookingStatus } from '@/lib/supabase/bookings';
-import { cancelBooking } from '@/lib/duffel/book';
 
 export async function GET(
   request: NextRequest,
@@ -40,11 +39,11 @@ export async function DELETE(
       );
     }
 
-    // Cancel via Duffel
-    await cancelBooking(booking.duffelBookingId);
+    // TODO: Cancel via LiteAPI when integrated
+    // await liteapi.cancelBooking(booking.provider_booking_id);
 
     // Update status in database
-    await updateBookingStatus(booking.duffelBookingId, 'cancelled');
+    await updateBookingStatus(booking.provider_booking_id, 'cancelled');
 
     return NextResponse.json({ success: true });
   } catch (error: any) {

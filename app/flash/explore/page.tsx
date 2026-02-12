@@ -20,7 +20,7 @@ import type { HotelOption } from '@/lib/liteapi/types';
 import type { LiteAPIReview } from '@/lib/liteapi/types';
 import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
 
-type BookingStep = 'choice' | 'itinerary' | 'flights' | 'hotels' | 'checkout';
+type BookingStep = 'choice' | 'itinerary' | 'hotels' | 'checkout';
 type ItineraryType = SimplePathChoice | null;
 
 // Path configuration with metadata
@@ -95,17 +95,6 @@ function getDistanceMeters(lat1: number, lon1: number, lat2: number, lon2: numbe
     Math.sin(dLon/2) * Math.sin(dLon/2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
   return R * c;
-}
-
-// Parse ISO duration (PT2H30M) to minutes
-function parseDurationMinutes(duration: string): number {
-  const match = duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?/);
-  if (match) {
-    const hours = match[1] ? parseInt(match[1]) : 0;
-    const minutes = match[2] ? parseInt(match[2]) : 0;
-    return hours * 60 + minutes;
-  }
-  return 0;
 }
 
 // Format distance for display
@@ -190,9 +179,7 @@ function FlashExploreContent() {
   const [loadingError, setLoadingError] = useState<string | null>(null);
 
   // Booking selections
-  const [skipFlights, setSkipFlights] = useState(false);
   const [skipHotels, setSkipHotels] = useState(false);
-  const [selectedFlight, setSelectedFlight] = useState<any>(null);
   const [selectedHotel, setSelectedHotel] = useState<HotelOption | null>(null);
 
   // Hotel search state
@@ -201,14 +188,6 @@ function FlashExploreContent() {
   const [hotelError, setHotelError] = useState<string | null>(null);
   const [hotelsLoaded, setHotelsLoaded] = useState(false);
 
-  // Flight search state
-  const [flightOptions, setFlightOptions] = useState<any[]>([]);
-  const [outOfPrefFlights, setOutOfPrefFlights] = useState<any[]>([]);
-  const [isLoadingFlights, setIsLoadingFlights] = useState(false);
-  const [flightError, setFlightError] = useState<string | null>(null);
-  const [flightFetchAttempted, setFlightFetchAttempted] = useState(false);
-  const [showOutOfPref, setShowOutOfPref] = useState(false);
-  const [expandedFlightId, setExpandedFlightId] = useState<string | null>(null);
   const [expandedHotelId, setExpandedHotelId] = useState<string | null>(null);
 
   // Photo lightbox state
@@ -221,7 +200,7 @@ function FlashExploreContent() {
   const [loadingReviews, setLoadingReviews] = useState<string | null>(null);
 
   // Revealed preferences tracking
-  const { trackFlightSelection, trackHotelSelection, trackPOIAction } = useRevealedPreferences();
+  const { trackHotelSelection, trackPOIAction } = useRevealedPreferences();
 
   // Fetch hotel reviews
   const fetchHotelReviews = useCallback(async (hotelId: string) => {
@@ -285,16 +264,9 @@ function FlashExploreContent() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [trip, loadedFromDraft]);
 
-  // Auth check
-  useEffect(() => {
-    if (!authLoading && !user) {
-      router.push('/auth/signin?redirect=/flash');
-    }
-  }, [user, authLoading, router]);
-
   // Auto-save draft when user makes changes (debounced)
   useEffect(() => {
-    if (!trip?.destination?.city || !trip?.flight?.outbound?.departure || !itinerary.length || !itineraryType) return;
+    if (!trip?.destination?.city || !itinerary.length || !itineraryType) return;
 
     // Debounce the save to avoid too frequent writes
     const saveTimeout = setTimeout(() => {
@@ -410,80 +382,16 @@ function FlashExploreContent() {
     if (step === 'itinerary') {
       // Go back to swipe to pick a different destination
       router.push('/flash/swipe');
-    } else if (step === 'flights') {
-      setStep('itinerary');
     } else if (step === 'hotels') {
-      setStep('flights');
+      setStep('itinerary');
     } else if (step === 'checkout') {
       setStep('hotels');
     }
   };
 
   const handleContinueFromItinerary = () => {
-    setStep('flights');
-  };
-
-  const handleContinueFromFlights = () => {
     setStep('hotels');
   };
-
-  // Fetch flights when entering the flights step
-  useEffect(() => {
-    if (step !== 'flights' || flightFetchAttempted) return;
-
-    async function fetchFlights() {
-      if (!trip) return;
-
-      setFlightFetchAttempted(true);
-      setIsLoadingFlights(true);
-      setFlightError(null);
-
-      try {
-        // Get origin from user's home airport (stored in trip or default)
-        const origin = trip.flight.outbound.segments?.[0]?.departure?.airport?.code || 'JFK';
-        const destination = trip.destination.airportCode;
-
-        // Get dates from flight
-        const departureDate = new Date(trip.flight.outbound.departure).toISOString().split('T')[0];
-        const returnDate = new Date(trip.flight.return.departure).toISOString().split('T')[0];
-
-        console.log(`Searching flights ${origin} → ${destination}`);
-        console.log(`Dates: ${departureDate} to ${returnDate}`);
-
-        const response = await fetch('/api/flights/search', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            origin,
-            destination,
-            departureDate,
-            returnDate,
-          }),
-        });
-
-        if (!response.ok) {
-          const error = await response.json();
-          throw new Error(error.error || 'Failed to search flights');
-        }
-
-        const data = await response.json();
-        setFlightOptions(data.flights || []);
-        setOutOfPrefFlights(data.outOfPreference || []);
-
-        // Auto-select first (best match) flight if available
-        if (data.flights && data.flights.length > 0) {
-          setSelectedFlight(data.flights[0]);
-        }
-      } catch (error) {
-        console.error('Failed to fetch flights:', error);
-        setFlightError(error instanceof Error ? error.message : 'Failed to load flights');
-      } finally {
-        setIsLoadingFlights(false);
-      }
-    }
-
-    fetchFlights();
-  }, [step, trip, flightFetchAttempted]);
 
   // Fetch hotels when entering the hotels step
   const [hotelFetchAttempted, setHotelFetchAttempted] = useState(false);
@@ -509,15 +417,28 @@ function FlashExploreContent() {
           throw new Error(`Could not find coordinates for ${trip.destination.city}`);
         }
 
-        // Get checkin/checkout dates from flight
-        // Checkin = day of arrival (outbound arrival)
-        // Checkout = day of return departure
-        const arrivalDate = new Date(trip.flight.outbound.arrival);
-        const departureDate = new Date(trip.flight.return.departure);
+        // Get checkin/checkout dates from the search params stored in session
+        let checkin: string;
+        let checkout: string;
 
-        // Format as YYYY-MM-DD
-        const checkin = arrivalDate.toISOString().split('T')[0];
-        const checkout = departureDate.toISOString().split('T')[0];
+        // Try to get dates from the session's lastGenerateParams
+        const tripsStored = sessionStorage.getItem('flash_vacation_trips');
+        if (tripsStored) {
+          const tripsData = JSON.parse(tripsStored);
+          const params = tripsData.lastGenerateParams;
+          if (params?.departureDate && params?.returnDate) {
+            checkin = params.departureDate;
+            checkout = params.returnDate;
+          } else {
+            throw new Error('Trip dates not found in session');
+          }
+        } else if (trip.flight?.outbound?.arrival && trip.flight?.return?.departure) {
+          // Legacy fallback: use flight dates if available (old stored trips)
+          checkin = new Date(trip.flight.outbound.arrival).toISOString().split('T')[0];
+          checkout = new Date(trip.flight.return.departure).toISOString().split('T')[0];
+        } else {
+          throw new Error('Trip dates not available. Please start a new search.');
+        }
 
         console.log(`Searching hotels in ${trip.destination.city} (${destination.latitude}, ${destination.longitude})`);
         console.log(`Dates: ${checkin} to ${checkout}`);
@@ -569,9 +490,7 @@ function FlashExploreContent() {
       trip,
       itineraryType,
       itinerary,
-      skipFlights,
       skipHotels,
-      selectedFlight: skipFlights ? null : (selectedFlight || trip?.flight),
       selectedHotel: skipHotels ? null : selectedHotel,
       favoriteStops, // Include saved favorites
     };
@@ -587,7 +506,7 @@ function FlashExploreContent() {
     }).format(amount);
   };
 
-  if (authLoading || !trip) {
+  if (!trip) {
     return (
       <div className="fixed inset-0 bg-black flex items-center justify-center">
         <Spinner size="lg" className="text-white" />
@@ -665,7 +584,7 @@ function FlashExploreContent() {
                   </div>
                 )}
                 <div className="text-right">
-                  <p className="text-white/50 text-xs">Step 1 of 4</p>
+                  <p className="text-white/50 text-xs">Step 1 of 3</p>
                   <p className="text-white/70 text-sm font-medium">Itinerary</p>
                 </div>
               </div>
@@ -819,7 +738,7 @@ function FlashExploreContent() {
                 disabled={isLoadingItinerary}
                 className="flex-1 py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
               >
-                Continue to Flights
+                Continue to Hotels
               </button>
             </div>
           </div>
@@ -1053,717 +972,8 @@ function FlashExploreContent() {
     );
   }
 
-  // Helper to format flight duration
-  const formatDuration = (iso: string) => {
-    const match = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?/);
-    if (!match) return iso;
-    const hours = match[1] || '0';
-    const minutes = match[2] || '0';
-    return `${hours}h ${minutes}m`;
-  };
 
-  // Helper to format time
-  const formatTime = (dateStr: string) => {
-    return new Date(dateStr).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
-  };
-
-  // Helper to format date
-  const formatDate = (dateStr: string) => {
-    return new Date(dateStr).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
-  };
-
-  // Helper to calculate layover duration
-  const calculateLayover = (arrival: string, departure: string) => {
-    const arrTime = new Date(arrival).getTime();
-    const depTime = new Date(departure).getTime();
-    const diffMs = depTime - arrTime;
-    const hours = Math.floor(diffMs / (1000 * 60 * 60));
-    const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
-    return `${hours}h ${minutes}m`;
-  };
-
-  // Step 3: Flight booking
-  if (step === 'flights') {
-    return (
-      <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
-        <div className="h-full flex flex-col">
-          {/* Header */}
-          <div className="p-4 pt-safe border-b border-white/10">
-            <div className="flex items-center justify-between">
-              <button
-                onClick={handleGoBack}
-                className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
-              >
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-                <span className="text-sm font-medium">Back</span>
-              </button>
-              <div className="text-center">
-                <p className="text-white/50 text-xs">Step 2 of 4</p>
-                <h1 className="text-white font-bold">Flights</h1>
-              </div>
-              <div className="w-16" />
-            </div>
-          </div>
-
-          {/* Content */}
-          <div className="flex-1 overflow-y-auto p-4">
-            <div className="max-w-lg mx-auto">
-              {/* Loading state */}
-              {isLoadingFlights && (
-                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 mb-4">
-                  <div className="flex flex-col items-center justify-center">
-                    <Spinner size="lg" className="text-white mb-4" />
-                    <p className="text-white/80 font-medium">Finding your perfect flights...</p>
-                    <p className="text-white/50 text-sm mt-1">Filtering by your preferences</p>
-                  </div>
-                </div>
-              )}
-
-              {/* Error state */}
-              {flightError && !isLoadingFlights && (
-                <div className="bg-red-500/10 border border-red-500/30 rounded-2xl p-5 mb-4">
-                  <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-red-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                    </svg>
-                    <div>
-                      <p className="text-red-400 font-medium">Couldn't load flights</p>
-                      <p className="text-red-300/70 text-sm mt-1">{flightError}</p>
-                      <button
-                        onClick={() => {
-                          setFlightFetchAttempted(false);
-                          setFlightError(null);
-                        }}
-                        className="text-red-400 underline text-sm mt-2 hover:text-red-300"
-                      >
-                        Try again
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              {/* Flight options - Your Picks */}
-              {!isLoadingFlights && !flightError && flightOptions.length > 0 && (
-                <>
-                  <p className="text-white/60 text-sm mb-3">
-                    Flights to {trip.destination.city} matching your preferences
-                  </p>
-                  <div className="space-y-3 mb-4">
-                    {flightOptions.slice(0, 5).map((flight: any) => {
-                      const outbound = flight.slices?.[0];
-                      const returnFlight = flight.slices?.[1];
-                      const isSelected = selectedFlight?.id === flight.id && !skipFlights;
-                      const isExpanded = expandedFlightId === flight.id;
-
-                      return (
-                        <div
-                          key={flight.id}
-                          className={`w-full text-left bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden transition-all ${
-                            isSelected ? 'ring-2 ring-white' : ''
-                          }`}
-                        >
-                          {/* Collapsed view - always visible */}
-                          <button
-                            onClick={() => setExpandedFlightId(isExpanded ? null : flight.id)}
-                            className="w-full p-4 text-left hover:bg-white/5 transition-colors"
-                          >
-                            {/* Airline and price row */}
-                            <div className="flex items-center justify-between mb-3">
-                              <div className="flex items-center gap-2">
-                                {flight.airlines?.[0]?.logoUrl && (
-                                  <img
-                                    src={flight.airlines[0].logoUrl}
-                                    alt={flight.airlines[0].name}
-                                    className="w-8 h-8 rounded"
-                                    onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
-                                  />
-                                )}
-                                <div>
-                                  <p className="text-white font-medium">{flight.airlines?.[0]?.name || 'Multiple Airlines'}</p>
-                                  <p className="text-white/50 text-xs">
-                                    {outbound?.stops === 0 ? 'Direct' : `${outbound?.stops} stop${outbound?.stops > 1 ? 's' : ''}`}
-                                    {' · '}{formatDuration(outbound?.duration || 'PT0H')}
-                                  </p>
-                                </div>
-                              </div>
-                              <div className="text-right flex items-center gap-3">
-                                <div>
-                                  <p className="text-white font-bold text-lg">
-                                    {formatPrice(flight.pricing?.totalAmount || 0, flight.pricing?.currency || 'USD')}
-                                  </p>
-                                  <p className="text-white/50 text-xs">
-                                    {formatPrice(flight.pricing?.perPassenger || 0, flight.pricing?.currency || 'USD')}/person
-                                  </p>
-                                </div>
-                                <svg
-                                  className={`w-5 h-5 text-white/60 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
-                                  fill="none"
-                                  viewBox="0 0 24 24"
-                                  stroke="currentColor"
-                                >
-                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                </svg>
-                              </div>
-                            </div>
-
-                            {/* Flight times summary */}
-                            <div className="grid grid-cols-2 gap-3 mb-3">
-                              <div className="bg-white/5 rounded-lg p-2">
-                                <p className="text-white/50 text-xs mb-1">OUTBOUND · {formatDate(outbound?.departureTime)}</p>
-                                <p className="text-white text-sm font-medium">
-                                  {formatTime(outbound?.departureTime)} → {formatTime(outbound?.arrivalTime)}
-                                </p>
-                              </div>
-                              {returnFlight && (
-                                <div className="bg-white/5 rounded-lg p-2">
-                                  <p className="text-white/50 text-xs mb-1">RETURN · {formatDate(returnFlight?.departureTime)}</p>
-                                  <p className="text-white text-sm font-medium">
-                                    {formatTime(returnFlight?.departureTime)} → {formatTime(returnFlight?.arrivalTime)}
-                                  </p>
-                                </div>
-                              )}
-                            </div>
-
-                            {/* Fare info badges */}
-                            <div className="flex flex-wrap gap-1.5">
-                              {outbound?.fareBrandName && (
-                                <span className="px-2 py-0.5 bg-blue-500/20 text-blue-400 rounded-full text-xs">
-                                  {outbound.fareBrandName}
-                                </span>
-                              )}
-                              {flight.totalEmissionsKg && (
-                                <span className="px-2 py-0.5 bg-green-500/10 text-green-400/80 rounded-full text-xs flex items-center gap-1">
-                                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                  </svg>
-                                  {flight.totalEmissionsKg}kg CO₂
-                                </span>
-                              )}
-                              {/* Match reasons */}
-                              {flight.matchReasons && flight.matchReasons.slice(0, 2).map((reason: string, i: number) => (
-                                <span
-                                  key={i}
-                                  className="px-2 py-0.5 bg-green-500/20 text-green-400 rounded-full text-xs"
-                                >
-                                  {reason}
-                                </span>
-                              ))}
-                            </div>
-                          </button>
-
-                          {/* Expanded details */}
-                          {isExpanded && (
-                            <div className="border-t border-white/10 p-4 space-y-4">
-                              {/* Outbound flight details */}
-                              <div>
-                                <h4 className="text-white/60 text-xs font-semibold mb-3 uppercase tracking-wide">Outbound Flight</h4>
-                                <div className="space-y-3">
-                                  {outbound?.segments?.map((segment: any, idx: number) => (
-                                    <div key={segment.id}>
-                                      {/* Segment */}
-                                      <div className="flex items-start gap-3">
-                                        <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0">
-                                          {segment.airline?.logoUrl ? (
-                                            <img src={segment.airline.logoUrl} alt={segment.airline.name} className="w-6 h-6 rounded" />
-                                          ) : (
-                                            <span className="text-lg">✈️</span>
-                                          )}
-                                        </div>
-                                        <div className="flex-1">
-                                          <div className="flex items-center gap-2 mb-1">
-                                            <span className="text-white font-medium">{segment.airline?.name || 'Airline'}</span>
-                                            <span className="text-white/40 text-xs">{segment.flightNumber}</span>
-                                            {segment.aircraft && (
-                                              <span className="text-white/40 text-xs">· {segment.aircraft}</span>
-                                            )}
-                                          </div>
-                                          <div className="flex items-center gap-4 text-sm">
-                                            <div>
-                                              <p className="text-white font-semibold">{formatTime(segment.departureTime)}</p>
-                                              <p className="text-white/60">{segment.departureAirport?.code} · {segment.departureAirport?.city}</p>
-                                              {segment.departureTerminal && (
-                                                <p className="text-white/40 text-xs">Terminal {segment.departureTerminal}</p>
-                                              )}
-                                            </div>
-                                            <div className="flex-1 flex items-center gap-2">
-                                              <div className="h-px flex-1 bg-white/20"></div>
-                                              <span className="text-white/50 text-xs">{formatDuration(segment.duration)}</span>
-                                              <div className="h-px flex-1 bg-white/20"></div>
-                                            </div>
-                                            <div className="text-right">
-                                              <p className="text-white font-semibold">{formatTime(segment.arrivalTime)}</p>
-                                              <p className="text-white/60">{segment.arrivalAirport?.code} · {segment.arrivalAirport?.city}</p>
-                                              {segment.arrivalTerminal && (
-                                                <p className="text-white/40 text-xs">Terminal {segment.arrivalTerminal}</p>
-                                              )}
-                                            </div>
-                                          </div>
-                                          {/* Segment amenities */}
-                                          <div className="flex items-center gap-3 mt-2">
-                                            {segment.cabinClassMarketingName && (
-                                              <span className="text-white/50 text-xs">{segment.cabinClassMarketingName}</span>
-                                            )}
-                                            {segment.wifi?.available && (
-                                              <span className="text-white/50 text-xs flex items-center gap-1">
-                                                <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                                  <path fillRule="evenodd" d="M17.778 8.222c-4.296-4.296-11.26-4.296-15.556 0A1 1 0 01.808 6.808c5.076-5.077 13.308-5.077 18.384 0a1 1 0 01-1.414 1.414zM14.95 11.05a7 7 0 00-9.9 0 1 1 0 01-1.414-1.414 9 9 0 0112.728 0 1 1 0 01-1.414 1.414zM12.12 13.88a3 3 0 00-4.242 0 1 1 0 01-1.415-1.415 5 5 0 017.072 0 1 1 0 01-1.415 1.415zM9 16a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
-                                                </svg>
-                                                WiFi
-                                              </span>
-                                            )}
-                                            {segment.power?.available && (
-                                              <span className="text-white/50 text-xs flex items-center gap-1">
-                                                <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                                  <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
-                                                </svg>
-                                                Power
-                                              </span>
-                                            )}
-                                            {segment.seatPitch && (
-                                              <span className="text-white/50 text-xs">{segment.seatPitch} pitch</span>
-                                            )}
-                                          </div>
-                                        </div>
-                                      </div>
-                                      {/* Layover between segments */}
-                                      {idx < outbound.segments.length - 1 && (
-                                        <div className="ml-13 my-3 flex items-center gap-3 pl-10">
-                                          <div className="w-6 h-6 rounded-full bg-amber-500/20 flex items-center justify-center">
-                                            <svg className="w-3 h-3 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>
-                                          </div>
-                                          <span className="text-amber-400 text-sm">
-                                            {calculateLayover(segment.arrivalTime, outbound.segments[idx + 1].departureTime)} layover in {segment.arrivalAirport?.city}
-                                          </span>
-                                        </div>
-                                      )}
-                                    </div>
-                                  ))}
-                                </div>
-                              </div>
-
-                              {/* Return flight details */}
-                              {returnFlight && (
-                                <div>
-                                  <h4 className="text-white/60 text-xs font-semibold mb-3 uppercase tracking-wide">Return Flight</h4>
-                                  <div className="space-y-3">
-                                    {returnFlight?.segments?.map((segment: any, idx: number) => (
-                                      <div key={segment.id}>
-                                        {/* Segment */}
-                                        <div className="flex items-start gap-3">
-                                          <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0">
-                                            {segment.airline?.logoUrl ? (
-                                              <img src={segment.airline.logoUrl} alt={segment.airline.name} className="w-6 h-6 rounded" />
-                                            ) : (
-                                              <span className="text-lg">✈️</span>
-                                            )}
-                                          </div>
-                                          <div className="flex-1">
-                                            <div className="flex items-center gap-2 mb-1">
-                                              <span className="text-white font-medium">{segment.airline?.name || 'Airline'}</span>
-                                              <span className="text-white/40 text-xs">{segment.flightNumber}</span>
-                                            </div>
-                                            <div className="flex items-center gap-4 text-sm">
-                                              <div>
-                                                <p className="text-white font-semibold">{formatTime(segment.departureTime)}</p>
-                                                <p className="text-white/60">{segment.departureAirport?.code} · {segment.departureAirport?.city}</p>
-                                              </div>
-                                              <div className="flex-1 flex items-center gap-2">
-                                                <div className="h-px flex-1 bg-white/20"></div>
-                                                <span className="text-white/50 text-xs">{formatDuration(segment.duration)}</span>
-                                                <div className="h-px flex-1 bg-white/20"></div>
-                                              </div>
-                                              <div className="text-right">
-                                                <p className="text-white font-semibold">{formatTime(segment.arrivalTime)}</p>
-                                                <p className="text-white/60">{segment.arrivalAirport?.code} · {segment.arrivalAirport?.city}</p>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        {/* Layover */}
-                                        {idx < returnFlight.segments.length - 1 && (
-                                          <div className="ml-13 my-3 flex items-center gap-3 pl-10">
-                                            <div className="w-6 h-6 rounded-full bg-amber-500/20 flex items-center justify-center">
-                                              <svg className="w-3 h-3 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                              </svg>
-                                            </div>
-                                            <span className="text-amber-400 text-sm">
-                                              {calculateLayover(segment.arrivalTime, returnFlight.segments[idx + 1].departureTime)} layover in {segment.arrivalAirport?.city}
-                                            </span>
-                                          </div>
-                                        )}
-                                      </div>
-                                    ))}
-                                  </div>
-                                </div>
-                              )}
-
-                              {/* Baggage & Fare info */}
-                              <div className="grid grid-cols-2 gap-3">
-                                {/* Baggage */}
-                                <div className="bg-white/5 rounded-xl p-3">
-                                  <h5 className="text-white/60 text-xs mb-2 uppercase">Baggage</h5>
-                                  <div className="space-y-1">
-                                    <div className="flex items-center gap-2">
-                                      <svg className="w-4 h-4 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                      </svg>
-                                      <span className="text-white text-sm">
-                                        {flight.baggageAllowance?.carryOn ? 'Carry-on included' : 'No carry-on'}
-                                      </span>
-                                    </div>
-                                    <div className="flex items-center gap-2">
-                                      <svg className="w-4 h-4 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                                      </svg>
-                                      <span className="text-white text-sm">
-                                        {flight.baggageAllowance?.checkedBags > 0
-                                          ? `${flight.baggageAllowance.checkedBags} checked bag${flight.baggageAllowance.checkedBags > 1 ? 's' : ''}`
-                                          : 'No checked bags'}
-                                        {flight.baggageAllowance?.checkedBagWeightKg && (
-                                          <span className="text-white/50"> ({flight.baggageAllowance.checkedBagWeightKg}kg each)</span>
-                                        )}
-                                      </span>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                {/* Fare conditions */}
-                                <div className="bg-white/5 rounded-xl p-3">
-                                  <h5 className="text-white/60 text-xs mb-2 uppercase">Fare Conditions</h5>
-                                  <div className="space-y-1">
-                                    <div className="flex items-center gap-2">
-                                      {flight.restrictions?.refundable ? (
-                                        <>
-                                          <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                          </svg>
-                                          <span className="text-green-400 text-sm">Refundable</span>
-                                        </>
-                                      ) : (
-                                        <>
-                                          <svg className="w-4 h-4 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                                          </svg>
-                                          <span className="text-white/60 text-sm">Non-refundable</span>
-                                        </>
-                                      )}
-                                    </div>
-                                    <div className="flex items-center gap-2">
-                                      {flight.restrictions?.changeable ? (
-                                        <>
-                                          <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                          </svg>
-                                          <span className="text-green-400 text-sm">
-                                            Changeable
-                                            {flight.restrictions?.changesFee && (
-                                              <span className="text-white/50"> (${flight.restrictions.changesFee} fee)</span>
-                                            )}
-                                          </span>
-                                        </>
-                                      ) : (
-                                        <>
-                                          <svg className="w-4 h-4 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                                          </svg>
-                                          <span className="text-white/60 text-sm">No changes allowed</span>
-                                        </>
-                                      )}
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-                              {/* Fare brand & cabin */}
-                              <div className="flex items-center gap-3">
-                                {outbound?.fareBrandName && (
-                                  <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs">
-                                    {outbound.fareBrandName}
-                                  </span>
-                                )}
-                                <span className="px-3 py-1 bg-white/10 text-white/70 rounded-full text-xs capitalize">
-                                  {flight.cabinClass?.replace('_', ' ') || 'Economy'}
-                                </span>
-                                {flight.totalEmissionsKg && (
-                                  <span className="px-3 py-1 bg-green-500/10 text-green-400/70 rounded-full text-xs">
-                                    {flight.totalEmissionsKg}kg CO₂
-                                  </span>
-                                )}
-                              </div>
-
-                              {/* Select button */}
-                              <button
-                                onClick={() => {
-                                  setSelectedFlight(flight);
-                                  setSkipFlights(false);
-                                  // Track flight selection for preference learning
-                                  if (trip) {
-                                    const outboundSlice = flight.slices?.[0];
-                                    const departureHour = outboundSlice?.departureTime
-                                      ? new Date(outboundSlice.departureTime).getHours()
-                                      : 12;
-                                    const isRedEye = departureHour >= 21 || departureHour <= 5;
-                                    trackFlightSelection({
-                                      destinationId: trip.destination.city.toLowerCase().replace(/\s+/g, '-'),
-                                      departureHour,
-                                      price: flight.amount || flight.totalAmount || 0,
-                                      stops: outboundSlice?.stops ?? 0,
-                                      duration: parseDurationMinutes(outboundSlice?.duration || 'PT0H'),
-                                      cabinClass: flight.cabinClass || 'economy',
-                                      isRedEye,
-                                    });
-                                  }
-                                }}
-                                className={`w-full py-3 rounded-xl font-semibold transition-colors ${
-                                  isSelected
-                                    ? 'bg-white text-gray-900'
-                                    : 'bg-white/20 text-white hover:bg-white/30'
-                                }`}
-                              >
-                                {isSelected ? '✓ Selected' : 'Select This Flight'}
-                              </button>
-                            </div>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-                </>
-              )}
-
-              {/* Out of preference section */}
-              {!isLoadingFlights && !flightError && outOfPrefFlights.length > 0 && (
-                <div className="mb-4">
-                  <button
-                    onClick={() => setShowOutOfPref(!showOutOfPref)}
-                    className="w-full flex items-center justify-between p-3 bg-white/5 rounded-xl hover:bg-white/10 transition-colors"
-                  >
-                    <span className="text-white/60 text-sm">
-                      {outOfPrefFlights.length} more option{outOfPrefFlights.length > 1 ? 's' : ''} outside your preferences
-                    </span>
-                    <svg
-                      className={`w-5 h-5 text-white/60 transition-transform ${showOutOfPref ? 'rotate-180' : ''}`}
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
-
-                  {showOutOfPref && (
-                    <div className="mt-3 space-y-3">
-                      {outOfPrefFlights.slice(0, 5).map((flight: any) => {
-                        const outbound = flight.slices?.[0];
-                        const returnFlight = flight.slices?.[1];
-                        const isSelected = selectedFlight?.id === flight.id && !skipFlights;
-                        const isExpanded = expandedFlightId === flight.id;
-
-                        return (
-                          <div
-                            key={flight.id}
-                            className={`w-full text-left bg-white/5 backdrop-blur-md rounded-2xl overflow-hidden transition-all ${
-                              isSelected ? 'ring-2 ring-amber-500' : ''
-                            }`}
-                          >
-                            <button
-                              onClick={() => setExpandedFlightId(isExpanded ? null : flight.id)}
-                              className="w-full p-4 text-left hover:bg-white/5 transition-colors"
-                            >
-                              <div className="flex items-center justify-between mb-2">
-                                <div className="flex items-center gap-2">
-                                  <p className="text-white/80 font-medium">{flight.airlines?.[0]?.name || 'Multiple Airlines'}</p>
-                                  <span className="text-white/40">·</span>
-                                  <p className="text-white/50 text-sm">
-                                    {outbound?.stops === 0 ? 'Direct' : `${outbound?.stops} stop${outbound?.stops > 1 ? 's' : ''}`}
-                                    {' · '}{formatDuration(outbound?.duration || 'PT0H')}
-                                  </p>
-                                </div>
-                                <div className="flex items-center gap-2">
-                                  <p className="text-white/80 font-bold">
-                                    {formatPrice(flight.pricing?.totalAmount || 0, flight.pricing?.currency || 'USD')}
-                                  </p>
-                                  <svg
-                                    className={`w-4 h-4 text-white/40 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor"
-                                  >
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                  </svg>
-                                </div>
-                              </div>
-                              {/* Out of preference reasons */}
-                              {flight.outOfPreferenceReasons && flight.outOfPreferenceReasons.length > 0 && (
-                                <div className="flex flex-wrap gap-1.5">
-                                  {flight.outOfPreferenceReasons.map((reason: string, i: number) => (
-                                    <span
-                                      key={i}
-                                      className="px-2 py-0.5 bg-amber-500/20 text-amber-400 rounded-full text-xs"
-                                    >
-                                      {reason}
-                                    </span>
-                                  ))}
-                                </div>
-                              )}
-                            </button>
-
-                            {/* Expanded details for out-of-pref flights */}
-                            {isExpanded && (
-                              <div className="border-t border-white/10 p-4 space-y-3">
-                                {/* Times */}
-                                <div className="grid grid-cols-2 gap-3">
-                                  <div className="bg-white/5 rounded-lg p-2">
-                                    <p className="text-white/50 text-xs mb-1">OUTBOUND</p>
-                                    <p className="text-white text-sm font-medium">
-                                      {formatTime(outbound?.departureTime)} → {formatTime(outbound?.arrivalTime)}
-                                    </p>
-                                    <p className="text-white/40 text-xs">{formatDate(outbound?.departureTime)}</p>
-                                  </div>
-                                  {returnFlight && (
-                                    <div className="bg-white/5 rounded-lg p-2">
-                                      <p className="text-white/50 text-xs mb-1">RETURN</p>
-                                      <p className="text-white text-sm font-medium">
-                                        {formatTime(returnFlight?.departureTime)} → {formatTime(returnFlight?.arrivalTime)}
-                                      </p>
-                                      <p className="text-white/40 text-xs">{formatDate(returnFlight?.departureTime)}</p>
-                                    </div>
-                                  )}
-                                </div>
-
-                                {/* Quick info */}
-                                <div className="flex items-center gap-2 flex-wrap">
-                                  <span className="px-2 py-1 bg-white/10 text-white/70 rounded-full text-xs capitalize">
-                                    {flight.cabinClass?.replace('_', ' ') || 'Economy'}
-                                  </span>
-                                  {flight.baggageAllowance?.checkedBags > 0 && (
-                                    <span className="px-2 py-1 bg-white/10 text-white/70 rounded-full text-xs">
-                                      {flight.baggageAllowance.checkedBags} checked bag{flight.baggageAllowance.checkedBags > 1 ? 's' : ''}
-                                    </span>
-                                  )}
-                                  {flight.restrictions?.refundable && (
-                                    <span className="px-2 py-1 bg-green-500/20 text-green-400 rounded-full text-xs">
-                                      Refundable
-                                    </span>
-                                  )}
-                                </div>
-
-                                <button
-                                  onClick={() => {
-                                    setSelectedFlight(flight);
-                                    setSkipFlights(false);
-                                    // Track flight selection for preference learning
-                                    if (trip) {
-                                      const outboundSlice = flight.slices?.[0];
-                                      const departureHour = outboundSlice?.departureTime
-                                        ? new Date(outboundSlice.departureTime).getHours()
-                                        : 12;
-                                      const isRedEye = departureHour >= 21 || departureHour <= 5;
-                                      trackFlightSelection({
-                                        destinationId: trip.destination.city.toLowerCase().replace(/\s+/g, '-'),
-                                        departureHour,
-                                        price: flight.amount || flight.totalAmount || 0,
-                                        stops: outboundSlice?.stops ?? 0,
-                                        duration: parseDurationMinutes(outboundSlice?.duration || 'PT0H'),
-                                        cabinClass: flight.cabinClass || 'economy',
-                                        isRedEye,
-                                      });
-                                    }
-                                  }}
-                                  className={`w-full py-3 rounded-xl font-semibold transition-colors ${
-                                    isSelected
-                                      ? 'bg-amber-500 text-white'
-                                      : 'bg-white/20 text-white hover:bg-white/30'
-                                  }`}
-                                >
-                                  {isSelected ? '✓ Selected' : 'Select Anyway'}
-                                </button>
-                              </div>
-                            )}
-                          </div>
-                        );
-                      })}
-                    </div>
-                  )}
-                </div>
-              )}
-
-              {/* No flights found */}
-              {!isLoadingFlights && !flightError && flightOptions.length === 0 && flightFetchAttempted && (
-                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-5 mb-4">
-                  <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center">
-                      <svg className="w-6 h-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-white font-semibold">No flights found</h3>
-                      <p className="text-white/60 text-sm">
-                        We couldn't find flights for these dates. You can book separately.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              {/* Skip option */}
-              <button
-                onClick={() => {
-                  setSkipFlights(!skipFlights);
-                  if (!skipFlights) {
-                    setSelectedFlight(null);
-                  } else if (flightOptions.length > 0) {
-                    setSelectedFlight(flightOptions[0]);
-                  }
-                }}
-                className={`w-full p-4 rounded-xl border-2 transition-all mb-4 ${
-                  skipFlights
-                    ? 'border-amber-500 bg-amber-500/10'
-                    : 'border-white/20 hover:border-white/40'
-                }`}
-              >
-                <div className="flex items-center gap-3">
-                  <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center ${
-                    skipFlights ? 'border-amber-500 bg-amber-500' : 'border-white/40'
-                  }`}>
-                    {skipFlights && (
-                      <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
-                    )}
-                  </div>
-                  <div className="text-left">
-                    <p className="text-white font-medium">I'll book flights myself</p>
-                    <p className="text-white/50 text-sm">Skip this step and just get the itinerary</p>
-                  </div>
-                </div>
-              </button>
-            </div>
-          </div>
-
-          {/* Bottom button */}
-          <div className="p-4 pb-safe border-t border-white/10">
-            <button
-              onClick={handleContinueFromFlights}
-              disabled={isLoadingFlights}
-              className="w-full py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
-            >
-              {isLoadingFlights ? 'Loading...' : 'Continue to Hotels'}
-            </button>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  // Step 4: Hotel booking
+  // Step 2: Hotel booking
   if (step === 'hotels') {
     return (
       <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
@@ -1781,7 +991,7 @@ function FlashExploreContent() {
                 <span className="text-sm font-medium">Back</span>
               </button>
               <div className="text-center">
-                <p className="text-white/50 text-xs">Step 3 of 4</p>
+                <p className="text-white/50 text-xs">Step 2 of 3</p>
                 <h1 className="text-white font-bold">Hotels</h1>
               </div>
               <div className="w-16" />
@@ -2239,12 +1449,11 @@ function FlashExploreContent() {
     );
   }
 
-  // Step 5: Checkout summary
+  // Step 3: Checkout summary
   if (step === 'checkout') {
-    const flightTotal = skipFlights ? 0 : trip.flight.price;
     const hotelTotal = skipHotels ? 0 : (selectedHotel?.totalPrice || 0);
-    const grandTotal = flightTotal + hotelTotal;
-    const hasAnythingToBook = !skipFlights || (!skipHotels && selectedHotel);
+    const grandTotal = hotelTotal;
+    const hasAnythingToBook = !skipHotels && selectedHotel;
 
     return (
       <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
@@ -2262,7 +1471,7 @@ function FlashExploreContent() {
                 <span className="text-sm font-medium">Back</span>
               </button>
               <div className="text-center">
-                <p className="text-white/50 text-xs">Step 4 of 4</p>
+                <p className="text-white/50 text-xs">Step 3 of 3</p>
                 <h1 className="text-white font-bold">Checkout</h1>
               </div>
               <div className="w-16" />
@@ -2296,23 +1505,6 @@ function FlashExploreContent() {
                       <span className="text-white/80">Personalized Itinerary</span>
                     </div>
                     <span className="text-green-400 font-medium">Free</span>
-                  </div>
-
-                  {/* Flights */}
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span className="text-lg">✈️</span>
-                      <span className={skipFlights ? 'text-white/40 line-through' : 'text-white/80'}>
-                        Round-trip flights
-                      </span>
-                    </div>
-                    {skipFlights ? (
-                      <span className="text-white/40">Skipped</span>
-                    ) : (
-                      <span className="text-white font-medium">
-                        {formatPrice(trip.flight.price, trip.flight.currency)}
-                      </span>
-                    )}
                   </div>
 
                   {/* Hotel */}

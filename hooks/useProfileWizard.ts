@@ -11,7 +11,6 @@ import type {
   TravelStyleConfig,
   InterestConfig,
   RestrictionConfig,
-  FlightPreferences,
 } from '@/types/flash';
 import { WIZARD_STEPS, DEFAULT_FLASH_PREFERENCES } from '@/types/flash';
 
@@ -180,16 +179,6 @@ export function useProfileWizard(options: UseProfileWizardOptions = {}) {
     }));
   }, []);
 
-  const updateFlightPreferences = useCallback((flightPreferences: Partial<FlightPreferences>) => {
-    setState(prev => ({
-      ...prev,
-      stepData: {
-        ...prev.stepData,
-        flightPreferences: { ...prev.stepData.flightPreferences, ...flightPreferences } as FlightPreferences,
-      },
-    }));
-  }, []);
-
   const nextStep = useCallback(async () => {
     // Save current step data
     const saved = await savePreferences(state.stepData);
@@ -246,11 +235,9 @@ export function useProfileWizard(options: UseProfileWizardOptions = {}) {
         return !!data.travelers?.type && (data.travelers?.adults || 0) >= 1;
       case 'homeBase':
         return !!data.homeBase?.airportCode && !!data.homeBase?.city;
-      case 'budgetFlights':
-        // Budget and flight preferences - budget max is required
+      case 'budgetAccommodation':
+        // Budget max is required; accommodation tier is optional but checked
         return (data.budget?.perTripMax || 0) > 0;
-      case 'accommodation':
-        return data.accommodation?.minStars !== undefined;
       default:
         return false;
     }
@@ -279,7 +266,6 @@ export function useProfileWizard(options: UseProfileWizardOptions = {}) {
     updateHomeBase,
     updateBudget,
     updateAccommodation,
-    updateFlightPreferences,
     // Legacy update functions (kept for backwards compatibility)
     updateTravelStyle,
     updateInterests,

@@ -1,6 +1,5 @@
-// Trip planning types - bundles flights, hotels, and itinerary
+// Trip planning types - bundles hotels and itinerary (flights removed from product)
 
-import type { NormalizedFlight } from './flight';
 import type { NormalizedHotel } from './hotel';
 
 export interface TripDestination {
@@ -25,7 +24,7 @@ export interface TripActivity {
   time?: string;
   title: string;
   description?: string;
-  type: 'arrival' | 'departure' | 'check_in' | 'check_out' | 'sightseeing' | 'dining' | 'activity' | 'free_time' | 'transfer';
+  type: 'check_in' | 'check_out' | 'sightseeing' | 'dining' | 'activity' | 'free_time' | 'transfer';
   location?: string;
   duration?: string;
   cost?: {
@@ -37,11 +36,6 @@ export interface TripActivity {
 }
 
 export interface TripPricing {
-  flights: {
-    amount: number;
-    currency: string;
-    perPerson: number;
-  };
   accommodation: {
     amount: number;
     currency: string;
@@ -85,8 +79,6 @@ export interface TripPlan {
   };
 
   // Bookings
-  outboundFlight?: NormalizedFlight;
-  returnFlight?: NormalizedFlight;
   accommodation?: NormalizedHotel;
 
   // Day-by-day itinerary
@@ -116,7 +108,6 @@ export interface TripSearchParams {
     infants?: number;
   };
   preferences?: {
-    cabinClass?: 'economy' | 'premium_economy' | 'business' | 'first';
     hotelStars?: number;
     budget?: {
       max: number;
@@ -129,7 +120,6 @@ export interface TripSearchParams {
 export interface TripPlanGenerationResult {
   tripPlan: TripPlan;
   alternatives?: {
-    flights: NormalizedFlight[];
     hotels: NormalizedHotel[];
   };
   messages: string[];
@@ -171,7 +161,6 @@ export function createEmptyTripPlan(params: TripSearchParams): TripPlan {
     itinerary: [],
 
     pricing: {
-      flights: { amount: 0, currency: 'USD', perPerson: 0 },
       accommodation: { amount: 0, currency: 'USD', perNight: 0 },
       estimated: { activities: 0, food: 0, transport: 0 },
       total: { amount: 0, currency: 'USD' },
@@ -179,14 +168,12 @@ export function createEmptyTripPlan(params: TripSearchParams): TripPlan {
   };
 }
 
-// Helper to calculate total trip cost
+// Helper to calculate total trip cost (hotel-only)
 export function calculateTripPricing(
-  flight: NormalizedFlight | undefined,
   hotel: NormalizedHotel | undefined,
   nights: number,
   travelers: number
 ): TripPricing {
-  const flightCost = flight?.pricing.totalAmount || 0;
   const hotelCost = hotel ? (hotel.pricing.nightlyRate * nights) : 0;
 
   // Rough estimates for other costs
@@ -195,11 +182,6 @@ export function calculateTripPricing(
   const dailyTransport = 20 * travelers;
 
   return {
-    flights: {
-      amount: flightCost,
-      currency: flight?.pricing.currency || 'USD',
-      perPerson: flight?.pricing.perPassenger || 0,
-    },
     accommodation: {
       amount: hotelCost,
       currency: hotel?.pricing.currency || 'USD',
@@ -211,7 +193,7 @@ export function calculateTripPricing(
       transport: dailyTransport * nights,
     },
     total: {
-      amount: flightCost + hotelCost + (dailyFood + dailyActivities + dailyTransport) * nights,
+      amount: hotelCost + (dailyFood + dailyActivities + dailyTransport) * nights,
       currency: 'USD',
     },
   };

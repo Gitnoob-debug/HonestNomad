@@ -1,14 +1,13 @@
 /**
  * Loyalty Program Integration
- * Handles automatic attachment of loyalty program numbers to flight bookings
- * and hotel loyalty reminders at check-in
+ * Handles hotel loyalty reminders at check-in
+ * Flight loyalty attachment removed (flights feature removed)
  */
 
 export * from './airlines';
 export * from './hotels';
 
-import type { FlightBookingPassenger, LoyaltyProgramAccount } from '@/types/flight';
-import { findMatchingLoyaltyProgram, getLoyaltyProgramIata } from './airlines';
+import { getLoyaltyProgramIata } from './airlines';
 
 interface UserLoyaltyProgram {
   id: string;
@@ -17,39 +16,9 @@ interface UserLoyaltyProgram {
   memberNumber: string;
 }
 
-/**
- * Attach matching loyalty programs to passengers for a flight booking
- * This automatically adds frequent flyer numbers so users earn miles
- */
-export function attachLoyaltyProgramsToPassengers(
-  passengers: FlightBookingPassenger[],
-  userLoyaltyPrograms: UserLoyaltyProgram[] | undefined,
-  flightAirlines: string[] // IATA codes of airlines on the itinerary
-): FlightBookingPassenger[] {
-  if (!userLoyaltyPrograms || userLoyaltyPrograms.length === 0) {
-    return passengers;
-  }
-
-  // Filter to only airline programs
-  const airlinePrograms = userLoyaltyPrograms.filter((p) => p.type === 'airline');
-  if (airlinePrograms.length === 0) {
-    return passengers;
-  }
-
-  // Find the best matching loyalty program for this flight
-  const matchingProgram = findMatchingLoyaltyProgram(airlinePrograms, flightAirlines);
-
-  if (!matchingProgram) {
-    return passengers;
-  }
-
-  // Attach the loyalty program to all passengers
-  // (In practice, different passengers might have different programs,
-  // but for now we use the primary user's program for all)
-  return passengers.map((passenger) => ({
-    ...passenger,
-    loyaltyProgramAccounts: [matchingProgram],
-  }));
+interface LoyaltyProgramAccount {
+  airlineIataCode: string;
+  accountNumber: string;
 }
 
 /**
@@ -73,7 +42,7 @@ export function getUserAirlineLoyaltyIataCodes(
 }
 
 /**
- * Convert user's stored loyalty programs to the format needed for flight booking
+ * Convert user's stored loyalty programs to the format needed for booking
  */
 export function convertToLoyaltyProgramAccounts(
   userLoyaltyPrograms: UserLoyaltyProgram[] | undefined

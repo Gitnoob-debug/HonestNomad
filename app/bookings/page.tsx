@@ -46,8 +46,8 @@ export default async function BookingsPage() {
           <p className="text-gray-600 mb-6">
             Start planning your next adventure!
           </p>
-          <Link href="/">
-            <Button>Find a Hotel</Button>
+          <Link href="/flash">
+            <Button>Plan a Trip</Button>
           </Link>
         </Card>
       ) : (
@@ -57,16 +57,16 @@ export default async function BookingsPage() {
               <Card hover className="flex items-center justify-between">
                 <div>
                   <h3 className="font-semibold text-gray-900">
-                    {booking.hotelName}
+                    {booking.hotel_name}
                   </h3>
                   <p className="text-sm text-gray-600">
-                    {format(new Date(booking.checkIn), 'MMM d')} -{' '}
-                    {format(new Date(booking.checkOut), 'MMM d, yyyy')}
+                    {format(new Date(booking.check_in), 'MMM d')} -{' '}
+                    {format(new Date(booking.check_out), 'MMM d, yyyy')}
                   </p>
                 </div>
                 <div className="text-right">
                   <p className="font-semibold">
-                    {booking.currency} {booking.totalAmount}
+                    {booking.currency} {booking.total_amount}
                   </p>
                   <span
                     className={`text-xs px-2 py-1 rounded-full ${

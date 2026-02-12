@@ -16,16 +16,16 @@ export default async function BookingPage({ params }: BookingPageProps) {
   // Transform to BookingResult format
   const bookingResult = {
     id: booking.id,
-    bookingReference: booking.duffelBookingId,
+    bookingReference: booking.provider_booking_id || booking.id,
     status: booking.status as 'pending' | 'confirmed' | 'cancelled' | 'completed',
     hotel: {
-      name: booking.hotelName,
+      name: booking.hotel_name,
       address: '',
     },
-    checkIn: booking.checkIn,
-    checkOut: booking.checkOut,
+    checkIn: booking.check_in,
+    checkOut: booking.check_out,
     guests: [],
-    totalAmount: booking.totalAmount.toString(),
+    totalAmount: booking.total_amount?.toString() || '0',
     currency: booking.currency,
     cancellationPolicy: {
       refundable: false,

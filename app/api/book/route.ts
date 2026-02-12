@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createBooking } from '@/lib/duffel/book';
 import { createBookingRecord } from '@/lib/supabase/bookings';
 import { createServerSupabaseClient } from '@/lib/supabase/server';
 
@@ -12,9 +11,9 @@ export async function POST(request: NextRequest) {
       hotelName,
       checkIn,
       checkOut,
+      roomType,
       guestDetails,
       paymentToken,
-      conversationId,
     } = body;
 
     // Validate required fields
@@ -25,15 +24,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Create booking via Duffel
-    const booking = await createBooking({
-      rateId,
-      guests: [guestDetails],
-      payment: {
-        type: 'card',
-        cardToken: paymentToken,
-      },
-    });
+    // TODO: Create booking via LiteAPI
+    // const booking = await liteapi.book({ rateId, guests: [guestDetails], payment: paymentToken });
+    // For now, return a stub response
+    const providerBookingId = `pending_${Date.now()}`;
 
     // Get user if logged in
     const supabase = createServerSupabaseClient();
@@ -41,25 +35,24 @@ export async function POST(request: NextRequest) {
 
     // Store booking in database
     const dbBooking = await createBookingRecord({
-      conversationId,
-      duffelBookingId: booking.id,
-      hotelName: hotelName || booking.hotel.name,
+      providerBookingId,
+      hotelName: hotelName || '',
       hotelId: hotelId || '',
       checkIn,
       checkOut,
+      roomType,
       guestName: `${guestDetails.givenName} ${guestDetails.familyName}`,
       guestEmail: guestDetails.email,
       guestPhone: guestDetails.phone,
-      totalAmount: parseFloat(booking.totalAmount),
-      currency: booking.currency,
-      duffelResponse: booking,
+      totalAmount: 0, // TODO: get from LiteAPI response
+      currency: 'USD', // TODO: get from LiteAPI response
     });
 
     return NextResponse.json({
       booking: {
-        ...booking,
         id: dbBooking.id,
-        duffelBookingId: booking.id,
+        providerBookingId,
+        status: 'pending',
       },
     });
   } catch (error: any) {

@@ -1,5 +1,6 @@
 import type { CachedPOI, DestinationPOICache, ItineraryPathType } from '@/types/poi';
 import type { ItineraryStop } from './itinerary-generator';
+import { resolvePOIImageUrl } from '@/lib/supabase/images';
 
 // Load POI cache for a destination
 export async function loadDestinationPOIs(destinationId: string): Promise<DestinationPOICache | null> {
@@ -65,7 +66,7 @@ export function poiToItineraryStop(poi: CachedPOI, day: number, stopIndex: numbe
     latitude: poi.latitude,
     longitude: poi.longitude,
     duration: poi.suggestedDuration,
-    imageUrl: poi.imageUrl,
+    imageUrl: resolvePOIImageUrl(poi) || poi.imageUrl,
     day,
     // Extended data from Google Places
     googleRating: poi.googleRating,

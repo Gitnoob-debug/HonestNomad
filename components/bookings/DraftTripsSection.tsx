@@ -94,22 +94,11 @@ export default function DraftTripsSection() {
                 </h3>
 
                 <p className="text-sm text-gray-600">
-                  {new Date(draft.trip.flight.outbound.departure).toLocaleDateString('en-US', {
-                    month: 'short',
-                    day: 'numeric'
-                  })} - {new Date(draft.trip.flight.return.arrival).toLocaleDateString('en-US', {
-                    month: 'short',
-                    day: 'numeric',
-                    year: 'numeric'
-                  })}
+                  {draft.trip.itinerary.days} night{draft.trip.itinerary.days !== 1 ? 's' : ''}
+                  {draft.trip.pricing?.hotel ? ` · $${draft.trip.pricing.hotel} hotel` : ''}
                 </p>
 
                 <div className="flex items-center gap-4 mt-2 text-sm text-gray-500">
-                  {draft.trip.flight && (
-                    <span>
-                      ${draft.trip.flight.price} flight
-                    </span>
-                  )}
                   {draft.favorites.length > 0 && (
                     <span>
                       {draft.favorites.length} saved place{draft.favorites.length !== 1 ? 's' : ''}

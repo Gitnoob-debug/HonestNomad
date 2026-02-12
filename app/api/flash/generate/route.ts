@@ -4,16 +4,13 @@ import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { getFlashPreferences } from '@/lib/supabase/profiles';
 import { generateTripBatch } from '@/lib/flash/tripGenerator';
 import { loadRevealedPreferences } from '@/lib/flash/preferenceStorage';
-import type { FlashGenerateParams } from '@/types/flash';
+import { DEFAULT_FLASH_PREFERENCES } from '@/types/flash';
+import type { FlashGenerateParams, FlashVacationPreferences } from '@/types/flash';
 
 export async function POST(request: NextRequest) {
   try {
     const supabase = createServerSupabaseClient();
     const { data: { user } } = await supabase.auth.getUser();
-
-    if (!user) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    }
 
     // Parse request body
     const body: FlashGenerateParams = await request.json();
@@ -46,22 +43,21 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Get user's flash preferences
-    const { preferences, profileComplete, missingSteps } = await getFlashPreferences(user.id);
+    // Get preferences: user's saved preferences or defaults for anonymous users
+    let preferences: FlashVacationPreferences = {
+      ...DEFAULT_FLASH_PREFERENCES,
+      profileCompleted: true, // Treat defaults as complete so generation proceeds
+    };
+    let revealedPreferences: any = undefined;
 
-    if (!preferences || !profileComplete) {
-      return NextResponse.json(
-        {
-          error: 'Flash profile incomplete',
-          missingSteps,
-          message: 'Please complete your flash profile before generating trips',
-        },
-        { status: 400 }
-      );
+    if (user) {
+      const result = await getFlashPreferences(user.id);
+      if (result.preferences && result.profileComplete) {
+        preferences = result.preferences;
+      }
+      // Load revealed preferences (learned from swipe behavior)
+      revealedPreferences = await loadRevealedPreferences(user.id);
     }
-
-    // Load revealed preferences (learned from swipe behavior)
-    const revealedPreferences = await loadRevealedPreferences(user.id);
 
     // Generate trip batch with revealed preferences
     const { trips, generationTime, diversityScore } = await generateTripBatch(

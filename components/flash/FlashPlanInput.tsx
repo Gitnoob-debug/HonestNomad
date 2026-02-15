@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui';
+import { findNearestAirport, type AirportInfo } from '@/lib/flash/airportCoords';
 import type { FlashGenerateParams, BudgetTier, TravelerType } from '@/types/flash';
 
 interface FlashPlanInputProps {
@@ -28,7 +29,7 @@ const REGION_PRESETS = [
   { value: 'anywhere', label: 'Anywhere', emoji: '🌍' },
 ];
 
-// Traveler type options (inside More Options)
+// Traveler type options
 const TRAVELER_PRESETS: { value: TravelerType; label: string; emoji: string }[] = [
   { value: 'solo', label: 'Solo', emoji: '🧑' },
   { value: 'couple', label: 'Couple', emoji: '💑' },
@@ -36,30 +37,72 @@ const TRAVELER_PRESETS: { value: TravelerType; label: string; emoji: string }[] 
   { value: 'friends', label: 'Friends', emoji: '👥' },
 ];
 
-// Session storage key for traveler type
+// Session storage keys
 const TRAVELERS_STORAGE_KEY = 'flash_traveler_type';
+const AIRPORT_STORAGE_KEY = 'flash_origin_airport';
 
 export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
   const [departureDate, setDepartureDate] = useState('');
   const [returnDate, setReturnDate] = useState('');
 
   const [selectedVibes, setSelectedVibes] = useState<string[]>([]);
+  const [travelerType, setTravelerType] = useState<TravelerType>('couple');
+
+  // Geolocation → nearest airport
+  const [detectedAirport, setDetectedAirport] = useState<AirportInfo | null>(null);
+  const [geoStatus, setGeoStatus] = useState<'idle' | 'detecting' | 'done' | 'denied'>('idle');
 
   // --- Defaults that live behind "More options" ---
-  const [travelerType, setTravelerType] = useState<TravelerType>('couple');
   const [budgetTier, setBudgetTier] = useState<BudgetTier>('deals');
   const [selectedRegion, setSelectedRegion] = useState<string>('anywhere');
   const [showMoreOptions, setShowMoreOptions] = useState(false);
 
-  // Load traveler type from session storage
+  // Load saved state from session storage
   useEffect(() => {
     try {
-      const stored = sessionStorage.getItem(TRAVELERS_STORAGE_KEY);
-      if (stored && ['solo', 'couple', 'family', 'friends'].includes(stored)) {
-        setTravelerType(stored as TravelerType);
+      const storedTraveler = sessionStorage.getItem(TRAVELERS_STORAGE_KEY);
+      if (storedTraveler && ['solo', 'couple', 'family', 'friends'].includes(storedTraveler)) {
+        setTravelerType(storedTraveler as TravelerType);
+      }
+
+      const storedAirport = sessionStorage.getItem(AIRPORT_STORAGE_KEY);
+      if (storedAirport) {
+        const airport = JSON.parse(storedAirport) as AirportInfo;
+        setDetectedAirport(airport);
+        setGeoStatus('done');
       }
     } catch {}
   }, []);
+
+  // Auto-detect location on mount (silent, non-blocking)
+  useEffect(() => {
+    // Skip if we already have a cached airport
+    if (geoStatus === 'done') return;
+
+    // Check if geolocation is available
+    if (!navigator.geolocation) {
+      setGeoStatus('denied');
+      return;
+    }
+
+    setGeoStatus('detecting');
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const airport = findNearestAirport(position.coords.latitude, position.coords.longitude);
+        setDetectedAirport(airport);
+        setGeoStatus('done');
+        try {
+          sessionStorage.setItem(AIRPORT_STORAGE_KEY, JSON.stringify(airport));
+        } catch {}
+      },
+      () => {
+        // User denied or error — silently continue without airport
+        setGeoStatus('denied');
+      },
+      { timeout: 8000, maximumAge: 600000 } // 8s timeout, cache for 10min
+    );
+  }, [geoStatus]);
 
   // Save traveler type to session storage
   const handleTravelerChange = (type: TravelerType) => {
@@ -106,6 +149,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
       budgetMode: budgetTier === 'budget' ? 'bargain' : budgetTier === 'extravagant' ? 'custom' : 'regular',
       customBudget: budgetTier === 'extravagant' ? 'no limit, luxury only' : undefined,
       travelers: travelerType,
+      originAirport: detectedAirport?.code || undefined,
     });
   };
 
@@ -118,7 +162,6 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
 
   // Count active "More options" overrides for the badge
   const moreOptionsCount =
-    (travelerType !== 'couple' ? 1 : 0) +
     (budgetTier !== 'deals' ? 1 : 0) +
     (selectedRegion !== 'anywhere' ? 1 : 0);
 
@@ -169,6 +212,27 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
           )}
         </div>
 
+        {/* ========== TRAVELERS SECTION (compact inline) ========== */}
+        <div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Who&apos;s going?</h3>
+          <div className="flex gap-2">
+            {TRAVELER_PRESETS.map((t) => (
+              <button
+                key={t.value}
+                onClick={() => handleTravelerChange(t.value)}
+                className={`flex-1 py-2.5 px-2 rounded-xl text-center transition-all border-2 flex flex-col items-center gap-1 ${
+                  travelerType === t.value
+                    ? 'border-primary-600 bg-primary-50 text-primary-700'
+                    : 'border-gray-200 hover:border-gray-300 text-gray-600'
+                }`}
+              >
+                <span className="text-xl">{t.emoji}</span>
+                <span className="text-xs font-medium">{t.label}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* ========== VIBE SECTION ========== */}
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-1">What vibe?</h3>
@@ -215,27 +279,6 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
 
           {showMoreOptions && (
             <div className="mt-4 pt-4 border-t border-gray-100 space-y-6">
-              {/* Travelers */}
-              <div>
-                <h4 className="text-sm font-medium text-gray-700 mb-3">Who&apos;s going?</h4>
-                <div className="flex gap-2">
-                  {TRAVELER_PRESETS.map((t) => (
-                    <button
-                      key={t.value}
-                      onClick={() => handleTravelerChange(t.value)}
-                      className={`flex-1 py-2.5 px-2 rounded-lg text-center transition-all border-2 flex flex-col items-center gap-1 ${
-                        travelerType === t.value
-                          ? 'border-primary-600 bg-primary-50 text-primary-700'
-                          : 'border-gray-200 hover:border-gray-300 text-gray-600'
-                      }`}
-                    >
-                      <span className="text-lg">{t.emoji}</span>
-                      <span className="text-xs font-medium">{t.label}</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-
               {/* Budget */}
               <div>
                 <h4 className="text-sm font-medium text-gray-700 mb-3">Budget</h4>
@@ -297,9 +340,15 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
           {isLoading ? 'Finding trips...' : 'Find My Trips'}
         </Button>
 
-        <p className="text-center text-sm text-gray-500">
-          16 curated destinations matched to your taste
-        </p>
+        {/* Subtle info line — airport detection + count */}
+        <div className="text-center text-sm text-gray-500">
+          <span>16 curated destinations matched to your taste</span>
+          {detectedAirport && geoStatus === 'done' && (
+            <span className="block text-xs text-gray-400 mt-1">
+              Flying from {detectedAirport.city} ({detectedAirport.code})
+            </span>
+          )}
+        </div>
       </div>
     </div>
   );

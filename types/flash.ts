@@ -135,6 +135,7 @@ export interface FlashGenerateParams {
   budgetMode?: BudgetMode; // Budget approach for this search
   customBudget?: string; // Custom budget description when budgetMode is 'custom' (e.g., "$2000", "up to $5000")
   travelers?: TravelerType; // Who's going on this trip
+  originAirport?: string; // IATA code of nearest airport (auto-detected via geolocation)
 }
 
 export interface FlashGenerateResponse {

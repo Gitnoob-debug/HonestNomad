@@ -49,6 +49,15 @@ export async function POST(request: NextRequest) {
       ...DEFAULT_FLASH_PREFERENCES,
       profileCompleted: true,
     };
+
+    // If client sent an auto-detected origin airport, use it
+    if (body.originAirport) {
+      preferences.homeBase = {
+        ...preferences.homeBase,
+        airportCode: body.originAirport,
+      };
+    }
+
     let revealedPreferences: any = undefined;
 
     if (user) {
@@ -65,6 +74,7 @@ export async function POST(request: NextRequest) {
         region: body.region,
         count: body.count || 8,
         excludeDestinations: body.excludeDestinations,
+        originAirport: body.originAirport,
       },
       preferences,
       revealedPreferences

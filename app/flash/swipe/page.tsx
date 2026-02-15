@@ -22,6 +22,7 @@ export default function FlashSwipePage() {
     tripPrices,
     loadMoreTrips,
     isLoadingMore,
+    hydrated,
   } = useFlashVacation();
 
   const { trackSwipe } = useRevealedPreferences();
@@ -72,11 +73,12 @@ export default function FlashSwipePage() {
   }, [swipeLeft, swipeRight]);
 
   // Redirect if no trips (user came directly without generating)
+  // Wait for hydration so sessionStorage trips are loaded before deciding
   useEffect(() => {
-    if (trips.length === 0) {
+    if (hydrated && trips.length === 0) {
       router.push('/flash');
     }
-  }, [trips, router]);
+  }, [hydrated, trips, router]);
 
   // Handle when trip is selected - go to explore/itinerary view
   useEffect(() => {

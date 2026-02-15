@@ -425,6 +425,77 @@ export function useFlashVacation() {
     return generateTrips(params);
   }, [generateTrips, clearTrips]);
 
+  // Load more trips — appends to existing list, excluding already-shown cities
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+
+  const loadMoreTrips = useCallback(async () => {
+    if (!state.lastGenerateParams || isLoadingMore) return;
+
+    setIsLoadingMore(true);
+
+    try {
+      // Collect all destination cities we've already shown
+      const excludeDestinations = state.trips.map(t => t.destination.city);
+
+      const response = await fetch('/api/flash/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...state.lastGenerateParams,
+          count: TRIPS_PER_SEARCH,
+          excludeDestinations,
+        }),
+      });
+
+      if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.error || 'Failed to load more trips');
+      }
+
+      const data = await response.json();
+
+      if (data.trips.length === 0) {
+        // No more destinations available
+        setIsLoadingMore(false);
+        return;
+      }
+
+      // Initialize price states for new trips
+      const newPriceStates: Record<string, TripPriceState> = {};
+      data.trips.forEach((trip: FlashTripPackage) => {
+        newPriceStates[trip.id] = {
+          hotelLoading: true,
+          hotelLoaded: false,
+          loading: true,
+          loaded: false,
+        };
+      });
+
+      setState(prev => {
+        const allTrips = [...prev.trips, ...data.trips];
+        const allPrices = { ...prev.tripPrices, ...newPriceStates };
+
+        // Save updated trip list to session
+        if (prev.sessionId) {
+          saveTripsToSession(prev.sessionId, allTrips, prev.currentTripIndex, prev.lastGenerateParams);
+        }
+
+        return {
+          ...prev,
+          trips: allTrips,
+          tripPrices: allPrices,
+        };
+      });
+
+      // Start background price loading for the new trips only
+      loadPricesInBackground(data.trips, state.lastGenerateParams);
+    } catch (error: any) {
+      console.error('Failed to load more trips:', error);
+    } finally {
+      setIsLoadingMore(false);
+    }
+  }, [state.lastGenerateParams, state.trips, isLoadingMore, loadPricesInBackground]);
+
   const hasMoreTrips = state.currentTripIndex < state.trips.length - 1;
   const isLastTrip = state.currentTripIndex === state.trips.length - 1;
   const tripsExhausted = state.trips.length > 0 && state.currentTripIndex >= state.trips.length;
@@ -438,6 +509,7 @@ export function useFlashVacation() {
     isLastTrip,
     tripsExhausted,
     canGoBack,
+    isLoadingMore,
 
     // Actions
     generateTrips,
@@ -447,5 +519,6 @@ export function useFlashVacation() {
     goBack,
     clearSelection,
     regenerate,
+    loadMoreTrips,
   };
 }

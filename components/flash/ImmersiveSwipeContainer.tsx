@@ -24,6 +24,8 @@ interface ImmersiveSwipeContainerProps {
   onGoBack?: () => void;
   canGoBack?: boolean;
   onRegenerate?: () => void;
+  onLoadMore?: () => void;
+  isLoadingMore?: boolean;
 }
 
 export function ImmersiveSwipeContainer({
@@ -35,6 +37,8 @@ export function ImmersiveSwipeContainer({
   onGoBack,
   canGoBack = false,
   onRegenerate,
+  onLoadMore,
+  isLoadingMore = false,
 }: ImmersiveSwipeContainerProps) {
   const [expandedTrip, setExpandedTrip] = useState<FlashTripPackage | null>(null);
   const [showControls, setShowControls] = useState(true);
@@ -140,15 +144,39 @@ export function ImmersiveSwipeContainer({
             Nothing catching your eye?
           </h3>
           <p className="text-gray-400 mb-8 max-w-xs mx-auto leading-relaxed">
-            No worries! Try a different vibe, dates, or destination to discover your perfect getaway.
+            {onLoadMore
+              ? "We've got more destinations up our sleeve. Load another batch or try different vibes."
+              : "No worries! Try a different vibe, dates, or destination to discover your perfect getaway."}
           </p>
 
+          {/* Primary: Load more destinations */}
+          {onLoadMore && (
+            <button
+              onClick={onLoadMore}
+              disabled={isLoadingMore}
+              className="px-8 py-4 bg-white text-gray-900 font-semibold rounded-full hover:bg-gray-100 transition-all text-lg shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95 disabled:opacity-60 disabled:hover:scale-100 disabled:cursor-not-allowed flex items-center gap-3 mx-auto"
+            >
+              {isLoadingMore ? (
+                <>
+                  <svg className="w-5 h-5 animate-spin" viewBox="0 0 24 24" fill="none">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                  </svg>
+                  Finding more...
+                </>
+              ) : (
+                'Show More Destinations'
+              )}
+            </button>
+          )}
+
+          {/* Secondary: Start fresh */}
           {onRegenerate && (
             <button
               onClick={onRegenerate}
-              className="px-8 py-4 bg-white text-gray-900 font-semibold rounded-full hover:bg-gray-100 transition-all text-lg shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95"
+              className={`px-6 py-3 text-white/70 hover:text-white font-medium transition-colors ${onLoadMore ? 'mt-4 text-sm' : 'px-8 py-4 bg-white text-gray-900 font-semibold rounded-full hover:bg-gray-100 text-lg shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95'}`}
             >
-              Start New Search
+              {onLoadMore ? 'Or start a new search' : 'Start New Search'}
             </button>
           )}
 

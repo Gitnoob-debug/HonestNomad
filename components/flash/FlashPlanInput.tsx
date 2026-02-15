@@ -41,9 +41,12 @@ const TRAVELER_PRESETS: { value: TravelerType; label: string; emoji: string }[] 
 const TRAVELERS_STORAGE_KEY = 'flash_traveler_type';
 const AIRPORT_STORAGE_KEY = 'flash_origin_airport';
 
+// Default trip length in days (auto-fills checkout)
+const DEFAULT_TRIP_NIGHTS = 5;
+
 export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
-  const [departureDate, setDepartureDate] = useState('');
-  const [returnDate, setReturnDate] = useState('');
+  const [checkinDate, setCheckinDate] = useState('');
+  const [checkoutDate, setCheckoutDate] = useState('');
 
   const [selectedVibes, setSelectedVibes] = useState<string[]>([]);
   const [travelerType, setTravelerType] = useState<TravelerType>('couple');
@@ -117,10 +120,21 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
   tomorrow.setDate(tomorrow.getDate() + 1);
   const minDate = tomorrow.toISOString().split('T')[0];
 
-  // Calculate min return date (day after departure)
-  const minReturnDate = departureDate
-    ? new Date(new Date(departureDate).getTime() + 86400000).toISOString().split('T')[0]
+  // Calculate min checkout date (day after checkin)
+  const minCheckoutDate = checkinDate
+    ? new Date(new Date(checkinDate).getTime() + 86400000).toISOString().split('T')[0]
     : minDate;
+
+  // When checkin changes, auto-set checkout to checkin + DEFAULT_TRIP_NIGHTS
+  const handleCheckinChange = (value: string) => {
+    setCheckinDate(value);
+
+    // Auto-fill checkout if not yet set or if current checkout is before new checkin
+    if (!checkoutDate || new Date(checkoutDate) <= new Date(value)) {
+      const autoCheckout = new Date(new Date(value).getTime() + DEFAULT_TRIP_NIGHTS * 86400000);
+      setCheckoutDate(autoCheckout.toISOString().split('T')[0]);
+    }
+  };
 
   const handleVibeToggle = (vibe: string) => {
     setSelectedVibes(prev =>
@@ -131,19 +145,19 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
   };
 
   const handleSubmit = () => {
-    if (!departureDate || !returnDate) return;
+    if (!checkinDate || !checkoutDate) return;
 
     // Save params to sessionStorage for the confirm page
     try {
       sessionStorage.setItem('flash_generate_params', JSON.stringify({
-        departureDate,
-        returnDate,
+        departureDate: checkinDate,
+        returnDate: checkoutDate,
       }));
     } catch {}
 
     onGenerate({
-      departureDate,
-      returnDate,
+      departureDate: checkinDate,
+      returnDate: checkoutDate,
       vibe: selectedVibes.length > 0 ? selectedVibes : undefined,
       region: selectedRegion !== 'anywhere' ? selectedRegion : undefined,
       budgetMode: budgetTier === 'budget' ? 'bargain' : budgetTier === 'extravagant' ? 'custom' : 'regular',
@@ -153,11 +167,11 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
     });
   };
 
-  const isValid = departureDate && returnDate && new Date(returnDate) > new Date(departureDate);
+  const isValid = checkinDate && checkoutDate && new Date(checkoutDate) > new Date(checkinDate);
 
   // Calculate trip duration
-  const tripDuration = departureDate && returnDate
-    ? Math.ceil((new Date(returnDate).getTime() - new Date(departureDate).getTime()) / (1000 * 60 * 60 * 24))
+  const tripNights = checkinDate && checkoutDate
+    ? Math.ceil((new Date(checkoutDate).getTime() - new Date(checkinDate).getTime()) / (1000 * 60 * 60 * 24))
     : 0;
 
   // Count active "More options" overrides for the badge
@@ -175,39 +189,34 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Depart
+                Check-in
               </label>
               <input
                 type="date"
-                value={departureDate}
-                onChange={(e) => {
-                  setDepartureDate(e.target.value);
-                  if (returnDate && new Date(returnDate) <= new Date(e.target.value)) {
-                    setReturnDate('');
-                  }
-                }}
+                value={checkinDate}
+                onChange={(e) => handleCheckinChange(e.target.value)}
                 min={minDate}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
               />
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Return
+                Check-out
               </label>
               <input
                 type="date"
-                value={returnDate}
-                onChange={(e) => setReturnDate(e.target.value)}
-                min={minReturnDate}
-                disabled={!departureDate}
+                value={checkoutDate}
+                onChange={(e) => setCheckoutDate(e.target.value)}
+                min={minCheckoutDate}
+                disabled={!checkinDate}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
               />
             </div>
           </div>
 
-          {tripDuration > 0 && (
+          {tripNights > 0 && (
             <p className="text-sm text-gray-500 mt-2">
-              {tripDuration} night{tripDuration > 1 ? 's' : ''}
+              {tripNights}-night stay
             </p>
           )}
         </div>
@@ -345,7 +354,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
           <span>16 curated destinations matched to your taste</span>
           {detectedAirport && geoStatus === 'done' && (
             <span className="block text-xs text-gray-400 mt-1">
-              Flying from {detectedAirport.city} ({detectedAirport.code})
+              Searching near {detectedAirport.city} ({detectedAirport.code})
             </span>
           )}
         </div>

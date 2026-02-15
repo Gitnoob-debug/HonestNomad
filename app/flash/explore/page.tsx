@@ -540,6 +540,10 @@ function FlashExploreContent() {
           throw new Error('Trip dates not available. Please start a new search.');
         }
 
+        // Read traveler type from session (set by the /flash form)
+        let travelers: string | null = null;
+        try { travelers = sessionStorage.getItem('flash_traveler_type'); } catch {}
+
         const response = await fetch('/api/hotels/search', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -551,6 +555,8 @@ function FlashExploreContent() {
             destinationName: trip.destination.city,
             // Pass zone radius so hotel search is tighter around the cluster
             zoneRadiusKm: zone ? zone.radiusMeters / 1000 : undefined,
+            // Pass traveler type for correct room occupancy
+            travelers: travelers || undefined,
           }),
         });
 

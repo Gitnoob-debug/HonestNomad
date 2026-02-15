@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { v4 as uuidv4 } from 'uuid';
 import { createServerSupabaseClient } from '@/lib/supabase/server';
-import { getFlashPreferences } from '@/lib/supabase/profiles';
 import { generateTripBatch } from '@/lib/flash/tripGenerator';
 import { loadRevealedPreferences } from '@/lib/flash/preferenceStorage';
 import { DEFAULT_FLASH_PREFERENCES } from '@/types/flash';
@@ -43,18 +42,16 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Get preferences: user's saved preferences or defaults for anonymous users
-    let preferences: FlashVacationPreferences = {
+    // Use sensible defaults — no saved profile needed
+    // Vibes, budget tier, and dates come from the request body (form inputs)
+    // Revealed preferences (learned from swipe behavior) personalize over time
+    const preferences: FlashVacationPreferences = {
       ...DEFAULT_FLASH_PREFERENCES,
-      profileCompleted: true, // Treat defaults as complete so generation proceeds
+      profileCompleted: true,
     };
     let revealedPreferences: any = undefined;
 
     if (user) {
-      const result = await getFlashPreferences(user.id);
-      if (result.preferences && result.profileComplete) {
-        preferences = result.preferences;
-      }
       // Load revealed preferences (learned from swipe behavior)
       revealedPreferences = await loadRevealedPreferences(user.id);
     }

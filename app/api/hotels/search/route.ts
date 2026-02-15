@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createServerSupabaseClient } from '@/lib/supabase/server';
 import { searchHotelsForTrip } from '@/lib/liteapi';
 import { FlashVacationPreferences } from '@/types/flash';
 
@@ -15,6 +14,7 @@ export async function POST(request: NextRequest) {
       checkout,
       destinationName,
       zoneRadiusKm,  // Optional: hotel zone radius in km (from clustering)
+      travelers,      // Optional: traveler type from form (solo/couple/family/friends)
     } = body;
 
     // Validate required fields
@@ -25,27 +25,25 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Get user preferences from Supabase
-    const supabase = createServerSupabaseClient();
-    const { data: { user } } = await supabase.auth.getUser();
+    // Build preferences from form data — no saved profile needed
+    const preferences: FlashVacationPreferences = getDefaultPreferences();
 
-    let preferences: FlashVacationPreferences | null = null;
-
-    if (user) {
-      const { data: profile } = await supabase
-        .from('flash_profiles')
-        .select('preferences')
-        .eq('user_id', user.id)
-        .single();
-
-      if (profile?.preferences) {
-        preferences = profile.preferences as FlashVacationPreferences;
+    // Override traveler count based on form selection
+    if (travelers) {
+      switch (travelers) {
+        case 'solo':
+          preferences.travelers = { type: 'solo', adults: 1, children: [], infants: 0 };
+          break;
+        case 'couple':
+          preferences.travelers = { type: 'couple', adults: 2, children: [], infants: 0 };
+          break;
+        case 'family':
+          preferences.travelers = { type: 'family', adults: 2, children: [{ age: 10 }], infants: 0 };
+          break;
+        case 'friends':
+          preferences.travelers = { type: 'group', adults: 4, children: [], infants: 0 };
+          break;
       }
-    }
-
-    // Use default preferences if not logged in or no profile
-    if (!preferences) {
-      preferences = getDefaultPreferences();
     }
 
     console.log(`Searching hotels for ${destinationName || 'location'} (${latitude}, ${longitude})`);

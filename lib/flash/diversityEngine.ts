@@ -6,7 +6,6 @@ import { scoreDestination, hasEnoughSignals } from './preferenceEngine';
 interface ScoredDestination {
   destination: Destination;
   scores: {
-    profileMatch: number;     // 0-1: How well it matches user interests
     seasonalFit: number;      // 0-1: How appropriate for travel dates
     vibeMatch: number;        // 0-1: How well it matches requested vibes
     budgetFit: number;        // 0-1: How well it fits budget
@@ -25,102 +24,6 @@ interface SelectionParams {
   originAirport: string;
   revealedPreferences?: RevealedPreferences; // User's learned preferences from swipe behavior
   excludeDestinations?: string[]; // Cities to exclude (for lazy loading)
-}
-
-/**
- * Score how well a destination matches the user's interests
- */
-function scoreProfileMatch(destination: Destination, profile: FlashVacationPreferences): number {
-  const primaryInterests = profile.interests?.primary || [];
-  const secondaryInterests = profile.interests?.secondary || [];
-  const travelStyle = profile.travelStyle;
-
-  let score = 0;
-  let maxScore = 0;
-
-  // Primary interests (higher weight)
-  primaryInterests.forEach(interest => {
-    maxScore += 3;
-    // Map interests to vibes
-    const vibeMap: Record<string, DestinationVibe[]> = {
-      museums: ['culture', 'history'],
-      food_tours: ['food'],
-      nightlife: ['nightlife'],
-      hiking: ['adventure', 'nature'],
-      beaches: ['beach', 'relaxation'],
-      history: ['history', 'culture'],
-      shopping: ['city'],
-      photography: ['nature', 'city', 'culture'],
-      water_sports: ['beach', 'adventure'],
-      wine_tasting: ['food', 'relaxation'],
-      wildlife: ['nature', 'adventure'],
-      architecture: ['history', 'culture', 'city'],
-      local_markets: ['culture', 'food'],
-      spa_wellness: ['relaxation', 'luxury'],
-      adventure_sports: ['adventure'],
-      art_galleries: ['culture', 'city'],
-    };
-
-    const matchingVibes = vibeMap[interest] || [];
-    if (matchingVibes.some(v => destination.vibes.includes(v))) {
-      score += 3;
-    }
-  });
-
-  // Secondary interests (lower weight)
-  secondaryInterests.forEach(interest => {
-    maxScore += 1;
-    const vibeMap: Record<string, DestinationVibe[]> = {
-      museums: ['culture', 'history'],
-      food_tours: ['food'],
-      nightlife: ['nightlife'],
-      hiking: ['adventure', 'nature'],
-      beaches: ['beach', 'relaxation'],
-      history: ['history', 'culture'],
-      shopping: ['city'],
-      photography: ['nature', 'city', 'culture'],
-      water_sports: ['beach', 'adventure'],
-      wine_tasting: ['food', 'relaxation'],
-      wildlife: ['nature', 'adventure'],
-      architecture: ['history', 'culture', 'city'],
-      local_markets: ['culture', 'food'],
-      spa_wellness: ['relaxation', 'luxury'],
-      adventure_sports: ['adventure'],
-      art_galleries: ['culture', 'city'],
-    };
-
-    const matchingVibes = vibeMap[interest] || [];
-    if (matchingVibes.some(v => destination.vibes.includes(v))) {
-      score += 1;
-    }
-  });
-
-  // Travel style matching
-  if (travelStyle) {
-    maxScore += 2;
-    // Adventure vs relaxation
-    if (travelStyle.adventureRelaxation >= 4 && destination.vibes.includes('adventure')) {
-      score += 1;
-    } else if (travelStyle.adventureRelaxation <= 2 && destination.vibes.includes('relaxation')) {
-      score += 1;
-    }
-    // Pace matching
-    if (travelStyle.pace === 'packed' && destination.vibes.includes('city')) {
-      score += 1;
-    } else if (travelStyle.pace === 'relaxed' && (destination.vibes.includes('beach') || destination.vibes.includes('relaxation'))) {
-      score += 1;
-    }
-  }
-
-  // Family-friendly if traveling with kids
-  if (profile.travelers?.children && profile.travelers.children.length > 0) {
-    maxScore += 2;
-    if (destination.vibes.includes('family')) {
-      score += 2;
-    }
-  }
-
-  return maxScore > 0 ? score / maxScore : 0.5;
 }
 
 /**
@@ -223,8 +126,9 @@ export function selectDestinations(params: SelectionParams): Destination[] {
   const useRevealedPrefs = revealedPreferences && hasEnoughSignals(revealedPreferences);
 
   // Score each destination
+  // Scoring is driven by form inputs (vibes, dates, budget) and learned behavior
+  // No saved profile required — everything comes from the search form or swipe history
   const scoredDestinations: ScoredDestination[] = candidates.map(destination => {
-    const profileMatch = scoreProfileMatch(destination, profile);
     const seasonalFit = scoreSeasonalFit(destination, departureDate);
     const vibeMatch = scoreVibeMatch(destination, vibes || []);
     const budgetFit = scoreBudgetFit(destination, profile);
@@ -234,29 +138,25 @@ export function selectDestinations(params: SelectionParams): Destination[] {
       ? scoreDestination(revealedPreferences!, destination)
       : 0.5;
 
-    // Weighted total - adjust weights when revealed prefs are available
+    // Weighted total — vibes and season are king, budget is a sanity check,
+    // revealed prefs take over once the user has swiped enough
     let total: number;
     if (useRevealedPrefs) {
-      // When we have revealed preferences, they get significant weight
-      // Reduce profile match weight since revealed prefs are more accurate
       total =
-        profileMatch * 0.20 +     // Reduced from 0.35
-        seasonalFit * 0.20 +      // Reduced from 0.25
-        vibeMatch * 0.20 +        // Reduced from 0.25
-        budgetFit * 0.10 +        // Reduced from 0.15
-        revealedPref * 0.30;      // New: 30% weight for learned preferences
-    } else {
-      // Without revealed preferences, use original weights
-      total =
-        profileMatch * 0.35 +
-        seasonalFit * 0.25 +
+        seasonalFit * 0.20 +
         vibeMatch * 0.25 +
-        budgetFit * 0.15;
+        budgetFit * 0.15 +
+        revealedPref * 0.40;      // Behavior data is the strongest signal
+    } else {
+      total =
+        seasonalFit * 0.35 +
+        vibeMatch * 0.40 +        // Vibes from the form = primary signal
+        budgetFit * 0.25;
     }
 
     return {
       destination,
-      scores: { profileMatch, seasonalFit, vibeMatch, budgetFit, revealedPref, total },
+      scores: { seasonalFit, vibeMatch, budgetFit, revealedPref, total },
     };
   });
 
@@ -394,7 +294,7 @@ function selectWithDiscovery(
   const discoveryPool = scored
     .filter(s => !usedCities.has(s.destination.city.toLowerCase()))
     .filter(s => {
-      const baseQuality = (s.scores.profileMatch + s.scores.seasonalFit) / 2;
+      const baseQuality = (s.scores.vibeMatch + s.scores.seasonalFit) / 2;
       return baseQuality > 0.4; // Still a reasonable trip
     })
     .filter(s => s.scores.revealedPref < 0.6); // Lower preference = discovery opportunity

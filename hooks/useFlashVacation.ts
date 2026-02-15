@@ -315,7 +315,13 @@ export function useFlashVacation() {
               try {
                 const tType = sessionStorage.getItem('flash_traveler_type');
                 if (tType === 'solo') adultCount = 1;
-                else if (tType === 'friends') adultCount = 4;
+                else if (tType === 'family') {
+                  const roomStr = sessionStorage.getItem('flash_room_config');
+                  if (roomStr) {
+                    const room = JSON.parse(roomStr);
+                    adultCount = room.adults || 2;
+                  }
+                }
               } catch {}
               updated.pricing = {
                 ...updated.pricing,
@@ -341,9 +347,14 @@ export function useFlashVacation() {
       });
     };
 
-    // Read traveler type from session (set by the /flash form)
+    // Read traveler type and room config from session (set by the /flash form)
     let travelers: string | null = null;
-    try { travelers = sessionStorage.getItem('flash_traveler_type'); } catch {}
+    let roomConfig: { adults: number; children: number; childAges: number[] } | null = null;
+    try {
+      travelers = sessionStorage.getItem('flash_traveler_type');
+      const roomStr = sessionStorage.getItem('flash_room_config');
+      if (roomStr) roomConfig = JSON.parse(roomStr);
+    } catch {}
 
     // Fetch hotel price for a trip
     const fetchHotelPrice = async (trip: FlashTripPackage) => {
@@ -358,6 +369,7 @@ export function useFlashVacation() {
             checkout: params.returnDate,
             destinationName: trip.destination.city,
             travelers: travelers || undefined,
+            roomConfig: travelers === 'family' && roomConfig ? roomConfig : undefined,
           }),
         });
 

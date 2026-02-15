@@ -14,7 +14,8 @@ export async function POST(request: NextRequest) {
       checkout,
       destinationName,
       zoneRadiusKm,  // Optional: hotel zone radius in km (from clustering)
-      travelers,      // Optional: traveler type from form (solo/couple/family/friends)
+      travelers,      // Optional: traveler type from form (solo/couple/family)
+      roomConfig,     // Optional: detailed room config { adults, children, childAges }
     } = body;
 
     // Validate required fields
@@ -29,7 +30,18 @@ export async function POST(request: NextRequest) {
     const preferences: FlashVacationPreferences = getDefaultPreferences();
 
     // Override traveler count based on form selection
-    if (travelers) {
+    if (roomConfig && travelers === 'family') {
+      // Use detailed room config from family configurator
+      const childAges = roomConfig.childAges || [];
+      const children = childAges.map((age: number) => ({ age }));
+      const infants = childAges.filter((age: number) => age < 2).length;
+      preferences.travelers = {
+        type: 'family',
+        adults: roomConfig.adults || 2,
+        children,
+        infants,
+      };
+    } else if (travelers) {
       switch (travelers) {
         case 'solo':
           preferences.travelers = { type: 'solo', adults: 1, children: [], infants: 0 };
@@ -39,9 +51,6 @@ export async function POST(request: NextRequest) {
           break;
         case 'family':
           preferences.travelers = { type: 'family', adults: 2, children: [{ age: 10 }], infants: 0 };
-          break;
-        case 'friends':
-          preferences.travelers = { type: 'group', adults: 4, children: [], infants: 0 };
           break;
       }
     }

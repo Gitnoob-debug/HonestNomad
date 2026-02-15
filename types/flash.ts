@@ -122,6 +122,8 @@ export type BudgetTier = 'budget' | 'deals' | 'extravagant';
 // Legacy
 export type BudgetMode = 'regular' | 'bargain' | 'custom';
 
+export type TravelerType = 'solo' | 'couple' | 'family' | 'friends';
+
 export interface FlashGenerateParams {
   departureDate: string;
   returnDate: string;
@@ -132,6 +134,7 @@ export interface FlashGenerateParams {
   excludeDestinations?: string[]; // For lazy loading - don't repeat cities
   budgetMode?: BudgetMode; // Budget approach for this search
   customBudget?: string; // Custom budget description when budgetMode is 'custom' (e.g., "$2000", "up to $5000")
+  travelers?: TravelerType; // Who's going on this trip
 }
 
 export interface FlashGenerateResponse {

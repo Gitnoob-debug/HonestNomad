@@ -2,7 +2,6 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import type {
-  FlashVacationPreferences,
   FlashTripPackage,
   FlashGenerateParams,
 } from '@/types/flash';
@@ -24,12 +23,6 @@ interface TripPriceState {
 }
 
 interface FlashVacationState {
-  // Preferences
-  preferences: FlashVacationPreferences | null;
-  preferencesLoading: boolean;
-  profileComplete: boolean;
-  missingSteps: string[];
-
   // Generation
   isGenerating: boolean;
   generationProgress: number;
@@ -50,10 +43,6 @@ interface FlashVacationState {
 }
 
 const initialState: FlashVacationState = {
-  preferences: null,
-  preferencesLoading: true,
-  profileComplete: false,
-  missingSteps: [],
   isGenerating: false,
   generationProgress: 0,
   generationStage: '',
@@ -75,34 +64,10 @@ const TRIPS_STORAGE_KEY = 'flash_vacation_trips';
 export function useFlashVacation() {
   const [state, setState] = useState<FlashVacationState>(initialState);
 
-  // Load preferences on mount
+  // Load any persisted trips on mount
   useEffect(() => {
-    loadPreferences();
     loadTripsFromSession();
   }, []);
-
-  const loadPreferences = async () => {
-    try {
-      setState(prev => ({ ...prev, preferencesLoading: true }));
-      const response = await fetch('/api/flash/preferences');
-
-      if (response.ok) {
-        const data = await response.json();
-        setState(prev => ({
-          ...prev,
-          preferences: data.preferences,
-          profileComplete: data.profileComplete,
-          missingSteps: data.missingSteps || [],
-          preferencesLoading: false,
-        }));
-      } else {
-        setState(prev => ({ ...prev, preferencesLoading: false }));
-      }
-    } catch (error) {
-      console.error('Failed to load preferences:', error);
-      setState(prev => ({ ...prev, preferencesLoading: false }));
-    }
-  };
 
   const loadTripsFromSession = () => {
     try {
@@ -297,8 +262,8 @@ export function useFlashVacation() {
     trips: FlashTripPackage[],
     params: FlashGenerateParams
   ) => {
-    // Get user's budget max from preferences
-    const budgetMax = state.preferences?.budget?.perTripMax || 5000;
+    // Budget threshold for over-budget indicator (sensible default)
+    const budgetMax = 5000;
     const nights = Math.ceil(
       (new Date(params.returnDate).getTime() - new Date(params.departureDate).getTime()) / (1000 * 60 * 60 * 24)
     );
@@ -345,10 +310,17 @@ export function useFlashVacation() {
             if (t.id === tripId) {
               const updated = { ...t, ...tripUpdate };
               // Recalculate total pricing
+              // Read traveler count from session for per-person calculation
+              let adultCount = 2;
+              try {
+                const tType = sessionStorage.getItem('flash_traveler_type');
+                if (tType === 'solo') adultCount = 1;
+                else if (tType === 'friends') adultCount = 4;
+              } catch {}
               updated.pricing = {
                 ...updated.pricing,
                 total: newPriceState.hotelPrice || updated.pricing.hotel,
-                perPerson: (newPriceState.hotelPrice || updated.pricing.hotel) / (state.preferences?.travelers?.adults || 2),
+                perPerson: (newPriceState.hotelPrice || updated.pricing.hotel) / adultCount,
               };
               return updated;
             }
@@ -369,6 +341,10 @@ export function useFlashVacation() {
       });
     };
 
+    // Read traveler type from session (set by the /flash form)
+    let travelers: string | null = null;
+    try { travelers = sessionStorage.getItem('flash_traveler_type'); } catch {}
+
     // Fetch hotel price for a trip
     const fetchHotelPrice = async (trip: FlashTripPackage) => {
       try {
@@ -381,6 +357,7 @@ export function useFlashVacation() {
             checkin: params.departureDate,
             checkout: params.returnDate,
             destinationName: trip.destination.city,
+            travelers: travelers || undefined,
           }),
         });
 
@@ -428,7 +405,7 @@ export function useFlashVacation() {
       const batch = queue.slice(i, i + concurrency);
       await Promise.all(batch.map(fetchHotelPrice));
     }
-  }, [state.preferences]);
+  }, []);
 
   const clearTrips = useCallback(() => {
     setState(prev => ({
@@ -463,7 +440,6 @@ export function useFlashVacation() {
     canGoBack,
 
     // Actions
-    loadPreferences,
     generateTrips,
     clearTrips,
     swipeLeft,

@@ -6,7 +6,6 @@ import { useAuth } from '@/components/providers/AuthProvider';
 import { useFlashVacation } from '@/hooks/useFlashVacation';
 import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
 import { ImmersiveSwipeContainer } from '@/components/flash/ImmersiveSwipeContainer';
-import { Spinner } from '@/components/ui';
 
 export default function FlashSwipePage() {
   const { user, loading: authLoading } = useAuth();
@@ -19,7 +18,6 @@ export default function FlashSwipePage() {
     swipeRight: baseSwipeRight,
     goBack,
     canGoBack,
-    preferencesLoading,
     tripPrices,
   } = useFlashVacation();
 
@@ -69,10 +67,10 @@ export default function FlashSwipePage() {
 
   // Redirect if no trips (user came directly without generating)
   useEffect(() => {
-    if (!preferencesLoading && trips.length === 0) {
+    if (trips.length === 0) {
       router.push('/flash');
     }
-  }, [trips, preferencesLoading, router]);
+  }, [trips, router]);
 
   // Handle when trip is selected - go to explore/itinerary view
   useEffect(() => {
@@ -82,14 +80,6 @@ export default function FlashSwipePage() {
       router.push('/flash/explore');
     }
   }, [selectedTrip, router]);
-
-  if (preferencesLoading) {
-    return (
-      <div className="fixed inset-0 bg-black flex items-center justify-center">
-        <Spinner size="lg" className="text-white" />
-      </div>
-    );
-  }
 
   if (trips.length === 0) {
     return null;

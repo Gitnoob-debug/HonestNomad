@@ -52,7 +52,7 @@ export async function generateTripBatch(
     vibes: params.vibe,
     region: params.region,
     count: count,
-    originAirport: profile.homeBase.airportCode,
+    originAirport: params.originAirport || profile.homeBase.airportCode,
     revealedPreferences, // Pass learned preferences for smarter selection
     excludeDestinations: params.excludeDestinations, // Exclude already shown cities
   });

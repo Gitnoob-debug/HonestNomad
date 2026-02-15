@@ -5,16 +5,17 @@ import { useRouter } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import type { FlashTripPackage, DestinationVibe } from '@/types/flash';
 import type { HotelOption } from '@/lib/liteapi/types';
+import type { ItineraryStop, ItineraryDay } from '@/lib/flash/itinerary-generator';
 import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
 import { MagicPackage } from '@/components/flash/MagicPackage';
 
 interface BookingData {
   trip: FlashTripPackage;
   itineraryType: string;
-  itinerary: any[];
+  itinerary: ItineraryDay[];
   skipHotels: boolean;
   selectedHotel: HotelOption | null;
-  favoriteStops: any[];
+  favoriteStops: ItineraryStop[];
 }
 
 export default function FlashConfirmPage() {
@@ -22,6 +23,7 @@ export default function FlashConfirmPage() {
   const router = useRouter();
   const [bookingData, setBookingData] = useState<BookingData | null>(null);
   const [tripDates, setTripDates] = useState<{ departure: string; return: string }>({ departure: '', return: '' });
+  const [showBookingModal, setShowBookingModal] = useState(false);
   const { trackBooking } = useRevealedPreferences();
   const hasTrackedBooking = useRef(false);
 
@@ -119,11 +121,9 @@ export default function FlashConfirmPage() {
       hasTrackedBooking.current = true;
     }
 
-    // In full implementation, this would:
-    // 1. Create a trip record
-    // 2. Redirect to the booking/payment flow
-    // For now, show a success message
-    alert('Booking flow coming soon! Your trip to ' + trip.destination.city + ' would be booked here.');
+    // TODO: Wire up LiteAPI Payment SDK (prebook → payment widget → book)
+    // See TODO.md P2 for full implementation plan
+    setShowBookingModal(true);
   };
 
   // Use trip itinerary dates if available, otherwise fall back to pricing dates
@@ -262,10 +262,10 @@ export default function FlashConfirmPage() {
           <div className="bg-white rounded-2xl shadow-lg p-6 mb-6">
             <h3 className="font-semibold text-gray-900 mb-4">Your Saved Places</h3>
             <div className="space-y-2">
-              {favoriteStops.slice(0, 6).map((stop: any, i: number) => (
+              {favoriteStops.slice(0, 6).map((stop, i) => (
                 <div key={i} className="flex items-center gap-3 py-2">
                   <span className="text-lg">
-                    {{
+                    {({
                       landmark: '\ud83c\udfdb\ufe0f',
                       restaurant: '\ud83c\udf7d\ufe0f',
                       activity: '\ud83c\udfaf',
@@ -273,7 +273,11 @@ export default function FlashConfirmPage() {
                       park: '\ud83c\udf33',
                       cafe: '\u2615',
                       bar: '\ud83c\udf78',
-                    }[stop.type as string] || '\ud83d\udccd'}
+                      market: '\ud83d\udecd\ufe0f',
+                      nightclub: '\ud83c\udf1f',
+                      viewpoint: '\ud83c\udf04',
+                      neighborhood: '\ud83c\udfd8\ufe0f',
+                    } as Record<string, string>)[stop.type] || '\ud83d\udccd'}
                   </span>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-medium text-gray-900 truncate">{stop.name}</p>
@@ -303,7 +307,7 @@ export default function FlashConfirmPage() {
             returnDate={tripDates.return}
             travelerType="couple"
             hotelName={selectedHotel?.name || trip.hotel?.name}
-            activities={favoriteStops?.map((s: any) => s.name) || trip.highlights || []}
+            activities={favoriteStops?.map((s) => s.name) || trip.highlights || []}
             vibes={trip.destination.vibes || []}
           />
         </div>
@@ -331,6 +335,51 @@ export default function FlashConfirmPage() {
           }
         </p>
       </div>
+
+      {/* Booking Coming Soon Modal */}
+      {showBookingModal && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-2xl max-w-md w-full p-8 text-center relative">
+            <button
+              onClick={() => setShowBookingModal(false)}
+              className="absolute top-4 right-4 text-gray-400 hover:text-gray-600"
+              aria-label="Close"
+            >
+              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+
+            <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="text-3xl">🚀</span>
+            </div>
+
+            <h3 className="text-xl font-bold text-gray-900 mb-2">
+              Booking Launching Soon
+            </h3>
+            <p className="text-gray-600 mb-6">
+              We&apos;re putting the finishing touches on secure hotel booking for {trip.destination.city}.
+              Your trip details have been saved.
+            </p>
+
+            <div className="bg-gray-50 rounded-xl p-4 mb-6 text-left">
+              <p className="text-sm font-medium text-gray-900 mb-1">Your trip summary:</p>
+              <p className="text-sm text-gray-600">
+                {trip.destination.city}, {trip.destination.country} &bull; {tripDays} nights
+                {selectedHotel && ` • ${selectedHotel.name}`}
+                {grandTotal > 0 && ` • ${formatPrice(grandTotal, trip.pricing.currency)}`}
+              </p>
+            </div>
+
+            <button
+              onClick={() => setShowBookingModal(false)}
+              className="w-full py-3 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors"
+            >
+              Got It
+            </button>
+          </div>
+        </div>
+      )}
     </main>
   );
 }

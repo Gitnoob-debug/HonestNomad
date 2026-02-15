@@ -179,39 +179,60 @@ export function ImmersiveSwipeCard({
         ) : (
           // Default/estimated price (no priceState provided or error)
           <div className="flex flex-col items-end gap-1">
-            <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
-              <span className="font-bold text-gray-900 text-lg">
-                ~{formatPrice(trip.pricing.total, trip.pricing.currency)}
-              </span>
-            </div>
-            <div className="bg-white/80 px-2 py-0.5 rounded-full">
-              <span className="text-gray-600 text-xs">Est. price</span>
-            </div>
+            {trip.pricing.total > 0 ? (
+              <>
+                <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
+                  <span className="font-bold text-gray-900 text-lg">
+                    ~{formatPrice(trip.pricing.total, trip.pricing.currency)}
+                  </span>
+                </div>
+                <div className="bg-white/80 px-2 py-0.5 rounded-full">
+                  <span className="text-gray-600 text-xs">Est. total</span>
+                </div>
+              </>
+            ) : (
+              <div className="bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-lg">
+                <span className="text-gray-600 text-sm font-medium">Price on select</span>
+              </div>
+            )}
           </div>
         )}
       </div>
 
-      {/* Top left: Match score (if high) */}
-      {trip.matchScore >= 0.8 && (
-        <div className="absolute top-8 left-4 z-10">
+      {/* Top left: Badges */}
+      <div className="absolute top-8 left-4 z-10 flex flex-col gap-1.5">
+        {trip.matchScore >= 0.8 && (
           <div className="bg-green-500 text-white px-3 py-1.5 rounded-full text-sm font-semibold shadow-lg">
             {Math.round(trip.matchScore * 100)}% match
           </div>
-        </div>
-      )}
+        )}
+        {trip.perfectTiming && (
+          <div className="bg-amber-500 text-white px-3 py-1.5 rounded-full text-sm font-semibold shadow-lg flex items-center gap-1.5">
+            <span>🎯</span>
+            <span>Perfect timing</span>
+          </div>
+        )}
+      </div>
 
-      {/* Bottom content - minimal overlay */}
+      {/* Bottom content */}
       <div className="absolute bottom-0 left-0 right-0 z-10 p-6 pb-8">
         {/* Destination name - large and bold */}
         <h1 className="text-4xl sm:text-5xl font-bold text-white mb-1 drop-shadow-lg">
           {trip.destination.city}
         </h1>
-        <p className="text-white/90 text-lg mb-4 drop-shadow">
+        <p className="text-white/90 text-lg mb-2 drop-shadow">
           {trip.destination.country}
         </p>
 
+        {/* Tagline - the one-liner sell */}
+        {trip.tagline && (
+          <p className="text-white/80 text-sm italic mb-4 drop-shadow">
+            &ldquo;{trip.tagline}&rdquo;
+          </p>
+        )}
+
         {/* Quick info row */}
-        <div className="flex flex-wrap items-center gap-3 text-white/80 text-sm">
+        <div className="flex flex-wrap items-center gap-2 text-white/80 text-sm">
           {/* Duration */}
           <span className="flex items-center gap-1.5 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full">
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -219,6 +240,17 @@ export function ImmersiveSwipeCard({
             </svg>
             {trip.itinerary.days} nights
           </span>
+
+          {/* POI count badge */}
+          {trip.poiCount && trip.poiCount > 0 && (
+            <span className="flex items-center gap-1.5 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full">
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              {trip.poiCount}+ places curated
+            </span>
+          )}
 
           {/* Transfer info badge if applicable */}
           {trip.transferInfo && (
@@ -232,7 +264,7 @@ export function ImmersiveSwipeCard({
         </div>
 
         {/* Highlights - as subtle tags */}
-        <div className="flex flex-wrap gap-2 mt-4">
+        <div className="flex flex-wrap gap-2 mt-3">
           {trip.highlights.slice(0, 3).map((highlight, i) => (
             <span
               key={i}
@@ -244,7 +276,7 @@ export function ImmersiveSwipeCard({
         </div>
 
         {/* Tap hint */}
-        <p className="text-white/50 text-xs mt-4 text-center">
+        <p className="text-white/50 text-xs mt-3 text-center">
           Tap center to see details
         </p>
       </div>

@@ -111,8 +111,8 @@ export default function HomePage() {
                 <div key={city} className="aspect-square rounded-2xl overflow-hidden bg-gray-200">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={`https://nvhnrtssvdjiefsgilxg.supabase.co/storage/v1/object/public/destination-images/${city}/${city}-001.jpg`}
-                    alt={city}
+                    src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/destination-images/${city}/${city}-001.jpg`}
+                    alt={`${city.charAt(0).toUpperCase() + city.slice(1)} destination`}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />

@@ -152,6 +152,10 @@ export interface FlashTripPackage {
   imageUrl: string;
   images?: DestinationImage[];      // Multiple images for carousel
   transferInfo?: TransferInfo;       // For remote destinations
+  // Card personality data
+  tagline?: string;                  // One-liner sell e.g. "Street food capital of Southeast Asia"
+  perfectTiming?: boolean;           // true if travel dates match bestMonths
+  poiCount?: number;                 // Number of curated POIs available
   // Legacy: flight field kept for backwards compat with stored data
   flight?: FlightSummary;
 }

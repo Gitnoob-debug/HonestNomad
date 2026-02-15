@@ -1,175 +1,160 @@
-# HonestNomad - Quick Action Checklist
+# HonestNomad - Roadmap & TODO
 
-> For detailed status and session logs, see `PROJECT-STATUS.md`
-
----
-
-## Product Vision: Full Travel Lifecycle
-
-```
-BEFORE (Web + Mobile)     DURING (Mobile Native)     AFTER (Web + Mobile)
-────────────────────      ────────────────────       ────────────────────
-• Swipe to pick trip      • Live map guidance        • Auto trip diary
-• AI chat planning        • Geofenced POI alerts     • Photo memories
-• Book flights/hotels     • "You're near X!"         • Share your trip
-• Curate POIs             • Offline maps             • Learn preferences
-```
-
-**Goal:** Own the entire journey, not just the booking moment.
+> Last updated: February 15, 2026
+> Architecture: Next.js 14 + Supabase + LiteAPI + Mapbox + Claude (OpenRouter)
+> Hotels + experiences only. No flights. No chat mode.
 
 ---
 
-## Current Focus: Flash Vacation Feature
+## Current State (v2.1 — Deployed)
 
-### Completed (Phase 1-6)
-- [x] Type definitions (`types/flash.ts`)
-- [x] API routes for preferences (`app/api/flash/preferences/route.ts`)
-- [x] API routes for trip generation (`app/api/flash/generate/route.ts`)
-- [x] Profile wizard - 8 steps (travelers, homeBase, budget, accommodation, travelStyle, interests, restrictions, surpriseTolerance)
-- [x] Destination database with 50+ curated destinations (`lib/flash/destinations.ts`)
-- [x] Diversity engine for destination selection (`lib/flash/diversityEngine.ts`)
-- [x] Trip generator - **flights-only mode** (`lib/flash/tripGenerator.ts`)
-- [x] Flash plan input page (`app/flash/page.tsx`)
-- [x] Swipe interface with card stack (`app/flash/swipe/page.tsx`)
-- [x] SwipeCard and TripDetailModal components
-- [x] Confirm/booking page (`app/flash/confirm/page.tsx`)
-- [x] Flash profile section in Settings page
-- [x] Snake_case to camelCase database transformation fix
-- [x] **POI data migration** - 410 destinations with 68,561 POIs from Google Places API
-- [x] **Explore/Itinerary page** (`app/flash/explore/page.tsx`) with Mapbox map
-- [x] **Lazy loading swipe cards** - Load 8 initially, +8 more at card 4 (seamless background loading)
-- [x] **Draft persistence** - localStorage for "unfinished trips" (`lib/flash/draft-storage.ts`)
-- [x] **Google Places image proxy** - Hides API keys from client (`app/api/places/photo/route.ts`)
-- [x] **Skip button** - Users can bypass customization and go straight to booking
-- [x] **Back button fix** - z-index layering for explore page overlay
-- [x] **Error handling UI** - Dismissible warnings and empty states for POI loading
-- [x] **Draft trips in My Bookings** - Supabase-backed persistence, shows 3 most recent unfinished trips
+Flow: Landing Page → Quick Intent Form → Swipe 16 Cities → Explore POIs on Map → Hotels → Review → Adventure Package
 
-### Next Up (Web)
-- [ ] Streamline wizard from 8 steps to ~4 essential steps
-- [ ] Implement "revealed preference" learning from swipe behavior
-- [ ] Re-enable hotel search once Duffel Stays API access is granted
-- [ ] Connect swipe "accept" to actual booking flow (Duffel booking API)
-- [ ] Add PWA support (manifest.json, service worker) to validate mobile demand
-
-### Known Issues
-- Hotel search disabled (Duffel Stays API not enabled on account)
-- Flights-only mode active - hotels show as "not included" in trip cards
+- 500 curated destinations, 85k+ POIs, 5GB+ Supabase images
+- LiteAPI sandbox for hotel search (mock pricing active)
+- Anonymous browsing, auth gate only at booking
+- Zero-friction form: dates + traveler type + vibes + budget tier → go
+- 5-step progress bar: Vibe → Explore → Stay → Review → Package
+- AI Magic Package on confirm page (packing lists, tips, adventure guide)
+- Travel time matrix for 500+ destinations
+- Deployed to Vercel: https://honest-nomad-ud6y.vercel.app
 
 ---
 
-## Mobile Native Roadmap (Expo/React Native)
+## Recently Completed (frosty-banach branch)
 
-### Phase 1: PWA Validation
-- [ ] Add manifest.json for installability
-- [ ] Add service worker for offline basics
-- [ ] Test "Add to Home Screen" flow
-- [ ] Measure mobile usage/installs
+### Session 1 — WOW Factor & Visual Polish
+- [x] Richer swipe cards with image carousels, taglines, POI counts, seasonal badges
+- [x] Hotel map view with POI overlay markers
+- [x] Smart hotel zone clustering (IQR-based) with tighter search radius
+- [x] Hotel-zone alignment scoring for proximity-based results
 
-### Phase 2: Core Native App
-- [ ] Set up Expo monorepo structure
-- [ ] Extract shared code to `packages/core/`
-- [ ] Implement Supabase auth with SecureStore
-- [ ] Build React Navigation stack
-- [ ] Native swipe UI (gesture-handler + reanimated)
-- [ ] Mapbox GL integration with live location
-- [ ] POI display on native map
+### Session 2 — Progress & Packaging
+- [x] 5-step progress bar (Vibe → Explore → Stay → Review → Package)
+- [x] "Your Adventure Package" reveal step after checkout with assembled items, stats, crossed-off tedious tasks
 
-### Phase 3: Live Trip Mode
-- [ ] Arrival detection (entered destination city)
-- [ ] Geofencing for saved POIs (500m radius)
-- [ ] Push notifications ("You're near X!")
-- [ ] Offline map tile caching per destination
-- [ ] Offline POI data storage
+### Session 3 — Zero Friction Onboarding
+- [x] Fix auto-redirect bug (stale trips in sessionStorage sent users past the form)
+- [x] Resume banner for existing trips instead of auto-redirect
+- [x] Add "Who's going?" traveler pills (Solo/Couple/Family/Friends) inline on form
+- [x] Move region selector behind collapsible "More filters" toggle
+- [x] Remove profile wizard nudges from /flash page
 
-### Phase 4: Trip Diary
-- [ ] Background location tracking (opt-in)
-- [ ] Auto-log visited places
-- [ ] Photo geo-matching from camera roll
-- [ ] Auto-generated trip summary
-- [ ] Shareable trip card for social
-
-### Phase 5: Launch
-- [ ] Smart notifications (morning itinerary, flight reminders)
-- [ ] App Store / Play Store assets
-- [ ] Beta testing via TestFlight / Play Console
-- [ ] Submit for review
-
-### Future Mobile Features
-- [ ] AR POI discovery (point camera at street)
-- [ ] Social features (share trips, see friends')
-- [ ] Apple Pay / Google Pay integration
-- [ ] Widget for trip countdown
+### Session 4 — Kill the Profile Gate
+- [x] Remove `scoreProfileMatch()` from scoring engine (was 35% weight, always returned 0.5)
+- [x] Redistribute scoring: vibes 40%, seasonal 35%, budget 25% (no profile needed)
+- [x] With revealed prefs: behavior 40%, vibes 25%, seasonal 20%, budget 15%
+- [x] Remove saved-profile dependency from generate API (always uses defaults)
+- [x] Remove saved-profile dependency from hotel search API (reads travelers from request body)
+- [x] Wire traveler type through: form → sessionStorage → hotel search → room occupancy
+- [x] Remove profileComplete/missingSteps/preferencesLoading from useFlashVacation hook
+- [x] Clean up settings page (removed wizard section, added simple "Start Exploring" CTA)
+- [x] Clean up swipe page (removed Spinner loading gate)
+- [x] Net: -301 lines removed, zero friction to first trip
 
 ---
 
-## Original MVP Features (Complete)
+## P0 — Critical Fixes (Before Sharing)
 
-### Build Status
-- [x] Project setup (Next.js 14, TypeScript, Tailwind)
-- [x] Database schema & Supabase integration
-- [x] Authentication (email + Google + Facebook OAuth)
-- [x] Claude AI integration (conversation + itinerary)
-- [x] Duffel API integration (flights search + booking)
-- [x] Mapbox geocoding
-- [x] Chat interface
-- [x] Hotel search & display (mock data mode)
-- [x] Booking flow with payment form
-- [x] Map components (Leaflet)
-- [x] Itinerary generation & display
-- [x] User pages (bookings, settings)
-- [x] All API routes
-
-### Setup Tasks
-- [x] npm install
-- [x] Supabase project setup
-- [x] API keys configured
-- [x] Deployed to Vercel
+- [ ] **Replace alert() booking button** — `app/flash/confirm/page.tsx` pops `alert("Booking flow coming soon!")`. Replace with proper "coming soon" modal or real booking redirect
+- [ ] **Remove console.log statements** — Strip or wrap in `process.env.NODE_ENV === 'development'`
+- [ ] **Fix hardcoded Supabase image URLs** — `app/page.tsx` has raw Supabase Storage URLs for landing page feature images
+- [ ] **Fix database schema mismatch** — `bookings` table still has `duffel_*` columns but code writes `provider_*`. Need ALTER TABLE migration
+- [ ] **Fix `any` types** — `app/flash/confirm/page.tsx` has `itinerary: any[]` and `favoriteStops: any[]`
 
 ---
 
-## Install & Run
+## P1 — Polish & UX (Next Sprint)
 
-```bash
-cd C:\HonestNomad
-npm install
-npm run dev
-```
-
----
-
-## API Keys Needed
-
-| Service | Get From | Free Tier |
-|---------|----------|-----------|
-| Supabase | supabase.com | 500MB DB, 50k MAU |
-| Anthropic | console.anthropic.com | Pay as you go |
-| Duffel | dashboard.duffel.com | Commission model |
-| Mapbox | account.mapbox.com | 100k geocodes/month |
+- [ ] **Landing page hero image** — Replace generic gradient with a real destination photo background
+- [ ] **Session storage resilience** — Add "session expired, start over" fallback for browser back/forward
+- [ ] **Don't auto-select first hotel** — Require explicit tap instead of pre-selecting
+- [ ] **Lazy-load Magic Package** — Use skeleton placeholder or background fetch if Claude API is slow
+- [ ] **Consistent error messaging** — Unify voice/tone across error states
+- [ ] **Accessibility** — Missing aria-labels, generic image alt text, no screen reader announcements
+- [ ] **Mobile swipe card polish** — Image carousel portrait orientation, tap zone affordance
 
 ---
 
-## Test Flow - Flash Vacation
+## P2 — Hotel Booking (Make It Real)
 
-### Step 1: City Selection (Swipe Interface)
-1. **Open app** → Navigate to `/flash`
-2. **Complete wizard** (if profile incomplete) → 8 steps of preferences
-3. **Select dates** and optional vibe filters → Click "Generate Flash Trips"
-4. **Swipe interface** loads with 8 trip cards (flights-only mode)
-5. **Swipe left** to pass (next card), more cards load automatically at card 4
-6. **Swipe right** to like → Goes to explore page
+### Database Migration
+- [ ] Rename `duffel_*` columns to `provider_*` in bookings table
+- [ ] Drop unused `conversation_id` column
 
-### Step 2: Explore/Itinerary Page
-7. **Explore page** shows destination with Mapbox map + POIs
-8. **Browse POIs** - restaurants, attractions, activities loaded from Google Places
-9. **Favorite POIs** - tap heart to save for itinerary
-10. **Shuffle itinerary** - randomize day assignments
-11. **Skip button** - bypass customization, go straight to confirm
-12. **Back button** - return to swipe interface
+### Enable Real Pricing
+- [ ] Set `USE_MOCK_RATES = false` in `lib/liteapi/hotels.ts`
+- [ ] Handle edge cases: no rates returned, rate expiration, currency conversion
 
-### Step 3: Booking (Coming Soon)
-13. **Confirm trip** → Review summary
-14. **Proceed to booking** → Duffel checkout (placeholder)
+### Implement LiteAPI Payment SDK
+- [ ] Add prebook endpoint: `POST /rates/prebook` with `usePaymentSdk: true`
+- [ ] Embed LiteAPI payment JS widget (Stripe Elements under the hood)
+- [ ] Handle payment redirect flow → book confirmation
+- [ ] Store real booking reference in Supabase
+- [ ] Remove mock card fields from GuestForm.tsx
+
+### Booking Management
+- [ ] Cancel booking endpoint
+- [ ] Booking status in My Bookings page
+- [ ] Email confirmation
+
+---
+
+## P3 — Price Intelligence & "Hot Deals"
+
+- [ ] Create `price_index` Supabase table for historical rate tracking
+- [ ] Seed data: 50 key destinations, benchmark hotels, rolling date windows
+- [ ] Vercel/Supabase cron for daily rate sampling
+- [ ] Price signal badges on swipe cards (Hot Deal, Prices Dropping, etc.)
+- [ ] "Best time to visit" cross-referencing price data with seasonal data
+
+---
+
+## P4 — Data Enrichment (Backburner)
+
+- [ ] Fix 49% junk POI descriptions ("Museum - highly rated") from existing data (no API)
+- [ ] Fix image bug: `itinerary-generator.ts` `poiToItineraryStop()` uses expired `poi.imageUrl` instead of `resolvePOIImageUrl()`
+- [ ] Enrich `bestTimeOfDay` from POI categories (56% currently "any")
+- [ ] Re-fetch opening hours from Google Places (~$170-500 for top destinations)
+- [ ] 17 destinations have <10% Supabase image coverage (Istanbul, Tbilisi, etc.)
+
+---
+
+## P5 — Loyalty & Personalization
+
+- [ ] Wire up `lib/loyalty/` — hotel chain → loyalty program matching (built, not connected)
+- [ ] Show loyalty badges on hotel cards
+- [ ] Revealed preferences already learning from swipes (active, 40% weight when 10+ signals)
+- [ ] "Because you liked X" recommendations from swipe history
+
+---
+
+## P6 — Trust & Social Proof
+
+- [ ] Testimonials or stats on landing page
+- [ ] Share/save trip link for travel partners
+- [ ] Price range preview before budget tier selection
+
+---
+
+## P7 — Mobile & Platform
+
+- [ ] PWA support (manifest.json, service worker)
+- [ ] Responsive polish pass
+- [ ] Eventually: React Native (Expo) app
+
+---
+
+## API Keys & Services
+
+| Service | Purpose | Cost Model |
+|---------|---------|------------|
+| Supabase | DB, Auth, Storage (5GB images) | Free tier (500MB DB, 50k MAU) |
+| LiteAPI/Nuitee | Hotel search, rates, booking | Free searches, 2.9-3.9% per booking |
+| Mapbox | Maps, geocoding | Free tier (100k loads/month) |
+| OpenRouter → Claude | Magic Package AI, future features | Pay per token |
+| Google Places | POI data (migration scripts only) | **DO NOT RUN** without permission |
+| Pexels | Image migration (scripts only) | **DO NOT RUN** without permission |
 
 ---
 
@@ -177,37 +162,26 @@ npm run dev
 
 | Need to... | Look in... |
 |------------|------------|
-| Change AI prompts | `lib/claude/prompts.ts` |
-| Modify flight search | `lib/duffel/flights.ts` |
-| Edit chat UI | `components/chat/` |
-| Update database schema | `lib/supabase/migrations.sql` |
-| **Flash wizard steps** | `components/flash/ProfileWizard/` |
-| **Trip generation** | `lib/flash/tripGenerator.ts` |
-| **Swipe UI** | `components/flash/ImmersiveSwipeContainer.tsx` |
-| **Destination data** | `lib/flash/destinations.ts` |
-| **POI data** | `data/pois/` (410 JSON files, 68k POIs) |
-| **Explore page** | `app/flash/explore/page.tsx` |
-| **Draft persistence** | `lib/flash/draft-storage.ts` |
-| **Image proxy** | `app/api/places/photo/route.ts` |
+| Hotel search logic | `lib/liteapi/hotels.ts` |
+| Hotel API client | `lib/liteapi/client.ts` |
+| Hotel types | `lib/liteapi/types.ts` |
+| AI prompts (Magic Package) | `lib/claude/prompts.ts` |
+| Trip generation + scoring | `lib/flash/tripGenerator.ts`, `lib/flash/diversityEngine.ts` |
+| Destination database (500) | `lib/flash/destinations.ts` |
+| POI data (85k) | `data/pois/*.json` |
+| POI loader | `lib/flash/poi-loader.ts` |
+| Travel time matrix | `lib/flash/travelTimeMatrix.ts` |
+| Swipe UI | `components/flash/ImmersiveSwipeCard.tsx` |
+| Explore/Map page | `app/flash/explore/page.tsx` |
+| Flash input form | `components/flash/FlashPlanInput.tsx` |
+| Trip state management | `hooks/useFlashVacation.ts` |
+| Revealed preferences | `hooks/useRevealedPreferences.ts` |
+| Profile wizard (dormant) | `components/flash/ProfileWizard/` — exists but not linked anywhere |
+| Loyalty mapping | `lib/loyalty/` |
+| Booking storage | `lib/supabase/bookings.ts` |
+| Draft persistence | `lib/flash/draft-storage.ts` |
+| Supabase image helper | `lib/supabase/images.ts` |
 
 ---
 
-## Code Reuse for Mobile (Reference)
-
-When building the Expo app, these can be shared directly:
-
-| Layer | Reuse | Notes |
-|-------|-------|-------|
-| `types/*.ts` | 100% | Copy directly |
-| `lib/flash/destinations.ts` | 100% | Destination database |
-| `lib/flash/tripGenerator.ts` | 100% | Trip generation logic |
-| `lib/flash/diversityEngine.ts` | 100% | Selection algorithm |
-| `lib/supabase/*.ts` | 95% | Swap token storage only |
-| `lib/duffel/*.ts` | 100% | API calls unchanged |
-| `data/pois/*.json` | 100% | Bundle or fetch |
-| `lib/flash/draft-storage.ts` | 95% | Uses Supabase API, fully portable |
-| UI Components | 0-20% | Full rewrite for native |
-
----
-
-*Last updated: January 2025*
+*Brand name "HonestNomad" is temporary — keep everything theme-able.*

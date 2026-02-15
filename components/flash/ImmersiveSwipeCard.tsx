@@ -148,72 +148,52 @@ export function ImmersiveSwipeCard({
         </div>
       )}
 
-      {/* Top right: Price badge with loading state */}
+      {/* Top right: Price badge — per-night is the hero number */}
       <div className="absolute top-8 right-4 z-10">
         {priceState?.loading ? (
-          // Loading state - show what's loading
-          <div className="flex flex-col items-end gap-1">
-            <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg flex items-center gap-2">
-              <div className="w-4 h-4 border-2 border-gray-300 border-t-gray-600 rounded-full animate-spin" />
-              <span className="text-gray-600 text-sm font-medium">
-                {priceState.realPrice ? formatPrice(priceState.realPrice, trip.pricing.currency) : 'Checking...'}
+          // Loading — show spinner with whatever partial price we have
+          <div className="bg-black/60 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-lg flex items-center gap-2">
+            <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+            <span className="text-white/80 text-sm font-medium">
+              {trip.hotel?.pricePerNight
+                ? `${formatPrice(trip.hotel.pricePerNight, trip.pricing.currency)}/night`
+                : 'Checking prices...'}
+            </span>
+          </div>
+        ) : trip.hotel ? (
+          // Hotel loaded — show per-night price + hotel name
+          <div className="flex flex-col items-end gap-1.5">
+            <div className={`px-4 py-2.5 rounded-2xl shadow-lg ${
+              priceState?.overBudget
+                ? 'bg-amber-500'
+                : 'bg-black/60 backdrop-blur-md'
+            }`}>
+              <span className={`font-bold text-lg ${priceState?.overBudget ? 'text-white' : 'text-white'}`}>
+                {formatPrice(trip.hotel.pricePerNight, trip.pricing.currency)}
               </span>
+              <span className="text-white/70 text-sm">/night</span>
             </div>
-            <div className="flex gap-1">
-              {priceState.hotelLoading ? (
-                <span className="text-xs bg-blue-500/80 text-white px-2 py-0.5 rounded-full">🏨 loading</span>
-              ) : priceState.hotelLoaded ? (
-                <span className="text-xs bg-green-500/80 text-white px-2 py-0.5 rounded-full">🏨 ✓</span>
-              ) : (
-                <span className="text-xs bg-gray-500/80 text-white px-2 py-0.5 rounded-full">🏨 est.</span>
-              )}
+            <div className="bg-black/50 backdrop-blur-sm px-3 py-1 rounded-xl max-w-[200px]">
+              <p className="text-white/90 text-[11px] font-medium truncate">
+                🏨 {trip.hotel.name}
+              </p>
+              <p className="text-white/50 text-[10px]">
+                {'★'.repeat(trip.hotel.stars)} · {trip.hotel.rating.toFixed(1)} rating
+              </p>
             </div>
           </div>
-        ) : priceState?.overBudget ? (
-          // Over budget warning
-          <div className="flex flex-col items-end gap-1">
-            <div className="bg-amber-500 px-4 py-2 rounded-full shadow-lg">
-              <span className="font-bold text-white text-lg">
-                {formatPrice(priceState.realPrice || trip.pricing.total, trip.pricing.currency)}
-              </span>
-            </div>
-            <div className="bg-red-500/90 px-3 py-1 rounded-full shadow-lg">
-              <span className="text-white text-xs font-medium">
-                +{formatPrice(priceState.budgetDiff || 0, trip.pricing.currency)} over budget
-              </span>
-            </div>
-          </div>
-        ) : priceState?.loaded ? (
-          // Price loaded and within budget
-          <div className="flex flex-col items-end gap-1">
-            <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
-              <span className="font-bold text-gray-900 text-lg">
-                {formatPrice(priceState.realPrice || trip.pricing.total, trip.pricing.currency)}
-              </span>
-            </div>
-            <div className="bg-green-500/90 px-3 py-1 rounded-full shadow-lg">
-              <span className="text-white text-xs font-medium">✓ Verified price</span>
-            </div>
+        ) : trip.pricing.total > 0 ? (
+          // Estimate only — no hotel data yet
+          <div className="bg-black/60 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-lg">
+            <span className="text-white/60 text-sm">from </span>
+            <span className="font-bold text-white text-lg">
+              ~{formatPrice(Math.round(trip.pricing.hotel / Math.max(trip.itinerary.days, 1)), trip.pricing.currency)}
+            </span>
+            <span className="text-white/60 text-sm">/night</span>
           </div>
         ) : (
-          // Default/estimated price (no priceState provided or error)
-          <div className="flex flex-col items-end gap-1">
-            {trip.pricing.total > 0 ? (
-              <>
-                <div className="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
-                  <span className="font-bold text-gray-900 text-lg">
-                    ~{formatPrice(trip.pricing.total, trip.pricing.currency)}
-                  </span>
-                </div>
-                <div className="bg-white/80 px-2 py-0.5 rounded-full">
-                  <span className="text-gray-600 text-xs">Est. total</span>
-                </div>
-              </>
-            ) : (
-              <div className="bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-lg">
-                <span className="text-gray-600 text-sm font-medium">Price on select</span>
-              </div>
-            )}
+          <div className="bg-black/60 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-lg">
+            <span className="text-white/70 text-sm font-medium">Price on select</span>
           </div>
         )}
       </div>

@@ -2,6 +2,7 @@ import type { FlashVacationPreferences, Destination, DestinationVibe } from '@/t
 import { DESTINATIONS, getDestinationsForMonth } from './destinations';
 import type { RevealedPreferences } from './preferenceEngine';
 import { scoreDestination, hasEnoughSignals } from './preferenceEngine';
+import { estimateTravelTime } from './travelTimeMatrix';
 
 interface ScoredDestination {
   destination: Destination;
@@ -9,6 +10,7 @@ interface ScoredDestination {
     seasonalFit: number;      // 0-1: How appropriate for travel dates
     vibeMatch: number;        // 0-1: How well it matches requested vibes
     budgetFit: number;        // 0-1: How well it fits budget
+    reachability: number;     // 0-1: How practical to get to from user's location
     revealedPref: number;     // 0-1: How well it matches revealed preferences
     total: number;            // Weighted sum
   };
@@ -100,6 +102,34 @@ function scoreBudgetFit(destination: Destination, profile: FlashVacationPreferen
 }
 
 /**
+ * Score how reachable/practical the destination is from the user's location.
+ * Nearby destinations score higher — not as a penalty for far ones, but as a
+ * boost for equally-good options that are actually convenient to book.
+ *
+ * A beach trip to Cancun from Toronto beats Bali from Toronto (unless the user
+ * specifically craves Bali's vibe and nothing else matches).
+ *
+ * Scoring curve:
+ *   0-4 hours  → 1.0  (short haul, very practical)
+ *   4-8 hours  → 0.8  (medium haul, still easy)
+ *   8-14 hours → 0.5  (long haul, doable)
+ *   14+ hours  → 0.3  (ultra long, aspirational)
+ *   No data    → 0.5  (neutral — don't penalize when we can't estimate)
+ */
+function scoreReachability(destination: Destination, originAirport: string): number {
+  if (!originAirport) return 0.5; // No origin = neutral
+
+  const estimate = estimateTravelTime(originAirport, destination);
+  if (!estimate) return 0.5; // Can't estimate = neutral
+
+  const hours = estimate.totalHours;
+  if (hours <= 4) return 1.0;
+  if (hours <= 8) return 0.8;
+  if (hours <= 14) return 0.5;
+  return 0.3;
+}
+
+/**
  * Select a diverse set of destinations based on profile and preferences
  */
 export function selectDestinations(params: SelectionParams): Destination[] {
@@ -126,37 +156,52 @@ export function selectDestinations(params: SelectionParams): Destination[] {
   const useRevealedPrefs = revealedPreferences && hasEnoughSignals(revealedPreferences);
 
   // Score each destination
-  // Scoring is driven by form inputs (vibes, dates, budget) and learned behavior
+  // Scoring is driven by form inputs (vibes, dates, budget), reachability, and learned behavior
   // No saved profile required — everything comes from the search form or swipe history
+  const hasOrigin = !!originAirport;
+
   const scoredDestinations: ScoredDestination[] = candidates.map(destination => {
     const seasonalFit = scoreSeasonalFit(destination, departureDate);
     const vibeMatch = scoreVibeMatch(destination, vibes || []);
     const budgetFit = scoreBudgetFit(destination, profile);
+    const reachability = scoreReachability(destination, originAirport);
 
     // Calculate revealed preference score (0.5 neutral if not enough data)
     const revealedPref = useRevealedPrefs
       ? scoreDestination(revealedPreferences!, destination)
       : 0.5;
 
-    // Weighted total — vibes and season are king, budget is a sanity check,
+    // Weighted total — vibes and season are king, reachability gives a gentle
+    // nudge toward practical bookable destinations, budget is a sanity check,
     // revealed prefs take over once the user has swiped enough
     let total: number;
     if (useRevealedPrefs) {
-      total =
-        seasonalFit * 0.20 +
-        vibeMatch * 0.25 +
-        budgetFit * 0.15 +
-        revealedPref * 0.40;      // Behavior data is the strongest signal
+      // With behavioral data — reachability still matters but behavior dominates
+      total = hasOrigin
+        ? seasonalFit * 0.15 +
+          vibeMatch * 0.20 +
+          budgetFit * 0.10 +
+          reachability * 0.15 +
+          revealedPref * 0.40
+        : seasonalFit * 0.20 +
+          vibeMatch * 0.25 +
+          budgetFit * 0.15 +
+          revealedPref * 0.40;
     } else {
-      total =
-        seasonalFit * 0.35 +
-        vibeMatch * 0.40 +        // Vibes from the form = primary signal
-        budgetFit * 0.25;
+      // Fresh user — reachability makes destinations feel actionable
+      total = hasOrigin
+        ? seasonalFit * 0.30 +
+          vibeMatch * 0.35 +
+          budgetFit * 0.20 +
+          reachability * 0.15    // Gentle nudge toward nearby gems
+        : seasonalFit * 0.35 +
+          vibeMatch * 0.40 +
+          budgetFit * 0.25;
     }
 
     return {
       destination,
-      scores: { seasonalFit, vibeMatch, budgetFit, revealedPref, total },
+      scores: { seasonalFit, vibeMatch, budgetFit, reachability, revealedPref, total },
     };
   });
 

@@ -354,7 +354,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
           <span>16 curated destinations matched to your taste</span>
           {detectedAirport && geoStatus === 'done' && (
             <span className="block text-xs text-gray-400 mt-1">
-              Searching near {detectedAirport.city} ({detectedAirport.code})
+              Prioritizing destinations reachable from {detectedAirport.city}
             </span>
           )}
         </div>

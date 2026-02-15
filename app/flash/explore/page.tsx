@@ -191,6 +191,7 @@ function FlashExploreContent() {
   const [hotelsLoaded, setHotelsLoaded] = useState(false);
 
   const [expandedHotelId, setExpandedHotelId] = useState<string | null>(null);
+  const [hotelViewMode, setHotelViewMode] = useState<'list' | 'map'>('list');
 
   // Photo lightbox state
   const [lightboxPhotos, setLightboxPhotos] = useState<string[]>([]);
@@ -1248,11 +1249,115 @@ function FlashExploreContent() {
                 <p className="text-white/50 text-xs">Step 2 of 3</p>
                 <h1 className="text-white font-bold">Hotels</h1>
               </div>
-              <div className="w-16" />
+              {/* Map/List toggle */}
+              <div className="flex bg-white/10 rounded-lg p-0.5">
+                <button
+                  onClick={() => setHotelViewMode('list')}
+                  className={`px-2.5 py-1.5 rounded-md text-xs font-medium transition-colors ${
+                    hotelViewMode === 'list' ? 'bg-white/20 text-white' : 'text-white/50'
+                  }`}
+                >
+                  List
+                </button>
+                <button
+                  onClick={() => setHotelViewMode('map')}
+                  className={`px-2.5 py-1.5 rounded-md text-xs font-medium transition-colors ${
+                    hotelViewMode === 'map' ? 'bg-white/20 text-white' : 'text-white/50'
+                  }`}
+                >
+                  Map
+                </button>
+              </div>
             </div>
           </div>
 
-          {/* Content */}
+          {/* Content — Map or List view */}
+          {hotelViewMode === 'map' ? (
+            /* Hotel Map View */
+            <div className="flex-1 relative">
+              <ItineraryMap
+                stops={[
+                  // Show favorite POIs as markers
+                  ...favoriteStops.map(s => ({
+                    ...s,
+                    day: 0, // Special day for favorites
+                  })),
+                ]}
+                centerLatitude={trip?.destination.latitude || 0}
+                centerLongitude={trip?.destination.longitude || 0}
+                favoriteStops={favoriteStops}
+                className="absolute inset-0"
+              />
+
+              {/* Hotel pins overlay — floating cards */}
+              <div className="absolute bottom-4 left-0 right-0 z-20">
+                <div className="flex gap-3 overflow-x-auto px-4 pb-2 snap-x snap-mandatory scrollbar-hide">
+                  {hotelOptions.map(hotel => {
+                    const isSelected = selectedHotel?.id === hotel.id;
+                    return (
+                      <button
+                        key={hotel.id}
+                        onClick={() => setSelectedHotel(hotel)}
+                        className={`flex-shrink-0 w-64 snap-center rounded-xl overflow-hidden shadow-lg transition-all ${
+                          isSelected
+                            ? 'ring-2 ring-white scale-[1.02]'
+                            : 'ring-1 ring-white/20'
+                        }`}
+                      >
+                        <div className="h-20 relative">
+                          <img
+                            src={hotel.mainPhoto}
+                            alt={hotel.name}
+                            className="w-full h-full object-cover"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800';
+                            }}
+                          />
+                          {hotel.insideZone && (
+                            <div className="absolute top-2 left-2 px-1.5 py-0.5 bg-purple-500/90 rounded-full">
+                              <span className="text-white text-[10px] font-medium">📍 In zone</span>
+                            </div>
+                          )}
+                          {isSelected && (
+                            <div className="absolute top-2 right-2 w-6 h-6 bg-white rounded-full flex items-center justify-center">
+                              <svg className="w-4 h-4 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                              </svg>
+                            </div>
+                          )}
+                        </div>
+                        <div className="bg-gray-900 p-2.5">
+                          <div className="flex items-start justify-between">
+                            <div className="flex-1 min-w-0 pr-2">
+                              <p className="text-white text-sm font-semibold truncate">{hotel.name}</p>
+                              <p className="text-amber-400 text-xs">{'★'.repeat(hotel.stars)} {hotel.rating > 0 ? hotel.rating.toFixed(1) : ''}</p>
+                            </div>
+                            <div className="text-right flex-shrink-0">
+                              <p className="text-white font-bold text-sm">
+                                {formatPrice(hotel.pricePerNight, hotel.currency)}
+                              </p>
+                              <p className="text-white/50 text-[10px]">/night</p>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Floating "your spots" legend */}
+              {favoriteStops.length > 0 && (
+                <div className="absolute top-3 left-3 z-20">
+                  <div className="bg-black/60 backdrop-blur-sm rounded-lg px-3 py-2">
+                    <p className="text-white/80 text-[11px]">
+                      📍 Your {favoriteStops.length} saved spot{favoriteStops.length !== 1 ? 's' : ''} · 🏨 Hotels
+                    </p>
+                  </div>
+                </div>
+              )}
+            </div>
+          ) : (
           <div className="flex-1 overflow-y-auto p-4">
             <div className="max-w-lg mx-auto">
               {/* Loading state — smart hotel zone messaging */}
@@ -1649,6 +1754,7 @@ function FlashExploreContent() {
               </button>
             </div>
           </div>
+          )}
 
           {/* Bottom button */}
           <div className="p-4 pb-safe border-t border-white/10">

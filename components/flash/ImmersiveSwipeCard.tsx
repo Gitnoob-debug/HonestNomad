@@ -18,6 +18,25 @@ interface PriceState {
   budgetDiff?: number;
 }
 
+// Vibe colors for destination personality tags
+const VIBE_STYLES: Record<string, { bg: string; text: string; emoji: string }> = {
+  beach:     { bg: 'rgba(6,182,212,0.7)',   text: '#fff', emoji: '🏖️' },
+  culture:   { bg: 'rgba(168,85,247,0.7)',  text: '#fff', emoji: '🎭' },
+  food:      { bg: 'rgba(249,115,22,0.7)',  text: '#fff', emoji: '🍜' },
+  romance:   { bg: 'rgba(244,63,94,0.7)',   text: '#fff', emoji: '💕' },
+  adventure: { bg: 'rgba(34,197,94,0.7)',   text: '#fff', emoji: '🧗' },
+  nightlife: { bg: 'rgba(168,85,247,0.7)',  text: '#fff', emoji: '🎉' },
+  history:   { bg: 'rgba(180,83,9,0.7)',    text: '#fff', emoji: '🏛️' },
+  nature:    { bg: 'rgba(22,163,74,0.7)',   text: '#fff', emoji: '🌿' },
+  city:      { bg: 'rgba(99,102,241,0.7)',  text: '#fff', emoji: '🏙️' },
+  luxury:    { bg: 'rgba(234,179,8,0.7)',   text: '#fff', emoji: '✨' },
+  wellness:  { bg: 'rgba(20,184,166,0.7)',  text: '#fff', emoji: '🧘' },
+  shopping:  { bg: 'rgba(236,72,153,0.7)',  text: '#fff', emoji: '🛍️' },
+  art:       { bg: 'rgba(139,92,246,0.7)',  text: '#fff', emoji: '🎨' },
+  music:     { bg: 'rgba(217,70,239,0.7)',  text: '#fff', emoji: '🎵' },
+  spiritual: { bg: 'rgba(251,191,36,0.7)',  text: '#fff', emoji: '🕉️' },
+};
+
 interface ImmersiveSwipeCardProps {
   trip: FlashTripPackage;
   priceState?: PriceState;
@@ -215,69 +234,76 @@ export function ImmersiveSwipeCard({
       </div>
 
       {/* Bottom content */}
-      <div className="absolute bottom-0 left-0 right-0 z-10 p-6 pb-8">
+      <div className="absolute bottom-0 left-0 right-0 z-10 p-5 pb-7">
+        {/* Vibes row — colorful pills */}
+        {trip.destination.vibes && trip.destination.vibes.length > 0 && (
+          <div className="flex flex-wrap gap-1.5 mb-3">
+            {trip.destination.vibes.slice(0, 4).map((vibe, i) => (
+              <span
+                key={i}
+                className="text-[11px] font-semibold uppercase tracking-wide px-2.5 py-1 rounded-full"
+                style={{
+                  background: VIBE_STYLES[vibe]?.bg || 'rgba(255,255,255,0.2)',
+                  color: VIBE_STYLES[vibe]?.text || '#fff',
+                }}
+              >
+                {VIBE_STYLES[vibe]?.emoji || '✨'} {vibe}
+              </span>
+            ))}
+          </div>
+        )}
+
         {/* Destination name - large and bold */}
-        <h1 className="text-4xl sm:text-5xl font-bold text-white mb-1 drop-shadow-lg">
+        <h1 className="text-4xl sm:text-5xl font-bold text-white mb-0.5 drop-shadow-lg leading-tight">
           {trip.destination.city}
         </h1>
-        <p className="text-white/90 text-lg mb-2 drop-shadow">
+        <p className="text-white/80 text-base mb-1.5 drop-shadow">
           {trip.destination.country}
         </p>
 
         {/* Tagline - the one-liner sell */}
         {trip.tagline && (
-          <p className="text-white/80 text-sm italic mb-4 drop-shadow">
+          <p className="text-white/70 text-sm italic mb-3 drop-shadow leading-snug">
             &ldquo;{trip.tagline}&rdquo;
           </p>
         )}
 
-        {/* Quick info row */}
-        <div className="flex flex-wrap items-center gap-2 text-white/80 text-sm">
-          {/* Duration */}
-          <span className="flex items-center gap-1.5 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full">
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
-            {trip.itinerary.days} nights
+        {/* Highlights — the selling points */}
+        {trip.highlights.length > 0 && (
+          <div className="mb-3">
+            <div className="grid grid-cols-2 gap-x-3 gap-y-1">
+              {trip.highlights.slice(0, 4).map((highlight, i) => (
+                <div key={i} className="flex items-center gap-1.5">
+                  <span className="text-green-400 text-xs flex-shrink-0">✓</span>
+                  <span className="text-white/90 text-[13px] truncate">{highlight}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Quick info row — compact */}
+        <div className="flex flex-wrap items-center gap-1.5 text-white/70 text-xs">
+          <span className="flex items-center gap-1 bg-white/15 backdrop-blur-sm px-2.5 py-1 rounded-full">
+            🗓 {trip.itinerary.days} nights
           </span>
 
-          {/* POI count badge */}
           {trip.poiCount && trip.poiCount > 0 && (
-            <span className="flex items-center gap-1.5 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-              {trip.poiCount}+ places curated
+            <span className="flex items-center gap-1 bg-white/15 backdrop-blur-sm px-2.5 py-1 rounded-full">
+              📍 {trip.poiCount}+ places
             </span>
           )}
 
-          {/* Transfer info badge if applicable */}
           {trip.transferInfo && (
-            <span className="flex items-center gap-1.5 bg-amber-500/80 backdrop-blur-sm px-3 py-1.5 rounded-full text-white">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-              </svg>
-              +{Math.round(trip.transferInfo.groundTransferMinutes / 60)}hr {trip.transferInfo.transferType}
+            <span className="flex items-center gap-1 bg-amber-500/70 backdrop-blur-sm px-2.5 py-1 rounded-full text-white">
+              🚗 +{Math.round(trip.transferInfo.groundTransferMinutes / 60)}hr transfer
             </span>
           )}
-        </div>
-
-        {/* Highlights - as subtle tags */}
-        <div className="flex flex-wrap gap-2 mt-3">
-          {trip.highlights.slice(0, 3).map((highlight, i) => (
-            <span
-              key={i}
-              className="text-white/70 text-xs bg-white/10 backdrop-blur-sm px-2.5 py-1 rounded-full"
-            >
-              {highlight}
-            </span>
-          ))}
         </div>
 
         {/* Tap hint */}
-        <p className="text-white/50 text-xs mt-3 text-center">
-          Tap center to see details
+        <p className="text-white/40 text-[11px] mt-2.5 text-center">
+          Tap for details · Swipe to explore
         </p>
       </div>
 

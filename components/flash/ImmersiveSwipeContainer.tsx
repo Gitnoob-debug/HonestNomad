@@ -42,7 +42,29 @@ export function ImmersiveSwipeContainer({
 }: ImmersiveSwipeContainerProps) {
   const [expandedTrip, setExpandedTrip] = useState<FlashTripPackage | null>(null);
   const [showControls, setShowControls] = useState(true);
+  const [showTutorial, setShowTutorial] = useState(currentIndex === 0);
   const controlsTimeoutRef = useRef<NodeJS.Timeout>();
+
+  // Dismiss tutorial on first interaction or after 3 seconds
+  useEffect(() => {
+    if (!showTutorial) return;
+
+    const timer = setTimeout(() => setShowTutorial(false), 3000);
+    const dismiss = () => setShowTutorial(false);
+    window.addEventListener('touchstart', dismiss, { once: true });
+    window.addEventListener('mousedown', dismiss, { once: true });
+
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('touchstart', dismiss);
+      window.removeEventListener('mousedown', dismiss);
+    };
+  }, [showTutorial]);
+
+  // Hide tutorial when user advances past first card
+  useEffect(() => {
+    if (currentIndex > 0) setShowTutorial(false);
+  }, [currentIndex]);
 
   const { ref, swipeState, getTransformStyle } = useSwipeGestures({
     onSwipeLeft,
@@ -236,6 +258,33 @@ export function ImmersiveSwipeContainer({
         </div>
       </div>
 
+      {/* First-card swipe tutorial overlay */}
+      {showTutorial && currentTrip && (
+        <div className="fixed inset-0 z-40 pointer-events-none flex items-center justify-center">
+          <div className="flex items-center gap-12 animate-pulse">
+            {/* Left arrow + label */}
+            <div className="flex flex-col items-center gap-2 opacity-80">
+              <div className="w-14 h-14 rounded-full bg-red-500/30 border-2 border-red-400/60 flex items-center justify-center">
+                <svg className="w-7 h-7 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 19l-7-7 7-7" />
+                </svg>
+              </div>
+              <span className="text-white/80 text-xs font-medium">Skip</span>
+            </div>
+
+            {/* Right arrow + label */}
+            <div className="flex flex-col items-center gap-2 opacity-80">
+              <div className="w-14 h-14 rounded-full bg-green-500/30 border-2 border-green-400/60 flex items-center justify-center">
+                <svg className="w-7 h-7 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 5l7 7-7 7" />
+                </svg>
+              </div>
+              <span className="text-white/80 text-xs font-medium">I like this!</span>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Floating controls - appear on tap/interaction */}
       <div
         className={`fixed bottom-0 left-0 right-0 z-30 transition-all duration-300 ${
@@ -301,9 +350,23 @@ export function ImmersiveSwipeContainer({
             </button>
           </div>
 
-          {/* Counter */}
-          <p className="mt-4 text-sm text-white/60 text-center">
-            {currentIndex + 1} of {trips.length}
+          {/* Progress dots */}
+          <div className="mt-4 flex items-center justify-center gap-1">
+            {trips.map((_, idx) => (
+              <div
+                key={idx}
+                className={`rounded-full transition-all duration-300 ${
+                  idx === currentIndex
+                    ? 'w-6 h-2 bg-white'
+                    : idx < currentIndex
+                      ? 'w-2 h-2 bg-white/50'
+                      : 'w-2 h-2 bg-white/20'
+                }`}
+              />
+            ))}
+          </div>
+          <p className="mt-1.5 text-[11px] text-white/40 text-center">
+            {currentIndex + 1} / {trips.length}
           </p>
         </div>
       </div>

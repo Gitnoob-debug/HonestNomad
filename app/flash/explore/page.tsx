@@ -468,6 +468,8 @@ function FlashExploreContent() {
             checkin,
             checkout,
             destinationName: trip.destination.city,
+            // Pass zone radius so hotel search is tighter around the cluster
+            zoneRadiusKm: zone ? zone.radiusMeters / 1000 : undefined,
           }),
         });
 
@@ -1347,12 +1349,19 @@ function FlashExploreContent() {
                                   </svg>
                                 </div>
                               )}
-                              {/* Refundable badge */}
-                              {hotel.refundable && (
-                                <div className="absolute top-3 left-3 px-2 py-1 bg-green-500/90 rounded-full">
-                                  <span className="text-white text-xs font-medium">Free cancellation</span>
-                                </div>
-                              )}
+                              {/* Zone + Refundable badges */}
+                              <div className="absolute top-3 left-3 flex flex-col gap-1.5">
+                                {hotel.insideZone && (
+                                  <div className="px-2 py-1 bg-purple-500/90 rounded-full">
+                                    <span className="text-white text-xs font-medium">📍 Near your spots</span>
+                                  </div>
+                                )}
+                                {hotel.refundable && (
+                                  <div className="px-2 py-1 bg-green-500/90 rounded-full">
+                                    <span className="text-white text-xs font-medium">Free cancellation</span>
+                                  </div>
+                                )}
+                              </div>
                               {/* Expand indicator */}
                               <div className="absolute bottom-3 right-3 w-8 h-8 bg-black/50 rounded-full flex items-center justify-center">
                                 <svg

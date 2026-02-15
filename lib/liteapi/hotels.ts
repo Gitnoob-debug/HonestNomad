@@ -40,6 +40,7 @@ interface SearchHotelsParams {
   checkout: string;
   preferences: FlashVacationPreferences;
   limit?: number;
+  zoneRadiusKm?: number; // From hotel zone clustering — tighter search radius
 }
 
 /**
@@ -54,14 +55,23 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
     checkout,
     preferences,
     limit = 5,
+    zoneRadiusKm,
   } = params;
 
   // Get more hotels than we need so we can filter/rank
   const fetchLimit = Math.max(limit * 4, 20);
 
-  // 1. Search hotels by location
+  // 1. Search hotels by location — use zone radius if available
+  // Zone radius is the clustering-based ideal zone; add 50% padding for search
+  // but use a minimum of 5km and max of 15km to ensure we get results
+  const searchRadiusKm = zoneRadiusKm
+    ? Math.min(15, Math.max(5, zoneRadiusKm * 1.5))
+    : 15;
+
+  console.log(`[LiteAPI] Searching with radius ${searchRadiusKm}km (zone: ${zoneRadiusKm || 'n/a'}km)`);
+
   const { hotels } = await searchHotelsByLocation(latitude, longitude, {
-    radius: 15, // 15km radius
+    radius: searchRadiusKm,
     limit: fetchLimit,
   });
 
@@ -70,17 +80,32 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
     return [];
   }
 
-  // 2. Filter by minimum stars
+  // 2. Calculate distance from zone center for each hotel
+  const hotelsWithDistance = hotels.map(h => {
+    const dLat = (h.latitude - latitude) * 111320;
+    const dLng = (h.longitude - longitude) * 111320 * Math.cos(((h.latitude + latitude) / 2) * Math.PI / 180);
+    const distanceMeters = Math.sqrt(dLat * dLat + dLng * dLng);
+    const zoneRadiusMeters = (zoneRadiusKm || 15) * 1000;
+    return {
+      ...h,
+      distanceFromCenter: distanceMeters,
+      insideZone: distanceMeters <= zoneRadiusMeters,
+    };
+  });
+
+  // Sort by distance so closer hotels are processed first
+  hotelsWithDistance.sort((a, b) => a.distanceFromCenter - b.distanceFromCenter);
+
+  // 3. Filter by minimum stars
   const minStars = preferences.accommodation?.minStars || 3;
-  const starFiltered = hotels.filter(h => h.stars >= minStars);
+  const starFiltered = hotelsWithDistance.filter(h => h.stars >= minStars);
 
   if (starFiltered.length === 0) {
     // Fallback: use top-rated hotels if star filter is too strict
-    console.log('Star filter too strict, using top-rated hotels');
-    hotels.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+    console.log('Star filter too strict, using closest hotels by distance');
   }
 
-  const filteredHotels = starFiltered.length > 0 ? starFiltered : hotels;
+  const filteredHotels = starFiltered.length > 0 ? starFiltered : hotelsWithDistance;
 
   // 3. Build hotel options - use mock rates for sandbox testing
   const hotelOptions: HotelOption[] = [];
@@ -109,6 +134,8 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
         rating: hotel.rating || 4.0,
         reviewCount: hotel.reviewCount || Math.floor(Math.random() * 500) + 50,
         address: hotel.address || '',
+        latitude: hotel.latitude,
+        longitude: hotel.longitude,
         mainPhoto: hotel.main_photo || hotel.thumbnail || details?.hotelImages?.[0]?.url || '',
         photos: details?.hotelImages?.slice(0, 10).map(img => img.url) || [],
         amenities: details?.hotelFacilities?.slice(0, 15) || ['WiFi', 'Air Conditioning', 'Room Service'],
@@ -126,6 +153,8 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
         roomName: 'Standard Room',
         roomDescription: 'Comfortable room with modern amenities',
         expiresAt: Date.now() + (30 * 60 * 1000), // 30 minutes
+        distanceFromZoneCenter: hotel.distanceFromCenter,
+        insideZone: hotel.insideZone,
       };
 
       hotelOptions.push(option);
@@ -167,6 +196,8 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
         rating: hotel.rating,
         reviewCount: hotel.reviewCount,
         address: hotel.address,
+        latitude: hotel.latitude,
+        longitude: hotel.longitude,
         mainPhoto: hotel.main_photo || hotel.thumbnail,
         photos: details?.hotelImages?.slice(0, 10).map(img => img.url) || [hotel.main_photo],
         amenities: details?.hotelFacilities?.slice(0, 15) || [],
@@ -184,6 +215,8 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
         roomName: bestRoom.roomName,
         roomDescription: bestRoom.roomDescription,
         expiresAt: Date.now() + (hotelRates.et * 1000),
+        distanceFromZoneCenter: hotel.distanceFromCenter,
+        insideZone: hotel.insideZone,
       };
 
       hotelOptions.push(option);
@@ -307,6 +340,20 @@ function findBestRoom(
  */
 function scoreHotel(hotel: HotelOption, preferences: FlashVacationPreferences): number {
   let score = 0;
+
+  // === PROXIMITY TO ZONE (0-15 points) — highest weight ===
+  // Hotels inside the ideal hotel zone get a big boost
+  if (hotel.insideZone) {
+    score += 10;
+  }
+  // Distance penalty: closer to zone center = higher score
+  if (hotel.distanceFromZoneCenter !== undefined) {
+    // 0-1km: +5, 1-3km: +3, 3-5km: +1, >5km: 0
+    const distKm = hotel.distanceFromZoneCenter / 1000;
+    if (distKm < 1) score += 5;
+    else if (distKm < 3) score += 3;
+    else if (distKm < 5) score += 1;
+  }
 
   // Base score from rating (0-10 points)
   score += (hotel.rating || 0);

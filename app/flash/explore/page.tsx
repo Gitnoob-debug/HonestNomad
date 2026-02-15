@@ -19,6 +19,7 @@ import { DESTINATIONS } from '@/lib/flash/destinations';
 import type { HotelOption } from '@/lib/liteapi/types';
 import type { LiteAPIReview } from '@/lib/liteapi/types';
 import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
+import { calculateHotelZone } from '@/lib/flash/hotelZoneClustering';
 
 type BookingStep = 'choice' | 'itinerary' | 'hotels' | 'checkout';
 type ItineraryType = SimplePathChoice | null;
@@ -409,18 +410,20 @@ function FlashExploreContent() {
       setHotelError(null);
 
       try {
-        // Calculate ideal hotel zone — centroid of favorited POIs (or all stops)
-        const stopsForCentroid = favoriteStops.length >= 2
+        // Calculate ideal hotel zone with IQR clustering (excludes outliers)
+        const stopsForZone = favoriteStops.length >= 2
           ? favoriteStops
           : itinerary.flatMap(d => d.stops);
 
         let searchLat: number;
         let searchLng: number;
 
-        if (stopsForCentroid.length >= 2) {
-          // Calculate centroid of POI cluster
-          searchLat = stopsForCentroid.reduce((sum, s) => sum + s.latitude, 0) / stopsForCentroid.length;
-          searchLng = stopsForCentroid.reduce((sum, s) => sum + s.longitude, 0) / stopsForCentroid.length;
+        const zone = calculateHotelZone(stopsForZone);
+
+        if (zone) {
+          // Use clustered centroid (outliers excluded)
+          searchLat = zone.centerLat;
+          searchLng = zone.centerLng;
         } else {
           // Fallback to destination center
           const destination = DESTINATIONS.find(

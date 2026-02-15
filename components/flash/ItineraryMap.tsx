@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
+import { calculateHotelZone } from '@/lib/flash/hotelZoneClustering';
 
 interface ItineraryStop {
   id: string;
@@ -396,17 +397,20 @@ export function ItineraryMap({
     }
   }, [stops, mapLoaded, activeDay]);
 
-  // Draw ideal hotel zone — circle around centroid of favorited stops
+  // Draw ideal hotel zone — uses IQR clustering to exclude outliers
   useEffect(() => {
     if (!map.current || !mapLoaded) return;
 
     const m = map.current;
 
-    // Need 2+ favorites to show the zone
-    if (favoriteStops.length < 2) {
-      // Remove zone if it exists
+    // Calculate hotel zone with clustering (handles outlier filtering)
+    const zone = calculateHotelZone(favoriteStops);
+
+    if (!zone) {
+      // Not enough favorites — remove zone if it exists
       if (hotelZoneAdded.current) {
         try {
+          if (m.getLayer('hotel-zone-glow')) m.removeLayer('hotel-zone-glow');
           if (m.getLayer('hotel-zone-fill')) m.removeLayer('hotel-zone-fill');
           if (m.getLayer('hotel-zone-border')) m.removeLayer('hotel-zone-border');
           if (m.getLayer('hotel-zone-label')) m.removeLayer('hotel-zone-label');
@@ -420,48 +424,58 @@ export function ItineraryMap({
       return;
     }
 
-    // Calculate centroid
-    const centLat = favoriteStops.reduce((s, f) => s + f.latitude, 0) / favoriteStops.length;
-    const centLng = favoriteStops.reduce((s, f) => s + f.longitude, 0) / favoriteStops.length;
-
-    // Calculate radius — max distance from centroid to any favorite, plus padding
-    let maxDist = 0;
-    favoriteStops.forEach(f => {
-      const dLat = (f.latitude - centLat) * 111320; // meters per degree lat
-      const dLng = (f.longitude - centLng) * 111320 * Math.cos(centLat * Math.PI / 180);
-      const dist = Math.sqrt(dLat * dLat + dLng * dLng);
-      if (dist > maxDist) maxDist = dist;
-    });
-    // Minimum 400m radius, max distance + 30% padding
-    const radiusMeters = Math.max(400, maxDist * 1.3);
+    const { centerLat, centerLng, radiusMeters } = zone;
 
     // Generate circle polygon (64 points)
-    const points = 64;
+    const numPoints = 64;
     const coords: [number, number][] = [];
-    for (let i = 0; i <= points; i++) {
-      const angle = (i / points) * 2 * Math.PI;
+    for (let i = 0; i <= numPoints; i++) {
+      const angle = (i / numPoints) * 2 * Math.PI;
       const dx = radiusMeters * Math.cos(angle);
       const dy = radiusMeters * Math.sin(angle);
-      const lng = centLng + (dx / (111320 * Math.cos(centLat * Math.PI / 180)));
-      const lat = centLat + (dy / 111320);
+      const lng = centerLng + (dx / (111320 * Math.cos(centerLat * Math.PI / 180)));
+      const lat = centerLat + (dy / 111320);
       coords.push([lng, lat]);
+    }
+
+    // Outer glow ring (slightly larger)
+    const glowRadius = radiusMeters * 1.15;
+    const glowCoords: [number, number][] = [];
+    for (let i = 0; i <= numPoints; i++) {
+      const angle = (i / numPoints) * 2 * Math.PI;
+      const dx = glowRadius * Math.cos(angle);
+      const dy = glowRadius * Math.sin(angle);
+      const lng = centerLng + (dx / (111320 * Math.cos(centerLat * Math.PI / 180)));
+      const lat = centerLat + (dy / 111320);
+      glowCoords.push([lng, lat]);
     }
 
     const circleData: GeoJSON.FeatureCollection = {
       type: 'FeatureCollection',
-      features: [{
-        type: 'Feature',
-        properties: {},
-        geometry: { type: 'Polygon', coordinates: [coords] },
-      }],
+      features: [
+        {
+          type: 'Feature',
+          properties: { ring: 'main' },
+          geometry: { type: 'Polygon', coordinates: [coords] },
+        },
+        {
+          type: 'Feature',
+          properties: { ring: 'glow' },
+          geometry: { type: 'Polygon', coordinates: [glowCoords] },
+        },
+      ],
     };
+
+    const outlierNote = zone.clusteringApplied
+      ? `🏨 Hotel zone · ${zone.outlierPoints.length} outlier${zone.outlierPoints.length > 1 ? 's' : ''} excluded`
+      : '🏨 Ideal hotel zone';
 
     const labelData: GeoJSON.FeatureCollection = {
       type: 'FeatureCollection',
       features: [{
         type: 'Feature',
-        properties: { label: 'Ideal hotel zone' },
-        geometry: { type: 'Point', coordinates: [centLng, centLat] },
+        properties: { label: outlierNote },
+        geometry: { type: 'Point', coordinates: [centerLng, centerLat] },
       }],
     };
 
@@ -472,48 +486,66 @@ export function ItineraryMap({
         if (src) src.setData(circleData);
         if (labelSrc) labelSrc.setData(labelData);
       } else {
-        // Add circle fill + dashed border
+        // Add source with both main circle and glow ring
         m.addSource('hotel-zone', { type: 'geojson', data: circleData });
         m.addSource('hotel-zone-label', { type: 'geojson', data: labelData });
 
+        // Outer glow (subtle)
+        m.addLayer({
+          id: 'hotel-zone-glow',
+          type: 'fill',
+          source: 'hotel-zone',
+          filter: ['==', ['get', 'ring'], 'glow'],
+          paint: {
+            'fill-color': '#a78bfa',
+            'fill-opacity': 0.06,
+          },
+        }, 'route-lines-inactive'); // Insert below route lines
+
+        // Main fill — more visible
         m.addLayer({
           id: 'hotel-zone-fill',
           type: 'fill',
           source: 'hotel-zone',
+          filter: ['==', ['get', 'ring'], 'main'],
           paint: {
-            'fill-color': '#8b5cf6',
-            'fill-opacity': 0.08,
+            'fill-color': '#a78bfa',
+            'fill-opacity': 0.15,
           },
-        }, 'route-lines-inactive'); // Insert below route lines
+        });
 
+        // Dashed border — bolder
         m.addLayer({
           id: 'hotel-zone-border',
           type: 'line',
           source: 'hotel-zone',
+          filter: ['==', ['get', 'ring'], 'main'],
           paint: {
-            'line-color': '#8b5cf6',
-            'line-width': 2,
-            'line-opacity': 0.4,
-            'line-dasharray': [3, 3],
+            'line-color': '#a78bfa',
+            'line-width': 2.5,
+            'line-opacity': 0.65,
+            'line-dasharray': [4, 3],
           },
         });
 
+        // Label
         m.addLayer({
           id: 'hotel-zone-label',
           type: 'symbol',
           source: 'hotel-zone-label',
           layout: {
             'text-field': ['get', 'label'],
-            'text-size': 11,
+            'text-size': 12,
             'text-font': ['DIN Pro Medium', 'Arial Unicode MS Regular'],
             'text-offset': [0, 0],
             'text-anchor': 'center',
+            'text-allow-overlap': true,
           },
           paint: {
-            'text-color': '#8b5cf6',
-            'text-opacity': 0.7,
-            'text-halo-color': '#000000',
-            'text-halo-width': 1,
+            'text-color': '#c4b5fd',
+            'text-opacity': 0.9,
+            'text-halo-color': '#1e1b4b',
+            'text-halo-width': 1.5,
           },
         });
 

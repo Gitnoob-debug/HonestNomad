@@ -520,20 +520,31 @@ export const DESTINATION_IMAGES: Record<string, DestinationImage[]> = {
  */
 export function getDestinationImagesById(destinationId: string, count: number = 10): DestinationImage[] {
   const normalized = destinationId.toLowerCase().replace(/\s+/g, '-');
-  return DESTINATION_IMAGES[normalized] || generateDestinationImages(normalized, count);
+  // Only return images for destinations that have registered Supabase images
+  // Don't generate URLs for unregistered destinations (they'd 404)
+  return DESTINATION_IMAGES[normalized] || [];
 }
 
 // Alias for backwards compatibility
 export const getDestinationImages = getDestinationImagesById;
 
 /**
- * Get the primary (first) image URL for a destination
+ * Get the primary (first) image URL for a destination.
+ * Returns null if the destination has no registered Supabase images.
  */
-export function getPrimaryDestinationImage(destinationId: string): string {
+export function getPrimaryDestinationImage(destinationId: string): string | null {
   const normalized = destinationId.toLowerCase().replace(/\s+/g, '-');
   const images = DESTINATION_IMAGES[normalized];
   if (images && images.length > 0) {
     return images[0].url;
   }
-  return generateDestinationImages(normalized, 1)[0].url;
+  return null;
+}
+
+/**
+ * Check if a destination has registered Supabase images
+ */
+export function hasDestinationImages(destinationId: string): boolean {
+  const normalized = destinationId.toLowerCase().replace(/\s+/g, '-');
+  return normalized in DESTINATION_IMAGES;
 }

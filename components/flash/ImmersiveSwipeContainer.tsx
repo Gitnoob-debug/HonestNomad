@@ -51,7 +51,7 @@ export function ImmersiveSwipeContainer({
   const hasMoreTrips = currentIndex < trips.length - 1;
   const isExhausted = currentIndex >= trips.length;
 
-  // Preload next few images
+  // Preload next few images (primary + first few carousel images)
   useEffect(() => {
     const preloadCount = 3;
     for (let i = 1; i <= preloadCount; i++) {
@@ -60,11 +60,13 @@ export function ImmersiveSwipeContainer({
         // Preload primary image
         const img = new Image();
         img.src = tripToPreload.imageUrl;
-        // Preload first carousel image if available
-        const firstImage = tripToPreload.images?.[0];
-        if (firstImage) {
-          const img2 = new Image();
-          img2.src = typeof firstImage === 'string' ? firstImage : firstImage.url;
+        // Preload additional carousel images (skip first since it's the primary)
+        if (tripToPreload.images) {
+          const carouselImages = tripToPreload.images.slice(1, 3);
+          carouselImages.forEach(carouselImg => {
+            const preloadImg = new Image();
+            preloadImg.src = typeof carouselImg === 'string' ? carouselImg : carouselImg.url;
+          });
         }
       }
     }

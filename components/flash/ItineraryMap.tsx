@@ -24,9 +24,21 @@ interface ItineraryMapProps {
   centerLatitude: number;
   centerLongitude: number;
   activeStopId?: string;
+  activeDay?: number;
   onStopClick?: (stop: ItineraryStop) => void;
   className?: string;
 }
+
+// Day colors for route lines
+const DAY_COLORS = [
+  '#3b82f6', // blue - Day 1
+  '#8b5cf6', // purple - Day 2
+  '#f59e0b', // amber - Day 3
+  '#10b981', // emerald - Day 4
+  '#f43f5e', // rose - Day 5
+  '#06b6d4', // cyan - Day 6
+  '#f97316', // orange - Day 7
+];
 
 const MARKER_COLORS: Record<ItineraryStop['type'], string> = {
   landmark: '#ef4444',    // red
@@ -65,12 +77,14 @@ export function ItineraryMap({
   centerLatitude,
   centerLongitude,
   activeStopId,
+  activeDay,
   onStopClick,
   className = '',
 }: ItineraryMapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<mapboxgl.Marker[]>([]);
+  const routeSourceAdded = useRef(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
   const initialCenterSet = useRef(false);
@@ -102,12 +116,11 @@ export function ItineraryMap({
     mapboxgl.accessToken = accessToken;
 
     try {
-      console.log('Initializing Mapbox map with center:', latestCoordsRef.current);
       map.current = new mapboxgl.Map({
         container: mapContainer.current,
-        style: 'mapbox://styles/mapbox/dark-v11',
+        style: 'mapbox://styles/mapbox/streets-v12',
         center: [latestCoordsRef.current.lng, latestCoordsRef.current.lat],
-        zoom: 12,
+        zoom: 13,
         pitch: 0,
         bearing: 0,
         antialias: true,
@@ -115,40 +128,43 @@ export function ItineraryMap({
       initialCenterSet.current = true;
 
       map.current.on('load', () => {
-        console.log('Mapbox map loaded successfully');
         setMapLoaded(true);
 
-        // Add 3D building layer for immersion
-        const layers = map.current?.getStyle()?.layers;
-        if (layers) {
-          const labelLayerId = layers.find(
-            (layer) => layer.type === 'symbol' && layer.layout?.['text-field']
-          )?.id;
+        // Try to add 3D buildings for visual depth (non-critical)
+        try {
+          const layers = map.current?.getStyle()?.layers;
+          if (layers) {
+            const labelLayerId = layers.find(
+              (layer) => layer.type === 'symbol' && layer.layout?.['text-field']
+            )?.id;
 
-          if (labelLayerId) {
-            map.current?.addLayer(
-              {
-                id: '3d-buildings',
-                source: 'composite',
-                'source-layer': 'building',
-                filter: ['==', 'extrude', 'true'],
-                type: 'fill-extrusion',
-                minzoom: 12,
-                paint: {
-                  'fill-extrusion-color': '#1a1a2e',
-                  'fill-extrusion-height': ['get', 'height'],
-                  'fill-extrusion-base': ['get', 'min_height'],
-                  'fill-extrusion-opacity': 0.6,
+            if (labelLayerId && map.current?.getSource('composite')) {
+              map.current?.addLayer(
+                {
+                  id: '3d-buildings',
+                  source: 'composite',
+                  'source-layer': 'building',
+                  filter: ['==', 'extrude', 'true'],
+                  type: 'fill-extrusion',
+                  minzoom: 14,
+                  paint: {
+                    'fill-extrusion-color': '#ddd',
+                    'fill-extrusion-height': ['get', 'height'],
+                    'fill-extrusion-base': ['get', 'min_height'],
+                    'fill-extrusion-opacity': 0.4,
+                  },
                 },
-              },
-              labelLayerId
-            );
+                labelLayerId
+              );
+            }
           }
+        } catch {
+          // 3D buildings are optional — don't break the map
         }
       });
 
-      map.current.on('error', (e) => {
-        console.error('Mapbox error:', e);
+      map.current.on('error', () => {
+        // Silently handle tile loading errors
       });
 
       // Add navigation controls
@@ -160,11 +176,11 @@ export function ItineraryMap({
     }
 
     return () => {
-      console.log('Cleaning up Mapbox map');
       markersRef.current.forEach((marker) => marker.remove());
       map.current?.remove();
       map.current = null;
       initialCenterSet.current = false;
+      routeSourceAdded.current = false;
       setMapLoaded(false);
     };
   }, [hasValidCoords]); // Only re-run when hasValidCoords changes (false -> true)
@@ -274,6 +290,103 @@ export function ItineraryMap({
 
   }, [stops, mapLoaded, activeStopId, onStopClick]);
 
+  // Draw route lines connecting stops per day
+  useEffect(() => {
+    if (!map.current || !mapLoaded || stops.length < 2) return;
+
+    const m = map.current;
+
+    // Group stops by day
+    const stopsByDay = new Map<number, ItineraryStop[]>();
+    stops.forEach(stop => {
+      const dayStops = stopsByDay.get(stop.day) || [];
+      dayStops.push(stop);
+      stopsByDay.set(stop.day, dayStops);
+    });
+
+    // Build GeoJSON features — one LineString per day
+    const features: GeoJSON.Feature[] = [];
+    stopsByDay.forEach((dayStops, day) => {
+      if (dayStops.length < 2) return;
+      const coordinates = dayStops.map(s => [s.longitude, s.latitude]);
+      features.push({
+        type: 'Feature',
+        properties: { day, isActive: day === activeDay },
+        geometry: { type: 'LineString', coordinates },
+      });
+    });
+
+    const geojsonData: GeoJSON.FeatureCollection = {
+      type: 'FeatureCollection',
+      features,
+    };
+
+    try {
+      if (routeSourceAdded.current) {
+        // Update existing source
+        const source = m.getSource('route-lines') as mapboxgl.GeoJSONSource;
+        if (source) {
+          source.setData(geojsonData);
+        }
+      } else {
+        // Add source + layers
+        m.addSource('route-lines', {
+          type: 'geojson',
+          data: geojsonData,
+        });
+
+        // Inactive day lines (faded)
+        m.addLayer({
+          id: 'route-lines-inactive',
+          type: 'line',
+          source: 'route-lines',
+          filter: ['==', ['get', 'isActive'], false],
+          layout: {
+            'line-join': 'round',
+            'line-cap': 'round',
+          },
+          paint: {
+            'line-color': '#ffffff',
+            'line-width': 2,
+            'line-opacity': 0.15,
+            'line-dasharray': [4, 4],
+          },
+        });
+
+        // Active day line (prominent)
+        m.addLayer({
+          id: 'route-lines-active',
+          type: 'line',
+          source: 'route-lines',
+          filter: ['==', ['get', 'isActive'], true],
+          layout: {
+            'line-join': 'round',
+            'line-cap': 'round',
+          },
+          paint: {
+            'line-color': ['match', ['get', 'day'],
+              1, DAY_COLORS[0],
+              2, DAY_COLORS[1],
+              3, DAY_COLORS[2],
+              4, DAY_COLORS[3],
+              5, DAY_COLORS[4],
+              6, DAY_COLORS[5],
+              7, DAY_COLORS[6],
+              '#3b82f6',
+            ],
+            'line-width': 3.5,
+            'line-opacity': 0.7,
+          },
+        });
+
+        routeSourceAdded.current = true;
+      }
+    } catch (error) {
+      // Route lines are non-critical — don't break the map
+      console.error('Failed to add route lines:', error);
+    }
+  }, [stops, mapLoaded, activeDay]);
+
   // Fly to active stop
   useEffect(() => {
     if (!map.current || !mapLoaded || !activeStopId) return;
@@ -291,10 +404,10 @@ export function ItineraryMap({
 
   if (mapError) {
     return (
-      <div className={`bg-gray-900 flex items-center justify-center ${className}`}>
+      <div className={`bg-gray-100 flex items-center justify-center ${className}`}>
         <div className="text-center p-6">
-          <p className="text-white/60 mb-2">Map unavailable</p>
-          <p className="text-white/40 text-sm">{mapError}</p>
+          <p className="text-gray-500 mb-2">Map unavailable</p>
+          <p className="text-gray-400 text-sm">{mapError}</p>
         </div>
       </div>
     );
@@ -303,10 +416,10 @@ export function ItineraryMap({
   // Show loading state while waiting for valid coordinates
   if (!hasValidCoords) {
     return (
-      <div className={`bg-gray-900 flex items-center justify-center ${className}`}>
+      <div className={`bg-gray-100 flex items-center justify-center ${className}`}>
         <div className="text-center p-6">
-          <div className="w-8 h-8 border-2 border-white/20 border-t-white rounded-full animate-spin mx-auto mb-3" />
-          <p className="text-white/60 text-sm">Loading map...</p>
+          <div className="w-8 h-8 border-2 border-gray-300 border-t-primary-600 rounded-full animate-spin mx-auto mb-3" />
+          <p className="text-gray-500 text-sm">Loading map...</p>
         </div>
       </div>
     );

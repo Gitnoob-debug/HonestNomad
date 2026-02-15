@@ -40,13 +40,13 @@ export function getPOIImageUrl(cityId: string, poiId: string): string {
 
 /**
  * Resolve the best available image URL for a POI
- * Prefers Supabase URL, falls back to original imageUrl
+ * Only returns Supabase URLs — Google Places photo URLs have expired
  */
 export function resolvePOIImageUrl(poi: {
   supabaseImageUrl?: string;
   imageUrl?: string;
 }): string | undefined {
-  return poi.supabaseImageUrl || poi.imageUrl;
+  return poi.supabaseImageUrl || undefined;
 }
 
 /**

@@ -66,7 +66,7 @@ export function poiToItineraryStop(poi: CachedPOI, day: number, stopIndex: numbe
     latitude: poi.latitude,
     longitude: poi.longitude,
     duration: poi.suggestedDuration,
-    imageUrl: resolvePOIImageUrl(poi) || poi.imageUrl,
+    imageUrl: resolvePOIImageUrl(poi),
     day,
     // Extended data from Google Places
     googleRating: poi.googleRating,
@@ -250,4 +250,17 @@ const SUPPORTED_DESTINATIONS = new Set([
 // Check if we have POI data for a destination
 export function hasPoiData(destinationId: string): boolean {
   return SUPPORTED_DESTINATIONS.has(destinationId.toLowerCase().replace(/\s+/g, '-'));
+}
+
+/**
+ * Get approximate POI count for a destination (synchronous).
+ * Returns 0 if no POI data exists.
+ * Average is ~200 POIs per destination across 7 path types.
+ */
+export function getPOICount(destinationId: string): number {
+  const normalized = destinationId.toLowerCase().replace(/\s+/g, '-');
+  if (!SUPPORTED_DESTINATIONS.has(normalized)) return 0;
+  // Most destinations have 150-300 POIs. Return a reasonable estimate.
+  // This avoids loading the full JSON synchronously.
+  return 200;
 }

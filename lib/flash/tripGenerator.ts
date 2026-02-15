@@ -7,8 +7,10 @@ import type {
   Destination,
 } from '@/types/flash';
 import { selectDestinations, calculateDiversityScore } from './diversityEngine';
-import { getDestinationImages } from './destinationImages';
+import { getDestinationImages, getPrimaryDestinationImage } from './destinationImages';
 import { getTransferInfo } from './hubAirports';
+import { generateTagline } from './taglines';
+import { getPOICount } from './poi-loader';
 import type { RevealedPreferences } from './preferenceEngine';
 
 export interface GenerationProgress {
@@ -130,14 +132,21 @@ function buildTripPackage(
   matchScore += matchingVibes.length * 0.1;
 
   const month = new Date(params.departureDate).getMonth() + 1;
-  if (destination.bestMonths.includes(month)) {
+  const isPerfectTiming = destination.bestMonths.includes(month);
+  if (isPerfectTiming) {
     matchScore += 0.2;
   }
   matchScore = Math.min(1.0, matchScore);
 
   // Get images and transfer info
+  // Prefer Supabase Storage images (curated) over Unsplash URLs (often wrong)
   const destinationImages = getDestinationImages(destination.id);
+  const primaryImage = getPrimaryDestinationImage(destination.id);
   const transferInfo = getTransferInfo(destination.id);
+
+  // Card personality data
+  const tagline = generateTagline(destination);
+  const poiCount = getPOICount(destination.id);
 
   return {
     id: uuidv4(),
@@ -164,9 +173,12 @@ function buildTripPackage(
     },
     highlights: destination.highlights.slice(0, 4),
     matchScore,
-    imageUrl: destination.imageUrl,
+    imageUrl: primaryImage || destination.imageUrl,
     images: destinationImages.length > 0 ? destinationImages : undefined,
     transferInfo,
+    tagline,
+    perfectTiming: isPerfectTiming || undefined,
+    poiCount: poiCount > 0 ? poiCount : undefined,
   };
 }
 

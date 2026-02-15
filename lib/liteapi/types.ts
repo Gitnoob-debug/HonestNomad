@@ -206,6 +206,8 @@ export interface HotelOption {
   rating: number;
   reviewCount: number;
   address: string;
+  latitude: number;
+  longitude: number;
   mainPhoto: string;
   photos: string[];
   amenities: string[];
@@ -225,4 +227,7 @@ export interface HotelOption {
   roomName: string;
   roomDescription: string;
   expiresAt: number; // timestamp
+  // Zone info
+  distanceFromZoneCenter?: number; // meters from ideal hotel zone center
+  insideZone?: boolean;
 }

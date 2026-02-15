@@ -14,6 +14,7 @@ export async function POST(request: NextRequest) {
       checkin,
       checkout,
       destinationName,
+      zoneRadiusKm,  // Optional: hotel zone radius in km (from clustering)
     } = body;
 
     // Validate required fields
@@ -51,7 +52,7 @@ export async function POST(request: NextRequest) {
     console.log(`Dates: ${checkin} to ${checkout}`);
     console.log(`Travelers: ${preferences.travelers?.adults || 2} adults`);
 
-    // Search hotels
+    // Search hotels — use zone radius if available for tighter results
     let hotels;
     try {
       hotels = await searchHotelsForTrip({
@@ -61,6 +62,7 @@ export async function POST(request: NextRequest) {
         checkout,
         preferences,
         limit: 5,
+        zoneRadiusKm: zoneRadiusKm || undefined,
       });
     } catch (hotelError) {
       console.error('LiteAPI hotel search failed:', hotelError);

@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import { useFlashVacation } from '@/hooks/useFlashVacation';
 import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
+import { usePOIPrefetch } from '@/hooks/usePOIPrefetch';
 import { ImmersiveSwipeContainer } from '@/components/flash/ImmersiveSwipeContainer';
 
 export default function FlashSwipePage() {
@@ -24,6 +25,9 @@ export default function FlashSwipePage() {
   } = useFlashVacation();
 
   const { trackSwipe } = useRevealedPreferences();
+
+  // Prefetch POI data for current + next card so explore page loads instantly
+  usePOIPrefetch(trips, currentTripIndex);
 
   // Track when user started viewing current card (for dwell time)
   const cardViewStartRef = useRef<number>(Date.now());

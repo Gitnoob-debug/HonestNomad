@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useRef, useMemo } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import { useFlashVacation } from '@/hooks/useFlashVacation';
@@ -32,27 +32,34 @@ export default function FlashPlanPage() {
   const { user, loading: authLoading } = useAuth();
   const router = useRouter();
   const {
-    preferencesLoading,
-    profileComplete,
-    missingSteps,
     isGenerating,
     generationProgress,
     generationStage,
     trips,
     error,
     generateTrips,
+    clearTrips,
   } = useFlashVacation();
 
-  // Redirect to swipe page when trips are generated
+  // Track whether we just finished generating (to redirect to swipe)
+  const [justGenerated, setJustGenerated] = useState(false);
+
+  // Only redirect to swipe after a NEW generation completes (not stale session data)
   useEffect(() => {
-    if (trips.length > 0 && !isGenerating) {
+    if (justGenerated && trips.length > 0 && !isGenerating) {
       router.push('/flash/swipe');
     }
-  }, [trips, isGenerating, router]);
+  }, [justGenerated, trips, isGenerating, router]);
 
   const handleGenerate = async (params: FlashGenerateParams) => {
+    // Clear any old trips first
+    clearTrips();
+    setJustGenerated(true);
     await generateTrips(params);
   };
+
+  // Check if there are resumable trips from a previous session
+  const hasExistingTrips = trips.length > 0 && !isGenerating;
 
   // Destination discovery animation during loading
   const loadingDestinations = useMemo(() => getLoadingDestinations(30), []);
@@ -187,48 +194,27 @@ export default function FlashPlanPage() {
             Flash Vacation
           </h1>
           <p className="text-gray-600">
-            Pick your dates, we'll handle the rest
+            Pick your dates, we&apos;ll handle the rest
           </p>
         </div>
 
-        {/* Sign-in nudge for anonymous users */}
-        {!authLoading && !user && (
+        {/* Resume previous search banner */}
+        {hasExistingTrips && (
           <div className="mb-6 p-4 bg-primary-50 border border-primary-200 rounded-xl">
-            <div className="flex items-center gap-3">
-              <svg className="w-5 h-5 text-primary-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <p className="text-sm text-primary-800">
-                <button
-                  onClick={() => router.push('/auth/login?redirect=/flash')}
-                  className="font-medium underline hover:text-primary-900"
-                >
-                  Sign in
-                </button>
-                {' '}to personalize results with your travel profile
-              </p>
-            </div>
-          </div>
-        )}
-
-        {/* Profile incomplete nudge for logged-in users */}
-        {user && !preferencesLoading && !profileComplete && (
-          <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-xl">
-            <div className="flex items-start gap-3">
-              <svg className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-              </svg>
-              <div>
-                <p className="text-sm text-amber-800">
-                  <button
-                    onClick={() => router.push('/flash/wizard')}
-                    className="font-medium underline hover:text-amber-900"
-                  >
-                    Complete your profile
-                  </button>
-                  {' '}for better trip recommendations
-                </p>
+            <div className="flex items-center justify-between gap-3">
+              <div className="flex items-center gap-3 min-w-0">
+                <span className="text-xl flex-shrink-0">🗺️</span>
+                <div className="min-w-0">
+                  <p className="text-sm font-medium text-primary-900">You have trips waiting</p>
+                  <p className="text-xs text-primary-700 truncate">{trips.length} destinations ready to swipe</p>
+                </div>
               </div>
+              <button
+                onClick={() => router.push('/flash/swipe')}
+                className="flex-shrink-0 px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors"
+              >
+                Resume
+              </button>
             </div>
           </div>
         )}
@@ -253,18 +239,6 @@ export default function FlashPlanPage() {
           onGenerate={handleGenerate}
           isLoading={isGenerating}
         />
-
-        {/* Edit profile link - only for logged in users */}
-        {user && profileComplete && (
-          <div className="mt-6 text-center">
-            <button
-              onClick={() => router.push('/flash/wizard')}
-              className="text-sm text-gray-500 hover:text-gray-700"
-            >
-              Edit travel profile
-            </button>
-          </div>
-        )}
       </div>
     </main>
   );

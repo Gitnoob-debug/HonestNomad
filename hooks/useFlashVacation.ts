@@ -430,20 +430,23 @@ export function useFlashVacation() {
     }
   }, [state.preferences]);
 
-  const regenerate = useCallback(async (params: FlashGenerateParams) => {
-    // Clear current trips
+  const clearTrips = useCallback(() => {
     setState(prev => ({
       ...prev,
       trips: [],
       currentTripIndex: 0,
       selectedTrip: null,
       sessionId: null,
+      lastGenerateParams: null,
+      tripPrices: {},
     }));
     sessionStorage.removeItem(TRIPS_STORAGE_KEY);
+  }, []);
 
-    // Generate new batch
+  const regenerate = useCallback(async (params: FlashGenerateParams) => {
+    clearTrips();
     return generateTrips(params);
-  }, [generateTrips]);
+  }, [generateTrips, clearTrips]);
 
   const hasMoreTrips = state.currentTripIndex < state.trips.length - 1;
   const isLastTrip = state.currentTripIndex === state.trips.length - 1;
@@ -462,6 +465,7 @@ export function useFlashVacation() {
     // Actions
     loadPreferences,
     generateTrips,
+    clearTrips,
     swipeLeft,
     swipeRight,
     goBack,

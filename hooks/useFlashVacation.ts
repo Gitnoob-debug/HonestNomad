@@ -63,10 +63,12 @@ const TRIPS_STORAGE_KEY = 'flash_vacation_trips';
 
 export function useFlashVacation() {
   const [state, setState] = useState<FlashVacationState>(initialState);
+  const [hydrated, setHydrated] = useState(false);
 
   // Load any persisted trips on mount
   useEffect(() => {
     loadTripsFromSession();
+    setHydrated(true);
   }, []);
 
   const loadTripsFromSession = () => {
@@ -522,6 +524,7 @@ export function useFlashVacation() {
     tripsExhausted,
     canGoBack,
     isLoadingMore,
+    hydrated,
 
     // Actions
     generateTrips,

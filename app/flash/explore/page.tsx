@@ -21,15 +21,16 @@ import type { LiteAPIReview } from '@/lib/liteapi/types';
 import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
 import { calculateHotelZone } from '@/lib/flash/hotelZoneClustering';
 
-type BookingStep = 'choice' | 'itinerary' | 'hotels' | 'checkout';
+type BookingStep = 'choice' | 'itinerary' | 'hotels' | 'checkout' | 'package';
 type ItineraryType = SimplePathChoice | null;
 
 // Step progress configuration
 const BOOKING_STEPS: { key: BookingStep; label: string; emoji: string }[] = [
   { key: 'choice', label: 'Vibe', emoji: '✨' },
   { key: 'itinerary', label: 'Explore', emoji: '🗺️' },
-  { key: 'hotels', label: 'Hotels', emoji: '🏨' },
-  { key: 'checkout', label: 'Book', emoji: '✅' },
+  { key: 'hotels', label: 'Stay', emoji: '🏨' },
+  { key: 'checkout', label: 'Review', emoji: '📋' },
+  { key: 'package', label: 'Package', emoji: '🎁' },
 ];
 
 function StepProgressBar({ currentStep }: { currentStep: BookingStep; variant?: 'default' | 'overlay' }) {
@@ -461,6 +462,8 @@ function FlashExploreContent() {
       setStep('itinerary');
     } else if (step === 'checkout') {
       setStep('hotels');
+    } else if (step === 'package') {
+      setStep('checkout');
     }
   };
 
@@ -581,7 +584,12 @@ function FlashExploreContent() {
   };
 
   const handleCheckout = () => {
-    // Store booking data and go to confirm
+    // Move to the adventure package reveal step
+    setStep('package');
+  };
+
+  const handleFinalConfirm = () => {
+    // Store booking data and go to confirm/payment
     const bookingData = {
       trip,
       itineraryType,
@@ -1844,7 +1852,7 @@ function FlashExploreContent() {
               disabled={isLoadingHotels}
               className="w-full py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
             >
-              {isLoadingHotels ? 'Loading...' : 'Continue to Checkout'}
+              {isLoadingHotels ? 'Loading...' : 'Review Trip →'}
             </button>
           </div>
         </div>
@@ -1931,7 +1939,7 @@ function FlashExploreContent() {
                 </svg>
                 <span className="text-sm font-medium">Back</span>
               </button>
-              <h1 className="text-white font-bold">Checkout</h1>
+              <h1 className="text-white font-bold">Review Trip</h1>
               <div className="w-16" />
             </div>
           </div>
@@ -2010,10 +2018,227 @@ function FlashExploreContent() {
               onClick={handleCheckout}
               className="w-full py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors"
             >
-              {hasAnythingToBook ? 'Proceed to Payment' : 'Get My Itinerary'}
+              See My Adventure Package →
             </button>
           </div>
         </div>
+      </div>
+    );
+  }
+
+  // Step 4: Your Personalized Adventure Package — the grand reveal
+  if (step === 'package') {
+    const hasHotel = !skipHotels && selectedHotel;
+    const totalDays = trip.itinerary?.days || 3;
+    const totalStops = itinerary.reduce((sum, day) => sum + day.stops.length, 0);
+    const uniqueTypes = Array.from(new Set(favoriteStops.map(s => s.type)));
+
+    // Package items — everything we've assembled
+    const packageItems = [
+      {
+        emoji: '🗺️',
+        title: 'Day-by-Day Itinerary',
+        description: `${totalDays} days of curated ${itineraryType ? PATH_CONFIG[itineraryType]?.name.toLowerCase() : ''} experiences with ${totalStops} hand-picked spots`,
+        color: 'from-blue-500/20 to-cyan-500/20',
+        borderColor: 'border-blue-500/30',
+        detail: itinerary.map(day => `Day ${day.day}: ${day.title}`).join(' → '),
+      },
+      {
+        emoji: '📍',
+        title: 'Your Saved Hotspots',
+        description: `${favoriteStops.length} places you loved — restaurants, landmarks, hidden gems all mapped and organized`,
+        color: 'from-pink-500/20 to-rose-500/20',
+        borderColor: 'border-pink-500/30',
+        detail: favoriteStops.slice(0, 4).map(s => s.name).join(', ') + (favoriteStops.length > 4 ? ` +${favoriteStops.length - 4} more` : ''),
+      },
+      ...(hasHotel ? [{
+        emoji: '🏨',
+        title: 'Hotel Booking',
+        description: `${selectedHotel!.name} — ${selectedHotel!.stars}★ · ${totalDays} nights right near your favorite spots`,
+        color: 'from-purple-500/20 to-violet-500/20',
+        borderColor: 'border-purple-500/30',
+        detail: selectedHotel!.insideZone ? '📍 Located in your activity zone' : `Near your itinerary spots`,
+      }] : []),
+      {
+        emoji: '🧭',
+        title: 'Walking Routes & Navigation',
+        description: 'Optimized routes between all your stops — no wasted time figuring out directions',
+        color: 'from-emerald-500/20 to-green-500/20',
+        borderColor: 'border-emerald-500/30',
+        detail: `Connecting ${uniqueTypes.length} types of places: ${uniqueTypes.slice(0, 3).join(', ')}`,
+      },
+      {
+        emoji: '⏰',
+        title: 'Time-Optimized Schedule',
+        description: 'Each stop timed for the best experience — morning markets, sunset viewpoints, evening dining',
+        color: 'from-amber-500/20 to-orange-500/20',
+        borderColor: 'border-amber-500/30',
+        detail: 'Morning → afternoon → evening flow for each day',
+      },
+      {
+        emoji: '⭐',
+        title: 'Local Ratings & Reviews',
+        description: 'Real Google ratings for every spot — only the highest-rated places made the cut',
+        color: 'from-yellow-500/20 to-amber-500/20',
+        borderColor: 'border-yellow-500/30',
+        detail: favoriteStops.filter(s => s.googleRating).length > 0
+          ? `Average rating: ${(favoriteStops.filter(s => s.googleRating).reduce((sum, s) => sum + (s.googleRating || 0), 0) / favoriteStops.filter(s => s.googleRating).length).toFixed(1)}★ across your saves`
+          : 'Verified ratings for all stops',
+      },
+    ];
+
+    return (
+      <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+        <div className="h-full flex flex-col">
+          {/* Header with progress */}
+          <div className="pt-safe border-b border-white/10">
+            <div className="py-3">
+              <StepProgressBar currentStep="package" />
+            </div>
+            <div className="px-4 pb-3 flex items-center justify-between">
+              <button
+                onClick={handleGoBack}
+                className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
+              >
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+                <span className="text-sm font-medium">Back</span>
+              </button>
+              <h1 className="text-white font-bold">Your Package</h1>
+              <div className="w-16" />
+            </div>
+          </div>
+
+          {/* Scrollable content */}
+          <div className="flex-1 overflow-y-auto">
+            {/* Hero section */}
+            <div className="relative px-6 pt-8 pb-6">
+              {/* Background glow */}
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-primary-500/10 rounded-full blur-3xl pointer-events-none" />
+
+              <div className="relative text-center mb-2">
+                <div className="inline-flex items-center gap-2 bg-primary-500/10 border border-primary-500/20 rounded-full px-4 py-1.5 mb-4">
+                  <span className="text-sm">🎁</span>
+                  <span className="text-primary-300 text-xs font-medium uppercase tracking-wider">Ready for you</span>
+                </div>
+                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2">
+                  Your {trip.destination.city} Adventure
+                </h2>
+                <p className="text-white/50 text-sm max-w-sm mx-auto">
+                  Everything below has been personalized and assembled — no more planning, just enjoy
+                </p>
+              </div>
+            </div>
+
+            {/* Package items */}
+            <div className="px-4 pb-6 space-y-3">
+              {packageItems.map((item, index) => (
+                <div
+                  key={index}
+                  className={`bg-gradient-to-r ${item.color} backdrop-blur-sm border ${item.borderColor} rounded-2xl p-4 transition-all`}
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <div className="flex items-start gap-3">
+                    <div className="text-2xl flex-shrink-0 mt-0.5">{item.emoji}</div>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2 mb-1">
+                        <h3 className="text-white font-semibold text-sm">{item.title}</h3>
+                        <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                        </svg>
+                      </div>
+                      <p className="text-white/60 text-xs leading-relaxed mb-1.5">
+                        {item.description}
+                      </p>
+                      {item.detail && (
+                        <p className="text-white/40 text-[11px] italic truncate">
+                          {item.detail}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* "No more..." section */}
+            <div className="px-6 pb-6">
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
+                <p className="text-white/40 text-xs uppercase tracking-wider font-medium mb-3">We handled the tedious stuff</p>
+                <div className="grid grid-cols-2 gap-2">
+                  {[
+                    { text: 'Research & reviews', crossed: true },
+                    { text: 'Route planning', crossed: true },
+                    { text: 'Finding the best spots', crossed: true },
+                    { text: 'Hotel location matching', crossed: true },
+                    { text: 'Day-by-day scheduling', crossed: true },
+                    { text: 'Walking distances', crossed: true },
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-2">
+                      <svg className="w-3.5 h-3.5 text-green-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-white/50 text-xs line-through decoration-green-400/50">{item.text}</span>
+                    </div>
+                  ))}
+                </div>
+                <p className="text-white/60 text-sm mt-4 text-center">
+                  All done. Just show up and enjoy ✨
+                </p>
+              </div>
+            </div>
+
+            {/* Quick summary stats */}
+            <div className="px-6 pb-8">
+              <div className="flex items-center justify-center gap-4">
+                <div className="text-center">
+                  <p className="text-white font-bold text-xl">{totalDays}</p>
+                  <p className="text-white/40 text-[10px] uppercase tracking-wider">Days</p>
+                </div>
+                <div className="w-px h-8 bg-white/10" />
+                <div className="text-center">
+                  <p className="text-white font-bold text-xl">{favoriteStops.length}</p>
+                  <p className="text-white/40 text-[10px] uppercase tracking-wider">Saved Places</p>
+                </div>
+                <div className="w-px h-8 bg-white/10" />
+                <div className="text-center">
+                  <p className="text-white font-bold text-xl">{totalStops}</p>
+                  <p className="text-white/40 text-[10px] uppercase tracking-wider">Total Stops</p>
+                </div>
+                {hasHotel && (
+                  <>
+                    <div className="w-px h-8 bg-white/10" />
+                    <div className="text-center">
+                      <p className="text-white font-bold text-xl">{selectedHotel!.stars}★</p>
+                      <p className="text-white/40 text-[10px] uppercase tracking-wider">Hotel</p>
+                    </div>
+                  </>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom CTA */}
+          <div className="p-4 pb-safe border-t border-white/10 bg-gray-900/80 backdrop-blur-sm">
+            <button
+              onClick={handleFinalConfirm}
+              className="w-full py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-lg shadow-primary-500/25"
+            >
+              {!skipHotels && selectedHotel ? 'Confirm & Book Hotel' : 'Get My Adventure Package'}
+            </button>
+            <p className="text-white/30 text-xs text-center mt-2">
+              {!skipHotels && selectedHotel
+                ? "You won't be charged until you confirm payment details"
+                : 'Your personalized package will be saved to your account'}
+            </p>
+          </div>
+        </div>
+
+        <style jsx global>{`
+          .pt-safe { padding-top: max(16px, env(safe-area-inset-top)); }
+          .pb-safe { padding-bottom: max(16px, env(safe-area-inset-bottom)); }
+        `}</style>
       </div>
     );
   }

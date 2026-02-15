@@ -19,6 +19,8 @@ export default function FlashSwipePage() {
     goBack,
     canGoBack,
     tripPrices,
+    loadMoreTrips,
+    isLoadingMore,
   } = useFlashVacation();
 
   const { trackSwipe } = useRevealedPreferences();
@@ -99,6 +101,8 @@ export default function FlashSwipePage() {
       onGoBack={goBack}
       canGoBack={canGoBack}
       onRegenerate={handleRegenerate}
+      onLoadMore={loadMoreTrips}
+      isLoadingMore={isLoadingMore}
     />
   );
 }

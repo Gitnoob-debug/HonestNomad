@@ -19,12 +19,18 @@ interface ItineraryStop {
   googleReviewCount?: number;
 }
 
+interface FavoriteStop {
+  latitude: number;
+  longitude: number;
+}
+
 interface ItineraryMapProps {
   stops: ItineraryStop[];
   centerLatitude: number;
   centerLongitude: number;
   activeStopId?: string;
   activeDay?: number;
+  favoriteStops?: FavoriteStop[];
   onStopClick?: (stop: ItineraryStop) => void;
   className?: string;
 }
@@ -78,6 +84,7 @@ export function ItineraryMap({
   centerLongitude,
   activeStopId,
   activeDay,
+  favoriteStops = [],
   onStopClick,
   className = '',
 }: ItineraryMapProps) {
@@ -85,6 +92,7 @@ export function ItineraryMap({
   const map = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<mapboxgl.Marker[]>([]);
   const routeSourceAdded = useRef(false);
+  const hotelZoneAdded = useRef(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
   const initialCenterSet = useRef(false);
@@ -181,6 +189,7 @@ export function ItineraryMap({
       map.current = null;
       initialCenterSet.current = false;
       routeSourceAdded.current = false;
+      hotelZoneAdded.current = false;
       setMapLoaded(false);
     };
   }, [hasValidCoords]); // Only re-run when hasValidCoords changes (false -> true)
@@ -386,6 +395,134 @@ export function ItineraryMap({
       console.error('Failed to add route lines:', error);
     }
   }, [stops, mapLoaded, activeDay]);
+
+  // Draw ideal hotel zone — circle around centroid of favorited stops
+  useEffect(() => {
+    if (!map.current || !mapLoaded) return;
+
+    const m = map.current;
+
+    // Need 2+ favorites to show the zone
+    if (favoriteStops.length < 2) {
+      // Remove zone if it exists
+      if (hotelZoneAdded.current) {
+        try {
+          if (m.getLayer('hotel-zone-fill')) m.removeLayer('hotel-zone-fill');
+          if (m.getLayer('hotel-zone-border')) m.removeLayer('hotel-zone-border');
+          if (m.getLayer('hotel-zone-label')) m.removeLayer('hotel-zone-label');
+          if (m.getSource('hotel-zone')) m.removeSource('hotel-zone');
+          if (m.getSource('hotel-zone-label')) m.removeSource('hotel-zone-label');
+          hotelZoneAdded.current = false;
+        } catch {
+          // Ignore cleanup errors
+        }
+      }
+      return;
+    }
+
+    // Calculate centroid
+    const centLat = favoriteStops.reduce((s, f) => s + f.latitude, 0) / favoriteStops.length;
+    const centLng = favoriteStops.reduce((s, f) => s + f.longitude, 0) / favoriteStops.length;
+
+    // Calculate radius — max distance from centroid to any favorite, plus padding
+    let maxDist = 0;
+    favoriteStops.forEach(f => {
+      const dLat = (f.latitude - centLat) * 111320; // meters per degree lat
+      const dLng = (f.longitude - centLng) * 111320 * Math.cos(centLat * Math.PI / 180);
+      const dist = Math.sqrt(dLat * dLat + dLng * dLng);
+      if (dist > maxDist) maxDist = dist;
+    });
+    // Minimum 400m radius, max distance + 30% padding
+    const radiusMeters = Math.max(400, maxDist * 1.3);
+
+    // Generate circle polygon (64 points)
+    const points = 64;
+    const coords: [number, number][] = [];
+    for (let i = 0; i <= points; i++) {
+      const angle = (i / points) * 2 * Math.PI;
+      const dx = radiusMeters * Math.cos(angle);
+      const dy = radiusMeters * Math.sin(angle);
+      const lng = centLng + (dx / (111320 * Math.cos(centLat * Math.PI / 180)));
+      const lat = centLat + (dy / 111320);
+      coords.push([lng, lat]);
+    }
+
+    const circleData: GeoJSON.FeatureCollection = {
+      type: 'FeatureCollection',
+      features: [{
+        type: 'Feature',
+        properties: {},
+        geometry: { type: 'Polygon', coordinates: [coords] },
+      }],
+    };
+
+    const labelData: GeoJSON.FeatureCollection = {
+      type: 'FeatureCollection',
+      features: [{
+        type: 'Feature',
+        properties: { label: 'Ideal hotel zone' },
+        geometry: { type: 'Point', coordinates: [centLng, centLat] },
+      }],
+    };
+
+    try {
+      if (hotelZoneAdded.current) {
+        const src = m.getSource('hotel-zone') as mapboxgl.GeoJSONSource;
+        const labelSrc = m.getSource('hotel-zone-label') as mapboxgl.GeoJSONSource;
+        if (src) src.setData(circleData);
+        if (labelSrc) labelSrc.setData(labelData);
+      } else {
+        // Add circle fill + dashed border
+        m.addSource('hotel-zone', { type: 'geojson', data: circleData });
+        m.addSource('hotel-zone-label', { type: 'geojson', data: labelData });
+
+        m.addLayer({
+          id: 'hotel-zone-fill',
+          type: 'fill',
+          source: 'hotel-zone',
+          paint: {
+            'fill-color': '#8b5cf6',
+            'fill-opacity': 0.08,
+          },
+        }, 'route-lines-inactive'); // Insert below route lines
+
+        m.addLayer({
+          id: 'hotel-zone-border',
+          type: 'line',
+          source: 'hotel-zone',
+          paint: {
+            'line-color': '#8b5cf6',
+            'line-width': 2,
+            'line-opacity': 0.4,
+            'line-dasharray': [3, 3],
+          },
+        });
+
+        m.addLayer({
+          id: 'hotel-zone-label',
+          type: 'symbol',
+          source: 'hotel-zone-label',
+          layout: {
+            'text-field': ['get', 'label'],
+            'text-size': 11,
+            'text-font': ['DIN Pro Medium', 'Arial Unicode MS Regular'],
+            'text-offset': [0, 0],
+            'text-anchor': 'center',
+          },
+          paint: {
+            'text-color': '#8b5cf6',
+            'text-opacity': 0.7,
+            'text-halo-color': '#000000',
+            'text-halo-width': 1,
+          },
+        });
+
+        hotelZoneAdded.current = true;
+      }
+    } catch (error) {
+      console.error('Failed to add hotel zone:', error);
+    }
+  }, [favoriteStops, mapLoaded]);
 
   // Fly to active stop
   useEffect(() => {

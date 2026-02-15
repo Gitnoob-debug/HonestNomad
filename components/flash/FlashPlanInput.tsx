@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui';
 import { findNearestAirport, type AirportInfo } from '@/lib/flash/airportCoords';
-import type { FlashGenerateParams, BudgetTier, TravelerType } from '@/types/flash';
+import type { FlashGenerateParams, BudgetTier, TravelerType, RoomConfig } from '@/types/flash';
 
 interface FlashPlanInputProps {
   onGenerate: (params: FlashGenerateParams) => void;
@@ -34,8 +34,14 @@ const TRAVELER_PRESETS: { value: TravelerType; label: string; emoji: string }[] 
   { value: 'solo', label: 'Solo', emoji: '🧑' },
   { value: 'couple', label: 'Couple', emoji: '💑' },
   { value: 'family', label: 'Family', emoji: '👨‍👩‍👧' },
-  { value: 'friends', label: 'Friends', emoji: '👥' },
 ];
+
+// Default room configs by traveler type
+const DEFAULT_ROOM_CONFIGS: Record<TravelerType, RoomConfig> = {
+  solo: { adults: 1, children: 0, childAges: [] },
+  couple: { adults: 2, children: 0, childAges: [] },
+  family: { adults: 2, children: 1, childAges: [8] },
+};
 
 // Session storage keys
 const TRAVELERS_STORAGE_KEY = 'flash_traveler_type';
@@ -50,6 +56,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
 
   const [selectedVibes, setSelectedVibes] = useState<string[]>([]);
   const [travelerType, setTravelerType] = useState<TravelerType>('couple');
+  const [roomConfig, setRoomConfig] = useState<RoomConfig>(DEFAULT_ROOM_CONFIGS.couple);
 
   // Geolocation → nearest airport
   const [detectedAirport, setDetectedAirport] = useState<AirportInfo | null>(null);
@@ -64,8 +71,20 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
   useEffect(() => {
     try {
       const storedTraveler = sessionStorage.getItem(TRAVELERS_STORAGE_KEY);
-      if (storedTraveler && ['solo', 'couple', 'family', 'friends'].includes(storedTraveler)) {
-        setTravelerType(storedTraveler as TravelerType);
+      if (storedTraveler && ['solo', 'couple', 'family'].includes(storedTraveler)) {
+        const type = storedTraveler as TravelerType;
+        setTravelerType(type);
+        // Load room config if stored, otherwise use default for type
+        const storedRoom = sessionStorage.getItem('flash_room_config');
+        if (storedRoom) {
+          setRoomConfig(JSON.parse(storedRoom) as RoomConfig);
+        } else {
+          setRoomConfig(DEFAULT_ROOM_CONFIGS[type]);
+        }
+      } else if (storedTraveler === 'friends') {
+        // Migrate legacy 'friends' → 'couple'
+        setTravelerType('couple');
+        setRoomConfig(DEFAULT_ROOM_CONFIGS.couple);
       }
 
       const storedAirport = sessionStorage.getItem(AIRPORT_STORAGE_KEY);
@@ -110,8 +129,45 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
   // Save traveler type to session storage
   const handleTravelerChange = (type: TravelerType) => {
     setTravelerType(type);
+    const newRoom = type === 'family' && travelerType === 'family'
+      ? roomConfig // keep existing family config
+      : DEFAULT_ROOM_CONFIGS[type];
+    setRoomConfig(newRoom);
     try {
       sessionStorage.setItem(TRAVELERS_STORAGE_KEY, type);
+      sessionStorage.setItem('flash_room_config', JSON.stringify(newRoom));
+    } catch {}
+  };
+
+  // Update room config (for family configurator)
+  const updateRoomConfig = (update: Partial<RoomConfig>) => {
+    const updated = { ...roomConfig, ...update };
+    // Keep childAges array in sync with children count
+    if (update.children !== undefined) {
+      if (update.children > roomConfig.children) {
+        // Added a child — default age 8
+        updated.childAges = [...roomConfig.childAges];
+        while (updated.childAges.length < update.children) {
+          updated.childAges.push(8);
+        }
+      } else if (update.children < roomConfig.children) {
+        // Removed a child — trim from end
+        updated.childAges = roomConfig.childAges.slice(0, update.children);
+      }
+    }
+    setRoomConfig(updated);
+    try {
+      sessionStorage.setItem('flash_room_config', JSON.stringify(updated));
+    } catch {}
+  };
+
+  const updateChildAge = (index: number, age: number) => {
+    const newAges = [...roomConfig.childAges];
+    newAges[index] = age;
+    const updated = { ...roomConfig, childAges: newAges };
+    setRoomConfig(updated);
+    try {
+      sessionStorage.setItem('flash_room_config', JSON.stringify(updated));
     } catch {}
   };
 
@@ -163,6 +219,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
       budgetMode: budgetTier === 'budget' ? 'bargain' : budgetTier === 'extravagant' ? 'custom' : 'regular',
       customBudget: budgetTier === 'extravagant' ? 'no limit, luxury only' : undefined,
       travelers: travelerType,
+      roomConfig: travelerType === 'family' ? roomConfig : DEFAULT_ROOM_CONFIGS[travelerType],
       originAirport: detectedAirport?.code || undefined,
     });
   };
@@ -240,6 +297,86 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
               </button>
             ))}
           </div>
+
+          {/* Family room configurator — inline expand */}
+          {travelerType === 'family' && (
+            <div className="mt-3 p-4 bg-gray-50 rounded-xl border border-gray-200 space-y-3 animate-in slide-in-from-top-2 duration-200">
+              {/* Adults counter */}
+              <div className="flex items-center justify-between">
+                <div>
+                  <span className="text-sm font-medium text-gray-800">Adults</span>
+                  <span className="text-xs text-gray-500 ml-1.5">18+</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => updateRoomConfig({ adults: Math.max(1, roomConfig.adults - 1) })}
+                    disabled={roomConfig.adults <= 1}
+                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                  >
+                    −
+                  </button>
+                  <span className="text-sm font-semibold w-4 text-center">{roomConfig.adults}</span>
+                  <button
+                    onClick={() => updateRoomConfig({ adults: Math.min(6, roomConfig.adults + 1) })}
+                    disabled={roomConfig.adults >= 6}
+                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+
+              {/* Children counter */}
+              <div className="flex items-center justify-between">
+                <div>
+                  <span className="text-sm font-medium text-gray-800">Children</span>
+                  <span className="text-xs text-gray-500 ml-1.5">0–17</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => updateRoomConfig({ children: Math.max(0, roomConfig.children - 1) })}
+                    disabled={roomConfig.children <= 0}
+                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                  >
+                    −
+                  </button>
+                  <span className="text-sm font-semibold w-4 text-center">{roomConfig.children}</span>
+                  <button
+                    onClick={() => updateRoomConfig({ children: Math.min(4, roomConfig.children + 1) })}
+                    disabled={roomConfig.children >= 4}
+                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+
+              {/* Child age selectors */}
+              {roomConfig.children > 0 && (
+                <div className="pt-2 border-t border-gray-200">
+                  <p className="text-xs text-gray-500 mb-2">Child ages (for hotel room search)</p>
+                  <div className="flex flex-wrap gap-2">
+                    {roomConfig.childAges.map((age, idx) => (
+                      <div key={idx} className="flex items-center gap-1.5">
+                        <span className="text-xs text-gray-500">Child {idx + 1}:</span>
+                        <select
+                          value={age}
+                          onChange={(e) => updateChildAge(idx, parseInt(e.target.value))}
+                          className="px-2 py-1 text-sm border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                        >
+                          {Array.from({ length: 18 }, (_, i) => (
+                            <option key={i} value={i}>
+                              {i === 0 ? 'Under 1' : `${i} yr${i > 1 ? 's' : ''}`}
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* ========== VIBE SECTION ========== */}
@@ -338,16 +475,23 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
         </div>
 
         {/* ========== GENERATE BUTTON ========== */}
-        <Button
-          variant="primary"
-          size="lg"
-          onClick={handleSubmit}
-          disabled={!isValid || isLoading}
-          loading={isLoading}
-          className="w-full py-4 text-lg"
-        >
-          {isLoading ? 'Finding trips...' : 'Find My Trips'}
-        </Button>
+        <div>
+          <Button
+            variant="primary"
+            size="lg"
+            onClick={handleSubmit}
+            disabled={!isValid || isLoading}
+            loading={isLoading}
+            className="w-full py-4 text-lg"
+          >
+            {isLoading ? 'Finding trips...' : 'Find My Trips'}
+          </Button>
+          {!isValid && !isLoading && (
+            <p className="text-sm text-amber-600 text-center mt-2">
+              {!checkinDate ? '☝️ Pick your check-in date to get started' : !checkoutDate ? '☝️ Pick a check-out date' : 'Check-out must be after check-in'}
+            </p>
+          )}
+        </div>
 
         {/* Subtle info line — airport detection + count */}
         <div className="text-center text-sm text-gray-500">

@@ -24,6 +24,83 @@ import { calculateHotelZone } from '@/lib/flash/hotelZoneClustering';
 type BookingStep = 'choice' | 'itinerary' | 'hotels' | 'checkout';
 type ItineraryType = SimplePathChoice | null;
 
+// Step progress configuration
+const BOOKING_STEPS: { key: BookingStep; label: string; emoji: string }[] = [
+  { key: 'choice', label: 'Vibe', emoji: '✨' },
+  { key: 'itinerary', label: 'Explore', emoji: '🗺️' },
+  { key: 'hotels', label: 'Hotels', emoji: '🏨' },
+  { key: 'checkout', label: 'Book', emoji: '✅' },
+];
+
+function StepProgressBar({ currentStep }: { currentStep: BookingStep; variant?: 'default' | 'overlay' }) {
+  const currentIndex = BOOKING_STEPS.findIndex(s => s.key === currentStep);
+
+  return (
+    <div className="w-full px-6 sm:px-10">
+      {/* Row: dot — line — dot — line — dot — line — dot */}
+      <div className="flex items-start">
+        {BOOKING_STEPS.map((stepConfig, index) => {
+          const isCompleted = index < currentIndex;
+          const isCurrent = index === currentIndex;
+          const isLast = index === BOOKING_STEPS.length - 1;
+          // The connector AFTER this dot is filled if the next step is completed or current
+          const connectorFilled = index < currentIndex;
+
+          return (
+            <div key={stepConfig.key} className={`flex items-start ${isLast ? '' : 'flex-1'}`}>
+              {/* Dot + label column */}
+              <div className="flex flex-col items-center gap-1 flex-shrink-0">
+                <div
+                  className={`w-[22px] h-[22px] rounded-full flex items-center justify-center transition-all duration-300 ${
+                    isCompleted
+                      ? 'bg-primary-500 shadow-lg shadow-primary-500/30'
+                      : isCurrent
+                        ? 'bg-primary-500 shadow-lg shadow-primary-500/40 ring-[3px] ring-primary-400/30'
+                        : 'bg-white/10 border border-white/20'
+                  }`}
+                >
+                  {isCompleted ? (
+                    <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                  ) : (
+                    <span className="text-[10px]">{stepConfig.emoji}</span>
+                  )}
+                </div>
+                <span
+                  className={`text-[10px] font-medium whitespace-nowrap transition-colors duration-300 ${
+                    isCompleted
+                      ? 'text-primary-400'
+                      : isCurrent
+                        ? 'text-white'
+                        : 'text-white/30'
+                  }`}
+                >
+                  {stepConfig.label}
+                </span>
+              </div>
+
+              {/* Connector line between dots */}
+              {!isLast && (
+                <div className="flex-1 flex items-center h-[22px]">
+                  <div
+                    className={`w-full h-[2px] rounded-full transition-all duration-500 ${
+                      connectorFilled
+                        ? ''
+                        : 'bg-white/10'
+                    }`}
+                    style={connectorFilled ? { background: 'linear-gradient(to right, #60a5fa, #818cf8)' } : undefined}
+                  />
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 // Path configuration with metadata
 const PATH_CONFIG: Record<SimplePathChoice, {
   emoji: string;
@@ -552,17 +629,20 @@ function FlashExploreContent() {
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/30" />
         </div>
 
-        {/* Back button */}
-        <div className="absolute top-0 left-0 right-0 z-20 p-4 pt-safe">
-          <button
-            onClick={handleGoBack}
-            className="flex items-center gap-2 text-white/80 hover:text-white transition-colors p-2 -ml-2"
-          >
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            <span className="text-sm font-medium">Back</span>
-          </button>
+        {/* Top bar: back + progress */}
+        <div className="absolute top-0 left-0 right-0 z-20 pt-safe">
+          <div className="px-4 pt-3 pb-1">
+            <button
+              onClick={handleGoBack}
+              className="flex items-center gap-2 text-white/80 hover:text-white transition-colors p-2 -ml-2 mb-2"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              <span className="text-sm font-medium">Back</span>
+            </button>
+          </div>
+          <StepProgressBar currentStep="choice" variant="overlay" />
         </div>
 
         {/* Content */}
@@ -681,12 +761,12 @@ function FlashExploreContent() {
           className="absolute inset-0"
         />
 
-        {/* Top gradient overlay — slim */}
-        <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-black/60 to-transparent pointer-events-none z-10" />
+        {/* Top gradient overlay — tall enough to cover header + progress bar */}
+        <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-black/70 to-transparent pointer-events-none z-10" />
 
-        {/* Header — compact */}
-        <div className="absolute top-0 left-0 right-0 z-20 px-3 py-2 pt-safe">
-          <div className="flex items-center justify-between">
+        {/* Header — compact with progress */}
+        <div className="absolute top-0 left-0 right-0 z-20 pt-safe">
+          <div className="px-3 py-2 flex items-center justify-between">
             <button
               onClick={handleGoBack}
               className="flex items-center gap-1.5 text-white/80 hover:text-white transition-colors p-1.5 -ml-1.5"
@@ -705,11 +785,12 @@ function FlashExploreContent() {
 
             <div className="w-12" />
           </div>
+          <StepProgressBar currentStep="itinerary" variant="overlay" />
         </div>
 
-        {/* Floating teaser — top left under header */}
+        {/* Floating teaser — top left under header + progress bar */}
         {!isLoadingItinerary && allStops.length > 0 && (
-          <div className="absolute top-14 left-3 z-20 max-w-[260px]">
+          <div className="absolute top-[105px] left-3 z-20 max-w-[260px]">
             <div className="bg-black/50 backdrop-blur-sm rounded-lg px-3 py-2 flex items-center gap-2">
               <span className="text-sm">✨</span>
               <p className="text-white/70 text-[11px] leading-snug">
@@ -1233,9 +1314,12 @@ function FlashExploreContent() {
     return (
       <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         <div className="h-full flex flex-col">
-          {/* Header */}
-          <div className="p-4 pt-safe border-b border-white/10">
-            <div className="flex items-center justify-between">
+          {/* Header with progress */}
+          <div className="pt-safe border-b border-white/10">
+            <div className="py-3">
+              <StepProgressBar currentStep="hotels" />
+            </div>
+            <div className="px-4 pb-3 flex items-center justify-between">
               <button
                 onClick={handleGoBack}
                 className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
@@ -1245,10 +1329,7 @@ function FlashExploreContent() {
                 </svg>
                 <span className="text-sm font-medium">Back</span>
               </button>
-              <div className="text-center">
-                <p className="text-white/50 text-xs">Step 2 of 3</p>
-                <h1 className="text-white font-bold">Hotels</h1>
-              </div>
+              <h1 className="text-white font-bold">Choose Your Hotel</h1>
               {/* Map/List toggle */}
               <div className="flex bg-white/10 rounded-lg p-0.5">
                 <button
@@ -1835,9 +1916,12 @@ function FlashExploreContent() {
     return (
       <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         <div className="h-full flex flex-col">
-          {/* Header */}
-          <div className="p-4 pt-safe border-b border-white/10">
-            <div className="flex items-center justify-between">
+          {/* Header with progress */}
+          <div className="pt-safe border-b border-white/10">
+            <div className="py-3">
+              <StepProgressBar currentStep="checkout" />
+            </div>
+            <div className="px-4 pb-3 flex items-center justify-between">
               <button
                 onClick={handleGoBack}
                 className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
@@ -1847,10 +1931,7 @@ function FlashExploreContent() {
                 </svg>
                 <span className="text-sm font-medium">Back</span>
               </button>
-              <div className="text-center">
-                <p className="text-white/50 text-xs">Step 3 of 3</p>
-                <h1 className="text-white font-bold">Checkout</h1>
-              </div>
+              <h1 className="text-white font-bold">Checkout</h1>
               <div className="w-16" />
             </div>
           </div>

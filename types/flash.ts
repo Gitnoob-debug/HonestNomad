@@ -165,6 +165,7 @@ export interface FlashTripPackage {
   transferInfo?: TransferInfo;       // For remote destinations
   // Card personality data
   tagline?: string;                  // One-liner sell e.g. "Street food capital of Southeast Asia"
+  pitch?: string;                    // 2-3 sentence sales pitch for the detail modal
   perfectTiming?: boolean;           // true if travel dates match bestMonths
   poiCount?: number;                 // Number of curated POIs available
   // Legacy: flight field kept for backwards compat with stored data

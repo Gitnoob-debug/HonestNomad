@@ -10,6 +10,7 @@ import { selectDestinations, calculateDiversityScore } from './diversityEngine';
 import { getDestinationImages, getPrimaryDestinationImage } from './destinationImages';
 import { getTransferInfo } from './hubAirports';
 import { generateTagline } from './taglines';
+import { generateCityPitch } from './cityPitches';
 import { getPOICount } from './poi-loader';
 import type { RevealedPreferences } from './preferenceEngine';
 
@@ -146,6 +147,7 @@ function buildTripPackage(
 
   // Card personality data
   const tagline = generateTagline(destination);
+  const pitch = generateCityPitch(destination);
   const poiCount = getPOICount(destination.id);
 
   return {
@@ -177,6 +179,7 @@ function buildTripPackage(
     images: destinationImages.length > 0 ? destinationImages : undefined,
     transferInfo,
     tagline,
+    pitch,
     perfectTiming: isPerfectTiming || undefined,
     poiCount: poiCount > 0 ? poiCount : undefined,
   };

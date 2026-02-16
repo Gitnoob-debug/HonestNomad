@@ -48,25 +48,25 @@ function StepProgressTrail({ currentStep }: { currentStep: BookingStep }) {
             {/* Dot */}
             <div className="relative group">
               <div
-                className={`w-[18px] h-[18px] rounded-full flex items-center justify-center transition-all duration-300 ${
+                className={`w-[26px] h-[26px] rounded-full flex items-center justify-center transition-all duration-300 ${
                   isCompleted
                     ? 'bg-primary-500/80'
                     : isCurrent
                       ? 'bg-primary-500 shadow-md shadow-primary-500/40 ring-2 ring-primary-400/30'
-                      : 'bg-white/10 border border-white/15'
+                      : 'bg-white/10 border border-white/20'
                 }`}
               >
                 {isCompleted ? (
-                  <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                  <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                 ) : (
-                  <span className="text-[8px]">{stepConfig.emoji}</span>
+                  <span className="text-[11px]">{stepConfig.emoji}</span>
                 )}
               </div>
-              {/* Hover label */}
-              <span className={`absolute left-6 top-1/2 -translate-y-1/2 text-[10px] font-medium whitespace-nowrap px-1.5 py-0.5 rounded bg-black/60 backdrop-blur-sm transition-opacity duration-200 ${
-                isCurrent ? 'opacity-100 text-white' : 'opacity-0 group-hover:opacity-100 text-white/70'
+              {/* Label — always visible for current, hover for others */}
+              <span className={`absolute left-8 top-1/2 -translate-y-1/2 text-[11px] font-medium whitespace-nowrap px-2 py-0.5 rounded bg-black/60 backdrop-blur-sm transition-opacity duration-200 ${
+                isCurrent ? 'opacity-100 text-white' : 'opacity-0 group-hover:opacity-100 text-white/60'
               }`}>
                 {stepConfig.label}
               </span>
@@ -74,7 +74,7 @@ function StepProgressTrail({ currentStep }: { currentStep: BookingStep }) {
             {/* Connector line */}
             {!isLast && (
               <div
-                className={`w-[2px] h-4 rounded-full transition-all duration-500 ${
+                className={`w-[2px] h-6 rounded-full transition-all duration-500 ${
                   isCompleted ? 'bg-primary-500/50' : 'bg-white/10'
                 }`}
               />

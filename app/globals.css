@@ -108,6 +108,16 @@
   animation: shimmer 1.5s ease-in-out infinite;
 }
 
+/* Map hint fade-out */
+@keyframes fade-out {
+  0%, 70% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-fade-out {
+  animation: fade-out 4s ease-out forwards;
+}
+
 /* Leaflet map fixes */
 .leaflet-container {
   font-family: inherit;

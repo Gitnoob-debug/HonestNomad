@@ -48,25 +48,27 @@ function StepProgressTrail({ currentStep }: { currentStep: BookingStep }) {
             {/* Dot */}
             <div className="relative group">
               <div
-                className={`w-[26px] h-[26px] rounded-full flex items-center justify-center transition-all duration-300 ${
+                className={`w-[34px] h-[34px] rounded-full flex items-center justify-center transition-all duration-300 ${
                   isCompleted
                     ? 'bg-primary-500/80'
                     : isCurrent
-                      ? 'bg-primary-500 shadow-md shadow-primary-500/40 ring-2 ring-primary-400/30'
+                      ? 'bg-primary-500 shadow-lg shadow-primary-500/40 ring-[3px] ring-primary-400/30'
                       : 'bg-white/10 border border-white/20'
                 }`}
               >
                 {isCompleted ? (
-                  <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                  <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
+                ) : isCurrent ? (
+                  <span className="text-[14px]">{stepConfig.emoji}</span>
                 ) : (
-                  <span className="text-[11px]">{stepConfig.emoji}</span>
+                  <span className="text-[10px] text-white/40 font-medium">{index + 1}</span>
                 )}
               </div>
-              {/* Label — always visible for current, hover for others */}
-              <span className={`absolute left-8 top-1/2 -translate-y-1/2 text-[11px] font-medium whitespace-nowrap px-2 py-0.5 rounded bg-black/60 backdrop-blur-sm transition-opacity duration-200 ${
-                isCurrent ? 'opacity-100 text-white' : 'opacity-0 group-hover:opacity-100 text-white/60'
+              {/* Label — always visible for completed + current, hover for future */}
+              <span className={`absolute left-10 top-1/2 -translate-y-1/2 text-xs font-medium whitespace-nowrap px-2 py-0.5 rounded transition-opacity duration-200 ${
+                isCurrent ? 'opacity-100 text-white' : isCompleted ? 'opacity-100 text-white/70' : 'opacity-0 group-hover:opacity-100 text-white/40'
               }`}>
                 {stepConfig.label}
               </span>
@@ -74,8 +76,8 @@ function StepProgressTrail({ currentStep }: { currentStep: BookingStep }) {
             {/* Connector line */}
             {!isLast && (
               <div
-                className={`w-[2px] h-6 rounded-full transition-all duration-500 ${
-                  isCompleted ? 'bg-primary-500/50' : 'bg-white/10'
+                className={`w-[3px] h-8 rounded-full transition-all duration-500 ${
+                  isCompleted ? 'bg-primary-500/60' : 'bg-white/15'
                 }`}
               />
             )}
@@ -289,6 +291,7 @@ function FlashExploreContent() {
   const [showDetails, setShowDetails] = useState(false);
   const [isLoadingItinerary, setIsLoadingItinerary] = useState(false);
   const [typeFilter, setTypeFilter] = useState<string | null>(null);
+  const [showMapHint, setShowMapHint] = useState(true);
 
   // Favorites - persists across shuffles
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
@@ -405,6 +408,15 @@ function FlashExploreContent() {
 
   // Note: Draft loading now happens via draftId URL param in the first useEffect
   // The Supabase-backed draft system uses UUID IDs, so we don't need to match by trip data
+
+  // Auto-dismiss "tap markers" hint after 4 seconds
+  const totalStops = itinerary.flatMap(d => d.stops).length;
+  useEffect(() => {
+    if (showMapHint && !isLoadingItinerary && totalStops > 0) {
+      const timer = setTimeout(() => setShowMapHint(false), 4000);
+      return () => clearTimeout(timer);
+    }
+  }, [showMapHint, isLoadingItinerary, totalStops]);
 
   const loadItinerary = async (pathType: SimplePathChoice) => {
     if (!trip) return;
@@ -802,9 +814,9 @@ function FlashExploreContent() {
 
     return (
       <div className="fixed inset-0 bg-black z-50">
-        {/* Map background - show ALL stops */}
+        {/* Map background — filtered by type when a filter chip is active */}
         <ItineraryMap
-          stops={allStops}
+          stops={typeFilter ? allStops.filter(s => s.type === typeFilter) : allStops}
           centerLatitude={centerLat}
           centerLongitude={centerLng}
           activeStopId={activeStopId || undefined}
@@ -840,9 +852,11 @@ function FlashExploreContent() {
           </div>
         </div>
 
-        {/* Left-side step trail — subtle vertical progress indicator */}
+        {/* Left-side step trail — frosted glass pill for visibility */}
         <div className="absolute left-3 top-1/2 -translate-y-1/2 z-20">
-          <StepProgressTrail currentStep="itinerary" />
+          <div className="bg-black/50 backdrop-blur-md rounded-2xl px-2.5 py-3 shadow-lg shadow-black/30 border border-white/10">
+            <StepProgressTrail currentStep="itinerary" />
+          </div>
         </div>
 
         {/* Floating teaser — top left under header */}
@@ -857,47 +871,81 @@ function FlashExploreContent() {
           </div>
         )}
 
-        {/* Bottom panel — compact */}
-        <div className="absolute bottom-0 left-0 right-0 z-20">
-          <div className="h-8 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
+        {/* Loading overlay — centered on map */}
+        {isLoadingItinerary && (
+          <div className="absolute inset-0 z-15 flex items-center justify-center bg-black/20">
+            <div className="bg-black/70 backdrop-blur-sm rounded-2xl px-6 py-4 flex items-center gap-3">
+              <Spinner size="md" className="text-white" />
+              <span className="text-white/80 text-sm">Loading {itineraryType && PATH_CONFIG[itineraryType]?.name}...</span>
+            </div>
+          </div>
+        )}
 
-          <div className="bg-black/85 backdrop-blur-md px-3 pb-safe">
-            {/* Places count + favorites — single compact row */}
-            <div className="flex items-center justify-between py-2">
-              <div className="flex items-center gap-2">
-                <p className="text-white/50 text-xs">{allStops.length} places to explore</p>
+        {/* Empty state overlay — centered on map */}
+        {!isLoadingItinerary && allStops.length === 0 && step === 'itinerary' && (
+          <div className="absolute inset-0 z-15 flex items-center justify-center">
+            <div className="bg-black/70 backdrop-blur-sm rounded-2xl px-6 py-6 text-center max-w-[280px]">
+              <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center mb-3 mx-auto">
+                <svg className="w-7 h-7 text-white/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
               </div>
-              <div className="flex items-center gap-2">
+              <p className="text-white/70 text-sm mb-3">No places found for this itinerary</p>
+              <button onClick={handleShuffle} className="text-primary-400 text-sm font-medium hover:text-primary-300">
+                Try a different style
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* "Tap markers" hint — fades out after 4s */}
+        {showMapHint && !isLoadingItinerary && allStops.length > 0 && (
+          <div className="absolute bottom-[100px] left-1/2 -translate-x-1/2 z-20 animate-fade-out pointer-events-none">
+            <div className="bg-black/60 backdrop-blur-sm rounded-full px-4 py-2 text-white/80 text-xs font-medium shadow-lg">
+              Tap any marker to see details
+            </div>
+          </div>
+        )}
+
+        {/* Bottom action strip — slim, map-first */}
+        <div className="absolute bottom-0 left-0 right-0 z-20">
+          <div className="h-4 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
+
+          <div className="bg-black/80 backdrop-blur-md px-3 pb-safe">
+            {/* Filter chips + count — single row */}
+            <div className="flex items-center gap-2 py-2 overflow-x-auto scrollbar-hide">
+              <div className="flex-shrink-0 flex items-center gap-1.5 text-white/60 text-xs font-medium">
+                <span>{allStops.length} places</span>
                 {favorites.size > 0 && (
-                  <div className="flex items-center gap-1 px-2 py-1 bg-pink-500/20 rounded-full">
-                    <svg className="w-3.5 h-3.5 text-pink-500 fill-pink-500" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <span className="flex items-center gap-0.5 text-pink-400">
+                    <svg className="w-3 h-3 fill-pink-500" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                     </svg>
-                    <span className="text-pink-400 text-xs font-medium">{favorites.size}</span>
-                  </div>
+                    {favorites.size}
+                  </span>
                 )}
               </div>
-            </div>
 
-            {/* Filter chips */}
-            {!isLoadingItinerary && allStops.length > 0 && (() => {
-              // Get unique types from current day's stops
-              const types = Array.from(new Set(allStops.map(s => s.type)));
-              if (types.length <= 1) return null;
-              const typeLabels: Record<string, { emoji: string; label: string }> = {
-                landmark: { emoji: '🏛️', label: 'Sights' },
-                restaurant: { emoji: '🍽️', label: 'Food' },
-                museum: { emoji: '🎨', label: 'Museums' },
-                park: { emoji: '🌳', label: 'Parks' },
-                cafe: { emoji: '☕', label: 'Cafes' },
-                bar: { emoji: '🍸', label: 'Bars' },
-                activity: { emoji: '🎯', label: 'Activities' },
-                market: { emoji: '🛒', label: 'Markets' },
-                viewpoint: { emoji: '🌄', label: 'Views' },
-                nightclub: { emoji: '🎉', label: 'Nightlife' },
-              };
-              return (
-                <div className="flex gap-1.5 overflow-x-auto py-1.5 scrollbar-hide">
+              <div className="w-px h-4 bg-white/20 flex-shrink-0" />
+
+              {/* Filter chips inline */}
+              {!isLoadingItinerary && allStops.length > 0 && (() => {
+                const types = Array.from(new Set(allStops.map(s => s.type)));
+                if (types.length <= 1) return null;
+                const typeLabels: Record<string, { emoji: string; label: string }> = {
+                  landmark: { emoji: '🏛️', label: 'Sights' },
+                  restaurant: { emoji: '🍽️', label: 'Food' },
+                  museum: { emoji: '🎨', label: 'Museums' },
+                  park: { emoji: '🌳', label: 'Parks' },
+                  cafe: { emoji: '☕', label: 'Cafes' },
+                  bar: { emoji: '🍸', label: 'Bars' },
+                  activity: { emoji: '🎯', label: 'Activities' },
+                  market: { emoji: '🛒', label: 'Markets' },
+                  viewpoint: { emoji: '🌄', label: 'Views' },
+                  nightclub: { emoji: '🎉', label: 'Nightlife' },
+                };
+                return (<>
                   <button
                     onClick={() => setTypeFilter(null)}
                     className={`flex-shrink-0 px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
@@ -921,156 +969,33 @@ function FlashExploreContent() {
                       </button>
                     );
                   })}
-                </div>
-              );
-            })()}
+                </>);
+              })()}
+            </div>
 
             {/* Error message (dismissible) */}
             {loadingError && (
-              <div className="flex items-center justify-between gap-3 py-2 px-3 mb-2 bg-amber-500/20 border border-amber-500/30 rounded-lg">
+              <div className="flex items-center justify-between gap-3 py-1.5 px-3 mb-1 bg-amber-500/20 border border-amber-500/30 rounded-lg">
                 <div className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-amber-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                   </svg>
-                  <span className="text-amber-200 text-sm">{loadingError}</span>
+                  <span className="text-amber-200 text-xs">{loadingError}</span>
                 </div>
-                <button
-                  onClick={() => setLoadingError(null)}
-                  className="text-amber-400 hover:text-amber-200 transition-colors p-1"
-                >
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <button onClick={() => setLoadingError(null)} className="text-amber-400 hover:text-amber-200 transition-colors p-0.5">
+                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 </button>
               </div>
             )}
 
-            {/* Stops carousel - filtered by active day */}
-            <div className="flex gap-2.5 overflow-x-auto py-2 scrollbar-hide">
-              {isLoadingItinerary ? (
-                <div className="flex-1 flex items-center justify-center py-8">
-                  <Spinner size="md" className="text-white" />
-                  <span className="text-white/60 ml-3">Loading {itineraryType && PATH_CONFIG[itineraryType]?.name}...</span>
-                </div>
-              ) : allStops.length === 0 ? (
-                <div className="flex-1 flex flex-col items-center justify-center py-8 text-center">
-                  <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4">
-                    <svg className="w-8 h-8 text-white/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </div>
-                  <p className="text-white/60 mb-2">No places found for this itinerary</p>
-                  <button
-                    onClick={handleShuffle}
-                    className="text-white underline hover:text-white/80 text-sm"
-                  >
-                    Try a different style
-                  </button>
-                </div>
-              ) : (() => {
-                // Show stops for active day, filtered by type
-                let dayStops = allStops;
-                if (typeFilter) {
-                  dayStops = dayStops.filter(s => s.type === typeFilter);
-                }
-                return (<>
-                  {dayStops.map((stop, index) => (
-                    <div
-                      key={stop.id}
-                      onClick={() => handleStopClick(stop)}
-                      className={`flex-shrink-0 w-56 rounded-xl overflow-hidden text-left transition-all cursor-pointer relative ${
-                        activeStopId === stop.id
-                          ? 'ring-2 ring-white'
-                          : 'hover:ring-1 hover:ring-white/30'
-                      } ${favorites.has(stop.id) ? 'ring-1 ring-pink-500/50' : ''}`}
-                    >
-                      {/* Image hero or gradient fallback */}
-                      <div className="relative h-28 overflow-hidden">
-                        {stop.imageUrl ? (
-                          <img
-                            src={stop.imageUrl}
-                            alt={stop.name}
-                            className="w-full h-full object-cover"
-                            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
-                          />
-                        ) : (
-                          <div className={`w-full h-full flex items-center justify-center text-4xl ${
-                            {
-                              landmark: 'bg-gradient-to-br from-amber-600/40 to-orange-800/40',
-                              restaurant: 'bg-gradient-to-br from-red-600/40 to-pink-800/40',
-                              activity: 'bg-gradient-to-br from-blue-600/40 to-cyan-800/40',
-                              museum: 'bg-gradient-to-br from-purple-600/40 to-indigo-800/40',
-                              park: 'bg-gradient-to-br from-green-600/40 to-emerald-800/40',
-                              cafe: 'bg-gradient-to-br from-orange-600/40 to-amber-800/40',
-                              bar: 'bg-gradient-to-br from-pink-600/40 to-rose-800/40',
-                            }[stop.type as string] || 'bg-gradient-to-br from-gray-600/40 to-gray-800/40'
-                          }`}>
-                            {{
-                              landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🏛️',
-                              park: '🌳', accommodation: '🏨', transport: '✈️', cafe: '☕',
-                              bar: '🍸', market: '🛒', viewpoint: '🌄',
-                            }[stop.type as string] || '📍'}
-                          </div>
-                        )}
-                        {/* Gradient overlay on image */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                        {/* Stop number badge */}
-                        <span className="absolute top-2 left-2 bg-black/50 text-white/70 text-xs px-1.5 py-0.5 rounded-full font-medium">
-                          #{index + 1}
-                        </span>
-                        {/* Favorite heart */}
-                        <button
-                          onClick={(e) => toggleFavorite(stop, e)}
-                          className="absolute top-2 right-2 w-7 h-7 flex items-center justify-center rounded-full bg-black/40 hover:bg-black/60 transition-colors z-10"
-                        >
-                          <svg
-                            className={`w-4 h-4 transition-colors ${favorites.has(stop.id) ? 'text-pink-500 fill-pink-500' : 'text-white/70'}`}
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                            fill={favorites.has(stop.id) ? 'currentColor' : 'none'}
-                          >
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                          </svg>
-                        </button>
-                        {/* Rating overlay at bottom of image */}
-                        {stop.googleRating && (
-                          <div className="absolute bottom-2 left-2 flex items-center gap-1 bg-black/60 backdrop-blur-sm px-1.5 py-0.5 rounded">
-                            <span className="text-amber-400 text-xs font-semibold">★ {stop.googleRating.toFixed(1)}</span>
-                            {stop.googleReviewCount && stop.googleReviewCount > 0 && (
-                              <span className="text-white/50 text-xs">({stop.googleReviewCount > 1000 ? `${(stop.googleReviewCount / 1000).toFixed(1)}k` : stop.googleReviewCount})</span>
-                            )}
-                          </div>
-                        )}
-                      </div>
-                      {/* Card body */}
-                      <div className="bg-white/10 p-2.5">
-                        <h3 className="text-white font-medium text-sm truncate">{stop.name}</h3>
-                        <p className="text-white/50 text-xs line-clamp-1 mt-0.5">{stop.description}</p>
-                        <div className="flex items-center gap-2 mt-1.5">
-                          {stop.bestTimeOfDay && stop.bestTimeOfDay !== 'any' && (
-                            <span className="text-white/40 text-xs capitalize">
-                              🕐 {stop.bestTimeOfDay}
-                            </span>
-                          )}
-                          {stop.duration && (
-                            <span className="text-white/40 text-xs">⏱️ {stop.duration}</span>
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </>);
-              })()}
-            </div>
-
-            {/* Action buttons — compact row */}
+            {/* Action buttons */}
             <div className="flex gap-2 py-2">
               <button
                 onClick={handleShuffle}
                 disabled={isLoadingItinerary}
-                className="flex items-center justify-center gap-1.5 px-3 py-2.5 bg-white/10 border border-white/15 text-white text-sm font-medium rounded-lg hover:bg-white/20 transition-colors disabled:opacity-50"
+                className="flex items-center justify-center gap-1.5 px-4 py-2.5 bg-white/10 border border-white/15 text-white text-sm font-medium rounded-lg hover:bg-white/20 transition-colors disabled:opacity-50"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />

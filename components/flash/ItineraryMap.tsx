@@ -36,16 +36,8 @@ interface ItineraryMapProps {
   className?: string;
 }
 
-// Day colors for route lines
-const DAY_COLORS = [
-  '#3b82f6', // blue - Day 1
-  '#8b5cf6', // purple - Day 2
-  '#f59e0b', // amber - Day 3
-  '#10b981', // emerald - Day 4
-  '#f43f5e', // rose - Day 5
-  '#06b6d4', // cyan - Day 6
-  '#f97316', // orange - Day 7
-];
+// Day colors reserved for future itinerary route lines (post hotel-booking)
+// const DAY_COLORS = ['#3b82f6', '#8b5cf6', '#f59e0b', '#10b981', '#f43f5e', '#06b6d4', '#f97316'];
 
 const MARKER_COLORS: Record<ItineraryStop['type'], string> = {
   landmark: '#ef4444',    // red
@@ -92,7 +84,7 @@ export function ItineraryMap({
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<mapboxgl.Marker[]>([]);
-  const routeSourceAdded = useRef(false);
+  // routeSourceAdded removed — route lines disabled during explore stage
   const hotelZoneAdded = useRef(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
@@ -190,7 +182,6 @@ export function ItineraryMap({
       map.current?.remove();
       map.current = null;
       initialCenterSet.current = false;
-      routeSourceAdded.current = false;
       hotelZoneAdded.current = false;
       setMapLoaded(false);
     };
@@ -306,102 +297,8 @@ export function ItineraryMap({
 
   }, [stops, mapLoaded, activeStopId, onStopClick]);
 
-  // Draw route lines connecting stops per day
-  useEffect(() => {
-    if (!map.current || !mapLoaded || stops.length < 2) return;
-
-    const m = map.current;
-
-    // Group stops by day
-    const stopsByDay = new Map<number, ItineraryStop[]>();
-    stops.forEach(stop => {
-      const dayStops = stopsByDay.get(stop.day) || [];
-      dayStops.push(stop);
-      stopsByDay.set(stop.day, dayStops);
-    });
-
-    // Build GeoJSON features — one LineString per day
-    const features: GeoJSON.Feature[] = [];
-    stopsByDay.forEach((dayStops, day) => {
-      if (dayStops.length < 2) return;
-      const coordinates = dayStops.map(s => [s.longitude, s.latitude]);
-      features.push({
-        type: 'Feature',
-        properties: { day, isActive: day === activeDay },
-        geometry: { type: 'LineString', coordinates },
-      });
-    });
-
-    const geojsonData: GeoJSON.FeatureCollection = {
-      type: 'FeatureCollection',
-      features,
-    };
-
-    try {
-      if (routeSourceAdded.current) {
-        // Update existing source
-        const source = m.getSource('route-lines') as mapboxgl.GeoJSONSource;
-        if (source) {
-          source.setData(geojsonData);
-        }
-      } else {
-        // Add source + layers
-        m.addSource('route-lines', {
-          type: 'geojson',
-          data: geojsonData,
-        });
-
-        // Inactive day lines (faded)
-        m.addLayer({
-          id: 'route-lines-inactive',
-          type: 'line',
-          source: 'route-lines',
-          filter: ['==', ['get', 'isActive'], false],
-          layout: {
-            'line-join': 'round',
-            'line-cap': 'round',
-          },
-          paint: {
-            'line-color': '#ffffff',
-            'line-width': 2,
-            'line-opacity': 0.15,
-            'line-dasharray': [4, 4],
-          },
-        });
-
-        // Active day line (prominent)
-        m.addLayer({
-          id: 'route-lines-active',
-          type: 'line',
-          source: 'route-lines',
-          filter: ['==', ['get', 'isActive'], true],
-          layout: {
-            'line-join': 'round',
-            'line-cap': 'round',
-          },
-          paint: {
-            'line-color': ['match', ['get', 'day'],
-              1, DAY_COLORS[0],
-              2, DAY_COLORS[1],
-              3, DAY_COLORS[2],
-              4, DAY_COLORS[3],
-              5, DAY_COLORS[4],
-              6, DAY_COLORS[5],
-              7, DAY_COLORS[6],
-              '#3b82f6',
-            ],
-            'line-width': 3.5,
-            'line-opacity': 0.7,
-          },
-        });
-
-        routeSourceAdded.current = true;
-      }
-    } catch (error) {
-      // Route lines are non-critical — don't break the map
-      console.error('Failed to add route lines:', error);
-    }
-  }, [stops, mapLoaded, activeDay]);
+  // Route lines are disabled during explore stage — POIs have no meaningful
+  // order yet. Lines will be drawn later when the user has a finalized itinerary.
 
   // Draw ideal hotel zone — uses IQR clustering to exclude outliers
   useEffect(() => {
@@ -506,7 +403,7 @@ export function ItineraryMap({
             'fill-color': '#a78bfa',
             'fill-opacity': 0.06,
           },
-        }, 'route-lines-inactive'); // Insert below route lines
+        });
 
         // Main fill — more visible
         m.addLayer({

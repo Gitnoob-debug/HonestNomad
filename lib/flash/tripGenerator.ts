@@ -14,6 +14,15 @@ import { generateCityPitch } from './cityPitches';
 import { getPOICount } from './poi-loader';
 import type { RevealedPreferences } from './preferenceEngine';
 
+/** Add WebP auto-format to Unsplash fallback URLs for faster loading */
+function optimizeUnsplashUrl(url: string): string {
+  if (url.includes('unsplash.com') && !url.includes('auto=format')) {
+    const separator = url.includes('?') ? '&' : '?';
+    return `${url}${separator}q=80&auto=format`;
+  }
+  return url;
+}
+
 export interface GenerationProgress {
   stage: 'finding_destinations' | 'building_trips' | 'complete';
   progress: number; // 0-100
@@ -175,7 +184,7 @@ function buildTripPackage(
     },
     highlights: destination.highlights.slice(0, 4),
     matchScore,
-    imageUrl: primaryImage || destination.imageUrl,
+    imageUrl: primaryImage || optimizeUnsplashUrl(destination.imageUrl),
     images: destinationImages.length > 0 ? destinationImages : undefined,
     transferInfo,
     tagline,

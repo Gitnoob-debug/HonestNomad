@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { calculateHotelZone } from '@/lib/flash/hotelZoneClustering';
+import { calculateHotelZone, getMainClusterBounds } from '@/lib/flash/hotelZoneClustering';
 
 interface ItineraryStop {
   id: string;
@@ -96,6 +96,7 @@ export function ItineraryMap({
   const hotelZoneAdded = useRef(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
+  const [offScreenCount, setOffScreenCount] = useState(0);
   const initialCenterSet = useRef(false);
 
   // Check if we have valid coordinates
@@ -204,11 +205,16 @@ export function ItineraryMap({
       return;
     }
 
-    // Fit bounds to show all stops if we have multiple
+    // Fit bounds to the MAIN CLUSTER of stops (filters outliers for island/scattered destinations)
     if (stops.length > 1) {
+      const { inliers, outlierCount } = getMainClusterBounds(
+        stops.map(s => ({ latitude: s.latitude, longitude: s.longitude }))
+      );
+      setOffScreenCount(outlierCount);
+
       const bounds = new mapboxgl.LngLatBounds();
-      stops.forEach(stop => {
-        bounds.extend([stop.longitude, stop.latitude]);
+      inliers.forEach(p => {
+        bounds.extend([p.longitude, p.latitude]);
       });
       map.current.fitBounds(bounds, {
         padding: { top: 50, bottom: 200, left: 50, right: 50 },
@@ -595,6 +601,14 @@ export function ItineraryMap({
   }
 
   return (
-    <div ref={mapContainer} className={`${className}`} style={{ width: '100%', height: '100%' }} />
+    <div className="relative" style={{ width: '100%', height: '100%' }}>
+      <div ref={mapContainer} className={`${className}`} style={{ width: '100%', height: '100%' }} />
+      {offScreenCount > 0 && (
+        <div className="absolute top-16 right-3 z-10 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded-full text-white/80 text-xs font-medium flex items-center gap-1.5 shadow-lg">
+          <span className="text-amber-400">+{offScreenCount}</span> more off-screen
+          <span className="text-white/40">↗</span>
+        </div>
+      )}
+    </div>
   );
 }

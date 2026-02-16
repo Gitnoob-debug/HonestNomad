@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { FlashTripPackage } from '@/types/flash';
+import { BlurUpImage } from '@/components/ui/BlurUpImage';
 
 interface PriceState {
   // Hotel pricing
@@ -98,12 +99,16 @@ export function ImmersiveSwipeCard({
       style={style}
       onClick={handleTap}
     >
-      {/* Full-screen background image */}
+      {/* Full-screen background image with blur-up loading + Ken Burns */}
       <div className="absolute inset-0">
-        <img
+        <BlurUpImage
+          key={imageUrls[currentImageIndex]}
           src={imageUrls[currentImageIndex]}
           alt={trip.destination.city}
-          className="w-full h-full object-cover transition-opacity duration-300"
+          className="w-full h-full"
+          fallbackGradient="bg-gradient-to-br from-gray-800 via-gray-900 to-black"
+          fallbackEmoji={VIBE_STYLES[trip.destination.vibes?.[0] || '']?.emoji || '✈️'}
+          enableKenBurns={isActive}
         />
       </div>
 

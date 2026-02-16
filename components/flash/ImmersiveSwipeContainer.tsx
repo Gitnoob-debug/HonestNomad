@@ -79,7 +79,7 @@ export function ImmersiveSwipeContainer({
 
   // Preload next few images (primary + first few carousel images)
   useEffect(() => {
-    const preloadCount = 3;
+    const preloadCount = 5;
     for (let i = 1; i <= preloadCount; i++) {
       const tripToPreload = trips[currentIndex + i];
       if (tripToPreload) {

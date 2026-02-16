@@ -2029,66 +2029,20 @@ function FlashExploreContent() {
     );
   }
 
-  // Step 4: Your Personalized Adventure Package — the grand reveal
+  // Step 4: Your Adventure Package — real trip content
   if (step === 'package') {
     const hasHotel = !skipHotels && selectedHotel;
     const totalDays = trip.itinerary?.days || 3;
-    const totalStops = itinerary.reduce((sum, day) => sum + day.stops.length, 0);
-    const uniqueTypes = Array.from(new Set(favoriteStops.map(s => s.type)));
+    const allStops = itinerary.flatMap((day) => day.stops);
+    const totalStops = allStops.length;
+    const hotelTotal = skipHotels ? 0 : (selectedHotel?.totalPrice || 0);
+    const grandTotal = hotelTotal;
 
-    // Package items — everything we've assembled
-    const packageItems = [
-      {
-        emoji: '🗺️',
-        title: 'Day-by-Day Itinerary',
-        description: `${totalDays} days of curated ${itineraryType ? PATH_CONFIG[itineraryType]?.name.toLowerCase() : ''} experiences with ${totalStops} hand-picked spots`,
-        color: 'from-blue-500/20 to-cyan-500/20',
-        borderColor: 'border-blue-500/30',
-        detail: itinerary.map(day => `Day ${day.day}: ${day.title}`).join(' → '),
-      },
-      {
-        emoji: '📍',
-        title: 'Your Saved Hotspots',
-        description: `${favoriteStops.length} places you loved — restaurants, landmarks, hidden gems all mapped and organized`,
-        color: 'from-pink-500/20 to-rose-500/20',
-        borderColor: 'border-pink-500/30',
-        detail: favoriteStops.slice(0, 4).map(s => s.name).join(', ') + (favoriteStops.length > 4 ? ` +${favoriteStops.length - 4} more` : ''),
-      },
-      ...(hasHotel ? [{
-        emoji: '🏨',
-        title: 'Hotel Booking',
-        description: `${selectedHotel!.name} — ${selectedHotel!.stars}★ · ${totalDays} nights right near your favorite spots`,
-        color: 'from-purple-500/20 to-violet-500/20',
-        borderColor: 'border-purple-500/30',
-        detail: selectedHotel!.insideZone ? '📍 Located in your activity zone' : `Near your itinerary spots`,
-      }] : []),
-      {
-        emoji: '🧭',
-        title: 'Walking Routes & Navigation',
-        description: 'Optimized routes between all your stops — no wasted time figuring out directions',
-        color: 'from-emerald-500/20 to-green-500/20',
-        borderColor: 'border-emerald-500/30',
-        detail: `Connecting ${uniqueTypes.length} types of places: ${uniqueTypes.slice(0, 3).join(', ')}`,
-      },
-      {
-        emoji: '⏰',
-        title: 'Time-Optimized Schedule',
-        description: 'Each stop timed for the best experience — morning markets, sunset viewpoints, evening dining',
-        color: 'from-amber-500/20 to-orange-500/20',
-        borderColor: 'border-amber-500/30',
-        detail: 'Morning → afternoon → evening flow for each day',
-      },
-      {
-        emoji: '⭐',
-        title: 'Local Ratings & Reviews',
-        description: 'Real Google ratings for every spot — only the highest-rated places made the cut',
-        color: 'from-yellow-500/20 to-amber-500/20',
-        borderColor: 'border-yellow-500/30',
-        detail: favoriteStops.filter(s => s.googleRating).length > 0
-          ? `Average rating: ${(favoriteStops.filter(s => s.googleRating).reduce((sum, s) => sum + (s.googleRating || 0), 0) / favoriteStops.filter(s => s.googleRating).length).toFixed(1)}★ across your saves`
-          : 'Verified ratings for all stops',
-      },
-    ];
+    const MARKER_EMOJIS: Record<string, string> = {
+      landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
+      park: '🌳', cafe: '☕', bar: '🍸', market: '🛒',
+      viewpoint: '🌄', nightclub: '🎉', accommodation: '🏨', transport: '✈️', neighborhood: '🏘️',
+    };
 
     return (
       <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
@@ -2115,84 +2069,226 @@ function FlashExploreContent() {
 
           {/* Scrollable content */}
           <div className="flex-1 overflow-y-auto">
-            {/* Hero section */}
-            <div className="relative px-6 pt-8 pb-6">
-              {/* Background glow */}
+            {/* Hero — destination + path label */}
+            <div className="relative px-6 pt-6 pb-4">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-primary-500/10 rounded-full blur-3xl pointer-events-none" />
-
-              <div className="relative text-center mb-2">
-                <div className="inline-flex items-center gap-2 bg-primary-500/10 border border-primary-500/20 rounded-full px-4 py-1.5 mb-4">
+              <div className="relative text-center">
+                <div className="inline-flex items-center gap-2 bg-primary-500/10 border border-primary-500/20 rounded-full px-4 py-1.5 mb-3">
                   <span className="text-sm">🎁</span>
-                  <span className="text-primary-300 text-xs font-medium uppercase tracking-wider">Ready for you</span>
+                  <span className="text-primary-300 text-xs font-medium uppercase tracking-wider">Your {trip.destination.city} Adventure</span>
                 </div>
-                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2">
-                  Your {trip.destination.city} Adventure
-                </h2>
-                <p className="text-white/50 text-sm max-w-sm mx-auto">
-                  Everything below has been personalized and assembled — no more planning, just enjoy
+                <p className="text-white/50 text-sm">
+                  {itineraryType && PATH_CONFIG[itineraryType]?.emoji} {itineraryType && PATH_CONFIG[itineraryType]?.name} · {totalDays} days · {totalStops} stops
                 </p>
               </div>
             </div>
 
-            {/* Package items */}
-            <div className="px-4 pb-6 space-y-3">
-              {packageItems.map((item, index) => (
-                <div
-                  key={index}
-                  className={`bg-gradient-to-r ${item.color} backdrop-blur-sm border ${item.borderColor} rounded-2xl p-4 transition-all`}
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  <div className="flex items-start gap-3">
-                    <div className="text-2xl flex-shrink-0 mt-0.5">{item.emoji}</div>
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2 mb-1">
-                        <h3 className="text-white font-semibold text-sm">{item.title}</h3>
-                        <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                        </svg>
+            {/* ═══ Hotel Card ═══ */}
+            {hasHotel && (
+              <div className="px-4 pb-4">
+                <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden">
+                  {/* Hotel photo */}
+                  <div className="relative h-40">
+                    {selectedHotel!.mainPhoto ? (
+                      <img
+                        src={selectedHotel!.mainPhoto}
+                        alt={selectedHotel!.name}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-purple-600/30 to-indigo-800/30 flex items-center justify-center">
+                        <span className="text-4xl">🏨</span>
                       </div>
-                      <p className="text-white/60 text-xs leading-relaxed mb-1.5">
-                        {item.description}
-                      </p>
-                      {item.detail && (
-                        <p className="text-white/40 text-[11px] italic truncate">
-                          {item.detail}
-                        </p>
-                      )}
+                    )}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                    {/* Refundable badge */}
+                    {selectedHotel!.refundable && (
+                      <div className="absolute top-3 right-3 bg-green-500/90 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-1 rounded-full">
+                        Free cancellation
+                      </div>
+                    )}
+                    {/* Hotel name + stars overlay */}
+                    <div className="absolute bottom-3 left-4 right-4">
+                      <h3 className="text-white font-bold text-lg leading-tight">{selectedHotel!.name}</h3>
+                      <div className="flex items-center gap-2 mt-1">
+                        <span className="text-amber-400 text-sm">{'★'.repeat(selectedHotel!.stars)}</span>
+                        {selectedHotel!.rating > 0 && (
+                          <span className="text-white/60 text-xs">{selectedHotel!.rating.toFixed(1)} ({selectedHotel!.reviewCount})</span>
+                        )}
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
 
-            {/* "No more..." section */}
-            <div className="px-6 pb-6">
-              <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
-                <p className="text-white/40 text-xs uppercase tracking-wider font-medium mb-3">We handled the tedious stuff</p>
-                <div className="grid grid-cols-2 gap-2">
-                  {[
-                    { text: 'Research & reviews', crossed: true },
-                    { text: 'Route planning', crossed: true },
-                    { text: 'Finding the best spots', crossed: true },
-                    { text: 'Hotel location matching', crossed: true },
-                    { text: 'Day-by-day scheduling', crossed: true },
-                    { text: 'Walking distances', crossed: true },
-                  ].map((item, i) => (
-                    <div key={i} className="flex items-center gap-2">
-                      <svg className="w-3.5 h-3.5 text-green-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                      </svg>
-                      <span className="text-white/50 text-xs line-through decoration-green-400/50">{item.text}</span>
+                  {/* Hotel details */}
+                  <div className="p-4 space-y-3">
+                    {/* Price + nights + room */}
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <p className="text-white/60 text-xs">{totalDays} nights · {selectedHotel!.roomName || 'Standard Room'}</p>
+                        {selectedHotel!.boardName && (
+                          <p className="text-white/40 text-[11px]">{selectedHotel!.boardName}</p>
+                        )}
+                      </div>
+                      <div className="text-right">
+                        <p className="text-white font-bold text-lg">{formatPrice(selectedHotel!.totalPrice, selectedHotel!.currency)}</p>
+                        <p className="text-white/40 text-[11px]">{formatPrice(selectedHotel!.pricePerNight, selectedHotel!.currency)}/night</p>
+                      </div>
+                    </div>
+
+                    {/* Check-in / Check-out */}
+                    <div className="flex items-center gap-4 text-xs">
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-white/40">Check-in</span>
+                        <span className="text-white font-medium">{selectedHotel!.checkinTime || '3:00 PM'}</span>
+                      </div>
+                      <div className="w-px h-3 bg-white/15" />
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-white/40">Check-out</span>
+                        <span className="text-white font-medium">{selectedHotel!.checkoutTime || '11:00 AM'}</span>
+                      </div>
+                    </div>
+
+                    {/* Amenities chips */}
+                    {selectedHotel!.amenities && selectedHotel!.amenities.length > 0 && (
+                      <div className="flex flex-wrap gap-1.5">
+                        {selectedHotel!.amenities.slice(0, 6).map((amenity, i) => (
+                          <span
+                            key={i}
+                            className="bg-white/8 text-white/60 text-[10px] px-2 py-0.5 rounded-full border border-white/5"
+                          >
+                            {amenity}
+                          </span>
+                        ))}
+                        {selectedHotel!.amenities.length > 6 && (
+                          <span className="text-white/30 text-[10px] px-1 self-center">
+                            +{selectedHotel!.amenities.length - 6} more
+                          </span>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* ═══ Saved Spots Grid ═══ */}
+            {favoriteStops.length > 0 && (
+              <div className="px-4 pb-4">
+                <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
+                  <span>📍</span>
+                  Your {favoriteStops.length} Saved Spot{favoriteStops.length !== 1 ? 's' : ''}
+                </h3>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                  {favoriteStops.map((stop) => (
+                    <div
+                      key={stop.id}
+                      className="bg-white/5 border border-white/10 rounded-xl p-3 flex flex-col gap-1.5"
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className="text-lg">{MARKER_EMOJIS[stop.type] || '📍'}</span>
+                        <span className="text-white text-xs font-medium truncate flex-1">{stop.name}</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        {stop.googleRating && (
+                          <span className="text-amber-400 text-[11px] font-medium">★ {stop.googleRating.toFixed(1)}</span>
+                        )}
+                        {stop.bestTimeOfDay && stop.bestTimeOfDay !== 'any' && (
+                          <span className="text-white/30 text-[10px] capitalize bg-white/5 px-1.5 py-0.5 rounded">{stop.bestTimeOfDay}</span>
+                        )}
+                      </div>
                     </div>
                   ))}
                 </div>
-                <p className="text-white/60 text-sm mt-4 text-center">
-                  All done. Just show up and enjoy ✨
-                </p>
+              </div>
+            )}
+
+            {/* ═══ Full Itinerary List ═══ */}
+            <div className="px-4 pb-4">
+              <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
+                <span>🗺️</span>
+                Your Itinerary · {totalStops} stops
+              </h3>
+              <div className="bg-white/5 border border-white/10 rounded-2xl divide-y divide-white/5 overflow-hidden">
+                {allStops.map((stop, index) => {
+                  const isFav = favorites.has(stop.id);
+                  return (
+                    <div key={stop.id} className="flex items-center gap-3 px-3 py-2.5">
+                      {/* Number */}
+                      <span className="text-white/25 text-xs font-mono w-4 text-right flex-shrink-0">{index + 1}</span>
+                      {/* Emoji */}
+                      <span className="text-base flex-shrink-0">{MARKER_EMOJIS[stop.type] || '📍'}</span>
+                      {/* Name + meta */}
+                      <div className="flex-1 min-w-0">
+                        <p className="text-white text-sm truncate">{stop.name}</p>
+                        <div className="flex items-center gap-2 mt-0.5">
+                          {stop.googleRating && (
+                            <span className="text-amber-400 text-[11px]">★ {stop.googleRating.toFixed(1)}</span>
+                          )}
+                          {stop.duration && (
+                            <span className="text-white/30 text-[11px]">{stop.duration}</span>
+                          )}
+                        </div>
+                      </div>
+                      {/* Fav indicator */}
+                      {isFav && (
+                        <svg className="w-4 h-4 text-pink-500 fill-pink-500 flex-shrink-0" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             </div>
 
-            {/* Quick summary stats */}
+            {/* ═══ Price Summary ═══ */}
+            <div className="px-4 pb-4">
+              <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
+                <span>💰</span>
+                Price Summary
+              </h3>
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-4 space-y-3">
+                {/* Itinerary — free */}
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm">📋</span>
+                    <span className="text-white/80 text-sm">Personalized Itinerary</span>
+                  </div>
+                  <span className="text-green-400 text-sm font-medium">Free</span>
+                </div>
+
+                {/* Hotel */}
+                {hasHotel && (
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm">🏨</span>
+                      <span className="text-white/80 text-sm">{totalDays} nights at {selectedHotel!.name}</span>
+                    </div>
+                    <span className="text-white text-sm font-medium">{formatPrice(selectedHotel!.totalPrice, selectedHotel!.currency)}</span>
+                  </div>
+                )}
+
+                {!hasHotel && (
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm">🏨</span>
+                      <span className="text-white/40 text-sm line-through">Hotel</span>
+                    </div>
+                    <span className="text-white/40 text-sm">Skipped</span>
+                  </div>
+                )}
+
+                {/* Divider + Total */}
+                <div className="border-t border-white/10 pt-3 flex items-center justify-between">
+                  <span className="text-white font-semibold">Total</span>
+                  <span className="text-white font-bold text-xl">
+                    {grandTotal > 0 ? formatPrice(grandTotal, trip.pricing.currency) : 'Free'}
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* ═══ Trip Stats ═══ */}
             <div className="px-6 pb-8">
               <div className="flex items-center justify-center gap-4">
                 <div className="text-center">
@@ -2202,12 +2298,12 @@ function FlashExploreContent() {
                 <div className="w-px h-8 bg-white/10" />
                 <div className="text-center">
                   <p className="text-white font-bold text-xl">{favoriteStops.length}</p>
-                  <p className="text-white/40 text-[10px] uppercase tracking-wider">Saved Places</p>
+                  <p className="text-white/40 text-[10px] uppercase tracking-wider">Saved</p>
                 </div>
                 <div className="w-px h-8 bg-white/10" />
                 <div className="text-center">
                   <p className="text-white font-bold text-xl">{totalStops}</p>
-                  <p className="text-white/40 text-[10px] uppercase tracking-wider">Total Stops</p>
+                  <p className="text-white/40 text-[10px] uppercase tracking-wider">Stops</p>
                 </div>
                 {hasHotel && (
                   <>
@@ -2228,10 +2324,10 @@ function FlashExploreContent() {
               onClick={handleFinalConfirm}
               className="w-full py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-lg shadow-primary-500/25"
             >
-              {!skipHotels && selectedHotel ? 'Confirm & Book Hotel' : 'Get My Adventure Package'}
+              {hasHotel ? 'Confirm & Book Hotel' : 'Get My Adventure Package'}
             </button>
             <p className="text-white/30 text-xs text-center mt-2">
-              {!skipHotels && selectedHotel
+              {hasHotel
                 ? "You won't be charged until you confirm payment details"
                 : 'Your personalized package will be saved to your account'}
             </p>

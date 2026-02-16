@@ -2,6 +2,7 @@ import type { FlashTripPackage } from '@/types/flash';
 import type { CachedPOI, DestinationPOICache, ItineraryPathType } from '@/types/poi';
 import type { POICategory } from '@/types/poi';
 import { DESTINATIONS } from './destinations';
+import { filterProximityOutliers, distanceMeters } from './hotelZoneClustering';
 
 export interface ItineraryStop {
   id: string;
@@ -588,6 +589,52 @@ export function generateItineraryFromCache(
 
   // Get balanced selection of POIs
   let selectedPOIs = getBalancedPOISelection(cache, pathChoice, totalStops);
+
+  // ── Proximity filtering ──────────────────────────────────────────────
+  // Remove geographic outliers (e.g., mainland POI for an island destination)
+  // so users aren't offered a 6-hour boat ride to reach a POI.
+  // Uses IQR-based outlier detection on distances from spatial median.
+  const { inliers, outliers, clusterCenter, thresholdMeters } = filterProximityOutliers(selectedPOIs);
+
+  if (outliers.length > 0) {
+    console.log(`Proximity filter: removed ${outliers.length} outlier POI(s): ${outliers.map(p => p.name).join(', ')}`);
+
+    // Backfill removed slots from the remaining POI pool
+    const seenIds = new Set(inliers.map(p => p.id));
+    outliers.forEach(p => seenIds.add(p.id)); // don't re-pick outliers
+
+    const slotsToFill = totalStops - inliers.length;
+    const backfillPOIs: CachedPOI[] = [];
+
+    if (slotsToFill > 0) {
+      // Walk through all path types in priority order looking for nearby POIs
+      const pathTypes = getPathTypesForChoice(pathChoice);
+      const allPathTypes: ItineraryPathType[] = ['classic', 'foodie', 'adventure', 'cultural', 'relaxation', 'nightlife', 'trendy'];
+      // Primary + secondary first, then all others
+      const orderedPaths = [...pathTypes, ...allPathTypes.filter(p => !pathTypes.includes(p))];
+
+      for (const pathType of orderedPaths) {
+        if (backfillPOIs.length >= slotsToFill) break;
+        const pathPOIs = cache.paths[pathType] || [];
+        for (const poi of pathPOIs) {
+          if (backfillPOIs.length >= slotsToFill) break;
+          if (seenIds.has(poi.id)) continue;
+          // Only accept POIs within the cluster threshold
+          const dist = distanceMeters(poi, clusterCenter);
+          if (dist <= thresholdMeters) {
+            seenIds.add(poi.id);
+            backfillPOIs.push(poi);
+          }
+        }
+      }
+
+      if (backfillPOIs.length > 0) {
+        console.log(`Proximity backfill: added ${backfillPOIs.length} nearby POI(s): ${backfillPOIs.map(p => p.name).join(', ')}`);
+      }
+    }
+
+    selectedPOIs = [...inliers, ...backfillPOIs];
+  }
 
   // Organize all POIs by time of day for a logical flow
   selectedPOIs = organizeByTimeOfDay(selectedPOIs);

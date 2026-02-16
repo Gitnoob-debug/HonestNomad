@@ -37,7 +37,7 @@ export interface HotelZoneResult {
  * Calculate distance in meters between two geographic points
  * Uses flat-earth approximation (fine for city-scale distances)
  */
-function distanceMeters(a: GeoPoint, b: GeoPoint): number {
+export function distanceMeters(a: GeoPoint, b: GeoPoint): number {
   const dLat = (a.latitude - b.latitude) * 111320;
   const dLng = (a.longitude - b.longitude) * 111320 * Math.cos(((a.latitude + b.latitude) / 2) * Math.PI / 180);
   return Math.sqrt(dLat * dLat + dLng * dLng);
@@ -174,4 +174,64 @@ export function calculateHotelZone(favorites: GeoPoint[]): HotelZoneResult | nul
     outlierPoints: outliers,
     clusteringApplied,
   };
+}
+
+/**
+ * Filter geographic outliers from any array of items with lat/lng.
+ *
+ * Generic wrapper around the IQR-based outlier detection used for hotel zones
+ * and map bounds. Returns the original typed items split into inliers/outliers,
+ * plus the cluster center and threshold distance so callers can test additional
+ * candidates against the cluster.
+ *
+ * @param items - Array of objects with latitude/longitude
+ * @returns inliers (main cluster), outliers, cluster center, and threshold
+ */
+export function filterProximityOutliers<T extends { latitude: number; longitude: number }>(
+  items: T[]
+): { inliers: T[]; outliers: T[]; clusterCenter: GeoPoint; thresholdMeters: number } {
+  if (items.length <= 3) {
+    const center = items.length > 0
+      ? spatialMedian(items)
+      : { latitude: 0, longitude: 0 };
+    return { inliers: items, outliers: [], clusterCenter: center, thresholdMeters: Infinity };
+  }
+
+  const median = spatialMedian(items);
+
+  // Calculate distances to compute threshold (same logic as filterOutliersIQR)
+  const distances = items.map((item, index) => ({
+    item,
+    index,
+    distance: distanceMeters(item, median),
+  }));
+
+  const sorted = distances.map(d => d.distance).sort((a, b) => a - b);
+  const q1Index = Math.floor(sorted.length * 0.25);
+  const q3Index = Math.floor(sorted.length * 0.75);
+  const q1 = sorted[q1Index];
+  const q3 = sorted[q3Index];
+  const iqr = q3 - q1;
+  const threshold = Math.max(q3 + 1.5 * iqr, 2000);
+
+  const inliers: T[] = [];
+  const outliers: T[] = [];
+
+  distances.forEach(d => {
+    if (d.distance <= threshold) {
+      inliers.push(d.item);
+    } else {
+      outliers.push(d.item);
+    }
+  });
+
+  // Safety: if filtering removed too many (>50%), keep all
+  if (inliers.length < Math.ceil(items.length / 2)) {
+    return { inliers: items, outliers: [], clusterCenter: median, thresholdMeters: threshold };
+  }
+
+  // Recalculate center from inliers for more accurate backfill testing
+  const clusterCenter = spatialMedian(inliers);
+
+  return { inliers, outliers, clusterCenter, thresholdMeters: threshold };
 }

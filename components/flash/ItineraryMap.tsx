@@ -230,7 +230,7 @@ export function ItineraryMap({
       }
 
       map.current.fitBounds(bounds, {
-        padding: { top: 60, bottom: 220, left: 60, right: 60 },
+        padding: { top: 60, bottom: 100, left: 60, right: 60 },
         maxZoom: 12,
         duration: 1000,
       });

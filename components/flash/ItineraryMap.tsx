@@ -122,7 +122,7 @@ export function ItineraryMap({
         container: mapContainer.current,
         style: 'mapbox://styles/mapbox/outdoors-v12',
         center: [latestCoordsRef.current.lng, latestCoordsRef.current.lat],
-        zoom: 13,
+        zoom: 11,
         pitch: 0,
         bearing: 0,
         antialias: true,
@@ -207,15 +207,37 @@ export function ItineraryMap({
       inliers.forEach(p => {
         bounds.extend([p.longitude, p.latitude]);
       });
+
+      // Ensure minimum bounds span so small islands / tight clusters show
+      // enough surrounding land/coastline for geographic context.
+      // Without this, a tight POI cluster on Barbados (0.2° span) could
+      // zoom in so far that only ocean is visible around the markers.
+      const ne = bounds.getNorthEast();
+      const sw = bounds.getSouthWest();
+      const latSpan = ne.lat - sw.lat;
+      const lngSpan = ne.lng - sw.lng;
+      const MIN_SPAN = 0.08; // ~8-9km — ensures visible land context
+
+      if (latSpan < MIN_SPAN) {
+        const centerLat = (ne.lat + sw.lat) / 2;
+        bounds.extend([sw.lng, centerLat - MIN_SPAN / 2]);
+        bounds.extend([ne.lng, centerLat + MIN_SPAN / 2]);
+      }
+      if (lngSpan < MIN_SPAN) {
+        const centerLng = (ne.lng + sw.lng) / 2;
+        bounds.extend([centerLng - MIN_SPAN / 2, sw.lat]);
+        bounds.extend([centerLng + MIN_SPAN / 2, ne.lat]);
+      }
+
       map.current.fitBounds(bounds, {
-        padding: { top: 50, bottom: 200, left: 50, right: 50 },
-        maxZoom: 14,
+        padding: { top: 60, bottom: 220, left: 60, right: 60 },
+        maxZoom: 12,
         duration: 1000,
       });
     } else if (stops.length === 1) {
       map.current.flyTo({
         center: [centerLongitude, centerLatitude],
-        zoom: 14,
+        zoom: 13,
         duration: 1000,
       });
     }

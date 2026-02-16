@@ -187,9 +187,10 @@ const TRENDY_POIS: Record<string, Omit<ItineraryStop, 'day' | 'id'>[]> = {
 
 // Generic POIs for destinations without specific data
 function generateGenericPOIs(trip: FlashTripPackage): Omit<ItineraryStop, 'day' | 'id'>[] {
-  const destination = DESTINATIONS.find(d => d.id === trip.destination.city.toLowerCase().replace(/\s+/g, '-'));
-  const baseLat = destination?.latitude || 0;
-  const baseLng = destination?.longitude || 0;
+  // Use destination ID directly — much more reliable than city name matching
+  const destination = DESTINATIONS.find(d => d.id === trip.destination.id);
+  const baseLat = destination?.latitude || trip.destination.latitude;
+  const baseLng = destination?.longitude || trip.destination.longitude;
 
   // Use highlights from the trip to generate POIs
   const pois: Omit<ItineraryStop, 'day' | 'id'>[] = [];
@@ -238,8 +239,10 @@ function generateGenericPOIs(trip: FlashTripPackage): Omit<ItineraryStop, 'day' 
 }
 
 export function generateSampleItinerary(trip: FlashTripPackage): ItineraryDay[] {
+  // Try by destination ID first (e.g., 'paris'), then by city name (e.g., 'paris')
+  const destId = trip.destination.id;
   const cityKey = trip.destination.city.toLowerCase().replace(/\s+/g, '');
-  let pois = DESTINATION_POIS[cityKey];
+  let pois = DESTINATION_POIS[destId] || DESTINATION_POIS[cityKey];
 
   // If no specific POIs, generate generic ones
   if (!pois || pois.length === 0) {
@@ -264,9 +267,9 @@ export function generateSampleItinerary(trip: FlashTripPackage): ItineraryDay[] 
 
 // Generic trendy POIs for destinations without specific trendy data
 function generateGenericTrendyPOIs(trip: FlashTripPackage): Omit<ItineraryStop, 'day' | 'id'>[] {
-  const destination = DESTINATIONS.find(d => d.id === trip.destination.city.toLowerCase().replace(/\s+/g, '-'));
-  const baseLat = destination?.latitude || 0;
-  const baseLng = destination?.longitude || 0;
+  const destination = DESTINATIONS.find(d => d.id === trip.destination.id);
+  const baseLat = destination?.latitude || trip.destination.latitude;
+  const baseLng = destination?.longitude || trip.destination.longitude;
 
   return [
     {
@@ -337,8 +340,10 @@ function generateGenericTrendyPOIs(trip: FlashTripPackage): Omit<ItineraryStop, 
 }
 
 export function generateTrendyItinerary(trip: FlashTripPackage): ItineraryDay[] {
+  // Try by destination ID first (e.g., 'tokyo'), then by city name (e.g., 'tokyo')
+  const destId = trip.destination.id;
   const cityKey = trip.destination.city.toLowerCase().replace(/\s+/g, '');
-  let pois = TRENDY_POIS[cityKey];
+  let pois = TRENDY_POIS[destId] || TRENDY_POIS[cityKey];
 
   // If no specific trendy POIs, generate generic ones
   if (!pois || pois.length === 0) {
@@ -614,19 +619,21 @@ export async function generateItineraryAuto(
   trip: FlashTripPackage,
   pathChoice: SimplePathChoice
 ): Promise<ItineraryDay[]> {
-  const cityKey = trip.destination.city.toLowerCase().replace(/\s+/g, '-');
+  // Use destination ID (slug) for file lookup — NOT city name
+  // (e.g., 'barbados' not 'Bridgetown', 'belize' not 'Belize City')
+  const destId = trip.destination.id;
 
   // Try to load cached POI data
   try {
-    const cacheModule = await import(`@/data/pois/${cityKey}.json`);
+    const cacheModule = await import(`@/data/pois/${destId}.json`);
     const cache = cacheModule.default as DestinationPOICache;
 
     if (cache && cache.totalPOIs > 0) {
-      console.log(`Using cached POI data for ${cityKey} (${cache.totalPOIs} POIs)`);
+      console.log(`Using cached POI data for ${destId} (${cache.totalPOIs} POIs)`);
       return generateItineraryFromCache(cache, trip.itinerary.days, pathChoice);
     }
   } catch (error) {
-    console.log(`No cached POI data for ${cityKey}, using fallback`);
+    console.log(`No cached POI data for ${destId}, using fallback`);
   }
 
   // Fall back to hardcoded data

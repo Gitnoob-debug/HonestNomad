@@ -819,38 +819,10 @@ function FlashExploreContent() {
           <div className="h-8 bg-gradient-to-t from-black/80 to-transparent pointer-events-none" />
 
           <div className="bg-black/85 backdrop-blur-md px-3 pb-safe">
-            {/* Day tabs + favorites — single compact row */}
+            {/* Places count + favorites — single compact row */}
             <div className="flex items-center justify-between py-2">
               <div className="flex items-center gap-2">
-                {!isLoadingItinerary && itinerary.length > 1 ? (
-                  <div className="flex gap-1">
-                    {itinerary.map((day) => (
-                      <button
-                        key={day.day}
-                        onClick={() => setActiveDay(day.day)}
-                        className={`px-2.5 py-1 rounded-full text-xs font-medium transition-all ${
-                          activeDay === day.day
-                            ? 'bg-white text-gray-900'
-                            : 'bg-white/10 text-white/50 hover:bg-white/20'
-                        }`}
-                      >
-                        Day {day.day}
-                      </button>
-                    ))}
-                  </div>
-                ) : (
-                  <p className="text-white/50 text-xs">{allStops.length} places</p>
-                )}
-                {/* Day theme inline */}
-                {!isLoadingItinerary && itinerary.length > 0 && (() => {
-                  const currentDay = itinerary.find(d => d.day === activeDay);
-                  if (!currentDay) return null;
-                  return (
-                    <span className="text-white/30 text-xs hidden sm:inline">
-                      · {currentDay.title || `Day ${currentDay.day}`} · {currentDay.stops.length} stops
-                    </span>
-                  );
-                })()}
+                <p className="text-white/50 text-xs">{allStops.length} places to explore</p>
               </div>
               <div className="flex items-center gap-2">
                 {favorites.size > 0 && (
@@ -867,8 +839,7 @@ function FlashExploreContent() {
             {/* Filter chips */}
             {!isLoadingItinerary && allStops.length > 0 && (() => {
               // Get unique types from current day's stops
-              const dayStopsForFilter = itinerary.find(d => d.day === activeDay)?.stops || allStops;
-              const types = Array.from(new Set(dayStopsForFilter.map(s => s.type)));
+              const types = Array.from(new Set(allStops.map(s => s.type)));
               if (types.length <= 1) return null;
               const typeLabels: Record<string, { emoji: string; label: string }> = {
                 landmark: { emoji: '🏛️', label: 'Sights' },
@@ -956,7 +927,7 @@ function FlashExploreContent() {
                 </div>
               ) : (() => {
                 // Show stops for active day, filtered by type
-                let dayStops = itinerary.find(d => d.day === activeDay)?.stops || allStops;
+                let dayStops = allStops;
                 if (typeFilter) {
                   dayStops = dayStops.filter(s => s.type === typeFilter);
                 }

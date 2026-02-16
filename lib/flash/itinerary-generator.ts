@@ -246,47 +246,20 @@ export function generateSampleItinerary(trip: FlashTripPackage): ItineraryDay[] 
     pois = generateGenericPOIs(trip);
   }
 
-  const days: ItineraryDay[] = [];
-  const numDays = trip.itinerary.days;
-  const stopsPerDay = Math.ceil(pois.length / numDays);
+  // Cap to 12 POIs and put all in day 1 — user browses freely, day
+  // organization happens after hotel selection when we have full context
+  const maxStops = Math.min(pois.length, 12);
+  const stops: ItineraryStop[] = pois.slice(0, maxStops).map((poi, idx) => ({
+    ...poi,
+    id: poi.name.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-'),
+    day: 1,
+  }));
 
-  // Day titles based on themes
-  const dayThemes = [
-    'Arrival & First Impressions',
-    'Iconic Landmarks',
-    'Local Life & Culture',
-    'Hidden Gems',
-    'Relaxation & Farewell',
-    'Adventure Day',
-    'Art & History',
-  ];
-
-  for (let day = 1; day <= numDays; day++) {
-    const startIdx = (day - 1) * stopsPerDay;
-    const endIdx = Math.min(startIdx + stopsPerDay, pois.length);
-    const dayPois = pois.slice(startIdx, endIdx);
-
-    // If we run out of POIs, cycle back
-    if (dayPois.length === 0 && pois.length > 0) {
-      const cycleIdx = (day - 1) % pois.length;
-      dayPois.push(pois[cycleIdx]);
-    }
-
-    const stops: ItineraryStop[] = dayPois.map((poi, idx) => ({
-      ...poi,
-      // Use a stable ID based on POI name so favorites persist across shuffles
-      id: poi.name.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-'),
-      day,
-    }));
-
-    days.push({
-      day,
-      title: dayThemes[(day - 1) % dayThemes.length],
-      stops,
-    });
-  }
-
-  return days;
+  return [{
+    day: 1,
+    title: 'Your Curated Stops',
+    stops,
+  }];
 }
 
 // Generic trendy POIs for destinations without specific trendy data
@@ -372,47 +345,20 @@ export function generateTrendyItinerary(trip: FlashTripPackage): ItineraryDay[] 
     pois = generateGenericTrendyPOIs(trip);
   }
 
-  const days: ItineraryDay[] = [];
-  const numDays = trip.itinerary.days;
-  const stopsPerDay = Math.ceil(pois.length / numDays);
+  // Cap to 12 POIs and put all in day 1 — user browses freely, day
+  // organization happens after hotel selection when we have full context
+  const maxStops = Math.min(pois.length, 12);
+  const stops: ItineraryStop[] = pois.slice(0, maxStops).map((poi, idx) => ({
+    ...poi,
+    id: poi.name.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-'),
+    day: 1,
+  }));
 
-  // Trendy day themes
-  const trendyThemes = [
-    'Neighborhood Discovery',
-    'Local Foodie Trail',
-    'Hidden Gems & Street Art',
-    'Coffee & Creative Spaces',
-    'Off the Beaten Path',
-    'Sunset Spots & Nightlife',
-    'Markets & Local Life',
-  ];
-
-  for (let day = 1; day <= numDays; day++) {
-    const startIdx = (day - 1) * stopsPerDay;
-    const endIdx = Math.min(startIdx + stopsPerDay, pois.length);
-    const dayPois = pois.slice(startIdx, endIdx);
-
-    // If we run out of POIs, cycle back
-    if (dayPois.length === 0 && pois.length > 0) {
-      const cycleIdx = (day - 1) % pois.length;
-      dayPois.push(pois[cycleIdx]);
-    }
-
-    const stops: ItineraryStop[] = dayPois.map((poi, idx) => ({
-      ...poi,
-      // Use a stable ID based on POI name so favorites persist across shuffles
-      id: poi.name.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-'),
-      day,
-    }));
-
-    days.push({
-      day,
-      title: trendyThemes[(day - 1) % trendyThemes.length],
-      stops,
-    });
-  }
-
-  return days;
+  return [{
+    day: 1,
+    title: 'Local Hidden Gems',
+    stops,
+  }];
 }
 
 // ============================================
@@ -468,7 +414,7 @@ function poiToItineraryStop(poi: CachedPOI, day: number, stopIndex: number): Iti
     latitude: poi.latitude,
     longitude: poi.longitude,
     duration: poi.suggestedDuration,
-    imageUrl: poi.imageUrl,
+    imageUrl: poi.supabaseImageUrl || undefined,
     day,
     googleRating: poi.googleRating,
     googleReviewCount: poi.googleReviewCount,

@@ -2921,7 +2921,7 @@ export const DESTINATIONS: Destination[] = [
     bestMonths: [12, 1, 2, 3, 4],
     averageCost: 3500,
     highlights: ['South Beach', 'Art Deco district', 'Cuban food', 'Everglades'],
-    imageUrl: 'https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=800&q=80&auto=format',
     latitude: 25.7617,
     longitude: -80.1918,
   },

@@ -107,6 +107,30 @@ function filterOutliersIQR(points: GeoPoint[], center: GeoPoint): { inliers: Geo
 }
 
 /**
+ * Identify the main cluster of POIs for smart map bounds.
+ * Filters out geographic outliers (e.g., offshore islands) so the map
+ * zooms to the main nexus of activity rather than stretching to fit everything.
+ *
+ * @param points - Array of geographic points (all POI stops)
+ * @returns Object with inlier points (main cluster) and outlier count
+ */
+export function getMainClusterBounds(
+  points: GeoPoint[]
+): { inliers: GeoPoint[]; outlierCount: number } {
+  if (points.length <= 3) {
+    return { inliers: points, outlierCount: 0 };
+  }
+
+  const median = spatialMedian(points);
+  const { inliers, outliers } = filterOutliersIQR(points, median);
+
+  return {
+    inliers,
+    outlierCount: outliers.length,
+  };
+}
+
+/**
  * Calculate the ideal hotel zone from a set of favorited POI locations.
  *
  * Uses IQR-based outlier filtering to find the main cluster of favorites,

@@ -33,23 +33,74 @@ const BOOKING_STEPS: { key: BookingStep; label: string; emoji: string }[] = [
   { key: 'package', label: 'Package', emoji: '🎁' },
 ];
 
+function StepProgressTrail({ currentStep }: { currentStep: BookingStep }) {
+  const currentIndex = BOOKING_STEPS.findIndex(s => s.key === currentStep);
+
+  return (
+    <div className="flex flex-col items-center gap-0">
+      {BOOKING_STEPS.map((stepConfig, index) => {
+        const isCompleted = index < currentIndex;
+        const isCurrent = index === currentIndex;
+        const isLast = index === BOOKING_STEPS.length - 1;
+
+        return (
+          <div key={stepConfig.key} className="flex flex-col items-center">
+            {/* Dot */}
+            <div className="relative group">
+              <div
+                className={`w-[18px] h-[18px] rounded-full flex items-center justify-center transition-all duration-300 ${
+                  isCompleted
+                    ? 'bg-primary-500/80'
+                    : isCurrent
+                      ? 'bg-primary-500 shadow-md shadow-primary-500/40 ring-2 ring-primary-400/30'
+                      : 'bg-white/10 border border-white/15'
+                }`}
+              >
+                {isCompleted ? (
+                  <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                ) : (
+                  <span className="text-[8px]">{stepConfig.emoji}</span>
+                )}
+              </div>
+              {/* Hover label */}
+              <span className={`absolute left-6 top-1/2 -translate-y-1/2 text-[10px] font-medium whitespace-nowrap px-1.5 py-0.5 rounded bg-black/60 backdrop-blur-sm transition-opacity duration-200 ${
+                isCurrent ? 'opacity-100 text-white' : 'opacity-0 group-hover:opacity-100 text-white/70'
+              }`}>
+                {stepConfig.label}
+              </span>
+            </div>
+            {/* Connector line */}
+            {!isLast && (
+              <div
+                className={`w-[2px] h-4 rounded-full transition-all duration-500 ${
+                  isCompleted ? 'bg-primary-500/50' : 'bg-white/10'
+                }`}
+              />
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+/** Horizontal progress bar for non-map steps (choice, hotels, checkout, package) */
 function StepProgressBar({ currentStep }: { currentStep: BookingStep; variant?: 'default' | 'overlay' }) {
   const currentIndex = BOOKING_STEPS.findIndex(s => s.key === currentStep);
 
   return (
     <div className="w-full px-6 sm:px-10">
-      {/* Row: dot — line — dot — line — dot — line — dot */}
       <div className="flex items-start">
         {BOOKING_STEPS.map((stepConfig, index) => {
           const isCompleted = index < currentIndex;
           const isCurrent = index === currentIndex;
           const isLast = index === BOOKING_STEPS.length - 1;
-          // The connector AFTER this dot is filled if the next step is completed or current
           const connectorFilled = index < currentIndex;
 
           return (
             <div key={stepConfig.key} className={`flex items-start ${isLast ? '' : 'flex-1'}`}>
-              {/* Dot + label column */}
               <div className="flex flex-col items-center gap-1 flex-shrink-0">
                 <div
                   className={`w-[22px] h-[22px] rounded-full flex items-center justify-center transition-all duration-300 ${
@@ -68,28 +119,16 @@ function StepProgressBar({ currentStep }: { currentStep: BookingStep; variant?: 
                     <span className="text-[10px]">{stepConfig.emoji}</span>
                   )}
                 </div>
-                <span
-                  className={`text-[10px] font-medium whitespace-nowrap transition-colors duration-300 ${
-                    isCompleted
-                      ? 'text-primary-400'
-                      : isCurrent
-                        ? 'text-white'
-                        : 'text-white/30'
-                  }`}
-                >
+                <span className={`text-[10px] font-medium whitespace-nowrap transition-colors duration-300 ${
+                  isCompleted ? 'text-primary-400' : isCurrent ? 'text-white' : 'text-white/30'
+                }`}>
                   {stepConfig.label}
                 </span>
               </div>
-
-              {/* Connector line between dots */}
               {!isLast && (
                 <div className="flex-1 flex items-center h-[22px]">
                   <div
-                    className={`w-full h-[2px] rounded-full transition-all duration-500 ${
-                      connectorFilled
-                        ? ''
-                        : 'bg-white/10'
-                    }`}
+                    className={`w-full h-[2px] rounded-full transition-all duration-500 ${connectorFilled ? '' : 'bg-white/10'}`}
                     style={connectorFilled ? { background: 'linear-gradient(to right, #60a5fa, #818cf8)' } : undefined}
                   />
                 </div>
@@ -775,10 +814,10 @@ function FlashExploreContent() {
           className="absolute inset-0"
         />
 
-        {/* Top gradient overlay — tall enough to cover header + progress bar */}
-        <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-black/70 to-transparent pointer-events-none z-10" />
+        {/* Top gradient overlay — slim, just covers back button row */}
+        <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-black/60 to-transparent pointer-events-none z-10" />
 
-        {/* Header — compact with progress */}
+        {/* Header — minimal: back button + path label */}
         <div className="absolute top-0 left-0 right-0 z-20 pt-safe">
           <div className="px-3 py-2 flex items-center justify-between">
             <button
@@ -799,12 +838,16 @@ function FlashExploreContent() {
 
             <div className="w-12" />
           </div>
-          <StepProgressBar currentStep="itinerary" variant="overlay" />
         </div>
 
-        {/* Floating teaser — top left under header + progress bar */}
+        {/* Left-side step trail — subtle vertical progress indicator */}
+        <div className="absolute left-3 top-1/2 -translate-y-1/2 z-20">
+          <StepProgressTrail currentStep="itinerary" />
+        </div>
+
+        {/* Floating teaser — top left under header */}
         {!isLoadingItinerary && allStops.length > 0 && (
-          <div className="absolute top-[105px] left-3 z-20 max-w-[260px]">
+          <div className="absolute top-[60px] left-3 z-20 max-w-[240px]">
             <div className="bg-black/50 backdrop-blur-sm rounded-lg px-3 py-2 flex items-center gap-2">
               <span className="text-sm">✨</span>
               <p className="text-white/70 text-[11px] leading-snug">

@@ -162,6 +162,7 @@ function buildTripPackage(
   return {
     id: uuidv4(),
     destination: {
+      id: destination.id,
       city: destination.city,
       country: destination.country,
       airportCode: destination.airportCode,

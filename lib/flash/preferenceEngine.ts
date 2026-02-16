@@ -223,8 +223,7 @@ export function recordSwipe(
   dwellTimeMs?: number,
   expandedCard?: boolean
 ): RevealedPreferences {
-  // Use city name as ID since DestinationInfo doesn't have an id field
-  const destinationId = trip.destination.city.toLowerCase().replace(/\s+/g, '-');
+  const destinationId = trip.destination.id;
 
   const signal: SwipeSignal = {
     timestamp: Date.now(),

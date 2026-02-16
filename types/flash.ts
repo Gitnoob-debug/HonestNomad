@@ -173,6 +173,7 @@ export interface FlashTripPackage {
 }
 
 export interface DestinationInfo {
+  id: string;             // Destination slug (e.g., 'barbados', 'bali') — used for POI file lookups
   city: string;
   country: string;
   airportCode: string;

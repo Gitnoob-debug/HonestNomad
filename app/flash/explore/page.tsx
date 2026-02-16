@@ -826,54 +826,230 @@ function FlashExploreContent() {
           className="absolute inset-0"
         />
 
-        {/* Top gradient overlay — slim, just covers back button row */}
-        <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-black/60 to-transparent pointer-events-none z-10" />
+        {/* ═══ LEFT SIDEBAR — step trail + POI list + shuffle ═══ */}
+        <div className="absolute top-0 left-0 bottom-0 w-[320px] z-20 flex flex-col bg-black/75 backdrop-blur-lg border-r border-white/10">
 
-        {/* Header — minimal: back button + path label */}
-        <div className="absolute top-0 left-0 right-0 z-20 pt-safe">
-          <div className="px-3 py-2 flex items-center justify-between">
+          {/* Back button + path label */}
+          <div className="flex items-center justify-between px-3 py-2.5 border-b border-white/10">
             <button
               onClick={handleGoBack}
-              className="flex items-center gap-1.5 text-white/80 hover:text-white transition-colors p-1.5 -ml-1.5"
+              className="flex items-center gap-1.5 text-white/80 hover:text-white transition-colors p-1 -ml-1"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
               <span className="text-xs font-medium">Back</span>
             </button>
-
-            <div className="bg-black/40 backdrop-blur-sm rounded-full px-3 py-1.5">
-              <p className="text-white font-semibold text-sm">
+            <div className="bg-white/10 rounded-full px-2.5 py-1">
+              <p className="text-white text-xs font-semibold">
                 {itineraryType && PATH_CONFIG[itineraryType]?.emoji} {itineraryType && PATH_CONFIG[itineraryType]?.name}
               </p>
             </div>
+          </div>
 
-            <div className="w-12" />
+          {/* Step progress — compact horizontal row */}
+          <div className="flex items-center justify-between px-3 py-2 border-b border-white/10">
+            {BOOKING_STEPS.map((stepConfig, index) => {
+              const currentIndex = BOOKING_STEPS.findIndex(s => s.key === 'itinerary');
+              const isCompleted = index < currentIndex;
+              const isCurrent = index === currentIndex;
+              const isLast = index === BOOKING_STEPS.length - 1;
+              return (
+                <div key={stepConfig.key} className="flex items-center flex-1">
+                  <div className="flex flex-col items-center gap-0.5">
+                    <div className={`w-6 h-6 rounded-full flex items-center justify-center text-[9px] transition-all ${
+                      isCompleted ? 'bg-primary-500/80' :
+                      isCurrent ? 'bg-primary-500 ring-2 ring-primary-400/30' :
+                      'bg-white/10 border border-white/15'
+                    }`}>
+                      {isCompleted ? (
+                        <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                        </svg>
+                      ) : (
+                        <span>{stepConfig.emoji}</span>
+                      )}
+                    </div>
+                    <span className={`text-[8px] font-medium ${isCurrent ? 'text-white' : isCompleted ? 'text-white/60' : 'text-white/30'}`}>
+                      {stepConfig.label}
+                    </span>
+                  </div>
+                  {!isLast && (
+                    <div className={`flex-1 h-[2px] mx-1 rounded-full mt-[-8px] ${isCompleted ? 'bg-primary-500/50' : 'bg-white/10'}`} />
+                  )}
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Teaser text */}
+          <div className="px-3 py-2 border-b border-white/10">
+            <p className="text-white/50 text-[11px] leading-snug">
+              Save your favorite spots and we&apos;ll build the perfect itinerary
+            </p>
+            {favorites.size > 0 && (
+              <div className="flex items-center gap-1 mt-1">
+                <svg className="w-3 h-3 text-pink-500 fill-pink-500" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+                <span className="text-pink-400 text-[11px] font-medium">{favorites.size} saved</span>
+              </div>
+            )}
+          </div>
+
+          {/* Filter chips */}
+          {!isLoadingItinerary && allStops.length > 0 && (() => {
+            const types = Array.from(new Set(allStops.map(s => s.type)));
+            if (types.length <= 1) return null;
+            const typeLabels: Record<string, { emoji: string; label: string }> = {
+              landmark: { emoji: '🏛️', label: 'Sights' },
+              restaurant: { emoji: '🍽️', label: 'Food' },
+              museum: { emoji: '🎨', label: 'Museums' },
+              park: { emoji: '🌳', label: 'Parks' },
+              cafe: { emoji: '☕', label: 'Cafes' },
+              bar: { emoji: '🍸', label: 'Bars' },
+              activity: { emoji: '🎯', label: 'Activities' },
+              market: { emoji: '🛒', label: 'Markets' },
+              viewpoint: { emoji: '🌄', label: 'Views' },
+              nightclub: { emoji: '🎉', label: 'Nightlife' },
+            };
+            return (
+              <div className="flex gap-1.5 px-3 py-2 overflow-x-auto scrollbar-hide border-b border-white/10">
+                <button
+                  onClick={() => setTypeFilter(null)}
+                  className={`flex-shrink-0 px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
+                    typeFilter === null ? 'bg-white text-gray-900' : 'bg-white/10 text-white/60 hover:bg-white/20'
+                  }`}
+                >
+                  All
+                </button>
+                {types.map(type => {
+                  const info = typeLabels[type] || { emoji: '📍', label: type };
+                  return (
+                    <button
+                      key={type}
+                      onClick={() => setTypeFilter(typeFilter === type ? null : type)}
+                      className={`flex-shrink-0 flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
+                        typeFilter === type ? 'bg-white text-gray-900' : 'bg-white/10 text-white/60 hover:bg-white/20'
+                      }`}
+                    >
+                      <span>{info.emoji}</span>
+                      <span>{info.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            );
+          })()}
+
+          {/* POI list — scrollable */}
+          <div className="flex-1 overflow-y-auto scrollbar-hide">
+            {isLoadingItinerary ? (
+              <div className="flex items-center justify-center py-12">
+                <Spinner size="md" className="text-white" />
+                <span className="text-white/60 ml-3 text-sm">Loading...</span>
+              </div>
+            ) : allStops.length === 0 ? (
+              <div className="flex flex-col items-center justify-center py-12 text-center px-4">
+                <p className="text-white/60 text-sm mb-2">No places found</p>
+                <button onClick={handleShuffle} className="text-primary-400 text-sm font-medium">Try a different style</button>
+              </div>
+            ) : (() => {
+              const filteredStops = typeFilter ? allStops.filter(s => s.type === typeFilter) : allStops;
+              const MARKER_EMOJIS: Record<string, string> = {
+                landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
+                park: '🌳', cafe: '☕', bar: '🍸', market: '🛒',
+                viewpoint: '🌄', nightclub: '🎉', accommodation: '🏨', transport: '✈️', neighborhood: '🏘️',
+              };
+              return filteredStops.map((stop, index) => {
+                const isFav = favorites.has(stop.id);
+                const isActive = activeStopId === stop.id;
+                return (
+                  <div
+                    key={stop.id}
+                    onClick={() => handleStopClick(stop)}
+                    className={`flex items-center gap-2.5 px-3 py-2.5 cursor-pointer transition-all border-b border-white/5 ${
+                      isActive ? 'bg-white/15' : 'hover:bg-white/8'
+                    }`}
+                  >
+                    {/* Number + emoji */}
+                    <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center text-sm">
+                      {MARKER_EMOJIS[stop.type] || '📍'}
+                    </div>
+
+                    {/* Name + rating + duration */}
+                    <div className="flex-1 min-w-0">
+                      <h4 className="text-white text-sm font-medium truncate">{stop.name}</h4>
+                      <div className="flex items-center gap-2 mt-0.5">
+                        {stop.googleRating && (
+                          <span className="text-amber-400 text-[11px] font-medium">★ {stop.googleRating.toFixed(1)}</span>
+                        )}
+                        {stop.duration && (
+                          <span className="text-white/40 text-[11px]">{stop.duration}</span>
+                        )}
+                        {stop.bestTimeOfDay && stop.bestTimeOfDay !== 'any' && (
+                          <span className="text-white/30 text-[11px] capitalize">{stop.bestTimeOfDay}</span>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Heart / Save button — prominent */}
+                    <button
+                      onClick={(e) => toggleFavorite(stop, e)}
+                      className={`flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center transition-all ${
+                        isFav
+                          ? 'bg-pink-500/20 scale-110'
+                          : 'bg-white/5 hover:bg-white/10'
+                      }`}
+                    >
+                      <svg
+                        className={`w-5 h-5 transition-colors ${isFav ? 'text-pink-500 fill-pink-500' : 'text-white/40'}`}
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        fill={isFav ? 'currentColor' : 'none'}
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                      </svg>
+                    </button>
+                  </div>
+                );
+              });
+            })()}
+          </div>
+
+          {/* Bottom: Shuffle tile */}
+          <div className="px-3 py-2.5 border-t border-white/10">
+            <button
+              onClick={handleShuffle}
+              disabled={isLoadingItinerary}
+              className="w-full flex items-center justify-center gap-2 py-2.5 bg-white/10 border border-white/15 text-white text-sm font-medium rounded-xl hover:bg-white/20 transition-colors disabled:opacity-50"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+              Shuffle New POIs
+            </button>
           </div>
         </div>
 
-        {/* Left-side step trail — frosted glass pill for visibility */}
-        <div className="absolute left-3 top-1/2 -translate-y-1/2 z-20">
-          <div className="bg-black/50 backdrop-blur-md rounded-2xl px-2.5 py-3 shadow-lg shadow-black/30 border border-white/10">
-            <StepProgressTrail currentStep="itinerary" />
-          </div>
+        {/* ═══ BOTTOM-RIGHT: "Next Step" CTA tile ═══ */}
+        <div className="absolute bottom-4 right-4 z-20">
+          <button
+            onClick={handleContinueFromItinerary}
+            disabled={isLoadingItinerary}
+            className="flex items-center gap-2 px-5 py-3.5 bg-white text-gray-900 font-bold text-sm rounded-xl shadow-xl shadow-black/30 hover:bg-gray-100 transition-all disabled:opacity-50"
+          >
+            Next Step: Book My Hotel
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </button>
         </div>
-
-        {/* Floating teaser — top left under header */}
-        {!isLoadingItinerary && allStops.length > 0 && (
-          <div className="absolute top-[60px] left-3 z-20 max-w-[240px]">
-            <div className="bg-black/50 backdrop-blur-sm rounded-lg px-3 py-2 flex items-center gap-2">
-              <span className="text-sm">✨</span>
-              <p className="text-white/70 text-[11px] leading-snug">
-                Pick your hotspots — we&apos;ll plan the perfect itinerary so you don&apos;t have to
-              </p>
-            </div>
-          </div>
-        )}
 
         {/* Loading overlay — centered on map */}
         {isLoadingItinerary && (
-          <div className="absolute inset-0 z-15 flex items-center justify-center bg-black/20">
+          <div className="absolute inset-0 z-30 flex items-center justify-center bg-black/20 pointer-events-none">
             <div className="bg-black/70 backdrop-blur-sm rounded-2xl px-6 py-4 flex items-center gap-3">
               <Spinner size="md" className="text-white" />
               <span className="text-white/80 text-sm">Loading {itineraryType && PATH_CONFIG[itineraryType]?.name}...</span>
@@ -881,137 +1057,19 @@ function FlashExploreContent() {
           </div>
         )}
 
-        {/* Empty state overlay — centered on map */}
-        {!isLoadingItinerary && allStops.length === 0 && step === 'itinerary' && (
-          <div className="absolute inset-0 z-15 flex items-center justify-center">
-            <div className="bg-black/70 backdrop-blur-sm rounded-2xl px-6 py-6 text-center max-w-[280px]">
-              <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center mb-3 mx-auto">
-                <svg className="w-7 h-7 text-white/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        {/* Error message floating */}
+        {loadingError && (
+          <div className="absolute top-3 left-[340px] right-4 z-20">
+            <div className="flex items-center justify-between gap-3 py-2 px-3 bg-amber-500/20 border border-amber-500/30 rounded-lg backdrop-blur-sm">
+              <span className="text-amber-200 text-xs">{loadingError}</span>
+              <button onClick={() => setLoadingError(null)} className="text-amber-400 hover:text-amber-200 p-0.5">
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
-              </div>
-              <p className="text-white/70 text-sm mb-3">No places found for this itinerary</p>
-              <button onClick={handleShuffle} className="text-primary-400 text-sm font-medium hover:text-primary-300">
-                Try a different style
               </button>
             </div>
           </div>
         )}
-
-        {/* "Tap markers" hint — fades out after 4s */}
-        {showMapHint && !isLoadingItinerary && allStops.length > 0 && (
-          <div className="absolute bottom-[100px] left-1/2 -translate-x-1/2 z-20 animate-fade-out pointer-events-none">
-            <div className="bg-black/60 backdrop-blur-sm rounded-full px-4 py-2 text-white/80 text-xs font-medium shadow-lg">
-              Tap any marker to see details
-            </div>
-          </div>
-        )}
-
-        {/* Bottom action strip — slim, map-first */}
-        <div className="absolute bottom-0 left-0 right-0 z-20">
-          <div className="h-4 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
-
-          <div className="bg-black/80 backdrop-blur-md px-3 pb-safe">
-            {/* Filter chips + count — single row */}
-            <div className="flex items-center gap-2 py-2 overflow-x-auto scrollbar-hide">
-              <div className="flex-shrink-0 flex items-center gap-1.5 text-white/60 text-xs font-medium">
-                <span>{allStops.length} places</span>
-                {favorites.size > 0 && (
-                  <span className="flex items-center gap-0.5 text-pink-400">
-                    <svg className="w-3 h-3 fill-pink-500" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                    </svg>
-                    {favorites.size}
-                  </span>
-                )}
-              </div>
-
-              <div className="w-px h-4 bg-white/20 flex-shrink-0" />
-
-              {/* Filter chips inline */}
-              {!isLoadingItinerary && allStops.length > 0 && (() => {
-                const types = Array.from(new Set(allStops.map(s => s.type)));
-                if (types.length <= 1) return null;
-                const typeLabels: Record<string, { emoji: string; label: string }> = {
-                  landmark: { emoji: '🏛️', label: 'Sights' },
-                  restaurant: { emoji: '🍽️', label: 'Food' },
-                  museum: { emoji: '🎨', label: 'Museums' },
-                  park: { emoji: '🌳', label: 'Parks' },
-                  cafe: { emoji: '☕', label: 'Cafes' },
-                  bar: { emoji: '🍸', label: 'Bars' },
-                  activity: { emoji: '🎯', label: 'Activities' },
-                  market: { emoji: '🛒', label: 'Markets' },
-                  viewpoint: { emoji: '🌄', label: 'Views' },
-                  nightclub: { emoji: '🎉', label: 'Nightlife' },
-                };
-                return (<>
-                  <button
-                    onClick={() => setTypeFilter(null)}
-                    className={`flex-shrink-0 px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
-                      typeFilter === null ? 'bg-white text-gray-900' : 'bg-white/10 text-white/60 hover:bg-white/20'
-                    }`}
-                  >
-                    All
-                  </button>
-                  {types.map(type => {
-                    const info = typeLabels[type] || { emoji: '📍', label: type };
-                    return (
-                      <button
-                        key={type}
-                        onClick={() => setTypeFilter(typeFilter === type ? null : type)}
-                        className={`flex-shrink-0 flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
-                          typeFilter === type ? 'bg-white text-gray-900' : 'bg-white/10 text-white/60 hover:bg-white/20'
-                        }`}
-                      >
-                        <span>{info.emoji}</span>
-                        <span>{info.label}</span>
-                      </button>
-                    );
-                  })}
-                </>);
-              })()}
-            </div>
-
-            {/* Error message (dismissible) */}
-            {loadingError && (
-              <div className="flex items-center justify-between gap-3 py-1.5 px-3 mb-1 bg-amber-500/20 border border-amber-500/30 rounded-lg">
-                <div className="flex items-center gap-2">
-                  <svg className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                  </svg>
-                  <span className="text-amber-200 text-xs">{loadingError}</span>
-                </div>
-                <button onClick={() => setLoadingError(null)} className="text-amber-400 hover:text-amber-200 transition-colors p-0.5">
-                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
-            )}
-
-            {/* Action buttons */}
-            <div className="flex gap-2 py-2">
-              <button
-                onClick={handleShuffle}
-                disabled={isLoadingItinerary}
-                className="flex items-center justify-center gap-1.5 px-4 py-2.5 bg-white/10 border border-white/15 text-white text-sm font-medium rounded-lg hover:bg-white/20 transition-colors disabled:opacity-50"
-              >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                </svg>
-                Shuffle
-              </button>
-              <button
-                onClick={handleContinueFromItinerary}
-                disabled={isLoadingItinerary}
-                className="flex-1 py-2.5 bg-white text-gray-900 font-bold text-sm rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-50"
-              >
-                Continue to Hotels →
-              </button>
-            </div>
-          </div>
-        </div>
 
         {/* Stop detail modal */}
         {showDetails && activeStop && (

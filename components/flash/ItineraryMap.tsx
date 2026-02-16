@@ -128,7 +128,7 @@ export function ItineraryMap({
     try {
       map.current = new mapboxgl.Map({
         container: mapContainer.current,
-        style: 'mapbox://styles/mapbox/streets-v12',
+        style: 'mapbox://styles/mapbox/outdoors-v12',
         center: [latestCoordsRef.current.lng, latestCoordsRef.current.lat],
         zoom: 13,
         pitch: 0,

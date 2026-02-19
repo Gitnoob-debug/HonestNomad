@@ -35,6 +35,8 @@ interface MagicPackageProps {
   vibes: string[];
   /** 'light' for white backgrounds (confirm page), 'dark' for dark theme (package step) */
   variant?: 'light' | 'dark';
+  /** 'accordion' for stacked expandable sections, 'grid' for 3-card grid layout */
+  layout?: 'accordion' | 'grid';
 }
 
 export function MagicPackage({
@@ -47,11 +49,14 @@ export function MagicPackage({
   activities,
   vibes,
   variant = 'light',
+  layout = 'accordion',
 }: MagicPackageProps) {
   const [data, setData] = useState<MagicPackageData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set(['packing']));
+  const [expandedSections, setExpandedSections] = useState<Set<string>>(
+    layout === 'grid' ? new Set() : new Set(['packing'])
+  );
 
   const dark = variant === 'dark';
 
@@ -127,6 +132,7 @@ export function MagicPackage({
     borderAccent: dark ? 'border-primary-500/30' : 'border-primary-300',
     dayTipText: dark ? 'text-white/50' : 'text-gray-600',
     loadingText: dark ? 'text-white/60' : 'text-gray-600',
+    iconBg: dark ? 'bg-white/10' : 'bg-gray-100',
   };
 
   if (loading) {
@@ -166,13 +172,17 @@ export function MagicPackage({
 
   if (!data) return null;
 
+  // Build sections — 3 sections (packing + must-brings merged)
   const sections = [
     {
       id: 'packing',
-      title: 'Packing List',
+      title: 'Packing & Must-Brings',
       emoji: '🧳',
+      preview: data.packingList.essentials.slice(0, 2).join(', ') +
+        (data.packingList.essentials.length > 2 ? ` and ${data.packingList.essentials.length - 2} more` : ''),
       content: (
-        <div className="space-y-4">
+        <div className="space-y-5">
+          {/* Essentials */}
           <div>
             <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Essentials</h4>
             <ul className="space-y-1.5">
@@ -184,6 +194,26 @@ export function MagicPackage({
               ))}
             </ul>
           </div>
+
+          {/* Must-Brings (numbered with reasons) */}
+          {data.mustBrings.length > 0 && (
+            <div>
+              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Must-Brings</h4>
+              <div className="space-y-2">
+                {data.mustBrings.map((item, i) => (
+                  <div key={i} className={`flex items-start gap-3 p-2 ${t.mustBringBg} rounded-lg`}>
+                    <span className={`${t.mustBringNum} font-bold text-sm mt-0.5`}>{i + 1}</span>
+                    <div>
+                      <span className={`text-sm font-medium ${t.title}`}>{item.item}</span>
+                      <p className={`text-xs ${t.textMuted}`}>{item.reason}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Nice-to-Haves */}
           <div>
             <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Nice to Have</h4>
             <ul className="space-y-1.5">
@@ -194,6 +224,19 @@ export function MagicPackage({
                 </li>
               ))}
             </ul>
+            {data.niceToHaves.length > 0 && (
+              <div className="mt-3 space-y-2">
+                {data.niceToHaves.map((item, i) => (
+                  <div key={i} className={`flex items-start gap-3 p-2 ${t.niceToHaveBg} rounded-lg`}>
+                    <span className={`${t.niceToHaveNum} font-bold text-sm mt-0.5`}>{i + 1}</span>
+                    <div>
+                      <span className={`text-sm font-medium ${t.title}`}>{item.item}</span>
+                      <p className={`text-xs ${t.textMuted}`}>{item.reason}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       ),
@@ -202,6 +245,7 @@ export function MagicPackage({
       id: 'travel',
       title: 'Airport & Travel Tips',
       emoji: '✈️',
+      preview: data.travelTips.airport?.[0] || 'Airport, transport, money, and connectivity tips',
       content: (
         <div className="space-y-4">
           {[
@@ -215,7 +259,7 @@ export function MagicPackage({
               <ul className="space-y-1.5">
                 {tips?.map((tip, i) => (
                   <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
-                    <span className="text-primary-500 mt-0.5">→</span>
+                    <span className="text-primary-500 mt-0.5">{'\u2192'}</span>
                     {tip}
                   </li>
                 ))}
@@ -226,46 +270,10 @@ export function MagicPackage({
       ),
     },
     {
-      id: 'brings',
-      title: 'Must-Brings & Nice-to-Haves',
-      emoji: '🎒',
-      content: (
-        <div className="space-y-4">
-          <div>
-            <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>5 Must-Brings</h4>
-            <div className="space-y-2">
-              {data.mustBrings.map((item, i) => (
-                <div key={i} className={`flex items-start gap-3 p-2 ${t.mustBringBg} rounded-lg`}>
-                  <span className={`${t.mustBringNum} font-bold text-sm mt-0.5`}>{i + 1}</span>
-                  <div>
-                    <span className={`text-sm font-medium ${t.title}`}>{item.item}</span>
-                    <p className={`text-xs ${t.textMuted}`}>{item.reason}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div>
-            <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>5 Nice-to-Haves</h4>
-            <div className="space-y-2">
-              {data.niceToHaves.map((item, i) => (
-                <div key={i} className={`flex items-start gap-3 p-2 ${t.niceToHaveBg} rounded-lg`}>
-                  <span className={`${t.niceToHaveNum} font-bold text-sm mt-0.5`}>{i + 1}</span>
-                  <div>
-                    <span className={`text-sm font-medium ${t.title}`}>{item.item}</span>
-                    <p className={`text-xs ${t.textMuted}`}>{item.reason}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      ),
-    },
-    {
       id: 'adventure',
       title: 'Adventure Guide',
       emoji: '🗺️',
+      preview: data.adventureGuide.insiderTips?.[0] || 'Day-by-day guide, insider tips, and hidden gems',
       content: (
         <div className="space-y-4">
           {data.adventureGuide.dailySuggestions?.length > 0 && (
@@ -292,7 +300,7 @@ export function MagicPackage({
               <ul className="space-y-1.5">
                 {data.adventureGuide.insiderTips.map((tip, i) => (
                   <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
-                    <span className="text-yellow-500 mt-0.5">💡</span>
+                    <span className="text-yellow-500 mt-0.5">{'\uD83D\uDCA1'}</span>
                     {tip}
                   </li>
                 ))}
@@ -306,7 +314,7 @@ export function MagicPackage({
               <ul className="space-y-1.5">
                 {data.adventureGuide.hiddenGems.map((gem, i) => (
                   <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
-                    <span className="text-purple-500 mt-0.5">💎</span>
+                    <span className="text-purple-500 mt-0.5">{'\uD83D\uDC8E'}</span>
                     {gem}
                   </li>
                 ))}
@@ -320,7 +328,7 @@ export function MagicPackage({
               <ul className="space-y-1.5">
                 {data.adventureGuide.safetyTips.map((tip, i) => (
                   <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
-                    <span className="text-red-500 mt-0.5">⚠️</span>
+                    <span className="text-red-500 mt-0.5">{'\u26A0\uFE0F'}</span>
                     {tip}
                   </li>
                 ))}
@@ -332,6 +340,72 @@ export function MagicPackage({
     },
   ];
 
+  // ─── Grid Layout ───
+  if (layout === 'grid') {
+    return (
+      <div className="space-y-3">
+        {/* Card grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
+          {sections.map((section) => {
+            const isExpanded = expandedSections.has(section.id);
+            return (
+              <button
+                key={section.id}
+                onClick={() => toggleSection(section.id)}
+                className={`${t.card} rounded-xl p-4 text-left transition-all ${
+                  isExpanded ? 'ring-1 ring-primary-500/30' : ''
+                } ${t.cardHover}`}
+              >
+                <div className="flex items-center gap-3 mb-2">
+                  <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${t.iconBg}`}>
+                    <span className="text-xl">{section.emoji}</span>
+                  </div>
+                  <h4 className={`font-semibold text-sm ${t.title}`}>{section.title}</h4>
+                </div>
+                <p className={`text-xs ${t.textMuted} line-clamp-2`}>
+                  {section.preview}
+                </p>
+                <div className={`flex items-center gap-1 mt-3 text-xs ${t.textFaint}`}>
+                  <span>{isExpanded ? 'Hide details' : 'View details'}</span>
+                  <svg
+                    className={`w-3 h-3 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Expanded content below grid */}
+        {sections.map((section) => (
+          expandedSections.has(section.id) && (
+            <div key={`${section.id}-expanded`} className={`${t.card} rounded-xl p-4`}>
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-2">
+                  <span className="text-lg">{section.emoji}</span>
+                  <h4 className={`font-semibold ${t.title}`}>{section.title}</h4>
+                </div>
+                <button
+                  onClick={() => toggleSection(section.id)}
+                  className={`${t.chevron} p-1 hover:opacity-70 transition-opacity`}
+                >
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+              {section.content}
+            </div>
+          )
+        ))}
+      </div>
+    );
+  }
+
+  // ─── Accordion Layout (default) ───
   return (
     <div className="space-y-3">
       <div className="flex items-center gap-3 mb-4">

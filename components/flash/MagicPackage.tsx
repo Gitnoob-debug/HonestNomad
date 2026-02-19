@@ -33,6 +33,8 @@ interface MagicPackageProps {
   hotelName?: string;
   activities: string[];
   vibes: string[];
+  /** 'light' for white backgrounds (confirm page), 'dark' for dark theme (package step) */
+  variant?: 'light' | 'dark';
 }
 
 export function MagicPackage({
@@ -44,11 +46,14 @@ export function MagicPackage({
   hotelName,
   activities,
   vibes,
+  variant = 'light',
 }: MagicPackageProps) {
   const [data, setData] = useState<MagicPackageData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set(['packing']));
+
+  const dark = variant === 'dark';
 
   useEffect(() => {
     generateMagicPackage();
@@ -99,17 +104,42 @@ export function MagicPackage({
     });
   };
 
+  // Theme classes
+  const t = {
+    card: dark ? 'bg-white/5 border border-white/10' : 'bg-white border border-gray-100 shadow-sm',
+    cardHover: dark ? 'hover:bg-white/8' : 'hover:bg-gray-50',
+    loadingCard: dark ? 'bg-white/5 border border-white/10' : 'bg-white shadow-lg border border-gray-100',
+    errorCard: dark ? 'bg-white/5 border border-red-500/20' : 'bg-white shadow-lg border border-red-100',
+    title: dark ? 'text-white' : 'text-gray-900',
+    subtitle: dark ? 'text-white/50' : 'text-gray-500',
+    text: dark ? 'text-white/80' : 'text-gray-700',
+    textMuted: dark ? 'text-white/50' : 'text-gray-600',
+    textFaint: dark ? 'text-white/30' : 'text-gray-400',
+    sectionLabel: dark ? 'text-white/60' : 'text-gray-700',
+    chevron: dark ? 'text-white/30' : 'text-gray-400',
+    divider: dark ? 'border-white/5' : 'border-gray-50',
+    gradientOrb: dark ? 'from-purple-500/20 to-pink-500/20' : 'from-purple-100 to-pink-100',
+    errorText: dark ? 'text-red-400' : 'text-red-600',
+    mustBringBg: dark ? 'bg-green-500/10' : 'bg-green-50',
+    mustBringNum: dark ? 'text-green-400' : 'text-green-600',
+    niceToHaveBg: dark ? 'bg-blue-500/10' : 'bg-blue-50',
+    niceToHaveNum: dark ? 'text-blue-400' : 'text-blue-600',
+    borderAccent: dark ? 'border-primary-500/30' : 'border-primary-300',
+    dayTipText: dark ? 'text-white/50' : 'text-gray-600',
+    loadingText: dark ? 'text-white/60' : 'text-gray-600',
+  };
+
   if (loading) {
     return (
-      <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
+      <div className={`${t.loadingCard} rounded-2xl p-8`}>
         <div className="text-center">
-          <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <div className={`w-16 h-16 bg-gradient-to-br ${t.gradientOrb} rounded-full flex items-center justify-center mx-auto mb-4`}>
             <span className="text-3xl">✨</span>
           </div>
-          <h3 className="text-xl font-bold text-gray-900 mb-2">
+          <h3 className={`text-xl font-bold ${t.title} mb-2`}>
             Creating Your Magic Package
           </h3>
-          <p className="text-gray-600 mb-6">
+          <p className={`${t.loadingText} mb-6`}>
             Personalizing packing lists, travel tips, and insider guides for {destination}...
           </p>
           <Spinner size="lg" />
@@ -120,9 +150,9 @@ export function MagicPackage({
 
   if (error) {
     return (
-      <div className="bg-white rounded-2xl shadow-lg border border-red-100 p-8">
+      <div className={`${t.errorCard} rounded-2xl p-8`}>
         <div className="text-center">
-          <p className="text-red-600 mb-4">{error}</p>
+          <p className={`${t.errorText} mb-4`}>{error}</p>
           <button
             onClick={generateMagicPackage}
             className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
@@ -144,10 +174,10 @@ export function MagicPackage({
       content: (
         <div className="space-y-4">
           <div>
-            <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">Essentials</h4>
+            <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Essentials</h4>
             <ul className="space-y-1.5">
               {data.packingList.essentials.map((item, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
+                <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
                   <span className="text-green-500 mt-0.5">✓</span>
                   {item}
                 </li>
@@ -155,11 +185,11 @@ export function MagicPackage({
             </ul>
           </div>
           <div>
-            <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">Nice to Have</h4>
+            <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Nice to Have</h4>
             <ul className="space-y-1.5">
               {data.packingList.niceToHave.map((item, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
-                  <span className="text-gray-400 mt-0.5">○</span>
+                <li key={i} className={`flex items-start gap-2 text-sm ${t.textMuted}`}>
+                  <span className={`${t.textFaint} mt-0.5`}>○</span>
                   {item}
                 </li>
               ))}
@@ -181,10 +211,10 @@ export function MagicPackage({
             { title: 'Staying Connected', tips: data.travelTips.connectivity },
           ].map(({ title, tips }) => (
             <div key={title}>
-              <h4 className="text-sm font-semibold text-gray-700 mb-2">{title}</h4>
+              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2`}>{title}</h4>
               <ul className="space-y-1.5">
                 {tips?.map((tip, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
+                  <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
                     <span className="text-primary-500 mt-0.5">→</span>
                     {tip}
                   </li>
@@ -202,28 +232,28 @@ export function MagicPackage({
       content: (
         <div className="space-y-4">
           <div>
-            <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">5 Must-Brings</h4>
+            <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>5 Must-Brings</h4>
             <div className="space-y-2">
               {data.mustBrings.map((item, i) => (
-                <div key={i} className="flex items-start gap-3 p-2 bg-green-50 rounded-lg">
-                  <span className="text-green-600 font-bold text-sm mt-0.5">{i + 1}</span>
+                <div key={i} className={`flex items-start gap-3 p-2 ${t.mustBringBg} rounded-lg`}>
+                  <span className={`${t.mustBringNum} font-bold text-sm mt-0.5`}>{i + 1}</span>
                   <div>
-                    <span className="text-sm font-medium text-gray-900">{item.item}</span>
-                    <p className="text-xs text-gray-600">{item.reason}</p>
+                    <span className={`text-sm font-medium ${t.title}`}>{item.item}</span>
+                    <p className={`text-xs ${t.textMuted}`}>{item.reason}</p>
                   </div>
                 </div>
               ))}
             </div>
           </div>
           <div>
-            <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">5 Nice-to-Haves</h4>
+            <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>5 Nice-to-Haves</h4>
             <div className="space-y-2">
               {data.niceToHaves.map((item, i) => (
-                <div key={i} className="flex items-start gap-3 p-2 bg-blue-50 rounded-lg">
-                  <span className="text-blue-600 font-bold text-sm mt-0.5">{i + 1}</span>
+                <div key={i} className={`flex items-start gap-3 p-2 ${t.niceToHaveBg} rounded-lg`}>
+                  <span className={`${t.niceToHaveNum} font-bold text-sm mt-0.5`}>{i + 1}</span>
                   <div>
-                    <span className="text-sm font-medium text-gray-900">{item.item}</span>
-                    <p className="text-xs text-gray-600">{item.reason}</p>
+                    <span className={`text-sm font-medium ${t.title}`}>{item.item}</span>
+                    <p className={`text-xs ${t.textMuted}`}>{item.reason}</p>
                   </div>
                 </div>
               ))}
@@ -240,14 +270,14 @@ export function MagicPackage({
         <div className="space-y-4">
           {data.adventureGuide.dailySuggestions?.length > 0 && (
             <div>
-              <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">Day-by-Day</h4>
+              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Day-by-Day</h4>
               <div className="space-y-3">
                 {data.adventureGuide.dailySuggestions.map((day) => (
-                  <div key={day.day} className="border-l-2 border-primary-300 pl-3">
-                    <p className="text-sm font-medium text-gray-900">Day {day.day}: {day.title}</p>
+                  <div key={day.day} className={`border-l-2 ${t.borderAccent} pl-3`}>
+                    <p className={`text-sm font-medium ${t.title}`}>Day {day.day}: {day.title}</p>
                     <ul className="mt-1 space-y-0.5">
                       {day.tips.map((tip, i) => (
-                        <li key={i} className="text-xs text-gray-600">• {tip}</li>
+                        <li key={i} className={`text-xs ${t.dayTipText}`}>{'\u2022'} {tip}</li>
                       ))}
                     </ul>
                   </div>
@@ -258,10 +288,10 @@ export function MagicPackage({
 
           {data.adventureGuide.insiderTips?.length > 0 && (
             <div>
-              <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">Insider Tips</h4>
+              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Insider Tips</h4>
               <ul className="space-y-1.5">
                 {data.adventureGuide.insiderTips.map((tip, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
+                  <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
                     <span className="text-yellow-500 mt-0.5">💡</span>
                     {tip}
                   </li>
@@ -272,10 +302,10 @@ export function MagicPackage({
 
           {data.adventureGuide.hiddenGems?.length > 0 && (
             <div>
-              <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">Hidden Gems</h4>
+              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Hidden Gems</h4>
               <ul className="space-y-1.5">
                 {data.adventureGuide.hiddenGems.map((gem, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
+                  <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
                     <span className="text-purple-500 mt-0.5">💎</span>
                     {gem}
                   </li>
@@ -286,10 +316,10 @@ export function MagicPackage({
 
           {data.adventureGuide.safetyTips?.length > 0 && (
             <div>
-              <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">Safety Tips</h4>
+              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Safety Tips</h4>
               <ul className="space-y-1.5">
                 {data.adventureGuide.safetyTips.map((tip, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
+                  <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
                     <span className="text-red-500 mt-0.5">⚠️</span>
                     {tip}
                   </li>
@@ -305,30 +335,30 @@ export function MagicPackage({
   return (
     <div className="space-y-3">
       <div className="flex items-center gap-3 mb-4">
-        <div className="w-10 h-10 bg-gradient-to-br from-purple-100 to-pink-100 rounded-full flex items-center justify-center">
+        <div className={`w-10 h-10 bg-gradient-to-br ${t.gradientOrb} rounded-full flex items-center justify-center`}>
           <span className="text-xl">✨</span>
         </div>
         <div>
-          <h3 className="text-lg font-bold text-gray-900">Your Magic Package</h3>
-          <p className="text-sm text-gray-500">Personalized for {destination}</p>
+          <h3 className={`text-lg font-bold ${t.title}`}>Your Magic Package</h3>
+          <p className={`text-sm ${t.subtitle}`}>Personalized for {destination}</p>
         </div>
       </div>
 
       {sections.map((section) => (
         <div
           key={section.id}
-          className="bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm"
+          className={`${t.card} rounded-xl overflow-hidden`}
         >
           <button
             onClick={() => toggleSection(section.id)}
-            className="w-full flex items-center justify-between p-4 hover:bg-gray-50 transition-colors"
+            className={`w-full flex items-center justify-between p-4 ${t.cardHover} transition-colors`}
           >
             <div className="flex items-center gap-3">
               <span className="text-xl">{section.emoji}</span>
-              <span className="font-medium text-gray-900">{section.title}</span>
+              <span className={`font-medium ${t.title}`}>{section.title}</span>
             </div>
             <svg
-              className={`w-5 h-5 text-gray-400 transition-transform ${
+              className={`w-5 h-5 ${t.chevron} transition-transform ${
                 expandedSections.has(section.id) ? 'rotate-180' : ''
               }`}
               fill="none"
@@ -340,7 +370,7 @@ export function MagicPackage({
           </button>
 
           {expandedSections.has(section.id) && (
-            <div className="px-4 pb-4 border-t border-gray-50">
+            <div className={`px-4 pb-4 border-t ${t.divider}`}>
               <div className="pt-3">{section.content}</div>
             </div>
           )}

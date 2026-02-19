@@ -4,7 +4,10 @@ import { Suspense, useEffect, useState, useCallback, useMemo } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import { ItineraryMap } from '@/components/flash/ItineraryMap';
+import { PackageMiniMap } from '@/components/flash/PackageMiniMap';
+import { MagicPackage } from '@/components/flash/MagicPackage';
 import { Spinner } from '@/components/ui';
+import type { DirectionsLeg } from '@/lib/mapbox/directions';
 import type { FlashTripPackage } from '@/types/flash';
 import {
   generateSampleItinerary,
@@ -321,6 +324,11 @@ function FlashExploreContent() {
   // Hotel reviews state
   const [hotelReviews, setHotelReviews] = useState<Record<string, LiteAPIReview[]>>({});
   const [loadingReviews, setLoadingReviews] = useState<string | null>(null);
+
+  // Package step — walking route + trip dates
+  const [routeLegs, setRouteLegs] = useState<DirectionsLeg[] | null>(null);
+  const [routeGeometry, setRouteGeometry] = useState<string | null>(null);
+  const [tripDates, setTripDates] = useState<{ departure: string; return: string }>({ departure: '', return: '' });
 
   // Revealed preferences tracking
   const { trackHotelSelection, trackPOIAction } = useRevealedPreferences();
@@ -658,6 +666,54 @@ function FlashExploreContent() {
     sessionStorage.setItem('flash_booking_data', JSON.stringify(bookingData));
     router.push('/flash/confirm');
   };
+
+  // Fetch walking directions + trip dates when package step is entered
+  useEffect(() => {
+    if (step !== 'package') return;
+
+    // Load trip dates from sessionStorage
+    try {
+      const params = sessionStorage.getItem('flash_generate_params');
+      if (params) {
+        const parsed = JSON.parse(params);
+        setTripDates({ departure: parsed.departureDate || '', return: parsed.returnDate || '' });
+      }
+    } catch {}
+
+    // Fetch walking directions for all stops
+    const allStops = itinerary.flatMap((d) => d.stops);
+    if (allStops.length < 2) return;
+
+    // Build coordinates: hotel first (if available), then all stops
+    const coords: [number, number][] = [];
+    if (!skipHotels && selectedHotel) {
+      coords.push([selectedHotel.latitude, selectedHotel.longitude]);
+    }
+    allStops.forEach((s) => {
+      coords.push([s.latitude, s.longitude]);
+    });
+
+    // Limit to 25 waypoints (Mapbox max)
+    const trimmedCoords = coords.slice(0, 25);
+
+    fetch('/api/directions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ coordinates: trimmedCoords }),
+    })
+      .then((res) => res.ok ? res.json() : null)
+      .then((data) => {
+        if (data) {
+          setRouteGeometry(data.geometry);
+          // If hotel was first waypoint, skip first leg (hotel→stop1) for stop-to-stop connectors
+          const skipFirst = !skipHotels && selectedHotel ? 1 : 0;
+          setRouteLegs(data.legs.slice(skipFirst));
+        }
+      })
+      .catch((err) => {
+        console.error('Failed to fetch walking directions:', err);
+      });
+  }, [step]);
 
   const formatPrice = (amount: number, currency: string) => {
     return new Intl.NumberFormat('en-US', {
@@ -2202,43 +2258,92 @@ function FlashExploreContent() {
               </div>
             )}
 
-            {/* ═══ Full Itinerary List ═══ */}
+            {/* ═══ Walking Route Map ═══ */}
             <div className="px-4 pb-4">
               <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
                 <span>🗺️</span>
+                Your Walking Route
+              </h3>
+              <PackageMiniMap
+                stops={allStops}
+                hotelLocation={hasHotel && selectedHotel ? {
+                  latitude: selectedHotel!.latitude,
+                  longitude: selectedHotel!.longitude,
+                  name: selectedHotel!.name,
+                } : null}
+                routeGeometry={routeGeometry}
+              />
+            </div>
+
+            {/* ═══ Full Itinerary List with Walk Times ═══ */}
+            <div className="px-4 pb-4">
+              <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
+                <span>📍</span>
                 Your Itinerary · {totalStops} stops
               </h3>
-              <div className="bg-white/5 border border-white/10 rounded-2xl divide-y divide-white/5 overflow-hidden">
+              <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden">
                 {allStops.map((stop, index) => {
                   const isFav = favorites.has(stop.id);
+                  const leg = routeLegs && index > 0 ? routeLegs[index - 1] : null;
                   return (
-                    <div key={stop.id} className="flex items-center gap-3 px-3 py-2.5">
-                      {/* Number */}
-                      <span className="text-white/25 text-xs font-mono w-4 text-right flex-shrink-0">{index + 1}</span>
-                      {/* Emoji */}
-                      <span className="text-base flex-shrink-0">{MARKER_EMOJIS[stop.type] || '📍'}</span>
-                      {/* Name + meta */}
-                      <div className="flex-1 min-w-0">
-                        <p className="text-white text-sm truncate">{stop.name}</p>
-                        <div className="flex items-center gap-2 mt-0.5">
-                          {stop.googleRating && (
-                            <span className="text-amber-400 text-[11px]">★ {stop.googleRating.toFixed(1)}</span>
-                          )}
-                          {stop.duration && (
-                            <span className="text-white/30 text-[11px]">{stop.duration}</span>
-                          )}
+                    <div key={stop.id}>
+                      {/* Walk-time connector between stops */}
+                      {leg && leg.duration > 0 && (
+                        <div className="flex items-center gap-2 px-3 py-1.5 bg-white/[0.02]">
+                          <div className="w-4 flex-shrink-0" />
+                          <div className="flex-1 flex items-center gap-2">
+                            <div className="flex-1 h-px bg-white/10" />
+                            <span className="text-white/30 text-[10px] flex items-center gap-1 whitespace-nowrap">
+                              🚶 {Math.round(leg.duration / 60)} min · {(leg.distance / 1000).toFixed(1)} km
+                            </span>
+                            <div className="flex-1 h-px bg-white/10" />
+                          </div>
+                          <div className="w-4 flex-shrink-0" />
                         </div>
-                      </div>
-                      {/* Fav indicator */}
-                      {isFav && (
-                        <svg className="w-4 h-4 text-pink-500 fill-pink-500 flex-shrink-0" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                        </svg>
                       )}
+                      <div className="flex items-center gap-3 px-3 py-2.5">
+                        {/* Number */}
+                        <span className="text-white/25 text-xs font-mono w-4 text-right flex-shrink-0">{index + 1}</span>
+                        {/* Emoji */}
+                        <span className="text-base flex-shrink-0">{MARKER_EMOJIS[stop.type] || '📍'}</span>
+                        {/* Name + meta */}
+                        <div className="flex-1 min-w-0">
+                          <p className="text-white text-sm truncate">{stop.name}</p>
+                          <div className="flex items-center gap-2 mt-0.5">
+                            {stop.googleRating && (
+                              <span className="text-amber-400 text-[11px]">★ {stop.googleRating.toFixed(1)}</span>
+                            )}
+                            {stop.duration && (
+                              <span className="text-white/30 text-[11px]">{stop.duration}</span>
+                            )}
+                          </div>
+                        </div>
+                        {/* Fav indicator */}
+                        {isFav && (
+                          <svg className="w-4 h-4 text-pink-500 fill-pink-500 flex-shrink-0" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                          </svg>
+                        )}
+                      </div>
                     </div>
                   );
                 })}
               </div>
+            </div>
+
+            {/* ═══ Magic Package — AI Travel Prep ═══ */}
+            <div className="px-4 pb-4">
+              <MagicPackage
+                destination={trip.destination.city}
+                country={trip.destination.country}
+                departureDate={tripDates.departure}
+                returnDate={tripDates.return}
+                travelerType="couple"
+                hotelName={selectedHotel?.name}
+                activities={allStops.map((s) => s.name).slice(0, 10)}
+                vibes={trip.destination.vibes || []}
+                variant="dark"
+              />
             </div>
 
             {/* ═══ Price Summary ═══ */}

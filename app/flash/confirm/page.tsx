@@ -7,7 +7,6 @@ import type { FlashTripPackage, DestinationVibe } from '@/types/flash';
 import type { HotelOption } from '@/lib/liteapi/types';
 import type { ItineraryStop, ItineraryDay } from '@/lib/flash/itinerary-generator';
 import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
-import { MagicPackage } from '@/components/flash/MagicPackage';
 
 interface BookingData {
   trip: FlashTripPackage;
@@ -22,7 +21,6 @@ export default function FlashConfirmPage() {
   const { user, loading: authLoading } = useAuth();
   const router = useRouter();
   const [bookingData, setBookingData] = useState<BookingData | null>(null);
-  const [tripDates, setTripDates] = useState<{ departure: string; return: string }>({ departure: '', return: '' });
   const [showBookingModal, setShowBookingModal] = useState(false);
   const { trackBooking } = useRevealedPreferences();
   const hasTrackedBooking = useRef(false);
@@ -61,17 +59,6 @@ export default function FlashConfirmPage() {
     router.push('/flash');
   }, [router]);
 
-  // Load trip dates from session storage
-  useEffect(() => {
-    try {
-      const params = sessionStorage.getItem('flash_generate_params');
-      if (params) {
-        const parsed = JSON.parse(params);
-        setTripDates({ departure: parsed.departureDate || '', return: parsed.returnDate || '' });
-      }
-    } catch {}
-  }, []);
-
   useEffect(() => {
     if (!authLoading && !user) {
       router.push('/auth/signin?redirect=/flash');
@@ -86,7 +73,7 @@ export default function FlashConfirmPage() {
     );
   }
 
-  const { trip, skipHotels, selectedHotel, favoriteStops, itineraryType } = bookingData;
+  const { trip, skipHotels, selectedHotel, itineraryType } = bookingData;
 
   const formatPrice = (amount: number, currency: string) => {
     return new Intl.NumberFormat('en-US', {
@@ -152,23 +139,20 @@ export default function FlashConfirmPage() {
           </div>
         </div>
 
-        {/* Magic Package — the post-booking reward */}
-        <div className="mb-8">
-          <div className="text-center mb-4">
-            <p className="text-gray-500 text-sm">
-              Here&apos;s your personalized travel guide — everything you need to know before you go
-            </p>
+        {/* What's next info card */}
+        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-8">
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 bg-primary-50 rounded-full flex items-center justify-center flex-shrink-0">
+              <span className="text-2xl">📧</span>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-1">What happens next?</h3>
+              <p className="text-gray-600 text-sm">
+                You&apos;ll receive a confirmation email with your full itinerary, hotel details,
+                and all the travel tips from your Magic Package. Keep it handy for your trip!
+              </p>
+            </div>
           </div>
-          <MagicPackage
-            destination={trip.destination.city}
-            country={trip.destination.country}
-            departureDate={tripDates.departure}
-            returnDate={tripDates.return}
-            travelerType="couple"
-            hotelName={selectedHotel?.name || trip.hotel?.name}
-            activities={favoriteStops?.map((s) => s.name) || trip.highlights || []}
-            vibes={trip.destination.vibes || []}
-          />
         </div>
 
         {/* Action buttons */}

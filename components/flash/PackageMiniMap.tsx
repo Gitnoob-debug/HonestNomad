@@ -23,6 +23,8 @@ interface PackageMiniMapProps {
   stops: Stop[];
   hotelLocation?: HotelLocation | null;
   routeGeometry?: string | null;
+  /** When true, renders as a larger hero map (300px mobile / 420px desktop) */
+  heroMode?: boolean;
   className?: string;
 }
 
@@ -43,19 +45,22 @@ const MARKER_COLORS: Record<string, string> = {
 };
 
 /**
- * Compact interactive Mapbox map for the package step.
+ * Interactive Mapbox map for the package step.
  * Shows numbered stop markers, optional hotel marker, and walking route polyline.
+ * In heroMode, renders larger with an animated route draw.
  */
 export function PackageMiniMap({
   stops,
   hotelLocation,
   routeGeometry,
+  heroMode = false,
   className = '',
 }: PackageMiniMapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<mapboxgl.Marker[]>([]);
   const routeAdded = useRef(false);
+  const animFrameRef = useRef<number | null>(null);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
 
@@ -115,6 +120,7 @@ export function PackageMiniMap({
     }
 
     return () => {
+      if (animFrameRef.current) cancelAnimationFrame(animFrameRef.current);
       markersRef.current.forEach((m) => m.remove());
       map.current?.remove();
       map.current = null;
@@ -122,6 +128,18 @@ export function PackageMiniMap({
       setMapLoaded(false);
     };
   }, [hasValidPoints]);
+
+  // ResizeObserver to handle container size changes (column layout breakpoint)
+  useEffect(() => {
+    if (!mapContainer.current || !map.current) return;
+
+    const observer = new ResizeObserver(() => {
+      map.current?.resize();
+    });
+    observer.observe(mapContainer.current);
+
+    return () => observer.disconnect();
+  }, [mapLoaded]);
 
   // Add markers + fit bounds
   useEffect(() => {
@@ -169,7 +187,7 @@ export function PackageMiniMap({
         border: 2px solid rgba(255,255,255,0.9);
         cursor: default;
       `;
-      el.textContent = '🏨';
+      el.textContent = '\uD83C\uDFE8'; // 🏨
 
       const marker = new mapboxgl.Marker({ element: el })
         .setLngLat([hotelLocation.longitude, hotelLocation.latitude])
@@ -189,7 +207,7 @@ export function PackageMiniMap({
     }
   }, [stops, hotelLocation, mapLoaded]);
 
-  // Add route polyline
+  // Add route polyline with draw animation
   useEffect(() => {
     if (!map.current || !mapLoaded || !routeGeometry) return;
 
@@ -215,6 +233,10 @@ export function PackageMiniMap({
       } else {
         m.addSource('package-route', { type: 'geojson', data: routeData as any });
 
+        // Check reduced motion preference
+        const prefersReducedMotion = typeof window !== 'undefined'
+          && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
         // Background line (wider, for contrast)
         m.addLayer({
           id: 'package-route-bg',
@@ -223,7 +245,7 @@ export function PackageMiniMap({
           paint: {
             'line-color': '#1e3a5f',
             'line-width': 5,
-            'line-opacity': 0.3,
+            'line-opacity': prefersReducedMotion ? 0.3 : 0,
           },
           layout: {
             'line-cap': 'round',
@@ -231,7 +253,7 @@ export function PackageMiniMap({
           },
         });
 
-        // Main route line — dashed blue
+        // Main route line
         m.addLayer({
           id: 'package-route-line',
           type: 'line',
@@ -240,7 +262,7 @@ export function PackageMiniMap({
             'line-color': '#3b82f6',
             'line-width': 3,
             'line-opacity': 0.8,
-            'line-dasharray': [2, 2],
+            'line-dasharray': prefersReducedMotion ? [2, 2] : [0, 10000],
           },
           layout: {
             'line-cap': 'round',
@@ -249,6 +271,40 @@ export function PackageMiniMap({
         });
 
         routeAdded.current = true;
+
+        // Animate route draw (skip if reduced motion)
+        if (!prefersReducedMotion) {
+          const totalSteps = 120; // ~2 seconds at 60fps
+          let step = 0;
+          const lineLength = 10000;
+
+          const animateRoute = () => {
+            step++;
+            const progress = step / totalSteps;
+            const dashLength = progress * lineLength;
+            const gapLength = (1 - progress) * lineLength;
+
+            if (m.getLayer('package-route-line')) {
+              m.setPaintProperty('package-route-line', 'line-dasharray', [dashLength, gapLength]);
+            }
+            if (m.getLayer('package-route-bg')) {
+              m.setPaintProperty('package-route-bg', 'line-opacity', progress * 0.3);
+            }
+
+            if (step >= totalSteps) {
+              // Reset to final dashed style
+              if (m.getLayer('package-route-line')) {
+                m.setPaintProperty('package-route-line', 'line-dasharray', [2, 2]);
+              }
+              animFrameRef.current = null;
+              return;
+            }
+
+            animFrameRef.current = requestAnimationFrame(animateRoute);
+          };
+
+          animFrameRef.current = requestAnimationFrame(animateRoute);
+        }
       }
     } catch (error) {
       console.error('Failed to add route polyline:', error);
@@ -261,9 +317,14 @@ export function PackageMiniMap({
 
   return (
     <div className={`relative rounded-2xl overflow-hidden border border-white/10 ${className}`}>
-      <div ref={mapContainer} style={{ width: '100%', height: '280px' }} />
+      <div
+        ref={mapContainer}
+        className={heroMode ? 'w-full h-[300px] lg:h-[420px]' : 'w-full h-[280px]'}
+      />
       {/* Gradient overlay at bottom for visual polish */}
-      <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-gray-900/50 to-transparent pointer-events-none" />
+      {!heroMode && (
+        <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-gray-900/50 to-transparent pointer-events-none" />
+      )}
     </div>
   );
 }

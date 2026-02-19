@@ -118,6 +118,38 @@
   animation: fade-out 4s ease-out forwards;
 }
 
+/* Package step: sequential reveal for timeline stops */
+.animate-reveal {
+  opacity: 0;
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(12px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Package step: first timeline dot pulse */
+.animate-timeline-pulse {
+  animation: timelineDotPulse 2s ease-in-out infinite;
+}
+
+@keyframes timelineDotPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
+  50% { box-shadow: 0 0 0 6px rgba(59, 130, 246, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-reveal {
+    opacity: 1;
+    animation: none;
+    transform: none;
+  }
+  .animate-timeline-pulse {
+    animation: none;
+  }
+}
+
 /* Leaflet map fixes */
 .leaflet-container {
   font-family: inherit;

@@ -1,6 +1,6 @@
 'use client';
 
-import { Suspense, useEffect, useState, useCallback, useMemo } from 'react';
+import { Suspense, useEffect, useRef, useState, useCallback, useMemo } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import { ItineraryMap } from '@/components/flash/ItineraryMap';
@@ -277,6 +277,125 @@ interface ItineraryStop {
   googleMapsUrl?: string;
   bestTimeOfDay?: 'morning' | 'afternoon' | 'evening' | 'night' | 'any';
   category?: string;
+}
+
+// ─── PackageTimeline: Vertical timeline with scroll-triggered reveal ───
+function PackageTimeline({
+  stops,
+  routeLegs,
+  favorites,
+  markerEmojis,
+}: {
+  stops: ItineraryStop[];
+  routeLegs: DirectionsLeg[] | null;
+  favorites: Set<string>;
+  markerEmojis: Record<string, string>;
+}) {
+  const timelineRef = useRef<HTMLDivElement>(null);
+  const [visibleItems, setVisibleItems] = useState<Set<number>>(new Set());
+
+  // Intersection Observer for sequential reveal
+  useEffect(() => {
+    if (!timelineRef.current) return;
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (prefersReducedMotion) {
+      setVisibleItems(new Set(stops.map((_, i) => i)));
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const index = Number(entry.target.getAttribute('data-index'));
+            setVisibleItems((prev) => new Set(prev).add(index));
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.2, rootMargin: '0px 0px -50px 0px' }
+    );
+
+    const items = timelineRef.current.querySelectorAll('[data-index]');
+    items.forEach((item) => observer.observe(item));
+
+    return () => observer.disconnect();
+  }, [stops.length]);
+
+  return (
+    <div>
+      <h3 className="text-white font-semibold text-sm mb-4 flex items-center gap-2">
+        <span>📍</span>
+        Your Itinerary · {stops.length} stops
+      </h3>
+
+      <div ref={timelineRef} className="relative ml-4">
+        {/* Vertical connecting line */}
+        <div className="absolute left-[11px] top-3 bottom-3 w-[2px] bg-white/10" />
+
+        {stops.map((stop, index) => {
+          const isFav = favorites.has(stop.id);
+          const leg = routeLegs && index > 0 ? routeLegs[index - 1] : null;
+          const isVisible = visibleItems.has(index);
+
+          return (
+            <div key={stop.id} data-index={index}>
+              {/* Walk-time connector */}
+              {leg && leg.duration > 0 && (
+                <div className={`ml-7 py-1 transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+                  <span className="text-white/30 text-[10px] flex items-center gap-1">
+                    🚶 {Math.round(leg.duration / 60)} min · {(leg.distance / 1000).toFixed(1)} km
+                  </span>
+                </div>
+              )}
+
+              {/* Timeline stop */}
+              <div
+                className={`relative flex items-start gap-3 py-2 ${isVisible ? 'animate-reveal' : 'opacity-0'}`}
+                style={isVisible ? { animationDelay: `${index * 60}ms` } : undefined}
+              >
+                {/* Dot on the timeline line */}
+                <div className={`relative z-10 w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 border-2 ${
+                  isFav
+                    ? 'bg-pink-500 border-pink-400'
+                    : 'bg-gray-700 border-white/20'
+                } ${index === 0 ? 'animate-timeline-pulse' : ''}`}>
+                  <span className="text-[10px] font-bold text-white">{index + 1}</span>
+                </div>
+
+                {/* Stop content */}
+                <div className="flex-1 min-w-0 pb-1">
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm flex-shrink-0">{markerEmojis[stop.type] || '📍'}</span>
+                    <p className="text-white text-sm font-medium truncate">{stop.name}</p>
+                    {isFav && (
+                      <svg className="w-3.5 h-3.5 text-pink-500 fill-pink-500 flex-shrink-0" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="flex items-center gap-2 mt-0.5">
+                    {stop.googleRating && (
+                      <span className="text-amber-400 text-[11px]">★ {stop.googleRating.toFixed(1)}</span>
+                    )}
+                    {stop.duration && (
+                      <span className="text-white/30 text-[11px]">{stop.duration}</span>
+                    )}
+                    {stop.bestTimeOfDay && stop.bestTimeOfDay !== 'any' && (
+                      <span className="text-white/30 text-[10px] capitalize bg-white/5 px-1.5 py-0.5 rounded">
+                        {stop.bestTimeOfDay}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 }
 
 function FlashExploreContent() {
@@ -2086,13 +2205,15 @@ function FlashExploreContent() {
   }
 
   // Step 4: Your Adventure Package — real trip content
+  // ═══════════════════════════════════════════════════════
+  // Step 4: Your Adventure Package — Two-Column Editorial
+  // ═══════════════════════════════════════════════════════
   if (step === 'package') {
     const hasHotel = !skipHotels && selectedHotel;
     const totalDays = trip.itinerary?.days || 3;
     const allStops = itinerary.flatMap((day) => day.stops);
     const totalStops = allStops.length;
-    const hotelTotal = skipHotels ? 0 : (selectedHotel?.totalPrice || 0);
-    const grandTotal = hotelTotal;
+    const grandTotal = skipHotels ? 0 : (selectedHotel?.totalPrice || 0);
 
     const MARKER_EMOJIS: Record<string, string> = {
       landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
@@ -2123,308 +2244,269 @@ function FlashExploreContent() {
             </div>
           </div>
 
-          {/* Scrollable content */}
-          <div className="flex-1 overflow-y-auto">
-            {/* Hero — destination + path label */}
-            <div className="relative px-6 pt-6 pb-4">
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-primary-500/10 rounded-full blur-3xl pointer-events-none" />
-              <div className="relative text-center">
-                <div className="inline-flex items-center gap-2 bg-primary-500/10 border border-primary-500/20 rounded-full px-4 py-1.5 mb-3">
-                  <span className="text-sm">🎁</span>
-                  <span className="text-primary-300 text-xs font-medium uppercase tracking-wider">Your {trip.destination.city} Adventure</span>
-                </div>
-                <p className="text-white/50 text-sm">
-                  {itineraryType && PATH_CONFIG[itineraryType]?.emoji} {itineraryType && PATH_CONFIG[itineraryType]?.name} · {totalDays} days · {totalStops} stops
-                </p>
-              </div>
-            </div>
+          {/* ═══ TWO-COLUMN BODY ═══ */}
+          <div className="flex-1 overflow-y-auto lg:overflow-hidden">
+            <div className="lg:flex lg:h-full">
 
-            {/* ═══ Hotel Card ═══ */}
-            {hasHotel && (
-              <div className="px-4 pb-4">
-                <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden">
-                  {/* Hotel photo */}
-                  <div className="relative h-40">
-                    {selectedHotel!.mainPhoto ? (
-                      <img
-                        src={selectedHotel!.mainPhoto}
-                        alt={selectedHotel!.name}
-                        className="w-full h-full object-cover"
-                      />
-                    ) : (
-                      <div className="w-full h-full bg-gradient-to-br from-purple-600/30 to-indigo-800/30 flex items-center justify-center">
-                        <span className="text-4xl">🏨</span>
-                      </div>
-                    )}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                    {/* Refundable badge */}
-                    {selectedHotel!.refundable && (
-                      <div className="absolute top-3 right-3 bg-green-500/90 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-1 rounded-full">
-                        Free cancellation
-                      </div>
-                    )}
-                    {/* Hotel name + stars overlay */}
-                    <div className="absolute bottom-3 left-4 right-4">
-                      <h3 className="text-white font-bold text-lg leading-tight">{selectedHotel!.name}</h3>
-                      <div className="flex items-center gap-2 mt-1">
-                        <span className="text-amber-400 text-sm">{'★'.repeat(selectedHotel!.stars)}</span>
-                        {selectedHotel!.rating > 0 && (
-                          <span className="text-white/60 text-xs">{selectedHotel!.rating.toFixed(1)} ({selectedHotel!.reviewCount})</span>
-                        )}
-                      </div>
+              {/* ═══ LEFT COLUMN: The Value (scrollable) ═══ */}
+              <div className="lg:w-[65%] lg:overflow-y-auto lg:h-full">
+                <div className="p-4 lg:p-6 space-y-6">
+
+                  {/* 1. Hero Map */}
+                  <PackageMiniMap
+                    stops={allStops}
+                    hotelLocation={hasHotel && selectedHotel ? {
+                      latitude: selectedHotel!.latitude,
+                      longitude: selectedHotel!.longitude,
+                      name: selectedHotel!.name,
+                    } : null}
+                    routeGeometry={routeGeometry}
+                    heroMode
+                  />
+
+                  {/* 2. Destination Badge */}
+                  <div className="text-center">
+                    <div className="inline-flex items-center gap-2 bg-primary-500/10 border border-primary-500/20 rounded-full px-4 py-1.5 mb-2">
+                      <span className="text-sm">🎁</span>
+                      <span className="text-primary-300 text-xs font-medium uppercase tracking-wider">
+                        Your {trip.destination.city} Adventure
+                      </span>
                     </div>
+                    <p className="text-white/50 text-sm">
+                      {itineraryType && PATH_CONFIG[itineraryType]?.emoji}{' '}
+                      {itineraryType && PATH_CONFIG[itineraryType]?.name} · {totalDays} days · {totalStops} stops
+                    </p>
                   </div>
 
-                  {/* Hotel details */}
-                  <div className="p-4 space-y-3">
-                    {/* Price + nights + room */}
-                    <div className="flex items-center justify-between">
+                  {/* 3. Itinerary Timeline */}
+                  <PackageTimeline
+                    stops={allStops}
+                    routeLegs={routeLegs}
+                    favorites={favorites}
+                    markerEmojis={MARKER_EMOJIS}
+                  />
+
+                  {/* 4. AI Travel Prep — Grid Cards */}
+                  <div>
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-10 h-10 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-full flex items-center justify-center">
+                        <span className="text-xl">✨</span>
+                      </div>
                       <div>
-                        <p className="text-white/60 text-xs">{totalDays} nights · {selectedHotel!.roomName || 'Standard Room'}</p>
-                        {selectedHotel!.boardName && (
-                          <p className="text-white/40 text-[11px]">{selectedHotel!.boardName}</p>
-                        )}
-                      </div>
-                      <div className="text-right">
-                        <p className="text-white font-bold text-lg">{formatPrice(selectedHotel!.totalPrice, selectedHotel!.currency)}</p>
-                        <p className="text-white/40 text-[11px]">{formatPrice(selectedHotel!.pricePerNight, selectedHotel!.currency)}/night</p>
+                        <h3 className="text-lg font-bold text-white">AI Travel Prep</h3>
+                        <p className="text-sm text-white/50">Personalized for {trip.destination.city}</p>
                       </div>
                     </div>
-
-                    {/* Check-in / Check-out */}
-                    <div className="flex items-center gap-4 text-xs">
-                      <div className="flex items-center gap-1.5">
-                        <span className="text-white/40">Check-in</span>
-                        <span className="text-white font-medium">{selectedHotel!.checkinTime || '3:00 PM'}</span>
-                      </div>
-                      <div className="w-px h-3 bg-white/15" />
-                      <div className="flex items-center gap-1.5">
-                        <span className="text-white/40">Check-out</span>
-                        <span className="text-white font-medium">{selectedHotel!.checkoutTime || '11:00 AM'}</span>
-                      </div>
-                    </div>
-
-                    {/* Amenities chips */}
-                    {selectedHotel!.amenities && selectedHotel!.amenities.length > 0 && (
-                      <div className="flex flex-wrap gap-1.5">
-                        {selectedHotel!.amenities.slice(0, 6).map((amenity, i) => (
-                          <span
-                            key={i}
-                            className="bg-white/8 text-white/60 text-[10px] px-2 py-0.5 rounded-full border border-white/5"
-                          >
-                            {amenity}
-                          </span>
-                        ))}
-                        {selectedHotel!.amenities.length > 6 && (
-                          <span className="text-white/30 text-[10px] px-1 self-center">
-                            +{selectedHotel!.amenities.length - 6} more
-                          </span>
-                        )}
-                      </div>
-                    )}
+                    <MagicPackage
+                      destination={trip.destination.city}
+                      country={trip.destination.country}
+                      departureDate={tripDates.departure}
+                      returnDate={tripDates.return}
+                      travelerType="couple"
+                      hotelName={selectedHotel?.name}
+                      activities={allStops.map((s) => s.name).slice(0, 10)}
+                      vibes={trip.destination.vibes || []}
+                      variant="dark"
+                      layout="grid"
+                    />
                   </div>
+
                 </div>
               </div>
-            )}
 
-            {/* ═══ Saved Spots Grid ═══ */}
-            {favoriteStops.length > 0 && (
-              <div className="px-4 pb-4">
-                <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
-                  <span>📍</span>
-                  Your {favoriteStops.length} Saved Spot{favoriteStops.length !== 1 ? 's' : ''}
-                </h3>
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-                  {favoriteStops.map((stop) => (
-                    <div
-                      key={stop.id}
-                      className="bg-white/5 border border-white/10 rounded-xl p-3 flex flex-col gap-1.5"
-                    >
-                      <div className="flex items-center gap-2">
-                        <span className="text-lg">{MARKER_EMOJIS[stop.type] || '📍'}</span>
-                        <span className="text-white text-xs font-medium truncate flex-1">{stop.name}</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        {stop.googleRating && (
-                          <span className="text-amber-400 text-[11px] font-medium">★ {stop.googleRating.toFixed(1)}</span>
+              {/* ═══ RIGHT COLUMN: The Commitment (sticky) ═══ */}
+              <div className="lg:w-[35%] lg:border-l lg:border-white/10 lg:overflow-y-auto lg:h-full">
+                <div className="p-4 lg:p-6 space-y-4">
+
+                  {/* Hotel Card */}
+                  {hasHotel && (
+                    <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden">
+                      {/* Hotel photo */}
+                      <div className="relative h-40">
+                        {selectedHotel!.mainPhoto ? (
+                          <img
+                            src={selectedHotel!.mainPhoto}
+                            alt={selectedHotel!.name}
+                            className="w-full h-full object-cover"
+                          />
+                        ) : (
+                          <div className="w-full h-full bg-gradient-to-br from-purple-600/30 to-indigo-800/30 flex items-center justify-center">
+                            <span className="text-4xl">🏨</span>
+                          </div>
                         )}
-                        {stop.bestTimeOfDay && stop.bestTimeOfDay !== 'any' && (
-                          <span className="text-white/30 text-[10px] capitalize bg-white/5 px-1.5 py-0.5 rounded">{stop.bestTimeOfDay}</span>
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                        {selectedHotel!.refundable && (
+                          <div className="absolute top-3 right-3 bg-green-500/90 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-1 rounded-full">
+                            Free cancellation
+                          </div>
+                        )}
+                        <div className="absolute bottom-3 left-4 right-4">
+                          <h3 className="text-white font-bold text-lg leading-tight">{selectedHotel!.name}</h3>
+                          <div className="flex items-center gap-2 mt-1">
+                            <span className="text-amber-400 text-sm">{'★'.repeat(selectedHotel!.stars)}</span>
+                            {selectedHotel!.rating > 0 && (
+                              <span className="text-white/60 text-xs">{selectedHotel!.rating.toFixed(1)} ({selectedHotel!.reviewCount})</span>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                      <div className="p-4 space-y-3">
+                        <div className="flex items-center justify-between">
+                          <div>
+                            <p className="text-white/60 text-xs">{totalDays} nights · {selectedHotel!.roomName || 'Standard Room'}</p>
+                            {selectedHotel!.boardName && (
+                              <p className="text-white/40 text-[11px]">{selectedHotel!.boardName}</p>
+                            )}
+                          </div>
+                          <div className="text-right">
+                            <p className="text-white font-bold text-lg">{formatPrice(selectedHotel!.totalPrice, selectedHotel!.currency)}</p>
+                            <p className="text-white/40 text-[11px]">{formatPrice(selectedHotel!.pricePerNight, selectedHotel!.currency)}/night</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-4 text-xs">
+                          <div className="flex items-center gap-1.5">
+                            <span className="text-white/40">Check-in</span>
+                            <span className="text-white font-medium">{selectedHotel!.checkinTime || '3:00 PM'}</span>
+                          </div>
+                          <div className="w-px h-3 bg-white/15" />
+                          <div className="flex items-center gap-1.5">
+                            <span className="text-white/40">Check-out</span>
+                            <span className="text-white font-medium">{selectedHotel!.checkoutTime || '11:00 AM'}</span>
+                          </div>
+                        </div>
+                        {selectedHotel!.amenities && selectedHotel!.amenities.length > 0 && (
+                          <div className="flex flex-wrap gap-1.5">
+                            {selectedHotel!.amenities.slice(0, 6).map((amenity, i) => (
+                              <span key={i} className="bg-white/8 text-white/60 text-[10px] px-2 py-0.5 rounded-full border border-white/5">
+                                {amenity}
+                              </span>
+                            ))}
+                            {selectedHotel!.amenities.length > 6 && (
+                              <span className="text-white/30 text-[10px] px-1 self-center">
+                                +{selectedHotel!.amenities.length - 6} more
+                              </span>
+                            )}
+                          </div>
                         )}
                       </div>
                     </div>
-                  ))}
-                </div>
-              </div>
-            )}
+                  )}
 
-            {/* ═══ Walking Route Map ═══ */}
-            <div className="px-4 pb-4">
-              <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
-                <span>🗺️</span>
-                Your Walking Route
-              </h3>
-              <PackageMiniMap
-                stops={allStops}
-                hotelLocation={hasHotel && selectedHotel ? {
-                  latitude: selectedHotel!.latitude,
-                  longitude: selectedHotel!.longitude,
-                  name: selectedHotel!.name,
-                } : null}
-                routeGeometry={routeGeometry}
-              />
-            </div>
-
-            {/* ═══ Full Itinerary List with Walk Times ═══ */}
-            <div className="px-4 pb-4">
-              <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
-                <span>📍</span>
-                Your Itinerary · {totalStops} stops
-              </h3>
-              <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden">
-                {allStops.map((stop, index) => {
-                  const isFav = favorites.has(stop.id);
-                  const leg = routeLegs && index > 0 ? routeLegs[index - 1] : null;
-                  return (
-                    <div key={stop.id}>
-                      {/* Walk-time connector between stops */}
-                      {leg && leg.duration > 0 && (
-                        <div className="flex items-center gap-2 px-3 py-1.5 bg-white/[0.02]">
-                          <div className="w-4 flex-shrink-0" />
-                          <div className="flex-1 flex items-center gap-2">
-                            <div className="flex-1 h-px bg-white/10" />
-                            <span className="text-white/30 text-[10px] flex items-center gap-1 whitespace-nowrap">
-                              🚶 {Math.round(leg.duration / 60)} min · {(leg.distance / 1000).toFixed(1)} km
-                            </span>
-                            <div className="flex-1 h-px bg-white/10" />
-                          </div>
-                          <div className="w-4 flex-shrink-0" />
-                        </div>
-                      )}
-                      <div className="flex items-center gap-3 px-3 py-2.5">
-                        {/* Number */}
-                        <span className="text-white/25 text-xs font-mono w-4 text-right flex-shrink-0">{index + 1}</span>
-                        {/* Emoji */}
-                        <span className="text-base flex-shrink-0">{MARKER_EMOJIS[stop.type] || '📍'}</span>
-                        {/* Name + meta */}
-                        <div className="flex-1 min-w-0">
-                          <p className="text-white text-sm truncate">{stop.name}</p>
-                          <div className="flex items-center gap-2 mt-0.5">
+                  {/* Saved Spots — compact horizontal scroll */}
+                  {favoriteStops.length > 0 && (
+                    <div>
+                      <h3 className="text-white font-semibold text-sm mb-2 flex items-center gap-2">
+                        <span>📍</span>
+                        {favoriteStops.length} Saved Spot{favoriteStops.length !== 1 ? 's' : ''}
+                      </h3>
+                      <div className="flex gap-2 overflow-x-auto pb-1">
+                        {favoriteStops.map((stop) => (
+                          <div
+                            key={stop.id}
+                            className="bg-white/5 border border-white/10 rounded-lg px-3 py-2 flex items-center gap-2 flex-shrink-0"
+                          >
+                            <span className="text-base">{MARKER_EMOJIS[stop.type] || '📍'}</span>
+                            <span className="text-white text-xs font-medium whitespace-nowrap">{stop.name}</span>
                             {stop.googleRating && (
                               <span className="text-amber-400 text-[11px]">★ {stop.googleRating.toFixed(1)}</span>
                             )}
-                            {stop.duration && (
-                              <span className="text-white/30 text-[11px]">{stop.duration}</span>
-                            )}
                           </div>
-                        </div>
-                        {/* Fav indicator */}
-                        {isFav && (
-                          <svg className="w-4 h-4 text-pink-500 fill-pink-500 flex-shrink-0" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                          </svg>
-                        )}
+                        ))}
                       </div>
                     </div>
-                  );
-                })}
-              </div>
-            </div>
+                  )}
 
-            {/* ═══ Magic Package — AI Travel Prep ═══ */}
-            <div className="px-4 pb-4">
-              <MagicPackage
-                destination={trip.destination.city}
-                country={trip.destination.country}
-                departureDate={tripDates.departure}
-                returnDate={tripDates.return}
-                travelerType="couple"
-                hotelName={selectedHotel?.name}
-                activities={allStops.map((s) => s.name).slice(0, 10)}
-                vibes={trip.destination.vibes || []}
-                variant="dark"
-              />
-            </div>
-
-            {/* ═══ Price Summary ═══ */}
-            <div className="px-4 pb-4">
-              <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
-                <span>💰</span>
-                Price Summary
-              </h3>
-              <div className="bg-white/5 border border-white/10 rounded-2xl p-4 space-y-3">
-                {/* Itinerary — free */}
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm">📋</span>
-                    <span className="text-white/80 text-sm">Personalized Itinerary</span>
-                  </div>
-                  <span className="text-green-400 text-sm font-medium">Free</span>
-                </div>
-
-                {/* Hotel */}
-                {hasHotel && (
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm">🏨</span>
-                      <span className="text-white/80 text-sm">{totalDays} nights at {selectedHotel!.name}</span>
+                  {/* Price Summary */}
+                  <div>
+                    <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
+                      <span>💰</span>
+                      Price Summary
+                    </h3>
+                    <div className="bg-white/5 border border-white/10 rounded-2xl p-4 space-y-3">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm">📋</span>
+                          <span className="text-white/80 text-sm">Personalized Itinerary</span>
+                        </div>
+                        <span className="text-green-400 text-sm font-medium">Free</span>
+                      </div>
+                      {hasHotel && (
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <span className="text-sm">🏨</span>
+                            <span className="text-white/80 text-sm">{totalDays} nights at {selectedHotel!.name}</span>
+                          </div>
+                          <span className="text-white text-sm font-medium">{formatPrice(selectedHotel!.totalPrice, selectedHotel!.currency)}</span>
+                        </div>
+                      )}
+                      {!hasHotel && (
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <span className="text-sm">🏨</span>
+                            <span className="text-white/40 text-sm line-through">Hotel</span>
+                          </div>
+                          <span className="text-white/40 text-sm">Skipped</span>
+                        </div>
+                      )}
+                      <div className="border-t border-white/10 pt-3 flex items-center justify-between">
+                        <span className="text-white font-semibold">Total</span>
+                        <span className="text-white font-bold text-xl">
+                          {grandTotal > 0 ? formatPrice(grandTotal, trip.pricing.currency) : 'Free'}
+                        </span>
+                      </div>
                     </div>
-                    <span className="text-white text-sm font-medium">{formatPrice(selectedHotel!.totalPrice, selectedHotel!.currency)}</span>
                   </div>
-                )}
 
-                {!hasHotel && (
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm">🏨</span>
-                      <span className="text-white/40 text-sm line-through">Hotel</span>
+                  {/* Trip Stats */}
+                  <div className="flex items-center justify-center gap-4 py-2">
+                    <div className="text-center">
+                      <p className="text-white font-bold text-xl">{totalDays}</p>
+                      <p className="text-white/40 text-[10px] uppercase tracking-wider">Days</p>
                     </div>
-                    <span className="text-white/40 text-sm">Skipped</span>
-                  </div>
-                )}
-
-                {/* Divider + Total */}
-                <div className="border-t border-white/10 pt-3 flex items-center justify-between">
-                  <span className="text-white font-semibold">Total</span>
-                  <span className="text-white font-bold text-xl">
-                    {grandTotal > 0 ? formatPrice(grandTotal, trip.pricing.currency) : 'Free'}
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* ═══ Trip Stats ═══ */}
-            <div className="px-6 pb-8">
-              <div className="flex items-center justify-center gap-4">
-                <div className="text-center">
-                  <p className="text-white font-bold text-xl">{totalDays}</p>
-                  <p className="text-white/40 text-[10px] uppercase tracking-wider">Days</p>
-                </div>
-                <div className="w-px h-8 bg-white/10" />
-                <div className="text-center">
-                  <p className="text-white font-bold text-xl">{favoriteStops.length}</p>
-                  <p className="text-white/40 text-[10px] uppercase tracking-wider">Saved</p>
-                </div>
-                <div className="w-px h-8 bg-white/10" />
-                <div className="text-center">
-                  <p className="text-white font-bold text-xl">{totalStops}</p>
-                  <p className="text-white/40 text-[10px] uppercase tracking-wider">Stops</p>
-                </div>
-                {hasHotel && (
-                  <>
                     <div className="w-px h-8 bg-white/10" />
                     <div className="text-center">
-                      <p className="text-white font-bold text-xl">{selectedHotel!.stars}★</p>
-                      <p className="text-white/40 text-[10px] uppercase tracking-wider">Hotel</p>
+                      <p className="text-white font-bold text-xl">{favoriteStops.length}</p>
+                      <p className="text-white/40 text-[10px] uppercase tracking-wider">Saved</p>
                     </div>
-                  </>
-                )}
+                    <div className="w-px h-8 bg-white/10" />
+                    <div className="text-center">
+                      <p className="text-white font-bold text-xl">{totalStops}</p>
+                      <p className="text-white/40 text-[10px] uppercase tracking-wider">Stops</p>
+                    </div>
+                    {hasHotel && (
+                      <>
+                        <div className="w-px h-8 bg-white/10" />
+                        <div className="text-center">
+                          <p className="text-white font-bold text-xl">{selectedHotel!.stars}★</p>
+                          <p className="text-white/40 text-[10px] uppercase tracking-wider">Hotel</p>
+                        </div>
+                      </>
+                    )}
+                  </div>
+
+                  {/* Desktop CTA (hidden on mobile) */}
+                  <div className="hidden lg:block pt-2">
+                    <button
+                      onClick={handleFinalConfirm}
+                      className="w-full py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-lg shadow-primary-500/25"
+                    >
+                      {hasHotel ? 'Confirm & Book Hotel' : 'Get My Adventure Package'}
+                    </button>
+                    <p className="text-white/30 text-xs text-center mt-2">
+                      {hasHotel
+                        ? "You won't be charged until you confirm payment details"
+                        : 'Your personalized package will be saved to your account'}
+                    </p>
+                  </div>
+
+                </div>
               </div>
+
             </div>
           </div>
 
-          {/* Bottom CTA */}
-          <div className="p-4 pb-safe border-t border-white/10 bg-gray-900/80 backdrop-blur-sm">
+          {/* Mobile Bottom CTA (hidden on desktop) */}
+          <div className="lg:hidden p-4 pb-safe border-t border-white/10 bg-gray-900/80 backdrop-blur-sm">
             <button
               onClick={handleFinalConfirm}
               className="w-full py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-lg shadow-primary-500/25"

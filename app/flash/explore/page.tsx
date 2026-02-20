@@ -7,6 +7,8 @@ import { ItineraryMap } from '@/components/flash/ItineraryMap';
 import { PackageMiniMap } from '@/components/flash/PackageMiniMap';
 import { MagicPackage } from '@/components/flash/MagicPackage';
 import { Spinner } from '@/components/ui';
+import { BlurUpImage } from '@/components/ui/BlurUpImage';
+import { format } from 'date-fns';
 // DirectionsLeg type retained for future use (walk-time calculations)
 import type { FlashTripPackage } from '@/types/flash';
 import {
@@ -207,6 +209,15 @@ const PATH_CONFIG: Record<SimplePathChoice, {
 
 const ALL_PATHS: SimplePathChoice[] = ['classic', 'foodie', 'adventure', 'cultural', 'relaxation', 'nightlife', 'trendy'];
 
+// Time-of-day config for visual day planner timeline
+const TIME_OF_DAY_CONFIG: Record<string, { emoji: string; label: string; time: string; order: number }> = {
+  morning:   { emoji: '\u{1F305}', label: 'Morning',   time: '9am\u201312pm', order: 1 },
+  afternoon: { emoji: '\u2600\uFE0F', label: 'Afternoon', time: '12pm\u20135pm', order: 2 },
+  evening:   { emoji: '\u{1F319}', label: 'Evening',   time: '5pm\u201310pm', order: 3 },
+  night:     { emoji: '\u{1F303}', label: 'Night',     time: '10pm+',    order: 4 },
+  any:       { emoji: '\u23F0', label: 'Anytime',   time: '',         order: 5 },
+};
+
 // Quick navigator config — adapts label/emoji per path type
 const QUICK_NAV_CONFIG: Record<SimplePathChoice, { emoji: string; label: string }> = {
   classic: { emoji: '📸', label: 'Photo Route' },
@@ -364,41 +375,57 @@ function POICarousel({
             key={stop.id}
             data-stop-id={stop.id}
             onClick={() => onStopSelect(stop.id)}
-            className={`flex-shrink-0 w-[160px] rounded-xl p-3 text-left transition-all ${
+            className={`flex-shrink-0 w-[220px] h-[180px] rounded-xl overflow-hidden text-left transition-all relative ${
               isActive
-                ? 'bg-white/20 border-primary-400 border scale-[1.03] shadow-lg shadow-primary-500/20'
-                : 'bg-black/40 border-white/10 border hover:bg-white/10'
-            } backdrop-blur-md`}
+                ? 'ring-2 ring-primary-400 scale-[1.03] shadow-lg shadow-primary-500/20'
+                : 'ring-1 ring-white/10 hover:ring-white/20'
+            }`}
           >
-            {/* Top row: number + emoji */}
-            <div className="flex items-center justify-between mb-1.5">
-              <span className={`w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold ${
-                isActive ? 'bg-primary-500 text-white' : 'bg-white/15 text-white/80'
+            {/* Background image */}
+            <BlurUpImage
+              src={stop.imageUrl || ''}
+              alt={stop.name}
+              fallbackEmoji={CAROUSEL_EMOJIS[stop.type] || '\uD83D\uDCCD'}
+              fallbackGradient="bg-gradient-to-br from-gray-800 to-gray-900"
+              enableKenBurns={isActive}
+              className="absolute inset-0"
+            />
+
+            {/* Gradient overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/10" />
+
+            {/* Top row: number badge + type emoji */}
+            <div className="absolute top-2 left-2 right-2 flex items-center justify-between z-10">
+              <span className={`w-7 h-7 rounded-full flex items-center justify-center text-[11px] font-bold shadow-md ${
+                isActive ? 'bg-primary-500 text-white' : 'bg-black/60 text-white/90 backdrop-blur-sm'
               }`}>
                 {index + 1}
               </span>
-              <span className="text-lg">{CAROUSEL_EMOJIS[stop.type] || '📍'}</span>
+              <span className="text-lg drop-shadow-md">{CAROUSEL_EMOJIS[stop.type] || '\uD83D\uDCCD'}</span>
             </div>
 
-            {/* Name */}
-            <p className="text-white text-sm font-semibold truncate mb-1">{stop.name}</p>
+            {/* Bottom content over gradient */}
+            <div className="absolute bottom-0 left-0 right-0 p-3 z-10">
+              {/* Name */}
+              <p className="text-white text-sm font-bold truncate mb-1 drop-shadow-sm">{stop.name}</p>
 
-            {/* Rating + time */}
-            <div className="flex items-center gap-1.5 mb-1">
-              {stop.googleRating && (
-                <span className="text-amber-400 text-[11px] font-medium">★ {stop.googleRating.toFixed(1)}</span>
-              )}
-              {stop.bestTimeOfDay && stop.bestTimeOfDay !== 'any' && (
-                <span className="text-white/40 text-[10px] capitalize">{stop.bestTimeOfDay}</span>
+              {/* Rating + time */}
+              <div className="flex items-center gap-1.5 mb-1">
+                {stop.googleRating && (
+                  <span className="text-amber-400 text-[11px] font-medium drop-shadow-sm">{'\u2605'} {stop.googleRating.toFixed(1)}</span>
+                )}
+                {stop.bestTimeOfDay && stop.bestTimeOfDay !== 'any' && (
+                  <span className="text-white/60 text-[10px] capitalize">{stop.bestTimeOfDay}</span>
+                )}
+              </div>
+
+              {/* Walk time from hotel */}
+              {walkMin !== null && walkMin > 0 && (
+                <p className="text-white/50 text-[10px]">
+                  {'\uD83D\uDEB6'} ~{walkMin} min from hotel
+                </p>
               )}
             </div>
-
-            {/* Walk time from hotel */}
-            {walkMin !== null && walkMin > 0 && (
-              <p className="text-white/40 text-[10px]">
-                🚶 ~{walkMin} min from hotel
-              </p>
-            )}
           </button>
         );
       })}
@@ -2485,7 +2512,50 @@ function FlashExploreContent() {
               </div>
             </div>
 
-            {/* 2. HOTEL DEEP-DIVE CARD */}
+            {/* 2. TRIP NARRATIVE HEADER */}
+            <div className="px-4 pt-5 pb-3">
+              <div className="bg-gradient-to-br from-primary-500/10 to-purple-500/10 border border-primary-500/20 rounded-2xl p-5">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary-500/30 to-purple-500/30 rounded-full flex items-center justify-center">
+                    <span className="text-2xl">{itineraryType ? PATH_CONFIG[itineraryType]?.emoji : '\u2708\uFE0F'}</span>
+                  </div>
+                  <div className="flex-1">
+                    <h2 className="text-white font-bold text-lg leading-tight">
+                      Your {totalDays}-Day {itineraryType ? PATH_CONFIG[itineraryType]?.name : 'Adventure'} in {trip.destination.city}
+                    </h2>
+                    {tripDates.departure && tripDates.return && (
+                      <p className="text-white/50 text-xs mt-0.5">
+                        {(() => { try { return `${format(new Date(tripDates.departure + 'T12:00:00'), 'MMM d')} \u2013 ${format(new Date(tripDates.return + 'T12:00:00'), 'MMM d, yyyy')}`; } catch { return ''; } })()}
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                {/* Key stats */}
+                <div className="flex items-center gap-3 text-xs">
+                  <div className="flex items-center gap-1.5">
+                    <span className="text-primary-400">{'\uD83D\uDCCD'}</span>
+                    <span className="text-white/80">{totalStops} handpicked stops</span>
+                  </div>
+                  {favoriteStops.length > 0 && (
+                    <>
+                      <div className="w-px h-3 bg-white/15" />
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-pink-400">{'\u2764\uFE0F'}</span>
+                        <span className="text-white/80">{favoriteStops.length} favorite{favoriteStops.length !== 1 ? 's' : ''}</span>
+                      </div>
+                    </>
+                  )}
+                  <div className="w-px h-3 bg-white/15" />
+                  <div className="flex items-center gap-1.5">
+                    <span className="text-amber-400">{'\u23F1\uFE0F'}</span>
+                    <span className="text-white/80">~{Math.round(estimateTotalMinutes(allStops) / 60)}hr of exploration</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 3. HOTEL DEEP-DIVE CARD */}
             {hasHotel && selectedHotel && (
               <div className="px-4 py-5">
                 <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden">
@@ -2595,7 +2665,80 @@ function FlashExploreContent() {
               </div>
             )}
 
-            {/* 3. SMART DAY PLANNER — cluster-based day trip suggestions */}
+            {/* 4. FAVORITES SHOWCASE */}
+            {favoriteStops.length >= 2 && (
+              <div className="px-4 py-5 border-t border-white/5">
+                <div className="flex items-center gap-2.5 mb-4">
+                  <div className="w-10 h-10 bg-gradient-to-br from-pink-500/20 to-rose-500/20 rounded-full flex items-center justify-center">
+                    <span className="text-xl">{'\u2764\uFE0F'}</span>
+                  </div>
+                  <div>
+                    <h3 className="text-white font-bold text-base">Your Favorites</h3>
+                    <p className="text-white/50 text-xs">The {favoriteStops.length} spots you hand-picked</p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {favoriteStops.slice(0, 4).map((stop) => {
+                    const walkMin = hasHotel && selectedHotel
+                      ? Math.max(1, Math.round(getDistanceMeters(selectedHotel.latitude, selectedHotel.longitude, stop.latitude, stop.longitude) / 80))
+                      : null;
+
+                    return (
+                      <div key={stop.id} className="bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-pink-500/30 transition-all">
+                        {/* Image */}
+                        <div className="relative h-36">
+                          <BlurUpImage
+                            src={stop.imageUrl || ''}
+                            alt={stop.name}
+                            fallbackEmoji={CAROUSEL_EMOJIS[stop.type] || '\uD83D\uDCCD'}
+                            fallbackGradient="bg-gradient-to-br from-pink-600/30 to-rose-700/30"
+                            className="w-full h-full"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                          <div className="absolute top-2 right-2 bg-pink-500/90 backdrop-blur-sm px-2 py-0.5 rounded-full">
+                            <span className="text-white text-[9px] font-bold uppercase tracking-wide">Favorite</span>
+                          </div>
+                        </div>
+
+                        {/* Details */}
+                        <div className="p-3">
+                          <h4 className="text-white font-semibold text-sm mb-1 line-clamp-1">{stop.name}</h4>
+
+                          {stop.googleRating && (
+                            <div className="flex items-center gap-1.5 mb-1.5">
+                              <span className="text-amber-400 text-xs font-medium">{'\u2605'} {stop.googleRating.toFixed(1)}</span>
+                              {stop.googleReviewCount && (
+                                <span className="text-white/40 text-[10px]">({stop.googleReviewCount.toLocaleString()})</span>
+                              )}
+                            </div>
+                          )}
+
+                          {stop.description && (
+                            <p className="text-white/50 text-xs line-clamp-2 mb-2">{stop.description}</p>
+                          )}
+
+                          <div className="flex items-center gap-3 text-[10px] text-white/40">
+                            {stop.duration && <span>{stop.duration}</span>}
+                            {walkMin !== null && (
+                              <span>{'\uD83D\uDEB6'} ~{walkMin} min walk</span>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+
+                {favoriteStops.length > 4 && (
+                  <p className="text-white/30 text-xs text-center mt-3">
+                    +{favoriteStops.length - 4} more favorite{favoriteStops.length - 4 !== 1 ? 's' : ''} in your itinerary
+                  </p>
+                )}
+              </div>
+            )}
+
+            {/* 5. VISUAL DAY PLANNER TIMELINE */}
             {(() => {
               const pkgClusters = allStops.length >= 4
                 ? clusterPOIsGeographic(allStops)
@@ -2612,29 +2755,23 @@ function FlashExploreContent() {
               });
 
               return (
-                <div className="px-4 py-4">
-                  <div className="flex items-center gap-2.5 mb-3">
-                    <div className="w-9 h-9 bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 rounded-full flex items-center justify-center">
-                      <span className="text-lg">🧭</span>
+                <div className="px-4 py-5 border-t border-white/5">
+                  <div className="flex items-center gap-2.5 mb-4">
+                    <div className="w-10 h-10 bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 rounded-full flex items-center justify-center">
+                      <span className="text-xl">{'\uD83E\uDDED'}</span>
                     </div>
                     <div>
-                      <h3 className="text-white font-bold text-sm">Smart Day Planner</h3>
-                      <p className="text-white/50 text-xs">Nearby spots grouped for efficient day trips</p>
+                      <h3 className="text-white font-bold text-base">Your Day-by-Day Adventure</h3>
+                      <p className="text-white/50 text-xs">Nearby spots grouped for efficient exploring</p>
                     </div>
                   </div>
 
-                  <div className="space-y-2">
-                    {pkgClusters.map((cluster, idx) => {
+                  <div className="space-y-4">
+                    {pkgClusters.map((cluster, dayIdx) => {
                       const clusterStops = allStops.filter(s => pkgStopClusterMap.get(s.id) === cluster.id);
                       const clusterMinutes = estimateTotalMinutes(clusterStops);
                       const clusterHours = Math.round(clusterMinutes / 60);
-                      const TILE_EMOJIS: Record<string, string> = {
-                        landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
-                        park: '🌳', cafe: '☕', bar: '🍸', market: '🛒',
-                        viewpoint: '🌄', nightclub: '🎉', accommodation: '🏨', transport: '✈️', neighborhood: '🏘️',
-                      };
 
-                      // Walk time from hotel to cluster center
                       let hotelWalkMin: number | null = null;
                       if (hasHotel && selectedHotel) {
                         const dist = getDistanceMeters(
@@ -2644,41 +2781,103 @@ function FlashExploreContent() {
                         hotelWalkMin = Math.max(1, Math.round(dist / 80));
                       }
 
+                      // Group stops by bestTimeOfDay
+                      const stopsByTime = new Map<string, typeof clusterStops>();
+                      clusterStops.forEach(stop => {
+                        const timeKey = stop.bestTimeOfDay || 'any';
+                        if (!stopsByTime.has(timeKey)) stopsByTime.set(timeKey, []);
+                        stopsByTime.get(timeKey)!.push(stop);
+                      });
+
+                      // Sort time groups
+                      const sortedTimeGroups = Array.from(stopsByTime.entries())
+                        .sort((a, b) => (TIME_OF_DAY_CONFIG[a[0]]?.order ?? 99) - (TIME_OF_DAY_CONFIG[b[0]]?.order ?? 99));
+
                       return (
                         <div
                           key={cluster.id}
-                          className="bg-white/5 border border-white/10 rounded-xl p-3"
-                          style={{ borderLeft: `3px solid ${cluster.color}` }}
+                          className="bg-white/5 border border-white/10 rounded-xl p-4"
+                          style={{ borderLeftWidth: '4px', borderLeftColor: cluster.color }}
                         >
-                          <div className="flex items-center justify-between mb-2">
-                            <div className="flex items-center gap-2">
-                              <div className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: cluster.color }} />
-                              <span className="text-white font-semibold text-xs">
-                                Day {idx + 1}: {cluster.label} Zone
-                              </span>
+                          {/* Day header */}
+                          <div className="flex items-center justify-between mb-3 pb-3 border-b border-white/10">
+                            <div className="flex items-center gap-2.5">
+                              <div className="w-3 h-3 rounded-full" style={{ backgroundColor: cluster.color }} />
+                              <h4 className="text-white font-bold text-sm">
+                                Day {dayIdx + 1}: {cluster.label} Zone
+                              </h4>
                             </div>
-                            <div className="flex items-center gap-2 text-[10px] text-white/50">
+                            <div className="flex items-center gap-3 text-[10px] text-white/50">
                               <span>{clusterStops.length} spots</span>
-                              <span>·</span>
+                              <span>{'\u00B7'}</span>
                               <span>~{clusterHours}hr</span>
                               {hotelWalkMin !== null && (
                                 <>
-                                  <span>·</span>
-                                  <span>🚶 {hotelWalkMin}min from hotel</span>
+                                  <span>{'\u00B7'}</span>
+                                  <span>{'\uD83D\uDEB6'} {hotelWalkMin}min walk</span>
                                 </>
                               )}
                             </div>
                           </div>
-                          <div className="flex flex-wrap gap-1.5">
-                            {clusterStops.map(stop => (
-                              <span
-                                key={stop.id}
-                                className="inline-flex items-center gap-1 bg-white/8 text-white/70 text-[10px] px-2 py-1 rounded-full"
-                              >
-                                <span>{TILE_EMOJIS[stop.type] || '📍'}</span>
-                                <span className="truncate max-w-[100px]">{stop.name}</span>
-                              </span>
-                            ))}
+
+                          {/* Timeline by time of day */}
+                          <div className="space-y-4">
+                            {sortedTimeGroups.map(([timeKey, timeStops]) => {
+                              const timeConfig = TIME_OF_DAY_CONFIG[timeKey] || TIME_OF_DAY_CONFIG.any;
+
+                              return (
+                                <div key={timeKey} className="relative pl-8">
+                                  {/* Time-of-day marker */}
+                                  <div className="absolute left-0 top-0 flex flex-col items-center">
+                                    <span className="text-lg">{timeConfig.emoji}</span>
+                                    <div className="w-px flex-1 bg-white/10 mt-1" />
+                                  </div>
+
+                                  <div className="mb-2">
+                                    <span className="text-white/70 text-xs font-medium">{timeConfig.label}</span>
+                                    {timeConfig.time && (
+                                      <span className="text-white/35 text-[10px] ml-1.5">({timeConfig.time})</span>
+                                    )}
+                                  </div>
+
+                                  {/* POI cards for this time slot */}
+                                  <div className="space-y-2">
+                                    {timeStops.map(stop => (
+                                      <div key={stop.id} className="flex gap-2.5 bg-white/5 rounded-lg p-2 hover:bg-white/8 transition-colors">
+                                        {/* Thumbnail */}
+                                        <div className="relative w-14 h-14 rounded-md overflow-hidden flex-shrink-0">
+                                          <BlurUpImage
+                                            src={stop.imageUrl || ''}
+                                            alt={stop.name}
+                                            fallbackEmoji={CAROUSEL_EMOJIS[stop.type] || '\uD83D\uDCCD'}
+                                            fallbackGradient="bg-gradient-to-br from-gray-700 to-gray-800"
+                                            className="w-full h-full"
+                                          />
+                                        </div>
+
+                                        {/* Details */}
+                                        <div className="flex-1 min-w-0">
+                                          <p className="text-white text-xs font-semibold truncate">{stop.name}</p>
+                                          <div className="flex items-center gap-2 mt-0.5">
+                                            {stop.googleRating && (
+                                              <span className="text-amber-400 text-[10px]">{'\u2605'} {stop.googleRating.toFixed(1)}</span>
+                                            )}
+                                            {stop.duration && (
+                                              <span className="text-white/40 text-[10px]">{stop.duration}</span>
+                                            )}
+                                          </div>
+                                          {favorites.has(stop.id) && (
+                                            <span className="inline-flex items-center gap-1 text-pink-400 text-[9px] mt-0.5 font-medium">
+                                              {'\u2764\uFE0F'} Favorite
+                                            </span>
+                                          )}
+                                        </div>
+                                      </div>
+                                    ))}
+                                  </div>
+                                </div>
+                              );
+                            })}
                           </div>
                         </div>
                       );
@@ -2722,30 +2921,78 @@ function FlashExploreContent() {
           </div>
 
           {/* ═══ STICKY BOTTOM ACTION BAR ═══ */}
-          <div className="fixed bottom-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur-sm border-t border-white/10 pb-safe">
-            <div className="flex items-center justify-between px-4 py-3 max-w-4xl mx-auto">
-              <div>
-                <p className="text-white font-bold text-xl">
-                  {grandTotal > 0 ? formatPrice(grandTotal, trip.pricing.currency) : 'Free'}
-                </p>
-                {hasHotel && selectedHotel && (
-                  <p className="text-white/40 text-[11px]">
-                    {formatPrice(selectedHotel.pricePerNight, selectedHotel.currency)}/night · {totalDays} nights
-                  </p>
-                )}
-                {!hasHotel && (
-                  <p className="text-white/40 text-[11px]">Itinerary only</p>
-                )}
-              </div>
-              <button
-                onClick={handleFinalConfirm}
-                className="px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold text-sm rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-lg shadow-primary-500/25"
-              >
-                {hasHotel ? 'Confirm & Book Hotel' : 'Get My Package'}
-                <svg className="w-4 h-4 inline-block ml-1.5 -mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </button>
+          <div className="fixed bottom-0 left-0 right-0 z-50 bg-gray-900/98 backdrop-blur-md border-t border-white/10 pb-safe shadow-2xl">
+            <div className="px-4 py-3 max-w-4xl mx-auto">
+              {hasHotel && selectedHotel ? (
+                <div className="flex items-center justify-between gap-3">
+                  {/* Left: Trip summary */}
+                  <div className="flex-1 min-w-0">
+                    <p className="text-white font-bold text-sm truncate mb-0.5">{selectedHotel.name}</p>
+                    <div className="flex items-center gap-2 text-[10px] text-white/50">
+                      <span>{totalDays} nights</span>
+                      <span>{'\u00B7'}</span>
+                      <span className="truncate">{selectedHotel.roomName || 'Standard Room'}</span>
+                    </div>
+                    <div className="flex items-center gap-3 mt-1">
+                      <div className="flex items-center gap-1">
+                        <span className="text-[10px] text-green-400">{'\u2713'}</span>
+                        <span className="text-[10px] text-white/50">{totalStops}-stop itinerary</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <span className="text-[10px] text-purple-400">{'\u2713'}</span>
+                        <span className="text-[10px] text-white/50">AI travel prep</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Center: Price */}
+                  <div className="text-right flex-shrink-0 mr-3">
+                    <p className="text-white/40 text-[9px] uppercase tracking-wide mb-0.5">Total</p>
+                    <p className="text-white font-bold text-xl leading-none">
+                      {formatPrice(grandTotal, trip.pricing.currency)}
+                    </p>
+                    <p className="text-white/30 text-[10px] mt-0.5">
+                      {formatPrice(selectedHotel.pricePerNight, selectedHotel.currency)}/night
+                    </p>
+                  </div>
+
+                  {/* Right: CTA */}
+                  <button
+                    onClick={handleFinalConfirm}
+                    className="px-5 py-3.5 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold text-sm rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-xl shadow-primary-500/30 flex-shrink-0"
+                  >
+                    Confirm & Book
+                    <svg className="w-4 h-4 inline-block ml-1.5 -mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                  </button>
+                </div>
+              ) : (
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="text-white font-bold text-sm mb-0.5">Your {trip.destination.city} Itinerary</p>
+                    <div className="flex items-center gap-3 mt-1">
+                      <div className="flex items-center gap-1">
+                        <span className="text-[10px] text-green-400">{'\u2713'}</span>
+                        <span className="text-[10px] text-white/50">{totalStops} stops {'\u00B7'} {totalDays} days</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <span className="text-[10px] text-purple-400">{'\u2713'}</span>
+                        <span className="text-[10px] text-white/50">Complete travel guides</span>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    onClick={handleFinalConfirm}
+                    className="px-6 py-3.5 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold text-sm rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-xl shadow-primary-500/30"
+                  >
+                    Get My Package
+                    <svg className="w-4 h-4 inline-block ml-1.5 -mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>

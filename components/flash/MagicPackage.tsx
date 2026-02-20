@@ -226,63 +226,83 @@ export function MagicPackage({
       preview: data.packingList.essentials.slice(0, 2).join(', ') +
         (data.packingList.essentials.length > 2 ? ` and ${data.packingList.essentials.length - 2} more` : ''),
       content: (
-        <div className="space-y-5">
-          {/* Essentials */}
-          <div>
-            <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Essentials</h4>
-            <ul className="space-y-1.5">
-              {data.packingList.essentials.map((item, i) => (
-                <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
-                  <span className="text-green-500 mt-0.5">✓</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Must-Brings (numbered with reasons) */}
-          {data.mustBrings.length > 0 && (
+        <div className="space-y-4">
+          {/* Two-column: Essentials + Must-Brings */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {/* Essentials */}
             <div>
-              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Must-Brings</h4>
-              <div className="space-y-2">
-                {data.mustBrings.map((item, i) => (
-                  <div key={i} className={`flex items-start gap-3 p-2 ${t.mustBringBg} rounded-lg`}>
-                    <span className={`${t.mustBringNum} font-bold text-sm mt-0.5`}>{i + 1}</span>
-                    <div>
-                      <span className={`text-sm font-medium ${t.title}`}>{item.item}</span>
-                      <p className={`text-xs ${t.textMuted}`}>{item.reason}</p>
-                    </div>
+              <h4 className={`text-xs font-bold ${t.sectionLabel} mb-2.5 uppercase tracking-wide flex items-center gap-1.5`}>
+                <span className="text-green-500">{'\u2713'}</span>
+                Essentials
+              </h4>
+              <div className="space-y-1">
+                {data.packingList.essentials.map((item, i) => (
+                  <div key={i} className={`flex items-start gap-2.5 text-xs ${t.text} p-1.5 rounded-md hover:${dark ? 'bg-white/5' : 'bg-gray-50'} transition-colors`}>
+                    <span className="text-green-500 text-sm flex-shrink-0">{'\u2713'}</span>
+                    <span className="leading-relaxed">{item}</span>
                   </div>
                 ))}
               </div>
             </div>
-          )}
 
-          {/* Nice-to-Haves */}
-          <div>
-            <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Nice to Have</h4>
-            <ul className="space-y-1.5">
-              {data.packingList.niceToHave.map((item, i) => (
-                <li key={i} className={`flex items-start gap-2 text-sm ${t.textMuted}`}>
-                  <span className={`${t.textFaint} mt-0.5`}>○</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-            {data.niceToHaves.length > 0 && (
-              <div className="mt-3 space-y-2">
-                {data.niceToHaves.map((item, i) => (
-                  <div key={i} className={`flex items-start gap-3 p-2 ${t.niceToHaveBg} rounded-lg`}>
-                    <span className={`${t.niceToHaveNum} font-bold text-sm mt-0.5`}>{i + 1}</span>
-                    <div>
-                      <span className={`text-sm font-medium ${t.title}`}>{item.item}</span>
-                      <p className={`text-xs ${t.textMuted}`}>{item.reason}</p>
+            {/* Must-Brings */}
+            {data.mustBrings.length > 0 && (
+              <div>
+                <h4 className={`text-xs font-bold ${t.sectionLabel} mb-2.5 uppercase tracking-wide flex items-center gap-1.5`}>
+                  <span className="text-amber-500">{'\u2B50'}</span>
+                  Must-Brings
+                </h4>
+                <div className="space-y-2">
+                  {data.mustBrings.map((item, i) => (
+                    <div key={i} className={`${t.mustBringBg} rounded-lg p-2.5 border border-green-500/20`}>
+                      <div className="flex items-start gap-2.5">
+                        <div className={`w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0`}>
+                          <span className={`text-[10px] font-bold ${t.mustBringNum}`}>{i + 1}</span>
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <p className={`text-xs font-semibold ${t.title} mb-0.5`}>{item.item}</p>
+                          <p className={`text-[10px] ${t.textMuted} leading-relaxed`}>{item.reason}</p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
             )}
           </div>
+
+          {/* Nice-to-Have as compact pills */}
+          {data.packingList.niceToHave.length > 0 && (
+            <div>
+              <h4 className={`text-xs font-bold ${t.sectionLabel} mb-2.5 uppercase tracking-wide flex items-center gap-1.5`}>
+                <span className="text-blue-400">{'\u25CB'}</span>
+                Nice to Have
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {data.packingList.niceToHave.map((item, i) => (
+                  <span key={i} className={`inline-flex items-center gap-1.5 ${t.niceToHaveBg} text-xs px-3 py-1.5 rounded-full border border-blue-500/15`}>
+                    <span className="text-blue-400 text-[10px]">{'\u25CB'}</span>
+                    <span className={t.text}>{item}</span>
+                  </span>
+                ))}
+              </div>
+              {data.niceToHaves.length > 0 && (
+                <div className="mt-3 space-y-2">
+                  {data.niceToHaves.map((item, i) => (
+                    <div key={i} className={`${t.niceToHaveBg} rounded-lg p-2.5 border border-blue-500/10`}>
+                      <div className="flex items-start gap-2">
+                        <span className={`${t.niceToHaveNum} text-sm flex-shrink-0`}>{'\u25CB'}</span>
+                        <div>
+                          <span className={`text-xs font-medium ${t.title}`}>{item.item}</span>
+                          <p className={`text-[10px] ${t.textMuted} mt-0.5`}>{item.reason}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
         </div>
       ),
     },
@@ -292,23 +312,26 @@ export function MagicPackage({
       emoji: '✈️',
       preview: data.travelTips.airport?.[0] || 'Airport, transport, money, and connectivity tips',
       content: (
-        <div className="space-y-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {[
-            { title: 'At the Airport', tips: data.travelTips.airport },
-            { title: 'Getting Around', tips: data.travelTips.transport },
-            { title: 'Money & Payments', tips: data.travelTips.money },
-            { title: 'Staying Connected', tips: data.travelTips.connectivity },
-          ].map(({ title, tips }) => (
-            <div key={title}>
-              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2`}>{title}</h4>
-              <ul className="space-y-1.5">
+            { title: 'At the Airport', emoji: '\uD83D\uDEEB', tips: data.travelTips.airport, color: 'text-blue-400' },
+            { title: 'Getting Around', emoji: '\uD83D\uDE95', tips: data.travelTips.transport, color: 'text-green-400' },
+            { title: 'Money & Payments', emoji: '\uD83D\uDCB0', tips: data.travelTips.money, color: 'text-amber-400' },
+            { title: 'Staying Connected', emoji: '\uD83D\uDCF1', tips: data.travelTips.connectivity, color: 'text-purple-400' },
+          ].map(({ title, emoji, tips, color }) => (
+            <div key={title} className={`${t.card} rounded-lg p-3`}>
+              <h4 className={`text-xs font-bold ${t.sectionLabel} mb-2.5 uppercase tracking-wide flex items-center gap-2`}>
+                <span className={`text-base ${color}`}>{emoji}</span>
+                {title}
+              </h4>
+              <div className="space-y-1.5">
                 {tips?.map((tip, i) => (
-                  <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
-                    <span className="text-primary-500 mt-0.5">{'\u2192'}</span>
-                    {tip}
-                  </li>
+                  <div key={i} className={`flex items-start gap-2 text-xs ${t.text} p-1 rounded hover:${dark ? 'bg-white/5' : 'bg-gray-50'} transition-colors`}>
+                    <span className={`${color} text-sm flex-shrink-0 mt-0.5`}>{'\u2192'}</span>
+                    <span className="leading-relaxed">{tip}</span>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>
@@ -321,16 +344,28 @@ export function MagicPackage({
       preview: data.adventureGuide.insiderTips?.[0] || 'Day-by-day guide, insider tips, and hidden gems',
       content: (
         <div className="space-y-4">
+          {/* Day-by-day timeline */}
           {data.adventureGuide.dailySuggestions?.length > 0 && (
             <div>
-              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Day-by-Day</h4>
+              <h4 className={`text-xs font-bold ${t.sectionLabel} mb-3 uppercase tracking-wide flex items-center gap-2`}>
+                <span className="text-base">{'\uD83D\uDCC5'}</span>
+                Day-by-Day Guide
+              </h4>
               <div className="space-y-3">
                 {data.adventureGuide.dailySuggestions.map((day) => (
-                  <div key={day.day} className={`border-l-2 ${t.borderAccent} pl-3`}>
-                    <p className={`text-sm font-medium ${t.title}`}>Day {day.day}: {day.title}</p>
-                    <ul className="mt-1 space-y-0.5">
+                  <div key={day.day} className={`border-l-4 ${t.borderAccent} pl-4 py-2`}>
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="w-7 h-7 rounded-full bg-primary-500/20 flex items-center justify-center">
+                        <span className={`text-xs font-bold ${t.title}`}>{day.day}</span>
+                      </div>
+                      <p className={`text-xs font-bold ${t.title}`}>{day.title}</p>
+                    </div>
+                    <ul className="space-y-1.5">
                       {day.tips.map((tip, i) => (
-                        <li key={i} className={`text-xs ${t.dayTipText}`}>{'\u2022'} {tip}</li>
+                        <li key={i} className={`text-xs ${t.dayTipText} flex items-start gap-2 leading-relaxed`}>
+                          <span className="text-primary-400 flex-shrink-0 mt-0.5">{'\u2022'}</span>
+                          <span>{tip}</span>
+                        </li>
                       ))}
                     </ul>
                   </div>
@@ -339,47 +374,68 @@ export function MagicPackage({
             </div>
           )}
 
-          {data.adventureGuide.insiderTips?.length > 0 && (
-            <div>
-              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Insider Tips</h4>
-              <ul className="space-y-1.5">
-                {data.adventureGuide.insiderTips.map((tip, i) => (
-                  <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
-                    <span className="text-yellow-500 mt-0.5">{'\uD83D\uDCA1'}</span>
-                    {tip}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+          {/* 3-column grid: Insider Tips / Hidden Gems / Safety */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {data.adventureGuide.insiderTips?.length > 0 && (
+              <div className={`${t.card} rounded-lg p-3`}>
+                <h4 className={`text-xs font-bold ${t.sectionLabel} mb-2.5 uppercase tracking-wide flex items-center gap-2`}>
+                  <span className="text-base text-yellow-400">{'\uD83D\uDCA1'}</span>
+                  Insider Tips
+                </h4>
+                <ul className="space-y-2">
+                  {data.adventureGuide.insiderTips.slice(0, 3).map((tip, i) => (
+                    <li key={i} className={`flex items-start gap-2 text-[11px] ${t.text} leading-relaxed`}>
+                      <span className="text-yellow-400 flex-shrink-0 mt-0.5">{'\uD83D\uDCA1'}</span>
+                      <span>{tip}</span>
+                    </li>
+                  ))}
+                </ul>
+                {data.adventureGuide.insiderTips.length > 3 && (
+                  <p className={`text-[10px] ${t.textFaint} mt-2`}>+{data.adventureGuide.insiderTips.length - 3} more</p>
+                )}
+              </div>
+            )}
 
-          {data.adventureGuide.hiddenGems?.length > 0 && (
-            <div>
-              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Hidden Gems</h4>
-              <ul className="space-y-1.5">
-                {data.adventureGuide.hiddenGems.map((gem, i) => (
-                  <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
-                    <span className="text-purple-500 mt-0.5">{'\uD83D\uDC8E'}</span>
-                    {gem}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+            {data.adventureGuide.hiddenGems?.length > 0 && (
+              <div className={`${t.card} rounded-lg p-3`}>
+                <h4 className={`text-xs font-bold ${t.sectionLabel} mb-2.5 uppercase tracking-wide flex items-center gap-2`}>
+                  <span className="text-base text-purple-400">{'\uD83D\uDC8E'}</span>
+                  Hidden Gems
+                </h4>
+                <ul className="space-y-2">
+                  {data.adventureGuide.hiddenGems.slice(0, 3).map((gem, i) => (
+                    <li key={i} className={`flex items-start gap-2 text-[11px] ${t.text} leading-relaxed`}>
+                      <span className="text-purple-400 flex-shrink-0 mt-0.5">{'\uD83D\uDC8E'}</span>
+                      <span>{gem}</span>
+                    </li>
+                  ))}
+                </ul>
+                {data.adventureGuide.hiddenGems.length > 3 && (
+                  <p className={`text-[10px] ${t.textFaint} mt-2`}>+{data.adventureGuide.hiddenGems.length - 3} more</p>
+                )}
+              </div>
+            )}
 
-          {data.adventureGuide.safetyTips?.length > 0 && (
-            <div>
-              <h4 className={`text-sm font-semibold ${t.sectionLabel} mb-2 uppercase tracking-wide`}>Safety Tips</h4>
-              <ul className="space-y-1.5">
-                {data.adventureGuide.safetyTips.map((tip, i) => (
-                  <li key={i} className={`flex items-start gap-2 text-sm ${t.text}`}>
-                    <span className="text-red-500 mt-0.5">{'\u26A0\uFE0F'}</span>
-                    {tip}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+            {data.adventureGuide.safetyTips?.length > 0 && (
+              <div className={`${t.card} rounded-lg p-3`}>
+                <h4 className={`text-xs font-bold ${t.sectionLabel} mb-2.5 uppercase tracking-wide flex items-center gap-2`}>
+                  <span className="text-base text-red-400">{'\u26A0\uFE0F'}</span>
+                  Safety Tips
+                </h4>
+                <ul className="space-y-2">
+                  {data.adventureGuide.safetyTips.slice(0, 3).map((tip, i) => (
+                    <li key={i} className={`flex items-start gap-2 text-[11px] ${t.text} leading-relaxed`}>
+                      <span className="text-red-400 flex-shrink-0 mt-0.5">{'\u26A0\uFE0F'}</span>
+                      <span>{tip}</span>
+                    </li>
+                  ))}
+                </ul>
+                {data.adventureGuide.safetyTips.length > 3 && (
+                  <p className={`text-[10px] ${t.textFaint} mt-2`}>+{data.adventureGuide.safetyTips.length - 3} more</p>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       ),
     },

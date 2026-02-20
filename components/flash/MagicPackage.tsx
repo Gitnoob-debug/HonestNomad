@@ -130,7 +130,9 @@ export function MagicPackage({
       });
 
       if (!response.ok) {
-        throw new Error('Failed to generate magic package');
+        const errorBody = await response.json().catch(() => null);
+        const msg = errorBody?.error || `Failed to generate magic package (${response.status})`;
+        throw new Error(msg);
       }
 
       const result = await response.json();

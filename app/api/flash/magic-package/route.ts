@@ -185,9 +185,11 @@ export async function POST(request: NextRequest) {
       nights,
     });
   } catch (error: any) {
-    console.error('Magic package generation error:', error);
+    console.error(`Magic package error [model=${MODEL}]:`, error?.message || error);
+    // Surface the actual error to the client for debugging
+    const message = error?.message || 'Failed to generate magic package';
     return NextResponse.json(
-      { error: error.message || 'Failed to generate magic package' },
+      { error: message, model: MODEL },
       { status: 500 }
     );
   }

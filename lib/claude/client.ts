@@ -1,5 +1,16 @@
 import OpenAI from 'openai';
 
+// Model — override via OPENROUTER_MODEL env var
+export const MODEL = process.env.OPENROUTER_MODEL || 'anthropic/claude-sonnet-4.6';
+
+// Token budgets
+export const MAX_TOKENS = 2048;
+export const MAGIC_PACKAGE_MAX_TOKENS = 6144;
+
+// ============================================
+// OpenRouter Client
+// ============================================
+
 // Lazy-load the OpenRouter client to avoid build-time errors
 let _openrouter: OpenAI | null = null;
 
@@ -26,8 +37,3 @@ export const openrouter = new Proxy({} as OpenAI, {
     return (getOpenRouterClient() as any)[prop];
   },
 });
-
-export const MODEL = process.env.OPENROUTER_MODEL || 'anthropic/claude-sonnet-4.6';
-export const MAX_TOKENS = 2048;
-/** Higher token budget for the magic package — richer prompt + richer output */
-export const MAGIC_PACKAGE_MAX_TOKENS = 6144;

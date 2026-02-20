@@ -235,3 +235,176 @@ export function filterProximityOutliers<T extends { latitude: number; longitude:
 
   return { inliers, outliers, clusterCenter, thresholdMeters: threshold };
 }
+
+// ─── Geographic POI Clustering (k-means) ───
+
+export interface GeoCluster {
+  id: number;
+  center: GeoPoint;
+  points: GeoPoint[];
+  /** Radius in meters from center to farthest point, with padding (min 200m) */
+  radiusMeters: number;
+  /** Compass direction label: "Central", "North", "South-West", etc. */
+  label: string;
+  /** Color for map overlay from palette */
+  color: string;
+}
+
+const CLUSTER_COLORS = ['#3b82f6', '#f59e0b', '#10b981', '#f43f5e'];
+
+const COMPASS_LABELS: Array<{ min: number; max: number; label: string }> = [
+  { min: -22.5, max: 22.5, label: 'East' },
+  { min: 22.5, max: 67.5, label: 'North-East' },
+  { min: 67.5, max: 112.5, label: 'North' },
+  { min: 112.5, max: 157.5, label: 'North-West' },
+  { min: 157.5, max: 180, label: 'West' },
+  { min: -180, max: -157.5, label: 'West' },
+  { min: -157.5, max: -112.5, label: 'South-West' },
+  { min: -112.5, max: -67.5, label: 'South' },
+  { min: -67.5, max: -22.5, label: 'South-East' },
+];
+
+function getCompassLabel(from: GeoPoint, to: GeoPoint): string {
+  const angle = Math.atan2(to.latitude - from.latitude, to.longitude - from.longitude) * 180 / Math.PI;
+  for (const dir of COMPASS_LABELS) {
+    if (angle >= dir.min && angle < dir.max) return dir.label;
+  }
+  return 'East';
+}
+
+/**
+ * Cluster POIs into 2-4 geographic groups using k-means.
+ * Useful for suggesting efficient day-trip groupings.
+ *
+ * @param points - Array of geographic points to cluster
+ * @param maxClusters - Maximum number of clusters (default 4)
+ * @returns Array of GeoCluster objects sorted by size descending
+ */
+export function clusterPOIsGeographic(
+  points: GeoPoint[],
+  maxClusters: number = 4
+): GeoCluster[] {
+  if (points.length === 0) return [];
+
+  // With 3 or fewer points, return a single cluster
+  if (points.length <= 3) {
+    const center = spatialMedian(points);
+    let maxDist = 0;
+    points.forEach(p => {
+      const d = distanceMeters(p, center);
+      if (d > maxDist) maxDist = d;
+    });
+    return [{
+      id: 0,
+      center,
+      points: [...points],
+      radiusMeters: Math.max(200, maxDist * 1.15),
+      label: 'Central',
+      color: CLUSTER_COLORS[0],
+    }];
+  }
+
+  const k = Math.max(2, Math.min(Math.ceil(points.length / 4), maxClusters));
+
+  // Seed selection: farthest-first traversal from spatial median
+  const globalCenter = spatialMedian(points);
+  const seeds: GeoPoint[] = [];
+
+  // First seed: closest to spatial median (anchor the central cluster)
+  let bestDist = Infinity;
+  let bestIdx = 0;
+  points.forEach((p, i) => {
+    const d = distanceMeters(p, globalCenter);
+    if (d < bestDist) { bestDist = d; bestIdx = i; }
+  });
+  seeds.push({ latitude: points[bestIdx].latitude, longitude: points[bestIdx].longitude });
+
+  // Remaining seeds: farthest from all existing seeds
+  for (let s = 1; s < k; s++) {
+    let maxMinDist = -1;
+    let maxMinIdx = 0;
+    points.forEach((p, i) => {
+      const minDist = Math.min(...seeds.map(seed => distanceMeters(p, seed)));
+      if (minDist > maxMinDist) { maxMinDist = minDist; maxMinIdx = i; }
+    });
+    seeds.push({ latitude: points[maxMinIdx].latitude, longitude: points[maxMinIdx].longitude });
+  }
+
+  // K-means iteration
+  let centroids = seeds.map(s => ({ ...s }));
+  let assignments = new Array<number>(points.length).fill(0);
+
+  for (let iter = 0; iter < 20; iter++) {
+    // Assign each point to nearest centroid
+    let changed = false;
+    points.forEach((p, i) => {
+      let minD = Infinity;
+      let minC = 0;
+      centroids.forEach((c, ci) => {
+        const d = distanceMeters(p, c);
+        if (d < minD) { minD = d; minC = ci; }
+      });
+      if (assignments[i] !== minC) { assignments[i] = minC; changed = true; }
+    });
+
+    if (!changed) break;
+
+    // Recompute centroids
+    centroids = centroids.map((_, ci) => {
+      const members = points.filter((_, pi) => assignments[pi] === ci);
+      if (members.length === 0) return centroids[ci]; // keep old centroid if empty
+      return {
+        latitude: members.reduce((s, p) => s + p.latitude, 0) / members.length,
+        longitude: members.reduce((s, p) => s + p.longitude, 0) / members.length,
+      };
+    });
+  }
+
+  // Build cluster objects
+  const clusters: GeoCluster[] = centroids.map((centroid, ci) => {
+    const members = points.filter((_, pi) => assignments[pi] === ci);
+    let maxDist = 0;
+    members.forEach(p => {
+      const d = distanceMeters(p, centroid);
+      if (d > maxDist) maxDist = d;
+    });
+    return {
+      id: ci,
+      center: centroid,
+      points: members,
+      radiusMeters: Math.max(200, maxDist * 1.15),
+      label: '', // filled in below
+      color: '', // filled in below
+    };
+  }).filter(c => c.points.length > 0); // remove empty clusters
+
+  // Sort by size descending and assign colors
+  clusters.sort((a, b) => b.points.length - a.points.length);
+  clusters.forEach((c, i) => {
+    c.id = i;
+    c.color = CLUSTER_COLORS[i % CLUSTER_COLORS.length];
+  });
+
+  // Assign compass labels
+  if (clusters.length === 1) {
+    clusters[0].label = 'Central';
+  } else {
+    // Find which cluster is closest to the global center → "Central"
+    let closestIdx = 0;
+    let closestDist = Infinity;
+    clusters.forEach((c, i) => {
+      const d = distanceMeters(c.center, globalCenter);
+      if (d < closestDist) { closestDist = d; closestIdx = i; }
+    });
+
+    clusters.forEach((c, i) => {
+      if (i === closestIdx) {
+        c.label = 'Central';
+      } else {
+        c.label = getCompassLabel(globalCenter, c.center);
+      }
+    });
+  }
+
+  return clusters;
+}

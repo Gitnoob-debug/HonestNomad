@@ -25,6 +25,14 @@ interface FavoriteStop {
   longitude: number;
 }
 
+interface ClusterZone {
+  id: number;
+  center: { latitude: number; longitude: number };
+  radiusMeters: number;
+  color: string;
+  label: string;
+}
+
 interface ItineraryMapProps {
   stops: ItineraryStop[];
   centerLatitude: number;
@@ -34,6 +42,10 @@ interface ItineraryMapProps {
   favoriteStops?: FavoriteStop[];
   onStopClick?: (stop: ItineraryStop) => void;
   className?: string;
+  /** Hotel nexus location (zone center or actual hotel) — shows glowing hub marker */
+  hotelLocation?: { latitude: number; longitude: number; name: string } | null;
+  /** Geographic clusters for smart planner overlay */
+  clusterZones?: ClusterZone[];
 }
 
 // Day colors reserved for future itinerary route lines (post hotel-booking)
@@ -80,12 +92,16 @@ export function ItineraryMap({
   favoriteStops = [],
   onStopClick,
   className = '',
+  hotelLocation,
+  clusterZones,
 }: ItineraryMapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<mapboxgl.Marker[]>([]);
+  const hotelMarkerRef = useRef<mapboxgl.Marker | null>(null);
   // routeSourceAdded removed — route lines disabled during explore stage
   const hotelZoneAdded = useRef(false);
+  const clusterZonesAdded = useRef(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
   const [offScreenCount, setOffScreenCount] = useState(0);
@@ -179,10 +195,12 @@ export function ItineraryMap({
 
     return () => {
       markersRef.current.forEach((marker) => marker.remove());
+      hotelMarkerRef.current?.remove();
       map.current?.remove();
       map.current = null;
       initialCenterSet.current = false;
       hotelZoneAdded.current = false;
+      clusterZonesAdded.current = false;
       setMapLoaded(false);
     };
   }, [hasValidCoords]); // Only re-run when hasValidCoords changes (false -> true)
@@ -481,6 +499,165 @@ export function ItineraryMap({
     }
   }, [favoriteStops, mapLoaded]);
 
+  // Hotel nexus marker — glowing purple hub pin
+  useEffect(() => {
+    if (!map.current || !mapLoaded) return;
+
+    // Remove existing hotel marker
+    hotelMarkerRef.current?.remove();
+    hotelMarkerRef.current = null;
+
+    if (!hotelLocation) return;
+
+    const el = document.createElement('div');
+    el.className = 'animate-hotel-pulse';
+    el.style.cssText = `
+      width: 44px; height: 44px; border-radius: 50%;
+      background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+      color: white;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+      box-shadow: 0 0 0 6px rgba(139, 92, 246, 0.3), 0 0 20px rgba(139, 92, 246, 0.2), 0 4px 12px rgba(0,0,0,0.4);
+      border: 3px solid rgba(255,255,255,0.95);
+      cursor: default;
+      z-index: 30;
+    `;
+    el.textContent = '\uD83C\uDFE8'; // 🏨
+
+    const marker = new mapboxgl.Marker({ element: el })
+      .setLngLat([hotelLocation.longitude, hotelLocation.latitude])
+      .addTo(map.current!);
+
+    hotelMarkerRef.current = marker;
+  }, [hotelLocation, mapLoaded]);
+
+  // Cluster zone overlays — color-coded circles for smart planner
+  useEffect(() => {
+    if (!map.current || !mapLoaded) return;
+
+    const m = map.current;
+
+    if (!clusterZones || clusterZones.length === 0) {
+      // Remove cluster layers if they exist
+      if (clusterZonesAdded.current) {
+        try {
+          if (m.getLayer('poi-clusters-label')) m.removeLayer('poi-clusters-label');
+          if (m.getLayer('poi-clusters-border')) m.removeLayer('poi-clusters-border');
+          if (m.getLayer('poi-clusters-fill')) m.removeLayer('poi-clusters-fill');
+          if (m.getSource('poi-clusters')) m.removeSource('poi-clusters');
+          clusterZonesAdded.current = false;
+        } catch {
+          // Ignore cleanup errors
+        }
+      }
+      return;
+    }
+
+    // Generate circle polygons for each cluster
+    const features: GeoJSON.Feature[] = clusterZones.map(zone => {
+      const numPts = 48;
+      const coords: [number, number][] = [];
+      for (let i = 0; i <= numPts; i++) {
+        const angle = (i / numPts) * 2 * Math.PI;
+        const dx = zone.radiusMeters * Math.cos(angle);
+        const dy = zone.radiusMeters * Math.sin(angle);
+        const lng = zone.center.longitude + (dx / (111320 * Math.cos(zone.center.latitude * Math.PI / 180)));
+        const lat = zone.center.latitude + (dy / 111320);
+        coords.push([lng, lat]);
+      }
+      return {
+        type: 'Feature' as const,
+        properties: {
+          color: zone.color,
+          label: zone.label,
+          clusterId: zone.id,
+        },
+        geometry: {
+          type: 'Polygon' as const,
+          coordinates: [coords],
+        },
+      };
+    });
+
+    // Label points at each cluster center
+    const labelFeatures: GeoJSON.Feature[] = clusterZones.map(zone => ({
+      type: 'Feature' as const,
+      properties: {
+        color: zone.color,
+        label: zone.label,
+      },
+      geometry: {
+        type: 'Point' as const,
+        coordinates: [zone.center.longitude, zone.center.latitude],
+      },
+    }));
+
+    const clusterData: GeoJSON.FeatureCollection = {
+      type: 'FeatureCollection',
+      features: [...features, ...labelFeatures],
+    };
+
+    try {
+      if (clusterZonesAdded.current) {
+        const src = m.getSource('poi-clusters') as mapboxgl.GeoJSONSource;
+        if (src) src.setData(clusterData);
+      } else {
+        m.addSource('poi-clusters', { type: 'geojson', data: clusterData });
+
+        // Fill — subtle transparent color
+        m.addLayer({
+          id: 'poi-clusters-fill',
+          type: 'fill',
+          source: 'poi-clusters',
+          filter: ['==', ['geometry-type'], 'Polygon'],
+          paint: {
+            'fill-color': ['get', 'color'],
+            'fill-opacity': 0.08,
+          },
+        });
+
+        // Border — dashed line
+        m.addLayer({
+          id: 'poi-clusters-border',
+          type: 'line',
+          source: 'poi-clusters',
+          filter: ['==', ['geometry-type'], 'Polygon'],
+          paint: {
+            'line-color': ['get', 'color'],
+            'line-width': 2,
+            'line-opacity': 0.4,
+            'line-dasharray': [3, 2],
+          },
+        });
+
+        // Labels at cluster centers
+        m.addLayer({
+          id: 'poi-clusters-label',
+          type: 'symbol',
+          source: 'poi-clusters',
+          filter: ['==', ['geometry-type'], 'Point'],
+          layout: {
+            'text-field': ['get', 'label'],
+            'text-size': 11,
+            'text-font': ['DIN Pro Medium', 'Arial Unicode MS Regular'],
+            'text-anchor': 'center',
+            'text-allow-overlap': true,
+          },
+          paint: {
+            'text-color': ['get', 'color'],
+            'text-opacity': 0.7,
+            'text-halo-color': '#1a1a2e',
+            'text-halo-width': 1.5,
+          },
+        });
+
+        clusterZonesAdded.current = true;
+      }
+    } catch (error) {
+      console.error('Failed to add cluster zones:', error);
+    }
+  }, [clusterZones, mapLoaded]);
+
   // Fly to active stop
   useEffect(() => {
     if (!map.current || !mapLoaded || !activeStopId) return;
@@ -523,7 +700,7 @@ export function ItineraryMap({
     <div className="relative" style={{ width: '100%', height: '100%' }}>
       <div ref={mapContainer} className={`${className}`} style={{ width: '100%', height: '100%' }} />
       {offScreenCount > 0 && (
-        <div className="absolute top-16 right-3 z-10 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded-full text-white/80 text-xs font-medium flex items-center gap-1.5 shadow-lg">
+        <div className="absolute top-28 right-3 z-10 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded-full text-white/80 text-xs font-medium flex items-center gap-1.5 shadow-lg">
           <span className="text-amber-400">+{offScreenCount}</span> more off-screen
           <span className="text-white/40">↗</span>
         </div>

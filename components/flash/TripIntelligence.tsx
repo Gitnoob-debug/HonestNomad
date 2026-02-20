@@ -156,8 +156,10 @@ export function TripIntelligence({
   const dark = variant === 'dark';
 
   useEffect(() => {
-    loadIntelligence();
-  }, [destinationId]);
+    if (destinationId && country && departureDate) {
+      loadIntelligence();
+    }
+  }, [destinationId, country, departureDate]);
 
   const loadIntelligence = async () => {
     try {

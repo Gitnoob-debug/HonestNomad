@@ -2355,6 +2355,51 @@ function FlashExploreContent() {
     const totalStops = allStops.length;
     const grandTotal = skipHotels ? 0 : (selectedHotel?.totalPrice || 0);
 
+    // Read traveler type from session (fix: was hardcoded as "couple")
+    let resolvedTravelerType = 'couple';
+    try { const stored = sessionStorage.getItem('flash_traveler_type'); if (stored) resolvedTravelerType = stored; } catch {}
+
+    // Rich context for AI Travel Prep
+    const poiDetailsForAI = allStops.map(stop => ({
+      name: stop.name,
+      type: stop.type,
+      category: stop.category || undefined,
+      rating: stop.googleRating,
+      reviewCount: stop.googleReviewCount,
+      duration: stop.duration,
+      bestTimeOfDay: stop.bestTimeOfDay,
+      distanceFromHotel: hasHotel && selectedHotel
+        ? Math.round(getDistanceMeters(
+            selectedHotel.latitude, selectedHotel.longitude,
+            stop.latitude, stop.longitude
+          ))
+        : undefined,
+    }));
+
+    const clusterSummaries = poiClusters.map(cluster => {
+      const clusterStopsList = allStops.filter(s => stopClusterMap.get(s.id) === cluster.id);
+      const walkMin = hasHotel && selectedHotel
+        ? Math.max(1, Math.round(getDistanceMeters(
+            selectedHotel.latitude, selectedHotel.longitude,
+            cluster.center.latitude, cluster.center.longitude
+          ) / 80))
+        : undefined;
+      return {
+        label: cluster.label,
+        poiNames: clusterStopsList.map(s => s.name),
+        walkFromHotel: walkMin,
+      };
+    });
+
+    const hotelContextForAI = hasHotel && selectedHotel ? {
+      name: selectedHotel.name,
+      stars: selectedHotel.stars,
+      pricePerNight: selectedHotel.pricePerNight,
+      totalPrice: selectedHotel.totalPrice,
+      currency: selectedHotel.currency,
+      amenities: selectedHotel.amenities,
+    } : undefined;
+
     // Calculate 3 nearest POIs to hotel for proximity display
     const nearestToHotel = hasHotel && selectedHotel
       ? allStops
@@ -2659,12 +2704,18 @@ function FlashExploreContent() {
                 country={trip.destination.country}
                 departureDate={tripDates.departure}
                 returnDate={tripDates.return}
-                travelerType="couple"
+                travelerType={resolvedTravelerType}
                 hotelName={selectedHotel?.name}
                 activities={allStops.map((s) => s.name).slice(0, 10)}
                 vibes={trip.destination.vibes || []}
                 variant="dark"
                 layout="grid"
+                pathType={itineraryType || undefined}
+                pathDescription={itineraryType ? PATH_CONFIG[itineraryType]?.name : undefined}
+                poiDetails={poiDetailsForAI}
+                favoritePOIs={favoriteStops.map(s => s.name)}
+                clusters={clusterSummaries}
+                hotelContext={hotelContextForAI}
               />
             </div>
 

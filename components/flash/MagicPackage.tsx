@@ -24,6 +24,32 @@ interface MagicPackageData {
   };
 }
 
+interface POIDetailProp {
+  name: string;
+  type: string;
+  category?: string;
+  rating?: number;
+  reviewCount?: number;
+  duration?: string;
+  bestTimeOfDay?: string;
+  distanceFromHotel?: number;
+}
+
+interface ClusterProp {
+  label: string;
+  poiNames: string[];
+  walkFromHotel?: number;
+}
+
+interface HotelContextProp {
+  name: string;
+  stars?: number;
+  pricePerNight?: number;
+  totalPrice?: number;
+  currency?: string;
+  amenities?: string[];
+}
+
 interface MagicPackageProps {
   destination: string;
   country: string;
@@ -37,6 +63,13 @@ interface MagicPackageProps {
   variant?: 'light' | 'dark';
   /** 'accordion' for stacked expandable sections, 'grid' for 3-card grid layout */
   layout?: 'accordion' | 'grid';
+  /** Rich context for personalized AI output */
+  pathType?: string;
+  pathDescription?: string;
+  poiDetails?: POIDetailProp[];
+  favoritePOIs?: string[];
+  clusters?: ClusterProp[];
+  hotelContext?: HotelContextProp;
 }
 
 export function MagicPackage({
@@ -50,6 +83,12 @@ export function MagicPackage({
   vibes,
   variant = 'light',
   layout = 'accordion',
+  pathType,
+  pathDescription,
+  poiDetails,
+  favoritePOIs,
+  clusters,
+  hotelContext,
 }: MagicPackageProps) {
   const [data, setData] = useState<MagicPackageData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -81,6 +120,12 @@ export function MagicPackage({
           hotelName,
           activities,
           vibes,
+          pathType,
+          pathDescription,
+          poiDetails,
+          favoritePOIs,
+          clusters,
+          hotelContext,
         }),
       });
 

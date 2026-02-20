@@ -2550,7 +2550,100 @@ function FlashExploreContent() {
               </div>
             )}
 
-            {/* 3. AI TRAVEL PREP — Grid Cards */}
+            {/* 3. SMART DAY PLANNER — cluster-based day trip suggestions */}
+            {(() => {
+              const pkgClusters = allStops.length >= 4
+                ? clusterPOIsGeographic(allStops)
+                : [];
+              if (pkgClusters.length < 2) return null;
+
+              // Map stop IDs to clusters
+              const pkgStopClusterMap = new Map<string, number>();
+              pkgClusters.forEach(cluster => {
+                cluster.points.forEach(point => {
+                  const stop = allStops.find(s => s.latitude === point.latitude && s.longitude === point.longitude);
+                  if (stop) pkgStopClusterMap.set(stop.id, cluster.id);
+                });
+              });
+
+              return (
+                <div className="px-4 py-4">
+                  <div className="flex items-center gap-2.5 mb-3">
+                    <div className="w-9 h-9 bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 rounded-full flex items-center justify-center">
+                      <span className="text-lg">🧭</span>
+                    </div>
+                    <div>
+                      <h3 className="text-white font-bold text-sm">Smart Day Planner</h3>
+                      <p className="text-white/50 text-xs">Nearby spots grouped for efficient day trips</p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-2">
+                    {pkgClusters.map((cluster, idx) => {
+                      const clusterStops = allStops.filter(s => pkgStopClusterMap.get(s.id) === cluster.id);
+                      const clusterMinutes = estimateTotalMinutes(clusterStops);
+                      const clusterHours = Math.round(clusterMinutes / 60);
+                      const TILE_EMOJIS: Record<string, string> = {
+                        landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
+                        park: '🌳', cafe: '☕', bar: '🍸', market: '🛒',
+                        viewpoint: '🌄', nightclub: '🎉', accommodation: '🏨', transport: '✈️', neighborhood: '🏘️',
+                      };
+
+                      // Walk time from hotel to cluster center
+                      let hotelWalkMin: number | null = null;
+                      if (hasHotel && selectedHotel) {
+                        const dist = getDistanceMeters(
+                          selectedHotel.latitude, selectedHotel.longitude,
+                          cluster.center.latitude, cluster.center.longitude
+                        );
+                        hotelWalkMin = Math.max(1, Math.round(dist / 80));
+                      }
+
+                      return (
+                        <div
+                          key={cluster.id}
+                          className="bg-white/5 border border-white/10 rounded-xl p-3"
+                          style={{ borderLeft: `3px solid ${cluster.color}` }}
+                        >
+                          <div className="flex items-center justify-between mb-2">
+                            <div className="flex items-center gap-2">
+                              <div className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: cluster.color }} />
+                              <span className="text-white font-semibold text-xs">
+                                Day {idx + 1}: {cluster.label} Zone
+                              </span>
+                            </div>
+                            <div className="flex items-center gap-2 text-[10px] text-white/50">
+                              <span>{clusterStops.length} spots</span>
+                              <span>·</span>
+                              <span>~{clusterHours}hr</span>
+                              {hotelWalkMin !== null && (
+                                <>
+                                  <span>·</span>
+                                  <span>🚶 {hotelWalkMin}min from hotel</span>
+                                </>
+                              )}
+                            </div>
+                          </div>
+                          <div className="flex flex-wrap gap-1.5">
+                            {clusterStops.map(stop => (
+                              <span
+                                key={stop.id}
+                                className="inline-flex items-center gap-1 bg-white/8 text-white/70 text-[10px] px-2 py-1 rounded-full"
+                              >
+                                <span>{TILE_EMOJIS[stop.type] || '📍'}</span>
+                                <span className="truncate max-w-[100px]">{stop.name}</span>
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })()}
+
+            {/* 4. AI TRAVEL PREP — Grid Cards */}
             <div className="px-4 pb-6">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-full flex items-center justify-center">

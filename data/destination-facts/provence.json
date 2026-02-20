@@ -1,0 +1,115 @@
+{
+  "destinationId": "provence",
+  "city": "Avignon",
+  "country": "France",
+  "transportAdvice": "Avignon's historic centre is compact and very walkable, with most major attractions reachable on foot within the city walls. A local bus network serves the wider urban area, and taxis are generally available near the train station and main squares for trips beyond walking distance.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally frosty winter days with periodic rain and the possibility of the cold Mistral wind sweeping through."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Slowly brightening days but still chilly, with lingering winter showers and occasional strong winds."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and longer days, though rain and gusty Mistral winds remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring warmth with blooming landscapes, though showers can still interrupt otherwise sunny days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny with comfortable temperatures, making it an excellent month for sightseeing outdoors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry summer conditions begin, with long sunny days and very little rainfall."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with intense sunshine and minimal rain; the famous Avignon Festival brings large crowds mid-month."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued hot and dry weather with occasional brief thunderstorms providing rare relief from the heat."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures ease pleasantly into early autumn, with more frequent showers returning toward the end of the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly overcast autumn days with regular rainfall and the return of occasional Mistral winds."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and grey with frequent rain; the city quiets significantly as the main tourist season ends."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter conditions with short days, periodic rain, and the possibility of frost, though festive Christmas markets add seasonal charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "bariloche",
+  "city": "Bariloche",
+  "country": "Argentina",
+  "transportAdvice": "Bariloche's compact city center is walkable, but reaching lakeside attractions and ski areas requires transport. A local bus network covers most tourist zones, and taxis are widely available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer with warm, sunny days ideal for hiking, water sports, and exploring the lakes."
+    },
+    {
+      "month": 2,
+      "avgHighC": 22,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still warm and dry, one of the best months to visit with long daylight hours and clear skies."
+    },
+    {
+      "month": 3,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler temperatures and the beginning of spectacular fall foliage colors."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn is well underway with vivid red and orange forests, cooler days, and increasing rainfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late autumn with cold temperatures, frequent rain, and the first snowfall possible at higher elevations."
+    },
+    {
+      "month": 6,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Winter begins with cold, wet conditions and snowfall; ski season opens on the nearby slopes."
+    },
+    {
+      "month": 7,
+      "avgHighC": 5,
+      "avgLowC": -2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak ski season with heavy snowfall, cold temperatures, and lively winter resort atmosphere."
+    },
+    {
+      "month": 8,
+      "avgHighC": 7,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Ski season continues with reliable snow cover and cold, often overcast days."
+    },
+    {
+      "month": 9,
+      "avgHighC": 10,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late winter transitioning to spring, with snow melting at lower elevations and unpredictable weather."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with wildflowers blooming, mild temperatures, and occasional rain showers."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming spring weather makes outdoor activities increasingly pleasant with lush green landscapes."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer with warm days, low rainfall, and the start of the busy tourist high season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "napa-valley",
+  "city": "Napa Valley",
+  "country": "United States",
+  "transportAdvice": "Napa Valley has limited public transit, with a regional bus network that connects some towns but does not comprehensively cover wine country attractions, making a rental car the most practical option for most visitors. Taxis and ride-hail services are available but can be sparse outside of town centers, and walking between wineries is generally not feasible given the rural, spread-out nature of the region.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and wet with frequent rain showers, making it the quietest and most affordable time to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Still rainy and cool, but early wildflowers begin to appear and crowds remain thin."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to taper off and temperatures warm slightly, with mustard flowers blooming between the vines."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Pleasant spring weather with mild temperatures and occasional showers, ideal for exploring the valley."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry with lush green vineyards, one of the most enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with very little rain, marking the start of the busy summer tourist season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with long sunny days, peak season with high visitor numbers and elevated prices."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Consistently hot and dry, with harvest preparations beginning toward the end of the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Harvest season begins, bringing exciting winery activity and warm golden days with cool evenings."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Harvest continues into early October with beautiful fall foliage and comfortable temperatures."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and quieter with the first autumn rains returning and a more relaxed atmosphere across the valley."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cold and rainy with a festive holiday atmosphere in town, and significantly fewer crowds at wineries."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

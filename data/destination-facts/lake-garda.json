@@ -1,0 +1,115 @@
+{
+  "destinationId": "lake-garda",
+  "city": "Lake Garda",
+  "country": "Italy",
+  "transportAdvice": "Lake Garda's lakeside towns are generally walkable within their historic centers, though distances between towns make local ferry services and regional buses the most practical options for getting around the lake. Taxis are available but relatively limited outside larger towns, and renting a car or bicycle is a popular choice for exploring the surrounding hills and villages.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and quiet with occasional frost, making it the off-season with few crowds and many attractions closed."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool and wintry but days begin to lengthen, with occasional mild spells hinting at spring."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins to emerge with warming temperatures and blooming vegetation along the lake shores."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and increasingly warm with occasional showers, ideal for hiking and early-season sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lush with the lake at its most scenic, though afternoon thunderstorms are possible."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer brings warm sunny days and the lake becomes busy with swimmers and water sports enthusiasts."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny at peak summer, with the lake at its warmest and towns at their most crowded."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Equally hot as July with high tourist numbers, perfect for swimming but expect busy beaches and restaurants."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and golden with thinning crowds, considered one of the best months to visit the lake."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn temperatures with more frequent rain and a quieter, more relaxed atmosphere around the lake."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and often overcast with many seasonal businesses closing, giving the lake a peaceful off-season feel."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and wintry with festive Christmas markets in some towns, though much of the tourist infrastructure is closed."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

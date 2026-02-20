@@ -1,0 +1,115 @@
+{
+  "destinationId": "suzhou",
+  "city": "Suzhou",
+  "country": "China",
+  "transportAdvice": "Suzhou has a metro system and an extensive bus network that connects major tourist areas including the classical gardens and historic districts, making public transit a practical option for most visitors. Taxis and ride-hailing services are widely available, and many garden districts are compact enough to explore comfortably on foot.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold and dry with occasional overcast skies, light layers are sufficient for most days."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with increasing cloud cover and occasional light rain as winter begins to ease."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild spring temperatures arrive with more frequent showers and fresh greenery in the gardens."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and warming with blooming flowers making this one of the best months to visit the classical gardens."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly humid with regular rainfall, gardens are lush and vibrant."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very humid with frequent heavy rain during the plum rain season, expect wet conditions."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest month with intense heat, high humidity, and heavy downpours including occasional typhoon-related rain."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Remains very hot and humid with continued heavy rainfall, outdoor sightseeing can be uncomfortable midday."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures begin to ease but humidity stays high with moderate rainfall, a transitional month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Crisp and comfortable autumn weather with lower humidity and beautiful foliage, an excellent time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and mostly dry with clear skies, ideal for walking the historic canals and garden paths."
+    },
+    {
+      "month": 12,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold and dry with a quiet atmosphere, fewer tourists and a peaceful ambiance in the classical gardens."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "kanazawa",
+  "city": "Kanazawa",
+  "country": "Japan",
+  "transportAdvice": "Kanazawa's main tourist areas, including Kenroku-en, the Higashi Chaya geisha district, and Omicho Market, are walkable from one another, though the city is spread enough that buses are the primary public transit option and cover most sights well. Taxis are widely available and reliable for reaching areas less served by bus routes.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and grey with frequent rain and occasional snow; one of the cloudiest months of the year."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and overcast with persistent rain and snow showers; winter conditions continue."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly warmer days but rain remains frequent; cherry blossoms begin late in the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with cherry blossoms in full bloom; mild temperatures and occasional showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with fresh greenery; one of the more agreeable months for sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season brings frequent heavy rain and rising humidity; expect wet conditions throughout the month."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid after the rainy season ends; sunshine increases but heat can be intense."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month with high humidity; outdoor sightseeing is best done in the early morning or evening."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures ease slightly but humidity remains; occasional typhoon-related rain is possible."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn temperatures with beautiful foliage; a popular and rewarding time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Autumn colours peak early in the month before rain and cold return; increasingly grey toward month's end."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, wet, and often overcast; rain and occasional snow make this one of the less hospitable months for travel."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

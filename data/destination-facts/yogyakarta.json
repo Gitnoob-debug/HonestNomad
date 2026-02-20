@@ -1,0 +1,115 @@
+{
+  "destinationId": "yogyakarta",
+  "city": "Yogyakarta",
+  "country": "Indonesia",
+  "transportAdvice": "Yogyakarta has a city bus rapid transit system that connects major tourist areas, and becak (cycle rickshaws) and andong (horse-drawn carts) are common for short distances; taxis and motorcycle taxis are widely available and affordable. Walking is practical within the Kraton and Malioboro areas, but distances between major sites like Borobudur and Prambanan require hired transport or organized tours.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent heavy afternoon downpours; expect lush green landscapes but plan indoor alternatives."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and high humidity; one of the wettest months of the year."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward month's end but remains frequent and heavy."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitional month with decreasing rainfall and warming temperatures; still expect occasional showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Drier conditions emerging with pleasant temperatures; a good time to visit outdoor temples."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season begins in earnest with comfortable temperatures and low humidity; excellent for sightseeing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with clear skies and cooler nights; the most popular month for tourism."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Consistently dry and sunny with refreshing breezes; ideal conditions for visiting Borobudur and Prambanan."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still dry and warm with excellent visibility; one of the best months for outdoor exploration."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month as the wet season approaches; occasional showers return but days are mostly sunny."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall increases noticeably with humid conditions returning; afternoons are prone to thunderstorms."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season fully established with heavy and frequent rain; festive atmosphere but outdoor plans may be disrupted."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

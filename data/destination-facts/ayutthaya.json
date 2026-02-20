@@ -1,0 +1,115 @@
+{
+  "destinationId": "ayutthaya",
+  "city": "Ayutthaya",
+  "country": "Thailand",
+  "transportAdvice": "Ayutthaya's historical sites are spread across a fairly large area, making walking practical only within clusters of ruins; renting a bicycle or tuk-tuk is the most common way to get around. Taxis and songthaews (shared pickup trucks) are generally available, and the town is easily reached from Bangkok by train or minibus.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 33,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with clear skies, making it the most comfortable month for exploring outdoor ruins."
+    },
+    {
+      "month": 2,
+      "avgHighC": 35,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly sunny with very little rain, still pleasant for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 37,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb noticeably; hot afternoons but dry conditions persist."
+    },
+    {
+      "month": 4,
+      "avgHighC": 38,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the hottest months of the year with occasional early-season showers beginning toward month's end."
+    },
+    {
+      "month": 5,
+      "avgHighC": 36,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wet season begins with frequent afternoon thunderstorms and rising humidity."
+    },
+    {
+      "month": 6,
+      "avgHighC": 35,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Regular heavy rain, often in the afternoons; outdoor temple visits are best done in the morning."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued monsoon rains with overcast skies and occasional flooding in low-lying areas."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months; flooding around the island can affect access to some sites."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak flood risk month as rivers swell; some ruins may be partially submerged or inaccessible."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease but flooding can linger; conditions gradually improve toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The dry season returns with cooler evenings and decreasing rainfall, making it a good time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and comfortable — excellent conditions for exploring the historical park."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

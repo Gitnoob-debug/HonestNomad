@@ -1,0 +1,115 @@
+{
+  "destinationId": "milford-sound",
+  "city": "Milford Sound",
+  "country": "New Zealand",
+  "transportAdvice": "Milford Sound is a remote fiord accessible primarily by a single scenic road through Fiordland National Park, with no local public transit network; most visitors arrive by guided coach tour, rental car, or small aircraft. Walking within the wharf area is easy, but a private vehicle or organised tour is essential for reaching the destination from Queenstown or Te Anau.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+12",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warm summer days but frequent heavy rainfall is typical, enhancing the dramatic waterfalls throughout the fiord."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued warm and wet conditions with lush greenery; rain showers can arrive quickly and intensely."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early autumn brings slightly cooler temperatures with persistent rainfall and misty fiord scenery."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn deepens; waterfalls are at their most spectacular after heavy rain."
+    },
+    {
+      "month": 5,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and often wet with shorter daylight hours; snow may dust the surrounding peaks at higher elevations."
+    },
+    {
+      "month": 6,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cold winter conditions with frequent rain and possible snow on surrounding mountains; crowds are thinner."
+    },
+    {
+      "month": 7,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "The coldest month with heavy rainfall and snow on peaks; dramatic moody skies make for striking photography."
+    },
+    {
+      "month": 8,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Still cold and wet but days begin to lengthen slightly; waterfalls are powerful and the landscape is dramatic."
+    },
+    {
+      "month": 9,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Early spring with improving temperatures but continued high rainfall; wildflowers begin to appear on valley floors."
+    },
+    {
+      "month": 10,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Spring brings milder days and increasing visitor numbers; rain remains frequent but sunshine becomes more common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Late spring with warmer temperatures and long daylight hours; sandflies become more active alongside the rain."
+    },
+    {
+      "month": 12,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early summer with warm days and high rainfall; peak tourist season begins and the fiord is at its most vibrant."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

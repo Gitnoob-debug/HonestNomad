@@ -1,0 +1,115 @@
+{
+  "destinationId": "easter-island",
+  "city": "Easter Island",
+  "country": "Chile",
+  "transportAdvice": "Easter Island is small enough that many sites near Hanga Roa can be explored on foot, but reaching the more remote moai sites requires renting a car, bicycle, ATV, or horse, or joining a guided tour. Taxis are available in the main town, and there is no formal public bus network serving tourist attractions.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid midsummer with occasional short rain showers; the busiest tourist season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still warm and humid with similar conditions to January; expect crowds and brief tropical downpours."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Late summer warmth begins to ease slightly; rain remains possible but days are generally sunny."
+    },
+    {
+      "month": 4,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings milder temperatures and slightly less humidity; a pleasant time to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and occasionally rainy; fewer tourists and comfortable conditions for exploring."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Winter sets in with cooler temperatures and increased rainfall; pack a light jacket."
+    },
+    {
+      "month": 7,
+      "avgHighC": 20,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "The coolest and one of the rainiest months; seas can be rough and winds pick up."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Similar to July with cool, wet, and windy conditions; low season with fewer visitors."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with gradually warming temperatures and easing rainfall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming up with a mix of sun and showers; a good shoulder-season option."
+    },
+    {
+      "month": 11,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late spring brings warm, pleasant weather with increasing sunshine and manageable crowds."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Early summer with rising heat and humidity; tourist numbers begin to climb toward the peak season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

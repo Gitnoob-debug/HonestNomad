@@ -1,0 +1,115 @@
+{
+  "destinationId": "park-city",
+  "city": "Park City",
+  "country": "United States",
+  "transportAdvice": "Park City operates a free local bus system that connects major resort areas, downtown Main Street, and surrounding neighborhoods, making it reasonably easy to get around without a car. Taxis and ride-hail services are available, though having a car is helpful for reaching trailheads and areas outside the main transit corridors.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -11,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold and snowy with excellent powder conditions, making it peak ski season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 1,
+      "avgLowC": -10,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Continued cold and snowy weather ideal for winter sports enthusiasts."
+    },
+    {
+      "month": 3,
+      "avgHighC": 5,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Late ski season with slightly warmer days but still reliable snow on the mountains."
+    },
+    {
+      "month": 4,
+      "avgHighC": 11,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Spring arrives with mixed conditions, snow melting at lower elevations and occasional rain."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Mild and pleasant with blooming wildflowers, though afternoon showers are possible."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with long days, great for hiking and mountain biking."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot sunny days with low humidity, occasional afternoon thunderstorms possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Similar to July with warm temperatures and mostly clear skies, ideal for outdoor activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp and clear autumn weather with stunning fall foliage on the surrounding mountains."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooling temperatures with early snowfall possible at higher elevations."
+    },
+    {
+      "month": 11,
+      "avgHighC": 5,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold and increasingly wintry with early season snowfall building anticipation for ski season."
+    },
+    {
+      "month": 12,
+      "avgHighC": -1,
+      "avgLowC": -10,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Full winter conditions with heavy snowfall and the start of the main ski season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

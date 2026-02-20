@@ -1,0 +1,115 @@
+{
+  "destinationId": "banos",
+  "city": "Baños",
+  "country": "Ecuador",
+  "transportAdvice": "The compact town center is very walkable, with most attractions, restaurants, and thermal baths reachable on foot. Local buses and taxis are readily available for trips to nearby waterfalls and adventure sites along the Route of the Waterfalls.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm days with occasional afternoon showers; generally pleasant for outdoor activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with mild temperatures and intermittent rain typical of the Andean foothills."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wetter months; expect frequent afternoon and evening rain showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet conditions with lush green surroundings; waterfalls are at their most impressive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to ease slightly; a transitional month with a mix of sun and showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Drier and sunnier conditions begin; one of the better months for adventure activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the driest months with clear skies and excellent visibility for outdoor excursions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and warm; peak conditions for hiking, rafting, and cycling the waterfall route."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to return; still largely enjoyable with occasional afternoon showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with increasing rainfall but comfortable temperatures throughout."
+    },
+    {
+      "month": 11,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Moderate rainfall with warm days; a quieter period for tourism with fewer crowds."
+    },
+    {
+      "month": 12,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and occasionally rainy; festive atmosphere in town as the holiday season approaches."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

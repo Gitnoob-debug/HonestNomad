@@ -1,0 +1,115 @@
+{
+  "destinationId": "kelowna",
+  "city": "Kelowna",
+  "country": "Canada",
+  "transportAdvice": "Kelowna has a local bus network that covers major areas including downtown and some tourist zones, though service frequency can be limited and a car is often more practical for reaching wineries, beaches, and surrounding attractions. Taxis and ride-hailing options are available, and the compact downtown waterfront area is walkable.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with occasional snow and overcast skies; outdoor activities are limited."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with some snow possible, but days begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and a mix of sun and rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming orchards and increasing sunshine."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Warm and mostly sunny with occasional showers; a great time to explore the valley."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Early summer brings warm, dry days ideal for beaches and outdoor dining."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and sunny peak summer month; Okanagan Lake beaches are busy and inviting."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued hot and dry weather with harvest season beginning in the vineyards."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and golden autumn days with wine harvest in full swing; excellent for winery visits."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler temperatures and increasing cloud cover signal the end of the tourist season."
+    },
+    {
+      "month": 11,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and often grey with rain or early snow possible; quieter and slower-paced."
+    },
+    {
+      "month": 12,
+      "avgHighC": 2,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with short days and possible snow; festive atmosphere in town."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

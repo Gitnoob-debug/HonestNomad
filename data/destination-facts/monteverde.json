@@ -1,0 +1,115 @@
+{
+  "destinationId": "monteverde",
+  "city": "Monteverde",
+  "country": "Costa Rica",
+  "transportAdvice": "Monteverde's hilly, unpaved roads make walking between attractions challenging, though the town center itself is navigable on foot. Public buses connect Monteverde to San José and nearby towns, and shared taxis or private transfers are the most practical option for reaching the cloud forest reserves and outlying lodges.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "January is one of the drier months with cool, misty mornings and relatively clear afternoons — good conditions for wildlife spotting."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "February remains dry and pleasant with mild temperatures, making it one of the most popular months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "March is warm and mostly dry, with occasional afternoon clouds rolling in from the Pacific side."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April marks the beginning of the transition to the wet season, with increasing afternoon showers and lush greenery emerging."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "May brings frequent rain and persistent mist as the wet season takes hold, giving the cloud forest its characteristic atmosphere."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "June is wet and misty with heavy rainfall most days; the forest is intensely green but trails can be muddy."
+    },
+    {
+      "month": 7,
+      "avgHighC": 17,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "July sees strong winds and heavy rain, particularly from the Caribbean trade winds, making outdoor activities more challenging."
+    },
+    {
+      "month": 8,
+      "avgHighC": 17,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "August continues the wet and windy pattern; the cloud forest is at its most dramatic but conditions are rugged."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "September is one of the wettest months with persistent rain and low cloud cover throughout the day."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October remains very wet as the rainy season peaks; visitor numbers are low and the forest is exceptionally lush."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "November begins a gradual transition toward drier conditions, though rain is still frequent and mist is common."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "December sees rainfall tapering off toward the end of the month, with cooler temperatures and improving visibility in the forest."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

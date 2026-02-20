@@ -1,0 +1,115 @@
+{
+  "destinationId": "luxembourg",
+  "city": "Luxembourg City",
+  "country": "Luxembourg",
+  "transportAdvice": "Luxembourg City is compact and walkable, with the historic Old Town and main attractions easily covered on foot; the country offers free public transit including buses that connect tourist areas, and taxis are readily available for longer journeys or late-night travel.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with occasional frost or light snow, typical of a northern European winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold with short days, though slightly more daylight begins to return toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild warming but expect cool temperatures and occasional showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring conditions with blooming greenery, though rain remains common throughout the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, one of the more enjoyable months to explore the city outdoors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early summer weather with long daylight hours and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long sunny days, ideal for sightseeing and outdoor dining."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with conditions similar to July, though brief thunderstorms can occur."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and beautiful foliage beginning to appear across the valleys."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with autumn colours at their peak in the surrounding gorges and parks."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Grey and damp with temperatures dropping steadily, though Christmas market preparations add charm."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive with popular Christmas markets in the city centre brightening the short winter days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "vienna",
+  "city": "Vienna",
+  "country": "Austria",
+  "transportAdvice": "Vienna has an excellent public transit network including a metro, trams, and buses that connect virtually all major tourist areas, making it easy to get around without a car. The city center is highly walkable, and taxis are widely available for late-night or less central journeys.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with occasional snow and overcast skies; pack warm layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with possible snow, but days begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild temperatures and occasional rain; a coat is still needed."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming parks and occasional showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with longer days; one of the most enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with occasional thunderstorms in the afternoons."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The hottest month; expect warm sunny days with some afternoon thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still warm and summery with similar conditions to July; outdoor dining is popular."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with fewer crowds and pleasant evenings."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and increasingly grey with autumn foliage in the parks."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often foggy or drizzly; Christmas markets begin to open late in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold winter month with festive Christmas markets and occasional snow adding charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "london",
+  "city": "London",
+  "country": "United Kingdom",
+  "transportAdvice": "London has an extensive public transit network including an underground metro system, buses, and overground rail that connects virtually all tourist areas; taxis and licensed minicabs are widely available throughout the city. Central London is walkable between many major attractions, but the city is large and public transit is generally the most efficient way to cover longer distances.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, grey, and frequently wet with short daylight hours; pack warm layers and a waterproof jacket."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and damp with occasional frost, though days begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures but changeable conditions; rain and sunshine can alternate within a single day."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming parks, though showers remain common and temperatures can still feel cool."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the more enjoyable months with warming temperatures, longer days, and a good mix of sunshine and mild showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and generally pleasant with long evenings, though occasional rain and overcast days are still typical."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "London's warmest month with long sunny days, though brief thunderstorms and humid spells are possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and busy with summer crowds; weather is similar to July with a mix of sunshine and occasional showers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and more frequent rain, though warm sunny days are still common."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with falling leaves; a light jacket and umbrella are essential."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, damp, and often overcast with short days; warm clothing and waterproofs are strongly recommended."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with the shortest days of the year, though festive lights and markets add seasonal charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

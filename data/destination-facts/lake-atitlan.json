@@ -1,0 +1,115 @@
+{
+  "destinationId": "lake-atitlan",
+  "city": "Lake Atitlán",
+  "country": "Guatemala",
+  "transportAdvice": "The lake villages are connected by frequent public lanchas (small motorboats) that serve as the primary transit between towns, making walking practical only within individual villages. Tuk-tuks and chicken buses provide local land transport, and taxis are available for longer overland journeys.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny days make January one of the most pleasant months to visit the lake."
+    },
+    {
+      "month": 2,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season continues with warm afternoons and cool nights, ideal for outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures rise and conditions remain dry, though afternoon winds on the lake can pick up."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The dry season begins to transition, with occasional light showers possible toward month's end."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainy season begins with afternoon showers becoming more frequent, mornings often remain clear."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy afternoon and evening rains are common, but mornings can still offer good visibility across the lake."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Midsummer brings consistent rainfall, though a brief dry spell known as the canícula sometimes occurs."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainfall remains heavy and the lake and surrounding hillsides are lush and deeply green."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "September is typically the wettest month, with persistent rain and occasional overcast days."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain continues through October, though intensity begins to ease toward the end of the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The rainy season winds down, with clearer skies returning and cooler, more comfortable temperatures."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season returns with cool nights, clear skies, and excellent views of the surrounding volcanoes."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

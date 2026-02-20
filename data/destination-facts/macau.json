@@ -1,0 +1,115 @@
+{
+  "destinationId": "macau",
+  "city": "Macau",
+  "country": "China",
+  "transportAdvice": "Macau's compact peninsula and islands are well-served by public buses that connect most tourist areas, and free shuttle buses operate between major casino resorts and transport hubs. Taxis are widely available, and many attractions in the historic centre are easily reached on foot.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with occasional mist, making it comfortable for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Damp and foggy conditions are common, with mild temperatures persisting."
+    },
+    {
+      "month": 3,
+      "avgHighC": 21,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warming up with increasing humidity and occasional drizzle as spring arrives."
+    },
+    {
+      "month": 4,
+      "avgHighC": 25,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with more frequent rain showers throughout the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and wet with heavy rainfall becoming more regular as the rainy season begins."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season with high heat, heavy downpours, and possible typhoon activity."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest month with intense humidity and the highest risk of typhoons."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued typhoon risk and heavy rain alongside oppressive heat and humidity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still hot and humid with lingering typhoon risk as the season begins to wind down."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm and drier, considered one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and mostly dry with comfortable temperatures ideal for outdoor exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with clear skies, making it a pleasant time to visit the historic sites."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

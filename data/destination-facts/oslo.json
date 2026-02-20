@@ -1,0 +1,115 @@
+{
+  "destinationId": "oslo",
+  "city": "Oslo",
+  "country": "Norway",
+  "transportAdvice": "Oslo has an efficient public transit network including metro, tram, bus, and ferry lines that connect the city centre to most tourist areas, making it easy to get around without a car. The compact city centre is very walkable, and taxis are widely available though expensive.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold, dark winter month with frequent snow and short daylight hours, requiring warm layered clothing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 0,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold and wintry with snow likely, but daylight begins to noticeably increase."
+    },
+    {
+      "month": 3,
+      "avgHighC": 4,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings longer days and occasional thaws, though snow and frost remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 10,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with milder temperatures and budding greenery, though cool evenings persist."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and increasingly warm with long daylight hours and the city coming alive outdoors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with very long days and lively outdoor culture across the city."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long bright evenings and peak tourist activity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still warm and enjoyable with slightly shorter days as summer begins to wind down."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn sets in with cooler temperatures and beautiful foliage across parks and surrounding forests."
+    },
+    {
+      "month": 10,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and increasingly wet with frequent rain and rapidly shortening days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and grey with rain or sleet likely and limited daylight, marking the onset of winter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 0,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Dark and cold with snow possible and a festive Christmas atmosphere in the city centre."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

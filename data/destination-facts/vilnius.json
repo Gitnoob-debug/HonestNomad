@@ -1,0 +1,115 @@
+{
+  "destinationId": "vilnius",
+  "city": "Vilnius",
+  "country": "Lithuania",
+  "transportAdvice": "Vilnius has a well-developed public bus and trolleybus network that covers most tourist areas, and the compact Old Town is very walkable. Taxis and ride-hailing services are widely available throughout the city for longer journeys or late-night travel.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -2,
+      "avgLowC": -8,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold, grey winter month with frequent snow and frost; pack warm layers and waterproof footwear."
+    },
+    {
+      "month": 2,
+      "avgHighC": -1,
+      "avgLowC": -8,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still firmly winter with lingering snow and icy conditions; one of the coldest months of the year."
+    },
+    {
+      "month": 3,
+      "avgHighC": 4,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early signs of spring emerge but temperatures remain chilly and snow is still possible."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant with blooming trees, though cool evenings require a jacket."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with longer days; one of the most enjoyable months to visit Vilnius."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer weather with long daylight hours and occasional afternoon showers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with comfortable temperatures and lively outdoor activity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still warm and summery with occasional thunderstorms; a popular time for festivals and events."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler air and golden foliage; pleasant for sightseeing with fewer crowds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with frequent overcast skies; a warm coat becomes essential."
+    },
+    {
+      "month": 11,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and damp with the first frosts possible; daylight hours are short and conditions are grey."
+    },
+    {
+      "month": 12,
+      "avgHighC": 0,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold winter month with snow likely and festive Christmas markets adding charm to the Old Town."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

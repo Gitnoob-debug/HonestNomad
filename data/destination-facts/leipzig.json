@@ -1,0 +1,115 @@
+{
+  "destinationId": "leipzig",
+  "city": "Leipzig",
+  "country": "Germany",
+  "transportAdvice": "Leipzig has an efficient public transit network of trams, buses, and S-Bahn trains that connect the city centre with most tourist areas, making it easy to get around without a car. The compact inner city is very walkable, and taxis are readily available for longer journeys or late-night travel.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with occasional frost or light snow; pack warm layers and a waterproof jacket."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and wintry with some chance of snow, though days begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional sunny spells, though cool winds persist."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming parks; light rain showers are common so carry an umbrella."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with longer days; one of the most enjoyable months to explore the city outdoors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with occasional thunderstorms; outdoor cafes and parks are lively."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month with long sunny days, though brief afternoon thunderstorms are possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and summery with similar conditions to July; a great time for outdoor events and festivals."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and golden foliage; comfortable for sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler and increasingly overcast; a light jacket and layers are advisable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often damp with limited daylight; Christmas market season begins late in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive with popular Christmas markets; occasional frost or light snow adds to the atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

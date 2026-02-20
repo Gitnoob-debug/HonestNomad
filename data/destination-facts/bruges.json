@@ -1,0 +1,115 @@
+{
+  "destinationId": "bruges",
+  "city": "Bruges",
+  "country": "Belgium",
+  "transportAdvice": "The historic city center of Bruges is compact and highly walkable, making it easy to reach most major attractions on foot. Public buses serve the broader city and surrounding areas, and taxis are generally available, though most visitors find them unnecessary within the center.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and damp with frequent overcast skies and occasional frost, typical of a Belgian winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and grey with persistent cloud cover, though daylight hours begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional sunny spells, though rain remains common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming canal-side trees and a mix of sunshine and showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, making it one of the more comfortable months to explore the city."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild summer warmth with long evenings and occasional afternoon showers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long daylight hours, though brief rain showers are still possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with conditions similar to July, ideal for outdoor sightseeing and canal boat trips."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler temperatures and a quieter atmosphere as summer crowds begin to thin."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler with increasing rain and mist, lending the canals a moody, atmospheric character."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with short days, though the city's Christmas market preparations add charm."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and wintry with a festive Christmas market atmosphere in the historic center."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

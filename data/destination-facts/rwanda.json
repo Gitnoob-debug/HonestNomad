@@ -1,0 +1,115 @@
+{
+  "destinationId": "rwanda",
+  "city": "Kigali",
+  "country": "Rwanda",
+  "transportAdvice": "Kigali's hilly terrain makes walking practical only within specific neighborhoods, though distances between attractions often require transport. Motorcycle taxis and minibus shared taxis are widely available and cover most areas, with conventional taxis also accessible for more comfortable travel.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A short dry spell within the long rainy season, with warm days and generally pleasant conditions."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitioning into the long rainy season with increasing afternoon showers and warm temperatures."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the long rainy season with frequent heavy afternoon downpours and overcast skies."
+    },
+    {
+      "month": 4,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months of the year, expect regular rain and lush green landscapes."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains begin to ease toward the end of the month as the long rainy season winds down."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Start of the long dry season with sunny skies, cooler nights, and very little rainfall."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny with comfortable temperatures, making it one of the best months to visit."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued dry conditions with warm days and cool evenings, ideal for outdoor activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The short rainy season begins with occasional showers returning alongside warm temperatures."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Short rainy season in full swing with regular afternoon and evening showers."
+    },
+    {
+      "month": 11,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the rainiest months, with heavy showers common and skies frequently overcast."
+    },
+    {
+      "month": 12,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains begin to taper off toward the end of the month as the short dry season approaches."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

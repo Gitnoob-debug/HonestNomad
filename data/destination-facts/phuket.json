@@ -1,0 +1,115 @@
+{
+  "destinationId": "phuket",
+  "city": "Phuket",
+  "country": "Thailand",
+  "transportAdvice": "Phuket lacks a formal metro or tram system, and walking between attractions is generally impractical due to distances and heat; shared minibuses (songthaews) run fixed routes along major roads and are affordable but infrequent. Metered taxis, tuk-tuks, and motorbike taxis are widely available throughout tourist areas, though negotiating fares in advance is common practice.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry by Phuket standards, with plenty of sunshine and calm seas — the peak of high season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with very little rain, ideal beach conditions and clear water visibility."
+    },
+    {
+      "month": 3,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with long sunny days; one of the best months for outdoor activities and water sports."
+    },
+    {
+      "month": 4,
+      "avgHighC": 34,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat intensifies and humidity rises as the wet season approaches, with occasional afternoon showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The southwest monsoon arrives, bringing frequent heavy rain and rougher seas; some beach areas close."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Deep into monsoon season with persistent rain and strong winds; lower tourist crowds and reduced prices."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and choppy seas; outdoor plans should be flexible and boat trips may be limited."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with regular downpours, though sunny breaks between showers are common."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months of the year with high surf warnings frequent; a quieter period for tourism."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain remains heavy and seas can be rough; the tail end of monsoon season with gradual improvement late in the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The monsoon begins to ease and conditions improve noticeably, though showers are still possible."
+    },
+    {
+      "month": 12,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with calmer seas and sunny skies; the start of high season and holiday crowds."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

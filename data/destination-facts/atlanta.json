@@ -1,0 +1,115 @@
+{
+  "destinationId": "atlanta",
+  "city": "Atlanta",
+  "country": "United States",
+  "transportAdvice": "Atlanta has a metro rail system and bus network that connects major attractions, airports, and neighborhoods, though coverage can be limited in some areas. Taxis and rideshare vehicles are widely available, but many neighborhoods are spread out and not easily walkable, so having access to a vehicle or hired transport is often practical.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "January is cool and occasionally cold with some rain and rare light snow possible."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "February remains cool with mild days and a chance of rain or brief cold snaps."
+    },
+    {
+      "month": 3,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins in March with warming temperatures and increased rainfall."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April is pleasant and mild with blooming trees and occasional afternoon showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "May brings warm, comfortable weather with increasing humidity and some thunderstorms."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "June is hot and humid with frequent afternoon thunderstorms typical of the Southeast."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "July is the hottest month with oppressive heat, high humidity, and regular thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "August remains very hot and humid with continued afternoon storm activity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "September sees gradual cooling with warm days and decreasing but still present storm chances."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "October is one of the best months to visit with mild temperatures and beautiful fall foliage."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "November cools noticeably with crisp air and occasional rain as autumn deepens."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "December is cool to cold with some rain and a small chance of frost or light snow."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

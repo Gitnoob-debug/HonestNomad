@@ -1,0 +1,115 @@
+{
+  "destinationId": "medellin",
+  "city": "Medellin",
+  "country": "Colombia",
+  "transportAdvice": "Medellin has an efficient metro system with cable car extensions that connects most major tourist areas, supplemented by buses and electric escalators in hillside neighborhoods. Taxis are widely available and generally affordable, while the city center and El Poblado neighborhood are reasonably walkable for tourists.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the drier months of the year with warm sunny days and comfortable evenings."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and warm with plenty of sunshine, making it a pleasant time to explore the city."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to increase toward the end of the month as the first wet season approaches."
+    },
+    {
+      "month": 4,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months, with frequent afternoon and evening showers expected."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall typical of the first rainy season, with lush green surroundings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain eases somewhat as a brief drier interlude begins mid-year."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the drier and sunnier months, popular with visitors and coinciding with the Flower Festival season."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and bright with warm temperatures, hosting the famous Feria de las Flores festival."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The second rainy season begins with frequent showers returning in the afternoons."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with heavy and persistent rainfall most days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still quite rainy as the second wet season winds down toward the end of the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Rain decreases significantly, bringing drier and festive conditions as the holiday season arrives."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

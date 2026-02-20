@@ -1,0 +1,115 @@
+{
+  "destinationId": "ushuaia",
+  "city": "Ushuaia",
+  "country": "Argentina",
+  "transportAdvice": "Ushuaia's compact city center is walkable for most tourist attractions, though hilly terrain can make some areas tiring on foot. Public buses serve key routes including Tierra del Fuego National Park, and taxis are readily available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer with the longest daylight hours, mild temperatures, and the best conditions for outdoor activities and Antarctic cruises."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still pleasant summer weather with long days, though rain showers are common and temperatures begin to ease slightly toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler temperatures and shorter days, with the first hints of fall foliage beginning to appear in the forests."
+    },
+    {
+      "month": 4,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Autumn foliage peaks with stunning reds and golds, but temperatures drop noticeably and wind and rain become more frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 5,
+      "avgLowC": 0,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Late autumn with cold, wet, and windy conditions; snow becomes possible and daylight hours shorten considerably."
+    },
+    {
+      "month": 6,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Deep winter with very short days, frequent snow, and cold winds; skiing season begins at the local resort."
+    },
+    {
+      "month": 7,
+      "avgHighC": 2,
+      "avgLowC": -3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The coldest month of the year with heavy snowfall, strong winds, and only a few hours of daylight, ideal for winter sports enthusiasts."
+    },
+    {
+      "month": 8,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly winter with persistent snow and cold, though daylight hours begin to slowly increase toward month's end."
+    },
+    {
+      "month": 9,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Late winter transitioning to early spring, with unpredictable weather mixing snow, rain, and occasional clearer days."
+    },
+    {
+      "month": 10,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with rapidly lengthening days and milder temperatures, though wind and rain remain common and snow is still possible."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late spring with noticeably warmer days and extended daylight, making it a good shoulder-season option before peak summer crowds."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer with long days approaching 17 hours of daylight, mild temperatures, and the start of the busy Antarctic cruise season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

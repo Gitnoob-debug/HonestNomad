@@ -1,0 +1,115 @@
+{
+  "destinationId": "st-johns",
+  "city": "St. John's",
+  "country": "Canada",
+  "transportAdvice": "St. John's has a bus system that covers the main urban areas, though service is limited on weekends and evenings. The downtown core and waterfront are very walkable. Taxis are available, and renting a car is recommended for exploring the rugged coastline and outports.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and snowy with frequent storms and strong winds; warm winter gear is essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": -2,
+      "avgLowC": -9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Coldest month with heavy snow, ice, and occasional freezing rain."
+    },
+    {
+      "month": 3,
+      "avgHighC": 1,
+      "avgLowC": -5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Late winter conditions persist with a mix of snow and rain as spring slowly approaches."
+    },
+    {
+      "month": 4,
+      "avgHighC": 5,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins slowly with melting snow and cool, damp conditions; icebergs may be visible off the coast."
+    },
+    {
+      "month": 5,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool spring with fog common along the coast; iceberg season peaks and whale watching begins."
+    },
+    {
+      "month": 6,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with long days and the best chances for iceberg and puffin sightings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warmest month with comfortable temperatures, though fog can roll in from the ocean."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and relatively dry, ideal for hiking the East Coast Trail and exploring the coastline."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn with pleasant temperatures and beautiful coastal scenery as foliage begins to change."
+    },
+    {
+      "month": 10,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cooling rapidly with increasing wind and rain; a dramatic time for coastal landscapes."
+    },
+    {
+      "month": 11,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, wet, and windy as winter approaches; first snowfall typically arrives."
+    },
+    {
+      "month": 12,
+      "avgHighC": 1,
+      "avgLowC": -5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full winter with snow, ice, and the famous Mummers tradition adding festive charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

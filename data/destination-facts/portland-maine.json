@@ -1,0 +1,115 @@
+{
+  "destinationId": "portland-maine",
+  "city": "Portland",
+  "country": "United States",
+  "transportAdvice": "Portland, Maine is a compact and highly walkable city, with most tourist attractions, restaurants, and shops concentrated in the Old Port and downtown areas. Public bus service covers the city and surrounding region, and taxis are generally available, though having a car is helpful for exploring the broader coastal and rural areas nearby.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often snowy, with freezing temperatures making this one of the harshest months for visitors."
+    },
+    {
+      "month": 2,
+      "avgHighC": 0,
+      "avgLowC": -11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still deeply cold with frequent snow and ice, though daylight hours begin to slowly increase."
+    },
+    {
+      "month": 3,
+      "avgHighC": 5,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings a mix of snow and rain with gradually warming temperatures but still chilly conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with mild days and cool nights, occasional rain, and the first signs of greenery returning."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and increasingly warm with blooming landscapes, though evenings can still be cool."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with long daylight hours, making it an excellent time to explore the coast."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month with sunny days ideal for outdoor dining, beaches, and harbor activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and enjoyable with similar conditions to July, remaining a peak season for coastal tourism."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early fall brings cooler, crisp air and the beginning of stunning foliage colors in the region."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak fall foliage season with cool temperatures and colorful scenery, popular with visitors."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with the possibility of early snow, as the city transitions into winter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 2,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and wintry with snow likely, though festive holiday atmosphere adds charm to the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "manila",
+  "city": "Manila",
+  "country": "Philippines",
+  "transportAdvice": "Manila has a metro rail system and an extensive network of buses and iconic jeepneys that cover most tourist and commercial areas, though traffic congestion can make journeys slow. Taxis and ride-hailing vehicles are widely available, but walking long distances is generally impractical due to heat, humidity, and uneven infrastructure.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry by Manila standards, making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still dry and relatively pleasant, with warm days and cooler evenings."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb noticeably as the hot season approaches."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "One of the hottest months of the year with intense heat and strong sunshine."
+    },
+    {
+      "month": 5,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat remains intense but occasional showers signal the approaching wet season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins in earnest with frequent afternoon and evening downpours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rainfall and the risk of typhoons make this one of the wettest months."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak typhoon season with persistent rain and occasional severe weather events."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Typhoon risk remains elevated and flooding can disrupt travel plans."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease toward the end of the month but conditions remain unsettled."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The wet season winds down with decreasing rainfall and slightly more comfortable temperatures."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and festive, with cooler evenings making it a popular time to visit Manila."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

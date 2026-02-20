@@ -1,0 +1,115 @@
+{
+  "destinationId": "bonaire",
+  "city": "Kralendijk",
+  "country": "Bonaire",
+  "transportAdvice": "Kralendijk's compact town center is easily walkable, but exploring the island's dive sites and national park requires a vehicle — car and scooter rentals are widely available and the most practical option for tourists. Public bus service is limited and does not reliably cover most tourist areas, while taxis are available but relatively expensive for longer island trips.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and dry with steady trade winds keeping conditions comfortable for diving and outdoor activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the driest months of the year with excellent visibility underwater and pleasant breezes."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and breezy with very little rainfall, making it ideal for snorkeling and beach time."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely rain-free with good trade winds and excellent marine conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb slightly but remain comfortable, with minimal rain and calm seas."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer brings warm, sunny days with low rainfall and good conditions for water sports."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Trade winds are strong this month, which can create choppier conditions on the windward side but keeps heat manageable."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry, though occasional brief showers are possible; underwater visibility remains excellent."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The warmest and most humid period of the year with a slightly higher chance of passing showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Humidity remains elevated and brief rain showers are more frequent, though prolonged rain is uncommon."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall increases compared to earlier months but Bonaire remains drier than most Caribbean islands this time of year."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Conditions improve toward year-end with decreasing rain, comfortable temperatures, and good diving conditions returning."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

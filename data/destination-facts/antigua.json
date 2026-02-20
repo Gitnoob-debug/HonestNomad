@@ -1,0 +1,115 @@
+{
+  "destinationId": "antigua",
+  "city": "St. John's",
+  "country": "Antigua and Barbuda",
+  "transportAdvice": "Taxis are the primary way to get around Antigua, with fares typically negotiated in advance. There is limited public bus service between main towns. Renting a car is a good option for exploring the island's many beaches and attractions at your own pace.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and dry with pleasant trade winds and occasional brief showers; peak tourist season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season continues with warm, sunny conditions and low humidity."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the driest months with consistently sunny skies and comfortable temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warming slightly as the dry season nears its end; still excellent beach weather."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transition month with increasing chances of rain as the wet season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Wet season begins with afternoon showers, though mornings are often sunny."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with regular afternoon showers; still plenty of sunshine between rain."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent heavy showers and elevated hurricane risk."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wettest month with tropical downpours and the highest hurricane risk of the year."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season continues with frequent rain, though conditions begin to improve late in the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month as rain decreases and the dry season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with pleasant conditions and the start of the busy tourist season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "iguazu-falls",
+  "city": "Foz do Iguaçu",
+  "country": "Brazil",
+  "transportAdvice": "The city is served by a local bus network that connects the main tourist areas including the national park entrance, making public transit a viable option for budget travelers. Taxis and informal transfer vehicles are widely available, though walking between major attractions is not practical given the distances involved.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent afternoon thunderstorms, making waterproof gear essential for falls visits."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heat and heavy rainfall keeps the falls at impressive volume but trails can be slippery."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very wet and warm, with the falls often at their most powerful due to accumulated rainfall."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease and rain becomes less frequent, offering more comfortable sightseeing conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with occasional showers; a good shoulder-season month for visiting."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cooler and drier, with clear skies common and comfortable conditions for walking the park trails."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The driest and coolest month, popular with visitors; water levels may be lower but crowds are higher."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still dry and mild with low humidity, making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin rising again and occasional rain returns, with the landscape becoming greener."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly humid with moderate rainfall; a transitional month before the wet season peaks."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heat and humidity build noticeably with more frequent storms, though the falls gain volume and drama."
+    },
+    {
+      "month": 12,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot, humid, and rainy as the wet season peaks; expect lush scenery and powerful falls but prepare for downpours."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

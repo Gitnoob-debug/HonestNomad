@@ -1,0 +1,115 @@
+{
+  "destinationId": "st-louis",
+  "city": "St. Louis",
+  "country": "United States",
+  "transportAdvice": "St. Louis has a light rail system and bus network that connects major attractions including the Gateway Arch and Forest Park, though a car is often more practical for exploring beyond the central tourist areas. Taxis and rideshare vehicles are generally available downtown, and many key sights are walkable within the central districts.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with occasional snow or freezing rain, making outdoor sightseeing uncomfortable."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with a mix of rain and snow, though slightly milder than January."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise but spring storms and rain are common throughout the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Mild and pleasant but expect frequent spring showers and occasional thunderstorms."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and green with frequent thunderstorms, a lively time to visit outdoor attractions."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with occasional afternoon thunderstorms, outdoor activities are best done in the morning."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month, with oppressive humidity and heat making midday sightseeing draining."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still very hot and humid, similar to July, with occasional thunderstorms providing brief relief."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease and humidity drops, making this a more comfortable month to explore."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp and pleasant autumn weather with colorful foliage, one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling quickly with increasing cloud cover and rain, though early November can still be mild."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and wintry with a chance of snow, but festive holiday events animate the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

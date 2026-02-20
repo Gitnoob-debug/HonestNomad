@@ -1,0 +1,115 @@
+{
+  "destinationId": "komodo",
+  "city": "Komodo",
+  "country": "Indonesia",
+  "transportAdvice": "Komodo Island itself has no public transit; visitors typically arrive by boat from Labuan Bajo and explore the national park on foot with a ranger guide. Taxis and ojeks (motorcycle taxis) are available in Labuan Bajo, but the island and its trails are navigated entirely on foot.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "moderate",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and wet with frequent afternoon downpours; seas can be rough, making boat crossings less comfortable."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet season with heavy rain and high humidity; some boat tours may be limited by weather."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward month's end but humidity remains high; landscapes are lush and green."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with decreasing rainfall and improving sea conditions for diving and snorkeling."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season begins in earnest; warm and sunny with good visibility for underwater activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooler and drier with strong southeast winds; excellent diving conditions but choppy seas possible."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with clear skies and low humidity; strong winds can make some crossings bumpy."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny with excellent visibility; one of the best months for trekking and wildlife spotting."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Winds begin to ease and conditions remain excellent for both land and water activities."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with calmer seas; a great month to visit before the wet season returns."
+    },
+    {
+      "month": 11,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Humidity rises and occasional showers return; still generally pleasant for outdoor exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season resumes with increasing rainfall and rough seas; boat access can be disrupted on stormy days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

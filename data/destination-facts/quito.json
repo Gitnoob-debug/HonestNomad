@@ -1,0 +1,115 @@
+{
+  "destinationId": "quito",
+  "city": "Quito",
+  "country": "Ecuador",
+  "transportAdvice": "Quito has a metro line and an extensive bus rapid transit (BRT) network that connects most tourist areas, making public transit a practical and affordable option for getting around. Taxis are widely available throughout the city, and walking is feasible within compact historic neighborhoods, though the high altitude and hilly terrain can make longer walks tiring.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "January falls in the wet season with frequent afternoon showers and overcast skies, though mornings are often clear."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "February continues the rainy season with regular afternoon downpours and mild temperatures throughout the day."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "March is one of the wettest months, with heavy rainfall common in the afternoons and evenings."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "April remains wet and humid, with persistent cloud cover and frequent rain showers typical for this time of year."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "May marks a transition toward drier conditions, with rainfall beginning to ease and more sunshine appearing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "June is one of the drier months, with clearer skies, lower humidity, and pleasant daytime temperatures."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "July is dry and sunny, making it one of the best months to visit with excellent visibility for sightseeing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 19,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "August remains dry and clear, though strong winds can develop in the afternoons on some days."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "September sees a gradual return of rainfall as the wet season begins to re-establish itself."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "October brings increasing cloud cover and more frequent afternoon showers as the rainy season builds."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "November is notably wet with regular heavy showers, particularly in the afternoons and evenings."
+    },
+    {
+      "month": 12,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "December is rainy and humid, though festive city decorations and cultural events make it a lively time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "cairns",
+  "city": "Cairns",
+  "country": "Australia",
+  "transportAdvice": "Cairns city centre is compact and walkable, with most tourist attractions, restaurants, and the Esplanade easily reached on foot. A local bus network connects the city to nearby beaches and suburbs, and taxis are readily available for longer journeys or transfers to the airport.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with heavy tropical downpours, high humidity, and occasional cyclone risk — outdoor activities can be disrupted."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season continues with frequent intense rainfall and very high humidity, though sunny spells still occur between storms."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with significant rainfall, though totals begin to ease slightly toward the end of the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitional month as the wet season winds down, with decreasing rain and gradually more comfortable conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season begins, bringing sunny days, lower humidity, and pleasant temperatures ideal for outdoor activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the coolest and driest months, with comfortable temperatures and low humidity — excellent conditions for reef and rainforest visits."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season and the most popular tourist month, with clear skies, minimal rain, and the most comfortable temperatures of the year."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued dry and sunny weather with low humidity makes this another excellent month for snorkelling, diving, and hiking."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry with increasing sunshine, still very pleasant for all outdoor and water-based activities."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures rise noticeably and humidity begins to build as the wet season approaches, though rain remains infrequent."
+    },
+    {
+      "month": 11,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The build-up season brings increasing heat, humidity, and afternoon thunderstorms as the wet season draws near."
+    },
+    {
+      "month": 12,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season arrives with heavy tropical rain, high humidity, and hot temperatures — stinger season also affects coastal swimming."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

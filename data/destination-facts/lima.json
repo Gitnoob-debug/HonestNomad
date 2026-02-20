@@ -1,0 +1,115 @@
+{
+  "destinationId": "lima",
+  "city": "Lima",
+  "country": "Peru",
+  "transportAdvice": "Lima has an extensive bus rapid transit system (the Metropolitano) and a growing metro line that connect major districts, though tourist areas like Miraflores and Barranco are best explored on foot. Taxis are widely available and affordable, but travelers should use only formally arranged or clearly marked taxis rather than hailing unmarked vehicles on the street.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Lima's warmest month, with overcast skies giving way to sunny spells and high humidity along the coast."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still warm and humid with occasional coastal fog; one of the best months for beach visits nearby."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Temperatures begin to ease slightly but remain warm, with persistent humidity and hazy sunshine."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Autumn arrives with noticeably cooler evenings and the first hints of the coastal fog season beginning."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cooler and increasingly overcast as the garúa (coastal drizzle) season starts to establish itself."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Lima's grey winter sets in with persistent low cloud and garúa mist; little direct sunshine but rarely heavy rain."
+    },
+    {
+      "month": 7,
+      "avgHighC": 17,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "The coolest and foggiest month, with thick marine layer and damp conditions typical of Lima's winter."
+    },
+    {
+      "month": 8,
+      "avgHighC": 17,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Conditions remain grey and cool with continued coastal fog; pack layers for cool evenings."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Slight warming begins but overcast skies and garúa persist through most of the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring brings gradual improvement with more frequent breaks in the cloud cover and milder temperatures."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Noticeably brighter and warmer with increasing sunshine as the summer season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, marking the return of summer conditions along Lima's Pacific coast."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

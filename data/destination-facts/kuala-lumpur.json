@@ -1,0 +1,115 @@
+{
+  "destinationId": "kuala-lumpur",
+  "city": "Kuala Lumpur",
+  "country": "Malaysia",
+  "transportAdvice": "Kuala Lumpur has an extensive metro and light rail network that connects most major tourist areas, shopping districts, and the city centre, making it a practical and affordable way to get around. Taxis and ride-hailing cars are widely available, though walking between attractions can be challenging due to heat, humidity, and inconsistent pedestrian infrastructure.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with occasional afternoon showers, generally manageable for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "One of the drier months of the year with plenty of sunshine and warm temperatures."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures begin to climb and rain becomes more frequent, especially in the afternoons."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wetter months with heavy afternoon thunderstorms common throughout the city."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Frequent heavy downpours continue, though mornings are often clear and suitable for outdoor activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain eases slightly compared to May, with warm and humid conditions persisting throughout."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Relatively drier stretch with warm days and occasional afternoon showers."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to July, with warm temperatures and intermittent rain that rarely disrupts full-day plans."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainfall increases again as the wet season returns, with heavy thunderstorms common in the late afternoon."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the rainiest months, with frequent and sometimes prolonged downpours throughout the day."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rain continues and temperatures dip slightly, making it one of the more overcast months."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward year end, with warm and humid conditions and occasional festive atmosphere in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

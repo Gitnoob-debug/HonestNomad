@@ -1,0 +1,115 @@
+{
+  "destinationId": "bali",
+  "city": "Bali",
+  "country": "Indonesia",
+  "transportAdvice": "Public transit in Bali is limited and does not reliably cover most tourist areas, making it impractical for most visitors. Renting a scooter or hiring a private driver are the most common ways to get around, with taxis available in busier areas like Kuta and Seminyak though metered options are limited outside major hubs.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent heavy afternoon downpours and overcast skies throughout the day."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet season with high rainfall and humid conditions, though mornings can be bright before rain arrives."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward month end but humidity remains high and showers are still frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with decreasing rainfall and more sunshine, making it a pleasant time to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season begins with lower humidity, reliable sunshine, and comfortable temperatures for outdoor activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the driest and most comfortable months, with cooler evenings and clear skies ideal for sightseeing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with minimal rain, low humidity, and the coolest temperatures of the year — very popular with tourists."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Excellent conditions continue with clear skies, low humidity, and strong ocean swells favored by surfers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still firmly in the dry season with warm sunny days and comfortable conditions across the island."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month as the wet season approaches, with increasing cloud cover and occasional showers returning."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season resumes with rising humidity and more frequent afternoon and evening thunderstorms."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full wet season conditions with heavy rainfall and high humidity, though festive atmosphere draws visitors despite the weather."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

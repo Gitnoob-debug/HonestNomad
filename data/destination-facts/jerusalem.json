@@ -1,0 +1,115 @@
+{
+  "destinationId": "jerusalem",
+  "city": "Jerusalem",
+  "country": "Israel",
+  "transportAdvice": "Jerusalem has a light rail line connecting key areas and an extensive bus network that covers most tourist sites, making public transit a practical option for getting around. The Old City and many historic neighborhoods are best explored on foot, and taxis are widely available throughout the city.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and rainy with occasional cold snaps; the wettest period of the year and rare snowfall is possible."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Still cool and wet with continued rain; pack layers and a waterproof jacket."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and rain becomes less frequent as spring approaches."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring weather with mild temperatures and mostly sunny days; a great time to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with long sunny days; comfortable for sightseeing outdoors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and almost entirely dry; clear skies dominate and evenings remain pleasant."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with virtually no rain; stay hydrated and seek shade during midday."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continues hot and dry similar to July; early morning and evening are the best times to explore."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still warm and dry with gradually cooling evenings; very comfortable for travel."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild autumn temperatures with the first rains possible late in the month; pleasant overall."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and increasingly rainy as the wet season begins; bring a jacket and rain layer."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cold and wet with frequent rain; the city can be festive but dress warmly and expect wet days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

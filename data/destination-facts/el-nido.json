@@ -1,0 +1,115 @@
+{
+  "destinationId": "el-nido",
+  "city": "El Nido",
+  "country": "Philippines",
+  "transportAdvice": "El Nido's main town is compact and walkable, though the surrounding islands and beaches require boat transfers. Tricycles are the primary local transport for short land trips, and multi-cab vans serve longer routes to other parts of Palawan, but coverage is limited and schedules can be irregular.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak dry season with calm seas and sunny skies, making it the best time for island hopping."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Excellent beach weather continues with minimal rainfall and clear visibility for snorkeling."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with very little rain, ideal for outdoor activities and lagoon exploration."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the hottest months, still dry and great for water activities despite the heat."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transition month as the wet season approaches, with occasional afternoon showers beginning."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season sets in with frequent downpours and rougher seas limiting boat tours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rainfall and strong winds are common, and many island tours may be cancelled for safety."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the wet season with persistent rain and choppy waters; typhoon risk is elevated."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rain and rough seas make this one of the least favorable months to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly but seas remain unpredictable and tours can still be disrupted."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transition back toward the dry season with decreasing rainfall and improving sea conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with pleasant temperatures and calmer waters, drawing holiday visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

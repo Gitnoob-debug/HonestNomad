@@ -1,0 +1,115 @@
+{
+  "destinationId": "rotterdam",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "transportAdvice": "Rotterdam has an extensive public transit network including metro, tram, and bus lines that connect the city centre and most tourist areas efficiently. The city centre is walkable, and taxis are readily available, though cycling is also a popular and practical option.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and grey with frequent rain and occasional frost; pack warm, waterproof layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and damp with overcast skies, though daylight hours begin to slowly increase."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and spring hints emerge, but rain and wind remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with occasional sunny spells; a good time to explore the city on foot or by bike."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny with blooming greenery; one of the more enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortably warm with long daylight hours; occasional showers are possible but conditions are generally pleasant."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month with long evenings ideal for outdoor dining and waterfront activities; some rain is still likely."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lively with outdoor events and festivals; similar conditions to July with occasional thunderstorms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures ease into a comfortable autumn range with a mix of sunny and cloudy days."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn sets in; a jacket and umbrella are essential."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Grey and rainy with dropping temperatures; indoor attractions become more appealing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and damp with short days, though festive markets and city lights add seasonal charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

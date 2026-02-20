@@ -1,0 +1,115 @@
+{
+  "destinationId": "cotswolds",
+  "city": "Cotswolds",
+  "country": "United Kingdom",
+  "transportAdvice": "The Cotswolds is a rural region best explored by car, as public bus services are limited and infrequent between villages; hiring a car is strongly recommended for flexibility. Taxis are available in larger towns, but walking between attractions within individual villages is generally easy and enjoyable.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and often grey with frequent rain and occasional frost, making for quiet, atmospheric village visits."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and damp with short days, though early snowdrops begin to appear in the countryside."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and the first signs of blossom, though showers remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming gardens and longer days, ideal for walking the countryside."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the most beautiful months with lush green fields, wildflowers, and warm sunny spells."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and largely pleasant with long evenings, though occasional showers keep the landscape vivid green."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month and peak tourist season, with long sunny days and busy village high streets."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer conditions continue with crowds at their highest; book accommodation well in advance."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings golden hues and fewer crowds, with comfortable temperatures for walking."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Autumn colours peak across the hills and woodlands, but rain and mist become more frequent."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and often wet with short days, though the region takes on a quiet, cosy charm."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and festive with Christmas markets in nearby towns; frost and occasional snow add seasonal atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

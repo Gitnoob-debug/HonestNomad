@@ -1,0 +1,115 @@
+{
+  "destinationId": "geneva",
+  "city": "Geneva",
+  "country": "Switzerland",
+  "transportAdvice": "Geneva has an excellent public transit network of trams, buses, and local trains that efficiently connects the city center, lakefront, and major tourist areas, making it easy to get around without a car. The compact old town and lakeside promenades are very walkable, and taxis are widely available though expensive.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often grey with occasional frost, snow is possible but not guaranteed in the city itself."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold with lingering winter conditions, though days begin to lengthen noticeably."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional sunny spells mixed with rain showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming flowers around the lake, though showers remain frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and green with the highest rainfall of the year, making an umbrella essential."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Early summer is warm and lively but thunderstorms are common, especially in the afternoons."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month with long sunny days ideal for lake swimming and outdoor dining."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer conditions continue with occasional thunderstorms breaking the heat."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings comfortable temperatures and beautiful clear days around the lake."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cooler and increasingly overcast with autumn foliage adding color to the lakeside scenery."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Grey and damp with temperatures dropping sharply, fog over the lake is common."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive with Christmas markets, occasional snow, and short daylight hours."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

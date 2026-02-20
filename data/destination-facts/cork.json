@@ -1,0 +1,115 @@
+{
+  "destinationId": "cork",
+  "city": "Cork",
+  "country": "Ireland",
+  "transportAdvice": "Cork city centre is compact and walkable, with most major attractions reachable on foot; a local bus network serves the wider city and suburbs, and taxis are readily available throughout the day and night.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0 (UTC+1 in summer)",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with short daylight hours, typical of an Irish winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to January, cold and damp with occasional frost but days slowly lengthening."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early spring brings slightly milder temperatures but rain remains frequent and winds can be brisk."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably brighter with longer days, though showers are still common and temperatures remain cool."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the more pleasant months with mild temperatures, longer evenings, and a mix of sun and showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with long daylight hours, though overcast skies and occasional rain are still typical."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with the best chance of sunny spells, though rain is never far away."
+    },
+    {
+      "month": 8,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and often pleasant, similar to July, with long evenings and a moderate chance of showers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler temperatures and more frequent rain as summer fades."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably wetter and windier with shorter days and a distinctly autumnal feel."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, grey, and rainy with limited daylight, marking the onset of winter conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and wet with the shortest days of the year, though the festive atmosphere in the city is lively."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

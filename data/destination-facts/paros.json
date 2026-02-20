@@ -1,0 +1,115 @@
+{
+  "destinationId": "paros",
+  "city": "Paros",
+  "country": "Greece",
+  "transportAdvice": "Paros has a local bus network connecting the main towns and popular beaches, though services can be infrequent outside peak season; renting a scooter, ATV, or car is the most practical way to explore the island. Taxis are available but limited in number, and the main town of Parikia is walkable for those staying centrally.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and quiet winter month with occasional rain and few tourists; most businesses are closed."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January, mild but unsettled with periodic showers and a very subdued atmosphere."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly warmer days and occasional sunshine, though rain is still possible."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring weather with warm sunny days and cool evenings; a good time for sightseeing before crowds arrive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and increasingly sunny with very little rain; ideal conditions for exploring and early beach visits."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and reliably sunny with the Meltemi winds beginning to pick up, keeping temperatures comfortable."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with strong Meltemi winds and very dry conditions; beaches and nightlife are at their busiest."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest and most crowded month; expect full beaches, lively nightlife, and persistent northerly winds."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with crowds thinning toward the end of the month; excellent conditions for swimming and dining outdoors."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn temperatures with occasional showers; a relaxed and affordable time to visit with fewer tourists."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and wetter with many seasonal businesses closing; a quiet, off-season feel across the island."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool winter month with rain likely and most tourist facilities closed; the island returns to a local pace of life."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

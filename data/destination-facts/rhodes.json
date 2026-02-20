@@ -1,0 +1,115 @@
+{
+  "destinationId": "rhodes",
+  "city": "Rhodes",
+  "country": "Greece",
+  "transportAdvice": "Rhodes Town's Old City and waterfront are very walkable, and public buses connect the main towns and beach resorts across the island reasonably well. Taxis are widely available, and renting a car or scooter is a popular option for exploring more remote areas.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and occasionally rainy with mild temperatures; the island is quiet and uncrowded."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to January with frequent overcast skies and some rain, though sunny spells do occur."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings warmer days and decreasing rainfall, making it pleasant for sightseeing."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with comfortable temperatures ideal for exploring the island."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Reliably sunny and warm; a great time to visit before the peak summer crowds arrive."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and almost entirely dry with long sunny days and a refreshing sea breeze."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with intense sunshine; beaches are busy and evenings are warm."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry, similar to July; the Meltemi wind can provide some relief from the heat."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with the sea still very warm; crowds begin to thin out."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant autumn temperatures with occasional showers; a relaxed and quieter time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler with increasing rain; most tourist facilities begin to close for the season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and wet with a quiet, off-season atmosphere; the Old Town retains its charm year-round."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

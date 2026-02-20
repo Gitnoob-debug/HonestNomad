@@ -1,0 +1,115 @@
+{
+  "destinationId": "amsterdam",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "transportAdvice": "Amsterdam is highly walkable in its historic center, and the extensive tram, metro, and bus network covers virtually all tourist areas efficiently. Taxis and cycling are also widely available, with bike rental being a popular and practical option for getting around the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 5,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and grey with frequent rain and occasional frost; pack warm, waterproof layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and damp with short daylight hours, though slightly more settled than January."
+    },
+    {
+      "month": 3,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild temperatures and the first tulip blooms, though showers remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming flowers and longer days; a popular time to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny with lush greenery; one of the best months to explore the city."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with long evenings and occasional showers; outdoor terraces are in full swing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month with long daylight hours; expect crowds at major attractions and lively canal life."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and busy with summer festivals; afternoon thunderstorms are possible but generally pleasant."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler temperatures and fewer crowds while remaining comfortable for sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with autumn foliage; a light jacket and umbrella are essential."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, damp, and often overcast; the city takes on a quieter, more local atmosphere."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and festive with Christmas markets and holiday lights brightening the dark, wet days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "kansas-city",
+  "city": "Kansas City",
+  "country": "United States",
+  "transportAdvice": "Kansas City is a car-centric city where most tourist areas are spread out, making a personal vehicle or taxi the most practical way to get around; a light rail line connects some central areas but does not cover all attractions, and walking is feasible within individual districts like the Power and Light District or Country Club Plaza but not between them.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with occasional snow and freezing temperatures, requiring warm layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with a mix of snow and rain possible, though days begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional spring month with variable temperatures and increasing rainfall."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Mild and pleasant but with frequent spring showers and occasional thunderstorms."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and green with a high chance of thunderstorms, a peak period for severe weather."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with summer settling in and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year, hot and humid with intense sunshine and storm potential."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Remains hot and humid, similar to July, with occasional late-summer thunderstorms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease into a comfortable early autumn with lower humidity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant fall weather with colorful foliage and cooler, crisp days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with the first frost possible and increasing chance of rain or sleet."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with possible snow and holiday atmosphere in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

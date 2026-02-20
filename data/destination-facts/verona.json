@@ -1,0 +1,115 @@
+{
+  "destinationId": "verona",
+  "city": "Verona",
+  "country": "Italy",
+  "transportAdvice": "Verona's historic center is compact and highly walkable, with most major attractions reachable on foot; the city also has a local bus network that connects the center to outlying areas and the train station. Taxis are available at designated stands near the station and main squares, and are a practical option for reaching the airport or areas beyond the historic core.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often foggy winter days with occasional frost; tourist crowds are minimal and the city feels quietly atmospheric."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold but days begin to lengthen slightly; occasional sunny spells break up the grey winter weather."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and more sunshine, though showers are common and evenings remain cool."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming gardens; rain showers are frequent but generally short-lived."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny with occasional thunderstorms; a lovely time to explore the city and surrounding countryside."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm summer conditions set in with long sunny days; the famous opera season at the Arena di Verona begins."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry with peak tourist season in full swing; evenings are warm and ideal for outdoor dining."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Consistently hot with intense afternoon sun; the Arena opera season continues and the city is busy with visitors."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with fewer crowds; occasional thunderstorms can bring brief heavy rain."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and often golden autumn days with increasing cloud cover; a quieter and very pleasant time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and frequently rainy with fog returning to the Po Valley; the city takes on a moody, off-season character."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter weather with festive Christmas markets in the historic center; occasional frost and fog are common."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

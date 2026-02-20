@@ -1,0 +1,115 @@
+{
+  "destinationId": "antalya",
+  "city": "Antalya",
+  "country": "Turkey",
+  "transportAdvice": "Antalya has a tram line connecting the old town to key tourist areas, supplemented by an extensive city bus network that reaches most attractions and beach resorts. Taxis are widely available and affordable, and the historic old town (Kaleiçi) is compact and very walkable.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with mild daytime temperatures, making it pleasant for sightseeing but unsuitable for swimming."
+    },
+    {
+      "month": 2,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Still the wet season with cool evenings, though sunny spells are common and crowds are minimal."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and occasional showers, ideal for exploring ruins and the old town."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm and increasingly sunny, a great month for outdoor sightseeing before the summer heat arrives."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely dry with comfortable sea temperatures, marking the start of the beach season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and sunny with very little rain, perfect for beach holidays though midday heat can be intense."
+    },
+    {
+      "month": 7,
+      "avgHighC": 37,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with long sunny days and warm sea water, though temperatures can feel extreme inland."
+    },
+    {
+      "month": 8,
+      "avgHighC": 37,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest month of the year with intense sunshine and crowded beaches; early mornings are best for sightseeing."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still warm and mostly sunny with the sea at its warmest, and slightly fewer crowds than peak summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable temperatures return with occasional rain, making it a popular month for cultural tourism."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with increasing rainfall, though mild enough for daytime walks and historical visits."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and wet with short days, best suited for budget travelers seeking quiet streets and low-season prices."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

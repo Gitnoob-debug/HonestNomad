@@ -1,0 +1,115 @@
+{
+  "destinationId": "sacred-valley",
+  "city": "Sacred Valley",
+  "country": "Peru",
+  "transportAdvice": "The Sacred Valley is spread across a wide rural area, making walking between major sites impractical; shared minibuses (combis) connect towns like Pisac, Urubamba, and Ollantaytambo along the main valley road, and local taxis are widely available for hire. Most visitors rely on organized tours or private transfers to reach archaeological sites efficiently.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season with frequent afternoon downpours; trails can be muddy and some paths slippery."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall makes this one of the wettest months; lush green landscapes but challenging outdoor conditions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward month's end but remains frequent; rivers run high and scenery is vivid green."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transition toward dry season with noticeably fewer rainy days and increasingly clear skies."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season begins in earnest with sunny days, cool nights, and excellent visibility for mountain views."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with very little rain, crisp cold nights, and ideal conditions for hiking and sightseeing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 20,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Driest and most popular month for tourism; days are sunny and pleasant but nights can be near freezing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 21,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still firmly in the dry season with clear skies and comfortable daytime temperatures; crowds remain high."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late dry season with occasional light showers beginning to appear; generally excellent travel conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Shoulder season as rains gradually return; landscapes begin to green up and visitor numbers start to thin."
+    },
+    {
+      "month": 11,
+      "avgHighC": 20,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Increasing rainfall with more frequent afternoon storms; still manageable for travel but waterproof gear is advisable."
+    },
+    {
+      "month": 12,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season resumes in full with regular heavy showers; festive atmosphere in local towns around the holidays."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

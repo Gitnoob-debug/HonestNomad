@@ -1,0 +1,115 @@
+{
+  "destinationId": "munich",
+  "city": "Munich",
+  "country": "Germany",
+  "transportAdvice": "Munich has an excellent integrated public transit network including metro (U-Bahn), suburban rail (S-Bahn), trams, and buses that cover all major tourist areas efficiently. The city centre is highly walkable, and taxis are widely available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with frequent frost, occasional snow, and short daylight hours."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold and wintry with possible snow, though days begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures but changeable weather with rain and occasional late snow."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures, blooming parks, and a mix of sunny and showery days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Pleasant and green with warm days, though May is one of the rainier months with frequent showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm early summer with long days, outdoor beer garden season in full swing, and occasional thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "The warmest month, ideal for outdoor activities, though afternoon thunderstorms are common."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and lively with late-summer festivals; thunderstorms remain frequent in the afternoons."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Oktoberfest season brings pleasant autumn warmth with cooling evenings and moderate rainfall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn colours emerge as temperatures drop noticeably and misty mornings become more common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Grey and cool with frequent overcast skies, fog, and the first hints of winter chill."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and festive with famous Christmas markets, possible snow, and short daylight hours."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

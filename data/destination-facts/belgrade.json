@@ -1,0 +1,115 @@
+{
+  "destinationId": "belgrade",
+  "city": "Belgrade",
+  "country": "Serbia",
+  "transportAdvice": "Belgrade has an extensive public transit network of buses, trams, and trolleybuses that covers most tourist areas, making it easy to get around without a car. The city center and riverside areas are very walkable, and taxis are widely available and affordable throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with occasional snow and frost, typical of a continental Balkan winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with lingering winter conditions, though days gradually begin to lengthen."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins to emerge with milder temperatures and occasional rain showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming parks and a mix of sunny days and rain."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lively with long days, ideal for outdoor sightseeing and riverside walks."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm to hot with occasional afternoon thunderstorms and a vibrant outdoor atmosphere."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and mostly sunny, the peak of summer with long evenings perfect for Belgrade's famous nightlife."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued hot and dry conditions, with the city buzzing with festivals and outdoor events."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with fewer crowds and pleasant sightseeing conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and occasionally rainy, with autumn foliage adding color to the city's parks."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cold and often overcast, marking the transition into winter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter weather with short days, occasional snow, and a festive holiday atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

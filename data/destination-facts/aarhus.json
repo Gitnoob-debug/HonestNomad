@@ -1,0 +1,115 @@
+{
+  "destinationId": "aarhus",
+  "city": "Aarhus",
+  "country": "Denmark",
+  "transportAdvice": "Aarhus is a compact and walkable city, with most major attractions reachable on foot in the city centre. A light rail line and an extensive bus network cover the wider city and tourist areas, and taxis are readily available throughout.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with occasional frost, short daylight hours, and a damp chill that calls for warm layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still wintry and overcast, with cold winds off the sea and occasional sleet or light snow."
+    },
+    {
+      "month": 3,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early signs of spring with slowly lengthening days, though temperatures remain cool and rain is common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant, with fresh breezes and occasional sunny spells as the city comes to life."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the most enjoyable months, with warm days, blooming parks, and long evenings ideal for exploring."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and bright with very long daylight hours, making it a great time to enjoy outdoor cafes and the waterfront."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month of the year, with comfortable temperatures and lively outdoor festivals and events."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still warm and summery with long days, though occasional showers can appear toward the end of the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A pleasant early autumn with cooling temperatures, golden light, and fewer crowds than peak summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter, with autumn colours in the parks and shorter, often overcast days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and damp with limited daylight, though the city's cosy indoor culture and Christmas markets begin to emerge."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Dark and cold with festive Christmas atmosphere, occasional frost, and the charm of seasonal markets and warm interiors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

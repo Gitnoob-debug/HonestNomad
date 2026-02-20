@@ -1,0 +1,115 @@
+{
+  "destinationId": "brighton",
+  "city": "Brighton",
+  "country": "United Kingdom",
+  "transportAdvice": "Brighton is a compact city where most central attractions, the seafront, and the Lanes are easily walkable. An extensive local bus network covers the wider city and surrounding areas, and taxis are readily available throughout the town.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0 (UTC+1 BST in summer)",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and often wet with frequent overcast skies and occasional strong coastal winds."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to January, cold and damp with short daylight hours and blustery sea breezes."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly milder temperatures and longer days, though showers remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly mild with occasional sunny spells, though a jacket is still advisable for evenings."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, making it a good time to enjoy the seafront and outdoor spaces."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer with warm days and long evenings, though occasional showers are still possible."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month with the most sunshine, ideal for the beach and outdoor events."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and sunny with the peak of summer crowds along the seafront and in the city."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn remains mild and pleasant with fewer crowds than peak summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler with increasing rain and wind, though mild spells are still possible."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Autumn turns to early winter with grey skies, frequent rain, and chilly coastal winds."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and wet with short days, though the festive atmosphere in the city centre adds seasonal charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "puerto-vallarta",
+  "city": "Puerto Vallarta",
+  "country": "Mexico",
+  "transportAdvice": "The tourist zone along the Malecón and Zona Romántica is very walkable, and local buses run frequently along the main coastal corridor connecting most tourist areas at low cost. Taxis are widely available throughout the city, and it is advisable to agree on a fare before departing or use metered cabs where available.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and pleasant with warm sunny days and cool evenings, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued dry conditions with comfortable temperatures and minimal cloud cover."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with long sunny days, ideal for beach activities and outdoor exploration."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to rise noticeably with very little rainfall and plenty of sunshine."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry, though humidity starts to build toward the end of the month."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The rainy season begins with afternoon and evening showers becoming more frequent alongside high humidity."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rainfall is common, typically arriving in intense afternoon bursts, with warm and humid conditions throughout."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the rainy season with frequent heavy downpours, high humidity, and occasional tropical storm activity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very wet and humid, with September being statistically the rainiest month and the highest risk of tropical storms."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to taper off but remains significant, with warm temperatures and gradually easing humidity."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season returns with noticeably less rain, lower humidity, and very comfortable temperatures."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry, sunny, and mild with cool evenings, making it a popular month for visitors seeking ideal beach weather."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "arequipa",
+  "city": "Arequipa",
+  "country": "Peru",
+  "transportAdvice": "The historic center of Arequipa is compact and walkable, making it easy to explore major attractions on foot. Public minibuses and taxis are widely available for reaching areas beyond the center, and taxis can be hailed on the street or arranged through hotels.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Peak rainy season with frequent afternoon and evening showers, though mornings are often clear."
+    },
+    {
+      "month": 2,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Continued heavy rainfall makes this one of the wettest months; expect overcast skies and muddy trails."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Rain begins to ease slightly toward month's end but remains frequent; lush green landscapes around the city."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Transitional month with decreasing rainfall and increasingly sunny days; pleasant temperatures for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season begins in earnest with clear skies, cool nights, and excellent visibility of the surrounding volcanoes."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with crisp air and brilliant sunshine; nights can be cold so warm layers are essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 20,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season and popular travel month; clear skies and cold nights make for ideal trekking conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 21,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued dry and sunny weather with strong daytime sun; UV levels are high at this altitude."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still largely dry with warming days; occasional light clouds begin to appear toward the end of the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly sunny with only isolated afternoon showers; a good shoulder-season month for visitors."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains begin to increase with more frequent afternoon thunderstorms; mornings remain generally clear."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Wet season resumes with regular afternoon and evening rain; festive atmosphere in the city around the holidays."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

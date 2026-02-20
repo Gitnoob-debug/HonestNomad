@@ -1,0 +1,115 @@
+{
+  "destinationId": "langkawi",
+  "city": "Langkawi",
+  "country": "Malaysia",
+  "transportAdvice": "Langkawi has no meaningful public transit network, so walking between attractions is generally impractical given the island's spread-out layout; renting a car or motorbike is the most practical way to explore, while taxis and ride-hailing services are available but can be limited outside main tourist areas. The main beach and town areas have some walkable clusters, but independent transport is strongly recommended for visiting the island's varied attractions.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "January is one of the driest and most pleasant months, with calm seas and plenty of sunshine making it ideal for beach activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "February continues the dry season with warm, sunny days and low rainfall, excellent conditions for water sports and island hopping."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "March is warm and largely dry, with good visibility for snorkeling and diving as the sea remains calm."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "April marks the transition toward the wetter season, with increasing humidity and occasional afternoon showers beginning to appear."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "May sees more frequent rain showers, though mornings are often still sunny and beach time remains possible between spells."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "June brings the southwest monsoon with regular rain and rougher seas, though showers are often short-lived and the island stays lush and green."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "July is within the monsoon period with intermittent heavy showers and choppy waters; some boat tours may be limited."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "August remains wet and humid with frequent rain, though the island is quieter and accommodation prices tend to be lower."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "September is one of the wetter months with heavy and persistent rainfall at times, and sea conditions can be rough."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October sees continued heavy rainfall and is generally considered the least favorable month for a beach holiday in Langkawi."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "November marks the gradual end of the monsoon, with rain becoming less frequent and conditions slowly improving toward month's end."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "December returns to drier, sunnier weather and is a popular month to visit, with calm seas and comfortable temperatures ideal for outdoor exploration."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

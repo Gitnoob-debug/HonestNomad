@@ -1,0 +1,115 @@
+{
+  "destinationId": "scottsdale",
+  "city": "Scottsdale",
+  "country": "United States",
+  "transportAdvice": "Scottsdale is a sprawling, car-dependent city where a personal vehicle or taxi is the most practical way to get around; a light rail line connects parts of the greater Phoenix metro area but does not cover most tourist areas, and walking between attractions is generally not feasible due to distances and summer heat.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and sunny winter days with cool nights, ideal for outdoor sightseeing and hiking."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant and warm with abundant sunshine, one of the most comfortable months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm spring weather arrives, making it a popular time for golf and outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with very little rain, great for exploring the desert landscape before summer heat sets in."
+    },
+    {
+      "month": 5,
+      "avgHighC": 36,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures climb significantly and outdoor activities are best done early in the morning."
+    },
+    {
+      "month": 6,
+      "avgHighC": 41,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense dry heat dominates, with very little relief; outdoor exposure should be limited during midday."
+    },
+    {
+      "month": 7,
+      "avgHighC": 41,
+      "avgLowC": 29,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Monsoon season begins bringing afternoon thunderstorms and increased humidity alongside extreme heat."
+    },
+    {
+      "month": 8,
+      "avgHighC": 39,
+      "avgLowC": 28,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Continued monsoon activity with dramatic storms possible; still very hot but slightly more humid than June."
+    },
+    {
+      "month": 9,
+      "avgHighC": 36,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat begins to ease slightly toward month's end as monsoon season winds down."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable and sunny autumn weather returns, making this an excellent time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and pleasant with cool evenings, ideal for hiking, golf, and outdoor dining."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool winter days with crisp nights; festive atmosphere and comfortable conditions for exploring."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

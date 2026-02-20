@@ -1,0 +1,115 @@
+{
+  "destinationId": "panama",
+  "city": "Panama City",
+  "country": "Panama",
+  "transportAdvice": "Panama City has a modern metro system and an extensive bus network that covers most tourist areas, making public transit a practical and affordable option. Taxis are widely available throughout the city, and the historic Casco Viejo district is best explored on foot.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season is well underway with sunny skies and little rain, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with low humidity, ideal conditions for sightseeing and outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest and driest month of the year, with strong sunshine and very little rainfall."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The dry season begins to transition as occasional afternoon showers start to appear toward month's end."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins in earnest with frequent afternoon and evening downpours."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy and frequent rainfall throughout the month, with lush green landscapes as a result."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rains with overcast skies, though mornings are often clearer before afternoon storms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months, with persistent rain and high humidity throughout the day."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain remains frequent and heavy, with the city experiencing some of its highest monthly rainfall totals."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the rainy season with regular downpours, though temperatures remain warm."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward the end of the month as the dry season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The transition back to the dry season brings fewer showers and more pleasant conditions for travel."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "whistler",
+  "city": "Whistler",
+  "country": "Canada",
+  "transportAdvice": "Whistler Village is compact and highly walkable, with the main ski areas, shops, and restaurants all within easy reach on foot. A free public transit system serves the village and surrounding neighborhoods, and taxis are available for longer trips or late-night travel.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and snowy with excellent ski conditions; expect heavy snowfall at elevation and occasional rain at village level."
+    },
+    {
+      "month": 2,
+      "avgHighC": 3,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak ski season with reliable snow; cold temperatures and frequent snowfall make for ideal winter sports conditions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 5,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late ski season with longer daylight hours; snow remains good at altitude while the village begins to warm slightly."
+    },
+    {
+      "month": 4,
+      "avgHighC": 9,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring skiing is possible early in the month but snow coverage becomes patchy; mild and increasingly rainy at lower elevations."
+    },
+    {
+      "month": 5,
+      "avgHighC": 14,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Ski season ends and the mountain transitions to summer activities; expect frequent rain and lush green scenery emerging."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer brings warming temperatures and the opening of mountain biking and hiking trails; some rain is still common."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The warmest and driest month of the year; ideal for hiking, mountain biking, and outdoor festivals with long sunny days."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly sunny with excellent conditions for all summer outdoor activities; the busiest tourist month of the year."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm days and cool nights with fewer crowds; fall colors begin to appear and conditions remain great for hiking and biking."
+    },
+    {
+      "month": 10,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings cooler temperatures and increasing rainfall; a quieter shoulder season as the resort prepares for winter."
+    },
+    {
+      "month": 11,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early snowfall arrives at higher elevations and anticipation builds for ski season; cold, wet, and relatively quiet in the village."
+    },
+    {
+      "month": 12,
+      "avgHighC": 1,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Ski season opens and the village comes alive for the holidays; expect cold temperatures, snowfall, and a festive atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

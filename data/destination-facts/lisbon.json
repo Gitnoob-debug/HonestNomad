@@ -1,0 +1,115 @@
+{
+  "destinationId": "lisbon",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "transportAdvice": "Lisbon has a well-developed public transit network including metro, buses, and iconic trams that cover most tourist areas, though the hilly terrain makes some neighborhoods easier to explore by tram or taxi than on foot. Taxis and ride-hailing services are widely available, and the compact historic center is walkable for those comfortable with steep cobblestone streets.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with mild temperatures, making it a quiet but pleasant time to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with slightly longer days and occasional sunny spells between rain showers."
+    },
+    {
+      "month": 3,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins to emerge with warmer afternoons and a mix of sunshine and light rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm and increasingly sunny, making it an excellent month for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely dry with comfortable temperatures ideal for outdoor exploration."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and sunny with very little rain, marking the start of peak summer conditions."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with long sunny days and virtually no rainfall, very busy with tourists."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hottest month of the year with intense sunshine and dry conditions throughout."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still warm and sunny with slightly cooler evenings, considered one of the best months to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings milder temperatures and increasing rainfall, though many days remain sunny."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and wetter with shorter days, though still mild compared to most of Europe."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and damp with festive atmosphere in the city, occasional sunny days offer pleasant winter walks."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

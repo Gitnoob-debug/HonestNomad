@@ -1,0 +1,115 @@
+{
+  "destinationId": "belfast",
+  "city": "Belfast",
+  "country": "United Kingdom",
+  "transportAdvice": "Belfast is a compact city where many central attractions are walkable, and a network of local buses covers tourist areas and outer neighbourhoods well. Taxis are widely available throughout the city, and black cabs offer a distinctive local experience.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with short daylight hours, typical of a Northern Irish winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to January with persistent grey skies and occasional frost, though days slowly lengthen."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly milder temperatures but rain remains frequent and winds can be brisk."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably brighter with longer days and occasional sunny spells, though showers are still common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the more pleasant months with mild temperatures and a good mix of sunshine and showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and relatively bright with long evenings, though overcast days and rain are still expected."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with the best chance of sustained dry spells and long daylight hours."
+    },
+    {
+      "month": 8,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and often pleasant but rain can return, making it a mixed but generally enjoyable summer month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and increasing rainfall while daytime temperatures remain comfortable."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably wetter and windier as autumn sets in, with shorter days and frequent overcast skies."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and damp with limited daylight, typical of late autumn in Northern Ireland."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and often wet with the shortest days of the year, though festive city centre atmosphere adds appeal."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

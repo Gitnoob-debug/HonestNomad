@@ -1,0 +1,115 @@
+{
+  "destinationId": "mauritius",
+  "city": "Port Louis",
+  "country": "Mauritius",
+  "transportAdvice": "Public buses connect most towns across the island but run on limited schedules. Taxis are widely available and often negotiated for full-day tours. Renting a car is the most practical way to explore the island at your own pace, as many beaches and attractions are spread out.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid peak of the wet season with frequent tropical showers and occasional cyclone risk."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warmest month with heavy rainfall and high humidity; sea conditions can be rough."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still hot and rainy as the wet season continues, though cyclone risk decreases toward month end."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month as conditions begin to dry out and temperatures gradually cool."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and increasingly dry as the cooler season begins; comfortable for outdoor activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season begins with mild, comfortable temperatures and pleasant trade winds."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Coolest month with dry conditions and refreshing breezes; ideal for hiking and exploration."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and mild with excellent visibility for snorkeling and diving; one of the best months to visit."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming slightly with continued dry weather and calm seas, excellent for water activities."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry as summer approaches; a popular time for beach holidays."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm with increasing humidity and occasional afternoon showers as the wet season nears."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid as the wet season returns with tropical showers, though festive holiday atmosphere prevails."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

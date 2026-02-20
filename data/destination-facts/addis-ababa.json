@@ -1,0 +1,115 @@
+{
+  "destinationId": "addis-ababa",
+  "city": "Addis Ababa",
+  "country": "Ethiopia",
+  "transportAdvice": "Addis Ababa has a light rail system that connects some central and outer districts, along with minibus taxis and blue-and-white city buses that cover most areas, though they can be crowded and confusing for first-time visitors. Taxis are widely available for tourists and are generally the most practical option for getting around, while walking is feasible in some central neighborhoods but less practical across the sprawling city.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 23,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "January is dry and sunny with cool nights, making it one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 24,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely dry with clear skies and comfortable daytime temperatures."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures rise and occasional short rains begin to appear toward the end of the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 24,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The long rainy season begins to establish itself with frequent afternoon showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild temperatures with regular rain showers, particularly in the afternoons."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The heavy rainy season is underway with persistent overcast skies and frequent downpours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with near-daily heavy rain and cool, grey conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain continues heavily throughout August, with lush green surroundings but muddy streets."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The rains begin to ease in September, with the city turning vibrantly green and the major Meskel festival taking place."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "October marks the return of dry, sunny weather with comfortable temperatures and clear skies."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and pleasant with cool evenings, considered one of the best months for visiting."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with crisp nights, ideal travel conditions and the Ethiopian Christmas celebrated in early January approaches."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

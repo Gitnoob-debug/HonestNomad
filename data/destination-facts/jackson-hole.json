@@ -1,0 +1,115 @@
+{
+  "destinationId": "jackson-hole",
+  "city": "Jackson Hole",
+  "country": "United States",
+  "transportAdvice": "Jackson Hole has a free public bus system that connects the town of Jackson with Teton Village and key resort areas, making it reasonably accessible without a car during peak seasons; however, renting a car is strongly recommended for visiting Grand Teton National Park and more remote areas, as walking between major attractions is not practical given the distances involved.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -2,
+      "avgLowC": -14,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold and snowy with excellent ski conditions; expect heavy snowfall and frigid overnight temperatures."
+    },
+    {
+      "month": 2,
+      "avgHighC": -1,
+      "avgLowC": -14,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Peak ski season continues with cold temperatures and frequent snowfall; ideal for winter sports enthusiasts."
+    },
+    {
+      "month": 3,
+      "avgHighC": 4,
+      "avgLowC": -10,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Still cold with good snow coverage, though days begin to lengthen and temperatures slowly moderate."
+    },
+    {
+      "month": 4,
+      "avgHighC": 10,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Spring transition brings variable weather with a mix of snow and rain; trails may still be snow-covered at higher elevations."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly green, though afternoon showers are common and some mountain roads may just be opening."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant early summer weather with wildflowers blooming; occasional afternoon thunderstorms are typical."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with long days; the busiest tourist month with excellent conditions for hiking and wildlife viewing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with clear skies; crowds remain high and outdoor activities are at their best."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooler temperatures and thinning crowds make this a beautiful month with fall foliage beginning to appear."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Autumn colors peak early in the month before temperatures drop sharply; early snowfall is possible by late October."
+    },
+    {
+      "month": 11,
+      "avgHighC": 2,
+      "avgLowC": -10,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold and often snowy as winter sets in; ski resorts begin opening and the valley quiets considerably."
+    },
+    {
+      "month": 12,
+      "avgHighC": -2,
+      "avgLowC": -14,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Full winter conditions with heavy snowfall and very cold temperatures; ski season is underway and the valley is festive."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

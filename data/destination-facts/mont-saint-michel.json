@@ -1,0 +1,115 @@
+{
+  "destinationId": "mont-saint-michel",
+  "city": "Mont Saint-Michel",
+  "country": "France",
+  "transportAdvice": "Mont Saint-Michel is a small tidal island where the historic village is entirely explored on foot via narrow medieval streets; private vehicles are not permitted on the island itself and must be parked on the mainland. Shuttle buses run between the mainland car parks and the island causeway, and taxis are available from nearby towns such as Pontorson and Avranches.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with strong Atlantic winds, but crowds are minimal and the island has a moody, atmospheric quality."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and damp with occasional frost, though daylight hours begin to lengthen slightly toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and spring arrives gradually, with a mix of sunny spells and showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant mild weather with blooming countryside on the mainland and increasing visitor numbers around Easter."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the most enjoyable months with warm days, green surroundings, and manageable crowds."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and mostly pleasant with long daylight hours, though tourist numbers rise significantly."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer with warm sunny weather and the highest visitor volumes; expect queues and a busy island."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Similar to July with warm temperatures and large crowds; tidal events can be spectacular this time of year."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crowds thin out after summer while temperatures remain comfortable, making this an excellent time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings cooler, changeable weather and dramatic skies, with noticeably fewer tourists."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet and cool with short days, but the island takes on a quiet, contemplative character appreciated by some visitors."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and often rainy with very short days, though the island can feel magical during the festive season with few crowds."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

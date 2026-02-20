@@ -1,0 +1,115 @@
+{
+  "destinationId": "pokhara",
+  "city": "Pokhara",
+  "country": "Nepal",
+  "transportAdvice": "Pokhara's main tourist strip along Lakeside is compact and very walkable, making it easy to explore on foot. Local buses and shared taxis connect the city's key areas, and private taxis are widely available and affordable for reaching trailheads or the airport.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:45",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny winter days with cold nights and excellent mountain visibility."
+    },
+    {
+      "month": 2,
+      "avgHighC": 20,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and mostly clear with warming temperatures and good conditions for trekking."
+    },
+    {
+      "month": 3,
+      "avgHighC": 24,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm spring weather begins with occasional haze but generally pleasant conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and humid with rhododendrons in bloom; some afternoon showers possible."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Pre-monsoon heat builds with increasing cloud cover and occasional heavy showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon arrives bringing frequent heavy rain, lush greenery, and reduced mountain views."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon month with persistent rain, high humidity, and frequent flooding risk on trails."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy monsoon rainfall with overcast skies and very high humidity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon begins to ease late in the month but rain remains frequent and trails can be muddy."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Post-monsoon skies clear dramatically offering some of the best Himalayan views of the year."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and crystal-clear conditions make this a peak trekking and sightseeing month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold nights and cool days with dry, stable weather and excellent mountain panoramas."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

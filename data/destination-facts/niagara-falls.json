@@ -1,0 +1,115 @@
+{
+  "destinationId": "niagara-falls",
+  "city": "Niagara Falls",
+  "country": "Canada",
+  "transportAdvice": "The tourist district along the falls is walkable, with most major attractions concentrated along a riverside corridor served by a local bus system. Taxis and hotel shuttles are readily available, and a seasonal people-mover service operates along the main tourist strip during peak months.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often snowy with freezing temperatures; the falls remain dramatic in winter but outdoor time is limited."
+    },
+    {
+      "month": 2,
+      "avgHighC": 0,
+      "avgLowC": -9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the coldest months with frequent snow and icy conditions; crowds are minimal and some attractions may have reduced hours."
+    },
+    {
+      "month": 3,
+      "avgHighC": 5,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early signs of spring with fluctuating temperatures and a mix of rain and snow; the falls begin to see more mist activity."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant with spring blooms; rain is common but the falls are at high flow from snowmelt."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with comfortable temperatures; a great time to visit before peak summer crowds arrive."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with occasional thunderstorms; tourist season is in full swing and attractions are busy."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid, the peak of summer; expect large crowds, full attraction hours, and frequent afternoon thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to July with warm, humid conditions and high visitor numbers; evenings are pleasant for outdoor dining."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable fall temperatures with fewer crowds; foliage begins to turn and the atmosphere is relaxed and scenic."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn weather with colorful foliage; a popular shoulder-season visit with mild days and cool nights."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and grey with increasing rain and the first hints of frost; crowds thin significantly and some seasonal attractions close."
+    },
+    {
+      "month": 12,
+      "avgHighC": 2,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold with snow likely and festive winter illuminations along the falls; a quieter but atmospheric time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "shenzhen",
+  "city": "Shenzhen",
+  "country": "China",
+  "transportAdvice": "Shenzhen has an extensive and modern metro system that connects most major districts and tourist areas, making it the most practical way to get around. Taxis and ride-hailing services are widely available, though walking is only practical within individual districts due to the city's sprawling layout.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and mostly dry with occasional overcast skies, the mildest and most comfortable time of year for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still cool and relatively dry, though light rain and mist become more frequent as the month progresses."
+    },
+    {
+      "month": 3,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures rise and humidity increases noticeably, with more frequent drizzle and overcast conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly wet, with regular showers and muggy conditions signaling the approach of the rainy season."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very humid with frequent heavy downpours, marking the start of the wet season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season with intense tropical downpours and high heat; typhoon risk begins this month."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest and one of the wettest months, with significant typhoon risk and oppressive humidity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continues hot and stormy with the highest typhoon activity of the year; outdoor plans should remain flexible."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and rainy with lingering typhoon risk, though conditions begin to ease toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably more pleasant as rain decreases and temperatures cool, making this one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry, sunny, and comfortably warm — excellent conditions for exploring the city outdoors."
+    },
+    {
+      "month": 12,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with clear skies, offering comfortable sightseeing weather and a festive urban atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

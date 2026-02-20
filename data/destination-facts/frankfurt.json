@@ -1,0 +1,115 @@
+{
+  "destinationId": "frankfurt",
+  "city": "Frankfurt",
+  "country": "Germany",
+  "transportAdvice": "Frankfurt has an extensive public transit network including metro (U-Bahn), suburban rail (S-Bahn), trams, and buses that reliably connect tourist areas, the airport, and city districts. The city centre is walkable for sightseeing, and taxis are widely available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with occasional frost; pack warm layers and expect overcast skies."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold with some chance of snow or sleet; conditions begin to slowly improve toward month end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder days but temperatures remain cool; a light jacket is essential."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming trees; showers are common so carry a compact umbrella."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny; one of the more enjoyable months to explore the city outdoors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer conditions with occasional thunderstorms; outdoor dining and riverside walks are popular."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month with long daylight hours; brief afternoon thunderstorms are possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot and humid at times with similar conditions to July; stay hydrated and expect some rain."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures make this an excellent time to visit with fewer crowds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn colours arrive and temperatures drop noticeably; a medium-weight jacket is advisable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool, damp, and often foggy; the Christmas market season begins toward the end of the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive with popular Christmas markets; snow is possible but not guaranteed."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

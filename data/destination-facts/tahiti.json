@@ -1,0 +1,115 @@
+{
+  "destinationId": "tahiti",
+  "city": "Papeete",
+  "country": "French Polynesia",
+  "transportAdvice": "Papeete's central waterfront and market areas are walkable, but the city sprawls and many attractions require transport. Public buses (le truck) run along the coastal road and connect to surrounding districts, while taxis are available but relatively expensive and not always metered.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the hot and wet season with frequent heavy downpours and warm, humid conditions."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet season with high humidity, warm seas, and regular tropical rainfall."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with persistent heat and frequent afternoon showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease as the season transitions, though humidity remains high."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions improve noticeably with lower rainfall and slightly cooler evenings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Start of the dry season with pleasant temperatures, lower humidity, and mostly sunny skies."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the coolest and driest months, ideal for outdoor activities and sightseeing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and comfortable with reliable sunshine and refreshing trade winds."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with excellent visibility and calm seas for water activities."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise again and occasional showers return as the wet season approaches."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably warmer and more humid with increasing frequency of afternoon rain showers."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wet season returns in full with hot, humid days and heavy tropical downpours."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

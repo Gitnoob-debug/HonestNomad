@@ -1,0 +1,115 @@
+{
+  "destinationId": "palawan",
+  "city": "Puerto Princesa",
+  "country": "Philippines",
+  "transportAdvice": "Tricycles (motorized three-wheelers) are the main form of local transport and cover most tourist areas, while jeepneys serve longer routes within the city. Taxis are available but less common than tricycles; many attractions outside the city require organized tours or hired vehicles as walking between sites is generally not practical.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and sunny with comfortable temperatures, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry conditions with clear skies and pleasant breezes, ideal for island hopping and outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise with very little rainfall, excellent for beach and nature excursions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with strong sunshine; one of the warmest months but still good for travel."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The transition into the wet season begins, with occasional afternoon showers becoming more frequent."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season is underway with regular heavy downpours, and some tours may be disrupted by weather."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months, with persistent rain and rough seas that can limit boat-based activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rainfall continues and typhoon risk is elevated, making travel planning less predictable."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with frequent storms; outdoor and coastal activities are often restricted."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease toward the end of the month as the dry season approaches, but showers remain common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions improve noticeably with fewer rainy days and more sunshine returning to the region."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season is re-established, bringing cooler evenings and clear days that are great for sightseeing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

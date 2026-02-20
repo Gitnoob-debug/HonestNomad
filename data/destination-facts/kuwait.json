@@ -1,0 +1,115 @@
+{
+  "destinationId": "kuwait",
+  "city": "Kuwait City",
+  "country": "Kuwait",
+  "transportAdvice": "Kuwait City is not particularly walkable due to extreme summer heat, sprawling urban layout, and limited pedestrian infrastructure, so most visitors rely on taxis or private vehicles. Public buses operate across the city but are not well-suited for tourist areas; taxis are widely available and the most practical option for getting around.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant winter weather with cool evenings and occasional light rain."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm days and cool nights with a small chance of brief showers."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures rise noticeably and conditions become drier and sunnier."
+    },
+    {
+      "month": 4,
+      "avgHighC": 34,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with very little rainfall; outdoor activity is best done in the morning."
+    },
+    {
+      "month": 5,
+      "avgHighC": 41,
+      "avgLowC": 28,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense heat sets in with virtually no rain and strong sunshine throughout the day."
+    },
+    {
+      "month": 6,
+      "avgHighC": 46,
+      "avgLowC": 32,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Extremely hot and dry conditions make outdoor activity uncomfortable for most visitors."
+    },
+    {
+      "month": 7,
+      "avgHighC": 47,
+      "avgLowC": 33,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with occasional dusty winds; outdoor exposure should be minimized."
+    },
+    {
+      "month": 8,
+      "avgHighC": 47,
+      "avgLowC": 33,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued extreme heat with high humidity possible; air-conditioned spaces are essential."
+    },
+    {
+      "month": 9,
+      "avgHighC": 43,
+      "avgLowC": 29,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still very hot but temperatures begin a gradual decline toward the end of the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 35,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Noticeably more comfortable with warm days and mild evenings returning."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant autumn weather with mild temperatures and low rainfall."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and comfortable winter conditions with occasional light rain and fresh breezes."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

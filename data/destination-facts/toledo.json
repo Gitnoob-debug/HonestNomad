@@ -1,0 +1,115 @@
+{
+  "destinationId": "toledo",
+  "city": "Toledo",
+  "country": "Spain",
+  "transportAdvice": "Toledo's historic old city is compact and best explored on foot, though its steep, cobbled streets can be tiring; a local bus service connects the old town with the train and bus stations, and taxis are readily available for longer distances or when arriving with luggage.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and occasionally wet with crisp air; warm layers are essential for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with some rainy spells, but days begin to lengthen noticeably."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and variable with occasional showers; a good time to visit before summer crowds arrive."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming landscapes and comfortable temperatures for walking."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely sunny; one of the most enjoyable months to explore the city."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with long sunny days; early morning sightseeing is advisable."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry; midday heat can be intense so plan outdoor activities for morning or evening."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Remains very hot with little rainfall; stay hydrated and seek shade during peak afternoon hours."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures ease pleasantly and crowds thin; a comfortable month for sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn weather with occasional rain; good conditions for exploring without summer heat."
+    },
+    {
+      "month": 11,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with more frequent overcast skies and some rain."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and quiet with a festive atmosphere; pack warm clothing for outdoor exploration."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

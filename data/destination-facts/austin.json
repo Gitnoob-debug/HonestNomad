@@ -1,0 +1,115 @@
+{
+  "destinationId": "austin",
+  "city": "Austin",
+  "country": "United States",
+  "transportAdvice": "Austin has a public bus network that covers most tourist areas, though service can be infrequent and the city is largely car-oriented. Walking is practical in dense neighborhoods like downtown and South Congress, but a taxi or ride-hail service is generally needed to move between districts efficiently.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild but cool winters with occasional cold fronts and light rain; layers are advisable."
+    },
+    {
+      "month": 2,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to warm slightly but cold spells and rain remain possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather arrives with warming days, though thunderstorms can develop."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and often stormy; April is one of the wetter months with frequent afternoon thunderstorms."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with a high chance of heavy thunderstorms; outdoor plans should account for afternoon rain."
+    },
+    {
+      "month": 6,
+      "avgHighC": 35,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Summer heat sets in with long sunny days and relatively dry conditions; stay hydrated outdoors."
+    },
+    {
+      "month": 7,
+      "avgHighC": 37,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The hottest month of the year with intense sun and very little rain; limit midday outdoor activity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 37,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Equally hot as July with dry, sunny conditions; swimming holes and air-conditioned venues are popular escapes."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Heat begins to ease slightly and rain chances increase as fall approaches; still warm and sunny overall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the most pleasant months with comfortable temperatures and colorful foliage beginning to appear."
+    },
+    {
+      "month": 11,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and crisp autumn weather with occasional rain; a great time to enjoy outdoor festivals and dining."
+    },
+    {
+      "month": 12,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally cold with light rain; festive holiday atmosphere in the city center."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

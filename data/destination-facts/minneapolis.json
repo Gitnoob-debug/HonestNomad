@@ -1,0 +1,115 @@
+{
+  "destinationId": "minneapolis",
+  "city": "Minneapolis",
+  "country": "United States",
+  "transportAdvice": "Minneapolis has a light rail system and bus network that connects downtown, the airport, and major attractions, making public transit a practical option for tourists. Downtown and the Uptown neighborhood are walkable, and taxis as well as ride-hail vehicles are widely available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -7,
+      "avgLowC": -17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Bitterly cold and snowy, January is the harshest month with frequent sub-zero temperatures and icy conditions."
+    },
+    {
+      "month": 2,
+      "avgHighC": -4,
+      "avgLowC": -15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still deeply cold with regular snowfall, though daylight hours begin to noticeably increase."
+    },
+    {
+      "month": 3,
+      "avgHighC": 3,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb but winter lingers with a mix of snow, sleet, and cold rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives unevenly with warming days, occasional late snow, and frequent rain showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A pleasant and green month with mild temperatures and blooming parks, though thunderstorms are possible."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lively with long daylight hours, outdoor festivals begin and thunderstorms are common."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The warmest month of the year, humid and sunny with peak outdoor activity and occasional heavy storms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still warm and humid with summer festivals in full swing and afternoon thunderstorms possible."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A beautiful early autumn month with cooling temperatures, lower humidity, and colorful foliage beginning."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp fall weather with stunning foliage colors, though temperatures drop quickly toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 3,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with the first snowfalls of the season and rapidly shortening days."
+    },
+    {
+      "month": 12,
+      "avgHighC": -4,
+      "avgLowC": -13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Full winter conditions with snow, ice, and very cold temperatures; festive holiday events brighten the dark days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

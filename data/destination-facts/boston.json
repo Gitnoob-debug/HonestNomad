@@ -1,0 +1,115 @@
+{
+  "destinationId": "boston",
+  "city": "Boston",
+  "country": "United States",
+  "transportAdvice": "Boston has an extensive subway and bus network that connects most major tourist areas, making it easy to get around without a car. The historic downtown and waterfront districts are very walkable, and taxis as well as ride-hailing services are widely available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often snowy, with freezing temperatures and occasional winter storms making warm layers essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the coldest months, with persistent cold and a mix of snow and rain likely throughout."
+    },
+    {
+      "month": 3,
+      "avgHighC": 8,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings gradually warming days but temperatures remain chilly and rain becomes more frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant, though showers are common and temperatures can still dip at night."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable spring weather with blooming greenery, though occasional rain showers are still expected."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with long daylight hours, making it a popular time to explore the city outdoors."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month, with high humidity and warm evenings; afternoon thunderstorms are possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still hot and humid with conditions similar to July, though temperatures begin to ease toward month's end."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant early autumn with cooler, comfortable temperatures and gradually decreasing humidity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp fall weather with spectacular foliage colors, making it one of the most scenic months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures drop noticeably and rain is frequent, with the first frost possible by late in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and wintry with a chance of snow, though the festive holiday atmosphere makes the city lively."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

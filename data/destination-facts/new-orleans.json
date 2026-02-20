@@ -1,0 +1,115 @@
+{
+  "destinationId": "new-orleans",
+  "city": "New Orleans",
+  "country": "United States",
+  "transportAdvice": "The French Quarter and many tourist areas are walkable, though the city is spread out and some neighborhoods require other transport. New Orleans has a historic streetcar network and local bus system covering major corridors, and taxis are generally available throughout the city.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and mild winters with occasional cold snaps and moderate rainfall make January one of the more comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "February remains mild and is often the heart of Mardi Gras season, with festive crowds and pleasant daytime temperatures."
+    },
+    {
+      "month": 3,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures and increasing greenery, though rain showers become more frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with blooming flora, April is a popular month to visit before the intense summer heat sets in."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heat and humidity begin to build noticeably in May, with frequent afternoon thunderstorms becoming a regular occurrence."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot, humid, and rainy, June marks the start of hurricane season and can feel oppressive outdoors during midday."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "July is the hottest and most humid month, with near-daily thunderstorms and peak hurricane season risk."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Conditions remain intensely hot and humid with heavy rainfall, and hurricane risk is at its highest this month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still hot and stormy with continued hurricane risk, September offers little relief from the summer's heat and humidity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "October brings welcome cooling and lower humidity, making it one of the most enjoyable months to explore the city."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and comfortable autumn weather with reduced crowds makes November an excellent time to visit New Orleans."
+    },
+    {
+      "month": 12,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and festive in December, the city celebrates the holiday season with events and decorations while temperatures remain mild."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

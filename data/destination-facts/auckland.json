@@ -1,0 +1,115 @@
+{
+  "destinationId": "auckland",
+  "city": "Auckland",
+  "country": "New Zealand",
+  "transportAdvice": "Auckland has a public transit network of buses, trains, and ferries that connects the city centre with most tourist areas, though coverage can be limited in outer suburbs. Taxis and rideshare vehicles are widely available, and the city centre and waterfront areas are walkable, though Auckland's hilly terrain and spread-out layout make a vehicle useful for exploring further afield.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+12",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and sunny summer month with occasional afternoon showers, ideal for outdoor activities and beaches."
+    },
+    {
+      "month": 2,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long days, though brief rain spells are still possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late summer with pleasant warmth and slightly increasing rainfall as autumn approaches."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and more frequent rain, but days remain mild and comfortable."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter, with overcast skies becoming more common throughout the month."
+    },
+    {
+      "month": 6,
+      "avgHighC": 14,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Winter begins with regular rainfall, cool temperatures, and shorter daylight hours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 13,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The coldest month, often grey and rainy, though snow is extremely rare at sea level."
+    },
+    {
+      "month": 8,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cool and wet, but days gradually begin to lengthen toward the end of the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring with improving conditions, though showers remain frequent and temperatures are still cool."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring warms up with more sunshine, though changeable weather and rain showers are still common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late spring brings warmer days and increasing sunshine, making it a pleasant time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer with warm temperatures and long evenings, though occasional rain showers are still possible."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

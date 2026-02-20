@@ -1,0 +1,115 @@
+{
+  "destinationId": "rishikesh",
+  "city": "Rishikesh",
+  "country": "India",
+  "transportAdvice": "Rishikesh's main ghats and market areas are walkable, though the town is spread out and auto-rickshaws or shared jeeps are the most practical way to move between neighborhoods; taxis are widely available for day trips to nearby attractions. No metro or formal bus network serves the tourist core, but state bus services connect Rishikesh to major regional cities.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, clear winter days with chilly nights; comfortable for sightseeing and yoga retreats."
+    },
+    {
+      "month": 2,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and pleasant with occasional light showers; one of the more comfortable months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming spring weather with clear skies; ideal conditions for outdoor activities and trekking."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with increasing temperatures; mornings are still pleasant for river activities."
+    },
+    {
+      "month": 5,
+      "avgHighC": 37,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Very hot with pre-monsoon humidity building; early mornings are the best time to be outdoors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon arrives bringing heavy rainfall; river levels rise significantly and white-water rafting is suspended."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon with frequent heavy rain and risk of landslides on mountain roads; many adventure activities are closed."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy monsoon rains; the Ganges runs high and fast, limiting riverside access."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon begins to ease late in the month but rain remains frequent; lush green landscapes emerge."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Post-monsoon cooling with mostly clear skies; an excellent month for trekking and rafting as rivers settle."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with crisp air; one of the best months to visit for comfortable temperatures and clear views."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter sets in, especially at night; peaceful atmosphere with fewer crowds and clear mountain air."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

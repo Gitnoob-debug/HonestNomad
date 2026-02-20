@@ -1,0 +1,115 @@
+{
+  "destinationId": "naxos",
+  "city": "Naxos",
+  "country": "Greece",
+  "transportAdvice": "Naxos Town is compact and walkable, but reaching beaches and villages across the island requires a car, scooter, or the local bus network, which connects major settlements and popular beaches on a seasonal schedule. Taxis are available but limited in number, so renting a vehicle is the most practical option for exploring beyond the main town.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and occasionally stormy winter weather with the fewest tourists and many businesses closed."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cool and wet with unpredictable weather, though days can occasionally be mild and pleasant."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings warming temperatures and longer days, though rain showers remain possible."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly sunny with wildflowers in bloom and a noticeable uptick in visitors."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with comfortable conditions ideal for sightseeing and early beach visits."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and sunny with very little rain; the Meltemi wind begins to pick up, offering some relief from the heat."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with strong Meltemi winds, clear skies, and the island at its busiest."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Equally hot and dry as July with persistent winds and crowded beaches and accommodation."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and still very sunny with calmer winds and slightly fewer crowds than peak summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant autumn temperatures with occasional rain returning and a quieter, more relaxed atmosphere."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as the island winds down for the off-season with many venues closing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and rainy winter conditions with a quiet island atmosphere and limited tourist infrastructure open."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

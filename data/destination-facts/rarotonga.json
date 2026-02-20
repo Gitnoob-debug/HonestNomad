@@ -1,0 +1,115 @@
+{
+  "destinationId": "rarotonga",
+  "city": "Rarotonga",
+  "country": "Cook Islands",
+  "transportAdvice": "A single public bus route circles the island in both directions and covers most tourist areas, making it a practical and affordable option for getting around. Taxis are available, scooter and bicycle rentals are popular, and many resorts and attractions are accessible on foot along the coastal road.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the wet season with warm temperatures, frequent tropical downpours, and the highest cyclone risk of the year."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continues hot and humid with heavy rainfall and ongoing cyclone risk; expect lush green landscapes."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with warm, sticky conditions and regular afternoon showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease as the wet season winds down, though humidity remains high and showers are still common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with noticeably drier and more comfortable conditions as the dry season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season begins with pleasant, cooler temperatures and lower humidity — ideal for outdoor activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the coolest and driest months of the year, with comfortable temperatures and plenty of sunshine."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Consistently dry and sunny with mild temperatures, making it one of the most popular months for visitors."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season continues with warm, sunny days and refreshing trade winds keeping conditions comfortable."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb again as the dry season draws to a close, with mostly fine and sunny weather."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The wet season starts to return with increasing cloud cover and occasional showers alongside warm temperatures."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and increasingly humid with more frequent rain as the wet season builds toward its summer peak."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "atacama",
+  "city": "San Pedro de Atacama",
+  "country": "Chile",
+  "transportAdvice": "The compact village center is easily walkable, and most attractions are reachable on foot or by bicycle rental. Taxis and organized tour vehicles are the primary options for reaching outlying natural sites, as public transit coverage to tourist areas is very limited.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 24,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Summer brings warm days and the Bolivian winter altiplanic rains, with afternoon thunderstorms possible at higher elevations."
+    },
+    {
+      "month": 2,
+      "avgHighC": 23,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Continued wet season with occasional afternoon storms; landscapes can be lush and colorful compared to drier months."
+    },
+    {
+      "month": 3,
+      "avgHighC": 23,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Rains begin to taper off, with clearer skies returning and pleasant daytime temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and clear conditions prevail with cool nights and comfortable warm days, ideal for outdoor exploration."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": -1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooler temperatures arrive with very dry air; nights can drop below freezing so warm layers are essential."
+    },
+    {
+      "month": 6,
+      "avgHighC": 17,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Winter brings cold nights and crisp, brilliantly clear days with exceptional stargazing conditions."
+    },
+    {
+      "month": 7,
+      "avgHighC": 17,
+      "avgLowC": -4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The coldest month of the year with freezing nights, but skies are exceptionally clear and daytime conditions are pleasant."
+    },
+    {
+      "month": 8,
+      "avgHighC": 19,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold at night but days are sunny and dry; one of the best months for clear visibility across the desert."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": -1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to warm with very dry conditions and long sunny days making it excellent for sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring brings warming days and minimal rainfall; a popular and comfortable time to visit the desert."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot sunny days with very low humidity; conditions are excellent though midday heat can be intense."
+    },
+    {
+      "month": 12,
+      "avgHighC": 24,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The wet season begins to build with increasing chances of afternoon storms, though mornings are typically clear and warm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

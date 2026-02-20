@@ -1,0 +1,115 @@
+{
+  "destinationId": "kyoto",
+  "city": "Kyoto",
+  "country": "Japan",
+  "transportAdvice": "Kyoto is well served by an extensive bus network and a subway system that connects major tourist districts, making public transit a practical and affordable way to get around. Many central attractions are walkable or reachable by bicycle, and taxis are widely available though more expensive than transit.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and crisp winter days with occasional frost; snow is possible but rarely heavy, making for atmospheric temple visits."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but early plum blossoms begin to appear, offering a first hint of spring color."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures rise noticeably and cherry blossom season approaches toward month's end, drawing large crowds."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak cherry blossom season in early April makes this one of the most popular and crowded times to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with lush green foliage; a comfortable month for sightseeing before summer heat arrives."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season brings frequent rain and rising humidity, though gardens and moss temples look especially lush."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and very humid with intense heat; traditional summer festivals add cultural interest despite the uncomfortable conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with high humidity; early morning visits to temples are strongly recommended."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Typhoon season brings occasional heavy rain and lingering heat, though temperatures gradually begin to ease."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable autumn temperatures and the start of fall foliage make this one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak autumn foliage in mid to late November draws large crowds; crisp air and vivid colors make for spectacular scenery."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and quiet as tourist crowds thin out; early winter atmosphere with illuminated temple events adds seasonal charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

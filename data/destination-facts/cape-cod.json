@@ -1,0 +1,115 @@
+{
+  "destinationId": "cape-cod",
+  "city": "Cape Cod",
+  "country": "United States",
+  "transportAdvice": "Cape Cod has a seasonal bus network that connects major towns and beaches, but a car is strongly recommended for exploring the peninsula fully, as many areas are spread out and not walkable between destinations. Taxis and ride-hail services are available, particularly in larger towns, but coverage can be limited in off-peak seasons.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and quiet winter month with occasional snow and strong coastal winds; most tourist attractions are closed."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still firmly winter with freezing temperatures and a chance of snow or sleet; the Cape is largely off-season."
+    },
+    {
+      "month": 3,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early signs of spring but still chilly and unpredictable; some businesses begin reopening toward month's end."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and fresh with blooming landscapes; a pleasant time to visit before summer crowds arrive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable and increasingly warm with longer days; a great shoulder-season month before peak tourism."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer brings warm, sunny days and the start of the busy tourist season; beaches begin to fill."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Peak summer with warm ocean water, crowded beaches, and lively towns; the most popular month to visit."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Equally busy and warm as July with ideal beach conditions; accommodation books out well in advance."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "A lovely shoulder month as crowds thin but weather remains warm and pleasant for outdoor activities."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn air and beautiful fall foliage make this a scenic time to visit with far fewer tourists."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and increasingly quiet as the off-season sets in; many seasonal businesses close for the year."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter conditions return with a chance of snow; a peaceful but limited experience for visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

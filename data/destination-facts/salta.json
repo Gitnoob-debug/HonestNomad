@@ -1,0 +1,115 @@
+{
+  "destinationId": "salta",
+  "city": "Salta",
+  "country": "Argentina",
+  "transportAdvice": "The compact historic center of Salta is very walkable, with most major attractions reachable on foot. City buses cover the broader urban area and surrounding towns, and taxis are widely available and affordable for longer trips or day excursions.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer with frequent afternoon thunderstorms and warm, humid conditions typical of the rainy season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and warm temperatures make this one of the wettest months of the year."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward month's end but conditions remain warm and humid."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings noticeably drier and more comfortable weather with pleasant warm days and cooler nights."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and mild with clear skies, making this an excellent month for sightseeing and outdoor activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 17,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and very dry winter conditions with crisp air and abundant sunshine throughout the day."
+    },
+    {
+      "month": 7,
+      "avgHighC": 17,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The driest and coolest month of the year with cold nights but bright, sunny days ideal for exploring."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to rise with continued dry and sunny weather, a great time for trekking and day trips."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring arrives with warming days, low humidity, and very little rain, offering excellent travel conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warmer spring weather with occasional showers beginning to return as the wet season approaches."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot and increasingly humid with more frequent afternoon storms signaling the start of the rainy season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full summer heat and regular heavy rainfall return, with lush green landscapes across the region."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

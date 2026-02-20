@@ -1,0 +1,115 @@
+{
+  "destinationId": "anguilla",
+  "city": "Anguilla",
+  "country": "Anguilla",
+  "transportAdvice": "Anguilla has no formal public transit system, so getting around relies on taxis and car rentals, both of which are widely available; driving is on the left side of the road. Walking is practical within small villages and beach areas, but a vehicle is generally needed to explore the island fully.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasant with gentle trade winds making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Consistently sunny and dry with refreshing breezes, ideal beach weather throughout."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely rain-free, marking the tail end of the peak dry season."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise slightly but conditions remain dry and very enjoyable."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warmth increases and occasional showers begin to appear as the wet season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Early hurricane season brings higher humidity and more frequent passing showers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with periodic rain showers, though long sunny spells are still common."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak hurricane season with the highest chance of heavy rain and tropical storm activity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest and most climatically risky month, with elevated hurricane threat and frequent downpours."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still within hurricane season with significant rain probability, though storms begin to taper off late in the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hurricane risk diminishes and conditions gradually improve, with a mix of sun and occasional showers."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with comfortable temperatures and reliable sunshine, making it a popular time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

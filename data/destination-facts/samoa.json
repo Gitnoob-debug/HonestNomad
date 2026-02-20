@@ -1,0 +1,115 @@
+{
+  "destinationId": "samoa",
+  "city": "Apia",
+  "country": "Samoa",
+  "transportAdvice": "Apia's compact town center is walkable for most tourist attractions, though the heat and humidity can make longer walks tiring. Public buses serve the main routes around the island at low cost, and taxis are widely available for hire, though it is advisable to agree on a fare before setting off.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+13",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent heavy downpours and warm, humid conditions typical of the South Pacific summer."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet season with high rainfall and the possibility of tropical cyclones; expect lush green landscapes."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with regular afternoon storms and consistently warm temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease slightly as the wet season transitions, though humidity remains high."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions start to improve with less frequent rain and slightly more comfortable humidity levels."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season begins, bringing clearer skies, lower humidity, and pleasant trade winds."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the driest and most comfortable months, with reliable sunshine and refreshing breezes."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season continues with excellent beach and outdoor conditions and minimal rainfall."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still largely dry with warm temperatures and good visibility for snorkeling and coastal activities."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall begins to increase as the wet season approaches, though sunny spells remain common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Humidity rises noticeably and short heavy showers become more frequent as the wet season returns."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season is underway with warm, humid days and regular tropical downpours; cyclone risk increases."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

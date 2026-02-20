@@ -1,0 +1,115 @@
+{
+  "destinationId": "sao-paulo",
+  "city": "São Paulo",
+  "country": "Brazil",
+  "transportAdvice": "São Paulo has an extensive metro and bus network that connects major neighborhoods and tourist areas, though the city is very large and walking between attractions is rarely practical. Taxis and ride-hailing vehicles are widely available and recommended for shorter trips or areas not well served by the metro.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "January is the height of summer and the wettest month, with frequent heavy afternoon thunderstorms and warm, humid conditions."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "February remains hot and rainy, coinciding with Carnival festivities, so expect lively crowds alongside afternoon downpours."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "March is still warm and wet, with rain beginning to ease slightly toward the end of the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April brings cooler temperatures and reduced rainfall, marking a pleasant transition into autumn."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "May is one of the drier months with mild days and cooler evenings, making it a comfortable time to explore the city."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "June is dry and cool, with crisp evenings and clear skies — one of the best months to visit."
+    },
+    {
+      "month": 7,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "July is the coolest and driest month of the year, with comfortable daytime temperatures and cold nights."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "August remains dry with warming days, though cold fronts can still bring brief chilly spells."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "September sees temperatures rising and rainfall beginning to return, with occasional thunderstorms developing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "October is warm and increasingly rainy as the wet season builds, with unpredictable afternoon storms."
+    },
+    {
+      "month": 11,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "November brings heavy rainfall and high humidity as the summer wet season gets fully underway."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "December is hot, humid, and very rainy, with frequent intense thunderstorms typical of the peak wet season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

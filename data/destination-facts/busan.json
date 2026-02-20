@@ -1,0 +1,115 @@
+{
+  "destinationId": "busan",
+  "city": "Busan",
+  "country": "South Korea",
+  "transportAdvice": "Busan has an extensive metro system that connects most major tourist areas, beaches, and neighborhoods, making it easy to get around without a car. Buses fill gaps between metro lines, taxis are widely available and metered, and many beach and harbor areas are pleasant to explore on foot.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with occasional wind; the coldest month of the year but rarely sees snow."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but slightly milder than January, with crisp, mostly clear days."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early spring brings warming temperatures and occasional breezy days; a pleasant time to visit."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and comfortable with cherry blossoms in bloom; light rain showers become more frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny, one of the best months to visit before summer humidity sets in."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The start of the rainy season brings heavy, frequent rainfall and rising humidity."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot, humid, and very wet; peak monsoon season with heavy downpours, but beaches are busy."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest month with high humidity; beaches are at peak popularity despite the heat and occasional typhoon risk."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Monsoon eases and temperatures begin to drop; still warm and occasionally rainy but increasingly pleasant."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Crisp autumn weather with clear skies and comfortable temperatures; one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooling quickly with dry, clear days and beautiful autumn foliage in surrounding hills."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with a festive atmosphere; outdoor sightseeing requires warm layers."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

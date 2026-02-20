@@ -1,0 +1,115 @@
+{
+  "destinationId": "jakarta",
+  "city": "Jakarta",
+  "country": "Indonesia",
+  "transportAdvice": "Jakarta has an extensive public transit network including a metro system, commuter rail, and bus rapid transit corridors that connect major districts and tourist areas, though traffic congestion can make journey times unpredictable. Walking is generally impractical for covering distances due to heat, humidity, and limited pedestrian infrastructure, so taxis and ride-hailing vehicles are widely available and affordable for getting around.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent heavy downpours and occasional flooding, especially in low-lying areas."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and high humidity make this one of the wettest months of the year."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward the end of the month but conditions remain hot and humid."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitional month with decreasing rainfall and warm, muggy conditions throughout."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Drier and slightly more comfortable, though afternoon showers are still possible."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the drier months with lower humidity, making it a relatively pleasant time to visit."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season is well established with lower rainfall and cooler overnight temperatures."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Consistently dry and sunny with the lowest humidity levels of the year."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still largely dry but temperatures begin to climb as the season transitions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall increases as the wet season approaches, with humidity rising noticeably."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season returns with frequent afternoon and evening thunderstorms and high humidity."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy and persistent rainfall returns, with a high chance of localized flooding in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

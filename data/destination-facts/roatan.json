@@ -1,0 +1,115 @@
+{
+  "destinationId": "roatan",
+  "city": "Roatán",
+  "country": "Honduras",
+  "transportAdvice": "Getting around Roatán typically involves shared minibuses (collectivos) that run along the main road connecting the island's towns, though coverage can be infrequent outside peak hours. Taxis are widely available in tourist areas and are the most convenient option for reaching beaches and dive sites, while walking is practical only within individual towns rather than between them.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the driest and most pleasant months, with warm sunny days and calm seas ideal for diving and snorkeling."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and comfortable with consistent sunshine, making it a peak month for water activities and beach visits."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with excellent visibility in the water, great conditions for reef exploration."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and conditions remain largely dry, offering good beach weather before the wet season."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The transition into the wet season brings occasional afternoon showers, though mornings are often still sunny."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with more frequent rain showers, though dive conditions can still be excellent between storms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Mid-summer brings a brief drier spell known as the midsummer drought, offering a welcome break from the rains."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with a mix of sun and showers; hurricane season is active so travelers should monitor forecasts."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with heavy rainfall and elevated hurricane risk, generally considered low season."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainfall remains heavy and the risk of tropical storms persists, though prices are lower and crowds are thin."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward the end of the month as the wet season winds down, with improving conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "A return to drier, cooler weather makes December a pleasant and increasingly popular time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

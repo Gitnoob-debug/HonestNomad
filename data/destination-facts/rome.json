@@ -1,0 +1,115 @@
+{
+  "destinationId": "rome",
+  "city": "Rome",
+  "country": "Italy",
+  "transportAdvice": "Rome has a metro system with two main lines, an extensive bus and tram network, and readily available taxis that can be hailed or found at designated stands. The historic center is highly walkable and many major attractions are within comfortable walking distance of each other, though the metro is useful for reaching areas further from the center.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with short daylight hours, but crowds are thin and major sights are easily accessible."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool and wintry with occasional rain, though some warmer days begin to appear toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild spring conditions begin to emerge with longer days and occasional showers, making it a pleasant time to explore."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny with blooming flowers, though spring showers are still common and crowds begin to build."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortably warm and mostly sunny, widely considered one of the best months to visit before summer heat arrives."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and sunny with long days and growing tourist crowds, ideal for outdoor dining and evening strolls."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with very little rain and the largest tourist crowds, best managed with early morning sightseeing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Intensely hot and humid with many locals on holiday, leaving some restaurants and shops closed but tourist sites open."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and pleasant as summer heat eases, with fewer crowds and excellent conditions for sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn temperatures with occasional rain and noticeably thinner crowds, making it a comfortable and rewarding time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cooler and wetter with frequent rain, but a quieter atmosphere and lower prices make it appealing for budget-conscious travelers."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and festive with Christmas decorations throughout the city, occasional rain, and a lively holiday atmosphere around major piazzas."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

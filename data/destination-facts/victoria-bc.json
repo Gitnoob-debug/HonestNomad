@@ -1,0 +1,115 @@
+{
+  "destinationId": "victoria-bc",
+  "city": "Victoria",
+  "country": "Canada",
+  "transportAdvice": "Victoria is a compact and walkable city, with most major attractions, the Inner Harbour, and downtown easily covered on foot or by bicycle. A public bus network serves the broader city and surrounding areas, and taxis are generally available, though coverage is less extensive than in larger Canadian cities.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and frequently rainy with mild temperatures by Canadian standards, occasional frost but rarely snow."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still wet and overcast but early signs of spring begin to appear, with slightly longer daylight hours."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain becomes less frequent and temperatures gradually warm, making it a pleasant early-spring destination."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly sunny with blooming gardens, one of the most scenic months to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with long daylight hours, ideal conditions for outdoor sightseeing and coastal walks."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly warm and mostly sunny, marking the start of Victoria's reliably dry summer season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The warmest and driest month of the year, with long sunny days and very little rainfall."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continues the warm dry summer pattern, excellent for whale watching, cycling, and outdoor dining."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and still largely dry, considered by many locals to be the best month to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn colours emerge and rain returns gradually, though many days remain clear and comfortable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably wetter and cooler with frequent overcast skies, a quieter period for tourism."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and rainy with short days, though the city takes on a festive atmosphere with holiday decorations."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

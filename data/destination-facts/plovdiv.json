@@ -1,0 +1,115 @@
+{
+  "destinationId": "plovdiv",
+  "city": "Plovdiv",
+  "country": "Bulgaria",
+  "transportAdvice": "The historic Old Town and central areas are very walkable, making it easy to explore most major attractions on foot. Public buses cover the wider city, and taxis are widely available and affordable for reaching areas beyond the center.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 5,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with occasional frost and overcast skies, snow possible but not guaranteed."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold but slightly milder than January, with occasional sunny spells between grey days."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings warming temperatures and increasing sunshine, though showers are common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming landscapes and mild temperatures ideal for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny with occasional afternoon thunderstorms, a great month to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and mostly dry with long sunny days, perfect for outdoor exploration of the Old Town."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with very little rain and intense afternoon sun, stay hydrated outdoors."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continues hot and dry, similar to July, with warm evenings ideal for outdoor dining."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and pleasant early autumn with comfortable temperatures and minimal rainfall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn weather with colourful foliage and increasing cloud cover and occasional rain."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and greyer with regular rain, marking the transition into winter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often damp with the possibility of frost or light snow, festive atmosphere in the city center."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

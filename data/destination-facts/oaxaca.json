@@ -1,0 +1,115 @@
+{
+  "destinationId": "oaxaca",
+  "city": "Oaxaca",
+  "country": "Mexico",
+  "transportAdvice": "The historic center of Oaxaca is compact and very walkable, with most major attractions, markets, and restaurants within easy reach on foot. Taxis and shared minivans called colectivos are widely available for longer distances, and public buses connect the city to surrounding villages and archaeological sites.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny days make January one of the most pleasant months to visit Oaxaca."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm afternoons and cool nights continue, with very little rainfall and clear skies."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to climb and conditions remain dry, making it ideal for sightseeing."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the hottest and driest months, with strong sunshine and warm evenings."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Heat peaks and the first rains of the season begin to appear, bringing some afternoon showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season is well underway with frequent afternoon and evening downpours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain is frequent but often falls in short bursts, with lush green landscapes as a result."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall keeps temperatures moderate and the surrounding valleys very green."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year, with persistent rain and overcast skies most days."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall begins to ease toward the end of the month as the dry season approaches."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and comfortable conditions return, coinciding with the vibrant Día de los Muertos celebrations."
+    },
+    {
+      "month": 12,
+      "avgHighC": 26,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool nights and warm sunny days make December a popular and festive time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

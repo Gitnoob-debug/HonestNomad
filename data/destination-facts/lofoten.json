@@ -1,0 +1,115 @@
+{
+  "destinationId": "lofoten",
+  "city": "Lofoten",
+  "country": "Norway",
+  "transportAdvice": "Lofoten is spread across a chain of islands connected by bridges and tunnels, making a rental car the most practical way to explore the archipelago; public buses run between main villages but are infrequent and may not reach all scenic areas. Walking is feasible within individual fishing villages, but distances between attractions are too large to cover on foot.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, dark, and stormy with very limited daylight, but prime time to witness the northern lights above dramatic snowy peaks."
+    },
+    {
+      "month": 2,
+      "avgHighC": 2,
+      "avgLowC": -2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and wintry with frequent snow and wind, though daylight begins to return noticeably toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Days lengthen rapidly and snow-capped mountains reflect in calm fjords, making this a rewarding month for winter scenery."
+    },
+    {
+      "month": 4,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with longer days, melting snow, and the return of migratory seabirds, offering a fresh and uncrowded experience."
+    },
+    {
+      "month": 5,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the most pleasant months with mild temperatures, blooming landscapes, and the midnight sun beginning to appear."
+    },
+    {
+      "month": 6,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The midnight sun is in full effect, bathing the islands in golden light around the clock and drawing increasing visitor numbers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long bright nights, peak tourist season, and lively fishing villages; book accommodation well in advance."
+    },
+    {
+      "month": 8,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still warm and busy with lingering midnight sun in early August, gradually giving way to shorter nights and early autumn colors."
+    },
+    {
+      "month": 9,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crowds thin out, autumn colors emerge on the hillsides, and the northern lights become visible again on clear nights."
+    },
+    {
+      "month": 10,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Increasingly stormy and wet with dramatic skies, strong aurora activity, and a raw, wild atmosphere that appeals to adventurous travelers."
+    },
+    {
+      "month": 11,
+      "avgHighC": 5,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Dark, cold, and frequently stormy with very few tourists; northern lights viewing is possible but weather is often overcast."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Polar night brings near-total darkness around the winter solstice, with dramatic aurora displays possible on clear nights amid snow and cold."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

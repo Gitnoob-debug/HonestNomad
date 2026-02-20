@@ -1,0 +1,115 @@
+{
+  "destinationId": "lapland",
+  "city": "Rovaniemi",
+  "country": "Finland",
+  "transportAdvice": "Rovaniemi is a small city where the town centre is walkable, but many attractions and wilderness areas lie outside the centre and require a taxi or organised tour transfer. Local bus services operate but are limited in frequency and coverage, so taxis and pre-arranged transport are the most practical options for reaching outlying sites.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -9,
+      "avgLowC": -17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Deep winter with heavy snow cover, polar night conditions, and very cold temperatures ideal for northern lights viewing and snowmobile safaris."
+    },
+    {
+      "month": 2,
+      "avgHighC": -8,
+      "avgLowC": -16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still firmly winter with reliable snow and increasing daylight, excellent for dog sledding and reindeer sleigh rides."
+    },
+    {
+      "month": 3,
+      "avgHighC": -3,
+      "avgLowC": -12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late winter brings longer sunny days reflecting off bright snow, making it one of the most scenic and active months for winter sports."
+    },
+    {
+      "month": 4,
+      "avgHighC": 4,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring thaw begins with melting snow and muddy conditions; a transitional month that is generally less popular with tourists."
+    },
+    {
+      "month": 5,
+      "avgHighC": 11,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Nature awakens with greenery emerging and the midnight sun approaching, offering long daylight hours and fresh Arctic landscapes."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Midnight sun is in full effect with nearly 24 hours of daylight, warm temperatures, and lush green forests perfect for hiking and fishing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long bright nights, ideal for outdoor activities, river trips, and exploring Lapland's summer wilderness."
+    },
+    {
+      "month": 8,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Summer begins to wind down with slightly shorter days, berry-picking season in full swing, and the first hints of autumn colours appearing."
+    },
+    {
+      "month": 9,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn foliage known as ruska transforms the landscape into vivid reds and oranges, and the northern lights become visible again on clear nights."
+    },
+    {
+      "month": 10,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "First snowfall is possible and temperatures drop sharply, marking the transition into winter with increasing darkness and aurora opportunities."
+    },
+    {
+      "month": 11,
+      "avgHighC": -3,
+      "avgLowC": -9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Snow settles in earnest and polar night approaches, creating a quiet, atmospheric winter landscape ahead of the busy Christmas season."
+    },
+    {
+      "month": 12,
+      "avgHighC": -7,
+      "avgLowC": -14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak Christmas season with full polar night, festive atmosphere, reliable snow, and the highest visitor numbers of the year centred around Santa Claus Village."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

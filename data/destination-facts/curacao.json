@@ -1,0 +1,115 @@
+{
+  "destinationId": "curacao",
+  "city": "Willemstad",
+  "country": "Curacao",
+  "transportAdvice": "Willemstad's historic Punda and Otrobanda districts are walkable, but reaching beaches and attractions outside the city center generally requires a taxi or rental car, as the public bus network has limited coverage of tourist areas. Taxis are widely available but unmetered, so agreeing on a fare before departure is advisable.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and breezy with plenty of sunshine, making it one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Consistently sunny and dry with refreshing trade winds keeping temperatures comfortable."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely rain-free, ideal for beach and outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb slightly but remain pleasant with low rainfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry, with occasional brief showers as the wet season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early wet season brings occasional showers, though sunny periods still dominate."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm with intermittent rain showers; trade winds provide some relief from the heat."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "One of the hottest months with higher humidity and periodic afternoon showers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with the highest chance of rain, though prolonged downpours are uncommon."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still warm and humid with scattered showers as the wet season begins to wind down."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Conditions improve noticeably with decreasing rainfall and more reliable sunshine."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and comfortable with cooling trade winds, marking the return of peak travel conditions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

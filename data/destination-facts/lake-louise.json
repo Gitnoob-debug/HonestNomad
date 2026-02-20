@@ -1,0 +1,115 @@
+{
+  "destinationId": "lake-louise",
+  "city": "Lake Louise",
+  "country": "Canada",
+  "transportAdvice": "Lake Louise is a small mountain village where most attractions are within walking distance of the main hotel and lake area, though distances between sites can be significant in winter conditions. Public shuttle buses operate seasonally within the national park connecting key areas, and taxis are available but limited, so many visitors rely on rental vehicles for flexibility.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -9,
+      "avgLowC": -20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Deep winter with heavy snowpack, very cold temperatures, and excellent conditions for skiing and ice skating on the frozen lake."
+    },
+    {
+      "month": 2,
+      "avgHighC": -7,
+      "avgLowC": -18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still firmly winter with cold, crisp days and reliable snow, ideal for winter sports enthusiasts."
+    },
+    {
+      "month": 3,
+      "avgHighC": -2,
+      "avgLowC": -13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late ski season with slightly warmer days but still cold nights and good snow coverage on the slopes."
+    },
+    {
+      "month": 4,
+      "avgHighC": 5,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring transition brings variable conditions with melting snow at lower elevations and occasional rain or late snowfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 11,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The lake begins to thaw and wildflowers emerge, though snow can still fall and trails may be muddy or icy."
+    },
+    {
+      "month": 6,
+      "avgHighC": 16,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer brings lush green scenery and the iconic turquoise lake color begins to develop as glacial melt increases."
+    },
+    {
+      "month": 7,
+      "avgHighC": 20,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer with warm days, stunning lake views, and the busiest tourist season; afternoon thunderstorms are possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and scenic with excellent hiking conditions, though crowds remain high and afternoon showers are common."
+    },
+    {
+      "month": 9,
+      "avgHighC": 13,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings golden larch trees and cooler temperatures, making it one of the most visually spectacular months."
+    },
+    {
+      "month": 10,
+      "avgHighC": 5,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Autumn transitions to early winter with frost, possible snowfall, and significantly fewer crowds than summer."
+    },
+    {
+      "month": 11,
+      "avgHighC": -4,
+      "avgLowC": -13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Winter sets in with reliable snowfall and cold temperatures as the lake begins to freeze over."
+    },
+    {
+      "month": 12,
+      "avgHighC": -8,
+      "avgLowC": -18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Full winter conditions with a frozen lake, heavy snow, and festive atmosphere at the historic Chateau Lake Louise."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

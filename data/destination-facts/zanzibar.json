@@ -1,0 +1,115 @@
+{
+  "destinationId": "zanzibar",
+  "city": "Stone Town",
+  "country": "Tanzania",
+  "transportAdvice": "Stone Town's historic center is compact and best explored on foot, though the narrow winding streets can be disorienting at first. Taxis and shared minibuses (dala-dalas) are widely available for reaching areas beyond the old town, and taxis can be negotiated directly with drivers at stands or through your accommodation.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and humid with mostly sunny skies and occasional brief showers, making it a popular time for beach visits."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "One of the hottest and driest months, with strong sunshine and calm seas ideal for snorkeling and diving."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The long rains begin to approach, bringing increasing cloud cover and occasional heavy downpours alongside warm temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the long rainy season with frequent heavy rainfall and overcast skies; many beach activities are disrupted."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the rainy season with persistent showers and cooler temperatures; a quieter period for tourism."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Rains ease off and cooler, drier conditions arrive, making it a comfortable and pleasant time to explore the town."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with reliable sunshine and refreshing sea breezes; one of the most comfortable months for sightseeing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Similar to July with dry, sunny weather and mild temperatures; a peak tourist month with busy streets and beaches."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise again with continued dry and sunny conditions, offering excellent visibility for water activities."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The short rains begin to build, bringing occasional afternoon showers but generally still warm and partly sunny days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Short rainy season is in full swing with frequent afternoon and evening downpours and high humidity throughout the day."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rains begin to taper off toward month's end, with warm temperatures returning and conditions improving for outdoor exploration."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

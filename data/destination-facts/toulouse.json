@@ -1,0 +1,115 @@
+{
+  "destinationId": "toulouse",
+  "city": "Toulouse",
+  "country": "France",
+  "transportAdvice": "Toulouse has a metro, tram, and bus network that connects the city centre with most tourist areas, making public transit a practical and affordable option. The historic centre is compact and very walkable, and taxis are readily available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally frosty winter days with overcast skies and periodic rain showers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool but with slightly longer daylight hours and occasional mild sunny spells."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and a mix of sunshine and showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming parks, though afternoon showers remain common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny with occasional thunderstorms typical of the region."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm early summer with long sunny days and only occasional brief storms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and mostly dry, ideal for outdoor sightseeing and terrace dining."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Consistently hot and sunny, the peak of summer with low rainfall."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant early autumn with comfortable temperatures and some rain returning."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn days with more frequent cloud cover and moderate rainfall."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and greyer with regular rain and the occasional foggy morning."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and damp winter weather with short days, though snow is rare in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

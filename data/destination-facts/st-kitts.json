@@ -1,0 +1,115 @@
+{
+  "destinationId": "st-kitts",
+  "city": "Basseterre",
+  "country": "Saint Kitts and Nevis",
+  "transportAdvice": "Basseterre's compact town center is walkable for most tourist attractions, though the island's hilly terrain and spread-out beaches make taxis the most practical option for wider exploration. Minibuses run along main routes and are affordable, but taxis are readily available and commonly used by visitors for day trips and transfers.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasant with cooling trade winds making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry conditions with gentle breezes and sunny skies ideal for beach and outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with long sunny days and calm seas good for water sports."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise slightly but conditions remain dry and very enjoyable for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The start of the wetter season brings occasional showers but sunshine still dominates most days."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with increasing shower frequency, though rain is typically brief and afternoon-heavy."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak hurricane season begins; expect warm temperatures, higher humidity, and periodic rain squalls."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the hottest and wettest months with the highest hurricane risk and frequent heavy showers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of hurricane season with the greatest storm risk and consistently high humidity and rainfall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still within the active hurricane season with frequent rain and oppressive humidity throughout the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hurricane risk diminishes but showers remain common as the island transitions toward the dry season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Conditions improve noticeably with drier weather and cooler evenings making it a popular time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "trinidad",
+  "city": "Port of Spain",
+  "country": "Trinidad and Tobago",
+  "transportAdvice": "Port of Spain has a public bus network and shared minibus taxis (known locally as maxi-taxis) that cover most areas, though services can be infrequent and routes may be confusing for first-time visitors; private taxis are widely available and recommended for tourists, especially at night. Walking is practical in the city center during daytime but less advisable after dark or in unfamiliar neighborhoods.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season is well underway with sunny skies, low humidity, and pleasant breezes making this one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Carnival season typically falls in February, bringing vibrant festivities alongside dry, warm, and festive conditions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and dry with plenty of sunshine, making it an excellent month for sightseeing and outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb toward their peak and conditions remain largely dry, though occasional showers may appear late in the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The transition into the wet season begins, with increasing afternoon showers and rising humidity alongside warm temperatures."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season is in full swing with frequent heavy showers, high humidity, and overcast skies common throughout the day."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain continues regularly and humidity remains high, though mornings can be bright before afternoon downpours arrive."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wetter months of the year with persistent showers and lush green landscapes across the island."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain remains frequent and the island sits within the Atlantic hurricane season, though Trinidad is generally south of the main hurricane belt."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with heavy intermittent rain and warm, muggy conditions persisting through the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease toward the end of the month as the dry season approaches, though showers remain common."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season returns with more reliable sunshine, lower humidity, and comfortable temperatures ideal for travel."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

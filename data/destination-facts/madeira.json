@@ -1,0 +1,115 @@
+{
+  "destinationId": "madeira",
+  "city": "Funchal",
+  "country": "Portugal",
+  "transportAdvice": "Funchal is partially walkable in its central areas, though the hilly terrain makes some neighborhoods challenging on foot; cable cars serve key tourist routes. A public bus network covers the city and wider island, and taxis are widely available for reaching attractions beyond walking distance.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Mild and occasionally rainy, with cool evenings; one of the wetter months but still pleasant for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to January with mild temperatures and periodic rain showers; the famous Carnival celebrations brighten the month."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Gradually warming with a mix of sunshine and showers; the Flower Festival typically takes place around this time."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm and increasingly sunny, making it a great month for hiking and outdoor exploration."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with comfortable temperatures; ideal conditions for levada walks and coastal activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer brings reliable sunshine and warm days; a popular time to visit with long daylight hours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with very little rain; the busiest tourist season with lively outdoor dining and beach visits."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with abundant sunshine; expect crowds and warm sea temperatures."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still warm and largely sunny as summer winds down; a pleasant month with slightly fewer tourists."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease and rain becomes more frequent; still enjoyable for outdoor activities."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler with increasing cloud cover and rain; a quieter period good for budget-conscious travelers."
+    },
+    {
+      "month": 12,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Mild winter conditions with occasional rain; Funchal's famous New Year's Eve fireworks draw visitors from around the world."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

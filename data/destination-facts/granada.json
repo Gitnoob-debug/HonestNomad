@@ -1,0 +1,115 @@
+{
+  "destinationId": "granada",
+  "city": "Granada",
+  "country": "Spain",
+  "transportAdvice": "Granada's historic center and major attractions are largely walkable, though the hilly terrain around the Albaicín and Sacromonte neighborhoods can be steep. A city bus network covers most tourist areas, and taxis are widely available for reaching spots less accessible on foot.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with crisp mountain air; snow is possible on the Sierra Nevada nearby."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with some rain, but days begin to lengthen and occasional sunny spells appear."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild spring conditions arrive with variable weather and blooming almond trees in the countryside."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and green with warm afternoons, though showers remain common throughout the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and increasingly sunny, making it one of the most enjoyable months to visit Granada."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with long sunny days; ideal for sightseeing if you start early to avoid midday heat."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and almost entirely dry; shade and hydration are essential during afternoon hours."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense heat continues with virtually no rainfall; mornings and evenings are the best times to explore."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat eases noticeably and conditions become more comfortable for walking and sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and autumnal with occasional rain returning; a pleasant and less crowded time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and wetter with shorter days; the city is quieter and the surrounding hills turn golden."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and sometimes rainy with festive atmosphere in the city; snow dusts the Sierra Nevada peaks."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

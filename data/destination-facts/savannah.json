@@ -1,0 +1,115 @@
+{
+  "destinationId": "savannah",
+  "city": "Savannah",
+  "country": "United States",
+  "transportAdvice": "Savannah's historic district is highly walkable, with most major attractions, squares, and restaurants within easy reach on foot; a local bus system serves the broader city, and taxis as well as ride-hailing options are readily available for trips beyond the historic core.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and mild winter days with occasional rain and chilly nights, but rarely freezing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Slightly warmer than January with a mix of sunny and overcast days and periodic showers."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with pleasant warmth, blooming azaleas, and a chance of afternoon showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the most beautiful months with warm, comfortable temperatures and low rainfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly humid with occasional afternoon thunderstorms becoming more frequent."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very humid with frequent afternoon thunderstorms typical of the subtropical summer."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest month with intense heat, high humidity, and near-daily afternoon thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to July with oppressive heat and humidity; hurricane season is active this month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still hot and humid with a gradual easing of temperatures and continued storm risk."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Autumn brings relief with cooler, drier days and comfortable temperatures ideal for sightseeing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with low humidity and mostly sunny skies, a great time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool winter weather returns with occasional rain; festive holiday atmosphere in the historic district."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

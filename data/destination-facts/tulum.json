@@ -1,0 +1,115 @@
+{
+  "destinationId": "tulum",
+  "city": "Tulum",
+  "country": "Mexico",
+  "transportAdvice": "Tulum's town center and beach zone are several kilometers apart, making walking between them impractical for most visitors; renting a bicycle or scooter is a popular local option. Taxis and colectivos (shared minivans) are widely available and serve the main tourist corridors, though there is no formal metro or tram system.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "expensive",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasant with warm days and cooler evenings, making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry conditions with slightly warming temperatures and low chance of rain."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with increasing sunshine, ideal for beach and cenote activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with very little rainfall, great for outdoor exploration before the wet season begins."
+    },
+    {
+      "month": 5,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity begin to build noticeably, with occasional afternoon showers signaling the approaching wet season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season is underway with frequent afternoon and evening thunderstorms, though mornings are often clear."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with regular rainfall; also falls within hurricane season, so weather can be unpredictable."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of hurricane season brings the highest rainfall totals and heavy humidity throughout the day."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest and most storm-prone month of the year, with a heightened risk of tropical systems affecting the region."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease toward month's end, though humidity remains high and showers are still common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with decreasing rain and more comfortable temperatures as the dry season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and warm with pleasant breezes, marking the return of peak tourist season and ideal beach weather."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

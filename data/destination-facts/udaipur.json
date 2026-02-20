@@ -1,0 +1,115 @@
+{
+  "destinationId": "udaipur",
+  "city": "Udaipur",
+  "country": "India",
+  "transportAdvice": "Udaipur's old city and lakeside areas are walkable for short distances, though hilly terrain and traffic can make longer walks tiring; auto-rickshaws are widely available and the most common way for tourists to get around, with taxis also accessible for longer trips or day excursions. There is no metro or formal urban rail system, and local bus coverage is limited for tourist areas, so rickshaws and hired taxis are the practical choice.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 25,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny winter days make January one of the most pleasant months to visit Udaipur."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to warm slightly but remain comfortable, with clear skies and little chance of rain."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring brings noticeably warmer days; still dry and manageable but the heat is starting to build."
+    },
+    {
+      "month": 4,
+      "avgHighC": 38,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry conditions set in, with afternoon temperatures becoming intense; early mornings are the best time to sightsee."
+    },
+    {
+      "month": 5,
+      "avgHighC": 40,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the hottest months of the year, with scorching afternoons and increasing humidity ahead of the monsoon."
+    },
+    {
+      "month": 6,
+      "avgHighC": 37,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The pre-monsoon and early monsoon period brings some relief from peak heat but also humidity and occasional heavy showers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full monsoon season with frequent and sometimes heavy rainfall; the lakes fill up and the landscape turns lush and green."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon rains continue with high humidity; the city is scenic but outdoor sightseeing can be disrupted by downpours."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rains begin to ease toward the end of the month, though humidity remains high and showers are still common."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Post-monsoon weather is warm and increasingly pleasant, with the lakes full and greenery at its best."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable and dry conditions return, making November an excellent time to visit with mild temperatures and clear skies."
+    },
+    {
+      "month": 12,
+      "avgHighC": 26,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool winter weather with crisp evenings and sunny days; one of the peak tourist months and ideal for sightseeing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

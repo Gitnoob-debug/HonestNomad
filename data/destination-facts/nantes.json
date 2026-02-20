@@ -1,0 +1,115 @@
+{
+  "destinationId": "nantes",
+  "city": "Nantes",
+  "country": "France",
+  "transportAdvice": "Nantes has an efficient public transit network including trams, buses, and a river ferry, which together cover the main tourist areas well. The historic city centre is compact and very walkable, and taxis are readily available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with overcast skies, typical of an Atlantic winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cool and rainy but with occasional brighter spells as winter begins to ease."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild temperatures arrive with a mix of sun and showers as spring gets underway."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with longer days, though rain remains a regular possibility."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and generally agreeable with a good balance of sunshine and occasional showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortably warm and increasingly sunny, making it a pleasant time to explore the city."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm summer weather with long sunny days and relatively little rainfall."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Similar to July, with warm temperatures and mostly dry conditions ideal for outdoor sightseeing."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings mild temperatures and a gradual return of more frequent rain."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler with increasing cloud cover and rain as autumn settles in."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet and grey with temperatures dropping steadily toward winter levels."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and damp with short days, though festive Christmas markets brighten the city centre."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

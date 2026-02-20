@@ -1,0 +1,115 @@
+{
+  "destinationId": "canary-islands",
+  "city": "Tenerife",
+  "country": "Spain",
+  "transportAdvice": "Tenerife has a reliable public bus network that connects major towns, resorts, and tourist areas across the island, making it a practical option for budget-conscious travelers. Taxis are widely available in resort areas and towns, and renting a car is popular for exploring more remote areas like Teide National Park.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant winter weather with occasional showers, making it a popular escape from colder European climates."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with some rain possible, still very comfortable for outdoor activities and sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and decreasing rainfall, ideal for hiking and beach visits."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm and largely dry, with good conditions for both beach and mountain excursions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with very little rain, marking the start of the busy tourist season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with long sunny days, perfect for beach holidays and water sports."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with virtually no rain and abundant sunshine, expect busy beaches and resorts."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The hottest month of the year with intense sun and warm sea temperatures, ideal for swimming."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still very warm and sunny as summer winds down, with slightly fewer crowds than July and August."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease and occasional rain returns, but conditions remain very pleasant for travel."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn weather with a higher chance of showers, though sunny spells are still common."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy but still mild compared to mainland Europe, popular with winter sun seekers."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "guadalajara",
+  "city": "Guadalajara",
+  "country": "Mexico",
+  "transportAdvice": "Guadalajara has a metro system and an extensive bus network that connect most tourist areas, making public transit a practical and affordable option for getting around. Taxis and ride-hailing vehicles are widely available throughout the city, and the historic center is compact enough to explore comfortably on foot.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny days make January one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm afternoons and cool nights continue with very little rainfall expected."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to climb and conditions remain dry and comfortable."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the hottest and driest months, with strong sunshine and warm evenings."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Heat peaks and the first rains of the season begin to appear, bringing some relief."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins in earnest with frequent afternoon and evening thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rains are common, typically falling in intense afternoon showers with cooler temperatures."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainfall remains frequent and humidity is elevated, though mornings are often clear."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with persistent rain and overcast skies."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains begin to taper off and temperatures become very comfortable for sightseeing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and mild conditions return, making November an excellent time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and festive, with comfortable daytime temperatures and chilly nights."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

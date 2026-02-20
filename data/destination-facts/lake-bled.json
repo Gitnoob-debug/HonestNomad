@@ -1,0 +1,115 @@
+{
+  "destinationId": "lake-bled",
+  "city": "Bled",
+  "country": "Slovenia",
+  "transportAdvice": "Bled is a compact resort town where most lakeside attractions are reachable on foot or by bicycle. Public buses connect Bled to Ljubljana and nearby towns, and taxis are available, though many visitors find walking or cycling sufficient for exploring the area.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often snowy, with a serene winter atmosphere around the frozen or misty lake."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with occasional snow, but daylight hours begin to lengthen noticeably."
+    },
+    {
+      "month": 3,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and the first hints of green returning to the hillsides."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Spring is well underway with blooming surroundings, though rain showers are frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and lush, with the lake at its most vivid green, but expect regular afternoon showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Pleasant early-summer warmth with long days, though thunderstorms can develop in the afternoons."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month, ideal for swimming and outdoor activities, with mostly sunny skies."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and busy, with comfortable lake temperatures and occasional late-summer storms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler, crisp air and fewer crowds, with beautiful golden foliage beginning."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn colours peak around the lake, with cool temperatures and misty mornings adding atmosphere."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool and often grey, with fog settling over the lake and the first frosts arriving at night."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and wintry, with the possibility of snow dusting the castle and surrounding Alps."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

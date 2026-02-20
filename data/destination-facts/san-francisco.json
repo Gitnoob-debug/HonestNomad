@@ -1,0 +1,115 @@
+{
+  "destinationId": "san-francisco",
+  "city": "San Francisco",
+  "country": "United States",
+  "transportAdvice": "San Francisco has an extensive public transit network including metro rail, cable cars, streetcars, and buses that cover most tourist areas well. Many neighborhoods are walkable, though the city's steep hills can make on-foot exploration tiring; taxis and rideshares are widely available as alternatives.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "January is one of the wettest months, with cool temperatures and frequent rain showers; pack layers and a waterproof jacket."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "February remains cool and rainy, though occasional clear days offer crisp views of the bay and surrounding hills."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "March sees gradually improving conditions with a mix of rain and sunny spells as the wet season begins to wind down."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April brings mild, pleasant weather with occasional showers; a good time to explore outdoor attractions before summer fog arrives."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "May is generally dry and comfortable, though morning fog can roll in from the bay, burning off by midday."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "June marks the start of the famous 'June Gloom,' with persistent morning fog and cool temperatures despite being summer."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "July is often foggy and surprisingly cool; visitors expecting warm summer weather should bring extra layers."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "August remains cool and foggy along the coast, though inland neighborhoods can be noticeably warmer on clearer afternoons."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "September is often considered the best month to visit, with warm sunny days, less fog, and very little rain."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "October continues the pleasant fall weather with warm afternoons and clear skies before the rainy season returns."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "November brings cooler temperatures and the return of seasonal rain, signaling the start of the wet season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "December is cool and wet with short daylight hours; festive city decorations brighten the rainy winter atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

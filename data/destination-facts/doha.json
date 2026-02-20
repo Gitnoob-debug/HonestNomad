@@ -1,0 +1,115 @@
+{
+  "destinationId": "doha",
+  "city": "Doha",
+  "country": "Qatar",
+  "transportAdvice": "Doha has a modern metro system that connects major tourist areas, malls, and the airport, supplemented by a bus network; taxis and ride-hailing services are widely available and affordable. Walking is practical in cooler months and in pedestrian-friendly areas like the Corniche and Souq Waqif, but the summer heat and car-centric layout make it impractical in most neighborhoods.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with cool evenings, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable temperatures continue with occasional light rain and gentle breezes."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warming up noticeably with mostly sunny skies and comfortable daytime conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with very little rainfall; outdoor sightseeing is still manageable in the morning."
+    },
+    {
+      "month": 5,
+      "avgHighC": 39,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense heat begins; outdoor activities are best limited to early morning or evening."
+    },
+    {
+      "month": 6,
+      "avgHighC": 42,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Extremely hot and increasingly humid; most activity shifts indoors to air-conditioned spaces."
+    },
+    {
+      "month": 7,
+      "avgHighC": 43,
+      "avgLowC": 31,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Peak summer heat with high humidity makes outdoor exposure uncomfortable and potentially hazardous."
+    },
+    {
+      "month": 8,
+      "avgHighC": 43,
+      "avgLowC": 31,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Conditions remain oppressively hot and humid; indoor attractions and malls dominate visitor itineraries."
+    },
+    {
+      "month": 9,
+      "avgHighC": 40,
+      "avgLowC": 28,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still very hot with lingering humidity, though temperatures begin a gradual decline toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Noticeably more comfortable with warm days and milder evenings; outdoor exploration becomes enjoyable again."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant autumn weather with warm days and cool nights, ideal for sightseeing and outdoor dining."
+    },
+    {
+      "month": 12,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and comfortable with occasional light showers; one of the most popular months for tourism."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

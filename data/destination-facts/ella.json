@@ -1,0 +1,115 @@
+{
+  "destinationId": "ella",
+  "city": "Ella",
+  "country": "Sri Lanka",
+  "transportAdvice": "Ella's compact village center is easily walkable, with most guesthouses, cafes, and trailheads accessible on foot. Tuk-tuks are widely available for short trips and reaching nearby attractions, while local trains and buses connect Ella to other parts of Sri Lanka, with the scenic train journey through the hill country being a highlight in itself.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool, dry, and pleasant with clear skies — one of the best months to visit Ella."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with good visibility for hikes and scenic viewpoints."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise slightly but conditions remain comfortable and mostly dry."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The inter-monsoon period brings occasional afternoon showers, with warm and humid conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The southwest monsoon arrives, bringing frequent rain and mist — trails can be slippery."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy monsoon rains are common; lush green landscapes but outdoor activities may be disrupted."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued monsoon conditions with persistent rain and low cloud cover over the hills."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain remains frequent though there can be brief dry spells between showers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease slightly toward the end of the month as the monsoon weakens."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The northeast monsoon transition brings intermittent showers; conditions are improving gradually."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain becomes less frequent and the weather starts to clear, making hiking more enjoyable."
+    },
+    {
+      "month": 12,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and mostly dry with comfortable temperatures — a great time to explore the hill country."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

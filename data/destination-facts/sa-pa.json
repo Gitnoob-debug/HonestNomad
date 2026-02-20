@@ -1,0 +1,115 @@
+{
+  "destinationId": "sa-pa",
+  "city": "Sa Pa",
+  "country": "Vietnam",
+  "transportAdvice": "Sa Pa's town center is walkable, but the surrounding rice terraces and villages require motorbike hire, local minibuses, or taxis to reach. Public buses connect Sa Pa to Lao Cai city, and taxis are generally available for longer journeys or transfers.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold and often misty with occasional frost at higher elevations, making warm layers essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still cool and dry with frequent fog, but occasional clear days offer stunning mountain views."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and cherry and plum blossoms appear, though misty conditions persist."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warming and increasingly humid with more frequent showers as the wet season approaches."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season begins in earnest with regular afternoon rain and lush green landscapes emerging."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy and frequent rainfall makes trails slippery, but rice terraces are vibrantly green."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with persistent rain and possible landslides on mountain roads; trekking is challenging."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rain but rice terraces reach peak beauty as paddies fill with water."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease late in the month and golden rice harvest season starts, a popular time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the best months to visit with harvest scenery, cooler air, and decreasing rainfall."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and mostly dry with clear skies and excellent visibility for mountain trekking."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold and dry with the possibility of frost or even snow at the highest elevations."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "bora-bora",
+  "city": "Bora Bora",
+  "country": "French Polynesia",
+  "transportAdvice": "Bora Bora has no public transit system; the island is small enough to explore by bicycle or on foot in some areas, but boat transfers between the main island and motu islets are essential for reaching most resorts. Taxis and resort shuttle boats are the primary means of getting around, and many overwater bungalow properties arrange transfers directly for guests.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent tropical downpours and warm, humid conditions, though sunshine still breaks through between showers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet and humid weather with heavy rainfall typical, making outdoor activities unpredictable but lush scenery at its most vivid."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still within the rainy season with warm temperatures and frequent afternoon storms, though the island remains beautiful and swimmable."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease as the season transitions, with warm days and occasional showers making for a pleasant if sometimes overcast experience."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions improve noticeably with lower humidity and more consistent sunshine, marking the beginning of the more comfortable travel period."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season begins in earnest with cooler, breezy days and very little rain, making this one of the most pleasant months to visit."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak dry season with reliably sunny skies, comfortable temperatures, and low humidity — ideal conditions for snorkeling and outdoor exploration."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Excellent weather continues with clear lagoon visibility and refreshing trade winds keeping temperatures comfortable throughout the day."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still largely dry and sunny with warming temperatures, offering great conditions for water activities and beach relaxation."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Humidity begins to rise and occasional showers return, though the weather remains largely favorable for most of the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The wet season approaches with increasing cloud cover and more frequent rain, though warm temperatures keep the island appealing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season returns with heavy tropical rainfall and high humidity, though the festive atmosphere and lush landscapes attract visitors despite the weather."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

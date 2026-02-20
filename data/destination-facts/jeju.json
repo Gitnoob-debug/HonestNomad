@@ -1,0 +1,115 @@
+{
+  "destinationId": "jeju",
+  "city": "Jeju",
+  "country": "South Korea",
+  "transportAdvice": "Jeju has a public bus network that connects major tourist attractions, towns, and coastal areas, though services can be infrequent in rural parts of the island. Taxis are widely available and affordable, and renting a car or scooter is a popular option for exploring the island's more remote natural sites at your own pace.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and occasionally windy with some rain or sleet; the quietest tourist season but good for uncrowded sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with lingering winter chill, but yellow canola flowers begin to bloom, signaling the approach of spring."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant with cherry blossoms and canola fields in full bloom, making it a popular travel period."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and colorful with spring foliage; comfortable conditions for hiking and outdoor exploration."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with lush greenery; one of the best months to visit before summer crowds arrive."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins with frequent showers and rising humidity; expect warm but often overcast days."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot, humid, and very rainy with typhoon risk; peak domestic tourism season despite the challenging weather."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest and most humid month with continued typhoon risk; beaches are busy but weather can be unpredictable."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Gradually cooling with decreasing rainfall; a pleasant month for outdoor activities as the summer heat eases."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Clear skies and comfortable temperatures with beautiful autumn foliage; one of the most popular months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling noticeably with occasional rain; quieter crowds and scenic autumn colors still visible early in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and sometimes windy with a chance of frost or light snow on higher elevations; a quiet and peaceful time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

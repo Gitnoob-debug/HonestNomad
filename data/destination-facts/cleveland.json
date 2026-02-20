@@ -1,0 +1,115 @@
+{
+  "destinationId": "cleveland",
+  "city": "Cleveland",
+  "country": "United States",
+  "transportAdvice": "Cleveland has a public transit system with buses and a light rail line connecting downtown to the airport and some neighborhoods, though coverage of tourist areas is uneven and a car is often more practical. Taxis and rideshares are generally available downtown, and the compact downtown core and areas like University Circle are walkable.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 1,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often grey with frequent snow and lake-effect flurries from Lake Erie."
+    },
+    {
+      "month": 2,
+      "avgHighC": 3,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and wintry with continued risk of snow and overcast skies."
+    },
+    {
+      "month": 3,
+      "avgHighC": 8,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings variable weather with a mix of rain, snow, and occasional mild days."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures but frequent rain showers and unpredictable conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and green with mild temperatures and a good mix of sun and showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with long days, occasional thunderstorms, and comfortable evenings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The warmest month, hot and humid with occasional afternoon thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still warm and humid, similar to July, with a gradual easing toward late summer."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early fall with cooling temperatures and pleasant sunny stretches."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn weather with colorful foliage and increasing cloud cover toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently overcast with rain and the first chances of early snow."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and wintry with snow likely and the characteristic grey skies of a Lake Erie winter."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

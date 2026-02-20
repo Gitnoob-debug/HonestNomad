@@ -1,0 +1,115 @@
+{
+  "destinationId": "sonoma",
+  "city": "Sonoma",
+  "country": "United States",
+  "transportAdvice": "Sonoma is a small, walkable town where the central plaza and many attractions can be explored on foot; however, visiting surrounding wineries and rural areas requires a car, as public transit coverage is limited and taxis are available but not abundant.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and wet with frequent rain showers, making it the quietest time of year for tourism."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still rainy and mild, but occasional sunny breaks offer pleasant days for exploring the town."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to ease and wildflowers start to bloom, bringing a fresh and scenic character to the valley."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly sunny with lush green vineyards, ideal for outdoor dining and winery visits."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with comfortable temperatures, one of the best months to visit before summer crowds arrive."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry with long sunny days, perfect for wine tasting and outdoor activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with peak summer conditions; mornings can be cool due to coastal fog burning off by midday."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Similar to July with hot afternoons and dry conditions; harvest season begins toward month's end."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Harvest season is in full swing with warm days, cooler nights, and a festive atmosphere across the wine country."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly warm with golden autumn foliage in the vineyards and very little rain, making it a popular travel month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and wetter as the rainy season returns, but crowds thin and the landscape takes on a moody, atmospheric quality."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and rainy with a quiet, cozy character; holiday events in town add seasonal charm despite the wet weather."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

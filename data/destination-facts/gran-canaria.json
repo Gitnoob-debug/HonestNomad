@@ -1,0 +1,115 @@
+{
+  "destinationId": "gran-canaria",
+  "city": "Las Palmas",
+  "country": "Spain",
+  "transportAdvice": "Las Palmas has a reliable public bus network that connects the city centre, beaches, and main tourist areas, making it practical for most visitors. Taxis are widely available and affordable, and the compact historic centre and beachfront promenade are very walkable.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 21,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with occasional rain showers, making it one of the cooler but still comfortable months."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January, with mild temperatures and a chance of brief rain spells."
+    },
+    {
+      "month": 3,
+      "avgHighC": 22,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warming slightly with less rainfall and plenty of sunshine, ideal for sightseeing."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry with comfortable temperatures and gentle breezes."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Reliably sunny and warm, a great month for beach visits with little chance of rain."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with long sunny days, perfect for beach and outdoor activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with very little rain and strong sunshine throughout the day."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The hottest month of the year, sunny and dry with warm sea temperatures ideal for swimming."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still very warm and sunny as summer winds down, with calm seas and minimal rainfall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease and occasional rain returns, though sunny spells remain frequent."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably milder with more cloud cover and a higher chance of rain, but still pleasant."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy but still mild by European standards, with festive atmosphere in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

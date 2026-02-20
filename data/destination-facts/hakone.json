@@ -1,0 +1,115 @@
+{
+  "destinationId": "hakone",
+  "city": "Hakone",
+  "country": "Japan",
+  "transportAdvice": "Hakone is served by a network of mountain railways, ropeways, cable cars, and local buses that connect most major tourist attractions, making it very accessible without a car. Walking between sites is often impractical due to hilly terrain and distances, but public transit covers the key areas well and taxis are available for shorter or off-route trips.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and crisp winter days with occasional frost; clear skies can offer excellent views of Mount Fuji."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but gradually brightening; one of the best months for clear Fuji views and quiet onsen visits."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings warming temperatures and the first cherry blossoms; some rainy days begin to appear."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming flowers and lush greenery; popular and can be crowded around holidays."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with comfortable temperatures; a lovely time to explore outdoor areas before summer humidity sets in."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season brings frequent overcast skies and heavy rainfall; mountain views are often obscured by cloud and mist."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with lingering rain early in the month; mist and low cloud are common around the mountains."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak summer heat with high humidity; popular with domestic tourists escaping city heat, so expect crowds."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Typhoon season brings a risk of heavy rain and strong winds; travel plans may be disrupted by weather events."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn foliage begins to appear and temperatures become very comfortable; one of the most scenic and popular months."
+    },
+    {
+      "month": 11,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak autumn colors make this a stunning month to visit; cooler air and clearer skies improve Fuji visibility."
+    },
+    {
+      "month": 12,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and quiet with fewer tourists; excellent conditions for onsen relaxation and clear winter mountain views."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

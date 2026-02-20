@@ -1,0 +1,115 @@
+{
+  "destinationId": "gold-coast",
+  "city": "Gold Coast",
+  "country": "Australia",
+  "transportAdvice": "The Gold Coast has a light rail network (tram) running along the coastal strip that connects major tourist areas, supplemented by buses covering broader suburbs. Taxis and rideshare vehicles are widely available, and the beachfront areas are very walkable for short distances.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent afternoon thunderstorms typical of the summer wet season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Remains hot and humid with continued storm activity and occasional heavy rainfall."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and humid as summer transitions to autumn, with regular showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm with decreasing humidity and fewer rain events as autumn sets in."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and mostly sunny with comfortable temperatures and low humidity."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with clear skies, making it one of the most pleasant months to visit."
+    },
+    {
+      "month": 7,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The coolest month of the year with dry, sunny days and cool nights."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny with warming days and still-cool mornings."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring brings warming temperatures and continued dry, sunny conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly humid as spring progresses, with occasional showers returning."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot and partly cloudy with building humidity and more frequent afternoon storms."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full summer heat with high humidity and regular thunderstorms, especially in the afternoons."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

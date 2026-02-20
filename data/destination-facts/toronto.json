@@ -1,0 +1,115 @@
+{
+  "destinationId": "toronto",
+  "city": "Toronto",
+  "country": "Canada",
+  "transportAdvice": "Toronto has a comprehensive subway, streetcar, and bus network that covers the downtown core and extends to surrounding neighborhoods. The city center is walkable, particularly along the waterfront and between major attractions, and taxis are readily available.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -2,
+      "avgLowC": -9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and snowy with frequent subzero temperatures; heavy winter gear is essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": -1,
+      "avgLowC": -9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Typically the coldest month with continued snowfall and occasionally harsh wind chill."
+    },
+    {
+      "month": 3,
+      "avgHighC": 4,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late winter transitions to early spring with temperature swings and a mix of snow and rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures, occasional rain showers, and cherry blossoms in city parks."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and warm with blooming gardens and comfortable conditions for exploring the city."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer weather begins with long days, outdoor patios, and the start of festival season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The warmest month with hot, humid days and occasional thunderstorms; peak summer activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still warm and humid with vibrant outdoor events, including the Toronto International Film Festival prep."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn with comfortable temperatures, the famous film festival, and beautiful changing leaves."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp fall weather with stunning foliage colors in parks and ravines throughout the city."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late autumn with cooling temperatures and the first frost; bring a warm jacket and layers."
+    },
+    {
+      "month": 12,
+      "avgHighC": 0,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and snowy with festive holiday markets and ice skating at Nathan Phillips Square."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "prague",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "transportAdvice": "Prague has an extensive public transit network including metro, trams, and buses that covers virtually all tourist areas, making it easy to get around without a car. The historic city centre is highly walkable, and taxis are widely available, though it is advisable to use metered cabs or pre-arranged services to avoid overcharging.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with occasional snow or freezing rain; heavy layers are essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and wintry, though daylight begins to increase noticeably toward month end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild days but cold nights; expect variable conditions and occasional showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming trees; light jacket recommended for cooler evenings."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with longer days; one of the most enjoyable months to visit Prague."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer weather with occasional afternoon thunderstorms; outdoor terraces are in full swing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year; busy with tourists and occasional heavy summer storms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot and lively with peak tourist crowds; thunderstorms possible but generally sunny."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler, comfortable temperatures and fewer crowds than summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler with autumn foliage; misty mornings and increasing cloud cover are common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often overcast; the city begins its transition toward the festive Christmas market season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and atmospheric with famous Christmas markets; snow is possible and adds to the charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

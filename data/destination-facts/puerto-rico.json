@@ -1,0 +1,115 @@
+{
+  "destinationId": "puerto-rico",
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "transportAdvice": "Old San Juan and the Condado beach strip are walkable for tourists, but a car or taxi is recommended for reaching areas beyond the historic center. Public buses serve the metro area but are infrequent and not well-suited for tourist itineraries; taxis and ride-hailing are widely available and practical for most trips.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasant with warm days and comfortable evenings, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry conditions with plenty of sunshine and mild breezes off the Atlantic."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with increasing sunshine as the season transitions toward spring."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures rise and occasional afternoon showers begin to appear, though rain is generally brief."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Humidity climbs noticeably and short tropical showers become more frequent, especially in the afternoon."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early hurricane season brings hot, humid weather with regular rain showers and occasional heavy downpours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent afternoon thunderstorms; peak hurricane season awareness begins."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest and most humid month, with the highest statistical risk of tropical storm activity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of hurricane season with heavy rainfall possible; travelers should monitor weather forecasts closely."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still within hurricane season with frequent rain, though storm risk begins to taper toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions begin to improve as the rainy season winds down and temperatures become more comfortable."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and warm with festive holiday atmosphere; one of the most popular months for visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

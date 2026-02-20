@@ -1,0 +1,115 @@
+{
+  "destinationId": "lille",
+  "city": "Lille",
+  "country": "France",
+  "transportAdvice": "Lille has an efficient metro, tram, and bus network that connects the city centre with most tourist areas, making it easy to get around without a car. The historic centre is compact and very walkable, and taxis are readily available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and grey with frequent rain and occasional frost; pack warm, waterproof layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and damp with overcast skies, though daylight hours begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise but rain remains common; early spring feels cool and changeable."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant with occasional sunny spells, though showers are still frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with a good mix of sunshine and showers; a comfortable time to explore outdoors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer weather with longer days and occasional thunderstorms in the afternoon."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with mostly sunny days and relatively low rainfall."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and generally sunny, similar to July; a popular time for outdoor dining and festivals."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with cooling temperatures and increasing cloud cover as autumn approaches."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with frequent overcast days; autumn foliage adds colour to the city."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, damp, and often foggy; the famous Braderie de Lille is long past and the city quietens down."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and grey with a festive Christmas market atmosphere; rain and occasional frost are common."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

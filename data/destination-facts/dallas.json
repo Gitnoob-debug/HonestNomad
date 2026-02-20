@@ -1,0 +1,115 @@
+{
+  "destinationId": "dallas",
+  "city": "Dallas",
+  "country": "United States",
+  "transportAdvice": "Dallas is a car-centric city where walking between attractions is generally impractical due to sprawling distances; a light rail and bus network exists but has limited coverage of tourist areas, so renting a car or using taxis is the most practical option for most visitors.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally cold with mild rain; light layers and a jacket are recommended."
+    },
+    {
+      "month": 2,
+      "avgHighC": 16,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to warm slightly but cold snaps and rain are still possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with pleasant warmth, though thunderstorms can develop later in the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and often stormy; April is one of the wetter months with frequent thunderstorms."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with a high chance of heavy thunderstorms; severe weather is possible."
+    },
+    {
+      "month": 6,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Very hot and mostly dry; outdoor activities are best planned for early morning or evening."
+    },
+    {
+      "month": 7,
+      "avgHighC": 38,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with intense sun and little rain; stay hydrated and seek air conditioning."
+    },
+    {
+      "month": 8,
+      "avgHighC": 38,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Equally hot as July with prolonged dry spells; heat advisories are common."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease slightly and occasional rain returns, offering some relief from summer heat."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant fall weather with comfortable temperatures and mild rain; one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling quickly with crisp air; a light to medium jacket is needed, especially in the evenings."
+    },
+    {
+      "month": 12,
+      "avgHighC": 14,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally cold with some rain; rare ice or freezing conditions can occur."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

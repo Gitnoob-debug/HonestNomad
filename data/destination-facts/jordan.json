@@ -1,0 +1,115 @@
+{
+  "destinationId": "jordan",
+  "city": "Amman",
+  "country": "Jordan",
+  "transportAdvice": "Amman has a public bus network, but it does not comprehensively cover all tourist areas, so most visitors rely on taxis or private hire cars, which are widely available throughout the city. Walking is practical within individual neighborhoods but challenging between them due to Amman's hilly terrain and spread-out layout.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and wet with occasional frost at night, making it Amman's coldest and rainiest month."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Still cold and rainy with some sunny breaks, though temperatures begin to edge slightly upward."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild spring conditions arrive with more sunshine, though showers remain possible."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant and warm with mostly clear skies, making it one of the best months to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with long sunny days and comfortable evenings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and almost entirely dry, with intense midday sun requiring sun protection."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with very little cloud cover and dry conditions throughout."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Equally hot as July, with relentless sunshine and negligible chance of rain."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat begins to ease slightly toward the end of the month, remaining dry and sunny."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable autumn temperatures with occasional early showers possible late in the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with increasing rainfall, signaling the return of the wet season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cold and wet with the possibility of frost, similar in character to January."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

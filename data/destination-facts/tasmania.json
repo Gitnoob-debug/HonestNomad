@@ -1,0 +1,115 @@
+{
+  "destinationId": "tasmania",
+  "city": "Hobart",
+  "country": "Australia",
+  "transportAdvice": "Hobart's compact city centre and waterfront areas are very walkable, making it easy to explore key attractions on foot. Public buses serve the broader city and suburbs, and taxis are generally available, though coverage is less frequent than in larger Australian cities.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+10 (UTC+11 during daylight saving)",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly sunny summer days, ideal for outdoor activities and festivals."
+    },
+    {
+      "month": 2,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued warm summer weather with long daylight hours and low rainfall."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Early autumn brings slightly cooler evenings but still pleasant daytime temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn cooling sets in with more variable weather and occasional showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and increasingly wet, with shorter days and crisp mornings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter conditions with frequent overcast skies and regular rainfall."
+    },
+    {
+      "month": 7,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The coldest month, with frosty mornings and a chance of snow on nearby mountain peaks."
+    },
+    {
+      "month": 8,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold but days begin to lengthen slightly as winter starts to ease."
+    },
+    {
+      "month": 9,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings fresh conditions with a mix of sunny spells and showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Spring warms up noticeably with blooming landscapes and increasingly pleasant days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and bright with long days, making it an excellent time to visit before peak summer crowds."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Early summer with warm temperatures, outdoor events, and festive atmosphere around the waterfront."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

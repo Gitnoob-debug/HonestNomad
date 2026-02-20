@@ -1,0 +1,115 @@
+{
+  "destinationId": "shanghai",
+  "city": "Shanghai",
+  "country": "China",
+  "transportAdvice": "Shanghai has an extensive metro network that covers most major tourist areas and is easy to navigate with English signage; buses are also widely available but less tourist-friendly. Taxis and ride-hailing services are plentiful, and central areas like the Bund and French Concession are very walkable.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold and grey with occasional frost; pack warm layers for outdoor sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with increasing rain; Chinese New Year brings festive atmosphere but crowded attractions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and gradually warming but frequently overcast and damp; a light jacket is essential."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming flowers; rain showers are common so carry an umbrella."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly humid with regular rain; one of the more comfortable months for sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very humid with frequent heavy rain; the plum rain season brings prolonged wet spells."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak summer heat with high humidity and occasional typhoon-related storms; stay hydrated outdoors."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Continues hot and humid with typhoon risk; indoor attractions are a welcome relief from the heat."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Gradually cooling but still warm and humid; typhoon season lingers into early September."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Crisp and comfortable autumn weather; one of the best months to visit with clear skies and mild temperatures."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cooling noticeably with dry and pleasant conditions; a good time for walking the city before winter sets in."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold and dry with festive holiday decorations; warm clothing is necessary for extended time outdoors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

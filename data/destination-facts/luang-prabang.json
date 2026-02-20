@@ -1,0 +1,115 @@
+{
+  "destinationId": "luang-prabang",
+  "city": "Luang Prabang",
+  "country": "Laos",
+  "transportAdvice": "The compact UNESCO-listed old town is very walkable, and bicycles or scooters are widely available to rent for exploring further afield. Tuk-tuks are the main form of local taxi transport and are readily available for trips to waterfalls, the night market, and surrounding villages.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny — the peak of the cool season with comfortable days and chilly nights."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with clear skies, ideal conditions for sightseeing and outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 34,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures rise noticeably and haze from agricultural burning can reduce visibility."
+    },
+    {
+      "month": 4,
+      "avgHighC": 36,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot and increasingly humid as the wet season approaches, with occasional early showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins in earnest with frequent afternoon downpours and lush greenery emerging."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy and regular rainfall with overcast skies, though showers often clear by evening."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months; the Mekong and Nam Khan rivers rise significantly."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rain and high humidity; waterfalls are at their most dramatic and full."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very wet with a risk of flooding along the riverbanks as water levels peak."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to ease and the landscape is intensely green; a transitional and pleasant month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The dry season returns with cooler temperatures and clear skies — excellent for travel."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with crisp mornings and comfortable afternoons, one of the most pleasant months to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "helsinki",
+  "city": "Helsinki",
+  "country": "Finland",
+  "transportAdvice": "Helsinki has an efficient public transit network covering the city and tourist areas, including metro, trams, buses, and ferries, making it easy to get around without a car. The compact city centre is very walkable, and taxis are widely available though expensive.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -2,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold, dark winter month with frequent snow and ice; daylight is very limited and temperatures stay well below freezing."
+    },
+    {
+      "month": 2,
+      "avgHighC": -2,
+      "avgLowC": -8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The coldest month of the year with persistent snow cover, icy conditions, and only a few hours of daylight."
+    },
+    {
+      "month": 3,
+      "avgHighC": 2,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late winter with slowly lengthening days; snow is still common but temperatures begin to creep above freezing by midday."
+    },
+    {
+      "month": 4,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with rapidly increasing daylight; snow melts and temperatures become milder, though cold snaps are still possible."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A pleasant spring month with long days, blooming nature, and comfortably mild temperatures ideal for sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer with near-endless daylight around the solstice; warm and lively with outdoor festivals and long evenings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long sunny days; popular for outdoor activities, island hopping, and city events."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still warm and summery with gradually shortening days; a great time to visit before the autumn chill sets in."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler temperatures and turning foliage; days shorten noticeably and rain becomes more frequent."
+    },
+    {
+      "month": 10,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and often grey with frequent rain and wind; the city quiets down and temperatures drop toward freezing at night."
+    },
+    {
+      "month": 11,
+      "avgHighC": 3,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Dark and damp with the first frosts and occasional sleet or snow; daylight hours are short and conditions feel wintry."
+    },
+    {
+      "month": 12,
+      "avgHighC": -1,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and dark with festive Christmas markets brightening the city; snow is possible and temperatures regularly fall below freezing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "kruger",
+  "city": "Kruger Park",
+  "country": "South Africa",
+  "transportAdvice": "Kruger National Park is not served by public transit, and walking outside of designated areas is unsafe due to wildlife. Most visitors arrive by private vehicle, rental car, or organized safari transfers, with internal movement restricted to self-drive or guided game drives within the park.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 33,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer with intense heat and frequent afternoon thunderstorms, making vegetation lush but wildlife harder to spot."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and wet with continued summer rains, rivers run full and the bush is green and dense."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rains begin to ease slightly toward month end but heat remains intense and humidity stays high."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional autumn month with cooling temperatures and decreasing rainfall, good conditions for game viewing beginning to emerge."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season begins in earnest with pleasant warm days, cool nights, and thinning vegetation improving wildlife visibility."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry winter conditions with excellent game viewing as animals congregate around water sources."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with cold mornings, warm afternoons, sparse vegetation, and outstanding wildlife sightings."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still dry and excellent for game viewing, with temperatures warming slightly toward the end of the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring arrives with rising temperatures and continued dry conditions, one of the best months for wildlife encounters."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Heat builds rapidly and first rains may arrive, bringing new growth and the start of the birthing season for many species."
+    },
+    {
+      "month": 11,
+      "avgHighC": 32,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early summer with increasing thunderstorms, abundant newborn animals, and rapidly thickening bush."
+    },
+    {
+      "month": 12,
+      "avgHighC": 33,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full summer heat and frequent heavy rains make conditions lush and humid, with wildlife dispersed across the landscape."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

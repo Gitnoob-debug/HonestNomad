@@ -1,0 +1,115 @@
+{
+  "destinationId": "chefchaouen",
+  "city": "Chefchaouen",
+  "country": "Morocco",
+  "transportAdvice": "Chefchaouen's compact medina is best explored entirely on foot, as the narrow blue-painted streets are not accessible by vehicles; grand taxis are available for intercity travel to nearby towns like Tetouan or Fes, and local petit taxis serve the broader town area.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and often rainy winter month with occasional mountain mist; pack warm layers and a waterproof jacket."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Still cool and wet with frequent showers; the mountains can see cold snaps and the medina feels quiet and atmospheric."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and spring hints emerge; rain is still possible but days are increasingly pleasant."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A lovely spring month with mild temperatures and blooming hillsides; one of the better times to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry with comfortable conditions; ideal for hiking the surrounding Rif Mountains."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with long sunny days; early mornings and evenings are the most comfortable times to explore."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with very little rain; the blue medina is busy with tourists and afternoons can be intense."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Equally hot as July with dry conditions; seek shade during midday and stay hydrated while exploring."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat begins to ease and crowds thin slightly; a pleasant month with warm days and cooler evenings."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings comfortable temperatures and occasional rain; the light is beautiful and the town is less crowded."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with increasing rainfall; a quieter period that suits travelers who prefer a more local atmosphere."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cold and wet with short days; the medina takes on a moody, peaceful character with far fewer visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

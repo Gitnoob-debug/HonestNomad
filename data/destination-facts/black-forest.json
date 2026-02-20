@@ -1,0 +1,115 @@
+{
+  "destinationId": "black-forest",
+  "city": "Freiburg",
+  "country": "Germany",
+  "transportAdvice": "Freiburg's compact old town is highly walkable, with most major attractions reachable on foot. The city also has an extensive tram and bus network that covers tourist areas well, and taxis are readily available for longer journeys or late-night travel.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often grey with occasional frost, though Freiburg is milder than much of Germany thanks to its sheltered location."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool and wintry but days begin to lengthen, with occasional crisp sunny spells between overcast periods."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings warming temperatures and the first signs of blossom, though showers remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with mild temperatures and a mix of sunshine and rain showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with longer days, making it an excellent month for exploring the Black Forest trails."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer is warm and lively, with outdoor dining in full swing and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month, sunny and vibrant, though brief thunderstorms can interrupt otherwise fine days."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Consistently warm and sunny with a festive atmosphere, though heat can occasionally feel intense in the city centre."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings golden light and comfortable temperatures, ideal for hiking and vineyard visits."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and increasingly autumnal with colourful foliage in the surrounding hills and more frequent rain."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Damp and cool with short days, though the Christmas market season begins to bring warmth and atmosphere to the city."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive, with Freiburg's Christmas market making it a charming winter destination despite the chill."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "torres-del-paine",
+  "city": "Torres del Paine",
+  "country": "Chile",
+  "transportAdvice": "Torres del Paine National Park is not served by public transit, and distances between trailheads, lodges, and viewpoints make walking between major sites impractical without a vehicle; most visitors arrive by long-distance bus to the gateway town of Puerto Natales and then transfer by shuttle or rental vehicle into the park. Taxis and private transfers are available from Puerto Natales, and park-operated shuttle services connect key trailheads within the park during the main season.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer with long daylight hours, warm temperatures, and strong Patagonian winds; the busiest month in the park."
+    },
+    {
+      "month": 2,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still warm and busy with good trekking conditions, though wind and occasional rain are common."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings slightly cooler temperatures and fewer crowds, with beautiful golden foliage beginning to appear."
+    },
+    {
+      "month": 4,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn colors peak and visitor numbers drop significantly; cooler and wetter conditions require layered clothing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Late autumn brings cold, wet, and windy weather; many park facilities begin to close for the season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Winter sets in with short days, snow at higher elevations, and most lodges and services closed."
+    },
+    {
+      "month": 7,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The coldest and darkest month with heavy winds and snow; the park is largely inaccessible and most infrastructure is closed."
+    },
+    {
+      "month": 8,
+      "avgHighC": 5,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still deep winter with harsh conditions; only the most prepared and experienced visitors attempt the park this month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring sees improving conditions and some facilities reopening, though snow and cold winds remain common."
+    },
+    {
+      "month": 10,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring brings longer days and warming temperatures; trails begin to open and wildlife activity increases."
+    },
+    {
+      "month": 11,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late spring offers good trekking conditions with wildflowers blooming and increasing daylight, though winds can be fierce."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer with long days and warm weather; the park fills quickly and advance bookings for lodges and campsites are essential."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

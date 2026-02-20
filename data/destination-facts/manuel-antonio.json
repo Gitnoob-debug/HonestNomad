@@ -1,0 +1,115 @@
+{
+  "destinationId": "manuel-antonio",
+  "city": "Manuel Antonio",
+  "country": "Costa Rica",
+  "transportAdvice": "Public buses connect Manuel Antonio to nearby Quepos and San José, and taxis are readily available throughout the area. Walking is practical within the village and along the main road to the national park, though the hilly terrain and heat make it less comfortable for longer distances.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the driest and most pleasant months, with sunny skies and comfortable temperatures ideal for beach and park visits."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season continues with warm, sunny weather and minimal rainfall, making it a peak time for outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with long sunny days, excellent conditions for wildlife spotting and beach relaxation."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The dry season begins to wind down with occasional afternoon showers starting to appear toward month's end."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins in earnest, with frequent afternoon and evening downpours that keep the jungle lush and green."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rainfall is common, often in prolonged bouts, though mornings can still offer clear skies for early activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet and humid with regular heavy rain, but a brief mid-summer dry spell can occasionally bring clearer days."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall keeps the national park verdant and wildlife active, though flooding can occasionally affect roads."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months of the year with persistent rain and high humidity; some businesses may have reduced hours."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season with the heaviest and most frequent rainfall, often making this the quietest month for tourism."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward the end of the month, but conditions remain wet and humid overall."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The dry season gradually returns, with decreasing rainfall and improving conditions as the month progresses toward the holidays."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

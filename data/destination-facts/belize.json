@@ -1,0 +1,115 @@
+{
+  "destinationId": "belize",
+  "city": "Belize City",
+  "country": "Belize",
+  "transportAdvice": "Belize City is compact but not particularly walkable for tourists due to safety concerns in certain areas, so taxis are the recommended way to get around; taxis are widely available and typically use fixed zone-based fares rather than meters. Public buses connect the city to other towns and districts, but tourist areas are generally better served by taxis or organized transfers.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "January is one of the driest and most pleasant months, with warm days and cooler evenings making it ideal for outdoor activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "February remains dry and sunny with comfortable temperatures, considered one of the best months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "March is warm and largely dry with increasing sunshine, excellent conditions for reef and jungle exploration."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "April brings hotter temperatures and very little rain, making it a popular time for beach and diving trips."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "May marks the beginning of the rainy season with occasional afternoon showers, though mornings are often clear."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "June sees frequent rainfall and high humidity as the wet season intensifies, with lush green landscapes as a result."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "July is wet and humid with regular heavy showers, though brief dry spells still allow for outdoor activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "August remains firmly in the rainy season with high humidity and the possibility of tropical storm activity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "September is the peak of hurricane season and one of the wettest months, with travelers advised to monitor weather closely."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October continues to see significant rainfall and elevated storm risk, though hurricane activity begins to taper off."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "November transitions toward the dry season with decreasing rainfall, though humidity remains noticeable."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "December is generally dry and pleasant with cooler breezes, making it a popular month for visitors seeking comfortable weather."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

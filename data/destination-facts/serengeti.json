@@ -1,0 +1,115 @@
+{
+  "destinationId": "serengeti",
+  "city": "Serengeti",
+  "country": "Tanzania",
+  "transportAdvice": "The Serengeti is a remote national park with no public transit; visitors travel exclusively by organized safari vehicles, chartered light aircraft, or private 4WD transfers arranged through lodges and tour operators. Walking independently is not practical or safe within the park, and all movement is conducted under guided supervision.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with excellent visibility, making it one of the best months for wildlife viewing in the southern plains."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny with peak calving season in the southern Serengeti, attracting large predator activity."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The long rains begin to arrive, bringing greener landscapes but some disruption to game drives on dirt tracks."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the long rainy season with heavy afternoon downpours; some lodges close and roads can become difficult."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rains continue through much of the month, though the landscape is lush and visitor numbers are at their lowest."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The dry season begins, bringing cooler temperatures and the start of the great wildebeest migration northward."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and clear with excellent game viewing as the migration moves through the western corridor and Grumeti River."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak safari season with dry conditions, dense wildlife concentrations, and the migration reaching the northern Serengeti."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and warm with dramatic river crossings in the north as wildebeest attempt to cross the Mara River."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Short rains may begin late in the month but conditions remain largely dry and warm with good wildlife visibility."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Short rains arrive intermittently, bringing relief from the heat and fresh green growth across the plains."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and occasionally wet as the short rains taper off; the migration begins returning south toward the Ndutu area."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

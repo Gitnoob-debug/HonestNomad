@@ -1,0 +1,115 @@
+{
+  "destinationId": "cozumel",
+  "city": "Cozumel",
+  "country": "Mexico",
+  "transportAdvice": "Cozumel's main town of San Miguel is compact and walkable, with most tourist areas, shops, and restaurants easily reached on foot. Taxis are widely available and the primary mode of transport for reaching beaches and dive sites further afield, while renting a scooter or golf cart is a popular and practical option for independent exploration of the island.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm and dry with gentle breezes, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry and sunny conditions with comfortable temperatures ideal for diving and snorkeling."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with excellent visibility in the water, a peak season favorite."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb but remain comfortable, with little rain and plenty of sunshine."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity increase noticeably and brief afternoon showers become more frequent."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins in earnest with hot, humid days and regular afternoon thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent rain showers, though mornings are often clear and good for water activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak hurricane season brings the highest risk of tropical storms and heavy rainfall."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest and most unpredictable month, with the greatest chance of hurricane disruption."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward month's end but humidity remains high and showers are still common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions improve significantly with fewer storms and more comfortable temperatures returning."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry, warm, and breezy conditions return, making December a popular and pleasant time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

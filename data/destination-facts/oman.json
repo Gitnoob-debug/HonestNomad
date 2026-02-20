@@ -1,0 +1,115 @@
+{
+  "destinationId": "oman",
+  "city": "Muscat",
+  "country": "Oman",
+  "transportAdvice": "Muscat is a sprawling city where walking between attractions is generally impractical due to heat and distances, so visitors rely heavily on taxis and hired cars, which are widely available. A public bus network exists but has limited coverage of tourist areas, making private transport the most practical option for sightseeing.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant and mild with comfortable temperatures, making it one of the best months to visit Muscat."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny with occasional light breezes, ideal for outdoor sightseeing and beach visits."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise noticeably, but conditions remain comfortable for most outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 36,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat builds significantly and outdoor activity is best planned for early mornings or evenings."
+    },
+    {
+      "month": 5,
+      "avgHighC": 40,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry with intense sun; outdoor exploration should be limited to cooler parts of the day."
+    },
+    {
+      "month": 6,
+      "avgHighC": 42,
+      "avgLowC": 32,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Extremely hot with rising humidity as summer sets in, making outdoor activity uncomfortable for most visitors."
+    },
+    {
+      "month": 7,
+      "avgHighC": 38,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and humid with occasional dust haze; the heat is oppressive and outdoor time should be minimized."
+    },
+    {
+      "month": 8,
+      "avgHighC": 37,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Persistently hot and humid, similar to July, with little relief; indoor attractions are preferable."
+    },
+    {
+      "month": 9,
+      "avgHighC": 38,
+      "avgLowC": 29,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still very hot and humid as summer lingers, though conditions begin to ease slightly toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 35,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures start to become more manageable, signaling the gradual return of pleasant travel conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and comfortable, making this an excellent month for sightseeing and outdoor activities."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and pleasant with clear skies, one of the most enjoyable months to explore Muscat."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

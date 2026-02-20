@@ -1,0 +1,115 @@
+{
+  "destinationId": "sri-lanka",
+  "city": "Colombo",
+  "country": "Sri Lanka",
+  "transportAdvice": "Colombo has an extensive public bus network and a commuter rail line that connects key parts of the city, though both can be crowded during peak hours. Taxis and three-wheeled tuk-tuks are widely available and practical for tourists, while walking is feasible in specific neighborhoods but challenging across the city due to traffic and heat.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with low rainfall, making it one of the more pleasant months to visit Colombo."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and hot with clear skies, ideal conditions for sightseeing around the city."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb and it remains largely dry, though afternoons can feel very hot."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The first inter-monsoon period brings increasing humidity and occasional heavy showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The southwest monsoon arrives, bringing frequent and heavy rainfall throughout the month."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon conditions continue with persistent rain and overcast skies, though downpours are often intense but brief."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet and humid with regular rainfall; outdoor activities may be disrupted by showers."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon rains persist, keeping temperatures slightly cooler but humidity remains high."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease slightly toward the end of the month as the monsoon starts to withdraw."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The second inter-monsoon period brings renewed heavy showers and thunderstorms."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The northeast monsoon brings significant rainfall to Colombo, with frequent wet and overcast days."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall gradually decreases through the month, with conditions improving toward the end of December."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

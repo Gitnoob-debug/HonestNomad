@@ -1,0 +1,115 @@
+{
+  "destinationId": "varanasi",
+  "city": "Varanasi",
+  "country": "India",
+  "transportAdvice": "Varanasi's old city and ghats are best explored on foot, though the narrow lanes can be congested and disorienting; auto-rickshaws, cycle-rickshaws, and taxis are widely available for longer distances. No metro system exists, but shared tempo vehicles and local buses serve broader city routes, and pre-negotiating fares is advisable.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and pleasant winter days with chilly nights, making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 26,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to rise gently with clear skies and dry conditions, still very comfortable for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat builds noticeably through March, with dry and sunny conditions but increasingly warm afternoons."
+    },
+    {
+      "month": 4,
+      "avgHighC": 39,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with intense afternoon sun; early mornings are the best time to explore the ghats."
+    },
+    {
+      "month": 5,
+      "avgHighC": 42,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the hottest months with scorching temperatures; outdoor activity is best limited to early morning and evening."
+    },
+    {
+      "month": 6,
+      "avgHighC": 38,
+      "avgLowC": 28,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The monsoon arrives bringing heavy rainfall and high humidity, offering some relief from peak heat."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon month with frequent heavy rains, flooding in low-lying areas, and very high humidity throughout."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon continues with persistent rain and muggy conditions; the Ganges often runs high and fast."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease toward month's end but humidity remains high and conditions stay warm and damp."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Post-monsoon skies clear and temperatures become more manageable, marking the start of the tourist season."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly cool and dry with clear skies, widely considered one of the best months to visit Varanasi."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool winter weather sets in with cold nights and mild days; fog can occasionally affect mornings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

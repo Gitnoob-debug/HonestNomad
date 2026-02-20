@@ -1,0 +1,115 @@
+{
+  "destinationId": "lake-district",
+  "city": "Lake District",
+  "country": "United Kingdom",
+  "transportAdvice": "The Lake District is served by regional bus services connecting major towns and villages, though coverage can be infrequent in more remote areas, making a hire car the most practical option for exploring widely. Taxis are available in larger towns, and some areas around Windermere and Ambleside are walkable, but the rugged terrain means many attractions require dedicated transport.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with short daylight hours, occasional frost and snow on higher fells."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and damp with unpredictable weather, though days begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures but rain remains common and winds can be brisk."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly mild with longer days and spring greenery emerging, though showers are still frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the more settled months with warm spells and lush landscapes, though rain is still possible."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and generally pleasant with long daylight hours, making it ideal for hiking and lake activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month with the best chance of sunny days, though afternoon showers can occur."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and busy with summer visitors, expect a mix of sunshine and occasional heavy showers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler temperatures and beautiful foliage, with a reasonable chance of dry days."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn sets in, with dramatic skies and vivid fall colours."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently rainy with short days, higher fells may see early snowfall."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and wet with the shortest days of the year, frost and occasional snow possible especially at altitude."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

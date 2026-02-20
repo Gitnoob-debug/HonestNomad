@@ -1,0 +1,115 @@
+{
+  "destinationId": "rio",
+  "city": "Rio de Janeiro",
+  "country": "Brazil",
+  "transportAdvice": "Rio has a metro system that connects key tourist areas including Ipanema, Copacabana, and the city center, and is generally the safest and most reliable way to get around; buses cover a wider network but can be crowded and harder to navigate. Taxis and ride-hailing services are widely available and recommended for travel at night or to areas not well served by the metro, while walking is practical within beachside neighborhoods but less advisable in unfamiliar or poorly lit areas.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer with intense heat, frequent afternoon thunderstorms, and high humidity — the wettest period of the year."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with heavy rainfall; Carnival typically falls this month, bringing massive crowds and festivity."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very warm and rainy as summer winds down, with frequent downpours and sultry conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Early autumn brings slightly cooler temperatures and reduced but still notable rainfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm with lower humidity and decreasing rain — a comfortable month for sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and drier winter conditions with comfortable temperatures and mostly sunny skies."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The driest and coolest month of the year, with clear skies and ideal conditions for outdoor activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and sunny with mild temperatures — one of the best months to visit Rio."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and still relatively low rainfall, making it a great travel window."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures rise and rain begins to return, with occasional afternoon showers becoming more frequent."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly humid with more regular rainfall as the wet season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and wet with frequent heavy showers; the festive season brings large crowds to beaches and attractions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

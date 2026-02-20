@@ -1,0 +1,115 @@
+{
+  "destinationId": "luxor",
+  "city": "Luxor",
+  "country": "Egypt",
+  "transportAdvice": "Luxor's main tourist sites are spread across the east and west banks of the Nile, making walking practical only within each bank's central areas; taxis and horse-drawn carriages are widely available for longer distances, and local minibuses serve residents but are less convenient for tourists navigating between major sites.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny with chilly nights — the most comfortable month for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 26,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm days and mild nights make this an excellent time to explore outdoor temples and tombs."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures rise noticeably but remain manageable, with occasional dusty winds beginning to appear."
+    },
+    {
+      "month": 4,
+      "avgHighC": 36,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Getting hot, with the risk of khamsin dust storms; early morning visits to sites are strongly advisable."
+    },
+    {
+      "month": 5,
+      "avgHighC": 41,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense heat sets in and outdoor activity should be limited to early mornings and evenings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 43,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Extremely hot and dry — one of the most challenging months for travel, with midday temperatures often exceeding 40°C."
+    },
+    {
+      "month": 7,
+      "avgHighC": 42,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat continues; shade and hydration are essential, and tourist crowds are at their thinnest."
+    },
+    {
+      "month": 8,
+      "avgHighC": 42,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Conditions remain brutally hot with virtually no rainfall; travel is possible but demanding."
+    },
+    {
+      "month": 9,
+      "avgHighC": 39,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Slight cooling begins toward the end of the month, though heat remains significant throughout."
+    },
+    {
+      "month": 10,
+      "avgHighC": 35,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly warm and dry with comfortable evenings — a popular month for visitors returning to the sites."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Ideal sightseeing weather with warm days, cool nights, and clear skies across the Nile Valley."
+    },
+    {
+      "month": 12,
+      "avgHighC": 24,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and sunny with cold nights — pack layers for evenings and early morning temple visits."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

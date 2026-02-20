@@ -1,0 +1,115 @@
+{
+  "destinationId": "masai-mara",
+  "city": "Masai Mara",
+  "country": "Kenya",
+  "transportAdvice": "The Masai Mara is a remote wildlife reserve with no public transit; visitors typically arrive by small charter flight from Nairobi or on organized road transfers, and all movement within the reserve is done by guided safari vehicle. Walking independently is not practical or safe in the bush, so all transport is arranged through lodges or tour operators.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with clear skies, excellent game viewing conditions as vegetation is sparse and animals gather around water sources."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely dry, one of the best months for wildlife spotting with good visibility across the open savannah."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month as the long rains approach, with occasional afternoon showers beginning to appear."
+    },
+    {
+      "month": 4,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Long rains arrive in earnest, bringing lush green landscapes but muddy tracks and reduced accessibility in some areas."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the long rains with frequent heavy showers; roads can be challenging but the scenery is dramatically green."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains begin to ease, cooler temperatures set in, and the wildebeest migration herds start building in the Serengeti ahead of their northward push."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry, the Great Migration typically begins crossing into the Mara with dramatic river crossings making this a prime safari month."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak migration season with massive wildebeest and zebra herds present; dry conditions and excellent wildlife density make this the most popular month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Migration continues with large herds still present, dry and sunny weather, and outstanding predator activity following the herds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Wildebeest begin moving south again as short rains approach; still good game viewing with fewer crowds than peak season."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Short rains bring intermittent showers, the landscape greens up quickly, and wildlife remains plentiful with lower visitor numbers."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Short rains taper off toward month end, conditions improve for game drives, and the reserve is lush and scenic heading into the dry season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "bergen",
+  "city": "Bergen",
+  "country": "Norway",
+  "transportAdvice": "Bergen's compact city centre is very walkable, with most major attractions reachable on foot. Public transit consists of buses and a light rail line connecting the centre to outer neighbourhoods and the airport, and taxis are readily available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, wet, and dark with frequent rain and occasional snow; the shortest days of the year make sightseeing time limited."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and rainy with limited daylight, though days begin to lengthen noticeably toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early spring brings slightly milder temperatures but persistent rain; snow is possible at higher elevations."
+    },
+    {
+      "month": 4,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures become more pleasant and daylight increases significantly, though showers remain frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the more agreeable months with longer days, blooming landscapes, and a good mix of sun and cloud."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and bright with very long days approaching the summer solstice; rain is still possible but conditions are generally pleasant."
+    },
+    {
+      "month": 7,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long daylight hours; expect a mix of sunny spells and rain showers typical of Bergen's climate."
+    },
+    {
+      "month": 8,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer conditions continue with lush green scenery; rain remains a regular occurrence so a waterproof layer is advisable."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Autumn arrives with cooling temperatures and increasing rainfall; foliage begins to turn, offering scenic colour in the surrounding hills."
+    },
+    {
+      "month": 10,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with shorter days; Bergen's reputation as one of Europe's rainiest cities is well earned this month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, grey, and frequently rainy with limited daylight; the city takes on a quieter, more local character as tourist numbers drop."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Dark and wet with very short days; festive Christmas markets and lights brighten the city centre during the holiday season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

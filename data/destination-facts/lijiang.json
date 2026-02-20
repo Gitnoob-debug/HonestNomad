@@ -1,0 +1,115 @@
+{
+  "destinationId": "lijiang",
+  "city": "Lijiang",
+  "country": "China",
+  "transportAdvice": "The historic Old Town is compact and best explored on foot, with most major attractions within walking distance of each other. Public buses connect the city to surrounding areas including Jade Dragon Snow Mountain, and taxis are widely available for longer journeys.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny winter days with cold nights, making it a pleasant time to explore the Old Town without crowds."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to warm slightly with continued dry and sunny conditions, ideal for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring arrives with mild, comfortable temperatures and clear skies, one of the best months to visit."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with occasional showers beginning, flowers bloom across the valley and mountain scenery is vivid."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm days with increasing rainfall as the wet season approaches, greenery is lush and landscapes are beautiful."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season is underway with frequent afternoon and evening showers, though mornings are often clear."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season with heavy and frequent rainfall, expect muddy trails and overcast skies for much of the month."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall with lush green surroundings, outdoor activities may be limited by persistent wet weather."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease toward the end of the month, but conditions remain wet and humid overall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The wet season winds down, bringing clearer skies and comfortable temperatures ideal for trekking and sightseeing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with excellent visibility, offering some of the clearest views of Jade Dragon Snow Mountain."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold nights and mild sunny days characterize this quiet month, with a festive atmosphere in the Old Town."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

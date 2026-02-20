@@ -1,0 +1,115 @@
+{
+  "destinationId": "ubud",
+  "city": "Ubud",
+  "country": "Indonesia",
+  "transportAdvice": "Ubud's hilly terrain and lack of pavements make walking practical only within the central town area; most visitors rely on hired scooters, private drivers, or metered taxis to reach temples, rice terraces, and surrounding villages. No formal public transit network serves tourist areas, but locally negotiated transport is widely available and affordable.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent afternoon downpours and lush green landscapes throughout the region."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall makes outdoor activities unpredictable, though mornings are often clear."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward month's end but humidity remains high and showers are still common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with decreasing rainfall and increasingly pleasant conditions for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Drier and more comfortable weather settles in, making this a good time for outdoor exploration."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season begins in earnest with cooler evenings, low humidity, and excellent visibility for rice terrace walks."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with reliably sunny days, cool nights, and ideal conditions for all outdoor activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Consistently dry and sunny, this is one of the most popular months for visitors to Ubud."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still firmly in the dry season with warm days and comfortable evenings across the highlands."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month as the wet season approaches, with occasional showers returning toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall increases noticeably and humidity climbs, though heavy all-day rain is not yet typical."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season returns with regular afternoon and evening storms, but festive atmosphere and lush scenery compensate."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

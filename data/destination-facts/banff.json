@@ -1,0 +1,115 @@
+{
+  "destinationId": "banff",
+  "city": "Banff",
+  "country": "Canada",
+  "transportAdvice": "The town of Banff is compact and walkable, with most attractions, shops, and restaurants reachable on foot. A local transit bus service connects the townsite with nearby areas including Lake Louise, and taxis are available for longer journeys within the national park.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -5,
+      "avgLowC": -15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and snowy with excellent conditions for skiing and winter activities at nearby resorts."
+    },
+    {
+      "month": 2,
+      "avgHighC": -3,
+      "avgLowC": -14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still firmly winter with cold temperatures and good snowpack, ideal for winter sports enthusiasts."
+    },
+    {
+      "month": 3,
+      "avgHighC": 2,
+      "avgLowC": -9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late winter begins to ease slightly but snow remains on the ground and ski season continues."
+    },
+    {
+      "month": 4,
+      "avgHighC": 8,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with fluctuating temperatures, melting snow, and occasional rain or late snowfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 13,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly green with wildflowers emerging, though cool evenings and some rain are common."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant early summer with long daylight hours, though afternoon showers are fairly frequent."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest and busiest month with excellent hiking conditions and vibrant mountain scenery."
+    },
+    {
+      "month": 8,
+      "avgHighC": 21,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and sunny with peak tourist season in full swing and trails at their most accessible."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Autumn brings stunning golden larch foliage and cooler, crisp air with fewer crowds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 9,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Noticeably cooler with early snowfall possible at higher elevations and a quieter atmosphere."
+    },
+    {
+      "month": 11,
+      "avgHighC": -1,
+      "avgLowC": -10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Winter sets in with cold temperatures, early snowfall, and ski resorts beginning to open."
+    },
+    {
+      "month": 12,
+      "avgHighC": -4,
+      "avgLowC": -14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and snowy with a festive atmosphere in town and excellent early-season skiing conditions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

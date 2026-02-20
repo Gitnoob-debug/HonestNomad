@@ -1,0 +1,115 @@
+{
+  "destinationId": "essaouira",
+  "city": "Essaouira",
+  "country": "Morocco",
+  "transportAdvice": "Essaouira's compact medina is highly walkable and most attractions are easily reached on foot; taxis are widely available for trips to the beach or bus station. Long-distance buses connect the city to Marrakech and other major Moroccan cities, making it accessible without a private vehicle.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with strong Atlantic winds making it feel colder than the temperature suggests."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with mild temperatures and breezy conditions; rain showers are possible but not constant."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Gradually warming with fewer rain days and pleasant breezes making it a comfortable time to explore."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and mostly sunny with refreshing sea breezes; a good shoulder-season month for visiting."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with consistent Atlantic winds that keep temperatures comfortable along the coast."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer brings steady winds and mild heat; popular with windsurfers and kitesurfers due to strong breezes."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer is surprisingly mild compared to inland Morocco thanks to the cooling ocean influence and persistent winds."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month of the year but still tempered by Atlantic breezes; busy with visitors escaping inland heat."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with winds beginning to ease slightly; an excellent month for beach and cultural activities."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable autumn temperatures with occasional light rain returning; crowds thin out and conditions remain enjoyable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and wetter with more frequent Atlantic storms; a quieter period but still mild enough for sightseeing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool winter weather with a chance of rain and strong winds; the medina is atmospheric and uncrowded during this period."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

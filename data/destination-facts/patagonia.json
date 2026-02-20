@@ -1,0 +1,115 @@
+{
+  "destinationId": "patagonia",
+  "city": "Punta Arenas",
+  "country": "Chile",
+  "transportAdvice": "Punta Arenas is a compact city where the central area and main attractions are walkable, though strong winds can make walking uncomfortable. Local buses serve the city and surrounding areas, and taxis are widely available for longer distances or day trips to nearby sites.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer with the longest daylight hours, but expect strong winds and occasional rain alongside mild temperatures."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still summer conditions with relatively mild temperatures, though wind and brief showers remain common."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and more frequent rain, with daylight hours beginning to shorten noticeably."
+    },
+    {
+      "month": 4,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn sets in with chilly temperatures, increased precipitation, and rapidly shortening days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and often wet, with the first frosts possible and frequent overcast skies."
+    },
+    {
+      "month": 6,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Midwinter with very short daylight hours, near-freezing temperatures, and a mix of rain, sleet, and occasional snow."
+    },
+    {
+      "month": 7,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The coldest month of the year, with persistent wind, frost, and limited daylight making outdoor activity challenging."
+    },
+    {
+      "month": 8,
+      "avgHighC": 5,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still deep winter with cold temperatures and frequent storms, though daylight begins to slowly return."
+    },
+    {
+      "month": 9,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly longer days but remains cold and windy with unpredictable weather."
+    },
+    {
+      "month": 10,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring progresses with milder temperatures and increasing daylight, though wind and rain are still frequent."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late spring offers improving conditions and long days, making it a good time to begin exploring the region."
+    },
+    {
+      "month": 12,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer with extended daylight and mild temperatures, though strong Patagonian winds remain a constant presence."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

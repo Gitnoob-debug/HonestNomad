@@ -1,0 +1,115 @@
+{
+  "destinationId": "jeddah",
+  "city": "Jeddah",
+  "country": "Saudi Arabia",
+  "transportAdvice": "Jeddah has a limited public bus network that does not comprehensively cover most tourist areas, so taxis and ride-hailing services are the most practical way to get around; walking is feasible along the Corniche waterfront but the city is otherwise spread out and the heat makes pedestrian travel uncomfortable for much of the year.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant winter weather with comfortable temperatures and occasional light showers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with gentle breezes making it one of the more comfortable months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise noticeably but conditions remain relatively pleasant for outdoor sightseeing."
+    },
+    {
+      "month": 4,
+      "avgHighC": 36,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Getting hot with increasing humidity; mornings and evenings are more comfortable than midday."
+    },
+    {
+      "month": 5,
+      "avgHighC": 39,
+      "avgLowC": 28,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and humid conditions set in; outdoor activities are best limited to early morning or after sunset."
+    },
+    {
+      "month": 6,
+      "avgHighC": 41,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Intense heat and high humidity make daytime outdoor activity uncomfortable; air-conditioned venues are essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 42,
+      "avgLowC": 31,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Peak summer heat with oppressive humidity; most activity shifts indoors or to the cooler evening hours."
+    },
+    {
+      "month": 8,
+      "avgHighC": 42,
+      "avgLowC": 31,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Conditions remain extremely hot and humid, similar to July; not an ideal time for outdoor exploration."
+    },
+    {
+      "month": 9,
+      "avgHighC": 40,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still very hot and humid with little relief; slight easing toward the end of the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 37,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to moderate and humidity eases, making outdoor sightseeing more manageable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm weather returns with lower humidity, one of the better months for visiting."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and comfortable winter conditions with cool evenings and minimal rainfall."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

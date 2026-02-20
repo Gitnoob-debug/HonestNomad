@@ -1,0 +1,115 @@
+{
+  "destinationId": "amalfi",
+  "city": "Amalfi Coast",
+  "country": "Italy",
+  "transportAdvice": "The Amalfi Coast is served by a regional bus network that runs along the coastal road connecting the main towns, and ferries provide a scenic and often faster alternative between villages during the warmer months. The narrow, winding roads make driving challenging, taxis are available but expensive, and walking between towns is only practical for short, fit travelers due to steep terrain.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and quiet with occasional rain showers; many businesses close for the off-season but the dramatic scenery remains stunning."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool and uncrowded with mild rain; almond blossoms begin to appear and the coast feels peacefully empty."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and spring flowers emerge; a pleasant time to visit before the summer crowds arrive."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny with lush green hillsides; an excellent month for hiking and sightseeing without peak-season crowds."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and beautiful with long sunny days; tourism picks up significantly and the sea becomes inviting for swimming."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with very little rain; beaches fill up and the coast buzzes with visitors, so book accommodation well in advance."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with intense sun and crowded beaches; the sea is warm and perfect for swimming but expect busy roads and high prices."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "The hottest and most crowded month of the year; humidity can feel oppressive but the sea is at its warmest and the atmosphere is lively."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Crowds thin out while the weather remains warm and sunny; widely considered one of the best months to visit the Amalfi Coast."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly mild with occasional rain and noticeably fewer tourists; a great time for leisurely exploration and dining."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Autumn rains return and many hotels and restaurants begin to close; the coast is quiet and atmospheric but some services are limited."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and largely off-season with a quiet, local feel; festive decorations appear in towns but expect limited tourist facilities."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

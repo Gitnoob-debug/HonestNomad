@@ -1,0 +1,115 @@
+{
+  "destinationId": "budapest",
+  "city": "Budapest",
+  "country": "Hungary",
+  "transportAdvice": "Budapest has an extensive public transit network including metro lines, trams, and buses that connect all major tourist areas efficiently. The city centre is very walkable, and taxis are widely available, though public transit is generally the most convenient and affordable option.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with occasional snow or frost, making it one of the quietest months for tourism."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with a chance of snow, though days begin to lengthen slightly toward the end of the month."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional rain, with the city beginning to come alive again."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming parks and comfortable temperatures ideal for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with occasional showers, one of the most enjoyable months to visit Budapest."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer weather sets in with longer days and a lively outdoor atmosphere across the city."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly sunny, the peak of summer with busy tourist crowds and vibrant outdoor events."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continues hot and sunny, with major festivals and outdoor programmes drawing large visitor numbers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with fewer crowds and a pleasant atmosphere for exploring."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and occasionally rainy, with beautiful autumn foliage in the city's parks and hills."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Grey and damp with dropping temperatures, though Christmas markets begin to appear late in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive, with popular Christmas markets along the main squares drawing winter visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

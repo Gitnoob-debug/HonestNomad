@@ -1,0 +1,115 @@
+{
+  "destinationId": "pittsburgh",
+  "city": "Pittsburgh",
+  "country": "United States",
+  "transportAdvice": "Pittsburgh is served by an extensive bus network and a light rail system that connects downtown to the South Hills, making tourist areas reasonably accessible by public transit; however, the city's hilly terrain and spread-out neighborhoods make a car or taxi useful for exploring beyond the core areas. Taxis and rideshare vehicles are widely available, and many downtown and riverside attractions are walkable from one another.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often grey with occasional snow and freezing temperatures typical of a Rust Belt winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold and wintry with a mix of snow, sleet, and overcast skies common throughout the month."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings fluctuating temperatures and frequent rain as winter gradually loosens its grip."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant with blooming trees, though showers remain frequent and temperatures vary day to day."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with comfortable temperatures, making it one of the more enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm to hot with rising humidity and occasional afternoon thunderstorms typical of early summer."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with high humidity and frequent thunderstorms, though outdoor festivals are in full swing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid similar to July, with afternoon storms possible and outdoor activities best enjoyed in the morning."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with lower humidity and beautiful foliage beginning to appear by late month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp and colorful with peak fall foliage making this one of the most scenic months to explore the city and surrounding hills."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and increasingly grey with rain and the first hints of winter cold arriving by late November."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often overcast with a chance of snow, though holiday lights and indoor cultural attractions keep the city lively."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

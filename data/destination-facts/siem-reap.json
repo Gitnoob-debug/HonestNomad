@@ -1,0 +1,115 @@
+{
+  "destinationId": "siem-reap",
+  "city": "Siem Reap",
+  "country": "Cambodia",
+  "transportAdvice": "Siem Reap has no formal public transit system, so travelers rely on tuk-tuks, motorcycle taxis, and hired cars to get around; the central tourist areas and Old Market district are walkable, but the temple complexes at Angkor require a vehicle. Tuk-tuks are widely available, affordable, and the most popular way for visitors to reach Angkor Wat and surrounding sites.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny — the most comfortable month to visit, with pleasant evenings and ideal temple-exploring conditions."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with clear skies, making it excellent for sightseeing though midday heat begins to build."
+    },
+    {
+      "month": 3,
+      "avgHighC": 34,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry with intense midday sun; early morning visits to temples are strongly recommended."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Very hot with occasional afternoon thunderstorms beginning to appear as the wet season approaches."
+    },
+    {
+      "month": 5,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The wet season begins with increasing rain and humidity, though mornings are often still clear and crowds thin out."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Regular afternoon and evening downpours with lush green landscapes; temples are quieter and prices are lower."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy monsoon rains are common, often in intense bursts; the surrounding countryside floods and turns vivid green."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with persistent rain and high humidity, but temples remain accessible and visitor numbers are low."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the wet season with frequent heavy rain and potential flooding around Tonle Sap Lake; a quieter time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease toward month's end but remains frequent; the lake reaches its maximum size and boat trips are popular."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The dry season returns with decreasing rain, cooler evenings, and rising tourist numbers as conditions improve."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and busy — peak tourist season with comfortable temperatures and clear skies perfect for visiting Angkor."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

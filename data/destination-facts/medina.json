@@ -1,0 +1,115 @@
+{
+  "destinationId": "medina",
+  "city": "Medina",
+  "country": "Saudi Arabia",
+  "transportAdvice": "Medina has a modern metro line serving key areas including the Prophet's Mosque district, and taxis are widely available throughout the city. Walking is practical within the central religious zone, though the heat for much of the year makes short taxi rides preferable for longer distances.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and pleasant winter weather with cool nights, making it the most comfortable time to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm days and cool evenings continue, with very little rainfall and clear skies."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to rise noticeably, though conditions remain relatively comfortable for outdoor activity."
+    },
+    {
+      "month": 4,
+      "avgHighC": 37,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat builds quickly in April and outdoor exertion during midday becomes increasingly uncomfortable."
+    },
+    {
+      "month": 5,
+      "avgHighC": 41,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry conditions prevail, with intense midday sun requiring sun protection and hydration."
+    },
+    {
+      "month": 6,
+      "avgHighC": 44,
+      "avgLowC": 29,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Extreme heat dominates with temperatures regularly exceeding 40°C, limiting comfortable outdoor time to early morning or evening."
+    },
+    {
+      "month": 7,
+      "avgHighC": 43,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat continues with high overnight temperatures offering little relief."
+    },
+    {
+      "month": 8,
+      "avgHighC": 43,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Conditions remain extremely hot and humid spells are possible, making outdoor activity challenging."
+    },
+    {
+      "month": 9,
+      "avgHighC": 40,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin a gradual decline but remain very hot, especially during afternoon hours."
+    },
+    {
+      "month": 10,
+      "avgHighC": 36,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Noticeably more bearable than summer, with warm days and mild evenings returning."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant autumn weather with comfortable temperatures and low humidity, good for visiting."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry winter conditions return, with comfortable daytime temperatures and chilly nights."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

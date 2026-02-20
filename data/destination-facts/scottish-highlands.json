@@ -1,0 +1,115 @@
+{
+  "destinationId": "scottish-highlands",
+  "city": "Inverness",
+  "country": "United Kingdom",
+  "transportAdvice": "Inverness city centre is compact and walkable, making it easy to reach most attractions on foot. Local bus services connect the city and surrounding areas, and taxis are readily available for trips to more remote Highland destinations.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, dark, and frequently wet with occasional frost and the possibility of snow in the surrounding hills."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and wintry with short daylight hours, though crisp clear days can offer stunning snowy Highland scenery."
+    },
+    {
+      "month": 3,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly longer days and a gradual warming, though showers and cold snaps remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Milder and brighter with blooming landscapes, though temperatures are still cool and rain is possible."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the more pleasant months with longer daylight hours, mild temperatures, and a good chance of dry spells."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The start of summer brings the longest days in Scotland, with near-midnight twilight, though midges become active in sheltered areas."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long daylight hours, though rain showers are still frequent and midges are at their peak."
+    },
+    {
+      "month": 8,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and busy with tourists, offering lush green Highland scenery, though expect some rain and persistent midges."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings beautiful golden colours to the glens and a noticeable drop in crowds and midge activity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cooler and wetter with dramatic autumn colours, shorter days, and the first hints of winter approaching."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and often grey with frequent rain and the possibility of early frost, daylight hours are noticeably short."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Dark, cold, and wet with very short daylight hours, though festive atmosphere in the city and occasional snow add seasonal charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

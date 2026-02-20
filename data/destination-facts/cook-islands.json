@@ -1,0 +1,115 @@
+{
+  "destinationId": "cook-islands",
+  "city": "Rarotonga",
+  "country": "Cook Islands",
+  "transportAdvice": "Rarotonga has a public bus service that circles the island in both directions, covering most tourist areas and beaches, making it a practical option for getting around without a car. Scooter and bicycle rentals are popular for independent exploration, taxis are available but limited in number, and the compact size of the island means many resorts and villages are reachable on foot or by short ride.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the warm, wet season with frequent tropical downpours and high humidity, though sunshine often follows rain quickly."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet and humid conditions with the possibility of tropical cyclones; lush green landscapes but expect heavy showers."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still within the cyclone season with warm temperatures and regular rainfall, though dry spells between showers are common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitional month as the wet season begins to ease, with warm temperatures and decreasing but still frequent rain."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably drier and slightly cooler, marking the beginning of the more comfortable travel season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season begins in earnest with pleasant temperatures, lower humidity, and mostly sunny days ideal for outdoor activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the coolest and driest months of the year, with comfortable temperatures and excellent conditions for hiking and snorkeling."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Consistently dry and sunny with mild temperatures, making this one of the most popular months for visitors."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry conditions continue with temperatures beginning to warm slightly, offering excellent beach and water conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with increasing sunshine, a pleasant shoulder month before the wet season returns."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures rise and humidity increases as the wet season approaches, with occasional afternoon showers becoming more frequent."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wet season returns with warm, humid conditions and regular tropical rain, coinciding with the start of cyclone season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

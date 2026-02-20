@@ -1,0 +1,115 @@
+{
+  "destinationId": "bahamas",
+  "city": "Nassau",
+  "country": "Bahamas",
+  "transportAdvice": "Nassau's main tourist areas along Cable Beach and downtown are walkable, though the heat and humidity can make longer distances uncomfortable. Public minibuses serve major routes affordably, and taxis are widely available at hotels, the airport, and cruise terminals, though fares should be agreed upon before departure.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with pleasant breezes, making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry and mild conditions with low humidity and plenty of sunshine."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to warm slightly but remain comfortable with minimal rainfall."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with occasional light showers as the season transitions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity increase noticeably, with afternoon showers becoming more frequent."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early hurricane season brings hot, humid weather and regular heavy rain showers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer heat with high humidity and frequent afternoon thunderstorms; hurricane risk present."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest and most humid month, with the highest hurricane risk of the season."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in hurricane season with heavy rainfall and oppressive humidity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hurricane season winds down but rain remains frequent and humidity stays elevated."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions begin to improve with cooler temperatures and decreasing rainfall."
+    },
+    {
+      "month": 12,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasantly warm, marking the return of ideal beach weather for visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

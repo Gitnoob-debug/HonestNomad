@@ -1,0 +1,115 @@
+{
+  "destinationId": "botswana",
+  "city": "Maun",
+  "country": "Botswana",
+  "transportAdvice": "Maun is a sprawling town where walking between attractions is generally impractical due to distances and heat; taxis and hired vehicles are the primary means of getting around for tourists. Public minibus transport exists but is limited in coverage and not well-suited to tourist areas, so most visitors rely on lodge transfers, safari operators, or privately arranged taxis.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 34,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent afternoon thunderstorms, high heat, and lush green landscapes."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and humidity make this one of the wettest months of the year."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rains begin to ease slightly but remain frequent, with warm temperatures and green bush."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall decreasing, temperatures cooling, and the landscape remains verdant and attractive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season begins with warm days, cool nights, and clear skies ideal for wildlife viewing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with crisp mornings and pleasant afternoons, excellent for safari activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with cold nights, warm days, and outstanding game viewing as animals gather at water."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny with warming temperatures and continued excellent wildlife concentrations."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and very dry, with sparse vegetation making wildlife easy to spot around remaining water sources."
+    },
+    {
+      "month": 10,
+      "avgHighC": 34,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry with intense sun; the first rains may arrive late in the month bringing some relief."
+    },
+    {
+      "month": 11,
+      "avgHighC": 34,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early wet season with building humidity, occasional thunderstorms, and rising temperatures."
+    },
+    {
+      "month": 12,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season in full swing with regular afternoon storms, high heat, and lush green surroundings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

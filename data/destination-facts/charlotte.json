@@ -1,0 +1,115 @@
+{
+  "destinationId": "charlotte",
+  "city": "Charlotte",
+  "country": "United States",
+  "transportAdvice": "Charlotte has a light rail system and local bus network that connects some key areas, though coverage of tourist attractions is limited and a car is often the most practical option. Taxis and ride-hailing services are widely available, and the Uptown district is walkable for those staying centrally.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally cold with some rain and rare light snow; pack layers for variable winter days."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool but with hints of early spring; rain is common and temperatures can fluctuate noticeably."
+    },
+    {
+      "month": 3,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with blooming trees; expect some rainy days but generally comfortable for outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and beautiful spring weather with occasional afternoon showers; one of the best months to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly humid with frequent afternoon thunderstorms; outdoor sightseeing is still very enjoyable."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with regular thunderstorms; plan outdoor activities for the morning to avoid afternoon heat and rain."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest month with high humidity and frequent afternoon thunderstorms; stay hydrated and seek air-conditioned venues midday."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continues hot and humid much like July; thunderstorms are common and the heat can feel intense."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease with pleasant fall conditions emerging; occasional rain but generally a comfortable month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp and sunny fall weather with beautiful foliage; one of the most enjoyable months for exploring the city."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling down with mild days and chilly nights; some rain but generally pleasant for sightseeing with lighter crowds."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter conditions with occasional frost and some rain; festive holiday atmosphere in Uptown makes it a charming time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

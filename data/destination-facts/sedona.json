@@ -1,0 +1,115 @@
+{
+  "destinationId": "sedona",
+  "city": "Sedona",
+  "country": "United States",
+  "transportAdvice": "Sedona has limited public transit, with a small local bus system serving some key areas, but a personal vehicle or rental car is strongly recommended to access trailheads, viewpoints, and surrounding attractions. Taxis and ride-hail services are available but infrequent, and walking between major sites is generally not practical given the spread-out terrain.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cool and crisp winter days with occasional frost at night and possible light rain or snow dusting on the red rocks."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Mild late-winter weather with cool mornings and pleasant afternoons, though rain showers remain possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 18,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Spring begins with warming temperatures and occasional afternoon showers, making it a popular hiking season."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with low humidity, ideal conditions for outdoor activities and trail exploration."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with long sunny days, excellent for early morning hikes before afternoon heat builds."
+    },
+    {
+      "month": 6,
+      "avgHighC": 34,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry ahead of monsoon season, with intense midday sun making early morning activity essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Monsoon season brings dramatic afternoon thunderstorms and brief heavy downpours that cool the air temporarily."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Continued monsoon activity with frequent afternoon storms, lush greenery, and vivid red rock contrasts."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Monsoon winds down and temperatures become more comfortable, offering some of the best hiking conditions of the year."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp autumn weather with clear skies and mild temperatures, widely considered the best month to visit Sedona."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cooling temperatures and occasional rain return, but crowds thin and the landscape takes on beautiful autumn tones."
+    },
+    {
+      "month": 12,
+      "avgHighC": 12,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold nights and cool days with possible frost, but clear winter skies often provide stunning views of the red rocks."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

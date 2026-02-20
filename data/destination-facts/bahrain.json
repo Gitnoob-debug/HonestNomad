@@ -1,0 +1,115 @@
+{
+  "destinationId": "bahrain",
+  "city": "Manama",
+  "country": "Bahrain",
+  "transportAdvice": "Manama has a public bus network that covers major areas, though services can be infrequent and routes may not reach all tourist sites conveniently; taxis are widely available and a practical option for getting around. The city is generally not walkable due to heat, distances, and limited pedestrian infrastructure, so having a reliable transport option is recommended.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant winter weather with occasional light rain and comfortable temperatures for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with a slight chance of brief showers, ideal for outdoor exploration."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise noticeably with mostly clear skies and comfortable conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and dry with increasing heat, still manageable for daytime activities."
+    },
+    {
+      "month": 5,
+      "avgHighC": 36,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot conditions set in with very little rainfall and rising humidity toward the end of the month."
+    },
+    {
+      "month": 6,
+      "avgHighC": 39,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Intense heat and high humidity make outdoor activities uncomfortable, especially during midday."
+    },
+    {
+      "month": 7,
+      "avgHighC": 41,
+      "avgLowC": 32,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Peak summer heat with oppressive humidity; outdoor time is best limited to early morning or evening."
+    },
+    {
+      "month": 8,
+      "avgHighC": 41,
+      "avgLowC": 32,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Conditions remain extremely hot and humid, similar to July, with virtually no rainfall."
+    },
+    {
+      "month": 9,
+      "avgHighC": 38,
+      "avgLowC": 29,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still very hot with high humidity, though temperatures begin a gradual decline toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Noticeably more comfortable than summer with warm days and milder evenings returning."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant autumn weather with warm days and cooler nights, good for outdoor activities."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and enjoyable winter conditions with occasional light rain and comfortable temperatures."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

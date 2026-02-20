@@ -1,0 +1,115 @@
+{
+  "destinationId": "lombok",
+  "city": "Lombok",
+  "country": "Indonesia",
+  "transportAdvice": "Public transit on Lombok is limited and does not reliably cover most tourist areas, so renting a scooter or hiring a private driver is the most practical way to get around; taxis and informal transport options are available in main towns but less common in rural and coastal areas. Walking is only practical within small village or beach areas, as distances between attractions are generally too large to cover on foot.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent heavy rain and overcast skies, making outdoor activities less predictable."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and high humidity; flooding can occasionally affect low-lying coastal roads."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward the end of the month but conditions remain wet and humid."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with decreasing rainfall and improving sunshine, making it a reasonable time to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season begins with pleasant temperatures and mostly sunny days ideal for beach and trekking activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the best months to visit with dry, sunny weather and cooler evenings, especially at higher elevations."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with excellent visibility, calm seas, and comfortable temperatures throughout the island."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Consistently dry and sunny with low humidity, ideal for hiking Mount Rinjani and exploring the Gili Islands."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry conditions continue with warm days and clear skies, remaining one of the most popular travel months."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Transitional month as the dry season winds down; still largely sunny with occasional early showers."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Wet season approaches with increasing cloud cover and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season is well underway with regular heavy rain, high humidity, and rougher seas around the coast."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

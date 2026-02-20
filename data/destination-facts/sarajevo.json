@@ -1,0 +1,115 @@
+{
+  "destinationId": "sarajevo",
+  "city": "Sarajevo",
+  "country": "Bosnia and Herzegovina",
+  "transportAdvice": "Sarajevo's historic core is compact and very walkable, with the old bazaar and main attractions easily covered on foot. The city has a tram network and bus system that serve tourist areas well, and taxis are widely available and affordable.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold winter month with frequent snow and overcast skies, making warm layers essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and wintry with occasional snow, though daylight hours begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures but expect rain and unpredictable conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Spring is well underway with green hillsides, though showers are frequent throughout the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Pleasant and lush with warm days, but May is one of the rainiest months so pack a light rain jacket."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with occasional afternoon thunderstorms, ideal for sightseeing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The warmest and driest month of the year, perfect for outdoor exploration and café culture."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and sunny conditions continue, making this a popular time to visit despite the heat."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with fewer crowds and occasional light rain."
+    },
+    {
+      "month": 10,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn foliage colours the surrounding hills and temperatures cool noticeably, with more frequent rain."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool and often grey with rain and the first hints of winter, requiring a warm coat."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive with a good chance of snow, giving the old city a charming winter atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

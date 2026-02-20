@@ -1,0 +1,115 @@
+{
+  "destinationId": "tanzania",
+  "city": "Arusha",
+  "country": "Tanzania",
+  "transportAdvice": "Arusha's town center is walkable for short distances, but tourist sites and safari staging areas are spread out and best reached by taxi or arranged transfers. Shared minibus taxis (dala-dalas) serve local routes but can be crowded and confusing for visitors; private taxis are widely available and recommended for tourists.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "moderate",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with sunny days, making it a good time for safari and outdoor activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the driest and sunniest months, with excellent visibility and comfortable temperatures."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The long rains begin to arrive, bringing occasional afternoon showers alongside warm temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the long rainy season with frequent heavy downpours, lush landscapes but muddy roads."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still wet with persistent rains, though showers may ease toward the end of the month."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The dry season begins, bringing cooler and clearer conditions ideal for wildlife viewing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and clear — one of the best months for safaris and trekking on Mount Kilimanjaro."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued dry and sunny weather with cool nights, excellent for outdoor adventures."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with clear skies, a popular month for visitors heading to the Serengeti."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Short rains begin to develop, with occasional afternoon storms but generally pleasant conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Short rainy season in full effect with regular showers, though mornings are often clear."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains ease toward month's end, transitioning to drier and warmer conditions for the new year."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

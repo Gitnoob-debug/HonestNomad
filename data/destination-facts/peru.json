@@ -1,0 +1,115 @@
+{
+  "destinationId": "peru",
+  "city": "Cusco",
+  "country": "Peru",
+  "transportAdvice": "The historic center of Cusco is compact and largely walkable, though the high altitude (3,400m) makes uphill streets tiring; taxis are widely available and affordable for longer distances or trips to sites outside the center. Public minibuses serve the city and surrounding areas but can be crowded and confusing for first-time visitors, so most tourists rely on taxis or organized transfers.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season with frequent afternoon and evening downpours; trails can be muddy and some routes may be restricted."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year; heavy rainfall is common daily and the Inca Trail is closed for maintenance."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with persistent rain; lush green landscapes but expect disruptions to outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall begins to ease toward the end of the month, marking the transition into the dry season with clearer skies."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the best months to visit with dry, sunny days and cool nights; ideal conditions for trekking and sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with very little rain, crisp cold nights, and excellent visibility; the Inti Raymi festival takes place mid-month."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The most popular tourist month with reliably dry weather, though nights can be near freezing; book accommodation well in advance."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny with warm days and cold nights; still peak season with high visitor numbers on the Inca Trail."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Shoulder season begins with fewer crowds, pleasant daytime temperatures, and only occasional light showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain starts to return with occasional afternoon showers, but mornings are generally clear and good for outdoor activities."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Increasing rainfall as the wet season approaches; afternoons can be showery but mornings often remain dry."
+    },
+    {
+      "month": 12,
+      "avgHighC": 20,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wet season is underway with regular afternoon and evening rain; landscapes are green and lush but waterproof gear is essential."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

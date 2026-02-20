@@ -1,0 +1,115 @@
+{
+  "destinationId": "prince-edward-island",
+  "city": "Charlottetown",
+  "country": "Canada",
+  "transportAdvice": "Charlottetown's compact downtown is very walkable, making it easy to reach most attractions, restaurants, and the waterfront on foot. Public bus service exists but has limited coverage and frequency, so taxis and rental cars are recommended for reaching areas beyond the city centre or exploring the wider island.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -4,
+      "avgLowC": -13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and snowy with frequent winter storms; outdoor sightseeing is limited and warm layers are essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": -4,
+      "avgLowC": -13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the coldest months with persistent snow and icy conditions; indoor activities are preferable."
+    },
+    {
+      "month": 3,
+      "avgHighC": 1,
+      "avgLowC": -8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late winter with gradual warming but still cold and snowy; conditions can be unpredictable."
+    },
+    {
+      "month": 4,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with mild days but chilly nights; rain and lingering snow are possible early in the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming landscapes; a good time to explore before summer crowds arrive."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with long daylight hours; ideal for outdoor exploration and coastal walks."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer with warm temperatures and sunny days; beaches are busy and the island is at its liveliest."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and sunny, similar to July; excellent for beach visits and outdoor festivals."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler, crisp air and beautiful foliage; a quieter and very pleasant time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn colours peak and temperatures drop noticeably; rain becomes more frequent toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and often wet with the first frosts; tourist facilities begin to wind down for the season."
+    },
+    {
+      "month": 12,
+      "avgHighC": -1,
+      "avgLowC": -9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter sets in with snow and short days; a quiet time to visit with a cosy, festive atmosphere in town."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

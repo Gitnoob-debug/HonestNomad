@@ -1,0 +1,115 @@
+{
+  "destinationId": "phoenix",
+  "city": "Phoenix",
+  "country": "United States",
+  "transportAdvice": "Phoenix is a sprawling, car-dependent city where walking between attractions is generally impractical due to distances and heat; a light rail system connects some central areas and suburbs, but renting a car or using taxis is the most practical option for reaching most tourist destinations.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and sunny winter days with cool nights, ideal for outdoor sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant and warm with plenty of sunshine, one of the most comfortable months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm spring weather begins, great for hiking and outdoor activities before summer heat arrives."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with long sunny days, excellent conditions for exploring the desert landscape."
+    },
+    {
+      "month": 5,
+      "avgHighC": 35,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat builds significantly; mornings are still manageable but afternoons can be intense."
+    },
+    {
+      "month": 6,
+      "avgHighC": 41,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Extremely hot and dry; outdoor activities should be limited to early morning or evening hours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 41,
+      "avgLowC": 29,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer heat combined with the onset of monsoon season brings occasional dramatic thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 39,
+      "avgLowC": 28,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Monsoon storms continue with high humidity by local standards; still very hot throughout the day."
+    },
+    {
+      "month": 9,
+      "avgHighC": 36,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat begins to ease slightly toward month's end; monsoon activity tapers off."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable and sunny autumn weather returns, making it a popular time for outdoor recreation."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and pleasant with cool evenings; one of the best months for hiking and sightseeing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and sunny winter conditions with crisp nights, ideal for visitors escaping colder climates."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

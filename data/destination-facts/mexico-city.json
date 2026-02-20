@@ -1,0 +1,115 @@
+{
+  "destinationId": "mexico-city",
+  "city": "Mexico City",
+  "country": "Mexico",
+  "transportAdvice": "Mexico City has an extensive metro system that covers most major tourist and residential areas, making it a practical and affordable way to get around; buses and minibuses also serve routes throughout the city. Taxis and ride-hailing vehicles are widely available, and many central neighborhoods like Roma, Condesa, and Polanco are walkable, though the city's size and traffic make public transit preferable for longer distances.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 21,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with clear skies; mornings and evenings can be quite cold, so layers are recommended."
+    },
+    {
+      "month": 2,
+      "avgHighC": 23,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and mild with warm afternoons and cool nights; one of the more pleasant months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to rise and conditions remain dry; expect sunny days and comfortable evenings."
+    },
+    {
+      "month": 4,
+      "avgHighC": 27,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry, though occasional afternoon showers may signal the approaching rainy season."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with increasing afternoon thunderstorms as the rainy season begins."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season is well underway with frequent afternoon and evening downpours; mornings are often clear."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months; expect heavy afternoon rains daily, though mornings tend to be bright."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall throughout the month; flooding in low-lying areas is possible."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The peak of the rainy season with the highest monthly rainfall totals; pack a reliable rain jacket."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall begins to ease toward the end of the month; temperatures are mild and pleasant."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season returns with comfortable temperatures and clear skies; an excellent time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with festive atmosphere; cold nights require warm clothing but days are generally sunny."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

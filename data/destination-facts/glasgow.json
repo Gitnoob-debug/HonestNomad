@@ -1,0 +1,115 @@
+{
+  "destinationId": "glasgow",
+  "city": "Glasgow",
+  "country": "United Kingdom",
+  "transportAdvice": "Glasgow has an extensive public transit network including an underground metro circle line, buses, and suburban rail services that cover most tourist areas well. Taxis are widely available, and the city centre is compact enough for comfortable walking between many major attractions.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with short daylight hours, typical of a Scottish winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and damp with occasional frost, though days begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly milder temperatures but rain remains common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably brighter with longer days, though showers are still frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with more sunshine, though a jacket is still advisable."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest and brightest period begins with long evenings and mild temperatures."
+    },
+    {
+      "month": 7,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Glasgow's warmest month, though rain is still possible and temperatures rarely get very hot."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and relatively pleasant with long daylight hours, a popular time to visit."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and increasing rainfall but still comfortable days."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn sets in, with shorter days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently overcast with heavy rain and early darkness."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and wet with very short days, though festive city centre atmosphere can be lively."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

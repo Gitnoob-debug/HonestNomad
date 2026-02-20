@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import { ItineraryMap } from '@/components/flash/ItineraryMap';
 import { PackageMiniMap } from '@/components/flash/PackageMiniMap';
-import { MagicPackage } from '@/components/flash/MagicPackage';
+import { TripIntelligence } from '@/components/flash/TripIntelligence';
 import { Spinner } from '@/components/ui';
 import { BlurUpImage } from '@/components/ui/BlurUpImage';
 import { format } from 'date-fns';
@@ -2887,34 +2887,56 @@ function FlashExploreContent() {
               );
             })()}
 
-            {/* 4. AI TRAVEL PREP — Grid Cards */}
+            {/* 4. TRIP PREP — Data-driven destination intelligence */}
             <div className="px-4 pb-6">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-full flex items-center justify-center">
-                  <span className="text-xl">✨</span>
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-500/20 to-green-500/20 rounded-full flex items-center justify-center">
+                  <span className="text-xl">🧭</span>
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-white">AI Travel Prep</h3>
-                  <p className="text-sm text-white/50">Personalized for {trip.destination.city}</p>
+                  <h3 className="text-lg font-bold text-white">Trip Prep</h3>
+                  <p className="text-sm text-white/50">Your {trip.destination.city} briefing</p>
                 </div>
               </div>
-              <MagicPackage
-                destination={trip.destination.city}
+              <TripIntelligence
+                destinationId={trip.destination.id}
+                city={trip.destination.city}
                 country={trip.destination.country}
                 departureDate={tripDates.departure}
                 returnDate={tripDates.return}
                 travelerType={resolvedTravelerType}
-                hotelName={selectedHotel?.name}
-                activities={allStops.map((s) => s.name).slice(0, 10)}
                 vibes={trip.destination.vibes || []}
                 variant="dark"
                 layout="grid"
                 pathType={itineraryType || undefined}
-                pathDescription={itineraryType ? PATH_CONFIG[itineraryType]?.name : undefined}
-                poiDetails={poiDetailsForAI}
-                favoritePOIs={favoriteStops.map(s => s.name)}
-                clusters={clusterSummaries}
-                hotelContext={hotelContextForAI}
+                stops={allStops.map(s => ({
+                  name: s.name,
+                  type: s.type,
+                  category: s.category || undefined,
+                  latitude: s.latitude,
+                  longitude: s.longitude,
+                  googleRating: s.googleRating,
+                  duration: s.duration,
+                  suggestedDuration: s.suggestedDuration,
+                  bestTimeOfDay: s.bestTimeOfDay,
+                }))}
+                clusters={poiClusters.map(c => ({
+                  id: c.id,
+                  label: c.label,
+                  center: c.center,
+                  points: c.points,
+                  color: c.color,
+                }))}
+                favoriteStopNames={favoriteStops.map(s => s.name)}
+                hotel={hasHotel && selectedHotel ? {
+                  name: selectedHotel.name,
+                  latitude: selectedHotel.latitude,
+                  longitude: selectedHotel.longitude,
+                  stars: selectedHotel.stars,
+                  pricePerNight: selectedHotel.pricePerNight,
+                  currency: selectedHotel.currency,
+                  amenities: selectedHotel.amenities,
+                } : undefined}
               />
             </div>
 

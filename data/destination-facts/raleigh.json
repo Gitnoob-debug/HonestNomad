@@ -1,0 +1,115 @@
+{
+  "destinationId": "raleigh",
+  "city": "Raleigh-Durham",
+  "country": "United States",
+  "transportAdvice": "The Raleigh-Durham area is largely car-dependent, and renting a vehicle is the most practical way to get around between the two cities and surrounding suburbs. A regional bus network exists but has limited coverage of tourist areas, and taxis or ride-hail services are available, though walking is only practical within specific downtown districts.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally cold with a chance of light rain or rare winter mix; pack layers for chilly days."
+    },
+    {
+      "month": 2,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with variable conditions; occasional warm spells hint at approaching spring but frost remains possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and blooming trees, though rain showers become more frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and mild with colorful spring foliage; a great month to explore outdoor spaces with comfortable temperatures."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly humid with occasional afternoon thunderstorms; outdoor activities are still very enjoyable."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with regular afternoon thunderstorms; stay hydrated and plan outdoor activities for the morning."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with high humidity and frequent afternoon storms; air conditioning is a welcome relief."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Remains hot and muggy with similar conditions to July; thunderstorms are common in the afternoon hours."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Gradual cooling begins but humidity lingers; early fall foliage starts appearing by late in the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the best months to visit with crisp air, low rain, and beautiful fall foliage across the region."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling noticeably with occasional rain; fall colors peak early in the month before trees go bare."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and wintry with a small chance of frost or light snow; festive holiday atmosphere in downtown areas."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

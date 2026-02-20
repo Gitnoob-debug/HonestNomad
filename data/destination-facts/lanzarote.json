@@ -1,0 +1,115 @@
+{
+  "destinationId": "lanzarote",
+  "city": "Arrecife",
+  "country": "Spain",
+  "transportAdvice": "Arrecife and the wider Lanzarote island are served by a public bus network that connects the main towns, resorts, and tourist attractions, though services can be infrequent in rural areas. Taxis are widely available and reliable, and renting a car is a popular option for exploring the island more freely, as walking is practical only within the city centre itself.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant winter weather with occasional light rain and gentle breezes, making it comfortable for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with cool evenings, one of the quieter months and good for outdoor exploration."
+    },
+    {
+      "month": 3,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring begins with warm days and very little rainfall, ideal for beach walks and nature visits."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Reliably sunny and warm with low humidity, excellent conditions for outdoor activities and beach time."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Increasingly warm and dry with long sunny days, a great month to visit before peak summer crowds."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with strong sunshine, perfect beach weather and very little chance of rain."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with intense sun and virtually no rain, ideal for swimming and water activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The hottest month of the year with scorching temperatures and occasional Saharan dust, stay hydrated and seek shade midday."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still very warm and sunny with sea temperatures at their highest, a popular month for beach holidays."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm autumn weather with slightly more cloud cover and a small chance of brief showers."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and comfortable with a noticeable increase in rainfall probability, still good for sightseeing and hiking."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy winter month, but temperatures remain mild and the island is far less crowded."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

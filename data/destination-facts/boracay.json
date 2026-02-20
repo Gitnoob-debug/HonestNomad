@@ -1,0 +1,115 @@
+{
+  "destinationId": "boracay",
+  "city": "Boracay",
+  "country": "Philippines",
+  "transportAdvice": "Boracay is a small island where the main tourist strip along White Beach is easily walkable; tricycles (motorized three-wheelers) are the primary form of local transport and are widely available for short hops across the island. Taxis do not operate on the island, but tricycles and electric vehicles cover most tourist areas at low cost.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak dry season with calm seas and sunny skies, making it the most popular and crowded time to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Excellent beach weather continues with low rainfall and ideal conditions for water sports."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with very little rain, great for snorkeling and island-hopping."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The hottest month of the year with strong sunshine and minimal rain, though it can feel intense midday."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The transition into wet season begins with occasional afternoon showers but still plenty of sunshine."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Southwest monsoon arrives bringing frequent rain and rougher seas on the west side of the island."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rainfall and strong winds are common; some water activities may be restricted due to rough conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with persistent rain and the possibility of tropical storms passing through."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Typhoon season peaks and rain remains frequent, though the east side of the island offers some shelter."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward the end of the month as the monsoon gradually retreats."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions improve noticeably with fewer rainy days and calmer seas returning to the west coast."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season resumes with pleasant temperatures and clear skies, drawing holiday visitors toward year-end."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

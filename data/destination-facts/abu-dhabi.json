@@ -1,0 +1,115 @@
+{
+  "destinationId": "abu-dhabi",
+  "city": "Abu Dhabi",
+  "country": "United Arab Emirates",
+  "transportAdvice": "Abu Dhabi has a public bus network, but tourist attractions are spread out and walking is impractical in the summer heat, so taxis and hired cars are the most convenient way to get around. Taxis are widely available and metered, making them a reliable option for reaching major sights.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC+4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with comfortable temperatures, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and sunny with occasional light breezes, ideal for outdoor sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise noticeably, still comfortable for most outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Getting warm with minimal rainfall; outdoor activities are best done in the morning or evening."
+    },
+    {
+      "month": 5,
+      "avgHighC": 40,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and increasingly humid; outdoor time should be limited to cooler parts of the day."
+    },
+    {
+      "month": 6,
+      "avgHighC": 43,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Intense heat and high humidity make outdoor activities uncomfortable for most visitors."
+    },
+    {
+      "month": 7,
+      "avgHighC": 44,
+      "avgLowC": 32,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Peak summer heat with very high humidity; most activity shifts indoors to air-conditioned venues."
+    },
+    {
+      "month": 8,
+      "avgHighC": 44,
+      "avgLowC": 32,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Conditions remain extremely hot and humid, similar to July; indoor attractions are advisable."
+    },
+    {
+      "month": 9,
+      "avgHighC": 41,
+      "avgLowC": 29,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still very hot with lingering humidity, though temperatures begin a gradual decline toward month end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 36,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Noticeably cooler than summer, with pleasant evenings returning and outdoor activities becoming viable again."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable and warm with low humidity, a popular time for visitors to explore the city."
+    },
+    {
+      "month": 12,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and enjoyable weather returns, making it an excellent month for outdoor exploration and beach visits."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "gothenburg",
+  "city": "Gothenburg",
+  "country": "Sweden",
+  "transportAdvice": "Gothenburg has an extensive tram, bus, and ferry network that covers the city centre and most tourist areas well, making a car unnecessary for most visitors. The central areas are walkable, and taxis are widely available though expensive.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, dark, and often wet with occasional snow; daylight hours are very short."
+    },
+    {
+      "month": 2,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and grey with frequent rain or sleet and limited daylight."
+    },
+    {
+      "month": 3,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early signs of spring with slightly longer days but still chilly and unpredictable."
+    },
+    {
+      "month": 4,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and brightening with occasional showers; a pleasant time to explore the city."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny with long days and blooming parks."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and bright with long evenings; one of the best months to visit."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month with long daylight hours, though occasional rain showers are possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and enjoyable with a mix of sunshine and showers; still peak summer feel."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling down with autumn colours beginning; comfortable for sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with shorter days and frequent overcast skies."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, damp, and dark with limited sunshine; pack warm and waterproof layers."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and dark with festive Christmas markets offering a cosy seasonal atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

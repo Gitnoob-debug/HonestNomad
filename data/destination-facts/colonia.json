@@ -1,0 +1,115 @@
+{
+  "destinationId": "colonia",
+  "city": "Colonia del Sacramento",
+  "country": "Uruguay",
+  "transportAdvice": "The historic Barrio Histórico is compact and best explored entirely on foot, with most attractions within easy walking distance of each other. Taxis and local buses are available for reaching areas beyond the old town, and golf carts or bicycles can be rented for a leisurely way to get around.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot summer month with long sunny days and warm evenings, ideal for exploring the cobblestone streets and waterfront."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with occasional afternoon thunderstorms, still very pleasant for outdoor sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings slightly cooler temperatures and a refreshing break from summer heat, comfortable for walking."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with occasional rain showers, a quieter time to visit with fewer crowds."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with overcast skies becoming more frequent, a light jacket is recommended for evenings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool winter month with grey skies and regular rain, but the historic quarter retains a moody, atmospheric charm."
+    },
+    {
+      "month": 7,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The coldest month of the year with chilly winds off the Río de la Plata and frequent overcast conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cool and damp but with occasional clearer days hinting at the approaching spring season."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and variable weather, a good time to visit before peak season crowds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming vegetation and comfortable temperatures for exploring the old town."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, one of the best months to visit with ideal conditions and manageable visitor numbers."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot early summer weather draws more visitors, with long daylight hours perfect for leisurely waterfront strolls."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

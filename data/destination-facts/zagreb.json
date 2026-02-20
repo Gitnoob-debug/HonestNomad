@@ -1,0 +1,115 @@
+{
+  "destinationId": "zagreb",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "transportAdvice": "Zagreb has a well-developed tram network that connects the city centre with most tourist areas, making it easy to get around without a car. The compact upper and lower town districts are very walkable, and taxis are widely available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with occasional snow, Zagreb in January is quiet and atmospheric with low tourist crowds."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold with possible snow and frost, though days begin to lengthen slightly toward the end of the month."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild days and occasional rain, with the city starting to come alive after winter."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming parks and occasional showers, a good time to explore the city on foot."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with longer days, May is one of the most enjoyable months to visit Zagreb."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with occasional thunderstorms, outdoor cafes and terraces are in full swing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly sunny, July is peak summer with lively street life and outdoor festivals."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Similar to July with hot, dry conditions and plenty of sunshine, though brief thunderstorms are possible."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures make September an excellent month to visit with fewer crowds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn days with colourful foliage and increasing rainfall, still pleasant for sightseeing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and often overcast with frequent rain, November marks the onset of the colder, wetter season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive, Zagreb hosts one of Europe's most celebrated Christmas markets throughout December."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

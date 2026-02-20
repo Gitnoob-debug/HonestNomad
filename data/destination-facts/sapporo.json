@@ -1,0 +1,115 @@
+{
+  "destinationId": "sapporo",
+  "city": "Sapporo",
+  "country": "Japan",
+  "transportAdvice": "Sapporo has an efficient subway system with three lines covering the main tourist areas, complemented by buses and streetcars. The city center is very walkable, especially around the main station and Odori Park areas, and taxis are readily available.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Deep winter with heavy snowfall, making it ideal for the famous Snow Festival and nearby ski resorts."
+    },
+    {
+      "month": 2,
+      "avgHighC": 0,
+      "avgLowC": -8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Coldest month with continued heavy snow; the Sapporo Snow Festival takes place in early February."
+    },
+    {
+      "month": 3,
+      "avgHighC": 4,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Snow begins to melt gradually, though winter conditions persist with occasional heavy snowfall."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with rapidly warming temperatures and cherry blossoms appearing toward the end of the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with cherry blossoms and lilacs in bloom, making it one of the best months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer with comfortable temperatures and less rain than mainland Japan during its rainy season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warmest period begins with pleasant summer days, though humidity increases and occasional rain is possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month but milder than mainland Japan, with warm days ideal for outdoor activities and beer gardens."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn begins with cooling temperatures and beautiful foliage starting to appear later in the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak autumn foliage with cool, crisp weather perfect for exploring parks and surrounding nature."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late autumn transitions to early winter, with the first snowfall typically arriving by mid-month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 1,
+      "avgLowC": -5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full winter conditions with heavy snow, festive illuminations, and excellent conditions for nearby skiing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

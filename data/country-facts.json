@@ -1,0 +1,3409 @@
+{
+  "Antigua and Barbuda": {
+    "countryName": "Antigua and Barbuda",
+    "currencyName": "East Caribbean Dollar",
+    "currencyCode": "XCD",
+    "currencySymbol": "$",
+    "plugTypes": ["Type A", "Type B"],
+    "voltage": "230V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping of 10-15% is customary at restaurants and for service staff.",
+    "visaInfo": "Visa-free entry for most Western passport holders for stays up to 90 days.",
+    "languages": ["English"],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "manual-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Albania": {
+    "countryName": "Albania",
+    "currencyName": "Albanian Lek",
+    "currencyCode": "ALL",
+    "currencySymbol": "L",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not widely expected, though it is becoming more common in tourist areas.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays.",
+    "languages": [
+      "Albanian"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Anguilla": {
+    "countryName": "Anguilla",
+    "currencyName": "East Caribbean Dollar",
+    "currencyCode": "XCD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "110V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is customary and generally expected in restaurants and for services.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays.",
+    "languages": [
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Argentina": {
+    "countryName": "Argentina",
+    "currencyName": "Argentine Peso",
+    "currencyCode": "ARS",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type C",
+      "Type I"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is customary and generally expected in restaurants and for services.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays.",
+    "languages": [
+      "Spanish"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Aruba": {
+    "countryName": "Aruba",
+    "currencyName": "Aruban Florin",
+    "currencyCode": "AWG",
+    "currencySymbol": "ƒ",
+    "plugTypes": [
+      "Type A",
+      "Type B",
+      "Type F"
+    ],
+    "voltage": "127V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is customary and appreciated, as a service charge is not always included.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays.",
+    "languages": [
+      "Papiamento",
+      "Dutch",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Australia": {
+    "countryName": "Australia",
+    "currencyName": "Australian Dollar",
+    "currencyCode": "AUD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type I"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "000",
+    "tippingNorm": "Tipping is not expected but is appreciated for exceptional service.",
+    "visaInfo": "Most Western passport holders require an Electronic Travel Authority or eVisitor authorization before arrival, which is typically easy to obtain online.",
+    "languages": [
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Austria": {
+    "countryName": "Austria",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is customary and appreciated in restaurants and for taxis and other services.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays within the Schengen Area.",
+    "languages": [
+      "German"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Bahamas": {
+    "countryName": "Bahamas",
+    "currencyName": "Bahamian Dollar",
+    "currencyCode": "BSD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is customary and generally expected in restaurants, hotels, and for services.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays.",
+    "languages": [
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Bahrain": {
+    "countryName": "Bahrain",
+    "currencyName": "Bahraini Dinar",
+    "currencyCode": "BHD",
+    "currencySymbol": "BD",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, though it is becoming more common in hotels and restaurants.",
+    "visaInfo": "Most Western passport holders can obtain a visa on arrival or an e-visa prior to travel.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Barbados": {
+    "countryName": "Barbados",
+    "currencyName": "Barbadian Dollar",
+    "currencyCode": "BBD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "115V / 50Hz",
+    "emergencyNumber": "211",
+    "tippingNorm": "Tipping is customary and generally expected, as a service charge is not always included.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays.",
+    "languages": [
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Belgium": {
+    "countryName": "Belgium",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type E"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, as a service charge is often included in the bill.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays within the Schengen Area.",
+    "languages": [
+      "Dutch",
+      "French",
+      "German"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Belize": {
+    "countryName": "Belize",
+    "currencyName": "Belize Dollar",
+    "currencyCode": "BZD",
+    "currencySymbol": "BZ$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "110V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and commonly expected in tourist areas, particularly at restaurants and for guides.",
+    "visaInfo": "Visa-free entry for most Western passport holders for stays up to 30 days, extendable upon arrival.",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Bermuda": {
+    "countryName": "Bermuda",
+    "currencyName": "Bermudian Dollar",
+    "currencyCode": "BMD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is customary and expected in restaurants, hotels, and for taxi drivers.",
+    "visaInfo": "Visa-free entry for most Western passport holders; length of stay is determined by immigration upon arrival.",
+    "languages": [
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Bhutan": {
+    "countryName": "Bhutan",
+    "currencyName": "Bhutanese Ngultrum",
+    "currencyCode": "BTN",
+    "currencySymbol": "Nu",
+    "plugTypes": [
+      "Type D",
+      "Type F",
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not traditionally expected, though it is becoming more common in the tourism industry.",
+    "visaInfo": "Most Western passport holders require a visa, which must be arranged in advance through a licensed Bhutanese tour operator; independent travel is not permitted.",
+    "languages": [
+      "Dzongkha",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Bolivia": {
+    "countryName": "Bolivia",
+    "currencyName": "Bolivian Boliviano",
+    "currencyCode": "BOB",
+    "currencySymbol": "Bs",
+    "plugTypes": [
+      "Type A",
+      "Type C"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "110",
+    "tippingNorm": "Tipping is appreciated but not strictly expected; it is becoming more common in tourist-oriented establishments.",
+    "visaInfo": "Visa-free entry for most Western passport holders for stays up to 90 days.",
+    "languages": [
+      "Spanish",
+      "Quechua"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Bonaire": {
+    "countryName": "Bonaire",
+    "currencyName": "United States Dollar",
+    "currencyCode": "USD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "127V / 50Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and customary in restaurants and for dive operators and tour guides.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays, as Bonaire is a special municipality of the Netherlands.",
+    "languages": [
+      "Papiamentu",
+      "Dutch",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Bosnia and Herzegovina": {
+    "countryName": "Bosnia and Herzegovina",
+    "currencyName": "Bosnia and Herzegovina Convertible Mark",
+    "currencyCode": "BAM",
+    "currencySymbol": "KM",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected; rounding up the bill or leaving a small amount is common practice.",
+    "visaInfo": "Visa-free entry for most Western passport holders for stays up to 90 days within a 180-day period.",
+    "languages": [
+      "Bosnian",
+      "Croatian",
+      "Serbian"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Botswana": {
+    "countryName": "Botswana",
+    "currencyName": "Botswana Pula",
+    "currencyCode": "BWP",
+    "currencySymbol": "P",
+    "plugTypes": [
+      "Type D",
+      "Type G",
+      "Type M"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated and customary, particularly for safari guides, lodge staff, and restaurant servers.",
+    "visaInfo": "Visa-free entry for most Western passport holders for stays up to 90 days.",
+    "languages": [
+      "English",
+      "Setswana"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Brazil": {
+    "countryName": "Brazil",
+    "currencyName": "Brazilian Real",
+    "currencyCode": "BRL",
+    "currencySymbol": "R$",
+    "plugTypes": [
+      "Type C",
+      "Type N"
+    ],
+    "voltage": "127V or 220V / 60Hz",
+    "emergencyNumber": "190",
+    "tippingNorm": "Tipping is appreciated but not strictly obligatory; a service charge is often included in restaurant bills.",
+    "visaInfo": "Visa-free entry for most Western passport holders for stays up to 90 days.",
+    "languages": [
+      "Portuguese",
+      "Spanish"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Bulgaria": {
+    "countryName": "Bulgaria",
+    "currencyName": "Bulgarian Lev",
+    "currencyCode": "BGN",
+    "currencySymbol": "лв",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated and becoming more common, particularly in restaurants and for taxi drivers in tourist areas.",
+    "visaInfo": "Visa-free entry for most Western passport holders; EU citizens may stay indefinitely, while others are generally permitted stays up to 90 days.",
+    "languages": [
+      "Bulgarian",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Cambodia": {
+    "countryName": "Cambodia",
+    "currencyName": "Cambodian Riel",
+    "currencyCode": "KHR",
+    "currencySymbol": "៛",
+    "plugTypes": [
+      "Type A",
+      "Type C",
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "117",
+    "tippingNorm": "Tipping is not traditionally expected but is greatly appreciated given local wage levels, especially in tourist areas.",
+    "visaInfo": "Most Western passport holders can obtain a visa on arrival or an e-visa in advance for short-term stays.",
+    "languages": [
+      "Khmer",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Canada": {
+    "countryName": "Canada",
+    "currencyName": "Canadian Dollar",
+    "currencyCode": "CAD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is widely expected in restaurants, taxis, and hospitality services.",
+    "visaInfo": "Visa-free or eTA required for most Western passport holders for short stays.",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Cayman Islands": {
+    "countryName": "Cayman Islands",
+    "currencyName": "Cayman Islands Dollar",
+    "currencyCode": "KYD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is customary and widely expected in restaurants and for services.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays.",
+    "languages": [
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Chile": {
+    "countryName": "Chile",
+    "currencyName": "Chilean Peso",
+    "currencyCode": "CLP",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type C",
+      "Type L"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "133",
+    "tippingNorm": "Tipping is appreciated but not strictly obligatory, and is common in restaurants and for guides.",
+    "visaInfo": "Visa-free for most Western passport holders for tourist stays.",
+    "languages": [
+      "Spanish"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "China": {
+    "countryName": "China",
+    "currencyName": "Chinese Yuan Renminbi",
+    "currencyCode": "CNY",
+    "currencySymbol": "¥",
+    "plugTypes": [
+      "Type A",
+      "Type C",
+      "Type I"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "110",
+    "tippingNorm": "Tipping is not traditionally customary and may even be declined in some settings, though it is becoming more accepted in tourist areas.",
+    "visaInfo": "Most Western passport holders require a visa in advance, though visa-free access has been expanding for certain nationalities on a short-stay basis.",
+    "languages": [
+      "Mandarin Chinese"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Colombia": {
+    "countryName": "Colombia",
+    "currencyName": "Colombian Peso",
+    "currencyCode": "COP",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "110V / 60Hz",
+    "emergencyNumber": "123",
+    "tippingNorm": "Tipping is appreciated and a small service addition is common in restaurants, though not strictly required.",
+    "visaInfo": "Visa-free for most Western passport holders for short tourist stays.",
+    "languages": [
+      "Spanish"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Cook Islands": {
+    "countryName": "Cook Islands",
+    "currencyName": "New Zealand Dollar",
+    "currencyCode": "NZD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type I"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is not a strong local tradition and is generally not expected, though it is appreciated for exceptional service.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays.",
+    "languages": [
+      "English",
+      "Cook Islands Māori"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Costa Rica": {
+    "countryName": "Costa Rica",
+    "currencyName": "Costa Rican Colón",
+    "currencyCode": "CRC",
+    "currencySymbol": "₡",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and common in tourist-oriented restaurants and for tour guides and drivers.",
+    "visaInfo": "Visa-free for most Western passport holders for short tourist stays.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Croatia": {
+    "countryName": "Croatia",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, and rounding up the bill is a common practice.",
+    "visaInfo": "Visa-free for most Western passport holders as Croatia is an EU member state.",
+    "languages": [
+      "Croatian"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Curacao": {
+    "countryName": "Curacao",
+    "currencyName": "Netherlands Antillean Guilder",
+    "currencyCode": "ANG",
+    "currencySymbol": "ƒ",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "127V / 50Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and customary in restaurants and for hospitality services.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays.",
+    "languages": [
+      "Papiamentu",
+      "Dutch",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Cyprus": {
+    "countryName": "Cyprus",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated and common in restaurants and for taxi drivers, though not strictly obligatory.",
+    "visaInfo": "Visa-free for most Western passport holders as Cyprus is an EU member state.",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Czech Republic": {
+    "countryName": "Czech Republic",
+    "currencyName": "Czech Koruna",
+    "currencyCode": "CZK",
+    "currencySymbol": "Kč",
+    "plugTypes": [
+      "Type E"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated and commonly practiced in restaurants and for services, though not strictly obligatory.",
+    "visaInfo": "Visa-free for most Western passport holders as part of the Schengen Area, generally up to 90 days within a 180-day period.",
+    "languages": [
+      "Czech",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Denmark": {
+    "countryName": "Denmark",
+    "currencyName": "Danish Krone",
+    "currencyCode": "DKK",
+    "currencySymbol": "kr",
+    "plugTypes": [
+      "Type C",
+      "Type E",
+      "Type F",
+      "Type K"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is not expected as service charges are typically included, but leaving a small tip is appreciated for good service.",
+    "visaInfo": "Visa-free for most Western passport holders as part of the Schengen Area, generally up to 90 days within a 180-day period.",
+    "languages": [
+      "Danish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Dominican Republic": {
+    "countryName": "Dominican Republic",
+    "currencyName": "Dominican Peso",
+    "currencyCode": "DOP",
+    "currencySymbol": "RD$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is widely expected and appreciated in tourist areas, particularly in hotels, restaurants, and for tour guides.",
+    "visaInfo": "Most Western passport holders can enter visa-free or with a tourist card included in the airfare for a standard stay.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Ecuador": {
+    "countryName": "Ecuador",
+    "currencyName": "United States Dollar",
+    "currencyCode": "USD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, though it is becoming more common in tourist-oriented restaurants and for guides.",
+    "visaInfo": "Visa-free for most Western passport holders for a standard tourist stay, typically up to 90 days.",
+    "languages": [
+      "Spanish",
+      "Quechua"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Egypt": {
+    "countryName": "Egypt",
+    "currencyName": "Egyptian Pound",
+    "currencyCode": "EGP",
+    "currencySymbol": "E£",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "123",
+    "tippingNorm": "Tipping, known locally as baksheesh, is deeply ingrained in the culture and is widely expected for most services.",
+    "visaInfo": "Most Western passport holders can obtain a visa on arrival or an e-visa prior to travel, with standard tourist stays permitted.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Estonia": {
+    "countryName": "Estonia",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is not strongly expected but is appreciated for good service in restaurants and by taxi drivers.",
+    "visaInfo": "Visa-free for most Western passport holders as part of the Schengen Area, generally up to 90 days within a 180-day period.",
+    "languages": [
+      "Estonian",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Ethiopia": {
+    "countryName": "Ethiopia",
+    "currencyName": "Ethiopian Birr",
+    "currencyCode": "ETB",
+    "currencySymbol": "Br",
+    "plugTypes": [
+      "Type C",
+      "Type E",
+      "Type F",
+      "Type L"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and becoming more common in tourist areas and hotels, though it is not a deeply ingrained cultural obligation.",
+    "visaInfo": "Most Western passport holders are required to obtain a visa, available as an e-visa prior to arrival or on arrival at major entry points.",
+    "languages": [
+      "Amharic",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Fiji": {
+    "countryName": "Fiji",
+    "currencyName": "Fijian Dollar",
+    "currencyCode": "FJD",
+    "currencySymbol": "FJ$",
+    "plugTypes": [
+      "Type I"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is not a traditional part of Fijian culture and is generally not expected, though it is graciously accepted for exceptional service.",
+    "visaInfo": "Visa-free for most Western passport holders for a standard tourist stay, typically up to 4 months.",
+    "languages": [
+      "English",
+      "Fijian",
+      "Fiji Hindi"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Finland": {
+    "countryName": "Finland",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is not customary or expected, as service is considered included, though rounding up the bill is occasionally done.",
+    "visaInfo": "Visa-free for most Western passport holders as part of the Schengen Area, generally up to 90 days within a 180-day period.",
+    "languages": [
+      "Finnish",
+      "Swedish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "France": {
+    "countryName": "France",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type E"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is not obligatory as a service charge is typically included in bills, but leaving a small additional tip for good service is appreciated.",
+    "visaInfo": "Visa-free for most Western passport holders as part of the Schengen Area, generally up to 90 days within a 180-day period.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "French Polynesia": {
+    "countryName": "French Polynesia",
+    "currencyName": "CFP Franc",
+    "currencyCode": "XPF",
+    "currencySymbol": "₣",
+    "plugTypes": [
+      "Type A",
+      "Type B",
+      "Type C",
+      "Type E"
+    ],
+    "voltage": "220V / 60Hz",
+    "emergencyNumber": "15",
+    "tippingNorm": "Tipping is not a strong local custom but is appreciated for exceptional service.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays as it is a French overseas collectivity.",
+    "languages": [
+      "French",
+      "Tahitian"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Georgia": {
+    "countryName": "Georgia",
+    "currencyName": "Georgian Lari",
+    "currencyCode": "GEL",
+    "currencySymbol": "₾",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, though it is becoming more common in tourist areas.",
+    "visaInfo": "Visa-free for most Western passport holders for extended stays of up to a year.",
+    "languages": [
+      "Georgian",
+      "Russian"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Germany": {
+    "countryName": "Germany",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is customary and appreciated, typically by rounding up the bill rather than leaving a separate amount.",
+    "visaInfo": "Visa-free for most Western passport holders for up to 90 days as part of the Schengen Area.",
+    "languages": [
+      "German",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Ghana": {
+    "countryName": "Ghana",
+    "currencyName": "Ghanaian Cedi",
+    "currencyCode": "GHS",
+    "currencySymbol": "₵",
+    "plugTypes": [
+      "Type D",
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated and becoming more common in tourist-facing establishments and for guides and drivers.",
+    "visaInfo": "Most Western passport holders require a visa in advance, though some nationalities may qualify for visa on arrival.",
+    "languages": [
+      "English",
+      "Twi"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Greece": {
+    "countryName": "Greece",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated and customary in restaurants and for service staff, though not strictly obligatory.",
+    "visaInfo": "Visa-free for most Western passport holders for up to 90 days as part of the Schengen Area.",
+    "languages": [
+      "Greek",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Guadeloupe": {
+    "countryName": "Guadeloupe",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type E"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "15",
+    "tippingNorm": "Tipping is not strongly expected but is appreciated for good service as it is a French overseas region.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays as it is a French overseas region and part of the EU.",
+    "languages": [
+      "French",
+      "Antillean Creole"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Guam": {
+    "countryName": "Guam",
+    "currencyName": "United States Dollar",
+    "currencyCode": "USD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "110V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is expected and customary as it follows US norms, particularly in restaurants and for service workers.",
+    "visaInfo": "US citizens do not need a passport; most other Western passport holders can enter visa-free under the Guam-CNMI Visa Waiver Program.",
+    "languages": [
+      "English",
+      "Chamorro"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Grenada": {
+    "countryName": "Grenada",
+    "currencyName": "East Caribbean Dollar",
+    "currencyCode": "XCD",
+    "currencySymbol": "$",
+    "plugTypes": ["Type G"],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping of 10% is appreciated at restaurants and for service staff.",
+    "visaInfo": "Visa-free entry for most Western passport holders for stays up to 90 days.",
+    "languages": ["English"],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "manual-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Guatemala": {
+    "countryName": "Guatemala",
+    "currencyName": "Guatemalan Quetzal",
+    "currencyCode": "GTQ",
+    "currencySymbol": "Q",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "110",
+    "tippingNorm": "Tipping is appreciated but not always expected, and is a meaningful gesture for guides, drivers, and restaurant staff.",
+    "visaInfo": "Visa-free for most Western passport holders for up to 90 days under the Central America Border Control Agreement.",
+    "languages": [
+      "Spanish",
+      "Indigenous Mayan languages"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Honduras": {
+    "countryName": "Honduras",
+    "currencyName": "Honduran Lempira",
+    "currencyCode": "HNL",
+    "currencySymbol": "L",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "110V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and customary in tourist areas, particularly in restaurants and for tour guides.",
+    "visaInfo": "Visa-free for most Western passport holders for up to 90 days under the Central America Border Control Agreement.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Hong Kong": {
+    "countryName": "Hong Kong",
+    "currencyName": "Hong Kong Dollar",
+    "currencyCode": "HKD",
+    "currencySymbol": "HK$",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated in restaurants and hotels, and a service charge is often already included in the bill.",
+    "visaInfo": "Visa-free for most Western passport holders for stays ranging from 30 to 180 days depending on nationality.",
+    "languages": [
+      "Cantonese",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Hungary": {
+    "countryName": "Hungary",
+    "currencyName": "Hungarian Forint",
+    "currencyCode": "HUF",
+    "currencySymbol": "Ft",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is customary and generally expected in restaurants and for services such as taxis and guides.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays as Hungary is a member of the Schengen Area.",
+    "languages": [
+      "Hungarian"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Iceland": {
+    "countryName": "Iceland",
+    "currencyName": "Icelandic Króna",
+    "currencyCode": "ISK",
+    "currencySymbol": "kr",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is not customary or expected, as service charges are generally included in prices.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays as Iceland is part of the Schengen Area.",
+    "languages": [
+      "Icelandic",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "India": {
+    "countryName": "India",
+    "currencyName": "Indian Rupee",
+    "currencyCode": "INR",
+    "currencySymbol": "₹",
+    "plugTypes": [
+      "Type C",
+      "Type D",
+      "Type M"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated and increasingly common in tourist areas, hotels, and restaurants, though not strictly obligatory.",
+    "visaInfo": "Most Western passport holders require a visa, which is commonly available as an e-Visa obtained online before travel.",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Indonesia": {
+    "countryName": "Indonesia",
+    "currencyName": "Indonesian Rupiah",
+    "currencyCode": "IDR",
+    "currencySymbol": "Rp",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, and is a welcome gesture for good service in tourist areas.",
+    "visaInfo": "Many Western passport holders are eligible for visa-free entry or visa-on-arrival for short stays, though conditions vary by nationality.",
+    "languages": [
+      "Indonesian",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Ireland": {
+    "countryName": "Ireland",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, and is a common gesture for good service in restaurants and taxis.",
+    "visaInfo": "Visa-free for most Western passport holders, though Ireland is not part of the Schengen Area so entry conditions differ from mainland Europe.",
+    "languages": [
+      "English",
+      "Irish"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Israel": {
+    "countryName": "Israel",
+    "currencyName": "Israeli New Shekel",
+    "currencyCode": "ILS",
+    "currencySymbol": "₪",
+    "plugTypes": [
+      "Type C",
+      "Type H"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is customary and generally expected in restaurants, for tour guides, and for other hospitality services.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays, though entry requirements can vary based on individual travel history.",
+    "languages": [
+      "Hebrew",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Italy": {
+    "countryName": "Italy",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F",
+      "Type L"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, as a small tip or rounding up the bill is a common and welcome gesture.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays as Italy is a member of the Schengen Area.",
+    "languages": [
+      "Italian",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Jamaica": {
+    "countryName": "Jamaica",
+    "currencyName": "Jamaican Dollar",
+    "currencyCode": "JMD",
+    "currencySymbol": "J$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "110V / 50Hz",
+    "emergencyNumber": "119",
+    "tippingNorm": "Tipping is customary and generally expected in tourist areas, hotels, restaurants, and for guides and drivers.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays.",
+    "languages": [
+      "English",
+      "Jamaican Patois"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Japan": {
+    "countryName": "Japan",
+    "currencyName": "Japanese Yen",
+    "currencyCode": "JPY",
+    "currencySymbol": "¥",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "100V / 50Hz or 60Hz",
+    "emergencyNumber": "110",
+    "tippingNorm": "Tipping is not customary and can even be considered rude, as excellent service is regarded as standard practice.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays.",
+    "languages": [
+      "Japanese",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Jordan": {
+    "countryName": "Jordan",
+    "currencyName": "Jordanian Dinar",
+    "currencyCode": "JOD",
+    "currencySymbol": "JD",
+    "plugTypes": [
+      "Type B",
+      "Type C",
+      "Type D",
+      "Type F",
+      "Type G",
+      "Type J"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and commonly expected for good service in restaurants, hotels, and for guides and drivers.",
+    "visaInfo": "Most Western passport holders can obtain a visa on arrival or through an e-Visa system, with some eligible for free entry under certain tourism initiatives.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Kenya": {
+    "countryName": "Kenya",
+    "currencyName": "Kenyan Shilling",
+    "currencyCode": "KES",
+    "currencySymbol": "KSh",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated and commonly expected in tourist areas, particularly for safari guides, hotel staff, and restaurant service.",
+    "visaInfo": "Most Western passport holders can obtain an e-visa or visa on arrival, though requirements vary by nationality.",
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Kuwait": {
+    "countryName": "Kuwait",
+    "currencyName": "Kuwaiti Dinar",
+    "currencyCode": "KWD",
+    "currencySymbol": "KD",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, though it is becoming more common in hotels and restaurants.",
+    "visaInfo": "Most Western passport holders can obtain a visa on arrival or an e-visa, though requirements vary by nationality.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Laos": {
+    "countryName": "Laos",
+    "currencyName": "Lao Kip",
+    "currencyCode": "LAK",
+    "currencySymbol": "₭",
+    "plugTypes": [
+      "Type A",
+      "Type B",
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "1191",
+    "tippingNorm": "Tipping is not a strong local tradition but is appreciated by service workers in tourist areas.",
+    "visaInfo": "Most Western passport holders can obtain a visa on arrival or e-visa for short stays.",
+    "languages": [
+      "Lao",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Latvia": {
+    "countryName": "Latvia",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not obligatory, and rounding up the bill or leaving a small amount is common practice.",
+    "visaInfo": "Visa-free access for most Western passport holders as Latvia is part of the Schengen Area, typically allowing stays up to 90 days.",
+    "languages": [
+      "Latvian",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Lebanon": {
+    "countryName": "Lebanon",
+    "currencyName": "Lebanese Pound",
+    "currencyCode": "LBP",
+    "currencySymbol": "ل.ل",
+    "plugTypes": [
+      "Type C",
+      "Type D",
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is customary and generally expected in restaurants, hotels, and for personal services.",
+    "visaInfo": "Visa requirements vary widely by nationality; some Western passport holders receive a free visa on arrival while others must apply in advance.",
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Lithuania": {
+    "countryName": "Lithuania",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not obligatory, and leaving a small amount or rounding up is a common gesture in restaurants and for services.",
+    "visaInfo": "Visa-free access for most Western passport holders as Lithuania is part of the Schengen Area, typically allowing stays up to 90 days.",
+    "languages": [
+      "Lithuanian",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Luxembourg": {
+    "countryName": "Luxembourg",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, as service charges are often included in bills.",
+    "visaInfo": "Visa-free access for most Western passport holders as Luxembourg is part of the Schengen Area, typically allowing stays up to 90 days.",
+    "languages": [
+      "Luxembourgish",
+      "French",
+      "German",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Malaysia": {
+    "countryName": "Malaysia",
+    "currencyName": "Malaysian Ringgit",
+    "currencyCode": "MYR",
+    "currencySymbol": "RM",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is not a strong local tradition but is appreciated in tourist-oriented restaurants and hotels, particularly in cities.",
+    "visaInfo": "Visa-free entry for most Western passport holders for short stays, typically up to 90 days.",
+    "languages": [
+      "Malay",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Maldives": {
+    "countryName": "Maldives",
+    "currencyName": "Maldivian Rufiyaa",
+    "currencyCode": "MVR",
+    "currencySymbol": "Rf",
+    "plugTypes": [
+      "Type G",
+      "Type D",
+      "Type J",
+      "Type K",
+      "Type L"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "119",
+    "tippingNorm": "Tipping is appreciated but not expected, and many resorts include service charges in their bills.",
+    "visaInfo": "Visa-free entry on arrival for most Western passport holders for short stays.",
+    "languages": [
+      "Dhivehi",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Malta": {
+    "countryName": "Malta",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not obligatory, and leaving a small amount for good service in restaurants and for taxi drivers is common.",
+    "visaInfo": "Visa-free access for most Western passport holders as Malta is part of the Schengen Area, typically allowing stays up to 90 days.",
+    "languages": [
+      "Maltese",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Martinique": {
+    "countryName": "Martinique",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type E"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "15",
+    "tippingNorm": "Tipping is not widely customary but small tips are appreciated for good service.",
+    "visaInfo": "As a French overseas territory, most Western passport holders can enter visa-free, similar to mainland France and EU Schengen rules.",
+    "languages": [
+      "French",
+      "Antillean Creole"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Mauritius": {
+    "countryName": "Mauritius",
+    "currencyName": "Mauritian Rupee",
+    "currencyCode": "MUR",
+    "currencySymbol": "₨",
+    "plugTypes": [
+      "Type C",
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated but not obligatory, and is commonly practiced in tourist-facing hospitality settings.",
+    "visaInfo": "Visa-free entry is available for most Western passport holders for stays up to a certain period, typically around 60 to 90 days.",
+    "languages": [
+      "English",
+      "French",
+      "Mauritian Creole"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Mexico": {
+    "countryName": "Mexico",
+    "currencyName": "Mexican Peso",
+    "currencyCode": "MXN",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "127V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is widely expected and considered an important part of service workers' income across restaurants, hotels, and tours.",
+    "visaInfo": "Most Western passport holders can enter Mexico visa-free for tourism for up to 180 days.",
+    "languages": [
+      "Spanish"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Monaco": {
+    "countryName": "Monaco",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type E",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not obligatory, though it is common practice in upscale restaurants and hotels.",
+    "visaInfo": "Monaco follows Schengen Area rules, so most Western passport holders can enter visa-free for up to 90 days within a 180-day period.",
+    "languages": [
+      "French"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Montenegro": {
+    "countryName": "Montenegro",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, and leaving a small tip for good service is considered a kind gesture.",
+    "visaInfo": "Most Western passport holders can enter Montenegro visa-free for short stays, typically up to 90 days.",
+    "languages": [
+      "Montenegrin",
+      "Serbian"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Morocco": {
+    "countryName": "Morocco",
+    "currencyName": "Moroccan Dirham",
+    "currencyCode": "MAD",
+    "currencySymbol": "د.م.",
+    "plugTypes": [
+      "Type C",
+      "Type E"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "19",
+    "tippingNorm": "Tipping is widely expected in Morocco, particularly for guides, drivers, restaurant staff, and hospitality workers.",
+    "visaInfo": "Most Western passport holders can enter Morocco visa-free for up to 90 days.",
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Myanmar": {
+    "countryName": "Myanmar",
+    "currencyName": "Myanmar Kyat",
+    "currencyCode": "MMK",
+    "currencySymbol": "K",
+    "plugTypes": [
+      "Type A",
+      "Type C",
+      "Type D",
+      "Type F",
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is not traditionally customary in Myanmar but is increasingly appreciated in tourist areas and hospitality settings.",
+    "visaInfo": "Visa requirements for Myanmar vary and travelers should check current entry requirements, as policies have changed in recent years due to political circumstances.",
+    "languages": [
+      "Burmese"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Namibia": {
+    "countryName": "Namibia",
+    "currencyName": "Namibian Dollar",
+    "currencyCode": "NAD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type D",
+      "Type M"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "10111",
+    "tippingNorm": "Tipping is customary and widely appreciated in Namibia, especially in lodges, restaurants, and for safari guides.",
+    "visaInfo": "Most Western passport holders can enter Namibia visa-free for stays typically up to 90 days.",
+    "languages": [
+      "English",
+      "Afrikaans"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Nepal": {
+    "countryName": "Nepal",
+    "currencyName": "Nepalese Rupee",
+    "currencyCode": "NPR",
+    "currencySymbol": "₨",
+    "plugTypes": [
+      "Type C",
+      "Type D",
+      "Type M"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "100",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, and is a common and welcome gesture in tourist-oriented services and trekking contexts.",
+    "visaInfo": "Most Western passport holders require a visa for Nepal, which is available on arrival at major entry points or in advance online.",
+    "languages": [
+      "Nepali",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Netherlands": {
+    "countryName": "Netherlands",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not obligatory, and rounding up the bill or leaving a modest tip for good service is common practice.",
+    "visaInfo": "As a Schengen Area member, most Western passport holders can enter the Netherlands visa-free for up to 90 days within a 180-day period.",
+    "languages": [
+      "Dutch",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "New Caledonia": {
+    "countryName": "New Caledonia",
+    "currencyName": "CFP Franc",
+    "currencyCode": "XPF",
+    "currencySymbol": "Fr",
+    "plugTypes": [
+      "Type E"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "15",
+    "tippingNorm": "Tipping is not customary and is generally not expected in New Caledonia.",
+    "visaInfo": "Most Western passport holders can enter visa-free for short stays as it is a French territory.",
+    "languages": [
+      "French",
+      "Kanak languages"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "New Zealand": {
+    "countryName": "New Zealand",
+    "currencyName": "New Zealand Dollar",
+    "currencyCode": "NZD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type I"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "111",
+    "tippingNorm": "Tipping is not customary in New Zealand, though it is occasionally appreciated for exceptional service.",
+    "visaInfo": "Most Western passport holders can enter visa-free or with an electronic travel authority for short stays, though an NZeTA may be required.",
+    "languages": [
+      "English",
+      "Māori"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Nigeria": {
+    "countryName": "Nigeria",
+    "currencyName": "Nigerian Naira",
+    "currencyCode": "NGN",
+    "currencySymbol": "₦",
+    "plugTypes": [
+      "Type D",
+      "Type G"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "199",
+    "tippingNorm": "Tipping is appreciated and commonly practiced in Nigeria, particularly in restaurants and for service workers.",
+    "visaInfo": "Most Western passport holders require a visa to enter Nigeria, which can often be obtained in advance or via an e-visa system.",
+    "languages": [
+      "English",
+      "Hausa",
+      "Yoruba",
+      "Igbo"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Norway": {
+    "countryName": "Norway",
+    "currencyName": "Norwegian Krone",
+    "currencyCode": "NOK",
+    "currencySymbol": "kr",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not strictly expected in Norway, as service charges are often included.",
+    "visaInfo": "Most Western passport holders can enter Norway visa-free for short stays as it is part of the Schengen Area.",
+    "languages": [
+      "Norwegian",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Oman": {
+    "countryName": "Oman",
+    "currencyName": "Omani Rial",
+    "currencyCode": "OMR",
+    "currencySymbol": "ر.ع.",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "9999",
+    "tippingNorm": "Tipping is appreciated in Oman, particularly in hotels and restaurants, though it is not strictly obligatory.",
+    "visaInfo": "Most Western passport holders can obtain a visa on arrival or an e-visa for short stays in Oman.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Palau": {
+    "countryName": "Palau",
+    "currencyName": "United States Dollar",
+    "currencyCode": "USD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated in Palau, particularly for dive guides and hospitality staff, though it is not strictly expected.",
+    "visaInfo": "Most Western passport holders can enter Palau visa-free for short stays.",
+    "languages": [
+      "Palauan",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Panama": {
+    "countryName": "Panama",
+    "currencyName": "Panamanian Balboa / United States Dollar",
+    "currencyCode": "PAB",
+    "currencySymbol": "B/.",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and commonly expected in Panama, especially in tourist-oriented restaurants and for guides.",
+    "visaInfo": "Most Western passport holders can enter Panama visa-free for short stays.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Peru": {
+    "countryName": "Peru",
+    "currencyName": "Peruvian Sol",
+    "currencyCode": "PEN",
+    "currencySymbol": "S/",
+    "plugTypes": [
+      "Type A",
+      "Type B",
+      "Type C"
+    ],
+    "voltage": "220V / 60Hz",
+    "emergencyNumber": "105",
+    "tippingNorm": "Tipping is appreciated in Peru, particularly in restaurants and for tour guides, though it is not always expected.",
+    "visaInfo": "Most Western passport holders can enter Peru visa-free for short stays.",
+    "languages": [
+      "Spanish",
+      "Quechua"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Philippines": {
+    "countryName": "Philippines",
+    "currencyName": "Philippine Peso",
+    "currencyCode": "PHP",
+    "currencySymbol": "₱",
+    "plugTypes": [
+      "Type A",
+      "Type B",
+      "Type C"
+    ],
+    "voltage": "220V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and commonly practiced in the Philippines, especially in restaurants and for service staff.",
+    "visaInfo": "Most Western passport holders can enter the Philippines visa-free for short stays.",
+    "languages": [
+      "Filipino",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Poland": {
+    "countryName": "Poland",
+    "currencyName": "Polish Złoty",
+    "currencyCode": "PLN",
+    "currencySymbol": "zł",
+    "plugTypes": [
+      "Type C",
+      "Type E"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated and becoming more common in Poland, particularly in restaurants and for taxi drivers.",
+    "visaInfo": "Most Western passport holders can enter Poland visa-free for short stays as it is part of the Schengen Area.",
+    "languages": [
+      "Polish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Portugal": {
+    "countryName": "Portugal",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not expected, and rounding up the bill or leaving small change is common practice.",
+    "visaInfo": "Visa-free for most Western passport holders for up to 90 days within the Schengen Area.",
+    "languages": [
+      "Portuguese"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Puerto Rico": {
+    "countryName": "Puerto Rico",
+    "currencyName": "US Dollar",
+    "currencyCode": "USD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is widely expected in restaurants, hotels, and for services, consistent with mainland US customs.",
+    "visaInfo": "US territory, so US citizens enter freely; other Western passport holders follow standard US entry requirements.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Qatar": {
+    "countryName": "Qatar",
+    "currencyName": "Qatari Riyal",
+    "currencyCode": "QAR",
+    "currencySymbol": "ر.ق",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated but not obligatory, and it is becoming more common in tourist-facing establishments.",
+    "visaInfo": "Visa-free or visa-on-arrival for most Western passport holders for short stays.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Reunion": {
+    "countryName": "Reunion",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type E"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is not widely expected but is appreciated for good service in restaurants and for guides.",
+    "visaInfo": "As a French overseas territory, EU citizens enter freely; other Western passport holders generally do not require a visa for short stays.",
+    "languages": [
+      "French",
+      "Reunionese Creole"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Romania": {
+    "countryName": "Romania",
+    "currencyName": "Romanian Leu",
+    "currencyCode": "RON",
+    "currencySymbol": "lei",
+    "plugTypes": [
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is customary and appreciated in restaurants, taxis, and for personal services.",
+    "visaInfo": "Visa-free for most Western passport holders for up to 90 days within the Schengen Area.",
+    "languages": [
+      "Romanian",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Rwanda": {
+    "countryName": "Rwanda",
+    "currencyName": "Rwandan Franc",
+    "currencyCode": "RWF",
+    "currencySymbol": "Fr",
+    "plugTypes": [
+      "Type C",
+      "Type J"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not obligatory, and it is becoming more common in tourist areas and upscale establishments.",
+    "visaInfo": "Visa-free or visa-on-arrival for most Western passport holders, with Rwanda operating an open visa policy for many nationalities.",
+    "languages": [
+      "Kinyarwanda",
+      "English",
+      "French"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Saint Barthelemy": {
+    "countryName": "Saint Barthelemy",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type A",
+      "Type B",
+      "Type E"
+    ],
+    "voltage": "220V / 60Hz",
+    "emergencyNumber": "15",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, reflecting a blend of French and Caribbean customs.",
+    "visaInfo": "As a French overseas collectivity, EU citizens enter freely; most Western passport holders do not require a visa for short stays.",
+    "languages": [
+      "French",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Saint Kitts and Nevis": {
+    "countryName": "Saint Kitts and Nevis",
+    "currencyName": "East Caribbean Dollar",
+    "currencyCode": "XCD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B",
+      "Type D"
+    ],
+    "voltage": "230V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and commonly expected in restaurants and for hospitality services.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays.",
+    "languages": [
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Saint Lucia": {
+    "countryName": "Saint Lucia",
+    "currencyName": "East Caribbean Dollar",
+    "currencyCode": "XCD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and commonly expected in tourist-facing establishments, especially where a service charge is not already included.",
+    "visaInfo": "Visa-free for most Western passport holders for short stays.",
+    "languages": [
+      "English",
+      "Saint Lucian Creole"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Samoa": {
+    "countryName": "Samoa",
+    "currencyName": "Samoan Tālā",
+    "currencyCode": "WST",
+    "currencySymbol": "T",
+    "plugTypes": [
+      "Type I"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "994",
+    "tippingNorm": "Tipping is not a strong local tradition and is generally not expected, though it is appreciated for exceptional service.",
+    "visaInfo": "Visa-free or visa-on-arrival for most Western passport holders for short stays.",
+    "languages": [
+      "Samoan",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Saudi Arabia": {
+    "countryName": "Saudi Arabia",
+    "currencyName": "Saudi Riyal",
+    "currencyCode": "SAR",
+    "currencySymbol": "﷼",
+    "plugTypes": [
+      "Type A",
+      "Type B",
+      "Type G"
+    ],
+    "voltage": "220V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated but not widely expected, though it is becoming more common in tourist and hospitality settings.",
+    "visaInfo": "Most Western passport holders can obtain a tourist e-visa or visa on arrival, making access relatively straightforward for leisure travel.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Senegal": {
+    "countryName": "Senegal",
+    "currencyName": "West African CFA Franc",
+    "currencyCode": "XOF",
+    "currencySymbol": "Fr",
+    "plugTypes": [
+      "Type C",
+      "Type D"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "17",
+    "tippingNorm": "Tipping is appreciated and considered a kind gesture, particularly in restaurants and for guides, though it is not strictly expected.",
+    "visaInfo": "Many Western passport holders, including US, UK, EU, Canadian, and Australian citizens, can enter Senegal visa-free for short stays.",
+    "languages": [
+      "French",
+      "Wolof"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Serbia": {
+    "countryName": "Serbia",
+    "currencyName": "Serbian Dinar",
+    "currencyCode": "RSD",
+    "currencySymbol": "din",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated in restaurants and for services, and it is customary to round up or leave a small amount for good service.",
+    "visaInfo": "Most Western passport holders can visit Serbia visa-free for stays of up to 90 days.",
+    "languages": [
+      "Serbian",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Seychelles": {
+    "countryName": "Seychelles",
+    "currencyName": "Seychellois Rupee",
+    "currencyCode": "SCR",
+    "currencySymbol": "₨",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated but not obligatory, and a small gratuity for good service is warmly received.",
+    "visaInfo": "All nationalities, including Western passport holders, receive a free visitor permit on arrival, making entry straightforward.",
+    "languages": [
+      "Seychellois Creole",
+      "English",
+      "French"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Singapore": {
+    "countryName": "Singapore",
+    "currencyName": "Singapore Dollar",
+    "currencyCode": "SGD",
+    "currencySymbol": "S$",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is generally not expected or customary, and a service charge is often already included in restaurant bills.",
+    "visaInfo": "Most Western passport holders can enter Singapore visa-free for stays of up to 30 or 90 days depending on nationality.",
+    "languages": [
+      "English",
+      "Mandarin",
+      "Malay",
+      "Tamil"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Slovakia": {
+    "countryName": "Slovakia",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type E"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated and it is common practice to round up the bill or leave a small gratuity for good service.",
+    "visaInfo": "EU citizens can enter freely, and most other Western passport holders can visit visa-free for up to 90 days within the Schengen Area.",
+    "languages": [
+      "Slovak",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Slovenia": {
+    "countryName": "Slovenia",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated for good service in restaurants and taxis, though it is not strictly required.",
+    "visaInfo": "EU citizens can enter freely, and most other Western passport holders can visit visa-free for up to 90 days within the Schengen Area.",
+    "languages": [
+      "Slovenian",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "South Africa": {
+    "countryName": "South Africa",
+    "currencyName": "South African Rand",
+    "currencyCode": "ZAR",
+    "currencySymbol": "R",
+    "plugTypes": [
+      "Type M",
+      "Type N",
+      "Type C"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is widely expected and considered an important part of service culture, particularly in restaurants, for guides, and in hospitality.",
+    "visaInfo": "Most Western passport holders, including US, UK, EU, Canadian, and Australian citizens, can enter South Africa visa-free for short stays.",
+    "languages": [
+      "Zulu",
+      "Xhosa",
+      "Afrikaans",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "South Korea": {
+    "countryName": "South Korea",
+    "currencyName": "South Korean Won",
+    "currencyCode": "KRW",
+    "currencySymbol": "₩",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "220V / 60Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is not customary and can sometimes be considered awkward or unnecessary, as good service is considered standard.",
+    "visaInfo": "Most Western passport holders can enter South Korea visa-free for stays typically ranging from 30 to 90 days depending on nationality.",
+    "languages": [
+      "Korean",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Spain": {
+    "countryName": "Spain",
+    "currencyName": "Euro",
+    "currencyCode": "EUR",
+    "currencySymbol": "€",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated but not obligatory, and leaving a small amount for good service in restaurants and bars is a common courtesy.",
+    "visaInfo": "EU citizens can enter freely, and most other Western passport holders can visit visa-free for up to 90 days within the Schengen Area.",
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Sri Lanka": {
+    "countryName": "Sri Lanka",
+    "currencyName": "Sri Lankan Rupee",
+    "currencyCode": "LKR",
+    "currencySymbol": "₨",
+    "plugTypes": [
+      "Type D",
+      "Type G",
+      "Type M"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "119",
+    "tippingNorm": "Tipping is appreciated but not expected, and small gestures are welcomed in tourist-facing services.",
+    "visaInfo": "Most Western passport holders require an Electronic Travel Authorization (ETA) obtained online before arrival.",
+    "languages": [
+      "Sinhala",
+      "Tamil",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Sweden": {
+    "countryName": "Sweden",
+    "currencyName": "Swedish Krona",
+    "currencyCode": "SEK",
+    "currencySymbol": "kr",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is not customary but rounding up the bill or leaving a small tip is appreciated in restaurants.",
+    "visaInfo": "Visa-free for most Western passport holders as part of the Schengen Area, typically up to 90 days.",
+    "languages": [
+      "Swedish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Switzerland": {
+    "countryName": "Switzerland",
+    "currencyName": "Swiss Franc",
+    "currencyCode": "CHF",
+    "currencySymbol": "Fr",
+    "plugTypes": [
+      "Type J"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is not obligatory as service is generally included, but rounding up the bill is a common courtesy.",
+    "visaInfo": "Visa-free for most Western passport holders as part of the Schengen Area, typically up to 90 days.",
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Taiwan": {
+    "countryName": "Taiwan",
+    "currencyName": "New Taiwan Dollar",
+    "currencyCode": "TWD",
+    "currencySymbol": "NT$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "110V / 60Hz",
+    "emergencyNumber": "110",
+    "tippingNorm": "Tipping is not customary in Taiwan and is generally not expected in most situations.",
+    "visaInfo": "Visa-free entry is available for most Western passport holders for a limited stay, though conditions vary by passport.",
+    "languages": [
+      "Mandarin Chinese",
+      "Taiwanese Hokkien",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Tanzania": {
+    "countryName": "Tanzania",
+    "currencyName": "Tanzanian Shilling",
+    "currencyCode": "TZS",
+    "currencySymbol": "Sh",
+    "plugTypes": [
+      "Type D",
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is widely expected in tourist areas, particularly for safari guides, lodge staff, and drivers.",
+    "visaInfo": "Most Western passport holders can obtain a visa on arrival or an e-visa prior to travel.",
+    "languages": [
+      "Swahili",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Thailand": {
+    "countryName": "Thailand",
+    "currencyName": "Thai Baht",
+    "currencyCode": "THB",
+    "currencySymbol": "฿",
+    "plugTypes": [
+      "Type A",
+      "Type B",
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "191",
+    "tippingNorm": "Tipping is appreciated and has become common in tourist areas, especially in restaurants, hotels, and for guides.",
+    "visaInfo": "Most Western passport holders can enter visa-free for a limited period, though the exact duration may vary.",
+    "languages": [
+      "Thai",
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Trinidad and Tobago": {
+    "countryName": "Trinidad and Tobago",
+    "currencyName": "Trinidad and Tobago Dollar",
+    "currencyCode": "TTD",
+    "currencySymbol": "TT$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "115V / 60Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated and commonly practiced in restaurants and for service staff in tourist areas.",
+    "visaInfo": "Visa-free entry is available for most Western passport holders for a limited stay.",
+    "languages": [
+      "English",
+      "Trinidad English Creole"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Tunisia": {
+    "countryName": "Tunisia",
+    "currencyName": "Tunisian Dinar",
+    "currencyCode": "TND",
+    "currencySymbol": "DT",
+    "plugTypes": [
+      "Type C",
+      "Type E"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "197",
+    "tippingNorm": "Tipping is appreciated and commonly expected in tourist-facing services such as restaurants, guides, and hotels.",
+    "visaInfo": "Visa-free entry is available for most Western passport holders for a limited stay.",
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Turkey": {
+    "countryName": "Turkey",
+    "currencyName": "Turkish Lira",
+    "currencyCode": "TRY",
+    "currencySymbol": "₺",
+    "plugTypes": [
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is appreciated and commonly practiced in restaurants, hotels, and for tour guides.",
+    "visaInfo": "Visa requirements vary by passport — some Western passport holders can enter visa-free while others require an e-Visa obtained before travel.",
+    "languages": [
+      "Turkish",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Turks and Caicos": {
+    "countryName": "Turks and Caicos",
+    "currencyName": "United States Dollar",
+    "currencyCode": "USD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is expected and widely practiced in restaurants, hotels, and for service staff throughout the islands.",
+    "visaInfo": "Visa-free entry is available for most Western passport holders for a limited stay as a British Overseas Territory.",
+    "languages": [
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "US Virgin Islands": {
+    "countryName": "US Virgin Islands",
+    "currencyName": "United States Dollar",
+    "currencyCode": "USD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "110V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is widely expected and customary, consistent with mainland US norms.",
+    "visaInfo": "As a US territory, US citizens do not need a passport; other Western passport holders generally follow US entry requirements.",
+    "languages": [
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Uganda": {
+    "countryName": "Uganda",
+    "currencyName": "Ugandan Shilling",
+    "currencyCode": "UGX",
+    "currencySymbol": "USh",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "240V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated but not strictly expected, and is becoming more common in tourist areas.",
+    "visaInfo": "Most Western passport holders can obtain a visa on arrival or apply for an e-visa prior to travel.",
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "United Arab Emirates": {
+    "countryName": "United Arab Emirates",
+    "currencyName": "UAE Dirham",
+    "currencyCode": "AED",
+    "currencySymbol": "د.إ",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated and commonly practiced in restaurants and for service staff, though not always mandatory.",
+    "visaInfo": "Most Western passport holders receive visa-free or visa-on-arrival entry for short stays.",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "United Kingdom": {
+    "countryName": "United Kingdom",
+    "currencyName": "British Pound Sterling",
+    "currencyCode": "GBP",
+    "currencySymbol": "£",
+    "plugTypes": [
+      "Type G"
+    ],
+    "voltage": "230V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is customary in restaurants and for certain services, though it is generally left to the customer's discretion.",
+    "visaInfo": "EU, US, Canadian, and Australian passport holders can visit visa-free for short stays, though entry requirements have changed post-Brexit for some nationalities.",
+    "languages": [
+      "English"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "United States": {
+    "countryName": "United States",
+    "currencyName": "United States Dollar",
+    "currencyCode": "USD",
+    "currencySymbol": "$",
+    "plugTypes": [
+      "Type A",
+      "Type B"
+    ],
+    "voltage": "120V / 60Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is widely expected and considered a standard part of the service culture across restaurants, hospitality, and transport.",
+    "visaInfo": "Many Western passport holders can enter under the Visa Waiver Program with prior electronic authorization, while others may require a visa.",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Uruguay": {
+    "countryName": "Uruguay",
+    "currencyName": "Uruguayan Peso",
+    "currencyCode": "UYU",
+    "currencySymbol": "$U",
+    "plugTypes": [
+      "Type C",
+      "Type F",
+      "Type L"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "911",
+    "tippingNorm": "Tipping is appreciated and commonly practiced in restaurants and for service staff, though not obligatory.",
+    "visaInfo": "Most Western passport holders can enter Uruguay visa-free for short tourist stays.",
+    "languages": [
+      "Spanish"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Vanuatu": {
+    "countryName": "Vanuatu",
+    "currencyName": "Vanuatu Vatu",
+    "currencyCode": "VUV",
+    "currencySymbol": "Vt",
+    "plugTypes": [
+      "Type I"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "112",
+    "tippingNorm": "Tipping is not a strong local tradition and is generally not expected, though it is appreciated for exceptional service.",
+    "visaInfo": "Most Western passport holders can enter Vanuatu visa-free for short stays.",
+    "languages": [
+      "Bislama",
+      "English",
+      "French"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Vietnam": {
+    "countryName": "Vietnam",
+    "currencyName": "Vietnamese Dong",
+    "currencyCode": "VND",
+    "currencySymbol": "₫",
+    "plugTypes": [
+      "Type A",
+      "Type C",
+      "Type F"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "113",
+    "tippingNorm": "Tipping is not traditionally customary but is increasingly appreciated in tourist areas, hotels, and restaurants.",
+    "visaInfo": "Many Western passport holders are eligible for e-visa or visa-on-arrival entry, with some nationalities receiving short visa-free stays.",
+    "languages": [
+      "Vietnamese",
+      "English"
+    ],
+    "drivingSide": "right",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  },
+  "Zimbabwe": {
+    "countryName": "Zimbabwe",
+    "currencyName": "Zimbabwe Gold",
+    "currencyCode": "ZiG",
+    "currencySymbol": "ZiG",
+    "plugTypes": [
+      "Type D",
+      "Type G"
+    ],
+    "voltage": "220V / 50Hz",
+    "emergencyNumber": "999",
+    "tippingNorm": "Tipping is appreciated and commonly expected in tourist-facing services such as restaurants, lodges, and guided tours.",
+    "visaInfo": "Many Western passport holders can obtain a visa on arrival or a KAZA UniVisa, though requirements vary by nationality.",
+    "languages": [
+      "English",
+      "Shona",
+      "Ndebele"
+    ],
+    "drivingSide": "left",
+    "_meta": {
+      "dataVersion": "2026-Q1",
+      "lastVerified": "2026-02-20",
+      "lastUpdated": "2026-02-20",
+      "generatedBy": "script-v1",
+      "reviewStatus": "auto-generated"
+    }
+  }
+}

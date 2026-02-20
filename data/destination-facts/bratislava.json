@@ -1,0 +1,115 @@
+{
+  "destinationId": "bratislava",
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "transportAdvice": "Bratislava's compact old town is very walkable, with most major attractions reachable on foot; the city also has a reliable network of trams, buses, and trolleybuses that connect tourist areas to wider neighborhoods. Taxis are widely available and metered, though agreeing on a fare or using a metered cab from a reputable rank is advisable.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often grey with occasional snow, making it the quietest month for tourism but atmospheric for winter walks."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with possible snow and frost, though daylight hours begin to lengthen noticeably."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild days and occasional showers, with the city starting to come alive outdoors."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and increasingly warm with blooming parks, though rain showers remain common throughout the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the best months to visit, with warm temperatures, green scenery, and lively outdoor café culture."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and sunny with occasional thunderstorms, ideal for exploring the old town and riverside areas."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The hottest month, with long sunny days and a vibrant outdoor atmosphere, though afternoon storms are possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similarly hot to July with plenty of sunshine, making it peak season for outdoor sightseeing and river activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with fewer crowds and the start of harvest season in the surrounding wine region."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp and colourful with autumn foliage, cooler evenings, and a relaxed pace as the tourist season winds down."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and often overcast with increasing rain, though the city's Christmas markets begin to open late in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and festive, with charming Christmas markets in the old town making it a popular and atmospheric time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

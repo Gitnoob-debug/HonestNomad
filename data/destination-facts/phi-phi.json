@@ -1,0 +1,115 @@
+{
+  "destinationId": "phi-phi",
+  "city": "Phi Phi Islands",
+  "country": "Thailand",
+  "transportAdvice": "The islands have no roads or motorized land vehicles, making everything within the main village on Koh Phi Phi Don accessible on foot. Inter-island and mainland connections rely entirely on ferries and longtail boats, which are widely available for hire or scheduled service.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with calm seas, making January one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Sunny and dry with excellent visibility for snorkeling and diving."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry, with long sunny days and calm water conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Very hot with occasional brief showers, still generally good beach weather."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The wet season begins with increasing rain and rougher seas; some boat services reduce."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy monsoon rains arrive, with rough seas and limited ferry connections."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon month with frequent heavy rain and strong swells; many businesses close."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rain and choppy seas; travel to the islands can be disrupted."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in monsoon season with persistent rain and limited tourist activity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease but seas remain unsettled; the islands start reopening gradually."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions improve noticeably as the dry season approaches and tourist services resume."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasant with calm seas, marking the start of peak tourist season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "zhangjiajie",
+  "city": "Zhangjiajie",
+  "country": "China",
+  "transportAdvice": "Public buses connect the city center to major scenic areas including the national park, and taxis are widely available and affordable for getting around. Walking within the park itself is essential as the terrain is mountainous, though cable cars, elevators, and shuttle buses operate within the scenic zones.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and occasionally misty with possible frost, but the dramatic fog-shrouded pillars can be especially atmospheric in winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with lingering winter conditions and occasional rain, though the landscape can look stunning with low cloud cover."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and increasing greenery, though rain becomes more frequent as the season shifts."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warm and lush with frequent rain showers, making the forest vibrant but trails potentially slippery."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warm and humid with regular rainfall, the park is deeply green and waterfalls are at their most impressive."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very humid with heavy rain common, expect crowded trails and lush but wet conditions throughout."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer heat with high humidity and frequent afternoon thunderstorms, the busiest and most challenging month for hiking."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Remains hot and humid with continued heavy rainfall, though the scenery is intensely green and dramatic."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease and rain decreases, making this one of the more comfortable months to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings cooler, clearer days and golden foliage, widely considered one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and increasingly dry with good visibility and fewer crowds, a pleasant time for hiking the scenic areas."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold and quiet with low visitor numbers, occasional mist and frost add a serene quality to the pillar landscape."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

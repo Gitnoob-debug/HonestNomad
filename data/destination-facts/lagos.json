@@ -1,0 +1,115 @@
+{
+  "destinationId": "lagos",
+  "city": "Lagos",
+  "country": "Nigeria",
+  "transportAdvice": "Lagos has a bus rapid transit system and a water ferry network connecting key areas, but traffic congestion is severe and walking is generally impractical outside specific neighborhoods. Taxis and ride-hailing vehicles are widely available, though visitors should arrange transport through trusted sources and avoid unmarked vehicles.",
+  "safetyLevel": "exercise-increased-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with harmattan haze reducing visibility and bringing dusty air from the Sahara."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry, though humidity begins to rise as the harmattan season winds down."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat intensifies and early rains begin to arrive, making conditions increasingly humid."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season gets underway with frequent afternoon downpours and persistently high humidity."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months, with heavy rainfall and occasional flooding in low-lying areas."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season brings overcast skies, frequent heavy showers, and cooler temperatures."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Consistently wet and overcast with the heaviest cumulative rainfall of the year."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainfall remains heavy and skies stay grey, though a brief dry spell sometimes occurs mid-month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain continues at a high level as the second peak of the wet season approaches."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very wet with frequent storms, though rainfall begins to taper toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains ease considerably and temperatures rise again as the dry season begins to establish itself."
+    },
+    {
+      "month": 12,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and warm with returning harmattan conditions, making it one of the more comfortable months to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

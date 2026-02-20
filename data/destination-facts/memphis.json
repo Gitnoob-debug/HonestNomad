@@ -1,0 +1,115 @@
+{
+  "destinationId": "memphis",
+  "city": "Memphis",
+  "country": "United States",
+  "transportAdvice": "Memphis has a limited public bus network that does not comprehensively cover tourist areas, so most visitors rely on taxis, rental cars, or rideshare services to get around; the main tourist strip along Beale Street is walkable, but the broader city is not pedestrian-friendly.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and occasionally wet with possible frost, making it the chilliest month of the year."
+    },
+    {
+      "month": 2,
+      "avgHighC": 12,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with frequent rain showers and occasional wintry mix possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to warm noticeably but spring storms and rain are common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Pleasant warming temperatures but April brings some of the highest rainfall of the year."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly humid with a mix of sunny days and afternoon thunderstorms."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with long sunny days and occasional heavy thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 35,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with oppressive humidity and frequent afternoon storms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 35,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Remains intensely hot and humid, very similar to July with little relief overnight."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Heat begins to ease slightly and rainfall decreases, making it a more comfortable month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Crisp and pleasant autumn weather with low rainfall and comfortable temperatures."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with increasing cloud cover and occasional rain as winter approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and damp with a chance of frost or light snow, typical of a mid-South winter."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "ha-long-bay",
+  "city": "Ha Long Bay",
+  "country": "Vietnam",
+  "transportAdvice": "Ha Long Bay is primarily accessed by road from Hanoi, a journey of roughly 3.5 to 4 hours by bus or private transfer, with public buses available but most visitors opting for organized transfers. Once at the bay, travel is almost entirely by boat, and walking is only practical within the small town of Bai Chay; taxis and motorbike taxis are available for local land transport.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with occasional mist over the karsts, making for atmospheric but chilly cruising conditions."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still cool and relatively dry, with misty mornings common and comfortable daytime temperatures for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 22,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and skies gradually clear, offering pleasant conditions for bay cruises."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming noticeably with occasional light showers beginning, but generally good visibility and comfortable weather."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and increasingly humid with the rainy season approaching, though sunny spells are still common."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer heat with frequent heavy rain and the possibility of tropical storms affecting bay access."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest and hottest month, with typhoon risk meaning some cruises may be cancelled or rerouted."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and high typhoon risk; travelers should monitor weather forecasts closely."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward month end but storms remain possible and humidity stays high."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with decreasing rainfall and more stable conditions returning to the bay."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cooler and drier weather returns, considered one of the better months for visiting with clear skies and calm seas."
+    },
+    {
+      "month": 12,
+      "avgHighC": 19,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with crisp air and good visibility, though mist can add a dramatic quality to the limestone scenery."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

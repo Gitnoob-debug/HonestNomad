@@ -1,0 +1,115 @@
+{
+  "destinationId": "houston",
+  "city": "Houston",
+  "country": "United States",
+  "transportAdvice": "Houston is a sprawling, car-dependent city where walking between attractions is generally impractical; renting a car or using taxis and ride-hailing services is the most convenient way to get around. A light rail system and bus network exist but offer limited coverage of tourist areas, so most visitors rely on private transportation.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and occasionally cool with some rainy days; light layers are advisable."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to warm slightly but cold fronts can still bring chilly spells."
+    },
+    {
+      "month": 3,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with pleasant warmth and increasing rainfall; a comfortable time to visit."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warm and increasingly humid with frequent thunderstorms typical of spring in the Gulf region."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and muggy with heavy rain showers common; outdoor activities are best planned for mornings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Very hot and humid; air conditioning is essential and heat can feel intense outdoors."
+    },
+    {
+      "month": 7,
+      "avgHighC": 36,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak summer heat with oppressive humidity; expect temperatures to feel significantly hotter than the thermometer reads."
+    },
+    {
+      "month": 8,
+      "avgHighC": 36,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Equally hot and humid as July; the height of hurricane season warrants monitoring weather forecasts."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very warm and humid with elevated storm risk; tropical weather systems can bring heavy rainfall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures become more comfortable as autumn sets in; one of the more pleasant months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and generally agreeable with cooler evenings; a good time for outdoor exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally cold with some rain; light to medium winter clothing is recommended."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

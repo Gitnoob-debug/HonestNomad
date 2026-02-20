@@ -1,0 +1,115 @@
+{
+  "destinationId": "lake-tahoe",
+  "city": "Lake Tahoe",
+  "country": "United States",
+  "transportAdvice": "Lake Tahoe has limited public bus service connecting some resort towns and communities around the lake, but a car is strongly recommended as walking between attractions is generally impractical given the spread-out nature of the region. Taxis and ride-hail services are available but can be scarce outside peak seasons, so arranging transport in advance is advisable.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold winter month with frequent snowfall, ideal for skiing but expect icy roads and limited accessibility."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Peak ski season continues with heavy snow possible and cold temperatures throughout the region."
+    },
+    {
+      "month": 3,
+      "avgHighC": 7,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Late winter brings variable conditions with some sunny days mixed with significant snowstorms."
+    },
+    {
+      "month": 4,
+      "avgHighC": 10,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Spring begins with melting snow at lower elevations but cold nights and possible late-season storms remain."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and pleasant with snow receding, trails beginning to open and the lake becoming more accessible."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Early summer brings warm days and cool nights, with outdoor activities ramping up and crowds beginning to arrive."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer month with warm sunny days, ideal for swimming, hiking, and water sports on the lake."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with the busiest tourist crowds, excellent conditions for all outdoor and water activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crowds thin out and temperatures remain pleasant, making this one of the most enjoyable months to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 16,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Autumn colors appear around the lake with cooler temperatures and the first possibility of early snowfall at elevation."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Winter approaches with cold temperatures, early snowfall, and ski resorts beginning to prepare for the season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold and snowy with ski season underway, festive atmosphere in resort towns but travel can be challenging."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

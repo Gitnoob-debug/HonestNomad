@@ -1,0 +1,115 @@
+{
+  "destinationId": "nagoya",
+  "city": "Nagoya",
+  "country": "Japan",
+  "transportAdvice": "Nagoya has an efficient subway and bus network that connects major tourist attractions, making public transit the most practical way to get around; taxis are widely available but more expensive. Walking is feasible within central districts, though the city is spread out enough that transit is recommended for reaching outlying sights.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry winter days with occasional frost, but snowfall is infrequent and skies are often clear."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold with crisp air, though late February can bring the first hints of approaching spring."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and early cherry blossoms may appear toward month's end, with occasional rain showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with cherry blossoms in full bloom early in the month and comfortable sightseeing conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny, one of the most enjoyable months to visit before summer heat and humidity set in."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season brings frequent overcast skies and persistent rainfall, making waterproof gear essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and very humid with intense heat; the rainy season typically ends mid-month but muggy conditions persist."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with oppressive heat and humidity; stay hydrated and seek air-conditioned spaces."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Typhoon season peaks and heavy rain is possible; temperatures remain warm and humidity stays elevated."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings cooler, comfortable temperatures and beautiful foliage, making this an excellent time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with vivid autumn colors still visible early in the month and pleasant conditions for exploring."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter weather sets in with dry air and occasional frosty nights, though festive illuminations brighten the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

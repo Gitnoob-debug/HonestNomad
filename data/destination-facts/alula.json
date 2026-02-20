@@ -1,0 +1,115 @@
+{
+  "destinationId": "alula",
+  "city": "AlUla",
+  "country": "Saudi Arabia",
+  "transportAdvice": "AlUla's archaeological sites and attractions are spread across a large desert landscape, making walking between major sites impractical; visitors typically rely on organized tour shuttles, hotel transfers, or taxis to get around. Public transit is very limited in the region, so pre-arranging transport through accommodation or tour operators is strongly recommended.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and pleasant with clear skies, making it one of the best months for outdoor exploration."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and comfortable with occasional light breezes, ideal for visiting archaeological sites."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming temperatures with dry conditions and plenty of sunshine throughout the day."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Noticeably hotter with very dry air; early morning visits to outdoor sites are advisable."
+    },
+    {
+      "month": 5,
+      "avgHighC": 40,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense heat sets in, making midday outdoor activity uncomfortable; shade and hydration are essential."
+    },
+    {
+      "month": 6,
+      "avgHighC": 43,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry with long sunny days; outdoor sightseeing is best limited to early morning or evening."
+    },
+    {
+      "month": 7,
+      "avgHighC": 44,
+      "avgLowC": 29,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with extremely high daytime temperatures; most outdoor activity should be avoided midday."
+    },
+    {
+      "month": 8,
+      "avgHighC": 43,
+      "avgLowC": 28,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued intense heat with dry desert conditions; travel during this month requires careful heat management."
+    },
+    {
+      "month": 9,
+      "avgHighC": 39,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to ease slightly but remain very hot; conditions start becoming more manageable toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly warm with cooler evenings, marking the return of favorable conditions for outdoor exploration."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable and mild with clear desert skies, one of the most enjoyable months to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 23,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and crisp with cold nights, offering excellent conditions for daytime sightseeing at heritage sites."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

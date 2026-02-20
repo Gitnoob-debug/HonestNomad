@@ -1,0 +1,115 @@
+{
+  "destinationId": "kathmandu",
+  "city": "Kathmandu",
+  "country": "Nepal",
+  "transportAdvice": "Kathmandu has no metro or tram system; the city relies on local buses, minibuses, and taxis, with taxis being the most practical option for tourists as public buses are crowded and routes can be confusing. The historic core around Thamel and Durbar Square is walkable, but traffic congestion and uneven roads make longer journeys across the city best handled by taxi or hired vehicle.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:45",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny winter days with cold nights and occasional frost in the valley."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Gradually warming with clear skies, making it a pleasant time for sightseeing and trekking."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring begins with warm days, blooming rhododendrons, and excellent mountain visibility."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and hazy with occasional pre-monsoon showers beginning to develop toward month's end."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot and increasingly humid with more frequent afternoon thunderstorms as the monsoon approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon arrives bringing heavy daily rainfall, lush greenery, and reduced mountain visibility."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon month with persistent heavy rain, flooding risk, and very high humidity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy monsoon rains keep the valley green but make outdoor activities challenging."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon begins to ease late in the month, but rain remains frequent and humidity stays high."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Post-monsoon skies clear dramatically, offering some of the best mountain views and ideal trekking conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with crisp air and excellent visibility, one of the most popular months to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter sets in with chilly nights and clear, sunny days ideal for cultural sightseeing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

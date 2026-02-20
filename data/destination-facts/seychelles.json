@@ -1,0 +1,115 @@
+{
+  "destinationId": "seychelles",
+  "city": "Mahe",
+  "country": "Seychelles",
+  "transportAdvice": "Mahe has a public bus network that connects major towns and some tourist areas, though services can be infrequent and routes limited. Taxis are widely available and are the most practical option for reaching beaches and resorts, while walking is only feasible within town centers due to hilly terrain and narrow roads.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with occasional short showers, but generally sunny with calm northwest trade winds making for pleasant beach conditions."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the driest and most settled months, with calm seas and good visibility making it ideal for snorkeling and diving."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with light winds and excellent sea conditions, considered one of the best months to visit."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitional month as trade winds shift, bringing increasing humidity and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The southeast trade winds begin to strengthen, bringing rougher seas on exposed coasts and more overcast skies."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and windier with the southeast trades in full effect, making some beaches choppy but others sheltered and calm."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The coolest month of the year with persistent southeast winds; sheltered west-coast beaches remain swimmable while east-facing shores are rough."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to July with steady trade winds and moderate temperatures; good for hiking and exploring inland nature reserves."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Winds begin to ease toward the end of the month as the transition period approaches, with gradually improving sea conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitional and variable weather with calmer seas returning, though humidity rises and short rain showers become more frequent."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Northwest monsoon begins to establish, bringing warm and humid conditions with occasional heavy downpours, especially in the afternoons."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with the northwest monsoon bringing the highest rainfall of the year, though rain is typically short-lived and sunshine returns quickly."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "kilimanjaro",
+  "city": "Kilimanjaro",
+  "country": "Tanzania",
+  "transportAdvice": "The Kilimanjaro region is not walkable for most tourist purposes, as key sites and the mountain entry points are spread across a wide rural area. Shared minibus taxis (dala-dalas) connect towns locally, but most visitors rely on arranged transfers or private taxis to reach trailheads and lodges.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "moderate",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and relatively dry, making it one of the better months for trekking on the mountain."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and clear with good visibility, considered an excellent month for summit attempts."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The long rains begin to approach, with increasing cloud cover and occasional showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the long rainy season with heavy rainfall, muddy trails, and poor summit visibility."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the long rains, with persistent wet conditions making trekking challenging."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Rains ease off and conditions improve significantly, marking the start of a prime trekking window."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and cool with excellent trail conditions and clear summit views, a peak trekking month."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued dry and clear weather with cool nights at altitude, ideal for climbing."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm days and dry skies make this another excellent month for summit attempts."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Short rains begin to build, with increasing afternoon clouds but generally manageable conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Short rainy season brings frequent showers and reduced visibility on the upper mountain."
+    },
+    {
+      "month": 12,
+      "avgHighC": 25,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains begin to taper toward month's end, with conditions gradually improving for trekking."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

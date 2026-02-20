@@ -1,0 +1,115 @@
+{
+  "destinationId": "santiago",
+  "city": "Santiago",
+  "country": "Chile",
+  "transportAdvice": "Santiago has an extensive metro system that covers most tourist areas and is the fastest way to get around. Buses complement the metro and are well-integrated, while taxis are widely available. The city center is walkable, especially around the historic core and Lastarria neighborhood.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer with hot, dry days and clear skies; perfect for enjoying outdoor dining and nearby vineyards."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still hot and dry with long summer days, ideal for day trips to the coast or Andes."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late summer brings slightly cooler evenings while days remain warm and pleasant."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Autumn arrives with comfortable temperatures and the first occasional rains of the season."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool autumn weather with increasing cloud cover and rain; pack layers for chilly mornings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 14,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The start of winter with cool, rainy days and occasional smog; warm clothing recommended."
+    },
+    {
+      "month": 7,
+      "avgHighC": 14,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Coldest month with the most rainfall; nearby ski resorts in the Andes open for the season."
+    },
+    {
+      "month": 8,
+      "avgHighC": 16,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late winter with gradually warming conditions, though rain persists through the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and blooming parks; rain decreases noticeably."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring weather with clear skies and comfortable temperatures for outdoor exploration."
+    },
+    {
+      "month": 11,
+      "avgHighC": 26,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm late spring with long days and low rainfall, one of the best months to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot early summer with dry conditions and clear mountain views on most days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

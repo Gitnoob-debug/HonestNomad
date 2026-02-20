@@ -1,0 +1,115 @@
+{
+  "destinationId": "guam",
+  "city": "Tamuning",
+  "country": "Guam",
+  "transportAdvice": "Tamuning and the broader tourist corridor along Tumon Bay are walkable within the resort strip, but distances between attractions across the island require a vehicle. Public bus service exists but has limited coverage and infrequent schedules, so most visitors rely on rental cars or taxis for flexibility.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Dry season is underway with warm temperatures and occasional brief showers, generally pleasant for beach activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the driest and sunniest months of the year, ideal for outdoor and water activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with plenty of sunshine, excellent conditions for snorkeling and beach visits."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb and conditions remain dry, making it a popular time for visitors."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity increase noticeably as the wet season approaches, with occasional afternoon showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season begins with frequent rain and high humidity, though showers are often short-lived."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the wet season with heavy rainfall and elevated typhoon risk; outdoor plans may need flexibility."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rain and the highest typhoon risk of the year; travelers should monitor weather closely."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Typhoon season remains active with frequent downpours and oppressive humidity throughout the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward month's end but conditions remain wet and humid overall."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transition toward the dry season with decreasing rainfall and gradually more comfortable conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Dry season returns with warm temperatures and a mix of sunny days and occasional showers."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

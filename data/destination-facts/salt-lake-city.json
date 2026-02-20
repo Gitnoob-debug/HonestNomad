@@ -1,0 +1,115 @@
+{
+  "destinationId": "salt-lake-city",
+  "city": "Salt Lake City",
+  "country": "United States",
+  "transportAdvice": "Salt Lake City has a public transit system including light rail and bus lines that connect downtown and many tourist areas, making it reasonably easy to get around without a car. Taxis and ride-hail vehicles are widely available, and the downtown core is walkable, though a car is recommended for reaching mountain resorts and outlying attractions.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold winter month with frequent snowfall, ideal for nearby ski resorts but requiring warm layers in the city."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Still cold and snowy with occasional mild spells, ski season remains in full swing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Early spring brings warming temperatures but snow is still possible, especially at higher elevations."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Mild and pleasant with occasional rain showers and blooming vegetation across the valley."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Warm and increasingly sunny, a great time to explore outdoor trails and city parks."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and mostly dry with long sunny days, perfect for hiking and outdoor activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest month of the year with intense sun and very little rainfall, stay hydrated outdoors."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still very hot with occasional afternoon thunderstorms providing brief relief from the heat."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable fall temperatures with clear skies make this an excellent month for sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Crisp autumn weather with colorful foliage in the surrounding mountains and valleys."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cooling rapidly with early snowfall possible, marking the start of the winter ski season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold and snowy with a festive holiday atmosphere in the city and excellent powder conditions in the mountains."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

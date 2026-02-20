@@ -1,0 +1,115 @@
+{
+  "destinationId": "johannesburg",
+  "city": "Johannesburg",
+  "country": "South Africa",
+  "transportAdvice": "Johannesburg is a sprawling city where walking between attractions is generally not practical due to distances and safety concerns in many areas; most visitors rely on metered taxis, private hire vehicles, or guided transfers. A bus rapid transit system operates across parts of the city and connects some tourist areas, though renting a car or using pre-arranged transport is often the most convenient option for getting around.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Hot summer month with frequent afternoon thunderstorms typical of the highveld rainy season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and wet with regular afternoon downpours, though mornings are often sunny and pleasant."
+    },
+    {
+      "month": 3,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Late summer brings continued warmth and rain, with storms beginning to ease toward month's end."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Autumn arrives with noticeably drier conditions, mild days, and cooler evenings."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and increasingly cool, with clear blue skies and cold nights signaling the approach of winter."
+    },
+    {
+      "month": 6,
+      "avgHighC": 17,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry winter month with crisp sunny days and cold nights that can approach freezing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 17,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The driest month of the year with clear skies, warm afternoons, and very cold mornings."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late winter brings warming days while nights remain cold and the air stays dry and clear."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring begins with warming temperatures, occasional gusty winds, and the first hints of returning rain."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm spring days with increasing afternoon thunderstorm activity as the rainy season approaches."
+    },
+    {
+      "month": 11,
+      "avgHighC": 25,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Hot and stormy with frequent afternoon thunderstorms making outdoor plans in the afternoon unpredictable."
+    },
+    {
+      "month": 12,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Peak summer heat with regular heavy afternoon thunderstorms and warm, humid evenings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

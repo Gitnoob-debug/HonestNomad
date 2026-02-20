@@ -1,0 +1,115 @@
+{
+  "destinationId": "quebec-city",
+  "city": "Quebec City",
+  "country": "Canada",
+  "transportAdvice": "Old Quebec is highly walkable, with most historic attractions concentrated in a compact area accessible on foot; the city also has a bus network that connects the old town to surrounding neighborhoods and suburbs. Taxis are readily available throughout the city, and ridesharing options operate in the region for travel beyond the walkable core.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -8,
+      "avgLowC": -18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Deep winter with heavy snowfall and biting cold; dress in heavy layers and expect icy streets."
+    },
+    {
+      "month": 2,
+      "avgHighC": -6,
+      "avgLowC": -17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still firmly winter with frequent snow and frigid temperatures, though daylight hours begin to lengthen."
+    },
+    {
+      "month": 3,
+      "avgHighC": 0,
+      "avgLowC": -10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late winter transitioning toward spring, with a mix of snow and rain and slushy conditions underfoot."
+    },
+    {
+      "month": 4,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and unpredictable spring with lingering frost at night and occasional rain showers during the day."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring warmth arrives with blooming trees and occasional showers; a lovely time to explore outdoors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable early summer with long daylight hours and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The warmest month of the year, humid and lively with festivals and outdoor events throughout the city."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid late summer with frequent afternoon showers; peak tourist season with a vibrant atmosphere."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Beautiful fall foliage begins and temperatures cool pleasantly, making this one of the most scenic months to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn weather with stunning fall colors across the region; pack a warm jacket for cool evenings."
+    },
+    {
+      "month": 11,
+      "avgHighC": 3,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with early snowfall possible; the city quiets down as winter approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": -4,
+      "avgLowC": -13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Full winter sets in with snow-covered streets and festive holiday atmosphere in the historic old town."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

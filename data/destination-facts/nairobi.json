@@ -1,0 +1,115 @@
+{
+  "destinationId": "nairobi",
+  "city": "Nairobi",
+  "country": "Kenya",
+  "transportAdvice": "Nairobi has a public bus network and shared minibus taxis that cover much of the city, though routes can be confusing for first-time visitors; metered taxis and ride-hailing services are widely available and recommended for tourists. Walking is practical in specific commercial and upmarket districts but less advisable in many areas due to traffic and safety concerns, so having a reliable taxi option is essential.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry with plenty of sunshine, making it one of the more pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued dry and sunny conditions with warm afternoons and cool nights."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The long rains begin to approach, with increasing cloud cover and occasional showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the long rainy season with frequent heavy afternoon showers and overcast skies."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very wet with persistent rain, cooler temperatures, and muddy conditions common."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The rains ease off and cooler, drier conditions settle in as the dry season begins."
+    },
+    {
+      "month": 7,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with clear skies; one of the coldest months but excellent for wildlife viewing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and clear with cool mornings and mild afternoons, ideal travel conditions."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to warm slightly while remaining dry and comfortable."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The short rains begin, bringing occasional afternoon showers but generally manageable conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Short rains peak with frequent showers and overcast skies throughout the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains begin to taper off toward the end of the month, transitioning into the dry season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "vancouver",
+  "city": "Vancouver",
+  "country": "Canada",
+  "transportAdvice": "Vancouver has an extensive public transit network including a rapid transit rail system, buses, and a sea bus ferry, which together cover most tourist areas and neighbourhoods effectively. The downtown core and waterfront areas are very walkable, and taxis as well as ride-hailing services are widely available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and rainy with overcast skies; snow is rare at sea level but possible on surrounding mountains."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still wet and grey with occasional mild breaks; early signs of spring blossoms begin to appear."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Rain continues but days grow longer and cherry blossoms begin to bloom across the city."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant with a mix of showers and sunny spells; a lovely time to explore parks."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and mostly comfortable with occasional rain; outdoor activities become very appealing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer brings warm, mostly dry days ideal for hiking, cycling, and waterfront activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The driest and sunniest month of the year with warm temperatures and long daylight hours."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Consistently warm and sunny, making it peak season for outdoor recreation and festivals."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early autumn is mild and often sunny with comfortable temperatures and fewer crowds than summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain returns more frequently and temperatures drop; fall foliage adds colour to parks and trails."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet and cool with persistent overcast conditions; a quieter time to visit with lower accommodation rates."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and rainy at sea level while nearby mountains receive heavy snowfall; festive city atmosphere downtown."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "riyadh",
+  "city": "Riyadh",
+  "country": "Saudi Arabia",
+  "transportAdvice": "Riyadh has a modern metro system with several lines covering key districts, though many tourist attractions and neighborhoods are spread out and not easily walkable due to the city's car-centric layout and intense heat; taxis and ride-hailing services are widely available and are the most practical option for getting around.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and pleasant with mild days and cold nights, making it the most comfortable time to explore the city outdoors."
+    },
+    {
+      "month": 2,
+      "avgHighC": 23,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm days and cool evenings with occasional light rain, still very pleasant for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures rise noticeably and conditions remain dry and comfortable, though afternoons can feel warm."
+    },
+    {
+      "month": 4,
+      "avgHighC": 34,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with very little rainfall; outdoor activities are best done in the morning or evening."
+    },
+    {
+      "month": 5,
+      "avgHighC": 40,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense heat sets in with very dry conditions; midday outdoor exposure should be minimized."
+    },
+    {
+      "month": 6,
+      "avgHighC": 43,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Extremely hot and arid with little relief even at night; indoor attractions are strongly recommended during the day."
+    },
+    {
+      "month": 7,
+      "avgHighC": 44,
+      "avgLowC": 28,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with scorching temperatures throughout the day and warm nights; outdoor activity is not advisable."
+    },
+    {
+      "month": 8,
+      "avgHighC": 44,
+      "avgLowC": 28,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continues to be extremely hot and dry, similar to July; air-conditioned venues are essential for comfort."
+    },
+    {
+      "month": 9,
+      "avgHighC": 40,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat begins to ease slightly but remains very hot; conditions are still challenging for extended outdoor activity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 34,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Noticeably more comfortable with warm days and cooler evenings, marking the return of pleasant travel conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and dry with comfortable temperatures throughout the day, ideal for outdoor exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and crisp with cold nights and pleasant daytime temperatures, one of the best months to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "bermuda",
+  "city": "Bermuda",
+  "country": "Bermuda",
+  "transportAdvice": "Bermuda has a public bus network and ferry service that connect most tourist areas across the island, making them practical options for getting around without a car. Taxis are widely available, and renting a scooter or electric bicycle is a popular way to explore, as private car rentals are not permitted for tourists.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 20,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally breezy with mild temperatures; the coolest month of the year but still relatively mild compared to mainland destinations."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January, with cool temperatures and occasional rain; not ideal for swimming but pleasant for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to inch upward with a mix of sunny and overcast days; a quieter time to visit before the spring rush."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warmer days and blooming flora; comfortable for outdoor activities though the ocean remains cool for swimming."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny; a popular month to visit as beach conditions improve and crowds have not yet peaked."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Early summer brings warm, humid weather ideal for beach and water activities; the start of the Atlantic hurricane season warrants monitoring."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with plenty of sunshine; peak beach season with warm turquoise waters and lively atmosphere."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with high humidity; excellent for water sports but tropical storm activity is possible."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak hurricane season brings the highest risk of storms and heavy rain; travel insurance and flexible plans are strongly advised."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures ease and hurricane risk decreases; a pleasant month with warm seas and fewer crowds than summer."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and comfortable with cooling temperatures; a good shoulder season option for those seeking quieter beaches and lower rates."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and festive with holiday events on the island; not ideal for swimming but enjoyable for exploring Bermuda's towns and culture."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

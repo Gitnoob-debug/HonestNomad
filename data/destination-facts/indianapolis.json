@@ -1,0 +1,115 @@
+{
+  "destinationId": "indianapolis",
+  "city": "Indianapolis",
+  "country": "United States",
+  "transportAdvice": "Indianapolis is a car-centric city where walking is practical in the downtown core but less so in outer areas; a public bus network serves the city and suburbs, though coverage of tourist attractions is limited. Taxis and ride-hail vehicles are readily available downtown, and renting a car is advisable for exploring beyond the city center.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with occasional snow and freezing temperatures; pack heavy winter layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with a mix of snow and rain; conditions begin to slowly improve toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings variable weather with warming days but still chilly nights and frequent rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Mild and pleasant but rainy; flowers bloom and outdoor activity picks up noticeably."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and green with frequent spring showers; a lively month with outdoor events and the Indianapolis 500 build-up."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm to hot with rising humidity; expect occasional thunderstorms and plenty of sunshine between them."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with high humidity; afternoons can feel oppressive but evenings are lively."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid similar to July; thunderstorms are possible but long sunny stretches are common."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early fall temperatures with lower humidity; a pleasant time to explore the city outdoors."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn weather with colorful foliage; cool days and cold nights make layering essential."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and increasingly grey with rain and the first hints of frost; a quieter month for tourism."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter conditions with possible snow; festive holiday atmosphere downtown brightens the short, dark days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

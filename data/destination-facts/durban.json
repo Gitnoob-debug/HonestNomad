@@ -1,0 +1,115 @@
+{
+  "destinationId": "durban",
+  "city": "Durban",
+  "country": "South Africa",
+  "transportAdvice": "Durban has a bus rapid transit system serving key corridors including the beachfront and city centre, though coverage can be limited in outer areas; taxis, both metered and shared minibus types, are widely available for getting around. Walking is practical along the Golden Mile beachfront but less advisable in some inner-city areas, especially after dark.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid midsummer with frequent afternoon thunderstorms and warm ocean temperatures ideal for swimming."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continues hot and humid with regular heavy downpours, typical of peak summer conditions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and wet as summer begins to ease, with occasional intense rain events."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures start to drop pleasantly and rainfall becomes less frequent, making for comfortable conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and mostly dry with cooler evenings, one of the more pleasant months for outdoor exploration."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny winter conditions with cool nights but warm daytime temperatures, excellent for sightseeing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The driest month of the year with clear skies and comfortable warmth during the day."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still dry and sunny with temperatures beginning to climb slightly toward spring."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures and increasing sunshine, a popular time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warmer and occasionally showery as the wet season begins to build toward summer."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and increasingly humid with more frequent afternoon storms signalling the return of summer rains."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full summer heat and humidity with regular heavy rainfall, though warm seas make beach visits appealing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

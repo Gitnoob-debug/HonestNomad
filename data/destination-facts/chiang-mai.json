@@ -1,0 +1,115 @@
+{
+  "destinationId": "chiang-mai",
+  "city": "Chiang Mai",
+  "country": "Thailand",
+  "transportAdvice": "Chiang Mai's old city and central areas are walkable, though the city spreads out enough that tuk-tuks, songthaews (shared red pickup trucks), and metered taxis are widely used for longer distances. There is no metro or tram system, but songthaews serve as an informal bus network and are a common, affordable way to get around tourist areas.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny — the most comfortable month for sightseeing with pleasant evenings."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry, though haze from agricultural burning can begin to affect air quality."
+    },
+    {
+      "month": 3,
+      "avgHighC": 35,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and increasingly hazy due to smoke season, with air quality often poor — outdoor activities may be uncomfortable."
+    },
+    {
+      "month": 4,
+      "avgHighC": 36,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The hottest month of the year, with Songkran water festival bringing festive energy despite the intense heat."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The rainy season begins, bringing relief from heat and smoke with frequent afternoon showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Regular heavy rain, lush green landscapes, and fewer tourists make this a quieter but wet time to visit."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Consistently rainy with overcast skies; waterfalls and nature are at their most dramatic."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months, with heavy downpours most days and occasional flooding in low-lying areas."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very rainy and humid, but the surrounding mountains and countryside are strikingly green."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward the end of the month, and the Yi Peng lantern festival season approaches."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with cooler temperatures and clear skies — an excellent time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and comfortable with the lowest temperatures of the year, ideal for exploring temples and markets."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

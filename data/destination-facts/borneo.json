@@ -1,0 +1,115 @@
+{
+  "destinationId": "borneo",
+  "city": "Kota Kinabalu",
+  "country": "Malaysia",
+  "transportAdvice": "Kota Kinabalu's city centre is walkable for short distances, but the heat and humidity make longer walks uncomfortable; public minibuses and taxis cover most tourist areas, and metered or negotiated taxis are widely available for reaching attractions outside the centre.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with occasional afternoon showers, generally pleasant for outdoor activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the drier and sunnier months, making it a good time for island trips and hiking."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and relatively dry with good visibility, ideal for snorkelling and outdoor adventures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures rise and humidity increases, with short afternoon thunderstorms becoming more frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly wet as the southwest monsoon approaches, with regular afternoon rain."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Southwest monsoon brings frequent rain, though mornings are often clear enough for activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Continued monsoon conditions with warm temperatures and regular showers throughout the day."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to July, with overcast skies and intermittent rain but still manageable for sightseeing."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain remains frequent as the monsoon continues, with warm and muggy conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wetter months with heavy downpours possible, though breaks of sunshine still occur."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Northeast monsoon brings increased rainfall and rougher seas, limiting some island excursions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet and humid with frequent heavy rain, though the festive atmosphere in the city remains lively."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

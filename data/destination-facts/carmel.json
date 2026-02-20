@@ -1,0 +1,115 @@
+{
+  "destinationId": "carmel",
+  "city": "Carmel-by-the-Sea",
+  "country": "United States",
+  "transportAdvice": "Carmel-by-the-Sea is a small, highly walkable village where most galleries, shops, and restaurants are within easy walking distance. A car is recommended for exploring the scenic coastline, Point Lobos, and Big Sur. Limited public transit serves the broader Monterey Peninsula.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and rainy, with lush green hillsides and moody coastal scenery; pack rain gear."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Continued rain with occasional sunny breaks; wildflowers begin to appear toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with decreasing rain and warming temperatures; spring blooms along the coast."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant and mostly dry with mild temperatures, perfect for coastal walks and gallery visits."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Coastal fog becomes more common, with cool mornings often clearing to pleasant afternoons."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "June gloom brings morning fog that typically burns off by midday; bring a light jacket for mornings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild summer with persistent morning fog and pleasant afternoon temperatures."
+    },
+    {
+      "month": 8,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Similar to July with fog and mild conditions; one of the warmest months overall."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Often the warmest month as fog decreases, with clear skies and beautiful coastal sunsets."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and clear Indian summer weather, widely considered the best time to visit the area."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling temperatures with the first autumn rains returning; quieter and more peaceful."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and wet with festive holiday charm in the village; a cozy time to explore galleries and restaurants."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

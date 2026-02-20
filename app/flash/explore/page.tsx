@@ -2898,46 +2898,53 @@ function FlashExploreContent() {
                   <p className="text-sm text-white/50">Your {trip.destination.city} briefing</p>
                 </div>
               </div>
-              <TripIntelligence
-                destinationId={trip.destination.id}
-                city={trip.destination.city}
-                country={trip.destination.country}
-                departureDate={tripDates.departure}
-                returnDate={tripDates.return}
-                travelerType={resolvedTravelerType}
-                vibes={trip.destination.vibes || []}
-                variant="dark"
-                layout="grid"
-                pathType={itineraryType || undefined}
-                stops={allStops.map(s => ({
-                  name: s.name,
-                  type: s.type,
-                  category: s.category || undefined,
-                  latitude: s.latitude,
-                  longitude: s.longitude,
-                  googleRating: s.googleRating,
-                  duration: s.duration,
-                  suggestedDuration: s.suggestedDuration,
-                  bestTimeOfDay: s.bestTimeOfDay,
-                }))}
-                clusters={poiClusters.map(c => ({
-                  id: c.id,
-                  label: c.label,
-                  center: c.center,
-                  points: c.points,
-                  color: c.color,
-                }))}
-                favoriteStopNames={favoriteStops.map(s => s.name)}
-                hotel={hasHotel && selectedHotel ? {
-                  name: selectedHotel.name,
-                  latitude: selectedHotel.latitude,
-                  longitude: selectedHotel.longitude,
-                  stars: selectedHotel.stars,
-                  pricePerNight: selectedHotel.pricePerNight,
-                  currency: selectedHotel.currency,
-                  amenities: selectedHotel.amenities,
-                } : undefined}
-              />
+              {tripDates.departure && tripDates.return ? (
+                <TripIntelligence
+                  destinationId={trip.destination.id}
+                  city={trip.destination.city}
+                  country={trip.destination.country}
+                  departureDate={tripDates.departure}
+                  returnDate={tripDates.return}
+                  travelerType={resolvedTravelerType}
+                  vibes={trip.destination.vibes || []}
+                  variant="dark"
+                  layout="grid"
+                  pathType={itineraryType || undefined}
+                  stops={allStops.map(s => ({
+                    name: s.name,
+                    type: s.type,
+                    category: s.category || undefined,
+                    latitude: s.latitude,
+                    longitude: s.longitude,
+                    googleRating: s.googleRating,
+                    duration: s.duration,
+                    suggestedDuration: s.suggestedDuration,
+                    bestTimeOfDay: s.bestTimeOfDay,
+                  }))}
+                  clusters={poiClusters.map(c => ({
+                    id: c.id,
+                    label: c.label,
+                    center: c.center,
+                    points: c.points,
+                    color: c.color,
+                  }))}
+                  favoriteStopNames={favoriteStops.map(s => s.name)}
+                  hotel={hasHotel && selectedHotel ? {
+                    name: selectedHotel.name,
+                    latitude: selectedHotel.latitude,
+                    longitude: selectedHotel.longitude,
+                    stars: selectedHotel.stars,
+                    pricePerNight: selectedHotel.pricePerNight,
+                    currency: selectedHotel.currency,
+                    amenities: selectedHotel.amenities,
+                  } : undefined}
+                />
+              ) : (
+                <div className="flex items-center gap-2 text-white/40 text-sm py-4">
+                  <Spinner className="w-4 h-4" />
+                  <span>Loading trip details...</span>
+                </div>
+              )}
             </div>
 
           </div>

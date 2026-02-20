@@ -1,0 +1,115 @@
+{
+  "destinationId": "pattaya",
+  "city": "Pattaya",
+  "country": "Thailand",
+  "transportAdvice": "Pattaya is served by shared songthaew (baht bus) routes that loop along the main beach road and connect key tourist areas at low cost, making them a practical option for short hops. Metered taxis and motorcycle taxis are widely available for longer journeys, though walking is feasible within compact areas like the beachfront strip.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with plenty of sunshine, making it one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with low humidity, ideal beach weather continues."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb and it remains mostly dry with strong sunshine."
+    },
+    {
+      "month": 4,
+      "avgHighC": 34,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with occasional afternoon showers as the wet season approaches."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season begins with frequent afternoon and evening thunderstorms alongside high heat."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Regular heavy rain showers, though mornings are often clear before afternoon storms build."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet season with persistent humidity and frequent downpours, especially in the afternoon."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wetter months with heavy rainfall and overcast skies common throughout the day."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the wet season with the highest monthly rainfall and consistently grey skies."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward month end but showers remain frequent and heavy."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Wet season winds down with noticeably less rain and more sunshine returning."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and comfortable with cooler evenings, marking the start of the peak tourist season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

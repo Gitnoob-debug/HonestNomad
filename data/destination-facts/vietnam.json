@@ -1,0 +1,115 @@
+{
+  "destinationId": "vietnam",
+  "city": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "transportAdvice": "Ho Chi Minh City has a growing metro system with limited coverage, supplemented by an extensive bus network, but tourist areas are best navigated by motorbike taxi or metered taxi as walking long distances is impractical due to traffic and heat. Taxis are widely available and affordable, and negotiating fares or using metered cabs is advisable to avoid overcharging.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season is in full swing with sunny skies, low humidity, and comfortable evenings — one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with very little rainfall, making it ideal for sightseeing and outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest and driest month of the year, with intense midday sun — stay hydrated and seek shade during peak hours."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures peak and the first rains of the wet season begin to appear, bringing occasional afternoon thunderstorms."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wet season arrives in earnest with frequent heavy afternoon downpours that typically clear quickly."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Consistently rainy with high humidity, though mornings are often clear and suitable for exploring."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months, with heavy daily rainfall and occasional flooding in low-lying areas of the city."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rains and high humidity persist throughout the month, with frequent afternoon storms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Among the rainiest months of the year, with prolonged downpours and a risk of street flooding."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to taper slightly toward month's end but remains frequent and heavy for most of October."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The wet season winds down with noticeably fewer rainy days and more pleasant, breezy conditions emerging."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with comfortable temperatures, lower humidity, and sunny days — a popular time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

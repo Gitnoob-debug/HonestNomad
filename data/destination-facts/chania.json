@@ -1,0 +1,115 @@
+{
+  "destinationId": "chania",
+  "city": "Chania",
+  "country": "Greece",
+  "transportAdvice": "The Old Town and harbour area are very walkable, making it easy to explore major attractions on foot. Local buses connect the city centre to beaches and surrounding villages, and taxis are widely available for longer journeys or airport transfers.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and often rainy with occasional strong winds, making it the quietest time of year for tourism."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to January with mild temperatures but frequent rain showers and overcast skies."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early signs of spring with warming days, though rain is still common and the sea remains cool."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with longer sunny spells and wildflowers in bloom across the countryside."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with comfortable temperatures ideal for sightseeing and early beach visits."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and reliably sunny with very little rain, marking the start of the busy summer season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with intense sunshine and virtually no rainfall, perfect for beach holidays."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Equally hot as July with strong Meltemi winds providing some relief from the heat along the coast."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and still very sunny with the sea at its warmest, and noticeably fewer crowds than August."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with occasional autumn showers returning, but still many fine days for outdoor exploration."
+    },
+    {
+      "month": 11,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn deepens, with most tourist facilities beginning to close."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and rainy with short days, though the Old Town retains its charm and crowds are minimal."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

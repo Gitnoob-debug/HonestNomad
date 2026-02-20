@@ -1,0 +1,115 @@
+{
+  "destinationId": "hawaii",
+  "city": "Honolulu",
+  "country": "United States",
+  "transportAdvice": "Honolulu has a public bus network that covers most tourist areas including Waikiki, downtown, and major attractions, making it a viable option for budget-conscious travelers. Taxis and ride-hail vehicles are widely available, and Waikiki itself is very walkable, though a rental car is useful for exploring the wider island of Oahu.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with occasional showers, making it one of the cooler and wetter months but still very comfortable for beach visits."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with warm days and occasional rain, still a popular time to visit with comfortable temperatures."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitioning toward drier conditions with warm temperatures and a mix of sun and passing showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Rain becomes less frequent and temperatures warm slightly, offering excellent beach and outdoor conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with low rainfall, marking the beginning of the dry season and ideal travel conditions."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and dry with long sunny days, one of the best months for beach activities and water sports."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with abundant sunshine and calm ocean conditions, though crowds and prices are at their highest."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and humid with very little rain, excellent for swimming and snorkeling but expect busy beaches."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still warm and mostly dry, with slightly fewer crowds than July and August while retaining great beach weather."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures begin to ease slightly and rainfall increases as the wet season approaches, but conditions remain pleasant."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably wetter with more frequent showers, though warm temperatures and fewer tourists make it a good value period."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and occasionally rainy with a festive holiday atmosphere, still warm enough for beach activities between showers."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "cambridge",
+  "city": "Cambridge",
+  "country": "United Kingdom",
+  "transportAdvice": "Cambridge is a compact, walkable city where most colleges, museums, and attractions are easily reached on foot or by bicycle, which is extremely popular among locals and visitors alike. A local bus network serves the wider city and surrounding areas, and taxis are readily available for longer journeys or late-night travel.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often grey with occasional frost, light rain is common and days are short."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold with a mix of overcast skies and occasional crisp, clear days; frost remains possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings gradually warming temperatures and longer days, though showers are still frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with spring blossoms, though unpredictable showers can interrupt sunny spells."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, one of the more enjoyable months to visit with lush green surroundings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer weather with long daylight hours; occasional thunderstorms are possible."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long sunny days, though brief showers can still occur."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and generally pleasant, similar to July with a mix of sunshine and occasional rain."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and a gradual increase in rainfall, but days remain mild."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler with autumn foliage and more frequent overcast, rainy days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and damp with short days; fog can be common in the mornings across the flat Fenland landscape."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often wet with the possibility of frost; festive atmosphere in the city centre despite the chill."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "cinque-terre",
+  "city": "La Spezia",
+  "country": "Italy",
+  "transportAdvice": "La Spezia is a compact city where the historic center and waterfront are easily walkable, and it serves as the main rail hub for reaching the Cinque Terre villages by regional train. Local buses connect the city's neighborhoods, taxis are readily available, and ferries operate seasonally to coastal destinations.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and quiet winter month with occasional rain and crisp sea air, ideal for uncrowded sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with sporadic rain showers, but days can be pleasantly mild and tourist crowds remain thin."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings warming temperatures and occasional showers, with the coastal landscape beginning to green up."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly sunny with some spring rain, a lovely time to explore the coast before peak season crowds arrive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with comfortable temperatures, making it one of the best months to visit the Ligurian coast."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm summer conditions set in with long sunny days and low rainfall, perfect for hiking and beach visits."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny peak summer month with minimal rain and bustling tourist activity along the coast."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "The hottest and most crowded month, with intense heat and high humidity but reliably clear skies."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with the first hints of autumn, occasional thunderstorms possible but still excellent beach weather."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Autumn brings noticeably more rain and cooler temperatures, though the landscape is beautiful and crowds have thinned."
+    },
+    {
+      "month": 11,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Wet and mild with frequent rain, a quieter period well suited to exploring the city and local cuisine."
+    },
+    {
+      "month": 12,
+      "avgHighC": 10,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and festive with occasional rain, offering a peaceful off-season atmosphere and seasonal local markets."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

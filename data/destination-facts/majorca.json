@@ -1,0 +1,115 @@
+{
+  "destinationId": "majorca",
+  "city": "Palma de Mallorca",
+  "country": "Spain",
+  "transportAdvice": "Palma's historic center and waterfront are very walkable, making it easy to explore key attractions on foot; an extensive public bus network connects the city to beaches, villages, and the airport across the island. Taxis are widely available and metered, and rental cars or scooters are popular for reaching more remote coastal areas.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and mild winter days with occasional rain showers; a quiet time to visit with few crowds."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool but almond blossoms begin to appear inland, offering scenic countryside walks."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise with longer days and a mix of sunshine and occasional showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather ideal for sightseeing and hiking before the summer heat arrives."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and sunny with low rainfall; a great month to visit before peak season crowds build."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry with long sunny days; beaches begin to fill as summer tourism picks up."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with very little rain; expect busy beaches and lively nightlife throughout the island."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "The hottest and most crowded month; sea temperatures are warm and humidity can feel intense."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crowds thin slightly while the sea remains warm; a popular month for a more relaxed beach holiday."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings cooler temperatures and increased rainfall but still plenty of comfortable sunny days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and quieter with a higher chance of rain; good for cultural sightseeing at a slower pace."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool winter conditions return with short days; the city is calm and festive around the holiday season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

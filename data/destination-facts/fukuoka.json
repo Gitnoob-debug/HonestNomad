@@ -1,0 +1,115 @@
+{
+  "destinationId": "fukuoka",
+  "city": "Fukuoka",
+  "country": "Japan",
+  "transportAdvice": "Fukuoka has an efficient subway system and extensive bus network that connect major tourist areas, making public transit the most practical way to get around; taxis are widely available but more expensive. The city center and popular districts like Tenjin and Hakata are walkable, though the subway is recommended for reaching attractions further afield.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and crisp winter weather with occasional rain; light to mid-layer clothing is recommended."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with a gradual warming trend; occasional rain and rare light snow possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild temperatures and cherry blossom season begins toward month's end."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming flowers; one of the most popular times to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with increasing humidity; light layers are sufficient for most days."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season begins with frequent heavy showers and rising humidity; a compact umbrella is essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very humid with heavy rainfall early in the month; the famous Hakata Gion Yamakasa festival takes place this month."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak summer heat with intense humidity; typhoon risk increases and outdoor sightseeing is best done in the morning."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and humid with the highest typhoon risk of the year; rain can be heavy and prolonged."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn temperatures with lower humidity; excellent conditions for sightseeing and outdoor dining."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and pleasant with autumn foliage; one of the best months to visit for comfortable weather."
+    },
+    {
+      "month": 12,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter weather sets in with occasional rain; festive illuminations brighten the city in the evenings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

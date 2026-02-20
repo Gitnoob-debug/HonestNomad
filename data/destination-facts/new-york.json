@@ -1,0 +1,115 @@
+{
+  "destinationId": "new-york",
+  "city": "New York",
+  "country": "United States",
+  "transportAdvice": "New York has an extensive subway and bus network that runs 24 hours and covers virtually all tourist areas, making it one of the most transit-friendly cities in the world. Taxis and for-hire vehicles are widely available, and many neighborhoods are highly walkable.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with occasional snow and freezing temperatures, requiring warm layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold and wintry with possible snowfall, though days gradually grow slightly longer."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings variable weather with cool temperatures and occasional rain showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant spring weather with blooming trees, though rain is common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with longer days, one of the most enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm to hot with increasing humidity and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid, the warmest month of the year with frequent heat and thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Remains hot and humid with conditions similar to July, afternoon storms are common."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant early autumn with gradually cooling temperatures and lower humidity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp and colorful fall weather, widely considered one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and increasingly cold with shorter days and a mix of rain and occasional early snow."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with festive holiday atmosphere, possible snow and freezing temperatures."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

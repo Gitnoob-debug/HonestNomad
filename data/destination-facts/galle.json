@@ -1,0 +1,115 @@
+{
+  "destinationId": "galle",
+  "city": "Galle",
+  "country": "Sri Lanka",
+  "transportAdvice": "The Galle Fort area is very walkable, making it easy to explore the historic district on foot. Public buses connect Galle to other towns along the coast, and three-wheelers (tuk-tuks) are widely available for short trips, with taxis also accessible for longer journeys.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and sunny with pleasant sea breezes, making it one of the best months to visit Galle."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with good beach conditions and clear skies."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry, though humidity begins to build toward the end of the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Pre-monsoon heat with increasing humidity and occasional afternoon showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The southwest monsoon arrives, bringing frequent heavy rain and rough seas along the coast."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon month with persistent rain and overcast skies; outdoor activities are limited."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy monsoon rains make this a quieter period for tourism in Galle."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon rains persist, though brief dry spells can occur between downpours."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward the end of the month as the monsoon starts to withdraw."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitional month with decreasing rainfall and gradually improving conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Weather improves noticeably as the monsoon retreats, with more sunny intervals returning."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with warm sunny days, making December an excellent time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

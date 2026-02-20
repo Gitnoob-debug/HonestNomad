@@ -1,0 +1,115 @@
+{
+  "destinationId": "chiang-rai",
+  "city": "Chiang Rai",
+  "country": "Thailand",
+  "transportAdvice": "Chiang Rai's main attractions are spread out, making tuk-tuks, songthaews (shared red trucks), and taxis the most practical options for getting around, as there is no metro or city-wide bus network covering tourist areas. Walking is feasible within the night bazaar and central town area, but a hired vehicle or motorbike rental is recommended for reaching temples and rural sites.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny — the most comfortable month to visit with pleasant temperatures and clear skies."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with excellent visibility, though haze from agricultural burning may begin to appear."
+    },
+    {
+      "month": 3,
+      "avgHighC": 34,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and increasingly hazy due to seasonal burning; air quality can be poor, especially mid-month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Very hot with occasional early rains offering some relief; smoke haze typically begins to clear."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season begins in earnest with frequent afternoon showers and lush green landscapes emerging."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Consistently wet with heavy rainfall most days; rivers and waterfalls are full and dramatic."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rain throughout the month; outdoor activities may be limited but scenery is vivid."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with persistent rain; flooding can occasionally affect rural roads."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very wet with high humidity; the surrounding hills are intensely green and misty."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward month's end; cooler evenings signal the approach of the dry season."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and noticeably cooler, especially at night; an excellent time to visit with comfortable conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with the coldest nights of the year; ideal weather for sightseeing and outdoor exploration."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "egypt",
+  "city": "Cairo",
+  "country": "Egypt",
+  "transportAdvice": "Cairo has an extensive metro system that connects key areas of the city, though many major tourist sites are not directly on metro lines and may require a taxi or minibus to reach. Taxis are widely available and affordable, but walking long distances is generally impractical due to heavy traffic, heat, and the sprawling nature of the city.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and mild winter days with chilly evenings, making it one of the most comfortable months to explore outdoor sites."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Slightly warmer than January with pleasant daytime temperatures and cool nights, still ideal for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring begins with warming temperatures, though occasional sandstorms known as khamsin can reduce visibility and bring dusty conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with increasing heat, and the risk of khamsin sandstorms remains; mornings are still pleasant for outdoor activity."
+    },
+    {
+      "month": 5,
+      "avgHighC": 35,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry conditions set in, making midday sightseeing uncomfortable; early morning visits to outdoor sites are strongly recommended."
+    },
+    {
+      "month": 6,
+      "avgHighC": 38,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense heat with very little relief, even at night; outdoor activities are best limited to early morning or late evening hours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 40,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest month of the year with scorching daytime temperatures; indoor attractions and air-conditioned spaces are essential refuges."
+    },
+    {
+      "month": 8,
+      "avgHighC": 39,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Remains extremely hot and dry with conditions similar to July; hydration and sun protection are critical for any outdoor exploration."
+    },
+    {
+      "month": 9,
+      "avgHighC": 36,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat begins to ease slightly toward the end of the month, though conditions are still very warm and dry throughout."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Noticeably more comfortable temperatures return, making this a popular month for tourism with warm days and cooler evenings."
+    },
+    {
+      "month": 11,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant weather with comfortable temperatures throughout the day, excellent conditions for visiting monuments and markets."
+    },
+    {
+      "month": 12,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool winter weather returns with crisp evenings; daytime conditions are comfortable for sightseeing and walking around historic areas."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

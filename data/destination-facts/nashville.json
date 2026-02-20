@@ -1,0 +1,115 @@
+{
+  "destinationId": "nashville",
+  "city": "Nashville",
+  "country": "United States",
+  "transportAdvice": "Nashville is a car-centric city where public bus service exists but has limited coverage of tourist areas, making taxis and ride-hail services the most practical options for getting around; the downtown honky-tonk district and Broadway strip are walkable, but most attractions beyond the core require a vehicle.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and occasionally grey with a chance of light snow or freezing rain; pack warm layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still chilly with unpredictable weather, though brief mild spells are possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures but frequent rain showers; a light jacket and umbrella are essential."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Pleasant and green with blooming trees, though thunderstorms are common throughout the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with longer days; one of the best months to visit before summer heat sets in."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with afternoon thunderstorms; stay hydrated and plan outdoor activities for the morning."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with oppressive humidity; air-conditioned venues provide welcome relief."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Remains very hot and muggy, similar to July; early morning or evening outings are most comfortable."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Heat begins to ease and humidity drops, making this a pleasant and increasingly comfortable month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp autumn air and vivid fall foliage make October one of the most enjoyable months to visit Nashville."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling quickly with overcast skies and occasional rain; a medium-weight coat is advisable."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and festive with holiday events downtown; light snow is possible but rarely disruptive."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

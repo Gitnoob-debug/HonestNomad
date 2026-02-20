@@ -1,0 +1,115 @@
+{
+  "destinationId": "cartagena",
+  "city": "Cartagena",
+  "country": "Colombia",
+  "transportAdvice": "The historic walled city and Getsemaní neighborhood are compact and walkable, making foot travel practical for most tourist areas. Taxis and motorcycle taxis are widely available, and air-conditioned minibuses serve broader routes, though negotiating fares in advance is advisable.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the driest and most pleasant months, with reliable sunshine and refreshing coastal breezes."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and sunny with low humidity by Cartagena standards, ideal for sightseeing and beach visits."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry, with temperatures beginning to climb toward the hotter season."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The transition into the rainy season begins, with occasional afternoon showers and rising humidity."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainfall increases noticeably, with frequent afternoon and evening downpours amid persistent heat."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "A wetter month with regular heavy showers, though mornings are often clear and hot."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "A brief drier spell within the rainy season, with strong trade winds providing some relief from the heat."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to July with a mix of sun and showers; humidity remains high throughout the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months of the year, with heavy and frequent rainfall expected most days."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the rainy season with the highest rainfall totals; flooding in low-lying areas is possible."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease toward the end of the month as the dry season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season returns, bringing sunny skies and lower humidity, making it a popular time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

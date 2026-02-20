@@ -1,0 +1,115 @@
+{
+  "destinationId": "chengdu",
+  "city": "Chengdu",
+  "country": "China",
+  "transportAdvice": "Chengdu has an extensive metro network that connects major tourist areas, making it easy and affordable to get around without a car. Taxis and ride-hailing services are widely available, and the city center is walkable for short distances between attractions.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Cool and overcast with frequent fog and little sunshine, typical of Chengdu's basin climate in winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still cool and grey with occasional light rain as winter begins to ease."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures rise noticeably and spring flowers begin to appear, though rain becomes more frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with mild temperatures and occasional showers, a popular time to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly humid with regular afternoon rain showers as the wet season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and rainy with high humidity; expect frequent heavy downpours throughout the month."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest and one of the wettest months, with intense heat and frequent thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very hot and humid with continued heavy rainfall; outdoor sightseeing can be uncomfortable."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Temperatures begin to drop but rain remains frequent, making this a transitional and often damp month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cooler and more comfortable with decreasing rain, though overcast skies remain common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Mild and often foggy as autumn deepens, with little rain but persistent cloud cover."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Cold and grey with heavy fog typical of Chengdu winters; sunshine is rare but crowds are thin."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

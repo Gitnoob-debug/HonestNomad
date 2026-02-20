@@ -1,0 +1,115 @@
+{
+  "destinationId": "st-lucia",
+  "city": "Castries",
+  "country": "Saint Lucia",
+  "transportAdvice": "Castries is compact enough to explore parts of on foot, though the hilly terrain and heat can make walking tiring; minibuses run frequently along main routes and cover most tourist areas, while taxis are widely available but should have fares agreed in advance.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the driest and most pleasant months, with warm sunny days and cool evenings ideal for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and comfortable with consistent sunshine, making it a peak time for beach and outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with light breezes, excellent conditions for hiking and water sports."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and conditions remain largely dry, though brief showers become slightly more possible."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The transition into the wet season brings increased humidity and occasional afternoon showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early wet season with frequent rain showers, though sunshine still breaks through between downpours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warm and humid with regular rainfall, and the start of the Atlantic hurricane season warrants monitoring."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the wet season with heavy and frequent rain; hurricane risk is at its highest this month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with significant rainfall and continued elevated hurricane risk."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain remains frequent and humidity is high, though the hurricane season begins to wind down toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall gradually decreases as the wet season transitions out, with warm temperatures and improving conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Conditions improve noticeably with drier weather returning, making it a popular month for visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

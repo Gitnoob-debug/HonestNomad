@@ -1,0 +1,115 @@
+{
+  "destinationId": "paphos",
+  "city": "Paphos",
+  "country": "Cyprus",
+  "transportAdvice": "Paphos has a public bus network that connects the main tourist areas, including the harbour, Kato Paphos, and the town centre, though services can be infrequent outside peak hours. Taxis are widely available and walking is practical within the compact Kato Paphos seafront area, though a vehicle is helpful for reaching more remote archaeological sites and beaches.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and occasionally rainy, with cool evenings — the coolest month of the year but still pleasant by Mediterranean standards."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with some rain and mild daytime temperatures; early spring flowers begin to appear."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming up noticeably with longer days and decreasing rainfall, making it a pleasant time to explore outdoors."
+    },
+    {
+      "month": 4,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly sunny with very little rain — an excellent month for sightseeing and early beach visits."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and reliably sunny; the sea begins to warm up and beach season gets underway in earnest."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and virtually rain-free with long sunny days — ideal for beach holidays but midday heat can be intense."
+    },
+    {
+      "month": 7,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest month, with intense sunshine and negligible rainfall; shade and hydration are essential during the day."
+    },
+    {
+      "month": 8,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Equally hot as July with peak summer crowds; sea temperatures are at their warmest and evenings are balmy."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still very warm and sunny with the sea remaining inviting — a popular month as crowds begin to thin slightly."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm with occasional light showers returning; great conditions for sightseeing without summer heat."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with more frequent rain, though mild days are still common and tourist sites are quieter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally wet with short days; a quiet period for tourism but comfortable for cultural exploration."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "cayman-islands",
+  "city": "George Town",
+  "country": "Cayman Islands",
+  "transportAdvice": "George Town's compact downtown waterfront area is walkable, but the island lacks a comprehensive public bus network covering all tourist areas, so taxis and rental cars are the most practical options for getting around. Taxis are widely available near the cruise terminal and major hotels, though fares can be high.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasant with warm sunny days and cooler evenings, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry conditions with comfortable temperatures and low humidity, ideal for beach and water activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with excellent visibility for diving and snorkeling."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and conditions remain largely dry and sunny."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The start of the wet season brings occasional afternoon showers alongside warm, humid conditions."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent rain showers; also the beginning of hurricane season so weather can be unpredictable."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer heat with high humidity and regular afternoon thunderstorms during hurricane season."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest and one of the wettest months, with elevated hurricane risk and heavy tropical downpours."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak hurricane season with the highest rainfall totals and oppressive humidity throughout the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still within hurricane season with frequent rain, though temperatures begin to ease slightly toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall decreases and conditions gradually improve as the wet season winds down."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and comfortable with pleasant temperatures, marking the return of ideal conditions for outdoor and water activities."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

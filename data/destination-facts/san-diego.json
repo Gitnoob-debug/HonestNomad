@@ -1,0 +1,115 @@
+{
+  "destinationId": "san-diego",
+  "city": "San Diego",
+  "country": "United States",
+  "transportAdvice": "San Diego has a light rail trolley system and bus network that connects major tourist areas including downtown, Old Town, and Mission Valley, though a car is often more convenient for reaching beaches and suburban attractions. Taxis and ride-hailing services are widely available, and many central neighborhoods like the Gaslamp Quarter and Balboa Park are walkable.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and occasionally rainy, January is one of San Diego's cooler and wetter months but still pleasant by most standards."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with mild temperatures and a chance of rain, though sunny days are common."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and decreasing rainfall, making it a comfortable time to explore outdoors."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with pleasant conditions ideal for sightseeing and beach walks."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "May often brings a marine layer known locally as 'May Gray,' with overcast mornings that typically clear by afternoon."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "June continues the marine layer pattern called 'June Gloom,' with cool mornings and warm afternoons."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer brings warm, sunny days with low rainfall and ideal beach conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with reliably sunny skies and perfect beach weather."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Often considered the best month to visit, with warm temperatures, clear skies, and fewer crowds than peak summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with excellent visibility and comfortable temperatures for outdoor activities."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild autumn weather with cooling evenings and very little rainfall, still pleasant for sightseeing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally wet, December is the start of the mild rainy season but remains comfortable compared to most of the country."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -5,7 +5,6 @@ export const MODEL = process.env.OPENROUTER_MODEL || 'anthropic/claude-sonnet-4.
 
 // Token budgets
 export const MAX_TOKENS = 2048;
-export const MAGIC_PACKAGE_MAX_TOKENS = 6144;
 
 // ============================================
 // OpenRouter Client

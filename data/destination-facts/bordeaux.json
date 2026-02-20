@@ -1,0 +1,115 @@
+{
+  "destinationId": "bordeaux",
+  "city": "Bordeaux",
+  "country": "France",
+  "transportAdvice": "Bordeaux has an extensive tram network that connects the city centre with most major tourist areas, making it easy to get around without a car. The historic centre is compact and very walkable, and taxis are readily available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and frequently wet with short daylight hours, typical of a mild Atlantic winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cool and damp but with occasional brighter spells as winter begins to ease."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and variable with a mix of sunshine and showers as spring gets underway."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with warming temperatures and a reasonable chance of rain."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and generally sunny with occasional afternoon showers, a lovely time to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with long evenings, marking the start of the summer season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with plenty of sunshine, ideal for exploring the city and surrounding vineyards."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Consistently hot and sunny, the peak of summer with the lowest rainfall of the year."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with harvest season underway in the vineyards, an excellent time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn temperatures with increasing cloud and rain as the season turns."
+    },
+    {
+      "month": 11,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and noticeably wetter with shorter days, typical of Atlantic autumn conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently rainy with festive atmosphere in the city centre during the holiday period."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

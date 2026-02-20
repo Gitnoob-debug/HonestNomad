@@ -1,0 +1,115 @@
+{
+  "destinationId": "cusco",
+  "city": "Cusco",
+  "country": "Peru",
+  "transportAdvice": "The historic center of Cusco is compact and largely walkable, though the high altitude (3,400m) makes uphill streets tiring for new arrivals. Local minibuses and shared taxis cover most of the city and surrounding areas, and metered or negotiated taxis are widely available for longer trips or late-night travel.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent afternoon and evening downpours, though mornings are often clear."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year; heavy rain is common and some trekking routes may be affected."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the rainy season with persistent showers, though temperatures remain mild."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to ease as the wet season winds down, offering a pleasant transition period."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season begins with sunny days, cool nights, and excellent visibility for sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with very little rain, crisp cold nights, and clear skies ideal for trekking."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The driest and coldest month; nights can approach freezing but days are bright and sunny."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still dry and sunny with cold nights; one of the most popular months for visitors."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season continues with warming days and occasional light showers beginning to appear."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transition month with increasing afternoon showers as the wet season approaches."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain becomes more frequent but mornings are often clear; landscapes turn lush and green."
+    },
+    {
+      "month": 12,
+      "avgHighC": 20,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season resumes in earnest with regular afternoon rain and warm, humid conditions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

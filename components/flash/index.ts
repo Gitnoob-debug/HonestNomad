@@ -4,4 +4,4 @@ export { TripDetailModal } from './TripDetailModal';
 export { ImmersiveSwipeCard } from './ImmersiveSwipeCard';
 export { ImmersiveSwipeContainer } from './ImmersiveSwipeContainer';
 export { ItineraryMap } from './ItineraryMap';
-export { MagicPackage } from './MagicPackage';
+export { TripIntelligence } from './TripIntelligence';

@@ -1,0 +1,115 @@
+{
+  "destinationId": "namibia",
+  "city": "Windhoek",
+  "country": "Namibia",
+  "transportAdvice": "Windhoek has a limited public minibus network that primarily serves local commuters and does not reliably cover most tourist areas, so renting a car or using metered taxis is the most practical option for visitors; the compact city centre is walkable during daylight hours but taxis are recommended after dark.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Peak rainy season with warm temperatures and frequent afternoon thunderstorms."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Continued wet season with heavy showers and lush green surroundings."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Rain begins to ease slightly but afternoons remain stormy and warm."
+    },
+    {
+      "month": 4,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Transitional month with decreasing rainfall and pleasantly warm days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season begins with clear skies, warm days, and cool nights."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry winter month with crisp mornings and sunny afternoons."
+    },
+    {
+      "month": 7,
+      "avgHighC": 21,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Driest and coolest month of the year with cold nights and clear blue skies."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still dry with warming days and cold mornings as winter begins to ease."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring arrives with hot sunny days and very little chance of rain."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with occasional early-season clouds building in the afternoons."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pre-rainy season heat with increasing humidity and the first scattered thunderstorms."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Rainy season returns with hot temperatures and regular afternoon downpours."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

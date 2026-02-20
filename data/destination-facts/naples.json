@@ -1,0 +1,115 @@
+{
+  "destinationId": "naples",
+  "city": "Naples",
+  "country": "Italy",
+  "transportAdvice": "Naples has a metro system, buses, and funiculars that connect key tourist areas, though the network can be crowded and complex for first-time visitors; taxis are widely available but agree on fares in advance. The historic center is largely walkable, though hilly terrain and heavy traffic make some areas more practical to navigate by public transit.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with mild winter temperatures; a quiet time to visit with few crowds."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool and damp with occasional sunny spells; winter conditions persist but days are slowly lengthening."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild spring warmth begins to arrive with a mix of sunny and showery days."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with comfortable temperatures and occasional showers; a good time to explore outdoors."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with low rainfall; ideal conditions for sightseeing and coastal visits."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with very little rain; beach season begins and the city fills with tourists."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with long sunny days and minimal rainfall; expect large crowds at major attractions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Very hot and humid with intense sun; the busiest tourist month, some local businesses may close for holidays."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant as summer fades; occasional thunderstorms but still excellent weather for travel."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn temperatures with increasing rainfall; crowds thin out and the city feels more local."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with frequent rain; a quieter period good for museums and indoor culture."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool winter weather with festive atmosphere; some rain expected but Christmas markets and traditions make it lively."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

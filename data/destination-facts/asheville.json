@@ -1,0 +1,115 @@
+{
+  "destinationId": "asheville",
+  "city": "Asheville",
+  "country": "United States",
+  "transportAdvice": "Asheville has a limited local bus network that covers some tourist areas, but a car is highly recommended for exploring the surrounding Blue Ridge Mountains and many attractions. Downtown Asheville is walkable, and taxis as well as ride-hail services are generally available in the city center.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with occasional snow or ice, especially at higher elevations around the city."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with possible snow flurries, though days can occasionally warm up pleasantly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings variable temperatures and increasing rainfall as the mountains begin to green up."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with blooming wildflowers and dogwoods, though showers are common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lush with frequent afternoon showers; one of the most scenic months in the Blue Ridge."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warm summer weather with high humidity and frequent afternoon thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest month, with regular afternoon thunderstorms and muggy conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with continued afternoon thunderstorm activity throughout the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early fall brings cooler, more comfortable temperatures and the beginning of stunning foliage color."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak fall foliage month with crisp air and spectacular mountain colors; very popular with visitors."
+    },
+    {
+      "month": 11,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling rapidly with bare trees by month's end and the possibility of early frost or light snow."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter conditions return with occasional snow and festive holiday atmosphere in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

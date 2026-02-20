@@ -1,0 +1,115 @@
+{
+  "destinationId": "la-paz",
+  "city": "La Paz",
+  "country": "Bolivia",
+  "transportAdvice": "La Paz has an extensive cable car (teleférico) network that connects many neighborhoods and offers scenic views, supplemented by minibuses and shared taxis covering most tourist areas; walking is practical in the city center but challenging due to steep terrain and high altitude. Taxis are widely available and affordable, though it is advisable to use radio taxis or those hailed from official stands for safety.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "January is the height of the rainy season with frequent afternoon and evening downpours, though mornings are often clear."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "February remains wet and humid with heavy rainfall typical, coinciding with Carnival celebrations across Bolivia."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "March sees continued rain as the wet season begins to taper, with mild temperatures and overcast skies common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April marks the transition to the dry season with decreasing rainfall and increasingly pleasant, sunny days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 14,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "May is dry and sunny with cool nights, making it a comfortable and popular month for sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 13,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "June is one of the driest months with cold nights and crisp, clear days ideal for outdoor exploration."
+    },
+    {
+      "month": 7,
+      "avgHighC": 13,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "July is peak dry season with very little rain, cold overnight temperatures, and excellent visibility for mountain views."
+    },
+    {
+      "month": 8,
+      "avgHighC": 14,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "August remains dry and sunny with cold nights, and is one of the best months to visit for clear skies."
+    },
+    {
+      "month": 9,
+      "avgHighC": 15,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "September sees the dry season continuing with warming days and still-cool nights as spring approaches."
+    },
+    {
+      "month": 10,
+      "avgHighC": 16,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "October brings occasional showers as the wet season begins to build, but days are generally warm and bright."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "November sees increasing afternoon thunderstorms as the rainy season establishes itself, with warm midday temperatures."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "December is firmly in the wet season with regular heavy rain, particularly in the afternoons and evenings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "aspen",
+  "city": "Aspen",
+  "country": "United States",
+  "transportAdvice": "Aspen has a free public bus system that connects the town center with ski areas and nearby communities, making it easy to get around without a car. The compact downtown is very walkable, and taxis as well as car rental services are available for reaching more remote areas.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -14,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Peak ski season with cold temperatures, frequent snowfall, and excellent powder conditions on the mountain."
+    },
+    {
+      "month": 2,
+      "avgHighC": 1,
+      "avgLowC": -13,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Still prime winter skiing weather with cold, dry air and reliable snow coverage across the slopes."
+    },
+    {
+      "month": 3,
+      "avgHighC": 5,
+      "avgLowC": -9,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Late ski season brings slightly warmer days and longer sunlight hours, with good snow still on upper runs."
+    },
+    {
+      "month": 4,
+      "avgHighC": 10,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Spring skiing conditions with slushy afternoon snow and warming temperatures; ski season typically closes mid-month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "A quiet shoulder season as snow melts and trails begin to open; cool mornings and mild afternoons."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Summer begins with warm, pleasant days ideal for hiking and outdoor festivals, with occasional afternoon thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "The warmest month with lush green landscapes, busy outdoor events, and frequent afternoon thundershowers typical of monsoon season."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm summer days continue with regular afternoon storms; hiking and mountain biking are at their peak."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the most beautiful months as aspen trees turn golden; cool, crisp air and minimal precipitation."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Autumn colors fade and temperatures drop sharply; early snowfall is possible and the town enters a quiet shoulder period."
+    },
+    {
+      "month": 11,
+      "avgHighC": 3,
+      "avgLowC": -10,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Early winter arrives with cold temperatures and building snowpack as the ski resorts prepare to open."
+    },
+    {
+      "month": 12,
+      "avgHighC": -1,
+      "avgLowC": -14,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Ski season kicks off with festive holiday atmosphere, cold temperatures, and increasing snowfall through the month."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

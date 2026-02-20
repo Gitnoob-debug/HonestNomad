@@ -1,0 +1,115 @@
+{
+  "destinationId": "grenada",
+  "city": "St. George's",
+  "country": "Grenada",
+  "transportAdvice": "Minibuses run regular routes between main towns and are an affordable way to get around. Taxis are widely available and fares should be agreed upon before the ride. Renting a car is a good option for exploring the island's beaches, waterfalls, and spice plantations.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season with warm, sunny conditions and comfortable trade winds."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry weather with pleasant temperatures and clear skies."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Driest month with consistently sunny days, ideal for beach and water activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry as the dry season winds down."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transition month with increasing afternoon showers as the rainy season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season begins with regular afternoon tropical showers, though mornings are often clear."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet and humid with frequent tropical rain, though the island is lush and green."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the wet season with heavy rainfall and some hurricane risk."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Very wet with the highest hurricane risk; lush tropical scenery compensates."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still rainy but conditions start to improve toward the end of the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain decreases as the dry season approaches with more frequent sunny days."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitioning to dry season with warm conditions and the start of tourist season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

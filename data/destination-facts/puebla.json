@@ -1,0 +1,115 @@
+{
+  "destinationId": "puebla",
+  "city": "Puebla",
+  "country": "Mexico",
+  "transportAdvice": "The historic center is compact and walkable, making it easy to explore major attractions on foot. The city has an urban bus network and taxis are widely available, though rideshare apps are also commonly used for convenience and safety.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 21,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny days with cold nights make January one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 23,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm afternoons and clear skies continue, with little rainfall and comfortable sightseeing conditions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures rise noticeably and conditions remain dry, though afternoons can feel quite warm."
+    },
+    {
+      "month": 4,
+      "avgHighC": 27,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with occasional afternoon showers beginning to appear toward month's end."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainy season begins in earnest with frequent afternoon thunderstorms, though mornings are often clear."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy afternoon rains are common; expect wet streets and lush surroundings throughout the month."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season continues with regular downpours, typically in the afternoon and evening hours."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to July, August brings frequent rain and high humidity; a light rain jacket is essential."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with persistent rainfall; flooding in low-lying areas is possible."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to taper off and temperatures cool slightly, making for a transitional and pleasant month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season returns with comfortable temperatures and clear skies, ideal for outdoor exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with festive holiday atmosphere in the city; cold nights require a warm layer."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

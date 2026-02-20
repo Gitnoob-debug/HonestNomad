@@ -1,0 +1,115 @@
+{
+  "destinationId": "beirut",
+  "city": "Beirut",
+  "country": "Lebanon",
+  "transportAdvice": "Beirut has no metro or tram system, but an informal network of shared minibuses and taxis covers most of the city; taxis are widely available and negotiating fares in advance is common practice. Central districts and the waterfront are walkable, though traffic congestion and uneven infrastructure make some areas less pedestrian-friendly.",
+  "safetyLevel": "exercise-increased-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and wet with frequent rain showers; the coldest month of the year for Beirut."
+    },
+    {
+      "month": 2,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cool and rainy with occasional storms; snow is possible in nearby mountains."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and rain becomes less frequent as spring approaches."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with mild temperatures and mostly sunny skies."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry; a comfortable month for sightseeing and outdoor dining."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with very little rain; humidity begins to build along the coast."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Peak summer heat with high coastal humidity; evenings remain lively and warm."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "The hottest and most humid month; expect intense heat during the day."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still hot and humid but temperatures gradually ease toward the end of the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable autumn temperatures with occasional early rains returning late in the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and wetter as autumn deepens; a quieter and pleasant time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and rainy with a festive atmosphere in the city; similar in character to January."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

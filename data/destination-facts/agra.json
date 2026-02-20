@@ -1,0 +1,115 @@
+{
+  "destinationId": "agra",
+  "city": "Agra",
+  "country": "India",
+  "transportAdvice": "Agra's main tourist sites are spread out and not easily walkable between them, so auto-rickshaws, cycle-rickshaws, and taxis are the primary ways to get around; a limited local bus network exists but is not well-suited for tourists. Metered and negotiated taxis are widely available near major attractions and hotels.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and pleasant winter days with chilly nights, making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and dry with warming temperatures, still very pleasant for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures rise noticeably and conditions remain dry, though midday heat begins to build."
+    },
+    {
+      "month": 4,
+      "avgHighC": 37,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with intense afternoon sun; early morning visits to monuments are strongly advised."
+    },
+    {
+      "month": 5,
+      "avgHighC": 41,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Extremely hot and harsh conditions with scorching daytime temperatures that can be challenging for outdoor sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 39,
+      "avgLowC": 28,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Pre-monsoon heat gives way to occasional heavy showers, with high humidity making conditions feel oppressive."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon month with frequent heavy rainfall, high humidity, and possible flooding around low-lying areas."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon continues with persistent rain and muggy conditions, though the Taj Mahal in mist can be atmospheric."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rains begin to ease but humidity remains high and occasional downpours are still common."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Post-monsoon cooling brings pleasant days and lower humidity, marking the start of the tourist high season."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable and dry with clear skies, ideal conditions for visiting the Taj Mahal and other monuments."
+    },
+    {
+      "month": 12,
+      "avgHighC": 23,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool winter weather with cold nights and mild days; fog can occasionally reduce visibility in the mornings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

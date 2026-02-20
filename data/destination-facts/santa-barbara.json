@@ -1,0 +1,115 @@
+{
+  "destinationId": "santa-barbara",
+  "city": "Santa Barbara",
+  "country": "United States",
+  "transportAdvice": "Santa Barbara is a walkable city, especially along the waterfront, State Street, and the historic downtown area. A local bus network serves most tourist areas, and taxis as well as ride-hailing services are readily available for reaching areas beyond walking distance.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy, but mild compared to most of the US, with pleasant sunny breaks between winter storms."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still the rainy season with occasional wet spells, though sunny days are common and temperatures remain mild."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and a mix of sunny and overcast days, with rain becoming less frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm and mostly dry, making it an excellent month for outdoor activities and beach walks."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "May Gray sets in with morning coastal fog and overcast skies, though afternoons often clear to reveal sunshine."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "June Gloom continues with frequent morning clouds, but temperatures are comfortable and rain is very rare."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with low humidity, ideal beach weather as the coastal fog largely retreats."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The warmest month of the year with reliably sunny skies and comfortable ocean breezes along the coast."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Often the best month to visit, with warm sunny days, low humidity, and minimal fog — a local favorite."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with clear skies, and the risk of Santa Ana winds bringing occasional very hot spells."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures cool gradually and the first rains of the season may arrive, but many days remain sunny and mild."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool winter weather returns with the possibility of rain, though the climate stays mild and festive for the holiday season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

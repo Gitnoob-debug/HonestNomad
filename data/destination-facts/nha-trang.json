@@ -1,0 +1,115 @@
+{
+  "destinationId": "nha-trang",
+  "city": "Nha Trang",
+  "country": "Vietnam",
+  "transportAdvice": "Nha Trang's central beach strip and main tourist areas are walkable, though the city spreads enough that motorbike taxis and metered taxis are widely available and affordable for longer trips. Public buses exist but are limited in coverage and frequency for tourist zones, so most visitors rely on taxis or rented motorbikes to get around.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasant with warm sunny days, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued dry conditions with clear skies and comfortable temperatures ideal for beach activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with excellent beach weather and calm seas."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry, with sea conditions still favorable for water sports."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Heat builds and occasional showers begin, though sunny periods still dominate."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly humid with more frequent afternoon showers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainy season is underway with regular showers, though mornings are often clear."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to July with warm temperatures and intermittent rain throughout the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainfall increases significantly as the wet season peaks, with rough seas possible."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with heavy rain and potential for tropical storms affecting the coast."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still rainy and overcast with lingering storm risk, generally considered the least favorable month to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain eases toward the end of the month as the dry season begins to return, with cooler and more comfortable evenings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

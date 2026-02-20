@@ -1,0 +1,115 @@
+{
+  "destinationId": "kaohsiung",
+  "city": "Kaohsiung",
+  "country": "Taiwan",
+  "transportAdvice": "Kaohsiung has a well-developed metro system and bus network that connects most major tourist attractions, making it easy to get around without a car. Taxis and scooter rentals are widely available, and many central areas around the harbor and cultural sites are pleasant to explore on foot or by bicycle using the city's public bike-share docks.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and mostly sunny with cool evenings, making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and dry with occasional overcast days, still very pleasant for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and conditions remain largely dry and comfortable."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Getting noticeably warmer and more humid with occasional showers starting to appear."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with increasing rainfall as the wet season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full wet season with frequent heavy downpours, high heat, and the start of typhoon season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest month of the year with intense heat, high humidity, and typhoon risk."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Remains very hot and wet with continued typhoon risk and frequent afternoon storms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still hot and humid with typhoon season at its peak, expect heavy rain periods."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures begin to ease and rainfall decreases, though humidity remains noticeable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm and increasingly dry, one of the better months for outdoor exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool, dry, and sunny with comfortable temperatures ideal for walking and sightseeing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

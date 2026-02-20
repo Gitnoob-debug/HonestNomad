@@ -1,0 +1,115 @@
+{
+  "destinationId": "reykjavik",
+  "city": "Reykjavik",
+  "country": "Iceland",
+  "transportAdvice": "Reykjavik's compact city center is very walkable, with most major attractions within easy reach on foot. A public bus network covers the city and surrounding areas, and taxis are readily available, though they are expensive by international standards.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Dark, cold, and stormy with very limited daylight, but prime time for northern lights viewing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and wintry with frequent storms, though daylight hours begin to noticeably increase."
+    },
+    {
+      "month": 3,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Early spring brings slightly milder temperatures and rapidly lengthening days, though snow is still possible."
+    },
+    {
+      "month": 4,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions improve with longer days and occasional sunshine, though wind and rain remain common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A pleasant shoulder month with mild temperatures, green landscapes emerging, and extended daylight."
+    },
+    {
+      "month": 6,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The midnight sun arrives, offering nearly 24 hours of daylight and the most comfortable outdoor conditions of the year."
+    },
+    {
+      "month": 7,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long bright nights, ideal for hiking and outdoor exploration."
+    },
+    {
+      "month": 8,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still warm and bright with gradually shortening nights, remaining one of the best months to visit."
+    },
+    {
+      "month": 9,
+      "avgHighC": 11,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Autumn arrives with cooler temperatures, increased rainfall, and the return of dark enough skies for northern lights."
+    },
+    {
+      "month": 10,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably colder and wetter with frequent storms, but northern lights opportunities increase significantly."
+    },
+    {
+      "month": 11,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Dark and cold with very short days, strong winds, and a wintry atmosphere settling in across the city."
+    },
+    {
+      "month": 12,
+      "avgHighC": 2,
+      "avgLowC": -3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The darkest month of the year with only a few hours of daylight, but festive atmosphere and excellent northern lights conditions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "hoi-an",
+  "city": "Hoi An",
+  "country": "Vietnam",
+  "transportAdvice": "Hoi An's Ancient Town is compact and highly walkable, with bicycles and cyclos widely available for short trips around the historic center. Taxis and motorbike taxis are readily available for reaching the beach at An Bang or nearby Da Nang, and no formal metro or tram system serves the area.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and mostly dry with occasional light showers, making it one of the more comfortable months to explore the Ancient Town."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny with low rainfall, ideal for sightseeing and beach visits."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb with plenty of sunshine and very little rain, great for outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with long sunny days, perfect for beach time at An Bang."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat intensifies and humidity rises, with occasional afternoon thunderstorms beginning to appear."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with sporadic rain showers, though beach weather is still generally good in the mornings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to June with warm temperatures and intermittent showers; early mornings are best for outdoor exploration."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with increasing rain frequency as the wet season approaches; typhoon risk begins."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wet season peaks with heavy rainfall and a notable risk of typhoons and flooding in the Ancient Town."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainiest month of the year; flooding is common in the old quarter and travel plans may be disrupted."
+    },
+    {
+      "month": 11,
+      "avgHighC": 26,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain remains frequent and flooding is still possible, though conditions begin to ease toward the end of the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 24,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and drier than the preceding months, with a pleasant atmosphere returning to the Ancient Town as the peak tourist season begins."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

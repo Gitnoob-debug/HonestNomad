@@ -1,0 +1,115 @@
+{
+  "destinationId": "valparaiso",
+  "city": "Valparaíso",
+  "country": "Chile",
+  "transportAdvice": "Valparaíso is a hilly port city where walking is practical in the flat port and downtown areas, though the steep cerros (hills) are best navigated via the historic funicular elevators or local minibuses; taxis and shared colectivo taxis are widely available for longer distances. Public buses connect the city to nearby Viña del Mar and other coastal towns, making it easy to explore the region without a car.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer with warm, dry days and a refreshing coastal breeze — the best time to explore the city's outdoor murals and hillside neighborhoods."
+    },
+    {
+      "month": 2,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still warm and dry with long sunny days, though coastal fog can roll in during mornings before clearing by midday."
+    },
+    {
+      "month": 3,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Late summer brings slightly cooler evenings while days remain pleasant and largely rain-free."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn arrives with milder temperatures and occasional light rain showers beginning to appear."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter, with overcast skies becoming more frequent — a light jacket and rain layer are advisable."
+    },
+    {
+      "month": 6,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Winter sets in with regular rainfall and grey skies; the city is quieter and accommodation is cheaper."
+    },
+    {
+      "month": 7,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The coldest and wettest month of the year, with persistent rain and chilly winds off the Pacific."
+    },
+    {
+      "month": 8,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in winter with frequent rain, though days are slowly beginning to lengthen toward month's end."
+    },
+    {
+      "month": 9,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with improving weather, fewer rainy days, and the city's colorful hillsides starting to feel lively again."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly sunny with occasional showers; a pleasant shoulder-season month for sightseeing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Late spring brings warm, mostly dry days and a festive atmosphere as the city gears up for the summer season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer with long daylight hours, warm temperatures, and low rainfall — an excellent time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

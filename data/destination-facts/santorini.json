@@ -1,0 +1,115 @@
+{
+  "destinationId": "santorini",
+  "city": "Santorini",
+  "country": "Greece",
+  "transportAdvice": "Santorini has a public bus network connecting major villages and beaches, though services can be infrequent outside peak season; taxis are available but limited in number and should be booked in advance during summer. Walking between villages is often impractical due to steep terrain and distances, so renting an ATV, scooter, or car is a popular and practical option for exploring the island.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with strong winds; the island is quiet and uncrowded, suited to those seeking solitude."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with mild temperatures and periodic rain; tourist infrastructure is minimal at this time of year."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly warmer days and occasional sunshine, though rain and wind are still common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring weather with comfortable temperatures and little rain; a good time to visit before the summer crowds arrive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with very little rainfall; ideal conditions for sightseeing and early-season beach visits."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and reliably sunny with minimal chance of rain; the island begins to fill with tourists and the famous meltemi winds offer some relief."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with intense sunshine and strong meltemi winds; expect large crowds and high prices throughout the island."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest and busiest month of the year; beaches and villages are at maximum capacity and advance bookings are essential."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with slightly fewer crowds than August; sea temperatures are at their highest, making it excellent for swimming."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and mostly pleasant with the occasional shower; a popular shoulder-season choice offering good weather and reduced crowds."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with increasing rainfall and wind; many businesses begin to close as the tourist season winds down."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and quiet with a chance of rain; the island takes on a peaceful, local character with very few tourists present."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

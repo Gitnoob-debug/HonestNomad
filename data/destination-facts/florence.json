@@ -1,0 +1,115 @@
+{
+  "destinationId": "florence",
+  "city": "Florence",
+  "country": "Italy",
+  "transportAdvice": "Florence's historic center is compact and highly walkable, making it easy to reach most major attractions on foot. The city has a bus network and limited tram lines that serve broader areas, and taxis are readily available at designated stands throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and occasionally foggy winter days with short daylight hours and few crowds."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with occasional rain, but early signs of spring begin to appear toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and variable weather with increasing sunshine, though rain showers remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming gardens and comfortable temperatures for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny with occasional afternoon showers; one of the most enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry with long sunny days and growing tourist crowds."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with intense sun and very high visitor numbers; early mornings are best for outdoor sightseeing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Equally hot as July with some locals leaving the city; some smaller shops and restaurants may close."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with cooling evenings and fewer crowds than peak summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn temperatures with increased rainfall and beautiful fall foliage in surrounding hills."
+    },
+    {
+      "month": 11,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and frequently rainy with shorter days; indoor museums and galleries are particularly appealing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter weather with festive Christmas markets and decorations; occasional frost possible at night."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

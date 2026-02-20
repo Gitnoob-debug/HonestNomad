@@ -1,0 +1,115 @@
+{
+  "destinationId": "tbilisi",
+  "city": "Tbilisi",
+  "country": "Georgia",
+  "transportAdvice": "Tbilisi has a metro system and an extensive bus network that covers most tourist areas, making public transit a practical and affordable option; taxis are widely available throughout the city and can be hailed on the street or booked through local dispatch services. The historic Old Town and many key attractions are compact enough to explore comfortably on foot.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and occasionally frosty with overcast skies; light snow is possible but heavy snowfall is uncommon in the city."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with lingering winter conditions; rain and occasional sleet are possible as the month progresses."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures but frequent rain showers; the city begins to green up noticeably."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and pleasant but April is one of the rainiest months; expect frequent showers interspersed with sunny spells."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Comfortably warm with lush greenery, though rain remains frequent; a good month to visit despite the showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm to hot with occasional afternoon thunderstorms; generally sunny and a popular time for visitors."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and mostly dry; one of the sunniest months of the year and ideal for outdoor sightseeing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continues hot and dry similar to July; evenings are warm and the city's outdoor culture is in full swing."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm with cooling evenings; early autumn is widely considered one of the best times to visit Tbilisi."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and autumnal with colorful foliage; rain increases toward the end of the month but conditions remain agreeable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and wetter; overcast days become more common as winter approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with occasional frost; light snow is possible and the city takes on a festive atmosphere around the holidays."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

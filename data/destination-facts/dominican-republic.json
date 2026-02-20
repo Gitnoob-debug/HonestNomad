@@ -1,0 +1,115 @@
+{
+  "destinationId": "dominican-republic",
+  "city": "Punta Cana",
+  "country": "Dominican Republic",
+  "transportAdvice": "Punta Cana is a resort-heavy destination where most visitors stay within all-inclusive complexes, making walking between major attractions largely impractical due to distances and road conditions. Taxis are widely available at hotels and airports, and shared shuttle vans serve popular tourist corridors, though negotiating fares in advance is advisable.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "moderate",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "January is one of the driest and most pleasant months, with warm sunny days and cool evenings ideal for beach activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "February remains dry and comfortable, making it a peak travel month with excellent beach and water conditions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "March brings slightly warmer temperatures and continued low rainfall, offering great conditions for outdoor and water activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April sees temperatures rising and occasional afternoon showers beginning, though overall conditions remain favorable for travel."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "May marks the start of the wetter season with increased humidity and more frequent rain showers, often brief and in the afternoon."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "June is hot and humid with regular rainfall, though mornings are typically sunny and beach conditions are still enjoyable."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "July is warm and humid with moderate rain risk; it remains a popular travel month due to school holidays despite the heat."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "August sits within peak hurricane season and brings the highest rainfall probability, with heavy downpours possible at any time."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "September is the most active month of hurricane season with the greatest storm risk and frequent heavy rain; travel insurance is strongly advised."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October remains within hurricane season with significant rainfall and high humidity, though storm frequency begins to taper toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "November sees a gradual transition to drier conditions with decreasing rain and more comfortable temperatures as the high season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "December is dry, sunny, and warm, marking the return of peak season with ideal beach weather and festive holiday atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "hvar",
+  "city": "Hvar",
+  "country": "Croatia",
+  "transportAdvice": "Hvar Town is compact and walkable, with most attractions, beaches, and restaurants accessible on foot; the island is served by local buses connecting major settlements, and water taxis provide links to nearby beaches and neighboring islands. Taxis and boat transfers are generally available for longer journeys, and ferries connect Hvar to the mainland and other Dalmatian islands.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and quiet winter month with occasional rain and very few tourists."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with some rain, but Hvar enjoys more sunshine than most of the Mediterranean even in winter."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and the island starts to feel more alive, though crowds remain thin."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with mild temperatures and blooming vegetation; a good time for hiking and sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, with the tourist season beginning and sea temperatures becoming inviting."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot, sunny, and dry with long days; beaches and nightlife begin to fill up as peak season approaches."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with abundant sunshine, crowded beaches, and a vibrant nightlife scene."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The busiest and hottest month; expect full beaches, high prices, and lively atmosphere throughout the island."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and still very sunny with slightly fewer crowds; one of the best months to visit for a balance of weather and comfort."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn temperatures with increasing rainfall; most tourist facilities remain open early in the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and wetter as the off-season sets in and many businesses close for winter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and quiet with occasional rain; the island is very peaceful but most tourist amenities are limited."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "salar-de-uyuni",
+  "city": "Uyuni",
+  "country": "Bolivia",
+  "transportAdvice": "Uyuni town is small and walkable, with most hotels, restaurants, and the train station reachable on foot from the central plaza. For excursions to the salt flats and surrounding attractions, organized 4x4 jeep tours are the standard and practical option, as public transport does not serve these remote areas.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 15,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Peak wet season with frequent afternoon rains that flood the salt flats, creating the famous mirror effect but making some areas inaccessible."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Continued heavy rainfall keeps the salt flats flooded, offering spectacular reflections but limiting off-road exploration."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Rains begin to ease toward month's end but the flats remain partially flooded, still offering mirror conditions on calm days."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Transitional month as the wet season winds down, with drier days emerging and the salt crust beginning to reappear."
+    },
+    {
+      "month": 5,
+      "avgHighC": 13,
+      "avgLowC": -2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season begins with clear skies, cold nights, and the iconic white salt hexagons becoming fully visible across the flats."
+    },
+    {
+      "month": 6,
+      "avgHighC": 12,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with brilliant sunshine, very cold nights, and ideal conditions for photography and 4x4 exploration."
+    },
+    {
+      "month": 7,
+      "avgHighC": 12,
+      "avgLowC": -6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The coldest month of the year with freezing nights, but crystal-clear days and the best visibility for landscape photography."
+    },
+    {
+      "month": 8,
+      "avgHighC": 13,
+      "avgLowC": -4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and cold with excellent conditions across the salt flats, and strong winds possible on the open expanse."
+    },
+    {
+      "month": 9,
+      "avgHighC": 15,
+      "avgLowC": -1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to warm slightly while skies remain clear, making this a comfortable and popular month to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm sunny days with minimal rain and good access across the dry salt crust before the wet season returns."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early wet season brings occasional afternoon thunderstorms, with some days still dry and suitable for exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Wet season is well underway with regular rainfall and the salt flats beginning to flood, heralding the return of mirror conditions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

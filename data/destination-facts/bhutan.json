@@ -1,0 +1,115 @@
+{
+  "destinationId": "bhutan",
+  "city": "Paro",
+  "country": "Bhutan",
+  "transportAdvice": "Paro is a compact valley town where most key sites are reachable on foot or by short drive; taxis are available for hire and are the primary mode of transport for tourists, as public bus services are limited and do not reliably cover major attractions. All visitors travel with a licensed guide as required by Bhutanese tourism policy, which typically includes arranged transportation between sites.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": -4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold, dry, and clear winter days with frosty nights and excellent mountain visibility."
+    },
+    {
+      "month": 2,
+      "avgHighC": 12,
+      "avgLowC": -2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but gradually warming, with crisp air and mostly clear skies."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring begins with mild days, blooming rhododendrons, and comfortable trekking conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with occasional showers; one of the best months to visit with lush greenery emerging."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pre-monsoon warmth with increasing cloud cover and some afternoon rain showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon season begins bringing frequent heavy rain, lush landscapes, and reduced mountain views."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon with persistent rain and high humidity; outdoor activities can be disrupted."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy monsoon rainfall with very green scenery but muddy trails and overcast skies."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Monsoon begins to retreat, with clearing skies and refreshed landscapes toward month end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Autumn brings crisp, clear days with stunning mountain views and ideal trekking conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with excellent visibility; one of the most popular months for visiting Bhutan."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter sets in with frosty nights, dry air, and clear blue skies during the day."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

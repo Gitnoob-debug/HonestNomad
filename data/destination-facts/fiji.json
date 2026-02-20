@@ -1,0 +1,115 @@
+{
+  "destinationId": "fiji",
+  "city": "Nadi",
+  "country": "Fiji",
+  "transportAdvice": "Nadi's main tourist areas are spread out and not easily walkable, so taxis and minibuses are the primary ways to get around; taxis are widely available and should be negotiated or metered before travel. Public buses connect major towns and the airport at low cost, though they can be slow and infrequent, making them better suited for budget travelers than those on tight schedules.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+12",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent heavy downpours and warm, humid conditions typical of a tropical summer."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet season with high cyclone risk and persistent humidity; rain can be intense but often short-lived."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with warm temperatures and a continued chance of tropical cyclones."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease toward the end of the month as the wet season starts transitioning out."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions become more pleasant as humidity drops and rainfall becomes less frequent and intense."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season begins with comfortable temperatures, lower humidity, and mostly sunny skies."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the coolest and driest months, making it a popular time to visit with ideal beach and outdoor conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry season with reliably sunny weather and comfortable temperatures; a peak tourist month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with excellent visibility for snorkeling and diving as the dry season continues."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and occasional showers return as the wet season approaches."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Humidity increases noticeably and afternoon thunderstorms become more common as the wet season builds."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wet season is underway with hot, humid days and frequent heavy rain, though sunshine still appears between showers."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

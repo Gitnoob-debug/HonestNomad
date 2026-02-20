@@ -1,0 +1,115 @@
+{
+  "destinationId": "martinique",
+  "city": "Fort-de-France",
+  "country": "Martinique",
+  "transportAdvice": "Fort-de-France is partially walkable in the city center, though the hilly terrain and spread-out attractions make taxis and rental cars the most practical options for exploring the island; a public bus network connects the city to surrounding towns and beaches, though schedules can be infrequent. Taxis are widely available but relatively expensive, and renting a car is recommended for visitors who want to explore beyond the capital.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "January is one of the driest and most pleasant months, with warm sunny days and comfortable evenings."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "February remains dry and sunny, making it an excellent time to visit beaches and explore the island."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "March sees slightly warmer temperatures with continued dry conditions and plenty of sunshine."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April marks the transition toward the wet season, with occasional showers beginning to appear alongside warm weather."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "May brings increasing humidity and more frequent afternoon showers as the wet season begins to establish itself."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "June is notably wetter and more humid, with regular rainfall and the start of the Atlantic hurricane season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "July remains firmly in the wet season with frequent heavy showers, though rain often comes in short bursts."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "August is one of the hottest and wettest months, with elevated hurricane risk and high humidity throughout."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "September is the peak of hurricane season and among the rainiest months, with persistent heat and humidity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October remains wet and warm as the hurricane season continues, though storm frequency begins to ease toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "November sees a gradual transition out of the wet season, with decreasing rainfall but still warm and humid conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "December returns to drier, more comfortable conditions, making it a popular time for visitors seeking pleasant tropical weather."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

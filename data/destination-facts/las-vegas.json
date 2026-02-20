@@ -1,0 +1,115 @@
+{
+  "destinationId": "las-vegas",
+  "city": "Las Vegas",
+  "country": "United States",
+  "transportAdvice": "The Las Vegas Strip and downtown areas are walkable, though distances between resorts can be deceptively long in intense heat. A public bus system and monorail serve the main tourist corridor, and taxis plus rideshare vehicles are widely available around the clock.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry winter days with cold nights; light layers are recommended."
+    },
+    {
+      "month": 2,
+      "avgHighC": 16,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and mostly sunny with occasional cool spells and low rainfall."
+    },
+    {
+      "month": 3,
+      "avgHighC": 21,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring warmth begins with comfortable daytime temperatures and cool evenings."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with ideal outdoor conditions and very little rain."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot days arrive early; sun protection and hydration become essential."
+    },
+    {
+      "month": 6,
+      "avgHighC": 39,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense desert heat sets in; outdoor activities are best limited to early morning or evening."
+    },
+    {
+      "month": 7,
+      "avgHighC": 41,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer heat with occasional monsoon thunderstorms bringing brief but heavy rain."
+    },
+    {
+      "month": 8,
+      "avgHighC": 39,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still very hot with continued monsoon activity and sporadic afternoon storms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 34,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat begins to ease slightly, making outdoor exploration more manageable toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable autumn temperatures make this one of the most pleasant months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and dry with cool evenings; a good time for outdoor sightseeing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool winter conditions return with cold nights; indoor attractions remain fully enjoyable."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

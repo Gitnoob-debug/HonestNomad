@@ -1,0 +1,115 @@
+{
+  "destinationId": "hue",
+  "city": "Hue",
+  "country": "Vietnam",
+  "transportAdvice": "Hue's historic center and Imperial Citadel area are reasonably walkable, though distances between major sites can be large; cycling and motorbike rentals are popular and practical ways to explore. Local buses serve the city and surrounding areas, and metered taxis are widely available for longer journeys or when carrying luggage.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 21,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool and overcast with occasional drizzle; one of the cooler months, so a light jacket is advisable."
+    },
+    {
+      "month": 2,
+      "avgHighC": 22,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Conditions begin to improve with slightly less rain and warmer days, though mornings remain cool."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant and warming with lower rainfall, making it a comfortable time to explore outdoor sites."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with low rainfall; one of the better months to visit before the heat peaks."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and increasingly humid with afternoon showers becoming more frequent as the wet season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 34,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Very hot and humid with regular afternoon thunderstorms; midday heat can be intense."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to June with persistent heat and humidity; rain showers provide brief relief from the heat."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with increasing rainfall as the region transitions toward the main wet season."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wet season intensifies significantly; heavy and prolonged rainfall is common and flooding is possible."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with frequent heavy rain and a notable risk of typhoons and flooding."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very wet with persistent rain and grey skies; travel plans may be disrupted by weather."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease toward month's end but conditions remain cool and damp overall."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

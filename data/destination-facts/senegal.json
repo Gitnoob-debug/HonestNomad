@@ -1,0 +1,115 @@
+{
+  "destinationId": "senegal",
+  "city": "Dakar",
+  "country": "Senegal",
+  "transportAdvice": "Dakar has a network of local minibuses and shared taxis that cover most areas of the city, though they can be crowded and confusing for first-time visitors. Taxis are widely available and relatively affordable, while walking is practical in compact neighborhoods like the Plateau but less so across the sprawling city.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with pleasant breezes, one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny with mild temperatures, excellent conditions for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry, still comfortable before the heat of late spring builds."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise noticeably, remaining mostly dry and sunny."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and hazy with occasional harmattan dust, very little rainfall expected."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The rainy season begins to approach, bringing increased humidity and occasional showers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season with frequent heavy downpours, often in the afternoon or evening."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with high humidity and regular rainfall, travel can be disrupted."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the rainy season with heavy showers and oppressive humidity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rains begin to taper off but humidity remains high and temperatures peak."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season returns with cooling temperatures and much more comfortable conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny — a popular time to visit as the harmattan brings fresh northerly winds."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

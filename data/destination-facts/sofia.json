@@ -1,0 +1,115 @@
+{
+  "destinationId": "sofia",
+  "city": "Sofia",
+  "country": "Bulgaria",
+  "transportAdvice": "Sofia has a well-developed public transit network including a metro, trams, and buses that connect most tourist areas efficiently and affordably. The city center is compact and walkable, and taxis are widely available for longer journeys or late-night travel.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often grey with occasional snow, making it one of the chilliest months for visitors."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with possible snow and frost, though days gradually begin to lengthen."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures but expect variable weather and occasional rain showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring conditions with blooming parks, though rain showers remain fairly common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with comfortable temperatures, making it an excellent month to explore the city on foot."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with occasional afternoon thunderstorms and long sunny days."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and mostly sunny, the driest month of the year and ideal for outdoor sightseeing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued hot and dry conditions similar to July, with long bright days and minimal rainfall."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with occasional rain and a pleasant drop from summer heat."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and increasingly overcast with autumn foliage adding colour to the city's parks and surroundings."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cold and damp with fog possible, signalling the approach of winter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with possible snow and festive atmosphere in the city centre."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

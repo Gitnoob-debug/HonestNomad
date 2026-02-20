@@ -1,0 +1,115 @@
+{
+  "destinationId": "edinburgh",
+  "city": "Edinburgh",
+  "country": "United Kingdom",
+  "transportAdvice": "Edinburgh's compact Old Town and New Town are very walkable for most tourist attractions, with the Royal Mile and Princes Street easily covered on foot. The city also has a bus network and a tram line connecting the airport to the city centre, and taxis are readily available throughout.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with short daylight hours, occasional frost and wind make it feel colder than the thermometer suggests."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and grey with persistent rain and wind, though daylight begins to noticeably lengthen toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly milder temperatures but changeable conditions with a mix of sunshine and showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly mild with longer days and occasional sunny spells, though cool winds and showers remain common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the more agreeable months with brighter skies and comfortable temperatures, though a jacket is still advisable."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and bright with very long days, though rain is never far away and evenings can still be cool."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month and peak festival season, with long daylight hours but a reliable chance of showers throughout."
+    },
+    {
+      "month": 8,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lively during the famous August festivals, with similar conditions to July including mixed sunshine and rain."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler temperatures and shorter days, with a pleasant crispness and occasional golden sunny spells."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn deepens, with strong winds and frequent overcast skies."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and damp with limited daylight, rain and wind are frequent and temperatures can drop sharply at night."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and often wet with the shortest days of the year, though festive markets and Hogmanay celebrations add seasonal charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

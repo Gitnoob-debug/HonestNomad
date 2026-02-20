@@ -1,0 +1,115 @@
+{
+  "destinationId": "siargao",
+  "city": "Siargao",
+  "country": "Philippines",
+  "transportAdvice": "Siargao is a relatively small island where tourist areas like General Luna are walkable or easily covered by rented motorbike, which is the most popular and practical way to get around. Tricycles serve as the main form of public transit between towns, and habal-habal (motorcycle taxis) are widely available for short trips.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cooler and occasionally rainy with northeast trade winds, but still pleasant for surfing and beach activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Conditions begin to improve with slightly less rainfall and warm temperatures, good for outdoor exploration."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the drier months with warm sunny days, ideal for surfing and island hopping."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and largely dry, excellent beach weather and good surf conditions at Cloud 9."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still mostly dry and hot, one of the best months to visit before the wet season begins."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to increase as the wet season approaches, though sunny spells remain common."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wetter and more overcast with frequent showers, but surf swells can be excellent for experienced surfers."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rainfall is common and typhoon risk increases, though the island remains accessible between weather systems."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the wet season with significant rainfall and elevated typhoon risk, travel insurance is strongly advised."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still wet with lingering typhoon risk, but surf conditions can be spectacular for advanced surfers."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease toward the end of the month, marking a gradual transition to drier conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cooler and occasionally rainy as northeast winds pick up, but the island sees an uptick in visitors over the holiday season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

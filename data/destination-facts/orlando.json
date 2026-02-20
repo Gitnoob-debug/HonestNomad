@@ -1,0 +1,115 @@
+{
+  "destinationId": "orlando",
+  "city": "Orlando",
+  "country": "United States",
+  "transportAdvice": "Orlando is a car-centric city where walking between attractions is generally impractical due to distances; a light rail system connects the airport to the downtown area, and local bus services exist but have limited coverage of major theme park corridors. Taxis and ride-hailing vehicles are widely available, and most visitors rely on personal vehicles or resort shuttle services to get around.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant winter weather with cool nights and comfortable daytime temperatures, making it one of the more agreeable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Similar to January, with slightly warmer days and low rainfall, ideal for outdoor theme park visits."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm spring conditions begin to set in with longer sunny days and minimal rain, though crowds increase around spring break."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with comfortable humidity levels, one of the best months for outdoor activities."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity begin to build noticeably, with afternoon showers becoming more frequent as summer approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very humid with daily afternoon thunderstorms typical of Florida's wet season; mornings are usually clearer."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest and wettest month of the year, with intense heat, high humidity, and near-daily thunderstorms in the afternoon."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Conditions remain very similar to July with persistent heat, humidity, and frequent afternoon storms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still hot and stormy with the wet season continuing; September also falls within hurricane season, though direct impacts are rare."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease and rainfall decreases, making October a popular and more comfortable time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly mild with low humidity and minimal rain, offering good conditions for theme parks and outdoor exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry winter weather returns, with festive holiday decorations across the major attractions adding seasonal appeal."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "hiroshima",
+  "city": "Hiroshima",
+  "country": "Japan",
+  "transportAdvice": "Hiroshima has an efficient tram network that connects most major tourist sites, including the Peace Memorial Park and Hiroshima Castle, making it easy to get around without a car. Taxis are widely available and metered, and the city center is compact enough for comfortable walking between many attractions.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with occasional frost, clear skies are common making it a crisp but manageable time to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but early plum blossoms begin to appear, offering a hint of the coming spring."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures warm noticeably and cherry blossoms begin to bloom toward the end of the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak cherry blossom season makes this one of the most beautiful and popular months to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with lush greenery, ideal conditions for outdoor sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season brings frequent showers and rising humidity, making it feel muggy and warm."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with heavy rainfall early in the month before the rainy season typically ends."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with intense heat and humidity; the Peace Memorial Ceremony takes place on August 6th."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Typhoon season brings a risk of heavy rain and strong winds, though heat begins to ease toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn temperatures and early fall foliage make this an excellent month for sightseeing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Autumn foliage peaks and the weather is cool and dry, one of the best months to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and quiet with a festive atmosphere, occasional frost is possible but snow is rare in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

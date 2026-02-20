@@ -1,0 +1,115 @@
+{
+  "destinationId": "guilin",
+  "city": "Guilin",
+  "country": "China",
+  "transportAdvice": "Guilin has a public bus network that covers most tourist areas, and taxis are widely available and affordable throughout the city. The central riverside areas and key attractions like the Li River waterfront are walkable, though reaching outlying sites such as Yangshuo typically requires a bus, boat, or hired vehicle.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with occasional mist over the karst peaks, making for atmospheric but chilly sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise slightly but rain becomes more frequent, and fog often clings to the limestone hills."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Spring arrives with warming temperatures and increasing rainfall, creating lush green scenery but muddy trails."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warm and frequently rainy, the Li River swells and the landscape turns vivid green — beautiful but expect wet days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very wet with heavy downpours common; the karst scenery is stunning but flooding can occasionally disrupt river cruises."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season with high heat and humidity; expect frequent afternoon thunderstorms and lush but steamy conditions."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with slightly less rain than June; mornings can be clear and pleasant before afternoon heat builds."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to July — hot, humid, and occasionally stormy, but river levels remain good for cruises."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures ease slightly and rain decreases, making this a pleasant transitional month for outdoor exploration."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the best months to visit — comfortably warm, mostly dry, and the karst scenery is at its most photogenic."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and largely dry with crisp air and good visibility, ideal for hiking and river activities."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with the least rainfall of the year; misty mornings add drama to the landscape but pack warm layers."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

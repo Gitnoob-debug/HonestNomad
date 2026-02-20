@@ -1,0 +1,115 @@
+{
+  "destinationId": "istanbul",
+  "city": "Istanbul",
+  "country": "Turkey",
+  "transportAdvice": "Istanbul has an extensive public transit network including metro, tram, bus, and ferry lines that connect most major tourist areas on both the European and Asian sides; the historic peninsula is walkable but hilly, and taxis are widely available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently rainy with occasional snow, making it the least comfortable month for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and wet with a chance of snow, though days can occasionally brighten between rain spells."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild but unpredictable weather with a mix of sunny days and showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring conditions with blooming tulips and comfortable temperatures for exploring on foot."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny, one of the best months to visit before summer crowds and heat arrive."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with long daylight hours, ideal for outdoor sightseeing and Bosphorus cruises."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with very little rain, peak tourist season with busy attractions and lively nightlife."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Similar to July, hot and dry with high visitor numbers; early mornings are best for outdoor exploration."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with thinning crowds, making it an excellent time to visit major sites comfortably."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn weather with increasing rainfall, but still enjoyable for sightseeing with fewer tourists."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn deepens, with grey skies becoming more frequent."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and rainy with a festive atmosphere in the city, though outdoor sightseeing can be uncomfortable."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

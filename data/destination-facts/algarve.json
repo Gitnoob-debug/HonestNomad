@@ -1,0 +1,115 @@
+{
+  "destinationId": "algarve",
+  "city": "Algarve",
+  "country": "Portugal",
+  "transportAdvice": "The Algarve has a regional bus network connecting major towns and coastal resorts, though services can be infrequent in rural areas, making a rental car the most practical option for exploring the region. Taxis and ride-hailing are available in larger towns like Faro, Albufeira, and Lagos, and many resort areas are walkable once you arrive.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winter days with occasional rain showers; quiet and uncrowded, good for sightseeing but not beach weather."
+    },
+    {
+      "month": 2,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool and occasionally wet, but almond blossoms begin to appear inland, offering scenic countryside walks."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and spring flowers bloom; rain is still possible but sunny days become more frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring weather with warm days and low rainfall; ideal for hiking, cycling, and early-season beach visits."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely dry with long sunny days; beaches begin to fill and the sea starts to warm up."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and sunny with very little rain; excellent beach weather and the start of the busy summer tourist season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with virtually no rain; beaches are at their busiest and the sea is warm for swimming."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest month of the year with intense sunshine; expect large crowds at popular beaches and resorts."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still warm and sunny with slightly fewer crowds; one of the best months to visit for comfortable beach weather."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures cool noticeably and rain returns occasionally; quieter atmosphere with good conditions for outdoor activities."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild but increasingly wet and overcast; tourist crowds thin out significantly and prices drop."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool winter weather with regular rainfall; a quiet time to visit with a relaxed local atmosphere and low prices."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "tucson",
+  "city": "Tucson",
+  "country": "United States",
+  "transportAdvice": "Tucson has a limited public bus network that covers some tourist areas, but a car is strongly recommended for visiting most attractions, as the city is spread out and walkability is low outside of a few downtown districts. Taxis and ride-hail services are available, particularly near the airport and downtown.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, sunny winter days with cold nights and very little rainfall make January pleasant for outdoor sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and dry with warming afternoons, February is an excellent month for hiking and exploring the desert."
+    },
+    {
+      "month": 3,
+      "avgHighC": 24,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring arrives early with warm days and comfortable temperatures ideal for outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and sunny with very low humidity, April is one of the best months to visit Tucson."
+    },
+    {
+      "month": 5,
+      "avgHighC": 34,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry conditions begin in May; mornings are still pleasant but midday heat can be intense."
+    },
+    {
+      "month": 6,
+      "avgHighC": 39,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry, June sees some of the highest temperatures of the year; plan outdoor activities for early morning."
+    },
+    {
+      "month": 7,
+      "avgHighC": 37,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The summer monsoon season begins, bringing dramatic afternoon thunderstorms and noticeably higher humidity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 35,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon rains continue with frequent afternoon storms; the desert blooms and turns lush and green."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Monsoon activity tapers off and temperatures begin to ease, making late September increasingly comfortable."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm, dry, and sunny days return in October, making it one of the most popular months for visitors."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and clear with cool evenings, November is excellent for hiking and exploring the Sonoran Desert."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool winter weather with crisp, sunny days and cold nights; occasional frost is possible but snow is rare."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

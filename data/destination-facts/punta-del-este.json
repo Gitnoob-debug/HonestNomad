@@ -1,0 +1,115 @@
+{
+  "destinationId": "punta-del-este",
+  "city": "Punta del Este",
+  "country": "Uruguay",
+  "transportAdvice": "Punta del Este is walkable within its peninsula center, though distances between beaches and neighborhoods can be long, making taxis and local buses useful for getting around. Public buses connect the main tourist areas and are widely available, and taxis are easy to hail throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer with warm sunny days, ideal beach weather and the busiest tourist season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still full summer with hot days and lively beach atmosphere, crowds begin to thin slightly toward month end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late summer transitioning to early autumn, warm and pleasant with occasional showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn weather with cooler evenings and fewer tourists, good for relaxed sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and quieter, with overcast days becoming more frequent."
+    },
+    {
+      "month": 6,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool winter month with grey skies and occasional rain, most beach facilities closed or reduced."
+    },
+    {
+      "month": 7,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The coldest month of the year, damp and windy with very few tourists and a quiet local atmosphere."
+    },
+    {
+      "month": 8,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and overcast, though days gradually begin to lengthen toward month end."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional sunny breaks between showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring warms up noticeably, a pleasant time to visit before the summer crowds arrive."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Late spring with warm sunny days and the resort beginning to come alive ahead of peak season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer with hot weather, growing crowds, and the full resort atmosphere returning."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

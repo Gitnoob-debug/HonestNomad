@@ -1,0 +1,115 @@
+{
+  "destinationId": "kerala",
+  "city": "Kochi",
+  "country": "India",
+  "transportAdvice": "Kochi has a metro rail system that connects key areas of the city, and an extensive local bus network covers most tourist zones, though buses can be crowded during peak hours. Auto-rickshaws and taxis are widely available for shorter trips, and the historic Fort Kochi area is compact enough to explore comfortably on foot or by bicycle.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant and dry with warm sunny days, making it one of the best months to visit Kochi."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with comfortable evenings, ideal for sightseeing and outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb and humidity rises slightly, but conditions remain mostly dry and manageable."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and increasingly humid with occasional pre-monsoon showers beginning to appear toward month's end."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The southwest monsoon arrives, bringing heavy and frequent rainfall that can disrupt outdoor plans."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon month with persistent heavy rain, lush green landscapes, and significantly reduced tourist crowds."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon continues in full force with near-daily downpours; indoor cultural attractions are a better focus."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in monsoon season with heavy rain and high humidity, though the greenery is spectacular."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainfall begins to ease slightly toward the end of the month but conditions remain wet and humid."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The northeast monsoon brings intermittent showers; weather is transitional and can be unpredictable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain becomes less frequent and conditions improve noticeably, marking the start of the tourist season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry, warm, and pleasant with comfortable humidity levels, making it a peak month for visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

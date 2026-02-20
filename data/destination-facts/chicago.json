@@ -1,0 +1,115 @@
+{
+  "destinationId": "chicago",
+  "city": "Chicago",
+  "country": "United States",
+  "transportAdvice": "Chicago has an extensive elevated train system (the L) and bus network covering all major neighborhoods and tourist areas. The city center and lakefront are very walkable, and taxis and rideshare services are widely available throughout the metro area.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Bitterly cold with frequent wind chill making it feel much colder; bundle up with heavy winter layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 1,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still very cold with occasional snowstorms, though days begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 7,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with wide temperature swings and a mix of late-winter snow and early spring rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring emerges with warming temperatures, though cool lake breezes can keep the waterfront chilly."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm with spring in full bloom and the beginning of outdoor festival season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and sunny, marking the start of summer with long days and vibrant outdoor events."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The warmest month with hot, humid conditions and occasional thunderstorms; peak outdoor festival season."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid like July, with continued outdoor events and beach activity along the lakefront."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant early autumn with warm days, cool evenings, and decreasing humidity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp fall weather with beautiful foliage and comfortable temperatures for sightseeing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rapidly cooling with increasing wind; the first snow of the season often arrives by late November."
+    },
+    {
+      "month": 12,
+      "avgHighC": 1,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and snowy with festive holiday decorations, winter markets, and the famous Christkindlmarket."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

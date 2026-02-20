@@ -1,0 +1,115 @@
+{
+  "destinationId": "corfu",
+  "city": "Corfu",
+  "country": "Greece",
+  "transportAdvice": "Corfu Town's old town is walkable, but reaching beaches and villages across the island requires transport; a public bus network connects major towns and resorts, though services can be infrequent outside peak season. Taxis are widely available, and renting a car or scooter is a popular and practical option for exploring the island independently.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and wet with frequent rain showers; the island is quiet and uncrowded, suited for sightseeing rather than beach activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cool and rainy with occasional mild spells; lush green landscapes begin to emerge but beach weather is far off."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and rain becomes less frequent; pleasant for walking and exploring historic sites."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring brings warm, sunny days with occasional showers; wildflowers bloom and the island feels fresh and uncrowded."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with very little rain; ideal conditions for sightseeing and early-season swimming."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and reliably sunny; beach season is in full swing and the sea is comfortably warm for swimming."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with long sunny days and virtually no rain; expect busy beaches and lively resort areas."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Equally hot and sunny as July; the busiest tourist month with warm sea temperatures perfect for water activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and still very sunny with the sea retaining summer warmth; crowds thin out making it an excellent time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with increasing cloud cover and occasional rain; good for hiking and cultural exploration."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler with regular rainfall; most beach resorts close but the island remains accessible and peaceful."
+    },
+    {
+      "month": 12,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and wet with short days; Corfu Town has a quiet charm in winter but outdoor and beach activities are not viable."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

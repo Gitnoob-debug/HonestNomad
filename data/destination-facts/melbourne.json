@@ -1,0 +1,115 @@
+{
+  "destinationId": "melbourne",
+  "city": "Melbourne",
+  "country": "Australia",
+  "transportAdvice": "Melbourne has an extensive public transit network including trams, trains, and buses that cover the CBD and most tourist areas well, with the tram network being particularly useful for inner-city travel. Taxis and ride-share vehicles are widely available, and the city centre is walkable, though distances between some attractions may warrant using transit.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot summer month with occasional heatwaves and unpredictable afternoon storms; pack light clothing and sun protection."
+    },
+    {
+      "month": 2,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Similar to January with warm, sometimes very hot days and Melbourne's famously changeable weather patterns."
+    },
+    {
+      "month": 3,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late summer transitioning to autumn, with more settled temperatures and slightly increased rainfall."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant autumn weather with cooler evenings; a good time to visit with comfortable sightseeing conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with more frequent rain; layers are recommended as temperatures drop significantly after dark."
+    },
+    {
+      "month": 6,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool, wet winter month with short days; indoor attractions and Melbourne's café culture come into their own."
+    },
+    {
+      "month": 7,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The coldest month of the year with regular rain and overcast skies; warm clothing is essential."
+    },
+    {
+      "month": 8,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and wet but days begin to lengthen slightly; expect grey skies and frequent showers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings warming temperatures but highly variable weather, with sunny days and cold snaps possible."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring is in full swing with pleasant temperatures, blooming gardens, and the occasional warm day mixed with showers."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming late spring weather with longer days; one of the more enjoyable months to visit despite some rainfall."
+    },
+    {
+      "month": 12,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Early summer with warm to hot days, festive atmosphere, and the return of Melbourne's unpredictable afternoon storms."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

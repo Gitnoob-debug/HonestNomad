@@ -1,0 +1,115 @@
+{
+  "destinationId": "casablanca",
+  "city": "Casablanca",
+  "country": "Morocco",
+  "transportAdvice": "Casablanca has a modern tram network and urban bus system that connect major districts, though tourist attractions are spread out enough that taxis are often the most practical option for visitors. Petit taxis are widely available and affordable for short city trips, while walking is pleasant in the Corniche and central areas but less practical across the full city.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with mild Atlantic breezes, making it the quietest and most overcast time to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with intermittent rain showers, though sunny spells become more frequent toward the end of the month."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise pleasantly and rain becomes less frequent, offering comfortable sightseeing conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny with occasional light showers, one of the more agreeable months for exploring the city."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with long sunny days, ideal for outdoor activities along the Corniche."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm to hot with very little rainfall and a refreshing Atlantic sea breeze keeping temperatures manageable."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with abundant sunshine, though coastal breezes prevent the extreme heat felt inland."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The hottest month of the year with intense sun and minimal rain, best suited for beach time on the Corniche."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and still largely dry, with slightly cooler evenings signaling the gradual shift toward autumn."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm with increasing cloud cover and the return of occasional rain, a comfortable month for city exploration."
+    },
+    {
+      "month": 11,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with more frequent rain showers, though mild enough for comfortable daytime sightseeing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and wet with short days, similar to January in character and best suited for cultural and indoor attractions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

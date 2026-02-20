@@ -1,0 +1,115 @@
+{
+  "destinationId": "bogota",
+  "city": "Bogota",
+  "country": "Colombia",
+  "transportAdvice": "Bogota has an extensive bus rapid transit system (TransMilenio) that connects major districts and tourist areas, supplemented by smaller feeder buses and taxis widely available throughout the city. Walking is practical within neighborhoods like La Candelaria and Zona Rosa, but distances between areas are large and taxis or ride-hailing are recommended for longer trips, especially at night.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "January is one of Bogota's drier months, with cool mornings and mild afternoons — a good time to explore the city."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "February remains relatively dry and pleasant, with comfortable temperatures throughout the day."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "March marks the start of the first rainy season, with afternoon showers becoming more frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "April is one of the wettest months, with regular heavy afternoon rains and overcast skies."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "May continues the wet season with frequent rainfall; a light rain jacket is essential."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "June sees a slight easing of rain as the city transitions toward a drier mid-year period."
+    },
+    {
+      "month": 7,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "July is one of the driest and sunniest months, making it an excellent time to visit Bogota."
+    },
+    {
+      "month": 8,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "August remains dry and bright, with cool evenings and comfortable daytime temperatures."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "September brings the return of afternoon showers as the second rainy season begins to build."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October is typically the rainiest month of the year, with heavy and persistent afternoon downpours."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "November remains very wet, continuing the second rainy season with frequent overcast and rainy days."
+    },
+    {
+      "month": 12,
+      "avgHighC": 19,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "December gradually dries out toward the end of the month, with cooler mornings and a festive city atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

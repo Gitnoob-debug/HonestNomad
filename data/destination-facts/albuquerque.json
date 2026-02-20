@@ -1,0 +1,115 @@
+{
+  "destinationId": "albuquerque",
+  "city": "Albuquerque",
+  "country": "United States",
+  "transportAdvice": "Albuquerque has a public bus and rapid transit system that connects major areas, though coverage can be limited for some tourist sites; renting a car is often the most practical option for exploring the city and surrounding region. Taxis and ride-hail services are available, and the historic Old Town and downtown areas are walkable once you arrive.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": -4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry winter days with occasional overnight frost and clear sunny skies."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": -2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cool but days begin to warm slightly with continued dry and sunny conditions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and pleasant with increasing warmth, though windy conditions are common this month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm spring days with low humidity and frequent wind, making it a comfortable time to explore outdoors."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with long sunny days and very little rainfall, ideal for sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry before the monsoon season begins, with intense afternoon sun."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Monsoon season brings afternoon and evening thunderstorms that offer brief relief from the heat."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Continued monsoon activity with warm temperatures and regular afternoon thundershowers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Monsoon season winds down, temperatures become more comfortable, and skies begin to clear."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp and pleasant autumn weather with cool nights and warm days, one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 13,
+      "avgLowC": 0,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooling rapidly with cold nights and mild afternoons under mostly clear skies."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": -4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter conditions return with frosty nights and short but often sunny days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

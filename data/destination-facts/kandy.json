@@ -1,0 +1,115 @@
+{
+  "destinationId": "kandy",
+  "city": "Kandy",
+  "country": "Sri Lanka",
+  "transportAdvice": "Kandy's hilly terrain makes walking practical within the city center and lakeside areas, though steep streets can be tiring. Public buses connect major attractions and surrounding towns, and three-wheelers (tuk-tuks) are widely available for short hops; taxis can be arranged through hotels for longer journeys.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasant with cool evenings, making it one of the more comfortable months to visit Kandy."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with good visibility, ideal for sightseeing and temple visits."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and conditions remain mostly dry, though occasional afternoon showers are possible."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The first inter-monsoon season brings increased rainfall and humidity, with frequent afternoon thunderstorms."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The southwest monsoon arrives, bringing heavy and persistent rain that can disrupt outdoor activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued monsoon rains keep conditions wet and overcast throughout the month."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain remains frequent but the famous Esala Perahera festival typically takes place this month, drawing large crowds."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease slightly toward month's end, though humidity stays high and showers are still common."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "A transitional period with gradually reducing rainfall and warm, humid conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The second inter-monsoon season brings a return of heavy showers and thunderstorms."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to taper off as the northeast monsoon establishes itself, though wet spells are still likely."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Conditions become drier and more pleasant toward year's end, with cooler evenings returning."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "uganda",
+  "city": "Kampala",
+  "country": "Uganda",
+  "transportAdvice": "Kampala has a network of minibus taxis (matatus) and motorcycle taxis (boda-bodas) that cover most areas, though traffic congestion can be severe; private taxis and ride-hailing services are widely available and recommended for tourists. Walking is practical in some central neighborhoods but less so across the city due to traffic and uneven infrastructure.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and partly dry with occasional showers as the short dry season transitions; generally pleasant for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the drier months of the year with warm temperatures and plenty of sunshine, good for outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to increase as the long rainy season approaches, with warm temperatures and occasional afternoon showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the long rainy season with frequent heavy downpours, expect muddy roads and disrupted travel plans."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall with overcast skies; outdoor activities can be disrupted and roads may flood."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall eases as the long rains wind down, with more sunshine returning and temperatures remaining comfortable."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "A relatively dry and sunny month, one of the best times to visit with cooler evenings and clear skies."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and warm with low humidity, excellent conditions for travel and outdoor exploration around the city."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The short rainy season begins with increasing afternoon showers, though mornings are often clear and warm."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with persistent rain and high humidity; pack waterproof gear and plan for delays."
+    },
+    {
+      "month": 11,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rains continue through November, making travel challenging; roads can become difficult to navigate."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall decreases toward the end of the month as the short dry season begins, with warmer and sunnier days returning."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

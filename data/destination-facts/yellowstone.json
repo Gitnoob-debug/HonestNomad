@@ -1,0 +1,115 @@
+{
+  "destinationId": "yellowstone",
+  "city": "Yellowstone",
+  "country": "United States",
+  "transportAdvice": "Yellowstone National Park has no public transit system, so a personal vehicle or rental car is essential for getting around the vast park. Walking is practical within developed areas and along designated trails, but distances between major attractions are significant and require driving.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -2,
+      "avgLowC": -16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Bitterly cold and snowy with most roads closed to wheeled vehicles; accessible mainly by snowcoach or snowmobile."
+    },
+    {
+      "month": 2,
+      "avgHighC": -1,
+      "avgLowC": -15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Deep winter conditions persist with heavy snowpack and very limited visitor facilities open."
+    },
+    {
+      "month": 3,
+      "avgHighC": 3,
+      "avgLowC": -11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold and wintry with gradual warming; the transition between winter and spring access begins late in the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 9,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with unpredictable weather, lingering snow at elevation, and roads beginning to reopen to vehicles."
+    },
+    {
+      "month": 5,
+      "avgHighC": 14,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly green with active wildlife, occasional snow showers, and most park roads fully open."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant early-summer weather with long daylight hours, blooming wildflowers, and growing visitor numbers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer with warm sunny days, the highest crowds, and ideal conditions for hiking and wildlife viewing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with continued high visitation; afternoon thunderstorms are possible but generally brief."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crowds thin out, temperatures cool pleasantly, and fall colors begin to appear making it a favorite month for many visitors."
+    },
+    {
+      "month": 10,
+      "avgHighC": 10,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Crisp autumn conditions with early snowfall possible at higher elevations and some facilities beginning to close."
+    },
+    {
+      "month": 11,
+      "avgHighC": 0,
+      "avgLowC": -12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and quiet with significant snowfall and most park roads closing to wheeled vehicles for the winter season."
+    },
+    {
+      "month": 12,
+      "avgHighC": -3,
+      "avgLowC": -15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Full winter sets in with extreme cold, heavy snow, and the park transitioning to limited over-snow access only."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

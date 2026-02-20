@@ -1,0 +1,115 @@
+{
+  "destinationId": "ho-chi-minh",
+  "city": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "transportAdvice": "Ho Chi Minh City has a growing metro system with limited coverage, supplemented by an extensive bus network, though tourist areas can be challenging to navigate on foot due to heavy traffic and heat. Motorbike taxis and metered taxis are widely available and affordable, making them the most practical options for getting around the city.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season is in full swing with sunny skies, low humidity, and comfortable evenings — one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with very little rainfall, making it ideal for sightseeing and outdoor exploration."
+    },
+    {
+      "month": 3,
+      "avgHighC": 35,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest and driest month of the year with intense midday sun — stay hydrated and seek shade during peak hours."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Heat remains intense and the first rains of the wet season begin to appear, bringing brief afternoon showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season begins in earnest with frequent heavy afternoon downpours that cool the air temporarily."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Consistently rainy with high humidity — showers are typically intense but short-lived, often in the afternoon."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with daily rainfall and persistently high humidity throughout the day."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rain continues with frequent flooding possible in low-lying areas — pack waterproof gear."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the rainy season with the highest monthly rainfall totals and very muggy conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward the end of the month but humidity remains high and showers are still frequent."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transition month as the wet season winds down — rain becomes less frequent and conditions grow more pleasant."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with lower humidity, sunny days, and comfortable temperatures — a popular time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

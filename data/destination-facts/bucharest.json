@@ -1,0 +1,115 @@
+{
+  "destinationId": "bucharest",
+  "city": "Bucharest",
+  "country": "Romania",
+  "transportAdvice": "Bucharest has a well-developed public transit network including a metro, buses, and trams that connect most tourist areas efficiently. Taxis are widely available and affordable, and the historic central districts are compact enough for comfortable walking.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with occasional snow and freezing temperatures, typical of a continental winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with possible snow and frost, though days gradually begin to lengthen."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild days but unpredictable weather with rain and lingering cold snaps."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming parks, though showers are common throughout the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with occasional thunderstorms, one of the most enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm to hot with longer days and periodic afternoon thunderstorms typical of early summer."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and mostly sunny, the driest month of the year and peak summer conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continues hot and dry with intense afternoon heat, similar to July."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with decreasing rainfall and pleasant evenings."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and colourful with autumn foliage, though rain becomes more frequent toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and often overcast with increasing rain and the first hints of winter chill."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with possible snow and festive Christmas markets in the city centre."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "chamonix",
+  "city": "Chamonix",
+  "country": "France",
+  "transportAdvice": "Chamonix is a compact valley town where the main village center is walkable, but the wider resort area and surrounding villages are best navigated by the free valley bus service that connects key points along the valley. Taxis are available for late-night or off-route travel, and mountain railways and cable cars serve the major ski and hiking areas.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and snowy with excellent ski conditions; expect heavy snowfall and freezing temperatures, especially at altitude."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak winter ski season with reliable snow cover and cold, crisp days ideal for alpine sports."
+    },
+    {
+      "month": 3,
+      "avgHighC": 8,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late ski season with longer daylight hours and slightly milder temperatures; snow remains good at higher elevations."
+    },
+    {
+      "month": 4,
+      "avgHighC": 11,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring transition with melting snow in the valley but persistent snow at altitude; a quieter shoulder period between ski and hiking seasons."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Valley turns green with wildflowers but rain is frequent; lower hiking trails open while high routes may still be snow-covered."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Early summer with warm valley temperatures and afternoon thunderstorms common; most hiking trails become accessible."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer season with warm sunny days, busy trails, and excellent conditions for hiking and mountaineering."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The busiest month of the year with warm temperatures and long days; afternoon storms are possible but mornings are typically clear."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Quieter shoulder season with cooler temperatures, autumn colors beginning in the valley, and generally stable weather."
+    },
+    {
+      "month": 10,
+      "avgHighC": 11,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings cooler, unpredictable weather with early snowfall possible at altitude and fewer crowds in the valley."
+    },
+    {
+      "month": 11,
+      "avgHighC": 5,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with early snowfall; ski lifts are not yet open and the town is quiet during this off-season period."
+    },
+    {
+      "month": 12,
+      "avgHighC": 2,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Winter sets in with snowfall and cold temperatures; ski season begins mid-month and the town becomes festive and lively."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

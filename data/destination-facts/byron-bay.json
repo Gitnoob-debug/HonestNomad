@@ -1,0 +1,115 @@
+{
+  "destinationId": "byron-bay",
+  "city": "Byron Bay",
+  "country": "Australia",
+  "transportAdvice": "Byron Bay's compact town centre and beach areas are very walkable, making it easy to explore on foot or by bicycle. Local bus services connect the town to nearby areas, and taxis are generally available, though having a backup transport option is advisable during busy periods.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent afternoon thunderstorms typical of the summer wet season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued summer heat and humidity with heavy rainfall and occasional tropical downpours."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and wet as summer transitions toward autumn, with lingering humidity."
+    },
+    {
+      "month": 4,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings pleasantly warm days with decreasing rainfall and more comfortable conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and mostly dry with cooler evenings, ideal for outdoor activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry winter conditions with clear skies and crisp mornings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The coolest month of the year, dry and sunny with cold nights but pleasant daytime temperatures."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still dry and cool but days begin to warm slightly as winter starts to ease."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring arrives with warming temperatures, low rainfall, and excellent beach conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm spring weather with increasing humidity and occasional showers returning."
+    },
+    {
+      "month": 11,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly humid as summer approaches, with a mix of sunny days and afternoon storms."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid early summer with frequent thunderstorms and a festive holiday atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

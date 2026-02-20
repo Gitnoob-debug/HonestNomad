@@ -1,0 +1,115 @@
+{
+  "destinationId": "denver",
+  "city": "Denver",
+  "country": "United States",
+  "transportAdvice": "Denver has a light rail and bus rapid transit network that connects downtown and major attractions, making it reasonably easy to get around without a car in the city center. Taxis and rideshare vehicles are widely available, and the downtown 16th Street Mall area is very walkable, though a car is recommended for reaching mountain destinations.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": -7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and often sunny with occasional snow; layers are essential and mountain roads may require chains or snow tires."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold with periodic snowstorms, but sunny days are common thanks to Denver's high-altitude, semi-arid climate."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Transitional month with unpredictable weather; heavy wet snowstorms are possible alongside mild, pleasant days."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Spring arrives but snow is still possible; temperatures swing widely so pack versatile clothing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly green with afternoon thunderstorms becoming more frequent as the season progresses."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and sunny with afternoon thunderstorms typical; a great month for outdoor activities and hiking."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The hottest month with intense afternoon thunderstorms; mornings are ideal for outdoor excursions before storms develop."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to July with warm temperatures and frequent afternoon thunderstorms; excellent for mountain and city exploration."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the best months to visit with mild temperatures, lower humidity, and stunning fall foliage beginning in the mountains."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp and clear autumn weather with beautiful foliage; early snowfall is possible, especially at higher elevations."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooling rapidly with the first significant snowfalls of the season; ski resorts begin opening in the nearby mountains."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": -7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and wintry with snow likely; the holiday season brings festive events downtown and excellent skiing conditions nearby."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

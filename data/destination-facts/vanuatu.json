@@ -1,0 +1,115 @@
+{
+  "destinationId": "vanuatu",
+  "city": "Port Vila",
+  "country": "Vanuatu",
+  "transportAdvice": "Port Vila's compact town centre is walkable for most tourist attractions, markets, and waterfront areas. Minibuses serve as the main form of public transit along key routes, and taxis are widely available for longer trips or reaching outlying areas.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+11",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent heavy rainfall and the heightened risk of tropical cyclones during peak wet season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Remains firmly in the wet season with high heat, humidity, and the greatest cyclone risk of the year."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still wet and warm with regular downpours, though cyclone risk begins to ease toward month's end."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitional month as the wet season winds down, with decreasing rainfall and slightly cooler temperatures."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably drier and more comfortable as the dry season approaches, with pleasant warm days."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season begins in earnest with cooler evenings, lower humidity, and mostly sunny skies."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the coolest and driest months, ideal for outdoor activities with comfortable temperatures and low humidity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continues the dry season pattern with clear skies, gentle trade winds, and very little rainfall."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise again while remaining dry, making this an excellent time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming up with occasional showers returning as the wet season transition begins."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and increasingly humid with more frequent afternoon showers signalling the approaching wet season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season returns with high heat, heavy rainfall, and rising cyclone risk through the holiday period."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

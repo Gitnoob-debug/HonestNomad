@@ -1,0 +1,115 @@
+{
+  "destinationId": "miami",
+  "city": "Miami",
+  "country": "United States",
+  "transportAdvice": "Miami has a Metrorail, Metromover, and bus network, though public transit coverage of tourist areas like South Beach is limited and often requires transfers; taxis and ride-hailing vehicles are widely available. South Beach and Wynwood are walkable within their neighborhoods, but a car or hired vehicle is generally the most practical way to get around the broader city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and sunny with low humidity, making it one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and dry with comfortable temperatures and plenty of sunshine."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring-like warmth begins to build with mostly clear skies and low rain chances."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry, with occasional brief showers as the wet season approaches."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity increase noticeably, with afternoon thunderstorms becoming more frequent."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full wet season begins with daily afternoon thunderstorms and high heat and humidity."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very humid with frequent heavy afternoon rain showers; peak hurricane season begins."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest and most humid month, with daily storms and elevated hurricane risk."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very hot and wet with the highest hurricane risk of the year."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures begin to ease slightly but rain and humidity remain elevated into mid-month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season returns with noticeably more comfortable temperatures and lower humidity."
+    },
+    {
+      "month": 12,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool, dry, and sunny — ideal beach weather by local standards and popular with winter visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

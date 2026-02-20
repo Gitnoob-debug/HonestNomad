@@ -1,0 +1,115 @@
+{
+  "destinationId": "portland",
+  "city": "Portland",
+  "country": "United States",
+  "transportAdvice": "Portland has a well-developed public transit system including light rail, streetcar, and bus lines that connect most major neighborhoods and tourist areas, making it easy to get around without a car. The city is also highly walkable and bike-friendly in its central districts, and taxis as well as rideshare vehicles are readily available throughout the metro area.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently rainy with overcast skies; pack waterproof layers and expect limited sunshine."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still wet and grey but slightly milder than January, with occasional breaks of sun."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain continues but days grow longer and temperatures begin to climb noticeably."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with blooming flowers and a mix of showers and pleasant sunny spells."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant with more dry days and lush green surroundings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer brings warm, mostly dry days that are ideal for outdoor exploration."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The warmest and driest month of the year with long sunny days and very little rain."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continues hot and dry, perfect for hiking and outdoor activities; occasional wildfire smoke possible."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely dry with comfortable temperatures and the first hints of autumn color."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings cooler temperatures and returning rain, with beautiful fall foliage across the city."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably wet and grey as winter sets in; a good rain jacket becomes essential."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, damp, and often overcast with occasional frost; the holiday season adds festive atmosphere to the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "martha-vineyard",
+  "city": "Martha's Vineyard",
+  "country": "United States",
+  "transportAdvice": "Public buses connect the main towns during summer season with reduced service in the off-season. Biking is popular and bike rentals are widely available. A car is helpful for reaching more remote beaches, though summer traffic and limited parking can be frustrating. The island is reached by ferry.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter with occasional snow and strong winds; most tourist businesses are closed."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Coldest month with harsh wind chill and quiet streets; a local's island experience."
+    },
+    {
+      "month": 3,
+      "avgHighC": 7,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late winter transitions to early spring with gradually warming temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with cool, crisp days and the island beginning to come alive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather as seasonal businesses open and the island prepares for summer."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and sunny with the start of beach season and outdoor activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer with warm days, ocean breezes, and the busiest tourist season."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warmest month with excellent beach conditions and lively town atmospheres."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early autumn with fewer crowds and pleasant conditions; a favorite month for regulars."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool fall weather with beautiful foliage and a peaceful atmosphere as the season winds down."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling rapidly as most seasonal businesses close; bring warm layers."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter returns with a cozy, quiet atmosphere and holiday festivities in main towns."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

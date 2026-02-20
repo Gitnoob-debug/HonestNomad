@@ -1,0 +1,115 @@
+{
+  "destinationId": "xian",
+  "city": "Xi'an",
+  "country": "China",
+  "transportAdvice": "Xi'an has a growing metro system that connects major tourist sites including the city walls and the area near the Terracotta Warriors. Buses are extensive and affordable. Taxis are widely available, and the historic city center within the walls is walkable.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 5,
+      "avgLowC": -4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with occasional light snow; warm layers are essential for outdoor sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": -2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but gradually warming, with festive Chinese New Year celebrations when applicable."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures and occasional dust from the northern plains."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather ideal for visiting the Terracotta Warriors and cycling the city walls."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with one of the best conditions for outdoor exploration."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot with increasing humidity and occasional thunderstorms; stay hydrated during outdoor visits."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest and wettest month with heavy rain possible; indoor attractions provide welcome relief."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still hot and humid with frequent rain; early morning visits to outdoor sites are recommended."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Autumn rain season with cooling temperatures; the city begins to feel more comfortable."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn weather with pleasant temperatures and beautiful foliage; an excellent time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cooling rapidly as winter approaches; bring warm layers for comfortable sightseeing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with occasional smog; fewer tourists make for a quieter experience at major sites."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

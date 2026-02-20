@@ -1,0 +1,115 @@
+{
+  "destinationId": "sydney",
+  "city": "Sydney",
+  "country": "Australia",
+  "transportAdvice": "Sydney has an extensive public transit network including trains, buses, light rail, and ferries that connect most major tourist areas, making it easy to get around without a car. Taxis and rideshare vehicles are widely available, and the central areas around the CBD, Darling Harbour, and The Rocks are very walkable.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot summer month with warm nights and occasional afternoon thunderstorms; beach weather but humidity can feel oppressive."
+    },
+    {
+      "month": 2,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to January with warm, humid conditions and the highest average rainfall of the year; storms are common."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Late summer transitioning to autumn; still warm and humid with occasional heavy rain events."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn weather with mild temperatures and lower humidity; a pleasant time to explore the city."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cooler and drier conditions settle in; clear skies and mild days make this a great month for sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Winter begins with cool, crisp days and cold nights; generally dry and sunny with low humidity."
+    },
+    {
+      "month": 7,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The coolest month of the year with clear blue skies and dry conditions; layers are needed especially in the morning and evening."
+    },
+    {
+      "month": 8,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cool but days begin to lengthen; dry and sunny weather makes it comfortable for outdoor activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures and blooming jacarandas; pleasant and mostly dry conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm spring weather with increasing sunshine; occasional showers but generally a very enjoyable month to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming quickly toward summer with longer days; some afternoon storms possible but overall bright and inviting."
+    },
+    {
+      "month": 12,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Early summer with hot days, festive atmosphere, and the famous New Year's Eve fireworks; humidity rises noticeably."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

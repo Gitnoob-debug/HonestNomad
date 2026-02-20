@@ -1,0 +1,115 @@
+{
+  "destinationId": "azores",
+  "city": "Ponta Delgada",
+  "country": "Portugal",
+  "transportAdvice": "The city center is compact and walkable, making it easy to explore on foot, though the wider island requires a car or organized tour to reach natural attractions. Public buses connect main towns on São Miguel, but services can be infrequent, and taxis are readily available in the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 17,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Mild but wet and windy, with frequent Atlantic rain showers making it the least favorable month for outdoor activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 17,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to January with persistent rain and overcast skies, though temperatures remain mild by European standards."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Spring begins slowly with continued rainfall and changeable conditions, though days gradually lengthen."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain becomes less frequent and greenery peaks, making it a pleasant time for hiking and sightseeing between showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably warmer and drier with more sunshine, ideal for exploring the island's volcanic landscapes and lakes."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer brings warm, mostly sunny days with low rainfall, making it one of the better months to visit."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest and driest month, with long sunny days perfect for whale watching, swimming, and outdoor exploration."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with calm seas, peak tourist season and ideal beach and water activity conditions."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and still largely dry, with slightly fewer crowds than August and excellent conditions for hiking and diving."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Autumn brings increasing cloud cover and occasional rain, though temperatures remain comfortable for sightseeing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably wetter and windier as Atlantic storms become more common, though the island stays lush and green."
+    },
+    {
+      "month": 12,
+      "avgHighC": 17,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool, wet, and often stormy, with short days and frequent rain, though the festive atmosphere in the city offers some appeal."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

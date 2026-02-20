@@ -1,0 +1,115 @@
+{
+  "destinationId": "san-miguel",
+  "city": "San Miguel de Allende",
+  "country": "Mexico",
+  "transportAdvice": "The historic centro is compact and highly walkable, with most major attractions, restaurants, and hotels within easy reach on foot. Taxis and local ride-hailing options are widely available for trips beyond the center, and local minibuses connect the city to surrounding neighborhoods at low cost.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny days with cold nights that often dip near freezing — bring layers for evenings."
+    },
+    {
+      "month": 2,
+      "avgHighC": 24,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm afternoons and crisp nights continue, with clear skies and very little rainfall."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures climb noticeably and conditions remain dry, making it one of the most pleasant months to visit."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot afternoons with low humidity and virtually no rain — ideal weather but sunscreen is essential."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The hottest month of the year, with occasional afternoon thunderstorms beginning to signal the approaching rainy season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season arrives in earnest with frequent afternoon and evening showers that cool temperatures down."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Lush green landscapes surround the city as daily rain showers are common, typically in the afternoons."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to July with regular afternoon downpours; mornings are often clear and pleasant."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year — expect heavy afternoon rains and overcast skies on many days."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall begins to taper off and the landscape remains green, with increasingly comfortable temperatures."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season returns with warm days and cool evenings — a popular and comfortable time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with festive holiday atmosphere in the city; cold nights require a jacket or coat."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

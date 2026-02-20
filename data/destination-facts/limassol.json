@@ -1,0 +1,115 @@
+{
+  "destinationId": "limassol",
+  "city": "Limassol",
+  "country": "Cyprus",
+  "transportAdvice": "Limassol has a public bus network that covers the city centre, coastal promenade, and main tourist areas, though services can be infrequent outside peak hours. The seafront and old town are very walkable, and taxis are widely available for longer journeys or late-night travel.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and occasionally rainy winter days, cool enough for a jacket but rarely cold."
+    },
+    {
+      "month": 2,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with mild temperatures and some rain showers interspersed with sunny spells."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins to emerge with warmer days and decreasing rainfall."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant and sunny with warm afternoons, ideal for sightseeing and early beach visits."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely dry, a great month to enjoy the beach and outdoor dining."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with very little rain, beach season is in full swing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with long sunny days and virtually no rainfall."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Equally hot as July, with intense sunshine and crowded beaches."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still very warm and sunny with the sea at its warmest, crowds beginning to thin."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable autumn warmth with occasional light showers returning toward month end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with more frequent rain, but still mild enough for outdoor exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and wet winter weather returns, though sunny breaks make for pleasant daytime outings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

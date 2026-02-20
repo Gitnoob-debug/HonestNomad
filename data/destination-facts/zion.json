@@ -1,0 +1,115 @@
+{
+  "destinationId": "zion",
+  "city": "Zion National Park",
+  "country": "United States",
+  "transportAdvice": "Within the park, a free shuttle bus system operates seasonally along the main canyon corridor, making personal vehicles unnecessary during peak months; the shuttle is the primary way to access most trailheads. The surrounding gateway town of Springdale is compact and walkable, though reaching the park from major cities requires a personal vehicle or organized tour as public transit connections to the area are very limited.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cool and crisp winter days with occasional snow or frost, especially at higher elevations; trails can be icy and some may be closed."
+    },
+    {
+      "month": 2,
+      "avgHighC": 12,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Temperatures begin to inch upward but cold snaps and light snow remain possible; crowds are minimal and the canyon scenery is dramatic."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Spring arrives with warming days and blooming desert plants; rain showers are possible and the Narrows may run high with snowmelt."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Pleasant hiking weather with mild temperatures and green vegetation; crowds begin to build as spring break visitors arrive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the best months to visit with warm sunny days, low humidity, and wildflowers in bloom; trails are generally in excellent condition."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with long daylight hours; early morning starts are strongly recommended for strenuous hikes to avoid midday heat."
+    },
+    {
+      "month": 7,
+      "avgHighC": 36,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer heat combined with the onset of monsoon season brings afternoon thunderstorms and flash flood risk in slot canyons."
+    },
+    {
+      "month": 8,
+      "avgHighC": 35,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Continued monsoon activity keeps afternoon storm risk elevated; mornings are typically clear and the park is at its busiest."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Monsoon activity tapers off and temperatures become more comfortable, making this an excellent month for hiking with fewer crowds than summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Autumn brings cooler temperatures, golden foliage along the canyon floor, and some of the most comfortable hiking conditions of the year."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Noticeably cooler with shorter days; crowds thin considerably and the park takes on a quiet, serene character with occasional light rain."
+    },
+    {
+      "month": 12,
+      "avgHighC": 10,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold winter conditions return with possible snow and ice on trails; the park is uncrowded and the red rock walls dusted with snow are visually stunning."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

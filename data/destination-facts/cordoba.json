@@ -1,0 +1,115 @@
+{
+  "destinationId": "cordoba",
+  "city": "Córdoba",
+  "country": "Spain",
+  "transportAdvice": "The historic centre is compact and best explored on foot, with most major attractions within comfortable walking distance of each other. The city has a municipal bus network covering wider areas, and taxis are readily available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy winter days make January one of the quieter months, good for sightseeing without crowds."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild temperatures begin to return with some rain still possible, but pleasant for outdoor exploration."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming days and occasional showers, ideal for visiting patios and gardens as they begin to bloom."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the most beautiful months with mild warmth, blooming flowers, and the famous Patio Festival typically taking place."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely dry with long sunny days, excellent for sightseeing before the intense summer heat sets in."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry conditions begin in earnest; mornings are the best time to visit outdoor sites before midday heat peaks."
+    },
+    {
+      "month": 7,
+      "avgHighC": 38,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the hottest months in Europe with temperatures frequently exceeding 40°C; plan activities for early morning or evening."
+    },
+    {
+      "month": 8,
+      "avgHighC": 37,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense heat continues through August; shade, hydration, and midday rest are essential for comfortable sightseeing."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to ease slightly from peak summer, still warm and sunny with very little rainfall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A pleasant autumn month with comfortable temperatures and occasional rain, making it a popular time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and wetter conditions return, but the city is quieter and atmospheric with autumn colours."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool winter weather with some rain and festive Christmas atmosphere in the city centre."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

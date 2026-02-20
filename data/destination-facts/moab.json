@@ -1,0 +1,115 @@
+{
+  "destinationId": "moab",
+  "city": "Moab",
+  "country": "United States",
+  "transportAdvice": "Moab is a small desert town where most visitor activity centers around driving to trailheads and park entrances, as public transit is very limited and does not reliably cover the surrounding national parks; renting a car or 4WD vehicle is strongly recommended, though the compact downtown area is walkable.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter days with occasional snow and freezing nights, but often sunny and clear."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold with possible snow, though sunny spells make daytime hiking pleasant."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming temperatures and longer days make this a popular early-season hiking month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the best months to visit with mild temperatures, blooming desert flora, and low crowds."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with long daylight hours, ideal for outdoor adventures before summer heat arrives."
+    },
+    {
+      "month": 6,
+      "avgHighC": 35,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry desert conditions; early morning starts are essential for any strenuous activity."
+    },
+    {
+      "month": 7,
+      "avgHighC": 38,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Intense heat with afternoon monsoon thunderstorms possible, making flash floods a real hazard."
+    },
+    {
+      "month": 8,
+      "avgHighC": 36,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Still very hot with continued monsoon activity; hike early and watch weather forecasts carefully."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to ease and crowds thin, making this an excellent shoulder-season month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp autumn days with stunning red rock colors and comfortable hiking conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 13,
+      "avgLowC": 0,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and quiet with occasional cold snaps; a peaceful time to explore with fewer visitors."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter weather returns with possible snow and icy trails, but clear skies are common."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

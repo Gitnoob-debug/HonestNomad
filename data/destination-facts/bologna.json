@@ -1,0 +1,115 @@
+{
+  "destinationId": "bologna",
+  "city": "Bologna",
+  "country": "Italy",
+  "transportAdvice": "Bologna's historic centre is compact and highly walkable, with most major attractions reachable on foot; the city also has an extensive bus network that covers tourist areas and the wider city. Taxis are readily available at designated stands near the train station and main piazzas.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often grey with occasional frost; pack warm layers and expect short daylight hours."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with occasional rain but days begin to lengthen; a light winter coat is essential."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild spring conditions arrive with variable weather; a mix of sunny spells and showers is typical."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and increasingly warm with frequent sunny days, though afternoon showers are common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lush with occasional thunderstorms; one of the most enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly sunny; humidity begins to build and brief thunderstorms can occur in the evenings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "The hottest month with intense heat and high humidity; the famous porticoes provide welcome shade."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Very hot and humid with the city quieter as locals take summer holidays; occasional heavy thunderstorms possible."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant as summer heat eases; a great month to visit with comfortable temperatures and fewer crowds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn weather with colourful foliage; rain becomes more frequent and a light jacket is advisable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and often damp with fog becoming a characteristic feature of the Po Valley climate."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and festive with Christmas markets in the piazzas; fog and occasional frost are common."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

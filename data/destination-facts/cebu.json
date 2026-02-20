@@ -1,0 +1,115 @@
+{
+  "destinationId": "cebu",
+  "city": "Cebu",
+  "country": "Philippines",
+  "transportAdvice": "Cebu City is navigable by a mix of jeepneys, tricycles, and taxis, with public transit covering most tourist and commercial areas, though traffic congestion can make journeys slow. Walking is practical in some central districts but the city's spread and heat make ride-hailing or taxis the more comfortable option for longer distances.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with pleasant breezes, making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and sunny with low humidity, ideal for beach trips and outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with increasing sunshine, great for island hopping."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry, one of the warmest months, with strong sun and minimal rainfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat peaks and occasional afternoon showers begin to appear as the wet season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly humid with more frequent rain showers, especially in the afternoons."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season is well underway with regular heavy showers and elevated humidity throughout the day."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Frequent rain and occasional tropical disturbances; outdoor plans may need flexibility."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the wet season with heavy rainfall and the possibility of typhoon influence."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain remains frequent and typhoon risk persists, though sunny breaks do occur."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease toward the end of the month as the dry season gradually approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cooler and drier conditions return, making it a pleasant time to visit with festive atmosphere in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

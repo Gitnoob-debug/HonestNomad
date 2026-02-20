@@ -1,0 +1,115 @@
+{
+  "destinationId": "florianopolis",
+  "city": "Florianópolis",
+  "country": "Brazil",
+  "transportAdvice": "Florianópolis is spread across an island and mainland, making walking impractical between most attractions; a public bus network connects major neighborhoods and beaches but can be slow and crowded. Taxis and private hire vehicles are widely available and are the most convenient option for reaching more remote beaches and coastal areas.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer with hot, humid days and frequent afternoon thunderstorms; the busiest and most festive beach season."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continues hot and humid with regular heavy rain; Carnival brings lively celebrations but also large crowds."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and rainy as summer winds down; crowds begin to thin toward the end of the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings milder temperatures and fewer tourists; pleasant for outdoor activities with occasional showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and drier; a quieter period with comfortable conditions for sightseeing and hiking."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool winter month with low rainfall; evenings can feel cold, but daytime is generally pleasant and clear."
+    },
+    {
+      "month": 7,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The coolest and driest month of the year; ideal for hiking and nature trails, though too cold for most beach activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cool and dry with clear skies; a good month for outdoor exploration without summer heat or crowds."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures and increasing rainfall; whale watching season begins offshore."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming up with more sunshine; beaches start to become appealing again and tourist activity picks up."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Pre-summer warmth with rising humidity and occasional storms; a good time to visit before peak-season crowds arrive."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent afternoon thunderstorms; holiday crowds begin arriving and the beach season is in full swing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

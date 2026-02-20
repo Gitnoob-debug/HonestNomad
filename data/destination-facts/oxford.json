@@ -1,0 +1,115 @@
+{
+  "destinationId": "oxford",
+  "city": "Oxford",
+  "country": "United Kingdom",
+  "transportAdvice": "Oxford is a compact, walkable city where most major attractions and colleges are easily reached on foot; a well-connected local bus network covers the wider city and surrounding areas. Taxis are readily available, and cycling is also popular, though visitors should note that private cars face significant restrictions in the city centre.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0 (UTC+1 BST, late March to late October)",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often grey with occasional frost; pack warm layers and a waterproof jacket."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and damp but days begin to lengthen slightly; frost remains possible overnight."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional sunny spells, though showers are common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming gardens; expect a mix of sunshine and light showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and generally pleasant; one of the more enjoyable months to visit with longer daylight hours."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early-summer conditions with good sunshine, though afternoon showers can occur."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year; mostly sunny but occasional thunderstorms are possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and similar to July; a popular time to visit with long evenings and lively atmosphere."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and beautiful foliage; generally comfortable for sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter; autumn colours are attractive but rain gear is advisable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often overcast with frequent rain; the city is quieter and a warm coat is essential."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and damp with short days; festive atmosphere in the city centre but frost and fog are possible."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

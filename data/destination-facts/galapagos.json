@@ -1,0 +1,115 @@
+{
+  "destinationId": "galapagos",
+  "city": "Galapagos Islands",
+  "country": "Ecuador",
+  "transportAdvice": "Inter-island travel relies on small passenger ferries and domestic flights, as the archipelago spans multiple islands with no connecting roads. Within inhabited islands, taxis and water taxis are the primary options, with walking practical in small town centers but limited for reaching more remote visitor sites.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with occasional short rain showers; seas are calm and visibility underwater is good."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The warmest and wettest month, with frequent afternoon showers and lush green vegetation across the islands."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and rainy with calm seas; excellent for snorkeling and wildlife activity on land."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly but humidity remains high; warm water temperatures make for great diving."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Transition month as the cool season approaches; skies become partly cloudy and seas start to pick up."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The cool, dry Garúa season begins with misty mornings, cooler air, and rougher seas around some islands."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and overcast with strong currents bringing nutrient-rich waters; excellent for wildlife and diving."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the coolest months with persistent mist and choppy seas; whale sharks and penguins are commonly spotted."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still cool and dry with good wildlife viewing; sea lions are very active and bird courtship displays begin."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Gradual warming begins; seas calm slightly and the landscape remains dry and dramatic."
+    },
+    {
+      "month": 11,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Transition back toward the warm season with increasing sunshine and improving sea conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with occasional light showers; a popular month for visitors with pleasant overall conditions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

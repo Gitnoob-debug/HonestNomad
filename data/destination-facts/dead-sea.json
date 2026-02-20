@@ -1,0 +1,115 @@
+{
+  "destinationId": "dead-sea",
+  "city": "Dead Sea",
+  "country": "Jordan",
+  "transportAdvice": "The Dead Sea area has no meaningful public transit, so most visitors arrive by private car, rental vehicle, or organized tour from Amman, which is roughly an hour's drive away. Taxis are available but should be negotiated in advance, and walking between resorts or attractions along the shoreline is generally impractical due to distances and heat.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "expensive",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and occasionally rainy, making it one of the cooler and more pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 22,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still mild with some chance of rain, but increasingly sunny days make it comfortable for outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry with pleasant temperatures ideal for floating in the sea and exploring the shoreline."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry conditions begin to set in, with long sunny days and very little rainfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 36,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Noticeably hot with intense sun; early morning visits to the water are recommended to avoid peak heat."
+    },
+    {
+      "month": 6,
+      "avgHighC": 40,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and almost entirely dry; staying hydrated is essential and midday outdoor activity should be minimized."
+    },
+    {
+      "month": 7,
+      "avgHighC": 41,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with temperatures regularly exceeding 40°C; resort pools and air-conditioned facilities are heavily used."
+    },
+    {
+      "month": 8,
+      "avgHighC": 41,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Equally intense as July with relentless heat and no rainfall; best experienced from the comfort of resort amenities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 38,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still very hot but slightly more bearable than peak summer, with dry and sunny conditions throughout."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to ease into a more comfortable range, making this a popular month for visitors."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm with occasional showers returning; a good shoulder-season option for those avoiding extreme heat."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally wet, with mild daytime temperatures that suit leisurely spa and wellness visits."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

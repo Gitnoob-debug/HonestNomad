@@ -1,0 +1,115 @@
+{
+  "destinationId": "ibiza",
+  "city": "Ibiza",
+  "country": "Spain",
+  "transportAdvice": "Ibiza has a public bus network connecting the main towns, beaches, and airport, though services can be infrequent outside summer months; taxis are widely available and are the most convenient option for late-night travel. The old town is walkable, but reaching beaches and clubs across the island generally requires a vehicle, taxi, or bus.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and quiet with occasional rain; most tourist facilities are closed and the island is very peaceful."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still mild and uncrowded with some rainy spells; a good time for hiking and exploring the island without crowds."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and days grow longer; the island starts to wake up but remains quiet."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with warm sunny days; a great time to visit before the summer rush begins."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny; beach season begins and the island starts to fill with early-season visitors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with the nightlife season kicking off; beaches are busy and the party atmosphere builds."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with long sunny days; the island is at its busiest with beaches, clubs, and restaurants packed."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "The hottest and most crowded month; expect high prices, full beaches, and the nightlife scene at its most intense."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still warm and sunny with slightly fewer crowds; one of the best months to visit for a balance of weather and atmosphere."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with some rain returning; many clubs close for the season but the island remains pleasant for relaxing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Quiet and mild with increasing rainfall; most tourist infrastructure winds down and the island returns to local life."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool winter weather with short days; very few tourists and a calm, authentic atmosphere across the island."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

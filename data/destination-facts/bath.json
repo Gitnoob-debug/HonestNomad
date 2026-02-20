@@ -1,0 +1,115 @@
+{
+  "destinationId": "bath",
+  "city": "Bath",
+  "country": "United Kingdom",
+  "transportAdvice": "Bath is a compact city where most major attractions, including the Roman Baths, Royal Crescent, and Pulteney Bridge, are easily reached on foot from the city centre. Local bus services connect the wider city and surrounding areas, and taxis are readily available for longer journeys or late-night travel.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with short daylight hours, though snowfall is uncommon."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to January, cold and damp with occasional brighter spells between rain showers."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly milder temperatures and longer days, though showers remain frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring conditions with a mix of sunshine and showers and noticeably warmer afternoons."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the more enjoyable months with warm days, blooming gardens, and a good balance of sun and cloud."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and generally pleasant, though occasional rain is still likely; long evenings make sightseeing comfortable."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long days, though brief summer showers can occur at any time."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and busy, similar to July, with a mix of sunny spells and occasional overcast or rainy days."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler temperatures and a quieter atmosphere, with pleasant conditions for walking."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn sets in, with falling leaves adding colour to the Georgian streetscapes."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently grey with regular rainfall; warm layers and waterproofs are essential."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and wet with short days, though festive Christmas markets add charm to the city centre."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

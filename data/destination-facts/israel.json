@@ -1,0 +1,115 @@
+{
+  "destinationId": "israel",
+  "city": "Tel Aviv",
+  "country": "Israel",
+  "transportAdvice": "Tel Aviv is highly walkable along the beachfront and in central neighborhoods, and the city is served by an extensive bus network that covers most tourist areas. Taxis and app-based ride services are widely available, and a light rail line connects key parts of the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and occasionally rainy, the coolest month of the year with comfortable daytime temperatures."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still mild with some rain, though sunny days are common and temperatures begin to edge upward."
+    },
+    {
+      "month": 3,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures and decreasing rainfall, making it a pleasant time to explore."
+    },
+    {
+      "month": 4,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with long sunny days, ideal for beach walks and outdoor dining."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Reliably warm and sunny with very little rain, a popular month for visitors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and humid with virtually no rain, beach season is in full swing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "The hottest and most humid month, with intense sunshine and crowded beaches."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Equally hot and humid as July, with long sunny days and warm Mediterranean waters."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still very warm and humid with minimal rain, the tail end of peak beach season."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures ease pleasantly and humidity drops, making this one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and wetter as autumn sets in, though many days remain sunny and mild."
+    },
+    {
+      "month": 12,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy, similar to January but with a festive atmosphere in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

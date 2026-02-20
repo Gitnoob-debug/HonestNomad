@@ -1,0 +1,115 @@
+{
+  "destinationId": "antigua-guatemala",
+  "city": "Antigua",
+  "country": "Guatemala",
+  "transportAdvice": "Antigua's compact colonial center is highly walkable, with most major attractions, restaurants, and hotels within easy reach on foot. Tuk-tuks and taxis are widely available for trips beyond the center or to nearby villages, and chicken buses connect Antigua to surrounding towns at very low cost.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny days make January one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm afternoons and clear skies continue, with little chance of rain."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures rise and conditions remain dry, though afternoons can feel quite warm."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The hottest month of the year, with occasional afternoon showers signaling the approaching rainy season."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain becomes more frequent as the wet season begins, though mornings are often still clear."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy afternoon and evening rains are common, with lush green landscapes emerging around the city."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "A brief drier spell known as the canícula may bring some relief mid-month, but rain remains frequent."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season continues in full force with regular heavy showers, especially in the afternoons."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the rainiest months, with persistent showers and overcast skies throughout."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain remains heavy and frequent, though the end of the month can see conditions beginning to ease."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The rainy season winds down, with noticeably fewer showers and cooler evenings returning."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and festive, December is a popular time to visit with clear skies and lively Semana celebrations."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

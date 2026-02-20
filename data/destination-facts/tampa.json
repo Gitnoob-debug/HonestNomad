@@ -1,0 +1,115 @@
+{
+  "destinationId": "tampa",
+  "city": "Tampa",
+  "country": "United States",
+  "transportAdvice": "Tampa has a limited public transit system including buses and a free downtown streetcar, but most tourist areas are spread out and best navigated by car or taxi. Walking is practical within specific districts like Ybor City and downtown, but a rental car or taxi is recommended for broader exploration.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant winter weather with cool nights and comfortable sunny days."
+    },
+    {
+      "month": 2,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and mild with warm afternoons and refreshingly cool evenings."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and mostly sunny skies."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and dry with low humidity, one of the most pleasant months to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity begin to build with occasional afternoon thunderstorms."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent afternoon thunderstorms marking the start of rainy season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer heat with near-daily afternoon thunderstorms and high humidity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to July with intense heat, high humidity, and frequent heavy downpours."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still hot and stormy with the highest hurricane risk of the season."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to ease and rain becomes less frequent as the dry season approaches."
+    },
+    {
+      "month": 11,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable and dry with warm days and cooler evenings returning."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild winter conditions with low humidity and pleasant sunny days ideal for sightseeing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

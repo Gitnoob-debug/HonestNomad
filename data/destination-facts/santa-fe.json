@@ -1,0 +1,115 @@
+{
+  "destinationId": "santa-fe",
+  "city": "Santa Fe",
+  "country": "United States",
+  "transportAdvice": "Santa Fe has a local bus system that serves the downtown and some tourist areas, but most visitors find the historic Plaza district and Canyon Road walkable; taxis and ride-hailing services are available for reaching destinations beyond the compact city center.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": -7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and crisp winter days with occasional snow, clear skies are common and the air is dry."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but slightly warmer than January, with occasional snow and plenty of sunny days."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": -2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Early spring brings mild afternoons and cool nights, with occasional wind and light precipitation."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring weather with warm days and cool nights, low humidity and mostly sunny skies."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with long sunny days, one of the most comfortable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry before the monsoon season, afternoons can be intense but evenings cool down nicely."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Monsoon season brings frequent afternoon thunderstorms, mornings are usually clear and warm."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Continued monsoon activity with afternoon showers, lush landscapes and cooler temperatures than June."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Monsoon tapers off, bringing warm days and cool nights with beautiful golden light."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp autumn weather with stunning foliage, cool nights and comfortable sunny afternoons."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool to cold with occasional early snow, dry air and clear skies are typical."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": -6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter month with possible snow, festive holiday atmosphere in the historic city center."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

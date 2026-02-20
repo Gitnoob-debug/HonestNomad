@@ -1,0 +1,115 @@
+{
+  "destinationId": "seoul",
+  "city": "Seoul",
+  "country": "South Korea",
+  "transportAdvice": "Seoul has an extensive and efficient metro and bus network that covers virtually all major tourist areas, making it easy to get around without a car. Taxis are widely available, metered, and generally affordable, while many central neighborhoods are highly walkable.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry winter month with occasional snow and clear skies."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but slightly milder than January, with occasional light snow."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Early spring brings warming temperatures and occasional dusty winds from the north."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with cherry blossoms in full bloom and mild temperatures."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with longer days, one of the best months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early monsoon season begins with increasing humidity and frequent rain."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon month with heavy rainfall, high humidity, and hot temperatures."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with lingering monsoon rains tapering toward the end of the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Monsoon ends and autumn begins with comfortable temperatures and clearer skies."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp and sunny autumn weather with vivid fall foliage across the city's parks."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooling temperatures and dry conditions mark the transition toward winter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with occasional snow, festive atmosphere in the city center."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

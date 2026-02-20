@@ -1,0 +1,115 @@
+{
+  "destinationId": "anchorage",
+  "city": "Anchorage",
+  "country": "United States",
+  "transportAdvice": "Anchorage has a public bus system that covers major areas of the city, though service is infrequent and not always convenient for tourists; renting a car is strongly recommended for exploring the surrounding wilderness and attractions. Taxis and ride-hail services are available, and the downtown area is walkable, but distances to natural sites make personal or hired transport essential.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -5,
+      "avgLowC": -13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold, dark winter month with heavy snow and very limited daylight, requiring warm layering."
+    },
+    {
+      "month": 2,
+      "avgHighC": -3,
+      "avgLowC": -12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still deeply cold with snow on the ground, but daylight hours begin to noticeably increase."
+    },
+    {
+      "month": 3,
+      "avgHighC": 1,
+      "avgLowC": -9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late winter with lingering snow and crisp air, popular for skiing and winter activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 7,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring thaw begins with melting snow, muddy trails, and rapidly lengthening days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and green with wildflowers emerging and long daylight hours making outdoor exploration enjoyable."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant summer weather with nearly 20 hours of daylight and excellent conditions for hiking and wildlife viewing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with lush scenery, peak tourism, and long bright evenings."
+    },
+    {
+      "month": 8,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm but increasingly rainy, with salmon runs in full swing and early hints of autumn color."
+    },
+    {
+      "month": 9,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Fall arrives with stunning foliage, cooler temperatures, and the first chances to see the northern lights."
+    },
+    {
+      "month": 10,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often wet with early snowfall possible and rapidly shortening days."
+    },
+    {
+      "month": 11,
+      "avgHighC": -3,
+      "avgLowC": -10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Winter sets in with snow accumulation, limited daylight, and good aurora viewing opportunities."
+    },
+    {
+      "month": 12,
+      "avgHighC": -5,
+      "avgLowC": -13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dark and cold with only a few hours of daylight, but festive atmosphere and excellent northern lights viewing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "vail",
+  "city": "Vail",
+  "country": "United States",
+  "transportAdvice": "Vail Village and Lionshead are largely pedestrian-friendly, with a free town bus system connecting key areas of the resort and surrounding neighborhoods; taxis and hotel shuttles are available for longer trips, and a regional bus service connects Vail to nearby towns and the Denver area.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -12,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Peak ski season with cold temperatures and frequent snowfall, ideal for winter sports enthusiasts."
+    },
+    {
+      "month": 2,
+      "avgHighC": 0,
+      "avgLowC": -12,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Continued excellent ski conditions with cold, snowy weather and some of the best powder of the season."
+    },
+    {
+      "month": 3,
+      "avgHighC": 4,
+      "avgLowC": -9,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Late ski season brings slightly warmer days but still reliable snow, with longer daylight hours."
+    },
+    {
+      "month": 4,
+      "avgHighC": 9,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Spring skiing is possible early in the month, transitioning to muddy shoulder season conditions by late April."
+    },
+    {
+      "month": 5,
+      "avgHighC": 14,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Shoulder season with mild temperatures, melting snow, and many businesses closed between winter and summer operations."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Summer begins with warm days, blooming wildflowers, and afternoon thunderstorms becoming more frequent."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and sunny mornings give way to regular afternoon thunderstorms, making early-day outdoor activities advisable."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Similar to July with warm temperatures and frequent afternoon thunderstorms; hiking and mountain biking are popular."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Autumn brings cooler temperatures, stunning fall foliage, and fewer crowds, making it a pleasant time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 10,
+      "avgLowC": -4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp autumn weather with early snowfall possible at higher elevations and most summer activities winding down."
+    },
+    {
+      "month": 11,
+      "avgHighC": 1,
+      "avgLowC": -10,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Early snowfall builds anticipation for ski season, though the resort typically opens late in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": -1,
+      "avgLowC": -12,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Ski season is in full swing with cold temperatures, regular snowfall, and a festive holiday atmosphere in the village."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

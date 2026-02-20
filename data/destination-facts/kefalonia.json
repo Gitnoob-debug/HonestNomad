@@ -1,0 +1,115 @@
+{
+  "destinationId": "kefalonia",
+  "city": "Kefalonia",
+  "country": "Greece",
+  "transportAdvice": "Public bus services connect the main towns and some beaches but coverage is limited and infrequent, making a rental car or scooter the most practical way to explore the island; taxis are available in larger towns like Argostoli but should be arranged in advance in more remote areas.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and wet with frequent rain showers; the island is quiet and most tourist facilities are closed."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to January with continued rainfall and mild temperatures; very few tourists and limited services open."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early signs of spring with slightly warmer days and decreasing rain; a pleasant time for hiking with green landscapes."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly sunny with occasional showers; wildflowers bloom and the island begins to wake up for the season."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with very little rain; an excellent time to visit before the summer crowds arrive."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and reliably sunny with minimal rainfall; beaches are busy and sea temperatures become comfortable for swimming."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with long sunny days and virtually no rain; expect busy beaches and the highest tourist numbers."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Equally hot as July with intense sunshine; the island is at its most crowded and accommodation should be booked well in advance."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and still very sunny with the sea at its warmest; crowds thin out making this one of the best months to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm early in the month with increasing cloud and occasional rain later; a good shoulder season option."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn sets in; most tourist businesses close and the island returns to a quiet local pace."
+    },
+    {
+      "month": 12,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and rainy with short days; the island is very quiet and primarily of interest to those seeking an off-season escape."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

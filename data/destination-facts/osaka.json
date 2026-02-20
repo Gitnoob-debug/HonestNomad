@@ -1,0 +1,115 @@
+{
+  "destinationId": "osaka",
+  "city": "Osaka",
+  "country": "Japan",
+  "transportAdvice": "Osaka has an extensive and reliable metro and rail network that connects virtually all major tourist areas, making it easy to get around without a car. Walking is practical within neighborhoods, and taxis are widely available though more expensive than public transit.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with occasional clear skies, light layers are sufficient but evenings can be quite chilly."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold with occasional rain, but early plum blossoms begin to appear toward the end of the month."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to warm and cherry blossoms typically start blooming late in the month, making it a popular time to visit."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with cherry blossoms in full bloom early in the month, though crowds are at their peak."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with lush greenery, one of the most enjoyable months for sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins, bringing frequent showers and rising humidity that can feel oppressive."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot, humid, and often rainy early in the month before the rainy season ends, with intense heat persisting throughout."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with high humidity and occasional typhoons, outdoor sightseeing is best done in the early morning."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and humid with a heightened risk of typhoons bringing heavy rain and strong winds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn temperatures and beautiful foliage make this one of the best months to visit Osaka."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and crisp with stunning autumn colors peaking mid-month, ideal conditions for exploring the city."
+    },
+    {
+      "month": 12,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with festive illuminations throughout the city, a quiet but charming time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

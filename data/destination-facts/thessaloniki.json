@@ -1,0 +1,115 @@
+{
+  "destinationId": "thessaloniki",
+  "city": "Thessaloniki",
+  "country": "Greece",
+  "transportAdvice": "Thessaloniki's compact city center and waterfront promenade are very walkable, making most major attractions accessible on foot. The city has an expanding metro system and an extensive bus network that covers tourist areas, and taxis are widely available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and often rainy with occasional frost; pack warm layers and a waterproof jacket."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cool and unsettled with some rain, though days begin to lengthen noticeably."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild spring conditions emerge with a mix of sunny spells and occasional showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and warming with blooming greenery; light rain possible but generally enjoyable."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny; one of the best months to visit with comfortable temperatures."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and mostly dry; ideal beach and sightseeing weather with long sunny days."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with very little rain; stay hydrated and seek shade during midday."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Equally hot as July with dry conditions; evenings are lively and warm."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and pleasant as summer eases; a great time to visit with fewer crowds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn temperatures with increasing cloud cover and occasional rain showers."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter; a quieter period with a more local, authentic atmosphere."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and rainy with festive holiday atmosphere; warm clothing and waterproofs are essential."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

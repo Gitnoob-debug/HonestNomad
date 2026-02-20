@@ -1,0 +1,115 @@
+{
+  "destinationId": "big-sur",
+  "city": "Big Sur",
+  "country": "United States",
+  "transportAdvice": "Big Sur has no public transit system, and the rugged coastline makes walking between attractions impractical; a personal vehicle or rental car is essentially required to explore the area. Taxis and ride-share options are extremely limited, so visitors should plan all transportation independently before arriving.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and wet with frequent rain and coastal fog, but dramatic stormy scenery can be rewarding for hardy visitors."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the rainiest months, with lush green hillsides emerging but road closures possible due to slides."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to ease and wildflowers start to appear, making for beautiful if occasionally wet hiking conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant with blooming wildflowers and clearer skies between lingering coastal fog banks."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable temperatures and low rainfall make this an excellent month to visit, though morning fog is common."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry but coastal fog often rolls in during mornings, burning off by midday."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer brings warm, dry days with stunning visibility on clear afternoons and busy trails and viewpoints."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The warmest and driest month of the year, ideal for hiking and coastal exploration with long daylight hours."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Excellent conditions continue into early fall with warm temperatures, minimal fog, and fewer crowds than summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and mostly dry with golden hillsides and quieter roads, making it one of the most scenic months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler temperatures and returning rains bring lush greenery but also the risk of mudslides and road closures."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Winter sets in with frequent rain and cool temperatures; dramatic coastal views reward visitors willing to brave the weather."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

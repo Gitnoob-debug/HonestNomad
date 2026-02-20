@@ -1,0 +1,115 @@
+{
+  "destinationId": "milwaukee",
+  "city": "Milwaukee",
+  "country": "United States",
+  "transportAdvice": "Milwaukee has a bus-based public transit system that covers most tourist areas, though service frequency can be limited outside peak hours. The downtown and lakefront areas are walkable, and taxis as well as rideshare options are generally available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -3,
+      "avgLowC": -11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "January is bitterly cold with frequent snow and icy conditions, requiring heavy winter clothing."
+    },
+    {
+      "month": 2,
+      "avgHighC": -1,
+      "avgLowC": -10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "February remains deeply cold with continued snowfall and occasional freezing rain."
+    },
+    {
+      "month": 3,
+      "avgHighC": 5,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "March brings a gradual thaw but temperatures remain unpredictable with a mix of snow and rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April sees warming temperatures but frequent rain showers and occasional late-season snow are possible."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "May is a pleasant spring month with mild temperatures and blooming greenery, though rain is common."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "June is warm and humid with long daylight hours and occasional thunderstorms in the evenings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "July is the warmest month, ideal for lakefront festivals and outdoor activities despite humidity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "August remains warm and humid with a lively outdoor scene and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "September brings comfortable fall temperatures and lower humidity, making it a great time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "October features colorful autumn foliage and crisp air, though temperatures drop noticeably by month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "November turns cold and grey with increasing chances of rain, sleet, and early snowfall."
+    },
+    {
+      "month": 12,
+      "avgHighC": -1,
+      "avgLowC": -8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "December is cold and wintry with snow likely, though holiday events and indoor attractions keep the city lively."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

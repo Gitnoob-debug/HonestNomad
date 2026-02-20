@@ -1,0 +1,115 @@
+{
+  "destinationId": "warsaw",
+  "city": "Warsaw",
+  "country": "Poland",
+  "transportAdvice": "Warsaw has an extensive public transit network including metro lines, trams, and buses that connect the city centre and most tourist areas efficiently. Taxis are widely available and walking is practical within the historic centre and major districts.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 1,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with occasional snow and frost, typical of a Central European winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold with possible snow, though days begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures but expect variable and unpredictable weather."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring conditions with blooming parks and occasional showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with longer days, one of the most enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with occasional thunderstorms and comfortable evenings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month, sunny and lively with occasional heavy summer showers."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot and humid at times with thunderstorms possible, but generally good summer weather."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler, crisp days and pleasant conditions for sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler with increasing cloud cover and autumn foliage in the parks."
+    },
+    {
+      "month": 11,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often overcast with the first frosts possible toward month end."
+    },
+    {
+      "month": 12,
+      "avgHighC": 2,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold winter month with possible snow and festive Christmas markets in the city centre."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

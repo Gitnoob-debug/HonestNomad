@@ -1,0 +1,115 @@
+{
+  "destinationId": "key-west",
+  "city": "Key West",
+  "country": "United States",
+  "transportAdvice": "Key West's compact historic district is very walkable, and bicycles or scooters are popular and practical for getting around the island. Public buses serve the main corridor, and taxis are readily available for longer trips or late-night travel.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant winter weather with low humidity and little rain, ideal for sightseeing and outdoor activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable and dry with warm sunny days, one of the most popular months for visitors."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm spring conditions begin to settle in with low rain and plenty of sunshine."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with long sunny days, excellent for water activities and beach time."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity begin to rise noticeably, with occasional afternoon showers becoming more frequent."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent afternoon thunderstorms as the wet season gets underway."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest month of the year with high humidity and daily rain showers, though mornings are often clear."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heat and humidity with frequent storms; peak of hurricane season warrants monitoring forecasts."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still hot and wet with the highest hurricane risk of the season, travel insurance is advisable."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures begin to ease slightly and rain becomes less frequent as the wet season winds down."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Noticeably more comfortable with lower humidity and drier conditions, a pleasant time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and dry winter weather returns, making December a festive and enjoyable time to explore Key West."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

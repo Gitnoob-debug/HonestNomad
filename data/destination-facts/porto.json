@@ -1,0 +1,115 @@
+{
+  "destinationId": "porto",
+  "city": "Porto",
+  "country": "Portugal",
+  "transportAdvice": "Porto has a metro system, extensive bus network, and historic trams that cover most tourist areas, making public transit a practical and affordable option. The historic centre is very walkable, though hilly terrain can be tiring; taxis and ride-hailing vehicles are widely available for longer distances or steep climbs.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and frequently rainy, with mild temperatures making heavy layers unnecessary but a waterproof jacket essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still wet and cool with occasional sunny breaks, one of the rainiest months of the year."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly warmer days and a mix of rain and sunshine."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with mild temperatures and occasional showers; a good time to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and mostly pleasant with decreasing rainfall and longer daylight hours."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry, marking the start of the busy tourist season with comfortable conditions."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and sunny with very little rain; the peak of summer and the busiest tourist period."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Similar to July, hot and dry with long sunny days and high visitor numbers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with slightly cooler evenings; an excellent time to visit with fewer crowds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings mild temperatures and increasing rainfall, with pleasant conditions for sightseeing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter, with grey skies and frequent rain returning."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and rainy with short days, though the festive atmosphere in the city centre adds seasonal charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "mumbai",
+  "city": "Mumbai",
+  "country": "India",
+  "transportAdvice": "Mumbai has an extensive public transit network including a suburban rail system, metro lines, and buses that connect most tourist and residential areas; taxis and auto-rickshaws are widely available throughout the city. Walking is practical in some neighborhoods but can be challenging due to traffic, crowds, and uneven footpaths, so local transit or hired vehicles are recommended for longer distances.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with pleasant temperatures, making it one of the best months to visit Mumbai."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with comfortable evenings, still a good time for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise noticeably and humidity starts to build toward the pre-monsoon season."
+    },
+    {
+      "month": 4,
+      "avgHighC": 36,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and increasingly humid with occasional pre-monsoon showers possible toward the end of the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 35,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Very hot and muggy with the monsoon approaching; brief heavy showers become more frequent."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon arrives in full force bringing heavy, persistent rainfall and high humidity throughout the month."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with intense daily rainfall; flooding in low-lying areas is common."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy monsoon rains with overcast skies and very high humidity persisting all month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon begins to taper slightly but rainfall remains heavy and the city stays very humid."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Post-monsoon transition with decreasing rain but lingering humidity and warm temperatures."
+    },
+    {
+      "month": 11,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and warm with more comfortable conditions returning, marking the start of the pleasant season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool, dry, and sunny with mild evenings, making it an excellent month for exploring the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

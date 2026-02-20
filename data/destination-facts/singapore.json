@@ -1,0 +1,115 @@
+{
+  "destinationId": "singapore",
+  "city": "Singapore",
+  "country": "Singapore",
+  "transportAdvice": "Singapore has an excellent, air-conditioned metro (MRT) and bus network that covers virtually all tourist areas, making it easy and affordable to get around without a car. Taxis and ride-hailing vehicles are widely available, and many attractions in areas like the Marina Bay and Orchard Road districts are walkable.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "January falls within the northeast monsoon season, bringing frequent heavy showers and overcast skies, though heat remains constant."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain eases slightly compared to January, with more sunny spells, but humidity stays high and afternoon showers are still common."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitional month with warming temperatures, a mix of sunny periods and afternoon thunderstorms, and consistently high humidity."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "One of the hotter months, with intense sunshine and frequent afternoon thunderstorms typical of the inter-monsoon period."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with regular afternoon thunderstorms; mornings are often bright before clouds build through the day."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The southwest monsoon begins, bringing slightly drier conditions than the year's start but still warm and humid throughout."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "One of the drier months of the year with more consistent sunshine, though humidity remains high and brief showers still occur."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Similar to July, with relatively lower rainfall and plenty of sunshine, making it a popular time to visit despite the heat."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to increase again as the inter-monsoon period approaches, with warm temperatures and frequent afternoon thunderstorms."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October marks the start of the wetter inter-monsoon period, with heavy and sometimes prolonged rainfall alongside persistent heat."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The northeast monsoon arrives, bringing some of the heaviest rainfall of the year; expect frequent downpours and overcast conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "December is among the wettest months, with persistent monsoon rains, though festive decorations and events make it a lively time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

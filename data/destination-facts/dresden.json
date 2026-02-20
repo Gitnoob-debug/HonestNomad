@@ -1,0 +1,115 @@
+{
+  "destinationId": "dresden",
+  "city": "Dresden",
+  "country": "Germany",
+  "transportAdvice": "Dresden has an extensive tram and bus network that connects the city centre with major tourist attractions, making public transit a reliable and affordable option. The historic old town is compact and very walkable, and taxis are readily available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often grey with occasional snow, typical of central European winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold but days begin to lengthen slightly, with occasional frost and overcast skies."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and the first signs of blossom, though cool days persist."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with warming temperatures and occasional showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with longer days, one of the more enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with comfortable temperatures and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month, with long sunny days and periodic summer storms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant, similar to July, with some thunderstorm activity possible."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and beautiful foliage beginning to appear."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler with frequent overcast skies and autumn colours across the city."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and damp with short days, though the famous Christmas markets begin late in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold winter month with a festive atmosphere, as Dresden hosts one of Germany's most celebrated Christmas markets."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

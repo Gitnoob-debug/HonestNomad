@@ -1,0 +1,115 @@
+{
+  "destinationId": "turks-caicos",
+  "city": "Providenciales",
+  "country": "Turks and Caicos",
+  "transportAdvice": "Providenciales has no formal public transit system, so most visitors rely on taxis or rental cars to get around; the island is too spread out for practical walking between attractions. Taxis are widely available at the airport and major resorts, and renting a car is a popular option for exploring beyond Grace Bay.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and sunny with low humidity and gentle trade winds, making it one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and comfortable with clear skies and calm seas, ideal for snorkeling and beach activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise slightly but conditions remain dry and breezy, excellent for water sports."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with long sunny days and good visibility for diving and snorkeling."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Heat builds and occasional showers begin to appear, though sunny spells still dominate most days."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The start of hurricane season brings higher humidity and more frequent afternoon showers alongside warm temperatures."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with periodic rain showers, though many days remain sunny and the sea is very warm."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak hurricane season brings the highest chance of storms and heavy rain, with intense heat and humidity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The most active month of hurricane season with frequent rain and the greatest risk of tropical weather disruptions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hurricane risk begins to ease but showers remain common and humidity stays high through the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions gradually improve with lower humidity and fewer rain events as the dry season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry, sunny, and comfortably warm with trade winds returning, marking the beginning of peak tourist season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "heidelberg",
+  "city": "Heidelberg",
+  "country": "Germany",
+  "transportAdvice": "Heidelberg's compact old town and riverside promenade are very walkable, making it easy to reach most major attractions on foot. The city is well served by trams and buses connecting the old town, train station, and surrounding areas, with taxis readily available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with occasional frost, though heavy snow is uncommon in the valley."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and wintry but days begin to lengthen slightly with occasional crisp sunny spells."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and the first blossoms, though showers are common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming hillsides and comfortable temperatures for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with longer days, ideal for exploring the castle and riverside paths."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer is warm and lively, with occasional afternoon thunderstorms possible."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month with long sunny days and a bustling old town atmosphere."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer conditions continue with occasional thunderstorms breaking the heat."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings golden light and comfortable temperatures, one of the most scenic times to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cooler and increasingly misty, with autumn foliage on the surrounding hills adding colour."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Grey and damp with noticeably shorter days; a quieter period for tourism."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive with Christmas markets in the old town adding warmth to the winter atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

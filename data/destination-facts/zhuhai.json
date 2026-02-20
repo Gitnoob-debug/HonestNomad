@@ -1,0 +1,115 @@
+{
+  "destinationId": "zhuhai",
+  "city": "Zhuhai",
+  "country": "China",
+  "transportAdvice": "Zhuhai has a comprehensive public bus network that covers most tourist areas, and taxis are widely available and affordable throughout the city. Walking is pleasant along the coastal promenade and in scenic zones, though buses or taxis are recommended for reaching more spread-out attractions.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and mostly dry with comfortable daytime temperatures, making it a pleasant time to explore outdoors."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Similar to January but with slightly increasing humidity; occasional drizzle is possible but rain is generally light."
+    },
+    {
+      "month": 3,
+      "avgHighC": 21,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Spring arrives with warming temperatures and rising humidity, along with more frequent overcast skies and light rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 25,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly wet as the pre-monsoon season begins; expect occasional showers and muggy conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and rainy with the onset of the wet season; heavy downpours are common, especially in the afternoons."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the rainy season with high heat, heavy rainfall, and the possibility of tropical storms or typhoons."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest month of the year with intense heat and significant rainfall; typhoon risk is at its highest."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continues hot and stormy with frequent heavy rain and ongoing typhoon risk; outdoor plans may be disrupted."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and wet with lingering typhoon season; rainfall begins to ease toward the end of the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Conditions improve noticeably with lower rainfall and comfortable temperatures, making this one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly mild and mostly dry with clear skies; excellent weather for sightseeing and beach walks."
+    },
+    {
+      "month": 12,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with comfortable temperatures; the least humid month and a great time for outdoor exploration."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

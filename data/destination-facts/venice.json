@@ -1,0 +1,115 @@
+{
+  "destinationId": "venice",
+  "city": "Venice",
+  "country": "Italy",
+  "transportAdvice": "Venice's historic island center is entirely car-free, making walking the primary way to get around, though the dense network of canals and narrow alleyways can be disorienting at first. Public water buses (vaporetti) serve the main canals and connect the islands, and water taxis are widely available but expensive; the mainland areas are served by conventional buses.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and damp with frequent fog over the lagoon; acqua alta flooding is possible and crowds are minimal."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and misty, but the famous Carnival celebrations bring vibrant crowds and festivities to the city."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and the city starts to wake up for spring, though rain and cool spells remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with mild temperatures and blooming flowers; tourist numbers begin to climb noticeably."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny with comfortable conditions; one of the more enjoyable months to visit before summer heat arrives."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with long daylight hours; crowds grow significantly and the city can feel busy."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and humid with peak tourist crowds; canal odors can be noticeable and the city is at its most congested."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Similar to July with intense heat and humidity; the busiest and most expensive time to visit Venice."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crowds begin to thin and temperatures become more comfortable, making this a popular and pleasant time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Autumn brings cooler air, moody atmospheric light, and the return of acqua alta flooding risk as rains increase."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with frequent rain and fog; acqua alta events are common and the city is quiet but atmospheric."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and wintry with festive Christmas decorations; fog and flooding are possible but crowds are low outside the holiday period."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

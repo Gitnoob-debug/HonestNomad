@@ -1,0 +1,115 @@
+{
+  "destinationId": "todos-santos",
+  "city": "Todos Santos",
+  "country": "Mexico",
+  "transportAdvice": "Todos Santos is a small town where the historic center and main attractions are walkable, though distances to beaches and outlying areas require transport. Taxis and local colectivo vans are available for getting around, and renting a car or bicycle is a practical option for exploring the surrounding region.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny with comfortable daytime temperatures and chilly nights — ideal weather for exploring."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Consistently dry and pleasant with warm days and cool evenings, one of the best months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with increasing sunshine, great conditions for beach and outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures rise noticeably with very little rain, making for hot afternoons and mild nights."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry with humidity beginning to build slightly toward the end of the month."
+    },
+    {
+      "month": 6,
+      "avgHighC": 35,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Heat intensifies and occasional showers begin to appear, marking the early edge of the rainy season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with periodic afternoon thunderstorms, though mornings are often clear."
+    },
+    {
+      "month": 8,
+      "avgHighC": 35,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak summer heat with high humidity and the possibility of tropical storm activity in the region."
+    },
+    {
+      "month": 9,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with heavy rain possible and elevated hurricane risk — travel with caution."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to taper off and temperatures ease, though humid conditions persist into the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Noticeably drier and cooler, with comfortable conditions returning and fewer crowds than peak season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry, sunny, and mild with cool nights — a popular time to visit as the high season gets underway."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

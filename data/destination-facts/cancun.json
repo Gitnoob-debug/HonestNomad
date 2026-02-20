@@ -1,0 +1,115 @@
+{
+  "destinationId": "cancun",
+  "city": "Cancun",
+  "country": "Mexico",
+  "transportAdvice": "The Hotel Zone is a long narrow strip where walking between resorts and beaches is common, though distances can be large; an affordable local bus runs the length of the Hotel Zone and connects to downtown. Taxis are widely available throughout the city, and it is advisable to agree on a fare before departing.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with comfortable temperatures and little rain, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasant with clear skies and mild evenings, ideal for beach and outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and conditions remain dry and sunny, attracting spring break crowds."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and largely dry with excellent beach weather and calm seas."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity increase noticeably and afternoon showers begin to appear more frequently."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season is underway with frequent afternoon thunderstorms and the start of hurricane season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with regular heavy showers, though mornings are often sunny and beaches remain busy."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak hurricane season brings the highest risk of tropical storms along with persistent heat and humidity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest and most storm-prone month of the year; travel insurance and flexible plans are advisable."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward the end of the month as hurricane season winds down, though humidity remains high."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Conditions improve significantly with lower humidity and comfortable temperatures returning."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and warm with pleasant evenings, making it a popular month for holiday travel and festive events."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

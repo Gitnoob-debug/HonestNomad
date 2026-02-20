@@ -1,0 +1,115 @@
+{
+  "destinationId": "ghana",
+  "city": "Accra",
+  "country": "Ghana",
+  "transportAdvice": "Accra has a network of shared minibuses and trotros that cover most areas of the city, though they can be crowded and routes are not always clearly marked for first-time visitors; taxis are widely available and a practical option for tourists, while walking is feasible in specific neighborhoods but less practical across the sprawling city due to heat, traffic, and limited pavements.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with harmattan haze reducing visibility; generally sunny and comfortable for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with occasional brief showers; one of the better months for outdoor activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity begin to build as the rainy season approaches; expect some afternoon showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Increasing rainfall with warm temperatures; short but heavy downpours are common in the afternoons."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with frequent heavy rain; flooding can affect roads and travel plans."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the main rainy season with overcast skies and regular downpours; temperatures cool slightly."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A brief drier interlude between the two rainy seasons; cooler and less humid than surrounding months."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Relatively dry and cooler with overcast conditions; a pleasant time to visit despite occasional showers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The minor rainy season begins with increasing showers and rising humidity."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wetter months of the minor rainy season; expect frequent afternoon and evening rain."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Rainfall decreases significantly as the dry season returns; warm and increasingly sunny conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and warm with harmattan winds beginning to arrive; good conditions for travel and outdoor exploration."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

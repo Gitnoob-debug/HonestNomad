@@ -1,0 +1,115 @@
+{
+  "destinationId": "detroit",
+  "city": "Detroit",
+  "country": "United States",
+  "transportAdvice": "Detroit is a car-centric city where public transit coverage is limited, though a light rail line runs along the main downtown corridor and buses serve broader areas; renting a car is strongly recommended for exploring beyond the city center. Taxis and ride-hail vehicles are available downtown, but walking between attractions is only practical within specific neighborhoods.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often snowy with grey skies; pack heavy winter layers and expect icy conditions."
+    },
+    {
+      "month": 2,
+      "avgHighC": 1,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still bitterly cold with frequent snow and wind; one of the harshest months for outdoor activity."
+    },
+    {
+      "month": 3,
+      "avgHighC": 7,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise but remain chilly with a mix of rain and late-season snow possible."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with mild days and cool nights; rain is common but outdoor exploration becomes pleasant."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable and increasingly warm with blooming greenery; a great time to visit before summer heat sets in."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with long daylight hours; outdoor festivals and events begin in earnest."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month with high humidity; expect lively street life but plan for heat during midday."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still hot and humid with occasional thunderstorms; peak summer activity and events continue."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures ease into a pleasant early autumn; one of the most enjoyable months to visit Detroit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp fall weather with colorful foliage; cooler evenings require a jacket but days remain comfortable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and increasingly grey with rain and early snow possible; outdoor time becomes limited."
+    },
+    {
+      "month": 12,
+      "avgHighC": 2,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and wintry with snow likely; holiday events and indoor cultural attractions make it worthwhile despite the chill."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

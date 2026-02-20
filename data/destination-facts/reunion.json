@@ -1,0 +1,115 @@
+{
+  "destinationId": "reunion",
+  "city": "Saint-Denis",
+  "country": "Reunion",
+  "transportAdvice": "Saint-Denis has a public bus network that connects the city center and some tourist areas, though coverage can be limited and infrequent outside urban zones; taxis are widely available and recommended for reaching more remote or mountainous areas. The city center is walkable for short distances, but the island's hilly terrain and spread-out attractions make personal or hired transport the most practical option for exploring beyond downtown.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the hot, wet cyclone season with heavy rainfall and high humidity — be prepared for tropical downpours."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cyclone season continues with frequent intense rain and oppressive heat; outdoor activities may be disrupted."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still wet and warm as the rainy season begins to wind down, though heavy showers remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitional month with decreasing rainfall and slightly cooler temperatures as autumn approaches."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and drier, marking the beginning of the more pleasant dry season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and mild with comfortable temperatures — a popular time for hiking and outdoor exploration."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the coolest and driest months, ideal for trekking into the island's volcanic interior."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry and sunny conditions with refreshing trade winds making it excellent for outdoor activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise slightly but conditions remain dry and pleasant for sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring warmth returns with occasional showers as the island transitions toward the wet season."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Getting warmer and more humid with increasing rainfall as the pre-cyclone season begins."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and wet with the onset of the cyclone season; expect heavy tropical rain alongside warm beach weather."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "tamarindo",
+  "city": "Tamarindo",
+  "country": "Costa Rica",
+  "transportAdvice": "Tamarindo's compact beach town center is walkable, though the heat and unpaved roads make taxis a practical option for longer trips or reaching nearby beaches. Local taxis and shared shuttle services connect the town to other destinations, while public buses serve the region but may require transfers and are less convenient for tourist areas.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak dry season with sunny skies, low humidity, and minimal rain — ideal beach conditions."
+    },
+    {
+      "month": 2,
+      "avgHighC": 34,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with consistent sunshine, one of the most popular months for visitors."
+    },
+    {
+      "month": 3,
+      "avgHighC": 35,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest month of the year with very little rain and strong sun throughout the day."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still largely dry but humidity begins to build slightly toward the end of the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The rainy season begins with afternoon showers becoming more frequent, though mornings are often clear."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Regular heavy afternoon and evening rains arrive, with lush green landscapes emerging."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "A brief drier spell known as the veranillo can bring clearer days mid-month amid the rainy season."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season continues with frequent downpours, though mornings often remain pleasant."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with heavy rainfall and overcast skies common throughout the day."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in the rainy season with persistent showers, though the landscape is strikingly green."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward the end of the month as the dry season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season returns with sunny weather and lower humidity, making it a great time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

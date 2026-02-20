@@ -1,0 +1,115 @@
+{
+  "destinationId": "galway",
+  "city": "Galway",
+  "country": "Ireland",
+  "transportAdvice": "Galway's compact city centre is very walkable, with most attractions, pubs, and shops within easy reach on foot. Local bus services connect the city centre to surrounding areas, and taxis are readily available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, wet, and windy with frequent Atlantic rain showers and short daylight hours."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to January, cold and damp with occasional brighter spells but persistent westerly winds."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early spring brings slightly milder temperatures but rain remains frequent and winds can be strong."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably brighter with longer days, though showers are still common and temperatures remain cool."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the more pleasant months with mild temperatures, longer evenings, and a mix of sun and showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lively with long daylight hours, though Atlantic showers can still interrupt sunny spells."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year, busy with festivals and tourists, but expect some rain alongside the warmth."
+    },
+    {
+      "month": 8,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and often lively, with a good chance of sunny days but rain showers remain a regular feature."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and increasing rain, though pleasant mild days are still common."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably wetter and windier as autumn sets in, with shorter days and frequent Atlantic storms."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, grey, and rainy with strong winds; outdoor sightseeing becomes less comfortable."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Dark and wet with very short days, though the festive atmosphere in the city centre adds seasonal charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "guanajuato",
+  "city": "Guanajuato",
+  "country": "Mexico",
+  "transportAdvice": "The historic city center is best explored on foot, as its winding alleyways and pedestrian callejones are not accessible by vehicle; the city's unique network of underground tunnels carries car traffic beneath the streets. Local buses connect neighborhoods and surrounding areas, and taxis are readily available for longer distances or trips to outlying sites.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny days with cold nights make January one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 24,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm afternoons and clear skies continue, with nights remaining cool and comfortable."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to climb noticeably, with dry and sunny conditions dominating throughout the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "One of the warmest and driest months, with long sunny days and mild evenings."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Heat peaks and the first scattered afternoon thunderstorms signal the approaching rainy season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins in earnest, with frequent afternoon and evening showers cooling temperatures slightly."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Regular afternoon rains keep the city lush and green, though mornings are often clear and pleasant."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainfall remains frequent and humidity is at its highest, with overcast skies common in the afternoons."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year, with heavy afternoon downpours and cooler overall temperatures."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain begins to taper off and the landscape stays green, with increasingly comfortable and stable weather."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and mild conditions return, making November an excellent time to visit with fewer crowds."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with festive holiday atmosphere in the city; evenings can be quite cold so layers are advisable."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

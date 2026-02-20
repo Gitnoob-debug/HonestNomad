@@ -1,0 +1,115 @@
+{
+  "destinationId": "victoria-falls",
+  "city": "Victoria Falls",
+  "country": "Zimbabwe",
+  "transportAdvice": "The town of Victoria Falls is compact and walkable, with most hotels, restaurants, and the falls entrance within easy reach on foot. Taxis are widely available for longer trips or transfers, and informal minibus services connect the town to nearby areas, though tourists typically rely on taxis or hotel transfers.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and wet with frequent afternoon thunderstorms; the falls are at high flow and spray is intense."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall keeps the falls roaring and the surrounding rainforest lush and misty."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly but the falls reach near-peak flow, producing dramatic spray and rainbows."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains taper off and the falls are at their most spectacular peak flow, with heavy mist soaking viewpoints."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season begins with pleasant temperatures and the falls still impressively full from upstream rains."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with clear skies; water levels start to drop and viewpoints become less obscured by spray."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The coolest month with crisp mornings and sunny days; excellent visibility of the falls and wildlife activity is high."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with clear conditions; water levels continue to fall, revealing more of the gorge and rock face."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with very low water levels; the gorge and basalt columns are fully visible and wildlife viewing is excellent."
+    },
+    {
+      "month": 10,
+      "avgHighC": 34,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest and driest month; water levels are at their lowest but heat can be intense during midday."
+    },
+    {
+      "month": 11,
+      "avgHighC": 32,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The first rains arrive, bringing some relief from the heat and beginning to replenish the falls' flow."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season is underway with regular afternoon storms; the falls begin to swell and the landscape turns green."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

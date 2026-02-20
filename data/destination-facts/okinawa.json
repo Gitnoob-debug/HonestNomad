@@ -1,0 +1,115 @@
+{
+  "destinationId": "okinawa",
+  "city": "Okinawa",
+  "country": "Japan",
+  "transportAdvice": "Okinawa's main island is best explored by rental car or scooter, as public buses cover major routes but can be infrequent and slow for reaching beach and rural attractions; a monorail serves central Naha city including the main shopping and cultural areas. Taxis are widely available and metered, making them a reliable option for shorter trips, though renting a vehicle is strongly recommended for independent exploration of the island.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with mild temperatures; the coolest month of the year but still warmer than mainland Japan."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with cool, breezy conditions and occasional rain showers; not ideal for swimming."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and cherry blossoms may appear; still mild with some rainy spells."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with increasing sunshine; a good time to visit before the rainy season begins."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins in May, bringing frequent heavy showers and rising humidity."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the rainy season with persistent rain and high humidity; typhoon season also begins."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and sunny as the rainy season ends; excellent beach weather but typhoons remain a risk."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak summer heat with strong sunshine and warm seas; the busiest tourist month but typhoon risk is highest."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and humid with the highest typhoon frequency; travel disruptions are possible."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Typhoon season winds down and conditions become more stable; warm and pleasant for outdoor activities."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable and mild with lower humidity; a quieter and enjoyable time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 20,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy as winter sets in; festive atmosphere in Naha but not ideal for beach activities."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

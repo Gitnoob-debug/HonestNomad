@@ -1,0 +1,115 @@
+{
+  "destinationId": "taipei",
+  "city": "Taipei",
+  "country": "Taiwan",
+  "transportAdvice": "Taipei has an extensive and efficient metro system that connects most major tourist areas, making it easy to get around without a car. Buses supplement the metro network, taxis are widely available and metered, and many central neighborhoods are very walkable.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool and overcast with frequent drizzle; pack a light jacket and rain gear."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to January, often grey and damp with occasional cold spells during Lunar New Year."
+    },
+    {
+      "month": 3,
+      "avgHighC": 22,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures begin to rise but rain remains frequent; expect mild and muggy conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and increasingly humid with regular showers as spring sets in."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very rainy as the plum rain season approaches; an umbrella is essential."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot, humid, and wet with the onset of typhoon season; expect heavy downpours."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest month of the year with intense heat, high humidity, and typhoon risk."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Remains very hot and humid with the highest likelihood of typhoon activity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and wet with continued typhoon risk as summer gradually winds down."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures ease and skies begin to clear; one of the more pleasant months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and comfortable with lower humidity; a popular time for outdoor sightseeing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool and occasionally rainy; light layers are recommended for comfortable exploration."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

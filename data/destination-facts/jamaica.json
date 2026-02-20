@@ -1,0 +1,115 @@
+{
+  "destinationId": "jamaica",
+  "city": "Montego Bay",
+  "country": "Jamaica",
+  "transportAdvice": "Public minibuses and route taxis cover most areas but can be crowded and unpredictable for tourists; licensed taxis are widely available near hotels and tourist zones and are the most practical option for getting around. Walking is pleasant along the Hip Strip and beachfront areas but less advisable in areas away from the main tourist corridor.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with pleasant breezes, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and sunny with comfortable temperatures, ideal beach weather."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise slightly but conditions remain dry and very enjoyable."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm with occasional showers as the wet season approaches, still largely pleasant."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The start of the rainy season brings more frequent afternoon showers and rising humidity."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with regular rainfall; also the beginning of hurricane season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer heat with frequent heavy showers, though sunny spells are still common."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest and hottest months, with elevated hurricane risk."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak hurricane season; expect heavy rain and high humidity throughout the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still within hurricane season with significant rainfall, though storms are unpredictable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall begins to ease and humidity drops, marking a transition toward the dry season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and warm with comfortable conditions, popular with winter sun seekers."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "graz",
+  "city": "Graz",
+  "country": "Austria",
+  "transportAdvice": "Graz has a well-developed public transit network of trams and buses that connects the city centre with most tourist areas, making it easy to get around without a car. The compact old town is very walkable, and taxis are readily available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold winter month with frequent overcast skies, occasional snow, and frosty nights."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold but days begin to lengthen slightly, with a mix of snow and rain possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and increasing sunshine, though showers are common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming greenery, though expect some rainy days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and lush with frequent afternoon showers and occasional thunderstorms."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Early summer is warm and green, with regular thunderstorms typical of the region."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "The warmest month, with hot sunny days and frequent afternoon thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Hot and humid with continued thunderstorm activity, similar to July."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with decreasing rainfall and pleasant sunny spells."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn weather with colourful foliage and occasional foggy mornings."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool and often grey with increasing fog in the Mur valley and chilly evenings."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold winter month with festive Christmas markets, possible snow, and short daylight hours."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

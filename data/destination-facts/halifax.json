@@ -1,0 +1,115 @@
+{
+  "destinationId": "halifax",
+  "city": "Halifax",
+  "country": "Canada",
+  "transportAdvice": "Halifax is a compact and walkable city, with the downtown core and waterfront easily explored on foot. A public bus network covers most tourist areas and neighborhoods, and taxis are readily available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often snowy with occasional freezing rain, typical of a Maritime Canadian winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": -1,
+      "avgLowC": -10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the coldest months, with frequent snow and icy conditions across the city."
+    },
+    {
+      "month": 3,
+      "avgHighC": 3,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late winter with a mix of snow and rain as temperatures slowly begin to rise."
+    },
+    {
+      "month": 4,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and damp spring weather with rain showers and gradually lengthening days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with blooming greenery, though fog is common along the coast."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with comfortable temperatures, though coastal fog can roll in frequently."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long sunny days and ideal conditions for outdoor activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and enjoyable with low rain probability, making it a peak time for tourism and festivals."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant early autumn with cooler evenings and the beginning of fall foliage color."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn weather with vibrant fall colors and increasing chances of rain."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 0,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and wet with frequent rain and the first hints of winter approaching."
+    },
+    {
+      "month": 12,
+      "avgHighC": 1,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and wintry with a mix of snow and rain, and short daylight hours."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "koh-samui",
+  "city": "Koh Samui",
+  "country": "Thailand",
+  "transportAdvice": "Koh Samui has no formal public transit system, so getting around relies on shared songthaew trucks that run fixed coastal routes, as well as widely available taxis and motorbike rentals. Walking is practical within beach resort areas but the island's size and heat make renting a scooter or hiring a taxi the most common way to explore further afield.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "January is one of the driest and most pleasant months, with sunny skies and calm seas ideal for beach activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "February continues the dry season with warm temperatures and low rainfall, making it an excellent time to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "March brings increasing heat and mostly clear conditions, with calm waters and good visibility for snorkeling."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "April is hot and humid with occasional showers beginning to appear as the wet season approaches."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "May sees more frequent rain and rising humidity, though sunny spells still occur between showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "June brings warm, humid conditions with regular afternoon showers and occasionally choppy seas."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "July is warm and humid with intermittent rain, though it remains popular with visitors willing to work around showers."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "August is similar to July with warm temperatures and moderate rainfall, offering a mix of sun and showers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "September marks the beginning of the wetter period, with heavier and more persistent rainfall becoming common."
+    },
+    {
+      "month": 10,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October is one of the wettest months, with heavy rain and rough seas that can disrupt ferry services and beach plans."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "November is the peak of the northeast monsoon, bringing the heaviest rainfall and strong winds; some resorts close during this period."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "December sees rainfall easing toward the end of the month as the dry season returns, though early December can still be unsettled."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

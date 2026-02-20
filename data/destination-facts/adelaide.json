@@ -1,0 +1,115 @@
+{
+  "destinationId": "adelaide",
+  "city": "Adelaide",
+  "country": "Australia",
+  "transportAdvice": "Adelaide has a public transit network of buses, trains, and a free city tram that covers the CBD and major tourist areas, making it easy to get around without a car. The city centre is walkable and taxis are readily available, though a car is useful for exploring the Barossa Valley and other regional attractions.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry summer month with occasional heatwaves pushing temperatures well above 35°C."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continues hot and dry, often the driest month of the year with long sunny days."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late summer brings slightly cooler days and the first hints of autumn relief."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant autumn weather with mild temperatures and increasing rainfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and wetter as winter approaches, with comfortable daytime temperatures."
+    },
+    {
+      "month": 6,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and rainy winter month with short days and occasional cold fronts."
+    },
+    {
+      "month": 7,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "The coldest and wettest month, with crisp mornings and frequent winter showers."
+    },
+    {
+      "month": 8,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Still cool and wet but days gradually lengthen toward the end of the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures and a mix of sunny days and showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Lovely spring weather with wildflowers blooming and increasingly warm sunny days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry with long daylight hours and ideal outdoor conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot early summer with low rainfall and plenty of sunshine, perfect for festivals and outdoor dining."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "hurghada",
+  "city": "Hurghada",
+  "country": "Egypt",
+  "transportAdvice": "Hurghada's resort strip is long and not easily walkable end-to-end, so taxis and minibuses are the primary ways to get around; taxis are widely available but fares should be agreed in advance. Public minibuses connect major areas at low cost, though tourists typically rely on taxis or hotel transfers for convenience.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and sunny winter days with cool evenings, ideal for sightseeing and light water activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly warm and dry with comfortable temperatures for beach and diving."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming spring weather with long sunny days and minimal chance of rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with excellent visibility for snorkeling and diving in the Red Sea."
+    },
+    {
+      "month": 5,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Increasingly hot with intense sunshine; sea temperatures are warm and inviting."
+    },
+    {
+      "month": 6,
+      "avgHighC": 37,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry; beach and water activities are best enjoyed in the early morning or late afternoon."
+    },
+    {
+      "month": 7,
+      "avgHighC": 38,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with high temperatures; the sea is warm and calm, popular for water sports."
+    },
+    {
+      "month": 8,
+      "avgHighC": 38,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Consistently hot and sunny with warm sea water; shade and hydration are essential."
+    },
+    {
+      "month": 9,
+      "avgHighC": 35,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still very warm but slightly cooler than peak summer, with good conditions for diving."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable autumn warmth with excellent beach weather and fewer crowds."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and pleasant with warm days and cooler evenings, a popular time for visitors."
+    },
+    {
+      "month": 12,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and sunny winter weather, great for outdoor activities with comfortable daytime temperatures."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

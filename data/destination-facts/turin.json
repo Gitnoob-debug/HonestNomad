@@ -1,0 +1,115 @@
+{
+  "destinationId": "turin",
+  "city": "Turin",
+  "country": "Italy",
+  "transportAdvice": "Turin has a metro line, an extensive tram and bus network, and taxis are readily available throughout the city. The historic centre is compact and walkable, making it easy to reach major attractions on foot, while public transit covers outer neighbourhoods and the main train station efficiently.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often foggy winter days with occasional frost; light layers and a warm coat are essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold but slightly brighter than January, with occasional sunny spells breaking through the winter chill."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and increasing sunshine, though showers are common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Pleasant spring warmth arrives but April is one of the rainier months, so a light waterproof jacket is advisable."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and green with frequent afternoon thunderstorms; a great month for sightseeing between showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with long days and occasional thunderstorms, ideal for outdoor dining and exploring."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and mostly dry; the hottest month of the year with plenty of sunshine and low humidity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued summer heat, though the city quiets as many locals head on holiday; some businesses may close."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with a mix of sunny days and occasional rain showers returning."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cooler and noticeably wetter, with autumn foliage adding colour to the city's parks and boulevards."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Damp and grey with frequent fog settling in the Po plain; a warm coat and umbrella are necessary."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with festive atmosphere in the city centre; fog and occasional frost are common."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

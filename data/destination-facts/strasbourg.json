@@ -1,0 +1,115 @@
+{
+  "destinationId": "strasbourg",
+  "city": "Strasbourg",
+  "country": "France",
+  "transportAdvice": "Strasbourg has an excellent tram network that connects the city centre with most tourist areas, and the compact historic core is very walkable. Taxis are readily available, and cycling is popular thanks to an extensive network of bike lanes.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often grey with occasional frost, though snow is possible and adds charm to the historic streets."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and wintry but days begin to lengthen slightly, with occasional crisp sunny spells."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and the first signs of blossom, though showers are common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with warming temperatures and blooming parks, though rain remains frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with long daylight hours, making it one of the more enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with occasional thunderstorms, ideal for outdoor dining and riverside walks."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month, generally sunny and pleasant with low rainfall and long evenings."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny, though brief thunderstorms can occur in the afternoon."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with golden foliage beginning to appear toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cooler and increasingly overcast with autumn colours in full display across the city's parks and canals."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and damp with frequent fog, but the famous Christmas market opens in late November bringing festive atmosphere."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive, with Strasbourg's renowned Christmas market drawing large crowds throughout the month."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

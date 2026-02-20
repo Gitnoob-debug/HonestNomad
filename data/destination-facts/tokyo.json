@@ -1,0 +1,115 @@
+{
+  "destinationId": "tokyo",
+  "city": "Tokyo",
+  "country": "Japan",
+  "transportAdvice": "Tokyo has one of the world's most extensive and reliable metro and rail networks, with trains and subways covering virtually all tourist areas with high frequency. Taxis are widely available but expensive; walking is practical within neighborhoods, though distances between areas are best covered by public transit.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and mostly dry with clear skies, making it one of the more comfortable winter months for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but gradually warming, with occasional light rain and the chance of a rare snowfall."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild temperatures and the beginning of cherry blossom season toward the end of the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak cherry blossom season makes this one of the most popular months to visit, with pleasant mild weather."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with lush greenery, considered one of the best months for outdoor exploration."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season begins, bringing frequent overcast skies and persistent rain throughout the month."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot, humid, and often rainy early in the month before the rainy season ends, with intense summer heat setting in."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with high humidity and occasional typhoons; festivals add cultural vibrancy."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and humid with the highest typhoon risk of the year, bringing heavy rain and strong winds."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn arrives with comfortable temperatures and beautiful foliage beginning to appear late in the month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak autumn foliage makes this a scenic and pleasant month with cool, dry conditions ideal for walking."
+    },
+    {
+      "month": 12,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with festive illuminations across the city, offering a lively atmosphere despite the chill."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

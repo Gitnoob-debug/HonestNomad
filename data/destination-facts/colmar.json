@@ -1,0 +1,115 @@
+{
+  "destinationId": "colmar",
+  "city": "Colmar",
+  "country": "France",
+  "transportAdvice": "Colmar's historic center is compact and highly walkable, making it easy to reach most major attractions on foot. Local bus services connect the city and surrounding Alsatian villages, and taxis are generally available, though a car is useful for exploring the broader wine route.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often grey with occasional frost, but the festive Christmas market atmosphere lingers into early January."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with a chance of snow, though days begin to lengthen and early signs of winter's end appear."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and gradually warming with occasional rain showers and the first blossoms appearing on the wine route."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming flowers and comfortable temperatures ideal for exploring the old town."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lively with longer days, outdoor café culture in full swing and the surrounding vineyards turning lush green."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with occasional thunderstorms, but generally sunny and excellent for sightseeing and cycling."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest and sunniest month, perfect for outdoor dining and exploring the Alsace wine route at its most vibrant."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly sunny with occasional afternoon thunderstorms, peak tourist season with a lively festival atmosphere."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with harvest season underway in the vineyards and fewer crowds than summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn air with beautiful foliage colors across the Vosges hills and the wine route at its most scenic."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool and often overcast with increasing rain, but the city begins to transform with the arrival of its famous Christmas market."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold with a chance of snow and one of Europe's most celebrated Christmas markets filling the historic streets with lights and warmth."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

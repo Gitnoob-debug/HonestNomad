@@ -1,0 +1,115 @@
+{
+  "destinationId": "puno",
+  "city": "Puno",
+  "country": "Peru",
+  "transportAdvice": "Puno's compact city center is walkable for most tourist attractions, though the high altitude (3,800m) makes uphill walks tiring. Tuk-tuks and taxis are widely available for getting around town and reaching the port for Lake Titicaca excursions.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season with frequent afternoon and evening downpours; pack waterproof gear."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with heavy rainfall and occasional flooding around the lake."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain continues to be frequent though intensity begins to ease slightly toward month's end."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with decreasing rainfall and clearer skies starting to emerge."
+    },
+    {
+      "month": 5,
+      "avgHighC": 15,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season begins with sunny days, cold nights, and excellent visibility over the lake."
+    },
+    {
+      "month": 6,
+      "avgHighC": 14,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with near-freezing nights; clear skies make for stunning lake and mountain views."
+    },
+    {
+      "month": 7,
+      "avgHighC": 14,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The coldest month with frosty nights but reliably sunny days; peak tourist season."
+    },
+    {
+      "month": 8,
+      "avgHighC": 15,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still dry and cold at night but days are bright and pleasant for outdoor activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late dry season with warming days and continued clear skies; a great time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month as the rainy season approaches; occasional afternoon showers begin."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rain becomes more frequent with afternoon storms, though mornings are often clear."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season is well underway with regular heavy showers; the lake begins to rise."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "puerto-escondido",
+  "city": "Puerto Escondido",
+  "country": "Mexico",
+  "transportAdvice": "Getting around Puerto Escondido is manageable on foot within individual beach neighborhoods, though the town is spread out along the coast and taxis are widely available and affordable for longer trips. Local minibuses and colectivos connect the main areas, making public transit a viable option for budget travelers, though taxis remain the most convenient choice for tourists.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and sunny with pleasant temperatures, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry conditions with warm days and comfortable evenings ideal for beach activities."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to climb with very little rain and excellent surf and beach conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 34,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry with strong sun; good conditions for water sports and outdoor exploration."
+    },
+    {
+      "month": 5,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity increase noticeably as the rainy season approaches, with occasional afternoon showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season begins in earnest with frequent afternoon and evening downpours, but mornings are often clear."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy surf season peaks with world-class waves at Zicatela; expect regular rain and high humidity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rains and powerful surf; lush green surroundings but outdoor plans may be disrupted."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the rainy season with the highest chance of tropical storms and persistent heavy showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to taper off toward month's end but humidity remains high and showers are still frequent."
+    },
+    {
+      "month": 11,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with decreasing rainfall and improving beach conditions as the dry season returns."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and warm with comfortable temperatures, marking the start of the peak tourist season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

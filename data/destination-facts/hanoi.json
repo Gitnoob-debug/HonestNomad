@@ -1,0 +1,115 @@
+{
+  "destinationId": "hanoi",
+  "city": "Hanoi",
+  "country": "Vietnam",
+  "transportAdvice": "Hanoi has a growing metro system with limited coverage, supplemented by an extensive public bus network that reaches most tourist areas; taxis and motorbike taxis are widely available and affordable. The Old Quarter is compact and walkable, though heavy traffic and chaotic streets can make longer journeys more comfortable by vehicle.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with occasional drizzle and overcast skies; pack a light jacket for evenings."
+    },
+    {
+      "month": 2,
+      "avgHighC": 20,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still cool with persistent light mist and drizzle common; comfortable for sightseeing but bring layers."
+    },
+    {
+      "month": 3,
+      "avgHighC": 23,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warming up with increasing humidity and occasional light rain; expect hazy, muggy conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably warmer and more humid with occasional showers as the wet season approaches."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent afternoon thunderstorms; the rainy season is underway."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak heat and heavy rainfall; expect intense downpours and steamy conditions throughout the day."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with high temperatures and frequent heavy rain; flooding can occur."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and heat; typhoon-related weather can occasionally affect the region."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still rainy and warm as the wet season begins to taper; expect regular afternoon showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall decreasing and temperatures becoming more pleasant; a good transitional month for travel."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cooler and drier conditions return; comfortable temperatures make this an excellent time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 20,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and mostly dry with crisp air; light layers are recommended especially in the mornings and evenings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

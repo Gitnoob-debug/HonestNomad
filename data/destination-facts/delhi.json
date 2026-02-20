@@ -1,0 +1,115 @@
+{
+  "destinationId": "delhi",
+  "city": "New Delhi",
+  "country": "India",
+  "transportAdvice": "New Delhi has an extensive metro network that connects most major tourist and commercial areas, making it a practical and affordable way to get around; buses also cover the wider city but can be crowded and harder to navigate for visitors. Taxis and auto-rickshaws are widely available throughout the city, though walking long distances is generally impractical due to traffic, heat, and uneven pavements.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 21,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry winter days with chilly nights and occasional morning fog that can disrupt travel."
+    },
+    {
+      "month": 2,
+      "avgHighC": 24,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly mild with warming days and clear skies, one of the more comfortable months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures rise noticeably and conditions remain dry, making sightseeing comfortable but increasingly warm."
+    },
+    {
+      "month": 4,
+      "avgHighC": 37,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with intense afternoon sun; early morning is the best time for outdoor activities."
+    },
+    {
+      "month": 5,
+      "avgHighC": 41,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Extremely hot and often dusty, with temperatures regularly exceeding 40°C and occasional dust storms."
+    },
+    {
+      "month": 6,
+      "avgHighC": 39,
+      "avgLowC": 28,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Pre-monsoon heat gives way to humid, oppressive conditions as the first rains begin to arrive."
+    },
+    {
+      "month": 7,
+      "avgHighC": 35,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon month with heavy rainfall, high humidity, and frequent flooding in low-lying areas."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon continues with persistent rain and muggy conditions; waterlogging is common across the city."
+    },
+    {
+      "month": 9,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rains begin to ease but humidity remains high; conditions gradually become more bearable toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Post-monsoon cooling brings pleasant days and comfortable evenings, making this an excellent time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with clear skies, though air quality can deteriorate significantly due to seasonal smog and crop burning."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter nights and mild days with dense fog possible, especially in the second half of the month."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

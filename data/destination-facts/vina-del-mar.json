@@ -1,0 +1,115 @@
+{
+  "destinationId": "vina-del-mar",
+  "city": "Viña del Mar",
+  "country": "Chile",
+  "transportAdvice": "Viña del Mar is well connected by a commuter rail line linking it to nearby Valparaíso, and local buses cover most tourist and residential areas. The beachfront and city center are walkable, and taxis are widely available for longer trips or late-night travel.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer with warm sunny days and a refreshing coastal breeze, ideal for beach visits."
+    },
+    {
+      "month": 2,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued warm summer weather with long sunny days and minimal rainfall."
+    },
+    {
+      "month": 3,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Late summer brings slightly cooler evenings but still pleasant beach conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn sets in with milder temperatures and occasional light rain showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and cloudier with increasing rainfall as winter approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Winter brings frequent rain and overcast skies; a jacket and waterproof layer are essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The coldest and wettest month of the year with persistent grey skies and regular rainfall."
+    },
+    {
+      "month": 8,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still firmly in winter with continued rain and cool temperatures throughout the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with gradually improving weather and occasional sunny breaks between showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming temperatures and longer days make this a pleasant transitional month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Late spring brings warm sunny days and a lively atmosphere as the beach season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer with reliably warm weather and growing crowds heading to the coast."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

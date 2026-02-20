@@ -1,0 +1,115 @@
+{
+  "destinationId": "costa-rica",
+  "city": "San Jose",
+  "country": "Costa Rica",
+  "transportAdvice": "San Jose has an extensive public bus network that covers most tourist areas and neighborhoods, though buses can be crowded and routes may be confusing for first-time visitors. Taxis are widely available throughout the city, and walking is practical in specific central districts but less advisable in outlying areas due to traffic and uneven sidewalks.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "January is dry and pleasant with cool evenings, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "February remains dry and sunny with comfortable temperatures throughout the day."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "March is warm and dry, one of the hottest months of the dry season with clear skies."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April marks the transition to the rainy season with occasional afternoon showers beginning."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "May brings the onset of the rainy season with frequent afternoon and evening downpours."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "June is wet with heavy rainfall most afternoons, though mornings are often clear."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "July often brings a brief dry spell known as veranillo, with reduced rainfall mid-month."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "August returns to heavy rainfall patterns with lush green surroundings throughout the city."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "September is typically the wettest month with persistent rain and overcast skies."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October remains very wet and is generally considered the least favorable month for travel."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "November sees rainfall beginning to ease as the dry season gradually approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "December transitions into the dry season with cooler, more comfortable conditions and festive atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "wroclaw",
+  "city": "Wrocław",
+  "country": "Poland",
+  "transportAdvice": "Wrocław has an extensive tram and bus network that connects the city centre with most tourist areas, making public transit a reliable and affordable option. The historic Old Town and Market Square are compact and very walkable, and taxis are widely available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with occasional snow and frost, typical of a Central European winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and wintry with possible snow, though daylight hours begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional rain, with the city starting to come alive."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming trees and longer days, though showers are common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with comfortable temperatures, one of the more enjoyable months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with occasional thunderstorms, ideal for outdoor sightseeing and café culture."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long sunny days and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and summery with similar conditions to July, great for exploring the islands and riverbanks."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler, crisp air and beautiful foliage, a lovely time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler with increasing cloud cover and rain, autumn colours peak mid-month."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often overcast with frequent rain and the first hints of frost toward month's end."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold winter month with a festive Christmas market atmosphere in the Old Town, occasional snow possible."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

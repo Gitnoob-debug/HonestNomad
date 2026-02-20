@@ -1,0 +1,115 @@
+{
+  "destinationId": "hangzhou",
+  "city": "Hangzhou",
+  "country": "China",
+  "transportAdvice": "Hangzhou has a well-developed metro system and extensive bus network that connects major tourist areas including West Lake, making public transit a practical and affordable option for visitors. Taxis and ride-hailing services are widely available, and many lakeside attractions are easily explored on foot or by bicycle.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally misty winter days with rare frost; light layers are sufficient for most outings."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late winter brings slightly warmer days but persistent dampness; plum blossoms begin to appear."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring sees mild temperatures and blooming flowers, though rain showers are frequent."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warm and lush with frequent spring rains; West Lake is particularly scenic but expect wet days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warm and humid with regular rainfall; greenery is at its peak and crowds begin to build."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very humid with heavy plum rains; indoor attractions offer welcome relief."
+    },
+    {
+      "month": 7,
+      "avgHighC": 35,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak summer heat with high humidity and occasional thunderstorms; early mornings are best for sightseeing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Remains hot and humid with possible typhoon-related rain; lotus flowers bloom on the lake."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures ease into a pleasant early autumn; one of the more comfortable months to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Crisp and clear autumn weather with golden foliage; widely considered the best month to visit Hangzhou."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and mostly dry with comfortable conditions; a quieter period after the autumn peak."
+    },
+    {
+      "month": 12,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold and dry with occasional fog over the lake; a peaceful time to visit with fewer tourists."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

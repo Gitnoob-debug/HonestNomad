@@ -1,0 +1,115 @@
+{
+  "destinationId": "new-caledonia",
+  "city": "Noumea",
+  "country": "New Caledonia",
+  "transportAdvice": "Noumea has a public bus network that connects the city centre with most tourist areas and beaches, though services can be infrequent outside peak hours. Taxis are available and the city centre is walkable, but a rental car is useful for exploring beyond the main districts.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+11",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent tropical downpours, typical of the wet season peak."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet season with heavy rainfall and warm temperatures; cyclone risk remains."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still warm and wet as the rainy season begins to taper toward its end."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with decreasing rainfall and pleasantly warm conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and drier conditions begin to settle in, making for comfortable sightseeing."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry season begins with mild temperatures and low humidity — ideal travel weather."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The coolest month of the year, dry and sunny with refreshing trade winds."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny with cool nights; one of the best months to visit."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to rise slightly while dry conditions persist."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warming spring weather with low rainfall and increasing sunshine."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pre-wet season warmth with occasional showers beginning to appear."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and increasingly wet as the wet season returns; expect afternoon thunderstorms."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

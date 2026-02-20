@@ -1,0 +1,115 @@
+{
+  "destinationId": "dusseldorf",
+  "city": "Düsseldorf",
+  "country": "Germany",
+  "transportAdvice": "Düsseldorf has an excellent integrated public transit network including metro (U-Bahn), trams, and buses that connect the city centre, airport, and major tourist areas efficiently. The Altstadt and riverside areas are very walkable, and taxis are readily available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 5,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and grey with frequent rain and occasional frost; pack warm, waterproof layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and damp with overcast skies, though daylight hours begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional sunny spells between rain showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming trees and a mix of sunshine and showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, making it a lovely time to explore the riverside and outdoor cafes."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with long days, though afternoon thunderstorms are possible."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month with long sunny days; occasional heavy showers can interrupt outdoor plans."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with similar conditions to July; a popular month for outdoor events."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and comfortable daytime temperatures with less rain."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with autumn foliage; a jacket and umbrella are essential."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Grey, damp, and cold with frequent rain; the Christmas markets begin to open late in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and festive with renowned Christmas markets; snow is possible but not guaranteed."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

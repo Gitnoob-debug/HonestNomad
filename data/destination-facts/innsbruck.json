@@ -1,0 +1,115 @@
+{
+  "destinationId": "innsbruck",
+  "city": "Innsbruck",
+  "country": "Austria",
+  "transportAdvice": "Innsbruck's compact old town and main attractions are very walkable, making it easy to explore on foot. The city has an efficient network of trams and buses covering tourist areas, and taxis are readily available for longer journeys or late-night travel.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold alpine winter with frequent snowfall, ideal for nearby skiing but pack warm layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold and snowy with good ski conditions, though days begin to lengthen noticeably."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures but snow remains possible, especially at higher elevations."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming days and occasional showers, mountain trails begin to open up."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Pleasant and green with frequent afternoon showers, a lovely time for hiking as alpine flowers bloom."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm early summer with the highest rainfall of the year, thunderstorms are common in the afternoons."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Peak summer with warm sunny days and lively outdoor atmosphere, afternoon thunderstorms remain frequent."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Similar to July with warm temperatures and occasional heavy showers, great for hiking and outdoor activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler, more stable weather and stunning golden foliage on the surrounding mountains."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn days with cooler temperatures and the first snowfall possible on higher peaks."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with increasing chance of snow, the city begins to take on its festive winter character."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with snow likely and charming Christmas markets making the city especially atmospheric."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

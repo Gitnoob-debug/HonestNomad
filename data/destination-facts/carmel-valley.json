@@ -1,0 +1,115 @@
+{
+  "destinationId": "carmel-valley",
+  "city": "Carmel-by-the-Sea",
+  "country": "United States",
+  "transportAdvice": "Carmel Valley is best explored by car, as attractions including wineries and hiking trails are spread across a rural area. The village of Carmel-by-the-Sea itself is walkable, but reaching Carmel Valley's inland areas requires driving.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and rainy with lush green hillsides; a good time for wine tasting indoors."
+    },
+    {
+      "month": 2,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Continued rain with warming trends; wildflowers start to bloom toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with decreasing rain and pleasant temperatures for hiking."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and mostly dry with wildflowers in bloom across the valley."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm inland days with coastal fog; excellent conditions for outdoor wine tasting."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry in the valley, with morning coastal fog burning off by midday."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and sunny in the valley with very little rain; perfect for vineyard visits."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer warmth continues with clear skies and excellent conditions for outdoor activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Often the warmest month with harvest season in full swing at local wineries."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Beautiful Indian summer with warm days and the tail end of grape harvest season."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling temperatures with the return of autumn rains; quieter and more relaxed."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Cool and wet with holiday festivities in nearby Carmel village."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "manual-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

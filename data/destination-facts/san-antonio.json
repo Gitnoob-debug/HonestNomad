@@ -1,0 +1,115 @@
+{
+  "destinationId": "san-antonio",
+  "city": "San Antonio",
+  "country": "United States",
+  "transportAdvice": "San Antonio has a bus-based public transit system that serves major attractions including the River Walk and downtown area, though coverage can be limited in outlying neighborhoods. The River Walk and historic downtown are very walkable, and taxis as well as ride-hail vehicles are widely available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 16,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and occasionally cool winters with some rainy days; light layers are recommended."
+    },
+    {
+      "month": 2,
+      "avgHighC": 19,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to warm slightly but cold fronts can still bring chilly spells."
+    },
+    {
+      "month": 3,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather arrives with warming days and occasional thunderstorms."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and generally sunny with periodic spring showers; one of the most comfortable months to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity begin to build; afternoon thunderstorms are common."
+    },
+    {
+      "month": 6,
+      "avgHighC": 36,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and humid with intense afternoon sun; outdoor activities are best done in the morning."
+    },
+    {
+      "month": 7,
+      "avgHighC": 38,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Peak summer heat with very high temperatures; stay hydrated and seek shade during midday."
+    },
+    {
+      "month": 8,
+      "avgHighC": 38,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Consistently hot and dry with little rainfall relief; indoor attractions are a welcome escape."
+    },
+    {
+      "month": 9,
+      "avgHighC": 34,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures begin to ease slightly and rainfall increases as the season transitions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn weather makes this an excellent time to explore outdoor sites and the River Walk."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and pleasant with occasional rain; a good month for sightseeing with smaller crowds."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winter conditions with festive holiday events along the River Walk; pack a jacket for evenings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

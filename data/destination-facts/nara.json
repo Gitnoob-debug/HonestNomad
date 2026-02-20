@@ -1,0 +1,115 @@
+{
+  "destinationId": "nara",
+  "city": "Nara",
+  "country": "Japan",
+  "transportAdvice": "Nara's main tourist areas, including Nara Park and the historic temples, are highly walkable and compact enough to explore on foot; local buses connect key sights for those venturing further afield, and taxis are readily available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry winter days with occasional frost, requiring warm layers but generally clear skies."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but early signs of late-winter warming, with crisp air and occasional light rain."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild temperatures and the start of cherry blossom season toward month's end."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with cherry blossoms in full bloom and comfortable sightseeing conditions."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny, one of the most enjoyable months to visit before summer heat arrives."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season brings frequent showers and rising humidity, making outdoor exploration less comfortable."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and very humid with heavy rainfall, particularly in the first half of the month during the tail of the rainy season."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with intense heat and high humidity; early morning visits to outdoor sites are advisable."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Typhoon season brings the risk of heavy rain and strong winds, though heat begins to ease toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable autumn temperatures and beautiful fall foliage make this one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and crisp with stunning autumn colors across the temples and parks, ideal for sightseeing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and quiet with low crowds, offering a peaceful atmosphere around the historic sites in winter light."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

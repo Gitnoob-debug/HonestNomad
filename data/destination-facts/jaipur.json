@@ -1,0 +1,115 @@
+{
+  "destinationId": "jaipur",
+  "city": "Jaipur",
+  "country": "India",
+  "transportAdvice": "Jaipur has a limited metro line that connects a few key areas, but most tourist sites are best reached by auto-rickshaw or taxi, which are widely available throughout the city. Walking between major attractions is generally impractical due to distances and traffic, so hiring a local driver for the day is a common and convenient option.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and pleasant with clear skies — one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm days and mild nights make this an excellent time for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to rise noticeably, but conditions remain comfortable for most travelers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 37,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat builds significantly; mornings are the best time to explore outdoor sites."
+    },
+    {
+      "month": 5,
+      "avgHighC": 41,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry — outdoor sightseeing is challenging and best limited to early morning or evening."
+    },
+    {
+      "month": 6,
+      "avgHighC": 39,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The pre-monsoon period brings occasional storms and rising humidity alongside intense heat."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon arrives with frequent heavy rain; flooding can disrupt travel but the landscape turns lush."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and high humidity; some attractions may be affected by waterlogging."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Monsoon begins to ease but humidity remains high and showers are still common."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Post-monsoon weather is warm and increasingly pleasant — a good time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and comfortable — one of the most popular months for tourism."
+    },
+    {
+      "month": 12,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold nights and mild days with clear skies; festive atmosphere and peak tourist season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

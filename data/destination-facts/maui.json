@@ -1,0 +1,115 @@
+{
+  "destinationId": "maui",
+  "city": "Maui",
+  "country": "United States",
+  "transportAdvice": "Maui has a limited public bus system that connects major towns and some resort areas, but coverage is infrequent and not well-suited for spontaneous sightseeing. Renting a car is strongly recommended for most visitors, as walking between attractions is generally impractical given the island's spread-out layout; taxis and ride-hail options are available but limited outside of resort corridors.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-10",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with occasional showers, especially on the windward side; one of the cooler months but still warm enough for beach activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with comfortable temperatures and a chance of rain; peak season for whale watching in the channel waters."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Gradual warming begins with a mix of sun and showers; humpback whales are still commonly spotted through mid-month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Rain becomes less frequent and sunshine increases, making this a very pleasant month for outdoor exploration and water sports."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with low rainfall; trade winds keep conditions comfortable and ideal for snorkeling and hiking."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Early summer brings reliably sunny skies and calm ocean conditions, popular for families and water activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with strong trade winds that provide some relief; one of the busiest tourist months with excellent beach weather."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Peak summer heat with high humidity; ocean conditions are generally calm and visibility for snorkeling is excellent."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still warm and mostly dry though humidity remains elevated; crowds begin to thin slightly after the summer peak."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transition into the wetter season begins with occasional showers returning; temperatures remain warm and inviting."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall increases noticeably, particularly on the north and east shores; still plenty of sunshine on the leeward west side."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and wetter than summer months but still mild by most standards; holiday crowds arrive and early humpback whale sightings are possible."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

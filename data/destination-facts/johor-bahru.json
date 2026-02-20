@@ -1,0 +1,115 @@
+{
+  "destinationId": "johor-bahru",
+  "city": "Johor Bahru",
+  "country": "Malaysia",
+  "transportAdvice": "Johor Bahru has a limited public bus network that covers some areas, but taxis and ride-hailing services are the most practical options for getting around; walking is feasible in the city centre but less practical across the wider urban sprawl. The city is well connected to Singapore via the Causeway, with bus and rail links available for cross-border travel.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with occasional afternoon showers, generally pleasant for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "One of the drier months with plenty of sunshine and warm temperatures throughout the day."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and mostly sunny with low rainfall, making it a good time to explore outdoor attractions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures remain high and afternoon thunderstorms become more frequent as the wet season approaches."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with a mix of sunny spells and heavy afternoon downpours."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Consistently warm with moderate rainfall; showers are typically short-lived and intense."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to June with warm days and regular afternoon showers; humidity remains high."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with frequent afternoon thunderstorms typical of the equatorial climate."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall increases slightly as the year progresses toward the wetter season; expect humid conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wetter months with frequent and heavy rainfall; pack a rain jacket for daily outings."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the northeast monsoon season brings heavy and prolonged rainfall; flooding can occasionally occur."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued wet and humid conditions with frequent heavy showers; indoor attractions are a good option."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

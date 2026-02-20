@@ -1,0 +1,115 @@
+{
+  "destinationId": "new-zealand",
+  "city": "Queenstown",
+  "country": "New Zealand",
+  "transportAdvice": "Queenstown's compact town centre is very walkable, with most restaurants, shops, and lakefront attractions easily reached on foot. Public buses connect the town centre to nearby suburbs and the airport, and taxis are readily available for longer journeys or late-night travel.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+12",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer with warm, sunny days ideal for outdoor activities and lake swimming."
+    },
+    {
+      "month": 2,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and settled conditions continue, making it one of the best months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Early autumn brings slightly cooler temperatures and occasional showers but still pleasant days."
+    },
+    {
+      "month": 4,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn colours peak around the lake and mountains, with noticeably cooler evenings."
+    },
+    {
+      "month": 5,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and crisp with early frosts possible and the first snow appearing on surrounding peaks."
+    },
+    {
+      "month": 6,
+      "avgHighC": 8,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Winter begins with cold temperatures, snowfall on the mountains, and ski season opening."
+    },
+    {
+      "month": 7,
+      "avgHighC": 7,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The coldest month, with reliable snow on the slopes and peak ski season in full swing."
+    },
+    {
+      "month": 8,
+      "avgHighC": 9,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still solidly winter with good skiing conditions and cold, often clear days."
+    },
+    {
+      "month": 9,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late ski season transitions into spring, with warming days but cold nights and variable weather."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Spring arrives with fresh green landscapes, though showers and cool snaps remain common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming temperatures and longer daylight hours make this a great shoulder-season option."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Early summer with warm, sunny weather and the region buzzing with holiday visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

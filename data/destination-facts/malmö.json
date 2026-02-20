@@ -1,0 +1,115 @@
+{
+  "destinationId": "malmö",
+  "city": "Malmö",
+  "country": "Sweden",
+  "transportAdvice": "Malmö has a well-developed public transit network of buses and regional trains that covers tourist areas effectively, and the compact city centre is very walkable and cycle-friendly. Taxis are readily available, and the Øresund Bridge connects the city directly to Copenhagen by train for easy day trips.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often grey with occasional sleet or snow; pack warm layers and waterproofs."
+    },
+    {
+      "month": 2,
+      "avgHighC": 3,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still wintry and chilly with short daylight hours; conditions similar to January."
+    },
+    {
+      "month": 3,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early signs of spring with slightly longer days, though temperatures remain cool."
+    },
+    {
+      "month": 4,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly pleasant with blooming trees and more sunshine."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the best months to visit with warm days, long evenings, and low rainfall."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and bright with very long daylight hours; ideal for outdoor sightseeing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long sunny days and a lively outdoor atmosphere."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and enjoyable with conditions similar to July; a popular time for visitors."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with more rainfall beginning to appear."
+    },
+    {
+      "month": 10,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with autumn foliage adding colour to the city."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, damp, and often overcast; a warm coat and waterproof jacket are essential."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Dark and cold with festive Christmas markets offering a cosy seasonal atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "tayrona",
+  "city": "Tayrona",
+  "country": "Colombia",
+  "transportAdvice": "Tayrona National Park is best accessed by bus or shared minivan from the nearby city of Santa Marta, with no public transit operating inside the park itself; once inside, visitors travel on foot or by horse along jungle trails to reach the beaches. Taxis are available in Santa Marta for transfers, but within the park walking is the primary and often only means of getting around.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "January is dry and sunny with reliable beach weather and comfortable breezes along the coast."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "February remains dry and is one of the best months to visit with clear skies and calm seas."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "March is warm and mostly dry, making it an excellent time for hiking and swimming."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "April marks the beginning of the first rainy season with occasional afternoon showers but still plenty of sunshine."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "May brings frequent rain and high humidity; trails can become muddy and some park areas may close temporarily."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "June sees a slight easing of rainfall compared to May, though humid conditions and periodic showers persist."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "July is part of a drier interlude with less rain and good conditions for beach visits and trekking."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "August continues the mid-year dry spell with warm temperatures and generally clear weather."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "September signals the start of the second and heavier rainy season with increasing showers and lush vegetation."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October is the wettest month of the year; heavy rainfall can cause trail closures and rough sea conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "November remains very wet with frequent downpours; the park may have restricted access during peak rainfall."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "December transitions back to the dry season with improving weather and growing visitor numbers toward year end."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "melaka",
+  "city": "Melaka",
+  "country": "Malaysia",
+  "transportAdvice": "The historic core of Melaka is compact and very walkable, with most major attractions concentrated in the UNESCO-listed heritage zone. Taxis and ride-hailing services are widely available for longer distances, and the city has limited local bus coverage, though most tourists rely on walking or trishaws within the old town.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with occasional afternoon showers, generally manageable for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the drier and sunnier months, making it a pleasant time to explore outdoor attractions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry with plenty of sunshine, ideal for walking the heritage streets."
+    },
+    {
+      "month": 4,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat builds and humidity rises with increasing afternoon thunderstorms becoming more frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with regular showers, though rain typically passes quickly."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Fairly wet with overcast skies common, but mornings are often clear enough for outdoor activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Continued wet season conditions with warm temperatures and frequent afternoon rain."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to July with warm, humid days and regular showers, especially in the afternoons."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain remains frequent and humidity is high, though temperatures stay consistently warm."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wetter months as the northeast monsoon approaches, with heavy downpours possible."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak wet season with frequent and sometimes prolonged rainfall, pack a rain jacket."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet and overcast through much of the month, though festive atmosphere in town compensates for the rain."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

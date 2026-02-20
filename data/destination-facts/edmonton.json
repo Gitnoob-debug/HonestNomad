@@ -1,0 +1,115 @@
+{
+  "destinationId": "edmonton",
+  "city": "Edmonton",
+  "country": "Canada",
+  "transportAdvice": "Edmonton has a light rail transit system and an extensive bus network that connects major attractions, downtown, and surrounding neighbourhoods, making public transit a practical option for most tourists. Taxis and ride-hailing vehicles are widely available, though walking is most pleasant in summer as winters can be extremely cold.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -8,
+      "avgLowC": -17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Deep winter with frequent snowfall, bitter cold, and short daylight hours — dress in heavy layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": -5,
+      "avgLowC": -15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still firmly winter with cold temperatures and snow, though daylight begins to noticeably lengthen."
+    },
+    {
+      "month": 3,
+      "avgHighC": 1,
+      "avgLowC": -9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Early signs of spring emerge but snow and freezing temperatures remain common throughout the month."
+    },
+    {
+      "month": 4,
+      "avgHighC": 11,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming days, melting snow, and occasional rain showers mixed with late-season flurries."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with green landscapes returning, though cool evenings and some rain are expected."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with long daylight hours, occasional thunderstorms, and comfortable outdoor conditions."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long sunny days, ideal for festivals and outdoor activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer conditions continue with slightly shorter days and occasional afternoon thunderstorms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 17,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler temperatures, colourful foliage, and crisp, refreshing air."
+    },
+    {
+      "month": 10,
+      "avgHighC": 9,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with the first frosts possible and occasional early snowfall by month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": -1,
+      "avgLowC": -9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Winter sets in with snow, cold temperatures, and rapidly shortening daylight hours."
+    },
+    {
+      "month": 12,
+      "avgHighC": -7,
+      "avgLowC": -16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and snowy with very short days, festive holiday atmosphere, and temperatures well below freezing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

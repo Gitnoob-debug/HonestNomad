@@ -1,0 +1,115 @@
+{
+  "destinationId": "cologne",
+  "city": "Cologne",
+  "country": "Germany",
+  "transportAdvice": "Cologne has an extensive public transit network including metro (U-Bahn), trams, and buses that connect all major tourist areas efficiently; day and multi-day transit passes offer good value for visitors. The city center around the cathedral and old town is very walkable, and taxis are readily available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 5,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with frequent overcast skies; pack warm layers and a waterproof jacket."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold and wintry but days begin to lengthen slightly; Carnival festivities can make the city lively despite the chill."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional sunny spells, though showers remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming parks; a mix of sunny days and light rain showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny; one of the more enjoyable months to explore the city on foot."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer conditions with long daylight hours; occasional thunderstorms are possible."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with plenty of sunshine; outdoor terraces and Rhine promenades are busy."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and summery with similar conditions to July; brief afternoon thunderstorms can occur."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings comfortable temperatures and a gradual shift toward cooler, crisper air."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Noticeably cooler with more frequent rain; autumn foliage adds colour to parks and riverside walks."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Grey and damp with cold temperatures; the famous Christmas markets begin to open late in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive with renowned Christmas markets along the Rhine; occasional frost or light snow is possible."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

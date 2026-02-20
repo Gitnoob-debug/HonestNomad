@@ -1,0 +1,115 @@
+{
+  "destinationId": "salzburg",
+  "city": "Salzburg",
+  "country": "Austria",
+  "transportAdvice": "Salzburg's compact old town is highly walkable, with most major attractions reachable on foot; the city also has a reliable bus network that connects tourist areas, the train station, and outer districts. Taxis are widely available, and the central location makes it easy to explore without a car.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with frequent snowfall and overcast skies, ideal for festive atmosphere but pack warm layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold and wintry with occasional snow, though daylight hours begin to lengthen slightly."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures but changeable weather with rain and lingering cold snaps."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with greener landscapes and pleasant mild days, though showers are common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and lush with frequent afternoon rain showers; one of the wetter months but very scenic."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Early summer is warm and green with regular thunderstorms, especially in the afternoons."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Peak summer with warm sunny days and occasional heavy thunderstorms; the busiest tourist month."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Similar to July with warm temperatures and afternoon storms; the famous Salzburg Festival draws large crowds."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler, more settled weather with beautiful golden foliage beginning to appear."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with misty mornings and colourful autumn scenery; a quieter and charming time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Grey and damp with fog common in the valleys; temperatures drop steadily toward winter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and festive with famous Christmas markets, possible snow, and a magical winter atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

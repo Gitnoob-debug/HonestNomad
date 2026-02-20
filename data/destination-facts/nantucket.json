@@ -1,0 +1,115 @@
+{
+  "destinationId": "nantucket",
+  "city": "Nantucket",
+  "country": "United States",
+  "transportAdvice": "Nantucket is a compact island where the town center is very walkable, and bicycles are a popular and practical way to explore further afield. A local bus system serves key areas including beaches and villages, and taxis are available, though demand is high in peak summer months.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and often blustery with occasional snow, making it a quiet off-season period with few visitors."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January, with raw cold and wind off the Atlantic keeping temperatures well below freezing at night."
+    },
+    {
+      "month": 3,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early signs of spring emerge but the island remains cool and often grey with lingering winter chill."
+    },
+    {
+      "month": 4,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and gradually warming, with daffodils blooming and the island beginning to stir ahead of the summer season."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and increasingly sunny, a lovely time to visit before summer crowds arrive and prices peak."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and inviting with long daylight hours, marking the start of the busy summer tourist season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Peak summer with warm beach weather, high humidity, and the island at its most lively and crowded."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Continues the warm, sunny summer pattern with busy beaches and the highest visitor numbers of the year."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A beautiful shoulder month with warm temperatures, fewer crowds, and a relaxed end-of-summer atmosphere."
+    },
+    {
+      "month": 10,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn air and colorful foliage make this a charming time to visit as the island quiets down significantly."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and often overcast with the island largely returning to its quiet off-season pace."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and wintry with festive holiday events drawing some visitors, but most of the island is closed or reduced in service."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

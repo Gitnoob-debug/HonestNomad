@@ -1,0 +1,115 @@
+{
+  "destinationId": "kenya",
+  "city": "Nairobi",
+  "country": "Kenya",
+  "transportAdvice": "Nairobi has a public bus and minibus network that covers much of the city, though services can be crowded and unpredictable for first-time visitors; metered taxis and ride-hailing options are widely available and generally the most practical choice for tourists. Walking is feasible in specific commercial and upmarket districts but is not recommended after dark or in unfamiliar areas due to uneven infrastructure and safety concerns.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and mostly dry with clear skies, making it one of the more pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued dry and sunny conditions with warm afternoons and cool nights."
+    },
+    {
+      "month": 3,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures remain warm but rain begins to increase as the long rains season approaches."
+    },
+    {
+      "month": 4,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The long rains arrive in earnest, bringing frequent afternoon and evening downpours."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with heavy, persistent rainfall and overcast skies."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains begin to ease, temperatures cool noticeably, and skies start to clear."
+    },
+    {
+      "month": 7,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with crisp air and little rainfall, a comfortable time to explore the city."
+    },
+    {
+      "month": 8,
+      "avgHighC": 21,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and cool conditions continue, with clear days ideal for outdoor activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to warm again with mostly sunny skies and minimal rain."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The short rains season begins, bringing occasional afternoon showers but generally manageable conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Short rains peak with frequent showers, though rain is typically less intense than the long rains."
+    },
+    {
+      "month": 12,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rains taper off toward month end, with warmer temperatures returning and improving conditions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

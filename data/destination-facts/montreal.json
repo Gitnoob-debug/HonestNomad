@@ -1,0 +1,115 @@
+{
+  "destinationId": "montreal",
+  "city": "Montreal",
+  "country": "Canada",
+  "transportAdvice": "Montreal has an extensive metro and bus network that covers most tourist areas, making it easy to get around without a car. The downtown core and major neighborhoods are very walkable, and taxis are widely available throughout the city.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -6,
+      "avgLowC": -14,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Deep winter with heavy snowfall and biting cold; dress in layers and expect icy sidewalks."
+    },
+    {
+      "month": 2,
+      "avgHighC": -5,
+      "avgLowC": -14,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Still firmly winter with frequent snow and frigid temperatures; indoor attractions are a welcome refuge."
+    },
+    {
+      "month": 3,
+      "avgHighC": 1,
+      "avgLowC": -8,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Late winter begins to ease slightly but snow and cold persist; slush and ice are common underfoot."
+    },
+    {
+      "month": 4,
+      "avgHighC": 10,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives tentatively with cool temperatures and a mix of rain and lingering snow early in the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with warming temperatures and blooming parks; occasional showers are normal."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lively with long daylight hours; festival season begins and outdoor terraces fill up."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak summer with warm, humid days and occasional thunderstorms; the city buzzes with festivals and outdoor events."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with the feel of high summer; afternoon thunderstorms are possible but evenings are lively outdoors."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn with cooler evenings and the start of spectacular fall foliage."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn weather with brilliant fall colors; temperatures drop noticeably toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with the first snowflakes possible; the city transitions into its winter rhythm."
+    },
+    {
+      "month": 12,
+      "avgHighC": -3,
+      "avgLowC": -11,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cold winter sets in with regular snowfall; festive holiday markets and indoor cultural events brighten the season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

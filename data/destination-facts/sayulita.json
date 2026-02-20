@@ -1,0 +1,115 @@
+{
+  "destinationId": "sayulita",
+  "city": "Sayulita",
+  "country": "Mexico",
+  "transportAdvice": "Sayulita's compact village center is very walkable, with the beach, market, and most restaurants within easy reach on foot. Taxis and local colectivo vans connect the town to nearby Puerto Vallarta and surrounding areas, and golf carts or bicycles are popular for getting around locally.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and pleasant with warm sunny days and cool evenings, making it one of the best months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued dry conditions with comfortable temperatures and minimal crowds compared to peak holiday weeks."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with excellent beach conditions and reliable sunshine throughout the day."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to climb and humidity remains low, offering great conditions before the rainy season."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot days with occasional brief showers starting to appear, humidity begins to build toward month's end."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season begins in earnest with heavy afternoon and evening downpours, though mornings are often clear."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Lush and green but very humid with frequent heavy rains; surf can be strong and conditions lively."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the rainy season with intense tropical downpours and high humidity; budget travelers find good deals."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very wet and humid with the highest rainfall of the year; hurricane season warrants monitoring."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to taper off toward month's end, with warm temperatures and a lush green landscape."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with comfortable temperatures and improving beach conditions as crowds begin to build."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Festive and busy with holiday visitors, dry and warm days, and cool comfortable evenings."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

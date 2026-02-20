@@ -1,0 +1,115 @@
+{
+  "destinationId": "merida",
+  "city": "Mérida",
+  "country": "Mexico",
+  "transportAdvice": "The historic centro is very walkable, with most major attractions, markets, and restaurants within comfortable walking distance. Public buses cover the wider city at low cost, and taxis as well as ride-hailing options are widely available and affordable for reaching areas beyond the centre.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly warm and dry with cool evenings, making it one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm, sunny, and dry with refreshing breezes — excellent conditions for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to climb noticeably but humidity remains low, keeping conditions relatively comfortable."
+    },
+    {
+      "month": 4,
+      "avgHighC": 36,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry with intense midday sun; early mornings are the best time for outdoor activities."
+    },
+    {
+      "month": 5,
+      "avgHighC": 38,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The hottest month of the year with building humidity and the first scattered afternoon showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season begins in earnest with heavy afternoon downpours that provide some relief from the heat."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Frequent afternoon and evening rains continue; mornings are often clear but muggy."
+    },
+    {
+      "month": 8,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to July with persistent humidity and daily rain showers; hurricane season is active in the region."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest and most humid month, with heavy rains and the highest risk of tropical weather systems."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward the end of the month as the wet season gradually winds down."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and drier, marking the start of the pleasant high season for visitors."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry, warm days and cool nights make this a very popular and enjoyable time to explore the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

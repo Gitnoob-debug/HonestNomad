@@ -1,0 +1,115 @@
+{
+  "destinationId": "playa-del-carmen",
+  "city": "Playa del Carmen",
+  "country": "Mexico",
+  "transportAdvice": "The main tourist strip along Quinta Avenida is highly walkable, and colectivo minibuses run frequently along the coastal highway connecting nearby towns at low cost. Taxis are widely available throughout the city, and it is advisable to agree on a fare before departing.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with comfortable temperatures, making it one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and sunny conditions continue, with slightly warming temperatures and gentle sea breezes."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures rise noticeably and skies remain clear, ideal for beach and outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with abundant sunshine, though humidity begins to build toward the end of the month."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat and humidity increase significantly, with occasional afternoon showers signaling the start of the wet season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The rainy season is well underway with frequent afternoon and evening downpours, though mornings are often clear."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with regular rainfall, but showers are typically short-lived and beaches remain busy."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak hurricane season brings the highest rain probability and occasional tropical disturbances to monitor."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest and most humid month of the year, with the greatest risk of tropical storms affecting the region."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease but humidity remains high, with warm temperatures and a mix of sun and showers."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Conditions improve noticeably as the dry season returns, bringing cooler evenings and more reliable sunshine."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry, warm, and sunny with comfortable temperatures, making it a popular month for holiday travel."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

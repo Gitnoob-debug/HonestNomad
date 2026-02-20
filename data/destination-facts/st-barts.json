@@ -1,0 +1,115 @@
+{
+  "destinationId": "st-barts",
+  "city": "Gustavia",
+  "country": "Saint Barthelemy",
+  "transportAdvice": "There is no public transit system on Saint Barthelemy, so renting a car or scooter is the most practical way to explore beyond Gustavia's compact, walkable town center. Taxis are available but limited in number, and walking is feasible within Gustavia itself.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and pleasant with cooling trade winds, making this one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Consistently sunny and dry with gentle breezes, ideal beach weather and peak season conditions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely dry with plenty of sunshine, still within the comfortable peak travel window."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise slightly but conditions remain pleasant with low rainfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warmth increases and occasional showers begin to appear as the wet season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with more frequent afternoon showers and the start of the quieter low season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with periodic rain showers, though sunny spells are still common between storms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the wet season with higher rainfall and the greatest risk of tropical storm activity."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The most active month for tropical weather systems; heavy rain and high humidity are typical."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still within the hurricane season with frequent rain, though conditions begin to ease toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Rainfall decreases noticeably and the island begins to transition back toward drier, more comfortable weather."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and breezy with pleasant temperatures, marking the return of peak season and festive holiday visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "dubrovnik",
+  "city": "Dubrovnik",
+  "country": "Croatia",
+  "transportAdvice": "The Old Town is compact and best explored on foot, though its steep stone streets and stairs can be demanding. Public buses connect the Old Town to surrounding areas and the airport, and taxis are widely available, though traffic congestion in peak season can make journeys slow.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild but overcast winter days with occasional rain and few crowds make this a quiet time to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January, with slightly longer daylight hours and a gradual easing of winter conditions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins to emerge with warmer afternoons, though rain remains possible and the sea is still cool."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with blooming vegetation and manageable tourist numbers before the summer rush."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, with comfortable temperatures ideal for sightseeing and early-season swimming."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with long days; crowds begin to build significantly as peak season approaches."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with intense sunshine, very high tourist numbers, and warm Adriatic waters perfect for swimming."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The busiest and hottest month, with packed streets and beaches; early morning or evening sightseeing is advisable."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Crowds thin slightly while warmth and sunshine persist, making this one of the most pleasant months to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings cooler temperatures and occasional rain, but the city is far quieter and still very enjoyable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wetter and cooler with a notable drop in visitors; the bora wind can bring sharp, gusty conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool winter weather with festive atmosphere in the Old Town; rain is possible but snowfall is rare at sea level."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

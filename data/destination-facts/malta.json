@@ -1,0 +1,115 @@
+{
+  "destinationId": "malta",
+  "city": "Valletta",
+  "country": "Malta",
+  "transportAdvice": "Valletta's compact historic centre is highly walkable, though its steep hills and cobblestone streets can be tiring; a free government-operated lift connects the lower and upper parts of the city. A public bus network covers Valletta and most of the island, making it easy to reach other towns and beaches without a car, and taxis are widely available for longer or more convenient journeys.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 15,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with mild temperatures, making it a quiet but pleasant time for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with cool days and some rain, though sunny spells are common and crowds remain low."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and days grow longer, with a mix of sunshine and occasional showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with very little rain, ideal for exploring the city and surrounding areas."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm and dry with long sunny days, marking the start of the busy tourist season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and reliably sunny with very little rainfall, great for combining city visits with beach days."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with intense sunshine and virtually no rain; early morning sightseeing is advisable."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "The hottest month of the year, very sunny and humid, with the island at its busiest."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still warm and mostly sunny with the sea at its warmest, though occasional storms can develop late in the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable temperatures and a mix of sun and rain as autumn sets in, with noticeably fewer tourists."
+    },
+    {
+      "month": 11,
+      "avgHighC": 20,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly unsettled with more frequent rain, but still warm enough for comfortable outdoor exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 17,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally wet with a festive atmosphere in the city, and quieter conditions for visiting attractions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

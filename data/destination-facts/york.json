@@ -1,0 +1,115 @@
+{
+  "destinationId": "york",
+  "city": "York",
+  "country": "United Kingdom",
+  "transportAdvice": "York's compact historic centre is highly walkable, with most major attractions within easy reach on foot. Local bus services connect the city and surrounding areas, and taxis are readily available for longer journeys or late-night travel.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and often grey with frequent rain and occasional frost, typical of a northern English winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 7,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold and damp with short daylight hours, though slightly brighter days begin to appear toward month end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and longer days, though showers and cool winds remain common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring conditions with a mix of sunshine and showers and noticeably warmer afternoons."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the more enjoyable months with mild warmth, blooming greenery, and a good balance of sun and cloud."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and generally pleasant with long daylight hours, though occasional rain showers are still likely."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long sunny days, though brief summer showers can occur at any time."
+    },
+    {
+      "month": 8,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and often sunny with conditions similar to July, making it a popular time for visitors."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and a gradual increase in rainfall, but days can still be mild and pleasant."
+    },
+    {
+      "month": 10,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with autumn colours on display, requiring a warm layer and waterproof jacket."
+    },
+    {
+      "month": 11,
+      "avgHighC": 9,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently overcast with regular rain and the first hints of winter setting in."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and wintry with short days, festive atmosphere in the city, and a chance of frost or occasional snow."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

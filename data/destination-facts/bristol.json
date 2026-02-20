@@ -1,0 +1,115 @@
+{
+  "destinationId": "bristol",
+  "city": "Bristol",
+  "country": "United Kingdom",
+  "transportAdvice": "Bristol is served by an extensive bus network that connects most tourist areas, and the city centre and harbourside are very walkable. Taxis are widely available, and cycling infrastructure is reasonably well developed, though hilly terrain can make some areas less practical on foot.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently wet with short daylight hours, typical of a British winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Similar to January, cold and damp with occasional frost but days slowly lengthening."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional sunny spells between showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with longer days, though rain remains common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and often bright, one of the more enjoyable months to visit Bristol."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer with warm temperatures and a good chance of sunny days."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month, ideal for outdoor events and exploring the harbourside."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer weather continues, though showers are still possible at any time."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings slightly cooler temperatures but often pleasant and settled conditions."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn sets in, with shorter days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Mild but grey and rainy, with temperatures dropping toward winter levels."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and wet with the shortest days of the year, though festive atmosphere in the city centre."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

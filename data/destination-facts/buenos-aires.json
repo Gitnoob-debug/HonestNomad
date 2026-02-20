@@ -1,0 +1,115 @@
+{
+  "destinationId": "buenos-aires",
+  "city": "Buenos Aires",
+  "country": "Argentina",
+  "transportAdvice": "Buenos Aires has an extensive public transit network including a metro (subte), buses, and commuter trains that cover most tourist areas well. Taxis and ride-hailing services are widely available, and many central neighborhoods like Palermo and San Telmo are very walkable.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid summer month with occasional afternoon thunderstorms; one of the warmest times of year."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still hot and humid with similar conditions to January; thunderstorms remain common in the afternoons."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Late summer brings slightly cooler temperatures but humidity remains high with frequent rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn arrives with pleasant, mild temperatures and decreasing humidity; a comfortable time to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler autumn weather sets in with occasional rain; light layers are recommended for evenings."
+    },
+    {
+      "month": 6,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Winter begins with cool, dry conditions; cold fronts can bring brief chilly spells but snow is very rare."
+    },
+    {
+      "month": 7,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The coldest month of the year with dry, crisp conditions; a coat is essential especially at night."
+    },
+    {
+      "month": 8,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Late winter with gradually warming days; still cool but dry and generally pleasant for sightseeing."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures and increasing rainfall; jacaranda trees begin to bloom."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Lovely spring weather with mild temperatures and blooming parks; one of the best months to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lively with longer days; humidity begins to rise and afternoon storms become more frequent."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot early summer with high humidity and occasional thunderstorms; the city buzzes with festive energy."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

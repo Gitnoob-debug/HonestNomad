@@ -1,0 +1,115 @@
+{
+  "destinationId": "mostar",
+  "city": "Mostar",
+  "country": "Bosnia and Herzegovina",
+  "transportAdvice": "The historic Old Town and main attractions are compact and best explored on foot, with the famous Stari Most bridge and bazaar area easily walkable. Taxis are widely available for reaching areas outside the center, and local buses connect Mostar to surrounding towns, though tourist sites are generally within walking distance.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally wet winter month with possible frost, quiet tourist season with a calm atmosphere."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Slightly milder than January but still cool, with occasional rain and few crowds."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins with warming temperatures and greening landscapes, though rain remains common."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with mild temperatures and blooming surroundings, good for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, one of the more comfortable months for exploring the city."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and mostly dry, marking the start of peak tourist season with long sunny days."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry, the busiest tourist month — shade and hydration are essential."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Equally hot as July with intense sun, crowds at peak and the Neretva River offers some relief."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and pleasant with thinning crowds, one of the best months to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn temperatures with occasional rain, good conditions for comfortable sightseeing."
+    },
+    {
+      "month": 11,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and wetter, tourist numbers drop significantly and the city feels local again."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and quiet with possible frost, a peaceful time to visit with a subdued winter atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

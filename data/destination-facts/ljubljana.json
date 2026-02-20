@@ -1,0 +1,115 @@
+{
+  "destinationId": "ljubljana",
+  "city": "Ljubljana",
+  "country": "Slovenia",
+  "transportAdvice": "Ljubljana's compact old town is highly walkable, making it easy to reach most attractions on foot. The city has a reliable bus network covering wider areas, and taxis are readily available for trips beyond the centre.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often grey with occasional snow, making for a quiet but atmospheric winter visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold with lingering frost, though days gradually lengthen and snow is possible."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and the first signs of greenery returning to the city."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and increasingly warm with blooming parks, though spring showers are common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and lush with frequent afternoon showers, ideal for outdoor café culture between spells."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm summer weather with occasional thunderstorms, great for riverside dining and festivals."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month with long sunny days and a lively outdoor atmosphere throughout the city."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot and mostly sunny with occasional storms, perfect for exploring the old town and castle."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with golden light and fewer crowds than peak summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cooler and increasingly misty, with autumn foliage adding colour to parks and the riverfront."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Grey and damp with a distinct chill, though the city's Christmas markets begin to appear late in the month."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive with charming Christmas decorations and occasional snow dusting the old town."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

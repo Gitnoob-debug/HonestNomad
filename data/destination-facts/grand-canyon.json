@@ -1,0 +1,115 @@
+{
+  "destinationId": "grand-canyon",
+  "city": "Grand Canyon",
+  "country": "United States",
+  "transportAdvice": "The Grand Canyon is primarily accessed by private vehicle or organized tour bus, as public transit options are very limited in this remote national park setting. Within the South Rim, a free shuttle bus system operates seasonally and covers major viewpoints, making it practical to get around without a car once inside the park.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 4,
+      "avgLowC": -7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and quiet winter month with possible snow on the rim and crisp, clear views."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": -6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold with occasional snow, but days can be bright and uncrowded."
+    },
+    {
+      "month": 3,
+      "avgHighC": 11,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Temperatures begin to rise with occasional spring storms and variable conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring weather with mild temperatures and increasing visitor numbers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with excellent visibility, one of the best months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry on the rim, extremely hot in the inner canyon — early morning hikes are essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 28,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Monsoon season brings afternoon thunderstorms and flash flood risk in the canyon."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Continued monsoon activity with dramatic storm skies and high humidity by canyon standards."
+    },
+    {
+      "month": 9,
+      "avgHighC": 23,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Monsoon winds down, temperatures ease, and crowds begin to thin — a solid shoulder month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooler and comfortable with autumn light and fewer visitors than summer."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold nights return and snow is possible, but daytime conditions can still be pleasant."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": -7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Winter sets in with cold temperatures, possible snow, and a peaceful, uncrowded atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

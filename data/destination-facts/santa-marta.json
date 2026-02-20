@@ -1,0 +1,115 @@
+{
+  "destinationId": "santa-marta",
+  "city": "Santa Marta",
+  "country": "Colombia",
+  "transportAdvice": "Santa Marta's historic center and beachfront are walkable, but taxis and motorcycle taxis are widely available for reaching outlying areas like Taganga or El Rodadero. Public minibuses and shared vans serve major routes, though tourists typically rely on taxis or organized transfers for trips to Tayrona National Park and other attractions.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and breezy with strong trade winds, making it one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry conditions with reliable sunshine and refreshing coastal winds."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with long sunny days, ideal for beach and park visits."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Transitional month with occasional showers beginning to appear alongside warm sunshine."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain becomes more frequent, though mornings are often clear before afternoon showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with intermittent rain, part of the first rainy season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "A brief dry spell known locally as the veranillo brings drier and windier conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Humidity rises again as the second rainy season approaches with scattered afternoon storms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with frequent heavy rain, particularly in the afternoons."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak of the rainy season with the highest rainfall totals and overcast skies common."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain begins to ease toward month's end as the dry season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with sunny skies and cooling trade winds, making it a popular holiday period."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

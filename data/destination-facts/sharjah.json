@@ -1,0 +1,115 @@
+{
+  "destinationId": "sharjah",
+  "city": "Sharjah",
+  "country": "United Arab Emirates",
+  "transportAdvice": "Sharjah has a public bus network that connects key areas, though coverage of tourist sites can be limited and services are infrequent; taxis are widely available and affordable, making them the most practical option for getting around. Walking is feasible in cooler months around heritage districts but is uncomfortable during the intense summer heat.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and pleasant with cool evenings, making it one of the best months to explore outdoor attractions."
+    },
+    {
+      "month": 2,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and comfortable days with occasional light breezes, ideal for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures rise noticeably but conditions remain pleasant for outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Getting warm with increasing humidity; mornings are still comfortable for exploring."
+    },
+    {
+      "month": 5,
+      "avgHighC": 40,
+      "avgLowC": 27,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and increasingly humid; outdoor activities are best limited to early morning or evening."
+    },
+    {
+      "month": 6,
+      "avgHighC": 42,
+      "avgLowC": 30,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Intense heat and high humidity make prolonged outdoor exposure uncomfortable; air-conditioned venues are essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 43,
+      "avgLowC": 31,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Peak summer heat with oppressive humidity; most activity is best confined to indoor spaces."
+    },
+    {
+      "month": 8,
+      "avgHighC": 43,
+      "avgLowC": 31,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Conditions remain extremely hot and humid, similar to July; outdoor exploration is not recommended midday."
+    },
+    {
+      "month": 9,
+      "avgHighC": 40,
+      "avgLowC": 28,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still very hot with lingering humidity, though a slight easing of temperatures begins toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 36,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures become more manageable and humidity drops, making outdoor sightseeing more enjoyable."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasantly warm and dry with comfortable conditions for exploring heritage sites and outdoor markets."
+    },
+    {
+      "month": 12,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and agreeable weather returns, making this an excellent month for visiting Sharjah's cultural attractions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

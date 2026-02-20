@@ -1,0 +1,115 @@
+{
+  "destinationId": "ottawa",
+  "city": "Ottawa",
+  "country": "Canada",
+  "transportAdvice": "Ottawa has a light rail transit system and an extensive bus network that connects major tourist areas, making it easy to get around without a car. The downtown core and many major attractions are walkable, and taxis as well as ride-hailing services are widely available.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -6,
+      "avgLowC": -15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Bitterly cold with frequent snowfall and icy conditions; heavy winter clothing is essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": -5,
+      "avgLowC": -14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Remains deeply cold and snowy, though daylight hours begin to lengthen noticeably."
+    },
+    {
+      "month": 3,
+      "avgHighC": 2,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise but snow and freezing rain are still common; dress in layers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 11,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with mild days and cool nights; expect a mix of rain and sunshine."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and warming with blooming tulips; light rain showers are common."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable with long days; occasional thunderstorms in the afternoon."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid with the warmest temperatures of the year; afternoon thunderstorms are possible."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Remains warm and humid with similar conditions to July; a great month for outdoor activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable fall temperatures with stunning foliage; cooler evenings call for a jacket."
+    },
+    {
+      "month": 10,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Crisp autumn weather with peak fall colours; rain becomes more frequent toward month's end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 4,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and grey with the first snowfalls possible; a warm coat is necessary."
+    },
+    {
+      "month": 12,
+      "avgHighC": -3,
+      "avgLowC": -11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter conditions set in with regular snowfall; festive holiday atmosphere in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

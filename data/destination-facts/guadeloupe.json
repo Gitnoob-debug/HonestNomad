@@ -1,0 +1,115 @@
+{
+  "destinationId": "guadeloupe",
+  "city": "Pointe-a-Pitre",
+  "country": "Guadeloupe",
+  "transportAdvice": "Pointe-a-Pitre is served by a local bus network that connects the city to surrounding areas and other parts of Grande-Terre and Basse-Terre, though services can be infrequent and routes may not cover all tourist sites conveniently. Taxis are widely available and recommended for reaching beaches and attractions beyond the city center, while the downtown area itself is compact enough to explore on foot.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season is well underway with pleasant temperatures, low humidity, and minimal rainfall making it an ideal time to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the driest and most comfortable months, with warm sunny days and cool evenings perfect for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise slightly but conditions remain dry and sunny, excellent for beach and outdoor activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The dry season starts to wind down with occasional showers appearing, though sunshine still dominates most days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The transition into the wet season brings increasing humidity and more frequent afternoon showers alongside warm temperatures."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Early wet season brings regular rainfall and high humidity, though showers are often short and mornings can still be sunny."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent rain showers; this is also the beginning of the Atlantic hurricane season so monitoring forecasts is advisable."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The hottest and one of the wettest months, with peak hurricane season risk and persistent humidity throughout the day."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak hurricane season continues with heavy rainfall possible and high heat; travel insurance and flexible plans are strongly recommended."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still within the wet season with significant rainfall and humidity, though hurricane risk begins to gradually decrease toward month end."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease as the wet season winds down, with temperatures cooling slightly and conditions becoming more comfortable."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season returns bringing pleasant weather, lower humidity, and sunny skies that make it a popular month for visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

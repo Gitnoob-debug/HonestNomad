@@ -1,0 +1,115 @@
+{
+  "destinationId": "beijing",
+  "city": "Beijing",
+  "country": "China",
+  "transportAdvice": "Beijing has an extensive metro network that connects most major tourist sites, making it easy and affordable to get around without a car. Buses also cover the city widely, taxis are readily available, and walking is practical within individual neighborhoods though distances between major attractions can be large.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 2,
+      "avgLowC": -8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold, dry winter month with occasional snow and clear skies; heavy layers are essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold and dry with winds picking up; conditions begin to slowly improve toward month end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring begins but sandstorms from the north are common; temperatures rise but winds can be strong."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring weather with warming temperatures, though dust and wind remain possible."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly comfortable, one of the better months to visit before summer heat arrives."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot and humid with occasional thunderstorms; outdoor sightseeing is best done in the morning."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak summer heat with the highest rainfall of the year; expect frequent heavy downpours."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still hot and rainy with high humidity; conditions similar to July but gradually easing late in the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn arrives with cooler, clearer days and reduced rainfall; one of the best months to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp, clear autumn weather with beautiful foliage; very popular travel season with larger crowds."
+    },
+    {
+      "month": 11,
+      "avgHighC": 8,
+      "avgLowC": -1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures drop quickly and the air turns dry and cold; early snowfall is possible by month end."
+    },
+    {
+      "month": 12,
+      "avgHighC": 2,
+      "avgLowC": -7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold winter month with dry air and occasional snow; wrap up warmly for outdoor sightseeing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

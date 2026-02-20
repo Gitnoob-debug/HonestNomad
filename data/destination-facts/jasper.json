@@ -1,0 +1,115 @@
+{
+  "destinationId": "jasper",
+  "city": "Jasper",
+  "country": "Canada",
+  "transportAdvice": "Jasper townsite is compact and very walkable, with most attractions and amenities reachable on foot. Public transit within the national park is limited, so renting a car or joining guided tours is strongly recommended for reaching outlying natural attractions; taxis are available but infrequent.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -8,
+      "avgLowC": -18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Deep winter with heavy snowfall and very cold temperatures, ideal for skiing and snowshoeing but requiring serious cold-weather gear."
+    },
+    {
+      "month": 2,
+      "avgHighC": -5,
+      "avgLowC": -16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still firmly winter with cold, crisp days and good snow conditions for winter sports."
+    },
+    {
+      "month": 3,
+      "avgHighC": 1,
+      "avgLowC": -10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late winter begins to soften slightly but snow remains prevalent and temperatures stay well below freezing at night."
+    },
+    {
+      "month": 4,
+      "avgHighC": 8,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives tentatively with warming days, melting snow, and occasional rain or late snowfall."
+    },
+    {
+      "month": 5,
+      "avgHighC": 14,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Landscapes green up and wildflowers begin to appear, though cool nights and some rain showers are common."
+    },
+    {
+      "month": 6,
+      "avgHighC": 19,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant early summer with long daylight hours, though afternoon thunderstorms are possible and higher trails may still have snow."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer with warm, sunny days and the busiest tourist season; ideal for hiking, wildlife viewing, and paddling."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and beautiful with excellent hiking conditions, though crowds remain high and evenings begin to cool noticeably."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings stunning fall foliage, cooler temperatures, and thinning crowds, making it a favourite for many visitors."
+    },
+    {
+      "month": 10,
+      "avgHighC": 8,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Autumn transitions toward winter with frosty nights, possible early snowfall, and many facilities beginning to close."
+    },
+    {
+      "month": 11,
+      "avgHighC": -2,
+      "avgLowC": -12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Winter sets in with regular snowfall and cold temperatures; the park is quiet and some services are reduced."
+    },
+    {
+      "month": 12,
+      "avgHighC": -7,
+      "avgLowC": -17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and snowy with short daylight hours, offering a serene winter landscape and opportunities for cross-country skiing and stargazing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

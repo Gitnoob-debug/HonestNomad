@@ -1,0 +1,115 @@
+{
+  "destinationId": "riga",
+  "city": "Riga",
+  "country": "Latvia",
+  "transportAdvice": "Riga's compact Old Town and central districts are very walkable, making it easy to reach most major attractions on foot. The city also has an extensive network of trams, buses, and trolleybuses covering wider areas, and taxis are readily available throughout the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold, dark winter month with frequent overcast skies, occasional snow, and short daylight hours."
+    },
+    {
+      "month": 2,
+      "avgHighC": 0,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still firmly winter with freezing temperatures and a good chance of snow on the ground."
+    },
+    {
+      "month": 3,
+      "avgHighC": 4,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early signs of spring emerge but temperatures remain cold and frost is still common at night."
+    },
+    {
+      "month": 4,
+      "avgHighC": 11,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with milder days, longer daylight, and occasional showers mixed with sunny spells."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and increasingly warm with blooming parks and a good mix of sunshine and light rain."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm early summer with very long daylight hours and occasional thunderstorms in the evenings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year with long bright days, ideal for outdoor sightseeing and festivals."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still warm and summery with long days, though occasional rain showers become more frequent toward month end."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn sets in with cooler temperatures, golden foliage, and a noticeable increase in rainfall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and increasingly wet with grey skies and falling leaves; a jacket and umbrella are essential."
+    },
+    {
+      "month": 11,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and damp with frequent overcast days, occasional sleet, and rapidly shortening daylight."
+    },
+    {
+      "month": 12,
+      "avgHighC": 1,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold winter month with festive Christmas markets brightening the dark and often frosty days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

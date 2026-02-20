@@ -1,0 +1,115 @@
+{
+  "destinationId": "palm-springs",
+  "city": "Palm Springs",
+  "country": "United States",
+  "transportAdvice": "Palm Springs has a local bus network that covers key areas, but the city is largely car-dependent and most visitors rent a vehicle to get around comfortably. The downtown strip is walkable, and taxis as well as ride-hail services are generally available, but public transit alone is not sufficient for reaching most attractions.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 21,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and sunny winter days with cool nights, making it one of the most pleasant months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 23,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with comfortable temperatures ideal for outdoor activities and festivals."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring arrives early with warm days and blooming desert wildflowers in the surrounding landscape."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and sunny with very little rain, a popular month for visitors before summer heat sets in."
+    },
+    {
+      "month": 5,
+      "avgHighC": 38,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures climb significantly and outdoor midday activities become uncomfortable for many visitors."
+    },
+    {
+      "month": 6,
+      "avgHighC": 43,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intense desert heat dominates with very little relief, best suited for pool-focused stays."
+    },
+    {
+      "month": 7,
+      "avgHighC": 44,
+      "avgLowC": 29,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The hottest month of the year with occasional monsoon moisture bringing brief thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 43,
+      "avgLowC": 28,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Continued extreme heat with some humidity from monsoon patterns and sporadic afternoon storms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 40,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still very hot but temperatures begin to ease slightly toward the end of the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable and sunny with noticeably cooler conditions, marking the return of peak tourist season."
+    },
+    {
+      "month": 11,
+      "avgHighC": 25,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly warm days and cool evenings make this an excellent month for outdoor exploration."
+    },
+    {
+      "month": 12,
+      "avgHighC": 21,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and clear winter weather with crisp nights, popular for holiday visitors seeking desert sunshine."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

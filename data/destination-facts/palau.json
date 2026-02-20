@@ -1,0 +1,115 @@
+{
+  "destinationId": "palau",
+  "city": "Koror",
+  "country": "Palau",
+  "transportAdvice": "Koror is compact enough to explore on foot in the central areas, though taxis are the primary mode of transport for reaching dive sites, beaches, and outlying attractions. There is no formal public bus network, so most visitors rely on taxis, rental cars, or hotel transfers to get around the island.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with occasional showers, but generally good conditions for diving and outdoor activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to January with warm temperatures and intermittent rain; seas are generally calm and visibility underwater is good."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Temperatures begin to rise slightly and rain remains moderate, offering pleasant conditions for water-based activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with a mix of sunshine and showers; a good month for snorkeling and diving."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wet season begins to intensify with more frequent rainfall, though tropical downpours are often short-lived."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Heavy rainfall is common throughout the month, but warm waters and lush scenery make it appealing for adventurous travelers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wetter months with frequent tropical rain; diving conditions remain excellent despite the precipitation."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and high humidity; typhoon risk increases, so travelers should monitor weather advisories."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak typhoon season; significant rainfall and potential for strong storms, though the marine environment remains vibrant."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain begins to ease slightly toward the end of the month, but conditions remain wet and humid overall."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall decreases as the dry season approaches, with improving visibility and calmer seas for water activities."
+    },
+    {
+      "month": 12,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transitioning toward drier conditions with warm temperatures and good underwater visibility, making it a pleasant time to visit."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

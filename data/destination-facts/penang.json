@@ -1,0 +1,115 @@
+{
+  "destinationId": "penang",
+  "city": "Penang",
+  "country": "Malaysia",
+  "transportAdvice": "George Town's historic core is compact and walkable, making it easy to explore on foot or by bicycle rental. Public buses connect major tourist areas and beaches, and metered taxis as well as ride-hailing services are widely available across the island.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and occasionally wet with northeast monsoon influence bringing periodic showers, but generally still pleasant for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "One of the drier and sunnier months, making it an excellent time to visit beaches and explore outdoor attractions."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly sunny with low rainfall, ideal conditions for both city exploration and beach activities."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat begins to build and afternoon thunderstorms become more frequent as the inter-monsoon transition begins."
+    },
+    {
+      "month": 5,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Southwest monsoon arrives bringing increased rainfall and humidity, with heavy afternoon downpours common."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Wet season continues with regular rain, though mornings are often clear and suitable for outdoor activities."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Similar to June with intermittent showers; the west coast beaches can be rough due to monsoon swells."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and humid with moderate rainfall; a quieter tourist period with good deals on accommodation."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wetter months as the inter-monsoon season approaches, with frequent heavy afternoon thunderstorms."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Northeast monsoon begins to influence weather, bringing significant rainfall and overcast skies."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the rainiest months of the year with persistent showers; indoor cultural attractions are a good focus."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rainfall begins to ease toward month's end; festive atmosphere in George Town makes it a lively time to visit despite some wet days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

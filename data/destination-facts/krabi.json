@@ -1,0 +1,115 @@
+{
+  "destinationId": "krabi",
+  "city": "Krabi",
+  "country": "Thailand",
+  "transportAdvice": "Krabi town and its beaches are spread out, making walking impractical between major areas; songthaews (shared pickup trucks) and longtail boats serve popular tourist routes, while metered and negotiated taxis are widely available for longer transfers. Renting a scooter or hiring a private vehicle is common for exploring the region independently.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with clear skies, making it the peak season for beach and island activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and sunny with very little rainfall, ideal conditions for snorkeling and rock climbing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry, one of the best months for calm seas and outdoor exploration."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat intensifies and occasional showers begin to appear, though sunny spells remain frequent."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Southwest monsoon arrives bringing regular heavy rain and rougher seas around the islands."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet season is well underway with frequent downpours and reduced ferry services to outer islands."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rainfall and strong winds; some boat trips and island tours may be suspended."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with persistent rain, though short dry windows still occur between storms."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainfall remains heavy and seas can be rough, making this a quieter period for tourism."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon begins to ease toward the end of the month but rain is still frequent and heavy at times."
+    },
+    {
+      "month": 11,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Transition month with decreasing rain and improving conditions as the dry season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns with pleasant temperatures and calm seas, marking the start of peak tourist season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

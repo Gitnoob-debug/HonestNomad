@@ -1,0 +1,115 @@
+{
+  "destinationId": "arenal",
+  "city": "Arenal",
+  "country": "Costa Rica",
+  "transportAdvice": "Arenal is not walkable between major attractions, so renting a car or 4WD vehicle is the most practical option for exploring the region. Public buses connect La Fortuna (the main town) to San José and other cities, and local taxis are widely available for shorter trips around the area.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "January is one of the drier months, with sunny skies and comfortable temperatures making it ideal for outdoor activities."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "February remains dry and pleasant, with good visibility for volcano views and adventure sports."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "March is warm and largely dry, one of the best months to visit with minimal rain and clear conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April marks the transition into the wet season, with occasional afternoon showers beginning to appear."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "May sees the rainy season take hold, with frequent afternoon and evening downpours and lush green landscapes."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "June is consistently wet, with heavy rainfall most days; the jungle is vibrant but outdoor plans may be disrupted."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "July brings continued heavy rain, though brief dry spells can occur; waterfalls and rivers are at their most dramatic."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "August remains firmly in the wet season with persistent rain and high humidity throughout the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "September is one of the wettest months of the year, with near-daily heavy rain and overcast skies."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "October continues the peak of the rainy season; some roads may flood and outdoor activities can be limited."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "November sees rainfall beginning to ease toward the end of the month as the dry season approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "December transitions into drier conditions, with improving weather and good opportunities for volcano and wildlife viewing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

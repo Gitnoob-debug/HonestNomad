@@ -1,0 +1,115 @@
+{
+  "destinationId": "sintra",
+  "city": "Sintra",
+  "country": "Portugal",
+  "transportAdvice": "Sintra is well connected to Lisbon by regular commuter train, making it an easy day trip, and local buses serve the main palace and castle sites from the town centre. The historic centre is walkable but hilly, and taxis and tuk-tuks are readily available for reaching more remote attractions.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and frequently rainy with overcast skies, making it one of the quieter months for tourism."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still wet and mild with occasional sunny breaks, crowds remain low and the forested hills are lush and green."
+    },
+    {
+      "month": 3,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and rain becomes less frequent, making it a pleasant time to explore the palaces and gardens."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring brings blooming vegetation and comfortable temperatures, with occasional showers still possible."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and mostly dry with long daylight hours, an excellent month to visit before summer crowds arrive."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and largely sunny with very little rainfall, marking the start of the busy tourist season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with clear skies, the peak of summer brings large crowds to the main attractions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Similar to July with intense heat and minimal rain, early morning visits are recommended to beat the crowds and heat."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with crowds beginning to thin, one of the best months to visit for comfortable sightseeing."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings cooler temperatures and increasing rainfall, but the forested landscape takes on beautiful seasonal colours."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter with frequent overcast days, though the lack of crowds makes it appealing for some travellers."
+    },
+    {
+      "month": 12,
+      "avgHighC": 14,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and rainy with short days, the festive season brings some atmosphere to the town but outdoor sightseeing can be damp."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

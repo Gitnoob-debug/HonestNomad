@@ -1,0 +1,115 @@
+{
+  "destinationId": "dakar",
+  "city": "Dakar",
+  "country": "Senegal",
+  "transportAdvice": "Dakar has a network of local minibuses and shared taxis that cover most of the city, though they can be crowded and confusing for first-time visitors; metered taxis and ride-hailing options are widely available and recommended for tourists. Walking is practical in some neighborhoods like the Plateau but less so across the sprawling peninsula, and a new regional express rail line connects the city center to the airport and suburbs.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry with pleasant breezes, one of the most comfortable months to visit."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny with mild temperatures, excellent conditions for sightseeing and beach visits."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry, still very pleasant with little chance of rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 29,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise and humidity increases slightly, but conditions remain largely dry."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Getting warmer with occasional harmattan dust haze; rain remains rare."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The rainy season begins to approach, with rising humidity and occasional showers."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season with frequent heavy downpours, though rain often comes in intense bursts rather than all day."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The wettest month of the year with high humidity and regular rainfall; flooding can occur in low-lying areas."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still within the rainy season with significant humidity, though rainfall begins to taper toward month's end."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rains diminish but humidity remains high; temperatures are at their annual peak."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The dry season returns with cooling temperatures and much more comfortable conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny — a popular time to visit with ideal weather for outdoor activities."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

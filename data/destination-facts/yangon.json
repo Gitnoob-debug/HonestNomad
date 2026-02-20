@@ -1,0 +1,115 @@
+{
+  "destinationId": "yangon",
+  "city": "Yangon",
+  "country": "Myanmar",
+  "transportAdvice": "Yangon has a suburban rail circle line and an extensive local bus network, though both can be crowded and confusing for visitors; metered taxis and motorcycle taxis are widely available and are the most practical option for tourists. The historic downtown area is walkable, but distances between major sights often make taxis the preferred choice.",
+  "safetyLevel": "exercise-increased-caution",
+  "waterSafety": "bottled-required",
+  "costLevel": "budget",
+  "timeZone": "UTC+6:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 33,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and sunny — the most comfortable month to visit Yangon with pleasant evenings."
+    },
+    {
+      "month": 2,
+      "avgHighC": 35,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with clear skies, temperatures beginning to climb toward the hot season."
+    },
+    {
+      "month": 3,
+      "avgHighC": 37,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry with intense midday sun; outdoor sightseeing is best done in the early morning."
+    },
+    {
+      "month": 4,
+      "avgHighC": 38,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The hottest month of the year with sweltering heat; occasional pre-monsoon thunderstorms possible."
+    },
+    {
+      "month": 5,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The monsoon arrives mid-month bringing heavy daily downpours and a significant drop in temperature."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Deep monsoon season with persistent heavy rain; flooding in low-lying areas is common."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "One of the wettest months with near-daily heavy rain and overcast skies throughout."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy monsoon rainfall with high humidity making conditions feel oppressive."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain remains frequent though intensity begins to ease slightly toward the end of the month."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "The monsoon retreats and rain becomes less frequent, though humidity remains high."
+    },
+    {
+      "month": 11,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season begins with pleasant temperatures and lower humidity — a great time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and comfortable with low humidity; one of the best months for sightseeing."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "madrid",
+  "city": "Madrid",
+  "country": "Spain",
+  "transportAdvice": "Madrid has an extensive metro system and bus network that connects all major tourist areas, making public transit the most efficient way to get around the city. The city centre is highly walkable, and licensed taxis are widely available throughout the city at any hour.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and occasionally rainy with crisp, clear days; pack warm layers for evenings."
+    },
+    {
+      "month": 2,
+      "avgHighC": 12,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool but days begin to lengthen; light jacket required, especially at night."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild spring conditions arrive with occasional showers and pleasant sunny spells."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant with some rain; a good month for sightseeing before summer crowds."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortably warm and mostly sunny; one of the best months to visit Madrid."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry with long sunny days; light clothing and sun protection are essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with very little rain; stay hydrated and seek shade during midday."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intensely hot and dry; many locals leave the city, so some businesses may be closed."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Heat eases and conditions become very pleasant; an excellent time to visit."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn weather with occasional rain; comfortable for walking and outdoor dining."
+    },
+    {
+      "month": 11,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with more frequent rain; a warm coat is advisable."
+    },
+    {
+      "month": 12,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and festive with Christmas markets and lights; wrap up warm for evenings out."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

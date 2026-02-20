@@ -1,0 +1,115 @@
+{
+  "destinationId": "calgary",
+  "city": "Calgary",
+  "country": "Canada",
+  "transportAdvice": "Calgary has a light rail transit system (LRT) and an extensive bus network that connects major tourist areas, including downtown and popular attractions. Taxis and ride-hailing services are widely available, and the downtown core is walkable, though a car is helpful for reaching attractions outside the city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -3,
+      "avgLowC": -15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Bitterly cold with frequent snowfall, though sunny chinook winds can bring brief warm spells."
+    },
+    {
+      "month": 2,
+      "avgHighC": -1,
+      "avgLowC": -13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold and wintry but chinooks can temporarily push temperatures above freezing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 5,
+      "avgLowC": -7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Early signs of spring with variable temperatures and occasional snow still possible."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Mild and increasingly pleasant, though late snowstorms are not uncommon."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green with longer days, though afternoon showers are fairly common."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer weather begins with occasional thunderstorms in the afternoons."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The warmest month of the year, coinciding with the Calgary Stampede and plenty of sunshine."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and sunny with similar conditions to July, ideal for outdoor activities."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Crisp and pleasant early autumn weather with cooling temperatures and clear skies."
+    },
+    {
+      "month": 10,
+      "avgHighC": 12,
+      "avgLowC": -1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Noticeably cooler with early frosts possible and the first light snowfalls of the season."
+    },
+    {
+      "month": 11,
+      "avgHighC": 2,
+      "avgLowC": -9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and grey with regular snowfall and short daylight hours."
+    },
+    {
+      "month": 12,
+      "avgHighC": -2,
+      "avgLowC": -14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Full winter conditions with cold temperatures, snow, and occasional chinook relief."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

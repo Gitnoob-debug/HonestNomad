@@ -1,0 +1,115 @@
+{
+  "destinationId": "kotor",
+  "city": "Kotor",
+  "country": "Montenegro",
+  "transportAdvice": "The Old Town of Kotor is compact and best explored entirely on foot, with most major sights within easy walking distance of the city walls. Local buses connect Kotor to nearby towns along the Bay of Kotor, and taxis are readily available for longer journeys or reaching destinations outside the walkable center.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and often rainy winter month with occasional fog settling over the bay, but crowds are minimal and the old town feels atmospheric."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cool and wet with frequent overcast skies, though mild spells can make sightseeing pleasant between showers."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins to emerge with warming temperatures and occasional sunny days, though rain remains a regular possibility."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "A pleasant shoulder-season month with comfortable temperatures, blooming vegetation, and manageable tourist numbers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny, making it an excellent time to visit before the peak summer heat and crowds arrive."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry with long sunny days, ideal for exploring the walls and bay though tourist numbers begin to surge."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with very little rain and the highest tourist volumes; early morning sightseeing is strongly recommended."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Equally hot and busy as July, with the bay and beaches at their most crowded and accommodation prices at their highest."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Temperatures ease slightly and crowds begin to thin, making September one of the most enjoyable months to visit Kotor."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn weather with occasional rain returning, but still comfortable for walking and outdoor exploration."
+    },
+    {
+      "month": 11,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cooler and wetter as autumn deepens, with the town quieting down considerably after the tourist season."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and frequently rainy with a quiet, local atmosphere; festive decorations add charm but outdoor sightseeing can be damp."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

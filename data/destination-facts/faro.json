@@ -1,0 +1,115 @@
+{
+  "destinationId": "faro",
+  "city": "Faro",
+  "country": "Portugal",
+  "transportAdvice": "Faro's compact old town and marina area are very walkable, making it easy to explore key attractions on foot. Public buses connect the city center to surrounding towns and beaches, and taxis are readily available for longer trips or airport transfers.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+0 (UTC+1 in summer)",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winter days with occasional rain showers and cool evenings, but often sunny between spells."
+    },
+    {
+      "month": 2,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with gradually lengthening days and a mix of sunshine and light rain."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins to arrive with warmer afternoons and a noticeable increase in sunshine."
+    },
+    {
+      "month": 4,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant and warm with mostly sunny skies and very little rainfall, ideal for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry with long sunny days, making it a great time to visit before peak summer crowds."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and almost entirely dry with strong sunshine, perfect for beach visits."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with virtually no rain and intense sunshine throughout the day."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest month of the year, very dry and sunny, with busy beaches and tourist areas."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still warm and largely sunny with the sea at its warmest, and slightly fewer crowds than August."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn brings milder temperatures and the first occasional rain, but still many pleasant sunny days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with more frequent rain, though mild compared to most of Europe."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally wet winter weather, but with enough sunny breaks to enjoy outdoor walks."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

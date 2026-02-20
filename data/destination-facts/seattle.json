@@ -1,0 +1,115 @@
+{
+  "destinationId": "seattle",
+  "city": "Seattle",
+  "country": "United States",
+  "transportAdvice": "Seattle has a light rail system, extensive bus network, and streetcar lines that connect major neighborhoods and tourist areas, making public transit a practical option for most visitors. The downtown core and waterfront are walkable, though the city's hilly terrain can be challenging on foot, and taxis and rideshare vehicles are widely available.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC-8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "January is cool, grey, and frequently rainy, with occasional frost but rarely snow at sea level."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "February remains damp and overcast, though daylight hours begin to noticeably increase."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "March brings mild temperatures but continued frequent rain and cloudy skies."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "April sees a gradual brightening with occasional sunny spells mixed with showers and blooming cherry trees."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "May is one of the most pleasant months, with warming temperatures and increasingly dry, sunny days."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "June marks the beginning of Seattle's dry season, with long daylight hours and comfortably warm weather."
+    },
+    {
+      "month": 7,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "July is warm and reliably sunny, making it one of the best months to visit with very little rainfall."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "August is Seattle's warmest and driest month, ideal for outdoor activities and exploring the waterfront."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "September remains warm and largely dry, often considered the most reliably pleasant month of the year."
+    },
+    {
+      "month": 10,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "October brings cooling temperatures and the return of rain, with beautiful autumn foliage across the city."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "November is notably wet and grey, with short days and frequent rain marking the return of the Pacific Northwest winter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "December is cold, rainy, and overcast, though the city's festive holiday atmosphere adds seasonal charm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

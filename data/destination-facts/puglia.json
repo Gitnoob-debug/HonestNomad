@@ -1,0 +1,115 @@
+{
+  "destinationId": "puglia",
+  "city": "Bari",
+  "country": "Italy",
+  "transportAdvice": "The historic old town and main waterfront are very walkable, and most major tourist sites are reachable on foot from the city center. Bari has a local bus network covering the wider city, and taxis are readily available at stands near the train station and main squares.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 12,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with mild temperatures, typical of a Mediterranean winter."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool with some rain, but days can be pleasantly mild and bright."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring begins to arrive with warming temperatures and a mix of sun and showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild and increasingly sunny, a pleasant time to explore the city and coast."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and largely sunny with low rainfall, ideal for sightseeing and outdoor dining."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny with very little rain, perfect beach weather beginning to set in."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat with long sunny days and minimal rainfall, great for the beach."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "The hottest month, very sunny and humid, with the sea at its warmest."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and still largely sunny, with the summer crowds beginning to thin."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn temperatures with increasing chances of rain but still many fine days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and wetter, though mild compared to northern Europe."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and occasionally rainy with short days, but the city has a festive atmosphere."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

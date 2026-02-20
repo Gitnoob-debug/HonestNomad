@@ -1,0 +1,115 @@
+{
+  "destinationId": "salalah",
+  "city": "Salalah",
+  "country": "Oman",
+  "transportAdvice": "Salalah has limited public bus services that do not comprehensively cover tourist areas, so renting a car is strongly recommended for exploring the region's beaches, wadis, and frankincense sites. Taxis are available in the city center but are less common outside urban areas, and walking is practical only within specific commercial districts.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC+4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and pleasant winter days with cool evenings and very little rainfall, ideal for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and sunny with comfortable temperatures, one of the best months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to rise with continued dry and sunny conditions."
+    },
+    {
+      "month": 4,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Getting noticeably warmer and more humid as summer approaches."
+    },
+    {
+      "month": 5,
+      "avgHighC": 34,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and hazy with occasional light breezes, pre-monsoon conditions begin to build."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "The Khareef monsoon season begins, bringing mist, drizzle, and lush green landscapes."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon month with persistent fog, drizzle, and dramatically green scenery attracting domestic tourists."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon continues with overcast skies and frequent light rain, roads can be slippery."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Monsoon begins to ease but humidity remains high and greenery is at its most vibrant."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Post-monsoon conditions return with sunshine and warm temperatures, a pleasant time to visit."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortable and sunny with cooling evenings, excellent conditions for outdoor activities."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry winter weather returns, making it a very enjoyable month for travel."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

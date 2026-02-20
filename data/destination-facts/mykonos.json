@@ -1,0 +1,115 @@
+{
+  "destinationId": "mykonos",
+  "city": "Mykonos",
+  "country": "Greece",
+  "transportAdvice": "Mykonos Town is walkable but its narrow labyrinthine streets make navigation challenging; public buses connect the main town to popular beaches and villages, though services can be crowded in peak season. Taxis are available but limited in number, so renting an ATV, scooter, or car is a common and practical option for exploring the island independently.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and quiet with occasional rain showers; most tourist facilities are closed and the island is very peaceful."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to January with mild temperatures and sporadic rain; a very off-season period with few visitors."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Temperatures begin to rise slightly and days grow longer, though rain is still possible and tourist infrastructure remains largely closed."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring weather with warm sunny days and cool evenings; a good time for sightseeing before the summer crowds arrive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and increasingly sunny with very little rain; the island begins to come alive as businesses reopen for the season."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot, dry, and sunny with strong Meltemi winds providing some relief; crowds and prices begin to climb significantly."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer heat with intense sun and persistent Meltemi winds; the island is at its busiest and most vibrant."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "The hottest and most crowded month of the year; expect packed beaches, lively nightlife, and premium prices throughout."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and still very sunny with gradually thinning crowds; sea temperatures remain ideal for swimming."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with occasional rain returning; a quieter and more affordable time to visit with many venues still open."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild but increasingly unsettled weather as the off-season sets in; most tourist businesses begin to close for winter."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and quiet with a local atmosphere; rain is possible and most of the island's tourist infrastructure is shut down."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

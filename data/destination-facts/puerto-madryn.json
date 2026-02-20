@@ -1,0 +1,115 @@
+{
+  "destinationId": "puerto-madryn",
+  "city": "Puerto Madryn",
+  "country": "Argentina",
+  "transportAdvice": "Puerto Madryn's compact city center is walkable, but reaching wildlife reserves and Peninsula Valdés requires renting a car or joining organized tours, as public bus services do not cover most natural attractions. Taxis are available in town and are the most practical option for short urban trips.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "moderate",
+  "timeZone": "UTC-3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry summer days with strong Patagonian winds and long daylight hours, ideal for beach and wildlife visits."
+    },
+    {
+      "month": 2,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still warm and dry with conditions similar to January, remaining one of the best months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 23,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Temperatures begin to ease into a pleasant autumn, with comfortable conditions and low rainfall."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler autumn weather sets in with occasional showers and noticeably shorter days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and sometimes windy with light rain; southern right whales begin arriving in the region."
+    },
+    {
+      "month": 6,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter conditions with frequent wind and overcast skies; whale watching season is underway."
+    },
+    {
+      "month": 7,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "The coldest month with strong winds and occasional frost; peak whale watching season draws visitors despite the chill."
+    },
+    {
+      "month": 8,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold but whale activity remains high, making it a rewarding month for wildlife enthusiasts."
+    },
+    {
+      "month": 9,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings slightly warmer days and continued whale sightings as the season winds down."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring warms up with more sunshine; elephant seals and penguins become the main wildlife attraction."
+    },
+    {
+      "month": 11,
+      "avgHighC": 22,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and increasingly sunny with excellent conditions for visiting Punta Tombo penguin colony."
+    },
+    {
+      "month": 12,
+      "avgHighC": 25,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot summer days return with long evenings and low rainfall, great for outdoor and coastal activities."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

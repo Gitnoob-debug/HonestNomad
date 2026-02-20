@@ -1,0 +1,115 @@
+{
+  "destinationId": "amritsar",
+  "city": "Amritsar",
+  "country": "India",
+  "transportAdvice": "Amritsar's main attractions, including the Golden Temple, are clustered enough that walking between them is practical for most visitors; cycle rickshaws and auto-rickshaws are widely available and affordable for longer distances. Taxis can be hired locally for day trips, and the city is served by a modest local bus network, though most tourists rely on auto-rickshaws or pre-arranged vehicles.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 19,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and pleasant winter days with chilly nights; occasional fog can affect visibility and travel."
+    },
+    {
+      "month": 2,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Mild and comfortable with slightly warmer days; a good month for sightseeing."
+    },
+    {
+      "month": 3,
+      "avgHighC": 28,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming up noticeably with clear skies; one of the more pleasant months to visit."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry conditions set in; mornings are still manageable but afternoons can be intense."
+    },
+    {
+      "month": 5,
+      "avgHighC": 40,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry; outdoor sightseeing is best done early morning or late evening."
+    },
+    {
+      "month": 6,
+      "avgHighC": 41,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Extreme heat with the onset of pre-monsoon humidity; travel is challenging but possible."
+    },
+    {
+      "month": 7,
+      "avgHighC": 36,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon season brings frequent heavy rain and high humidity, offering some relief from peak heat."
+    },
+    {
+      "month": 8,
+      "avgHighC": 35,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued monsoon rains keep temperatures lower but conditions remain humid and wet."
+    },
+    {
+      "month": 9,
+      "avgHighC": 34,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rains begin to ease but humidity remains high; temperatures are more bearable than peak summer."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant and sunny with cooling evenings; one of the best months to visit Amritsar."
+    },
+    {
+      "month": 11,
+      "avgHighC": 26,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Comfortably cool and clear; excellent conditions for exploring the Golden Temple and local markets."
+    },
+    {
+      "month": 12,
+      "avgHighC": 20,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool winter weather with cold nights; fog can occasionally develop, especially toward month's end."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

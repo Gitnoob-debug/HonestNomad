@@ -1,0 +1,115 @@
+{
+  "destinationId": "swiss-alps",
+  "city": "Interlaken",
+  "country": "Switzerland",
+  "transportAdvice": "Interlaken is compact and highly walkable between its two main train stations and the town center, making it easy to explore on foot. Regional trains and local buses connect the town to surrounding villages and mountain railways, with taxis available but rarely necessary for most tourist areas.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold winter month with frequent cloud cover, possible snowfall, and crisp alpine air ideal for winter sports."
+    },
+    {
+      "month": 2,
+      "avgHighC": 5,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cold with lingering snow at higher elevations, though daylight hours begin to increase noticeably."
+    },
+    {
+      "month": 3,
+      "avgHighC": 10,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings milder temperatures and occasional rain showers as snow begins to melt in the valleys."
+    },
+    {
+      "month": 4,
+      "avgHighC": 14,
+      "avgLowC": 4,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Spring arrives with greening meadows but also frequent rain; mountain peaks remain snow-capped and scenic."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Lush and green with blooming wildflowers, though May is one of the wetter months with regular afternoon showers."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm early summer with long days, but thunderstorms are common in the afternoons; outdoor activities are in full swing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer month with warm, pleasant days and the best conditions for hiking, paragliding, and lake activities."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and sunny with similar conditions to July; the busiest tourist month with excellent visibility of the surrounding peaks."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn brings cooler evenings and stunning golden foliage, with generally stable and pleasant weather."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler with increasing cloud cover and occasional fog in the valleys, though clear days offer vivid autumn scenery."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Quiet shoulder month with cold, damp conditions and the first snowfall possible at higher altitudes."
+    },
+    {
+      "month": 12,
+      "avgHighC": 3,
+      "avgLowC": -3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cold and wintry with a festive atmosphere in town; snow is likely and the surrounding mountains take on a dramatic alpine character."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

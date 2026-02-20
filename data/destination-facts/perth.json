@@ -1,0 +1,115 @@
+{
+  "destinationId": "perth",
+  "city": "Perth",
+  "country": "Australia",
+  "transportAdvice": "Perth has a public transit network of trains, buses, and ferries that connects the city centre to major suburbs and some tourist areas, though coverage can be limited in outer regions. Taxis are widely available, and the compact city centre is walkable, though a car is recommended for exploring beaches and nature reserves further afield.",
+  "safetyLevel": "very-safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry summer month with long sunny days and very little rainfall, typical of Perth's Mediterranean climate."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Consistently hot and dry with minimal rain, making it ideal for beach visits though heat can be intense."
+    },
+    {
+      "month": 3,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late summer brings slightly cooler temperatures but remains warm, sunny, and largely dry."
+    },
+    {
+      "month": 4,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn begins with pleasant, mild temperatures and occasional showers as the wet season approaches."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Noticeably cooler and wetter, with more frequent rain and comfortable daytime temperatures."
+    },
+    {
+      "month": 6,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Winter sets in with the wettest conditions of the year, cool temperatures, and overcast skies."
+    },
+    {
+      "month": 7,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "The coolest and one of the wettest months, with crisp mornings and regular rainfall throughout."
+    },
+    {
+      "month": 8,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Still cool and rainy, though days begin to lengthen slightly toward the end of the month."
+    },
+    {
+      "month": 9,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with warming temperatures, wildflowers blooming, and gradually decreasing rainfall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Warm and increasingly sunny with occasional showers, a popular time to visit before summer heat builds."
+    },
+    {
+      "month": 11,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Late spring brings warm, dry, and sunny conditions with very little rain and pleasant beach weather."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot summer conditions return with long sunny days, low humidity, and minimal rainfall."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "maldives",
+  "city": "Maldives",
+  "country": "Maldives",
+  "transportAdvice": "Inter-island travel relies on speedboats, domestic flights, and seaplanes, as the Maldives consists of hundreds of scattered atolls with no road network between islands. Within resort islands walking is the primary mode of getting around, and transfers to resorts are typically arranged in advance through accommodation providers.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-recommended",
+  "costLevel": "very-expensive",
+  "timeZone": "UTC+5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "January is one of the driest and sunniest months, with calm seas and excellent visibility for snorkeling and diving."
+    },
+    {
+      "month": 2,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "February remains dry and bright with light winds, making it one of the best months to visit."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 26,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "March is warm and mostly sunny with minimal rainfall, ideal for water sports and beach relaxation."
+    },
+    {
+      "month": 4,
+      "avgHighC": 31,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "April marks the transition toward the wet season with increasing humidity and occasional afternoon showers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 30,
+      "avgLowC": 27,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "May brings the onset of the southwest monsoon with frequent rain and rougher seas on some atolls."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "June is one of the wetter months with overcast skies and regular heavy showers, though resorts remain open."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "July continues the monsoon season with persistent rain and strong swells, but prices are lower and crowds thinner."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "August remains wet and humid, though sunny spells still occur and underwater visibility can be good."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "September sees the monsoon beginning to ease slightly, though rain and cloud cover are still common."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "October is transitional with decreasing rainfall and improving conditions as the dry season approaches."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "November brings noticeably drier and calmer weather as the northeast monsoon begins to establish itself."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "December is a popular month with dry, sunny conditions and calm seas, though it is one of the busiest and most expensive periods."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

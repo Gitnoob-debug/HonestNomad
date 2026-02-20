@@ -1,0 +1,115 @@
+{
+  "destinationId": "milan",
+  "city": "Milan",
+  "country": "Italy",
+  "transportAdvice": "Milan has an efficient public transit network of metro lines, trams, and buses that connects major tourist sites and neighborhoods well. Taxis are widely available, and the historic center is walkable, though the city is large enough that public transit is recommended for reaching attractions beyond the core.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often foggy winter month with occasional frost and grey skies."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold with lingering fog, though days gradually lengthen and brief sunny spells appear."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild spring begins with variable weather, mixing sunny days and rain showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Pleasant but showery spring month with blooming parks and mild temperatures."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 14,
+      "rainProbability": "high",
+      "humidity": "moderate",
+      "description": "Warm and lush with frequent afternoon thunderstorms typical of the Po Valley."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early summer brings warm to hot days with occasional thunderstorms and good outdoor conditions."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and mostly dry, the peak of summer with long sunny days and high temperatures."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Remains hot and dry; much of the city slows down as locals take summer holidays."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn with warm days, cooler evenings, and increasing rainfall."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Autumn deepens with cooler temperatures, frequent rain, and the return of morning fog."
+    },
+    {
+      "month": 11,
+      "avgHighC": 11,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and damp with persistent fog and grey skies typical of Milanese autumn."
+    },
+    {
+      "month": 12,
+      "avgHighC": 6,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold winter month with fog, occasional frost, and festive holiday atmosphere in the city."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

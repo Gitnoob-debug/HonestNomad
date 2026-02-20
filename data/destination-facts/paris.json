@@ -1,0 +1,115 @@
+{
+  "destinationId": "paris",
+  "city": "Paris",
+  "country": "France",
+  "transportAdvice": "Paris has an extensive metro and bus network that covers virtually all tourist areas, making it easy to get around without a car. The city center is highly walkable, and taxis are widely available, though public transit is generally the fastest and most practical option.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey with frequent overcast skies; pack warm layers and a waterproof jacket."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold with occasional rain, though days begin to lengthen slightly toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild spring conditions begin to emerge, with occasional sunny spells between showers."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant and increasingly warm, with blooming parks and a mix of sun and light rain."
+    },
+    {
+      "month": 5,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "One of the best months to visit, with warm temperatures and long, often sunny days."
+    },
+    {
+      "month": 6,
+      "avgHighC": 23,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and lively with long daylight hours; occasional afternoon thunderstorms are possible."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "The warmest month, generally sunny and dry; heat waves can occur, so stay hydrated."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and sunny, though the city quiets as many locals leave on holiday."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn temperatures with a good balance of sun and occasional rain."
+    },
+    {
+      "month": 10,
+      "avgHighC": 16,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and increasingly wet, with beautiful autumn foliage in parks and gardens."
+    },
+    {
+      "month": 11,
+      "avgHighC": 10,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Noticeably cold and damp with frequent rain; a warm coat and umbrella are essential."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive, with Christmas markets and lights brightening the grey winter days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-20",
+    "lastUpdated": "2026-02-20",
+    "generatedBy": "script-v1",
+    "reviewStatus": "auto-generated"
+  }
+}

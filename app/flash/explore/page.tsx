@@ -7,7 +7,7 @@ import { ItineraryMap } from '@/components/flash/ItineraryMap';
 import { PackageMiniMap } from '@/components/flash/PackageMiniMap';
 import { MagicPackage } from '@/components/flash/MagicPackage';
 import { Spinner } from '@/components/ui';
-import type { DirectionsLeg } from '@/lib/mapbox/directions';
+// DirectionsLeg type retained for future use (walk-time calculations)
 import type { FlashTripPackage } from '@/types/flash';
 import {
   generateSampleItinerary,
@@ -22,7 +22,7 @@ import { DESTINATIONS } from '@/lib/flash/destinations';
 import type { HotelOption } from '@/lib/liteapi/types';
 import type { LiteAPIReview } from '@/lib/liteapi/types';
 import { useRevealedPreferences } from '@/hooks/useRevealedPreferences';
-import { calculateHotelZone } from '@/lib/flash/hotelZoneClustering';
+import { calculateHotelZone, clusterPOIsGeographic } from '@/lib/flash/hotelZoneClustering';
 
 type BookingStep = 'choice' | 'itinerary' | 'hotels' | 'checkout' | 'package';
 type ItineraryType = SimplePathChoice | null;
@@ -207,6 +207,40 @@ const PATH_CONFIG: Record<SimplePathChoice, {
 
 const ALL_PATHS: SimplePathChoice[] = ['classic', 'foodie', 'adventure', 'cultural', 'relaxation', 'nightlife', 'trendy'];
 
+// Quick navigator config — adapts label/emoji per path type
+const QUICK_NAV_CONFIG: Record<SimplePathChoice, { emoji: string; label: string }> = {
+  classic: { emoji: '📸', label: 'Photo Route' },
+  foodie: { emoji: '🍴', label: 'Food Crawl' },
+  adventure: { emoji: '🥾', label: 'Trail Guide' },
+  cultural: { emoji: '🎭', label: 'Culture Trail' },
+  relaxation: { emoji: '🧘', label: 'Zen Path' },
+  nightlife: { emoji: '🌙', label: 'Night Route' },
+  trendy: { emoji: '✨', label: 'Local Trail' },
+};
+
+/** Parse duration strings like "30-60 min", "1-2 hours" and return the MAX value in minutes */
+function estimateTotalMinutes(stops: { duration?: string }[]): number {
+  let total = 0;
+  stops.forEach(s => {
+    if (!s.duration) { total += 45; return; } // default 45min
+    const d = s.duration.toLowerCase();
+    // "1-2 hours" → 120, "2-3 hours" → 180
+    const hourMatch = d.match(/(\d+)\s*-\s*(\d+)\s*hour/);
+    if (hourMatch) { total += parseInt(hourMatch[2]) * 60; return; }
+    // "~2 hours", "2 hours"
+    const singleHour = d.match(/(\d+)\s*hour/);
+    if (singleHour) { total += parseInt(singleHour[1]) * 60; return; }
+    // "30-60 min" → 60
+    const minMatch = d.match(/(\d+)\s*-\s*(\d+)\s*min/);
+    if (minMatch) { total += parseInt(minMatch[2]); return; }
+    // "30 min", "~45 min"
+    const singleMin = d.match(/(\d+)\s*min/);
+    if (singleMin) { total += parseInt(singleMin[1]); return; }
+    total += 45; // fallback
+  });
+  return total;
+}
+
 // Calculate distance between two coordinates in meters using Haversine formula
 function getDistanceMeters(lat1: number, lon1: number, lat2: number, lon2: number): number {
   const R = 6371000; // Earth's radius in meters
@@ -279,121 +313,95 @@ interface ItineraryStop {
   category?: string;
 }
 
-// ─── PackageTimeline: Vertical timeline with scroll-triggered reveal ───
-function PackageTimeline({
+// ─── POICarousel: Horizontal scrollable POI cards overlaying map ───
+const CAROUSEL_EMOJIS: Record<string, string> = {
+  landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
+  park: '🌳', cafe: '☕', bar: '🍸', market: '🛒',
+  viewpoint: '🌄', nightclub: '🎉', accommodation: '🏨', transport: '✈️', neighborhood: '🏘️',
+};
+
+function POICarousel({
   stops,
-  routeLegs,
-  favorites,
-  markerEmojis,
+  activeStopId,
+  onStopSelect,
+  hotelLocation,
 }: {
   stops: ItineraryStop[];
-  routeLegs: DirectionsLeg[] | null;
-  favorites: Set<string>;
-  markerEmojis: Record<string, string>;
+  activeStopId: string | null;
+  onStopSelect: (stopId: string) => void;
+  hotelLocation?: { latitude: number; longitude: number } | null;
 }) {
-  const timelineRef = useRef<HTMLDivElement>(null);
-  const [visibleItems, setVisibleItems] = useState<Set<number>>(new Set());
+  const scrollRef = useRef<HTMLDivElement>(null);
 
-  // Intersection Observer for sequential reveal
+  // Auto-scroll to active card
   useEffect(() => {
-    if (!timelineRef.current) return;
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-    if (prefersReducedMotion) {
-      setVisibleItems(new Set(stops.map((_, i) => i)));
-      return;
+    if (!activeStopId || !scrollRef.current) return;
+    const card = scrollRef.current.querySelector(`[data-stop-id="${activeStopId}"]`);
+    if (card) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     }
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const index = Number(entry.target.getAttribute('data-index'));
-            setVisibleItems((prev) => new Set(prev).add(index));
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.2, rootMargin: '0px 0px -50px 0px' }
-    );
-
-    const items = timelineRef.current.querySelectorAll('[data-index]');
-    items.forEach((item) => observer.observe(item));
-
-    return () => observer.disconnect();
-  }, [stops.length]);
+  }, [activeStopId]);
 
   return (
-    <div>
-      <h3 className="text-white font-semibold text-sm mb-4 flex items-center gap-2">
-        <span>📍</span>
-        Your Itinerary · {stops.length} stops
-      </h3>
-
-      <div ref={timelineRef} className="relative ml-4">
-        {/* Vertical connecting line */}
-        <div className="absolute left-[11px] top-3 bottom-3 w-[2px] bg-white/10" />
-
-        {stops.map((stop, index) => {
-          const isFav = favorites.has(stop.id);
-          const leg = routeLegs && index > 0 ? routeLegs[index - 1] : null;
-          const isVisible = visibleItems.has(index);
-
-          return (
-            <div key={stop.id} data-index={index}>
-              {/* Walk-time connector */}
-              {leg && leg.duration > 0 && (
-                <div className={`ml-7 py-1 transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-                  <span className="text-white/30 text-[10px] flex items-center gap-1">
-                    🚶 {Math.round(leg.duration / 60)} min · {(leg.distance / 1000).toFixed(1)} km
-                  </span>
-                </div>
-              )}
-
-              {/* Timeline stop */}
-              <div
-                className={`relative flex items-start gap-3 py-2 ${isVisible ? 'animate-reveal' : 'opacity-0'}`}
-                style={isVisible ? { animationDelay: `${index * 60}ms` } : undefined}
-              >
-                {/* Dot on the timeline line */}
-                <div className={`relative z-10 w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 border-2 ${
-                  isFav
-                    ? 'bg-pink-500 border-pink-400'
-                    : 'bg-gray-700 border-white/20'
-                } ${index === 0 ? 'animate-timeline-pulse' : ''}`}>
-                  <span className="text-[10px] font-bold text-white">{index + 1}</span>
-                </div>
-
-                {/* Stop content */}
-                <div className="flex-1 min-w-0 pb-1">
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm flex-shrink-0">{markerEmojis[stop.type] || '📍'}</span>
-                    <p className="text-white text-sm font-medium truncate">{stop.name}</p>
-                    {isFav && (
-                      <svg className="w-3.5 h-3.5 text-pink-500 fill-pink-500 flex-shrink-0" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                      </svg>
-                    )}
-                  </div>
-                  <div className="flex items-center gap-2 mt-0.5">
-                    {stop.googleRating && (
-                      <span className="text-amber-400 text-[11px]">★ {stop.googleRating.toFixed(1)}</span>
-                    )}
-                    {stop.duration && (
-                      <span className="text-white/30 text-[11px]">{stop.duration}</span>
-                    )}
-                    {stop.bestTimeOfDay && stop.bestTimeOfDay !== 'any' && (
-                      <span className="text-white/30 text-[10px] capitalize bg-white/5 px-1.5 py-0.5 rounded">
-                        {stop.bestTimeOfDay}
-                      </span>
-                    )}
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div
+      ref={scrollRef}
+      className="flex gap-3 overflow-x-auto px-4 pb-4 pt-2 scrollbar-hide"
+    >
+      {stops.map((stop, index) => {
+        const isActive = activeStopId === stop.id;
+        // Haversine walk estimate from hotel
+        let walkMin: number | null = null;
+        if (hotelLocation) {
+          const dist = getDistanceMeters(
+            hotelLocation.latitude, hotelLocation.longitude,
+            stop.latitude, stop.longitude
           );
-        })}
-      </div>
+          walkMin = Math.round(dist / 80); // ~80m per minute walking
+        }
+
+        return (
+          <button
+            key={stop.id}
+            data-stop-id={stop.id}
+            onClick={() => onStopSelect(stop.id)}
+            className={`flex-shrink-0 w-[160px] rounded-xl p-3 text-left transition-all ${
+              isActive
+                ? 'bg-white/20 border-primary-400 border scale-[1.03] shadow-lg shadow-primary-500/20'
+                : 'bg-black/40 border-white/10 border hover:bg-white/10'
+            } backdrop-blur-md`}
+          >
+            {/* Top row: number + emoji */}
+            <div className="flex items-center justify-between mb-1.5">
+              <span className={`w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold ${
+                isActive ? 'bg-primary-500 text-white' : 'bg-white/15 text-white/80'
+              }`}>
+                {index + 1}
+              </span>
+              <span className="text-lg">{CAROUSEL_EMOJIS[stop.type] || '📍'}</span>
+            </div>
+
+            {/* Name */}
+            <p className="text-white text-sm font-semibold truncate mb-1">{stop.name}</p>
+
+            {/* Rating + time */}
+            <div className="flex items-center gap-1.5 mb-1">
+              {stop.googleRating && (
+                <span className="text-amber-400 text-[11px] font-medium">★ {stop.googleRating.toFixed(1)}</span>
+              )}
+              {stop.bestTimeOfDay && stop.bestTimeOfDay !== 'any' && (
+                <span className="text-white/40 text-[10px] capitalize">{stop.bestTimeOfDay}</span>
+              )}
+            </div>
+
+            {/* Walk time from hotel */}
+            {walkMin !== null && walkMin > 0 && (
+              <p className="text-white/40 text-[10px]">
+                🚶 ~{walkMin} min from hotel
+              </p>
+            )}
+          </button>
+        );
+      })}
     </div>
   );
 }
@@ -444,13 +452,47 @@ function FlashExploreContent() {
   const [hotelReviews, setHotelReviews] = useState<Record<string, LiteAPIReview[]>>({});
   const [loadingReviews, setLoadingReviews] = useState<string | null>(null);
 
-  // Package step — walking route + trip dates
-  const [routeLegs, setRouteLegs] = useState<DirectionsLeg[] | null>(null);
+  // Package step — walking route + trip dates + carousel sync
   const [routeGeometry, setRouteGeometry] = useState<string | null>(null);
   const [tripDates, setTripDates] = useState<{ departure: string; return: string }>({ departure: '', return: '' });
+  const [activeCarouselStopId, setActiveCarouselStopId] = useState<string | null>(null);
 
   // Revealed preferences tracking
   const { trackHotelSelection, trackPOIAction } = useRevealedPreferences();
+
+  // Smart planner + quick nav state
+  const [showSmartPlanner, setShowSmartPlanner] = useState(true);
+  const [activeClusterId, setActiveClusterId] = useState<number | null>(null);
+
+  // Compute allStops unconditionally (needed for memos — hooks can't be conditional)
+  const allStops = useMemo(() => itinerary.flatMap(d => d.stops), [itinerary]);
+
+  // Cluster POIs for smart planner
+  const poiClusters = useMemo(() => {
+    if (allStops.length < 4) return [];
+    return clusterPOIsGeographic(allStops);
+  }, [allStops]);
+
+  // Hotel zone center for nexus marker (at explore step, no hotel selected yet)
+  const hotelZoneCenter = useMemo(() => {
+    const stopsForZone = favoriteStops.length >= 2 ? favoriteStops : allStops;
+    if (stopsForZone.length < 2) return null;
+    const zone = calculateHotelZone(stopsForZone);
+    if (!zone) return null;
+    return { latitude: zone.centerLat, longitude: zone.centerLng, name: 'Your hotel area' };
+  }, [favoriteStops, allStops]);
+
+  // Map stopId → clusterId for tile highlighting
+  const stopClusterMap = useMemo(() => {
+    const map = new Map<string, number>();
+    poiClusters.forEach(cluster => {
+      cluster.points.forEach(point => {
+        const stop = allStops.find(s => s.latitude === point.latitude && s.longitude === point.longitude);
+        if (stop) map.set(stop.id, cluster.id);
+      });
+    });
+    return map;
+  }, [poiClusters, allStops]);
 
   // Fetch hotel reviews
   const fetchHotelReviews = useCallback(async (hotelId: string) => {
@@ -537,7 +579,7 @@ function FlashExploreContent() {
   // The Supabase-backed draft system uses UUID IDs, so we don't need to match by trip data
 
   // Auto-dismiss "tap markers" hint after 4 seconds
-  const totalStops = itinerary.flatMap(d => d.stops).length;
+  const totalStops = allStops.length;
   useEffect(() => {
     if (showMapHint && !isLoadingItinerary && totalStops > 0) {
       const timer = setTimeout(() => setShowMapHint(false), 4000);
@@ -824,9 +866,6 @@ function FlashExploreContent() {
       .then((data) => {
         if (data) {
           setRouteGeometry(data.geometry);
-          // If hotel was first waypoint, skip first leg (hotel→stop1) for stop-to-stop connectors
-          const skipFirst = !skipHotels && selectedHotel ? 1 : 0;
-          setRouteLegs(data.legs.slice(skipFirst));
         }
       })
       .catch((err) => {
@@ -980,12 +1019,16 @@ function FlashExploreContent() {
 
   // Itinerary view with map (main step)
   if (step === 'itinerary') {
-    // Get ALL stops from all days for the map
-    const allStops = itinerary.flatMap((day) => day.stops);
     const activeStop = activeStopId ? allStops.find((s) => s.id === activeStopId) : null;
     // Center on first stop
     const centerLat = allStops[0]?.latitude || 0;
     const centerLng = allStops[0]?.longitude || 0;
+    // Filtered stops for display
+    const filteredStops = typeFilter ? allStops.filter(s => s.type === typeFilter) : allStops;
+    // Quick nav stats
+    const quickNavConfig = itineraryType ? QUICK_NAV_CONFIG[itineraryType] : null;
+    const totalMinutes = estimateTotalMinutes(allStops);
+    const totalHours = Math.round(totalMinutes / 60);
 
     return (
       <div className="fixed inset-0 bg-black z-50">
@@ -999,7 +1042,36 @@ function FlashExploreContent() {
           favoriteStops={favoriteStops}
           onStopClick={handleStopClick}
           className="absolute inset-0"
+          hotelLocation={hotelZoneCenter}
+          clusterZones={poiClusters.map(c => ({
+            id: c.id,
+            center: c.center,
+            radiusMeters: c.radiusMeters,
+            color: c.color,
+            label: c.label,
+          }))}
         />
+
+        {/* ═══ QUICK NAVIGATOR — top-right map overlay ═══ */}
+        {quickNavConfig && !isLoadingItinerary && allStops.length > 0 && (
+          <div className="absolute top-3 right-14 z-20">
+            <div className="bg-black/60 backdrop-blur-xl border border-white/15 rounded-2xl px-4 py-2.5 shadow-lg">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-lg">{quickNavConfig.emoji}</span>
+                <span className="text-white font-semibold text-sm">{quickNavConfig.label}</span>
+              </div>
+              <div className="flex items-center gap-2 text-[11px]">
+                <span className="text-white/60">{allStops.length} spots</span>
+                <span className="text-white/30">·</span>
+                <span className={favorites.size > 0 ? 'text-pink-400 font-medium' : 'text-white/60'}>
+                  {favorites.size} saved
+                </span>
+                <span className="text-white/30">·</span>
+                <span className="text-white/60">~{totalHours}hr</span>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* ═══ LEFT SIDEBAR — step trail + POI list + shuffle ═══ */}
         <div className="absolute top-0 left-0 bottom-0 w-[320px] z-20 flex flex-col bg-black/75 backdrop-blur-lg border-r border-white/10">
@@ -1117,7 +1189,7 @@ function FlashExploreContent() {
             );
           })()}
 
-          {/* POI list — scrollable */}
+          {/* POI tiles + smart planner — scrollable */}
           <div className="flex-1 overflow-y-auto scrollbar-hide">
             {isLoadingItinerary ? (
               <div className="flex items-center justify-center py-12">
@@ -1129,68 +1201,136 @@ function FlashExploreContent() {
                 <p className="text-white/60 text-sm mb-2">No places found</p>
                 <button onClick={handleShuffle} className="text-primary-400 text-sm font-medium">Try a different style</button>
               </div>
-            ) : (() => {
-              const filteredStops = typeFilter ? allStops.filter(s => s.type === typeFilter) : allStops;
-              const MARKER_EMOJIS: Record<string, string> = {
-                landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
-                park: '🌳', cafe: '☕', bar: '🍸', market: '🛒',
-                viewpoint: '🌄', nightclub: '🎉', accommodation: '🏨', transport: '✈️', neighborhood: '🏘️',
-              };
-              return filteredStops.map((stop, index) => {
-                const isFav = favorites.has(stop.id);
-                const isActive = activeStopId === stop.id;
-                return (
-                  <div
-                    key={stop.id}
-                    onClick={() => handleStopClick(stop)}
-                    className={`flex items-center gap-2.5 px-3 py-2.5 cursor-pointer transition-all border-b border-white/5 ${
-                      isActive ? 'bg-white/15' : 'hover:bg-white/8'
-                    }`}
-                  >
-                    {/* Number + emoji */}
-                    <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center text-sm">
-                      {MARKER_EMOJIS[stop.type] || '📍'}
-                    </div>
-
-                    {/* Name + rating + duration */}
-                    <div className="flex-1 min-w-0">
-                      <h4 className="text-white text-sm font-medium truncate">{stop.name}</h4>
-                      <div className="flex items-center gap-2 mt-0.5">
-                        {stop.googleRating && (
-                          <span className="text-amber-400 text-[11px] font-medium">★ {stop.googleRating.toFixed(1)}</span>
-                        )}
-                        {stop.duration && (
-                          <span className="text-white/40 text-[11px]">{stop.duration}</span>
-                        )}
-                        {stop.bestTimeOfDay && stop.bestTimeOfDay !== 'any' && (
-                          <span className="text-white/30 text-[11px] capitalize">{stop.bestTimeOfDay}</span>
-                        )}
-                      </div>
-                    </div>
-
-                    {/* Heart / Save button — prominent */}
+            ) : (
+              <>
+                {/* ═══ SMART PLANNER — collapsible cluster panel ═══ */}
+                {poiClusters.length >= 2 && (
+                  <div className="px-2 pt-2 pb-1">
                     <button
-                      onClick={(e) => toggleFavorite(stop, e)}
-                      className={`flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center transition-all ${
-                        isFav
-                          ? 'bg-pink-500/20 scale-110'
-                          : 'bg-white/5 hover:bg-white/10'
-                      }`}
+                      onClick={() => setShowSmartPlanner(!showSmartPlanner)}
+                      className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-white/8 hover:bg-white/12 transition-colors"
                     >
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm">🧭</span>
+                        <span className="text-white text-xs font-semibold">Smart Planner</span>
+                      </div>
                       <svg
-                        className={`w-5 h-5 transition-colors ${isFav ? 'text-pink-500 fill-pink-500' : 'text-white/40'}`}
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        fill={isFav ? 'currentColor' : 'none'}
+                        className={`w-3.5 h-3.5 text-white/40 transition-transform ${showSmartPlanner ? 'rotate-180' : ''}`}
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
                       >
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                       </svg>
                     </button>
+
+                    {showSmartPlanner && (
+                      <div className="mt-1.5 space-y-1 px-1">
+                        {poiClusters.map(cluster => {
+                          const clusterStops = allStops.filter(s => stopClusterMap.get(s.id) === cluster.id);
+                          const clusterMinutes = estimateTotalMinutes(clusterStops);
+                          const clusterHours = Math.round(clusterMinutes / 60);
+                          const isActive = activeClusterId === cluster.id;
+
+                          return (
+                            <button
+                              key={cluster.id}
+                              onClick={() => {
+                                setActiveClusterId(isActive ? null : cluster.id);
+                                // Fly map to closest stop to cluster center
+                                if (!isActive && clusterStops.length > 0) {
+                                  let closestStop = clusterStops[0];
+                                  let closestDist = Infinity;
+                                  clusterStops.forEach(s => {
+                                    const d = getDistanceMeters(s.latitude, s.longitude, cluster.center.latitude, cluster.center.longitude);
+                                    if (d < closestDist) { closestDist = d; closestStop = s; }
+                                  });
+                                  setActiveStopId(closestStop.id);
+                                }
+                              }}
+                              className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-left transition-all ${
+                                isActive ? 'bg-white/15 ring-1 ring-white/20' : 'hover:bg-white/8'
+                              }`}
+                            >
+                              <div
+                                className="w-2.5 h-2.5 rounded-full flex-shrink-0"
+                                style={{ backgroundColor: cluster.color }}
+                              />
+                              <div className="flex-1 min-w-0">
+                                <span className="text-white text-xs font-medium">{cluster.label}</span>
+                                <span className="text-white/40 text-[10px] ml-2">
+                                  {clusterStops.length} spots · ~{clusterHours}hr
+                                </span>
+                              </div>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    )}
                   </div>
-                );
-              });
-            })()}
+                )}
+
+                {/* ═══ TILE GRID — 2 column compact POI tiles ═══ */}
+                <div className="grid grid-cols-2 gap-1.5 px-2 py-2">
+                  {filteredStops.map((stop) => {
+                    const isFav = favorites.has(stop.id);
+                    const isActive = activeStopId === stop.id;
+                    const clusterId = stopClusterMap.get(stop.id);
+                    const clusterColor = activeClusterId !== null && clusterId === activeClusterId
+                      ? poiClusters.find(c => c.id === clusterId)?.color
+                      : undefined;
+                    const TILE_EMOJIS: Record<string, string> = {
+                      landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
+                      park: '🌳', cafe: '☕', bar: '🍸', market: '🛒',
+                      viewpoint: '🌄', nightclub: '🎉', accommodation: '🏨', transport: '✈️', neighborhood: '🏘️',
+                    };
+
+                    return (
+                      <div
+                        key={stop.id}
+                        onClick={() => handleStopClick(stop)}
+                        className={`relative rounded-xl p-2.5 cursor-pointer transition-all ${
+                          isActive
+                            ? 'bg-white/15 ring-1 ring-white/20'
+                            : 'bg-white/8 hover:bg-white/12'
+                        } ${isFav ? 'border border-pink-500/30' : ''}`}
+                        style={clusterColor ? { borderLeft: `3px solid ${clusterColor}` } : undefined}
+                      >
+                        {/* Top row: emoji + rating */}
+                        <div className="flex items-center justify-between mb-1.5">
+                          <span className="text-base">{TILE_EMOJIS[stop.type] || '📍'}</span>
+                          {stop.googleRating && (
+                            <span className="text-amber-400 text-[10px] font-medium">★ {stop.googleRating.toFixed(1)}</span>
+                          )}
+                        </div>
+
+                        {/* Name + heart */}
+                        <div className="flex items-start justify-between gap-1">
+                          <h4 className="text-white text-xs font-medium leading-tight line-clamp-2 flex-1">{stop.name}</h4>
+                          <button
+                            onClick={(e) => toggleFavorite(stop, e)}
+                            className="flex-shrink-0 mt-0.5"
+                          >
+                            <svg
+                              className={`w-4 h-4 transition-colors ${isFav ? 'text-pink-500 fill-pink-500' : 'text-white/30 hover:text-white/50'}`}
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              fill={isFav ? 'currentColor' : 'none'}
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                          </button>
+                        </div>
+
+                        {/* Duration */}
+                        {stop.duration && (
+                          <p className="text-white/40 text-[10px] mt-1">{stop.duration}</p>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </>
+            )}
           </div>
 
           {/* Bottom: Shuffle tile */}
@@ -2215,21 +2355,29 @@ function FlashExploreContent() {
     const totalStops = allStops.length;
     const grandTotal = skipHotels ? 0 : (selectedHotel?.totalPrice || 0);
 
-    const MARKER_EMOJIS: Record<string, string> = {
-      landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
-      park: '🌳', cafe: '☕', bar: '🍸', market: '🛒',
-      viewpoint: '🌄', nightclub: '🎉', accommodation: '🏨', transport: '✈️', neighborhood: '🏘️',
-    };
+    // Calculate 3 nearest POIs to hotel for proximity display
+    const nearestToHotel = hasHotel && selectedHotel
+      ? allStops
+          .map((stop) => ({
+            stop,
+            distance: getDistanceMeters(
+              selectedHotel.latitude, selectedHotel.longitude,
+              stop.latitude, stop.longitude
+            ),
+          }))
+          .sort((a, b) => a.distance - b.distance)
+          .slice(0, 3)
+      : [];
 
     return (
-      <div className="fixed inset-0 z-40 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+      <div className="fixed inset-0 z-40 bg-gray-900">
         <div className="h-full flex flex-col">
           {/* Header with progress */}
-          <div className="pt-safe border-b border-white/10">
-            <div className="py-3">
+          <div className="pt-safe border-b border-white/10 bg-gray-900/95 backdrop-blur-sm z-10">
+            <div className="py-2">
               <StepProgressBar currentStep="package" />
             </div>
-            <div className="px-4 pb-3 flex items-center justify-between">
+            <div className="px-4 pb-2 flex items-center justify-between">
               <button
                 onClick={handleGoBack}
                 className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
@@ -2239,291 +2387,230 @@ function FlashExploreContent() {
                 </svg>
                 <span className="text-sm font-medium">Back</span>
               </button>
-              <h1 className="text-white font-bold">Your Package</h1>
+              <h1 className="text-white font-bold text-sm">
+                Your {trip.destination.city} Basecamp
+              </h1>
               <div className="w-16" />
             </div>
           </div>
 
-          {/* ═══ TWO-COLUMN BODY ═══ */}
-          <div className="flex-1 overflow-y-auto lg:overflow-hidden">
-            <div className="lg:flex lg:h-full">
+          {/* ═══ SCROLLABLE CONTENT ═══ */}
+          <div className="flex-1 overflow-y-auto pb-24">
 
-              {/* ═══ LEFT COLUMN: The Value (scrollable) ═══ */}
-              <div className="lg:w-[65%] lg:overflow-y-auto lg:h-full">
-                <div className="p-4 lg:p-6 space-y-6">
+            {/* 1. FULL-WIDTH HERO MAP with carousel overlay */}
+            <div className="relative">
+              <PackageMiniMap
+                stops={allStops}
+                hotelLocation={hasHotel && selectedHotel ? {
+                  latitude: selectedHotel.latitude,
+                  longitude: selectedHotel.longitude,
+                  name: selectedHotel.name,
+                } : null}
+                routeGeometry={routeGeometry}
+                heroMode
+                activeStopId={activeCarouselStopId}
+                onStopClick={(stopId) => setActiveCarouselStopId(stopId)}
+              />
 
-                  {/* 1. Hero Map */}
-                  <PackageMiniMap
+              {/* POI Carousel overlapping map bottom */}
+              <div className="absolute bottom-0 left-0 right-0 z-10">
+                <div className="bg-gradient-to-t from-black/70 via-black/40 to-transparent pt-10">
+                  <POICarousel
                     stops={allStops}
+                    activeStopId={activeCarouselStopId}
+                    onStopSelect={(stopId) => setActiveCarouselStopId(stopId)}
                     hotelLocation={hasHotel && selectedHotel ? {
-                      latitude: selectedHotel!.latitude,
-                      longitude: selectedHotel!.longitude,
-                      name: selectedHotel!.name,
+                      latitude: selectedHotel.latitude,
+                      longitude: selectedHotel.longitude,
                     } : null}
-                    routeGeometry={routeGeometry}
-                    heroMode
                   />
-
-                  {/* 2. Destination Badge */}
-                  <div className="text-center">
-                    <div className="inline-flex items-center gap-2 bg-primary-500/10 border border-primary-500/20 rounded-full px-4 py-1.5 mb-2">
-                      <span className="text-sm">🎁</span>
-                      <span className="text-primary-300 text-xs font-medium uppercase tracking-wider">
-                        Your {trip.destination.city} Adventure
-                      </span>
-                    </div>
-                    <p className="text-white/50 text-sm">
-                      {itineraryType && PATH_CONFIG[itineraryType]?.emoji}{' '}
-                      {itineraryType && PATH_CONFIG[itineraryType]?.name} · {totalDays} days · {totalStops} stops
-                    </p>
-                  </div>
-
-                  {/* 3. Itinerary Timeline */}
-                  <PackageTimeline
-                    stops={allStops}
-                    routeLegs={routeLegs}
-                    favorites={favorites}
-                    markerEmojis={MARKER_EMOJIS}
-                  />
-
-                  {/* 4. AI Travel Prep — Grid Cards */}
-                  <div>
-                    <div className="flex items-center gap-3 mb-4">
-                      <div className="w-10 h-10 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-full flex items-center justify-center">
-                        <span className="text-xl">✨</span>
-                      </div>
-                      <div>
-                        <h3 className="text-lg font-bold text-white">AI Travel Prep</h3>
-                        <p className="text-sm text-white/50">Personalized for {trip.destination.city}</p>
-                      </div>
-                    </div>
-                    <MagicPackage
-                      destination={trip.destination.city}
-                      country={trip.destination.country}
-                      departureDate={tripDates.departure}
-                      returnDate={tripDates.return}
-                      travelerType="couple"
-                      hotelName={selectedHotel?.name}
-                      activities={allStops.map((s) => s.name).slice(0, 10)}
-                      vibes={trip.destination.vibes || []}
-                      variant="dark"
-                      layout="grid"
-                    />
-                  </div>
-
                 </div>
               </div>
 
-              {/* ═══ RIGHT COLUMN: The Commitment (sticky) ═══ */}
-              <div className="lg:w-[35%] lg:border-l lg:border-white/10 lg:overflow-y-auto lg:h-full">
-                <div className="p-4 lg:p-6 space-y-4">
-
-                  {/* Hotel Card */}
-                  {hasHotel && (
-                    <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden">
-                      {/* Hotel photo */}
-                      <div className="relative h-40">
-                        {selectedHotel!.mainPhoto ? (
-                          <img
-                            src={selectedHotel!.mainPhoto}
-                            alt={selectedHotel!.name}
-                            className="w-full h-full object-cover"
-                          />
-                        ) : (
-                          <div className="w-full h-full bg-gradient-to-br from-purple-600/30 to-indigo-800/30 flex items-center justify-center">
-                            <span className="text-4xl">🏨</span>
-                          </div>
-                        )}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                        {selectedHotel!.refundable && (
-                          <div className="absolute top-3 right-3 bg-green-500/90 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-1 rounded-full">
-                            Free cancellation
-                          </div>
-                        )}
-                        <div className="absolute bottom-3 left-4 right-4">
-                          <h3 className="text-white font-bold text-lg leading-tight">{selectedHotel!.name}</h3>
-                          <div className="flex items-center gap-2 mt-1">
-                            <span className="text-amber-400 text-sm">{'★'.repeat(selectedHotel!.stars)}</span>
-                            {selectedHotel!.rating > 0 && (
-                              <span className="text-white/60 text-xs">{selectedHotel!.rating.toFixed(1)} ({selectedHotel!.reviewCount})</span>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                      <div className="p-4 space-y-3">
-                        <div className="flex items-center justify-between">
-                          <div>
-                            <p className="text-white/60 text-xs">{totalDays} nights · {selectedHotel!.roomName || 'Standard Room'}</p>
-                            {selectedHotel!.boardName && (
-                              <p className="text-white/40 text-[11px]">{selectedHotel!.boardName}</p>
-                            )}
-                          </div>
-                          <div className="text-right">
-                            <p className="text-white font-bold text-lg">{formatPrice(selectedHotel!.totalPrice, selectedHotel!.currency)}</p>
-                            <p className="text-white/40 text-[11px]">{formatPrice(selectedHotel!.pricePerNight, selectedHotel!.currency)}/night</p>
-                          </div>
-                        </div>
-                        <div className="flex items-center gap-4 text-xs">
-                          <div className="flex items-center gap-1.5">
-                            <span className="text-white/40">Check-in</span>
-                            <span className="text-white font-medium">{selectedHotel!.checkinTime || '3:00 PM'}</span>
-                          </div>
-                          <div className="w-px h-3 bg-white/15" />
-                          <div className="flex items-center gap-1.5">
-                            <span className="text-white/40">Check-out</span>
-                            <span className="text-white font-medium">{selectedHotel!.checkoutTime || '11:00 AM'}</span>
-                          </div>
-                        </div>
-                        {selectedHotel!.amenities && selectedHotel!.amenities.length > 0 && (
-                          <div className="flex flex-wrap gap-1.5">
-                            {selectedHotel!.amenities.slice(0, 6).map((amenity, i) => (
-                              <span key={i} className="bg-white/8 text-white/60 text-[10px] px-2 py-0.5 rounded-full border border-white/5">
-                                {amenity}
-                              </span>
-                            ))}
-                            {selectedHotel!.amenities.length > 6 && (
-                              <span className="text-white/30 text-[10px] px-1 self-center">
-                                +{selectedHotel!.amenities.length - 6} more
-                              </span>
-                            )}
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Saved Spots — compact horizontal scroll */}
-                  {favoriteStops.length > 0 && (
-                    <div>
-                      <h3 className="text-white font-semibold text-sm mb-2 flex items-center gap-2">
-                        <span>📍</span>
-                        {favoriteStops.length} Saved Spot{favoriteStops.length !== 1 ? 's' : ''}
-                      </h3>
-                      <div className="flex gap-2 overflow-x-auto pb-1">
-                        {favoriteStops.map((stop) => (
-                          <div
-                            key={stop.id}
-                            className="bg-white/5 border border-white/10 rounded-lg px-3 py-2 flex items-center gap-2 flex-shrink-0"
-                          >
-                            <span className="text-base">{MARKER_EMOJIS[stop.type] || '📍'}</span>
-                            <span className="text-white text-xs font-medium whitespace-nowrap">{stop.name}</span>
-                            {stop.googleRating && (
-                              <span className="text-amber-400 text-[11px]">★ {stop.googleRating.toFixed(1)}</span>
-                            )}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Price Summary */}
-                  <div>
-                    <h3 className="text-white font-semibold text-sm mb-3 flex items-center gap-2">
-                      <span>💰</span>
-                      Price Summary
-                    </h3>
-                    <div className="bg-white/5 border border-white/10 rounded-2xl p-4 space-y-3">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                          <span className="text-sm">📋</span>
-                          <span className="text-white/80 text-sm">Personalized Itinerary</span>
-                        </div>
-                        <span className="text-green-400 text-sm font-medium">Free</span>
-                      </div>
-                      {hasHotel && (
-                        <div className="flex items-center justify-between">
-                          <div className="flex items-center gap-2">
-                            <span className="text-sm">🏨</span>
-                            <span className="text-white/80 text-sm">{totalDays} nights at {selectedHotel!.name}</span>
-                          </div>
-                          <span className="text-white text-sm font-medium">{formatPrice(selectedHotel!.totalPrice, selectedHotel!.currency)}</span>
-                        </div>
-                      )}
-                      {!hasHotel && (
-                        <div className="flex items-center justify-between">
-                          <div className="flex items-center gap-2">
-                            <span className="text-sm">🏨</span>
-                            <span className="text-white/40 text-sm line-through">Hotel</span>
-                          </div>
-                          <span className="text-white/40 text-sm">Skipped</span>
-                        </div>
-                      )}
-                      <div className="border-t border-white/10 pt-3 flex items-center justify-between">
-                        <span className="text-white font-semibold">Total</span>
-                        <span className="text-white font-bold text-xl">
-                          {grandTotal > 0 ? formatPrice(grandTotal, trip.pricing.currency) : 'Free'}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Trip Stats */}
-                  <div className="flex items-center justify-center gap-4 py-2">
-                    <div className="text-center">
-                      <p className="text-white font-bold text-xl">{totalDays}</p>
-                      <p className="text-white/40 text-[10px] uppercase tracking-wider">Days</p>
-                    </div>
-                    <div className="w-px h-8 bg-white/10" />
-                    <div className="text-center">
-                      <p className="text-white font-bold text-xl">{favoriteStops.length}</p>
-                      <p className="text-white/40 text-[10px] uppercase tracking-wider">Saved</p>
-                    </div>
-                    <div className="w-px h-8 bg-white/10" />
-                    <div className="text-center">
-                      <p className="text-white font-bold text-xl">{totalStops}</p>
-                      <p className="text-white/40 text-[10px] uppercase tracking-wider">Stops</p>
-                    </div>
-                    {hasHotel && (
-                      <>
-                        <div className="w-px h-8 bg-white/10" />
-                        <div className="text-center">
-                          <p className="text-white font-bold text-xl">{selectedHotel!.stars}★</p>
-                          <p className="text-white/40 text-[10px] uppercase tracking-wider">Hotel</p>
-                        </div>
-                      </>
-                    )}
-                  </div>
-
-                  {/* Desktop CTA (hidden on mobile) */}
-                  <div className="hidden lg:block pt-2">
-                    <button
-                      onClick={handleFinalConfirm}
-                      className="w-full py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-lg shadow-primary-500/25"
-                    >
-                      {hasHotel ? 'Confirm & Book Hotel' : 'Get My Adventure Package'}
-                    </button>
-                    <p className="text-white/30 text-xs text-center mt-2">
-                      {hasHotel
-                        ? "You won't be charged until you confirm payment details"
-                        : 'Your personalized package will be saved to your account'}
-                    </p>
-                  </div>
-
+              {/* Destination badge — top left overlay on map */}
+              <div className="absolute top-3 left-3 z-10">
+                <div className="inline-flex items-center gap-1.5 bg-black/50 backdrop-blur-sm border border-white/15 rounded-full px-3 py-1.5">
+                  <span className="text-xs">
+                    {itineraryType && PATH_CONFIG[itineraryType]?.emoji}
+                  </span>
+                  <span className="text-white/90 text-xs font-medium">
+                    {totalStops} stops · {totalDays} days
+                  </span>
                 </div>
               </div>
-
             </div>
+
+            {/* 2. HOTEL DEEP-DIVE CARD */}
+            {hasHotel && selectedHotel && (
+              <div className="px-4 py-5">
+                <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden">
+                  <div className="flex flex-col sm:flex-row">
+                    {/* Hotel photo */}
+                    <div className="relative sm:w-[180px] sm:flex-shrink-0 h-44 sm:h-auto">
+                      {selectedHotel.mainPhoto ? (
+                        <img
+                          src={selectedHotel.mainPhoto}
+                          alt={selectedHotel.name}
+                          className="w-full h-full object-cover"
+                        />
+                      ) : (
+                        <div className="w-full h-full bg-gradient-to-br from-purple-600/30 to-indigo-800/30 flex items-center justify-center">
+                          <span className="text-4xl">🏨</span>
+                        </div>
+                      )}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent sm:bg-gradient-to-r sm:from-transparent sm:to-black/20" />
+                      {selectedHotel.refundable && (
+                        <div className="absolute top-3 right-3 bg-green-500/90 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-1 rounded-full">
+                          Free cancellation
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Hotel details */}
+                    <div className="flex-1 p-4 space-y-3">
+                      {/* Name + stars + rating */}
+                      <div>
+                        <div className="flex items-start justify-between gap-2">
+                          <div>
+                            <h3 className="text-white font-bold text-lg leading-tight">{selectedHotel.name}</h3>
+                            <div className="flex items-center gap-2 mt-1">
+                              <span className="text-amber-400 text-sm">{'★'.repeat(selectedHotel.stars)}</span>
+                              {selectedHotel.rating > 0 && (
+                                <span className="text-white/60 text-xs">{selectedHotel.rating.toFixed(1)} ({selectedHotel.reviewCount})</span>
+                              )}
+                            </div>
+                          </div>
+                          <div className="text-right flex-shrink-0">
+                            <p className="text-white font-bold text-lg">{formatPrice(selectedHotel.totalPrice, selectedHotel.currency)}</p>
+                            <p className="text-white/40 text-[11px]">{formatPrice(selectedHotel.pricePerNight, selectedHotel.currency)}/night</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Proximity to POIs — the key "basecamp" insight */}
+                      {nearestToHotel.length > 0 && (
+                        <div className="bg-white/5 rounded-xl px-3 py-2.5 space-y-1.5">
+                          <p className="text-white/60 text-[10px] font-medium uppercase tracking-wider">Walking distance</p>
+                          {nearestToHotel.map(({ stop, distance }) => (
+                            <div key={stop.id} className="flex items-center gap-2">
+                              <span className="text-[11px]">🚶</span>
+                              <span className="text-white/80 text-xs">
+                                ~{Math.max(1, Math.round(distance / 80))} min to {stop.name}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+
+                      {/* Check-in/out + room */}
+                      <div className="flex items-center gap-4 text-xs">
+                        <div className="flex items-center gap-1.5">
+                          <span className="text-white/40">Check-in</span>
+                          <span className="text-white font-medium">{selectedHotel.checkinTime || '3:00 PM'}</span>
+                        </div>
+                        <div className="w-px h-3 bg-white/15" />
+                        <div className="flex items-center gap-1.5">
+                          <span className="text-white/40">Check-out</span>
+                          <span className="text-white font-medium">{selectedHotel.checkoutTime || '11:00 AM'}</span>
+                        </div>
+                      </div>
+                      <p className="text-white/50 text-xs">
+                        {totalDays} nights · {selectedHotel.roomName || 'Standard Room'}
+                        {selectedHotel.boardName ? ` · ${selectedHotel.boardName}` : ''}
+                      </p>
+
+                      {/* Amenities */}
+                      {selectedHotel.amenities && selectedHotel.amenities.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5">
+                          {selectedHotel.amenities.slice(0, 6).map((amenity, i) => (
+                            <span key={i} className="bg-white/8 text-white/60 text-[10px] px-2 py-0.5 rounded-full border border-white/5">
+                              {amenity}
+                            </span>
+                          ))}
+                          {selectedHotel.amenities.length > 6 && (
+                            <span className="text-white/30 text-[10px] px-1 self-center">
+                              +{selectedHotel.amenities.length - 6} more
+                            </span>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* No hotel — show trip summary instead */}
+            {!hasHotel && (
+              <div className="px-4 py-5">
+                <div className="bg-white/5 border border-white/10 rounded-2xl p-4 text-center">
+                  <p className="text-white/60 text-sm">Hotel skipped — itinerary only</p>
+                  <p className="text-white font-semibold mt-1">{totalStops} stops across {totalDays} days</p>
+                </div>
+              </div>
+            )}
+
+            {/* 3. AI TRAVEL PREP — Grid Cards */}
+            <div className="px-4 pb-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-full flex items-center justify-center">
+                  <span className="text-xl">✨</span>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-white">AI Travel Prep</h3>
+                  <p className="text-sm text-white/50">Personalized for {trip.destination.city}</p>
+                </div>
+              </div>
+              <MagicPackage
+                destination={trip.destination.city}
+                country={trip.destination.country}
+                departureDate={tripDates.departure}
+                returnDate={tripDates.return}
+                travelerType="couple"
+                hotelName={selectedHotel?.name}
+                activities={allStops.map((s) => s.name).slice(0, 10)}
+                vibes={trip.destination.vibes || []}
+                variant="dark"
+                layout="grid"
+              />
+            </div>
+
           </div>
 
-          {/* Mobile Bottom CTA (hidden on desktop) */}
-          <div className="lg:hidden p-4 pb-safe border-t border-white/10 bg-gray-900/80 backdrop-blur-sm">
-            <button
-              onClick={handleFinalConfirm}
-              className="w-full py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-lg shadow-primary-500/25"
-            >
-              {hasHotel ? 'Confirm & Book Hotel' : 'Get My Adventure Package'}
-            </button>
-            <p className="text-white/30 text-xs text-center mt-2">
-              {hasHotel
-                ? "You won't be charged until you confirm payment details"
-                : 'Your personalized package will be saved to your account'}
-            </p>
+          {/* ═══ STICKY BOTTOM ACTION BAR ═══ */}
+          <div className="fixed bottom-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur-sm border-t border-white/10 pb-safe">
+            <div className="flex items-center justify-between px-4 py-3 max-w-4xl mx-auto">
+              <div>
+                <p className="text-white font-bold text-xl">
+                  {grandTotal > 0 ? formatPrice(grandTotal, trip.pricing.currency) : 'Free'}
+                </p>
+                {hasHotel && selectedHotel && (
+                  <p className="text-white/40 text-[11px]">
+                    {formatPrice(selectedHotel.pricePerNight, selectedHotel.currency)}/night · {totalDays} nights
+                  </p>
+                )}
+                {!hasHotel && (
+                  <p className="text-white/40 text-[11px]">Itinerary only</p>
+                )}
+              </div>
+              <button
+                onClick={handleFinalConfirm}
+                className="px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold text-sm rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all shadow-lg shadow-primary-500/25"
+              >
+                {hasHotel ? 'Confirm & Book Hotel' : 'Get My Package'}
+                <svg className="w-4 h-4 inline-block ml-1.5 -mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
 
         <style jsx global>{`
           .pt-safe { padding-top: max(16px, env(safe-area-inset-top)); }
           .pb-safe { padding-bottom: max(16px, env(safe-area-inset-bottom)); }
+          .scrollbar-hide::-webkit-scrollbar { display: none; }
+          .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
         `}</style>
       </div>
     );

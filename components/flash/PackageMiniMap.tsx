@@ -23,9 +23,13 @@ interface PackageMiniMapProps {
   stops: Stop[];
   hotelLocation?: HotelLocation | null;
   routeGeometry?: string | null;
-  /** When true, renders as a larger hero map (300px mobile / 420px desktop) */
+  /** When true, renders as the full-height basecamp hero map */
   heroMode?: boolean;
   className?: string;
+  /** Currently active stop ID (synced with carousel) */
+  activeStopId?: string | null;
+  /** Callback when a map marker is clicked */
+  onStopClick?: (stopId: string) => void;
 }
 
 const MARKER_COLORS: Record<string, string> = {
@@ -45,9 +49,9 @@ const MARKER_COLORS: Record<string, string> = {
 };
 
 /**
- * Interactive Mapbox map for the package step.
- * Shows numbered stop markers, optional hotel marker, and walking route polyline.
- * In heroMode, renders larger with an animated route draw.
+ * Interactive Mapbox "Basecamp" map for the package step.
+ * Hotel is the prominent glowing hub pin. POI stops are numbered spoke markers.
+ * Supports activeStopId for carousel sync + flyTo animation.
  */
 export function PackageMiniMap({
   stops,
@@ -55,10 +59,14 @@ export function PackageMiniMap({
   routeGeometry,
   heroMode = false,
   className = '',
+  activeStopId = null,
+  onStopClick,
 }: PackageMiniMapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<mapboxgl.Marker[]>([]);
+  const markerElementsRef = useRef<Map<string, HTMLDivElement>>(new Map());
+  const hotelMarkerRef = useRef<mapboxgl.Marker | null>(null);
   const routeAdded = useRef(false);
   const animFrameRef = useRef<number | null>(null);
   const [mapLoaded, setMapLoaded] = useState(false);
@@ -122,6 +130,7 @@ export function PackageMiniMap({
     return () => {
       if (animFrameRef.current) cancelAnimationFrame(animFrameRef.current);
       markersRef.current.forEach((m) => m.remove());
+      hotelMarkerRef.current?.remove();
       map.current?.remove();
       map.current = null;
       routeAdded.current = false;
@@ -129,7 +138,7 @@ export function PackageMiniMap({
     };
   }, [hasValidPoints]);
 
-  // ResizeObserver to handle container size changes (column layout breakpoint)
+  // ResizeObserver to handle container size changes
   useEffect(() => {
     if (!mapContainer.current || !map.current) return;
 
@@ -148,44 +157,63 @@ export function PackageMiniMap({
     // Clear existing markers
     markersRef.current.forEach((m) => m.remove());
     markersRef.current = [];
+    markerElementsRef.current.clear();
+    hotelMarkerRef.current?.remove();
+    hotelMarkerRef.current = null;
 
     const bounds = new mapboxgl.LngLatBounds();
 
-    // Add stop markers with numbers
+    // Add POI stop markers with numbers (spoke pins)
     stops.forEach((stop, index) => {
       const color = MARKER_COLORS[stop.type] || '#6366f1';
+      const isActive = activeStopId === stop.id;
 
       const el = document.createElement('div');
       el.style.cssText = `
-        width: 28px; height: 28px; border-radius: 50%;
+        width: 30px; height: 30px; border-radius: 50%;
         background: ${color}; color: white;
         display: flex; align-items: center; justify-content: center;
         font-size: 12px; font-weight: 700;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        box-shadow: ${isActive ? '0 0 0 4px rgba(255,255,255,0.6), 0 4px 12px rgba(0,0,0,0.5)' : '0 2px 8px rgba(0,0,0,0.4)'};
         border: 2px solid rgba(255,255,255,0.9);
-        cursor: default;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+        transform: ${isActive ? 'scale(1.25)' : 'scale(1)'};
+        opacity: ${activeStopId && !isActive ? '0.7' : '1'};
+        z-index: ${isActive ? '10' : '1'};
       `;
       el.textContent = String(index + 1);
+
+      if (onStopClick) {
+        el.addEventListener('click', (e) => {
+          e.stopPropagation();
+          onStopClick(stop.id);
+        });
+      }
 
       const marker = new mapboxgl.Marker({ element: el })
         .setLngLat([stop.longitude, stop.latitude])
         .addTo(map.current!);
 
       markersRef.current.push(marker);
+      markerElementsRef.current.set(stop.id, el);
       bounds.extend([stop.longitude, stop.latitude]);
     });
 
-    // Add hotel marker
+    // Add hotel "hub" marker — largest, glowing, pulsing
     if (hotelLocation) {
       const el = document.createElement('div');
+      el.className = 'animate-hotel-pulse';
       el.style.cssText = `
-        width: 32px; height: 32px; border-radius: 50%;
-        background: #8b5cf6; color: white;
+        width: 48px; height: 48px; border-radius: 50%;
+        background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+        color: white;
         display: flex; align-items: center; justify-content: center;
-        font-size: 16px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-        border: 2px solid rgba(255,255,255,0.9);
+        font-size: 22px;
+        box-shadow: 0 0 0 6px rgba(139, 92, 246, 0.3), 0 0 20px rgba(139, 92, 246, 0.2), 0 4px 12px rgba(0,0,0,0.4);
+        border: 3px solid rgba(255,255,255,0.95);
         cursor: default;
+        z-index: 20;
       `;
       el.textContent = '\uD83C\uDFE8'; // 🏨
 
@@ -193,19 +221,39 @@ export function PackageMiniMap({
         .setLngLat([hotelLocation.longitude, hotelLocation.latitude])
         .addTo(map.current!);
 
-      markersRef.current.push(marker);
+      hotelMarkerRef.current = marker;
       bounds.extend([hotelLocation.longitude, hotelLocation.latitude]);
     }
 
-    // Fit bounds with padding
+    // Fit bounds — extra bottom padding for carousel overlay
     if (!bounds.isEmpty()) {
       map.current.fitBounds(bounds, {
-        padding: { top: 40, bottom: 40, left: 40, right: 40 },
+        padding: heroMode
+          ? { top: 60, bottom: 130, left: 40, right: 40 }
+          : { top: 40, bottom: 40, left: 40, right: 40 },
         maxZoom: 14,
         duration: 0,
       });
     }
-  }, [stops, hotelLocation, mapLoaded]);
+  }, [stops, hotelLocation, mapLoaded, activeStopId, onStopClick, heroMode]);
+
+  // FlyTo when activeStopId changes
+  useEffect(() => {
+    if (!map.current || !mapLoaded || !activeStopId) return;
+
+    const stop = stops.find((s) => s.id === activeStopId);
+    if (!stop) return;
+
+    const prefersReducedMotion = typeof window !== 'undefined'
+      && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    map.current.flyTo({
+      center: [stop.longitude, stop.latitude],
+      zoom: Math.max(map.current.getZoom(), 14),
+      speed: prefersReducedMotion ? Infinity : 0.8,
+      curve: 1.2,
+    });
+  }, [activeStopId, mapLoaded, stops]);
 
   // Add route polyline with draw animation
   useEffect(() => {
@@ -316,15 +364,11 @@ export function PackageMiniMap({
   }
 
   return (
-    <div className={`relative rounded-2xl overflow-hidden border border-white/10 ${className}`}>
+    <div className={`relative overflow-hidden ${className}`}>
       <div
         ref={mapContainer}
-        className={heroMode ? 'w-full h-[300px] lg:h-[420px]' : 'w-full h-[280px]'}
+        className={heroMode ? 'w-full h-[55vh] lg:h-[60vh]' : 'w-full h-[280px]'}
       />
-      {/* Gradient overlay at bottom for visual polish */}
-      {!heroMode && (
-        <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-gray-900/50 to-transparent pointer-events-none" />
-      )}
     </div>
   );
 }

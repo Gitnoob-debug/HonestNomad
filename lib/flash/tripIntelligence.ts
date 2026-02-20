@@ -7,6 +7,8 @@
  * This replaces the AI-generated Magic Package with deterministic, scalable logic.
  */
 
+import fs from 'fs';
+import path from 'path';
 import type {
   TripIntelligence,
   DestinationFactSheet,
@@ -68,26 +70,35 @@ export interface HotelInput {
 
 // ── Data loaders ─────────────────────────────────────────────────────
 
-// These are loaded server-side in the API route, so dynamic imports work.
-// The paths match the data/ directory structure.
+// These run server-side only (API route). We use fs.readFileSync to avoid
+// Next.js bundling all 500 destination JSON files into the client build,
+// which causes out-of-memory during Vercel builds.
 
-export async function loadDestinationFacts(
+const DATA_DIR = path.join(process.cwd(), 'data');
+
+// Cache country facts in memory — loaded once per cold start
+let countryFactsCache: CountryFactsMap | null = null;
+
+export function loadDestinationFacts(
   destinationId: string
-): Promise<DestinationFactSheet | null> {
+): DestinationFactSheet | null {
   try {
-    // Dynamic import — resolved at runtime on the server
-    const data = await import(`@/data/destination-facts/${destinationId}.json`);
-    return data.default as DestinationFactSheet;
+    const filePath = path.join(DATA_DIR, 'destination-facts', `${destinationId}.json`);
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    return JSON.parse(raw) as DestinationFactSheet;
   } catch {
     console.warn(`[TripIntelligence] No fact sheet for destination: ${destinationId}`);
     return null;
   }
 }
 
-export async function loadCountryFacts(): Promise<CountryFactsMap> {
+export function loadCountryFacts(): CountryFactsMap {
+  if (countryFactsCache) return countryFactsCache;
   try {
-    const data = await import('@/data/country-facts.json');
-    return data.default as CountryFactsMap;
+    const filePath = path.join(DATA_DIR, 'country-facts.json');
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    countryFactsCache = JSON.parse(raw) as CountryFactsMap;
+    return countryFactsCache;
   } catch {
     console.warn('[TripIntelligence] Could not load country facts');
     return {};
@@ -117,9 +128,9 @@ export async function assembleTripIntelligence(
     favoriteStopNames,
   } = input;
 
-  // 1. Load data
-  const destFacts = await loadDestinationFacts(destinationId);
-  const countryFactsMap = await loadCountryFacts();
+  // 1. Load data (sync fs reads — server-side only)
+  const destFacts = loadDestinationFacts(destinationId);
+  const countryFactsMap = loadCountryFacts();
   const countryFacts: CountryFacts | null = countryFactsMap[country] || null;
 
   if (!destFacts || !countryFacts) {

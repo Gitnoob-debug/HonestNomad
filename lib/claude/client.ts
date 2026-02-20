@@ -27,5 +27,7 @@ export const openrouter = new Proxy({} as OpenAI, {
   },
 });
 
-export const MODEL = process.env.OPENROUTER_MODEL || 'anthropic/claude-3.5-sonnet';
+export const MODEL = process.env.OPENROUTER_MODEL || 'anthropic/claude-sonnet-4.6';
 export const MAX_TOKENS = 2048;
+/** Higher token budget for the magic package — richer prompt + richer output */
+export const MAGIC_PACKAGE_MAX_TOKENS = 6144;

@@ -229,76 +229,91 @@ Be specific with restaurant and activity names. Don't say "find a local restaura
 Include coordinates for all locations so they can be shown on a map.
 Categories: transport, activity, food, rest, checkin, checkout`;
 
-export const MAGIC_PACKAGE_PROMPT = `You are a knowledgeable travel advisor creating a personalized trip preparation package. Generate practical, specific advice.
+export const MAGIC_PACKAGE_PROMPT = `You are an expert local guide who has lived in {destination}, {country} for years. You know every neighborhood, every shortcut, every seasonal quirk. Generate a hyper-personalized trip preparation package.
 
-## Trip Details
-- Destination: {destination}
-- Country: {country}
-- Dates: {departureDate} to {returnDate} ({nights} nights)
-- Traveler type: {travelerType}
-- Hotel: {hotelName}
-- Selected activities: {activities}
+CRITICAL: Reference the traveler's ACTUAL planned activities, hotel, and travel style by name. Zero generic travel blog filler. Every recommendation must be specific to THIS trip.
+
+## Trip Context
+- Destination: {destination}, {country}
+- Travel dates: {departureDate} to {returnDate} ({nights} nights, arriving in {departureMonth})
+- Traveler: {travelerType}
+- Travel style: {pathType} — {pathDescription}
+- Hotel: {hotelContext}
 - Travel vibes: {vibes}
+
+## Their Planned Activities (with details)
+{poiDetails}
+
+## Their Must-Do Favorites
+{favoritePOIs}
+
+## Geographic Day Groupings (efficient clusters from their hotel)
+{clusterSummary}
 
 ## Generate these 4 sections:
 
 ### 1. Packing List
-Weather-appropriate and activity-specific items. Consider:
-- Season and expected weather for the destination during the trip dates
-- Specific activities planned (e.g., hiking shoes if adventure, swimsuit if beach)
-- Cultural considerations (modest clothing for temples, etc.)
-- Split into "Essentials" and "Nice to Have"
+Pack specifically for {pathType} activities in {destination} during {departureMonth}. Rules:
+- Reference actual POIs: if they're visiting a temple/church, mention covering shoulders; if visiting a viewpoint with a hike, mention hiking shoes
+- Tailor to path type: adventure = quick-dry layers, headlamp, water bottle; foodie = stretchy pants, wet wipes for street food stalls, antacid; nightlife = one nice outfit, comfortable dancing shoes, portable charger for late nights; cultural = notebook, comfortable walking shoes for museums; relaxation = swimsuit, sunscreen, a good book
+- Consider {departureMonth} weather in {destination} specifically — is it rainy season? Humid? Cool evenings?
+- Split into "Essentials" (must-pack) and "Nice to Have" (will enhance the trip)
 
 ### 2. Airport & Travel Tips
-- What to expect at the destination airport
-- Customs and immigration tips
-- Best transport from airport to hotel area
-- Currency and payment tips (cash vs card)
-- SIM card / connectivity advice
+Specific to {destination}:
+- Airport arrival: which terminal, immigration queue tips, taxi vs rideshare vs metro with actual price ranges
+- Getting to their hotel ({hotelContext}): best route, approximate cost, estimated time
+- Currency & money: local currency name, where to exchange, card acceptance level. Calibrate budget tips to their hotel tier — if they're at a $$$/night hotel suggest proportional meal budgets, not backpacker prices
+- Connectivity: local SIM vs eSIM providers with actual names, airport WiFi quality, which apps locals actually use (ride-hailing, food delivery, maps)
 
 ### 3. Must-Brings & Nice-to-Haves
-- 5 must-bring items specific to this destination
-- 5 nice-to-have items that will enhance the trip
-- Think beyond clothing: adapters, apps to download, offline maps, etc.
+5 must-brings and 5 nice-to-haves specific to their itinerary:
+- Reference actual activities from their list (e.g., "Portable battery pack — you'll be out all day visiting {activity_name} and {activity_name}")
+- Think beyond clothing: offline maps of the neighborhood, translation app, specific adapter type for {country}, apps to download before leaving
+- If they have favorites saved, prioritize gear/prep for those
 
 ### 4. Adventure Guide
-- Day-by-day suggestions that complement the selected activities
-- Insider tips ("avoid X on Saturdays", "go to Y at sunset")
-- Best times to visit each attraction
-- Hidden gems and local favorites
-- Safety tips specific to the area
+Use their geographic day clusters to structure day-by-day advice:
+{clusterSummary}
+For each cluster zone:
+- Suggest an efficient walking order for the POIs in that zone
+- Give 1-2 insider tips about that specific neighborhood ("the locals eat at X, not the tourist trap Y")
+- Time-of-day advice based on each POI's best visiting time
+- If they saved favorites, make sure those get priority scheduling and extra context
+Hidden gems: 3-4 spots near their planned POIs that tourists miss but locals love
+Safety: specific to {destination} neighborhoods they'll be visiting — not generic "watch your belongings"
 
 ## Response Format
 
-Return valid JSON:
+Return valid JSON with this exact structure:
 {
   "packingList": {
-    "essentials": ["item 1", "item 2"],
-    "niceToHave": ["item 1", "item 2"]
+    "essentials": ["specific item referencing their activities"],
+    "niceToHave": ["specific item that enhances THIS trip"]
   },
   "travelTips": {
-    "airport": ["tip 1", "tip 2"],
-    "transport": ["tip 1", "tip 2"],
-    "money": ["tip 1", "tip 2"],
-    "connectivity": ["tip 1", "tip 2"]
+    "airport": ["tip specific to {destination} airport"],
+    "transport": ["how to get around {destination} specifically"],
+    "money": ["currency tips calibrated to their hotel price tier"],
+    "connectivity": ["actual local SIM/app recommendations"]
   },
   "mustBrings": [
-    { "item": "name", "reason": "why" }
+    { "item": "name", "reason": "why — referencing their actual activity" }
   ],
   "niceToHaves": [
-    { "item": "name", "reason": "why" }
+    { "item": "name", "reason": "why — referencing their actual trip" }
   ],
   "adventureGuide": {
     "dailySuggestions": [
-      { "day": 1, "title": "theme", "tips": ["tip 1", "tip 2"] }
+      { "day": 1, "title": "zone-based theme", "tips": ["tip referencing actual POIs in that cluster"] }
     ],
-    "insiderTips": ["tip 1", "tip 2"],
-    "hiddenGems": ["gem 1", "gem 2"],
-    "safetyTips": ["tip 1", "tip 2"]
+    "insiderTips": ["specific local knowledge about their planned spots"],
+    "hiddenGems": ["spot near their POIs that tourists miss"],
+    "safetyTips": ["safety tip specific to neighborhoods they'll visit"]
   }
 }
 
-Be specific to the destination. No generic travel advice — make it useful for THIS trip.`;
+Remember: if a tip could appear on any generic travel blog, rewrite it until it's specific to THIS traveler's actual plans.`;
 
 export const ATTRACTIONS_PROMPT = `Based on the hotel location and user preferences, suggest 3-5 nearby attractions.
 

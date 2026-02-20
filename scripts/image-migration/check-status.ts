@@ -8,7 +8,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { DESTINATIONS } from '../../lib/flash/destinations';
-import { CONFIG, Progress } from './config';
+import { CONFIG, Progress, MAJOR_DESTINATIONS } from './config';
 
 function loadProgress(): Progress | null {
   const progressPath = path.join(process.cwd(), CONFIG.PROGRESS_FILE);
@@ -27,7 +27,7 @@ function loadProgress(): Progress | null {
 
 function checkStatus(): void {
   console.log('='.repeat(60));
-  console.log('📊 IMAGE MIGRATION STATUS');
+  console.log('📊 IMAGE MIGRATION STATUS - Tiered Mode');
   console.log('='.repeat(60));
 
   const progress = loadProgress();
@@ -38,20 +38,20 @@ function checkStatus(): void {
     return;
   }
 
-  const completed = progress.completed.length;
+  const uniqueCompleted = new Set(progress.completed).size;
   const rejected = progress.rejected.length;
   const approved = progress.approved.length;
   const pendingReview = progress.pendingReview.length;
   const total = progress.stats.totalDestinations || DESTINATIONS.length;
   const queued = progress.queue.length;
-  const percentComplete = ((completed / total) * 100).toFixed(1);
+  const percentComplete = ((uniqueCompleted / total) * 100).toFixed(1);
 
-  console.log(`\n📈 Progress: ${completed}/${total} (${percentComplete}%)`);
+  console.log(`\n📈 Progress: ${uniqueCompleted}/${total} destinations (${percentComplete}%)`);
   console.log('');
 
   // Progress bar
   const barWidth = 40;
-  const filledWidth = Math.round((completed / total) * barWidth);
+  const filledWidth = Math.round((uniqueCompleted / total) * barWidth);
   const emptyWidth = barWidth - filledWidth;
   const bar = '█'.repeat(filledWidth) + '░'.repeat(emptyWidth);
   console.log(`   [${bar}]`);
@@ -62,14 +62,14 @@ function checkStatus(): void {
   console.log(`   ⏳ Pending review: ${pendingReview}`);
   console.log(`   ✅ Approved: ${approved}`);
   console.log(`   ❌ Rejected: ${rejected}`);
-  console.log(`   📋 Queue: ${queued} remaining`);
+  console.log(`   📋 Batches remaining: ${queued}`);
+  console.log(`   🏙️  Major destinations (100 imgs): ${MAJOR_DESTINATIONS.size}`);
   console.log('');
 
   // Time estimate
   if (queued > 0) {
-    const batchesLeft = Math.ceil(queued / 2);
-    const hoursNeeded = batchesLeft * (CONFIG.BATCH_COOLDOWN_MS / 3600000);
-    console.log(`⏰ Estimated time remaining: ~${hoursNeeded.toFixed(1)} hours (${batchesLeft} batches)`);
+    const hoursNeeded = queued * (CONFIG.BATCH_COOLDOWN_MS / 3600000);
+    console.log(`⏰ Estimated time remaining: ~${hoursNeeded.toFixed(1)} hours (~${(hoursNeeded / 24).toFixed(1)} days)`);
   }
 
   // Next batch availability
@@ -90,10 +90,12 @@ function checkStatus(): void {
   // Show next up from queue
   if (progress.queue.length > 0) {
     console.log('\n📋 Next up:');
-    progress.queue.slice(0, 5).forEach((destId, i) => {
-      const dest = DESTINATIONS.find(d => d.id === destId);
+    progress.queue.slice(0, 5).forEach((entry, i) => {
+      const dest = DESTINATIONS.find(d => d.id === entry.destId);
       if (dest) {
-        console.log(`   ${i + 1}. ${dest.city}, ${dest.country}`);
+        const tier = entry.isMajor ? '🏙️' : '🏘️';
+        const part = entry.totalParts > 1 ? ` (part ${entry.batchPart}/${entry.totalParts})` : '';
+        console.log(`   ${i + 1}. ${tier} ${dest.city}, ${dest.country}${part}`);
       }
     });
   }

@@ -1,16 +1,17 @@
 /**
- * Unsplash Image Migration Script - High Quality Batch Downloader
+ * Unsplash Image Migration Script - Tiered Batch Downloader
  *
- * Downloads FULL RESOLUTION images with maximum variety per destination.
- * - 50 images per destination (uses full hourly API quota)
- * - Full resolution downloads (~2-3MB each)
- * - 10 different query categories for variety (landmarks, food, nightlife, etc.)
- * - One destination per hour = ~17 days for 410 destinations
+ * Downloads FULL RESOLUTION images with tiered counts per destination:
+ * - Major destinations (150+ POIs): 100 images across 2 batches
+ * - Standard destinations: 50 images in 1 batch
+ * - Full resolution (~2-3MB each)
+ * - 10 different query categories for variety
+ * - One batch per hour (Unsplash rate limit)
  *
  * Run with: npx tsx scripts/image-migration/migrate-images.ts --continuous
  *
  * Commands:
- *   (default)    Run one batch (1 destination = 50 images)
+ *   (default)    Run one batch
  *   --init       Initialize the queue (run first time only)
  *   --status     Show current progress
  *   --continuous Run continuously with auto-wait between batches
@@ -29,7 +30,11 @@ dotenv.config({ path: path.join(process.cwd(), '.env.local') });
 import {
   CONFIG,
   QUERY_CATEGORIES,
+  MAJOR_DESTINATIONS,
+  PRIORITY_DESTINATIONS,
+  getImageCount,
   Progress,
+  QueueEntry,
   Manifest,
   DestinationImages,
   ImageRecord,
@@ -96,31 +101,75 @@ function saveManifest(manifest: Manifest): void {
 // ============================================
 
 function initializeQueue(): Progress {
-  console.log('\n📋 Initializing queue...\n');
+  console.log('\n📋 Initializing priority queue (major cities + zero-coverage)...\n');
 
-  // Simple queue: all destinations, one per batch
-  const queue: string[] = DESTINATIONS.map(d => d.id);
+  // Only queue PRIORITY destinations (major cities + zero-coverage)
+  // Major destinations get 2 batches of 50 = 100 images
+  // Zero-coverage destinations get 1 batch of 50 images
+  const queue: QueueEntry[] = [];
+  let totalImages = 0;
+  let majorCount = 0;
+  let zeroCoverageCount = 0;
+
+  const priorityDests = DESTINATIONS.filter(d => PRIORITY_DESTINATIONS.has(d.id));
+
+  for (const dest of priorityDests) {
+    const isMajor = MAJOR_DESTINATIONS.has(dest.id);
+    const imageCount = getImageCount(dest.id);
+
+    if (isMajor) {
+      majorCount++;
+      // Split into 2 batches of 50 each (respecting hourly API limit)
+      queue.push({
+        destId: dest.id,
+        batchPart: 1,
+        totalParts: 2,
+        imageCount: 50,
+        isMajor: true,
+      });
+      queue.push({
+        destId: dest.id,
+        batchPart: 2,
+        totalParts: 2,
+        imageCount: 50,
+        isMajor: true,
+      });
+    } else {
+      zeroCoverageCount++;
+      queue.push({
+        destId: dest.id,
+        batchPart: 1,
+        totalParts: 1,
+        imageCount: 50,
+        isMajor: false,
+      });
+    }
+    totalImages += imageCount;
+  }
 
   const progress: Progress = {
     ...INITIAL_PROGRESS,
     queue,
-    totalBatches: queue.length, // One destination per batch
+    totalBatches: queue.length,
     stats: {
       ...INITIAL_PROGRESS.stats,
-      totalDestinations: DESTINATIONS.length,
+      totalDestinations: priorityDests.length,
     },
   };
 
   saveProgress(progress);
 
-  const estimatedHours = queue.length * 1.05; // ~1 hour per destination + buffer
+  const estimatedHours = queue.length * 1.05;
   const estimatedDays = (estimatedHours / 24).toFixed(1);
 
-  console.log(`✅ Queue initialized with ${queue.length} destinations`);
-  console.log(`   Images per destination: ${CONFIG.IMAGES_PER_DESTINATION}`);
-  console.log(`   Total images to download: ~${queue.length * CONFIG.IMAGES_PER_DESTINATION}`);
-  console.log(`   Estimated storage: ~${((queue.length * CONFIG.IMAGES_PER_DESTINATION * 2) / 1024).toFixed(1)} GB`);
-  console.log(`   Estimated time: ~${estimatedDays} days\n`);
+  console.log(`✅ Priority queue initialized:`);
+  console.log(`   🏙️  Major destinations (100 images each): ${majorCount}`);
+  console.log(`   🆘 Zero-coverage destinations (50 images each): ${zeroCoverageCount}`);
+  console.log(`   📦 Total batches: ${queue.length}`);
+  console.log(`   📸 Total images to download: ~${totalImages}`);
+  console.log(`   💾 Estimated storage: ~${((totalImages * 2) / 1024).toFixed(1)} GB`);
+  console.log(`   ⏱️  Estimated time: ~${estimatedDays} days\n`);
+  console.log(`   ℹ️  Skipping ${DESTINATIONS.length - priorityDests.length} standard destinations (run with full queue later)\n`);
 
   return progress;
 }
@@ -129,16 +178,27 @@ function initializeQueue(): Progress {
 // Search query builder - VARIETY focused
 // ============================================
 
-function buildSearchQueries(dest: typeof DESTINATIONS[0]): { query: string; count: number }[] {
+function buildSearchQueries(
+  dest: typeof DESTINATIONS[0],
+  targetCount: number,
+  categoryOffset: number = 0,
+): { query: string; count: number }[] {
   const queries: { query: string; count: number }[] = [];
   const baseLocation = `${dest.city} ${dest.country}`;
 
-  // Use 10 different query categories for maximum variety
-  // Each gets 5 images (10 categories x 5 = 50 images = full hourly quota)
-  const imagesPerCategory = Math.floor(CONFIG.IMAGES_PER_DESTINATION / QUERY_CATEGORIES.length);
-  let remainder = CONFIG.IMAGES_PER_DESTINATION % QUERY_CATEGORIES.length;
+  // Distribute images evenly across query categories
+  // For batch part 2 of major destinations, offset the categories for variety
+  const categories = [...QUERY_CATEGORIES];
+  if (categoryOffset > 0) {
+    // Rotate categories so batch 2 starts from different angles
+    const rotated = categories.splice(0, categoryOffset % categories.length);
+    categories.push(...rotated);
+  }
 
-  for (const category of QUERY_CATEGORIES) {
+  const imagesPerCategory = Math.floor(targetCount / categories.length);
+  let remainder = targetCount % categories.length;
+
+  for (const category of categories) {
     const count = imagesPerCategory + (remainder > 0 ? 1 : 0);
     if (remainder > 0) remainder--;
 
@@ -172,16 +232,31 @@ async function downloadImage(url: string, filepath: string): Promise<boolean> {
 
 async function fetchAndDownloadImages(
   dest: typeof DESTINATIONS[0],
-  manifest: Manifest
+  manifest: Manifest,
+  batchImageCount: number = 50,
+  batchPart: number = 1,
 ): Promise<DestinationImages | null> {
   const destDir = path.join(IMAGES_DIR, dest.id);
-  const queries = buildSearchQueries(dest);
-  const seenIds = new Set<string>(); // Track to avoid duplicates across queries
+  // For batch part 2, offset categories by 5 so we get different search angles
+  const queries = buildSearchQueries(dest, batchImageCount, (batchPart - 1) * 5);
 
-  console.log(`\n   🔍 Running ${queries.length} varied searches for maximum diversity...`);
+  // Collect already-downloaded image IDs for this destination to avoid duplicates across batches
+  const seenIds = new Set<string>();
+  const existingDest = manifest.destinations[dest.id];
+  if (existingDest) {
+    for (const img of existingDest.images) {
+      seenIds.add(img.unsplashId);
+    }
+  }
+
+  console.log(`\n   🔍 Running ${queries.length} varied searches (batch part ${batchPart})...`);
+  if (seenIds.size > 0) {
+    console.log(`   ℹ️  Skipping ${seenIds.size} already-downloaded images from previous batch`);
+  }
 
   const images: ImageRecord[] = [];
-  let imageIndex = 0;
+  // Start numbering after existing images
+  let imageIndex = existingDest ? existingDest.images.length : 0;
   let apiCallsUsed = 0;
 
   for (const { query, count } of queries) {
@@ -302,36 +377,64 @@ async function runBatch(progress: Progress, manifest: Manifest): Promise<void> {
     }
   }
 
-  // Get next destination from queue
-  const destId = progress.queue.shift();
+  // Get next entry from queue
+  const entry = progress.queue.shift();
 
-  if (!destId) {
-    console.log('\n🎉 ALL DESTINATIONS COMPLETE!');
+  if (!entry) {
+    console.log('\n🎉 ALL BATCHES COMPLETE!');
     console.log('   Run: npx tsx scripts/image-migration/generate-preview.ts');
     console.log('   To generate the review page.\n');
     return;
   }
 
-  const dest = DESTINATIONS.find(d => d.id === destId);
+  const dest = DESTINATIONS.find(d => d.id === entry.destId);
   if (!dest) {
-    console.warn(`⚠️ Destination not found: ${destId}`);
+    console.warn(`⚠️ Destination not found: ${entry.destId}`);
     saveProgress(progress);
     return;
   }
 
   progress.currentBatch++;
-  console.log('\n' + '='.repeat(70));
-  console.log(`📍 BATCH ${progress.currentBatch}/${progress.totalBatches}: ${dest.city}, ${dest.country}`);
-  console.log('='.repeat(70));
-  console.log(`   Target: ${CONFIG.IMAGES_PER_DESTINATION} full-resolution images`);
+  const tierLabel = entry.isMajor ? '🏙️ MAJOR' : '🏘️ STANDARD';
+  const partLabel = entry.totalParts > 1 ? ` (part ${entry.batchPart}/${entry.totalParts})` : '';
 
-  const result = await fetchAndDownloadImages(dest, manifest);
+  console.log('\n' + '='.repeat(70));
+  console.log(`📍 BATCH ${progress.currentBatch}/${progress.totalBatches}: ${dest.city}, ${dest.country} ${tierLabel}${partLabel}`);
+  console.log('='.repeat(70));
+  console.log(`   Target: ${entry.imageCount} full-resolution images`);
+  if (entry.isMajor) {
+    console.log(`   Total for destination: ${getImageCount(entry.destId)} images across ${entry.totalParts} batches`);
+  }
+
+  const result = await fetchAndDownloadImages(dest, manifest, entry.imageCount, entry.batchPart);
 
   if (result) {
-    manifest.destinations[dest.id] = result;
-    progress.completed.push(dest.id);
-    progress.pendingReview.push(dest.id);
-    progress.stats.totalImagesDownloaded += result.imageCount;
+    if (entry.batchPart > 1 && manifest.destinations[dest.id]) {
+      // Append to existing destination entry (batch part 2+)
+      const existing = manifest.destinations[dest.id];
+      existing.images.push(...result.images);
+      existing.imageCount = existing.images.length;
+      existing.completedAt = result.completedAt;
+      progress.stats.totalImagesDownloaded += result.imageCount;
+    } else {
+      // First batch for this destination
+      manifest.destinations[dest.id] = result;
+      progress.stats.totalImagesDownloaded += result.imageCount;
+    }
+
+    // Only mark as completed when all parts are done
+    const isLastPart = entry.batchPart >= entry.totalParts;
+    if (isLastPart) {
+      if (!progress.completed.includes(dest.id)) {
+        progress.completed.push(dest.id);
+      }
+      if (!progress.pendingReview.includes(dest.id)) {
+        progress.pendingReview.push(dest.id);
+      }
+      manifest.destinations[dest.id].status = 'review';
+    } else {
+      manifest.destinations[dest.id].status = 'downloading';
+    }
   }
 
   // Set cooldown
@@ -341,12 +444,14 @@ async function runBatch(progress: Progress, manifest: Manifest): Promise<void> {
   saveProgress(progress);
   saveManifest(manifest);
 
-  const pct = ((progress.completed.length / progress.stats.totalDestinations) * 100).toFixed(1);
+  // Count unique completed destinations
+  const uniqueCompleted = new Set(progress.completed).size;
+  const pct = ((uniqueCompleted / progress.stats.totalDestinations) * 100).toFixed(1);
   console.log('\n' + '-'.repeat(70));
   console.log(`✅ Batch complete!`);
-  console.log(`   Progress: ${progress.completed.length}/${progress.stats.totalDestinations} destinations (${pct}%)`);
+  console.log(`   Progress: ${uniqueCompleted}/${progress.stats.totalDestinations} destinations (${pct}%)`);
   console.log(`   Total images: ${progress.stats.totalImagesDownloaded}`);
-  console.log(`   Remaining: ${progress.queue.length} destinations`);
+  console.log(`   Remaining batches: ${progress.queue.length}`);
   console.log(`   Next batch: ${new Date(progress.nextBatchAvailableAt).toLocaleTimeString()}`);
   console.log('-'.repeat(70) + '\n');
 }
@@ -357,25 +462,30 @@ async function runBatch(progress: Progress, manifest: Manifest): Promise<void> {
 
 function showStatus(progress: Progress): void {
   console.log('\n' + '='.repeat(70));
-  console.log('📊 IMAGE MIGRATION STATUS - Full Resolution Mode');
+  console.log('📊 IMAGE MIGRATION STATUS - Tiered Mode');
   console.log('='.repeat(70));
 
+  const uniqueCompleted = new Set(progress.completed).size;
   const pct = progress.stats.totalDestinations > 0
-    ? ((progress.completed.length / progress.stats.totalDestinations) * 100).toFixed(1)
+    ? ((uniqueCompleted / progress.stats.totalDestinations) * 100).toFixed(1)
     : '0';
 
-  console.log(`\n📈 Progress: ${progress.completed.length}/${progress.stats.totalDestinations} destinations (${pct}%)`);
+  console.log(`\n📈 Progress: ${uniqueCompleted}/${progress.stats.totalDestinations} destinations (${pct}%)`);
 
   // Progress bar
   const barWidth = 50;
   const filled = progress.stats.totalDestinations > 0
-    ? Math.round((progress.completed.length / progress.stats.totalDestinations) * barWidth)
+    ? Math.round((uniqueCompleted / progress.stats.totalDestinations) * barWidth)
     : 0;
   console.log(`   [${'█'.repeat(filled)}${'░'.repeat(barWidth - filled)}]`);
 
+  // Count major vs standard in queue
+  const majorBatches = progress.queue.filter(e => e.isMajor).length;
+  const standardBatches = progress.queue.filter(e => !e.isMajor).length;
+
   console.log(`\n   📸 Total images: ${progress.stats.totalImagesDownloaded}`);
   console.log(`   💾 Est. storage: ~${((progress.stats.totalImagesDownloaded * 2) / 1024).toFixed(2)} GB`);
-  console.log(`   📋 Queue remaining: ${progress.queue.length}`);
+  console.log(`   📋 Batches remaining: ${progress.queue.length} (${majorBatches} major, ${standardBatches} standard)`);
 
   const estimatedHoursLeft = progress.queue.length * 1.05;
   const estimatedDaysLeft = (estimatedHoursLeft / 24).toFixed(1);
@@ -395,24 +505,37 @@ function showStatus(progress: Progress): void {
   // Show next up
   if (progress.queue.length > 0) {
     console.log('\n📋 Next up:');
-    progress.queue.slice(0, 5).forEach((destId, i) => {
-      const dest = DESTINATIONS.find(d => d.id === destId);
+    progress.queue.slice(0, 5).forEach((entry, i) => {
+      const dest = DESTINATIONS.find(d => d.id === entry.destId);
       if (dest) {
-        console.log(`   ${i + 1}. ${dest.city}, ${dest.country}`);
+        const tier = entry.isMajor ? '🏙️' : '🏘️';
+        const part = entry.totalParts > 1 ? ` (part ${entry.batchPart}/${entry.totalParts})` : '';
+        console.log(`   ${i + 1}. ${tier} ${dest.city}, ${dest.country}${part} — ${entry.imageCount} images`);
       }
     });
     if (progress.queue.length > 5) {
-      console.log(`   ... and ${progress.queue.length - 5} more`);
+      console.log(`   ... and ${progress.queue.length - 5} more batches`);
     }
   }
 
   // Show recent completions
   if (progress.completed.length > 0) {
     console.log('\n✅ Recently completed:');
-    progress.completed.slice(-5).reverse().forEach((destId) => {
+    // Deduplicate and show last 5
+    const seen = new Set<string>();
+    const recentUnique: string[] = [];
+    for (let i = progress.completed.length - 1; i >= 0 && recentUnique.length < 5; i--) {
+      if (!seen.has(progress.completed[i])) {
+        seen.add(progress.completed[i]);
+        recentUnique.push(progress.completed[i]);
+      }
+    }
+    recentUnique.forEach((destId) => {
       const dest = DESTINATIONS.find(d => d.id === destId);
+      const imgCount = progress.stats.totalImagesDownloaded; // approximate
       if (dest) {
-        console.log(`   • ${dest.city}, ${dest.country}`);
+        const tier = MAJOR_DESTINATIONS.has(destId) ? '🏙️ 100' : '🏘️ 50';
+        console.log(`   • ${dest.city}, ${dest.country} (${tier} images)`);
       }
     });
   }
@@ -425,11 +548,12 @@ function showStatus(progress: Progress): void {
 // ============================================
 
 async function main(): Promise<void> {
-  console.log('\n🖼️  UNSPLASH IMAGE MIGRATION - Full Resolution Mode\n');
-  console.log('   • 50 images per destination');
+  console.log('\n🖼️  UNSPLASH IMAGE MIGRATION - Tiered Mode\n');
+  console.log(`   • Major destinations: ${CONFIG.IMAGES_PER_MAJOR_DESTINATION} images (${MAJOR_DESTINATIONS.size} cities)`);
+  console.log(`   • Standard destinations: ${CONFIG.IMAGES_PER_STANDARD_DESTINATION} images`);
   console.log('   • Full resolution (~2MB each)');
   console.log('   • 10 query categories for variety');
-  console.log('   • One destination per hour\n');
+  console.log('   • One batch per hour\n');
 
   // Check API key
   if (!process.env.UNSPLASH_ACCESS_KEY && !STATUS && !INIT) {
@@ -442,8 +566,16 @@ async function main(): Promise<void> {
   const manifest = loadManifest();
 
   // Initialize queue if needed
-  if (INIT || (progress.queue.length === 0 && progress.completed.length === 0)) {
+  if (INIT) {
     progress = initializeQueue();
+    showStatus(progress);
+    console.log('Queue initialized. Run without --init to start downloading.\n');
+    return;
+  }
+
+  if (progress.queue.length === 0 && progress.completed.length === 0) {
+    console.log('No queue found. Run with --init to initialize.\n');
+    return;
   }
 
   // Show status

@@ -15,12 +15,8 @@ import type {
   CountryFactsMap,
   CountryFacts,
   MonthlyWeather,
-  StopClusterSummary,
-  StopBrief,
 } from '@/types/destination-intelligence';
 import { generatePackingList } from './packingEngine';
-import { distanceMeters } from './hotelZoneClustering';
-import type { GeoCluster } from './hotelZoneClustering';
 
 // ── Types ────────────────────────────────────────────────────────────
 
@@ -32,40 +28,6 @@ export interface TripIntelligenceInput {
   pathType: string;               // classic, foodie, adventure, etc.
   vibes: string[];
   nights: number;
-  stops: StopInput[];             // All POI stops
-  clusters: ClusterInput[];       // From geographic clustering
-  hotel?: HotelInput;
-  favoriteStopNames?: string[];
-}
-
-export interface StopInput {
-  name: string;
-  type?: string;
-  category?: string;
-  latitude: number;
-  longitude: number;
-  googleRating?: number;
-  duration?: string;
-  suggestedDuration?: string;
-  bestTimeOfDay?: string;
-}
-
-export interface ClusterInput {
-  id: number;
-  label: string;
-  center: { latitude: number; longitude: number };
-  points: { latitude: number; longitude: number }[];
-  color: string;
-}
-
-export interface HotelInput {
-  name: string;
-  latitude: number;
-  longitude: number;
-  stars?: number;
-  pricePerNight?: number;
-  currency?: string;
-  amenities?: string[];
 }
 
 // ── Data loaders ─────────────────────────────────────────────────────
@@ -122,10 +84,6 @@ export async function assembleTripIntelligence(
     pathType,
     vibes,
     nights,
-    stops,
-    clusters,
-    hotel,
-    favoriteStopNames,
   } = input;
 
   // 1. Load data (sync fs reads — server-side only)
@@ -147,10 +105,6 @@ export async function assembleTripIntelligence(
   ) || destFacts.weather[0]; // Fallback to January if something's off
 
   // 3. Generate packing list
-  const poiCategories = Array.from(
-    new Set(stops.map(s => s.category || s.type || '').filter(Boolean))
-  );
-
   const packing = generatePackingList({
     weather,
     pathType,
@@ -158,56 +112,10 @@ export async function assembleTripIntelligence(
     travelerType,
     nights,
     plugTypes: countryFacts.plugTypes,
-    poiCategories,
+    poiCategories: [],  // POI categories no longer sent from client
   });
 
-  // 4. Build stops overview by cluster
-  const favSet = new Set((favoriteStopNames || []).map(n => n.toLowerCase()));
-
-  const stopsOverview: StopClusterSummary[] = clusters.map(cluster => {
-    // Find stops that belong to this cluster (by proximity to cluster points)
-    const clusterStops = findStopsInCluster(stops, cluster);
-
-    // Calculate walk time from hotel to cluster center
-    let walkFromHotelMinutes: number | undefined;
-    if (hotel) {
-      const distM = distanceMeters(
-        { latitude: hotel.latitude, longitude: hotel.longitude },
-        { latitude: cluster.center.latitude, longitude: cluster.center.longitude }
-      );
-      walkFromHotelMinutes = Math.max(1, Math.round(distM / 80)); // ~80m/min walking
-    }
-
-    const stopBriefs: StopBrief[] = clusterStops.map(stop => {
-      let distFromHotel: number | undefined;
-      if (hotel) {
-        distFromHotel = Math.round(
-          distanceMeters(
-            { latitude: hotel.latitude, longitude: hotel.longitude },
-            { latitude: stop.latitude, longitude: stop.longitude }
-          )
-        );
-      }
-
-      return {
-        name: stop.name,
-        category: stop.category || stop.type || 'activity',
-        rating: stop.googleRating,
-        duration: stop.suggestedDuration || stop.duration,
-        bestTimeOfDay: stop.bestTimeOfDay,
-        distanceFromHotelMeters: distFromHotel,
-        isFavorite: favSet.has(stop.name.toLowerCase()),
-      };
-    });
-
-    return {
-      label: cluster.label,
-      stops: stopBriefs,
-      walkFromHotelMinutes,
-    };
-  });
-
-  // 5. Assemble final object
+  // 4. Assemble final object
   return {
     destinationPrep: {
       weather,
@@ -230,29 +138,5 @@ export async function assembleTripIntelligence(
       timeZone: destFacts.timeZone,
     },
     packing,
-    stopsOverview,
   };
-}
-
-// ── Helpers ──────────────────────────────────────────────────────────
-
-/**
- * Find stops that belong to a geographic cluster.
- * A stop belongs to a cluster if it's closest to that cluster's center
- * compared to other clusters. Simple nearest-centroid assignment.
- */
-function findStopsInCluster(
-  stops: StopInput[],
-  cluster: ClusterInput,
-): StopInput[] {
-  // Simple approach: check if stop lat/lng is within the cluster's point set
-  // by matching against cluster points (which are the original GeoPoints)
-  const clusterPointSet = new Set(
-    cluster.points.map(p => `${p.latitude.toFixed(5)},${p.longitude.toFixed(5)}`)
-  );
-
-  return stops.filter(stop => {
-    const key = `${stop.latitude.toFixed(5)},${stop.longitude.toFixed(5)}`;
-    return clusterPointSet.has(key);
-  });
 }

@@ -500,15 +500,6 @@ function FlashExploreContent() {
     return clusterPOIsGeographic(allStops);
   }, [allStops]);
 
-  // Hotel zone center for nexus marker (at explore step, no hotel selected yet)
-  const hotelZoneCenter = useMemo(() => {
-    const stopsForZone = favoriteStops.length >= 2 ? favoriteStops : allStops;
-    if (stopsForZone.length < 2) return null;
-    const zone = calculateHotelZone(stopsForZone);
-    if (!zone) return null;
-    return { latitude: zone.centerLat, longitude: zone.centerLng, name: 'Your hotel area' };
-  }, [favoriteStops, allStops]);
-
   // Map stopId → clusterId for tile highlighting
   const stopClusterMap = useMemo(() => {
     const map = new Map<string, number>();
@@ -2405,7 +2396,7 @@ function FlashExploreContent() {
     let resolvedTravelerType = 'couple';
     try { const stored = sessionStorage.getItem('flash_traveler_type'); if (stored) resolvedTravelerType = stored; } catch {}
 
-    // Rich context for AI Travel Prep
+    // Trip prep context
     const poiDetailsForAI = allStops.map(stop => ({
       name: stop.name,
       type: stop.type,
@@ -2992,7 +2983,7 @@ function FlashExploreContent() {
                       </div>
                       <div className="flex items-center gap-1">
                         <span className="text-[10px] text-purple-400">{'\u2713'}</span>
-                        <span className="text-[10px] text-white/50">AI travel prep</span>
+                        <span className="text-[10px] text-white/50">Travel prep</span>
                       </div>
                     </div>
                   </div>

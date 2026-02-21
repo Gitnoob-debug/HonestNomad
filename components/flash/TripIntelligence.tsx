@@ -5,7 +5,6 @@ import { Spinner } from '@/components/ui';
 import type {
   TripIntelligence as TripIntelligenceData,
   PackingItem,
-  MonthlyWeather,
   SafetyLevel,
   WaterSafety,
   CostLevel,
@@ -146,7 +145,7 @@ export function TripIntelligence({
     });
   };
 
-  // Theme classes — same pattern as MagicPackage
+  // Theme classes
   const t = {
     card: dark ? 'bg-white/5 border border-white/10' : 'bg-white border border-gray-100 shadow-sm',
     cardHover: dark ? 'hover:bg-white/8' : 'hover:bg-gray-50',
@@ -163,11 +162,6 @@ export function TripIntelligence({
     gradientOrb: dark ? 'from-blue-500/20 to-green-500/20' : 'from-blue-100 to-green-100',
     errorText: dark ? 'text-red-400' : 'text-red-600',
     iconBg: dark ? 'bg-white/10' : 'bg-gray-100',
-    essentialBg: dark ? 'bg-green-500/10' : 'bg-green-50',
-    essentialText: dark ? 'text-green-400' : 'text-green-600',
-    niceToHaveBg: dark ? 'bg-blue-500/10' : 'bg-blue-50',
-    niceToHaveText: dark ? 'text-blue-400' : 'text-blue-600',
-    factBg: dark ? 'bg-white/5' : 'bg-gray-50',
   };
 
   // ── Loading ──

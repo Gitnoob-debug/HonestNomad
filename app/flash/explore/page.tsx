@@ -483,13 +483,14 @@ function FlashExploreContent() {
   const [activeRoute, setActiveRoute] = useState<{ geometry: string; distance: number; duration: number } | null>(null);
   const [tripDates, setTripDates] = useState<{ departure: string; return: string }>({ departure: '', return: '' });
   const [activeCarouselStopId, setActiveCarouselStopId] = useState<string | null>(null);
+  const [dayNarratives, setDayNarratives] = useState<Record<number, string>>({});
+  const [narrativeLoading, setNarrativeLoading] = useState(false);
 
   // Revealed preferences tracking
   const { trackHotelSelection, trackPOIAction } = useRevealedPreferences();
 
-  // Smart planner + quick nav state
-  const [showSmartPlanner, setShowSmartPlanner] = useState(true);
-  const [activeClusterId, setActiveClusterId] = useState<number | null>(null);
+  // Saved spots panel toggle
+  const [showSavedSpots, setShowSavedSpots] = useState(true);
 
   // Compute allStops unconditionally (needed for memos — hooks can't be conditional)
   const allStops = useMemo(() => itinerary.flatMap(d => d.stops), [itinerary]);
@@ -903,6 +904,108 @@ function FlashExploreContent() {
     return () => { cancelled = true; };
   }, [activeCarouselStopId, step, selectedHotel, skipHotels]);
 
+  // Fetch AI-generated day narratives when package step loads
+  useEffect(() => {
+    if (step !== 'package') return;
+    if (narrativeLoading || Object.keys(dayNarratives).length > 0) return;
+    if (allStops.length < 4) return;
+
+    const pkgClusters = clusterPOIsGeographic(allStops);
+    if (pkgClusters.length < 2) return;
+
+    const hasHotel = !skipHotels && selectedHotel;
+    let travelerType = 'couple';
+    try {
+      const stored = sessionStorage.getItem('flash_traveler_type');
+      if (stored) travelerType = stored;
+    } catch {}
+
+    const days = pkgClusters.map((cluster, idx) => {
+      const clusterStops = allStops.filter((s) =>
+        cluster.points.some(
+          (p) => p.latitude === s.latitude && p.longitude === s.longitude,
+        ),
+      );
+      return {
+        dayIndex: idx,
+        zoneLabel: cluster.label,
+        stops: clusterStops.map((s) => ({
+          name: s.name,
+          type: s.type,
+          category: s.category || undefined,
+          rating: s.googleRating,
+          duration: s.duration,
+          bestTimeOfDay: s.bestTimeOfDay,
+          isFavorite: favorites.has(s.id),
+          walkMinFromHotel:
+            hasHotel && selectedHotel
+              ? Math.max(
+                  1,
+                  Math.round(
+                    getDistanceMeters(
+                      selectedHotel.latitude,
+                      selectedHotel.longitude,
+                      s.latitude,
+                      s.longitude,
+                    ) / 80,
+                  ),
+                )
+              : undefined,
+        })),
+        totalHours: Math.round(estimateTotalMinutes(clusterStops) / 60),
+        walkMinFromHotel:
+          hasHotel && selectedHotel
+            ? Math.max(
+                1,
+                Math.round(
+                  getDistanceMeters(
+                    selectedHotel.latitude,
+                    selectedHotel.longitude,
+                    cluster.center.latitude,
+                    cluster.center.longitude,
+                  ) / 80,
+                ),
+              )
+            : undefined,
+      };
+    });
+
+    const payload = {
+      destinationId: trip?.destination.id || '',
+      destinationCity: trip?.destination.city || '',
+      destinationCountry: trip?.destination.country || '',
+      departureDate: tripDates.departure,
+      days,
+      hotel:
+        hasHotel && selectedHotel
+          ? { name: selectedHotel.name, stars: selectedHotel.stars }
+          : undefined,
+      travelerType,
+      pathType: itineraryType || 'classic',
+      favoriteNames: allStops
+        .filter((s) => favorites.has(s.id))
+        .map((s) => s.name),
+    };
+
+    setNarrativeLoading(true);
+    fetch('/api/flash/trip-narrative', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.dayNarratives && Object.keys(data.dayNarratives).length > 0) {
+          setDayNarratives(data.dayNarratives);
+        }
+      })
+      .catch(() => {
+        // Silently degrade — no narrative shown
+      })
+      .finally(() => setNarrativeLoading(false));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [step, allStops.length, selectedHotel?.id, skipHotels]);
+
   const formatPrice = (amount: number, currency: string) => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
@@ -1233,64 +1336,66 @@ function FlashExploreContent() {
               </div>
             ) : (
               <>
-                {/* ═══ SMART PLANNER — collapsible cluster panel ═══ */}
-                {poiClusters.length >= 2 && (
+                {/* ═══ SAVED SPOTS — shows saved POIs with remove ═══ */}
+                {favoriteStops.length > 0 && (
                   <div className="px-2 pt-2 pb-1">
                     <button
-                      onClick={() => setShowSmartPlanner(!showSmartPlanner)}
-                      className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-white/8 hover:bg-white/12 transition-colors"
+                      onClick={() => setShowSavedSpots(!showSavedSpots)}
+                      className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-pink-500/10 hover:bg-pink-500/15 transition-colors"
                     >
                       <div className="flex items-center gap-2">
-                        <span className="text-sm">🧭</span>
-                        <span className="text-white text-xs font-semibold">Smart Planner</span>
+                        <span className="text-sm">❤️</span>
+                        <span className="text-white text-xs font-semibold">Your Saved Spots</span>
+                        <span className="text-pink-400 text-[10px] font-medium">{favoriteStops.length}</span>
                       </div>
                       <svg
-                        className={`w-3.5 h-3.5 text-white/40 transition-transform ${showSmartPlanner ? 'rotate-180' : ''}`}
+                        className={`w-3.5 h-3.5 text-white/40 transition-transform ${showSavedSpots ? 'rotate-180' : ''}`}
                         fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                       </svg>
                     </button>
 
-                    {showSmartPlanner && (
+                    {showSavedSpots && (
                       <div className="mt-1.5 space-y-1 px-1">
-                        {poiClusters.map(cluster => {
-                          const clusterStops = allStops.filter(s => stopClusterMap.get(s.id) === cluster.id);
-                          const clusterMinutes = estimateTotalMinutes(clusterStops);
-                          const clusterHours = Math.round(clusterMinutes / 60);
-                          const isActive = activeClusterId === cluster.id;
+                        {favoriteStops.map(stop => {
+                          const TILE_EMOJIS: Record<string, string> = {
+                            landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
+                            park: '🌳', cafe: '☕', bar: '🍸', market: '🛒',
+                            viewpoint: '🌄', nightclub: '🎉',
+                          };
 
                           return (
-                            <button
-                              key={cluster.id}
-                              onClick={() => {
-                                setActiveClusterId(isActive ? null : cluster.id);
-                                // Fly map to closest stop to cluster center
-                                if (!isActive && clusterStops.length > 0) {
-                                  let closestStop = clusterStops[0];
-                                  let closestDist = Infinity;
-                                  clusterStops.forEach(s => {
-                                    const d = getDistanceMeters(s.latitude, s.longitude, cluster.center.latitude, cluster.center.longitude);
-                                    if (d < closestDist) { closestDist = d; closestStop = s; }
-                                  });
-                                  setActiveStopId(closestStop.id);
-                                }
-                              }}
-                              className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-left transition-all ${
-                                isActive ? 'bg-white/15 ring-1 ring-white/20' : 'hover:bg-white/8'
-                              }`}
+                            <div
+                              key={stop.id}
+                              className="flex items-center gap-2.5 px-3 py-2 rounded-lg bg-white/5 hover:bg-white/8 transition-colors group"
                             >
-                              <div
-                                className="w-2.5 h-2.5 rounded-full flex-shrink-0"
-                                style={{ backgroundColor: cluster.color }}
-                              />
-                              <div className="flex-1 min-w-0">
-                                <span className="text-white text-xs font-medium">{cluster.label}</span>
-                                <span className="text-white/40 text-[10px] ml-2">
-                                  {clusterStops.length} spots · ~{clusterHours}hr
-                                </span>
-                              </div>
-                            </button>
+                              <button
+                                onClick={() => {
+                                  setActiveStopId(stop.id);
+                                  handleStopClick(stop);
+                                }}
+                                className="flex-1 flex items-center gap-2.5 text-left min-w-0"
+                              >
+                                <span className="text-sm flex-shrink-0">{TILE_EMOJIS[stop.type] || '📍'}</span>
+                                <div className="flex-1 min-w-0">
+                                  <span className="text-white text-xs font-medium truncate block">{stop.name}</span>
+                                  <span className="text-white/40 text-[10px]">
+                                    {stop.googleRating ? `★ ${stop.googleRating.toFixed(1)}` : ''}
+                                    {stop.duration ? ` · ${stop.duration}` : ''}
+                                  </span>
+                                </div>
+                              </button>
+                              <button
+                                onClick={(e) => toggleFavorite(stop, e)}
+                                className="flex-shrink-0 p-1 rounded-full hover:bg-white/10 opacity-50 group-hover:opacity-100 transition-opacity"
+                                title="Remove from saved"
+                              >
+                                <svg className="w-3.5 h-3.5 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                              </button>
+                            </div>
                           );
                         })}
                       </div>
@@ -1303,10 +1408,6 @@ function FlashExploreContent() {
                   {filteredStops.map((stop) => {
                     const isFav = favorites.has(stop.id);
                     const isActive = activeStopId === stop.id;
-                    const clusterId = stopClusterMap.get(stop.id);
-                    const clusterColor = activeClusterId !== null && clusterId === activeClusterId
-                      ? poiClusters.find(c => c.id === clusterId)?.color
-                      : undefined;
                     const TILE_EMOJIS: Record<string, string> = {
                       landmark: '🏛️', restaurant: '🍽️', activity: '🎯', museum: '🎨',
                       park: '🌳', cafe: '☕', bar: '🍸', market: '🛒',
@@ -1324,7 +1425,6 @@ function FlashExploreContent() {
                               ? 'bg-pink-500/15 hover:bg-pink-500/20'
                               : 'bg-white/8 hover:bg-white/12'
                         } ${isFav ? 'border border-pink-500/40' : ''}`}
-                        style={clusterColor ? { borderLeft: `3px solid ${clusterColor}` } : undefined}
                       >
                         {/* Top row: emoji + rating */}
                         <div className="flex items-center justify-between mb-1.5">
@@ -2695,6 +2795,38 @@ function FlashExploreContent() {
               </div>
             )}
 
+            {/* 3b. TRIP PREP — Data-driven destination intelligence */}
+            <div className="px-4 py-5 border-t border-white/5">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-500/20 to-green-500/20 rounded-full flex items-center justify-center">
+                  <span className="text-xl">🧭</span>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-white">Trip Prep</h3>
+                  <p className="text-sm text-white/50">Your {trip.destination.city} briefing</p>
+                </div>
+              </div>
+              {tripDates.departure && tripDates.return ? (
+                <TripIntelligence
+                  destinationId={trip.destination.id}
+                  city={trip.destination.city}
+                  country={trip.destination.country}
+                  departureDate={tripDates.departure}
+                  returnDate={tripDates.return}
+                  travelerType={resolvedTravelerType}
+                  vibes={trip.destination.vibes || []}
+                  variant="dark"
+                  layout="grid"
+                  pathType={itineraryType || undefined}
+                />
+              ) : (
+                <div className="flex items-center gap-2 text-white/40 text-sm py-4">
+                  <Spinner className="w-4 h-4" />
+                  <span>Loading trip details...</span>
+                </div>
+              )}
+            </div>
+
             {/* 4. FAVORITES SHOWCASE */}
             {favoriteStops.length >= 2 && (
               <div className="px-4 py-5 border-t border-white/5">
@@ -2850,6 +2982,19 @@ function FlashExploreContent() {
                             </div>
                           </div>
 
+                          {/* AI-generated narrative intro */}
+                          {narrativeLoading ? (
+                            <div className="mb-3 space-y-2 px-1">
+                              <div className="h-3 bg-white/5 rounded-full animate-pulse w-full" />
+                              <div className="h-3 bg-white/5 rounded-full animate-pulse w-5/6" />
+                              <div className="h-3 bg-white/5 rounded-full animate-pulse w-4/6" />
+                            </div>
+                          ) : dayNarratives[dayIdx] ? (
+                            <p className="text-white/70 text-sm leading-relaxed mb-3 px-1">
+                              {dayNarratives[dayIdx]}
+                            </p>
+                          ) : null}
+
                           {/* Timeline by time of day */}
                           <div className="space-y-4">
                             {sortedTimeGroups.map(([timeKey, timeStops]) => {
@@ -2929,37 +3074,6 @@ function FlashExploreContent() {
               );
             })()}
 
-            {/* 4. TRIP PREP — Data-driven destination intelligence */}
-            <div className="px-4 pb-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-500/20 to-green-500/20 rounded-full flex items-center justify-center">
-                  <span className="text-xl">🧭</span>
-                </div>
-                <div>
-                  <h3 className="text-lg font-bold text-white">Trip Prep</h3>
-                  <p className="text-sm text-white/50">Your {trip.destination.city} briefing</p>
-                </div>
-              </div>
-              {tripDates.departure && tripDates.return ? (
-                <TripIntelligence
-                  destinationId={trip.destination.id}
-                  city={trip.destination.city}
-                  country={trip.destination.country}
-                  departureDate={tripDates.departure}
-                  returnDate={tripDates.return}
-                  travelerType={resolvedTravelerType}
-                  vibes={trip.destination.vibes || []}
-                  variant="dark"
-                  layout="grid"
-                  pathType={itineraryType || undefined}
-                />
-              ) : (
-                <div className="flex items-center gap-2 text-white/40 text-sm py-4">
-                  <Spinner className="w-4 h-4" />
-                  <span>Loading trip details...</span>
-                </div>
-              )}
-            </div>
 
           </div>
 

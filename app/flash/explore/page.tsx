@@ -2842,38 +2842,50 @@ function FlashExploreContent() {
 
                                   {/* POI cards for this time slot */}
                                   <div className="space-y-2">
-                                    {timeStops.map(stop => (
-                                      <div key={stop.id} className="flex gap-2.5 bg-white/5 rounded-lg p-2 hover:bg-white/8 transition-colors">
-                                        {/* Thumbnail */}
-                                        <div className="relative w-14 h-14 rounded-md overflow-hidden flex-shrink-0">
-                                          <BlurUpImage
-                                            src={stop.imageUrl || ''}
-                                            alt={stop.name}
-                                            fallbackEmoji={CAROUSEL_EMOJIS[stop.type] || '\uD83D\uDCCD'}
-                                            fallbackGradient="bg-gradient-to-br from-gray-700 to-gray-800"
-                                            className="w-full h-full"
-                                          />
-                                        </div>
+                                    {timeStops.map(stop => {
+                                      const stopDistM = hasHotel && selectedHotel
+                                        ? Math.round(getDistanceMeters(
+                                            selectedHotel.latitude, selectedHotel.longitude,
+                                            stop.latitude, stop.longitude
+                                          ))
+                                        : null;
 
-                                        {/* Details */}
-                                        <div className="flex-1 min-w-0">
-                                          <p className="text-white text-xs font-semibold truncate">{stop.name}</p>
-                                          <div className="flex items-center gap-2 mt-0.5">
-                                            {stop.googleRating && (
-                                              <span className="text-amber-400 text-[10px]">{'\u2605'} {stop.googleRating.toFixed(1)}</span>
-                                            )}
-                                            {stop.duration && (
-                                              <span className="text-white/40 text-[10px]">{stop.duration}</span>
+                                      return (
+                                        <div key={stop.id} className="flex gap-2.5 bg-white/5 rounded-lg p-2 hover:bg-white/8 transition-colors">
+                                          {/* Thumbnail */}
+                                          <div className="relative w-14 h-14 rounded-md overflow-hidden flex-shrink-0">
+                                            <BlurUpImage
+                                              src={stop.imageUrl || ''}
+                                              alt={stop.name}
+                                              fallbackEmoji={CAROUSEL_EMOJIS[stop.type] || '\uD83D\uDCCD'}
+                                              fallbackGradient="bg-gradient-to-br from-gray-700 to-gray-800"
+                                              className="w-full h-full"
+                                            />
+                                          </div>
+
+                                          {/* Details */}
+                                          <div className="flex-1 min-w-0">
+                                            <p className="text-white text-xs font-semibold truncate">{stop.name}</p>
+                                            <div className="flex items-center gap-2 mt-0.5">
+                                              {stop.googleRating && (
+                                                <span className="text-amber-400 text-[10px]">{'\u2605'} {stop.googleRating.toFixed(1)}</span>
+                                              )}
+                                              {stop.duration && (
+                                                <span className="text-white/40 text-[10px]">{stop.duration}</span>
+                                              )}
+                                              {stopDistM !== null && (
+                                                <span className="text-white/30 text-[10px]">{formatDistance(stopDistM)}</span>
+                                              )}
+                                            </div>
+                                            {favorites.has(stop.id) && (
+                                              <span className="inline-flex items-center gap-1 text-pink-400 text-[9px] mt-0.5 font-medium">
+                                                {'\u2764\uFE0F'} Favorite
+                                              </span>
                                             )}
                                           </div>
-                                          {favorites.has(stop.id) && (
-                                            <span className="inline-flex items-center gap-1 text-pink-400 text-[9px] mt-0.5 font-medium">
-                                              {'\u2764\uFE0F'} Favorite
-                                            </span>
-                                          )}
                                         </div>
-                                      </div>
-                                    ))}
+                                      );
+                                    })}
                                   </div>
                                 </div>
                               );
@@ -2910,34 +2922,6 @@ function FlashExploreContent() {
                   variant="dark"
                   layout="grid"
                   pathType={itineraryType || undefined}
-                  stops={allStops.map(s => ({
-                    name: s.name,
-                    type: s.type,
-                    category: s.category || undefined,
-                    latitude: s.latitude,
-                    longitude: s.longitude,
-                    googleRating: s.googleRating,
-                    duration: s.duration,
-                    suggestedDuration: s.suggestedDuration,
-                    bestTimeOfDay: s.bestTimeOfDay,
-                  }))}
-                  clusters={poiClusters.map(c => ({
-                    id: c.id,
-                    label: c.label,
-                    center: c.center,
-                    points: c.points,
-                    color: c.color,
-                  }))}
-                  favoriteStopNames={favoriteStops.map(s => s.name)}
-                  hotel={hasHotel && selectedHotel ? {
-                    name: selectedHotel.name,
-                    latitude: selectedHotel.latitude,
-                    longitude: selectedHotel.longitude,
-                    stars: selectedHotel.stars,
-                    pricePerNight: selectedHotel.pricePerNight,
-                    currency: selectedHotel.currency,
-                    amenities: selectedHotel.amenities,
-                  } : undefined}
                 />
               ) : (
                 <div className="flex items-center gap-2 text-white/40 text-sm py-4">

@@ -5,8 +5,6 @@ import { Spinner } from '@/components/ui';
 import type {
   TripIntelligence as TripIntelligenceData,
   PackingItem,
-  StopClusterSummary,
-  StopBrief,
   MonthlyWeather,
   SafetyLevel,
   WaterSafety,
@@ -24,42 +22,8 @@ interface TripIntelligenceProps {
   travelerType: string;
   pathType?: string;
   vibes: string[];
-  stops: StopProp[];
-  clusters: ClusterProp[];
-  favoriteStopNames?: string[];
-  hotel?: HotelProp;
   variant?: 'light' | 'dark';
   layout?: 'accordion' | 'grid';
-}
-
-interface StopProp {
-  name: string;
-  type?: string;
-  category?: string;
-  latitude: number;
-  longitude: number;
-  googleRating?: number;
-  duration?: string;
-  suggestedDuration?: string;
-  bestTimeOfDay?: string;
-}
-
-interface ClusterProp {
-  id: number;
-  label: string;
-  center: { latitude: number; longitude: number };
-  points: { latitude: number; longitude: number }[];
-  color: string;
-}
-
-interface HotelProp {
-  name: string;
-  latitude: number;
-  longitude: number;
-  stars?: number;
-  pricePerNight?: number;
-  currency?: string;
-  amenities?: string[];
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────
@@ -102,32 +66,6 @@ function costLabel(level: CostLevel): string {
   }
 }
 
-function formatDistance(meters: number): string {
-  if (meters < 1000) return `${meters}m`;
-  return `${(meters / 1000).toFixed(1)}km`;
-}
-
-function formatWalkTime(minutes: number): string {
-  if (minutes < 60) return `${minutes} min walk`;
-  const hrs = Math.floor(minutes / 60);
-  const mins = minutes % 60;
-  return mins > 0 ? `${hrs}h ${mins}m walk` : `${hrs}h walk`;
-}
-
-const CATEGORY_EMOJI: Record<string, string> = {
-  landmark: '🏛️',
-  restaurant: '🍽️',
-  cafe: '☕',
-  bar: '🍸',
-  museum: '🎨',
-  park: '🌳',
-  market: '🛍️',
-  activity: '🎯',
-  nightclub: '🎵',
-  viewpoint: '👀',
-  neighborhood: '🏘️',
-};
-
 // ── Component ────────────────────────────────────────────────────────
 
 export function TripIntelligence({
@@ -139,10 +77,6 @@ export function TripIntelligence({
   travelerType,
   pathType,
   vibes,
-  stops,
-  clusters,
-  favoriteStopNames,
-  hotel,
   variant = 'light',
   layout = 'accordion',
 }: TripIntelligenceProps) {
@@ -183,10 +117,6 @@ export function TripIntelligence({
           pathType: pathType || 'classic',
           vibes,
           nights,
-          stops,
-          clusters,
-          hotel,
-          favoriteStopNames,
         }),
       });
 
@@ -232,14 +162,12 @@ export function TripIntelligence({
     divider: dark ? 'border-white/5' : 'border-gray-50',
     gradientOrb: dark ? 'from-blue-500/20 to-green-500/20' : 'from-blue-100 to-green-100',
     errorText: dark ? 'text-red-400' : 'text-red-600',
-    borderAccent: dark ? 'border-primary-500/30' : 'border-primary-300',
     iconBg: dark ? 'bg-white/10' : 'bg-gray-100',
     essentialBg: dark ? 'bg-green-500/10' : 'bg-green-50',
     essentialText: dark ? 'text-green-400' : 'text-green-600',
     niceToHaveBg: dark ? 'bg-blue-500/10' : 'bg-blue-50',
     niceToHaveText: dark ? 'text-blue-400' : 'text-blue-600',
     factBg: dark ? 'bg-white/5' : 'bg-gray-50',
-    favoriteBadge: dark ? 'bg-pink-500/20 text-pink-400' : 'bg-pink-100 text-pink-600',
   };
 
   // ── Loading ──
@@ -281,7 +209,7 @@ export function TripIntelligence({
 
   if (!data) return null;
 
-  const { destinationPrep: prep, packing, stopsOverview } = data;
+  const { destinationPrep: prep, packing } = data;
   const weather = prep.weather;
   const monthName = MONTH_NAMES[weather.month] || '';
 
@@ -453,71 +381,13 @@ export function TripIntelligence({
         </div>
       ),
     },
-    {
-      id: 'stops',
-      title: 'Your Stops by Zone',
-      emoji: '📍',
-      preview: `${stopsOverview.reduce((sum, c) => sum + c.stops.length, 0)} stops across ${stopsOverview.length} zones`,
-      content: (
-        <div className="space-y-3">
-          {stopsOverview.map((cluster, ci) => (
-            <div key={ci} className={`border-l-4 ${t.borderAccent} pl-4 py-2`}>
-              <div className="flex items-center gap-2 mb-2">
-                <div className="w-7 h-7 rounded-full bg-primary-500/20 flex items-center justify-center">
-                  <span className={`text-xs font-bold ${t.title}`}>{ci + 1}</span>
-                </div>
-                <div className="flex-1">
-                  <p className={`text-xs font-bold ${t.title}`}>{cluster.label} Zone</p>
-                  {cluster.walkFromHotelMinutes != null && (
-                    <p className={`text-[10px] ${t.textMuted}`}>
-                      {formatWalkTime(cluster.walkFromHotelMinutes)} from hotel
-                    </p>
-                  )}
-                </div>
-                <span className={`text-[10px] ${t.textFaint}`}>{cluster.stops.length} stops</span>
-              </div>
-              <div className="space-y-1">
-                {cluster.stops.map((stop, si) => (
-                  <div key={si} className={`flex items-center gap-2 text-xs ${t.text} p-1.5 rounded-md`}>
-                    <span className="text-sm flex-shrink-0">
-                      {CATEGORY_EMOJI[stop.category] || '📌'}
-                    </span>
-                    <span className="flex-1 font-medium">{stop.name}</span>
-                    {stop.isFavorite && (
-                      <span className={`text-[9px] px-1.5 py-0.5 rounded-full ${t.favoriteBadge} font-medium`}>❤️</span>
-                    )}
-                    {stop.rating && (
-                      <span className={`text-[10px] ${t.textMuted}`}>⭐ {stop.rating}</span>
-                    )}
-                    {stop.duration && (
-                      <span className={`text-[10px] ${t.textFaint}`}>{stop.duration}</span>
-                    )}
-                    {stop.distanceFromHotelMeters != null && (
-                      <span className={`text-[10px] ${t.textFaint}`}>
-                        {formatDistance(stop.distanceFromHotelMeters)}
-                      </span>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
-
-          {stopsOverview.length === 0 && (
-            <p className={`text-xs ${t.textMuted} text-center py-4`}>
-              No stop zones available
-            </p>
-          )}
-        </div>
-      ),
-    },
   ];
 
   // ─── Grid Layout ───
   if (layout === 'grid') {
     return (
       <div className="space-y-3">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
           {sections.map((section) => {
             const isExpanded = expandedSections.has(section.id);
             return (

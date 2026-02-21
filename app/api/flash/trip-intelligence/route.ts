@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
 
     // Validate required fields
-    const { destinationId, country, departureDate, stops } = body;
+    const { destinationId, country, departureDate } = body;
     if (!destinationId || !country || !departureDate) {
       return NextResponse.json(
         { error: 'Missing required fields: destinationId, country, departureDate' },
@@ -39,10 +39,6 @@ export async function POST(request: NextRequest) {
       pathType: body.pathType || 'classic',
       vibes: body.vibes || [],
       nights,
-      stops: stops || [],
-      clusters: body.clusters || [],
-      hotel: body.hotel || undefined,
-      favoriteStopNames: body.favoriteStopNames || [],
     };
 
     const result = await assembleTripIntelligence(input);

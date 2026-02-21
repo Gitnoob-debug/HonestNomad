@@ -480,7 +480,7 @@ function FlashExploreContent() {
   const [loadingReviews, setLoadingReviews] = useState<string | null>(null);
 
   // Package step — walking route + trip dates + carousel sync
-  const [routeGeometry, setRouteGeometry] = useState<string | null>(null);
+  const [activeRoute, setActiveRoute] = useState<{ geometry: string; distance: number; duration: number } | null>(null);
   const [tripDates, setTripDates] = useState<{ departure: string; return: string }>({ departure: '', return: '' });
   const [activeCarouselStopId, setActiveCarouselStopId] = useState<string | null>(null);
 
@@ -855,7 +855,7 @@ function FlashExploreContent() {
     router.push('/flash/confirm');
   };
 
-  // Fetch walking directions + trip dates when package step is entered
+  // Load trip dates when package step is entered
   useEffect(() => {
     if (step !== 'package') return;
 
@@ -867,38 +867,50 @@ function FlashExploreContent() {
         setTripDates({ departure: parsed.departureDate || '', return: parsed.returnDate || '' });
       }
     } catch {}
+  }, [step]);
 
-    // Fetch walking directions for all stops
-    const allStops = itinerary.flatMap((d) => d.stops);
-    if (allStops.length < 2) return;
-
-    // Build coordinates: hotel first (if available), then all stops
-    const coords: [number, number][] = [];
-    if (!skipHotels && selectedHotel) {
-      coords.push([selectedHotel.latitude, selectedHotel.longitude]);
+  // Fetch walking route for active POI (hotel → stop) on click
+  useEffect(() => {
+    if (step !== 'package') return;
+    if (!activeCarouselStopId || !selectedHotel || skipHotels) {
+      setActiveRoute(null);
+      return;
     }
-    allStops.forEach((s) => {
-      coords.push([s.latitude, s.longitude]);
-    });
 
-    // Limit to 25 waypoints (Mapbox max)
-    const trimmedCoords = coords.slice(0, 25);
+    const stop = allStops.find(s => s.id === activeCarouselStopId);
+    if (!stop) {
+      setActiveRoute(null);
+      return;
+    }
+
+    let cancelled = false;
 
     fetch('/api/directions', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ coordinates: trimmedCoords }),
+      body: JSON.stringify({
+        coordinates: [
+          [selectedHotel.latitude, selectedHotel.longitude],
+          [stop.latitude, stop.longitude],
+        ],
+      }),
     })
       .then((res) => res.ok ? res.json() : null)
       .then((data) => {
-        if (data) {
-          setRouteGeometry(data.geometry);
+        if (!cancelled && data) {
+          setActiveRoute({
+            geometry: data.geometry,
+            distance: data.totalDistance,
+            duration: data.totalDuration,
+          });
         }
       })
-      .catch((err) => {
-        console.error('Failed to fetch walking directions:', err);
+      .catch(() => {
+        if (!cancelled) setActiveRoute(null);
       });
-  }, [step]);
+
+    return () => { cancelled = true; };
+  }, [activeCarouselStopId, step, selectedHotel, skipHotels]);
 
   const formatPrice = (amount: number, currency: string) => {
     return new Intl.NumberFormat('en-US', {
@@ -1069,7 +1081,7 @@ function FlashExploreContent() {
           favoriteStops={favoriteStops}
           onStopClick={handleStopClick}
           className="absolute inset-0"
-          hotelLocation={hotelZoneCenter}
+          hotelLocation={null}
           clusterZones={poiClusters.map(c => ({
             id: c.id,
             center: c.center,
@@ -1317,8 +1329,10 @@ function FlashExploreContent() {
                         className={`relative rounded-xl p-2.5 cursor-pointer transition-all ${
                           isActive
                             ? 'bg-white/15 ring-1 ring-white/20'
-                            : 'bg-white/8 hover:bg-white/12'
-                        } ${isFav ? 'border border-pink-500/30' : ''}`}
+                            : isFav
+                              ? 'bg-pink-500/15 hover:bg-pink-500/20'
+                              : 'bg-white/8 hover:bg-white/12'
+                        } ${isFav ? 'border border-pink-500/40' : ''}`}
                         style={clusterColor ? { borderLeft: `3px solid ${clusterColor}` } : undefined}
                       >
                         {/* Top row: emoji + rating */}
@@ -1337,7 +1351,7 @@ function FlashExploreContent() {
                             className="flex-shrink-0 mt-0.5"
                           >
                             <svg
-                              className={`w-4 h-4 transition-colors ${isFav ? 'text-pink-500 fill-pink-500' : 'text-white/30 hover:text-white/50'}`}
+                              className={`w-5 h-5 transition-colors ${isFav ? 'text-pink-500 fill-pink-500' : 'text-white/50 hover:text-white/70'}`}
                               viewBox="0 0 24 24"
                               stroke="currentColor"
                               strokeWidth={2}
@@ -1348,10 +1362,15 @@ function FlashExploreContent() {
                           </button>
                         </div>
 
-                        {/* Duration */}
-                        {stop.duration && (
-                          <p className="text-white/40 text-[10px] mt-1">{stop.duration}</p>
-                        )}
+                        {/* Duration + Saved badge */}
+                        <div className="flex items-center justify-between mt-1">
+                          {stop.duration && (
+                            <p className="text-white/40 text-[10px]">{stop.duration}</p>
+                          )}
+                          {isFav && (
+                            <span className="text-pink-400 text-[10px] font-medium">♥ Saved</span>
+                          )}
+                        </div>
                       </div>
                     );
                   })}
@@ -2478,11 +2497,31 @@ function FlashExploreContent() {
                   longitude: selectedHotel.longitude,
                   name: selectedHotel.name,
                 } : null}
-                routeGeometry={routeGeometry}
+                routeGeometry={activeRoute?.geometry || null}
                 heroMode
                 activeStopId={activeCarouselStopId}
                 onStopClick={(stopId) => setActiveCarouselStopId(stopId)}
               />
+
+              {/* Walk time chip — shows when a route is active */}
+              {activeRoute && activeCarouselStopId && (
+                <div className="absolute top-3 left-3 z-20">
+                  <div className="inline-flex items-center gap-1.5 bg-black/60 backdrop-blur-sm border border-white/15 rounded-full px-3 py-1.5">
+                    <span className="text-sm">🚶</span>
+                    <span className="text-white text-xs font-medium">
+                      {activeRoute.duration < 3600
+                        ? `${Math.round(activeRoute.duration / 60)} min`
+                        : `${Math.floor(activeRoute.duration / 3600)}h ${Math.round((activeRoute.duration % 3600) / 60)}m`}
+                    </span>
+                    <span className="text-white/40 text-xs">·</span>
+                    <span className="text-white/60 text-xs">
+                      {activeRoute.distance < 1000
+                        ? `${Math.round(activeRoute.distance)}m`
+                        : `${(activeRoute.distance / 1000).toFixed(1)}km`}
+                    </span>
+                  </div>
+                </div>
+              )}
 
               {/* POI Carousel overlapping map bottom */}
               <div className="absolute bottom-0 left-0 right-0 z-10">

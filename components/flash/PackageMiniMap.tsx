@@ -255,37 +255,58 @@ export function PackageMiniMap({
     });
   }, [activeStopId, mapLoaded, stops]);
 
-  // Add route polyline with draw animation
+  // Show/update/clear route polyline when active POI changes
   useEffect(() => {
-    if (!map.current || !mapLoaded || !routeGeometry) return;
+    if (!map.current || !mapLoaded) return;
 
     const m = map.current;
 
+    // Cancel any running animation
+    if (animFrameRef.current) {
+      cancelAnimationFrame(animFrameRef.current);
+      animFrameRef.current = null;
+    }
+
+    // No route geometry → clear/hide route
+    if (!routeGeometry) {
+      if (routeAdded.current) {
+        const emptyData: GeoJSON.Feature = {
+          type: 'Feature',
+          properties: {},
+          geometry: { type: 'LineString', coordinates: [] },
+        };
+        const src = m.getSource('package-route') as mapboxgl.GeoJSONSource;
+        if (src) src.setData(emptyData as any);
+      }
+      return;
+    }
+
     try {
       const decoded = decodePolyline6(routeGeometry);
-      // Convert [lat, lng] to [lng, lat] for GeoJSON
       const coordinates = decoded.map(([lat, lng]) => [lng, lat]);
 
       const routeData: GeoJSON.Feature = {
         type: 'Feature',
         properties: {},
-        geometry: {
-          type: 'LineString',
-          coordinates,
-        },
+        geometry: { type: 'LineString', coordinates },
       };
 
       if (routeAdded.current) {
+        // Update existing source — no animation, instant swap
         const src = m.getSource('package-route') as mapboxgl.GeoJSONSource;
         if (src) src.setData(routeData as any);
+        // Ensure layers are visible (in case they were hidden)
+        if (m.getLayer('package-route-bg')) {
+          m.setPaintProperty('package-route-bg', 'line-opacity', 0.3);
+        }
+        if (m.getLayer('package-route-line')) {
+          m.setPaintProperty('package-route-line', 'line-dasharray', [2, 2]);
+          m.setPaintProperty('package-route-line', 'line-opacity', 0.8);
+        }
       } else {
+        // First time: add source + layers
         m.addSource('package-route', { type: 'geojson', data: routeData as any });
 
-        // Check reduced motion preference
-        const prefersReducedMotion = typeof window !== 'undefined'
-          && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-        // Background line (wider, for contrast)
         m.addLayer({
           id: 'package-route-bg',
           type: 'line',
@@ -293,15 +314,11 @@ export function PackageMiniMap({
           paint: {
             'line-color': '#1e3a5f',
             'line-width': 5,
-            'line-opacity': prefersReducedMotion ? 0.3 : 0,
+            'line-opacity': 0.3,
           },
-          layout: {
-            'line-cap': 'round',
-            'line-join': 'round',
-          },
+          layout: { 'line-cap': 'round', 'line-join': 'round' },
         });
 
-        // Main route line
         m.addLayer({
           id: 'package-route-line',
           type: 'line',
@@ -310,49 +327,12 @@ export function PackageMiniMap({
             'line-color': '#3b82f6',
             'line-width': 3,
             'line-opacity': 0.8,
-            'line-dasharray': prefersReducedMotion ? [2, 2] : [0, 10000],
+            'line-dasharray': [2, 2],
           },
-          layout: {
-            'line-cap': 'round',
-            'line-join': 'round',
-          },
+          layout: { 'line-cap': 'round', 'line-join': 'round' },
         });
 
         routeAdded.current = true;
-
-        // Animate route draw (skip if reduced motion)
-        if (!prefersReducedMotion) {
-          const totalSteps = 120; // ~2 seconds at 60fps
-          let step = 0;
-          const lineLength = 10000;
-
-          const animateRoute = () => {
-            step++;
-            const progress = step / totalSteps;
-            const dashLength = progress * lineLength;
-            const gapLength = (1 - progress) * lineLength;
-
-            if (m.getLayer('package-route-line')) {
-              m.setPaintProperty('package-route-line', 'line-dasharray', [dashLength, gapLength]);
-            }
-            if (m.getLayer('package-route-bg')) {
-              m.setPaintProperty('package-route-bg', 'line-opacity', progress * 0.3);
-            }
-
-            if (step >= totalSteps) {
-              // Reset to final dashed style
-              if (m.getLayer('package-route-line')) {
-                m.setPaintProperty('package-route-line', 'line-dasharray', [2, 2]);
-              }
-              animFrameRef.current = null;
-              return;
-            }
-
-            animFrameRef.current = requestAnimationFrame(animateRoute);
-          };
-
-          animFrameRef.current = requestAnimationFrame(animateRoute);
-        }
       }
     } catch (error) {
       console.error('Failed to add route polyline:', error);

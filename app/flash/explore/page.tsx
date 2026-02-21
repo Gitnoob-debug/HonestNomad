@@ -485,6 +485,8 @@ function FlashExploreContent() {
   const [activeCarouselStopId, setActiveCarouselStopId] = useState<string | null>(null);
   const [dayNarratives, setDayNarratives] = useState<Record<number, string>>({});
   const [narrativeLoading, setNarrativeLoading] = useState(false);
+  const [timeOverrides, setTimeOverrides] = useState<Record<string, string>>({});
+  const [editingStopTime, setEditingStopTime] = useState<string | null>(null);
 
   // Revealed preferences tracking
   const { trackHotelSelection, trackPOIAction } = useRevealedPreferences();
@@ -841,7 +843,8 @@ function FlashExploreContent() {
       itinerary,
       skipHotels,
       selectedHotel: skipHotels ? null : selectedHotel,
-      favoriteStops, // Include saved favorites
+      favoriteStops,
+      timeOverrides, // User's time-of-day adjustments
     };
     sessionStorage.setItem('flash_booking_data', JSON.stringify(bookingData));
     router.push('/flash/confirm');
@@ -903,6 +906,16 @@ function FlashExploreContent() {
 
     return () => { cancelled = true; };
   }, [activeCarouselStopId, step, selectedHotel, skipHotels]);
+
+  // Auto-scroll day planner timeline to active stop
+  useEffect(() => {
+    if (step !== 'package' || !activeCarouselStopId) return;
+    const timer = setTimeout(() => {
+      const el = document.querySelector(`[data-timeline-stop-id="${activeCarouselStopId}"]`);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 100);
+    return () => clearTimeout(timer);
+  }, [activeCarouselStopId, step]);
 
   // Fetch AI-generated day narratives when package step loads
   useEffect(() => {
@@ -2827,80 +2840,7 @@ function FlashExploreContent() {
               )}
             </div>
 
-            {/* 4. FAVORITES SHOWCASE */}
-            {favoriteStops.length >= 2 && (
-              <div className="px-4 py-5 border-t border-white/5">
-                <div className="flex items-center gap-2.5 mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-br from-pink-500/20 to-rose-500/20 rounded-full flex items-center justify-center">
-                    <span className="text-xl">{'\u2764\uFE0F'}</span>
-                  </div>
-                  <div>
-                    <h3 className="text-white font-bold text-base">Your Favorites</h3>
-                    <p className="text-white/50 text-xs">The {favoriteStops.length} spots you hand-picked</p>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {favoriteStops.slice(0, 4).map((stop) => {
-                    const walkMin = hasHotel && selectedHotel
-                      ? Math.max(1, Math.round(getDistanceMeters(selectedHotel.latitude, selectedHotel.longitude, stop.latitude, stop.longitude) / 80))
-                      : null;
-
-                    return (
-                      <div key={stop.id} className="bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-pink-500/30 transition-all">
-                        {/* Image */}
-                        <div className="relative h-36">
-                          <BlurUpImage
-                            src={stop.imageUrl || ''}
-                            alt={stop.name}
-                            fallbackEmoji={CAROUSEL_EMOJIS[stop.type] || '\uD83D\uDCCD'}
-                            fallbackGradient="bg-gradient-to-br from-pink-600/30 to-rose-700/30"
-                            className="w-full h-full"
-                          />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-                          <div className="absolute top-2 right-2 bg-pink-500/90 backdrop-blur-sm px-2 py-0.5 rounded-full">
-                            <span className="text-white text-[9px] font-bold uppercase tracking-wide">Favorite</span>
-                          </div>
-                        </div>
-
-                        {/* Details */}
-                        <div className="p-3">
-                          <h4 className="text-white font-semibold text-sm mb-1 line-clamp-1">{stop.name}</h4>
-
-                          {stop.googleRating && (
-                            <div className="flex items-center gap-1.5 mb-1.5">
-                              <span className="text-amber-400 text-xs font-medium">{'\u2605'} {stop.googleRating.toFixed(1)}</span>
-                              {stop.googleReviewCount && (
-                                <span className="text-white/40 text-[10px]">({stop.googleReviewCount.toLocaleString()})</span>
-                              )}
-                            </div>
-                          )}
-
-                          {stop.description && (
-                            <p className="text-white/50 text-xs line-clamp-2 mb-2">{stop.description}</p>
-                          )}
-
-                          <div className="flex items-center gap-3 text-[10px] text-white/40">
-                            {stop.duration && <span>{stop.duration}</span>}
-                            {walkMin !== null && (
-                              <span>{'\uD83D\uDEB6'} ~{walkMin} min walk</span>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-
-                {favoriteStops.length > 4 && (
-                  <p className="text-white/30 text-xs text-center mt-3">
-                    +{favoriteStops.length - 4} more favorite{favoriteStops.length - 4 !== 1 ? 's' : ''} in your itinerary
-                  </p>
-                )}
-              </div>
-            )}
-
-            {/* 5. VISUAL DAY PLANNER TIMELINE */}
+            {/* 4. VISUAL DAY PLANNER TIMELINE */}
             {(() => {
               const pkgClusters = allStops.length >= 4
                 ? clusterPOIsGeographic(allStops)
@@ -2943,22 +2883,29 @@ function FlashExploreContent() {
                         hotelWalkMin = Math.max(1, Math.round(dist / 80));
                       }
 
-                      // Group stops by bestTimeOfDay
+                      // Group stops by bestTimeOfDay (respecting user overrides)
                       const stopsByTime = new Map<string, typeof clusterStops>();
                       clusterStops.forEach(stop => {
-                        const timeKey = stop.bestTimeOfDay || 'any';
+                        const timeKey = timeOverrides[stop.id] || stop.bestTimeOfDay || 'any';
                         if (!stopsByTime.has(timeKey)) stopsByTime.set(timeKey, []);
                         stopsByTime.get(timeKey)!.push(stop);
                       });
 
-                      // Sort time groups
+                      // Sort time groups, filter out empty ones (from time overrides)
                       const sortedTimeGroups = Array.from(stopsByTime.entries())
+                        .filter(([, stops]) => stops.length > 0)
                         .sort((a, b) => (TIME_OF_DAY_CONFIG[a[0]]?.order ?? 99) - (TIME_OF_DAY_CONFIG[b[0]]?.order ?? 99));
+
+                      const hasActiveStop = clusterStops.some(s => s.id === activeCarouselStopId);
 
                       return (
                         <div
                           key={cluster.id}
-                          className="bg-white/5 border border-white/10 rounded-xl p-4"
+                          className={`rounded-xl p-4 transition-all duration-200 ${
+                            hasActiveStop
+                              ? 'bg-white/8 border border-primary-500/25'
+                              : 'bg-white/5 border border-white/10'
+                          }`}
                           style={{ borderLeftWidth: '4px', borderLeftColor: cluster.color }}
                         >
                           {/* Day header */}
@@ -3025,8 +2972,23 @@ function FlashExploreContent() {
                                           ))
                                         : null;
 
+                                      const stopTimeConfig = TIME_OF_DAY_CONFIG[timeOverrides[stop.id] || stop.bestTimeOfDay || 'any'] || TIME_OF_DAY_CONFIG.any;
+                                      const isStopActive = activeCarouselStopId === stop.id;
+
                                       return (
-                                        <div key={stop.id} className="flex gap-2.5 bg-white/5 rounded-lg p-2 hover:bg-white/8 transition-colors">
+                                        <div
+                                          key={stop.id}
+                                          data-timeline-stop-id={stop.id}
+                                          role="button"
+                                          tabIndex={0}
+                                          onClick={() => { setActiveCarouselStopId(stop.id); setEditingStopTime(null); }}
+                                          onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setActiveCarouselStopId(stop.id); }}
+                                          className={`flex gap-2.5 rounded-lg p-2 cursor-pointer transition-all ${
+                                            isStopActive
+                                              ? 'bg-primary-500/15 ring-1 ring-primary-400/40'
+                                              : 'bg-white/5 hover:bg-white/8'
+                                          }`}
+                                        >
                                           {/* Thumbnail */}
                                           <div className="relative w-14 h-14 rounded-md overflow-hidden flex-shrink-0">
                                             <BlurUpImage
@@ -3057,6 +3019,60 @@ function FlashExploreContent() {
                                                 {'\u2764\uFE0F'} Favorite
                                               </span>
                                             )}
+
+                                            {/* Time-of-day chip — tap to reassign */}
+                                            <div className="mt-1">
+                                              <button
+                                                onClick={(e) => {
+                                                  e.stopPropagation();
+                                                  setEditingStopTime(editingStopTime === stop.id ? null : stop.id);
+                                                }}
+                                                className="inline-flex items-center gap-1 text-[10px] text-white/40 hover:text-white/60 bg-white/5 hover:bg-white/10 rounded-full px-2 py-0.5 transition-colors"
+                                              >
+                                                <span>{stopTimeConfig.emoji}</span>
+                                                <span>{stopTimeConfig.label}</span>
+                                                <svg className="w-2.5 h-2.5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                                                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                              </button>
+
+                                              {editingStopTime === stop.id && (
+                                                <div className="flex flex-wrap gap-1 mt-1.5">
+                                                  {Object.entries(TIME_OF_DAY_CONFIG)
+                                                    .filter(([k]) => k !== 'any')
+                                                    .map(([key, config]) => {
+                                                      const currentTime = timeOverrides[stop.id] || stop.bestTimeOfDay || 'any';
+                                                      const isSelected = currentTime === key;
+                                                      return (
+                                                        <button
+                                                          key={key}
+                                                          onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            if (key === (stop.bestTimeOfDay || 'any')) {
+                                                              // Selecting original time = remove override
+                                                              setTimeOverrides(prev => {
+                                                                const next = { ...prev };
+                                                                delete next[stop.id];
+                                                                return next;
+                                                              });
+                                                            } else {
+                                                              setTimeOverrides(prev => ({ ...prev, [stop.id]: key }));
+                                                            }
+                                                            setEditingStopTime(null);
+                                                          }}
+                                                          className={`text-[10px] px-2 py-0.5 rounded-full transition-colors ${
+                                                            isSelected
+                                                              ? 'bg-primary-500/30 text-primary-300 ring-1 ring-primary-400/40'
+                                                              : 'bg-white/8 text-white/50 hover:bg-white/15 hover:text-white/70'
+                                                          }`}
+                                                        >
+                                                          {config.emoji} {config.label}
+                                                        </button>
+                                                      );
+                                                    })}
+                                                </div>
+                                              )}
+                                            </div>
                                           </div>
                                         </div>
                                       );

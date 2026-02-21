@@ -1,9 +1,8 @@
 /**
  * Trip Intelligence API Route
  *
- * Replaces /api/flash/magic-package. Instead of calling an LLM,
- * this assembles trip intelligence from precomputed fact sheets
- * and deterministic logic. Response time <50ms. Zero AI cost.
+ * Assembles trip intelligence from precomputed fact sheets
+ * and deterministic logic. Response time <50ms. Zero API cost.
  */
 
 import { NextRequest, NextResponse } from 'next/server';

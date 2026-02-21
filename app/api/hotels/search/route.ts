@@ -55,10 +55,6 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    console.log(`Searching hotels for ${destinationName || 'location'} (${latitude}, ${longitude})`);
-    console.log(`Dates: ${checkin} to ${checkout}`);
-    console.log(`Travelers: ${preferences.travelers?.adults || 2} adults`);
-
     // Search hotels — use zone radius if available for tighter results
     let hotels;
     try {
@@ -89,8 +85,6 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    console.log(`Found ${hotels.length} hotels matching preferences`);
-
     return NextResponse.json({
       hotels,
       searchParams: {
@@ -102,10 +96,8 @@ export async function POST(request: NextRequest) {
       },
     });
   } catch (error) {
-    console.error('Hotel search error:', error);
+    console.error('Hotel search error:', error instanceof Error ? error.message : error);
     const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-    const errorStack = error instanceof Error ? error.stack : '';
-    console.error('Stack:', errorStack);
 
     return NextResponse.json(
       { error: 'Failed to search hotels', details: errorMessage },

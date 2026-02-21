@@ -1,5 +1,4 @@
 // Destination Intelligence System — Scalable, data-driven trip prep
-// Replaces AI-generated Magic Package with precomputed facts + deterministic logic
 
 // === META ===
 export interface FactSheetMeta {
@@ -101,25 +100,4 @@ export interface TripIntelligence {
 
   // Packing section (deterministic from weather + vibe + activities)
   packing: PackingList;
-
-  // Stops overview — no longer used (distance info moved to day cards)
-  stopsOverview?: StopClusterSummary[];
-}
-
-/** @deprecated No longer assembled — hotel distances shown in day cards instead */
-export interface StopClusterSummary {
-  label: string;
-  stops: StopBrief[];
-  walkFromHotelMinutes?: number;
-}
-
-/** @deprecated No longer assembled — hotel distances shown in day cards instead */
-export interface StopBrief {
-  name: string;
-  category: string;
-  rating?: number;
-  duration?: string;
-  bestTimeOfDay?: string;
-  distanceFromHotelMeters?: number;
-  isFavorite?: boolean;
 }

@@ -186,19 +186,32 @@ export default function DiscoverPage() {
   }, [urlInput, imageFile]);
 
   // ── Map initialization / update ────────────────────────────────────
+  // Re-runs when result changes OR when confirmed changes (map container
+  // moves between two different JSX branches, so old instance is dead).
 
   useEffect(() => {
     if (!result?.location || !mapContainerRef.current) return;
 
     const { lat, lng } = result.location;
 
+    // Check if the existing map's container is still in the DOM.
+    // When switching between result→confirmed views, React unmounts
+    // the old container, making the map instance stale.
     if (mapRef.current) {
-      mapRef.current.flyTo({ center: [lng, lat], zoom: 10 });
-      if (markerRef.current) markerRef.current.remove();
-      markerRef.current = new mapboxgl.Marker({ color: '#3b82f6' })
-        .setLngLat([lng, lat])
-        .addTo(mapRef.current);
-      return;
+      const container = mapRef.current.getContainer();
+      if (!document.body.contains(container)) {
+        // Container was removed from DOM — destroy stale map
+        mapRef.current.remove();
+        mapRef.current = null;
+      } else {
+        // Container still valid — just update position
+        mapRef.current.flyTo({ center: [lng, lat], zoom: 10 });
+        if (markerRef.current) markerRef.current.remove();
+        markerRef.current = new mapboxgl.Marker({ color: '#3b82f6' })
+          .setLngLat([lng, lat])
+          .addTo(mapRef.current);
+        return;
+      }
     }
 
     const map = new mapboxgl.Map({
@@ -221,7 +234,7 @@ export default function DiscoverPage() {
     });
 
     mapRef.current = map;
-  }, [result?.location]);
+  }, [result?.location, confirmed]);
 
   // Cleanup map on unmount
   useEffect(() => {

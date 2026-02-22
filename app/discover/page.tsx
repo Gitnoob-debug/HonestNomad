@@ -591,6 +591,13 @@ export default function DiscoverPage() {
               </div>
             )}
 
+            {/* ── Debug panel (stress testing) ──────────────────────── */}
+            {showResults && result && (
+              <div className="mt-4 bg-gray-900 text-green-400 rounded-xl p-4 text-xs font-mono overflow-auto max-h-64">
+                <p className="text-gray-500 mb-2">Debug — raw API response:</p>
+                <pre>{JSON.stringify(result, null, 2)}</pre>
+              </div>
+            )}
           </>
         )}
       </div>

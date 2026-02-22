@@ -28,6 +28,11 @@ export interface LocationAnalysisResponse {
   success: boolean;
   location: ResolvedLocation | null;
   matchedDestination: MatchedDestination | null; // match against our 494
+  // Multi-location support: when content mentions several places
+  locations?: Array<{
+    location: ResolvedLocation;
+    matchedDestination: MatchedDestination | null;
+  }>;
   error?: string;
 }
 

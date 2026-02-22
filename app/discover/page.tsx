@@ -7,6 +7,45 @@ import type { LocationAnalysisResponse } from '@/types/location';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || '';
 
+// ── Destination thumbnail with error fallback ────────────────────────
+
+function DestinationThumb({
+  src,
+  city,
+  size = 'md',
+}: {
+  src: string;
+  city: string;
+  size?: 'sm' | 'md';
+}) {
+  const [failed, setFailed] = useState(false);
+  const dim = size === 'sm' ? 'w-14 h-14' : 'w-16 h-16';
+
+  // Optimize Unsplash URLs with WebP auto-format
+  const optimizedSrc = src.includes('unsplash.com')
+    ? src + (src.includes('?') ? '&' : '?') + 'q=80&auto=format&fit=crop&w=128&h=128'
+    : src;
+
+  if (failed || !src) {
+    return (
+      <div
+        className={`${dim} rounded-lg bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center flex-shrink-0`}
+      >
+        <span className="text-xl">🌍</span>
+      </div>
+    );
+  }
+
+  return (
+    <img
+      src={optimizedSrc}
+      alt={city}
+      className={`${dim} rounded-lg object-cover flex-shrink-0`}
+      onError={() => setFailed(true)}
+    />
+  );
+}
+
 // ── Client-side image compression ────────────────────────────────────
 // Resize to max 1024px longest side, export as JPEG 0.85 quality.
 // Reduces 3-5MB photos to ~100-300KB — well within API limits and
@@ -281,10 +320,10 @@ export default function DiscoverPage() {
                     We have this destination in our collection!
                   </p>
                   <div className="flex items-center gap-3">
-                    <img
+                    <DestinationThumb
                       src={result.matchedDestination.imageUrl}
-                      alt={result.matchedDestination.city}
-                      className="w-16 h-16 rounded-lg object-cover"
+                      city={result.matchedDestination.city}
+                      size="md"
                     />
                     <div className="text-left">
                       <p className="font-semibold text-gray-900">
@@ -515,10 +554,10 @@ export default function DiscoverPage() {
 
                   {result.matchedDestination && (
                     <div className="mt-4 flex items-center gap-3 p-3 bg-green-50 rounded-xl">
-                      <img
+                      <DestinationThumb
                         src={result.matchedDestination.imageUrl}
-                        alt={result.matchedDestination.city}
-                        className="w-14 h-14 rounded-lg object-cover"
+                        city={result.matchedDestination.city}
+                        size="sm"
                       />
                       <div>
                         <p className="text-sm font-medium text-green-800">

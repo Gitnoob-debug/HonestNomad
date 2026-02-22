@@ -292,7 +292,7 @@ async function fetchYouTubeTranscript(url: string): Promise<string | null> {
 
     // Extract captionTracks from ytInitialPlayerResponse embedded in the page
     const captionMatch = html.match(
-      /"captionTracks":\s*(\[.*?\])/s,
+      /"captionTracks":\s*(\[[\s\S]*?\])/,
     );
     if (!captionMatch) return null;
 

@@ -309,15 +309,27 @@ Caption: "${caption}"`,
       response.choices[0]?.message?.content?.trim() || '';
     return parseClaudeJSON(text);
   } catch (error: unknown) {
-    const errMsg = error instanceof Error ? error.message : String(error);
-    console.error('[location-resolver] Caption analysis failed:', errMsg, error);
+    let errDetail = '';
+    if (error && typeof error === 'object') {
+      const e = error as Record<string, unknown>;
+      errDetail = JSON.stringify({
+        message: e.message,
+        status: e.status,
+        code: e.code,
+        type: e.type,
+        error: e.error,
+      });
+    } else {
+      errDetail = String(error);
+    }
+    console.error('[location-resolver] Caption analysis failed:', errDetail);
     return {
       city: null,
       country: null,
       region: null,
       locationString: null,
       confidence: 'low',
-      reasoning: `Caption analysis failed: ${errMsg.slice(0, 100)}`,
+      reasoning: `Caption failed [${HAIKU_MODEL}]: ${errDetail.slice(0, 200)}`,
     };
   }
 }
@@ -390,15 +402,29 @@ ${caption ? `Caption context (use as supporting evidence): "${caption}"` : 'No c
       response.choices[0]?.message?.content?.trim() || '';
     return parseClaudeJSON(text);
   } catch (error: unknown) {
-    const errMsg = error instanceof Error ? error.message : String(error);
-    console.error('[location-resolver] Vision analysis failed:', errMsg, error);
+    // Extract full error details from OpenRouter/OpenAI SDK error
+    let errDetail = '';
+    if (error && typeof error === 'object') {
+      const e = error as Record<string, unknown>;
+      // OpenAI SDK wraps the error — dig into it
+      errDetail = JSON.stringify({
+        message: e.message,
+        status: e.status,
+        code: e.code,
+        type: e.type,
+        error: e.error,
+      });
+    } else {
+      errDetail = String(error);
+    }
+    console.error('[location-resolver] Vision analysis failed:', errDetail);
     return {
       city: null,
       country: null,
       region: null,
       locationString: null,
       confidence: 'low',
-      reasoning: `Vision analysis failed: ${errMsg.slice(0, 100)}`,
+      reasoning: `Vision failed [${VISION_MODEL}]: ${errDetail.slice(0, 200)}`,
     };
   }
 }

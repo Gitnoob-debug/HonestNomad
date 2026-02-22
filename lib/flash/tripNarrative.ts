@@ -15,7 +15,7 @@ import type {
   TripNarrativeResponse,
 } from '@/types/trip-narrative';
 
-const HAIKU_MODEL = 'anthropic/claude-3-5-haiku-latest';
+const HAIKU_MODEL = 'anthropic/claude-3.5-haiku';
 
 // ── In-memory cache ──────────────────────────────────────────────────
 // Prevents re-generation on back/forward navigation within the same session.

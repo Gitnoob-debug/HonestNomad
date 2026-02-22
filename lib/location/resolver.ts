@@ -18,7 +18,7 @@ import type {
   MatchedDestination,
 } from '@/types/location';
 
-const HAIKU_MODEL = 'anthropic/claude-3-5-haiku-latest';
+const HAIKU_MODEL = 'anthropic/claude-3.5-haiku';
 const FETCH_TIMEOUT_MS = 10_000;
 const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
 

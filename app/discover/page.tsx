@@ -206,6 +206,10 @@ export default function DiscoverPage() {
       markerRef.current.remove();
       markerRef.current = null;
     }
+    if (mapRef.current) {
+      mapRef.current.remove();
+      mapRef.current = null;
+    }
   }, []);
 
   // ── Drag and drop ──────────────────────────────────────────────────

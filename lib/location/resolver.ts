@@ -64,7 +64,7 @@ export async function resolveLocation(
   // === PATH A: URL INPUT ===
   if (req.url) {
     _debug.push(`URL input: ${req.url}`);
-    const metadata = await extractMetadata(req.url);
+    const metadata = await extractMetadata(req.url, _debug);
     _debug.push(`Caption length: ${metadata.caption?.length ?? 0}`);
     _debug.push(`Caption preview: ${metadata.caption?.slice(0, 300) ?? '(none)'}`);
     _debug.push(`Thumbnail: ${metadata.thumbnail ? 'yes' : 'no'}`);
@@ -204,7 +204,7 @@ function detectPlatform(url: string): 'tiktok' | 'youtube' | 'instagram' | 'unkn
   return 'unknown';
 }
 
-async function extractMetadata(url: string): Promise<SocialMetadata> {
+async function extractMetadata(url: string, _debug?: string[]): Promise<SocialMetadata> {
   const platform = detectPlatform(url);
 
   // Try platform-specific oEmbed first
@@ -216,9 +216,12 @@ async function extractMetadata(url: string): Promise<SocialMetadata> {
   if (platform === 'youtube') {
     // oEmbed gives title + thumbnail, but the title is often vague.
     // The real city names are SPOKEN in the video — grab the transcript.
+    // Normalize: use /watch?v= URL for OG tags and transcript (Shorts pages have less metadata)
+    const videoId = extractYouTubeVideoId(url);
+    const watchUrl = videoId ? `https://www.youtube.com/watch?v=${videoId}` : url;
     const oembed = await fetchYouTubeOEmbed(url);
-    const transcript = await fetchYouTubeTranscript(url);
-    const og = await fetchOGTags(url);
+    const transcript = await fetchYouTubeTranscript(watchUrl);
+    const og = await fetchOGTags(watchUrl);
 
     // Priority: transcript (everything spoken) > OG description > title
     const parts = [
@@ -228,6 +231,9 @@ async function extractMetadata(url: string): Promise<SocialMetadata> {
     ].filter(Boolean);
     const combined = parts.join(' — ');
 
+    _debug?.push(`YT oEmbed title: ${oembed.caption?.slice(0, 80) ?? '(none)'}`);
+    _debug?.push(`YT OG description: ${og.caption?.slice(0, 80) ?? '(none)'}`);
+    _debug?.push(`YT transcript: ${transcript ? `${transcript.length} chars` : 'FAILED'}`);
     console.log('[extractMetadata] YouTube parts:', {
       oembedTitle: oembed.caption?.slice(0, 80),
       ogDescription: og.caption?.slice(0, 80),
@@ -304,11 +310,14 @@ function extractYouTubeVideoId(url: string): string | null {
 async function fetchYouTubeTranscript(url: string): Promise<string | null> {
   try {
     console.log('[yt-transcript] Fetching page HTML for:', url);
-    const response = await fetchWithTimeout(url, FETCH_TIMEOUT_MS, {
+
+    // YouTube pages can be slow — use a longer timeout than default
+    const response = await fetchWithTimeout(url, 15_000, {
       headers: {
         'User-Agent':
           'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept-Language': 'en-US,en;q=0.9',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       },
       redirect: 'follow',
     });
@@ -321,6 +330,7 @@ async function fetchYouTubeTranscript(url: string): Promise<string | null> {
     console.log('[yt-transcript] HTML length:', html.length);
     console.log('[yt-transcript] Contains captionTracks:', html.includes('captionTracks'));
     console.log('[yt-transcript] Contains playerResponse:', html.includes('ytInitialPlayerResponse'));
+    console.log('[yt-transcript] Contains CONSENT:', html.includes('consent.youtube.com'));
 
     // Extract captionTracks from ytInitialPlayerResponse embedded in the page
     const captionMatch = html.match(

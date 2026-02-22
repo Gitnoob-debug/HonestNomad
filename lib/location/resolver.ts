@@ -192,8 +192,19 @@ async function extractMetadata(url: string): Promise<SocialMetadata> {
   }
 
   if (platform === 'youtube') {
-    const result = await fetchYouTubeOEmbed(url);
-    if (result.thumbnail || result.caption) return result;
+    // oEmbed gives us title + thumbnail, but the title is often vague
+    // ("Top 10 Places..."). We need the description for city names.
+    const oembed = await fetchYouTubeOEmbed(url);
+    const og = await fetchOGTags(url);
+
+    // Combine: use the richer caption (title + description)
+    const parts = [oembed.caption, og.caption].filter(Boolean);
+    const combined = parts.join(' — ');
+
+    return {
+      thumbnail: oembed.thumbnail || og.thumbnail,
+      caption: combined || null,
+    };
   }
 
   // Fallback: extract OG tags directly from URL

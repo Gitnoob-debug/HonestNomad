@@ -316,7 +316,7 @@ async function fetchYouTubeTranscript(url: string): Promise<string | null> {
     const captionXml = await captionResponse.text();
 
     // Parse caption text from XML: <text start="..." dur="...">caption here</text>
-    const textSegments = captionXml.match(/<text[^>]*>(.*?)<\/text>/gs);
+    const textSegments = captionXml.match(/<text[^>]*>[\s\S]*?<\/text>/g);
     if (!textSegments || textSegments.length === 0) return null;
 
     const transcript = textSegments

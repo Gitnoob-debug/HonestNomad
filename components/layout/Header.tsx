@@ -25,28 +25,28 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
+            <Link
+              href="/flash"
+              className="flex items-center gap-1.5 px-3 py-1.5 bg-primary-50 text-primary-700 rounded-full font-medium hover:bg-primary-100 transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              Flash
+            </Link>
+            <Link
+              href="/discover"
+              className="flex items-center gap-1.5 text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              Discover
+            </Link>
             {!loading && (
               <>
                 {user ? (
                   <>
-                    <Link
-                      href="/flash"
-                      className="flex items-center gap-1.5 px-3 py-1.5 bg-primary-50 text-primary-700 rounded-full font-medium hover:bg-primary-100 transition-colors"
-                    >
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                      </svg>
-                      Flash
-                    </Link>
-                    <Link
-                      href="/discover"
-                      className="flex items-center gap-1.5 text-gray-600 hover:text-gray-900 transition-colors"
-                    >
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                      </svg>
-                      Discover
-                    </Link>
                     <Link
                       href="/bookings"
                       className="text-gray-600 hover:text-gray-900 transition-colors"
@@ -137,74 +137,76 @@ export function Header() {
         {/* Mobile Navigation */}
         {menuOpen && (
           <div className="md:hidden py-4 border-t">
-            {!loading && (
-              <div className="space-y-2">
-                {user ? (
-                  <>
-                    <Link
-                      href="/flash"
-                      className="flex items-center gap-2 px-4 py-2 text-primary-700 bg-primary-50 hover:bg-primary-100 rounded-lg font-medium"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                      </svg>
-                      Flash Vacation
-                    </Link>
-                    <Link
-                      href="/discover"
-                      className="flex items-center gap-2 px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                      </svg>
-                      Discover
-                    </Link>
-                    <Link
-                      href="/bookings"
-                      className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      My Bookings
-                    </Link>
-                    <Link
-                      href="/settings"
-                      className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      Settings
-                    </Link>
-                    <button
-                      onClick={() => {
-                        signOut();
-                        setMenuOpen(false);
-                      }}
-                      className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-                    >
-                      Sign out
-                    </button>
-                  </>
-                ) : (
-                  <>
-                    <Link
-                      href="/auth/login"
-                      className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      Log in
-                    </Link>
-                    <Link
-                      href="/auth/signup"
-                      className="block px-4 py-2 text-primary-600 font-medium hover:bg-gray-100 rounded-lg"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      Sign up
-                    </Link>
-                  </>
-                )}
-              </div>
-            )}
+            <div className="space-y-2">
+              <Link
+                href="/flash"
+                className="flex items-center gap-2 px-4 py-2 text-primary-700 bg-primary-50 hover:bg-primary-100 rounded-lg font-medium"
+                onClick={() => setMenuOpen(false)}
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                Flash Vacation
+              </Link>
+              <Link
+                href="/discover"
+                className="flex items-center gap-2 px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
+                onClick={() => setMenuOpen(false)}
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                Discover
+              </Link>
+              {!loading && (
+                <>
+                  {user ? (
+                    <>
+                      <Link
+                        href="/bookings"
+                        className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
+                        onClick={() => setMenuOpen(false)}
+                      >
+                        My Bookings
+                      </Link>
+                      <Link
+                        href="/settings"
+                        className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
+                        onClick={() => setMenuOpen(false)}
+                      >
+                        Settings
+                      </Link>
+                      <button
+                        onClick={() => {
+                          signOut();
+                          setMenuOpen(false);
+                        }}
+                        className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
+                      >
+                        Sign out
+                      </button>
+                    </>
+                  ) : (
+                    <>
+                      <Link
+                        href="/auth/login"
+                        className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
+                        onClick={() => setMenuOpen(false)}
+                      >
+                        Log in
+                      </Link>
+                      <Link
+                        href="/auth/signup"
+                        className="block px-4 py-2 text-primary-600 font-medium hover:bg-gray-100 rounded-lg"
+                        onClick={() => setMenuOpen(false)}
+                      >
+                        Sign up
+                      </Link>
+                    </>
+                  )}
+                </>
+              )}
+            </div>
           </div>
         )}
       </div>

@@ -2,10 +2,14 @@
  * Social Location Resolver
  *
  * Resolves geographic locations from social media URLs and uploaded images.
- * Pipeline: oEmbed metadata → Claude caption analysis → Claude Vision → Mapbox geocoding → destination matching
  *
- * Uses Claude Haiku 3.5 for text analysis, Sonnet 4.6 for vision (Haiku doesn't support vision via OpenRouter).
- * Sequential escalation: cheap text analysis first, vision only if needed.
+ * URL path:  oEmbed/OG metadata + YouTube transcript → multi-location caption analysis (Haiku)
+ *            → fallback: thumbnail vision (Sonnet) → Mapbox geocoding → destination matching
+ *
+ * Image path: Claude Vision (Sonnet) → Mapbox geocoding → destination matching
+ *
+ * Supports single and multi-location results. Multi-location URLs (e.g. "Top 10 Places")
+ * return a tile grid for the user to pick from.
  */
 
 import { getOpenRouterClient } from '@/lib/claude/client';
@@ -389,71 +393,6 @@ async function fetchImageAsBase64(imageUrl: string): Promise<string | null> {
     return base64;
   } catch {
     return null;
-  }
-}
-
-// ── Claude: Caption analysis (text-only, cheap) ─────────────────────
-
-async function analyzeCaption(caption: string): Promise<ClaudeLocationResult> {
-  const client = getOpenRouterClient();
-
-  try {
-    const response = await client.chat.completions.create({
-      model: HAIKU_MODEL,
-      max_tokens: 512,
-      temperature: 0,
-      messages: [
-        {
-          role: 'user',
-          content: `You are a geographic location identifier. Extract the location from this social media caption.
-
-RULES:
-1. Return ONLY valid JSON. No explanation, no markdown fences, no preamble.
-2. If the caption clearly names a city or contains emoji flags (🇹🇭🇫🇷🇮🇩), confidence is "high".
-3. If the caption is vague or could be multiple places, confidence is "low".
-4. If no location is identifiable, return null for city/country/locationString with confidence "low".
-
-RETURN THIS EXACT JSON:
-{
-  "city": "string or null",
-  "country": "string or null",
-  "region": "string or null",
-  "locationString": "string or null — best single geocodable search string like 'Chiang Mai, Thailand'",
-  "confidence": "high or low",
-  "reasoning": "one sentence explaining your identification"
-}
-
-Caption: "${caption}"`,
-        },
-      ],
-    });
-
-    const text =
-      response.choices[0]?.message?.content?.trim() || '';
-    return parseClaudeJSON(text);
-  } catch (error: unknown) {
-    let errDetail = '';
-    if (error && typeof error === 'object') {
-      const e = error as Record<string, unknown>;
-      errDetail = JSON.stringify({
-        message: e.message,
-        status: e.status,
-        code: e.code,
-        type: e.type,
-        error: e.error,
-      });
-    } else {
-      errDetail = String(error);
-    }
-    console.error('[location-resolver] Caption analysis failed:', errDetail);
-    return {
-      city: null,
-      country: null,
-      region: null,
-      locationString: null,
-      confidence: 'low',
-      reasoning: `Caption failed [${HAIKU_MODEL}]: ${errDetail.slice(0, 200)}`,
-    };
   }
 }
 

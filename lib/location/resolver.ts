@@ -14,6 +14,7 @@ import type {
   AnalyzeLocationRequest,
   LocationAnalysisResponse,
   ClaudeLocationResult,
+  ClaudeMultiLocationResult,
   ResolvedLocation,
   MatchedDestination,
 } from '@/types/location';
@@ -23,111 +24,146 @@ const VISION_MODEL = 'anthropic/claude-sonnet-4.6'; // Haiku doesn't support vis
 const FETCH_TIMEOUT_MS = 10_000;
 const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
 
+// ── Helper: geocode + match a single ClaudeLocationResult ────────────
+
+async function resolveOne(
+  cr: ClaudeLocationResult,
+  source: ResolvedLocation['source'],
+): Promise<{ location: ResolvedLocation; matchedDestination: MatchedDestination | null } | null> {
+  if (!cr.locationString) return null;
+  const geocoded = await geocodeLocation(cr.locationString);
+  if (!geocoded) return null;
+  const matched = matchDestination(cr.city, cr.country, geocoded.lat, geocoded.lng);
+  return {
+    location: {
+      city: cr.city,
+      country: cr.country,
+      locationString: cr.locationString,
+      lat: geocoded.lat,
+      lng: geocoded.lng,
+      displayName: geocoded.displayName,
+      confidence: cr.confidence,
+      reasoning: cr.reasoning,
+      source,
+    },
+    matchedDestination: matched,
+  };
+}
+
 // ── Main entry point ─────────────────────────────────────────────────
 
 export async function resolveLocation(
   req: AnalyzeLocationRequest,
 ): Promise<LocationAnalysisResponse> {
-  let claudeResult: ClaudeLocationResult | null = null;
-  let source: ResolvedLocation['source'] = 'vision';
-
   // === PATH A: URL INPUT ===
   if (req.url) {
-    // Step 1: Extract metadata via oEmbed / OG tags
     const metadata = await extractMetadata(req.url);
 
-    // Step 2: Try caption analysis first (cheap, text-only)
+    // Step 1: Try multi-location caption analysis (cheap, text-only)
     if (metadata.caption && metadata.caption.length > 5) {
-      claudeResult = await analyzeCaption(metadata.caption);
-      source = 'caption';
-    }
+      const multiResult = await analyzeCaptionMulti(metadata.caption);
 
-    // Step 3: If caption didn't give high confidence, try vision on thumbnail
-    if ((!claudeResult || claudeResult.confidence === 'low') && metadata.thumbnail) {
-      const thumbnailBase64 = await fetchImageAsBase64(metadata.thumbnail);
-      if (thumbnailBase64) {
-        const visionResult = await analyzeImage(
-          thumbnailBase64,
-          'image/jpeg', // thumbnails are always JPEG
-          metadata.caption || undefined,
+      if (multiResult.locations.length > 1) {
+        // Multiple locations found — geocode all in parallel
+        const resolved = await Promise.all(
+          multiResult.locations.map((cr) => resolveOne(cr, 'caption')),
         );
-        // Take vision result if it's better than caption result
-        if (!claudeResult || visionResult.confidence === 'high') {
-          claudeResult = visionResult;
-          source = 'vision';
+        const valid = resolved.filter(
+          (r): r is NonNullable<typeof r> => r !== null,
+        );
+
+        if (valid.length > 1) {
+          return {
+            success: true,
+            location: valid[0].location,
+            matchedDestination: valid[0].matchedDestination,
+            locations: valid,
+          };
+        }
+        // If only 1 survived geocoding, fall through to single-result path
+        if (valid.length === 1) {
+          return {
+            success: true,
+            location: valid[0].location,
+            matchedDestination: valid[0].matchedDestination,
+          };
+        }
+      }
+
+      // Single location from caption
+      if (multiResult.locations.length === 1) {
+        const single = multiResult.locations[0];
+        if (single.confidence === 'high') {
+          const result = await resolveOne(single, 'caption');
+          if (result) {
+            return { success: true, ...result };
+          }
         }
       }
     }
 
-    // Step 4: If we still have nothing, try treating the URL title/description as metadata
-    if (!claudeResult && metadata.caption) {
-      claudeResult = {
-        city: null,
-        country: null,
-        region: null,
-        locationString: null,
-        confidence: 'low',
-        reasoning: 'Could not extract location information from this link.',
-      };
-      source = 'metadata';
+    // Step 2: If caption didn't produce results, try vision on thumbnail
+    if (metadata.thumbnail) {
+      const thumbnailBase64 = await fetchImageAsBase64(metadata.thumbnail);
+      if (thumbnailBase64) {
+        const visionResult = await analyzeImage(
+          thumbnailBase64,
+          'image/jpeg',
+          metadata.caption || undefined,
+        );
+        if (visionResult.confidence === 'high') {
+          const result = await resolveOne(visionResult, 'vision');
+          if (result) {
+            return { success: true, ...result };
+          }
+        }
+      }
     }
+
+    // Step 3: Nothing worked
+    return {
+      success: true,
+      location: null,
+      matchedDestination: null,
+      error: 'Could not extract location information from this link.',
+    };
   }
 
-  // === PATH B: IMAGE UPLOAD ===
+  // === PATH B: IMAGE UPLOAD (always single location) ===
   if (req.imageBase64) {
-    claudeResult = await analyzeImage(
+    const claudeResult = await analyzeImage(
       req.imageBase64,
       req.imageMimeType || 'image/jpeg',
       undefined,
     );
-    source = 'vision';
+
+    if (!claudeResult.locationString) {
+      return {
+        success: true,
+        location: null,
+        matchedDestination: null,
+        error: claudeResult.reasoning || 'Could not determine a location from this image.',
+      };
+    }
+
+    const result = await resolveOne(claudeResult, 'vision');
+    if (!result) {
+      return {
+        success: true,
+        location: null,
+        matchedDestination: null,
+        error: `Identified as "${claudeResult.locationString}" but could not find it on the map.`,
+      };
+    }
+
+    return { success: true, ...result };
   }
-
-  // No result at all
-  if (!claudeResult || !claudeResult.locationString) {
-    return {
-      success: true,
-      location: null,
-      matchedDestination: null,
-      error: claudeResult?.reasoning || 'Could not determine a location from this input.',
-    };
-  }
-
-  // === GEOCODE ===
-  const geocoded = await geocodeLocation(claudeResult.locationString);
-  if (!geocoded) {
-    return {
-      success: true,
-      location: null,
-      matchedDestination: null,
-      error: `Identified as "${claudeResult.locationString}" but could not find it on the map.`,
-    };
-  }
-
-  // === MATCH TO OUR DESTINATIONS ===
-  const matched = matchDestination(
-    claudeResult.city,
-    claudeResult.country,
-    geocoded.lat,
-    geocoded.lng,
-  );
-
-  const location: ResolvedLocation = {
-    city: claudeResult.city,
-    country: claudeResult.country,
-    locationString: claudeResult.locationString,
-    lat: geocoded.lat,
-    lng: geocoded.lng,
-    displayName: geocoded.displayName,
-    confidence: claudeResult.confidence,
-    reasoning: claudeResult.reasoning,
-    source,
-  };
 
   return {
     success: true,
-    location,
-    matchedDestination: matched,
+    location: null,
+    matchedDestination: null,
+    error: 'Provide either a URL or an image.',
   };
 }
 
@@ -331,6 +367,91 @@ Caption: "${caption}"`,
       confidence: 'low',
       reasoning: `Caption failed [${HAIKU_MODEL}]: ${errDetail.slice(0, 200)}`,
     };
+  }
+}
+
+// ── Claude: Multi-location caption analysis (text-only) ──────────────
+
+async function analyzeCaptionMulti(
+  caption: string,
+): Promise<ClaudeMultiLocationResult> {
+  const client = getOpenRouterClient();
+
+  try {
+    const response = await client.chat.completions.create({
+      model: HAIKU_MODEL,
+      max_tokens: 1024,
+      temperature: 0,
+      messages: [
+        {
+          role: 'user',
+          content: `You are a geographic location extractor for a travel app. Extract ALL locations mentioned in this social media caption/title.
+
+RULES:
+1. Return ONLY valid JSON. No explanation, no markdown fences, no preamble.
+2. If the caption names multiple cities or places, return ALL of them as separate entries.
+3. If it only mentions one place, return an array with one entry.
+4. If no location is identifiable, return an empty array.
+5. "high" confidence = you are 85%+ certain of the specific city.
+6. "low" confidence = vague or uncertain. Skip these — only return high-confidence locations.
+7. Deduplicate: if "Bali" and "Ubud, Bali" both appear, keep only "Ubud, Bali" (the more specific one).
+
+RETURN THIS EXACT JSON:
+{
+  "locations": [
+    {
+      "city": "string or null",
+      "country": "string or null",
+      "region": "string or null",
+      "locationString": "best geocodable string like 'Chiang Mai, Thailand'",
+      "confidence": "high or low",
+      "reasoning": "one sentence"
+    }
+  ]
+}
+
+Caption: "${caption}"`,
+        },
+      ],
+    });
+
+    const text = response.choices[0]?.message?.content?.trim() || '';
+    return parseClaudeMultiJSON(text);
+  } catch (error: unknown) {
+    console.error('[location-resolver] Multi-caption analysis failed:', error);
+    return { locations: [] };
+  }
+}
+
+function parseClaudeMultiJSON(text: string): ClaudeMultiLocationResult {
+  let cleaned = text.replace(/```json\s*/g, '').replace(/```\s*/g, '');
+  const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
+  if (jsonMatch) cleaned = jsonMatch[0];
+
+  try {
+    const parsed = JSON.parse(cleaned);
+    if (Array.isArray(parsed.locations)) {
+      return {
+        locations: parsed.locations
+          .filter((l: Record<string, unknown>) => l.locationString)
+          .map((l: Record<string, unknown>) => ({
+            city: (l.city as string) || null,
+            country: (l.country as string) || null,
+            region: (l.region as string) || null,
+            locationString: (l.locationString as string) || null,
+            confidence: l.confidence === 'high' ? 'high' as const : 'low' as const,
+            reasoning: (l.reasoning as string) || 'No reasoning provided.',
+          })),
+      };
+    }
+    // Fallback: single object instead of array
+    if (parsed.locationString) {
+      return { locations: [parseClaudeJSON(cleaned)] };
+    }
+    return { locations: [] };
+  } catch {
+    console.error('[location-resolver] Failed to parse multi-location JSON:', text.slice(0, 200));
+    return { locations: [] };
   }
 }
 

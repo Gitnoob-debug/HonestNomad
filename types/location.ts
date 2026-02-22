@@ -16,6 +16,11 @@ export interface ClaudeLocationResult {
   reasoning: string; // one sentence explaining the identification
 }
 
+// Multi-location: Claude returns an array when content mentions several places
+export interface ClaudeMultiLocationResult {
+  locations: ClaudeLocationResult[];
+}
+
 // ── API request / response ───────────────────────────────────────────
 
 export interface AnalyzeLocationRequest {

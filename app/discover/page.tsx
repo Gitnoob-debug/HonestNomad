@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import type { LocationAnalysisResponse } from '@/types/location';
@@ -100,6 +101,8 @@ function compressImage(
 // ── Main page component ─────────────────────────────────────────────
 
 export default function DiscoverPage() {
+  const router = useRouter();
+
   // Input state
   const [urlInput, setUrlInput] = useState('');
   const [imageFile, setImageFile] = useState<File | null>(null);
@@ -295,10 +298,17 @@ export default function DiscoverPage() {
 
   const hasInput = urlInput.trim().length > 0 || imageFile !== null;
   const showResults = result && !loading;
+  const isMulti =
+    showResults && result.locations && result.locations.length > 1;
   const isFound =
-    showResults && result.location && result.location.confidence === 'high';
+    showResults &&
+    !isMulti &&
+    result.location &&
+    result.location.confidence === 'high';
   const isNotFound =
-    showResults && (!result.location || result.location.confidence === 'low');
+    showResults &&
+    !isMulti &&
+    (!result.location || result.location.confidence === 'low');
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -358,16 +368,34 @@ export default function DiscoverPage() {
                 </p>
               )}
 
-              <p className="text-green-600 font-medium mt-4">
-                Location confirmed!
-              </p>
+              {result.matchedDestination ? (
+                <button
+                  onClick={() => {
+                    // Store discovered destination and route into flash explore
+                    sessionStorage.setItem(
+                      'discover_destination',
+                      JSON.stringify(result.matchedDestination),
+                    );
+                    router.push(
+                      `/flash/explore?destination=${encodeURIComponent(result.matchedDestination!.id)}`,
+                    );
+                  }}
+                  className="w-full mt-5 py-3.5 bg-primary-600 text-white rounded-xl font-semibold hover:bg-primary-700 transition-colors shadow-sm"
+                >
+                  Explore {result.matchedDestination.city}
+                </button>
+              ) : (
+                <p className="text-amber-600 font-medium mt-4 text-sm">
+                  Not in our collection yet — we&apos;re always expanding!
+                </p>
+              )}
             </div>
 
             <button
               onClick={handleReset}
               className="text-primary-600 hover:text-primary-700 font-medium transition-colors"
             >
-              Try another
+              Try another place
             </button>
           </div>
         ) : (
@@ -607,6 +635,103 @@ export default function DiscoverPage() {
                     </button>
                   </div>
                 </div>
+              </div>
+            )}
+
+            {/* ── Result: Multiple locations (tile grid) ──────────── */}
+            {isMulti && !confirmed && (
+              <div className="space-y-5">
+                <div className="text-center">
+                  <p className="text-sm text-gray-500 mb-1">
+                    We found {result.locations!.length} places in this link
+                  </p>
+                  <h2 className="text-2xl font-bold text-gray-900">
+                    Where do you want to go?
+                  </h2>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3">
+                  {result.locations!.map((loc, i) => {
+                    const dest = loc.matchedDestination;
+                    const city =
+                      dest?.city || loc.location.city || 'Unknown';
+                    const country =
+                      dest?.country || loc.location.country || '';
+                    const imgSrc = dest?.imageUrl || '';
+                    // Optimize Unsplash thumb
+                    const thumbUrl =
+                      imgSrc && imgSrc.includes('unsplash.com')
+                        ? imgSrc +
+                          (imgSrc.includes('?') ? '&' : '?') +
+                          'q=80&auto=format&fit=crop&w=400&h=260'
+                        : imgSrc;
+
+                    return (
+                      <button
+                        key={i}
+                        onClick={() => {
+                          // Select this location as the primary result and confirm
+                          setResult({
+                            ...result,
+                            location: loc.location,
+                            matchedDestination: loc.matchedDestination,
+                            locations: undefined,
+                          });
+                          setConfirmed(true);
+                        }}
+                        className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md hover:border-primary-300 transition-all text-left"
+                      >
+                        {/* Image / gradient fallback */}
+                        {thumbUrl ? (
+                          <img
+                            src={thumbUrl}
+                            alt={city}
+                            className="w-full h-32 object-cover"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).style.display =
+                                'none';
+                            }}
+                          />
+                        ) : (
+                          <div className="w-full h-32 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+                            <span className="text-3xl">🌍</span>
+                          </div>
+                        )}
+
+                        {/* Info */}
+                        <div className="p-3">
+                          <p className="font-semibold text-gray-900 text-sm leading-tight">
+                            {city}
+                          </p>
+                          {country && (
+                            <p className="text-xs text-gray-500 mt-0.5">
+                              {country}
+                            </p>
+                          )}
+                          {dest ? (
+                            <p className="text-xs text-green-600 mt-1.5 font-medium">
+                              In our collection
+                            </p>
+                          ) : (
+                            <p className="text-xs text-amber-500 mt-1.5">
+                              Not in collection yet
+                            </p>
+                          )}
+                        </div>
+
+                        {/* Hover overlay */}
+                        <div className="absolute inset-0 bg-primary-600/0 group-hover:bg-primary-600/5 transition-colors rounded-2xl" />
+                      </button>
+                    );
+                  })}
+                </div>
+
+                <button
+                  onClick={handleReset}
+                  className="w-full py-2.5 text-gray-500 hover:text-gray-700 text-sm font-medium transition-colors"
+                >
+                  Try a different link
+                </button>
               </div>
             )}
 

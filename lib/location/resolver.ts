@@ -4,7 +4,7 @@
  * Resolves geographic locations from social media URLs and uploaded images.
  * Pipeline: oEmbed metadata → Claude caption analysis → Claude Vision → Mapbox geocoding → destination matching
  *
- * Uses Claude Haiku 3.5 via OpenRouter for both text and vision analysis.
+ * Uses Claude Haiku 3.5 for text analysis, Sonnet 4.6 for vision (Haiku doesn't support vision via OpenRouter).
  * Sequential escalation: cheap text analysis first, vision only if needed.
  */
 
@@ -19,6 +19,7 @@ import type {
 } from '@/types/location';
 
 const HAIKU_MODEL = 'anthropic/claude-3.5-haiku';
+const VISION_MODEL = 'anthropic/claude-sonnet-4.6'; // Haiku doesn't support vision via OpenRouter
 const FETCH_TIMEOUT_MS = 10_000;
 const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
 
@@ -363,7 +364,7 @@ ${caption ? `Caption context (use as supporting evidence): "${caption}"` : 'No c
 
   try {
     const response = await client.chat.completions.create({
-      model: HAIKU_MODEL,
+      model: VISION_MODEL,
       max_tokens: 1024,
       temperature: 0,
       messages: [

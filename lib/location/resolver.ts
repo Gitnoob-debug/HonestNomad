@@ -47,6 +47,7 @@ export async function resolveLocation(
       if (thumbnailBase64) {
         const visionResult = await analyzeImage(
           thumbnailBase64,
+          'image/jpeg', // thumbnails are always JPEG
           metadata.caption || undefined,
         );
         // Take vision result if it's better than caption result
@@ -73,7 +74,11 @@ export async function resolveLocation(
 
   // === PATH B: IMAGE UPLOAD ===
   if (req.imageBase64) {
-    claudeResult = await analyzeImage(req.imageBase64, undefined);
+    claudeResult = await analyzeImage(
+      req.imageBase64,
+      req.imageMimeType || 'image/jpeg',
+      undefined,
+    );
     source = 'vision';
   }
 
@@ -302,15 +307,16 @@ Caption: "${caption}"`,
     const text =
       response.choices[0]?.message?.content?.trim() || '';
     return parseClaudeJSON(text);
-  } catch (error) {
-    console.error('[location-resolver] Caption analysis failed:', error);
+  } catch (error: unknown) {
+    const errMsg = error instanceof Error ? error.message : String(error);
+    console.error('[location-resolver] Caption analysis failed:', errMsg, error);
     return {
       city: null,
       country: null,
       region: null,
       locationString: null,
       confidence: 'low',
-      reasoning: 'Caption analysis failed.',
+      reasoning: `Caption analysis failed: ${errMsg.slice(0, 100)}`,
     };
   }
 }
@@ -319,6 +325,7 @@ Caption: "${caption}"`,
 
 async function analyzeImage(
   imageBase64: string,
+  mimeType: string = 'image/jpeg',
   caption?: string,
 ): Promise<ClaudeLocationResult> {
   const client = getOpenRouterClient();
@@ -366,7 +373,7 @@ ${caption ? `Caption context (use as supporting evidence): "${caption}"` : 'No c
             {
               type: 'image_url',
               image_url: {
-                url: `data:image/jpeg;base64,${imageBase64}`,
+                url: `data:${mimeType};base64,${imageBase64}`,
               },
             },
             {
@@ -381,15 +388,16 @@ ${caption ? `Caption context (use as supporting evidence): "${caption}"` : 'No c
     const text =
       response.choices[0]?.message?.content?.trim() || '';
     return parseClaudeJSON(text);
-  } catch (error) {
-    console.error('[location-resolver] Vision analysis failed:', error);
+  } catch (error: unknown) {
+    const errMsg = error instanceof Error ? error.message : String(error);
+    console.error('[location-resolver] Vision analysis failed:', errMsg, error);
     return {
       city: null,
       country: null,
       region: null,
       locationString: null,
       confidence: 'low',
-      reasoning: 'Vision analysis failed.',
+      reasoning: `Vision analysis failed: ${errMsg.slice(0, 100)}`,
     };
   }
 }

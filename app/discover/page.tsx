@@ -3,26 +3,59 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { DESTINATIONS } from '@/lib/flash/destinations';
-import type {
-  LocationAnalysisResponse,
-  MatchedDestination,
-  ResolvedLocation,
-} from '@/types/location';
-import type { Destination } from '@/types/flash';
+import type { LocationAnalysisResponse } from '@/types/location';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || '';
 
-// ── Destination search for autocomplete ──────────────────────────────
+// ── Client-side image compression ────────────────────────────────────
+// Resize to max 1024px longest side, export as JPEG 0.85 quality.
+// Reduces 3-5MB photos to ~100-300KB — well within API limits and
+// more than enough resolution for Claude Vision.
 
-function searchDestinations(query: string): Destination[] {
-  if (!query || query.length < 2) return [];
-  const lower = query.toLowerCase();
-  return DESTINATIONS.filter(
-    (d) =>
-      d.city.toLowerCase().includes(lower) ||
-      d.country.toLowerCase().includes(lower),
-  ).slice(0, 8);
+function compressImage(
+  file: File,
+): Promise<{ base64: string; mimeType: string }> {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => {
+      const MAX_SIZE = 1024;
+      let { width, height } = img;
+
+      // Scale down if needed
+      if (width > MAX_SIZE || height > MAX_SIZE) {
+        if (width > height) {
+          height = Math.round((height * MAX_SIZE) / width);
+          width = MAX_SIZE;
+        } else {
+          width = Math.round((width * MAX_SIZE) / height);
+          height = MAX_SIZE;
+        }
+      }
+
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) {
+        reject(new Error('Failed to get canvas context'));
+        return;
+      }
+
+      ctx.drawImage(img, 0, 0, width, height);
+      const dataUrl = canvas.toDataURL('image/jpeg', 0.85);
+      const base64 = dataUrl.split(',')[1];
+      resolve({ base64, mimeType: 'image/jpeg' });
+    };
+    img.onerror = () => reject(new Error('Failed to load image'));
+
+    // Read file as data URL to load into Image
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      img.src = e.target?.result as string;
+    };
+    reader.onerror = () => reject(new Error('Failed to read file'));
+    reader.readAsDataURL(file);
+  });
 }
 
 // ── Main page component ─────────────────────────────────────────────
@@ -38,11 +71,6 @@ export default function DiscoverPage() {
   const [result, setResult] = useState<LocationAnalysisResponse | null>(null);
   const [confirmed, setConfirmed] = useState(false);
 
-  // Manual entry state
-  const [showManual, setShowManual] = useState(false);
-  const [manualQuery, setManualQuery] = useState('');
-  const [manualResults, setManualResults] = useState<Destination[]>([]);
-
   // Map
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
@@ -54,24 +82,20 @@ export default function DiscoverPage() {
   // ── Image upload handler ───────────────────────────────────────────
 
   const handleImageSelect = useCallback((file: File) => {
-    // Validate size (5MB max)
+    // Validate size (5MB max — will be compressed before sending)
     if (file.size > 5 * 1024 * 1024) {
       alert('Please upload an image under 5MB.');
       return;
     }
-    // Validate type
-    if (
-      !['image/jpeg', 'image/png', 'image/webp'].includes(file.type)
-    ) {
+    if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) {
       alert('Please upload a JPEG, PNG, or WebP image.');
       return;
     }
 
     setImageFile(file);
-    setUrlInput(''); // Clear URL when image is selected
+    setUrlInput('');
     setResult(null);
     setConfirmed(false);
-    setShowManual(false);
 
     // Generate preview
     const reader = new FileReader();
@@ -89,7 +113,6 @@ export default function DiscoverPage() {
     setLoading(true);
     setResult(null);
     setConfirmed(false);
-    setShowManual(false);
 
     try {
       let body: Record<string, string> = {};
@@ -97,23 +120,9 @@ export default function DiscoverPage() {
       if (urlInput) {
         body = { url: urlInput };
       } else if (imageFile) {
-        // Convert file to base64
-        const base64 = await new Promise<string>((resolve, reject) => {
-          const reader = new FileReader();
-          reader.onload = () => {
-            const dataUrl = reader.result as string;
-            // Strip the data:image/...;base64, prefix
-            const base64Data = dataUrl.split(',')[1];
-            resolve(base64Data);
-          };
-          reader.onerror = reject;
-          reader.readAsDataURL(imageFile);
-        });
-
-        body = {
-          imageBase64: base64,
-          imageMimeType: imageFile.type as string,
-        };
+        // Compress image client-side before sending
+        const { base64, mimeType } = await compressImage(imageFile);
+        body = { imageBase64: base64, imageMimeType: mimeType };
       }
 
       const response = await fetch('/api/location/analyze', {
@@ -124,11 +133,6 @@ export default function DiscoverPage() {
 
       const data: LocationAnalysisResponse = await response.json();
       setResult(data);
-
-      // If low confidence or no location, show manual entry automatically
-      if (!data.location || data.location.confidence === 'low') {
-        setShowManual(true);
-      }
     } catch (error) {
       console.error('Analysis failed:', error);
       setResult({
@@ -137,7 +141,6 @@ export default function DiscoverPage() {
         matchedDestination: null,
         error: 'Network error. Please check your connection and try again.',
       });
-      setShowManual(true);
     } finally {
       setLoading(false);
     }
@@ -151,7 +154,6 @@ export default function DiscoverPage() {
     const { lat, lng } = result.location;
 
     if (mapRef.current) {
-      // Update existing map
       mapRef.current.flyTo({ center: [lng, lat], zoom: 10 });
       if (markerRef.current) markerRef.current.remove();
       markerRef.current = new mapboxgl.Marker({ color: '#3b82f6' })
@@ -160,7 +162,6 @@ export default function DiscoverPage() {
       return;
     }
 
-    // Initialize new map
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
       style: 'mapbox://styles/mapbox/outdoors-v12',
@@ -181,10 +182,6 @@ export default function DiscoverPage() {
     });
 
     mapRef.current = map;
-
-    return () => {
-      // Don't destroy map on re-render, only on unmount
-    };
   }, [result?.location]);
 
   // Cleanup map on unmount
@@ -197,44 +194,6 @@ export default function DiscoverPage() {
     };
   }, []);
 
-  // ── Manual entry autocomplete ──────────────────────────────────────
-
-  useEffect(() => {
-    setManualResults(searchDestinations(manualQuery));
-  }, [manualQuery]);
-
-  const handleManualSelect = useCallback(
-    (dest: Destination) => {
-      // Create a result as if the API resolved this destination
-      const location: ResolvedLocation = {
-        city: dest.city,
-        country: dest.country,
-        locationString: `${dest.city}, ${dest.country}`,
-        lat: dest.latitude,
-        lng: dest.longitude,
-        displayName: `${dest.city}, ${dest.country}`,
-        confidence: 'high',
-        reasoning: 'Manually selected by user.',
-        source: 'caption',
-      };
-
-      const matched: MatchedDestination = {
-        id: dest.id,
-        city: dest.city,
-        country: dest.country,
-        latitude: dest.latitude,
-        longitude: dest.longitude,
-        highlights: dest.highlights,
-        imageUrl: dest.imageUrl,
-      };
-
-      setResult({ success: true, location, matchedDestination: matched });
-      setShowManual(false);
-      setManualQuery('');
-    },
-    [],
-  );
-
   // ── Reset handler ──────────────────────────────────────────────────
 
   const handleReset = useCallback(() => {
@@ -243,8 +202,6 @@ export default function DiscoverPage() {
     setImagePreview(null);
     setResult(null);
     setConfirmed(false);
-    setShowManual(false);
-    setManualQuery('');
     if (markerRef.current) {
       markerRef.current.remove();
       markerRef.current = null;
@@ -303,7 +260,6 @@ export default function DiscoverPage() {
         {/* ── Confirmed state ─────────────────────────────────── */}
         {confirmed && result?.location ? (
           <div className="text-center space-y-6">
-            {/* Map */}
             <div
               ref={mapContainerRef}
               className="w-full h-[300px] rounded-2xl overflow-hidden shadow-lg"
@@ -341,7 +297,8 @@ export default function DiscoverPage() {
                 </div>
               ) : (
                 <p className="text-gray-500 mt-2">
-                  This destination isn&apos;t in our collection yet — but we&apos;re growing!
+                  This destination isn&apos;t in our collection yet — but
+                  we&apos;re growing!
                 </p>
               )}
 
@@ -383,9 +340,7 @@ export default function DiscoverPage() {
                 {/* Divider */}
                 <div className="flex items-center gap-4">
                   <div className="flex-1 h-px bg-gray-200" />
-                  <span className="text-gray-400 text-sm font-medium">
-                    or
-                  </span>
+                  <span className="text-gray-400 text-sm font-medium">or</span>
                   <div className="flex-1 h-px bg-gray-200" />
                 </div>
 
@@ -517,7 +472,6 @@ export default function DiscoverPage() {
                   </span>
                 </div>
 
-                {/* Show the image/URL being analyzed */}
                 {imagePreview && (
                   <div className="mt-6">
                     <img
@@ -538,17 +492,13 @@ export default function DiscoverPage() {
             {/* ── Result: Found (high confidence) ─────────────────── */}
             {isFound && !confirmed && (
               <div className="space-y-5">
-                {/* Map */}
                 <div
                   ref={mapContainerRef}
                   className="w-full h-[300px] rounded-2xl overflow-hidden shadow-lg"
                 />
 
-                {/* Location info */}
                 <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
-                  <p className="text-sm text-gray-500 mb-1">
-                    This looks like
-                  </p>
+                  <p className="text-sm text-gray-500 mb-1">This looks like</p>
                   <h2 className="text-2xl font-bold text-gray-900">
                     {result.location!.displayName}
                   </h2>
@@ -559,7 +509,6 @@ export default function DiscoverPage() {
                     </p>
                   )}
 
-                  {/* Matched destination card */}
                   {result.matchedDestination && (
                     <div className="mt-4 flex items-center gap-3 p-3 bg-green-50 rounded-xl">
                       <img
@@ -582,11 +531,11 @@ export default function DiscoverPage() {
 
                   {!result.matchedDestination && (
                     <p className="mt-3 text-sm text-amber-600 bg-amber-50 px-3 py-2 rounded-lg">
-                      Not in our collection yet — but we&apos;re always expanding!
+                      Not in our collection yet — but we&apos;re always
+                      expanding!
                     </p>
                   )}
 
-                  {/* Action buttons */}
                   <div className="flex gap-3 mt-5">
                     <button
                       onClick={() => setConfirmed(true)}
@@ -595,10 +544,10 @@ export default function DiscoverPage() {
                       That&apos;s it!
                     </button>
                     <button
-                      onClick={() => setShowManual(true)}
+                      onClick={handleReset}
                       className="flex-1 py-3 bg-white text-gray-700 rounded-xl font-semibold border border-gray-300 hover:bg-gray-50 transition-colors"
                     >
-                      Not quite
+                      Not quite — try again
                     </button>
                   </div>
                 </div>
@@ -610,71 +559,35 @@ export default function DiscoverPage() {
               <div className="space-y-5">
                 <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm text-center">
                   <div className="text-4xl mb-3">🤔</div>
-                  <h2 className="text-xl font-bold text-gray-900 mb-2">
+                  <h2 className="text-xl font-bold text-gray-900 mb-3">
                     We couldn&apos;t pin this down
                   </h2>
-                  <p className="text-gray-500">
-                    {result.error ||
-                      result.location?.reasoning ||
-                      'Try uploading a clearer image or a different link.'}
-                  </p>
-                </div>
-              </div>
-            )}
 
-            {/* ── Manual entry ────────────────────────────────────── */}
-            {showManual && (
-              <div className="mt-5 bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Where was this filmed?
-                </label>
-                <input
-                  type="text"
-                  value={manualQuery}
-                  onChange={(e) => setManualQuery(e.target.value)}
-                  placeholder="Type a city name..."
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                  autoFocus
-                />
-
-                {/* Autocomplete dropdown */}
-                {manualResults.length > 0 && (
-                  <div className="mt-2 border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
-                    {manualResults.map((dest) => (
-                      <button
-                        key={dest.id}
-                        onClick={() => handleManualSelect(dest)}
-                        className="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors text-left"
-                      >
-                        <img
-                          src={dest.imageUrl}
-                          alt={dest.city}
-                          className="w-10 h-10 rounded-lg object-cover flex-shrink-0"
-                        />
-                        <div>
-                          <p className="font-medium text-gray-900 text-sm">
-                            {dest.city}
-                          </p>
-                          <p className="text-xs text-gray-500">
-                            {dest.country}
-                          </p>
-                        </div>
-                      </button>
-                    ))}
+                  <div className="space-y-2 text-sm text-gray-500">
+                    <p>Here are some things that might help:</p>
+                    <ul className="space-y-1.5 text-left max-w-xs mx-auto">
+                      <li className="flex items-start gap-2">
+                        <span className="mt-0.5">📸</span>
+                        <span>Try a clearer screenshot showing landmarks or signs</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="mt-0.5">🔗</span>
+                        <span>Try a different link — some are private or restricted</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="mt-0.5">🏛️</span>
+                        <span>Images with recognizable buildings or landscapes work best</span>
+                      </li>
+                    </ul>
                   </div>
-                )}
-              </div>
-            )}
 
-            {/* ── Try again / start over ──────────────────────────── */}
-            {showResults && (
-              <div className="text-center mt-6">
-                <button
-                  onClick={handleReset}
-                  className="text-primary-600 hover:text-primary-700 font-medium text-sm transition-colors"
-                >
-                  Start over
-                </button>
+                  <button
+                    onClick={handleReset}
+                    className="mt-5 px-6 py-3 bg-primary-600 text-white rounded-xl font-semibold hover:bg-primary-700 transition-colors"
+                  >
+                    Try again
+                  </button>
+                </div>
               </div>
             )}
           </>

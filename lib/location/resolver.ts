@@ -302,90 +302,26 @@ function extractYouTubeVideoId(url: string): string | null {
   return null;
 }
 
-// ── YouTube transcript extraction (innertube API) ────────────────────
-// Uses YouTube's internal innertube API to get caption tracks directly.
-// Much more reliable than HTML scraping (no consent walls, no bot detection).
+// ── YouTube transcript extraction (via youtube-transcript package) ────
+// Community-maintained package that handles YouTube's anti-bot measures,
+// consent walls, and API changes.
 
 async function fetchYouTubeTranscript(videoId: string): Promise<string | null> {
   try {
-    console.log('[yt-transcript] Using innertube API for video:', videoId);
+    console.log('[yt-transcript] Fetching transcript for video:', videoId);
 
-    // Step 1: Call YouTube's innertube player API to get caption track URLs
-    const playerResponse = await fetchWithTimeout(
-      'https://www.youtube.com/youtubei/v1/player?prettyPrint=false',
-      15_000,
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        },
-        body: JSON.stringify({
-          context: {
-            client: {
-              clientName: 'WEB',
-              clientVersion: '2.20241120.01.00',
-              hl: 'en',
-              gl: 'US',
-            },
-          },
-          videoId,
-        }),
-      },
-    );
+    const { YoutubeTranscript } = await import('youtube-transcript');
+    const segments = await YoutubeTranscript.fetchTranscript(videoId, { lang: 'en' });
 
-    if (!playerResponse.ok) {
-      console.log('[yt-transcript] Innertube player API failed:', playerResponse.status);
+    if (!segments || segments.length === 0) {
+      console.log('[yt-transcript] No transcript segments returned');
       return null;
     }
 
-    const playerData = await playerResponse.json();
-    const captionTracks =
-      playerData?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
+    console.log('[yt-transcript] Got', segments.length, 'segments');
 
-    if (!captionTracks || captionTracks.length === 0) {
-      console.log('[yt-transcript] No caption tracks in player response');
-      return null;
-    }
-
-    console.log('[yt-transcript] Found', captionTracks.length, 'caption tracks');
-
-    // Prefer English, fall back to first available
-    const tracks = captionTracks as Array<{ baseUrl: string; languageCode: string }>;
-    const enTrack = tracks.find((t) => t.languageCode === 'en')
-      || tracks.find((t) => t.languageCode?.startsWith('en'))
-      || tracks[0];
-    if (!enTrack?.baseUrl) return null;
-
-    console.log('[yt-transcript] Using track language:', enTrack.languageCode);
-
-    // Step 2: Fetch the caption XML
-    const captionResponse = await fetchWithTimeout(enTrack.baseUrl, FETCH_TIMEOUT_MS);
-    if (!captionResponse.ok) {
-      console.log('[yt-transcript] Caption XML fetch failed:', captionResponse.status);
-      return null;
-    }
-
-    const captionXml = await captionResponse.text();
-
-    // Parse caption text from XML: <text start="..." dur="...">caption here</text>
-    const textSegments = captionXml.match(/<text[^>]*>[\s\S]*?<\/text>/g);
-    if (!textSegments || textSegments.length === 0) {
-      console.log('[yt-transcript] No text segments in caption XML');
-      return null;
-    }
-
-    const transcript = textSegments
-      .map((seg) =>
-        seg
-          .replace(/<[^>]+>/g, '') // strip XML tags
-          .replace(/&#39;/g, "'")
-          .replace(/&amp;/g, '&')
-          .replace(/&quot;/g, '"')
-          .replace(/&lt;/g, '<')
-          .replace(/&gt;/g, '>')
-          .trim(),
-      )
+    const transcript = segments
+      .map((s) => s.text.trim())
       .filter(Boolean)
       .join(' ');
 
@@ -393,10 +329,10 @@ async function fetchYouTubeTranscript(videoId: string): Promise<string | null> {
     const final = transcript.length > 3000
       ? transcript.slice(0, 3000) + '...'
       : transcript;
-    console.log('[yt-transcript] Success! Transcript length:', final.length, 'preview:', final.slice(0, 150));
+    console.log('[yt-transcript] Success! Length:', final.length, 'preview:', final.slice(0, 150));
     return final;
   } catch (error) {
-    console.error('[yt-transcript] YouTube transcript fetch failed:', error);
+    console.error('[yt-transcript] Transcript fetch failed:', error);
     return null;
   }
 }

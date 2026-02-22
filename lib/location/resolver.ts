@@ -192,13 +192,18 @@ async function extractMetadata(url: string): Promise<SocialMetadata> {
   }
 
   if (platform === 'youtube') {
-    // oEmbed gives us title + thumbnail, but the title is often vague
-    // ("Top 10 Places..."). We need the description for city names.
+    // oEmbed gives title + thumbnail, but the title is often vague.
+    // The real city names are SPOKEN in the video — grab the transcript.
     const oembed = await fetchYouTubeOEmbed(url);
+    const transcript = await fetchYouTubeTranscript(url);
     const og = await fetchOGTags(url);
 
-    // Combine: use the richer caption (title + description)
-    const parts = [oembed.caption, og.caption].filter(Boolean);
+    // Priority: transcript (everything spoken) > OG description > title
+    const parts = [
+      oembed.caption,
+      og.caption,
+      transcript ? `[Video transcript]: ${transcript}` : null,
+    ].filter(Boolean);
     const combined = parts.join(' — ');
 
     return {
@@ -261,6 +266,77 @@ function extractYouTubeVideoId(url: string): string | null {
     if (match) return match[1];
   }
   return null;
+}
+
+// ── YouTube transcript extraction (auto-captions) ───────────────────
+// Fetches auto-generated captions from YouTube without an API key.
+// The video page HTML contains a captionTracks URL we can fetch.
+
+async function fetchYouTubeTranscript(url: string): Promise<string | null> {
+  try {
+    const response = await fetchWithTimeout(url, FETCH_TIMEOUT_MS, {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+      redirect: 'follow',
+    });
+    if (!response.ok) return null;
+
+    const html = await response.text();
+
+    // Extract captionTracks from ytInitialPlayerResponse embedded in the page
+    const captionMatch = html.match(
+      /"captionTracks":\s*(\[.*?\])/s,
+    );
+    if (!captionMatch) return null;
+
+    let tracks: Array<{ baseUrl: string; languageCode: string }>;
+    try {
+      tracks = JSON.parse(captionMatch[1]);
+    } catch {
+      return null;
+    }
+
+    // Prefer English captions, fall back to first available
+    const enTrack = tracks.find((t) => t.languageCode === 'en')
+      || tracks.find((t) => t.languageCode?.startsWith('en'))
+      || tracks[0];
+    if (!enTrack?.baseUrl) return null;
+
+    // Fetch the caption XML
+    const captionResponse = await fetchWithTimeout(enTrack.baseUrl, FETCH_TIMEOUT_MS);
+    if (!captionResponse.ok) return null;
+
+    const captionXml = await captionResponse.text();
+
+    // Parse caption text from XML: <text start="..." dur="...">caption here</text>
+    const textSegments = captionXml.match(/<text[^>]*>(.*?)<\/text>/gs);
+    if (!textSegments || textSegments.length === 0) return null;
+
+    const transcript = textSegments
+      .map((seg) =>
+        seg
+          .replace(/<[^>]+>/g, '') // strip XML tags
+          .replace(/&#39;/g, "'")
+          .replace(/&amp;/g, '&')
+          .replace(/&quot;/g, '"')
+          .replace(/&lt;/g, '<')
+          .replace(/&gt;/g, '>')
+          .trim(),
+      )
+      .filter(Boolean)
+      .join(' ');
+
+    // Truncate to ~3000 chars to stay within token budget
+    return transcript.length > 3000
+      ? transcript.slice(0, 3000) + '...'
+      : transcript;
+  } catch (error) {
+    console.error('[location-resolver] YouTube transcript fetch failed:', error);
+    return null;
+  }
 }
 
 async function fetchOGTags(url: string): Promise<SocialMetadata> {

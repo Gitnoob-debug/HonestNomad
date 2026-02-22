@@ -774,6 +774,16 @@ export default function DiscoverPage() {
 
           </>
         )}
+
+        {/* ── Pipeline debug trace (temporary) ──────────────────── */}
+        {result && (result as Record<string, unknown>)._debug && (
+          <div className="mt-4 bg-gray-900 text-green-400 rounded-xl p-4 text-xs font-mono overflow-auto max-h-64">
+            <p className="text-gray-500 mb-2">Pipeline trace:</p>
+            {((result as Record<string, unknown>)._debug as string[]).map((line: string, i: number) => (
+              <div key={i}>{line}</div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

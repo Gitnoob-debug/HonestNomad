@@ -39,6 +39,7 @@ export interface LocationAnalysisResponse {
     matchedDestination: MatchedDestination | null;
   }>;
   error?: string;
+  _debug?: string[]; // pipeline trace (temporary)
 }
 
 // ── Resolved location (after geocoding) ──────────────────────────────

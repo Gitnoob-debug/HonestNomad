@@ -59,13 +59,23 @@ async function resolveOne(
 export async function resolveLocation(
   req: AnalyzeLocationRequest,
 ): Promise<LocationAnalysisResponse> {
+  const _debug: string[] = [];
+
   // === PATH A: URL INPUT ===
   if (req.url) {
+    _debug.push(`URL input: ${req.url}`);
     const metadata = await extractMetadata(req.url);
+    _debug.push(`Caption length: ${metadata.caption?.length ?? 0}`);
+    _debug.push(`Caption preview: ${metadata.caption?.slice(0, 300) ?? '(none)'}`);
+    _debug.push(`Thumbnail: ${metadata.thumbnail ? 'yes' : 'no'}`);
 
     // Step 1: Try multi-location caption analysis (cheap, text-only)
     if (metadata.caption && metadata.caption.length > 5) {
       const multiResult = await analyzeCaptionMulti(metadata.caption);
+      _debug.push(`Claude returned ${multiResult.locations.length} locations`);
+      multiResult.locations.forEach((loc, i) => {
+        _debug.push(`  [${i}] ${loc.locationString} (${loc.confidence})`);
+      });
 
       if (multiResult.locations.length > 1) {
         // Multiple locations found — geocode all in parallel
@@ -75,6 +85,7 @@ export async function resolveLocation(
         const valid = resolved.filter(
           (r): r is NonNullable<typeof r> => r !== null,
         );
+        _debug.push(`Geocoded: ${valid.length}/${multiResult.locations.length} survived`);
 
         if (valid.length > 1) {
           return {
@@ -82,6 +93,7 @@ export async function resolveLocation(
             location: valid[0].location,
             matchedDestination: valid[0].matchedDestination,
             locations: valid,
+            _debug,
           };
         }
         // If only 1 survived geocoding, fall through to single-result path
@@ -90,6 +102,7 @@ export async function resolveLocation(
             success: true,
             location: valid[0].location,
             matchedDestination: valid[0].matchedDestination,
+            _debug,
           };
         }
       }
@@ -100,14 +113,16 @@ export async function resolveLocation(
         if (single.confidence === 'high') {
           const result = await resolveOne(single, 'caption');
           if (result) {
-            return { success: true, ...result };
+            return { success: true, ...result, _debug };
           }
         }
       }
+      _debug.push('Caption analysis did not produce usable results');
     }
 
     // Step 2: If caption didn't produce results, try vision on thumbnail
     if (metadata.thumbnail) {
+      _debug.push('Falling back to thumbnail vision');
       const thumbnailBase64 = await fetchImageAsBase64(metadata.thumbnail);
       if (thumbnailBase64) {
         const visionResult = await analyzeImage(
@@ -115,21 +130,24 @@ export async function resolveLocation(
           'image/jpeg',
           metadata.caption || undefined,
         );
+        _debug.push(`Vision result: ${visionResult.locationString} (${visionResult.confidence})`);
         if (visionResult.confidence === 'high') {
           const result = await resolveOne(visionResult, 'vision');
           if (result) {
-            return { success: true, ...result };
+            return { success: true, ...result, _debug };
           }
         }
       }
     }
 
     // Step 3: Nothing worked
+    _debug.push('All methods failed');
     return {
       success: true,
       location: null,
       matchedDestination: null,
       error: 'Could not extract location information from this link.',
+      _debug,
     };
   }
 
@@ -210,6 +228,13 @@ async function extractMetadata(url: string): Promise<SocialMetadata> {
     ].filter(Boolean);
     const combined = parts.join(' — ');
 
+    console.log('[extractMetadata] YouTube parts:', {
+      oembedTitle: oembed.caption?.slice(0, 80),
+      ogDescription: og.caption?.slice(0, 80),
+      transcriptLen: transcript?.length ?? 0,
+      combinedLen: combined.length,
+    });
+
     return {
       thumbnail: oembed.thumbnail || og.thumbnail,
       caption: combined || null,
@@ -278,6 +303,7 @@ function extractYouTubeVideoId(url: string): string | null {
 
 async function fetchYouTubeTranscript(url: string): Promise<string | null> {
   try {
+    console.log('[yt-transcript] Fetching page HTML for:', url);
     const response = await fetchWithTimeout(url, FETCH_TIMEOUT_MS, {
       headers: {
         'User-Agent':
@@ -286,15 +312,31 @@ async function fetchYouTubeTranscript(url: string): Promise<string | null> {
       },
       redirect: 'follow',
     });
-    if (!response.ok) return null;
+    if (!response.ok) {
+      console.log('[yt-transcript] Page fetch failed:', response.status);
+      return null;
+    }
 
     const html = await response.text();
+    console.log('[yt-transcript] HTML length:', html.length);
+    console.log('[yt-transcript] Contains captionTracks:', html.includes('captionTracks'));
+    console.log('[yt-transcript] Contains playerResponse:', html.includes('ytInitialPlayerResponse'));
 
     // Extract captionTracks from ytInitialPlayerResponse embedded in the page
     const captionMatch = html.match(
       /"captionTracks":\s*(\[[\s\S]*?\])/,
     );
-    if (!captionMatch) return null;
+    if (!captionMatch) {
+      console.log('[yt-transcript] No captionTracks found in HTML');
+      // Log a snippet around "captions" if it exists
+      const captionsIdx = html.indexOf('"captions"');
+      if (captionsIdx > -1) {
+        console.log('[yt-transcript] Found "captions" at index', captionsIdx,
+          'snippet:', html.slice(captionsIdx, captionsIdx + 200));
+      }
+      return null;
+    }
+    console.log('[yt-transcript] captionTracks found, raw length:', captionMatch[1].length);
 
     let tracks: Array<{ baseUrl: string; languageCode: string }>;
     try {
@@ -334,11 +376,13 @@ async function fetchYouTubeTranscript(url: string): Promise<string | null> {
       .join(' ');
 
     // Truncate to ~3000 chars to stay within token budget
-    return transcript.length > 3000
+    const final = transcript.length > 3000
       ? transcript.slice(0, 3000) + '...'
       : transcript;
+    console.log('[yt-transcript] Success! Transcript length:', final.length, 'preview:', final.slice(0, 150));
+    return final;
   } catch (error) {
-    console.error('[location-resolver] YouTube transcript fetch failed:', error);
+    console.error('[yt-transcript] YouTube transcript fetch failed:', error);
     return null;
   }
 }

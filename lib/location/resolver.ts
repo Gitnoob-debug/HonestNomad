@@ -215,12 +215,11 @@ async function extractMetadata(url: string, _debug?: string[]): Promise<SocialMe
 
   if (platform === 'youtube') {
     // oEmbed gives title + thumbnail, but the title is often vague.
-    // The real city names are SPOKEN in the video — grab the transcript.
-    // Normalize: use /watch?v= URL for OG tags and transcript (Shorts pages have less metadata)
+    // The real city names are SPOKEN in the video — grab the transcript via innertube API.
     const videoId = extractYouTubeVideoId(url);
     const watchUrl = videoId ? `https://www.youtube.com/watch?v=${videoId}` : url;
     const oembed = await fetchYouTubeOEmbed(url);
-    const transcript = await fetchYouTubeTranscript(watchUrl);
+    const transcript = videoId ? await fetchYouTubeTranscript(videoId) : null;
     const og = await fetchOGTags(watchUrl);
 
     // Priority: transcript (everything spoken) > OG description > title
@@ -303,73 +302,78 @@ function extractYouTubeVideoId(url: string): string | null {
   return null;
 }
 
-// ── YouTube transcript extraction (auto-captions) ───────────────────
-// Fetches auto-generated captions from YouTube without an API key.
-// The video page HTML contains a captionTracks URL we can fetch.
+// ── YouTube transcript extraction (innertube API) ────────────────────
+// Uses YouTube's internal innertube API to get caption tracks directly.
+// Much more reliable than HTML scraping (no consent walls, no bot detection).
 
-async function fetchYouTubeTranscript(url: string): Promise<string | null> {
+async function fetchYouTubeTranscript(videoId: string): Promise<string | null> {
   try {
-    console.log('[yt-transcript] Fetching page HTML for:', url);
+    console.log('[yt-transcript] Using innertube API for video:', videoId);
 
-    // YouTube pages can be slow — use a longer timeout than default
-    const response = await fetchWithTimeout(url, 15_000, {
-      headers: {
-        'User-Agent':
-          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    // Step 1: Call YouTube's innertube player API to get caption track URLs
+    const playerResponse = await fetchWithTimeout(
+      'https://www.youtube.com/youtubei/v1/player?prettyPrint=false',
+      15_000,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        },
+        body: JSON.stringify({
+          context: {
+            client: {
+              clientName: 'WEB',
+              clientVersion: '2.20241120.01.00',
+              hl: 'en',
+              gl: 'US',
+            },
+          },
+          videoId,
+        }),
       },
-      redirect: 'follow',
-    });
-    if (!response.ok) {
-      console.log('[yt-transcript] Page fetch failed:', response.status);
-      return null;
-    }
-
-    const html = await response.text();
-    console.log('[yt-transcript] HTML length:', html.length);
-    console.log('[yt-transcript] Contains captionTracks:', html.includes('captionTracks'));
-    console.log('[yt-transcript] Contains playerResponse:', html.includes('ytInitialPlayerResponse'));
-    console.log('[yt-transcript] Contains CONSENT:', html.includes('consent.youtube.com'));
-
-    // Extract captionTracks from ytInitialPlayerResponse embedded in the page
-    const captionMatch = html.match(
-      /"captionTracks":\s*(\[[\s\S]*?\])/,
     );
-    if (!captionMatch) {
-      console.log('[yt-transcript] No captionTracks found in HTML');
-      // Log a snippet around "captions" if it exists
-      const captionsIdx = html.indexOf('"captions"');
-      if (captionsIdx > -1) {
-        console.log('[yt-transcript] Found "captions" at index', captionsIdx,
-          'snippet:', html.slice(captionsIdx, captionsIdx + 200));
-      }
-      return null;
-    }
-    console.log('[yt-transcript] captionTracks found, raw length:', captionMatch[1].length);
 
-    let tracks: Array<{ baseUrl: string; languageCode: string }>;
-    try {
-      tracks = JSON.parse(captionMatch[1]);
-    } catch {
+    if (!playerResponse.ok) {
+      console.log('[yt-transcript] Innertube player API failed:', playerResponse.status);
       return null;
     }
 
-    // Prefer English captions, fall back to first available
+    const playerData = await playerResponse.json();
+    const captionTracks =
+      playerData?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
+
+    if (!captionTracks || captionTracks.length === 0) {
+      console.log('[yt-transcript] No caption tracks in player response');
+      return null;
+    }
+
+    console.log('[yt-transcript] Found', captionTracks.length, 'caption tracks');
+
+    // Prefer English, fall back to first available
+    const tracks = captionTracks as Array<{ baseUrl: string; languageCode: string }>;
     const enTrack = tracks.find((t) => t.languageCode === 'en')
       || tracks.find((t) => t.languageCode?.startsWith('en'))
       || tracks[0];
     if (!enTrack?.baseUrl) return null;
 
-    // Fetch the caption XML
+    console.log('[yt-transcript] Using track language:', enTrack.languageCode);
+
+    // Step 2: Fetch the caption XML
     const captionResponse = await fetchWithTimeout(enTrack.baseUrl, FETCH_TIMEOUT_MS);
-    if (!captionResponse.ok) return null;
+    if (!captionResponse.ok) {
+      console.log('[yt-transcript] Caption XML fetch failed:', captionResponse.status);
+      return null;
+    }
 
     const captionXml = await captionResponse.text();
 
     // Parse caption text from XML: <text start="..." dur="...">caption here</text>
     const textSegments = captionXml.match(/<text[^>]*>[\s\S]*?<\/text>/g);
-    if (!textSegments || textSegments.length === 0) return null;
+    if (!textSegments || textSegments.length === 0) {
+      console.log('[yt-transcript] No text segments in caption XML');
+      return null;
+    }
 
     const transcript = textSegments
       .map((seg) =>

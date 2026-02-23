@@ -4,143 +4,10 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import type { LocationAnalysisResponse, AlternativeTile, ConfidenceTier } from '@/types/location';
-import { BlurUpImage } from '@/components/ui/BlurUpImage';
-import { VIBE_STYLES } from '@/lib/flash/vibeStyles';
-import { getPrimaryDestinationImage } from '@/lib/flash/destinationImages';
+import type { LocationAnalysisResponse, AlternativeTile } from '@/types/location';
+import { DestinationTile, DiscoverDetailModal, ConfidenceBadge } from '@/components/discover';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || '';
-
-// ── Confidence badge component ──────────────────────────────────────
-
-function ConfidenceBadge({ tier, label }: { tier: ConfidenceTier; label: string }) {
-  const styles: Record<ConfidenceTier, string> = {
-    high: 'bg-green-100 text-green-800 border-green-200',
-    medium: 'bg-amber-100 text-amber-800 border-amber-200',
-    low: 'bg-red-100 text-red-800 border-red-200',
-  };
-  const dots: Record<ConfidenceTier, string> = {
-    high: 'bg-green-500',
-    medium: 'bg-amber-500',
-    low: 'bg-red-500',
-  };
-
-  return (
-    <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border ${styles[tier]}`}>
-      <span className={`w-2 h-2 rounded-full ${dots[tier]}`} />
-      {label}
-    </span>
-  );
-}
-
-// ── Destination tile component (shared by alternatives + trending) ───
-// Uses the same visual language as ImmersiveSwipeCard: full-bleed image,
-// gradient overlay, white text, colorful vibe pills, green-check highlights.
-
-function DestinationTile({
-  tile,
-  onSelect,
-  isBestMatch = false,
-}: {
-  tile: AlternativeTile;
-  onSelect: () => void;
-  isBestMatch?: boolean;
-}) {
-  const dest = tile.destination;
-
-  // Prefer Supabase image (curated for Flash cards), fall back to destination imageUrl
-  const supabaseImg = getPrimaryDestinationImage(dest.id);
-  const imgSrc = supabaseImg || dest.imageUrl || '';
-
-  // Role badge styles — dark glass for most, green accent for best match
-  const roleBadgeStyles: Record<string, string> = {
-    best_match: 'bg-green-500/90 text-white',
-    closer: 'bg-black/50 backdrop-blur-sm text-white',
-    budget: 'bg-black/50 backdrop-blur-sm text-white',
-    similar_vibe: 'bg-black/50 backdrop-blur-sm text-white',
-  };
-
-  return (
-    <button
-      onClick={onSelect}
-      className="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all text-left w-full h-48"
-    >
-      {/* Full-bleed image with progressive loading */}
-      <div className="absolute inset-0">
-        <BlurUpImage
-          src={imgSrc}
-          alt={dest.city}
-          className="w-full h-full"
-          fallbackGradient="bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900"
-          fallbackEmoji={VIBE_STYLES[dest.vibes?.[0] || '']?.emoji || '✈️'}
-        />
-      </div>
-
-      {/* Gradient overlay for text legibility */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/30 pointer-events-none" />
-
-      {/* Role badge — top left */}
-      <div className="absolute top-2 left-2 z-10">
-        <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${roleBadgeStyles[tile.role] || 'bg-black/50 text-white'}`}>
-          {isBestMatch ? '★ ' : ''}{tile.label}
-        </span>
-      </div>
-
-      {/* Cost badge — top right */}
-      {tile.averageCost && (
-        <div className="absolute top-2 right-2 z-10">
-          <span className="bg-black/50 backdrop-blur-sm text-white px-2 py-0.5 rounded-full text-[10px] font-semibold">
-            ~${tile.averageCost.toLocaleString()}/wk
-          </span>
-        </div>
-      )}
-
-      {/* Bottom content overlay */}
-      <div className="absolute bottom-0 left-0 right-0 z-10 p-3">
-        {/* Vibe pills — up to 3 */}
-        {dest.vibes && dest.vibes.length > 0 && (
-          <div className="flex flex-wrap gap-1 mb-1.5">
-            {dest.vibes.slice(0, 3).map((vibe, i) => (
-              <span
-                key={i}
-                className="text-[9px] font-semibold uppercase tracking-wide px-1.5 py-0.5 rounded-full"
-                style={{
-                  background: VIBE_STYLES[vibe]?.bg || 'rgba(255,255,255,0.2)',
-                  color: VIBE_STYLES[vibe]?.text || '#fff',
-                }}
-              >
-                {VIBE_STYLES[vibe]?.emoji || '✨'} {vibe}
-              </span>
-            ))}
-          </div>
-        )}
-
-        {/* City name — large white text */}
-        <h3 className="text-lg font-bold text-white leading-tight drop-shadow-lg">
-          {dest.city}
-        </h3>
-        <p className="text-white/70 text-xs drop-shadow">
-          {dest.country}
-        </p>
-
-        {/* Highlights — up to 2 with green checkmarks */}
-        {dest.highlights && dest.highlights.length > 0 && (
-          <div className="mt-1.5 space-y-0.5">
-            {dest.highlights.slice(0, 2).map((highlight, i) => (
-              <div key={i} className="flex items-center gap-1">
-                <span className="text-green-400 text-[10px] flex-shrink-0">✓</span>
-                <span className="text-white/80 text-[11px] truncate">{highlight}</span>
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-
-      {/* Hover glow effect */}
-      <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors rounded-2xl" />
-    </button>
-  );
-}
 
 // ── Destination thumbnail with error fallback ────────────────────────
 
@@ -240,6 +107,7 @@ export default function DiscoverPage() {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<LocationAnalysisResponse | null>(null);
   const [confirmed, setConfirmed] = useState(false);
+  const [selectedTile, setSelectedTile] = useState<AlternativeTile | null>(null);
 
   // Map
   const mapContainerRef = useRef<HTMLDivElement>(null);
@@ -749,7 +617,7 @@ export default function DiscoverPage() {
                         reasoning: result.matchedDestination!.highlights?.slice(0, 2).join(' · ') || 'Top destination',
                         averageCost: result.matchedDestination!.averageCost,
                       }}
-                      onSelect={() => selectDestination(result.matchedDestination!)}
+                      onSelect={setSelectedTile}
                       isBestMatch
                     />
 
@@ -758,7 +626,7 @@ export default function DiscoverPage() {
                       <DestinationTile
                         key={`alt-${i}`}
                         tile={tile}
-                        onSelect={() => selectDestination(tile.destination)}
+                        onSelect={setSelectedTile}
                       />
                     ))}
                   </div>
@@ -808,7 +676,7 @@ export default function DiscoverPage() {
                     <DestinationTile
                       key={`trend-${i}`}
                       tile={tile}
-                      onSelect={() => selectDestination(tile.destination)}
+                      onSelect={setSelectedTile}
                     />
                   ))}
                 </div>
@@ -840,7 +708,7 @@ export default function DiscoverPage() {
                     <DestinationTile
                       key={`trend-${i}`}
                       tile={tile}
-                      onSelect={() => selectDestination(tile.destination)}
+                      onSelect={setSelectedTile}
                     />
                   ))}
                 </div>
@@ -990,6 +858,16 @@ export default function DiscoverPage() {
           </div>
         )}
       </div>
+
+      {/* ── Detail modal (opens when user taps a tile) ──────────── */}
+      <DiscoverDetailModal
+        tile={selectedTile}
+        onClose={() => setSelectedTile(null)}
+        onExplore={(dest) => {
+          setSelectedTile(null);
+          selectDestination(dest);
+        }}
+      />
     </div>
   );
 }

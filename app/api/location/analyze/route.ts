@@ -31,7 +31,12 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const result = await resolveLocation(body);
+    // Extract client IP for geolocation-based alternatives
+    const clientIp = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
+      || request.headers.get('x-real-ip')
+      || null;
+
+    const result = await resolveLocation({ ...body, clientIp: clientIp ?? undefined });
     return NextResponse.json(result);
   } catch (error: unknown) {
     const message =

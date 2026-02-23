@@ -4,9 +4,109 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import type { LocationAnalysisResponse } from '@/types/location';
+import type { LocationAnalysisResponse, AlternativeTile, ConfidenceTier } from '@/types/location';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || '';
+
+// ── Confidence badge component ──────────────────────────────────────
+
+function ConfidenceBadge({ tier, label }: { tier: ConfidenceTier; label: string }) {
+  const styles: Record<ConfidenceTier, string> = {
+    high: 'bg-green-100 text-green-800 border-green-200',
+    medium: 'bg-amber-100 text-amber-800 border-amber-200',
+    low: 'bg-red-100 text-red-800 border-red-200',
+  };
+  const dots: Record<ConfidenceTier, string> = {
+    high: 'bg-green-500',
+    medium: 'bg-amber-500',
+    low: 'bg-red-500',
+  };
+
+  return (
+    <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border ${styles[tier]}`}>
+      <span className={`w-2 h-2 rounded-full ${dots[tier]}`} />
+      {label}
+    </span>
+  );
+}
+
+// ── Destination tile component (shared by alternatives + trending) ───
+
+function DestinationTile({
+  tile,
+  onSelect,
+  isBestMatch = false,
+  confidenceTier,
+}: {
+  tile: AlternativeTile;
+  onSelect: () => void;
+  isBestMatch?: boolean;
+  confidenceTier?: ConfidenceTier;
+}) {
+  const [imgFailed, setImgFailed] = useState(false);
+  const dest = tile.destination;
+  const imgSrc = dest.imageUrl || '';
+  const thumbUrl = imgSrc.includes('unsplash.com')
+    ? imgSrc + (imgSrc.includes('?') ? '&' : '?') + 'q=80&auto=format&fit=crop&w=400&h=260'
+    : imgSrc;
+
+  // Role label colors
+  const roleLabelStyles: Record<string, string> = {
+    best_match: 'bg-primary-600 text-white',
+    closer: 'bg-blue-100 text-blue-800',
+    budget: 'bg-emerald-100 text-emerald-800',
+    similar_vibe: 'bg-purple-100 text-purple-800',
+  };
+
+  return (
+    <button
+      onClick={onSelect}
+      className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md hover:border-primary-300 transition-all text-left w-full"
+    >
+      {/* Role label badge */}
+      <div className="absolute top-2 left-2 z-10">
+        <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${roleLabelStyles[tile.role] || 'bg-gray-100 text-gray-800'}`}>
+          {isBestMatch ? '★ ' : ''}{tile.label}
+        </span>
+      </div>
+
+      {/* Image / gradient fallback */}
+      {thumbUrl && !imgFailed ? (
+        <img
+          src={thumbUrl}
+          alt={dest.city}
+          className="w-full h-32 object-cover"
+          onError={() => setImgFailed(true)}
+        />
+      ) : (
+        <div className="w-full h-32 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+          <span className="text-3xl">🌍</span>
+        </div>
+      )}
+
+      {/* Info */}
+      <div className="p-3">
+        <p className="font-semibold text-gray-900 text-sm leading-tight">
+          {dest.city}
+        </p>
+        <p className="text-xs text-gray-500 mt-0.5">
+          {dest.country}
+        </p>
+        <p className="text-xs text-gray-400 mt-1.5 line-clamp-2">
+          {tile.reasoning}
+        </p>
+        {tile.averageCost && (
+          <p className="text-xs text-gray-400 mt-1">
+            ~${tile.averageCost.toLocaleString()}/week
+          </p>
+        )}
+      </div>
+
+      {/* Hover overlay */}
+      <div className="absolute inset-0 bg-primary-600/0 group-hover:bg-primary-600/5 transition-colors rounded-2xl" />
+    </button>
+  );
+}
 
 // ── Destination thumbnail with error fallback ────────────────────────
 
@@ -22,7 +122,6 @@ function DestinationThumb({
   const [failed, setFailed] = useState(false);
   const dim = size === 'sm' ? 'w-14 h-14' : 'w-16 h-16';
 
-  // Optimize Unsplash URLs with WebP auto-format
   const optimizedSrc = src.includes('unsplash.com')
     ? src + (src.includes('?') ? '&' : '?') + 'q=80&auto=format&fit=crop&w=128&h=128'
     : src;
@@ -48,9 +147,6 @@ function DestinationThumb({
 }
 
 // ── Client-side image compression ────────────────────────────────────
-// Resize to max 1024px longest side, export as JPEG 0.85 quality.
-// Reduces 3-5MB photos to ~100-300KB — well within API limits and
-// more than enough resolution for Claude Vision.
 
 function compressImage(
   file: File,
@@ -61,7 +157,6 @@ function compressImage(
       const MAX_SIZE = 1024;
       let { width, height } = img;
 
-      // Scale down if needed
       if (width > MAX_SIZE || height > MAX_SIZE) {
         if (width > height) {
           height = Math.round((height * MAX_SIZE) / width);
@@ -88,7 +183,6 @@ function compressImage(
     };
     img.onerror = () => reject(new Error('Failed to load image'));
 
-    // Read file as data URL to load into Image
     const reader = new FileReader();
     reader.onload = (e) => {
       img.src = e.target?.result as string;
@@ -121,10 +215,16 @@ export default function DiscoverPage() {
   // File input ref
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  // ── Navigate to explore page with a destination tile ──────────────
+
+  const selectDestination = useCallback((dest: AlternativeTile['destination']) => {
+    sessionStorage.setItem('discover_destination', JSON.stringify(dest));
+    router.push(`/flash/explore?destination=${encodeURIComponent(dest.id)}`);
+  }, [router]);
+
   // ── Image upload handler ───────────────────────────────────────────
 
   const handleImageSelect = useCallback((file: File) => {
-    // Validate size (5MB max — will be compressed before sending)
     if (file.size > 5 * 1024 * 1024) {
       alert('Please upload an image under 5MB.');
       return;
@@ -139,7 +239,6 @@ export default function DiscoverPage() {
     setResult(null);
     setConfirmed(false);
 
-    // Generate preview
     const reader = new FileReader();
     reader.onload = (e) => {
       setImagePreview(e.target?.result as string);
@@ -162,7 +261,6 @@ export default function DiscoverPage() {
       if (urlInput) {
         body = { url: urlInput };
       } else if (imageFile) {
-        // Compress image client-side before sending
         const { base64, mimeType } = await compressImage(imageFile);
         body = { imageBase64: base64, imageMimeType: mimeType };
       }
@@ -189,25 +287,18 @@ export default function DiscoverPage() {
   }, [urlInput, imageFile]);
 
   // ── Map initialization / update ────────────────────────────────────
-  // Re-runs when result changes OR when confirmed changes (map container
-  // moves between two different JSX branches, so old instance is dead).
 
   useEffect(() => {
     if (!result?.location || !mapContainerRef.current) return;
 
     const { lat, lng } = result.location;
 
-    // Check if the existing map's container is still in the DOM.
-    // When switching between result→confirmed views, React unmounts
-    // the old container, making the map instance stale.
     if (mapRef.current) {
       const container = mapRef.current.getContainer();
       if (!document.body.contains(container)) {
-        // Container was removed from DOM — destroy stale map
         mapRef.current.remove();
         mapRef.current = null;
       } else {
-        // Container still valid — just update position
         mapRef.current.flyTo({ center: [lng, lat], zoom: 10 });
         if (markerRef.current) markerRef.current.remove();
         markerRef.current = new mapboxgl.Marker({ color: '#3b82f6' })
@@ -294,21 +385,25 @@ export default function DiscoverPage() {
     [urlInput, imageFile, loading, handleAnalyze],
   );
 
-  // ── Render ─────────────────────────────────────────────────────────
+  // ── Render state logic ─────────────────────────────────────────────
 
   const hasInput = urlInput.trim().length > 0 || imageFile !== null;
   const showResults = result && !loading;
-  const isMulti =
-    showResults && result.locations && result.locations.length > 1;
-  const isFound =
-    showResults &&
-    !isMulti &&
-    result.location &&
-    result.location.confidence === 'high';
-  const isNotFound =
-    showResults &&
-    !isMulti &&
-    (!result.location || result.location.confidence === 'low');
+
+  // Multi-location (Top 10 type content)
+  const isMulti = showResults && result.locations && result.locations.length > 1;
+
+  // Single result with matched destination + alternatives
+  const hasMatch = showResults && !isMulti && result.matchedDestination && result.alternatives;
+
+  // Location identified but not in our collection — show location + trending
+  const hasLocationNoMatch = showResults && !isMulti && result.location && !result.matchedDestination && result.trendingFallback;
+
+  // Nothing identified — trending-only fallback
+  const hasTrendingOnly = showResults && !isMulti && !result.location && result.trendingFallback;
+
+  // Error with no fallback
+  const isError = showResults && !isMulti && !hasMatch && !hasLocationNoMatch && !hasTrendingOnly && result.error;
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -336,6 +431,15 @@ export default function DiscoverPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-1">
                 {result.location.displayName}
               </h2>
+
+              {result.confidenceScore && (
+                <div className="mt-2">
+                  <ConfidenceBadge
+                    tier={result.confidenceScore.tier}
+                    label={result.confidenceScore.label}
+                  />
+                </div>
+              )}
 
               {result.matchedDestination ? (
                 <div className="mt-4 p-4 bg-primary-50 rounded-xl">
@@ -370,16 +474,7 @@ export default function DiscoverPage() {
 
               {result.matchedDestination ? (
                 <button
-                  onClick={() => {
-                    // Store discovered destination and route into flash explore
-                    sessionStorage.setItem(
-                      'discover_destination',
-                      JSON.stringify(result.matchedDestination),
-                    );
-                    router.push(
-                      `/flash/explore?destination=${encodeURIComponent(result.matchedDestination!.id)}`,
-                    );
-                  }}
+                  onClick={() => selectDestination(result.matchedDestination!)}
                   className="w-full mt-5 py-3.5 bg-primary-600 text-white rounded-xl font-semibold hover:bg-primary-700 transition-colors shadow-sm"
                 >
                   Explore {result.matchedDestination.city}
@@ -573,68 +668,156 @@ export default function DiscoverPage() {
               </div>
             )}
 
-            {/* ── Result: Found (high confidence) ─────────────────── */}
-            {isFound && !confirmed && (
+            {/* ── Result: Match + Alternatives (4-tile grid) ────── */}
+            {hasMatch && !confirmed && (
               <div className="space-y-5">
-                <div
-                  ref={mapContainerRef}
-                  className="w-full h-[300px] rounded-2xl overflow-hidden shadow-lg"
-                />
-
-                <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
-                  <p className="text-sm text-gray-500 mb-1">This looks like</p>
-                  <h2 className="text-2xl font-bold text-gray-900">
-                    {result.location!.displayName}
-                  </h2>
-
-                  {result.location!.reasoning && (
-                    <p className="text-sm text-gray-500 mt-2">
-                      {result.location!.reasoning}
-                    </p>
-                  )}
-
-                  {result.matchedDestination && (
-                    <div className="mt-4 flex items-center gap-3 p-3 bg-green-50 rounded-xl">
-                      <DestinationThumb
-                        src={result.matchedDestination.imageUrl}
-                        city={result.matchedDestination.city}
-                        size="sm"
-                      />
-                      <div>
-                        <p className="text-sm font-medium text-green-800">
-                          In our collection
+                {/* Header with confidence */}
+                <div className="bg-white rounded-2xl border border-gray-200 p-5 shadow-sm">
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <p className="text-sm text-gray-500 mb-1">This looks like</p>
+                      <h2 className="text-2xl font-bold text-gray-900">
+                        {result.location!.displayName}
+                      </h2>
+                      {result.location!.reasoning && (
+                        <p className="text-sm text-gray-500 mt-1">
+                          {result.location!.reasoning}
                         </p>
-                        <p className="text-xs text-green-600">
-                          {result.matchedDestination.highlights
-                            .slice(0, 3)
-                            .join(' · ')}
-                        </p>
-                      </div>
+                      )}
                     </div>
-                  )}
+                    {result.confidenceScore && (
+                      <ConfidenceBadge
+                        tier={result.confidenceScore.tier}
+                        label={result.confidenceScore.label}
+                      />
+                    )}
+                  </div>
 
-                  {!result.matchedDestination && (
-                    <p className="mt-3 text-sm text-amber-600 bg-amber-50 px-3 py-2 rounded-lg">
-                      Not in our collection yet — but we&apos;re always
-                      expanding!
-                    </p>
-                  )}
+                  {/* Small map */}
+                  <div
+                    ref={mapContainerRef}
+                    className="w-full h-[180px] rounded-xl overflow-hidden mt-4"
+                  />
+                </div>
 
-                  <div className="flex gap-3 mt-5">
-                    <button
-                      onClick={() => setConfirmed(true)}
-                      className="flex-1 py-3 bg-primary-600 text-white rounded-xl font-semibold hover:bg-primary-700 transition-colors"
-                    >
-                      That&apos;s it!
-                    </button>
-                    <button
-                      onClick={handleReset}
-                      className="flex-1 py-3 bg-white text-gray-700 rounded-xl font-semibold border border-gray-300 hover:bg-gray-50 transition-colors"
-                    >
-                      Not quite — try again
-                    </button>
+                {/* 4-tile grid: best match + 3 alternatives */}
+                <div>
+                  <p className="text-sm font-medium text-gray-600 mb-3 px-1">
+                    Choose a destination to explore
+                  </p>
+                  <div className="grid grid-cols-2 gap-3">
+                    {/* Best match tile */}
+                    <DestinationTile
+                      tile={{
+                        role: 'best_match',
+                        label: 'Best Match',
+                        destination: result.matchedDestination!,
+                        reasoning: result.matchedDestination!.highlights?.slice(0, 2).join(' · ') || 'Top destination',
+                        averageCost: result.matchedDestination!.averageCost,
+                      }}
+                      onSelect={() => selectDestination(result.matchedDestination!)}
+                      isBestMatch
+                      confidenceTier={result.confidenceScore?.tier}
+                    />
+
+                    {/* Alternative tiles */}
+                    {result.alternatives!.map((tile, i) => (
+                      <DestinationTile
+                        key={`alt-${i}`}
+                        tile={tile}
+                        onSelect={() => selectDestination(tile.destination)}
+                      />
+                    ))}
                   </div>
                 </div>
+
+                <button
+                  onClick={handleReset}
+                  className="w-full py-2.5 text-gray-500 hover:text-gray-700 text-sm font-medium transition-colors"
+                >
+                  Try a different photo or link
+                </button>
+              </div>
+            )}
+
+            {/* ── Result: Location found but not in collection ──── */}
+            {hasLocationNoMatch && !confirmed && (
+              <div className="space-y-5">
+                <div className="bg-white rounded-2xl border border-gray-200 p-5 shadow-sm">
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <p className="text-sm text-gray-500 mb-1">We found</p>
+                      <h2 className="text-2xl font-bold text-gray-900">
+                        {result.location!.displayName}
+                      </h2>
+                    </div>
+                    {result.confidenceScore && (
+                      <ConfidenceBadge
+                        tier={result.confidenceScore.tier}
+                        label={result.confidenceScore.label}
+                      />
+                    )}
+                  </div>
+
+                  <div
+                    ref={mapContainerRef}
+                    className="w-full h-[180px] rounded-xl overflow-hidden mt-4"
+                  />
+
+                  <p className="mt-3 text-sm text-amber-600 bg-amber-50 px-3 py-2 rounded-lg">
+                    This spot isn&apos;t in our collection yet — but here are similar destinations you can book now:
+                  </p>
+                </div>
+
+                {/* Trending tiles as suggestions */}
+                <div className="grid grid-cols-2 gap-3">
+                  {result.trendingFallback!.map((tile, i) => (
+                    <DestinationTile
+                      key={`trend-${i}`}
+                      tile={tile}
+                      onSelect={() => selectDestination(tile.destination)}
+                    />
+                  ))}
+                </div>
+
+                <button
+                  onClick={handleReset}
+                  className="w-full py-2.5 text-gray-500 hover:text-gray-700 text-sm font-medium transition-colors"
+                >
+                  Try a different photo or link
+                </button>
+              </div>
+            )}
+
+            {/* ── Result: No location found — trending fallback ─── */}
+            {hasTrendingOnly && (
+              <div className="space-y-5">
+                <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm text-center">
+                  <div className="text-4xl mb-3">🤔</div>
+                  <h2 className="text-xl font-bold text-gray-900 mb-2">
+                    We couldn&apos;t pin this down
+                  </h2>
+                  <p className="text-sm text-gray-500">
+                    No worries — here are some popular destinations for you:
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-2 gap-3">
+                  {result.trendingFallback!.map((tile, i) => (
+                    <DestinationTile
+                      key={`trend-${i}`}
+                      tile={tile}
+                      onSelect={() => selectDestination(tile.destination)}
+                    />
+                  ))}
+                </div>
+
+                <button
+                  onClick={handleReset}
+                  className="w-full py-2.5 text-gray-500 hover:text-gray-700 text-sm font-medium transition-colors"
+                >
+                  Try a different photo or link
+                </button>
               </div>
             )}
 
@@ -658,7 +841,6 @@ export default function DiscoverPage() {
                     const country =
                       dest?.country || loc.location.country || '';
                     const imgSrc = dest?.imageUrl || '';
-                    // Optimize Unsplash thumb
                     const thumbUrl =
                       imgSrc && imgSrc.includes('unsplash.com')
                         ? imgSrc +
@@ -670,18 +852,17 @@ export default function DiscoverPage() {
                       <button
                         key={i}
                         onClick={() => {
-                          // Select this location as the primary result and confirm
                           setResult({
                             ...result,
                             location: loc.location,
                             matchedDestination: loc.matchedDestination,
+                            confidenceScore: loc.confidenceScore,
                             locations: undefined,
                           });
                           setConfirmed(true);
                         }}
                         className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md hover:border-primary-300 transition-all text-left"
                       >
-                        {/* Image / gradient fallback */}
                         {thumbUrl ? (
                           <img
                             src={thumbUrl}
@@ -698,16 +879,25 @@ export default function DiscoverPage() {
                           </div>
                         )}
 
-                        {/* Info */}
                         <div className="p-3">
-                          <p className="font-semibold text-gray-900 text-sm leading-tight">
-                            {city}
-                          </p>
-                          {country && (
-                            <p className="text-xs text-gray-500 mt-0.5">
-                              {country}
-                            </p>
-                          )}
+                          <div className="flex items-start justify-between gap-1">
+                            <div>
+                              <p className="font-semibold text-gray-900 text-sm leading-tight">
+                                {city}
+                              </p>
+                              {country && (
+                                <p className="text-xs text-gray-500 mt-0.5">
+                                  {country}
+                                </p>
+                              )}
+                            </div>
+                            {loc.confidenceScore && (
+                              <span className={`w-2 h-2 rounded-full mt-1 flex-shrink-0 ${
+                                loc.confidenceScore.tier === 'high' ? 'bg-green-500' :
+                                loc.confidenceScore.tier === 'medium' ? 'bg-amber-500' : 'bg-red-500'
+                              }`} title={loc.confidenceScore.label} />
+                            )}
+                          </div>
                           {dest ? (
                             <p className="text-xs text-green-600 mt-1.5 font-medium">
                               In our collection
@@ -719,7 +909,6 @@ export default function DiscoverPage() {
                           )}
                         </div>
 
-                        {/* Hover overlay */}
                         <div className="absolute inset-0 bg-primary-600/0 group-hover:bg-primary-600/5 transition-colors rounded-2xl" />
                       </button>
                     );
@@ -735,43 +924,26 @@ export default function DiscoverPage() {
               </div>
             )}
 
-            {/* ── Result: Not found (low confidence) ──────────────── */}
-            {isNotFound && (
+            {/* ── Result: Error with no fallback ───────────────────── */}
+            {isError && (
               <div className="space-y-5">
                 <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm text-center">
                   <div className="text-4xl mb-3">🤔</div>
                   <h2 className="text-xl font-bold text-gray-900 mb-3">
-                    We couldn&apos;t pin this down
+                    Something went wrong
                   </h2>
-
-                  <div className="space-y-2 text-sm text-gray-500">
-                    <p>Here are some things that might help:</p>
-                    <ul className="space-y-1.5 text-left max-w-xs mx-auto">
-                      <li className="flex items-start gap-2">
-                        <span className="mt-0.5">📸</span>
-                        <span>Try a clearer screenshot showing landmarks or signs</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="mt-0.5">🔗</span>
-                        <span>Try a different link — some are private or restricted</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="mt-0.5">🏛️</span>
-                        <span>Images with recognizable buildings or landscapes work best</span>
-                      </li>
-                    </ul>
-                  </div>
-
+                  <p className="text-sm text-gray-500 mb-4">
+                    {result.error}
+                  </p>
                   <button
                     onClick={handleReset}
-                    className="mt-5 px-6 py-3 bg-primary-600 text-white rounded-xl font-semibold hover:bg-primary-700 transition-colors"
+                    className="px-6 py-3 bg-primary-600 text-white rounded-xl font-semibold hover:bg-primary-700 transition-colors"
                   >
                     Try again
                   </button>
                 </div>
               </div>
             )}
-
           </>
         )}
 

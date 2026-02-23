@@ -21,7 +21,12 @@ import type {
   ClaudeMultiLocationResult,
   ResolvedLocation,
   MatchedDestination,
+  DestinationMatchType,
+  ConfidenceScore,
 } from '@/types/location';
+import { computeConfidenceScore } from '@/lib/location/confidenceScoring';
+import { getLocationFromIp } from '@/lib/location/ipGeolocation';
+import { findAlternatives, getTrendingFallback } from '@/lib/location/alternativeFinder';
 
 const HAIKU_MODEL = 'anthropic/claude-3.5-haiku';
 const VISION_MODEL = 'anthropic/claude-sonnet-4.6'; // Haiku doesn't support vision via OpenRouter
@@ -30,14 +35,32 @@ const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
 
 // ── Helper: geocode + match a single ClaudeLocationResult ────────────
 
+interface ResolveOneResult {
+  location: ResolvedLocation;
+  matchedDestination: MatchedDestination | null;
+  matchType: DestinationMatchType;
+  confidenceScore: ConfidenceScore;
+}
+
 async function resolveOne(
   cr: ClaudeLocationResult,
   source: ResolvedLocation['source'],
-): Promise<{ location: ResolvedLocation; matchedDestination: MatchedDestination | null } | null> {
+): Promise<ResolveOneResult | null> {
   if (!cr.locationString) return null;
   const geocoded = await geocodeLocation(cr.locationString);
   if (!geocoded) return null;
-  const matched = matchDestination(cr.city, cr.country, geocoded.lat, geocoded.lng);
+  const { destination: matched, matchType } = matchDestination(cr.city, cr.country, geocoded.lat, geocoded.lng);
+
+  const confidenceScore = computeConfidenceScore({
+    claudeConfidence: cr.confidence,
+    matchType,
+    source,
+    geocodingSuccess: true,
+    claudeCity: cr.city,
+    claudeCountry: cr.country,
+    geocodedDisplayName: geocoded.displayName,
+  });
+
   return {
     location: {
       city: cr.city,
@@ -47,19 +70,31 @@ async function resolveOne(
       lng: geocoded.lng,
       displayName: geocoded.displayName,
       confidence: cr.confidence,
+      confidenceScore,
       reasoning: cr.reasoning,
       source,
     },
     matchedDestination: matched,
+    matchType,
+    confidenceScore,
   };
 }
 
 // ── Main entry point ─────────────────────────────────────────────────
 
+/** Very low confidence — treat as "not found" and show trending instead */
+const CONFIDENCE_FLOOR = 0.20;
+
 export async function resolveLocation(
   req: AnalyzeLocationRequest,
 ): Promise<LocationAnalysisResponse> {
   const _debug: string[] = [];
+
+  // IP geolocation (non-blocking — used for alternatives)
+  const ipLocation = await getLocationFromIp(req.clientIp);
+  const userAirportCode = ipLocation?.airport?.code ?? null;
+  _debug.push(`IP geolocation: ${ipLocation ? `${ipLocation.city} (${userAirportCode})` : 'unavailable'}`);
+  const currentMonth = new Date().getMonth() + 1;
 
   // === PATH A: URL INPUT ===
   if (req.url) {
@@ -88,22 +123,23 @@ export async function resolveLocation(
         _debug.push(`Geocoded: ${valid.length}/${multiResult.locations.length} survived`);
 
         if (valid.length > 1) {
+          // Multi-location: return confidence per tile, no alternatives yet
           return {
             success: true,
             location: valid[0].location,
             matchedDestination: valid[0].matchedDestination,
-            locations: valid,
+            confidenceScore: valid[0].confidenceScore,
+            locations: valid.map(v => ({
+              location: v.location,
+              matchedDestination: v.matchedDestination,
+              confidenceScore: v.confidenceScore,
+            })),
             _debug,
           };
         }
         // If only 1 survived geocoding, fall through to single-result path
         if (valid.length === 1) {
-          return {
-            success: true,
-            location: valid[0].location,
-            matchedDestination: valid[0].matchedDestination,
-            _debug,
-          };
+          return enrichSingleResult(valid[0], userAirportCode, currentMonth, _debug);
         }
       }
 
@@ -113,7 +149,7 @@ export async function resolveLocation(
         if (single.confidence === 'high') {
           const result = await resolveOne(single, 'caption');
           if (result) {
-            return { success: true, ...result, _debug };
+            return enrichSingleResult(result, userAirportCode, currentMonth, _debug);
           }
         }
       }
@@ -134,18 +170,20 @@ export async function resolveLocation(
         if (visionResult.confidence === 'high') {
           const result = await resolveOne(visionResult, 'vision');
           if (result) {
-            return { success: true, ...result, _debug };
+            return enrichSingleResult(result, userAirportCode, currentMonth, _debug);
           }
         }
       }
     }
 
-    // Step 3: Nothing worked
-    _debug.push('All methods failed');
+    // Step 3: Nothing worked — show trending fallback
+    _debug.push('All methods failed — returning trending fallback');
+    const trending = getTrendingFallback({ userAirportCode, currentMonth });
     return {
       success: true,
       location: null,
       matchedDestination: null,
+      trendingFallback: trending,
       error: 'Could not extract location information from this link.',
       _debug,
     };
@@ -160,25 +198,33 @@ export async function resolveLocation(
     );
 
     if (!claudeResult.locationString) {
+      _debug.push('Image analysis failed — returning trending fallback');
+      const trending = getTrendingFallback({ userAirportCode, currentMonth });
       return {
         success: true,
         location: null,
         matchedDestination: null,
+        trendingFallback: trending,
         error: claudeResult.reasoning || 'Could not determine a location from this image.',
+        _debug,
       };
     }
 
     const result = await resolveOne(claudeResult, 'vision');
     if (!result) {
+      _debug.push('Geocoding failed — returning trending fallback');
+      const trending = getTrendingFallback({ userAirportCode, currentMonth });
       return {
         success: true,
         location: null,
         matchedDestination: null,
+        trendingFallback: trending,
         error: `Identified as "${claudeResult.locationString}" but could not find it on the map.`,
+        _debug,
       };
     }
 
-    return { success: true, ...result };
+    return enrichSingleResult(result, userAirportCode, currentMonth, _debug);
   }
 
   return {
@@ -186,6 +232,79 @@ export async function resolveLocation(
     location: null,
     matchedDestination: null,
     error: 'Provide either a URL or an image.',
+  };
+}
+
+// ── Enrich single result with confidence + alternatives ──────────────
+
+function enrichSingleResult(
+  result: ResolveOneResult,
+  userAirportCode: string | null,
+  currentMonth: number,
+  _debug: string[],
+): LocationAnalysisResponse {
+  const { location, matchedDestination, confidenceScore } = result;
+
+  _debug.push(`Confidence: ${confidenceScore.value} (${confidenceScore.tier}: "${confidenceScore.label}")`);
+
+  // Very low confidence — treat as "not found"
+  if (confidenceScore.value < CONFIDENCE_FLOOR) {
+    _debug.push(`Confidence below floor (${CONFIDENCE_FLOOR}) — showing trending fallback`);
+    const trending = getTrendingFallback({ userAirportCode, currentMonth });
+    return {
+      success: true,
+      location,
+      matchedDestination: null,
+      confidenceScore,
+      trendingFallback: trending,
+      _debug,
+    };
+  }
+
+  // If we have a matched destination, find alternatives
+  if (matchedDestination && matchedDestination.vibes && matchedDestination.region) {
+    const alternatives = findAlternatives({
+      matchedDestinationId: matchedDestination.id,
+      matchedVibes: matchedDestination.vibes,
+      matchedAverageCost: matchedDestination.averageCost ?? 3000,
+      matchedRegion: matchedDestination.region,
+      matchedCountry: matchedDestination.country,
+      userAirportCode,
+      currentMonth,
+    });
+    _debug.push(`Found ${alternatives.length} alternative tiles`);
+
+    return {
+      success: true,
+      location,
+      matchedDestination,
+      confidenceScore,
+      alternatives,
+      _debug,
+    };
+  }
+
+  // Location found but not in our database — show trending as suggestions
+  if (!matchedDestination) {
+    _debug.push('Location found but not in collection — showing trending');
+    const trending = getTrendingFallback({ userAirportCode, currentMonth });
+    return {
+      success: true,
+      location,
+      matchedDestination: null,
+      confidenceScore,
+      trendingFallback: trending,
+      _debug,
+    };
+  }
+
+  // Matched destination but missing vibes/region (shouldn't happen, but safe fallback)
+  return {
+    success: true,
+    location,
+    matchedDestination,
+    confidenceScore,
+    _debug,
   };
 }
 
@@ -601,12 +720,32 @@ async function geocodeLocation(
 
 // ── Destination Matching ─────────────────────────────────────────────
 
+interface MatchResult {
+  destination: MatchedDestination | null;
+  matchType: DestinationMatchType;
+}
+
+function destToMatched(dest: typeof DESTINATIONS[0]): MatchedDestination {
+  return {
+    id: dest.id,
+    city: dest.city,
+    country: dest.country,
+    latitude: dest.latitude,
+    longitude: dest.longitude,
+    highlights: dest.highlights,
+    imageUrl: dest.imageUrl,
+    vibes: dest.vibes as string[],
+    averageCost: dest.averageCost,
+    region: dest.region,
+  };
+}
+
 function matchDestination(
   city: string | null,
   country: string | null,
   lat: number,
   lng: number,
-): MatchedDestination | null {
+): MatchResult {
   // 1. Try exact city name match (case-insensitive)
   if (city) {
     const cityLower = city.toLowerCase();
@@ -614,15 +753,7 @@ function matchDestination(
       (d) => d.city.toLowerCase() === cityLower,
     );
     if (exact) {
-      return {
-        id: exact.id,
-        city: exact.city,
-        country: exact.country,
-        latitude: exact.latitude,
-        longitude: exact.longitude,
-        highlights: exact.highlights,
-        imageUrl: exact.imageUrl,
-      };
+      return { destination: destToMatched(exact), matchType: 'exact_city' };
     }
   }
 
@@ -635,15 +766,7 @@ function matchDestination(
         cityLower.includes(d.city.toLowerCase()),
     );
     if (partial) {
-      return {
-        id: partial.id,
-        city: partial.city,
-        country: partial.country,
-        latitude: partial.latitude,
-        longitude: partial.longitude,
-        highlights: partial.highlights,
-        imageUrl: partial.imageUrl,
-      };
+      return { destination: destToMatched(partial), matchType: 'substring' };
     }
   }
 
@@ -661,18 +784,10 @@ function matchDestination(
   }
 
   if (nearest && nearestDist <= MAX_DISTANCE_KM) {
-    return {
-      id: nearest.id,
-      city: nearest.city,
-      country: nearest.country,
-      latitude: nearest.latitude,
-      longitude: nearest.longitude,
-      highlights: nearest.highlights,
-      imageUrl: nearest.imageUrl,
-    };
+    return { destination: destToMatched(nearest), matchType: 'haversine' };
   }
 
-  return null;
+  return { destination: null, matchType: 'none' };
 }
 
 function haversineKm(

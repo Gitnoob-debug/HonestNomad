@@ -31,7 +31,7 @@ interface SelectionParams {
 /**
  * Score how appropriate the destination is for the travel dates
  */
-function scoreSeasonalFit(destination: Destination, departureDate: string): number {
+export function scoreSeasonalFit(destination: Destination, departureDate: string): number {
   const month = new Date(departureDate).getMonth() + 1; // 1-12
 
   if (destination.bestMonths.includes(month)) {
@@ -52,7 +52,7 @@ function scoreSeasonalFit(destination: Destination, departureDate: string): numb
 /**
  * Score how well the destination matches requested vibes
  */
-function scoreVibeMatch(destination: Destination, requestedVibes: string[]): number {
+export function scoreVibeMatch(destination: Destination, requestedVibes: string[]): number {
   if (!requestedVibes || requestedVibes.length === 0) {
     return 1.0; // No preference = all destinations valid
   }
@@ -67,7 +67,7 @@ function scoreVibeMatch(destination: Destination, requestedVibes: string[]): num
 /**
  * Score how well the destination fits the budget
  */
-function scoreBudgetFit(destination: Destination, profile: FlashVacationPreferences): number {
+export function scoreBudgetFit(destination: Destination, profile: FlashVacationPreferences): number {
   const budget = profile.budget;
   if (!budget || !budget.perTripMax) {
     return 1.0;
@@ -116,7 +116,7 @@ function scoreBudgetFit(destination: Destination, profile: FlashVacationPreferen
  *   14+ hours  → 0.3  (ultra long, aspirational)
  *   No data    → 0.5  (neutral — don't penalize when we can't estimate)
  */
-function scoreReachability(destination: Destination, originAirport: string): number {
+export function scoreReachability(destination: Destination, originAirport: string): number {
   if (!originAirport) return 0.5; // No origin = neutral
 
   const estimate = estimateTravelTime(originAirport, destination);

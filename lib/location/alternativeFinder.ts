@@ -148,85 +148,176 @@ export function findAlternatives(params: {
       const travelCat = userAirportCode
         ? getTravelTimeCategory(userAirportCode, closer.dest)
         : undefined;
+      const closerDailyCost = closer.dest.dailyCosts
+        ? closer.dest.dailyCosts.foodPerDay + closer.dest.dailyCosts.activitiesPerDay + closer.dest.dailyCosts.transportPerDay
+        : undefined;
       tiles.push({
         role: 'closer',
         label: 'Closer to You',
         destination: toMatchedDestination(closer.dest),
         reasoning: buildCloserReasoning(closer.dest, matchedVibes, travelCat, closer.distKm),
         averageCost: closer.dest.averageCost,
+        dailyCostPerPerson: closerDailyCost,
         travelTimeCategory: travelCat,
       });
     }
   }
 
-  // ── 2. Budget-Friendly Alternative ─────────────────────────────────
+  // ── 2. Budget-Friendly Alternative (using real daily cost data) ─────
   {
-    let budgetThreshold = matchedAverageCost * 0.7;
+    // Use dailyCosts (food + activities + transport) for accurate comparison
+    const matchedDest = DESTINATIONS.find(d => d.id === matchedDestinationId);
+    const matchedDailyCost = matchedDest?.dailyCosts
+      ? matchedDest.dailyCosts.foodPerDay + matchedDest.dailyCosts.activitiesPerDay + matchedDest.dailyCosts.transportPerDay
+      : null;
 
-    // Find destinations with shared vibes AND cheaper
-    let budgetPool = candidates.filter(d =>
-      vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
-      d.averageCost < budgetThreshold &&
-      !selected.has(d.id),
-    );
+    // Helper to get total daily cost for a destination
+    const getDailyCostTotal = (d: Destination): number | null =>
+      d.dailyCosts
+        ? d.dailyCosts.foodPerDay + d.dailyCosts.activitiesPerDay + d.dailyCosts.transportPerDay
+        : null;
 
-    // If nothing found, relax the threshold
-    if (budgetPool.length === 0) {
-      budgetThreshold = matchedAverageCost * 0.9;
-      budgetPool = candidates.filter(d =>
+    if (matchedDailyCost != null) {
+      // Primary: compare structured daily costs (70% threshold)
+      let budgetThreshold = matchedDailyCost * 0.7;
+      let budgetPool = candidates.filter(d => {
+        const dc = getDailyCostTotal(d);
+        return (
+          dc != null &&
+          dc < budgetThreshold &&
+          vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
+          !selected.has(d.id)
+        );
+      });
+
+      // Relax to 85% if nothing found at 70%
+      if (budgetPool.length === 0) {
+        budgetThreshold = matchedDailyCost * 0.85;
+        budgetPool = candidates.filter(d => {
+          const dc = getDailyCostTotal(d);
+          return (
+            dc != null &&
+            dc < budgetThreshold &&
+            vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
+            !selected.has(d.id)
+          );
+        });
+      }
+
+      // Sort by vibe overlap desc, then daily cost asc
+      budgetPool.sort((a, b) => {
+        const vibeA = vibeOverlapRatio(a.vibes as string[], matchedVibes);
+        const vibeB = vibeOverlapRatio(b.vibes as string[], matchedVibes);
+        if (vibeB !== vibeA) return vibeB - vibeA;
+        return (getDailyCostTotal(a) ?? Infinity) - (getDailyCostTotal(b) ?? Infinity);
+      });
+
+      const budget = budgetPool[0];
+      if (budget) {
+        selected.add(budget.id);
+        const budgetDailyCost = getDailyCostTotal(budget)!;
+        const dailySavings = matchedDailyCost - budgetDailyCost;
+        const savingsPercent = Math.round((dailySavings / matchedDailyCost) * 100);
+        tiles.push({
+          role: 'budget',
+          label: 'Budget-Friendly',
+          destination: toMatchedDestination(budget),
+          reasoning: buildBudgetReasoning(budget, matchedVibes, dailySavings, savingsPercent),
+          averageCost: budget.averageCost,
+          dailyCostPerPerson: budgetDailyCost,
+          travelTimeCategory: userAirportCode
+            ? getTravelTimeCategory(userAirportCode, budget)
+            : undefined,
+        });
+      }
+    } else {
+      // Fallback: no dailyCosts on matched destination — use averageCost
+      let budgetThreshold = matchedAverageCost * 0.7;
+      let budgetPool = candidates.filter(d =>
         vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
         d.averageCost < budgetThreshold &&
         !selected.has(d.id),
       );
-    }
 
-    // Sort by vibe overlap desc, then cost asc
-    budgetPool.sort((a, b) => {
-      const vibeA = vibeOverlapRatio(a.vibes as string[], matchedVibes);
-      const vibeB = vibeOverlapRatio(b.vibes as string[], matchedVibes);
-      if (vibeB !== vibeA) return vibeB - vibeA;
-      return a.averageCost - b.averageCost;
-    });
+      if (budgetPool.length === 0) {
+        budgetThreshold = matchedAverageCost * 0.9;
+        budgetPool = candidates.filter(d =>
+          vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
+          d.averageCost < budgetThreshold &&
+          !selected.has(d.id),
+        );
+      }
 
-    const budget = budgetPool[0];
-    if (budget) {
-      selected.add(budget.id);
-      const savings = Math.round((1 - budget.averageCost / matchedAverageCost) * 100);
-      tiles.push({
-        role: 'budget',
-        label: 'Budget-Friendly',
-        destination: toMatchedDestination(budget),
-        reasoning: `${savings}% cheaper with ${describeSharedVibes(budget.vibes as string[], matchedVibes)}`,
-        averageCost: budget.averageCost,
-        travelTimeCategory: userAirportCode
-          ? getTravelTimeCategory(userAirportCode, budget)
-          : undefined,
+      budgetPool.sort((a, b) => {
+        const vibeA = vibeOverlapRatio(a.vibes as string[], matchedVibes);
+        const vibeB = vibeOverlapRatio(b.vibes as string[], matchedVibes);
+        if (vibeB !== vibeA) return vibeB - vibeA;
+        return a.averageCost - b.averageCost;
       });
+
+      const budget = budgetPool[0];
+      if (budget) {
+        selected.add(budget.id);
+        const savings = Math.round((1 - budget.averageCost / matchedAverageCost) * 100);
+        tiles.push({
+          role: 'budget',
+          label: 'Budget-Friendly',
+          destination: toMatchedDestination(budget),
+          reasoning: `${savings}% cheaper with ${describeSharedVibes(budget.vibes as string[], matchedVibes)}`,
+          averageCost: budget.averageCost,
+          dailyCostPerPerson: getDailyCostTotal(budget) ?? undefined,
+          travelTimeCategory: userAirportCode
+            ? getTravelTimeCategory(userAirportCode, budget)
+            : undefined,
+        });
+      }
     }
   }
 
   // ── Fallback: if "Closer" wasn't possible (no user location), add a second budget option
   if (userLat == null && tiles.length < 2) {
+    const getDailyCostTotal2 = (d: Destination): number | null =>
+      d.dailyCosts
+        ? d.dailyCosts.foodPerDay + d.dailyCosts.activitiesPerDay + d.dailyCosts.transportPerDay
+        : null;
+
     const extraPool = candidates.filter(d =>
       vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
       !selected.has(d.id),
     );
 
-    // Sort by cost ascending (cheapest first)
-    extraPool.sort((a, b) => a.averageCost - b.averageCost);
+    // Sort by daily cost ascending if available, else averageCost
+    extraPool.sort((a, b) => {
+      const costA = getDailyCostTotal2(a) ?? a.averageCost / 14; // rough daily proxy
+      const costB = getDailyCostTotal2(b) ?? b.averageCost / 14;
+      return costA - costB;
+    });
 
     const extra = extraPool[0];
     if (extra) {
       selected.add(extra.id);
-      const savings = Math.round((1 - extra.averageCost / matchedAverageCost) * 100);
+      const dailyCost = getDailyCostTotal2(extra);
+      const matchedDest = DESTINATIONS.find(d => d.id === matchedDestinationId);
+      const matchedDailyCost = matchedDest?.dailyCosts
+        ? matchedDest.dailyCosts.foodPerDay + matchedDest.dailyCosts.activitiesPerDay + matchedDest.dailyCosts.transportPerDay
+        : null;
+
+      let reasoning: string;
+      if (dailyCost != null && matchedDailyCost != null && dailyCost < matchedDailyCost) {
+        const dailySavings = matchedDailyCost - dailyCost;
+        const savingsPercent = Math.round((dailySavings / matchedDailyCost) * 100);
+        reasoning = buildBudgetReasoning(extra, matchedVibes, dailySavings, savingsPercent);
+      } else {
+        reasoning = describeSharedVibes(extra.vibes as string[], matchedVibes);
+      }
+
       tiles.push({
         role: 'budget',
         label: 'Budget-Friendly',
         destination: toMatchedDestination(extra),
-        reasoning: savings > 0
-          ? `${savings}% cheaper with ${describeSharedVibes(extra.vibes as string[], matchedVibes)}`
-          : describeSharedVibes(extra.vibes as string[], matchedVibes),
+        reasoning,
         averageCost: extra.averageCost,
+        dailyCostPerPerson: dailyCost ?? undefined,
       });
     }
   }
@@ -270,12 +361,16 @@ export function getTrendingFallback(params: {
     if (usedRegions.has(item.dest.region) && tiles.length < 2) continue;
 
     usedRegions.add(item.dest.region);
+    const trendDailyCost = item.dest.dailyCosts
+      ? item.dest.dailyCosts.foodPerDay + item.dest.dailyCosts.activitiesPerDay + item.dest.dailyCosts.transportPerDay
+      : undefined;
     tiles.push({
       role: tiles.length === 0 ? 'best_match' : 'similar_vibe',
       label: tiles.length === 0 ? 'Popular Pick' : 'Trending Now',
       destination: toMatchedDestination(item.dest),
       reasoning: buildTrendingReasoning(item.dest, currentMonth),
       averageCost: item.dest.averageCost,
+      dailyCostPerPerson: trendDailyCost,
       travelTimeCategory: userAirportCode
         ? getTravelTimeCategory(userAirportCode, item.dest)
         : undefined,
@@ -311,6 +406,23 @@ function buildCloserReasoning(
       : '';
   }
   return [vibeText, distText].filter(Boolean).join(' · ');
+}
+
+function buildBudgetReasoning(
+  dest: Destination,
+  targetVibes: string[],
+  dailySavings: number,
+  savingsPercent: number,
+): string {
+  const vibeText = describeSharedVibes(dest.vibes as string[], targetVibes);
+  const dailyCost = dest.dailyCosts
+    ? dest.dailyCosts.foodPerDay + dest.dailyCosts.activitiesPerDay + dest.dailyCosts.transportPerDay
+    : null;
+  // Show concrete dollar savings: "Save ~$40/day · Great for food & culture"
+  if (dailySavings >= 10) {
+    return `Save ~$${Math.round(dailySavings / 5) * 5}/day · ${vibeText}`;
+  }
+  return `${savingsPercent}% cheaper · ${vibeText}`;
 }
 
 function buildTrendingReasoning(dest: Destination, currentMonth: number): string {

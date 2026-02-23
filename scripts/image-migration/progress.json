@@ -1,71 +1,8 @@
 {
-  "lastUpdated": "2026-02-20T16:50:22.776Z",
-  "currentBatch": 2,
+  "lastUpdated": "2026-02-23T14:21:24.213Z",
+  "currentBatch": 11,
   "totalBatches": 70,
   "queue": [
-    {
-      "destId": "rome",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "rome",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "barcelona",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "barcelona",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "amsterdam",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "amsterdam",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "lisbon",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "lisbon",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "london",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
     {
       "destId": "london",
       "batchPart": 2,
@@ -481,19 +418,27 @@
     }
   ],
   "completed": [
-    "paris"
+    "paris",
+    "rome",
+    "barcelona",
+    "amsterdam",
+    "lisbon"
   ],
   "pendingReview": [
-    "paris"
+    "paris",
+    "rome",
+    "barcelona",
+    "amsterdam",
+    "lisbon"
   ],
   "approved": [],
   "rejected": [],
   "stats": {
     "totalDestinations": 36,
-    "totalImagesDownloaded": 70,
+    "totalImagesDownloaded": 355,
     "totalApproved": 0,
     "totalRejected": 0
   },
-  "lastBatchCompletedAt": "2026-02-20T16:50:22.776Z",
-  "nextBatchAvailableAt": "2026-02-20T17:53:22.776Z"
+  "lastBatchCompletedAt": "2026-02-23T14:21:24.213Z",
+  "nextBatchAvailableAt": "2026-02-23T15:24:24.213Z"
 }

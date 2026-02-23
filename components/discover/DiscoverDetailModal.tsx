@@ -110,7 +110,15 @@ export function DiscoverDetailModal({ tile, onClose, onExplore }: DiscoverDetail
                   </h2>
                   <p className="text-white/80 text-sm mt-0.5">{dest.country}</p>
                 </div>
-                {tile.averageCost && (
+                {tile.dailyCostPerPerson ? (
+                  <div className="text-right">
+                    <p className="text-white/60 text-xs">from</p>
+                    <p className="text-2xl font-bold text-white drop-shadow-lg">
+                      ~${tile.dailyCostPerPerson}
+                    </p>
+                    <p className="text-white/70 text-xs">/day per person</p>
+                  </div>
+                ) : tile.averageCost ? (
                   <div className="text-right">
                     <p className="text-white/60 text-xs">from</p>
                     <p className="text-2xl font-bold text-white drop-shadow-lg">
@@ -118,7 +126,7 @@ export function DiscoverDetailModal({ tile, onClose, onExplore }: DiscoverDetail
                     </p>
                     <p className="text-white/70 text-xs">/week</p>
                   </div>
-                )}
+                ) : null}
               </div>
             </div>
           </div>
@@ -191,7 +199,32 @@ export function DiscoverDetailModal({ tile, onClose, onExplore }: DiscoverDetail
             )}
 
             {/* ═══ COST INFO ═══ */}
-            {tile.averageCost && (
+            {enriched.fullDest?.dailyCosts ? (
+              <div className="mb-6 p-4 bg-primary-50 rounded-xl">
+                <p className="text-xs text-primary-500 font-medium uppercase tracking-wide mb-3">Daily budget (per person)</p>
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-600">🍽 Food &amp; dining</span>
+                    <span className="text-sm font-semibold text-gray-800">${enriched.fullDest.dailyCosts.foodPerDay}/day</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-600">🎭 Activities &amp; tours</span>
+                    <span className="text-sm font-semibold text-gray-800">${enriched.fullDest.dailyCosts.activitiesPerDay}/day</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-600">🚕 Getting around</span>
+                    <span className="text-sm font-semibold text-gray-800">${enriched.fullDest.dailyCosts.transportPerDay}/day</span>
+                  </div>
+                  <div className="border-t border-primary-200 pt-2 mt-2 flex items-center justify-between">
+                    <span className="text-sm font-semibold text-primary-700">Total (excl. hotel)</span>
+                    <span className="text-lg font-bold text-primary-700">
+                      ~${enriched.fullDest.dailyCosts.foodPerDay + enriched.fullDest.dailyCosts.activitiesPerDay + enriched.fullDest.dailyCosts.transportPerDay}/day
+                    </span>
+                  </div>
+                </div>
+                <p className="text-[10px] text-primary-400 mt-2">Mid-range estimates. Hotel costs shown during booking.</p>
+              </div>
+            ) : tile.averageCost ? (
               <div className="mb-6 p-4 bg-primary-50 rounded-xl">
                 <div className="flex items-center justify-between">
                   <div>
@@ -206,7 +239,7 @@ export function DiscoverDetailModal({ tile, onClose, onExplore }: DiscoverDetail
                   </div>
                 </div>
               </div>
-            )}
+            ) : null}
 
             {/* ═══ CTA ═══ */}
             <button

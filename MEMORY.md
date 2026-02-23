@@ -52,8 +52,17 @@ Discover Page → Upload photo / Paste URL → Identify location → Book
   - Multi-location support — tile grid picker for "Top 10" type content
   - Destination matching against 494 curated destinations (exact, substring, haversine 80km)
   - **Confidence scoring** — 5-signal weighted formula (Claude confidence, match type, source reliability, geocoding, consistency) → 3 user-facing tiers: green "We're confident" / amber "Our best guess" / red "We're not sure"
-  - **Alternative destination tiles** — 4-tile grid: Best Match + Closer Alternative + Budget-Friendly + Similar Vibe. Uses IP geolocation (ip-api.com + ipapi.co fallback) for proximity scoring
-  - **Trending fallback** — When no match found or confidence too low, shows 4 trending destinations scored by seasonal fit, popularity, and reachability with region diversity
+  - **Alternative destination tiles** — 3-tile grid: Best Match + Closer to You + Budget-Friendly. Uses IP geolocation (ip-api.com + ipapi.co fallback) with haversine distance for genuine proximity ranking. Immersive Flash-card-style tiles with image carousels, tap zones, swipe gestures, vibe pills, gradient overlays
+  - **Detail modal** — Tap tile center → full detail view with hero ImageCarousel, tagline, city pitch, all vibes, numbered highlights, cost card, "Explore [City]" CTA. Follows TripDetailModal layout
+  - **Multi-location consistency** — When video has multiple locations, picking one now shows the same immersive tiles (alternatives pre-computed server-side per entry)
+  - **Trending fallback** — When no match found or confidence too low, shows 3 trending destinations scored by seasonal fit, popularity, and reachability with region diversity
+- **Daily cost data** — 495 destinations enriched with structured per-person daily costs (USD):
+  - `foodPerDay` (casual breakfast/lunch + mid-range dinner), `activitiesPerDay` (museums, tours, entertainment), `transportPerDay` (taxis, transit, rideshare)
+  - Data generated via Claude Haiku enrichment script (`scripts/enrich-daily-costs.ts`)
+  - Stored on each destination as `dailyCosts` field in `lib/flash/destinations.ts`
+  - Range: $40/day (Hanoi, Ella) to $400/day (Bora Bora). Mean $111, median $100
+  - Budget-Friendly tile algorithm now uses real daily cost comparison instead of static `averageCost`
+  - Detail modal shows itemized daily budget breakdown (food, activities, transport)
 - **Flash Vacation flow** — swipe cards, explore map, hotel search, booking confirmation
 - **LiteAPI sandbox** for hotel search (mock pricing active)
 - **AI Magic Package** on confirm page (packing lists, tips, adventure guide)
@@ -78,14 +87,21 @@ Discover Page → Upload photo / Paste URL → Identify location → Book
 
 | File | Purpose |
 |------|---------|
-| `app/discover/page.tsx` | Discover UI — photo upload, URL input, results display, confidence badges, alternative tiles |
+| `app/discover/page.tsx` | Discover UI — photo upload, URL input, results display, confidence badges, alternative tiles, detail modal |
+| `components/discover/DestinationTile.tsx` | Immersive tile with image carousel, tap zones, progress bars, vibes, highlights |
+| `components/discover/DiscoverDetailModal.tsx` | Full detail modal — hero carousel, tagline, pitch, vibes, highlights, cost, CTA |
+| `components/discover/ConfidenceBadge.tsx` | Green/amber/red confidence pill |
 | `lib/location/resolver.ts` | Backend pipeline — metadata extraction, Claude analysis, geocoding, matching, alternatives |
 | `app/api/location/analyze/route.ts` | POST endpoint for location analysis (extracts client IP for geolocation) |
 | `types/location.ts` | TypeScript types for discover feature (includes confidence, alternatives, trending) |
 | `lib/location/confidenceScoring.ts` | 5-signal weighted confidence formula → 3 tiers |
 | `lib/location/ipGeolocation.ts` | IP-based user location (ip-api.com + ipapi.co fallback, 1hr cache) |
-| `lib/location/alternativeFinder.ts` | Finds closer/budget/similar-vibe alternatives + trending fallback |
+| `lib/location/alternativeFinder.ts` | Finds closer (haversine distance) + budget alternatives + trending fallback |
+| `lib/flash/vibeStyles.ts` | Shared VIBE_STYLES (colors, emojis) used by both Flash and Discover components |
 | `lib/flash/diversityEngine.ts` | Scoring functions (seasonal, vibe, budget, reachability) — shared with alternativeFinder |
+| `types/flash.ts` | Destination type with DailyCosts interface (foodPerDay, activitiesPerDay, transportPerDay) |
+| `scripts/enrich-daily-costs.ts` | Claude Haiku enrichment script for daily cost data (test/generate/merge/review modes) |
+| `data/daily-costs.json` | Raw enrichment output — 495 destinations with daily cost estimates |
 
 ---
 
@@ -93,17 +109,26 @@ Discover Page → Upload photo / Paste URL → Identify location → Book
 
 ```
 URL input → detectPlatform() → platform-specific metadata extraction
-  → TikTok: oEmbed (free, no key)
+  → TikTok: oEmbed (free, no key) — gets caption only
   → YouTube: oEmbed title + thumbnail (description/transcript blocked from Vercel)
   → Instagram: OG tags (blocked from Vercel, needs Meta app token)
   → Unknown: OG tag scraping
 
 Metadata → analyzeCaptionMulti() (Claude Haiku) → extract ALL locations
-  → If multiple: geocode all in parallel → tile grid picker
-  → If single: geocode → destination match → confirm
+  → If multiple: geocode all + compute alternatives per entry → tile grid picker
+  → If single: geocode → destination match → 3-tile grid (Best Match + Closer + Budget)
 
 Fallback: thumbnail → analyzeImage() (Claude Sonnet Vision) → geocode → match
 ```
+
+### Known Pipeline Gap: Video Content Analysis
+The current pipeline only sees metadata (caption, thumbnail). It does NOT see the actual video content. This means:
+- CapCut compilations with text overlays ("Day 3 in Bali") → missed entirely
+- Destination footage (landmarks, scenery) → only seen if thumbnail happens to show it
+- TikTok location tags (📍 structured data on the video) → not extracted yet
+- Vision hallucination risk is high when caption is generic and thumbnail is ambiguous (e.g., selfie on a plane → Claude confidently guesses wrong city)
+
+See TODO.md for the phased approach to fixing this.
 
 ---
 

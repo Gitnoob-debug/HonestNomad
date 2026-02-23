@@ -44,6 +44,7 @@ export interface AlternativeTile {
   destination: MatchedDestination;
   reasoning: string;         // "Same beach vibes, 3h closer"
   averageCost?: number;      // for budget comparison display
+  dailyCostPerPerson?: number; // food + activities + transport per day USD
   travelTimeCategory?: string; // "short" | "medium" | "long" | "ultra_long"
 }
 

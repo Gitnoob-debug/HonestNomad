@@ -15,7 +15,6 @@
 - [ ] **Wire Instagram oEmbed into resolver** — Add `fetchInstagramOEmbed()` using Meta app token
 - [ ] **Remove debug pipeline trace** — Strip `_debug` field from `LocationAnalysisResponse` and remove trace panel from discover page
 - [ ] **Remove `youtube-transcript` npm package** — No longer needed once YouTube Data API is wired in
-- [ ] **Test confidence + alternatives on Vercel** — Deployed (commit `94ecb5e`), needs manual testing of all states: matched w/ alternatives, no-match trending, low-confidence trending, multi-location picker
 
 ### Unsplash Image Migration (Background)
 - [ ] **Running in background** — ~1 batch/hour, progress in `scripts/image-migration/progress.json`
@@ -31,6 +30,30 @@
 - [ ] **Fix hardcoded Supabase image URLs** — `app/page.tsx` has raw Supabase Storage URLs for landing page
 - [ ] **Fix database schema mismatch** — `bookings` table still has `duffel_*` columns but code writes `provider_*`. Need ALTER TABLE migration
 - [ ] **Fix `any` types** — `app/flash/confirm/page.tsx` has `itinerary: any[]` and `favoriteStops: any[]`
+
+---
+
+## P0.5 — Video Content Analysis (Accuracy Unlock)
+
+> **The problem:** The Discover pipeline only sees metadata (caption + thumbnail). For many travel TikToks/Reels the caption is just hashtags, the thumbnail is a selfie, and the actual destination footage lives in the video frames. This causes confident wrong answers (e.g., selfie on a plane → Claude says "Las Vegas" with high confidence).
+
+### Phase 1: TikTok Location Tags (Easy — days)
+- [ ] **Extract TikTok location/POI tag from page HTML** — TikTok attaches a 📍 structured location tag to many videos (e.g., "United States of America - Columbus"). This is the most reliable signal when present. Scrape from embed HTML or TikTok page JSON. No API key needed.
+- [ ] **Add as highest-priority signal** — Location tag should outrank caption analysis and vision when available
+- [ ] **Vision hallucination guardrails** — When caption is generic (just hashtags) and thumbnail is ambiguous (person, plane, food), reduce confidence rather than confidently guessing wrong. Adjust Claude vision prompt to say "respond with low confidence if the image doesn't clearly show a recognizable place"
+
+### Phase 2: Client-Side Video Frame Capture (Medium — weeks)
+- [ ] **HTML5 `<video>` + `<canvas>` frame extraction** — Load video in browser, seek to 4-6 evenly-spaced timestamps, capture frames via canvas. Send frames alongside URL to the API. Avoids all server-side video processing.
+- [ ] **Multi-frame vision analysis** — Single Claude Sonnet call with 4-6 frames: "Identify all locations visible across these video frames." Batching frames in one call is cheaper and gives Claude cross-frame context.
+- [ ] **CORS handling** — TikTok/Instagram likely block cross-origin video playback. Options: (a) proxy through our server, (b) use platform embed APIs, (c) user uploads frames manually as fallback.
+- **Cost estimate:** ~$0.02/request (5 frames × ~1K tokens each). Current single-thumbnail approach: ~$0.005. So 4x AI cost but still negligible.
+- **Latency estimate:** ~8-12s total (vs current ~3-5s). Acceptable for a "smart analysis" feature.
+
+### Phase 3: Server-Side Video Processing (Hard — future)
+- [ ] **Video download + ffmpeg keyframe extraction** — Download video server-side, extract keyframes with ffmpeg. Most reliable but requires ffmpeg binary (not available on Vercel default runtime).
+- [ ] **Infrastructure options:** (a) Vercel Pro/Enterprise with custom runtime, (b) Separate AWS Lambda with ffmpeg layer, (c) Cloudinary/Mux video processing API, (d) Self-hosted worker
+- [ ] **Text overlay OCR** — CapCut edits always have text overlays ("Day 1 in Bali"). OCR extraction from frames would catch these. Could use Claude vision's text reading or a dedicated OCR service.
+- [ ] **Audio transcription** — Narration ("so we just landed in...") via Whisper API. Low priority since most TikToks use music, not narration.
 
 ---
 
@@ -82,6 +105,13 @@
 
 ## P4 — Data Enrichment
 
+### Daily Cost Data Quality
+- [ ] **Numbeo spot-check** — Cross-reference 20-30 key cities (Bangkok, NYC, Paris, Zurich, Tirana, Bali, etc.) against Numbeo's free website data. Adjust outliers in `data/daily-costs.json` and re-run `--merge`
+- [ ] **Re-enrich with calibration anchors** — Update Claude prompt with Numbeo-verified anchor cities (e.g., "Bangkok food = $20, Zurich food = $120") so the model calibrates relative to known-good data points
+- [ ] **Numbeo API (future)** — If budget allows ($500+/year), replace Claude estimates with Numbeo's crowdsourced data for meal costs, transport, entertainment. Would be the gold standard
+- [ ] **Periodic refresh** — Re-run enrichment quarterly or when adding new destinations. Script already has resume support and `lastUpdated` tracking
+
+### POI Data
 - [ ] Fix 49% junk POI descriptions ("Museum - highly rated") from existing data
 - [ ] Fix image bug: `itinerary-generator.ts` uses expired `poi.imageUrl` instead of `resolvePOIImageUrl()`
 - [ ] Enrich `bestTimeOfDay` from POI categories (56% currently "any")
@@ -119,12 +149,30 @@
 
 ## Recently Completed
 
-### Confidence Scoring & Alternative Tiles (Feb 23, 2026)
+### Daily Cost Data & Budget Algorithm Rebuild (Feb 23, 2026)
+- [x] **DailyCosts type** — Added `DailyCosts` interface to `types/flash.ts` with `foodPerDay`, `activitiesPerDay`, `transportPerDay`, `source`, `lastUpdated`. Added `dailyCosts?` field to `Destination` type
+- [x] **Claude enrichment script** — `scripts/enrich-daily-costs.ts` uses Claude Haiku (via OpenRouter) to generate per-person daily cost estimates in USD for all 495 destinations. Modes: `--test` (5 cities), default (all), `--merge` (patch destinations.ts), `--review` (summary stats). Resume support via `data/daily-costs.json`
+- [x] **Enriched all 495 destinations** — Range: $40/day (Hanoi, Ella, Kandy) to $400/day (Bora Bora). Mean $111, median $100. Sanity checks passed: Bangkok $50, Zurich $195, NYC $195, Tirana $50
+- [x] **Merged into destinations.ts** — Each destination now has `dailyCosts: { foodPerDay, activitiesPerDay, transportPerDay, source: 'claude', lastUpdated }` field
+- [x] **Budget-Friendly algorithm rewrite** — Now compares real daily living costs (food + activities + transport) instead of static `averageCost`. Shows actual dollar savings in reasoning text: "Save ~$40/day · Great for food & culture". Falls back to `averageCost` for any destination without `dailyCosts`
+- [x] **Daily cost on tiles** — `dailyCostPerPerson` field added to `AlternativeTile`. Tiles show `~$75/day` instead of `~$3,500/wk`. Detail modal shows itemized breakdown: food, activities, transport with totals
+- [x] **All tiles enriched** — Closer, Budget, and Trending tiles all carry `dailyCostPerPerson` data
+
+### Discover Tiles — Immersive Cards + Distance Fix (Feb 22, 2026)
+- [x] **Flash-card aesthetic** — Full-bleed images, gradient overlays, vibe pills, highlights on all Discover tiles. Shared VIBE_STYLES module (`lib/flash/vibeStyles.ts`)
+- [x] **Image carousels on tiles** — Multi-image carousel with tap zones (left 30%/right 30%/center 40%), swipe gestures, progress bars. Uses `getDestinationImagesById()` for up to 6 images per tile
+- [x] **Detail modal** — `DiscoverDetailModal` with hero ImageCarousel, tagline (`generateTagline`), city pitch (`generateCityPitch`), vibes, all highlights, cost card, "Explore" CTA. Follows TripDetailModal layout
+- [x] **3-tile layout** — Removed "Similar Vibe" (was 4 tiles). Now: Best Match + Closer to You + Budget-Friendly. Grid: `sm:grid-cols-3`
+- [x] **Haversine distance for "Closer to You"** — Replaced coarse 4-bucket reachability scoring with actual `haversineKm()` from user IP lat/lng to destination lat/lng. Now only shows destinations genuinely closer than the matched one. Removed "prefer different country" bias
+- [x] **Multi-location → tiles consistency** — Picking from multi-location grid now shows immersive tiles (alternatives pre-computed server-side per entry) instead of old plain confirmed view
+- [x] **Extracted components** — `components/discover/DestinationTile.tsx`, `DiscoverDetailModal.tsx`, `ConfidenceBadge.tsx` with barrel export
+
+### Confidence Scoring & Alternative Tiles (Feb 2026)
 - [x] Confidence scoring — 5-signal weighted formula (Claude confidence 0.30, match type 0.30, source reliability 0.15, geocoding 0.15, consistency 0.10) → 3 tiers (≥0.70 green, ≥0.40 amber, <0.40 red)
 - [x] IP geolocation — ip-api.com primary + ipapi.co fallback, 1hr in-memory cache, private IP handling
-- [x] Alternative destination finder — Closer (reachability), Budget (<70% cost), Similar Vibe (different region), with fallback logic when no user airport
+- [x] Alternative destination finder — Closer (haversine distance), Budget (<70% cost), with fallback logic when no user location
 - [x] Trending fallback — seasonalFit × 0.4 + popularity × 0.3 + reachability × 0.3, region diversity enforced
-- [x] Discover page rewrite — ConfidenceBadge component, DestinationTile component, 4-tile grid layout, trending-only state, confidence dots on multi-location picker
+- [x] Discover page rewrite — ConfidenceBadge component, DestinationTile component, 3-tile grid layout, trending-only state, confidence dots on multi-location picker
 - [x] Exported scoring functions from diversityEngine.ts (scoreSeasonalFit, scoreVibeMatch, scoreBudgetFit, scoreReachability)
 - [x] Resolver enrichment — all paths return alternatives or trending, confidence floor (0.20) triggers trending
 - [x] API route — extracts client IP from x-forwarded-for / x-real-ip headers
@@ -192,6 +240,9 @@
 | Flash input form | `components/flash/FlashPlanInput.tsx` |
 | Trip state management | `hooks/useFlashVacation.ts` |
 | Image migration scripts | `scripts/image-migration/` |
+| Daily cost enrichment | `scripts/enrich-daily-costs.ts` |
+| Daily cost data (raw) | `data/daily-costs.json` |
+| Budget algorithm | `lib/location/alternativeFinder.ts` |
 | Project memory | `MEMORY.md` |
 | Lessons learned | `LESSONS-LEARNED.md` |
 

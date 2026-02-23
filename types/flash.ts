@@ -313,6 +313,15 @@ export interface TransferInfo {
 }
 
 // Destination database types
+/** Daily cost estimates for budget comparison (USD, per person) */
+export interface DailyCosts {
+  foodPerDay: number;         // Mix of casual + mid-range dining
+  activitiesPerDay: number;   // Museums, tours, entertainment, typical tourist activities
+  transportPerDay: number;    // Local taxis, transit, rideshare
+  source: 'claude' | 'numbeo' | 'manual';
+  lastUpdated: string;        // ISO date
+}
+
 export interface Destination {
   id: string;
   city: string;
@@ -322,6 +331,7 @@ export interface Destination {
   vibes: DestinationVibe[];
   bestMonths: number[]; // 1-12
   averageCost: number; // USD estimate for 1 week, 2 adults
+  dailyCosts?: DailyCosts; // Structured daily cost breakdown for budget comparisons
   highlights: string[];
   imageUrl: string;     // Primary image (backward compatible)
   images?: DestinationImage[];  // Multiple images for carousel (5-10)

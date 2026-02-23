@@ -155,11 +155,13 @@ export function DestinationTile({ tile, onSelect, isBestMatch = false }: Destina
         </span>
       </div>
 
-      {/* ── Cost badge (top right) ── */}
-      {tile.averageCost && (
+      {/* ── Cost badge (top right) — prefer daily cost per person ── */}
+      {(tile.dailyCostPerPerson || tile.averageCost) && (
         <div className={`absolute ${hasCarousel ? 'top-4' : 'top-2'} right-2 z-10`}>
           <span className="bg-black/50 backdrop-blur-sm text-white px-2 py-0.5 rounded-full text-[10px] font-semibold">
-            ~${tile.averageCost.toLocaleString()}/wk
+            {tile.dailyCostPerPerson
+              ? `~$${tile.dailyCostPerPerson}/day`
+              : `~$${tile.averageCost!.toLocaleString()}/wk`}
           </span>
         </div>
       )}

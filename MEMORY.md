@@ -1,0 +1,140 @@
+# HonestNomad - Memory
+
+> Context file for AI assistants. Read this first to understand the project.
+> Last updated: February 22, 2026
+
+---
+
+## What Is This
+
+HonestNomad is an AI-powered travel planning app. Users discover destinations through photos and social media links, then book hotels through a streamlined funnel.
+
+**Stack:** Next.js 14 + Supabase + LiteAPI + Mapbox + Claude (via OpenRouter)
+**Deployed:** https://honest-nomad-ud6y.vercel.app
+**Branch:** All work on `master` (no feature branches)
+
+---
+
+## Architecture Decisions (Finalized)
+
+| Decision | Choice | Reasoning |
+|----------|--------|-----------|
+| Hotels only | No flights | Chargeback risk too high on flights |
+| Hotel API | LiteAPI (Nuitee) | Real-time pricing, no approval needed, MoR option |
+| Payment | LiteAPI SDK (NUITEE_PAY) | Zero chargeback risk - LiteAPI handles payments |
+| AI provider | OpenRouter → Claude | Haiku 3.5 for text, Sonnet 4.6 for vision |
+| Image storage | Supabase Storage | 5GB+, serves destination photos |
+| PII | Never store | Passthrough architecture - guest data goes direct to LiteAPI |
+| Discovery | Photo/URL recognition | Claude Vision identifies locations from user uploads |
+
+---
+
+## Current User Flow
+
+```
+Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
+  → Swipe 16 Cities → Explore POIs on Map → Hotels → Review → Adventure Package
+
+OR
+
+Discover Page → Upload photo / Paste URL → Identify location → Book
+```
+
+---
+
+## What's Built & Working
+
+- **500 curated destinations**, 85k+ POIs, 5GB+ Supabase images
+- **Discover feature** (`/discover`) — upload photos or paste social media URLs
+  - Claude Vision identifies locations from photos (solid)
+  - TikTok oEmbed extracts captions (working, no key needed)
+  - YouTube oEmbed gets title + thumbnail (working, but limited metadata)
+  - Multi-location support — tile grid picker for "Top 10" type content
+  - Destination matching against 494 curated destinations (exact, substring, haversine 80km)
+- **Flash Vacation flow** — swipe cards, explore map, hotel search, booking confirmation
+- **LiteAPI sandbox** for hotel search (mock pricing active)
+- **AI Magic Package** on confirm page (packing lists, tips, adventure guide)
+- **Travel time matrix** for 500+ destinations
+- **Anonymous browsing**, auth gate only at booking
+- **Unsplash image migration** — running in background, downloads ~1 batch/hour
+
+---
+
+## What's NOT Working / Known Issues
+
+- **YouTube multi-location extraction** — YouTube blocks transcript/description fetching from Vercel's datacenter IPs. All approaches failed (HTML scraping, innertube API, youtube-transcript npm package). Need YouTube Data API v3 key to fix.
+- **Instagram oEmbed** — Requires Meta developer app token (free, ~15 min setup). Currently falls back to OG tag scraping which Instagram also blocks.
+- **Hotel booking flow** — "Proceed to Payment" is a placeholder alert
+- **POI images** — Still reference Google API, need Supabase migration
+- **13 new destinations** missing POI data (blocked by Google API budget cap)
+
+---
+
+## Key Files (Discover Feature)
+
+| File | Purpose |
+|------|---------|
+| `app/discover/page.tsx` | Discover UI — photo upload, URL input, results display |
+| `lib/location/resolver.ts` | Backend pipeline — metadata extraction, Claude analysis, geocoding, matching |
+| `app/api/location/analyze/route.ts` | POST endpoint for location analysis |
+| `types/location.ts` | TypeScript types for discover feature |
+
+---
+
+## Discover Pipeline (URL Path)
+
+```
+URL input → detectPlatform() → platform-specific metadata extraction
+  → TikTok: oEmbed (free, no key)
+  → YouTube: oEmbed title + thumbnail (description/transcript blocked from Vercel)
+  → Instagram: OG tags (blocked from Vercel, needs Meta app token)
+  → Unknown: OG tag scraping
+
+Metadata → analyzeCaptionMulti() (Claude Haiku) → extract ALL locations
+  → If multiple: geocode all in parallel → tile grid picker
+  → If single: geocode → destination match → confirm
+
+Fallback: thumbnail → analyzeImage() (Claude Sonnet Vision) → geocode → match
+```
+
+---
+
+## API Keys & Services
+
+| Service | Purpose | Cost | Key Location |
+|---------|---------|------|-------------|
+| Supabase | DB, Auth, Storage | Free tier | `.env.local` |
+| LiteAPI | Hotel search, rates, booking | Free searches, 2.9-3.9% per booking | `.env.local` |
+| Mapbox | Maps, geocoding | Free tier (100k loads/month) | `.env.local` (NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN) |
+| OpenRouter → Claude | Vision, text analysis, Magic Package | Pay per token | `.env.local` |
+| Unsplash | Image migration (scripts) | Free (50 req/hour) | `.env.local` |
+| Google Places | POI data (scripts only) | **DO NOT RUN** — $900 incident | `.env.local` |
+
+### API Keys Needed (Not Yet Set Up)
+
+| Service | Purpose | Cost | Setup Time |
+|---------|---------|------|-----------|
+| YouTube Data API v3 | Video descriptions for multi-location | Free (10k units/day) | ~2 min |
+| Meta/Instagram oEmbed | Instagram post captions | Free | ~15 min |
+
+---
+
+## Critical Rules
+
+1. **DO NOT run Google Places API scripts** — Previous $900 bill incident
+2. **DO NOT store API keys in committed files** — Use `.env.local` only
+3. **DO NOT store PII** — Passthrough architecture, guest data goes direct to LiteAPI
+4. **Hotels only, no flights** — Chargeback risk decision
+5. **All work on master branch** — No feature branches
+
+---
+
+## Background Tasks
+
+- **Unsplash image migration** — Downloads destination photos in batches (~1 batch/hour, 50 req/hour rate limit). Progress saved in `scripts/image-migration/progress.json`. Restart with: `npx tsx scripts/image-migration/migrate-images.ts --continuous`
+
+---
+
+## Debug Tools (Temporary)
+
+- **Pipeline trace** — `_debug` field on `LocationAnalysisResponse` shows each step of the resolver pipeline. Visible in the discover page as a dark panel at the bottom. Remove before production.

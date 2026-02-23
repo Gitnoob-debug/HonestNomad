@@ -93,7 +93,9 @@ export async function resolveLocation(
   // IP geolocation (non-blocking — used for alternatives)
   const ipLocation = await getLocationFromIp(req.clientIp);
   const userAirportCode = ipLocation?.airport?.code ?? null;
-  _debug.push(`IP geolocation: ${ipLocation ? `${ipLocation.city} (${userAirportCode})` : 'unavailable'}`);
+  const userLat = ipLocation?.lat ?? null;
+  const userLng = ipLocation?.lng ?? null;
+  _debug.push(`IP geolocation: ${ipLocation ? `${ipLocation.city} (${userAirportCode}) [${userLat?.toFixed(2)}, ${userLng?.toFixed(2)}]` : 'unavailable'}`);
   const currentMonth = new Date().getMonth() + 1;
 
   // === PATH A: URL INPUT ===
@@ -139,7 +141,7 @@ export async function resolveLocation(
         }
         // If only 1 survived geocoding, fall through to single-result path
         if (valid.length === 1) {
-          return enrichSingleResult(valid[0], userAirportCode, currentMonth, _debug);
+          return enrichSingleResult(valid[0], userAirportCode, userLat, userLng, currentMonth, _debug);
         }
       }
 
@@ -149,7 +151,7 @@ export async function resolveLocation(
         if (single.confidence === 'high') {
           const result = await resolveOne(single, 'caption');
           if (result) {
-            return enrichSingleResult(result, userAirportCode, currentMonth, _debug);
+            return enrichSingleResult(result, userAirportCode, userLat, userLng, currentMonth, _debug);
           }
         }
       }
@@ -170,7 +172,7 @@ export async function resolveLocation(
         if (visionResult.confidence === 'high') {
           const result = await resolveOne(visionResult, 'vision');
           if (result) {
-            return enrichSingleResult(result, userAirportCode, currentMonth, _debug);
+            return enrichSingleResult(result, userAirportCode, userLat, userLng, currentMonth, _debug);
           }
         }
       }
@@ -224,7 +226,7 @@ export async function resolveLocation(
       };
     }
 
-    return enrichSingleResult(result, userAirportCode, currentMonth, _debug);
+    return enrichSingleResult(result, userAirportCode, userLat, userLng, currentMonth, _debug);
   }
 
   return {
@@ -240,6 +242,8 @@ export async function resolveLocation(
 function enrichSingleResult(
   result: ResolveOneResult,
   userAirportCode: string | null,
+  userLat: number | null,
+  userLng: number | null,
   currentMonth: number,
   _debug: string[],
 ): LocationAnalysisResponse {
@@ -270,6 +274,8 @@ function enrichSingleResult(
       matchedRegion: matchedDestination.region,
       matchedCountry: matchedDestination.country,
       userAirportCode,
+      userLat,
+      userLng,
       currentMonth,
     });
     _debug.push(`Found ${alternatives.length} alternative tiles`);

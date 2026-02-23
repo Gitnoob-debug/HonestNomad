@@ -32,6 +32,22 @@ function vibeOverlapRatio(destVibes: string[], targetVibes: string[]): number {
   return vibeOverlap(destVibes, targetVibes) / targetVibes.length;
 }
 
+/** Haversine distance in km between two lat/lng points */
+function haversineKm(
+  lat1: number, lng1: number,
+  lat2: number, lng2: number,
+): number {
+  const R = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLng = ((lng2 - lng1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLng / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
 /** Get travel time category for display */
 function getTravelTimeCategory(
   userAirport: string,
@@ -78,6 +94,8 @@ export function findAlternatives(params: {
   matchedRegion: string;
   matchedCountry: string;
   userAirportCode: string | null;
+  userLat: number | null;
+  userLng: number | null;
   currentMonth: number;
 }): AlternativeTile[] {
   const {
@@ -87,6 +105,8 @@ export function findAlternatives(params: {
     matchedRegion,
     matchedCountry,
     userAirportCode,
+    userLat,
+    userLng,
     currentMonth,
   } = params;
 
@@ -96,34 +116,43 @@ export function findAlternatives(params: {
   const selected: Set<string> = new Set();
   const tiles: AlternativeTile[] = [];
 
-  // ── 1. Closer Alternative ──────────────────────────────────────────
-  if (userAirportCode) {
+  // ── 1. Closer Alternative (haversine distance from user) ───────────
+  if (userLat != null && userLng != null) {
     // Filter to destinations with at least 1 shared vibe
     const withVibes = candidates.filter(d =>
       vibeOverlap(d.vibes as string[], matchedVibes) >= 1 && !selected.has(d.id),
     );
 
-    // Score by reachability (closest first)
-    const scored = withVibes.map(d => ({
-      dest: d,
-      reachability: scoreReachability(d, userAirportCode),
-      vibeRatio: vibeOverlapRatio(d.vibes as string[], matchedVibes),
-    }));
+    // Distance from matched destination to user
+    const matchedDest = DESTINATIONS.find(d => d.id === matchedDestinationId);
+    const matchedDistKm = matchedDest
+      ? haversineKm(userLat, userLng, matchedDest.latitude, matchedDest.longitude)
+      : Infinity;
 
-    // Sort by reachability desc, then vibe overlap desc
-    scored.sort((a, b) => b.reachability - a.reachability || b.vibeRatio - a.vibeRatio);
+    // Score by actual distance to user (closest first), must be closer than the match
+    const scored = withVibes
+      .map(d => ({
+        dest: d,
+        distKm: haversineKm(userLat, userLng, d.latitude, d.longitude),
+        vibeRatio: vibeOverlapRatio(d.vibes as string[], matchedVibes),
+      }))
+      .filter(s => s.distKm < matchedDistKm); // must actually be closer
 
-    // Prefer a different country for diversity
-    const closer = scored.find(s => s.dest.country !== matchedCountry) || scored[0];
+    // Sort by distance ascending, then vibe overlap descending as tiebreaker
+    scored.sort((a, b) => a.distKm - b.distKm || b.vibeRatio - a.vibeRatio);
+
+    const closer = scored[0];
 
     if (closer) {
       selected.add(closer.dest.id);
-      const travelCat = getTravelTimeCategory(userAirportCode, closer.dest);
+      const travelCat = userAirportCode
+        ? getTravelTimeCategory(userAirportCode, closer.dest)
+        : undefined;
       tiles.push({
         role: 'closer',
         label: 'Closer to You',
         destination: toMatchedDestination(closer.dest),
-        reasoning: buildCloserReasoning(closer.dest, matchedVibes, travelCat),
+        reasoning: buildCloserReasoning(closer.dest, matchedVibes, travelCat, closer.distKm),
         averageCost: closer.dest.averageCost,
         travelTimeCategory: travelCat,
       });
@@ -176,8 +205,8 @@ export function findAlternatives(params: {
     }
   }
 
-  // ── Fallback: if "Closer" wasn't possible (no user airport), add a second budget option
-  if (!userAirportCode && tiles.length < 2) {
+  // ── Fallback: if "Closer" wasn't possible (no user location), add a second budget option
+  if (userLat == null && tiles.length < 2) {
     const extraPool = candidates.filter(d =>
       vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
       !selected.has(d.id),
@@ -269,12 +298,19 @@ function buildCloserReasoning(
   dest: Destination,
   targetVibes: string[],
   travelCat: string | undefined,
+  distKm?: number,
 ): string {
   const vibeText = describeSharedVibes(dest.vibes as string[], targetVibes);
-  const timeText = travelCat === 'short' ? 'Short flight away'
-    : travelCat === 'medium' ? 'Medium-haul flight'
-    : '';
-  return [vibeText, timeText].filter(Boolean).join(' · ');
+  // Show distance in human-friendly format
+  let distText = '';
+  if (distKm != null) {
+    if (distKm < 500) distText = `Only ${Math.round(distKm)} km away`;
+    else if (distKm < 2000) distText = `~${Math.round(distKm / 100) * 100} km away`;
+    else distText = travelCat === 'short' ? 'Short flight away'
+      : travelCat === 'medium' ? 'Medium-haul flight'
+      : '';
+  }
+  return [vibeText, distText].filter(Boolean).join(' · ');
 }
 
 function buildTrendingReasoning(dest: Destination, currentMonth: number): string {

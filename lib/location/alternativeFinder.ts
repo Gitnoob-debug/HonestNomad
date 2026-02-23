@@ -176,56 +176,27 @@ export function findAlternatives(params: {
     }
   }
 
-  // ── 3. Similar Vibe (different region) ─────────────────────────────
-  {
-    const vibePool = candidates.filter(d =>
-      d.region !== matchedRegion && !selected.has(d.id),
-    );
-
-    // Sort by vibe overlap desc
-    vibePool.sort((a, b) => {
-      const vibeA = vibeOverlapRatio(a.vibes as string[], matchedVibes);
-      const vibeB = vibeOverlapRatio(b.vibes as string[], matchedVibes);
-      return vibeB - vibeA;
-    });
-
-    const similar = vibePool[0];
-    if (similar) {
-      selected.add(similar.id);
-      tiles.push({
-        role: 'similar_vibe',
-        label: 'Similar Vibe',
-        destination: toMatchedDestination(similar),
-        reasoning: describeSharedVibes(similar.vibes as string[], matchedVibes),
-        averageCost: similar.averageCost,
-        travelTimeCategory: userAirportCode
-          ? getTravelTimeCategory(userAirportCode, similar)
-          : undefined,
-      });
-    }
-  }
-
-  // ── Fallback: if "Closer" wasn't possible (no user airport), add a second Similar Vibe
-  if (!userAirportCode && tiles.length < 3) {
+  // ── Fallback: if "Closer" wasn't possible (no user airport), add a second budget option
+  if (!userAirportCode && tiles.length < 2) {
     const extraPool = candidates.filter(d =>
-      d.region === matchedRegion && // same region this time (different from tile 3)
+      vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
       !selected.has(d.id),
     );
 
-    extraPool.sort((a, b) => {
-      const vibeA = vibeOverlapRatio(a.vibes as string[], matchedVibes);
-      const vibeB = vibeOverlapRatio(b.vibes as string[], matchedVibes);
-      return vibeB - vibeA;
-    });
+    // Sort by cost ascending (cheapest first)
+    extraPool.sort((a, b) => a.averageCost - b.averageCost);
 
     const extra = extraPool[0];
     if (extra) {
       selected.add(extra.id);
+      const savings = Math.round((1 - extra.averageCost / matchedAverageCost) * 100);
       tiles.push({
-        role: 'similar_vibe',
-        label: 'Similar Vibe',
+        role: 'budget',
+        label: 'Budget-Friendly',
         destination: toMatchedDestination(extra),
-        reasoning: describeSharedVibes(extra.vibes as string[], matchedVibes),
+        reasoning: savings > 0
+          ? `${savings}% cheaper with ${describeSharedVibes(extra.vibes as string[], matchedVibes)}`
+          : describeSharedVibes(extra.vibes as string[], matchedVibes),
         averageCost: extra.averageCost,
       });
     }
@@ -259,15 +230,15 @@ export function getTrendingFallback(params: {
   // Sort by score descending
   scored.sort((a, b) => b.total - a.total);
 
-  // Pick top 4 with region diversity (no two from the same region)
+  // Pick top 3 with region diversity (no two from the same region)
   const tiles: AlternativeTile[] = [];
   const usedRegions = new Set<string>();
 
   for (const item of scored) {
-    if (tiles.length >= 4) break;
+    if (tiles.length >= 3) break;
 
-    // Allow same region only for the 4th tile if we're stuck
-    if (usedRegions.has(item.dest.region) && tiles.length < 3) continue;
+    // Allow same region only for the 3rd tile if we're stuck
+    if (usedRegions.has(item.dest.region) && tiles.length < 2) continue;
 
     usedRegions.add(item.dest.region);
     tiles.push({

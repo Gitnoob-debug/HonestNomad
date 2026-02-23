@@ -607,7 +607,7 @@ export default function DiscoverPage() {
                   <p className="text-sm font-medium text-gray-600 mb-3 px-1">
                     Choose a destination to explore
                   </p>
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                     {/* Best match tile */}
                     <DestinationTile
                       tile={{
@@ -671,7 +671,7 @@ export default function DiscoverPage() {
                 </div>
 
                 {/* Trending tiles as suggestions */}
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   {result.trendingFallback!.map((tile, i) => (
                     <DestinationTile
                       key={`trend-${i}`}
@@ -703,7 +703,7 @@ export default function DiscoverPage() {
                   </p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   {result.trendingFallback!.map((tile, i) => (
                     <DestinationTile
                       key={`trend-${i}`}
@@ -734,7 +734,7 @@ export default function DiscoverPage() {
                   </h2>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   {result.locations!.map((loc, i) => {
                     const dest = loc.matchedDestination;
                     const city =

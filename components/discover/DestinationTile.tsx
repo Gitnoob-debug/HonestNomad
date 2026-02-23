@@ -115,7 +115,7 @@ export function DestinationTile({ tile, onSelect, isBestMatch = false }: Destina
       onClick={handleClick}
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
-      className="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all text-left w-full h-56 cursor-pointer"
+      className="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all text-left w-full h-72 sm:h-80 cursor-pointer"
     >
       {/* Full-bleed image */}
       <div className="absolute inset-0">

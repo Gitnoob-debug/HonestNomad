@@ -125,17 +125,40 @@ export async function resolveLocation(
         _debug.push(`Geocoded: ${valid.length}/${multiResult.locations.length} survived`);
 
         if (valid.length > 1) {
-          // Multi-location: return confidence per tile, no alternatives yet
+          // Multi-location: compute alternatives per entry so tiles work when user picks one
+          const locations = valid.map(v => {
+            const md = v.matchedDestination;
+            const alts = md && md.vibes && md.region
+              ? findAlternatives({
+                  matchedDestinationId: md.id,
+                  matchedVibes: md.vibes,
+                  matchedAverageCost: md.averageCost ?? 3000,
+                  matchedRegion: md.region,
+                  matchedCountry: md.country,
+                  userAirportCode,
+                  userLat,
+                  userLng,
+                  currentMonth,
+                })
+              : undefined;
+            return {
+              location: v.location,
+              matchedDestination: v.matchedDestination,
+              confidenceScore: v.confidenceScore,
+              alternatives: alts,
+            };
+          });
+          _debug.push(`Multi-location: computed alternatives for ${locations.filter(l => l.alternatives).length}/${locations.length} entries`);
+          // Pre-compute trending fallback for entries without a match
+          const hasUnmatched = locations.some(l => !l.matchedDestination);
+          const trending = hasUnmatched ? getTrendingFallback({ userAirportCode, currentMonth }) : undefined;
           return {
             success: true,
             location: valid[0].location,
             matchedDestination: valid[0].matchedDestination,
             confidenceScore: valid[0].confidenceScore,
-            locations: valid.map(v => ({
-              location: v.location,
-              matchedDestination: v.matchedDestination,
-              confidenceScore: v.confidenceScore,
-            })),
+            trendingFallback: trending,
+            locations,
             _debug,
           };
         }

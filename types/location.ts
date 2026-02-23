@@ -68,6 +68,7 @@ export interface LocationAnalysisResponse {
     location: ResolvedLocation;
     matchedDestination: MatchedDestination | null;
     confidenceScore?: ConfidenceScore;
+    alternatives?: AlternativeTile[];
   }>;
   error?: string;
   _debug?: string[]; // pipeline trace (temporary)

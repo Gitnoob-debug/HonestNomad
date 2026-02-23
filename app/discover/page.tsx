@@ -753,14 +753,16 @@ export default function DiscoverPage() {
                       <button
                         key={i}
                         onClick={() => {
+                          // Route into the tiles view (hasMatch path) instead of old confirmed view
                           setResult({
                             ...result,
                             location: loc.location,
                             matchedDestination: loc.matchedDestination,
                             confidenceScore: loc.confidenceScore,
+                            alternatives: loc.alternatives,
                             locations: undefined,
                           });
-                          setConfirmed(true);
+                          // Don't set confirmed — let it flow into the hasMatch tiles view
                         }}
                         className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md hover:border-primary-300 transition-all text-left"
                       >

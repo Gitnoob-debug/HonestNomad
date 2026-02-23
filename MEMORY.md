@@ -1,7 +1,7 @@
 # HonestNomad - Memory
 
 > Context file for AI assistants. Read this first to understand the project.
-> Last updated: February 22, 2026
+> Last updated: February 23, 2026
 
 ---
 
@@ -51,6 +51,9 @@ Discover Page → Upload photo / Paste URL → Identify location → Book
   - YouTube oEmbed gets title + thumbnail (working, but limited metadata)
   - Multi-location support — tile grid picker for "Top 10" type content
   - Destination matching against 494 curated destinations (exact, substring, haversine 80km)
+  - **Confidence scoring** — 5-signal weighted formula (Claude confidence, match type, source reliability, geocoding, consistency) → 3 user-facing tiers: green "We're confident" / amber "Our best guess" / red "We're not sure"
+  - **Alternative destination tiles** — 4-tile grid: Best Match + Closer Alternative + Budget-Friendly + Similar Vibe. Uses IP geolocation (ip-api.com + ipapi.co fallback) for proximity scoring
+  - **Trending fallback** — When no match found or confidence too low, shows 4 trending destinations scored by seasonal fit, popularity, and reachability with region diversity
 - **Flash Vacation flow** — swipe cards, explore map, hotel search, booking confirmation
 - **LiteAPI sandbox** for hotel search (mock pricing active)
 - **AI Magic Package** on confirm page (packing lists, tips, adventure guide)
@@ -62,11 +65,12 @@ Discover Page → Upload photo / Paste URL → Identify location → Book
 
 ## What's NOT Working / Known Issues
 
-- **YouTube multi-location extraction** — YouTube blocks transcript/description fetching from Vercel's datacenter IPs. All approaches failed (HTML scraping, innertube API, youtube-transcript npm package). Need YouTube Data API v3 key to fix.
+- **YouTube multi-location extraction** — YouTube blocks transcript/description fetching from Vercel's datacenter IPs. All approaches failed (HTML scraping, innertube API, youtube-transcript npm package). Need YouTube Data API v3 key to fix. **Confirmed:** `videos.list?part=snippet` (description/tags) works with just an API key — no OAuth needed. The OAuth restriction only applies to `captions.download` which we don't need.
 - **Instagram oEmbed** — Requires Meta developer app token (free, ~15 min setup). Currently falls back to OG tag scraping which Instagram also blocks.
 - **Hotel booking flow** — "Proceed to Payment" is a placeholder alert
 - **POI images** — Still reference Google API, need Supabase migration
 - **13 new destinations** missing POI data (blocked by Google API budget cap)
+- **Local build OOM** — `next build` crashes with "JavaScript heap out of memory" locally due to the 7000+ line `destinations.ts` file. Pre-existing issue, not related to new code. Vercel builds fine (more memory). Use `npx tsc --noEmit` for local type checking.
 
 ---
 
@@ -74,10 +78,14 @@ Discover Page → Upload photo / Paste URL → Identify location → Book
 
 | File | Purpose |
 |------|---------|
-| `app/discover/page.tsx` | Discover UI — photo upload, URL input, results display |
-| `lib/location/resolver.ts` | Backend pipeline — metadata extraction, Claude analysis, geocoding, matching |
-| `app/api/location/analyze/route.ts` | POST endpoint for location analysis |
-| `types/location.ts` | TypeScript types for discover feature |
+| `app/discover/page.tsx` | Discover UI — photo upload, URL input, results display, confidence badges, alternative tiles |
+| `lib/location/resolver.ts` | Backend pipeline — metadata extraction, Claude analysis, geocoding, matching, alternatives |
+| `app/api/location/analyze/route.ts` | POST endpoint for location analysis (extracts client IP for geolocation) |
+| `types/location.ts` | TypeScript types for discover feature (includes confidence, alternatives, trending) |
+| `lib/location/confidenceScoring.ts` | 5-signal weighted confidence formula → 3 tiers |
+| `lib/location/ipGeolocation.ts` | IP-based user location (ip-api.com + ipapi.co fallback, 1hr cache) |
+| `lib/location/alternativeFinder.ts` | Finds closer/budget/similar-vibe alternatives + trending fallback |
+| `lib/flash/diversityEngine.ts` | Scoring functions (seasonal, vibe, budget, reachability) — shared with alternativeFinder |
 
 ---
 

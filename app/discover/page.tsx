@@ -5,6 +5,9 @@ import { useRouter } from 'next/navigation';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import type { LocationAnalysisResponse, AlternativeTile, ConfidenceTier } from '@/types/location';
+import { BlurUpImage } from '@/components/ui/BlurUpImage';
+import { VIBE_STYLES } from '@/lib/flash/vibeStyles';
+import { getPrimaryDestinationImage } from '@/lib/flash/destinationImages';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || '';
 
@@ -31,79 +34,110 @@ function ConfidenceBadge({ tier, label }: { tier: ConfidenceTier; label: string 
 }
 
 // ── Destination tile component (shared by alternatives + trending) ───
+// Uses the same visual language as ImmersiveSwipeCard: full-bleed image,
+// gradient overlay, white text, colorful vibe pills, green-check highlights.
 
 function DestinationTile({
   tile,
   onSelect,
   isBestMatch = false,
-  confidenceTier,
 }: {
   tile: AlternativeTile;
   onSelect: () => void;
   isBestMatch?: boolean;
-  confidenceTier?: ConfidenceTier;
 }) {
-  const [imgFailed, setImgFailed] = useState(false);
   const dest = tile.destination;
-  const imgSrc = dest.imageUrl || '';
-  const thumbUrl = imgSrc.includes('unsplash.com')
-    ? imgSrc + (imgSrc.includes('?') ? '&' : '?') + 'q=80&auto=format&fit=crop&w=400&h=260'
-    : imgSrc;
 
-  // Role label colors
-  const roleLabelStyles: Record<string, string> = {
-    best_match: 'bg-primary-600 text-white',
-    closer: 'bg-blue-100 text-blue-800',
-    budget: 'bg-emerald-100 text-emerald-800',
-    similar_vibe: 'bg-purple-100 text-purple-800',
+  // Prefer Supabase image (curated for Flash cards), fall back to destination imageUrl
+  const supabaseImg = getPrimaryDestinationImage(dest.id);
+  const imgSrc = supabaseImg || dest.imageUrl || '';
+
+  // Role badge styles — dark glass for most, green accent for best match
+  const roleBadgeStyles: Record<string, string> = {
+    best_match: 'bg-green-500/90 text-white',
+    closer: 'bg-black/50 backdrop-blur-sm text-white',
+    budget: 'bg-black/50 backdrop-blur-sm text-white',
+    similar_vibe: 'bg-black/50 backdrop-blur-sm text-white',
   };
 
   return (
     <button
       onClick={onSelect}
-      className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md hover:border-primary-300 transition-all text-left w-full"
+      className="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all text-left w-full h-48"
     >
-      {/* Role label badge */}
+      {/* Full-bleed image with progressive loading */}
+      <div className="absolute inset-0">
+        <BlurUpImage
+          src={imgSrc}
+          alt={dest.city}
+          className="w-full h-full"
+          fallbackGradient="bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900"
+          fallbackEmoji={VIBE_STYLES[dest.vibes?.[0] || '']?.emoji || '✈️'}
+        />
+      </div>
+
+      {/* Gradient overlay for text legibility */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/30 pointer-events-none" />
+
+      {/* Role badge — top left */}
       <div className="absolute top-2 left-2 z-10">
-        <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${roleLabelStyles[tile.role] || 'bg-gray-100 text-gray-800'}`}>
+        <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${roleBadgeStyles[tile.role] || 'bg-black/50 text-white'}`}>
           {isBestMatch ? '★ ' : ''}{tile.label}
         </span>
       </div>
 
-      {/* Image / gradient fallback */}
-      {thumbUrl && !imgFailed ? (
-        <img
-          src={thumbUrl}
-          alt={dest.city}
-          className="w-full h-32 object-cover"
-          onError={() => setImgFailed(true)}
-        />
-      ) : (
-        <div className="w-full h-32 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
-          <span className="text-3xl">🌍</span>
+      {/* Cost badge — top right */}
+      {tile.averageCost && (
+        <div className="absolute top-2 right-2 z-10">
+          <span className="bg-black/50 backdrop-blur-sm text-white px-2 py-0.5 rounded-full text-[10px] font-semibold">
+            ~${tile.averageCost.toLocaleString()}/wk
+          </span>
         </div>
       )}
 
-      {/* Info */}
-      <div className="p-3">
-        <p className="font-semibold text-gray-900 text-sm leading-tight">
+      {/* Bottom content overlay */}
+      <div className="absolute bottom-0 left-0 right-0 z-10 p-3">
+        {/* Vibe pills — up to 3 */}
+        {dest.vibes && dest.vibes.length > 0 && (
+          <div className="flex flex-wrap gap-1 mb-1.5">
+            {dest.vibes.slice(0, 3).map((vibe, i) => (
+              <span
+                key={i}
+                className="text-[9px] font-semibold uppercase tracking-wide px-1.5 py-0.5 rounded-full"
+                style={{
+                  background: VIBE_STYLES[vibe]?.bg || 'rgba(255,255,255,0.2)',
+                  color: VIBE_STYLES[vibe]?.text || '#fff',
+                }}
+              >
+                {VIBE_STYLES[vibe]?.emoji || '✨'} {vibe}
+              </span>
+            ))}
+          </div>
+        )}
+
+        {/* City name — large white text */}
+        <h3 className="text-lg font-bold text-white leading-tight drop-shadow-lg">
           {dest.city}
-        </p>
-        <p className="text-xs text-gray-500 mt-0.5">
+        </h3>
+        <p className="text-white/70 text-xs drop-shadow">
           {dest.country}
         </p>
-        <p className="text-xs text-gray-400 mt-1.5 line-clamp-2">
-          {tile.reasoning}
-        </p>
-        {tile.averageCost && (
-          <p className="text-xs text-gray-400 mt-1">
-            ~${tile.averageCost.toLocaleString()}/week
-          </p>
+
+        {/* Highlights — up to 2 with green checkmarks */}
+        {dest.highlights && dest.highlights.length > 0 && (
+          <div className="mt-1.5 space-y-0.5">
+            {dest.highlights.slice(0, 2).map((highlight, i) => (
+              <div key={i} className="flex items-center gap-1">
+                <span className="text-green-400 text-[10px] flex-shrink-0">✓</span>
+                <span className="text-white/80 text-[11px] truncate">{highlight}</span>
+              </div>
+            ))}
+          </div>
         )}
       </div>
 
-      {/* Hover overlay */}
-      <div className="absolute inset-0 bg-primary-600/0 group-hover:bg-primary-600/5 transition-colors rounded-2xl" />
+      {/* Hover glow effect */}
+      <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors rounded-2xl" />
     </button>
   );
 }
@@ -717,7 +751,6 @@ export default function DiscoverPage() {
                       }}
                       onSelect={() => selectDestination(result.matchedDestination!)}
                       isBestMatch
-                      confidenceTier={result.confidenceScore?.tier}
                     />
 
                     {/* Alternative tiles */}

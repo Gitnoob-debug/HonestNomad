@@ -1,6 +1,6 @@
 # HonestNomad - TODO
 
-> Last updated: February 22, 2026
+> Last updated: February 23, 2026
 > Architecture: Next.js 14 + Supabase + LiteAPI + Mapbox + Claude (OpenRouter)
 > Hotels only. No flights. No chat mode. All work on master.
 
@@ -9,12 +9,13 @@
 ## In Progress
 
 ### Discover Feature — Social Media API Integration
-- [ ] **Get YouTube Data API v3 key** — Google Cloud Console → enable API → create key → add as `YOUTUBE_DATA_API_KEY` in `.env.local` and Vercel. Free tier: 10,000 units/day. Gets video description (lists all locations in "Top 10" videos).
+- [ ] **Get YouTube Data API v3 key** — Google Cloud Console → enable API → create key → add as `YOUTUBE_DATA_API_KEY` in `.env.local` and Vercel. Free tier: 10,000 units/day. Confirmed: `videos.list?part=snippet` works with just an API key (no OAuth). Only `captions.download` needs OAuth from video owner — we don't use that.
 - [ ] **Get Meta/Instagram oEmbed token** — developers.facebook.com → create app → get App ID + Secret → add as `META_APP_ID` and `META_APP_SECRET` in `.env.local` and Vercel. Free, no review needed. Gets Instagram post captions.
-- [ ] **Wire YouTube Data API into resolver** — Replace failed transcript extraction with `videos.list?part=snippet` call to get video description + tags
+- [ ] **Wire YouTube Data API into resolver** — Replace failed transcript extraction with `videos.list?part=snippet` call to get video description + tags. Edge case: sparse descriptions ("Subscribe for more!") — title + tags are fallback signals, and confidence scoring handles low-quality extractions gracefully.
 - [ ] **Wire Instagram oEmbed into resolver** — Add `fetchInstagramOEmbed()` using Meta app token
 - [ ] **Remove debug pipeline trace** — Strip `_debug` field from `LocationAnalysisResponse` and remove trace panel from discover page
 - [ ] **Remove `youtube-transcript` npm package** — No longer needed once YouTube Data API is wired in
+- [ ] **Test confidence + alternatives on Vercel** — Deployed (commit `94ecb5e`), needs manual testing of all states: matched w/ alternatives, no-match trending, low-confidence trending, multi-location picker
 
 ### Unsplash Image Migration (Background)
 - [ ] **Running in background** — ~1 batch/hour, progress in `scripts/image-migration/progress.json`
@@ -117,6 +118,16 @@
 ---
 
 ## Recently Completed
+
+### Confidence Scoring & Alternative Tiles (Feb 23, 2026)
+- [x] Confidence scoring — 5-signal weighted formula (Claude confidence 0.30, match type 0.30, source reliability 0.15, geocoding 0.15, consistency 0.10) → 3 tiers (≥0.70 green, ≥0.40 amber, <0.40 red)
+- [x] IP geolocation — ip-api.com primary + ipapi.co fallback, 1hr in-memory cache, private IP handling
+- [x] Alternative destination finder — Closer (reachability), Budget (<70% cost), Similar Vibe (different region), with fallback logic when no user airport
+- [x] Trending fallback — seasonalFit × 0.4 + popularity × 0.3 + reachability × 0.3, region diversity enforced
+- [x] Discover page rewrite — ConfidenceBadge component, DestinationTile component, 4-tile grid layout, trending-only state, confidence dots on multi-location picker
+- [x] Exported scoring functions from diversityEngine.ts (scoreSeasonalFit, scoreVibeMatch, scoreBudgetFit, scoreReachability)
+- [x] Resolver enrichment — all paths return alternatives or trending, confidence floor (0.20) triggers trending
+- [x] API route — extracts client IP from x-forwarded-for / x-real-ip headers
 
 ### Discover Feature (Feb 2026)
 - [x] Photo upload → Claude Vision → location identification

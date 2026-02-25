@@ -1,7 +1,7 @@
 # HonestNomad - Memory
 
 > Context file for AI assistants. Read this first to understand the project.
-> Last updated: February 23, 2026
+> Last updated: February 25, 2026
 
 ---
 
@@ -37,7 +37,10 @@ Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
 
 OR
 
-Discover Page → Upload photo / Paste URL → Identify location → Book
+Discover Page → Upload photo / Paste URL → Identify location
+  → 3 tiles (Best Match + Closer + Budget) → Click "Explore [City]"
+  → selectDestination() builds trip package + smart dates → sessionStorage
+  → /flash/explore (vibe selection → POI map → hotel search → confirm)
 ```
 
 ---
@@ -129,6 +132,42 @@ The current pipeline only sees metadata (caption, thumbnail). It does NOT see th
 - Vision hallucination risk is high when caption is generic and thumbnail is ambiguous (e.g., selfie on a plane → Claude confidently guesses wrong city)
 
 See TODO.md for the phased approach to fixing this.
+
+---
+
+## Discover → Explore Handoff (Feb 25, 2026)
+
+The critical flow: user sees a tile (Bali, Bangkok, Toronto), clicks "Explore [City]", and lands on the explore page ready to pick a vibe and book a hotel. This was broken — the explore page expected `flash_selected_trip` in sessionStorage but `selectDestination()` only set `discover_destination`.
+
+### What `selectDestination()` now does (`app/discover/page.tsx:125`)
+
+1. **Looks up full destination data** — `DESTINATIONS.find(d => d.id === dest.id)` to get `airportCode`, `region`, `vibes` (which `MatchedDestination` may not carry)
+2. **Computes distance-based dates** — Reads `flash_origin_airport` from sessionStorage (set by FlashPlanInput). Uses `computeDistanceDefaults()` to calculate smart check-in/check-out dates:
+   - Toronto → Bali (12,000km) = long-haul = 5 weeks out, 7 nights, Friday check-in
+   - Toronto → Montreal (500km) = short-haul = this weekend, 3 nights
+   - Falls back to `getFallbackDefaults()` (3 weeks out, 5 nights) if no origin airport stored
+3. **Builds `FlashTripPackage`** — Minimal but complete trip object with destination info, trip duration, empty hotel, empty pricing
+4. **Stores three sessionStorage keys** the explore page expects:
+   - `flash_selected_trip` → the trip package (explore page loads this at `page.tsx:556`)
+   - `flash_generate_params` → `{ departureDate, returnDate }`
+   - `flash_vacation_trips` → `{ lastGenerateParams: { departureDate, returnDate } }` (used by hotel search for check-in/check-out)
+5. **Navigates** to `/flash/explore?destination={id}`
+
+### SessionStorage Contract (Explore Page)
+
+| Key | Set by | Read by | Shape |
+|-----|--------|---------|-------|
+| `flash_selected_trip` | selectDestination, swipe flow | explore page (line 556) | `FlashTripPackage` |
+| `flash_generate_params` | selectDestination, FlashPlanInput | explore page (hotel date defaults) | `{ departureDate, returnDate }` |
+| `flash_vacation_trips` | selectDestination, useFlashVacation | explore page (hotel search dates) | `{ lastGenerateParams: { departureDate, returnDate } }` |
+| `flash_origin_airport` | FlashPlanInput (IP geolocation) | selectDestination (distance calc) | `AirportInfo { code, name, lat, lng }` |
+| `discover_destination` | selectDestination | (legacy, still set for backwards compat) | `MatchedDestination` |
+
+### What's Still Missing in This Flow
+
+- **Traveler count** — Explore page defaults to 2 adults. Discover flow doesn't ask for travelers yet. Not blocking but will matter for hotel room count.
+- **Budget tier** — Discover flow doesn't capture budget preference. Explore page defaults are fine for now.
+- **Return to Discover** — If user hits back from explore, the discover state is gone (no persistence). Low priority since they can re-analyze.
 
 ---
 

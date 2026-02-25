@@ -1,6 +1,6 @@
 # HonestNomad - TODO
 
-> Last updated: February 23, 2026
+> Last updated: February 25, 2026
 > Architecture: Next.js 14 + Supabase + LiteAPI + Mapbox + Claude (OpenRouter)
 > Hotels only. No flights. No chat mode. All work on master.
 
@@ -15,6 +15,12 @@
 - [ ] **Wire Instagram oEmbed into resolver** — Add `fetchInstagramOEmbed()` using Meta app token
 - [ ] **Remove debug pipeline trace** — Strip `_debug` field from `LocationAnalysisResponse` and remove trace panel from discover page
 - [ ] **Remove `youtube-transcript` npm package** — No longer needed once YouTube Data API is wired in
+
+### Discover → Explore Flow (Remaining Gaps)
+- [ ] **Traveler count passthrough** — Discover flow doesn't capture travelers. Explore page defaults to 2 adults. Need either a quick picker on discover tiles or a step on the explore page before hotel search
+- [ ] **Budget tier passthrough** — Discover flow doesn't capture budget preference. Hotels will search all price ranges. Consider inferring from the Budget-Friendly tile selection (user clicked budget tile → filter for budget hotels)
+- [ ] **Back navigation resilience** — If user hits browser back from explore, discover state is gone. Could persist discover results in sessionStorage so they can return to tile selection
+- [ ] **End-to-end test** — Verify the full path: Discover → tile click → explore → vibe → hotels → confirm. Especially check that hotel search dates are correct and hotel zone fallback works when no POIs are selected
 
 ### Unsplash Image Migration (Background)
 - [ ] **Running in background** — ~1 batch/hour, progress in `scripts/image-migration/progress.json`
@@ -148,6 +154,12 @@
 ---
 
 ## Recently Completed
+
+### Discover → Explore Flow Bridge (Feb 25, 2026)
+- [x] **`selectDestination()` now populates all sessionStorage keys** — `flash_selected_trip`, `flash_generate_params`, `flash_vacation_trips`. Previously only set `discover_destination` which the explore page doesn't read, causing a redirect back to `/flash`
+- [x] **Smart date defaults from distance** — Uses `computeDistanceDefaults()` with user's origin airport to set trip duration and departure date (e.g., Toronto→Bali = 7 nights departing in 5 weeks; Toronto→Montreal = 3 nights this weekend). Falls back to `getFallbackDefaults()` (5 nights, 3 weeks out) if no origin stored
+- [x] **Full destination data lookup** — `DESTINATIONS.find()` to get `airportCode`, `region`, `vibes` that `MatchedDestination` may not carry
+- [x] **Minimal FlashTripPackage construction** — Builds a valid trip package with destination info, trip duration, empty hotel/pricing so explore page can load without redirect
 
 ### Daily Cost Data & Budget Algorithm Rebuild (Feb 23, 2026)
 - [x] **DailyCosts type** — Added `DailyCosts` interface to `types/flash.ts` with `foodPerDay`, `activitiesPerDay`, `transportPerDay`, `source`, `lastUpdated`. Added `dailyCosts?` field to `Destination` type

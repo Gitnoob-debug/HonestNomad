@@ -17,8 +17,8 @@
 - [ ] **Remove `youtube-transcript` npm package** — No longer needed once YouTube Data API is wired in
 
 ### Discover → Explore Flow (Remaining Gaps)
-- [ ] **Traveler count passthrough** — Discover flow doesn't capture travelers. Explore page defaults to 2 adults. Need either a quick picker on discover tiles or a step on the explore page before hotel search
-- [ ] **Budget tier passthrough** — Discover flow doesn't capture budget preference. Hotels will search all price ranges. Consider inferring from the Budget-Friendly tile selection (user clicked budget tile → filter for budget hotels)
+- [x] **Traveler count passthrough** — `selectDestination()` now sets `flash_traveler_type` to 'couple' if not already set by FlashPlanInput. Explore page reads it for hotel room occupancy and AI narratives
+- [x] **Budget tier passthrough** — Clicking Budget-Friendly tile stores `flash_budget_tier` = 'budget' in sessionStorage. Explore page passes it to hotel search API. API sets `flexibility: 'strict'`, `perTripMax: 2000`, `minStars: 2` to favor cheaper hotels
 - [ ] **Back navigation resilience** — If user hits browser back from explore, discover state is gone. Could persist discover results in sessionStorage so they can return to tile selection
 - [ ] **End-to-end test** — Verify the full path: Discover → tile click → explore → vibe → hotels → confirm. Especially check that hotel search dates are correct and hotel zone fallback works when no POIs are selected
 
@@ -154,6 +154,10 @@
 ---
 
 ## Recently Completed
+
+### Discover → Explore Signal Passthrough (Feb 25, 2026)
+- [x] **Traveler type passthrough** — `selectDestination()` sets `flash_traveler_type` = 'couple' if not already present. Respects existing value from FlashPlanInput. Ensures explore page always has traveler data for hotel occupancy and AI narratives
+- [x] **Budget signal passthrough** — Tile role ('budget') is threaded from tile click → detail modal → `selectDestination()`. Budget-Friendly click stores `flash_budget_tier` = 'budget' in sessionStorage. Explore page reads it and passes to hotel search API. API adjusts preferences: `flexibility: 'strict'`, `perTripMax: $2000`, `minStars: 2`. Non-budget tiles clear the signal
 
 ### Discover → Explore Flow Bridge (Feb 25, 2026)
 - [x] **`selectDestination()` now populates all sessionStorage keys** — `flash_selected_trip`, `flash_generate_params`, `flash_vacation_trips`. Previously only set `discover_destination` which the explore page doesn't read, causing a redirect back to `/flash`

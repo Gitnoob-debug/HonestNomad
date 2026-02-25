@@ -781,9 +781,13 @@ function FlashExploreContent() {
           throw new Error('Trip dates not available. Please start a new search.');
         }
 
-        // Read traveler type from session (set by the /flash form)
+        // Read traveler type from session (set by /flash form or Discover page)
         let travelers: string | null = null;
         try { travelers = sessionStorage.getItem('flash_traveler_type'); } catch {}
+
+        // Read budget tier from session (set when user clicks Budget-Friendly tile in Discover)
+        let budgetTier: string | null = null;
+        try { budgetTier = sessionStorage.getItem('flash_budget_tier'); } catch {}
 
         const response = await fetch('/api/hotels/search', {
           method: 'POST',
@@ -798,6 +802,8 @@ function FlashExploreContent() {
             zoneRadiusKm: zone ? zone.radiusMeters / 1000 : undefined,
             // Pass traveler type for correct room occupancy
             travelers: travelers || undefined,
+            // Pass budget tier so hotel scoring favors cheaper options
+            budgetTier: budgetTier || undefined,
           }),
         });
 

@@ -66,6 +66,7 @@ Discover Page → Upload photo / Paste URL → Identify location
   - Range: $40/day (Hanoi, Ella) to $400/day (Bora Bora). Mean $111, median $100
   - Budget-Friendly tile algorithm now uses real daily cost comparison instead of static `averageCost`
   - Detail modal shows itemized daily budget breakdown (food, activities, transport)
+- **Discover → Explore signal passthrough** — Traveler type defaults to 'couple' if not set by FlashPlanInput. Budget-Friendly tile click stores budget signal, hotel search adjusts to favor cheaper options (strict budget, lower star minimum)
 - **Flash Vacation flow** — swipe cards, explore map, hotel search, booking confirmation
 - **LiteAPI sandbox** for hotel search (mock pricing active)
 - **AI Magic Package** on confirm page (packing lists, tips, adventure guide)
@@ -161,12 +162,12 @@ The critical flow: user sees a tile (Bali, Bangkok, Toronto), clicks "Explore [C
 | `flash_generate_params` | selectDestination, FlashPlanInput | explore page (hotel date defaults) | `{ departureDate, returnDate }` |
 | `flash_vacation_trips` | selectDestination, useFlashVacation | explore page (hotel search dates) | `{ lastGenerateParams: { departureDate, returnDate } }` |
 | `flash_origin_airport` | FlashPlanInput (IP geolocation) | selectDestination (distance calc) | `AirportInfo { code, name, lat, lng }` |
+| `flash_traveler_type` | FlashPlanInput, selectDestination (default) | explore page (hotel occupancy, AI narratives) | `'solo' \| 'couple' \| 'family'` |
+| `flash_budget_tier` | selectDestination (Budget-Friendly tile) | explore page (hotel search) | `'budget'` or absent |
 | `discover_destination` | selectDestination | (legacy, still set for backwards compat) | `MatchedDestination` |
 
 ### What's Still Missing in This Flow
 
-- **Traveler count** — Explore page defaults to 2 adults. Discover flow doesn't ask for travelers yet. Not blocking but will matter for hotel room count.
-- **Budget tier** — Discover flow doesn't capture budget preference. Explore page defaults are fine for now.
 - **Return to Discover** — If user hits back from explore, the discover state is gone (no persistence). Low priority since they can re-analyze.
 
 ---

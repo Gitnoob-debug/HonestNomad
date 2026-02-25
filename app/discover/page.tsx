@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import type { LocationAnalysisResponse, AlternativeTile } from '@/types/location';
+import type { LocationAnalysisResponse, AlternativeTile, AlternativeTileRole } from '@/types/location';
 import { DestinationTile, DiscoverDetailModal, ConfidenceBadge } from '@/components/discover';
 import { DESTINATIONS } from '@/lib/flash/destinations';
 import { computeDistanceDefaults, getFallbackDefaults } from '@/lib/flash/distanceDefaults';
@@ -122,8 +122,20 @@ export default function DiscoverPage() {
 
   // ── Navigate to explore page with a destination tile ──────────────
 
-  const selectDestination = useCallback((dest: AlternativeTile['destination']) => {
+  const selectDestination = useCallback((dest: AlternativeTile['destination'], tileRole?: AlternativeTileRole) => {
     sessionStorage.setItem('discover_destination', JSON.stringify(dest));
+
+    // Ensure traveler type is set (respect existing value from FlashPlanInput)
+    if (!sessionStorage.getItem('flash_traveler_type')) {
+      sessionStorage.setItem('flash_traveler_type', 'couple');
+    }
+
+    // If user clicked a Budget-Friendly tile, store the signal for hotel search
+    if (tileRole === 'budget') {
+      sessionStorage.setItem('flash_budget_tier', 'budget');
+    } else {
+      sessionStorage.removeItem('flash_budget_tier');
+    }
 
     // Look up full destination data for airportCode + region
     const fullDest = DESTINATIONS.find(d => d.id === dest.id);
@@ -945,8 +957,9 @@ export default function DiscoverPage() {
         tile={selectedTile}
         onClose={() => setSelectedTile(null)}
         onExplore={(dest) => {
+          const role = selectedTile?.role;
           setSelectedTile(null);
-          selectDestination(dest);
+          selectDestination(dest, role);
         }}
       />
     </div>

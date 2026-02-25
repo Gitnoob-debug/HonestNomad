@@ -6,6 +6,9 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import type { LocationAnalysisResponse, AlternativeTile } from '@/types/location';
 import { DestinationTile, DiscoverDetailModal, ConfidenceBadge } from '@/components/discover';
+import { DESTINATIONS } from '@/lib/flash/destinations';
+import { computeDistanceDefaults, getFallbackDefaults } from '@/lib/flash/distanceDefaults';
+import type { AirportInfo } from '@/lib/flash/airportCoords';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || '';
 
@@ -121,6 +124,82 @@ export default function DiscoverPage() {
 
   const selectDestination = useCallback((dest: AlternativeTile['destination']) => {
     sessionStorage.setItem('discover_destination', JSON.stringify(dest));
+
+    // Look up full destination data for airportCode + region
+    const fullDest = DESTINATIONS.find(d => d.id === dest.id);
+
+    // Compute smart date defaults based on distance from user
+    let checkinDate: string;
+    let checkoutDate: string;
+    let tripNights: number;
+
+    try {
+      const airportStored = sessionStorage.getItem('flash_origin_airport');
+      if (airportStored) {
+        const airport: AirportInfo = JSON.parse(airportStored);
+        const defaults = computeDistanceDefaults(
+          airport.lat, airport.lng,
+          dest.latitude, dest.longitude
+        );
+        checkinDate = defaults.checkinDate;
+        checkoutDate = defaults.checkoutDate;
+        tripNights = defaults.nights;
+      } else {
+        const fallback = getFallbackDefaults();
+        checkinDate = fallback.checkinDate;
+        checkoutDate = fallback.checkoutDate;
+        tripNights = fallback.nights;
+      }
+    } catch {
+      const fallback = getFallbackDefaults();
+      checkinDate = fallback.checkinDate;
+      checkoutDate = fallback.checkoutDate;
+      tripNights = fallback.nights;
+    }
+
+    // Build a FlashTripPackage so the explore page can load it
+    const tripPackage = {
+      id: `discover-${dest.id}-${Date.now()}`,
+      destination: {
+        id: dest.id,
+        city: dest.city,
+        country: dest.country,
+        airportCode: fullDest?.airportCode || '',
+        region: dest.region || fullDest?.region || '',
+        vibes: dest.vibes || fullDest?.vibes || [],
+        latitude: dest.latitude,
+        longitude: dest.longitude,
+      },
+      hotel: undefined,
+      itinerary: {
+        days: tripNights,
+        highlights: dest.highlights?.slice(0, 3) || [],
+        activities: [],
+      },
+      pricing: {
+        hotel: 0,
+        total: 0,
+        currency: 'USD',
+      },
+      highlights: dest.highlights || [],
+      matchScore: 100,
+      imageUrl: dest.imageUrl,
+      tagline: dest.highlights?.[0] || `Explore ${dest.city}`,
+    };
+
+    // Store everything the explore page expects
+    sessionStorage.setItem('flash_selected_trip', JSON.stringify(tripPackage));
+    sessionStorage.setItem('flash_generate_params', JSON.stringify({
+      departureDate: checkinDate,
+      returnDate: checkoutDate,
+    }));
+    sessionStorage.setItem('flash_vacation_trips', JSON.stringify({
+      lastGenerateParams: {
+        departureDate: checkinDate,
+        returnDate: checkoutDate,
+      },
+    }));
+
     router.push(`/flash/explore?destination=${encodeURIComponent(dest.id)}`);
   }, [router]);
 

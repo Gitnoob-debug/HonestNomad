@@ -1,351 +1,139 @@
 # HonestNomad - Development TODO
 
+> Last updated: February 27, 2026
+
 ## Legend
-- 🔴 **Blocker** - Can't launch without this
-- 🟠 **Critical** - Major feature gap
-- 🟡 **Important** - Should have for good UX
-- 🟢 **Nice to Have** - Polish and delight
-- ✅ **Done**
-- 🔄 **In Progress**
-- ⏸️ **Blocked**
+- ✅ Done
+- 🔄 In Progress
+- ⏸️ Blocked
+- [ ] To Do
 
 ---
 
-## Completed ✅
+## What's Built (Done) ✅
 
-### Infrastructure
-- ✅ **Duffel Flights API** - Real flight search working with live data
-- ✅ **Duffel Stays API Code** - Integration code complete, awaiting API access
-- ✅ **Supabase Setup** - Database and auth configured
-- ✅ **Mapbox Geocoding** - Location search working
-- ✅ **OpenRouter/Claude AI** - Natural language trip planning
-- ✅ **Vercel Deployment** - Live at honest-nomad-ud6y.vercel.app
+### Core Product
+- ✅ **500 curated destinations** with 85k+ POIs, daily cost data, travel time matrix
+- ✅ **Discover feature** (primary entry) — photo upload, URL paste, Claude Vision identification, confidence scoring, 3-tile alternatives, detail modals
+- ✅ **Flash Vacation flow** (secondary entry) — swipe cards, explore map, hotel search, booking confirmation
+- ✅ **Discover → Explore handoff** — smart date defaults, traveler type, budget signal passthrough
+- ✅ **Explore page** — vibe selection, POI map with zone clustering, interactive day planner, left sidebar
+- ✅ **Package/Confirm page** — Trip Intelligence, day cards, walking routes, AI Travel Prep
+- ✅ **LiteAPI hotel search** — sandbox integration, scoring/ranking (mock pricing active)
+- ✅ **Anonymous browsing** — no login required until booking
+- ✅ **Supabase** — DB, auth, image storage (5GB+)
+- ✅ **Mapbox** — maps, geocoding
+- ✅ **Vercel deployment** — live at honest-nomad-ud6y.vercel.app
 
-### Core Features
-- ✅ **Chat Interface** - Conversational trip planning
-- ✅ **TripCard Component** - Beautiful trip display with flights, hotels, itinerary
-- ✅ **Flight Search** - Real Duffel data with airline logos
-- ✅ **Hotel Search** - Mock data (pending Stays API access)
-- ✅ **Alternatives Modal** - Swap flights/hotels
-- ✅ **Day-by-Day Itinerary** - AI-generated activity plans
-
-### Environment
-- ✅ **DUFFEL_STAYS_ENABLED** - Environment variable added to Vercel
-
----
-
-## Phase 1: Get to Bookable (MVP)
-
-### API & Infrastructure
-
-- [ ] 🔄 **Duffel Stays API Approval**
-  - Status: Request submitted to Duffel
-  - Code: Already integrated, ready to use
-  - Fallback: Mock data working for demos
-
-- [ ] 🔴 **Stripe Integration**
-  - [ ] Create Stripe account
-  - [ ] Install @stripe/stripe-js and stripe packages
-  - [ ] Create `/api/create-payment-intent` endpoint
-  - [ ] Build PaymentForm component with Stripe Elements
-  - [ ] Handle 3D Secure authentication
-  - [ ] Test with Stripe test cards
-
-- [ ] 🔴 **Booking API**
-  - [ ] Create `/api/book` endpoint
-  - [ ] Implement flight booking via Duffel
-  - [ ] Implement hotel booking via Duffel Stays
-  - [ ] Handle partial failures (rollback logic)
-  - [ ] Store booking in Supabase
-  - [ ] Return booking confirmation
-
-- [ ] 🟠 **Email Notifications**
-  - [ ] Set up Resend or SendGrid account
-  - [ ] Create email templates:
-    - [ ] Booking confirmation
-    - [ ] Itinerary PDF attachment
-    - [ ] Flight reminder (1 day before)
-  - [ ] Create `/api/send-email` utility
-
-- [ ] 🟠 **Error Handling**
-  - [ ] Add try-catch to all API routes
-  - [ ] Create error boundary components
-  - [ ] Set up Sentry for error tracking
-  - [ ] User-friendly error messages
-  - [ ] Retry logic for transient failures
-
-### Booking Flow UI
-
-- [ ] 🔴 **Create `/trip/[id]/book` page**
-  - [ ] Trip summary sidebar
-  - [ ] Guest details form (per traveler)
-  - [ ] Payment form (Stripe Elements)
-  - [ ] Terms acceptance checkbox
-  - [ ] "Book Now" button with loading state
-
-- [ ] 🔴 **Guest Details Form**
-  - [ ] First name, last name
-  - [ ] Email, phone
-  - [ ] Date of birth (for flights)
-  - [ ] Passport number (international)
-  - [ ] Special requests field
-  - [ ] Form validation
-
-- [ ] 🟠 **Booking Confirmation Page**
-  - [ ] `/trip/[id]/confirmation`
-  - [ ] Booking reference numbers
-  - [ ] Flight details with times
-  - [ ] Hotel address and check-in info
-  - [ ] Itinerary summary
-  - [ ] "Add to Calendar" button
-  - [ ] "Download PDF" button
-  - [ ] "Share Trip" button
-
-- [ ] 🟠 **Price Refresh Before Booking**
-  - [ ] Check if prices are still valid
-  - [ ] Show price change warning if needed
-  - [ ] Allow user to accept new price
-  - [ ] Re-run search if price significantly changed
+### Discover Pipeline
+- ✅ TikTok oEmbed caption extraction
+- ✅ YouTube oEmbed (title + thumbnail)
+- ✅ Multi-location support with tile grid picker
+- ✅ 5-signal confidence scoring → 3 tiers (green/amber/red)
+- ✅ Alternative tiles: Best Match + Closer to You + Budget-Friendly
+- ✅ Trending fallback when no match found
+- ✅ IP geolocation for proximity ranking
+- ✅ Daily cost data for 495 destinations
 
 ---
 
-## Phase 2: Intelligence & Personalization
+## Current Focus: Demo Polish
 
-### AI Improvements
+### Discover UX
+- [ ] **YouTube Data API v3 key** — Unblocks video description/tag extraction for multi-location. Free, ~2 min setup. ⏸️ Needs API key
+- [ ] **Instagram oEmbed** — Needs Meta developer app token. Free, ~15 min setup. ⏸️ Needs token
+- [ ] **Video content analysis gap** — Pipeline only sees metadata/thumbnail, not actual video. CapCut overlays, destination footage, TikTok location tags all missed. Longer-term problem.
 
-- [ ] 🟠 **Dynamic Itinerary Generation**
-  - [ ] Create `/lib/claude/itinerary-generator.ts`
-  - [ ] Build rich prompt with:
-    - Trip dates and duration
-    - Hotel location
-    - Flight arrival/departure times
-    - User interests/preferences
-    - Traveler type (solo, couple, family)
-  - [ ] Generate real venue recommendations
-  - [ ] Include opening hours, costs
-  - [ ] Validate with Google Places API
+### Data Gaps
+- [ ] **13 destinations missing POI data** — Blocked by Google Places budget cap. Need alternative data source (NOT Google Places API). Possible options: OpenStreetMap/Overpass, Foursquare, or Claude-generated POIs.
+- [ ] **POI images** — Still reference Google API URLs. Need migration to Supabase Storage.
+- 🔄 **Unsplash image migration** — Paused at batch 11/70 (~16%). Needs `UNSPLASH_ACCESS_KEY` in `.env.local` to resume.
 
-- [ ] 🟡 **Origin Auto-Detection**
-  - [ ] Add IP geolocation (ipapi.co)
-  - [ ] Map to nearest airport codes
-  - [ ] Show "Departing from [City]" in UI
-  - [ ] Allow override in chat or settings
-
-- [ ] 🟡 **Better Intent Parsing**
-  - [ ] Handle date ranges ("sometime in March")
-  - [ ] Parse budget constraints naturally
-  - [ ] Understand multi-city requests
-  - [ ] Handle group compositions ("me and 2 kids")
-
-- [ ] 🟡 **Smart Defaults**
-  - [ ] Default to 4-star hotels unless budget specified
-  - [ ] Prefer direct flights for short trips
-  - [ ] Morning departures, evening returns
-  - [ ] Central hotel locations
-
-### External Data
-
-- [ ] 🟠 **Google Places Integration**
-  - [ ] Set up Google Cloud project
-  - [ ] Enable Places API
-  - [ ] Create `/lib/google/places.ts`
-  - [ ] Fetch restaurant, attraction details
-  - [ ] Get photos, ratings, hours
-
-- [ ] 🟡 **Real Destination Images**
-  - [ ] Unsplash API integration
-  - [ ] Cache images per destination
-  - [ ] Fallback to static placeholders
-  - [ ] Image optimization via Next.js
-
-- [ ] 🟢 **Weather Integration**
-  - [ ] WeatherAPI or OpenWeather
-  - [ ] Show forecast on trip card
-  - [ ] Packing suggestions
+### General Polish
+- [ ] Improve loading states and error messages
+- [ ] Mobile layout pass (Discover + Explore)
+- [ ] Return-to-Discover state persistence (low priority)
 
 ---
 
-## Phase 3: User Experience Polish
+## Next Up: Path to Real Bookings
 
-### Mobile Optimization
+These are the steps to go from demo to taking real money. Not started yet — current goal is demo-ready.
 
-- [ ] 🟠 **Responsive TripCard**
-  - [ ] Stack layout on mobile
-  - [ ] Collapsible itinerary section
-  - [ ] Swipe to see alternatives
-  - [ ] Touch-friendly buttons
+### 1. Switch to Real Rates
+- [ ] Flip `USE_MOCK_RATES` to `false` in `lib/liteapi/hotels.ts`
+- [ ] Verify LiteAPI sandbox returns real pricing
+- [ ] Handle rate expiration (`et` field in seconds)
 
-- [ ] 🟠 **Mobile Chat Interface**
-  - [ ] Full-screen keyboard handling
-  - [ ] Sticky input at bottom
-  - [ ] Quick action buttons
-  - [ ] Voice input (speech-to-text)
+### 2. Prebook Integration
+- [ ] Build `POST /rates/prebook` call in LiteAPI client
+- [ ] Pass `offerId` from rate selection
+- [ ] Store `prebookId` for booking step
+- [ ] Handle availability failures gracefully
 
-- [ ] 🟡 **Mobile Landing Page**
-  - [ ] Larger touch targets
-  - [ ] Simplified example prompts
-  - [ ] Thumb-zone optimized layout
+### 3. Booking Integration
+- [ ] Replace stub in `app/api/book/route.ts` with real `POST /rates/book` call
+- [ ] Pass `prebookId` + guest details to LiteAPI
+- [ ] Store booking confirmation in Supabase
+- [ ] Build booking confirmation page with hotel details, check-in info
 
-### Loading & Feedback
+### 4. Payment (NUITEE_PAY)
+- [ ] Integrate LiteAPI Payment SDK (NUITEE_PAY)
+- [ ] Replace fake tokenizer in `components/booking/GuestForm.tsx`
+- [ ] LiteAPI becomes Merchant of Record (zero chargeback risk)
+- [ ] No PII storage needed — passthrough to LiteAPI
 
-- [ ] 🟡 **Search Progress Indicator**
-  - [ ] "Searching 50+ airlines..."
-  - [ ] "Finding hotels in Paris..."
-  - [ ] "Creating your itinerary..."
-  - [ ] Animated illustrations
+### 5. Booking Management
+- [ ] Wire up booking cancellation (`PUT /bookings/{id}`) — stub exists
+- [ ] Booking retrieval from LiteAPI (currently DB-only)
+- [ ] Sync LiteAPI bookings with Supabase
 
-- [ ] 🟡 **Skeleton Screens**
-  - [ ] TripCard skeleton
-  - [ ] Flight/hotel list skeletons
-  - [ ] Chat message loading dots
-
-- [ ] 🟢 **Micro-interactions**
-  - [ ] Button hover/press states
-  - [ ] Smooth transitions
-  - [ ] Success confetti on booking
-
-### Features
-
-- [ ] 🟡 **Trip Sharing**
-  - [ ] Generate shareable URL
-  - [ ] OG meta tags for preview
-  - [ ] "Invite to trip" for group travel
-
-- [ ] 🟡 **Save Trip for Later**
-  - [ ] Save to localStorage (no auth)
-  - [ ] "My Saved Trips" page
-  - [ ] Price change notifications
-
-- [ ] 🟢 **PDF Itinerary Export**
-  - [ ] Generate PDF with @react-pdf/renderer
-  - [ ] Include all trip details
-  - [ ] QR codes for flight check-in
-  - [ ] Offline-friendly format
-
-- [ ] 🟢 **Calendar Integration**
-  - [ ] Generate .ics file
-  - [ ] Google Calendar deep link
-  - [ ] Apple Calendar support
+### 6. Revenue
+- [ ] Decide on commission margin (`margin` param on rate requests)
+- [ ] Set up LiteAPI account for payouts
 
 ---
 
-## Phase 4: Trust & Business
+## Backlog: High-Value LiteAPI Features
 
-### User Accounts
+Not needed for MVP, but available in the API and could differentiate:
 
-- [ ] 🟡 **Authentication**
-  - [ ] Supabase Auth integration
-  - [ ] Google OAuth
-  - [ ] Email/password signup
-  - [ ] Magic link option
-
-- [ ] 🟡 **User Profile**
-  - [ ] Home airport preference
-  - [ ] Traveler details (save for booking)
-  - [ ] Notification preferences
-
-- [ ] 🟡 **Booking History**
-  - [ ] `/bookings` page (already exists)
-  - [ ] Connect to actual booking data
-  - [ ] Upcoming vs past trips
-  - [ ] Modify/cancel functionality
-
-### Trust Signals
-
-- [ ] 🟡 **Price Transparency**
-  - [ ] Show price breakdown
-  - [ ] No hidden fees messaging
-  - [ ] "Price includes all taxes"
-
-- [ ] 🟡 **Reviews & Ratings**
-  - [ ] Display TripAdvisor/Google ratings
-  - [ ] User testimonials
-  - [ ] "Why we picked this" explanation
-
-- [ ] 🟢 **Comparison Widget**
-  - [ ] "See this trip on Expedia"
-  - [ ] Prove competitive pricing
-  - [ ] Build trust through transparency
-
-### Operations
-
-- [ ] 🟡 **Admin Dashboard**
-  - [ ] View all bookings
-  - [ ] Revenue tracking
-  - [ ] Error monitoring
-  - [ ] User analytics
-
-- [ ] 🟡 **Customer Support**
-  - [ ] Contact form
-  - [ ] FAQ page
-  - [ ] Intercom or similar chat widget
+| Feature | LiteAPI Endpoint | Why It Matters |
+|---------|-----------------|----------------|
+| **Semantic search** | `GET /data/hotels/semantic-search` | Natural language → hotels. "Romantic rooftop in Bali" — fits discovery UX perfectly |
+| **Hotel Q&A** | `GET /data/hotel/ask` | "Does this hotel have a pool?" on explore page |
+| **Price index** | `GET /priceindex/city` | "Hotels in Lisbon are 18% cheaper than usual" on destination cards |
+| **Room-level selector** | Room data in rates response | Show bed types, room size, views, per-room photos instead of just "Standard Room" |
+| **Detailed cancellation display** | `cancelPolicyInfos` in rates | "Free cancel until March 15, then $150 fee" instead of just RFN/NRFN |
+| **Loyalty program** | `/loyalties` + `/guests` APIs | "Earn 3% back on every booking" — built-in, no custom infrastructure |
+| **Voucher system** | `/vouchers` CRUD | Promo codes, referral discounts, first-booking offers |
+| **Weather on cards** | `GET /data/weather` | Show forecast on destination/trip cards |
+| **AI room image search** | `GET /data/hotels/room-search` | Search rooms by visual attributes — fits social-photo discovery |
+| **Market analytics** | `POST /analytics/markets` | Power "Trending destinations" with real booking data |
 
 ---
 
-## Technical Debt & Cleanup
+## Backlog: Product Features
 
-- [ ] 🟡 **Type Safety**
-  - [ ] Strict TypeScript throughout
-  - [ ] Zod schemas for API validation
-  - [ ] Remove `any` types
-
-- [ ] 🟡 **Testing**
-  - [ ] Jest unit tests for utils
-  - [ ] Playwright E2E tests
-  - [ ] API route testing
-
-- [ ] 🟡 **Performance**
-  - [ ] Lighthouse audit (90+ score)
-  - [ ] Code splitting
-  - [ ] Image optimization
-  - [ ] API response caching
-
-- [ ] 🟢 **Code Quality**
-  - [ ] ESLint rules
-  - [ ] Prettier formatting
-  - [ ] Pre-commit hooks (husky)
-  - [ ] CI/CD pipeline
+| Feature | Priority | Notes |
+|---------|----------|-------|
+| Email notifications (booking confirmation, reminders) | Medium | Resend or SendGrid |
+| Trip sharing (shareable URL, OG tags) | Medium | |
+| Save trip for later (localStorage) | Medium | |
+| PDF itinerary export | Low | @react-pdf/renderer |
+| Calendar integration (.ics) | Low | |
+| User profiles (home airport, saved traveler details) | Low | Supabase Auth already set up |
+| Admin dashboard (bookings, revenue) | Low | After real bookings exist |
 
 ---
 
-## Quick Wins (< 2 hours each)
+## Known Blockers
 
-- [ ] Add loading spinner while searching
-- [ ] Improve empty state messaging
-- [ ] Add "Back to search" button on trip page
-- [ ] Fix any mobile layout issues
-- [ ] Add favicon and OG image
-- [ ] Improve meta tags for SEO
-- [ ] Add analytics (Mixpanel/Plausible)
-
----
-
-## Current Blockers
-
-| Item | Status | Action Needed |
-|------|--------|---------------|
-| Duffel Stays API | 🔄 Requested | Awaiting Duffel approval |
-| Payment processing | ⏸️ Not started | Set up Stripe account |
-| Real itineraries | ⏸️ Not started | Set up Google Places API |
-
----
-
-## Next Session Priorities
-
-1. **Once Duffel Stays is approved:**
-   - Test real hotel search on production
-   - Verify hotel booking flow works end-to-end
-
-2. **Stripe Integration:**
-   - Create Stripe account
-   - Build payment form component
-   - Test with sandbox cards
-
-3. **Booking Flow:**
-   - Create `/trip/[id]/book` page
-   - Build guest details form
-   - Wire up complete booking
-
----
-
-*Last Updated: January 20, 2026*
+| Blocker | What's Needed | Effort |
+|---------|--------------|--------|
+| YouTube multi-location | YouTube Data API v3 key (free) | ~2 min setup |
+| Instagram oEmbed | Meta developer app token (free) | ~15 min setup |
+| Unsplash migration paused | `UNSPLASH_ACCESS_KEY` in `.env.local` | Have key, just needs adding |
+| 13 destinations missing POIs | Alternative to Google Places | Research needed |
+| POI images reference Google | Migrate to Supabase Storage | Script work |
+| Local build OOM | `destinations.ts` 7000+ lines | Use `npx tsc --noEmit` locally. Vercel builds fine. |

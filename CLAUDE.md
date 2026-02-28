@@ -23,7 +23,7 @@ AI-powered travel planning app. Users discover destinations through photos/socia
 |------|-------|-----------|
 | Discover | `/discover` | `app/discover/page.tsx`, `lib/location/resolver.ts`, `components/discover/` |
 | Flash swipe | `/flash` | `components/flash/FlashPlanInput.tsx`, `hooks/useFlashVacation.ts` |
-| Explore | `/flash/explore` | `app/flash/explore/page.tsx` (large file ~2500 lines) |
+| Explore | `/flash/explore` | `app/flash/explore/page.tsx` (large file ~3200 lines) |
 | Hotel search | API | `app/api/hotels/search/route.ts`, `lib/liteapi/hotels.ts` |
 | Confirm | `/flash/confirm` | `app/flash/confirm/page.tsx` |
 | Destinations | Data | `lib/flash/destinations.ts` (500 destinations, 7000+ lines) |

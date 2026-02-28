@@ -1,15 +1,8 @@
 {
-  "lastUpdated": "2026-02-28T00:32:31.682Z",
-  "currentBatch": 21,
+  "lastUpdated": "2026-02-28T01:35:54.529Z",
+  "currentBatch": 22,
   "totalBatches": 70,
   "queue": [
-    {
-      "destId": "florence",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
     {
       "destId": "venice",
       "batchPart": 1,
@@ -357,7 +350,8 @@
     "santorini",
     "prague",
     "dubrovnik",
-    "vienna"
+    "vienna",
+    "florence"
   ],
   "pendingReview": [
     "paris",
@@ -369,16 +363,17 @@
     "santorini",
     "prague",
     "dubrovnik",
-    "vienna"
+    "vienna",
+    "florence"
   ],
   "approved": [],
   "rejected": [],
   "stats": {
     "totalDestinations": 36,
-    "totalImagesDownloaded": 535,
+    "totalImagesDownloaded": 550,
     "totalApproved": 0,
     "totalRejected": 0
   },
-  "lastBatchCompletedAt": "2026-02-28T00:32:31.682Z",
-  "nextBatchAvailableAt": "2026-02-28T01:35:31.682Z"
+  "lastBatchCompletedAt": "2026-02-28T01:35:54.529Z",
+  "nextBatchAvailableAt": "2026-02-28T02:38:54.529Z"
 }

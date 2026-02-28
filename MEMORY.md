@@ -49,9 +49,10 @@ SECONDARY: Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
 
 ### Destination Data
 - **500 curated destinations**, 85k+ POIs, 5GB+ Supabase images
+- **Destination data refactored** — extracted from 7,634-line TS file to `data/destinations.json` (Feb 28, 2026). Thin TS loader at `lib/flash/destinations.ts` (34 lines). Ready for expansion to 700-1000 destinations.
 - **Daily cost data** — 495 destinations with per-person daily costs (USD): food, activities, transport
   - Range: $40/day (Hanoi, Ella) to $400/day (Bora Bora). Mean $111, median $100
-  - Stored as `dailyCosts` field in `lib/flash/destinations.ts`
+  - Stored as `dailyCosts` field in `data/destinations.json`
 - **Travel time matrix** for 500+ destinations
 
 ### Discover Feature (`/discover`) — Primary Entry Point
@@ -103,7 +104,7 @@ SECONDARY: Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
 - **Hotel booking flow** — "Proceed to Payment" is a placeholder alert. No prebook/book/payment integration yet
 - **POI images** — Still reference Google API URLs, need Supabase migration
 - **13 destinations missing POI data** — Need alternative to Google Places (DO NOT use Google Places API)
-- **Local build OOM** — `next build` crashes locally (7000+ line destinations.ts). Vercel builds fine. Use `npx tsc --noEmit` for local type checking
+- **Local build OOM** — `next build` may crash locally. Vercel builds fine. Use `npx tsc --noEmit` for local type checking. (destinations.ts OOM fixed by JSON refactor Feb 28, 2026)
 
 ---
 
@@ -130,7 +131,8 @@ SECONDARY: Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
 | `app/flash/confirm/page.tsx` | Confirm/package page — Trip Intelligence, day cards, walking routes |
 | `components/flash/FlashPlanInput.tsx` | Quick intent form (dates, travelers, vibes, budget) |
 | `components/flash/ImmersiveSwipeCard.tsx` | Swipe card for Flash city selection |
-| `lib/flash/destinations.ts` | 500 destinations with POIs, vibes, daily costs (7000+ lines) |
+| `data/destinations.json` | 500 destinations — pure data (add/edit destinations here) |
+| `lib/flash/destinations.ts` | Thin loader for destinations.json + helper functions (34 lines) |
 | `lib/flash/distanceDefaults.ts` | Smart date defaults based on origin→destination distance |
 | `lib/flash/diversityEngine.ts` | Scoring functions (seasonal, vibe, budget, reachability) |
 | `lib/flash/vibeStyles.ts` | Shared VIBE_STYLES (colors, emojis) |

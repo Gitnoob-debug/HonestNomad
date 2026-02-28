@@ -15,7 +15,8 @@ AI-powered travel planning app. Users discover destinations through photos/socia
 2. **DO NOT store API keys in committed files** — Use `.env.local` only
 3. **DO NOT store PII** — Passthrough architecture, guest data goes direct to LiteAPI
 4. **Hotels only, no flights** — Chargeback risk decision
-5. **Local build OOM** — `next build` crashes locally (7000+ line destinations.ts). Use `npx tsc --noEmit` for type checking. Vercel builds fine.
+5. **Local build OOM** — `next build` may crash locally. Use `npx tsc --noEmit` for type checking. Vercel builds fine.
+6. **Destinations live in JSON** — Edit `data/destinations.json` to add/modify destinations. `lib/flash/destinations.ts` is a thin loader (34 lines), do NOT put data back in it.
 
 ## Key Paths
 
@@ -26,4 +27,4 @@ AI-powered travel planning app. Users discover destinations through photos/socia
 | Explore | `/flash/explore` | `app/flash/explore/page.tsx` (large file ~3200 lines) |
 | Hotel search | API | `app/api/hotels/search/route.ts`, `lib/liteapi/hotels.ts` |
 | Confirm | `/flash/confirm` | `app/flash/confirm/page.tsx` |
-| Destinations | Data | `lib/flash/destinations.ts` (500 destinations, 7000+ lines) |
+| Destinations | Data | `data/destinations.json` (500 destinations), `lib/flash/destinations.ts` (loader + helpers) |

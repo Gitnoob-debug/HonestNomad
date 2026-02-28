@@ -50,8 +50,11 @@
 - 🔄 **Unsplash image migration** — Paused at batch 11/70 (~16%). Needs `UNSPLASH_ACCESS_KEY` in `.env.local` to resume.
 
 ### General Polish
-- [ ] Improve loading states and error messages
-- [ ] Mobile layout pass (Discover + Explore)
+- ✅ **Improve loading states and error messages** — Toast notifications replace alert(), skeleton hotel card loaders, actionable error messages (Feb 28)
+- ✅ **Mobile layout pass (Discover + Explore)** — Viewport meta tag, 44px touch targets, safe area CSS, responsive vibe grid, modal height fixes (Feb 28)
+- ✅ **Code quality pass** — Standardized error handling across 12 API routes, removed debug console.logs, fixed race conditions in useFlashVacation (Feb 28)
+- ✅ **Destinations architecture refactor** — Extracted 7,634-line TS to `data/destinations.json` + 34-line loader. Fixes local OOM, enables scaling to 700-1000 destinations (Feb 28)
+- [ ] **Add 200-500 more destinations** — Increase catchment rate for Discover flow. Biggest gaps: Asia (91→150+), Africa (34→60+), TikTok-trending spots. Edit `data/destinations.json` directly.
 - [ ] Return-to-Discover state persistence (low priority)
 
 ---
@@ -136,4 +139,4 @@ Not needed for MVP, but available in the API and could differentiate:
 | Unsplash migration paused | `UNSPLASH_ACCESS_KEY` in `.env.local` | Have key, just needs adding |
 | 13 destinations missing POIs | Alternative to Google Places | Research needed |
 | POI images reference Google | Migrate to Supabase Storage | Script work |
-| Local build OOM | `destinations.ts` 7000+ lines | Use `npx tsc --noEmit` locally. Vercel builds fine. |
+| ~~Local build OOM~~ | ~~`destinations.ts` 7000+ lines~~ | **FIXED** — refactored to JSON (Feb 28) |

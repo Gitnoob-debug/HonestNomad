@@ -9,6 +9,7 @@ import { DestinationTile, DiscoverDetailModal, ConfidenceBadge } from '@/compone
 import { DESTINATIONS } from '@/lib/flash/destinations';
 import { computeDistanceDefaults, getFallbackDefaults } from '@/lib/flash/distanceDefaults';
 import type { AirportInfo } from '@/lib/flash/airportCoords';
+import { useToast } from '@/components/ui/Toast';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || '';
 
@@ -100,6 +101,7 @@ function compressImage(
 
 export default function DiscoverPage() {
   const router = useRouter();
+  const { addToast } = useToast();
 
   // Input state
   const [urlInput, setUrlInput] = useState('');
@@ -219,11 +221,11 @@ export default function DiscoverPage() {
 
   const handleImageSelect = useCallback((file: File) => {
     if (file.size > 5 * 1024 * 1024) {
-      alert('Please upload an image under 5MB.');
+      addToast('Please upload an image under 5MB.', 'warning');
       return;
     }
     if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) {
-      alert('Please upload a JPEG, PNG, or WebP image.');
+      addToast('Please upload a JPEG, PNG, or WebP image.', 'warning');
       return;
     }
 
@@ -237,7 +239,7 @@ export default function DiscoverPage() {
       setImagePreview(e.target?.result as string);
     };
     reader.readAsDataURL(file);
-  }, []);
+  }, [addToast]);
 
   // ── Submit handler ─────────────────────────────────────────────────
 
@@ -268,11 +270,14 @@ export default function DiscoverPage() {
       setResult(data);
     } catch (error) {
       console.error('Analysis failed:', error);
+      const isNetwork = error instanceof TypeError && error.message === 'Failed to fetch';
       setResult({
         success: false,
         location: null,
         matchedDestination: null,
-        error: 'Network error. Please check your connection and try again.',
+        error: isNetwork
+          ? 'Could not reach our servers. Please check your internet connection and try again.'
+          : 'Analysis failed unexpectedly. Please try a different link or image.',
       });
     } finally {
       setLoading(false);

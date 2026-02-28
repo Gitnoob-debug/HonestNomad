@@ -55,10 +55,11 @@ export async function POST(request: NextRequest) {
         status: 'pending',
       },
     });
-  } catch (error: any) {
-    console.error('Booking error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Booking error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to create booking' },
+      { error: 'Failed to create booking', details: message },
       { status: 500 }
     );
   }

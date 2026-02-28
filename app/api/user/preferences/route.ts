@@ -14,10 +14,11 @@ export async function GET(request: NextRequest) {
     const profile = await getOrCreateProfile(user.id, user.email);
 
     return NextResponse.json({ preferences: profile.preferences });
-  } catch (error: any) {
-    console.error('Get preferences error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Get preferences error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to get preferences' },
+      { error: 'Failed to get preferences', details: message },
       { status: 500 }
     );
   }
@@ -37,10 +38,11 @@ export async function PUT(request: NextRequest) {
     const profile = await updatePreferences(user.id, body);
 
     return NextResponse.json({ preferences: profile.preferences });
-  } catch (error: any) {
-    console.error('Update preferences error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Update preferences error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to update preferences' },
+      { error: 'Failed to update preferences', details: message },
       { status: 500 }
     );
   }

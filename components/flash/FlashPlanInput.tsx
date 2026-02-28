@@ -365,7 +365,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
                   <button
                     onClick={() => updateRoomConfig({ adults: Math.max(1, roomConfig.adults - 1) })}
                     disabled={roomConfig.adults <= 1}
-                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                    className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
                   >
                     −
                   </button>
@@ -373,7 +373,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
                   <button
                     onClick={() => updateRoomConfig({ adults: Math.min(6, roomConfig.adults + 1) })}
                     disabled={roomConfig.adults >= 6}
-                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                    className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
                   >
                     +
                   </button>
@@ -390,7 +390,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
                   <button
                     onClick={() => updateRoomConfig({ children: Math.max(0, roomConfig.children - 1) })}
                     disabled={roomConfig.children <= 0}
-                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                    className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
                   >
                     −
                   </button>
@@ -398,7 +398,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
                   <button
                     onClick={() => updateRoomConfig({ children: Math.min(4, roomConfig.children + 1) })}
                     disabled={roomConfig.children >= 4}
-                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                    className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
                   >
                     +
                   </button>
@@ -437,12 +437,12 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-1">What vibe?</h3>
           <p className="text-xs text-gray-500 mb-4">Pick up to 3, or skip for a surprise mix</p>
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {VIBE_PRESETS.map((vibe) => (
               <button
                 key={vibe.value}
                 onClick={() => handleVibeToggle(vibe.value)}
-                className={`p-3 sm:p-4 rounded-xl border-2 text-center transition-all flex flex-col items-center gap-1.5 ${
+                className={`p-3 sm:p-4 rounded-xl border-2 text-center transition-all flex flex-col items-center gap-1.5 min-h-[64px] ${
                   selectedVibes.includes(vibe.value)
                     ? 'border-primary-600 bg-primary-50 text-primary-700'
                     : 'border-gray-200 hover:border-gray-300 text-gray-600 hover:text-gray-900'

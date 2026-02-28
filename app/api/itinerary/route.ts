@@ -67,10 +67,11 @@ export async function POST(request: NextRequest) {
     });
 
     return NextResponse.json({ itinerary });
-  } catch (error: any) {
-    console.error('Itinerary generation error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Itinerary generation error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to generate itinerary' },
+      { error: 'Failed to generate itinerary', details: message },
       { status: 500 }
     );
   }

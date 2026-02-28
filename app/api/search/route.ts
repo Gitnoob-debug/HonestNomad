@@ -59,10 +59,11 @@ export async function POST(request: NextRequest) {
     });
 
     return NextResponse.json({ hotels });
-  } catch (error: any) {
-    console.error('Search error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Search error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to search hotels' },
+      { error: 'Failed to search hotels', details: message },
       { status: 500 }
     );
   }

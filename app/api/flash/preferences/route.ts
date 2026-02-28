@@ -24,10 +24,11 @@ export async function GET(request: NextRequest) {
     const result = await getFlashPreferences(user.id);
 
     return NextResponse.json(result);
-  } catch (error: any) {
-    console.error('Get flash preferences error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Get flash preferences error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to get flash preferences' },
+      { error: 'Failed to get flash preferences', details: message },
       { status: 500 }
     );
   }
@@ -52,14 +53,15 @@ export async function PUT(request: NextRequest) {
       );
     }
 
-    const updatedPreferences = await updateFlashPreferences(user.id, body);
+    await updateFlashPreferences(user.id, body);
     const result = await getFlashPreferences(user.id);
 
     return NextResponse.json(result);
-  } catch (error: any) {
-    console.error('Update flash preferences error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Update flash preferences error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to update flash preferences' },
+      { error: 'Failed to update flash preferences', details: message },
       { status: 500 }
     );
   }

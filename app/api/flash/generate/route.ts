@@ -58,7 +58,7 @@ export async function POST(request: NextRequest) {
       };
     }
 
-    let revealedPreferences: any = undefined;
+    let revealedPreferences: Awaited<ReturnType<typeof loadRevealedPreferences>> | undefined;
 
     if (user) {
       // Load revealed preferences (learned from swipe behavior)
@@ -90,10 +90,11 @@ export async function POST(request: NextRequest) {
       diversityScore,
       tripCount: trips.length,
     });
-  } catch (error: any) {
-    console.error('Flash generate error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Flash generate error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to generate trips' },
+      { error: 'Failed to generate trips', details: message },
       { status: 500 }
     );
   }

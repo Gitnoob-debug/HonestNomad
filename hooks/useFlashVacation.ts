@@ -189,13 +189,17 @@ export function useFlashVacation() {
       loadPricesInBackground(data.trips, params);
 
       return data.trips;
-    } catch (error: any) {
+    } catch (error) {
+      const isNetwork = error instanceof TypeError && error.message === 'Failed to fetch';
+      const message = error instanceof Error ? error.message : 'Unknown error';
       setState(prev => ({
         ...prev,
         isGenerating: false,
         generationProgress: 0,
         generationStage: '',
-        error: error.message || 'Failed to generate trips',
+        error: isNetwork
+          ? 'Could not reach our servers. Please check your connection and try again.'
+          : message || 'Something went wrong generating trips. Please try again.',
       }));
       throw error;
     }
@@ -274,6 +278,20 @@ export function useFlashVacation() {
     const concurrency = 3;
     const queue = [...trips];
 
+    // Read traveler count once upfront (avoid reading sessionStorage in every setState callback)
+    let adultCount = 2;
+    try {
+      const tType = sessionStorage.getItem('flash_traveler_type');
+      if (tType === 'solo') adultCount = 1;
+      else if (tType === 'family') {
+        const roomStr = sessionStorage.getItem('flash_room_config');
+        if (roomStr) {
+          const room = JSON.parse(roomStr);
+          adultCount = room.adults || 2;
+        }
+      }
+    } catch {}
+
     // Helper to update price state for a trip
     const updatePriceState = (
       tripId: string,
@@ -312,19 +330,6 @@ export function useFlashVacation() {
             if (t.id === tripId) {
               const updated = { ...t, ...tripUpdate };
               // Recalculate total pricing
-              // Read traveler count from session for per-person calculation
-              let adultCount = 2;
-              try {
-                const tType = sessionStorage.getItem('flash_traveler_type');
-                if (tType === 'solo') adultCount = 1;
-                else if (tType === 'family') {
-                  const roomStr = sessionStorage.getItem('flash_room_config');
-                  if (roomStr) {
-                    const room = JSON.parse(roomStr);
-                    adultCount = room.adults || 2;
-                  }
-                }
-              } catch {}
               updated.pricing = {
                 ...updated.pricing,
                 total: newPriceState.hotelPrice || updated.pricing.hotel,
@@ -502,9 +507,10 @@ export function useFlashVacation() {
       });
 
       // Start background price loading for the new trips only
-      loadPricesInBackground(data.trips, state.lastGenerateParams);
-    } catch (error: any) {
-      console.error('Failed to load more trips:', error);
+      // Use the params we already checked above to avoid stale state
+      loadPricesInBackground(data.trips, state.lastGenerateParams!);
+    } catch (error) {
+      console.error('Failed to load more trips:', error instanceof Error ? error.message : error);
     } finally {
       setIsLoadingMore(false);
     }

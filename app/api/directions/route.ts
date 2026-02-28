@@ -31,10 +31,11 @@ export async function POST(request: NextRequest) {
     const result = await getWalkingDirections(waypoints);
 
     return NextResponse.json(result);
-  } catch (error: any) {
-    console.error('Directions API error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Directions API error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to get directions' },
+      { error: 'Failed to get directions', details: message },
       { status: 500 }
     );
   }

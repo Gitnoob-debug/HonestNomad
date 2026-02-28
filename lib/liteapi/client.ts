@@ -160,8 +160,6 @@ export async function getHotelRates(
     guestNationality,
   };
 
-  console.log('[LiteAPI] Rates request:', JSON.stringify(body, null, 2));
-
   const response = await liteApiRequest<LiteAPIRatesResponse>('/hotels/rates', {
     method: 'POST',
     body: JSON.stringify(body),

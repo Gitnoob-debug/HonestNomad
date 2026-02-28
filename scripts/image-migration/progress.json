@@ -1,78 +1,8 @@
 {
-  "lastUpdated": "2026-02-23T14:21:24.213Z",
-  "currentBatch": 11,
+  "lastUpdated": "2026-02-28T00:32:31.682Z",
+  "currentBatch": 21,
   "totalBatches": 70,
   "queue": [
-    {
-      "destId": "london",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "santorini",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "santorini",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "prague",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "prague",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "dubrovnik",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "dubrovnik",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "vienna",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "vienna",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "florence",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
     {
       "destId": "florence",
       "batchPart": 2,
@@ -422,23 +352,33 @@
     "rome",
     "barcelona",
     "amsterdam",
-    "lisbon"
+    "lisbon",
+    "london",
+    "santorini",
+    "prague",
+    "dubrovnik",
+    "vienna"
   ],
   "pendingReview": [
     "paris",
     "rome",
     "barcelona",
     "amsterdam",
-    "lisbon"
+    "lisbon",
+    "london",
+    "santorini",
+    "prague",
+    "dubrovnik",
+    "vienna"
   ],
   "approved": [],
   "rejected": [],
   "stats": {
     "totalDestinations": 36,
-    "totalImagesDownloaded": 355,
+    "totalImagesDownloaded": 535,
     "totalApproved": 0,
     "totalRejected": 0
   },
-  "lastBatchCompletedAt": "2026-02-23T14:21:24.213Z",
-  "nextBatchAvailableAt": "2026-02-23T15:24:24.213Z"
+  "lastBatchCompletedAt": "2026-02-28T00:32:31.682Z",
+  "nextBatchAvailableAt": "2026-02-28T01:35:31.682Z"
 }

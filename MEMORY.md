@@ -9,7 +9,7 @@
 
 HonestNomad is an AI-powered travel planning app. Users discover destinations through photos and social media links, then book hotels through a streamlined funnel.
 
-**Stack:** Next.js 14 + Supabase + LiteAPI + Mapbox + Claude Sonnet 4.6 (via OpenRouter)
+**Stack:** Next.js 14 + Supabase + LiteAPI + Mapbox + Claude (via OpenRouter)
 **Deployed:** https://honest-nomad-ud6y.vercel.app
 **Branch:** All work on `master`
 **Current goal:** Demo-ready with mock rates (no fixed deadline)
@@ -23,7 +23,7 @@ HonestNomad is an AI-powered travel planning app. Users discover destinations th
 | Hotels only | No flights | Chargeback risk too high on flights |
 | Hotel API | LiteAPI (Nuitee) | Real-time pricing, no approval needed, MoR option |
 | Payment (future) | LiteAPI SDK (NUITEE_PAY) | Zero chargeback risk - LiteAPI handles payments |
-| AI provider | OpenRouter → Claude Sonnet 4.6 | Sonnet 4.6 for both text and vision |
+| AI provider | OpenRouter → Claude | Haiku 3.5 for text, Sonnet 4.6 for vision |
 | Image storage | Supabase Storage | 5GB+, serves destination photos |
 | PII | Never store | Passthrough architecture - guest data goes direct to LiteAPI |
 | Primary entry | Discover (photo/URL) | Flash swipe is secondary entry point |
@@ -83,7 +83,7 @@ SECONDARY: Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
 - Data-driven Trip Intelligence system (replaced AI Magic Package)
 - Image-rich day cards with stops-by-zone, hotel distance per stop
 - Interactive walking route maps, walk-time connectors
-- AI Travel Prep powered by Sonnet 4.6
+- AI Travel Prep powered by Claude (Haiku for text, Sonnet for vision)
 
 ### Hotel Search
 - LiteAPI sandbox integration (mock pricing active — `USE_MOCK_RATES = true`)
@@ -126,7 +126,7 @@ SECONDARY: Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
 ### Flash / Explore / Package
 | File | Purpose |
 |------|---------|
-| `app/flash/explore/page.tsx` | Explore page — vibe selection, POI map, hotel search, day planner (~2500 lines) |
+| `app/flash/explore/page.tsx` | Explore page — vibe selection, POI map, hotel search, day planner (~3200 lines) |
 | `app/flash/confirm/page.tsx` | Confirm/package page — Trip Intelligence, day cards, walking routes |
 | `components/flash/FlashPlanInput.tsx` | Quick intent form (dates, travelers, vibes, budget) |
 | `components/flash/ImmersiveSwipeCard.tsx` | Swipe card for Flash city selection |
@@ -156,7 +156,7 @@ URL input → detectPlatform() → platform-specific metadata extraction
   → Instagram: OG tags (blocked from Vercel, needs Meta app token)
   → Unknown: OG tag scraping
 
-Metadata → analyzeCaptionMulti() (Claude Sonnet 4.6) → extract ALL locations
+Metadata → analyzeCaptionMulti() (Claude Haiku 3.5) → extract ALL locations
   → If multiple: geocode all + compute alternatives per entry → tile grid picker
   → If single: geocode → destination match → 3-tile grid (Best Match + Closer + Budget)
 

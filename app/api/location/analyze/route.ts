@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
         success: false,
         location: null,
         matchedDestination: null,
-        error: 'Something went wrong analyzing this input. Please try again.',
+        error: 'We couldn\'t analyze this input. Try a different link or image, or check that the URL is publicly accessible.',
       },
       { status: 500 },
     );

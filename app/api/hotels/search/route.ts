@@ -16,6 +16,7 @@ export async function POST(request: NextRequest) {
       zoneRadiusKm,  // Optional: hotel zone radius in km (from clustering)
       travelers,      // Optional: traveler type from form (solo/couple/family)
       roomConfig,     // Optional: detailed room config { adults, children, childAges }
+      budgetTier,     // Optional: 'budget' when user clicked Budget-Friendly tile in Discover
     } = body;
 
     // Validate required fields
@@ -53,6 +54,19 @@ export async function POST(request: NextRequest) {
           preferences.travelers = { type: 'family', adults: 2, children: [{ age: 10 }], infants: 0 };
           break;
       }
+    }
+
+    // Adjust budget preferences when user selected Budget-Friendly tile
+    if (budgetTier === 'budget') {
+      preferences.budget = {
+        ...preferences.budget,
+        perTripMax: 2000,
+        flexibility: 'strict',
+      };
+      preferences.accommodation = {
+        ...preferences.accommodation,
+        minStars: 2,
+      };
     }
 
     // Search hotels — use zone radius if available for tighter results

@@ -144,11 +144,6 @@ export function useRevealedPreferences(): UseRevealedPreferencesReturn {
       const updated = recordSwipe(prev, trip, direction, dwellTimeMs, expandedCard);
       scheduleSave(updated);
 
-      console.log(`[RevealedPrefs] Recorded ${direction} swipe on ${trip.destination.city}`, {
-        vibes: trip.destination.vibes,
-        totalSwipes: updated.totalSwipes,
-      });
-
       return updated;
     });
   }, [scheduleSave]);
@@ -161,8 +156,6 @@ export function useRevealedPreferences(): UseRevealedPreferencesReturn {
     setPreferences(prev => {
       const updated = recordPOIAction(prev, poiType, action, poiCategory);
       scheduleSave(updated);
-
-      console.log(`[RevealedPrefs] Recorded POI ${action}: ${poiType}${poiCategory ? ` (${poiCategory})` : ''}`);
 
       return updated;
     });
@@ -181,12 +174,6 @@ export function useRevealedPreferences(): UseRevealedPreferencesReturn {
       const updated = recordFlightSelection(prev, selection);
       scheduleSave(updated);
 
-      console.log(`[RevealedPrefs] Recorded flight selection for ${selection.destinationId}`, {
-        departureHour: selection.departureHour,
-        price: selection.price,
-        stops: selection.stops,
-      });
-
       return updated;
     });
   }, [scheduleSave]);
@@ -200,11 +187,6 @@ export function useRevealedPreferences(): UseRevealedPreferencesReturn {
     setPreferences(prev => {
       const updated = recordHotelSelection(prev, selection);
       scheduleSave(updated);
-
-      console.log(`[RevealedPrefs] Recorded hotel selection for ${selection.destinationId}`, {
-        stars: selection.stars,
-        pricePerNight: selection.pricePerNight,
-      });
 
       return updated;
     });
@@ -220,12 +202,6 @@ export function useRevealedPreferences(): UseRevealedPreferencesReturn {
     setPreferences(prev => {
       const updated = recordBooking(prev, booking);
       scheduleSave(updated);
-
-      console.log(`[RevealedPrefs] Recorded BOOKING for ${booking.destinationId}`, {
-        tripCost: booking.tripCost,
-        tripLengthDays: booking.tripLengthDays,
-        vibes: booking.vibes,
-      });
 
       return updated;
     });

@@ -50,10 +50,11 @@ export async function POST(request: NextRequest) {
     }
 
     return NextResponse.json(result);
-  } catch (error: any) {
-    console.error('[trip-intelligence] Error:', error?.message || error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('[trip-intelligence] Error:', message);
     return NextResponse.json(
-      { error: error?.message || 'Failed to assemble trip intelligence' },
+      { error: 'Failed to assemble trip intelligence', details: message },
       { status: 500 }
     );
   }

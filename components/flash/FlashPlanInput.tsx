@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Button } from '@/components/ui';
 import { findNearestAirport, type AirportInfo } from '@/lib/flash/airportCoords';
+import { computeDistanceDefaults, getFallbackDefaults, type DistanceDefaults } from '@/lib/flash/distanceDefaults';
 import type { FlashGenerateParams, BudgetTier, TravelerType, RoomConfig } from '@/types/flash';
 
 interface FlashPlanInputProps {
@@ -61,6 +62,11 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
   // Geolocation → nearest airport
   const [detectedAirport, setDetectedAirport] = useState<AirportInfo | null>(null);
   const [geoStatus, setGeoStatus] = useState<'idle' | 'detecting' | 'done' | 'denied'>('idle');
+
+  // Track whether we've already applied smart defaults (to avoid re-applying on re-renders)
+  const smartDefaultsApplied = useRef(false);
+  // Track the distance tier for the hint text
+  const [distanceHint, setDistanceHint] = useState<DistanceDefaults['tier'] | null>(null);
 
   // --- Defaults that live behind "More options" ---
   const [budgetTier, setBudgetTier] = useState<BudgetTier>('deals');
@@ -125,6 +131,46 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
       { timeout: 8000, maximumAge: 600000 } // 8s timeout, cache for 10min
     );
   }, [geoStatus]);
+
+  // Auto-fill dates with distance-based smart defaults
+  useEffect(() => {
+    // Only apply once, and only if user hasn't already picked dates
+    if (smartDefaultsApplied.current || checkinDate) return;
+
+    // Try to get destination context from the Discover flow
+    let destLat: number | null = null;
+    let destLng: number | null = null;
+    try {
+      const stored = sessionStorage.getItem('discover_destination');
+      if (stored) {
+        const dest = JSON.parse(stored);
+        if (dest.latitude && dest.longitude) {
+          destLat = dest.latitude;
+          destLng = dest.longitude;
+        }
+      }
+    } catch { /* ignore parse errors */ }
+
+    if (destLat !== null && destLng !== null && detectedAirport) {
+      // We know both user location and destination — compute distance-based defaults
+      const defaults = computeDistanceDefaults(
+        detectedAirport.lat,
+        detectedAirport.lng,
+        destLat,
+        destLng
+      );
+      setCheckinDate(defaults.checkinDate);
+      setCheckoutDate(defaults.checkoutDate);
+      setDistanceHint(defaults.tier);
+      smartDefaultsApplied.current = true;
+    } else if (geoStatus === 'done' || geoStatus === 'denied') {
+      // No destination context or no user location — use fallback
+      const fallback = getFallbackDefaults();
+      setCheckinDate(fallback.checkinDate);
+      setCheckoutDate(fallback.checkoutDate);
+      smartDefaultsApplied.current = true;
+    }
+  }, [detectedAirport, geoStatus, checkinDate]);
 
   // Save traveler type to session storage
   const handleTravelerChange = (type: TravelerType) => {
@@ -274,6 +320,14 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
           {tripNights > 0 && (
             <p className="text-sm text-gray-500 mt-2">
               {tripNights}-night stay
+              {distanceHint && (
+                <span className="text-gray-400 ml-1">
+                  {distanceHint === 'impulse' && '— quick weekend escape'}
+                  {distanceHint === 'short_haul' && '— short trip, easy to plan'}
+                  {distanceHint === 'medium_haul' && '— a couple weeks to get ready'}
+                  {distanceHint === 'long_haul' && '— time to plan your adventure'}
+                </span>
+              )}
             </p>
           )}
         </div>
@@ -311,7 +365,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
                   <button
                     onClick={() => updateRoomConfig({ adults: Math.max(1, roomConfig.adults - 1) })}
                     disabled={roomConfig.adults <= 1}
-                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                    className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
                   >
                     −
                   </button>
@@ -319,7 +373,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
                   <button
                     onClick={() => updateRoomConfig({ adults: Math.min(6, roomConfig.adults + 1) })}
                     disabled={roomConfig.adults >= 6}
-                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                    className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
                   >
                     +
                   </button>
@@ -336,7 +390,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
                   <button
                     onClick={() => updateRoomConfig({ children: Math.max(0, roomConfig.children - 1) })}
                     disabled={roomConfig.children <= 0}
-                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                    className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
                   >
                     −
                   </button>
@@ -344,7 +398,7 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
                   <button
                     onClick={() => updateRoomConfig({ children: Math.min(4, roomConfig.children + 1) })}
                     disabled={roomConfig.children >= 4}
-                    className="w-8 h-8 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
+                    className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-600 hover:border-primary-500 hover:text-primary-600 disabled:opacity-30 disabled:hover:border-gray-300 disabled:hover:text-gray-600 transition-colors"
                   >
                     +
                   </button>
@@ -383,12 +437,12 @@ export function FlashPlanInput({ onGenerate, isLoading }: FlashPlanInputProps) {
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-1">What vibe?</h3>
           <p className="text-xs text-gray-500 mb-4">Pick up to 3, or skip for a surprise mix</p>
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {VIBE_PRESETS.map((vibe) => (
               <button
                 key={vibe.value}
                 onClick={() => handleVibeToggle(vibe.value)}
-                className={`p-3 sm:p-4 rounded-xl border-2 text-center transition-all flex flex-col items-center gap-1.5 ${
+                className={`p-3 sm:p-4 rounded-xl border-2 text-center transition-all flex flex-col items-center gap-1.5 min-h-[64px] ${
                   selectedVibes.includes(vibe.value)
                     ? 'border-primary-600 bg-primary-50 text-primary-700'
                     : 'border-gray-200 hover:border-gray-300 text-gray-600 hover:text-gray-900'

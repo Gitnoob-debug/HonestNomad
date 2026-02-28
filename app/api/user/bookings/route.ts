@@ -14,10 +14,11 @@ export async function GET(request: NextRequest) {
     const bookings = await getUserBookings(user.id);
 
     return NextResponse.json({ bookings });
-  } catch (error: any) {
-    console.error('Get bookings error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Get bookings error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to get bookings' },
+      { error: 'Failed to get bookings', details: message },
       { status: 500 }
     );
   }

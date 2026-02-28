@@ -4,8 +4,12 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import type { LocationAnalysisResponse, AlternativeTile } from '@/types/location';
+import type { LocationAnalysisResponse, AlternativeTile, AlternativeTileRole } from '@/types/location';
 import { DestinationTile, DiscoverDetailModal, ConfidenceBadge } from '@/components/discover';
+import { DESTINATIONS } from '@/lib/flash/destinations';
+import { computeDistanceDefaults, getFallbackDefaults } from '@/lib/flash/distanceDefaults';
+import type { AirportInfo } from '@/lib/flash/airportCoords';
+import { useToast } from '@/components/ui/Toast';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || '';
 
@@ -97,6 +101,7 @@ function compressImage(
 
 export default function DiscoverPage() {
   const router = useRouter();
+  const { addToast } = useToast();
 
   // Input state
   const [urlInput, setUrlInput] = useState('');
@@ -119,8 +124,96 @@ export default function DiscoverPage() {
 
   // ── Navigate to explore page with a destination tile ──────────────
 
-  const selectDestination = useCallback((dest: AlternativeTile['destination']) => {
+  const selectDestination = useCallback((dest: AlternativeTile['destination'], tileRole?: AlternativeTileRole) => {
     sessionStorage.setItem('discover_destination', JSON.stringify(dest));
+
+    // Ensure traveler type is set (respect existing value from FlashPlanInput)
+    if (!sessionStorage.getItem('flash_traveler_type')) {
+      sessionStorage.setItem('flash_traveler_type', 'couple');
+    }
+
+    // If user clicked a Budget-Friendly tile, store the signal for hotel search
+    if (tileRole === 'budget') {
+      sessionStorage.setItem('flash_budget_tier', 'budget');
+    } else {
+      sessionStorage.removeItem('flash_budget_tier');
+    }
+
+    // Look up full destination data for airportCode + region
+    const fullDest = DESTINATIONS.find(d => d.id === dest.id);
+
+    // Compute smart date defaults based on distance from user
+    let checkinDate: string;
+    let checkoutDate: string;
+    let tripNights: number;
+
+    try {
+      const airportStored = sessionStorage.getItem('flash_origin_airport');
+      if (airportStored) {
+        const airport: AirportInfo = JSON.parse(airportStored);
+        const defaults = computeDistanceDefaults(
+          airport.lat, airport.lng,
+          dest.latitude, dest.longitude
+        );
+        checkinDate = defaults.checkinDate;
+        checkoutDate = defaults.checkoutDate;
+        tripNights = defaults.nights;
+      } else {
+        const fallback = getFallbackDefaults();
+        checkinDate = fallback.checkinDate;
+        checkoutDate = fallback.checkoutDate;
+        tripNights = fallback.nights;
+      }
+    } catch {
+      const fallback = getFallbackDefaults();
+      checkinDate = fallback.checkinDate;
+      checkoutDate = fallback.checkoutDate;
+      tripNights = fallback.nights;
+    }
+
+    // Build a FlashTripPackage so the explore page can load it
+    const tripPackage = {
+      id: `discover-${dest.id}-${Date.now()}`,
+      destination: {
+        id: dest.id,
+        city: dest.city,
+        country: dest.country,
+        airportCode: fullDest?.airportCode || '',
+        region: dest.region || fullDest?.region || '',
+        vibes: dest.vibes || fullDest?.vibes || [],
+        latitude: dest.latitude,
+        longitude: dest.longitude,
+      },
+      hotel: undefined,
+      itinerary: {
+        days: tripNights,
+        highlights: dest.highlights?.slice(0, 3) || [],
+        activities: [],
+      },
+      pricing: {
+        hotel: 0,
+        total: 0,
+        currency: 'USD',
+      },
+      highlights: dest.highlights || [],
+      matchScore: 100,
+      imageUrl: dest.imageUrl,
+      tagline: dest.highlights?.[0] || `Explore ${dest.city}`,
+    };
+
+    // Store everything the explore page expects
+    sessionStorage.setItem('flash_selected_trip', JSON.stringify(tripPackage));
+    sessionStorage.setItem('flash_generate_params', JSON.stringify({
+      departureDate: checkinDate,
+      returnDate: checkoutDate,
+    }));
+    sessionStorage.setItem('flash_vacation_trips', JSON.stringify({
+      lastGenerateParams: {
+        departureDate: checkinDate,
+        returnDate: checkoutDate,
+      },
+    }));
+
     router.push(`/flash/explore?destination=${encodeURIComponent(dest.id)}`);
   }, [router]);
 
@@ -128,11 +221,11 @@ export default function DiscoverPage() {
 
   const handleImageSelect = useCallback((file: File) => {
     if (file.size > 5 * 1024 * 1024) {
-      alert('Please upload an image under 5MB.');
+      addToast('Please upload an image under 5MB.', 'warning');
       return;
     }
     if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) {
-      alert('Please upload a JPEG, PNG, or WebP image.');
+      addToast('Please upload a JPEG, PNG, or WebP image.', 'warning');
       return;
     }
 
@@ -146,7 +239,7 @@ export default function DiscoverPage() {
       setImagePreview(e.target?.result as string);
     };
     reader.readAsDataURL(file);
-  }, []);
+  }, [addToast]);
 
   // ── Submit handler ─────────────────────────────────────────────────
 
@@ -177,11 +270,14 @@ export default function DiscoverPage() {
       setResult(data);
     } catch (error) {
       console.error('Analysis failed:', error);
+      const isNetwork = error instanceof TypeError && error.message === 'Failed to fetch';
       setResult({
         success: false,
         location: null,
         matchedDestination: null,
-        error: 'Network error. Please check your connection and try again.',
+        error: isNetwork
+          ? 'Could not reach our servers. Please check your internet connection and try again.'
+          : 'Analysis failed unexpectedly. Please try a different link or image.',
       });
     } finally {
       setLoading(false);
@@ -866,8 +962,9 @@ export default function DiscoverPage() {
         tile={selectedTile}
         onClose={() => setSelectedTile(null)}
         onExplore={(dest) => {
+          const role = selectedTile?.role;
           setSelectedTile(null);
-          selectDestination(dest);
+          selectDestination(dest, role);
         }}
       />
     </div>

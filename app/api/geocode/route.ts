@@ -32,10 +32,11 @@ export async function GET(request: NextRequest) {
     }
 
     return NextResponse.json(result);
-  } catch (error: any) {
-    console.error('Geocoding error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Geocoding error:', message);
     return NextResponse.json(
-      { error: error.message || 'Geocoding failed' },
+      { error: 'Geocoding failed', details: message },
       { status: 500 }
     );
   }

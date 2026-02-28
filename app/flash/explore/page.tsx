@@ -781,9 +781,13 @@ function FlashExploreContent() {
           throw new Error('Trip dates not available. Please start a new search.');
         }
 
-        // Read traveler type from session (set by the /flash form)
+        // Read traveler type from session (set by /flash form or Discover page)
         let travelers: string | null = null;
         try { travelers = sessionStorage.getItem('flash_traveler_type'); } catch {}
+
+        // Read budget tier from session (set when user clicks Budget-Friendly tile in Discover)
+        let budgetTier: string | null = null;
+        try { budgetTier = sessionStorage.getItem('flash_budget_tier'); } catch {}
 
         const response = await fetch('/api/hotels/search', {
           method: 'POST',
@@ -798,6 +802,8 @@ function FlashExploreContent() {
             zoneRadiusKm: zone ? zone.radiusMeters / 1000 : undefined,
             // Pass traveler type for correct room occupancy
             travelers: travelers || undefined,
+            // Pass budget tier so hotel scoring favors cheaper options
+            budgetTier: budgetTier || undefined,
           }),
         });
 
@@ -1917,11 +1923,10 @@ function FlashExploreContent() {
           ) : (
           <div className="flex-1 overflow-y-auto p-4">
             <div className="max-w-lg mx-auto">
-              {/* Loading state — smart hotel zone messaging */}
+              {/* Loading state — skeleton hotel cards with contextual messaging */}
               {isLoadingHotels && (
-                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 mb-4">
-                  <div className="flex flex-col items-center justify-center">
-                    <Spinner size="lg" className="text-white mb-4" />
+                <div className="space-y-4 mb-4">
+                  <div className="text-center mb-2">
                     <p className="text-white/80 font-medium">
                       {favoriteStops.length >= 2
                         ? `Finding hotels near your ${favoriteStops.length} saved spots...`
@@ -1933,6 +1938,24 @@ function FlashExploreContent() {
                         : 'Near your planned hotspots'}
                     </p>
                   </div>
+                  {/* Skeleton cards */}
+                  {[1, 2, 3].map((i) => (
+                    <div key={i} className="bg-white/10 backdrop-blur-md rounded-2xl overflow-hidden animate-pulse">
+                      <div className="h-40 bg-white/5" />
+                      <div className="p-4 space-y-3">
+                        <div className="h-5 bg-white/10 rounded w-3/4" />
+                        <div className="h-4 bg-white/10 rounded w-1/2" />
+                        <div className="flex gap-2">
+                          <div className="h-6 bg-white/10 rounded w-16" />
+                          <div className="h-6 bg-white/10 rounded w-20" />
+                        </div>
+                        <div className="flex justify-between items-center pt-2">
+                          <div className="h-6 bg-white/10 rounded w-24" />
+                          <div className="h-10 bg-white/10 rounded w-24" />
+                        </div>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               )}
 
@@ -2320,7 +2343,7 @@ function FlashExploreContent() {
               disabled={isLoadingHotels}
               className="w-full py-4 bg-white text-gray-900 font-bold rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50"
             >
-              {isLoadingHotels ? 'Loading...' : 'Review Trip →'}
+              {isLoadingHotels ? 'Finding hotels...' : 'Review Trip →'}
             </button>
           </div>
         </div>

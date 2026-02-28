@@ -16,10 +16,11 @@ export async function GET(
     }
 
     return NextResponse.json({ booking });
-  } catch (error: any) {
-    console.error('Get booking error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Get booking error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to get booking' },
+      { error: 'Failed to get booking', details: message },
       { status: 500 }
     );
   }
@@ -46,10 +47,11 @@ export async function DELETE(
     await updateBookingStatus(booking.provider_booking_id, 'cancelled');
 
     return NextResponse.json({ success: true });
-  } catch (error: any) {
-    console.error('Cancel booking error:', error);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Cancel booking error:', message);
     return NextResponse.json(
-      { error: error.message || 'Failed to cancel booking' },
+      { error: 'Failed to cancel booking', details: message },
       { status: 500 }
     );
   }

@@ -80,7 +80,7 @@ export function DiscoverDetailModal({ tile, onClose, onExplore }: DiscoverDetail
 
       {/* Modal */}
       <div className="relative min-h-screen flex items-end sm:items-center justify-center p-0 sm:p-4">
-        <div className="relative bg-white w-full sm:max-w-2xl sm:rounded-2xl shadow-xl max-h-[90vh] overflow-y-auto">
+        <div className="relative bg-white w-full sm:max-w-2xl sm:rounded-2xl shadow-xl max-h-[85vh] sm:max-h-[90vh] overflow-y-auto pb-safe">
 
           {/* Close button */}
           <button

@@ -68,7 +68,7 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
     ? Math.min(15, Math.max(5, zoneRadiusKm * 1.5))
     : 15;
 
-  console.log(`[LiteAPI] Searching with radius ${searchRadiusKm}km (zone: ${zoneRadiusKm || 'n/a'}km)`);
+  // Debug: radius ${searchRadiusKm}km, zone: ${zoneRadiusKm || 'n/a'}km
 
   const { hotels } = await searchHotelsByLocation(latitude, longitude, {
     radius: searchRadiusKm,
@@ -76,7 +76,7 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
   });
 
   if (hotels.length === 0) {
-    console.log('No hotels found in location');
+    // No hotels found in location
     return [];
   }
 
@@ -102,7 +102,7 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
 
   if (starFiltered.length === 0) {
     // Fallback: use top-rated hotels if star filter is too strict
-    console.log('Star filter too strict, using closest hotels by distance');
+    // Star filter too strict, falling back to closest hotels by distance
   }
 
   const filteredHotels = starFiltered.length > 0 ? starFiltered : hotelsWithDistance;
@@ -114,7 +114,7 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
 
   if (USE_MOCK_RATES) {
     // Generate mock rates based on hotel stars and location
-    console.log('[LiteAPI] Using mock rates for', hotelsToProcess.length, 'hotels');
+    // Using mock rates for hotelsToProcess.length hotels
 
     for (const hotel of hotelsToProcess) {
       // Get hotel details for amenities and photos
@@ -167,7 +167,7 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
     let ratesData;
     try {
       ratesData = await getHotelRates(hotelIds, checkin, checkout, occupancies);
-      console.log('[LiteAPI] Rates response:', JSON.stringify(ratesData, null, 2).slice(0, 1000));
+      // Rates response received
     } catch (error) {
       console.error('Failed to get hotel rates:', error);
       return [];
@@ -175,7 +175,7 @@ export async function searchHotelsForTrip(params: SearchHotelsParams): Promise<H
 
     const ratesArray = Array.isArray(ratesData?.data) ? ratesData.data : [];
     if (ratesArray.length === 0) {
-      console.log('[LiteAPI] No rates available for these hotels/dates');
+      // No rates available for these hotels/dates
       return [];
     }
 

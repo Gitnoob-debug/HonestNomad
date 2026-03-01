@@ -240,40 +240,38 @@ export function findAlternatives(params: {
     }
   }
 
-  // ── 3. Similar Vibe — different region, high vibe overlap (inspiration) ──
-  {
+  // ── 3. Fallback: if we still have fewer than 2 tiles, fill with Similar Vibe ──
+  if (tiles.length < 2) {
+    const getDailyCostTotal = (d: Destination): number | null =>
+      d.dailyCosts
+        ? d.dailyCosts.foodPerDay + d.dailyCosts.activitiesPerDay + d.dailyCosts.transportPerDay
+        : null;
+
     const vibePool = candidates.filter(d =>
-      d.region !== matchedRegion &&
-      vibeOverlap(d.vibes as string[], matchedVibes) >= 2 &&
+      vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
       !selected.has(d.id),
     );
 
     // Sort by vibe overlap desc, then seasonal fit
-    const dateStr2 = currentMonthDateString();
     vibePool.sort((a, b) => {
       const vibeA = vibeOverlapRatio(a.vibes as string[], matchedVibes);
       const vibeB = vibeOverlapRatio(b.vibes as string[], matchedVibes);
       if (vibeB !== vibeA) return vibeB - vibeA;
-      // Tiebreak: prefer destinations currently in season
-      return scoreSeasonalFit(b, dateStr2) - scoreSeasonalFit(a, dateStr2);
+      return scoreSeasonalFit(b, dateStr) - scoreSeasonalFit(a, dateStr);
     });
 
-    const similarVibe = vibePool[0];
-    if (similarVibe) {
-      selected.add(similarVibe.id);
-      const getDailyCostTotal = (d: Destination): number | null =>
-        d.dailyCosts
-          ? d.dailyCosts.foodPerDay + d.dailyCosts.activitiesPerDay + d.dailyCosts.transportPerDay
-          : null;
+    const fill = vibePool[0];
+    if (fill) {
+      selected.add(fill.id);
       tiles.push({
         role: 'similar_vibe',
         label: 'Similar Vibe',
-        destination: toMatchedDestination(similarVibe),
-        reasoning: `${describeSharedVibes(similarVibe.vibes as string[], matchedVibes)} in ${similarVibe.region.replace('_', ' ')}`,
-        averageCost: similarVibe.averageCost,
-        dailyCostPerPerson: getDailyCostTotal(similarVibe) ?? undefined,
+        destination: toMatchedDestination(fill),
+        reasoning: describeSharedVibes(fill.vibes as string[], matchedVibes),
+        averageCost: fill.averageCost,
+        dailyCostPerPerson: getDailyCostTotal(fill) ?? undefined,
         travelTimeCategory: userAirportCode
-          ? getTravelTimeCategory(userAirportCode, similarVibe)
+          ? getTravelTimeCategory(userAirportCode, fill)
           : undefined,
       });
     }

@@ -3,12 +3,14 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { HotelOption } from '@/lib/liteapi/types';
 import { BlurUpImage } from '@/components/ui/BlurUpImage';
+import { formatTravelTime } from '@/lib/hotels/formatTravelTime';
 
 // ── HotelTile ──────────────────────────────────────────────────────
-// Immersive hotel card matching the DestinationTile aesthetic:
+// Immersive hotel card with conversion-optimized layout:
 // - Multi-image carousel (tap left/right edges, swipe, progress bars)
-// - "Select" button to proceed to checkout (separate from carousel)
-// - Full-bleed image, gradient overlay, role badge, price, rating
+// - "Recommended" treatment for pre-selected hotel (walk-time hero, glow ring)
+// - Walk-time to landmark as hero metric (our unique value prop)
+// - Differentiated CTAs: "Book this hotel" vs "Select"
 
 export type HotelTileRole = 'closest' | 'budget' | 'high_end';
 
@@ -19,6 +21,7 @@ interface HotelTileProps {
   landmarkLat: number;
   landmarkLng: number;
   onSelect: (hotel: HotelOption) => void;
+  isRecommended?: boolean;
 }
 
 const ROLE_BADGE_STYLES: Record<HotelTileRole, string> = {
@@ -33,17 +36,11 @@ const ROLE_ICONS: Record<HotelTileRole, string> = {
   high_end: '✨',
 };
 
-function formatDistance(meters: number | undefined): string {
-  if (!meters) return '';
-  if (meters < 1000) return `${Math.round(meters)}m away`;
-  return `${(meters / 1000).toFixed(1)}km away`;
-}
-
 function renderStars(stars: number): string {
   return '★'.repeat(Math.min(stars, 5));
 }
 
-export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSelect }: HotelTileProps) {
+export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSelect, isRecommended = false }: HotelTileProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
 
@@ -53,6 +50,9 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
   const fallbackImg = hotel.mainPhoto || '';
   const totalImages = imageUrls.length;
   const hasCarousel = totalImages > 1;
+
+  // Travel time from landmark
+  const travelTime = formatTravelTime(hotel.distanceFromZoneCenter);
 
   // Preload next 2 images
   useEffect(() => {
@@ -68,7 +68,7 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
 
   // ── Carousel navigation (tap edges or swipe) ────────────────
   const handleImageClick = useCallback((e: React.MouseEvent) => {
-    if (!hasCarousel) return; // No carousel, do nothing on image click
+    if (!hasCarousel) return;
 
     const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
     const x = e.clientX - rect.left;
@@ -81,7 +81,6 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
       e.stopPropagation();
       setCurrentIndex(prev => prev + 1);
     }
-    // Center area does nothing — user clicks the Select button instead
   }, [hasCarousel, currentIndex, totalImages]);
 
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
@@ -106,10 +105,12 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
     }
   }, [hasCarousel, currentIndex, totalImages]);
 
-  const distanceText = formatDistance(hotel.distanceFromZoneCenter);
-
   return (
-    <div className="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all text-left w-full h-72 sm:h-80">
+    <div className={`group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all text-left w-full ${
+      isRecommended
+        ? 'h-80 sm:h-full ring-2 ring-primary-400/60 shadow-lg shadow-primary-500/20'
+        : 'h-72 sm:h-80'
+    }`}>
       {/* Image area — tap edges to browse carousel */}
       <div
         onClick={handleImageClick}
@@ -146,11 +147,17 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
         </div>
       )}
 
-      {/* Role badge (top left) */}
+      {/* Badge (top left) — Recommended vs Role */}
       <div className={`absolute ${hasCarousel ? 'top-4' : 'top-2'} left-2 z-10 pointer-events-none`}>
-        <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${ROLE_BADGE_STYLES[role]}`}>
-          {ROLE_ICONS[role]} {label}
-        </span>
+        {isRecommended ? (
+          <span className="px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-primary-600 text-white shadow-lg">
+            ⭐ Recommended
+          </span>
+        ) : (
+          <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${ROLE_BADGE_STYLES[role]}`}>
+            {ROLE_ICONS[role]} {label}
+          </span>
+        )}
       </div>
 
       {/* Price badge (top right) */}
@@ -177,19 +184,30 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
           )}
         </div>
 
-        {/* Hotel name */}
-        <h3 className="text-lg font-bold text-white leading-tight drop-shadow-lg truncate">
-          {hotel.name}
-        </h3>
-
-        {/* Distance */}
-        {distanceText && (
-          <p className="text-white/70 text-xs drop-shadow mt-0.5">
-            {distanceText}
+        {/* RECOMMENDED: Walk-time hero ABOVE hotel name */}
+        {isRecommended && travelTime && (
+          <p className="text-white text-base font-bold drop-shadow-lg mb-0.5">
+            {travelTime.emoji} {travelTime.label}
           </p>
         )}
 
-        {/* Amenities + Select button row */}
+        {/* Hotel name */}
+        <h3 className={`font-bold text-white leading-tight drop-shadow-lg truncate ${
+          isRecommended ? 'text-xl' : 'text-lg'
+        }`}>
+          {hotel.name}
+        </h3>
+
+        {/* ALTERNATIVE: Walk-time below name, smaller */}
+        {!isRecommended && travelTime && (
+          <p className={`text-xs drop-shadow mt-0.5 ${
+            travelTime.mode === 'walk' ? 'text-green-300' : 'text-white/70'
+          }`}>
+            {travelTime.emoji} {travelTime.label}
+          </p>
+        )}
+
+        {/* Amenities + CTA row */}
         <div className="flex items-end justify-between mt-1.5">
           <div className="flex flex-wrap gap-1 flex-1 min-w-0">
             {hotel.amenities.slice(0, 3).map((amenity, i) => (
@@ -202,15 +220,19 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
             ))}
           </div>
 
-          {/* Select button — explicit action to proceed */}
+          {/* Differentiated CTA */}
           <button
             onClick={(e) => {
               e.stopPropagation();
               onSelect(hotel);
             }}
-            className="ml-2 px-3 py-1.5 bg-white text-gray-900 text-xs font-semibold rounded-lg hover:bg-white/90 transition-colors shadow-lg flex-shrink-0"
+            className={`ml-2 px-3 py-1.5 text-xs font-semibold rounded-lg shadow-lg flex-shrink-0 transition-colors ${
+              isRecommended
+                ? 'bg-primary-600 text-white hover:bg-primary-700'
+                : 'bg-white text-gray-900 hover:bg-white/90'
+            }`}
           >
-            Select
+            {isRecommended ? 'Book this hotel' : 'Select'}
           </button>
         </div>
       </div>

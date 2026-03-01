@@ -551,12 +551,12 @@ export async function searchHotelsForDiscoverFlow(
   const hotelsToProcess = hotelsWithDistance.slice(0, 20);
 
   // Build hotel options with mock or real rates
+  // FAST PATH: Build all hotels from search data only (no getHotelDetails calls).
+  // Photos/amenities from details are fetched separately for featured hotels only.
   const hotelOptions: HotelOption[] = [];
 
   if (USE_MOCK_RATES) {
     for (const hotel of hotelsToProcess) {
-      const details = await getHotelDetails(hotel.id);
-
       const basePrice = getBasePriceForStars(hotel.stars);
       const pricePerNight = basePrice + Math.floor(Math.random() * 50) - 25;
       const totalPrice = pricePerNight * nights;
@@ -565,18 +565,18 @@ export async function searchHotelsForDiscoverFlow(
       hotelOptions.push({
         id: hotel.id,
         name: hotel.name,
-        description: hotel.hotelDescription || details?.hotelDescription || '',
+        description: hotel.hotelDescription || '',
         stars: hotel.stars,
         rating: hotel.rating || 4.0,
         reviewCount: hotel.reviewCount || Math.floor(Math.random() * 500) + 50,
         address: hotel.address || '',
         latitude: hotel.latitude,
         longitude: hotel.longitude,
-        mainPhoto: hotel.main_photo || hotel.thumbnail || details?.hotelImages?.[0]?.url || '',
-        photos: details?.hotelImages?.slice(0, 10).map(img => img.url) || [],
-        amenities: details?.hotelFacilities?.slice(0, 15) || ['WiFi', 'Air Conditioning', 'Room Service'],
-        checkinTime: details?.checkinCheckoutTimes?.checkin || '3:00 PM',
-        checkoutTime: details?.checkinCheckoutTimes?.checkout || '11:00 AM',
+        mainPhoto: hotel.main_photo || hotel.thumbnail || '',
+        photos: [], // Populated later for featured hotels
+        amenities: [], // Populated later for featured hotels
+        checkinTime: '3:00 PM',
+        checkoutTime: '11:00 AM',
         totalPrice,
         pricePerNight,
         currency: 'USD',

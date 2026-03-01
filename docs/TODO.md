@@ -1,6 +1,6 @@
 # HonestNomad - Development TODO
 
-> Last updated: February 27, 2026
+> Last updated: March 1, 2026
 
 ## Legend
 - ✅ Done
@@ -16,7 +16,6 @@
 - ✅ **500 curated destinations** with 85k+ POIs, daily cost data, travel time matrix
 - ✅ **Discover feature** (primary entry) — photo upload, URL paste, Claude Vision identification, confidence scoring, 3-tile alternatives, detail modals
 - ✅ **Flash Vacation flow** (secondary entry) — swipe cards, explore map, hotel search, booking confirmation
-- ✅ **Discover → Explore handoff** — smart date defaults, traveler type, budget signal passthrough
 - ✅ **Explore page** — vibe selection, POI map with zone clustering, interactive day planner, left sidebar
 - ✅ **Package/Confirm page** — Trip Intelligence, day cards, walking routes, AI Travel Prep
 - ✅ **LiteAPI hotel search** — sandbox integration, scoring/ranking (mock pricing active)
@@ -35,11 +34,35 @@
 - ✅ IP geolocation for proximity ranking
 - ✅ Daily cost data for 495 destinations
 
+### Simplified Discover → Hotel → Checkout Flow (March 2026)
+- ✅ **3-click booking path** — Photo → destination tiles → hotel tiles → checkout (bypasses Flash/Explore)
+- ✅ **Discover hotel search** — Separate `/api/hotels/discover-search` endpoint with GPS-based radius expansion (5km → 15km → 50km → city-wide)
+- ✅ **Hotel categorization** — Closest (haversine), Budget (cheapest 3★+), High-End (highest stars/price)
+- ✅ **Parallel photo enrichment** — `getHotelDetails` for all ~20 hotels via `Promise.all` (was sequential, too slow)
+- ✅ **Walk-time hero metric** — "🚶 4 min walk to your spot" — converts distance to walk/drive time (pure math)
+- ✅ **Smart pre-selection** — Recommended tile (Closest) gets 2/3 width, glow ring, "⭐ Recommended" badge, "Book this hotel" CTA
+- ✅ **Featured tiles always pinned** — expanded list appears below, never replaces the top 3 picks
+- ✅ **Clickable hotel cards** — entire card selects (goes to checkout), no separate button needed
+- ✅ **Expanded list + map** — filters (price, stars), Mapbox map with landmark + hotel pins, list/map toggle
+- ✅ **Checkout page** — booking summary with hotel hero, pricing breakdown, placeholder payment
+- ✅ **Landmark GPS fix** — photo's GPS used for best match only; alternative tiles use destination's own coords
+- ✅ **Country code fix** — passes ISO code ("JM") not full name ("Jamaica") to LiteAPI
+- ✅ **Editable search controls** — date pickers + guest stepper, re-searches on update
+- ✅ **Flash/Explore flow PARKED** — untouched, still accessible via `/flash`
+
 ---
 
-## Current Focus: Demo Polish
+## Current Focus: Conversion & Polish
 
-### Discover UX
+### Discover → Book Flow (Active)
+- ✅ Simplified 3-click flow built and deployed
+- ✅ Walk-time hero metric + smart pre-selection
+- ✅ Clickable cards + pinned featured tiles
+- [ ] **Urgency/social proof** — Show cancellation policy, rate expiry, refundable badge prominently (data already available in `HotelOption`)
+- [ ] **Mobile polish pass** — Verify hotel tiles, expanded list, checkout on mobile breakpoints
+- [ ] **Error states** — Better handling when no hotels found, API timeout, rate expiry
+
+### Discover Pipeline
 - [ ] **YouTube Data API v3 key** — Unblocks video description/tag extraction for multi-location. Free, ~2 min setup. ⏸️ Needs API key
 - [ ] **Instagram oEmbed** — Needs Meta developer app token. Free, ~15 min setup. ⏸️ Needs token
 - [ ] **Video content analysis gap** — Pipeline only sees metadata/thumbnail, not actual video. CapCut overlays, destination footage, TikTok location tags all missed. Longer-term problem.

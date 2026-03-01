@@ -1,7 +1,7 @@
 # HonestNomad - Memory
 
 > Context file for AI assistants. Read this first to understand the project.
-> Last updated: February 27, 2026
+> Last updated: March 1, 2026
 
 ---
 
@@ -34,14 +34,25 @@ HonestNomad is an AI-powered travel planning app. Users discover destinations th
 ## Current User Flow
 
 ```
-PRIMARY: Discover Page → Upload photo / Paste URL → Identify location
-  → 3 tiles (Best Match + Closer + Budget) → Click "Explore [City]"
-  → selectDestination() builds trip package + smart dates → sessionStorage
-  → /flash/explore (vibe selection → POI map → hotel search → confirm)
+PRIMARY (Discover → Book in 3 clicks):
+  Upload photo / Paste URL → Identify location → 3 destination tiles
+  → Click one → /discover/hotels (3 featured hotel tiles + "See more")
+  → Click hotel → /discover/checkout (booking summary + payment placeholder)
 
-SECONDARY: Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
+SECONDARY (Flash/Explore — PARKED, untouched):
+  Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
   → Swipe 16 Cities → Explore POIs on Map → Hotels → Review → Adventure Package
 ```
+
+### Discover Hotel Selection (conversion-optimized)
+- **Recommended tile** (Closest to photo's GPS) — 2/3 width, glow ring, "⭐ Recommended" badge
+- **Walk-time hero metric** — "🚶 4 min walk to your spot" above hotel name (unique value prop)
+- **CTA differentiation** — "Book this hotel" on recommended vs "Select" on alternatives
+- **Alternative tiles** — Budget (Best Value) + High-End (Premium Pick) stacked in right column
+- **"See more"** — expands full list + map BELOW the featured tiles (tiles always pinned)
+- **Clickable cards** — whole card selects hotel (goes to checkout), no separate button needed
+- **Filters** — price range, star rating (client-side, no extra API calls)
+- **Mapbox map** — landmark pin (red) + hotel pins (blue), click to select
 
 ---
 
@@ -62,15 +73,28 @@ SECONDARY: Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
 - Destination matching against 494 curated destinations (exact, substring, haversine 80km)
 - **Confidence scoring** — 5-signal weighted formula → 3 user-facing tiers: green/amber/red
 - **Alternative destination tiles** — 3-tile grid: Best Match + Closer to You + Budget-Friendly. IP geolocation with haversine distance for proximity. Immersive Flash-card-style tiles with image carousels, tap zones, swipe gestures, vibe pills
-- **Detail modal** — Tap tile → hero carousel, tagline, pitch, vibes, highlights, cost card, "Explore [City]" CTA
+- **Detail modal** — Tap tile → hero carousel, tagline, pitch, vibes, highlights, cost card
 - **Multi-location consistency** — Picking from multi-location grid shows same immersive tiles
 - **Trending fallback** — No match → 3 trending destinations scored by seasonal fit, popularity, reachability
 
-### Discover → Explore Handoff
-- `selectDestination()` builds full `FlashTripPackage` with smart dates based on distance
+### Discover → Hotel Selection (`/discover/hotels`)
+- `selectDestination()` stores landmark coords + smart dates in sessionStorage
+- Redirects to `/discover/hotels` (NOT `/flash/explore`)
 - Distance-based defaults: short-haul = this weekend/3 nights, long-haul = 5 weeks out/7 nights
-- Traveler type defaults to 'couple'. Budget-Friendly tile passes budget signal to hotel search
-- Full sessionStorage contract bridges Discover → Explore seamlessly
+- **Separate API endpoint** (`/api/hotels/discover-search`) with radius expansion: 5km → 15km → 50km → city-wide fallback
+- **Parallel photo enrichment** — `getHotelDetails` called for all ~20 hotels in parallel (not sequential)
+- **Hotel categorization** — `categorizeHotels()`: Closest (haversine), Budget (cheapest 3★+), High-End (highest stars/price)
+- **Walk-time conversion** — `formatTravelTime()`: meters → "X min walk" (≤20min) or "X min drive" (>20min), pure math
+- **Pre-selected recommended tile** — Closest hotel gets 2/3 width, glow ring, walk-time hero headline
+- **Featured tiles always pinned** — expanded list appears below, not instead of
+- **Clickable cards** — entire card is the action, no separate "Select" button needed
+- **Editable search controls** — dates + guests, triggers re-search on update
+- **Landmark GPS vs city GPS** — uses photo's actual GPS for best match tile, destination's coords for alternatives
+
+### Discover → Checkout (`/discover/checkout`)
+- Reads selected hotel + trip details from sessionStorage
+- Booking summary with hotel hero, pricing breakdown, cancellation badge
+- "Checkout" button shows "Booking Coming Soon!" placeholder modal (NUITEE_PAY integration pending)
 
 ### Flash Vacation Flow (Secondary)
 - Swipe cards for 16 cities
@@ -112,10 +136,21 @@ SECONDARY: Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
 ### Discover Feature
 | File | Purpose |
 |------|---------|
-| `app/discover/page.tsx` | Discover UI — photo upload, URL input, results, tiles, detail modal |
-| `components/discover/DestinationTile.tsx` | Immersive tile with image carousel, tap zones, vibes |
+| `app/discover/page.tsx` | Discover UI — photo upload, URL input, results, destination tiles, detail modal |
+| `app/discover/hotels/page.tsx` | Hotel selection page — featured tiles + expanded list/map |
+| `app/discover/checkout/page.tsx` | Booking summary + checkout placeholder |
+| `app/api/hotels/discover-search/route.ts` | POST endpoint — search + categorize + enrich hotels (parallel) |
+| `components/discover/DestinationTile.tsx` | Immersive destination tile with image carousel, tap zones, vibes |
+| `components/discover/HotelTile.tsx` | Immersive hotel tile — carousel, walk-time hero, recommended treatment |
+| `components/discover/HotelTileGrid.tsx` | Featured layout — recommended (col-span-2) + stacked alternatives |
+| `components/discover/HotelExpandedList.tsx` | Full hotel list + filters + map toggle, clickable cards |
+| `components/discover/HotelMapView.tsx` | Mapbox map — landmark pin + hotel pins, click to select |
+| `components/discover/SearchControls.tsx` | Editable date pickers + guest stepper |
+| `components/discover/BookingSummary.tsx` | Checkout page — hotel hero, pricing, cancellation, CTA |
 | `components/discover/DiscoverDetailModal.tsx` | Full detail modal — carousel, pitch, highlights, cost, CTA |
 | `components/discover/ConfidenceBadge.tsx` | Green/amber/red confidence pill |
+| `lib/hotels/categorize.ts` | Pick 3 featured hotels: Closest, Budget, High-End |
+| `lib/hotels/formatTravelTime.ts` | Convert meters → walk/drive time (pure math, no API) |
 | `lib/location/resolver.ts` | Backend pipeline — metadata extraction, Claude analysis, geocoding, matching |
 | `lib/location/confidenceScoring.ts` | 5-signal weighted confidence formula → 3 tiers |
 | `lib/location/ipGeolocation.ts` | IP-based user location (ip-api.com + ipapi.co fallback) |
@@ -138,10 +173,13 @@ SECONDARY: Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
 ### Hotel / Booking
 | File | Purpose |
 |------|---------|
-| `app/api/hotels/search/route.ts` | Hotel search API (uses mock rates currently) |
+| `app/api/hotels/search/route.ts` | Hotel search API for Flash flow (uses mock rates currently) |
+| `app/api/hotels/discover-search/route.ts` | Hotel search API for Discover flow — radius expansion + parallel enrichment |
 | `lib/liteapi/client.ts` | LiteAPI client — search, details, rates, reviews |
-| `lib/liteapi/hotels.ts` | Hotel search logic, scoring, `USE_MOCK_RATES` flag |
+| `lib/liteapi/hotels.ts` | Hotel search logic, scoring, `USE_MOCK_RATES` flag, `searchHotelsForDiscoverFlow()` |
 | `lib/liteapi/types.ts` | Full LiteAPI TypeScript types |
+| `lib/hotels/categorize.ts` | Categorize hotels: Closest (haversine), Budget (cheapest 3★+), High-End |
+| `lib/hotels/formatTravelTime.ts` | Distance → walk/drive time string (80m/min walk, 500m/min drive) |
 | `app/api/book/route.ts` | Booking endpoint — **STUB**, returns placeholder IDs |
 | `components/booking/GuestForm.tsx` | Guest form — **fake tokenizer**, placeholder payment |
 
@@ -172,8 +210,19 @@ The pipeline only sees metadata (caption, thumbnail), NOT actual video content:
 
 ---
 
-## SessionStorage Contract (Explore Page)
+## SessionStorage Contract
 
+### Discover Flow (primary)
+| Key | Set by | Read by | Shape |
+|-----|--------|---------|-------|
+| `discover_destination` | selectDestination | hotels page, checkout | `MatchedDestination` |
+| `discover_landmark_coords` | selectDestination | hotels page | `{ lat: number, lng: number }` |
+| `discover_checkin` | selectDestination, SearchControls | hotels page, checkout | `string (YYYY-MM-DD)` |
+| `discover_checkout` | selectDestination, SearchControls | hotels page, checkout | `string (YYYY-MM-DD)` |
+| `discover_guests` | selectDestination, SearchControls | hotels page, checkout | `{ adults: number, children: number[] }` |
+| `discover_selected_hotel` | hotels page | checkout page | `HotelOption` (full object) |
+
+### Flash/Explore Flow (secondary, parked)
 | Key | Set by | Read by | Shape |
 |-----|--------|---------|-------|
 | `flash_selected_trip` | selectDestination, swipe flow | explore page | `FlashTripPackage` |
@@ -182,7 +231,6 @@ The pipeline only sees metadata (caption, thumbnail), NOT actual video content:
 | `flash_origin_airport` | FlashPlanInput (IP geolocation) | selectDestination | `AirportInfo { code, name, lat, lng }` |
 | `flash_traveler_type` | FlashPlanInput, selectDestination | explore page | `'solo' \| 'couple' \| 'family'` |
 | `flash_budget_tier` | selectDestination (Budget-Friendly tile) | explore page | `'budget'` or absent |
-| `discover_destination` | selectDestination | (legacy, backwards compat) | `MatchedDestination` |
 
 ---
 

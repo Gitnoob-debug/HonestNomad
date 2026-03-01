@@ -74,10 +74,13 @@ export function HotelExpandedList({
             {filteredHotels.length} hotels available
           </h3>
           <button
-            onClick={onClose}
+            onClick={() => {
+              // Scroll back up to the featured tiles
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
             className="text-sm text-primary-600 hover:text-primary-700 font-medium"
           >
-            Show top 3
+            ↑ Top picks
           </button>
         </div>
 
@@ -197,7 +200,10 @@ function HotelListCard({ hotel, index, isSelected = false, onSelect, onClick }: 
   return (
     <div
       id={`hotel-card-${hotel.id}`}
-      onClick={onClick}
+      onClick={() => {
+        if (onClick) onClick();
+        onSelect();
+      }}
       className={`bg-white rounded-xl border overflow-hidden cursor-pointer transition-all hover:shadow-md ${
         isSelected ? 'border-primary-400 ring-2 ring-primary-100 shadow-md' : 'border-gray-200'
       }`}
@@ -246,15 +252,9 @@ function HotelListCard({ hotel, index, isSelected = false, onSelect, onClick }: 
           <span className="text-xs text-gray-500">
             {formatDistance(hotel.distanceFromZoneCenter)} from spot
           </span>
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              onSelect();
-            }}
-            className="px-3 py-1 bg-primary-600 text-white text-xs font-medium rounded-lg hover:bg-primary-700 transition-colors"
-          >
-            Select
-          </button>
+          <span className="text-xs text-primary-600 font-medium">
+            Book &rarr;
+          </span>
         </div>
       </div>
     </div>

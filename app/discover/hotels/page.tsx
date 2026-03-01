@@ -226,8 +226,8 @@ export default function DiscoverHotelsPage() {
               </div>
             )}
 
-            {/* Featured 3 tiles */}
-            {searchState.featured && !showExpanded && (
+            {/* Featured 3 tiles — always visible when available */}
+            {searchState.featured && (
               <>
                 <HotelTileGrid
                   featured={searchState.featured}
@@ -236,15 +236,24 @@ export default function DiscoverHotelsPage() {
                   onSelectHotel={handleSelectHotel}
                 />
 
-                {/* See more button */}
+                {/* See more / collapse toggle */}
                 {searchState.hotels.length > 3 && (
                   <div className="text-center mt-6">
                     <button
-                      onClick={() => setShowExpanded(true)}
+                      onClick={() => setShowExpanded(!showExpanded)}
                       className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-primary-600 bg-primary-50 hover:bg-primary-100 rounded-xl transition-colors"
                     >
-                      See all {searchState.hotels.length} hotels
-                      <span className="text-xs">&darr;</span>
+                      {showExpanded ? (
+                        <>
+                          Hide full list
+                          <span className="text-xs">&uarr;</span>
+                        </>
+                      ) : (
+                        <>
+                          See all {searchState.hotels.length} hotels
+                          <span className="text-xs">&darr;</span>
+                        </>
+                      )}
                     </button>
                   </div>
                 )}
@@ -262,8 +271,8 @@ export default function DiscoverHotelsPage() {
               />
             )}
 
-            {/* Expanded view */}
-            {showExpanded && (
+            {/* Expanded list — appears BELOW the featured tiles */}
+            {showExpanded && searchState.featured && (
               <HotelExpandedList
                 hotels={searchState.hotels}
                 landmarkLat={landmarkCoords?.lat || 0}

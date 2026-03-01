@@ -9,6 +9,7 @@ interface SearchControlsProps {
   children: number[];
   onUpdate: (params: { checkin: string; checkout: string; adults: number; children: number[] }) => void;
   isLoading: boolean;
+  layout?: 'horizontal' | 'vertical';
 }
 
 export function SearchControls({
@@ -18,6 +19,7 @@ export function SearchControls({
   children,
   onUpdate,
   isLoading,
+  layout = 'horizontal',
 }: SearchControlsProps) {
   const [localCheckin, setLocalCheckin] = useState(checkin);
   const [localCheckout, setLocalCheckout] = useState(checkout);
@@ -68,12 +70,14 @@ export function SearchControls({
 
   const totalGuests = localAdults + localChildren.length;
 
+  const isVertical = layout === 'vertical';
+
   return (
-    <div className="bg-white rounded-xl border border-gray-200 p-3 sm:p-4 shadow-sm">
-      <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+    <div className={`bg-white rounded-xl border border-gray-200 shadow-sm ${isVertical ? 'p-3' : 'p-3 sm:p-4'}`}>
+      <div className={isVertical ? 'space-y-3' : 'flex flex-col sm:flex-row sm:items-center gap-3'}>
         {/* Date controls */}
-        <div className="flex items-center gap-2 flex-1">
-          <div className="flex-1">
+        <div className={isVertical ? 'space-y-2' : 'flex items-center gap-2 flex-1'}>
+          <div className={isVertical ? '' : 'flex-1'}>
             <label className="block text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
               Check-in
             </label>
@@ -86,12 +90,14 @@ export function SearchControls({
             />
           </div>
 
-          <div className="flex flex-col items-center pt-4">
-            <span className="text-gray-400 text-xs">{nights}n</span>
-            <div className="w-4 h-px bg-gray-300" />
-          </div>
+          {!isVertical && (
+            <div className="flex flex-col items-center pt-4">
+              <span className="text-gray-400 text-xs">{nights}n</span>
+              <div className="w-4 h-px bg-gray-300" />
+            </div>
+          )}
 
-          <div className="flex-1">
+          <div className={isVertical ? '' : 'flex-1'}>
             <label className="block text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
               Check-out
             </label>
@@ -103,13 +109,17 @@ export function SearchControls({
               className="w-full text-sm font-medium text-gray-800 border border-gray-200 rounded-lg px-2.5 py-1.5 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none"
             />
           </div>
+
+          {isVertical && (
+            <p className="text-xs text-gray-400 text-center">{nights} {nights === 1 ? 'night' : 'nights'}</p>
+          )}
         </div>
 
-        {/* Divider */}
-        <div className="hidden sm:block w-px h-10 bg-gray-200" />
+        {/* Divider (horizontal layout only) */}
+        {!isVertical && <div className="hidden sm:block w-px h-10 bg-gray-200" />}
 
         {/* Guest controls */}
-        <div className="flex items-center gap-3">
+        <div className={isVertical ? '' : 'flex items-center gap-3'}>
           <div>
             <label className="block text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
               Guests
@@ -140,7 +150,9 @@ export function SearchControls({
             <button
               onClick={handleUpdate}
               disabled={isLoading}
-              className="px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors disabled:opacity-50 self-end"
+              className={`bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors disabled:opacity-50 ${
+                isVertical ? 'w-full py-2 mt-2' : 'px-4 py-2 self-end'
+              }`}
             >
               {isLoading ? 'Updating...' : 'Update'}
             </button>
@@ -148,10 +160,12 @@ export function SearchControls({
         </div>
       </div>
 
-      {/* Date summary line */}
-      <div className="mt-2 text-xs text-gray-500">
-        {formatDate(localCheckin)} &rarr; {formatDate(localCheckout)} &middot; {nights} {nights === 1 ? 'night' : 'nights'} &middot; {localAdults} {localAdults === 1 ? 'adult' : 'adults'}
-      </div>
+      {/* Date summary line (horizontal layout only) */}
+      {!isVertical && (
+        <div className="mt-2 text-xs text-gray-500">
+          {formatDate(localCheckin)} &rarr; {formatDate(localCheckout)} &middot; {nights} {nights === 1 ? 'night' : 'nights'} &middot; {localAdults} {localAdults === 1 ? 'adult' : 'adults'}
+        </div>
+      )}
     </div>
   );
 }

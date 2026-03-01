@@ -1,3 +1,9 @@
 export { DestinationTile } from './DestinationTile';
 export { DiscoverDetailModal } from './DiscoverDetailModal';
 export { ConfidenceBadge } from './ConfidenceBadge';
+export { HotelTile } from './HotelTile';
+export { HotelTileGrid } from './HotelTileGrid';
+export { HotelExpandedList } from './HotelExpandedList';
+export { HotelMapView } from './HotelMapView';
+export { SearchControls } from './SearchControls';
+export { BookingSummary } from './BookingSummary';

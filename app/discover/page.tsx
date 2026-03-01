@@ -201,7 +201,7 @@ export default function DiscoverPage() {
       tagline: dest.highlights?.[0] || `Explore ${dest.city}`,
     };
 
-    // Store everything the explore page expects
+    // Store everything the explore page expects (backward compatibility with Path 2)
     sessionStorage.setItem('flash_selected_trip', JSON.stringify(tripPackage));
     sessionStorage.setItem('flash_generate_params', JSON.stringify({
       departureDate: checkinDate,
@@ -214,8 +214,20 @@ export default function DiscoverPage() {
       },
     }));
 
-    router.push(`/flash/explore?destination=${encodeURIComponent(dest.id)}`);
-  }, [router]);
+    // ── Discover flow: store landmark coords + dates for hotel search ──
+    // Use the identified photo location (landmark-level GPS) if available,
+    // otherwise fall back to the destination city center coordinates.
+    const landmarkCoords = result?.location
+      ? { lat: result.location.lat, lng: result.location.lng }
+      : { lat: dest.latitude, lng: dest.longitude };
+    sessionStorage.setItem('discover_landmark_coords', JSON.stringify(landmarkCoords));
+    sessionStorage.setItem('discover_checkin', checkinDate);
+    sessionStorage.setItem('discover_checkout', checkoutDate);
+    sessionStorage.setItem('discover_guests', JSON.stringify({ adults: 2, children: [] }));
+
+    // Route to hotel selection (Discover flow)
+    router.push('/discover/hotels');
+  }, [router, result]);
 
   // ── Image upload handler ───────────────────────────────────────────
 

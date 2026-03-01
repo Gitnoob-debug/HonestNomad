@@ -3,6 +3,7 @@
 
 import {
   searchHotelsByLocation,
+  searchHotelsByCity,
   getHotelDetails,
   getHotelRates,
 } from './client';
@@ -429,6 +430,220 @@ function hasAmenity(hotelAmenities: string[], searchAmenity: string): boolean {
       hotelAmenity.toLowerCase().includes(term.toLowerCase())
     )
   );
+}
+
+// ── Discover Flow: Hotel search with radius expansion ────────────────
+
+export interface DiscoverSearchParams {
+  landmarkLat: number;
+  landmarkLng: number;
+  checkin: string;
+  checkout: string;
+  adults: number;
+  children: number[];
+  cityName?: string;
+  countryCode?: string;
+}
+
+export interface DiscoverSearchResult {
+  hotels: HotelOption[];
+  radiusUsed: number;       // km radius that yielded results
+  fallbackUsed: boolean;    // true if city-wide search was needed
+}
+
+/**
+ * Search hotels for the Discover flow with radius expansion.
+ * Tries 5km → 15km → city-wide in a single server-side cycle.
+ * Returns up to 20 scored HotelOption results.
+ */
+export async function searchHotelsForDiscoverFlow(
+  params: DiscoverSearchParams
+): Promise<DiscoverSearchResult> {
+  const { landmarkLat, landmarkLng, checkin, checkout, adults, children, cityName, countryCode } = params;
+  const nights = calculateNights(checkin, checkout);
+  const fetchLimit = 30; // Fetch many, return top 20
+
+  let rawHotels: LiteAPIHotel[] = [];
+  let radiusUsed = 5;
+  let fallbackUsed = false;
+
+  // Step 1: Try 5km radius
+  const result5 = await searchHotelsByLocation(landmarkLat, landmarkLng, {
+    radius: 5,
+    limit: fetchLimit,
+  });
+  rawHotels = result5.hotels;
+
+  // Step 2: If insufficient, try 15km
+  if (rawHotels.length < 5) {
+    const result15 = await searchHotelsByLocation(landmarkLat, landmarkLng, {
+      radius: 15,
+      limit: fetchLimit,
+    });
+    rawHotels = result15.hotels;
+    radiusUsed = 15;
+  }
+
+  // Step 3: If still insufficient, fall back to city-wide search
+  if (rawHotels.length < 5 && cityName && countryCode) {
+    const cityResult = await searchHotelsByCity(cityName, countryCode, fetchLimit);
+    rawHotels = cityResult.hotels;
+    radiusUsed = 0; // city-wide
+    fallbackUsed = true;
+  }
+
+  if (rawHotels.length === 0) {
+    return { hotels: [], radiusUsed, fallbackUsed };
+  }
+
+  // Calculate distance from landmark for each hotel
+  const hotelsWithDistance = rawHotels.map(h => {
+    const dLat = (h.latitude - landmarkLat) * 111320;
+    const dLng = (h.longitude - landmarkLng) * 111320 * Math.cos(((h.latitude + landmarkLat) / 2) * Math.PI / 180);
+    const distanceMeters = Math.sqrt(dLat * dLat + dLng * dLng);
+    return { ...h, distanceFromCenter: distanceMeters, insideZone: distanceMeters <= 5000 };
+  });
+
+  // Sort by distance
+  hotelsWithDistance.sort((a, b) => a.distanceFromCenter - b.distanceFromCenter);
+
+  // Take top 20 for processing
+  const hotelsToProcess = hotelsWithDistance.slice(0, 20);
+
+  // Build hotel options with mock or real rates
+  const hotelOptions: HotelOption[] = [];
+
+  if (USE_MOCK_RATES) {
+    for (const hotel of hotelsToProcess) {
+      const details = await getHotelDetails(hotel.id);
+
+      const basePrice = getBasePriceForStars(hotel.stars);
+      const pricePerNight = basePrice + Math.floor(Math.random() * 50) - 25;
+      const totalPrice = pricePerNight * nights;
+      const isRefundable = Math.random() > 0.3;
+
+      hotelOptions.push({
+        id: hotel.id,
+        name: hotel.name,
+        description: hotel.hotelDescription || details?.hotelDescription || '',
+        stars: hotel.stars,
+        rating: hotel.rating || 4.0,
+        reviewCount: hotel.reviewCount || Math.floor(Math.random() * 500) + 50,
+        address: hotel.address || '',
+        latitude: hotel.latitude,
+        longitude: hotel.longitude,
+        mainPhoto: hotel.main_photo || hotel.thumbnail || details?.hotelImages?.[0]?.url || '',
+        photos: details?.hotelImages?.slice(0, 10).map(img => img.url) || [],
+        amenities: details?.hotelFacilities?.slice(0, 15) || ['WiFi', 'Air Conditioning', 'Room Service'],
+        checkinTime: details?.checkinCheckoutTimes?.checkin || '3:00 PM',
+        checkoutTime: details?.checkinCheckoutTimes?.checkout || '11:00 AM',
+        totalPrice,
+        pricePerNight,
+        currency: 'USD',
+        taxesIncluded: true,
+        refundable: isRefundable,
+        boardType: Math.random() > 0.5 ? 'BB' : 'RO',
+        boardName: Math.random() > 0.5 ? 'Breakfast Included' : 'Room Only',
+        offerId: `mock_offer_${hotel.id}`,
+        rateId: `mock_rate_${hotel.id}`,
+        roomName: 'Standard Room',
+        roomDescription: 'Comfortable room with modern amenities',
+        expiresAt: Date.now() + (30 * 60 * 1000),
+        distanceFromZoneCenter: hotel.distanceFromCenter,
+        insideZone: hotel.insideZone,
+      });
+    }
+  } else {
+    // Real rates path
+    const hotelIds = hotelsToProcess.map(h => h.id);
+    const occupancies: LiteAPIOccupancy[] = [{
+      adults,
+      children: children.length > 0 ? children : undefined,
+    }];
+
+    try {
+      const ratesData = await getHotelRates(hotelIds, checkin, checkout, occupancies);
+      const ratesArray = Array.isArray(ratesData?.data) ? ratesData.data : [];
+
+      for (const hotelRates of ratesArray) {
+        const hotel = hotelsToProcess.find(h => h.id === hotelRates.hotelId);
+        if (!hotel || hotelRates.roomTypes.length === 0) continue;
+
+        // Find cheapest room type
+        let bestPrice = Infinity;
+        let bestRoom: any = null;
+
+        for (const roomType of hotelRates.roomTypes) {
+          const price = roomType.offerRetailRate?.amount || roomType.offerInitialPrice?.amount;
+          if (price && price < bestPrice) {
+            bestPrice = price;
+            const firstRate = roomType.rates[0];
+            bestRoom = {
+              price,
+              currency: roomType.offerRetailRate?.currency || 'USD',
+              refundable: firstRate?.cancellationPolicies?.refundableTag === 'RFN',
+              boardType: firstRate?.boardType || 'RO',
+              boardName: firstRate?.boardName || 'Room Only',
+              offerId: roomType.offerId,
+              rateId: firstRate?.rateId || '',
+              roomName: firstRate?.name || roomType.roomTypeId,
+            };
+          }
+        }
+
+        if (!bestRoom) continue;
+
+        const details = await getHotelDetails(hotel.id);
+
+        hotelOptions.push({
+          id: hotel.id,
+          name: hotel.name,
+          description: hotel.hotelDescription || '',
+          stars: hotel.stars,
+          rating: hotel.rating,
+          reviewCount: hotel.reviewCount,
+          address: hotel.address,
+          latitude: hotel.latitude,
+          longitude: hotel.longitude,
+          mainPhoto: hotel.main_photo || hotel.thumbnail,
+          photos: details?.hotelImages?.slice(0, 10).map(img => img.url) || [hotel.main_photo],
+          amenities: details?.hotelFacilities?.slice(0, 15) || [],
+          checkinTime: details?.checkinCheckoutTimes?.checkin || '3:00 PM',
+          checkoutTime: details?.checkinCheckoutTimes?.checkout || '11:00 AM',
+          totalPrice: bestRoom.price,
+          pricePerNight: Math.round(bestRoom.price / nights),
+          currency: bestRoom.currency,
+          taxesIncluded: true,
+          refundable: bestRoom.refundable,
+          boardType: bestRoom.boardType,
+          boardName: bestRoom.boardName,
+          offerId: bestRoom.offerId,
+          rateId: bestRoom.rateId,
+          roomName: bestRoom.roomName,
+          roomDescription: '',
+          expiresAt: Date.now() + (hotelRates.et * 1000),
+          distanceFromZoneCenter: hotel.distanceFromCenter,
+          insideZone: hotel.insideZone,
+        });
+      }
+    } catch (error) {
+      console.error('Failed to get hotel rates for discover flow:', error);
+      return { hotels: [], radiusUsed, fallbackUsed };
+    }
+  }
+
+  // Sort by a simple composite score: proximity + rating + stars
+  hotelOptions.sort((a, b) => {
+    const aScore = (a.rating || 0) + a.stars - ((a.distanceFromZoneCenter || 0) / 1000);
+    const bScore = (b.rating || 0) + b.stars - ((b.distanceFromZoneCenter || 0) / 1000);
+    return bScore - aScore;
+  });
+
+  return {
+    hotels: hotelOptions.slice(0, 20),
+    radiusUsed,
+    fallbackUsed,
+  };
 }
 
 export { AMENITY_MAPPINGS };

@@ -13,26 +13,52 @@ interface HotelExpandedListProps {
 }
 
 type ViewMode = 'list' | 'map';
-type StarFilter = 0 | 3 | 4 | 5; // 0 = all
-
-interface PriceRange {
-  min: number;
-  max: number;
-  label: string;
-}
-
-const PRICE_RANGES: PriceRange[] = [
-  { min: 0, max: Infinity, label: 'All prices' },
-  { min: 0, max: 100, label: 'Under $100' },
-  { min: 100, max: 200, label: '$100 - $200' },
-  { min: 200, max: 350, label: '$200 - $350' },
-  { min: 350, max: Infinity, label: '$350+' },
-];
+type SortOption = 'distance' | 'price_asc' | 'price_desc' | 'rating' | 'stars';
 
 function formatDistance(meters: number | undefined): string {
   if (!meters) return '';
   if (meters < 1000) return `${Math.round(meters)}m`;
   return `${(meters / 1000).toFixed(1)}km`;
+}
+
+/** Build dynamic price buckets from actual hotel data */
+function buildPriceRanges(hotels: HotelOption[]): { min: number; max: number; label: string }[] {
+  if (hotels.length === 0) return [{ min: 0, max: Infinity, label: 'All prices' }];
+
+  const prices = hotels.map(h => h.pricePerNight).sort((a, b) => a - b);
+  const minPrice = prices[0];
+  const maxPrice = prices[prices.length - 1];
+  const spread = maxPrice - minPrice;
+
+  // Always include "All prices"
+  const ranges: { min: number; max: number; label: string }[] = [
+    { min: 0, max: Infinity, label: 'All prices' },
+  ];
+
+  if (spread < 30) return ranges; // prices too similar, just show "All"
+
+  // Create 3 buckets: lower third, middle third, upper third
+  const third = Math.round(spread / 3);
+  const low = Math.round(minPrice + third);
+  const high = Math.round(minPrice + third * 2);
+
+  // Round to nearest $10 for cleaner labels
+  const lowRound = Math.round(low / 10) * 10;
+  const highRound = Math.round(high / 10) * 10;
+
+  ranges.push({ min: 0, max: lowRound, label: `Under $${lowRound}` });
+  ranges.push({ min: lowRound, max: highRound, label: `$${lowRound} – $${highRound}` });
+  ranges.push({ min: highRound, max: Infinity, label: `$${highRound}+` });
+
+  return ranges;
+}
+
+/** Get unique star levels present in hotels */
+function getStarOptions(hotels: HotelOption[]): number[] {
+  const stars = new Set(hotels.map(h => h.stars));
+  const sorted = Array.from(stars).sort((a, b) => a - b);
+  // Return unique levels >= 1 that make sense as "X+"
+  return sorted.filter(s => s >= 1);
 }
 
 export function HotelExpandedList({
@@ -43,41 +69,65 @@ export function HotelExpandedList({
   onClose,
 }: HotelExpandedListProps) {
   const [viewMode, setViewMode] = useState<ViewMode>('list');
-  const [starFilter, setStarFilter] = useState<StarFilter>(0);
+  const [starFilter, setStarFilter] = useState(0);
   const [priceRangeIdx, setPriceRangeIdx] = useState(0);
+  const [sortBy, setSortBy] = useState<SortOption>('distance');
   const [selectedMapHotelId, setSelectedMapHotelId] = useState<string | undefined>();
 
-  const priceRange = PRICE_RANGES[priceRangeIdx];
+  // Dynamic price ranges based on actual hotel data
+  const priceRanges = useMemo(() => buildPriceRanges(hotels), [hotels]);
+  const priceRange = priceRanges[priceRangeIdx] || priceRanges[0];
 
-  // Filter hotels
+  // Star options present in the data
+  const starOptions = useMemo(() => getStarOptions(hotels), [hotels]);
+
+  // Filter + sort hotels
   const filteredHotels = useMemo(() => {
-    return hotels.filter(h => {
+    let filtered = hotels.filter(h => {
       if (starFilter > 0 && h.stars < starFilter) return false;
       if (h.pricePerNight < priceRange.min || h.pricePerNight >= priceRange.max) return false;
       return true;
     });
-  }, [hotels, starFilter, priceRange]);
+
+    // Sort
+    filtered = [...filtered];
+    switch (sortBy) {
+      case 'distance':
+        filtered.sort((a, b) => (a.distanceFromZoneCenter ?? Infinity) - (b.distanceFromZoneCenter ?? Infinity));
+        break;
+      case 'price_asc':
+        filtered.sort((a, b) => a.pricePerNight - b.pricePerNight);
+        break;
+      case 'price_desc':
+        filtered.sort((a, b) => b.pricePerNight - a.pricePerNight);
+        break;
+      case 'rating':
+        filtered.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        break;
+      case 'stars':
+        filtered.sort((a, b) => b.stars - a.stars || (b.rating || 0) - (a.rating || 0));
+        break;
+    }
+
+    return filtered;
+  }, [hotels, starFilter, priceRange, sortBy]);
 
   const handleMapHotelClick = useCallback((hotelId: string) => {
     setSelectedMapHotelId(hotelId);
-    // Scroll the list card into view if in split view
     const el = document.getElementById(`hotel-card-${hotelId}`);
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }, []);
 
   return (
     <div className="mt-4">
-      {/* Header with filters */}
+      {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
         <div className="flex items-center gap-2">
           <h3 className="text-lg font-semibold text-gray-900">
             {filteredHotels.length} hotels available
           </h3>
           <button
-            onClick={() => {
-              // Scroll back up to the featured tiles
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-sm text-primary-600 hover:text-primary-700 font-medium"
           >
             ↑ Top picks
@@ -105,32 +155,57 @@ export function HotelExpandedList({
         </div>
       </div>
 
-      {/* Filter bar */}
-      <div className="flex flex-wrap gap-2 mb-4">
-        {/* Price range */}
+      {/* Filter + sort bar */}
+      <div className="flex flex-wrap items-center gap-2 mb-4">
+        {/* Sort */}
         <select
-          value={priceRangeIdx}
-          onChange={(e) => setPriceRangeIdx(Number(e.target.value))}
+          value={sortBy}
+          onChange={(e) => setSortBy(e.target.value as SortOption)}
           className="text-sm border border-gray-200 rounded-lg px-3 py-1.5 bg-white text-gray-700 focus:ring-2 focus:ring-primary-500 outline-none"
         >
-          {PRICE_RANGES.map((range, idx) => (
-            <option key={idx} value={idx}>{range.label}</option>
-          ))}
+          <option value="distance">Nearest first</option>
+          <option value="price_asc">Price: low → high</option>
+          <option value="price_desc">Price: high → low</option>
+          <option value="rating">Best rated</option>
+          <option value="stars">Most stars</option>
         </select>
 
-        {/* Star rating filter */}
+        {/* Price range (dynamic) */}
+        {priceRanges.length > 1 && (
+          <select
+            value={priceRangeIdx}
+            onChange={(e) => setPriceRangeIdx(Number(e.target.value))}
+            className="text-sm border border-gray-200 rounded-lg px-3 py-1.5 bg-white text-gray-700 focus:ring-2 focus:ring-primary-500 outline-none"
+          >
+            {priceRanges.map((range, idx) => (
+              <option key={idx} value={idx}>{range.label}</option>
+            ))}
+          </select>
+        )}
+
+        {/* Star filter — show only stars that exist in the data */}
         <div className="flex items-center gap-1">
-          {([0, 3, 4, 5] as StarFilter[]).map(stars => (
+          <button
+            onClick={() => setStarFilter(0)}
+            className={`px-2.5 py-1.5 text-sm rounded-lg border transition-colors ${
+              starFilter === 0
+                ? 'bg-primary-50 border-primary-300 text-primary-700 font-medium'
+                : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'
+            }`}
+          >
+            All
+          </button>
+          {starOptions.map(stars => (
             <button
               key={stars}
-              onClick={() => setStarFilter(stars)}
+              onClick={() => setStarFilter(stars === starFilter ? 0 : stars)}
               className={`px-2.5 py-1.5 text-sm rounded-lg border transition-colors ${
                 starFilter === stars
                   ? 'bg-primary-50 border-primary-300 text-primary-700 font-medium'
                   : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'
               }`}
             >
-              {stars === 0 ? 'All stars' : `${stars}★+`}
+              {stars}★+
             </button>
           ))}
         </div>
@@ -138,7 +213,6 @@ export function HotelExpandedList({
 
       {/* Content */}
       {viewMode === 'map' ? (
-        /* Map view with hotel list sidebar */
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
           <div className="lg:col-span-2 max-h-[600px] overflow-y-auto space-y-2">
             {filteredHotels.map((hotel, idx) => (
@@ -167,7 +241,6 @@ export function HotelExpandedList({
           </div>
         </div>
       ) : (
-        /* List view */
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {filteredHotels.map((hotel, idx) => (
             <HotelListCard

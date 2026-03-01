@@ -108,9 +108,11 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
   }, [hasCarousel, currentIndex, totalImages]);
 
   return (
-    <div className={`group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all text-left w-full ${
+    <div
+      onClick={() => onSelect(hotel)}
+      className={`group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all text-left w-full cursor-pointer ${
       isRecommended
-        ? 'h-80 sm:h-full ring-2 ring-primary-400/60 shadow-lg shadow-primary-500/20'
+        ? 'h-80 ring-2 ring-primary-400/60 shadow-lg shadow-primary-500/20'
         : 'h-72 sm:h-80'
     }`}>
       {/* Image area — tap edges to browse carousel */}
@@ -197,9 +199,7 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
         )}
 
         {/* Hotel name */}
-        <h3 className={`font-bold text-white leading-tight drop-shadow-lg truncate ${
-          isRecommended ? 'text-xl' : 'text-lg'
-        }`}>
+        <h3 className="text-lg font-bold text-white leading-tight drop-shadow-lg truncate">
           {hotel.name}
         </h3>
 

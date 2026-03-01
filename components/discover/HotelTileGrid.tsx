@@ -5,20 +5,10 @@ import { HotelTile } from './HotelTile';
 import type { FeaturedHotels } from '@/lib/hotels/categorize';
 
 // ── HotelTileGrid ─────────────────────────────────────────────────
-// Featured layout: Recommended (Closest) takes 2/3 of the width on
-// desktop with a tall image, while Budget and High-End stack in the
-// remaining column. Mobile: recommended full-width on top, alternatives below.
-//
-// Desktop layout:
-// ┌──────────────────┬──────────┐
-// │                  │  Budget  │
-// │  Recommended     │  (Best   │
-// │  (Closest)       │  Value)  │
-// │                  ├──────────┤
-// │  col-span-2      │ High-End │
-// │  row-span-2      │ (Premium │
-// │                  │  Pick)   │
-// └──────────────────┴──────────┘
+// Featured layout: 3 equal tiles side-by-side on desktop, stacked on mobile.
+// ┌──────────┬──────────┬──────────┐
+// │Recommended│  Budget  │ High-End │
+// └──────────┴──────────┴──────────┘
 
 interface HotelTileGridProps {
   featured: FeaturedHotels;
@@ -30,8 +20,8 @@ interface HotelTileGridProps {
 export function HotelTileGrid({ featured, landmarkLat, landmarkLng, onSelectHotel }: HotelTileGridProps) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-      {/* Recommended tile — full width on mobile, col-span-2 on desktop */}
-      <div className="sm:col-span-2 sm:row-span-2">
+      {/* Recommended tile */}
+      <div>
         <HotelTile
           hotel={featured.closest}
           role="closest"

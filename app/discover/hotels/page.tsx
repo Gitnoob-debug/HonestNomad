@@ -534,62 +534,79 @@ export default function DiscoverHotelsPage() {
                   </div>
                 )}
 
-                {/* Featured 3 tiles — always visible when available */}
-                {searchState.featured && (
-                  <>
-                    <HotelTileGrid
-                      featured={searchState.featured}
-                      landmarkLat={landmarkCoords?.lat || 0}
-                      landmarkLng={landmarkCoords?.lng || 0}
-                      onSelectHotel={handleSelectHotel}
-                    />
-
-                    {/* See more / collapse toggle */}
-                    {allHotels.length > 3 && (
-                      <div className="text-center mt-6">
-                        <button
-                          onClick={() => setShowExpanded(!showExpanded)}
-                          className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-primary-600 bg-primary-50 hover:bg-primary-100 rounded-xl transition-colors"
-                        >
-                          {showExpanded ? (
-                            <>
-                              Hide full list
-                              <span className="text-xs">&uarr;</span>
-                            </>
-                          ) : (
-                            <>
-                              See all {filteredHotels.length} hotels
-                              <span className="text-xs">&darr;</span>
-                            </>
-                          )}
-                        </button>
-                      </div>
-                    )}
-                  </>
-                )}
-
-                {/* Not enough for featured tiles but have some results */}
-                {!searchState.featured && allHotels.length > 0 && (
+                {/* Map view — skip featured tiles, show full list + map */}
+                {viewMode === 'map' && allHotels.length > 0 && (
                   <HotelExpandedList
                     hotels={filteredHotels}
                     landmarkLat={landmarkCoords?.lat || 0}
                     landmarkLng={landmarkCoords?.lng || 0}
-                    viewMode={viewMode}
+                    viewMode="map"
                     onSelectHotel={handleSelectHotel}
                     onClose={() => {}}
                   />
                 )}
 
-                {/* Expanded list — appears BELOW the featured tiles */}
-                {showExpanded && searchState.featured && (
-                  <HotelExpandedList
-                    hotels={filteredHotels}
-                    landmarkLat={landmarkCoords?.lat || 0}
-                    landmarkLng={landmarkCoords?.lng || 0}
-                    viewMode={viewMode}
-                    onSelectHotel={handleSelectHotel}
-                    onClose={() => setShowExpanded(false)}
-                  />
+                {/* List view — show featured tiles + expandable full list */}
+                {viewMode === 'list' && (
+                  <>
+                    {/* Featured 3 tiles */}
+                    {searchState.featured && (
+                      <>
+                        <HotelTileGrid
+                          featured={searchState.featured}
+                          landmarkLat={landmarkCoords?.lat || 0}
+                          landmarkLng={landmarkCoords?.lng || 0}
+                          onSelectHotel={handleSelectHotel}
+                        />
+
+                        {/* See more / collapse toggle */}
+                        {allHotels.length > 3 && (
+                          <div className="text-center mt-6">
+                            <button
+                              onClick={() => setShowExpanded(!showExpanded)}
+                              className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-primary-600 bg-primary-50 hover:bg-primary-100 rounded-xl transition-colors"
+                            >
+                              {showExpanded ? (
+                                <>
+                                  Hide full list
+                                  <span className="text-xs">&uarr;</span>
+                                </>
+                              ) : (
+                                <>
+                                  See all {filteredHotels.length} hotels
+                                  <span className="text-xs">&darr;</span>
+                                </>
+                              )}
+                            </button>
+                          </div>
+                        )}
+                      </>
+                    )}
+
+                    {/* Not enough for featured tiles but have some results */}
+                    {!searchState.featured && allHotels.length > 0 && (
+                      <HotelExpandedList
+                        hotels={filteredHotels}
+                        landmarkLat={landmarkCoords?.lat || 0}
+                        landmarkLng={landmarkCoords?.lng || 0}
+                        viewMode="list"
+                        onSelectHotel={handleSelectHotel}
+                        onClose={() => {}}
+                      />
+                    )}
+
+                    {/* Expanded list — appears BELOW the featured tiles */}
+                    {showExpanded && searchState.featured && (
+                      <HotelExpandedList
+                        hotels={filteredHotels}
+                        landmarkLat={landmarkCoords?.lat || 0}
+                        landmarkLng={landmarkCoords?.lng || 0}
+                        viewMode="list"
+                        onSelectHotel={handleSelectHotel}
+                        onClose={() => setShowExpanded(false)}
+                      />
+                    )}
+                  </>
                 )}
               </>
             )}

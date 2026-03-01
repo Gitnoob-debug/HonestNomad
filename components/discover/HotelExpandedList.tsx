@@ -248,11 +248,28 @@ function HotelListCard({ hotel, index, isSelected = false, onSelect, onClick }: 
 
         <h4 className="text-sm font-semibold text-gray-900 truncate">{hotel.name}</h4>
 
-        <div className="flex items-center justify-between mt-2">
-          <span className="text-xs text-gray-500">
-            {formatDistance(hotel.distanceFromZoneCenter)} from spot
-          </span>
-          <span className="text-xs text-primary-600 font-medium">
+        {/* Chain name */}
+        {hotel.chain && (
+          <p className="text-[11px] text-gray-400 truncate">{hotel.chain}</p>
+        )}
+
+        <div className="flex items-center justify-between mt-1.5">
+          <div className="flex items-center gap-1.5 min-w-0">
+            <span className="text-xs text-gray-500 flex-shrink-0">
+              {formatDistance(hotel.distanceFromZoneCenter)} from spot
+            </span>
+            {/* Cancel badge */}
+            {hotel.cancelDeadline ? (
+              <span className="text-[10px] text-green-600 font-medium truncate">
+                ✓ Free cancel
+              </span>
+            ) : hotel.refundable === false ? (
+              <span className="text-[10px] text-red-500 font-medium flex-shrink-0">
+                Non-refundable
+              </span>
+            ) : null}
+          </div>
+          <span className="text-xs text-primary-600 font-medium flex-shrink-0">
             Book &rarr;
           </span>
         </div>

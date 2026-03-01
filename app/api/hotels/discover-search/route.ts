@@ -1,11 +1,25 @@
 // Hotel search endpoint for the Discover flow
 // Searches near landmark GPS coordinates with radius expansion
+// Enriches all hotels with: photos (HD + captions), amenities, room details,
+// reviews, chain branding, important info, cancellation deadlines
 
 import { NextRequest, NextResponse } from 'next/server';
 import { searchHotelsForDiscoverFlow } from '@/lib/liteapi/hotels';
 import { categorizeHotels } from '@/lib/hotels/categorize';
-import { getHotelDetails } from '@/lib/liteapi/client';
+import { getHotelDetails, getHotelReviews } from '@/lib/liteapi/client';
 import type { HotelOption } from '@/lib/liteapi/types';
+
+// Enrichment data extracted from details + reviews
+interface HotelEnrichment {
+  photos: string[];
+  photosHd: string[];
+  photoCaptions: string[];
+  amenities: string[];
+  roomDetails?: HotelOption['roomDetails'];
+  hotelImportantInformation?: string;
+  reviews?: HotelOption['reviews'];
+  reviewsTotal?: number;
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -53,60 +67,146 @@ export async function POST(request: NextRequest) {
       longitude
     );
 
-    // ── Enrich ALL hotels with photos & amenities (parallel) ────────
-    // getHotelDetails is called for every hotel in parallel (Promise.all).
-    // Original bug: sequential calls were slow. Parallel ≈ 2-3s total.
-    // Each call is wrapped in .catch so one failure doesn't kill the batch.
+    // ── Enrich ALL hotels (parallel): details + reviews ──────────
+    // Fetches getHotelDetails + getHotelReviews for every hotel concurrently.
+    // Both batches run in parallel via outer Promise.all (~2-3s total).
     if (searchResult.hotels.length > 0) {
       const allIds = searchResult.hotels.map(h => h.id);
 
-      console.log(`[discover-search] Enriching ${allIds.length} hotels with photos (parallel)...`);
+      console.log(`[discover-search] Enriching ${allIds.length} hotels (details + reviews, parallel)...`);
 
-      const detailsResults = await Promise.all(
-        allIds.map(id => getHotelDetails(id).catch(() => null))
-      );
+      const [detailsResults, reviewsResults] = await Promise.all([
+        Promise.all(allIds.map(id => getHotelDetails(id).catch(() => null))),
+        Promise.all(allIds.map(id => getHotelReviews(id, 3).catch(() => ({ reviews: [], total: 0 })))),
+      ]);
 
       // Build enrichment map
-      const detailsMap = new Map<string, { photos: string[]; amenities: string[] }>();
+      const enrichmentMap = new Map<string, HotelEnrichment>();
       let enrichedCount = 0;
+
       for (let i = 0; i < allIds.length; i++) {
         const details = detailsResults[i];
+        const reviewData = reviewsResults[i];
+
+        const enrichment: HotelEnrichment = {
+          photos: [],
+          photosHd: [],
+          photoCaptions: [],
+          amenities: [],
+        };
+
         if (details) {
-          const photos = details.hotelImages?.slice(0, 10).map(img => img.url).filter(Boolean) || [];
-          const amenities = details.hotelFacilities?.slice(0, 15) || [];
-          detailsMap.set(allIds[i], { photos, amenities });
-          if (photos.length > 0) enrichedCount++;
+          // Photos: extract url, urlHd, and caption as parallel arrays
+          const images = details.hotelImages?.slice(0, 10) || [];
+          enrichment.photos = images.map(img => img.url).filter(Boolean);
+          enrichment.photosHd = images.map(img => img.urlHd || img.url).filter(Boolean);
+          enrichment.photoCaptions = images.map(img => img.caption || '');
+          enrichment.amenities = details.hotelFacilities?.slice(0, 15) || [];
+
+          // Room details: extract first room (primary room type)
+          const firstRoom = details.rooms?.[0];
+          if (firstRoom) {
+            enrichment.roomDetails = {
+              roomSizeSquare: firstRoom.roomSizeSquare || undefined,
+              roomSizeUnit: firstRoom.roomSizeUnit || undefined,
+              maxOccupancy: firstRoom.maxOccupancy || undefined,
+              maxAdults: firstRoom.maxAdults || undefined,
+              maxChildren: firstRoom.maxChildren || undefined,
+              bedTypes: firstRoom.bedTypes?.map(bt => ({
+                bedType: bt.bedType,
+                bedSize: bt.bedSize,
+                quantity: bt.quantity,
+              })) || undefined,
+              views: firstRoom.views?.map(v => v.view) || undefined,
+            };
+          }
+
+          // Important hotel information (truncate to 500 chars)
+          if (details.hotelImportantInformation) {
+            enrichment.hotelImportantInformation = details.hotelImportantInformation.slice(0, 500);
+          }
+
+          if (enrichment.photos.length > 0) enrichedCount++;
         }
+
+        // Reviews
+        if (reviewData && reviewData.reviews && reviewData.reviews.length > 0) {
+          enrichment.reviews = reviewData.reviews.slice(0, 3).map(r => ({
+            averageScore: r.averageScore,
+            name: r.name,
+            country: r.country,
+            date: r.date,
+            headline: r.headline,
+            pros: r.pros,
+            cons: r.cons,
+          }));
+          enrichment.reviewsTotal = reviewData.total;
+        }
+
+        enrichmentMap.set(allIds[i], enrichment);
       }
 
-      // Apply to full hotel list
+      // Apply enrichment to full hotel list
       for (let i = 0; i < searchResult.hotels.length; i++) {
-        const enrichment = detailsMap.get(searchResult.hotels[i].id);
-        if (enrichment) {
-          searchResult.hotels[i] = {
-            ...searchResult.hotels[i],
-            photos: enrichment.photos.length > 0 ? enrichment.photos : searchResult.hotels[i].photos,
-            amenities: enrichment.amenities.length > 0 ? enrichment.amenities : searchResult.hotels[i].amenities,
+        const e = enrichmentMap.get(searchResult.hotels[i].id);
+        if (!e) continue;
+
+        // TODO: Replace synthetic cancelDeadline with real cancelPolicyInfos when USE_MOCK_RATES is false
+        let cancelDeadline: string | undefined;
+        if (searchResult.hotels[i].refundable && checkin) {
+          const deadlineDate = new Date(checkin);
+          deadlineDate.setDate(deadlineDate.getDate() - 2);
+          cancelDeadline = `Free cancellation until ${deadlineDate.toLocaleDateString('en-US', {
+            month: 'long', day: 'numeric', year: 'numeric',
+          })}`;
+        }
+
+        searchResult.hotels[i] = {
+          ...searchResult.hotels[i],
+          photos: e.photos.length > 0 ? e.photos : searchResult.hotels[i].photos,
+          photosHd: e.photosHd.length > 0 ? e.photosHd : undefined,
+          photoCaptions: e.photoCaptions.length > 0 ? e.photoCaptions : undefined,
+          amenities: e.amenities.length > 0 ? e.amenities : searchResult.hotels[i].amenities,
+          roomDetails: e.roomDetails,
+          hotelImportantInformation: e.hotelImportantInformation,
+          reviews: e.reviews,
+          reviewsTotal: e.reviewsTotal,
+          cancelDeadline,
+        };
+      }
+
+      // Apply enrichment to featured hotels too (different object references after categorize)
+      if (featured) {
+        const keys: ('closest' | 'budget' | 'highEnd')[] = ['closest', 'budget', 'highEnd'];
+        for (const key of keys) {
+          const e = enrichmentMap.get(featured[key].id);
+          if (!e) continue;
+
+          let cancelDeadline: string | undefined;
+          if (featured[key].refundable && checkin) {
+            const deadlineDate = new Date(checkin);
+            deadlineDate.setDate(deadlineDate.getDate() - 2);
+            cancelDeadline = `Free cancellation until ${deadlineDate.toLocaleDateString('en-US', {
+              month: 'long', day: 'numeric', year: 'numeric',
+            })}`;
+          }
+
+          featured[key] = {
+            ...featured[key],
+            photos: e.photos.length > 0 ? e.photos : featured[key].photos,
+            photosHd: e.photosHd.length > 0 ? e.photosHd : undefined,
+            photoCaptions: e.photoCaptions.length > 0 ? e.photoCaptions : undefined,
+            amenities: e.amenities.length > 0 ? e.amenities : featured[key].amenities,
+            roomDetails: e.roomDetails,
+            hotelImportantInformation: e.hotelImportantInformation,
+            reviews: e.reviews,
+            reviewsTotal: e.reviewsTotal,
+            cancelDeadline,
           };
         }
       }
 
-      // Apply to featured hotels too (they reference different objects after categorize)
-      if (featured) {
-        const keys: ('closest' | 'budget' | 'highEnd')[] = ['closest', 'budget', 'highEnd'];
-        for (const key of keys) {
-          const enrichment = detailsMap.get(featured[key].id);
-          if (enrichment) {
-            featured[key] = {
-              ...featured[key],
-              photos: enrichment.photos.length > 0 ? enrichment.photos : featured[key].photos,
-              amenities: enrichment.amenities.length > 0 ? enrichment.amenities : featured[key].amenities,
-            };
-          }
-        }
-      }
-
-      console.log(`[discover-search] Enrichment complete. Photos found for ${enrichedCount}/${allIds.length} hotels`);
+      console.log(`[discover-search] Enrichment complete. Photos: ${enrichedCount}/${allIds.length} hotels`);
     }
 
     return NextResponse.json({

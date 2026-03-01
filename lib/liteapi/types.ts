@@ -230,4 +230,35 @@ export interface HotelOption {
   // Zone info
   distanceFromZoneCenter?: number; // meters from ideal hotel zone center
   insideZone?: boolean;
+  // ── Enrichment fields (Discover flow) ──────────────────────
+  // Chain branding
+  chain?: string;
+  // HD images + captions (parallel arrays matching `photos`)
+  photosHd?: string[];
+  photoCaptions?: string[];
+  // Room details (from first room in details response)
+  roomDetails?: {
+    roomSizeSquare?: number;
+    roomSizeUnit?: string;
+    maxOccupancy?: number;
+    maxAdults?: number;
+    maxChildren?: number;
+    bedTypes?: Array<{ bedType: string; bedSize: string; quantity: number }>;
+    views?: string[];
+  };
+  // Guest reviews (top 3)
+  reviews?: Array<{
+    averageScore: number;
+    name: string;
+    country: string;
+    date: string;
+    headline: string;
+    pros: string;
+    cons: string;
+  }>;
+  reviewsTotal?: number;
+  // Important hotel information (resort fees, policies, etc.)
+  hotelImportantInformation?: string;
+  // Cancellation deadline detail
+  cancelDeadline?: string; // e.g. "Free cancellation until March 13, 2026"
 }

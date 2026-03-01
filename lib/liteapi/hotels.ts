@@ -591,6 +591,7 @@ export async function searchHotelsForDiscoverFlow(
         expiresAt: Date.now() + (30 * 60 * 1000),
         distanceFromZoneCenter: hotel.distanceFromCenter,
         insideZone: hotel.insideZone,
+        chain: hotel.chain || undefined,
       });
     }
   } else {

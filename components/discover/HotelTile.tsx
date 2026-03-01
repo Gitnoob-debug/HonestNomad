@@ -44,8 +44,10 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
   const [currentIndex, setCurrentIndex] = useState(0);
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
 
-  // Build image list — use photos array, fall back to mainPhoto
-  const allPhotos = hotel.photos.length > 0 ? hotel.photos : hotel.mainPhoto ? [hotel.mainPhoto] : [];
+  // Build image list — prefer HD images, fall back to standard photos, then mainPhoto
+  const hdPhotos = hotel.photosHd && hotel.photosHd.length > 0 ? hotel.photosHd : [];
+  const stdPhotos = hotel.photos.length > 0 ? hotel.photos : hotel.mainPhoto ? [hotel.mainPhoto] : [];
+  const allPhotos = hdPhotos.length > 0 ? hdPhotos : stdPhotos;
   const imageUrls = allPhotos.slice(0, 6);
   const fallbackImg = hotel.mainPhoto || '';
   const totalImages = imageUrls.length;
@@ -169,7 +171,7 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
 
       {/* Bottom content overlay */}
       <div className="absolute bottom-0 left-0 right-0 z-10 p-3">
-        {/* Stars + rating */}
+        {/* Stars + rating + chain */}
         <div className="flex items-center gap-1.5 mb-1">
           <span className="text-yellow-400 text-xs">{renderStars(hotel.stars)}</span>
           {hotel.rating > 0 && (
@@ -181,6 +183,9 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
             <span className="text-white/60 text-[10px]">
               ({hotel.reviewCount.toLocaleString()} reviews)
             </span>
+          )}
+          {hotel.chain && (
+            <span className="text-white/50 text-[10px]">&middot; {hotel.chain}</span>
           )}
         </div>
 
@@ -204,6 +209,24 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
             travelTime.mode === 'walk' ? 'text-green-300' : 'text-white/70'
           }`}>
             {travelTime.emoji} {travelTime.label}
+          </p>
+        )}
+
+        {/* Cancel micro-badge */}
+        {hotel.cancelDeadline ? (
+          <p className="text-[10px] text-green-300 mt-0.5 truncate">
+            ✓ {hotel.cancelDeadline}
+          </p>
+        ) : hotel.refundable === false ? (
+          <p className="text-[10px] text-red-300 mt-0.5">
+            Non-refundable
+          </p>
+        ) : null}
+
+        {/* Review snippet — recommended tile only */}
+        {isRecommended && hotel.reviews && hotel.reviews.length > 0 && (
+          <p className="text-[10px] text-white/70 italic mt-0.5 truncate">
+            &ldquo;{hotel.reviews[0].headline || hotel.reviews[0].pros}&rdquo;
           </p>
         )}
 

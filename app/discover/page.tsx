@@ -215,9 +215,12 @@ export default function DiscoverPage() {
     }));
 
     // ── Discover flow: store landmark coords + dates for hotel search ──
-    // Use the identified photo location (landmark-level GPS) if available,
-    // otherwise fall back to the destination city center coordinates.
-    const landmarkCoords = result?.location
+    // Use the photo's landmark GPS only if the user selected the BEST MATCH
+    // destination (the one that actually matched the photo). For alternative
+    // tiles (Closer, Budget, Similar Vibe), use the destination's own coords
+    // since the photo location is a completely different place.
+    const isBestMatchDest = result?.matchedDestination?.id === dest.id;
+    const landmarkCoords = (isBestMatchDest && result?.location)
       ? { lat: result.location.lat, lng: result.location.lng }
       : { lat: dest.latitude, lng: dest.longitude };
     sessionStorage.setItem('discover_landmark_coords', JSON.stringify(landmarkCoords));

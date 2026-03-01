@@ -163,161 +163,118 @@ export function findAlternatives(params: {
     }
   }
 
-  // ── 2. Budget-Friendly Alternative (using real daily cost data) ─────
+  // ── 2. Budget-Friendly Alternative (same region preferred) ──────────
   {
-    // Use dailyCosts (food + activities + transport) for accurate comparison
     const matchedDest = DESTINATIONS.find(d => d.id === matchedDestinationId);
     const matchedDailyCost = matchedDest?.dailyCosts
       ? matchedDest.dailyCosts.foodPerDay + matchedDest.dailyCosts.activitiesPerDay + matchedDest.dailyCosts.transportPerDay
       : null;
 
-    // Helper to get total daily cost for a destination
     const getDailyCostTotal = (d: Destination): number | null =>
       d.dailyCosts
         ? d.dailyCosts.foodPerDay + d.dailyCosts.activitiesPerDay + d.dailyCosts.transportPerDay
         : null;
 
-    if (matchedDailyCost != null) {
-      // Primary: compare structured daily costs (70% threshold)
-      let budgetThreshold = matchedDailyCost * 0.7;
-      let budgetPool = candidates.filter(d => {
-        const dc = getDailyCostTotal(d);
-        return (
-          dc != null &&
-          dc < budgetThreshold &&
-          vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
-          !selected.has(d.id)
-        );
-      });
-
-      // Relax to 85% if nothing found at 70%
-      if (budgetPool.length === 0) {
-        budgetThreshold = matchedDailyCost * 0.85;
-        budgetPool = candidates.filter(d => {
+    const findBudgetInPool = (pool: Destination[], threshold: number, useDailyCost: boolean): Destination | null => {
+      let filtered = pool.filter(d => {
+        if (useDailyCost) {
           const dc = getDailyCostTotal(d);
-          return (
-            dc != null &&
-            dc < budgetThreshold &&
-            vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
-            !selected.has(d.id)
-          );
-        });
-      }
-
-      // Sort by vibe overlap desc, then daily cost asc
-      budgetPool.sort((a, b) => {
-        const vibeA = vibeOverlapRatio(a.vibes as string[], matchedVibes);
-        const vibeB = vibeOverlapRatio(b.vibes as string[], matchedVibes);
-        if (vibeB !== vibeA) return vibeB - vibeA;
-        return (getDailyCostTotal(a) ?? Infinity) - (getDailyCostTotal(b) ?? Infinity);
+          return dc != null && dc < threshold && vibeOverlap(d.vibes as string[], matchedVibes) >= 1 && !selected.has(d.id);
+        }
+        return d.averageCost < threshold && vibeOverlap(d.vibes as string[], matchedVibes) >= 1 && !selected.has(d.id);
       });
-
-      const budget = budgetPool[0];
-      if (budget) {
-        selected.add(budget.id);
-        const budgetDailyCost = getDailyCostTotal(budget)!;
-        const dailySavings = matchedDailyCost - budgetDailyCost;
-        const savingsPercent = Math.round((dailySavings / matchedDailyCost) * 100);
-        tiles.push({
-          role: 'budget',
-          label: 'Budget-Friendly',
-          destination: toMatchedDestination(budget),
-          reasoning: buildBudgetReasoning(budget, matchedVibes, dailySavings, savingsPercent),
-          averageCost: budget.averageCost,
-          dailyCostPerPerson: budgetDailyCost,
-          travelTimeCategory: userAirportCode
-            ? getTravelTimeCategory(userAirportCode, budget)
-            : undefined,
-        });
-      }
-    } else {
-      // Fallback: no dailyCosts on matched destination — use averageCost
-      let budgetThreshold = matchedAverageCost * 0.7;
-      let budgetPool = candidates.filter(d =>
-        vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
-        d.averageCost < budgetThreshold &&
-        !selected.has(d.id),
-      );
-
-      if (budgetPool.length === 0) {
-        budgetThreshold = matchedAverageCost * 0.9;
-        budgetPool = candidates.filter(d =>
-          vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
-          d.averageCost < budgetThreshold &&
-          !selected.has(d.id),
-        );
-      }
-
-      budgetPool.sort((a, b) => {
+      filtered.sort((a, b) => {
         const vibeA = vibeOverlapRatio(a.vibes as string[], matchedVibes);
         const vibeB = vibeOverlapRatio(b.vibes as string[], matchedVibes);
         if (vibeB !== vibeA) return vibeB - vibeA;
+        if (useDailyCost) return (getDailyCostTotal(a) ?? Infinity) - (getDailyCostTotal(b) ?? Infinity);
         return a.averageCost - b.averageCost;
       });
+      return filtered[0] ?? null;
+    };
 
-      const budget = budgetPool[0];
-      if (budget) {
-        selected.add(budget.id);
-        const savings = Math.round((1 - budget.averageCost / matchedAverageCost) * 100);
-        tiles.push({
-          role: 'budget',
-          label: 'Budget-Friendly',
-          destination: toMatchedDestination(budget),
-          reasoning: `${savings}% cheaper with ${describeSharedVibes(budget.vibes as string[], matchedVibes)}`,
-          averageCost: budget.averageCost,
-          dailyCostPerPerson: getDailyCostTotal(budget) ?? undefined,
-          travelTimeCategory: userAirportCode
-            ? getTravelTimeCategory(userAirportCode, budget)
-            : undefined,
-        });
-      }
+    // Split candidates into same-region and global
+    const sameRegion = candidates.filter(d => d.region === matchedRegion);
+    const allCandidates = candidates;
+
+    let budget: Destination | null = null;
+
+    if (matchedDailyCost != null) {
+      // Try same region first at 70%, then 85%
+      budget = findBudgetInPool(sameRegion, matchedDailyCost * 0.7, true);
+      if (!budget) budget = findBudgetInPool(sameRegion, matchedDailyCost * 0.85, true);
+      // Fall back to global if nothing in same region
+      if (!budget) budget = findBudgetInPool(allCandidates, matchedDailyCost * 0.7, true);
+      if (!budget) budget = findBudgetInPool(allCandidates, matchedDailyCost * 0.85, true);
+    } else {
+      // No dailyCosts — use averageCost
+      budget = findBudgetInPool(sameRegion, matchedAverageCost * 0.7, false);
+      if (!budget) budget = findBudgetInPool(sameRegion, matchedAverageCost * 0.9, false);
+      if (!budget) budget = findBudgetInPool(allCandidates, matchedAverageCost * 0.7, false);
+      if (!budget) budget = findBudgetInPool(allCandidates, matchedAverageCost * 0.9, false);
     }
-  }
 
-  // ── Fallback: if "Closer" wasn't possible (no user location), add a second budget option
-  if (userLat == null && tiles.length < 2) {
-    const getDailyCostTotal2 = (d: Destination): number | null =>
-      d.dailyCosts
-        ? d.dailyCosts.foodPerDay + d.dailyCosts.activitiesPerDay + d.dailyCosts.transportPerDay
-        : null;
-
-    const extraPool = candidates.filter(d =>
-      vibeOverlap(d.vibes as string[], matchedVibes) >= 1 &&
-      !selected.has(d.id),
-    );
-
-    // Sort by daily cost ascending if available, else averageCost
-    extraPool.sort((a, b) => {
-      const costA = getDailyCostTotal2(a) ?? a.averageCost / 14; // rough daily proxy
-      const costB = getDailyCostTotal2(b) ?? b.averageCost / 14;
-      return costA - costB;
-    });
-
-    const extra = extraPool[0];
-    if (extra) {
-      selected.add(extra.id);
-      const dailyCost = getDailyCostTotal2(extra);
-      const matchedDest = DESTINATIONS.find(d => d.id === matchedDestinationId);
-      const matchedDailyCost = matchedDest?.dailyCosts
-        ? matchedDest.dailyCosts.foodPerDay + matchedDest.dailyCosts.activitiesPerDay + matchedDest.dailyCosts.transportPerDay
-        : null;
-
+    if (budget) {
+      selected.add(budget.id);
+      const budgetDailyCost = getDailyCostTotal(budget);
       let reasoning: string;
-      if (dailyCost != null && matchedDailyCost != null && dailyCost < matchedDailyCost) {
-        const dailySavings = matchedDailyCost - dailyCost;
+      if (matchedDailyCost != null && budgetDailyCost != null && budgetDailyCost < matchedDailyCost) {
+        const dailySavings = matchedDailyCost - budgetDailyCost;
         const savingsPercent = Math.round((dailySavings / matchedDailyCost) * 100);
-        reasoning = buildBudgetReasoning(extra, matchedVibes, dailySavings, savingsPercent);
+        reasoning = buildBudgetReasoning(budget, matchedVibes, dailySavings, savingsPercent);
       } else {
-        reasoning = describeSharedVibes(extra.vibes as string[], matchedVibes);
+        const savings = Math.round((1 - budget.averageCost / matchedAverageCost) * 100);
+        reasoning = `${savings}% cheaper · ${describeSharedVibes(budget.vibes as string[], matchedVibes)}`;
       }
-
       tiles.push({
         role: 'budget',
         label: 'Budget-Friendly',
-        destination: toMatchedDestination(extra),
+        destination: toMatchedDestination(budget),
         reasoning,
-        averageCost: extra.averageCost,
-        dailyCostPerPerson: dailyCost ?? undefined,
+        averageCost: budget.averageCost,
+        dailyCostPerPerson: budgetDailyCost ?? undefined,
+        travelTimeCategory: userAirportCode
+          ? getTravelTimeCategory(userAirportCode, budget)
+          : undefined,
+      });
+    }
+  }
+
+  // ── 3. Similar Vibe — different region, high vibe overlap (inspiration) ──
+  {
+    const vibePool = candidates.filter(d =>
+      d.region !== matchedRegion &&
+      vibeOverlap(d.vibes as string[], matchedVibes) >= 2 &&
+      !selected.has(d.id),
+    );
+
+    // Sort by vibe overlap desc, then seasonal fit
+    const dateStr2 = currentMonthDateString();
+    vibePool.sort((a, b) => {
+      const vibeA = vibeOverlapRatio(a.vibes as string[], matchedVibes);
+      const vibeB = vibeOverlapRatio(b.vibes as string[], matchedVibes);
+      if (vibeB !== vibeA) return vibeB - vibeA;
+      // Tiebreak: prefer destinations currently in season
+      return scoreSeasonalFit(b, dateStr2) - scoreSeasonalFit(a, dateStr2);
+    });
+
+    const similarVibe = vibePool[0];
+    if (similarVibe) {
+      selected.add(similarVibe.id);
+      const getDailyCostTotal = (d: Destination): number | null =>
+        d.dailyCosts
+          ? d.dailyCosts.foodPerDay + d.dailyCosts.activitiesPerDay + d.dailyCosts.transportPerDay
+          : null;
+      tiles.push({
+        role: 'similar_vibe',
+        label: 'Similar Vibe',
+        destination: toMatchedDestination(similarVibe),
+        reasoning: `${describeSharedVibes(similarVibe.vibes as string[], matchedVibes)} in ${similarVibe.region.replace('_', ' ')}`,
+        averageCost: similarVibe.averageCost,
+        dailyCostPerPerson: getDailyCostTotal(similarVibe) ?? undefined,
+        travelTimeCategory: userAirportCode
+          ? getTravelTimeCategory(userAirportCode, similarVibe)
+          : undefined,
       });
     }
   }

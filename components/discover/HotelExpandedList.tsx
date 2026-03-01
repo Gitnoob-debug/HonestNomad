@@ -204,13 +204,19 @@ function HotelListCard({ hotel, index, isSelected = false, onSelect, onClick }: 
     >
       {/* Image */}
       <div className="relative h-36">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={hotel.mainPhoto || '/placeholder-hotel.jpg'}
-          alt={hotel.name}
-          className="w-full h-full object-cover"
-          loading="lazy"
-        />
+        {(hotel.mainPhoto || (hotel.photos && hotel.photos[0])) ? (
+          /* eslint-disable-next-line @next/next/no-img-element */
+          <img
+            src={hotel.mainPhoto || hotel.photos[0]}
+            alt={hotel.name}
+            className="w-full h-full object-cover"
+            loading="lazy"
+          />
+        ) : (
+          <div className="w-full h-full bg-gradient-to-br from-gray-200 via-gray-300 to-gray-400 flex items-center justify-center">
+            <span className="text-3xl">🏨</span>
+          </div>
+        )}
         <div className="absolute top-2 left-2">
           <span className="bg-primary-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
             #{index}

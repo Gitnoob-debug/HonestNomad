@@ -7,7 +7,7 @@ import { BlurUpImage } from '@/components/ui/BlurUpImage';
 // ── HotelTile ──────────────────────────────────────────────────────
 // Immersive hotel card matching the DestinationTile aesthetic:
 // - Multi-image carousel (tap left/right edges, swipe, progress bars)
-// - Center tap selects hotel
+// - "Select" button to proceed to checkout (separate from carousel)
 // - Full-bleed image, gradient overlay, role badge, price, rating
 
 export type HotelTileRole = 'closest' | 'budget' | 'high_end';
@@ -15,13 +15,12 @@ export type HotelTileRole = 'closest' | 'budget' | 'high_end';
 interface HotelTileProps {
   hotel: HotelOption;
   role: HotelTileRole;
-  label: string; // "Closest to Spot" | "Best Value" | "Premium Pick"
+  label: string;
   landmarkLat: number;
   landmarkLng: number;
   onSelect: (hotel: HotelOption) => void;
 }
 
-// Role badge colors
 const ROLE_BADGE_STYLES: Record<HotelTileRole, string> = {
   closest: 'bg-blue-500/90 text-white',
   budget: 'bg-green-500/90 text-white',
@@ -34,29 +33,23 @@ const ROLE_ICONS: Record<HotelTileRole, string> = {
   high_end: '✨',
 };
 
-/**
- * Calculate distance in a human-readable format
- */
 function formatDistance(meters: number | undefined): string {
   if (!meters) return '';
   if (meters < 1000) return `${Math.round(meters)}m away`;
   return `${(meters / 1000).toFixed(1)}km away`;
 }
 
-/**
- * Render star rating as stars
- */
 function renderStars(stars: number): string {
   return '★'.repeat(Math.min(stars, 5));
 }
 
 export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSelect }: HotelTileProps) {
-  // ── Image carousel state ──────────────────────────────────────
   const [currentIndex, setCurrentIndex] = useState(0);
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
 
-  // Use hotel photos for carousel
-  const imageUrls = hotel.photos.length > 0 ? hotel.photos.slice(0, 6) : hotel.mainPhoto ? [hotel.mainPhoto] : [];
+  // Build image list — use photos array, fall back to mainPhoto
+  const allPhotos = hotel.photos.length > 0 ? hotel.photos : hotel.mainPhoto ? [hotel.mainPhoto] : [];
+  const imageUrls = allPhotos.slice(0, 6);
   const fallbackImg = hotel.mainPhoto || '';
   const totalImages = imageUrls.length;
   const hasCarousel = totalImages > 1;
@@ -73,29 +66,24 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
     }
   }, [currentIndex, hasCarousel, imageUrls]);
 
-  // ── Tap zone handler (matches DestinationTile pattern) ──────
-  const handleClick = useCallback((e: React.MouseEvent) => {
-    if (!hasCarousel) {
-      onSelect(hotel);
-      return;
-    }
+  // ── Carousel navigation (tap edges or swipe) ────────────────
+  const handleImageClick = useCallback((e: React.MouseEvent) => {
+    if (!hasCarousel) return; // No carousel, do nothing on image click
 
     const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
     const x = e.clientX - rect.left;
     const tapZone = x / rect.width;
 
-    if (tapZone < 0.30 && currentIndex > 0) {
+    if (tapZone < 0.35 && currentIndex > 0) {
       e.stopPropagation();
       setCurrentIndex(prev => prev - 1);
-    } else if (tapZone > 0.70 && currentIndex < totalImages - 1) {
+    } else if (tapZone > 0.65 && currentIndex < totalImages - 1) {
       e.stopPropagation();
       setCurrentIndex(prev => prev + 1);
-    } else {
-      onSelect(hotel);
     }
-  }, [hasCarousel, currentIndex, totalImages, onSelect, hotel]);
+    // Center area does nothing — user clicks the Select button instead
+  }, [hasCarousel, currentIndex, totalImages]);
 
-  // ── Swipe gesture support ──────────────────────────────────────
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
     touchStartRef.current = {
       x: e.touches[0].clientX,
@@ -120,16 +108,15 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
 
   const distanceText = formatDistance(hotel.distanceFromZoneCenter);
 
-  // ── Render ─────────────────────────────────────────────────────
   return (
-    <div
-      onClick={handleClick}
-      onTouchStart={handleTouchStart}
-      onTouchEnd={handleTouchEnd}
-      className="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all text-left w-full h-72 sm:h-80 cursor-pointer"
-    >
-      {/* Full-bleed image */}
-      <div className="absolute inset-0">
+    <div className="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all text-left w-full h-72 sm:h-80">
+      {/* Image area — tap edges to browse carousel */}
+      <div
+        onClick={handleImageClick}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+        className="absolute inset-0 cursor-pointer"
+      >
         <BlurUpImage
           key={imageUrls[currentIndex] || fallbackImg}
           src={imageUrls[currentIndex] || fallbackImg}
@@ -145,7 +132,7 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
 
       {/* Image progress bars */}
       {hasCarousel && (
-        <div className="absolute top-2 left-2 right-2 z-10">
+        <div className="absolute top-2 left-2 right-2 z-10 pointer-events-none">
           <div className="flex gap-0.5">
             {imageUrls.map((_, idx) => (
               <div
@@ -160,14 +147,14 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
       )}
 
       {/* Role badge (top left) */}
-      <div className={`absolute ${hasCarousel ? 'top-4' : 'top-2'} left-2 z-10`}>
+      <div className={`absolute ${hasCarousel ? 'top-4' : 'top-2'} left-2 z-10 pointer-events-none`}>
         <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${ROLE_BADGE_STYLES[role]}`}>
           {ROLE_ICONS[role]} {label}
         </span>
       </div>
 
       {/* Price badge (top right) */}
-      <div className={`absolute ${hasCarousel ? 'top-4' : 'top-2'} right-2 z-10`}>
+      <div className={`absolute ${hasCarousel ? 'top-4' : 'top-2'} right-2 z-10 pointer-events-none`}>
         <span className="bg-black/50 backdrop-blur-sm text-white px-2 py-0.5 rounded-full text-[10px] font-semibold">
           ${hotel.pricePerNight}/night
         </span>
@@ -175,7 +162,7 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
 
       {/* Bottom content overlay */}
       <div className="absolute bottom-0 left-0 right-0 z-10 p-3">
-        {/* Stars */}
+        {/* Stars + rating */}
         <div className="flex items-center gap-1.5 mb-1">
           <span className="text-yellow-400 text-xs">{renderStars(hotel.stars)}</span>
           {hotel.rating > 0 && (
@@ -195,16 +182,16 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
           {hotel.name}
         </h3>
 
-        {/* Distance from landmark */}
+        {/* Distance */}
         {distanceText && (
           <p className="text-white/70 text-xs drop-shadow mt-0.5">
             {distanceText}
           </p>
         )}
 
-        {/* Key amenities — up to 3 */}
-        {hotel.amenities.length > 0 && (
-          <div className="flex flex-wrap gap-1 mt-1.5">
+        {/* Amenities + Select button row */}
+        <div className="flex items-end justify-between mt-1.5">
+          <div className="flex flex-wrap gap-1 flex-1 min-w-0">
             {hotel.amenities.slice(0, 3).map((amenity, i) => (
               <span
                 key={i}
@@ -214,11 +201,22 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
               </span>
             ))}
           </div>
-        )}
+
+          {/* Select button — explicit action to proceed */}
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onSelect(hotel);
+            }}
+            className="ml-2 px-3 py-1.5 bg-white text-gray-900 text-xs font-semibold rounded-lg hover:bg-white/90 transition-colors shadow-lg flex-shrink-0"
+          >
+            Select
+          </button>
+        </div>
       </div>
 
       {/* Hover glow */}
-      <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors rounded-2xl pointer-events-none" />
+      <div className="absolute inset-0 bg-white/0 group-hover:bg-white/5 transition-colors rounded-2xl pointer-events-none" />
     </div>
   );
 }

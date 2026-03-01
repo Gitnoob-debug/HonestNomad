@@ -28,7 +28,9 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Search hotels with radius expansion (5km → 15km → city-wide)
+    console.log(`[discover-search] Searching near ${latitude},${longitude} (${cityName || 'unknown'}) for ${checkin} to ${checkout}`);
+
+    // Search hotels with radius expansion (5km → 15km → 50km → city-wide)
     const searchResult = await searchHotelsForDiscoverFlow({
       landmarkLat: latitude,
       landmarkLng: longitude,
@@ -39,6 +41,8 @@ export async function POST(request: NextRequest) {
       cityName,
       countryCode,
     });
+
+    console.log(`[discover-search] Found ${searchResult.hotels.length} hotels (radius: ${searchResult.radiusUsed}km, fallback: ${searchResult.fallbackUsed})`);
 
     // Categorize top 3 as Closest / Budget / High-End
     const featured = categorizeHotels(

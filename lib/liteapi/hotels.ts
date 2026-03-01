@@ -468,28 +468,68 @@ export async function searchHotelsForDiscoverFlow(
   let fallbackUsed = false;
 
   // Step 1: Try 5km radius
-  const result5 = await searchHotelsByLocation(landmarkLat, landmarkLng, {
-    radius: 5,
-    limit: fetchLimit,
-  });
-  rawHotels = result5.hotels;
+  try {
+    const result5 = await searchHotelsByLocation(landmarkLat, landmarkLng, {
+      radius: 5,
+      limit: fetchLimit,
+    });
+    rawHotels = result5.hotels;
+    console.log(`[discover-search] 5km: ${rawHotels.length} hotels found`);
+  } catch (err) {
+    console.error('[discover-search] 5km search failed:', err);
+  }
 
   // Step 2: If insufficient, try 15km
   if (rawHotels.length < 5) {
-    const result15 = await searchHotelsByLocation(landmarkLat, landmarkLng, {
-      radius: 15,
-      limit: fetchLimit,
-    });
-    rawHotels = result15.hotels;
-    radiusUsed = 15;
+    try {
+      const result15 = await searchHotelsByLocation(landmarkLat, landmarkLng, {
+        radius: 15,
+        limit: fetchLimit,
+      });
+      // Only replace if wider search found more results
+      if (result15.hotels.length > rawHotels.length) {
+        rawHotels = result15.hotels;
+      }
+      radiusUsed = 15;
+      console.log(`[discover-search] 15km: ${result15.hotels.length} hotels found`);
+    } catch (err) {
+      console.error('[discover-search] 15km search failed:', err);
+    }
   }
 
-  // Step 3: If still insufficient, fall back to city-wide search
-  if (rawHotels.length < 5 && cityName && countryCode) {
-    const cityResult = await searchHotelsByCity(cityName, countryCode, fetchLimit);
-    rawHotels = cityResult.hotels;
-    radiusUsed = 0; // city-wide
-    fallbackUsed = true;
+  // Step 3: If still insufficient, try 50km (generous wide search)
+  if (rawHotels.length < 3) {
+    try {
+      const result50 = await searchHotelsByLocation(landmarkLat, landmarkLng, {
+        radius: 50,
+        limit: fetchLimit,
+      });
+      if (result50.hotels.length > rawHotels.length) {
+        rawHotels = result50.hotels;
+      }
+      radiusUsed = 50;
+      fallbackUsed = true;
+      console.log(`[discover-search] 50km: ${result50.hotels.length} hotels found`);
+    } catch (err) {
+      console.error('[discover-search] 50km search failed:', err);
+    }
+  }
+
+  // Step 4: Last resort — city name search (only if we have a city name)
+  if (rawHotels.length < 3 && cityName) {
+    try {
+      // LiteAPI cityName search doesn't require a country code
+      // Try with and without country code
+      const cityResult = await searchHotelsByCity(cityName, countryCode || '', fetchLimit);
+      if (cityResult.hotels.length > rawHotels.length) {
+        rawHotels = cityResult.hotels;
+      }
+      radiusUsed = 0;
+      fallbackUsed = true;
+      console.log(`[discover-search] city "${cityName}": ${cityResult.hotels.length} hotels found`);
+    } catch (err) {
+      console.error('[discover-search] city search failed:', err);
+    }
   }
 
   if (rawHotels.length === 0) {

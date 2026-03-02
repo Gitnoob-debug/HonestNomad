@@ -70,6 +70,11 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
 
   // ── Carousel navigation (tap edges or swipe) ────────────────
   const handleImageClick = useCallback((e: React.MouseEvent) => {
+    // Always stop propagation on the image area so clicks don't
+    // bubble up to the outer div and navigate to checkout.
+    // The bottom content overlay handles hotel selection instead.
+    e.stopPropagation();
+
     if (!hasCarousel) return;
 
     const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
@@ -77,12 +82,11 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
     const tapZone = x / rect.width;
 
     if (tapZone < 0.35 && currentIndex > 0) {
-      e.stopPropagation();
       setCurrentIndex(prev => prev - 1);
     } else if (tapZone > 0.65 && currentIndex < totalImages - 1) {
-      e.stopPropagation();
       setCurrentIndex(prev => prev + 1);
     }
+    // Center zone: no-op (user is just looking at the photo)
   }, [hasCarousel, currentIndex, totalImages]);
 
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
@@ -93,7 +97,10 @@ export function HotelTile({ hotel, role, label, landmarkLat, landmarkLng, onSele
   }, []);
 
   const handleTouchEnd = useCallback((e: React.TouchEvent) => {
-    if (!touchStartRef.current || !hasCarousel) return;
+    if (!touchStartRef.current || !hasCarousel) {
+      touchStartRef.current = null;
+      return;
+    }
     const dx = e.changedTouches[0].clientX - touchStartRef.current.x;
     const dy = e.changedTouches[0].clientY - touchStartRef.current.y;
     touchStartRef.current = null;

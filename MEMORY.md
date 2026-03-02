@@ -271,15 +271,30 @@ The pipeline only sees metadata (caption, thumbnail), NOT actual video content:
 
 ---
 
-## Future: OpenClaw Agent-Native Integration
+## OpenClaw Agent-Native Integration
 
-**Status:** Planned — build after core booking flow is live with real payments.
+**Status:** Phase 1 + 2 + partial Phase 3 BUILT on `openclaw-agent` branch. Isolated — zero existing files touched.
+
+**Branch:** `openclaw-agent` (separate from `master`)
 
 HonestNomad as an agent-accessible travel tool on OpenClaw. Architecture: HN Agent (Claude Haiku) sits between OpenClaw and our existing APIs. No separate REST API, no API keys — the agent *is* the interface. Users discover/select hotels conversationally, then complete booking on our secure checkout page via tokenized link (`/book/{token}`). Supabase `booking_sessions` table for token management (30-min expiry, single-use). Rate re-verification at checkout. NUITEE_PAY for payment (MoR).
 
+### Key Files (all new, on `openclaw-agent` branch)
+| File | Purpose |
+|------|---------|
+| `lib/openclaw/agent.ts` | Main orchestrator — Claude Haiku with tool-use loop. Calls existing `searchDestinations()`, `searchHotelsForDiscoverFlow()`, `categorizeHotels()`, enriches with details/reviews |
+| `lib/openclaw/systemPrompt.ts` | Strict grounding rules (facts-only), 3 tool definitions (`search_destination`, `search_hotels`, `select_hotel`) |
+| `lib/openclaw/types.ts` | All TypeScript types — conversation, hotel summaries, booking sessions, rate limits |
+| `lib/openclaw/sessions.ts` | Supabase booking session tokens — create (UUID, 30-min expiry), retrieve, mark used |
+| `lib/openclaw/rateLimiter.ts` | Per-IP sliding window (10/min), daily global cap (1,000), hotel search per-session cap (5), kill switch |
+| `app/api/openclaw/chat/route.ts` | POST endpoint for agent conversations, GET for health check |
+| `app/api/openclaw/session/route.ts` | GET/POST for booking session retrieval + mark-as-used |
+| `app/book/[token]/page.tsx` | Standalone checkout page — hydrates from Supabase, trust header, full hotel recap |
+| `supabase/migrations/20260301_booking_sessions.sql` | Table schema + indexes + RLS |
+
 **Full plan with phases, risks, and mitigations in `docs/TODO.md`.**
 
-**Dependencies:** Real rates, NUITEE_PAY integration, Honest Take summaries.
+**Before going live:** Run Supabase migration, flip to real rates, integrate NUITEE_PAY, register on OpenClaw, Phase 3 safety testing (hallucination + adversarial).
 
 ---
 

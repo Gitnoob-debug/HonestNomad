@@ -139,7 +139,7 @@ These are the steps to go from demo to taking real money. Not started yet — cu
 
 ## Future: OpenClaw Agent-Native Integration
 
-> **Status:** Planned. Build after core Discover → Book flow is live with real payments.
+> **Status:** Phase 1 + 2 + partial Phase 3 **BUILT** on `openclaw-agent` branch (9 new files, 2,088 lines, zero existing files touched). Ready for testing once real rates + NUITEE_PAY are live.
 > **Premise:** Expose HonestNomad as an agent-accessible travel tool on OpenClaw, capturing the emerging agent-to-agent market. Users discover and select hotels through conversational AI, then complete booking on our secure checkout page.
 
 ### Architecture
@@ -158,29 +158,29 @@ OpenClaw Agent ←→ HN Agent (Claude Haiku orchestrator) ←→ Our existing A
 
 **Key design decision:** No separate REST API. The HN Agent *is* the interface — it speaks natural language to OpenClaw on one side and calls our existing internal functions on the other. No API keys, no auth system. Rate limiting at middleware level.
 
-### Phase 1: HN Agent Layer
-- [ ] **Agent endpoint** — Single POST endpoint that receives natural language from OpenClaw, routes to our pipeline
-- [ ] **System prompt** — Strict grounding rules: only state facts present in hotel data, never infer amenities/policies not explicitly provided, pre-generated "Honest Takes" only (no improvised editorializing)
-- [ ] **Destination discovery** — Agent calls our existing destination matching (715 curated destinations, vibes, daily costs, highlights). Structured data formatted into sentences, not free-text generation
-- [ ] **Hotel search orchestration** — Agent calls `searchHotelsForDiscoverFlow()` + `categorizeHotels()`, returns top 3 (Closest, Budget, Premium) with walk-time, price, stars, cancellation, Honest Take
-- [ ] **Conversational refinement** — Handle "cheaper", "closer to beach", "with a pool" by re-searching with adjusted filters. Agent manages conversation state (which hotels were shown, user preferences)
-- [ ] **Image URLs in responses** — Return hotel HD photo URLs, Supabase destination image URLs, and Mapbox Static Images API URLs (map with landmark + hotel pins, no JS needed). Let OpenClaw platform decide how to render them
-- [ ] **Rate expiry transparency** — Agent tells user "this rate is live for X minutes" (from LiteAPI `et` field). Creates natural urgency, sets honest expectations
+### Phase 1: HN Agent Layer ✅ Built (`openclaw-agent` branch)
+- ✅ **Agent endpoint** — `POST /api/openclaw/chat` receives natural language, orchestrates tool calls, returns curated response. `GET` health check.
+- ✅ **System prompt** — Strict grounding rules in `lib/openclaw/systemPrompt.ts`: facts-only, walk-time hero, never infer amenities/policies. 3 tool definitions for Claude tool-use.
+- ✅ **Destination discovery** — `search_destination` tool calls `searchDestinations()` + broad fallback search across 715 destinations. Returns vibes, highlights, daily costs, Supabase image URLs.
+- ✅ **Hotel search orchestration** — `search_hotels` tool calls `searchHotelsForDiscoverFlow()` + `categorizeHotels()` + parallel enrichment (details + reviews). Returns top 3 + up to 10 others with walk-time, price, stars, cancellation.
+- ✅ **Conversational refinement** — Agent manages conversation state (destination, hotels shown, dates, guests, rate expiry). Claude Haiku handles follow-up queries with context.
+- ✅ **Image URLs in responses** — Returns hotel HD photos, Supabase destination images, and Mapbox Static Images API map URLs (landmark + hotel pins).
+- ✅ **Rate expiry transparency** — Agent calculates and communicates minutes remaining on rate validity.
 
-### Phase 2: Secure Booking Handoff
-- [ ] **`booking_sessions` Supabase table** — UUID token, hotel/dates/guests JSON, `created_at`, `used` boolean
-- [ ] **Token generation** — Agent creates session when user picks a hotel, returns `honest-nomad.com/book/{token}`
-- [ ] **Token security** — 30-minute expiry, single-use (mark `used = true` on load), cryptographic UUIDs
-- [ ] **Standalone checkout page** — `/book/{token}` hydrates from Supabase instead of sessionStorage. Must work as a landing page: hero image, hotel recap, price, dates, cancellation policy, trust signals. Elegant enough that the link doesn't feel sketchy
-- [ ] **Rate re-verification** — On checkout load, re-fetch rate from LiteAPI. If price changed, show "Price updated since your search" with new number. Honest, no surprises
-- [ ] **Payment** — Same NUITEE_PAY flow as regular checkout. No PII stored. LiteAPI is MoR
+### Phase 2: Secure Booking Handoff ✅ Built (`openclaw-agent` branch)
+- ✅ **`booking_sessions` Supabase table** — Migration SQL in `supabase/migrations/20260301_booking_sessions.sql`. UUID token, JSONB hotel/destination data, expiry indexes, RLS.
+- ✅ **Token generation** — `createBookingSession()` in `lib/openclaw/sessions.ts`. Returns UUID + expiry timestamp.
+- ✅ **Token security** — 30-minute expiry, single-use (`used` boolean), cryptographic UUIDs via `randomUUID()`.
+- ✅ **Standalone checkout page** — `/book/[token]` hydrates from Supabase via `/api/openclaw/session`. Trust header, hotel hero, trip summary, room details, pricing, cancellation, reviews, amenities, sticky CTA.
+- [ ] **Rate re-verification** — On checkout load, re-fetch rate from LiteAPI. If price changed, show "Price updated since your search". (Not yet implemented — needs real rates first)
+- [ ] **Payment** — Same NUITEE_PAY flow as regular checkout. Currently shows placeholder modal. (Blocked on NUITEE_PAY integration)
 
-### Phase 3: Safety & Abuse Protection
-- [ ] **Rate limiting** — Per-session limits (X searches per conversation), global daily caps
-- [ ] **Cost monitoring** — Track Claude token spend + LiteAPI calls per day. Alert thresholds
-- [ ] **Kill switch** — Ability to disable agent endpoint instantly if costs spike
-- [ ] **Hallucination testing** — Systematic testing of agent responses against actual hotel data. Verify cancellation policies, amenities, prices match source data exactly
-- [ ] **Adversarial testing** — Prompt injection attempts, out-of-scope requests, attempts to extract system prompt or internal data
+### Phase 3: Safety & Abuse Protection (Partially Built)
+- ✅ **Rate limiting** — Per-IP sliding window (10 req/min), daily global cap (1,000), hotel search per-session cap (5). In `lib/openclaw/rateLimiter.ts`.
+- ✅ **Kill switch** — `activateKillSwitch()` / `deactivateKillSwitch()` blocks all requests instantly.
+- [ ] **Cost monitoring** — Track Claude token spend + LiteAPI calls per day. Alert thresholds.
+- [ ] **Hallucination testing** — Systematic testing of agent responses against actual hotel data. Verify cancellation policies, amenities, prices match source data exactly.
+- [ ] **Adversarial testing** — Prompt injection attempts, out-of-scope requests, attempts to extract system prompt or internal data.
 
 ### Phase 4: Post-Booking Support
 - [ ] **Design post-booking state** — What does the user see after booking? Confirmation page, email, booking reference
@@ -200,11 +200,13 @@ OpenClaw Agent ←→ HN Agent (Claude Haiku orchestrator) ←→ Our existing A
 | **Support routing** — User doesn't know who to contact post-booking | Medium | Clear branding on confirmation email + checkout page. Support workflow design in Phase 4 |
 | **Token interception** — Someone accesses a booking link not meant for them | Low | Short expiry (30 min), single-use, no PII in session (just hotel + dates), crypto UUIDs |
 
-### Dependencies
+### What's Left Before Going Live
+- [ ] **Run Supabase migration** — Execute `supabase/migrations/20260301_booking_sessions.sql` to create `booking_sessions` table
 - Requires **real rates** (flip `USE_MOCK_RATES`) — in progress
 - Requires **NUITEE_PAY payment integration** — not started
 - Requires **"Honest Take" AI summaries** — planned (critical for agent channel where text does the work of photos)
-- OpenClaw platform access / registration process — research needed
+- [ ] **OpenClaw platform registration** — research needed
+- [ ] **Phase 3 safety testing** — hallucination + adversarial testing before public launch
 
 ---
 

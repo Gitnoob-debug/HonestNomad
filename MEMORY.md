@@ -45,22 +45,23 @@ SECONDARY (Flash/Explore — PARKED, untouched):
 ```
 
 ### Discover Hotel Selection (conversion-optimized)
-- **Recommended tile** (Closest to photo's GPS) — 2/3 width, glow ring, "⭐ Recommended" badge
+- **3 equal featured tiles** — Recommended + Best Value + Premium Pick, same size, 3-col grid
 - **Walk-time hero metric** — "🚶 4 min walk to your spot" above hotel name (unique value prop)
-- **CTA differentiation** — "Book this hotel" on recommended vs "Select" on alternatives
-- **Alternative tiles** — Budget (Best Value) + High-End (Premium Pick) stacked in right column
-- **"See more"** — expands full list + map BELOW the featured tiles (tiles always pinned)
-- **Clickable cards** — whole card selects hotel (goes to checkout), no separate button needed
-- **Filters** — price range, star rating (client-side, no extra API calls)
-- **Mapbox map** — landmark pin (red) + hotel pins (blue), click to select
+- **Clickable cards** — entire tile selects hotel (goes to checkout), carousel edges still navigate photos
+- **Desktop sidebar layout** — sticky left sidebar with dates/guests/sort/filters/view toggle, full right side for hotels/map
+- **Mobile collapsible filters** — horizontal SearchControls at top, "Filters & Sort" expands/collapses below
+- **Dynamic filters** — sort (distance/price/rating/stars), price ranges computed from actual data, star buttons data-driven
+- **List/Map view toggle** — List view shows featured tiles + expandable list. Map view skips featured tiles, shows full list + map
+- **Hotel data enrichment** — HD images, chain badges, cancel deadline, review snippets, room details, important info
+- **Mapbox map** — landmark pin (red) + hotel pins (blue), separated marker creation from selection styling (no jump bug)
 
 ---
 
 ## What's Built & Working
 
 ### Destination Data
-- **500 curated destinations**, 85k+ POIs, 5GB+ Supabase images
-- **Daily cost data** — 495 destinations with per-person daily costs (USD): food, activities, transport
+- **715 curated destinations** (expanded from 500 — 200 new + 15 India), 85k+ POIs, 5GB+ Supabase images
+- **Daily cost data** — 495+ destinations with per-person daily costs (USD): food, activities, transport
   - Range: $40/day (Hanoi, Ella) to $400/day (Bora Bora). Mean $111, median $100
   - Stored as `dailyCosts` field in `lib/flash/destinations.ts`
 - **Travel time matrix** for 500+ destinations
@@ -82,13 +83,19 @@ SECONDARY (Flash/Explore — PARKED, untouched):
 - Redirects to `/discover/hotels` (NOT `/flash/explore`)
 - Distance-based defaults: short-haul = this weekend/3 nights, long-haul = 5 weeks out/7 nights
 - **Separate API endpoint** (`/api/hotels/discover-search`) with radius expansion: 5km → 15km → 50km → city-wide fallback
-- **Parallel photo enrichment** — `getHotelDetails` called for all ~20 hotels in parallel (not sequential)
+- **Parallel enrichment** — `getHotelDetails` + `getHotelReviews` for all ~20 hotels in parallel via `Promise.all`
 - **Hotel categorization** — `categorizeHotels()`: Closest (haversine), Budget (cheapest 3★+), High-End (highest stars/price)
 - **Walk-time conversion** — `formatTravelTime()`: meters → "X min walk" (≤20min) or "X min drive" (>20min), pure math
-- **Pre-selected recommended tile** — Closest hotel gets 2/3 width, glow ring, walk-time hero headline
-- **Featured tiles always pinned** — expanded list appears below, not instead of
-- **Clickable cards** — entire card is the action, no separate "Select" button needed
-- **Editable search controls** — dates + guests, triggers re-search on update
+- **3 equal featured tiles** — Recommended + Best Value + Premium Pick, all same height, 3-col grid
+- **List view** — featured tiles pinned at top, "See all X hotels" expands full list below
+- **Map view** — skips featured tiles entirely, shows full scrollable list + Mapbox map side-by-side
+- **Desktop sidebar** — sticky left sidebar (w-72) with vertical SearchControls + filters/sort/view toggle
+- **Mobile** — horizontal SearchControls + collapsible "Filters & Sort" button
+- **Clickable cards** — entire tile/card selects hotel, carousel edges navigate photos via stopPropagation
+- **Editable search controls** — dates + guests, triggers re-search on update. Vertical layout for sidebar, horizontal for mobile.
+- **Dynamic filters** — sort by distance/price/rating/stars, price ranges from actual data (thirds), star buttons data-driven
+- **Enrichment data on tiles** — HD images, chain badge, cancel micro-badge, review snippet (recommended only)
+- **Enrichment data on checkout** — HD hero, chain, room details card, expandable important info, guest reviews section
 - **Landmark GPS vs city GPS** — uses photo's actual GPS for best match tile, destination's coords for alternatives
 
 ### Discover → Checkout (`/discover/checkout`)
@@ -116,7 +123,7 @@ SECONDARY (Flash/Explore — PARKED, untouched):
 
 ### Other
 - **Anonymous browsing** — auth gate only at booking
-- **Unsplash image migration** — paused at batch 11/70 (~16%). Needs `UNSPLASH_ACCESS_KEY` in `.env.local` to resume
+- **Pexels image pipeline** — 554/715 downloaded, 496 uploaded to Supabase. Backfill + AI validation scripts ready. See Background Tasks.
 
 ---
 
@@ -142,10 +149,10 @@ SECONDARY (Flash/Explore — PARKED, untouched):
 | `app/api/hotels/discover-search/route.ts` | POST endpoint — search + categorize + enrich hotels (parallel) |
 | `components/discover/DestinationTile.tsx` | Immersive destination tile with image carousel, tap zones, vibes |
 | `components/discover/HotelTile.tsx` | Immersive hotel tile — carousel, walk-time hero, recommended treatment |
-| `components/discover/HotelTileGrid.tsx` | Featured layout — recommended (col-span-2) + stacked alternatives |
-| `components/discover/HotelExpandedList.tsx` | Full hotel list + filters + map toggle, clickable cards |
-| `components/discover/HotelMapView.tsx` | Mapbox map — landmark pin + hotel pins, click to select |
-| `components/discover/SearchControls.tsx` | Editable date pickers + guest stepper |
+| `components/discover/HotelTileGrid.tsx` | Featured layout — 3 equal tiles (Recommended + Budget + Premium) |
+| `components/discover/HotelExpandedList.tsx` | Full hotel list + map view, accepts pre-filtered data + viewMode from parent |
+| `components/discover/HotelMapView.tsx` | Mapbox map — landmark pin + hotel pins, separated creation/selection lifecycle |
+| `components/discover/SearchControls.tsx` | Date pickers + guest stepper, supports `layout="vertical"` for sidebar |
 | `components/discover/BookingSummary.tsx` | Checkout page — hotel hero, pricing, cancellation, CTA |
 | `components/discover/DiscoverDetailModal.tsx` | Full detail modal — carousel, pitch, highlights, cost, CTA |
 | `components/discover/ConfidenceBadge.tsx` | Green/amber/red confidence pill |
@@ -165,7 +172,7 @@ SECONDARY (Flash/Explore — PARKED, untouched):
 | `app/flash/confirm/page.tsx` | Confirm/package page — Trip Intelligence, day cards, walking routes |
 | `components/flash/FlashPlanInput.tsx` | Quick intent form (dates, travelers, vibes, budget) |
 | `components/flash/ImmersiveSwipeCard.tsx` | Swipe card for Flash city selection |
-| `lib/flash/destinations.ts` | 500 destinations with POIs, vibes, daily costs (7000+ lines) |
+| `lib/flash/destinations.ts` | 715 destinations with POIs, vibes, daily costs (7000+ lines) |
 | `lib/flash/distanceDefaults.ts` | Smart date defaults based on origin→destination distance |
 | `lib/flash/diversityEngine.ts` | Scoring functions (seasonal, vibe, budget, reachability) |
 | `lib/flash/vibeStyles.ts` | Shared VIBE_STYLES (colors, emojis) |
@@ -264,6 +271,26 @@ The pipeline only sees metadata (caption, thumbnail), NOT actual video content:
 
 ---
 
+## Future: OpenClaw Agent-Native Integration
+
+**Status:** Planned — build after core booking flow is live with real payments.
+
+HonestNomad as an agent-accessible travel tool on OpenClaw. Architecture: HN Agent (Claude Haiku) sits between OpenClaw and our existing APIs. No separate REST API, no API keys — the agent *is* the interface. Users discover/select hotels conversationally, then complete booking on our secure checkout page via tokenized link (`/book/{token}`). Supabase `booking_sessions` table for token management (30-min expiry, single-use). Rate re-verification at checkout. NUITEE_PAY for payment (MoR).
+
+**Full plan with phases, risks, and mitigations in `docs/TODO.md`.**
+
+**Dependencies:** Real rates, NUITEE_PAY integration, Honest Take summaries.
+
+---
+
 ## Background Tasks
 
-- **Unsplash image migration** — Paused at batch 11/70 (~16%). Downloads destination photos in batches (~1 batch/hour, 50 req/hour rate limit). Needs `UNSPLASH_ACCESS_KEY` in `.env.local`. Restart with: `npx tsx scripts/image-migration/migrate-images.ts --continuous`. Progress saved in `scripts/image-migration/progress.json`.
+- **Unsplash migration** — Paused at batch 11/70 (~16%). Superseded by Pexels pipeline below.
+- **Pexels image pipeline** — Primary image source. 554/715 destinations downloaded (32,842 images, 8.5GB+). 155 remaining (~13hrs). Script: `npx tsx scripts/image-migration/pexels-migrate.ts --continuous`. 496 destinations already uploaded to Supabase (29,209 images). Backfill script ready for over-downloading (~63k extra images for quality pruning). AI validation script built (Claude Haiku 4.5, ~$150 for full run). Pipeline: finish download → backfill → validate → prune → upload → fix Malmö unicode issue.
+  - Download: `scripts/image-migration/pexels-migrate.ts`
+  - Backfill: `scripts/image-migration/pexels-backfill.ts`
+  - Validate: `scripts/image-migration/validate-images.ts`
+  - Upload: `scripts/image-migration/upload-pexels-to-supabase.ts`
+  - Config: `scripts/image-migration/pexels-config.ts`
+  - Progress: `scripts/image-migration/pexels-progress.json`
+  - Manifest: `scripts/image-migration/pexels-manifest.json`

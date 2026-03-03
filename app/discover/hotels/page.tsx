@@ -10,7 +10,7 @@ import { HotelTileGrid } from '@/components/discover/HotelTileGrid';
 import { HotelExpandedList } from '@/components/discover/HotelExpandedList';
 
 // ── Discover Hotels Page ──────────────────────────────────────────
-// Step 2 of the Discover flow: Photo → Destination tiles → **Hotels** → Checkout
+// Step 2 of the Discover flow: Photo → Destination tiles → **Hotels** → Rooms → Checkout
 // Desktop: sticky left sidebar with controls, right side for hotel tiles/map
 // Mobile: controls at top with collapsible filters
 
@@ -372,7 +372,7 @@ export default function DiscoverHotelsPage() {
 
   const handleSelectHotel = useCallback((hotel: HotelOption) => {
     sessionStorage.setItem('discover_selected_hotel', JSON.stringify(hotel));
-    router.push('/discover/checkout');
+    router.push('/discover/rooms');
   }, [router]);
 
   const handleBack = useCallback(() => {

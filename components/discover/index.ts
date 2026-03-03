@@ -7,3 +7,4 @@ export { HotelExpandedList } from './HotelExpandedList';
 export { HotelMapView } from './HotelMapView';
 export { SearchControls } from './SearchControls';
 export { BookingSummary } from './BookingSummary';
+export { RoomCard } from './RoomCard';

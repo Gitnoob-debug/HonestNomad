@@ -273,9 +273,7 @@ The pipeline only sees metadata (caption, thumbnail), NOT actual video content:
 
 ## OpenClaw Agent-Native Integration
 
-**Status:** Phase 1 + 2 + partial Phase 3 BUILT on `openclaw-agent` branch. Isolated — zero existing files touched.
-
-**Branch:** `openclaw-agent` (separate from `master`)
+**Status:** Phase 1 + 2 + partial Phase 3 BUILT. Merged to `master` (originally built on isolated `openclaw-agent` branch — zero existing files touched).
 
 HonestNomad as an agent-accessible travel tool on OpenClaw. Architecture: HN Agent (Claude Haiku) sits between OpenClaw and our existing APIs. No separate REST API, no API keys — the agent *is* the interface. Users discover/select hotels conversationally, then complete booking on our secure checkout page via tokenized link (`/book/{token}`). Supabase `booking_sessions` table for token management (30-min expiry, single-use). Rate re-verification at checkout. NUITEE_PAY for payment (MoR).
 

@@ -84,11 +84,13 @@
 
 ### Data & Images
 - ✅ **715 curated destinations** — expanded from 500 (200 new + 15 India destinations)
-- ✅ **Pexels image download** — 554/715 done, 32,842 images (8.5GB+). 155 remaining (~13hrs).
-- ✅ **Supabase upload** — 496 destinations already uploaded (29,209 images). Resume script ready.
-- ✅ **Backfill script built** — over-downloads extra images per tier for quality pruning (~63k additional images)
-- ✅ **AI validation script built** — Claude Haiku 4.5 scores images 1-5 for location relevance, `--prune` deletes junk
-- 🔄 **Image pipeline in progress** — remaining steps: finish initial download → backfill over-download (~62hrs) → AI validate (~$150) → prune rejects → upload survivors to Supabase → fix Malmö filename issue
+- 🔄 **Pexels image download** — ~603/715 done, ~35,600 images (9GB+). ~106 remaining (~7hrs).
+- ✅ **Supabase upload script** — 496 destinations already uploaded (29,209 images). Resume-capable.
+- ✅ **Backfill script built** — `pexels-backfill.ts` — over-downloads extra images per tier (T1→260, T2→165, T3→170). ~63k additional images, ~62hrs runtime.
+- ✅ **AI validation script built** — `validate-images.ts` — Claude Haiku 4.5 scores images 1-5 for location relevance. Tested: Taos 82% junk, Paris 32% junk. ~$150 for full run.
+- ✅ **Dedup script built** — `deduplicate-images.ts` — perceptual hash (dHash) clustering. Keeps 3 similar per cluster (4 for landmarks). Smart keeper selection by quality/resolution.
+- 🔄 **Image pipeline in progress** — remaining steps: finish initial download (~7hrs) → backfill over-download (~62hrs) → deduplicate → AI validate (~$150) → prune rejects → upload survivors to Supabase
+- [ ] **Malmö filename bug** — Unicode ö in filenames breaks Supabase upload. Needs sanitization.
 - [ ] **13 destinations missing POI data** — Blocked by Google Places budget cap. Need alternative data source (NOT Google Places API). Possible options: OpenStreetMap/Overpass, Foursquare, or Claude-generated POIs.
 - [ ] **POI images** — Still reference Google API URLs. Need migration to Supabase Storage.
 
@@ -249,9 +251,9 @@ Not needed for MVP, but available in the API and could differentiate:
 |---------|--------------|--------|
 | YouTube multi-location | YouTube Data API v3 key (free) | ~2 min setup |
 | Instagram oEmbed | Meta developer app token (free) | ~15 min setup |
-| Pexels download finishing | 155 destinations remaining | ~13hrs runtime |
+| Pexels download finishing | ~106 destinations remaining | ~7hrs runtime |
 | Pexels backfill | Over-download for quality pruning | ~62hrs runtime |
-| AI image validation | Claude Haiku 4.5 scoring | ~$150, 3-4hrs |
+| Dedup + AI validation | Hash clustering + Haiku scoring | ~$150, 4-5hrs |
 | Malmö filename bug | Unicode ö in Supabase upload paths | Quick fix |
 | 13 destinations missing POIs | Alternative to Google Places | Research needed |
 | POI images reference Google | Migrate to Supabase Storage | Script work |

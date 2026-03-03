@@ -113,6 +113,7 @@ export default function DiscoverPage() {
   const [result, setResult] = useState<LocationAnalysisResponse | null>(null);
   const [confirmed, setConfirmed] = useState(false);
   const [selectedTile, setSelectedTile] = useState<AlternativeTile | null>(null);
+  const [redirecting, setRedirecting] = useState(false);
 
   // Map
   const mapContainerRef = useRef<HTMLDivElement>(null);
@@ -122,9 +123,11 @@ export default function DiscoverPage() {
   // File input ref
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // ── Navigate to explore page with a destination tile ──────────────
+  // ── Navigate to whitelabel booking site with a destination tile ────
 
-  const selectDestination = useCallback((dest: AlternativeTile['destination'], tileRole?: AlternativeTileRole) => {
+  const selectDestination = useCallback(async (dest: AlternativeTile['destination'], tileRole?: AlternativeTileRole) => {
+    setRedirecting(true);
+
     sessionStorage.setItem('discover_destination', JSON.stringify(dest));
 
     // Ensure traveler type is set (respect existing value from FlashPlanInput)
@@ -171,7 +174,7 @@ export default function DiscoverPage() {
       tripNights = fallback.nights;
     }
 
-    // Build a FlashTripPackage so the explore page can load it
+    // Build a FlashTripPackage so the explore page can load it (backward compat)
     const tripPackage = {
       id: `discover-${dest.id}-${Date.now()}`,
       destination: {
@@ -201,7 +204,7 @@ export default function DiscoverPage() {
       tagline: dest.highlights?.[0] || `Explore ${dest.city}`,
     };
 
-    // Store everything the explore page expects (backward compatibility with Path 2)
+    // Store everything (backward compatibility with Flash/Explore)
     sessionStorage.setItem('flash_selected_trip', JSON.stringify(tripPackage));
     sessionStorage.setItem('flash_generate_params', JSON.stringify({
       departureDate: checkinDate,
@@ -213,23 +216,106 @@ export default function DiscoverPage() {
         returnDate: checkoutDate,
       },
     }));
-
-    // ── Discover flow: store landmark coords + dates for hotel search ──
-    // Use the photo's landmark GPS only if the user selected the BEST MATCH
-    // destination (the one that actually matched the photo). For alternative
-    // tiles (Closer, Budget, Similar Vibe), use the destination's own coords
-    // since the photo location is a completely different place.
-    const isBestMatchDest = result?.matchedDestination?.id === dest.id;
-    const landmarkCoords = (isBestMatchDest && result?.location)
-      ? { lat: result.location.lat, lng: result.location.lng }
-      : { lat: dest.latitude, lng: dest.longitude };
-    sessionStorage.setItem('discover_landmark_coords', JSON.stringify(landmarkCoords));
     sessionStorage.setItem('discover_checkin', checkinDate);
     sessionStorage.setItem('discover_checkout', checkoutDate);
     sessionStorage.setItem('discover_guests', JSON.stringify({ adults: 2, children: [] }));
 
-    // Route to hotel selection (Discover flow)
-    router.push('/discover/hotels');
+    // ── Whitelabel redirect: resolve placeId and build URL ──────────
+    const whitelabelDomain = process.env.NEXT_PUBLIC_WHITELABEL_DOMAIN;
+
+    // If no whitelabel domain configured, fall back to custom hotel page
+    if (!whitelabelDomain) {
+      console.warn('NEXT_PUBLIC_WHITELABEL_DOMAIN not set — falling back to /discover/hotels');
+      const isBestMatchDest = result?.matchedDestination?.id === dest.id;
+      const landmarkCoords = (isBestMatchDest && result?.location)
+        ? { lat: result.location.lat, lng: result.location.lng }
+        : { lat: dest.latitude, lng: dest.longitude };
+      sessionStorage.setItem('discover_landmark_coords', JSON.stringify(landmarkCoords));
+      setRedirecting(false);
+      router.push('/discover/hotels');
+      return;
+    }
+
+    // Determine the best placeId:
+    // - Best Match tile (from photo) → look up LANDMARK placeId (e.g. "Colosseum Rome")
+    // - Alternative tiles → use CITY placeId from destinations.json
+    let placeId: string | null = null;
+
+    const isBestMatchDest = result?.matchedDestination?.id === dest.id;
+
+    // 1. Best match with landmark → real-time lookup for landmark-specific placeId
+    if (isBestMatchDest && result?.location?.locationString) {
+      try {
+        const lookupResponse = await fetch('/api/places/lookup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            query: `${result.location.locationString} ${dest.country}`,
+          }),
+        });
+        if (lookupResponse.ok) {
+          const data = await lookupResponse.json();
+          placeId = data.placeId;
+        }
+      } catch (error) {
+        console.error('Landmark placeId lookup failed, falling back to city:', error);
+      }
+    }
+
+    // 2. Fallback: city placeId from destinations.json (populated by batch script)
+    if (!placeId && fullDest) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      placeId = (fullDest as any).placeId || null;
+    }
+
+    // 3. Last resort: try a city-level lookup
+    if (!placeId) {
+      try {
+        const cityLookup = await fetch('/api/places/lookup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            query: `${dest.city} ${dest.country}`,
+            type: 'locality',
+          }),
+        });
+        if (cityLookup.ok) {
+          const data = await cityLookup.json();
+          placeId = data.placeId;
+        }
+      } catch (error) {
+        console.error('City placeId lookup failed:', error);
+      }
+    }
+
+    // If we still can't get a placeId, fall back to custom hotel page
+    if (!placeId) {
+      console.warn('Could not resolve placeId — falling back to /discover/hotels');
+      const landmarkCoords = (isBestMatchDest && result?.location)
+        ? { lat: result.location.lat, lng: result.location.lng }
+        : { lat: dest.latitude, lng: dest.longitude };
+      sessionStorage.setItem('discover_landmark_coords', JSON.stringify(landmarkCoords));
+      setRedirecting(false);
+      router.push('/discover/hotels');
+      return;
+    }
+
+    // Build Base64-encoded occupancies for whitelabel
+    const occupancies = btoa(JSON.stringify([{ adults: 2, children: [] }]));
+
+    // Build the whitelabel URL with deep link params
+    const params = new URLSearchParams({
+      placeId,
+      checkin: checkinDate,
+      checkout: checkoutDate,
+      occupancies,
+      sorting: '6',       // Sort by distance (closest first)
+      currency: 'USD',
+      clientReference: `hn-${dest.id}-${Date.now()}`,
+    });
+
+    // Redirect to the whitelabel booking site
+    window.location.href = `https://${whitelabelDomain}/hotels?${params.toString()}`;
   }, [router, result]);
 
   // ── Image upload handler ───────────────────────────────────────────
@@ -632,6 +718,37 @@ export default function DiscoverPage() {
                 >
                   Find this place
                 </button>
+              </div>
+            )}
+
+            {/* ── Redirecting to booking site ────────────────────── */}
+            {redirecting && (
+              <div className="text-center py-16">
+                <div className="inline-flex items-center gap-3 px-6 py-3 bg-white rounded-full shadow-sm border border-gray-200">
+                  <svg
+                    className="animate-spin h-5 w-5 text-primary-600"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle
+                      className="opacity-25"
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="currentColor"
+                      strokeWidth="4"
+                    />
+                    <path
+                      className="opacity-75"
+                      fill="currentColor"
+                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                    />
+                  </svg>
+                  <span className="text-gray-700 font-medium">
+                    Finding hotels nearby...
+                  </span>
+                </div>
               </div>
             )}
 

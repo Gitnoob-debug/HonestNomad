@@ -192,6 +192,42 @@ export async function getHotelReviews(
 }
 
 /**
+ * Look up Google Place ID for a location query
+ * Uses LiteAPI's /data/places endpoint ($0.01/call)
+ * Returns the first matching place_id, or null if not found
+ */
+export async function lookupPlaceId(
+  query: string,
+  type: string = 'locality'
+): Promise<{ placeId: string; description: string } | null> {
+  try {
+    const params = new URLSearchParams({
+      textQuery: query,
+      type,
+    });
+
+    const response = await liteApiRequest<{
+      data: Array<{
+        place_id: string;
+        description: string;
+      }>;
+    }>(`/data/places?${params}`);
+
+    if (response.data && response.data.length > 0) {
+      return {
+        placeId: response.data[0].place_id,
+        description: response.data[0].description,
+      };
+    }
+
+    return null;
+  } catch (error) {
+    console.error(`Failed to look up placeId for "${query}":`, error);
+    return null;
+  }
+}
+
+/**
  * Get minimum rates for multiple hotels (for listing/comparison)
  * Returns the cheapest available rate for each hotel
  */

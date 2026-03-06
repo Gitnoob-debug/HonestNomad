@@ -1,0 +1,115 @@
+{
+  "destinationId": "queretaro",
+  "city": "Queretaro",
+  "country": "Mexico",
+  "transportAdvice": "Queretaro's colonial center is compact and walkable; the wine route in the surrounding hills requires a car or tour.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-only",
+  "costLevel": "budget",
+  "timeZone": "UTC-6",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winter with cool evenings; good for cultural sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool; spring begins to hint at warmer days ahead."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming steadily with pleasant daytime temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and sunny; outdoor cafés and terraces come alive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry; beach season begins in earnest."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Full summer heat with very long, sunny days."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak heat; seek shade in the afternoon and enjoy warm nights."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intensely hot; coastal breezes provide welcome relief."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still very warm; one of the best months for swimming."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm; the crowds depart but the sun stays."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn with comfortable temperatures for walking."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and quiet; low season with good value."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

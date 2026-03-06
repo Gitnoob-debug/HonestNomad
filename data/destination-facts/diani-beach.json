@@ -1,0 +1,115 @@
+{
+  "destinationId": "diani-beach",
+  "city": "Diani Beach",
+  "country": "Kenya",
+  "transportAdvice": "Diani Beach is a long coastal strip south of Mombasa; tuk-tuks and taxis connect hotels, restaurants, and activities.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-only",
+  "costLevel": "moderate",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and dry; excellent for wildlife viewing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Continued dry season; game congregates at water sources."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Short rains may begin; still good for safaris."
+    },
+    {
+      "month": 4,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Long rains begin; lush and green but muddy roads."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season; fewer tourists and lower prices."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain easing; cooler temperatures are pleasant."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool and dry; wildebeest migration in some areas."
+    },
+    {
+      "month": 8,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Dry season; excellent wildlife viewing conditions."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warming up; dry conditions continue."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Short rains may arrive; still generally pleasant."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Occasional showers; green and lush landscapes."
+    },
+    {
+      "month": 12,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Dry season returns; festive and warm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "huaraz",
+  "city": "Huaraz",
+  "country": "Peru",
+  "transportAdvice": "Huaraz is a small city at 3,050m; the city center is walkable, and trekking routes require colectivos or guided transport to trailheads.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-only",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 18,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season with warm days and cool nights; pack layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry weather; comfortable for outdoor exploration."
+    },
+    {
+      "month": 3,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Light rains begin; green landscapes emerge."
+    },
+    {
+      "month": 4,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season begins; afternoon downpours are common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rain; mornings are usually clear for activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and drier than peak rain months."
+    },
+    {
+      "month": 7,
+      "avgHighC": 14,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and relatively dry; great for hiking."
+    },
+    {
+      "month": 8,
+      "avgHighC": 15,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to July; pleasant daytime temperatures."
+    },
+    {
+      "month": 9,
+      "avgHighC": 16,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming up with occasional showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Second short rainy season in some areas."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Drying out with warm, pleasant conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns; ideal for travel."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

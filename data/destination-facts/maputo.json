@@ -1,0 +1,115 @@
+{
+  "destinationId": "maputo",
+  "city": "Maputo",
+  "country": "Mozambique",
+  "transportAdvice": "Maputo's city center is walkable; the waterfront, markets, and colonial-era buildings are all in a compact area.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-only",
+  "costLevel": "budget",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Hot and dry; excellent for wildlife viewing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Continued dry season; game congregates at water sources."
+    },
+    {
+      "month": 3,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Short rains may begin; still good for safaris."
+    },
+    {
+      "month": 4,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Long rains begin; lush and green but muddy roads."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rainy season; fewer tourists and lower prices."
+    },
+    {
+      "month": 6,
+      "avgHighC": 25,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Rain easing; cooler temperatures are pleasant."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool and dry; wildebeest migration in some areas."
+    },
+    {
+      "month": 8,
+      "avgHighC": 25,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Dry season; excellent wildlife viewing conditions."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warming up; dry conditions continue."
+    },
+    {
+      "month": 10,
+      "avgHighC": 27,
+      "avgLowC": 19,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Short rains may arrive; still generally pleasant."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Occasional showers; green and lush landscapes."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Dry season returns; festive and warm."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "stellenbosch",
+  "city": "Stellenbosch",
+  "country": "South Africa",
+  "transportAdvice": "Stellenbosch is a compact university town easily explored on foot; wine estates are a short drive into the surrounding valleys.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer; hot, dry days perfect for wine country."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still hot; long beach days and outdoor dining."
+    },
+    {
+      "month": 3,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Autumn begins; slightly cooler and very pleasant."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling down; rain begins to increase."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and wet; whale watching season begins."
+    },
+    {
+      "month": 6,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Winter arrives; cold and rainy but good storm watching."
+    },
+    {
+      "month": 7,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Coldest month; rain and wind; great for indoor wine tastings."
+    },
+    {
+      "month": 8,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cool and wet; wildflowers begin in some areas."
+    },
+    {
+      "month": 9,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives; whale watching at its peak."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming up with spring flowers and pleasant days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and dry; jacarandas bloom in some cities."
+    },
+    {
+      "month": 12,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Summer returns; festive season with long, warm days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

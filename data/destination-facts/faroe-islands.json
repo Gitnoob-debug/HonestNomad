@@ -1,0 +1,115 @@
+{
+  "destinationId": "faroe-islands",
+  "city": "Faroe Islands",
+  "country": "Denmark",
+  "transportAdvice": "The Faroe Islands are connected by tunnels, ferries, and helicopters; a rental car is essential for exploring the 18 islands.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+0",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Dark and cold; Northern Lights season at its peak."
+    },
+    {
+      "month": 2,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still very cold with minimal daylight; wrap up warm."
+    },
+    {
+      "month": 3,
+      "avgHighC": 5,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Days lengthen noticeably; snow still covers the landscape."
+    },
+    {
+      "month": 4,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring thaw begins with rapidly increasing daylight."
+    },
+    {
+      "month": 5,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool but pleasant; midnight sun approaches in the north."
+    },
+    {
+      "month": 6,
+      "avgHighC": 15,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild summer days with near-continuous daylight."
+    },
+    {
+      "month": 7,
+      "avgHighC": 16,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warmest month; ideal for hiking and outdoor adventures."
+    },
+    {
+      "month": 8,
+      "avgHighC": 16,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still mild; berries ripen and autumn hints begin."
+    },
+    {
+      "month": 9,
+      "avgHighC": 13,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cooling quickly; autumn colours emerge."
+    },
+    {
+      "month": 10,
+      "avgHighC": 9,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and wet; Northern Lights season returns."
+    },
+    {
+      "month": 11,
+      "avgHighC": 5,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Dark and cold; winter sets in with snow likely."
+    },
+    {
+      "month": 12,
+      "avgHighC": 4,
+      "avgLowC": 0,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Deep winter; shortest days but magical snowy landscapes."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

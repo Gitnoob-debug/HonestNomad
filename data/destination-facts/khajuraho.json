@@ -1,0 +1,115 @@
+{
+  "destinationId": "khajuraho",
+  "city": "Khajuraho",
+  "country": "India",
+  "transportAdvice": "Khajuraho is a small town; the Western Group of temples is walkable, and bicycle rickshaws reach the Eastern and Southern groups.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-only",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and warm; peak tourist season with clear skies."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming up; still dry and comfortable."
+    },
+    {
+      "month": 3,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry; temperatures rising steadily."
+    },
+    {
+      "month": 4,
+      "avgHighC": 36,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Very hot; pre-monsoon heat builds."
+    },
+    {
+      "month": 5,
+      "avgHighC": 37,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Extremely hot and humid; monsoon approaching."
+    },
+    {
+      "month": 6,
+      "avgHighC": 34,
+      "avgLowC": 26,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon arrives with heavy rains and cooler air."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon; heavy rainfall and lush green landscapes."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued monsoon; flooding possible in some areas."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon winding down; rain still frequent."
+    },
+    {
+      "month": 10,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Post-monsoon; clearing skies and pleasant temperatures."
+    },
+    {
+      "month": 11,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and comfortable; tourist season begins."
+    },
+    {
+      "month": 12,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and pleasant; peak season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-03-01",
+    "lastUpdated": "2026-03-01",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

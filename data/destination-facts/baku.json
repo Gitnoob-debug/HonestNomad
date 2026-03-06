@@ -1,0 +1,115 @@
+{
+  "destinationId": "baku",
+  "city": "Baku",
+  "country": "Azerbaijan",
+  "transportAdvice": "Baku has a metro system and walkable seaside boulevard; the Old City (Icherisheher) is compact and pedestrian-friendly.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey; snow possible; cozy wine bars and cafés."
+    },
+    {
+      "month": 2,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold; hints of spring toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 14,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives; parks and gardens come alive."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant; ideal for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm days and cool evenings; mountain trails open."
+    },
+    {
+      "month": 6,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer; outdoor dining and hiking season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry; seek cooler mountain elevations."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat; festivals and nightlife."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn warmth; grape harvest season."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and colourful; wine season at its peak."
+    },
+    {
+      "month": 11,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and damp; winter is coming."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold with festive atmosphere and warm hospitality."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "pushkar",
+  "city": "Pushkar",
+  "country": "India",
+  "transportAdvice": "Pushkar is a tiny town easily walked in 30 minutes; the lake, temple, and bazaar are all steps apart.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-only",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 22,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry; perfect desert weather with clear skies."
+    },
+    {
+      "month": 2,
+      "avgHighC": 25,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming up; still pleasant and dry."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Getting hot; desert heat starts to build."
+    },
+    {
+      "month": 4,
+      "avgHighC": 36,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot; limit outdoor activity to mornings and evenings."
+    },
+    {
+      "month": 5,
+      "avgHighC": 39,
+      "avgLowC": 25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Extreme heat; the desert bakes under relentless sun."
+    },
+    {
+      "month": 6,
+      "avgHighC": 38,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pre-monsoon; occasional dust storms and scattered rain."
+    },
+    {
+      "month": 7,
+      "avgHighC": 34,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Monsoon brings some relief; brief but intense showers."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Continued monsoon influence; slightly cooler."
+    },
+    {
+      "month": 9,
+      "avgHighC": 33,
+      "avgLowC": 22,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Monsoon retreating; heat returns."
+    },
+    {
+      "month": 10,
+      "avgHighC": 33,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooling down; pleasant evenings return."
+    },
+    {
+      "month": 11,
+      "avgHighC": 28,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable and dry; ideal visiting conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 23,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry; peak tourist season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-03-01",
+    "lastUpdated": "2026-03-01",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

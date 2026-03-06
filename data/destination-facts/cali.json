@@ -1,0 +1,115 @@
+{
+  "destinationId": "cali",
+  "city": "Cali",
+  "country": "Colombia",
+  "transportAdvice": "Cali is served by buses and taxis; the San Antonio neighborhood and downtown are walkable, though distances between areas can be large.",
+  "safetyLevel": "exercise-caution",
+  "waterSafety": "bottled-only",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season with warm days and cool nights; pack layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 27,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry weather; comfortable for outdoor exploration."
+    },
+    {
+      "month": 3,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Light rains begin; green landscapes emerge."
+    },
+    {
+      "month": 4,
+      "avgHighC": 26,
+      "avgLowC": 16,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season begins; afternoon downpours are common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rain; mornings are usually clear for activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and drier than peak rain months."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and relatively dry; great for hiking."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to July; pleasant daytime temperatures."
+    },
+    {
+      "month": 9,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming up with occasional showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Second short rainy season in some areas."
+    },
+    {
+      "month": 11,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Drying out with warm, pleasant conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns; ideal for travel."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "cadiz",
+  "city": "Cadiz",
+  "country": "Spain",
+  "transportAdvice": "Cadiz is a compact peninsula city easily explored on foot; the old town's narrow streets open onto squares and sea views.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winter days with occasional rain; pleasant for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool but brightening, with fewer tourists and lower prices."
+    },
+    {
+      "month": 3,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with wildflowers and comfortable temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and sunny; ideal for outdoor exploration."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry; long sunny days perfect for the coast."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Full summer heat arrives with clear blue skies."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer; hot and dry with intense sunshine."
+    },
+    {
+      "month": 8,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hottest month; beaches and evening dining come alive."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still warm with comfortable evenings; crowds thin out."
+    },
+    {
+      "month": 10,
+      "avgHighC": 23,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant autumn warmth with occasional showers returning."
+    },
+    {
+      "month": 11,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling but mild; a quiet, affordable time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winter with festive markets and fewer crowds."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

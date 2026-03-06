@@ -1,0 +1,115 @@
+{
+  "destinationId": "gaziantep",
+  "city": "Gaziantep",
+  "country": "Turkey",
+  "transportAdvice": "Gaziantep's old town is compact and walkable; the bazaar district and major museums are all within easy reach of the city center.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 3,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold and dry; clear skies but chilly winds."
+    },
+    {
+      "month": 2,
+      "avgHighC": 6,
+      "avgLowC": -2,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Slowly warming; still cold at night."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with pleasant daytime temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and comfortable; ideal for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot days begin; dry heat is manageable."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot and dry; morning and evening activities best."
+    },
+    {
+      "month": 7,
+      "avgHighC": 35,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak heat; seek shade and stay hydrated."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still very hot; nighttime brings welcome coolness."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooling down; comfortable for exploration."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Pleasant autumn warmth; excellent visiting conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry; winter approaches."
+    },
+    {
+      "month": 12,
+      "avgHighC": 5,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold but dry; crisp clear days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "trabzon",
+  "city": "Trabzon",
+  "country": "Turkey",
+  "transportAdvice": "Trabzon is compact and walkable in the center; dolmuş minibuses connect surrounding mountain villages and coastal towns.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 9,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and grey with frequent rain; warm layers essential."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cold with occasional rain, though days are lengthening."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring brings mild days and occasional sunny spells."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather with longer, warmer days."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny; one of the best months to visit."
+    },
+    {
+      "month": 6,
+      "avgHighC": 22,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer days with long, bright evenings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 24,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warmest month with generally pleasant conditions."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and often sunny; peak summer weather."
+    },
+    {
+      "month": 9,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn with a mix of sun and showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 16,
+      "avgLowC": 11,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cooling down with increasing rain and autumn colour."
+    },
+    {
+      "month": 11,
+      "avgHighC": 12,
+      "avgLowC": 7,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, wet, and increasingly dark; pack waterproofs."
+    },
+    {
+      "month": 12,
+      "avgHighC": 9,
+      "avgLowC": 5,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold and damp; festive atmosphere offsets the grey skies."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

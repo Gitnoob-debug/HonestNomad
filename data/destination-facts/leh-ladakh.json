@@ -1,0 +1,115 @@
+{
+  "destinationId": "leh-ladakh",
+  "city": "Leh-Ladakh",
+  "country": "India",
+  "transportAdvice": "Leh is walkable but at 3,500m altitude — acclimatize for a day before exploring. Ladakh's vast distances require hired cars or bikes along dramatic mountain roads.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-only",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -2,
+      "avgLowC": -14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Extremely cold and snowy; most roads closed."
+    },
+    {
+      "month": 2,
+      "avgHighC": 1,
+      "avgLowC": -12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still bitterly cold; frozen rivers create the Chadar trek."
+    },
+    {
+      "month": 3,
+      "avgHighC": 7,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Slowly warming; snow begins to melt at lower elevations."
+    },
+    {
+      "month": 4,
+      "avgHighC": 13,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring arrives; passes begin to open."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant days and cool nights; tourism season begins."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry; best month for trekking and sightseeing."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warmest month; some monsoon moisture reaches Ladakh."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still warm; occasional rain showers."
+    },
+    {
+      "month": 9,
+      "avgHighC": 22,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cooling down; clear skies and golden light."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold nights return; most trekking wraps up."
+    },
+    {
+      "month": 11,
+      "avgHighC": 7,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry; tourist facilities begin closing."
+    },
+    {
+      "month": 12,
+      "avgHighC": 0,
+      "avgLowC": -11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Deep winter; roads snow-blocked; very few visitors."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-03-01",
+    "lastUpdated": "2026-03-01",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

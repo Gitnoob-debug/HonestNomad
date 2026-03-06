@@ -1,0 +1,115 @@
+{
+  "destinationId": "siena",
+  "city": "Siena",
+  "country": "Italy",
+  "transportAdvice": "Siena's medieval center is car-free and walkable, though the hills are steep; comfortable shoes are a must.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+1",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winter days with occasional rain; pleasant for sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool but brightening, with fewer tourists and lower prices."
+    },
+    {
+      "month": 3,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives with wildflowers and comfortable temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and sunny; ideal for outdoor exploration."
+    },
+    {
+      "month": 5,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry; long sunny days perfect for the coast."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Full summer heat arrives with clear blue skies."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak summer; hot and dry with intense sunshine."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hottest month; beaches and evening dining come alive."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still warm with comfortable evenings; crowds thin out."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant autumn warmth with occasional showers returning."
+    },
+    {
+      "month": 11,
+      "avgHighC": 16,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling but mild; a quiet, affordable time to visit."
+    },
+    {
+      "month": 12,
+      "avgHighC": 13,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winter with festive markets and fewer crowds."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

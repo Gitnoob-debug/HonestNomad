@@ -1,0 +1,115 @@
+{
+  "destinationId": "andaman-islands",
+  "city": "Andaman Islands",
+  "country": "India",
+  "transportAdvice": "The Andamans are reached by flight to Port Blair; ferries and speedboats connect the islands, and a car or scooter helps on larger islands.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-only",
+  "costLevel": "moderate",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season; perfect beach and diving conditions."
+    },
+    {
+      "month": 2,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry weather; crystal-clear waters."
+    },
+    {
+      "month": 3,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warming up; still excellent visibility for snorkeling."
+    },
+    {
+      "month": 4,
+      "avgHighC": 32,
+      "avgLowC": 25,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Getting humid; occasional showers begin."
+    },
+    {
+      "month": 5,
+      "avgHighC": 31,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Southwest monsoon approaches; seas getting rough."
+    },
+    {
+      "month": 6,
+      "avgHighC": 30,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full monsoon; heavy rain and rough seas."
+    },
+    {
+      "month": 7,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon; many water activities suspended."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued heavy rain; lush green islands."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon easing slightly; still rainy."
+    },
+    {
+      "month": 10,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Transitional month; rain tapering off."
+    },
+    {
+      "month": 11,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Dry season begins; good conditions return."
+    },
+    {
+      "month": 12,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak season; dry, warm, and ideal for diving."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-03-01",
+    "lastUpdated": "2026-03-01",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "kamakura",
+  "city": "Kamakura",
+  "country": "Japan",
+  "transportAdvice": "Kamakura is walkable and well-connected by train from Tokyo; hiking trails link major temples across the forested hills.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+9",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry; crisp winter days ideal for walking."
+    },
+    {
+      "month": 2,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still cool; cherry blossoms begin toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring warmth arrives with pleasant daytime temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable and green; one of the best months to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and occasionally humid; rainy season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 27,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent rain; umbrella essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 31,
+      "avgLowC": 23,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak summer heat; festivals and outdoor events abound."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hottest month; seek shade and stay hydrated."
+    },
+    {
+      "month": 9,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still warm; humidity begins to ease."
+    },
+    {
+      "month": 10,
+      "avgHighC": 22,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn with clear skies and pleasant temperatures."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and crisp; autumn foliage at its peak."
+    },
+    {
+      "month": 12,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold but dry; festive atmosphere and fewer tourists."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

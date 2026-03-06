@@ -1,0 +1,115 @@
+{
+  "destinationId": "munnar",
+  "city": "Munnar",
+  "country": "India",
+  "transportAdvice": "Munnar is a small hill town; auto-rickshaws and taxis reach the surrounding tea estates and national park.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry with clear mountain views; pack warm layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Slightly warmer; spring begins at lower altitudes."
+    },
+    {
+      "month": 3,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming steadily; mountain trails open up."
+    },
+    {
+      "month": 4,
+      "avgHighC": 25,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather; wildflowers bloom."
+    },
+    {
+      "month": 5,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Pre-monsoon heat with increasing humidity."
+    },
+    {
+      "month": 6,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon arrives; heavy rain and misty mountains."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon; lush green but limited visibility."
+    },
+    {
+      "month": 8,
+      "avgHighC": 26,
+      "avgLowC": 20,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued monsoon; leeches and landslides possible on trails."
+    },
+    {
+      "month": 9,
+      "avgHighC": 26,
+      "avgLowC": 19,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon fading; trails begin to clear."
+    },
+    {
+      "month": 10,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Post-monsoon clarity; stunning mountain views return."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry; excellent trekking conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold but clear; peak season for mountain views."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-03-01",
+    "lastUpdated": "2026-03-01",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

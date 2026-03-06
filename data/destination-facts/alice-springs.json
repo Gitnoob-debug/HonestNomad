@@ -1,0 +1,115 @@
+{
+  "destinationId": "alice-springs",
+  "city": "Alice Springs",
+  "country": "Australia",
+  "transportAdvice": "Alice Springs is the base for Red Centre exploration; a rental car is essential for Uluru (4.5 hours), the MacDonnell Ranges, and Kings Canyon.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+9:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 36,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Extremely hot; limit outdoor activity to dawn and dusk."
+    },
+    {
+      "month": 2,
+      "avgHighC": 35,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Very hot with possible late-summer storms."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Cooling slightly; still very warm during the day."
+    },
+    {
+      "month": 4,
+      "avgHighC": 27,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant autumn weather; excellent for outback exploration."
+    },
+    {
+      "month": 5,
+      "avgHighC": 23,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry; ideal visiting conditions."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold nights and mild days; bring warm layers for evenings."
+    },
+    {
+      "month": 7,
+      "avgHighC": 19,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Coldest month; clear skies and cold desert nights."
+    },
+    {
+      "month": 8,
+      "avgHighC": 22,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming up; dry and sunny with crisp mornings."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring warmth returns; wildflowers after good rains."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot again; long sunny days."
+    },
+    {
+      "month": 11,
+      "avgHighC": 33,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot; carry plenty of water for any outdoor activity."
+    },
+    {
+      "month": 12,
+      "avgHighC": 35,
+      "avgLowC": 21,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Peak summer heat; very hot days and warm nights."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "taos",
+  "city": "Taos",
+  "country": "United States",
+  "transportAdvice": "Taos is a small town with a walkable plaza; a car is essential for the Pueblo, Ski Valley, and Rio Grande Gorge.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 7,
+      "avgLowC": -8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with clear skies; stunning winter landscapes."
+    },
+    {
+      "month": 2,
+      "avgHighC": 10,
+      "avgLowC": -5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still cold but sunny; snow possible at elevation."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": -1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming steadily; desert wildflowers may bloom."
+    },
+    {
+      "month": 4,
+      "avgHighC": 20,
+      "avgLowC": 3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasant spring days and cool nights; great hiking weather."
+    },
+    {
+      "month": 5,
+      "avgHighC": 25,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warm and dry; long sunny days for exploration."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot days and comfortable nights; minimal rain."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Monsoon season brings afternoon thunderstorms and cooler air."
+    },
+    {
+      "month": 8,
+      "avgHighC": 30,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Continued monsoon rains; dramatic skies and green desert."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "low",
+      "description": "Monsoon fades; warm days and clear skies return."
+    },
+    {
+      "month": 10,
+      "avgHighC": 21,
+      "avgLowC": 4,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Comfortable autumn weather; ideal visiting conditions."
+    },
+    {
+      "month": 11,
+      "avgHighC": 13,
+      "avgLowC": -2,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and dry; fall color at lower elevations."
+    },
+    {
+      "month": 12,
+      "avgHighC": 7,
+      "avgLowC": -7,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry; snow possible; quiet season with clear skies."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

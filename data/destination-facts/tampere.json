@@ -1,0 +1,115 @@
+{
+  "destinationId": "tampere",
+  "city": "Tampere",
+  "country": "Finland",
+  "transportAdvice": "Tampere is compact and walkable; set between two lakes, the city center is easy to navigate on foot or by bus.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+2",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -2,
+      "avgLowC": -7,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Deep winter; short days, snow, and cozy hygge culture."
+    },
+    {
+      "month": 2,
+      "avgHighC": -1,
+      "avgLowC": -7,
+      "rainProbability": "low",
+      "humidity": "high",
+      "description": "Still cold and dark; great for Northern Lights."
+    },
+    {
+      "month": 3,
+      "avgHighC": 3,
+      "avgLowC": -4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Days lengthen rapidly; snow begins to melt."
+    },
+    {
+      "month": 4,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives; ice breaks up on lakes and rivers."
+    },
+    {
+      "month": 5,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and bright; nature explodes with life."
+    },
+    {
+      "month": 6,
+      "avgHighC": 20,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Midsummer magic; nearly 24-hour daylight."
+    },
+    {
+      "month": 7,
+      "avgHighC": 22,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warmest month; outdoor festivals and swimming."
+    },
+    {
+      "month": 8,
+      "avgHighC": 20,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still summery; berries ripen in forests."
+    },
+    {
+      "month": 9,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Autumn colours and harvest festivals; comfortable."
+    },
+    {
+      "month": 10,
+      "avgHighC": 8,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cooling rapidly; dark evenings return."
+    },
+    {
+      "month": 11,
+      "avgHighC": 3,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold, dark, and often wet; winter markets begin."
+    },
+    {
+      "month": 12,
+      "avgHighC": 0,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Festive season with snow and Christmas traditions."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

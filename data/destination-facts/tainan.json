@@ -1,0 +1,115 @@
+{
+  "destinationId": "tainan",
+  "city": "Tainan",
+  "country": "Taiwan",
+  "transportAdvice": "Tainan is compact and walkable in the historic center; rented scooters are the local way to explore the wider city.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cool and dry; crisp winter days ideal for walking."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Still cool; cherry blossoms begin toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring warmth arrives with pleasant daytime temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable and green; one of the best months to visit."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Warm and occasionally humid; rainy season approaches."
+    },
+    {
+      "month": 6,
+      "avgHighC": 31,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hot and humid with frequent rain; umbrella essential."
+    },
+    {
+      "month": 7,
+      "avgHighC": 35,
+      "avgLowC": 27,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Peak summer heat; festivals and outdoor events abound."
+    },
+    {
+      "month": 8,
+      "avgHighC": 36,
+      "avgLowC": 28,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hottest month; seek shade and stay hydrated."
+    },
+    {
+      "month": 9,
+      "avgHighC": 32,
+      "avgLowC": 24,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still warm; humidity begins to ease."
+    },
+    {
+      "month": 10,
+      "avgHighC": 26,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn with clear skies and pleasant temperatures."
+    },
+    {
+      "month": 11,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and crisp; autumn foliage at its peak."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Cold but dry; festive atmosphere and fewer tourists."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

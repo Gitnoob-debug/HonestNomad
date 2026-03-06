@@ -1,0 +1,115 @@
+{
+  "destinationId": "batumi",
+  "city": "Batumi",
+  "country": "Georgia",
+  "transportAdvice": "Batumi's boulevard and old town are walkable; the beach promenade stretches for 7km and is perfect for cycling or strolling.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "budget",
+  "timeZone": "UTC+4",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 6,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey; snow possible; cozy wine bars and cafés."
+    },
+    {
+      "month": 2,
+      "avgHighC": 8,
+      "avgLowC": 0,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold; hints of spring toward month's end."
+    },
+    {
+      "month": 3,
+      "avgHighC": 13,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives; parks and gardens come alive."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and pleasant; ideal for sightseeing."
+    },
+    {
+      "month": 5,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm days and cool evenings; mountain trails open."
+    },
+    {
+      "month": 6,
+      "avgHighC": 28,
+      "avgLowC": 17,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer; outdoor dining and hiking season."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Hot and dry; seek cooler mountain elevations."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Peak summer heat; festivals and nightlife."
+    },
+    {
+      "month": 9,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn warmth; grape harvest season."
+    },
+    {
+      "month": 10,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and colourful; wine season at its peak."
+    },
+    {
+      "month": 11,
+      "avgHighC": 13,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and damp; winter is coming."
+    },
+    {
+      "month": 12,
+      "avgHighC": 8,
+      "avgLowC": 1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold with festive atmosphere and warm hospitality."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

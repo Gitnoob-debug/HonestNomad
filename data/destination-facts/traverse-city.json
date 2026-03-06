@@ -1,0 +1,115 @@
+{
+  "destinationId": "traverse-city",
+  "city": "Traverse City",
+  "country": "United States",
+  "transportAdvice": "Traverse City has a walkable downtown; a car is essential for wine trails, Sleeping Bear Dunes, and the scenic Mission Peninsula.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -1,
+      "avgLowC": -6,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and often snowy; bundle up for crisp winter walks."
+    },
+    {
+      "month": 2,
+      "avgHighC": 1,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still cold with occasional snow, but days are getting longer."
+    },
+    {
+      "month": 3,
+      "avgHighC": 6,
+      "avgLowC": -2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early spring thaw brings milder days and muddy paths."
+    },
+    {
+      "month": 4,
+      "avgHighC": 12,
+      "avgLowC": 2,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather; parks and gardens start to bloom."
+    },
+    {
+      "month": 5,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green; one of the most pleasant months."
+    },
+    {
+      "month": 6,
+      "avgHighC": 21,
+      "avgLowC": 11,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm summer days with occasional thunderstorms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 23,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warmest month; long days and lively outdoor culture."
+    },
+    {
+      "month": 8,
+      "avgHighC": 23,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Hot summer continues; beer gardens and festivals peak."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable early autumn with golden light."
+    },
+    {
+      "month": 10,
+      "avgHighC": 11,
+      "avgLowC": 3,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling rapidly; autumn foliage is beautiful."
+    },
+    {
+      "month": 11,
+      "avgHighC": 4,
+      "avgLowC": -1,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and grey; winter is approaching."
+    },
+    {
+      "month": 12,
+      "avgHighC": 0,
+      "avgLowC": -5,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cold and festive with Christmas markets and occasional snow."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "harbin",
+  "city": "Harbin",
+  "country": "China",
+  "transportAdvice": "Harbin has an expanding metro system; the city center's Russian-influenced district and ice festival grounds are accessible by transit.",
+  "safetyLevel": "safe",
+  "waterSafety": "boil-first",
+  "costLevel": "budget",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": -13,
+      "avgLowC": -25,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Bitterly cold; layer up and limit outdoor time."
+    },
+    {
+      "month": 2,
+      "avgHighC": -8,
+      "avgLowC": -20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still extremely cold with heavy snow cover."
+    },
+    {
+      "month": 3,
+      "avgHighC": 0,
+      "avgLowC": -12,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Slowly warming but still below freezing most days."
+    },
+    {
+      "month": 4,
+      "avgHighC": 10,
+      "avgLowC": -1,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Spring thaw begins; temperatures swing widely day to night."
+    },
+    {
+      "month": 5,
+      "avgHighC": 19,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant warmth arrives; the steppe greens up."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly sunny; festival season begins."
+    },
+    {
+      "month": 7,
+      "avgHighC": 26,
+      "avgLowC": 15,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Warmest month; occasional thunderstorms."
+    },
+    {
+      "month": 8,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Still warm but cooling; clear skies dominate."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn chill sets in quickly; golden landscapes."
+    },
+    {
+      "month": 10,
+      "avgHighC": 8,
+      "avgLowC": -3,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and windy; winter approaches fast."
+    },
+    {
+      "month": 11,
+      "avgHighC": -3,
+      "avgLowC": -13,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cold and dry with early snow likely."
+    },
+    {
+      "month": 12,
+      "avgHighC": -10,
+      "avgLowC": -22,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Deep winter freeze; extreme cold but clear skies."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

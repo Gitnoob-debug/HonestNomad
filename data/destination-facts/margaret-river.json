@@ -1,0 +1,115 @@
+{
+  "destinationId": "margaret-river",
+  "city": "Margaret River",
+  "country": "Australia",
+  "transportAdvice": "Margaret River region requires a car; wineries, caves, and surf beaches are spread along the scenic Caves Road.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "expensive",
+  "timeZone": "UTC+8",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 11,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cool and rainy; cozy indoor activities and hot drinks."
+    },
+    {
+      "month": 2,
+      "avgHighC": 12,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still wet and grey; signs of spring on sheltered slopes."
+    },
+    {
+      "month": 3,
+      "avgHighC": 15,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring emerges with milder days and less rain."
+    },
+    {
+      "month": 4,
+      "avgHighC": 18,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasant spring weather; wildflowers begin."
+    },
+    {
+      "month": 5,
+      "avgHighC": 21,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and increasingly dry; great for hiking."
+    },
+    {
+      "month": 6,
+      "avgHighC": 24,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm summer days; long evenings and dry weather."
+    },
+    {
+      "month": 7,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warmest and driest month; peak outdoor season."
+    },
+    {
+      "month": 8,
+      "avgHighC": 27,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Continued fine weather; ideal for outdoor adventures."
+    },
+    {
+      "month": 9,
+      "avgHighC": 24,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still pleasant; early autumn brings golden light."
+    },
+    {
+      "month": 10,
+      "avgHighC": 18,
+      "avgLowC": 11,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rain returns with cooling temperatures and falling leaves."
+    },
+    {
+      "month": 11,
+      "avgHighC": 13,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Wet and cool; storm season begins."
+    },
+    {
+      "month": 12,
+      "avgHighC": 11,
+      "avgLowC": 6,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Cold, wet winter; holiday lights brighten short days."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

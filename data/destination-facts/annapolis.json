@@ -1,0 +1,115 @@
+{
+  "destinationId": "annapolis",
+  "city": "Annapolis",
+  "country": "United States",
+  "transportAdvice": "Annapolis is compact and walkable; the historic district, harbor, and Naval Academy are all within easy walking distance.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winters; occasional cold snaps but generally pleasant."
+    },
+    {
+      "month": 2,
+      "avgHighC": 16,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Slightly warmer; spring is on the horizon."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring warmth with blooming gardens and azaleas."
+    },
+    {
+      "month": 4,
+      "avgHighC": 24,
+      "avgLowC": 13,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warm and green; excellent for outdoor activities."
+    },
+    {
+      "month": 5,
+      "avgHighC": 28,
+      "avgLowC": 18,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Hot and humid; afternoon thunderstorms possible."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 22,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Full summer heat with high humidity and afternoon storms."
+    },
+    {
+      "month": 7,
+      "avgHighC": 33,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Hottest month; seek air conditioning during midday."
+    },
+    {
+      "month": 8,
+      "avgHighC": 33,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still sweltering; tropical storms possible."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 20,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Heat begins to break; still warm and humid."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Comfortable autumn temperatures; pleasant for exploring."
+    },
+    {
+      "month": 11,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooling down; crisp fall weather arrives."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winter; festive season with comfortable temperatures."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

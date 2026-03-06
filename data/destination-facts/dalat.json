@@ -1,0 +1,115 @@
+{
+  "destinationId": "dalat",
+  "city": "Dalat",
+  "country": "Vietnam",
+  "transportAdvice": "Dalat is walkable in the center; rented motorbikes or taxis reach the surrounding waterfalls, farms, and viewpoints.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-only",
+  "costLevel": "budget",
+  "timeZone": "UTC+7",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season with warm days and cool nights; pack layers."
+    },
+    {
+      "month": 2,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Continued dry weather; comfortable for outdoor exploration."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Light rains begin; green landscapes emerge."
+    },
+    {
+      "month": 4,
+      "avgHighC": 19,
+      "avgLowC": 9,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Rainy season begins; afternoon downpours are common."
+    },
+    {
+      "month": 5,
+      "avgHighC": 18,
+      "avgLowC": 8,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak rain; mornings are usually clear for activities."
+    },
+    {
+      "month": 6,
+      "avgHighC": 17,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cooler and drier than peak rain months."
+    },
+    {
+      "month": 7,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and relatively dry; great for hiking."
+    },
+    {
+      "month": 8,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Similar to July; pleasant daytime temperatures."
+    },
+    {
+      "month": 9,
+      "avgHighC": 18,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming up with occasional showers."
+    },
+    {
+      "month": 10,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Second short rainy season in some areas."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Drying out with warm, pleasant conditions."
+    },
+    {
+      "month": 12,
+      "avgHighC": 19,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry season returns; ideal for travel."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "jodhpur",
+  "city": "Jodhpur",
+  "country": "India",
+  "transportAdvice": "Jodhpur's old city is walkable from the clock tower; auto-rickshaws reach Mehrangarh Fort and outlying attractions.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-only",
+  "costLevel": "budget",
+  "timeZone": "UTC+5:30",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 27,
+      "avgLowC": 17,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Dry and warm; peak tourist season with clear skies."
+    },
+    {
+      "month": 2,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming up; still dry and comfortable."
+    },
+    {
+      "month": 3,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry; temperatures rising steadily."
+    },
+    {
+      "month": 4,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Very hot; pre-monsoon heat builds."
+    },
+    {
+      "month": 5,
+      "avgHighC": 36,
+      "avgLowC": 26,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Extremely hot and humid; monsoon approaching."
+    },
+    {
+      "month": 6,
+      "avgHighC": 33,
+      "avgLowC": 25,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon arrives with heavy rains and cooler air."
+    },
+    {
+      "month": 7,
+      "avgHighC": 30,
+      "avgLowC": 24,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Peak monsoon; heavy rainfall and lush green landscapes."
+    },
+    {
+      "month": 8,
+      "avgHighC": 29,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Continued monsoon; flooding possible in some areas."
+    },
+    {
+      "month": 9,
+      "avgHighC": 30,
+      "avgLowC": 23,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Monsoon winding down; rain still frequent."
+    },
+    {
+      "month": 10,
+      "avgHighC": 31,
+      "avgLowC": 22,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Post-monsoon; clearing skies and pleasant temperatures."
+    },
+    {
+      "month": 11,
+      "avgHighC": 29,
+      "avgLowC": 19,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Dry and comfortable; tourist season begins."
+    },
+    {
+      "month": 12,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool, dry, and pleasant; peak season."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

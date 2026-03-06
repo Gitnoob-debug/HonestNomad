@@ -1,0 +1,115 @@
+{
+  "destinationId": "bodrum",
+  "city": "Bodrum",
+  "country": "Turkey",
+  "transportAdvice": "Bodrum's compact peninsula is easy to explore by dolmuş minibuses and water taxis connecting the bays.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+3",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild winter with cool evenings; good for cultural sightseeing."
+    },
+    {
+      "month": 2,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Still cool; spring begins to hint at warmer days ahead."
+    },
+    {
+      "month": 3,
+      "avgHighC": 18,
+      "avgLowC": 9,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming steadily with pleasant daytime temperatures."
+    },
+    {
+      "month": 4,
+      "avgHighC": 22,
+      "avgLowC": 12,
+      "rainProbability": "low",
+      "humidity": "moderate",
+      "description": "Warm and sunny; outdoor cafés and terraces come alive."
+    },
+    {
+      "month": 5,
+      "avgHighC": 27,
+      "avgLowC": 16,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry; beach season begins in earnest."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 21,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Full summer heat with very long, sunny days."
+    },
+    {
+      "month": 7,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak heat; seek shade in the afternoon and enjoy warm nights."
+    },
+    {
+      "month": 8,
+      "avgHighC": 35,
+      "avgLowC": 24,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Intensely hot; coastal breezes provide welcome relief."
+    },
+    {
+      "month": 9,
+      "avgHighC": 31,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still very warm; one of the best months for swimming."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 15,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Pleasantly warm; the crowds depart but the sun stays."
+    },
+    {
+      "month": 11,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Mild autumn with comfortable temperatures for walking."
+    },
+    {
+      "month": 12,
+      "avgHighC": 15,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Cool and quiet; low season with good value."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

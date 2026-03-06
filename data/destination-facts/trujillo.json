@@ -1,0 +1,115 @@
+{
+  "destinationId": "trujillo",
+  "city": "Trujillo",
+  "country": "Peru",
+  "transportAdvice": "Trujillo's colonial center is walkable; archaeological sites are spread around the outskirts and reached by taxi or tour.",
+  "safetyLevel": "safe",
+  "waterSafety": "bottled-only",
+  "costLevel": "budget",
+  "timeZone": "UTC-5",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 15,
+      "avgLowC": 5,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and dry; the most comfortable time of year."
+    },
+    {
+      "month": 2,
+      "avgHighC": 17,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly warm days and cool nights."
+    },
+    {
+      "month": 3,
+      "avgHighC": 20,
+      "avgLowC": 8,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Warming up; still very comfortable for sightseeing."
+    },
+    {
+      "month": 4,
+      "avgHighC": 25,
+      "avgLowC": 11,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Getting hot; morning and evening excursions recommended."
+    },
+    {
+      "month": 5,
+      "avgHighC": 29,
+      "avgLowC": 15,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Hot and dry; sun protection essential."
+    },
+    {
+      "month": 6,
+      "avgHighC": 32,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Very hot; limit outdoor activities to early morning."
+    },
+    {
+      "month": 7,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Peak heat; air conditioning is a necessity."
+    },
+    {
+      "month": 8,
+      "avgHighC": 32,
+      "avgLowC": 20,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Extremely hot; stay hydrated and avoid midday sun."
+    },
+    {
+      "month": 9,
+      "avgHighC": 29,
+      "avgLowC": 18,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Still very hot but starting to cool slightly."
+    },
+    {
+      "month": 10,
+      "avgHighC": 25,
+      "avgLowC": 14,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Pleasantly warm; comfortable for all-day exploration."
+    },
+    {
+      "month": 11,
+      "avgHighC": 20,
+      "avgLowC": 10,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Mild and dry; excellent conditions for outdoor activities."
+    },
+    {
+      "month": 12,
+      "avgHighC": 16,
+      "avgLowC": 6,
+      "rainProbability": "low",
+      "humidity": "low",
+      "description": "Cool and pleasant; peak tourist season begins."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "destinationId": "wanaka",
+  "city": "Wanaka",
+  "country": "New Zealand",
+  "transportAdvice": "Wanaka is a small lakeside town easily walked; a car opens up Roys Peak, Treble Cone, and the surrounding valleys.",
+  "safetyLevel": "safe",
+  "waterSafety": "tap-safe",
+  "costLevel": "moderate",
+  "timeZone": "UTC+12",
+  "weather": [
+    {
+      "month": 1,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Peak summer; warm days perfect for hiking and beaches."
+    },
+    {
+      "month": 2,
+      "avgHighC": 21,
+      "avgLowC": 12,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Continued summer warmth; outdoor adventures abound."
+    },
+    {
+      "month": 3,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Early autumn; still warm with stunning golden light."
+    },
+    {
+      "month": 4,
+      "avgHighC": 16,
+      "avgLowC": 7,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Autumn colours and cooler temperatures; fewer crowds."
+    },
+    {
+      "month": 5,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "high",
+      "description": "Cool and increasingly wet; off-season value."
+    },
+    {
+      "month": 6,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Winter arrives; ski season begins in the mountains."
+    },
+    {
+      "month": 7,
+      "avgHighC": 9,
+      "avgLowC": 1,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Coldest month; rain and snow at altitude."
+    },
+    {
+      "month": 8,
+      "avgHighC": 10,
+      "avgLowC": 2,
+      "rainProbability": "high",
+      "humidity": "high",
+      "description": "Still cool and wet; winter sports continue."
+    },
+    {
+      "month": 9,
+      "avgHighC": 12,
+      "avgLowC": 4,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Spring arrives; lambs and wildflowers appear."
+    },
+    {
+      "month": 10,
+      "avgHighC": 14,
+      "avgLowC": 6,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Warming up; great for hiking as trails dry out."
+    },
+    {
+      "month": 11,
+      "avgHighC": 17,
+      "avgLowC": 8,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Late spring; pleasant weather and longer days."
+    },
+    {
+      "month": 12,
+      "avgHighC": 19,
+      "avgLowC": 10,
+      "rainProbability": "moderate",
+      "humidity": "moderate",
+      "description": "Summer begins; warm and dry conditions ideal for travel."
+    }
+  ],
+  "_meta": {
+    "dataVersion": "2026-Q1",
+    "lastVerified": "2026-02-28",
+    "lastUpdated": "2026-02-28",
+    "generatedBy": "script-v2",
+    "reviewStatus": "auto-generated"
+  }
+}

@@ -1,6 +1,6 @@
 # HonestNomad - Development TODO
 
-> Last updated: March 1, 2026
+> Last updated: March 3, 2026
 
 ## Legend
 - ✅ Done
@@ -53,9 +53,23 @@
 
 ---
 
-## Current Focus: Conversion & Polish
+## Current Focus: LiteAPI Whitelabel Widget Integration
 
-### Discover → Book Flow (Active)
+### Decision (March 3, 2026)
+Replace custom hotel pages (tiles, rooms, checkout) with LiteAPI's pre-built whitelabel booking site. Eliminates ~3,500 lines of custom code, enables real bookings immediately. Custom hotel pages preserved on `master` as fallback.
+
+### Whitelabel Integration (Merged to master — March 5, 2026)
+- ✅ **Get whitelabel domain** — `flashtravel.dev` custom domain, verified + SSL active
+- ✅ **Set up custom domain** — Vercel DNS: 4 A records + www CNAME (cloudfront) + 4 Amazon CAA records
+- ✅ **Customize whitelabel** — primaryColor=#2563EB, font=Inter, border-radius=Soft, hero text updated
+- ✅ **Add `/api/places/lookup` endpoint** — Real-time landmark placeId lookup. $0.01/call, ~200ms. Falls back to city placeId
+- ✅ **Modify `selectDestination()`** — Builds whitelabel URL with placeId + dates + occupancies + sorting=6 + clientReference. Redirects to flashtravel.dev
+- ✅ **Merge to master** — Fast-forward merge, 5 files, 399 lines added
+- [ ] **Run placeId batch script** — Populate `destinations.json` with city-level Google Place IDs via LiteAPI `/data/places`. ~$7.15, ~3 min runtime. Script: `scripts/populate-place-ids.ts`
+- [ ] **Test full flow** — Photo → tiles → whitelabel with pre-filled search → hotel selection → rooms → checkout → booking
+- [ ] **Upload logo + favicon** to whitelabel appearance settings
+
+### Previous Custom Hotel Pages (Built, Now Superseded)
 - ✅ Simplified 3-click flow built and deployed
 - ✅ Walk-time hero metric + smart pre-selection
 - ✅ Clickable cards + pinned featured tiles
@@ -67,9 +81,9 @@
 - ✅ Map view skips featured tiles — shows full list + map for maximum space
 - ✅ Map marker lifecycle fix — separated creation from selection styling (no more top-left jump)
 - ✅ Destination alternatives fix — budget prefers same region, Similar Vibe fallback fills empty slots
-- [ ] **"Honest Take" AI summaries** — One candid sentence per hotel synthesized by Claude from reviews, amenities, price, location. Batched single prompt for all ~20 hotels during enrichment. Stored as `honestTake` field on `HotelOption`. The brand differentiator.
-- [ ] **Mobile polish pass** — Verify hotel tiles, expanded list, checkout on mobile breakpoints
-- [ ] **Error states** — Better handling when no hotels found, API timeout, rate expiry
+- ⏸️ **"Honest Take" AI summaries** — PARKED. May revisit as interstitial page or sidebar alongside widget
+- ⏸️ **Mobile polish pass** — PARKED. Whitelabel handles mobile responsiveness
+- ⏸️ **Error states** — PARKED. Whitelabel handles error states
 
 ### Discover Landing Page (Planned)
 - [ ] **Trending Now feed** — Below the input, show seasonal destination cards from our 500 destinations. Clicking one skips identification and goes straight to hotels. Turns empty page into a browsable, inspiring experience.
@@ -84,12 +98,12 @@
 
 ### Data & Images
 - ✅ **715 curated destinations** — expanded from 500 (200 new + 15 India destinations)
-- 🔄 **Pexels image download** — ~603/715 done, ~35,600 images (9GB+). ~106 remaining (~7hrs).
+- ✅ **Pexels initial download complete** — 709/709 destinations, 41,919 images, 13,758 API calls
+- 🔄 **Pexels backfill** — Over-downloading extra images per tier (T1→260, T2→165, T3→170). 4/709 done (amsterdam, athens, bali, bangkok). ~82k additional images remaining. Needs restart.
+- ✅ **Quality control script built** — `quality-control.ts` — integrated 3-phase pipeline: hash dedup → AI relevance scoring → content diversity enforcement. Tested on Paris (30% rejected), Niagara-on-the-Lake (75% rejected), Taos (82% junk).
+- ✅ **QC cost approach decided** — Use Claude Code subscription (Read tool vision) instead of OpenRouter API (~$360 saved). Will run as single workload after backfill completes.
 - ✅ **Supabase upload script** — 496 destinations already uploaded (29,209 images). Resume-capable.
-- ✅ **Backfill script built** — `pexels-backfill.ts` — over-downloads extra images per tier (T1→260, T2→165, T3→170). ~63k additional images, ~62hrs runtime.
-- ✅ **AI validation script built** — `validate-images.ts` — Claude Haiku 4.5 scores images 1-5 for location relevance. Tested: Taos 82% junk, Paris 32% junk. ~$150 for full run.
-- ✅ **Dedup script built** — `deduplicate-images.ts` — perceptual hash (dHash) clustering. Keeps 3 similar per cluster (4 for landmarks). Smart keeper selection by quality/resolution.
-- 🔄 **Image pipeline in progress** — remaining steps: finish initial download (~7hrs) → backfill over-download (~62hrs) → deduplicate → AI validate (~$150) → prune rejects → upload survivors to Supabase
+- 🔄 **Image pipeline remaining steps** — restart backfill (~83hrs) → QC pass (via Claude Code Read tool) → prune rejects → upload survivors to Supabase
 - [ ] **Malmö filename bug** — Unicode ö in filenames breaks Supabase upload. Needs sanitization.
 - [ ] **13 destinations missing POI data** — Blocked by Google Places budget cap. Need alternative data source (NOT Google Places API). Possible options: OpenStreetMap/Overpass, Foursquare, or Claude-generated POIs.
 - [ ] **POI images** — Still reference Google API URLs. Need migration to Supabase Storage.
@@ -103,39 +117,22 @@
 
 ## Next Up: Path to Real Bookings
 
-These are the steps to go from demo to taking real money. Not started yet — current goal is demo-ready.
+> **With whitelabel integration, most of this is handled by LiteAPI automatically.** The whitelabel site manages rates, prebook, booking, payment (Stripe), and confirmation emails. We only need to set up the business/account side.
 
-### 1. Switch to Real Rates
+### With Whitelabel (New Path)
+- [ ] **Activate whitelabel** — Get domain, customize branding, set commission %
+- [ ] **Set commission margin** — Configure markup % in LiteAPI dashboard
+- [ ] **Set up payout account** — Bank details in LiteAPI for weekly payouts (every Monday, post-check-in)
+- [ ] **Webhook integration** — Receive booking notifications to track conversions + revenue in our Supabase
+- [ ] **`clientReference` tracking** — Tag each whitelabel redirect with session ID for attribution
+
+### Without Whitelabel (Original Path — preserved as fallback)
 - [ ] Flip `USE_MOCK_RATES` to `false` in `lib/liteapi/hotels.ts`
-- [ ] Verify LiteAPI sandbox returns real pricing
-- [ ] Handle rate expiration (`et` field in seconds)
-
-### 2. Prebook Integration
-- [ ] Build `POST /rates/prebook` call in LiteAPI client
-- [ ] Pass `offerId` from rate selection
-- [ ] Store `prebookId` for booking step
-- [ ] Handle availability failures gracefully
-
-### 3. Booking Integration
-- [ ] Replace stub in `app/api/book/route.ts` with real `POST /rates/book` call
-- [ ] Pass `prebookId` + guest details to LiteAPI
-- [ ] Store booking confirmation in Supabase
-- [ ] Build booking confirmation page with hotel details, check-in info
-
-### 4. Payment (NUITEE_PAY)
-- [ ] Integrate LiteAPI Payment SDK (NUITEE_PAY)
-- [ ] Replace fake tokenizer in `components/booking/GuestForm.tsx`
-- [ ] LiteAPI becomes Merchant of Record (zero chargeback risk)
-- [ ] No PII storage needed — passthrough to LiteAPI
-
-### 5. Booking Management
-- [ ] Wire up booking cancellation (`PUT /bookings/{id}`) — stub exists
-- [ ] Booking retrieval from LiteAPI (currently DB-only)
-- [ ] Sync LiteAPI bookings with Supabase
-
-### 6. Revenue
-- [ ] Decide on commission margin (`margin` param on rate requests)
-- [ ] Set up LiteAPI account for payouts
+- [ ] Prebook integration (`POST /rates/prebook`)
+- [ ] Booking integration (`POST /rates/book`)
+- [ ] NUITEE_PAY payment SDK
+- [ ] Booking confirmation page
+- [ ] Booking management (cancellation, retrieval)
 
 ---
 
@@ -231,6 +228,120 @@ Not needed for MVP, but available in the API and could differentiate:
 
 ---
 
+## Strategic: Travel Taste Graph
+
+> **Premise:** Every photo analyzed, every destination selected, every destination *rejected* is taste data. Build the world's first structured understanding of what travelers actually want — before they can articulate it themselves. This is the Spotify-for-travel play.
+
+### Phase 1: Signal Capture (Start Now — Zero Cost)
+- [ ] **Log every interaction to Supabase** — photo analyzed, destinations shown, destination selected, destination rejected, tile role (best match/closer/budget), time spent on detail modal, hotel selected (when whitelabel tracking exists)
+- [ ] **Schema design** — `taste_signals` table: anonymous session ID, signal type, destination ID, timestamp, metadata (photo features, source URL platform, confidence score)
+- [ ] **No PII required** — Anonymous session-level signals. Privacy-safe by design.
+
+### Phase 2: Pattern Recognition (After 10k+ sessions)
+- [ ] Cluster users by taste patterns (adventure seekers, luxury seekers, culture lovers, beach lovers, budget explorers)
+- [ ] Build "destinations like this" recommendations from selection/rejection data
+- [ ] "People who chose Lisbon over Barcelona also loved..." collaborative filtering
+
+### Phase 3: Proactive Recommendations (The Product)
+- [ ] "Based on photos you've explored, you'd love..." feed on discover page
+- [ ] Personalized Trending Now (not just popular — popular *for you*)
+- [ ] Taste profile as a shareable artifact ("Your travel personality: Urban Explorer")
+
+### Why This Matters for Value
+- Defensible data moat — nobody else has photo→preference signal at scale
+- Powers better conversion (show the right destination first)
+- B2B potential: sell taste intelligence to OTAs, airlines, tourism boards
+- Acquisition signal: any travel company would pay for this dataset
+
+## Strategic: Creator-Powered Travel Distribution Network
+
+> **Premise:** Turn every travel influencer, content creator, and travel blogger into a distribution channel for HonestNomad. Creators share beautiful travel content — we give them personalized referral links and QR codes that drop users straight into a pre-filled booking flow for the exact destination. Creator earns commission on every booking. This is the affiliate model reimagined for the short-form video era.
+
+### Why This Is Huge
+- **Travel influencers already drive bookings** — they just don't capture revenue from it. A TikToker posts "Top 5 Santorini spots" and followers manually Google hotels. Zero attribution, zero commission.
+- **HonestNomad closes the loop** — Creator posts video → viewer scans QR / clicks link → lands on HonestNomad with destination pre-filled → books hotel via whitelabel → creator gets paid.
+- **Network effects** — Every creator who joins brings their audience. The more creators, the more bookings, the more commission proof, the more creators join.
+- **Content is free marketing** — Creators make the content anyway. We just give them a monetization layer and they organically promote us.
+- **Works for our own TikTok too** — HonestNomad's own channel uses the same system. Every video we post has a QR code or link in bio driving direct bookings.
+
+### How It Works
+
+```
+Creator posts video → includes link/QR
+                          ↓
+User scans QR or clicks link
+                          ↓
+honestnomad.com/go/santorini?ref=katietravel
+                          ↓
+/go/[destination] page loads:
+  - Destination hero image + quick pitch
+  - "Find Hotels" CTA (auto-fills destination)
+  - OR direct redirect to whitelabel with placeId
+                          ↓
+User books hotel on whitelabel
+  - clientReference: "hn-santorini-ref:katietravel-1709..."
+                          ↓
+Booking webhook fires → Supabase logs:
+  - booking_id, destination, hotel, revenue, commission
+  - ref=katietravel → credit to creator
+                          ↓
+Creator sees booking + commission on dashboard
+```
+
+### Phase 1: Core Referral Infrastructure (~1 week)
+- [ ] **`/go/[destination]` page** — Lightweight landing page (~50 lines). Accepts destination slug, optional `?ref=` param. Shows destination hero image, city name, country, quick pitch from `cityPitches.ts`, and "Find Hotels →" CTA. Stores `ref` in sessionStorage so it persists through the booking flow.
+- [ ] **Referral-aware `selectDestination()`** — When building whitelabel URL, append creator ref to `clientReference` param (e.g., `hn-santorini-ref:katietravel-1709...`). LiteAPI passes this through to booking data, enabling attribution.
+- [ ] **`/go/[destination]` direct links** — Support both slug formats: `/go/santorini` (matches by city name) and `/go/dest-123` (matches by destination ID). Redirect unknown slugs to discover page with search pre-filled.
+- [ ] **Supabase `referral_clicks` table** — Log every referral click: destination, ref code, timestamp, IP (hashed), user agent. Analytics foundation.
+- [ ] **Supabase `creators` table** — creator_id, display_name, ref_code (unique), email, commission_rate (default 5%), status (active/pending/suspended), created_at.
+- [ ] **QR code generation** — Simple QR encoding of the `/go/[destination]?ref=` URL. Can use `qrcode` npm package (~5KB) or a free API. QR image downloadable from creator dashboard.
+
+### Phase 2: Creator Dashboard (~1 week)
+- [ ] **Creator signup flow** — Simple form: name, email, social handle, preferred ref code. Creates entry in `creators` table. Manual approval initially (flip status to active).
+- [ ] **Creator dashboard page** — `/creator/[ref]` or `/dashboard` (auth'd). Shows:
+  - Total clicks, total bookings, conversion rate
+  - Commission earned (pending + paid)
+  - Per-destination breakdown (which destinations drive bookings)
+  - Referral link generator (pick destination → get link + QR)
+  - QR code download (PNG/SVG) for each destination
+- [ ] **Supabase `referral_bookings` table** — booking_id, creator_ref, destination_id, hotel_name, booking_value, commission_amount, commission_rate, status (pending/confirmed/paid), booked_at, checked_in_at.
+- [ ] **Webhook handler** — LiteAPI booking webhook → parse `clientReference` → extract `ref:` → credit creator in `referral_bookings`.
+- [ ] **Link-in-bio page** — `/c/[username]` — Creator's branded page showing their top destination picks as visual cards. Each card links to `/go/[destination]?ref=`. Creators share this single link in their bio.
+
+### Phase 3: Growth & Monetization (~2-4 weeks)
+- [ ] **Commission tiers** — Base 5%, Silver (10+ bookings/month) 7%, Gold (50+) 10%. Auto-upgrade based on performance.
+- [ ] **Payout integration** — Monthly payouts via Stripe Connect or PayPal. Min payout threshold ($50). Track in `creator_payouts` table.
+- [ ] **Creator analytics email** — Weekly digest: "You drove 47 clicks and 3 bookings this week. $156 earned."
+- [ ] **Embeddable widget** — `<script>` tag creators can add to their blog/site. Shows a mini booking widget for their top destinations with their ref baked in.
+- [ ] **Bulk QR generation** — Creator uploads list of destinations → gets ZIP of QR codes for all. Perfect for "Top 10 Europe" type content.
+- [ ] **UTM + deep attribution** — Track which specific video/post drove each click. `?ref=katietravel&utm_content=santorini-tiktok-march` → know exactly which content converts.
+- [ ] **Creator leaderboard** — Public or private ranking of top creators by bookings. Social proof + competition.
+- [ ] **Co-branded booking page** — Whitelabel URL includes creator context: "Katie's Pick: Santorini 🌅" header on booking page. Makes the creator feel ownership.
+
+### QR Code Details
+- QR encodes: `honestnomad.com/go/santorini?ref=katietravel`
+- Standard QR — any phone camera reads it natively (no app needed)
+- Use cases: TikTok video overlay, Instagram story sticker, YouTube description, blog post, physical print (travel guides, airport displays, hotel lobby cards)
+- Can be branded with HonestNomad logo in center (most QR readers handle 30% error correction)
+- Dynamic QR option: encode `honestnomad.com/qr/ABC123` → server redirect allows changing destination later without reprinting
+
+### Unit Economics
+- Average hotel booking: ~$150/night × 3 nights = $450
+- LiteAPI commission to us: ~15-20% = $67-90 per booking
+- Creator commission (5-10%): $22-45 per booking
+- Our net per creator-driven booking: $45-68
+- Break-even: If a creator drives even 1 booking/month, the system pays for itself
+- At scale: 100 creators × 5 bookings/month × $50 net = $25,000/month
+
+### For Our Own TikTok Strategy
+- Every HonestNomad TikTok/Reel includes QR overlay or link in bio
+- Use our own ref code (`ref=honestnomad`) for attribution
+- A/B test QR placement (corner vs. end screen vs. pinned comment)
+- Track which video styles convert best (drone footage, walking tours, food tours, hotel tours)
+- Repurpose top-performing creator content with permission (rev share)
+
+---
+
 ## Backlog: Product Features
 
 | Feature | Priority | Notes |
@@ -251,9 +362,8 @@ Not needed for MVP, but available in the API and could differentiate:
 |---------|--------------|--------|
 | YouTube multi-location | YouTube Data API v3 key (free) | ~2 min setup |
 | Instagram oEmbed | Meta developer app token (free) | ~15 min setup |
-| Pexels download finishing | ~106 destinations remaining | ~7hrs runtime |
-| Pexels backfill | Over-download for quality pruning | ~62hrs runtime |
-| Dedup + AI validation | Hash clustering + Haiku scoring | ~$150, 4-5hrs |
+| Pexels backfill restart | 705 destinations remaining, ~82k images | ~83hrs runtime |
+| QC pass (after backfill) | Hash dedup + AI relevance + diversity | Free (Claude Code Read tool) |
 | Malmö filename bug | Unicode ö in Supabase upload paths | Quick fix |
 | 13 destinations missing POIs | Alternative to Google Places | Research needed |
 | POI images reference Google | Migrate to Supabase Storage | Script work |

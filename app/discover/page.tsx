@@ -303,6 +303,31 @@ export default function DiscoverPage() {
     // Build Base64-encoded occupancies for whitelabel
     const occupancies = btoa(JSON.stringify([{ adults: 2, children: [] }]));
 
+    // Detect currency from user's locale (e.g. en-US → USD, en-CA → CAD, en-GB → GBP)
+    const localeCurrency = (() => {
+      try {
+        const locale = navigator.language || 'en-US';
+        const parts = new Intl.NumberFormat(locale, { style: 'currency', currency: 'USD' })
+          .resolvedOptions();
+        // Map common locales to their currencies
+        const localeToCurrency: Record<string, string> = {
+          'en-US': 'USD', 'en-CA': 'CAD', 'en-GB': 'GBP', 'en-AU': 'AUD',
+          'en-NZ': 'NZD', 'de-DE': 'EUR', 'fr-FR': 'EUR', 'es-ES': 'EUR',
+          'it-IT': 'EUR', 'nl-NL': 'EUR', 'pt-PT': 'EUR', 'ja-JP': 'JPY',
+          'ko-KR': 'KRW', 'zh-CN': 'CNY', 'zh-TW': 'TWD', 'th-TH': 'THB',
+          'vi-VN': 'VND', 'id-ID': 'IDR', 'ms-MY': 'MYR', 'hi-IN': 'INR',
+          'pt-BR': 'BRL', 'es-MX': 'MXN', 'da-DK': 'DKK', 'sv-SE': 'SEK',
+          'nb-NO': 'NOK', 'pl-PL': 'PLN', 'cs-CZ': 'CZK', 'hu-HU': 'HUF',
+          'ro-RO': 'RON', 'bg-BG': 'BGN', 'hr-HR': 'EUR', 'tr-TR': 'TRY',
+          'he-IL': 'ILS', 'ar-AE': 'AED', 'ar-SA': 'SAR', 'en-SG': 'SGD',
+          'en-HK': 'HKD', 'en-ZA': 'ZAR', 'en-PH': 'PHP',
+        };
+        return localeToCurrency[locale] || localeToCurrency[locale.split('-')[0] + '-' + locale.split('-')[1]?.toUpperCase()] || 'USD';
+      } catch {
+        return 'USD';
+      }
+    })();
+
     // Build the whitelabel URL with deep link params
     const params = new URLSearchParams({
       placeId,
@@ -310,7 +335,7 @@ export default function DiscoverPage() {
       checkout: checkoutDate,
       occupancies,
       sorting: '6',       // Sort by distance (closest first)
-      currency: 'USD',
+      currency: localeCurrency,
       clientReference: `hn-${dest.id}-${Date.now()}`,
     });
 

@@ -27,6 +27,7 @@ import type {
 import { computeConfidenceScore } from '@/lib/location/confidenceScoring';
 import { getLocationFromIp } from '@/lib/location/ipGeolocation';
 import { findAlternatives, getTrendingFallback } from '@/lib/location/alternativeFinder';
+import { lookupPlaceId } from '@/lib/liteapi/client';
 
 const HAIKU_MODEL = 'anthropic/claude-3.5-haiku';
 const VISION_MODEL = 'anthropic/claude-sonnet-4.6'; // Haiku doesn't support vision via OpenRouter
@@ -95,7 +96,8 @@ export async function resolveLocation(
   const userAirportCode = ipLocation?.airport?.code ?? null;
   const userLat = ipLocation?.lat ?? null;
   const userLng = ipLocation?.lng ?? null;
-  _debug.push(`IP geolocation: ${ipLocation ? `${ipLocation.city} (${userAirportCode}) [${userLat?.toFixed(2)}, ${userLng?.toFixed(2)}]` : 'unavailable'}`);
+  const userCountryCode = ipLocation?.countryCode || undefined;
+  _debug.push(`IP geolocation: ${ipLocation ? `${ipLocation.city} (${userAirportCode}) [${userLat?.toFixed(2)}, ${userLng?.toFixed(2)}] country=${userCountryCode}` : 'unavailable'}`);
   const currentMonth = new Date().getMonth() + 1;
 
   // === PATH A: URL INPUT ===
@@ -159,12 +161,13 @@ export async function resolveLocation(
             confidenceScore: valid[0].confidenceScore,
             trendingFallback: trending,
             locations,
+            userCountryCode,
             _debug,
           };
         }
         // If only 1 survived geocoding, fall through to single-result path
         if (valid.length === 1) {
-          return enrichSingleResult(valid[0], userAirportCode, userLat, userLng, currentMonth, _debug);
+          return await enrichSingleResult(valid[0], userAirportCode, userLat, userLng, currentMonth, _debug, userCountryCode);
         }
       }
 
@@ -174,7 +177,7 @@ export async function resolveLocation(
         if (single.confidence === 'high') {
           const result = await resolveOne(single, 'caption');
           if (result) {
-            return enrichSingleResult(result, userAirportCode, userLat, userLng, currentMonth, _debug);
+            return await enrichSingleResult(result, userAirportCode, userLat, userLng, currentMonth, _debug, userCountryCode);
           }
         }
       }
@@ -195,7 +198,7 @@ export async function resolveLocation(
         if (visionResult.confidence === 'high') {
           const result = await resolveOne(visionResult, 'vision');
           if (result) {
-            return enrichSingleResult(result, userAirportCode, userLat, userLng, currentMonth, _debug);
+            return await enrichSingleResult(result, userAirportCode, userLat, userLng, currentMonth, _debug, userCountryCode);
           }
         }
       }
@@ -209,6 +212,7 @@ export async function resolveLocation(
       location: null,
       matchedDestination: null,
       trendingFallback: trending,
+      userCountryCode,
       error: 'Could not extract location information from this link.',
       _debug,
     };
@@ -230,6 +234,7 @@ export async function resolveLocation(
         location: null,
         matchedDestination: null,
         trendingFallback: trending,
+        userCountryCode,
         error: claudeResult.reasoning || 'Could not determine a location from this image.',
         _debug,
       };
@@ -244,12 +249,13 @@ export async function resolveLocation(
         location: null,
         matchedDestination: null,
         trendingFallback: trending,
+        userCountryCode,
         error: `Identified as "${claudeResult.locationString}" but could not find it on the map.`,
         _debug,
       };
     }
 
-    return enrichSingleResult(result, userAirportCode, userLat, userLng, currentMonth, _debug);
+    return await enrichSingleResult(result, userAirportCode, userLat, userLng, currentMonth, _debug, userCountryCode);
   }
 
   return {
@@ -262,14 +268,15 @@ export async function resolveLocation(
 
 // ── Enrich single result with confidence + alternatives ──────────────
 
-function enrichSingleResult(
+async function enrichSingleResult(
   result: ResolveOneResult,
   userAirportCode: string | null,
   userLat: number | null,
   userLng: number | null,
   currentMonth: number,
   _debug: string[],
-): LocationAnalysisResponse {
+  userCountryCode?: string,
+): Promise<LocationAnalysisResponse> {
   const { location, matchedDestination, confidenceScore } = result;
 
   _debug.push(`Confidence: ${confidenceScore.value} (${confidenceScore.tier}: "${confidenceScore.label}")`);
@@ -284,8 +291,34 @@ function enrichSingleResult(
       matchedDestination: null,
       confidenceScore,
       trendingFallback: trending,
+      userCountryCode,
       _debug,
     };
+  }
+
+  // Try to get a landmark-specific placeId for precise hotel results
+  // This helps show hotels near the exact landmark, not just city center
+  let landmarkPlaceId: string | undefined;
+  if (matchedDestination && location?.locationString) {
+    try {
+      const query = `${location.locationString} ${matchedDestination.country}`;
+      const placeResult = await lookupPlaceId(query, 'point_of_interest');
+      if (placeResult) {
+        landmarkPlaceId = placeResult.placeId;
+        _debug.push(`Landmark placeId: ${landmarkPlaceId} (query: "${query}")`);
+      } else {
+        // Try without type restriction
+        const broadResult = await lookupPlaceId(location.locationString);
+        if (broadResult) {
+          landmarkPlaceId = broadResult.placeId;
+          _debug.push(`Landmark placeId (broad): ${landmarkPlaceId}`);
+        } else {
+          _debug.push(`No landmark placeId found for "${query}"`);
+        }
+      }
+    } catch (error) {
+      _debug.push(`Landmark placeId lookup failed: ${error instanceof Error ? error.message : 'unknown error'}`);
+    }
   }
 
   // If we have a matched destination, find alternatives
@@ -309,6 +342,8 @@ function enrichSingleResult(
       matchedDestination,
       confidenceScore,
       alternatives,
+      userCountryCode,
+      landmarkPlaceId,
       _debug,
     };
   }
@@ -323,6 +358,7 @@ function enrichSingleResult(
       matchedDestination: null,
       confidenceScore,
       trendingFallback: trending,
+      userCountryCode,
       _debug,
     };
   }
@@ -333,6 +369,8 @@ function enrichSingleResult(
     location,
     matchedDestination,
     confidenceScore,
+    userCountryCode,
+    landmarkPlaceId,
     _debug,
   };
 }

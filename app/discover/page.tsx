@@ -224,27 +224,14 @@ export default function DiscoverPage() {
     // ── Whitelabel redirect: resolve placeId and build URL ──────────
     const whitelabelDomain = WHITELABEL_DOMAIN;
 
-    // Try to resolve a placeId for better hotel results (best-effort, not required)
+    // Resolve placeId for the whitelabel hotel search
     let placeId: string | null = null;
     const isBestMatchDest = result?.matchedDestination?.id === dest.id;
 
-    // 1. Best match with landmark → real-time lookup for landmark-specific placeId
-    if (isBestMatchDest && result?.location?.locationString) {
-      try {
-        const lookupResponse = await fetch('/api/places/lookup', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            query: `${result.location.locationString} ${dest.country}`,
-          }),
-        });
-        if (lookupResponse.ok) {
-          const data = await lookupResponse.json();
-          placeId = data.placeId;
-        }
-      } catch {
-        // Silent — will try fallbacks
-      }
+    // 1. Best match → use landmark-specific placeId (resolved server-side during analysis)
+    //    This shows hotels near the exact landmark, not just city center
+    if (isBestMatchDest && result?.landmarkPlaceId) {
+      placeId = result.landmarkPlaceId;
     }
 
     // 2. Fallback: city placeId from destinations.json (populated by batch script)
@@ -253,7 +240,7 @@ export default function DiscoverPage() {
       placeId = (fullDest as any).placeId || null;
     }
 
-    // 3. Last resort: try a city-level lookup
+    // 3. Last resort: try a real-time city-level lookup via API
     if (!placeId) {
       try {
         const cityLookup = await fetch('/api/places/lookup', {
@@ -273,26 +260,44 @@ export default function DiscoverPage() {
       }
     }
 
-    // Detect currency from user's locale
-    const localeCurrency = (() => {
+    // Detect currency from user's country (via IP geolocation from the analysis)
+    const userCurrency = (() => {
+      // Country code → currency mapping (ISO 3166-1 alpha-2 → ISO 4217)
+      const countryToCurrency: Record<string, string> = {
+        US: 'USD', CA: 'CAD', GB: 'GBP', AU: 'AUD', NZ: 'NZD',
+        JP: 'JPY', KR: 'KRW', CN: 'CNY', TW: 'TWD', TH: 'THB',
+        VN: 'VND', ID: 'IDR', MY: 'MYR', IN: 'INR', BR: 'BRL',
+        MX: 'MXN', DK: 'DKK', SE: 'SEK', NO: 'NOK', PL: 'PLN',
+        CZ: 'CZK', HU: 'HUF', RO: 'RON', BG: 'BGN', TR: 'TRY',
+        IL: 'ILS', AE: 'AED', SA: 'SAR', SG: 'SGD', HK: 'HKD',
+        ZA: 'ZAR', PH: 'PHP', CH: 'CHF', RU: 'RUB', UA: 'UAH',
+        EG: 'EGP', NG: 'NGN', KE: 'KES', CO: 'COP', AR: 'ARS',
+        CL: 'CLP', PE: 'PEN', QA: 'QAR', KW: 'KWD', BH: 'BHD',
+        OM: 'OMR', JO: 'JOD', PK: 'PKR', BD: 'BDT', LK: 'LKR',
+        // Eurozone countries
+        DE: 'EUR', FR: 'EUR', ES: 'EUR', IT: 'EUR', NL: 'EUR',
+        PT: 'EUR', AT: 'EUR', BE: 'EUR', FI: 'EUR', IE: 'EUR',
+        GR: 'EUR', LU: 'EUR', SK: 'EUR', SI: 'EUR', EE: 'EUR',
+        LV: 'EUR', LT: 'EUR', MT: 'EUR', CY: 'EUR', HR: 'EUR',
+      };
+
+      // 1. Try country code from IP geolocation (most accurate)
+      if (result?.userCountryCode) {
+        const cc = result.userCountryCode.toUpperCase();
+        if (countryToCurrency[cc]) return countryToCurrency[cc];
+      }
+
+      // 2. Fallback: browser locale (less reliable — e.g. many Canadians have en-US)
       try {
         const locale = navigator.language || 'en-US';
-        const localeToCurrency: Record<string, string> = {
-          'en-US': 'USD', 'en-CA': 'CAD', 'en-GB': 'GBP', 'en-AU': 'AUD',
-          'en-NZ': 'NZD', 'de-DE': 'EUR', 'fr-FR': 'EUR', 'es-ES': 'EUR',
-          'it-IT': 'EUR', 'nl-NL': 'EUR', 'pt-PT': 'EUR', 'ja-JP': 'JPY',
-          'ko-KR': 'KRW', 'zh-CN': 'CNY', 'zh-TW': 'TWD', 'th-TH': 'THB',
-          'vi-VN': 'VND', 'id-ID': 'IDR', 'ms-MY': 'MYR', 'hi-IN': 'INR',
-          'pt-BR': 'BRL', 'es-MX': 'MXN', 'da-DK': 'DKK', 'sv-SE': 'SEK',
-          'nb-NO': 'NOK', 'pl-PL': 'PLN', 'cs-CZ': 'CZK', 'hu-HU': 'HUF',
-          'ro-RO': 'RON', 'bg-BG': 'BGN', 'hr-HR': 'EUR', 'tr-TR': 'TRY',
-          'he-IL': 'ILS', 'ar-AE': 'AED', 'ar-SA': 'SAR', 'en-SG': 'SGD',
-          'en-HK': 'HKD', 'en-ZA': 'ZAR', 'en-PH': 'PHP',
-        };
-        return localeToCurrency[locale] || localeToCurrency[locale.split('-')[0] + '-' + locale.split('-')[1]?.toUpperCase()] || 'USD';
-      } catch {
-        return 'USD';
-      }
+        const parts = locale.split('-');
+        if (parts[1]) {
+          const cc = parts[1].toUpperCase();
+          if (countryToCurrency[cc]) return countryToCurrency[cc];
+        }
+      } catch { /* ignore */ }
+
+      return 'USD';
     })();
 
     // Build the whitelabel URL — ALWAYS redirect, placeId is optional
@@ -302,7 +307,7 @@ export default function DiscoverPage() {
       checkout: checkoutDate,
       occupancies,
       sorting: '6',
-      currency: localeCurrency,
+      currency: userCurrency,
       clientReference: `hn-${dest.id}-${Date.now()}`,
     });
 

@@ -71,6 +71,8 @@ export interface LocationAnalysisResponse {
     confidenceScore?: ConfidenceScore;
     alternatives?: AlternativeTile[];
   }>;
+  userCountryCode?: string; // ISO 3166-1 alpha-2 from IP geolocation (e.g. "CA", "US")
+  landmarkPlaceId?: string; // Google Place ID for the specific landmark (more precise than city placeId)
   error?: string;
   _debug?: string[]; // pipeline trace (temporary)
 }

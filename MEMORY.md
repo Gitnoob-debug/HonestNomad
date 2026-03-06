@@ -1,7 +1,7 @@
 # HonestNomad - Memory
 
 > Context file for AI assistants. Read this first to understand the project.
-> Last updated: March 1, 2026
+> Last updated: March 6, 2026
 
 ---
 
@@ -34,26 +34,30 @@ HonestNomad is an AI-powered travel planning app. Users discover destinations th
 ## Current User Flow
 
 ```
-PRIMARY (Discover → Book in 3 clicks):
+PRIMARY (Discover → Book via Whitelabel):
   Upload photo / Paste URL → Identify location → 3 destination tiles
-  → Click one → /discover/hotels (3 featured hotel tiles + "See more")
-  → Click hotel → /discover/checkout (booking summary + payment placeholder)
+  → Click one → Redirect to flashtravel.dev/hotels (LiteAPI whitelabel)
+  → Pre-filled: placeId + dates + guests + currency + sorting
+  → User books directly on whitelabel (LiteAPI handles payment)
 
 SECONDARY (Flash/Explore — PARKED, untouched):
   Landing Page → Quick Intent Form (dates, travelers, vibes, budget)
   → Swipe 16 Cities → Explore POIs on Map → Hotels → Review → Adventure Package
 ```
 
-### Discover Hotel Selection (conversion-optimized)
-- **3 equal featured tiles** — Recommended + Best Value + Premium Pick, same size, 3-col grid
-- **Walk-time hero metric** — "🚶 4 min walk to your spot" above hotel name (unique value prop)
-- **Clickable cards** — entire tile selects hotel (goes to checkout), carousel edges still navigate photos
-- **Desktop sidebar layout** — sticky left sidebar with dates/guests/sort/filters/view toggle, full right side for hotels/map
-- **Mobile collapsible filters** — horizontal SearchControls at top, "Filters & Sort" expands/collapses below
-- **Dynamic filters** — sort (distance/price/rating/stars), price ranges computed from actual data, star buttons data-driven
-- **List/Map view toggle** — List view shows featured tiles + expandable list. Map view skips featured tiles, shows full list + map
-- **Hotel data enrichment** — HD images, chain badges, cancel deadline, review snippets, room details, important info
-- **Mapbox map** — landmark pin (red) + hotel pins (blue), separated marker creation from selection styling (no jump bug)
+### Whitelabel Booking (flashtravel.dev)
+- **LiteAPI whitelabel** — Custom domain `flashtravel.dev`, branded with HonestNomad colors
+- **Deep linking** — `selectDestination()` builds URL with placeId, dates, occupancies, currency, sorting, clientReference
+- **Google Place IDs** — 624/715 destinations pre-populated in `data/destinations.json` (batch script via LiteAPI `/data/places`)
+- **Landmark precision** — Server-side landmark placeId lookup during analysis. Best Match destinations show hotels near exact landmark
+- **IP-based currency** — Detects user country via IP geolocation (`countryCode` in `IpLocation`), maps to currency (50+ countries)
+- **Domain fallback** — `lib/config.ts` hardcodes `'flashtravel.dev'` to avoid Vercel env var issues
+
+### Previous Custom Hotel Pages (built, now superseded by whitelabel)
+- 3 equal featured tiles — Recommended + Best Value + Premium Pick
+- Walk-time hero metric, clickable cards, desktop sidebar layout
+- Dynamic filters, list/map view toggle, hotel data enrichment
+- Mapbox map with landmark + hotel pins
 
 ---
 
@@ -160,7 +164,9 @@ SECONDARY (Flash/Explore — PARKED, untouched):
 | `lib/hotels/formatTravelTime.ts` | Convert meters → walk/drive time (pure math, no API) |
 | `lib/location/resolver.ts` | Backend pipeline — metadata extraction, Claude analysis, geocoding, matching |
 | `lib/location/confidenceScoring.ts` | 5-signal weighted confidence formula → 3 tiers |
-| `lib/location/ipGeolocation.ts` | IP-based user location (ip-api.com + ipapi.co fallback) |
+| `lib/location/ipGeolocation.ts` | IP-based user location + country code (ip-api.com + ipapi.co fallback) |
+| `lib/config.ts` | App config — `WHITELABEL_DOMAIN` with hardcoded fallback |
+| `data/destinations.json` | 715 destinations with Google Place IDs (624/715 populated) |
 | `lib/location/alternativeFinder.ts` | Closer + budget alternatives + trending fallback |
 | `app/api/location/analyze/route.ts` | POST endpoint for location analysis |
 | `types/location.ts` | TypeScript types for discover feature |

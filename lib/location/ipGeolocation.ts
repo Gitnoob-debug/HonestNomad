@@ -17,6 +17,7 @@ export interface IpLocation {
   lng: number;
   city: string;
   country: string;
+  countryCode: string; // ISO 3166-1 alpha-2 (e.g. "CA", "US", "GB")
   airport: AirportInfo;
 }
 
@@ -88,7 +89,7 @@ async function fetchWithTimeout(url: string, timeoutMs: number): Promise<Respons
 
 async function tryIpApi(ip: string): Promise<IpLocation | null> {
   try {
-    const url = `http://ip-api.com/json/${ip}?fields=status,lat,lon,city,country`;
+    const url = `http://ip-api.com/json/${ip}?fields=status,lat,lon,city,country,countryCode`;
     const response = await fetchWithTimeout(url, FETCH_TIMEOUT_MS);
     if (!response.ok) return null;
 
@@ -101,6 +102,7 @@ async function tryIpApi(ip: string): Promise<IpLocation | null> {
       lng: data.lon,
       city: data.city || '',
       country: data.country || '',
+      countryCode: data.countryCode || '',
       airport,
     };
   } catch {
@@ -125,6 +127,7 @@ async function tryIpapiCo(ip: string): Promise<IpLocation | null> {
       lng: data.longitude,
       city: data.city || '',
       country: data.country_name || '',
+      countryCode: data.country_code || '',
       airport,
     };
   } catch {

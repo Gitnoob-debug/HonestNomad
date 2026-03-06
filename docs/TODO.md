@@ -1,6 +1,6 @@
 # HonestNomad - Development TODO
 
-> Last updated: March 3, 2026
+> Last updated: March 6, 2026
 
 ## Legend
 - ✅ Done
@@ -13,7 +13,7 @@
 ## What's Built (Done) ✅
 
 ### Core Product
-- ✅ **500 curated destinations** with 85k+ POIs, daily cost data, travel time matrix
+- ✅ **715 curated destinations** with 85k+ POIs, daily cost data, travel time matrix
 - ✅ **Discover feature** (primary entry) — photo upload, URL paste, Claude Vision identification, confidence scoring, 3-tile alternatives, detail modals
 - ✅ **Flash Vacation flow** (secondary entry) — swipe cards, explore map, hotel search, booking confirmation
 - ✅ **Explore page** — vibe selection, POI map with zone clustering, interactive day planner, left sidebar
@@ -58,15 +58,19 @@
 ### Decision (March 3, 2026)
 Replace custom hotel pages (tiles, rooms, checkout) with LiteAPI's pre-built whitelabel booking site. Eliminates ~3,500 lines of custom code, enables real bookings immediately. Custom hotel pages preserved on `master` as fallback.
 
-### Whitelabel Integration (Merged to master — March 5, 2026)
+### Whitelabel Integration (Merged to master — March 5-6, 2026)
 - ✅ **Get whitelabel domain** — `flashtravel.dev` custom domain, verified + SSL active
 - ✅ **Set up custom domain** — Vercel DNS: 4 A records + www CNAME (cloudfront) + 4 Amazon CAA records
 - ✅ **Customize whitelabel** — primaryColor=#2563EB, font=Inter, border-radius=Soft, hero text updated
 - ✅ **Add `/api/places/lookup` endpoint** — Real-time landmark placeId lookup. $0.01/call, ~200ms. Falls back to city placeId
 - ✅ **Modify `selectDestination()`** — Builds whitelabel URL with placeId + dates + occupancies + sorting=6 + clientReference. Redirects to flashtravel.dev
 - ✅ **Merge to master** — Fast-forward merge, 5 files, 399 lines added
-- [ ] **Run placeId batch script** — Populate `destinations.json` with city-level Google Place IDs via LiteAPI `/data/places`. ~$7.15, ~3 min runtime. Script: `scripts/populate-place-ids.ts`
-- [ ] **Test full flow** — Photo → tiles → whitelabel with pre-filled search → hotel selection → rooms → checkout → booking
+- ✅ **Hardcode domain fallback** — `lib/config.ts` exports `WHITELABEL_DOMAIN` with `'flashtravel.dev'` fallback (avoids Vercel env var build-time inlining issues)
+- ✅ **Always redirect to whitelabel** — Removed fallback to `/discover/hotels`. PlaceId is optional but whitelabel redirect always fires
+- ✅ **Batch-populate placeIds** — 3-pass script ran via LiteAPI `/data/places`. 624/715 destinations (87%) now have Google Place IDs in `data/destinations.json`. Scripts: `scripts/add-place-ids.js` (pass 1-3)
+- ✅ **Currency detection via IP geolocation** — Replaced browser locale (`navigator.language`) with IP-based country code. `ipGeolocation.ts` now returns `countryCode` (ISO 3166-1 alpha-2). Resolver passes `userCountryCode` through `LocationAnalysisResponse`. Discover page maps country code → currency (50+ countries supported). Fallback: browser locale → USD
+- ✅ **Landmark-specific placeId** — Resolver now does landmark placeId lookup server-side during analysis via `lookupPlaceId()`. Returns `landmarkPlaceId` in response. Best Match destinations show hotels near the exact landmark, not just city center. Falls back to city placeId from `destinations.json`
+- ✅ **Full flow tested** — Photo → tiles → flashtravel.dev with placeId + dates + guests + currency + sorting pre-filled → hotel search works
 - [ ] **Upload logo + favicon** to whitelabel appearance settings
 
 ### Previous Custom Hotel Pages (Built, Now Superseded)
@@ -120,11 +124,12 @@ Replace custom hotel pages (tiles, rooms, checkout) with LiteAPI's pre-built whi
 > **With whitelabel integration, most of this is handled by LiteAPI automatically.** The whitelabel site manages rates, prebook, booking, payment (Stripe), and confirmation emails. We only need to set up the business/account side.
 
 ### With Whitelabel (New Path)
-- [ ] **Activate whitelabel** — Get domain, customize branding, set commission %
+- ✅ **Activate whitelabel** — `flashtravel.dev` verified, SSL active, branding customized
+- ✅ **`clientReference` tracking** — Built into `selectDestination()`, tags every redirect with `hn-{dest}-{timestamp}`
 - [ ] **Set commission margin** — Configure markup % in LiteAPI dashboard
 - [ ] **Set up payout account** — Bank details in LiteAPI for weekly payouts (every Monday, post-check-in)
 - [ ] **Webhook integration** — Receive booking notifications to track conversions + revenue in our Supabase
-- [ ] **`clientReference` tracking** — Tag each whitelabel redirect with session ID for attribution
+- [ ] **Confirm MoR/chargeback terms** — Awaiting LiteAPI response on chargeback liability, commission clawback, fraud screening
 
 ### Without Whitelabel (Original Path — preserved as fallback)
 - [ ] Flip `USE_MOCK_RATES` to `false` in `lib/liteapi/hotels.ts`

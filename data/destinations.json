@@ -18215,5 +18215,8087 @@
     "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
     "latitude": 7.7407,
     "longitude": 98.7784
+  },
+  {
+    "id": "bodrum",
+    "city": "Bodrum",
+    "country": "Turkey",
+    "airportCode": "BJV",
+    "region": "europe",
+    "vibes": [
+      "beach",
+      "history",
+      "nightlife",
+      "food"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Bodrum Castle",
+      "Turquoise coast",
+      "Ancient Halicarnassus",
+      "Gulet cruises"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 37.03,
+    "longitude": 27.43
+  },
+  {
+    "id": "cappadocia",
+    "city": "Cappadocia",
+    "country": "Turkey",
+    "airportCode": "NAV",
+    "region": "europe",
+    "vibes": [
+      "adventure",
+      "culture",
+      "nature",
+      "photography"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Hot air balloons",
+      "Fairy chimneys",
+      "Underground cities",
+      "Cave hotels"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 38.64,
+    "longitude": 34.83
+  },
+  {
+    "id": "izmir",
+    "city": "Izmir",
+    "country": "Turkey",
+    "airportCode": "ADB",
+    "region": "europe",
+    "vibes": [
+      "food",
+      "culture",
+      "city",
+      "beach"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Kordon waterfront",
+      "Kemeraltı bazaar",
+      "Ephesus day trips",
+      "Aegean seafood"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 38.42,
+    "longitude": 27.14
+  },
+  {
+    "id": "trabzon",
+    "city": "Trabzon",
+    "country": "Turkey",
+    "airportCode": "TZX",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "nature",
+      "history",
+      "food"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Sumela Monastery",
+      "Uzungöl lake",
+      "Black Sea coast",
+      "Trabzon cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 41.0,
+    "longitude": 39.72
+  },
+  {
+    "id": "ephesus",
+    "city": "Ephesus",
+    "country": "Turkey",
+    "airportCode": "ADB",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "photography"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Library of Celsus",
+      "Great Theatre",
+      "Temple of Artemis",
+      "Terrace houses"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 37.94,
+    "longitude": 27.34
+  },
+  {
+    "id": "pamukkale",
+    "city": "Pamukkale",
+    "country": "Turkey",
+    "airportCode": "DNZ",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "history",
+      "photography",
+      "wellness"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Travertine terraces",
+      "Hierapolis ruins",
+      "Cleopatra's Pool",
+      "Cotton castle"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 37.92,
+    "longitude": 29.12
+  },
+  {
+    "id": "gaziantep",
+    "city": "Gaziantep",
+    "country": "Turkey",
+    "airportCode": "GZT",
+    "region": "europe",
+    "vibes": [
+      "food",
+      "culture",
+      "history"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Baklava capital",
+      "Zeugma mosaics",
+      "Coppersmith bazaar",
+      "Pistachio groves"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 37.07,
+    "longitude": 37.38
+  },
+  {
+    "id": "sacramento",
+    "city": "Sacramento",
+    "country": "United States",
+    "airportCode": "SMF",
+    "region": "americas",
+    "vibes": [
+      "food",
+      "culture",
+      "city"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Farm-to-fork capital",
+      "Old Sacramento",
+      "Capitol building",
+      "Craft beer scene"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 38.58,
+    "longitude": -121.49
+  },
+  {
+    "id": "san-jose",
+    "city": "San Jose",
+    "country": "United States",
+    "airportCode": "SJC",
+    "region": "americas",
+    "vibes": [
+      "culture",
+      "food",
+      "city"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Tech campus tours",
+      "San Pedro Square",
+      "Winchester Mystery House",
+      "Japanese gardens"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 37.34,
+    "longitude": -121.89
+  },
+  {
+    "id": "columbus",
+    "city": "Columbus",
+    "country": "United States",
+    "airportCode": "CMH",
+    "region": "americas",
+    "vibes": [
+      "food",
+      "culture",
+      "city",
+      "nightlife"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Short North arts district",
+      "German Village",
+      "Ohio State campus",
+      "Craft breweries"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 39.96,
+    "longitude": -82.99
+  },
+  {
+    "id": "baltimore",
+    "city": "Baltimore",
+    "country": "United States",
+    "airportCode": "BWI",
+    "region": "americas",
+    "vibes": [
+      "history",
+      "food",
+      "culture",
+      "city"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Inner Harbor",
+      "Fort McHenry",
+      "Fells Point",
+      "Chesapeake crab cakes"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 39.29,
+    "longitude": -76.61
+  },
+  {
+    "id": "honolulu",
+    "city": "Honolulu",
+    "country": "United States",
+    "airportCode": "HNL",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "culture",
+      "food",
+      "nature"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Waikiki Beach",
+      "Diamond Head",
+      "Pearl Harbor",
+      "Polynesian culture"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 21.31,
+    "longitude": -157.86
+  },
+  {
+    "id": "newport-ri",
+    "city": "Newport",
+    "country": "United States",
+    "airportCode": "PVD",
+    "region": "americas",
+    "vibes": [
+      "history",
+      "beach",
+      "luxury",
+      "sailing"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Gilded Age mansions",
+      "Cliff Walk",
+      "Sailing capital",
+      "Ocean Drive"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 41.49,
+    "longitude": -71.31
+  },
+  {
+    "id": "finger-lakes",
+    "city": "Finger Lakes",
+    "country": "United States",
+    "airportCode": "SYR",
+    "region": "americas",
+    "vibes": [
+      "nature",
+      "wine",
+      "food",
+      "relaxation"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "200+ wineries",
+      "Watkins Glen gorge",
+      "Lake swimming",
+      "Farm-to-table dining"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 42.75,
+    "longitude": -76.8
+  },
+  {
+    "id": "berkshires",
+    "city": "Berkshires",
+    "country": "United States",
+    "airportCode": "ALB",
+    "region": "americas",
+    "vibes": [
+      "culture",
+      "nature",
+      "food",
+      "relaxation"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Tanglewood concerts",
+      "MASS MoCA",
+      "Fall foliage",
+      "Norman Rockwell Museum"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 42.45,
+    "longitude": -73.25
+  },
+  {
+    "id": "outer-banks",
+    "city": "Outer Banks",
+    "country": "United States",
+    "airportCode": "ORF",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "nature",
+      "history",
+      "family"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Wright Brothers memorial",
+      "Cape Hatteras lighthouse",
+      "Wild horses",
+      "Kiteboarding"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 35.56,
+    "longitude": -75.47
+  },
+  {
+    "id": "mackinac-island",
+    "city": "Mackinac Island",
+    "country": "United States",
+    "airportCode": "MCD",
+    "region": "americas",
+    "vibes": [
+      "history",
+      "nature",
+      "family",
+      "relaxation"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "No cars allowed",
+      "Grand Hotel",
+      "Victorian architecture",
+      "Famous fudge"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 45.85,
+    "longitude": -84.62
+  },
+  {
+    "id": "bozeman",
+    "city": "Bozeman",
+    "country": "United States",
+    "airportCode": "BZN",
+    "region": "americas",
+    "vibes": [
+      "adventure",
+      "nature",
+      "skiing",
+      "food"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      1,
+      2,
+      12
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Yellowstone gateway",
+      "Big Sky skiing",
+      "Gallatin River",
+      "Montana wilderness"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 45.68,
+    "longitude": -111.04
+  },
+  {
+    "id": "bend",
+    "city": "Bend",
+    "country": "United States",
+    "airportCode": "RDM",
+    "region": "americas",
+    "vibes": [
+      "adventure",
+      "nature",
+      "beer",
+      "skiing"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      12,
+      1,
+      2
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "30+ craft breweries",
+      "Mt Bachelor skiing",
+      "Deschutes River",
+      "Smith Rock"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 44.06,
+    "longitude": -121.31
+  },
+  {
+    "id": "kauai",
+    "city": "Kauai",
+    "country": "United States",
+    "airportCode": "LIH",
+    "region": "americas",
+    "vibes": [
+      "nature",
+      "beach",
+      "adventure",
+      "relaxation"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Na Pali Coast",
+      "Waimea Canyon",
+      "Helicopter tours",
+      "Poipu Beach"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 22.09,
+    "longitude": -159.33
+  },
+  {
+    "id": "big-island",
+    "city": "Big Island",
+    "country": "United States",
+    "airportCode": "KOA",
+    "region": "americas",
+    "vibes": [
+      "nature",
+      "adventure",
+      "culture",
+      "beach"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Active volcanoes",
+      "Black sand beaches",
+      "Mauna Kea stargazing",
+      "Coffee farms"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 19.64,
+    "longitude": -155.44
+  },
+  {
+    "id": "lake-placid",
+    "city": "Lake Placid",
+    "country": "United States",
+    "airportCode": "SLK",
+    "region": "americas",
+    "vibes": [
+      "adventure",
+      "nature",
+      "skiing",
+      "relaxation"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      12,
+      1,
+      2
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Olympic venues",
+      "Mirror Lake",
+      "Adirondack peaks",
+      "Whiteface Mountain"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 44.28,
+    "longitude": -73.98
+  },
+  {
+    "id": "taos",
+    "city": "Taos",
+    "country": "United States",
+    "airportCode": "SAF",
+    "region": "americas",
+    "vibes": [
+      "culture",
+      "adventure",
+      "art",
+      "nature"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Taos Pueblo",
+      "Ski Valley",
+      "Rio Grande Gorge",
+      "Art galleries"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 36.41,
+    "longitude": -105.57
+  },
+  {
+    "id": "telluride",
+    "city": "Telluride",
+    "country": "United States",
+    "airportCode": "TEX",
+    "region": "americas",
+    "vibes": [
+      "adventure",
+      "skiing",
+      "nature",
+      "culture"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 5000,
+    "dailyCosts": {
+      "foodPerDay": 100,
+      "activitiesPerDay": 50,
+      "transportPerDay": 25,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Box Canyon",
+      "Free gondola",
+      "Film festival",
+      "San Juan Mountains"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 37.94,
+    "longitude": -107.81
+  },
+  {
+    "id": "stowe",
+    "city": "Stowe",
+    "country": "United States",
+    "airportCode": "BTV",
+    "region": "americas",
+    "vibes": [
+      "skiing",
+      "nature",
+      "food",
+      "relaxation"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      1,
+      2
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Stowe Mountain Resort",
+      "Covered bridges",
+      "Fall foliage",
+      "Von Trapp Family Lodge"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 44.47,
+    "longitude": -72.69
+  },
+  {
+    "id": "bar-harbor",
+    "city": "Bar Harbor",
+    "country": "United States",
+    "airportCode": "BHB",
+    "region": "americas",
+    "vibes": [
+      "nature",
+      "food",
+      "adventure",
+      "relaxation"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Acadia National Park",
+      "Lobster pounds",
+      "Cadillac Mountain",
+      "Whale watching"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 44.39,
+    "longitude": -68.2
+  },
+  {
+    "id": "annapolis",
+    "city": "Annapolis",
+    "country": "United States",
+    "airportCode": "BWI",
+    "region": "americas",
+    "vibes": [
+      "history",
+      "sailing",
+      "food",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Naval Academy",
+      "Historic harbor",
+      "Sailing capital",
+      "Chesapeake seafood"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 38.97,
+    "longitude": -76.49
+  },
+  {
+    "id": "door-county",
+    "city": "Door County",
+    "country": "United States",
+    "airportCode": "GRB",
+    "region": "americas",
+    "vibes": [
+      "nature",
+      "food",
+      "relaxation",
+      "family"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Cherry orchards",
+      "Lighthouse tours",
+      "Fish boils",
+      "Lake Michigan beaches"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 45.0,
+    "longitude": -87.15
+  },
+  {
+    "id": "whitefish",
+    "city": "Whitefish",
+    "country": "United States",
+    "airportCode": "GPI",
+    "region": "americas",
+    "vibes": [
+      "adventure",
+      "nature",
+      "skiing",
+      "relaxation"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      12,
+      1,
+      2
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Glacier National Park",
+      "Whitefish Mountain",
+      "Downtown charm",
+      "Lake activities"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 48.41,
+    "longitude": -114.35
+  },
+  {
+    "id": "sarasota",
+    "city": "Sarasota",
+    "country": "United States",
+    "airportCode": "SRQ",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "culture",
+      "food",
+      "relaxation"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Siesta Key Beach",
+      "Ringling Museum",
+      "Marie Selby Gardens",
+      "Cultural arts"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 27.34,
+    "longitude": -82.53
+  },
+  {
+    "id": "hilton-head",
+    "city": "Hilton Head",
+    "country": "United States",
+    "airportCode": "SAV",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "golf",
+      "nature",
+      "relaxation"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "12 miles of beaches",
+      "World-class golf",
+      "Bike paths",
+      "Sea turtles"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 32.22,
+    "longitude": -80.75
+  },
+  {
+    "id": "galveston",
+    "city": "Galveston",
+    "country": "United States",
+    "airportCode": "IAH",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "history",
+      "food",
+      "family"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "The Strand historic district",
+      "Pleasure Pier",
+      "Victorian architecture",
+      "Gulf seafood"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 29.3,
+    "longitude": -94.79
+  },
+  {
+    "id": "traverse-city",
+    "city": "Traverse City",
+    "country": "United States",
+    "airportCode": "TVC",
+    "region": "americas",
+    "vibes": [
+      "wine",
+      "nature",
+      "food",
+      "beach"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Cherry capital",
+      "Wine trails",
+      "Sleeping Bear Dunes",
+      "Grand Traverse Bay"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 44.76,
+    "longitude": -85.62
+  },
+  {
+    "id": "mystic",
+    "city": "Mystic",
+    "country": "United States",
+    "airportCode": "GON",
+    "region": "americas",
+    "vibes": [
+      "history",
+      "food",
+      "family",
+      "culture"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Mystic Seaport Museum",
+      "Mystic Aquarium",
+      "Mystic Pizza",
+      "Historic whaling"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 41.35,
+    "longitude": -71.97
+  },
+  {
+    "id": "providence",
+    "city": "Providence",
+    "country": "United States",
+    "airportCode": "PVD",
+    "region": "americas",
+    "vibes": [
+      "food",
+      "culture",
+      "art",
+      "city"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "RISD Museum",
+      "WaterFire festival",
+      "Federal Hill",
+      "Providence Performing Arts"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 41.82,
+    "longitude": -71.41
+  },
+  {
+    "id": "akureyri",
+    "city": "Akureyri",
+    "country": "Iceland",
+    "airportCode": "AEY",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "adventure",
+      "culture"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Whale watching",
+      "Godafoss waterfall",
+      "Arctic botanic garden",
+      "Midnight sun"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 65.68,
+    "longitude": -18.09
+  },
+  {
+    "id": "vik",
+    "city": "Vik",
+    "country": "Iceland",
+    "airportCode": "n/a",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "adventure",
+      "photography"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Reynisfjara black sand beach",
+      "Reynisdrangar sea stacks",
+      "Dyrhólaey arch",
+      "Glacier views"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 63.42,
+    "longitude": -19.01
+  },
+  {
+    "id": "husavik",
+    "city": "Husavik",
+    "country": "Iceland",
+    "airportCode": "HZK",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "adventure",
+      "wildlife"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Whale watching capital",
+      "GeoSea baths",
+      "Puffin colonies",
+      "Arctic coast"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 66.05,
+    "longitude": -17.34
+  },
+  {
+    "id": "blue-lagoon",
+    "city": "Blue Lagoon",
+    "country": "Iceland",
+    "airportCode": "KEF",
+    "region": "europe",
+    "vibes": [
+      "wellness",
+      "nature",
+      "luxury",
+      "photography"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "averageCost": 5000,
+    "dailyCosts": {
+      "foodPerDay": 100,
+      "activitiesPerDay": 50,
+      "transportPerDay": 25,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Geothermal lagoon",
+      "Silica mud masks",
+      "Lava restaurant",
+      "Northern Lights bathing"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 63.88,
+    "longitude": -22.45
+  },
+  {
+    "id": "killarney",
+    "city": "Killarney",
+    "country": "Ireland",
+    "airportCode": "KIR",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "adventure",
+      "culture",
+      "history"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Killarney National Park",
+      "Ring of Kerry",
+      "Muckross House",
+      "Gap of Dunloe"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 52.06,
+    "longitude": -9.51
+  },
+  {
+    "id": "dingle",
+    "city": "Dingle",
+    "country": "Ireland",
+    "airportCode": "KIR",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "food",
+      "culture",
+      "adventure"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Slea Head Drive",
+      "Dolphin watching",
+      "Traditional pubs",
+      "Blasket Islands"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 52.14,
+    "longitude": -10.27
+  },
+  {
+    "id": "cliffs-of-moher",
+    "city": "Cliffs of Moher",
+    "country": "Ireland",
+    "airportCode": "SNN",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "photography",
+      "adventure"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "214m sea cliffs",
+      "O'Brien's Tower",
+      "Puffin colony",
+      "Burren landscape"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 52.97,
+    "longitude": -9.43
+  },
+  {
+    "id": "westport",
+    "city": "Westport",
+    "country": "Ireland",
+    "airportCode": "KNO",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "adventure",
+      "culture",
+      "food"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Croagh Patrick",
+      "Clew Bay",
+      "Great Western Greenway",
+      "Traditional music"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 53.8,
+    "longitude": -9.52
+  },
+  {
+    "id": "braga",
+    "city": "Braga",
+    "country": "Portugal",
+    "airportCode": "OPO",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "food",
+      "religion"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Bom Jesus sanctuary",
+      "Historic center",
+      "Roman ruins",
+      "Holy Week festivals"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 41.55,
+    "longitude": -8.43
+  },
+  {
+    "id": "coimbra",
+    "city": "Coimbra",
+    "country": "Portugal",
+    "airportCode": "OPO",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "music"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Oldest university",
+      "Joanina Library",
+      "Fado music",
+      "Mondego River"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 40.2,
+    "longitude": -8.41
+  },
+  {
+    "id": "evora",
+    "city": "Evora",
+    "country": "Portugal",
+    "airportCode": "LIS",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "food",
+      "wine",
+      "culture"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Roman temple",
+      "Chapel of Bones",
+      "Alentejo wine",
+      "Medieval walls"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 38.57,
+    "longitude": -7.91
+  },
+  {
+    "id": "guimaraes",
+    "city": "Guimaraes",
+    "country": "Portugal",
+    "airportCode": "OPO",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "food"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Birthplace of Portugal",
+      "Medieval castle",
+      "Ducal Palace",
+      "Penha Mountain"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 41.44,
+    "longitude": -8.29
+  },
+  {
+    "id": "tavira",
+    "city": "Tavira",
+    "country": "Portugal",
+    "airportCode": "FAO",
+    "region": "europe",
+    "vibes": [
+      "beach",
+      "food",
+      "history",
+      "relaxation"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Island beaches",
+      "Roman bridge",
+      "Gilded churches",
+      "Ria Formosa lagoon"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 37.13,
+    "longitude": -7.65
+  },
+  {
+    "id": "segovia",
+    "city": "Segovia",
+    "country": "Spain",
+    "airportCode": "MAD",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "food",
+      "culture"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Roman aqueduct",
+      "Alcázar castle",
+      "Cochinillo roast",
+      "Gothic cathedral"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 40.95,
+    "longitude": -4.12
+  },
+  {
+    "id": "salamanca",
+    "city": "Salamanca",
+    "country": "Spain",
+    "airportCode": "SLM",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "history",
+      "nightlife",
+      "food"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Plaza Mayor",
+      "University",
+      "Cathedrals",
+      "Student nightlife"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 40.97,
+    "longitude": -5.66
+  },
+  {
+    "id": "ronda",
+    "city": "Ronda",
+    "country": "Spain",
+    "airportCode": "AGP",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "nature",
+      "photography",
+      "food"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Puente Nuevo bridge",
+      "El Tajo gorge",
+      "Bullring",
+      "White village"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 36.74,
+    "longitude": -5.17
+  },
+  {
+    "id": "cadiz",
+    "city": "Cadiz",
+    "country": "Spain",
+    "airportCode": "XRY",
+    "region": "europe",
+    "vibes": [
+      "beach",
+      "history",
+      "food",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Oldest city in Western Europe",
+      "Playa de la Caleta",
+      "Carnival",
+      "Seafood"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 36.53,
+    "longitude": -6.29
+  },
+  {
+    "id": "annecy",
+    "city": "Annecy",
+    "country": "France",
+    "airportCode": "GVA",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "romance",
+      "food",
+      "adventure"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Lake Annecy",
+      "Old town canals",
+      "Paragliding",
+      "Alpine cycling"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 45.9,
+    "longitude": 6.13
+  },
+  {
+    "id": "avignon",
+    "city": "Avignon",
+    "country": "France",
+    "airportCode": "AVN",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "food",
+      "wine"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Palais des Papes",
+      "Pont d'Avignon",
+      "Theatre festival",
+      "Rhône wines"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 43.95,
+    "longitude": 4.81
+  },
+  {
+    "id": "carcassonne",
+    "city": "Carcassonne",
+    "country": "France",
+    "airportCode": "CCF",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "food",
+      "wine"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Medieval citadel",
+      "Double walls",
+      "Canal du Midi",
+      "Cassoulet"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 43.21,
+    "longitude": 2.35
+  },
+  {
+    "id": "dordogne",
+    "city": "Dordogne",
+    "country": "France",
+    "airportCode": "BOD",
+    "region": "europe",
+    "vibes": [
+      "food",
+      "nature",
+      "history",
+      "wine"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Lascaux caves",
+      "Château country",
+      "Périgord truffles",
+      "Canoe trips"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 44.83,
+    "longitude": 0.73
+  },
+  {
+    "id": "lucca",
+    "city": "Lucca",
+    "country": "Italy",
+    "airportCode": "PSA",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "food",
+      "cycling",
+      "music"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Renaissance walls",
+      "Torre Guinigi",
+      "Puccini's birthplace",
+      "Oval piazza"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 43.84,
+    "longitude": 10.5
+  },
+  {
+    "id": "siena",
+    "city": "Siena",
+    "country": "Italy",
+    "airportCode": "FLR",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "food",
+      "art"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Piazza del Campo",
+      "Palio horse race",
+      "Gothic cathedral",
+      "Contrade culture"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 43.32,
+    "longitude": 11.33
+  },
+  {
+    "id": "orvieto",
+    "city": "Orvieto",
+    "country": "Italy",
+    "airportCode": "FCO",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "food",
+      "wine",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Duomo facade",
+      "Underground city",
+      "Orvieto Classico wine",
+      "Hilltop setting"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 42.72,
+    "longitude": 12.11
+  },
+  {
+    "id": "matera",
+    "city": "Matera",
+    "country": "Italy",
+    "airportCode": "BRI",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "food",
+      "photography"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Sassi cave dwellings",
+      "UNESCO World Heritage",
+      "Cave restaurants",
+      "Rupestrian churches"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 40.67,
+    "longitude": 16.6
+  },
+  {
+    "id": "ravenna",
+    "city": "Ravenna",
+    "country": "Italy",
+    "airportCode": "BLQ",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "art",
+      "culture",
+      "food"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Byzantine mosaics",
+      "Dante's tomb",
+      "Eight UNESCO sites",
+      "Emilia-Romagna cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 44.42,
+    "longitude": 12.2
+  },
+  {
+    "id": "rothenburg",
+    "city": "Rothenburg ob der Tauber",
+    "country": "Germany",
+    "airportCode": "NUE",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "photography",
+      "christmas"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Medieval walls",
+      "Christmas museum",
+      "Night watchman tour",
+      "Half-timbered houses"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 49.38,
+    "longitude": 10.18
+  },
+  {
+    "id": "bamberg",
+    "city": "Bamberg",
+    "country": "Germany",
+    "airportCode": "NUE",
+    "region": "europe",
+    "vibes": [
+      "food",
+      "culture",
+      "history",
+      "beer"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Smoked beer",
+      "Little Venice",
+      "Cathedral",
+      "UNESCO old town"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 49.89,
+    "longitude": 10.89
+  },
+  {
+    "id": "lubeck",
+    "city": "Lubeck",
+    "country": "Germany",
+    "airportCode": "HAM",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "food",
+      "culture"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Holstentor gate",
+      "Marzipan capital",
+      "Brick Gothic architecture",
+      "Thomas Mann"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 53.87,
+    "longitude": 10.69
+  },
+  {
+    "id": "potsdam",
+    "city": "Potsdam",
+    "country": "Germany",
+    "airportCode": "BER",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "nature",
+      "art"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Sanssouci Palace",
+      "Dutch Quarter",
+      "Film studios",
+      "Royal gardens"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 52.4,
+    "longitude": 13.07
+  },
+  {
+    "id": "trier",
+    "city": "Trier",
+    "country": "Germany",
+    "airportCode": "LUX",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "wine",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Porta Nigra",
+      "Roman baths",
+      "Mosel wine",
+      "Oldest city in Germany"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 49.75,
+    "longitude": 6.64
+  },
+  {
+    "id": "cesky-krumlov",
+    "city": "Cesky Krumlov",
+    "country": "Czech Republic",
+    "airportCode": "PRG",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "nature",
+      "romance"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Medieval castle",
+      "Vltava River",
+      "UNESCO old town",
+      "Bear moat"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 48.81,
+    "longitude": 14.32
+  },
+  {
+    "id": "brno",
+    "city": "Brno",
+    "country": "Czech Republic",
+    "airportCode": "BRQ",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "food",
+      "nightlife",
+      "history"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Špilberk Castle",
+      "Villa Tugendhat",
+      "Underground tunnels",
+      "Craft beer"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 49.2,
+    "longitude": 16.61
+  },
+  {
+    "id": "karlovy-vary",
+    "city": "Karlovy Vary",
+    "country": "Czech Republic",
+    "airportCode": "KLV",
+    "region": "europe",
+    "vibes": [
+      "wellness",
+      "culture",
+      "food",
+      "nature"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Thermal springs",
+      "Colonnade architecture",
+      "Film festival",
+      "Spa wafers"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 50.23,
+    "longitude": 12.87
+  },
+  {
+    "id": "eger",
+    "city": "Eger",
+    "country": "Hungary",
+    "airportCode": "BUD",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "wine",
+      "wellness",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Eger Castle",
+      "Bull's Blood wine",
+      "Turkish minaret",
+      "Thermal baths"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 47.9,
+    "longitude": 20.38
+  },
+  {
+    "id": "pecs",
+    "city": "Pecs",
+    "country": "Hungary",
+    "airportCode": "BUD",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "history",
+      "food",
+      "art"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Early Christian tombs",
+      "Zsolnay Quarter",
+      "Ottoman mosque",
+      "Mediterranean vibe"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 46.07,
+    "longitude": 18.23
+  },
+  {
+    "id": "hallstatt",
+    "city": "Hallstatt",
+    "country": "Austria",
+    "airportCode": "SZG",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "history",
+      "photography",
+      "culture"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Alpine lake",
+      "Salt mines",
+      "Skywalk viewpoint",
+      "Bone chapel"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 47.56,
+    "longitude": 13.65
+  },
+  {
+    "id": "linz",
+    "city": "Linz",
+    "country": "Austria",
+    "airportCode": "LNZ",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "art",
+      "food",
+      "city"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Ars Electronica",
+      "Lentos art museum",
+      "Linzer Torte",
+      "Danube views"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 48.31,
+    "longitude": 14.29
+  },
+  {
+    "id": "turku",
+    "city": "Turku",
+    "country": "Finland",
+    "airportCode": "TKU",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "history",
+      "food",
+      "nature"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Medieval castle",
+      "Archipelago",
+      "River dining",
+      "Christmas City"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 60.45,
+    "longitude": 22.27
+  },
+  {
+    "id": "stavanger",
+    "city": "Stavanger",
+    "country": "Norway",
+    "airportCode": "SVG",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "adventure",
+      "food",
+      "culture"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Pulpit Rock",
+      "Lysefjord",
+      "Oil museum",
+      "Street art"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 58.97,
+    "longitude": 5.73
+  },
+  {
+    "id": "tampere",
+    "city": "Tampere",
+    "country": "Finland",
+    "airportCode": "TMP",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "food",
+      "nature",
+      "sauna"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      12
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Sauna capital",
+      "Moomin Museum",
+      "Lake scenery",
+      "Industrial heritage"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 61.5,
+    "longitude": 23.79
+  },
+  {
+    "id": "odense",
+    "city": "Odense",
+    "country": "Denmark",
+    "airportCode": "ODE",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "history",
+      "family",
+      "cycling"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Hans Christian Andersen",
+      "Viking history",
+      "H.C. Andersen Museum",
+      "River walks"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 55.4,
+    "longitude": 10.39
+  },
+  {
+    "id": "visby",
+    "city": "Visby",
+    "country": "Sweden",
+    "airportCode": "VBY",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "nature",
+      "culture",
+      "beach"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Medieval walls",
+      "Church ruins",
+      "Medieval Week",
+      "Rose gardens"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 57.64,
+    "longitude": 18.3
+  },
+  {
+    "id": "faroe-islands",
+    "city": "Faroe Islands",
+    "country": "Denmark",
+    "airportCode": "FAE",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "adventure",
+      "photography",
+      "wildlife"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Dramatic sea cliffs",
+      "Puffin colonies",
+      "Múlafossur waterfall",
+      "Grass-roofed villages"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 62.01,
+    "longitude": -6.77
+  },
+  {
+    "id": "novi-sad",
+    "city": "Novi Sad",
+    "country": "Serbia",
+    "airportCode": "BEG",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "nightlife",
+      "food",
+      "history"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "EXIT Festival",
+      "Petrovaradin Fortress",
+      "Danube waterfront",
+      "Serbian cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 45.25,
+    "longitude": 19.85
+  },
+  {
+    "id": "ohrid",
+    "city": "Ohrid",
+    "country": "North Macedonia",
+    "airportCode": "OHD",
+    "region": "europe",
+    "vibes": [
+      "nature",
+      "history",
+      "beach",
+      "culture"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Lake Ohrid",
+      "365 churches",
+      "Samuel's Fortress",
+      "UNESCO heritage"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 41.12,
+    "longitude": 20.8
+  },
+  {
+    "id": "berat",
+    "city": "Berat",
+    "country": "Albania",
+    "airportCode": "TIA",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "photography",
+      "food"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "City of a thousand windows",
+      "Berat Castle",
+      "Ottoman houses",
+      "Osum canyon"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 40.71,
+    "longitude": 19.95
+  },
+  {
+    "id": "prizren",
+    "city": "Prizren",
+    "country": "Kosovo",
+    "airportCode": "PRN",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "food"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Ottoman bridge",
+      "Fortress views",
+      "DokuFest",
+      "Traditional cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 42.21,
+    "longitude": 20.74
+  },
+  {
+    "id": "timisoara",
+    "city": "Timisoara",
+    "country": "Romania",
+    "airportCode": "TSR",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "history",
+      "architecture",
+      "food"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Revolution birthplace",
+      "Art Nouveau architecture",
+      "Three squares",
+      "Parks"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 45.75,
+    "longitude": 21.23
+  },
+  {
+    "id": "sibiu",
+    "city": "Sibiu",
+    "country": "Romania",
+    "airportCode": "SBZ",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "culture",
+      "food",
+      "art"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Eye-shaped rooftops",
+      "Grand Square",
+      "ASTRA museum",
+      "Transylvanian cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 45.8,
+    "longitude": 24.15
+  },
+  {
+    "id": "brasov",
+    "city": "Brasov",
+    "country": "Romania",
+    "airportCode": "OTP",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "nature",
+      "adventure",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Black Church",
+      "Council Square",
+      "Tampa Mountain",
+      "Bran Castle nearby"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 45.65,
+    "longitude": 25.6
+  },
+  {
+    "id": "varna",
+    "city": "Varna",
+    "country": "Bulgaria",
+    "airportCode": "VAR",
+    "region": "europe",
+    "vibes": [
+      "beach",
+      "culture",
+      "history",
+      "food"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Black Sea beaches",
+      "Sea Garden",
+      "Roman baths",
+      "Gold of Varna"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 43.21,
+    "longitude": 27.92
+  },
+  {
+    "id": "budva",
+    "city": "Budva",
+    "country": "Montenegro",
+    "airportCode": "TGD",
+    "region": "europe",
+    "vibes": [
+      "beach",
+      "nightlife",
+      "history",
+      "nature"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Old town walls",
+      "Sveti Stefan",
+      "Beach riviera",
+      "Nightlife"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 42.29,
+    "longitude": 18.84
+  },
+  {
+    "id": "skopje",
+    "city": "Skopje",
+    "country": "North Macedonia",
+    "airportCode": "SKP",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "history",
+      "food",
+      "city"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Old Bazaar",
+      "Stone Bridge",
+      "Mother Teresa memorial",
+      "Matka Canyon"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 41.99,
+    "longitude": 21.43
+  },
+  {
+    "id": "piran",
+    "city": "Piran",
+    "country": "Slovenia",
+    "airportCode": "LJU",
+    "region": "europe",
+    "vibes": [
+      "beach",
+      "food",
+      "history",
+      "romance"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Venetian architecture",
+      "Tartini Square",
+      "Adriatic views",
+      "Salt pans"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 45.53,
+    "longitude": 13.57
+  },
+  {
+    "id": "constanta",
+    "city": "Constanta",
+    "country": "Romania",
+    "airportCode": "CND",
+    "region": "europe",
+    "vibes": [
+      "beach",
+      "history",
+      "culture",
+      "food"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Casino building",
+      "Roman mosaics",
+      "Black Sea beaches",
+      "Mamaia resort"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 44.18,
+    "longitude": 28.63
+  },
+  {
+    "id": "torun",
+    "city": "Torun",
+    "country": "Poland",
+    "airportCode": "BZG",
+    "region": "europe",
+    "vibes": [
+      "history",
+      "food",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Copernicus birthplace",
+      "Gingerbread museum",
+      "Gothic architecture",
+      "Vistula views"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 53.01,
+    "longitude": 18.61
+  },
+  {
+    "id": "zakopane",
+    "city": "Zakopane",
+    "country": "Poland",
+    "airportCode": "KRK",
+    "region": "europe",
+    "vibes": [
+      "adventure",
+      "nature",
+      "skiing",
+      "culture"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      12,
+      1,
+      2
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Tatra Mountains",
+      "Krupówki Street",
+      "Oscypek cheese",
+      "Mountain hiking"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 49.3,
+    "longitude": 19.95
+  },
+  {
+    "id": "petra",
+    "city": "Petra",
+    "country": "Jordan",
+    "airportCode": "AMM",
+    "region": "middle_east",
+    "vibes": [
+      "history",
+      "adventure",
+      "photography",
+      "culture"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Treasury at Al-Khazneh",
+      "Siq canyon",
+      "Monastery",
+      "Petra by Night"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 30.33,
+    "longitude": 35.44
+  },
+  {
+    "id": "wadi-rum",
+    "city": "Wadi Rum",
+    "country": "Jordan",
+    "airportCode": "AQJ",
+    "region": "middle_east",
+    "vibes": [
+      "adventure",
+      "nature",
+      "photography",
+      "culture"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Desert camps",
+      "Rock bridges",
+      "Lawrence of Arabia scenery",
+      "Stargazing"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 29.57,
+    "longitude": 35.42
+  },
+  {
+    "id": "samarkand",
+    "city": "Samarkand",
+    "country": "Uzbekistan",
+    "airportCode": "SKD",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "architecture",
+      "photography"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Registan Square",
+      "Shah-i-Zinda",
+      "Bibi-Khanym Mosque",
+      "Silk Road history"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 39.65,
+    "longitude": 66.96
+  },
+  {
+    "id": "bukhara",
+    "city": "Bukhara",
+    "country": "Uzbekistan",
+    "airportCode": "BHK",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "architecture"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Kalyan Minaret",
+      "Lyabi-Hauz plaza",
+      "Trading domes",
+      "Ancient madrasas"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 39.77,
+    "longitude": 64.42
+  },
+  {
+    "id": "khiva",
+    "city": "Khiva",
+    "country": "Uzbekistan",
+    "airportCode": "UGC",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "photography"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Itchan Kala walled city",
+      "Kalta Minor minaret",
+      "Islam Khodja",
+      "Open-air museum"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 41.38,
+    "longitude": 60.36
+  },
+  {
+    "id": "yerevan",
+    "city": "Yerevan",
+    "country": "Armenia",
+    "airportCode": "EVN",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "food",
+      "history",
+      "nightlife"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Cascade complex",
+      "Mount Ararat views",
+      "Genocide memorial",
+      "Wine country"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 40.18,
+    "longitude": 44.51
+  },
+  {
+    "id": "baku",
+    "city": "Baku",
+    "country": "Azerbaijan",
+    "airportCode": "GYD",
+    "region": "europe",
+    "vibes": [
+      "culture",
+      "architecture",
+      "food",
+      "city"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Flame Towers",
+      "Old City",
+      "Heydar Aliyev Center",
+      "Caspian waterfront"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 40.41,
+    "longitude": 49.87
+  },
+  {
+    "id": "batumi",
+    "city": "Batumi",
+    "country": "Georgia",
+    "airportCode": "BUS",
+    "region": "europe",
+    "vibes": [
+      "beach",
+      "nightlife",
+      "food",
+      "architecture"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Black Sea beaches",
+      "Botanical garden",
+      "Alphabet Tower",
+      "Boulevard promenade"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 41.64,
+    "longitude": 41.63
+  },
+  {
+    "id": "tangier",
+    "city": "Tangier",
+    "country": "Morocco",
+    "airportCode": "TNG",
+    "region": "africa",
+    "vibes": [
+      "culture",
+      "food",
+      "history",
+      "art"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Kasbah views",
+      "Cap Spartel",
+      "Café culture",
+      "Strait of Gibraltar"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 35.77,
+    "longitude": -5.8
+  },
+  {
+    "id": "rabat",
+    "city": "Rabat",
+    "country": "Morocco",
+    "airportCode": "RBA",
+    "region": "africa",
+    "vibes": [
+      "culture",
+      "history",
+      "food"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Hassan Tower",
+      "Kasbah des Oudayas",
+      "Chellah ruins",
+      "Royal palace"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 34.02,
+    "longitude": -6.84
+  },
+  {
+    "id": "cairo",
+    "city": "Cairo",
+    "country": "Egypt",
+    "airportCode": "CAI",
+    "region": "africa",
+    "vibes": [
+      "history",
+      "culture",
+      "food",
+      "city"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Pyramids of Giza",
+      "Egyptian Museum",
+      "Khan el-Khalili",
+      "Islamic Cairo"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 30.04,
+    "longitude": 31.24
+  },
+  {
+    "id": "alexandria",
+    "city": "Alexandria",
+    "country": "Egypt",
+    "airportCode": "HBE",
+    "region": "africa",
+    "vibes": [
+      "history",
+      "food",
+      "culture",
+      "beach"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Bibliotheca Alexandrina",
+      "Citadel of Qaitbay",
+      "Corniche",
+      "Mediterranean seafood"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 31.2,
+    "longitude": 29.92
+  },
+  {
+    "id": "dominica",
+    "city": "Dominica",
+    "country": "Dominica",
+    "airportCode": "DOM",
+    "region": "caribbean",
+    "vibes": [
+      "nature",
+      "adventure",
+      "wellness",
+      "diving"
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Boiling Lake",
+      "Champagne Reef",
+      "Trafalgar Falls",
+      "Rainforest hikes"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 15.3,
+    "longitude": -61.39
+  },
+  {
+    "id": "sint-maarten",
+    "city": "Sint Maarten",
+    "country": "Sint Maarten",
+    "airportCode": "SXM",
+    "region": "caribbean",
+    "vibes": [
+      "beach",
+      "food",
+      "nightlife",
+      "duty-free"
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Maho Beach plane spotting",
+      "Orient Bay",
+      "Two-nation island",
+      "Duty-free shopping"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 18.04,
+    "longitude": -63.07
+  },
+  {
+    "id": "tobago",
+    "city": "Tobago",
+    "country": "Trinidad and Tobago",
+    "airportCode": "TAB",
+    "region": "caribbean",
+    "vibes": [
+      "beach",
+      "nature",
+      "diving",
+      "relaxation"
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Pigeon Point",
+      "Nylon Pool",
+      "Oldest rainforest reserve",
+      "Goat racing"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 11.25,
+    "longitude": -60.67
+  },
+  {
+    "id": "tortola",
+    "city": "Tortola",
+    "country": "British Virgin Islands",
+    "airportCode": "EIS",
+    "region": "caribbean",
+    "vibes": [
+      "sailing",
+      "beach",
+      "nature",
+      "luxury"
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 5000,
+    "dailyCosts": {
+      "foodPerDay": 100,
+      "activitiesPerDay": 50,
+      "transportPerDay": 25,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Sailing capital",
+      "Cane Garden Bay",
+      "The Baths (nearby)",
+      "Rum bars"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 18.43,
+    "longitude": -64.62
+  },
+  {
+    "id": "saint-vincent",
+    "city": "Saint Vincent",
+    "country": "St. Vincent and the Grenadines",
+    "airportCode": "SVD",
+    "region": "caribbean",
+    "vibes": [
+      "nature",
+      "sailing",
+      "adventure",
+      "diving"
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "La Soufriere volcano",
+      "Tobago Cays",
+      "Black sand beaches",
+      "Grenadine sailing"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 13.16,
+    "longitude": -61.23
+  },
+  {
+    "id": "montego-bay",
+    "city": "Montego Bay",
+    "country": "Jamaica",
+    "airportCode": "MBJ",
+    "region": "caribbean",
+    "vibes": [
+      "beach",
+      "culture",
+      "nightlife",
+      "food"
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Doctor's Cave Beach",
+      "Rose Hall",
+      "Hip Strip",
+      "Jamaican jerk cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 18.47,
+    "longitude": -77.92
+  },
+  {
+    "id": "punta-cana",
+    "city": "Punta Cana",
+    "country": "Dominican Republic",
+    "airportCode": "PUJ",
+    "region": "caribbean",
+    "vibes": [
+      "beach",
+      "resort",
+      "golf",
+      "family"
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Bavaro Beach",
+      "Hoyo Azul cenote",
+      "Saona Island",
+      "Golf courses"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 18.58,
+    "longitude": -68.37
+  },
+  {
+    "id": "queretaro",
+    "city": "Queretaro",
+    "country": "Mexico",
+    "airportCode": "QRO",
+    "region": "americas",
+    "vibes": [
+      "food",
+      "culture",
+      "history",
+      "wine"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Aqueduct",
+      "Baroque churches",
+      "Wine route",
+      "Historic center"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 20.59,
+    "longitude": -100.39
+  },
+  {
+    "id": "morelia",
+    "city": "Morelia",
+    "country": "Mexico",
+    "airportCode": "MLM",
+    "region": "americas",
+    "vibes": [
+      "culture",
+      "food",
+      "history",
+      "nature"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Pink stone cathedral",
+      "Monarch butterflies",
+      "Tarascan cuisine",
+      "Aqueduct"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 19.7,
+    "longitude": -101.19
+  },
+  {
+    "id": "san-cristobal",
+    "city": "San Cristobal de las Casas",
+    "country": "Mexico",
+    "airportCode": "SZT",
+    "region": "americas",
+    "vibes": [
+      "culture",
+      "food",
+      "nature",
+      "adventure"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Highland Maya culture",
+      "Amber museum",
+      "Canyon del Sumidero",
+      "Coffee culture"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 16.74,
+    "longitude": -92.64
+  },
+  {
+    "id": "mazatlan",
+    "city": "Mazatlan",
+    "country": "Mexico",
+    "airportCode": "MZT",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "food",
+      "culture",
+      "nightlife"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Malecón promenade",
+      "Historic center",
+      "Cliff divers",
+      "Carnival"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 23.25,
+    "longitude": -106.41
+  },
+  {
+    "id": "granada-nicaragua",
+    "city": "Granada",
+    "country": "Nicaragua",
+    "airportCode": "MGA",
+    "region": "americas",
+    "vibes": [
+      "history",
+      "culture",
+      "nature",
+      "food"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Colonial architecture",
+      "Isletas boat tour",
+      "Mombacho Volcano",
+      "Lake Nicaragua"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 11.93,
+    "longitude": -85.96
+  },
+  {
+    "id": "leon-nicaragua",
+    "city": "Leon",
+    "country": "Nicaragua",
+    "airportCode": "MGA",
+    "region": "americas",
+    "vibes": [
+      "culture",
+      "adventure",
+      "history",
+      "art"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Volcano boarding",
+      "Cathedral rooftop",
+      "Revolutionary murals",
+      "Pacific beaches"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 12.44,
+    "longitude": -86.88
+  },
+  {
+    "id": "el-tunco",
+    "city": "El Tunco",
+    "country": "El Salvador",
+    "airportCode": "SAL",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "surfing",
+      "nightlife",
+      "food"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Surf breaks",
+      "Black sand beach",
+      "Ruta de las Flores",
+      "Pupusa capital"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 13.49,
+    "longitude": -89.38
+  },
+  {
+    "id": "semuc-champey",
+    "city": "Semuc Champey",
+    "country": "Guatemala",
+    "airportCode": "GUA",
+    "region": "americas",
+    "vibes": [
+      "nature",
+      "adventure",
+      "swimming"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Turquoise pools",
+      "Cave tubing",
+      "Jungle setting",
+      "El Mirador viewpoint"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 15.53,
+    "longitude": -89.96
+  },
+  {
+    "id": "bocas-del-toro",
+    "city": "Bocas del Toro",
+    "country": "Panama",
+    "airportCode": "BOC",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "diving",
+      "nightlife",
+      "nature"
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Starfish Beach",
+      "Red Frog Beach",
+      "Caribbean islands",
+      "Chocolate farms"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 9.34,
+    "longitude": -82.24
+  },
+  {
+    "id": "cali",
+    "city": "Cali",
+    "country": "Colombia",
+    "airportCode": "CLO",
+    "region": "americas",
+    "vibes": [
+      "nightlife",
+      "culture",
+      "food",
+      "dance"
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      7,
+      8
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Salsa capital",
+      "Cristo Rey statue",
+      "San Antonio neighborhood",
+      "Sugar cane valley"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 3.45,
+    "longitude": -76.53
+  },
+  {
+    "id": "sucre",
+    "city": "Sucre",
+    "country": "Bolivia",
+    "airportCode": "SRE",
+    "region": "americas",
+    "vibes": [
+      "culture",
+      "history",
+      "food"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "White city",
+      "Dinosaur footprints",
+      "Colonial architecture",
+      "Chocolate workshops"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": -19.04,
+    "longitude": -65.26
+  },
+  {
+    "id": "asuncion",
+    "city": "Asuncion",
+    "country": "Paraguay",
+    "airportCode": "ASU",
+    "region": "americas",
+    "vibes": [
+      "culture",
+      "food",
+      "history"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Loma San Jerónimo",
+      "Costanera riverside",
+      "Guaraní culture",
+      "Marketplace life"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": -25.26,
+    "longitude": -57.58
+  },
+  {
+    "id": "manaus",
+    "city": "Manaus",
+    "country": "Brazil",
+    "airportCode": "MAO",
+    "region": "americas",
+    "vibes": [
+      "nature",
+      "adventure",
+      "culture"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Amazon rainforest",
+      "Meeting of the Waters",
+      "Opera house",
+      "River dolphins"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": -3.12,
+    "longitude": -60.02
+  },
+  {
+    "id": "recife",
+    "city": "Recife",
+    "country": "Brazil",
+    "airportCode": "REC",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "culture",
+      "food",
+      "history"
+    ],
+    "bestMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Venice of Brazil",
+      "Olinda old town",
+      "Boa Viagem beach",
+      "Carnival"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": -8.05,
+    "longitude": -34.87
+  },
+  {
+    "id": "fortaleza",
+    "city": "Fortaleza",
+    "country": "Brazil",
+    "airportCode": "FOR",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "nightlife",
+      "food",
+      "culture"
+    ],
+    "bestMonths": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Praia do Futuro",
+      "Jericoacoara nearby",
+      "Forró music",
+      "Beach Park"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": -3.72,
+    "longitude": -38.53
+  },
+  {
+    "id": "huaraz",
+    "city": "Huaraz",
+    "country": "Peru",
+    "airportCode": "LIM",
+    "region": "americas",
+    "vibes": [
+      "adventure",
+      "nature",
+      "photography"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Cordillera Blanca",
+      "Laguna 69",
+      "Huascarán peak",
+      "Santa Cruz trek"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": -9.53,
+    "longitude": -77.53
+  },
+  {
+    "id": "potosi",
+    "city": "Potosi",
+    "country": "Bolivia",
+    "airportCode": "POI",
+    "region": "americas",
+    "vibes": [
+      "history",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Cerro Rico silver mountain",
+      "Colonial mint",
+      "Highest city",
+      "Mining tours"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": -19.59,
+    "longitude": -65.75
+  },
+  {
+    "id": "natal",
+    "city": "Natal",
+    "country": "Brazil",
+    "airportCode": "NAT",
+    "region": "americas",
+    "vibes": [
+      "beach",
+      "adventure",
+      "nature"
+    ],
+    "bestMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Ponta Negra beach",
+      "Genipabu dunes",
+      "Maracajaú reef",
+      "Buggy rides"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": -5.79,
+    "longitude": -35.21
+  },
+  {
+    "id": "trujillo",
+    "city": "Trujillo",
+    "country": "Peru",
+    "airportCode": "TRU",
+    "region": "americas",
+    "vibes": [
+      "history",
+      "culture",
+      "food",
+      "nature"
+    ],
+    "bestMonths": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Chan Chan ruins",
+      "Huacas del Sol y Luna",
+      "Colonial center",
+      "Caballitos de totora"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": -8.11,
+    "longitude": -79.04
+  },
+  {
+    "id": "kamakura",
+    "city": "Kamakura",
+    "country": "Japan",
+    "airportCode": "NRT",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "nature",
+      "culture",
+      "food"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      11
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Great Buddha",
+      "Bamboo forest",
+      "Beach town",
+      "Ancient temples"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 35.32,
+    "longitude": 139.55
+  },
+  {
+    "id": "nikko",
+    "city": "Nikko",
+    "country": "Japan",
+    "airportCode": "NRT",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "history",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      10,
+      11
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Toshogu shrine",
+      "Sacred bridge",
+      "Cedar avenue",
+      "Kegon Falls"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 36.75,
+    "longitude": 139.6
+  },
+  {
+    "id": "takayama",
+    "city": "Takayama",
+    "country": "Japan",
+    "airportCode": "NGO",
+    "region": "asia",
+    "vibes": [
+      "food",
+      "culture",
+      "nature",
+      "history"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      10,
+      11,
+      1,
+      2
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Edo-era old town",
+      "Morning markets",
+      "Hida beef",
+      "Japanese Alps"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 36.14,
+    "longitude": 137.25
+  },
+  {
+    "id": "naoshima",
+    "city": "Naoshima",
+    "country": "Japan",
+    "airportCode": "TAK",
+    "region": "asia",
+    "vibes": [
+      "art",
+      "culture",
+      "nature"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Chichu Art Museum",
+      "Yellow pumpkin",
+      "Art house projects",
+      "Benesse House"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 34.46,
+    "longitude": 133.99
+  },
+  {
+    "id": "kobe",
+    "city": "Kobe",
+    "country": "Japan",
+    "airportCode": "UKB",
+    "region": "asia",
+    "vibes": [
+      "food",
+      "culture",
+      "city",
+      "nature"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Kobe beef",
+      "Kitano district",
+      "Harbor views",
+      "Sake breweries"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 34.69,
+    "longitude": 135.2
+  },
+  {
+    "id": "matsumoto",
+    "city": "Matsumoto",
+    "country": "Japan",
+    "airportCode": "NGO",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "nature",
+      "food"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Matsumoto Castle",
+      "Nakamachi street",
+      "Japanese Alps gateway",
+      "Soba noodles"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 36.24,
+    "longitude": 137.97
+  },
+  {
+    "id": "gyeongju",
+    "city": "Gyeongju",
+    "country": "South Korea",
+    "airportCode": "PUS",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "nature",
+      "photography"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Bulguksa Temple",
+      "Royal tombs",
+      "Anapji Pond",
+      "Silla dynasty capital"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 35.86,
+    "longitude": 129.21
+  },
+  {
+    "id": "jeonju",
+    "city": "Jeonju",
+    "country": "South Korea",
+    "airportCode": "CJJ",
+    "region": "asia",
+    "vibes": [
+      "food",
+      "culture",
+      "history"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Bibimbap birthplace",
+      "Hanok village",
+      "Korean paper",
+      "Street food"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 35.82,
+    "longitude": 127.15
+  },
+  {
+    "id": "sokcho",
+    "city": "Sokcho",
+    "country": "South Korea",
+    "airportCode": "YNY",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "adventure",
+      "food",
+      "beach"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Seoraksan National Park",
+      "Sunrise Peak",
+      "Fresh seafood",
+      "Beach sunrises"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 38.21,
+    "longitude": 128.59
+  },
+  {
+    "id": "daegu",
+    "city": "Daegu",
+    "country": "South Korea",
+    "airportCode": "TAE",
+    "region": "asia",
+    "vibes": [
+      "food",
+      "culture",
+      "shopping",
+      "history"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Seomun Market",
+      "Apsan Park",
+      "Herb medicine alley",
+      "Textile capital"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 35.87,
+    "longitude": 128.6
+  },
+  {
+    "id": "incheon",
+    "city": "Incheon",
+    "country": "South Korea",
+    "airportCode": "ICN",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "food",
+      "history",
+      "beach"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Chinatown",
+      "Wolmido Island",
+      "Historic port",
+      "Korean-Chinese cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 37.46,
+    "longitude": 126.71
+  },
+  {
+    "id": "kunming",
+    "city": "Kunming",
+    "country": "China",
+    "airportCode": "KMG",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "culture",
+      "food",
+      "spring"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Stone Forest",
+      "Eternal Spring City",
+      "Yunnan cuisine",
+      "Green Lake Park"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 25.04,
+    "longitude": 102.71
+  },
+  {
+    "id": "chongqing",
+    "city": "Chongqing",
+    "country": "China",
+    "airportCode": "CKG",
+    "region": "asia",
+    "vibes": [
+      "food",
+      "culture",
+      "city",
+      "nightlife"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Hotpot capital",
+      "Hongya Cave",
+      "Yangtze views",
+      "Cyberpunk cityscape"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 29.56,
+    "longitude": 106.55
+  },
+  {
+    "id": "harbin",
+    "city": "Harbin",
+    "country": "China",
+    "airportCode": "HRB",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "winter",
+      "food",
+      "architecture"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Ice Festival",
+      "Russian architecture",
+      "Harbin beer",
+      "Siberian tiger park"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 45.75,
+    "longitude": 126.65
+  },
+  {
+    "id": "pai",
+    "city": "Pai",
+    "country": "Thailand",
+    "airportCode": "CNX",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "relaxation",
+      "food",
+      "adventure"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Hot springs",
+      "Pai Canyon",
+      "Night market",
+      "Jungle waterfalls"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 19.36,
+    "longitude": 98.44
+  },
+  {
+    "id": "sukhothai",
+    "city": "Sukhothai",
+    "country": "Thailand",
+    "airportCode": "THS",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "cycling",
+      "photography"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Historical park",
+      "Ancient temples",
+      "Cycling ruins",
+      "Loy Krathong festival"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 17.01,
+    "longitude": 99.82
+  },
+  {
+    "id": "kanchanaburi",
+    "city": "Kanchanaburi",
+    "country": "Thailand",
+    "airportCode": "BKK",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "nature",
+      "adventure"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Bridge over River Kwai",
+      "Erawan Falls",
+      "Death Railway",
+      "Tiger caves"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 14.02,
+    "longitude": 99.53
+  },
+  {
+    "id": "khao-lak",
+    "city": "Khao Lak",
+    "country": "Thailand",
+    "airportCode": "HKT",
+    "region": "asia",
+    "vibes": [
+      "beach",
+      "nature",
+      "diving",
+      "relaxation"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Similan Islands",
+      "Khao Sok National Park",
+      "Quiet beaches",
+      "Diving"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 8.65,
+    "longitude": 98.24
+  },
+  {
+    "id": "koh-lanta",
+    "city": "Koh Lanta",
+    "country": "Thailand",
+    "airportCode": "KBV",
+    "region": "asia",
+    "vibes": [
+      "beach",
+      "relaxation",
+      "food",
+      "diving"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Long Beach",
+      "Old Town",
+      "Mu Ko Lanta National Park",
+      "Sunset views"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 7.63,
+    "longitude": 99.04
+  },
+  {
+    "id": "dalat",
+    "city": "Dalat",
+    "country": "Vietnam",
+    "airportCode": "DLI",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "food",
+      "adventure",
+      "culture"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "French colonial villas",
+      "Crazy House",
+      "Coffee culture",
+      "Pine forests"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 11.94,
+    "longitude": 108.44
+  },
+  {
+    "id": "phu-quoc",
+    "city": "Phu Quoc",
+    "country": "Vietnam",
+    "airportCode": "PQC",
+    "region": "asia",
+    "vibes": [
+      "beach",
+      "food",
+      "nature",
+      "relaxation"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Long Beach",
+      "Night market",
+      "Fish sauce factories",
+      "Snorkeling"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 10.23,
+    "longitude": 103.97
+  },
+  {
+    "id": "ninh-binh",
+    "city": "Ninh Binh",
+    "country": "Vietnam",
+    "airportCode": "HAN",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "culture",
+      "photography",
+      "adventure"
+    ],
+    "bestMonths": [
+      2,
+      3,
+      4,
+      5,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Tam Coc boat rides",
+      "Trang An grottoes",
+      "Bai Dinh Pagoda",
+      "Karst landscapes"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 20.25,
+    "longitude": 105.97
+  },
+  {
+    "id": "mui-ne",
+    "city": "Mui Ne",
+    "country": "Vietnam",
+    "airportCode": "SGN",
+    "region": "asia",
+    "vibes": [
+      "beach",
+      "adventure",
+      "nature",
+      "relaxation"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Red and white sand dunes",
+      "Fairy Stream",
+      "Kitesurfing",
+      "Fishing village"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 10.93,
+    "longitude": 108.29
+  },
+  {
+    "id": "phnom-penh",
+    "city": "Phnom Penh",
+    "country": "Cambodia",
+    "airportCode": "PNH",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "food",
+      "culture",
+      "nightlife"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Royal Palace",
+      "Tuol Sleng",
+      "Central Market",
+      "Riverside dining"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 11.56,
+    "longitude": 104.93
+  },
+  {
+    "id": "kampot",
+    "city": "Kampot",
+    "country": "Cambodia",
+    "airportCode": "PNH",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "food",
+      "relaxation",
+      "adventure"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Kampot pepper",
+      "Bokor Hill Station",
+      "River kayaking",
+      "French colonial town"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 10.59,
+    "longitude": 104.18
+  },
+  {
+    "id": "vientiane",
+    "city": "Vientiane",
+    "country": "Laos",
+    "airportCode": "VTE",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "food",
+      "relaxation"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Pha That Luang",
+      "Mekong sunset",
+      "COPE center",
+      "Patuxai arch"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 17.97,
+    "longitude": 102.63
+  },
+  {
+    "id": "vang-vieng",
+    "city": "Vang Vieng",
+    "country": "Laos",
+    "airportCode": "VTE",
+    "region": "asia",
+    "vibes": [
+      "adventure",
+      "nature",
+      "relaxation"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Karst landscapes",
+      "Blue Lagoon",
+      "Cave tubing",
+      "Hot air balloons"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 18.92,
+    "longitude": 102.45
+  },
+  {
+    "id": "bagan",
+    "city": "Bagan",
+    "country": "Myanmar",
+    "airportCode": "NYU",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "photography",
+      "adventure"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "2000+ temples",
+      "Sunrise balloons",
+      "Irrawaddy River",
+      "Ancient frescoes"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 21.17,
+    "longitude": 94.86
+  },
+  {
+    "id": "mandalay",
+    "city": "Mandalay",
+    "country": "Myanmar",
+    "airportCode": "MDL",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "history",
+      "food",
+      "nature"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Mandalay Palace",
+      "U Bein Bridge",
+      "Mandalay Hill",
+      "Gold leaf workshops"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 21.97,
+    "longitude": 96.08
+  },
+  {
+    "id": "flores",
+    "city": "Flores",
+    "country": "Indonesia",
+    "airportCode": "LBJ",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "adventure",
+      "culture",
+      "diving"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Komodo dragons",
+      "Kelimutu crater lakes",
+      "Spider web rice fields",
+      "Snorkeling"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": -8.45,
+    "longitude": 121.0
+  },
+  {
+    "id": "bandung",
+    "city": "Bandung",
+    "country": "Indonesia",
+    "airportCode": "BDO",
+    "region": "asia",
+    "vibes": [
+      "food",
+      "nature",
+      "culture",
+      "shopping"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Tea plantations",
+      "Art Deco architecture",
+      "Volcano craters",
+      "Factory outlets"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": -6.91,
+    "longitude": 107.61
+  },
+  {
+    "id": "surabaya",
+    "city": "Surabaya",
+    "country": "Indonesia",
+    "airportCode": "SUB",
+    "region": "asia",
+    "vibes": [
+      "food",
+      "culture",
+      "history",
+      "city"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Arab Quarter",
+      "House of Sampoerna",
+      "Mount Bromo gateway",
+      "Street food"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": -7.25,
+    "longitude": 112.75
+  },
+  {
+    "id": "cameron-highlands",
+    "city": "Cameron Highlands",
+    "country": "Malaysia",
+    "airportCode": "KUL",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "food",
+      "relaxation",
+      "tea"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Tea plantations",
+      "Mossy Forest",
+      "Strawberry farms",
+      "BOH tea factory"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 4.47,
+    "longitude": 101.38
+  },
+  {
+    "id": "kota-kinabalu",
+    "city": "Kota Kinabalu",
+    "country": "Malaysia",
+    "airportCode": "BKI",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "adventure",
+      "beach",
+      "food"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Mount Kinabalu",
+      "Island hopping",
+      "Tunku Abdul Rahman Park",
+      "Seafood markets"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 5.98,
+    "longitude": 116.07
+  },
+  {
+    "id": "bohol",
+    "city": "Bohol",
+    "country": "Philippines",
+    "airportCode": "TAG",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "beach",
+      "adventure",
+      "wildlife"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Chocolate Hills",
+      "Tarsier sanctuary",
+      "Virgin Island",
+      "Loboc River cruise"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 9.85,
+    "longitude": 124.01
+  },
+  {
+    "id": "coron",
+    "city": "Coron",
+    "country": "Philippines",
+    "airportCode": "USU",
+    "region": "asia",
+    "vibes": [
+      "diving",
+      "nature",
+      "beach",
+      "adventure"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "WWII shipwrecks",
+      "Twin Lagoon",
+      "Kayangan Lake",
+      "Island hopping"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 12.0,
+    "longitude": 120.2
+  },
+  {
+    "id": "hampi",
+    "city": "Hampi",
+    "country": "India",
+    "airportCode": "BLR",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "photography",
+      "adventure"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Vijayanagara ruins",
+      "Boulder landscapes",
+      "Virupaksha Temple",
+      "Coracle rides"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 15.34,
+    "longitude": 76.46
+  },
+  {
+    "id": "jodhpur",
+    "city": "Jodhpur",
+    "country": "India",
+    "airportCode": "JDH",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "photography",
+      "food"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Mehrangarh Fort",
+      "Blue City",
+      "Clock tower market",
+      "Rajasthani cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 26.24,
+    "longitude": 73.02
+  },
+  {
+    "id": "mysore",
+    "city": "Mysore",
+    "country": "India",
+    "airportCode": "BLR",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "history",
+      "food",
+      "wellness"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Mysore Palace",
+      "Chamundi Hill",
+      "Yoga capital",
+      "Silk and sandalwood"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 12.3,
+    "longitude": 76.66
+  },
+  {
+    "id": "pondicherry",
+    "city": "Pondicherry",
+    "country": "India",
+    "airportCode": "MAA",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "food",
+      "beach",
+      "history"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "French Quarter",
+      "Auroville",
+      "Promenade Beach",
+      "Tamil-French fusion cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 11.93,
+    "longitude": 79.83
+  },
+  {
+    "id": "darjeeling",
+    "city": "Darjeeling",
+    "country": "India",
+    "airportCode": "BBI",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "culture",
+      "food",
+      "adventure"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Tea plantations",
+      "Toy train",
+      "Kanchenjunga views",
+      "Tiger Hill sunrise"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 27.04,
+    "longitude": 88.26
+  },
+  {
+    "id": "chitwan",
+    "city": "Chitwan",
+    "country": "Nepal",
+    "airportCode": "KTM",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "wildlife",
+      "adventure"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "One-horned rhinos",
+      "Bengal tigers",
+      "Elephant safaris",
+      "Tharu culture"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 27.53,
+    "longitude": 84.35
+  },
+  {
+    "id": "lumbini",
+    "city": "Lumbini",
+    "country": "Nepal",
+    "airportCode": "BWA",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "history",
+      "spirituality"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Buddha's birthplace",
+      "Maya Devi Temple",
+      "Peace Pagoda",
+      "Monastery zone"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 27.47,
+    "longitude": 83.28
+  },
+  {
+    "id": "tainan",
+    "city": "Tainan",
+    "country": "Taiwan",
+    "airportCode": "TNN",
+    "region": "asia",
+    "vibes": [
+      "food",
+      "history",
+      "culture"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Oldest city",
+      "Temple culture",
+      "Street food capital",
+      "Anping Fort"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 22.99,
+    "longitude": 120.21
+  },
+  {
+    "id": "jiufen",
+    "city": "Jiufen",
+    "country": "Taiwan",
+    "airportCode": "TPE",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "food",
+      "photography"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Spirited Away inspiration",
+      "Lantern-lit streets",
+      "Mountain tea houses",
+      "Ocean views"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": 25.11,
+    "longitude": 121.84
+  },
+  {
+    "id": "sigiriya",
+    "city": "Sigiriya",
+    "country": "Sri Lanka",
+    "airportCode": "CMB",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "nature",
+      "culture",
+      "adventure"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Lion Rock fortress",
+      "Ancient frescoes",
+      "Mirror wall",
+      "Pidurangala Rock"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": 7.96,
+    "longitude": 80.76
+  },
+  {
+    "id": "trincomalee",
+    "city": "Trincomalee",
+    "country": "Sri Lanka",
+    "airportCode": "TRR",
+    "region": "asia",
+    "vibes": [
+      "beach",
+      "nature",
+      "diving",
+      "history"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Nilaveli Beach",
+      "Whale watching",
+      "Koneswaram Temple",
+      "Pigeon Island"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 8.57,
+    "longitude": 81.23
+  },
+  {
+    "id": "alice-springs",
+    "city": "Alice Springs",
+    "country": "Australia",
+    "airportCode": "ASP",
+    "region": "oceania",
+    "vibes": [
+      "nature",
+      "culture",
+      "adventure"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Uluru gateway",
+      "West MacDonnell Ranges",
+      "Aboriginal culture",
+      "Outback skies"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": -23.7,
+    "longitude": 133.88
+  },
+  {
+    "id": "broome",
+    "city": "Broome",
+    "country": "Australia",
+    "airportCode": "BME",
+    "region": "oceania",
+    "vibes": [
+      "beach",
+      "nature",
+      "adventure",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Cable Beach",
+      "Staircase to the Moon",
+      "Dinosaur footprints",
+      "Pearl history"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": -17.96,
+    "longitude": 122.24
+  },
+  {
+    "id": "margaret-river",
+    "city": "Margaret River",
+    "country": "Australia",
+    "airportCode": "PER",
+    "region": "oceania",
+    "vibes": [
+      "wine",
+      "nature",
+      "food",
+      "surfing"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "200+ wineries",
+      "Cave systems",
+      "Surf breaks",
+      "Gourmet food"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": -33.95,
+    "longitude": 115.07
+  },
+  {
+    "id": "abel-tasman",
+    "city": "Abel Tasman",
+    "country": "New Zealand",
+    "airportCode": "NSN",
+    "region": "oceania",
+    "vibes": [
+      "nature",
+      "adventure",
+      "beach",
+      "hiking"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Great Walk",
+      "Golden beaches",
+      "Water taxis",
+      "Kayaking"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": -41.0,
+    "longitude": 173.0
+  },
+  {
+    "id": "wanaka",
+    "city": "Wanaka",
+    "country": "New Zealand",
+    "airportCode": "ZQN",
+    "region": "oceania",
+    "vibes": [
+      "nature",
+      "adventure",
+      "skiing",
+      "relaxation"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "That Wanaka Tree",
+      "Roys Peak",
+      "Treble Cone skiing",
+      "Lake views"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": -44.7,
+    "longitude": 169.13
+  },
+  {
+    "id": "mombasa",
+    "city": "Mombasa",
+    "country": "Kenya",
+    "airportCode": "MBA",
+    "region": "africa",
+    "vibes": [
+      "beach",
+      "history",
+      "culture",
+      "food"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Diani Beach",
+      "Fort Jesus",
+      "Old Town",
+      "Swahili cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": -4.05,
+    "longitude": 39.67
+  },
+  {
+    "id": "arusha",
+    "city": "Arusha",
+    "country": "Tanzania",
+    "airportCode": "ARK",
+    "region": "africa",
+    "vibes": [
+      "nature",
+      "adventure",
+      "culture"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      1,
+      2
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Safari gateway",
+      "Mount Meru",
+      "Coffee tours",
+      "Maasai markets"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": -3.37,
+    "longitude": 36.68
+  },
+  {
+    "id": "maputo",
+    "city": "Maputo",
+    "country": "Mozambique",
+    "airportCode": "MPM",
+    "region": "africa",
+    "vibes": [
+      "culture",
+      "food",
+      "beach",
+      "nightlife"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Portuguese architecture",
+      "Seafood markets",
+      "Jazz scene",
+      "Peri-peri prawns"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": -25.97,
+    "longitude": 32.57
+  },
+  {
+    "id": "lamu",
+    "city": "Lamu",
+    "country": "Kenya",
+    "airportCode": "LAU",
+    "region": "africa",
+    "vibes": [
+      "culture",
+      "history",
+      "beach",
+      "relaxation"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "UNESCO Old Town",
+      "Dhow sailing",
+      "Donkey transport",
+      "Swahili architecture"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": -2.27,
+    "longitude": 40.9
+  },
+  {
+    "id": "swakopmund",
+    "city": "Swakopmund",
+    "country": "Namibia",
+    "airportCode": "WDH",
+    "region": "africa",
+    "vibes": [
+      "adventure",
+      "nature",
+      "culture"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Desert meets ocean",
+      "Sandboarding",
+      "German colonial architecture",
+      "Skeleton Coast"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": -22.68,
+    "longitude": 14.53
+  },
+  {
+    "id": "stellenbosch",
+    "city": "Stellenbosch",
+    "country": "South Africa",
+    "airportCode": "CPT",
+    "region": "africa",
+    "vibes": [
+      "wine",
+      "food",
+      "culture",
+      "nature"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Cape Winelands",
+      "Oak-lined streets",
+      "University town",
+      "Stellenbosch Wine Route"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": -33.93,
+    "longitude": 18.86
+  },
+  {
+    "id": "antananarivo",
+    "city": "Antananarivo",
+    "country": "Madagascar",
+    "airportCode": "TNR",
+    "region": "africa",
+    "vibes": [
+      "culture",
+      "nature",
+      "adventure"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Lemur gateway",
+      "Royal hill",
+      "French-Malagasy culture",
+      "Highland scenery"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": -18.91,
+    "longitude": 47.54
+  },
+  {
+    "id": "nosy-be",
+    "city": "Nosy Be",
+    "country": "Madagascar",
+    "airportCode": "NOS",
+    "region": "africa",
+    "vibes": [
+      "beach",
+      "nature",
+      "diving",
+      "relaxation"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Turquoise lagoons",
+      "Lemur island",
+      "Ylang-ylang plantations",
+      "Whale sharks"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": -13.33,
+    "longitude": 48.26
+  },
+  {
+    "id": "livingstone",
+    "city": "Livingstone",
+    "country": "Zambia",
+    "airportCode": "LVI",
+    "region": "africa",
+    "vibes": [
+      "adventure",
+      "nature",
+      "wildlife"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Victoria Falls",
+      "Zambezi rafting",
+      "Devil's Pool",
+      "Sunset cruises"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": -17.84,
+    "longitude": 25.85
+  },
+  {
+    "id": "maun",
+    "city": "Maun",
+    "country": "Botswana",
+    "airportCode": "MUB",
+    "region": "africa",
+    "vibes": [
+      "nature",
+      "wildlife",
+      "adventure",
+      "luxury"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Okavango Delta",
+      "Mokoro canoe safaris",
+      "Big Five",
+      "Fly-in lodges"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": -19.98,
+    "longitude": 23.42
+  },
+  {
+    "id": "accra",
+    "city": "Accra",
+    "country": "Ghana",
+    "airportCode": "ACC",
+    "region": "africa",
+    "vibes": [
+      "culture",
+      "food",
+      "history",
+      "nightlife"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Jamestown lighthouse",
+      "Cape Coast Castle",
+      "Jollof rice",
+      "Afrobeat nightlife"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 5.6,
+    "longitude": -0.19
+  },
+  {
+    "id": "diani-beach",
+    "city": "Diani Beach",
+    "country": "Kenya",
+    "airportCode": "MBA",
+    "region": "africa",
+    "vibes": [
+      "beach",
+      "diving",
+      "nature",
+      "relaxation"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "White sand beach",
+      "Colobus monkeys",
+      "Kite surfing",
+      "Marine reserve"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": -4.28,
+    "longitude": 39.59
+  },
+  {
+    "id": "tonga",
+    "city": "Tonga",
+    "country": "Tonga",
+    "airportCode": "TBU",
+    "region": "oceania",
+    "vibes": [
+      "beach",
+      "nature",
+      "diving",
+      "culture"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Whale swimming",
+      "Pristine beaches",
+      "Blowholes",
+      "Polynesian kingdom"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "latitude": -21.21,
+    "longitude": -175.15
+  },
+  {
+    "id": "moorea",
+    "city": "Moorea",
+    "country": "French Polynesia",
+    "airportCode": "MOZ",
+    "region": "oceania",
+    "vibes": [
+      "beach",
+      "nature",
+      "adventure",
+      "romance"
+    ],
+    "bestMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 5000,
+    "dailyCosts": {
+      "foodPerDay": 100,
+      "activitiesPerDay": 50,
+      "transportPerDay": 25,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Opunohu Bay",
+      "Shark snorkeling",
+      "Pineapple plantations",
+      "Overwater bungalows"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "latitude": -17.54,
+    "longitude": -149.83
+  },
+  {
+    "id": "ulaanbaatar",
+    "city": "Ulaanbaatar",
+    "country": "Mongolia",
+    "airportCode": "UBN",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "adventure",
+      "nature"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Chinggis Khaan statue",
+      "Ger camps",
+      "Gobi Desert gateway",
+      "Nomadic culture"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800",
+    "latitude": 47.92,
+    "longitude": 106.91
+  },
+  {
+    "id": "nizwa",
+    "city": "Nizwa",
+    "country": "Oman",
+    "airportCode": "MCT",
+    "region": "middle_east",
+    "vibes": [
+      "history",
+      "culture",
+      "nature",
+      "adventure"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Nizwa Fort",
+      "Friday goat market",
+      "Jebel Akhdar",
+      "Date plantations"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800",
+    "latitude": 22.93,
+    "longitude": 57.53
+  },
+  {
+    "id": "niagara-on-the-lake",
+    "city": "Niagara-on-the-Lake",
+    "country": "Canada",
+    "airportCode": "YHM",
+    "region": "americas",
+    "vibes": [
+      "wine",
+      "culture",
+      "food",
+      "history"
+    ],
+    "bestMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "averageCost": 3500,
+    "dailyCosts": {
+      "foodPerDay": 60,
+      "activitiesPerDay": 30,
+      "transportPerDay": 15,
+      "source": "claude",
+      "lastUpdated": "2026-02-28"
+    },
+    "highlights": [
+      "Shaw Festival",
+      "Icewine country",
+      "Heritage district",
+      "Niagara wineries"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "latitude": 43.26,
+    "longitude": -79.07
+  },
+  {
+    "id": "leh-ladakh",
+    "city": "Leh-Ladakh",
+    "country": "India",
+    "airportCode": "IXL",
+    "region": "asia",
+    "vibes": [
+      "adventure",
+      "nature",
+      "culture",
+      "photography"
+    ],
+    "bestMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Pangong Lake",
+      "Nubra Valley",
+      "Khardung La pass",
+      "Buddhist monasteries"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800",
+    "latitude": 34.15,
+    "longitude": 77.58
+  },
+  {
+    "id": "jaisalmer",
+    "city": "Jaisalmer",
+    "country": "India",
+    "airportCode": "JSA",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "adventure",
+      "photography",
+      "culture"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Golden Fort",
+      "Sam Sand Dunes",
+      "Havelis",
+      "Camel safaris"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800",
+    "latitude": 26.92,
+    "longitude": 70.91
+  },
+  {
+    "id": "kolkata",
+    "city": "Kolkata",
+    "country": "India",
+    "airportCode": "CCU",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "food",
+      "history",
+      "art"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Victoria Memorial",
+      "Howrah Bridge",
+      "Street food capital",
+      "Literary culture"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1532664189809-02133fee698d?w=800",
+    "latitude": 22.57,
+    "longitude": 88.36
+  },
+  {
+    "id": "hyderabad",
+    "city": "Hyderabad",
+    "country": "India",
+    "airportCode": "HYD",
+    "region": "asia",
+    "vibes": [
+      "food",
+      "history",
+      "culture",
+      "city"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Charminar",
+      "Biryani capital",
+      "Golconda Fort",
+      "Ramoji Film City"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800",
+    "latitude": 17.39,
+    "longitude": 78.49
+  },
+  {
+    "id": "shimla",
+    "city": "Shimla",
+    "country": "India",
+    "airportCode": "SLV",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "history",
+      "culture",
+      "relaxation"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Mall Road",
+      "Toy train",
+      "Colonial architecture",
+      "Himalayan views"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800",
+    "latitude": 31.1,
+    "longitude": 77.17
+  },
+  {
+    "id": "manali",
+    "city": "Manali",
+    "country": "India",
+    "airportCode": "KUU",
+    "region": "asia",
+    "vibes": [
+      "adventure",
+      "nature",
+      "skiing"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Rohtang Pass",
+      "Solang Valley",
+      "Old Manali",
+      "River rafting"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800",
+    "latitude": 32.24,
+    "longitude": 77.19
+  },
+  {
+    "id": "munnar",
+    "city": "Munnar",
+    "country": "India",
+    "airportCode": "COK",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "relaxation",
+      "photography",
+      "tea"
+    ],
+    "bestMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Tea plantations",
+      "Eravikulam National Park",
+      "Nilgiri tahr",
+      "Mattupetty Dam"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800",
+    "latitude": 10.09,
+    "longitude": 77.06
+  },
+  {
+    "id": "alleppey",
+    "city": "Alleppey",
+    "country": "India",
+    "airportCode": "COK",
+    "region": "asia",
+    "vibes": [
+      "nature",
+      "culture",
+      "food",
+      "relaxation"
+    ],
+    "bestMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Houseboat cruises",
+      "Backwater canals",
+      "Coir villages",
+      "Snake boat races"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1532664189809-02133fee698d?w=800",
+    "latitude": 9.49,
+    "longitude": 76.34
+  },
+  {
+    "id": "ranthambore",
+    "city": "Ranthambore",
+    "country": "India",
+    "airportCode": "JAI",
+    "region": "asia",
+    "vibes": [
+      "wildlife",
+      "nature",
+      "photography",
+      "adventure"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Bengal tigers",
+      "Ranthambore Fort",
+      "Safari drives",
+      "Wildlife photography"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800",
+    "latitude": 26.02,
+    "longitude": 76.5
+  },
+  {
+    "id": "khajuraho",
+    "city": "Khajuraho",
+    "country": "India",
+    "airportCode": "HJR",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "art",
+      "photography"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Erotic temple carvings",
+      "UNESCO temples",
+      "Light and sound show",
+      "Chandela dynasty"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800",
+    "latitude": 24.85,
+    "longitude": 79.93
+  },
+  {
+    "id": "andaman-islands",
+    "city": "Andaman Islands",
+    "country": "India",
+    "airportCode": "IXZ",
+    "region": "asia",
+    "vibes": [
+      "beach",
+      "diving",
+      "nature",
+      "adventure"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Radhanagar Beach",
+      "Scuba diving",
+      "Cellular Jail",
+      "Bioluminescence"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800",
+    "latitude": 11.62,
+    "longitude": 92.73
+  },
+  {
+    "id": "aurangabad",
+    "city": "Aurangabad",
+    "country": "India",
+    "airportCode": "IXU",
+    "region": "asia",
+    "vibes": [
+      "history",
+      "culture",
+      "art"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Ajanta Caves",
+      "Ellora Caves",
+      "Bibi Ka Maqbara",
+      "Daulatabad Fort"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800",
+    "latitude": 19.88,
+    "longitude": 75.32
+  },
+  {
+    "id": "pushkar",
+    "city": "Pushkar",
+    "country": "India",
+    "airportCode": "JAI",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "spirituality",
+      "food",
+      "photography"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Pushkar Lake",
+      "Brahma Temple",
+      "Camel Fair",
+      "Rooftop cafés"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1532664189809-02133fee698d?w=800",
+    "latitude": 26.49,
+    "longitude": 74.55
+  },
+  {
+    "id": "bangalore",
+    "city": "Bangalore",
+    "country": "India",
+    "airportCode": "BLR",
+    "region": "asia",
+    "vibes": [
+      "food",
+      "culture",
+      "nightlife",
+      "nature"
+    ],
+    "bestMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 2500,
+    "dailyCosts": {
+      "foodPerDay": 35,
+      "activitiesPerDay": 20,
+      "transportPerDay": 10,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Craft beer capital",
+      "Lalbagh Gardens",
+      "Tech hub",
+      "South Indian cuisine"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800",
+    "latitude": 12.97,
+    "longitude": 77.59
+  },
+  {
+    "id": "chennai",
+    "city": "Chennai",
+    "country": "India",
+    "airportCode": "MAA",
+    "region": "asia",
+    "vibes": [
+      "culture",
+      "food",
+      "history",
+      "beach"
+    ],
+    "bestMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "averageCost": 1500,
+    "dailyCosts": {
+      "foodPerDay": 15,
+      "activitiesPerDay": 10,
+      "transportPerDay": 5,
+      "source": "claude",
+      "lastUpdated": "2026-03-01"
+    },
+    "highlights": [
+      "Kapaleeshwarar Temple",
+      "Marina Beach",
+      "Chettinad cuisine",
+      "Bharatanatyam dance"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800",
+    "latitude": 13.08,
+    "longitude": 80.27
   }
 ]

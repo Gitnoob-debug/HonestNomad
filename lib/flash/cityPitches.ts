@@ -1081,6 +1081,440 @@ const CITY_PITCHES: Record<string, string> = {
     'Jellyfish Lake — swimming with millions of stingless jellyfish — the Rock Islands from above, and diving that regularly appears on every "world\'s best" list. Palau is the diver\'s holy grail.',
   'guam':
     'Tumon Bay\'s turquoise waters, WWII history that\'s powerfully told, and a Chamorro culture that makes this Pacific island distinctly its own — American soil with a Micronesian soul.',
+
+  // ── New Destinations (200) ────────────────────────────
+  'bodrum':
+    'Where the ancient world meets turquoise coves — Bodrum Castle guards a harbor lined with seafood restaurants, while hidden bays along the peninsula reward those who wander by gulet or scooter.',
+  'cappadocia':
+    'Hundreds of hot air balloons rising over fairy chimneys at dawn — Cappadocia is one of those rare places that looks even more surreal in person than in photos. Sleep in a cave hotel and wake up to a landscape from another planet.',
+  'izmir':
+    'Turkey\'s most relaxed big city — Izmir\'s Kordon waterfront stretches for miles along the Aegean, the bazaar is a foodie\'s paradise, and ancient Ephesus is just an hour away.',
+  'trabzon':
+    'Sumela Monastery clinging to a cliff face above misty forests, a Black Sea coastline that feels like Turkey\'s secret, and a cuisine — with its cornbread and anchovies — unlike anywhere else in the country.',
+  'ephesus':
+    'Walk down the same marble streets as Cleopatra and Mark Antony — Ephesus is the best-preserved classical city in the Mediterranean, and the Library of Celsus at sunset is genuinely breathtaking.',
+  'pamukkale':
+    'Blindingly white travertine terraces cascading down a hillside like a frozen waterfall, with an ancient Roman spa city perched on top — Pamukkale is Turkey\'s most otherworldly natural wonder.',
+  'gaziantep':
+    'The undisputed baklava capital of the world — Gaziantep\'s food scene is so extraordinary UNESCO gave it a gastronomy designation. The Zeugma mosaics alone are worth the trip, but you\'ll stay for the food.',
+  'sacramento':
+    'America\'s farm-to-fork capital — Sacramento\'s restaurant scene sources from surrounding farmland that feeds the nation, while Old Sacramento\'s wooden boardwalks and the Tower Bridge make it more charming than anyone expects.',
+  'san-jose':
+    'The capital of Silicon Valley has a surprisingly warm cultural heart — San Pedro Square\'s food hall buzzes at night, the Winchester Mystery House is delightfully weird, and the Japanese Friendship Garden is pure serenity.',
+  'columbus':
+    'The Short North arts district has more galleries per block than most cities dream of, German Village\'s brick streets are storybook-perfect, and Columbus\'s food scene keeps winning national attention for all the right reasons.',
+  'baltimore':
+    'Chesapeake blue crabs piled high on newspaper-covered tables, the Inner Harbor gleaming at sunset, and Fells Point\'s cobblestone charm — Baltimore is grittier and more genuine than its neighbors, and proud of it.',
+  'honolulu':
+    'Diamond Head framing Waikiki at sunset, shave ice that cools you down between surf sessions, and Pearl Harbor\'s profound history — Honolulu blends beach paradise with deep cultural richness like nowhere else.',
+  'newport-ri':
+    'Gilded Age mansions that would make European royalty jealous, a Cliff Walk with crashing Atlantic views, and a sailing heritage that still defines the town — Newport is American grandeur at its most unapologetic.',
+  'finger-lakes':
+    'Eleven glacier-carved lakes surrounded by over 200 wineries, gorges with waterfalls you can walk behind, and a farm-to-table scene rivaling Napa at a fraction of the pretension — the Finger Lakes are New York\'s best-kept secret.',
+  'berkshires':
+    'Tanglewood under the stars, MASS MoCA in a converted factory, and fall foliage so vivid it doesn\'t look real — the Berkshires are New England\'s cultural retreat, where Boston\'s and New York\'s creative class comes to breathe.',
+  'outer-banks':
+    'Where the Wright Brothers first took flight, wild horses roam the dunes, and Cape Hatteras lighthouse stands guard over some of the East Coast\'s most dramatic, uncrowded beaches.',
+  'mackinac-island':
+    'An island where cars are banned and horse-drawn carriages clip-clop past Victorian gingerbread houses — Mackinac Island\'s famous fudge, the Grand Hotel\'s epic porch, and Lake Huron views make it a time capsule you can visit.',
+  'bozeman':
+    'Gateway to Yellowstone with world-class skiing at Big Sky, fly-fishing on the Gallatin River, and a downtown that punches way above its weight in restaurants and breweries — Bozeman is Montana at its most accessible.',
+  'bend':
+    'More craft breweries per capita than almost anywhere in America, world-class skiing at Mt Bachelor, and the Deschutes River running right through town — Bend is the outdoor lover\'s perfect small city.',
+  'kauai':
+    'The Na Pali Coast\'s emerald spires rising from the Pacific, Waimea Canyon painted in red and green layers, and beaches so pristine they\'ve starred in dozens of movies — Kauai is Hawaii at its most wild and breathtaking.',
+  'big-island':
+    'Watch molten lava meet the ocean, stargaze from the summit of Mauna Kea, walk on black sand beaches, and tour Kona coffee farms — the Big Island is an entire planet compressed into one island.',
+  'lake-placid':
+    'Two-time Winter Olympics host with the venues to prove it — bobsled runs, ski jumps, and Whiteface Mountain — plus Mirror Lake reflecting Adirondack peaks in water so still it doubles as a painting.',
+  'taos':
+    'Taos Pueblo has been continuously inhabited for over 1,000 years, the Rio Grande Gorge Bridge spans a 600-foot chasm, and the art colony tradition that drew Georgia O\'Keeffe still pulses through every gallery.',
+  'telluride':
+    'A box canyon town so stunning they built a free gondola just so more people could see the views — Telluride hosts a legendary film festival, offers world-class skiing, and sits in the most beautiful corner of the Rockies.',
+  'stowe':
+    'The Von Trapp Family Lodge is real and it\'s as charming as you\'d hope, the fall foliage rivals anywhere in New England, and Stowe Mountain Resort\'s skiing is world-class — Vermont\'s quintessential mountain village.',
+  'bar-harbor':
+    'Watch the first sunrise in America from Cadillac Mountain, crack fresh lobster at a waterfront pound, and bike the carriage roads of Acadia — Bar Harbor is Maine distilled into one perfect coastal town.',
+  'annapolis':
+    'America\'s sailing capital with the Naval Academy standing tall on the Severn, a colonial downtown older than the nation, and Chesapeake oysters and crab cakes that set the standard — Annapolis is history served on a half shell.',
+  'door-county':
+    'Wisconsin\'s Cape Cod — cherry orchards in spring, fish boils where the flames leap six feet high, lighthouses on limestone bluffs, and Lake Michigan beaches that look like they belong in the Caribbean on a sunny day.',
+  'whitefish':
+    'Gateway to Glacier National Park with Going-to-the-Sun Road — one of America\'s most spectacular drives — plus a ski resort with no lift lines and a downtown that\'s all craft beer and mountain charm.',
+  'sarasota':
+    'Siesta Key\'s quartz-crystal sand is so white and cool it won America\'s best beach — but Sarasota also has the Ringling Museum\'s Baroque grandeur and a cultural scene that rivals cities ten times its size.',
+  'hilton-head':
+    'Twelve miles of pristine beach, bike paths shaded by live oaks draped in Spanish moss, and golf courses that host PGA tournaments — Hilton Head is the Lowcountry\'s most refined island escape.',
+  'galveston':
+    'Victorian iron-front buildings on the Strand, a seawall promenade stretching for miles, and Gulf shrimp so fresh it was swimming that morning — Galveston is Texas\'s island escape with more character than you\'d expect.',
+  'traverse-city':
+    'America\'s cherry capital surrounded by award-winning wineries, with Sleeping Bear Dunes — voted the most beautiful place in America — just minutes away. Traverse City is the Midwest\'s most delicious summer escape.',
+  'mystic':
+    'A living maritime museum where you can board historic ships, an aquarium with beluga whales, and yes — the actual Mystic Pizza is here and it\'s good. Mystic is New England\'s most charming nautical village.',
+  'providence':
+    'WaterFire turns the river into a flickering art installation, Federal Hill\'s Italian restaurants rival anything in Boston\'s North End, and RISD\'s museum punches above the Met per square foot — Providence is the creative city you didn\'t know you needed.',
+  'akureyri':
+    'Iceland\'s northern capital sits on a fjord where whales breach within sight of town, Godafoss thunders nearby, and the midnight sun means summer days literally never end.',
+  'vik':
+    'Reynisfjara\'s black sand beach with basalt columns and roaring Atlantic waves is regularly named the most beautiful non-tropical beach on Earth — add sea stacks and glacier views and Vik becomes Iceland\'s most dramatic stop.',
+  'husavik':
+    'Europe\'s whale watching capital — humpbacks, blue whales, and orcas cruise the bay while you watch from boats or the clifftop GeoSea geothermal baths. Husavik is wildlife drama at its finest.',
+  'blue-lagoon':
+    'Milky-blue geothermal water steaming in a jet-black lava field — the Blue Lagoon is Iceland\'s most iconic experience. Soak with a silica mask while Northern Lights dance overhead in winter, or under the midnight sun in summer.',
+  'killarney':
+    'The Ring of Kerry unfolding in every shade of green, Killarney National Park\'s lakes reflecting ancient mountains, and jaunting cars clip-clopping through the Gap of Dunloe — this is the Ireland of your dreams, and it\'s real.',
+  'dingle':
+    'A fishing town at the edge of Europe where every other pub has live trad music, Slea Head Drive reveals landscapes that make your jaw drop, and the Blasket Islands sit in the Atlantic like a lost world.',
+  'cliffs-of-moher':
+    'Seven hundred feet of sheer cliff face dropping into the Atlantic, waves crashing far below while puffins nest in the grass at your feet — the Cliffs of Moher are Ireland\'s most dramatic natural spectacle.',
+  'westport':
+    'Climb Croagh Patrick for views over 365 islands in Clew Bay, cycle the Great Western Greenway through wild Mayo landscape, then settle into a pub where the music session lasts until nobody wants to go home.',
+  'braga':
+    'The baroque stairway to Bom Jesus do Monte is one of Portugal\'s most photographed sights, the historic center buzzes with university energy, and Braga\'s Holy Week celebrations are the most spectacular in Iberia.',
+  'coimbra':
+    'Europe\'s oldest university still in operation, with the jaw-dropping Joanina Library — and Coimbra\'s unique fado tradition, sung by students in black capes, makes the whole city feel like a living academic romance.',
+  'evora':
+    'A Roman temple in the town square, a chapel lined floor-to-ceiling with human bones, and Alentejo wines that are Portugal\'s best-kept secret — Evora is a UNESCO jewel where every meal is a slow, delicious event.',
+  'guimaraes':
+    'The literal birthplace of Portugal — where Afonso Henriques declared independence in 1128 — with a medieval castle, cobblestone squares, and a pride that\'s palpable. The sign on the wall says it all: \'Portugal was born here.\'',
+  'tavira':
+    'Tavira\'s whitewashed charm and Roman bridge hide the Algarve\'s best secret — ferry across the Ria Formosa to island beaches with no development, no crowds, and sand that stretches until you run out of energy to walk.',
+  'segovia':
+    'A Roman aqueduct with 166 arches built without mortar — still standing after 2,000 years — a castle that inspired Disney\'s Sleeping Beauty, and cochinillo so perfectly roasted they carve it with a plate. Segovia delivers on every front.',
+  'salamanca':
+    'Spain\'s most beautiful Plaza Mayor glows golden at sunset, Europe\'s third-oldest university gives the city a youthful buzz, and finding the frog carved on the facade is a tradition every visitor must try.',
+  'ronda':
+    'A town literally split by a 120-meter gorge with a bridge that took 42 years to build — Ronda\'s Puente Nuevo is Spain\'s most photographed sight, and the views from either side will make you dizzy in the best way.',
+  'cadiz':
+    'The oldest continuously inhabited city in Western Europe — 3,000 years of history packed onto a tiny peninsula where every street ends at the ocean, the seafood is the freshest in Spain, and Carnival rivals Rio.',
+  'annecy':
+    'The clearest lake in Europe surrounded by Alpine peaks, an old town so pretty they call it the Venice of the Alps, and paragliders floating overhead like a scene from a dream — Annecy is France\'s most underrated jewel.',
+  'avignon':
+    'The Palais des Papes — the largest Gothic palace ever built — dominates a city where every July the streets become the world\'s greatest theater festival. Add Rhône Valley wines and Provençal cuisine and Avignon is irresistible.',
+  'carcassonne':
+    'A double-walled medieval citadel straight out of a fairy tale — Carcassonne\'s 52 towers have stood since the Crusades, and walking the ramparts at sunset with a bowl of cassoulet waiting below is pure time travel.',
+  'dordogne':
+    'Prehistoric cave paintings 17,000 years old, châteaux perched on limestone cliffs above a lazy river, and a food culture built on truffles, foie gras, and walnut oil — the Dordogne is France at its most timeless.',
+  'lucca':
+    'Cycle on top of perfectly preserved Renaissance walls that encircle a city where Puccini was born, an oval piazza traces a Roman amphitheater, and a tower sprouts trees from its top — Lucca is Tuscany\'s most charming surprise.',
+  'siena':
+    'The shell-shaped Piazza del Campo — where the Palio\'s bareback horse race has run since medieval times — anchors a city of striped-marble cathedrals and neighborhood pride so fierce it makes sports rivalries look tame.',
+  'orvieto':
+    'A cathedral facade so detailed you could stare at it for hours, an entire underground city of Etruscan tunnels, and white wine so good they named the whole appellation after the town — Orvieto floats above the Umbrian plain like a dream.',
+  'matera':
+    'Ancient cave dwellings carved into a dramatic gorge — once considered Italy\'s shame, now a UNESCO site and European Capital of Culture. Sleep in a cave hotel, dine in a cave restaurant, and feel 9,000 years of history in the stone.',
+  'ravenna':
+    'Eight UNESCO World Heritage sites with Byzantine mosaics so brilliant they glow — Ravenna\'s golden tesserae have shimmered for 1,500 years, Dante chose to be buried here, and the food is pure Emilia-Romagna perfection.',
+  'rothenburg':
+    'The most perfectly preserved medieval town in Germany — walk the complete wall circuit, join the night watchman\'s lantern tour, and at Christmas the whole place becomes a snow globe you can step inside.',
+  'bamberg':
+    'Rauchbier — smoked beer you can only get here — a Little Venice of fishermen\'s houses on the river, and a UNESCO old town built on seven hills like Rome. Bamberg is Bavaria\'s most characterful city, and that\'s saying something.',
+  'lubeck':
+    'The Holstentor gate is Germany\'s most recognizable medieval structure, the marzipan here is world-famous, and the brick Gothic skyline of seven church spires earned Lubeck its spot as the \'Queen of the Hanseatic League.\'',
+  'potsdam':
+    'Frederick the Great\'s Sanssouci — the Prussian Versailles — surrounded by 600 acres of gardens, a Dutch Quarter that looks transplanted from Amsterdam, and enough palaces to fill a week. Potsdam is Berlin\'s elegant alter ego.',
+  'trier':
+    'Germany\'s oldest city — the Porta Nigra has stood since Roman legions built it, the baths are remarkably preserved, and the Mosel Valley wines flowing in every tavern are some of the finest Rieslings on Earth.',
+  'cesky-krumlov':
+    'A fairy-tale town wrapped in a horseshoe bend of the Vltava — Cesky Krumlov\'s castle tower rises over terracotta roofs, bears live in the moat, and the whole place feels like a medieval painting you\'ve walked into.',
+  'brno':
+    'Prague\'s cooler, cheaper, less-touristy sibling — Brno has Villa Tugendhat (a Mies van der Rohe masterpiece), an underground ossuary, a castle with sweeping views, and a nightlife scene fueled by students and craft beer.',
+  'karlovy-vary':
+    'Elegant colonnades where you sip thermal water from spouted cups, pastel Art Nouveau buildings climbing forested hillsides, and an international film festival — Karlovy Vary is the grandest spa town in Central Europe.',
+  'eger':
+    'The castle where Hungarians held off the Ottoman siege, Bull\'s Blood wine flowing in cellar after cellar in the Valley of the Beautiful Women, and thermal baths steaming beneath a Turkish minaret — Eger is Hungary\'s most romantic small town.',
+  'pecs':
+    'UNESCO-listed early Christian tombs, an Ottoman mosque that\'s now a church, and the Zsolnay Quarter\'s iridescent ceramics — Pécs has Hungary\'s most Mediterranean feel, warmer and more relaxed than Budapest with a fraction of the tourists.',
+  'hallstatt':
+    'An Alpine village so impossibly pretty that China built a replica — but nothing compares to the real Hallstatt, with its lake reflecting pastel houses, the world\'s oldest salt mine, and a bone chapel decorated with painted skulls.',
+  'linz':
+    'Ars Electronica — the world\'s most forward-thinking museum of art and technology — glows on the Danube, the Lentos Museum\'s colored-glass facade shimmers at night, and the original Linzer Torte recipe dates to 1653. Linz is Austria\'s creative surprise.',
+  'turku':
+    'Finland\'s oldest city — the medieval castle, riverboat restaurants on the Aura, and the world\'s largest archipelago at your doorstep. At Christmas, Turku declares the peace of Christmas for all of Finland from its cathedral steps.',
+  'stavanger':
+    'Pulpit Rock — a flat-topped cliff 604 meters above the fjord — is one of Norway\'s most spectacular hikes, and Stavanger\'s colorful old town and thriving food scene make the perfect base camp.',
+  'tampere':
+    'The sauna capital of the world — Tampere has more public saunas per capita than anywhere on Earth, the Moomin Museum is a delight, and the city sits between two lakes connected by rapids running right through downtown.',
+  'odense':
+    'Hans Christian Andersen\'s hometown has a museum so imaginatively designed it\'s a fairy tale in itself — plus Viking ship finds, a river running through the center, and a bike culture that makes Copenhagen look lazy.',
+  'visby':
+    'The best-preserved medieval city in Scandinavia — Visby\'s ring wall and church ruins have stood since the Hanseatic era, roses climb every stone wall in summer, and Medieval Week transforms the town into a time machine.',
+  'faroe-islands':
+    'Múlafossur waterfall plunging directly into the ocean, grass-roofed villages clinging to impossible cliffsides, and puffins everywhere — the Faroe Islands are the North Atlantic\'s most dramatic secret, wild and windswept and utterly unforgettable.',
+  'novi-sad':
+    'EXIT Festival transforms Petrovaradin Fortress into the world\'s best party venue, but Novi Sad\'s Danube waterfront charm, Serbian taverns, and relaxed café culture make it worth visiting any time of year.',
+  'ohrid':
+    'A church for every day of the year on the shores of Europe\'s oldest lake — Ohrid\'s Byzantine frescoes, Samuel\'s Fortress views, and crystal-clear swimming make it the Balkans\' most beautiful and affordable lakeside town.',
+  'berat':
+    'The City of a Thousand Windows — Ottoman houses stacked up a hillside with their windows all facing the valley, a lived-in castle quarter where people still hang laundry between ancient walls, and an authenticity that mass tourism hasn\'t touched.',
+  'prizren':
+    'An Ottoman bridge over a rushing river, a fortress with views that stretch forever, and the DokuFest film festival turning this small city into a cultural powerhouse — Prizren is Kosovo\'s most charming and welcoming town.',
+  'timisoara':
+    'Where the 1989 Romanian Revolution began — Timisoara\'s three magnificent squares, Art Nouveau facades, and green parks earned it the title European Capital of Culture. The city is transforming while remaining genuinely affordable.',
+  'sibiu':
+    'Houses with eye-shaped dormer windows watching you from above, a Grand Square that could rival any in Europe, and the ASTRA open-air museum — Sibiu is Transylvania\'s most elegant city, and those watchful rooftop \'eyes\' are unforgettable.',
+  'brasov':
+    'Bran Castle — Dracula\'s legendary home — lurks just outside town, but Brasov itself steals the show with its Gothic Black Church, mountain-backed Council Square, and Hollywood sign-style letters on Tampa Mountain.',
+  'varna':
+    'The oldest processed gold in the world was found here, Roman baths sit in the city center, and the Black Sea beaches stretching from the Sea Garden are warm, affordable, and uncrowded — Varna is Bulgaria\'s summer capital.',
+  'budva':
+    'A walled old town on a Mediterranean peninsula, the iconic island-hotel of Sveti Stefan nearby, and a beach riviera that\'s earned Montenegro the nickname \'the next Croatia\' — Budva delivers Adriatic glamour at Balkan prices.',
+  'skopje':
+    'One of the largest Ottoman bazaars in Europe still buzzing with life, Matka Canyon\'s emerald waters a short drive from downtown, and a city reinventing itself with ambitious architecture — Skopje surprises everyone who gives it a chance.',
+  'piran':
+    'A Venetian campanile rising above a tiny Adriatic peninsula, Tartini Square opening to the sea, and salt pans where hand-harvested fleur de sel has been produced for 700 years — Piran is Slovenia\'s miniature coastal gem.',
+  'constanta':
+    'An Art Nouveau casino perched dramatically on the Black Sea cliffs, Roman mosaics beneath the streets, and Mamaia\'s long sandy beach — Constanta is Romania\'s riviera, affordable and bursting with history.',
+  'torun':
+    'Where Copernicus was born and gingerbread became an art form — Torun\'s Gothic red-brick towers rise above the Vistula, the gingerbread museum lets you bake your own, and the whole medieval center is a UNESCO World Heritage site.',
+  'zakopane':
+    'Poland\'s winter capital nestled in the Tatra Mountains — world-class hiking and skiing at Eastern European prices, smoked oscypek cheese grilled on every corner, and a highland folk culture that\'s genuinely alive.',
+  'petra':
+    'Walk through the narrow Siq canyon as it opens to reveal the rose-red Treasury — carved into a cliff face 2,000 years ago — and you\'ll understand why Petra is a Wonder of the World. Nothing prepares you for this moment.',
+  'wadi-rum':
+    'Mars on Earth — Wadi Rum\'s red sand desert stretches between sandstone monoliths where Lawrence of Arabia once rode, Bedouin camps serve tea under more stars than you\'ve ever seen, and the silence is absolute.',
+  'samarkand':
+    'The Registan — three madrasas facing each other across a square in tilework so blue it hurts — is the single most jaw-dropping architectural ensemble on the Silk Road. Samarkand was Tamerlane\'s capital, and it still feels imperial.',
+  'bukhara':
+    'The Kalyan Minaret — so beautiful that Genghis Khan spared it when he destroyed everything else — anchors a city of 140 monuments, Silk Road trading domes, and tea houses where time moves at caravan pace.',
+  'khiva':
+    'An entire walled city preserved like a Silk Road time capsule — Khiva\'s Itchan Kala is so perfectly intact you expect camel caravans to round every corner. The unfinished Kalta Minor minaret, stubby and turquoise, is Central Asia\'s most endearing monument.',
+  'yerevan':
+    'Mount Ararat floating on the horizon, the Cascade\'s modern art stepping up the hillside, and brandy so good Churchill had it shipped to London — Yerevan is warm, welcoming, and unlike anywhere else on Earth.',
+  'baku':
+    'The Flame Towers glowing over the Caspian, the Heydar Aliyev Center\'s flowing Zaha Hadid curves, and a UNESCO-listed Old City hiding behind medieval walls — Baku is the world\'s most dramatic collision of ancient and ultramodern.',
+  'batumi':
+    'Georgia\'s Black Sea party city — a 7km boulevard with dancing fountains, a botanical garden on a subtropical hillside, and Georgian food and wine flowing at prices that feel like a glitch. Batumi is the Caucasus Riviera.',
+  'tangier':
+    'Where Africa meets Europe — Tangier\'s kasbah looks across the Strait of Gibraltar to Spain, the medina\'s labyrinth hides art galleries and rooftop cafés, and the literary ghosts of Burroughs and Bowles still haunt every corner.',
+  'rabat':
+    'Morocco\'s elegant capital — the blue-and-white Kasbah des Oudayas overlooking the Atlantic, Roman ruins at Chellah where storks nest on minaret tops, and a sophistication that Marrakech\'s hustle never allows.',
+  'cairo':
+    'The last surviving Wonder of the Ancient World sits at the edge of the city — the Pyramids are even more staggering in person than in photos. Add the Egyptian Museum\'s treasures and Khan el-Khalili\'s chaos and Cairo overwhelms in the best way.',
+  'alexandria':
+    'The modern Bibliotheca Alexandrina pays homage to the ancient wonder, the Citadel guards the harbor where Pharos lighthouse once stood, and the Corniche stretches along the Mediterranean — Alexandria is Egypt\'s most cosmopolitan and breezy city.',
+  'dominica':
+    'The Nature Island of the Caribbean — no mega-resorts, no cruise ship crowds, just boiling lakes in volcanic craters, champagne bubbles rising from the reef, and the densest rainforest you\'ll find outside the Amazon.',
+  'sint-maarten':
+    'Jets roaring feet above your head at Maho Beach, Orient Bay\'s long white sand, and an island split between Dutch and French culture — Sint Maarten packs two countries, incredible food, and nonstop energy into 37 square miles.',
+  'tobago':
+    'The world\'s oldest protected rainforest reserve, Pigeon Point\'s postcard-perfect palm-fringed beach, and the famous Nylon Pool — a shallow offshore sandbar where you wade in crystal water. Tobago is the Caribbean before the crowds found it.',
+  'tortola':
+    'The sailing capital of the Caribbean — charter a catamaran from Tortola and island-hop through the BVI\'s impossibly blue waters, stopping at beach bars where they serve painkillers and the boulders at The Baths feel like another planet.',
+  'saint-vincent':
+    'Hike La Soufrière volcano on the main island, then sail the Grenadines — Tobago Cays\' marine park, Bequia\'s whaling history, and Mustique\'s celebrity glamour. St. Vincent is the Caribbean\'s most adventurous island chain.',
+  'montego-bay':
+    'Doctor\'s Cave Beach with water so clear it was once believed to have healing powers, Rose Hall\'s haunted great house, and the best jerk chicken you\'ll ever taste — Montego Bay is Jamaica\'s resort capital with genuine island soul.',
+  'punta-cana':
+    'Thirty-two kilometers of uninterrupted white sand beach lined with coconut palms — Punta Cana\'s Bavaro Beach is the Dominican Republic\'s crown jewel, with Saona Island\'s natural pools and Hoyo Azul\'s jungle cenote nearby.',
+  'queretaro':
+    'A baroque aqueduct arching across the city, a colonial center that\'s a UNESCO World Heritage site, and a surprising wine country in the surrounding hills — Queretaro is Mexico\'s most livable city and travelers are finally catching on.',
+  'morelia':
+    'A city built entirely of pink cantera stone, a cathedral that glows at night, and nearby sanctuaries where a billion monarch butterflies cluster so thickly they bend the trees — Morelia is colonial Mexico at its most photogenic.',
+  'san-cristobal':
+    'A highland town where Tzotzil Maya culture is vibrantly alive, mist rolls through cobblestone streets, and the coffee might be Mexico\'s best — San Cristobal de las Casas is the Chiapas capital of cool, 2,200 meters up.',
+  'mazatlan':
+    'A 21-kilometer malecón curving along the Pacific, a restored historic center with more culture than any resort town deserves, and cliff divers launching from El Faro lighthouse — Mazatlán is the Mexican Riviera\'s comeback story.',
+  'granada-nicaragua':
+    'Central America\'s oldest colonial city — candy-colored facades along cobblestone streets, boat tours through 365 volcanic islets on Lake Nicaragua, and Mombacho Volcano looming overhead. Granada is stunning and astonishingly affordable.',
+  'leon-nicaragua':
+    'Surf down an active volcano on a wooden board — volcano boarding at Cerro Negro is the wildest adventure in Central America. León\'s cathedral rooftop walk, revolutionary murals, and intellectual energy make it Nicaragua\'s cultural heart.',
+  'el-tunco':
+    'El Salvador\'s surf mecca — consistent Pacific breaks, a black sand beach where the sunsets are legendary, and pupusas so good they\'re practically a religion. El Tunco is Central America\'s most underrated beach scene.',
+  'semuc-champey':
+    'A staircase of turquoise limestone pools in the middle of the jungle, with a river disappearing into caves beneath — Semuc Champey is Guatemala\'s most magical natural swimming spot, worth every bump on the road to get there.',
+  'bocas-del-toro':
+    'Caribbean islands where starfish carpet the sandy bottom, red frogs hop through the jungle, and the nightlife on Isla Colón rivals anything in Central America — Bocas del Toro is Panama\'s backpacker paradise gone mainstream.',
+  'cali':
+    'The world capital of salsa — Cali\'s dance schools, all-night salsatecas, and the annual Feria make this the most rhythmic city on Earth. The warmth isn\'t just the tropical climate; Caleños are famously the friendliest Colombians.',
+  'sucre':
+    'Bolivia\'s constitutional capital — a city of blazing white colonial buildings, a wall of real dinosaur footprints, and chocolate workshops using local cacao. Sucre is the Bolivia that surprises travelers expecting only salt flats.',
+  'asuncion':
+    'South America\'s most overlooked capital — Loma San Jerónimo\'s colorful hillside, the Costanera at sunset, and a Guaraní-Spanish bilingual culture unlike anywhere else on the continent. Asunción rewards the curious.',
+  'manaus':
+    'A grand opera house in the middle of the Amazon jungle — Manaus is where the dark Rio Negro meets the sandy Amazon in a visible line stretching for miles. Lodge deep in the rainforest, spot pink river dolphins, and feel truly remote.',
+  'recife':
+    'The Venice of Brazil — canals and bridges connecting islands, UNESCO-listed Olinda just next door with the most colorful Carnival outside Rio, and Boa Viagem\'s urban beach stretching for miles.',
+  'fortaleza':
+    'Endless beaches, forró music pulsing through the night, and Jericoacoara — one of Brazil\'s most perfect beach towns — within striking distance. Fortaleza is Brazil\'s sunny northeast at its most vibrant and affordable.',
+  'huaraz':
+    'The Cordillera Blanca — the world\'s highest tropical mountain range — towers above Huaraz with turquoise glacial lakes, including Laguna 69. This is Peru\'s trekking capital, with trails that rival Nepal at a fraction of the cost.',
+  'potosi':
+    'The highest city of its size in the world at 4,090 meters — Cerro Rico\'s silver once made Potosí richer than London, and the colonial mint and mine tours tell a story that\'s equal parts fascinating and heartbreaking.',
+  'natal':
+    'Genipabu\'s towering sand dunes where buggy drivers ask \'com emoção ou sem emoção?\' before launching over the edge, Maracajaú\'s offshore reef for snorkeling, and Ponta Negra\'s Morro do Careca — Natal is Brazil\'s adventure beach capital.',
+  'trujillo':
+    'Chan Chan — the largest adobe city ever built — crumbles magnificently in the desert sun, the Huacas predate the Incas by a millennium, and fishermen still ride totora reed boats as they have for 3,000 years. Trujillo is Peru\'s archaeological treasure.',
+  'kamakura':
+    'A bronze Great Buddha meditating in the open air for 800 years, bamboo groves rustling above temple paths, and a surf beach just minutes from ancient shrines — Kamakura is Tokyo\'s most rewarding day trip, where samurai history meets the sea.',
+  'nikko':
+    'Toshogu shrine — so elaborately carved and gilded it took 15,000 artisans — hides in a forest of ancient cedars, with Japan\'s most famous waterfall nearby. Nikko proves that not everything beautiful in Japan is minimalist.',
+  'takayama':
+    'A perfectly preserved Edo-era old town in the Japanese Alps — morning markets, sake breweries marked by cedar balls, and Hida beef rivaling Kobe. Takayama is the Japan of wooden lattices, mountain streams, and quiet perfection.',
+  'naoshima':
+    'Yayoi Kusama\'s yellow pumpkin on the shore, a Monet room at Chichu Art Museum designed by Tadao Ando, and entire houses transformed into art installations — Naoshima is the world\'s most extraordinary art island.',
+  'kobe':
+    'The beef needs no introduction — but Kobe is so much more: a harbor city backed by mountains, the Kitano district\'s Western-style mansions, and Nada\'s sake breweries where you can taste Japan\'s finest rice wine at the source.',
+  'matsumoto':
+    'Japan\'s most beautiful original castle — the black \'Crow Castle\' reflected in its moat against a backdrop of the Japanese Alps. Matsumoto\'s Nakamachi street of black-and-white storehouses and handmade soba noodles complete the picture.',
+  'gyeongju':
+    'The \'museum without walls\' — Gyeongju\'s royal burial mounds rise from parks like green hills, Bulguksa Temple\'s stone pagodas have stood for 1,200 years, and Anapji Pond\'s reflection at night is pure magic. Korea\'s ancient Silla capital.',
+  'jeonju':
+    'The birthplace of bibimbap — Jeonju\'s Hanok Village is 800 traditional houses where you can sleep on heated floors, eat the city\'s signature dish, and learn to make hanji paper. Korea\'s food capital delivers on every taste.',
+  'sokcho':
+    'Seoraksan\'s granite peaks turning crimson in autumn, the East Sea sunrise painting everything gold, and a fish market where the seafood couldn\'t be fresher — Sokcho is Korea\'s mountain-meets-ocean paradise.',
+  'daegu':
+    'Seomun Market\'s 4,000 stalls of sizzling Korean street food, a traditional herb medicine alley where the scents are intoxicating, and Apsan Park\'s cable car views — Daegu is Korea\'s deep-flavor city, massive but still off the tourist track.',
+  'incheon':
+    'Korea\'s original Chinatown with jajangmyeon noodles in every restaurant, Wolmido Island\'s amusement park on the water, and the historic port where Korea opened to the world — Incheon is more than just the airport, it\'s a destination.',
+  'kunming':
+    'The \'Spring City\' where the temperature barely changes all year — Kunming\'s Stone Forest is a labyrinth of limestone pillars, Green Lake Park pulses with local life, and Yunnan\'s cross-border cuisine is China\'s most diverse.',
+  'chongqing':
+    'China\'s hotpot capital — a numb-spicy inferno that\'s addictive from the first bite. Chongqing\'s cyberpunk skyline, monorails passing through apartment buildings, and the Yangtze carving through the city make it China\'s most visually insane metropolis.',
+  'harbin':
+    'The world\'s largest ice festival — full-scale buildings carved from river ice and lit from within in neon colors, a Russian-influenced architecture legacy, and temperatures so cold your eyelashes freeze. Harbin is winter taken to its extreme.',
+  'pai':
+    'A misty mountain town reached by 762 curves in the road — Pai\'s hot springs, canyon walks, and laid-back night market have made it Thailand\'s most beloved bohemian escape, where the pace slows to hammock speed.',
+  'sukhothai':
+    'Thailand\'s ancient capital — cycle between lotus-pond temples and serene Buddha statues in a historical park that\'s more atmospheric than Angkor and a fraction as crowded. During Loy Krathong, thousands of floating lanterns light up the ruins.',
+  'kanchanaburi':
+    'The Bridge over the River Kwai — a WWII story that\'s sobering and essential — then Erawan\'s seven-tiered turquoise waterfalls for the most beautiful natural swimming in Thailand. Kanchanaburi is history and nature in perfect balance.',
+  'khao-lak':
+    'The Similan Islands — consistently ranked among the world\'s best dive sites — launch from Khao Lak\'s quiet beaches, with Khao Sok\'s ancient rainforest and floating bungalows nearby. This is Phuket\'s peaceful, nature-focused alternative.',
+  'koh-lanta':
+    'Long Beach sunsets that paint the sky in impossible colors, an Old Town of stilted houses over the water, and a national park at the island\'s tip — Koh Lanta is the Thai island where families and long-stayers find their happy place.',
+  'dalat':
+    'Vietnam\'s \'City of Eternal Spring\' — French colonial villas among pine forests, the wonderfully weird Crazy House, and a coffee culture where weasel coffee and egg coffee push boundaries. Dalat is Vietnam\'s most romantic hill station.',
+  'phu-quoc':
+    'Vietnam\'s island paradise — Long Beach sunsets rival anything in Thailand, the night market\'s seafood is absurdly fresh and cheap, and the fish sauce produced here is considered the finest in the world. Phu Quoc is paradise at budget prices.',
+  'ninh-binh':
+    'The \'Ha Long Bay on land\' — limestone karsts rising from emerald rice paddies, sampan boats gliding through caves, and Bai Dinh\'s massive pagoda complex. Ninh Binh delivers Vietnam\'s most stunning landscapes without the tourist boats.',
+  'mui-ne':
+    'Sahara-style sand dunes rising from the Vietnamese coast — slide down the red dunes at sunset, wade through the Fairy Stream\'s orange canyon, and watch the round basket boats in the fishing village. Mui Ne is Vietnam\'s most surprising beach town.',
+  'phnom-penh':
+    'The Royal Palace gleaming gold on the riverfront, the Central Market\'s Art Deco dome, and sobering but essential Tuol Sleng and the Killing Fields — Phnom Penh is Cambodia\'s chaotic, fascinating capital where history and modernity collide.',
+  'kampot':
+    'The world\'s finest pepper grows here — Kampot pepper has its own protected designation. The French colonial riverside town is Southeast Asia\'s most laid-back base for kayaking, crab sunsets, and day trips to abandoned hill stations.',
+  'vientiane':
+    'The world\'s most relaxed capital — Vientiane\'s golden Pha That Luang, Mekong sunsets with Beerlaos in hand, and a pace of life so unhurried it redefines \'slow travel.\' This is Southeast Asia before the rush.',
+  'vang-vieng':
+    'Karst mountains erupting from rice paddies, turquoise lagoons you can jump into, and hot air balloon rides over a landscape that looks digitally enhanced — Vang Vieng has reinvented itself from party town to adventure paradise.',
+  'bagan':
+    'Over 2,000 temples and pagodas scattered across a vast plain beside the Irrawaddy — at sunrise, hot air balloons float above the ancient stupas and the whole scene is so surreal it doesn\'t feel like the 21st century. Bagan is unmissable.',
+  'mandalay':
+    'U Bein Bridge at sunset — 1.2 kilometers of 160-year-old teak stretching across a lake — is one of the most photographed scenes in Asia. Add Mandalay Hill\'s panorama and the gold leaf workshops, and Myanmar\'s cultural capital delivers.',
+  'flores':
+    'Three crater lakes that change color on a single volcano, Komodo dragons in their natural habitat, and spider-web-shaped rice fields — Flores is Indonesia\'s most adventurous island, raw and spectacular in every direction.',
+  'bandung':
+    'Java\'s highland escape — Art Deco architecture from the colonial era, tea plantations stretching to the horizon, and volcanic craters steaming with turquoise water. Bandung\'s food scene is legendary among Indonesians and virtually unknown to tourists.',
+  'surabaya':
+    'Gateway to Mount Bromo — one of Java\'s most iconic volcanic landscapes — but Surabaya itself has the Arab Quarter\'s atmospheric alleys, Indonesia\'s best street food (rujak cingur, anyone?), and an independence history that earned it the title \'City of Heroes.\'',
+  'cameron-highlands':
+    'Emerald tea plantations carpeting the hillsides, the prehistoric Mossy Forest dripping with ancient ferns, and strawberries growing in the tropical highlands — Cameron Highlands is Malaysia\'s cool, green, quintessentially British escape.',
+  'kota-kinabalu':
+    'Mount Kinabalu\'s 4,095-meter summit — Southeast Asia\'s highest peak — rewards climbers with a sunrise above the clouds. Below, island-hop through turquoise marine parks and end with the Filipino Market\'s freshest, cheapest seafood in Borneo.',
+  'bohol':
+    '1,268 perfectly cone-shaped Chocolate Hills turning brown in summer, the world\'s smallest primate staring at you with dinner-plate eyes, and beaches that rival Palawan without the hype — Bohol is the Philippines\' most wonderfully weird island.',
+  'coron':
+    'Dive WWII Japanese shipwrecks in crystal-clear water, kayak into hidden lagoons surrounded by limestone cliffs, and swim in Kayangan Lake — called the cleanest lake in the Philippines. Coron is the adventure diver\'s ultimate playground.',
+  'hampi':
+    'A lost city scattered among surreal boulder landscapes — Hampi\'s Vijayanagara ruins stretch for miles, with temples, elephant stables, and royal baths hiding among granite formations. It\'s India\'s most otherworldly UNESCO site.',
+  'jodhpur':
+    'Mehrangarh Fort — one of India\'s largest — looming over a city painted entirely in blue, the clock tower market\'s spice-scented chaos, and Rajasthani thalis served on silver plates. Jodhpur is the Blue City and it\'s as vivid as it sounds.',
+  'mysore':
+    'Mysore Palace lit by 97,000 bulbs on Sunday evenings is one of India\'s most spectacular sights — add Chamundi Hill\'s ancient temple, a yoga tradition that draws practitioners from around the world, and silk saris in every color imaginable.',
+  'pondicherry':
+    'Bougainvillea-draped French colonial streets leading to the Bay of Bengal, Tamil temples next to Gallic cafés, and Auroville\'s experimental township nearby — Pondicherry is where India and France created something beautifully unique together.',
+  'darjeeling':
+    'The world\'s finest tea grows on slopes with views of Kanchenjunga — the third-highest peak on Earth. Darjeeling\'s toy train chugging through tea gardens, Tiger Hill\'s sunrise, and Tibetan monasteries make it India\'s most romantic hill station.',
+  'chitwan':
+    'One-horned rhinos grazing in tall grass, the chance of a Bengal tiger sighting, and canoe rides past gharial crocodiles — Chitwan is Nepal\'s jungle counterpart to its mountains, and the wildlife encounters are genuinely thrilling.',
+  'lumbini':
+    'The exact spot where Siddhartha Gautama was born — marked by a pillar Emperor Ashoka placed here in 249 BC. Dozens of countries have built monasteries around the sacred garden, creating a unique tour of Buddhist architectural styles from around the world.',
+  'tainan':
+    'Taiwan\'s oldest city and undisputed street food capital — Tainan has more temples per square kilometer than anywhere on the island, and the food is so legendary that Taiwanese from Taipei make pilgrimages for the beef soup and coffin bread alone.',
+  'jiufen':
+    'Lantern-lit alleyways climbing a mountainside above the Pacific — the town that inspired Spirited Away serves tea in clifftop houses with views stretching to the ocean. Jiufen is Taiwan\'s most atmospheric day trip and magical at dusk.',
+  'sigiriya':
+    'A 200-meter rock fortress rising from the jungle with a ruined palace on top, ancient frescoes of cloud maidens on the cliff face, and Pidurangala Rock offering the best view of Sigiriya itself — Sri Lanka\'s most jaw-dropping ancient site.',
+  'trincomalee':
+    'Sri Lanka\'s east coast gem — Nilaveli\'s powder-white beach is virtually empty, blue whales cruise offshore, and Pigeon Island\'s coral reef is world-class snorkeling. Trincomalee is Sri Lanka\'s beach paradise before the rest of the world catches on.',
+  'alice-springs':
+    'Gateway to the Red Centre — Uluru\'s color-changing monolith, the MacDonnell Ranges\' ancient gorges, and the clearest night skies you\'ll ever see. Alice Springs is where you feel the heartbeat of the Australian Outback and its 65,000-year-old Aboriginal culture.',
+  'broome':
+    'Cable Beach\'s 22 kilometers of white sand meeting turquoise Indian Ocean water, camel trains silhouetted at sunset, and the Staircase to the Moon phenomenon — Broome is Australia\'s most exotic and remote beach town.',
+  'margaret-river':
+    'Over 200 wineries producing world-class Cabernet and Chardonnay, surf breaks that host international competitions, and a cave system of crystal formations — Margaret River is Western Australia\'s gourmet playground where the forest meets the sea.',
+  'abel-tasman':
+    'New Zealand\'s most beautiful Great Walk — golden sand beaches separated by forested headlands, seals lounging on rocks, and water taxis that let you hike one way and cruise back. Abel Tasman is the tramping trip that converts non-hikers.',
+  'wanaka':
+    'That Wanaka Tree standing alone in the lake has become New Zealand\'s most photographed subject — but climb Roys Peak and the 360-degree panorama of mountains and lakes will make you forget every photo you\'ve ever taken.',
+  'mombasa':
+    'Fort Jesus guarding the Old Town\'s Swahili labyrinth, Diani Beach\'s white sand and turquoise Indian Ocean, and a Swahili food culture mixing African, Arab, and Indian flavors — Mombasa is Kenya\'s coastal soul.',
+  'arusha':
+    'Gateway to the Serengeti, Ngorongoro Crater, and Kilimanjaro — but Arusha itself has Mount Meru\'s dramatic trekking, coffee plantation tours, and a multicultural energy where Maasai meet modern Tanzania.',
+  'maputo':
+    'Peri-peri prawns the size of your hand, Portuguese colonial architecture fading beautifully, and a jazz scene that rivals Havana — Maputo is southern Africa\'s most underrated city, vibrant and affordable with Indian Ocean beaches nearby.',
+  'lamu':
+    'A car-free island where donkeys are the taxis, dhow boats the ferries, and the Swahili stone town hasn\'t changed in centuries — Lamu is Kenya\'s most atmospheric destination, a UNESCO World Heritage island where time genuinely stands still.',
+  'swakopmund':
+    'Where the Namib Desert\'s towering dunes meet the Atlantic Ocean — sandboard down massive sand hills, explore the eerie Skeleton Coast, and return to a town with German bakeries and colonial architecture. Swakopmund is Namibia\'s adventure capital.',
+  'stellenbosch':
+    'South Africa\'s most famous wine region — oak-lined streets in a 350-year-old university town, Cape Dutch architecture housing world-class restaurants, and wine estates where the Cabernets and Pinotages rival anything from Napa or Bordeaux.',
+  'antananarivo':
+    'Gateway to the world\'s most unique wildlife — 90% of Madagascar\'s species exist nowhere else on Earth. Antananarivo\'s royal hill, French-colonial architecture, and vibrant markets are the starting point for lemur encounters and baobab avenues.',
+  'nosy-be':
+    'Madagascar\'s tropical island paradise — turquoise lagoons, lemurs you can visit on nearby Nosy Komba, ylang-ylang perfume plantations, and whale sharks in season. Nosy Be is the Indian Ocean island the mainstream hasn\'t discovered yet.',
+  'livingstone':
+    'Victoria Falls — a curtain of water nearly two kilometers wide plunging into a gorge — is the world\'s largest waterfall by combined height and width. Swim at the edge in Devil\'s Pool, raft the Zambezi\'s Class V rapids, and feel the spray from miles away.',
+  'maun':
+    'The Okavango Delta — a river that never reaches the sea, instead flooding the Kalahari Desert with channels where elephants wade and hippos yawn. Glide by mokoro canoe through lily pads and experience Africa\'s most pristine wildlife sanctuary.',
+  'accra':
+    'Cape Coast Castle\'s sobering slave trade history, Jamestown\'s vibrant fishing harbor, and the best jollof rice on the planet — debate optional but encouraged. Accra\'s Afrobeat nightlife pulses until dawn and the welcome is famously warm.',
+  'diani-beach':
+    'Kenya\'s finest beach — kilometers of white sand lined with palm trees, colobus monkeys swinging through the canopy, and a marine reserve where you snorkel with dolphins. Diani is the Indian Ocean paradise that safaris forget to mention.',
+  'tonga':
+    'The only place in the world where you can swim alongside humpback whales in their breeding grounds — Tonga is the last Polynesian kingdom, untouched by mass tourism, with blowholes, empty beaches, and a culture of genuine welcome.',
+  'moorea':
+    'Bora Bora\'s quieter, greener sister — Moorea\'s jagged volcanic peaks plunge into impossibly blue lagoons, you can snorkel with blacktip reef sharks, and the overwater bungalows are half the price. This is French Polynesia for those who actually want to explore.',
+  'ulaanbaatar':
+    'Gateway to the endless steppe — Ulaanbaatar\'s Chinggis Khaan statue complex is massive, but the real draw is driving into the grasslands, staying in a traditional ger, and experiencing nomadic hospitality that\'s been unchanged for millennia.',
+  'nizwa':
+    'Nizwa\'s circular fort dominating the old town, the chaotic Friday goat market that\'s been running for centuries, and Jebel Akhdar\'s rose-terraced mountain villages — this is Oman\'s cultural heartland, where Arabian hospitality is at its most genuine.',
+  'niagara-on-the-lake':
+    'The prettiest town in Ontario — a heritage main street lined with flower boxes, the Shaw Festival\'s world-class theater, and Canada\'s premier wine region where icewine is the liquid gold specialty. Niagara-on-the-Lake is refinement without pretension.',
+
+  // ── India (additional 15) ────────────────────────────
+  'leh-ladakh':
+    'Pangong Lake\'s impossible blue stretching to the horizon, Khardung La — one of the world\'s highest motorable passes — and ancient monasteries clinging to cliffsides. Ladakh is India\'s last frontier, where the landscape is so vast it recalibrates your sense of scale.',
+  'jaisalmer':
+    'The Golden City — Jaisalmer\'s sandstone fort glows like liquid gold at sunset, intricately carved havelis showcase impossible stonework, and sleeping under the stars on a camel safari in the Thar Desert is an experience that stays with you forever.',
+  'kolkata':
+    'The Victoria Memorial gleaming at dusk, Howrah Bridge carrying a million people daily, and street food — kathi rolls, phuchka, mishti doi — that\'s the best in India. Kolkata is the country\'s intellectual and cultural soul, raw and magnificent.',
+  'hyderabad':
+    'The biryani capital of the world — Hyderabadi dum biryani is slow-cooked perfection. The Charminar anchors a buzzing old city, Golconda Fort has acoustics that let a clap travel a kilometer, and the pearl markets are legendary.',
+  'shimla':
+    'The toy train winding through 102 tunnels to reach the former summer capital of British India — Shimla\'s colonial architecture, Mall Road promenades, and Himalayan panoramas make it the classic Indian hill station experience.',
+  'manali':
+    'Rohtang Pass at 3,978 meters with snow even in summer, Solang Valley\'s paragliding and skiing, and Old Manali\'s backpacker cafés beside the Beas River — Manali is India\'s adventure playground in the Himalayas.',
+  'munnar':
+    'Endless tea plantations rolling over misty hills in every direction — Munnar is Kerala\'s highland jewel, where you can tour tea factories, spot endangered Nilgiri tahr, and wake up in a plantation bungalow surrounded by green as far as you can see.',
+  'alleppey':
+    'Float through Kerala\'s palm-fringed backwaters on a traditional houseboat — rice paddies slipping past, village life unfolding on the banks, and fresh fish curry served on banana leaves for dinner. Alleppey is India\'s most serene experience.',
+  'ranthambore':
+    'India\'s most famous tiger reserve — Ranthambore\'s big cats are so confident they stroll past ancient fort ruins in broad daylight. A safari here offers the best chance in India to photograph a wild Bengal tiger in its element.',
+  'khajuraho':
+    'Temple carvings so sensuous and detailed they\'ve captivated visitors for a thousand years — Khajuraho\'s UNESCO-listed temples are India\'s most extraordinary sculptural achievement, celebrating life in all its forms with zero inhibition.',
+  'andaman-islands':
+    'Radhanagar Beach — consistently ranked Asia\'s best — turquoise water over coral reefs, bioluminescent plankton lighting up the night surf, and the haunting history of Cellular Jail. The Andamans are India\'s most stunning tropical escape.',
+  'aurangabad':
+    'Ajanta\'s 2,000-year-old painted caves and Ellora\'s rock-cut temples — including the mind-boggling Kailasa Temple carved from a single rock from the top down — are India\'s greatest ancient art. Aurangabad is the gateway to pure wonder.',
+  'pushkar':
+    'A sacred lake ringed by 52 ghats and the world\'s only Brahma temple — Pushkar\'s annual camel fair draws 200,000 camels and their traders, and the rooftop cafés overlooking the lake at sunset are pure Rajasthani magic.',
+  'bangalore':
+    'India\'s craft beer capital with more microbreweries than you can visit in a week, Lalbagh\'s 240-acre botanical garden, and South Indian breakfast — crispy dosas and filter coffee — that ruins you for all other breakfasts. Bangalore is India\'s most modern city with deep traditional roots.',
+  'chennai':
+    'Marina Beach stretching for 13 kilometers, Kapaleeshwarar Temple\'s towering gopuram painted in a thousand colors, and Chettinad cuisine so complex it uses 30+ spices in a single dish — Chennai is South India\'s cultural powerhouse, intense and unforgettable.',
 };
 
 /**

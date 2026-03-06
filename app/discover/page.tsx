@@ -223,18 +223,13 @@ export default function DiscoverPage() {
 
     // ── Whitelabel redirect: resolve placeId and build URL ──────────
     const whitelabelDomain = WHITELABEL_DOMAIN;
-    console.log('[HN] Whitelabel domain:', whitelabelDomain);
 
-    // Determine the best placeId:
-    // - Best Match tile (from photo) → look up LANDMARK placeId (e.g. "Colosseum Rome")
-    // - Alternative tiles → use CITY placeId from destinations.json
+    // Try to resolve a placeId for better hotel results (best-effort, not required)
     let placeId: string | null = null;
-
     const isBestMatchDest = result?.matchedDestination?.id === dest.id;
 
     // 1. Best match with landmark → real-time lookup for landmark-specific placeId
     if (isBestMatchDest && result?.location?.locationString) {
-      console.log('[HN] Step 1: Landmark lookup for', result.location.locationString, dest.country);
       try {
         const lookupResponse = await fetch('/api/places/lookup', {
           method: 'POST',
@@ -243,17 +238,12 @@ export default function DiscoverPage() {
             query: `${result.location.locationString} ${dest.country}`,
           }),
         });
-        console.log('[HN] Step 1 response status:', lookupResponse.status);
         if (lookupResponse.ok) {
           const data = await lookupResponse.json();
           placeId = data.placeId;
-          console.log('[HN] Step 1 placeId:', placeId);
-        } else {
-          const errText = await lookupResponse.text();
-          console.warn('[HN] Step 1 failed:', lookupResponse.status, errText);
         }
-      } catch (error) {
-        console.error('[HN] Step 1 error:', error);
+      } catch {
+        // Silent — will try fallbacks
       }
     }
 
@@ -261,12 +251,10 @@ export default function DiscoverPage() {
     if (!placeId && fullDest) {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       placeId = (fullDest as any).placeId || null;
-      console.log('[HN] Step 2: destinations.json placeId:', placeId);
     }
 
     // 3. Last resort: try a city-level lookup
     if (!placeId) {
-      console.log('[HN] Step 3: City lookup for', dest.city, dest.country);
       try {
         const cityLookup = await fetch('/api/places/lookup', {
           method: 'POST',
@@ -276,42 +264,19 @@ export default function DiscoverPage() {
             type: 'locality',
           }),
         });
-        console.log('[HN] Step 3 response status:', cityLookup.status);
         if (cityLookup.ok) {
           const data = await cityLookup.json();
           placeId = data.placeId;
-          console.log('[HN] Step 3 placeId:', placeId);
-        } else {
-          const errText = await cityLookup.text();
-          console.warn('[HN] Step 3 failed:', cityLookup.status, errText);
         }
-      } catch (error) {
-        console.error('[HN] Step 3 error:', error);
+      } catch {
+        // Silent — will redirect without placeId
       }
     }
 
-    // If we still can't get a placeId, fall back to custom hotel page
-    if (!placeId) {
-      console.error('[HN] ALL placeId lookups failed — falling back to /discover/hotels');
-      const landmarkCoords = (isBestMatchDest && result?.location)
-        ? { lat: result.location.lat, lng: result.location.lng }
-        : { lat: dest.latitude, lng: dest.longitude };
-      sessionStorage.setItem('discover_landmark_coords', JSON.stringify(landmarkCoords));
-      setRedirecting(false);
-      router.push('/discover/hotels');
-      return;
-    }
-
-    // Build Base64-encoded occupancies for whitelabel
-    const occupancies = btoa(JSON.stringify([{ adults: 2, children: [] }]));
-
-    // Detect currency from user's locale (e.g. en-US → USD, en-CA → CAD, en-GB → GBP)
+    // Detect currency from user's locale
     const localeCurrency = (() => {
       try {
         const locale = navigator.language || 'en-US';
-        const parts = new Intl.NumberFormat(locale, { style: 'currency', currency: 'USD' })
-          .resolvedOptions();
-        // Map common locales to their currencies
         const localeToCurrency: Record<string, string> = {
           'en-US': 'USD', 'en-CA': 'CAD', 'en-GB': 'GBP', 'en-AU': 'AUD',
           'en-NZ': 'NZD', 'de-DE': 'EUR', 'fr-FR': 'EUR', 'es-ES': 'EUR',
@@ -330,21 +295,24 @@ export default function DiscoverPage() {
       }
     })();
 
-    // Build the whitelabel URL with deep link params
+    // Build the whitelabel URL — ALWAYS redirect, placeId is optional
+    const occupancies = btoa(JSON.stringify([{ adults: 2, children: [] }]));
     const params = new URLSearchParams({
-      placeId,
       checkin: checkinDate,
       checkout: checkoutDate,
       occupancies,
-      sorting: '6',       // Sort by distance (closest first)
+      sorting: '6',
       currency: localeCurrency,
       clientReference: `hn-${dest.id}-${Date.now()}`,
     });
 
-    // Redirect to the whitelabel booking site
-    const redirectUrl = `https://${whitelabelDomain}/hotels?${params.toString()}`;
-    console.log('[HN] Redirecting to:', redirectUrl);
-    window.location.href = redirectUrl;
+    // Add placeId only if we found one
+    if (placeId) {
+      params.set('placeId', placeId);
+    }
+
+    // ALWAYS redirect to the whitelabel — never fall back to /discover/hotels
+    window.location.href = `https://${whitelabelDomain}/hotels?${params.toString()}`;
   }, [router, result]);
 
   // ── Image upload handler ───────────────────────────────────────────

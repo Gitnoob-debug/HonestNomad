@@ -10,6 +10,7 @@ import { DESTINATIONS } from '@/lib/flash/destinations';
 import { computeDistanceDefaults, getFallbackDefaults } from '@/lib/flash/distanceDefaults';
 import type { AirportInfo } from '@/lib/flash/airportCoords';
 import { useToast } from '@/components/ui/Toast';
+import { WHITELABEL_DOMAIN } from '@/lib/config';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || '';
 
@@ -221,20 +222,8 @@ export default function DiscoverPage() {
     sessionStorage.setItem('discover_guests', JSON.stringify({ adults: 2, children: [] }));
 
     // ── Whitelabel redirect: resolve placeId and build URL ──────────
-    const whitelabelDomain = process.env.NEXT_PUBLIC_WHITELABEL_DOMAIN;
-
-    // If no whitelabel domain configured, fall back to custom hotel page
-    if (!whitelabelDomain) {
-      console.warn('NEXT_PUBLIC_WHITELABEL_DOMAIN not set — falling back to /discover/hotels');
-      const isBestMatchDest = result?.matchedDestination?.id === dest.id;
-      const landmarkCoords = (isBestMatchDest && result?.location)
-        ? { lat: result.location.lat, lng: result.location.lng }
-        : { lat: dest.latitude, lng: dest.longitude };
-      sessionStorage.setItem('discover_landmark_coords', JSON.stringify(landmarkCoords));
-      setRedirecting(false);
-      router.push('/discover/hotels');
-      return;
-    }
+    const whitelabelDomain = WHITELABEL_DOMAIN;
+    console.log('[HN] Whitelabel domain:', whitelabelDomain);
 
     // Determine the best placeId:
     // - Best Match tile (from photo) → look up LANDMARK placeId (e.g. "Colosseum Rome")
@@ -245,6 +234,7 @@ export default function DiscoverPage() {
 
     // 1. Best match with landmark → real-time lookup for landmark-specific placeId
     if (isBestMatchDest && result?.location?.locationString) {
+      console.log('[HN] Step 1: Landmark lookup for', result.location.locationString, dest.country);
       try {
         const lookupResponse = await fetch('/api/places/lookup', {
           method: 'POST',
@@ -253,12 +243,17 @@ export default function DiscoverPage() {
             query: `${result.location.locationString} ${dest.country}`,
           }),
         });
+        console.log('[HN] Step 1 response status:', lookupResponse.status);
         if (lookupResponse.ok) {
           const data = await lookupResponse.json();
           placeId = data.placeId;
+          console.log('[HN] Step 1 placeId:', placeId);
+        } else {
+          const errText = await lookupResponse.text();
+          console.warn('[HN] Step 1 failed:', lookupResponse.status, errText);
         }
       } catch (error) {
-        console.error('Landmark placeId lookup failed, falling back to city:', error);
+        console.error('[HN] Step 1 error:', error);
       }
     }
 
@@ -266,10 +261,12 @@ export default function DiscoverPage() {
     if (!placeId && fullDest) {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       placeId = (fullDest as any).placeId || null;
+      console.log('[HN] Step 2: destinations.json placeId:', placeId);
     }
 
     // 3. Last resort: try a city-level lookup
     if (!placeId) {
+      console.log('[HN] Step 3: City lookup for', dest.city, dest.country);
       try {
         const cityLookup = await fetch('/api/places/lookup', {
           method: 'POST',
@@ -279,18 +276,23 @@ export default function DiscoverPage() {
             type: 'locality',
           }),
         });
+        console.log('[HN] Step 3 response status:', cityLookup.status);
         if (cityLookup.ok) {
           const data = await cityLookup.json();
           placeId = data.placeId;
+          console.log('[HN] Step 3 placeId:', placeId);
+        } else {
+          const errText = await cityLookup.text();
+          console.warn('[HN] Step 3 failed:', cityLookup.status, errText);
         }
       } catch (error) {
-        console.error('City placeId lookup failed:', error);
+        console.error('[HN] Step 3 error:', error);
       }
     }
 
     // If we still can't get a placeId, fall back to custom hotel page
     if (!placeId) {
-      console.warn('Could not resolve placeId — falling back to /discover/hotels');
+      console.error('[HN] ALL placeId lookups failed — falling back to /discover/hotels');
       const landmarkCoords = (isBestMatchDest && result?.location)
         ? { lat: result.location.lat, lng: result.location.lng }
         : { lat: dest.latitude, lng: dest.longitude };
@@ -340,7 +342,9 @@ export default function DiscoverPage() {
     });
 
     // Redirect to the whitelabel booking site
-    window.location.href = `https://${whitelabelDomain}/hotels?${params.toString()}`;
+    const redirectUrl = `https://${whitelabelDomain}/hotels?${params.toString()}`;
+    console.log('[HN] Redirecting to:', redirectUrl);
+    window.location.href = redirectUrl;
   }, [router, result]);
 
   // ── Image upload handler ───────────────────────────────────────────

@@ -47,6 +47,7 @@ const args = process.argv.slice(2);
 const INIT = args.includes('--init');
 const STATUS = args.includes('--status');
 const CONTINUOUS = args.includes('--continuous');
+const BACKFILL = args.includes('--backfill');
 
 // Paths
 const PROGRESS_PATH = path.join(process.cwd(), CONFIG.PROGRESS_FILE);
@@ -175,6 +176,67 @@ function initializeQueue(): Progress {
 }
 
 // ============================================
+// Backfill: re-queue under-target destinations
+// ============================================
+
+function initializeBackfill(): Progress {
+  console.log('\n🔄 BACKFILL MODE — checking for under-target destinations...\n');
+
+  const progress = loadProgress();
+  const manifest = loadManifest();
+
+  const backfillQueue: QueueEntry[] = [];
+  let totalDeficit = 0;
+
+  for (const [destId, destData] of Object.entries(manifest.destinations)) {
+    const target = getImageCount(destId);
+    const actual = destData.images.length;
+    const deficit = target - actual;
+
+    if (deficit <= 0) continue;
+
+    const isMajor = MAJOR_DESTINATIONS.has(destId);
+    // Calculate how many batches we need (50 images per batch)
+    const batchesNeeded = Math.ceil(deficit / 50);
+    // Use page 2+ to get fresh results (page 1 was already fetched)
+    const basePageOffset = isMajor ? 2 : 1; // Major dests already used pages 1-2
+
+    for (let i = 0; i < batchesNeeded; i++) {
+      backfillQueue.push({
+        destId,
+        batchPart: 1,
+        totalParts: 1,
+        imageCount: Math.min(deficit - i * 50, 50),
+        isMajor,
+        pageOffset: basePageOffset + i,
+      });
+    }
+
+    console.log(`   ${destId.padEnd(15)} ${String(actual).padStart(3)}/${target}  → ${batchesNeeded} backfill batch(es) for ${deficit} images`);
+    totalDeficit += deficit;
+  }
+
+  if (backfillQueue.length === 0) {
+    console.log('   ✅ All destinations are at target! Nothing to backfill.\n');
+    return progress;
+  }
+
+  // Prepend backfill batches to the front of the queue
+  progress.queue = [...backfillQueue, ...progress.queue];
+  progress.totalBatches = progress.currentBatch + progress.queue.length;
+
+  saveProgress(progress);
+
+  console.log(`\n📋 Backfill summary:`);
+  console.log(`   🔧 ${backfillQueue.length} backfill batches added to front of queue`);
+  console.log(`   📸 ~${totalDeficit} images to recover`);
+  console.log(`   📦 Total queue now: ${progress.queue.length} batches`);
+  console.log(`   ⏱️  Est. time for backfill: ~${(backfillQueue.length * 1.05 / 24).toFixed(1)} days\n`);
+
+  return progress;
+}
+
+// ============================================
 // Search query builder - VARIETY focused
 // ============================================
 
@@ -212,6 +274,38 @@ function buildSearchQueries(
 }
 
 // ============================================
+// Retry helper with exponential backoff
+// ============================================
+
+async function withRetry<T>(
+  fn: () => Promise<T>,
+  label: string,
+  maxRetries: number = 3,
+  baseDelayMs: number = 5000,
+): Promise<T> {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (error: any) {
+      const isRateLimit = error.message?.includes('expected JSON') ||
+        error.message?.includes('403') ||
+        error.message?.includes('429') ||
+        error.message?.includes('Rate Limit');
+
+      if (attempt === maxRetries) throw error;
+
+      const delay = isRateLimit
+        ? baseDelayMs * Math.pow(3, attempt) // Aggressive backoff for rate limits: 15s, 45s, 135s
+        : baseDelayMs * attempt;             // Linear backoff for other errors
+
+      console.log(`         ⏳ ${label} failed (attempt ${attempt}/${maxRetries}), retrying in ${Math.round(delay / 1000)}s...`);
+      await new Promise(r => setTimeout(r, delay));
+    }
+  }
+  throw new Error('Unreachable');
+}
+
+// ============================================
 // Image download - FULL RESOLUTION
 // ============================================
 
@@ -235,6 +329,7 @@ async function fetchAndDownloadImages(
   manifest: Manifest,
   batchImageCount: number = 50,
   batchPart: number = 1,
+  pageOffset: number = 0,
 ): Promise<DestinationImages | null> {
   const destDir = path.join(IMAGES_DIR, dest.id);
   // For batch part 2, offset categories by 5 so we get different search angles
@@ -249,15 +344,19 @@ async function fetchAndDownloadImages(
     }
   }
 
-  console.log(`\n   🔍 Running ${queries.length} varied searches (batch part ${batchPart})...`);
+  const searchPage = 1 + pageOffset;
+  const isBackfill = pageOffset > 0;
+  console.log(`\n   🔍 Running ${queries.length} varied searches (batch part ${batchPart}${isBackfill ? `, page ${searchPage}` : ''})...`);
   if (seenIds.size > 0) {
-    console.log(`   ℹ️  Skipping ${seenIds.size} already-downloaded images from previous batch`);
+    console.log(`   ℹ️  Skipping ${seenIds.size} already-downloaded images`);
   }
 
   const images: ImageRecord[] = [];
   // Start numbering after existing images
   let imageIndex = existingDest ? existingDest.images.length : 0;
   let apiCallsUsed = 0;
+  // Defer trackDownload calls to the end so they don't eat into search API quota
+  const pendingTrackDownloads: string[] = [];
 
   for (const { query, count } of queries) {
     // Extract category from query for logging
@@ -265,12 +364,19 @@ async function fetchAndDownloadImages(
     console.log(`      [${category}] requesting ${count} images...`);
 
     try {
-      const result = await unsplash.search.getPhotos({
-        query,
-        page: 1,
-        perPage: count + 3, // Request extra to account for duplicates
-        orientation: 'landscape', // Better for cards and hero images
-      });
+      // Request more per page when backfilling to account for duplicate skips
+      const extraBuffer = isBackfill ? Math.min(seenIds.size, 20) : 3;
+      const result = await withRetry(
+        () => unsplash.search.getPhotos({
+          query,
+          page: searchPage,
+          perPage: Math.min(count + extraBuffer, 30), // Unsplash max is 30
+          orientation: 'landscape', // Better for cards and hero images
+        }),
+        category,
+        3,
+        5000,
+      );
       apiCallsUsed++;
 
       if (result.errors) {
@@ -298,12 +404,8 @@ async function fetchAndDownloadImages(
         const success = await downloadImage(photo.urls.full, filepath);
 
         if (success) {
-          // Trigger download event for Unsplash stats (required by API terms)
-          try {
-            await unsplash.photos.trackDownload({ downloadLocation: photo.links.download_location });
-          } catch (e) {
-            // Non-critical
-          }
+          // Queue trackDownload for later to preserve API budget for searches
+          pendingTrackDownloads.push(photo.links.download_location);
 
           images.push({
             filename,
@@ -316,6 +418,11 @@ async function fetchAndDownloadImages(
             validated: false,
             validationStatus: 'pending',
             queryUsed: category,
+            blurHash: photo.blur_hash || null,
+            color: photo.color || '#cccccc',
+            altText: photo.alt_description || null,
+            width: photo.width,
+            height: photo.height,
           });
 
           downloaded++;
@@ -327,11 +434,24 @@ async function fetchAndDownloadImages(
 
       console.log(`         ✅ ${downloaded} downloaded`);
     } catch (error: any) {
-      console.error(`         Error: ${error.message}`);
+      console.error(`         ❌ Error (all retries failed): ${error.message}`);
     }
 
-    // Small delay between API calls
-    await new Promise(r => setTimeout(r, 200));
+    // Delay between API calls to spread out requests
+    await new Promise(r => setTimeout(r, 500));
+  }
+
+  // Now fire off deferred trackDownload calls (required by Unsplash API terms)
+  if (pendingTrackDownloads.length > 0) {
+    console.log(`   📊 Reporting ${pendingTrackDownloads.length} downloads to Unsplash...`);
+    for (const downloadLocation of pendingTrackDownloads) {
+      try {
+        await unsplash.photos.trackDownload({ downloadLocation });
+      } catch (e) {
+        // Non-critical — best effort
+      }
+      await new Promise(r => setTimeout(r, 100));
+    }
   }
 
   console.log(`\n   📸 Total: ${images.length} full-resolution images downloaded`);
@@ -406,10 +526,10 @@ async function runBatch(progress: Progress, manifest: Manifest): Promise<void> {
     console.log(`   Total for destination: ${getImageCount(entry.destId)} images across ${entry.totalParts} batches`);
   }
 
-  const result = await fetchAndDownloadImages(dest, manifest, entry.imageCount, entry.batchPart);
+  const result = await fetchAndDownloadImages(dest, manifest, entry.imageCount, entry.batchPart, entry.pageOffset || 0);
 
   if (result) {
-    if (entry.batchPart > 1 && manifest.destinations[dest.id]) {
+    if ((entry.batchPart > 1 || entry.pageOffset) && manifest.destinations[dest.id]) {
       // Append to existing destination entry (batch part 2+)
       const existing = manifest.destinations[dest.id];
       existing.images.push(...result.images);
@@ -571,6 +691,16 @@ async function main(): Promise<void> {
     showStatus(progress);
     console.log('Queue initialized. Run without --init to start downloading.\n');
     return;
+  }
+
+  // Backfill under-target destinations
+  if (BACKFILL) {
+    progress = initializeBackfill();
+    showStatus(progress);
+    if (!CONTINUOUS) {
+      console.log('Backfill queued. Run with --backfill --continuous to start.\n');
+      return;
+    }
   }
 
   if (progress.queue.length === 0 && progress.completed.length === 0) {

@@ -44,6 +44,78 @@ export const MAJOR_DESTINATIONS = new Set([
 export const ZERO_COVERAGE_DESTINATIONS = new Set([
   'tbilisi',   // Georgia — 125 POIs, 0 images
   'varanasi',  // India — 128 POIs, 0 images
+  // ── New destinations batch (215) ──────────────────────────
+  // Turkey (7)
+  'bodrum', 'cappadocia', 'izmir', 'trabzon', 'ephesus', 'pamukkale', 'gaziantep',
+  // US (28)
+  'sacramento', 'san-jose', 'columbus', 'baltimore', 'honolulu', 'newport-ri',
+  'finger-lakes', 'berkshires', 'outer-banks', 'mackinac-island', 'bozeman', 'bend',
+  'kauai', 'big-island', 'lake-placid', 'taos', 'telluride', 'stowe',
+  'bar-harbor', 'annapolis', 'door-county', 'whitefish', 'sarasota', 'hilton-head',
+  'galveston', 'traverse-city', 'mystic', 'providence',
+  // Iceland (4)
+  'akureyri', 'vik', 'husavik', 'blue-lagoon',
+  // Ireland (4)
+  'killarney', 'dingle', 'cliffs-of-moher', 'westport',
+  // Portugal (5)
+  'braga', 'coimbra', 'evora', 'guimaraes', 'tavira',
+  // Spain (4)
+  'segovia', 'salamanca', 'ronda', 'cadiz',
+  // France (4)
+  'annecy', 'avignon', 'carcassonne', 'dordogne',
+  // Italy (5)
+  'lucca', 'siena', 'orvieto', 'matera', 'ravenna',
+  // Germany (5)
+  'rothenburg', 'bamberg', 'lubeck', 'potsdam', 'trier',
+  // Czech Republic (3)
+  'cesky-krumlov', 'brno', 'karlovy-vary',
+  // Hungary (2), Austria (2)
+  'eger', 'pecs', 'hallstatt', 'linz',
+  // Scandinavia (6)
+  'turku', 'stavanger', 'tampere', 'odense', 'visby', 'faroe-islands',
+  // Eastern Europe / Balkans (14)
+  'novi-sad', 'ohrid', 'berat', 'prizren', 'timisoara', 'sibiu', 'brasov',
+  'varna', 'budva', 'skopje', 'piran', 'constanta', 'torun', 'zakopane',
+  // Jordan (2), Uzbekistan (3), Caucasus (3)
+  'petra', 'wadi-rum', 'samarkand', 'bukhara', 'khiva', 'yerevan', 'baku', 'batumi',
+  // Morocco (2), Egypt (2)
+  'tangier', 'rabat', 'cairo', 'alexandria',
+  // Caribbean (7)
+  'dominica', 'sint-maarten', 'tobago', 'tortola', 'saint-vincent', 'montego-bay', 'punta-cana',
+  // Mexico (4)
+  'queretaro', 'morelia', 'san-cristobal', 'mazatlan',
+  // Central America (5)
+  'granada-nicaragua', 'leon-nicaragua', 'el-tunco', 'semuc-champey', 'bocas-del-toro',
+  // South America (10)
+  'cali', 'sucre', 'asuncion', 'manaus', 'recife', 'fortaleza', 'huaraz', 'potosi', 'natal', 'trujillo',
+  // Japan (6)
+  'kamakura', 'nikko', 'takayama', 'naoshima', 'kobe', 'matsumoto',
+  // South Korea (5)
+  'gyeongju', 'jeonju', 'sokcho', 'daegu', 'incheon',
+  // China (3)
+  'kunming', 'chongqing', 'harbin',
+  // Thailand (5)
+  'pai', 'sukhothai', 'kanchanaburi', 'khao-lak', 'koh-lanta',
+  // Vietnam (4)
+  'dalat', 'phu-quoc', 'ninh-binh', 'mui-ne',
+  // Cambodia (2), Laos (2), Myanmar (2)
+  'phnom-penh', 'kampot', 'vientiane', 'vang-vieng', 'bagan', 'mandalay',
+  // Indonesia (3), Malaysia (2), Philippines (2)
+  'flores', 'bandung', 'surabaya', 'cameron-highlands', 'kota-kinabalu', 'bohol', 'coron',
+  // India (5 + 15)
+  'hampi', 'jodhpur', 'mysore', 'pondicherry', 'darjeeling',
+  'leh-ladakh', 'jaisalmer', 'kolkata', 'hyderabad', 'shimla', 'manali', 'munnar',
+  'alleppey', 'ranthambore', 'khajuraho', 'andaman-islands', 'aurangabad', 'pushkar',
+  'bangalore', 'chennai',
+  // Nepal (2), Taiwan (2), Sri Lanka (2)
+  'chitwan', 'lumbini', 'tainan', 'jiufen', 'sigiriya', 'trincomalee',
+  // Australia (3), New Zealand (2)
+  'alice-springs', 'broome', 'margaret-river', 'abel-tasman', 'wanaka',
+  // Africa (12)
+  'mombasa', 'arusha', 'maputo', 'lamu', 'swakopmund', 'stellenbosch',
+  'antananarivo', 'nosy-be', 'livingstone', 'maun', 'accra', 'diani-beach',
+  // Pacific (2), Mongolia (1), Oman (1), Canada (1)
+  'tonga', 'moorea', 'ulaanbaatar', 'nizwa', 'niagara-on-the-lake',
 ]);
 
 // Priority queue: only these destinations will be downloaded in the current run.
@@ -87,6 +159,11 @@ export interface ImageRecord {
   validated: boolean;
   validationStatus: 'pending' | 'approved' | 'rejected' | null;
   queryUsed: string; // Track which query found this image
+  blurHash: string | null;
+  color: string;          // Dominant color hex from Unsplash
+  altText: string | null;  // photo.alt_description
+  width: number;
+  height: number;
 }
 
 export interface DestinationImages {
@@ -113,6 +190,8 @@ export interface QueueEntry {
   /** How many images to download in this batch */
   imageCount: number;
   isMajor: boolean;
+  /** Page offset for search queries (used by backfill to get fresh results) */
+  pageOffset?: number;
 }
 
 export interface Progress {

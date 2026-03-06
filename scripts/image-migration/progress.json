@@ -1,134 +1,8 @@
 {
-  "lastUpdated": "2026-02-28T01:35:54.529Z",
-  "currentBatch": 22,
-  "totalBatches": 70,
+  "lastUpdated": "2026-03-06T00:47:01.691Z",
+  "currentBatch": 86,
+  "totalBatches": 116,
   "queue": [
-    {
-      "destId": "venice",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "venice",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "milan",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "milan",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "madrid",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "madrid",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "seville",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "seville",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "munich",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "munich",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "berlin",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "berlin",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "brussels",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "brussels",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "copenhagen",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "copenhagen",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "stockholm",
-      "batchPart": 1,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
-    {
-      "destId": "stockholm",
-      "batchPart": 2,
-      "totalParts": 2,
-      "imageCount": 50,
-      "isMajor": true
-    },
     {
       "destId": "oslo",
       "batchPart": 1,
@@ -351,7 +225,16 @@
     "prague",
     "dubrovnik",
     "vienna",
-    "florence"
+    "florence",
+    "milan",
+    "madrid",
+    "seville",
+    "venice",
+    "munich",
+    "berlin",
+    "brussels",
+    "copenhagen",
+    "stockholm"
   ],
   "pendingReview": [
     "paris",
@@ -364,16 +247,25 @@
     "prague",
     "dubrovnik",
     "vienna",
-    "florence"
+    "florence",
+    "milan",
+    "madrid",
+    "seville",
+    "venice",
+    "munich",
+    "berlin",
+    "brussels",
+    "copenhagen",
+    "stockholm"
   ],
   "approved": [],
   "rejected": [],
   "stats": {
     "totalDestinations": 36,
-    "totalImagesDownloaded": 550,
+    "totalImagesDownloaded": 2196,
     "totalApproved": 0,
     "totalRejected": 0
   },
-  "lastBatchCompletedAt": "2026-02-28T01:35:54.529Z",
-  "nextBatchAvailableAt": "2026-02-28T02:38:54.529Z"
+  "lastBatchCompletedAt": "2026-03-06T00:47:01.690Z",
+  "nextBatchAvailableAt": "2026-03-06T01:50:01.690Z"
 }
